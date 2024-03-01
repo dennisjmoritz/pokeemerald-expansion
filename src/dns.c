@@ -419,9 +419,6 @@ void DnsApplyFilters()
         else
             for (colNum = 0; colNum < 16; colNum++)  //Transfers palette to buffer without filtering
                 sDnsPaletteDmaBuffer[palNum * 16 + colNum] = gPlttBufferFaded[palNum * 16 + colNum];      
-
-    if (!IsMapDNSException() && IsLightActive() && !gMain.inBattle)
-        DoDnsLightning();
 }
 
 //Applies filter to a colour. Filters RGB channels are substracted from colour RGB channels.

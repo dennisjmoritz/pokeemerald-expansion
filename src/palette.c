@@ -192,15 +192,9 @@ bool8 BeginNormalPaletteFade(u32 selectedPalettes, s8 delay, u8 startY, u8 targe
         UpdatePaletteFade();
 
         temp = gPaletteFade.bufferTransferDisabled;
-<<<<<<< HEAD
         gPaletteFade.bufferTransferDisabled = FALSE;
-        CpuCopy32(gPlttBufferFaded, (void *)PLTT, PLTT_SIZE);
-        sPlttBufferTransferPending = FALSE;
-=======
-        gPaletteFade.bufferTransferDisabled = 0;
         TransferPlttBuffer();   //Fix DNS flickering
-        sPlttBufferTransferPending = 0;
->>>>>>> 1d0a7f70e1ccf49ea865b1d44e8fa6f507fe2853
+        sPlttBufferTransferPending = FALSE;
         if (gPaletteFade.mode == HARDWARE_FADE && gPaletteFade.active)
             UpdateBlendRegisters();
         gPaletteFade.bufferTransferDisabled = temp;
