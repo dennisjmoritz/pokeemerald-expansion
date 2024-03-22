@@ -937,7 +937,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
     u16 currChar;
     s32 width;
     s32 widthHelper;
-    u8 repeats;
+    bool8 printAll;
 
     switch (textPrinter->state)
     {
@@ -961,18 +961,10 @@ static u16 RenderText(struct TextPrinter *textPrinter)
         else
             textPrinter->delayCounter = textPrinter->textSpeed;
 
-        switch (GetPlayerTextSpeed())
-        {
-            case OPTIONS_TEXT_SPEED_SLOW:
-                repeats = 1;
-                break;
-            case OPTIONS_TEXT_SPEED_MID:
-                repeats = 2;
-                break;
-            case OPTIONS_TEXT_SPEED_FAST:
-                repeats = 4;
-                break;
-        }
+        if(GetPlayerTextSpeed() == OPTIONS_TEXT_SPEED_FAST)
+            printAll = TRUE;
+        else
+            printAll = FALSE;
 
 
         do {
@@ -1180,8 +1172,10 @@ static u16 RenderText(struct TextPrinter *textPrinter)
                     textPrinter->printerTemplate.currentX += gCurGlyph.width;
             }
 
-            repeats--;
-        } while (repeats > 0);
+            if (*textPrinter->printerTemplate.currentChar == EOS)
+                printAll = FALSE;
+
+        } while (printAll);
 
         return RENDER_PRINT;
     case RENDER_STATE_WAIT:

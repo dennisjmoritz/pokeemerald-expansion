@@ -15,8 +15,8 @@
 #define QUEST_MENU_BUFFER_QUEST_NAME    10   //buffers a quest name to gStringVar1
 
 // quest number defines
-#define QUEST_1          0
-#define QUEST_2          1
+#define QUEST_POKEDEX    0
+#define QUEST_ELITE_FOUR 1
 #define QUEST_3          2
 #define QUEST_4          3
 #define QUEST_5          4
@@ -47,40 +47,40 @@
 #define QUEST_30        29
 #define QUEST_COUNT     (QUEST_30 + 1)
 
-#define SUB_QUEST_1          0
-#define SUB_QUEST_2          1
-#define SUB_QUEST_3          2
-#define SUB_QUEST_4          3
-#define SUB_QUEST_5          4
-#define SUB_QUEST_6          5
-#define SUB_QUEST_7          6
-#define SUB_QUEST_8          7
-#define SUB_QUEST_9          8
-#define SUB_QUEST_10         9
-#define SUB_QUEST_11        10
-#define SUB_QUEST_12        11
-#define SUB_QUEST_13        12
-#define SUB_QUEST_14        13
-#define SUB_QUEST_15        14
-#define SUB_QUEST_16        15
-#define SUB_QUEST_17        16
-#define SUB_QUEST_18        17
-#define SUB_QUEST_19        18
-#define SUB_QUEST_20        19
-#define SUB_QUEST_21        20
-#define SUB_QUEST_22        21
-#define SUB_QUEST_23        22
-#define SUB_QUEST_24        23
-#define SUB_QUEST_25        24
-#define SUB_QUEST_26        25
-#define SUB_QUEST_27        26
+#define SUB_QUEST_KANTO_GYM_1         0
+#define SUB_QUEST_KANTO_GYM_2         1
+#define SUB_QUEST_KANTO_GYM_3         2
+#define SUB_QUEST_KANTO_GYM_4         3
+#define SUB_QUEST_KANTO_GYM_5         4
+#define SUB_QUEST_KANTO_GYM_6         5
+#define SUB_QUEST_KANTO_GYM_7         6
+#define SUB_QUEST_KANTO_GYM_8         7
+#define SUB_QUEST_KANTO_ELITE_FOUR    8
+#define SUB_QUEST_JOHTO_GYM_1         9
+#define SUB_QUEST_JOHTO_GYM_2        10
+#define SUB_QUEST_JOHTO_GYM_3        11
+#define SUB_QUEST_JOHTO_GYM_4        12
+#define SUB_QUEST_JOHTO_GYM_5        13
+#define SUB_QUEST_JOHTO_GYM_6        14
+#define SUB_QUEST_JOHTO_GYM_7        15
+#define SUB_QUEST_JOHTO_GYM_8        16
+#define SUB_QUEST_JOHTO_ELITE_FOUR   17
+#define SUB_QUEST_HOENN_GYM_1        18
+#define SUB_QUEST_HOENN_GYM_2        19
+#define SUB_QUEST_HOENN_GYM_3        20
+#define SUB_QUEST_HOENN_GYM_4        21
+#define SUB_QUEST_HOENN_GYM_5        22
+#define SUB_QUEST_HOENN_GYM_6        23
+#define SUB_QUEST_HOENN_GYM_7        24
+#define SUB_QUEST_HOENN_GYM_8        25
+#define SUB_QUEST_HOENN_ELITE_FOUR   26
 #define SUB_QUEST_28        27
 #define SUB_QUEST_29        28
 #define SUB_QUEST_30        29
 
-#define QUEST_1_SUB_COUNT 10
-#define QUEST_2_SUB_COUNT 20
-#define SUB_QUEST_COUNT (QUEST_1_SUB_COUNT + QUEST_2_SUB_COUNT)
+#define QUEST_ELITE_FOUR_SUB_COUNT 27
+#define QUEST_2_SUB_COUNT 3
+#define SUB_QUEST_COUNT (QUEST_ELITE_FOUR_SUB_COUNT + QUEST_2_SUB_COUNT)
 
 #define QUEST_ARRAY_COUNT (SUB_QUEST_COUNT > QUEST_COUNT ? SUB_QUEST_COUNT : QUEST_COUNT)
 #endif // GUARD_CONSTANTS_QUESTS_H

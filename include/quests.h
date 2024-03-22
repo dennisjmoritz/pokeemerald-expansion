@@ -46,6 +46,7 @@ struct SideQuest
     const u8 spritetype;
 	const struct SubQuest *subquests;
 	const u8 numSubquests;
+	const bool8 displayAllSubquests;
 }; 
 
 enum QuestCases
