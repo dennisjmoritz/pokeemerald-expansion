@@ -86,11 +86,11 @@ LittlerootTown_BrendansHouse_1F_EventScript_GoSeeRoom::
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "The mover's POKéMON do all the work\n"
-	.string "of moving us out and cleaning up after.\l"
+	.string "of moving you in and cleaning up after.\l"
 	.string "This is so convenient!\p"
 	.string "{PLAYER}, DAD bought you a new clock\n"
-	.string "to mark you inherting the house.\n"
-	.string "It's in your room upstairs!\p"
+	.string "as a housewarming gift, it's in your\l"
+	.string "room upstairs!\p"
 	.string "Go check it out, honey, and don't\n"
 	.string "forget to set it!$"
 
@@ -112,12 +112,12 @@ PlayersHouse_1F_Text_ItsOverWeMissedHim:
 	.string "Too bad.$"
 
 PlayersHouse_1F_Text_ThingsMovedOut:
-	.string "Well honey, all of our things have been\n"
-	.string "moved out.\p"
+	.string "Well honey, all of your things have been\n"
+	.string "moved in.\p"
 	.string "Are you sure that you're going to be ok\n"
 	.string "living here alone?\p"
-	.string "You're still welcome to come live with us\n"
-	.string "in Petalburg!$"
+	.string "You're still welcome to continue living\n"
+	.string "with us in Petalburg!$"
 
 PlayersHouse_1F_Text_StartYourAdventure:
 	.string "Ok ok, I understand you're ready to start\n"
@@ -132,17 +132,18 @@ PlayersHouse_1F_Text_ItsAPokemon:
 
 PlayersHouse_1F_Text_TakeCareOfHouse:
 	.string "I'm really going to miss you.\p"
-	.string "Please take good care of our home,\n"
+	.string "Please take good care of your home,\n"
 	.string "I know you and your new friend will do\l"
 	.string "just fine!\p"
-	.string "I'm going to head out now, I still have\n"
-	.string "a lot to do at the new house!\p"
-	.string "Please come visit us in Petalburg, honey!$"
+	.string "Come and visit us in Petalburg soon,\n"
+	.string "honey! I love you!$"
 
 PlayersHouse_1F_Text_AlmostForgot:
 	.string "I almost forgot!\p"
-	.string "Professor Birch wants you to visit him in\n"
-	.string "his lab, please go and see him!\p"
+	.string "I spoke to a man named Professor Birch\n"
+	.string "here in Littleroot earlier today.\p" 
+	.string "He wants you to visit him in his lab,\n"
+	.string "please go and see him!\p"
 	.string "Bye {PLAYER}!$"
 
 PlayersHouse_1F_Text_IsThatAPokenav:

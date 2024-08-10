@@ -27,30 +27,8 @@ LittlerootTown_MaysHouse_1F_EventScript_CongratsNewHome::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	applymovement LOCALID_RIVAL_MOM, LittlerootTown_MaysHouse_1F_Movement_RivalMomApproach
 	waitmovement 0
-	goto_if_set FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM, LittlerootTown_MaysHouse_1F_EventScript_CongratsNewHome2
 	special GetRivalSonDaughterString
 	msgbox RivalsHouse_1F_Text_CongratsOnHome, MSGBOX_DEFAULT
-	setflag FLAG_MET_RIVAL_MOM
-	setvar VAR_LITTLEROOT_HOUSE_STATE, 2
-	releaseall
-	end
-
-LittlerootTown_MaysHouse_1F_EventScript_CongratsNewHome2::
-	special GetRivalSonDaughterString
-	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, RivalsHouse_1F_EventScript_CongratsOnHome2_Male
-	goto_if_eq VAR_RESULT, FEMALE, RivalsHouse_1F_EventScript_CongratsOnHome2_Female
-	end
-
-RivalsHouse_1F_EventScript_CongratsOnHome2_Male::
-	msgbox RivalsHouse_1F_Text_CongratsOnHome2_Male, MSGBOX_DEFAULT
-	setflag FLAG_MET_RIVAL_MOM
-	setvar VAR_LITTLEROOT_HOUSE_STATE, 2
-	releaseall
-	end
-
-RivalsHouse_1F_EventScript_CongratsOnHome2_Female::
-	msgbox RivalsHouse_1F_Text_CongratsOnHome2_Female, MSGBOX_DEFAULT
 	setflag FLAG_MET_RIVAL_MOM
 	setvar VAR_LITTLEROOT_HOUSE_STATE, 2
 	releaseall
@@ -71,7 +49,7 @@ RivalsHouse_1F_EventScript_RivalMom::
 	goto_if_set FLAG_DEFEATED_RIVAL_ROUTE103, RivalsHouse_1F_EventScript_VisitParentsEverySoOften
 	goto_if_eq VAR_LITTLEROOT_RIVAL_STATE, 2, RivalsHouse_1F_EventScript_RivalTooBusy
 	special GetRivalSonDaughterString
-	msgbox RivalsHouse_1F_Text_LikeChildLikeFather, MSGBOX_DEFAULT
+	msgbox RivalsHouse_1F_Text_YouShouldVisitOurChild, MSGBOX_DEFAULT
 	release
 	end
 
@@ -92,12 +70,6 @@ RivalsHouse_1F_EventScript_RivalTooBusy_Female::
 	release
 	end
 
-
-RivalsHouse_1F_EventScript_RivalIsOnRoute103::
-	msgbox RivalsHouse_1F_Text_WentOutToRoute103, MSGBOX_DEFAULT
-	release
-	end
-
 RivalsHouse_1F_EventScript_VisitParentsEverySoOften::
 	msgbox RivalsHouse_1F_Text_ShouldVisitParentsEverySoOften, MSGBOX_DEFAULT
 	release
@@ -112,37 +84,22 @@ RivalsHouse_1F_EventScript_RivalSibling::
 	end
 
 RivalsHouse_1F_Text_CongratsOnHome:
-	.string "Oh, hello {PLAYER}{KUN}!\p"
-	.string "Congratulations on inheriting your home\n"
-	.string "from your parents!\p"
-	.string "We are definitely going to miss them.\p"
-	.string "{RIVAL} is upstairs, I think, you should\n"
-	.string "go say hello!$"
+	.string "Oh, hello! And you are...?\p"
+	.string "Very nice to meet you {PLAYER}{KUN}!\p"
+	.string "I had heard we were getting a new\n"
+	.string "arrival in town!\p"
+	.string "My name is Azalea Birch, and this\n"
+	.string "is our son Atlas.\p"
+	.string "If you're looking for the professor\n"
+	.string "you can usually find him in his lab.\p"
 
-RivalsHouse_1F_Text_CongratsOnHome2_Male:
-	.string "Oh, hello {PLAYER}{KUN}!\p"
-	.string "Congratulations on inheriting your home\n"
-	.string "from your parents!\p"
-	.string "We are definitely going to miss them.\p"
-	.string "I think {RIVAL} is out helping her\n"
-	.string "father with his research.\l"
-	.string "They should be home soon!$"
-
-RivalsHouse_1F_Text_CongratsOnHome2_Female:
-	.string "Oh, hello {PLAYER}{KUN}!\p"
-	.string "Congratulations on inheriting your home\n"
-	.string "from your parents!\p"
-	.string "We are definitely going to miss them.\p"
-	.string "I think {RIVAL} is out helping his\n"
-	.string "father with his research.\l"
-	.string "They should be home soon!$"
-
-RivalsHouse_1F_Text_LikeChildLikeFather:
-	.string "Like child, like father.\p"
-	.string "My husband is as wild about POKéMON\n"
-	.string "as our child.\p"
-	.string "If he's not at his LAB, he's likely\n"
-	.string "scrabbling about in grassy places.$"
+RivalsHouse_1F_Text_YouShouldVisitOurChild:
+	.string "We have a {STR_VAR_1}, {RIVAL}, about the\n"
+	.string "same age as you.\p"
+	.string "Our {STR_VAR_1} is working to become\n"
+	.string "a POKéMON trainer!\p"
+	.string "{RIVAL} lives just north of here\n"
+	.string "in Oldale Town, you should visit!$"
 
 RivalsHouse_1F_Text_TooBusy_Male:
 	.string "That {RIVAL}!\p"
@@ -153,12 +110,6 @@ RivalsHouse_1F_Text_TooBusy_Female:
 	.string "That {RIVAL}!\p"
 	.string "Our child is always so busy with\n"
 	.string "POKéMON... like father like son!$"
-
-RivalsHouse_1F_Text_WentOutToRoute103:
-	.string "Oh, {RIVAL} went out to ROUTE 103\n"
-	.string "just a little while ago.\p"
-	.string "Like father, like child.\n"
-	.string "{RIVAL} can't stay quietly at home.$"
 
 RivalsHouse_1F_Text_ShouldVisitParentsEverySoOften:
 	.string "I think it's wonderful for people to\n"

@@ -85,10 +85,6 @@ LittlerootTown_EventScript_GoInsideWithMom::
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomApproachPlayerAtTruck
 	waitmovement 0
 	msgbox LittlerootTown_Text_YoureBack, MSGBOX_DEFAULT
-	applymovement LOCALID_MOM, Common_Movement_WalkInPlaceFasterUp
-	msgbox LittlerootTown_Text_StillCantBelieve, MSGBOX_DEFAULT
-	applymovement LOCALID_MOM, Common_Movement_WalkInPlaceFasterLeft
-	msgbox LittlerootTown_Text_LetsGoInside, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomApproachDoor
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_PlayerApproachDoor
@@ -176,16 +172,8 @@ LittlerootTown_EventScript_MaysHouseSign::
 
 LittlerootTown_Text_YoureBack:
 	.string "MOM: {PLAYER}, you're back, honey!\p"
-	.string "It must be tiring riding with our things\n"
+	.string "It must be tiring riding with your things\n"
 	.string "in the moving truck.\p"
-	.string "Thank you for helping us with the move.$"
-
-LittlerootTown_Text_StillCantBelieve:
-	.string "I still can't believe your father and\n"
-	.string "I are leaving this place after all\l"
-	.string "these years...$"
-
-LittlerootTown_Text_LetsGoInside:
 	.string "Come on, let's go inside.$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
