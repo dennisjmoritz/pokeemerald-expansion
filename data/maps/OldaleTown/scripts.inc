@@ -20,6 +20,10 @@ OldaleTown_EventScript_TownSign::
 	msgbox OldaleTown_Text_TownSign, MSGBOX_SIGN
 	end
 
+OldaleTown_EventScript_RivalsHouseSign::
+	msgbox OldaleTown_Text_RivalsHouseSign, MSGBOX_SIGN
+	end
+
 OldaleTown_EventScript_Girl::
 	msgbox OldaleTown_Text_SavingMyProgress, MSGBOX_NPC
 	end
@@ -320,3 +324,5 @@ OldaleTown_Text_TownSign:
 	.string "OLDALE TOWN\n"
 	.string "“Where things start off scarce.”$"
 
+OldaleTown_Text_RivalsHouseSign:
+	.string "{RIVAL}'S HOUSE$"
