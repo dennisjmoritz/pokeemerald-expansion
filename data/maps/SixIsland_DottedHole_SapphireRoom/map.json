@@ -21,14 +21,14 @@
       "x": 11,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_NEW_MAP2",
+      "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_ENTRANCE",
       "dest_warp_id": 2
     },
     {
       "x": 5,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_NEW_MAP2",
+      "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_ENTRANCE",
       "dest_warp_id": 1
     }
   ],

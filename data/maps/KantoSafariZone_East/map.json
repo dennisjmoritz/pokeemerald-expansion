@@ -22,35 +22,35 @@
       "y": 9,
       "elevation": 0,
       "dest_map": "MAP_KANTO_SAFARI_ZONE_NORTH",
-      "dest_warp_id": 1
+      "dest_warp_id": "1"
     },
     {
       "x": 8,
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_KANTO_SAFARI_ZONE_NORTH",
-      "dest_warp_id": 2
+      "dest_warp_id": "2"
     },
     {
       "x": 40,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_KANTO_SAFARI_ZONE_BUILDING2",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 8,
       "y": 26,
       "elevation": 0,
       "dest_map": "MAP_KANTO_SAFARI_ZONE_CENTER",
-      "dest_warp_id": 2
+      "dest_warp_id": "2"
     },
     {
       "x": 8,
       "y": 27,
       "elevation": 0,
       "dest_map": "MAP_KANTO_SAFARI_ZONE_CENTER",
-      "dest_warp_id": 4
+      "dest_warp_id": "4"
     }
   ],
   "coord_events": [

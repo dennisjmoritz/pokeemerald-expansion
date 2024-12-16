@@ -6552,14 +6552,14 @@
       "blockdata_filepath": "data/layouts/Route18_EastEntrance_2F/map.bin"
     },
     {
-      "id": "LAYOUT_SEAFOM_ISLANDS_1F",
-      "name": "SeafomIslands_1F_Layout",
+      "id": "LAYOUT_SEAFOAM_ISLANDS_1F",
+      "name": "SeafoamIslands_1F_Layout",
       "width": 38,
       "height": 24,
       "primary_tileset": "gTileset_KantoGeneral",
       "secondary_tileset": "gTileset_SeafoamIslands",
-      "border_filepath": "data/layouts/SeafomIslands_1F/border.bin",
-      "blockdata_filepath": "data/layouts/SeafomIslands_1F/map.bin"
+      "border_filepath": "data/layouts/SeafoamIslands_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SeafoamIslands_1F/map.bin"
     },
     {
       "id": "LAYOUT_SEAFOAM_ISLANDS_B1F",
@@ -6792,14 +6792,14 @@
       "blockdata_filepath": "data/layouts/MtEmber_Exterior/map.bin"
     },
     {
-      "id": "LAYOUT_MT_EMBER_SUMMY_PATH_1F",
-      "name": "MtEmber_SummyPath_1F_Layout",
+      "id": "LAYOUT_MT_EMBER_SUMMIT_PATH_1F",
+      "name": "MtEmber_SummitPath_1F_Layout",
       "width": 15,
       "height": 18,
       "primary_tileset": "gTileset_KantoGeneral",
       "secondary_tileset": "gTileset_MtEmber",
-      "border_filepath": "data/layouts/MtEmber_SummyPath_1F/border.bin",
-      "blockdata_filepath": "data/layouts/MtEmber_SummyPath_1F/map.bin"
+      "border_filepath": "data/layouts/MtEmber_SummitPath_1F/border.bin",
+      "blockdata_filepath": "data/layouts/MtEmber_SummitPath_1F/map.bin"
     },
     {
       "id": "LAYOUT_MT_EMBER_SUMMIT_PATH_2F",
@@ -7672,14 +7672,14 @@
       "blockdata_filepath": "data/layouts/SixIsland_RuinValley/map.bin"
     },
     {
-      "id": "LAYOUT_NEW_MAP2",
-      "name": "NewMap2_Layout",
+      "id": "LAYOUT_SIX_ISLAND_DOTTED_HOLE_ENTRANCE",
+      "name": "SixIsland_DottedHole_Entrance_Layout",
       "width": 16,
       "height": 11,
       "primary_tileset": "gTileset_KantoGeneral",
       "secondary_tileset": "gTileset_DottedHole",
-      "border_filepath": "data/layouts/NewMap2/border.bin",
-      "blockdata_filepath": "data/layouts/NewMap2/map.bin"
+      "border_filepath": "data/layouts/SixIsland_DottedHole_Entrance/border.bin",
+      "blockdata_filepath": "data/layouts/SixIsland_DottedHole_Entrance/map.bin"
     },
     {
       "id": "LAYOUT_SIX_ISLAND_DOTTED_HOLE_B1F",

@@ -809,7 +809,7 @@
 #define MAP_ROCK_TUNNEL_1F                      (13 | (46 << 8))
 #define MAP_ROCK_TUNNEL_B1F                     (14 | (46 << 8))
 #define MAP_POWER_PLANT                         (15 | (46 << 8))
-#define MAP_SEAFOM_ISLANDS_1F                   (16 | (46 << 8))
+#define MAP_SEAFOAM_ISLANDS_1F                  (16 | (46 << 8))
 #define MAP_SEAFOAM_ISLANDS_B1F                 (17 | (46 << 8))
 #define MAP_SEAFOAM_ISLANDS_B2F                 (18 | (46 << 8))
 #define MAP_SEAFOAM_ISLANDS_B3F                 (19 | (46 << 8))
@@ -976,7 +976,7 @@
 
 // gMapGroup_SeviiDungeons
 #define MAP_ONE_ISLAND_KINDLE_ROAD_EMBER_SPA          (0 | (69 << 8))
-#define MAP_MT_EMBER_SUMMY_PATH_1F                    (1 | (69 << 8))
+#define MAP_MT_EMBER_SUMMIT_PATH_1F                   (1 | (69 << 8))
 #define MAP_MT_EMBER_SUMMIT_PATH_2F                   (2 | (69 << 8))
 #define MAP_MT_EMBER_SUMMIT_PATH_3F                   (3 | (69 << 8))
 #define MAP_MT_EMBER_SUMMIT                           (4 | (69 << 8))
@@ -1011,7 +1011,7 @@
 #define MAP_FIVE_ISLAND_LOST_CAVE_ROOM14              (33 | (69 << 8))
 #define MAP_SIX_ISLAND_PATTERN_BUSH                   (34 | (69 << 8))
 #define MAP_SIX_ISLAND_ALTERING_CAVE                  (35 | (69 << 8))
-#define MAP_NEW_MAP2                                  (36 | (69 << 8))
+#define MAP_SIX_ISLAND_DOTTED_HOLE_ENTRANCE           (36 | (69 << 8))
 #define MAP_SIX_ISLAND_DOTTED_HOLE_B1F                (37 | (69 << 8))
 #define MAP_SIX_ISLAND_DOTTED_HOLE_B2F                (38 | (69 << 8))
 #define MAP_SIX_ISLAND_DOTTED_HOLE_B3F                (39 | (69 << 8))

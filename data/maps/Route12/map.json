@@ -14,19 +14,19 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "down",
+      "map": "MAP_ROUTE13",
       "offset": -48,
-      "map": "MAP_ROUTE13"
+      "direction": "down"
     },
     {
-      "direction": "left",
+      "map": "MAP_ROUTE11",
       "offset": 60,
-      "map": "MAP_ROUTE11"
+      "direction": "left"
     },
     {
-      "direction": "up",
+      "map": "MAP_LAVENDER_TOWN",
       "offset": 0,
-      "map": "MAP_LAVENDER_TOWN"
+      "direction": "up"
     }
   ],
   "object_events": [
@@ -38,21 +38,21 @@
       "y": 15,
       "elevation": 0,
       "dest_map": "MAP_ROUTE12_NORTH_ENTRANCE_1F",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 14,
       "y": 21,
       "elevation": 0,
       "dest_map": "MAP_ROUTE12_NORTH_ENTRANCE_1F",
-      "dest_warp_id": 1
+      "dest_warp_id": "1"
     },
     {
       "x": 12,
       "y": 86,
       "elevation": 0,
       "dest_map": "MAP_ROUTE12_FISHING_HOUSE",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
