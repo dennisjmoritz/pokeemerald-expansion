@@ -22,14 +22,14 @@
       "y": 4,
       "elevation": 0,
       "dest_map": "MAP_ROUTE45",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 6,
       "y": 38,
       "elevation": 0,
       "dest_map": "MAP_DARK_CAVE_VIOLET",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

@@ -22,14 +22,14 @@
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_ICE_PATH_B3F",
-      "dest_warp_id": 1
+      "dest_warp_id": "1"
     },
     {
       "x": 6,
       "y": 25,
       "elevation": 0,
       "dest_map": "MAP_ICE_PATH_B1F_2",
-      "dest_warp_id": 1
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

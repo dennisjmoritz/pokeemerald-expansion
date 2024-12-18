@@ -22,28 +22,28 @@
       "y": 4,
       "elevation": 0,
       "dest_map": "MAP_SPROUT_TOWER_1F",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 5,
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_SPROUT_TOWER_1F",
-      "dest_warp_id": 1
+      "dest_warp_id": "1"
     },
     {
       "x": 1,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_SPROUT_TOWER_1F",
-      "dest_warp_id": 2
+      "dest_warp_id": "2"
     },
     {
       "x": 11,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_SPROUT_TOWER_3F",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

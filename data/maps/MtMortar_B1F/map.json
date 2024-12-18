@@ -22,14 +22,14 @@
       "y": 3,
       "elevation": 0,
       "dest_map": "MAP_MT_MORTAR_B1F",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 26,
       "y": 42,
       "elevation": 0,
       "dest_map": "MAP_MT_MORTAR_ENTRANCE",
-      "dest_warp_id": 5
+      "dest_warp_id": "5"
     }
   ],
   "coord_events": [

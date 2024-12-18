@@ -22,14 +22,14 @@
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_WHIRL_ISLANDS_B6F",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 8,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_WHIRL_ISLANDS_B4F",
-      "dest_warp_id": 1
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

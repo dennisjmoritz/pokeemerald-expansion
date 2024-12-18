@@ -22,14 +22,14 @@
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_DRAGONS_DEN_ENTRANCE",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 9,
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_DRAGONS_DEN_B2F",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

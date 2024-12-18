@@ -22,14 +22,14 @@
       "y": 1,
       "elevation": 0,
       "dest_map": "MAP_MT_SILVER_MAIN_ROOM",
-      "dest_warp_id": 3
+      "dest_warp_id": "3"
     },
     {
       "x": 12,
       "y": 49,
       "elevation": 0,
       "dest_map": "MAP_ROUTE28",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
