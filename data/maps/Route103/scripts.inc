@@ -312,18 +312,19 @@ Route103_Text_MayLetsBattle:
 	.string "a trainer is like.$"
 
 Route103_Text_MayDefeated:
-	.string "Wow! That's great!\n"
-	.string "{PLAYER}{KUN}, you're pretty good!$"
+	.string "Wow! You're a natural!$"
 
 Route103_Text_MayTimeToHeadBack:
-	.string "MAY: I think I know why my dad has\n"
-	.string "an eye out for you now.\p"
-	.string "I mean, you just got that POKéMON,\n"
-	.string "but it already likes you.\p"
+	.string "MAY: That was a great battle!\n"
+	.string "You must have a natural talent for\l"
+	.string "bonding with POKéMON.\p"
+	.string "I can tell your PICHU already\n"
+	.string "trusts you a lot.\p"
 	.string "You might be able to befriend any\n"
 	.string "kind of POKéMON easily.\p"
-	.string "Well, it's time to head back to\n"
-	.string "the LAB.$"
+	.string "Well, it's time to head back.\n"
+	.string "{PLAYER}, please come visit me\l"
+	.string "at my house in Oldale!$"
 
 Route103_Text_BrendanRoute103Pokemon:
 	.string "BRENDAN: Okay, so it's this one and\n"
@@ -344,13 +345,14 @@ Route103_Text_BrendanDefeated:
 
 Route103_Text_BrendanTimeToHeadBack:
 	.string "BRENDAN: I think I get it.\n"
-	.string "I think I know why my dad has his eye\l"
-	.string "out for you now.\p"
-	.string "Look, your POKéMON already likes you,\n"
+	.string "You must have a natural talent for\l"
+	.string "bonding with POKéMON.\p"
+	.string "Look, your PICHU already likes you,\n"
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
 	.string "could befriend any POKéMON with ease.\p"
-	.string "We should head back to the LAB.$"
+	.string "It is time for me to head back, please\n"
+	.string "come and visit me at my house in Oldale!$"
 
 Route103_Text_ShortcutToOldale:
 	.string "If you cross the sea from here,\n"

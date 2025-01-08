@@ -218,7 +218,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "My kid, {RIVAL}, is also studying\n"
 	.string "pokémon while helping me out.\p"
 	.string "They live just north of here in\n"
-	.string "Dewford Town.\p"
+	.string "Oldale Town.\p"
 	.string "{PLAYER}{KUN}, don't you think it might be\n"
 	.string "a good idea to go see {RIVAL}?$"
 
