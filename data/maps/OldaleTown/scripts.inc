@@ -120,22 +120,6 @@ OldaleTown_Movement_EmployeeNorth:
 	walk_in_place_faster_down
 	step_end
 
-OldaleTown_Movement_Unknown1:
-	walk_up
-	walk_up
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	delay_8
-	walk_in_place_faster_down
-	step_end
-
 OldaleTown_Movement_PlayerEast:
 	walk_right
 	walk_up
@@ -168,126 +152,6 @@ OldaleTown_Movement_PlayerNorth:
 	walk_up
 	step_end
 
-OldaleTown_Movement_Unknown2:
-	walk_left
-	walk_up
-	walk_up
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	step_end
-
-OldaleTown_EventScript_Rival::
-	lockall
-	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
-	waitmovement 0
-	setvar VAR_0x8009, 0
-	goto OldaleTown_EventScript_ShowRivalMessage
-	end
-
-OldaleTown_EventScript_RivalTrigger1::
-	lockall
-	applymovement LOCALID_RIVAL, OldaleTown_Movement_RivalApproachPlayer1
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	setvar VAR_0x8009, 1
-	goto OldaleTown_EventScript_ShowRivalMessage
-	end
-
-OldaleTown_EventScript_RivalTrigger2::
-	lockall
-	applymovement LOCALID_RIVAL, OldaleTown_Movement_RivalApproachPlayer2
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	setvar VAR_0x8009, 1
-	goto OldaleTown_EventScript_ShowRivalMessage
-	end
-
-OldaleTown_EventScript_RivalTrigger3::
-	lockall
-	applymovement LOCALID_RIVAL, OldaleTown_Movement_RivalApproachPlayer3
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	setvar VAR_0x8009, 1
-	goto OldaleTown_EventScript_ShowRivalMessage
-	end
-
-OldaleTown_EventScript_ShowRivalMessage::
-	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, OldaleTown_EventScript_ShowMayMessage
-	goto_if_eq VAR_RESULT, FEMALE, OldaleTown_EventScript_ShowBrendanMessage
-	end
-
-OldaleTown_EventScript_ShowMayMessage::
-	msgbox OldaleTown_Text_MayLetsGoBack, MSGBOX_DEFAULT
-	goto OldaleTown_EventScript_RivalFinish
-	end
-
-OldaleTown_EventScript_ShowBrendanMessage::
-	msgbox OldaleTown_Text_BrendanLetsGoBack, MSGBOX_DEFAULT
-	goto OldaleTown_EventScript_RivalFinish
-	end
-
-OldaleTown_EventScript_RivalFinish::
-	closemessage
-	call_if_eq VAR_0x8009, 0, OldaleTown_EventScript_DoExitMovement1
-	call_if_eq VAR_0x8009, 1, OldaleTown_EventScript_DoExitMovement2
-	applymovement LOCALID_RIVAL, OldaleTown_Movement_RivalExit
-	waitmovement 0
-	removeobject LOCALID_RIVAL
-	setvar VAR_OLDALE_RIVAL_STATE, 2
-	setflag FLAG_HIDE_OLDALE_TOWN_RIVAL
-	releaseall
-	end
-
-OldaleTown_EventScript_DoExitMovement1::
-	goto_if_ne VAR_FACING, DIR_SOUTH, OldaleTown_EventScript_DoExitMovement2
-	applymovement LOCALID_RIVAL, OldaleTown_Movement_RivalExit
-	waitmovement 0
-	return
-
-OldaleTown_EventScript_DoExitMovement2::
-	applymovement OBJ_EVENT_ID_PLAYER, OldaleTown_Movement_WatchRivalExit
-	applymovement LOCALID_RIVAL, OldaleTown_Movement_RivalExit
-	waitmovement 0
-	return
-
-OldaleTown_Movement_RivalApproachPlayer1:
-	walk_left
-	walk_left
-	step_end
-
-OldaleTown_Movement_RivalApproachPlayer2:
-	walk_left
-	step_end
-
-OldaleTown_Movement_RivalApproachPlayer3:
-	face_left
-	step_end
-
-OldaleTown_Movement_RivalExit:
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	step_end
-
-OldaleTown_Movement_WatchRivalExit:
-	delay_8
-	delay_4
-	walk_in_place_faster_down
-	step_end
-
 OldaleTown_Text_SavingMyProgress:
 	.string "I want to take a rest, so I'm saving my\n"
 	.string "progress.$"
@@ -309,16 +173,6 @@ OldaleTown_Text_PotionExplanation:
 	.string "A POTION can be used anytime, so it's\n"
 	.string "even more useful than a POKéMON CENTER\l"
 	.string "in certain situations.$"
-
-OldaleTown_Text_MayLetsGoBack:
-	.string "MAY: {PLAYER}{KUN}!\n"
-	.string "Over here!\l"
-	.string "Let's hurry home!$"
-
-OldaleTown_Text_BrendanLetsGoBack:
-	.string "BRENDAN: I'm heading back to my dad's\n"
-	.string "LAB now.\l"
-	.string "{PLAYER}, you should hustle back, too.$"
 
 OldaleTown_Text_TownSign:
 	.string "OLDALE TOWN\n"
