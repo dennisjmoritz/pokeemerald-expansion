@@ -144,6 +144,7 @@ LittlerootTown_Movement_PlayerStepOffTruck:
 
 LittlerootTown_EventScript_FatMan::
 	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
+	givemon SPECIES_RAYQUAZA, 20
 	end
 
 LittlerootTown_EventScript_Boy::
