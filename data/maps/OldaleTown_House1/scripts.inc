@@ -8,6 +8,7 @@ OldaleTown_House1_OnLoad:
 
 OldaleTown_House1_EventScript_Rival::
 	msgbox OldaleTown_House1_Text_RivalMessage, MSGBOX_DEFAULT
+	closemessage
 	setvar VAR_OLDALE_RIVAL_STATE, 2
 	end
 
