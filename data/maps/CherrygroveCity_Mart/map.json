@@ -22,7 +22,7 @@
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_CHERRYGROVE_CITY",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

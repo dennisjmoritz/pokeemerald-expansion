@@ -26,3 +26,10 @@ Route20_EventScript_ResetSeafoamBouldersForB4F::
 	setflag FLAG_HIDE_SEAFOAM_B4F_BOULDER_1
 	setflag FLAG_HIDE_SEAFOAM_B4F_BOULDER_2
 	return
+
+Route20_EventScript_SeafoamIslandsSign::
+	msgbox Route20_Text_SeafoamIslands, MSGBOX_SIGN
+	end
+
+Route20_Text_SeafoamIslands::
+    .string "SEAFOAM ISLANDS$"

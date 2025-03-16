@@ -319,29 +319,42 @@ bool16 AddTextPrinter(struct TextPrinterTemplate *printerTemplate, u8 speed, voi
 void RunTextPrinters(void)
 {
     int i;
+    bool32 isInstantText = (GetPlayerTextSpeed() == OPTIONS_TEXT_SPEED_FAST);
 
-    if (!gDisableTextPrinters)
-    {
-        for (i = 0; i < WINDOWS_MAX; ++i)
+    do {
+        int numEmpty = 0;
+        if (gDisableTextPrinters == 0)
         {
-            if (sTextPrinters[i].active)
+            for (i = 0; i < WINDOWS_MAX; ++i)
             {
-                u16 renderCmd = RenderFont(&sTextPrinters[i]);
-                switch (renderCmd)
+                if (sTextPrinters[i].active)
                 {
-                case RENDER_PRINT:
-                    CopyWindowToVram(sTextPrinters[i].printerTemplate.windowId, COPYWIN_GFX);
-                case RENDER_UPDATE:
-                    if (sTextPrinters[i].callback != NULL)
-                        sTextPrinters[i].callback(&sTextPrinters[i].printerTemplate, renderCmd);
-                    break;
-                case RENDER_FINISH:
-                    sTextPrinters[i].active = FALSE;
-                    break;
+                    u16 renderCmd = RenderFont(&sTextPrinters[i]);
+                    switch (renderCmd)
+                    {
+                    case RENDER_PRINT:
+                        CopyWindowToVram(sTextPrinters[i].printerTemplate.windowId, COPYWIN_GFX);
+                        if (sTextPrinters[i].callback != NULL)
+                            sTextPrinters[i].callback(&sTextPrinters[i].printerTemplate, renderCmd);
+                        break;
+                    case RENDER_UPDATE:
+                        if (sTextPrinters[i].callback != NULL)
+                            sTextPrinters[i].callback(&sTextPrinters[i].printerTemplate, renderCmd);
+                        isInstantText = FALSE;
+                        break;
+                    case RENDER_FINISH:
+                        sTextPrinters[i].active = FALSE;
+                        return;
+                    }
                 }
+                else {
+                    numEmpty++;
+                }
+                if(numEmpty == WINDOWS_MAX)
+                    return;
             }
         }
-    }
+    } while(isInstantText);
 }
 
 bool16 IsTextPrinterActive(u8 id)
@@ -937,7 +950,6 @@ static u16 RenderText(struct TextPrinter *textPrinter)
     u16 currChar;
     s32 width;
     s32 widthHelper;
-    bool8 printAll;
 
     switch (textPrinter->state)
     {
@@ -961,13 +973,6 @@ static u16 RenderText(struct TextPrinter *textPrinter)
         else
             textPrinter->delayCounter = textPrinter->textSpeed;
 
-        if(GetPlayerTextSpeed() == OPTIONS_TEXT_SPEED_FAST)
-            printAll = TRUE;
-        else
-            printAll = FALSE;
-
-
-        do {
             currChar = *textPrinter->printerTemplate.currentChar;
             textPrinter->printerTemplate.currentChar++;
 
@@ -1171,11 +1176,6 @@ static u16 RenderText(struct TextPrinter *textPrinter)
                 else
                     textPrinter->printerTemplate.currentX += gCurGlyph.width;
             }
-
-            if (*textPrinter->printerTemplate.currentChar == EOS)
-                printAll = FALSE;
-
-        } while (printAll);
 
         return RENDER_PRINT;
     case RENDER_STATE_WAIT:

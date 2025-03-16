@@ -24,10 +24,6 @@ OldaleTown_EventScript_RivalsHouseSign::
 	msgbox OldaleTown_Text_RivalsHouseSign, MSGBOX_SIGN
 	end
 
-OldaleTown_EventScript_Girl::
-	msgbox OldaleTown_Text_SavingMyProgress, MSGBOX_NPC
-	end
-
 OldaleTown_EventScript_MartEmployee::
 	lock
 	faceplayer
@@ -151,10 +147,6 @@ OldaleTown_Movement_PlayerNorth:
 	walk_up
 	walk_up
 	step_end
-
-OldaleTown_Text_SavingMyProgress:
-	.string "I want to take a rest, so I'm saving my\n"
-	.string "progress.$"
 
 OldaleTown_Text_IWorkAtPokemonMart:
 	.string "Hi!\n"
