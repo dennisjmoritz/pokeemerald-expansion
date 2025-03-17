@@ -7,7 +7,7 @@ PalletTown_OnTransition:
 	end
 
 PalletTown_EventScript_OaksLabSign::
-	msgbox PalletTown_Text_OakPokemonResearchLab
+	msgbox PalletTown_Text_OakPokemonResearchLab, MSGBOX_SIGN
 	end
 
 PalletTown_EventScript_PlayersHouseSign::
