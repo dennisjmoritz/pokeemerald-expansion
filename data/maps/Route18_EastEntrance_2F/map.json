@@ -22,13 +22,28 @@
       "y": 9,
       "elevation": 0,
       "dest_map": "MAP_ROUTE18_EAST_ENTRANCE_1F",
-      "dest_warp_id": 2
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route18_EastEntrance_2F_EventScript_LeftBinoculars"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route18_EastEntrance_2F_EventScript_RightBinoculars"
+    }
   ]
 }
