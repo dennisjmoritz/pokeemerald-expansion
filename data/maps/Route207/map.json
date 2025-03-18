@@ -1,0 +1,39 @@
+{
+  "id": "MAP_ROUTE207",
+  "name": "Route207",
+  "layout": "LAYOUT_ROUTE207",
+  "music": "MUS_RG_ROUTE24",
+  "region_map_section": "MAPSEC_ROUTE_207",
+  "requires_flash": false,
+  "weather": "WEATHER_RAIN",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE206",
+      "offset": 2,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_OREBURGH_CITY",
+      "offset": -35,
+      "direction": "down"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

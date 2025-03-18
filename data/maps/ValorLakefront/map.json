@@ -1,0 +1,44 @@
+{
+  "id": "MAP_VALOR_LAKEFRONT",
+  "name": "ValorLakefront",
+  "layout": "LAYOUT_VALOR_LAKEFRONT",
+  "music": "MUS_ROUTE110",
+  "region_map_section": "MAPSEC_LAKE_VALOR",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE213",
+      "offset": -40,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE214",
+      "offset": 24,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE222",
+      "offset": 36,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

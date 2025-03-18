@@ -1,0 +1,39 @@
+{
+  "id": "MAP_ROUTE214",
+  "name": "Route214",
+  "layout": "LAYOUT_ROUTE214",
+  "music": "MUS_RG_ROUTE24",
+  "region_map_section": "MAPSEC_ROUTE_214",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_VEILSTONE_CITY",
+      "offset": -26,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_VALOR_LAKEFRONT",
+      "offset": -24,
+      "direction": "down"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

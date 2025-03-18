@@ -241,7 +241,7 @@
   ],
   "warp_events": [
     {
-      "x": 27,
+      "x": 26,
       "y": 19,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_GYM",
@@ -276,15 +276,15 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 11,
-      "y": 15,
+      "x": 10,
+      "y": 14,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_DEVON_CORP_1F",
       "dest_warp_id": "0"
     },
     {
-      "x": 12,
-      "y": 15,
+      "x": 13,
+      "y": 14,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_DEVON_CORP_1F",
       "dest_warp_id": "1"
