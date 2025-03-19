@@ -1153,6 +1153,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/follower.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+	.include "data/scripts/dexnav.inc"
 	.include "data/maps/TwinleafTown/scripts.inc"
 	.include "data/maps/SandgemTown/scripts.inc"
 	.include "data/maps/JubilifeCity/scripts.inc"
