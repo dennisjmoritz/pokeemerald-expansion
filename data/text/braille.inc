@@ -115,3 +115,27 @@ AncientTomb_Braille_ShineInTheMiddle:
 	.braille "INHERIT OUR\n"
 	.braille "WILL, SHINE\n"
 	.braille "IN THE MIDDLE.$"
+
+Braille_Text_Everything::
+	.braille "EVERYTHING$"
+
+Braille_Text_HasMeaning1::
+	.braille "HAS MEANING$"
+
+Braille_Text_Existence::
+	.braille "EXISTENCE$"
+
+Braille_Text_HasMeaning2::
+	.braille "HAS MEANING$"
+
+Braille_Text_BeingAlive::
+	.braille "BEING ALIVE$"
+
+Braille_Text_HasMeaning3::
+	.braille "HAS MEANING$"
+
+Braille_Text_HaveDreams::
+	.braille "HAVE DREAMS$"
+
+Braille_Text_UsePower::
+	.braille "USE POWER.$"
