@@ -1,6 +1,8 @@
 {
   "group_order": [
     "gMapGroup_SinnohTownsRoutes",
+    "gMapGroup_SpecialAreasSinnoh",
+    "gMapGroup_DungeonsSinnoh",
     "gMapGroup_IndoorSinnoh",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
@@ -93,6 +95,14 @@
     "FightArea",
     "SurvivalArea",
     "ResortArea"
+  ],
+  "gMapGroup_SpecialAreasSinnoh": [
+    "LakeVerity",
+    "LakeValor",
+    "LakeAcuity"
+  ],
+  "gMapGroup_DungeonsSinnoh": [
+    "OreburghGate_1F"
   ],
   "gMapGroup_IndoorSinnoh": [
 

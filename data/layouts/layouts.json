@@ -4960,6 +4960,46 @@
       "secondary_tileset": "gTileset_Valor",
       "border_filepath": "data/layouts/ResortArea/border.bin",
       "blockdata_filepath": "data/layouts/ResortArea/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE_VERITY",
+      "name": "LakeVerity_Layout",
+      "width": 48,
+      "height": 46,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/LakeVerity/border.bin",
+      "blockdata_filepath": "data/layouts/LakeVerity/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE_VALOR",
+      "name": "LakeValor_Layout",
+      "width": 48,
+      "height": 52,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Valor",
+      "border_filepath": "data/layouts/LakeValor/border.bin",
+      "blockdata_filepath": "data/layouts/LakeValor/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE_ACUITY",
+      "name": "LakeAcuity_Layout",
+      "width": 48,
+      "height": 52,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Snowpoint",
+      "border_filepath": "data/layouts/LakeAcuity/border.bin",
+      "blockdata_filepath": "data/layouts/LakeAcuity/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_GATE_1F",
+      "name": "OreburghGate_1F_Layout",
+      "width": 29,
+      "height": 27,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/OreburghGate_1F/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghGate_1F/map.bin"
     }
   ]
 }

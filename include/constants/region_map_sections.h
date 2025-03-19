@@ -155,7 +155,20 @@
 #define MAPSEC_LAKE_VERITY                  0x97
 #define MAPSEC_LAKE_VALOR                   0x98
 #define MAPSEC_LAKE_ACUITY                  0x99
-
+#define MAPSEC_OREBURGH_GATE                0x9A
+#define MAPSEC_OREBURGH_MINE                0x9B
+#define MAPSEC_RAVAGED_PATH                 0x9C
+#define MAPSEC_FLOAROMA_MEADOW              0x9D
+#define MAPSEC_VALLEY_WINDWORKS             0x9F
+#define MAPSEC_FUEGO_IRONWORKS              0xA0
+#define MAPSEC_ETERNA_FOREST                0xA1
+#define MAPSEC_OLD_CHATEAU                  0xA2
+#define MAPSEC_ETERNA_FOREST                0xA3
+#define MAPSEC_WAYWARD_CAVE                 0xA4
+#define MAPSEC_MT_CORONET                   0xA5
+#define MAPSEC_ETERNA_FOREST                0xA6
+#define MAPSEC_MT_STARK                     0xA7
+#define MAPSEC_IRON_ISLAND                  0xA8
 
 
 #define MAPSEC_NONE                         0xD5

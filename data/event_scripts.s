@@ -1209,3 +1209,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FightArea/scripts.inc"
 	.include "data/maps/SurvivalArea/scripts.inc"
 	.include "data/maps/ResortArea/scripts.inc"
+
+	.include "data/maps/LakeVerity/scripts.inc"
+
+	.include "data/maps/LakeValor/scripts.inc"
+
+	.include "data/maps/LakeAcuity/scripts.inc"
+
+	.include "data/maps/OreburghGate_1F/scripts.inc"
