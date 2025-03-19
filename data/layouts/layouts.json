@@ -5000,6 +5000,56 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/OreburghGate_1F/border.bin",
       "blockdata_filepath": "data/layouts/OreburghGate_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_MINE_B1F",
+      "name": "OreburghMine_B1F_Layout",
+      "width": 24,
+      "height": 26,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Jubilife",
+      "border_filepath": "data/layouts/OreburghMine_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghMine_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_MINE_B2F",
+      "name": "OreburghMine_B2F_Layout",
+      "width": 32,
+      "height": 28,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/OreburghMine_B2F/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghMine_B2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_RAVAGED_PATH",
+      "name": "RavagedPath_Layout",
+      "width": 32,
+      "height": 45,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RavagedPath/border.bin",
+      "blockdata_filepath": "data/layouts/RavagedPath/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALLEY_WINDWORKS",
+      "name": "ValleyWindworks_Layout",
+      "width": 32,
+      "height": 34,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/ValleyWindworks/border.bin",
+      "blockdata_filepath": "data/layouts/ValleyWindworks/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_FOREST",
+      "name": "EternaForest_Layout",
+      "width": 82,
+      "height": 84,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Valor",
+      "border_filepath": "data/layouts/EternaForest/border.bin",
+      "blockdata_filepath": "data/layouts/EternaForest/map.bin"
     }
   ]
 }

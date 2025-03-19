@@ -1217,3 +1217,14 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/LakeAcuity/scripts.inc"
 
 	.include "data/maps/OreburghGate_1F/scripts.inc"
+
+
+	.include "data/maps/OreburghMine_B1F/scripts.inc"
+
+	.include "data/maps/OreburghMine_B2F/scripts.inc"
+
+	.include "data/maps/RavagedPath/scripts.inc"
+
+	.include "data/maps/ValleyWindworks/scripts.inc"
+
+	.include "data/maps/EternaForest/scripts.inc"

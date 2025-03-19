@@ -99,10 +99,15 @@
   "gMapGroup_SpecialAreasSinnoh": [
     "LakeVerity",
     "LakeValor",
-    "LakeAcuity"
+    "LakeAcuity",
+    "ValleyWindworks",
+    "EternaForest"
   ],
   "gMapGroup_DungeonsSinnoh": [
-    "OreburghGate_1F"
+    "OreburghGate_1F",
+    "OreburghMine_B1F",
+    "OreburghMine_B2F",
+    "RavagedPath"
   ],
   "gMapGroup_IndoorSinnoh": [
 
