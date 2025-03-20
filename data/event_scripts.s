@@ -1260,3 +1260,8 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route225_Access/scripts.inc"
 
 	.include "data/maps/Route226_Access/scripts.inc"
+
+
+	.include "data/maps/TwinleafTown_MainHouse_1F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_MainHouse_2F/scripts.inc"

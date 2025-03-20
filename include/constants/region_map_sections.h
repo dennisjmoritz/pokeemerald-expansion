@@ -163,12 +163,10 @@
 #define MAPSEC_FUEGO_IRONWORKS              0xA0
 #define MAPSEC_ETERNA_FOREST                0xA1
 #define MAPSEC_OLD_CHATEAU                  0xA2
-#define MAPSEC_ETERNA_FOREST                0xA3
-#define MAPSEC_WAYWARD_CAVE                 0xA4
-#define MAPSEC_MT_CORONET                   0xA5
-#define MAPSEC_ETERNA_FOREST                0xA6
-#define MAPSEC_MT_STARK                     0xA7
-#define MAPSEC_IRON_ISLAND                  0xA8
+#define MAPSEC_WAYWARD_CAVE                 0xA3
+#define MAPSEC_MT_CORONET                   0xA4
+#define MAPSEC_MT_STARK                     0xA5
+#define MAPSEC_IRON_ISLAND                  0xA6
 
 
 #define MAPSEC_NONE                         0xD5

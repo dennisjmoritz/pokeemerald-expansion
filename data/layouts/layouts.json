@@ -5210,6 +5210,26 @@
       "secondary_tileset": "gTileset_Pasos",
       "border_filepath": "data/layouts/Route226_Access/border.bin",
       "blockdata_filepath": "data/layouts/Route226_Access/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_MAIN_HOUSE_1F",
+      "name": "TwinleafTown_MainHouse_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwinleafTown_MainHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_MainHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_MAIN_HOUSE_2F",
+      "name": "TwinleafTown_MainHouse_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwinleafTown_MainHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_MainHouse_2F/map.bin"
     }
   ]
 }
