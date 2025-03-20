@@ -5,3 +5,11 @@ SevenIsland_MapScripts::
 SevenIsland_OnTransition:
 	setflag FLAG_VISITED_SEVEN_ISLAND
 	end
+
+SevenIsland_EventScript_IslandSign::
+	msgbox SevenIsland_Text_IslandSign, MSGBOX_SIGN
+	end
+
+SevenIsland_Text_IslandSign::
+    .string "SEVEN ISLAND\n"
+    .string "Quest Island of Infinity$"
