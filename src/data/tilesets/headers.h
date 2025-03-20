@@ -913,3 +913,14 @@ const struct Tileset gTileset_Valor =
     .metatileAttributes = gMetatileAttributes_Valor,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Pasos =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Pasos,
+    .palettes = gTilesetPalettes_Pasos,
+    .metatiles = gMetatiles_Pasos,
+    .metatileAttributes = gMetatileAttributes_Pasos,
+    .callback = NULL,
+};

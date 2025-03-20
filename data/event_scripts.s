@@ -1228,3 +1228,35 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/ValleyWindworks/scripts.inc"
 
 	.include "data/maps/EternaForest/scripts.inc"
+
+	.include "data/maps/MtCoronet_1F_South/scripts.inc"
+
+	.include "data/maps/MtCoronet_1F_North_Room1/scripts.inc"
+
+	.include "data/maps/MtCoronet_1F_North_Room2/scripts.inc"
+
+	.include "data/maps/MtCoronet_B1F/scripts.inc"
+
+	.include "data/maps/Route206_North/scripts.inc"
+
+	.include "data/maps/Route206_South/scripts.inc"
+
+	.include "data/maps/Route208_Access/scripts.inc"
+
+	.include "data/maps/Route209_Access/scripts.inc"
+
+	.include "data/maps/Route212_Access/scripts.inc"
+
+	.include "data/maps/Route214_Access/scripts.inc"
+
+	.include "data/maps/Route215_Access/scripts.inc"
+
+	.include "data/maps/Route218_East/scripts.inc"
+
+	.include "data/maps/Route218_West/scripts.inc"
+
+	.include "data/maps/Route222_Access/scripts.inc"
+
+	.include "data/maps/Route225_Access/scripts.inc"
+
+	.include "data/maps/Route226_Access/scripts.inc"

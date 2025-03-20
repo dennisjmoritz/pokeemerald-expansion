@@ -5050,6 +5050,166 @@
       "secondary_tileset": "gTileset_Valor",
       "border_filepath": "data/layouts/EternaForest/border.bin",
       "blockdata_filepath": "data/layouts/EternaForest/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_1F_SOUTH",
+      "name": "MtCoronet_1F_South_Layout",
+      "width": 42,
+      "height": 32,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_1F_South/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_1F_South/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_1F_NORTH_ROOM1",
+      "name": "MtCoronet_1F_North_Room1_Layout",
+      "width": 36,
+      "height": 51,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_1F_North_Room1/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_1F_North_Room1/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_1F_NORTH_ROOM2",
+      "name": "MtCoronet_1F_North_Room2_Layout",
+      "width": 19,
+      "height": 16,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_1F_North_Room2/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_1F_North_Room2/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_B1F",
+      "name": "MtCoronet_B1F_Layout",
+      "width": 32,
+      "height": 65,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE206_NORTH",
+      "name": "Route206_North_Layout",
+      "width": 9,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route206_North/border.bin",
+      "blockdata_filepath": "data/layouts/Route206_North/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE206_SOUTH",
+      "name": "Route206_South_Layout",
+      "width": 9,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route206_South/border.bin",
+      "blockdata_filepath": "data/layouts/Route206_South/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE208_ACCESS",
+      "name": "Route208_Access_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route208_Access/border.bin",
+      "blockdata_filepath": "data/layouts/Route208_Access/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE209_ACCESS",
+      "name": "Route209_Access_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route209_Access/border.bin",
+      "blockdata_filepath": "data/layouts/Route209_Access/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE212_ACCESS",
+      "name": "Route212_Access_Layout",
+      "width": 9,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route212_Access/border.bin",
+      "blockdata_filepath": "data/layouts/Route212_Access/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE214_ACCESS",
+      "name": "Route214_Access_Layout",
+      "width": 9,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route214_Access/border.bin",
+      "blockdata_filepath": "data/layouts/Route214_Access/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE215_ACCESS",
+      "name": "Route215_Access_Layout",
+      "width": 9,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route215_Access/border.bin",
+      "blockdata_filepath": "data/layouts/Route215_Access/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE218_EAST",
+      "name": "Route218_East_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route218_East/border.bin",
+      "blockdata_filepath": "data/layouts/Route218_East/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE218_WEST",
+      "name": "Route218_West_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route218_West/border.bin",
+      "blockdata_filepath": "data/layouts/Route218_West/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE222_ACCESS",
+      "name": "Route222_Access_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route222_Access/border.bin",
+      "blockdata_filepath": "data/layouts/Route222_Access/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE225_ACCESS",
+      "name": "Route225_Access_Layout",
+      "width": 9,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route225_Access/border.bin",
+      "blockdata_filepath": "data/layouts/Route225_Access/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE226_ACCESS",
+      "name": "Route226_Access_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route226_Access/border.bin",
+      "blockdata_filepath": "data/layouts/Route226_Access/map.bin"
     }
   ]
 }

@@ -107,10 +107,25 @@
     "OreburghGate_1F",
     "OreburghMine_B1F",
     "OreburghMine_B2F",
-    "RavagedPath"
+    "RavagedPath",
+    "MtCoronet_B1F",
+    "MtCoronet_1F_South",
+    "MtCoronet_1F_North_Room1",
+    "MtCoronet_1F_North_Room2"
   ],
   "gMapGroup_IndoorSinnoh": [
-
+    "Route206_North",
+    "Route206_South",
+    "Route208_Access",
+    "Route209_Access",
+    "Route212_Access",
+    "Route214_Access",
+    "Route215_Access",
+    "Route218_East",
+    "Route218_West",
+    "Route222_Access",
+    "Route225_Access",
+    "Route226_Access"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

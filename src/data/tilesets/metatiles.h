@@ -231,3 +231,6 @@ const u16 gMetatileAttributes_Sunnyshore[] = INCBIN_U16("data/tilesets/secondary
 
 const u16 gMetatiles_Valor[] = INCBIN_U16("data/tilesets/secondary/valor/metatiles.bin");
 const u16 gMetatileAttributes_Valor[] = INCBIN_U16("data/tilesets/secondary/valor/metatile_attributes.bin");
+
+const u16 gMetatiles_Pasos[] = INCBIN_U16("data/tilesets/secondary/pasos/metatiles.bin");
+const u16 gMetatileAttributes_Pasos[] = INCBIN_U16("data/tilesets/secondary/pasos/metatile_attributes.bin");
