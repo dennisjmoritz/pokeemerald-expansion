@@ -27,10 +27,10 @@ NewBarkTown_Text_TownSign::
 	.string "Where the winds of a new beginning blow$"
 
 NewBarkTown_Text_ElmsLabSign::
-	.string "PROF. ELMS'S POKéMON LAB$"
+	.string "PROF. ELM'S POKéMON LAB$"
 
 NewBarkTown_Text_ElmsHouseSign::
 	.string "PROF. ELM'S HOUSE$"
 
 NewBarkTown_Text_PlayersHouseSign::
-	string "{PLAYER}'s HOUSE$"
+	.string "{PLAYER}'s HOUSE$"
