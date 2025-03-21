@@ -7,6 +7,7 @@ Route30_EventScript_RouteSign::
 
 Route30_EventScript_MrPokemonsHouseSign::
 	msgbox Route30_Text_MrPokemonsHouseSign, MSGBOX_SIGN
+	end
 
 Route30_Text_RouteSign::
 	.string "ROUTE 30\n"
