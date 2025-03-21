@@ -26,11 +26,15 @@
     },
     {
       "map": "MAP_ROUTE219",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       "offset": -2,
 =======
       "offset": 2,
 >>>>>>> Stashed changes
+=======
+      "offset": 2,
+>>>>>>> parent of 05beeb3875 (Changes)
       "direction": "down"
     },
     {

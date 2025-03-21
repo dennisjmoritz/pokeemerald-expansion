@@ -21,6 +21,7 @@
   "connections": [
     {
       "map": "MAP_SANDGEM_TOWN",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       "offset": 2,
       "direction": "up"
@@ -33,6 +34,10 @@
       "offset": -2,
       "direction": "up"
 >>>>>>> Stashed changes
+=======
+      "offset": -2,
+      "direction": "up"
+>>>>>>> parent of 05beeb3875 (Changes)
     }
   ],
   "object_events": [

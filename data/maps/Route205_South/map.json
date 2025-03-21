@@ -28,6 +28,7 @@
       "map": "MAP_ROUTE205_NORTH",
       "offset": 20,
       "direction": "up"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     },
     {
@@ -36,12 +37,15 @@
       "direction": "right"
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 05beeb3875 (Changes)
     }
   ],
   "object_events": [
 
   ],
   "warp_events": [
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     {
       "x": 14,
@@ -60,6 +64,9 @@
 =======
 
 >>>>>>> Stashed changes
+=======
+
+>>>>>>> parent of 05beeb3875 (Changes)
   ],
   "coord_events": [
 

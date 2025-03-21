@@ -13,6 +13,7 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+<<<<<<< HEAD
   "connections": [
     {
       "map": "MAP_ROUTE220",
@@ -28,6 +29,9 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
 >>>>>>> Stashed changes
+=======
+  "connections": 0,
+>>>>>>> parent of 05beeb3875 (Changes)
   "object_events": [
 
   ],

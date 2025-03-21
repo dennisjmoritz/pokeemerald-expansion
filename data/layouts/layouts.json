@@ -4424,11 +4424,15 @@
     {
       "id": "LAYOUT_SANDGEM_TOWN",
       "name": "SandgemTown_Layout",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       "width": 34,
 =======
       "width": 30,
 >>>>>>> Stashed changes
+=======
+      "width": 30,
+>>>>>>> parent of 05beeb3875 (Changes)
       "height": 32,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
@@ -4439,11 +4443,15 @@
       "id": "LAYOUT_JUBILIFE_CITY",
       "name": "JubilifeCity_Layout",
       "width": 70,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       "height": 64,
 =======
       "height": 60,
 >>>>>>> Stashed changes
+=======
+      "height": 60,
+>>>>>>> parent of 05beeb3875 (Changes)
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/JubilifeCity/border.bin",
@@ -4463,11 +4471,15 @@
       "id": "LAYOUT_FLOAROMA_TOWN",
       "name": "FloaromaTown_Layout",
       "width": 34,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       "height": 36,
 =======
       "height": 32,
 >>>>>>> Stashed changes
+=======
+      "height": 32,
+>>>>>>> parent of 05beeb3875 (Changes)
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/FloaromaTown/border.bin",
@@ -4607,6 +4619,7 @@
       "id": "LAYOUT_ROUTE204",
       "name": "Route204_Layout",
       "width": 32,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       "height": 64,
       "primary_tileset": "gTileset_General",
@@ -4616,6 +4629,11 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mauville",
 >>>>>>> Stashed changes
+=======
+      "height": 70,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+>>>>>>> parent of 05beeb3875 (Changes)
       "border_filepath": "data/layouts/Route204/border.bin",
       "blockdata_filepath": "data/layouts/Route204/map.bin"
     },
@@ -4802,11 +4820,15 @@
     {
       "id": "LAYOUT_ROUTE219",
       "name": "Route219_Layout",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       "width": 36,
 =======
       "width": 30,
 >>>>>>> Stashed changes
+=======
+      "width": 30,
+>>>>>>> parent of 05beeb3875 (Changes)
       "height": 30,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
