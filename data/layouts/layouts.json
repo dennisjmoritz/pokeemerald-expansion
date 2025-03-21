@@ -4426,7 +4426,15 @@
       "name": "SandgemTown_Layout",
 <<<<<<< HEAD
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
       "width": 34,
+=======
+      "width": 30,
+>>>>>>> Stashed changes
+=======
+      "width": 30,
+>>>>>>> parent of 05beeb3875 (Changes)
 =======
       "width": 30,
 >>>>>>> Stashed changes
@@ -4445,7 +4453,15 @@
       "width": 70,
 <<<<<<< HEAD
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
       "height": 64,
+=======
+      "height": 60,
+>>>>>>> Stashed changes
+=======
+      "height": 60,
+>>>>>>> parent of 05beeb3875 (Changes)
 =======
       "height": 60,
 >>>>>>> Stashed changes
@@ -4473,7 +4489,15 @@
       "width": 34,
 <<<<<<< HEAD
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
       "height": 36,
+=======
+      "height": 32,
+>>>>>>> Stashed changes
+=======
+      "height": 32,
+>>>>>>> parent of 05beeb3875 (Changes)
 =======
       "height": 32,
 >>>>>>> Stashed changes
@@ -4621,9 +4645,21 @@
       "width": 32,
 <<<<<<< HEAD
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
       "height": 64,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
+=======
+      "height": 70,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+>>>>>>> Stashed changes
+=======
+      "height": 70,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+>>>>>>> parent of 05beeb3875 (Changes)
 =======
       "height": 70,
       "primary_tileset": "gTileset_General",
@@ -4822,7 +4858,15 @@
       "name": "Route219_Layout",
 <<<<<<< HEAD
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
       "width": 36,
+=======
+      "width": 30,
+>>>>>>> Stashed changes
+=======
+      "width": 30,
+>>>>>>> parent of 05beeb3875 (Changes)
 =======
       "width": 30,
 >>>>>>> Stashed changes
@@ -5004,6 +5048,7 @@
       "secondary_tileset": "gTileset_Valor",
       "border_filepath": "data/layouts/ResortArea/border.bin",
       "blockdata_filepath": "data/layouts/ResortArea/map.bin"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     },
     {
@@ -5275,6 +5320,8 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/TwinleafTown_MainHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_MainHouse_2F/map.bin"
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     }

@@ -8,15 +8,26 @@
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
+<<<<<<< HEAD
 =======
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": false,
 >>>>>>> Stashed changes
   "show_map_name": true,
+=======
+  "show_map_name": false,
+>>>>>>> parent of 34c4c9c360 (Agregar DayANDNight)
+=======
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+>>>>>>> Stashed changes
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -30,11 +41,17 @@
       "direction": "up"
 <<<<<<< HEAD
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
     },
     {
       "map": "MAP_VALLEY_WINDWORKS",
       "offset": 59,
       "direction": "right"
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> parent of 05beeb3875 (Changes)
 =======
 >>>>>>> Stashed changes
 =======
@@ -45,6 +62,8 @@
 
   ],
   "warp_events": [
+<<<<<<< HEAD
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
     {
@@ -61,6 +80,12 @@
       "dest_map": "MAP_ETERNA_FOREST",
       "dest_warp_id": "1"
     }
+=======
+
+>>>>>>> Stashed changes
+=======
+
+>>>>>>> parent of 05beeb3875 (Changes)
 =======
 
 >>>>>>> Stashed changes

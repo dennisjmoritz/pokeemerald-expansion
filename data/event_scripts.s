@@ -1154,6 +1154,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	.include "data/scripts/dexnav.inc"
 	.include "data/maps/TwinleafTown/scripts.inc"
 	.include "data/maps/SandgemTown/scripts.inc"
@@ -1267,6 +1268,8 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/TwinleafTown_MainHouse_2F/scripts.inc"
 =======
+=======
+>>>>>>> Stashed changes
 
 	.include "data/maps/TwinleafTown/scripts.inc"
 
@@ -1378,4 +1381,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SurvivalArea/scripts.inc"
 
 	.include "data/maps/ResortArea/scripts.inc"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

@@ -186,6 +186,8 @@ static const u8 sRegionMapSectionId_To_PopUpThemeIdMapping[] =
     [MAPSEC_ALTERING_CAVE] = MAPPOPUP_THEME_STONE,
     [MAPSEC_NAVEL_ROCK] = MAPPOPUP_THEME_STONE,
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
     [MAPSEC_TRAINER_HILL] = MAPPOPUP_THEME_MARBLE,
     [MAPSEC_TWINLEAF_TOWN] = MAPPOPUP_THEME_WOOD,
     [MAPSEC_SANDGEM_TOWN] = MAPPOPUP_THEME_WOOD, 
@@ -250,6 +252,12 @@ static const u8 sRegionMapSectionId_To_PopUpThemeIdMapping[] =
     [MAPSEC_MT_STARK] = MAPPOPUP_THEME_STONE,
     [MAPSEC_IRON_ISLAND] = MAPPOPUP_THEME_STONE,
     [MAPSEC_POKEMON_LEAGUE] = MAPPOPUP_THEME_BRICK,
+=======
+    [MAPSEC_TRAINER_HILL] = MAPPOPUP_THEME_MARBLE
+>>>>>>> Stashed changes
+=======
+    [MAPSEC_TRAINER_HILL] = MAPPOPUP_THEME_MARBLE
+>>>>>>> parent of 34c4c9c360 (Agregar DayANDNight)
 =======
     [MAPSEC_TRAINER_HILL] = MAPPOPUP_THEME_MARBLE
 >>>>>>> Stashed changes
@@ -375,6 +383,8 @@ static const u8 sRegionMapSectionId_To_PopUpThemeIdMapping_BW[] =
     [MAPSEC_NAVEL_ROCK] = MAPPOPUP_THEME_BW_DEFAULT,
     [MAPSEC_TRAINER_HILL] = MAPPOPUP_THEME_BW_DEFAULT,
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
     [MAPSEC_TWINLEAF_TOWN] = MAPPOPUP_THEME_BW_DEFAULT,
     [MAPSEC_SANDGEM_TOWN] = MAPPOPUP_THEME_BW_DEFAULT,
     [MAPSEC_JUBILIFE_CITY] = MAPPOPUP_THEME_BW_DEFAULT,
@@ -438,6 +448,10 @@ static const u8 sRegionMapSectionId_To_PopUpThemeIdMapping_BW[] =
     [MAPSEC_MT_STARK] = MAPPOPUP_THEME_BW_DEFAULT,
     [MAPSEC_IRON_ISLAND] = MAPPOPUP_THEME_BW_DEFAULT,
     [MAPSEC_POKEMON_LEAGUE] = MAPPOPUP_THEME_BW_DEFAULT,
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> parent of 34c4c9c360 (Agregar DayANDNight)
 =======
 >>>>>>> Stashed changes
 };

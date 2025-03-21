@@ -3,7 +3,11 @@
   "name": "TwinleafTown",
   "layout": "LAYOUT_TWINLEAF_TOWN",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "music": "MUS_RG_PALLET",
+=======
+  "music": "MUS_LITTLEROOT",
+>>>>>>> Stashed changes
 =======
   "music": "MUS_LITTLEROOT",
 >>>>>>> Stashed changes
@@ -12,15 +16,26 @@
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_TOWN",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
+<<<<<<< HEAD
 =======
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": false,
 >>>>>>> Stashed changes
   "show_map_name": true,
+=======
+  "show_map_name": false,
+>>>>>>> parent of 34c4c9c360 (Agregar DayANDNight)
+=======
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+>>>>>>> Stashed changes
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -33,6 +48,7 @@
 
   ],
   "warp_events": [
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     {
       "x": 16,
@@ -48,6 +64,9 @@
       "dest_map": "MAP_TWINLEAF_TOWN",
       "dest_warp_id": "0"
     }
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes

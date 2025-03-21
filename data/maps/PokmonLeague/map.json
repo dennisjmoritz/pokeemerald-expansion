@@ -4,14 +4,22 @@
   "layout": "LAYOUT_POKMON_LEAGUE",
   "music": "MUS_EVER_GRANDE",
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
   "region_map_section": "MAPSEC_POKEMON_LEAGUE",
+=======
+  "region_map_section": "MAPSEC_EVER_GRANDE_CITY",
+>>>>>>> parent of 34c4c9c360 (Agregar DayANDNight)
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Stashed changes
   "region_map_section": "MAPSEC_EVER_GRANDE_CITY",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -19,8 +27,15 @@
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": false,
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
   "show_map_name": true,
+=======
+  "show_map_name": false,
+>>>>>>> parent of 34c4c9c360 (Agregar DayANDNight)
+=======
+  "show_map_name": true,
+>>>>>>> Stashed changes
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
