@@ -3,6 +3,7 @@
   "name": "PokmonLeague",
   "layout": "LAYOUT_POKMON_LEAGUE",
   "music": "MUS_EVER_GRANDE",
+<<<<<<< Updated upstream
   "region_map_section": "MAPSEC_POKEMON_LEAGUE",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -10,6 +11,15 @@
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
+=======
+  "region_map_section": "MAPSEC_EVER_GRANDE_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+>>>>>>> Stashed changes
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [

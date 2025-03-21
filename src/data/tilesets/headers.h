@@ -913,6 +913,7 @@ const struct Tileset gTileset_Valor =
     .metatileAttributes = gMetatileAttributes_Valor,
     .callback = NULL,
 };
+<<<<<<< Updated upstream
 
 const struct Tileset gTileset_Pasos =
 {
@@ -924,3 +925,5 @@ const struct Tileset gTileset_Pasos =
     .metatileAttributes = gMetatileAttributes_Pasos,
     .callback = NULL,
 };
+=======
+>>>>>>> Stashed changes

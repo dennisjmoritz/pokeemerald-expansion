@@ -4424,7 +4424,11 @@
     {
       "id": "LAYOUT_SANDGEM_TOWN",
       "name": "SandgemTown_Layout",
+<<<<<<< Updated upstream
       "width": 34,
+=======
+      "width": 30,
+>>>>>>> Stashed changes
       "height": 32,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
@@ -4435,7 +4439,11 @@
       "id": "LAYOUT_JUBILIFE_CITY",
       "name": "JubilifeCity_Layout",
       "width": 70,
+<<<<<<< Updated upstream
       "height": 64,
+=======
+      "height": 60,
+>>>>>>> Stashed changes
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/JubilifeCity/border.bin",
@@ -4455,7 +4463,11 @@
       "id": "LAYOUT_FLOAROMA_TOWN",
       "name": "FloaromaTown_Layout",
       "width": 34,
+<<<<<<< Updated upstream
       "height": 36,
+=======
+      "height": 32,
+>>>>>>> Stashed changes
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/FloaromaTown/border.bin",
@@ -4595,9 +4607,15 @@
       "id": "LAYOUT_ROUTE204",
       "name": "Route204_Layout",
       "width": 32,
+<<<<<<< Updated upstream
       "height": 64,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
+=======
+      "height": 70,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+>>>>>>> Stashed changes
       "border_filepath": "data/layouts/Route204/border.bin",
       "blockdata_filepath": "data/layouts/Route204/map.bin"
     },
@@ -4784,7 +4802,11 @@
     {
       "id": "LAYOUT_ROUTE219",
       "name": "Route219_Layout",
+<<<<<<< Updated upstream
       "width": 36,
+=======
+      "width": 30,
+>>>>>>> Stashed changes
       "height": 30,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
@@ -4960,6 +4982,7 @@
       "secondary_tileset": "gTileset_Valor",
       "border_filepath": "data/layouts/ResortArea/border.bin",
       "blockdata_filepath": "data/layouts/ResortArea/map.bin"
+<<<<<<< Updated upstream
     },
     {
       "id": "LAYOUT_LAKE_VERITY",
@@ -5230,6 +5253,8 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/TwinleafTown_MainHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_MainHouse_2F/map.bin"
+=======
+>>>>>>> Stashed changes
     }
   ]
 }

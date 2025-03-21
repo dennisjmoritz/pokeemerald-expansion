@@ -155,6 +155,7 @@
 #define MAPSEC_LAKE_VERITY                  0x97
 #define MAPSEC_LAKE_VALOR                   0x98
 #define MAPSEC_LAKE_ACUITY                  0x99
+<<<<<<< Updated upstream
 #define MAPSEC_OREBURGH_GATE                0x9A
 #define MAPSEC_OREBURGH_MINE                0x9B
 #define MAPSEC_RAVAGED_PATH                 0x9C
@@ -168,6 +169,8 @@
 #define MAPSEC_MT_STARK                     0xA5
 #define MAPSEC_IRON_ISLAND                  0xA6
 #define MAPSEC_POKEMON_LEAGUE               0xA7
+=======
+>>>>>>> Stashed changes
 
 
 
