@@ -167,6 +167,8 @@
 #define MAPSEC_MT_CORONET                   0xA4
 #define MAPSEC_MT_STARK                     0xA5
 #define MAPSEC_IRON_ISLAND                  0xA6
+#define MAPSEC_POKEMON_LEAGUE               0xA7
+
 
 
 #define MAPSEC_NONE                         0xD5
