@@ -1,18 +1,10 @@
 {
   "group_order": [
     "gMapGroup_SinnohTownsRoutes",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     "gMapGroup_SpecialAreasSinnoh",
     "gMapGroup_DungeonsSinnoh",
     "gMapGroup_IndoorSinnoh",
     "gMapGroup_IndoorTwons",
-=======
-    "gMapGroup_IndoorSinnoh",
->>>>>>> Stashed changes
-=======
-    "gMapGroup_IndoorSinnoh",
->>>>>>> Stashed changes
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -105,8 +97,6 @@
     "SurvivalArea",
     "ResortArea"
   ],
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   "gMapGroup_SpecialAreasSinnoh": [
     "LakeVerity",
     "LakeValor",
@@ -141,14 +131,6 @@
   "gMapGroup_IndoorTwons": [
     "TwinleafTown_MainHouse_1F",
     "TwinleafTown_MainHouse_2F"
-=======
-  "gMapGroup_IndoorSinnoh": [
-
->>>>>>> Stashed changes
-=======
-  "gMapGroup_IndoorSinnoh": [
-
->>>>>>> Stashed changes
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
