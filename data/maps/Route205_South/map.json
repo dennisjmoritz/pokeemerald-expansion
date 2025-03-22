@@ -27,14 +27,12 @@
       "map": "MAP_VALLEY_WINDWORKS",
       "offset": 59,
       "direction": "right"
-
     }
   ],
   "object_events": [
 
   ],
   "warp_events": [
-
     {
       "x": 14,
       "y": 6,
