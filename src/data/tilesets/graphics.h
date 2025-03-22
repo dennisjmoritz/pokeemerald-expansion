@@ -1786,8 +1786,6 @@ const u16 gTilesetPalettes_Valor[][16] =
 };
 
 const u32 gTilesetTiles_Valor[] = INCBIN_U32("data/tilesets/secondary/valor/tiles.4bpp.lz");
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 
 const u16 gTilesetPalettes_Pasos[][16] =
 {
@@ -1807,7 +1805,3 @@ const u16 gTilesetPalettes_Pasos[][16] =
 };
 
 const u32 gTilesetTiles_Pasos[] = INCBIN_U32("data/tilesets/secondary/pasos/tiles.4bpp.lz");
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes

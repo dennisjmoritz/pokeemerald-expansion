@@ -1153,8 +1153,6 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/follower.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 	.include "data/scripts/dexnav.inc"
 	.include "data/maps/TwinleafTown/scripts.inc"
 	.include "data/maps/SandgemTown/scripts.inc"
@@ -1211,177 +1209,30 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FightArea/scripts.inc"
 	.include "data/maps/SurvivalArea/scripts.inc"
 	.include "data/maps/ResortArea/scripts.inc"
-
 	.include "data/maps/LakeVerity/scripts.inc"
-
 	.include "data/maps/LakeValor/scripts.inc"
-
 	.include "data/maps/LakeAcuity/scripts.inc"
-
 	.include "data/maps/OreburghGate_1F/scripts.inc"
-
-
 	.include "data/maps/OreburghMine_B1F/scripts.inc"
-
 	.include "data/maps/OreburghMine_B2F/scripts.inc"
-
 	.include "data/maps/RavagedPath/scripts.inc"
-
 	.include "data/maps/ValleyWindworks/scripts.inc"
-
 	.include "data/maps/EternaForest/scripts.inc"
-
 	.include "data/maps/MtCoronet_1F_South/scripts.inc"
-
 	.include "data/maps/MtCoronet_1F_North_Room1/scripts.inc"
-
 	.include "data/maps/MtCoronet_1F_North_Room2/scripts.inc"
-
 	.include "data/maps/MtCoronet_B1F/scripts.inc"
-
 	.include "data/maps/Route206_North/scripts.inc"
-
 	.include "data/maps/Route206_South/scripts.inc"
-
 	.include "data/maps/Route208_Access/scripts.inc"
-
 	.include "data/maps/Route209_Access/scripts.inc"
-
 	.include "data/maps/Route212_Access/scripts.inc"
-
 	.include "data/maps/Route214_Access/scripts.inc"
-
 	.include "data/maps/Route215_Access/scripts.inc"
-
 	.include "data/maps/Route218_East/scripts.inc"
-
 	.include "data/maps/Route218_West/scripts.inc"
-
 	.include "data/maps/Route222_Access/scripts.inc"
-
 	.include "data/maps/Route225_Access/scripts.inc"
-
 	.include "data/maps/Route226_Access/scripts.inc"
-
-
 	.include "data/maps/TwinleafTown_MainHouse_1F/scripts.inc"
-
 	.include "data/maps/TwinleafTown_MainHouse_2F/scripts.inc"
-=======
-=======
->>>>>>> Stashed changes
-
-	.include "data/maps/TwinleafTown/scripts.inc"
-
-	.include "data/maps/SandgemTown/scripts.inc"
-
-	.include "data/maps/JubilifeCity/scripts.inc"
-
-	.include "data/maps/OreburghCity/scripts.inc"
-
-	.include "data/maps/FloaromaTown/scripts.inc"
-
-	.include "data/maps/EternaCity/scripts.inc"
-
-	.include "data/maps/HearthomeCity/scripts.inc"
-
-	.include "data/maps/SolaceonTown/scripts.inc"
-
-	.include "data/maps/CelesticTown/scripts.inc"
-
-	.include "data/maps/VeilstoneCity/scripts.inc"
-
-	.include "data/maps/PastoriaCity/scripts.inc"
-
-	.include "data/maps/CanalaveCity/scripts.inc"
-
-	.include "data/maps/SnowpointCity/scripts.inc"
-
-	.include "data/maps/SunyshoreCity/scripts.inc"
-
-	.include "data/maps/PokmonLeague/scripts.inc"
-
-	.include "data/maps/Route201/scripts.inc"
-
-	.include "data/maps/Route202/scripts.inc"
-
-	.include "data/maps/Route203/scripts.inc"
-
-	.include "data/maps/Route204/scripts.inc"
-
-
-	.include "data/maps/Route205_North/scripts.inc"
-
-	.include "data/maps/Route205_South/scripts.inc"
-
-	.include "data/maps/Route206/scripts.inc"
-
-	.include "data/maps/Route207/scripts.inc"
-
-	.include "data/maps/Route208/scripts.inc"
-
-	.include "data/maps/Route209/scripts.inc"
-
-	.include "data/maps/Route210_North/scripts.inc"
-
-	.include "data/maps/Route210_South/scripts.inc"
-
-	.include "data/maps/Route211_East/scripts.inc"
-
-	.include "data/maps/Route211_West/scripts.inc"
-
-	.include "data/maps/Route212_North/scripts.inc"
-
-	.include "data/maps/Route212_South/scripts.inc"
-
-	.include "data/maps/Route213/scripts.inc"
-
-	.include "data/maps/Route214/scripts.inc"
-
-	.include "data/maps/Route215/scripts.inc"
-
-	.include "data/maps/Route216/scripts.inc"
-
-	.include "data/maps/Route217/scripts.inc"
-
-	.include "data/maps/Route218/scripts.inc"
-
-	.include "data/maps/Route219/scripts.inc"
-
-	.include "data/maps/Route220/scripts.inc"
-
-	.include "data/maps/Route221/scripts.inc"
-
-	.include "data/maps/Route222/scripts.inc"
-
-	.include "data/maps/Route223/scripts.inc"
-
-	.include "data/maps/Route224/scripts.inc"
-
-	.include "data/maps/Route225/scripts.inc"
-
-	.include "data/maps/Route226/scripts.inc"
-
-	.include "data/maps/Route227/scripts.inc"
-
-	.include "data/maps/Route228/scripts.inc"
-
-	.include "data/maps/Route229/scripts.inc"
-
-	.include "data/maps/Route230/scripts.inc"
-
-	.include "data/maps/VerityLakefront/scripts.inc"
-
-	.include "data/maps/ValorLakefront/scripts.inc"
-
-	.include "data/maps/AcuityLakefront/scripts.inc"
-
-	.include "data/maps/FightArea/scripts.inc"
-
-	.include "data/maps/SurvivalArea/scripts.inc"
-
-	.include "data/maps/ResortArea/scripts.inc"
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes

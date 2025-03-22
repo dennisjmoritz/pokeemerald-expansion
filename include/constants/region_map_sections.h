@@ -155,8 +155,6 @@
 #define MAPSEC_LAKE_VERITY                  0x97
 #define MAPSEC_LAKE_VALOR                   0x98
 #define MAPSEC_LAKE_ACUITY                  0x99
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 #define MAPSEC_OREBURGH_GATE                0x9A
 #define MAPSEC_OREBURGH_MINE                0x9B
 #define MAPSEC_RAVAGED_PATH                 0x9C
@@ -169,18 +167,7 @@
 #define MAPSEC_MT_CORONET                   0xA4
 #define MAPSEC_MT_STARK                     0xA5
 #define MAPSEC_IRON_ISLAND                  0xA6
-<<<<<<< HEAD
 #define MAPSEC_POKEMON_LEAGUE               0xA7
-=======
->>>>>>> Stashed changes
-
-=======
->>>>>>> parent of 34c4c9c360 (Agregar DayANDNight)
-=======
-
->>>>>>> Stashed changes
-
-
 #define MAPSEC_NONE                         0xD5
 
 #define METLOC_SPECIAL_EGG                  0xFD
