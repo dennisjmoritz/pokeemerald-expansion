@@ -21,4 +21,4 @@ Route32_Text_RuinsSign::
 	.string "RUINS OF ALPH EAST ENTRANCE$"
 
 Route32_Text_CaveSign::
-	.string "UNION CAVE AHEAD"
+	.string "UNION CAVE AHEAD$"
