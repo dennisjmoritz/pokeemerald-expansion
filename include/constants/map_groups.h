@@ -1105,7 +1105,7 @@
 #define MAP_GOLDENROD_CITY_UNDERGROUND_SOUTH_ENTRANCE (1 | (75 << 8))
 #define MAP_GOLDENROD_CITY_UNDERGROUND                (2 | (75 << 8))
 #define MAP_GOLDENROD_CITY_UNDERGROUND_B1F            (3 | (75 << 8))
-#define MAP_GOLDEN_CITY_UNDERGROUND_WAREHOUSE         (4 | (75 << 8))
+#define MAP_GOLDENROD_CITY_UNDERGROUND_WAREHOUSE      (4 | (75 << 8))
 #define MAP_GOLDENROD_CITY_GYM                        (5 | (75 << 8))
 #define MAP_GOLDENROD_CITY_FLOWER_SHOP                (6 | (75 << 8))
 #define MAP_GOLDENROD_CITY_NAME_RATERS_HOUSE          (7 | (75 << 8))

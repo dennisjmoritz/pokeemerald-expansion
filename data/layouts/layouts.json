@@ -8752,14 +8752,14 @@
       "blockdata_filepath": "data/layouts/GoldenrodCity_Underground_B1F/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDEN_CITY_UNDERGROUND_WAREHOUSE",
-      "name": "GoldenCity_Underground_Warehouse_Layout",
+      "id": "LAYOUT_GOLDENROD_CITY_UNDERGROUND_WAREHOUSE",
+      "name": "GoldenrodCity_Underground_Warehouse_Layout",
       "width": 24,
       "height": 16,
       "primary_tileset": "gTileset_JohtoBuilding",
       "secondary_tileset": "gTileset_SilphCo",
-      "border_filepath": "data/layouts/GoldenCity_Underground_Warehouse/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenCity_Underground_Warehouse/map.bin"
+      "border_filepath": "data/layouts/GoldenrodCity_Underground_Warehouse/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_Underground_Warehouse/map.bin"
     },
     {
       "id": "LAYOUT_GOLDENROD_CITY_GYM",

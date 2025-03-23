@@ -392,7 +392,7 @@ gStdScripts_End::
     .include "data/maps/FuchsiaCity_SafariZone_Entrance/scripts.inc"
     .include "data/maps/FuchsiaCity_ZooBuilding/scripts.inc"
     .include "data/maps/GarysHouse/scripts.inc"
-    .include "data/maps/GoldenCity_Underground_Warehouse/scripts.inc"
+    .include "data/maps/GoldenrodCity_Underground_Warehouse/scripts.inc"
     .include "data/maps/GoldenrodCity/scripts.inc"
     .include "data/maps/GoldenrodCity_BikeShop/scripts.inc"
     .include "data/maps/GoldenrodCity_BillsFamilysHouse/scripts.inc"
