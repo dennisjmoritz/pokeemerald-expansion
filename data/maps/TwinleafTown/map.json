@@ -17,13 +17,18 @@
       "map": "MAP_ROUTE201",
       "offset": -4,
       "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE220",
+      "offset": 0,
+      "direction": "down"
     }
   ],
   "object_events": [
 
   ],
   "warp_events": [
-{
+    {
       "x": 16,
       "y": 18,
       "elevation": 0,

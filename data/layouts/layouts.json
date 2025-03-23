@@ -4424,7 +4424,7 @@
     {
       "id": "LAYOUT_SANDGEM_TOWN",
       "name": "SandgemTown_Layout",
-      "width": 30,
+      "width": 34,
       "height": 32,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
@@ -4435,7 +4435,7 @@
       "id": "LAYOUT_JUBILIFE_CITY",
       "name": "JubilifeCity_Layout",
       "width": 70,
-      "height": 60,
+      "height": 64,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/JubilifeCity/border.bin",
@@ -4577,7 +4577,7 @@
       "width": 30,
       "height": 34,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Jubilife",
+      "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route202/border.bin",
       "blockdata_filepath": "data/layouts/Route202/map.bin"
     },
@@ -4587,7 +4587,7 @@
       "width": 64,
       "height": 30,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Jubilife",
+      "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route203/border.bin",
       "blockdata_filepath": "data/layouts/Route203/map.bin"
     },
@@ -4784,7 +4784,7 @@
     {
       "id": "LAYOUT_ROUTE219",
       "name": "Route219_Layout",
-      "width": 30,
+      "width": 36,
       "height": 30,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",

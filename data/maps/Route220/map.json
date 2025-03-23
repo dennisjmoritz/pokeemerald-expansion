@@ -12,9 +12,23 @@
   "allow_running": false,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  
-  "connections": 0,
-
+  "connections": [
+    {
+      "map": "MAP_TWINLEAF_TOWN",
+      "offset": 0,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE219",
+      "offset": -5,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE221",
+      "offset": -4,
+      "direction": "right"
+    }
+  ],
   "object_events": [
 
   ],

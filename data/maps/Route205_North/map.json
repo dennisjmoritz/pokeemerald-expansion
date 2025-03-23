@@ -29,14 +29,14 @@
   ],
   "warp_events": [
     {
-      "x": 45,
+      "x": 46,
       "y": 11,
       "elevation": 0,
       "dest_map": "MAP_ETERNA_FOREST",
       "dest_warp_id": "2"
     },
     {
-      "x": 45,
+      "x": 46,
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_ETERNA_FOREST",
