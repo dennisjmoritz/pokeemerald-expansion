@@ -35,5 +35,5 @@ CianwoodCity_Text_PhotoStudioSign::
 	.string "CIANWOOD CITY PHOTO STUDIO\n"
 	.string "Take a snapshot as a keepsake!$"
 
-CianwoodCity_EventScript_KirksHouseSign::
+CianwoodCity_Text_KirksHosueSign::
 	.string "KIRK'S HOUSE$"
