@@ -36,6 +36,13 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 22,
+      "y": 31,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DragonsDen_B2F_EventScript_Sign"
+    }
   ]
 }
