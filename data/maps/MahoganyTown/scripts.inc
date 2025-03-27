@@ -18,15 +18,15 @@ MahoganyTown_EventScript_MartSign::
 	msgbox MahoganyTown_Text_MartSign, MSGBOX_SIGN
 	end
 
-MahoganyTown_Text_CitySign::
+MahoganyTown_Text_CitySign:
 	.string "MAHOGANY TOWN\n"
 	.string "Welcome to the home of the ninja$"
 
-MahoganyTown_Text_GymSign::
+MahoganyTown_Text_GymSign:
 	.string "MAHOGANY TOWN POKéMON GYM\n"
 	.string "LEADER: PRYCE\l"
 	.string "The teacher of winter's harshness$"
 
-MahoganyTown_Text_MartSign::
+MahoganyTown_Text_MartSign:
 	.string "MAHOGANY TOWN MART\n"
 	.string "Try a RAGE CANDYBAR!$"

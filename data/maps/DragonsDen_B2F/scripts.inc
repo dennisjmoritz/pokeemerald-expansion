@@ -8,4 +8,4 @@ DragonsDen_B2F_EventScript_Sign::
 DragonsDen_B2F_Text_Sign::
 	.string "DRAGON SHRINE\n"
 	.string "A shrine honoring the dragon pokémon\l"
-	.strign "said to have lived in DRAGON'S DEN$"
+	.string "said to have lived in DRAGON'S DEN$"

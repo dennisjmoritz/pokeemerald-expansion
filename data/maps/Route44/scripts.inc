@@ -14,4 +14,4 @@ Route44_Text_RouteSign::
 	.string "MAHOGANY TOWN - BLACKTHORN CITY$"
 
 Route44_Text_IcePathSign::
-	.string "ICE PATH AHEAD$:
+	.string "ICE PATH AHEAD$"
