@@ -371,7 +371,7 @@
  static bool8 IsSpritePaletteTagDnsException(u8 palNum);
  static bool8 IsOverworld();
  static bool8 IsCombat();
- static bool8 IsLightActive();
+ //static bool8 IsLightActive();
  
  //Dns palette buffer in EWRAM
  ALIGNED(4) EWRAM_DATA static u16 sDnsPaletteDmaBuffer[512] = {0};
@@ -419,8 +419,8 @@
              for (colNum = 0; colNum < 16; colNum++)  //Transfers palette to buffer without filtering
                  sDnsPaletteDmaBuffer[palNum * 16 + colNum] = gPlttBufferFaded[palNum * 16 + colNum];      
  
-     if (!IsMapDNSException() && IsLightActive() && !gMain.inBattle)
-         DoDnsLightning();
+     //if (!IsMapDNSException() && IsLightActive() && !gMain.inBattle)
+        // DoDnsLightning();
  }
  
  //Applies filter to a colour. Filters RGB channels are substracted from colour RGB channels.
@@ -552,9 +552,9 @@
          return FALSE;
  }
  
- static bool8 IsLightActive()
- {
-     if (gLocalTime.hours >= LIGHTNING_START_HOUR || gLocalTime.hours < LIGHTNING_END_HOUR)
-         return TRUE;
-     return FALSE;
- }
+ //static bool8 IsLightActive()
+ //{
+   //  if (gLocalTime.hours >= LIGHTNING_START_HOUR || gLocalTime.hours < LIGHTNING_END_HOUR)
+     //    return TRUE;
+     //return FALSE;
+ //}
