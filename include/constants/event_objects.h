@@ -241,7 +241,6 @@
 #define OBJ_EVENT_GFX_LUGIA                      237
 #define OBJ_EVENT_GFX_HOOH                       238
 #define OBJ_EVENT_GFX_PROF_OAK                   239
-#define OBJ_EVENT_GFX_LIGHT_SPRITE               OBJ_EVENT_GFX_QUINTY_PLUMP
 
 // NOTE: By default, the max value for NUM_OBJ_EVENT_GFX is 239.
 //
@@ -288,9 +287,6 @@
 #define TRACKS_NONE       0
 #define TRACKS_FOOT       1
 #define TRACKS_BIKE_TIRE  2
-#define TRACKS_SLITHER    3
-#define TRACKS_SPOT       4
-#define TRACKS_BUG        5
 
 #define FIRST_DECORATION_SPRITE_GFX OBJ_EVENT_GFX_PICHU_DOLL
 
