@@ -93,6 +93,19 @@ struct Trainer
 
 #define TRAINER_ENCOUNTER_MUSIC(trainer)((gTrainers[trainer].encounterMusic_gender & 0x7F))
 
+struct FollowerMsgInfo {
+    const u8 *text;
+    const u8 *script;
+};
+
+struct FollowerMessagePool
+{
+    const struct FollowerMsgInfo * messages;
+    const u8 * script;
+    u16 length;
+};
+
+
 extern const u16 gMinigameDigits_Pal[];
 extern const u32 gMinigameDigits_Gfx[];
 
@@ -138,5 +151,18 @@ extern const struct Trainer gTrainers[];
 extern const u8 gTrainerClassNames[][13];
 extern const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1];
 extern const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1];
+
+// Follower text messages
+extern const struct FollowerMsgInfo gFollowerHappyMessages[];
+extern const struct FollowerMsgInfo gFollowerNeutralMessages[];
+extern const struct FollowerMsgInfo gFollowerSadMessages[];
+extern const struct FollowerMsgInfo gFollowerUpsetMessages[];
+extern const struct FollowerMsgInfo gFollowerAngryMessages[];
+extern const struct FollowerMsgInfo gFollowerPensiveMessages[];
+extern const struct FollowerMsgInfo gFollowerLoveMessages[];
+extern const struct FollowerMsgInfo gFollowerSurpriseMessages[];
+extern const struct FollowerMsgInfo gFollowerCuriousMessages[];
+extern const struct FollowerMsgInfo gFollowerMusicMessages[];
+extern const struct FollowerMsgInfo gFollowerPoisonedMessages[];
 
 #endif // GUARD_DATA_H
