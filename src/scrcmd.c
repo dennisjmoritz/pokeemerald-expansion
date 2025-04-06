@@ -15,6 +15,7 @@
 #include "field_effect.h"
 #include "event_object_lock.h"
 #include "event_object_movement.h"
+#include "event_scripts.h"
 #include "field_message_box.h"
 #include "field_player_avatar.h"
 #include "field_screen_effect.h"
@@ -48,7 +49,6 @@
 #include "trainer_see.h"
 #include "tv.h"
 #include "window.h"
-#include "quests.h"
 #include "constants/event_objects.h"
 
 typedef u16 (*SpecialFunc)(void);
@@ -134,10 +134,15 @@ bool8 ScrCmd_specialvar(struct ScriptContext *ctx)
 
 bool8 ScrCmd_callnative(struct ScriptContext *ctx)
 {
-    NativeFunc func = (NativeFunc)ScriptReadWord(ctx);
-
-    func();
+    u32 func = ScriptReadWord(ctx);
+    ((NativeFunc) func)();
     return FALSE;
+}
+
+bool8 ScrCmd_callfunc(struct ScriptContext *ctx)
+{
+    u32 func = ScriptReadWord(ctx);
+    return ((ScrCmdFunc) func)(ctx);
 }
 
 bool8 ScrCmd_waitstate(struct ScriptContext *ctx)
@@ -624,6 +629,12 @@ static bool8 IsPaletteNotActive(void)
         return FALSE;
 }
 
+// pauses script until palette fade inactive
+bool8 ScrFunc_WaitPaletteNotActive(struct ScriptContext *ctx) {
+    SetupNativeScript(ctx, IsPaletteNotActive);
+    return TRUE;
+}
+
 bool8 ScrCmd_fadescreen(struct ScriptContext *ctx)
 {
     FadeScreen(ScriptReadByte(ctx), 0);
@@ -644,6 +655,7 @@ bool8 ScrCmd_fadescreenspeed(struct ScriptContext *ctx)
 bool8 ScrCmd_fadescreenswapbuffers(struct ScriptContext *ctx)
 {
     u8 mode = ScriptReadByte(ctx);
+    u8 nowait = ScriptReadByte(ctx);
 
     switch (mode)
     {
@@ -660,6 +672,8 @@ bool8 ScrCmd_fadescreenswapbuffers(struct ScriptContext *ctx)
         break;
     }
 
+    if (nowait)
+        return FALSE;
     SetupNativeScript(ctx, IsPaletteNotActive);
     return TRUE;
 }
@@ -994,6 +1008,7 @@ bool8 ScrCmd_applymovement(struct ScriptContext *ctx)
 {
     u16 localId = VarGet(ScriptReadHalfword(ctx));
     const void *movementScript = (const void *)ScriptReadWord(ctx);
+    struct ObjectEvent *objEvent;
 
     ScriptMovement_StartObjectMovementScript(localId, gSaveBlock1Ptr->location.mapNum, gSaveBlock1Ptr->location.mapGroup, movementScript);
     sMovingNpcId = localId;
@@ -1177,7 +1192,7 @@ bool8 ScrCmd_setobjectmovementtype(struct ScriptContext *ctx)
 
 bool8 ScrCmd_createvobject(struct ScriptContext *ctx)
 {
-    u16 graphicsId = ScriptReadHalfword(ctx);
+    u16 graphicsId = ScriptReadByte(ctx); // Support u16 in createvobject
     u8 virtualObjId = ScriptReadByte(ctx);
     u16 x = VarGet(ScriptReadHalfword(ctx));
     u32 y = VarGet(ScriptReadHalfword(ctx));
@@ -1550,7 +1565,7 @@ bool8 ScrCmd_vmessage(struct ScriptContext *ctx)
 bool8 ScrCmd_bufferspeciesname(struct ScriptContext *ctx)
 {
     u8 stringVarIndex = ScriptReadByte(ctx);
-    u16 species = VarGet(ScriptReadHalfword(ctx));
+    u16 species = VarGet(ScriptReadHalfword(ctx)) & ((1 << 10) - 1); // ignore possible shiny / form bits
 
     StringCopy(sScriptStringVars[stringVarIndex], gSpeciesNames[species]);
     return FALSE;
@@ -2304,115 +2319,5 @@ bool8 ScrCmd_warpwhitefade(struct ScriptContext *ctx)
     SetWarpDestination(mapGroup, mapNum, warpId, x, y);
     DoWhiteFadeWarp();
     ResetInitialPlayerAvatarState();
-    return TRUE;
-}
-
-bool8 ScrCmd_questmenu(struct ScriptContext *ctx)
-{
-    u8 caseId = ScriptReadByte(ctx);
-    u8 questId = VarGet(ScriptReadByte(ctx));
-
-    switch (caseId)
-    {
-    case QUEST_MENU_OPEN:
-    default:
-        BeginNormalPaletteFade(0xFFFFFFFF, 2, 16, 0, 0);
-        QuestMenu_Init(0, CB2_ReturnToFieldContinueScriptPlayMapMusic);
-        ScriptContext_Stop();
-        break;
-    case QUEST_MENU_UNLOCK_QUEST:
-        QuestMenu_GetSetQuestState(questId, FLAG_SET_UNLOCKED);
-        break;
-    case QUEST_MENU_SET_ACTIVE:
-        QuestMenu_GetSetQuestState(questId, FLAG_SET_UNLOCKED);
-        QuestMenu_GetSetQuestState(questId, FLAG_SET_ACTIVE);
-        break;
-    case QUEST_MENU_SET_REWARD:
-        QuestMenu_GetSetQuestState(questId, FLAG_SET_UNLOCKED);
-        QuestMenu_GetSetQuestState(questId, FLAG_SET_REWARD);
-        QuestMenu_GetSetQuestState(questId, FLAG_REMOVE_ACTIVE);
-        break;
-    case QUEST_MENU_COMPLETE_QUEST:
-        QuestMenu_GetSetQuestState(questId, FLAG_SET_UNLOCKED);
-        QuestMenu_GetSetQuestState(questId, FLAG_SET_COMPLETED);
-        QuestMenu_GetSetQuestState(questId, FLAG_REMOVE_ACTIVE);
-        QuestMenu_GetSetQuestState(questId, FLAG_REMOVE_REWARD);
-        break;
-    case QUEST_MENU_CHECK_UNLOCKED:
-        if (QuestMenu_GetSetQuestState(questId, FLAG_GET_UNLOCKED))
-            gSpecialVar_Result = TRUE;
-        else
-            gSpecialVar_Result = FALSE;
-        break;
-    case QUEST_MENU_CHECK_ACTIVE:
-        if (QuestMenu_GetSetQuestState(questId, FLAG_GET_ACTIVE))
-            gSpecialVar_Result = TRUE;
-        else
-            gSpecialVar_Result = FALSE;
-        break;
-    case QUEST_MENU_CHECK_REWARD:
-        if (QuestMenu_GetSetQuestState(questId, FLAG_GET_REWARD))
-            gSpecialVar_Result = TRUE;
-        else
-            gSpecialVar_Result = FALSE;
-        break;
-    case QUEST_MENU_CHECK_COMPLETE:
-        if (QuestMenu_GetSetQuestState(questId, FLAG_GET_COMPLETED))
-            gSpecialVar_Result = TRUE;
-        else
-            gSpecialVar_Result = FALSE;
-        break;
-    case QUEST_MENU_BUFFER_QUEST_NAME:
-            QuestMenu_CopyQuestName(gStringVar1, questId);
-        break;
-    }
-    
-    return TRUE;
-}
-
-bool8 ScrCmd_returnqueststate(struct ScriptContext *ctx)
-{
-    u8 questId = VarGet(ScriptReadByte(ctx));
-
-    if (QuestMenu_GetSetQuestState(questId, FLAG_GET_INACTIVE)){
-        gSpecialVar_Result = FLAG_GET_INACTIVE;
-        return FALSE;
-    }
-    if (QuestMenu_GetSetQuestState(questId, FLAG_GET_ACTIVE)){
-        gSpecialVar_Result = FLAG_GET_ACTIVE;
-        return FALSE;
-    }
-    if (QuestMenu_GetSetQuestState(questId, FLAG_GET_REWARD)){
-        gSpecialVar_Result = FLAG_GET_REWARD;
-        return FALSE;
-    }
-    if (QuestMenu_GetSetQuestState(questId, FLAG_GET_COMPLETED)){
-        gSpecialVar_Result = FLAG_GET_COMPLETED;
-        return FALSE;
-    }
-}
-
-bool8 ScrCmd_subquestmenu(struct ScriptContext *ctx)
-{
-    u8 caseId = ScriptReadByte(ctx);
-    u8 parentId = VarGet(ScriptReadHalfword(ctx));
-    u8 childId = VarGet(ScriptReadHalfword(ctx));
-
-    switch (caseId)
-    {
-        case QUEST_MENU_COMPLETE_QUEST:
-            QuestMenu_GetSetSubquestState(parentId ,FLAG_SET_COMPLETED,childId);
-            break;
-        case QUEST_MENU_CHECK_COMPLETE:
-            if (QuestMenu_GetSetSubquestState(parentId ,FLAG_GET_COMPLETED,childId))
-                gSpecialVar_Result = TRUE;
-            else
-                gSpecialVar_Result = FALSE;
-            break;
-        case QUEST_MENU_BUFFER_QUEST_NAME:
-            QuestMenu_CopySubquestName(gStringVar1,parentId,childId);
-            break;
-    }
-
     return TRUE;
 }

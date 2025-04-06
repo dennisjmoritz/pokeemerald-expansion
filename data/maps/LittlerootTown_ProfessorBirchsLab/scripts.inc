@@ -120,8 +120,6 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex::
 	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
 	setflag FLAG_SYS_NATIONAL_DEX
 	special EnableNationalPokedex
-	setflag FLAG_SYS_QUEST_MENU_GET
-	questmenu QUEST_MENU_SET_ACTIVE QUEST_POKEDEX
 	clearflag FLAG_HIDE_OLDALE_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
 	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 1
 	return

@@ -214,7 +214,6 @@ LittlerootTown_MaysHouse_2F_EventScript_May::
 	message LittlerootTown_MaysHouse_2F_Text_PlayerReceivedPokeballs
 	waitfanfare
 	msgbox LittlerootTown_MaysHouse_2F_Text_MayExplainGyms, MSGBOX_DEFAULT
-	questmenu QUEST_MENU_SET_ACTIVE QUEST_ELITE_FOUR
 	setvar VAR_LITTLEROOT_RIVAL_STATE, 2
 	fadedefaultbgm
 	closemessage
@@ -230,7 +229,6 @@ LittlerootTown_MaysHouse_2F_EventScript_Brendan::
 	message LittlerootTown_MaysHouse_2F_Text_PlayerReceivedPokeballs
 	waitfanfare
 	msgbox LittlerootTown_MaysHouse_2F_Text_BrendanExplainGyms, MSGBOX_DEFAULT
-	questmenu QUEST_MENU_SET_ACTIVE QUEST_ELITE_FOUR
 	setvar VAR_LITTLEROOT_RIVAL_STATE, 2
 	fadedefaultbgm
 	closemessage

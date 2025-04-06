@@ -57,7 +57,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "PewterCity_Museum_1F_EventScript_KabutopsFossil"
+      "script": "PewterCity_Museum_1F_EventScript_KabutoFossil"
     }
   ]
 }

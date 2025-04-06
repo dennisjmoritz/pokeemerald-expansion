@@ -47,6 +47,21 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route30_EventScript_MrPokemonsHouseSign"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 49,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route30_EventScript_RouteSign"
+    }
   ]
 }

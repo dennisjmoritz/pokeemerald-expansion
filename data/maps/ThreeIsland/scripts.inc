@@ -5,3 +5,11 @@ ThreeIsland_MapScripts::
 ThreeIsland_OnTransition:
 	setflag FLAG_VISITED_THREE_ISLAND
 	end
+
+ThreeIsland_EventScript_IslandSign::
+	msgbox ThreeIsland_Text_IslandSign, MSGBOX_SIGN
+	end
+
+ThreeIsland_Text_IslandSign::
+    .string "THREE ISLAND\n"
+    .string "Kin Island of Family Bonding$"

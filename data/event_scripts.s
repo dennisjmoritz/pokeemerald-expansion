@@ -54,7 +54,6 @@
 #include "constants/union_room.h"
 #include "constants/vars.h"
 #include "constants/weather.h"
-#include "constants/quests.h"
 	.include "asm/macros.inc"
 	.include "asm/macros/event.inc"
 	.include "constants/constants.inc"
@@ -392,7 +391,7 @@ gStdScripts_End::
     .include "data/maps/FuchsiaCity_SafariZone_Entrance/scripts.inc"
     .include "data/maps/FuchsiaCity_ZooBuilding/scripts.inc"
     .include "data/maps/GarysHouse/scripts.inc"
-    .include "data/maps/GoldenCity_Underground_Warehouse/scripts.inc"
+    .include "data/maps/GoldenrodCity_Underground_Warehouse/scripts.inc"
     .include "data/maps/GoldenrodCity/scripts.inc"
     .include "data/maps/GoldenrodCity_BikeShop/scripts.inc"
     .include "data/maps/GoldenrodCity_BillsFamilysHouse/scripts.inc"
@@ -1331,11 +1330,11 @@ Common_EventScript_PlayGymBadgeFanfare::
 	return
 
 Common_EventScript_OutOfCenterPartyHeal::
-	fadescreen FADE_TO_BLACK
+	fadescreenswapbuffers FADE_TO_BLACK
 	playfanfare MUS_HEAL
 	waitfanfare
 	special HealPlayerParty
-	fadescreen FADE_FROM_BLACK
+	fadescreenswapbuffers FADE_FROM_BLACK
 	return
 
 EventScript_RegionMap::

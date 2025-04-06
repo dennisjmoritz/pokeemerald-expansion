@@ -22,13 +22,36 @@
       "y": 3,
       "elevation": 0,
       "dest_map": "MAP_GOLDENROD_CITY_DEPARTMENT_STORE_6F",
-      "dest_warp_id": 1
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 1,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "GoldenrodCity_DepartmentStore_Rooftop_EventScript_VendingMachine"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "GoldenrodCity_DepartmentStore_Rooftop_EventScript_VendingMachine"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "GoldenrodCity_DepartmentStore_Rooftop_EventScript_VendingMachine"
+    }
   ]
 }

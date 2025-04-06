@@ -54,7 +54,22 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route46_EventScript_DarkCaveSign"
+    },
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 31,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route46_EventScript_RouteSign"
+    }
   ],
   "floor_number": "",
   "phone_service": ""

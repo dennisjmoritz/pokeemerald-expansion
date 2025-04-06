@@ -1,7 +1,7 @@
 {
-  "id": "MAP_GOLDEN_CITY_UNDERGROUND_WAREHOUSE",
-  "name": "GoldenCity_Underground_Warehouse",
-  "layout": "LAYOUT_GOLDEN_CITY_UNDERGROUND_WAREHOUSE",
+  "id": "MAP_GOLDENROD_CITY_UNDERGROUND_WAREHOUSE",
+  "name": "GoldenrodCity_Underground_Warehouse",
+  "layout": "LAYOUT_GOLDENROD_CITY_UNDERGROUND_WAREHOUSE",
   "music": "MUS_UNION_CAVE",
   "region_map_section": "MAPSEC_GOLDENROD_CITY",
   "requires_flash": false,
@@ -21,8 +21,8 @@
       "x": 2,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_GOLDENROD_CITY_UNDERGROUND_B1F",
-      "dest_warp_id": 1
+      "dest_map": "MAP_GOLDENROD_CITY_DEPARTMENT_STORE_B1F",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

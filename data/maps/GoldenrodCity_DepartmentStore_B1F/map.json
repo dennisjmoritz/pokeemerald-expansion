@@ -21,15 +21,15 @@
       "x": 20,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_GOLDENROD_CITY_DEPARTMENT_STORE_B1F",
-      "dest_warp_id": 0
+      "dest_map": "MAP_GOLDENROD_CITY_UNDERGROUND_WAREHOUSE",
+      "dest_warp_id": "0"
     },
     {
       "x": 11,
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_GOLDENROD_CITY_DEPARTMENT_STORE_ELEVATOR",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
