@@ -795,7 +795,7 @@
 #define FLAG_HIDE_SLATEPORT_CITY_SCOTT                              0x2ED
 #define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE
 #define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF
-#define FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE                       0x2F0
+#define FLAG_HIDE_INTRO_MOM_OUTSIDE                                 0x2F0
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0x2F1
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1          0x2F2
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2          0x2F3
@@ -804,7 +804,7 @@
 #define FLAG_HIDE_LITTLEROOT_TOWN_HOUSE_MOM                         0x2F6
 #define FLAG_UNUSED_0x2F7                                           0x2F7
 #define FLAG_UNUSED_0x2F8                                           0x2F8
-#define FLAG_HIDE_LITTLEROOT_TOWN_HOUSE_TRUCK                       0x2F9
+#define FLAG_HIDE_TRUCK                                             0x2F9
 #define FLAG_UNUSED_0x2FA                                           0x2FA
 #define FLAG_HIDE_DEOXYS                                            0x2FB
 #define FLAG_HIDE_BIRTH_ISLAND_DEOXYS_TRIANGLE                      0x2FC

@@ -7,7 +7,7 @@ LittlerootTown_PlayersHouse_1F_MapScripts::
 	.byte 0
 
 LittlerootTown_PlayersHouse_1F_OnLoad:
-	call_if_lt VAR_LITTLEROOT_INTRO_STATE, 6, LittlerootTown_PlayersHouse_1F_EventScript_SetMovingBoxes
+	call_if_lt VAR_INTRO_STATE, 6, LittlerootTown_PlayersHouse_1F_EventScript_SetMovingBoxes
 	end
 
 LittlerootTown_PlayersHouse_1F_EventScript_SetMovingBoxes::
@@ -16,9 +16,9 @@ LittlerootTown_PlayersHouse_1F_EventScript_SetMovingBoxes::
 	return
 
 LittlerootTown_PlayersHouse_1F_OnTransition:
-	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 3, LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToDoor
-	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 5, LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToStairs
-	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 6, LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToTV
+	call_if_eq VAR_INTRO_STATE, 3, LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToDoor
+	call_if_eq VAR_INTRO_STATE, 5, LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToStairs
+	call_if_eq VAR_INTRO_STATE, 6, LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToTV
 	end
 
 LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToStairs::
@@ -39,9 +39,9 @@ LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToDoor::
 @ Many of the below scripts have no gender check because they assume youre in the correct house
 @ The below SS Ticket script uses Mays house state by accident(?), but theyre both set identically after the intro
 LittlerootTown_PlayersHouse_1F_OnFrame:
-	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 3, LittlerootTown_PlayersHouse_1F_EventScript_EnterHouseMovingIn
-	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 5, LittlerootTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock
-	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 6, LittlerootTown_PlayersHouse_1F_EventScript_MomLeaving
+	map_script_2 VAR_INTRO_STATE, 3, LittlerootTown_PlayersHouse_1F_EventScript_EnterHouseMovingIn
+	map_script_2 VAR_INTRO_STATE, 5, LittlerootTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock
+	map_script_2 VAR_INTRO_STATE, 6, LittlerootTown_PlayersHouse_1F_EventScript_MomLeaving
 	.2byte 0
 
 LittlerootTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock::

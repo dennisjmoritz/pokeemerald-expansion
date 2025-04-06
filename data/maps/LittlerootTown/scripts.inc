@@ -8,7 +8,7 @@ LittlerootTown_MapScripts::
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_OnWarp
 	.byte 0
 
-	@ State descriptions for VAR_LITTLEROOT_INTRO_STATE
+	@ State descriptions for VAR_INTRO_STATE
 	@ 1: In truck
 	@ 3: Entered house
 	@ 4: Told to go set clock
@@ -38,7 +38,7 @@ LittlerootTown_OnTransition:
 	end
 
 LittlerootTown_OnFrame:
-	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 1, LittlerootTown_EventScript_StepOffTruck
+	map_script_2 VAR_INTRO_STATE, 1, LittlerootTown_EventScript_StepOffTruck
 	.2byte 0
 
 LittlerootTown_OnWarp:
@@ -57,7 +57,7 @@ LittlerootTown_EventScript_StepOffTruck::
 	setvar VAR_0x8004, 5
 	setvar VAR_0x8005, 8
 	call LittlerootTown_EventScript_GoInsideWithMom
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_HOUSE_TRUCK
+	setflag FLAG_HIDE_TRUCK
 	warpsilent MAP_LITTLEROOT_TOWN_PLAYERS_HOUSE_1F, 8, 8
 	waitstate
 	releaseall
@@ -88,8 +88,8 @@ LittlerootTown_EventScript_GoInsideWithMom::
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomEnterHouse
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_PlayerEnterHouse
 	waitmovement 0
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
-	setvar VAR_LITTLEROOT_INTRO_STATE, 3
+	setflag FLAG_HIDE_INTRO_MOM_OUTSIDE
+	setvar VAR_INTRO_STATE, 3
 	hideobjectat OBJ_EVENT_ID_PLAYER, 0
 	closedoor VAR_0x8004, VAR_0x8005
 	waitdooranim

@@ -6,7 +6,7 @@ LittlerootTown_PlayersHouse_2F_MapScripts::
 	.byte 0
 
 LittlerootTown_PlayersHouse_2F_OnTransition:
-	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 4, PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet
+	call_if_eq VAR_INTRO_STATE, 4, PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet
 	call SecretBase_EventScript_SetDecorationFlags
 	setvar VAR_SECRET_BASE_INITIALIZED, 0
 	end
