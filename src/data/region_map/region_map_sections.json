@@ -519,6 +519,14 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "map_section": "MAPSEC_LAKE_VERITY",
+      "name": "",
+      "x": 0,
+      "y": 13,
+      "width": 2,
+      "height": 1
     }
   ]
 }
