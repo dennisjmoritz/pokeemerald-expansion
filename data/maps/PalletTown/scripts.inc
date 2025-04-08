@@ -15,8 +15,8 @@ PalletTown_OnFrame:
 
 PalletTown_EventScript_StepOffTruck::
 	lockall
-	setvar VAR_0x8004, 5
-	setvar VAR_0x8005, 8
+	setvar VAR_0x8004, 6
+	setvar VAR_0x8005, 7
 	call PalletTown_EventScript_GoInsideWithMom
 	setflag FLAG_HIDE_TRUCK
 	warpsilent MAP_PLAYERS_HOUSE_1F, 3, 8
