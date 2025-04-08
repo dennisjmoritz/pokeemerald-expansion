@@ -28,7 +28,41 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 14,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE206_NORTH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 12,
+      "y": 96,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE206_SOUTH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 96,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE206_SOUTH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 102,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE206_SOUTH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 13,
+      "y": 102,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE206_SOUTH",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

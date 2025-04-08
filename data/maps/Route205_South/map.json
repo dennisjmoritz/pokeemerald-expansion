@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_FLOAROMA_TOWN",
-      "offset": 58,
+      "offset": 64,
       "direction": "left"
     },
     {
@@ -25,12 +25,12 @@
     },
     {
       "map": "MAP_VALLEY_WINDWORKS",
-      "offset": 59,
+      "offset": 65,
       "direction": "right"
     },
     {
       "map": "MAP_VALLEY_WINDWORKS",
-      "offset": 59,
+      "offset": 65,
       "direction": "right"
     }
   ],

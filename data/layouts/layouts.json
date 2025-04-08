@@ -4605,7 +4605,7 @@
       "id": "LAYOUT_ROUTE205_NORTH",
       "name": "Route205_North_Layout",
       "width": 80,
-      "height": 66,
+      "height": 60,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Jubilife",
       "border_filepath": "data/layouts/Route205_North/border.bin",
@@ -4615,7 +4615,7 @@
       "id": "LAYOUT_ROUTE205_SOUTH",
       "name": "Route205_South_Layout",
       "width": 32,
-      "height": 90,
+      "height": 96,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route205_South/border.bin",
@@ -4685,7 +4685,7 @@
       "id": "LAYOUT_ROUTE211_EAST",
       "name": "Route211_East_Layout",
       "width": 32,
-      "height": 28,
+      "height": 32,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Celestic",
       "border_filepath": "data/layouts/Route211_East/border.bin",
@@ -5154,8 +5154,8 @@
     {
       "id": "LAYOUT_ROUTE215_ACCESS",
       "name": "Route215_Access_Layout",
-      "width": 9,
-      "height": 11,
+      "width": 13,
+      "height": 9,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_Pasos",
       "border_filepath": "data/layouts/Route215_Access/border.bin",
@@ -5230,6 +5230,26 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/TwinleafTown_MainHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_MainHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_HOTEL_GRAND_LAKE",
+      "name": "HotelGrandLake_Layout",
+      "width": 15,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/HotelGrandLake/border.bin",
+      "blockdata_filepath": "data/layouts/HotelGrandLake/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE213_ACCESS",
+      "name": "Route213_Access_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Pasos",
+      "border_filepath": "data/layouts/Route213_Access/border.bin",
+      "blockdata_filepath": "data/layouts/Route213_Access/map.bin"
     }
   ]
 }

@@ -28,7 +28,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 16,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE214_ACCESS",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE214_ACCESS",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

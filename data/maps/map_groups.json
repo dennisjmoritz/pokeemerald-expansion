@@ -120,13 +120,15 @@
     "Route208_Access",
     "Route209_Access",
     "Route212_Access",
+    "Route213_Access",
     "Route214_Access",
     "Route215_Access",
     "Route218_East",
     "Route218_West",
     "Route222_Access",
     "Route225_Access",
-    "Route226_Access"
+    "Route226_Access",
+    "HotelGrandLake"
   ],
   "gMapGroup_IndoorTwons": [
     "TwinleafTown_MainHouse_1F",
