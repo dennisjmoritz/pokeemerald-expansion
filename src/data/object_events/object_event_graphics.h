@@ -364,5 +364,5 @@ const u16 gObjectEventPal_ProfOak[] = INCBIN_U16("graphics/object_events/palette
 const u32 gObjectEventPic_ProfOak[] = INCBIN_U32("graphics/object_events/pics/people/prof_oak.4bpp");
 const u16 gObjectEventPal_ProfElm[] = INCBIN_U16("graphics/object_events/palettes/prof_elm.gbapal");
 const u32 gObjectEventPic_ProfElm[] = INCBIN_U32("graphics/object_events/pics/people/prof_elm.4bpp");
-const u16 gObjectEventPal_Delia[] = INCBIN_U16("graphics/object_events/palettes/npc_blue.gbapal");
 const u32 gObjectEventPic_Delia[] = INCBIN_U32("graphics/object_events/pics/people/delia.4bpp");
+const u32 gObjectEventPic_Grace[] = INCBIN_U32("graphics/object_events/pics/people/grace.4bpp");

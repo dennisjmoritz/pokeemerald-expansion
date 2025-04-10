@@ -248,6 +248,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvi
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfOak;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfElm;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Delia;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Grace;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -492,6 +493,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_PROF_OAK] =                 &gObjectEventGraphicsInfo_ProfOak,
     [OBJ_EVENT_GFX_PROF_ELM] =                 &gObjectEventGraphicsInfo_ProfElm,
     [OBJ_EVENT_GFX_DELIA] =                    &gObjectEventGraphicsInfo_Delia,
+    [OBJ_EVENT_GFX_GRACE] =                    &gObjectEventGraphicsInfo_Grace,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
