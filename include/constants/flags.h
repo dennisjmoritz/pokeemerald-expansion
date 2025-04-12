@@ -801,7 +801,7 @@
 #define FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_2                          0x2F3
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0x2F4
 #define FLAG_UNUSED_0x2F5                                           0x2F5
-#define FLAG_HIDE_LITTLEROOT_TOWN_HOUSE_MOM                         0x2F6
+#define FLAG_HIDE_PLAYERS_HOUSE_MOM                                 0x2F6
 #define FLAG_UNUSED_0x2F7                                           0x2F7
 #define FLAG_UNUSED_0x2F8                                           0x2F8
 #define FLAG_HIDE_TRUCK                                             0x2F9

@@ -133,7 +133,7 @@ LittlerootTown_PlayersHouse_1F_EventScript_MomLeaving::
 	waitmovement 0
 	removeobject LOCALID_MOM
 	playse SE_EXIT
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_HOUSE_MOM
+	setflag FLAG_HIDE_PLAYERS_HOUSE_MOM
 	setvar VAR_TEMP_1, 1
 	setflag FLAG_SYS_B_DASH
 	end

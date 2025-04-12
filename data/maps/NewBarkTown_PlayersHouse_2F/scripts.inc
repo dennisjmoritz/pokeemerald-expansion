@@ -1,2 +1,7 @@
 NewBarkTown_PlayersHouse_2F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, NewBarkTown_PlayersHouse_2F_OnTransition
 	.byte 0
+
+NewBarkTown_PlayersHouse_2F_OnTransition:
+	call_if_eq VAR_INTRO_STATE, 4, PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet
+	end
