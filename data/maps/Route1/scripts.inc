@@ -73,6 +73,7 @@ Route1_EventScript_GreetOak::
 	waitstate
 	msgbox Route1_Text_ProfOak_LetsGoBack, MSGBOX_DEFAULT
 	special HealPlayerParty
+	setvar VAR_OAK_LAB_STATE, 2
 	setvar VAR_INTRO_BATTLE_STATE, 3
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	setflag FLAG_HIDE_ROUTE_1_PROF_OAK
