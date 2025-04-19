@@ -11722,63 +11722,63 @@
             "encounter_rate": 20,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_PIDGEY"
               },
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_RATTATA"
               },
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_SENTRET"
               },
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_HOOTHOOT"
               },
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_HOPPIP"
               },
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_SPEAROW"
               },
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 5,
                 "species": "SPECIES_EXEGGCUTE"
               },
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 5,
                 "species": "SPECIES_LEDYBA"
               },
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 5,
                 "species": "SPECIES_SPINARAK"
               },
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 5,
                 "species": "SPECIES_AIPOM"
               },
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 6,
                 "species": "SPECIES_PINECO"
               },
               {
-                "min_level": 5,
-                "max_level": 15,
+                "min_level": 2,
+                "max_level": 6,
                 "species": "SPECIES_HERACROSS"
               }
             ]

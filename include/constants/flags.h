@@ -777,9 +777,9 @@
 #define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD
-#define FLAG_UNUSED_0x2DE                                           0x2DE
-#define FLAG_UNUSED_0x2DF                                           0x2DF
-#define FLAG_UNUSED_0x2E0                                           0x2E0
+#define FLAG_HIDE_ELMS_LAB_PROF_ELM                                 0x2DE
+#define FLAG_HIDE_ROUTE_29_ELM                                      0x2DF
+#define FLAG_HIDE_ROUTE_29_RIVAL                                    0x2E0
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0x2E2
 #define FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY                           0x2E3

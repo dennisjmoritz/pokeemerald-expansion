@@ -6781,6 +6781,14 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR1[] = {
     }
 };
 
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalRoute29[] = {
+    {
+    .iv = 0,
+    .lvl = 3,
+    .species = SPECIES_EEVEE,
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute110Mudkip[] = {
     {
     .iv = 50,

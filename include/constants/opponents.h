@@ -521,13 +521,13 @@
 #define TRAINER_EDWIN_4                     517
 #define TRAINER_EDWIN_5                     518
 #define TRAINER_WALLY_VR_1                  519
-#define UNUSED_0X520                        520
+#define TRAINER_GOLD_ROUTE_29               520
 #define TRAINER_BRENDAN_ROUTE_110_MUDKIP    521
 #define TRAINER_BRENDAN_ROUTE_119_MUDKIP    522
 #define TRAINER_BRENDAN_ROUTE_103           523
 #define TRAINER_BRENDAN_ROUTE_110_TREECKO   524
 #define TRAINER_BRENDAN_ROUTE_119_TREECKO   525
-#define UNUSED_0X526                        526
+#define TRAINER_KRIS_ROUTE_29               526
 #define TRAINER_BRENDAN_ROUTE_110_TORCHIC   527
 #define TRAINER_BRENDAN_ROUTE_119_TORCHIC   528
 #define UNUSED_0X529                        529

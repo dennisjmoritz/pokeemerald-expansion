@@ -6241,6 +6241,18 @@ const struct Trainer gTrainers[] = {
         .party = NO_ITEM_CUSTOM_MOVES(sParty_WallyVR1),
     },
 
+    [TRAINER_GOLD_ROUTE_29] =
+    {
+        .trainerClass = TRAINER_CLASS_RIVAL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_BRENDAN,
+        .trainerName = _("GOLD"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_SETUP_FIRST_TURN,
+        .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalRoute29),
+    },
+
     [TRAINER_BRENDAN_ROUTE_110_MUDKIP] =
     {
         .trainerClass = TRAINER_CLASS_RIVAL,
@@ -6299,6 +6311,18 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BrendanRoute119Treecko),
+    },
+
+    [TRAINER_KRIS_ROUTE_29] =
+    {
+        .trainerClass = TRAINER_CLASS_RIVAL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
+        .trainerPic = TRAINER_PIC_MAY,
+        .trainerName = _("KRIS"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_SETUP_FIRST_TURN,
+        .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalRoute29),
     },
 
     [TRAINER_BRENDAN_ROUTE_110_TORCHIC] =
