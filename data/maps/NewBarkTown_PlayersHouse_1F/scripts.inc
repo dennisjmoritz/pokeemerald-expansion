@@ -73,11 +73,10 @@ NewBarkTown_PlayersHouse_1F_EventScript_GoSeeRoom::
 	lockall
 	setvar VAR_0x8004, LOCALID_MOM
 	setvar VAR_0x8005, MALE
-	applymovement VAR_0x8004, Common_Movement_WalkInPlaceFasterLeft
+	applymovement VAR_0x8004, Common_Movement_FacePlayer
 	waitmovement 0
 	goto PlayersHouse_1F_EventScript_MomGoSeeRoom
 	end
-
 
 NewBarkTown_PlayersHouse_1F_EventScript_PetalburgGymReport::
 	setvar VAR_INTRO_STATE, 7
@@ -180,8 +179,8 @@ NewBarkTown_PlayersHouse_1F_Movement_MomLeave:
 
 NewBarkTown_PlayersHouse_1F_Text_AlmostForgot:
 	.string "I almost forgot!\p"
-	.string "I spoke to a man named Professor Oak\n"
-	.string "here in Pallet Town earlier today.\p" 
+	.string "I spoke to a man named Professor Elm\n"
+	.string "here in New Bark Town earlier today.\p" 
 	.string "He wants you to visit him in his lab,\n"
 	.string "please go and see him!\p"
 	.string "Bye {PLAYER}!$"
