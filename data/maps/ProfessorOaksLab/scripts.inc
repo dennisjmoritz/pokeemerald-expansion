@@ -71,6 +71,7 @@ ProfessorOaksLab_EventScript_Oak::
 	lock
 	faceplayer
 	msgbox ProfessorOaksLab_Text_OakRivalGoneHome, MSGBOX_DEFAULT
+	release
 	end
 
 ProfessorOaksLab_EventScript_ReceivePokedex::
