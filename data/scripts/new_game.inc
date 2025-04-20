@@ -268,5 +268,6 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL
 	setflag FLAG_HIDE_OAKS_LAB_PROF_OAK
 	setflag FLAG_HIDE_ELMS_LAB_PROF_ELM
+	setflag FLAG_HIDE_ELMS_LAB_RIVAL
 	call EventScript_ResetAllBerries
 	end
