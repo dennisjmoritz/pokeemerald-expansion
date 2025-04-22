@@ -87,22 +87,22 @@ NewBarkTown_ProfessorElmsLab_EventScript_Book::
 	end
 
 NewBarkTown_ProfessorElmsLab_Text_ElmAwayOnFieldwork:
-	.string "Hunh? PROF. ELM?\p"
-	.string "The PROF's away on fieldwork.\n"
+	.string "Hunh? Professor Elm?\p"
+	.string "He's away on fieldwork.\n"
 	.string "Ergo, he isn't here.\p"
 	.string "Oh, let me explain what fieldwork is.\p"
 	.string "It is to study things in the natural\n"
 	.string "environment, like fields and mountains,\l"
 	.string "instead of a laboratory.\p"
-	.string "The PROF isn't one for doing desk work.\n"
+	.string "Elm isn't one for doing desk work.\n"
 	.string "He's the type of person who would\l"
 	.string "rather go outside and experience\l"
 	.string "things than read about them here.$"
 
 NewBarkTown_ProfessorElmsLab_Text_ElmEnjoysRivalsHelpToo:
-	.string "PROF. ELM is studying the habitats\n"
+	.string "Professor Elm is studying the habitats\n"
 	.string "and distribution of pokémon.\p"
-	.string "The PROF enjoys {RIVAL}'s help, too.\n"
+	.string "The professor enjoys {RIVAL}'s help, too.\n"
 	.string "There's a lot of love there.$"
 
 NewBarkTown_ProfessorElmsLab_Text_GivePokedex:
@@ -110,9 +110,9 @@ NewBarkTown_ProfessorElmsLab_Text_GivePokedex:
 	.string "I've heard that we were getting a\n"
 	.string "newcomer in town, and I talked to\l"
 	.string "your mother earlier today!\p"
-	.string "Welcome to Littleroot Town!\p"
+	.string "Welcome to New Bark Town!\p"
 	.string "I understand your father is the\n"
-	.string "gym leader in Petalburg City.\p"
+	.string "gym leader in Violet City.\p"
 	.string "The way you battled earlier...\n"
 	.string "I guess you have your father's blood\l"
 	.string "in your veins after all!\p"
@@ -144,7 +144,7 @@ NewBarkTown_ProfessorElmsLab_Text_ExplainPokedex:
 
 NewBarkTown_ProfessorElmsLab_Text_SeriousLookingMachine:
 	.string "It's a serious-looking machine.\n"
-	.string "The PROF must use this for research.$"
+	.string "The professor must use this for research.$"
 
 NewBarkTown_ProfessorElmsLab_Text_PCUsedForResearch:
 	.string "It's a PC used for research.\n"
