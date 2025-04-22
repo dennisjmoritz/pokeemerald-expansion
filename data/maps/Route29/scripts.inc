@@ -94,6 +94,7 @@ Route29_EventScript_AfterRivalBattle::
 	setflag FLAG_HIDE_ROUTE_29_ELM
 	setflag FLAG_HIDE_ROUTE_29_RIVAL
 	clearflag FLAG_HIDE_ELMS_LAB_PROF_ELM
+	clearflag FLAG_HIDE_ELMS_LAB_RIVAL
 	warp MAP_NEW_BARK_TOWN_PROFESSOR_ELMS_LAB, 6, 5
 	waitstate
 	release
