@@ -118,7 +118,7 @@ NewBarkTown_ProfessorElmsLab_Text_GivePokedex:
 	.string "in your veins after all!\p"
 	.string "{PLAYER}{KUN}, now that you're starting\n"
 	.string "your own adventure, I think you should\l"
-	.string "have this POKéDEX.$"
+	.string "have this pokédex.$"
 
 NewBarkTown_ProfessorElmsLab_Text_ElmRivalGoneHome:
 	.string "PROF. ELM: {RIVAL}?\n"
@@ -132,13 +132,13 @@ NewBarkTown_ProfessorElmsLab_Text_ReceivedPokedex:
 	.string "{PLAYER} received the POKéDEX!$"
 
 NewBarkTown_ProfessorElmsLab_Text_ExplainPokedex:
-	.string "PROF. ELM: The POKéDEX is a high-tech\n"
+	.string "PROF. ELM: The pokédex is a high-tech\n"
 	.string "tool that automatically makes a record\l"
 	.string "of any pokémon you meet or catch.\p"
 	.string "My kid, {RIVAL}, goes everywhere\n"
 	.string "with it.\p"
 	.string "Whenever my kid catches a rare pokémon\n"
-	.string "and records its data in the POKéDEX,\l"
+	.string "and records its data in the pokédex,\l"
 	.string "why, {RIVAL} looks for me while I'm out\l"
 	.string "doing fieldwork, and shows me.$"
 

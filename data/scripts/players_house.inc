@@ -437,12 +437,11 @@ EventScript_RunningShoesManual::
 	msgbox PlayersHouse_1F_Text_RunningShoesManual, MSGBOX_SIGN
 	end
 
-
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
-	.string "The mover's POKéMON do all the work\n"
+	.string "The mover's pokémon do all the work\n"
 	.string "of moving you in and cleaning up after.\l"
 	.string "This is so convenient!\p"
-	.string "{PLAYER}, DAD bought you a new clock\n"
+	.string "{PLAYER}, Dad bought you a new clock\n"
 	.string "as a housewarming gift, it's in your\l"
 	.string "room upstairs!\p"
 	.string "Go check it out, honey, and don't\n"
@@ -457,12 +456,12 @@ PlayersHouse_1F_Text_OhComeQuickly:
 	.string "Quick! Come quickly!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
-	.string "MOM: Look! It's PETALBURG GYM!\n"
-	.string "Maybe DAD will be on!$"
+	.string "MOM: Look! It's Petalburg Gym!\n"
+	.string "Maybe Dad will be on!$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
 	.string "MOM: Oh… It's over.\p"
-	.string "I think DAD was on, but we missed him.\n"
+	.string "I think Dad was on, but we missed him.\n"
 	.string "Too bad.$"
 
 PlayersHouse_1F_Text_ThingsMovedOut:
@@ -474,14 +473,14 @@ PlayersHouse_1F_Text_ThingsMovedOut:
 	.string "with us in Petalburg!$"
 
 PlayersHouse_1F_Text_StartYourAdventure:
-	.string "Ok ok, I understand you're ready to start\n"
-	.string "your own adventure.\p"
+	.string "Ok ok, I understand you're ready to\n"
+	.string "start your own adventure.\p"
 	.string "I'm just going to miss you so much!\p"
 	.string "Your father and I got you something...\n"
 	.string "Please take this.$"
 
 PlayersHouse_1F_Text_ItsAPokemon:
-	.string "It's a POKéMON, we thought it would be a\n"
+	.string "It's a pokémon, we thought it would be a\n"
 	.string "good idea so you don't get lonely!$"
 
 PlayersHouse_1F_Text_TakeCareOfHouse:
@@ -493,15 +492,15 @@ PlayersHouse_1F_Text_TakeCareOfHouse:
 	.string "honey! I love you!$"
 
 PlayersHouse_1F_Text_IsThatAPokenav:
-	.string "MOM: What is that, honey? A POKéNAV?\n"
+	.string "MOM: What is that, honey? A pokénav?\n"
 	.string "Someone from DEVON gave it to you?\p"
 	.string "Well, honey, how about registering\n"
 	.string "your mom?\p"
 	.string "… … …$"
 
 PlayersHouse_1F_Text_RegisteredMom:
-	.string "Registered MOM\n"
-	.string "in the POKéNAV.$"
+	.string "Registered Mom\n"
+	.string "in the pokénav.$"
 
 PlayersHouse_1F_Text_Vigoroth1:
 	.string "Fugiiiiih!$"
@@ -511,7 +510,7 @@ PlayersHouse_1F_Text_Vigoroth2:
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
 	.string "INTERVIEWER: …We brought you this\n"
-	.string "report from in front of PETALBURG GYM.$"
+	.string "report from in front of Petalburg Gym.$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
 	.string "There is a movie on TV.\p"
@@ -549,9 +548,9 @@ PlayersHouse_1F_Text_BetterGetBackToGym:
 	.string "while I'm away.$"
 
 PlayersHouse_1F_Text_DadShouldStayLonger:
-	.string "MOM: That DAD of yours…\p"
+	.string "MOM: That Dad of yours…\p"
 	.string "He comes home for the first time in a\n"
-	.string "while, but all he talks about is POKéMON.\p"
+	.string "while, but all he talks about is pokémon.\p"
 	.string "He should relax and stay a little longer.$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory:
@@ -562,8 +561,8 @@ PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 	.string "news flash!\p"
 	.string "In various HOENN locales, there have\n"
 	.string "been reports of a BZZT…colored\l"
-	.string "POKéMON in flight.\p"
-	.string "The identity of this POKéMON is\n"
+	.string "pokémon in flight.\p"
+	.string "The identity of this pokémon is\n"
 	.string "currently unknown.\p"
 	.string "We now return you to the regular\n"
 	.string "movie program.$"
@@ -571,11 +570,11 @@ PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 PlayersHouse_1F_Text_WhatColorDidTheySay:
 	.string "MOM: {PLAYER}, did you catch that?\p"
 	.string "What color did the announcer say\n"
-	.string "that POKéMON was?$"
+	.string "that pokémon was?$"
 
 PlayersHouse_1F_Text_StillUnknownPokemon:
 	.string "MOM: Well, isn't that something!\n"
-	.string "There are still unknown POKéMON.$"
+	.string "There are still unknown pokémon.$"
 
 PlayersHouse_1F_Text_PlayerReceivedPichu:
 	.string "{PLAYER} received PICHU!$"
