@@ -137,7 +137,7 @@ Route29_Text_ProfElm_NiceToMeetYou:
 
 Route29_Text_ProfElm_LetsGoBack:
 	.string "PROF. Elm: Whoa!\n"
-	.string "You handled yourself well,\n"
+	.string "You handled yourself well,\l"
 	.string "that was some impressive battling!\p"
 	.string "Why don't we all head back to my lab?$"
 
