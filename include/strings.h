@@ -17,6 +17,12 @@ extern const u8 gText_ExpandedPlaceholder_Groudon[];
 extern const u8 gText_ExpandedPlaceholder_Brendan[];
 extern const u8 gText_ExpandedPlaceholder_May[];
 
+extern const u8 gText_ExpandedPlaceholder_Red[];
+extern const u8 gText_ExpandedPlaceholder_Leaf[];
+
+extern const u8 gText_ExpandedPlaceholder_Gold[];
+extern const u8 gText_ExpandedPlaceholder_Kris[];
+
 extern const u8 gText_FromSpace[];
 
 extern const u8 gText_Lv50[];
