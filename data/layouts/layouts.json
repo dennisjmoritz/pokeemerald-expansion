@@ -4462,14 +4462,14 @@
       "blockdata_filepath": "data/layouts/GarysHouse/map.bin"
     },
     {
-      "id": "LAYOUT_PROFESSOR_OAKS_LAB",
-      "name": "ProfessorOaksLab_Layout",
+      "id": "LAYOUT_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "name": "PalletTown_ProfessorOaksLab_Layout",
       "width": 13,
       "height": 14,
       "primary_tileset": "gTileset_KantoBuilding",
       "secondary_tileset": "gTileset_KantoOaksLab",
-      "border_filepath": "data/layouts/ProfessorOaksLab/border.bin",
-      "blockdata_filepath": "data/layouts/ProfessorOaksLab/map.bin"
+      "border_filepath": "data/layouts/PalletTown_ProfessorOaksLab/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_ProfessorOaksLab/map.bin"
     },
     {
       "id": "LAYOUT_VIRIDIAN_CITY_HOUSE1",

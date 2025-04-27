@@ -78,7 +78,7 @@ Route1_EventScript_GreetOak::
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	setflag FLAG_HIDE_ROUTE_1_PROF_OAK
 	clearflag FLAG_HIDE_OAKS_LAB_PROF_OAK
-	warp MAP_PROFESSOR_OAKS_LAB, 6, 5
+	warp MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6, 5
 	waitstate
 	release
 	end

@@ -706,7 +706,7 @@ gStdScripts_End::
     .include "data/maps/PokemonTower_6F/scripts.inc"
     .include "data/maps/PokemonTower_7F/scripts.inc"
     .include "data/maps/PowerPlant/scripts.inc"
-    .include "data/maps/ProfessorOaksLab/scripts.inc"
+    .include "data/maps/PalletTown_ProfessorOaksLab/scripts.inc"
     .include "data/maps/RecordCorner/scripts.inc"
     .include "data/maps/RocketHideout_B1F/scripts.inc"
     .include "data/maps/RocketHideout_B2F/scripts.inc"
