@@ -4432,14 +4432,14 @@
       "blockdata_filepath": "data/layouts/ViridianCity/map.bin"
     },
     {
-      "id": "LAYOUT_PLAYERS_HOUSE_1F",
-      "name": "PlayersHouse_1F_Layout",
+      "id": "LAYOUT_PALLET_TOWN_PLAYERS_HOUSE_1F",
+      "name": "PalletTown_PlayersHouse_1F_Layout",
       "width": 12,
       "height": 10,
       "primary_tileset": "gTileset_KantoBuilding",
       "secondary_tileset": "gTileset_KantoBuilding1",
-      "border_filepath": "data/layouts/PlayersHouse_1F/border.bin",
-      "blockdata_filepath": "data/layouts/PlayersHouse_1F/map.bin"
+      "border_filepath": "data/layouts/PalletTown_PlayersHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_PlayersHouse_1F/map.bin"
     },
     {
       "id": "LAYOUT_PLAYERS_HOUSE_2F",

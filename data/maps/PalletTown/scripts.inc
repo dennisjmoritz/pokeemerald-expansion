@@ -19,7 +19,7 @@ PalletTown_EventScript_StepOffTruck::
 	setvar VAR_0x8005, 7
 	call PalletTown_EventScript_GoInsideWithMom
 	setflag FLAG_HIDE_TRUCK
-	warpsilent MAP_PLAYERS_HOUSE_1F, 3, 8
+	warpsilent MAP_PALLET_TOWN_PLAYERS_HOUSE_1F, 3, 8
 	waitstate
 	releaseall
 	end

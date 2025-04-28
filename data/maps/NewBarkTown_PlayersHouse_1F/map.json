@@ -78,7 +78,7 @@
       "elevation": 0,
       "var": "VAR_INTRO_STATE",
       "var_value": "4",
-      "script": "PlayersHouse_1F_EventScript_GoSeeRoom"
+      "script": "NewBarkTown_PlayersHouse_1F_EventScript_GoSeeRoom"
     }
   ],
   "bg_events": [

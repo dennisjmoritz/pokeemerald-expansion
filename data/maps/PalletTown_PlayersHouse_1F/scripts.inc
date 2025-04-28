@@ -1,56 +1,56 @@
 .set LOCALID_MOM, 1
 
-PlayersHouse_1F_MapScripts::
-	map_script MAP_SCRIPT_ON_LOAD, PlayersHouse_1F_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, PlayersHouse_1F_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, PlayersHouse_1F_OnFrame
+PalletTown_PlayersHouse_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, PalletTown_PlayersHouse_1F_OnLoad
+	map_script MAP_SCRIPT_ON_TRANSITION, PalletTown_PlayersHouse_1F_OnTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PalletTown_PlayersHouse_1F_OnFrame
 	.byte 0
 
-PlayersHouse_1F_OnLoad:
+PalletTown_PlayersHouse_1F_OnLoad:
 	end
 
-PlayersHouse_1F_OnTransition:
-	call_if_eq VAR_INTRO_STATE, 3, PlayersHouse_1F_EventScript_MoveMomToDoor
-	call_if_eq VAR_INTRO_STATE, 5, PlayersHouse_1F_EventScript_MoveMomToStairs
-	call_if_eq VAR_INTRO_STATE, 6, PlayersHouse_1F_EventScript_MoveMomToTV
+PalletTown_PlayersHouse_1F_OnTransition:
+	call_if_eq VAR_INTRO_STATE, 3, PalletTown_PlayersHouse_1F_EventScript_MoveMomToDoor
+	call_if_eq VAR_INTRO_STATE, 5, PalletTown_PlayersHouse_1F_EventScript_MoveMomToStairs
+	call_if_eq VAR_INTRO_STATE, 6, PalletTown_PlayersHouse_1F_EventScript_MoveMomToTV
 	end
 
-PlayersHouse_1F_EventScript_MoveMomToStairs::
+PalletTown_PlayersHouse_1F_EventScript_MoveMomToStairs::
 	setobjectxyperm LOCALID_MOM, 8, 2
 	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_RIGHT
 	return
 
-PlayersHouse_1F_EventScript_MoveMomToTV::
+PalletTown_PlayersHouse_1F_EventScript_MoveMomToTV::
 	setobjectxyperm LOCALID_MOM, 5, 2
 	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_UP
 	return
 
-PlayersHouse_1F_EventScript_MoveMomToDoor::
+PalletTown_PlayersHouse_1F_EventScript_MoveMomToDoor::
 	setobjectxyperm LOCALID_MOM, 4, 8
 	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_LEFT
 	return
 
 @ Many of the below scripts have no gender check because they assume youre in the correct house
 @ The below SS Ticket script uses Mays house state by accident(?), but theyre both set identically after the intro
-PlayersHouse_1F_OnFrame:
+PalletTown_PlayersHouse_1F_OnFrame:
 	map_script_2 VAR_INTRO_STATE, 3, PalletTown_PlayersHouse_1F_EventScript_EnterHouseMovingIn
-	map_script_2 VAR_INTRO_STATE, 5, PlayersHouse_1F_EventScript_GoUpstairsToSetClock
+	map_script_2 VAR_INTRO_STATE, 5, PalletTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock
 	map_script_2 VAR_INTRO_STATE, 6, PalletTown_PlayersHouse_1F_EventScript_GymReport
 	.2byte 0
 
-PlayersHouse_1F_EventScript_GoUpstairsToSetClock::
+PalletTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock::
 	lockall
 	msgbox PlayersHouse_1F_Text_GoSetTheClock, MSGBOX_DEFAULT
 	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, PlayersHouse_1F_Movement_PushTowardStairs
-	applymovement LOCALID_MOM, PlayersHouse_1F_Movement_PushTowardStairs
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_PlayersHouse_1F_Movement_PushTowardStairs
+	applymovement LOCALID_MOM, PalletTown_PlayersHouse_1F_Movement_PushTowardStairs
 	waitmovement 0
 	warp MAP_PLAYERS_HOUSE_2F, 9, 2
 	waitstate
 	releaseall
 	end
 
-PlayersHouse_1F_Movement_PushTowardStairs:
+PalletTown_PlayersHouse_1F_Movement_PushTowardStairs:
 	walk_right
 	step_end
 
@@ -69,7 +69,7 @@ PalletTown_PlayersHouse_1F_EventScript_GymReport::
 	goto PalletTown_PlayersHouse_1F_EventScript_PetalburgGymReport
 	end
 
-PlayersHouse_1F_EventScript_GoSeeRoom::
+PalletTown_PlayersHouse_1F_EventScript_GoSeeRoom::
 	lockall
 	setvar VAR_0x8004, LOCALID_MOM
 	setvar VAR_0x8005, MALE

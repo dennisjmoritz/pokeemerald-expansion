@@ -687,7 +687,7 @@ gStdScripts_End::
     .include "data/maps/PewterCity_Museum_2F/scripts.inc"
     .include "data/maps/PewterCity_PokemonCenter_1F/scripts.inc"
     .include "data/maps/PewterCity_PokemonCenter_2F/scripts.inc"
-    .include "data/maps/PlayersHouse_1F/scripts.inc"
+    .include "data/maps/PalletTown_PlayersHouse_1F/scripts.inc"
     .include "data/maps/PlayersHouse_2F/scripts.inc"
     .include "data/maps/PokemonLab_Entrance/scripts.inc"
     .include "data/maps/PokemonLab_ExperimentRoom/scripts.inc"

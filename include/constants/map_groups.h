@@ -631,7 +631,7 @@
 #define MAP_ROUTE25                 (36 | (34 << 8))
 
 // gMapGroup_PalletTown
-#define MAP_PLAYERS_HOUSE_1F               (0 | (35 << 8))
+#define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (35 << 8))
 #define MAP_PLAYERS_HOUSE_2F               (1 | (35 << 8))
 #define MAP_PALLET_TOWN_LEAFS_HOUSE        (2 | (35 << 8))
 #define MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB (3 | (35 << 8))
