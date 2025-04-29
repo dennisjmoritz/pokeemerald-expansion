@@ -4442,14 +4442,14 @@
       "blockdata_filepath": "data/layouts/PalletTown_PlayersHouse_1F/map.bin"
     },
     {
-      "id": "LAYOUT_PLAYERS_HOUSE_2F",
-      "name": "PlayersHouse_2F_Layout",
+      "id": "LAYOUT_PALLET_TOWN_PLAYERS_HOUSE_2F",
+      "name": "PalletTown_PlayersHouse_2F_Layout",
       "width": 11,
       "height": 9,
       "primary_tileset": "gTileset_KantoBuilding",
       "secondary_tileset": "gTileset_KantoBuilding1",
-      "border_filepath": "data/layouts/PlayersHouse_2F/border.bin",
-      "blockdata_filepath": "data/layouts/PlayersHouse_2F/map.bin"
+      "border_filepath": "data/layouts/PalletTown_PlayersHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_PlayersHouse_2F/map.bin"
     },
     {
       "id": "LAYOUT_PALLET_TOWN_LEAFS_HOUSE",

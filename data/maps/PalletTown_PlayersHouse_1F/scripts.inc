@@ -45,7 +45,7 @@ PalletTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock::
 	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_PlayersHouse_1F_Movement_PushTowardStairs
 	applymovement LOCALID_MOM, PalletTown_PlayersHouse_1F_Movement_PushTowardStairs
 	waitmovement 0
-	warp MAP_PLAYERS_HOUSE_2F, 9, 2
+	warp MAP_PALLET_TOWN_PLAYERS_HOUSE_2F, 9, 2
 	waitstate
 	releaseall
 	end
