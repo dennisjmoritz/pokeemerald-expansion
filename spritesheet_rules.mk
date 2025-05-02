@@ -701,6 +701,9 @@ $(OBJEVENTGFXDIR)/people/red/walking.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/red/running.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+$(OBJEVENTGFXDIR)/people/red/decorating.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 $(OBJEVENTGFXDIR)/people/red/field_move.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 

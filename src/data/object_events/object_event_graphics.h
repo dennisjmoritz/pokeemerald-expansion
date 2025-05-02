@@ -366,3 +366,15 @@ const u16 gObjectEventPal_ProfElm[] = INCBIN_U16("graphics/object_events/palette
 const u32 gObjectEventPic_ProfElm[] = INCBIN_U32("graphics/object_events/pics/people/prof_elm.4bpp");
 const u32 gObjectEventPic_Delia[] = INCBIN_U32("graphics/object_events/pics/people/delia.4bpp");
 const u32 gObjectEventPic_Grace[] = INCBIN_U32("graphics/object_events/pics/people/grace.4bpp");
+
+const u16 gObjectEventPal_KantoPlayer[] = INCBIN_U16("graphics/object_events/palettes/kanto_player.gbapal");
+const u32 gObjectEventPic_RedNormal[] = INCBIN_U32("graphics/object_events/pics/people/red/walking.4bpp");
+const u32 gObjectEventPic_RedRunning[] = INCBIN_U32("graphics/object_events/pics/people/red/running.4bpp");
+const u32 gObjectEventPic_RedFieldMove[] = INCBIN_U32("graphics/object_events/pics/people/red/field_move.4bpp");
+const u32 gObjectEventPic_RedSurfing[] = INCBIN_U32("graphics/object_events/pics/people/red/surfing.4bpp");
+const u32 gObjectEventPic_RedMachBike[] = INCBIN_U32("graphics/object_events/pics/people/red/mach_bike.4bpp");
+const u32 gObjectEventPic_RedAcroBike[] = INCBIN_U32("graphics/object_events/pics/people/red/acro_bike.4bpp");
+const u32 gObjectEventPic_RedFishing[] = INCBIN_U32("graphics/object_events/pics/people/red/fishing.4bpp");
+const u32 gObjectEventPic_RedWatering[] = INCBIN_U32("graphics/object_events/pics/people/red/watering.4bpp");
+const u32 gObjectEventPic_RedDecorating[] = INCBIN_U32("graphics/object_events/pics/people/red/decorating.4bpp");
+const u32 gObjectEventPic_RedUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/red/underwater.4bpp");

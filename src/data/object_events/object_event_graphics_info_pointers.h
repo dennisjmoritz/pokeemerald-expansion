@@ -250,6 +250,22 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfElm;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Delia;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Grace;
 
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedUnderwater;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedFishing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedWatering;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedDecorating;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalRedNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalRedMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalRedAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalRedSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalRedFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkRed;
+
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
@@ -494,6 +510,21 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_PROF_ELM] =                 &gObjectEventGraphicsInfo_ProfElm,
     [OBJ_EVENT_GFX_DELIA] =                    &gObjectEventGraphicsInfo_Delia,
     [OBJ_EVENT_GFX_GRACE] =                    &gObjectEventGraphicsInfo_Grace,
+    [OBJ_EVENT_GFX_RED_NORMAL] =               &gObjectEventGraphicsInfo_RedNormal,
+    [OBJ_EVENT_GFX_RED_MACH_BIKE] =            &gObjectEventGraphicsInfo_RedMachBike,
+    [OBJ_EVENT_GFX_RED_ACRO_BIKE] =            &gObjectEventGraphicsInfo_RedAcroBike,
+    [OBJ_EVENT_GFX_RED_SURFING] =              &gObjectEventGraphicsInfo_RedSurfing,
+    [OBJ_EVENT_GFX_RED_FIELD_MOVE] =           &gObjectEventGraphicsInfo_RedFieldMove,
+    [OBJ_EVENT_GFX_RED_UNDERWATER] =           &gObjectEventGraphicsInfo_RedUnderwater,
+    [OBJ_EVENT_GFX_RED_FISHING] =              &gObjectEventGraphicsInfo_RedFishing,
+    [OBJ_EVENT_GFX_RED_WATERING] =             &gObjectEventGraphicsInfo_RedWatering,
+    [OBJ_EVENT_GFX_RED_DECORATING] =           &gObjectEventGraphicsInfo_RedDecorating,
+    [OBJ_EVENT_GFX_RIVAL_RED_NORMAL] =         &gObjectEventGraphicsInfo_RivalRedNormal,
+    [OBJ_EVENT_GFX_RIVAL_RED_MACH_BIKE] =      &gObjectEventGraphicsInfo_RivalRedMachBike,
+    [OBJ_EVENT_GFX_RIVAL_RED_ACRO_BIKE] =      &gObjectEventGraphicsInfo_RivalRedAcroBike,
+    [OBJ_EVENT_GFX_RIVAL_RED_SURFING] =        &gObjectEventGraphicsInfo_RivalRedSurfing,
+    [OBJ_EVENT_GFX_RIVAL_RED_FIELD_MOVE] =     &gObjectEventGraphicsInfo_RivalRedFieldMove,
+    [OBJ_EVENT_GFX_LINK_RED] =                 &gObjectEventGraphicsInfo_LinkRed,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

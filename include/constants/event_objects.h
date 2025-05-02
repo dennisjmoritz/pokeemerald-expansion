@@ -245,6 +245,26 @@
 #define OBJ_EVENT_GFX_DELIA                      241
 #define OBJ_EVENT_GFX_GRACE                      242
 
+#define OBJ_EVENT_GFX_RED_NORMAL                 243
+#define OBJ_EVENT_GFX_RED_MACH_BIKE              244
+#define OBJ_EVENT_GFX_RED_ACRO_BIKE              245
+#define OBJ_EVENT_GFX_RED_SURFING                246
+#define OBJ_EVENT_GFX_RED_FIELD_MOVE             247
+#define OBJ_EVENT_GFX_RED_UNDERWATER             248
+#define OBJ_EVENT_GFX_RED_FISHING                249
+#define OBJ_EVENT_GFX_RED_WATERING               250
+#define OBJ_EVENT_GFX_RED_DECORATING             251
+#define OBJ_EVENT_GFX_RIVAL_RED_NORMAL           252
+#define OBJ_EVENT_GFX_RIVAL_RED_MACH_BIKE        253
+#define OBJ_EVENT_GFX_RIVAL_RED_ACRO_BIKE        254
+#define OBJ_EVENT_GFX_RIVAL_RED_SURFING          255
+#define OBJ_EVENT_GFX_RIVAL_RED_FIELD_MOVE       256
+#define OBJ_EVENT_GFX_LINK_RED                   257
+
+
+
+
+
 // NOTE: By default, the max value for NUM_OBJ_EVENT_GFX is 239.
 //
 // Object event graphics ids are 1 byte in size (max value of 255), and the dynamic
@@ -254,7 +274,7 @@
 // object graphics that can be removed. If more graphics are needed, anything that
 // stores graphics ids will need to be increased in size. See wiki entry below:
 // https://github.com/pret/pokeemerald/wiki/Feature-Branches#overworld-expansion
-#define NUM_OBJ_EVENT_GFX                        243
+#define NUM_OBJ_EVENT_GFX                        258
 
 
 // These are dynamic object gfx ids.
