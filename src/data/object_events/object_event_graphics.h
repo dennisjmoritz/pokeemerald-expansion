@@ -378,3 +378,14 @@ const u32 gObjectEventPic_RedFishing[] = INCBIN_U32("graphics/object_events/pics
 const u32 gObjectEventPic_RedWatering[] = INCBIN_U32("graphics/object_events/pics/people/red/watering.4bpp");
 const u32 gObjectEventPic_RedDecorating[] = INCBIN_U32("graphics/object_events/pics/people/red/decorating.4bpp");
 const u32 gObjectEventPic_RedUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/red/underwater.4bpp");
+
+const u32 gObjectEventPic_LeafNormal[] = INCBIN_U32("graphics/object_events/pics/people/leaf/walking.4bpp");
+const u32 gObjectEventPic_LeafRunning[] = INCBIN_U32("graphics/object_events/pics/people/leaf/running.4bpp");
+const u32 gObjectEventPic_LeafFieldMove[] = INCBIN_U32("graphics/object_events/pics/people/leaf/field_move.4bpp");
+const u32 gObjectEventPic_LeafSurfing[] = INCBIN_U32("graphics/object_events/pics/people/leaf/surfing.4bpp");
+const u32 gObjectEventPic_LeafMachBike[] = INCBIN_U32("graphics/object_events/pics/people/leaf/mach_bike.4bpp");
+const u32 gObjectEventPic_LeafAcroBike[] = INCBIN_U32("graphics/object_events/pics/people/leaf/acro_bike.4bpp");
+const u32 gObjectEventPic_LeafFishing[] = INCBIN_U32("graphics/object_events/pics/people/leaf/fishing.4bpp");
+const u32 gObjectEventPic_LeafWatering[] = INCBIN_U32("graphics/object_events/pics/people/leaf/watering.4bpp");
+const u32 gObjectEventPic_LeafDecorating[] = INCBIN_U32("graphics/object_events/pics/people/leaf/decorating.4bpp");
+const u32 gObjectEventPic_LeafUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/leaf/underwater.4bpp");

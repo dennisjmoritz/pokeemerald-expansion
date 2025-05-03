@@ -266,6 +266,22 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalRedSur
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalRedFieldMove;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkRed;
 
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafUnderwater;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafFishing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafWatering;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafDecorating;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLeafNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLeafMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLeafAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLeafSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLeafFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkLeaf;
+
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
@@ -525,6 +541,21 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_RIVAL_RED_SURFING] =        &gObjectEventGraphicsInfo_RivalRedSurfing,
     [OBJ_EVENT_GFX_RIVAL_RED_FIELD_MOVE] =     &gObjectEventGraphicsInfo_RivalRedFieldMove,
     [OBJ_EVENT_GFX_LINK_RED] =                 &gObjectEventGraphicsInfo_LinkRed,
+    [OBJ_EVENT_GFX_LEAF_NORMAL] =               &gObjectEventGraphicsInfo_LeafNormal,
+    [OBJ_EVENT_GFX_LEAF_MACH_BIKE] =            &gObjectEventGraphicsInfo_LeafMachBike,
+    [OBJ_EVENT_GFX_LEAF_ACRO_BIKE] =            &gObjectEventGraphicsInfo_LeafAcroBike,
+    [OBJ_EVENT_GFX_LEAF_SURFING] =              &gObjectEventGraphicsInfo_LeafSurfing,
+    [OBJ_EVENT_GFX_LEAF_FIELD_MOVE] =           &gObjectEventGraphicsInfo_LeafFieldMove,
+    [OBJ_EVENT_GFX_LEAF_UNDERWATER] =           &gObjectEventGraphicsInfo_LeafUnderwater,
+    [OBJ_EVENT_GFX_LEAF_FISHING] =              &gObjectEventGraphicsInfo_LeafFishing,
+    [OBJ_EVENT_GFX_LEAF_WATERING] =             &gObjectEventGraphicsInfo_LeafWatering,
+    [OBJ_EVENT_GFX_LEAF_DECORATING] =           &gObjectEventGraphicsInfo_LeafDecorating,
+    [OBJ_EVENT_GFX_RIVAL_LEAF_NORMAL] =         &gObjectEventGraphicsInfo_RivalLeafNormal,
+    [OBJ_EVENT_GFX_RIVAL_LEAF_MACH_BIKE] =      &gObjectEventGraphicsInfo_RivalLeafMachBike,
+    [OBJ_EVENT_GFX_RIVAL_LEAF_ACRO_BIKE] =      &gObjectEventGraphicsInfo_RivalLeafAcroBike,
+    [OBJ_EVENT_GFX_RIVAL_LEAF_SURFING] =        &gObjectEventGraphicsInfo_RivalLeafSurfing,
+    [OBJ_EVENT_GFX_RIVAL_LEAF_FIELD_MOVE] =     &gObjectEventGraphicsInfo_RivalLeafFieldMove,
+    [OBJ_EVENT_GFX_LINK_LEAF] =                 &gObjectEventGraphicsInfo_LinkLeaf,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

@@ -261,6 +261,21 @@
 #define OBJ_EVENT_GFX_RIVAL_RED_FIELD_MOVE       256
 #define OBJ_EVENT_GFX_LINK_RED                   257
 
+#define OBJ_EVENT_GFX_LEAF_NORMAL                 258
+#define OBJ_EVENT_GFX_LEAF_MACH_BIKE              259
+#define OBJ_EVENT_GFX_LEAF_ACRO_BIKE              260
+#define OBJ_EVENT_GFX_LEAF_SURFING                261
+#define OBJ_EVENT_GFX_LEAF_FIELD_MOVE             262
+#define OBJ_EVENT_GFX_LEAF_UNDERWATER             263
+#define OBJ_EVENT_GFX_LEAF_FISHING                264
+#define OBJ_EVENT_GFX_LEAF_WATERING               265
+#define OBJ_EVENT_GFX_LEAF_DECORATING             266
+#define OBJ_EVENT_GFX_RIVAL_LEAF_NORMAL           267
+#define OBJ_EVENT_GFX_RIVAL_LEAF_MACH_BIKE        268
+#define OBJ_EVENT_GFX_RIVAL_LEAF_ACRO_BIKE        269
+#define OBJ_EVENT_GFX_RIVAL_LEAF_SURFING          270
+#define OBJ_EVENT_GFX_RIVAL_LEAF_FIELD_MOVE       271
+#define OBJ_EVENT_GFX_LINK_LEAF                   272
 
 
 
@@ -274,7 +289,7 @@
 // object graphics that can be removed. If more graphics are needed, anything that
 // stores graphics ids will need to be increased in size. See wiki entry below:
 // https://github.com/pret/pokeemerald/wiki/Feature-Branches#overworld-expansion
-#define NUM_OBJ_EVENT_GFX                        258
+#define NUM_OBJ_EVENT_GFX                        273
 
 
 // These are dynamic object gfx ids.
