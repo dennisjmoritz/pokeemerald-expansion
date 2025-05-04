@@ -389,3 +389,15 @@ const u32 gObjectEventPic_LeafFishing[] = INCBIN_U32("graphics/object_events/pic
 const u32 gObjectEventPic_LeafWatering[] = INCBIN_U32("graphics/object_events/pics/people/leaf/watering.4bpp");
 const u32 gObjectEventPic_LeafDecorating[] = INCBIN_U32("graphics/object_events/pics/people/leaf/decorating.4bpp");
 const u32 gObjectEventPic_LeafUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/leaf/underwater.4bpp");
+
+const u16 gObjectEventPal_Gold[] = INCBIN_U16("graphics/object_events/palettes/gold.gbapal");
+const u32 gObjectEventPic_GoldNormal[] = INCBIN_U32("graphics/object_events/pics/people/gold/walking.4bpp");
+const u32 gObjectEventPic_GoldRunning[] = INCBIN_U32("graphics/object_events/pics/people/gold/running.4bpp");
+const u32 gObjectEventPic_GoldFieldMove[] = INCBIN_U32("graphics/object_events/pics/people/gold/field_move.4bpp");
+const u32 gObjectEventPic_GoldSurfing[] = INCBIN_U32("graphics/object_events/pics/people/gold/surfing.4bpp");
+const u32 gObjectEventPic_GoldMachBike[] = INCBIN_U32("graphics/object_events/pics/people/gold/mach_bike.4bpp");
+const u32 gObjectEventPic_GoldAcroBike[] = INCBIN_U32("graphics/object_events/pics/people/gold/acro_bike.4bpp");
+const u32 gObjectEventPic_GoldFishing[] = INCBIN_U32("graphics/object_events/pics/people/gold/fishing.4bpp");
+const u32 gObjectEventPic_GoldWatering[] = INCBIN_U32("graphics/object_events/pics/people/gold/watering.4bpp");
+const u32 gObjectEventPic_GoldDecorating[] = INCBIN_U32("graphics/object_events/pics/people/gold/decorating.4bpp");
+const u32 gObjectEventPic_GoldUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/gold/underwater.4bpp");

@@ -282,6 +282,22 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLeafSu
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLeafFieldMove;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkLeaf;
 
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldUnderwater;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldFishing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldWatering;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldDecorating;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalGoldNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalGoldMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalGoldAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalGoldSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalGoldFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkGold;
+
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
@@ -556,6 +572,21 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_RIVAL_LEAF_SURFING] =        &gObjectEventGraphicsInfo_RivalLeafSurfing,
     [OBJ_EVENT_GFX_RIVAL_LEAF_FIELD_MOVE] =     &gObjectEventGraphicsInfo_RivalLeafFieldMove,
     [OBJ_EVENT_GFX_LINK_LEAF] =                 &gObjectEventGraphicsInfo_LinkLeaf,
+    [OBJ_EVENT_GFX_GOLD_NORMAL] =               &gObjectEventGraphicsInfo_GoldNormal,
+    [OBJ_EVENT_GFX_GOLD_MACH_BIKE] =            &gObjectEventGraphicsInfo_GoldMachBike,
+    [OBJ_EVENT_GFX_GOLD_ACRO_BIKE] =            &gObjectEventGraphicsInfo_GoldAcroBike,
+    [OBJ_EVENT_GFX_GOLD_SURFING] =              &gObjectEventGraphicsInfo_GoldSurfing,
+    [OBJ_EVENT_GFX_GOLD_FIELD_MOVE] =           &gObjectEventGraphicsInfo_GoldFieldMove,
+    [OBJ_EVENT_GFX_GOLD_UNDERWATER] =           &gObjectEventGraphicsInfo_GoldUnderwater,
+    [OBJ_EVENT_GFX_GOLD_FISHING] =              &gObjectEventGraphicsInfo_GoldFishing,
+    [OBJ_EVENT_GFX_GOLD_WATERING] =             &gObjectEventGraphicsInfo_GoldWatering,
+    [OBJ_EVENT_GFX_GOLD_DECORATING] =           &gObjectEventGraphicsInfo_GoldDecorating,
+    [OBJ_EVENT_GFX_RIVAL_GOLD_NORMAL] =         &gObjectEventGraphicsInfo_RivalGoldNormal,
+    [OBJ_EVENT_GFX_RIVAL_GOLD_MACH_BIKE] =      &gObjectEventGraphicsInfo_RivalGoldMachBike,
+    [OBJ_EVENT_GFX_RIVAL_GOLD_ACRO_BIKE] =      &gObjectEventGraphicsInfo_RivalGoldAcroBike,
+    [OBJ_EVENT_GFX_RIVAL_GOLD_SURFING] =        &gObjectEventGraphicsInfo_RivalGoldSurfing,
+    [OBJ_EVENT_GFX_RIVAL_GOLD_FIELD_MOVE] =     &gObjectEventGraphicsInfo_RivalGoldFieldMove,
+    [OBJ_EVENT_GFX_LINK_GOLD] =                 &gObjectEventGraphicsInfo_LinkGold,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

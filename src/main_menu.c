@@ -1287,6 +1287,7 @@ static void HighlightSelectedMainMenuItem(u8 menuType, u8 selectedMenuItem, s16 
 #define tPlayerRegion data[12]
 #define tRedSpriteId data[13]
 #define tLeafSpriteId data[14]
+#define tGoldSpriteId data[15]
 
 static void Task_NewGameBirchSpeech_Init(u8 taskId)
 {
@@ -1569,7 +1570,10 @@ static void Task_NewGameBirchSpeech_SlideOutOldGenderSprite(u8 taskId)
             if (gTasks[taskId].tPlayerRegion == KANTO) {
                 spriteId = gTasks[taskId].tLeafSpriteId;
             }
-            else {
+            if (gTasks[taskId].tPlayerRegion == JOHTO) {
+                spriteId = gTasks[taskId].tLeafSpriteId;
+            }
+            if (gTasks[taskId].tPlayerRegion == HOENN) {
                 spriteId = gTasks[taskId].tMaySpriteId;
             }
         }
@@ -1577,7 +1581,10 @@ static void Task_NewGameBirchSpeech_SlideOutOldGenderSprite(u8 taskId)
             if (gTasks[taskId].tPlayerRegion == KANTO) {
                 spriteId = gTasks[taskId].tRedSpriteId;
             }
-            else {
+            if (gTasks[taskId].tPlayerRegion == JOHTO) {
+                spriteId = gTasks[taskId].tGoldSpriteId;
+            }
+            if (gTasks[taskId].tPlayerRegion == HOENN) {
                 spriteId = gTasks[taskId].tBrendanSpriteId;
             }
         }
@@ -1677,7 +1684,10 @@ static void Task_NewGameBirchSpeech_SlideOutOldRegionSprite(u8 taskId)
             if (gTasks[taskId].tPlayerRegion == KANTO) {
                 spriteId = gTasks[taskId].tRedSpriteId;
             }
-            else {
+            if (gTasks[taskId].tPlayerRegion == JOHTO) {
+                spriteId = gTasks[taskId].tGoldSpriteId;
+            }
+            if (gTasks[taskId].tPlayerRegion == HOENN) {
                 spriteId = gTasks[taskId].tBrendanSpriteId;
             }
         }
@@ -1685,7 +1695,10 @@ static void Task_NewGameBirchSpeech_SlideOutOldRegionSprite(u8 taskId)
             if (gTasks[taskId].tPlayerRegion == KANTO) {
                 spriteId = gTasks[taskId].tLeafSpriteId;
             }
-            else {
+            if (gTasks[taskId].tPlayerRegion == JOHTO) {
+                spriteId = gTasks[taskId].tLeafSpriteId;
+            }
+            if (gTasks[taskId].tPlayerRegion == HOENN) {
                 spriteId = gTasks[taskId].tMaySpriteId;
             }
         }
@@ -1812,6 +1825,7 @@ static void Task_NewGameBirchSpeech_ReshowBirchMudkip(u8 taskId)
         gSprites[gTasks[taskId].tMaySpriteId].invisible = TRUE;
         gSprites[gTasks[taskId].tRedSpriteId].invisible = TRUE;
         gSprites[gTasks[taskId].tLeafSpriteId].invisible = TRUE;
+        gSprites[gTasks[taskId].tGoldSpriteId].invisible = TRUE;
         spriteId = gTasks[taskId].tBirchSpriteId;
         gSprites[spriteId].x = 136;
         gSprites[spriteId].y = 60;
@@ -1866,7 +1880,10 @@ static void Task_NewGameBirchSpeech_AreYouReady(u8 taskId)
             if (gSaveBlock2Ptr->playerRegion == KANTO) {
                 spriteId = gTasks[taskId].tLeafSpriteId;
             }
-            else {
+            if (gSaveBlock2Ptr->playerRegion == JOHTO) {
+                spriteId = gTasks[taskId].tLeafSpriteId;
+            }
+            if (gTasks[taskId].tPlayerRegion == HOENN) {
                 spriteId = gTasks[taskId].tMaySpriteId;
             }
         }
@@ -1874,7 +1891,10 @@ static void Task_NewGameBirchSpeech_AreYouReady(u8 taskId)
             if (gSaveBlock2Ptr->playerRegion == KANTO) {
                 spriteId = gTasks[taskId].tRedSpriteId;
             }
-            else {
+            if (gSaveBlock2Ptr->playerRegion == JOHTO) {
+                spriteId = gTasks[taskId].tGoldSpriteId;
+            }
+            if (gTasks[taskId].tPlayerRegion == HOENN) {
                 spriteId = gTasks[taskId].tBrendanSpriteId;
             }
         }
@@ -1991,7 +2011,10 @@ static void CB2_NewGameBirchSpeech_ReturnFromNamingScreen(void)
         if (gSaveBlock2Ptr->playerRegion == KANTO) {
             spriteId = gTasks[taskId].tLeafSpriteId;
         }
-        else {
+        if (gSaveBlock2Ptr->playerRegion == JOHTO) {
+            spriteId = gTasks[taskId].tLeafSpriteId;
+        }
+        if (gTasks[taskId].tPlayerRegion == HOENN) {
             spriteId = gTasks[taskId].tMaySpriteId;
         }
     }
@@ -2001,7 +2024,10 @@ static void CB2_NewGameBirchSpeech_ReturnFromNamingScreen(void)
         if (gSaveBlock2Ptr->playerRegion == KANTO) {
             spriteId = gTasks[taskId].tRedSpriteId;
         }
-        else {
+        if (gSaveBlock2Ptr->playerRegion == JOHTO) {
+            spriteId = gTasks[taskId].tGoldSpriteId;
+        }
+        if (gTasks[taskId].tPlayerRegion == HOENN) {
             spriteId = gTasks[taskId].tBrendanSpriteId;
         }
     }
@@ -2059,6 +2085,7 @@ static void AddBirchSpeechObjects(u8 taskId)
     u8 maySpriteId;
     u8 redSpriteId;
     u8 leafSpriteId;
+    u8 goldSpriteId;
 
     birchSpriteId = AddNewGameBirchObject(0x88, 0x3C, 1);
     gSprites[birchSpriteId].callback = SpriteCB_Null;
@@ -2090,6 +2117,11 @@ static void AddBirchSpeechObjects(u8 taskId)
     gSprites[leafSpriteId].invisible = TRUE;
     gSprites[leafSpriteId].oam.priority = 0;
     gTasks[taskId].tLeafSpriteId = leafSpriteId;
+    goldSpriteId = CreateTrainerSprite(FacilityClassToPicIndex(FACILITY_CLASS_GOLD), 120, 60, 0, &gDecompressionBuffer[TRAINER_PIC_SIZE]);
+    gSprites[goldSpriteId].callback = SpriteCB_Null;
+    gSprites[goldSpriteId].invisible = TRUE;
+    gSprites[goldSpriteId].oam.priority = 0;
+    gTasks[taskId].tGoldSpriteId = goldSpriteId;
 }
 
 #undef tPlayerSpriteId
@@ -2101,6 +2133,7 @@ static void AddBirchSpeechObjects(u8 taskId)
 #undef tMaySpriteId
 #undef tRedSpriteId
 #undef tLeafSpriteId
+#undef tGoldSpriteId
 
 #define tMainTask data[0]
 #define tAlphaCoeff1 data[1]
