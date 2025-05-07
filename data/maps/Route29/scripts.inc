@@ -65,7 +65,7 @@ Route29_EventScript_GreetElm::
 
 Route29_EventScript_AgreeToBattle::
 	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, Route29_EventScript_StartKrisBattle
+	goto_if_eq VAR_RESULT, MALE, Route29_EventScript_StartLyraBattle
 	goto_if_eq VAR_RESULT, FEMALE, Route29_EventScript_StartGoldBattle
 	end
 
@@ -75,8 +75,8 @@ Route29_EventScript_DeclineBattle::
 	goto_if_eq VAR_RESULT, NO, Route29_EventScript_DeclineBattle
 	end
 
-Route29_EventScript_StartKrisBattle::
-	trainerbattle_no_intro TRAINER_KRIS_ROUTE_29, Route29_Text_KrisDefeated
+Route29_EventScript_StartLyraBattle::
+	trainerbattle_no_intro TRAINER_LYRA_ROUTE_29, Route29_Text_LyraDefeated
 	goto Route29_EventScript_AfterRivalBattle
 	end
 
@@ -145,7 +145,7 @@ Rouet29_Text_DontBeThatWay:
 	.string "{RIVAL}: Oh, don't be that way.\n"
 	.string "We should battle!$"
 
-Route29_Text_KrisDefeated:
+Route29_Text_LyraDefeated:
 	.string "Wow! You're a natural!$"
 
 Route29_Text_GoldDefeated:

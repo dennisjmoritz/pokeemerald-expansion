@@ -292,5 +292,5 @@ const u32 gTrainerBackPicPalette_Leaf[] = INCBIN_U32("graphics/trainers/back_pic
 const u32 gTrainerFrontPic_Gold[] = INCBIN_U32("graphics/trainers/front_pics/gold.4bpp.lz");
 const u32 gTrainerPalette_Gold[] = INCBIN_U32("graphics/trainers/front_pics/gold.gbapal.lz");
 
-const u32 gTrainerFrontPic_Kris[] = INCBIN_U32("graphics/trainers/front_pics/kris.4bpp.lz");
-const u32 gTrainerPalette_Kris[] = INCBIN_U32("graphics/trainers/front_pics/kris.gbapal.lz");
+const u32 gTrainerFrontPic_Lyra[] = INCBIN_U32("graphics/trainers/front_pics/lyra.4bpp.lz");
+const u32 gTrainerPalette_Lyra[] = INCBIN_U32("graphics/trainers/front_pics/lyra.gbapal.lz");

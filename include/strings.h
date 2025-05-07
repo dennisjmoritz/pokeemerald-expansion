@@ -21,7 +21,7 @@ extern const u8 gText_ExpandedPlaceholder_Red[];
 extern const u8 gText_ExpandedPlaceholder_Leaf[];
 
 extern const u8 gText_ExpandedPlaceholder_Gold[];
-extern const u8 gText_ExpandedPlaceholder_Kris[];
+extern const u8 gText_ExpandedPlaceholder_Lyra[];
 
 extern const u8 gText_FromSpace[];
 

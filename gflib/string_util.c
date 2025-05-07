@@ -460,7 +460,7 @@ static const u8 *ExpandPlaceholder_RivalName(void)
             return gText_ExpandedPlaceholder_Leaf;
         }
         if(gSaveBlock2Ptr->playerRegion == JOHTO) {
-            return gText_ExpandedPlaceholder_Kris;
+            return gText_ExpandedPlaceholder_Lyra;
         }
         return gText_ExpandedPlaceholder_May;
     }

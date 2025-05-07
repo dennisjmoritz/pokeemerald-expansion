@@ -110,7 +110,7 @@
 #define TRAINER_PIC_RS_BRENDAN            91
 #define TRAINER_PIC_RS_MAY                92
 #define TRAINER_PIC_GOLD                  93
-#define TRAINER_PIC_KRIS                  94
+#define TRAINER_PIC_LYRA                  94
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
@@ -205,7 +205,7 @@
 #define FACILITY_CLASS_RS_BRENDAN            0x50
 #define FACILITY_CLASS_RS_MAY                0x51
 #define FACILITY_CLASS_GOLD                  0x52
-#define FACILITY_CLASS_KRIS                  0x53
+#define FACILITY_CLASS_LYRA                  0x53
 
 #define FACILITY_CLASSES_COUNT               0x54
 
