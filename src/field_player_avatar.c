@@ -1351,7 +1351,7 @@ u16 GetPlayerAvatarGraphicsIdByStateIdAndGender(u8 state, u8 gender)
         return sPlayerAvatarGfxIds_Kanto[state][gender];
     }
     if(gSaveBlock2Ptr->playerRegion == JOHTO) {
-        return sRivalAvatarGfxIds_Johto[state][gender];
+        return sPlayerAvatarGfxIds_Johto[state][gender];
     }
     return sPlayerAvatarGfxIds[state][gender];
 }
