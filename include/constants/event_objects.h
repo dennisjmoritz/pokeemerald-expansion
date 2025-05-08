@@ -244,7 +244,6 @@
 #define OBJ_EVENT_GFX_PROF_ELM                   240
 #define OBJ_EVENT_GFX_DELIA                      241
 #define OBJ_EVENT_GFX_GRACE                      242
-
 #define OBJ_EVENT_GFX_RED_NORMAL                 243
 #define OBJ_EVENT_GFX_RED_MACH_BIKE              244
 #define OBJ_EVENT_GFX_RED_ACRO_BIKE              245
@@ -260,7 +259,6 @@
 #define OBJ_EVENT_GFX_RIVAL_RED_SURFING          255
 #define OBJ_EVENT_GFX_RIVAL_RED_FIELD_MOVE       256
 #define OBJ_EVENT_GFX_LINK_RED                   257
-
 #define OBJ_EVENT_GFX_LEAF_NORMAL                 258
 #define OBJ_EVENT_GFX_LEAF_MACH_BIKE              259
 #define OBJ_EVENT_GFX_LEAF_ACRO_BIKE              260
@@ -276,7 +274,6 @@
 #define OBJ_EVENT_GFX_RIVAL_LEAF_SURFING          270
 #define OBJ_EVENT_GFX_RIVAL_LEAF_FIELD_MOVE       271
 #define OBJ_EVENT_GFX_LINK_LEAF                   272
-
 #define OBJ_EVENT_GFX_GOLD_NORMAL                 273
 #define OBJ_EVENT_GFX_GOLD_MACH_BIKE              274
 #define OBJ_EVENT_GFX_GOLD_ACRO_BIKE              275
@@ -292,6 +289,21 @@
 #define OBJ_EVENT_GFX_RIVAL_GOLD_SURFING          285
 #define OBJ_EVENT_GFX_RIVAL_GOLD_FIELD_MOVE       286
 #define OBJ_EVENT_GFX_LINK_GOLD                   287
+#define OBJ_EVENT_GFX_LYRA_NORMAL                 288
+#define OBJ_EVENT_GFX_LYRA_MACH_BIKE              289
+#define OBJ_EVENT_GFX_LYRA_ACRO_BIKE              290
+#define OBJ_EVENT_GFX_LYRA_SURFING                291
+#define OBJ_EVENT_GFX_LYRA_FIELD_MOVE             292
+#define OBJ_EVENT_GFX_LYRA_UNDERWATER             293
+#define OBJ_EVENT_GFX_LYRA_FISHING                294
+#define OBJ_EVENT_GFX_LYRA_WATERING               295
+#define OBJ_EVENT_GFX_LYRA_DECORATING             296
+#define OBJ_EVENT_GFX_RIVAL_LYRA_NORMAL           297
+#define OBJ_EVENT_GFX_RIVAL_LYRA_MACH_BIKE        298
+#define OBJ_EVENT_GFX_RIVAL_LYRA_ACRO_BIKE        299
+#define OBJ_EVENT_GFX_RIVAL_LYRA_SURFING          300
+#define OBJ_EVENT_GFX_RIVAL_LYRA_FIELD_MOVE       301
+#define OBJ_EVENT_GFX_LINK_LYRA                   302
 
 
 
@@ -305,7 +317,7 @@
 // object graphics that can be removed. If more graphics are needed, anything that
 // stores graphics ids will need to be increased in size. See wiki entry below:
 // https://github.com/pret/pokeemerald/wiki/Feature-Branches#overworld-expansion
-#define NUM_OBJ_EVENT_GFX                         288
+#define NUM_OBJ_EVENT_GFX                         303
 
 
 // These are dynamic object gfx ids.

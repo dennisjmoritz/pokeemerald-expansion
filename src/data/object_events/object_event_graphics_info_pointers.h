@@ -237,7 +237,6 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphir
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireMay;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh;
-
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trader;
@@ -249,7 +248,6 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfOak;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfElm;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Delia;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Grace;
-
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedNormal;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedMachBike;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedAcroBike;
@@ -265,7 +263,6 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalRedAcr
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalRedSurfing;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalRedFieldMove;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkRed;
-
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafNormal;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafMachBike;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeafAcroBike;
@@ -281,7 +278,6 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLeafAc
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLeafSurfing;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLeafFieldMove;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkLeaf;
-
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldNormal;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldMachBike;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldAcroBike;
@@ -297,6 +293,21 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalGoldAc
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalGoldSurfing;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalGoldFieldMove;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkGold;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LyraNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LyraMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LyraAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LyraSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LyraFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LyraUnderwater;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LyraFishing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LyraWatering;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LyraDecorating;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLyraNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLyraMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLyraAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLyraSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLyraFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkLyra;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -587,6 +598,21 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_RIVAL_GOLD_SURFING] =        &gObjectEventGraphicsInfo_RivalGoldSurfing,
     [OBJ_EVENT_GFX_RIVAL_GOLD_FIELD_MOVE] =     &gObjectEventGraphicsInfo_RivalGoldFieldMove,
     [OBJ_EVENT_GFX_LINK_GOLD] =                 &gObjectEventGraphicsInfo_LinkGold,
+    [OBJ_EVENT_GFX_LYRA_NORMAL] =               &gObjectEventGraphicsInfo_LyraNormal,
+    [OBJ_EVENT_GFX_LYRA_MACH_BIKE] =            &gObjectEventGraphicsInfo_LyraMachBike,
+    [OBJ_EVENT_GFX_LYRA_ACRO_BIKE] =            &gObjectEventGraphicsInfo_LyraAcroBike,
+    [OBJ_EVENT_GFX_LYRA_SURFING] =              &gObjectEventGraphicsInfo_LyraSurfing,
+    [OBJ_EVENT_GFX_LYRA_FIELD_MOVE] =           &gObjectEventGraphicsInfo_LyraFieldMove,
+    [OBJ_EVENT_GFX_LYRA_UNDERWATER] =           &gObjectEventGraphicsInfo_LyraUnderwater,
+    [OBJ_EVENT_GFX_LYRA_FISHING] =              &gObjectEventGraphicsInfo_LyraFishing,
+    [OBJ_EVENT_GFX_LYRA_WATERING] =             &gObjectEventGraphicsInfo_LyraWatering,
+    [OBJ_EVENT_GFX_LYRA_DECORATING] =           &gObjectEventGraphicsInfo_LyraDecorating,
+    [OBJ_EVENT_GFX_RIVAL_LYRA_NORMAL] =         &gObjectEventGraphicsInfo_RivalLyraNormal,
+    [OBJ_EVENT_GFX_RIVAL_LYRA_MACH_BIKE] =      &gObjectEventGraphicsInfo_RivalLyraMachBike,
+    [OBJ_EVENT_GFX_RIVAL_LYRA_ACRO_BIKE] =      &gObjectEventGraphicsInfo_RivalLyraAcroBike,
+    [OBJ_EVENT_GFX_RIVAL_LYRA_SURFING] =        &gObjectEventGraphicsInfo_RivalLyraSurfing,
+    [OBJ_EVENT_GFX_RIVAL_LYRA_FIELD_MOVE] =     &gObjectEventGraphicsInfo_RivalLyraFieldMove,
+    [OBJ_EVENT_GFX_LINK_LYRA] =                 &gObjectEventGraphicsInfo_LinkLyra,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
