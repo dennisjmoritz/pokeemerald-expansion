@@ -8,6 +8,8 @@ const struct MonCoords gTrainerBackPicCoords[] =
     [TRAINER_BACK_PIC_RUBY_SAPPHIRE_MAY] = {.size = 8, .y_offset = 4},
     [TRAINER_BACK_PIC_WALLY] = {.size = 8, .y_offset = 4},
     [TRAINER_BACK_PIC_STEVEN] = {.size = 8, .y_offset = 4},
+    [TRAINER_BACK_PIC_GOLD] = {.size = 8, .y_offset = 5},
+    [TRAINER_BACK_PIC_LYRA] = {.size = 8, .y_offset = 5},
 };
 
 // this table goes functionally unused, since none of these pics are compressed
@@ -55,6 +57,16 @@ const struct CompressedSpriteSheet gTrainerBackPicTable[] =
         .size = TRAINER_PIC_SIZE * ARRAY_COUNT(gTrainerBackPicTable_Steven),
         .tag = TRAINER_BACK_PIC_STEVEN,
     },
+    [TRAINER_BACK_PIC_GOLD] = {
+        .data = (const u32 *)gTrainerBackPic_Gold,
+        .size = TRAINER_PIC_SIZE * ARRAY_COUNT(gTrainerBackPicTable_Gold),
+        .tag = TRAINER_BACK_PIC_GOLD,
+    },
+    [TRAINER_BACK_PIC_LYRA] = {
+        .data = (const u32 *)gTrainerBackPic_Lyra,
+        .size = TRAINER_PIC_SIZE * ARRAY_COUNT(gTrainerBackPicTable_Lyra),
+        .tag = TRAINER_BACK_PIC_LYRA,
+    },
 };
 
 #define TRAINER_BACK_PAL(trainerPic, pal) [TRAINER_BACK_PIC_##trainerPic] = {pal, TRAINER_BACK_PIC_##trainerPic}
@@ -69,4 +81,6 @@ const struct CompressedSpritePalette gTrainerBackPicPaletteTable[] =
     TRAINER_BACK_PAL(RUBY_SAPPHIRE_MAY, gTrainerPalette_RubySapphireMay),
     TRAINER_BACK_PAL(WALLY, gTrainerPalette_Wally),
     TRAINER_BACK_PAL(STEVEN, gTrainerPalette_Steven),
+    TRAINER_BACK_PAL(GOLD, gTrainerBackPicPalette_Gold),
+    TRAINER_BACK_PAL(LYRA, gTrainerBackPicPalette_Lyra),
 };
