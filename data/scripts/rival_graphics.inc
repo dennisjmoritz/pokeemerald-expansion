@@ -16,7 +16,7 @@ EventScript_SetupRivalGfxIdFemale_Kanto::
 	return
 
 EventScript_SetupRivalGfxIdFemale_Johto::
-	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_RIVAL_MAY_NORMAL
+	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_RIVAL_LYRA_NORMAL
 	return
 
 EventScript_SetupRivalGfxIdFemale_Hoenn::
