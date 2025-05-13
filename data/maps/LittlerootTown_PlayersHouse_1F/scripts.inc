@@ -128,9 +128,9 @@ LittlerootTown_PlayersHouse_1F_EventScript_MomLeaving::
 	applymovement VAR_0x8005, LittlerootTown_PlayersHouse_1F_Movement_MomLeaveAndReturn
 	waitmovement 0
 	msgbox LittlerootTown_PlayersHouse_1F_Text_AlmostForgot, MSGBOX_DEFAULT
-	givemon SPECIES_RAYQUAZA, 20
-	givemon SPECIES_SWAMPERT, 20
-	givemon SPECIES_TROPIUS, 20
+	givemon SPECIES_RAYQUAZA, 100
+	givemon SPECIES_SWAMPERT, 100
+	givemon SPECIES_TROPIUS, 100
 	giveitem ITEM_HM_SURF
 	giveitem ITEM_HM_FLY
 	giveitem ITEM_HM_DIVE
