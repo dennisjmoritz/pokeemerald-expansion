@@ -3,7 +3,7 @@
   "name": "AcuityLakefront",
   "layout": "LAYOUT_ACUITY_LAKEFRONT",
   "music": "MUS_RG_ROUTE24",
-  "region_map_section": "MAPSEC_LAKE_ACUITY",
+  "region_map_section": "MAPSEC_ACUITY_LAKEFRONT",
   "requires_flash": false,
   "weather": "WEATHER_SNOW",
   "map_type": "MAP_TYPE_ROUTE",

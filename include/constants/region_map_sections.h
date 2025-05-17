@@ -168,6 +168,9 @@
 #define MAPSEC_MT_STARK                     0xA5
 #define MAPSEC_IRON_ISLAND                  0xA6
 #define MAPSEC_POKEMON_LEAGUE               0xA7
+#define MAPSEC_VERITY_LAKEFRONT             0xA8
+#define MAPSEC_VALOR_LAKEFRONT              0xA9
+#define MAPSEC_ACUITY_LAKEFRONT             0xAA
 #define MAPSEC_NONE                         0xD5
 
 #define METLOC_SPECIAL_EGG                  0xFD
