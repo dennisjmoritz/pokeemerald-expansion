@@ -117,7 +117,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex::
 	waitfanfare
 	setflag FLAG_SYS_POKEDEX_GET
 	special SetUnlockedPokedexFlags
-	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+	setflag FLAG_RECEIVED_POKEDEX
 	setflag FLAG_SYS_NATIONAL_DEX
 	special EnableNationalPokedex
 	clearflag FLAG_HIDE_OLDALE_TOWN_MAYS_HOUSE_RIVAL_BEDROOM

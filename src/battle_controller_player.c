@@ -2296,7 +2296,15 @@ static void PlayerHandleDrawTrainerPic(void)
     }
     else
     {
-        trainerPicId = gSaveBlock2Ptr->playerGender;
+        if(gSaveBlock2Ptr->playerRegion == KANTO) {
+            trainerPicId = gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_RED;
+        }
+        if(gSaveBlock2Ptr->playerRegion == JOHTO) {
+            trainerPicId = gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_GOLD;
+        }
+        if(gSaveBlock2Ptr->playerRegion == HOENN) {
+            trainerPicId = gSaveBlock2Ptr->playerGender;
+        }
     }
 
     if (gBattleTypeFlags & BATTLE_TYPE_MULTI)
@@ -2378,7 +2386,15 @@ static void PlayerHandleTrainerSlide(void)
     }
     else
     {
-        trainerPicId = gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_BRENDAN;
+        if(gSaveBlock2Ptr->playerRegion == KANTO) {
+            trainerPicId = gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_RED;
+        }
+        if(gSaveBlock2Ptr->playerRegion == JOHTO) {
+            trainerPicId = gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_GOLD;
+        }
+        if(gSaveBlock2Ptr->playerRegion == HOENN) {
+            trainerPicId = gSaveBlock2Ptr->playerGender;
+        }
     }
 
     DecompressTrainerBackPic(trainerPicId, gActiveBattler);
@@ -2965,7 +2981,15 @@ static void PlayerHandleIntroTrainerBallThrow(void)
     StartSpriteAnim(&gSprites[gBattlerSpriteIds[gActiveBattler]], 1);
 
     paletteNum = AllocSpritePalette(0xD6F8);
-    LoadCompressedPalette(gTrainerBackPicPaletteTable[gSaveBlock2Ptr->playerGender].data, OBJ_PLTT_ID(paletteNum), PLTT_SIZE_4BPP);
+    if(gSaveBlock2Ptr->playerRegion == KANTO) {
+        LoadCompressedPalette(gTrainerBackPicPaletteTable[gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_RED].data, OBJ_PLTT_ID(paletteNum), PLTT_SIZE_4BPP);
+    }
+    if(gSaveBlock2Ptr->playerRegion == JOHTO) {
+        LoadCompressedPalette(gTrainerBackPicPaletteTable[gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_GOLD].data, OBJ_PLTT_ID(paletteNum), PLTT_SIZE_4BPP);
+    }
+    if(gSaveBlock2Ptr->playerRegion == HOENN) {
+        LoadCompressedPalette(gTrainerBackPicPaletteTable[gSaveBlock2Ptr->playerGender].data, OBJ_PLTT_ID(paletteNum), PLTT_SIZE_4BPP);
+    }
     gSprites[gBattlerSpriteIds[gActiveBattler]].oam.paletteNum = paletteNum;
 
     taskId = CreateTask(Task_StartSendOutAnim, 5);

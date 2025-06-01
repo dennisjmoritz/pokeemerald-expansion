@@ -228,6 +228,8 @@ gScriptCmdTable::
 	.4byte ScrCmd_buffercontestname                 @ 0xe1
 	.4byte ScrCmd_bufferitemnameplural              @ 0xe2
 	.4byte ScrCmd_callfunc                  		@ 0xe3
+	.4byte ScrCmd_checkplayerregion                 @ 0xe4
+
 
 gScriptCmdTableEnd::
 	.4byte ScrCmd_nop

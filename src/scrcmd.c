@@ -2032,6 +2032,12 @@ bool8 ScrCmd_checkplayergender(struct ScriptContext *ctx)
     return FALSE;
 }
 
+bool8 ScrCmd_checkplayerregion(struct ScriptContext *ctx)
+{
+    gSpecialVar_Result = gSaveBlock2Ptr->playerRegion;
+    return FALSE;
+}
+
 bool8 ScrCmd_playmoncry(struct ScriptContext *ctx)
 {
     u16 species = VarGet(ScriptReadHalfword(ctx));

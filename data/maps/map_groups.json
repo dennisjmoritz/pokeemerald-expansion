@@ -724,10 +724,10 @@
     "Route25"
   ],
   "gMapGroup_PalletTown": [
-    "PlayersHouse_1F",
-    "PlayersHouse_2F",
-    "GarysHouse",
-    "ProfessorOaksLab"
+    "PalletTown_PlayersHouse_1F",
+    "PalletTown_PlayersHouse_2F",
+    "PalletTown_LeafsHouse",
+    "PalletTown_ProfessorOaksLab"
   ],
   "gMapGroup_ViridianCity": [
     "ViridianCity_House1",

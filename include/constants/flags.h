@@ -771,15 +771,15 @@
 #define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5
 #define FLAG_HIDE_PETALBURG_CITY_WALLY                              0x2D6
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7
-#define FLAG_UNUSED_0x2D8                                           0x2D8
-#define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
+#define FLAG_HIDE_ROUTE_1_PROF_OAK                                  0x2D8
+#define FLAG_HIDE_OAKS_LAB_PROF_OAK                                 0x2D9
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA
 #define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD
-#define FLAG_UNUSED_0x2DE                                           0x2DE
-#define FLAG_UNUSED_0x2DF                                           0x2DF
-#define FLAG_UNUSED_0x2E0                                           0x2E0
+#define FLAG_HIDE_ELMS_LAB_PROF_ELM                                 0x2DE
+#define FLAG_HIDE_ROUTE_29_ELM                                      0x2DF
+#define FLAG_HIDE_ROUTE_29_RIVAL                                    0x2E0
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0x2E2
 #define FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY                           0x2E3
@@ -788,23 +788,23 @@
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT                          0x2E6
 #define FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN                       0x2E7
 #define FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT                          0x2E8
-#define FLAG_UNUSED_0x2E9                                           0x2E9
+#define FLAG_HIDE_ELMS_LAB_RIVAL                                    0x2E9
 #define FLAG_UNUSED_0x2EA                                           0x2EA
 #define FLAG_HIDE_SAFARI_ZONE_SOUTH_EAST_EXPANSION                  0x2EB
 #define FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER                0x2EC
 #define FLAG_HIDE_SLATEPORT_CITY_SCOTT                              0x2ED
 #define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE
 #define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF
-#define FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE                       0x2F0
+#define FLAG_HIDE_INTRO_MOM_OUTSIDE                                 0x2F0
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0x2F1
-#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1          0x2F2
-#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2          0x2F3
+#define FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_1                          0x2F2
+#define FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_2                          0x2F3
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0x2F4
 #define FLAG_UNUSED_0x2F5                                           0x2F5
-#define FLAG_HIDE_LITTLEROOT_TOWN_HOUSE_MOM                         0x2F6
+#define FLAG_HIDE_PLAYERS_HOUSE_MOM                                 0x2F6
 #define FLAG_UNUSED_0x2F7                                           0x2F7
 #define FLAG_UNUSED_0x2F8                                           0x2F8
-#define FLAG_HIDE_LITTLEROOT_TOWN_HOUSE_TRUCK                       0x2F9
+#define FLAG_HIDE_TRUCK                                             0x2F9
 #define FLAG_UNUSED_0x2FA                                           0x2FA
 #define FLAG_HIDE_DEOXYS                                            0x2FB
 #define FLAG_HIDE_BIRTH_ISLAND_DEOXYS_TRIANGLE                      0x2FC
@@ -1499,7 +1499,7 @@
 
 #define FLAG_UNUSED_0x8E3                           (SYSTEM_FLAGS + 0x83) // Unused Flag
 
-#define FLAG_RECEIVED_POKEDEX_FROM_BIRCH            (SYSTEM_FLAGS + 0x84)
+#define FLAG_RECEIVED_POKEDEX                       (SYSTEM_FLAGS + 0x84)
 
 //Kanto and Johto towns and cities
 #define FLAG_VISITED_PALLET_TOWN                    (SYSTEM_FLAGS + 0x85) // Unused Flag

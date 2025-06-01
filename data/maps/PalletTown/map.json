@@ -25,28 +25,53 @@
     }
   ],
   "object_events": [
-
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DELIA",
+      "x": 6,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_INTRO_MOM_OUTSIDE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_TRUCK",
+      "x": 3,
+      "y": 9,
+      "elevation": 4,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "0x0",
+      "flag": "FLAG_HIDE_TRUCK"
+    }
   ],
   "warp_events": [
     {
       "x": 6,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_PLAYERS_HOUSE_1F",
+      "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
       "dest_warp_id": "0"
     },
     {
       "x": 15,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_GARYS_HOUSE",
+      "dest_map": "MAP_PALLET_TOWN_LEAFS_HOUSE",
       "dest_warp_id": "0"
     },
     {
       "x": 16,
       "y": 13,
       "elevation": 0,
-      "dest_map": "MAP_PROFESSOR_OAKS_LAB",
+      "dest_map": "MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB",
       "dest_warp_id": "0"
     }
   ],

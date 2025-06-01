@@ -17,6 +17,12 @@ extern const u8 gText_ExpandedPlaceholder_Groudon[];
 extern const u8 gText_ExpandedPlaceholder_Brendan[];
 extern const u8 gText_ExpandedPlaceholder_May[];
 
+extern const u8 gText_ExpandedPlaceholder_Red[];
+extern const u8 gText_ExpandedPlaceholder_Leaf[];
+
+extern const u8 gText_ExpandedPlaceholder_Gold[];
+extern const u8 gText_ExpandedPlaceholder_Lyra[];
+
 extern const u8 gText_FromSpace[];
 
 extern const u8 gText_Lv50[];
@@ -342,6 +348,7 @@ extern const u8 gText_ThisIsAPokemon[];
 extern const u8 gText_Birch_MainSpeech[];
 extern const u8 gText_Birch_AndYouAre[];
 extern const u8 gText_Birch_BoyOrGirl[];
+extern const u8 gText_Birch_WhichRegion[];
 extern const u8 gText_Birch_WhatsYourName[];
 extern const u8 gText_Birch_SoItsPlayer[];
 extern const u8 gText_Birch_YourePlayer[];

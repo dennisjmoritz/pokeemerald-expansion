@@ -258,6 +258,54 @@ static const u16 sPlayerAvatarGfxIds[][2] =
     [PLAYER_AVATAR_STATE_WATERING]   = {OBJ_EVENT_GFX_BRENDAN_WATERING,   OBJ_EVENT_GFX_MAY_WATERING},
 };
 
+static const u16 sRivalAvatarGfxIds_Kanto[][2] =
+{
+    [PLAYER_AVATAR_STATE_NORMAL]     = {OBJ_EVENT_GFX_RIVAL_RED_NORMAL,     OBJ_EVENT_GFX_RIVAL_LEAF_NORMAL},
+    [PLAYER_AVATAR_STATE_MACH_BIKE]  = {OBJ_EVENT_GFX_RIVAL_RED_MACH_BIKE,  OBJ_EVENT_GFX_RIVAL_LEAF_MACH_BIKE},
+    [PLAYER_AVATAR_STATE_ACRO_BIKE]  = {OBJ_EVENT_GFX_RIVAL_RED_ACRO_BIKE,  OBJ_EVENT_GFX_RIVAL_LEAF_ACRO_BIKE},
+    [PLAYER_AVATAR_STATE_SURFING]    = {OBJ_EVENT_GFX_RIVAL_RED_SURFING,    OBJ_EVENT_GFX_RIVAL_LEAF_SURFING},
+    [PLAYER_AVATAR_STATE_UNDERWATER] = {OBJ_EVENT_GFX_RED_UNDERWATER,       OBJ_EVENT_GFX_LEAF_UNDERWATER},
+    [PLAYER_AVATAR_STATE_FIELD_MOVE] = {OBJ_EVENT_GFX_RIVAL_RED_FIELD_MOVE, OBJ_EVENT_GFX_RIVAL_LEAF_FIELD_MOVE},
+    [PLAYER_AVATAR_STATE_FISHING]    = {OBJ_EVENT_GFX_RED_FISHING,          OBJ_EVENT_GFX_LEAF_FISHING},
+    [PLAYER_AVATAR_STATE_WATERING]   = {OBJ_EVENT_GFX_RED_WATERING,         OBJ_EVENT_GFX_LEAF_WATERING}
+};
+
+static const u16 sPlayerAvatarGfxIds_Kanto[][2] =
+{
+    [PLAYER_AVATAR_STATE_NORMAL]     = {OBJ_EVENT_GFX_RED_NORMAL,     OBJ_EVENT_GFX_LEAF_NORMAL},
+    [PLAYER_AVATAR_STATE_MACH_BIKE]  = {OBJ_EVENT_GFX_RED_MACH_BIKE,  OBJ_EVENT_GFX_LEAF_MACH_BIKE},
+    [PLAYER_AVATAR_STATE_ACRO_BIKE]  = {OBJ_EVENT_GFX_RED_ACRO_BIKE,  OBJ_EVENT_GFX_LEAF_ACRO_BIKE},
+    [PLAYER_AVATAR_STATE_SURFING]    = {OBJ_EVENT_GFX_RED_SURFING,    OBJ_EVENT_GFX_LEAF_SURFING},
+    [PLAYER_AVATAR_STATE_UNDERWATER] = {OBJ_EVENT_GFX_RED_UNDERWATER, OBJ_EVENT_GFX_LEAF_UNDERWATER},
+    [PLAYER_AVATAR_STATE_FIELD_MOVE] = {OBJ_EVENT_GFX_RED_FIELD_MOVE, OBJ_EVENT_GFX_LEAF_FIELD_MOVE},
+    [PLAYER_AVATAR_STATE_FISHING]    = {OBJ_EVENT_GFX_RED_FISHING,    OBJ_EVENT_GFX_LEAF_FISHING},
+    [PLAYER_AVATAR_STATE_WATERING]   = {OBJ_EVENT_GFX_RED_WATERING,   OBJ_EVENT_GFX_LEAF_WATERING},
+};
+
+static const u16 sRivalAvatarGfxIds_Johto[][2] =
+{
+    [PLAYER_AVATAR_STATE_NORMAL]     = {OBJ_EVENT_GFX_RIVAL_GOLD_NORMAL,     OBJ_EVENT_GFX_RIVAL_LYRA_NORMAL},
+    [PLAYER_AVATAR_STATE_MACH_BIKE]  = {OBJ_EVENT_GFX_RIVAL_GOLD_MACH_BIKE,  OBJ_EVENT_GFX_RIVAL_LYRA_MACH_BIKE},
+    [PLAYER_AVATAR_STATE_ACRO_BIKE]  = {OBJ_EVENT_GFX_RIVAL_GOLD_ACRO_BIKE,  OBJ_EVENT_GFX_RIVAL_LYRA_ACRO_BIKE},
+    [PLAYER_AVATAR_STATE_SURFING]    = {OBJ_EVENT_GFX_RIVAL_GOLD_SURFING,    OBJ_EVENT_GFX_RIVAL_LYRA_SURFING},
+    [PLAYER_AVATAR_STATE_UNDERWATER] = {OBJ_EVENT_GFX_GOLD_UNDERWATER,       OBJ_EVENT_GFX_LYRA_UNDERWATER},
+    [PLAYER_AVATAR_STATE_FIELD_MOVE] = {OBJ_EVENT_GFX_RIVAL_GOLD_FIELD_MOVE, OBJ_EVENT_GFX_RIVAL_LYRA_FIELD_MOVE},
+    [PLAYER_AVATAR_STATE_FISHING]    = {OBJ_EVENT_GFX_GOLD_FISHING,          OBJ_EVENT_GFX_LYRA_FISHING},
+    [PLAYER_AVATAR_STATE_WATERING]   = {OBJ_EVENT_GFX_GOLD_WATERING,         OBJ_EVENT_GFX_LYRA_WATERING}
+};
+
+static const u16 sPlayerAvatarGfxIds_Johto[][2] =
+{
+    [PLAYER_AVATAR_STATE_NORMAL]     = {OBJ_EVENT_GFX_GOLD_NORMAL,     OBJ_EVENT_GFX_LYRA_NORMAL},
+    [PLAYER_AVATAR_STATE_MACH_BIKE]  = {OBJ_EVENT_GFX_GOLD_MACH_BIKE,  OBJ_EVENT_GFX_LYRA_MACH_BIKE},
+    [PLAYER_AVATAR_STATE_ACRO_BIKE]  = {OBJ_EVENT_GFX_GOLD_ACRO_BIKE,  OBJ_EVENT_GFX_LYRA_ACRO_BIKE},
+    [PLAYER_AVATAR_STATE_SURFING]    = {OBJ_EVENT_GFX_GOLD_SURFING,    OBJ_EVENT_GFX_LYRA_SURFING},
+    [PLAYER_AVATAR_STATE_UNDERWATER] = {OBJ_EVENT_GFX_GOLD_UNDERWATER, OBJ_EVENT_GFX_LYRA_UNDERWATER},
+    [PLAYER_AVATAR_STATE_FIELD_MOVE] = {OBJ_EVENT_GFX_GOLD_FIELD_MOVE, OBJ_EVENT_GFX_LYRA_FIELD_MOVE},
+    [PLAYER_AVATAR_STATE_FISHING]    = {OBJ_EVENT_GFX_GOLD_FISHING,    OBJ_EVENT_GFX_LYRA_FISHING},
+    [PLAYER_AVATAR_STATE_WATERING]   = {OBJ_EVENT_GFX_GOLD_WATERING,   OBJ_EVENT_GFX_LYRA_WATERING},
+};
+
 static const u16 sFRLGAvatarGfxIds[GENDER_COUNT] =
 {
     [MALE]   = OBJ_EVENT_GFX_RED,
@@ -287,6 +335,46 @@ static const u16 sPlayerAvatarGfxToStateFlag[GENDER_COUNT][5][2] =
         {OBJ_EVENT_GFX_MAY_ACRO_BIKE,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
         {OBJ_EVENT_GFX_MAY_SURFING,        PLAYER_AVATAR_FLAG_SURFING},
         {OBJ_EVENT_GFX_MAY_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
+    }
+};
+
+static const u16 sPlayerAvatarGfxToStateFlag_Kanto[GENDER_COUNT][5][2] =
+{
+    [MALE] =
+    {
+        {OBJ_EVENT_GFX_RED_NORMAL,     PLAYER_AVATAR_FLAG_ON_FOOT},
+        {OBJ_EVENT_GFX_RED_MACH_BIKE,  PLAYER_AVATAR_FLAG_MACH_BIKE},
+        {OBJ_EVENT_GFX_RED_ACRO_BIKE,  PLAYER_AVATAR_FLAG_ACRO_BIKE},
+        {OBJ_EVENT_GFX_RED_SURFING,    PLAYER_AVATAR_FLAG_SURFING},
+        {OBJ_EVENT_GFX_RED_UNDERWATER, PLAYER_AVATAR_FLAG_UNDERWATER},
+    },
+    [FEMALE] =
+    {
+        {OBJ_EVENT_GFX_LEAF_NORMAL,         PLAYER_AVATAR_FLAG_ON_FOOT},
+        {OBJ_EVENT_GFX_LEAF_MACH_BIKE,      PLAYER_AVATAR_FLAG_MACH_BIKE},
+        {OBJ_EVENT_GFX_LEAF_ACRO_BIKE,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
+        {OBJ_EVENT_GFX_LEAF_SURFING,        PLAYER_AVATAR_FLAG_SURFING},
+        {OBJ_EVENT_GFX_LEAF_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
+    }
+};
+
+static const u16 sPlayerAvatarGfxToStateFlag_Johto[GENDER_COUNT][5][2] =
+{
+    [MALE] =
+    {
+        {OBJ_EVENT_GFX_GOLD_NORMAL,     PLAYER_AVATAR_FLAG_ON_FOOT},
+        {OBJ_EVENT_GFX_GOLD_MACH_BIKE,  PLAYER_AVATAR_FLAG_MACH_BIKE},
+        {OBJ_EVENT_GFX_GOLD_ACRO_BIKE,  PLAYER_AVATAR_FLAG_ACRO_BIKE},
+        {OBJ_EVENT_GFX_GOLD_SURFING,    PLAYER_AVATAR_FLAG_SURFING},
+        {OBJ_EVENT_GFX_GOLD_UNDERWATER, PLAYER_AVATAR_FLAG_UNDERWATER},
+    },
+    [FEMALE] =
+    {
+        {OBJ_EVENT_GFX_LYRA_NORMAL,         PLAYER_AVATAR_FLAG_ON_FOOT},
+        {OBJ_EVENT_GFX_LYRA_MACH_BIKE,      PLAYER_AVATAR_FLAG_MACH_BIKE},
+        {OBJ_EVENT_GFX_LYRA_ACRO_BIKE,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
+        {OBJ_EVENT_GFX_LYRA_SURFING,        PLAYER_AVATAR_FLAG_SURFING},
+        {OBJ_EVENT_GFX_LYRA_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
     }
 };
 
@@ -1248,11 +1336,23 @@ void StopPlayerAvatar(void)
 
 u16 GetRivalAvatarGraphicsIdByStateIdAndGender(u8 state, u8 gender)
 {
+    if(gSaveBlock2Ptr->playerRegion == KANTO) {
+        return sRivalAvatarGfxIds_Kanto[state][gender];
+    }
+    if(gSaveBlock2Ptr->playerRegion == JOHTO) {
+        return sRivalAvatarGfxIds_Johto[state][gender];
+    }
     return sRivalAvatarGfxIds[state][gender];
 }
 
 u16 GetPlayerAvatarGraphicsIdByStateIdAndGender(u8 state, u8 gender)
 {
+    if(gSaveBlock2Ptr->playerRegion == KANTO) {
+        return sPlayerAvatarGfxIds_Kanto[state][gender];
+    }
+    if(gSaveBlock2Ptr->playerRegion == JOHTO) {
+        return sPlayerAvatarGfxIds_Johto[state][gender];
+    }
     return sPlayerAvatarGfxIds[state][gender];
 }
 
@@ -1283,6 +1383,22 @@ u16 GetPlayerAvatarGenderByGraphicsId(u16 gfxId)
     case OBJ_EVENT_GFX_MAY_UNDERWATER:
     case OBJ_EVENT_GFX_MAY_FISHING:
     case OBJ_EVENT_GFX_MAY_WATERING:
+    case OBJ_EVENT_GFX_LEAF_NORMAL:
+    case OBJ_EVENT_GFX_LEAF_MACH_BIKE:
+    case OBJ_EVENT_GFX_LEAF_ACRO_BIKE:
+    case OBJ_EVENT_GFX_LEAF_SURFING:
+    case OBJ_EVENT_GFX_LEAF_FIELD_MOVE:
+    case OBJ_EVENT_GFX_LEAF_UNDERWATER:
+    case OBJ_EVENT_GFX_LEAF_FISHING:
+    case OBJ_EVENT_GFX_LEAF_WATERING:
+    case OBJ_EVENT_GFX_LYRA_NORMAL:
+    case OBJ_EVENT_GFX_LYRA_MACH_BIKE:
+    case OBJ_EVENT_GFX_LYRA_ACRO_BIKE:
+    case OBJ_EVENT_GFX_LYRA_SURFING:
+    case OBJ_EVENT_GFX_LYRA_FIELD_MOVE:
+    case OBJ_EVENT_GFX_LYRA_UNDERWATER:
+    case OBJ_EVENT_GFX_LYRA_FISHING:
+    case OBJ_EVENT_GFX_LYRA_WATERING:
         return FEMALE;
     default:
         return MALE;
@@ -1344,10 +1460,23 @@ static u8 GetPlayerAvatarStateTransitionByGraphicsId(u16 graphicsId, u8 gender)
 {
     u8 i;
 
-    for (i = 0; i < ARRAY_COUNT(sPlayerAvatarGfxToStateFlag[0]); i++)
-    {
-        if (sPlayerAvatarGfxToStateFlag[gender][i][0] == graphicsId)
-            return sPlayerAvatarGfxToStateFlag[gender][i][1];
+    if(gSaveBlock2Ptr->playerRegion == KANTO) {
+        for (i = 0; i < ARRAY_COUNT(sPlayerAvatarGfxToStateFlag_Kanto[0]); i++) {
+            if (sPlayerAvatarGfxToStateFlag_Kanto[gender][i][0] == graphicsId)
+                return sPlayerAvatarGfxToStateFlag_Kanto[gender][i][1];
+        }
+    }
+    if(gSaveBlock2Ptr->playerRegion == JOHTO) {
+        for (i = 0; i < ARRAY_COUNT(sPlayerAvatarGfxToStateFlag_Johto[0]); i++) {
+            if (sPlayerAvatarGfxToStateFlag_Johto[gender][i][0] == graphicsId)
+                return sPlayerAvatarGfxToStateFlag_Johto[gender][i][1];
+        }
+    }
+    if(gSaveBlock2Ptr->playerRegion == HOENN) {
+        for (i = 0; i < ARRAY_COUNT(sPlayerAvatarGfxToStateFlag[0]); i++) {
+            if (sPlayerAvatarGfxToStateFlag[gender][i][0] == graphicsId)
+                return sPlayerAvatarGfxToStateFlag[gender][i][1];
+        }
     }
     return PLAYER_AVATAR_FLAG_ON_FOOT;
 }
@@ -1357,10 +1486,23 @@ u16 GetPlayerAvatarGraphicsIdByCurrentState(void)
     u8 i;
     u8 flags = gPlayerAvatar.flags;
 
-    for (i = 0; i < ARRAY_COUNT(sPlayerAvatarGfxToStateFlag[0]); i++)
-    {
-        if (sPlayerAvatarGfxToStateFlag[gPlayerAvatar.gender][i][1] & flags)
-            return sPlayerAvatarGfxToStateFlag[gPlayerAvatar.gender][i][0];
+    if(gSaveBlock2Ptr->playerRegion == KANTO) {
+        for (i = 0; i < ARRAY_COUNT(sPlayerAvatarGfxToStateFlag_Kanto[0]); i++) {
+            if (sPlayerAvatarGfxToStateFlag_Kanto[gPlayerAvatar.gender][i][1] & flags)
+                return sPlayerAvatarGfxToStateFlag_Kanto[gPlayerAvatar.gender][i][0];
+        }
+    }
+    if(gSaveBlock2Ptr->playerRegion == JOHTO) {
+        for (i = 0; i < ARRAY_COUNT(sPlayerAvatarGfxToStateFlag_Johto[0]); i++) {
+            if (sPlayerAvatarGfxToStateFlag_Johto[gPlayerAvatar.gender][i][1] & flags)
+                return sPlayerAvatarGfxToStateFlag_Johto[gPlayerAvatar.gender][i][0];
+        }
+    }
+    if(gSaveBlock2Ptr->playerRegion == HOENN) {
+        for (i = 0; i < ARRAY_COUNT(sPlayerAvatarGfxToStateFlag[0]); i++) {
+            if (sPlayerAvatarGfxToStateFlag[gPlayerAvatar.gender][i][1] & flags)
+                return sPlayerAvatarGfxToStateFlag[gPlayerAvatar.gender][i][0];
+        }
     }
     return 0;
 }

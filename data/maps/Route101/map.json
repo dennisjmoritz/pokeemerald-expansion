@@ -100,7 +100,7 @@
       "x": 10,
       "y": 19,
       "elevation": 3,
-      "var": "VAR_ROUTE101_STATE",
+      "var": "VAR_INTRO_BATTLE_STATE",
       "var_value": "1",
       "script": "Route101_EventScript_StartBirchRescue"
     },
@@ -109,7 +109,7 @@
       "x": 11,
       "y": 19,
       "elevation": 3,
-      "var": "VAR_ROUTE101_STATE",
+      "var": "VAR_INTRO_BATTLE_STATE",
       "var_value": "1",
       "script": "Route101_EventScript_StartBirchRescue"
     },
@@ -118,7 +118,7 @@
       "x": 10,
       "y": 18,
       "elevation": 3,
-      "var": "VAR_ROUTE101_STATE",
+      "var": "VAR_INTRO_BATTLE_STATE",
       "var_value": "2",
       "script": "Route101_EventScript_PreventExitSouth"
     },
@@ -127,7 +127,7 @@
       "x": 11,
       "y": 18,
       "elevation": 3,
-      "var": "VAR_ROUTE101_STATE",
+      "var": "VAR_INTRO_BATTLE_STATE",
       "var_value": "2",
       "script": "Route101_EventScript_PreventExitSouth"
     },
@@ -136,7 +136,7 @@
       "x": 6,
       "y": 16,
       "elevation": 3,
-      "var": "VAR_ROUTE101_STATE",
+      "var": "VAR_INTRO_BATTLE_STATE",
       "var_value": "2",
       "script": "Route101_EventScript_PreventExitWest"
     },
@@ -145,7 +145,7 @@
       "x": 6,
       "y": 17,
       "elevation": 3,
-      "var": "VAR_ROUTE101_STATE",
+      "var": "VAR_INTRO_BATTLE_STATE",
       "var_value": "2",
       "script": "Route101_EventScript_PreventExitWest"
     },
@@ -154,7 +154,7 @@
       "x": 6,
       "y": 18,
       "elevation": 3,
-      "var": "VAR_ROUTE101_STATE",
+      "var": "VAR_INTRO_BATTLE_STATE",
       "var_value": "2",
       "script": "Route101_EventScript_PreventExitWest"
     }
