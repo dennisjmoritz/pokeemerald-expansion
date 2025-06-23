@@ -62,9 +62,7 @@ SECTIONS {
         *libc.a:*.o(.text*);
         *libnosys.a:*.o(.text*);
         asm/*.o(.text*);
-        KEEP(*.o(.text.consts));
-        *.o(.text*);
-        *.o(.eh_frame);
+        src/quests.o(.text);
     } > ROM =0
 
     script_data :
@@ -76,7 +74,29 @@ SECTIONS {
     .rodata :
     ALIGN(4)
     {
-        *.o(.rodata*);
+        src/*.o(.rodata*);
+        data/*.o(.rodata*);
+        src/quests.o(.rodata);
+    } > ROM =0
+
+    song_data :
+    ALIGN(4)
+    {
+        sound/songs/*.o(.rodata);
+    } > ROM =0
+
+    lib_rodata :
+    SUBALIGN(4)
+    {
+        src/m4a.o(.rodata);
+        src/agb_flash.o(.rodata);
+        src/agb_flash_1m.o(.rodata);
+        src/agb_flash_mx.o(.rodata);
+        src/agb_flash_le.o(.rodata);
+        src/siirtc.o(.rodata);
+        src/librfu_rfu.o(.rodata);
+        src/librfu_sio32id.o(.rodata);
+>>>>>>> 337c31817e (Added psf's quest menu)
         *libgcc.a:*.o(.rodata*);
         *libc.a:*.o(.rodata*);
         *libc.a:*.o(.data*);
