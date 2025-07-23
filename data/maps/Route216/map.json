@@ -12,12 +12,24 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": [
+    {
+      "map": "MAP_ROUTE217",
+      "offset": -2,
+      "direction": "up"
+    }
+  ],
   "object_events": [
 
   ],
   "warp_events": [
-
+    {
+      "x": 87,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_1F_NORTH_ROOM2",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

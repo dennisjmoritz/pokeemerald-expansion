@@ -4,7 +4,11 @@
     "gMapGroup_SpecialAreasSinnoh",
     "gMapGroup_DungeonsSinnoh",
     "gMapGroup_IndoorSinnoh",
-    "gMapGroup_IndoorTwons",
+    "gMapGroup_IndoorTwinleaf",
+    "gMapGroup_IndoorSandgem",
+    "gMapGroup_IndoorJubilife",
+    "gMapGroup_IndoorOreburgh",
+    "gMapGroup_IndoorFloaroma",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -130,9 +134,66 @@
     "Route226_Access",
     "HotelGrandLake"
   ],
-  "gMapGroup_IndoorTwons": [
+  "gMapGroup_IndoorTwinleaf": [
     "TwinleafTown_MainHouse_1F",
-    "TwinleafTown_MainHouse_2F"
+    "TwinleafTown_MainHouse_2F",
+    "Twinleaf_Town_RivalsHouse_F1",
+    "Twinleaf_Town_RivalsHouse_F2",
+    "TwinleafTown_Haouse1",
+    "TwinleafTown_House2"
+  ],
+  "gMapGroup_IndoorSandgem": [
+    "SandgemTown_RivalHouse_F1",
+    "SandgemTown_RivalHouse_F2",
+    "SandgemTown_House1",
+    "SandgemTown_PokemonCenter_1F",
+    "SandgemTown_PokemonCenter_2F",
+    "SandgemTown_Mart"
+  ],
+  "gMapGroup_IndoorJubilife": [
+    "JubilifeCity_PokemonSchool",
+    "JubilifeCity_JubilifeTV_F1",
+    "JubilifeCity_JubilifeTV_F2",
+    "JubilifeCity_JubilifeTV_F3",
+    "JubilifeCity_JubilifeTV_F4",
+    "JubilifeCity_PoketchCompany_F1",
+    "JubilifeCity_PoketchCompany_F2",
+    "JubilifeCity_PoketchCompany_F3",
+    "JubilifeCity_Flat1_F1",
+    "JubilifeCity_Flat1_F2",
+    "JubilifeCity_Flat1_F3",
+    "JubilifeCity_Flat2_F1",
+    "JubilifeCity_Flat2_F2",
+    "JubilifeCity_Flat2_F3",
+    "JubilifeCity_Flat3_F1",
+    "JubilifeCity_Flat3_F2",
+    "JubilifeCity_Flat3_F3",
+    "JubilifeCity_PokemonCenter_1F",
+    "JubilifeCity_PokemonCenter_2F",
+    "JubilifeCity_Mart"
+  ],
+  "gMapGroup_IndoorOreburgh": [
+    "OreburghCity_Flat1_F1",
+    "OreburghCity_Flat1_F2",
+    "OreburghCity_Flat2_F1",
+    "OreburghCity_Flat2_F2",
+    "OreburghCity_Flat3_F1",
+    "OreburghCity_Flat3_F2",
+    "OreburghCity_House1",
+    "OreburghCity_House2",
+    "OreburghCity_House3",
+    "OreburghCity_Gym",
+    "OreburghCity_PokemonCenter_1F",
+    "OreburghCity_PokemonCenter_2F",
+    "OreburghCity_Mart"
+  ],
+  "gMapGroup_IndoorFloaroma": [
+    "FloaromaTown_House1",
+    "FloaromaTown_House2",
+    "FloaromaTown_FlowerShop",
+    "FloaromaTown_PokemonCenter_1F",
+    "FloaromaTwon_PokemonCenter_2F",
+    "FloaromaTown_Mart"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

@@ -17,6 +17,11 @@
       "map": "MAP_ACUITY_LAKEFRONT",
       "offset": 2,
       "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE216",
+      "offset": 2,
+      "direction": "down"
     }
   ],
   "object_events": [

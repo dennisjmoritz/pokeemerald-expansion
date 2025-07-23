@@ -23,7 +23,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 4,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_1F_NORTH_ROOM1",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

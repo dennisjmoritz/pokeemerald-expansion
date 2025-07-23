@@ -5035,7 +5035,7 @@
       "id": "LAYOUT_VALLEY_WINDWORKS",
       "name": "ValleyWindworks_Layout",
       "width": 32,
-      "height": 34,
+      "height": 99,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/ValleyWindworks/border.bin",
@@ -5250,6 +5250,496 @@
       "secondary_tileset": "gTileset_Pasos",
       "border_filepath": "data/layouts/Route213_Access/border.bin",
       "blockdata_filepath": "data/layouts/Route213_Access/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_RIVALS_HOUSE_F1",
+      "name": "Twinleaf_Town_RivalsHouse_F1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Twinleaf_Town_RivalsHouse_F1/border.bin",
+      "blockdata_filepath": "data/layouts/Twinleaf_Town_RivalsHouse_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_RIVALS_HOUSE_F2",
+      "name": "Twinleaf_Town_RivalsHouse_F2_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Twinleaf_Town_RivalsHouse_F2/border.bin",
+      "blockdata_filepath": "data/layouts/Twinleaf_Town_RivalsHouse_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_HAOUSE1",
+      "name": "TwinleafTown_Haouse1_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/TwinleafTown_Haouse1/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_Haouse1/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_HOUSE2",
+      "name": "TwinleafTown_House2_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/TwinleafTown_House2/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_RIVAL_HOUSE_F1",
+      "name": "SandgemTown_RivalHouse_F1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/SandgemTown_RivalHouse_F1/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_RivalHouse_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_RIVAL_HOUSE_F2",
+      "name": "SandgemTown_RivalHouse_F2_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/SandgemTown_RivalHouse_F2/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_RivalHouse_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_HOUSE1",
+      "name": "SandgemTown_House1_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/SandgemTown_House1/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_POKEMON_CENTER_1F",
+      "name": "SandgemTown_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/SandgemTown_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_POKEMON_CENTER_2F",
+      "name": "SandgemTown_PokemonCenter_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/SandgemTown_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_MART",
+      "name": "SandgemTown_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/SandgemTown_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_POKEMON_SCHOOL",
+      "name": "JubilifeCity_PokemonSchool_Layout",
+      "width": 12,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/JubilifeCity_PokemonSchool/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_PokemonSchool/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_JUBILIFE_TV_F1",
+      "name": "JubilifeCity_JubilifeTV_F1_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/JubilifeCity_JubilifeTV_F1/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_JubilifeTV_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_JUBILIFE_TV_F2",
+      "name": "JubilifeCity_JubilifeTV_F2_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/JubilifeCity_JubilifeTV_F2/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_JubilifeTV_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_JUBILIFE_TV_F3",
+      "name": "JubilifeCity_JubilifeTV_F3_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/JubilifeCity_JubilifeTV_F3/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_JubilifeTV_F3/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_JUBILIFE_TV_F4",
+      "name": "JubilifeCity_JubilifeTV_F4_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/JubilifeCity_JubilifeTV_F4/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_JubilifeTV_F4/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_POKETCH_COMPANY_F1",
+      "name": "JubilifeCity_PoketchCompany_F1_Layout",
+      "width": 19,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/JubilifeCity_PoketchCompany_F1/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_PoketchCompany_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_POKETCH_COMPANY_F2",
+      "name": "JubilifeCity_PoketchCompany_F2_Layout",
+      "width": 19,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/JubilifeCity_PoketchCompany_F2/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_PoketchCompany_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_POKETCH_COMPANY_F3",
+      "name": "JubilifeCity_PoketchCompany_F3_Layout",
+      "width": 19,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/JubilifeCity_PoketchCompany_F3/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_PoketchCompany_F3/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_FLAT1_F1",
+      "name": "JubilifeCity_Flat1_F1_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/JubilifeCity_Flat1_F1/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Flat1_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_FLAT1_F2",
+      "name": "JubilifeCity_Flat1_F2_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/JubilifeCity_Flat1_F2/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Flat1_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_FLAT1_F3",
+      "name": "JubilifeCity_Flat1_F3_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/JubilifeCity_Flat1_F3/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Flat1_F3/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_FLAT2_F1",
+      "name": "JubilifeCity_Flat2_F1_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/JubilifeCity_Flat2_F1/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Flat2_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_FLAT2_F2",
+      "name": "JubilifeCity_Flat2_F2_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/JubilifeCity_Flat2_F2/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Flat2_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_FLAT2_F3",
+      "name": "JubilifeCity_Flat2_F3_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/JubilifeCity_Flat2_F3/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Flat2_F3/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_FLAT3_F1",
+      "name": "JubilifeCity_Flat3_F1_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/JubilifeCity_Flat3_F1/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Flat3_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_FLAT3_F2",
+      "name": "JubilifeCity_Flat3_F2_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/JubilifeCity_Flat3_F2/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Flat3_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_FLAT3_F3",
+      "name": "JubilifeCity_Flat3_F3_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/JubilifeCity_Flat3_F3/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Flat3_F3/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_POKEMON_CENTER_1F",
+      "name": "JubilifeCity_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/JubilifeCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_POKEMON_CENTER_2F",
+      "name": "JubilifeCity_PokemonCenter_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/JubilifeCity_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_MART",
+      "name": "JubilifeCity_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/JubilifeCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_FLAT1_F1",
+      "name": "OreburghCity_Flat1_F1_Layout",
+      "width": 14,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OreburghCity_Flat1_F1/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_Flat1_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_FLAT1_F2",
+      "name": "OreburghCity_Flat1_F2_Layout",
+      "width": 14,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OreburghCity_Flat1_F2/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_Flat1_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_FLAT2_F1",
+      "name": "OreburghCity_Flat2_F1_Layout",
+      "width": 14,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OreburghCity_Flat2_F1/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_Flat2_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_FLAT2_F2",
+      "name": "OreburghCity_Flat2_F2_Layout",
+      "width": 14,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OreburghCity_Flat2_F2/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_Flat2_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_FLAT3_F1",
+      "name": "OreburghCity_Flat3_F1_Layout",
+      "width": 14,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OreburghCity_Flat3_F1/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_Flat3_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_FLAT3_F2",
+      "name": "OreburghCity_Flat3_F2_Layout",
+      "width": 14,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OreburghCity_Flat3_F2/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_Flat3_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_HOUSE1",
+      "name": "OreburghCity_House1_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OreburghCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_HOUSE2",
+      "name": "OreburghCity_House2_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OreburghCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_HOUSE3",
+      "name": "OreburghCity_House3_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OreburghCity_House3/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_GYM",
+      "name": "OreburghCity_Gym_Layout",
+      "width": 11,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_RustboroGym",
+      "border_filepath": "data/layouts/OreburghCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_POKEMON_CENTER_1F",
+      "name": "OreburghCity_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/OreburghCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_POKEMON_CENTER_2F",
+      "name": "OreburghCity_PokemonCenter_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/OreburghCity_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_MART",
+      "name": "OreburghCity_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/OreburghCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_TOWN_HOUSE1",
+      "name": "FloaromaTown_House1_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/FloaromaTown_House1/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaTown_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_TOWN_HOUSE2",
+      "name": "FloaromaTown_House2_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/FloaromaTown_House2/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaTown_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_TOWN_FLOWER_SHOP",
+      "name": "FloaromaTown_FlowerShop_Layout",
+      "width": 15,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PrettyPetalFlowerShop",
+      "border_filepath": "data/layouts/FloaromaTown_FlowerShop/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaTown_FlowerShop/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_TOWN_POKEMON_CENTER_1F",
+      "name": "FloaromaTown_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/FloaromaTown_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaTown_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_TWON_POKEMON_CENTER_2F",
+      "name": "FloaromaTwon_PokemonCenter_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/FloaromaTwon_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaTwon_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_TOWN_MART",
+      "name": "FloaromaTown_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/FloaromaTown_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaTown_Mart/map.bin"
     }
   ]
 }

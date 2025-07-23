@@ -2,7 +2,7 @@
   "id": "MAP_LAKE_VALOR",
   "name": "LakeValor",
   "layout": "LAYOUT_LAKE_VALOR",
-  "music": "MUS_RG_CINNABAR",
+  "music": "MUS_RG_SURF",
   "region_map_section": "MAPSEC_LAKE_VALOR",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -17,7 +17,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 40,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_VALOR_LAKEFRONT",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 40,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_VALOR_LAKEFRONT",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

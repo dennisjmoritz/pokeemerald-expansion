@@ -44,6 +44,69 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE218_EAST",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 55,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_JUBILIFE_CITY_POKEMON_CENTER_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 54,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_JUBILIFE_CITY_MART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 55,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_JUBILIFE_CITY_FLAT3_F1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 43,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_JUBILIFE_CITY_POKEMON_SCHOOL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 40,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_JUBILIFE_CITY_JUBILIFE_TV_F1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_JUBILIFE_CITY_POKETCH_COMPANY_F1",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 17,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_JUBILIFE_CITY_POKETCH_COMPANY_F1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 42,
+      "y": 49,
+      "elevation": 0,
+      "dest_map": "MAP_JUBILIFE_CITY_FLAT2_F1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 49,
+      "elevation": 0,
+      "dest_map": "MAP_JUBILIFE_CITY_FLAT1_F1",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

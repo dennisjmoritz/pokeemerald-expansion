@@ -33,7 +33,41 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 9,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_POKEMON_CENTER_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 27,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_MART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_RIVAL_HOUSE_F1",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

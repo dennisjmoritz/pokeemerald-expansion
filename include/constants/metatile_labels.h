@@ -324,6 +324,7 @@
 #define METATILE_Mauville_MirageTower_TileD   0x3DC
 #define METATILE_Mauville_MirageTower_TileE   0x3DD
 #define METATILE_Mauville_MirageTower_TileF   0x3E3
+#define METATILE_Mauville_TallGrass           0x3A7
 
 // gTileset_MauvilleGym
 #define METATILE_MauvilleGym_FloorTile        0x21A
@@ -782,6 +783,9 @@
 // gTileset_Underwater
 #define METATILE_Underwater_FloorShadow  0x228
 #define METATILE_Underwater_RockWall     0x21E
+
+// gTileset_Veilstone
+#define METATILE_Veilstone_Door_DeptStore  0x25C
 
 // Other
 #define METATILE_RSMossdeepGym_RedArrow_Down   0x205

@@ -2,7 +2,7 @@
   "id": "MAP_HOTEL_GRAND_LAKE",
   "name": "HotelGrandLake",
   "layout": "LAYOUT_HOTEL_GRAND_LAKE",
-  "music": "MUS_DUMMY",
+  "music": "MUS_RG_SS_ANNE",
   "region_map_section": "MAPSEC_LAKE_VALOR",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

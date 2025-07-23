@@ -39,7 +39,21 @@
       "x": 5,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_TWINLEAF_TOWN",
+      "dest_map": "MAP_TWINLEAF_TOWN_RIVALS_HOUSE_F1",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 6,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN_HAOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN_HOUSE2",
       "dest_warp_id": "0"
     }
   ],

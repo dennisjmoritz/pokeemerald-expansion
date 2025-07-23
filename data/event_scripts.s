@@ -1240,3 +1240,101 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/HotelGrandLake/scripts.inc"
 
 	.include "data/maps/Route213_Access/scripts.inc"
+
+	.include "data/maps/Twinleaf_Town_RivalsHouse_F1/scripts.inc"
+
+	.include "data/maps/Twinleaf_Town_RivalsHouse_F2/scripts.inc"
+
+	.include "data/maps/TwinleafTown_Haouse1/scripts.inc"
+
+	.include "data/maps/TwinleafTown_House2/scripts.inc"
+
+	.include "data/maps/SandgemTown_RivalHouse_F1/scripts.inc"
+
+	.include "data/maps/SandgemTown_RivalHouse_F2/scripts.inc"
+
+	.include "data/maps/SandgemTown_House1/scripts.inc"
+
+	.include "data/maps/SandgemTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/SandgemTown_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/SandgemTown_Mart/scripts.inc"
+
+	.include "data/maps/JubilifeCity_PokemonSchool/scripts.inc"
+
+	.include "data/maps/JubilifeCity_JubilifeTV_F1/scripts.inc"
+
+	.include "data/maps/JubilifeCity_JubilifeTV_F2/scripts.inc"
+
+	.include "data/maps/JubilifeCity_JubilifeTV_F3/scripts.inc"
+
+	.include "data/maps/JubilifeCity_JubilifeTV_F4/scripts.inc"
+
+	.include "data/maps/JubilifeCity_PoketchCompany_F1/scripts.inc"
+
+	.include "data/maps/JubilifeCity_PoketchCompany_F2/scripts.inc"
+
+	.include "data/maps/JubilifeCity_PoketchCompany_F3/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Flat1_F1/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Flat1_F2/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Flat1_F3/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Flat2_F1/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Flat2_F2/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Flat2_F3/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Flat3_F1/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Flat3_F2/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Flat3_F3/scripts.inc"
+
+	.include "data/maps/JubilifeCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/JubilifeCity_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Mart/scripts.inc"
+
+	.include "data/maps/OreburghCity_Flat1_F1/scripts.inc"
+
+	.include "data/maps/OreburghCity_Flat1_F2/scripts.inc"
+
+	.include "data/maps/OreburghCity_Flat2_F1/scripts.inc"
+
+	.include "data/maps/OreburghCity_Flat2_F2/scripts.inc"
+
+	.include "data/maps/OreburghCity_Flat3_F1/scripts.inc"
+
+	.include "data/maps/OreburghCity_Flat3_F2/scripts.inc"
+
+	.include "data/maps/OreburghCity_House1/scripts.inc"
+
+	.include "data/maps/OreburghCity_House2/scripts.inc"
+
+	.include "data/maps/OreburghCity_House3/scripts.inc"
+
+	.include "data/maps/OreburghCity_Gym/scripts.inc"
+
+	.include "data/maps/OreburghCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/OreburghCity_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/OreburghCity_Mart/scripts.inc"
+
+	.include "data/maps/FloaromaTown_House1/scripts.inc"
+
+	.include "data/maps/FloaromaTown_House2/scripts.inc"
+
+	.include "data/maps/FloaromaTown_FlowerShop/scripts.inc"
+
+	.include "data/maps/FloaromaTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/FloaromaTwon_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/FloaromaTown_Mart/scripts.inc"

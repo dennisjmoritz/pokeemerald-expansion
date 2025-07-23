@@ -13,6 +13,7 @@
 #include "task.h"
 #include "trig.h"
 #include "gpu_regs.h"
+#include "field_camera.h"
 
 EWRAM_DATA static u8 sCurrentAbnormalWeather = 0;
 
@@ -771,7 +772,7 @@ void Snow_InitVars(void)
     gWeatherPtr->targetColorMapIndex = 0;
     gWeatherPtr->colorMapStepDelay = 20;
     gWeatherPtr->targetSnowflakeSpriteCount = NUM_SNOWFLAKE_SPRITES;
-    gWeatherPtr->snowflakeVisibleCounter = 0;
+    gWeatherPtr->snowflakeVisibleCounter = 20;
 }
 
 void Snow_InitAll(void)

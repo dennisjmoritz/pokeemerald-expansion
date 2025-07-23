@@ -33,7 +33,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 41,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_LAKE_VALOR",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 41,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_LAKE_VALOR",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
