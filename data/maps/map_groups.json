@@ -158,14 +158,14 @@
     "Underwater_Route125"
   ],
   "gMapGroup_IndoorLittleroot": [
-    "LittlerootTown_PlayersHouse_1F",
-    "LittlerootTown_PlayersHouse_2F",
+    "LittlerootTown_BrendansHouse_1F",
+    "LittlerootTown_BrendansHouse_2F",
     "LittlerootTown_MaysHouse_1F",
     "LittlerootTown_MaysHouse_2F",
     "LittlerootTown_ProfessorBirchsLab"
   ],
   "gMapGroup_IndoorOldale": [
-    "OldaleTown_RivalsHouse",
+    "OldaleTown_House1",
     "OldaleTown_House2",
     "OldaleTown_PokemonCenter_1F",
     "OldaleTown_PokemonCenter_2F",
@@ -221,7 +221,7 @@
   "gMapGroup_IndoorPetalburg": [
     "PetalburgCity_WallysHouse",
     "PetalburgCity_Gym",
-    "PetalburgCity_ParentsHouse",
+    "PetalburgCity_House1",
     "PetalburgCity_House2",
     "PetalburgCity_PokemonCenter_1F",
     "PetalburgCity_PokemonCenter_2F",
@@ -667,8 +667,8 @@
     "Route110_TrickHousePuzzle6",
     "Route110_TrickHousePuzzle7",
     "Route110_TrickHousePuzzle8",
-    "Route110_SeasideCyclingRoadNorthEntrance",
-    "Route110_SeasideCyclingRoadSouthEntrance"
+    "Route110_SeasideCyclingRoadSouthEntrance",
+    "Route110_SeasideCyclingRoadNorthEntrance"
   ],
   "gMapGroup_IndoorRoute113": [
     "Route113_GlassWorkshop"
