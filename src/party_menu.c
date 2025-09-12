@@ -100,6 +100,10 @@ enum {
     MENU_TRADE1,
     MENU_TRADE2,
     MENU_TOSS,
+    MENU_KANTO,
+    MENU_JOHTO,
+    MENU_HOENN,
+    MENU_SEVII,
     MENU_CATALOG_BULB,
     MENU_CATALOG_OVEN,
     MENU_CATALOG_WASHING,
@@ -476,6 +480,10 @@ static void CursorCb_Register(u8);
 static void CursorCb_Trade1(u8);
 static void CursorCb_Trade2(u8);
 static void CursorCb_Toss(u8);
+static void CursorCb_Kanto(u8);
+static void CursorCb_Johto(u8);
+static void CursorCb_Hoenn(u8);
+static void CursorCb_Sevii(u8);
 static void CursorCb_FieldMove(u8);
 static void CursorCb_CatalogBulb(u8);
 static void CursorCb_CatalogOven(u8);
@@ -7909,6 +7917,38 @@ void IsLastMonThatKnowsSurf(void)
         if (AnyStorageMonWithMove(move) != TRUE)
             gSpecialVar_Result = !P_CAN_FORGET_HIDDEN_MOVE;
     }
+}
+
+static void CursorCb_Kanto(u8 taskId)
+{
+    PlaySE(SE_SELECT);
+    SetMapGraphics(0);
+    gPartyMenu.exitCallback = CB2_OpenFlyMap;
+    Task_ClosePartyMenu(taskId);
+}
+
+static void CursorCb_Johto(u8 taskId)
+{
+    PlaySE(SE_SELECT);
+    SetMapGraphics(1);
+    gPartyMenu.exitCallback = CB2_OpenFlyMap;
+    Task_ClosePartyMenu(taskId);
+}
+
+static void CursorCb_Hoenn(u8 taskId)
+{
+    PlaySE(SE_SELECT);
+    SetMapGraphics(2);
+    gPartyMenu.exitCallback = CB2_OpenFlyMap;
+    Task_ClosePartyMenu(taskId);
+}
+
+static void CursorCb_Sevii(u8 taskId)
+{
+    PlaySE(SE_SELECT);
+    SetMapGraphics(3);
+    gPartyMenu.exitCallback = CB2_OpenFlyMap;
+    Task_ClosePartyMenu(taskId);
 }
 
 void CursorCb_MoveItemCallback(u8 taskId)

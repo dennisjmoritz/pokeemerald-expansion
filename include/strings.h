@@ -836,7 +836,41 @@ extern const u8 gText_DexEmptyString[];
 extern const u8 gText_DexSearchDontSpecify[];
 extern const u8 gText_DexSearchTypeNone[];
 
+extern const u8 gText_FreshWaterAndPrice[];
+extern const u8 gText_SodaPopAndPrice[];
+extern const u8 gText_LemonadeAndPrice[];
+extern const u8 gText_HowToRide[];
+extern const u8 gText_HowToTurn[];
+extern const u8 gText_SandySlopes[];
+extern const u8 gText_Wheelies[];
+extern const u8 gText_BunnyHops[];
+extern const u8 gText_Jump[];
+extern const u8 gText_Satisfied[];
+extern const u8 gText_Dissatisfied[];
+extern const u8 gText_DeepSeaTooth[];
+extern const u8 gText_DeepSeaScale[];
+extern const u8 gText_BlueFlute2[];
+extern const u8 gText_YellowFlute2[];
+extern const u8 gText_RedFlute2[];
+extern const u8 gText_WhiteFlute2[];
+extern const u8 gText_BlackFlute2[];
+extern const u8 gText_GlassChair[];
+extern const u8 gText_GlassDesk[];
+extern const u8 gText_TreeckoDollAndPrice[];
+extern const u8 gText_TorchicDollAndPrice[];
+extern const u8 gText_MudkipDollAndPrice[];
+extern const u8 gText_TM32AndPrice[];
+extern const u8 gText_TM29AndPrice[];
+extern const u8 gText_TM35AndPrice[];
+extern const u8 gText_TM24AndPrice[];
+extern const u8 gText_TM13AndPrice[];
+extern const u8 gText_50CoinsAndPrice[];
+extern const u8 gText_500CoinsAndPrice[];
+extern const u8 gText_Excellent2[];
+extern const u8 gText_NotSoGood[];
 extern const u8 gText_LilycoveCity[];
+extern const u8 gText_Right[];
+extern const u8 gText_Left[];
 extern const u8 gText_RedShard[];
 extern const u8 gText_YellowShard[];
 extern const u8 gText_BlueShard[];
@@ -847,6 +881,8 @@ extern const u8 gText_ReadyToStart[];
 extern const u8 gText_Record2[];
 extern const u8 gText_Rest[];
 extern const u8 gText_Retire[];
+extern const u8 gText_RedTent[];
+extern const u8 gText_BlueTent[];
 extern const u8 gText_TradeCenter[];
 extern const u8 gText_Colosseum[];
 extern const u8 gText_RecordCorner[];
@@ -2425,5 +2461,10 @@ extern const u8 gText_Rename[]; // change nickname from summary screen
 
 // Switch Caught Mon into Party
 extern const u8 gText_CannotSendMonToBoxHM[];
+
+//Custom
+extern const u8 gText_Kanto[];
+extern const u8 gText_Johto[];
+extern const u8 gText_Sevii_Menu[];
 
 #endif // GUARD_STRINGS_H
