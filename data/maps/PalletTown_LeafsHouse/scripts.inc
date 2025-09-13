@@ -1,2 +1,2 @@
 PalletTown_LeafsHouse_MapScripts::
-	.byte 0
+.byte 0

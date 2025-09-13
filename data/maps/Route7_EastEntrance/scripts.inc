@@ -1,2 +1,2 @@
 Route7_EastEntrance_MapScripts::
-	.byte 0
+.byte 0

@@ -1,2 +1,2 @@
 NewBarkTown_ElmsHouse_MapScripts::
-	.byte 0
+.byte 0

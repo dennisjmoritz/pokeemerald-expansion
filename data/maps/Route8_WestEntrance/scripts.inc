@@ -1,2 +1,2 @@
 Route8_WestEntrance_MapScripts::
-	.byte 0
+.byte 0

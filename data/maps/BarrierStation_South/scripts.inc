@@ -1,2 +1,2 @@
 BarrierStation_South_MapScripts::
-	.byte 0
+.byte 0

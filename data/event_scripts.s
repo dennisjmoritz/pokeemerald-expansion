@@ -581,6 +581,19 @@ gStdScripts_End::
 	.include "data/maps/Route119_House/scripts.inc"
 	.include "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc"
 
+	// Johto/Kanto additions
+	.include "data/maps/BattleTower_Outside/scripts.inc"
+	.include "data/maps/BattleTower_Lobby/scripts.inc"
+	.include "data/maps/BattleTower_Elevator/scripts.inc"
+	.include "data/maps/BattleTower_Corridor/scripts.inc"
+	.include "data/maps/BattleTower_BattleRoom/scripts.inc"
+	.include "data/maps/LakeOfRage_House1/scripts.inc"
+	.include "data/maps/LakeOfRage_House2/scripts.inc"
+
+	// Auto-generated from map_groups: remaining map scripts
+	.include "data/maps/extra_map_includes.inc"
+	.include "data/maps/stub_events.inc"
+
 	.include "data/scripts/std_msgbox.inc"
 	.include "data/scripts/trainer_battle.inc"
 	.include "data/scripts/new_game.inc"

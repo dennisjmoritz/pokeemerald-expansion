@@ -1,2 +1,2 @@
 BlackthornCity_MoveDeletersHouse_MapScripts::
-	.byte 0
+.byte 0

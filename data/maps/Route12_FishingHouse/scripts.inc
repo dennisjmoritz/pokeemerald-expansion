@@ -1,2 +1,2 @@
 Route12_FishingHouse_MapScripts::
-	.byte 0
+.byte 0

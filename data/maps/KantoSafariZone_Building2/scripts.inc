@@ -1,2 +1,2 @@
 KantoSafariZone_Building2_MapScripts::
-	.byte 0
+.byte 0

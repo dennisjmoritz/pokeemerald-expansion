@@ -492,11 +492,6 @@
 #define MUS_RG_TEACHY_TV_MENU       558 // MUS_RG_TVNOIZE
 #define END_MUS                     MUS_RG_TEACHY_TV_MENU
 
-// Aliases for custom/ported areas
-// Use a thematically similar existing track until a dedicated one is added.
-#ifndef MUS_LAKE_OF_RAGE
-#define MUS_LAKE_OF_RAGE            MUS_GSC_ROUTE38
-#endif
 
 // These PH_* constants are phoneme sounds used by the "bard" NPC (see src/bard_music.c and src/mauville_old_man.c).
 // Each comes in a triplet of PH_*_BLEND, PH_*_HELD, and PH_*_SOLO, and the name of each triplet incorporates the English phonetic sound it represents.

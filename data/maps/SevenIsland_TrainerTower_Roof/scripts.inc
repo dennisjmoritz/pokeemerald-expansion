@@ -1,2 +1,2 @@
 SevenIsland_TrainerTower_Roof_MapScripts::
-	.byte 0
+.byte 0
