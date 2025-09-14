@@ -24,7 +24,6 @@ TerraCave_End_EventScript_ShowGroudon::
 
 TerraCave_End_EventScript_Groudon::
 	lockall
-	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
 	applymovement LOCALID_TERRA_CAVE_GROUDON, TerraCave_End_Movement_GroudonApproach
 	waitmovement 0

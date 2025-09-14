@@ -72,12 +72,10 @@ EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard::
 	end
 
 EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromRight::
-	applymovement LOCALID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromRight
 	waitmovement 0
 	return
 
 EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromLeft::
-	applymovement LOCALID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeft
 	waitmovement 0
 	return
 

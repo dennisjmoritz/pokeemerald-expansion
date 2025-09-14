@@ -1,5 +1,4 @@
 @ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
-@ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_DOME_PLAYER).
 @ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_1.
 @ The graphics of the opponent are represented with VAR_OBJ_GFX_ID_0, which will ultimately be set by dome_setopponentgfx.
 
@@ -465,7 +464,6 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_SetUpObjects::
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_AddAudience
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_SetPlayerGfx
 	setvar VAR_TEMP_1, 1
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_SetInvisible
 	frontier_get FRONTIER_DATA_BATTLE_NUM
 	goto_if_ne VAR_RESULT, DOME_FINAL, BattleFrontier_BattleDomeBattleRoom_EventScript_EndSetUpObjects
 	frontier_getbrainstatus

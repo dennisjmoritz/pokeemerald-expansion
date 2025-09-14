@@ -8,7 +8,6 @@ PetalburgCity_WallysHouse_OnWarp:
 	.2byte 0
 
 PetalburgCity_WallysHouse_EventScript_PlayerWallysDadFaceEachOther::
-	turnobject LOCALID_PLAYER, DIR_EAST
 	turnobject LOCALID_WALLYS_HOUSE_WALLYS_DAD, DIR_WEST
 	end
 

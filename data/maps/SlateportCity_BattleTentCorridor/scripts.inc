@@ -15,7 +15,6 @@ SlateportCity_BattleTentCorridor_EventScript_SetUpObjects::
 	setobjectxy LOCALID_SLATEPORT_TENT_CORRIDOR_ATTENDANT, 2, 2
 	turnobject LOCALID_SLATEPORT_TENT_CORRIDOR_ATTENDANT, DIR_SOUTH
 SlateportCity_BattleTentCorridor_EventScript_TurnPlayerNorth::
-	turnobject LOCALID_PLAYER, DIR_NORTH
 	end
 
 SlateportCity_BattleTentCorridor_OnFrame:
@@ -26,7 +25,6 @@ SlateportCity_BattleTentCorridor_EventScript_EnterCorridor::
 	goto_if_eq VAR_0x8006, 1, SlateportCity_BattleTentCorridor_EventScript_ReturnToRoomFromBattle
 	setvar VAR_TEMP_0, 1
 	applymovement LOCALID_SLATEPORT_TENT_CORRIDOR_ATTENDANT, SlateportCity_BattleTentCorridor_Movement_AttendantEnter
-	applymovement LOCALID_PLAYER, SlateportCity_BattleTentCorridor_Movement_PlayerEnter
 	waitmovement 0
 	goto_if_eq VAR_0x8006, 2, SlateportCity_BattleTentCorridor_EventScript_ResumeChallenge
 	slateporttent_generaterentalmons
@@ -43,7 +41,6 @@ SlateportCity_BattleTentCorridor_EventScript_EnterBattleRoom::
 	opendoor 2, 1
 	waitdooranim
 	applymovement LOCALID_SLATEPORT_TENT_CORRIDOR_ATTENDANT, SlateportCity_BattleTentCorridor_Movement_AttendantExit
-	applymovement LOCALID_PLAYER, SlateportCity_BattleTentCorridor_Movement_PlayerExit
 	waitmovement 0
 	closedoor 2, 1
 	waitdooranim

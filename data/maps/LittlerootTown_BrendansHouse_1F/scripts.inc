@@ -58,7 +58,6 @@ LittlerootTown_BrendansHouse_1F_EventScript_GoUpstairsToSetClock::
 	lockall
 	msgbox PlayersHouse_1F_Text_GoSetTheClock, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PushTowardStairs
 	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, LittlerootTown_BrendansHouse_1F_Movement_PushTowardStairs
 	waitmovement 0
 	warp MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F, 7, 1
@@ -91,7 +90,6 @@ LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor::
 	waitmovement 0
 	applymovement LOCALID_RIVALS_HOUSE_1F_MOM, Common_Movement_Delay48
 	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_RIVALS_HOUSE_1F_MOM, LittlerootTown_BrendansHouse_1F_Movement_RivalMomApproach
 	waitmovement 0
 	special GetRivalSonDaughterString
@@ -171,7 +169,6 @@ LittlerootTown_BrendansHouse_1F_EventScript_MeetRival::
 	end
 
 LittlerootTown_BrendansHouse_1F_EventScript_PlayerFaceBrendan::
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
@@ -217,19 +214,16 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanApproachPlayer2:
 	step_end
 
 LittlerootTown_BrendansHouse_1F_EventScript_BrendanGoUpstairs0::
-	applymovement LOCALID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PlayerWatchBrendanExit0
 	applymovement LOCALID_RIVALS_HOUSE_1F_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs0
 	waitmovement 0
 	return
 
 LittlerootTown_BrendansHouse_1F_EventScript_BrendanGoUpstairs1::
-	applymovement LOCALID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PlayerWatchBrendanExit1
 	applymovement LOCALID_RIVALS_HOUSE_1F_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs1
 	waitmovement 0
 	return
 
 LittlerootTown_BrendansHouse_1F_EventScript_BrendanGoUpstairs2::
-	applymovement LOCALID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PlayerWatchBrendanExit2
 	applymovement LOCALID_RIVALS_HOUSE_1F_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2
 	waitmovement 0
 	return

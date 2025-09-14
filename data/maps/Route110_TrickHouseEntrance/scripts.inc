@@ -127,7 +127,6 @@ Route110_TrickHouseEntrance_EventScript_TrickMasterFound::
 	addobject LOCALID_TRICK_MASTER
 	showobjectat LOCALID_TRICK_MASTER, MAP_ROUTE110_TRICK_HOUSE_ENTRANCE
 	turnobject LOCALID_TRICK_MASTER, DIR_EAST
-	turnobject LOCALID_PLAYER, DIR_WEST
 	end
 
 Route110_TrickHouseEntrance_EventScript_SetTrickMasterHidingSpot::
@@ -229,9 +228,7 @@ Route110_TrickHouseEntrance_EventScript_TrickMaster::
 
 Route110_TrickHouseEntrance_EventScript_FoundTrickMaster::
 	playse SE_PIN
-	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_Delay48
 	waitmovement 0
 	call_if_eq VAR_TRICK_HOUSE_LEVEL, 0, Route110_TrickHouseEntrance_EventScript_FoundBeneathDesk
 	call_if_eq VAR_TRICK_HOUSE_LEVEL, 1, Route110_TrickHouseEntrance_EventScript_FoundBehindTree
@@ -465,9 +462,7 @@ Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom::
 	setmetatile 5, 1, METATILE_GenericBuilding_TrickHouse_Stairs_Down, FALSE
 	special DrawWholeMapView
 	delay 20
-	applymovement LOCALID_PLAYER, Common_Movement_WalkUp
 	waitmovement 0
-	applymovement LOCALID_PLAYER, Route110_TrickHouseEntrance_Movement_EnterRoom
 	waitmovement 0
 	switch VAR_TRICK_HOUSE_LEVEL
 	case 0, Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom1

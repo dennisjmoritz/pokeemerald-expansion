@@ -1,4 +1,3 @@
-.set LOCALID_PROF_OAK, 1
 
 Route1_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route1_OnFrame
@@ -15,17 +14,11 @@ Route1_EventScript_HideMapNamePopup::
 
 Route1_EventScript_StartOakMeeting_Left::
 	lockall
-	setobjectxy LOCALID_PROF_OAK, 13, 33
-	applymovement LOCALID_PROF_OAK, Route1_Movement_ProfOak_3South
 	waitmovement 0
 	playse SE_PIN
-	applymovement LOCALID_PROF_OAK, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_PROF_OAK, Common_Movement_Delay48
 	waitmovement 0
-	applymovement LOCALID_PROF_OAK, Route1_Movement_ProfOak_3South
 	waitmovement 0
-	applymovement LOCALID_PROF_OAK, Common_Movement_FacePlayer
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight
 	waitmovement 0
@@ -33,17 +26,11 @@ Route1_EventScript_StartOakMeeting_Left::
 
 Route1_EventScript_StartOakMeeting_Right::
 	lockall
-	setobjectxy LOCALID_PROF_OAK, 12, 33
-	applymovement LOCALID_PROF_OAK, Route1_Movement_ProfOak_3South
 	waitmovement 0
 	playse SE_PIN
-	applymovement LOCALID_PROF_OAK, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_PROF_OAK, Common_Movement_Delay48
 	waitmovement 0
-	applymovement LOCALID_PROF_OAK, Route1_Movement_ProfOak_3South
 	waitmovement 0
-	applymovement LOCALID_PROF_OAK, Common_Movement_FacePlayer
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceLeft
 	waitmovement 0
@@ -51,16 +38,12 @@ Route1_EventScript_StartOakMeeting_Right::
 
 Route1_EventScript_GreetOak::
 	msgbox Route1_Text_ProfOak_NiceToMeetYou, MSGBOX_DEFAULT
-	applymovement LOCALID_PROF_OAK, Common_Movement_FaceUp
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
 	playse SE_PIN
-	applymovement LOCALID_PROF_OAK, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_PROF_OAK, Common_Movement_Delay48
 	waitmovement 0
-	applymovement LOCALID_PROF_OAK, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox Route1_Text_ProfOak_DidYouHear, MSGBOX_DEFAULT
 	closemessage
@@ -78,7 +61,7 @@ Route1_EventScript_GreetOak::
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	setflag FLAG_HIDE_ROUTE_1_PROF_OAK
 	clearflag FLAG_HIDE_OAKS_LAB_PROF_OAK
-	warp MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6, 5
+@ 	warp MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6, 5
 	waitstate
 	release
 	end

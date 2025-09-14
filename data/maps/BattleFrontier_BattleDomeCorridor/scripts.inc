@@ -12,12 +12,10 @@ BattleFrontier_BattleDomeCorridor_EventScript_EnterCorridor::
 	frontier_get FRONTIER_DATA_LVL_MODE
 	goto_if_eq VAR_RESULT, FRONTIER_LVL_OPEN, BattleFrontier_BattleDomeCorridor_EventScript_WalkToBattleRoomLvOpen
 	applymovement LOCALID_DOME_CORRIDOR_ATTENDANT, BattleFrontier_BattleDomeCorridor_Movement_AttendantWalkToDoorLv50
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeCorridor_Movement_PlayerWalkToDoorLv50
 	waitmovement 0
 	opendoor 13, 3
 	waitdooranim
 	applymovement LOCALID_DOME_CORRIDOR_ATTENDANT, BattleFrontier_BattleDomeCorridor_Movement_AttendantEnterDoorLv50
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeCorridor_Movement_PlayerEnterDoorLv50
 	waitmovement 0
 	closedoor 13, 3
 	waitdooranim
@@ -25,12 +23,10 @@ BattleFrontier_BattleDomeCorridor_EventScript_EnterCorridor::
 
 BattleFrontier_BattleDomeCorridor_EventScript_WalkToBattleRoomLvOpen::
 	applymovement LOCALID_DOME_CORRIDOR_ATTENDANT, BattleFrontier_BattleDomeCorridor_Movement_AttendantWalkToDoorLvOpen
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeCorridor_Movement_PlayerWalkToDoorLvOpen
 	waitmovement 0
 	opendoor 37, 3
 	waitdooranim
 	applymovement LOCALID_DOME_CORRIDOR_ATTENDANT, BattleFrontier_BattleDomeCorridor_Movement_AttendantEnterDoorLvOpen
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeCorridor_Movement_PlayerEnterDoorLvOpen
 	waitmovement 0
 	closedoor 37, 3
 	waitdooranim

@@ -9,7 +9,6 @@ BattleFrontier_BattleArenaLobby_OnWarp:
 
 BattleFrontier_BattleArenaLobby_EventScript_TurnPlayerNorth::
 	setvar VAR_TEMP_1, 1
-	turnobject LOCALID_PLAYER, DIR_NORTH
 	end
 
 BattleFrontier_BattleArenaLobby_OnFrame:
@@ -203,12 +202,10 @@ BattleFrontier_BattleArenaLobby_EventScript_EndCancelChallenge::
 
 BattleFrontier_BattleArenaLobby_EventScript_WalkToDoorLv50::
 	applymovement LOCALID_ARENA_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantWalkToLeftDoor
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerWalkToLeftDoor
 	waitmovement 0
 	opendoor 2, 2
 	waitdooranim
 	applymovement LOCALID_ARENA_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantEnterDoor
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerEnterDoor
 	waitmovement 0
 	closedoor 2, 2
 	waitdooranim
@@ -252,12 +249,10 @@ BattleFrontier_BattleArenaLobby_Movement_PlayerEnterDoor:
 
 BattleFrontier_BattleArenaLobby_EventScript_WalkToDoorLvOpen::
 	applymovement LOCALID_ARENA_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantWalkToRightDoor
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerWalkToRightDoor
 	waitmovement 0
 	opendoor 11, 2
 	waitdooranim
 	applymovement LOCALID_ARENA_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantEnterDoor
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerEnterDoor
 	waitmovement 0
 	closedoor 11, 2
 	waitdooranim

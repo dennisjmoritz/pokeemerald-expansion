@@ -45,7 +45,6 @@ Route119_EventScript_RivalEncounter::
 	delay 65
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_RivalEnter1
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_RivalEnter2
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	delay 30
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_SetRivalPos1
@@ -189,13 +188,11 @@ Route119_EventScript_RivalEnter2::
 	return
 
 Route119_EventScript_RivalExit1::
-	applymovement LOCALID_PLAYER, Route119_Movement_PlayerWatchRivalExit1
 	applymovement LOCALID_ROUTE119_RIVAL_ON_BIKE, Route119_Movement_RivalExit1
 	waitmovement 0
 	return
 
 Route119_EventScript_RivalExit2::
-	applymovement LOCALID_PLAYER, Route119_Movement_PlayerWatchRivalExit2
 	applymovement LOCALID_ROUTE119_RIVAL_ON_BIKE, Route119_Movement_RivalExit2
 	waitmovement 0
 	return

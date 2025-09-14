@@ -18,7 +18,6 @@ MtChimney_CableCarStation_OnFrame:
 
 MtChimney_CableCarStation_EventScript_ExitCableCar::
 	lockall
-	applymovement LOCALID_PLAYER, MtChimney_CableCarStation_Movement_ExitCableCar
 	applymovement LOCALID_MT_CHIMNEY_CABLE_CAR_ATTENDANT, MtChimney_CableCarStation_Movement_FollowPlayerOutFromCableCar
 	waitmovement 0
 	setvar VAR_CABLE_CAR_STATION_STATE, 0
@@ -39,7 +38,6 @@ MtChimney_CableCarStation_EventScript_RideCableCar::
 	msgbox MtChimney_CableCarStation_Text_StepThisWay, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_MT_CHIMNEY_CABLE_CAR_ATTENDANT, MtChimney_CableCarStation_Movement_LeadPlayerToCableCar
-	applymovement LOCALID_PLAYER, MtChimney_CableCarStation_Movement_BoardCableCar
 	waitmovement 0
 	setvar VAR_0x8004, TRUE  @ Going down
 	setvar VAR_CABLE_CAR_STATION_STATE, 2

@@ -1,4 +1,3 @@
-.set LOCALID_OAK, 1
 
 PalletTown_ProfessorOaksLab_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, PalletTown_ProfessorOaksLab_OnTransition

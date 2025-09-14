@@ -30,12 +30,10 @@ SouthernIsland_Exterior_EventScript_AsYouLike::
 	end
 
 Ferry_EventScript_DepartIslandSouth::
-	applymovement LOCALID_PLAYER, Ferry_Movement_DepartIslandBoardSouth
 	waitmovement 0
 	return
 
 Ferry_EventScript_DepartIslandWest::
-	applymovement LOCALID_PLAYER, Ferry_Movement_DepartIslandBoardWest
 	waitmovement 0
 	return
 

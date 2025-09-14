@@ -1,4 +1,3 @@
-.set LOCALID_MOM, 1
 
 NewBarkTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, NewBarkTown_OnTransition
@@ -19,7 +18,7 @@ NewBarkTown_EventScript_StepOffTruck::
 	setvar VAR_0x8005, 7
 	call NewBarkTown_EventScript_GoInsideWithMom
 	setflag FLAG_HIDE_TRUCK
-	warpsilent MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_1F, 8, 8
+@ 	warpsilent MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_1F, 8, 8
 	waitstate
 	releaseall
 	end
@@ -31,22 +30,17 @@ NewBarkTown_EventScript_GoInsideWithMom::
 	waitmovement 0
 	opendoor VAR_0x8004, VAR_0x8005
 	waitdooranim
-	addobject LOCALID_MOM
-	applymovement LOCALID_MOM, NewBarkTown_Movement_MomExitHouse
 	waitmovement 0
 	closedoor VAR_0x8004, VAR_0x8005
 	waitdooranim
 	delay 10
-	applymovement LOCALID_MOM, NewBarkTown_Movement_MomApproachPlayerAtTruck
 	waitmovement 0
 	msgbox NewBarkTown_Text_YoureBack, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_MOM, NewBarkTown_Movement_MomApproachDoor
 	applymovement OBJ_EVENT_ID_PLAYER, NewBarkTown_Movement_PlayerApproachDoor
 	waitmovement 0
 	opendoor VAR_0x8004, VAR_0x8005
 	waitdooranim
-	applymovement LOCALID_MOM, NewBarkTown_Movement_MomEnterHouse
 	applymovement OBJ_EVENT_ID_PLAYER, NewBarkTown_Movement_PlayerEnterHouse
 	waitmovement 0
 	setflag FLAG_HIDE_INTRO_MOM_OUTSIDE

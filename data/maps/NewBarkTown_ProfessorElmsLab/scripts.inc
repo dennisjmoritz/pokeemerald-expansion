@@ -1,5 +1,3 @@
-.set LOCALID_ELM, 1
-.set LOCALID_RIVAL, 2
 
 NewBarkTown_ProfessorElmsLab_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, NewBarkTown_ProfessorElmsLab_OnTransition

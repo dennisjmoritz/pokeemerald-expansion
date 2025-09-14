@@ -9,7 +9,6 @@ BattleFrontier_BattlePalaceCorridor_OnFrame:
 BattleFrontier_BattlePalaceCorridor_EventScript_WalkThroughCorridor::
 	delay 16
 	applymovement LOCALID_PALACE_CORRIDOR_ATTENDANT, BattleFrontier_BattlePalaceCorridor_Movement_EnterCorridor
-	applymovement LOCALID_PLAYER, BattleFrontier_BattlePalaceCorridor_Movement_EnterCorridor
 	waitmovement 0
 	lockall
 	palace_getcomment
@@ -22,12 +21,10 @@ BattleFrontier_BattlePalaceCorridor_EventScript_WalkThroughCorridor::
 	frontier_get FRONTIER_DATA_LVL_MODE
 	goto_if_eq VAR_RESULT, FRONTIER_LVL_OPEN, BattleFrontier_BattlePalaceCorridor_EventScript_WalkToOpenBattleRoom
 	applymovement LOCALID_PALACE_CORRIDOR_ATTENDANT, BattleFrontier_BattlePalaceCorridor_Movement_AttendantWalkTo50BattleRoom
-	applymovement LOCALID_PLAYER, BattleFrontier_BattlePalaceCorridor_Movement_PlayerWalkTo50BattleRoom
 	waitmovement 0
 	opendoor 6, 3
 	waitdooranim
 	applymovement LOCALID_PALACE_CORRIDOR_ATTENDANT, BattleFrontier_BattlePalaceCorridor_Movement_AttendantEnterBattleRoom
-	applymovement LOCALID_PLAYER, BattleFrontier_BattlePalaceCorridor_Movement_PlayerEnterBattleRoom
 	waitmovement 0
 	closedoor 6, 3
 	waitdooranim
@@ -35,12 +32,10 @@ BattleFrontier_BattlePalaceCorridor_EventScript_WalkThroughCorridor::
 
 BattleFrontier_BattlePalaceCorridor_EventScript_WalkToOpenBattleRoom::
 	applymovement LOCALID_PALACE_CORRIDOR_ATTENDANT, BattleFrontier_BattlePalaceCorridor_Movement_AttendantWalkToOpenBattleRoom
-	applymovement LOCALID_PLAYER, BattleFrontier_BattlePalaceCorridor_Movement_PlayerWalkToOpenBattleRoom
 	waitmovement 0
 	opendoor 10, 3
 	waitdooranim
 	applymovement LOCALID_PALACE_CORRIDOR_ATTENDANT, BattleFrontier_BattlePalaceCorridor_Movement_AttendantEnterBattleRoom
-	applymovement LOCALID_PLAYER, BattleFrontier_BattlePalaceCorridor_Movement_PlayerEnterBattleRoom
 	waitmovement 0
 	closedoor 10, 3
 	waitdooranim

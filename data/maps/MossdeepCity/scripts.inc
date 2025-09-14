@@ -261,13 +261,11 @@ MossdeepCity_EventScript_Scott::
 	end
 
 MossdeepCity_EventScript_ScottExitNorth::
-	applymovement LOCALID_PLAYER, MossdeepCity_Movement_PlayerWatchScottExit
 	applymovement LOCALID_MOSSDEEP_SCOTT, MossdeepCity_Movement_ScottExitNorth
 	waitmovement 0
 	return
 
 MossdeepCity_EventScript_ScottExitEast::
-	applymovement LOCALID_PLAYER, MossdeepCity_Movement_PlayerWatchScottExit
 	applymovement LOCALID_MOSSDEEP_SCOTT, MossdeepCity_Movement_ScottExitEast
 	waitmovement 0
 	return

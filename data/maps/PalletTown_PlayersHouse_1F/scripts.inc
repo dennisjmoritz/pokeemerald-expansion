@@ -1,4 +1,3 @@
-.set LOCALID_MOM, 1
 
 PalletTown_PlayersHouse_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, PalletTown_PlayersHouse_1F_OnLoad
@@ -16,18 +15,12 @@ PalletTown_PlayersHouse_1F_OnTransition:
 	end
 
 PalletTown_PlayersHouse_1F_EventScript_MoveMomToStairs::
-	setobjectxyperm LOCALID_MOM, 8, 2
-	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_RIGHT
 	return
 
 PalletTown_PlayersHouse_1F_EventScript_MoveMomToTV::
-	setobjectxyperm LOCALID_MOM, 5, 2
-	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_UP
 	return
 
 PalletTown_PlayersHouse_1F_EventScript_MoveMomToDoor::
-	setobjectxyperm LOCALID_MOM, 4, 8
-	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_LEFT
 	return
 
 @ Many of the below scripts have no gender check because they assume youre in the correct house
@@ -43,9 +36,8 @@ PalletTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock::
 	msgbox PlayersHouse_1F_Text_GoSetTheClock, MSGBOX_DEFAULT
 	closemessage
 	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_PlayersHouse_1F_Movement_PushTowardStairs
-	applymovement LOCALID_MOM, PalletTown_PlayersHouse_1F_Movement_PushTowardStairs
 	waitmovement 0
-	warp MAP_PALLET_TOWN_PLAYERS_HOUSE_2F, 9, 2
+@ 	warp MAP_PALLET_TOWN_PLAYERS_HOUSE_2F, 9, 2
 	waitstate
 	releaseall
 	end
@@ -56,7 +48,6 @@ PalletTown_PlayersHouse_1F_Movement_PushTowardStairs:
 
 PalletTown_PlayersHouse_1F_EventScript_EnterHouseMovingIn::
 	lockall
-	setvar VAR_0x8004, LOCALID_MOM
 	setvar VAR_0x8005, MALE
 	goto PlayersHouse_1F_EventScript_EnterHouseMovingIn
 	end
@@ -64,14 +55,12 @@ PalletTown_PlayersHouse_1F_EventScript_EnterHouseMovingIn::
 PalletTown_PlayersHouse_1F_EventScript_GymReport::
 	lockall
 	setvar VAR_0x8004, MALE
-	setvar VAR_0x8005, LOCALID_MOM
 	special TurnOnTVScreen
 	goto PalletTown_PlayersHouse_1F_EventScript_PetalburgGymReport
 	end
 
 PalletTown_PlayersHouse_1F_EventScript_GoSeeRoom::
 	lockall
-	setvar VAR_0x8004, LOCALID_MOM
 	setvar VAR_0x8005, MALE
 	applymovement VAR_0x8004, Common_Movement_FacePlayer
 	waitmovement 0
@@ -139,7 +128,6 @@ PalletTown_PlayersHouse_1F_EventScript_MomLeaving::
 	closemessage
 	applymovement VAR_0x8005, PlayersHouse_1F_Movement_MomLeave
 	waitmovement 0
-	removeobject LOCALID_MOM
 	playse SE_EXIT
 	setflag FLAG_HIDE_PLAYERS_HOUSE_MOM
 	setvar VAR_TEMP_1, 1

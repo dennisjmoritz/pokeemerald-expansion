@@ -37,7 +37,6 @@ LilycoveCity_ContestLobby_EventScript_ContestArtist::
 	addobject LOCALID_CONTEST_LOBBY_ARTIST
 	applymovement LOCALID_CONTEST_LOBBY_ARTIST, LilycoveCity_ContestLobby_Movement_ArtistApproachPlayer
 	waitmovement LOCALID_CONTEST_LOBBY_ARTIST
-	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerFaceArtist
 	waitmovement 0
 	msgbox LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint, MSGBOX_DEFAULT
 	lockall
@@ -207,7 +206,6 @@ LilycoveCity_ContestLobby_EventScript_LinkContestArtist::
 	addobject LOCALID_CONTEST_LOBBY_LINK_ARTIST
 	applymovement LOCALID_CONTEST_LOBBY_LINK_ARTIST, LilycoveCity_ContestLobby_Movement_LinkArtistApproachPlayer
 	waitmovement LOCALID_CONTEST_LOBBY_LINK_ARTIST
-	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerFaceLinkArtist
 	waitmovement 0
 	msgbox LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint, MSGBOX_DEFAULT
 	lockall
@@ -414,12 +412,10 @@ LilycoveCity_ContestLobby_EventScript_LeadToContestHall::
 	delay 20
 	applymovement LOCALID_CONTEST_LOBBY_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_ReceptionistFacePlayer
 	waitmovement 0
-	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerApproachReceptionist
 	waitmovement 0
 	msgbox LilycoveCity_ContestLobby_Text_ComeThroughHere, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_CONTEST_LOBBY_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_ReceptionistWalkToContestHall
-	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerWalkToContestHall
 	waitmovement 0
 	releaseall
 	return
@@ -905,7 +901,6 @@ LilycoveCity_ContestLobby_EventScript_LeadToLinkContestHall::
 	delay 20
 	applymovement LOCALID_CONTEST_LOBBY_LINK_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_LinkReceptionistFacePlayer
 	waitmovement 0
-	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerApproachLinkReceptionist
 	waitmovement 0
 	messageautoscroll LilycoveCity_ContestLobby_Text_ComeThroughHere
 	waitmessage
@@ -913,7 +908,6 @@ LilycoveCity_ContestLobby_EventScript_LeadToLinkContestHall::
 	closemessage
 	call LilycoveCity_ContestLobby_EventScript_DelayIfContestWithRSPlayer
 	applymovement LOCALID_CONTEST_LOBBY_LINK_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_LinkReceptionistWalkToContestHall
-	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerWalkToLinkContestHall
 	waitmovement 0
 	release
 	return

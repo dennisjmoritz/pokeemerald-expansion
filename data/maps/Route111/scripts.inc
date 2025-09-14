@@ -97,7 +97,6 @@ Route111_OnWarp:
 	.2byte 0
 
 Route111_EventScript_HidePlayerForMirageTower::
-	hideobjectat LOCALID_PLAYER, MAP_LITTLEROOT_TOWN
 	end
 
 Route111_OnFrame:
@@ -113,10 +112,8 @@ Route111_EventScript_MirageTowerDisappear::
 	addobject LOCALID_ROUTE111_PLAYER_FALLING
 	special StartPlayerDescendMirageTower
 	waitstate
-	showobjectat LOCALID_PLAYER, MAP_LITTLEROOT_TOWN
 	removeobject LOCALID_ROUTE111_PLAYER_FALLING
 	delay 16
-	turnobject LOCALID_PLAYER, DIR_NORTH
 	delay 16
 	special StartMirageTowerDisintegration
 	waitstate
@@ -208,22 +205,18 @@ Route111_EventScript_PreventRouteAccess::
 	end
 
 Route111_EventScript_PushUpFromRoute::
-	applymovement LOCALID_PLAYER, Route111_Movement_PushUpFromRoute
 	waitmovement 0
 	return
 
 Route111_EventScript_PushDownFromRoute::
-	applymovement LOCALID_PLAYER, Route111_Movement_PushDownFromRoute
 	waitmovement 0
 	return
 
 Route111_EventScript_PushLeftFromRoute::
-	applymovement LOCALID_PLAYER, Route111_Movement_PushLeftFromRoute
 	waitmovement 0
 	return
 
 Route111_EventScript_PushRightFromRoute::
-	applymovement LOCALID_PLAYER, Route111_Movement_PushRightFromRoute
 	waitmovement 0
 	return
 
@@ -278,7 +271,6 @@ Route111_EventScript_BattleWinstrates::
 	waitmovement 0
 	removeobject LOCALID_ROUTE111_VICTOR
 	call Route111_EventScript_CloseWinstrateDoor
-	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
 	addobject LOCALID_ROUTE111_VICTORIA
@@ -296,7 +288,6 @@ Route111_EventScript_BattleWinstrates::
 	waitmovement 0
 	removeobject LOCALID_ROUTE111_VICTORIA
 	call Route111_EventScript_CloseWinstrateDoor
-	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
 	addobject LOCALID_ROUTE111_VIVI
@@ -314,7 +305,6 @@ Route111_EventScript_BattleWinstrates::
 	waitmovement 0
 	removeobject LOCALID_ROUTE111_VIVI
 	call Route111_EventScript_CloseWinstrateDoor
-	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
 	addobject LOCALID_ROUTE111_VICKY

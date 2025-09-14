@@ -41,7 +41,6 @@ SlateportCity_Harbor_EventScript_AquaEscapeTrigger2::
 SlateportCity_Harbor_EventScript_AquaEscapeTrigger3::
 	lockall
 	setvar VAR_0x8008, 3
-	applymovement LOCALID_PLAYER, SlateportCity_Harbor_Movement_PlayerWalkUp
 	waitmovement 0
 	goto SlateportCity_Harbor_EventScript_AquaEscapeScene
 	end
@@ -50,7 +49,6 @@ SlateportCity_Harbor_EventScript_AquaEscapeScene::
 	applymovement LOCALID_SLATEPORT_HARBOR_ARCHIE, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	applymovement LOCALID_SLATEPORT_HARBOR_GRUNT, Common_Movement_WalkInPlaceFasterDown
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove, MSGBOX_DEFAULT
 	closemessage
@@ -80,21 +78,18 @@ SlateportCity_Harbor_EventScript_AquaEscapeScene::
 SlateportCity_Harbor_EventScript_SternApproachPlayer0::
 	applymovement LOCALID_SLATEPORT_HARBOR_CAPT_STERN, SlateportCity_Harbor_Movement_SternApproachPlayer0
 	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 SlateportCity_Harbor_EventScript_SternApproachPlayer1::
 	applymovement LOCALID_SLATEPORT_HARBOR_CAPT_STERN, SlateportCity_Harbor_Movement_SternApproachPlayer1
 	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return
 
 SlateportCity_Harbor_EventScript_SternApproachPlayer::
 	applymovement LOCALID_SLATEPORT_HARBOR_CAPT_STERN, SlateportCity_Harbor_Movement_SternApproachPlayer
 	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return
 
@@ -228,7 +223,6 @@ SlateportCity_Harbor_EventScript_BoardFerry::
 	call_if_eq VAR_FACING, DIR_NORTH, SlateportCity_Harbor_EventScript_BoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, SlateportCity_Harbor_EventScript_BoardFerryEast
 	delay 30
-	hideobjectat LOCALID_PLAYER, 0
 	setvar VAR_0x8004, LOCALID_SLATEPORT_HARBOR_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	return
@@ -239,12 +233,10 @@ SlateportCity_Harbor_EventScript_CancelDestinationSelect::
 	end
 
 SlateportCity_Harbor_EventScript_BoardFerryEast::
-	applymovement LOCALID_PLAYER, SlateportCity_Harbor_Movement_BoardFerryEast
 	waitmovement 0
 	return
 
 SlateportCity_Harbor_EventScript_BoardFerryNorth::
-	applymovement LOCALID_PLAYER, SlateportCity_Harbor_Movement_BoardFerryNorth
 	waitmovement 0
 	return
 
