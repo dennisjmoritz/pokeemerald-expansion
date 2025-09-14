@@ -1,6 +1,10 @@
 Route8_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route8_OnTransition
 	.byte 0
 
-Route8_OnTransition:
+Route8_EventScript_UndergroundPathSign::
+	msgbox Route8_Text_UndergroundPathSign, MSGBOX_SIGN
 	end
+
+Route8_Text_UndergroundPathSign::
+    .string "UNDERGROUND PATH\n"
+    .string "CELADON CITY - LAVENDER TOWN$"

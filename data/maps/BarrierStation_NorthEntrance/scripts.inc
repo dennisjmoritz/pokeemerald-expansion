@@ -1,6 +1,2 @@
 BarrierStation_NorthEntrance_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, BarrierStation_NorthEntrance_OnTransition
 	.byte 0
-
-BarrierStation_NorthEntrance_OnTransition:
-	end

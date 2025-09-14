@@ -1,6 +1,10 @@
 Route6_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route6_OnTransition
 	.byte 0
 
-Route6_OnTransition:
+Route6_EventScript_UndergroundPathSign::
+	msgbox Route6_Text_UndergroundPathSign, MSGBOX_SIGN
 	end
+
+Route6_Text_UndergroundPathSign::
+    .string "UNDERGROUND PATH\n"
+    .string "CERULEAN CITY - VERMILION CITY$"

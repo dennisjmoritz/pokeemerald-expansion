@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE46",
   "name": "Route46",
   "layout": "LAYOUT_ROUTE46",
-  "music": "MUS_ROUTE101",
+  "music": "MUS_ROUTE36",
   "region_map_section": "MAPSEC_ROUTE_46",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -24,7 +24,9 @@
       "direction": "right"
     }
   ],
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 18,
@@ -48,9 +50,27 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
-  "bg_events": [],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route46_EventScript_DarkCaveSign"
+    },
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 31,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route46_EventScript_RouteSign"
+    }
+  ],
   "floor_number": "",
-  "phone_service": "",
-  "comment": "Changed music from MUS_ROUTE36 to MUS_ROUTE101 because unavailable"
+  "phone_service": ""
 }

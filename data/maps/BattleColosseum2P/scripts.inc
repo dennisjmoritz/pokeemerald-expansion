@@ -1,6 +1,3 @@
-BattleColosseum2P_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, BattleColosseum2P_OnTransition
+BattleColosseum2P_MapScripts:: @ 823B77D
 	.byte 0
 
-BattleColosseum2P_OnTransition:
-	end

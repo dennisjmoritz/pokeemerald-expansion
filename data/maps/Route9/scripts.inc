@@ -1,6 +1,10 @@
 Route9_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route9_OnTransition
 	.byte 0
 
-Route9_OnTransition:
+Route9_EventScript_RouteSign::
+	msgbox Route9_Text_RouteSign, MSGBOX_SIGN
 	end
+
+Route9_Text_RouteSign::
+    .string "ROUTE 9\n"
+    .string "CERULEAN CITY - ROCK TUNNEL$"

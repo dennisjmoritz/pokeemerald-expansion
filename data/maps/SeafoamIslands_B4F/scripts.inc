@@ -1,6 +1,2 @@
 SeafoamIslands_B4F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, SeafoamIslands_B4F_OnTransition
 	.byte 0
-
-SeafoamIslands_B4F_OnTransition:
-	end

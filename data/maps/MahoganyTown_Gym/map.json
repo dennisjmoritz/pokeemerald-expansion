@@ -2,7 +2,7 @@
   "id": "MAP_MAHOGANY_TOWN_GYM",
   "name": "MahoganyTown_Gym",
   "layout": "LAYOUT_MAHOGANY_TOWN_GYM",
-  "music": "MUS_ROUTE101",
+  "music": "MUS_JOHTO_GYM",
   "region_map_section": "MAPSEC_MAHOGANY_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +13,9 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 5,
@@ -23,7 +25,10 @@
       "dest_warp_id": "4"
     }
   ],
-  "coord_events": [],
-  "bg_events": [],
-  "comment": "Changed music from MUS_JOHTO_GYM to MUS_ROUTE101 because unavailable"
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

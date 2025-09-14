@@ -1,6 +1,2 @@
 UndergroundPath_WestEntrance_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, UndergroundPath_WestEntrance_OnTransition
 	.byte 0
-
-UndergroundPath_WestEntrance_OnTransition:
-	end

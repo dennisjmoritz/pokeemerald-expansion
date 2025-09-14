@@ -1,6 +1,9 @@
 GoldenrodCity_DepartmentStore_3F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, GoldenrodCity_DepartmentStore_3F_OnTransition
 	.byte 0
 
-GoldenrodCity_DepartmentStore_3F_OnTransition:
+GoldenrodCity_DepartmentStore_3F_EventScript_FloorSign::
+	msgbox GoldenrodCity_DepartmentStore_3F_Text_FloorSign, MSGBOX_SIGN
 	end
+
+GoldenrodCity_DepartmentStore_3F_Text_FloorSign::
+    .string "3F: BATTLE COLLECTION$"

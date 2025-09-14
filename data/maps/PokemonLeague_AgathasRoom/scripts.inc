@@ -1,6 +1,2 @@
 PokemonLeague_AgathasRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, PokemonLeague_AgathasRoom_OnTransition
 	.byte 0
-
-PokemonLeague_AgathasRoom_OnTransition:
-	end

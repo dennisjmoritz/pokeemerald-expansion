@@ -1,6 +1,2 @@
 KantoSafariZone_Building1_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, KantoSafariZone_Building1_OnTransition
 	.byte 0
-
-KantoSafariZone_Building1_OnTransition:
-	end

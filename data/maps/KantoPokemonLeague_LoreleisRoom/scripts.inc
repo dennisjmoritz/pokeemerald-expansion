@@ -1,6 +1,2 @@
 KantoPokemonLeague_LoreleisRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, KantoPokemonLeague_LoreleisRoom_OnTransition
 	.byte 0
-
-KantoPokemonLeague_LoreleisRoom_OnTransition:
-	end

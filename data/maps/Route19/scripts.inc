@@ -1,6 +1,10 @@
 Route19_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route19_OnTransition
 	.byte 0
 
-Route19_OnTransition:
+Route19_EventScript_RouteSign::
+	msgbox Route19_Text_RouteSign, MSGBOX_SIGN
 	end
+
+Route19_Text_RouteSign::
+    .string "SEA ROUTE 19\n"
+    .string "FUCHSIA CITY - SEAFOAM ISLANDS$"

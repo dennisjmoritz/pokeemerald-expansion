@@ -1,6 +1,2 @@
 FourIsland_IcefallCave_1F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, FourIsland_IcefallCave_1F_OnTransition
 	.byte 0
-
-FourIsland_IcefallCave_1F_OnTransition:
-	end

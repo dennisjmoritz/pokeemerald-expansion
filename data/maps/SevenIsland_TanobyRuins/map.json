@@ -19,7 +19,9 @@
       "map": "MAP_SEVEN_ISLAND_SEVAULT_CANYON"
     }
   ],
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 11,
@@ -71,6 +73,10 @@
       "dest_warp_id": 0
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

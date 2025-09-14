@@ -1,6 +1,2 @@
 UndergroundPath_EastEntrance_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, UndergroundPath_EastEntrance_OnTransition
 	.byte 0
-
-UndergroundPath_EastEntrance_OnTransition:
-	end

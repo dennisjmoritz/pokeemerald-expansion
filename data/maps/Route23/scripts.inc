@@ -1,6 +1,10 @@
 Route23_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route23_OnTransition
 	.byte 0
 
-Route23_OnTransition:
+Route23_EventScript_VictoryRoadGateSign::
+	msgbox Route23_Text_VictoryRoadGateSign, MSGBOX_SIGN
 	end
+
+Route23_Text_VictoryRoadGateSign::
+    .string "VICTORY ROAD GATE -\n"
+    .string "POKéMON LEAGUE$"

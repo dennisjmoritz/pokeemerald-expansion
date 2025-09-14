@@ -1,6 +1,2 @@
 WhirlIslands_NorthEastEntrance_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, WhirlIslands_NorthEastEntrance_OnTransition
 	.byte 0
-
-WhirlIslands_NorthEastEntrance_OnTransition:
-	end

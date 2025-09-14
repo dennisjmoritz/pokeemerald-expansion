@@ -1,6 +1,2 @@
 OlivineCity_Lighthouse_4F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, OlivineCity_Lighthouse_4F_OnTransition
 	.byte 0
-
-OlivineCity_Lighthouse_4F_OnTransition:
-	end

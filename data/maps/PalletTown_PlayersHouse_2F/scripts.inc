@@ -3,4 +3,5 @@ PalletTown_PlayersHouse_2F_MapScripts::
 	.byte 0
 
 PalletTown_PlayersHouse_2F_OnTransition:
+	call_if_eq VAR_INTRO_STATE, 4, PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet
 	end

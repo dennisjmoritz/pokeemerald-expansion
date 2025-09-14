@@ -1,6 +1,10 @@
 Route27_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route27_OnTransition
 	.byte 0
 
-Route27_OnTransition:
+Route27_EventScript_TohjoFallsSign::
+	msgbox Route27_Text_TohjoFallsSign, MSGBOX_SIGN
 	end
+
+Route27_Text_TohjoFallsSign::
+	.string "TOHJO FALLS\n"
+	.string "The link between Kanto and Johto$"

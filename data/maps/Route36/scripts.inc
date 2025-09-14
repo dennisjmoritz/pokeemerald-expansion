@@ -1,6 +1,16 @@
 Route36_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route36_OnTransition
 	.byte 0
 
-Route36_OnTransition:
+Route36_EventScript_RouteSign::
+	msgbox Route36_Text_RouteSign, MSGBOX_SIGN
 	end
+
+Route36_EventScript_RuinsSign::
+	msgbox Route36_Text_RuinsSign, MSGBOX_SIGN
+	end
+
+Route36_Text_RouteSign::
+	.string "ROUTE 36$"
+
+Route36_Text_RuinsSign::
+	.string "RUINS OF ALPH NORTH ENTRANCE$"

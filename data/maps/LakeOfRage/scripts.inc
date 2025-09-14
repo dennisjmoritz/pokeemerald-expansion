@@ -1,6 +1,17 @@
 LakeOfRage_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, LakeOfRage_OnTransition
 	.byte 0
 
-LakeOfRage_OnTransition:
+LakeOfRage_EventScript_AreaSign::
+	msgbox LakeOfRage_Text_AreaSign, MSGBOX_SIGN
 	end
+
+LakeOfRage_EventScript_FishingGuruSign::
+	msgbox LakeOfRage_Text_FishingGuruSign, MSGBOX_SIGN
+	end
+
+LakeOfRage_Text_AreaSign::
+	.string "LAKE OF RAGE\n"
+	.string "Also known as GYRADOS LAKE$"
+
+LakeOfRage_Text_FishingGuruSign::
+	.string "FISHING GURU'S HOUSE$"

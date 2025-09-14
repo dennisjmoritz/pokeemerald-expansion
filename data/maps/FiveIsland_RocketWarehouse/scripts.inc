@@ -1,6 +1,2 @@
 FiveIsland_RocketWarehouse_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, FiveIsland_RocketWarehouse_OnTransition
 	.byte 0
-
-FiveIsland_RocketWarehouse_OnTransition:
-	end

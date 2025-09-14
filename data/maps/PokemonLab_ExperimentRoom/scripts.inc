@@ -1,6 +1,2 @@
 PokemonLab_ExperimentRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, PokemonLab_ExperimentRoom_OnTransition
 	.byte 0
-
-PokemonLab_ExperimentRoom_OnTransition:
-	end

@@ -1,6 +1,2 @@
 UndergroundPath_NorthSouthTunnel_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, UndergroundPath_NorthSouthTunnel_OnTransition
 	.byte 0
-
-UndergroundPath_NorthSouthTunnel_OnTransition:
-	end

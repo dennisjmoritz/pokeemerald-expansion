@@ -1,6 +1,2 @@
 FiveIsland_MemorialPillar_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, FiveIsland_MemorialPillar_OnTransition
 	.byte 0
-
-FiveIsland_MemorialPillar_OnTransition:
-	end

@@ -1,6 +1,2 @@
 GoldenrodCity_BillsFamilysHouse_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, GoldenrodCity_BillsFamilysHouse_OnTransition
 	.byte 0
-
-GoldenrodCity_BillsFamilysHouse_OnTransition:
-	end

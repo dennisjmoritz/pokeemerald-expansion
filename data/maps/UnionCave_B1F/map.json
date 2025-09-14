@@ -2,7 +2,7 @@
   "id": "MAP_UNION_CAVE_B1F",
   "name": "UnionCave_B1F",
   "layout": "LAYOUT_UNION_CAVE_B1F",
-  "music": "MUS_ROUTE101",
+  "music": "MUS_UNION_CAVE",
   "region_map_section": "MAPSEC_UNION_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +13,9 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 3,
@@ -51,7 +53,10 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
-  "bg_events": [],
-  "comment": "Changed music from MUS_UNION_CAVE to MUS_ROUTE101 because unavailable"
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

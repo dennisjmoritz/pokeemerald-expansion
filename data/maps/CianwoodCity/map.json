@@ -2,7 +2,7 @@
   "id": "MAP_CIANWOOD_CITY",
   "name": "CianwoodCity",
   "layout": "LAYOUT_CIANWOOD_CITY",
-  "music": "MUS_ROUTE101",
+  "music": "MUS_ECRUTEAK",
   "region_map_section": "MAPSEC_CIANWOOD_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -19,7 +19,9 @@
       "direction": "right"
     }
   ],
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 9,
@@ -64,7 +66,41 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
-  "bg_events": [],
-  "comment": "Changed music from MUS_ECRUTEAK to MUS_ROUTE101 because unavailable"
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 40,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "CianwoodCity_EventScript_PhotoStudioSign"
+    },
+    {
+      "type": "sign",
+      "x": 29,
+      "y": 40,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "CianwoodCity_EventScript_CitySign"
+    },
+    {
+      "type": "sign",
+      "x": 13,
+      "y": 56,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "CianwoodCity_EventScript_GymSign"
+    },
+    {
+      "type": "sign",
+      "x": 25,
+      "y": 60,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "CianwoodCity_EventScript_KirksHouseSign"
+    }
+  ]
 }

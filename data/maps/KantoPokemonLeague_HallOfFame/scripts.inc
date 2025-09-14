@@ -1,6 +1,2 @@
 KantoPokemonLeague_HallOfFame_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, KantoPokemonLeague_HallOfFame_OnTransition
 	.byte 0
-
-KantoPokemonLeague_HallOfFame_OnTransition:
-	end

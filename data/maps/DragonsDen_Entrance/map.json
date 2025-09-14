@@ -2,7 +2,7 @@
   "id": "MAP_DRAGONS_DEN_ENTRANCE",
   "name": "DragonsDen_Entrance",
   "layout": "LAYOUT_DRAGONS_DEN_ENTRANCE",
-  "music": "MUS_ROUTE101",
+  "music": "MUS_DRAGONS_DEN",
   "region_map_section": "MAPSEC_DRAGONS_DEN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +13,9 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 5,
@@ -30,7 +32,10 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
-  "bg_events": [],
-  "comment": "Changed music from MUS_DRAGONS_DEN to MUS_ROUTE101 because unavailable"
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

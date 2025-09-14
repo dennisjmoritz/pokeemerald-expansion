@@ -1,6 +1,10 @@
 AzaleaTown_KurtsHouse_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, AzaleaTown_KurtsHouse_OnTransition
 	.byte 0
 
-AzaleaTown_KurtsHouse_OnTransition:
+AzaleaTown_KurtsHouse_EventScript_StatueSign::
+	msgbox AzaleaTown_KurtsHouse_Text_StatueSign, MSGBOX_SIGN
 	end
+
+AzaleaTown_KurtsHouse_Text_StatueSign::
+	.string "It's a statue of\n"
+	.string "the forest's protector.$"

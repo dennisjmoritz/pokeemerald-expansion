@@ -1,6 +1,2 @@
 FiveIsland_LostCave_Room2_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, FiveIsland_LostCave_Room2_OnTransition
 	.byte 0
-
-FiveIsland_LostCave_Room2_OnTransition:
-	end

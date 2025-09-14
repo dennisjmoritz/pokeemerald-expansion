@@ -1,6 +1,2 @@
 RuinsOfAlph_HoOhChamber_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, RuinsOfAlph_HoOhChamber_OnTransition
 	.byte 0
-
-RuinsOfAlph_HoOhChamber_OnTransition:
-	end

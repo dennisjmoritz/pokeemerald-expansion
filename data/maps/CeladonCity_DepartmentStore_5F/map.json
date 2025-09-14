@@ -13,7 +13,9 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 6,
@@ -37,6 +39,17 @@
       "dest_warp_id": "2"
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "CeladonCity_DepartmentStore_5F_EventScript_FloorSign"
+    }
+  ]
 }

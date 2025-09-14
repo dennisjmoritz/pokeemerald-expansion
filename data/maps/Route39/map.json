@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE39",
   "name": "Route39",
   "layout": "LAYOUT_ROUTE39",
-  "music": "MUS_ROUTE101",
+  "music": "MUS_ROUTE38",
   "region_map_section": "MAPSEC_ROUTE_39",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,7 +24,9 @@
       "direction": "down"
     }
   ],
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 4,
@@ -41,7 +43,25 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
-  "bg_events": [],
-  "comment": "Changed music from MUS_ROUTE38 to MUS_ROUTE101 because unavailable"
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 13,
+      "y": 9,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route39_EventScript_MooMooFarmSign"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 41,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route39_EventScript_RouteSign"
+    }
+  ]
 }

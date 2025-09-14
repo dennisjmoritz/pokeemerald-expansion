@@ -1,6 +1,2 @@
 RuinsOfAlph_KabutoChamber_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, RuinsOfAlph_KabutoChamber_OnTransition
 	.byte 0
-
-RuinsOfAlph_KabutoChamber_OnTransition:
-	end

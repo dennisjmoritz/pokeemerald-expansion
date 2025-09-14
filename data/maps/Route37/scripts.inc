@@ -1,6 +1,9 @@
 Route37_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route37_OnTransition
 	.byte 0
 
-Route37_OnTransition:
+Route37_EventScript_RouteSign::
+	msgbox Route37_Text_RouteSign, MSGBOX_SIGN
 	end
+
+Route37_Text_RouteSign::
+	.string "ROUTE 37$"

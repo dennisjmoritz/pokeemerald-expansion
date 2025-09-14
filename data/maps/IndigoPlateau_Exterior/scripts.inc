@@ -3,4 +3,5 @@ IndigoPlateau_Exterior_MapScripts::
 	.byte 0
 
 IndigoPlateau_Exterior_OnTransition:
+	setflag FLAG_VISITED_INDIGO_PLATEAU
 	end

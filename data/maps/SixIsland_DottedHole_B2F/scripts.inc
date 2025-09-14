@@ -1,6 +1,8 @@
 SixIsland_DottedHole_B2F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, SixIsland_DottedHole_B2F_OnTransition
 	.byte 0
 
-SixIsland_DottedHole_B2F_OnTransition:
+SixIsland_DottedHole_B2F_EventScript_BrailleLeft::
+	lockall
+	braillemsgbox Braille_Text_Left
+	releaseall
 	end

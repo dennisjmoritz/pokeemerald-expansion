@@ -1,6 +1,2 @@
 RuinsOfAlph_OmanyteChamber_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, RuinsOfAlph_OmanyteChamber_OnTransition
 	.byte 0
-
-RuinsOfAlph_OmanyteChamber_OnTransition:
-	end

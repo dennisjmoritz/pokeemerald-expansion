@@ -1,6 +1,2 @@
 SixIsland_WaterPath_House1_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, SixIsland_WaterPath_House1_OnTransition
 	.byte 0
-
-SixIsland_WaterPath_House1_OnTransition:
-	end

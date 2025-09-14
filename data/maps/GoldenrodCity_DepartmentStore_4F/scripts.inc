@@ -1,6 +1,9 @@
 GoldenrodCity_DepartmentStore_4F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, GoldenrodCity_DepartmentStore_4F_OnTransition
 	.byte 0
 
-GoldenrodCity_DepartmentStore_4F_OnTransition:
+GoldenrodCity_DepartmentStore_4F_EventScript_FloorSign::
+	msgbox GoldenrodCity_DepartmentStore_4F_Text_FloorSign, MSGBOX_SIGN
 	end
+
+GoldenrodCity_DepartmentStore_4F_Text_FloorSign::
+    .string "4F: MEDICINE BOX\p"

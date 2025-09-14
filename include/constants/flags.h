@@ -43,23 +43,23 @@
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
-#define FLAG_UNUSED_0x026    0x26 // Unused Flag
-#define FLAG_UNUSED_0x027    0x27 // Unused Flag
-#define FLAG_UNUSED_0x028    0x28 // Unused Flag
-#define FLAG_UNUSED_0x029    0x29 // Unused Flag
-#define FLAG_UNUSED_0x02A    0x2A // Unused Flag
-#define FLAG_UNUSED_0x02B    0x2B // Unused Flag
-#define FLAG_UNUSED_0x02C    0x2C // Unused Flag
-#define FLAG_UNUSED_0x02D    0x2D // Unused Flag
-#define FLAG_UNUSED_0x02E    0x2E // Unused Flag
-#define FLAG_UNUSED_0x02F    0x2F // Unused Flag
-#define FLAG_UNUSED_0x030    0x30 // Unused Flag
+#define FLAG_HIDE_ELMS_LAB_PROF_ELM    0x20
+#define FLAG_HIDE_ELMS_LAB_RIVAL      0x21
+#define FLAG_HIDE_FALLORBOR_POKEMON_CENTER_LANETTE    0x22
+#define FLAG_HIDE_INTRO_MOM_OUTSIDE   0x23
+#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_2F_SWABLU_DOLL    0x24
+#define FLAG_HIDE_LITTLEROOT_TOWN_RIVALS_HOUSE_2F_POKE_BALL    0x25
+#define FLAG_HIDE_OAKS_LAB_PROF_OAK   0x26
+#define FLAG_HIDE_OLDALE_TOWN_MAYS_HOUSE_2F_PICHU_DOLL    0x27
+#define FLAG_HIDE_OLDALE_TOWN_MAYS_HOUSE_RIVAL_BEDROOM    0x28
+#define FLAG_HIDE_PLAYERS_HOUSE_MOM   0x29
+#define FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_1    0x2A
+#define FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_2    0x2B
+#define FLAG_HIDE_ROUTE_1_PROF_OAK    0x2C
+#define FLAG_HIDE_ROUTE_29_ELM        0x2D
+#define FLAG_HIDE_ROUTE_29_RIVAL      0x2E
+#define FLAG_HIDE_TRUCK               0x2F
+#define FLAG_MOSSDEEP_GYM_SWITCH_X    0x30
 #define FLAG_UNUSED_0x031    0x31 // Unused Flag
 #define FLAG_UNUSED_0x032    0x32 // Unused Flag
 #define FLAG_UNUSED_0x033    0x33 // Unused Flag

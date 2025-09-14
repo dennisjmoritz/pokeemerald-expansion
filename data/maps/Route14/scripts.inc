@@ -1,6 +1,10 @@
 Route14_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route14_OnTransition
 	.byte 0
 
-Route14_OnTransition:
+Route14_EventScript_RouteSign::
+	msgbox Route14_Text_RouteSign, MSGBOX_SIGN
 	end
+
+Route14_Text_RouteSign::
+    .string "ROUTE 14\n"
+    .string "West to FUCHSIA CITY$"

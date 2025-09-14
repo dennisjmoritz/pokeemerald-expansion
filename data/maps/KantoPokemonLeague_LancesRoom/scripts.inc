@@ -1,6 +1,2 @@
 KantoPokemonLeague_LancesRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, KantoPokemonLeague_LancesRoom_OnTransition
 	.byte 0
-
-KantoPokemonLeague_LancesRoom_OnTransition:
-	end

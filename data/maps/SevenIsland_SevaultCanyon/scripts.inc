@@ -1,6 +1,10 @@
 SevenIsland_SevaultCanyon_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, SevenIsland_SevaultCanyon_OnTransition
 	.byte 0
 
-SevenIsland_SevaultCanyon_OnTransition:
+SevenIsland_SevaultCanyon_EventScript_RouteSign::
+	msgbox SevenIsland_SevaultCanyon_Text_RouteSign, MSGBOX_SIGN
 	end
+
+SevenIsland_SevaultCanyon_Text_RouteSign::
+    .string "SEVAULT CANYON\n"
+    .string "TANOBY RUINS AHEAD$"

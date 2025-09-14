@@ -1,6 +1,2 @@
 NationalPark_GatehouseSouth_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, NationalPark_GatehouseSouth_OnTransition
 	.byte 0
-
-NationalPark_GatehouseSouth_OnTransition:
-	end

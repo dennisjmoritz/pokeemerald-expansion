@@ -1,6 +1,9 @@
 Route33_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route33_OnTransition
 	.byte 0
 
-Route33_OnTransition:
+Route33_EventScript_RouteSign::
+	msgbox Route33_Text_RouteSign, MSGBOX_SIGN
 	end
+
+Route33_Text_RouteSign::
+	.string "ROUTE 33$"

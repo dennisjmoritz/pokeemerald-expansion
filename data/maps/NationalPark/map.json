@@ -2,7 +2,7 @@
   "id": "MAP_NATIONAL_PARK",
   "name": "NationalPark",
   "layout": "LAYOUT_NATIONAL_PARK",
-  "music": "MUS_ROUTE101",
+  "music": "MUS_NATIONAL_PARK",
   "region_map_section": "MAPSEC_NATIONAL_PARK",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +13,9 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 40,
@@ -37,7 +39,10 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
-  "bg_events": [],
-  "comment": "Changed music from MUS_NATIONAL_PARK to MUS_ROUTE101 because unavailable"
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }
