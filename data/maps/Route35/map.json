@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE35",
   "name": "Route35",
   "layout": "LAYOUT_ROUTE35",
-  "music": "MUS_ROUTE36",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ROUTE_35",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,9 +24,7 @@
       "direction": "up"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 6,
@@ -57,9 +55,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -77,5 +73,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route35_EventScript_RouteSign"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_ROUTE36 to MUS_ROUTE101 because unavailable"
 }

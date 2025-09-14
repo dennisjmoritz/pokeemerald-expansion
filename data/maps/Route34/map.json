@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE34",
   "name": "Route34",
   "layout": "LAYOUT_ROUTE34",
-  "music": "MUS_ROUTE36",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ROUTE_34",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -19,9 +19,7 @@
       "direction": "up"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 19,
@@ -52,9 +50,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -80,5 +76,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route34_EventScript_IlexForestSign"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_ROUTE36 to MUS_ROUTE101 because unavailable"
 }

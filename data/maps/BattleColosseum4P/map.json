@@ -2,7 +2,7 @@
   "id": "MAP_BATTLE_COLOSSEUM_4P",
   "name": "BattleColosseum4P",
   "layout": "LAYOUT_BATTLE_COLOSSEUM_4P",
-  "music": "MUS_RAINBOW",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_DYNAMIC",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -82,5 +82,6 @@
       "script": "EventScript_BattleColosseum4P_PlayerSpot3"
     }
   ],
-  "bg_events": []
+  "bg_events": [],
+  "comment": "Changed music from MUS_RAINBOW to MUS_ROUTE101 because unavailable"
 }

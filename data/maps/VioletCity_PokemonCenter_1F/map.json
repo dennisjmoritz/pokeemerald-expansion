@@ -2,7 +2,7 @@
   "id": "MAP_VIOLET_CITY_POKEMON_CENTER_1F",
   "name": "VioletCity_PokemonCenter_1F",
   "layout": "LAYOUT_VIOLET_CITY_POKEMON_CENTER_1F",
-  "music": "MUS_JOHTO_POKECENTER",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_VIOLET_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -44,10 +44,7 @@
       "dest_warp_id": "5"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": [],
+  "comment": "Changed music from MUS_JOHTO_POKECENTER to MUS_ROUTE101 because unavailable"
 }

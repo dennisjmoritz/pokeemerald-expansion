@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE27",
   "name": "Route27",
   "layout": "LAYOUT_ROUTE27",
-  "music": "MUS_ROUTE26",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ROUTE_27",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,9 +24,7 @@
       "direction": "right"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 32,
@@ -50,9 +48,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -62,5 +58,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route27_EventScript_TohjoFallsSign"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_ROUTE26 to MUS_ROUTE101 because unavailable"
 }

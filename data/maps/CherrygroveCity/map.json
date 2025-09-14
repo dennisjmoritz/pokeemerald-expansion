@@ -2,7 +2,7 @@
   "id": "MAP_CHERRYGROVE_CITY",
   "name": "CherrygroveCity",
   "layout": "LAYOUT_CHERRYGROVE_CITY",
-  "music": "MUS_CHERRYGROVE",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_CHERRYGROVE_CITY",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -24,9 +24,7 @@
       "direction": "up"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 36,
@@ -64,9 +62,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -84,5 +80,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CherrygroveCity_Text_GuideGentsHouseSign"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_CHERRYGROVE to MUS_ROUTE101 because unavailable"
 }

@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE32",
   "name": "Route32",
   "layout": "LAYOUT_ROUTE32",
-  "music": "MUS_ROUTE30",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ROUTE_32",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,9 +24,7 @@
       "direction": "down"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 9,
@@ -50,9 +48,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -78,5 +74,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route32_EventScript_CaveSign"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_ROUTE30 to MUS_ROUTE101 because unavailable"
 }

@@ -2,7 +2,7 @@
   "id": "MAP_ECRUTEAK_CITY",
   "name": "EcruteakCity",
   "layout": "LAYOUT_ECRUTEAK_CITY",
-  "music": "MUS_ECRUTEAK",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ECRUTEAK_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -29,9 +29,7 @@
       "direction": "right"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 6,
@@ -146,9 +144,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -206,5 +202,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "EcruteakCity_EventScript_House5Sign"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_ECRUTEAK to MUS_ROUTE101 because unavailable"
 }

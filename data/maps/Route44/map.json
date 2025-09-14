@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE44",
   "name": "Route44",
   "layout": "LAYOUT_ROUTE44",
-  "music": "MUS_LAKE_OF_RAGE",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ROUTE_44",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,9 +24,7 @@
       "direction": "right"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 71,
@@ -36,9 +34,7 @@
       "dest_warp_id": "2"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -56,5 +52,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route44_EventScript_RouteSign"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_LAKE_OF_RAGE to MUS_ROUTE101 because unavailable"
 }

@@ -268,6 +268,10 @@ REGULAR_DATA_ASM_SRCS := $(filter-out $(DATA_ASM_SUBDIR)/maps.s $(DATA_ASM_SUBDI
 DATA_ASM_SRCS := $(wildcard $(DATA_ASM_SUBDIR)/*.s)
 DATA_ASM_OBJS := $(patsubst $(DATA_ASM_SUBDIR)/%.s,$(DATA_ASM_BUILDDIR)/%.o,$(DATA_ASM_SRCS))
 
+MAP_SCRIPTS := $(wildcard data/maps/*/scripts.inc)
+data/maps_includes.inc: $(MAP_SCRIPTS)
+	python3 generate_maps_includes.py
+
 SONG_SRCS := $(wildcard $(SONG_SUBDIR)/*.s)
 SONG_OBJS := $(patsubst $(SONG_SUBDIR)/%.s,$(SONG_BUILDDIR)/%.o,$(SONG_SRCS))
 

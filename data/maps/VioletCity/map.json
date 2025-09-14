@@ -2,7 +2,7 @@
   "id": "MAP_VIOLET_CITY",
   "name": "VioletCity",
   "layout": "LAYOUT_VIOLET_CITY",
-  "music": "MUS_VIOLET",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_VIOLET_CITY",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -29,9 +29,7 @@
       "direction": "left"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 30,
@@ -90,9 +88,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -126,5 +122,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "VioletCity_EventScript_CitySign"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_VIOLET to MUS_ROUTE101 because unavailable"
 }

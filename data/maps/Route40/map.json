@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE40",
   "name": "Route40",
   "layout": "LAYOUT_ROUTE40",
-  "music": "MUS_ROUTE36",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ROUTE_40",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -29,9 +29,7 @@
       "direction": "up"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 14,
@@ -48,9 +46,7 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -68,5 +64,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route40_EventScript_RouteSign"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_ROUTE36 to MUS_ROUTE101 because unavailable"
 }

@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE46",
   "name": "Route46",
   "layout": "LAYOUT_ROUTE46",
-  "music": "MUS_ROUTE36",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ROUTE_46",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -24,9 +24,7 @@
       "direction": "right"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 18,
@@ -50,9 +48,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -72,5 +68,6 @@
     }
   ],
   "floor_number": "",
-  "phone_service": ""
+  "phone_service": "",
+  "comment": "Changed music from MUS_ROUTE36 to MUS_ROUTE101 because unavailable"
 }
