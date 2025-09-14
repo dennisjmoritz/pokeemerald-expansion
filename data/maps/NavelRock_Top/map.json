@@ -38,7 +38,17 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 10,
+      "elevation": 3,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "NavelRock_Top_EventScript_HoOh"
+    }
+  ],
   "bg_events": [
     {
       "type": "hidden_item",
