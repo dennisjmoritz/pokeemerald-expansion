@@ -702,16 +702,6 @@
       "blockdata_filepath": "data/layouts/LavaridgeTown_Gym_B1F/map.bin"
     },
     {
-      "id": "LAYOUT_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
-      "name": "LavaridgeTown_PokemonCenter_1F_Layout",
-      "width": 14,
-      "height": 9,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_PokemonCenter",
-      "border_filepath": "data/layouts/LavaridgeTown_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/LavaridgeTown_PokemonCenter_1F/map.bin"
-    },
-    {
       "id": "LAYOUT_FALLARBOR_TOWN_LEFTOVER_RSCONTEST_LOBBY",
       "name": "FallarborTown_LeftoverRSContestLobby_Layout",
       "width": 15,
@@ -4502,36 +4492,6 @@
       "blockdata_filepath": "data/layouts/ViridianCity_House2/map.bin"
     },
     {
-      "id": "LAYOUT_VIRIDIAN_CITY_MART",
-      "name": "ViridianCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/ViridianCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/ViridianCity_Mart/map.bin"
-    },
-    {
-      "id": "LAYOUT_VIRIDIAN_CITY_POKEMON_CENTER_1F",
-      "name": "ViridianCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/ViridianCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/ViridianCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_VIRIDIAN_CITY_POKEMON_CENTER_2F",
-      "name": "ViridianCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/ViridianCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/ViridianCity_PokemonCenter_2F/map.bin"
-    },
-    {
       "id": "LAYOUT_ROUTE1",
       "name": "Route1_Layout",
       "width": 24,
@@ -4582,16 +4542,6 @@
       "blockdata_filepath": "data/layouts/PewterCity_Gym/map.bin"
     },
     {
-      "id": "LAYOUT_PEWTER_CITY_MART",
-      "name": "PewterCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/PewterCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/PewterCity_Mart/map.bin"
-    },
-    {
       "id": "LAYOUT_PEWTER_CITY_HOUSE1",
       "name": "PewterCity_House1_Layout",
       "width": 11,
@@ -4600,26 +4550,6 @@
       "secondary_tileset": "gTileset_KantoBuilding2",
       "border_filepath": "data/layouts/PewterCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/PewterCity_House1/map.bin"
-    },
-    {
-      "id": "LAYOUT_PEWTER_CITY_POKEMON_CENTER_1F",
-      "name": "PewterCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/PewterCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/PewterCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_PEWTER_CITY_POKEMON_CENTER_2F",
-      "name": "PewterCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/PewterCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/PewterCity_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_PEWTER_CITY_HOUSE2",
@@ -4672,26 +4602,6 @@
       "blockdata_filepath": "data/layouts/CeruleanCity_House3/map.bin"
     },
     {
-      "id": "LAYOUT_CERULEAN_CITY_POKEMON_CENTER_1F",
-      "name": "CeruleanCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/CeruleanCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/CeruleanCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_CERULEAN_CITY_POKEMON_CENTER_2F",
-      "name": "CeruleanCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/CeruleanCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/CeruleanCity_PokemonCenter_2F/map.bin"
-    },
-    {
       "id": "LAYOUT_CERULEAN_CITY_GYM",
       "name": "CeruleanCity_Gym_Layout",
       "width": 17,
@@ -4710,16 +4620,6 @@
       "secondary_tileset": "gTileset_CeruleanCityBikeShop",
       "border_filepath": "data/layouts/CeruleanCity_BikeShop/border.bin",
       "blockdata_filepath": "data/layouts/CeruleanCity_BikeShop/map.bin"
-    },
-    {
-      "id": "LAYOUT_CERULEAN_CITY_MART",
-      "name": "CeruleanCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/CeruleanCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/CeruleanCity_Mart/map.bin"
     },
     {
       "id": "LAYOUT_CERULEAN_CITY_HOUSE4",
@@ -4752,26 +4652,6 @@
       "blockdata_filepath": "data/layouts/LavenderTown/map.bin"
     },
     {
-      "id": "LAYOUT_LAVENDER_TOWN_POKEMON_CENTER_1F",
-      "name": "LavenderTown_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/LavenderTown_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/LavenderTown_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_LAVENDER_TOWN_POKEMON_CENTER_2F",
-      "name": "LavenderTown_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/LavenderTown_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/LavenderTown_PokemonCenter_2F/map.bin"
-    },
-    {
       "id": "LAYOUT_LAVENDER_TOWN_VOLUNTEER_POKEMON_HOUSE",
       "name": "LavenderTown_VolunteerPokemonHouse_Layout",
       "width": 12,
@@ -4800,16 +4680,6 @@
       "secondary_tileset": "gTileset_KantoBuilding1",
       "border_filepath": "data/layouts/LavenderTown_House2/border.bin",
       "blockdata_filepath": "data/layouts/LavenderTown_House2/map.bin"
-    },
-    {
-      "id": "LAYOUT_LAVENDER_TOWN_MART",
-      "name": "LavenderTown_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/LavenderTown_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/LavenderTown_Mart/map.bin"
     },
     {
       "id": "LAYOUT_POKEMON_TOWER_1F",
@@ -4902,26 +4772,6 @@
       "blockdata_filepath": "data/layouts/VermilionCity_House1/map.bin"
     },
     {
-      "id": "LAYOUT_VERMILION_CITY_POKEMON_CENTER_1F",
-      "name": "VermilionCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/VermilionCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/VermilionCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_VERMILION_CITY_POKEMON_CENTER_2F",
-      "name": "VermilionCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/VermilionCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/VermilionCity_PokemonCenter_2F/map.bin"
-    },
-    {
       "id": "LAYOUT_VERMILION_CITY_POKEMON_FAN_CLUB",
       "name": "VermilionCity_PokemonFanClub_Layout",
       "width": 12,
@@ -4940,16 +4790,6 @@
       "secondary_tileset": "gTileset_KantoBuilding1",
       "border_filepath": "data/layouts/VermilionCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_House2/map.bin"
-    },
-    {
-      "id": "LAYOUT_VERMILION_CITY_MART",
-      "name": "VermilionCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/VermilionCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/VermilionCity_Mart/map.bin"
     },
     {
       "id": "LAYOUT_VERMILION_CITY_GYM",
@@ -5100,26 +4940,6 @@
       "secondary_tileset": "gTileset_KantoBuilding3",
       "border_filepath": "data/layouts/CeladonCity_Condominiums_RoofRoom/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Condominiums_RoofRoom/map.bin"
-    },
-    {
-      "id": "LAYOUT_CELADON_CITY_POKEMON_CENTER_1F",
-      "name": "CeladonCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/CeladonCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/CeladonCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_CELADON_CITY_POKEMON_CENTER_2F",
-      "name": "CeladonCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/CeladonCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/CeladonCity_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_CELADON_CITY_GAME_CORNER",
@@ -5342,16 +5162,6 @@
       "blockdata_filepath": "data/layouts/KantoSafariZone_SecretHouse/map.bin"
     },
     {
-      "id": "LAYOUT_FUCHSIA_CITY_MART",
-      "name": "FuchsiaCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/FuchsiaCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/FuchsiaCity_Mart/map.bin"
-    },
-    {
       "id": "LAYOUT_FUCHSIA_CITY_ZOO_BUILDING",
       "name": "FuchsiaCity_ZooBuilding_Layout",
       "width": 20,
@@ -5380,26 +5190,6 @@
       "secondary_tileset": "gTileset_KantoBuilding1",
       "border_filepath": "data/layouts/FuchsiaCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/FuchsiaCity_House1/map.bin"
-    },
-    {
-      "id": "LAYOUT_FUCHSIA_CITY_POKEMON_CENTER_1F",
-      "name": "FuchsiaCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/FuchsiaCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/FuchsiaCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_FUCHSIA_CITY_POKEMON_CENTER_2F",
-      "name": "FuchsiaCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/FuchsiaCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/FuchsiaCity_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_FUCHSIA_CITY_BUILDING1",
@@ -5490,36 +5280,6 @@
       "secondary_tileset": "gTileset_KantoOaksLab",
       "border_filepath": "data/layouts/PokemonLab_ExperimentRoom/border.bin",
       "blockdata_filepath": "data/layouts/PokemonLab_ExperimentRoom/map.bin"
-    },
-    {
-      "id": "LAYOUT_CINNABAR_ISLAND_POKEMON_CENTER_1F",
-      "name": "CinnabarIsland_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/CinnabarIsland_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/CinnabarIsland_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_CINNABAR_ISLAND_POKEMON_CENTER_2F",
-      "name": "CinnabarIsland_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/CinnabarIsland_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/CinnabarIsland_PokemonCenter_2F/map.bin"
-    },
-    {
-      "id": "LAYOUT_CINNABAR_ISLAND_MART",
-      "name": "CinnabarIsland_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/CinnabarIsland_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/CinnabarIsland_Mart/map.bin"
     },
     {
       "id": "LAYOUT_POKEMON_MANSION_1F",
@@ -5630,36 +5390,6 @@
       "secondary_tileset": "gTileset_KantoBuilding1",
       "border_filepath": "data/layouts/SaffronCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_House2/map.bin"
-    },
-    {
-      "id": "LAYOUT_SAFFRON_CITY_MART",
-      "name": "SaffronCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/SaffronCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/SaffronCity_Mart/map.bin"
-    },
-    {
-      "id": "LAYOUT_SAFFRON_CITY_POKEMON_CENTER_1F",
-      "name": "SaffronCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/SaffronCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/SaffronCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_SAFFRON_CITY_POKEMON_CENTER_2F",
-      "name": "SaffronCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/SaffronCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/SaffronCity_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_SAFFRON_CITY_HOUSE3",
@@ -5810,26 +5540,6 @@
       "secondary_tileset": "gTileset_IndigoPlateau",
       "border_filepath": "data/layouts/IndigoPlateau_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/IndigoPlateau_Exterior/map.bin"
-    },
-    {
-      "id": "LAYOUT_INDIGO_PLATEAU_POKEMON_CENTER_1F",
-      "name": "IndigoPlateau_PokemonCenter_1F_Layout",
-      "width": 25,
-      "height": 18,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/IndigoPlateau_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/IndigoPlateau_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_INDIGO_PLATEAU_POKEMON_CENTER_2F",
-      "name": "IndigoPlateau_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/IndigoPlateau_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/IndigoPlateau_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_KANTO_POKEMON_LEAGUE_LORELEIS_ROOM",
@@ -6222,26 +5932,6 @@
       "blockdata_filepath": "data/layouts/DiglettsCave_SouthEntrance/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE4_POKEMON_CENTER_1F",
-      "name": "Route4_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/Route4_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/Route4_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE4_POKEMON_CENTER_2F",
-      "name": "Route4_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/Route4_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/Route4_PokemonCenter_2F/map.bin"
-    },
-    {
       "id": "LAYOUT_MT_MOON_1F",
       "name": "MtMoon_1F_Layout",
       "width": 48,
@@ -6380,26 +6070,6 @@
       "secondary_tileset": "gTileset_KantoBuilding2",
       "border_filepath": "data/layouts/Route8_WestEntrance/border.bin",
       "blockdata_filepath": "data/layouts/Route8_WestEntrance/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE10_POKEMON_CENTER_1F",
-      "name": "Route10_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/Route10_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/Route10_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE10_POKEMON_CENTER_2F",
-      "name": "Route10_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/Route10_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/Route10_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_ROCK_TUNNEL_1F",
@@ -6722,26 +6392,6 @@
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad/map.bin"
     },
     {
-      "id": "LAYOUT_ONE_ISLAND_POKEMON_CENTER_1F",
-      "name": "OneIsland_PokemonCenter_1F_Layout",
-      "width": 19,
-      "height": 11,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/OneIsland_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/OneIsland_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_ONE_ISLAND_POKEMON_CENTER_2F",
-      "name": "OneIsland_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/OneIsland_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/OneIsland_PokemonCenter_2F/map.bin"
-    },
-    {
       "id": "LAYOUT_ONE_ISLAND_HOUSE1",
       "name": "OneIsland_House1_Layout",
       "width": 11,
@@ -6932,26 +6582,6 @@
       "blockdata_filepath": "data/layouts/TwoIsland_Harbor/map.bin"
     },
     {
-      "id": "LAYOUT_TWO_ISLAND_POKEMON_CENTER_1F",
-      "name": "TwoIsland_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/TwoIsland_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/TwoIsland_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_TWO_ISLAND_POKEMON_CENTER_2F",
-      "name": "TwoIsland_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/TwoIsland_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/TwoIsland_PokemonCenter_2F/map.bin"
-    },
-    {
       "id": "LAYOUT_TWO_ISLAND_HOUSE",
       "name": "TwoIsland_House_Layout",
       "width": 11,
@@ -7000,26 +6630,6 @@
       "secondary_tileset": "gTileset_SeviiIsles1",
       "border_filepath": "data/layouts/ThreeIsland/border.bin",
       "blockdata_filepath": "data/layouts/ThreeIsland/map.bin"
-    },
-    {
-      "id": "LAYOUT_THREE_ISLAND_POKEMON_CENTER_1F",
-      "name": "ThreeIsland_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/ThreeIsland_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/ThreeIsland_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_THREE_ISLAND_POKEMON_CENTER_2F",
-      "name": "ThreeIsland_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/ThreeIsland_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/ThreeIsland_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_THREE_ISLAND_HOUSE1",
@@ -7122,16 +6732,6 @@
       "blockdata_filepath": "data/layouts/ThreeIsland_BerryForest/map.bin"
     },
     {
-      "id": "LAYOUT_THREE_ISLAND_MART",
-      "name": "ThreeIsland_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/ThreeIsland_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/ThreeIsland_Mart/map.bin"
-    },
-    {
       "id": "LAYOUT_FOUR_ISLAND",
       "name": "FourIsland_Layout",
       "width": 48,
@@ -7150,36 +6750,6 @@
       "secondary_tileset": "gTileset_KantoHarbor",
       "border_filepath": "data/layouts/FourIsland_Harbor/border.bin",
       "blockdata_filepath": "data/layouts/FourIsland_Harbor/map.bin"
-    },
-    {
-      "id": "LAYOUT_FOUR_ISLAND_POKEMON_CENTER_1F",
-      "name": "FourIsland_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/FourIsland_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/FourIsland_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_FOUR_ISLAND_POKEMON_CENTER_2F",
-      "name": "FourIsland_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/FourIsland_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/FourIsland_PokemonCenter_2F/map.bin"
-    },
-    {
-      "id": "LAYOUT_FOUR_ISLAND_MART",
-      "name": "FourIsland_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/FourIsland_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/FourIsland_Mart/map.bin"
     },
     {
       "id": "LAYOUT_FOUR_ISLAND_POKEMON_DAY_CARE",
@@ -7280,26 +6850,6 @@
       "secondary_tileset": "gTileset_KantoHarbor",
       "border_filepath": "data/layouts/FiveIsland_Harbor/border.bin",
       "blockdata_filepath": "data/layouts/FiveIsland_Harbor/map.bin"
-    },
-    {
-      "id": "LAYOUT_FIVE_ISLAND_POKEMON_CENTER_1F",
-      "name": "FiveIsland_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/FiveIsland_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/FiveIsland_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_FIVE_ISLAND_POKEMON_CENTER_2F",
-      "name": "FiveIsland_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/FiveIsland_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/FiveIsland_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_FIVE_ISLAND_HOUSE1",
@@ -7552,36 +7102,6 @@
       "blockdata_filepath": "data/layouts/SixIsland_Harbor/map.bin"
     },
     {
-      "id": "LAYOUT_SIX_ISLAND_POKEMON_CENTER_1F",
-      "name": "SixIsland_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/SixIsland_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/SixIsland_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_SIX_ISLAND_POKEMON_CENTER_2F",
-      "name": "SixIsland_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/SixIsland_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/SixIsland_PokemonCenter_2F/map.bin"
-    },
-    {
-      "id": "LAYOUT_SIX_ISLAND_MART",
-      "name": "SixIsland_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/SixIsland_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/SixIsland_Mart/map.bin"
-    },
-    {
       "id": "LAYOUT_SIX_ISLAND_HOUSE",
       "name": "SixIsland_House_Layout",
       "width": 11,
@@ -7750,36 +7270,6 @@
       "secondary_tileset": "gTileset_KantoHarbor",
       "border_filepath": "data/layouts/SevenIsland_Harbor/border.bin",
       "blockdata_filepath": "data/layouts/SevenIsland_Harbor/map.bin"
-    },
-    {
-      "id": "LAYOUT_SEVEN_ISLAND_POKEMON_CENTER_1F",
-      "name": "SevenIsland_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/SevenIsland_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/SevenIsland_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_SEVEN_ISLAND_POKEMON_CENTER_2F",
-      "name": "SevenIsland_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/SevenIsland_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/SevenIsland_PokemonCenter_2F/map.bin"
-    },
-    {
-      "id": "LAYOUT_SEVEN_ISLAND_MART",
-      "name": "SevenIsland_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_KantoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/SevenIsland_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/SevenIsland_Mart/map.bin"
     },
     {
       "id": "LAYOUT_SEVEN_ISLAND_HOUSE_ROOM1",
@@ -8122,36 +7612,6 @@
       "blockdata_filepath": "data/layouts/CherrygroveCity/map.bin"
     },
     {
-      "id": "LAYOUT_CHERRYGROVE_CITY_MART",
-      "name": "CherrygroveCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/CherrygroveCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/CherrygroveCity_Mart/map.bin"
-    },
-    {
-      "id": "LAYOUT_CHERRYGROVE_CITY_POKEMON_CENTER_1F",
-      "name": "CherrygroveCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/CherrygroveCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/CherrygroveCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_CHERRYGROVE_CITY_POKEMON_CENTER_2F",
-      "name": "CherrygroveCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/CherrygroveCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/CherrygroveCity_PokemonCenter_2F/map.bin"
-    },
-    {
       "id": "LAYOUT_CHERRYGROVE_CITY_HOUSE1",
       "name": "CherrygroveCity_House1_Layout",
       "width": 11,
@@ -8242,16 +7702,6 @@
       "blockdata_filepath": "data/layouts/VioletCity_House1/map.bin"
     },
     {
-      "id": "LAYOUT_VIOLET_CITY_MART",
-      "name": "VioletCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/VioletCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_Mart/map.bin"
-    },
-    {
       "id": "LAYOUT_VIOLET_CITY_GYM",
       "name": "VioletCity_Gym_Layout",
       "width": 13,
@@ -8270,26 +7720,6 @@
       "secondary_tileset": "gTileset_KantoBuilding3",
       "border_filepath": "data/layouts/VioletCity_EarlsAcademy/border.bin",
       "blockdata_filepath": "data/layouts/VioletCity_EarlsAcademy/map.bin"
-    },
-    {
-      "id": "LAYOUT_VIOLET_CITY_POKEMON_CENTER_1F",
-      "name": "VioletCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/VioletCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_VIOLET_CITY_POKEMON_CENTER_2F",
-      "name": "VioletCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/VioletCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/VioletCity_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_VIOLET_CITY_HOUSE2",
@@ -8362,26 +7792,6 @@
       "blockdata_filepath": "data/layouts/Route32_Gatehouse/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE32_POKEMON_CENTER_1F",
-      "name": "Route32_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/Route32_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/Route32_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE32_POKEMON_CENTER_2F",
-      "name": "Route32_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/Route32_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/Route32_PokemonCenter_2F/map.bin"
-    },
-    {
       "id": "LAYOUT_ROUTE33",
       "name": "Route33_Layout",
       "width": 26,
@@ -8430,36 +7840,6 @@
       "secondary_tileset": "gTileset_AzaleaTown",
       "border_filepath": "data/layouts/AzaleaTown/border.bin",
       "blockdata_filepath": "data/layouts/AzaleaTown/map.bin"
-    },
-    {
-      "id": "LAYOUT_AZALEA_TOWN_MART",
-      "name": "AzaleaTown_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/AzaleaTown_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/AzaleaTown_Mart/map.bin"
-    },
-    {
-      "id": "LAYOUT_AZALEA_TOWN_POKEMON_CENTER_1F",
-      "name": "AzaleaTown_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/AzaleaTown_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/AzaleaTown_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_AZALEA_TOWN_POKEMON_CENTER_2F",
-      "name": "AzaleaTown_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/AzaleaTown_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/AzaleaTown_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_AZALEA_TOWN_KURTS_HOUSE",
@@ -8690,16 +8070,6 @@
       "secondary_tileset": "gTileset_KantoBuilding2",
       "border_filepath": "data/layouts/GoldenrodCity_BillsFamilysHouse/border.bin",
       "blockdata_filepath": "data/layouts/GoldenrodCity_BillsFamilysHouse/map.bin"
-    },
-    {
-      "id": "LAYOUT_GOLDENROD_CITY_POKEMON_CENTER_1F",
-      "name": "GoldenrodCity_PokemonCenter_1F_Layout",
-      "width": 35,
-      "height": 18,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/GoldenrodCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_PokemonCenter_1F/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE35",
@@ -9142,16 +8512,6 @@
       "blockdata_filepath": "data/layouts/GoldenrodCity_MagnetTrainStation/map.bin"
     },
     {
-      "id": "LAYOUT_GOLDENROD_CITY_POKEMON_CENTER_2F",
-      "name": "GoldenrodCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/GoldenrodCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/GoldenrodCity_PokemonCenter_2F/map.bin"
-    },
-    {
       "id": "LAYOUT_GOLDENROD_CITY_BIKE_SHOP",
       "name": "GoldenrodCity_BikeShop_Layout",
       "width": 11,
@@ -9402,36 +8762,6 @@
       "blockdata_filepath": "data/layouts/MooMooFarm_Barn/map.bin"
     },
     {
-      "id": "LAYOUT_ECRUTEAK_CITY_POKEMON_CENTER_1F",
-      "name": "EcruteakCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/EcruteakCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_ECRUTEAK_CITY_POKEMON_CENTER_2F",
-      "name": "EcruteakCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/EcruteakCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_PokemonCenter_2F/map.bin"
-    },
-    {
-      "id": "LAYOUT_ECRUTEAK_CITY_MART",
-      "name": "EcruteakCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/EcruteakCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/EcruteakCity_Mart/map.bin"
-    },
-    {
       "id": "LAYOUT_TIN_TOWER_1F",
       "name": "TinTower_1F_Layout",
       "width": 19,
@@ -9672,36 +9002,6 @@
       "blockdata_filepath": "data/layouts/OlivineCity_Harbor/map.bin"
     },
     {
-      "id": "LAYOUT_OLIVINE_CITY_POKEMON_CENTER_1F",
-      "name": "OlivineCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/OlivineCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/OlivineCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_OLIVINE_CITY_POKEMON_CENTER_2F",
-      "name": "OlivineCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/OlivineCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/OlivineCity_PokemonCenter_2F/map.bin"
-    },
-    {
-      "id": "LAYOUT_OLIVINE_CITY_MART",
-      "name": "OlivineCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/OlivineCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/OlivineCity_Mart/map.bin"
-    },
-    {
       "id": "LAYOUT_OLIVINE_CITY_GYM",
       "name": "OlivineCity_Gym_Layout",
       "width": 13,
@@ -9760,26 +9060,6 @@
       "secondary_tileset": "gTileset_KantoBuilding2",
       "border_filepath": "data/layouts/OlivineCity_Lighthouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/OlivineCity_Lighthouse_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_CIANWOOD_CITY_POKEMON_CENTER_1F",
-      "name": "CianwoodCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/CianwoodCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/CianwoodCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_CIANWOOD_CITY_POKEMON_CENTER_2F",
-      "name": "CianwoodCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/CianwoodCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/CianwoodCity_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_CIANWOOD_CITY_GYM",
@@ -9872,26 +9152,6 @@
       "blockdata_filepath": "data/layouts/MahoganyTown_RocketHideout_B3F/map.bin"
     },
     {
-      "id": "LAYOUT_MAHOGANY_TOWN_POKEMON_CENTER_1F",
-      "name": "MahoganyTown_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/MahoganyTown_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/MahoganyTown_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_MAHOGANY_TOWN_POKEMON_CENTER_2F",
-      "name": "MahoganyTown_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/MahoganyTown_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/MahoganyTown_PokemonCenter_2F/map.bin"
-    },
-    {
       "id": "LAYOUT_MAHOGANY_TOWN_GYM",
       "name": "MahoganyTown_Gym_Layout",
       "width": 11,
@@ -9910,36 +9170,6 @@
       "secondary_tileset": "gTileset_KantoBuilding2",
       "border_filepath": "data/layouts/MahoganyTown_House/border.bin",
       "blockdata_filepath": "data/layouts/MahoganyTown_House/map.bin"
-    },
-    {
-      "id": "LAYOUT_BLACKTHORN_CITY_POKEMON_CENTER_1F",
-      "name": "BlackthornCity_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/BlackthornCity_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_BLACKTHORN_CITY_POKEMON_CENTER_2F",
-      "name": "BlackthornCity_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/BlackthornCity_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity_PokemonCenter_2F/map.bin"
-    },
-    {
-      "id": "LAYOUT_BLACKTHORN_CITY_MART",
-      "name": "BlackthornCity_Mart_Layout",
-      "width": 11,
-      "height": 9,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeMart",
-      "border_filepath": "data/layouts/BlackthornCity_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity_Mart/map.bin"
     },
     {
       "id": "LAYOUT_BLACKTHORN_CITY_MOVE_DELETERS_HOUSE",
@@ -10380,26 +9610,6 @@
       "secondary_tileset": "gTileset_NewBarkTown",
       "border_filepath": "data/layouts/Route28/border.bin",
       "blockdata_filepath": "data/layouts/Route28/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE28_POKEMON_CENTER_1F",
-      "name": "Route28_PokemonCenter_1F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/Route28_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/Route28_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE28_POKEMON_CENTER_2F",
-      "name": "Route28_PokemonCenter_2F_Layout",
-      "width": 15,
-      "height": 10,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_KantoPokeCenter",
-      "border_filepath": "data/layouts/Route28_PokemonCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/Route28_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE28_HOUSE",
