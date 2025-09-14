@@ -1,2 +1,6 @@
 KantoSafariZone_SecretHouse_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, KantoSafariZone_SecretHouse_OnTransition
 	.byte 0
+
+KantoSafariZone_SecretHouse_OnTransition:
+	end

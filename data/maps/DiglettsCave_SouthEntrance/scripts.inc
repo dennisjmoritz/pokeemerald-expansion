@@ -1,2 +1,6 @@
 DiglettsCave_SouthEntrance_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, DiglettsCave_SouthEntrance_OnTransition
 	.byte 0
+
+DiglettsCave_SouthEntrance_OnTransition:
+	end

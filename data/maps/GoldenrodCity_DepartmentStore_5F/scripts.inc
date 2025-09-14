@@ -1,9 +1,6 @@
 GoldenrodCity_DepartmentStore_5F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, GoldenrodCity_DepartmentStore_5F_OnTransition
 	.byte 0
 
-GoldenrodCity_DepartmentStore_5F_EventScript_FloorSign::
-	msgbox GoldenrodCity_DepartmentStore_5F_Text_FloorSign, MSGBOX_SIGN
+GoldenrodCity_DepartmentStore_5F_OnTransition:
 	end
-
-GoldenrodCity_DepartmentStore_5F_Text_FloorSign::
-    .string "5F: TM CORNER$"

@@ -1,24 +1,6 @@
 Route32_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route32_OnTransition
 	.byte 0
 
-Route32_EventScript_RouteSign::
-	msgbox Route32_Text_RouteSign, MSGBOX_SIGN
+Route32_OnTransition:
 	end
-
-Route32_EventScript_RuinsSign::
-	msgbox Route32_Text_RuinsSign, MSGBOX_SIGN
-	end
-
-Route32_EventScript_CaveSign::
-	msgbox Route32_Text_CaveSign, MSGBOX_SIGN
-	end
-
-Route32_Text_RouteSign::
-	.string "ROUTE 32\n"
-	.string "VIOLET CITY - AZALEA TOWN$"
-
-Route32_Text_RuinsSign::
-	.string "RUINS OF ALPH EAST ENTRANCE$"
-
-Route32_Text_CaveSign::
-	.string "UNION CAVE AHEAD$"

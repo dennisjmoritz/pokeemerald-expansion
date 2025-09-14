@@ -1,16 +1,6 @@
 Route35_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route35_OnTransition
 	.byte 0
 
-Route35_EventScript_RouteSign::
-	msgbox Route35_Text_RouteSign, MSGBOX_SIGN
+Route35_OnTransition:
 	end
-
-Route35_EventScript_NationalParkSign::
-	msgbox Route35_Text_NationalParkSign, MSGBOX_SIGN
-	end
-
-Route35_Text_RouteSign::
-	.string "ROUTE 35$"
-
-Route35_Text_NationalParkSign::
-	.string "NATIONAL PARK SOUTH ENTRANCE$"

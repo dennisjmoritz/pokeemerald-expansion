@@ -1,2 +1,6 @@
 LavenderTown_VolunteerPokemonHouse_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LavenderTown_VolunteerPokemonHouse_OnTransition
 	.byte 0
+
+LavenderTown_VolunteerPokemonHouse_OnTransition:
+	end

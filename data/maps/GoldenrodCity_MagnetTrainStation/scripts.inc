@@ -1,2 +1,6 @@
 GoldenrodCity_MagnetTrainStation_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, GoldenrodCity_MagnetTrainStation_OnTransition
 	.byte 0
+
+GoldenrodCity_MagnetTrainStation_OnTransition:
+	end

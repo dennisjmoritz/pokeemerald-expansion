@@ -1,2 +1,6 @@
 SixIsland_DottedHole_Entrance_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, SixIsland_DottedHole_Entrance_OnTransition
 	.byte 0
+
+SixIsland_DottedHole_Entrance_OnTransition:
+	end

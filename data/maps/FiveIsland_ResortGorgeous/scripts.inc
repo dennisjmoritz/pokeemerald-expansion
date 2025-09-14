@@ -1,9 +1,6 @@
 FiveIsland_ResortGorgeous_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, FiveIsland_ResortGorgeous_OnTransition
 	.byte 0
 
-FiveIsland_ResortGorgeous_EventScript_SelphysHouseSign::
-	msgbox FiveIsland_ResortGorgeous_Text_SelphysHouse, MSGBOX_SIGN
+FiveIsland_ResortGorgeous_OnTransition:
 	end
-
-FiveIsland_ResortGorgeous_Text_SelphysHouse::
-    .string "SELPHY'S HOUSE$"

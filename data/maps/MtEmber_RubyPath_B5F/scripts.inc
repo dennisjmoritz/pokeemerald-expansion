@@ -1,15 +1,6 @@
 MtEmber_RubyPath_B5F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, MtEmber_RubyPath_B5F_OnTransition
 	.byte 0
 
-MtEmber_RubyPath_B5F_EventScript_BrailleMessage::
-	lockall
-	braillemsgbox Braille_Text_Everything
-	braillemsgbox Braille_Text_HasMeaning1
-	braillemsgbox Braille_Text_Existence
-	braillemsgbox Braille_Text_HasMeaning2
-	braillemsgbox Braille_Text_BeingAlive
-	braillemsgbox Braille_Text_HasMeaning3
-	braillemsgbox Braille_Text_HaveDreams
-	braillemsgbox Braille_Text_UsePower
-	releaseall
+MtEmber_RubyPath_B5F_OnTransition:
 	end

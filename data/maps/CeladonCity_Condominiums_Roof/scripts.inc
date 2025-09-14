@@ -1,2 +1,6 @@
 CeladonCity_Condominiums_Roof_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, CeladonCity_Condominiums_Roof_OnTransition
 	.byte 0
+
+CeladonCity_Condominiums_Roof_OnTransition:
+	end

@@ -1,2 +1,6 @@
 RuinsOfAlph_AerodactylChamber_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, RuinsOfAlph_AerodactylChamber_OnTransition
 	.byte 0
+
+RuinsOfAlph_AerodactylChamber_OnTransition:
+	end

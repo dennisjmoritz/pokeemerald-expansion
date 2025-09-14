@@ -1,10 +1,6 @@
 Route26_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route26_OnTransition
 	.byte 0
 
-Route26_EventScript_LeagueGateSign::
-	msgbox Route26_Text_LeagueGateSign, MSGBOX_SIGN
+Route26_OnTransition:
 	end
-
-Route26_Text_LeagueGateSign::
-	.string "POKéMON LEAGUE\n"
-	.string "Front Gate$"

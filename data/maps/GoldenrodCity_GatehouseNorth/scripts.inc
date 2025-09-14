@@ -1,2 +1,6 @@
 GoldenrodCity_GatehouseNorth_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, GoldenrodCity_GatehouseNorth_OnTransition
 	.byte 0
+
+GoldenrodCity_GatehouseNorth_OnTransition:
+	end

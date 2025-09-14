@@ -1,2 +1,6 @@
 FiveIsland_WaterLabyrinth_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, FiveIsland_WaterLabyrinth_OnTransition
 	.byte 0
+
+FiveIsland_WaterLabyrinth_OnTransition:
+	end

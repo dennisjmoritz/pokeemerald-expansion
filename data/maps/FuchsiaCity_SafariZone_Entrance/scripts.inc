@@ -1,2 +1,6 @@
 FuchsiaCity_SafariZone_Entrance_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, FuchsiaCity_SafariZone_Entrance_OnTransition
 	.byte 0
+
+FuchsiaCity_SafariZone_Entrance_OnTransition:
+	end

@@ -1,2 +1,6 @@
 SevenIsland_SevaultCanyon_TanobyKey_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, SevenIsland_SevaultCanyon_TanobyKey_OnTransition
 	.byte 0
+
+SevenIsland_SevaultCanyon_TanobyKey_OnTransition:
+	end

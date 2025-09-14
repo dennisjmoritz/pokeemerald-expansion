@@ -1,2 +1,6 @@
 KantoPokemonLeague_BrunosRoom_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, KantoPokemonLeague_BrunosRoom_OnTransition
 	.byte 0
+
+KantoPokemonLeague_BrunosRoom_OnTransition:
+	end

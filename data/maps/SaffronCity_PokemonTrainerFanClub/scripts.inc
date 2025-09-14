@@ -1,2 +1,6 @@
 SaffronCity_PokemonTrainerFanClub_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, SaffronCity_PokemonTrainerFanClub_OnTransition
 	.byte 0
+
+SaffronCity_PokemonTrainerFanClub_OnTransition:
+	end

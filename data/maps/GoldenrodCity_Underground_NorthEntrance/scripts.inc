@@ -1,2 +1,6 @@
 GoldenrodCity_Underground_NorthEntrance_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, GoldenrodCity_Underground_NorthEntrance_OnTransition
 	.byte 0
+
+GoldenrodCity_Underground_NorthEntrance_OnTransition:
+	end

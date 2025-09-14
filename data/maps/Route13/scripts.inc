@@ -1,10 +1,6 @@
 Route13_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route13_OnTransition
 	.byte 0
 
-Route13_EventScript_RouteSign::
-	msgbox Route13_Text_RouteSign, MSGBOX_SIGN
+Route13_OnTransition:
 	end
-
-Route13_Text_RouteSign::
-    .string "ROUTE 13\n"
-    .string "North to SILENCE BRIDGE$"

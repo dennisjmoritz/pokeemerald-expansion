@@ -1,16 +1,6 @@
 Route46_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route46_OnTransition
 	.byte 0
 
-Route46_EventScript_RouteSign::
-	msgbox Route46_Text_RouteSign, MSGBOX_SIGN
+Route46_OnTransition:
 	end
-
-Route46_EventScript_DarkCaveSign::
-	msgbox Route46_Text_DarkCaveSign, MSGBOX_SIGN
-	end
-
-Route46_Text_RouteSign::
-	.string "ROUTE 46$"
-
-Route46_Text_DarkCaveSign::
-	.string "DARK CAVE$"

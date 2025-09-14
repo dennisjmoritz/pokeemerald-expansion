@@ -1,2 +1,6 @@
 KantoPokemonLeague_ChampionsRoom_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, KantoPokemonLeague_ChampionsRoom_OnTransition
 	.byte 0
+
+KantoPokemonLeague_ChampionsRoom_OnTransition:
+	end

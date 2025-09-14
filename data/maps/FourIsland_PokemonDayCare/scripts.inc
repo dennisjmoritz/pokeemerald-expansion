@@ -1,2 +1,6 @@
 FourIsland_PokemonDayCare_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, FourIsland_PokemonDayCare_OnTransition
 	.byte 0
+
+FourIsland_PokemonDayCare_OnTransition:
+	end

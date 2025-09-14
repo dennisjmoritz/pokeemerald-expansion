@@ -1,2 +1,6 @@
 OneIsland_KindleRoad_EmberSpa_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, OneIsland_KindleRoad_EmberSpa_OnTransition
 	.byte 0
+
+OneIsland_KindleRoad_EmberSpa_OnTransition:
+	end

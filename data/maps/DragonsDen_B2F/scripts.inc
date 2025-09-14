@@ -1,11 +1,6 @@
 DragonsDen_B2F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, DragonsDen_B2F_OnTransition
 	.byte 0
 
-DragonsDen_B2F_EventScript_Sign::
-	msgbox DragonsDen_B2F_Text_Sign, MSGBOX_SIGN
+DragonsDen_B2F_OnTransition:
 	end
-
-DragonsDen_B2F_Text_Sign::
-	.string "DRAGON SHRINE\n"
-	.string "A shrine honoring the dragon pokémon\l"
-	.string "said to have lived in DRAGON'S DEN$"

@@ -1,17 +1,6 @@
 Route2_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route2_OnTransition
 	.byte 0
 
-Route2_EventScript_RouteSign::
-	msgbox Route2_Text_RouteSign, MSGBOX_SIGN
+Route2_OnTransition:
 	end
-
-Route2_EventScript_DiglettsCaveSign::
-	msgbox Route2_Text_DiglettsCave, MSGBOX_SIGN
-	end
-
-Route2_Text_RouteSign::
-    .string "ROUTE 2\n"
-    .string "VIRIDIAN CITY - PEWTER CITY$"
-
-Route2_Text_DiglettsCave::
-    .string "DIGLETT'S CAVE$"

@@ -1,10 +1,6 @@
 Route3_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route3_OnTransition
 	.byte 0
 
-Route3_EventScript_RouteSign::
-	msgbox Route3_Text_RouteSign, MSGBOX_SIGN
+Route3_OnTransition:
 	end
-
-Route3_Text_RouteSign::
-    .string "ROUTE 3\n"
-    .string "MT. MOON AHEAD$"

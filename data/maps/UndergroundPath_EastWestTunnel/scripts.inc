@@ -1,2 +1,6 @@
 UndergroundPath_EastWestTunnel_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, UndergroundPath_EastWestTunnel_OnTransition
 	.byte 0
+
+UndergroundPath_EastWestTunnel_OnTransition:
+	end

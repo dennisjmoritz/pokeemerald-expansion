@@ -1,2 +1,6 @@
 EcruteakCity_GatehouseEast_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, EcruteakCity_GatehouseEast_OnTransition
 	.byte 0
+
+EcruteakCity_GatehouseEast_OnTransition:
+	end

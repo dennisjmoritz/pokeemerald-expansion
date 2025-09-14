@@ -1,9 +1,6 @@
 Route11_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route11_OnTransition
 	.byte 0
 
-Route11_EventScript_DiglettsCaveSign::
-	msgbox Route11_Text_DiglettsCave, MSGBOX_SIGN
+Route11_OnTransition:
 	end
-
-Route11_Text_DiglettsCave::
-    .string "DIGLETT'S CAVE$"

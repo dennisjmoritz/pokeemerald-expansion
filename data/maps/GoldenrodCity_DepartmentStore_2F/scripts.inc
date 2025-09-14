@@ -1,9 +1,6 @@
 GoldenrodCity_DepartmentStore_2F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, GoldenrodCity_DepartmentStore_2F_OnTransition
 	.byte 0
 
-GoldenrodCity_DepartmentStore_2F_EventScript_FloorSign::
-	msgbox GoldenrodCity_DepartmentStore_2F_Text_FloorSign, MSGBOX_SIGN
+GoldenrodCity_DepartmentStore_2F_OnTransition:
 	end
-
-GoldenrodCity_DepartmentStore_2F_Text_FloorSign::
-    .string "2F: TRAINER'S MARKET$"

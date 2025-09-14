@@ -51,15 +51,6 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [
-    {
-      "type": "sign",
-      "x": 14,
-      "y": 8,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "Route26_EventScript_LeagueGateSign"
-    }
-  ],
+  "bg_events": [],
   "comment": "Changed music from MUS_ROUTE26 to MUS_ROUTE101 because unavailable"
 }

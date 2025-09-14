@@ -1,2 +1,6 @@
 VermilionCity_PokemonFanClub_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, VermilionCity_PokemonFanClub_OnTransition
 	.byte 0
+
+VermilionCity_PokemonFanClub_OnTransition:
+	end

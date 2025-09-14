@@ -1,2 +1,6 @@
 GoldenrodCity_NameRatersHouse_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, GoldenrodCity_NameRatersHouse_OnTransition
 	.byte 0
+
+GoldenrodCity_NameRatersHouse_OnTransition:
+	end

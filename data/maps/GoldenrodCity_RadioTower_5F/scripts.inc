@@ -1,2 +1,6 @@
 GoldenrodCity_RadioTower_5F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, GoldenrodCity_RadioTower_5F_OnTransition
 	.byte 0
+
+GoldenrodCity_RadioTower_5F_OnTransition:
+	end

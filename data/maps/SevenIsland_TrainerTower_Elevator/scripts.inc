@@ -1,2 +1,6 @@
 SevenIsland_TrainerTower_Elevator_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, SevenIsland_TrainerTower_Elevator_OnTransition
 	.byte 0
+
+SevenIsland_TrainerTower_Elevator_OnTransition:
+	end

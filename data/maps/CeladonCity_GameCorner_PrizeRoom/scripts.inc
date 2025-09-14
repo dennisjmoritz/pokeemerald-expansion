@@ -1,2 +1,6 @@
 CeladonCity_GameCorner_PrizeRoom_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, CeladonCity_GameCorner_PrizeRoom_OnTransition
 	.byte 0
+
+CeladonCity_GameCorner_PrizeRoom_OnTransition:
+	end

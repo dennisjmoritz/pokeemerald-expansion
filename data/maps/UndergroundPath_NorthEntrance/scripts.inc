@@ -1,2 +1,6 @@
 UndergroundPath_NorthEntrance_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, UndergroundPath_NorthEntrance_OnTransition
 	.byte 0
+
+UndergroundPath_NorthEntrance_OnTransition:
+	end
