@@ -29,6 +29,14 @@
       "respawn_npc": "LOCALID_PETALBURG_NURSE"
     },
     {
+      "id": "HEAL_LOCATION_PEWTER_CITY",
+      "map": "MAP_PEWTER_CITY",
+      "x": 17,
+      "y": 25,
+      "respawn_map": "MAP_PEWTER_CITY_POKEMON_CENTER_1F",
+      "respawn_npc": "LOCALID_PEWTER_NURSE"
+    },
+    {
       "id": "HEAL_LOCATION_SLATEPORT_CITY",
       "map": "MAP_SLATEPORT_CITY",
       "x": 19,
@@ -121,6 +129,14 @@
       "respawn_npc": "LOCALID_OLDALE_NURSE"
     },
     {
+      "id": "HEAL_LOCATION_OLIVINE_CITY",
+      "map": "MAP_OLIVINE_CITY",
+      "x": 15,
+      "y": 29,
+      "respawn_map": "MAP_OLIVINE_CITY_POKEMON_CENTER_1F",
+      "respawn_npc": "LOCALID_OLIVINE_NURSE"
+    },
+    {
       "id": "HEAL_LOCATION_DEWFORD_TOWN",
       "map": "MAP_DEWFORD_TOWN",
       "x": 2,
@@ -159,6 +175,14 @@
       "y": 16,
       "respawn_map": "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_PACIFIDLOG_NURSE"
+    },
+    {
+      "id": "HEAL_LOCATION_ONE_ISLAND",
+      "map": "MAP_ONE_ISLAND",
+      "x": 14,
+      "y": 5,
+      "respawn_map": "MAP_ONE_ISLAND_POKEMON_CENTER_1F",
+      "respawn_npc": "LOCALID_ONE_ISLAND_NURSE"
     },
     {
       "id": "HEAL_LOCATION_EVER_GRANDE_CITY_POKEMON_LEAGUE",
