@@ -2033,6 +2033,70 @@
       "height": 1
     },
     {
+      "id": "MAPSEC_TWINLEAF_TOWN",
+      "name": "TWINLEAF TOWN",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SANDGEM_TOWN",
+      "name": "SANDGEM TOWN",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JUBILIFE_CITY",
+      "name": "JUBILIFE CITY",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_OREBURGH_CITY",
+      "name": "OREBURGH CITY",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_FLOROMA_TOWN",
+      "name": "FLOROMA TOWN",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_LAKE_VERITY",
+      "name": "LAKE VERITY",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_VERITY_LAKEFRONT",
+      "name": "VERITY LAKEFRONT",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_VALLEY_WINDWORKS",
+      "name": "VALLEY WINDWORKS",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
       "id": "MAPSEC_DYNAMIC",
       "name": "",
       "x": 0,

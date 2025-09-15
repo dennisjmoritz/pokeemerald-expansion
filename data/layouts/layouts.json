@@ -9670,6 +9670,546 @@
       "secondary_tileset": "gTileset_JohtoCave",
       "border_filepath": "data/layouts/MtSilver_BossRoom/border.bin",
       "blockdata_filepath": "data/layouts/MtSilver_BossRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
+      "name": "LavaridgeTown_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/LavaridgeTown_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/LavaridgeTown_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWIN_LEAF_TOWN",
+      "name": "TwinLeafTown_Layout",
+      "width": 32,
+      "height": 30,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Twin_Leaf_Town",
+      "border_filepath": "data/layouts/TwinLeafTown/border.bin",
+      "blockdata_filepath": "data/layouts/TwinLeafTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE201",
+      "name": "Route201_Layout",
+      "width": 64,
+      "height": 28,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Twin_Leaf_Town",
+      "border_filepath": "data/layouts/Route201/border.bin",
+      "blockdata_filepath": "data/layouts/Route201/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERITY_LAKEFRONT",
+      "name": "VerityLakefront_Layout",
+      "width": 26,
+      "height": 27,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Sevii_Island_123",
+      "border_filepath": "data/layouts/VerityLakefront/border.bin",
+      "blockdata_filepath": "data/layouts/VerityLakefront/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE_VERITY",
+      "name": "LakeVerity_Layout",
+      "width": 54,
+      "height": 53,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Sevii_Island_123",
+      "border_filepath": "data/layouts/LakeVerity/border.bin",
+      "blockdata_filepath": "data/layouts/LakeVerity/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN",
+      "name": "SandgemTown_Layout",
+      "width": 36,
+      "height": 31,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Sandgem_Town",
+      "border_filepath": "data/layouts/SandgemTown/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE202",
+      "name": "Route202_Layout",
+      "width": 38,
+      "height": 28,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Sandgem_Town",
+      "border_filepath": "data/layouts/Route202/border.bin",
+      "blockdata_filepath": "data/layouts/Route202/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE219",
+      "name": "Route219_Layout",
+      "width": 34,
+      "height": 32,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Sandgem_Town",
+      "border_filepath": "data/layouts/Route219/border.bin",
+      "blockdata_filepath": "data/layouts/Route219/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE203",
+      "name": "Route203_Layout",
+      "width": 63,
+      "height": 30,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Jubilife_City",
+      "border_filepath": "data/layouts/Route203/border.bin",
+      "blockdata_filepath": "data/layouts/Route203/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE204",
+      "name": "Route204_Layout",
+      "width": 32,
+      "height": 61,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Jubilife_City",
+      "border_filepath": "data/layouts/Route204/border.bin",
+      "blockdata_filepath": "data/layouts/Route204/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY",
+      "name": "OreburghCity_Layout",
+      "width": 62,
+      "height": 64,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Oreburgh_City",
+      "border_filepath": "data/layouts/OreburghCity/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE218",
+      "name": "Route218_Layout",
+      "width": 64,
+      "height": 31,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Canalave_City",
+      "border_filepath": "data/layouts/Route218/border.bin",
+      "blockdata_filepath": "data/layouts/Route218/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY",
+      "name": "Jubilife_City_Layout",
+      "width": 64,
+      "height": 60,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Jubilife_City",
+      "border_filepath": "data/layouts/Jubilife_City/border.bin",
+      "blockdata_filepath": "data/layouts/Jubilife_City/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_GATE",
+      "name": "Oreburgh_Gate_Layout",
+      "width": 27,
+      "height": 25,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_frlg_cave",
+      "border_filepath": "data/layouts/Oreburgh_Gate/border.bin",
+      "blockdata_filepath": "data/layouts/Oreburgh_Gate/map.bin"
+    },
+    {
+      "id": "LAYOUT_Route207",
+      "name": "Route207_Layout",
+      "width": 67,
+      "height": 26,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Oreburgh_City",
+      "border_filepath": "data/layouts/Route207/border.bin",
+      "blockdata_filepath": "data/layouts/Route207/map.bin"
+    },
+    {
+      "id": "LAYOUT_Route208",
+      "name": "Route208_Layout",
+      "width": 65,
+      "height": 30,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Oreburgh_City",
+      "border_filepath": "data/layouts/Route208/border.bin",
+      "blockdata_filepath": "data/layouts/Route208/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_FOREST_EXTERIOR",
+      "name": "Eterna_Forest_Exterior_Layout",
+      "width": 52,
+      "height": 42,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Eterna_City",
+      "border_filepath": "data/layouts/Eterna_Forest_Exterior/border.bin",
+      "blockdata_filepath": "data/layouts/Eterna_Forest_Exterior/map.bin"
+    },
+    {
+      "id": "LAYOUT_Route_205_North",
+      "name": "Route_205_North_Layout",
+      "width": 32,
+      "height": 34,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Eterna_City",
+      "border_filepath": "data/layouts/Route_205_North/border.bin",
+      "blockdata_filepath": "data/layouts/Route_205_North/map.bin"
+    },
+    {
+      "id": "LAYOUT_Route_205_South",
+      "name": "Route_205_South_Layout",
+      "width": 32,
+      "height": 81,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Eterna_City",
+      "border_filepath": "data/layouts/Route_205_South/border.bin",
+      "blockdata_filepath": "data/layouts/Route_205_South/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALLEY_WINDWORKS",
+      "name": "Valley_Windworks_Layout",
+      "width": 33,
+      "height": 26,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Valley_Windworks",
+      "border_filepath": "data/layouts/Valley_Windworks/border.bin",
+      "blockdata_filepath": "data/layouts/Valley_Windworks/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOROMA_TOWN",
+      "name": "Floroma_Town_Layout",
+      "width": 32,
+      "height": 57,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Eterna_City",
+      "border_filepath": "data/layouts/Floroma_Town/border.bin",
+      "blockdata_filepath": "data/layouts/Floroma_Town/map.bin"
+    },
+    {
+      "id": "LAYOUT_PLAYERS_HOUSE2F",
+      "name": "PlayersHouse2F_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_FRLG_Generic_Building",
+      "border_filepath": "data/layouts/PlayersHouse2F/border.bin",
+      "blockdata_filepath": "data/layouts/PlayersHouse2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_PLAYERS_HOUSE1F",
+      "name": "PlayersHouse1F_Layout",
+      "width": 11,
+      "height": 10,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_FRLG_Generic_Building",
+      "border_filepath": "data/layouts/PlayersHouse1F/border.bin",
+      "blockdata_filepath": "data/layouts/PlayersHouse1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_RIVALS_HOUSE2F",
+      "name": "RivalsHouse2F_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_FRLG_Generic_Building",
+      "border_filepath": "data/layouts/RivalsHouse2F/border.bin",
+      "blockdata_filepath": "data/layouts/RivalsHouse2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_RIVALS_HOUSE1F",
+      "name": "RivalsHouse1F_Layout",
+      "width": 11,
+      "height": 10,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_FRLG_Generic_Building",
+      "border_filepath": "data/layouts/RivalsHouse1F/border.bin",
+      "blockdata_filepath": "data/layouts/RivalsHouse1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE209",
+      "name": "Route209_Layout",
+      "width": 64,
+      "height": 61,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Oreburgh_City",
+      "border_filepath": "data/layouts/Route209/border.bin",
+      "blockdata_filepath": "data/layouts/Route209/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE211",
+      "name": "Route211_Layout",
+      "width": 68,
+      "height": 30,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Eterna_City",
+      "border_filepath": "data/layouts/Route211/border.bin",
+      "blockdata_filepath": "data/layouts/Route211/map.bin"
+    },
+    {
+      "id": "LAYOUT_HEART_HOME_CITY",
+      "name": "HeartHomeCity_Layout",
+      "width": 64,
+      "height": 67,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_HeartHome_City",
+      "border_filepath": "data/layouts/HeartHomeCity/border.bin",
+      "blockdata_filepath": "data/layouts/HeartHomeCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_CITY",
+      "name": "EternaCity_Layout",
+      "width": 64,
+      "height": 64,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Eterna_City",
+      "border_filepath": "data/layouts/EternaCity/border.bin",
+      "blockdata_filepath": "data/layouts/EternaCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELESTIC_TOWN",
+      "name": "Celestic_Town_Layout",
+      "width": 32,
+      "height": 36,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Eterna_City",
+      "border_filepath": "data/layouts/Celestic_Town/border.bin",
+      "blockdata_filepath": "data/layouts/Celestic_Town/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE_210_NORTH",
+      "name": "Route_210_North_Layout",
+      "width": 64,
+      "height": 28,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Eterna_City",
+      "border_filepath": "data/layouts/Route_210_North/border.bin",
+      "blockdata_filepath": "data/layouts/Route_210_North/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWIN_LEAF_TOWN_BOTTOM_LEFT_HOUSE",
+      "name": "TwinLeafTown_BottomLeft_House_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_FRLG_Generic_Building",
+      "border_filepath": "data/layouts/TwinLeafTown_BottomLeft_House/border.bin",
+      "blockdata_filepath": "data/layouts/TwinLeafTown_BottomLeft_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWIN_LEAF_TOWN_TOP_RIGHT_HOUSE",
+      "name": "TwinLeafTown_TopRight_House_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_FRLG_Generic_Building",
+      "border_filepath": "data/layouts/TwinLeafTown_TopRight_House/border.bin",
+      "blockdata_filepath": "data/layouts/TwinLeafTown_TopRight_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE_210_SOUTH",
+      "name": "Route_210_South_Layout",
+      "width": 32,
+      "height": 124,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Eterna_City",
+      "border_filepath": "data/layouts/Route_210_South/border.bin",
+      "blockdata_filepath": "data/layouts/Route_210_South/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_TOWN",
+      "name": "SolaceonTown_Layout",
+      "width": 66,
+      "height": 32,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Eterna_City",
+      "border_filepath": "data/layouts/SolaceonTown/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE215",
+      "name": "Route215_Layout",
+      "width": 95,
+      "height": 33,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Eterna_City",
+      "border_filepath": "data/layouts/Route215/border.bin",
+      "blockdata_filepath": "data/layouts/Route215/map.bin"
+    },
+    {
+      "id": "LAYOUT_VEIL_STONE_CITY",
+      "name": "VeilStoneCity_Layout",
+      "width": 64,
+      "height": 67,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Veilstone_City",
+      "border_filepath": "data/layouts/VeilStoneCity/border.bin",
+      "blockdata_filepath": "data/layouts/VeilStoneCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE214",
+      "name": "Route214_Layout",
+      "width": 30,
+      "height": 86,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Veilstone_City",
+      "border_filepath": "data/layouts/Route214/border.bin",
+      "blockdata_filepath": "data/layouts/Route214/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALOR_LAKEFRONT",
+      "name": "ValorLakefront_Layout",
+      "width": 64,
+      "height": 56,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_PastoriaCity",
+      "border_filepath": "data/layouts/ValorLakefront/border.bin",
+      "blockdata_filepath": "data/layouts/ValorLakefront/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE213",
+      "name": "Route213_Layout",
+      "width": 96,
+      "height": 61,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_PastoriaCity",
+      "border_filepath": "data/layouts/Route213/border.bin",
+      "blockdata_filepath": "data/layouts/Route213/map.bin"
+    },
+    {
+      "id": "LAYOUT_PASTORIA_CITY",
+      "name": "PastoriaCity_Layout",
+      "width": 64,
+      "height": 66,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_PastoriaCity",
+      "border_filepath": "data/layouts/PastoriaCity/border.bin",
+      "blockdata_filepath": "data/layouts/PastoriaCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE220",
+      "name": "Route220_Layout",
+      "width": 64,
+      "height": 32,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Sandgem_Town",
+      "border_filepath": "data/layouts/Route220/border.bin",
+      "blockdata_filepath": "data/layouts/Route220/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE222",
+      "name": "Route222_Layout",
+      "width": 100,
+      "height": 38,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_PastoriaCity",
+      "border_filepath": "data/layouts/Route222/border.bin",
+      "blockdata_filepath": "data/layouts/Route222/map.bin"
+    },
+    {
+      "id": "LAYOUT_SINNOH_POKEMON_LEAUGE",
+      "name": "Sinnoh_Pokemon_Leauge_Layout",
+      "width": 31,
+      "height": 78,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Sinnoh_Leauge",
+      "border_filepath": "data/layouts/Sinnoh_Pokemon_Leauge/border.bin",
+      "blockdata_filepath": "data/layouts/Sinnoh_Pokemon_Leauge/map.bin"
+    },
+    {
+      "id": "LAYOUT_SUNNYSHORE_CITY",
+      "name": "Sunnyshore_City_Layout",
+      "width": 64,
+      "height": 56,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_Sunyshore_City",
+      "border_filepath": "data/layouts/Sunnyshore_City/border.bin",
+      "blockdata_filepath": "data/layouts/Sunnyshore_City/map.bin"
+    },
+    {
+      "id": "LAYOUT_RAVAGED_PATH",
+      "name": "Ravaged_Path_Layout",
+      "width": 33,
+      "height": 44,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_frlg_cave",
+      "border_filepath": "data/layouts/Ravaged_Path/border.bin",
+      "blockdata_filepath": "data/layouts/Ravaged_Path/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_GATE_UNDERGROUND",
+      "name": "Oreburgh_Gate_Underground_Layout",
+      "width": 66,
+      "height": 31,
+      "primary_tileset": "gTileset_FRLG_General",
+      "secondary_tileset": "gTileset_frlg_cave",
+      "border_filepath": "data/layouts/Oreburgh_Gate_Underground/border.bin",
+      "blockdata_filepath": "data/layouts/Oreburgh_Gate_Underground/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_POKEMON_CENTER_1F",
+      "name": "SandgemTown_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 12,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/SandgemTown_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_POKEMON_CENTER_2F",
+      "name": "SandgemTown_PokemonCenter_2F_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/SandgemTown_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_POKEMON_MART",
+      "name": "SandgemTown_PokemonMart_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_Mart",
+      "border_filepath": "data/layouts/SandgemTown_PokemonMart/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_PokemonMart/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_PROFESSOR_ROWANS_LAB",
+      "name": "SandgemTown_Professor_Rowans_Lab_Layout",
+      "width": 22,
+      "height": 17,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/SandgemTown_Professor_Rowans_Lab/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_Professor_Rowans_Lab/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_BOTTOM_LEFT_HOUSE",
+      "name": "SandgemTown_BottomLeft_House_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_FRLG_Generic_Building",
+      "border_filepath": "data/layouts/SandgemTown_BottomLeft_House/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_BottomLeft_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_RIVALS_HOUSE_1F",
+      "name": "SandgemTown_Rivals_House_1F_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_FRLG_Generic_Building",
+      "border_filepath": "data/layouts/SandgemTown_Rivals_House_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_Rivals_House_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_RIVALS_HOUSE_2F",
+      "name": "SandgemTown_Rivals_House_2F_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_FRLG_Building",
+      "secondary_tileset": "gTileset_FRLG_Generic_Building",
+      "border_filepath": "data/layouts/SandgemTown_Rivals_House_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_Rivals_House_2F/map.bin"
     }
   ]
 }

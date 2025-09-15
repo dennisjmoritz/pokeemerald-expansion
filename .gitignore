@@ -56,3 +56,11 @@ tools/compresSmol/compresSmolTilemap
 *.fastSmol
 *.smolTM
 __pycache__
+tools/blank_sinnoh_scripts.py
+tools/merge_sinnoh_layouts.py
+.gitignore
+.gitignore
+tools/remove_b_rival_name_from_sinnoh.py
+tools/strip_sinnoh_maps.py
+tools/restore_sign_scripts.py
+tools/merge_sinnoh_map_groups.py
