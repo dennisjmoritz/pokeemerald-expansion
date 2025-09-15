@@ -196,6 +196,23 @@
     "Route220",
     "Route222"
   ],
+  "gMapGroup_IndoorTwinleaf": [
+    "PlayersHouse2F",
+    "PlayersHouse1F",
+    "RivalsHouse2F",
+    "RivalsHouse1F",
+    "TwinLeafTown_BottomLeft_House",
+    "TwinLeafTown_TopRight_House"
+  ],
+  "gMapGroup_IndoorSandgem": [
+    "SandgemTown_PokemonCenter_1F",
+    "SandgemTown_PokemonCenter_2F",
+    "SandgemTown_PokemonMart",
+    "SandgemTown_Professor_Rowans_Lab",
+    "SandgemTown_BottomLeft_House",
+    "SandgemTown_Rivals_House_1F",
+    "SandgemTown_Rivals_House_2F"
+  ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
     "LittlerootTown_BrendansHouse_2F",
@@ -256,23 +273,6 @@
     "PacifidlogTown_House3",
     "PacifidlogTown_House4",
     "PacifidlogTown_House5"
-  ],
-  "gMapGroup_IndoorTwinleaf": [
-    "PlayersHouse2F",
-    "PlayersHouse1F",
-    "RivalsHouse2F",
-    "RivalsHouse1F",
-    "TwinLeafTown_BottomLeft_House",
-    "TwinLeafTown_TopRight_House"
-  ],
-  "gMapGroup_IndoorSandgem": [
-    "SandgemTown_PokemonCenter_1F",
-    "SandgemTown_PokemonCenter_2F",
-    "SandgemTown_PokemonMart",
-    "SandgemTown_Professor_Rowans_Lab",
-    "SandgemTown_BottomLeft_House",
-    "SandgemTown_Rivals_House_1F",
-    "SandgemTown_Rivals_House_2F"
   ],
   "gMapGroup_IndoorPetalburg": [
     "PetalburgCity_WallysHouse",
