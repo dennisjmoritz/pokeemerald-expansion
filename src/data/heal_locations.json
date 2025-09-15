@@ -380,30 +380,6 @@
       "respawn_npc": "LOCALID_MAHOGANY_NURSE"
     },
     {
-      "id": "HEAL_LOCATION_ROUTE10",
-      "map": "MAP_ROUTE10",
-      "x": 13,
-      "y": 19,
-      "respawn_map": "MAP_ROUTE10_POKEMON_CENTER_1F",
-      "respawn_npc": "LOCALID_ROUTE10_NURSE"
-    },
-    {
-      "id": "HEAL_LOCATION_ROUTE32",
-      "map": "MAP_ROUTE32",
-      "x": 6,
-      "y": 99,
-      "respawn_map": "MAP_ROUTE32_POKEMON_CENTER_1F",
-      "respawn_npc": "LOCALID_ROUTE32_NURSE"
-    },
-    {
-      "id": "HEAL_LOCATION_ROUTE4",
-      "map": "MAP_ROUTE4",
-      "x": 17,
-      "y": 7,
-      "respawn_map": "MAP_ROUTE4_POKEMON_CENTER_1F",
-      "respawn_npc": "LOCALID_ROUTE4_NURSE"
-    },
-    {
       "id": "HEAL_LOCATION_SAFFRON_CITY",
       "map": "MAP_SAFFRON_CITY",
       "x": 13,

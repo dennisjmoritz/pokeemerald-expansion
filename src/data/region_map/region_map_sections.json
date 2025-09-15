@@ -2323,8 +2323,8 @@
       "region": "REGION_SINNOH"
     },
     {
-      "id": "MAPSEC_FLOROMA_TOWN",
-      "name": "FLOROMA TOWN",
+      "id": "MAPSEC_FLOAROMA_TOWN",
+      "name": "FLOAROMA TOWN",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -2458,12 +2458,201 @@
       "region": "REGION_SINNOH"
     },
     {
+      "id": "MAPSEC_ROUTE_206",
+      "name": "ROUTE 206",
+      "x": 7,
+      "y": 8,
+      "width": 1,
+      "height": 2,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_209",
+      "name": "ROUTE 209",
+      "x": 13,
+      "y": 9,
+      "width": 2,
+      "height": 2,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_210",
+      "name": "ROUTE 210",
+      "x": 13,
+      "y": 6,
+      "width": 2,
+      "height": 2,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_211",
+      "name": "ROUTE 211",
+      "x": 9,
+      "y": 6,
+      "width": 3,
+      "height": 1,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_212",
+      "name": "ROUTE 212",
+      "x": 11,
+      "y": 11,
+      "width": 3,
+      "height": 3,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_213",
+      "name": "ROUTE 213",
+      "x": 16,
+      "y": 13,
+      "width": 2,
+      "height": 1,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_214",
+      "name": "ROUTE 214",
+      "x": 17,
+      "y": 9,
+      "width": 1,
+      "height": 2,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_215",
+      "name": "ROUTE 215",
+      "x": 15,
+      "y": 7,
+      "width": 2,
+      "height": 1,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_216",
+      "name": "ROUTE 216",
+      "x": 8,
+      "y": 3,
+      "width": 2,
+      "height": 1,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_217",
+      "name": "ROUTE 217",
+      "x": 8,
+      "y": 1,
+      "width": 1,
+      "height": 2,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_220",
+      "name": "ROUTE 220",
+      "x": 5,
+      "y": 14,
+      "width": 1,
+      "height": 1,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_221",
+      "name": "ROUTE 221",
+      "x": 6,
+      "y": 14,
+      "width": 1,
+      "height": 1,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_222",
+      "name": "ROUTE 222",
+      "x": 18,
+      "y": 11,
+      "width": 2,
+      "height": 1,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_223",
+      "name": "ROUTE 223",
+      "x": 21,
+      "y": 9,
+      "width": 1,
+      "height": 2,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_224",
+      "name": "ROUTE 224",
+      "x": 22,
+      "y": 6,
+      "width": 1,
+      "height": 2,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_225",
+      "name": "ROUTE 225",
+      "x": 15,
+      "y": 1,
+      "width": 1,
+      "height": 2,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_226",
+      "name": "ROUTE 226",
+      "x": 17,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_227",
+      "name": "ROUTE 227",
+      "x": 18,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_228",
+      "name": "ROUTE 228",
+      "x": 19,
+      "y": 1,
+      "width": 1,
+      "height": 2,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_229",
+      "name": "ROUTE 229",
+      "x": 19,
+      "y": 3,
+      "width": 2,
+      "height": 1,
+      "region": "REGION_SINNOH"
+    },
+    {
+      "id": "MAPSEC_ROUTE_230",
+      "name": "ROUTE 230",
+      "x": 16,
+      "y": 3,
+      "width": 3,
+      "height": 1,
+      "region": "REGION_SINNOH"
+    },
+    {
       "id": "MAPSEC_DYNAMIC",
+      "name": "",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1,
-      "region": "REGION_NONE"
+      "height": 1
     }
   ]
 }

@@ -64,3 +64,7 @@ tools/remove_b_rival_name_from_sinnoh.py
 tools/strip_sinnoh_maps.py
 tools/restore_sign_scripts.py
 tools/merge_sinnoh_map_groups.py
+debug_update.py
+.gitignore
+update_heal_locations.py
+fix_respawn.py
