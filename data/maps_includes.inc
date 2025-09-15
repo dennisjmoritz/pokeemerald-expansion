@@ -199,7 +199,6 @@
 	.include "data/maps/EcruteakCity_PokemonCenter_1F/scripts.inc"
 	.include "data/maps/EcruteakCity_PokemonCenter_2F/scripts.inc"
 	.include "data/maps/EternaCity/scripts.inc"
-	.include "data/maps/Eterna_Forest_Exterior/scripts.inc"
 	.include "data/maps/EverGrandeCity/scripts.inc"
 	.include "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc"
 	.include "data/maps/EverGrandeCity_DrakesRoom/scripts.inc"
