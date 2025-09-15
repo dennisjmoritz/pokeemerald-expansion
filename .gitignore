@@ -70,3 +70,4 @@ update_heal_locations.py
 fix_respawn.py
 clean_map_groups.py
 clean_maps_and_layouts.py
+dev_scripts/add_missing_maps_and_scripts.py
