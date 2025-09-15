@@ -71,3 +71,10 @@ fix_respawn.py
 clean_map_groups.py
 clean_maps_and_layouts.py
 dev_scripts/add_missing_maps_and_scripts.py
+data/maps_includes.inc
+dev_scripts/ensure_nurse_localid.py
+dev_scripts/fix_nurse_localids.py
+dev_scripts/generate_heal_locations.py
+dev_scripts/merge_non_pokecenter_heal_locations.py
+dev_scripts/standardize_marts_centers.py
+include/constants/heal_locations.h
