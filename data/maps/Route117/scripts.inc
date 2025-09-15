@@ -1,3 +1,6 @@
+.set LOCALID_DAYCARE_MAN, 3
+.set LOCALID_DAYCARE_MON_0, 25
+.set LOCALID_DAYCARE_MON_1, 26
 
 Route117_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route117_OnTransition
@@ -27,12 +30,18 @@ Route117_EventScript_ShowDaycareMon0:
 	end
 
 Route117_EventScript_DaycareMonIncompatible: @ mons never face each other
+	setobjectmovementtype LOCALID_DAYCARE_MON_0, MOVEMENT_TYPE_FACE_DOWN_UP_AND_LEFT
+	setobjectmovementtype LOCALID_DAYCARE_MON_1, MOVEMENT_TYPE_FACE_DOWN_UP_AND_RIGHT
 	return
 
 Route117_EventScript_DaycareMonMedCompatibility: @ down and towards each other
+	setobjectmovementtype LOCALID_DAYCARE_MON_0, MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT
+	setobjectmovementtype LOCALID_DAYCARE_MON_1, MOVEMENT_TYPE_FACE_DOWN_AND_LEFT
 	return
 
 Route117_EventScript_DaycareMonMaxCompatibility: @ facing; walk in place
+	setobjectmovementtype LOCALID_DAYCARE_MON_0, MOVEMENT_TYPE_WALK_IN_PLACE_RIGHT
+	setobjectmovementtype LOCALID_DAYCARE_MON_1, MOVEMENT_TYPE_WALK_IN_PLACE_LEFT
 	return
 
 Route117_EventScript_TryMoveDayCareMan::

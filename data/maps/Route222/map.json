@@ -2,8 +2,8 @@
   "id": "MAP_ROUTE222",
   "name": "Route222",
   "layout": "LAYOUT_ROUTE222",
-  "music": "MUS_ABANDONED_SHIP",
-  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
+  "music": "MUS_RG_ROUTE24",
+  "region_map_section": "MAPSEC_ROUTE_222",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",
@@ -14,23 +14,32 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_VALOR_LAKEFRONT",
-      "offset": -27,
-      "direction": "left"
-    },
-    {
-      "map": "MAP_ROUTE213",
-      "offset": 29,
-      "direction": "left"
-    },
-    {
-      "map": "MAP_SUNNYSHORE_CITY",
-      "offset": -18,
+      "map": "MAP_SUNYSHORE_CITY",
+      "offset": -25,
       "direction": "right"
+    },
+    {
+      "map": "MAP_VALOR_LAKEFRONT",
+      "offset": -36,
+      "direction": "left"
     }
   ],
-  "object_events": [],
-  "warp_events": [],
-  "coord_events": [],
-  "bg_events": []
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 89,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE222_ACCESS",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

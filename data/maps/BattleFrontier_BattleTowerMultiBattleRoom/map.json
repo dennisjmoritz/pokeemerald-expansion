@@ -12,10 +12,9 @@
   "allow_running": false,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_FRONTIER",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
-      "local_id": "LOCALID_TOWER_MULTI_BATTLE_OPPONENT_1",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 5,
       "y": 1,
@@ -29,7 +28,6 @@
       "flag": "FLAG_HIDE_BATTLE_TOWER_OPPONENT"
     },
     {
-      "local_id": "LOCALID_TOWER_MULTI_BATTLE_ATTENDANT_1",
       "graphics_id": "OBJ_EVENT_GFX_TEALA",
       "x": 1,
       "y": 4,
@@ -43,7 +41,6 @@
       "flag": "0"
     },
     {
-      "local_id": "LOCALID_TOWER_MULTI_BATTLE_ATTENDANT_2",
       "graphics_id": "OBJ_EVENT_GFX_TEALA",
       "x": 1,
       "y": 5,
@@ -57,7 +54,6 @@
       "flag": "0"
     },
     {
-      "local_id": "LOCALID_TOWER_MULTI_BATTLE_OPPONENT_2",
       "graphics_id": "OBJ_EVENT_GFX_VAR_1",
       "x": 4,
       "y": 1,
@@ -71,7 +67,6 @@
       "flag": "FLAG_HIDE_BATTLE_TOWER_OPPONENT"
     },
     {
-      "local_id": "LOCALID_TOWER_MULTI_BATTLE_PLAYER",
       "graphics_id": "OBJ_EVENT_GFX_VAR_F",
       "x": 4,
       "y": 8,
@@ -85,7 +80,6 @@
       "flag": "0"
     },
     {
-      "local_id": "LOCALID_TOWER_MULTI_BATTLE_PARTNER",
       "graphics_id": "OBJ_EVENT_GFX_VAR_E",
       "x": 5,
       "y": 8,
@@ -99,7 +93,13 @@
       "flag": "0"
     }
   ],
-  "warp_events": [],
-  "coord_events": [],
-  "bg_events": []
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

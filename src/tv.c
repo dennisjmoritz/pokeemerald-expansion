@@ -5519,27 +5519,30 @@ static void DoTVShowTodaysRivalTrainer(void)
     switch (state)
     {
     case 0:
-        switch (show->rivalTrainer.location)
         {
-        default:
-            sTVShowState = 7;
-            break;
-        case MAPSEC_SECRET_BASE:
-            sTVShowState = 8;
-            break;
-        case MAPSEC_DYNAMIC:
-            switch (show->rivalTrainer.mapLayoutId)
+            u16 location = show->rivalTrainer.location;
+            switch (location)
             {
-            case LAYOUT_SS_TIDAL_CORRIDOR:
-            case LAYOUT_SS_TIDAL_LOWER_DECK:
-            case LAYOUT_SS_TIDAL_ROOMS:
-                sTVShowState = 10;
-                break;
             default:
-                sTVShowState = 9;
+                sTVShowState = 7;
+                break;
+            case MAPSEC_SECRET_BASE:
+                sTVShowState = 8;
+                break;
+            case MAPSEC_DYNAMIC:
+                switch (show->rivalTrainer.mapLayoutId)
+                {
+                case LAYOUT_SS_TIDAL_CORRIDOR:
+                case LAYOUT_SS_TIDAL_LOWER_DECK:
+                case LAYOUT_SS_TIDAL_ROOMS:
+                    sTVShowState = 10;
+                    break;
+                default:
+                    sTVShowState = 9;
+                    break;
+                }
                 break;
             }
-            break;
         }
         break;
     case 7:
