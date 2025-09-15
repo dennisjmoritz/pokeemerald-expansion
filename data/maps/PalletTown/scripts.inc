@@ -1,3 +1,4 @@
+.set LOCALID_MOM, 1
 
 PalletTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, PalletTown_OnTransition
@@ -18,7 +19,7 @@ PalletTown_EventScript_StepOffTruck::
 	setvar VAR_0x8005, 7
 	call PalletTown_EventScript_GoInsideWithMom
 	setflag FLAG_HIDE_TRUCK
-@ 	warpsilent MAP_PALLET_TOWN_PLAYERS_HOUSE_1F, 3, 8
+	warpsilent MAP_PALLET_TOWN_PLAYERS_HOUSE_1F, 3, 8
 	waitstate
 	releaseall
 	end
@@ -30,17 +31,22 @@ PalletTown_EventScript_GoInsideWithMom::
 	waitmovement 0
 	opendoor VAR_0x8004, VAR_0x8005
 	waitdooranim
+	addobject LOCALID_MOM
+	applymovement LOCALID_MOM, PalletTown_Movement_MomExitHouse
 	waitmovement 0
 	closedoor VAR_0x8004, VAR_0x8005
 	waitdooranim
 	delay 10
+	applymovement LOCALID_MOM, PalletTown_Movement_MomApproachPlayerAtTruck
 	waitmovement 0
 	msgbox PalletTown_Text_YoureBack, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_MOM, PalletTown_Movement_MomApproachDoor
 	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerApproachDoor
 	waitmovement 0
 	opendoor VAR_0x8004, VAR_0x8005
 	waitdooranim
+	applymovement LOCALID_MOM, PalletTown_Movement_MomEnterHouse
 	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerEnterHouse
 	waitmovement 0
 	setflag FLAG_HIDE_INTRO_MOM_OUTSIDE

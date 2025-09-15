@@ -67,31 +67,8 @@ GoldenrodCity_DepartmentStore_6F_EventScript_TryBuyDrink::
 	updatemoneybox
 	bufferitemname STR_VAR_1, VAR_TEMP_0
 	playse SE_VEND
-	msgbox GoldenrodCity_DepartmentStore_6F_Text_CanOfDrinkDroppedDown, MSGBOX_DEFAULT
+	msgbox GoldenrodCity_DepartmentStore_6F_Text_DrinkCanPoppedOut
 	additem VAR_TEMP_0
-	bufferitemname STR_VAR_2, VAR_TEMP_0
-	bufferstdstring STR_VAR_3, STDSTRING_ITEMS
-	msgbox gText_PutItemInPocket, MSGBOX_DEFAULT
-	random 64
-	goto_if_ne VAR_RESULT, 0, GoldenrodCity_DepartmentStore_6F_EventScript_ChooseNewDrink
-	checkitemspace VAR_TEMP_0
-	goto_if_eq VAR_RESULT, FALSE, GoldenrodCity_DepartmentStore_6F_EventScript_NoRoomForDrink
-	playse SE_VEND
-	msgbox GoldenrodCity_DepartmentStore_6F_Text_ExtraCanOfDrinkDroppedDown, MSGBOX_DEFAULT
-	additem VAR_TEMP_0
-	bufferitemname STR_VAR_2, VAR_TEMP_0
-	bufferstdstring STR_VAR_3, STDSTRING_ITEMS
-	msgbox gText_PutItemInPocket, MSGBOX_DEFAULT
-	random 64
-	goto_if_ne VAR_RESULT, 0, GoldenrodCity_DepartmentStore_6F_EventScript_ChooseNewDrink
-	checkitemspace VAR_TEMP_0
-	goto_if_eq VAR_RESULT, 0, GoldenrodCity_DepartmentStore_6F_EventScript_NoRoomForDrink
-	playse SE_VEND
-	msgbox GoldenrodCity_DepartmentStore_6F_Text_ExtraCanOfDrinkDroppedDown, MSGBOX_DEFAULT
-	additem VAR_TEMP_0
-	bufferitemname STR_VAR_2, VAR_TEMP_0
-	bufferstdstring STR_VAR_3, STDSTRING_ITEMS
-	msgbox gText_PutItemInPocket, MSGBOX_DEFAULT
 	goto GoldenrodCity_DepartmentStore_6F_EventScript_ChooseNewDrink
 	end
 
@@ -107,7 +84,7 @@ GoldenrodCity_DepartmentStore_6F_EventScript_NotEnoughMoney::
 	end
 
 GoldenrodCity_DepartmentStore_6F_EventScript_NoRoomForDrink::
-	msgbox gText_TheBagIsFull, MSGBOX_DEFAULT
+	msgbox GoldenrodCity_DepartmentStore_6F_Text_NoMoreRoomForStuff
 	goto GoldenrodCity_DepartmentStore_6F_EventScript_ExitVendingMachine
 	end
 
@@ -117,23 +94,17 @@ GoldenrodCity_DepartmentStore_6F_EventScript_ExitVendingMachine::
 	end
 
 GoldenrodCity_DepartmentStore_6F_Text_VendingMachineWhatDoesItHave::
-    .string "It's a VENDING MACHINE.\n"
-    .string "Which drink would you like?$"
+    .string "A vending machine!\n"
+    .string "What does it have?$"
 
 GoldenrodCity_DepartmentStore_6F_Text_NotEnoughMoney::
-    .string "Not enough money…$"
+    .string "Oops, not enough money!$"
 
-GoldenrodCity_DepartmentStore_6F_Text_CanOfDrinkDroppedDown::
-    .string "Clang!\p"
-    .string "A can of {STR_VAR_1} dropped down.$"
+GoldenrodCity_DepartmentStore_6F_Text_DrinkCanPoppedOut::
+    .string "A can of {STR_VAR_1} popped out!$"
 
 GoldenrodCity_DepartmentStore_6F_Text_NoMoreRoomForStuff::
-    .string "The BAG is full…$"
-
-GoldenrodCity_DepartmentStore_6F_Text_ExtraCanOfDrinkDroppedDown::
-    .string "Clang!\p"
-    .string "Score! An extra can of {STR_VAR_1}\n"
-    .string "dropped down!$"
+    .string "There's no more room for stuff!$"
 
 GoldenrodCity_DepartmentStore_6F_Text_NotThirsty::
-    .string "Decided against buying a drink.$"
+    .string "Not thirsty!$"

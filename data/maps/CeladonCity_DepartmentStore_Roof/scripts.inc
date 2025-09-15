@@ -17,39 +17,30 @@ CeladonCity_DepartmentStore_Roof_EventScript_ChooseDrink::
 	multichoice 16, 0, MULTI_VENDING_MACHINE, FALSE
 	copyvar VAR_TEMP_1, VAR_RESULT
 	switch VAR_TEMP_1
-	case 0, CeladonCity_DepartmentStore_Roof_EventScript_FreshWater
-	case 1, CeladonCity_DepartmentStore_Roof_EventScript_SodaPop
-	case 2, CeladonCity_DepartmentStore_Roof_EventScript_Lemonade
+	case 0, CeladonCity_DepartmentStore_Roof_EventScript_BuyFreshWater
+	case 1, CeladonCity_DepartmentStore_Roof_EventScript_BuySodaPop
+	case 2, CeladonCity_DepartmentStore_Roof_EventScript_BuyLemonade
 	msgbox CeladonCity_DepartmentStore_Roof_Text_NotThirsty
 	goto CeladonCity_DepartmentStore_Roof_EventScript_ExitVendingMachine
 	end
 
-CeladonCity_DepartmentStore_Roof_EventScript_FreshWater::
+CeladonCity_DepartmentStore_Roof_EventScript_BuyFreshWater::
 	setvar VAR_TEMP_0, ITEM_FRESH_WATER
-	goto CeladonCity_DepartmentStore_Roof_EventScript_TryBuyDrink
-	end
-
-CeladonCity_DepartmentStore_Roof_EventScript_SodaPop::
-	setvar VAR_TEMP_0, ITEM_SODA_POP
-	goto CeladonCity_DepartmentStore_Roof_EventScript_TryBuyDrink
-	end
-
-CeladonCity_DepartmentStore_Roof_EventScript_Lemonade::
-	setvar VAR_TEMP_0, ITEM_LEMONADE
-	goto CeladonCity_DepartmentStore_Roof_EventScript_TryBuyDrink
-	end
-
-CeladonCity_DepartmentStore_Roof_EventScript_CheckMoneyFreshWater::
 	checkmoney 200
-	return
+	goto CeladonCity_DepartmentStore_Roof_EventScript_TryBuyDrink
+	end
 
-CeladonCity_DepartmentStore_Roof_EventScript_CheckMoneySodaPop::
+CeladonCity_DepartmentStore_Roof_EventScript_BuySodaPop::
+	setvar VAR_TEMP_0, ITEM_SODA_POP
 	checkmoney 300
-	return
+	goto CeladonCity_DepartmentStore_Roof_EventScript_TryBuyDrink
+	end
 
-CeladonCity_DepartmentStore_Roof_EventScript_CheckMoneyLemonade::
+CeladonCity_DepartmentStore_Roof_EventScript_BuyLemonade::
+	setvar VAR_TEMP_0, ITEM_LEMONADE
 	checkmoney 350
-	return
+	goto CeladonCity_DepartmentStore_Roof_EventScript_TryBuyDrink
+	end
 
 CeladonCity_DepartmentStore_Roof_EventScript_RemoveMoneyFreshWater::
 	removemoney 200
@@ -64,9 +55,6 @@ CeladonCity_DepartmentStore_Roof_EventScript_RemoveMoneyLemonade::
 	return
 
 CeladonCity_DepartmentStore_Roof_EventScript_TryBuyDrink::
-	call_if_eq VAR_TEMP_1, 0, CeladonCity_DepartmentStore_Roof_EventScript_CheckMoneyFreshWater
-	call_if_eq VAR_TEMP_1, 1, CeladonCity_DepartmentStore_Roof_EventScript_CheckMoneySodaPop
-	call_if_eq VAR_TEMP_1, 2, CeladonCity_DepartmentStore_Roof_EventScript_CheckMoneyLemonade
 	goto_if_eq VAR_RESULT, FALSE, CeladonCity_DepartmentStore_Roof_EventScript_NotEnoughMoney
 	checkitemspace VAR_TEMP_0
 	goto_if_eq VAR_RESULT, FALSE, CeladonCity_DepartmentStore_Roof_EventScript_NoRoomForDrink
@@ -78,29 +66,6 @@ CeladonCity_DepartmentStore_Roof_EventScript_TryBuyDrink::
 	playse SE_VEND
 	msgbox CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut
 	additem VAR_TEMP_0
-	bufferitemname STR_VAR_2, VAR_TEMP_0
-	bufferstdstring STR_VAR_3, STDSTRING_ITEMS
-	msgbox gText_PutItemInPocket
-	random 64  @ 1/64 chance of an additional drink dropping
-	goto_if_ne VAR_RESULT, 0, CeladonCity_DepartmentStore_Roof_EventScript_ChooseNewDrink
-	checkitemspace VAR_TEMP_0
-	goto_if_eq VAR_RESULT, FALSE, CeladonCity_DepartmentStore_Roof_EventScript_NoRoomForDrink
-	playse SE_VEND
-	msgbox CeladonCity_DepartmentStore_Roof_Text_ExtraCanOfDrinkDroppedDown
-	additem VAR_TEMP_0
-	bufferitemname STR_VAR_2, VAR_TEMP_0
-	bufferstdstring STR_VAR_3, STDSTRING_ITEMS
-	msgbox gText_PutItemInPocket
-	random 64  @ 1/64 * the prev 1/64 chance of a third additional drink dropping, ~ 0.02% chance
-	goto_if_ne VAR_RESULT, 0, CeladonCity_DepartmentStore_Roof_EventScript_ChooseNewDrink
-	checkitemspace VAR_TEMP_0
-	goto_if_eq VAR_RESULT, 0, CeladonCity_DepartmentStore_Roof_EventScript_NoRoomForDrink
-	playse SE_VEND
-	msgbox CeladonCity_DepartmentStore_Roof_Text_ExtraCanOfDrinkDroppedDown
-	additem VAR_TEMP_0
-	bufferitemname STR_VAR_2, VAR_TEMP_0
-	bufferstdstring STR_VAR_3, STDSTRING_ITEMS
-	msgbox gText_PutItemInPocket
 	goto CeladonCity_DepartmentStore_Roof_EventScript_ChooseNewDrink
 	end
 
@@ -130,23 +95,17 @@ CeladonCity_DepartmentStore_Roof_Text_FloorSign::
     .string "VENDING MACHINES$"
 
 CeladonCity_DepartmentStore_Roof_Text_VendingMachineWhatDoesItHave::
-    .string "It's a VENDING MACHINE.\n"
-    .string "Which drink would you like?$"
+    .string "A vending machine!\n"
+    .string "What does it have?$"
 
 CeladonCity_DepartmentStore_Roof_Text_NotEnoughMoney::
-    .string "Not enough money…$"
+    .string "Oops, not enough money!$"
 
 CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut::
-    .string "Clang!\p"
-    .string "A can of {STR_VAR_1} dropped down.$"
-
-CeladonCity_DepartmentStore_Roof_Text_ExtraCanOfDrinkDroppedDown::
-    .string "Clang!\p"
-    .string "Score! An extra can of {STR_VAR_1}\n"
-    .string "dropped down!$"
+    .string "A can of {STR_VAR_1} popped out!$"
 
 CeladonCity_DepartmentStore_Roof_Text_NoMoreRoomForStuff::
     .string "There's no more room for stuff!$"
 
 CeladonCity_DepartmentStore_Roof_Text_NotThirsty::
-    .string "Decided against buying a drink.$"
+    .string "Not thirsty!$"

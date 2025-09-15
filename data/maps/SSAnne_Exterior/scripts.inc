@@ -1,3 +1,7 @@
+.set LOCALID_ATTENDANT, 1
+.set LOCALID_SS_TIDAL, 2
+.set LOCALID_FERRY_SAILOR, 4
+.set LOCALID_BRINEY, 5
 
 SSAnne_Exterior_MapScripts::
 	.byte 0
@@ -102,7 +106,7 @@ SSAnne_Exterior_EventScript_GoToLilycove:: @ 821E149
 	goto_if_eq SSAnne_Exterior_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SSAnne_Exterior_EventScript_BoardFerry
-	warp MAP_LILYCOVE_CITY_HARBOR, 8, 11
+	warp MAP_LILYCOVE_CITY_HARBOR, 255, 8, 11
 	waitstate
 	release
 	end
@@ -113,7 +117,7 @@ SSAnne_Exterior_EventScript_GoToOlivine:: @ 821E149
 	goto_if_eq SSAnne_Exterior_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SSAnne_Exterior_EventScript_BoardFerry
-@ 	warp MAP_OLIVINE_CITY_HARBOR, 8, 5
+	warp MAP_OLIVINE_CITY_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -141,7 +145,7 @@ SSAnne_Exterior_EventScript_GoToSevii1:: @ 821E149
 	goto_if_eq SSAnne_Exterior_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SSAnne_Exterior_EventScript_BoardFerry
-@ 	warp MAP_ONE_ISLAND_HARBOR, 8, 5
+	warp MAP_ONE_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -152,7 +156,7 @@ SSAnne_Exterior_EventScript_GoToSevii2:: @ 821E149
 	goto_if_eq SSAnne_Exterior_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SSAnne_Exterior_EventScript_BoardFerry
-@ 	warp MAP_TWO_ISLAND_HARBOR, 8, 5
+	warp MAP_TWO_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -163,7 +167,7 @@ SSAnne_Exterior_EventScript_GoToSevii3:: @ 821E149
 	goto_if_eq SSAnne_Exterior_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SSAnne_Exterior_EventScript_BoardFerry
-@ 	warp MAP_THREE_ISLAND_HARBOR, 8, 5
+	warp MAP_THREE_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -174,7 +178,7 @@ SSAnne_Exterior_EventScript_GoToSevii4:: @ 821E149
 	goto_if_eq SSAnne_Exterior_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SSAnne_Exterior_EventScript_BoardFerry
-@ 	warp MAP_FOUR_ISLAND_HARBOR, 8, 5
+	warp MAP_FOUR_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -185,7 +189,7 @@ SSAnne_Exterior_EventScript_GoToSevii5:: @ 821E149
 	goto_if_eq SSAnne_Exterior_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SSAnne_Exterior_EventScript_BoardFerry
-@ 	warp MAP_FIVE_ISLAND_HARBOR, 8, 5
+	warp MAP_FIVE_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -196,7 +200,7 @@ SSAnne_Exterior_EventScript_GoToSevii6:: @ 821E149
 	goto_if_eq SSAnne_Exterior_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SSAnne_Exterior_EventScript_BoardFerry
-@ 	warp MAP_SIX_ISLAND_HARBOR, 8, 5
+	warp MAP_SIX_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -207,7 +211,7 @@ SSAnne_Exterior_EventScript_GoToSevii7:: @ 821E149
 	goto_if_eq SSAnne_Exterior_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SSAnne_Exterior_EventScript_BoardFerry
-@ 	warp MAP_SEVEN_ISLAND_HARBOR, 8, 5
+	warp MAP_SEVEN_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -341,12 +345,16 @@ SSAnne_Exterior_EventScript_OldSeaMapFirstTime::
 	call SSAnne_Exterior_EventScript_GetEventTicketSailor
 	msgbox EventTicket_Text_OldSeaMapTooFar, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	playse SE_PIN
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_ExclamationMark
 	waitmovement 0
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_Delay48
 	waitmovement 0
 	call_if_eq VAR_FACING, DIR_NORTH, SSAnne_Exterior_EventScript_MoveSailorOutOfWayNorth
 	call_if_eq VAR_FACING, DIR_EAST, SSAnne_Exterior_EventScript_MoveSailorOutOfWayEast
+	addobject LOCALID_BRINEY
 	call_if_eq VAR_FACING, DIR_NORTH, SSAnne_Exterior_EventScript_BrineyFaceSailorNorth
 	call_if_eq VAR_FACING, DIR_EAST, SSAnne_Exterior_EventScript_BrineyFaceSailorEast
 	msgbox EventTicket_Text_BrineyHoldOnASecond, MSGBOX_DEFAULT
@@ -356,6 +364,7 @@ SSAnne_Exterior_EventScript_OldSeaMapFirstTime::
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, SSAnne_Exterior_EventScript_BoardFerryWithBrineyAndSailorNorth
 	call_if_eq VAR_FACING, DIR_EAST, SSAnne_Exterior_EventScript_BoardFerryWithBrineyAndSailorEast
+	setvar VAR_0x8004, LOCALID_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	warp MAP_FARAWAY_ISLAND_ENTRANCE, 13, 38
 	waitstate
@@ -410,10 +419,14 @@ SSAnne_Exterior_EventScript_MultipleEventTicketsFirstTime::
 SSAnne_Exterior_EventScript_ExitFirstTimeTicketSailSelect::
 	msgbox EventTicket_Text_AsYouLike, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
+	removeobject LOCALID_FERRY_SAILOR
 	delay 30
+	applymovement LOCALID_ATTENDANT, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
+	showobjectat LOCALID_ATTENDANT, MAP_SSANNE_EXTERIOR
 	delay 30
 	msgbox SSAnne_Exterior_Text_SailAnotherTime, MSGBOX_DEFAULT
 	release
@@ -423,19 +436,24 @@ SSAnne_Exterior_EventScript_GetEventTicketSailor::
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
-@ 	hideobjectat VAR_LAST_TALKED, MAP_SSANNE_EXTERIOR
+	hideobjectat VAR_LAST_TALKED, MAP_SSANNE_EXTERIOR
 	delay 60
+	addobject LOCALID_FERRY_SAILOR
 	delay 30
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_FacePlayer
 	waitmovement 0
 	return
 
 SSAnne_Exterior_EventScript_BoardFerryWithSailor::
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
+	removeobject LOCALID_FERRY_SAILOR
 	call_if_eq VAR_FACING, DIR_NORTH, SSAnne_Exterior_EventScript_PlayerBoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, SSAnne_Exterior_EventScript_PlayerBoardFerryEast
 	delay 30
 	hideobjectat OBJ_EVENT_ID_PLAYER, 0
+	setvar VAR_0x8004, LOCALID_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	return
 
@@ -490,11 +508,12 @@ SSAnne_Exterior_EventScript_BoardFerry::
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
-@ 	hideobjectat VAR_LAST_TALKED, MAP_SSANNE_EXTERIOR
+	hideobjectat VAR_LAST_TALKED, MAP_SSANNE_EXTERIOR
 	call_if_eq VAR_FACING, DIR_NORTH, SSAnne_Exterior_EventScript_PlayerBoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, SSAnne_Exterior_EventScript_PlayerBoardFerryEast
 	delay 30
 	hideobjectat OBJ_EVENT_ID_PLAYER, 0
+	setvar VAR_0x8004, LOCALID_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	return
 
@@ -540,10 +559,12 @@ SSAnne_Exterior_EventScript_SailorFerryAvailable::
 	end
 
 SSAnne_Exterior_EventScript_MoveSailorOutOfWayNorth::
+	applymovement LOCALID_FERRY_SAILOR, SSAnne_Exterior_Movement_SailorOutOfWayNorth
 	waitmovement 0
 	return
 
 SSAnne_Exterior_EventScript_MoveSailorOutOfWayEast::
+	applymovement LOCALID_FERRY_SAILOR, SSAnne_Exterior_Movement_SailorOutOfWayEast
 	waitmovement 0
 	return
 
@@ -561,28 +582,36 @@ SSAnne_Exterior_Movement_SailorOutOfWayEast:
 	step_end
 
 SSAnne_Exterior_EventScript_BrineyFaceSailorNorth::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	return
 
 SSAnne_Exterior_EventScript_BrineyFaceSailorEast::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 SSAnne_Exterior_EventScript_BrineyFacePlayerNorth::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 SSAnne_Exterior_EventScript_BrineyFacePlayerEast::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	return
 
 SSAnne_Exterior_EventScript_BoardFerryWithBrineyAndSailorNorth::
+	applymovement LOCALID_BRINEY, SSAnne_Exterior_Movement_BrineyBoardFerry
 	applymovement OBJ_EVENT_ID_PLAYER, SSAnne_Exterior_Movement_PlayerBoardWithBrineyNorth
+	applymovement LOCALID_FERRY_SAILOR, SSAnne_Exterior_Movement_SailorBoardWithBrineyNorth
 	waitmovement 0
 	return
 
 SSAnne_Exterior_EventScript_BoardFerryWithBrineyAndSailorEast::
+	applymovement LOCALID_BRINEY, SSAnne_Exterior_Movement_BrineyBoardFerry
 	applymovement OBJ_EVENT_ID_PLAYER, SSAnne_Exterior_Movement_PlayerBoardWithBrineyEast
+	applymovement LOCALID_FERRY_SAILOR, SSAnne_Exterior_Movement_SailorBoardWithBrineyEast
 	waitmovement 0
 	return
 

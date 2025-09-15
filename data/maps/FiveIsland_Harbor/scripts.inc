@@ -1,10 +1,14 @@
+.set LOCALID_ATTENDANT, 1
+.set LOCALID_SS_TIDAL, 2
+.set LOCALID_FERRY_SAILOR, 4
+.set LOCALID_BRINEY, 5
 
 FiveIsland_Harbor_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, FiveIsland_Harbor_OnTransition
 	.byte 0
 
 FiveIsland_Harbor_OnTransition:
-@ 	setescapewarp MAP_FIVE_ISLAND, 12, 14
+	setescapewarp MAP_FIVE_ISLAND, 12, 14
 	end
 
 FiveIsland_Harbor_EventScript_FerryAttendant::
@@ -17,6 +21,7 @@ FiveIsland_Harbor_EventScript_FerryAttendant::
 	call FiveIsland_Harbor_EventScript_GetMysticTicketState
 	call FiveIsland_Harbor_EventScript_GetFirstTimeShowingTicket
 	call FiveIsland_Harbor_EventScript_GetHasTicketsState
+	goto_if_eq VAR_TEMP_C, 2, FiveIsland_Harbor_EventScript_OldSeaMapFirstTime
 	goto_if_eq VAR_TEMP_B, 1, FiveIsland_Harbor_EventScript_EonTicketFirstTime
 	goto_if_eq VAR_TEMP_B, 2, FiveIsland_Harbor_EventScript_AuroraTicketFirstTime
 	goto_if_eq VAR_TEMP_B, 4, FiveIsland_Harbor_EventScript_OldSeaMapFirstTime
@@ -25,6 +30,7 @@ FiveIsland_Harbor_EventScript_FerryAttendant::
 	goto FiveIsland_Harbor_EventScript_NoFirstTimeEventTickets
 	end
 
+@ First goto_if_eq is unnecessary; identical scripts
 FiveIsland_Harbor_EventScript_NoFirstTimeEventTickets::
 	goto_if_eq VAR_TEMP_A, 0, FiveIsland_Harbor_EventScript_NoEventTickets
 	msgbox FiveIsland_Harbor_Text_MayISeeYourTicket, MSGBOX_DEFAULT
@@ -41,7 +47,7 @@ FiveIsland_Harbor_EventScript_FerryRegularLocationSelect::
 	switch VAR_RESULT
 	case 0, FiveIsland_Harbor_EventScript_GoToSlateport
 	case 1, FiveIsland_Harbor_EventScript_GoToLilycove
-	case 2, FiveIsland_Harbor_EventScript_GoToVermilion
+    case 2, FiveIsland_Harbor_EventScript_GoToVermilion
 	case 3, FiveIsland_Harbor_EventScript_GoToOlivine
 	case 4, FiveIsland_Harbor_EventScript_GoToSevii
 	case 5, FiveIsland_Harbor_EventScript_GoToBattleFrontier
@@ -83,8 +89,7 @@ FiveIsland_Harbor_EventScript_GoToFarawayIsland::
 
 FiveIsland_Harbor_EventScript_GoToSlateport::
 	msgbox FiveIsland_Harbor_Text_SlateportItIs, MSGBOX_YESNO
-	compare VAR_RESULT, NO
-	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
+	goto_if_eq VAR_RESULT, NO, FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call FiveIsland_Harbor_EventScript_BoardFerry
 	warp MAP_SS_TIDAL_CORRIDOR, 1, 10
@@ -94,8 +99,7 @@ FiveIsland_Harbor_EventScript_GoToSlateport::
 
 FiveIsland_Harbor_EventScript_GoToBattleFrontier::
 	msgbox FiveIsland_Harbor_Text_BattleFrontierItIs, MSGBOX_YESNO
-	compare VAR_RESULT, NO
-	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
+	goto_if_eq VAR_RESULT, NO, FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	call FiveIsland_Harbor_EventScript_BoardFerry
 	warp MAP_BATTLE_FRONTIER_OUTSIDE_WEST, 19, 67
 	waitstate
@@ -108,7 +112,7 @@ FiveIsland_Harbor_EventScript_GoToVermilion:: @ 821E149
 	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call FiveIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_SSANNE_EXTERIOR, 32, 13
+	warp MAP_SSANNE_EXTERIOR, 255, 32, 13
 	waitstate
 	release
 	end
@@ -119,7 +123,7 @@ FiveIsland_Harbor_EventScript_GoToLilycove:: @ 821E149
 	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call FiveIsland_Harbor_EventScript_BoardFerry
-	warp MAP_LILYCOVE_CITY_HARBOR, 8, 11
+	warp MAP_LILYCOVE_CITY_HARBOR, 255, 8, 11
 	waitstate
 	release
 	end
@@ -130,7 +134,7 @@ FiveIsland_Harbor_EventScript_GoToOlivine:: @ 821E149
 	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call FiveIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_OLIVINE_CITY_HARBOR, 8, 5
+	warp MAP_OLIVINE_CITY_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -157,7 +161,7 @@ FiveIsland_Harbor_EventScript_GoToSevii1:: @ 821E149
 	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call FiveIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_ONE_ISLAND_HARBOR, 8, 5
+	warp MAP_ONE_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -168,7 +172,7 @@ FiveIsland_Harbor_EventScript_GoToSevii2:: @ 821E149
 	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call FiveIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_TWO_ISLAND_HARBOR, 8, 5
+	warp MAP_TWO_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -179,7 +183,7 @@ FiveIsland_Harbor_EventScript_GoToSevii3:: @ 821E149
 	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call FiveIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_THREE_ISLAND_HARBOR, 8, 5
+	warp MAP_THREE_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -190,7 +194,7 @@ FiveIsland_Harbor_EventScript_GoToSevii4:: @ 821E149
 	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call FiveIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_FOUR_ISLAND_HARBOR, 8, 5
+	warp MAP_FOUR_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -201,7 +205,7 @@ FiveIsland_Harbor_EventScript_GoToSevii6:: @ 821E149
 	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call FiveIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_SIX_ISLAND_HARBOR, 8, 5
+	warp MAP_SIX_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -212,7 +216,7 @@ FiveIsland_Harbor_EventScript_GoToSevii7:: @ 821E149
 	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call FiveIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_SEVEN_ISLAND_HARBOR, 8, 5
+	warp MAP_SEVEN_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -346,12 +350,16 @@ FiveIsland_Harbor_EventScript_OldSeaMapFirstTime::
 	call FiveIsland_Harbor_EventScript_GetEventTicketSailor
 	msgbox EventTicket_Text_OldSeaMapTooFar, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	playse SE_PIN
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_ExclamationMark
 	waitmovement 0
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_Delay48
 	waitmovement 0
 	call_if_eq VAR_FACING, DIR_NORTH, FiveIsland_Harbor_EventScript_MoveSailorOutOfWayNorth
 	call_if_eq VAR_FACING, DIR_EAST, FiveIsland_Harbor_EventScript_MoveSailorOutOfWayEast
+	addobject LOCALID_BRINEY
 	call_if_eq VAR_FACING, DIR_NORTH, FiveIsland_Harbor_EventScript_BrineyFaceSailorNorth
 	call_if_eq VAR_FACING, DIR_EAST, FiveIsland_Harbor_EventScript_BrineyFaceSailorEast
 	msgbox EventTicket_Text_BrineyHoldOnASecond, MSGBOX_DEFAULT
@@ -416,10 +424,14 @@ FiveIsland_Harbor_EventScript_MultipleEventTicketsFirstTime::
 FiveIsland_Harbor_EventScript_ExitFirstTimeTicketSailSelect::
 	msgbox EventTicket_Text_AsYouLike, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
+	removeobject LOCALID_FERRY_SAILOR
 	delay 30
+	applymovement LOCALID_ATTENDANT, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
+	showobjectat LOCALID_ATTENDANT, MAP_FIVE_ISLAND_HARBOR
 	delay 30
 	msgbox FiveIsland_Harbor_Text_SailAnotherTime, MSGBOX_DEFAULT
 	release
@@ -429,15 +441,19 @@ FiveIsland_Harbor_EventScript_GetEventTicketSailor::
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
-@ 	hideobjectat VAR_LAST_TALKED, MAP_FIVE_ISLAND_HARBOR
+	hideobjectat VAR_LAST_TALKED, MAP_FIVE_ISLAND_HARBOR
 	delay 60
+	addobject LOCALID_FERRY_SAILOR
 	delay 30
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_FacePlayer
 	waitmovement 0
 	return
 
 FiveIsland_Harbor_EventScript_BoardFerryWithSailor::
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
+	removeobject LOCALID_FERRY_SAILOR
 	call_if_eq VAR_FACING, DIR_NORTH, FiveIsland_Harbor_EventScript_PlayerBoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, FiveIsland_Harbor_EventScript_PlayerBoardFerryEast
 	delay 30
@@ -467,8 +483,7 @@ FiveIsland_Harbor_EventScript_NoTicket::
 @ Unused
 FiveIsland_Harbor_EventScript_GoToSlateportUnused::
 	msgbox FiveIsland_Harbor_Text_SlateportItIs, MSGBOX_YESNO
-	compare VAR_RESULT, NO
-	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
+	goto_if_eq VAR_RESULT, NO, FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call FiveIsland_Harbor_EventScript_BoardFerry
 	warp MAP_SS_TIDAL_CORRIDOR, 1, 10
@@ -479,8 +494,7 @@ FiveIsland_Harbor_EventScript_GoToSlateportUnused::
 @ Unused
 FiveIsland_Harbor_EventScript_GoToBattleFrontierUnused::
 	msgbox FiveIsland_Harbor_Text_BattleFrontierItIs, MSGBOX_YESNO
-	compare VAR_RESULT, NO
-	goto_if_eq FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
+	goto_if_eq VAR_RESULT, NO, FiveIsland_Harbor_EventScript_FerryDestinationChangeMind
 	call FiveIsland_Harbor_EventScript_BoardFerry
 	warp MAP_BATTLE_FRONTIER_OUTSIDE_WEST, 19, 67
 	waitstate
@@ -499,7 +513,7 @@ FiveIsland_Harbor_EventScript_BoardFerry::
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
-@ 	hideobjectat VAR_LAST_TALKED, MAP_FIVE_ISLAND_HARBOR
+	hideobjectat VAR_LAST_TALKED, MAP_FIVE_ISLAND_HARBOR
 	call_if_eq VAR_FACING, DIR_NORTH, FiveIsland_Harbor_EventScript_PlayerBoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, FiveIsland_Harbor_EventScript_PlayerBoardFerryEast
 	delay 30
@@ -550,10 +564,12 @@ FiveIsland_Harbor_EventScript_SailorFerryAvailable::
 	end
 
 FiveIsland_Harbor_EventScript_MoveSailorOutOfWayNorth::
+	applymovement LOCALID_FERRY_SAILOR, FiveIsland_Harbor_Movement_SailorOutOfWayNorth
 	waitmovement 0
 	return
 
 FiveIsland_Harbor_EventScript_MoveSailorOutOfWayEast::
+	applymovement LOCALID_FERRY_SAILOR, FiveIsland_Harbor_Movement_SailorOutOfWayEast
 	waitmovement 0
 	return
 
@@ -571,28 +587,36 @@ FiveIsland_Harbor_Movement_SailorOutOfWayEast:
 	step_end
 
 FiveIsland_Harbor_EventScript_BrineyFaceSailorNorth::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	return
 
 FiveIsland_Harbor_EventScript_BrineyFaceSailorEast::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 FiveIsland_Harbor_EventScript_BrineyFacePlayerNorth::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 FiveIsland_Harbor_EventScript_BrineyFacePlayerEast::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	return
 
 FiveIsland_Harbor_EventScript_BoardFerryWithBrineyAndSailorNorth::
+	applymovement LOCALID_BRINEY, FiveIsland_Harbor_Movement_BrineyBoardFerry
 	applymovement OBJ_EVENT_ID_PLAYER, FiveIsland_Harbor_Movement_PlayerBoardWithBrineyNorth
+	applymovement LOCALID_FERRY_SAILOR, FiveIsland_Harbor_Movement_SailorBoardWithBrineyNorth
 	waitmovement 0
 	return
 
 FiveIsland_Harbor_EventScript_BoardFerryWithBrineyAndSailorEast::
+	applymovement LOCALID_BRINEY, FiveIsland_Harbor_Movement_BrineyBoardFerry
 	applymovement OBJ_EVENT_ID_PLAYER, FiveIsland_Harbor_Movement_PlayerBoardWithBrineyEast
+	applymovement LOCALID_FERRY_SAILOR, FiveIsland_Harbor_Movement_SailorBoardWithBrineyEast
 	waitmovement 0
 	return
 

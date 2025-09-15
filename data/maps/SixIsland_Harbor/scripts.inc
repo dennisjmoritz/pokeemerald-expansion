@@ -1,11 +1,14 @@
-
+.set LOCALID_ATTENDANT, 1
+.set LOCALID_SS_TIDAL, 2
+.set LOCALID_FERRY_SAILOR, 4
+.set LOCALID_BRINEY, 5
 
 SixIsland_Harbor_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, SixIsland_Harbor_OnTransition
 	.byte 0
 
 SixIsland_Harbor_OnTransition:
-@ 	setescapewarp MAP_SIX_ISLAND, 11, 23
+	setescapewarp MAP_SIX_ISLAND, 11, 23
 	end
 
 SixIsland_Harbor_EventScript_FerryAttendant::
@@ -109,7 +112,7 @@ SixIsland_Harbor_EventScript_GoToVermilion:: @ 821E149
 	goto_if_eq SixIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SixIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_SSANNE_EXTERIOR, 32, 13
+	warp MAP_SSANNE_EXTERIOR, 255, 32, 13
 	waitstate
 	release
 	end
@@ -120,7 +123,7 @@ SixIsland_Harbor_EventScript_GoToLilycove:: @ 821E149
 	goto_if_eq SixIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SixIsland_Harbor_EventScript_BoardFerry
-	warp MAP_LILYCOVE_CITY_HARBOR, 8, 11
+	warp MAP_LILYCOVE_CITY_HARBOR, 255, 8, 11
 	waitstate
 	release
 	end
@@ -131,7 +134,7 @@ SixIsland_Harbor_EventScript_GoToOlivine:: @ 821E149
 	goto_if_eq SixIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SixIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_OLIVINE_CITY_HARBOR, 8, 5
+	warp MAP_OLIVINE_CITY_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -158,7 +161,7 @@ SixIsland_Harbor_EventScript_GoToSevii1:: @ 821E149
 	goto_if_eq SixIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SixIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_ONE_ISLAND_HARBOR, 8, 5
+	warp MAP_ONE_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -169,7 +172,7 @@ SixIsland_Harbor_EventScript_GoToSevii2:: @ 821E149
 	goto_if_eq SixIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SixIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_TWO_ISLAND_HARBOR, 8, 5
+	warp MAP_TWO_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -180,7 +183,7 @@ SixIsland_Harbor_EventScript_GoToSevii3:: @ 821E149
 	goto_if_eq SixIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SixIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_THREE_ISLAND_HARBOR, 8, 5
+	warp MAP_THREE_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -191,7 +194,7 @@ SixIsland_Harbor_EventScript_GoToSevii4:: @ 821E149
 	goto_if_eq SixIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SixIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_FOUR_ISLAND_HARBOR, 8, 5
+	warp MAP_FOUR_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -202,7 +205,7 @@ SixIsland_Harbor_EventScript_GoToSevii5:: @ 821E149
 	goto_if_eq SixIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SixIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_FIVE_ISLAND_HARBOR, 8, 5
+	warp MAP_FIVE_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -213,7 +216,7 @@ SixIsland_Harbor_EventScript_GoToSevii7:: @ 821E149
 	goto_if_eq SixIsland_Harbor_EventScript_FerryDestinationChangeMind
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE
 	call SixIsland_Harbor_EventScript_BoardFerry
-@ 	warp MAP_SEVEN_ISLAND_HARBOR, 8, 5
+	warp MAP_SEVEN_ISLAND_HARBOR, 255, 8, 5
 	waitstate
 	release
 	end
@@ -347,12 +350,16 @@ SixIsland_Harbor_EventScript_OldSeaMapFirstTime::
 	call SixIsland_Harbor_EventScript_GetEventTicketSailor
 	msgbox EventTicket_Text_OldSeaMapTooFar, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	playse SE_PIN
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_ExclamationMark
 	waitmovement 0
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_Delay48
 	waitmovement 0
 	call_if_eq VAR_FACING, DIR_NORTH, SixIsland_Harbor_EventScript_MoveSailorOutOfWayNorth
 	call_if_eq VAR_FACING, DIR_EAST, SixIsland_Harbor_EventScript_MoveSailorOutOfWayEast
+	addobject LOCALID_BRINEY
 	call_if_eq VAR_FACING, DIR_NORTH, SixIsland_Harbor_EventScript_BrineyFaceSailorNorth
 	call_if_eq VAR_FACING, DIR_EAST, SixIsland_Harbor_EventScript_BrineyFaceSailorEast
 	msgbox EventTicket_Text_BrineyHoldOnASecond, MSGBOX_DEFAULT
@@ -362,6 +369,7 @@ SixIsland_Harbor_EventScript_OldSeaMapFirstTime::
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, SixIsland_Harbor_EventScript_BoardFerryWithBrineyAndSailorNorth
 	call_if_eq VAR_FACING, DIR_EAST, SixIsland_Harbor_EventScript_BoardFerryWithBrineyAndSailorEast
+	setvar VAR_0x8004, LOCALID_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	warp MAP_FARAWAY_ISLAND_ENTRANCE, 13, 38
 	waitstate
@@ -416,10 +424,14 @@ SixIsland_Harbor_EventScript_MultipleEventTicketsFirstTime::
 SixIsland_Harbor_EventScript_ExitFirstTimeTicketSailSelect::
 	msgbox EventTicket_Text_AsYouLike, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
+	removeobject LOCALID_FERRY_SAILOR
 	delay 30
+	applymovement LOCALID_ATTENDANT, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
+	showobjectat LOCALID_ATTENDANT, MAP_SIX_ISLAND_HARBOR
 	delay 30
 	msgbox SixIsland_Harbor_Text_SailAnotherTime, MSGBOX_DEFAULT
 	release
@@ -429,19 +441,24 @@ SixIsland_Harbor_EventScript_GetEventTicketSailor::
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
-@ 	hideobjectat VAR_LAST_TALKED, MAP_SIX_ISLAND_HARBOR
+	hideobjectat VAR_LAST_TALKED, MAP_SIX_ISLAND_HARBOR
 	delay 60
+	addobject LOCALID_FERRY_SAILOR
 	delay 30
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_FacePlayer
 	waitmovement 0
 	return
 
 SixIsland_Harbor_EventScript_BoardFerryWithSailor::
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
+	removeobject LOCALID_FERRY_SAILOR
 	call_if_eq VAR_FACING, DIR_NORTH, SixIsland_Harbor_EventScript_PlayerBoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, SixIsland_Harbor_EventScript_PlayerBoardFerryEast
 	delay 30
 	hideobjectat OBJ_EVENT_ID_PLAYER, 0
+	setvar VAR_0x8004, LOCALID_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	return
 
@@ -496,11 +513,12 @@ SixIsland_Harbor_EventScript_BoardFerry::
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
-@ 	hideobjectat VAR_LAST_TALKED, MAP_SIX_ISLAND_HARBOR
+	hideobjectat VAR_LAST_TALKED, MAP_SIX_ISLAND_HARBOR
 	call_if_eq VAR_FACING, DIR_NORTH, SixIsland_Harbor_EventScript_PlayerBoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, SixIsland_Harbor_EventScript_PlayerBoardFerryEast
 	delay 30
 	hideobjectat OBJ_EVENT_ID_PLAYER, 0
+	setvar VAR_0x8004, LOCALID_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	return
 
@@ -546,10 +564,12 @@ SixIsland_Harbor_EventScript_SailorFerryAvailable::
 	end
 
 SixIsland_Harbor_EventScript_MoveSailorOutOfWayNorth::
+	applymovement LOCALID_FERRY_SAILOR, SixIsland_Harbor_Movement_SailorOutOfWayNorth
 	waitmovement 0
 	return
 
 SixIsland_Harbor_EventScript_MoveSailorOutOfWayEast::
+	applymovement LOCALID_FERRY_SAILOR, SixIsland_Harbor_Movement_SailorOutOfWayEast
 	waitmovement 0
 	return
 
@@ -567,28 +587,36 @@ SixIsland_Harbor_Movement_SailorOutOfWayEast:
 	step_end
 
 SixIsland_Harbor_EventScript_BrineyFaceSailorNorth::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	return
 
 SixIsland_Harbor_EventScript_BrineyFaceSailorEast::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 SixIsland_Harbor_EventScript_BrineyFacePlayerNorth::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 SixIsland_Harbor_EventScript_BrineyFacePlayerEast::
+	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	return
 
 SixIsland_Harbor_EventScript_BoardFerryWithBrineyAndSailorNorth::
+	applymovement LOCALID_BRINEY, SixIsland_Harbor_Movement_BrineyBoardFerry
 	applymovement OBJ_EVENT_ID_PLAYER, SixIsland_Harbor_Movement_PlayerBoardWithBrineyNorth
+	applymovement LOCALID_FERRY_SAILOR, SixIsland_Harbor_Movement_SailorBoardWithBrineyNorth
 	waitmovement 0
 	return
 
 SixIsland_Harbor_EventScript_BoardFerryWithBrineyAndSailorEast::
+	applymovement LOCALID_BRINEY, SixIsland_Harbor_Movement_BrineyBoardFerry
 	applymovement OBJ_EVENT_ID_PLAYER, SixIsland_Harbor_Movement_PlayerBoardWithBrineyEast
+	applymovement LOCALID_FERRY_SAILOR, SixIsland_Harbor_Movement_SailorBoardWithBrineyEast
 	waitmovement 0
 	return
 
