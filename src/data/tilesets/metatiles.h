@@ -462,3 +462,60 @@ const u16 gMetatileAttributes_DottedHole[] = INCBIN_U16("data/tilesets/secondary
 
 const u16 gMetatiles_CeruleanCave[] = INCBIN_U16("data/tilesets/secondary/ceruleancave/metatiles.bin");
 const u16 gMetatileAttributes_CeruleanCave[] = INCBIN_U16("data/tilesets/secondary/ceruleancave/metatile_attributes.bin");
+
+const u16 gMetatiles_FRLG_General[] = INCBIN_U16("data/tilesets/primary/frlg_general/metatiles.bin");
+const u16 gMetatileAttributes_FRLG_General[] = INCBIN_U16("data/tilesets/primary/frlg_general/metatile_attributes.bin");
+
+const u16 gMetatiles_FRLG_Building[] = INCBIN_U16("data/tilesets/primary/frlg_building/metatiles.bin");
+const u16 gMetatileAttributes_FRLG_Building[] = INCBIN_U16("data/tilesets/primary/frlg_building/metatile_attributes.bin");
+
+const u16 gMetatiles_Twin_Leaf_Town[] = INCBIN_U16("data/tilesets/secondary/twin_leaf_town/metatiles.bin");
+const u16 gMetatileAttributes_Twin_Leaf_Town[] = INCBIN_U16("data/tilesets/secondary/twin_leaf_town/metatile_attributes.bin");
+
+const u16 gMetatiles_Sevii_Island_123[] = INCBIN_U16("data/tilesets/secondary/sevii_island_123/metatiles.bin");
+const u16 gMetatileAttributes_Sevii_Island_123[] = INCBIN_U16("data/tilesets/secondary/sevii_island_123/metatile_attributes.bin");
+
+const u16 gMetatiles_Sandgem_Town[] = INCBIN_U16("data/tilesets/secondary/sandgem_town/metatiles.bin");
+const u16 gMetatileAttributes_Sandgem_Town[] = INCBIN_U16("data/tilesets/secondary/sandgem_town/metatile_attributes.bin");
+
+const u16 gMetatiles_Jubilife_City[] = INCBIN_U16("data/tilesets/secondary/jubilife_city/metatiles.bin");
+const u16 gMetatileAttributes_Jubilife_City[] = INCBIN_U16("data/tilesets/secondary/jubilife_city/metatile_attributes.bin");
+
+const u16 gMetatiles_Canalave_City[] = INCBIN_U16("data/tilesets/secondary/canalave_city/metatiles.bin");
+const u16 gMetatileAttributes_Canalave_City[] = INCBIN_U16("data/tilesets/secondary/canalave_city/metatile_attributes.bin");
+
+const u16 gMetatiles_frlg_cave[] = INCBIN_U16("data/tilesets/secondary/frlg_cave/metatiles.bin");
+const u16 gMetatileAttributes_frlg_cave[] = INCBIN_U16("data/tilesets/secondary/frlg_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_Oreburgh_City[] = INCBIN_U16("data/tilesets/secondary/oreburgh_city/metatiles.bin");
+const u16 gMetatileAttributes_Oreburgh_City[] = INCBIN_U16("data/tilesets/secondary/oreburgh_city/metatile_attributes.bin");
+
+const u16 gMetatiles_Eterna_City[] = INCBIN_U16("data/tilesets/secondary/eterna_city/metatiles.bin");
+const u16 gMetatileAttributes_Eterna_City[] = INCBIN_U16("data/tilesets/secondary/eterna_city/metatile_attributes.bin");
+
+const u16 gMetatiles_FRLG_Generic_Building[] = INCBIN_U16("data/tilesets/secondary/frlg_generic_building/metatiles.bin");
+const u16 gMetatileAttributes_FRLG_Generic_Building[] = INCBIN_U16("data/tilesets/secondary/frlg_generic_building/metatile_attributes.bin");
+
+const u16 gMetatiles_Floroma_Town[] = INCBIN_U16("data/tilesets/secondary/floroma_town/metatiles.bin");
+const u16 gMetatileAttributes_Floroma_Town[] = INCBIN_U16("data/tilesets/secondary/floroma_town/metatile_attributes.bin");
+
+const u16 gMetatiles_Valley_Windworks[] = INCBIN_U16("data/tilesets/secondary/valley_windworks/metatiles.bin");
+const u16 gMetatileAttributes_Valley_Windworks[] = INCBIN_U16("data/tilesets/secondary/valley_windworks/metatile_attributes.bin");
+
+const u16 gMetatiles_HeartHome_City[] = INCBIN_U16("data/tilesets/secondary/heart_home_city/metatiles.bin");
+const u16 gMetatileAttributes_HeartHome_City[] = INCBIN_U16("data/tilesets/secondary/heart_home_city/metatile_attributes.bin");
+
+const u16 gMetatiles_Veilstone_City[] = INCBIN_U16("data/tilesets/secondary/veilstone_city/metatiles.bin");
+const u16 gMetatileAttributes_Veilstone_City[] = INCBIN_U16("data/tilesets/secondary/veilstone_city/metatile_attributes.bin");
+
+const u16 gMetatiles_PastoriaCity[] = INCBIN_U16("data/tilesets/secondary/pastoria_city/metatiles.bin");
+const u16 gMetatileAttributes_PastoriaCity[] = INCBIN_U16("data/tilesets/secondary/pastoria_city/metatile_attributes.bin");
+
+const u16 gMetatiles_Sinnoh_Leauge[] = INCBIN_U16("data/tilesets/secondary/sinnoh_leauge/metatiles.bin");
+const u16 gMetatileAttributes_Sinnoh_Leauge[] = INCBIN_U16("data/tilesets/secondary/sinnoh_leauge/metatile_attributes.bin");
+
+const u16 gMetatiles_Sunyshore_City[] = INCBIN_U16("data/tilesets/secondary/sunyshore_city/metatiles.bin");
+const u16 gMetatileAttributes_Sunyshore_City[] = INCBIN_U16("data/tilesets/secondary/sunyshore_city/metatile_attributes.bin");
+
+const u16 gMetatiles_Mart[] = INCBIN_U16("data/tilesets/secondary/mart/metatiles.bin");
+const u16 gMetatileAttributes_Mart[] = INCBIN_U16("data/tilesets/secondary/mart/metatile_attributes.bin");
