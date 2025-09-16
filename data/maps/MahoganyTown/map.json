@@ -2,7 +2,7 @@
   "id": "MAP_MAHOGANY_TOWN",
   "name": "MahoganyTown",
   "layout": "LAYOUT_MAHOGANY_TOWN",
-  "music": "MUS_CHERRYGROVE",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_MAHOGANY_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -29,9 +29,7 @@
       "direction": "right"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 10,
@@ -76,9 +74,7 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -104,5 +100,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "MahoganyTown_EventScript_GymSign"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_CHERRYGROVE to MUS_ROUTE101 because unavailable"
 }

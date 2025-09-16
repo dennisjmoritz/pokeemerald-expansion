@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE38",
   "name": "Route38",
   "layout": "LAYOUT_ROUTE38",
-  "music": "MUS_ROUTE38",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ROUTE_38",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,9 +24,7 @@
       "direction": "left"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 46,
@@ -36,9 +34,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -48,5 +44,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route38_EventScript_RouteSign"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_ROUTE38 to MUS_ROUTE101 because unavailable"
 }

@@ -2,7 +2,7 @@
   "id": "MAP_RUINS_OF_ALPH_INNER_CHAMBER",
   "name": "RuinsOfAlph_InnerChamber",
   "layout": "LAYOUT_RUINS_OF_ALPH_INNER_CHAMBER",
-  "music": "MUS_RUINS_OF_ALPH",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_RUINS_OF_ALPH",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,9 +13,7 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 16,
@@ -109,10 +107,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": [],
+  "comment": "Changed music from MUS_RUINS_OF_ALPH to MUS_ROUTE101 because unavailable"
 }

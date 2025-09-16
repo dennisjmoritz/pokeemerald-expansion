@@ -2,7 +2,7 @@
   "id": "MAP_AZALEA_TOWN",
   "name": "AzaleaTown",
   "layout": "LAYOUT_AZALEA_TOWN",
-  "music": "MUS_AZALEA",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_AZALEA_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -19,9 +19,7 @@
       "direction": "right"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 32,
@@ -73,9 +71,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -125,5 +121,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_AZALEA to MUS_ROUTE101 because unavailable"
 }

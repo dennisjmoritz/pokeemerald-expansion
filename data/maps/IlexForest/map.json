@@ -2,7 +2,7 @@
   "id": "MAP_ILEX_FOREST",
   "name": "IlexForest",
   "layout": "LAYOUT_ILEX_FOREST",
-  "music": "MUS_UNION_CAVE",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ILEX_FOREST",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,9 +13,7 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 12,
@@ -46,9 +44,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -66,5 +62,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "IlexForest_EventScript_Shrine"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_UNION_CAVE to MUS_ROUTE101 because unavailable"
 }

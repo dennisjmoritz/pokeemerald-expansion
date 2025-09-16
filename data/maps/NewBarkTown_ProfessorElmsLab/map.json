@@ -2,7 +2,7 @@
   "id": "MAP_NEW_BARK_TOWN_PROFESSOR_ELMS_LAB",
   "name": "NewBarkTown_ProfessorElmsLab",
   "layout": "LAYOUT_NEW_BARK_TOWN_PROFESSOR_ELMS_LAB",
-  "music": "MUS_ELMS_LAB",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_NEW_BARK_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -63,9 +63,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -275,5 +273,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NewBarkTown_ProfessorElmsLab_EventScript_Bookshelf"
     }
-  ]
+  ],
+  "comment": "Changed music from MUS_ELMS_LAB to MUS_ROUTE101 because unavailable"
 }

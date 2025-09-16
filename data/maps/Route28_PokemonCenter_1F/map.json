@@ -1,8 +1,8 @@
 {
   "id": "MAP_ROUTE28_POKEMON_CENTER_1F",
   "name": "Route28_PokemonCenter_1F",
-  "layout": "LAYOUT_ROUTE28_POKEMON_CENTER_1F",
-  "music": "MUS_JOHTO_POKECENTER",
+  "layout": "LAYOUT_POKEMON_CENTER_1F",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ROUTE_28",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,9 +13,7 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 1,
@@ -32,10 +30,7 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": [],
+  "comment": "Changed music from MUS_JOHTO_POKECENTER to MUS_ROUTE101 because unavailable"
 }
