@@ -1,3 +1,2 @@
-BattleColosseum4P_MapScripts:: @ 823B780
+BattleColosseum4P_MapScripts::
 	.byte 0
-

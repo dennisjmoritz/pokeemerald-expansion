@@ -13,21 +13,7 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_FRONTIER",
   "connections": null,
-  "object_events": [
-    {
-      "graphics_id": "EVENT_OBJ_GFX_LINK_RECEPTIONIST",
-      "x": 9,
-      "y": 3,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "0",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "BattleColosseum2P_EventScript_Attendant",
-      "flag": "0"
-    }
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 6,
@@ -44,26 +30,7 @@
       "dest_warp_id": 127
     }
   ],
-  "coord_events": [
-    {
-      "type": "trigger",
-      "x": 3,
-      "y": 5,
-      "elevation": 3,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "EventScript_BattleColosseum2P_PlayerSpot0"
-    },
-    {
-      "type": "trigger",
-      "x": 10,
-      "y": 5,
-      "elevation": 3,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "EventScript_BattleColosseum2P_PlayerSpot1"
-    }
-  ],
+  "coord_events": [],
   "bg_events": [],
   "comment": "Changed music from MUS_RAINBOW to MUS_ROUTE101 because unavailable"
 }

@@ -38,39 +38,6 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [
-    {
-      "type": "sign",
-      "x": 8,
-      "y": 1,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "GoldenrodCity_DepartmentStore_6F_EventScript_FloorSign"
-    },
-    {
-      "type": "sign",
-      "x": 5,
-      "y": 9,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "GoldenrodCity_DepartmentStore_6F_EventScript_VendingMachine"
-    },
-    {
-      "type": "sign",
-      "x": 6,
-      "y": 9,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "GoldenrodCity_DepartmentStore_6F_EventScript_VendingMachine"
-    },
-    {
-      "type": "sign",
-      "x": 7,
-      "y": 9,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "GoldenrodCity_DepartmentStore_6F_EventScript_VendingMachine"
-    }
-  ],
+  "bg_events": [],
   "comment": "Changed music from MUS_GOLDENROD to MUS_ROUTE101 because unavailable"
 }

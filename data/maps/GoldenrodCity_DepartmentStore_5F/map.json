@@ -38,15 +38,6 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [
-    {
-      "type": "sign",
-      "x": 4,
-      "y": 1,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "GoldenrodCity_DepartmentStore_5F_EventScript_FloorSign"
-    }
-  ],
+  "bg_events": [],
   "comment": "Changed music from MUS_GOLDENROD to MUS_ROUTE101 because unavailable"
 }

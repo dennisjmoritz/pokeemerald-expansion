@@ -54,23 +54,6 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [
-    {
-      "type": "sign",
-      "x": 58,
-      "y": 11,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "Route36_EventScript_RouteSign"
-    },
-    {
-      "type": "sign",
-      "x": 48,
-      "y": 16,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "Route36_EventScript_RuinsSign"
-    }
-  ],
+  "bg_events": [],
   "comment": "Changed music from MUS_ROUTE36 to MUS_ROUTE101 because unavailable"
 }
