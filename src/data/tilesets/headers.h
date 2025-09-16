@@ -1883,3 +1883,14 @@ const struct Tileset gTileset_Pasos =
     .metatileAttributes = gMetatileAttributes_Pasos,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Sinnoh_General =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Sinnoh_General,
+    .palettes = gTilesetPalettes_Sinnoh_General,
+    .metatiles = gMetatiles_Sinnoh_General,
+    .metatileAttributes = gMetatileAttributes_Sinnoh_General,
+    .callback = NULL,
+};

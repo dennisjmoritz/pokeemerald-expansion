@@ -490,3 +490,6 @@ const u16 gMetatileAttributes_Valor[] = INCBIN_U16("data/tilesets/secondary/valo
 const u16 gMetatiles_Pasos[] = INCBIN_U16("data/tilesets/secondary/pasos/metatiles.bin");
 const u16 gMetatileAttributes_Pasos[] = INCBIN_U16("data/tilesets/secondary/pasos/metatile_attributes.bin");
 
+
+const u16 gMetatiles_Sinnoh_General[] = INCBIN_U16("data/tilesets/primary/sinnoh_general/metatiles.bin");
+const u16 gMetatileAttributes_Sinnoh_General[] = INCBIN_U16("data/tilesets/primary/sinnoh_general/metatile_attributes.bin");
