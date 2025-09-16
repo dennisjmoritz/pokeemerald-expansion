@@ -18,7 +18,6 @@
     },
     {
       "id": "MAPSEC_DYNAMIC",
-      "name": "",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1562,7 +1561,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_MANSION",
-      "name": "POK\u00e9MON MANSION",
+      "name": "POKéMON MANSION",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1594,7 +1593,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_TOWER",
-      "name": "POK\u00e9MON TOWER",
+      "name": "POKéMON TOWER",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -2538,13 +2537,11 @@
     },
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
-      "name": "ROUTE 4",
-      "name_clone": true
+      "name": "ROUTE 4"
     },
     {
       "id": "MAPSEC_ROUTE_10_POKECENTER",
-      "name": "ROUTE 10",
-      "name_clone": true
+      "name": "ROUTE 10"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_22",
