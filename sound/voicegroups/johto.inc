@@ -1,5 +1,4 @@
-	.align 2
-voicegroup191::
+voice_group johto
 	voice_directsound 60, 64, DirectSoundWaveData_sc88pro_piano1_60, 255, 0, 255, 215
 	voice_directsound 60, 64, DirectSoundWaveData_sc88pro_piano1_60, 255, 0, 255, 215
 	voice_directsound 60, 64, DirectSoundWaveData_sc88pro_piano1_60, 255, 0, 255, 215
