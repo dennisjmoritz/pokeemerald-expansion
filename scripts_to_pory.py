@@ -183,7 +183,7 @@ def is_movement_block(block_lines: List[str]) -> bool:
     if not any('step_end' in ln for ln in block_lines[-3:]):
         return False
     # Don’t be overly strict—just avoid obvious non-movement markers
-    bad = ('.string', 'msgbox', 'goto', 'trainerbattle', 'if ', 'while', 'call ')
+    bad = ('.string', 'msgbox', 'trainerbattle', 'if ', 'while', 'call ')
     return not any(b in ' '.join(block_lines[:5]).lower() for b in bad)
 
 def parse_text_block(block_lines: List[str]) -> Tuple[bool, List[str]]:
@@ -210,7 +210,10 @@ def convert_movement_lines(block_lines: List[str]) -> List[str]:
     body = []
     for ln in block_lines:
         s = ln.strip()
-        if not s or s.startswith('.') or s.endswith(':') or s.startswith('#') or s.startswith('@'):
+        # Strip comments starting with @
+        if '@' in s:
+            s = s.split('@')[0].strip()
+        if not s or s.startswith('.') or s.endswith(':') or s.startswith('#'):
             continue
         if s.startswith('step_end'):
             break
@@ -236,22 +239,14 @@ def convert_script_lines(block_lines: List[str], known_movements: Dict[str, List
     """
     out = []
     in_switch = False
-    switch_byte_count = 0
     switch_line = ""
     switch_emitted = False
     for ln in block_lines:
         s = ln.strip()
-        if not s or s.startswith('.'):
-            if s == '.byte 0' and in_switch:
-                switch_byte_count += 1
-                if switch_byte_count == 2:
-                    if switch_emitted:
-                        out.append('}')
-                    in_switch = False
-                    switch_byte_count = 0
-                    switch_emitted = False
-            continue
-        if s.endswith(':') or s.endswith('::'):
+        # Strip @ comments
+        if '@' in s:
+            s = s.split('@')[0].strip()
+        if not s or s.startswith('.') or s.startswith('#') or s.endswith(':') or s.endswith('::'):
             continue
 
         # Basic conversion to cmd(args) style
@@ -259,7 +254,6 @@ def convert_script_lines(block_lines: List[str], known_movements: Dict[str, List
 
         if pline.startswith('switch'):
             in_switch = True
-            switch_byte_count = 0
             # Change to switch(var(args))
             args = pline.split('(', 1)[1].rstrip(')')
             switch_line = f"switch(var({args})) {{"
@@ -274,11 +268,9 @@ def convert_script_lines(block_lines: List[str], known_movements: Dict[str, List
             out.append(f"case {value}:")
             out.append(f"    goto {label}")
         else:
-            if in_switch:
-                if switch_emitted:
-                    out.append('}')
+            if in_switch and switch_emitted:
+                out.append('}')
                 in_switch = False
-                switch_byte_count = 0
                 switch_emitted = False
             # Try to inline movements referenced by applymovement
             def _inline_apply(m):
