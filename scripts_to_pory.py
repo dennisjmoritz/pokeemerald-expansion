@@ -254,22 +254,19 @@ def convert_script_lines(block_lines: List[str], known_movements: Dict[str, List
 
         if pline.startswith('switch'):
             in_switch = True
-            # Change to switch(var(args))
+            # Extract the variable from switch(var)
             args = pline.split('(', 1)[1].rstrip(')')
-            switch_line = f"switch(var({args})) {{"
+            switch_var = args
             switch_emitted = False
         elif pline.startswith('case ') and in_switch:
             if not switch_emitted:
-                out.append(switch_line)
                 switch_emitted = True
             parts = pline[5:].split(',')
             value = parts[0].strip()
             label = parts[1].strip()
-            out.append(f"case {value}:")
-            out.append(f"    goto {label}")
+            out.append(f"call_if_eq({switch_var}, {value}, {label})")
         else:
             if in_switch and switch_emitted:
-                out.append('}')
                 in_switch = False
                 switch_emitted = False
             # Try to inline movements referenced by applymovement
@@ -391,6 +388,10 @@ def convert_one_scripts_inc(path_inc: Path) -> Path:
     for name, (s, e, is_global) in blocks.items():
         # Skip if we already consumed this range (movement/text/mapscripts/table labels)
         if any(s >= a and e <= b for (a, b) in consumed_ranges):
+            continue
+
+        # Skip the mapscripts label itself to avoid duplicate script blocks
+        if name == ms_label:
             continue
 
         block_lines = lines[s:e]
