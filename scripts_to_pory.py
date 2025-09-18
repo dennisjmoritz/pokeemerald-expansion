@@ -59,7 +59,9 @@ def to_pory_command(line: str) -> str:
         return line  # leave raw for safety
 
     # If it's already a comment or a label, just return it.
-    if s.startswith('#') or s.startswith('//') or s.endswith(':') or s.endswith('::'):
+    if s.startswith('#') or s.startswith('//') or s.startswith('@') or s.endswith(':') or s.endswith('::'):
+        if s.startswith('@'):
+            return '#' + s[1:]
         return line
 
     # Bare commands (no args)
@@ -76,6 +78,9 @@ def to_pory_command(line: str) -> str:
     if not m:
         return line
     cmd, args = m.group(1), m.group(2)
+
+    if cmd == 'case':
+        return f"case {args}"
 
     # Avoid re-wrapping lines already in porystyle "cmd(args)"
     if args.startswith('(') and args.endswith(')'):
@@ -178,7 +183,7 @@ def is_movement_block(block_lines: List[str]) -> bool:
     if not any('step_end' in ln for ln in block_lines[-3:]):
         return False
     # Don’t be overly strict—just avoid obvious non-movement markers
-    bad = ('.string', 'msgbox', 'goto', 'trainerbattle', 'switch', 'if ', 'while', 'call ')
+    bad = ('.string', 'msgbox', 'goto', 'trainerbattle', 'if ', 'while', 'call ')
     return not any(b in ' '.join(block_lines[:5]).lower() for b in bad)
 
 def parse_text_block(block_lines: List[str]) -> Tuple[bool, List[str]]:
@@ -205,7 +210,7 @@ def convert_movement_lines(block_lines: List[str]) -> List[str]:
     body = []
     for ln in block_lines:
         s = ln.strip()
-        if not s or s.startswith('.') or s.endswith(':'):
+        if not s or s.startswith('.') or s.endswith(':') or s.startswith('#') or s.startswith('@'):
             continue
         if s.startswith('step_end'):
             break
@@ -227,11 +232,24 @@ def convert_script_lines(block_lines: List[str], known_movements: Dict[str, List
     - Converts "cmd a, b" to "cmd(a, b)"
     - Leaves bare commands as-is
     - Inlines short movements in applymovement(..., Label) when Label is known
+    - Handles switch statements
     """
     out = []
+    in_switch = False
+    switch_byte_count = 0
+    switch_line = ""
+    switch_emitted = False
     for ln in block_lines:
         s = ln.strip()
         if not s or s.startswith('.'):
+            if s == '.byte 0' and in_switch:
+                switch_byte_count += 1
+                if switch_byte_count == 2:
+                    if switch_emitted:
+                        out.append('}')
+                    in_switch = False
+                    switch_byte_count = 0
+                    switch_emitted = False
             continue
         if s.endswith(':') or s.endswith('::'):
             continue
@@ -239,21 +257,46 @@ def convert_script_lines(block_lines: List[str], known_movements: Dict[str, List
         # Basic conversion to cmd(args) style
         pline = to_pory_command(s)
 
-        # Try to inline movements referenced by applymovement
-        def _inline_apply(m):
-            obj, movelabel = m.group(1).strip(), m.group(2).strip()
-            moves = known_movements.get(movelabel)
-            if not moves:
+        if pline.startswith('switch'):
+            in_switch = True
+            switch_byte_count = 0
+            # Change to switch(var(args))
+            args = pline.split('(', 1)[1].rstrip(')')
+            switch_line = f"switch(var({args})) {{"
+            switch_emitted = False
+        elif pline.startswith('case ') and in_switch:
+            if not switch_emitted:
+                out.append(switch_line)
+                switch_emitted = True
+            parts = pline[5:].split(',')
+            value = parts[0].strip()
+            label = parts[1].strip()
+            out.append(f"case {value}:")
+            out.append(f"    goto {label}")
+        else:
+            if in_switch:
+                if switch_emitted:
+                    out.append('}')
+                in_switch = False
+                switch_byte_count = 0
+                switch_emitted = False
+            # Try to inline movements referenced by applymovement
+            def _inline_apply(m):
+                obj, movelabel = m.group(1).strip(), m.group(2).strip()
+                moves = known_movements.get(movelabel)
+                if not moves:
+                    return f"applymovement({obj}, {movelabel})"
+                # Inline if short for readability
+                if len(moves) <= 5 and all('*' not in mv for mv in moves):
+                    inlined = " ".join(moves)
+                    return f"applymovement({obj}, moves({inlined}))"
                 return f"applymovement({obj}, {movelabel})"
-            # Inline if short for readability
-            if len(moves) <= 5 and all('*' not in mv for mv in moves):
-                inlined = " ".join(moves)
-                return f"applymovement({obj}, moves({inlined}))"
-            return f"applymovement({obj}, {movelabel})"
 
-        pline = RE_APPLYMOV.sub(_inline_apply, pline)
+            pline = RE_APPLYMOV.sub(_inline_apply, pline)
 
-        out.append(pline)
+            out.append(pline)
+    if in_switch and switch_emitted:
+        out.append('}')
     return out
 
 # ---------- Emission helpers --------------------------------------------------
@@ -392,6 +435,12 @@ def convert_one_scripts_inc(path_inc: Path) -> Path:
         cursor = b
     if cursor < len(lines):
         raw_chunks.extend(lines[cursor:])
+
+    # Convert @ comments to # comments in raw
+    raw_chunks = [ln if not ln.strip().startswith('@') else '#' + ln.strip()[1:] + '\n' for ln in raw_chunks]
+
+    # Filter out invalid lines in raw (e.g., stray braces or parens that break parsing)
+    raw_chunks = [ln for ln in raw_chunks if not (ln.strip() == '}' or ln.strip().startswith('(') or ln.strip().startswith('#'))]
 
     # Remove empty raw (whitespace only)
     raw_chunks_stripped = [ln for ln in raw_chunks if ln.strip()]
