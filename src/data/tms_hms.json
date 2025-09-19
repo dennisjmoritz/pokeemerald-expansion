@@ -1,4 +1,5 @@
 {
+  "_comment": "TM/HM Configuration - Edit this file to modify TMs and HMs available in the game. Run 'make include/constants/tms_hms.h' after changes to regenerate the header file.",
   "tms": [
     { "id": 1, "move": "FOCUS_PUNCH" },
     { "id": 2, "move": "DRAGON_CLAW" },
