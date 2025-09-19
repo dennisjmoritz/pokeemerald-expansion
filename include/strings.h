@@ -2433,7 +2433,9 @@ extern const u8 gText_NoEggsToIncubate[];
 extern const u8 gText_EggIncubatorUsed[];
 extern const u8 gText_BagFull[];
 extern const u8 gText_FoundBerries[];
+extern const u8 gText_NoBerriesToPlant[];
 extern const u8 gText_NotEnoughMoney[];
 extern const u8 gText_EVModifierUsed[];
+extern const u8 gText_EVsReset[];
 
 #endif // GUARD_STRINGS_H

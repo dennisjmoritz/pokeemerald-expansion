@@ -1308,5 +1308,7 @@ const u8 gText_NoEggsToIncubate[] = _("You have no EGGs\nto incubate.{PAUSE_UNTI
 const u8 gText_EggIncubatorUsed[] = _("The EGG INCUBATOR warmed your\nEGGs, helping them hatch faster!{PAUSE_UNTIL_PRESS}");
 const u8 gText_BagFull[] = _("Your BAG is full!\nCouldn't pick the berries.{PAUSE_UNTIL_PRESS}");
 const u8 gText_FoundBerries[] = _("Found {STR_VAR_2} {STR_VAR_1}!{PAUSE_UNTIL_PRESS}");
+const u8 gText_NoBerriesToPlant[] = _("You have no BERRIES\nto plant.{PAUSE_UNTIL_PRESS}");
 const u8 gText_NotEnoughMoney[] = _("You don't have enough money\nto use this device.{PAUSE_UNTIL_PRESS}");
 const u8 gText_EVModifierUsed[] = _("The EV MODIFIER is ready!\nSelect a POKéMON to train.{PAUSE_UNTIL_PRESS}");
+const u8 gText_EVsReset[] = _("{STR_VAR_1}'s effort values\nwere all reset to zero!{PAUSE_UNTIL_PRESS}");
