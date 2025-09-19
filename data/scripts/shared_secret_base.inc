@@ -119,15 +119,18 @@ SecretBase_EventScript_PCRegister::
 	goto_if_eq VAR_RESULT, 1, SecretBase_EventScript_AlreadyRegistered
 	goto_if_eq VAR_RESULT, 2, SecretBase_EventScript_CantRegisterTooManyBases
 	special CopyCurSecretBaseOwnerName_StrVar1
+	special GetCurrentApartmentPrice
+	setvar VAR_0x8005, VAR_RESULT  @ Store apartment price in VAR_0x8005
+	buffernumberstring STR_VAR_2, VAR_0x8005  @ Format price for display
 	msgbox SecretBase_Text_WantToRegisterSecretBase, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_PCRegisterMenu
 	showmoneybox 0, 0
-	checkmoney SECRET_BASE_REGISTRATION_COST
+	checkmoney VAR_0x8005
 	goto_if_eq VAR_RESULT, FALSE, SecretBase_EventScript_NotEnoughMoneyForRegistration
 	msgbox SecretBase_Text_RegistrationCostWarning, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_CancelRegistration
 	playse SE_SHOP
-	removemoney SECRET_BASE_REGISTRATION_COST
+	removemoney VAR_0x8005
 	updatemoneybox
 	msgbox SecretBase_Text_RegistrationCompleted, MSGBOX_SIGN
 	hidemoneybox
@@ -137,6 +140,7 @@ SecretBase_EventScript_PCRegister::
 	end
 
 SecretBase_EventScript_NotEnoughMoneyForRegistration::
+	buffernumberstring STR_VAR_2, VAR_0x8005  @ Format price for display
 	msgbox SecretBase_Text_NotEnoughMoneyForRegistration, MSGBOX_DEFAULT
 	hidemoneybox
 	goto SecretBase_EventScript_PCRegisterMenu

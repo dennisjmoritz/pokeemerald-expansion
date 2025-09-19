@@ -25,5 +25,6 @@ void TrySetCurSecretBaseIndex(void);
 void CheckPlayerHasSecretBase(void);
 void ToggleSecretBaseEntranceMetatile(void);
 void ReceiveSecretBasesData(void *secretBases, size_t recordSize, u8 linkIdx);
+u32 GetApartmentPrice(u8 secretBaseId);
 
 #endif //GUARD_SECRET_BASE_H

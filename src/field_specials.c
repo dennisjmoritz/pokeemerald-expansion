@@ -40,6 +40,7 @@
 #include "rtc.h"
 #include "script.h"
 #include "script_menu.h"
+#include "secret_base.h"
 #include "sound.h"
 #include "starter_choose.h"
 #include "string_util.h"
@@ -1309,6 +1310,14 @@ u8 GetPokeblockNameByMonNature(void)
 void GetSecretBaseNearbyMapName(void)
 {
     GetMapName(gStringVar1, VarGet(VAR_SECRET_BASE_MAP), 0);
+}
+
+void GetCurrentApartmentPrice(void)
+{
+    // Get the current secret base ID from the game variable
+    u8 secretBaseId = VarGet(VAR_CURRENT_SECRET_BASE);
+    u32 price = GetApartmentPrice(secretBaseId);
+    gSpecialVar_Result = price;
 }
 
 u16 GetBattleTowerSinglesStreak(void)
