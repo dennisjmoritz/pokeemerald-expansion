@@ -72,6 +72,7 @@
 #include "palette.h"
 #include "battle_util.h"
 #include "naming_screen.h"
+#include "move_relearner.h"
 
 #define TAG_ITEM_ICON 5500
 
@@ -4367,4 +4368,108 @@ void SetHiddenNature(void)
     u32 hiddenNature = gSpecialVar_Result;
     SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_HIDDEN_NATURE, &hiddenNature);
     CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+// Functional Decorations
+void FunctionalDecoration_MoveRelearner(void)
+{
+    if (CalculatePlayerPartyCount() == 0)
+    {
+        ShowFieldMessage(gText_NoPartyMon);
+        return;
+    }
+    
+    if (!CheckBagHasItem(ITEM_HEART_SCALE, 1))
+    {
+        ShowFieldMessage(gText_NeedHeartScale);
+        return;
+    }
+    
+    // Use existing move relearner system
+    TeachMoveRelearnerMove();
+}
+
+void FunctionalDecoration_EggIncubator(void)
+{
+    u32 i;
+    u32 eggCount = 0;
+    
+    // Count eggs in party
+    for (i = 0; i < gPlayerPartyCount; i++)
+    {
+        if (GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG))
+            eggCount++;
+    }
+    
+    if (eggCount == 0)
+    {
+        ShowFieldMessage(gText_NoEggsToIncubate);
+        return;
+    }
+    
+    // Speed up egg hatching by reducing friendship (egg cycles)
+    for (i = 0; i < gPlayerPartyCount; i++)
+    {
+        if (GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG))
+        {
+            u32 friendship = GetMonData(&gPlayerParty[i], MON_DATA_FRIENDSHIP);
+            if (friendship > 10)
+            {
+                friendship -= 10; // Reduce by 10 egg cycles
+                SetMonData(&gPlayerParty[i], MON_DATA_FRIENDSHIP, &friendship);
+            }
+        }
+    }
+    
+    ShowFieldMessage(gText_EggIncubatorUsed);
+}
+
+void FunctionalDecoration_BerryPatch(void)
+{
+    // Simple berry patch - gives random berries
+    u16 berryItems[] = {
+        ITEM_ORAN_BERRY, ITEM_PECHA_BERRY, ITEM_CHERI_BERRY, 
+        ITEM_RAWST_BERRY, ITEM_ASPEAR_BERRY, ITEM_LEPPA_BERRY
+    };
+    u16 chosenBerry;
+    u16 quantity;
+    
+    // Random berry and quantity (1-3)
+    chosenBerry = berryItems[Random() % ARRAY_COUNT(berryItems)];
+    quantity = (Random() % 3) + 1;
+    
+    if (!CheckBagHasSpace(chosenBerry, quantity))
+    {
+        ShowFieldMessage(gText_BagFull);
+        return;
+    }
+    
+    AddBagItem(chosenBerry, quantity);
+    
+    CopyItemName(chosenBerry, gStringVar1);
+    ConvertIntToDecimalStringN(gStringVar2, quantity, STR_CONV_MODE_LEFT_ALIGN, 2);
+    StringExpandPlaceholders(gStringVar4, gText_FoundBerries);
+    ShowFieldMessage(gStringVar4);
+}
+
+void FunctionalDecoration_EVModifier(void)
+{
+    u32 cost = 10000; // Cost in money
+    
+    if (GetMoney(&gSaveBlock1Ptr->money) < cost)
+    {
+        ShowFieldMessage(gText_NotEnoughMoney);
+        return;
+    }
+    
+    if (CalculatePlayerPartyCount() == 0)
+    {
+        ShowFieldMessage(gText_NoPartyMon);
+        return;
+    }
+    
+    // For now, just take the money and show message
+    // A full implementation would open a menu to select Pokemon and EVs
+    RemoveMoney(&gSaveBlock1Ptr->money, cost);
+    ShowFieldMessage(gText_EVModifierUsed);
 }

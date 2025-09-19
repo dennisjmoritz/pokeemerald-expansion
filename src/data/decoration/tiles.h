@@ -641,3 +641,25 @@ const u16 DecorGfx_REGICE_DOLL[] = {
 const u16 DecorGfx_REGISTEEL_DOLL[] = {
     OBJ_EVENT_GFX_BIG_REGISTEEL_DOLL
 };
+
+const u16 DecorGfx_MOVE_RELEARNER[] = {
+    OBJ_EVENT_GFX_SCIENTIST_1
+};
+
+const u16 DecorGfx_EGG_INCUBATOR[] = {
+    DECOR_TILE(PC_TopLeft),
+    DECOR_TILE(PC_TopRight),
+    DECOR_TILE(PC_BottomLeft),
+    DECOR_TILE(PC_BottomRight)
+};
+
+const u16 DecorGfx_BERRY_PATCH[] = {
+    DECOR_TILE(ColorfulPlant_TopLeft),
+    DECOR_TILE(ColorfulPlant_TopRight),
+    DECOR_TILE(ColorfulPlant_BottomLeft),
+    DECOR_TILE(ColorfulPlant_BottomRight)
+};
+
+const u16 DecorGfx_EV_MODIFIER[] = {
+    OBJ_EVENT_GFX_ITEM_BALL
+};

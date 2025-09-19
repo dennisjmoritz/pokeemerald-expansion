@@ -571,3 +571,23 @@ const u8 DecorDesc_REGISTEEL_DOLL[] = _(
     "A large doll.\n"
         "Place it on a mat\n"
         "or a desk.");
+
+const u8 DecorDesc_MOVE_RELEARNER[] = _(
+    "A magical device that\n"
+        "helps POKéMON recall\n"
+        "forgotten moves.");
+
+const u8 DecorDesc_EGG_INCUBATOR[] = _(
+    "A warm incubator that\n"
+        "helps eggs hatch\n"
+        "faster.");
+
+const u8 DecorDesc_BERRY_PATCH[] = _(
+    "A fertile patch of\n"
+        "soil perfect for\n"
+        "growing berries.");
+
+const u8 DecorDesc_EV_MODIFIER[] = _(
+    "A sophisticated\n"
+        "training device that\n"
+        "modifies effort values.");

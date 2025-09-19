@@ -2426,4 +2426,14 @@ extern const u8 gText_Rename[]; // change nickname from summary screen
 // Switch Caught Mon into Party
 extern const u8 gText_CannotSendMonToBoxHM[];
 
+// Functional Decorations
+extern const u8 gText_NoPartyMon[];
+extern const u8 gText_NeedHeartScale[];
+extern const u8 gText_NoEggsToIncubate[];
+extern const u8 gText_EggIncubatorUsed[];
+extern const u8 gText_BagFull[];
+extern const u8 gText_FoundBerries[];
+extern const u8 gText_NotEnoughMoney[];
+extern const u8 gText_EVModifierUsed[];
+
 #endif // GUARD_STRINGS_H
