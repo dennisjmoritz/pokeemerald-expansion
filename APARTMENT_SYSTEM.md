@@ -9,16 +9,25 @@ This modification transforms the Pokemon Emerald secret base system from using t
 - **Type**: Key Item (stored in Key Items pocket)
 - **Usage**: Can be used from bag to set up apartments at secret base locations
 
-### 2. Interaction Changes
+### 2. Variable Pricing System
+- **Location-Based Pricing**: Different apartment locations have different setup costs
+- **Pricing Tiers**: 
+  - Cave locations: ¥1300-2000 (premium)
+  - Tree locations: ¥1000-1300 (mid-tier)
+  - Shrub locations: ¥600-900 (budget)
+- **Dynamic Display**: Price is shown when registering an apartment
+
+### 3. Interaction Changes
 - **Before**: Required Secret Power move in party + field move selection
 - **After**: Simply press A near secret base spots with Apartment Key in bag, OR use Apartment Key from bag
 
-### 3. Text Updates
+### 4. Text Updates
 - "SECRET BASE" → "APARTMENT"
 - "SECRET POWER" → "APARTMENT KEY"
 - Updated flavor text to be more town/apartment appropriate
+- Dynamic pricing display based on location
 
-### 4. Functionality Preserved
+### 5. Functionality Preserved
 - All existing secret base locations still work
 - Decoration system unchanged
 - PC functionality unchanged
