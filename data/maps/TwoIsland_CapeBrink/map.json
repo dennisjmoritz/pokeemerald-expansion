@@ -19,9 +19,7 @@
       "direction": "down"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 12,
@@ -31,10 +29,29 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 16,
+      "y": 28,
+      "elevation": 3,
+      "item": "ITEM_PP_MAX",
+      "flag": "FLAG_TEMP_1",
+      "quantity": 1,
+      "underfoot": true,
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 13,
+      "elevation": 3,
+      "item": "ITEM_RARE_CANDY",
+      "flag": "FLAG_TEMP_1",
+      "quantity": 1,
+      "underfoot": false,
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+    }
   ]
 }

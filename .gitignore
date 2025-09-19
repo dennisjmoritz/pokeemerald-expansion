@@ -80,3 +80,9 @@ dev_scripts/standardize_marts_centers.py
 include/constants/heal_locations.h
 update_pokemon_centers.py
 include/constants/heal_locations.h
+firered_to_expansion_graphics_toolkit_v2.zip
+tools/firered_import/convert_firered_trainers_to_party.py
+tools/firered_import/import_firered_graphics.py
+tools/firered_import/README.md
+compare_maps.py
+convert_orig_to_pory_simple.py

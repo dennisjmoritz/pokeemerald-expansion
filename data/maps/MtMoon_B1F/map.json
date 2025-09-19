@@ -13,9 +13,7 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 3,
@@ -74,10 +72,73 @@
       "dest_warp_id": "3"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 46,
+      "y": 2,
+      "elevation": 0,
+      "item": "ITEM_TINY_MUSHROOM",
+      "flag": "FLAG_TEMP_1",
+      "quantity": 1,
+      "underfoot": false,
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 26,
+      "y": 2,
+      "elevation": 0,
+      "item": "ITEM_TINY_MUSHROOM",
+      "flag": "FLAG_TEMP_1",
+      "quantity": 1,
+      "underfoot": false,
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 39,
+      "y": 34,
+      "elevation": 0,
+      "item": "ITEM_TINY_MUSHROOM",
+      "flag": "FLAG_TEMP_1",
+      "quantity": 1,
+      "underfoot": false,
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 24,
+      "y": 35,
+      "elevation": 0,
+      "item": "ITEM_BIG_MUSHROOM",
+      "flag": "FLAG_TEMP_1",
+      "quantity": 1,
+      "underfoot": false,
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 12,
+      "elevation": 0,
+      "item": "ITEM_BIG_MUSHROOM",
+      "flag": "FLAG_TEMP_1",
+      "quantity": 1,
+      "underfoot": false,
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 25,
+      "y": 34,
+      "elevation": 0,
+      "item": "ITEM_BIG_MUSHROOM",
+      "flag": "FLAG_TEMP_1",
+      "quantity": 1,
+      "underfoot": false,
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+    }
   ]
 }

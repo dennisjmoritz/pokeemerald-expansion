@@ -1,0 +1,2 @@
+// === src/data/object_events/object_event_anims.h ===
+// Reuse gObjectEventAnimTable_GeneralNpc unless you need custom tables.

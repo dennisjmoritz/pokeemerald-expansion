@@ -1,0 +1,1321 @@
+// === src/data/object_events/object_event_graphics_info.h ===
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_RedNormal = {
+    .tileTag = 56000,
+    .paletteTag = 56001,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_RedBike = {
+    .tileTag = 56002,
+    .paletteTag = 56003,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_RedSurf = {
+    .tileTag = 56004,
+    .paletteTag = 56005,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_RedFish = {
+    .tileTag = 56006,
+    .paletteTag = 56007,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_RedVSSeekerBike = {
+    .tileTag = 56008,
+    .paletteTag = 56009,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_GreenNormal = {
+    .tileTag = 56010,
+    .paletteTag = 56011,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_GreenBike = {
+    .tileTag = 56012,
+    .paletteTag = 56013,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_GreenSurf = {
+    .tileTag = 56014,
+    .paletteTag = 56015,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_GreenFish = {
+    .tileTag = 56016,
+    .paletteTag = 56017,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_GreenVSSeekerBike = {
+    .tileTag = 56018,
+    .paletteTag = 56019,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_RSBrendan = {
+    .tileTag = 56020,
+    .paletteTag = 56021,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_RSMay = {
+    .tileTag = 56022,
+    .paletteTag = 56023,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Boy = {
+    .tileTag = 56024,
+    .paletteTag = 56025,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_SittingBoy = {
+    .tileTag = 56026,
+    .paletteTag = 56027,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_BattleGirl = {
+    .tileTag = 56028,
+    .paletteTag = 56029,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Man = {
+    .tileTag = 56030,
+    .paletteTag = 56031,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Rocker = {
+    .tileTag = 56032,
+    .paletteTag = 56033,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_BaldingMan = {
+    .tileTag = 56034,
+    .paletteTag = 56035,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_OldMan1 = {
+    .tileTag = 56036,
+    .paletteTag = 56037,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_OldMan2 = {
+    .tileTag = 56038,
+    .paletteTag = 56039,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_OldManLyingDown = {
+    .tileTag = 56040,
+    .paletteTag = 56041,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_TuberMWater = {
+    .tileTag = 56042,
+    .paletteTag = 56043,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_TuberMLand = {
+    .tileTag = 56044,
+    .paletteTag = 56045,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_CooltrainerM = {
+    .tileTag = 56046,
+    .paletteTag = 56047,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_CooltrainerF = {
+    .tileTag = 56048,
+    .paletteTag = 56049,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_SwimmerMWater = {
+    .tileTag = 56050,
+    .paletteTag = 56051,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_SwimmerFWater = {
+    .tileTag = 56052,
+    .paletteTag = 56053,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_SwimmerMLand = {
+    .tileTag = 56054,
+    .paletteTag = 56055,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_SwimmerFLand = {
+    .tileTag = 56056,
+    .paletteTag = 56057,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_WorkerM = {
+    .tileTag = 56058,
+    .paletteTag = 56059,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_WorkerF = {
+    .tileTag = 56060,
+    .paletteTag = 56061,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_RocketM = {
+    .tileTag = 56062,
+    .paletteTag = 56063,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_RocketF = {
+    .tileTag = 56064,
+    .paletteTag = 56065,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_GBAKid = {
+    .tileTag = 56066,
+    .paletteTag = 56067,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_SuperNerd = {
+    .tileTag = 56068,
+    .paletteTag = 56069,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Biker = {
+    .tileTag = 56070,
+    .paletteTag = 56071,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Blackbelt = {
+    .tileTag = 56072,
+    .paletteTag = 56073,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Scientist = {
+    .tileTag = 56074,
+    .paletteTag = 56075,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Fisher = {
+    .tileTag = 56076,
+    .paletteTag = 56077,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Channeler = {
+    .tileTag = 56078,
+    .paletteTag = 56079,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Chef = {
+    .tileTag = 56080,
+    .paletteTag = 56081,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Policeman = {
+    .tileTag = 56082,
+    .paletteTag = 56083,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Captain = {
+    .tileTag = 56084,
+    .paletteTag = 56085,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_CableClubReceptionist = {
+    .tileTag = 56086,
+    .paletteTag = 56087,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_UnionRoomReceptionist = {
+    .tileTag = 56088,
+    .paletteTag = 56089,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_UnusedMaleReceptionist = {
+    .tileTag = 56090,
+    .paletteTag = 56091,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Clerk = {
+    .tileTag = 56092,
+    .paletteTag = 56093,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_MGDeliveryman = {
+    .tileTag = 56094,
+    .paletteTag = 56095,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_TrainerTowerDude = {
+    .tileTag = 56096,
+    .paletteTag = 56097,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Blue = {
+    .tileTag = 56098,
+    .paletteTag = 56099,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Bill = {
+    .tileTag = 56100,
+    .paletteTag = 56101,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Lance = {
+    .tileTag = 56102,
+    .paletteTag = 56103,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Agatha = {
+    .tileTag = 56104,
+    .paletteTag = 56105,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Daisy = {
+    .tileTag = 56106,
+    .paletteTag = 56107,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Lorelei = {
+    .tileTag = 56108,
+    .paletteTag = 56109,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_MrFuji = {
+    .tileTag = 56110,
+    .paletteTag = 56111,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Bruno = {
+    .tileTag = 56112,
+    .paletteTag = 56113,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Brock = {
+    .tileTag = 56114,
+    .paletteTag = 56115,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Misty = {
+    .tileTag = 56116,
+    .paletteTag = 56117,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_LtSurge = {
+    .tileTag = 56118,
+    .paletteTag = 56119,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Erika = {
+    .tileTag = 56120,
+    .paletteTag = 56121,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Koga = {
+    .tileTag = 56122,
+    .paletteTag = 56123,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Sabrina = {
+    .tileTag = 56124,
+    .paletteTag = 56125,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Blaine = {
+    .tileTag = 56126,
+    .paletteTag = 56127,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Giovanni = {
+    .tileTag = 56128,
+    .paletteTag = 56129,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Celio = {
+    .tileTag = 56130,
+    .paletteTag = 56131,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_TeachyTVHost = {
+    .tileTag = 56132,
+    .paletteTag = 56133,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_GymGuy = {
+    .tileTag = 56134,
+    .paletteTag = 56135,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_TownMap = {
+    .tileTag = 56136,
+    .paletteTag = 56137,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Pokedex = {
+    .tileTag = 56138,
+    .paletteTag = 56139,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_CutTree = {
+    .tileTag = 56140,
+    .paletteTag = 56141,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_RockSmashRock = {
+    .tileTag = 56142,
+    .paletteTag = 56143,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Ruby = {
+    .tileTag = 56144,
+    .paletteTag = 56145,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Sapphire = {
+    .tileTag = 56146,
+    .paletteTag = 56147,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_OldAmber = {
+    .tileTag = 56148,
+    .paletteTag = 56149,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_GymSign = {
+    .tileTag = 56150,
+    .paletteTag = 56151,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Sign = {
+    .tileTag = 56152,
+    .paletteTag = 56153,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Clipboard = {
+    .tileTag = 56154,
+    .paletteTag = 56155,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_LaprasDoll = {
+    .tileTag = 56156,
+    .paletteTag = 56157,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Seagallop = {
+    .tileTag = 56158,
+    .paletteTag = 56159,
+    .size = OBJ_EVENT_GFX_64x64, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Snorlax = {
+    .tileTag = 56160,
+    .paletteTag = 56161,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Spearow = {
+    .tileTag = 56162,
+    .paletteTag = 56163,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Cubone = {
+    .tileTag = 56164,
+    .paletteTag = 56165,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Poliwrath = {
+    .tileTag = 56166,
+    .paletteTag = 56167,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Clefairy = {
+    .tileTag = 56168,
+    .paletteTag = 56169,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Pidgeot = {
+    .tileTag = 56170,
+    .paletteTag = 56171,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Jigglypuff = {
+    .tileTag = 56172,
+    .paletteTag = 56173,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Pidgey = {
+    .tileTag = 56174,
+    .paletteTag = 56175,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Chansey = {
+    .tileTag = 56176,
+    .paletteTag = 56177,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Omanyte = {
+    .tileTag = 56178,
+    .paletteTag = 56179,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Kangaskhan = {
+    .tileTag = 56180,
+    .paletteTag = 56181,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Psyduck = {
+    .tileTag = 56182,
+    .paletteTag = 56183,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_NidoranF = {
+    .tileTag = 56184,
+    .paletteTag = 56185,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_NidoranM = {
+    .tileTag = 56186,
+    .paletteTag = 56187,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Nidorino = {
+    .tileTag = 56188,
+    .paletteTag = 56189,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Meowth = {
+    .tileTag = 56190,
+    .paletteTag = 56191,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Seel = {
+    .tileTag = 56192,
+    .paletteTag = 56193,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Voltorb = {
+    .tileTag = 56194,
+    .paletteTag = 56195,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Slowpoke = {
+    .tileTag = 56196,
+    .paletteTag = 56197,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Slowbro = {
+    .tileTag = 56198,
+    .paletteTag = 56199,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Machop = {
+    .tileTag = 56200,
+    .paletteTag = 56201,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Wigglytuff = {
+    .tileTag = 56202,
+    .paletteTag = 56203,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Doduo = {
+    .tileTag = 56204,
+    .paletteTag = 56205,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Fearow = {
+    .tileTag = 56206,
+    .paletteTag = 56207,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Machoke = {
+    .tileTag = 56208,
+    .paletteTag = 56209,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Lapras = {
+    .tileTag = 56210,
+    .paletteTag = 56211,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Zapdos = {
+    .tileTag = 56212,
+    .paletteTag = 56213,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Moltres = {
+    .tileTag = 56214,
+    .paletteTag = 56215,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Articuno = {
+    .tileTag = 56216,
+    .paletteTag = 56217,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Mewtwo = {
+    .tileTag = 56218,
+    .paletteTag = 56219,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Entei = {
+    .tileTag = 56220,
+    .paletteTag = 56221,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Suicune = {
+    .tileTag = 56222,
+    .paletteTag = 56223,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Raikou = {
+    .tileTag = 56224,
+    .paletteTag = 56225,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_HoOh = {
+    .tileTag = 56226,
+    .paletteTag = 56227,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Celebi = {
+    .tileTag = 56228,
+    .paletteTag = 56229,
+    .size = OBJ_EVENT_GFX_32x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_Kabuto = {
+    .tileTag = 56230,
+    .paletteTag = 56231,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_DeoxysD = {
+    .tileTag = 56232,
+    .paletteTag = 56233,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_DeoxysA = {
+    .tileTag = 56234,
+    .paletteTag = 56235,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_DeoxysN = {
+    .tileTag = 56236,
+    .paletteTag = 56237,
+    .size = OBJ_EVENT_GFX_64x32, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+
+static const struct ObjectEventGraphicsInfo sObjectEventGraphicsInfo_SSAnne = {
+    .tileTag = 56238,
+    .paletteTag = 56239,
+    .size = OBJ_EVENT_GFX_64x64, // verify vs sheet if needed
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE,
+    .tracks = FALSE,
+    .oopAnimTable = gObjectEventAnimTable_GeneralNpc,
+};
+

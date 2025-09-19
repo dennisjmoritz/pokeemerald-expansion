@@ -1,2 +1,8 @@
 UndergroundPath_EastWestTunnel_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, UndergroundPath_EastWestTunnel_OnTransition
 	.byte 0
+
+UndergroundPath_EastWestTunnel_OnTransition::
+	setworldmapflag FLAG_TEMP_1
+// Replaced FLAG_WORLD_MAP_UNDERGROUND_PATH_EAST_WEST_TUNNEL with FLAG_TEMP_1
+	end

@@ -1,2 +1,18 @@
 MtEmber_RubyPath_B3F_MapScripts::
 	.byte 0
+
+@ Odd that this is here and not in MtEmber_RubyPath_B5F/scripts.inc
+MtEmber_RubyPath_B5F_EventScript_Ruby::
+	lock
+	faceplayer
+	setflag FLAG_TEMP_1
+// Replaced FLAG_GOT_RUBY with FLAG_TEMP_1
+	removeobject LOCALID_RUBY
+	msgbox MtEmber_RubyPath_B3F_Text_FoundARuby, MSGBOX_DEFAULT
+// 	giveitem ITEM_RUBY, 1, MUS_OBTAIN_KEY_ITEM
+	release
+	end
+
+MtEmber_RubyPath_B3F_Text_FoundARuby::
+    .string "{PLAYER} found a RUBY!$"
+

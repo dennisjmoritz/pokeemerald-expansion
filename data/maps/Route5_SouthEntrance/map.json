@@ -13,7 +13,22 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
-  "object_events": [],
+  "object_events": [
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "x": 1,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route5_SouthEntrance_EventScript_Guard",
+      "flag": "0"
+    }
+  ],
   "warp_events": [
     {
       "x": 4,
@@ -30,6 +45,37 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 5,
+      "elevation": 3,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route5_SouthEntrance_EventScript_GuardTriggerLeft",
+      "var_comment": "Replaced VAR_TEMP_0 with VAR_TEMP_0"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 5,
+      "elevation": 3,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route5_SouthEntrance_EventScript_GuardTriggerMid",
+      "var_comment": "Replaced VAR_TEMP_0 with VAR_TEMP_0"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 5,
+      "elevation": 3,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route5_SouthEntrance_EventScript_GuardTriggerRight",
+      "var_comment": "Replaced VAR_TEMP_0 with VAR_TEMP_0"
+    }
+  ],
   "bg_events": []
 }

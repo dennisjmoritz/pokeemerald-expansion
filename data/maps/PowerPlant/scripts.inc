@@ -1,2 +1,141 @@
 PowerPlant_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, PowerPlant_OnResume
+	map_script MAP_SCRIPT_ON_TRANSITION, PowerPlant_OnTransition
 	.byte 0
+
+PowerPlant_OnResume::
+	call_if_set FLAG_TEMP_1, PowerPlant_EventScript_TryRemoveStaticMon
+// Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
+	end
+
+PowerPlant_EventScript_TryRemoveStaticMon::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
+	removeobject VAR_LAST_TALKED
+	return
+
+PowerPlant_OnTransition::
+	setworldmapflag FLAG_TEMP_1
+// Replaced FLAG_WORLD_MAP_POWER_PLANT with FLAG_TEMP_1
+	call_if_unset FLAG_TEMP_1, PowerPlant_EventScript_ShowZapdos
+// Replaced FLAG_FOUGHT_ZAPDOS with FLAG_TEMP_1
+	call_if_unset FLAG_TEMP_1, PowerPlant_EventScript_ShowElectrode1
+// Replaced FLAG_FOUGHT_POWER_PLANT_ELECTRODE_1 with FLAG_TEMP_1
+	call_if_unset FLAG_TEMP_1, PowerPlant_EventScript_ShowElectrode2
+// Replaced FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2 with FLAG_TEMP_1
+	end
+
+PowerPlant_EventScript_ShowZapdos::
+	clearflag FLAG_TEMP_1
+// Replaced FLAG_HIDE_ZAPDOS with FLAG_TEMP_1
+	return
+
+PowerPlant_EventScript_ShowElectrode1::
+	clearflag FLAG_TEMP_1
+// Replaced FLAG_HIDE_POWER_PLANT_ELECTRODE_1 with FLAG_TEMP_1
+	return
+
+PowerPlant_EventScript_ShowElectrode2::
+	clearflag FLAG_TEMP_1
+// Replaced FLAG_HIDE_POWER_PLANT_ELECTRODE_2 with FLAG_TEMP_1
+	return
+
+PowerPlant_EventScript_Zapdos::
+@	goto_if_questlog EventScript_ReleaseEnd
+	special QuestLog_CutRecording
+	lock
+	faceplayer
+	setwildbattle SPECIES_ZAPDOS, 50
+	waitse
+	playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+	message Text_Gyaoo
+	waitmessage
+	waitmoncry
+	delay 10
+	playbgm MUS_RG_ENCOUNTER_GYM_LEADER, 0
+	waitbuttonpress
+	setflag FLAG_TEMP_1
+// Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
+	special StartLegendaryBattle
+	waitstate
+	clearflag FLAG_TEMP_1
+// Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, PowerPlant_EventScript_DefeatedZapdos
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PowerPlant_EventScript_RanFromZapdos
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, PowerPlant_EventScript_RanFromZapdos
+	setflag FLAG_TEMP_1
+// Replaced FLAG_FOUGHT_ZAPDOS with FLAG_TEMP_1
+	release
+	end
+
+PowerPlant_EventScript_DefeatedZapdos::
+	setflag FLAG_TEMP_1
+// Replaced FLAG_FOUGHT_ZAPDOS with FLAG_TEMP_1
+	goto EventScript_RemoveStaticMon
+	end
+
+PowerPlant_EventScript_RanFromZapdos::
+	setvar VAR_0x8004, SPECIES_ZAPDOS
+	goto EventScript_MonFlewAway
+	end
+
+PowerPlant_EventScript_Electrode1::
+@	goto_if_questlog EventScript_ReleaseEnd
+	lock
+	faceplayer
+	setwildbattle SPECIES_ELECTRODE, 34
+	waitse
+	playmoncry SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setflag FLAG_TEMP_1
+// Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
+	dowildbattle
+	clearflag FLAG_TEMP_1
+// Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
+	special QuestLog_CutRecording
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, PowerPlant_EventScript_FoughtElectrode1
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PowerPlant_EventScript_FoughtElectrode1
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, PowerPlant_EventScript_FoughtElectrode1
+	setflag FLAG_TEMP_1
+// Replaced FLAG_FOUGHT_POWER_PLANT_ELECTRODE_1 with FLAG_TEMP_1
+	release
+	end
+
+PowerPlant_EventScript_FoughtElectrode1::
+	setflag FLAG_TEMP_1
+// Replaced FLAG_FOUGHT_POWER_PLANT_ELECTRODE_1 with FLAG_TEMP_1
+	goto EventScript_RemoveStaticMon
+	end
+
+PowerPlant_EventScript_Electrode2::
+@	goto_if_questlog EventScript_ReleaseEnd
+	lock
+	faceplayer
+	setwildbattle SPECIES_ELECTRODE, 34
+	waitse
+	playmoncry SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setflag FLAG_TEMP_1
+// Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
+	dowildbattle
+	clearflag FLAG_TEMP_1
+// Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
+	special QuestLog_CutRecording
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, PowerPlant_EventScript_FoughtElectrode2
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PowerPlant_EventScript_FoughtElectrode2
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, PowerPlant_EventScript_FoughtElectrode2
+	setflag FLAG_TEMP_1
+// Replaced FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2 with FLAG_TEMP_1
+	release
+	end
+
+PowerPlant_EventScript_FoughtElectrode2::
+	setflag FLAG_TEMP_1
+// Replaced FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2 with FLAG_TEMP_1
+	goto EventScript_RemoveStaticMon
+	end
