@@ -2097,6 +2097,7 @@ static void ChangePage(u8 taskId, s8 delta)
 {
     struct PokeSummary *summary = &sMonSummaryScreen->summary;
     s16 *data = gTasks[taskId].data;
+    u8 newPage = sMonSummaryScreen->currPageIndex + delta;
 
     if (summary->isEgg)
         return;
@@ -2105,9 +2106,31 @@ static void ChangePage(u8 taskId, s8 delta)
     else if (delta == 1 && sMonSummaryScreen->currPageIndex == sMonSummaryScreen->maxPageIndex)
         return;
 
+    // Check if the target page should be skipped
+    while (newPage >= sMonSummaryScreen->minPageIndex && newPage <= sMonSummaryScreen->maxPageIndex)
+    {
+        // Skip IV page if flag not set
+        if (newPage == PSS_PAGE_IVS && !ShouldShowIvTab())
+        {
+            newPage += delta;
+            continue;
+        }
+        // Skip EV page if flag not set  
+        if (newPage == PSS_PAGE_EVS && !ShouldShowEvTab())
+        {
+            newPage += delta;
+            continue;
+        }
+        break;
+    }
+    
+    // Check bounds again after adjustment
+    if (newPage < sMonSummaryScreen->minPageIndex || newPage > sMonSummaryScreen->maxPageIndex)
+        return;
+
     PlaySE(SE_SELECT);
     ClearPageWindowTilemaps(sMonSummaryScreen->currPageIndex);
-    sMonSummaryScreen->currPageIndex += delta;
+    sMonSummaryScreen->currPageIndex = newPage;
     data[0] = 0;
     if (delta == 1)
         SetTaskFuncWithFollowupFunc(taskId, PssScrollRight, gTasks[taskId].func);
@@ -2117,7 +2140,7 @@ static void ChangePage(u8 taskId, s8 delta)
     HidePageSpecificSprites();
 
     if (sMonSummaryScreen->currPageIndex == PSS_PAGE_SKILLS
-        || (sMonSummaryScreen->currPageIndex + delta) == PSS_PAGE_SKILLS)
+        || (sMonSummaryScreen->currPageIndex + delta) == PSS_PAGE_SKILLS))
     {
         struct Pokemon *mon = &sMonSummaryScreen->currentMon;
 
@@ -2715,7 +2738,16 @@ static void DrawPagination(void) // Updates the pagination dots at the top of th
     {
         u8 j = i * 2;
 
-        if (i < sMonSummaryScreen->minPageIndex)
+        // Skip drawing dots for disabled pages
+        if ((i == PSS_PAGE_IVS && !ShouldShowIvTab()) || 
+            (i == PSS_PAGE_EVS && !ShouldShowEvTab()))
+        {
+            tilemap[j + 0] = 0x40;
+            tilemap[j + 1] = 0x40;
+            tilemap[j + 2 * PSS_PAGE_COUNT] = 0x50;
+            tilemap[j + 2 * PSS_PAGE_COUNT + 1] = 0x50;
+        }
+        else if (i < sMonSummaryScreen->minPageIndex)
         {
             tilemap[j + 0] = 0x40;
             tilemap[j + 1] = 0x40;
@@ -4704,14 +4736,8 @@ static inline bool32 ShouldShowEvTab(void)
 
 static u8 GetMaxPageIndex(void)
 {
-    u8 maxPage = PSS_PAGE_CONTEST_MOVES;
-    
-    if (ShouldShowIvTab())
-        maxPage = PSS_PAGE_IVS;
-    if (ShouldShowEvTab())
-        maxPage = PSS_PAGE_EVS;
-    
-    return maxPage;
+    // Always include all pages in the total count, but navigation will skip disabled ones
+    return PSS_PAGE_COUNT - 1;
 }
 
 static inline void ShowUtilityPrompt(s16 mode)
@@ -4861,8 +4887,8 @@ static void PrintIVsPage(void)
 
     // Print Hidden Power type
     hiddenPowerType = GetHiddenPowerType(mon);
-    StringCopy(gStringVar1, gText_HP);
-    StringAppend(gStringVar1, gText_Colon);
+    StringCopy(gStringVar1, gText_HP4);
+    StringAppend(gStringVar1, gText_Colon2);
     StringAppend(gStringVar1, gTypesInfo[hiddenPowerType].name);
     PrintTextOnWindow(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_EXP], gStringVar1, 0, 1, 0, 1);
 
@@ -4956,7 +4982,7 @@ static void PrintEVsPage(void)
     u32 totalEvs = hpEV + attackEV + defenseEV + spAtkEV + spDefEV + speedEV;
     ConvertIntToDecimalStringN(gStringVar1, totalEvs, STR_CONV_MODE_LEFT_ALIGN, 3);
     StringCopy(gStringVar2, gText_Total);
-    StringAppend(gStringVar2, gText_Colon);
+    StringAppend(gStringVar2, gText_Colon2);
     StringAppend(gStringVar2, gStringVar1);
     PrintTextOnWindow(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_EXP], gStringVar2, 0, 1, 0, 1);
 
