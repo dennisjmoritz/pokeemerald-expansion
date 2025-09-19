@@ -1,6 +1,8 @@
 #ifndef GUARD_CONFIG_SUMMARY_SCREEN_H
 #define GUARD_CONFIG_SUMMARY_SCREEN_H
 
+#include "constants/flags.h"
+
 // Settings
 #define P_SUMMARY_SCREEN_MOVE_RELEARNER  TRUE   // If TRUE, shows an option for Pokémon to relearn moves on the summary screen moves page.
 #define P_SUMMARY_SCREEN_NATURE_COLORS  TRUE    // If TRUE, nature-based stat boosts and reductions will be red and blue in the summary screen.
@@ -27,5 +29,7 @@ Info taken from https://bulbapedia.bulbagarden.net/wiki/Stats_judge.
 
 // Flags
 #define P_FLAG_SUMMARY_SCREEN_IV_EV_INFO 0      // If this flag is set, will allow player to cycle through the Stats, IVs, and EVs in the summary screen skills page. Note: if P_SUMMARY_SCREEN_IV_EV_INFO is TRUE, this flag does nothing.
+#define P_FLAG_SUMMARY_SCREEN_IV_TAB     FLAG_UNUSED_0x020  // If this flag is set, will show a separate IV tab in the summary screen.
+#define P_FLAG_SUMMARY_SCREEN_EV_TAB     FLAG_UNUSED_0x021  // If this flag is set, will show a separate EV tab in the summary screen.
 
 #endif // GUARD_CONFIG_SUMMARY_SCREEN_H

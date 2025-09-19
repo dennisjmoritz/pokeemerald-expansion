@@ -286,6 +286,10 @@ static void Task_PrintBattleMoves(u8);
 static void PrintMoveNameAndPP(u8);
 static void PrintContestMoves(void);
 static void Task_PrintContestMoves(u8);
+static void PrintIVsPage(void);
+static void Task_PrintIVsPage(u8);
+static void PrintEVsPage(void);
+static void Task_PrintEVsPage(u8);
 static void PrintContestMoveDescription(u8);
 static void PrintMoveDetails(u16);
 static void PrintNewMoveDetailsOrCancelText(void);
@@ -731,7 +735,9 @@ static void (*const sTextPrinterFunctions[])(void) =
     [PSS_PAGE_INFO] = PrintInfoPageText,
     [PSS_PAGE_SKILLS] = PrintSkillsPageText,
     [PSS_PAGE_BATTLE_MOVES] = PrintBattleMoves,
-    [PSS_PAGE_CONTEST_MOVES] = PrintContestMoves
+    [PSS_PAGE_CONTEST_MOVES] = PrintContestMoves,
+    [PSS_PAGE_IVS] = PrintIVsPage,
+    [PSS_PAGE_EVS] = PrintEVsPage,
 };
 
 static void (*const sTextPrinterTasks[])(u8 taskId) =
@@ -739,7 +745,9 @@ static void (*const sTextPrinterTasks[])(u8 taskId) =
     [PSS_PAGE_INFO] = Task_PrintInfoPage,
     [PSS_PAGE_SKILLS] = Task_PrintSkillsPage,
     [PSS_PAGE_BATTLE_MOVES] = Task_PrintBattleMoves,
-    [PSS_PAGE_CONTEST_MOVES] = Task_PrintContestMoves
+    [PSS_PAGE_CONTEST_MOVES] = Task_PrintContestMoves,
+    [PSS_PAGE_IVS] = Task_PrintIVsPage,
+    [PSS_PAGE_EVS] = Task_PrintEVsPage,
 };
 
 static const u8 sMemoNatureTextColor[] = _("{COLOR LIGHT_RED}{SHADOW GREEN}");
@@ -1197,16 +1205,16 @@ void ShowPokemonSummaryScreen(u8 mode, void *mons, u8 monIndex, u8 maxMonIndex, 
     case SUMMARY_MODE_RELEARNER_BATTLE:
     case SUMMARY_MODE_RELEARNER_CONTEST:
         sMonSummaryScreen->minPageIndex = 0;
-        sMonSummaryScreen->maxPageIndex = PSS_PAGE_COUNT - 1;
+        sMonSummaryScreen->maxPageIndex = GetMaxPageIndex();
         break;
     case SUMMARY_MODE_LOCK_MOVES:
         sMonSummaryScreen->minPageIndex = 0;
-        sMonSummaryScreen->maxPageIndex = PSS_PAGE_COUNT - 1;
+        sMonSummaryScreen->maxPageIndex = GetMaxPageIndex();
         sMonSummaryScreen->lockMovesFlag = TRUE;
         break;
     case SUMMARY_MODE_SELECT_MOVE:
         sMonSummaryScreen->minPageIndex = PSS_PAGE_BATTLE_MOVES;
-        sMonSummaryScreen->maxPageIndex = PSS_PAGE_COUNT - 1;
+        sMonSummaryScreen->maxPageIndex = GetMaxPageIndex();
         sMonSummaryScreen->lockMonFlag = TRUE;
         break;
     }
@@ -4684,6 +4692,28 @@ static inline bool32 ShouldShowIvEvPrompt(void)
     return FALSE;
 }
 
+static inline bool32 ShouldShowIvTab(void)
+{
+    return FlagGet(P_FLAG_SUMMARY_SCREEN_IV_TAB);
+}
+
+static inline bool32 ShouldShowEvTab(void)
+{
+    return FlagGet(P_FLAG_SUMMARY_SCREEN_EV_TAB);
+}
+
+static u8 GetMaxPageIndex(void)
+{
+    u8 maxPage = PSS_PAGE_CONTEST_MOVES;
+    
+    if (ShouldShowIvTab())
+        maxPage = PSS_PAGE_IVS;
+    if (ShouldShowEvTab())
+        maxPage = PSS_PAGE_EVS;
+    
+    return maxPage;
+}
+
 static inline void ShowUtilityPrompt(s16 mode)
 {
     const u8* promptText = NULL;
@@ -4763,4 +4793,212 @@ static void CB2_PssChangePokemonNickname(void)
     DoNamingScreen(NAMING_SCREEN_NICKNAME, gStringVar2, GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPECIES, NULL),
                    GetMonGender(&gPlayerParty[gSpecialVar_0x8004]), GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_PERSONALITY, NULL),
                    CB2_ReturnToSummaryScreenFromNamingScreen);
+}
+
+static u8 GetHiddenPowerType(struct Pokemon *mon)
+{
+    u32 typeBits = ((GetMonData(mon, MON_DATA_HP_IV) & 1) << 0)
+                 | ((GetMonData(mon, MON_DATA_ATK_IV) & 1) << 1)
+                 | ((GetMonData(mon, MON_DATA_DEF_IV) & 1) << 2)
+                 | ((GetMonData(mon, MON_DATA_SPEED_IV) & 1) << 3)
+                 | ((GetMonData(mon, MON_DATA_SPATK_IV) & 1) << 4)
+                 | ((GetMonData(mon, MON_DATA_SPDEF_IV) & 1) << 5);
+
+    u32 hpTypes[NUMBER_OF_MON_TYPES] = {0};
+    u32 i, hpTypeCount = 0;
+    for (i = 0; i < NUMBER_OF_MON_TYPES; i++)
+    {
+        if (gTypesInfo[i].isHiddenPowerType)
+            hpTypes[hpTypeCount++] = i;
+    }
+    u32 typeIndex = ((hpTypeCount - 1) * typeBits) / 63;
+    return hpTypes[typeIndex];
+}
+
+static void PrintIVsPage(void)
+{
+    struct PokeSummary *summary = &sMonSummaryScreen->summary;
+    struct Pokemon *mon = &sMonSummaryScreen->currentMon;
+    u8 *hpIVString = Alloc(20);
+    u8 *attackIVString = Alloc(20);
+    u8 *defenseIVString = Alloc(20);
+    u8 *spAtkIVString = Alloc(20);
+    u8 *spDefIVString = Alloc(20);
+    u8 *speedIVString = Alloc(20);
+    u8 hiddenPowerType;
+
+    DynamicPlaceholderTextUtil_Reset();
+
+    // Get IV values
+    u32 hpIV = GetMonData(mon, MON_DATA_HP_IV);
+    u32 attackIV = GetMonData(mon, MON_DATA_ATK_IV);
+    u32 defenseIV = GetMonData(mon, MON_DATA_DEF_IV);
+    u32 spAtkIV = GetMonData(mon, MON_DATA_SPATK_IV);
+    u32 spDefIV = GetMonData(mon, MON_DATA_SPDEF_IV);
+    u32 speedIV = GetMonData(mon, MON_DATA_SPEED_IV);
+
+    // Format IV values
+    ConvertIntToDecimalStringN(hpIVString, hpIV, STR_CONV_MODE_LEFT_ALIGN, 2);
+    ConvertIntToDecimalStringN(attackIVString, attackIV, STR_CONV_MODE_LEFT_ALIGN, 2);
+    ConvertIntToDecimalStringN(defenseIVString, defenseIV, STR_CONV_MODE_LEFT_ALIGN, 2);
+    ConvertIntToDecimalStringN(spAtkIVString, spAtkIV, STR_CONV_MODE_LEFT_ALIGN, 2);
+    ConvertIntToDecimalStringN(spDefIVString, spDefIV, STR_CONV_MODE_LEFT_ALIGN, 2);
+    ConvertIntToDecimalStringN(speedIVString, speedIV, STR_CONV_MODE_LEFT_ALIGN, 2);
+
+    // Print IV values in left column
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, hpIVString);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, attackIVString);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(2, defenseIVString);
+    DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar4, sStatsLeftIVEVColumnLayout);
+    PrintTextOnWindow(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_LEFT], gStringVar4, 0, 1, 0, 1);
+
+    // Print IV values in right column  
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, spAtkIVString);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, spDefIVString);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(2, speedIVString);
+    DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar4, sStatsRightColumnLayout);
+    PrintTextOnWindow(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_RIGHT], gStringVar4, 0, 1, 0, 1);
+
+    // Print Hidden Power type
+    hiddenPowerType = GetHiddenPowerType(mon);
+    StringCopy(gStringVar1, gText_HP);
+    StringAppend(gStringVar1, gText_Colon);
+    StringAppend(gStringVar1, gTypesInfo[hiddenPowerType].name);
+    PrintTextOnWindow(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_EXP], gStringVar1, 0, 1, 0, 1);
+
+    Free(hpIVString);
+    Free(attackIVString);
+    Free(defenseIVString);
+    Free(spAtkIVString);
+    Free(spDefIVString);
+    Free(speedIVString);
+}
+
+static void Task_PrintIVsPage(u8 taskId)
+{
+    switch (gTasks[taskId].data[0])
+    {
+    case 0:
+        FillWindowPixelBuffer(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_LEFT], 0);
+        gTasks[taskId].data[0]++;
+        break;
+    case 1:
+        FillWindowPixelBuffer(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_RIGHT], 0);
+        gTasks[taskId].data[0]++;
+        break;
+    case 2:
+        FillWindowPixelBuffer(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_EXP], 0);
+        gTasks[taskId].data[0]++;
+        break;
+    case 3:
+        PrintIVsPage();
+        gTasks[taskId].data[0]++;
+        break;
+    case 4:
+        PutWindowTilemap(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_LEFT]);
+        PutWindowTilemap(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_RIGHT]);
+        PutWindowTilemap(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_EXP]);
+        gTasks[taskId].data[0]++;
+        break;
+    default:
+        if (!IsDma3ManagerBusyWithBgCopy())
+        {
+            DestroyTask(taskId);
+        }
+        break;
+    }
+}
+
+static void PrintEVsPage(void)
+{
+    struct PokeSummary *summary = &sMonSummaryScreen->summary;
+    struct Pokemon *mon = &sMonSummaryScreen->currentMon;
+    u8 *hpEVString = Alloc(20);
+    u8 *attackEVString = Alloc(20);
+    u8 *defenseEVString = Alloc(20);
+    u8 *spAtkEVString = Alloc(20);
+    u8 *spDefEVString = Alloc(20);
+    u8 *speedEVString = Alloc(20);
+
+    DynamicPlaceholderTextUtil_Reset();
+
+    // Get EV values
+    u32 hpEV = GetMonData(mon, MON_DATA_HP_EV);
+    u32 attackEV = GetMonData(mon, MON_DATA_ATK_EV);
+    u32 defenseEV = GetMonData(mon, MON_DATA_DEF_EV);
+    u32 spAtkEV = GetMonData(mon, MON_DATA_SPATK_EV);
+    u32 spDefEV = GetMonData(mon, MON_DATA_SPDEF_EV);
+    u32 speedEV = GetMonData(mon, MON_DATA_SPEED_EV);
+
+    // Format EV values
+    ConvertIntToDecimalStringN(hpEVString, hpEV, STR_CONV_MODE_LEFT_ALIGN, 3);
+    ConvertIntToDecimalStringN(attackEVString, attackEV, STR_CONV_MODE_LEFT_ALIGN, 3);
+    ConvertIntToDecimalStringN(defenseEVString, defenseEV, STR_CONV_MODE_LEFT_ALIGN, 3);
+    ConvertIntToDecimalStringN(spAtkEVString, spAtkEV, STR_CONV_MODE_LEFT_ALIGN, 3);
+    ConvertIntToDecimalStringN(spDefEVString, spDefEV, STR_CONV_MODE_LEFT_ALIGN, 3);
+    ConvertIntToDecimalStringN(speedEVString, speedEV, STR_CONV_MODE_LEFT_ALIGN, 3);
+
+    // Print EV values in left column
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, hpEVString);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, attackEVString);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(2, defenseEVString);
+    DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar4, sStatsLeftIVEVColumnLayout);
+    PrintTextOnWindow(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_LEFT], gStringVar4, 0, 1, 0, 1);
+
+    // Print EV values in right column  
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, spAtkEVString);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, spDefEVString);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(2, speedEVString);
+    DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar4, sStatsRightColumnLayout);
+    PrintTextOnWindow(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_RIGHT], gStringVar4, 0, 1, 0, 1);
+
+    // Calculate and print total EVs
+    u32 totalEvs = hpEV + attackEV + defenseEV + spAtkEV + spDefEV + speedEV;
+    ConvertIntToDecimalStringN(gStringVar1, totalEvs, STR_CONV_MODE_LEFT_ALIGN, 3);
+    StringCopy(gStringVar2, gText_Total);
+    StringAppend(gStringVar2, gText_Colon);
+    StringAppend(gStringVar2, gStringVar1);
+    PrintTextOnWindow(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_EXP], gStringVar2, 0, 1, 0, 1);
+
+    Free(hpEVString);
+    Free(attackEVString);
+    Free(defenseEVString);
+    Free(spAtkEVString);
+    Free(spDefEVString);
+    Free(speedEVString);
+}
+
+static void Task_PrintEVsPage(u8 taskId)
+{
+    switch (gTasks[taskId].data[0])
+    {
+    case 0:
+        FillWindowPixelBuffer(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_LEFT], 0);
+        gTasks[taskId].data[0]++;
+        break;
+    case 1:
+        FillWindowPixelBuffer(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_RIGHT], 0);
+        gTasks[taskId].data[0]++;
+        break;
+    case 2:
+        FillWindowPixelBuffer(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_EXP], 0);
+        gTasks[taskId].data[0]++;
+        break;
+    case 3:
+        PrintEVsPage();
+        gTasks[taskId].data[0]++;
+        break;
+    case 4:
+        PutWindowTilemap(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_LEFT]);
+        PutWindowTilemap(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_STATS_RIGHT]);
+        PutWindowTilemap(sMonSummaryScreen->windowIds[PSS_DATA_WINDOW_SKILLS_EXP]);
+        gTasks[taskId].data[0]++;
+        break;
+    default:
+        if (!IsDma3ManagerBusyWithBgCopy())
+        {
+            DestroyTask(taskId);
+        }
+        break;
+    }
 }
