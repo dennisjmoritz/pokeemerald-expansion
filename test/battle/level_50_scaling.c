@@ -47,3 +47,26 @@ SINGLE_BATTLE_TEST("Level 50 scaling works for high level trainer Pokemon", s16 
         }
     }
 }
+
+// Test that wild Pokemon also get level 50 scaling when B_LEVEL_50_WILD_BATTLES is enabled
+WILD_BATTLE_TEST("Level 50 scaling works for wild Pokemon", s16 >= GEN_3)
+{
+    GIVEN {
+        PLAYER(SPECIES_WOBBUFFET);
+        WILD(SPECIES_ZIGZAGOON) { Level(15); } // Normal wild level
+    } WHEN {
+        TURN { MOVE(player, MOVE_TACKLE); }
+    } SCENE {
+        // Battle proceeds normally
+    } THEN {
+        // Check level based on configuration
+        if (B_LEVEL_50_WILD_BATTLES)
+        {
+            EXPECT(GetMonData(&OPPONENT_PARTY[0], MON_DATA_LEVEL, 0) == 50);
+        }
+        else
+        {
+            EXPECT(GetMonData(&OPPONENT_PARTY[0], MON_DATA_LEVEL, 0) == 15);
+        }
+    }
+}
