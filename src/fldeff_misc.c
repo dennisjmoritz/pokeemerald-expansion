@@ -18,9 +18,11 @@
 #include "event_object_movement.h"
 #include "metatile_behavior.h"
 #include "string_util.h"
+#include "item.h"
 #include "constants/field_effects.h"
 #include "constants/metatile_behaviors.h"
 #include "constants/metatile_labels.h"
+#include "constants/items.h"
 #include "constants/songs.h"
 
 
@@ -553,6 +555,10 @@ bool32 SetUpFieldMove_SecretPower(void)
     if (gSpecialVar_Result == 1 || GetPlayerFacingDirection() != DIR_NORTH)
         return FALSE;
 
+    // Check for apartment key instead of secret power move
+    if (!CheckBagHasItem(ITEM_APARTMENT_KEY, 1))
+        return FALSE;
+
     GetXYCoordsOneStepInFrontOfPlayer(&gPlayerFacingPosition.x, &gPlayerFacingPosition.y);
     mb = MapGridGetMetatileBehaviorAt(gPlayerFacingPosition.x, gPlayerFacingPosition.y);
 
@@ -586,7 +592,7 @@ bool32 SetUpFieldMove_SecretPower(void)
 static void FieldCallback_SecretBaseCave(void)
 {
     gFieldEffectArguments[0] = GetCursorSelectionMonId();
-    ScriptContext_SetupScript(SecretBase_EventScript_CaveUseSecretPower);
+    ScriptContext_SetupScript(SecretBase_EventScript_CaveUseApartmentKey);
 }
 
 bool8 FldEff_UseSecretPowerCave(void)
@@ -646,7 +652,7 @@ static void SpriteCB_CaveEntranceEnd(struct Sprite *sprite)
 static void FieldCallback_SecretBaseTree(void)
 {
     gFieldEffectArguments[0] = GetCursorSelectionMonId();
-    ScriptContext_SetupScript(SecretBase_EventScript_TreeUseSecretPower);
+    ScriptContext_SetupScript(SecretBase_EventScript_TreeUseApartmentKey);
 }
 
 bool8 FldEff_UseSecretPowerTree(void)
@@ -720,7 +726,7 @@ static void SpriteCB_TreeEntranceEnd(struct Sprite *sprite)
 static void FieldCallback_SecretBaseShrub(void)
 {
     gFieldEffectArguments[0] = GetCursorSelectionMonId();
-    ScriptContext_SetupScript(SecretBase_EventScript_ShrubUseSecretPower);
+    ScriptContext_SetupScript(SecretBase_EventScript_ShrubUseApartmentKey);
 }
 
 bool8 FldEff_UseSecretPowerShrub(void)
