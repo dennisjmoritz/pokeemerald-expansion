@@ -1599,4 +1599,9 @@ void ItemUseOutOfBattle_TownMap(u8 taskId)
     }
 }
 
+void ItemUseOutOfBattle_ApartmentKey(u8 taskId)
+{
+    DisplayItemMessageOnField(taskId, gText_CantUseItem, Task_CloseBagMenuAfterItemUse);
+}
+
 #undef tUsingRegisteredKeyItem

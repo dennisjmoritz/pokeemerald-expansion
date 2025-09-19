@@ -14589,6 +14589,22 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+
+    [ITEM_APARTMENT_KEY] =
+    {
+        .name = ITEM_NAME("Apartment Key"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "A key that allows\n"
+            "you to access\n"
+            "apartments in towns."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ApartmentKey,
+        .iconPic = gItemIcon_BasementKey,
+        .iconPalette = gItemIconPalette_OldKey,
+    },
 };
 
 #undef ITEM_NAME

@@ -994,6 +994,9 @@
 
 #define ITEM_STRANGE_BALL 828
 
+// Apartment Key Item
+#define ITEM_APARTMENT_KEY 829
+
 // HOPO BERRY
 // LEGEND PLATE
 
