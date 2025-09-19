@@ -29,7 +29,8 @@
 #include "constants/songs.h"
 #include "constants/vars.h"
 
-#define EV_EDITOR_CREDITS_PER_POINT 1
+#define EV_POINTS_PER_VITAMIN 10
+#define EV_POINTS_PER_BERRY 10
 #define MAX_EV_PER_STAT 252
 #define MAX_TOTAL_EVS 510
 
@@ -65,7 +66,7 @@ static const u8 sText_SpAtkEVs[] = _("Sp. Atk EVs: {STR_VAR_1}/252");
 static const u8 sText_SpDefEVs[] = _("Sp. Def EVs: {STR_VAR_1}/252");
 static const u8 sText_SpeedEVs[] = _("Speed EVs: {STR_VAR_1}/252");
 static const u8 sText_TotalEVs[] = _("Total: {STR_VAR_1}/510");
-static const u8 sText_CreditsLeft[] = _("Credits: {STR_VAR_1}");
+static const u8 sText_CreditsLeft[] = _("EV Points: {STR_VAR_1}");
 static const u8 sText_IncreaseStat[] = _("+ Increase");
 static const u8 sText_DecreaseStat[] = _("- Decrease");
 static const u8 sText_Reset[] = _("Reset");
@@ -126,21 +127,87 @@ static void EVEditor_ApplyChanges(void);
 
 bool8 EVEditor_LoadCreditsFromBag(void)
 {
-    u16 creditsInBag = GetBagItemQuantity(ITEM_EV_TRAINING_CREDITS);
-    if (creditsInBag == 0)
+    u16 creditsToAdd = 0;
+    
+    // Check for vitamins and convert them to credits
+    u16 vitamins[] = {
+        ITEM_HP_UP, ITEM_PROTEIN, ITEM_IRON, ITEM_CALCIUM, ITEM_ZINC, ITEM_CARBOS
+    };
+    
+    // Check for EV-reducing berries and convert them to credits
+    u16 evBerries[] = {
+        ITEM_POMEG_BERRY, ITEM_KELPSY_BERRY, ITEM_QUALOT_BERRY,
+        ITEM_HONDEW_BERRY, ITEM_GREPA_BERRY, ITEM_TAMATO_BERRY
+    };
+    
+    // Process vitamins (10 credits each)
+    u32 i;
+    for (i = 0; i < ARRAY_COUNT(vitamins); i++)
+    {
+        u16 quantity = GetBagItemQuantity(vitamins[i]);
+        if (quantity > 0)
+        {
+            creditsToAdd += quantity * EV_POINTS_PER_VITAMIN;
+            RemoveBagItem(vitamins[i], quantity);
+        }
+    }
+    
+    // Process EV berries (10 credits each)
+    for (i = 0; i < ARRAY_COUNT(evBerries); i++)
+    {
+        u16 quantity = GetBagItemQuantity(evBerries[i]);
+        if (quantity > 0)
+        {
+            creditsToAdd += quantity * EV_POINTS_PER_BERRY;
+            RemoveBagItem(evBerries[i], quantity);
+        }
+    }
+    
+    if (creditsToAdd == 0)
         return FALSE;
         
-    // Remove credits from bag (up to 99 max for the machine)
-    u16 creditsToLoad = min(creditsInBag, 99);
-    RemoveBagItem(ITEM_EV_TRAINING_CREDITS, creditsToLoad);
+    // Store credits in the EV editor system (capped at 999 for display purposes)
+    u16 currentCredits = VarGet(VAR_EV_EDITOR_CREDITS);
+    u16 newTotal = currentCredits + creditsToAdd;
+    if (newTotal > 999)
+        newTotal = 999;
     
-    // Store credits in the EV editor system (we'll use a var for persistence)
-    VarSet(VAR_EV_EDITOR_CREDITS, VarGet(VAR_EV_EDITOR_CREDITS) + creditsToLoad);
+    VarSet(VAR_EV_EDITOR_CREDITS, newTotal);
     
     return TRUE;
 }
 
+bool8 EVEditor_HasEVItems(void)
+{
+    u16 vitamins[] = {
+        ITEM_HP_UP, ITEM_PROTEIN, ITEM_IRON, ITEM_CALCIUM, ITEM_ZINC, ITEM_CARBOS
+    };
+    
+    u16 evBerries[] = {
+        ITEM_POMEG_BERRY, ITEM_KELPSY_BERRY, ITEM_QUALOT_BERRY,
+        ITEM_HONDEW_BERRY, ITEM_GREPA_BERRY, ITEM_TAMATO_BERRY
+    };
+    
+    u32 i;
+    for (i = 0; i < ARRAY_COUNT(vitamins); i++)
+    {
+        if (GetBagItemQuantity(vitamins[i]) > 0)
+            return TRUE;
+    }
+    
+    for (i = 0; i < ARRAY_COUNT(evBerries); i++)
+    {
+        if (GetBagItemQuantity(evBerries[i]) > 0)
+            return TRUE;
+    }
+    
+    return FALSE;
+}
+
 u16 EVEditor_GetAvailableCredits(void)
+{
+    return VarGet(VAR_EV_EDITOR_CREDITS);
+}
 {
     return VarGet(VAR_EV_EDITOR_CREDITS);
 }

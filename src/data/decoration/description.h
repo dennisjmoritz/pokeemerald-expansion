@@ -588,6 +588,6 @@ const u8 DecorDesc_BERRY_PATCH[] = _(
         "growing berries.");
 
 const u8 DecorDesc_EV_MODIFIER[] = _(
-    "A sophisticated\n"
-        "training device that\n"
-        "modifies effort values.");
+    "A sophisticated device\n"
+        "that modifies EVs using\n"
+        "vitamins and berries.");

@@ -4461,10 +4461,12 @@ void FunctionalDecoration_EVModifier(void)
     // Check if player has EV Credits loaded in the machine
     if (EVEditor_GetAvailableCredits() == 0)
     {
-        // Try to load credits from bag
-        if (EVEditor_LoadCreditsFromBag())
+        // Try to load vitamins/berries from bag
+        if (EVEditor_HasEVItems() && EVEditor_LoadCreditsFromBag())
         {
-            ShowFieldMessage(gText_EVCreditsLoaded);
+            ConvertIntToDecimalStringN(gStringVar1, EVEditor_GetAvailableCredits(), STR_CONV_MODE_LEFT_ALIGN, 3);
+            StringExpandPlaceholders(gStringVar4, gText_EVCreditsLoaded);
+            ShowFieldMessage(gStringVar4);
         }
         else
         {

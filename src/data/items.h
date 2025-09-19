@@ -14605,22 +14605,6 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_BasementKey,
         .iconPalette = gItemIconPalette_OldKey,
     },
-
-    [ITEM_EV_TRAINING_CREDITS] =
-    {
-        .name = ITEM_NAME("EV Credits"),
-        .pluralName = ITEM_PLURAL_NAME("EV Credits"),
-        .price = 1000,
-        .description = COMPOUND_STRING(
-            "Special credits used\n"
-            "to power EV training\n"
-            "machines. Stack up to 99."),
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-        .iconPic = gItemIcon_ZBracelet,
-        .iconPalette = gItemIconPalette_ZBracelet,
-    },
 };
 
 #undef ITEM_NAME
