@@ -19,6 +19,7 @@
 #include "field_screen_effect.h"
 #include "field_weather.h"
 #include "fldeff.h"
+#include "fldeff_misc.h"
 #include "follower_npc.h"
 #include "item.h"
 #include "item_menu.h"
@@ -1596,6 +1597,18 @@ void ItemUseOutOfBattle_TownMap(u8 taskId)
     else
     {
         gTasks[taskId].func = ItemUseOnFieldCB_TownMap;
+    }
+}
+
+void ItemUseOutOfBattle_ApartmentKey(u8 taskId)
+{
+    if (SetUpFieldMove_SecretPower())
+    {
+        Task_FadeAndCloseBagMenu(taskId);
+    }
+    else
+    {
+        DisplayItemMessageOnField(taskId, gText_CantUseItem, Task_CloseBagMenuAfterItemUse);
     }
 }
 

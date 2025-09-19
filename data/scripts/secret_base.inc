@@ -22,15 +22,44 @@ SecretBase_Text_ClumpUseSecretPower:
 SecretBase_Text_DiscoveredSmallEntrance:
 	.string "Discovered a small entrance!$"
 
+SecretBase_Text_IndentUseApartmentKey:
+	.string "There's a small indent in the wall.\p"
+	.string "Use the APARTMENT KEY?$"
+
+SecretBase_Text_UsedApartmentKey:
+	.string "Used the APARTMENT KEY!$"
+
+SecretBase_Text_NeedApartmentKey:
+	.string "There's a small indent in the wall.\p"
+	.string "You need an APARTMENT KEY to open it.$"
+
+SecretBase_Text_TreeUseApartmentKey:
+	.string "This looks like it could be converted\n"
+	.string "into a nice apartment.\p"
+	.string "Use the APARTMENT KEY?$"
+
+SecretBase_Text_ClumpUseApartmentKey:
+	.string "This area looks perfect for\n"
+	.string "an apartment entrance.\p"
+	.string "Use the APARTMENT KEY?$"
+
+SecretBase_Text_WouldYouLikeToMoveApartments:
+	.string "You may only have one APARTMENT.\\p"
+	.string "Would you like to move from your\\n"
+	.string "current APARTMENT near {STR_VAR_1}?$"
+
+SecretBase_Text_MovingCompletedUseApartmentKey:
+	.string "Moving completed.\\p"
+	.string "Would you like to use the APARTMENT KEY?$"
+
 	.include "data/text/secret_base_trainers.inc"
 
 SecretBase_EventScript_CheckEntrance::
 	special GetSecretBaseTypeInFrontOfPlayer
 	special CheckPlayerHasSecretBase
 	goto_if_eq VAR_RESULT, TRUE, SecretBase_EventScript_AlreadyHasSecretBase
-	checkfieldmove FIELD_MOVE_SECRET_POWER
-	setfieldeffectargument 0, VAR_RESULT
-	buffermovename STR_VAR_2, MOVE_SECRET_POWER
+	checkitem ITEM_APARTMENT_KEY
+	goto_if_eq VAR_RESULT, FALSE, SecretBase_EventScript_NoApartmentKey
 	goto_if_eq VAR_0x8007, SECRET_BASE_RED_CAVE, SecretBase_EventScript_Cave
 	goto_if_eq VAR_0x8007, SECRET_BASE_BROWN_CAVE, SecretBase_EventScript_Cave
 	goto_if_eq VAR_0x8007, SECRET_BASE_BLUE_CAVE, SecretBase_EventScript_Cave
@@ -41,26 +70,25 @@ SecretBase_EventScript_CheckEntrance::
 
 SecretBase_EventScript_Cave::
 	lockall
-	goto_if_eq VAR_RESULT, PARTY_SIZE, SecretBase_EventScript_CaveNoSecretPower
-	bufferpartymonnick STR_VAR_1, VAR_RESULT
-	msgbox SecretBase_Text_IndentUseSecretPower, MSGBOX_YESNO
+	msgbox SecretBase_Text_IndentUseApartmentKey, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_CancelOnEntrance
-	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
+	msgbox SecretBase_Text_UsedApartmentKey, MSGBOX_DEFAULT
 	closemessage
 	dofieldeffect FLDEFF_USE_SECRET_POWER_CAVE
 	waitstate
 	goto SecretBase_EventScript_CaveEnter
 	end
 
-SecretBase_EventScript_CaveUseSecretPower::
+SecretBase_EventScript_CaveUseApartmentKey::
 	lockall
 	dofieldeffect FLDEFF_USE_SECRET_POWER_CAVE
 	waitstate
 	goto SecretBase_EventScript_CaveEnter
 	end
 
-SecretBase_EventScript_CaveNoSecretPower::
-	msgbox SecretBase_Text_SmallIndentInWall, MSGBOX_DEFAULT
+SecretBase_EventScript_NoApartmentKey::
+	lockall
+	msgbox SecretBase_Text_NeedApartmentKey, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -71,27 +99,20 @@ SecretBase_EventScript_CaveEnter::
 
 SecretBase_EventScript_Tree::
 	lockall
-	goto_if_eq VAR_RESULT, PARTY_SIZE, SecretBase_EventScript_TreeNoSecretPower
-	bufferpartymonnick STR_VAR_1, VAR_RESULT
-	msgbox SecretBase_Text_TreeUseSecretPower, MSGBOX_YESNO
+	msgbox SecretBase_Text_TreeUseApartmentKey, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_CancelOnEntrance
-	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
+	msgbox SecretBase_Text_UsedApartmentKey, MSGBOX_DEFAULT
 	closemessage
 	dofieldeffect FLDEFF_USE_SECRET_POWER_TREE
 	waitstate
 	goto SecretBase_EventScript_TreeEnter
 	end
 
-SecretBase_EventScript_TreeUseSecretPower::
+SecretBase_EventScript_TreeUseApartmentKey::
 	lockall
 	dofieldeffect FLDEFF_USE_SECRET_POWER_TREE
 	waitstate
 	goto SecretBase_EventScript_TreeEnter
-	end
-
-SecretBase_EventScript_TreeNoSecretPower::
-	msgbox SecretBase_Text_TreeCanBeClimbed, MSGBOX_DEFAULT
-	releaseall
 	end
 
 SecretBase_EventScript_TreeEnter::
@@ -101,27 +122,20 @@ SecretBase_EventScript_TreeEnter::
 
 SecretBase_EventScript_Shrub::
 	lockall
-	goto_if_eq VAR_RESULT, PARTY_SIZE, SecretBase_EventScript_ShrubNoSecretPower
-	bufferpartymonnick STR_VAR_1, VAR_RESULT
-	msgbox SecretBase_Text_ClumpUseSecretPower, MSGBOX_YESNO
+	msgbox SecretBase_Text_ClumpUseApartmentKey, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_CancelOnEntrance
-	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
+	msgbox SecretBase_Text_UsedApartmentKey, MSGBOX_DEFAULT
 	closemessage
 	dofieldeffect FLDEFF_USE_SECRET_POWER_SHRUB
 	waitstate
 	goto SecretBase_EventScript_ShrubEnter
 	end
 
-SecretBase_EventScript_ShrubUseSecretPower::
+SecretBase_EventScript_ShrubUseApartmentKey::
 	lockall
 	dofieldeffect FLDEFF_USE_SECRET_POWER_SHRUB
 	waitstate
 	goto SecretBase_EventScript_ShrubEnter
-	end
-
-SecretBase_EventScript_ShrubNoSecretPower::
-	msgbox SecretBase_Text_ClumpOfGrass, MSGBOX_DEFAULT
-	releaseall
 	end
 
 SecretBase_EventScript_ShrubEnter::
@@ -186,13 +200,11 @@ SecretBase_EventScript_EnterPlayersBase::
 	end
 
 SecretBase_EventScript_AlreadyHasSecretBase::
-	checkfieldmove FIELD_MOVE_SECRET_POWER
-	goto_if_eq VAR_RESULT, PARTY_SIZE, SecretBase_EventScript_NoSecretPower
-	setfieldeffectargument 0, VAR_RESULT
-	setorcopyvar VAR_0x8004, VAR_RESULT
+	checkitem ITEM_APARTMENT_KEY
+	goto_if_eq VAR_RESULT, FALSE, SecretBase_EventScript_NoApartmentKey
 	lockall
 	special GetSecretBaseNearbyMapName
-	msgbox SecretBase_Text_WouldYouLikeToMoveBases, MSGBOX_YESNO
+	msgbox SecretBase_Text_WouldYouLikeToMoveApartments, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_CancelOnEntrance
 	msgbox SecretBase_Text_AllDecorationsWillBeReturned, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_CancelOnEntrance
@@ -200,30 +212,28 @@ SecretBase_EventScript_AlreadyHasSecretBase::
 	special MoveOutOfSecretBaseFromOutside
 	closemessage
 	fadescreenswapbuffers FADE_FROM_BLACK
-	msgbox SecretBase_Text_MovingCompletedUseSecretPower, MSGBOX_YESNO
+	msgbox SecretBase_Text_MovingCompletedUseApartmentKey, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_CancelOnEntrance
-	bufferpartymonnick STR_VAR_1, VAR_0x8004
-	buffermovename STR_VAR_2, MOVE_SECRET_POWER
-	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
+	msgbox SecretBase_Text_UsedApartmentKey, MSGBOX_DEFAULT
 	closemessage
 	closemessage
-	goto_if_eq VAR_0x8007, SECRET_BASE_RED_CAVE, SecretBase_EventScript_CaveUseSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_BROWN_CAVE, SecretBase_EventScript_CaveUseSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_BLUE_CAVE, SecretBase_EventScript_CaveUseSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_YELLOW_CAVE, SecretBase_EventScript_CaveUseSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_TREE, SecretBase_EventScript_TreeUseSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_SHRUB, SecretBase_EventScript_ShrubUseSecretPower
+	goto_if_eq VAR_0x8007, SECRET_BASE_RED_CAVE, SecretBase_EventScript_CaveUseApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_BROWN_CAVE, SecretBase_EventScript_CaveUseApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_BLUE_CAVE, SecretBase_EventScript_CaveUseApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_YELLOW_CAVE, SecretBase_EventScript_CaveUseApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_TREE, SecretBase_EventScript_TreeUseApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_SHRUB, SecretBase_EventScript_ShrubUseApartmentKey
 	releaseall
 	end
 
 SecretBase_EventScript_NoSecretPower::
 	lockall
-	goto_if_eq VAR_0x8007, SECRET_BASE_RED_CAVE, SecretBase_EventScript_CaveNoSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_BROWN_CAVE, SecretBase_EventScript_CaveNoSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_BLUE_CAVE, SecretBase_EventScript_CaveNoSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_YELLOW_CAVE, SecretBase_EventScript_CaveNoSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_TREE, SecretBase_EventScript_TreeNoSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_SHRUB, SecretBase_EventScript_ShrubNoSecretPower
+	goto_if_eq VAR_0x8007, SECRET_BASE_RED_CAVE, SecretBase_EventScript_NoApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_BROWN_CAVE, SecretBase_EventScript_NoApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_BLUE_CAVE, SecretBase_EventScript_NoApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_YELLOW_CAVE, SecretBase_EventScript_NoApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_TREE, SecretBase_EventScript_NoApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_SHRUB, SecretBase_EventScript_NoApartmentKey
 	end
 
 SecretBase_EventScript_CancelOnEntrance::
