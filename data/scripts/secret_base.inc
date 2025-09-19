@@ -228,12 +228,12 @@ SecretBase_EventScript_AlreadyHasSecretBase::
 
 SecretBase_EventScript_NoSecretPower::
 	lockall
-	goto_if_eq VAR_0x8007, SECRET_BASE_RED_CAVE, SecretBase_EventScript_CaveNoSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_BROWN_CAVE, SecretBase_EventScript_CaveNoSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_BLUE_CAVE, SecretBase_EventScript_CaveNoSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_YELLOW_CAVE, SecretBase_EventScript_CaveNoSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_TREE, SecretBase_EventScript_TreeNoSecretPower
-	goto_if_eq VAR_0x8007, SECRET_BASE_SHRUB, SecretBase_EventScript_ShrubNoSecretPower
+	goto_if_eq VAR_0x8007, SECRET_BASE_RED_CAVE, SecretBase_EventScript_NoApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_BROWN_CAVE, SecretBase_EventScript_NoApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_BLUE_CAVE, SecretBase_EventScript_NoApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_YELLOW_CAVE, SecretBase_EventScript_NoApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_TREE, SecretBase_EventScript_NoApartmentKey
+	goto_if_eq VAR_0x8007, SECRET_BASE_SHRUB, SecretBase_EventScript_NoApartmentKey
 	end
 
 SecretBase_EventScript_CancelOnEntrance::
