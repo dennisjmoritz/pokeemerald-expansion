@@ -20,3 +20,7 @@ $(C_BUILDDIR)/heal_location.o: c_dep += $(DATA_SRC_SUBDIR)/heal_locations.h
 AUTO_GEN_TARGETS += include/constants/heal_locations.h
 include/constants/heal_locations.h: $(DATA_SRC_SUBDIR)/heal_locations.json $(DATA_SRC_SUBDIR)/heal_locations.constants.json.txt
 	$(JSONPROC) $^ $@
+
+AUTO_GEN_TARGETS += include/constants/tms_hms.h
+include/constants/tms_hms.h: $(DATA_SRC_SUBDIR)/tms_hms.json include/constants/tms_hms.json.txt
+	$(JSONPROC) $^ $@
