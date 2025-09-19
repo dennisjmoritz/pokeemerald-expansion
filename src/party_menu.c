@@ -2900,12 +2900,16 @@ static u8 GetPartyMenuActionsType(struct Pokemon *mon)
     case PARTY_MENU_TYPE_STORE_PYRAMID_HELD_ITEMS:
         actionType = ACTIONS_TAKEITEM_TOSS;
         break;
+    case PARTY_MENU_TYPE_EV_MODIFIER:
+        actionType = ACTIONS_NONE; // Direct selection, no actions menu
+        break;
     // The following have no selection actions (i.e. they exit immediately upon selection)
     // PARTY_MENU_TYPE_CONTEST
     // PARTY_MENU_TYPE_CHOOSE_MON
     // PARTY_MENU_TYPE_MULTI_SHOWCASE
     // PARTY_MENU_TYPE_MOVE_RELEARNER
     // PARTY_MENU_TYPE_MINIGAME
+    // PARTY_MENU_TYPE_EV_MODIFIER
     default:
         actionType = ACTIONS_NONE;
         break;

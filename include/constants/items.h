@@ -997,10 +997,13 @@
 // Apartment Key Item
 #define ITEM_APARTMENT_KEY 829
 
+// EV Training Credits for EV Modifier decoration
+#define ITEM_EV_TRAINING_CREDITS 830
+
 // HOPO BERRY
 // LEGEND PLATE
 
-#define ITEMS_COUNT 830
+#define ITEMS_COUNT 831
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations

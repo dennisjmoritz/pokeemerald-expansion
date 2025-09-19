@@ -52,6 +52,7 @@
 #include "window.h"
 #include "berry.h"
 #include "daycare.h"
+#include "ev_editor.h"
 #include "constants/battle_frontier.h"
 #include "constants/battle_pyramid.h"
 #include "constants/battle_tower.h"
@@ -4446,51 +4447,56 @@ void FunctionalDecoration_BerryPatch(void)
     // a choice and then immediately growing a berry after planting
 }
 
+// Forward declaration for EV modifier callback
+static void EVModifier_MonSelectedCallback(void);
+
 void FunctionalDecoration_EVModifier(void)
 {
-    u32 cost = 10000; // Cost in money
-    
-    if (GetMoney(&gSaveBlock1Ptr->money) < cost)
-    {
-        ShowFieldMessage(gText_NotEnoughMoney);
-        return;
-    }
-    
     if (CalculatePlayerPartyCount() == 0)
     {
         ShowFieldMessage(gText_NoPartyMon);
         return;
     }
     
-    // Remove money upfront
-    RemoveMoney(&gSaveBlock1Ptr->money, cost);
-    
-    // For this implementation, reset all EVs for the first non-egg Pokemon
-    // A full implementation would use a proper menu system
-    u32 i;
-    for (i = 0; i < gPlayerPartyCount; i++)
+    // Check if player has EV Credits loaded in the machine
+    if (EVEditor_GetAvailableCredits() == 0)
     {
-        if (!GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG))
+        // Try to load credits from bag
+        if (EVEditor_LoadCreditsFromBag())
         {
-            u8 zeroEV = 0;
-            SetMonData(&gPlayerParty[i], MON_DATA_HP_EV, &zeroEV);
-            SetMonData(&gPlayerParty[i], MON_DATA_ATK_EV, &zeroEV);
-            SetMonData(&gPlayerParty[i], MON_DATA_DEF_EV, &zeroEV);
-            SetMonData(&gPlayerParty[i], MON_DATA_SPEED_EV, &zeroEV);
-            SetMonData(&gPlayerParty[i], MON_DATA_SPATK_EV, &zeroEV);
-            SetMonData(&gPlayerParty[i], MON_DATA_SPDEF_EV, &zeroEV);
-            
-            // Recalculate stats
-            CalculateMonStats(&gPlayerParty[i]);
-            
-            // Set Pokemon name in string variable for message
-            GetMonData(&gPlayerParty[i], MON_DATA_NICKNAME, gStringVar1);
-            StringExpandPlaceholders(gStringVar4, gText_EVsReset);
-            ShowFieldMessage(gStringVar4);
+            ShowFieldMessage(gText_EVCreditsLoaded);
+        }
+        else
+        {
+            ShowFieldMessage(gText_NoEVCredits);
             return;
         }
     }
     
-    // If we get here, no non-egg Pokemon was found (shouldn't happen due to earlier check)
-    ShowFieldMessage(gText_NoPartyMon);
+    // Open party menu for Pokemon selection
+    ChoosePartyMon();
+    gPartyMenu.menuType = PARTY_MENU_TYPE_EV_MODIFIER;
+    gPartyMenu.exitCallback = EVModifier_MonSelectedCallback;
+}
+
+static void EVModifier_MonSelectedCallback(void)
+{
+    u8 selectedMon = GetCursorSelectionMonId();
+    
+    if (selectedMon >= PARTY_SIZE)
+    {
+        // Player cancelled
+        SetMainCallback2(CB2_ReturnToFieldWithOpenMenu);
+        return;
+    }
+    
+    if (GetMonData(&gPlayerParty[selectedMon], MON_DATA_IS_EGG))
+    {
+        ShowFieldMessage(gText_CantUseOnEgg);
+        SetMainCallback2(CB2_ReturnToFieldWithOpenMenu);
+        return;
+    }
+    
+    // Open EV editor for selected Pokemon
+    EVEditor_OpenFromPartyMenu(selectedMon);
 }

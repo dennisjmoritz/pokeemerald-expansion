@@ -2437,5 +2437,9 @@ extern const u8 gText_NoBerriesToPlant[];
 extern const u8 gText_NotEnoughMoney[];
 extern const u8 gText_EVModifierUsed[];
 extern const u8 gText_EVsReset[];
+extern const u8 gText_NoEVCredits[];
+extern const u8 gText_EVsModified[];
+extern const u8 gText_EVCreditsLoaded[];
+extern const u8 gText_CantUseOnEgg[];
 
 #endif // GUARD_STRINGS_H

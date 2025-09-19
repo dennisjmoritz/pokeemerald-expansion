@@ -1312,3 +1312,7 @@ const u8 gText_NoBerriesToPlant[] = _("You have no BERRIES\nto plant.{PAUSE_UNTI
 const u8 gText_NotEnoughMoney[] = _("You don't have enough money\nto use this device.{PAUSE_UNTIL_PRESS}");
 const u8 gText_EVModifierUsed[] = _("The EV MODIFIER is ready!\nSelect a POKéMON to train.{PAUSE_UNTIL_PRESS}");
 const u8 gText_EVsReset[] = _("{STR_VAR_1}'s effort values\nwere all reset to zero!{PAUSE_UNTIL_PRESS}");
+const u8 gText_NoEVCredits[] = _("The EV MODIFIER needs EV CREDITS\nto function. Load credits first.{PAUSE_UNTIL_PRESS}");
+const u8 gText_EVsModified[] = _("{STR_VAR_1}'s effort values\nwere successfully modified!{PAUSE_UNTIL_PRESS}");
+const u8 gText_EVCreditsLoaded[] = _("EV TRAINING CREDITS loaded\ninto the machine!{PAUSE_UNTIL_PRESS}");
+const u8 gText_CantUseOnEgg[] = _("Cannot use EV training\non an EGG!{PAUSE_UNTIL_PRESS}");
