@@ -1,6 +1,11 @@
 #ifndef GUARD_CONSTANTS_TMS_HMS_H
 #define GUARD_CONSTANTS_TMS_HMS_H
 
+//
+// DO NOT MODIFY THIS FILE! It is auto-generated from src/data/tms_hms.json and Inja template include/constants/tms_hms.json.txt
+//
+
+
 #define FOREACH_TM(F) \
     F(FOCUS_PUNCH) \
     F(DRAGON_CLAW) \
@@ -51,7 +56,8 @@
     F(STEEL_WING) \
     F(SKILL_SWAP) \
     F(SNATCH) \
-    F(OVERHEAT)
+    F(OVERHEAT) \
+
 
 #define FOREACH_HM(F) \
     F(CUT) \
@@ -61,7 +67,8 @@
     F(FLASH) \
     F(ROCK_SMASH) \
     F(WATERFALL) \
-    F(DIVE)
+    F(DIVE) \
+
 
 #define FOREACH_TMHM(F) \
     FOREACH_TM(F) \
