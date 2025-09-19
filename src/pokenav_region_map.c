@@ -10,6 +10,7 @@
 #include "palette.h"
 #include "pokenav.h"
 #include "region_map.h"
+#include "regions.h"
 #include "sound.h"
 #include "sprite.h"
 #include "string_util.h"
@@ -226,6 +227,14 @@ static u32 HandleRegionMapInput(struct Pokenav_RegionMapMenu *state)
         if (regionMap->mapSecType == MAPSECTYPE_CITY_CANFLY && FlagGet(OW_FLAG_POKE_RIDER) 
         && Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE)
             return POKENAV_MAP_FUNC_FLY;
+        break;
+    case MAP_INPUT_L_BUTTON:
+        if (HasMultipleRegionsAvailable())
+        {
+            SwitchToPrevRegion(regionMap);
+            return POKENAV_MAP_FUNC_CURSOR_MOVED;
+        }
+        break;
     }
 
     return POKENAV_MAP_FUNC_NONE;

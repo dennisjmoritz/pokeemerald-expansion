@@ -20,6 +20,7 @@
 #include "field_specials.h"
 #include "fldeff.h"
 #include "region_map.h"
+#include "regions.h"
 #include "decompress.h"
 #include "constants/region_map_sections.h"
 #include "heal_location.h"
@@ -516,6 +517,7 @@ void InitRegionMapData(struct RegionMap *regionMap, const struct BgTemplate *tem
     sRegionMap = regionMap;
     sRegionMap->initStep = 0;
     sRegionMap->zoomed = zoomed;
+    sRegionMap->currentRegion = GetCurrentRegion();
     sRegionMap->inputCallback = zoomed == TRUE ? ProcessRegionMapInput_Zoomed : ProcessRegionMapInput_Full;
     if (template != NULL)
     {
@@ -684,6 +686,10 @@ static u8 ProcessRegionMapInput_Full(void)
     {
         input = MAP_INPUT_R_BUTTON;
     }
+    else if (JOY_NEW(L_BUTTON))
+    {
+        input = MAP_INPUT_L_BUTTON;
+    }
     if (input == MAP_INPUT_MOVE_START)
     {
         sRegionMap->cursorMovementFrameCounter = 4;
@@ -766,6 +772,10 @@ static u8 ProcessRegionMapInput_Zoomed(void)
     else if (JOY_NEW(R_BUTTON))
     {
         input = MAP_INPUT_R_BUTTON;
+    }
+    else if (JOY_NEW(L_BUTTON))
+    {
+        input = MAP_INPUT_L_BUTTON;
     }
     if (input == MAP_INPUT_MOVE_START)
     {
@@ -1982,6 +1992,20 @@ static void CB_HandleFlyMapInput(void)
             sFlyMap->choseFlyLocation = FALSE;
             SetFlyMapCallback(CB_ExitFlyMap);
             break;
+        case MAP_INPUT_L_BUTTON:
+            if (HasMultipleRegionsAvailable())
+            {
+                SwitchToPrevRegion(&sFlyMap->regionMap);
+                DrawFlyDestTextWindow();
+            }
+            break;
+        case MAP_INPUT_R_BUTTON:
+            if (HasMultipleRegionsAvailable())
+            {
+                SwitchToNextRegion(&sFlyMap->regionMap);
+                DrawFlyDestTextWindow();
+            }
+            break;
         }
     }
 }
@@ -2044,4 +2068,43 @@ void SetFlyDestination(struct RegionMap* regionMap)
         SetWarpDestinationToHealLocation(flyDestination);
     else
         SetWarpDestinationToMapWarp(sMapHealLocations[regionMap->mapSecId][0], sMapHealLocations[regionMap->mapSecId][1], WARP_ID_NONE);
+}
+
+// Multi-region support functions
+void SwitchToNextRegion(struct RegionMap* regionMap)
+{
+    if (HasMultipleRegionsAvailable())
+    {
+        u32 nextRegion = GetNextAvailableRegion(regionMap->currentRegion);
+        regionMap->currentRegion = nextRegion;
+        SetCurrentMapRegion(nextRegion);
+        
+        // Reset cursor position when switching regions
+        regionMap->cursorPosX = MAPCURSOR_X_MIN + 1;
+        regionMap->cursorPosY = MAPCURSOR_Y_MIN + 1;
+        
+        // Update map section info
+        regionMap->mapSecId = GetMapSecIdAt(regionMap->cursorPosX, regionMap->cursorPosY);
+        regionMap->mapSecType = GetMapsecType(regionMap->mapSecId);
+        GetPositionOfCursorWithinMapSec();
+    }
+}
+
+void SwitchToPrevRegion(struct RegionMap* regionMap)
+{
+    if (HasMultipleRegionsAvailable())
+    {
+        u32 prevRegion = GetPrevAvailableRegion(regionMap->currentRegion);
+        regionMap->currentRegion = prevRegion;
+        SetCurrentMapRegion(prevRegion);
+        
+        // Reset cursor position when switching regions
+        regionMap->cursorPosX = MAPCURSOR_X_MIN + 1;
+        regionMap->cursorPosY = MAPCURSOR_Y_MIN + 1;
+        
+        // Update map section info
+        regionMap->mapSecId = GetMapSecIdAt(regionMap->cursorPosX, regionMap->cursorPosY);
+        regionMap->mapSecType = GetMapsecType(regionMap->mapSecId);
+        GetPositionOfCursorWithinMapSec();
+    }
 }
