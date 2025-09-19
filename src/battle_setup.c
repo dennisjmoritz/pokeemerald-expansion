@@ -1196,7 +1196,7 @@ void BattleSetup_StartTrainerBattle(void)
         }
         else
         {
-            gBattleTypeFlags = (BATTLE_TYPE_TRAINER);
+            gBattleTypeFlags = (BATTLE_TYPE_DOUBLE | BATTLE_TYPE_TRAINER);
         }
     }
 
@@ -1348,7 +1348,7 @@ static void CB2_EndRematchBattle(void)
 
 void BattleSetup_StartRematchBattle(void)
 {
-    gBattleTypeFlags = BATTLE_TYPE_TRAINER;
+    gBattleTypeFlags = BATTLE_TYPE_DOUBLE | BATTLE_TYPE_TRAINER;
     gMain.savedCallback = CB2_EndRematchBattle;
     DoTrainerBattle();
     ScriptContext_Stop();

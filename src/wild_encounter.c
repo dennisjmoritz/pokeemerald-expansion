@@ -19,6 +19,7 @@
 #include "battle_pike.h"
 #include "battle_pyramid.h"
 #include "constants/abilities.h"
+#include "constants/battle_frontier.h"
 #include "constants/game_stat.h"
 #include "constants/item.h"
 #include "constants/items.h"
@@ -482,6 +483,12 @@ void CreateWildMon(u16 species, u8 level)
     bool32 checkCuteCharm = TRUE;
 
     ZeroEnemyPartyMons();
+
+    // Apply level 50 scaling if enabled for wild battles
+    if (B_LEVEL_50_WILD_BATTLES)
+    {
+        level = FRONTIER_MAX_LEVEL_50;
+    }
 
     switch (gSpeciesInfo[species].genderRatio)
     {
