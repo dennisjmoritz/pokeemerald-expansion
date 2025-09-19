@@ -111,6 +111,9 @@ SecretBase_EventScript_ShowRegisterMenu::
 	goto SecretBase_EventScript_PCRegisterMenu
 	end
 
+	@ Secret Base Registration Cost
+	.set SECRET_BASE_REGISTRATION_COST, 1000
+
 SecretBase_EventScript_PCRegister::
 	special GetCurSecretBaseRegistrationValidity
 	goto_if_eq VAR_RESULT, 1, SecretBase_EventScript_AlreadyRegistered
@@ -118,10 +121,31 @@ SecretBase_EventScript_PCRegister::
 	special CopyCurSecretBaseOwnerName_StrVar1
 	msgbox SecretBase_Text_WantToRegisterSecretBase, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_PCRegisterMenu
+	showmoneybox 0, 0
+	checkmoney SECRET_BASE_REGISTRATION_COST
+	goto_if_eq VAR_RESULT, FALSE, SecretBase_EventScript_NotEnoughMoneyForRegistration
+	msgbox SecretBase_Text_RegistrationCostWarning, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_CancelRegistration
+	playse SE_SHOP
+	removemoney SECRET_BASE_REGISTRATION_COST
+	updatemoneybox
 	msgbox SecretBase_Text_RegistrationCompleted, MSGBOX_SIGN
+	hidemoneybox
 	special ToggleCurSecretBaseRegistry
 	special DoSecretBasePCTurnOffEffect
 	releaseall
+	end
+
+SecretBase_EventScript_NotEnoughMoneyForRegistration::
+	msgbox SecretBase_Text_NotEnoughMoneyForRegistration, MSGBOX_DEFAULT
+	hidemoneybox
+	goto SecretBase_EventScript_PCRegisterMenu
+	end
+
+SecretBase_EventScript_CancelRegistration::
+	msgbox SecretBase_Text_CancelRegistration, MSGBOX_DEFAULT
+	hidemoneybox
+	goto SecretBase_EventScript_PCRegisterMenu
 	end
 
 SecretBase_EventScript_AlreadyRegistered::
