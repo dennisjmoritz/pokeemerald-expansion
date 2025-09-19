@@ -165,5 +165,9 @@ bool8 MetatileBehavior_IsSidewaysStairsLeftSideBottom(u8 metatileBehavior);
 bool8 MetatileBehavior_IsSidewaysStairsRightSideAny(u8 metatileBehavior);
 bool8 MetatileBehavior_IsSidewaysStairsLeftSideAny(u8 metatileBehavior);
 bool8 MetatileBehavior_IsRockClimbable(u8 metatileBehavior);
+bool8 MetatileBehavior_IsFunctionalDecorationMoveRelearner(u8 metatileBehavior);
+bool8 MetatileBehavior_IsFunctionalDecorationEggIncubator(u8 metatileBehavior);
+bool8 MetatileBehavior_IsFunctionalDecorationBerryPatch(u8 metatileBehavior);
+bool8 MetatileBehavior_IsFunctionalDecorationEVModifier(u8 metatileBehavior);
 
 #endif // GUARD_METATILE_BEHAVIOR_H

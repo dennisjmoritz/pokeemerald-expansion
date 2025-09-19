@@ -1551,3 +1551,35 @@ bool8 MetatileBehavior_IsRockClimbable(u8 metatileBehavior)
     else
         return FALSE;
 }
+
+bool8 MetatileBehavior_IsFunctionalDecorationMoveRelearner(u8 metatileBehavior)
+{
+    if (metatileBehavior == MB_FUNCTIONAL_DECORATION_MOVE_RELEARNER)
+        return TRUE;
+    else
+        return FALSE;
+}
+
+bool8 MetatileBehavior_IsFunctionalDecorationEggIncubator(u8 metatileBehavior)
+{
+    if (metatileBehavior == MB_FUNCTIONAL_DECORATION_EGG_INCUBATOR)
+        return TRUE;
+    else
+        return FALSE;
+}
+
+bool8 MetatileBehavior_IsFunctionalDecorationBerryPatch(u8 metatileBehavior)
+{
+    if (metatileBehavior == MB_FUNCTIONAL_DECORATION_BERRY_PATCH)
+        return TRUE;
+    else
+        return FALSE;
+}
+
+bool8 MetatileBehavior_IsFunctionalDecorationEVModifier(u8 metatileBehavior)
+{
+    if (metatileBehavior == MB_FUNCTIONAL_DECORATION_EV_MODIFIER)
+        return TRUE;
+    else
+        return FALSE;
+}

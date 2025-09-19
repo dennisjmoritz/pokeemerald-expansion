@@ -532,6 +532,14 @@ static const u8 *GetInteractedMetatileScript(struct MapPosition *position, u8 me
             return SecretBase_EventScript_PC;
         if (MetatileBehavior_IsRecordMixingSecretBasePC(metatileBehavior) == TRUE)
             return SecretBase_EventScript_RecordMixingPC;
+        if (MetatileBehavior_IsFunctionalDecorationMoveRelearner(metatileBehavior) == TRUE)
+            return FunctionalDecoration_EventScript_MoveRelearner;
+        if (MetatileBehavior_IsFunctionalDecorationEggIncubator(metatileBehavior) == TRUE)
+            return FunctionalDecoration_EventScript_EggIncubator;
+        if (MetatileBehavior_IsFunctionalDecorationBerryPatch(metatileBehavior) == TRUE)
+            return FunctionalDecoration_EventScript_BerryPatch;
+        if (MetatileBehavior_IsFunctionalDecorationEVModifier(metatileBehavior) == TRUE)
+            return FunctionalDecoration_EventScript_EVModifier;
         if (MetatileBehavior_IsSecretBaseSandOrnament(metatileBehavior) == TRUE)
             return SecretBase_EventScript_SandOrnament;
         if (MetatileBehavior_IsSecretBaseShieldOrToyTV(metatileBehavior) == TRUE)

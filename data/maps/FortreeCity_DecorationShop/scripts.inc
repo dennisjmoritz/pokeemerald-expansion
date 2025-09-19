@@ -66,3 +66,21 @@ FortreeCity_DecorationShop_Text_BuyingDeskForDolls:
 	.string "SECRET BASE, my DOLLS will get\l"
 	.string "dirty or poked with splinters.$"
 
+FortreeCity_DecorationShop_EventScript_ClerkFunctional::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemartdecoration FortreeCity_DecorationShop_PokemartDecor_Functional
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+FortreeCity_DecorationShop_PokemartDecor_Functional:
+	.2byte DECOR_MOVE_RELEARNER
+	.2byte DECOR_EGG_INCUBATOR
+	.2byte DECOR_BERRY_PATCH
+	.2byte DECOR_EV_MODIFIER
+	pokemartlistend
+

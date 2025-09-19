@@ -643,7 +643,7 @@ const u16 DecorGfx_REGISTEEL_DOLL[] = {
 };
 
 const u16 DecorGfx_MOVE_RELEARNER[] = {
-    OBJ_EVENT_GFX_SCIENTIST_1
+    DECOR_TILE(PC)
 };
 
 const u16 DecorGfx_EGG_INCUBATOR[] = {
@@ -661,5 +661,5 @@ const u16 DecorGfx_BERRY_PATCH[] = {
 };
 
 const u16 DecorGfx_EV_MODIFIER[] = {
-    OBJ_EVENT_GFX_ITEM_BALL
+    DECOR_TILE(PC)
 };

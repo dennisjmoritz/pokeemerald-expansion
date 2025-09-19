@@ -1456,7 +1456,7 @@ const struct Decoration gDecorations[] =
     {
         .id = DECOR_MOVE_RELEARNER,
         .name = _("MOVE RELEARNER"),
-        .permission = DECORPERM_SPRITE,
+        .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_ORNAMENT,
         .price = 50000,
@@ -1492,7 +1492,7 @@ const struct Decoration gDecorations[] =
     {
         .id = DECOR_EV_MODIFIER,
         .name = _("EV MODIFIER"),
-        .permission = DECORPERM_SPRITE,
+        .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_ORNAMENT,
         .price = 100000,
