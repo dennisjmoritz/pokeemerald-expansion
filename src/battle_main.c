@@ -63,6 +63,7 @@
 #include "window.h"
 #include "constants/abilities.h"
 #include "constants/battle_ai.h"
+#include "constants/battle_frontier.h"
 #include "constants/battle_move_effects.h"
 #include "constants/battle_string_ids.h"
 #include "constants/battle_partner.h"
@@ -1936,7 +1937,15 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
                 otIdType = OT_ID_PRESET;
                 fixedOtId = HIHALF(personalityValue) ^ LOHALF(personalityValue);
             }
-            CreateMon(&party[i], partyData[monIndex].species, partyData[monIndex].lvl, 0, TRUE, personalityValue, otIdType, fixedOtId);
+            
+            // Use level 50 scaling if enabled, but only for non-frontier battles
+            u8 level = partyData[monIndex].lvl;
+            if (B_LEVEL_50_ALL_BATTLES && !(battleTypeFlags & (BATTLE_TYPE_FRONTIER | BATTLE_TYPE_EREADER_TRAINER | BATTLE_TYPE_TRAINER_HILL)))
+            {
+                level = FRONTIER_MAX_LEVEL_50;
+            }
+            
+            CreateMon(&party[i], partyData[monIndex].species, level, 0, TRUE, personalityValue, otIdType, fixedOtId);
             SetMonData(&party[i], MON_DATA_HELD_ITEM, &partyData[monIndex].heldItem);
 
             CustomTrainerPartyAssignMoves(&party[i], &partyData[monIndex]);
