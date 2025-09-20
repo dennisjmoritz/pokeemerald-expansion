@@ -44,7 +44,6 @@ ViridianCity_EventScript_TryUnlockGym::
 
 ViridianCity_EventScript_GymDoorLocked::
 	lockall
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 20
@@ -198,7 +197,6 @@ ViridianCity_EventScript_WomanRoadBlocked::
 
 ViridianCity_EventScript_RoadBlocked::
 	lockall
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox ViridianCity_Text_ThisIsPrivateProperty
 	closemessage
 	applymovement LOCALID_PLAYER, ViridianCity_Movement_WalkDown
@@ -212,7 +210,6 @@ ViridianCity_Movement_WalkDown::
 
 ViridianCity_EventScript_TutorialTriggerLeft::
 	lockall
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_TUTORIAL_MAN, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
@@ -223,7 +220,6 @@ ViridianCity_EventScript_TutorialTriggerLeft::
 
 ViridianCity_EventScript_TutorialTriggerRight::
 	lockall
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_TUTORIAL_MAN, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft

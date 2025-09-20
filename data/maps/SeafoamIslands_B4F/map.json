@@ -69,7 +69,6 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SeafoamIslands_B4F_EventScript_ItemUltraBall",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -145,8 +144,6 @@
       "elevation": 0,
       "item": "ITEM_WATER_STONE",
       "flag": "FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {

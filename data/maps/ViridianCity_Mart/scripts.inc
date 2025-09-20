@@ -19,7 +19,6 @@ ViridianCity_Mart_OnFrame::
 
 ViridianCity_Mart_EventScript_ParcelScene::
 	lockall
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_VIRIDIAN_MART_CLERK, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	msgbox ViridianCity_Mart_Text_YouCameFromPallet
@@ -63,7 +62,6 @@ ViridianCity_Mart_EventScript_Clerk::
 // FIXME undefined reference: 	message Text_MayIHelpYou
 	waitmessage
 	pokemart ViridianCity_Mart_Items
-// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 

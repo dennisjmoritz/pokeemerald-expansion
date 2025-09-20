@@ -208,7 +208,6 @@ VermilionCity_Gym_EventScript_SetBeamsOn::
 	return
 
 VermilionCity_Gym_EventScript_LtSurge::
-@	famechecker FAMECHECKER_LTSURGE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 // FIXME undefined reference: 	trainerbattle_single TRAINER_LEADER_LT_SURGE, VermilionCity_Gym_Text_LtSurgeIntro, VermilionCity_Gym_Text_LtSurgeDefeat, VermilionCity_Gym_EventScript_DefeatedLtSurge, NO_MUSIC
 	goto_if_unset FLAG_TEMP_1, VermilionCity_Gym_EventScript_GiveTM34
 // Replaced FLAG_GOT_TM34_FROM_SURGE with FLAG_TEMP_1
@@ -217,7 +216,6 @@ VermilionCity_Gym_EventScript_LtSurge::
 	end
 
 VermilionCity_Gym_EventScript_DefeatedLtSurge::
-@	famechecker FAMECHECKER_LTSURGE, 1
 	call_if_unset FLAG_TEMP_1, VermilionCity_Gym_EventScript_ShowOaksAide
 // Replaced FLAG_GOT_HM05 with FLAG_TEMP_1
 	clearflag FLAG_TEMP_1
@@ -253,7 +251,6 @@ VermilionCity_Gym_EventScript_NoRoomForTM34::
 
 VermilionCity_Gym_EventScript_Dwayne::
 // FIXME undefined reference: 	trainerbattle_single TRAINER_SAILOR_DWAYNE, VermilionCity_Gym_Text_DwayneIntro, VermilionCity_Gym_Text_DwayneDefeat
-@	famechecker FAMECHECKER_LTSURGE, 4
 	msgbox VermilionCity_Gym_Text_DwaynePostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -264,12 +261,10 @@ VermilionCity_Gym_EventScript_Baily::
 
 VermilionCity_Gym_EventScript_Tucker::
 // FIXME undefined reference: 	trainerbattle_single TRAINER_GENTLEMAN_TUCKER, VermilionCity_Gym_Text_TuckerIntro, VermilionCity_Gym_Text_TuckerDefeat, VermilionCity_Gym_EventScript_DefeatedTucker
-@	famechecker FAMECHECKER_LTSURGE, 3
 	msgbox VermilionCity_Gym_Text_TuckerPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VermilionCity_Gym_EventScript_DefeatedTucker::
-@	famechecker FAMECHECKER_LTSURGE, 2
 	release
 	end
 

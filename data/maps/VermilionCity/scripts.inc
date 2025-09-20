@@ -198,7 +198,6 @@ VermilionCity_EventScript_ExitedTicketCheck::
 	end
 
 VermilionCity_EventScript_CheckTicket::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_VERMILION_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
@@ -272,7 +271,6 @@ VermilionCity_EventScript_PokemonFanClubSign::
 
 VermilionCity_EventScript_GymSign::
 	lockall
-@	famechecker FAMECHECKER_LTSURGE, 0
 	msgbox VermilionCity_Text_GymSign
 	releaseall
 	end

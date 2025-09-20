@@ -191,8 +191,6 @@
       "elevation": 3,
       "item": "ITEM_MACHO_BRACE",
       "flag": "FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": true,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]

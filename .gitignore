@@ -86,3 +86,4 @@ tools/firered_import/import_firered_graphics.py
 tools/firered_import/README.md
 compare_maps.py
 convert_orig_to_pory_simple.py
+*.backup

@@ -2,7 +2,6 @@ SaffronCity_Gym_MapScripts::
 	.byte 0
 
 SaffronCity_Gym_EventScript_Sabrina::
-@	famechecker FAMECHECKER_SABRINA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 // FIXME undefined reference: 	trainerbattle_single TRAINER_LEADER_SABRINA, SaffronCity_Gym_Text_SabrinaIntro, SaffronCity_Gym_Text_SabrinaDefeat, SaffronCity_Gym_EventScript_DefeatedSabrina, NO_MUSIC
 	goto_if_unset FLAG_TEMP_1, SaffronCity_Gym_EventScript_GiveTM04
 // Replaced FLAG_GOT_TM04_FROM_SABRINA with FLAG_TEMP_1
@@ -11,8 +10,6 @@ SaffronCity_Gym_EventScript_Sabrina::
 	end
 
 SaffronCity_Gym_EventScript_DefeatedSabrina::
-@	famechecker FAMECHECKER_SABRINA, 2
-@	famechecker FAMECHECKER_SABRINA, 3
 	clearflag FLAG_TEMP_1
 // Replaced FLAG_HIDE_SAFFRON_CITY_POKECENTER_SABRINA_JOURNALS with FLAG_TEMP_1
 	setflag FLAG_TEMP_1
@@ -46,7 +43,6 @@ SaffronCity_Gym_EventScript_Johan::
 
 SaffronCity_Gym_EventScript_Tyron::
 // FIXME undefined reference: 	trainerbattle_single TRAINER_PSYCHIC_TYRON, SaffronCity_Gym_Text_TyronIntro, SaffronCity_Gym_Text_TyronDefeat
-@	famechecker FAMECHECKER_SABRINA, 5
 	msgbox SaffronCity_Gym_Text_TyronPostBattle, MSGBOX_AUTOCLOSE
 	end
 

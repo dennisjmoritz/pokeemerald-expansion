@@ -24,7 +24,6 @@ Route5_SouthEntrance_EventScript_GuardTriggerRight::
 	end
 
 Route5_SouthEntrance_EventScript_GuardTrigger::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	goto_if_set FLAG_TEMP_1, Route5_SouthEntrance_EventScript_GiveTea

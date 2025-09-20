@@ -16,7 +16,6 @@ SaffronCity_Mart_EventScript_Clerk::
 // FIXME undefined reference: 	message Text_MayIHelpYou
 	waitmessage
 	pokemart SaffronCity_Mart_Items
-// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 

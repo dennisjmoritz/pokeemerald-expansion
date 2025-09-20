@@ -577,9 +577,7 @@
       "elevation": 0,
       "item": "ITEM_FULL_RESTORE",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
       "type": "hidden_item",
@@ -588,9 +586,7 @@
       "elevation": 0,
       "item": "ITEM_ULTRA_BALL",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
       "type": "hidden_item",
@@ -599,9 +595,7 @@
       "elevation": 3,
       "item": "ITEM_MAX_ETHER",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
       "type": "hidden_item",
@@ -610,9 +604,7 @@
       "elevation": 3,
       "item": "ITEM_LUM_BERRY",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
       "type": "hidden_item",
@@ -621,9 +613,7 @@
       "elevation": 3,
       "item": "ITEM_SITRUS_BERRY",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
       "type": "hidden_item",
@@ -632,9 +622,7 @@
       "elevation": 3,
       "item": "ITEM_ASPEAR_BERRY",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
       "type": "hidden_item",
@@ -643,9 +631,7 @@
       "elevation": 3,
       "item": "ITEM_LEPPA_BERRY",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
       "type": "hidden_item",
@@ -654,9 +640,7 @@
       "elevation": 3,
       "item": "ITEM_MAX_ELIXIR",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
       "type": "sign",

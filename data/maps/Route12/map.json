@@ -41,7 +41,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route12_EventScript_Ned",
       "flag": "0"
     },
@@ -56,7 +55,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route12_EventScript_Chip",
       "flag": "0"
     },
@@ -71,7 +69,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route12_EventScript_Hank",
       "flag": "0"
     },
@@ -86,7 +83,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route12_EventScript_Elliot",
       "flag": "0"
     },
@@ -115,7 +111,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route12_EventScript_Luca",
       "flag": "0"
     },
@@ -130,7 +125,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route12_EventScript_Justin",
       "flag": "0"
     },
@@ -145,7 +139,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route12_EventScript_Andrew",
       "flag": "0"
     },
@@ -173,7 +166,6 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route12_EventScript_ItemTM48",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -189,7 +181,6 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route12_EventScript_ItemIron",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -205,7 +196,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route12_EventScript_Gia",
       "flag": "0"
     },
@@ -220,7 +210,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route12_EventScript_Jes",
       "flag": "0"
     },
@@ -286,9 +275,7 @@
       "elevation": 3,
       "item": "ITEM_HYPER_POTION",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
       "type": "hidden_item",
@@ -297,9 +284,7 @@
       "elevation": 3,
       "item": "ITEM_LEFTOVERS",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": true
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
       "type": "hidden_item",
@@ -308,9 +293,7 @@
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]
 }

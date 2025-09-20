@@ -173,8 +173,6 @@
       "elevation": 0,
       "item": "ITEM_NUGGET",
       "flag": "FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]

@@ -20,7 +20,6 @@ CeladonCity_DepartmentStore_5F_EventScript_ClerkXItems::
 // FIXME undefined reference: 	message Text_MayIHelpYou
 	waitmessage
 	pokemart CeladonCity_DepartmentStore_5F_XItems
-// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 
@@ -44,7 +43,6 @@ CeladonCity_DepartmentStore_5F_EventScript_ClerkVitamins::
 // FIXME undefined reference: 	message Text_MayIHelpYou
 	waitmessage
 	pokemart CeladonCity_DepartmentStore_5F_Vitamins
-// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 

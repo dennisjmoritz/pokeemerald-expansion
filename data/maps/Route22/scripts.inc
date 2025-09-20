@@ -22,7 +22,6 @@ Route22_EventScript_EarlyRivalTriggerBottom::
 	end
 
 Route22_EventScript_EarlyRival::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 // FIXME undefined reference: 	playbgm MUS_ENCOUNTER_RIVAL, 0
 	addobject LOCALID_ROUTE22_RIVAL
 	call_if_eq VAR_TEMP_1, 0, Route22_EventScript_EarlyRivalApproach
@@ -174,7 +173,6 @@ Route22_EventScript_LateRivalTriggerBottom::
 	end
 
 Route22_EventScript_LateRival::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 // FIXME undefined reference: 	playbgm MUS_ENCOUNTER_RIVAL, 0
 	addobject LOCALID_ROUTE22_RIVAL
 	call_if_eq VAR_TEMP_1, 0, Route22_EventScript_LateRivalApproach

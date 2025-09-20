@@ -36,7 +36,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route6_EventScript_Keigo",
       "flag": "0"
     },
@@ -51,7 +50,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route6_EventScript_Ricky",
       "flag": "0"
     },
@@ -66,7 +64,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route6_EventScript_Nancy",
       "flag": "0"
     },
@@ -81,7 +78,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route6_EventScript_Elijah",
       "flag": "0"
     },
@@ -96,7 +92,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route6_EventScript_Isabelle",
       "flag": "0"
     },
@@ -111,7 +106,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route6_EventScript_Jeff",
       "flag": "0"
     }
@@ -156,9 +150,7 @@
       "elevation": 3,
       "item": "ITEM_SITRUS_BERRY",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
       "type": "hidden_item",
@@ -167,9 +159,7 @@
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]
 }

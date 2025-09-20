@@ -117,7 +117,6 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "CeladonCity_EventScript_SoftboiledTutor",
       "flag": "0"
     },
@@ -207,7 +206,6 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "CeladonCity_EventScript_ItemEther",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -379,9 +377,7 @@
       "elevation": 3,
       "item": "ITEM_PP_UP",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]
 }

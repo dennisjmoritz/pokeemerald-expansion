@@ -24,7 +24,6 @@ Route7_EastEntrance_EventScript_GuardTriggerBottom::
 	end
 
 Route7_EastEntrance_EventScript_GuardTrigger::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	goto_if_set FLAG_TEMP_1, Route7_EastEntrance_EventScript_GiveTea

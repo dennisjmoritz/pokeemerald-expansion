@@ -49,7 +49,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route3_EventScript_Robin",
       "flag": "0"
     },
@@ -64,7 +63,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route3_EventScript_James",
       "flag": "0"
     },
@@ -79,7 +77,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route3_EventScript_Sally",
       "flag": "0"
     },
@@ -94,7 +91,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route3_EventScript_Greg",
       "flag": "0"
     },
@@ -109,7 +105,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route3_EventScript_Calvin",
       "flag": "0"
     },
@@ -124,7 +119,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route3_EventScript_Janice",
       "flag": "0"
     },
@@ -139,7 +133,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route3_EventScript_Colton",
       "flag": "0"
     },
@@ -154,7 +147,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route3_EventScript_Ben",
       "flag": "0"
     }
@@ -177,9 +169,7 @@
       "elevation": 3,
       "item": "ITEM_ORAN_BERRY",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]
 }

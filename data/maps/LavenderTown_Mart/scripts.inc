@@ -20,7 +20,6 @@ LavenderTown_Mart_EventScript_Clerk::
 // FIXME undefined reference: 	message Text_MayIHelpYou
 	waitmessage
 	pokemart LavenderTown_Mart_Items
-// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 

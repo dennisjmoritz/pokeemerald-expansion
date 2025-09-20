@@ -53,7 +53,6 @@ CinnabarIsland_Gym_OnLoadOpenDoor6::
 	return
 
 CinnabarIsland_Gym_EventScript_Blaine::
-@	famechecker FAMECHECKER_BLAINE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 // FIXME undefined reference: 	trainerbattle_single TRAINER_LEADER_BLAINE, CinnabarIsland_Gym_Text_BlaineIntro, CinnabarIsland_Gym_Text_BlaineDefeat, CinnabarIsland_Gym_EventScript_DefeatedBlaine, NO_MUSIC
 	goto_if_unset FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_GiveTM38
 // Replaced FLAG_GOT_TM38_FROM_BLAINE with FLAG_TEMP_1
@@ -62,7 +61,6 @@ CinnabarIsland_Gym_EventScript_Blaine::
 	end
 
 CinnabarIsland_Gym_EventScript_DefeatedBlaine::
-@	famechecker FAMECHECKER_BLAINE, 1
 	setflag FLAG_TEMP_1
 // Replaced FLAG_DEFEATED_BLAINE with FLAG_TEMP_1
 	setflag FLAG_BADGE07_GET
@@ -114,7 +112,6 @@ CinnabarIsland_Gym_EventScript_Quiz2CompleteTrainer::
 
 CinnabarIsland_Gym_EventScript_Derek::
 // FIXME undefined reference: 	trainerbattle_single TRAINER_SUPER_NERD_DEREK, CinnabarIsland_Gym_Text_DerekIntro, CinnabarIsland_Gym_Text_DerekDefeat, CinnabarIsland_Gym_EventScript_DefeatedDerek
-@	famechecker FAMECHECKER_BLAINE, 2
 	msgbox CinnabarIsland_Gym_Text_DerekPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -277,7 +274,6 @@ CinnabarIsland_Gym_EventScript_Quiz1Incorrect::
 CinnabarIsland_Gym_EventScript_BattleQuinn::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_QuinnApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_QuinnApproachRight
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_QuinnIntro
 // FIXME undefined reference: 	trainerbattle_no_intro TRAINER_BURGLAR_QUINN, CinnabarIsland_Gym_Text_QuinnDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
@@ -352,7 +348,6 @@ CinnabarIsland_Gym_EventScript_Quiz2Incorrect::
 CinnabarIsland_Gym_EventScript_BattleAvery::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_AveryApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_AveryApproachRight
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_AveryIntro
 // FIXME undefined reference: 	trainerbattle_no_intro TRAINER_SUPER_NERD_AVERY, CinnabarIsland_Gym_Text_AveryDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
@@ -436,7 +431,6 @@ CinnabarIsland_Gym_EventScript_Quiz3Incorrect::
 CinnabarIsland_Gym_EventScript_BattleRamon::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_RamonApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_RamonApproachRight
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_RamonIntro
 // FIXME undefined reference: 	trainerbattle_no_intro TRAINER_BURGLAR_RAMON, CinnabarIsland_Gym_Text_RamonDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
@@ -511,7 +505,6 @@ CinnabarIsland_Gym_EventScript_Quiz4Incorrect::
 CinnabarIsland_Gym_EventScript_BattleDerek::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_DerekApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_DerekApproachRight
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_DerekIntro
 // FIXME undefined reference: 	trainerbattle_no_intro TRAINER_SUPER_NERD_DEREK, CinnabarIsland_Gym_Text_DerekDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
@@ -586,7 +579,6 @@ CinnabarIsland_Gym_EventScript_Quiz5Incorrect::
 CinnabarIsland_Gym_EventScript_BattleDusty::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_DustyApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_DustyApproachRight
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_DustyIntro
 // FIXME undefined reference: 	trainerbattle_no_intro TRAINER_BURGLAR_DUSTY, CinnabarIsland_Gym_Text_DustyDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
@@ -661,7 +653,6 @@ CinnabarIsland_Gym_EventScript_Quiz6Incorrect::
 CinnabarIsland_Gym_EventScript_BattleZac::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_ZacApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_ZacApproachRight
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_ZacIntro
 // FIXME undefined reference: 	trainerbattle_no_intro TRAINER_SUPER_NERD_ZAC, CinnabarIsland_Gym_Text_ZacDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen

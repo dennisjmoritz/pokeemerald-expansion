@@ -51,7 +51,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route24_EventScript_Ethan",
       "flag": "0"
     },
@@ -66,7 +65,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route24_EventScript_Reli",
       "flag": "0"
     },
@@ -81,7 +79,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route24_EventScript_Timmy",
       "flag": "0"
     },
@@ -96,7 +93,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route24_EventScript_Ali",
       "flag": "0"
     },
@@ -111,7 +107,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route24_EventScript_Cale",
       "flag": "0"
     },
@@ -126,7 +121,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route24_EventScript_Shane",
       "flag": "0"
     },
@@ -141,7 +135,6 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "Route24_EventScript_ItemTM45",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -178,9 +171,7 @@
       "elevation": 3,
       "item": "ITEM_PECHA_BERRY",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
-      "quantity": 1,
-      "underfoot": false
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]
 }

@@ -22,7 +22,6 @@ PewterCity_House1_EventScript_Nidoran::
 	end
 
 PewterCity_House1_EventScript_DoNidoranCry::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	waitse
 	playmoncry SPECIES_NIDORAN_M, CRY_MODE_NORMAL
 	msgbox PewterCity_House1_Text_Nidoran

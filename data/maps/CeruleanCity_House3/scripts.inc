@@ -12,32 +12,27 @@ CeruleanCity_House3_EventScript_Dontae::
 // FIXME undefined reference: 	call EventScript_GetInGameTradeSpeciesInfo
 	goto_if_set FLAG_TEMP_1, CeruleanCity_House3_EventScript_AlreadyTraded
 // Replaced FLAG_DID_ZYNX_TRADE with FLAG_TEMP_1
-// FIXME undefined reference: 	msgbox Trade_Text_DoYouHaveMonWouldYouTradeForMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, CeruleanCity_House3_EventScript_DeclineTrade
 // FIXME undefined reference: 	call EventScript_ChooseMonForInGameTrade
 	goto_if_ge VAR_0x8004, PARTY_SIZE, CeruleanCity_House3_EventScript_DeclineTrade
 // FIXME undefined reference: 	call EventScript_GetInGameTradeSpecies
 // 	goto_if_ne VAR_RESULT, VAR_0x8009, CeruleanCity_House3_EventScript_NotRequestedMon
 // FIXME undefined reference: 	call EventScript_DoInGameTrade
-// FIXME undefined reference: 	msgbox Trade_Text_Thanks
 	setflag FLAG_TEMP_1
 // Replaced FLAG_DID_ZYNX_TRADE with FLAG_TEMP_1
 	release
 	end
 
 CeruleanCity_House3_EventScript_DeclineTrade::
-// FIXME undefined reference: 	msgbox Trade_Text_WellIfYouDontWantTo
 	release
 	end
 
 CeruleanCity_House3_EventScript_NotRequestedMon::
 	bufferspeciesname STR_VAR_1, VAR_0x8009
-// FIXME undefined reference: 	msgbox Trade_Text_ThisIsntMon
 	release
 	end
 
 CeruleanCity_House3_EventScript_AlreadyTraded::
-// FIXME undefined reference: 	msgbox Trade_Text_HasTradedMonGrownStronger
 	release
 	end
 

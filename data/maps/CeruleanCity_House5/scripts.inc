@@ -159,7 +159,6 @@ CeruleanCity_House5_EventScript_ExchangePowderForItem::
 	end
 
 // FIXME undefined reference: CeruleanCity_House5_EventScript_BagIsFull::
-// FIXME undefined reference: 	msgbox Text_BagIsFull
 	special RemoveBerryPowderVendorMenu
 	release
 	end

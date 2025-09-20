@@ -52,7 +52,6 @@ SaffronCity_EventScript_DoorGuardGrunt::
 	end
 
 SaffronCity_EventScript_DoorGuardAsleep::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	msgbox SaffronCity_Text_HesTakingASnooze
 	release
 	end
@@ -97,7 +96,6 @@ SaffronCity_EventScript_DojoSign::
 
 SaffronCity_EventScript_GymSign::
 	lockall
-@	famechecker FAMECHECKER_SABRINA, 0
 	msgbox SaffronCity_Text_GymSign
 	releaseall
 	end

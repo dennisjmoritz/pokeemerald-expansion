@@ -10,7 +10,6 @@ SaffronCity_PokemonTrainerFanClub_OnFrame::
 
 SaffronCity_PokemonTrainerFanClub_EventScript_MeetFirstFans::
 	lockall
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	applymovement LOCALID_TRAINER_SAFFRON_FAN_CLUB_BATTLE_GIRL, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	playse SE_PIN
