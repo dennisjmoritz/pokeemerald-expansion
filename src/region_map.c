@@ -20,6 +20,7 @@
 #include "field_specials.h"
 #include "fldeff.h"
 #include "region_map.h"
+#include "regions.h"
 #include "decompress.h"
 #include "constants/region_map_sections.h"
 #include "heal_location.h"
@@ -516,6 +517,7 @@ void InitRegionMapData(struct RegionMap *regionMap, const struct BgTemplate *tem
     sRegionMap = regionMap;
     sRegionMap->initStep = 0;
     sRegionMap->zoomed = zoomed;
+    sRegionMap->currentRegion = GetCurrentRegion();
     sRegionMap->inputCallback = zoomed == TRUE ? ProcessRegionMapInput_Zoomed : ProcessRegionMapInput_Full;
     if (template != NULL)
     {
@@ -684,6 +686,10 @@ static u8 ProcessRegionMapInput_Full(void)
     {
         input = MAP_INPUT_R_BUTTON;
     }
+    else if (JOY_NEW(L_BUTTON))
+    {
+        input = MAP_INPUT_L_BUTTON;
+    }
     if (input == MAP_INPUT_MOVE_START)
     {
         sRegionMap->cursorMovementFrameCounter = 4;
@@ -766,6 +772,10 @@ static u8 ProcessRegionMapInput_Zoomed(void)
     else if (JOY_NEW(R_BUTTON))
     {
         input = MAP_INPUT_R_BUTTON;
+    }
+    else if (JOY_NEW(L_BUTTON))
+    {
+        input = MAP_INPUT_L_BUTTON;
     }
     if (input == MAP_INPUT_MOVE_START)
     {
@@ -1770,6 +1780,7 @@ static void DrawFlyDestTextWindow(void)
     u16 i;
     bool32 namePrinted;
     const u8 *name;
+    const u8 *regionName = GetRegionName(sFlyMap->regionMap.currentRegion);
 
     if (sFlyMap->regionMap.mapSecType > MAPSECTYPE_NONE && sFlyMap->regionMap.mapSecType < NUM_MAPSEC_TYPES)
     {
@@ -1784,9 +1795,12 @@ static void DrawFlyDestTextWindow(void)
                     namePrinted = TRUE;
                     ClearStdWindowAndFrameToTransparent(WIN_MAPSEC_NAME, FALSE);
                     DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME_TALL, FALSE, 101, 13);
-                    AddTextPrinterParameterized(WIN_MAPSEC_NAME_TALL, FONT_NORMAL, sFlyMap->regionMap.mapSecName, 0, 1, 0, NULL);
+                    // Display region name at the top
+                    AddTextPrinterParameterized(WIN_MAPSEC_NAME_TALL, FONT_SMALL, regionName, 0, 1, 0, NULL);
+                    // Display location name below
+                    AddTextPrinterParameterized(WIN_MAPSEC_NAME_TALL, FONT_NORMAL, sFlyMap->regionMap.mapSecName, 0, 11, 0, NULL);
                     name = sMultiNameFlyDestinations[i].name[sFlyMap->regionMap.posWithinMapSec];
-                    AddTextPrinterParameterized(WIN_MAPSEC_NAME_TALL, FONT_NORMAL, name, GetStringRightAlignXOffset(FONT_NORMAL, name, 96), 17, 0, NULL);
+                    AddTextPrinterParameterized(WIN_MAPSEC_NAME_TALL, FONT_NORMAL, name, GetStringRightAlignXOffset(FONT_NORMAL, name, 96), 21, 0, NULL);
                     ScheduleBgCopyTilemapToVram(0);
                     sDrawFlyDestTextWindow = TRUE;
                 }
@@ -1805,7 +1819,10 @@ static void DrawFlyDestTextWindow(void)
                 // Window is already drawn, just empty it
                 FillWindowPixelBuffer(WIN_MAPSEC_NAME, PIXEL_FILL(1));
             }
-            AddTextPrinterParameterized(WIN_MAPSEC_NAME, FONT_NORMAL, sFlyMap->regionMap.mapSecName, 0, 1, 0, NULL);
+            // Display region name at the top
+            AddTextPrinterParameterized(WIN_MAPSEC_NAME, FONT_SMALL, regionName, 0, 1, 0, NULL);
+            // Display location name below
+            AddTextPrinterParameterized(WIN_MAPSEC_NAME, FONT_NORMAL, sFlyMap->regionMap.mapSecName, 0, 11, 0, NULL);
             ScheduleBgCopyTilemapToVram(0);
             sDrawFlyDestTextWindow = FALSE;
         }
@@ -1819,6 +1836,8 @@ static void DrawFlyDestTextWindow(void)
             DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME, FALSE, 101, 13);
         }
         FillWindowPixelBuffer(WIN_MAPSEC_NAME, PIXEL_FILL(1));
+        // Still show region name even when no location is selected
+        AddTextPrinterParameterized(WIN_MAPSEC_NAME, FONT_SMALL, regionName, 0, 1, 0, NULL);
         CopyWindowToVram(WIN_MAPSEC_NAME, COPYWIN_GFX);
         ScheduleBgCopyTilemapToVram(0);
         sDrawFlyDestTextWindow = FALSE;
@@ -1982,6 +2001,20 @@ static void CB_HandleFlyMapInput(void)
             sFlyMap->choseFlyLocation = FALSE;
             SetFlyMapCallback(CB_ExitFlyMap);
             break;
+        case MAP_INPUT_L_BUTTON:
+            if (HasMultipleRegionsAvailable())
+            {
+                SwitchToPrevRegion(&sFlyMap->regionMap);
+                DrawFlyDestTextWindow();
+            }
+            break;
+        case MAP_INPUT_R_BUTTON:
+            if (HasMultipleRegionsAvailable())
+            {
+                SwitchToNextRegion(&sFlyMap->regionMap);
+                DrawFlyDestTextWindow();
+            }
+            break;
         }
     }
 }
@@ -2044,4 +2077,43 @@ void SetFlyDestination(struct RegionMap* regionMap)
         SetWarpDestinationToHealLocation(flyDestination);
     else
         SetWarpDestinationToMapWarp(sMapHealLocations[regionMap->mapSecId][0], sMapHealLocations[regionMap->mapSecId][1], WARP_ID_NONE);
+}
+
+// Multi-region support functions
+void SwitchToNextRegion(struct RegionMap* regionMap)
+{
+    if (HasMultipleRegionsAvailable())
+    {
+        u32 nextRegion = GetNextAvailableRegion(regionMap->currentRegion);
+        regionMap->currentRegion = nextRegion;
+        SetCurrentMapRegion(nextRegion);
+        
+        // Reset cursor position when switching regions
+        regionMap->cursorPosX = MAPCURSOR_X_MIN + 1;
+        regionMap->cursorPosY = MAPCURSOR_Y_MIN + 1;
+        
+        // Update map section info
+        regionMap->mapSecId = GetMapSecIdAt(regionMap->cursorPosX, regionMap->cursorPosY);
+        regionMap->mapSecType = GetMapsecType(regionMap->mapSecId);
+        GetPositionOfCursorWithinMapSec();
+    }
+}
+
+void SwitchToPrevRegion(struct RegionMap* regionMap)
+{
+    if (HasMultipleRegionsAvailable())
+    {
+        u32 prevRegion = GetPrevAvailableRegion(regionMap->currentRegion);
+        regionMap->currentRegion = prevRegion;
+        SetCurrentMapRegion(prevRegion);
+        
+        // Reset cursor position when switching regions
+        regionMap->cursorPosX = MAPCURSOR_X_MIN + 1;
+        regionMap->cursorPosY = MAPCURSOR_Y_MIN + 1;
+        
+        // Update map section info
+        regionMap->mapSecId = GetMapSecIdAt(regionMap->cursorPosX, regionMap->cursorPosY);
+        regionMap->mapSecType = GetMapsecType(regionMap->mapSecId);
+        GetPositionOfCursorWithinMapSec();
+    }
 }

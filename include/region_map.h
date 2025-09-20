@@ -14,7 +14,8 @@ enum
     MAP_INPUT_MOVE_END,
     MAP_INPUT_A_BUTTON,
     MAP_INPUT_B_BUTTON,
-    MAP_INPUT_R_BUTTON
+    MAP_INPUT_R_BUTTON,
+    MAP_INPUT_L_BUTTON
 };
 
 enum {
@@ -76,7 +77,8 @@ struct RegionMap {
     /*0x081*/ u8 charBaseIdx;
     /*0x082*/ u8 mapBaseIdx;
     /*0x083*/ bool8 bgManaged;
-    /*0x084*/ u8 filler_084[0x100];
+    /*0x084*/ u8 currentRegion;
+    /*0x085*/ u8 filler_085[0xFF];
     /*0x184*/ u8 cursorSmallImage[0x100];
     /*0x284*/ u8 cursorLargeImage[0x600];
 }; // size = 0x884
@@ -119,6 +121,14 @@ void SetRegionMapDataForZoom(void);
 //Pokenav Fly funcs
 u32 FilterFlyDestination(struct RegionMap* regionMap);
 void SetFlyDestination(struct RegionMap* regionMap);
+
+// Multi-region support functions
+void SwitchToNextRegion(struct RegionMap* regionMap);
+void SwitchToPrevRegion(struct RegionMap* regionMap);
+bool32 HasMultipleRegionsAvailable(void);
+const u8 *GetRegionName(u32 region);
+u32 GetNextAvailableRegion(u32 currentRegion);
+u32 GetPrevAvailableRegion(u32 currentRegion);
 
 extern const struct RegionMapLocation gRegionMapEntries[];
 
