@@ -48,7 +48,6 @@ LavenderTown_House2_EventScript_CantNicknameTradeMon::
 
 LavenderTown_House2_EventScript_ChooseNewNickname::
 	msgbox LavenderTown_House2_Text_WhatShallNewNicknameBe
-// FIXME undefined reference: 	call EventScript_ChangePokemonNickname
 // FIXME undefined reference: 	specialvar VAR_RESULT, NameRaterWasNicknameChanged
 	special BufferMonNickname
 	goto_if_eq VAR_RESULT, TRUE, LavenderTown_House2_EventScript_ChoseNewNickname

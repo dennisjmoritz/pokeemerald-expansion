@@ -59,7 +59,6 @@ ViridianCity_Mart_EventScript_Clerk::
 	goto_if_eq VAR_TEMP_0, 1, ViridianCity_Mart_EventScript_SayHiToOak
 // Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_MART with VAR_TEMP_0
 @	goto_if_questlog EventScript_ReleaseEnd
-// FIXME undefined reference: 	message Text_MayIHelpYou
 	waitmessage
 	pokemart ViridianCity_Mart_Items
 	release

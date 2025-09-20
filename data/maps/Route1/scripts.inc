@@ -16,7 +16,6 @@ Route1_EventScript_MartClerk::
 	waitfanfare
 	additem ITEM_POTION
 	msgbox Route1_Text_PutPotionAway
-// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	setflag FLAG_TEMP_1
 // Replaced FLAG_GOT_POTION_ON_ROUTE_1 with FLAG_TEMP_1
 	release

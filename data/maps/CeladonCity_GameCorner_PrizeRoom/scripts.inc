@@ -188,7 +188,6 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_NicknamePartyMon::
 	getpartysize
 	subvar VAR_RESULT, 1
 	copyvar VAR_0x8004, VAR_RESULT
-// FIXME undefined reference: 	call EventScript_ChangePokemonNickname
 	goto CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
 	end
 

@@ -121,7 +121,6 @@ FuchsiaCity_SafariZone_Entrance_EventScript_TryEnterSafariZone::
 	playfanfare MUS_LEVEL_UP
 	message FuchsiaCity_SafariZone_Entrance_Text_PlayerReceived30SafariBalls
 	waitfanfare
-// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	msgbox FuchsiaCity_SafariZone_Entrance_Text_CallYouOnPAWhenYouRunOut
 	closemessage
 	hidemoneybox

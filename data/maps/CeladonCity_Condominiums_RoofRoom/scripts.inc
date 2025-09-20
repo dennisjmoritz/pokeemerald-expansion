@@ -25,7 +25,6 @@ CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveeParty::
 	bufferspeciesname STR_VAR_1, SPECIES_EEVEE
 	goto_if_eq VAR_RESULT, NO, CeladonCity_Condominiums_RoofRoom_EventScript_SetGotEevee
 // FIXME undefined reference: 	call EventScript_GetGiftMonPartySlot
-// FIXME undefined reference: 	call EventScript_ChangePokemonNickname
 	goto CeladonCity_Condominiums_RoofRoom_EventScript_SetGotEevee
 	end
 

@@ -38,7 +38,6 @@ CeruleanCity_EventScript_RivalTriggerRight::
 CeruleanCity_EventScript_Rival::
 	setvar VAR_TEMP_0, 2
 // Replaced VAR_MAP_SCENE_ROUTE22 with VAR_TEMP_0
-// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_RIVAL, 0
 	addobject LOCALID_CERULEAN_RIVAL
 	applymovement LOCALID_CERULEAN_RIVAL, CeruleanCity_Movement_RivalEnter
 	waitmovement 0
@@ -49,7 +48,6 @@ CeruleanCity_EventScript_Rival::
 	call_if_eq VAR_STARTER_MON, 0, CeruleanCity_EventScript_RivalCharmander
 	msgbox CeruleanCity_Text_RivalPostBattle
 	closemessage
-// FIXME undefined reference: 	playbgm MUS_RIVAL_EXIT, 0
 	call_if_eq VAR_TEMP_1, 0, CeruleanCity_EventScript_RivalStartExit
 	call_if_eq VAR_TEMP_1, 1, CeruleanCity_EventScript_RivalStartExit
 	call_if_eq VAR_TEMP_1, 2, CeruleanCity_EventScript_RivalStartExitRight
@@ -170,7 +168,6 @@ CeruleanCity_EventScript_Grunt::
 // FIXME undefined reference: 	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_5, CeruleanCity_EventScript_GruntDefeated
 	message CeruleanCity_Text_GruntIntro
 	waitmessage
-// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_ROCKET, 0
 	waitbuttonpress
 // FIXME undefined reference: 	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_5, CeruleanCity_Text_GruntDefeat
 	setvar VAR_TEMP_0, 1

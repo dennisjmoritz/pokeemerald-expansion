@@ -187,7 +187,6 @@ Route110_TrickHouseEnd_EventScript_TrickMasterExit::
 	return
 
 Route110_TrickHouseEnd_EventScript_BagFull::
-// FIXME undefined reference: 	call Common_EventScript_BagIsFull
 	msgbox Route110_TrickHouseEnd_Text_NoRoomForThis, MSGBOX_DEFAULT
 	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 1
 	return

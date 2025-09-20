@@ -11,7 +11,6 @@ Route15_WestEntrance_2F_EventScript_LeftBinoculars::
 	waitbuttonpress
 	hidemonpic
 	setvar VAR_0x8004, SPECIES_ARTICUNO
-// FIXME undefined reference: 	special SetSeenMon
 	releaseall
 	end
 

@@ -194,7 +194,6 @@ PalletTown_EventScript_OakTriggerRight::
 
 PalletTown_EventScript_OakTrigger::
 	delay 30
-// FIXME undefined reference: 	playbgm MUS_OAK, 0
 	message PalletTown_Text_OakDontGoOut
 	waitmessage
 	delay 85

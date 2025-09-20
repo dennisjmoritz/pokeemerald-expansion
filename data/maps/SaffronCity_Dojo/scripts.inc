@@ -29,7 +29,6 @@ SaffronCity_Dojo_EventScript_HitmonleeBall::
 	applymovement LOCALID_KARATE_MASTER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox SaffronCity_Dojo_Text_YouWantHitmonlee, MSGBOX_YESNO
-// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	goto_if_eq VAR_RESULT, YES, SaffronCity_Dojo_EventScript_GiveHitmon
 	hidemonpic
 	release
@@ -50,7 +49,6 @@ SaffronCity_Dojo_EventScript_HitmonchanBall::
 	applymovement LOCALID_KARATE_MASTER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox SaffronCity_Dojo_Text_YouWantHitmonchan, MSGBOX_YESNO
-// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	goto_if_eq VAR_RESULT, YES, SaffronCity_Dojo_EventScript_GiveHitmon
 	hidemonpic
 	release
@@ -76,7 +74,6 @@ SaffronCity_Dojo_EventScript_ReceivedHitmonParty::
 // Replaced FLAG_GOT_HITMON_FROM_DOJO with FLAG_TEMP_1
 	goto_if_eq VAR_RESULT, NO, SaffronCity_Dojo_EventScript_EndGiveMon
 // FIXME undefined reference: 	call EventScript_GetGiftMonPartySlot
-// FIXME undefined reference: 	call EventScript_ChangePokemonNickname
 	goto SaffronCity_Dojo_EventScript_EndGiveMon
 	end
 

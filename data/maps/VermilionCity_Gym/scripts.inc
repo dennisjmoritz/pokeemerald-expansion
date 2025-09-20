@@ -144,7 +144,6 @@ VermilionCity_Gym_EventScript_TrashCan15::
 
 VermilionCity_Gym_EventScript_TrashCan::
 @	goto_if_questlog EventScript_ReleaseEnd
-// FIXME undefined reference: 	special QuestLog_CutRecording
 	copyvar SWITCH1_ID, VAR_TEMP_0
 	copyvar SWITCH2_ID, VAR_TEMP_1
 	goto_if_set FLAG_TEMP_1, VermilionCity_Gym_EventScript_LocksAlreadyOpen

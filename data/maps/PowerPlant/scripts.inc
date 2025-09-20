@@ -42,7 +42,6 @@ PowerPlant_EventScript_ShowElectrode2::
 
 PowerPlant_EventScript_Zapdos::
 @	goto_if_questlog EventScript_ReleaseEnd
-// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	setwildbattle SPECIES_ZAPDOS, 50
@@ -94,7 +93,6 @@ PowerPlant_EventScript_Electrode1::
 	dowildbattle
 	clearflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
-// FIXME undefined reference: 	special QuestLog_CutRecording
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, PowerPlant_EventScript_FoughtElectrode1
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PowerPlant_EventScript_FoughtElectrode1
@@ -124,7 +122,6 @@ PowerPlant_EventScript_Electrode2::
 	dowildbattle
 	clearflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
-// FIXME undefined reference: 	special QuestLog_CutRecording
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, PowerPlant_EventScript_FoughtElectrode2
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PowerPlant_EventScript_FoughtElectrode2

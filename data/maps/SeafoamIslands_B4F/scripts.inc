@@ -159,7 +159,6 @@ SeafoamIslands_B4F_Movement_WalkUp::
 
 SeafoamIslands_B4F_EventScript_Articuno::
 @	goto_if_questlog EventScript_ReleaseEnd
-// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	setwildbattle SPECIES_ARTICUNO, 50

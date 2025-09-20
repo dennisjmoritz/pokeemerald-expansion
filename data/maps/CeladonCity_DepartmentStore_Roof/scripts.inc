@@ -3,7 +3,6 @@ CeladonCity_DepartmentStore_Roof_MapScripts::
 
 CeladonCity_DepartmentStore_Roof_EventScript_ThirstyGirl::
 @	goto_if_questlog EventScript_ReleaseEnd
-// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	call CeladonCity_DepartmentStore_Roof_EventScript_CheckPlayerHasDrinks
@@ -148,7 +147,6 @@ CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink::
 	waitmessage
 	waitfanfare
 	// putitemaway VAR_0x8009
-// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	call_if_eq VAR_0x8008, ITEM_FRESH_WATER, CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM16
 	call_if_eq VAR_0x8008, ITEM_SODA_POP, CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM20
 	call_if_eq VAR_0x8008, ITEM_LEMONADE, CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM33

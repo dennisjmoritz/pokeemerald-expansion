@@ -4,7 +4,6 @@ PewterCity_PokemonCenter_1F_MapScripts::
 
 PewterCity_PokemonCenter_1F_EventScript_Nurse::
 	setvar VAR_0x800B, LOCALID_PEWTER_NURSE
-// FIXME undefined reference: 	call Common_EventScript_PkmnCenterNurse
 	waitmessage
 	waitbuttonpress
 	release
