@@ -13,6 +13,7 @@
 #include "pokedex.h"
 #include "pokedex_area_screen.h"
 #include "region_map.h"
+#include "regions.h"
 #include "roamer.h"
 #include "rtc.h"
 #include "sound.h"
@@ -671,10 +672,18 @@ static void AddTimeOfDayLabels(void)
 
 static void ShowEncounterInfoLabel(void)
 {
+    const u8 *regionName = GetRegionName(GetCurrentRegion());
     const u8 *gText_TimeOfDay = GetTimeOfDayTextWithButton(gAreaTimeOfDay);
-    int stringXPos = GetStringCenterAlignXOffset(FONT_NORMAL, gText_TimeOfDay, 64);
+    u8 combinedText[64]; // Buffer to hold combined text
+    
+    // Combine region name and time of day, e.g., "HOENN - Morning"
+    StringCopy(combinedText, regionName);
+    StringAppend(combinedText, gText_Dash);
+    StringAppend(combinedText, gText_TimeOfDay);
+    
+    int stringXPos = GetStringCenterAlignXOffset(FONT_NORMAL, combinedText, 64);
 
-    PrintAreaLabelText(gText_TimeOfDay, DEX_AREA_LABEL_TIME_OF_DAY, stringXPos);
+    PrintAreaLabelText(combinedText, DEX_AREA_LABEL_TIME_OF_DAY, stringXPos);
 }
 
 static void ShowAreaUnknownLabel(void)
@@ -886,6 +895,22 @@ static void Task_HandlePokedexAreaScreenInput(u8 taskId)
             }
             gTasks[taskId].data[1] = 2;
             PlaySE(SE_DEX_PAGE);
+        }
+        else if (JOY_HELD(SELECT_BUTTON) && JOY_NEW(L_BUTTON) && HasMultipleRegionsAvailable())
+        {
+            // Switch to previous region when holding SELECT + L
+            SetCurrentMapRegion(GetPrevAvailableRegion(GetCurrentRegion()));
+            sPokedexAreaScreen->areaState = DEX_UPDATE_AREA_SCREEN;
+            PlaySE(SE_DEX_PAGE);
+            gTasks[taskId].data[1] = 3;
+        }
+        else if (JOY_HELD(SELECT_BUTTON) && JOY_NEW(R_BUTTON) && HasMultipleRegionsAvailable())
+        {
+            // Switch to next region when holding SELECT + R  
+            SetCurrentMapRegion(GetNextAvailableRegion(GetCurrentRegion()));
+            sPokedexAreaScreen->areaState = DEX_UPDATE_AREA_SCREEN;
+            PlaySE(SE_DEX_PAGE);
+            gTasks[taskId].data[1] = 3;
         }
         else if (JOY_NEW(DPAD_UP) && OW_TIME_OF_DAY_ENCOUNTERS == TRUE)
         {
