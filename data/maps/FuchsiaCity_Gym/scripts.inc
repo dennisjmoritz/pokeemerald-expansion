@@ -2,7 +2,6 @@ FuchsiaCity_Gym_MapScripts::
 	.byte 0
 
 FuchsiaCity_Gym_EventScript_Koga::
-@	famechecker FAMECHECKER_KOGA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 // FIXME undefined reference: 	trainerbattle_single TRAINER_LEADER_KOGA, FuchsiaCity_Gym_Text_KogaIntro, FuchsiaCity_Gym_Text_KogaDefeat, FuchsiaCity_Gym_EventScript_DefeatedKoga, NO_MUSIC
 	goto_if_unset FLAG_TEMP_1, FuchsiaCity_Gym_EventScript_GiveTM06
 // Replaced FLAG_GOT_TM06_FROM_KOGA with FLAG_TEMP_1
@@ -11,7 +10,6 @@ FuchsiaCity_Gym_EventScript_Koga::
 	end
 
 FuchsiaCity_Gym_EventScript_DefeatedKoga::
-@	famechecker FAMECHECKER_KOGA, 1
 	clearflag FLAG_TEMP_1
 // Replaced FLAG_HIDE_FAME_CHECKER_KOGA_JOURNAL with FLAG_TEMP_1
 	setflag FLAG_TEMP_1
@@ -50,7 +48,6 @@ FuchsiaCity_Gym_EventScript_Edgar::
 
 FuchsiaCity_Gym_EventScript_Kirk::
 // FIXME undefined reference: 	trainerbattle_single TRAINER_JUGGLER_KIRK, FuchsiaCity_Gym_Text_KirkIntro, FuchsiaCity_Gym_Text_KirkDefeat
-@	famechecker FAMECHECKER_KOGA, 2
 	msgbox FuchsiaCity_Gym_Text_KirkPostBattle, MSGBOX_AUTOCLOSE
 	end
 

@@ -24,7 +24,6 @@ CeladonCity_Condominiums_1F_EventScript_TeaWomanAfterTea::
 	end
 
 CeladonCity_Condominiums_1F_EventScript_TeaWomanMentionDaisy::
-@	famechecker FAMECHECKER_DAISY, 4
 	setflag FLAG_TEMP_1
 // Replaced FLAG_TALKED_TO_TEA_LADY_AFTER_HOF with FLAG_TEMP_1
 	msgbox CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea

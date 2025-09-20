@@ -2,17 +2,14 @@ CeladonCity_Gym_MapScripts::
 	.byte 0
 
 CeladonCity_Gym_EventScript_Erika::
-@	famechecker FAMECHECKER_ERIKA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 // FIXME undefined reference: 	trainerbattle_single TRAINER_LEADER_ERIKA, CeladonCity_Gym_Text_ErikaIntro, CeladonCity_Gym_Text_ErikaDefeat, CeladonCity_Gym_EventScript_DefeatedErika, NO_MUSIC
 	goto_if_unset FLAG_TEMP_1, CeladonCity_Gym_EventScript_GiveTM19
 // Replaced FLAG_GOT_TM19_FROM_ERIKA with FLAG_TEMP_1
-@	famechecker FAMECHECKER_ERIKA, 4
 	msgbox CeladonCity_Gym_Text_ErikaPostBattle
 	release
 	end
 
 CeladonCity_Gym_EventScript_DefeatedErika::
-@	famechecker FAMECHECKER_ERIKA, 1
 	clearflag FLAG_TEMP_1
 // Replaced FLAG_HIDE_FAME_CHECKER_ERIKA_JOURNALS with FLAG_TEMP_1
 	setflag FLAG_TEMP_1
@@ -46,7 +43,6 @@ CeladonCity_Gym_EventScript_Kay::
 
 CeladonCity_Gym_EventScript_Lisa::
 // FIXME undefined reference: 	trainerbattle_single TRAINER_LASS_LISA, CeladonCity_Gym_Text_LisaIntro, CeladonCity_Gym_Text_LisaDefeat
-@	famechecker FAMECHECKER_ERIKA, 2
 	msgbox CeladonCity_Gym_Text_LisaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -62,7 +58,6 @@ CeladonCity_Gym_EventScript_Bridget::
 
 CeladonCity_Gym_EventScript_Tamia::
 // FIXME undefined reference: 	trainerbattle_single TRAINER_BEAUTY_TAMIA, CeladonCity_Gym_Text_TamiaIntro, CeladonCity_Gym_Text_TamiaDefeat
-@	famechecker FAMECHECKER_ERIKA, 3
 	msgbox CeladonCity_Gym_Text_TamiaPostBattle, MSGBOX_AUTOCLOSE
 	end
 

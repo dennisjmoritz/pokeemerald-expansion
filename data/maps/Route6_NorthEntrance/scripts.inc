@@ -24,7 +24,6 @@ Route6_NorthEntrance_EventScript_GuardTriggerRight::
 	end
 
 Route6_NorthEntrance_EventScript_GuardTrigger::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	goto_if_set FLAG_TEMP_1, Route6_NorthEntrance_EventScript_GiveTea

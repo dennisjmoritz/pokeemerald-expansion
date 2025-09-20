@@ -63,7 +63,6 @@ CinnabarIsland_EventScript_ExitPokeCenterForOneIsland::
 	lockall
 	clearflag FLAG_DONT_TRANSITION_MUSIC
 	savebgm MUS_DUMMY
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	setvar VAR_TEMP_0, 2
 // Replaced VAR_MAP_SCENE_CINNABAR_ISLAND_2 with VAR_TEMP_0
 	delay 20
@@ -73,7 +72,6 @@ CinnabarIsland_EventScript_ExitPokeCenterForOneIsland::
 
 // FIXME undefined reference: CinnabarIsland_EventScript_ReturnFromSeviiIslands::
 	lockall
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain
 	closemessage
 	applymovement LOCALID_CINNABAR_BILL, CinnabarIsland_Movement_BillExit
@@ -99,7 +97,6 @@ CinnabarIsland_Movement_BillExit::
 
 CinnabarIsland_EventScript_BillScene::
 	lockall
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	call_if_unset FLAG_TEMP_2, CinnabarIsland_EventScript_BillFacePlayer1
 	call_if_set FLAG_TEMP_2, CinnabarIsland_EventScript_BillFacePlayer2
 	playse SE_PIN
@@ -344,7 +341,6 @@ CinnabarIsland_Movement_ForcePlayerFromDoor::
 CinnabarIsland_EventScript_Woman::
 	lock
 	faceplayer
-@	famechecker FAMECHECKER_BLAINE, 3
 	msgbox CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab
 	release
 	end
@@ -363,7 +359,6 @@ CinnabarIsland_EventScript_PokemonLabSign::
 
 CinnabarIsland_EventScript_GymSign::
 	lockall
-@	famechecker FAMECHECKER_BLAINE, 0
 	msgbox CinnabarIsland_Text_GymSign
 	releaseall
 	end

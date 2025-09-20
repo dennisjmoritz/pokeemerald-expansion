@@ -3,7 +3,6 @@ CeladonCity_DepartmentStore_Roof_MapScripts::
 
 CeladonCity_DepartmentStore_Roof_EventScript_ThirstyGirl::
 @	goto_if_questlog EventScript_ReleaseEnd
-// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	call CeladonCity_DepartmentStore_Roof_EventScript_CheckPlayerHasDrinks
@@ -36,10 +35,8 @@ CeladonCity_DepartmentStore_Roof_EventScript_SetHasLemonade::
 CeladonCity_DepartmentStore_Roof_EventScript_AskGiveDrink::
 	msgbox CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, CeladonCity_DepartmentStore_Roof_EventScript_DontGiveDrink
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	message CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink
 	waitmessage
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	switch VAR_TEMP_1
 	case 1, CeladonCity_DepartmentStore_Roof_EventScript_AskGiveFreshWater
 	case 2, CeladonCity_DepartmentStore_Roof_EventScript_AskGiveSodaPop
@@ -145,13 +142,11 @@ CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink::
 	checkitemspace VAR_0x8009
 	goto_if_eq VAR_RESULT, FALSE, CeladonCity_DepartmentStore_Roof_EventScript_NoRoomForReward
 	additem VAR_0x8009
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	playfanfare MUS_LEVEL_UP
 	message Text_ReceivedItemFromLittleGirl
 	waitmessage
 	waitfanfare
 	// putitemaway VAR_0x8009
-// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	call_if_eq VAR_0x8008, ITEM_FRESH_WATER, CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM16
 	call_if_eq VAR_0x8008, ITEM_SODA_POP, CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM20
 	call_if_eq VAR_0x8008, ITEM_LEMONADE, CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM33

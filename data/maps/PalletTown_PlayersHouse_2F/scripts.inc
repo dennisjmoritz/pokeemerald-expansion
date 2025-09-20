@@ -39,7 +39,6 @@ PalletTown_PlayersHouse_2F_EventScript_PC::
 	setvar VAR_0x8004, 1
 // FIXME undefined reference: 	special AnimatePcTurnOn
 	playse SE_PC_ON
-// FIXME undefined reference: 	msgbox Text_PlayerBootedUpPC
 	special BedroomPC
 	waitstate
 // FIXME undefined reference: 	special SetHelpContextForMap

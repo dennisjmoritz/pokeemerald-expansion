@@ -7,7 +7,6 @@ Route1_EventScript_MartClerk::
 	goto_if_set FLAG_TEMP_1, Route1_EventScript_AlreadyGotPotion
 // Replaced FLAG_GOT_POTION_ON_ROUTE_1 with FLAG_TEMP_1
 	msgbox Route1_Text_WorkAtPokeMartTakeSample
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	checkitemspace ITEM_POTION
 // FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
 	bufferitemname STR_VAR_2, ITEM_POTION
@@ -17,7 +16,6 @@ Route1_EventScript_MartClerk::
 	waitfanfare
 	additem ITEM_POTION
 	msgbox Route1_Text_PutPotionAway
-// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	setflag FLAG_TEMP_1
 // Replaced FLAG_GOT_POTION_ON_ROUTE_1 with FLAG_TEMP_1
 	release

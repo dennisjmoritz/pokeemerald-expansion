@@ -13,10 +13,8 @@ VermilionCity_Mart_EventScript_Clerk::
 @	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
-// FIXME undefined reference: 	message Text_MayIHelpYou
 	waitmessage
 	pokemart VermilionCity_Mart_Items
-// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 

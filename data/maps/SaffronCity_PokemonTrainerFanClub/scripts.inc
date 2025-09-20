@@ -10,7 +10,6 @@ SaffronCity_PokemonTrainerFanClub_OnFrame::
 
 SaffronCity_PokemonTrainerFanClub_EventScript_MeetFirstFans::
 	lockall
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	applymovement LOCALID_TRAINER_SAFFRON_FAN_CLUB_BATTLE_GIRL, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	playse SE_PIN
@@ -86,28 +85,20 @@ SaffronCity_PokemonTrainerFanClub_OnTransition::
 SaffronCity_PokemonTrainerFanClub_EventScript_UpdateFanMemberPositions::
 // FIXME undefined reference: 	special Script_TryLoseFansFromPlayTime
 	setvar VAR_0x8004, FANCLUB_MEMBER1
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	call_if_eq VAR_RESULT, FALSE, SaffronCity_PokemonTrainerFanClub_EventScript_MoveMember1ToFarTable
 	setvar VAR_0x8004, FANCLUB_MEMBER2
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	call_if_eq VAR_RESULT, FALSE, SaffronCity_PokemonTrainerFanClub_EventScript_MoveMember2ToFarTable
 	setvar VAR_0x8004, FANCLUB_MEMBER3
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	call_if_eq VAR_RESULT, FALSE, SaffronCity_PokemonTrainerFanClub_EventScript_MoveMember3ToFarTable
 	setvar VAR_0x8004, FANCLUB_MEMBER4
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	call_if_eq VAR_RESULT, FALSE, SaffronCity_PokemonTrainerFanClub_EventScript_MoveMember4ToFarTable
 	setvar VAR_0x8004, FANCLUB_MEMBER5
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	call_if_eq VAR_RESULT, FALSE, SaffronCity_PokemonTrainerFanClub_EventScript_MoveMember5ToFarTable
 	setvar VAR_0x8004, FANCLUB_MEMBER6
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	call_if_eq VAR_RESULT, FALSE, SaffronCity_PokemonTrainerFanClub_EventScript_MoveMember6ToFarTable
 	setvar VAR_0x8004, FANCLUB_MEMBER7
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	call_if_eq VAR_RESULT, FALSE, SaffronCity_PokemonTrainerFanClub_EventScript_MoveMember7ToFarTable
 	setvar VAR_0x8004, FANCLUB_MEMBER8
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	call_if_eq VAR_RESULT, FALSE, SaffronCity_PokemonTrainerFanClub_EventScript_MoveMember8ToFarTable
 	end
 
@@ -163,19 +154,15 @@ SaffronCity_PokemonTrainerFanClub_EventScript_BattleGirl::
 	lock
 	faceplayer
 	setvar VAR_0x8004, FANCLUB_MEMBER1
-// FIXME undefined reference: 	special Script_BufferFanClubTrainerName
 	goto_if_eq VAR_TEMP_0, 0, SaffronCity_PokemonTrainerFanClub_EventScript_BattleGirlPlayerNotChampion
 // Replaced VAR_MAP_SCENE_SAFFRON_CITY_POKEMON_TRAINER_FAN_CLUB with VAR_TEMP_0
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	goto_if_eq VAR_RESULT, TRUE, SaffronCity_PokemonTrainerFanClub_EventScript_BattleGirlPlayersFan
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, (NUM_TRAINER_FAN_CLUB_MEMBERS - 1), SaffronCity_PokemonTrainerFanClub_EventScript_BattleGirlOnlyNonFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_WasYourFanNotAnymore
 	release
 	end
 
 SaffronCity_PokemonTrainerFanClub_EventScript_BattleGirlPlayersFan::
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, 1, SaffronCity_PokemonTrainerFanClub_EventScript_BattleGirlOnlyFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou
 	release
@@ -200,19 +187,15 @@ SaffronCity_PokemonTrainerFanClub_EventScript_LittleGirl::
 	lock
 	faceplayer
 	setvar VAR_0x8004, FANCLUB_MEMBER4
-// FIXME undefined reference: 	special Script_BufferFanClubTrainerName
 	goto_if_eq VAR_TEMP_0, 0, SaffronCity_PokemonTrainerFanClub_EventScript_LittleGirlPlayerNotChampion
 // Replaced VAR_MAP_SCENE_SAFFRON_CITY_POKEMON_TRAINER_FAN_CLUB with VAR_TEMP_0
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	goto_if_eq VAR_RESULT, TRUE, SaffronCity_PokemonTrainerFanClub_EventScript_LittleGirlPlayersFan
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, (NUM_TRAINER_FAN_CLUB_MEMBERS - 1), SaffronCity_PokemonTrainerFanClub_EventScript_LittleGirlOnlyNonFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina
 	release
 	end
 
 SaffronCity_PokemonTrainerFanClub_EventScript_LittleGirlPlayersFan::
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, 1, SaffronCity_PokemonTrainerFanClub_EventScript_LittleGirlOnlyFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay
 	release
@@ -237,19 +220,15 @@ SaffronCity_PokemonTrainerFanClub_EventScript_Youngster::
 	lock
 	faceplayer
 	setvar VAR_0x8004, FANCLUB_MEMBER2
-// FIXME undefined reference: 	special Script_BufferFanClubTrainerName
 	goto_if_eq VAR_TEMP_0, 0, SaffronCity_PokemonTrainerFanClub_EventScript_YoungsterPlayerNotChampion
 // Replaced VAR_MAP_SCENE_SAFFRON_CITY_POKEMON_TRAINER_FAN_CLUB with VAR_TEMP_0
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	goto_if_eq VAR_RESULT, TRUE, SaffronCity_PokemonTrainerFanClub_EventScript_YoungsterPlayersFan
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, (NUM_TRAINER_FAN_CLUB_MEMBERS - 1), SaffronCity_PokemonTrainerFanClub_EventScript_YoungsterOnlyNonFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero
 	release
 	end
 
 SaffronCity_PokemonTrainerFanClub_EventScript_YoungsterPlayersFan::
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, 1, SaffronCity_PokemonTrainerFanClub_EventScript_YoungsterOnlyFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_CanYouAutographShorts
 	release
@@ -274,19 +253,15 @@ SaffronCity_PokemonTrainerFanClub_EventScript_Gentleman::
 	lock
 	faceplayer
 	setvar VAR_0x8004, FANCLUB_MEMBER3
-// FIXME undefined reference: 	special Script_BufferFanClubTrainerName
 	goto_if_eq VAR_TEMP_0, 0, SaffronCity_PokemonTrainerFanClub_EventScript_GentlemanPlayerNotChampion
 // Replaced VAR_MAP_SCENE_SAFFRON_CITY_POKEMON_TRAINER_FAN_CLUB with VAR_TEMP_0
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	goto_if_eq VAR_RESULT, TRUE, SaffronCity_PokemonTrainerFanClub_EventScript_GentlemanPlayersFan
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, (NUM_TRAINER_FAN_CLUB_MEMBERS - 1), SaffronCity_PokemonTrainerFanClub_EventScript_GentlemanOnlyNonFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_HmmAndYouAre
 	release
 	end
 
 SaffronCity_PokemonTrainerFanClub_EventScript_GentlemanPlayersFan::
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, 1, SaffronCity_PokemonTrainerFanClub_EventScript_GentlemanOnlyFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_HadPleasureOfWatchingYouBattle
 	release
@@ -311,17 +286,13 @@ SaffronCity_PokemonTrainerFanClub_EventScript_Woman::
 	lock
 	faceplayer
 	setvar VAR_0x8004, FANCLUB_MEMBER6
-// FIXME undefined reference: 	special Script_BufferFanClubTrainerName
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	goto_if_eq VAR_RESULT, TRUE, SaffronCity_PokemonTrainerFanClub_EventScript_WomanPlayersFan
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, (NUM_TRAINER_FAN_CLUB_MEMBERS - 1), SaffronCity_PokemonTrainerFanClub_EventScript_WomanOnlyNonFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_TrainerHasBeenOnFire
 	release
 	end
 
 SaffronCity_PokemonTrainerFanClub_EventScript_WomanPlayersFan::
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, 1, SaffronCity_PokemonTrainerFanClub_EventScript_WomanOnlyFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_AdoreWayYouBattle
 	release
@@ -341,17 +312,13 @@ SaffronCity_PokemonTrainerFanClub_EventScript_Rocker::
 	lock
 	faceplayer
 	setvar VAR_0x8004, FANCLUB_MEMBER5
-// FIXME undefined reference: 	special Script_BufferFanClubTrainerName
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	goto_if_eq VAR_RESULT, TRUE, SaffronCity_PokemonTrainerFanClub_EventScript_RockerPlayersFan
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, (NUM_TRAINER_FAN_CLUB_MEMBERS - 1), SaffronCity_PokemonTrainerFanClub_EventScript_RockerOnlyNonFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_LoveWayTrainerTalks
 	release
 	end
 
 SaffronCity_PokemonTrainerFanClub_EventScript_RockerPlayersFan::
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, 1, SaffronCity_PokemonTrainerFanClub_EventScript_RockerOnlyFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_TheWayYouBattleIsCool
 	release
@@ -371,17 +338,13 @@ SaffronCity_PokemonTrainerFanClub_EventScript_Beauty::
 	lock
 	faceplayer
 	setvar VAR_0x8004, FANCLUB_MEMBER7
-// FIXME undefined reference: 	special Script_BufferFanClubTrainerName
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	goto_if_eq VAR_RESULT, TRUE, SaffronCity_PokemonTrainerFanClub_EventScript_BeautyPlayersFan
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, (NUM_TRAINER_FAN_CLUB_MEMBERS - 1), SaffronCity_PokemonTrainerFanClub_EventScript_BeautyOnlyNonFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_WhyCantOthersSeeMastersDignity
 	release
 	end
 
 SaffronCity_PokemonTrainerFanClub_EventScript_BeautyPlayersFan::
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, 1, SaffronCity_PokemonTrainerFanClub_EventScript_BeautyOnlyFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_YouReallyAreAmazing
 	release
@@ -401,17 +364,13 @@ SaffronCity_PokemonTrainerFanClub_EventScript_BlackBelt::
 	lock
 	faceplayer
 	setvar VAR_0x8004, FANCLUB_MEMBER8
-// FIXME undefined reference: 	special Script_BufferFanClubTrainerName
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_IsFanClubMemberFanOfPlayer
 	goto_if_eq VAR_RESULT, TRUE, SaffronCity_PokemonTrainerFanClub_EventScript_BlackBeltPlayersFan
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, (NUM_TRAINER_FAN_CLUB_MEMBERS - 1), SaffronCity_PokemonTrainerFanClub_EventScript_BlackBeltOnlyNonFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_OnlyMasterHasMyRespect
 	release
 	end
 
 SaffronCity_PokemonTrainerFanClub_EventScript_BlackBeltPlayersFan::
-// FIXME undefined reference: 	specialvar VAR_RESULT, Script_GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, 1, SaffronCity_PokemonTrainerFanClub_EventScript_BlackBeltOnlyFan
 	msgbox SaffronCity_PokemonTrainerFanClub_Text_YourBattleStyleIsEducational
 	release

@@ -97,7 +97,6 @@ Route25_SeaCottage_EventScript_BillGoToSSAnne::
 	end
 
 Route25_SeaCottage_EventScript_BillGiveSSTicket::
-@	famechecker FAMECHECKER_BILL, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, Route25_SeaCottage_EventScript_BillThanksMale
 	call_if_eq VAR_RESULT, FEMALE, Route25_SeaCottage_EventScript_BillThanksFemale
@@ -259,7 +258,6 @@ Route25_SeaCottage_EventScript_ViewEevee::
 	waitbuttonpress
 	hidemonpic
 	setvar VAR_0x8004, SPECIES_EEVEE
-// FIXME undefined reference: 	special SetSeenMon
 	goto Route25_SeaCottage_EventScript_BillsMonList
 	end
 
@@ -268,7 +266,6 @@ Route25_SeaCottage_EventScript_ViewFlareon::
 	waitbuttonpress
 	hidemonpic
 	setvar VAR_0x8004, SPECIES_FLAREON
-// FIXME undefined reference: 	special SetSeenMon
 	goto Route25_SeaCottage_EventScript_BillsMonList
 	end
 
@@ -277,7 +274,6 @@ Route25_SeaCottage_EventScript_ViewJolteon::
 	waitbuttonpress
 	hidemonpic
 	setvar VAR_0x8004, SPECIES_JOLTEON
-// FIXME undefined reference: 	special SetSeenMon
 	goto Route25_SeaCottage_EventScript_BillsMonList
 	end
 
@@ -286,7 +282,6 @@ Route25_SeaCottage_EventScript_ViewVaporeon::
 	waitbuttonpress
 	hidemonpic
 	setvar VAR_0x8004, SPECIES_VAPOREON
-// FIXME undefined reference: 	special SetSeenMon
 	goto Route25_SeaCottage_EventScript_BillsMonList
 	end
 

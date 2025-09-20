@@ -38,7 +38,6 @@ FuchsiaCity_EventScript_Youngster::
 FuchsiaCity_EventScript_Lass::
 	lock
 	faceplayer
-@	famechecker FAMECHECKER_KOGA, 3
 	msgbox FuchsiaCity_Text_MyFatherIsGymLeader
 	release
 	end
@@ -66,7 +65,6 @@ FuchsiaCity_EventScript_SafariZoneOfficeSign::
 
 FuchsiaCity_EventScript_GymSign::
 	lockall
-@	famechecker FAMECHECKER_KOGA, 0
 	msgbox FuchsiaCity_Text_GymSign
 	releaseall
 	end
@@ -74,7 +72,6 @@ FuchsiaCity_EventScript_GymSign::
 FuchsiaCity_EventScript_ChanseySign::
 	lockall
 	setvar VAR_0x8004, SPECIES_CHANSEY
-// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_CHANSEY, 10, 3
 	msgbox FuchsiaCity_Text_ChanseySign
 	hidemonpic
@@ -84,7 +81,6 @@ FuchsiaCity_EventScript_ChanseySign::
 FuchsiaCity_EventScript_VoltorbSign::
 	lockall
 	setvar VAR_0x8004, SPECIES_VOLTORB
-// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_VOLTORB, 10, 3
 	msgbox FuchsiaCity_Text_VoltorbSign
 	hidemonpic
@@ -94,7 +90,6 @@ FuchsiaCity_EventScript_VoltorbSign::
 FuchsiaCity_EventScript_KangaskhanSign::
 	lockall
 	setvar VAR_0x8004, SPECIES_KANGASKHAN
-// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_KANGASKHAN, 10, 3
 	msgbox FuchsiaCity_Text_KangaskhanSign
 	hidemonpic
@@ -104,7 +99,6 @@ FuchsiaCity_EventScript_KangaskhanSign::
 FuchsiaCity_EventScript_SlowpokeSign::
 	lockall
 	setvar VAR_0x8004, SPECIES_SLOWPOKE
-// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_SLOWPOKE, 10, 3
 	msgbox FuchsiaCity_Text_SlowpokeSign
 	hidemonpic
@@ -114,7 +108,6 @@ FuchsiaCity_EventScript_SlowpokeSign::
 FuchsiaCity_EventScript_LaprasSign::
 	lockall
 	setvar VAR_0x8004, SPECIES_LAPRAS
-// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_LAPRAS, 10, 3
 	msgbox FuchsiaCity_Text_LaprasSign
 	hidemonpic
@@ -126,7 +119,6 @@ FuchsiaCity_EventScript_FossilMonSign::
 	goto_if_set FLAG_TEMP_1, FuchsiaCity_EventScript_OmanyteSign
 // Replaced FLAG_GOT_DOME_FOSSIL with FLAG_TEMP_1
 	setvar VAR_0x8004, SPECIES_KABUTO
-// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_KABUTO, 10, 3
 	msgbox FuchsiaCity_Text_KabutoSign
 	hidemonpic
@@ -135,7 +127,6 @@ FuchsiaCity_EventScript_FossilMonSign::
 
 FuchsiaCity_EventScript_OmanyteSign::
 	setvar VAR_0x8004, SPECIES_OMANYTE
-// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_OMANYTE, 10, 3
 	msgbox FuchsiaCity_Text_OmanyteSign
 	hidemonpic

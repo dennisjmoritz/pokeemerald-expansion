@@ -2,7 +2,6 @@ CeruleanCity_Gym_MapScripts::
 	.byte 0
 
 CeruleanCity_Gym_EventScript_Misty::
-@	famechecker FAMECHECKER_MISTY, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 // FIXME undefined reference: 	trainerbattle_single TRAINER_LEADER_MISTY, CeruleanCity_Gym_Text_MistyIntro, CeruleanCity_Gym_Text_MistyDefeat, CeruleanCity_Gym_EventScript_MistyDefeated, NO_MUSIC
 	goto_if_unset FLAG_TEMP_1, CeruleanCity_Gym_EventScript_GiveTM03
 // Replaced FLAG_GOT_TM03_FROM_MISTY with FLAG_TEMP_1
@@ -11,7 +10,6 @@ CeruleanCity_Gym_EventScript_Misty::
 	end
 
 CeruleanCity_Gym_EventScript_MistyDefeated::
-@	famechecker FAMECHECKER_MISTY, 1
 	setflag FLAG_TEMP_1
 // Replaced FLAG_DEFEATED_MISTY with FLAG_TEMP_1
 	setflag FLAG_BADGE02_GET
@@ -44,7 +42,6 @@ CeruleanCity_Gym_EventScript_Diana::
 
 CeruleanCity_Gym_EventScript_Luis::
 // FIXME undefined reference: 	trainerbattle_single TRAINER_SWIMMER_MALE_LUIS, CeruleanCity_Gym_Text_LuisIntro, CeruleanCity_Gym_Text_LuisDefeat
-@	famechecker FAMECHECKER_MISTY, 2
 	msgbox CeruleanCity_Gym_Text_LuisPostBattle, MSGBOX_AUTOCLOSE
 	end
 

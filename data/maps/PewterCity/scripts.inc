@@ -282,7 +282,6 @@ PewterCity_EventScript_GymGuideTriggerRight::
 	end
 
 PewterCity_EventScript_GymGuideTrigger::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox PewterCity_Text_BrocksLookingForChallengersFollowMe
 	closemessage
 	playbgm MUS_FOLLOW_ME, 0
@@ -614,7 +613,6 @@ PewterCity_Movement_MuseumGuideExit::
 PewterCity_EventScript_FatMan::
 	lock
 	faceplayer
-@	famechecker FAMECHECKER_BROCK, 2
 	msgbox PewterCity_Text_BrockOnlySeriousTrainerHere
 	release
 	end
@@ -647,7 +645,6 @@ PewterCity_EventScript_MuseumSign::
 
 PewterCity_EventScript_GymSign::
 	lockall
-@	famechecker FAMECHECKER_BROCK, 0
 	msgbox PewterCity_Text_GymSign
 	releaseall
 	end
@@ -686,7 +683,6 @@ PewterCity_EventScript_RunningShoesAideTriggerBottom::
 	end
 
 PewterCity_EventScript_AideGiveRunningShoes::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	call_if_eq VAR_TEMP_1, 1, PewterCity_EventScript_AideNoticePlayer
 	call_if_eq VAR_TEMP_1, 2, PewterCity_EventScript_AideNoticePlayer
 	call_if_eq VAR_TEMP_1, 3, PewterCity_EventScript_AideNoticePlayer
@@ -702,17 +698,13 @@ PewterCity_EventScript_AideGiveRunningShoes::
 	call_if_eq VAR_TEMP_1, 2, PewterCity_EventScript_AideApproachPlayer2
 	call_if_eq VAR_TEMP_1, 3, PewterCity_EventScript_AideApproachPlayer3
 	msgbox PewterCity_Text_AskedToDeliverThis
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
-// FIXME undefined reference: 	playfanfare MUS_OBTAIN_KEY_ITEM
 	message PewterCity_Text_ReceivedRunningShoesFromAide
 	waitmessage
 	waitfanfare
 	msgbox PewterCity_Text_SwitchedShoesWithRunningShoes
-// FIXME undefined reference: 	special DisableMsgBoxWalkaway
 	signmsg
 	msgbox PewterCity_Text_ExplainRunningShoes
 	normalmsg
-// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	msgbox PewterCity_Text_MustBeGoingBackToLab
 	closemessage
 	call_if_eq VAR_TEMP_1, 0, PewterCity_EventScript_AideExit0
@@ -720,7 +712,6 @@ PewterCity_EventScript_AideGiveRunningShoes::
 	call_if_eq VAR_TEMP_1, 2, PewterCity_EventScript_AideExit2
 	call_if_eq VAR_TEMP_1, 3, PewterCity_EventScript_AideExit3
 	delay 30
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	msgbox PewterCity_Text_RunningShoesLetterFromMom
 	closemessage
 	removeobject LOCALID_PEWTER_AIDE

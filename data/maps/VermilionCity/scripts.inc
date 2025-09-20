@@ -87,7 +87,6 @@ VermilionCity_EventScript_CheckSeagallopPresent::
 
 VermilionCity_EventScript_ChooseSeagallopDestRainbowPass::
 @	goto_if_questlog EventScript_ReleaseEnd
-// FIXME undefined reference: 	special QuestLog_CutRecording
 	call VermilionCity_EventScript_CheckHasMysticTicket
 	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_HasMysticTicket
 	call VermilionCity_EventScript_CheckHasAuroraTicket
@@ -198,7 +197,6 @@ VermilionCity_EventScript_ExitedTicketCheck::
 	end
 
 VermilionCity_EventScript_CheckTicket::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_VERMILION_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
@@ -272,7 +270,6 @@ VermilionCity_EventScript_PokemonFanClubSign::
 
 VermilionCity_EventScript_GymSign::
 	lockall
-@	famechecker FAMECHECKER_LTSURGE, 0
 	msgbox VermilionCity_Text_GymSign
 	releaseall
 	end
