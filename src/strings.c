@@ -1300,3 +1300,19 @@ const u8 gText_PM[] = _("PM");
 const u8 gText_Relearn[] = _("{START_BUTTON} RELEARN"); // future note: don't decap this, because it mimics the summary screen BG graphics which will not get decapped
 const u8 gText_Rename[] = _("RENAME");
 const u8 gText_CannotSendMonToBoxHM[] = _("Cannot send that mon to the box,\nbecause it knows a HM move.{PAUSE_UNTIL_PRESS}");
+
+// Functional Decorations
+const u8 gText_NoPartyMon[] = _("You have no POKéMON\nin your party.{PAUSE_UNTIL_PRESS}");
+const u8 gText_NeedHeartScale[] = _("You need a HEART SCALE\nto use this device.{PAUSE_UNTIL_PRESS}");
+const u8 gText_NoEggsToIncubate[] = _("You have no EGGs\nto incubate.{PAUSE_UNTIL_PRESS}");
+const u8 gText_EggIncubatorUsed[] = _("The EGG INCUBATOR warmed your\nEGGs, helping them hatch faster!{PAUSE_UNTIL_PRESS}");
+const u8 gText_BagFull[] = _("Your BAG is full!\nCouldn't pick the berries.{PAUSE_UNTIL_PRESS}");
+const u8 gText_FoundBerries[] = _("Found {STR_VAR_2} {STR_VAR_1}!{PAUSE_UNTIL_PRESS}");
+const u8 gText_NoBerriesToPlant[] = _("You have no BERRIES\nto plant.{PAUSE_UNTIL_PRESS}");
+const u8 gText_NotEnoughMoney[] = _("You don't have enough money\nto use this device.{PAUSE_UNTIL_PRESS}");
+const u8 gText_EVModifierUsed[] = _("The EV MODIFIER is ready!\nSelect a POKéMON to train.{PAUSE_UNTIL_PRESS}");
+const u8 gText_EVsReset[] = _("{STR_VAR_1}'s effort values\nwere all reset to zero!{PAUSE_UNTIL_PRESS}");
+const u8 gText_NoEVCredits[] = _("The EV MODIFIER needs vitamins\nor EV berries to function.{PAUSE_UNTIL_PRESS}");
+const u8 gText_EVsModified[] = _("{STR_VAR_1}'s effort values\nwere successfully modified!{PAUSE_UNTIL_PRESS}");
+const u8 gText_EVCreditsLoaded[] = _("Vitamins and EV berries loaded\ninto the machine! Credits: {STR_VAR_1}{PAUSE_UNTIL_PRESS}");
+const u8 gText_CantUseOnEgg[] = _("Cannot use EV training\non an EGG!{PAUSE_UNTIL_PRESS}");

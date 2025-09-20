@@ -594,6 +594,12 @@ extern const u8 SecretBase_EventScript_PCCancel[];
 extern const u8 SecretBase_EventScript_ShowRegisterMenu[];
 extern const u8 SecretBase_EventScript_SandOrnament[];
 extern const u8 SecretBase_EventScript_ShieldOrToyTV[];
+
+// Functional Decorations
+extern const u8 FunctionalDecoration_EventScript_MoveRelearner[];
+extern const u8 FunctionalDecoration_EventScript_EggIncubator[];
+extern const u8 FunctionalDecoration_EventScript_BerryPatch[];
+extern const u8 FunctionalDecoration_EventScript_EVModifier[];
 extern const u8 SecretBase_EventScript_DollInteract[];
 extern const u8 SecretBase_EventScript_CushionInteract[];
 extern const u8 SecretBase_EventScript_CheckEntrance[];

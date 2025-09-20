@@ -759,3 +759,27 @@ SecretBase_Text_WouldYouLikeToMoveBases:
 SecretBase_Text_MovingCompletedUseSecretPower:
 	.string "Moving completed.\p"
 	.string "Would you like to use the SECRET POWER?$"
+
+FunctionalDecoration_EventScript_MoveRelearner::
+	lockall
+	special FunctionalDecoration_MoveRelearner
+	releaseall
+	end
+
+FunctionalDecoration_EventScript_EggIncubator::
+	lockall
+	special FunctionalDecoration_EggIncubator
+	releaseall
+	end
+
+FunctionalDecoration_EventScript_BerryPatch::
+	lockall
+	special FunctionalDecoration_BerryPatch
+	releaseall
+	end
+
+FunctionalDecoration_EventScript_EVModifier::
+	lockall
+	special FunctionalDecoration_EVModifier
+	releaseall
+	end
