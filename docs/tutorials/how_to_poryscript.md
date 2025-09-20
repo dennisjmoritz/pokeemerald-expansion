@@ -82,25 +82,28 @@ script Route101_EventScript_NPC {
 
 ### Installation
 
-1. **Download Poryscript**: Get the latest version from the official repository
-2. **Install compiler**: Place poryscript executable in your PATH
-3. **Configure build system**: Integrate with your project's Makefile
+1. **Download Poryscript**: Get the latest version from the [official repository](https://github.com/huderlem/poryscript/releases)
+2. **Install compiler**: Create a `tools/poryscript/` directory and add the executable:
+   - `pokeemerald/tools/poryscript/poryscript.exe` (Windows)
+   - `pokeemerald/tools/poryscript/poryscript` (Linux/Mac)
+3. **Copy config files**: Also copy `command_config.json` and `font_config.json` to the same location
+4. **Update .gitignore**: Add the poryscript binary to your `.gitignore` (but not the config files)
 
 ### Build Integration
 
-Add Poryscript compilation to your build process:
+Update your Makefile with these changes:
 
 ```makefile
-# In your Makefile
-PORYSCRIPT := poryscript
+# Add these lines to your Makefile
+PORYSCRIPT := $(TOOLS_DIR)/poryscript/poryscript$(EXE)
 
-# Rule to compile .pory files to .inc files
+# Add this rule for automatic compilation
 %.inc: %.pory
-	$(PORYSCRIPT) $< -o $@
+	$(PORYSCRIPT) -i $< -o $@ -cc $(TOOLS_DIR)/poryscript/command_config.json -fc $(TOOLS_DIR)/poryscript/font_config.json
 
-# Add .pory files as dependencies
+# Add dependency for map scripts
 data/maps/%/scripts.inc: data/maps/%/scripts.pory
-	$(PORYSCRIPT) $< -o $@
+	$(PORYSCRIPT) -i $< -o $@ -cc $(TOOLS_DIR)/poryscript/command_config.json -fc $(TOOLS_DIR)/poryscript/font_config.json
 ```
 
 ### Project Structure
@@ -113,48 +116,52 @@ data/maps/YourMap/
 ├── scripts.inc           # Compiled output (auto-generated)
 └── map.json             # Map configuration
 
-shared/
-├── common_scripts.pory   # Shared script functions
-└── constants.pory        # Script constants and definitions
+tools/poryscript/
+├── poryscript            # Poryscript compiler executable
+├── command_config.json   # Command configuration
+└── font_config.json      # Font configuration
 ```
+
+### Using VS Code Extension
+
+For the best development experience, install the [VS Code Poryscript extension](https://marketplace.visualstudio.com/items?itemName=karathan.poryscript) which provides:
+- Syntax highlighting
+- Autocomplete
+- Error diagnostics
+- Code formatting
+
+You can also test Poryscript online at the [Poryscript Playground](http://www.huderlem.com/poryscript-playground/).
 
 ## Basic Poryscript Syntax
 
-### 1. Variables and Constants
+### 1. Script Structure
 
-#### Declaring Variables
+A `.pory` file contains top-level statements. The main types are:
+- `script` - Contains script commands and logic
+- `text` - Defines text strings
+- `movement` - Defines movement patterns
+- `mart` - Defines shop inventories
+- `mapscripts` - Defines map event scripts
+- `raw` - Includes raw assembly code
+
+#### Basic Script Example
 ```poryscript
-// Temporary variables (auto-managed)
-var questStage = 0
-var itemCount = 5
-var playerChoice = false
-
-// Using game flags and variables directly
-if (flag(FLAG_BADGE01_GET)) {
-    var badgeCount = var(VAR_BADGE_COUNT)
-}
-```
-
-#### Constants and Text
-```poryscript
-// Text constants
-const GREETING_TEXT = "Welcome to our town!"
-const ITEM_OFFER_TEXT = "Would you like this POTION?"
-
-// Numeric constants
-const MAX_ITEMS = 10
-const QUEST_STAGE_COMPLETE = 5
-
 script SampleNPC {
-    msgbox(GREETING_TEXT, MSGBOX_NPC)
+    lock
+    faceplayer
+    msgbox("Welcome to our town!")
+    release
+    end
 }
 ```
 
-### 2. Control Flow
+### 2. Control Flow and Conditions
 
 #### If/Else Statements
 ```poryscript
 script ConditionalNPC {
+    lock
+    faceplayer
     if (flag(FLAG_STORY_COMPLETE)) {
         msgbox("Congratulations on saving the world!")
     } elif (flag(FLAG_BADGE01_GET)) {
@@ -162,7 +169,49 @@ script ConditionalNPC {
     } else {
         msgbox("You're just starting your journey, aren't you?")
     }
+    release
+    end
 }
+```
+
+#### Boolean Expressions
+You can use logical operators `&&` (AND) and `||` (OR):
+```poryscript
+script ComplexConditions {
+    # Basic AND of two conditions
+    if (!defeated(TRAINER_MISTY) && var(VAR_TIME) != DAY) {
+        msgbox("The Cerulean Gym's doors don't open until morning.")
+    }
+    
+    # Nested conditions with grouping
+    if (flag(FLAG_IS_CHAMPION) && !(flag(FLAG_SYS_TOWER_GOLD) || flag(FLAG_SYS_DOME_GOLD))) {
+        msgbox("You should try to beat the Battle Tower or Battle Dome!")
+    }
+}
+```
+
+#### Conditional Operators
+Different types support different operators:
+
+| Type | Valid Operators | Valid Values |
+|------|-----------------|--------------|
+| `flag()` | `==` | `true`, `false`, `TRUE`, `FALSE` |
+| `var()` | `==`, `!=`, `>`, `>=`, `<`, `<=` | Any numeric value |
+| `defeated()` | `==` | `true`, `false`, `TRUE`, `FALSE` |
+
+Examples with implicit truthiness:
+```poryscript
+# These are equivalent:
+if (flag(FLAG_RECEIVED_POKEDEX))
+if (flag(FLAG_RECEIVED_POKEDEX) == true)
+
+# These are equivalent:
+if (!flag(FLAG_RECEIVED_POKEDEX))
+if (flag(FLAG_RECEIVED_POKEDEX) == false)
+
+# These are equivalent:
+if (var(VAR_STORY_STAGE))
+if (var(VAR_STORY_STAGE) != 0)
 ```
 
 #### Switch Statements
@@ -181,199 +230,341 @@ script StoryProgressionNPC {
 }
 ```
 
-#### Loops
+#### While Loops
 ```poryscript
-script CountingExample {
-    var count = 0
-    while (count < 3) {
-        msgbox(format("Count is: {}", count))
-        count += 1
+script PersistentNPC {
+    # Force player to answer "Yes"
+    msgbox("Do you agree to the quest?", MSGBOX_YESNO)
+    while (var(VAR_RESULT) != YES) {
+        msgbox("...How about now?", MSGBOX_YESNO)
     }
-    
-    // For loop equivalent
-    for (var i = 0; i < 3; i += 1) {
-        msgbox(format("Loop iteration: {}", i))
+    setvar(VAR_QUEST_ACCEPTED, 1)
+    msgbox("Great! Let's begin!")
+}
+```
+
+#### Do-While Loops
+```poryscript
+script DoWhileExample {
+    # Always executes at least once
+    do {
+        msgbox("Can you help me solve the puzzle?", MSGBOX_YESNO)
+    } while (var(VAR_RESULT) == NO)
+}
+```
+
+#### Loop Control
+```poryscript
+script LoopControlExample {
+    while {  # Infinite loop
+        msgbox("Want to see this message again?", MSGBOX_YESNO)
+        if (var(VAR_RESULT) != YES) {
+            break  # Exit the loop
+        }
+        # continue would return to start of loop
     }
 }
 ```
 
-### 3. Functions and Scripts
+### 3. Text and Formatting
 
-#### Defining Functions
+#### Inline Text
+Text can be included directly in scripts without separate text definitions:
 ```poryscript
-// Helper function for common item giving pattern
-function giveItemSafely(item, amount, successText, failText) {
-    if (giveitem(item, amount)) {
-        msgbox(successText)
-        return true
-    } else {
-        msgbox(failText)
-        return false
-    }
-}
-
-// Using the function
-script ItemGiverNPC {
-    msgbox("Take this POTION!")
-    giveItemSafely(
-        ITEM_POTION, 
-        1,
-        "Use it well!",
-        "Your bag is full!"
-    )
+script SimpleNPC {
+    msgbox("Hello! Welcome to our town!")
+    msgbox("The POKéMON CENTER is just north of here.")
 }
 ```
 
-#### Script Parameters and Return Values
+#### Text Statements
+For reusable text, use `text` statements:
 ```poryscript
-// Function with parameters
-function checkBadgeCount() {
-    var count = 0
-    if (flag(FLAG_BADGE01_GET)) count += 1
-    if (flag(FLAG_BADGE02_GET)) count += 1
-    if (flag(FLAG_BADGE03_GET)) count += 1
-    // ... check all badges
-    return count
+text WelcomeMessage {
+    "Hello, welcome to our town!\p"
+    "Feel free to look around!"
 }
 
-// Using the function
-script GymGuide {
-    var badges = checkBadgeCount()
-    if (badges >= 8) {
-        msgbox("You're ready for the POKéMON LEAGUE!")
-    } else {
-        msgbox(format("You have {} BADGES. Keep going!", badges))
-    }
+script WelcomingNPC {
+    msgbox(WelcomeMessage)
 }
+```
+
+#### Automatic Text Formatting
+Use `format()` to automatically wrap text to fit message boxes:
+```poryscript
+text LongMessage {
+    format("Hello, are you the real-live legendary {PLAYER} that everyone talks about? Amazing! So glad to meet you!")
+}
+```
+
+#### Custom Text Encoding
+Specify different text encoders:
+```poryscript
+text DebugMessage {
+    ascii"This is ASCII text for debugging."
+}
+```
+
+### 4. Movement Statements
+
+#### Movement Definitions
+```poryscript
+movement WalkToPlayer {
+    walk_left
+    walk_up * 3
+    face_down
+}
+
+script MovingNPC {
+    lock
+    applymovement(2, WalkToPlayer)
+    waitmovement(0)
+    msgbox("I walked over to talk to you!")
+    release
+}
+```
+
+#### Inline Movement
+Movement can be inlined using `moves()`:
+```poryscript
+script InlineMovementNPC {
+    lock
+    applymovement(2, moves(
+        walk_left
+        walk_up * 3
+        face_down
+    ))
+    waitmovement(0)
+    msgbox("I used inline movement!")
+    release
+}
+```
+
+### 5. Mart Statements
+
+Define shop inventories easily:
+```poryscript
+mart TownMart {
+    ITEM_POTION
+    ITEM_ANTIDOTE
+    ITEM_POKEBALL
+    ITEM_GREAT_BALL
+}
+
+script ShopKeeper {
+    lock
+    faceplayer
+    message("Welcome to our shop!")
+    waitmessage
+    pokemart(TownMart)
+    msgbox("Come back anytime!")
+    release
+}
+```
+
+### 6. Map Scripts
+
+Use `mapscripts` to organize map event scripts:
+```poryscript
+mapscripts MyTown_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: MyTown_OnTransition
+    MAP_SCRIPT_ON_RESUME {
+        # Inline script
+        if (flag(FLAG_JUST_ARRIVED)) {
+            setweather(WEATHER_SUNNY)
+        }
+    }
+    MAP_SCRIPT_ON_FRAME_TABLE [
+        VAR_TEMP_0, 0: MyTown_FirstFrame
+        VAR_TEMP_0, 1 {
+            lock
+            msgbox("This happens on frame 1.")
+            setvar(VAR_TEMP_0, 2)
+            release
+        }
+    ]
+}
+
+script MyTown_OnTransition {
+    # Transition logic here
+}
+
+script MyTown_FirstFrame {
+    # Frame logic here
+}
+```
+
+For maps with no scripts:
+```poryscript
+mapscripts EmptyMap_MapScripts {}
+```
+
+### 7. Raw Assembly
+
+Include raw assembly code when needed:
+```poryscript
+raw `
+MyCustomData:
+    .byte 0x01, 0x02, 0x03, 0x04
+    .string "Custom string$"
+`
 ```
 
 ## Advanced Features
 
-### Complex Event Scripting
+### AutoVar Commands
 
-#### Multi-Stage Quests
+Some commands automatically store results in variables. Poryscript can use these directly in conditions:
+
+#### Without AutoVar (traditional):
 ```poryscript
-const QUEST_NOT_STARTED = 0
-const QUEST_FIND_ITEM = 1
-const QUEST_RETURN_ITEM = 2
-const QUEST_COMPLETE = 3
-
-script QuestGiver {
-    switch (var(VAR_SAMPLE_QUEST)) {
-        case QUEST_NOT_STARTED:
-            msgbox("I've lost my RARE CANDY in the tall grass. Can you help me find it?")
-            if (msgbox("Will you help me?", MSGBOX_YESNO) == YES) {
-                setvar(VAR_SAMPLE_QUEST, QUEST_FIND_ITEM)
-                msgbox("Thank you! Look in the tall grass on Route 101.")
-            }
-            
-        case QUEST_FIND_ITEM:
-            if (checkitem(ITEM_RARE_CANDY)) {
-                msgbox("You found my RARE CANDY! Thank you so much!")
-                removeitem(ITEM_RARE_CANDY, 1)
-                giveitem(ITEM_MASTER_BALL, 1)
-                setvar(VAR_SAMPLE_QUEST, QUEST_COMPLETE)
-            } else {
-                msgbox("Please look for my RARE CANDY in the tall grass.")
-            }
-            
-        case QUEST_COMPLETE:
-            msgbox("Thanks again for finding my RARE CANDY!")
+script TraditionalCheck {
+    checkitem(ITEM_ROOT_FOSSIL)
+    if (var(VAR_RESULT) == TRUE) {
+        msgbox("You have the Root Fossil!")
     }
 }
 ```
 
-#### Dynamic Battle Configuration
+#### With AutoVar (simplified):
 ```poryscript
-script DynamicTrainer {
-    var playerLevel = getMonData(MON_DATA_LEVEL, 0)  // Get first Pokemon's level
-    var trainerLevel = playerLevel + 2  // Scale difficulty
-    
-    // Set trainer's Pokemon levels dynamically
-    setvar(VAR_TRAINER_LEVEL, trainerLevel)
-    
-    if (flag(FLAG_HARD_MODE)) {
-        trainerbattle_single(
-            TRAINER_DYNAMIC_BOSS_HARD,
-            "Prepare for a real challenge!",
-            "Incredible skill!"
-        )
+script AutoVarCheck {
+    if (checkitem(ITEM_ROOT_FOSSIL) == TRUE) {
+        msgbox("You have the Root Fossil!")
+    }
+}
+```
+
+#### AutoVar in Complex Conditions:
+```poryscript
+script ComplexAutoVar {
+    if (checkitem(ITEM_POKEBLOCK_CASE)) {
+        if (specialvar(VAR_RESULT, GetFirstFreePokeblockSlot) != -1 && 
+            specialvar(VAR_RESULT, PlayerHasBerries)) {
+            msgbox("Great! You can use the Berry Blender!")
+        }
     } else {
-        trainerbattle_single(
-            TRAINER_DYNAMIC_BOSS_NORMAL,
-            "Let's have a fair battle!",
-            "Well battled!"
-        )
+        msgbox("You don't have a Pokeblock case!")
     }
 }
 ```
 
-### Advanced NPC Behaviors
+Common AutoVar commands:
+- `checkitem()` - stores result in `VAR_RESULT`
+- `random()` - stores result in `VAR_RESULT`
+- `getpartysize()` - stores result in `VAR_RESULT`
+- `specialvar()` - stores in specified variable
 
-#### Time-Based Events
+### Compile-Time Switches
+
+Use `poryswitch` to create version-specific content:
+
+#### Basic Switch Usage:
 ```poryscript
-script TimeBasedNPC {
-    var currentHour = getTimeOfDay()
-    
-    if (currentHour >= 6 && currentHour < 12) {
-        msgbox("Good morning! The POKéMON are very active today.")
-    } elif (currentHour >= 12 && currentHour < 18) {
-        msgbox("Good afternoon! Perfect weather for training.")
-    } elif (currentHour >= 18 && currentHour < 22) {
-        msgbox("Good evening! The sunset is beautiful from here.")
-    } else {
-        msgbox("It's quite late. You should rest at the POKéMON CENTER.")
+script VersionSpecificNPC {
+    lock
+    faceplayer
+    poryswitch(GAME_VERSION) {
+        RUBY {
+            msgbox("Here, take this Ruby Orb.")
+            giveitem(ITEM_RUBY_ORB)
+        }
+        SAPPHIRE {
+            msgbox("Here, take this Sapphire Orb.")
+            giveitem(ITEM_SAPPHIRE_ORB)
+        }
+        _: msgbox("This is the default case.")
+    }
+    release
+}
+```
+
+#### Switches in Text:
+```poryscript
+text LanguageText {
+    poryswitch(LANGUAGE) {
+        GERMAN:  "Hallo. Ich spreche Deutsch."
+        ENGLISH: "Hello. I speak English."
+        _:       "Default language text."
     }
 }
 ```
 
-#### Achievement System
+#### Switches in Movement:
 ```poryscript
-function checkAchievements() {
-    var newAchievements = 0
-    
-    // Check catching achievement
-    if (var(VAR_POKEMON_CAUGHT) >= 50 && !flag(FLAG_ACHIEVEMENT_CATCHER)) {
-        setflag(FLAG_ACHIEVEMENT_CATCHER)
-        giveitem(ITEM_PREMIER_BALL, 10)
-        msgbox("Achievement unlocked: Pokémon Catcher!")
-        newAchievements += 1
+movement VersionMovement {
+    face_player
+    walk_down
+    poryswitch(GAME_VERSION) {
+        RUBY: walk_left * 2
+        SAPPHIRE {
+            walk_right * 2
+            walk_left * 4
+        }
     }
-    
-    // Check battle achievement
-    if (var(VAR_BATTLES_WON) >= 100 && !flag(FLAG_ACHIEVEMENT_BATTLER)) {
-        setflag(FLAG_ACHIEVEMENT_BATTLER)
-        giveitem(ITEM_PP_MAX, 3)
-        msgbox("Achievement unlocked: Battle Master!")
-        newAchievements += 1
-    }
-    
-    return newAchievements
+}
+```
+
+To use switches, define them when compiling:
+```bash
+poryscript -i script.pory -o script.inc -s GAME_VERSION=RUBY -s LANGUAGE=ENGLISH
+```
+
+### Scope Modifiers
+
+Different statement types have default scopes:
+
+| Type | Default Scope | Description |
+|------|---------------|-------------|
+| `script` | Global | Accessible from C code |
+| `text` | Global | Accessible from C code |
+| `movement` | Local | Only accessible within the file |
+| `mart` | Local | Only accessible within the file |
+| `mapscripts` | Global | Accessible from C code |
+
+Change scope with `local` and `global` keywords:
+```poryscript
+local script MyLocalScript {
+    # Only accessible within this file
 }
 
-script AchievementChecker {
-    var newAchievements = checkAchievements()
-    if (newAchievements > 0) {
-        playse(SE_SUCCESS)
-        msgbox(format("You earned {} new achievement(s)!", newAchievements))
-    }
+global movement MyGlobalMovement {
+    # Accessible from C code
+    walk_up
+    walk_down
 }
 ```
 
 ## Converting Existing Scripts
 
-### Migration Strategy
+### Automatic Conversion
 
-1. **Start with simple scripts**: Convert basic NPCs first
-2. **Test incrementally**: Verify each converted script works
-3. **Maintain backups**: Keep original assembly scripts as reference
-4. **Update gradually**: Convert entire maps at once for consistency
+Use the provided conversion script to convert existing `.inc` files:
 
-### Common Conversion Patterns
+1. Create `convert_inc.sh` in your project root:
+```bash
+#!/bin/bash
+for directory in data/maps/*/; do
+    if [ -f "$directory/scripts.inc" ] && [ ! -f "$directory/scripts.pory" ]; then
+        echo "Converting $directory"
+        echo 'raw `' > "$directory/scripts.pory"
+        cat "$directory/scripts.inc" >> "$directory/scripts.pory"
+        echo '`' >> "$directory/scripts.pory"
+    fi
+done
+```
 
-#### Basic NPC Conversion
+2. Make it executable: `chmod 777 convert_inc.sh`
+3. Run: `./convert_inc.sh`
+
+This wraps existing assembly scripts in `raw` statements, allowing gradual conversion.
+
+### Manual Conversion Examples
+
+#### Assembly to Poryscript - Basic NPC:
 ```assembly
-# Assembly version
+# Assembly
 OldTown_EventScript_NPC::
     msgbox OldTown_Text_NPC_Greeting, MSGBOX_NPC
     end
@@ -383,15 +574,14 @@ OldTown_Text_NPC_Greeting:
 ```
 
 ```poryscript
-// Poryscript version
+// Poryscript
 script OldTown_EventScript_NPC {
     msgbox("Welcome to our town!", MSGBOX_NPC)
 }
 ```
-
-#### Complex Conditional Logic
+#### Assembly to Poryscript - Complex Logic:
 ```assembly
-# Assembly version (verbose)
+# Assembly (verbose)
 ComplexNPC_EventScript::
     checkflag FLAG_STORY_FLAG_1
     goto_if_unset ComplexNPC_NoFlag1
@@ -410,8 +600,10 @@ ComplexNPC_HasFlag1Only::
 ```
 
 ```poryscript
-// Poryscript version (concise)
+// Poryscript (concise)
 script ComplexNPC_EventScript {
+    lock
+    faceplayer
     if (flag(FLAG_STORY_FLAG_1) && flag(FLAG_STORY_FLAG_2)) {
         msgbox("You've made great progress in your journey!")
     } elif (flag(FLAG_STORY_FLAG_1)) {
@@ -419,93 +611,153 @@ script ComplexNPC_EventScript {
     } else {
         msgbox("You're just getting started!")
     }
+    release
 }
 ```
+
+#### Assembly to Poryscript - Item Giving:
+```assembly
+# Assembly
+Route101_EventScript_ItemGiver::
+    checkflag FLAG_RECEIVED_POTION
+    goto_if_set Route101_EventScript_ItemGiver_AlreadyGave
+    msgbox Route101_Text_ItemGiver_Offer, MSGBOX_NPC
+    giveitem ITEM_POTION
+    goto_if_bag_full Route101_EventScript_ItemGiver_BagFull
+    setflag FLAG_RECEIVED_POTION
+    msgbox Route101_Text_ItemGiver_GaveItem, MSGBOX_NPC
+    end
+
+Route101_EventScript_ItemGiver_AlreadyGave::
+    msgbox Route101_Text_ItemGiver_AlreadyGave, MSGBOX_NPC
+    end
+
+Route101_EventScript_ItemGiver_BagFull::
+    msgbox Route101_Text_ItemGiver_BagFull, MSGBOX_NPC
+    end
+```
+
+```poryscript
+// Poryscript
+script Route101_EventScript_ItemGiver {
+    lock
+    faceplayer
+    if (flag(FLAG_RECEIVED_POTION)) {
+        msgbox("I hope that POTION served you well!")
+    } else {
+        msgbox("You look like you could use this POTION!")
+        if (giveitem(ITEM_POTION)) {
+            setflag(FLAG_RECEIVED_POTION)
+            msgbox("Use it wisely!")
+        } else {
+            msgbox("Your bag is full! Come back later.")
+        }
+    }
+    release
+}
+```
+
+### Migration Strategy
+
+1. **Start with simple scripts**: Convert basic NPCs first
+2. **Use raw blocks initially**: Wrap existing assembly in `raw` statements
+3. **Convert gradually**: Replace `raw` blocks with native Poryscript
+4. **Test frequently**: Verify each conversion works correctly
+5. **Update build system**: Ensure Makefile handles `.pory` files
 
 ## Best Practices
 
 ### Code Organization
 
 1. **Use meaningful names**: `script TownGuide_EventScript` instead of `script NPC1`
-2. **Group related scripts**: Keep map scripts together, shared functions separate
-3. **Comment your code**: Explain complex logic and game mechanics
-4. **Consistent formatting**: Use standard indentation and spacing
+2. **Group related content**: Keep map scripts, text, and movement together
+3. **Use scope appropriately**: Make scripts `local` when they don't need external access
+4. **Comment complex logic**: Use `#` for single-line comments
+5. **Consistent formatting**: Use proper indentation and spacing
 
-### Error Handling
+### Leveraging Poryscript Features
+
+1. **Use inline text**: Embed simple messages directly in scripts
+2. **Leverage AutoVars**: Simplify condition checks with direct command usage
+3. **Use compile-time switches**: Create version-specific or configurable content
+4. **Inline movement**: Use `moves()` for simple movement patterns
+5. **Format long text**: Use `format()` for automatic text wrapping
+
+### Error Prevention
 
 ```poryscript
 script SafeItemGiver {
+    lock
+    faceplayer
     if (!checkitem(ITEM_POKEDEX)) {
         msgbox("You need a POKéDEX first!")
+        release
         return
     }
     
-    if (!giveitem(ITEM_RARE_CANDY, 1)) {
-        msgbox("Your bag is full!")
-        return
+    if (flag(FLAG_RECEIVED_ITEM)) {
+        msgbox("I already gave you the item!")
+    } else {
+        if (giveitem(ITEM_RARE_CANDY)) {
+            setflag(FLAG_RECEIVED_ITEM)
+            msgbox("Here's a RARE CANDY!")
+        } else {
+            msgbox("Your bag is full!")
+        }
     }
-    
-    msgbox("Here's a RARE CANDY for your POKéDEX!")
-    setflag(FLAG_RECEIVED_RARE_CANDY)
+    release
 }
 ```
 
 ### Performance Considerations
 
-1. **Minimize flag/variable checks**: Cache frequently used values
-2. **Use early returns**: Exit scripts quickly when conditions aren't met
-3. **Avoid deep nesting**: Break complex logic into functions
-4. **Reuse common patterns**: Create helper functions for repeated code
-
-### Debugging and Testing
-
-```poryscript
-// Debug mode features
-script DebugNPC {
-    #ifdef DEBUG
-        if (msgbox("Enable debug mode?", MSGBOX_YESNO) == YES) {
-            setvar(VAR_STORY_PROGRESSION, 10)
-            setflag(FLAG_DEBUG_MODE)
-            msgbox("Debug mode enabled!")
-        }
-    #endif
-    
-    msgbox("Hello, trainer!")
-}
-```
+1. **Use early returns**: Exit scripts quickly when conditions aren't met
+2. **Minimize nested conditions**: Break complex logic into smaller scripts
+3. **Optimize text formatting**: Use appropriate line lengths
+4. **Cache frequently used values**: Store complex calculations in variables
 
 ## Troubleshooting
 
 ### Common Issues
 
 **Compilation errors:**
-- Check syntax carefully - Poryscript is case-sensitive
-- Ensure proper bracket matching and semicolons
-- Verify function names and parameters are correct
+- Check syntax carefully - Poryscript uses specific operator rules
+- Ensure proper bracket/brace matching
+- Verify command names and parameters are correct
+- Check that referenced flags/variables exist
 
 **Runtime errors:**
 - Test scripts thoroughly in-game
-- Check that compiled .inc files are included properly
-- Verify game constants are available and spelled correctly
+- Verify compiled `.inc` files are included in the build
+- Check that game constants are spelled correctly
+- Ensure movement commands are valid
 
-**Performance issues:**
-- Monitor script complexity and execution time
-- Use profiling tools to identify bottlenecks
-- Optimize frequently-called scripts
+**Text formatting issues:**
+- Verify font configuration is correct
+- Check line length settings
+- Ensure text encoding matches expectations
+- Test long messages in actual game
 
 ### Debug Tips
 
-1. **Use simple test scripts** to verify Poryscript setup
-2. **Check compiled output** - examine generated .inc files
-3. **Test incrementally** - convert and test small pieces at a time
-4. **Use logging** - add debug messages to track script execution
+1. **Use the VS Code extension** for syntax highlighting and error detection
+2. **Test with simple scripts** to verify Poryscript setup works
+3. **Check compiled output** - examine generated `.inc` files
+4. **Enable line markers** for better error messages (default enabled)
+5. **Use the online playground** to test syntax
 
-### Integration with Existing Code
+### Configuration Issues
 
-1. **Maintain compatibility** - ensure Poryscript scripts work with assembly scripts
-2. **Update gradually** - don't convert everything at once
-3. **Document changes** - note which scripts have been converted
-4. **Keep backups** - maintain original scripts until conversion is complete
+**Font configuration problems:**
+- Verify `font_config.json` is in the correct location
+- Check that font IDs match your game's fonts
+- Ensure character widths are properly configured
+- Test text formatting with different line lengths
+
+**Command configuration issues:**
+- Verify `command_config.json` is properly formatted
+- Check that AutoVar commands are correctly defined
+- Ensure command names match your game's script commands
 
 ## Related Tutorials
 
