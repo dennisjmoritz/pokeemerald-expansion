@@ -3,12 +3,15 @@
 #include "strings.h"
 
 // Global variable to track current map region
-u32 gCurrentMapRegion = REGION_HOENN;
+u32 gCurrentMapRegion = REGION_KANTO;
 
 // Available regions for map navigation (can be expanded)
 static const u32 sAvailableRegions[] = {
+    REGION_KANTO,
+    REGION_JOHTO,
     REGION_HOENN,
-    // Future regions can be added here
+    REGION_SINNOH,
+    REGION_SEVII_ISLANDS,
 };
 
 static const u8 *const sRegionNames[] = {
@@ -17,6 +20,7 @@ static const u8 *const sRegionNames[] = {
     [REGION_JOHTO] = gText_Johto,
     [REGION_HOENN] = gText_Hoenn,
     [REGION_SINNOH] = gText_Sinnoh,
+    [REGION_SEVII_ISLANDS] = gText_SeviiIslands,
     [REGION_UNOVA] = gText_Unova,
     [REGION_KALOS] = gText_Kalos,
     [REGION_ALOLA] = gText_Alola,

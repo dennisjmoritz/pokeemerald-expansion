@@ -154,6 +154,7 @@ extern const u8 gText_Alola[];
 extern const u8 gText_Galar[];
 extern const u8 gText_Hisui[];
 extern const u8 gText_Paldea[];
+extern const u8 gText_SeviiIslands[];
 extern const u8 gText_Ferry[];
 extern const u8 gText_SecretBase[];
 extern const u8 gText_Hideout[];

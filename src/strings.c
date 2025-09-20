@@ -1063,6 +1063,7 @@ const u8 gText_Alola[] = _("ALOLA");
 const u8 gText_Galar[] = _("GALAR");
 const u8 gText_Hisui[] = _("HISUI");
 const u8 gText_Paldea[] = _("PALDEA");
+const u8 gText_SeviiIslands[] = _("SEVII ISLANDS");
 const u8 gText_OhABite[] = _("Oh! A bite!");
 const u8 gText_PokemonOnHook[] = _("A POKéMON's on the hook!{PAUSE_UNTIL_PRESS}");
 const u8 gText_NotEvenANibble[] = _("Not even a nibble…{PAUSE_UNTIL_PRESS}");

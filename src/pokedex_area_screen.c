@@ -672,10 +672,18 @@ static void AddTimeOfDayLabels(void)
 
 static void ShowEncounterInfoLabel(void)
 {
+    const u8 *regionName = GetRegionName(GetCurrentRegion());
     const u8 *gText_TimeOfDay = GetTimeOfDayTextWithButton(gAreaTimeOfDay);
-    int stringXPos = GetStringCenterAlignXOffset(FONT_NORMAL, gText_TimeOfDay, 64);
+    u8 combinedText[64]; // Buffer to hold combined text
+    
+    // Combine region name and time of day, e.g., "HOENN - Morning"
+    StringCopy(combinedText, regionName);
+    StringAppend(combinedText, gText_Dash);
+    StringAppend(combinedText, gText_TimeOfDay);
+    
+    int stringXPos = GetStringCenterAlignXOffset(FONT_NORMAL, combinedText, 64);
 
-    PrintAreaLabelText(gText_TimeOfDay, DEX_AREA_LABEL_TIME_OF_DAY, stringXPos);
+    PrintAreaLabelText(combinedText, DEX_AREA_LABEL_TIME_OF_DAY, stringXPos);
 }
 
 static void ShowAreaUnknownLabel(void)
