@@ -17,9 +17,7 @@ PalletTown_OnTransition::
 	end
 
 PalletTown_EventScript_TryReadySignLady::
-// FIXME undefined reference: 	goto_if_unset FLAG_TEMP_1, EventScript_Return
 // Replaced FLAG_OPENED_START_MENU with FLAG_TEMP_1
-// FIXME undefined reference: 	goto_if_ge VAR_TEMP_0, 1, EventScript_Return
 // Replaced VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY with VAR_TEMP_0
 	setvar VAR_TEMP_0, 1
 // Replaced VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY with VAR_TEMP_0
@@ -60,7 +58,6 @@ PalletTown_EventScript_OakRatingScene::
 // Replaced FLAG_WORLD_MAP_ONE_ISLAND with FLAG_TEMP_1
 	msgbox PalletTown_Text_OakLetMeSeePokedex
 	setvar VAR_0x8004, 0
-// FIXME undefined reference: 	specialvar VAR_RESULT, GetPokedexCount
 	copyvar VAR_0x8008, VAR_0x8005
 	copyvar VAR_0x8009, VAR_0x8006
 	buffernumberstring STR_VAR_1, VAR_0x8008

@@ -780,7 +780,6 @@ PalletTown_ProfessorOaksLab_Movement_OakWalkToDeskSouth::
 
 PalletTown_ProfessorOaksLab_EventScript_RatePokedexOrTryGiveBalls::
 	setvar VAR_0x8004, 0
-// FIXME undefined reference: 	specialvar VAR_RESULT, GetPokedexCount
 	copyvar VAR_0x8008, VAR_0x8005
 	copyvar VAR_0x8009, VAR_0x8006
 	buffernumberstring STR_VAR_1, VAR_0x8008
