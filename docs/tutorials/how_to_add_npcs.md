@@ -101,8 +101,9 @@ NPCs are added to maps through the `object_events` array in the map's JSON file.
 
 ### 2. Creating NPC Scripts
 
-Add the interaction script to `data/maps/YourMapName/scripts.inc`:
+Add the interaction script to your map's script files. You can use either traditional assembly or modern Poryscript syntax:
 
+#### Assembly Version (`data/maps/YourMapName/scripts.inc`)
 ```assembly
 YourMapName_EventScript_HelpfulPerson::
 	msgbox YourMapName_Text_HelpfulPerson_Greeting, MSGBOX_NPC
@@ -112,6 +113,13 @@ YourMapName_Text_HelpfulPerson_Greeting:
 	.string "Hello there! Welcome to our town!\p"
 	.string "The POKéMON CENTER is just north\n"
 	.string "of here if you need healing.$"
+```
+
+#### Poryscript Version (`data/maps/YourMapName/scripts.pory`)
+```poryscript
+script YourMapName_EventScript_HelpfulPerson {
+    msgbox("Hello there! Welcome to our town!\pThe POKéMON CENTER is just north of here if you need healing.", MSGBOX_NPC)
+}
 ```
 
 #### Basic Message Types:
@@ -144,6 +152,7 @@ Common NPC graphics include:
 
 ### Item-Giving NPCs
 
+#### Assembly Version
 ```assembly
 YourMapName_EventScript_ItemGiver::
 	checkflag FLAG_RECEIVED_POTION_FROM_NPC
@@ -178,6 +187,23 @@ YourMapName_Text_ItemGiver_BagFull:
 	.string "you have space!$"
 ```
 
+#### Poryscript Version  
+```poryscript
+script YourMapName_EventScript_ItemGiver {
+    if (flag(FLAG_RECEIVED_POTION_FROM_NPC)) {
+        msgbox("I hope that POTION served you well!", MSGBOX_NPC)
+    } else {
+        msgbox("You look like you could use this POTION. Take it!", MSGBOX_NPC)
+        if (giveitem(ITEM_POTION)) {
+            setflag(FLAG_RECEIVED_POTION_FROM_NPC)
+            msgbox("Use it wisely!", MSGBOX_NPC)
+        } else {
+            msgbox("Oh, your BAG is full. Come back when you have space!", MSGBOX_NPC)
+        }
+    }
+}
+```
+
 ### Conditional NPCs
 
 NPCs that appear/disappear based on story progress:
@@ -202,6 +228,7 @@ When `FLAG_HIDE_SCIENTIST_UNTIL_QUEST_DONE` is set, the NPC will be invisible.
 
 ### Interactive Yes/No NPCs
 
+#### Assembly Version
 ```assembly
 YourMapName_EventScript_QuestionNPC::
 	msgbox YourMapName_Text_QuestionNPC_Question, MSGBOX_YESNO
@@ -225,6 +252,18 @@ YourMapName_Text_QuestionNPC_Yes:
 
 YourMapName_Text_QuestionNPC_No:
 	.string "Okay, maybe another time!$"
+```
+
+#### Poryscript Version
+```poryscript
+script YourMapName_EventScript_QuestionNPC {
+    if (msgbox("Would you like to hear about type effectiveness?", MSGBOX_YESNO) == YES) {
+        msgbox("Great! Fire is super effective against Grass-type POKéMON!", MSGBOX_NPC)
+        // Do something when player says yes
+    } else {
+        msgbox("Okay, maybe another time!", MSGBOX_NPC)
+    }
+}
 ```
 
 ### Moving NPCs with Scripts

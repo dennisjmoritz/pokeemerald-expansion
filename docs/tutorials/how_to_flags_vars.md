@@ -128,6 +128,8 @@ These persist throughout the save file:
 ### 3. Using Flags
 
 #### Setting and Clearing Flags
+
+**Assembly:**
 ```assembly
 # Set a flag (make it TRUE)
 setflag FLAG_RECEIVED_POKEDEX
@@ -139,7 +141,21 @@ clearflag FLAG_HIDE_LITTLEROOT_TOWN_MOM
 toggleflag FLAG_TOGGLE_EXAMPLE
 ```
 
+**Poryscript:**
+```poryscript
+// Set a flag (make it TRUE)
+setflag(FLAG_RECEIVED_POKEDEX)
+
+// Clear a flag (make it FALSE)  
+clearflag(FLAG_HIDE_LITTLEROOT_TOWN_MOM)
+
+// Toggle a flag (flip its state)
+toggleflag(FLAG_TOGGLE_EXAMPLE)
+```
+
 #### Checking Flags
+
+**Assembly:**
 ```assembly
 # Check if flag is set
 checkflag FLAG_DEFEATED_ROXANNE
@@ -154,9 +170,30 @@ goto_if_unset Script_OneBadge
 # Player has at least 2 badges...
 ```
 
+**Poryscript:**
+```poryscript
+// Check if flag is set
+if (flag(FLAG_DEFEATED_ROXANNE)) {
+    // Post-gym battle logic
+} else {
+    // Pre-gym battle logic
+}
+
+// Multiple flag checks
+if (!flag(FLAG_BADGE01_GET)) {
+    // No badges logic
+} elif (!flag(FLAG_BADGE02_GET)) {
+    // One badge logic  
+} else {
+    // Player has at least 2 badges...
+}
+```
+
 #### Common Flag Patterns
 
 **Item Giving with Flag Protection:**
+
+*Assembly:*
 ```assembly
 Script_GivePotion::
     checkflag FLAG_RECEIVED_FREE_POTION
@@ -170,6 +207,20 @@ Script_GivePotion::
 Script_AlreadyReceived::
     msgbox Text_AlreadyGavePotion, MSGBOX_NPC
     end
+```
+
+*Poryscript:*
+```poryscript
+script Script_GivePotion {
+    if (flag(FLAG_RECEIVED_FREE_POTION)) {
+        msgbox("I already gave you a POTION!", MSGBOX_NPC)
+    } else {
+        msgbox("Here, take this POTION!", MSGBOX_NPC)
+        giveitem(ITEM_POTION)
+        setflag(FLAG_RECEIVED_FREE_POTION)
+        msgbox("Use it well!", MSGBOX_NPC)
+    }
+}
 ```
 
 **NPC Hide/Show Logic:**
@@ -259,6 +310,8 @@ Persist throughout the save file:
 ### 6. Using Variables
 
 #### Setting Variable Values
+
+**Assembly:**
 ```assembly
 # Set variable to specific value
 setvar VAR_STORY_PROGRESSION, 5
@@ -273,7 +326,24 @@ subvar VAR_REPEL_STEP_COUNT, 1
 copyvar VAR_TEMP_0, VAR_STORY_PROGRESSION
 ```
 
+**Poryscript:**
+```poryscript
+// Set variable to specific value
+setvar(VAR_STORY_PROGRESSION, 5)
+
+// Add to variable (increment)
+addvar(VAR_POKEMON_CAUGHT, 1)
+
+// Subtract from variable
+subvar(VAR_REPEL_STEP_COUNT, 1)
+
+// Copy one variable to another
+setvar(VAR_TEMP_0, var(VAR_STORY_PROGRESSION))
+```
+
 #### Checking Variable Values  
+
+**Assembly:**
 ```assembly
 # Check if variable equals specific value
 checkvar VAR_STORY_PROGRESSION
@@ -285,6 +355,27 @@ goto_if_gt 5, Script_HighValue      # Greater than 5
 goto_if_lt 3, Script_LowValue       # Less than 3
 goto_if_ge 10, Script_AtLeast10     # Greater than or equal to 10
 goto_if_le 2, Script_AtMost2        # Less than or equal to 2
+```
+
+**Poryscript:**
+```poryscript
+// Check variable values with if statements
+if (var(VAR_STORY_PROGRESSION) == 1) {
+    // Story stage 1 logic
+} elif (var(VAR_STORY_PROGRESSION) != 1) {
+    // Not story stage 1 logic
+}
+
+// Comparison operators
+if (var(VAR_STORY_PROGRESSION) > 5) {
+    // High value logic
+} elif (var(VAR_STORY_PROGRESSION) < 3) {
+    // Low value logic
+} elif (var(VAR_STORY_PROGRESSION) >= 10) {
+    // At least 10 logic
+} elif (var(VAR_STORY_PROGRESSION) <= 2) {
+    // At most 2 logic
+}
 ```
 
 #### Variable Comparison with Other Variables
@@ -304,6 +395,7 @@ subvar VAR_TEMP_0, VAR_TEMP_1    # VAR_TEMP_0 -= VAR_TEMP_1
 
 Use a main story progression variable to track game state:
 
+**Assembly:**
 ```assembly
 # Early in the game
 setvar VAR_STORY_PROGRESSION, 1  # Got starter Pokemon
@@ -324,10 +416,28 @@ NPC_EventScript_ReactToStory::
     end
 ```
 
+**Poryscript:**
+```poryscript
+// NPCs react based on story stage
+script NPC_EventScript_ReactToStory {
+    switch (var(VAR_STORY_PROGRESSION)) {
+        case 1:
+            msgbox("You just started your journey! How exciting!", MSGBOX_NPC)
+        case 2:
+            msgbox("I heard you defeated the first GYM LEADER!", MSGBOX_NPC)
+        case 3:
+            msgbox("Welcome to our city! You've come far!", MSGBOX_NPC)
+        default:
+            msgbox("Hello there, trainer!", MSGBOX_NPC)
+    }
+}
+```
+
 ### Achievement and Counter Systems
 
 Track player achievements and statistics:
 
+**Assembly:**
 ```assembly
 # Pokemon catching counter
 Script_CaughtPokemon::
@@ -342,6 +452,26 @@ Script_Caught10Pokemon::
     msgbox Text_Caught10Pokemon, MSGBOX_NPC
     giveitem ITEM_GREAT_BALL, 5
     end
+```
+
+**Poryscript:**
+```poryscript
+// Pokemon catching counter
+script Script_CaughtPokemon {
+    addvar(VAR_POKEMON_CAUGHT, 1)
+    var caught = var(VAR_POKEMON_CAUGHT)
+    
+    if (caught == 10) {
+        msgbox("Congratulations! You've caught 10 POKéMON!", MSGBOX_NPC)
+        giveitem(ITEM_GREAT_BALL, 5)
+    } elif (caught == 50) {
+        msgbox("Amazing! 50 POKéMON caught!", MSGBOX_NPC)
+        giveitem(ITEM_ULTRA_BALL, 10)
+    } elif (caught == 150) {
+        msgbox("Incredible! You're a true POKéMON MASTER!", MSGBOX_NPC)
+        giveitem(ITEM_MASTER_BALL, 1)
+    }
+}
 ```
 
 ### Complex Conditional Logic

@@ -165,8 +165,9 @@ Key trainer-specific fields:
 
 ### 4. Create Battle Script
 
-Add the battle script to your map's `scripts.inc`:
+Add the battle script to your map's script files:
 
+#### Assembly Version (`scripts.inc`)
 ```assembly
 Route101_EventScript_Tommy::
 	trainerbattle_single TRAINER_ROUTE_101_YOUNGSTER, Route101_Text_Tommy_Intro, Route101_Text_Tommy_Defeat
@@ -184,6 +185,16 @@ Route101_Text_Tommy_PostBattle:
 	.string "I need to train my POKéMON more.\p"
 	.string "The tall grass is full of wild\n"
 	.string "POKéMON. Try looking there!$"
+```
+
+#### Poryscript Version (`scripts.pory`)
+```poryscript
+script Route101_EventScript_Tommy {
+    trainerbattle_single(TRAINER_ROUTE_101_YOUNGSTER,
+        "Hey! I just caught some POKéMON! Let's battle!",
+        "Wow, you're really strong!")
+    msgbox("I need to train my POKéMON more.\pThe tall grass is full of wild POKéMON. Try looking there!", MSGBOX_NPC)
+}
 ```
 
 ## Advanced Trainer Features
@@ -211,11 +222,23 @@ Ability: Minus
 
 For double battles, use `trainerbattle_double` in scripts:
 
+#### Assembly Version
 ```assembly
 Route103_EventScript_Twins::
 	trainerbattle_double TRAINER_TWINS_AMY_LIV, Route103_Text_Twins_Intro, Route103_Text_Twins_Defeat, Route103_Text_Twins_NotEnoughPokemon
 	msgbox Route103_Text_Twins_PostBattle, MSGBOX_NPC
 	end
+```
+
+#### Poryscript Version  
+```poryscript
+script Route103_EventScript_Twins {
+    trainerbattle_double(TRAINER_TWINS_AMY_LIV,
+        "We're twins! Let's battle together!",
+        "You're so strong!",
+        "You need two POKéMON to battle us!")
+    msgbox("We'll get stronger and challenge you again!", MSGBOX_NPC)
+}
 ```
 
 ### Gym Leader Style Trainers

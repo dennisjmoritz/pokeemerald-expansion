@@ -123,8 +123,9 @@ Create the map configuration file at `data/maps/YourMapName/map.json`:
 
 ### 3. Adding Map Scripts
 
-Create `data/maps/YourMapName/scripts.inc` for interactive elements:
+Create scripts for interactive elements. You can use either assembly or Poryscript:
 
+#### Assembly Version (`data/maps/YourMapName/scripts.inc`)
 ```assembly
 YourMapName_MapScripts::
 	map_script_on_load YourMapName_OnLoad
@@ -147,6 +148,27 @@ YourMapName_EventScript_NPC::
 # Text definitions
 YourMapName_Text_Greeting:
 	.string "Hello! Welcome to this new area!$"
+```
+
+#### Poryscript Version (`data/maps/YourMapName/scripts.pory`)
+```poryscript
+mapscripts YourMapName_MapScripts {
+    MAP_SCRIPT_ON_LOAD: YourMapName_OnLoad
+    MAP_SCRIPT_ON_TRANSITION: YourMapName_OnTransition
+}
+
+script YourMapName_OnLoad {
+    // Code to run when map loads
+}
+
+script YourMapName_OnTransition {
+    // Code to run during map transition
+}
+
+// Example NPC script
+script YourMapName_EventScript_NPC {
+    msgbox("Hello! Welcome to this new area!", MSGBOX_NPC)
+}
 ```
 
 #### Adding NPCs to Your Map
