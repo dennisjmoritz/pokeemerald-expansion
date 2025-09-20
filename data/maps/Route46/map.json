@@ -50,7 +50,7 @@
   ],
   "coord_events": [],
   "bg_events": [],
+  "comment": "Changed music from MUS_ROUTE36 to MUS_ROUTE101 because unavailable",
   "floor_number": "",
-  "phone_service": "",
-  "comment": "Changed music from MUS_ROUTE36 to MUS_ROUTE101 because unavailable"
+  "phone_service": ""
 }

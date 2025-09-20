@@ -7,7 +7,7 @@ SootopolisCity_Mart_EventScript_Clerk::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemart SootopolisCity_Mart_Pokemart
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

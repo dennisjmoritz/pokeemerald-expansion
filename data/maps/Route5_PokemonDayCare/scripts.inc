@@ -8,7 +8,7 @@ Route5_PokemonDayCare_Text_WantMeToRaiseMon::
 	.string "Would you like me to raise one of\n"
 	.string "your POKéMON?$"
 
-Route5_PokemonDayCare_Text_ComeAgain::
+// FIXME undefined reference: Route5_PokemonDayCare_Text_ComeAgain::
 	.string "Come again.$"
 
 Route5_PokemonDayCare_Text_WhichMonShouldIRaise::
@@ -46,7 +46,7 @@ Route5_PokemonDayCare_Text_OnlyHaveOneMonWithYou::
 	.string "Oh? You only have one POKéMON\n"
 	.string "with you.$"
 
-Route5_PokemonDayCare_Text_WhatWillYouBattleWith::
+// FIXME undefined reference: Route5_PokemonDayCare_Text_WhatWillYouBattleWith::
 	.string "If you leave me that POKéMON,\n"
 	.string "what will you battle with?$"
 

@@ -24,7 +24,7 @@ Route8_WestEntrance_EventScript_GuardTriggerBottom::
 	end
 
 Route8_WestEntrance_EventScript_GuardTrigger::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	goto_if_set FLAG_TEMP_1, Route8_WestEntrance_EventScript_GiveTea

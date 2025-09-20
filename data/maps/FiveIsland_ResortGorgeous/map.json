@@ -31,7 +31,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "FiveIsland_ResortGorgeous_EventScript_Daisy",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "FiveIsland_ResortGorgeous_EventScript_Daisy",
       "flag": "0"
     },
     {
@@ -45,7 +47,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "FiveIsland_ResortGorgeous_EventScript_Celina",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "FiveIsland_ResortGorgeous_EventScript_Celina",
       "flag": "0"
     },
     {
@@ -59,7 +63,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "FiveIsland_ResortGorgeous_EventScript_Rayna",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "FiveIsland_ResortGorgeous_EventScript_Rayna",
       "flag": "0"
     },
     {
@@ -73,7 +79,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "FiveIsland_ResortGorgeous_EventScript_Jacki",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "FiveIsland_ResortGorgeous_EventScript_Jacki",
       "flag": "0"
     },
     {
@@ -87,7 +95,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "FiveIsland_ResortGorgeous_EventScript_Gillian",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "FiveIsland_ResortGorgeous_EventScript_Gillian",
       "flag": "0"
     },
     {
@@ -101,7 +111,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "FiveIsland_ResortGorgeous_EventScript_Destin",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "FiveIsland_ResortGorgeous_EventScript_Destin",
       "flag": "0"
     },
     {
@@ -115,7 +127,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "FiveIsland_ResortGorgeous_EventScript_Toby",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "FiveIsland_ResortGorgeous_EventScript_Toby",
       "flag": "0"
     },
     {

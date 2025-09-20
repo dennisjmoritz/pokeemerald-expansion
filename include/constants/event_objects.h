@@ -512,6 +512,17 @@
 #define OBJ_EVENT_PAL_TAG_RS_MAY                  0x1123
 #define OBJ_EVENT_PAL_TAG_DYNAMIC                 0x1124
 
+// Temporary mappings for FireRed object palettes until dedicated assets are ported.
+#define OBJ_EVENT_PAL_TAG_PLAYER_RED   OBJ_EVENT_PAL_TAG_RED_LEAF   // Uses Red/Leaf palette for Kanto Red
+#define OBJ_EVENT_PAL_TAG_PLAYER_GREEN OBJ_EVENT_PAL_TAG_RED_LEAF   // Uses Red/Leaf palette for Kanto Green
+#define OBJ_EVENT_PAL_TAG_NPC_BLUE     OBJ_EVENT_PAL_TAG_NPC_1      // Reuse NPC_1 palette for blue-uniform NPCs
+#define OBJ_EVENT_PAL_TAG_NPC_WHITE    OBJ_EVENT_PAL_TAG_NPC_4      // Reuse NPC_4 palette for white-uniform NPCs
+#define OBJ_EVENT_PAL_TAG_NPC_GREEN    OBJ_EVENT_PAL_TAG_NPC_3      // Reuse NPC_3 palette for green-uniform NPCs
+#define OBJ_EVENT_PAL_TAG_NPC_PINK     OBJ_EVENT_PAL_TAG_NPC_2      // Reuse NPC_2 palette for pink-uniform NPCs
+#define OBJ_EVENT_PAL_TAG_METEORITE    OBJ_EVENT_PAL_TAG_BIRTH_ISLAND_STONE // Placeholder palette for meteorite events
+#define OBJ_EVENT_PAL_TAG_SEAGALLOP    OBJ_EVENT_PAL_TAG_SSTIDAL    // Placeholder palette for Seagallop ferry
+#define OBJ_EVENT_PAL_TAG_SS_ANNE      OBJ_EVENT_PAL_TAG_SSTIDAL    // Placeholder palette for S.S. Anne
+
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla
 #define OBJ_EVENT_PAL_TAG_BALL_MASTER             0x1150

@@ -27,19 +27,19 @@ MtMoon_B2F_EventScript_Miguel::
 	faceplayer
 	goto_if_set FLAG_TEMP_1, MtMoon_B2F_EventScript_MiguelFossilPicked
 // Replaced FLAG_GOT_FOSSIL_FROM_MT_MOON with FLAG_TEMP_1
-	goto_if_defeated TRAINER_SUPER_NERD_MIGUEL, MtMoon_B2F_EventScript_MiguelGoPickFossil
+// FIXME undefined reference: 	goto_if_defeated TRAINER_SUPER_NERD_MIGUEL, MtMoon_B2F_EventScript_MiguelGoPickFossil
 	call MtMoon_B2F_EventScript_BattleMiguel
 	release
 	end
 
 MtMoon_B2F_EventScript_BattleMiguel::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	message MtMoon_B2F_Text_MiguelIntro
 	waitmessage
 	playbgm MUS_RG_ENCOUNTER_GYM_LEADER, 0
 	waitbuttonpress
 	setvar VAR_LAST_TALKED, LOCALID_MIGUEL
-	trainerbattle_no_intro TRAINER_SUPER_NERD_MIGUEL, MtMoon_B2F_Text_MiguelDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_SUPER_NERD_MIGUEL, MtMoon_B2F_Text_MiguelDefeat
 	setvar VAR_TEMP_0, 1
 // Replaced VAR_MAP_SCENE_MT_MOON_B2F with VAR_TEMP_0
 	msgbox MtMoon_B2F_Text_WellEachTakeAFossil
@@ -64,13 +64,13 @@ MtMoon_B2F_EventScript_DomeFossil::
 	msgbox MtMoon_B2F_Text_ObtainedDomeFossil, MSGBOX_DEFAULT
 // 	giveitem ITEM_DOME_FOSSIL, 1, MUS_OBTAIN_KEY_ITEM
 	closemessage
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	delay 10
 	applymovement LOCALID_MIGUEL, MtMoon_B2F_Movement_MiguelToHelixFossil
 	waitmovement 0
 	copyobjectxytoperm LOCALID_MIGUEL
-	textcolor NPC_TEXT_COLOR_MALE
-	playfanfare MUS_OBTAIN_KEY_ITEM
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	playfanfare MUS_OBTAIN_KEY_ITEM
 	message MtMoon_B2F_Text_ThenThisFossilIsMine
 	waitmessage
 	waitfanfare
@@ -98,13 +98,13 @@ MtMoon_B2F_EventScript_HelixFossil::
 	msgbox MtMoon_B2F_Text_ObtainedHelixFossil, MSGBOX_DEFAULT
 // 	giveitem ITEM_HELIX_FOSSIL, 1, MUS_OBTAIN_KEY_ITEM
 	closemessage
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	delay 10
 	applymovement LOCALID_MIGUEL, MtMoon_B2F_Movement_MiguelToDomeFossil
 	waitmovement 0
 	copyobjectxytoperm LOCALID_MIGUEL
-	textcolor NPC_TEXT_COLOR_MALE
-	playfanfare MUS_OBTAIN_KEY_ITEM
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	playfanfare MUS_OBTAIN_KEY_ITEM
 	message MtMoon_B2F_Text_ThenThisFossilIsMine
 	waitmessage
 	waitfanfare
@@ -127,22 +127,22 @@ MtMoon_B2F_Movement_MiguelToDomeFossil::
 	step_end
 
 MtMoon_B2F_EventScript_Grunt1::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT, MtMoon_B2F_Text_Grunt1Intro, MtMoon_B2F_Text_Grunt1Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT, MtMoon_B2F_Text_Grunt1Intro, MtMoon_B2F_Text_Grunt1Defeat
 	msgbox MtMoon_B2F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtMoon_B2F_EventScript_Grunt2::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_2, MtMoon_B2F_Text_Grunt2Intro, MtMoon_B2F_Text_Grunt2Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_2, MtMoon_B2F_Text_Grunt2Intro, MtMoon_B2F_Text_Grunt2Defeat
 	msgbox MtMoon_B2F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtMoon_B2F_EventScript_Grunt3::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_3, MtMoon_B2F_Text_Grunt3Intro, MtMoon_B2F_Text_Grunt3Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_3, MtMoon_B2F_Text_Grunt3Intro, MtMoon_B2F_Text_Grunt3Defeat
 	msgbox MtMoon_B2F_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtMoon_B2F_EventScript_Grunt4::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_4, MtMoon_B2F_Text_Grunt4Intro, MtMoon_B2F_Text_Grunt4Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_4, MtMoon_B2F_Text_Grunt4Intro, MtMoon_B2F_Text_Grunt4Defeat
 	msgbox MtMoon_B2F_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
 	end
 

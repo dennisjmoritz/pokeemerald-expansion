@@ -5,7 +5,7 @@ VerdanturfTown_FriendshipRatersHouse_EventScript_FriendshipRater::
 	lock
 	faceplayer
 	msgbox VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou, MSGBOX_DEFAULT
-	specialvar VAR_RESULT, GetLeadMonFriendshipScore
+// FIXME undefined reference: 	specialvar VAR_RESULT, GetLeadMonFriendshipScore
 	switch VAR_RESULT
 	case FRIENDSHIP_NONE, VerdanturfTown_FriendshipRatersHouse_EventScript_DetestsYou
 	case FRIENDSHIP_1_TO_49, VerdanturfTown_FriendshipRatersHouse_EventScript_VeryWary

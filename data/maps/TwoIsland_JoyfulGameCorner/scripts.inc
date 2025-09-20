@@ -21,7 +21,7 @@ TwoIsland_JoyfulGameCorner_EventScript_SetLostelleReturnedPos::
 TwoIsland_JoyfulGameCorner_OnWarp::
 	map_script_2 VAR_TEMP_0, 2, TwoIsland_JoyfulGameCorner_EventScript_TurnPlayerNorth
 // Replaced VAR_MAP_SCENE_TWO_ISLAND_JOYFUL_GAME_CORNER with VAR_TEMP_0
-	map_script_2 VAR_CABLE_CLUB_STATE, USING_MINIGAME, EventScript_CheckTurnAttendant
+// FIXME undefined reference: 	map_script_2 VAR_CABLE_CLUB_STATE, USING_MINIGAME, EventScript_CheckTurnAttendant
 	.2byte 0
 
 TwoIsland_JoyfulGameCorner_EventScript_TurnPlayerNorth::
@@ -38,10 +38,10 @@ TwoIsland_JoyfulGameCorner_OnFrame::
 
 TwoIsland_JoyfulGameCorner_EventScript_FoundLostelleScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox TwoIsland_JoyfulGameCorner_Text_YouRescuedLostelle
-	textcolor NPC_TEXT_COLOR_FEMALE
-	special BufferBigGuyOrBigGirlString
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
+// FIXME undefined reference: 	special BufferBigGuyOrBigGirlString
 	msgbox TwoIsland_JoyfulGameCorner_Text_LostelleItsOkayDaddy
 	closemessage
 	applymovement LOCALID_JOYFUL_GAME_CORNER_LOSTELLE, Common_Movement_WalkInPlaceFasterDown
@@ -53,7 +53,7 @@ TwoIsland_JoyfulGameCorner_EventScript_FoundLostelleScene::
 
 TwoIsland_JoyfulGameCorner_EventScript_HelpFindLostelleScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_JOYFUL_GAME_CORNER_DADDY, TwoIsland_JoyfulGameCorner_Movement_DaddyPacing
 	waitmovement 0
 	msgbox TwoIsland_JoyfulGameCorner_Text_WhereHasLostelleGottenTo
@@ -71,11 +71,11 @@ TwoIsland_JoyfulGameCorner_EventScript_HelpFindLostelleScene::
 	waitmovement 0
 	msgbox TwoIsland_JoyfulGameCorner_Text_PleaseHelpFindLostelle
 	closemessage
-	playse SE_RS_DOOR
+// FIXME undefined reference: 	playse SE_RS_DOOR
 	waitse
 	applymovement LOCALID_PLAYER, TwoIsland_JoyfulGameCorner_Movement_PlayerFaceDaddy
 	waitmovement 0
-	playbgm MUS_ENCOUNTER_BOY, 0
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_BOY, 0
 	addobject LOCALID_JOYFUL_GAME_CORNER_BIKER
 	applymovement LOCALID_JOYFUL_GAME_CORNER_BIKER, TwoIsland_JoyfulGameCorner_Movement_BikerLookAround
 	waitmovement 0
@@ -133,7 +133,7 @@ TwoIsland_JoyfulGameCorner_Movement_BikerLookAround::
 TwoIsland_JoyfulGameCorner_EventScript_InfoMan::
 	lock
 	faceplayer
-	goto_if_eq VAR_TEMP_0, 4, JoyfulGameCorner_EventScript_InfoMan2
+// FIXME undefined reference: 	goto_if_eq VAR_TEMP_0, 4, JoyfulGameCorner_EventScript_InfoMan2
 // Replaced VAR_MAP_SCENE_TWO_ISLAND_JOYFUL_GAME_CORNER with VAR_TEMP_0
 	goto_if_set FLAG_TEMP_1, TwoIsland_JoyfulGameCorner_EventScript_GetGamesGoingSoon
 // Replaced FLAG_RESCUED_LOSTELLE with FLAG_TEMP_1
@@ -150,7 +150,7 @@ TwoIsland_JoyfulGameCorner_EventScript_GetGamesGoingSoon::
 TwoIsland_JoyfulGameCorner_EventScript_LostellesDaddy::
 	lock
 	faceplayer
-	goto_if_eq VAR_TEMP_0, 4, JoyfulGameCorner_EventScript_MinigameAttendant
+// FIXME undefined reference: 	goto_if_eq VAR_TEMP_0, 4, JoyfulGameCorner_EventScript_MinigameAttendant
 // Replaced VAR_MAP_SCENE_TWO_ISLAND_JOYFUL_GAME_CORNER with VAR_TEMP_0
 	goto_if_set FLAG_TEMP_1, TwoIsland_JoyfulGameCorner_EventScript_GetGameCornerRunning
 // Replaced FLAG_GOT_MOON_STONE_FROM_JOYFUL_GAME_CORNER with FLAG_TEMP_1
@@ -166,12 +166,12 @@ TwoIsland_JoyfulGameCorner_EventScript_GiveDaddyMeteorite::
 	msgbox TwoIsland_JoyfulGameCorner_Text_ThisIsForMe
 	setvar VAR_TEMP_0, 2
 // Replaced VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F with VAR_TEMP_0
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	playfanfare MUS_OBTAIN_TMHM
 	message TwoIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy
 	waitmessage
 	waitfanfare
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	removeitem ITEM_METEORITE
 	msgbox TwoIsland_JoyfulGameCorner_Text_OhThisIsFromBill
 	goto TwoIsland_JoyfulGameCorner_EventScript_ReceiveMoonStone

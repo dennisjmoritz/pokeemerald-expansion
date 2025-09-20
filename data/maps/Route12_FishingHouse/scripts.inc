@@ -31,17 +31,17 @@ Route12_FishingHouse_EventScript_NoRoomForSuperRod::
 
 Route12_FishingHouse_EventScript_CheckMagikarpRecord::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	setvar VAR_0x8004, SPECIES_MAGIKARP
-	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
+// FIXME undefined reference: 	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
 	goto_if_eq VAR_RESULT, FALSE, Route12_FishingHouse_EventScript_NoMagikarpInParty
-	special GetMagikarpSizeRecordInfo
+// FIXME undefined reference: 	special GetMagikarpSizeRecordInfo
 	msgbox Route12_FishingHouse_Text_OhMagikarpAllowMeToSee
 	special ChoosePartyMon
 	waitstate
 	copyvar VAR_RESULT, VAR_0x8004
 	goto_if_ge VAR_RESULT, PARTY_SIZE, Route12_FishingHouse_EventScript_CancelShowMon
-	special CompareMagikarpSize
+// FIXME undefined reference: 	special CompareMagikarpSize
 	goto_if_eq VAR_RESULT, 1, Route12_FishingHouse_EventScript_NotMagikarp
 	goto_if_eq VAR_RESULT, 2, Route12_FishingHouse_EventScript_NotRecordMagikarp
 	goto_if_eq VAR_RESULT, 3, Route12_FishingHouse_EventScript_NewRecordMagikarp
@@ -101,7 +101,7 @@ Route12_FishingHouse_EventScript_MagikarpRecordSign::
 	end
 
 Route12_FishingHouse_EventScript_MagikarpRecordSignRecordSet::
-	special GetMagikarpSizeRecordInfo
+// FIXME undefined reference: 	special GetMagikarpSizeRecordInfo
 	msgbox Route12_FishingHouse_Text_MostGiganticMagikarpXInches
 	releaseall
 	end

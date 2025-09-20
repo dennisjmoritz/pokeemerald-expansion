@@ -26,7 +26,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 16,
       "y": 62,
@@ -40,7 +39,6 @@
       "flag": "FLAG_TEMP_14"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 15,
       "y": 69,
@@ -54,7 +52,6 @@
       "flag": "FLAG_TEMP_13"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 11,
       "y": 13,
@@ -68,7 +65,6 @@
       "flag": "FLAG_TEMP_15"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 18,
       "y": 26,
@@ -82,7 +78,6 @@
       "flag": "FLAG_TEMP_16"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 17,
       "y": 54,
@@ -92,12 +87,13 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route2_EventScript_ItemEther",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route2_EventScript_ItemEther",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 17,
       "y": 64,
@@ -107,7 +103,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route2_EventScript_ItemParalyzeHeal",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route2_EventScript_ItemParalyzeHeal",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },

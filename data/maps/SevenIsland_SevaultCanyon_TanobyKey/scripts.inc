@@ -99,22 +99,22 @@ SevenIsland_SevaultCanyon_TanobyKey_EventScript_SwitchPressed::
 	setvar VAR_0x8005, 1
 	setvar VAR_0x8006, 8
 	setvar VAR_0x8007, 3
-	special ShakeScreen
+// FIXME undefined reference: 	special ShakeScreen
 	delay 60
 	return
 
-SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolvedShakeScreen::
+// FIXME undefined reference: SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolvedShakeScreen::
 	setvar VAR_0x8004, 2
 	setvar VAR_0x8005, 2
 	setvar VAR_0x8006, 10
 	setvar VAR_0x8007, 3
-	special ShakeScreen
+// FIXME undefined reference: 	special ShakeScreen
 	delay 60
 	setvar VAR_0x8004, 3
 	setvar VAR_0x8005, 3
 	setvar VAR_0x8006, 12
 	setvar VAR_0x8007, 2
-	special ShakeScreen
+// FIXME undefined reference: 	special ShakeScreen
 	delay 60
 	playse SE_LAVARIDGE_FALL_WARP
 	waitse
@@ -125,7 +125,7 @@ SevenIsland_SevaultCanyon_TanobyKey_EventScript_SwitchAlreadyPressed::
 	end
 
 SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolved::
-	call SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolvedShakeScreen
+// FIXME undefined reference: 	call SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolvedShakeScreen
 	msgbox SevenIsland_SevaultCanyon_TanobyKey_Text_MysteriousRumbleFarAway
 	setflag FLAG_TEMP_1
 // Replaced FLAG_SYS_UNLOCKED_TANOBY_RUINS with FLAG_TEMP_1

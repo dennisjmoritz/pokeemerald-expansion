@@ -5,11 +5,11 @@ FourIsland_IcefallCave_1F_MapScripts::
 	.byte 0
 
 FourIsland_IcefallCave_1F_OnResume::
-	setstepcallback STEP_CB_ICE
+// FIXME undefined reference: 	setstepcallback STEP_CB_ICE
 	end
 
 FourIsland_IcefallCave_1F_OnLoad::
-	special SetIcefallCaveCrackedIceMetatiles
+// FIXME undefined reference: 	special SetIcefallCaveCrackedIceMetatiles
 	end
 
 FourIsland_IcefallCave_1F_OnFrame::

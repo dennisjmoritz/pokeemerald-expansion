@@ -3,9 +3,9 @@ SilphCo_3F_MapScripts::
 	.byte 0
 
 SilphCo_3F_OnLoad::
-	call_if_unset FLAG_TEMP_1, EventScript_Close3FDoor1
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close3FDoor1
 // Replaced FLAG_SILPH_3F_DOOR_1 with FLAG_TEMP_1
-	call_if_unset FLAG_TEMP_1, EventScript_Close3FDoor2
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close3FDoor2
 // Replaced FLAG_SILPH_3F_DOOR_2 with FLAG_TEMP_1
 	end
 
@@ -28,12 +28,12 @@ SilphCo_3F_EventScript_FloorSign::
 	end
 
 SilphCo_3F_EventScript_Jose::
-	trainerbattle_single TRAINER_SCIENTIST_JOSE, SilphCo_3F_Text_JoseIntro, SilphCo_3F_Text_JoseDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SCIENTIST_JOSE, SilphCo_3F_Text_JoseIntro, SilphCo_3F_Text_JoseDefeat
 	msgbox SilphCo_3F_Text_JosePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SilphCo_3F_EventScript_Grunt::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_25, SilphCo_3F_Text_GruntIntro, SilphCo_3F_Text_GruntDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_25, SilphCo_3F_Text_GruntIntro, SilphCo_3F_Text_GruntDefeat
 	msgbox SilphCo_3F_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
 	end
 

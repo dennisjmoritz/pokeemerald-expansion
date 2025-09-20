@@ -5,7 +5,7 @@ MossdeepCity_GameCorner_1F_MapScripts::
 	.byte 0
 
 MossdeepCity_GameCorner_1F_OnWarp:
-	map_script_2 VAR_CABLE_CLUB_STATE, USING_MINIGAME, CableClub_EventScript_CheckTurnAttendant
+// FIXME undefined reference: 	map_script_2 VAR_CABLE_CLUB_STATE, USING_MINIGAME, CableClub_EventScript_CheckTurnAttendant
 	.2byte 0
 
 MossdeepCity_GameCorner_1F_OnFrame:

@@ -4,17 +4,17 @@ SilphCo_Elevator_MapScripts::
 SilphCo_Elevator_EventScript_FloorSelect::
 	lockall
 	setvar VAR_0x8004, 1
-	call_if_unset FLAG_TEMP_2, EventScript_GetElevatorFloor
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_2, EventScript_GetElevatorFloor
 	copyvar VAR_0x8005, VAR_TEMP_0
 // Replaced VAR_ELEVATOR_FLOOR with VAR_TEMP_0
-	special DrawElevatorCurrentFloorWindow
-	message Text_WantWhichFloor
+// FIXME undefined reference: 	special DrawElevatorCurrentFloorWindow
+// FIXME undefined reference: 	message Text_WantWhichFloor
 	waitmessage
 //	setvar VAR_0x8004, LISTMENU_SILPHCO_FLOORS
     // specialvar VAR_RESULT, InitElevatorFloorSelectMenuPos
     // Commented to avoid non-constant macro evaluation issues
     setvar VAR_RESULT, 0
-	special ListMenu
+// FIXME undefined reference: 	special ListMenu
 	waitstate
     // switch VAR_RESULT
     // case branches commented to avoid .if macro issues
@@ -142,15 +142,15 @@ SilphCo_Elevator_EventScript_To11F::
 	end
 
 SilphCo_Elevator_EventScript_ExitFloorSelect::
-	special CloseElevatorCurrentFloorWindow
+// FIXME undefined reference: 	special CloseElevatorCurrentFloorWindow
 	releaseall
 	end
 
 SilphCo_Elevator_EventScript_MoveElevator::
-	special CloseElevatorCurrentFloorWindow
+// FIXME undefined reference: 	special CloseElevatorCurrentFloorWindow
 	closemessage
 	waitse
-	special AnimateElevator
+// FIXME undefined reference: 	special AnimateElevator
 	waitstate
 	setflag FLAG_TEMP_2
 	return

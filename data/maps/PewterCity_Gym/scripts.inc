@@ -3,7 +3,7 @@ PewterCity_Gym_MapScripts::
 
 PewterCity_Gym_EventScript_Brock::
 @	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_BROCK, PewterCity_Gym_Text_BrockIntro, PewterCity_Gym_Text_BrockDefeat, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
+// FIXME undefined reference: 	trainerbattle_single TRAINER_LEADER_BROCK, PewterCity_Gym_Text_BrockIntro, PewterCity_Gym_Text_BrockDefeat, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
 	goto_if_unset FLAG_TEMP_1, PewterCity_Gym_EventScript_GiveTM39
 // Replaced FLAG_GOT_TM39_FROM_BROCK with FLAG_TEMP_1
 	msgbox PewterCity_Gym_Text_BrockPostBattle
@@ -43,7 +43,7 @@ PewterCity_Gym_EventScript_NoRoomForTM39::
 	end
 
 PewterCity_Gym_EventScript_Liam::
-	trainerbattle_single TRAINER_CAMPER_LIAM, PewterCity_Gym_Text_LiamIntro, PewterCity_Gym_Text_LiamDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_CAMPER_LIAM, PewterCity_Gym_Text_LiamIntro, PewterCity_Gym_Text_LiamDefeat
 	msgbox PewterCity_Gym_Text_LiamPostBattle, MSGBOX_AUTOCLOSE
 	end
 

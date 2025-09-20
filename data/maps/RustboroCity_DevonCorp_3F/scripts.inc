@@ -57,7 +57,7 @@ RustboroCity_DevonCorp_3F_EventScript_MeetPresident::
 	setflag FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp, MSGBOX_DEFAULT
 	closemessage
-	call Common_EventScript_OutOfCenterPartyHeal
+// FIXME undefined reference: 	call Common_EventScript_OutOfCenterPartyHeal
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare, MSGBOX_DEFAULT
 	setflag FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND
 	clearflag FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND

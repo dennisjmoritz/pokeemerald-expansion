@@ -17,10 +17,10 @@ Route12_EventScript_Snorlax::
 	goto_if_unset FLAG_TEMP_1, Route12_EventScript_SnorlaxNoPokeFlute
 // Replaced FLAG_GOT_POKE_FLUTE with FLAG_TEMP_1
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	msgbox Text_WantToUsePokeFlute, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, Route12_EventScript_DontUsePokeFlute
-	call EventScript_AwakenSnorlax
+// FIXME undefined reference: 	call EventScript_AwakenSnorlax
 	setwildbattle SPECIES_SNORLAX, 30
 	waitse
 	playmoncry SPECIES_SNORLAX, CRY_MODE_ENCOUNTER

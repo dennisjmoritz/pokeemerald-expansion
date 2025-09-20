@@ -4,11 +4,11 @@ SilphCo_7F_MapScripts::
 	.byte 0
 
 SilphCo_7F_OnLoad::
-	call_if_unset FLAG_TEMP_1, EventScript_Close7FDoor1
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close7FDoor1
 // Replaced FLAG_SILPH_7F_DOOR_1 with FLAG_TEMP_1
-	call_if_unset FLAG_TEMP_1, EventScript_Close7FDoor2
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close7FDoor2
 // Replaced FLAG_SILPH_7F_DOOR_2 with FLAG_TEMP_1
-	call_if_unset FLAG_TEMP_1, EventScript_Close7FDoor3
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close7FDoor3
 // Replaced FLAG_SILPH_7F_DOOR_3 with FLAG_TEMP_1
 	end
 
@@ -34,8 +34,8 @@ SilphCo_7F_EventScript_RivalTriggerBottom::
 	end
 
 SilphCo_7F_EventScript_RivalScene::
-	textcolor NPC_TEXT_COLOR_MALE
-	playbgm MUS_ENCOUNTER_RIVAL, 0
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_RIVAL, 0
 	applymovement LOCALID_SILPH_CO_RIVAL, Common_Movement_ExclamationMark
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
@@ -51,7 +51,7 @@ SilphCo_7F_EventScript_RivalScene::
 	call_if_eq VAR_STARTER_MON, 0, SilphCo_7F_EventScript_RivalCharmander
 	msgbox SilphCo_7F_Text_RivalPostBattle
 	closemessage
-	playbgm MUS_RIVAL_EXIT, 0
+// FIXME undefined reference: 	playbgm MUS_RIVAL_EXIT, 0
 	call_if_eq VAR_TEMP_1, 0, SilphCo_7F_EventScript_RivalExitTop
 	call_if_eq VAR_TEMP_1, 1, SilphCo_7F_EventScript_RivalExitBottom
 	playse SE_WARP_IN
@@ -73,15 +73,15 @@ SilphCo_7F_EventScript_RivalApproachBottom::
 	return
 
 SilphCo_7F_EventScript_RivalSquirtle::
-	trainerbattle_no_intro TRAINER_RIVAL_SILPH_SQUIRTLE, SilphCo_7F_Text_RivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_SILPH_SQUIRTLE, SilphCo_7F_Text_RivalDefeat
 	return
 
 SilphCo_7F_EventScript_RivalBulbasaur::
-	trainerbattle_no_intro TRAINER_RIVAL_SILPH_BULBASAUR, SilphCo_7F_Text_RivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_SILPH_BULBASAUR, SilphCo_7F_Text_RivalDefeat
 	return
 
 SilphCo_7F_EventScript_RivalCharmander::
-	trainerbattle_no_intro TRAINER_RIVAL_SILPH_CHARMANDER, SilphCo_7F_Text_RivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_SILPH_CHARMANDER, SilphCo_7F_Text_RivalDefeat
 	return
 
 SilphCo_7F_EventScript_RivalExitTop::
@@ -127,44 +127,44 @@ SilphCo_7F_EventScript_LaprasGuy::
 	givemon SPECIES_LAPRAS, 25
 	goto_if_eq VAR_RESULT, 0, SilphCo_7F_EventScript_ReceiveLaprasParty
 	goto_if_eq VAR_RESULT, 1, SilphCo_7F_EventScript_ReceiveLaprasPC
-	goto_if_eq VAR_RESULT, 2, EventScript_NoMoreRoomForPokemon
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, 2, EventScript_NoMoreRoomForPokemon
 	release
 	end
 
 SilphCo_7F_EventScript_ReceiveLaprasParty::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	playfanfare MUS_LEVEL_UP
 	message SilphCo_7F_Text_ObtainedLaprasFromEmployee
 	waitmessage
 	waitfanfare
 	bufferspeciesname STR_VAR_1, SPECIES_LAPRAS
-	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+// FIXME undefined reference: 	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SilphCo_7F_EventScript_EndReceiveLapras
-	call EventScript_GetGiftMonPartySlot
-	call EventScript_ChangePokemonNickname
+// FIXME undefined reference: 	call EventScript_GetGiftMonPartySlot
+// FIXME undefined reference: 	call EventScript_ChangePokemonNickname
 	goto SilphCo_7F_EventScript_EndReceiveLapras
 	end
 
 SilphCo_7F_EventScript_ReceiveLaprasPC::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	playfanfare MUS_LEVEL_UP
 	message SilphCo_7F_Text_ObtainedLaprasFromEmployee
 	waitmessage
 	waitfanfare
 	bufferspeciesname STR_VAR_1, SPECIES_LAPRAS
-	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+// FIXME undefined reference: 	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SilphCo_7F_EventScript_LaprasTransferredToPC
-	call EventScript_NameReceivedBoxMon
+// FIXME undefined reference: 	call EventScript_NameReceivedBoxMon
 	goto SilphCo_7F_EventScript_LaprasTransferredToPC
 	end
 
 SilphCo_7F_EventScript_LaprasTransferredToPC::
-	call EventScript_TransferredToPC
+// FIXME undefined reference: 	call EventScript_TransferredToPC
 	goto SilphCo_7F_EventScript_EndReceiveLapras
 	end
 
 SilphCo_7F_EventScript_EndReceiveLapras::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox SilphCo_7F_Text_ExplainLapras
 	setflag FLAG_TEMP_1
 // Replaced FLAG_GOT_LAPRAS_FROM_SILPH with FLAG_TEMP_1
@@ -223,22 +223,22 @@ SilphCo_7F_EventScript_FloorSign::
 	end
 
 SilphCo_7F_EventScript_Joshua::
-	trainerbattle_single TRAINER_SCIENTIST_JOSHUA, SilphCo_7F_Text_JoshuaIntro, SilphCo_7F_Text_JoshuaDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SCIENTIST_JOSHUA, SilphCo_7F_Text_JoshuaIntro, SilphCo_7F_Text_JoshuaDefeat
 	msgbox SilphCo_7F_Text_JoshuaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SilphCo_7F_EventScript_Grunt1::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_33, SilphCo_7F_Text_Grunt1Intro, SilphCo_7F_Text_Grunt1Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_33, SilphCo_7F_Text_Grunt1Intro, SilphCo_7F_Text_Grunt1Defeat
 	msgbox SilphCo_7F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SilphCo_7F_EventScript_Grunt2::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_34, SilphCo_7F_Text_Grunt2Intro, SilphCo_7F_Text_Grunt2Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_34, SilphCo_7F_Text_Grunt2Intro, SilphCo_7F_Text_Grunt2Defeat
 	msgbox SilphCo_7F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SilphCo_7F_EventScript_Grunt3::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_35, SilphCo_7F_Text_Grunt3Intro, SilphCo_7F_Text_Grunt3Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_35, SilphCo_7F_Text_Grunt3Intro, SilphCo_7F_Text_Grunt3Defeat
 	msgbox SilphCo_7F_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
 	end
 

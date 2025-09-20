@@ -10,7 +10,7 @@ Route11_EastEntrance_1F_EventScript_BottomGuard::
 	end
 
 @ Unclear where this is originally from
-Route11_EastEntrance_1F_Text_BagIsFull::
+// FIXME undefined reference: Route11_EastEntrance_1F_Text_BagIsFull::
     .string "{PLAYER}{KUN}の　バッグ\n"
     .string "いっぱい　みたい　だね$"
 

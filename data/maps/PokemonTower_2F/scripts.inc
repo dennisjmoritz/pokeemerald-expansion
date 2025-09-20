@@ -18,8 +18,8 @@ PokemonTower_2F_EventScript_RivalTriggerDown::
 	end
 
 PokemonTower_2F_EventScript_Rival::
-	textcolor NPC_TEXT_COLOR_MALE
-	playbgm MUS_ENCOUNTER_RIVAL, 0
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_RIVAL, 0
 	call_if_eq VAR_TEMP_1, 0, PokemonTower_2F_EventScript_RivalFacePlayerRight
 	call_if_eq VAR_TEMP_1, 1, PokemonTower_2F_EventScript_RivalFacePlayerDown
 	applymovement LOCALID_POKEMON_TOWER_RIVAL, Common_Movement_ExclamationMark
@@ -33,7 +33,7 @@ PokemonTower_2F_EventScript_Rival::
 	call_if_eq VAR_STARTER_MON, 0, PokemonTower_2F_EventScript_RivalCharmander
 	msgbox PokemonTower_2F_Text_RivalPostBattle
 	closemessage
-	playbgm MUS_RIVAL_EXIT, 0
+// FIXME undefined reference: 	playbgm MUS_RIVAL_EXIT, 0
 	call_if_eq VAR_TEMP_1, 0, PokemonTower_2F_EventScript_RivalExitRight
 	call_if_eq VAR_TEMP_1, 1, PokemonTower_2F_EventScript_RivalExitDown
 	playse SE_EXIT
@@ -58,15 +58,15 @@ PokemonTower_2F_EventScript_RivalFacePlayerDown::
 	return
 
 PokemonTower_2F_EventScript_RivalSquirtle::
-	trainerbattle_no_intro TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE, PokemonTower_2F_Text_RivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE, PokemonTower_2F_Text_RivalDefeat
 	return
 
 PokemonTower_2F_EventScript_RivalBulbasaur::
-	trainerbattle_no_intro TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR, PokemonTower_2F_Text_RivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR, PokemonTower_2F_Text_RivalDefeat
 	return
 
 PokemonTower_2F_EventScript_RivalCharmander::
-	trainerbattle_no_intro TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER, PokemonTower_2F_Text_RivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER, PokemonTower_2F_Text_RivalDefeat
 	return
 
 PokemonTower_2F_EventScript_RivalExitRight::

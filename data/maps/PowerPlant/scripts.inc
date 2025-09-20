@@ -10,7 +10,7 @@ PowerPlant_OnResume::
 
 PowerPlant_EventScript_TryRemoveStaticMon::
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
+// FIXME undefined reference: 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
 	removeobject VAR_LAST_TALKED
 	return
 
@@ -42,13 +42,13 @@ PowerPlant_EventScript_ShowElectrode2::
 
 PowerPlant_EventScript_Zapdos::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	setwildbattle SPECIES_ZAPDOS, 50
 	waitse
 	playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
-	message Text_Gyaoo
+// FIXME undefined reference: 	message Text_Gyaoo
 	waitmessage
 	waitmoncry
 	delay 10
@@ -56,7 +56,7 @@ PowerPlant_EventScript_Zapdos::
 	waitbuttonpress
 	setflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
-	special StartLegendaryBattle
+// FIXME undefined reference: 	special StartLegendaryBattle
 	waitstate
 	clearflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
@@ -72,12 +72,12 @@ PowerPlant_EventScript_Zapdos::
 PowerPlant_EventScript_DefeatedZapdos::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_FOUGHT_ZAPDOS with FLAG_TEMP_1
-	goto EventScript_RemoveStaticMon
+// FIXME undefined reference: 	goto EventScript_RemoveStaticMon
 	end
 
 PowerPlant_EventScript_RanFromZapdos::
 	setvar VAR_0x8004, SPECIES_ZAPDOS
-	goto EventScript_MonFlewAway
+// FIXME undefined reference: 	goto EventScript_MonFlewAway
 	end
 
 PowerPlant_EventScript_Electrode1::
@@ -94,7 +94,7 @@ PowerPlant_EventScript_Electrode1::
 	dowildbattle
 	clearflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, PowerPlant_EventScript_FoughtElectrode1
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PowerPlant_EventScript_FoughtElectrode1
@@ -107,7 +107,7 @@ PowerPlant_EventScript_Electrode1::
 PowerPlant_EventScript_FoughtElectrode1::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_FOUGHT_POWER_PLANT_ELECTRODE_1 with FLAG_TEMP_1
-	goto EventScript_RemoveStaticMon
+// FIXME undefined reference: 	goto EventScript_RemoveStaticMon
 	end
 
 PowerPlant_EventScript_Electrode2::
@@ -124,7 +124,7 @@ PowerPlant_EventScript_Electrode2::
 	dowildbattle
 	clearflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, PowerPlant_EventScript_FoughtElectrode2
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PowerPlant_EventScript_FoughtElectrode2
@@ -137,5 +137,5 @@ PowerPlant_EventScript_Electrode2::
 PowerPlant_EventScript_FoughtElectrode2::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2 with FLAG_TEMP_1
-	goto EventScript_RemoveStaticMon
+// FIXME undefined reference: 	goto EventScript_RemoveStaticMon
 	end

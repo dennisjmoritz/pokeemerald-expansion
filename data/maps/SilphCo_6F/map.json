@@ -125,7 +125,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SilphCo_6F_EventScript_ItemHPUp",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_6F_EventScript_ItemHPUp",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
@@ -140,7 +142,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SilphCo_6F_EventScript_ItemXSpecial",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_6F_EventScript_ItemXSpecial",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
@@ -205,7 +209,9 @@
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_6F_EventScript_Door"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_6F_EventScript_Door"
     },
     {
       "type": "sign",
@@ -213,7 +219,9 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_6F_EventScript_Door"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_6F_EventScript_Door"
     },
     {
       "type": "sign",
@@ -221,7 +229,9 @@
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_6F_EventScript_Door"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_6F_EventScript_Door"
     },
     {
       "type": "sign",
@@ -229,7 +239,9 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_6F_EventScript_Door"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_6F_EventScript_Door"
     },
     {
       "type": "hidden_item",

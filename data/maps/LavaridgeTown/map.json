@@ -100,7 +100,7 @@
     },
     {
       "local_id": "LOCALID_LAVARIDGE_RIVAL_ON_BIKE",
-      "graphics_id": "OBJ_EVENT_GFX_VAR_TEMP_3",
+      "graphics_id": "OBJ_EVENT_GFX_VAR_3",
       "x": 6,
       "y": 16,
       "elevation": 3,
@@ -114,7 +114,7 @@
     },
     {
       "local_id": "LOCALID_LAVARIDGE_RIVAL",
-      "graphics_id": "OBJ_EVENT_GFX_VAR_TEMP_0",
+      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 12,
       "y": 15,
       "elevation": 0,

@@ -209,7 +209,7 @@ Route113_GlassWorkshop_EventScript_GiveGlassDecor::
 	return
 
 Route113_GlassWorkshop_EventScript_NoRoomForFlute::
-	call Common_EventScript_BagIsFull
+// FIXME undefined reference: 	call Common_EventScript_BagIsFull
 	msgbox Route113_GlassWorkshop_Text_NoRoomInBag, MSGBOX_DEFAULT
 	release
 	end

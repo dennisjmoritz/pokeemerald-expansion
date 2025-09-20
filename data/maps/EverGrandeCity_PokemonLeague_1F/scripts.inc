@@ -16,7 +16,7 @@ EverGrandeCity_PokemonLeague_1F_EventScript_GuardsBlockDoor::
 
 EverGrandeCity_PokemonLeague_1F_EventScript_Nurse::
 	setvar VAR_0x800B, LOCALID_LEAGUE_NURSE
-	call Common_EventScript_PkmnCenterNurse
+// FIXME undefined reference: 	call Common_EventScript_PkmnCenterNurse
 	waitmessage
 	waitbuttonpress
 	release
@@ -28,7 +28,7 @@ EverGrandeCity_PokemonLeague_1F_EventScript_Clerk::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemart EverGrandeCity_PokemonLeague_1F_Pokemart
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

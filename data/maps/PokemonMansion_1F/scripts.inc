@@ -4,7 +4,7 @@ PokemonMansion_1F_MapScripts::
 	.byte 0
 
 PokemonMansion_1F_OnLoad::
-	call_if_set FLAG_TEMP_1, PokemonMansion_EventScript_PressSwitch_1F
+// FIXME undefined reference: 	call_if_set FLAG_TEMP_1, PokemonMansion_EventScript_PressSwitch_1F
 // Replaced FLAG_POKEMON_MANSION_SWITCH_STATE with FLAG_TEMP_1
 	end
 
@@ -16,7 +16,7 @@ PokemonMansion_1F_OnTransition::
 PokemonMansion_1F_EventScript_Statue::
 	lockall
 	setvar VAR_0x8004, 0
-	call PokemonMansion_EventScript_SecretSwitch
+// FIXME undefined reference: 	call PokemonMansion_EventScript_SecretSwitch
 	playse SE_UNLOCK
 	special DrawWholeMapView
 	waitse
@@ -24,12 +24,12 @@ PokemonMansion_1F_EventScript_Statue::
 	end
 
 PokemonMansion_1F_EventScript_Ted::
-	trainerbattle_single TRAINER_SCIENTIST_TED, PokemonMansion_1F_Text_TedIntro, PokemonMansion_1F_Text_TedDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SCIENTIST_TED, PokemonMansion_1F_Text_TedIntro, PokemonMansion_1F_Text_TedDefeat
 	msgbox PokemonMansion_1F_Text_TedPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 PokemonMansion_1F_EventScript_Johnson::
-	trainerbattle_single TRAINER_YOUNGSTER_JOHNSON, PokemonMansion_1F_Text_JohnsonIntro, PokemonMansion_1F_Text_JohnsonDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_YOUNGSTER_JOHNSON, PokemonMansion_1F_Text_JohnsonIntro, PokemonMansion_1F_Text_JohnsonDefeat
 	msgbox PokemonMansion_1F_Text_JohnsonPostBattle, MSGBOX_AUTOCLOSE
 	end
 

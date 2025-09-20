@@ -108,7 +108,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedOpponent::
 	addvar VAR_RESULT, 1
 	frontier_set FRONTIER_DATA_BATTLE_NUM, VAR_RESULT
 	switch VAR_RESULT
-	case 7, BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
+// FIXME undefined reference: 	case 7, BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
 	applymovement LOCALID_ARENA_BATTLE_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_PlayerWalkBackToLine
 	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentExit
 	waitmovement 0
@@ -188,7 +188,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_ContinueChallenge::
 	waitmovement 0
 	goto BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers
 	waitstate
-BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon::
+// FIXME undefined reference: BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon::
 	delay 60
 	frontier_set FRONTIER_DATA_CHALLENGE_STATUS, CHALLENGE_STATUS_WON
 	warp MAP_BATTLE_FRONTIER_BATTLE_ARENA_LOBBY, 7, 8
@@ -308,7 +308,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGretaSilver::
 BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedGretaSilver::
 	call BattleFrontier_BattleArenaBattleRoom_EventScript_DeclarePlayerWinner
 	frontier_getsymbols
-	goto_if_ne VAR_RESULT, 0, BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
+// FIXME undefined reference: 	goto_if_ne VAR_RESULT, 0, BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
 	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForwardLong
 	waitmovement 0
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll, MSGBOX_DEFAULT
@@ -318,7 +318,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedGretaSilver::
 	waitfanfare
 	frontier_givesymbol
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime, MSGBOX_DEFAULT
-	goto BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
+// FIXME undefined reference: 	goto BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
 
 BattleFrontier_BattleArenaBattleRoom_EventScript_IntroGretaGold::
 	frontier_get FRONTIER_DATA_HEARD_BRAIN_SPEECH
@@ -342,7 +342,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGretaGold::
 BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedGretaGold::
 	call BattleFrontier_BattleArenaBattleRoom_EventScript_DeclarePlayerWinner
 	frontier_getsymbols
-	goto_if_eq VAR_RESULT, 2, BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, 2, BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
 	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForwardLong
 	waitmovement 0
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway, MSGBOX_DEFAULT
@@ -352,7 +352,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedGretaGold::
 	waitfanfare
 	frontier_givesymbol
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_IfWeBattleAgainWontLose, MSGBOX_DEFAULT
-	goto BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
+// FIXME undefined reference: 	goto BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
 
 BattleFrontier_BattleArenaBattleRoom_EventScript_StartArenaBattle::
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin, MSGBOX_DEFAULT

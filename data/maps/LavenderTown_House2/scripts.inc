@@ -23,12 +23,12 @@ LavenderTown_House2_EventScript_DontRateNickname::
 	end
 
 LavenderTown_House2_EventScript_CheckCanRateMon::
-	specialvar VAR_RESULT, GetPartyMonSpecies
+// FIXME undefined reference: 	specialvar VAR_RESULT, GetPartyMonSpecies
 	goto_if_eq VAR_RESULT, SPECIES_EGG, LavenderTown_House2_EventScript_CantNicknameEgg
 	special BufferMonNickname
 	special IsMonOTIDNotPlayers
 	goto_if_eq VAR_RESULT, TRUE, LavenderTown_House2_EventScript_CantNicknameTradeMon
-	specialvar VAR_RESULT, IsMonOTNameNotPlayers
+// FIXME undefined reference: 	specialvar VAR_RESULT, IsMonOTNameNotPlayers
 	special BufferMonNickname
 	goto_if_eq VAR_RESULT, TRUE, LavenderTown_House2_EventScript_CantNicknameTradeMon
 	msgbox LavenderTown_House2_Text_GiveItANicerName, MSGBOX_YESNO
@@ -48,8 +48,8 @@ LavenderTown_House2_EventScript_CantNicknameTradeMon::
 
 LavenderTown_House2_EventScript_ChooseNewNickname::
 	msgbox LavenderTown_House2_Text_WhatShallNewNicknameBe
-	call EventScript_ChangePokemonNickname
-	specialvar VAR_RESULT, NameRaterWasNicknameChanged
+// FIXME undefined reference: 	call EventScript_ChangePokemonNickname
+// FIXME undefined reference: 	specialvar VAR_RESULT, NameRaterWasNicknameChanged
 	special BufferMonNickname
 	goto_if_eq VAR_RESULT, TRUE, LavenderTown_House2_EventScript_ChoseNewNickname
 	msgbox LavenderTown_House2_Text_FromNowOnShallBeKnownAsSameName

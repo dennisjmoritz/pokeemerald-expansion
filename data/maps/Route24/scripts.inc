@@ -36,7 +36,7 @@ Route24_EventScript_RocketTriggerRight::
 	end
 
 Route24_EventScript_RocketTrigger::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	call_if_eq VAR_TEMP_1, 0, Route24_EventScript_RocketApproachPlayer
 	call_if_eq VAR_TEMP_1, 1, Route24_EventScript_RocketMotionToPlayer
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
@@ -53,10 +53,10 @@ Route24_EventScript_BattleRocket::
 	giveitem ITEM_NUGGET
 	message Route24_Text_JoinTeamRocket
 	waitmessage
-	playbgm MUS_ENCOUNTER_ROCKET, 0
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_ROCKET, 0
 	waitbuttonpress
 	setvar VAR_LAST_TALKED, LOCALID_ROUTE24_ROCKET
-	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_6, Route24_Text_RocketDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_6, Route24_Text_RocketDefeat
 	msgbox Route24_Text_YoudBecomeTopRocketLeader
 	setvar VAR_TEMP_0, 1
 // Replaced VAR_MAP_SCENE_ROUTE24 with VAR_TEMP_0

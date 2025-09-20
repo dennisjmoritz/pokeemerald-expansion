@@ -12,7 +12,7 @@ RustboroCity_Mart_EventScript_Clerk::
 
 RustboroCity_Mart_EventScript_PokemartBasic::
 	pokemart RustboroCity_Mart_Pokemart_Basic
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -32,7 +32,7 @@ RustboroCity_Mart_Pokemart_Basic:
 
 RustboroCity_Mart_EventScript_PokemartExpanded::
 	pokemart RustboroCity_Mart_Pokemart_Expanded
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

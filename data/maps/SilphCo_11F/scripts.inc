@@ -3,7 +3,7 @@ SilphCo_11F_MapScripts::
 	.byte 0
 
 SilphCo_11F_OnLoad::
-	call_if_unset FLAG_TEMP_1, EventScript_Close11FDoor
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close11FDoor
 // Replaced FLAG_SILPH_11F_DOOR with FLAG_TEMP_1
 	end
 
@@ -60,7 +60,7 @@ SilphCo_11F_EventScript_GiovanniTriggerRight::
 	end
 
 SilphCo_11F_EventScript_BattleGiovanni::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_SILPH_CO_GIOVANNI, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	delay 25
@@ -69,7 +69,7 @@ SilphCo_11F_EventScript_BattleGiovanni::
 	call_if_eq VAR_TEMP_1, 0, SilphCo_11F_EventScript_GiovanniApproachLeft
 	call_if_eq VAR_TEMP_1, 1, SilphCo_11F_EventScript_GiovanniApproachRight
 	setvar VAR_LAST_TALKED, LOCALID_SILPH_CO_GIOVANNI
-	trainerbattle_no_intro TRAINER_BOSS_GIOVANNI_2, SilphCo_11F_Text_GiovanniDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_BOSS_GIOVANNI_2, SilphCo_11F_Text_GiovanniDefeat
 	msgbox SilphCo_11F_Text_GiovanniPostBattle
 	closemessage
 	fadescreen FADE_TO_BLACK
@@ -130,12 +130,12 @@ SilphCo_11F_EventScript_FloorSign::
 	end
 
 SilphCo_11F_EventScript_Grunt1::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_40, SilphCo_11F_Text_Grunt1Intro, SilphCo_11F_Text_Grunt1Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_40, SilphCo_11F_Text_Grunt1Intro, SilphCo_11F_Text_Grunt1Defeat
 	msgbox SilphCo_11F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SilphCo_11F_EventScript_Grunt2::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_41, SilphCo_11F_Text_Grunt2Intro, SilphCo_11F_Text_Grunt2Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_41, SilphCo_11F_Text_Grunt2Intro, SilphCo_11F_Text_Grunt2Defeat
 	msgbox SilphCo_11F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	end
 

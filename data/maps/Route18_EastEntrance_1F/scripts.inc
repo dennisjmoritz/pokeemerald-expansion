@@ -48,7 +48,7 @@ Route18_EastEntrance_1F_EventScript_NeedBikeTriggerBottom::
 	end
 
 Route18_EastEntrance_1F_EventScript_NeedBikeTrigger::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox Route18_EastEntrance_1F_Text_ExcuseMe
 	closemessage
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp

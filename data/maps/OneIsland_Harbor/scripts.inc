@@ -19,7 +19,7 @@ OneIsland_Harbor_OnFrame::
 
 OneIsland_Harbor_EventScript_PlayerEnterHarborFirstTime::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_PLAYER, OneIsland_Harbor_Movement_PlayerExitHarbor
 	waitmovement 0
 	setvar VAR_TEMP_0, 2
@@ -41,5 +41,5 @@ OneIsland_Harbor_EventScript_Sailor::
 	message Text_WhereDoYouWantToSail
 	waitmessage
 // 	setvar VAR_0x8004, SEAGALLOP_ONE_ISLAND
-	goto EventScript_ChooseDestFromOneIsland
+// FIXME undefined reference: 	goto EventScript_ChooseDestFromOneIsland
 	end

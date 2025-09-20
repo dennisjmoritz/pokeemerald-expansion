@@ -3,14 +3,14 @@ PokemonMansion_2F_MapScripts::
 	.byte 0
 
 PokemonMansion_2F_OnLoad::
-	call_if_set FLAG_TEMP_1, PokemonMansion_EventScript_PressSwitch_2F
+// FIXME undefined reference: 	call_if_set FLAG_TEMP_1, PokemonMansion_EventScript_PressSwitch_2F
 // Replaced FLAG_POKEMON_MANSION_SWITCH_STATE with FLAG_TEMP_1
 	end
 
 PokemonMansion_2F_EventScript_Statue::
 	lockall
 	setvar VAR_0x8004, 1
-	call PokemonMansion_EventScript_SecretSwitch
+// FIXME undefined reference: 	call PokemonMansion_EventScript_SecretSwitch
 	playse SE_UNLOCK
 	special DrawWholeMapView
 	waitse
@@ -26,7 +26,7 @@ PokemonMansion_2F_EventScript_DiaryJuly10th::
 	end
 
 PokemonMansion_2F_EventScript_Arnie::
-	trainerbattle_single TRAINER_BURGLAR_ARNIE, PokemonMansion_1F_Text_ArnieIntro, PokemonMansion_1F_Text_ArnieDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BURGLAR_ARNIE, PokemonMansion_1F_Text_ArnieIntro, PokemonMansion_1F_Text_ArnieDefeat
 	msgbox PokemonMansion_1F_Text_ArniePostBattle, MSGBOX_AUTOCLOSE
 	end
 

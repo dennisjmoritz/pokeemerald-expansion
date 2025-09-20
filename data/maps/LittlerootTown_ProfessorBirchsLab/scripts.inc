@@ -337,7 +337,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GiveCyndaquil::
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToPC
 	hidemonpic
-	goto Common_EventScript_NoMoreRoomForPokemon
+// FIXME undefined reference: 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToParty::
@@ -345,7 +345,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToParty::
 	removeobject LOCALID_BIRCHS_LAB_CYNDAQUIL_BALL
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil
-	call Common_EventScript_GetGiftMonPartySlot
+// FIXME undefined reference: 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil
 	end
@@ -355,12 +355,12 @@ LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToPC::
 	removeobject LOCALID_BIRCHS_LAB_CYNDAQUIL_BALL
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_CyndaquilTransferredToPC
-	call Common_EventScript_NameReceivedBoxMon
+// FIXME undefined reference: 	call Common_EventScript_NameReceivedBoxMon
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_CyndaquilTransferredToPC
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_CyndaquilTransferredToPC::
-	call Common_EventScript_TransferredToPC
+// FIXME undefined reference: 	call Common_EventScript_TransferredToPC
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil
 	end
 
@@ -378,7 +378,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GiveTotodile::
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToPC
 	hidemonpic
-	goto Common_EventScript_NoMoreRoomForPokemon
+// FIXME undefined reference: 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToParty::
@@ -386,7 +386,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToParty::
 	removeobject LOCALID_BIRCHS_LAB_TOTODILE_BALL
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
-	call Common_EventScript_GetGiftMonPartySlot
+// FIXME undefined reference: 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
 	end
@@ -396,12 +396,12 @@ LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToPC::
 	removeobject LOCALID_BIRCHS_LAB_TOTODILE_BALL
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC
-	call Common_EventScript_NameReceivedBoxMon
+// FIXME undefined reference: 	call Common_EventScript_NameReceivedBoxMon
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC::
-	call Common_EventScript_TransferredToPC
+// FIXME undefined reference: 	call Common_EventScript_TransferredToPC
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
 	end
 
@@ -419,7 +419,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GiveChikorita::
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToPC
 	hidemonpic
-	goto Common_EventScript_NoMoreRoomForPokemon
+// FIXME undefined reference: 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToParty::
@@ -427,7 +427,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToParty::
 	removeobject LOCALID_BIRCHS_LAB_CHIKORITA_BALL
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita
-	call Common_EventScript_GetGiftMonPartySlot
+// FIXME undefined reference: 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita
 	end
@@ -437,12 +437,12 @@ LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToPC::
 	removeobject LOCALID_BIRCHS_LAB_CHIKORITA_BALL
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ChikoritaTransferredToPC
-	call Common_EventScript_NameReceivedBoxMon
+// FIXME undefined reference: 	call Common_EventScript_NameReceivedBoxMon
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_ChikoritaTransferredToPC
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_ChikoritaTransferredToPC::
-	call Common_EventScript_TransferredToPC
+// FIXME undefined reference: 	call Common_EventScript_TransferredToPC
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita
 	end
 

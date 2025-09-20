@@ -24,13 +24,13 @@ ThreeIsland_BerryForest_EventScript_Lostelle::
 	waitmoncry
 	setwildbattle SPECIES_HYPNO, 30
 	dowildbattle
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	applymovement LOCALID_BERRY_FOREST_LOSTELLE, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox ThreeIsland_BerryForest_Text_ThankYouHaveThis
 	giveitem ITEM_IAPAPA_BERRY
 	call_if_eq VAR_RESULT, FALSE, ThreeIsland_BerryForest_EventScript_NoRoomForBerry
-	special BufferBigGuyOrBigGirlString
+// FIXME undefined reference: 	special BufferBigGuyOrBigGirlString
 	msgbox ThreeIsland_BerryForest_Text_LetsGoHome
 	closemessage
 	setflag FLAG_TEMP_1

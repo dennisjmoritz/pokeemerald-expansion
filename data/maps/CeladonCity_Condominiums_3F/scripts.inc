@@ -16,22 +16,22 @@ CeladonCity_Condominiums_3F_EventScript_Writer::
 CeladonCity_Condominiums_3F_EventScript_Designer::
 	lock
 	faceplayer
-	specialvar VAR_RESULT, HasAllKantoMons
+// FIXME undefined reference: 	specialvar VAR_RESULT, HasAllKantoMons
 	goto_if_eq VAR_RESULT, TRUE, CeladonCity_Condominiums_3F_EventScript_CompletedPokedex
 	msgbox CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex
 	release
 	end
 
 CeladonCity_Condominiums_3F_EventScript_CompletedPokedex::
-	goto CeladonCity_Condominiums_3F_EventScript_ShowDiploma
+// FIXME undefined reference: 	goto CeladonCity_Condominiums_3F_EventScript_ShowDiploma
 	end
 
-CeladonCity_Condominiums_3F_EventScript_ShowDiploma::
+// FIXME undefined reference: CeladonCity_Condominiums_3F_EventScript_ShowDiploma::
 	message CeladonCity_Condominiums_3F_Text_CompletedPokedexCongratulations
 	waitmessage
 	delay 60
 @	goto_if_questlog EventScript_ReleaseEnd
-	special ShowDiploma
+// FIXME undefined reference: 	special ShowDiploma
 	waitstate
 	release
 	end

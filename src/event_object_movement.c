@@ -485,8 +485,6 @@ const u8 gInitialMovementTypeFacingDirections[NUM_MOVEMENT_TYPES] = {
 #include "data/object_events/object_event_anims.h"
 #include "data/object_events/base_oam.h"
 #include "data/object_events/object_event_subsprites.h"
-#include "data/object_events/object_event_graphics_info.h"
-#include "data/object_events/object_event_graphics_info_followers.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Npc1,                  OBJ_EVENT_PAL_TAG_NPC_1},
@@ -752,6 +750,8 @@ static const u16 *const sObjectPaletteTagSets[] = {
 
 #include "data/object_events/berry_tree_graphics_tables.h"
 #include "data/field_effects/field_effect_objects.h"
+#include "data/object_events/object_event_graphics_info.h"
+#include "data/object_events/object_event_graphics_info_followers.h"
 
 static const s16 sMovementDelaysMedium[] = {32, 64,  96, 128};
 static const s16 sMovementDelaysLong[] =   {32, 64, 128, 192}; // Unused

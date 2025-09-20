@@ -8,8 +8,8 @@ ViridianCity_Mart_OnLoad::
 	end
 
 ViridianCity_Mart_EventScript_HideQuestionnaire::
-	setmetatile 1, 3, METATILE_Mart_CounterMid_Top, 1
-	setmetatile 1, 4, METATILE_Mart_CounterMid_Bottom, 1
+// FIXME undefined reference: 	setmetatile 1, 3, METATILE_Mart_CounterMid_Top, 1
+// FIXME undefined reference: 	setmetatile 1, 4, METATILE_Mart_CounterMid_Bottom, 1
 	end
 
 ViridianCity_Mart_OnFrame::
@@ -19,7 +19,7 @@ ViridianCity_Mart_OnFrame::
 
 ViridianCity_Mart_EventScript_ParcelScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_VIRIDIAN_MART_CLERK, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	msgbox ViridianCity_Mart_Text_YouCameFromPallet
@@ -60,10 +60,10 @@ ViridianCity_Mart_EventScript_Clerk::
 	goto_if_eq VAR_TEMP_0, 1, ViridianCity_Mart_EventScript_SayHiToOak
 // Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_MART with VAR_TEMP_0
 @	goto_if_questlog EventScript_ReleaseEnd
-	message Text_MayIHelpYou
+// FIXME undefined reference: 	message Text_MayIHelpYou
 	waitmessage
 	pokemart ViridianCity_Mart_Items
-	msgbox Text_PleaseComeAgain
+// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 

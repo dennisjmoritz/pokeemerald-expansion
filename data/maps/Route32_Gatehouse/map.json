@@ -12,7 +12,7 @@
   "allow_running": true,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [],
   "warp_events": [
     {
@@ -20,14 +20,14 @@
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_RUINS_OF_ALPH_OUTSIDE",
-      "dest_warp_id": 7
+      "dest_warp_id": "7"
     },
     {
       "x": 11,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_ROUTE32",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],

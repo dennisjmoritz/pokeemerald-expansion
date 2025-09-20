@@ -9,15 +9,15 @@ DewfordTown_OnTransition:
 DewfordTown_EventScript_Briney::
 	lock
 	faceplayer
-	goto_if_unset FLAG_DELIVERED_STEVEN_LETTER, DewfordTown_EventScript_ReturnToPetalburgPrompt
+// FIXME undefined reference: 	goto_if_unset FLAG_DELIVERED_STEVEN_LETTER, DewfordTown_EventScript_ReturnToPetalburgPrompt
 	message DewfordTown_Text_WhereAreWeBound
 	waitmessage
 	multichoicedefault 21, 6, MULTI_BRINEY_ON_DEWFORD, 2, FALSE
 	switch VAR_RESULT
 	case 0, DewfordTown_EventScript_ChoosePetalburg
 	case 1, DewfordTown_EventScript_ChooseSlateport
-	case 2, DewfordTown_EventScript_CancelSailSelect
-	case MULTI_B_PRESSED, DewfordTown_EventScript_CancelSailSelect
+// FIXME undefined reference: 	case 2, DewfordTown_EventScript_CancelSailSelect
+// FIXME undefined reference: 	case MULTI_B_PRESSED, DewfordTown_EventScript_CancelSailSelect
 	end
 
 DewfordTown_EventScript_ChoosePetalburg::
@@ -34,13 +34,13 @@ DewfordTown_EventScript_ChooseSlateport::
 	release
 	end
 
-DewfordTown_EventScript_CancelSailSelect::
+// FIXME undefined reference: DewfordTown_EventScript_CancelSailSelect::
 	msgbox DewfordTown_Text_JustTellMeWhenYouNeedToSetSail, MSGBOX_DEFAULT
 	closemessage
 	release
 	end
 
-DewfordTown_EventScript_ReturnToPetalburgPrompt::
+// FIXME undefined reference: DewfordTown_EventScript_ReturnToPetalburgPrompt::
 	msgbox DewfordTown_Text_SetSailBackToPetalburg, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, DewfordTown_EventScript_SailBackToPetalburg
 	msgbox DewfordTown_Text_GoDeliverIllBeWaiting, MSGBOX_DEFAULT

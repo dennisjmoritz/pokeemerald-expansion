@@ -17,9 +17,9 @@ PalletTown_OnTransition::
 	end
 
 PalletTown_EventScript_TryReadySignLady::
-	goto_if_unset FLAG_TEMP_1, EventScript_Return
+// FIXME undefined reference: 	goto_if_unset FLAG_TEMP_1, EventScript_Return
 // Replaced FLAG_OPENED_START_MENU with FLAG_TEMP_1
-	goto_if_ge VAR_TEMP_0, 1, EventScript_Return
+// FIXME undefined reference: 	goto_if_ge VAR_TEMP_0, 1, EventScript_Return
 // Replaced VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY with VAR_TEMP_0
 	setvar VAR_TEMP_0, 1
 // Replaced VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY with VAR_TEMP_0
@@ -51,7 +51,7 @@ PalletTown_OnFrame::
 @ Oak approaches player after exiting their house post Elite Four to check if they should receieve the National Dex
 PalletTown_EventScript_OakRatingScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	setobjectxyperm LOCALID_PALLET_PROF_OAK, 14, 14
 	setobjectmovementtype LOCALID_PALLET_PROF_OAK, MOVEMENT_TYPE_FACE_LEFT
 	addobject LOCALID_PALLET_PROF_OAK
@@ -61,7 +61,7 @@ PalletTown_EventScript_OakRatingScene::
 // Replaced FLAG_WORLD_MAP_ONE_ISLAND with FLAG_TEMP_1
 	msgbox PalletTown_Text_OakLetMeSeePokedex
 	setvar VAR_0x8004, 0
-	specialvar VAR_RESULT, GetPokedexCount
+// FIXME undefined reference: 	specialvar VAR_RESULT, GetPokedexCount
 	copyvar VAR_0x8008, VAR_0x8005
 	copyvar VAR_0x8009, VAR_0x8006
 	buffernumberstring STR_VAR_1, VAR_0x8008
@@ -195,9 +195,9 @@ PalletTown_EventScript_OakTriggerRight::
 
 PalletTown_EventScript_OakTrigger::
 @	famechecker FAMECHECKER_OAK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	delay 30
-	playbgm MUS_OAK, 0
+// FIXME undefined reference: 	playbgm MUS_OAK, 0
 	message PalletTown_Text_OakDontGoOut
 	waitmessage
 	delay 85
@@ -349,7 +349,7 @@ PalletTown_EventScript_SignLady::
 // Replaced VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY with VAR_TEMP_0
 	goto_if_eq SIGN_LADY_READY, TRUE, PalletTown_EventScript_SignLadyStartShowSign
 	goto_if_set FLAG_TEMP_2, PalletTown_EventScript_SignLadyGoReadSign
-	msgbox PalletTown_Text_HmmIsThatRight
+// FIXME undefined reference: 	msgbox PalletTown_Text_HmmIsThatRight
 	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_FacePlayer
 	waitmovement 0
 	playse SE_PIN
@@ -357,7 +357,7 @@ PalletTown_EventScript_SignLady::
 	waitmovement 0
 	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_Delay48
 	waitmovement 0
-	msgbox PalletTown_Text_OhLookLook
+// FIXME undefined reference: 	msgbox PalletTown_Text_OhLookLook
 	closemessage
 	call_if_eq VAR_FACING, DIR_EAST, PalletTown_EventScript_SignLadyMoveOutOfWayRight
 	call_if_ne VAR_FACING, DIR_EAST, PalletTown_EventScript_SignLadyMoveOutOfWayLeft
@@ -386,14 +386,14 @@ PalletTown_EventScript_SignLadyDone::
 PalletTown_EventScript_SignLadyGoReadSign::
 	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_FacePlayer
 	waitmovement 0
-	msgbox PalletTown_Text_ReadItReadIt
+// FIXME undefined reference: 	msgbox PalletTown_Text_ReadItReadIt
 	release
 	end
 
 PalletTown_EventScript_SignLadyJustShowedSign::
 	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_FacePlayer
 	waitmovement 0
-	msgbox PalletTown_Text_SignsAreUsefulArentThey
+// FIXME undefined reference: 	msgbox PalletTown_Text_SignsAreUsefulArentThey
 	release
 	end
 
@@ -432,7 +432,7 @@ PalletTown_EventScript_TownSign::
 
 PalletTown_EventScript_TrainerTips::
 	lockall
-	msgbox PalletTown_Text_PressStartToOpenMenu
+// FIXME undefined reference: 	msgbox PalletTown_Text_PressStartToOpenMenu
 	setvar VAR_TEMP_0, 1
 // Replaced VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY with VAR_TEMP_0
 	releaseall
@@ -448,20 +448,20 @@ PalletTown_EventScript_SignLadyTrigger::
 	end
 
 PalletTown_EventScript_SignLadyShowSign::
-	textcolor NPC_TEXT_COLOR_FEMALE
-	msgbox PalletTown_Text_LookCopiedTrainerTipsSign
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
+// FIXME undefined reference: 	msgbox PalletTown_Text_LookCopiedTrainerTipsSign
 	closemessage
 	delay 20
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	setflag FLAG_TEMP_1
 // Replaced FLAG_OPENED_START_MENU with FLAG_TEMP_1
 	setvar VAR_TEMP_0, 1
 // Replaced VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY with VAR_TEMP_0
 	setvar SIGN_LADY_READY, FALSE
-	special SetWalkingIntoSignVars
-	special DisableMsgBoxWalkaway
+// FIXME undefined reference: 	special SetWalkingIntoSignVars
+// FIXME undefined reference: 	special DisableMsgBoxWalkaway
 	signmsg
-	msgbox PalletTown_Text_PressStartToOpenMenuCopy
+// FIXME undefined reference: 	msgbox PalletTown_Text_PressStartToOpenMenuCopy
 	normalmsg
 	return
 

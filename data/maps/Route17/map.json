@@ -26,7 +26,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 4,
       "y": 18,
@@ -36,11 +35,12 @@
       "movement_range_y": 6,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route17_EventScript_Virgil",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route17_EventScript_Virgil",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 11,
       "y": 15,
@@ -50,11 +50,12 @@
       "movement_range_y": 5,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route17_EventScript_Isaiah",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route17_EventScript_Isaiah",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 15,
       "y": 24,
@@ -64,11 +65,12 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route17_EventScript_Raul",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route17_EventScript_Raul",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 18,
       "y": 41,
@@ -78,11 +80,12 @@
       "movement_range_y": 5,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route17_EventScript_Nikolas",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route17_EventScript_Nikolas",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 7,
       "y": 38,
@@ -92,11 +95,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
-      "script": "Route17_EventScript_Billy",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route17_EventScript_Billy",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 2,
       "y": 61,
@@ -106,11 +110,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "Route17_EventScript_Jamal",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route17_EventScript_Jamal",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 21,
       "y": 61,
@@ -120,11 +125,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route17_EventScript_Zeek",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route17_EventScript_Zeek",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 18,
       "y": 94,
@@ -134,11 +140,12 @@
       "movement_range_y": 5,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route17_EventScript_Corey",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route17_EventScript_Corey",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 16,
       "y": 134,
@@ -148,11 +155,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route17_EventScript_William",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route17_EventScript_William",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 4,
       "y": 116,
@@ -162,7 +170,9 @@
       "movement_range_y": 5,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route17_EventScript_Jaxon",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route17_EventScript_Jaxon",
       "flag": "0"
     }
   ],
@@ -224,9 +234,9 @@
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -235,9 +245,9 @@
       "elevation": 3,
       "item": "ITEM_FULL_RESTORE",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -246,9 +256,9 @@
       "elevation": 3,
       "item": "ITEM_PP_UP",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -257,9 +267,9 @@
       "elevation": 3,
       "item": "ITEM_MAX_REVIVE",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -268,9 +278,9 @@
       "elevation": 3,
       "item": "ITEM_MAX_ELIXIR",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     }
   ]
 }

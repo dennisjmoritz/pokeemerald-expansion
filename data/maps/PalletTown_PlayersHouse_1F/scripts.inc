@@ -26,7 +26,7 @@ PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouFemale::
 PalletTown_PlayersHouse_1F_EventScript_MomHeal::
 	msgbox PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest
 	closemessage
-	call EventScript_OutOfCenterPartyHeal
+// FIXME undefined reference: 	call EventScript_OutOfCenterPartyHeal
 	msgbox PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare
 	release
 	end

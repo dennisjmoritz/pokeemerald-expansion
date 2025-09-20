@@ -31,7 +31,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "OneIsland_KindleRoad_EventScript_Maria",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Maria",
       "flag": "0"
     },
     {
@@ -45,7 +47,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "OneIsland_KindleRoad_EventScript_Abigail",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Abigail",
       "flag": "0"
     },
     {
@@ -59,7 +63,9 @@
       "movement_range_y": 3,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "OneIsland_KindleRoad_EventScript_Finn",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Finn",
       "flag": "0"
     },
     {
@@ -73,7 +79,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "OneIsland_KindleRoad_EventScript_Garrett",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Garrett",
       "flag": "0"
     },
     {
@@ -87,7 +95,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "OneIsland_KindleRoad_EventScript_Tommy",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Tommy",
       "flag": "0"
     },
     {
@@ -101,7 +111,9 @@
       "movement_range_y": 7,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "OneIsland_KindleRoad_EventScript_Sharon",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Sharon",
       "flag": "0"
     },
     {
@@ -115,7 +127,9 @@
       "movement_range_y": 4,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "OneIsland_KindleRoad_EventScript_Tanya",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Tanya",
       "flag": "0"
     },
     {
@@ -129,7 +143,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "OneIsland_KindleRoad_EventScript_Shea",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Shea",
       "flag": "0"
     },
     {
@@ -143,7 +159,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "OneIsland_KindleRoad_EventScript_Hugh",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Hugh",
       "flag": "0"
     },
     {
@@ -157,7 +175,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "OneIsland_KindleRoad_EventScript_Bryce",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Bryce",
       "flag": "0"
     },
     {
@@ -171,7 +191,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "OneIsland_KindleRoad_EventScript_Claire",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Claire",
       "flag": "0"
     },
     {
@@ -185,7 +207,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "OneIsland_KindleRoad_EventScript_Mik",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Mik",
       "flag": "0"
     },
     {
@@ -199,7 +223,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "OneIsland_KindleRoad_EventScript_Kia",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_Kia",
       "flag": "0"
     },
     {
@@ -395,7 +421,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "OneIsland_KindleRoad_EventScript_ItemEther",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_ItemEther",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
@@ -410,7 +438,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "OneIsland_KindleRoad_EventScript_ItemMaxRepel",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_ItemMaxRepel",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
@@ -425,7 +455,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "OneIsland_KindleRoad_EventScript_ItemCarbos",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "OneIsland_KindleRoad_EventScript_ItemCarbos",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }

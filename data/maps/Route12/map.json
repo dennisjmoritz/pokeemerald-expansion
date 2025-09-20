@@ -31,7 +31,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FISHER",
       "x": 17,
       "y": 32,
@@ -41,11 +40,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route12_EventScript_Ned",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route12_EventScript_Ned",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FISHER",
       "x": 9,
       "y": 40,
@@ -55,11 +55,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route12_EventScript_Chip",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route12_EventScript_Chip",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FISHER",
       "x": 16,
       "y": 47,
@@ -69,11 +70,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "Route12_EventScript_Hank",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route12_EventScript_Hank",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FISHER",
       "x": 13,
       "y": 59,
@@ -83,11 +85,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route12_EventScript_Elliot",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route12_EventScript_Elliot",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SNORLAX",
       "x": 14,
       "y": 70,
@@ -102,7 +105,6 @@
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
       "x": 13,
       "y": 92,
@@ -112,11 +114,12 @@
       "movement_range_y": 4,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route12_EventScript_Luca",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route12_EventScript_Luca",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 10,
       "y": 99,
@@ -126,11 +129,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route12_EventScript_Justin",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route12_EventScript_Justin",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FISHER",
       "x": 18,
       "y": 108,
@@ -140,11 +144,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route12_EventScript_Andrew",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route12_EventScript_Andrew",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 11,
       "y": 100,
@@ -158,7 +163,6 @@
       "flag": "FLAG_TEMP_12"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 18,
       "y": 36,
@@ -168,12 +172,13 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route12_EventScript_ItemTM48",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route12_EventScript_ItemTM48",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 9,
       "y": 101,
@@ -183,12 +188,13 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route12_EventScript_ItemIron",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route12_EventScript_ItemIron",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
       "x": 19,
       "y": 64,
@@ -198,11 +204,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route12_EventScript_Gia",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route12_EventScript_Gia",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN",
       "x": 19,
       "y": 63,
@@ -212,11 +219,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route12_EventScript_Jes",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route12_EventScript_Jes",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 12,
       "y": 111,
@@ -278,9 +286,9 @@
       "elevation": 3,
       "item": "ITEM_HYPER_POTION",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -289,9 +297,9 @@
       "elevation": 3,
       "item": "ITEM_LEFTOVERS",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": true,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": true
     },
     {
       "type": "hidden_item",
@@ -300,9 +308,9 @@
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     }
   ]
 }

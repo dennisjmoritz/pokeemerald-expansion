@@ -44,7 +44,7 @@ ViridianCity_EventScript_TryUnlockGym::
 
 ViridianCity_EventScript_GymDoorLocked::
 	lockall
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 20
@@ -145,8 +145,8 @@ ViridianCity_EventScript_WatchToLearnBasics::
 ViridianCity_EventScript_TutorialUnused::
 	msgbox ViridianCity_Text_ThatWasEducationalTakeThis
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
-	special StartOldManTutorialBattle
+// FIXME undefined reference: 	special QuestLog_CutRecording
+// FIXME undefined reference: 	special StartOldManTutorialBattle
 	waitstate
 	release
 	end
@@ -192,13 +192,13 @@ ViridianCity_EventScript_WomanRoadBlocked::
 	release
 	end
 
-ViridianCity_EventScript_DreamEaterTutor::
-	goto EventScript_DreamEaterTutor
+// FIXME undefined reference: ViridianCity_EventScript_DreamEaterTutor::
+// FIXME undefined reference: 	goto EventScript_DreamEaterTutor
 	end
 
 ViridianCity_EventScript_RoadBlocked::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox ViridianCity_Text_ThisIsPrivateProperty
 	closemessage
 	applymovement LOCALID_PLAYER, ViridianCity_Movement_WalkDown
@@ -212,7 +212,7 @@ ViridianCity_Movement_WalkDown::
 
 ViridianCity_EventScript_TutorialTriggerLeft::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_TUTORIAL_MAN, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
@@ -223,7 +223,7 @@ ViridianCity_EventScript_TutorialTriggerLeft::
 
 ViridianCity_EventScript_TutorialTriggerRight::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_TUTORIAL_MAN, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
@@ -236,8 +236,8 @@ ViridianCity_EventScript_DoTutorialBattle::
 	msgbox ViridianCity_Text_ShowYouHowToCatchMons
 	closemessage
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
-	special StartOldManTutorialBattle
+// FIXME undefined reference: 	special QuestLog_CutRecording
+// FIXME undefined reference: 	special StartOldManTutorialBattle
 	waitstate
 	lock
 	faceplayer

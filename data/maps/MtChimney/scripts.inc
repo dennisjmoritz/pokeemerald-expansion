@@ -106,12 +106,12 @@ MtChimney_EventScript_LavaCookieLady::
 	call_if_eq VAR_RESULT, TRUE, MtChimney_EventScript_RemoveMoney
 .if OW_SHOW_ITEM_DESCRIPTIONS == OW_ITEM_DESCRIPTIONS_OFF
 	giveitem ITEM_LAVA_COOKIE
-	goto_if_eq VAR_RESULT, FALSE, MtChimney_EventScript_BagIsFull
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, MtChimney_EventScript_BagIsFull
 	hidemoneybox
 	release
 	end
 
-MtChimney_EventScript_BagIsFull::
+// FIXME undefined reference: MtChimney_EventScript_BagIsFull::
 	msgbox gText_TooBadBagIsFull, MSGBOX_DEFAULT
 	hidemoneybox
 	release
@@ -119,11 +119,11 @@ MtChimney_EventScript_BagIsFull::
 .else
 	hidemoneybox
 	giveitem ITEM_LAVA_COOKIE
-	goto_if_eq VAR_RESULT, FALSE, MtChimney_EventScript_BagIsFull
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, MtChimney_EventScript_BagIsFull
 	release
 	end
 
-MtChimney_EventScript_BagIsFull::
+// FIXME undefined reference: MtChimney_EventScript_BagIsFull::
 	msgbox gText_TooBadBagIsFull, MSGBOX_DEFAULT
 	release
 	end

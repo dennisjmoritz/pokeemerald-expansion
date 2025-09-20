@@ -115,7 +115,7 @@ MauvilleCity_GameCorner_EventScript_ChooseDollPrizeMessage::
 	showcoinsbox 1, 1
 	goto MauvilleCity_GameCorner_EventScript_ChooseDollPrize
 
-MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize::
+// FIXME undefined reference: MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize::
 	message MauvilleCity_GameCorner_Text_WhichPrize
 	waitmessage
 	goto MauvilleCity_GameCorner_EventScript_ChooseDollPrize
@@ -165,7 +165,7 @@ MauvilleCity_GameCorner_EventScript_BuyTreeckoDoll::
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_SendToYourHomePC, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_BuyTorchicDoll::
@@ -179,7 +179,7 @@ MauvilleCity_GameCorner_EventScript_BuyTorchicDoll::
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_SendToYourHomePC, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_BuyMudkipDoll::
@@ -193,17 +193,17 @@ MauvilleCity_GameCorner_EventScript_BuyMudkipDoll::
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_SendToYourHomePC, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForDoll::
 	msgbox MauvilleCity_GameCorner_Text_NotEnoughCoins, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_NoRoomForDoll::
 	call Common_EventScript_NoRoomForDecor
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_CancelDollSelect::
@@ -228,7 +228,7 @@ MauvilleCity_GameCorner_EventScript_ChooseTMPrizeMessage::
 	showcoinsbox 1, 1
 	goto MauvilleCity_GameCorner_EventScript_ChooseTMPrize
 
-MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize::
+// FIXME undefined reference: MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize::
 	message MauvilleCity_GameCorner_Text_WhichPrize
 	waitmessage
 	goto MauvilleCity_GameCorner_EventScript_ChooseTMPrize
@@ -297,7 +297,7 @@ MauvilleCity_GameCorner_EventScript_BuyTMDoubleTeam::
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_BuyTMPsychic::
@@ -310,7 +310,7 @@ MauvilleCity_GameCorner_EventScript_BuyTMPsychic::
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_BuyTMFlamethrower::
@@ -323,7 +323,7 @@ MauvilleCity_GameCorner_EventScript_BuyTMFlamethrower::
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_BuyTMThunderbolt::
@@ -336,7 +336,7 @@ MauvilleCity_GameCorner_EventScript_BuyTMThunderbolt::
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_BuyTMIceBeam::
@@ -349,17 +349,17 @@ MauvilleCity_GameCorner_EventScript_BuyTMIceBeam::
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForTM::
 	msgbox MauvilleCity_GameCorner_Text_NotEnoughCoins, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_NoRoomForTM::
-	call Common_EventScript_BagIsFull
-	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
+// FIXME undefined reference: 	call Common_EventScript_BagIsFull
+// FIXME undefined reference: 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
 	end
 
 MauvilleCity_GameCorner_EventScript_CancelTMSelect::

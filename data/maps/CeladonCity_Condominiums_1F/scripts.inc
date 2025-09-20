@@ -13,7 +13,7 @@ CeladonCity_Condominiums_1F_EventScript_TeaWoman::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_GOT_TEA with FLAG_TEMP_1
 	giveitem ITEM_TEA
-	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
 	msgbox CeladonCity_Condominiums_1F_Text_NothingBeatsThirstLikeTea
 	release
 	end

@@ -17,6 +17,11 @@
       "map": "MAP_ROUTE201",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE25",
+      "offset": -49,
+      "direction": "down"
     }
   ],
   "object_events": [],
@@ -29,8 +34,8 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 3,
-      "y": 4,
+      "x": 2,
+      "y": 5,
       "elevation": 0,
       "dest_map": "MAP_LAKE_VERITY",
       "dest_warp_id": "1"

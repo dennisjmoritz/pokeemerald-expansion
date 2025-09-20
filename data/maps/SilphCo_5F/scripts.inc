@@ -3,11 +3,11 @@ SilphCo_5F_MapScripts::
 	.byte 0
 
 SilphCo_5F_OnLoad::
-	call_if_unset FLAG_TEMP_1, EventScript_Close5FDoor1
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close5FDoor1
 // Replaced FLAG_SILPH_5F_DOOR_1 with FLAG_TEMP_1
-	call_if_unset FLAG_TEMP_1, EventScript_Close5FDoor2
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close5FDoor2
 // Replaced FLAG_SILPH_5F_DOOR_2 with FLAG_TEMP_1
-	call_if_unset FLAG_TEMP_1, EventScript_Close5FDoor3
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close5FDoor3
 // Replaced FLAG_SILPH_5F_DOOR_3 with FLAG_TEMP_1
 	end
 
@@ -42,22 +42,22 @@ SilphCo_5F_EventScript_FloorSign::
 	end
 
 SilphCo_5F_EventScript_Beau::
-	trainerbattle_single TRAINER_SCIENTIST_BEAU, SilphCo_5F_Text_BeauIntro, SilphCo_5F_Text_BeauDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SCIENTIST_BEAU, SilphCo_5F_Text_BeauIntro, SilphCo_5F_Text_BeauDefeat
 	msgbox SilphCo_5F_Text_BeauPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SilphCo_5F_EventScript_Grunt1::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_28, SilphCo_5F_Text_Grunt1Intro, SilphCo_5F_Text_Grunt1Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_28, SilphCo_5F_Text_Grunt1Intro, SilphCo_5F_Text_Grunt1Defeat
 	msgbox SilphCo_5F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SilphCo_5F_EventScript_Grunt2::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_29, SilphCo_5F_Text_Grunt2Intro, SilphCo_5F_Text_Grunt2Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_29, SilphCo_5F_Text_Grunt2Intro, SilphCo_5F_Text_Grunt2Defeat
 	msgbox SilphCo_5F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SilphCo_5F_EventScript_Dalton::
-	trainerbattle_single TRAINER_JUGGLER_DALTON, SilphCo_5F_Text_DaltonIntro, SilphCo_5F_Text_DaltonDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_JUGGLER_DALTON, SilphCo_5F_Text_DaltonIntro, SilphCo_5F_Text_DaltonDefeat
 	msgbox SilphCo_5F_Text_DaltonPostBattle, MSGBOX_AUTOCLOSE
 	end
 

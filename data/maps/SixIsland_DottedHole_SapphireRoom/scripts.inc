@@ -4,8 +4,8 @@ SixIsland_DottedHole_SapphireRoom_MapScripts::
 SixIsland_DottedHole_SapphireRoom_EventScript_Sapphire::
 	lock
 	faceplayer
-	textcolor NPC_TEXT_COLOR_NEUTRAL
-	playfanfare MUS_OBTAIN_KEY_ITEM
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	playfanfare MUS_OBTAIN_KEY_ITEM
 	message SixIsland_DottedHole_SapphireRoom_Text_FoundSapphire
 	waitmessage
 	waitfanfare
@@ -24,13 +24,13 @@ SixIsland_DottedHole_SapphireRoom_EventScript_Sapphire::
 	setvar VAR_0x8005, 0
 	setvar VAR_0x8006, 12
 	setvar VAR_0x8007, 3
-	special ShakeScreen
+// FIXME undefined reference: 	special ShakeScreen
 	delay 60
 	call_if_eq VAR_FACING, DIR_NORTH, SixIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireNorth
 	call_if_eq VAR_FACING, DIR_SOUTH, SixIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireSouth
 	call_if_eq VAR_FACING, DIR_EAST, SixIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireEast
 	call_if_eq VAR_FACING, DIR_WEST, SixIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireWest
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, SixIsland_DottedHole_SapphireRoom_EventScript_ThiefGetSapphireNorth

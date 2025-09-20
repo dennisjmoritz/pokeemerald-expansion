@@ -12,7 +12,7 @@ CeladonCity_Condominiums_RoofRoom_EventScript_EeveeBall::
 	givemon SPECIES_EEVEE, 25
 	goto_if_eq VAR_RESULT, 0, CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveeParty
 	goto_if_eq VAR_RESULT, 1, CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveePC
-	goto_if_eq VAR_RESULT, 2, EventScript_NoMoreRoomForPokemon
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, 2, EventScript_NoMoreRoomForPokemon
 	release
 	end
 
@@ -23,10 +23,10 @@ CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveeParty::
 	waitmessage
 	waitfanfare
 	bufferspeciesname STR_VAR_1, SPECIES_EEVEE
-	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+// FIXME undefined reference: 	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, CeladonCity_Condominiums_RoofRoom_EventScript_SetGotEevee
-	call EventScript_GetGiftMonPartySlot
-	call EventScript_ChangePokemonNickname
+// FIXME undefined reference: 	call EventScript_GetGiftMonPartySlot
+// FIXME undefined reference: 	call EventScript_ChangePokemonNickname
 	goto CeladonCity_Condominiums_RoofRoom_EventScript_SetGotEevee
 	end
 
@@ -37,14 +37,14 @@ CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveePC::
 	waitmessage
 	waitfanfare
 	bufferspeciesname STR_VAR_1, SPECIES_EEVEE
-	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+// FIXME undefined reference: 	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, CeladonCity_Condominiums_RoofRoom_EventScript_TransferEeveeToPC
-	call EventScript_NameReceivedBoxMon
+// FIXME undefined reference: 	call EventScript_NameReceivedBoxMon
 	goto CeladonCity_Condominiums_RoofRoom_EventScript_TransferEeveeToPC
 	end
 
 CeladonCity_Condominiums_RoofRoom_EventScript_TransferEeveeToPC::
-	call EventScript_TransferredToPC
+// FIXME undefined reference: 	call EventScript_TransferredToPC
 	goto CeladonCity_Condominiums_RoofRoom_EventScript_SetGotEevee
 	end
 
@@ -64,7 +64,7 @@ CeladonCity_Condominiums_RoofRoom_EventScript_Blackboard::
 	message CeladonCity_Condominiums_RoofRoom_Text_ReadWhichHeading
 	waitmessage
 	setvar VAR_0x8004, 4
-	multichoice 0, 0, MULTICHOICE_LINKED_DIRECT_UNION, FALSE
+// FIXME undefined reference: 	multichoice 0, 0, MULTICHOICE_LINKED_DIRECT_UNION, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_Condominiums_RoofRoom_EventScript_WirelessClub
 	case 1, CeladonCity_Condominiums_RoofRoom_EventScript_DirectCorner
@@ -76,7 +76,7 @@ CeladonCity_Condominiums_RoofRoom_EventScript_Blackboard::
 CeladonCity_Condominiums_RoofRoom_EventScript_ReadAnotherHeading::
 	message CeladonCity_Condominiums_RoofRoom_Text_ReadWhichHeading
 	waitmessage
-	multichoice 0, 0, MULTICHOICE_LINKED_DIRECT_UNION, FALSE
+// FIXME undefined reference: 	multichoice 0, 0, MULTICHOICE_LINKED_DIRECT_UNION, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_Condominiums_RoofRoom_EventScript_WirelessClub
 	case 1, CeladonCity_Condominiums_RoofRoom_EventScript_DirectCorner

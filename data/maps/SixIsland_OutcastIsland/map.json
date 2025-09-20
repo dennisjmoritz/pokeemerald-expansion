@@ -46,7 +46,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SixIsland_OutcastIsland_EventScript_Tylor",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_OutcastIsland_EventScript_Tylor",
       "flag": "0"
     },
     {
@@ -60,7 +62,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SixIsland_OutcastIsland_EventScript_Mymo",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_OutcastIsland_EventScript_Mymo",
       "flag": "0"
     },
     {
@@ -74,7 +78,9 @@
       "movement_range_y": 4,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SixIsland_OutcastIsland_EventScript_Nicole",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_OutcastIsland_EventScript_Nicole",
       "flag": "0"
     },
     {
@@ -88,7 +94,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SixIsland_OutcastIsland_EventScript_Ava",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_OutcastIsland_EventScript_Ava",
       "flag": "0"
     },
     {
@@ -102,7 +110,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SixIsland_OutcastIsland_EventScript_Geb",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_OutcastIsland_EventScript_Geb",
       "flag": "0"
     },
     {
@@ -116,7 +126,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SixIsland_OutcastIsland_EventScript_ItemPPUp",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_OutcastIsland_EventScript_ItemPPUp",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }

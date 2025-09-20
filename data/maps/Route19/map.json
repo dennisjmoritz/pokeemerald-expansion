@@ -22,11 +22,15 @@
       "map": "MAP_ROUTE20",
       "offset": 40,
       "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE125",
+      "offset": -41,
+      "direction": "down"
     }
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M_LAND",
       "x": 15,
       "y": 10,
@@ -36,11 +40,12 @@
       "movement_range_y": 3,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route19_EventScript_Reece",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_Reece",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M_LAND",
       "x": 10,
       "y": 9,
@@ -50,11 +55,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route19_EventScript_Richard",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_Richard",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M_WATER",
       "x": 12,
       "y": 17,
@@ -64,11 +70,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route19_EventScript_Tony",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_Tony",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M_WATER",
       "x": 18,
       "y": 33,
@@ -78,11 +85,12 @@
       "movement_range_y": 3,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route19_EventScript_Matthew",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_Matthew",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M_WATER",
       "x": 8,
       "y": 27,
@@ -92,11 +100,12 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route19_EventScript_Douglas",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_Douglas",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M_WATER",
       "x": 16,
       "y": 22,
@@ -106,11 +115,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "6",
-      "script": "Route19_EventScript_David",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_David",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M_WATER",
       "x": 11,
       "y": 47,
@@ -120,11 +130,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route19_EventScript_Axle",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_Axle",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F_WATER",
       "x": 14,
       "y": 48,
@@ -134,11 +145,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route19_EventScript_Alice",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_Alice",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F_WATER",
       "x": 12,
       "y": 49,
@@ -148,11 +160,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route19_EventScript_Connie",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_Connie",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F_WATER",
       "x": 9,
       "y": 48,
@@ -162,11 +175,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route19_EventScript_Anya",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_Anya",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F_WATER",
       "x": 8,
       "y": 41,
@@ -176,11 +190,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route19_EventScript_Lia",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_Lia",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_TUBER_M_WATER",
       "x": 9,
       "y": 41,
@@ -190,7 +205,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route19_EventScript_Luc",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route19_EventScript_Luc",
       "flag": "0"
     }
   ],

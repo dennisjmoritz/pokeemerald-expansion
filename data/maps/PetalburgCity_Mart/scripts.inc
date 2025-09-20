@@ -8,7 +8,7 @@ PetalburgCity_Mart_EventScript_Clerk::
 	waitmessage
 	goto_if_set FLAG_PETALBURG_MART_EXPANDED_ITEMS, PetalburgCity_Mart_EventScript_ExpandedItems
 	pokemart PetalburgCity_Mart_Pokemart_Basic
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -29,7 +29,7 @@ PetalburgCity_Mart_Pokemart_Basic:
 
 PetalburgCity_Mart_EventScript_ExpandedItems::
 	pokemart PetalburgCity_Mart_Pokemart_Expanded
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

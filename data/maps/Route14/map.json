@@ -26,7 +26,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 7,
       "y": 37,
@@ -36,11 +35,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route14_EventScript_Gerald",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Gerald",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
       "x": 18,
       "y": 35,
@@ -50,11 +50,12 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route14_EventScript_Donald",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Donald",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
       "x": 10,
       "y": 14,
@@ -64,11 +65,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "Route14_EventScript_Beck",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Beck",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
       "x": 16,
       "y": 16,
@@ -78,11 +80,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route14_EventScript_Marlon",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Marlon",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 7,
       "y": 31,
@@ -92,11 +95,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route14_EventScript_Isaac",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Isaac",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 7,
       "y": 34,
@@ -106,11 +110,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route14_EventScript_Malik",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Malik",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
       "x": 8,
       "y": 9,
@@ -120,11 +125,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route14_EventScript_Mitch",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Mitch",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
       "x": 7,
       "y": 6,
@@ -134,11 +140,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route14_EventScript_Carter",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Carter",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
       "x": 10,
       "y": 37,
@@ -148,11 +155,12 @@
       "movement_range_y": 6,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route14_EventScript_Lukas",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Lukas",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
       "x": 18,
       "y": 47,
@@ -162,11 +170,12 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route14_EventScript_Benny",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Benny",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 7,
       "y": 26,
@@ -180,7 +189,6 @@
       "flag": "FLAG_TEMP_12"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 12,
       "y": 35,
@@ -195,7 +203,6 @@
     },
     {
       "local_id": "LOCALID_ROUTE14_BORDER_TREE",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 1,
       "y": 47,
@@ -209,7 +216,6 @@
       "flag": "FLAG_TEMP_14"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
       "x": 13,
       "y": 51,
@@ -219,11 +225,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route14_EventScript_Jan",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Jan",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
       "x": 12,
       "y": 51,
@@ -233,7 +240,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route14_EventScript_Kiri",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route14_EventScript_Kiri",
       "flag": "0"
     }
   ],
@@ -255,9 +264,9 @@
       "elevation": 3,
       "item": "ITEM_ZINC",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -266,9 +275,9 @@
       "elevation": 3,
       "item": "ITEM_PINAP_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     }
   ]
 }

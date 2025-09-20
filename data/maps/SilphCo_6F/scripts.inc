@@ -3,7 +3,7 @@ SilphCo_6F_MapScripts::
 	.byte 0
 
 SilphCo_6F_OnLoad::
-	call_if_unset FLAG_TEMP_1, EventScript_Close6FDoor
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close6FDoor
 // Replaced FLAG_SILPH_6F_DOOR with FLAG_TEMP_1
 	end
 
@@ -82,17 +82,17 @@ SilphCo_6F_EventScript_FloorSign::
 	end
 
 SilphCo_6F_EventScript_Taylor::
-	trainerbattle_single TRAINER_SCIENTIST_TAYLOR, SilphCo_6F_Text_TaylorIntro, SilphCo_6F_Text_TaylorDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SCIENTIST_TAYLOR, SilphCo_6F_Text_TaylorIntro, SilphCo_6F_Text_TaylorDefeat
 	msgbox SilphCo_6F_Text_TaylorPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SilphCo_6F_EventScript_Grunt1::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_30, SilphCo_6F_Text_Grunt1Intro, SilphCo_6F_Text_Grunt1Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_30, SilphCo_6F_Text_Grunt1Intro, SilphCo_6F_Text_Grunt1Defeat
 	msgbox SilphCo_6F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SilphCo_6F_EventScript_Grunt2::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_31, SilphCo_6F_Text_Grunt2Intro, SilphCo_6F_Text_Grunt2Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_31, SilphCo_6F_Text_Grunt2Intro, SilphCo_6F_Text_Grunt2Defeat
 	msgbox SilphCo_6F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	end
 

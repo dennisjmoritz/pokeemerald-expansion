@@ -52,7 +52,7 @@ SaffronCity_EventScript_DoorGuardGrunt::
 	end
 
 SaffronCity_EventScript_DoorGuardAsleep::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	msgbox SaffronCity_Text_HesTakingASnooze
 	release
 	end

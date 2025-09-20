@@ -17,7 +17,7 @@ BattleFrontier_BattleDomePreBattleRoom_OnFrame:
 	.2byte 0
 
 BattleFrontier_BattleDomePreBattleRoom_EventScript_EnterRoom::
-	goto_if_eq VAR_0x8006, 1, BattleFrontier_BattleDomePreBattleRoom_EventScript_ReturnFromBattle
+// FIXME undefined reference: 	goto_if_eq VAR_0x8006, 1, BattleFrontier_BattleDomePreBattleRoom_EventScript_ReturnFromBattle
 	frontier_set FRONTIER_DATA_RECORD_DISABLED, TRUE
 	setvar VAR_TEMP_0, 1
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnter
@@ -214,7 +214,7 @@ BattleFrontier_BattleDomePreBattleRoom_EventScript_ReadyForTuckerGoldShort::
 	msgbox BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGoldShort, MSGBOX_DEFAULT
 	return
 
-BattleFrontier_BattleDomePreBattleRoom_EventScript_ReturnFromBattle::
+// FIXME undefined reference: BattleFrontier_BattleDomePreBattleRoom_EventScript_ReturnFromBattle::
 	setvar VAR_TEMP_0, 1
 	msgbox BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth, MSGBOX_DEFAULT
 	special LoadPlayerParty

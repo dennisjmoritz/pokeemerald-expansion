@@ -31,7 +31,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SevenIsland_TrainerTower_EventScript_Dario",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_TrainerTower_EventScript_Dario",
       "flag": "0"
     },
     {
@@ -45,7 +47,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SevenIsland_TrainerTower_EventScript_Rodette",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_TrainerTower_EventScript_Rodette",
       "flag": "0"
     }
   ],

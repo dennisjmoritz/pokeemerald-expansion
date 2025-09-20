@@ -13,10 +13,10 @@ SaffronCity_Mart_EventScript_Clerk::
 @	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
-	message Text_MayIHelpYou
+// FIXME undefined reference: 	message Text_MayIHelpYou
 	waitmessage
 	pokemart SaffronCity_Mart_Items
-	msgbox Text_PleaseComeAgain
+// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 

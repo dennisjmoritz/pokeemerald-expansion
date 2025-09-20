@@ -56,7 +56,7 @@ PewterCity_Museum_1F_EventScript_EntranceTriggerRight::
 	end
 
 PewterCity_Museum_1F_EventScript_EntranceTrigger::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	showmoneybox 0, 0
 	msgbox PewterCity_Museum_1F_Text_Its50YForChildsTicket, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, PewterCity_Museum_1F_EventScript_TryPayForTicket
@@ -175,9 +175,9 @@ PewterCity_Museum_1F_EventScript_AerodactylFossil::
 	setvar VAR_0x8004, SPECIES_AERODACTYL
 	setvar VAR_0x8005, 10
 	setvar VAR_0x8006, 3
-	special OpenMuseumFossilPic
+// FIXME undefined reference: 	special OpenMuseumFossilPic
 	msgbox PewterCity_Museum_1F_Text_AerodactylFossil
-	special CloseMuseumFossilPic
+// FIXME undefined reference: 	special CloseMuseumFossilPic
 	releaseall
 	end
 
@@ -186,9 +186,9 @@ PewterCity_Museum_1F_EventScript_KabutopsFossil::
 	setvar VAR_0x8004, SPECIES_KABUTOPS
 	setvar VAR_0x8005, 10
 	setvar VAR_0x8006, 3
-	special OpenMuseumFossilPic
+// FIXME undefined reference: 	special OpenMuseumFossilPic
 	msgbox PewterCity_Museum_1F_Text_KabutopsFossil
-	special CloseMuseumFossilPic
+// FIXME undefined reference: 	special CloseMuseumFossilPic
 	releaseall
 	end
 

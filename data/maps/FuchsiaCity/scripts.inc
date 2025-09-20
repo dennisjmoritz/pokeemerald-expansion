@@ -74,7 +74,7 @@ FuchsiaCity_EventScript_GymSign::
 FuchsiaCity_EventScript_ChanseySign::
 	lockall
 	setvar VAR_0x8004, SPECIES_CHANSEY
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_CHANSEY, 10, 3
 	msgbox FuchsiaCity_Text_ChanseySign
 	hidemonpic
@@ -84,7 +84,7 @@ FuchsiaCity_EventScript_ChanseySign::
 FuchsiaCity_EventScript_VoltorbSign::
 	lockall
 	setvar VAR_0x8004, SPECIES_VOLTORB
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_VOLTORB, 10, 3
 	msgbox FuchsiaCity_Text_VoltorbSign
 	hidemonpic
@@ -94,7 +94,7 @@ FuchsiaCity_EventScript_VoltorbSign::
 FuchsiaCity_EventScript_KangaskhanSign::
 	lockall
 	setvar VAR_0x8004, SPECIES_KANGASKHAN
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_KANGASKHAN, 10, 3
 	msgbox FuchsiaCity_Text_KangaskhanSign
 	hidemonpic
@@ -104,7 +104,7 @@ FuchsiaCity_EventScript_KangaskhanSign::
 FuchsiaCity_EventScript_SlowpokeSign::
 	lockall
 	setvar VAR_0x8004, SPECIES_SLOWPOKE
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_SLOWPOKE, 10, 3
 	msgbox FuchsiaCity_Text_SlowpokeSign
 	hidemonpic
@@ -114,7 +114,7 @@ FuchsiaCity_EventScript_SlowpokeSign::
 FuchsiaCity_EventScript_LaprasSign::
 	lockall
 	setvar VAR_0x8004, SPECIES_LAPRAS
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_LAPRAS, 10, 3
 	msgbox FuchsiaCity_Text_LaprasSign
 	hidemonpic
@@ -126,7 +126,7 @@ FuchsiaCity_EventScript_FossilMonSign::
 	goto_if_set FLAG_TEMP_1, FuchsiaCity_EventScript_OmanyteSign
 // Replaced FLAG_GOT_DOME_FOSSIL with FLAG_TEMP_1
 	setvar VAR_0x8004, SPECIES_KABUTO
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_KABUTO, 10, 3
 	msgbox FuchsiaCity_Text_KabutoSign
 	hidemonpic
@@ -135,7 +135,7 @@ FuchsiaCity_EventScript_FossilMonSign::
 
 FuchsiaCity_EventScript_OmanyteSign::
 	setvar VAR_0x8004, SPECIES_OMANYTE
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	showmonpic SPECIES_OMANYTE, 10, 3
 	msgbox FuchsiaCity_Text_OmanyteSign
 	hidemonpic

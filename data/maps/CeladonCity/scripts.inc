@@ -25,8 +25,8 @@ CeladonCity_EventScript_OldMan2::
 	msgbox CeladonCity_Text_BlewItAllAtSlots, MSGBOX_NPC
 	end
 
-CeladonCity_EventScript_SoftboiledTutor::
-	goto EventScript_SoftboiledTutor
+// FIXME undefined reference: CeladonCity_EventScript_SoftboiledTutor::
+// FIXME undefined reference: 	goto EventScript_SoftboiledTutor
 	end
 
 CeladonCity_EventScript_FatMan::

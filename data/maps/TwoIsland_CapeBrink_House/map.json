@@ -26,7 +26,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "TwoIsland_CapeBrink_House_EventScript_StarterTutor",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "TwoIsland_CapeBrink_House_EventScript_StarterTutor",
       "flag": "0"
     }
   ],

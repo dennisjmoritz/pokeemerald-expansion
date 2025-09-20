@@ -460,15 +460,15 @@ RustboroCity_Movement_EmployeeApproachPlayerFar:
 RustboroCity_EventScript_DevonEmployee1::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECOVERED_DEVON_GOODS, RustboroCity_EventScript_ReturnGoodsSpokeToEmployee
+// FIXME undefined reference: 	goto_if_set FLAG_RECOVERED_DEVON_GOODS, RustboroCity_EventScript_ReturnGoodsSpokeToEmployee
 	msgbox RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel, MSGBOX_DEFAULT
 	release
 	end
 
-RustboroCity_EventScript_ReturnGoodsSpokeToEmployee::
+// FIXME undefined reference: RustboroCity_EventScript_ReturnGoodsSpokeToEmployee::
 	waitse
 	setvar VAR_TEMP_1, 4
-	goto RustboroCity_EventScript_ReturnGoods
+// FIXME undefined reference: 	goto RustboroCity_EventScript_ReturnGoods
 	end
 
 RustboroCity_EventScript_HelpGetGoodsTrigger0::
@@ -562,31 +562,31 @@ RustboroCity_Movement_EmployeeApproachPlayerDown:
 	walk_down
 	step_end
 
-RustboroCity_EventScript_ReturnGoodsTrigger0::
+// FIXME undefined reference: RustboroCity_EventScript_ReturnGoodsTrigger0::
 	lockall
 	setvar VAR_TEMP_1, 0
-	goto RustboroCity_EventScript_ReturnGoods
+// FIXME undefined reference: 	goto RustboroCity_EventScript_ReturnGoods
 	end
 
-RustboroCity_EventScript_ReturnGoodsTrigger1::
+// FIXME undefined reference: RustboroCity_EventScript_ReturnGoodsTrigger1::
 	lockall
 	setvar VAR_TEMP_1, 1
-	goto RustboroCity_EventScript_ReturnGoods
+// FIXME undefined reference: 	goto RustboroCity_EventScript_ReturnGoods
 	end
 
-RustboroCity_EventScript_ReturnGoodsTrigger2::
+// FIXME undefined reference: RustboroCity_EventScript_ReturnGoodsTrigger2::
 	lockall
 	setvar VAR_TEMP_1, 2
-	goto RustboroCity_EventScript_ReturnGoods
+// FIXME undefined reference: 	goto RustboroCity_EventScript_ReturnGoods
 	end
 
-RustboroCity_EventScript_ReturnGoodsTrigger3::
+// FIXME undefined reference: RustboroCity_EventScript_ReturnGoodsTrigger3::
 	lockall
 	setvar VAR_TEMP_1, 3
-	goto RustboroCity_EventScript_ReturnGoods
+// FIXME undefined reference: 	goto RustboroCity_EventScript_ReturnGoods
 	end
 
-RustboroCity_EventScript_ReturnGoods::
+// FIXME undefined reference: RustboroCity_EventScript_ReturnGoods::
 	call_if_eq VAR_TEMP_1, 0, RustboroCity_EventScript_EmployeeFacePlayerUp2
 	call_if_eq VAR_TEMP_1, 1, RustboroCity_EventScript_EmployeeFacePlayerLeft2
 	call_if_eq VAR_TEMP_1, 2, RustboroCity_EventScript_EmployeeFacePlayerDown2

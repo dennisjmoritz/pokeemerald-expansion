@@ -53,7 +53,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PokemonMansion_3F_EventScript_ItemMaxPotion",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "PokemonMansion_3F_EventScript_ItemMaxPotion",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
@@ -68,7 +70,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PokemonMansion_3F_EventScript_ItemIron",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "PokemonMansion_3F_EventScript_ItemIron",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }

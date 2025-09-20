@@ -5,7 +5,7 @@ FiveIsland_MemorialPillar_EventScript_MemorialMan::
 	lock
 	goto_if_set FLAG_TEMP_1, FiveIsland_MemorialPillar_EventScript_AlreadyGotTM42
 // Replaced FLAG_GOT_TM42_AT_MEMORIAL_PILLAR with FLAG_TEMP_1
-	goto_if_set FLAG_TEMP_1, FiveIsland_MemorialPillar_EventScript_ReturnedForTM42
+// FIXME undefined reference: 	goto_if_set FLAG_TEMP_1, FiveIsland_MemorialPillar_EventScript_ReturnedForTM42
 // Replaced FLAG_NO_ROOM_FOR_TM42_AT_MEMORIAL_PILLAR with FLAG_TEMP_1
 	msgbox FiveIsland_MemorialPillar_Text_ScrubScrub
 	closemessage
@@ -24,7 +24,7 @@ FiveIsland_MemorialPillar_EventScript_AlreadyGotTM42::
 	release
 	end
 
-FiveIsland_MemorialPillar_EventScript_ReturnedForTM42::
+// FIXME undefined reference: FiveIsland_MemorialPillar_EventScript_ReturnedForTM42::
 	msgbox FiveIsland_MemorialPillar_Text_StillHaveThingAsMyThanks
 	giveitem ITEM_TM42
 	goto_if_eq VAR_RESULT, FALSE, FiveIsland_MemorialPillar_EventScript_NoRoomForTM42
@@ -34,7 +34,7 @@ FiveIsland_MemorialPillar_EventScript_ReturnedForTM42::
 
 FiveIsland_MemorialPillar_EventScript_Memorial::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	lockall
 	goto_if_set FLAG_TEMP_1, FiveIsland_MemorialPillar_EventScript_MemorialLemonadeAlreadyPlaced
 // Replaced FLAG_GOT_TM42_AT_MEMORIAL_PILLAR with FLAG_TEMP_1
@@ -61,7 +61,7 @@ FiveIsland_MemorialPillar_EventScript_PlaceLemonade::
 	delay 45
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FiveIsland_MemorialPillar_Text_ThankYouPleaseTakeThis
 	giveitem ITEM_TM42
 	goto_if_eq VAR_RESULT, FALSE, FiveIsland_MemorialPillar_EventScript_NoRoomForTM42

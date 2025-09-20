@@ -22,7 +22,7 @@ LilycoveCity_DepartmentStoreRooftop_EventScript_SaleWoman::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemartdecoration LilycoveCity_DepartmentStoreRooftop_PokemartDecor_ClearOutSale
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

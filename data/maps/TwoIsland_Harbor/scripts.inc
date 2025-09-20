@@ -7,5 +7,5 @@ TwoIsland_Harbor_EventScript_Sailor::
 	message Text_WhereDoYouWantToSail
 	waitmessage
 // 	setvar VAR_0x8004, SEAGALLOP_TWO_ISLAND
-	goto EventScript_ChooseDestFromTwoIsland
+// FIXME undefined reference: 	goto EventScript_ChooseDestFromTwoIsland
 	end

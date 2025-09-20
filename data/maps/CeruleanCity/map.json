@@ -37,7 +37,6 @@
   "object_events": [
     {
       "local_id": "LOCALID_CERULEAN_POLICEMAN",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 31,
       "y": 12,
@@ -52,7 +51,6 @@
     },
     {
       "local_id": "LOCALID_CERULEAN_GRUNT",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 33,
       "y": 6,
@@ -67,7 +65,6 @@
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
       "x": 16,
       "y": 21,
@@ -81,7 +78,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BALDING_MAN",
       "x": 9,
       "y": 23,
@@ -96,7 +92,6 @@
     },
     {
       "local_id": "LOCALID_CERULEAN_SLOWBRO",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SLOWBRO",
       "x": 32,
       "y": 29,
@@ -111,7 +106,6 @@
     },
     {
       "local_id": "LOCALID_CERULEAN_LASS",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LASS",
       "x": 33,
       "y": 29,
@@ -125,7 +119,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 34,
       "y": 22,
@@ -140,7 +133,6 @@
     },
     {
       "local_id": "LOCALID_CERULEAN_RIVAL",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BLUE",
       "x": 22,
       "y": 0,
@@ -155,7 +147,6 @@
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 26,
       "y": 32,
@@ -178,7 +169,6 @@
     },
     {
       "local_id": "LOCALID_CERULEAN_WOMAN",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
       "x": 12,
       "y": 30,
@@ -193,7 +183,6 @@
     },
     {
       "local_id": "LOCALID_CERULEAN_CAVE_GUARD",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_M",
       "x": 1,
       "y": 13,
@@ -393,9 +382,9 @@
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "sign",

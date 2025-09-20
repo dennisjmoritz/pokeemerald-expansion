@@ -23,7 +23,7 @@ SlateportCity_NameRatersHouse_EventScript_DeclineNameRate::
 	end
 
 SlateportCity_NameRatersHouse_EventScript_RateMonNickname::
-	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+// FIXME undefined reference: 	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
 	goto_if_eq VAR_RESULT, SPECIES_EGG, SlateportCity_NameRatersHouse_EventScript_CantRateEgg
 	special BufferMonNickname
 	special IsMonOTIDNotPlayers

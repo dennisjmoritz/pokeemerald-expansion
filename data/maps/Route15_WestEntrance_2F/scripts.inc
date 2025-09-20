@@ -11,7 +11,7 @@ Route15_WestEntrance_2F_EventScript_LeftBinoculars::
 	waitbuttonpress
 	hidemonpic
 	setvar VAR_0x8004, SPECIES_ARTICUNO
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	releaseall
 	end
 
@@ -26,15 +26,15 @@ Route15_WestEntrance_2F_EventScript_Aide::
 	goto_if_set FLAG_TEMP_1, Route15_WestEntrance_2F_EventScript_AlreadyGotExpShare
 // Replaced FLAG_GOT_EXP_SHARE_FROM_OAKS_AIDE with FLAG_TEMP_1
 	msgbox Route15_WestEntrance_2F_Text_GiveItemIfCaughtEnough, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Aide_EventScript_DeclineCheckMons
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, NO, Aide_EventScript_DeclineCheckMons
 	setvar VAR_0x8004, 0
-	specialvar VAR_RESULT, GetPokedexCount
+// FIXME undefined reference: 	specialvar VAR_RESULT, GetPokedexCount
 	buffernumberstring STR_VAR_3, VAR_0x8006
 	call Route15_WestEntrance_2F_EventScript_GetAideRequestInfo
-	goto_if_lt VAR_0x8006, REQUIRED_CAUGHT_MONS, Aide_EventScript_HaventCaughtEnough
+// FIXME undefined reference: 	goto_if_lt VAR_0x8006, REQUIRED_CAUGHT_MONS, Aide_EventScript_HaventCaughtEnough
 	msgbox Route15_WestEntrance_2F_Text_GreatHereYouGo
 	checkitemspace ITEM_EXP_SHARE
-	goto_if_eq VAR_RESULT, FALSE, Aide_EventScript_NoRoomForItem
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, Aide_EventScript_NoRoomForItem
 	msgbox Route15_WestEntrance_2F_Text_ReceivedItemFromAide, MSGBOX_DEFAULT
 	giveitem ITEM_EXP_SHARE
 	setflag FLAG_TEMP_1

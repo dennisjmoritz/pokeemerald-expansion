@@ -3,7 +3,7 @@ CeruleanCity_Gym_MapScripts::
 
 CeruleanCity_Gym_EventScript_Misty::
 @	famechecker FAMECHECKER_MISTY, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_MISTY, CeruleanCity_Gym_Text_MistyIntro, CeruleanCity_Gym_Text_MistyDefeat, CeruleanCity_Gym_EventScript_MistyDefeated, NO_MUSIC
+// FIXME undefined reference: 	trainerbattle_single TRAINER_LEADER_MISTY, CeruleanCity_Gym_Text_MistyIntro, CeruleanCity_Gym_Text_MistyDefeat, CeruleanCity_Gym_EventScript_MistyDefeated, NO_MUSIC
 	goto_if_unset FLAG_TEMP_1, CeruleanCity_Gym_EventScript_GiveTM03
 // Replaced FLAG_GOT_TM03_FROM_MISTY with FLAG_TEMP_1
 	msgbox CeruleanCity_Gym_Text_ExplainTM03
@@ -15,7 +15,7 @@ CeruleanCity_Gym_EventScript_MistyDefeated::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_DEFEATED_MISTY with FLAG_TEMP_1
 	setflag FLAG_BADGE02_GET
-	setrespawn HEAL_LOCATION_CERULEAN_CITY
+// FIXME undefined reference: 	setrespawn HEAL_LOCATION_CERULEAN_CITY
 @	set_gym_trainers 2
 	goto CeruleanCity_Gym_EventScript_GiveTM03
 	end
@@ -38,12 +38,12 @@ CeruleanCity_Gym_EventScript_NoRoomForTM03::
 	end
 
 CeruleanCity_Gym_EventScript_Diana::
-	trainerbattle_single TRAINER_PICNICKER_DIANA, CeruleanCity_Gym_Text_DianaIntro, CeruleanCity_Gym_Text_DianaDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_PICNICKER_DIANA, CeruleanCity_Gym_Text_DianaIntro, CeruleanCity_Gym_Text_DianaDefeat
 	msgbox CeruleanCity_Gym_Text_DianaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CeruleanCity_Gym_EventScript_Luis::
-	trainerbattle_single TRAINER_SWIMMER_MALE_LUIS, CeruleanCity_Gym_Text_LuisIntro, CeruleanCity_Gym_Text_LuisDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SWIMMER_MALE_LUIS, CeruleanCity_Gym_Text_LuisIntro, CeruleanCity_Gym_Text_LuisDefeat
 @	famechecker FAMECHECKER_MISTY, 2
 	msgbox CeruleanCity_Gym_Text_LuisPostBattle, MSGBOX_AUTOCLOSE
 	end

@@ -158,7 +158,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SilphCo_7F_EventScript_ItemCalcium",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_ItemCalcium",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
@@ -173,7 +175,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SilphCo_7F_EventScript_ItemTM08",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_ItemTM08",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
@@ -251,7 +255,9 @@
       "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door1"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -259,7 +265,9 @@
       "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door1"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -267,7 +275,9 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door1"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -275,7 +285,9 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door1"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -283,7 +295,9 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door2"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door2"
     },
     {
       "type": "sign",
@@ -291,7 +305,9 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door2"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door2"
     },
     {
       "type": "sign",
@@ -299,7 +315,9 @@
       "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door2"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door2"
     },
     {
       "type": "sign",
@@ -307,7 +325,9 @@
       "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door2"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door2"
     },
     {
       "type": "sign",
@@ -315,7 +335,9 @@
       "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door3"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door3"
     },
     {
       "type": "sign",
@@ -323,7 +345,9 @@
       "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door3"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door3"
     },
     {
       "type": "sign",
@@ -331,7 +355,9 @@
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door3"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door3"
     },
     {
       "type": "sign",
@@ -339,7 +365,9 @@
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_7F_EventScript_Door3"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_7F_EventScript_Door3"
     },
     {
       "type": "hidden_item",

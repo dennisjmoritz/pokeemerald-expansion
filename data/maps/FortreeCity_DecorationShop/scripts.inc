@@ -15,7 +15,7 @@ FortreeCity_DecorationShop_EventScript_ClerkDesks::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemartdecoration FortreeCity_DecorationShop_PokemartDecor_Desks
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -37,7 +37,7 @@ FortreeCity_DecorationShop_EventScript_ClerkChairs::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemartdecoration FortreeCity_DecorationShop_PokemartDecor_Chairs
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

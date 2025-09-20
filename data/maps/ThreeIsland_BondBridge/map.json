@@ -31,7 +31,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
-      "script": "ThreeIsland_BondBridge_EventScript_Nikki",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "ThreeIsland_BondBridge_EventScript_Nikki",
       "flag": "0"
     },
     {
@@ -45,7 +47,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "ThreeIsland_BondBridge_EventScript_Violet",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "ThreeIsland_BondBridge_EventScript_Violet",
       "flag": "0"
     },
     {
@@ -59,7 +63,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "ThreeIsland_BondBridge_EventScript_Amira",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "ThreeIsland_BondBridge_EventScript_Amira",
       "flag": "0"
     },
     {
@@ -73,7 +79,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "ThreeIsland_BondBridge_EventScript_Alexis",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "ThreeIsland_BondBridge_EventScript_Alexis",
       "flag": "0"
     },
     {
@@ -87,7 +95,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "ThreeIsland_BondBridge_EventScript_Tisha",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "ThreeIsland_BondBridge_EventScript_Tisha",
       "flag": "0"
     },
     {
@@ -101,7 +111,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "ThreeIsland_BondBridge_EventScript_Joy",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "ThreeIsland_BondBridge_EventScript_Joy",
       "flag": "0"
     },
     {
@@ -115,7 +127,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "ThreeIsland_BondBridge_EventScript_Meg",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "ThreeIsland_BondBridge_EventScript_Meg",
       "flag": "0"
     },
     {

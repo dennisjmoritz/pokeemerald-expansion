@@ -84,7 +84,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SilphCo_4F_EventScript_ItemMaxRevive",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_ItemMaxRevive",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
@@ -99,7 +101,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SilphCo_4F_EventScript_ItemEscapeRope",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_ItemEscapeRope",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
@@ -114,7 +118,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SilphCo_4F_EventScript_ItemFullHeal",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_ItemFullHeal",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
@@ -129,7 +135,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SilphCo_4F_EventScript_ItemTM41",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_ItemTM41",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
@@ -193,7 +201,9 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_4F_EventScript_Door1"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -201,7 +211,9 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_4F_EventScript_Door1"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -209,7 +221,9 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_4F_EventScript_Door1"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -217,7 +231,9 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_4F_EventScript_Door1"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -225,7 +241,9 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_4F_EventScript_Door2"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_Door2"
     },
     {
       "type": "sign",
@@ -233,7 +251,9 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_4F_EventScript_Door2"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_Door2"
     },
     {
       "type": "sign",
@@ -241,7 +261,9 @@
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_4F_EventScript_Door2"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_Door2"
     },
     {
       "type": "sign",
@@ -249,7 +271,9 @@
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SilphCo_4F_EventScript_Door2"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SilphCo_4F_EventScript_Door2"
     },
     {
       "type": "hidden_item",

@@ -55,7 +55,7 @@ CinnabarIsland_OnFrame::
 // Replaced VAR_MAP_SCENE_CINNABAR_ISLAND_2 with VAR_TEMP_0
 	map_script_2 VAR_TEMP_0, 1, CinnabarIsland_EventScript_BillScene
 // Replaced VAR_MAP_SCENE_CINNABAR_ISLAND with VAR_TEMP_0
-	map_script_2 VAR_TEMP_0, 3, CinnabarIsland_EventScript_ReturnFromSeviiIslands
+// FIXME undefined reference: 	map_script_2 VAR_TEMP_0, 3, CinnabarIsland_EventScript_ReturnFromSeviiIslands
 // Replaced VAR_MAP_SCENE_CINNABAR_ISLAND with VAR_TEMP_0
 	.2byte 0
 
@@ -63,7 +63,7 @@ CinnabarIsland_EventScript_ExitPokeCenterForOneIsland::
 	lockall
 	clearflag FLAG_DONT_TRANSITION_MUSIC
 	savebgm MUS_DUMMY
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	setvar VAR_TEMP_0, 2
 // Replaced VAR_MAP_SCENE_CINNABAR_ISLAND_2 with VAR_TEMP_0
 	delay 20
@@ -71,9 +71,9 @@ CinnabarIsland_EventScript_ExitPokeCenterForOneIsland::
 	releaseall
 	end
 
-CinnabarIsland_EventScript_ReturnFromSeviiIslands::
+// FIXME undefined reference: CinnabarIsland_EventScript_ReturnFromSeviiIslands::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain
 	closemessage
 	applymovement LOCALID_CINNABAR_BILL, CinnabarIsland_Movement_BillExit
@@ -99,7 +99,7 @@ CinnabarIsland_Movement_BillExit::
 
 CinnabarIsland_EventScript_BillScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	call_if_unset FLAG_TEMP_2, CinnabarIsland_EventScript_BillFacePlayer1
 	call_if_set FLAG_TEMP_2, CinnabarIsland_EventScript_BillFacePlayer2
 	playse SE_PIN
@@ -221,7 +221,7 @@ CinnabarIsland_EventScript_SailToOneIsland::
 // Replaced VAR_MAP_SCENE_ONE_ISLAND_HARBOR with VAR_TEMP_0
 // 	setvar VAR_0x8004, SEAGALLOP_CINNABAR_ISLAND
 // 	setvar VAR_0x8006, SEAGALLOP_ONE_ISLAND
-	goto EventScript_SetSail
+// FIXME undefined reference: 	goto EventScript_SetSail
 	end
 
 CinnabarIsland_EventScript_ApproachShore::

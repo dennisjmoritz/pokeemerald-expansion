@@ -36,10 +36,10 @@ CeruleanCity_EventScript_RivalTriggerRight::
 	end
 
 CeruleanCity_EventScript_Rival::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	setvar VAR_TEMP_0, 2
 // Replaced VAR_MAP_SCENE_ROUTE22 with VAR_TEMP_0
-	playbgm MUS_ENCOUNTER_RIVAL, 0
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_RIVAL, 0
 	addobject LOCALID_CERULEAN_RIVAL
 	applymovement LOCALID_CERULEAN_RIVAL, CeruleanCity_Movement_RivalEnter
 	waitmovement 0
@@ -51,7 +51,7 @@ CeruleanCity_EventScript_Rival::
 @	famechecker FAMECHECKER_BILL, 0
 	msgbox CeruleanCity_Text_RivalPostBattle
 	closemessage
-	playbgm MUS_RIVAL_EXIT, 0
+// FIXME undefined reference: 	playbgm MUS_RIVAL_EXIT, 0
 	call_if_eq VAR_TEMP_1, 0, CeruleanCity_EventScript_RivalStartExit
 	call_if_eq VAR_TEMP_1, 1, CeruleanCity_EventScript_RivalStartExit
 	call_if_eq VAR_TEMP_1, 2, CeruleanCity_EventScript_RivalStartExitRight
@@ -71,15 +71,15 @@ CeruleanCity_EventScript_Rival::
 	end
 
 CeruleanCity_EventScript_RivalSquirtle::
-	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_SQUIRTLE, CeruleanCity_Text_RivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_SQUIRTLE, CeruleanCity_Text_RivalDefeat
 	return
 
 CeruleanCity_EventScript_RivalBulbasaur::
-	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_BULBASAUR, CeruleanCity_Text_RivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_BULBASAUR, CeruleanCity_Text_RivalDefeat
 	return
 
 CeruleanCity_EventScript_RivalCharmander::
-	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_CHARMANDER, CeruleanCity_Text_RivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_CHARMANDER, CeruleanCity_Text_RivalDefeat
 	return
 
 CeruleanCity_EventScript_RivalStartExit::
@@ -169,12 +169,12 @@ CeruleanCity_Movement_RivalExit::
 CeruleanCity_EventScript_Grunt::
 	lock
 	faceplayer
-	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_5, CeruleanCity_EventScript_GruntDefeated
+// FIXME undefined reference: 	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_5, CeruleanCity_EventScript_GruntDefeated
 	message CeruleanCity_Text_GruntIntro
 	waitmessage
-	playbgm MUS_ENCOUNTER_ROCKET, 0
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_ROCKET, 0
 	waitbuttonpress
-	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_5, CeruleanCity_Text_GruntDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_5, CeruleanCity_Text_GruntDefeat
 	setvar VAR_TEMP_0, 1
 // Replaced VAR_MAP_SCENE_CERULEAN_CITY_ROCKET with VAR_TEMP_0
 	goto CeruleanCity_EventScript_GruntDefeated
@@ -197,7 +197,7 @@ CeruleanCity_EventScript_GruntDefeated::
 	end
 
 CeruleanCity_EventScript_NoRoomForTM28::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CeruleanCity_Text_MakeRoomForThisCantRun
 	release
 	end
@@ -223,10 +223,10 @@ CeruleanCity_EventScript_GruntTriggerBottom::
 	end
 
 CeruleanCity_EventScript_GruntTrigger::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CeruleanCity_Text_GruntIntro
 	setvar VAR_LAST_TALKED, LOCALID_CERULEAN_GRUNT
-	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_5, CeruleanCity_Text_GruntDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_5, CeruleanCity_Text_GruntDefeat
 	setvar VAR_TEMP_0, 1
 // Replaced VAR_MAP_SCENE_CERULEAN_CITY_ROCKET with VAR_TEMP_0
 	goto CeruleanCity_EventScript_GruntDefeated

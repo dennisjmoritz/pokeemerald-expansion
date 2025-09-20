@@ -1894,3 +1894,80 @@ const struct Tileset gTileset_Sinnoh_General =
     .metatileAttributes = gMetatileAttributes_Sinnoh_General,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Windworks =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Windworks,
+    .palettes = gTilesetPalettes_Windworks,
+    .metatiles = gMetatiles_Windworks,
+    .metatileAttributes = gMetatileAttributes_Windworks,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_SinnohValor =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_SinnohValor,
+    .palettes = gTilesetPalettes_SinnohValor,
+    .metatiles = gMetatiles_SinnohValor,
+    .metatileAttributes = gMetatileAttributes_SinnohValor,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Sinnoh_Petalburg =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Sinnoh_Petalburg,
+    .palettes = gTilesetPalettes_Sinnoh_Petalburg,
+    .metatiles = gMetatiles_Sinnoh_Petalburg,
+    .metatileAttributes = gMetatileAttributes_Sinnoh_Petalburg,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Sinnoh_Rustboro =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Sinnoh_Rustboro,
+    .palettes = gTilesetPalettes_Sinnoh_Rustboro,
+    .metatiles = gMetatiles_Sinnoh_Rustboro,
+    .metatileAttributes = gMetatileAttributes_Sinnoh_Rustboro,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Sinnoh_Mauville =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Sinnoh_Mauville,
+    .palettes = gTilesetPalettes_Sinnoh_Mauville,
+    .metatiles = gMetatiles_Sinnoh_Mauville,
+    .metatileAttributes = gMetatileAttributes_Sinnoh_Mauville,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Sinnoh_Lilycove =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Sinnoh_Lilycove,
+    .palettes = gTilesetPalettes_Sinnoh_Lilycove,
+    .metatiles = gMetatiles_Sinnoh_Lilycove,
+    .metatileAttributes = gMetatileAttributes_Sinnoh_Lilycove,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Sinnoh_Lavaridge =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Sinnoh_Lavaridge,
+    .palettes = gTilesetPalettes_Sinnoh_Lavaridge,
+    .metatiles = gMetatiles_Sinnoh_Lavaridge,
+    .metatileAttributes = gMetatileAttributes_Sinnoh_Lavaridge,
+    .callback = NULL,
+};

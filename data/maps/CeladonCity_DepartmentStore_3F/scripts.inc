@@ -1,8 +1,8 @@
 CeladonCity_DepartmentStore_3F_MapScripts::
 	.byte 0
 
-CeladonCity_DepartmentStore_3F_EventScript_CounterTutor::
-	goto EventScript_CounterTutor
+// FIXME undefined reference: CeladonCity_DepartmentStore_3F_EventScript_CounterTutor::
+// FIXME undefined reference: 	goto EventScript_CounterTutor
 	end
 
 CeladonCity_DepartmentStore_3F_EventScript_GBAKid1::

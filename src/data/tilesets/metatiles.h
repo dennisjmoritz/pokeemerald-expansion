@@ -493,3 +493,24 @@ const u16 gMetatileAttributes_Pasos[] = INCBIN_U16("data/tilesets/secondary/paso
 
 const u16 gMetatiles_Sinnoh_General[] = INCBIN_U16("data/tilesets/primary/sinnoh_general/metatiles.bin");
 const u16 gMetatileAttributes_Sinnoh_General[] = INCBIN_U16("data/tilesets/primary/sinnoh_general/metatile_attributes.bin");
+
+const u16 gMetatiles_Windworks[] = INCBIN_U16("data/tilesets/secondary/windworks/metatiles.bin");
+const u16 gMetatileAttributes_Windworks[] = INCBIN_U16("data/tilesets/secondary/windworks/metatile_attributes.bin");
+
+const u16 gMetatiles_SinnohValor[] = INCBIN_U16("data/tilesets/secondary/sinnoh_valor/metatiles.bin");
+const u16 gMetatileAttributes_SinnohValor[] = INCBIN_U16("data/tilesets/secondary/sinnoh_valor/metatile_attributes.bin");
+
+const u16 gMetatiles_Sinnoh_Petalburg[] = INCBIN_U16("data/tilesets/secondary/sinnoh_petalburg/metatiles.bin");
+const u16 gMetatileAttributes_Sinnoh_Petalburg[] = INCBIN_U16("data/tilesets/secondary/sinnoh_petalburg/metatile_attributes.bin");
+
+const u16 gMetatiles_Sinnoh_Rustboro[] = INCBIN_U16("data/tilesets/secondary/sinnoh_rustboro/metatiles.bin");
+const u16 gMetatileAttributes_Sinnoh_Rustboro[] = INCBIN_U16("data/tilesets/secondary/sinnoh_rustboro/metatile_attributes.bin");
+
+const u16 gMetatiles_Sinnoh_Mauville[] = INCBIN_U16("data/tilesets/secondary/sinnoh_mauville/metatiles.bin");
+const u16 gMetatileAttributes_Sinnoh_Mauville[] = INCBIN_U16("data/tilesets/secondary/sinnoh_mauville/metatile_attributes.bin");
+
+const u16 gMetatiles_Sinnoh_Lilycove[] = INCBIN_U16("data/tilesets/secondary/sinnoh_lilycove/metatiles.bin");
+const u16 gMetatileAttributes_Sinnoh_Lilycove[] = INCBIN_U16("data/tilesets/secondary/sinnoh_lilycove/metatile_attributes.bin");
+
+const u16 gMetatiles_Sinnoh_Lavaridge[] = INCBIN_U16("data/tilesets/secondary/sinnoh_lavaridge/metatiles.bin");
+const u16 gMetatileAttributes_Sinnoh_Lavaridge[] = INCBIN_U16("data/tilesets/secondary/sinnoh_lavaridge/metatile_attributes.bin");

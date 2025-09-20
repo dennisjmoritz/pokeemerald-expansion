@@ -53,7 +53,9 @@
       "y": 1,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
-      "script": "FourIsland_PokemonCenter_1F_EventScript_PokemonJournal"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "FourIsland_PokemonCenter_1F_EventScript_PokemonJournal"
     },
     {
       "type": "sign",
@@ -61,7 +63,9 @@
       "y": 1,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
-      "script": "FourIsland_PokemonCenter_1F_EventScript_PokemonJournal"
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "FourIsland_PokemonCenter_1F_EventScript_PokemonJournal"
     }
   ]
 }

@@ -23,7 +23,7 @@ SlateportCity_BattleTentCorridor_OnFrame:
 	.2byte 0
 
 SlateportCity_BattleTentCorridor_EventScript_EnterCorridor::
-	goto_if_eq VAR_0x8006, 1, SlateportCity_BattleTentCorridor_EventScript_ReturnToRoomFromBattle
+// FIXME undefined reference: 	goto_if_eq VAR_0x8006, 1, SlateportCity_BattleTentCorridor_EventScript_ReturnToRoomFromBattle
 	setvar VAR_TEMP_0, 1
 	applymovement LOCALID_SLATEPORT_TENT_CORRIDOR_ATTENDANT, SlateportCity_BattleTentCorridor_Movement_AttendantEnter
 	applymovement LOCALID_PLAYER, SlateportCity_BattleTentCorridor_Movement_PlayerEnter
@@ -51,7 +51,7 @@ SlateportCity_BattleTentCorridor_EventScript_EnterBattleRoom::
 	waitstate
 	end
 
-SlateportCity_BattleTentCorridor_EventScript_ReturnToRoomFromBattle::
+// FIXME undefined reference: SlateportCity_BattleTentCorridor_EventScript_ReturnToRoomFromBattle::
 	factory_setopponentmons
 	factory_resethelditems
 	msgbox BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons, MSGBOX_DEFAULT

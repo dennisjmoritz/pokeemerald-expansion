@@ -3,7 +3,7 @@ SilphCo_10F_MapScripts::
 	.byte 0
 
 SilphCo_10F_OnLoad::
-	call_if_unset FLAG_TEMP_1, EventScript_Close10FDoor
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close10FDoor
 // Replaced FLAG_SILPH_10F_DOOR with FLAG_TEMP_1
 	end
 
@@ -26,12 +26,12 @@ SilphCo_10F_EventScript_FloorSign::
 	end
 
 SilphCo_10F_EventScript_Travis::
-	trainerbattle_single TRAINER_SCIENTIST_TRAVIS, SilphCo_10F_Text_TravisIntro, SilphCo_10F_Text_TravisDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SCIENTIST_TRAVIS, SilphCo_10F_Text_TravisIntro, SilphCo_10F_Text_TravisDefeat
 	msgbox SilphCo_10F_Text_TravisPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SilphCo_10F_EventScript_Grunt::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_39, SilphCo_10F_Text_GruntIntro, SilphCo_10F_Text_GruntDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_39, SilphCo_10F_Text_GruntIntro, SilphCo_10F_Text_GruntDefeat
 	msgbox SilphCo_10F_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
 	end
 

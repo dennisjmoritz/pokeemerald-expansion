@@ -146,14 +146,14 @@ RustboroCity_DevonCorp_2F_EventScript_ReceiveLileep::
 	givemon SPECIES_LILEEP, 20
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, RustboroCity_DevonCorp_2F_EventScript_ReceiveLileepParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, RustboroCity_DevonCorp_2F_EventScript_ReceiveLileepPC
-	goto Common_EventScript_NoMoreRoomForPokemon
+// FIXME undefined reference: 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ReceiveLileepParty::
 	call RustboroCity_DevonCorp_2F_EventScript_ReceivedLileepFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_FinishReceivingLileep
-	call Common_EventScript_GetGiftMonPartySlot
+// FIXME undefined reference: 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
 	goto RustboroCity_DevonCorp_2F_EventScript_FinishReceivingLileep
 	end
@@ -162,12 +162,12 @@ RustboroCity_DevonCorp_2F_EventScript_ReceiveLileepPC::
 	call RustboroCity_DevonCorp_2F_EventScript_ReceivedLileepFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_TransferLileepToPC
-	call Common_EventScript_NameReceivedBoxMon
+// FIXME undefined reference: 	call Common_EventScript_NameReceivedBoxMon
 	goto RustboroCity_DevonCorp_2F_EventScript_TransferLileepToPC
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_TransferLileepToPC::
-	call Common_EventScript_TransferredToPC
+// FIXME undefined reference: 	call Common_EventScript_TransferredToPC
 	goto RustboroCity_DevonCorp_2F_EventScript_FinishReceivingLileep
 	end
 
@@ -191,14 +191,14 @@ RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorith::
 	givemon SPECIES_ANORITH, 20
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorithParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorithPC
-	goto Common_EventScript_NoMoreRoomForPokemon
+// FIXME undefined reference: 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorithParty::
 	call RustboroCity_DevonCorp_2F_EventScript_ReceivedAnorithFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_FinishReceivingAnorith
-	call Common_EventScript_GetGiftMonPartySlot
+// FIXME undefined reference: 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
 	goto RustboroCity_DevonCorp_2F_EventScript_FinishReceivingAnorith
 	end
@@ -207,12 +207,12 @@ RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorithPC::
 	call RustboroCity_DevonCorp_2F_EventScript_ReceivedAnorithFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_TransferAnorithToPC
-	call Common_EventScript_NameReceivedBoxMon
+// FIXME undefined reference: 	call Common_EventScript_NameReceivedBoxMon
 	goto RustboroCity_DevonCorp_2F_EventScript_TransferAnorithToPC
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_TransferAnorithToPC::
-	call Common_EventScript_TransferredToPC
+// FIXME undefined reference: 	call Common_EventScript_TransferredToPC
 	goto RustboroCity_DevonCorp_2F_EventScript_FinishReceivingAnorith
 	end
 

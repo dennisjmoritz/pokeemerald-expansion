@@ -30,7 +30,7 @@
     },
     {
       "local_id": "LOCALID_FACTORY_BATTLE_OPPONENT",
-      "graphics_id": "OBJ_EVENT_GFX_VAR_TEMP_0",
+      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 7,
       "y": 4,
       "elevation": 0,
@@ -114,7 +114,7 @@
     },
     {
       "local_id": "LOCALID_FACTORY_BATTLE_PLAYER",
-      "graphics_id": "OBJ_EVENT_GFX_VAR_TEMP_F",
+      "graphics_id": "OBJ_EVENT_GFX_VAR_F",
       "x": 5,
       "y": 11,
       "elevation": 0,

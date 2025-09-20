@@ -16,7 +16,7 @@ SevenIsland_House_Room1_EventScript_SetTrainerVisitingLayout::
 	setvar TRAINER_VISITING, TRUE
 	setobjectxyperm LOCALID_SEVEN_ISLAND_HOUSE_OLD_WOMAN, 4, 2
 	setobjectmovementtype LOCALID_SEVEN_ISLAND_HOUSE_OLD_WOMAN, MOVEMENT_TYPE_FACE_DOWN
-	setmaplayoutindex LAYOUT_SEVEN_ISLAND_HOUSE_ROOM1_DOOR_OPEN
+// FIXME undefined reference: 	setmaplayoutindex LAYOUT_SEVEN_ISLAND_HOUSE_ROOM1_DOOR_OPEN
 	return
 
 SevenIsland_House_Room1_EventScript_MoveOldWomanToDoor::
@@ -35,7 +35,7 @@ SevenIsland_House_Room1_OnFrame::
 
 SevenIsland_House_Room1_EventScript_OldWomanCommentOnBattle::
 	lockall
-	textcolor NPC_TEXT_COLOR_FEMALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	applymovement LOCALID_PLAYER, SevenIsland_House_Room1_Movement_PlayerReEnterRoom
 	waitmovement 0
 	applymovement LOCALID_SEVEN_ISLAND_HOUSE_OLD_WOMAN, SevenIsland_House_Room1_Movement_OldWomanWalkBehindPlayer
@@ -101,10 +101,10 @@ SevenIsland_House_Room1_EventScript_TrainerVisiting::
 	msgbox SevenIsland_House_Room1_Text_SaveProgressBeforeBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SevenIsland_House_Room1_EventScript_DeclineBattle
 	special LoadPlayerParty
-	call EventScript_AskSaveGame
+// FIXME undefined reference: 	call EventScript_AskSaveGame
 	goto_if_eq VAR_RESULT, 0, SevenIsland_House_Room1_EventScript_DeclineBattle
 	special SavePlayerParty
-	special ReducePlayerPartyToThree
+// FIXME undefined reference: 	special ReducePlayerPartyToThree
 	msgbox SevenIsland_House_Room1_Text_DontHoldAnythingBack
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, SevenIsland_House_Room1_EventScript_EnterBattleRoomNorth

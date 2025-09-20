@@ -7,7 +7,7 @@ PokemonLeague_AgathasRoom_MapScripts::
 
 PokemonLeague_AgathasRoom_OnResume::
 	setvar VAR_0x8004, 2
-	call PokemonLeague_EventScript_DoLightingEffect
+// FIXME undefined reference: 	call PokemonLeague_EventScript_DoLightingEffect
 	end
 
 PokemonLeague_AgathasRoom_OnLoad::
@@ -18,11 +18,11 @@ PokemonLeague_AgathasRoom_OnLoad::
 	end
 
 PokemonLeague_AgathasRoom_EventScript_CloseEntry::
-	call PokemonLeague_EventScript_CloseEntry
+// FIXME undefined reference: 	call PokemonLeague_EventScript_CloseEntry
 	return
 
 PokemonLeague_AgathasRoom_EventScript_SetDoorOpen::
-	call PokemonLeague_EventScript_SetDoorOpen
+// FIXME undefined reference: 	call PokemonLeague_EventScript_SetDoorOpen
 	return
 
 PokemonLeague_AgathasRoom_OnWarp::
@@ -40,7 +40,7 @@ PokemonLeague_AgathasRoom_OnFrame::
 
 PokemonLeague_AgathasRoom_EventScript_EnterRoom::
 	lockall
-	call PokemonLeague_EventScript_EnterRoom
+// FIXME undefined reference: 	call PokemonLeague_EventScript_EnterRoom
 	setvar VAR_TEMP_0, 3
 // Replaced VAR_MAP_SCENE_POKEMON_LEAGUE with VAR_TEMP_0
 	releaseall
@@ -76,11 +76,11 @@ PokemonLeague_AgathasRoom_EventScript_RematchIntro::
 	return
 
 PokemonLeague_AgathasRoom_EventScript_Battle::
-	trainerbattle_no_intro TRAINER_ELITE_FOUR_AGATHA, PokemonLeague_AgathasRoom_Text_Defeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_ELITE_FOUR_AGATHA, PokemonLeague_AgathasRoom_Text_Defeat
 	return
 
 PokemonLeague_AgathasRoom_EventScript_Rematch::
-	trainerbattle_no_intro TRAINER_ELITE_FOUR_AGATHA_2, PokemonLeague_AgathasRoom_Text_Defeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_ELITE_FOUR_AGATHA_2, PokemonLeague_AgathasRoom_Text_Defeat
 	return
 
 PokemonLeague_AgathasRoom_EventScript_PostBattle::
@@ -91,7 +91,7 @@ PokemonLeague_AgathasRoom_EventScript_PostBattle::
 PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_DEFEATED_AGATHA with FLAG_TEMP_1
-	call PokemonLeague_EventScript_OpenDoor
+// FIXME undefined reference: 	call PokemonLeague_EventScript_OpenDoor
 	msgbox PokemonLeague_AgathasRoom_Text_PostBattle
 	release
 	end

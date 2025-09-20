@@ -50,7 +50,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "FiveIsland_WaterLabyrinth_EventScript_Alize",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "FiveIsland_WaterLabyrinth_EventScript_Alize",
       "flag": "0"
     }
   ],

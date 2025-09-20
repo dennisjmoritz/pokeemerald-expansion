@@ -5,17 +5,17 @@ SixIsland_WaterPath_House1_EventScript_Beauty::
 	lock
 	faceplayer
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	setvar VAR_0x8004, SPECIES_HERACROSS
-	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
+// FIXME undefined reference: 	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
 	goto_if_eq VAR_RESULT, FALSE, SixIsland_WaterPath_House1_EventScript_NoHeracrossInParty
-	special GetHeracrossSizeRecordInfo
+// FIXME undefined reference: 	special GetHeracrossSizeRecordInfo
 	msgbox SixIsland_WaterPath_House1_Text_MayIMeasureHeracross
 	special ChoosePartyMon
 	waitstate
 	copyvar VAR_RESULT, VAR_0x8004
 	goto_if_ge VAR_RESULT, PARTY_SIZE, SixIsland_WaterPath_House1_EventScript_DontShowMon
-	special CompareHeracrossSize
+// FIXME undefined reference: 	special CompareHeracrossSize
 	goto_if_eq VAR_RESULT, 1, SixIsland_WaterPath_House1_EventScript_ShownNonHeracross
 	goto_if_eq VAR_RESULT, 2, SixIsland_WaterPath_House1_EventScript_ShownSmallHeracross
 	goto_if_eq VAR_RESULT, 3, SixIsland_WaterPath_House1_EventScript_ShownBigHeracross
@@ -75,7 +75,7 @@ SixIsland_WaterPath_House1_EventScript_SizeRecord::
 	end
 
 SixIsland_WaterPath_House1_EventScript_SizeRecordNonEmpty::
-	special GetHeracrossSizeRecordInfo
+// FIXME undefined reference: 	special GetHeracrossSizeRecordInfo
 	msgbox SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches
 	releaseall
 	end

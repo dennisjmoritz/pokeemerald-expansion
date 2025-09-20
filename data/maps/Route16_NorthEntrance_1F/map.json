@@ -88,7 +88,9 @@
       "elevation": 3,
       "var": "VAR_TEMP_0",
       "var_value": "1",
-      "script": "EventScript_SetExitingCyclingRoad",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "EventScript_SetExitingCyclingRoad",
       "var_comment": "Replaced VAR_TEMP_0 with VAR_TEMP_0"
     },
     {
@@ -98,7 +100,9 @@
       "elevation": 3,
       "var": "VAR_TEMP_0",
       "var_value": "0",
-      "script": "EventScript_SetEnteringCyclingRoad",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "EventScript_SetEnteringCyclingRoad",
       "var_comment": "Replaced VAR_TEMP_0 with VAR_TEMP_0"
     },
     {
@@ -126,7 +130,9 @@
       "elevation": 3,
       "var": "VAR_TEMP_0",
       "var_value": "0",
-      "script": "EventScript_SetEnteringCyclingRoad",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "EventScript_SetEnteringCyclingRoad",
       "var_comment": "Replaced VAR_TEMP_0 with VAR_TEMP_0"
     },
     {
@@ -136,7 +142,9 @@
       "elevation": 3,
       "var": "VAR_TEMP_0",
       "var_value": "0",
-      "script": "EventScript_SetEnteringCyclingRoad",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "EventScript_SetEnteringCyclingRoad",
       "var_comment": "Replaced VAR_TEMP_0 with VAR_TEMP_0"
     },
     {
@@ -146,7 +154,9 @@
       "elevation": 3,
       "var": "VAR_TEMP_0",
       "var_value": "1",
-      "script": "EventScript_SetExitingCyclingRoad",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "EventScript_SetExitingCyclingRoad",
       "var_comment": "Replaced VAR_TEMP_0 with VAR_TEMP_0"
     },
     {
@@ -156,7 +166,9 @@
       "elevation": 3,
       "var": "VAR_TEMP_0",
       "var_value": "1",
-      "script": "EventScript_SetExitingCyclingRoad",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "EventScript_SetExitingCyclingRoad",
       "var_comment": "Replaced VAR_TEMP_0 with VAR_TEMP_0"
     },
     {

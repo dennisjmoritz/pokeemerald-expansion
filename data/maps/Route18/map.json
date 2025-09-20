@@ -26,7 +26,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
       "x": 46,
       "y": 14,
@@ -36,11 +35,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "Route18_EventScript_Jacob",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route18_EventScript_Jacob",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
       "x": 41,
       "y": 15,
@@ -50,11 +50,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route18_EventScript_Ramiro",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route18_EventScript_Ramiro",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
       "x": 39,
       "y": 12,
@@ -64,7 +65,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "6",
-      "script": "Route18_EventScript_Wilton",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route18_EventScript_Wilton",
       "flag": "0"
     }
   ],

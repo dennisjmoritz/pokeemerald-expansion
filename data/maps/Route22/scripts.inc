@@ -22,8 +22,8 @@ Route22_EventScript_EarlyRivalTriggerBottom::
 	end
 
 Route22_EventScript_EarlyRival::
-	textcolor NPC_TEXT_COLOR_MALE
-	playbgm MUS_ENCOUNTER_RIVAL, 0
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_RIVAL, 0
 	addobject LOCALID_ROUTE22_RIVAL
 	call_if_eq VAR_TEMP_1, 0, Route22_EventScript_EarlyRivalApproach
 	call_if_eq VAR_TEMP_1, 1, Route22_EventScript_EarlyRivalApproach
@@ -36,7 +36,7 @@ Route22_EventScript_EarlyRival::
 	msgbox Route22_Text_EarlyRivalPostBattle
 	closemessage
 	delay 10
-	playbgm MUS_RIVAL_EXIT, 0
+// FIXME undefined reference: 	playbgm MUS_RIVAL_EXIT, 0
 	call_if_eq VAR_TEMP_1, 0, Route22_EventScript_EarlyRivalExit
 	call_if_eq VAR_TEMP_1, 1, Route22_EventScript_EarlyRivalExit
 	call_if_eq VAR_TEMP_1, 2, Route22_EventScript_EarlyRivalExitBottom
@@ -174,8 +174,8 @@ Route22_EventScript_LateRivalTriggerBottom::
 	end
 
 Route22_EventScript_LateRival::
-	textcolor NPC_TEXT_COLOR_MALE
-	playbgm MUS_ENCOUNTER_RIVAL, 0
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_RIVAL, 0
 	addobject LOCALID_ROUTE22_RIVAL
 	call_if_eq VAR_TEMP_1, 0, Route22_EventScript_LateRivalApproach
 	call_if_eq VAR_TEMP_1, 1, Route22_EventScript_LateRivalApproach
@@ -188,7 +188,7 @@ Route22_EventScript_LateRival::
 	msgbox Route22_Text_LateRivalPostBattle
 	closemessage
 	delay 10
-	playbgm MUS_RIVAL_EXIT, 0
+// FIXME undefined reference: 	playbgm MUS_RIVAL_EXIT, 0
 	applymovement LOCALID_ROUTE22_RIVAL, Route22_Movement_LateRivalExit
 	waitmovement 0
 	fadedefaultbgm
@@ -210,15 +210,15 @@ Route22_EventScript_LateRivalApproachBottom::
 	return
 
 Route22_EventScript_LateRivalSquirtle::
-	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE, Route22_Text_LateRivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE, Route22_Text_LateRivalDefeat
 	return
 
 Route22_EventScript_LateRivalBulbasaur::
-	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR, Route22_Text_LateRivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR, Route22_Text_LateRivalDefeat
 	return
 
 Route22_EventScript_LateRivalCharmander::
-	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER, Route22_Text_LateRivalDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER, Route22_Text_LateRivalDefeat
 	return
 
 Route22_Movement_LateRivalExit::

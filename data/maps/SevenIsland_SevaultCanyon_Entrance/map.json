@@ -36,7 +36,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
-      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Miah",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_SevaultCanyon_Entrance_EventScript_Miah",
       "flag": "0"
     },
     {
@@ -50,7 +52,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Eve",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_SevaultCanyon_Entrance_EventScript_Eve",
       "flag": "0"
     },
     {
@@ -64,7 +68,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Jon",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_SevaultCanyon_Entrance_EventScript_Jon",
       "flag": "0"
     },
     {
@@ -78,7 +84,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Nicolas",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_SevaultCanyon_Entrance_EventScript_Nicolas",
       "flag": "0"
     },
     {
@@ -92,7 +100,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Madeline",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_SevaultCanyon_Entrance_EventScript_Madeline",
       "flag": "0"
     },
     {
@@ -106,7 +116,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Mason",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_SevaultCanyon_Entrance_EventScript_Mason",
       "flag": "0"
     },
     {

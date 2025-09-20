@@ -7,5 +7,5 @@ ThreeIsland_Harbor_EventScript_Sailor::
 	message Text_WhereDoYouWantToSail
 	waitmessage
 // 	setvar VAR_0x8004, SEAGALLOP_THREE_ISLAND
-	goto EventScript_ChooseDestFromIsland
+// FIXME undefined reference: 	goto EventScript_ChooseDestFromIsland
 	end

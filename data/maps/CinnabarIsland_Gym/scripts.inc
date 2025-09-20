@@ -54,7 +54,7 @@ CinnabarIsland_Gym_OnLoadOpenDoor6::
 
 CinnabarIsland_Gym_EventScript_Blaine::
 @	famechecker FAMECHECKER_BLAINE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_BLAINE, CinnabarIsland_Gym_Text_BlaineIntro, CinnabarIsland_Gym_Text_BlaineDefeat, CinnabarIsland_Gym_EventScript_DefeatedBlaine, NO_MUSIC
+// FIXME undefined reference: 	trainerbattle_single TRAINER_LEADER_BLAINE, CinnabarIsland_Gym_Text_BlaineIntro, CinnabarIsland_Gym_Text_BlaineDefeat, CinnabarIsland_Gym_EventScript_DefeatedBlaine, NO_MUSIC
 	goto_if_unset FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_GiveTM38
 // Replaced FLAG_GOT_TM38_FROM_BLAINE with FLAG_TEMP_1
 	msgbox CinnabarIsland_Gym_Text_BlainePostBattle
@@ -66,7 +66,7 @@ CinnabarIsland_Gym_EventScript_DefeatedBlaine::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_DEFEATED_BLAINE with FLAG_TEMP_1
 	setflag FLAG_BADGE07_GET
-	setrespawn HEAL_LOCATION_CINNABAR_ISLAND
+// FIXME undefined reference: 	setrespawn HEAL_LOCATION_CINNABAR_ISLAND
 	setvar VAR_TEMP_0, 1
 // Replaced VAR_MAP_SCENE_CINNABAR_ISLAND with VAR_TEMP_0
 	clearflag FLAG_TEMP_1
@@ -93,12 +93,12 @@ CinnabarIsland_Gym_EventScript_NoRoomForTM38::
 	end
 
 CinnabarIsland_Gym_EventScript_Erik::
-	trainerbattle_single TRAINER_SUPER_NERD_ERIK, CinnabarIsland_Gym_Text_ErikIntro, CinnabarIsland_Gym_Text_ErikDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SUPER_NERD_ERIK, CinnabarIsland_Gym_Text_ErikIntro, CinnabarIsland_Gym_Text_ErikDefeat
 	msgbox CinnabarIsland_Gym_Text_ErikPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CinnabarIsland_Gym_EventScript_Avery::
-	trainerbattle_single TRAINER_SUPER_NERD_AVERY, CinnabarIsland_Gym_Text_AveryIntro, CinnabarIsland_Gym_Text_AveryDefeat, CinnabarIsland_Gym_EventScript_DefeatedAvery
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SUPER_NERD_AVERY, CinnabarIsland_Gym_Text_AveryIntro, CinnabarIsland_Gym_Text_AveryDefeat, CinnabarIsland_Gym_EventScript_DefeatedAvery
 	msgbox CinnabarIsland_Gym_Text_AveryPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -113,7 +113,7 @@ CinnabarIsland_Gym_EventScript_Quiz2CompleteTrainer::
 	return
 
 CinnabarIsland_Gym_EventScript_Derek::
-	trainerbattle_single TRAINER_SUPER_NERD_DEREK, CinnabarIsland_Gym_Text_DerekIntro, CinnabarIsland_Gym_Text_DerekDefeat, CinnabarIsland_Gym_EventScript_DefeatedDerek
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SUPER_NERD_DEREK, CinnabarIsland_Gym_Text_DerekIntro, CinnabarIsland_Gym_Text_DerekDefeat, CinnabarIsland_Gym_EventScript_DefeatedDerek
 @	famechecker FAMECHECKER_BLAINE, 2
 	msgbox CinnabarIsland_Gym_Text_DerekPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -129,7 +129,7 @@ CinnabarIsland_Gym_EventScript_Quiz4CompleteTrainer::
 	return
 
 CinnabarIsland_Gym_EventScript_Zac::
-	trainerbattle_single TRAINER_SUPER_NERD_ZAC, CinnabarIsland_Gym_Text_ZacIntro, CinnabarIsland_Gym_Text_ZacDefeat, CinnabarIsland_Gym_EventScript_DefeatedZac
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SUPER_NERD_ZAC, CinnabarIsland_Gym_Text_ZacIntro, CinnabarIsland_Gym_Text_ZacDefeat, CinnabarIsland_Gym_EventScript_DefeatedZac
 	msgbox CinnabarIsland_Gym_Text_ZacPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -144,7 +144,7 @@ CinnabarIsland_Gym_EventScript_Quiz6CompleteTrainer::
 	return
 
 CinnabarIsland_Gym_EventScript_Quinn::
-	trainerbattle_single TRAINER_BURGLAR_QUINN, CinnabarIsland_Gym_Text_QuinnIntro, CinnabarIsland_Gym_Text_QuinnDefeat, CinnabarIsland_Gym_EventScript_DefeatedQuinn
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BURGLAR_QUINN, CinnabarIsland_Gym_Text_QuinnIntro, CinnabarIsland_Gym_Text_QuinnDefeat, CinnabarIsland_Gym_EventScript_DefeatedQuinn
 	msgbox CinnabarIsland_Gym_Text_QuinnPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -159,7 +159,7 @@ CinnabarIsland_Gym_EventScript_Quiz1CompleteTrainer::
 	return
 
 CinnabarIsland_Gym_EventScript_Ramon::
-	trainerbattle_single TRAINER_BURGLAR_RAMON, CinnabarIsland_Gym_Text_RamonIntro, CinnabarIsland_Gym_Text_RamonDefeat, CinnabarIsland_Gym_EventScript_DefeatedRamon
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BURGLAR_RAMON, CinnabarIsland_Gym_Text_RamonIntro, CinnabarIsland_Gym_Text_RamonDefeat, CinnabarIsland_Gym_EventScript_DefeatedRamon
 	msgbox CinnabarIsland_Gym_Text_RamonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -174,7 +174,7 @@ CinnabarIsland_Gym_EventScript_Quiz3CompleteTrainer::
 	return
 
 CinnabarIsland_Gym_EventScript_Dusty::
-	trainerbattle_single TRAINER_BURGLAR_DUSTY, CinnabarIsland_Gym_Text_DustyIntro, CinnabarIsland_Gym_Text_DustyDefeat, CinnabarIsland_Gym_EventScript_DefeatedDusty
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BURGLAR_DUSTY, CinnabarIsland_Gym_Text_DustyIntro, CinnabarIsland_Gym_Text_DustyDefeat, CinnabarIsland_Gym_EventScript_DefeatedDusty
 	msgbox CinnabarIsland_Gym_Text_DustyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -270,16 +270,16 @@ CinnabarIsland_Gym_EventScript_DoorAlreadyOpen::
 
 CinnabarIsland_Gym_EventScript_Quiz1Incorrect::
 	call CinnabarIsland_Gym_EventScript_IncorrectAnswer
-	goto_if_not_defeated TRAINER_BURGLAR_QUINN, CinnabarIsland_Gym_EventScript_BattleQuinn
+// FIXME undefined reference: 	goto_if_not_defeated TRAINER_BURGLAR_QUINN, CinnabarIsland_Gym_EventScript_BattleQuinn
 	releaseall
 	end
 
 CinnabarIsland_Gym_EventScript_BattleQuinn::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_QuinnApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_QuinnApproachRight
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_QuinnIntro
-	trainerbattle_no_intro TRAINER_BURGLAR_QUINN, CinnabarIsland_Gym_Text_QuinnDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_BURGLAR_QUINN, CinnabarIsland_Gym_Text_QuinnDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 // Replaced FLAG_CINNABAR_GYM_QUIZ_1 with FLAG_TEMP_1
 	call CinnabarIsland_Gym_EventScript_Quiz1Complete
@@ -345,16 +345,16 @@ CinnabarIsland_Gym_EventScript_Quiz2Complete::
 
 CinnabarIsland_Gym_EventScript_Quiz2Incorrect::
 	call CinnabarIsland_Gym_EventScript_IncorrectAnswer
-	goto_if_not_defeated TRAINER_SUPER_NERD_AVERY, CinnabarIsland_Gym_EventScript_BattleAvery
+// FIXME undefined reference: 	goto_if_not_defeated TRAINER_SUPER_NERD_AVERY, CinnabarIsland_Gym_EventScript_BattleAvery
 	releaseall
 	end
 
 CinnabarIsland_Gym_EventScript_BattleAvery::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_AveryApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_AveryApproachRight
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_AveryIntro
-	trainerbattle_no_intro TRAINER_SUPER_NERD_AVERY, CinnabarIsland_Gym_Text_AveryDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_SUPER_NERD_AVERY, CinnabarIsland_Gym_Text_AveryDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 // Replaced FLAG_CINNABAR_GYM_QUIZ_2 with FLAG_TEMP_1
 	call CinnabarIsland_Gym_EventScript_Quiz2Complete
@@ -429,16 +429,16 @@ CinnabarIsland_Gym_EventScript_Quiz3Complete::
 
 CinnabarIsland_Gym_EventScript_Quiz3Incorrect::
 	call CinnabarIsland_Gym_EventScript_IncorrectAnswer
-	goto_if_not_defeated TRAINER_BURGLAR_RAMON, CinnabarIsland_Gym_EventScript_BattleRamon
+// FIXME undefined reference: 	goto_if_not_defeated TRAINER_BURGLAR_RAMON, CinnabarIsland_Gym_EventScript_BattleRamon
 	releaseall
 	end
 
 CinnabarIsland_Gym_EventScript_BattleRamon::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_RamonApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_RamonApproachRight
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_RamonIntro
-	trainerbattle_no_intro TRAINER_BURGLAR_RAMON, CinnabarIsland_Gym_Text_RamonDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_BURGLAR_RAMON, CinnabarIsland_Gym_Text_RamonDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 // Replaced FLAG_CINNABAR_GYM_QUIZ_3 with FLAG_TEMP_1
 	call CinnabarIsland_Gym_EventScript_Quiz3Complete
@@ -504,16 +504,16 @@ CinnabarIsland_Gym_EventScript_Quiz4Complete::
 
 CinnabarIsland_Gym_EventScript_Quiz4Incorrect::
 	call CinnabarIsland_Gym_EventScript_IncorrectAnswer
-	goto_if_not_defeated TRAINER_SUPER_NERD_DEREK, CinnabarIsland_Gym_EventScript_BattleDerek
+// FIXME undefined reference: 	goto_if_not_defeated TRAINER_SUPER_NERD_DEREK, CinnabarIsland_Gym_EventScript_BattleDerek
 	releaseall
 	end
 
 CinnabarIsland_Gym_EventScript_BattleDerek::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_DerekApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_DerekApproachRight
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_DerekIntro
-	trainerbattle_no_intro TRAINER_SUPER_NERD_DEREK, CinnabarIsland_Gym_Text_DerekDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_SUPER_NERD_DEREK, CinnabarIsland_Gym_Text_DerekDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 // Replaced FLAG_CINNABAR_GYM_QUIZ_4 with FLAG_TEMP_1
 	call CinnabarIsland_Gym_EventScript_Quiz4Complete
@@ -579,16 +579,16 @@ CinnabarIsland_Gym_EventScript_Quiz5Complete::
 
 CinnabarIsland_Gym_EventScript_Quiz5Incorrect::
 	call CinnabarIsland_Gym_EventScript_IncorrectAnswer
-	goto_if_not_defeated TRAINER_BURGLAR_DUSTY, CinnabarIsland_Gym_EventScript_BattleDusty
+// FIXME undefined reference: 	goto_if_not_defeated TRAINER_BURGLAR_DUSTY, CinnabarIsland_Gym_EventScript_BattleDusty
 	releaseall
 	end
 
 CinnabarIsland_Gym_EventScript_BattleDusty::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_DustyApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_DustyApproachRight
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_DustyIntro
-	trainerbattle_no_intro TRAINER_BURGLAR_DUSTY, CinnabarIsland_Gym_Text_DustyDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_BURGLAR_DUSTY, CinnabarIsland_Gym_Text_DustyDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 // Replaced FLAG_CINNABAR_GYM_QUIZ_5 with FLAG_TEMP_1
 	call CinnabarIsland_Gym_EventScript_Quiz5Complete
@@ -654,16 +654,16 @@ CinnabarIsland_Gym_EventScript_Quiz6Complete::
 
 CinnabarIsland_Gym_EventScript_Quiz6Incorrect::
 	call CinnabarIsland_Gym_EventScript_IncorrectAnswer
-	goto_if_not_defeated TRAINER_SUPER_NERD_ZAC, CinnabarIsland_Gym_EventScript_BattleZac
+// FIXME undefined reference: 	goto_if_not_defeated TRAINER_SUPER_NERD_ZAC, CinnabarIsland_Gym_EventScript_BattleZac
 	releaseall
 	end
 
 CinnabarIsland_Gym_EventScript_BattleZac::
 	call_if_eq VAR_TEMP_1, 0, CinnabarIsland_Gym_EventScript_ZacApproachLeft
 	call_if_eq VAR_TEMP_1, 1, CinnabarIsland_Gym_EventScript_ZacApproachRight
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_ZacIntro
-	trainerbattle_no_intro TRAINER_SUPER_NERD_ZAC, CinnabarIsland_Gym_Text_ZacDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_SUPER_NERD_ZAC, CinnabarIsland_Gym_Text_ZacDefeat
 	goto_if_set FLAG_TEMP_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 // Replaced FLAG_CINNABAR_GYM_QUIZ_6 with FLAG_TEMP_1
 	call CinnabarIsland_Gym_EventScript_Quiz6Complete
@@ -692,59 +692,59 @@ CinnabarIsland_Gym_Movement_ZacApproachRight::
 	step_end
 
 CinnabarIsland_Gym_EventScript_OpenDoor1::
-	setmetatile 26,  8, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
-	setmetatile 27,  8, METATILE_CinnabarGym_Floor_WallRightCorner, 0
-	setmetatile 26,  9, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
-	setmetatile 27,  9, METATILE_CinnabarGym_Floor_WallRightEdge, 0
-	setmetatile 26, 10, METATILE_CinnabarGym_Floor_ShadeFull, 0
-	setmetatile 27, 10, METATILE_CinnabarGym_Floor, 0
-	setmetatile 28, 10, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
+// FIXME undefined reference: 	setmetatile 26,  8, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
+// FIXME undefined reference: 	setmetatile 27,  8, METATILE_CinnabarGym_Floor_WallRightCorner, 0
+// FIXME undefined reference: 	setmetatile 26,  9, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
+// FIXME undefined reference: 	setmetatile 27,  9, METATILE_CinnabarGym_Floor_WallRightEdge, 0
+// FIXME undefined reference: 	setmetatile 26, 10, METATILE_CinnabarGym_Floor_ShadeFull, 0
+// FIXME undefined reference: 	setmetatile 27, 10, METATILE_CinnabarGym_Floor, 0
+// FIXME undefined reference: 	setmetatile 28, 10, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
 	return
 
 CinnabarIsland_Gym_EventScript_OpenDoor2::
-	setmetatile 17,  8, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
-	setmetatile 18,  8, METATILE_CinnabarGym_Floor_WallRightCorner, 0
-	setmetatile 17,  9, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
-	setmetatile 18,  9, METATILE_CinnabarGym_Floor_WallRightEdge, 0
-	setmetatile 17, 10, METATILE_CinnabarGym_Floor_ShadeFull, 0
-	setmetatile 18, 10, METATILE_CinnabarGym_Floor, 0
-	setmetatile 19, 10, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
+// FIXME undefined reference: 	setmetatile 17,  8, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
+// FIXME undefined reference: 	setmetatile 18,  8, METATILE_CinnabarGym_Floor_WallRightCorner, 0
+// FIXME undefined reference: 	setmetatile 17,  9, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
+// FIXME undefined reference: 	setmetatile 18,  9, METATILE_CinnabarGym_Floor_WallRightEdge, 0
+// FIXME undefined reference: 	setmetatile 17, 10, METATILE_CinnabarGym_Floor_ShadeFull, 0
+// FIXME undefined reference: 	setmetatile 18, 10, METATILE_CinnabarGym_Floor, 0
+// FIXME undefined reference: 	setmetatile 19, 10, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
 	return
 
 CinnabarIsland_Gym_EventScript_OpenDoor3::
-	setmetatile 17, 15, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
-	setmetatile 18, 15, METATILE_CinnabarGym_Floor_WallRightCorner, 0
-	setmetatile 17, 16, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
-	setmetatile 18, 16, METATILE_CinnabarGym_Floor_WallRightEdge, 0
-	setmetatile 17, 17, METATILE_CinnabarGym_Floor_ShadeFull, 0
-	setmetatile 18, 17, METATILE_CinnabarGym_Floor, 0
-	setmetatile 19, 17, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
+// FIXME undefined reference: 	setmetatile 17, 15, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
+// FIXME undefined reference: 	setmetatile 18, 15, METATILE_CinnabarGym_Floor_WallRightCorner, 0
+// FIXME undefined reference: 	setmetatile 17, 16, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
+// FIXME undefined reference: 	setmetatile 18, 16, METATILE_CinnabarGym_Floor_WallRightEdge, 0
+// FIXME undefined reference: 	setmetatile 17, 17, METATILE_CinnabarGym_Floor_ShadeFull, 0
+// FIXME undefined reference: 	setmetatile 18, 17, METATILE_CinnabarGym_Floor, 0
+// FIXME undefined reference: 	setmetatile 19, 17, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
 	return
 
 CinnabarIsland_Gym_EventScript_OpenDoor4::
-	setmetatile 11, 21, METATILE_CinnabarGym_Wall_RetractedBarrier, 1
-	setmetatile 11, 22, METATILE_CinnabarGym_Floor_ShadeFull, 0
-	setmetatile 11, 23, METATILE_CinnabarGym_Floor, 0
+// FIXME undefined reference: 	setmetatile 11, 21, METATILE_CinnabarGym_Wall_RetractedBarrier, 1
+// FIXME undefined reference: 	setmetatile 11, 22, METATILE_CinnabarGym_Floor_ShadeFull, 0
+// FIXME undefined reference: 	setmetatile 11, 23, METATILE_CinnabarGym_Floor, 0
 	return
 
 CinnabarIsland_Gym_EventScript_OpenDoor5::
-	setmetatile  5, 16, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
-	setmetatile  6, 16, METATILE_CinnabarGym_Floor_WallRightCorner, 0
-	setmetatile  5, 17, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
-	setmetatile  6, 17, METATILE_CinnabarGym_Floor_WallRightEdge, 0
-	setmetatile  5, 18, METATILE_CinnabarGym_Floor_ShadeFull, 0
-	setmetatile  6, 18, METATILE_CinnabarGym_Floor, 0
-	setmetatile  7, 18, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
+// FIXME undefined reference: 	setmetatile  5, 16, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
+// FIXME undefined reference: 	setmetatile  6, 16, METATILE_CinnabarGym_Floor_WallRightCorner, 0
+// FIXME undefined reference: 	setmetatile  5, 17, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
+// FIXME undefined reference: 	setmetatile  6, 17, METATILE_CinnabarGym_Floor_WallRightEdge, 0
+// FIXME undefined reference: 	setmetatile  5, 18, METATILE_CinnabarGym_Floor_ShadeFull, 0
+// FIXME undefined reference: 	setmetatile  6, 18, METATILE_CinnabarGym_Floor, 0
+// FIXME undefined reference: 	setmetatile  7, 18, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
 	return
 
 CinnabarIsland_Gym_EventScript_OpenDoor6::
-	setmetatile  5,  8, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
-	setmetatile  6,  8, METATILE_CinnabarGym_Floor_WallRightCorner, 0
-	setmetatile  5,  9, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
-	setmetatile  6,  9, METATILE_CinnabarGym_Floor_WallRightEdge, 0
-	setmetatile  5, 10, METATILE_CinnabarGym_Floor_ShadeFull, 0
-	setmetatile  6, 10, METATILE_CinnabarGym_Floor, 0
-	setmetatile  7, 10, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
+// FIXME undefined reference: 	setmetatile  5,  8, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
+// FIXME undefined reference: 	setmetatile  6,  8, METATILE_CinnabarGym_Floor_WallRightCorner, 0
+// FIXME undefined reference: 	setmetatile  5,  9, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
+// FIXME undefined reference: 	setmetatile  6,  9, METATILE_CinnabarGym_Floor_WallRightEdge, 0
+// FIXME undefined reference: 	setmetatile  5, 10, METATILE_CinnabarGym_Floor_ShadeFull, 0
+// FIXME undefined reference: 	setmetatile  6, 10, METATILE_CinnabarGym_Floor, 0
+// FIXME undefined reference: 	setmetatile  7, 10, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
 	return
 
 CinnabarIsland_Gym_Text_BlaineIntro::

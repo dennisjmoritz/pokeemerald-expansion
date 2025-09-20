@@ -29,10 +29,10 @@ FourIsland_OnFrame::
 
 FourIsland_EventScript_RivalScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_FOUR_ISLAND_RIVAL, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
-	playbgm MUS_ENCOUNTER_RIVAL, 0
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_RIVAL, 0
 	applymovement LOCALID_FOUR_ISLAND_RIVAL, Common_Movement_ExclamationMark
 	waitmovement 0
 	applymovement LOCALID_FOUR_ISLAND_RIVAL, Common_Movement_Delay48
@@ -74,7 +74,7 @@ FourIsland_Movement_PlayerWatchRivalExit::
 
 FourIsland_EventScript_DaycareMan::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	special GetDaycareMonNicknames
@@ -82,16 +82,16 @@ FourIsland_EventScript_DaycareMan::
 	goto_if_eq VAR_RESULT, DAYCARE_EGG_WAITING, FourIsland_EventScript_DaycareEggWaiting
 	goto_if_eq VAR_RESULT, DAYCARE_ONE_MON, FourIsland_EventScript_CheckOnOneMon
 	goto_if_eq VAR_RESULT, DAYCARE_TWO_MONS, FourIsland_EventScript_CheckOnTwoMons
-	msgbox DayCare_Text_ImDaycareManSpeakToMyWife
+// FIXME undefined reference: 	msgbox DayCare_Text_ImDaycareManSpeakToMyWife
 	release
 	end
 
 FourIsland_EventScript_DaycareEggWaiting::
-	msgbox DayCare_Text_DoYouWantEgg, MSGBOX_YESNO
+// FIXME undefined reference: 	msgbox DayCare_Text_DoYouWantEgg, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, FourIsland_EventScript_DaycareAcceptEgg
-	msgbox DayCare_Text_IWillKeepDoYouWantIt, MSGBOX_YESNO
+// FIXME undefined reference: 	msgbox DayCare_Text_IWillKeepDoYouWantIt, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, FourIsland_EventScript_DaycareAcceptEgg
-	msgbox DayCare_Text_IllKeepIt
+// FIXME undefined reference: 	msgbox DayCare_Text_IllKeepIt
 	clearflag FLAG_PENDING_DAYCARE_EGG
 	special RejectEggFromDayCare
 	release
@@ -100,18 +100,18 @@ FourIsland_EventScript_DaycareEggWaiting::
 FourIsland_EventScript_DaycareAcceptEgg::
 	specialvar VAR_RESULT, CalculatePlayerPartyCount
 	goto_if_ne VAR_RESULT, PARTY_SIZE, FourIsland_EventScript_DaycareReceivedEgg
-	msgbox DayCare_Text_YouHaveNoRoomForIt
+// FIXME undefined reference: 	msgbox DayCare_Text_YouHaveNoRoomForIt
 	release
 	end
 
 FourIsland_EventScript_DaycareReceivedEgg::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
-	message DayCare_Text_ReceivedEgg
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	message DayCare_Text_ReceivedEgg
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	playfanfare MUS_LEVEL_UP
 	waitfanfare
 	waitbuttonpress
-	msgbox DayCare_Text_TakeGoodCareOfIt
+// FIXME undefined reference: 	msgbox DayCare_Text_TakeGoodCareOfIt
 	special GiveEggFromDaycare
 	clearflag FLAG_PENDING_DAYCARE_EGG
 	release
@@ -119,13 +119,13 @@ FourIsland_EventScript_DaycareReceivedEgg::
 
 FourIsland_EventScript_CheckOnOneMon::
 	special GetDaycareMonNicknames
-	msgbox DayCare_Text_YourMonIsDoingFine
+// FIXME undefined reference: 	msgbox DayCare_Text_YourMonIsDoingFine
 	release
 	end
 
 FourIsland_EventScript_CheckOnTwoMons::
 	special GetDaycareMonNicknames
-	msgbox DayCare_Text_YourMonsAreDoingFine
+// FIXME undefined reference: 	msgbox DayCare_Text_YourMonsAreDoingFine
 	special SetDaycareCompatibilityString
 	special ShowFieldMessageStringVar4
 	waitmessage

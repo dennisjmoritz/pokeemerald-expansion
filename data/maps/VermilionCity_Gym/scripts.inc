@@ -15,29 +15,29 @@ VermilionCity_Gym_OnLoad::
 	end
 
 VermilionCity_Gym_EventScript_SetOneBeamOff::
-	setmetatile 3, 6, METATILE_VermilionGym_Beam_Node_TopLeft_HalfOn, 1
-	setmetatile 4, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Edge_HalfOn, 1
-	setmetatile 5, 6, METATILE_VermilionGym_Beam_MidTop_HalfOn, 1
-	setmetatile 6, 6, METATILE_VermilionGym_Beam_Node_TopRight_Edge_HalfOn, 1
-	setmetatile 7, 6, METATILE_VermilionGym_Beam_Node_TopRight_HalfOn, 1
-	setmetatile 3, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_HalfOn, 1
-	setmetatile 4, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Edge_HalfOn, 1
-	setmetatile 5, 7, METATILE_VermilionGym_Beam_MidBottom_HalfOn, 1
-	setmetatile 6, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Edge_HalfOn, 1
-	setmetatile 7, 7, METATILE_VermilionGym_Beam_Node_BottomRight_HalfOn, 1
+// FIXME undefined reference: 	setmetatile 3, 6, METATILE_VermilionGym_Beam_Node_TopLeft_HalfOn, 1
+// FIXME undefined reference: 	setmetatile 4, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Edge_HalfOn, 1
+// FIXME undefined reference: 	setmetatile 5, 6, METATILE_VermilionGym_Beam_MidTop_HalfOn, 1
+// FIXME undefined reference: 	setmetatile 6, 6, METATILE_VermilionGym_Beam_Node_TopRight_Edge_HalfOn, 1
+// FIXME undefined reference: 	setmetatile 7, 6, METATILE_VermilionGym_Beam_Node_TopRight_HalfOn, 1
+// FIXME undefined reference: 	setmetatile 3, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_HalfOn, 1
+// FIXME undefined reference: 	setmetatile 4, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Edge_HalfOn, 1
+// FIXME undefined reference: 	setmetatile 5, 7, METATILE_VermilionGym_Beam_MidBottom_HalfOn, 1
+// FIXME undefined reference: 	setmetatile 6, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Edge_HalfOn, 1
+// FIXME undefined reference: 	setmetatile 7, 7, METATILE_VermilionGym_Beam_Node_BottomRight_HalfOn, 1
 	return
 
 VermilionCity_Gym_EventScript_SetBeamsOff::
-	setmetatile 3, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Off, 1
-	setmetatile 4, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Edge_Off, 0
-	setmetatile 5, 6, METATILE_VermilionGym_Floor, 0
-	setmetatile 6, 6, METATILE_VermilionGym_Beam_Node_TopRight_Edge_Off, 0
-	setmetatile 7, 6, METATILE_VermilionGym_Beam_Node_TopRight_Off, 1
-	setmetatile 3, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Off, 1
-	setmetatile 4, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Edge_Off, 0
-	setmetatile 5, 7, METATILE_VermilionGym_Floor, 0
-	setmetatile 6, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Edge_Off, 0
-	setmetatile 7, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Off, 1
+// FIXME undefined reference: 	setmetatile 3, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Off, 1
+// FIXME undefined reference: 	setmetatile 4, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Edge_Off, 0
+// FIXME undefined reference: 	setmetatile 5, 6, METATILE_VermilionGym_Floor, 0
+// FIXME undefined reference: 	setmetatile 6, 6, METATILE_VermilionGym_Beam_Node_TopRight_Edge_Off, 0
+// FIXME undefined reference: 	setmetatile 7, 6, METATILE_VermilionGym_Beam_Node_TopRight_Off, 1
+// FIXME undefined reference: 	setmetatile 3, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Off, 1
+// FIXME undefined reference: 	setmetatile 4, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Edge_Off, 0
+// FIXME undefined reference: 	setmetatile 5, 7, METATILE_VermilionGym_Floor, 0
+// FIXME undefined reference: 	setmetatile 6, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Edge_Off, 0
+// FIXME undefined reference: 	setmetatile 7, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Off, 1
 	return
 
 VermilionCity_Gym_OnTransition::
@@ -45,9 +45,9 @@ VermilionCity_Gym_OnTransition::
 	end
 
 VermilionCity_Gym_EventScript_InitTrashCans::
-	goto_if_set FLAG_TEMP_1, EventScript_Return
+// FIXME undefined reference: 	goto_if_set FLAG_TEMP_1, EventScript_Return
 // Replaced FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES with FLAG_TEMP_1
-	special SetVermilionTrashCans
+// FIXME undefined reference: 	special SetVermilionTrashCans
 	copyvar VAR_TEMP_0, SWITCH1_ID
 	copyvar VAR_TEMP_1, SWITCH2_ID
 	return
@@ -144,7 +144,7 @@ VermilionCity_Gym_EventScript_TrashCan15::
 
 VermilionCity_Gym_EventScript_TrashCan::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	copyvar SWITCH1_ID, VAR_TEMP_0
 	copyvar SWITCH2_ID, VAR_TEMP_1
 	goto_if_set FLAG_TEMP_1, VermilionCity_Gym_EventScript_LocksAlreadyOpen
@@ -169,7 +169,7 @@ VermilionCity_Gym_EventScript_TrySwitchTwo::
 	goto_if_eq SWITCH2_ID, TRASH_CAN_ID, VermilionCity_Gym_EventScript_FoundSwitchTwo
 	msgbox VermilionCity_Gym_Text_OnlyTrashLocksWereReset
 	clearflag FOUND_FIRST_SWITCH
-	special SetVermilionTrashCans
+// FIXME undefined reference: 	special SetVermilionTrashCans
 	copyvar VAR_TEMP_0, SWITCH1_ID
 	copyvar VAR_TEMP_1, SWITCH2_ID
 	call VermilionCity_Gym_EventScript_SetBeamsOn
@@ -195,21 +195,21 @@ VermilionCity_Gym_EventScript_LocksAlreadyOpen::
 	end
 
 VermilionCity_Gym_EventScript_SetBeamsOn::
-	setmetatile 3, 6, METATILE_VermilionGym_Beam_Node_TopLeft_On, 1
-	setmetatile 4, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Edge_On, 1
-	setmetatile 5, 6, METATILE_VermilionGym_Beam_MidTop, 1
-	setmetatile 6, 6, METATILE_VermilionGym_Beam_Node_TopRight_Edge_On, 1
-	setmetatile 7, 6, METATILE_VermilionGym_Beam_Node_TopRight_On, 1
-	setmetatile 3, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_On, 1
-	setmetatile 4, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Edge_On, 1
-	setmetatile 5, 7, METATILE_VermilionGym_Beam_MidBottom, 1
-	setmetatile 6, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Edge_On, 1
-	setmetatile 7, 7, METATILE_VermilionGym_Beam_Node_BottomRight_On, 1
+// FIXME undefined reference: 	setmetatile 3, 6, METATILE_VermilionGym_Beam_Node_TopLeft_On, 1
+// FIXME undefined reference: 	setmetatile 4, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Edge_On, 1
+// FIXME undefined reference: 	setmetatile 5, 6, METATILE_VermilionGym_Beam_MidTop, 1
+// FIXME undefined reference: 	setmetatile 6, 6, METATILE_VermilionGym_Beam_Node_TopRight_Edge_On, 1
+// FIXME undefined reference: 	setmetatile 7, 6, METATILE_VermilionGym_Beam_Node_TopRight_On, 1
+// FIXME undefined reference: 	setmetatile 3, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_On, 1
+// FIXME undefined reference: 	setmetatile 4, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Edge_On, 1
+// FIXME undefined reference: 	setmetatile 5, 7, METATILE_VermilionGym_Beam_MidBottom, 1
+// FIXME undefined reference: 	setmetatile 6, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Edge_On, 1
+// FIXME undefined reference: 	setmetatile 7, 7, METATILE_VermilionGym_Beam_Node_BottomRight_On, 1
 	return
 
 VermilionCity_Gym_EventScript_LtSurge::
 @	famechecker FAMECHECKER_LTSURGE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_LT_SURGE, VermilionCity_Gym_Text_LtSurgeIntro, VermilionCity_Gym_Text_LtSurgeDefeat, VermilionCity_Gym_EventScript_DefeatedLtSurge, NO_MUSIC
+// FIXME undefined reference: 	trainerbattle_single TRAINER_LEADER_LT_SURGE, VermilionCity_Gym_Text_LtSurgeIntro, VermilionCity_Gym_Text_LtSurgeDefeat, VermilionCity_Gym_EventScript_DefeatedLtSurge, NO_MUSIC
 	goto_if_unset FLAG_TEMP_1, VermilionCity_Gym_EventScript_GiveTM34
 // Replaced FLAG_GOT_TM34_FROM_SURGE with FLAG_TEMP_1
 	msgbox VermilionCity_Gym_Text_LtSurgePostBattle
@@ -252,18 +252,18 @@ VermilionCity_Gym_EventScript_NoRoomForTM34::
 	end
 
 VermilionCity_Gym_EventScript_Dwayne::
-	trainerbattle_single TRAINER_SAILOR_DWAYNE, VermilionCity_Gym_Text_DwayneIntro, VermilionCity_Gym_Text_DwayneDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SAILOR_DWAYNE, VermilionCity_Gym_Text_DwayneIntro, VermilionCity_Gym_Text_DwayneDefeat
 @	famechecker FAMECHECKER_LTSURGE, 4
 	msgbox VermilionCity_Gym_Text_DwaynePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VermilionCity_Gym_EventScript_Baily::
-	trainerbattle_single TRAINER_ENGINEER_BAILY, VermilionCity_Gym_Text_BailyIntro, VermilionCity_Gym_Text_BailyDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_ENGINEER_BAILY, VermilionCity_Gym_Text_BailyIntro, VermilionCity_Gym_Text_BailyDefeat
 	msgbox VermilionCity_Gym_Text_BailyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VermilionCity_Gym_EventScript_Tucker::
-	trainerbattle_single TRAINER_GENTLEMAN_TUCKER, VermilionCity_Gym_Text_TuckerIntro, VermilionCity_Gym_Text_TuckerDefeat, VermilionCity_Gym_EventScript_DefeatedTucker
+// FIXME undefined reference: 	trainerbattle_single TRAINER_GENTLEMAN_TUCKER, VermilionCity_Gym_Text_TuckerIntro, VermilionCity_Gym_Text_TuckerDefeat, VermilionCity_Gym_EventScript_DefeatedTucker
 @	famechecker FAMECHECKER_LTSURGE, 3
 	msgbox VermilionCity_Gym_Text_TuckerPostBattle, MSGBOX_AUTOCLOSE
 	end

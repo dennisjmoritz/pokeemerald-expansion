@@ -6,14 +6,14 @@ RocketHideout_Elevator_EventScript_FloorSelect::
 	goto_if_unset FLAG_TEMP_1, RocketHideout_Elevator_EventScript_NeedKey
 // Replaced FLAG_CAN_USE_ROCKET_HIDEOUT_LIFT with FLAG_TEMP_1
 	setvar VAR_0x8004, 2
-	call_if_unset FLAG_TEMP_2, EventScript_GetElevatorFloor
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_2, EventScript_GetElevatorFloor
 	copyvar VAR_0x8005, VAR_TEMP_0
 // Replaced VAR_ELEVATOR_FLOOR with VAR_TEMP_0
-	special DrawElevatorCurrentFloorWindow
-	message Text_WantWhichFloor
+// FIXME undefined reference: 	special DrawElevatorCurrentFloorWindow
+// FIXME undefined reference: 	message Text_WantWhichFloor
 	waitmessage
 	setvar VAR_0x8004, 2
-	specialvar VAR_RESULT, InitElevatorFloorSelectMenuPos
+// FIXME undefined reference: 	specialvar VAR_RESULT, InitElevatorFloorSelectMenuPos
 	switch VAR_RESULT
 	case 0, RocketHideout_Elevator_EventScript_FloorSelectFromB1F
 	case 1, RocketHideout_Elevator_EventScript_FloorSelectFromB2F
@@ -21,17 +21,17 @@ RocketHideout_Elevator_EventScript_FloorSelect::
 	end
 
 RocketHideout_Elevator_EventScript_FloorSelectFromB1F::
-	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 0, FALSE
+// FIXME undefined reference: 	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 0, FALSE
 	goto RocketHideout_Elevator_EventScript_ChooseFloor
 	end
 
 RocketHideout_Elevator_EventScript_FloorSelectFromB2F::
-	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 1, FALSE
+// FIXME undefined reference: 	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 1, FALSE
 	goto RocketHideout_Elevator_EventScript_ChooseFloor
 	end
 
 RocketHideout_Elevator_EventScript_FloorSelectFromB4F::
-	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 2, FALSE
+// FIXME undefined reference: 	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 2, FALSE
 	goto RocketHideout_Elevator_EventScript_ChooseFloor
 	end
 
@@ -78,15 +78,15 @@ RocketHideout_Elevator_EventScript_ToB4F::
 	end
 
 RocketHideout_Elevator_EventScript_ExitFloorSelect::
-	special CloseElevatorCurrentFloorWindow
+// FIXME undefined reference: 	special CloseElevatorCurrentFloorWindow
 	releaseall
 	end
 
 RocketHideout_Elevator_EventScript_MoveElevator::
-	special CloseElevatorCurrentFloorWindow
+// FIXME undefined reference: 	special CloseElevatorCurrentFloorWindow
 	closemessage
 	waitse
-	special AnimateElevator
+// FIXME undefined reference: 	special AnimateElevator
 	waitstate
 	setflag FLAG_TEMP_2
 	return

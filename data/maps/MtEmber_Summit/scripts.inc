@@ -10,7 +10,7 @@ MtEmber_Summit_OnResume::
 
 MtEmber_Summit_EventScript_TryRemoveMoltres::
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
+// FIXME undefined reference: 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
 	removeobject VAR_LAST_TALKED
 	return
 
@@ -26,13 +26,13 @@ MtEmber_Summit_EventScript_ShowMoltres::
 
 MtEmber_Summit_EventScript_Moltres::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	setwildbattle SPECIES_MOLTRES, 50
 	waitse
 	playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
-	message Text_Gyaoo
+// FIXME undefined reference: 	message Text_Gyaoo
 	waitmessage
 	waitmoncry
 	delay 10
@@ -40,7 +40,7 @@ MtEmber_Summit_EventScript_Moltres::
 	waitbuttonpress
 	setflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
-	special StartLegendaryBattle
+// FIXME undefined reference: 	special StartLegendaryBattle
 	waitstate
 	clearflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
@@ -56,10 +56,10 @@ MtEmber_Summit_EventScript_Moltres::
 MtEmber_Summit_EventScript_DefeatedMoltres::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_FOUGHT_MOLTRES with FLAG_TEMP_1
-	goto EventScript_RemoveStaticMon
+// FIXME undefined reference: 	goto EventScript_RemoveStaticMon
 	end
 
 MtEmber_Summit_EventScript_RanFromMoltres::
 	setvar VAR_0x8004, SPECIES_MOLTRES
-	goto EventScript_MonFlewAway
+// FIXME undefined reference: 	goto EventScript_MonFlewAway
 	end

@@ -13,21 +13,21 @@ OneIsland_PokemonCenter_1F_OnLoad::
 	end
 
 OneIsland_PokemonCenter_1F_EventScript_SetRubyMetatile::
-	setmetatile 13, 4, METATILE_PokemonCenter_NetworkMachine_Ruby, 1
+// FIXME undefined reference: 	setmetatile 13, 4, METATILE_PokemonCenter_NetworkMachine_Ruby, 1
 	return
 
 OneIsland_PokemonCenter_1F_EventScript_SetSapphireMetatile::
-	setmetatile 16, 4, METATILE_PokemonCenter_NetworkMachine_Sapphire, 1
+// FIXME undefined reference: 	setmetatile 16, 4, METATILE_PokemonCenter_NetworkMachine_Sapphire, 1
 	return
 
 OneIsland_PokemonCenter_1F_EventScript_SetNetworkMachineOn::
 	call OneIsland_PokemonCenter_1F_EventScript_SetSapphireMetatile
-	setmetatile 14, 4, METATILE_PokemonCenter_NetworkMachine_ScreenLeft_On, 1
-	setmetatile 15, 4, METATILE_PokemonCenter_NetworkMachine_ScreenRight_On, 1
+// FIXME undefined reference: 	setmetatile 14, 4, METATILE_PokemonCenter_NetworkMachine_ScreenLeft_On, 1
+// FIXME undefined reference: 	setmetatile 15, 4, METATILE_PokemonCenter_NetworkMachine_ScreenRight_On, 1
 	return
 
 OneIsland_PokemonCenter_1F_OnTransition::
-	setrespawn HEAL_LOCATION_ONE_ISLAND
+// FIXME undefined reference: 	setrespawn HEAL_LOCATION_ONE_ISLAND
 	call_if_eq VAR_TEMP_0, 6, OneIsland_PokemonCenter_1F_EventScript_SetCelioQuestDone
 // Replaced VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F with VAR_TEMP_0
 	call_if_eq VAR_TEMP_0, 0, OneIsland_PokemonCenter_1F_EventScript_SetBillCelioFirstMeetingPos
@@ -42,17 +42,17 @@ OneIsland_PokemonCenter_1F_EventScript_SetCelioQuestDone::
 	return
 
 OneIsland_PokemonCenter_1F_EventScript_SetBillCelioFirstMeetingPos::
-	setobjectxyperm LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, 9, 8
-	setobjectmovementtype LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, MOVEMENT_TYPE_FACE_UP
-	setobjectxyperm LOCALID_CELIO, 15, 6
-	setobjectmovementtype LOCALID_CELIO, MOVEMENT_TYPE_FACE_UP
+// FIXME undefined reference: 	setobjectxyperm LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, 9, 8
+// FIXME undefined reference: 	setobjectmovementtype LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, MOVEMENT_TYPE_FACE_UP
+// FIXME undefined reference: 	setobjectxyperm LOCALID_CELIO, 15, 6
+// FIXME undefined reference: 	setobjectmovementtype LOCALID_CELIO, MOVEMENT_TYPE_FACE_UP
 	return
 
 OneIsland_PokemonCenter_1F_EventScript_SetBillCelioReadyToLeavePos::
-	setobjectxyperm LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, 14, 7
-	setobjectmovementtype LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, MOVEMENT_TYPE_FACE_LEFT
-	setobjectxyperm LOCALID_CELIO, 14, 8
-	setobjectmovementtype LOCALID_CELIO, MOVEMENT_TYPE_FACE_LEFT
+// FIXME undefined reference: 	setobjectxyperm LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, 14, 7
+// FIXME undefined reference: 	setobjectmovementtype LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, MOVEMENT_TYPE_FACE_LEFT
+// FIXME undefined reference: 	setobjectxyperm LOCALID_CELIO, 14, 8
+// FIXME undefined reference: 	setobjectmovementtype LOCALID_CELIO, MOVEMENT_TYPE_FACE_LEFT
 	return
 
 OneIsland_PokemonCenter_1F_OnFrame::
@@ -62,51 +62,51 @@ OneIsland_PokemonCenter_1F_OnFrame::
 
 OneIsland_PokemonCenter_1F_EventScript_MeetCelioScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_PLAYER, OneIsland_PokemonCenter_1F_Movement_PlayerWalkToCelio
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, OneIsland_PokemonCenter_1F_Movement_BillWalkToCelio
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, OneIsland_PokemonCenter_1F_Movement_BillWalkToCelio
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	playse SE_PIN
-	applymovement LOCALID_CELIO, Common_Movement_ExclamationMark
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterLeft
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
-	applymovement LOCALID_CELIO, Common_Movement_Delay48
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_Delay48
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut
 	msgbox OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterDown
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterDown
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterRight
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	call_if_set FLAG_SYS_GAME_CLEAR, OneIsland_PokemonCenter_1F_EventScript_IntroducePlayerChamp
 	call_if_unset FLAG_SYS_GAME_CLEAR, OneIsland_PokemonCenter_1F_EventScript_IntroducePlayerNotChamp
-	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterDown
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive
 	msgbox OneIsland_PokemonCenter_1F_Text_BillBringMeUpToSpeed
-	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterLeft
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours
 	closemessage
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterUp
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterDown
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer
 // 	msgreceiveditem OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill, ITEM_METEORITE, 1, MUS_OBTAIN_KEY_ITEM
 	additem ITEM_METEORITE
-	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterDown
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis
 	msgbox OneIsland_PokemonCenter_1F_Text_ObtainedTriPass, MSGBOX_DEFAULT
@@ -120,9 +120,9 @@ OneIsland_PokemonCenter_1F_EventScript_MeetCelioScene::
 // Replaced FLAG_SYS_SEVII_MAP_123 with FLAG_TEMP_1
 	msgbox OneIsland_PokemonCenter_1F_Text_BillCatchYouLater
 	closemessage
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterUp
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterUp
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	setflag FLAG_TEMP_1
 // Replaced FLAG_SYS_PC_STORAGE_DISABLED with FLAG_TEMP_1
@@ -140,12 +140,12 @@ OneIsland_PokemonCenter_1F_EventScript_IntroducePlayerNotChamp::
 	return
 
 OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMapPage::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
-	playfanfare MUS_OBTAIN_KEY_ITEM
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	playfanfare MUS_OBTAIN_KEY_ITEM
 	message OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap
 	waitmessage
 	waitfanfare
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	return
 
 OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMap::
@@ -193,7 +193,7 @@ OneIsland_PokemonCenter_1F_Movement_StepAsideLeft::
 OneIsland_PokemonCenter_1F_EventScript_Nurse::
 	lock
 	faceplayer
-	call EventScript_PkmnCenterNurse
+// FIXME undefined reference: 	call EventScript_PkmnCenterNurse
 	release
 	end
 
@@ -206,7 +206,7 @@ OneIsland_PokemonCenter_1F_EventScript_Bill::
 	end
 
 OneIsland_PokemonCenter_1F_EventScript_BillGoTakeStroll::
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_FacePlayer
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore
 	release
@@ -227,13 +227,13 @@ OneIsland_PokemonCenter_1F_EventScript_Celio::
 // Replaced FLAG_GOT_RUBY with FLAG_TEMP_1
 	goto_if_eq VAR_TEMP_0, 4, OneIsland_PokemonCenter_1F_EventScript_CelioWaitingForRuby
 // Replaced VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F with VAR_TEMP_0
-	specialvar VAR_RESULT, IsNationalPokedexEnabled
+// FIXME undefined reference: 	specialvar VAR_RESULT, IsNationalPokedexEnabled
 	goto_if_eq VAR_RESULT, TRUE, OneIsland_PokemonCenter_1F_EventScript_CelioRequestRuby
 	goto_if_eq VAR_TEMP_0, 3, OneIsland_PokemonCenter_1F_EventScript_CelioPlayerMissingNationalDex
 // Replaced VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F with VAR_TEMP_0
 	msgbox OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost
 	closemessage
-	applymovement LOCALID_CELIO, Common_Movement_FaceOriginalDirection
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	release
 	end
@@ -266,16 +266,16 @@ OneIsland_PokemonCenter_1F_EventScript_CelioJustGivenSapphire::
 	end
 
 OneIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	playfanfare MUS_OBTAIN_TMHM
 	message OneIsland_PokemonCenter_1F_Text_HandedSapphireToCelio
 	waitmessage
 	waitfanfare
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	removeitem ITEM_SAPPHIRE
 	msgbox OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime
 	closemessage
-	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioPutGemInMachine
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioPutGemInMachine
 	waitmovement 0
 	playse SE_CLICK
 	call OneIsland_PokemonCenter_1F_EventScript_SetSapphireMetatile
@@ -283,20 +283,20 @@ OneIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire::
 	msgbox OneIsland_PokemonCenter_1F_Text_OkayThisIsGood
 	closemessage
 	delay 60
-	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioCheckMachine
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioCheckMachine
 	waitmovement 0
 	delay 30
-	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioCheckMachine
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioCheckMachine
 	waitmovement 0
 	delay 40
 	playse SE_PC_ON
 	call OneIsland_PokemonCenter_1F_EventScript_SetNetworkMachineOn
 	special DrawWholeMapView
 	msgbox OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette
-	applymovement LOCALID_CELIO, Common_Movement_FacePlayer
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou
-	special SetPostgameFlags
+// FIXME undefined reference: 	special SetPostgameFlags
 	setflag FLAG_TEMP_1
 // Replaced FLAG_SYS_CAN_LINK_WITH_RS with FLAG_TEMP_1
 	setflag FLAG_TEMP_1
@@ -316,20 +316,20 @@ OneIsland_PokemonCenter_1F_EventScript_ExplainRainbowPass::
 
 OneIsland_PokemonCenter_1F_EventScript_GiveCelioRuby::
 	msgbox OneIsland_PokemonCenter_1F_Text_OhThats
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	playfanfare MUS_OBTAIN_TMHM
 	message OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio
 	waitmessage
 	waitfanfare
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	closemessage
-	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioPutGemInMachine
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioPutGemInMachine
 	waitmovement 0
 	playse SE_CLICK
 	call OneIsland_PokemonCenter_1F_EventScript_SetRubyMetatile
 	special DrawWholeMapView
 	delay 30
-	applymovement LOCALID_CELIO, Common_Movement_FacePlayer
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, OneIsland_PokemonCenter_1F_EventScript_DeclineHelpCelio
@@ -351,16 +351,16 @@ OneIsland_PokemonCenter_1F_EventScript_GiveRainbowPass::
 	additem ITEM_RAINBOW_PASS
 	setflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SEVII_MAP_4567 with FLAG_TEMP_1
-	textcolor NPC_TEXT_COLOR_NEUTRAL
-	playfanfare MUS_OBTAIN_KEY_ITEM
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	playfanfare MUS_OBTAIN_KEY_ITEM
 	message OneIsland_PokemonCenter_1F_Text_ReturnedTriPassForRainbowPass
 	waitmessage
 	waitfanfare
-	playfanfare MUS_OBTAIN_KEY_ITEM
+// FIXME undefined reference: 	playfanfare MUS_OBTAIN_KEY_ITEM
 	message OneIsland_PokemonCenter_1F_Text_ObtainedExtraMapPage
 	waitmessage
 	waitfanfare
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	goto OneIsland_PokemonCenter_1F_EventScript_ExplainRainbowPass
 	end
 
@@ -371,10 +371,10 @@ OneIsland_PokemonCenter_1F_EventScript_CelioWaitingForRuby::
 
 OneIsland_PokemonCenter_1F_EventScript_CelioRequestRuby::
 	msgbox OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful
-	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterUp
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway
-	applymovement LOCALID_CELIO, Common_Movement_FacePlayer
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone
 	setvar VAR_TEMP_0, 1
@@ -470,9 +470,9 @@ OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerBottom::
 	end
 
 OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	playse SE_PIN
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_ExclamationMark
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_ExclamationMark
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_BillOhHeyPlayer
 	closemessage
@@ -485,14 +485,14 @@ OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene::
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_CelioJobWentQuick
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterDown
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
-	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterUp
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox OneIsland_PokemonCenter_1F_Text_BillYouveLearnedALot
 	msgbox OneIsland_PokemonCenter_1F_Text_CelioOhReallyEhehe
 	closemessage
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterLeft
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	delay 10
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
@@ -500,10 +500,10 @@ OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene::
 	delay 15
 	msgbox OneIsland_PokemonCenter_1F_Text_BillWeShouldHeadBackToKanto
 	closemessage
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterDown
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	delay 15
-	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterLeft
+// FIXME undefined reference: 	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
@@ -511,7 +511,7 @@ OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene::
 	closemessage
 	delay 25
 	applymovement LOCALID_PLAYER, OneIsland_PokemonCenter_1F_Movement_PlayerExit
-	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, OneIsland_PokemonCenter_1F_Movement_BillExit
+// FIXME undefined reference: 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, OneIsland_PokemonCenter_1F_Movement_BillExit
 	waitmovement 0
 	playse SE_EXIT
 	setflag FLAG_TEMP_1
@@ -524,7 +524,7 @@ OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene::
 // Replaced VAR_MAP_SCENE_CINNABAR_ISLAND with VAR_TEMP_0
 // 	setvar VAR_0x8004, SEAGALLOP_ONE_ISLAND
 // 	setvar VAR_0x8006, SEAGALLOP_CINNABAR_ISLAND
-	goto EventScript_SetSail
+// FIXME undefined reference: 	goto EventScript_SetSail
 	end
 
 OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillTop::

@@ -85,14 +85,14 @@ Route119_WeatherInstitute_2F_EventScript_ReceiveCastform::
 	givemon SPECIES_CASTFORM_NORMAL, 25, ITEM_MYSTIC_WATER
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, Route119_WeatherInstitute_2F_EventScript_ReceiveCastformPC
-	goto Common_EventScript_NoMoreRoomForPokemon
+// FIXME undefined reference: 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
 Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty::
 	call Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, Route119_WeatherInstitute_2F_EventScript_ExplainCastform
-	call Common_EventScript_GetGiftMonPartySlot
+// FIXME undefined reference: 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
 	goto Route119_WeatherInstitute_2F_EventScript_ExplainCastform
 	end
@@ -101,12 +101,12 @@ Route119_WeatherInstitute_2F_EventScript_ReceiveCastformPC::
 	call Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, Route119_WeatherInstitute_2F_EventScript_SendCastformToPC
-	call Common_EventScript_NameReceivedBoxMon
+// FIXME undefined reference: 	call Common_EventScript_NameReceivedBoxMon
 	goto Route119_WeatherInstitute_2F_EventScript_SendCastformToPC
 	end
 
 Route119_WeatherInstitute_2F_EventScript_SendCastformToPC::
-	call Common_EventScript_TransferredToPC
+// FIXME undefined reference: 	call Common_EventScript_TransferredToPC
 	goto Route119_WeatherInstitute_2F_EventScript_ExplainCastform
 	end
 

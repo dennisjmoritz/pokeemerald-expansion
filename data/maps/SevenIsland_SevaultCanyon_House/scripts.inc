@@ -14,12 +14,12 @@ SevenIsland_SevaultCanyon_House_EventScript_ChanseyDanceMan::
 	applymovement LOCALID_CHANSEY_DANCE_MAN, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox SevenIsland_SevaultCanyon_House_Text_ChanseyDanceJoinIn
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	msgbox SevenIsland_SevaultCanyon_House_Text_WouldYouLikeToDance, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SevenIsland_SevaultCanyon_House_EventScript_DeclineDance
 	msgbox SevenIsland_SevaultCanyon_House_Text_DancedChanseyDance
 	closemessage
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	call_if_ne VAR_FACING, DIR_SOUTH, SevenIsland_SevaultCanyon_House_EventScript_PlayerFaceDown
 	delay 30
 	playbgm MUS_SCHOOL, 0
@@ -27,7 +27,7 @@ SevenIsland_SevaultCanyon_House_EventScript_ChanseyDanceMan::
 	waitmovement 0
 	fadedefaultbgm
 	delay 30
-	call EventScript_OutOfCenterPartyHeal
+// FIXME undefined reference: 	call EventScript_OutOfCenterPartyHeal
 	msgbox SevenIsland_SevaultCanyon_House_Text_YoureAllChipperNow
 	setflag DID_CHANSEY_DANCE
 	release
@@ -46,7 +46,7 @@ SevenIsland_SevaultCanyon_House_EventScript_AlreadyDanced::
 	end
 
 SevenIsland_SevaultCanyon_House_EventScript_DeclineDance::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox SevenIsland_SevaultCanyon_House_Text_ComeOnDance
 	release
 	end

@@ -5,14 +5,14 @@ ThreeIsland_DunsparceTunnel_MapScripts::
 ThreeIsland_DunsparceTunnel_OnTransition::
 	setworldmapflag FLAG_TEMP_1
 // Replaced FLAG_WORLD_MAP_THREE_ISLAND_DUNSPARCE_TUNNEL with FLAG_TEMP_1
-	specialvar VAR_RESULT, IsNationalPokedexEnabled
+// FIXME undefined reference: 	specialvar VAR_RESULT, IsNationalPokedexEnabled
 	copyvar VAR_0x8008, VAR_RESULT
 	call_if_eq VAR_0x8008, TRUE, ThreeIsland_DunsparceTunnel_EventScript_SetLayoutDugOut
 	call_if_eq VAR_0x8008, FALSE, ThreeIsland_DunsparceTunnel_EventScript_MoveProspectorToWall
 	end
 
 ThreeIsland_DunsparceTunnel_EventScript_SetLayoutDugOut::
-	setmaplayoutindex LAYOUT_THREE_ISLAND_DUNSPARCE_TUNNEL_DUG_OUT
+// FIXME undefined reference: 	setmaplayoutindex LAYOUT_THREE_ISLAND_DUNSPARCE_TUNNEL_DUG_OUT
 	return
 
 ThreeIsland_DunsparceTunnel_EventScript_MoveProspectorToWall::
@@ -25,7 +25,7 @@ ThreeIsland_DunsparceTunnel_EventScript_Prospector::
 	faceplayer
 	goto_if_set FLAG_TEMP_1, ThreeIsland_DunsparceTunnel_EventScript_ProspectorAlreadyGaveNugget
 // Replaced FLAG_GOT_NUGGET_FROM_DUNSPARCE_TUNNEL with FLAG_TEMP_1
-	specialvar VAR_RESULT, IsNationalPokedexEnabled
+// FIXME undefined reference: 	specialvar VAR_RESULT, IsNationalPokedexEnabled
 	goto_if_eq VAR_RESULT, TRUE, ThreeIsland_DunsparceTunnel_EventScript_ProspectorStruckGold
 	msgbox ThreeIsland_DunsparceTunnel_Text_ProspectingForGold
 	closemessage

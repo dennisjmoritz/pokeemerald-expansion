@@ -24,35 +24,35 @@ Route11_EastEntrance_2F_EventScript_Turner::
 	lock
 	faceplayer
 // 	setvar VAR_0x8008, INGAME_TRADE_NIDORINOA
-	call EventScript_GetInGameTradeSpeciesInfo
+// FIXME undefined reference: 	call EventScript_GetInGameTradeSpeciesInfo
 	goto_if_set FLAG_TEMP_1, Route11_EastEntrance_2F_EventScript_AlreadyTraded
 // Replaced FLAG_DID_NINA_TRADE with FLAG_TEMP_1
-	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
+// FIXME undefined reference: 	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, Route11_EastEntrance_2F_EventScript_DeclineTrade
-	call EventScript_ChooseMonForInGameTrade
+// FIXME undefined reference: 	call EventScript_ChooseMonForInGameTrade
 	goto_if_ge VAR_0x8004, PARTY_SIZE, Route11_EastEntrance_2F_EventScript_DeclineTrade
-	call EventScript_GetInGameTradeSpecies
+// FIXME undefined reference: 	call EventScript_GetInGameTradeSpecies
 	goto_if_ne VAR_RESULT, VAR_0x8009, Route11_EastEntrance_2F_EventScript_NotRequestedMon
-	call EventScript_DoInGameTrade
-	msgbox Trade_Text_HeyThanks
+// FIXME undefined reference: 	call EventScript_DoInGameTrade
+// FIXME undefined reference: 	msgbox Trade_Text_HeyThanks
 	setflag FLAG_TEMP_1
 // Replaced FLAG_DID_NINA_TRADE with FLAG_TEMP_1
 	release
 	end
 
 Route11_EastEntrance_2F_EventScript_DeclineTrade::
-	msgbox Trade_Text_AwwOhWell
+// FIXME undefined reference: 	msgbox Trade_Text_AwwOhWell
 	release
 	end
 
 Route11_EastEntrance_2F_EventScript_NotRequestedMon::
 	bufferspeciesname STR_VAR_1, VAR_0x8009
-	msgbox Trade_Text_WhatThatsNoMon
+// FIXME undefined reference: 	msgbox Trade_Text_WhatThatsNoMon
 	release
 	end
 
 Route11_EastEntrance_2F_EventScript_AlreadyTraded::
-	msgbox Trade_Text_IsntMyOldMonGreat
+// FIXME undefined reference: 	msgbox Trade_Text_IsntMyOldMonGreat
 	release
 	end
 
@@ -63,15 +63,15 @@ Route11_EastEntrance_2F_EventScript_Aide::
 	goto_if_set FLAG_TEMP_1, Route11_EastEntrance_2F_EventScript_AlreadyGotItemfinder
 // Replaced FLAG_GOT_ITEMFINDER with FLAG_TEMP_1
 	msgbox Route11_EastEntrance_2F_Text_GiveItemfinderIfCaught30, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Aide_EventScript_DeclineCheckMons
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, NO, Aide_EventScript_DeclineCheckMons
 	setvar VAR_0x8004, 0
-	specialvar VAR_RESULT, GetPokedexCount
+// FIXME undefined reference: 	specialvar VAR_RESULT, GetPokedexCount
 	buffernumberstring STR_VAR_3, VAR_0x8006
 	call Route11_EastEntrance_2F_EventScript_GetAideRequestInfo
-	goto_if_lt VAR_0x8006, REQUIRED_CAUGHT_MONS, Aide_EventScript_HaventCaughtEnough
+// FIXME undefined reference: 	goto_if_lt VAR_0x8006, REQUIRED_CAUGHT_MONS, Aide_EventScript_HaventCaughtEnough
 	msgbox Route11_EastEntrance_2F_Text_GreatHereYouGo
 	checkitemspace ITEM_ITEMFINDER
-	goto_if_eq VAR_RESULT, FALSE, Aide_EventScript_NoRoomForItem
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, Aide_EventScript_NoRoomForItem
 	msgbox Route11_EastEntrance_2F_Text_ReceivedItemfinderFromAide, MSGBOX_DEFAULT
 	giveitem ITEM_ITEMFINDER
 	setflag FLAG_TEMP_1

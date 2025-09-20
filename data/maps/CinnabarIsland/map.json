@@ -22,11 +22,15 @@
       "map": "MAP_ROUTE21_SOUTH",
       "offset": 0,
       "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE124",
+      "offset": 0,
+      "direction": "down"
     }
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
       "x": 14,
       "y": 6,
@@ -40,7 +44,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN_1",
       "x": 11,
       "y": 11,
@@ -55,7 +58,6 @@
     },
     {
       "local_id": "LOCALID_CINNABAR_BILL",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BILL",
       "x": 20,
       "y": 7,
@@ -71,7 +73,6 @@
     },
     {
       "local_id": "LOCALID_CINNABAR_SEAGALLOP",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SEAGALLOP",
       "x": 23,
       "y": 7,

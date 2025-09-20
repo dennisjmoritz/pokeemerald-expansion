@@ -8,7 +8,7 @@ TwoIsland_House_MapScripts::
 
 TwoIsland_House_EventScript_MoveManiac::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	clearflag HAS_BIG_MUSHROOM
@@ -69,24 +69,24 @@ TwoIsland_House_EventScript_ChooseMoveToTeach::
 
 TwoIsland_House_EventScript_GiveBigMushroom::
 	removeitem ITEM_BIG_MUSHROOM
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	msgbox TwoIsland_House_Text_HandedOverOneBigMushroom
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	goto TwoIsland_House_EventScript_EndTutorMove
 	end
 
 TwoIsland_House_EventScript_GiveTinyMushrooms::
 	removeitem ITEM_TINY_MUSHROOM, 2
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	msgbox TwoIsland_House_Text_HandedOverTwoTinyMushrooms
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	goto TwoIsland_House_EventScript_EndTutorMove
 	end
 
 TwoIsland_House_EventScript_ChooseMushroom::
 	message TwoIsland_House_Text_IllNeedMushroomOrTwo
 	waitmessage
-	multichoice 0, 0, MULTICHOICE_MUSHROOMS, TRUE
+// FIXME undefined reference: 	multichoice 0, 0, MULTICHOICE_MUSHROOMS, TRUE
 	switch VAR_RESULT
 	case 0, TwoIsland_House_EventScript_GiveTinyMushrooms
 	case 1, TwoIsland_House_EventScript_GiveBigMushroom

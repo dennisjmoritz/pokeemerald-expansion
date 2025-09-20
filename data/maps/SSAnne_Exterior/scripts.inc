@@ -20,7 +20,7 @@ SSAnne_Exterior_ExitSSAnne::
 	call_if_ge VAR_0x8005, 7, SSAnne_Exterior_WalkInPlaceDown
 	fadenewbgm MUS_SURF
 	delay 50
-	special DoSSAnneDepartureCutscene
+// FIXME undefined reference: 	special DoSSAnneDepartureCutscene
 	waitstate
 	removeobject LOCALID_SS_ANNE
 	applymovement LOCALID_PLAYER, SSAnne_Exterior_Movement_Exit

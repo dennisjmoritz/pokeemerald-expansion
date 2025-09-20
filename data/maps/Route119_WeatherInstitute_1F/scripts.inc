@@ -54,7 +54,7 @@ Route119_WeatherInstitute_1F_EventScript_Bed::
 	lockall
 	msgbox Route119_WeatherInstitute_1F_Text_TakeRestInBed, MSGBOX_DEFAULT
 	closemessage
-	call Common_EventScript_OutOfCenterPartyHeal
+// FIXME undefined reference: 	call Common_EventScript_OutOfCenterPartyHeal
 	releaseall
 	end
 

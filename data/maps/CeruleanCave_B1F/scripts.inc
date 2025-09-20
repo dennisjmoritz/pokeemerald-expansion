@@ -10,7 +10,7 @@ CeruleanCave_B1F_OnResume::
 
 CeruleanCave_B1F_EventScript_TryRemoveMewtwo::
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
+// FIXME undefined reference: 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
 	removeobject VAR_LAST_TALKED
 	return
 
@@ -26,7 +26,7 @@ CeruleanCave_B1F_EventScript_ShowMewtwo::
 
 CeruleanCave_B1F_EventScript_Mewtwo::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	waitse
@@ -40,7 +40,7 @@ CeruleanCave_B1F_EventScript_Mewtwo::
 	setwildbattle SPECIES_MEWTWO, 70
 	setflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
-	special StartLegendaryBattle
+// FIXME undefined reference: 	special StartLegendaryBattle
 	waitstate
 	clearflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
@@ -56,12 +56,12 @@ CeruleanCave_B1F_EventScript_Mewtwo::
 CeruleanCave_B1F_EventScript_DefeatedMewtwo::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_FOUGHT_MEWTWO with FLAG_TEMP_1
-	goto EventScript_RemoveStaticMon
+// FIXME undefined reference: 	goto EventScript_RemoveStaticMon
 	end
 
 CeruleanCave_B1F_EventScript_RanFromMewtwo::
 	setvar VAR_0x8004, SPECIES_MEWTWO
-	goto EventScript_MonFlewAway
+// FIXME undefined reference: 	goto EventScript_MonFlewAway
 	end
 
 CeruleanCave_B1F_Text_Mew::

@@ -27,6 +27,11 @@
       "map": "MAP_ROUTE112",
       "offset": 20,
       "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE33",
+      "offset": 2,
+      "direction": "up"
     }
   ],
   "object_events": [
@@ -614,7 +619,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE111_PLAYER_FALLING",
-      "graphics_id": "OBJ_EVENT_GFX_VAR_TEMP_0",
+      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 19,
       "y": 53,
       "elevation": 3,

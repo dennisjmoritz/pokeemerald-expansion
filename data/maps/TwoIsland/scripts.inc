@@ -128,7 +128,7 @@ TwoIsland_EventScript_ClerkShopInitial::
 	end
 
 TwoIsland_EventScript_ClerkShopSkipIntro::
-	message Text_MayIHelpYou
+// FIXME undefined reference: 	message Text_MayIHelpYou
 	waitmessage
 	goto_if_eq VAR_TEMP_0, 4, TwoIsland_EventScript_ShopExpanded3
 // Replaced VAR_MAP_SCENE_TWO_ISLAND with VAR_TEMP_0
@@ -141,7 +141,7 @@ TwoIsland_EventScript_ClerkShopSkipIntro::
 
 TwoIsland_EventScript_ShopInitial::
 	pokemart TwoIsland_Items_ShopInitial
-	msgbox Text_PleaseComeAgain
+// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 
@@ -155,7 +155,7 @@ TwoIsland_Items_ShopInitial::
 
 TwoIsland_EventScript_ShopExpanded1::
 	pokemart TwoIsland_Items_ShopExpanded1
-	msgbox Text_PleaseComeAgain
+// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 
@@ -171,7 +171,7 @@ TwoIsland_Items_ShopExpanded1::
 
 TwoIsland_EventScript_ShopExpanded2::
 	pokemart TwoIsland_Items_ShopExpanded2
-	msgbox Text_PleaseComeAgain
+// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 
@@ -189,7 +189,7 @@ TwoIsland_Items_ShopExpanded2::
 
 TwoIsland_EventScript_ShopExpanded3::
 	pokemart TwoIsland_Items_ShopExpanded3
-	msgbox Text_PleaseComeAgain
+// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
 	release
 	end
 

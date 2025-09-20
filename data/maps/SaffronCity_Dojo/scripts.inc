@@ -28,9 +28,9 @@ SaffronCity_Dojo_EventScript_HitmonleeBall::
 	setvar VAR_TEMP_1, SPECIES_HITMONLEE
 	applymovement LOCALID_KARATE_MASTER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox SaffronCity_Dojo_Text_YouWantHitmonlee, MSGBOX_YESNO
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	goto_if_eq VAR_RESULT, YES, SaffronCity_Dojo_EventScript_GiveHitmon
 	hidemonpic
 	release
@@ -50,9 +50,9 @@ SaffronCity_Dojo_EventScript_HitmonchanBall::
 	setvar VAR_TEMP_1, SPECIES_HITMONCHAN
 	applymovement LOCALID_KARATE_MASTER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox SaffronCity_Dojo_Text_YouWantHitmonchan, MSGBOX_YESNO
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	goto_if_eq VAR_RESULT, YES, SaffronCity_Dojo_EventScript_GiveHitmon
 	hidemonpic
 	release
@@ -63,7 +63,7 @@ SaffronCity_Dojo_EventScript_GiveHitmon::
 	givemon VAR_TEMP_1, 25
 	goto_if_eq VAR_RESULT, 0, SaffronCity_Dojo_EventScript_ReceivedHitmonParty
 	goto_if_eq VAR_RESULT, 1, SaffronCity_Dojo_EventScript_ReceivedHitmonPC
-	goto_if_eq VAR_RESULT, 2, EventScript_NoMoreRoomForPokemon
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, 2, EventScript_NoMoreRoomForPokemon
 	release
 	end
 
@@ -76,10 +76,10 @@ SaffronCity_Dojo_EventScript_ReceivedHitmonParty::
 	waitfanfare
 	setflag FLAG_TEMP_1
 // Replaced FLAG_GOT_HITMON_FROM_DOJO with FLAG_TEMP_1
-	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+// FIXME undefined reference: 	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SaffronCity_Dojo_EventScript_EndGiveMon
-	call EventScript_GetGiftMonPartySlot
-	call EventScript_ChangePokemonNickname
+// FIXME undefined reference: 	call EventScript_GetGiftMonPartySlot
+// FIXME undefined reference: 	call EventScript_ChangePokemonNickname
 	goto SaffronCity_Dojo_EventScript_EndGiveMon
 	end
 
@@ -92,14 +92,14 @@ SaffronCity_Dojo_EventScript_ReceivedHitmonPC::
 	waitfanfare
 	setflag FLAG_TEMP_1
 // Replaced FLAG_GOT_HITMON_FROM_DOJO with FLAG_TEMP_1
-	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+// FIXME undefined reference: 	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SaffronCity_Dojo_EventScript_TransferredHitmonToPC
-	call EventScript_NameReceivedBoxMon
+// FIXME undefined reference: 	call EventScript_NameReceivedBoxMon
 	goto SaffronCity_Dojo_EventScript_TransferredHitmonToPC
 	end
 
 SaffronCity_Dojo_EventScript_TransferredHitmonToPC::
-	call EventScript_TransferredToPC
+// FIXME undefined reference: 	call EventScript_TransferredToPC
 	goto SaffronCity_Dojo_EventScript_EndGiveMon
 	end
 
@@ -120,27 +120,27 @@ SaffronCity_Dojo_EventScript_RightScroll::
 	end
 
 SaffronCity_Dojo_EventScript_Hitoshi::
-	trainerbattle_single TRAINER_BLACK_BELT_HITOSHI, SaffronCity_Dojo_Text_HitoshiIntro, SaffronCity_Dojo_Text_HitoshiDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BLACK_BELT_HITOSHI, SaffronCity_Dojo_Text_HitoshiIntro, SaffronCity_Dojo_Text_HitoshiDefeat
 	msgbox SaffronCity_Dojo_Text_HitoshiPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SaffronCity_Dojo_EventScript_Hideki::
-	trainerbattle_single TRAINER_BLACK_BELT_HIDEKI, SaffronCity_Dojo_Text_HidekiIntro, SaffronCity_Dojo_Text_HidekiDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BLACK_BELT_HIDEKI, SaffronCity_Dojo_Text_HidekiIntro, SaffronCity_Dojo_Text_HidekiDefeat
 	msgbox SaffronCity_Dojo_Text_HidekiPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SaffronCity_Dojo_EventScript_Aaron::
-	trainerbattle_single TRAINER_BLACK_BELT_AARON, SaffronCity_Dojo_Text_AaronIntro, SaffronCity_Dojo_Text_AaronDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BLACK_BELT_AARON, SaffronCity_Dojo_Text_AaronIntro, SaffronCity_Dojo_Text_AaronDefeat
 	msgbox SaffronCity_Dojo_Text_AaronPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SaffronCity_Dojo_EventScript_Mike::
-	trainerbattle_single TRAINER_BLACK_BELT_MIKE, SaffronCity_Dojo_Text_MikeIntro, SaffronCity_Dojo_Text_MikeDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BLACK_BELT_MIKE, SaffronCity_Dojo_Text_MikeIntro, SaffronCity_Dojo_Text_MikeDefeat
 	msgbox SaffronCity_Dojo_Text_MikePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SaffronCity_Dojo_EventScript_MasterKoichi::
-	trainerbattle_single TRAINER_BLACK_BELT_KOICHI, SaffronCity_Dojo_Text_MasterKoichiIntro, SaffronCity_Dojo_Text_MasterKoichiDefeat, SaffronCity_Dojo_EventScript_DefeatedMasterKoichi
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BLACK_BELT_KOICHI, SaffronCity_Dojo_Text_MasterKoichiIntro, SaffronCity_Dojo_Text_MasterKoichiDefeat, SaffronCity_Dojo_EventScript_DefeatedMasterKoichi
 	goto_if_set FLAG_TEMP_1, SaffronCity_Dojo_EventScript_MasterKoichiAlreadyGotHitmon
 // Replaced FLAG_GOT_HITMON_FROM_DOJO with FLAG_TEMP_1
 	msgbox SaffronCity_Dojo_Text_ChoosePrizedFightingMon, MSGBOX_AUTOCLOSE

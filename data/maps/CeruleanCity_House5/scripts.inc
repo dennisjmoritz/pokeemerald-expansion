@@ -14,7 +14,7 @@ CeruleanCity_House5_EventScript_BerryPowderMan::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_GOT_POWDER_JAR with FLAG_TEMP_1
 // 	giveitem ITEM_POWDER_JAR
-	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
 	msgbox CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner
 	release
 	end
@@ -39,7 +39,7 @@ CeruleanCity_House5_EventScript_ChooseExchangeItem::
 	message CeruleanCity_House5_Text_ExchangeWithWhat
 	waitmessage
 // 	setvar VAR_0x8004, LISTMENU_BERRY_POWDER
-	special ListMenu
+// FIXME undefined reference: 	special ListMenu
 	waitstate
 	switch VAR_RESULT
 	case 0, CeruleanCity_House5_EventScript_EnergyPowder
@@ -144,12 +144,12 @@ CeruleanCity_House5_EventScript_ExchangePowderForItem::
 	msgbox CeruleanCity_House1_Text_YoullExchangeBerryPowderForItem, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, CeruleanCity_House5_EventScript_ChooseExchangeItem
 	copyvar VAR_0x8004, VAR_0x8009
-	specialvar VAR_RESULT, Script_HasEnoughBerryPowder
+// FIXME undefined reference: 	specialvar VAR_RESULT, Script_HasEnoughBerryPowder
 	goto_if_eq VAR_RESULT, FALSE, CeruleanCity_House5_EventScript_NotEnoughBerryPowder
 // 	giveitem VAR_0x8008
-	goto_if_eq VAR_RESULT, FALSE, CeruleanCity_House5_EventScript_BagIsFull
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, CeruleanCity_House5_EventScript_BagIsFull
 	copyvar VAR_0x8004, VAR_0x8009
-	special Script_TakeBerryPowder
+// FIXME undefined reference: 	special Script_TakeBerryPowder
 	special PrintPlayerBerryPowderAmount
 	msgbox CeruleanCity_House1_Text_TradeMoreBerryPowder, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, CeruleanCity_House5_EventScript_ChooseExchangeItem
@@ -158,8 +158,8 @@ CeruleanCity_House5_EventScript_ExchangePowderForItem::
 	release
 	end
 
-CeruleanCity_House5_EventScript_BagIsFull::
-	msgbox Text_BagIsFull
+// FIXME undefined reference: CeruleanCity_House5_EventScript_BagIsFull::
+// FIXME undefined reference: 	msgbox Text_BagIsFull
 	special RemoveBerryPowderVendorMenu
 	release
 	end

@@ -86,14 +86,14 @@ MossdeepCity_StevensHouse_EventScript_GiveBeldum::
 	givemon SPECIES_BELDUM, 5
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, MossdeepCity_StevensHouse_EventScript_SendBeldumParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, MossdeepCity_StevensHouse_EventScript_SendBeldumPC
-	goto Common_EventScript_NoMoreRoomForPokemon
+// FIXME undefined reference: 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
 MossdeepCity_StevensHouse_EventScript_SendBeldumParty::
 	call MossdeepCity_StevensHouse_EventScript_ReceivedBeldumFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, MossdeepCity_StevensHouse_EventScript_ReceivedBeldum
-	call Common_EventScript_GetGiftMonPartySlot
+// FIXME undefined reference: 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
 	goto MossdeepCity_StevensHouse_EventScript_ReceivedBeldum
 	end
@@ -102,12 +102,12 @@ MossdeepCity_StevensHouse_EventScript_SendBeldumPC::
 	call MossdeepCity_StevensHouse_EventScript_ReceivedBeldumFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, MossdeepCity_StevensHouse_EventScript_BeldumTransferredToPC
-	call Common_EventScript_NameReceivedBoxMon
+// FIXME undefined reference: 	call Common_EventScript_NameReceivedBoxMon
 	goto MossdeepCity_StevensHouse_EventScript_BeldumTransferredToPC
 	end
 
 MossdeepCity_StevensHouse_EventScript_BeldumTransferredToPC::
-	call Common_EventScript_TransferredToPC
+// FIXME undefined reference: 	call Common_EventScript_TransferredToPC
 	goto MossdeepCity_StevensHouse_EventScript_ReceivedBeldum
 	end
 

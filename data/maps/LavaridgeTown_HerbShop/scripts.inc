@@ -7,7 +7,7 @@ LavaridgeTown_HerbShop_EventScript_Clerk::
 	message LavaridgeTown_HerbShop_Text_WelcomeToHerbShop
 	waitmessage
 	pokemart LavaridgeTown_HerbShop_Pokemart
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

@@ -23,7 +23,7 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_PrizeClerkMons::
 CeladonCity_GameCorner_PrizeRoom_EventScript_ChoosePrizeMon::
 	message CeladonCity_GameCorner_PrizeRoom_Text_WhichPrize
 	waitmessage
-	multichoice 11, 0, MULTICHOICE_GAME_CORNER_POKEMON_PRIZES, FALSE
+// FIXME undefined reference: 	multichoice 11, 0, MULTICHOICE_GAME_CORNER_POKEMON_PRIZES, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_GameCorner_PrizeRoom_EventScript_Abra
 	case 1, CeladonCity_GameCorner_PrizeRoom_EventScript_Clefairy
@@ -110,7 +110,7 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeMon::
 	goto_if_eq VAR_RESULT, NO, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
 	checkcoins VAR_RESULT
 	goto_if_lt VAR_RESULT, VAR_TEMP_2, CeladonCity_GameCorner_PrizeRoom_EventScript_NotEnoughCoins
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	switch VAR_TEMP_1
 	case SPECIES_ABRA,     CeladonCity_GameCorner_PrizeRoom_EventScript_GiveAbra
 	case SPECIES_CLEFAIRY, CeladonCity_GameCorner_PrizeRoom_EventScript_GiveClefairy
@@ -181,8 +181,8 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_CheckReceivedMon::
 	end
 
 CeladonCity_GameCorner_PrizeRoom_EventScript_PartyFull::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
-	msgbox Text_NoMoreRoomForPokemon
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	msgbox Text_NoMoreRoomForPokemon
 	hidecoinsbox 0, 0
 	release
 	end
@@ -191,12 +191,12 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_NicknamePartyMon::
 	getpartysize
 	subvar VAR_RESULT, 1
 	copyvar VAR_0x8004, VAR_RESULT
-	call EventScript_ChangePokemonNickname
+// FIXME undefined reference: 	call EventScript_ChangePokemonNickname
 	goto CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
 	end
 
 CeladonCity_GameCorner_PrizeRoom_EventScript_NeedCoinCase::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	msgbox CeladonCity_GameCorner_PrizeRoom_Text_CoinCaseRequired
 	release
 	end
@@ -211,10 +211,10 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_ReceivedMonParty::
 	updatecoinsbox 0, 5
 	bufferspeciesname STR_VAR_1, VAR_TEMP_1
 	playfanfare MUS_LEVEL_UP
-	message Text_PlayerObtainedTheMon
+// FIXME undefined reference: 	message Text_PlayerObtainedTheMon
 	waitmessage
 	waitfanfare
-	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+// FIXME undefined reference: 	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, CeladonCity_GameCorner_PrizeRoom_EventScript_NicknamePartyMon
 	goto CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
 	end
@@ -224,17 +224,17 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_ReceivedMonPC::
 	updatecoinsbox 0, 5
 	bufferspeciesname STR_VAR_1, VAR_TEMP_1
 	playfanfare MUS_LEVEL_UP
-	message Text_PlayerObtainedTheMon
+// FIXME undefined reference: 	message Text_PlayerObtainedTheMon
 	waitmessage
 	waitfanfare
-	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, CeladonCity_GameCorner_PrizeRoom_EventScript_TransferredToPC
-	call EventScript_NameReceivedBoxMon
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_TransferredToPC
+// FIXME undefined reference: 	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, NO, CeladonCity_GameCorner_PrizeRoom_EventScript_TransferredToPC
+// FIXME undefined reference: 	call EventScript_NameReceivedBoxMon
+// FIXME undefined reference: 	goto CeladonCity_GameCorner_PrizeRoom_EventScript_TransferredToPC
 	end
 
-CeladonCity_GameCorner_PrizeRoom_EventScript_TransferredToPC::
-	call EventScript_TransferredToPC
+// FIXME undefined reference: CeladonCity_GameCorner_PrizeRoom_EventScript_TransferredToPC::
+// FIXME undefined reference: 	call EventScript_TransferredToPC
 	goto CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
 	end
 
@@ -252,7 +252,7 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_PrizeClerkTMs::
 CeladonCity_GameCorner_PrizeRoom_EventScript_ChoosePrizeTM::
 	message CeladonCity_GameCorner_PrizeRoom_Text_WhichPrize
 	waitmessage
-	multichoice 11, 0, MULTICHOICE_GAME_CORNER_TMPRIZES, FALSE
+// FIXME undefined reference: 	multichoice 11, 0, MULTICHOICE_GAME_CORNER_TMPRIZES, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_GameCorner_PrizeRoom_EventScript_TM13
 	case 1, CeladonCity_GameCorner_PrizeRoom_EventScript_TM23
@@ -324,8 +324,8 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_TryGivePrize::
 	end
 
 CeladonCity_GameCorner_PrizeRoom_EventScript_BagFull::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
-	msgbox Text_TooBadBagFull
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	msgbox Text_TooBadBagFull
 	hidecoinsbox 0, 0
 	release
 	end
@@ -344,7 +344,7 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_PrizeClerkItems::
 CeladonCity_GameCorner_PrizeRoom_EventScript_ChoosePrizeItem::
 	message CeladonCity_GameCorner_PrizeRoom_Text_WhichPrize
 	waitmessage
-	multichoice 10, 0, MULTICHOICE_GAME_CORNER_BATTLE_ITEM_PRIZES, FALSE
+// FIXME undefined reference: 	multichoice 10, 0, MULTICHOICE_GAME_CORNER_BATTLE_ITEM_PRIZES, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_GameCorner_PrizeRoom_EventScript_SmokeBall
 	case 1, CeladonCity_GameCorner_PrizeRoom_EventScript_MiracleSeed

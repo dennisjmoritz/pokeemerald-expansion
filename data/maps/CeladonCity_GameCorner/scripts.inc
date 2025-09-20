@@ -8,11 +8,11 @@ CeladonCity_GameCorner_OnLoad::
 	end
 
 CeladonCity_GameCorner_EventScript_HideRocketHideout::
-	setmetatile 15, 2, METATILE_GameCorner_Floor_ShadeFull, 0
-	setmetatile 16, 2, METATILE_GameCorner_Floor_ShadeFull, 0
-	setmetatile 17, 2, METATILE_GameCorner_Floor_ShadeFull, 0
-	setmetatile 16, 3, METATILE_GameCorner_PurpleWall_Floor, 1
-	setmetatile 17, 3, METATILE_GameCorner_PurpleWall_Floor, 1
+// FIXME undefined reference: 	setmetatile 15, 2, METATILE_GameCorner_Floor_ShadeFull, 0
+// FIXME undefined reference: 	setmetatile 16, 2, METATILE_GameCorner_Floor_ShadeFull, 0
+// FIXME undefined reference: 	setmetatile 17, 2, METATILE_GameCorner_Floor_ShadeFull, 0
+// FIXME undefined reference: 	setmetatile 16, 3, METATILE_GameCorner_PurpleWall_Floor, 1
+// FIXME undefined reference: 	setmetatile 17, 3, METATILE_GameCorner_PurpleWall_Floor, 1
 	return
 
 CeladonCity_GameCorner_EventScript_InfoClerk::
@@ -27,7 +27,7 @@ CeladonCity_GameCorner_EventScript_CoinsClerk::
 	showcoinsbox 0, 5
 	message CeladonCity_GameCorner_Text_WelcomeBuySomeCoins
 	waitmessage
-	multichoice 13, 0, MULTICHOICE_GAME_CORNER_COIN_PURCHASE_COUNTER, FALSE
+// FIXME undefined reference: 	multichoice 13, 0, MULTICHOICE_GAME_CORNER_COIN_PURCHASE_COUNTER, FALSE
 	copyvar VAR_0x8009, VAR_RESULT
 	switch VAR_RESULT
 	case 0, CeladonCity_GameCorner_EventScript_BuyCoins
@@ -129,7 +129,7 @@ CeladonCity_GameCorner_EventScript_Fisher::
 	checkcoins VAR_TEMP_1
 	goto_if_ge VAR_TEMP_1, (MAX_COINS + 1) - 10, CeladonCity_GameCorner_EventScript_FisherNoRoomForCoins
 	addcoins 10
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	msgbox CeladonCity_GameCorner_Text_Received10CoinsFromMan
 	playse SE_SHOP
 	waitse
@@ -144,7 +144,7 @@ CeladonCity_GameCorner_EventScript_FisherNoRoomForCoins::
 	end
 
 CeladonCity_GameCorner_EventScript_GamblerNoCoinCase::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	msgbox CeladonCity_GameCorner_Text_DontHaveCoinCase
 	goto CeladonCity_GameCorner_EventScript_FaceSlotMachine
 	end
@@ -193,7 +193,7 @@ CeladonCity_GameCorner_EventScript_Scientist::
 	checkcoins VAR_TEMP_1
 	goto_if_ge VAR_TEMP_1, (MAX_COINS + 1) - 20, CeladonCity_GameCorner_EventScript_ScientistNoRoomForCoins
 	addcoins 20
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	msgbox CeladonCity_GameCorner_Text_Received20CoinsFromNiceGuy
 	playse SE_SHOP
 	waitse
@@ -223,7 +223,7 @@ CeladonCity_GameCorner_EventScript_Gentleman::
 	checkcoins VAR_TEMP_1
 	goto_if_ge VAR_TEMP_1, (MAX_COINS + 1) - 20, CeladonCity_GameCorner_EventScript_GentlemanNoRoomForCoins
 	addcoins 20
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	msgbox CeladonCity_GameCorner_Text_Received20CoinsFromMan
 	playse SE_SHOP
 	waitse
@@ -258,9 +258,9 @@ CeladonCity_GameCorner_EventScript_SlotMachine::
 	msgbox CeladonCity_GameCorner_Text_SlotMachineWantToPlay, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, CeladonCity_GameCorner_EventScript_DontPlaySlotMachine
 	setfieldeffectargument 0, LOCALID_PLAYER
-	dofieldeffect FLDEFF_SMILEY_FACE_ICON
-	waitfieldeffect FLDEFF_SMILEY_FACE_ICON
-	specialvar VAR_RESULT, GetRandomSlotMachineId
+// FIXME undefined reference: 	dofieldeffect FLDEFF_SMILEY_FACE_ICON
+// FIXME undefined reference: 	waitfieldeffect FLDEFF_SMILEY_FACE_ICON
+// FIXME undefined reference: 	specialvar VAR_RESULT, GetRandomSlotMachineId
 	playslotmachine VAR_RESULT
 	releaseall
 	end
@@ -406,18 +406,18 @@ CeladonCity_GameCorner_EventScript_Poster::
 
 CeladonCity_GameCorner_EventScript_OpenRocketHideout::
 	playse SE_UNLOCK
-	setmetatile 15, 2, METATILE_GameCorner_Floor_StairsTop, 0
-	setmetatile 16, 2, METATILE_GameCorner_StairsTop, 1
-	setmetatile 17, 2, METATILE_GameCorner_StairsBottom, 1
-	setmetatile 16, 3, METATILE_GameCorner_PurpleWall_StairsTop, 1
-	setmetatile 17, 3, METATILE_GameCorner_PurpleWall_stairsBottom, 1
+// FIXME undefined reference: 	setmetatile 15, 2, METATILE_GameCorner_Floor_StairsTop, 0
+// FIXME undefined reference: 	setmetatile 16, 2, METATILE_GameCorner_StairsTop, 1
+// FIXME undefined reference: 	setmetatile 17, 2, METATILE_GameCorner_StairsBottom, 1
+// FIXME undefined reference: 	setmetatile 16, 3, METATILE_GameCorner_PurpleWall_StairsTop, 1
+// FIXME undefined reference: 	setmetatile 17, 3, METATILE_GameCorner_PurpleWall_stairsBottom, 1
 	special DrawWholeMapView
 	setflag FLAG_TEMP_1
 // Replaced FLAG_OPENED_ROCKET_HIDEOUT with FLAG_TEMP_1
 	return
 
 CeladonCity_GameCorner_EventScript_RocketGrunt::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_7, CeladonCity_GameCorner_Text_GruntIntro, CeladonCity_GameCorner_Text_GruntDefeat, CeladonCity_GameCorner_Text_DefeatedGrunt
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_7, CeladonCity_GameCorner_Text_GruntIntro, CeladonCity_GameCorner_Text_GruntDefeat, CeladonCity_GameCorner_Text_DefeatedGrunt
 	msgbox CeladonCity_GameCorner_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
 	end
 

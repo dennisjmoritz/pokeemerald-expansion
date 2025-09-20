@@ -41,7 +41,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "SixIsland_WaterPath_EventScript_Rose",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_WaterPath_EventScript_Rose",
       "flag": "0"
     },
     {
@@ -55,7 +57,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "SixIsland_WaterPath_EventScript_Edward",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_WaterPath_EventScript_Edward",
       "flag": "0"
     },
     {
@@ -69,7 +73,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "SixIsland_WaterPath_EventScript_Samir",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_WaterPath_EventScript_Samir",
       "flag": "0"
     },
     {
@@ -83,7 +89,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SixIsland_WaterPath_EventScript_Denise",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_WaterPath_EventScript_Denise",
       "flag": "0"
     },
     {
@@ -97,7 +105,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SixIsland_WaterPath_EventScript_Miu",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_WaterPath_EventScript_Miu",
       "flag": "0"
     },
     {
@@ -111,7 +121,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SixIsland_WaterPath_EventScript_Mia",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_WaterPath_EventScript_Mia",
       "flag": "0"
     },
     {
@@ -125,7 +137,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "SixIsland_WaterPath_EventScript_Earl",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_WaterPath_EventScript_Earl",
       "flag": "0"
     },
     {
@@ -139,7 +153,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SixIsland_WaterPath_EventScript_ItemElixir",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_WaterPath_EventScript_ItemElixir",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
@@ -154,7 +170,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SixIsland_WaterPath_EventScript_ItemDragonScale",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SixIsland_WaterPath_EventScript_ItemDragonScale",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }

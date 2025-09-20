@@ -5,7 +5,7 @@ LilycoveCity_CoveLilyMotel_2F_EventScript_GameDesigner::
 	lock
 	faceplayer
 	call_if_unset FLAG_TEMP_2, LilycoveCity_CoveLilyMotel_2F_EventScript_ShowMeCompletedDex
-	call_if_set FLAG_TEMP_2, LilycoveCity_CoveLilyMotel_2F_EventScript_ShowDiploma
+// FIXME undefined reference: 	call_if_set FLAG_TEMP_2, LilycoveCity_CoveLilyMotel_2F_EventScript_ShowDiploma
 	specialvar VAR_RESULT, HasAllHoennMons
 	goto_if_eq VAR_RESULT, TRUE, LilycoveCity_CoveLilyMotel_2F_EventScript_AllHoennMonsFanfare
 	release
@@ -19,14 +19,14 @@ LilycoveCity_CoveLilyMotel_2F_EventScript_AllHoennMonsFanfare::
 	setflag FLAG_TEMP_2
 	playfanfare MUS_OBTAIN_ITEM
 	waitfanfare
-	goto LilycoveCity_CoveLilyMotel_2F_EventScript_ShowDiploma
+// FIXME undefined reference: 	goto LilycoveCity_CoveLilyMotel_2F_EventScript_ShowDiploma
 	end
 
-LilycoveCity_CoveLilyMotel_2F_EventScript_ShowDiploma::
+// FIXME undefined reference: LilycoveCity_CoveLilyMotel_2F_EventScript_ShowDiploma::
 	message LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
-	special Special_ShowDiploma
+// FIXME undefined reference: 	special Special_ShowDiploma
 	waitstate
 	release
 	end

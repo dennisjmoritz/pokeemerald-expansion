@@ -119,7 +119,7 @@ SlateportCity_EventScript_EnergyGuru::
 	message SlateportCity_Text_EnergyGuruSellWhatYouNeed
 	waitmessage
 	pokemart SlateportCity_Pokemart_EnergyGuru
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -480,7 +480,7 @@ SlateportCity_EventScript_DollClerk::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemartdecoration SlateportCity_PokemartDecor_Dolls
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -503,7 +503,7 @@ SlateportCity_EventScript_DecorClerk::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemartdecoration SlateportCity_PokemartDecor
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -531,7 +531,7 @@ SlateportCity_EventScript_PowerTMClerk::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemart SlateportCity_Pokemart_PowerTMs
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

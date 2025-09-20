@@ -19,7 +19,7 @@ LilycoveCity_DepartmentStore_4F_EventScript_ClerkLeft::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemart LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -37,7 +37,7 @@ LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemart LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

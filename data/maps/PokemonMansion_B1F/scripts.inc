@@ -3,14 +3,14 @@ PokemonMansion_B1F_MapScripts::
 	.byte 0
 
 PokemonMansion_B1F_OnLoad::
-	call_if_set FLAG_TEMP_1, PokemonMansion_EventScript_PressSwitch_B1F
+// FIXME undefined reference: 	call_if_set FLAG_TEMP_1, PokemonMansion_EventScript_PressSwitch_B1F
 // Replaced FLAG_POKEMON_MANSION_SWITCH_STATE with FLAG_TEMP_1
 	end
 
 PokemonMansion_B1F_EventScript_Statue::
 	lockall
 	setvar VAR_0x8004, 3
-	call PokemonMansion_EventScript_SecretSwitch
+// FIXME undefined reference: 	call PokemonMansion_EventScript_SecretSwitch
 	playse SE_UNLOCK
 	special DrawWholeMapView
 	waitse
@@ -22,12 +22,12 @@ PokemonMansion_B1F_EventScript_DiarySep1st::
 	end
 
 PokemonMansion_B1F_EventScript_Lewis::
-	trainerbattle_single TRAINER_BURGLAR_LEWIS, PokemonMansion_B1F_Text_LewisIntro, PokemonMansion_B1F_Text_LewisDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BURGLAR_LEWIS, PokemonMansion_B1F_Text_LewisIntro, PokemonMansion_B1F_Text_LewisDefeat
 	msgbox PokemonMansion_B1F_Text_LewisPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 PokemonMansion_B1F_EventScript_Ivan::
-	trainerbattle_single TRAINER_SCIENTIST_IVAN, PokemonMansion_B1F_Text_IvanIntro, PokemonMansion_B1F_Text_IvanDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SCIENTIST_IVAN, PokemonMansion_B1F_Text_IvanIntro, PokemonMansion_B1F_Text_IvanDefeat
 	msgbox PokemonMansion_B1F_Text_IvanPostBattle, MSGBOX_AUTOCLOSE
 	end
 

@@ -4,7 +4,7 @@ FiveIsland_LostCave_Room10_MapScripts::
 	.byte 0
 
 FiveIsland_LostCave_Room10_OnResume::
-	call_if_defeated TRAINER_LADY_SELPHY, FiveIsland_LostCave_Room10_EventScript_StopSelphySceneTrigger
+// FIXME undefined reference: 	call_if_defeated TRAINER_LADY_SELPHY, FiveIsland_LostCave_Room10_EventScript_StopSelphySceneTrigger
 	end
 
 FiveIsland_LostCave_Room10_EventScript_StopSelphySceneTrigger::
@@ -19,7 +19,7 @@ FiveIsland_LostCave_Room10_OnFrame::
 
 FiveIsland_LostCave_Room10_EventScript_FindSelphyScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_FEMALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	applymovement LOCALID_LOST_CAVE_SELPHY, FiveIsland_LostCave_Room10_Movement_SelphyWander
 	waitmovement 0
 	delay 100
@@ -27,7 +27,7 @@ FiveIsland_LostCave_Room10_EventScript_FindSelphyScene::
 	waitmovement 0
 	msgbox FiveIsland_LostCave_Room10_Text_SelphyIntro
 @	goto_if_questlog FiveIsland_LostCave_Room10_EventScript_SelphyQuestLog
-	trainerbattle_no_intro TRAINER_LADY_SELPHY, FiveIsland_LostCave_Room10_Text_SelphyDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_LADY_SELPHY, FiveIsland_LostCave_Room10_Text_SelphyDefeat
 	msgbox FiveIsland_LostCave_Room10_Text_MayIAskYouToTakeMeHome
 	closemessage
 	call FiveIsland_LostCave_Room10_EventScript_SetSelphyFound
@@ -48,7 +48,7 @@ FiveIsland_LostCave_Room10_EventScript_SetSelphyFound::
 	return
 
 FiveIsland_LostCave_Room10_EventScript_SelphyQuestLog::
-	settrainerflag TRAINER_LADY_SELPHY
+// FIXME undefined reference: 	settrainerflag TRAINER_LADY_SELPHY
 	call FiveIsland_LostCave_Room10_EventScript_SetSelphyFound
 	releaseall
 	end

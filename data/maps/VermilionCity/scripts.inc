@@ -62,17 +62,17 @@ VermilionCity_EventScript_FerrySailor::
 	end
 
 VermilionCity_EventScript_CheckHasMysticTicket::
-	goto_if_unset FLAG_ENABLE_SHIP_NAVEL_ROCK, EventScript_SetResultFalse
+// FIXME undefined reference: 	goto_if_unset FLAG_ENABLE_SHIP_NAVEL_ROCK, EventScript_SetResultFalse
 	checkitem ITEM_MYSTIC_TICKET
-	goto_if_eq VAR_RESULT, FALSE, EventScript_SetResultFalse
-	goto EventScript_SetResultTrue
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, EventScript_SetResultFalse
+// FIXME undefined reference: 	goto EventScript_SetResultTrue
 	end
 
 VermilionCity_EventScript_CheckHasAuroraTicket::
-	goto_if_unset FLAG_ENABLE_SHIP_BIRTH_ISLAND, EventScript_SetResultFalse
+// FIXME undefined reference: 	goto_if_unset FLAG_ENABLE_SHIP_BIRTH_ISLAND, EventScript_SetResultFalse
 	checkitem ITEM_AURORA_TICKET
-	goto_if_eq VAR_RESULT, FALSE, EventScript_SetResultFalse
-	goto EventScript_SetResultTrue
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, EventScript_SetResultFalse
+// FIXME undefined reference: 	goto EventScript_SetResultTrue
 	end
 
 VermilionCity_EventScript_CheckSeagallopPresent::
@@ -87,7 +87,7 @@ VermilionCity_EventScript_CheckSeagallopPresent::
 
 VermilionCity_EventScript_ChooseSeagallopDestRainbowPass::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	call VermilionCity_EventScript_CheckHasMysticTicket
 	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_HasMysticTicket
 	call VermilionCity_EventScript_CheckHasAuroraTicket
@@ -95,7 +95,7 @@ VermilionCity_EventScript_ChooseSeagallopDestRainbowPass::
 // 	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
 	message VermilionCity_Text_BoardSeagallopRainbowPass
 	waitmessage
-	goto EventScript_SeviiDestinationsPage1
+// FIXME undefined reference: 	goto EventScript_SeviiDestinationsPage1
 	end
 
 VermilionCity_EventScript_HasMysticTicket::
@@ -104,12 +104,12 @@ VermilionCity_EventScript_HasMysticTicket::
 	call_if_unset FLAG_SHOWN_MYSTIC_TICKET, VermilionCity_EventScript_ShowMysticTicket
 	message VermilionCity_Text_BoardSeagallopFerry
 	waitmessage
-	multichoice 17, 6, MULTICHOICE_SEVII_NAVEL, FALSE
+// FIXME undefined reference: 	multichoice 17, 6, MULTICHOICE_SEVII_NAVEL, FALSE
 	switch VAR_RESULT
-	case 0, EventScript_SeviiDestinationsPage1
+// FIXME undefined reference: 	case 0, EventScript_SeviiDestinationsPage1
 	case 1, EventScript_SailToNavelRock
-	case 2, EventScript_CancelSail
-	case 127, EventScript_CancelSail
+// FIXME undefined reference: 	case 2, EventScript_CancelSail
+// FIXME undefined reference: 	case 127, EventScript_CancelSail
 	end
 
 VermilionCity_EventScript_ShowMysticTicket::
@@ -121,12 +121,12 @@ VermilionCity_EventScript_HasAuroraTicket::
 	call_if_unset FLAG_SHOWN_AURORA_TICKET, VermilionCity_EventScript_ShowAuroraTicket
 	message VermilionCity_Text_BoardSeagallopFerry
 	waitmessage
-	multichoice 13, 6, MULTICHOICE_SEVII_BIRTH, FALSE
+// FIXME undefined reference: 	multichoice 13, 6, MULTICHOICE_SEVII_BIRTH, FALSE
 	switch VAR_RESULT
-	case 0, EventScript_SeviiDestinationsPage1
+// FIXME undefined reference: 	case 0, EventScript_SeviiDestinationsPage1
 	case 1, EventScript_SailToBirthIsland
-	case 2, EventScript_CancelSail
-	case 127, EventScript_CancelSail
+// FIXME undefined reference: 	case 2, EventScript_CancelSail
+// FIXME undefined reference: 	case 127, EventScript_CancelSail
 	end
 
 VermilionCity_EventScript_ShowAuroraTicket::
@@ -139,40 +139,40 @@ VermilionCity_EventScript_HasMysticAndAuroraTickets::
 	call_if_unset FLAG_SHOWN_AURORA_TICKET, VermilionCity_EventScript_ShowAuroraTicket
 	message VermilionCity_Text_BoardSeagallopFerry
 	waitmessage
-	multichoice 13, 5, MULTICHOICE_SEVII_NAVEL_BIRTH, FALSE
+// FIXME undefined reference: 	multichoice 13, 5, MULTICHOICE_SEVII_NAVEL_BIRTH, FALSE
 	switch VAR_RESULT
-	case 0, EventScript_SeviiDestinationsPage1
+// FIXME undefined reference: 	case 0, EventScript_SeviiDestinationsPage1
 	case 1, EventScript_SailToNavelRock
 	case 2, EventScript_SailToBirthIsland
-	case 3, EventScript_CancelSail
-	case 127, EventScript_CancelSail
+// FIXME undefined reference: 	case 3, EventScript_CancelSail
+// FIXME undefined reference: 	case 127, EventScript_CancelSail
 	end
 
 EventScript_SailToNavelRock::
 	msgbox VermilionCity_Text_Seagallop10Departing
 // 	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
 // 	setvar VAR_0x8006, SEAGALLOP_NAVEL_ROCK
-	goto EventScript_SetSail
+// FIXME undefined reference: 	goto EventScript_SetSail
 	end
 
 EventScript_SailToBirthIsland::
 	msgbox VermilionCity_Text_Seagallop12Departing
 // 	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
 // 	setvar VAR_0x8006, SEAGALLOP_BIRTH_ISLAND
-	goto EventScript_SetSail
+// FIXME undefined reference: 	goto EventScript_SetSail
 	end
 
 VermilionCity_EventScript_ChooseSeagallopDestTriPass::
 	message VermilionCity_Text_BoardSeagallopTriPass
 	waitmessage
 // 	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
-	multichoice 19, 5, MULTICHOICE_SEAGALLOP_123, FALSE
+// FIXME undefined reference: 	multichoice 19, 5, MULTICHOICE_SEAGALLOP_123, FALSE
 	switch VAR_RESULT
-	case 0, EventScript_SailToOneIsland2
-	case 1, EventScript_SailToTwoIsland2
-	case 2, EventScript_SailToThreeIsland2
-	case 3, EventScript_CancelSail
-	case 127, EventScript_CancelSail
+// FIXME undefined reference: 	case 0, EventScript_SailToOneIsland2
+// FIXME undefined reference: 	case 1, EventScript_SailToTwoIsland2
+// FIXME undefined reference: 	case 2, EventScript_SailToThreeIsland2
+// FIXME undefined reference: 	case 3, EventScript_CancelSail
+// FIXME undefined reference: 	case 127, EventScript_CancelSail
 	end
 
 @ Unreachable
@@ -198,7 +198,7 @@ VermilionCity_EventScript_ExitedTicketCheck::
 	end
 
 VermilionCity_EventScript_CheckTicket::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_VERMILION_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
@@ -216,7 +216,7 @@ VermilionCity_EventScript_CheckTicket::
 VermilionCity_EventScript_DontHaveSSTicket::
 	msgbox VermilionCity_Text_DontHaveNeededSSTicket
 	closemessage
-	goto VermilionCity_EventScript_WalkUpPier
+// FIXME undefined reference: 	goto VermilionCity_EventScript_WalkUpPier
 	end
 
 VermilionCity_EventScript_CheckSeagallopPresentTrigger::
@@ -227,7 +227,7 @@ VermilionCity_EventScript_CheckSeagallopPresentTrigger::
 // Replaced VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F with VAR_TEMP_0
 	msgbox VermilionCity_Text_TheShipSetSail
 	closemessage
-	goto VermilionCity_EventScript_WalkUpPier
+// FIXME undefined reference: 	goto VermilionCity_EventScript_WalkUpPier
 	end
 
 VermilionCity_EventScript_Sailor::

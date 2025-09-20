@@ -3,14 +3,14 @@ PokemonMansion_3F_MapScripts::
 	.byte 0
 
 PokemonMansion_3F_OnLoad::
-	call_if_set FLAG_TEMP_1, PokemonMansion_EventScript_PressSwitch_3F
+// FIXME undefined reference: 	call_if_set FLAG_TEMP_1, PokemonMansion_EventScript_PressSwitch_3F
 // Replaced FLAG_POKEMON_MANSION_SWITCH_STATE with FLAG_TEMP_1
 	end
 
 PokemonMansion_3F_EventScript_Statue::
 	lockall
 	setvar VAR_0x8004, 2
-	call PokemonMansion_EventScript_SecretSwitch
+// FIXME undefined reference: 	call PokemonMansion_EventScript_SecretSwitch
 	playse SE_UNLOCK
 	special DrawWholeMapView
 	waitse
@@ -22,12 +22,12 @@ PokemonMansion_3F_EventScript_DiaryFeb6th::
 	end
 
 PokemonMansion_3F_EventScript_Simon::
-	trainerbattle_single TRAINER_BURGLAR_SIMON, PokemonMansion_1F_Text_SimonIntro, PokemonMansion_1F_Text_SimonDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BURGLAR_SIMON, PokemonMansion_1F_Text_SimonIntro, PokemonMansion_1F_Text_SimonDefeat
 	msgbox PokemonMansion_1F_Text_SimonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 PokemonMansion_3F_EventScript_Braydon::
-	trainerbattle_single TRAINER_SCIENTIST_BRAYDON, PokemonMansion_1F_Text_BraydonIntro, PokemonMansion_1F_Text_BraydonDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SCIENTIST_BRAYDON, PokemonMansion_1F_Text_BraydonIntro, PokemonMansion_1F_Text_BraydonDefeat
 	msgbox PokemonMansion_1F_Text_BraydonPostBattle, MSGBOX_AUTOCLOSE
 	end
 

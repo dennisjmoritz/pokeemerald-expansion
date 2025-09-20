@@ -27,7 +27,6 @@
   "object_events": [
     {
       "local_id": "LOCALID_CASCADE_BADGE_GUARD",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 15,
       "y": 149,
@@ -42,7 +41,6 @@
     },
     {
       "local_id": "LOCALID_THUNDER_BADGE_GUARD",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 8,
       "y": 140,
@@ -57,7 +55,6 @@
     },
     {
       "local_id": "LOCALID_RAINBOW_BADGE_GUARD",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 14,
       "y": 123,
@@ -72,7 +69,6 @@
     },
     {
       "local_id": "LOCALID_SOUL_BADGE_GUARD",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 16,
       "y": 112,
@@ -87,7 +83,6 @@
     },
     {
       "local_id": "LOCALID_MARSH_BADGE_GUARD",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 10,
       "y": 94,
@@ -102,7 +97,6 @@
     },
     {
       "local_id": "LOCALID_VOLCANO_BADGE_GUARD",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 14,
       "y": 61,
@@ -117,7 +111,6 @@
     },
     {
       "local_id": "LOCALID_EARTH_BADGE_GUARD",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 6,
       "y": 35,
@@ -584,9 +577,9 @@
       "elevation": 0,
       "item": "ITEM_FULL_RESTORE",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -595,9 +588,9 @@
       "elevation": 0,
       "item": "ITEM_ULTRA_BALL",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -606,9 +599,9 @@
       "elevation": 3,
       "item": "ITEM_MAX_ETHER",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -617,9 +610,9 @@
       "elevation": 3,
       "item": "ITEM_LUM_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -628,9 +621,9 @@
       "elevation": 3,
       "item": "ITEM_SITRUS_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -639,9 +632,9 @@
       "elevation": 3,
       "item": "ITEM_ASPEAR_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -650,9 +643,9 @@
       "elevation": 3,
       "item": "ITEM_LEPPA_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -661,9 +654,9 @@
       "elevation": 3,
       "item": "ITEM_MAX_ELIXIR",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "sign",

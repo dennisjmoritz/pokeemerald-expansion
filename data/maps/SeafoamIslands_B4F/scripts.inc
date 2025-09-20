@@ -15,7 +15,7 @@ SeafoamIslands_B4F_OnResume::
 
 SeafoamIslands_B4F_EventScript_TryRemoveArticuno::
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
+// FIXME undefined reference: 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
 	removeobject VAR_LAST_TALKED
 	return
 
@@ -38,7 +38,7 @@ SeafoamIslands_B4F_EventScript_StoppedCurrent::
 	return
 
 SeafoamIslands_B4F_EventScript_SetNoCurrentLayout::
-	setmaplayoutindex LAYOUT_SEAFOAM_ISLANDS_B4F_CURRENT_STOPPED
+// FIXME undefined reference: 	setmaplayoutindex LAYOUT_SEAFOAM_ISLANDS_B4F_CURRENT_STOPPED
 	return
 
 SeafoamIslands_B4F_EventScript_ShowArticuno::
@@ -65,7 +65,7 @@ SeafoamIslands_B4F_OnWarp::
 
 SeafoamIslands_B4F_EventScript_WarpInOnCurrent::
 	turnobject LOCALID_PLAYER, DIR_NORTH
-	special ForcePlayerToStartSurfing
+// FIXME undefined reference: 	special ForcePlayerToStartSurfing
 	end
 
 SeafoamIslands_B4F_OnFrame::
@@ -100,7 +100,7 @@ SeafoamIslands_B4F_EventScript_EnterByFalling::
 	getplayerxy VAR_0x8008, VAR_0x8009
 	call_if_lt VAR_0x8008, 9, SeafoamIslands_B4F_EventScript_RideCurrentFar
 	call_if_ge VAR_0x8008, 9, SeafoamIslands_B4F_EventScript_RideCurrentClose
-	special SeafoamIslandsB4F_CurrentDumpsPlayerOnLand
+// FIXME undefined reference: 	special SeafoamIslandsB4F_CurrentDumpsPlayerOnLand
 	setvar VAR_TEMP_1, 0
 	releaseall
 	end
@@ -159,13 +159,13 @@ SeafoamIslands_B4F_Movement_WalkUp::
 
 SeafoamIslands_B4F_EventScript_Articuno::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	setwildbattle SPECIES_ARTICUNO, 50
 	waitse
 	playmoncry SPECIES_ARTICUNO, CRY_MODE_ENCOUNTER
-	message Text_Gyaoo
+// FIXME undefined reference: 	message Text_Gyaoo
 	waitmessage
 	waitmoncry
 	delay 10
@@ -173,7 +173,7 @@ SeafoamIslands_B4F_EventScript_Articuno::
 	waitbuttonpress
 	setflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
-	special StartLegendaryBattle
+// FIXME undefined reference: 	special StartLegendaryBattle
 	waitstate
 	clearflag FLAG_TEMP_1
 // Replaced FLAG_SYS_SPECIAL_WILD_BATTLE with FLAG_TEMP_1
@@ -189,12 +189,12 @@ SeafoamIslands_B4F_EventScript_Articuno::
 SeafoamIslands_B4F_EventScript_DefeatedArticuno::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_FOUGHT_ARTICUNO with FLAG_TEMP_1
-	goto EventScript_RemoveStaticMon
+// FIXME undefined reference: 	goto EventScript_RemoveStaticMon
 	end
 
 SeafoamIslands_B4F_EventScript_RanFromArticuno::
 	setvar VAR_0x8004, SPECIES_ARTICUNO
-	goto EventScript_MonFlewAway
+// FIXME undefined reference: 	goto EventScript_MonFlewAway
 	end
 
 SeafoamIslands_B4F_EventScript_BoulderHintSign::

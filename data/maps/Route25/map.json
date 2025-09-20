@@ -17,11 +17,15 @@
       "map": "MAP_ROUTE24",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_VERITY_LAKEFRONT",
+      "offset": 49,
+      "direction": "up"
     }
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 11,
       "y": 4,
@@ -31,11 +35,11 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "Route25_EventScript_Franklin",
-      "flag": "0"
+      "script": "Common_EventScript_ShowBagIsFull",
+      "flag": "0",
+      "script_comment": "Route25_EventScript_Franklin"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 18,
       "y": 2,
@@ -45,11 +49,11 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route25_EventScript_Joey",
-      "flag": "0"
+      "script": "Common_EventScript_ShowBagIsFull",
+      "flag": "0",
+      "script_comment": "Route25_EventScript_Joey"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 17,
       "y": 7,
@@ -59,11 +63,11 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route25_EventScript_Wayne",
-      "flag": "0"
+      "script": "Common_EventScript_ShowBagIsFull",
+      "flag": "0",
+      "script_comment": "Route25_EventScript_Wayne"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 22,
       "y": 4,
@@ -73,11 +77,11 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route25_EventScript_Dan",
-      "flag": "0"
+      "script": "Common_EventScript_ShowBagIsFull",
+      "flag": "0",
+      "script_comment": "Route25_EventScript_Dan"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 22,
       "y": 8,
@@ -87,11 +91,11 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route25_EventScript_Kelsey",
-      "flag": "0"
+      "script": "Common_EventScript_ShowBagIsFull",
+      "flag": "0",
+      "script_comment": "Route25_EventScript_Kelsey"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 27,
       "y": 9,
@@ -101,11 +105,11 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route25_EventScript_Nob",
-      "flag": "0"
+      "script": "Common_EventScript_ShowBagIsFull",
+      "flag": "0",
+      "script_comment": "Route25_EventScript_Nob"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 28,
       "y": 4,
@@ -115,11 +119,11 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route25_EventScript_Flint",
-      "flag": "0"
+      "script": "Common_EventScript_ShowBagIsFull",
+      "flag": "0",
+      "script_comment": "Route25_EventScript_Flint"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 36,
       "y": 4,
@@ -129,11 +133,11 @@
       "movement_range_y": 3,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route25_EventScript_Chad",
-      "flag": "0"
+      "script": "Common_EventScript_ShowBagIsFull",
+      "flag": "0",
+      "script_comment": "Route25_EventScript_Chad"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LASS",
       "x": 42,
       "y": 5,
@@ -143,11 +147,11 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route25_EventScript_Haley",
-      "flag": "0"
+      "script": "Common_EventScript_ShowBagIsFull",
+      "flag": "0",
+      "script_comment": "Route25_EventScript_Haley"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 26,
       "y": 2,
@@ -157,12 +161,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route25_EventScript_ItemTM43",
+      "script": "Common_EventScript_ShowBagIsFull",
       "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
+      "script_comment": "Route25_EventScript_ItemTM43"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 30,
       "y": 3,
@@ -176,7 +180,6 @@
       "flag": "FLAG_TEMP_12"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
       "x": 49,
       "y": 10,
@@ -186,11 +189,11 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route25_EventScript_Beauty",
-      "flag": "0"
+      "script": "Common_EventScript_ShowBagIsFull",
+      "flag": "0",
+      "script_comment": "Route25_EventScript_Beauty"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN",
       "x": 49,
       "y": 11,
@@ -230,9 +233,9 @@
       "elevation": 3,
       "item": "ITEM_ELIXIR",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -241,9 +244,9 @@
       "elevation": 3,
       "item": "ITEM_ETHER",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -252,9 +255,9 @@
       "elevation": 3,
       "item": "ITEM_ORAN_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -263,9 +266,9 @@
       "elevation": 3,
       "item": "ITEM_BLUK_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     }
   ]
 }

@@ -98,7 +98,7 @@ TrainerHill_Entrance_EventScript_EndExitChallenge::
 
 TrainerHill_Entrance_EventScript_Nurse::
 	setvar VAR_0x800B, LOCALID_TRAINER_HILL_NURSE
-	call Common_EventScript_PkmnCenterNurse
+// FIXME undefined reference: 	call Common_EventScript_PkmnCenterNurse
 	waitmessage
 	waitbuttonpress
 	release
@@ -245,7 +245,7 @@ TrainerHill_Entrance_EventScript_Clerk::
 	waitmessage
 	goto_if_set FLAG_SYS_GAME_CLEAR, TrainerHill_Entrance_EventScript_ExpandedPokemart
 	pokemart TrainerHill_Entrance_Pokemart_Basic
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -266,7 +266,7 @@ TrainerHill_Entrance_Pokemart_Basic:
 
 TrainerHill_Entrance_EventScript_ExpandedPokemart::
 	pokemart TrainerHill_Entrance_Pokemart_Expanded
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

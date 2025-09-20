@@ -121,7 +121,7 @@ MauvilleCity_Gym_EventScript_GiveShockWave2::
 
 MauvilleCity_Gym_EventScript_GiveShockWave::
 	giveitem ITEM_TM_SHOCK_WAVE
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox MauvilleCity_Gym_Text_ExplainShockWave, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_SHOCK_WAVE
 	return

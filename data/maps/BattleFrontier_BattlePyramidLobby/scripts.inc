@@ -686,7 +686,7 @@ BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
 	.string "{STR_VAR_1}.$"
 
 @ Unused
-BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
+// FIXME undefined reference: BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
 	.string "…Ah…\n"
 	.string "Your BAG appears to be filled.\p"
 	.string "Please return after you've organized\n"

@@ -26,7 +26,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 14,
       "y": 10,
@@ -36,11 +35,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route9_EventScript_Alicia",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route9_EventScript_Alicia",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 20,
       "y": 17,
@@ -50,11 +50,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "Route9_EventScript_Jeremy",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route9_EventScript_Jeremy",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 61,
       "y": 16,
@@ -64,11 +65,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route9_EventScript_Alan",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route9_EventScript_Alan",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 26,
       "y": 7,
@@ -78,11 +80,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route9_EventScript_Chris",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route9_EventScript_Chris",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 26,
       "y": 1,
@@ -92,11 +95,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route9_EventScript_Brent",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route9_EventScript_Brent",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 49,
       "y": 7,
@@ -106,11 +110,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route9_EventScript_Conner",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route9_EventScript_Conner",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 53,
       "y": 2,
@@ -120,11 +125,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route9_EventScript_Brice",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route9_EventScript_Brice",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 60,
       "y": 9,
@@ -134,11 +140,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "Route9_EventScript_Caitlin",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route9_EventScript_Caitlin",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 36,
       "y": 6,
@@ -148,12 +155,13 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
-      "script": "Route9_EventScript_Drew",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route9_EventScript_Drew",
       "flag": "0"
     },
     {
       "local_id": "LOCALID_ROUTE9_CUT_TREE",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 2,
       "y": 8,
@@ -167,7 +175,6 @@
       "flag": "FLAG_TEMP_12"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 12,
       "y": 17,
@@ -177,12 +184,13 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route9_EventScript_ItemTM40",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route9_EventScript_ItemTM40",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 65,
       "y": 17,
@@ -192,7 +200,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route9_EventScript_ItemBurnHeal",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route9_EventScript_ItemBurnHeal",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
@@ -215,9 +225,9 @@
       "elevation": 0,
       "item": "ITEM_ETHER",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -226,9 +236,9 @@
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -237,9 +247,9 @@
       "elevation": 3,
       "item": "ITEM_CHESTO_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     }
   ]
 }

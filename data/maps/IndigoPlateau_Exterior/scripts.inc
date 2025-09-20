@@ -81,7 +81,7 @@ IndigoPlateau_Exterior_EventScript_Credits::
 // Replaced VAR_MAP_SCENE_INDIGO_PLATEAU_EXTERIOR with VAR_TEMP_0
 	removeobject LOCALID_CREDITS_RIVAL
 	removeobject LOCALID_CREDITS_PROF_OAK
-	special DoCredits
+// FIXME undefined reference: 	special DoCredits
 	waitstate
 	releaseall
 	end

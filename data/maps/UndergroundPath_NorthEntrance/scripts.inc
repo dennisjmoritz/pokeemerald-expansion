@@ -15,24 +15,24 @@ UndergroundPath_NorthEntrance_EventScript_Saige::
     // call EventScript_GetInGameTradeSpecies
     // goto_if_ne VAR_RESULT, VAR_0x8009, UndergroundPath_NorthEntrance_EventScript_NotRequestedMon
     // call EventScript_DoInGameTrade
-	msgbox Trade_Text_ThanksYoureAPal
+// FIXME undefined reference: 	msgbox Trade_Text_ThanksYoureAPal
 	setflag FLAG_TEMP_1
 // Replaced FLAG_DID_MS_NIDO_TRADE with FLAG_TEMP_1
 	release
 	end
 
 UndergroundPath_NorthEntrance_EventScript_DeclineTrade::
-	msgbox Trade_Text_ThatsTooBad
+// FIXME undefined reference: 	msgbox Trade_Text_ThatsTooBad
 	release
 	end
 
 UndergroundPath_NorthEntrance_EventScript_NotRequestedMon::
 	bufferspeciesname STR_VAR_1, VAR_0x8009
-	msgbox Trade_Text_ThisIsNoMon
+// FIXME undefined reference: 	msgbox Trade_Text_ThisIsNoMon
 	release
 	end
 
 UndergroundPath_NorthEntrance_EventScript_AlreadyTraded::
-	msgbox Trade_Text_HowIsMyOldMon
+// FIXME undefined reference: 	msgbox Trade_Text_HowIsMyOldMon
 	release
 	end

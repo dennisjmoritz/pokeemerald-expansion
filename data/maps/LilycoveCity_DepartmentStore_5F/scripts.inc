@@ -21,7 +21,7 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarLeft::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Dolls
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -47,7 +47,7 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidLeft::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Cushions
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -70,7 +70,7 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidRight::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Posters
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -93,7 +93,7 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarRight::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Mats
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

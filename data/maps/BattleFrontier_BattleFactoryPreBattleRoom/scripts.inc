@@ -21,7 +21,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_OnFrame:
 	.2byte 0
 
 BattleFrontier_BattleFactoryPreBattleRoom_EventScript_EnterRoom::
-	goto_if_eq VAR_0x8006, 1, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ReturnToRoomFromBattle
+// FIXME undefined reference: 	goto_if_eq VAR_0x8006, 1, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ReturnToRoomFromBattle
 	setvar VAR_TEMP_0, 1
 	applymovement LOCALID_FACTORY_PRE_BATTLE_ATTENDANT, BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantEnterRoom
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleFactoryPreBattleRoom_Movement_PlayerEnterRoom
@@ -51,7 +51,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_EventScript_EnterBattleRoom::
 	waitstate
 	end
 
-BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ReturnToRoomFromBattle::
+// FIXME undefined reference: BattleFrontier_BattleFactoryPreBattleRoom_EventScript_ReturnToRoomFromBattle::
 	factory_setopponentmons
 	factory_resethelditems
 	msgbox BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons, MSGBOX_DEFAULT

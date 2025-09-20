@@ -14,11 +14,11 @@ FourIsland_IcefallCave_Back_EventScript_HideLorelei::
 
 FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_FEMALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox FourIsland_IcefallCave_Back_Text_LoreleiKeepHandsOffMons
 	applymovement LOCALID_ICEFALL_ROCKET1, FourIsland_IcefallCave_Back_Movement_WalkInPlaceDown
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FourIsland_IcefallCave_Back_Text_ShutItLadyLeaveUsBe
 	closemessage
 	playse SE_PIN
@@ -28,7 +28,7 @@ FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene::
 	waitmovement 0
 	applymovement LOCALID_ICEFALL_LORELEI, Common_Movement_Delay48
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_FEMALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox FourIsland_IcefallCave_Back_Text_LoreleiPlayerHelpMeKickPoachersOut
 	closemessage
 	applymovement LOCALID_ICEFALL_LORELEI, Common_Movement_WalkInPlaceFasterRight
@@ -43,18 +43,18 @@ FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene::
 	waitmovement 0
 	applymovement LOCALID_ICEFALL_ROCKET2, FourIsland_IcefallCave_Back_Movement_WalkInPlaceDown
 	waitmovement 0
-	playbgm MUS_ENCOUNTER_ROCKET, 0
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_ROCKET, 0
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FourIsland_IcefallCave_Back_Text_GruntIntro
 	setvar VAR_LAST_TALKED, LOCALID_ICEFALL_ROCKET3
-	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_45, FourIsland_IcefallCave_Back_Text_GruntDefeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_45, FourIsland_IcefallCave_Back_Text_GruntDefeat
 	applymovement LOCALID_ICEFALL_LORELEI, FourIsland_IcefallCave_Back_Movement_WalkInPlaceUp
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_FEMALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox FourIsland_IcefallCave_Back_Text_LoreleiWhereHaveYouTakenMons
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FourIsland_IcefallCave_Back_Text_NotTellingYouThat
-	textcolor NPC_TEXT_COLOR_FEMALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	message FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou
 	waitmessage
 	waitse
@@ -63,7 +63,7 @@ FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene::
 	waitmoncry
 	applymovement LOCALID_ICEFALL_ROCKET1, FourIsland_IcefallCave_Back_Movement_Rocket1ReactToThreat
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland
 	closemessage
 	applymovement LOCALID_ICEFALL_LORELEI, FourIsland_IcefallCave_Back_Movement_LoreleiWatchRocketsExit
@@ -80,7 +80,7 @@ FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene::
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_FEMALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful
 	setflag FLAG_TEMP_1
 // Replaced FLAG_HIDE_RUIN_VALLEY_SCIENTIST with FLAG_TEMP_1

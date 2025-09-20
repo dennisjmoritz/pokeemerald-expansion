@@ -12,12 +12,12 @@ FiveIsland_RocketWarehouse_OnTransition::
 	end
 
 FiveIsland_RocketWarehouse_OnLoad::
-	call_if_defeated TRAINER_TEAM_ROCKET_ADMIN, FiveIsland_RocketWarehouse_EventScript_SetArrowsForReEntry
+// FIXME undefined reference: 	call_if_defeated TRAINER_TEAM_ROCKET_ADMIN, FiveIsland_RocketWarehouse_EventScript_SetArrowsForReEntry
 	end
 
 FiveIsland_RocketWarehouse_EventScript_SetArrowsForReEntry::
-	setmetatile 26, 20, METATILE_SilphCo_Arrow_Up, 0
-	setmetatile 27, 20, METATILE_SilphCo_Arrow_Up, 0
+// FIXME undefined reference: 	setmetatile 26, 20, METATILE_SilphCo_Arrow_Up, 0
+// FIXME undefined reference: 	setmetatile 27, 20, METATILE_SilphCo_Arrow_Up, 0
 	return
 
 FiveIsland_RocketWarehouse_EventScript_Cage::
@@ -47,7 +47,7 @@ FiveIsland_RocketWarehouse_EventScript_Admin2Trigger::
 	end
 
 FiveIsland_RocketWarehouse_EventScript_Gideon::
-	trainerbattle_single TRAINER_SCIENTIST_GIDEON, FiveIsland_RocketWarehouse_Text_GideonIntro, FiveIsland_RocketWarehouse_Text_GideonDefeat, FiveIsland_RocketWarehouse_EventScript_DefeatedGideon
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SCIENTIST_GIDEON, FiveIsland_RocketWarehouse_Text_GideonIntro, FiveIsland_RocketWarehouse_Text_GideonDefeat, FiveIsland_RocketWarehouse_EventScript_DefeatedGideon
 	goto_if_set FLAG_TEMP_1, FiveIsland_RocketWarehouse_EventScript_MentionGiovannisKid
 // Replaced FLAG_SYS_CAN_LINK_WITH_RS with FLAG_TEMP_1
 	msgbox FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe, MSGBOX_AUTOCLOSE
@@ -67,17 +67,17 @@ FiveIsland_RocketWarehouse_EventScript_DefeatedGideon::
 	end
 
 FiveIsland_RocketWarehouse_EventScript_Grunt2::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_47, FiveIsland_RocketWarehouse_Text_Grunt2Intro, FiveIsland_RocketWarehouse_Text_Grunt2Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_47, FiveIsland_RocketWarehouse_Text_Grunt2Intro, FiveIsland_RocketWarehouse_Text_Grunt2Defeat
 	msgbox FiveIsland_RocketWarehouse_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FiveIsland_RocketWarehouse_EventScript_Grunt3::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_48, FiveIsland_RocketWarehouse_Text_Grunt3Intro, FiveIsland_RocketWarehouse_Text_Grunt3Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_48, FiveIsland_RocketWarehouse_Text_Grunt3Intro, FiveIsland_RocketWarehouse_Text_Grunt3Defeat
 	msgbox FiveIsland_RocketWarehouse_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FiveIsland_RocketWarehouse_EventScript_Admin2::
-	trainerbattle_single TRAINER_TEAM_ROCKET_ADMIN_2, FiveIsland_RocketWarehouse_Text_Admin2Intro, FiveIsland_RocketWarehouse_Text_Admin2Defeat, FiveIsland_RocketWarehouse_EventScript_DefeatedAdmin2
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_ADMIN_2, FiveIsland_RocketWarehouse_Text_Admin2Intro, FiveIsland_RocketWarehouse_Text_Admin2Defeat, FiveIsland_RocketWarehouse_EventScript_DefeatedAdmin2
 	msgbox FiveIsland_RocketWarehouse_Text_Admin2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -107,12 +107,12 @@ FiveIsland_RocketWarehouse_EventScript_PlayerFaceAdmin2::
 	return
 
 FiveIsland_RocketWarehouse_EventScript_Grunt1::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_42, FiveIsland_RocketWarehouse_Text_Grunt1Intro, FiveIsland_RocketWarehouse_Text_Grunt1Defeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_42, FiveIsland_RocketWarehouse_Text_Grunt1Intro, FiveIsland_RocketWarehouse_Text_Grunt1Defeat
 	msgbox FiveIsland_RocketWarehouse_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 FiveIsland_RocketWarehouse_EventScript_Admin1::
-	trainerbattle_single TRAINER_TEAM_ROCKET_ADMIN, FiveIsland_RocketWarehouse_Text_Admin1Intro, FiveIsland_RocketWarehouse_Text_Admin1Defeat, FiveIsland_RocketWarehouse_EventScript_DefeatedAdmin1
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_ADMIN, FiveIsland_RocketWarehouse_Text_Admin1Intro, FiveIsland_RocketWarehouse_Text_Admin1Defeat, FiveIsland_RocketWarehouse_EventScript_DefeatedAdmin1
 	msgbox FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough, MSGBOX_AUTOCLOSE
 	end
 
@@ -139,7 +139,7 @@ FiveIsland_RocketWarehouse_EventScript_DefeatedAdmin1::
 	end
 
 FiveIsland_RocketWarehouse_EventScript_PlayerFaceAdmin1::
-	goto_if_eq PLAYER_X_POS, 27, EventScript_Return
+// FIXME undefined reference: 	goto_if_eq PLAYER_X_POS, 27, EventScript_Return
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return

@@ -21,12 +21,12 @@ MtEmber_Exterior_OnLoad::
 	end
 
 MtEmber_Exterior_EventScript_OpenCave::
-	setmetatile 42, 39, METATILE_MtEmber_CaveEntrance, 0
+// FIXME undefined reference: 	setmetatile 42, 39, METATILE_MtEmber_CaveEntrance, 0
 	return
 
 MtEmber_Exterior_EventScript_Grunt1::
 	lock
-	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_43, MtEmber_Exterior_EventScript_Grunt1Defeated
+// FIXME undefined reference: 	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_43, MtEmber_Exterior_EventScript_Grunt1Defeated
 	goto_if_eq VAR_TEMP_0, 4, MtEmber_Exterior_EventScript_BattleGrunt1
 // Replaced VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F with VAR_TEMP_0
 	msgbox MtEmber_Exterior_Text_WellTryDiggingHere
@@ -41,11 +41,11 @@ MtEmber_Exterior_EventScript_Grunt1Defeated::
 MtEmber_Exterior_EventScript_BattleGrunt1::
 	applymovement LOCALID_MT_EMBER_GRUNT1, Common_Movement_FacePlayer
 	waitmovement 0
-	playbgm MUS_ENCOUNTER_ROCKET, 0
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_ROCKET, 0
 	msgbox MtEmber_Exterior_Text_Grunt1Intro
-	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_43, MtEmber_Exterior_Text_Grunt1Defeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_43, MtEmber_Exterior_Text_Grunt1Defeat
 	msgbox MtEmber_Exterior_Text_Grunt1PostBattle
-	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_44, MtEmber_Exterior_EventScript_DefeatedBothGrunts
+// FIXME undefined reference: 	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_44, MtEmber_Exterior_EventScript_DefeatedBothGrunts
 	release
 	end
 
@@ -62,7 +62,7 @@ MtEmber_Exterior_EventScript_DefeatedBothGrunts::
 MtEmber_Exterior_EventScript_Grunt2::
 	lock
 	faceplayer
-	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_44, MtEmber_Exterior_EventScript_DefeatedGrunt2
+// FIXME undefined reference: 	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_44, MtEmber_Exterior_EventScript_DefeatedGrunt2
 	goto_if_eq VAR_TEMP_0, 4, MtEmber_Exterior_EventScript_BattleGrunt2
 // Replaced VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F with VAR_TEMP_0
 	msgbox MtEmber_Exterior_Text_YoureInTheWayGetLost
@@ -78,17 +78,17 @@ MtEmber_Exterior_EventScript_DefeatedGrunt2::
 	end
 
 MtEmber_Exterior_EventScript_BattleGrunt2::
-	playbgm MUS_ENCOUNTER_ROCKET, 0
+// FIXME undefined reference: 	playbgm MUS_ENCOUNTER_ROCKET, 0
 	msgbox MtEmber_Exterior_Text_Grunt2Intro
-	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_44, MtEmber_Exterior_Text_Grunt2Defeat
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_44, MtEmber_Exterior_Text_Grunt2Defeat
 	msgbox MtEmber_Exterior_Text_Grunt2PostBattle
-	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_43, MtEmber_Exterior_EventScript_DefeatedBothGrunts
+// FIXME undefined reference: 	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_43, MtEmber_Exterior_EventScript_DefeatedBothGrunts
 	release
 	end
 
 MtEmber_Exterior_EventScript_RocketPasswordScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox MtEmber_Exterior_Text_PunchedThroughAtLast
 	message MtEmber_Exterior_Text_WhatsPasswordAgain
 	waitmessage
@@ -114,17 +114,17 @@ MtEmber_Exterior_EventScript_RocketPasswordScene::
 	end
 
 MtEmber_Exterior_EventScript_Logan::
-	trainerbattle_single TRAINER_PKMN_RANGER_LOGAN, MtEmber_Exterior_Text_LoganIntro, MtEmber_Exterior_Text_LoganDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_PKMN_RANGER_LOGAN, MtEmber_Exterior_Text_LoganIntro, MtEmber_Exterior_Text_LoganDefeat
 	msgbox MtEmber_Exterior_Text_LoganPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtEmber_Exterior_EventScript_Beth::
-	trainerbattle_single TRAINER_PKMN_RANGER_BETH, MtEmber_Exterior_Text_BethIntro, MtEmber_Exterior_Text_BethDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_PKMN_RANGER_BETH, MtEmber_Exterior_Text_BethIntro, MtEmber_Exterior_Text_BethDefeat
 	msgbox MtEmber_Exterior_Text_BethPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtEmber_Exterior_EventScript_Jocelyn::
-	trainerbattle_single TRAINER_CRUSH_GIRL_JOCELYN, MtEmber_Exterior_Text_JocelynIntro, MtEmber_Exterior_Text_JocelynDefeat
+// FIXME undefined reference: 	trainerbattle_single TRAINER_CRUSH_GIRL_JOCELYN, MtEmber_Exterior_Text_JocelynIntro, MtEmber_Exterior_Text_JocelynDefeat
 	msgbox MtEmber_Exterior_Text_JocelynPostBattle, MSGBOX_AUTOCLOSE
 	end
 

@@ -26,7 +26,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 7,
       "y": 60,
@@ -36,11 +35,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route10_EventScript_Carol",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route10_EventScript_Carol",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 4,
       "y": 62,
@@ -50,11 +50,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route10_EventScript_Clark",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route10_EventScript_Clark",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SUPER_NERD",
       "x": 15,
       "y": 70,
@@ -64,11 +65,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route10_EventScript_Herman",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route10_EventScript_Herman",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 4,
       "y": 68,
@@ -78,11 +80,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route10_EventScript_Trent",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route10_EventScript_Trent",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SUPER_NERD",
       "x": 13,
       "y": 44,
@@ -92,11 +95,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
-      "script": "Route10_EventScript_Mark",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route10_EventScript_Mark",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 9,
       "y": 27,
@@ -106,11 +110,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route10_EventScript_Heidi",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route10_EventScript_Heidi",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 10,
       "y": 20,
@@ -124,7 +129,6 @@
       "flag": "FLAG_TEMP_12"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 10,
       "y": 22,
@@ -138,7 +142,6 @@
       "flag": "FLAG_TEMP_13"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 10,
       "y": 24,
@@ -152,7 +155,6 @@
       "flag": "FLAG_TEMP_14"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 10,
       "y": 26,
@@ -236,9 +238,9 @@
       "elevation": 0,
       "item": "ITEM_SUPER_POTION",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -247,9 +249,9 @@
       "elevation": 3,
       "item": "ITEM_MAX_ETHER",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -258,9 +260,9 @@
       "elevation": 3,
       "item": "ITEM_CHERI_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -269,9 +271,9 @@
       "elevation": 3,
       "item": "ITEM_PERSIM_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     },
     {
       "type": "hidden_item",
@@ -280,9 +282,9 @@
       "elevation": 3,
       "item": "ITEM_NANAB_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     }
   ]
 }

@@ -72,7 +72,7 @@ OldaleTown_EventScript_GoToMartEast::
 OldaleTown_EventScript_ExplainPokemonMart::
 	msgbox OldaleTown_Text_ThisIsAPokemonMart, MSGBOX_DEFAULT
 	giveitem ITEM_POTION
-	goto_if_eq VAR_RESULT, FALSE, OldaleTown_EventScript_BagIsFull
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, OldaleTown_EventScript_BagIsFull
 	msgbox OldaleTown_Text_PotionExplanation, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_POTION_OLDALE
 	fadedefaultbgm
@@ -84,7 +84,7 @@ OldaleTown_EventScript_ExplainPotion::
 	release
 	end
 
-OldaleTown_EventScript_BagIsFull::
+// FIXME undefined reference: OldaleTown_EventScript_BagIsFull::
 	msgbox gText_TooBadBagIsFull, MSGBOX_DEFAULT
 	fadedefaultbgm
 	release

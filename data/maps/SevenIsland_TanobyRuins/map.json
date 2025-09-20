@@ -31,7 +31,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SevenIsland_TanobyRuins_EventScript_Brandon",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_TanobyRuins_EventScript_Brandon",
       "flag": "0"
     },
     {
@@ -45,7 +47,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SevenIsland_TanobyRuins_EventScript_Benjamin",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_TanobyRuins_EventScript_Benjamin",
       "flag": "0"
     },
     {
@@ -59,7 +63,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SevenIsland_TanobyRuins_EventScript_Edna",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_TanobyRuins_EventScript_Edna",
       "flag": "0"
     },
     {
@@ -73,7 +79,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "SevenIsland_TanobyRuins_EventScript_Clifford",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SevenIsland_TanobyRuins_EventScript_Clifford",
       "flag": "0"
     }
   ],

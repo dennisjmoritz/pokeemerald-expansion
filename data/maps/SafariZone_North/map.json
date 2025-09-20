@@ -40,7 +40,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SafariZone_North_EventScript_Fisherman",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SafariZone_North_EventScript_Fisherman",
       "flag": "0"
     },
     {
@@ -53,7 +55,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SafariZone_North_EventScript_Man",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "SafariZone_North_EventScript_Man",
       "flag": "0"
     },
     {

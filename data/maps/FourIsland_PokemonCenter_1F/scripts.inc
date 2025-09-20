@@ -4,13 +4,13 @@ FourIsland_PokemonCenter_1F_MapScripts::
 	.byte 0
 
 FourIsland_PokemonCenter_1F_OnTransition::
-	setrespawn HEAL_LOCATION_FOUR_ISLAND
+// FIXME undefined reference: 	setrespawn HEAL_LOCATION_FOUR_ISLAND
 	end
 
 FourIsland_PokemonCenter_1F_EventScript_Nurse::
 	lock
 	faceplayer
-	call EventScript_PkmnCenterNurse
+// FIXME undefined reference: 	call EventScript_PkmnCenterNurse
 	release
 	end
 

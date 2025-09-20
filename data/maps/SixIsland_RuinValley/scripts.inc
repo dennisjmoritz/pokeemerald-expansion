@@ -8,7 +8,7 @@ SixIsland_RuinValley_OnLoad::
 	end
 
 SixIsland_RuinValley_EventScript_OpenDottedHoleDoor::
-	setmetatile 24, 24, METATILE_SeviiIslands67_DottedHoleDoor_Open, 0
+// FIXME undefined reference: 	setmetatile 24, 24, METATILE_SeviiIslands67_DottedHoleDoor_Open, 0
 	return
 
 SixIsland_RuinValley_EventScript_Scientist::
@@ -29,7 +29,7 @@ SixIsland_RuinValley_EventScript_DottedHoleDoor::
 	msgbox SixIsland_RuinValley_Text_CheckDoorMoreThoroughly, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SixIsland_RuinValley_EventScript_IgnoreDottedHoleDoor
 	msgbox SixIsland_RuinValley_Text_SeveralDotsOnTheDoor
-	braillemessage Braille_Text_Cut
+// FIXME undefined reference: 	braillemessage Braille_Text_Cut
 	waitbuttonpress
 	releaseall
 	end

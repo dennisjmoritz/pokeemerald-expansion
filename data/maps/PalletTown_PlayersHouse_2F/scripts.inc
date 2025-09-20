@@ -9,7 +9,7 @@ PalletTown_PlayersHouse_2F_OnTransition::
 	end
 
 PalletTown_PlayersHouse_2F_EventScript_SetRespawn::
-	setrespawn HEAL_LOCATION_PALLET_TOWN
+// FIXME undefined reference: 	setrespawn HEAL_LOCATION_PALLET_TOWN
 	return
 
 PalletTown_PlayersHouse_2F_OnWarp::
@@ -35,22 +35,22 @@ PalletTown_PlayersHouse_2F_EventScript_PC::
 @	goto_if_questlog EventScript_ReleaseEnd
 	lockall
 // 	setvar VAR_0x8004, HELPCONTEXT_BEDROOM_PC
-	special Script_SetHelpContext
+// FIXME undefined reference: 	special Script_SetHelpContext
 	setvar VAR_0x8004, 1
-	special AnimatePcTurnOn
+// FIXME undefined reference: 	special AnimatePcTurnOn
 	playse SE_PC_ON
-	msgbox Text_PlayerBootedUpPC
+// FIXME undefined reference: 	msgbox Text_PlayerBootedUpPC
 	special BedroomPC
 	waitstate
-	special SetHelpContextForMap
+// FIXME undefined reference: 	special SetHelpContextForMap
 	releaseall
 	end
 
 EventScript_PalletTown_PlayersHouse_2F_ShutDownPC::
 	setvar VAR_0x8004, 1
 	playse SE_PC_OFF
-	special AnimatePcTurnOff
-	special SetHelpContextForMap
+// FIXME undefined reference: 	special AnimatePcTurnOff
+// FIXME undefined reference: 	special SetHelpContextForMap
 	releaseall
 	end
 

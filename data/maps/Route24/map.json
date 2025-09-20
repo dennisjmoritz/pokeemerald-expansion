@@ -27,7 +27,6 @@
   "object_events": [
     {
       "local_id": "LOCALID_ROUTE24_ROCKET",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN",
       "x": 12,
       "y": 15,
@@ -42,7 +41,6 @@
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 12,
       "y": 19,
@@ -52,11 +50,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route24_EventScript_Ethan",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route24_EventScript_Ethan",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LASS",
       "x": 10,
       "y": 22,
@@ -66,11 +65,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route24_EventScript_Reli",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route24_EventScript_Reli",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 12,
       "y": 25,
@@ -80,11 +80,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route24_EventScript_Timmy",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route24_EventScript_Timmy",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LASS",
       "x": 10,
       "y": 28,
@@ -94,11 +95,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route24_EventScript_Ali",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route24_EventScript_Ali",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 12,
       "y": 31,
@@ -108,11 +110,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route24_EventScript_Cale",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route24_EventScript_Cale",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 5,
       "y": 21,
@@ -122,11 +125,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
-      "script": "Route24_EventScript_Shane",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route24_EventScript_Shane",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 11,
       "y": 4,
@@ -136,7 +140,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route24_EventScript_ItemTM45",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "Route24_EventScript_ItemTM45",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
@@ -172,9 +178,9 @@
       "elevation": 3,
       "item": "ITEM_PECHA_BERRY",
       "flag": "FLAG_TEMP_1",
+      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
       "quantity": 1,
-      "underfoot": false,
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "underfoot": false
     }
   ]
 }

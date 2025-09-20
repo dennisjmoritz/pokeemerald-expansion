@@ -3,7 +3,7 @@ FourIsland_LoreleisHouse_MapScripts::
 	.byte 0
 
 FourIsland_LoreleisHouse_OnTransition::
-	special UpdateLoreleiDollCollection
+// FIXME undefined reference: 	special UpdateLoreleiDollCollection
 	end
 
 FourIsland_LoreleisHouse_EventScript_Lorelei::

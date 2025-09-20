@@ -173,7 +173,7 @@ Route25_SeaCottage_EventScript_RunCellSeparator::
 	playse SE_PIN
 	waitse
 	setvar VAR_0x8004, 0
-	special AnimateTeleporterHousing
+// FIXME undefined reference: 	special AnimateTeleporterHousing
 	delay 10
 	call Route25_SeaCottage_EventScript_PlayTeleporterBeepSE
 	call Route25_SeaCottage_EventScript_PlayTeleporterBeepSE
@@ -183,9 +183,9 @@ Route25_SeaCottage_EventScript_RunCellSeparator::
 	call Route25_SeaCottage_EventScript_PlayTeleporterBeepSE
 	call Route25_SeaCottage_EventScript_PlayTeleporterBeepSE
 	setvar VAR_0x8004, 1
-	special AnimateTeleporterHousing
+// FIXME undefined reference: 	special AnimateTeleporterHousing
 	playse SE_WARP_IN
-	special AnimateTeleporterCable
+// FIXME undefined reference: 	special AnimateTeleporterCable
 	waitse
 	call Route25_SeaCottage_EventScript_PlayTeleporterBeepSE
 	call Route25_SeaCottage_EventScript_PlayTeleporterBeepSE
@@ -244,7 +244,7 @@ Route25_SeaCottage_EventScript_OpenBillsMonList::
 Route25_SeaCottage_EventScript_BillsMonList::
 	message Route25_SeaCottage_Text_SeeWhichMon
 	waitmessage
-	multichoice 0, 0, MULTICHOICE_EEVEELUTIONS, FALSE
+// FIXME undefined reference: 	multichoice 0, 0, MULTICHOICE_EEVEELUTIONS, FALSE
 	switch VAR_RESULT
 	case 0, Route25_SeaCottage_EventScript_ViewEevee
 	case 1, Route25_SeaCottage_EventScript_ViewFlareon
@@ -259,7 +259,7 @@ Route25_SeaCottage_EventScript_ViewEevee::
 	waitbuttonpress
 	hidemonpic
 	setvar VAR_0x8004, SPECIES_EEVEE
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	goto Route25_SeaCottage_EventScript_BillsMonList
 	end
 
@@ -268,7 +268,7 @@ Route25_SeaCottage_EventScript_ViewFlareon::
 	waitbuttonpress
 	hidemonpic
 	setvar VAR_0x8004, SPECIES_FLAREON
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	goto Route25_SeaCottage_EventScript_BillsMonList
 	end
 
@@ -277,7 +277,7 @@ Route25_SeaCottage_EventScript_ViewJolteon::
 	waitbuttonpress
 	hidemonpic
 	setvar VAR_0x8004, SPECIES_JOLTEON
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	goto Route25_SeaCottage_EventScript_BillsMonList
 	end
 
@@ -286,7 +286,7 @@ Route25_SeaCottage_EventScript_ViewVaporeon::
 	waitbuttonpress
 	hidemonpic
 	setvar VAR_0x8004, SPECIES_VAPOREON
-	special SetSeenMon
+// FIXME undefined reference: 	special SetSeenMon
 	goto Route25_SeaCottage_EventScript_BillsMonList
 	end
 

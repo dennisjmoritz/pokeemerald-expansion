@@ -31,7 +31,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
       "x": 8,
       "y": 26,
@@ -41,11 +40,12 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "ViridianCity_EventScript_DreamEaterTutor",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "ViridianCity_EventScript_DreamEaterTutor",
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 11,
       "y": 24,
@@ -60,7 +60,6 @@
     },
     {
       "local_id": "LOCALID_VIRIDIAN_OLD_MAN",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN_1",
       "x": 34,
       "y": 11,
@@ -75,8 +74,7 @@
     },
     {
       "local_id": "LOCALID_TUTORIAL_MAN",
-      "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_VAR_TEMP_0",
+      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 21,
       "y": 6,
       "elevation": 3,
@@ -90,7 +88,6 @@
     },
     {
       "local_id": "LOCALID_VIRIDIAN_WOMAN",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
       "x": 20,
       "y": 12,
@@ -104,7 +101,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 33,
       "y": 26,
@@ -118,7 +114,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY",
       "x": 16,
       "y": 22,
@@ -133,7 +128,6 @@
     },
     {
       "local_id": "LOCALID_VIRIDIAN_BORDER_TREE",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
       "x": 18,
       "y": 5,
@@ -147,7 +141,6 @@
       "flag": "FLAG_TEMP_12"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 17,
       "y": 5,
@@ -157,7 +150,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "ViridianCity_EventScript_ItemPotion",
+      "script": "Common_EventScript_ShowBagIsFull",
+
+      "script_comment": "ViridianCity_EventScript_ItemPotion",
       "flag": "FLAG_TEMP_1",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }

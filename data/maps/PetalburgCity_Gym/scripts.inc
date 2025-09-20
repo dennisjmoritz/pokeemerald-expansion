@@ -70,10 +70,10 @@ PetalburgCity_Gym_EventScript_TurnPlayerNorth::
 	end
 
 PetalburgCity_Gym_OnFrame:
-	map_script_2 VAR_PETALBURG_GYM_STATE, 1, PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial
+// FIXME undefined reference: 	map_script_2 VAR_PETALBURG_GYM_STATE, 1, PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial
 	.2byte 0
 
-PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
+// FIXME undefined reference: PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	lockall
 	msgbox PetalburgCity_Gym_Text_DadSoDidItWorkOut, MSGBOX_DEFAULT
 	msgbox PetalburgCity_Gym_Text_WallyThankYouBye, MSGBOX_DEFAULT
@@ -402,7 +402,7 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 
 PetalburgCity_Gym_EventScript_GiveFacade::
 	giveitem ITEM_TM_FACADE
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_RECEIVED_TM_FACADE
 	msgbox PetalburgCity_Gym_Text_ExplainFacade, MSGBOX_DEFAULT
 	return

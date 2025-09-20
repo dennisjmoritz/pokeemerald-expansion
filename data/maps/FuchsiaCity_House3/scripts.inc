@@ -20,7 +20,7 @@ FuchsiaCity_House3_EventScript_ChooseMonForMoveDeleter::
 	goto_if_eq VAR_RESULT, 1, FuchsiaCity_House3_EventScript_CantForgetOnlyMove
 	msgbox FuchsiaCity_House3_Text_WhichMoveShouldBeForgotten
 	fadescreen FADE_TO_BLACK
-	special SelectMoveDeleterMove
+// FIXME undefined reference: 	special SelectMoveDeleterMove
 	fadescreen FADE_FROM_BLACK
 	goto_if_eq VAR_0x8005, MAX_MON_MOVES, FuchsiaCity_House3_EventScript_ChooseMonForMoveDeleter
 	special BufferMoveDeleterNicknameAndMove

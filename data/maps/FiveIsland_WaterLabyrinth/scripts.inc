@@ -3,15 +3,15 @@ FiveIsland_WaterLabyrinth_MapScripts::
 
 FiveIsland_WaterLabyrinth_EventScript_EggGentleman::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	goto_if_set FLAG_TEMP_1, FiveIsland_WaterLabyrinth_EventScript_PostEggComment
 // Replaced FLAG_GOT_TOGEPI_EGG with FLAG_TEMP_1
-	goto_if_set FLAG_TEMP_1, FiveIsland_WaterLabyrinth_EventScript_ReturnForEgg
+// FIXME undefined reference: 	goto_if_set FLAG_TEMP_1, FiveIsland_WaterLabyrinth_EventScript_ReturnForEgg
 // Replaced FLAG_NO_ROOM_FOR_TOGEPI_EGG with FLAG_TEMP_1
 	msgbox FiveIsland_WaterLabyrinth_Text_LetMeTakeLookAtMons
-	specialvar VAR_RESULT, GetLeadMonFriendship
+// FIXME undefined reference: 	specialvar VAR_RESULT, GetLeadMonFriendship
 	goto_if_eq VAR_RESULT, 6, FiveIsland_WaterLabyrinth_EventScript_LeadMonMaxFriendship
 	msgbox FiveIsland_WaterLabyrinth_Text_HmmISeeIsee
 	release
@@ -34,12 +34,12 @@ FiveIsland_WaterLabyrinth_EventScript_TryGiveEgg::
 	setflag FLAG_TEMP_1
 // Replaced FLAG_GOT_TOGEPI_EGG with FLAG_TEMP_1
 	giveegg SPECIES_TOGEPI
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	playfanfare MUS_LEVEL_UP
 	message FiveIsland_WaterLabyrinth_Text_ReceivedEggFromMan
 	waitfanfare
 	waitmessage
-	call EventScript_RestorePrevTextColor
+// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
 	goto FiveIsland_WaterLabyrinth_EventScript_PostEggComment
 	end
 
@@ -48,11 +48,11 @@ FiveIsland_WaterLabyrinth_EventScript_TryGiveEgg::
 FiveIsland_WaterLabyrinth_EventScript_PostEggComment::
 	bufferspeciesname STR_VAR_2, SPECIES_TOGEPI
 	setvar VAR_0x8004, SPECIES_TOGEPI
-	specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
+// FIXME undefined reference: 	specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
 	goto_if_eq VAR_RESULT, TRUE, FiveIsland_WaterLabyrinth_EventScript_MonDaisyComment
 	bufferspeciesname STR_VAR_2, SPECIES_TOGETIC
 	setvar VAR_0x8004, SPECIES_TOGETIC
-	specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
+// FIXME undefined reference: 	specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
 	goto_if_eq VAR_RESULT, TRUE, FiveIsland_WaterLabyrinth_EventScript_MonDaisyComment
 	msgbox FiveIsland_WaterLabyrinth_Text_GladIMetSomeoneLikeYou
 	release
@@ -65,7 +65,7 @@ FiveIsland_WaterLabyrinth_EventScript_NoRoomForEgg::
 	release
 	end
 
-FiveIsland_WaterLabyrinth_EventScript_ReturnForEgg::
+// FIXME undefined reference: FiveIsland_WaterLabyrinth_EventScript_ReturnForEgg::
 	goto FiveIsland_WaterLabyrinth_EventScript_TryGiveEgg
 	end
 

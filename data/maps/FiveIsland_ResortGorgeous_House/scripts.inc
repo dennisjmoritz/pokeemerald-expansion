@@ -5,7 +5,7 @@ FiveIsland_ResortGorgeous_House_MapScripts::
 
 FiveIsland_ResortGorgeous_House_EventScript_Selphy::
 @	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
+// FIXME undefined reference: 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	goto_if_set SHOWN_REQUESTED_MON, FiveIsland_ResortGorgeous_House_EventScript_JustFulfilledRequest
@@ -18,7 +18,7 @@ FiveIsland_ResortGorgeous_House_EventScript_Selphy::
 	end
 
 FiveIsland_ResortGorgeous_House_EventScript_RequestMon::
-	special SampleResortGorgeousMonAndReward
+// FIXME undefined reference: 	special SampleResortGorgeousMonAndReward
 	msgbox FiveIsland_ResortGorgeous_House_Text_WishToSeeMonPlease
 	release
 	end
@@ -31,24 +31,24 @@ FiveIsland_ResortGorgeous_House_EventScript_RequestTookTooLong::
 FiveIsland_ResortGorgeous_House_EventScript_CheckForRequestedMon::
 	copyvar VAR_0x8004, VAR_TEMP_0
 // Replaced VAR_RESORT_GORGEOUS_REQUESTED_MON with VAR_TEMP_0
-	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
+// FIXME undefined reference: 	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
 	goto_if_eq VAR_RESULT, TRUE, FiveIsland_ResortGorgeous_House_EventScript_ShowRequestedMon
 	goto FiveIsland_ResortGorgeous_House_EventScript_RequestMon
 	end
 
 FiveIsland_ResortGorgeous_House_EventScript_ShowRequestedMon::
-	special SampleResortGorgeousMonAndReward
+// FIXME undefined reference: 	special SampleResortGorgeousMonAndReward
 	msgbox FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou
 	addobject LOCALID_RESORT_GORGEOUS_HOUSE_BUTLER
 	applymovement LOCALID_RESORT_GORGEOUS_HOUSE_BUTLER, FiveIsland_ResortGorgeous_House_Movement_ButlerEnter
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady
 	applymovement LOCALID_RESORT_GORGEOUS_HOUSE_SELPHY, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_FEMALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerNorth
@@ -95,9 +95,9 @@ FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerWest::
 	return
 
 FiveIsland_ResortGorgeous_House_EventScript_NoRoomForReward::
-	textcolor NPC_TEXT_COLOR_MALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull
-	textcolor NPC_TEXT_COLOR_FEMALE
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing
 	setflag SHOWN_REQUESTED_MON
 	setvar VAR_TEMP_0, SPECIES_NONE
