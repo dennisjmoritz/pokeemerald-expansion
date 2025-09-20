@@ -2074,3 +2074,76 @@ void CheckInteractedWithFriendsSandOrnament(void)
             break;
     }
 }
+
+u32 GetApartmentPrice(u8 secretBaseId)
+{
+    u8 baseGroup = SECRET_BASE_ID_TO_GROUP(secretBaseId);
+    
+    // Determine price based on the base group
+    switch (baseGroup)
+    {
+        // Red Cave locations (premium)
+        case SECRET_BASE_RED_CAVE1:
+            return APARTMENT_PRICE_RED_CAVE1;
+        case SECRET_BASE_RED_CAVE2:
+            return APARTMENT_PRICE_RED_CAVE2;
+        case SECRET_BASE_RED_CAVE3:
+            return APARTMENT_PRICE_RED_CAVE3;
+        case SECRET_BASE_RED_CAVE4:
+            return APARTMENT_PRICE_RED_CAVE4;
+            
+        // Brown Cave locations
+        case SECRET_BASE_BROWN_CAVE1:
+            return APARTMENT_PRICE_BROWN_CAVE1;
+        case SECRET_BASE_BROWN_CAVE2:
+            return APARTMENT_PRICE_BROWN_CAVE2;
+        case SECRET_BASE_BROWN_CAVE3:
+            return APARTMENT_PRICE_BROWN_CAVE3;
+        case SECRET_BASE_BROWN_CAVE4:
+            return APARTMENT_PRICE_BROWN_CAVE4;
+            
+        // Blue Cave locations
+        case SECRET_BASE_BLUE_CAVE1:
+            return APARTMENT_PRICE_BLUE_CAVE1;
+        case SECRET_BASE_BLUE_CAVE2:
+            return APARTMENT_PRICE_BLUE_CAVE2;
+        case SECRET_BASE_BLUE_CAVE3:
+            return APARTMENT_PRICE_BLUE_CAVE3;
+        case SECRET_BASE_BLUE_CAVE4:
+            return APARTMENT_PRICE_BLUE_CAVE4;
+            
+        // Yellow Cave locations
+        case SECRET_BASE_YELLOW_CAVE1:
+            return APARTMENT_PRICE_YELLOW_CAVE1;
+        case SECRET_BASE_YELLOW_CAVE2:
+            return APARTMENT_PRICE_YELLOW_CAVE2;
+        case SECRET_BASE_YELLOW_CAVE3:
+            return APARTMENT_PRICE_YELLOW_CAVE3;
+        case SECRET_BASE_YELLOW_CAVE4:
+            return APARTMENT_PRICE_YELLOW_CAVE4;
+            
+        // Tree locations (mid-tier)
+        case SECRET_BASE_TREE1:
+            return APARTMENT_PRICE_TREE1;
+        case SECRET_BASE_TREE2:
+            return APARTMENT_PRICE_TREE2;
+        case SECRET_BASE_TREE3:
+            return APARTMENT_PRICE_TREE3;
+        case SECRET_BASE_TREE4:
+            return APARTMENT_PRICE_TREE4;
+            
+        // Shrub locations (budget)
+        case SECRET_BASE_SHRUB1:
+            return APARTMENT_PRICE_SHRUB1;
+        case SECRET_BASE_SHRUB2:
+            return APARTMENT_PRICE_SHRUB2;
+        case SECRET_BASE_SHRUB3:
+            return APARTMENT_PRICE_SHRUB3;
+        case SECRET_BASE_SHRUB4:
+            return APARTMENT_PRICE_SHRUB4;
+            
+        // Default fallback for any unknown locations
+        default:
+            return 1000;  // Original fixed price as fallback
+    }
+}

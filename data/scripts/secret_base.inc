@@ -689,7 +689,7 @@ SecretBase_Text_AllDecorationsWillBeReturned:
 
 SecretBase_Text_WantToRegisterSecretBase:
 	.string "Do you want to register\n"
-	.string "{STR_VAR_1}'s SECRET BASE for ¥1000?$"
+	.string "{STR_VAR_1}'s SECRET BASE for ¥{STR_VAR_2}?$"
 
 SecretBase_Text_AlreadyRegisteredDelete:
 	.string "This data is already registered.\n"
@@ -704,14 +704,14 @@ SecretBase_Text_RegistrationCompleted:
 	.string "Registration completed.$"
 
 SecretBase_Text_RegistrationCostWarning:
-	.string "Registration costs ¥1000.\p"
+	.string "Registration costs ¥{STR_VAR_2}.\p"
 	.string "Any previous registration fee will\n"
 	.string "not be returned.\p"
 	.string "Is that okay?$"
 
 SecretBase_Text_NotEnoughMoneyForRegistration:
 	.string "You don't have enough money.\n"
-	.string "Registration costs ¥1000.$"
+	.string "Registration costs ¥{STR_VAR_2}.$"
 
 SecretBase_Text_CancelRegistration:
 	.string "Registration cancelled.$"

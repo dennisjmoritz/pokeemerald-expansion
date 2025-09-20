@@ -168,4 +168,35 @@
 
 #define NUM_SECRET_BASE_GROUPS 24
 
+// Apartment location pricing based on type and desirability
+#define APARTMENT_PRICE_RED_CAVE1       2000  // Premium cave locations
+#define APARTMENT_PRICE_RED_CAVE2       1800
+#define APARTMENT_PRICE_RED_CAVE3       1900
+#define APARTMENT_PRICE_RED_CAVE4       1700
+
+#define APARTMENT_PRICE_BROWN_CAVE1     1600  // Mid-premium cave locations
+#define APARTMENT_PRICE_BROWN_CAVE2     1500
+#define APARTMENT_PRICE_BROWN_CAVE3     1700
+#define APARTMENT_PRICE_BROWN_CAVE4     1400
+
+#define APARTMENT_PRICE_BLUE_CAVE1      1800  // Premium blue caves
+#define APARTMENT_PRICE_BLUE_CAVE2      1600
+#define APARTMENT_PRICE_BLUE_CAVE3      1900
+#define APARTMENT_PRICE_BLUE_CAVE4      1750
+
+#define APARTMENT_PRICE_YELLOW_CAVE1    1500  // Mid-tier yellow caves
+#define APARTMENT_PRICE_YELLOW_CAVE2    1300
+#define APARTMENT_PRICE_YELLOW_CAVE3    1600
+#define APARTMENT_PRICE_YELLOW_CAVE4    1400
+
+#define APARTMENT_PRICE_TREE1           1200  // Tree locations - mid-tier
+#define APARTMENT_PRICE_TREE2           1100
+#define APARTMENT_PRICE_TREE3           1300
+#define APARTMENT_PRICE_TREE4           1000
+
+#define APARTMENT_PRICE_SHRUB1           800  // Budget shrub locations
+#define APARTMENT_PRICE_SHRUB2           700
+#define APARTMENT_PRICE_SHRUB3           900
+#define APARTMENT_PRICE_SHRUB4           600
+
 #endif  // GUARD_CONSTANTS_SECRET_BASES_H
