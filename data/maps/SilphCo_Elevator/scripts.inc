@@ -10,7 +10,7 @@ SilphCo_Elevator_EventScript_FloorSelect::
 	special DrawElevatorCurrentFloorWindow
 	message Text_WantWhichFloor
 	waitmessage
-	setvar VAR_0x8004, LISTMENU_SILPHCO_FLOORS
+//	setvar VAR_0x8004, LISTMENU_SILPHCO_FLOORS
     // specialvar VAR_RESULT, InitElevatorFloorSelectMenuPos
     // Commented to avoid non-constant macro evaluation issues
     setvar VAR_RESULT, 0
