@@ -2006,7 +2006,7 @@ u8 ItemIdToBerryType(u16 item)
         return ITEM_TO_BERRY(item);
 }
 
-static u16 BerryTypeToItemId(u16 berry)
+u16 BerryTypeToItemId(u16 berry)
 {
     u16 item = berry - 1;
 

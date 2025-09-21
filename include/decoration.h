@@ -40,6 +40,14 @@ enum DecorationCategory
     DECORCAT_COUNT,
 };
 
+enum HouseType
+{
+    HOUSE_TYPE_APARTMENT,
+    HOUSE_TYPE_HOUSE,
+    HOUSE_TYPE_MANSION,
+    HOUSE_TYPE_COUNT,
+};
+
 struct Decoration
 {
     u8 id;
@@ -64,5 +72,16 @@ void ShowDecorationCategoriesWindow(u8 taskId);
 void CopyDecorationCategoryName(u8 *dest, u8 category);
 bool8 IsSelectedDecorInThePC(void);
 u8 AddDecorationIconObject(u8 decor, s16 x, s16 y, u8 priority, u16 tilesTag, u16 paletteTag);
+
+// Decoration interaction functions
+void ShowHouseTypeMenu(u8 taskId);
+
+// Decoration interaction functions
+bool8 IsDecorationInPlayerRoom(u8 decorationId);
+void UseMoveRelearnerDecoration(void);
+void UseBerryPatchDecoration(void);
+void UseEggIncubatorDecoration(void);
+void UseEVEditorDecoration(void);
+void UpdateEggIncubator(void);
 
 #endif //GUARD_DECORATION_H

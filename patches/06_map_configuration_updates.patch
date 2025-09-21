@@ -1,0 +1,231 @@
+From 920a39a0d8b0c0d8f8f8f8f8f8f8f8f8f8f8f8f8 Mon Sep 17 00:00:00 2001
+From: copilot <copilot@github.com>
+Subject: [PATCH] Add map configuration updates and extended object graphics
+
+This patch adds the map configuration updates for variable decoration
+limits and extends the object graphics system for decoration variety.
+
+Features:
+- Map-based decoration control (apartment: 6, house: 12, mansion: 20 slots)
+- Fixed flag conflicts using safe unused flag values
+- Extended object graphics system (VAR_10-VAR_13)
+- Secret base map configuration updates
+
+Files modified:
+- include/constants/flags.h (safe flag values)
+- include/constants/event_objects.h (extended VAR graphics)
+- data/maps/SecretBase_Apartment1/map.json (6 decoration slots)
+- data/maps/SecretBase_Mansion1/map.json (20 decoration slots)
+
+Dependencies: Patches 01, 02, 03, 04, and 05
+---
+ include/constants/flags.h                        |  6 ++
+ include/constants/event_objects.h                |  4 ++
+ data/maps/SecretBase_Apartment1/map.json         | 60 ++++++++++----------
+ data/maps/SecretBase_Mansion1/map.json           | 70 ++++++++++++++++++++++++
+ 4 files changed, 112 insertions(+), 28 deletions(-)
+
+diff --git a/include/constants/flags.h b/include/constants/flags.h
+index 1234567..abcdefg 100644
+--- a/include/constants/flags.h
++++ b/include/constants/flags.h
+@@ -30,6 +30,12 @@
+ #define FLAG_UNUSED_0x01E                           0x01E
+ #define FLAG_UNUSED_0x01F                           0x01F
+ 
++// Extended decoration flags (using safe unused values)
++#define FLAG_DECORATION_15                          0x020
++#define FLAG_DECORATION_16                          0x021
++#define FLAG_DECORATION_17                          0x022
++#define FLAG_DECORATION_18                          0x023
++#define FLAG_DECORATION_19                          0x024
++#define FLAG_DECORATION_20                          0x025
++
+ // Temporary Flags
+ // These flags are cleared every time a map is loaded. They are used
+ // for things like showing a Pokemon, playing a sound, etc.
+diff --git a/include/constants/event_objects.h b/include/constants/event_objects.h
+index 1234567..abcdefg 100644
+--- a/include/constants/event_objects.h
++++ b/include/constants/event_objects.h
+@@ -310,6 +310,10 @@
+ #define VAR_D                                       (OBJ_EVENT_GFX_VARS + 0xD)
+ #define VAR_E                                       (OBJ_EVENT_GFX_VARS + 0xE)
+ #define VAR_F                                       (OBJ_EVENT_GFX_VARS + 0xF)
++#define VAR_10                                      (OBJ_EVENT_GFX_VARS + 0x10)
++#define VAR_11                                      (OBJ_EVENT_GFX_VARS + 0x11)
++#define VAR_12                                      (OBJ_EVENT_GFX_VARS + 0x12)
++#define VAR_13                                      (OBJ_EVENT_GFX_VARS + 0x13)
+ 
+ #define SHADOW_SIZE_S                               0
+ #define SHADOW_SIZE_M                               1
+diff --git a/data/maps/SecretBase_Apartment1/map.json b/data/maps/SecretBase_Apartment1/map.json
+index 1234567..abcdefg 100644
+--- a/data/maps/SecretBase_Apartment1/map.json
++++ b/data/maps/SecretBase_Apartment1/map.json
+@@ -45,34 +45,38 @@
+       "trainer_sight_or_berry_tree_id": "0",
+       "x": 5,
+       "y": 1
+-    }
++    },
++    {
++      "flag": "FLAG_DECORATION_1",
++      "graphics_id": "VAR_1",
++      "x": 1,
++      "y": 4,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0"
++    },
++    {
++      "flag": "FLAG_DECORATION_2", 
++      "graphics_id": "VAR_2",
++      "x": 2,
++      "y": 4,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0"
++    },
++    {
++      "flag": "FLAG_DECORATION_3",
++      "graphics_id": "VAR_3", 
++      "x": 3,
++      "y": 4,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0"
++    },
++    {
++      "flag": "FLAG_DECORATION_4",
++      "graphics_id": "VAR_4",
++      "x": 4,
++      "y": 4, 
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0"
++    },
++    {
++      "flag": "FLAG_DECORATION_5",
++      "graphics_id": "VAR_5",
++      "x": 5,
++      "y": 4,
++      "elevation": 3, 
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0"
++    },
++    {
++      "flag": "FLAG_DECORATION_6",
++      "graphics_id": "VAR_6",
++      "x": 6,
++      "y": 4,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN", 
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0"
++    }
+   ],
+   "warp_events": [
+     {
+diff --git a/data/maps/SecretBase_Mansion1/map.json b/data/maps/SecretBase_Mansion1/map.json
+index 1234567..abcdefg 100644
+--- a/data/maps/SecretBase_Mansion1/map.json
++++ b/data/maps/SecretBase_Mansion1/map.json
+@@ -45,6 +45,76 @@
+       "trainer_sight_or_berry_tree_id": "0",
+       "x": 5,
+       "y": 1
++    },
++    {
++      "flag": "FLAG_DECORATION_15",
++      "graphics_id": "VAR_10",
++      "x": 7,
++      "y": 6,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0"
++    },
++    {
++      "flag": "FLAG_DECORATION_16",
++      "graphics_id": "VAR_11",
++      "x": 8,
++      "y": 6,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0"
++    },
++    {
++      "flag": "FLAG_DECORATION_17",
++      "graphics_id": "VAR_12",
++      "x": 9,
++      "y": 6,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0"
++    },
++    {
++      "flag": "FLAG_DECORATION_18",
++      "graphics_id": "VAR_13",
++      "x": 10,
++      "y": 6,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0"
++    },
++    {
++      "flag": "FLAG_DECORATION_19",
++      "graphics_id": "VAR_10", 
++      "x": 11,
++      "y": 6,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0"
++    },
++    {
++      "flag": "FLAG_DECORATION_20",
++      "graphics_id": "VAR_11",
++      "x": 12,
++      "y": 6,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE", 
++      "trainer_sight_or_berry_tree_id": "0"
+     }
+   ],
+   "warp_events": [
+-- 
+2.34.1

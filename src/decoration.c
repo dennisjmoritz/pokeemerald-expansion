@@ -13,6 +13,7 @@
 #include "fieldmap.h"
 #include "graphics.h"
 #include "international_string_util.h"
+#include "item.h"
 #include "item_icon.h"
 #include "item_menu.h"
 #include "list_menu.h"
@@ -20,6 +21,13 @@
 #include "menu.h"
 #include "menu_helpers.h"
 #include "metatile_behavior.h"
+#include "money.h"
+#include "move_relearner.h"
+#include "berry.h"
+#include "random.h"
+#include "daycare.h"
+#include "party_menu.h"
+#include "pokemon.h"
 #include "overworld.h"
 #include "palette.h"
 #include "player_pc.h"
@@ -35,6 +43,7 @@
 #include "tv.h"
 #include "constants/decorations.h"
 #include "constants/event_objects.h"
+#include "constants/items.h"
 #include "constants/songs.h"
 #include "constants/region_map_sections.h"
 #include "constants/metatile_labels.h"
@@ -2772,4 +2781,427 @@ static void TossDecoration(u8 taskId)
     IdentifyOwnedDecorationsCurrentlyInUseInternal(taskId);
     StringExpandPlaceholders(gStringVar4, gText_DecorationThrownAway);
     DisplayItemMessageOnField(taskId, gStringVar4, ReturnToDecorationItemsAfterInvalidSelection);
+}
+
+// Egg incubator helper functions
+static bool8 IsEggInIncubator(void)
+{
+    return GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_SPECIES) != SPECIES_NONE;
+}
+
+static bool8 CanDepositEggInIncubator(struct Pokemon *mon)
+{
+    return GetMonData(mon, MON_DATA_IS_EGG) && !GetMonData(mon, MON_DATA_SANITY_IS_BAD_EGG);
+}
+
+static void DepositEggInIncubator(struct Pokemon *mon)
+{
+    if (CanDepositEggInIncubator(mon) && !IsEggInIncubator())
+    {
+        // Store the egg in the incubator
+        gSaveBlock1Ptr->playerEggIncubator = mon->box;
+        gSaveBlock1Ptr->eggIncubatorSteps = 0;
+        
+        // Remove the egg from party
+        *mon = gPlayerParty[gPlayerPartyCount - 1];
+        ZeroMonData(&gPlayerParty[gPlayerPartyCount - 1]);
+        gPlayerPartyCount--;
+        CalculatePlayerPartyCount();
+    }
+}
+
+static bool8 WithdrawEggFromIncubator(void)
+{
+    if (IsEggInIncubator() && gPlayerPartyCount < PARTY_SIZE)
+    {
+        // Create Pokemon from stored egg
+        BoxMonToMon(&gSaveBlock1Ptr->playerEggIncubator, &gPlayerParty[gPlayerPartyCount]);
+        gPlayerPartyCount++;
+        CalculatePlayerPartyCount();
+        
+        // Clear the incubator
+        ZeroBoxMonData(&gSaveBlock1Ptr->playerEggIncubator);
+        gSaveBlock1Ptr->eggIncubatorSteps = 0;
+        
+        return TRUE;
+    }
+    return FALSE;
+}
+
+// Function to update egg incubator (called during step processing)
+void UpdateEggIncubator(void)
+{
+    if (IsDecorationInPlayerRoom(DECOR_EGG_INCUBATOR) && IsEggInIncubator())
+    {
+        u32 eggCycles;
+        
+        // Increment steps (incubator works at normal walking rate)
+        gSaveBlock1Ptr->eggIncubatorSteps += 1;
+        
+        // Every 256 steps, reduce egg cycles (like daycare)
+        if (gSaveBlock1Ptr->eggIncubatorSteps >= 256)
+        {
+            gSaveBlock1Ptr->eggIncubatorSteps = 0;
+            
+            eggCycles = GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_FRIENDSHIP);
+            if (eggCycles > 0)
+            {
+                eggCycles--;
+                SetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_FRIENDSHIP, &eggCycles);
+            }
+        }
+    }
+}
+
+// Decoration interaction functions
+bool8 IsDecorationInPlayerRoom(u8 decorationId)
+{
+    u8 i;
+    for (i = 0; i < DECOR_MAX_PLAYERS_HOUSE; i++)
+    {
+        if (gSaveBlock1Ptr->playerRoomDecorations[i] == decorationId)
+            return TRUE;
+    }
+    return FALSE;
+}
+
+// Move Relearner decoration functionality
+void UseMoveRelearnerDecoration(void)
+{
+    if (IsDecorationInPlayerRoom(DECOR_MOVE_RELEARNER))
+    {
+        gSpecialVar_0x8004 = 0; // Use first party slot by default
+        TeachMoveRelearnerMove();
+    }
+}
+
+// Berry patch decoration functionality using berry.c functions
+void UseBerryPatchDecoration(void)
+{
+    if (IsDecorationInPlayerRoom(DECOR_BERRY_PATCH))
+    {
+        struct BerryTree *berryPatch = &gSaveBlock1Ptr->playerBerryPatch;
+        
+        // Check if berry is ready to harvest
+        if (berryPatch->berry != 0 && berryPatch->stage >= 4)
+        {
+            // Harvest berries using existing BerryTypeToItemId function from berry.c
+            u16 berryItem = BerryTypeToItemId(berryPatch->berry);
+            u8 yield = berryPatch->berryYield;
+            if (yield == 0) yield = 2; // Minimum yield like existing trees
+            
+            // Use existing AddBagItem approach like ObjectEventInteractionPickBerryTree
+            if (AddBagItem(berryItem, yield))
+            {
+                StringCopy(gStringVar1, ItemId_GetName(berryItem));
+                ConvertIntToDecimalStringN(gStringVar2, yield, STR_CONV_MODE_LEFT_ALIGN, 2);
+                StringExpandPlaceholders(gStringVar4, _("Harvested {STR_VAR_2} {STR_VAR_1}!"));
+                
+                // Clear the berry patch using RemoveBerryTree approach
+                berryPatch->berry = 0;
+                berryPatch->stage = 0;
+                berryPatch->berryYield = 0;
+                berryPatch->minutesUntilNextStage = 0;
+            }
+            else
+            {
+                StringExpandPlaceholders(gStringVar4, _("Your BAG is full!"));
+            }
+        }
+        else if (berryPatch->berry != 0)
+        {
+            // Show growth status using existing GetBerryInfo from berry.c
+            const struct Berry *berry = GetBerryInfo(berryPatch->berry);
+            StringCopy(gStringVar1, berry->name);
+            
+            if (berryPatch->stage == 1)
+                StringExpandPlaceholders(gStringVar4, _("The {STR_VAR_1} sprout is growing."));
+            else if (berryPatch->stage == 2)
+                StringExpandPlaceholders(gStringVar4, _("The {STR_VAR_1} plant is growing taller."));
+            else if (berryPatch->stage == 3)
+                StringExpandPlaceholders(gStringVar4, _("The {STR_VAR_1} plant is flowering."));
+        }
+        else
+        {
+            // Empty patch - plant a berry using existing PlantBerryTree approach
+            u8 berryTypes[] = {1, 2, 3, 4}; // CHERI, CHESTO, PECHA, RAWST (IDs 1-4)
+            u8 berryType = berryTypes[Random() % ARRAY_COUNT(berryTypes)];
+            
+            // Use existing PlantBerryTree logic patterns
+            berryPatch->berry = berryType;
+            berryPatch->stage = 1; // BERRY_STAGE_PLANTED
+            berryPatch->minutesUntilNextStage = 240; // 4 hours to next stage like existing system
+            berryPatch->berryYield = 3; // Default yield like existing berries
+            
+            const struct Berry *berry = GetBerryInfo(berryType);
+            StringCopy(gStringVar1, berry->name);
+            StringExpandPlaceholders(gStringVar4, _("Planted a {STR_VAR_1} BERRY!"));
+        }
+        
+        DisplayItemMessageOnField(0, gStringVar4, NULL);
+    }
+}
+
+// Egg incubator decoration functionality
+void UseEggIncubatorDecoration(void)
+{
+    if (IsDecorationInPlayerRoom(DECOR_EGG_INCUBATOR))
+    {
+        if (IsEggInIncubator())
+        {
+            // Show egg status and offer withdrawal
+            u32 eggCycles = GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_FRIENDSHIP);
+            u8 species = GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_SPECIES);
+            
+            // Show progress
+            ConvertIntToDecimalStringN(gStringVar1, eggCycles, STR_CONV_MODE_LEFT_ALIGN, 3);
+            ConvertIntToDecimalStringN(gStringVar2, gSaveBlock1Ptr->eggIncubatorSteps, STR_CONV_MODE_LEFT_ALIGN, 4);
+            StringExpandPlaceholders(gStringVar4, 
+                _("EGG cycles left: {STR_VAR_1}\nIncubator steps: {STR_VAR_2}\nTake the EGG out?"));
+            
+            // This would normally show a yes/no prompt
+            // For now, automatically withdraw if party has space
+            if (gPlayerPartyCount < PARTY_SIZE)
+            {
+                if (WithdrawEggFromIncubator())
+                {
+                    StringExpandPlaceholders(gStringVar4, _("Retrieved the EGG from\nthe incubator!"));
+                }
+            }
+            else
+            {
+                StringExpandPlaceholders(gStringVar4, _("Your party is full!\nCannot take the EGG."));
+            }
+        }
+        else
+        {
+            // Empty incubator - check for eggs in party to deposit
+            bool8 hasEgg = FALSE;
+            u8 i;
+            
+            for (i = 0; i < gPlayerPartyCount; i++)
+            {
+                if (CanDepositEggInIncubator(&gPlayerParty[i]))
+                {
+                    hasEgg = TRUE;
+                    break;
+                }
+            }
+            
+            if (hasEgg)
+            {
+                StringExpandPlaceholders(gStringVar4, _("Place an EGG in the\nincubator?"));
+                
+                // For now, automatically deposit the first egg found
+                for (i = 0; i < gPlayerPartyCount; i++)
+                {
+                    if (CanDepositEggInIncubator(&gPlayerParty[i]))
+                    {
+                        DepositEggInIncubator(&gPlayerParty[i]);
+                        StringExpandPlaceholders(gStringVar4, _("Placed the EGG in the\nincubator!"));
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                StringExpandPlaceholders(gStringVar4, _("The incubator is empty.\nBring an EGG to incubate!"));
+            }
+        }
+        
+        DisplayItemMessageOnField(0, gStringVar4, NULL);
+    }
+}
+
+// EV Editor decoration functionality
+static const u16 sEVItems[] = {
+    ITEM_HP_UP,      // HP EV item
+    ITEM_PROTEIN,    // Attack EV item  
+    ITEM_IRON,       // Defense EV item
+    ITEM_CALCIUM,    // Sp. Attack EV item
+    ITEM_ZINC,       // Sp. Defense EV item
+    ITEM_CARBOS,     // Speed EV item
+};
+
+static const u16 sEVBerries[] = {
+    ITEM_POMEG_BERRY,  // HP EV reducing berry
+    ITEM_KELPSY_BERRY, // Attack EV reducing berry
+    ITEM_QUALOT_BERRY, // Defense EV reducing berry
+    ITEM_HONDEW_BERRY, // Sp. Attack EV reducing berry
+    ITEM_GREPA_BERRY,  // Sp. Defense EV reducing berry
+    ITEM_TAMATO_BERRY, // Speed EV reducing berry
+};
+
+static const u8 sEVStatNames[][12] = {
+    _("HP"),
+    _("ATTACK"),
+    _("DEFENSE"), 
+    _("SP. ATK"),
+    _("SP. DEF"),
+    _("SPEED"),
+};
+
+static u32 GetTotalEVCreditsFromBerries(void)
+{
+    u32 totalCredits = 0;
+    u8 i;
+    
+    // Count EV berries in bag as credits (each berry = 10 EV points = 1 vitamin equivalent)
+    for (i = 0; i < ARRAY_COUNT(sEVBerries); i++)
+    {
+        totalCredits += GetBagItemQuantity(sEVBerries[i]) / 1; // 1 berry = 1 credit
+    }
+    
+    return totalCredits;
+}
+
+// EV Editor storage functions
+static void DepositEVItemsToEditor(void)
+{
+    u8 i;
+    u16 quantity;
+    
+    // Deposit vitamins (give 10 EV points each = 10 credits each)
+    for (i = 0; i < ARRAY_COUNT(sEVItems); i++)
+    {
+        quantity = GetBagItemQuantity(sEVItems[i]);
+        if (quantity > 0)
+        {
+            gSaveBlock1Ptr->evEditorCredits[i] += quantity * 10; // 1 vitamin = 10 credits
+            RemoveBagItem(sEVItems[i], quantity);
+        }
+    }
+    
+    // Deposit EV berries (reduce 10 EV points each = 10 credits each)
+    for (i = 0; i < ARRAY_COUNT(sEVBerries); i++)
+    {
+        quantity = GetBagItemQuantity(sEVBerries[i]);
+        if (quantity > 0)
+        {
+            gSaveBlock1Ptr->evEditorCredits[i] += quantity * 10; // 1 berry = 10 credits
+            RemoveBagItem(sEVBerries[i], quantity);
+        }
+    }
+}
+
+static u16 GetTotalEVCreditsInEditor(void)
+{
+    u16 total = 0;
+    u8 i;
+    
+    for (i = 0; i < NUM_STATS; i++)
+    {
+        total += gSaveBlock1Ptr->evEditorCredits[i];
+    }
+    return total;
+}
+
+static bool8 HasEVItemsInBag(void)
+{
+    u8 i;
+    
+    // Check for vitamins
+    for (i = 0; i < ARRAY_COUNT(sEVItems); i++)
+    {
+        if (GetBagItemQuantity(sEVItems[i]) > 0)
+            return TRUE;
+    }
+    
+    // Check for EV berries
+    for (i = 0; i < ARRAY_COUNT(sEVBerries); i++)
+    {
+        if (GetBagItemQuantity(sEVBerries[i]) > 0)
+            return TRUE;
+    }
+    
+    return FALSE;
+}
+
+// EV Editor decoration functionality with basic UI
+void UseEVEditorDecoration(void)
+{
+    if (IsDecorationInPlayerRoom(DECOR_EV_EDITOR))
+    {
+        u16 totalCredits = GetTotalEVCreditsInEditor();
+        
+        if (totalCredits > 0)
+        {
+            // Show stored credits and basic training interface
+            ConvertIntToDecimalStringN(gStringVar1, totalCredits, STR_CONV_MODE_LEFT_ALIGN, 4);
+            StringExpandPlaceholders(gStringVar4, 
+                _("EV EDITOR\nStored credits: {STR_VAR_1}\nTrain which POKéMON?"));
+            
+            // Basic party selection simulation
+            // TODO: This should open actual party menu
+            if (gPlayerPartyCount > 0)
+            {
+                u8 partyIndex = 0; // Select first Pokemon for demo
+                struct Pokemon *mon = &gPlayerParty[partyIndex];
+                
+                if (!GetMonData(mon, MON_DATA_IS_EGG))
+                {
+                    // Basic EV modification demo
+                    u8 statToTrain = Random() % NUM_STATS; // Random stat for demo
+                    u16 *statCredits = &gSaveBlock1Ptr->evEditorCredits[statToTrain];
+                    
+                    if (*statCredits >= 10) // Cost 10 credits per EV modification
+                    {
+                        // Get current EVs
+                        u16 currentEV = GetMonData(mon, MON_DATA_HP_EV + statToTrain);
+                        
+                        if (currentEV < 252) // EV limit per stat
+                        {
+                            // Increase EV by 10 points (1 vitamin equivalent)
+                            u16 newEV = currentEV + 10;
+                            if (newEV > 252) newEV = 252;
+                            SetMonData(mon, MON_DATA_HP_EV + statToTrain, &newEV);
+                            
+                            // Consume credits
+                            *statCredits -= 10;
+                            
+                            // Update Pokemon stats
+                            CalculateMonStats(mon);
+                            
+                            StringCopy(gStringVar1, sEVStatNames[statToTrain]);
+                            ConvertIntToDecimalStringN(gStringVar2, newEV - currentEV, STR_CONV_MODE_LEFT_ALIGN, 2);
+                            StringExpandPlaceholders(gStringVar4, 
+                                _("Trained {STR_VAR_1}!\nIncreased by {STR_VAR_2} points!"));
+                        }
+                        else
+                        {
+                            StringExpandPlaceholders(gStringVar4, _("This stat is already maxed!"));
+                        }
+                    }
+                    else
+                    {
+                        StringExpandPlaceholders(gStringVar4, _("Not enough credits for training!"));
+                    }
+                }
+                else
+                {
+                    StringExpandPlaceholders(gStringVar4, _("Cannot train an EGG!"));
+                }
+            }
+        }
+        else if (HasEVItemsInBag())
+        {
+            // Offer to deposit items
+            StringExpandPlaceholders(gStringVar4, 
+                _("Deposit vitamins and EV\nberries for training credits?"));
+            
+            // Auto-deposit for demonstration
+            DepositEVItemsToEditor();
+            totalCredits = GetTotalEVCreditsInEditor();
+            ConvertIntToDecimalStringN(gStringVar1, totalCredits, STR_CONV_MODE_LEFT_ALIGN, 4);
+            StringExpandPlaceholders(gStringVar4, 
+                _("Deposited items!\nTotal credits: {STR_VAR_1}"));
+        }
+        else
+        {
+            StringExpandPlaceholders(gStringVar4, 
+                _("EV EDITOR ready!\nBring vitamins or EV berries\nto deposit for training."));
+        }
+        
+        DisplayItemMessageOnField(0, gStringVar4, NULL);
+    }
 }

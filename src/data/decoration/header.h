@@ -1450,5 +1450,53 @@ const struct Decoration gDecorations[] =
         .price = 10000,
         .description = DecorDesc_REGISTEEL_DOLL,
         .tiles = DecorGfx_REGISTEEL_DOLL,
+    },
+
+    [DECOR_MOVE_RELEARNER] =
+    {
+        .id = DECOR_MOVE_RELEARNER,
+        .name = _("MOVE RELEARNER"),
+        .permission = DECORPERM_SOLID_FLOOR,
+        .shape = DECORSHAPE_1x1,
+        .category = DECORCAT_ORNAMENT,
+        .price = 15000,
+        .description = DecorDesc_MOVE_RELEARNER,
+        .tiles = DecorGfx_MOVE_RELEARNER,
+    },
+
+    [DECOR_BERRY_PATCH] =
+    {
+        .id = DECOR_BERRY_PATCH,
+        .name = _("BERRY PATCH"),
+        .permission = DECORPERM_PASS_FLOOR,
+        .shape = DECORSHAPE_2x2,
+        .category = DECORCAT_PLANT,
+        .price = 8000,
+        .description = DecorDesc_BERRY_PATCH,
+        .tiles = DecorGfx_BERRY_PATCH,
+    },
+
+    [DECOR_EGG_INCUBATOR] =
+    {
+        .id = DECOR_EGG_INCUBATOR,
+        .name = _("EGG INCUBATOR"),
+        .permission = DECORPERM_SOLID_FLOOR,
+        .shape = DECORSHAPE_1x1,
+        .category = DECORCAT_ORNAMENT,
+        .price = 12000,
+        .description = DecorDesc_EGG_INCUBATOR,
+        .tiles = DecorGfx_EGG_INCUBATOR,
+    },
+
+    [DECOR_EV_EDITOR] =
+    {
+        .id = DECOR_EV_EDITOR,
+        .name = _("EV EDITOR"),
+        .permission = DECORPERM_SOLID_FLOOR,
+        .shape = DECORSHAPE_1x1,
+        .category = DECORCAT_ORNAMENT,
+        .price = 20000,
+        .description = DecorDesc_EV_EDITOR,
+        .tiles = DecorGfx_EV_EDITOR,
     }
 };

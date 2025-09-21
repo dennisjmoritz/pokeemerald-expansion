@@ -45,6 +45,7 @@
 #include "constants/secret_bases.h"
 #include "constants/songs.h"
 #include "constants/trainers.h"
+#include "money.h"
 
 #define TAG_SCROLL_ARROW 5112
 
@@ -923,4 +924,30 @@ void InitSecretBaseVars(void)
         VarSet(VAR_SECRET_BASE_IS_NOT_LOCAL, FALSE);
 
     sInFriendSecretBase = FALSE;
+}
+
+// House type cost system
+static const u32 sHouseTypeCosts[NUM_HOUSE_TYPES] = {
+    [HOUSE_APARTMENT] = 25000,
+    [HOUSE_HOUSE]     = 100000,
+    [HOUSE_MANSION]   = 500000,
+};
+
+bool8 CanAffordHouseType(u8 houseType)
+{
+    if (houseType >= NUM_HOUSE_TYPES)
+        return FALSE;
+    u32 cost = sHouseTypeCosts[houseType];
+    return IsEnoughMoney(&gSaveBlock1Ptr->money, cost);
+}
+
+void ChargeForHouseType(u8 houseType)
+{
+    if (houseType >= NUM_HOUSE_TYPES)
+        return;
+    u32 cost = sHouseTypeCosts[houseType];
+    if (IsEnoughMoney(&gSaveBlock1Ptr->money, cost))
+    {
+        RemoveMoney(&gSaveBlock1Ptr->money, cost);
+    }
 }

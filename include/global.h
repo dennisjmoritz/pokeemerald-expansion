@@ -1100,14 +1100,19 @@ struct SaveBlock1
     /*0x1A9C*/ struct SecretBase secretBases[SECRET_BASES_COUNT];
     /*0x271C*/ u8 playerRoomDecorations[DECOR_MAX_PLAYERS_HOUSE];
     /*0x2728*/ u8 playerRoomDecorationPositions[DECOR_MAX_PLAYERS_HOUSE];
-    /*0x2734*/ u8 decorationDesks[10];
-    /*0x273E*/ u8 decorationChairs[10];
-    /*0x2748*/ u8 decorationPlants[10];
-    /*0x2752*/ u8 decorationOrnaments[30];
-    /*0x2770*/ u8 decorationMats[30];
-    /*0x278E*/ u8 decorationPosters[10];
-    /*0x2798*/ u8 decorationDolls[40];
-    /*0x27C0*/ u8 decorationCushions[10];
+    /*0x2734*/ u8 playerHouseType;
+    /*0x2735*/ struct BerryTree playerBerryPatch; // Berry patch decoration data
+    /*0x273B*/ struct BoxPokemon playerEggIncubator; // Egg incubator decoration data
+    /*0x27A3*/ u32 eggIncubatorSteps; // Steps for incubated egg
+    /*0x27A7*/ u16 evEditorCredits[NUM_STATS]; // EV Editor stored credits per stat
+    /*0x27B3*/ u8 decorationDesks[10];
+    /*0x27BD*/ u8 decorationChairs[10];
+    /*0x27C7*/ u8 decorationPlants[10];
+    /*0x27D1*/ u8 decorationOrnaments[30];
+    /*0x27EF*/ u8 decorationMats[30];
+    /*0x280D*/ u8 decorationPosters[10];
+    /*0x2817*/ u8 decorationDolls[40];
+    /*0x283F*/ u8 decorationCushions[10];
     /*0x27CC*/ TVShow tvShows[TV_SHOWS_COUNT];
     /*0x27CA*/ //u8 padding4[2];
     /*0x2B50*/ PokeNews pokeNews[POKE_NEWS_COUNT];

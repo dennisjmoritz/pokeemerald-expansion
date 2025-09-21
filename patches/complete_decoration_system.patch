@@ -1,0 +1,1036 @@
+diff --git a/data/maps/SecretBase_Apartment1/map.json b/data/maps/SecretBase_Apartment1/map.json
+index 8fb27936..ad9cd542 100644
+--- a/data/maps/SecretBase_Apartment1/map.json
++++ b/data/maps/SecretBase_Apartment1/map.json
+@@ -56,58 +56,6 @@
+     },
+     {
+       "graphics_id": "OBJ_EVENT_GFX_VAR_3",
+-      "x": 0,
+-      "y": 3,
+-      "elevation": 3,
+-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+-      "movement_range_x": 0,
+-      "movement_range_y": 0,
+-      "trainer_type": "TRAINER_TYPE_NONE",
+-      "trainer_sight_or_berry_tree_id": "0",
+-      "script": "0x0",
+-      "flag": "FLAG_DECORATION_4"
+-    },
+-    {
+-      "graphics_id": "OBJ_EVENT_GFX_VAR_4",
+-      "x": 0,
+-      "y": 4,
+-      "elevation": 3,
+-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+-      "movement_range_x": 0,
+-      "movement_range_y": 0,
+-      "trainer_type": "TRAINER_TYPE_NONE",
+-      "trainer_sight_or_berry_tree_id": "0",
+-      "script": "0x0",
+-      "flag": "FLAG_DECORATION_5"
+-    },
+-    {
+-      "graphics_id": "OBJ_EVENT_GFX_VAR_5",
+-      "x": 0,
+-      "y": 5,
+-      "elevation": 3,
+-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+-      "movement_range_x": 0,
+-      "movement_range_y": 0,
+-      "trainer_type": "TRAINER_TYPE_NONE",
+-      "trainer_sight_or_berry_tree_id": "0",
+-      "script": "0x0",
+-      "flag": "FLAG_DECORATION_6"
+-    },
+-    {
+-      "graphics_id": "OBJ_EVENT_GFX_VAR_6",
+-      "x": 0,
+-      "y": 6,
+-      "elevation": 3,
+-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+-      "movement_range_x": 0,
+-      "movement_range_y": 0,
+-      "trainer_type": "TRAINER_TYPE_NONE",
+-      "trainer_sight_or_berry_tree_id": "0",
+-      "script": "0x0",
+-      "flag": "FLAG_DECORATION_7"
+-    },
+-    {
+-      "graphics_id": "OBJ_EVENT_GFX_VAR_7",
+       "x": 1,
+       "y": 0,
+       "elevation": 3,
+@@ -117,10 +65,10 @@
+       "trainer_type": "TRAINER_TYPE_NONE",
+       "trainer_sight_or_berry_tree_id": "0",
+       "script": "0x0",
+-      "flag": "FLAG_DECORATION_8"
++      "flag": "FLAG_DECORATION_4"
+     },
+     {
+-      "graphics_id": "OBJ_EVENT_GFX_VAR_8",
++      "graphics_id": "OBJ_EVENT_GFX_VAR_4",
+       "x": 1,
+       "y": 1,
+       "elevation": 3,
+@@ -130,10 +78,10 @@
+       "trainer_type": "TRAINER_TYPE_NONE",
+       "trainer_sight_or_berry_tree_id": "0",
+       "script": "0x0",
+-      "flag": "FLAG_DECORATION_9"
++      "flag": "FLAG_DECORATION_5"
+     },
+     {
+-      "graphics_id": "OBJ_EVENT_GFX_VAR_9",
++      "graphics_id": "OBJ_EVENT_GFX_VAR_5",
+       "x": 1,
+       "y": 2,
+       "elevation": 3,
+@@ -143,59 +91,7 @@
+       "trainer_type": "TRAINER_TYPE_NONE",
+       "trainer_sight_or_berry_tree_id": "0",
+       "script": "0x0",
+-      "flag": "FLAG_DECORATION_10"
+-    },
+-    {
+-      "graphics_id": "OBJ_EVENT_GFX_VAR_A",
+-      "x": 1,
+-      "y": 3,
+-      "elevation": 3,
+-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+-      "movement_range_x": 0,
+-      "movement_range_y": 0,
+-      "trainer_type": "TRAINER_TYPE_NONE",
+-      "trainer_sight_or_berry_tree_id": "0",
+-      "script": "0x0",
+-      "flag": "FLAG_DECORATION_11"
+-    },
+-    {
+-      "graphics_id": "OBJ_EVENT_GFX_VAR_B",
+-      "x": 1,
+-      "y": 4,
+-      "elevation": 3,
+-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+-      "movement_range_x": 0,
+-      "movement_range_y": 0,
+-      "trainer_type": "TRAINER_TYPE_NONE",
+-      "trainer_sight_or_berry_tree_id": "0",
+-      "script": "0x0",
+-      "flag": "FLAG_DECORATION_12"
+-    },
+-    {
+-      "graphics_id": "OBJ_EVENT_GFX_VAR_C",
+-      "x": 1,
+-      "y": 5,
+-      "elevation": 3,
+-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+-      "movement_range_x": 0,
+-      "movement_range_y": 0,
+-      "trainer_type": "TRAINER_TYPE_NONE",
+-      "trainer_sight_or_berry_tree_id": "0",
+-      "script": "0x0",
+-      "flag": "FLAG_DECORATION_13"
+-    },
+-    {
+-      "graphics_id": "OBJ_EVENT_GFX_VAR_D",
+-      "x": 1,
+-      "y": 6,
+-      "elevation": 3,
+-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+-      "movement_range_x": 0,
+-      "movement_range_y": 0,
+-      "trainer_type": "TRAINER_TYPE_NONE",
+-      "trainer_sight_or_berry_tree_id": "0",
+-      "script": "0x0",
+-      "flag": "FLAG_DECORATION_14"
++      "flag": "FLAG_DECORATION_6"
+     }
+   ],
+   "warp_events": [
+diff --git a/data/maps/SecretBase_Mansion1/map.json b/data/maps/SecretBase_Mansion1/map.json
+index 27988f5f..827abc5d 100644
+--- a/data/maps/SecretBase_Mansion1/map.json
++++ b/data/maps/SecretBase_Mansion1/map.json
+@@ -196,6 +196,84 @@
+       "trainer_sight_or_berry_tree_id": "0",
+       "script": "0x0",
+       "flag": "FLAG_DECORATION_14"
++    },
++    {
++      "graphics_id": "OBJ_EVENT_GFX_VAR_E",
++      "x": 2,
++      "y": 0,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0",
++      "script": "0x0",
++      "flag": "FLAG_DECORATION_15"
++    },
++    {
++      "graphics_id": "OBJ_EVENT_GFX_VAR_F",
++      "x": 2,
++      "y": 1,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0",
++      "script": "0x0",
++      "flag": "FLAG_DECORATION_16"
++    },
++    {
++      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
++      "x": 2,
++      "y": 2,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0",
++      "script": "0x0",
++      "flag": "FLAG_DECORATION_17"
++    },
++    {
++      "graphics_id": "OBJ_EVENT_GFX_VAR_1",
++      "x": 2,
++      "y": 3,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0",
++      "script": "0x0",
++      "flag": "FLAG_DECORATION_18"
++    },
++    {
++      "graphics_id": "OBJ_EVENT_GFX_VAR_2",
++      "x": 2,
++      "y": 4,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0",
++      "script": "0x0",
++      "flag": "FLAG_DECORATION_19"
++    },
++    {
++      "graphics_id": "OBJ_EVENT_GFX_VAR_3",
++      "x": 2,
++      "y": 5,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0",
++      "script": "0x0",
++      "flag": "FLAG_DECORATION_20"
+     }
+   ],
+   "warp_events": [
+diff --git a/include/berry.h b/include/berry.h
+index 4aad7daa..c00ad70d 100644
+--- a/include/berry.h
++++ b/include/berry.h
+@@ -21,7 +21,7 @@ void Bag_ChooseMulch(void);
+ void ObjectEventInteractionGetBerryTreeData(void);
+ void ObjectEventInteractionPlantBerryTree(void);
+ void ObjectEventInteractionPickBerryTree(void);
+-void ObjectEventInteractionRemoveBerryTree(void);
++u16 BerryTypeToItemId(u16 berry);
+ void ObjectEventInteractionApplyMulch(void);
+ bool8 PlayerHasBerries(void);
+ void SetBerryTreesSeen(void);
+diff --git a/include/constants/decorations.h b/include/constants/decorations.h
+index b9f626d2..e89ce4eb 100644
+--- a/include/constants/decorations.h
++++ b/include/constants/decorations.h
+@@ -122,6 +122,10 @@
+ #define DECOR_REGIROCK_DOLL    118
+ #define DECOR_REGICE_DOLL      119
+ #define DECOR_REGISTEEL_DOLL   120
+-#define NUM_DECORATIONS DECOR_REGISTEEL_DOLL
++#define DECOR_MOVE_RELEARNER   121
++#define DECOR_BERRY_PATCH      122
++#define DECOR_EGG_INCUBATOR    123
++#define DECOR_EV_EDITOR        124
++#define NUM_DECORATIONS DECOR_EV_EDITOR
+ 
+ #endif  // GUARD_CONSTANTS_DECORATIONS_H
+diff --git a/include/constants/event_objects.h b/include/constants/event_objects.h
+index eacd3b3a..3867a06e 100644
+--- a/include/constants/event_objects.h
++++ b/include/constants/event_objects.h
+@@ -273,6 +273,10 @@
+ #define OBJ_EVENT_GFX_VAR_D  (OBJ_EVENT_GFX_VARS + 0xD)
+ #define OBJ_EVENT_GFX_VAR_E  (OBJ_EVENT_GFX_VARS + 0xE)
+ #define OBJ_EVENT_GFX_VAR_F  (OBJ_EVENT_GFX_VARS + 0xF)
++#define OBJ_EVENT_GFX_VAR_10 (OBJ_EVENT_GFX_VARS + 0x10)
++#define OBJ_EVENT_GFX_VAR_11 (OBJ_EVENT_GFX_VARS + 0x11)
++#define OBJ_EVENT_GFX_VAR_12 (OBJ_EVENT_GFX_VARS + 0x12)
++#define OBJ_EVENT_GFX_VAR_13 (OBJ_EVENT_GFX_VARS + 0x13)
+ 
+ // Don't use (1u << 15) to avoid conflict with BLEND_IMMUNE_FLAG.
+ #define OBJ_EVENT_MON               (1u << 14)
+diff --git a/include/constants/flags.h b/include/constants/flags.h
+index 47a3b245..a84ae370 100644
+--- a/include/constants/flags.h
++++ b/include/constants/flags.h
+@@ -43,12 +43,12 @@
+ #define TEMP_FLAGS_END   FLAG_TEMP_1F
+ #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
+ 
+-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
+-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
+-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
+-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
+-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
+-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
++//
++//
++//
++//
++//
++//
+ #define FLAG_UNUSED_0x026    0x26 // Unused Flag
+ #define FLAG_UNUSED_0x027    0x27 // Unused Flag
+ #define FLAG_UNUSED_0x028    0x28 // Unused Flag
+@@ -207,6 +207,12 @@
+ #define FLAG_DECORATION_12                   0xB9
+ #define FLAG_DECORATION_13                   0xBA
+ #define FLAG_DECORATION_14                   0xBB
++#define FLAG_DECORATION_15                   0x020
++#define FLAG_DECORATION_16                   0x021
++#define FLAG_DECORATION_17                   0x022
++#define FLAG_DECORATION_18                   0x023
++#define FLAG_DECORATION_19                   0x024
++#define FLAG_DECORATION_20                   0x025
+ #define FLAG_RECEIVED_POKENAV                0xBC
+ #define FLAG_DELIVERED_STEVEN_LETTER         0xBD
+ #define FLAG_DEFEATED_WALLY_MAUVILLE         0xBE
+diff --git a/include/decoration.h b/include/decoration.h
+index 415ffb85..fa3a02ed 100644
+--- a/include/decoration.h
++++ b/include/decoration.h
+@@ -40,6 +40,14 @@ enum DecorationCategory
+     DECORCAT_COUNT,
+ };
+ 
++enum HouseType
++{
++    HOUSE_TYPE_APARTMENT,
++    HOUSE_TYPE_HOUSE,
++    HOUSE_TYPE_MANSION,
++    HOUSE_TYPE_COUNT,
++};
++
+ struct Decoration
+ {
+     u8 id;
+@@ -65,4 +73,15 @@ void CopyDecorationCategoryName(u8 *dest, u8 category);
+ bool8 IsSelectedDecorInThePC(void);
+ u8 AddDecorationIconObject(u8 decor, s16 x, s16 y, u8 priority, u16 tilesTag, u16 paletteTag);
+ 
++// Decoration interaction functions
++void ShowHouseTypeMenu(u8 taskId);
++
++// Decoration interaction functions
++bool8 IsDecorationInPlayerRoom(u8 decorationId);
++void UseMoveRelearnerDecoration(void);
++void UseBerryPatchDecoration(void);
++void UseEggIncubatorDecoration(void);
++void UseEVEditorDecoration(void);
++void UpdateEggIncubator(void);
++
+ #endif //GUARD_DECORATION_H
+diff --git a/include/global.h b/include/global.h
+index f8cf7719..905cb975 100644
+--- a/include/global.h
++++ b/include/global.h
+@@ -1100,14 +1100,19 @@ struct SaveBlock1
+     /*0x1A9C*/ struct SecretBase secretBases[SECRET_BASES_COUNT];
+     /*0x271C*/ u8 playerRoomDecorations[DECOR_MAX_PLAYERS_HOUSE];
+     /*0x2728*/ u8 playerRoomDecorationPositions[DECOR_MAX_PLAYERS_HOUSE];
+-    /*0x2734*/ u8 decorationDesks[10];
+-    /*0x273E*/ u8 decorationChairs[10];
+-    /*0x2748*/ u8 decorationPlants[10];
+-    /*0x2752*/ u8 decorationOrnaments[30];
+-    /*0x2770*/ u8 decorationMats[30];
+-    /*0x278E*/ u8 decorationPosters[10];
+-    /*0x2798*/ u8 decorationDolls[40];
+-    /*0x27C0*/ u8 decorationCushions[10];
++    /*0x2734*/ u8 playerHouseType;
++    /*0x2735*/ struct BerryTree playerBerryPatch; // Berry patch decoration data
++    /*0x273B*/ struct BoxPokemon playerEggIncubator; // Egg incubator decoration data
++    /*0x27A3*/ u32 eggIncubatorSteps; // Steps for incubated egg
++    /*0x27A7*/ u16 evEditorCredits[NUM_STATS]; // EV Editor stored credits per stat
++    /*0x27B3*/ u8 decorationDesks[10];
++    /*0x27BD*/ u8 decorationChairs[10];
++    /*0x27C7*/ u8 decorationPlants[10];
++    /*0x27D1*/ u8 decorationOrnaments[30];
++    /*0x27EF*/ u8 decorationMats[30];
++    /*0x280D*/ u8 decorationPosters[10];
++    /*0x2817*/ u8 decorationDolls[40];
++    /*0x283F*/ u8 decorationCushions[10];
+     /*0x27CC*/ TVShow tvShows[TV_SHOWS_COUNT];
+     /*0x27CA*/ //u8 padding4[2];
+     /*0x2B50*/ PokeNews pokeNews[POKE_NEWS_COUNT];
+diff --git a/include/secret_base.h b/include/secret_base.h
+index c2f1aa32..6ffe4112 100644
+--- a/include/secret_base.h
++++ b/include/secret_base.h
+@@ -18,4 +18,17 @@ void TrySetCurSecretBaseIndex(void);
+ void CheckPlayerHasSecretBase(void);
+ void ToggleSecretBaseEntranceMetatile(void);
+ 
++// House type system
++enum HouseType
++{
++    HOUSE_APARTMENT,
++    HOUSE_HOUSE, 
++    HOUSE_MANSION,
++    NUM_HOUSE_TYPES
++};
++
++// House type cost functions
++bool8 CanAffordHouseType(u8 houseType);
++void ChargeForHouseType(u8 houseType);
++
+ #endif //GUARD_SECRET_BASE_H
+diff --git a/src/berry.c b/src/berry.c
+index cb8a06ef..d87857bf 100644
+--- a/src/berry.c
++++ b/src/berry.c
+@@ -2006,7 +2006,7 @@ u8 ItemIdToBerryType(u16 item)
+         return ITEM_TO_BERRY(item);
+ }
+ 
+-static u16 BerryTypeToItemId(u16 berry)
++u16 BerryTypeToItemId(u16 berry)
+ {
+     u16 item = berry - 1;
+ 
+diff --git a/src/data/decoration/description.h b/src/data/decoration/description.h
+index b56f43eb..c0457385 100644
+--- a/src/data/decoration/description.h
++++ b/src/data/decoration/description.h
+@@ -571,3 +571,23 @@ const u8 DecorDesc_REGISTEEL_DOLL[] = _(
+     "A large doll.\n"
+         "Place it on a mat\n"
+         "or a desk.");
++
++const u8 DecorDesc_MOVE_RELEARNER[] = _(
++    "A device that helps\n"
++        "POKéMON remember\n"
++        "forgotten moves.");
++
++const u8 DecorDesc_BERRY_PATCH[] = _(
++    "A small garden\n"
++        "patch for growing\n"
++        "berries indoors.");
++
++const u8 DecorDesc_EGG_INCUBATOR[] = _(
++    "A special device that\n"
++        "stores and incubates\n"
++        "eggs like a daycare.");
++
++const u8 DecorDesc_EV_EDITOR[] = _(
++    "A training device\n"
++        "that helps adjust\n"
++        "POKéMON stats.");
+diff --git a/src/data/decoration/header.h b/src/data/decoration/header.h
+index 7a151808..08c73f79 100644
+--- a/src/data/decoration/header.h
++++ b/src/data/decoration/header.h
+@@ -1450,5 +1450,53 @@ const struct Decoration gDecorations[] =
+         .price = 10000,
+         .description = DecorDesc_REGISTEEL_DOLL,
+         .tiles = DecorGfx_REGISTEEL_DOLL,
++    },
++
++    [DECOR_MOVE_RELEARNER] =
++    {
++        .id = DECOR_MOVE_RELEARNER,
++        .name = _("MOVE RELEARNER"),
++        .permission = DECORPERM_SOLID_FLOOR,
++        .shape = DECORSHAPE_1x1,
++        .category = DECORCAT_ORNAMENT,
++        .price = 15000,
++        .description = DecorDesc_MOVE_RELEARNER,
++        .tiles = DecorGfx_MOVE_RELEARNER,
++    },
++
++    [DECOR_BERRY_PATCH] =
++    {
++        .id = DECOR_BERRY_PATCH,
++        .name = _("BERRY PATCH"),
++        .permission = DECORPERM_PASS_FLOOR,
++        .shape = DECORSHAPE_2x2,
++        .category = DECORCAT_PLANT,
++        .price = 8000,
++        .description = DecorDesc_BERRY_PATCH,
++        .tiles = DecorGfx_BERRY_PATCH,
++    },
++
++    [DECOR_EGG_INCUBATOR] =
++    {
++        .id = DECOR_EGG_INCUBATOR,
++        .name = _("EGG INCUBATOR"),
++        .permission = DECORPERM_SOLID_FLOOR,
++        .shape = DECORSHAPE_1x1,
++        .category = DECORCAT_ORNAMENT,
++        .price = 12000,
++        .description = DecorDesc_EGG_INCUBATOR,
++        .tiles = DecorGfx_EGG_INCUBATOR,
++    },
++
++    [DECOR_EV_EDITOR] =
++    {
++        .id = DECOR_EV_EDITOR,
++        .name = _("EV EDITOR"),
++        .permission = DECORPERM_SOLID_FLOOR,
++        .shape = DECORSHAPE_1x1,
++        .category = DECORCAT_ORNAMENT,
++        .price = 20000,
++        .description = DecorDesc_EV_EDITOR,
++        .tiles = DecorGfx_EV_EDITOR,
+     }
+ };
+diff --git a/src/data/decoration/tiles.h b/src/data/decoration/tiles.h
+index 1b25da3d..6c95b7f7 100644
+--- a/src/data/decoration/tiles.h
++++ b/src/data/decoration/tiles.h
+@@ -641,3 +641,19 @@ const u16 DecorGfx_REGICE_DOLL[] = {
+ const u16 DecorGfx_REGISTEEL_DOLL[] = {
+     OBJ_EVENT_GFX_BIG_REGISTEEL_DOLL
+ };
++
++const u16 DecorGfx_MOVE_RELEARNER[] = {
++    OBJ_EVENT_GFX_SMALL_DESK // Using desk graphics as placeholder
++};
++
++const u16 DecorGfx_BERRY_PATCH[] = {
++    OBJ_EVENT_GFX_BERRY_TREE // Using berry tree graphics  
++};
++
++const u16 DecorGfx_EGG_INCUBATOR[] = {
++    OBJ_EVENT_GFX_PC // Using PC graphics as placeholder
++};
++
++const u16 DecorGfx_EV_EDITOR[] = {
++    OBJ_EVENT_GFX_BOOKSHELF // Using bookshelf graphics as placeholder
++};
+diff --git a/src/decoration.c b/src/decoration.c
+index eee436ec..ebc8f4c0 100644
+--- a/src/decoration.c
++++ b/src/decoration.c
+@@ -13,6 +13,7 @@
+ #include "fieldmap.h"
+ #include "graphics.h"
+ #include "international_string_util.h"
++#include "item.h"
+ #include "item_icon.h"
+ #include "item_menu.h"
+ #include "list_menu.h"
+@@ -20,6 +21,13 @@
+ #include "menu.h"
+ #include "menu_helpers.h"
+ #include "metatile_behavior.h"
++#include "money.h"
++#include "move_relearner.h"
++#include "berry.h"
++#include "random.h"
++#include "daycare.h"
++#include "party_menu.h"
++#include "pokemon.h"
+ #include "overworld.h"
+ #include "palette.h"
+ #include "player_pc.h"
+@@ -35,6 +43,7 @@
+ #include "tv.h"
+ #include "constants/decorations.h"
+ #include "constants/event_objects.h"
++#include "constants/items.h"
+ #include "constants/songs.h"
+ #include "constants/region_map_sections.h"
+ #include "constants/metatile_labels.h"
+@@ -2773,3 +2782,426 @@ static void TossDecoration(u8 taskId)
+     StringExpandPlaceholders(gStringVar4, gText_DecorationThrownAway);
+     DisplayItemMessageOnField(taskId, gStringVar4, ReturnToDecorationItemsAfterInvalidSelection);
+ }
++
++// Egg incubator helper functions
++static bool8 IsEggInIncubator(void)
++{
++    return GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_SPECIES) != SPECIES_NONE;
++}
++
++static bool8 CanDepositEggInIncubator(struct Pokemon *mon)
++{
++    return GetMonData(mon, MON_DATA_IS_EGG) && !GetMonData(mon, MON_DATA_SANITY_IS_BAD_EGG);
++}
++
++static void DepositEggInIncubator(struct Pokemon *mon)
++{
++    if (CanDepositEggInIncubator(mon) && !IsEggInIncubator())
++    {
++        // Store the egg in the incubator
++        gSaveBlock1Ptr->playerEggIncubator = mon->box;
++        gSaveBlock1Ptr->eggIncubatorSteps = 0;
++        
++        // Remove the egg from party
++        *mon = gPlayerParty[gPlayerPartyCount - 1];
++        ZeroMonData(&gPlayerParty[gPlayerPartyCount - 1]);
++        gPlayerPartyCount--;
++        CalculatePlayerPartyCount();
++    }
++}
++
++static bool8 WithdrawEggFromIncubator(void)
++{
++    if (IsEggInIncubator() && gPlayerPartyCount < PARTY_SIZE)
++    {
++        // Create Pokemon from stored egg
++        BoxMonToMon(&gSaveBlock1Ptr->playerEggIncubator, &gPlayerParty[gPlayerPartyCount]);
++        gPlayerPartyCount++;
++        CalculatePlayerPartyCount();
++        
++        // Clear the incubator
++        ZeroBoxMonData(&gSaveBlock1Ptr->playerEggIncubator);
++        gSaveBlock1Ptr->eggIncubatorSteps = 0;
++        
++        return TRUE;
++    }
++    return FALSE;
++}
++
++// Function to update egg incubator (called during step processing)
++void UpdateEggIncubator(void)
++{
++    if (IsDecorationInPlayerRoom(DECOR_EGG_INCUBATOR) && IsEggInIncubator())
++    {
++        u32 eggCycles;
++        
++        // Increment steps (incubator works at normal walking rate)
++        gSaveBlock1Ptr->eggIncubatorSteps += 1;
++        
++        // Every 256 steps, reduce egg cycles (like daycare)
++        if (gSaveBlock1Ptr->eggIncubatorSteps >= 256)
++        {
++            gSaveBlock1Ptr->eggIncubatorSteps = 0;
++            
++            eggCycles = GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_FRIENDSHIP);
++            if (eggCycles > 0)
++            {
++                eggCycles--;
++                SetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_FRIENDSHIP, &eggCycles);
++            }
++        }
++    }
++}
++
++// Decoration interaction functions
++bool8 IsDecorationInPlayerRoom(u8 decorationId)
++{
++    u8 i;
++    for (i = 0; i < DECOR_MAX_PLAYERS_HOUSE; i++)
++    {
++        if (gSaveBlock1Ptr->playerRoomDecorations[i] == decorationId)
++            return TRUE;
++    }
++    return FALSE;
++}
++
++// Move Relearner decoration functionality
++void UseMoveRelearnerDecoration(void)
++{
++    if (IsDecorationInPlayerRoom(DECOR_MOVE_RELEARNER))
++    {
++        gSpecialVar_0x8004 = 0; // Use first party slot by default
++        TeachMoveRelearnerMove();
++    }
++}
++
++// Berry patch decoration functionality using berry.c functions
++void UseBerryPatchDecoration(void)
++{
++    if (IsDecorationInPlayerRoom(DECOR_BERRY_PATCH))
++    {
++        struct BerryTree *berryPatch = &gSaveBlock1Ptr->playerBerryPatch;
++        
++        // Check if berry is ready to harvest
++        if (berryPatch->berry != 0 && berryPatch->stage >= 4)
++        {
++            // Harvest berries using existing BerryTypeToItemId function from berry.c
++            u16 berryItem = BerryTypeToItemId(berryPatch->berry);
++            u8 yield = berryPatch->berryYield;
++            if (yield == 0) yield = 2; // Minimum yield like existing trees
++            
++            // Use existing AddBagItem approach like ObjectEventInteractionPickBerryTree
++            if (AddBagItem(berryItem, yield))
++            {
++                StringCopy(gStringVar1, ItemId_GetName(berryItem));
++                ConvertIntToDecimalStringN(gStringVar2, yield, STR_CONV_MODE_LEFT_ALIGN, 2);
++                StringExpandPlaceholders(gStringVar4, _("Harvested {STR_VAR_2} {STR_VAR_1}!"));
++                
++                // Clear the berry patch using RemoveBerryTree approach
++                berryPatch->berry = 0;
++                berryPatch->stage = 0;
++                berryPatch->berryYield = 0;
++                berryPatch->minutesUntilNextStage = 0;
++            }
++            else
++            {
++                StringExpandPlaceholders(gStringVar4, _("Your BAG is full!"));
++            }
++        }
++        else if (berryPatch->berry != 0)
++        {
++            // Show growth status using existing GetBerryInfo from berry.c
++            const struct Berry *berry = GetBerryInfo(berryPatch->berry);
++            StringCopy(gStringVar1, berry->name);
++            
++            if (berryPatch->stage == 1)
++                StringExpandPlaceholders(gStringVar4, _("The {STR_VAR_1} sprout is growing."));
++            else if (berryPatch->stage == 2)
++                StringExpandPlaceholders(gStringVar4, _("The {STR_VAR_1} plant is growing taller."));
++            else if (berryPatch->stage == 3)
++                StringExpandPlaceholders(gStringVar4, _("The {STR_VAR_1} plant is flowering."));
++        }
++        else
++        {
++            // Empty patch - plant a berry using existing PlantBerryTree approach
++            u8 berryTypes[] = {1, 2, 3, 4}; // CHERI, CHESTO, PECHA, RAWST (IDs 1-4)
++            u8 berryType = berryTypes[Random() % ARRAY_COUNT(berryTypes)];
++            
++            // Use existing PlantBerryTree logic patterns
++            berryPatch->berry = berryType;
++            berryPatch->stage = 1; // BERRY_STAGE_PLANTED
++            berryPatch->minutesUntilNextStage = 240; // 4 hours to next stage like existing system
++            berryPatch->berryYield = 3; // Default yield like existing berries
++            
++            const struct Berry *berry = GetBerryInfo(berryType);
++            StringCopy(gStringVar1, berry->name);
++            StringExpandPlaceholders(gStringVar4, _("Planted a {STR_VAR_1} BERRY!"));
++        }
++        
++        DisplayItemMessageOnField(0, gStringVar4, NULL);
++    }
++}
++
++// Egg incubator decoration functionality
++void UseEggIncubatorDecoration(void)
++{
++    if (IsDecorationInPlayerRoom(DECOR_EGG_INCUBATOR))
++    {
++        if (IsEggInIncubator())
++        {
++            // Show egg status and offer withdrawal
++            u32 eggCycles = GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_FRIENDSHIP);
++            u8 species = GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_SPECIES);
++            
++            // Show progress
++            ConvertIntToDecimalStringN(gStringVar1, eggCycles, STR_CONV_MODE_LEFT_ALIGN, 3);
++            ConvertIntToDecimalStringN(gStringVar2, gSaveBlock1Ptr->eggIncubatorSteps, STR_CONV_MODE_LEFT_ALIGN, 4);
++            StringExpandPlaceholders(gStringVar4, 
++                _("EGG cycles left: {STR_VAR_1}\nIncubator steps: {STR_VAR_2}\nTake the EGG out?"));
++            
++            // This would normally show a yes/no prompt
++            // For now, automatically withdraw if party has space
++            if (gPlayerPartyCount < PARTY_SIZE)
++            {
++                if (WithdrawEggFromIncubator())
++                {
++                    StringExpandPlaceholders(gStringVar4, _("Retrieved the EGG from\nthe incubator!"));
++                }
++            }
++            else
++            {
++                StringExpandPlaceholders(gStringVar4, _("Your party is full!\nCannot take the EGG."));
++            }
++        }
++        else
++        {
++            // Empty incubator - check for eggs in party to deposit
++            bool8 hasEgg = FALSE;
++            u8 i;
++            
++            for (i = 0; i < gPlayerPartyCount; i++)
++            {
++                if (CanDepositEggInIncubator(&gPlayerParty[i]))
++                {
++                    hasEgg = TRUE;
++                    break;
++                }
++            }
++            
++            if (hasEgg)
++            {
++                StringExpandPlaceholders(gStringVar4, _("Place an EGG in the\nincubator?"));
++                
++                // For now, automatically deposit the first egg found
++                for (i = 0; i < gPlayerPartyCount; i++)
++                {
++                    if (CanDepositEggInIncubator(&gPlayerParty[i]))
++                    {
++                        DepositEggInIncubator(&gPlayerParty[i]);
++                        StringExpandPlaceholders(gStringVar4, _("Placed the EGG in the\nincubator!"));
++                        break;
++                    }
++                }
++            }
++            else
++            {
++                StringExpandPlaceholders(gStringVar4, _("The incubator is empty.\nBring an EGG to incubate!"));
++            }
++        }
++        
++        DisplayItemMessageOnField(0, gStringVar4, NULL);
++    }
++}
++
++// EV Editor decoration functionality
++static const u16 sEVItems[] = {
++    ITEM_HP_UP,      // HP EV item
++    ITEM_PROTEIN,    // Attack EV item  
++    ITEM_IRON,       // Defense EV item
++    ITEM_CALCIUM,    // Sp. Attack EV item
++    ITEM_ZINC,       // Sp. Defense EV item
++    ITEM_CARBOS,     // Speed EV item
++};
++
++static const u16 sEVBerries[] = {
++    ITEM_POMEG_BERRY,  // HP EV reducing berry
++    ITEM_KELPSY_BERRY, // Attack EV reducing berry
++    ITEM_QUALOT_BERRY, // Defense EV reducing berry
++    ITEM_HONDEW_BERRY, // Sp. Attack EV reducing berry
++    ITEM_GREPA_BERRY,  // Sp. Defense EV reducing berry
++    ITEM_TAMATO_BERRY, // Speed EV reducing berry
++};
++
++static const u8 sEVStatNames[][12] = {
++    _("HP"),
++    _("ATTACK"),
++    _("DEFENSE"), 
++    _("SP. ATK"),
++    _("SP. DEF"),
++    _("SPEED"),
++};
++
++static u32 GetTotalEVCreditsFromBerries(void)
++{
++    u32 totalCredits = 0;
++    u8 i;
++    
++    // Count EV berries in bag as credits (each berry = 10 EV points = 1 vitamin equivalent)
++    for (i = 0; i < ARRAY_COUNT(sEVBerries); i++)
++    {
++        totalCredits += GetBagItemQuantity(sEVBerries[i]) / 1; // 1 berry = 1 credit
++    }
++    
++    return totalCredits;
++}
++
++// EV Editor storage functions
++static void DepositEVItemsToEditor(void)
++{
++    u8 i;
++    u16 quantity;
++    
++    // Deposit vitamins (give 10 EV points each = 10 credits each)
++    for (i = 0; i < ARRAY_COUNT(sEVItems); i++)
++    {
++        quantity = GetBagItemQuantity(sEVItems[i]);
++        if (quantity > 0)
++        {
++            gSaveBlock1Ptr->evEditorCredits[i] += quantity * 10; // 1 vitamin = 10 credits
++            RemoveBagItem(sEVItems[i], quantity);
++        }
++    }
++    
++    // Deposit EV berries (reduce 10 EV points each = 10 credits each)
++    for (i = 0; i < ARRAY_COUNT(sEVBerries); i++)
++    {
++        quantity = GetBagItemQuantity(sEVBerries[i]);
++        if (quantity > 0)
++        {
++            gSaveBlock1Ptr->evEditorCredits[i] += quantity * 10; // 1 berry = 10 credits
++            RemoveBagItem(sEVBerries[i], quantity);
++        }
++    }
++}
++
++static u16 GetTotalEVCreditsInEditor(void)
++{
++    u16 total = 0;
++    u8 i;
++    
++    for (i = 0; i < NUM_STATS; i++)
++    {
++        total += gSaveBlock1Ptr->evEditorCredits[i];
++    }
++    return total;
++}
++
++static bool8 HasEVItemsInBag(void)
++{
++    u8 i;
++    
++    // Check for vitamins
++    for (i = 0; i < ARRAY_COUNT(sEVItems); i++)
++    {
++        if (GetBagItemQuantity(sEVItems[i]) > 0)
++            return TRUE;
++    }
++    
++    // Check for EV berries
++    for (i = 0; i < ARRAY_COUNT(sEVBerries); i++)
++    {
++        if (GetBagItemQuantity(sEVBerries[i]) > 0)
++            return TRUE;
++    }
++    
++    return FALSE;
++}
++
++// EV Editor decoration functionality with basic UI
++void UseEVEditorDecoration(void)
++{
++    if (IsDecorationInPlayerRoom(DECOR_EV_EDITOR))
++    {
++        u16 totalCredits = GetTotalEVCreditsInEditor();
++        
++        if (totalCredits > 0)
++        {
++            // Show stored credits and basic training interface
++            ConvertIntToDecimalStringN(gStringVar1, totalCredits, STR_CONV_MODE_LEFT_ALIGN, 4);
++            StringExpandPlaceholders(gStringVar4, 
++                _("EV EDITOR\nStored credits: {STR_VAR_1}\nTrain which POKéMON?"));
++            
++            // Basic party selection simulation
++            // TODO: This should open actual party menu
++            if (gPlayerPartyCount > 0)
++            {
++                u8 partyIndex = 0; // Select first Pokemon for demo
++                struct Pokemon *mon = &gPlayerParty[partyIndex];
++                
++                if (!GetMonData(mon, MON_DATA_IS_EGG))
++                {
++                    // Basic EV modification demo
++                    u8 statToTrain = Random() % NUM_STATS; // Random stat for demo
++                    u16 *statCredits = &gSaveBlock1Ptr->evEditorCredits[statToTrain];
++                    
++                    if (*statCredits >= 10) // Cost 10 credits per EV modification
++                    {
++                        // Get current EVs
++                        u16 currentEV = GetMonData(mon, MON_DATA_HP_EV + statToTrain);
++                        
++                        if (currentEV < 252) // EV limit per stat
++                        {
++                            // Increase EV by 10 points (1 vitamin equivalent)
++                            u16 newEV = currentEV + 10;
++                            if (newEV > 252) newEV = 252;
++                            SetMonData(mon, MON_DATA_HP_EV + statToTrain, &newEV);
++                            
++                            // Consume credits
++                            *statCredits -= 10;
++                            
++                            // Update Pokemon stats
++                            CalculateMonStats(mon);
++                            
++                            StringCopy(gStringVar1, sEVStatNames[statToTrain]);
++                            ConvertIntToDecimalStringN(gStringVar2, newEV - currentEV, STR_CONV_MODE_LEFT_ALIGN, 2);
++                            StringExpandPlaceholders(gStringVar4, 
++                                _("Trained {STR_VAR_1}!\nIncreased by {STR_VAR_2} points!"));
++                        }
++                        else
++                        {
++                            StringExpandPlaceholders(gStringVar4, _("This stat is already maxed!"));
++                        }
++                    }
++                    else
++                    {
++                        StringExpandPlaceholders(gStringVar4, _("Not enough credits for training!"));
++                    }
++                }
++                else
++                {
++                    StringExpandPlaceholders(gStringVar4, _("Cannot train an EGG!"));
++                }
++            }
++        }
++        else if (HasEVItemsInBag())
++        {
++            // Offer to deposit items
++            StringExpandPlaceholders(gStringVar4, 
++                _("Deposit vitamins and EV\nberries for training credits?"));
++            
++            // Auto-deposit for demonstration
++            DepositEVItemsToEditor();
++            totalCredits = GetTotalEVCreditsInEditor();
++            ConvertIntToDecimalStringN(gStringVar1, totalCredits, STR_CONV_MODE_LEFT_ALIGN, 4);
++            StringExpandPlaceholders(gStringVar4, 
++                _("Deposited items!\nTotal credits: {STR_VAR_1}"));
++        }
++        else
++        {
++            StringExpandPlaceholders(gStringVar4, 
++                _("EV EDITOR ready!\nBring vitamins or EV berries\nto deposit for training."));
++        }
++        
++        DisplayItemMessageOnField(0, gStringVar4, NULL);
++    }
++}
+diff --git a/src/secret_base.c b/src/secret_base.c
+index 0ce93b60..a28a9abf 100644
+--- a/src/secret_base.c
++++ b/src/secret_base.c
+@@ -45,6 +45,7 @@
+ #include "constants/secret_bases.h"
+ #include "constants/songs.h"
+ #include "constants/trainers.h"
++#include "money.h"
+ 
+ #define TAG_SCROLL_ARROW 5112
+ 
+@@ -923,4 +924,30 @@ void InitSecretBaseVars(void)
+         VarSet(VAR_SECRET_BASE_IS_NOT_LOCAL, FALSE);
+ 
+     sInFriendSecretBase = FALSE;
++}
++
++// House type cost system
++static const u32 sHouseTypeCosts[NUM_HOUSE_TYPES] = {
++    [HOUSE_APARTMENT] = 25000,
++    [HOUSE_HOUSE]     = 100000,
++    [HOUSE_MANSION]   = 500000,
++};
++
++bool8 CanAffordHouseType(u8 houseType)
++{
++    if (houseType >= NUM_HOUSE_TYPES)
++        return FALSE;
++    u32 cost = sHouseTypeCosts[houseType];
++    return IsEnoughMoney(&gSaveBlock1Ptr->money, cost);
++}
++
++void ChargeForHouseType(u8 houseType)
++{
++    if (houseType >= NUM_HOUSE_TYPES)
++        return;
++    u32 cost = sHouseTypeCosts[houseType];
++    if (IsEnoughMoney(&gSaveBlock1Ptr->money, cost))
++    {
++        RemoveMoney(&gSaveBlock1Ptr->money, cost);
++    }
+ }
+\ No newline at end of file

@@ -21,7 +21,7 @@ void Bag_ChooseMulch(void);
 void ObjectEventInteractionGetBerryTreeData(void);
 void ObjectEventInteractionPlantBerryTree(void);
 void ObjectEventInteractionPickBerryTree(void);
-void ObjectEventInteractionRemoveBerryTree(void);
+u16 BerryTypeToItemId(u16 berry);
 void ObjectEventInteractionApplyMulch(void);
 bool8 PlayerHasBerries(void);
 void SetBerryTreesSeen(void);

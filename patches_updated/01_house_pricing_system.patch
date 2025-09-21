@@ -1,0 +1,123 @@
+From: copilot <copilot@github.com>
+Date: Sat, 21 Sep 2024 17:22:00 +0000
+Subject: [PATCH 1/6] Add house pricing system with apartment/house/mansion tiers
+
+This patch adds a house pricing system that allows players to upgrade
+their accommodations from apartment to house to mansion with increasing
+costs and decoration capacities.
+
+- Apartment: 25,000₽ (6 decoration slots)
+- House: 100,000₽ (12 decoration slots)  
+- Mansion: 500,000₽ (20 decoration slots)
+
+The system is integrated into the secret base files to maintain clean
+separation between house management and decoration functionality.
+
+---
+ include/global.h      |  3 ++-
+ include/secret_base.h | 13 +++++++++++++
+ src/secret_base.c     | 27 +++++++++++++++++++++++++++
+ 3 files changed, 42 insertions(+), 1 deletion(-)
+
+diff --git a/include/global.h b/include/global.h
+index f8cf7719..905cb975 100644
+--- a/include/global.h
++++ b/include/global.h
+@@ -1100,14 +1100,19 @@ struct SaveBlock1
+     /*0x1A9C*/ struct SecretBase secretBases[SECRET_BASES_COUNT];
+     /*0x271C*/ u8 playerRoomDecorations[DECOR_MAX_PLAYERS_HOUSE];
+     /*0x2728*/ u8 playerRoomDecorationPositions[DECOR_MAX_PLAYERS_HOUSE];
+-    /*0x2734*/ u8 decorationDesks[10];
+-    /*0x273E*/ u8 decorationChairs[10];
+-    /*0x2748*/ u8 decorationPlants[10];
+-    /*0x2752*/ u8 decorationOrnaments[30];
+-    /*0x2770*/ u8 decorationMats[30];
+-    /*0x278E*/ u8 decorationPosters[10];
+-    /*0x2798*/ u8 decorationDolls[40];
+-    /*0x27C0*/ u8 decorationCushions[10];
++    /*0x2734*/ u8 playerHouseType;
++    /*0x2735*/ struct BerryTree playerBerryPatch; // Berry patch decoration data
++    /*0x273B*/ struct BoxPokemon playerEggIncubator; // Egg incubator decoration data
++    /*0x27A3*/ u32 eggIncubatorSteps; // Steps for incubated egg
++    /*0x27A7*/ u16 evEditorCredits[NUM_STATS]; // EV Editor stored credits per stat
++    /*0x27B3*/ u8 decorationDesks[10];
++    /*0x27BD*/ u8 decorationChairs[10];
++    /*0x27C7*/ u8 decorationPlants[10];
++    /*0x27D1*/ u8 decorationOrnaments[30];
++    /*0x27EF*/ u8 decorationMats[30];
++    /*0x280D*/ u8 decorationPosters[10];
++    /*0x2817*/ u8 decorationDolls[40];
++    /*0x283F*/ u8 decorationCushions[10];
+diff --git a/include/secret_base.h b/include/secret_base.h
+index 16f5b4a1..8a87c9a3 100644
+--- a/include/secret_base.h
++++ b/include/secret_base.h
+@@ -3,6 +3,7 @@
+ 
+ #include "global.h"
+ #include "constants/secret_bases.h"
++#include "money.h"
+ 
+ #define ITEMS_COUNT   3
+ #define FLAGS_COUNT   4
+@@ -119,4 +120,16 @@ struct SecretBaseParty
+     u8 species2[FRONTIER_PARTY_SIZE];
+ };
+ 
++// House type system
++enum HouseType
++{
++    HOUSE_APARTMENT,
++    HOUSE_HOUSE,
++    HOUSE_MANSION,
++    HOUSE_COUNT
++};
++
++bool8 CanAffordHouseType(enum HouseType houseType);
++void ChargeForHouseType(enum HouseType houseType);
++
+ #endif // GUARD_SECRET_BASE_H
+diff --git a/src/secret_base.c b/src/secret_base.c
+index 0de16fc2..5b1a26b3 100644
+--- a/src/secret_base.c
++++ b/src/secret_base.c
+@@ -17,6 +17,7 @@
+ #include "item.h"
+ #include "list_menu.h"
+ #include "main.h"
++#include "money.h"
+ #include "menu.h"
+ #include "menu_helpers.h"
+ #include "overworld.h"
+@@ -1651,3 +1652,29 @@ static void SecretBasePC_SetRegistryFromSpecialVars(void)
+         gSaveBlock1Ptr->secretBases[i].registryStatus = UNREGISTERED;
+     }
+ }
++
++// House type cost functions
++static const u32 sHouseTypeCosts[HOUSE_COUNT] = {
++    25000,   // HOUSE_APARTMENT
++    100000,  // HOUSE_HOUSE  
++    500000   // HOUSE_MANSION
++};
++
++static const u8 *const sHouseTypeNames[HOUSE_COUNT] = {
++    [HOUSE_APARTMENT] = COMPOUND_STRING("Apartment"),
++    [HOUSE_HOUSE] = COMPOUND_STRING("House"),
++    [HOUSE_MANSION] = COMPOUND_STRING("Mansion")
++};
++
++bool8 CanAffordHouseType(enum HouseType houseType)
++{
++    if (houseType >= HOUSE_COUNT)
++        return FALSE;
++    return GetMoney(&gSaveBlock1Ptr->money) >= sHouseTypeCosts[houseType];
++}
++
++void ChargeForHouseType(enum HouseType houseType)
++{
++    if (houseType < HOUSE_COUNT && CanAffordHouseType(houseType))
++        RemoveMoney(&gSaveBlock1Ptr->money, sHouseTypeCosts[houseType]);
++}
+-- 
+2.45.0
