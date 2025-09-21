@@ -207,6 +207,12 @@
 #define FLAG_DECORATION_12                   0xB9
 #define FLAG_DECORATION_13                   0xBA
 #define FLAG_DECORATION_14                   0xBB
+#define FLAG_DECORATION_15                   0xBC
+#define FLAG_DECORATION_16                   0xBD
+#define FLAG_DECORATION_17                   0xBE
+#define FLAG_DECORATION_18                   0xBF
+#define FLAG_DECORATION_19                   0xC0
+#define FLAG_DECORATION_20                   0xC1
 #define FLAG_RECEIVED_POKENAV                0xBC
 #define FLAG_DELIVERED_STEVEN_LETTER         0xBD
 #define FLAG_DEFEATED_WALLY_MAUVILLE         0xBE

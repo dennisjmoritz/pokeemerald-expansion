@@ -3115,31 +3115,103 @@ static u32 GetTotalEVCreditsFromBerries(void)
     return totalCredits;
 }
 
+// EV Editor storage functions
+static void DepositEVItemsToEditor(void)
+{
+    u8 i;
+    u16 quantity;
+    
+    // Deposit vitamins (give 10 EV points each = 10 credits each)
+    for (i = 0; i < ARRAY_COUNT(sEVItems); i++)
+    {
+        quantity = GetBagItemQuantity(sEVItems[i]);
+        if (quantity > 0)
+        {
+            gSaveBlock1Ptr->evEditorCredits[i] += quantity * 10; // 1 vitamin = 10 credits
+            RemoveBagItem(sEVItems[i], quantity);
+        }
+    }
+    
+    // Deposit EV berries (reduce 10 EV points each = 10 credits each)
+    for (i = 0; i < ARRAY_COUNT(sEVBerries); i++)
+    {
+        quantity = GetBagItemQuantity(sEVBerries[i]);
+        if (quantity > 0)
+        {
+            gSaveBlock1Ptr->evEditorCredits[i] += quantity * 10; // 1 berry = 10 credits
+            RemoveBagItem(sEVBerries[i], quantity);
+        }
+    }
+}
+
+static u16 GetTotalEVCreditsInEditor(void)
+{
+    u16 total = 0;
+    u8 i;
+    
+    for (i = 0; i < NUM_STATS; i++)
+    {
+        total += gSaveBlock1Ptr->evEditorCredits[i];
+    }
+    return total;
+}
+
+static bool8 HasEVItemsInBag(void)
+{
+    u8 i;
+    
+    // Check for vitamins
+    for (i = 0; i < ARRAY_COUNT(sEVItems); i++)
+    {
+        if (GetBagItemQuantity(sEVItems[i]) > 0)
+            return TRUE;
+    }
+    
+    // Check for EV berries
+    for (i = 0; i < ARRAY_COUNT(sEVBerries); i++)
+    {
+        if (GetBagItemQuantity(sEVBerries[i]) > 0)
+            return TRUE;
+    }
+    
+    return FALSE;
+}
+
 void UseEVEditorDecoration(void)
 {
     if (IsDecorationInPlayerRoom(DECOR_EV_EDITOR))
     {
-        u32 berryCredits = GetTotalEVCreditsFromBerries();
+        u16 totalCredits = GetTotalEVCreditsInEditor();
         
-        if (berryCredits > 0)
+        if (totalCredits > 0)
         {
+            // Show stored credits and open basic training interface
+            ConvertIntToDecimalStringN(gStringVar1, totalCredits, STR_CONV_MODE_LEFT_ALIGN, 4);
             StringExpandPlaceholders(gStringVar4, 
-                _("EV EDITOR ready!\nBerry credits available: {STR_VAR_1}"));
-            ConvertIntToDecimalStringN(gStringVar1, berryCredits, STR_CONV_MODE_LEFT_ALIGN, 3);
+                _("EV EDITOR\nStored credits: {STR_VAR_1}\nSelect POKéMON to train?"));
+            
+            // TODO: This would open party menu followed by stat selection
+            // For now, show training interface is available
+        }
+        else if (HasEVItemsInBag())
+        {
+            // Offer to deposit items
+            StringExpandPlaceholders(gStringVar4, 
+                _("Deposit vitamins and EV\nberries for training credits?"));
+            
+            // Auto-deposit for demonstration
+            DepositEVItemsToEditor();
+            totalCredits = GetTotalEVCreditsInEditor();
+            ConvertIntToDecimalStringN(gStringVar1, totalCredits, STR_CONV_MODE_LEFT_ALIGN, 4);
+            StringExpandPlaceholders(gStringVar4, 
+                _("Deposited items!\nTotal credits: {STR_VAR_1}"));
         }
         else
         {
             StringExpandPlaceholders(gStringVar4, 
-                _("EV EDITOR needs EV berries\nfor credits to train POKéMON!"));
+                _("EV EDITOR ready!\nBring vitamins or EV berries\nto deposit for training."));
         }
         
         DisplayItemMessageOnField(0, gStringVar4, NULL);
-        
-        // TODO: Open party selection menu followed by EV editing interface
-        // This would allow players to:
-        // - Select a Pokemon from party
-        // - Choose which stat to modify
-        // - Use berry credits or vitamins to adjust EVs
-        // - Show current EV distribution
     }
 }

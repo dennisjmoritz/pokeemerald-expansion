@@ -1104,14 +1104,15 @@ struct SaveBlock1
     /*0x2735*/ struct BerryTree playerBerryPatch; // Berry patch decoration data
     /*0x273B*/ struct BoxPokemon playerEggIncubator; // Egg incubator decoration data
     /*0x27A3*/ u32 eggIncubatorSteps; // Steps for incubated egg
-    /*0x27A7*/ u8 decorationDesks[10];
-    /*0x27B1*/ u8 decorationChairs[10];
-    /*0x27BB*/ u8 decorationPlants[10];
-    /*0x27C5*/ u8 decorationOrnaments[30];
-    /*0x27E3*/ u8 decorationMats[30];
-    /*0x2801*/ u8 decorationPosters[10];
-    /*0x280B*/ u8 decorationDolls[40];
-    /*0x2833*/ u8 decorationCushions[10];
+    /*0x27A7*/ u16 evEditorCredits[NUM_STATS]; // EV Editor stored credits per stat
+    /*0x27B3*/ u8 decorationDesks[10];
+    /*0x27BD*/ u8 decorationChairs[10];
+    /*0x27C7*/ u8 decorationPlants[10];
+    /*0x27D1*/ u8 decorationOrnaments[30];
+    /*0x27EF*/ u8 decorationMats[30];
+    /*0x280D*/ u8 decorationPosters[10];
+    /*0x2817*/ u8 decorationDolls[40];
+    /*0x283F*/ u8 decorationCushions[10];
     /*0x27CC*/ TVShow tvShows[TV_SHOWS_COUNT];
     /*0x27CA*/ //u8 padding4[2];
     /*0x2B50*/ PokeNews pokeNews[POKE_NEWS_COUNT];
