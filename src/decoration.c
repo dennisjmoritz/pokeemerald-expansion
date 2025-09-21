@@ -2782,17 +2782,15 @@ static void TossDecoration(u8 taskId)
 
 // House type cost system implementation
 static const u32 sHouseTypeCosts[] = {
-    [HOUSE_TYPE_BASIC]   = 0,      // Basic house is free
-    [HOUSE_TYPE_COZY]    = 50000,  // Cozy house costs 50,000
-    [HOUSE_TYPE_LUXURY]  = 150000, // Luxury house costs 150,000
-    [HOUSE_TYPE_MODERN]  = 250000, // Modern house costs 250,000
+    [HOUSE_TYPE_APARTMENT] = 0,      // Apartment is free (basic starter)
+    [HOUSE_TYPE_HOUSE]     = 100000, // House costs 100,000 (mid-tier)
+    [HOUSE_TYPE_MANSION]   = 500000, // Mansion costs 500,000 (premium)
 };
 
 static const u8 sHouseTypeNames[][16] = {
-    [HOUSE_TYPE_BASIC]   = _("BASIC"),
-    [HOUSE_TYPE_COZY]    = _("COZY"),
-    [HOUSE_TYPE_LUXURY]  = _("LUXURY"),
-    [HOUSE_TYPE_MODERN]  = _("MODERN"),
+    [HOUSE_TYPE_APARTMENT] = _("APARTMENT"),
+    [HOUSE_TYPE_HOUSE]     = _("HOUSE"),
+    [HOUSE_TYPE_MANSION]   = _("MANSION"),
 };
 
 u32 GetHouseTypeCost(u8 houseType)

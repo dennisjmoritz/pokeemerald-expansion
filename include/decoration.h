@@ -42,10 +42,9 @@ enum DecorationCategory
 
 enum HouseType
 {
-    HOUSE_TYPE_BASIC,
-    HOUSE_TYPE_COZY,
-    HOUSE_TYPE_LUXURY,
-    HOUSE_TYPE_MODERN,
+    HOUSE_TYPE_APARTMENT,
+    HOUSE_TYPE_HOUSE,
+    HOUSE_TYPE_MANSION,
     HOUSE_TYPE_COUNT,
 };
 
