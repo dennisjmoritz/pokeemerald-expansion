@@ -77,6 +77,7 @@ u8 AddDecorationIconObject(u8 decor, s16 x, s16 y, u8 priority, u16 tilesTag, u1
 u32 GetHouseTypeCost(u8 houseType);
 bool8 CanAffordHouseType(u8 houseType);
 void ChargeForHouseType(u8 houseType);
+u8 GetHouseTypeDecorationLimit(u8 houseType);
 void ShowHouseTypeMenu(u8 taskId);
 
 // Decoration interaction functions

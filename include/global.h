@@ -1101,14 +1101,15 @@ struct SaveBlock1
     /*0x271C*/ u8 playerRoomDecorations[DECOR_MAX_PLAYERS_HOUSE];
     /*0x2728*/ u8 playerRoomDecorationPositions[DECOR_MAX_PLAYERS_HOUSE];
     /*0x2734*/ u8 playerHouseType;
-    /*0x2735*/ u8 decorationDesks[10];
-    /*0x273F*/ u8 decorationChairs[10];
-    /*0x2749*/ u8 decorationPlants[10];
-    /*0x2753*/ u8 decorationOrnaments[30];
-    /*0x2771*/ u8 decorationMats[30];
-    /*0x278F*/ u8 decorationPosters[10];
-    /*0x2799*/ u8 decorationDolls[40];
-    /*0x27C1*/ u8 decorationCushions[10];
+    /*0x2735*/ struct BerryTree playerBerryPatch; // Berry patch decoration data
+    /*0x273B*/ u8 decorationDesks[10];
+    /*0x2745*/ u8 decorationChairs[10];
+    /*0x274F*/ u8 decorationPlants[10];
+    /*0x2759*/ u8 decorationOrnaments[30];
+    /*0x2777*/ u8 decorationMats[30];
+    /*0x2795*/ u8 decorationPosters[10];
+    /*0x279F*/ u8 decorationDolls[40];
+    /*0x27C7*/ u8 decorationCushions[10];
     /*0x27CC*/ TVShow tvShows[TV_SHOWS_COUNT];
     /*0x27CA*/ //u8 padding4[2];
     /*0x2B50*/ PokeNews pokeNews[POKE_NEWS_COUNT];

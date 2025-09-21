@@ -23,6 +23,8 @@
 #include "metatile_behavior.h"
 #include "money.h"
 #include "move_relearner.h"
+#include "berry.h"
+#include "random.h"
 #include "daycare.h"
 #include "party_menu.h"
 #include "pokemon.h"
@@ -41,6 +43,7 @@
 #include "tv.h"
 #include "constants/decorations.h"
 #include "constants/event_objects.h"
+#include "constants/items.h"
 #include "constants/songs.h"
 #include "constants/region_map_sections.h"
 #include "constants/metatile_labels.h"
@@ -2782,9 +2785,15 @@ static void TossDecoration(u8 taskId)
 
 // House type cost system implementation
 static const u32 sHouseTypeCosts[] = {
-    [HOUSE_TYPE_APARTMENT] = 0,      // Apartment is free (basic starter)
+    [HOUSE_TYPE_APARTMENT] = 25000,  // Apartment costs 25,000 (starter tier)
     [HOUSE_TYPE_HOUSE]     = 100000, // House costs 100,000 (mid-tier)
     [HOUSE_TYPE_MANSION]   = 500000, // Mansion costs 500,000 (premium)
+};
+
+static const u8 sHouseTypeDecorationLimits[] = {
+    [HOUSE_TYPE_APARTMENT] = 6,   // Apartments can hold 6 decorations
+    [HOUSE_TYPE_HOUSE]     = 12,  // Houses can hold 12 decorations (current max)
+    [HOUSE_TYPE_MANSION]   = 20,  // Mansions can hold 20 decorations
 };
 
 static const u8 sHouseTypeNames[][16] = {
@@ -2815,6 +2824,22 @@ void ChargeForHouseType(u8 houseType)
     }
 }
 
+u8 GetHouseTypeDecorationLimit(u8 houseType)
+{
+    if (houseType >= HOUSE_TYPE_COUNT)
+        return DECOR_MAX_PLAYERS_HOUSE; // Default to current max
+    return sHouseTypeDecorationLimits[houseType];
+}
+
+// Helper function to convert berry type to item ID (replicating static function from berry.c)
+static u16 DecorationBerryTypeToItemId(u8 berryType)
+{
+    // Berry types are 1-indexed, items are 0-indexed relative to FIRST_BERRY_INDEX
+    if (berryType == 0)
+        return ITEM_ORAN_BERRY; // Default
+    return (berryType - 1) + ITEM_CHERI_BERRY; // CHERI is first berry item
+}
+
 // Decoration interaction functions
 bool8 IsDecorationInPlayerRoom(u8 decorationId)
 {
@@ -2842,13 +2867,59 @@ void UseBerryPatchDecoration(void)
 {
     if (IsDecorationInPlayerRoom(DECOR_BERRY_PATCH))
     {
-        // Simple berry giving - award a random berry
-        u16 berryItems[] = {ITEM_ORAN_BERRY, ITEM_PECHA_BERRY, ITEM_CHESTO_BERRY, ITEM_RAWST_BERRY};
-        u16 berryToGive = berryItems[Random() % ARRAY_COUNT(berryItems)];
-        AddBagItem(berryToGive, 1);
+        struct BerryTree *berryPatch = &gSaveBlock1Ptr->playerBerryPatch;
         
-        StringCopy(gStringVar1, ItemId_GetName(berryToGive));
-        StringExpandPlaceholders(gStringVar4, gText_FoundOneItem);
+        // Check if berry is ready to harvest
+        if (berryPatch->berry != 0 && berryPatch->stage >= 4)
+        {
+            // Harvest berries
+            u16 berryItem = DecorationBerryTypeToItemId(berryPatch->berry);
+            u8 yield = berryPatch->berryYield;
+            if (yield == 0) yield = 2; // Minimum yield
+            
+            AddBagItem(berryItem, yield);
+            StringCopy(gStringVar1, ItemId_GetName(berryItem));
+            ConvertIntToDecimalStringN(gStringVar2, yield, STR_CONV_MODE_LEFT_ALIGN, 2);
+            StringExpandPlaceholders(gStringVar4, _("Harvested {STR_VAR_2} {STR_VAR_1}!"));
+            
+            // Clear the berry patch
+            berryPatch->berry = 0;
+            berryPatch->stage = 0;
+            berryPatch->berryYield = 0;
+            berryPatch->minutesUntilNextStage = 0;
+        }
+        else if (berryPatch->berry != 0)
+        {
+            // Show growth status
+            const struct Berry *berry = GetBerryInfo(berryPatch->berry);
+            StringCopy(gStringVar1, berry->name);
+            
+            if (berryPatch->stage == 1)
+                StringExpandPlaceholders(gStringVar4, _("The {STR_VAR_1} sprout is growing."));
+            else if (berryPatch->stage == 2)
+                StringExpandPlaceholders(gStringVar4, _("The {STR_VAR_1} plant is growing taller."));
+            else if (berryPatch->stage == 3)
+                StringExpandPlaceholders(gStringVar4, _("The {STR_VAR_1} plant is flowering."));
+        }
+        else
+        {
+            // Empty patch - ask to plant a berry
+            StringExpandPlaceholders(gStringVar4, _("Plant a BERRY in the patch?"));
+            // This would normally open berry selection menu
+            // For now, plant a random berry as demo
+            u8 berryTypes[] = {1, 2, 3, 4}; // CHERI, CHESTO, PECHA, RAWST (IDs 1-4)
+            u8 berryType = berryTypes[Random() % ARRAY_COUNT(berryTypes)];
+            
+            berryPatch->berry = berryType;
+            berryPatch->stage = 1;
+            berryPatch->minutesUntilNextStage = 240; // 4 hours to next stage
+            berryPatch->berryYield = 3; // Default yield
+            
+            const struct Berry *berry = GetBerryInfo(berryType);
+            StringCopy(gStringVar1, berry->name);
+            StringExpandPlaceholders(gStringVar4, _("Planted a {STR_VAR_1} BERRY!"));
+        }
+        
         DisplayItemMessageOnField(0, gStringVar4, NULL);
     }
 }
@@ -2906,6 +2977,15 @@ static const u16 sEVItems[] = {
     ITEM_CARBOS,     // Speed EV item
 };
 
+static const u16 sEVBerries[] = {
+    ITEM_POMEG_BERRY,  // HP EV reducing berry
+    ITEM_KELPSY_BERRY, // Attack EV reducing berry
+    ITEM_QUALOT_BERRY, // Defense EV reducing berry
+    ITEM_HONDEW_BERRY, // Sp. Attack EV reducing berry
+    ITEM_GREPA_BERRY,  // Sp. Defense EV reducing berry
+    ITEM_TAMATO_BERRY, // Speed EV reducing berry
+};
+
 static const u8 sEVStatNames[][12] = {
     _("HP"),
     _("ATTACK"),
@@ -2915,17 +2995,45 @@ static const u8 sEVStatNames[][12] = {
     _("SPEED"),
 };
 
+static u32 GetTotalEVCreditsFromBerries(void)
+{
+    u32 totalCredits = 0;
+    u8 i;
+    
+    // Count EV berries in bag as credits (each berry = 10 EV points = 1 vitamin equivalent)
+    for (i = 0; i < ARRAY_COUNT(sEVBerries); i++)
+    {
+        totalCredits += GetBagItemQuantity(sEVBerries[i]) / 1; // 1 berry = 1 credit
+    }
+    
+    return totalCredits;
+}
+
 void UseEVEditorDecoration(void)
 {
     if (IsDecorationInPlayerRoom(DECOR_EV_EDITOR))
     {
-        // For now, simple implementation - open party menu to select Pokemon
-        // Real implementation would need a custom UI
-        StringExpandPlaceholders(gStringVar4, 
-            _("Choose a POKéMON to train\nwith the EV EDITOR."));
+        u32 berryCredits = GetTotalEVCreditsFromBerries();
+        
+        if (berryCredits > 0)
+        {
+            StringExpandPlaceholders(gStringVar4, 
+                _("EV EDITOR ready!\nBerry credits available: {STR_VAR_1}"));
+            ConvertIntToDecimalStringN(gStringVar1, berryCredits, STR_CONV_MODE_LEFT_ALIGN, 3);
+        }
+        else
+        {
+            StringExpandPlaceholders(gStringVar4, 
+                _("EV EDITOR needs EV berries\nfor credits to train POKéMON!"));
+        }
+        
         DisplayItemMessageOnField(0, gStringVar4, NULL);
         
-        // This would normally trigger a party selection menu
-        // followed by EV editing interface similar to debug system
+        // TODO: Open party selection menu followed by EV editing interface
+        // This would allow players to:
+        // - Select a Pokemon from party
+        // - Choose which stat to modify
+        // - Use berry credits or vitamins to adjust EVs
+        // - Show current EV distribution
     }
 }
