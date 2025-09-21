@@ -472,28 +472,28 @@
       "x": 40,
       "y": 11,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_RED_CAVE2_2"
+      "secret_base_id": "SECRET_BASE_APARTMENT1_1"
     },
     {
       "type": "secret_base",
       "x": 18,
       "y": 13,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_RED_CAVE3_2"
+      "secret_base_id": "SECRET_BASE_APARTMENT1_1"
     },
     {
       "type": "secret_base",
       "x": 43,
       "y": 7,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_TREE1_2"
+      "secret_base_id": "SECRET_BASE_HOUSE1_1"
     },
     {
       "type": "secret_base",
       "x": 42,
       "y": 7,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_TREE2_2"
+      "secret_base_id": "SECRET_BASE_HOUSE1_1"
     },
     {
       "type": "sign",

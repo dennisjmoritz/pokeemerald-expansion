@@ -1,8 +1,7 @@
 {
-  "id": "MAP_SECRET_BASE_SHRUB1",
-  "name": "SecretBase_Shrub1",
-  "shared_scripts_map": "SecretBase",
-  "layout": "LAYOUT_SECRET_BASE_SHRUB1",
+  "id": "MAP_SECRET_BASE_MANSION1",
+  "name": "SecretBase_Mansion1",
+  "layout": "LAYOUT_SECRET_BASE_MANSION1",
   "music": "MUS_FORTREE",
   "region_map_section": "MAPSEC_SECRET_BASE",
   "requires_flash": false,
@@ -14,20 +13,8 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_FRONTIER",
   "connections": null,
+  "shared_scripts_map": "SecretBase",
   "object_events": [
-    {
-      "graphics_id": "OBJ_EVENT_GFX_VAR_F",
-      "x": 5,
-      "y": 2,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "SecretBase_EventScript_RecordMixTrainer",
-      "flag": "FLAG_HIDE_SECRET_BASE_TRAINER"
-    },
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 0,

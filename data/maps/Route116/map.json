@@ -470,14 +470,14 @@
       "x": 71,
       "y": 4,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE1_1"
+      "secret_base_id": "SECRET_BASE_APARTMENT1_1"
     },
     {
       "type": "secret_base",
       "x": 79,
       "y": 11,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE2_1"
+      "secret_base_id": "SECRET_BASE_APARTMENT1_1"
     },
     {
       "type": "sign",
@@ -500,14 +500,14 @@
       "x": 56,
       "y": 6,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE3_2"
+      "secret_base_id": "SECRET_BASE_APARTMENT1_2"
     },
     {
       "type": "secret_base",
       "x": 55,
       "y": 15,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE4_2"
+      "secret_base_id": "SECRET_BASE_APARTMENT1_2"
     },
     {
       "type": "hidden_item",

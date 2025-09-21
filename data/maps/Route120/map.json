@@ -778,49 +778,49 @@
       "x": 28,
       "y": 62,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE3_1"
+      "secret_base_id": "SECRET_BASE_APARTMENT1_1"
     },
     {
       "type": "secret_base",
       "x": 30,
       "y": 62,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE4_1"
+      "secret_base_id": "SECRET_BASE_APARTMENT1_1"
     },
     {
       "type": "secret_base",
       "x": 26,
       "y": 10,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_SHRUB3_2"
+      "secret_base_id": "SECRET_BASE_MANSION1_1"
     },
     {
       "type": "secret_base",
       "x": 29,
       "y": 85,
       "elevation": 5,
-      "secret_base_id": "SECRET_BASE_SHRUB4_2"
+      "secret_base_id": "SECRET_BASE_MANSION1_1"
     },
     {
       "type": "secret_base",
       "x": 18,
       "y": 12,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE2_3"
+      "secret_base_id": "SECRET_BASE_APARTMENT1_1"
     },
     {
       "type": "secret_base",
       "x": 38,
       "y": 54,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_SHRUB1_3"
+      "secret_base_id": "SECRET_BASE_MANSION1_1"
     },
     {
       "type": "secret_base",
       "x": 31,
       "y": 23,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_SHRUB2_3"
+      "secret_base_id": "SECRET_BASE_MANSION1_1"
     },
     {
       "type": "hidden_item",
@@ -859,7 +859,7 @@
       "x": 5,
       "y": 76,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_SHRUB1_4"
+      "secret_base_id": "SECRET_BASE_MANSION1_1"
     }
   ]
 }

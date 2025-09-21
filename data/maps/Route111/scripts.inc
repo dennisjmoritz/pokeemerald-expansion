@@ -719,3 +719,16 @@ Route111_Text_TrainerHillSign:
 	.string "“Scale the heights, you hot-blooded\n"
 	.string "TRAINERS!”$"
 
+Route111_EventScript_SecretPowerMan::
+	lock
+	faceplayer
+	msgbox Route111_Text_UsedToHaveCoolTM, MSGBOX_DEFAULT
+	release
+	end
+
+Route111_Text_UsedToHaveCoolTM:
+	.string "I used to have a cool TM, but I gave\n"
+	.string "it away to someone who needed it more.\p"
+	.string "Now I just hang out here and think\n"
+	.string "about HOUSES!$"
+

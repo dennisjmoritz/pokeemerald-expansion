@@ -1182,7 +1182,7 @@ gTVTodaysRivalTrainerText07::
 
 gTVTodaysRivalTrainerText08::
 	.string "Today's rival TRAINER is {STR_VAR_1},\n"
-	.string "who's in a SECRET BASE now.\p"
+	.string "who's in a HOUSE now.\p"
 	.string "{STR_VAR_1} has so far registered\n"
 	.string "{STR_VAR_2} POKéMON in the POKéDEX.$"
 

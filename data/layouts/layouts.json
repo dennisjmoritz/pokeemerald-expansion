@@ -1962,14 +1962,14 @@
       "blockdata_filepath": "data/layouts/AbandonedShip_Underwater2/map.bin"
     },
     {
-      "id": "LAYOUT_SECRET_BASE_RED_CAVE1",
-      "name": "SecretBase_RedCave1_Layout",
+      "id": "LAYOUT_SECRET_BASE_APARTMENT1",
+      "name": "SecretBase_Apartment1_Layout",
       "width": 11,
       "height": 9,
       "primary_tileset": "gTileset_SecretBase",
       "secondary_tileset": "gTileset_SecretBaseRedCave",
-      "border_filepath": "data/layouts/SecretBase_RedCave1/border.bin",
-      "blockdata_filepath": "data/layouts/SecretBase_RedCave1/map.bin"
+      "border_filepath": "data/layouts/SecretBase_Apartment1/border.bin",
+      "blockdata_filepath": "data/layouts/SecretBase_Apartment1/map.bin"
     },
     {
       "id": "LAYOUT_SECRET_BASE_BROWN_CAVE1",
@@ -2002,24 +2002,24 @@
       "blockdata_filepath": "data/layouts/SecretBase_YellowCave1/map.bin"
     },
     {
-      "id": "LAYOUT_SECRET_BASE_TREE1",
-      "name": "SecretBase_Tree1_Layout",
+      "id": "LAYOUT_SECRET_BASE_HOUSE1",
+      "name": "SecretBase_House1_Layout",
       "width": 11,
       "height": 9,
       "primary_tileset": "gTileset_SecretBase",
       "secondary_tileset": "gTileset_SecretBaseTree",
-      "border_filepath": "data/layouts/SecretBase_Tree1/border.bin",
-      "blockdata_filepath": "data/layouts/SecretBase_Tree1/map.bin"
+      "border_filepath": "data/layouts/SecretBase_House1/border.bin",
+      "blockdata_filepath": "data/layouts/SecretBase_House1/map.bin"
     },
     {
-      "id": "LAYOUT_SECRET_BASE_SHRUB1",
-      "name": "SecretBase_Shrub1_Layout",
+      "id": "LAYOUT_SECRET_BASE_MANSION1",
+      "name": "SecretBase_Mansion1_Layout",
       "width": 11,
       "height": 9,
       "primary_tileset": "gTileset_SecretBase",
       "secondary_tileset": "gTileset_SecretBaseShrub",
-      "border_filepath": "data/layouts/SecretBase_Shrub1/border.bin",
-      "blockdata_filepath": "data/layouts/SecretBase_Shrub1/map.bin"
+      "border_filepath": "data/layouts/SecretBase_Mansion1/border.bin",
+      "blockdata_filepath": "data/layouts/SecretBase_Mansion1/map.bin"
     },
     {
       "id": "LAYOUT_SECRET_BASE_RED_CAVE2",

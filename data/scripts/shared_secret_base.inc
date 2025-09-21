@@ -11,7 +11,6 @@ SecretBase_OnWarp:
 
 SecretBase_OnTransition:
 	call SecretBase_EventScript_SetDecorationFlags
-	special SetSecretBaseOwnerGfxId
 	special InitSecretBaseVars
 	end
 
@@ -26,10 +25,8 @@ SecretBase_OnResume:
 SecretBase_EventScript_PC::
 	lockall
 	playse SE_PC_LOGIN
-	message SecretBase_Text_BootUpPC
+	msgbox SecretBase_Text_BootUpPC, MSGBOX_DEFAULT
 	dofieldeffect FLDEFF_PCTURN_ON
-	waitstate
-	waitmessage
 	waitbuttonpress
 	playse SE_SELECT
 	goto SecretBase_EventScript_PCShowMainMenu
@@ -38,8 +35,7 @@ SecretBase_EventScript_PC::
 SecretBase_EventScript_PCShowMainMenu::
 	message SecretBase_Text_WhatWouldYouLikeToDo
 	waitmessage
-	goto_if_set FLAG_SECRET_BASE_REGISTRY_ENABLED, SecretBase_EventScript_PCMainMenuWithRegister
-	goto SecretBase_EventScript_PCMainMenuWithoutRegister
+	goto SecretBase_EventScript_PCMainMenu
 	end
 
 SecretBase_EventScript_PCCancel::
@@ -47,17 +43,7 @@ SecretBase_EventScript_PCCancel::
 	goto SecretBase_EventScript_PCShowMainMenu
 	end
 
-SecretBase_EventScript_PCMainMenuWithRegister::
-	multichoice 0, 0, MULTI_BASE_PC_WITH_REGISTRY, FALSE
-	switch VAR_RESULT
-	case 0, SecretBase_EventScript_PCDecorationMenu
-	case 1, SecretBase_EventScript_PCPackUp
-	case 2, SecretBase_EventScript_PCRegistryMenu
-	case 3, SecretBase_EventScript_PCTurnOff
-	case MULTI_B_PRESSED, SecretBase_EventScript_PCTurnOff
-	end
-
-SecretBase_EventScript_PCMainMenuWithoutRegister::
+SecretBase_EventScript_PCMainMenu::
 	multichoice 0, 0, MULTI_BASE_PC_NO_REGISTRY, FALSE
 	switch VAR_RESULT
 	case 0, SecretBase_EventScript_PCDecorationMenu
@@ -78,101 +64,13 @@ SecretBase_EventScript_PCDecorationMenu::
 	special ShowSecretBaseDecorationMenu
 	end
 
-SecretBase_EventScript_PCRegistryMenu::
-	special ShowSecretBaseRegistryMenu
-	end
-
-SecretBase_EventScript_RecordMixingPC::
-	lockall
-	message SecretBase_Text_BootUpPC
-	playse SE_PC_LOGIN
-	dofieldeffect FLDEFF_PCTURN_ON
-	waitstate
-	waitmessage
-	waitbuttonpress
-	playse SE_SELECT
-	goto SecretBase_EventScript_PCRegisterMenu
-	end
-
-SecretBase_EventScript_PCRegisterMenu::
-	message SecretBase_Text_WhatWouldYouLikeToDo
-	waitmessage
-	multichoice 0, 0, MULTI_REGISTER_MENU, FALSE
-	switch VAR_RESULT
-	case 0, SecretBase_EventScript_PCRegister
-	case 1, SecretBase_EventScript_PCRegistryMenu
-	case 2, SecretBase_EventScript_PCRegistryInfo
-	case 3, SecretBase_EventScript_PCTurnOff
-	case MULTI_B_PRESSED, SecretBase_EventScript_PCTurnOff
-	end
-
-SecretBase_EventScript_ShowRegisterMenu::
-	lockall
-	goto SecretBase_EventScript_PCRegisterMenu
-	end
-
-SecretBase_EventScript_PCRegister::
-	special GetCurSecretBaseRegistrationValidity
-	goto_if_eq VAR_RESULT, 1, SecretBase_EventScript_AlreadyRegistered
-	goto_if_eq VAR_RESULT, 2, SecretBase_EventScript_CantRegisterTooManyBases
-	special CopyCurSecretBaseOwnerName_StrVar1
-	msgbox SecretBase_Text_WantToRegisterSecretBase, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_PCRegisterMenu
-	msgbox SecretBase_Text_RegistrationCompleted, MSGBOX_SIGN
-	special ToggleCurSecretBaseRegistry
-	special DoSecretBasePCTurnOffEffect
-	releaseall
-	end
-
-SecretBase_EventScript_AlreadyRegistered::
-	msgbox SecretBase_Text_AlreadyRegisteredDelete, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_PCRegisterMenu
-	msgbox SecretBase_Text_DataUnregistered, MSGBOX_SIGN
-	special ToggleCurSecretBaseRegistry
-	special DoSecretBasePCTurnOffEffect
-	releaseall
-	end
-
-SecretBase_EventScript_CantRegisterTooManyBases::
-	msgbox SecretBase_Text_TooManyBasesDeleteSome, MSGBOX_SIGN
-	special DoSecretBasePCTurnOffEffect
-	closemessage
-	releaseall
-	end
-
-SecretBase_EventScript_PCRegistryInfo::
-	msgbox SecretBase_Text_RegistryInfo, MSGBOX_DEFAULT
-	goto SecretBase_EventScript_PCRegisterMenu
-	end
-
 SecretBase_EventScript_PCTurnOff::
 	special DoSecretBasePCTurnOffEffect
 	closemessage
 	releaseall
 	end
 
-@ Unused
-SecretBase_EventScript_Poster::
-	special CheckInteractedWithFriendsPosterDecor
-	end
-
-@ Unused
-SecretBase_EventScript_FurnitureBottom::
-	special CheckInteractedWithFriendsFurnitureBottom
-	end
-
-@ Unused
-SecretBase_EventScript_FurnitureMiddle::
-	special CheckInteractedWithFriendsFurnitureMiddle
-	end
-
-@ Unused
-SecretBase_EventScript_FurnitureTop::
-	special CheckInteractedWithFriendsFurnitureTop
-	end
-
 SecretBase_EventScript_SandOrnament::
-	special CheckInteractedWithFriendsSandOrnament
 	dofieldeffect FLDEFF_SAND_PILLAR
 	waitstate
 	end
@@ -202,14 +100,16 @@ SecretBase_EventScript_SkittyTV::
 	end
 
 SecretBase_Text_SmallIndentInWall::
-	.string "There's a small indent in the wall.$"
+	.string "Look's like it migh be for sale.$"
 
-SecretBase_Text_IndentUseSecretPower::
-	.string "There's a small indent in the wall.\p"
-	.string "Use the SECRET POWER?$"
+SecretBase_Text_IndentUseHouseKey::
+	.string "Use the HOUSE KEY?$"
 
 SecretBase_Text_DiscoveredSmallCavern::
-	.string "Discovered a small cavern!$"
+	.string "Seems like a nice place!$"
 
 SecretBase_Text_WantToMakeYourSecretBaseHere:
-	.string "Want to make your SECRET BASE here?$"
+	.string "Want to make your HOUSE here?$"
+
+ping:
+	.string "ping$"

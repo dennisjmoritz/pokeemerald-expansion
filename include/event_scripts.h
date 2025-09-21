@@ -609,9 +609,6 @@ extern const u8 BattlePyramid_TrainerBattle[];
 extern const u8 BattlePyramid_FindItemBall[];
 
 // fldeff misc
-extern const u8 SecretBase_EventScript_CaveUseSecretPower[];
-extern const u8 SecretBase_EventScript_TreeUseSecretPower[];
-extern const u8 SecretBase_EventScript_ShrubUseSecretPower[];
 
 // trainer hill
 extern const u8 TrainerHill_EventScript_TrainerBattle[];
