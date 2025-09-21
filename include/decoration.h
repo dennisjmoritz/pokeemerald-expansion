@@ -86,5 +86,6 @@ void UseMoveRelearnerDecoration(void);
 void UseBerryPatchDecoration(void);
 void UseEggIncubatorDecoration(void);
 void UseEVEditorDecoration(void);
+void UpdateEggIncubator(void);
 
 #endif //GUARD_DECORATION_H

@@ -2840,6 +2840,76 @@ static u16 DecorationBerryTypeToItemId(u8 berryType)
     return (berryType - 1) + ITEM_CHERI_BERRY; // CHERI is first berry item
 }
 
+// Egg incubator helper functions
+static bool8 IsEggInIncubator(void)
+{
+    return GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_SPECIES) != SPECIES_NONE;
+}
+
+static bool8 CanDepositEggInIncubator(struct Pokemon *mon)
+{
+    return GetMonData(mon, MON_DATA_IS_EGG) && !GetMonData(mon, MON_DATA_SANITY_IS_BAD_EGG);
+}
+
+static void DepositEggInIncubator(struct Pokemon *mon)
+{
+    if (CanDepositEggInIncubator(mon) && !IsEggInIncubator())
+    {
+        // Store the egg in the incubator
+        gSaveBlock1Ptr->playerEggIncubator = mon->box;
+        gSaveBlock1Ptr->eggIncubatorSteps = 0;
+        
+        // Remove the egg from party
+        *mon = gPlayerParty[gPlayerPartyCount - 1];
+        ZeroMonData(&gPlayerParty[gPlayerPartyCount - 1]);
+        gPlayerPartyCount--;
+        CalculatePlayerPartyCount();
+    }
+}
+
+static bool8 WithdrawEggFromIncubator(void)
+{
+    if (IsEggInIncubator() && gPlayerPartyCount < PARTY_SIZE)
+    {
+        // Create Pokemon from stored egg
+        BoxMonToMon(&gSaveBlock1Ptr->playerEggIncubator, &gPlayerParty[gPlayerPartyCount]);
+        gPlayerPartyCount++;
+        CalculatePlayerPartyCount();
+        
+        // Clear the incubator
+        ZeroBoxMonData(&gSaveBlock1Ptr->playerEggIncubator);
+        gSaveBlock1Ptr->eggIncubatorSteps = 0;
+        
+        return TRUE;
+    }
+    return FALSE;
+}
+
+// Function to update egg incubator (called during step processing)
+void UpdateEggIncubator(void)
+{
+    if (IsDecorationInPlayerRoom(DECOR_EGG_INCUBATOR) && IsEggInIncubator())
+    {
+        u32 eggCycles;
+        
+        // Increment steps (incubator works 2x faster than normal walking)
+        gSaveBlock1Ptr->eggIncubatorSteps += 2;
+        
+        // Every 256 steps, reduce egg cycles (like daycare)
+        if (gSaveBlock1Ptr->eggIncubatorSteps >= 256)
+        {
+            gSaveBlock1Ptr->eggIncubatorSteps = 0;
+            
+            eggCycles = GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_FRIENDSHIP);
+            if (eggCycles > 0)
+            {
+                eggCycles--;
+                SetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_FRIENDSHIP, &eggCycles);
+            }
+        }
+    }
+}
+
 // Decoration interaction functions
 bool8 IsDecorationInPlayerRoom(u8 decorationId)
 {
@@ -2929,40 +2999,76 @@ void UseEggIncubatorDecoration(void)
 {
     if (IsDecorationInPlayerRoom(DECOR_EGG_INCUBATOR))
     {
-        u8 i;
-        u32 eggCycles;
-        u8 reducedCycles = 0;
-        
-        // Reduce egg cycles for all eggs in party
-        for (i = 0; i < gPlayerPartyCount; i++)
+        if (IsEggInIncubator())
         {
-            if (GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG) && 
-                !GetMonData(&gPlayerParty[i], MON_DATA_SANITY_IS_BAD_EGG))
+            // Show egg status and offer withdrawal
+            u32 eggCycles = GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_FRIENDSHIP);
+            u8 species = GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_SPECIES);
+            
+            if (eggCycles == 0)
             {
-                eggCycles = GetMonData(&gPlayerParty[i], MON_DATA_FRIENDSHIP);
-                if (eggCycles > 0)
+                // Egg is ready to hatch
+                StringExpandPlaceholders(gStringVar4, _("The EGG is ready to hatch!\nTake it from the incubator?"));
+            }
+            else
+            {
+                // Show progress
+                ConvertIntToDecimalStringN(gStringVar1, eggCycles, STR_CONV_MODE_LEFT_ALIGN, 3);
+                ConvertIntToDecimalStringN(gStringVar2, gSaveBlock1Ptr->eggIncubatorSteps, STR_CONV_MODE_LEFT_ALIGN, 4);
+                StringExpandPlaceholders(gStringVar4, 
+                    _("EGG cycles left: {STR_VAR_1}\nIncubator steps: {STR_VAR_2}\nTake the EGG out?"));
+            }
+            
+            // This would normally show a yes/no prompt
+            // For now, automatically withdraw if party has space
+            if (gPlayerPartyCount < PARTY_SIZE)
+            {
+                if (WithdrawEggFromIncubator())
                 {
-                    // Reduce by 5 cycles, minimum 1
-                    if (eggCycles >= 5)
-                        eggCycles -= 5;
-                    else
-                        eggCycles = 1;
-                    SetMonData(&gPlayerParty[i], MON_DATA_FRIENDSHIP, &eggCycles);
-                    reducedCycles++;
+                    StringExpandPlaceholders(gStringVar4, _("Retrieved the EGG from\nthe incubator!"));
                 }
             }
-        }
-        
-        if (reducedCycles > 0)
-        {
-            StringExpandPlaceholders(gStringVar4, 
-                _("The incubator warmed your\nEGGs, reducing hatch time!"));
+            else
+            {
+                StringExpandPlaceholders(gStringVar4, _("Your party is full!\nCannot take the EGG."));
+            }
         }
         else
         {
-            StringExpandPlaceholders(gStringVar4, 
-                _("You don't have any EGGs\nto incubate."));
+            // Empty incubator - check for eggs in party to deposit
+            bool8 hasEgg = FALSE;
+            u8 i;
+            
+            for (i = 0; i < gPlayerPartyCount; i++)
+            {
+                if (CanDepositEggInIncubator(&gPlayerParty[i]))
+                {
+                    hasEgg = TRUE;
+                    break;
+                }
+            }
+            
+            if (hasEgg)
+            {
+                StringExpandPlaceholders(gStringVar4, _("Place an EGG in the\nincubator for faster hatching?"));
+                
+                // For now, automatically deposit the first egg found
+                for (i = 0; i < gPlayerPartyCount; i++)
+                {
+                    if (CanDepositEggInIncubator(&gPlayerParty[i]))
+                    {
+                        DepositEggInIncubator(&gPlayerParty[i]);
+                        StringExpandPlaceholders(gStringVar4, _("Placed the EGG in the\nincubator!"));
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                StringExpandPlaceholders(gStringVar4, _("The incubator is empty.\nBring an EGG to incubate!"));
+            }
         }
+        
         DisplayItemMessageOnField(0, gStringVar4, NULL);
     }
 }

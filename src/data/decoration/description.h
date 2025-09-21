@@ -583,9 +583,9 @@ const u8 DecorDesc_BERRY_PATCH[] = _(
         "berries indoors.");
 
 const u8 DecorDesc_EGG_INCUBATOR[] = _(
-    "A warm device that\n"
-        "helps eggs hatch\n"
-        "faster.");
+    "A special device that\n"
+        "stores and incubates\n"
+        "eggs like a daycare.");
 
 const u8 DecorDesc_EV_EDITOR[] = _(
     "A training device\n"
