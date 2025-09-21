@@ -1,74 +1,117 @@
+From 920a39a0d8b0c0d8f8f8f8f8f8f8f8f8f8f8f8f8 Mon Sep 17 00:00:00 2001
+From: copilot <copilot@github.com>
+Subject: [PATCH] Add house pricing system with apartment/house/mansion tiers
+
+This patch adds a tiered house pricing system integrated into the secret
+base system where it properly belongs.
+
+Features:
+- Apartment: 25,000₽ (entry level)
+- House: 100,000₽ (mid-tier)
+- Mansion: 500,000₽ (premium)
+- Proper save data integration
+- Money validation functions
+
+Files modified:
+- include/global.h (save data structure)
+- include/secret_base.h (house type definitions)
+- src/secret_base.c (cost functions and validation)
+
+Apply this patch first before other decoration patches.
+---
+ include/global.h      |  1 +
+ include/secret_base.h | 12 ++++++++++++
+ src/secret_base.c     | 35 +++++++++++++++++++++++++++++++++++
+ 3 files changed, 48 insertions(+)
+
 diff --git a/include/global.h b/include/global.h
-index 1234567..8901234 100644
+index 1234567..abcdefg 100644
 --- a/include/global.h
 +++ b/include/global.h
-@@ -1100,6 +1100,7 @@ struct SaveBlock1
-     /*0x2730*/ u8 playerBerryPatch;
-     /*0x2731*/ u8 eggIncubatorSteps;
-     /*0x2732*/ u16 evEditorCredits[NUM_STATS];
-+    /*0x2734*/ u8 playerHouseType;
- } __attribute__((packed));
+@@ -986,6 +986,7 @@ struct SaveBlock1
+     /*0x83C*/ u8 filler_83C[0x124];
+     /*0x960*/ struct Mail mail[MAIL_COUNT];
+     /*0x838*/ struct WonderCardData wonderCard;
++    u8 playerHouseType; // 0 = apartment, 1 = house, 2 = mansion
+     // sizeof: 0x890
+ };
  
- extern struct SaveBlock1 *gSaveBlock1Ptr;
 diff --git a/include/secret_base.h b/include/secret_base.h
-index 1234567..8901234 100644
+index 1234567..abcdefg 100644
 --- a/include/secret_base.h
 +++ b/include/secret_base.h
-@@ -18,4 +18,16 @@ void TrySetCurSecretBaseIndex(void);
- void CheckPlayerHasSecretBase(void);
- void ToggleSecretBaseEntranceMetatile(void);
+@@ -76,6 +76,18 @@ struct SecretBase
+     /*0x81*/ u8 decorPos[DECOR_MAX_SECRET_BASE];
+ };
  
-+// House type system
++// House type system for secret bases
 +enum HouseType
 +{
-+    HOUSE_APARTMENT,
-+    HOUSE_HOUSE, 
-+    HOUSE_MANSION,
-+    NUM_HOUSE_TYPES
++    HOUSE_TYPE_APARTMENT,   // 25,000₽
++    HOUSE_TYPE_HOUSE,       // 100,000₽
++    HOUSE_TYPE_MANSION,     // 500,000₽
++    HOUSE_TYPE_COUNT
 +};
 +
-+// House type cost functions
-+bool8 CanAffordHouseType(u8 houseType);
-+void ChargeForHouseType(u8 houseType);
- #endif //GUARD_SECRET_BASE_H
++bool8 CanAffordHouseType(enum HouseType houseType);
++void ChargeForHouseType(enum HouseType houseType);
++
+ extern u8 gSelectedSecretBase;
+ extern struct SecretBaseParty gSecretBaseParty;
+ 
 diff --git a/src/secret_base.c b/src/secret_base.c
-index 1234567..8901234 100644
+index 1234567..abcdefg 100644
 --- a/src/secret_base.c
 +++ b/src/secret_base.c
-@@ -45,6 +45,7 @@
- #include "constants/songs.h"
+@@ -25,6 +25,7 @@
+ #include "trainer_pokemon_sprites.h"
+ #include "util.h"
  #include "constants/trainers.h"
 +#include "money.h"
  
- #define TAG_SCROLL_ARROW 5112
+ static void Task_ShowSecretBaseDecorationMenu(u8 taskId);
+ static void SecretBasePC_ShowDecorationMenu(void);
+@@ -72,6 +73,40 @@ static const u8 sSecretBasePCMenuActions_InSecretBase[] =
+     MENU_CANCEL
+ };
  
-@@ -1234,4 +1235,25 @@ void Function_Name(void)
- 
-     sInFriendSecretBase = FALSE;
- }
-+
-+// House type cost system
-+static const u32 sHouseTypeCosts[NUM_HOUSE_TYPES] = {
-+    [HOUSE_APARTMENT] = 25000,
-+    [HOUSE_HOUSE]     = 100000,
-+    [HOUSE_MANSION]   = 500000,
++// House type cost system - integrated into secret base system
++static const u32 sHouseTypeCosts[HOUSE_TYPE_COUNT] = 
++{
++    25000,   // Apartment
++    100000,  // House  
++    500000,  // Mansion
 +};
 +
-+bool8 CanAffordHouseType(u8 houseType)
++static const u8 *const sHouseTypeNames[HOUSE_TYPE_COUNT] =
 +{
-+    if (houseType >= NUM_HOUSE_TYPES)
++    _("APARTMENT"),
++    _("HOUSE"),
++    _("MANSION"),
++};
++
++bool8 CanAffordHouseType(enum HouseType houseType)
++{
++    if (houseType >= HOUSE_TYPE_COUNT)
 +        return FALSE;
-+    u32 cost = sHouseTypeCosts[houseType];
-+    return IsEnoughMoney(&gSaveBlock1Ptr->money, cost);
++    
++    return GetMoney(&gSaveBlock1Ptr->money) >= sHouseTypeCosts[houseType];
 +}
 +
-+void ChargeForHouseType(u8 houseType)
++void ChargeForHouseType(enum HouseType houseType)
 +{
-+    if (houseType >= NUM_HOUSE_TYPES)
++    if (houseType >= HOUSE_TYPE_COUNT)
 +        return;
-+    u32 cost = sHouseTypeCosts[houseType];
-+    if (IsEnoughMoney(&gSaveBlock1Ptr->money, cost))
++    
++    if (CanAffordHouseType(houseType))
 +    {
-+        RemoveMoney(&gSaveBlock1Ptr->money, cost);
++        RemoveMoney(&gSaveBlock1Ptr->money, sHouseTypeCosts[houseType]);
++        gSaveBlock1Ptr->playerHouseType = houseType;
 +    }
 +}
++
+ bool8 IsCurSecretBaseOwnedByAnotherPlayer(void)
+ {
+     u8 secretBaseId = VarGet(VAR_SECRET_BASE_INITIALIZED);
+-- 
+2.34.1
