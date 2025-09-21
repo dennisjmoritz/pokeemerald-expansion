@@ -35,7 +35,8 @@ SecretBase_EventScript_PC::
 SecretBase_EventScript_PCShowMainMenu::
 	message SecretBase_Text_WhatWouldYouLikeToDo
 	waitmessage
-	goto SecretBase_EventScript_PCMainMenu
+	goto_if_set FLAG_SECRET_BASE_REGISTRY_ENABLED, SecretBase_EventScript_PCMainMenuWithRegister
+	goto SecretBase_EventScript_PCMainMenuWithoutRegister
 	end
 
 SecretBase_EventScript_PCCancel::
@@ -43,7 +44,17 @@ SecretBase_EventScript_PCCancel::
 	goto SecretBase_EventScript_PCShowMainMenu
 	end
 
-SecretBase_EventScript_PCMainMenu::
+SecretBase_EventScript_PCMainMenuWithRegister::
+	multichoice 0, 0, MULTI_BASE_PC_WITH_REGISTRY, FALSE
+	switch VAR_RESULT
+	case 0, SecretBase_EventScript_PCDecorationMenu
+	case 1, SecretBase_EventScript_PCPackUp
+	case 2, SecretBase_EventScript_PCRegistryMenu
+	case 3, SecretBase_EventScript_PCTurnOff
+	case MULTI_B_PRESSED, SecretBase_EventScript_PCTurnOff
+	end
+
+SecretBase_EventScript_PCMainMenuWithoutRegister::
 	multichoice 0, 0, MULTI_BASE_PC_NO_REGISTRY, FALSE
 	switch VAR_RESULT
 	case 0, SecretBase_EventScript_PCDecorationMenu
@@ -68,6 +79,67 @@ SecretBase_EventScript_PCTurnOff::
 	special DoSecretBasePCTurnOffEffect
 	closemessage
 	releaseall
+	end
+
+SecretBase_EventScript_PCRegistryMenu::
+	multichoice 0, 0, MULTI_REGISTER_MENU, FALSE
+	switch VAR_RESULT
+	case 0, SecretBase_EventScript_PCRegister
+	case 1, SecretBase_EventScript_PCRegistryMenu
+	case 2, SecretBase_EventScript_PCRegistryInfo
+	case 3, SecretBase_EventScript_PCTurnOff
+	case MULTI_B_PRESSED, SecretBase_EventScript_PCTurnOff
+	end
+
+SecretBase_EventScript_ShowRegisterMenu::
+	lockall
+	goto SecretBase_EventScript_PCRegistryMenu
+	end
+
+SecretBase_EventScript_PCRegister::
+	special GetCurSecretBaseRegistrationValidity
+	goto_if_eq VAR_RESULT, 1, SecretBase_EventScript_AlreadyRegistered
+	goto_if_eq VAR_RESULT, 2, SecretBase_EventScript_CantRegisterTooManyBases
+	special CopyCurSecretBaseOwnerName_StrVar1
+	msgbox SecretBase_Text_WantToRegisterSecretBase, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_PCRegistryMenu
+	setvar VAR_0x8005, 500
+	special IsEnoughForCostInVar0x8005
+	goto_if_eq VAR_RESULT, FALSE, SecretBase_EventScript_NotEnoughMoney
+	msgbox SecretBase_Text_RegistrationWillCost500, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_PCRegistryMenu
+	special SubtractMoneyFromVar0x8005
+	msgbox SecretBase_Text_RegistrationCompleted, MSGBOX_SIGN
+	special ToggleCurSecretBaseRegistry
+	special DoSecretBasePCTurnOffEffect
+	releaseall
+	end
+
+SecretBase_EventScript_NotEnoughMoney::
+	msgbox SecretBase_Text_NotEnoughMoney, MSGBOX_SIGN
+	special DoSecretBasePCTurnOffEffect
+	releaseall
+	end
+
+SecretBase_EventScript_AlreadyRegistered::
+	msgbox SecretBase_Text_AlreadyRegisteredDelete, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SecretBase_EventScript_PCRegistryMenu
+	msgbox SecretBase_Text_DataUnregistered, MSGBOX_SIGN
+	special ToggleCurSecretBaseRegistry
+	special DoSecretBasePCTurnOffEffect
+	releaseall
+	end
+
+SecretBase_EventScript_CantRegisterTooManyBases::
+	msgbox SecretBase_Text_TooManyBasesDeleteSome, MSGBOX_SIGN
+	special DoSecretBasePCTurnOffEffect
+	closemessage
+	releaseall
+	end
+
+SecretBase_EventScript_PCRegistryInfo::
+	msgbox SecretBase_Text_RegistryInfo, MSGBOX_DEFAULT
+	goto SecretBase_EventScript_PCRegistryMenu
 	end
 
 SecretBase_EventScript_SandOrnament::

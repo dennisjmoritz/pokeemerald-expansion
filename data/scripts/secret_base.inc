@@ -261,6 +261,15 @@ SecretBase_Text_RegistryInfo:
 	.string "Up to ten HOUSE locations\n"
 	.string "may be registered.$"
 
+SecretBase_Text_RegistrationWillCost500:
+	.string "Registration will cost ¥500.\n"
+	.string "This payment is non-refundable.\p"
+	.string "Do you want to proceed?$"
+
+SecretBase_Text_NotEnoughMoney:
+	.string "You don't have enough money.\n"
+	.string "Registration costs ¥500.$"
+
 SecretBase_Text_BattleTowerShield:
 	.string "A shield of {STR_VAR_2} that marks winning\n"
 	.string "{STR_VAR_1} times in a row at the BATTLE TOWER.$"

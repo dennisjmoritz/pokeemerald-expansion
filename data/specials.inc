@@ -314,6 +314,8 @@ gSpecials::
 	def_special LoadWallyZigzagoon
 	def_special IsStarterInParty
 	def_special CopyCurSecretBaseOwnerName_StrVar1
+	def_special GetCurSecretBaseRegistrationValidity
+	def_special ToggleCurSecretBaseRegistry
 	def_special ScriptCheckFreePokemonStorageSpace
 	def_special DoSealedChamberShakingEffect_Long
 	def_special ShowDeptStoreElevatorFloorSelect

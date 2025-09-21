@@ -234,6 +234,9 @@ void SetPlayerSecretBase(void)
     gSaveBlock1Ptr->secretBases[0].gender = gSaveBlock2Ptr->playerGender;
     gSaveBlock1Ptr->secretBases[0].language = GAME_LANGUAGE;
     VarSet(VAR_SECRET_BASE_MAP, gMapHeader.regionMapSectionId);
+    
+    // Enable the secret base registry system
+    FlagSet(FLAG_SECRET_BASE_REGISTRY_ENABLED);
 }
 
 // Set the 'open' entrance metatile for any occupied secret base on this map
@@ -598,7 +601,7 @@ void CopyCurSecretBaseOwnerName_StrVar1(void)
 
 static bool8 IsSecretBaseRegistered(u8 secretBaseIdx)
 {
-    return FALSE; // Registry functionality removed
+    return gSaveBlock1Ptr->secretBases[secretBaseIdx].toRegister ? TRUE : FALSE;
 }
 
 static u8 GetAverageEVs(struct Pokemon *pokemon)
@@ -734,7 +737,8 @@ void GetCurSecretBaseRegistrationValidity(void)
 
 void ToggleCurSecretBaseRegistry(void)
 {
-    // Registry functionality removed
+    u8 curSecretBase = VarGet(VAR_CURRENT_SECRET_BASE);
+    gSaveBlock1Ptr->secretBases[curSecretBase].toRegister = !gSaveBlock1Ptr->secretBases[curSecretBase].toRegister;
 }
 
 void ShowSecretBaseDecorationMenu(void)
