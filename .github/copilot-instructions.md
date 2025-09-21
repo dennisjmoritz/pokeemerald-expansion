@@ -30,19 +30,18 @@ sudo apt install -y binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-
 ### Basic Build Process
 **ALWAYS follow this exact sequence:**
 1. `make clean` - Clean any existing artifacts
-2. `make tools -j4` - Build development tools (must be done first)
-3. `make -j4` - Build the ROM (use parallel jobs for speed)
+3. `make -j24` - Build the ROM (use parallel jobs for speed)
 
 ### Build Validation Commands
 ```bash
 # Standard ROM build (most common)
-make clean && make tools -j4 && make -j4
+make clean && make -j24
 
 # Link Time Optimization build (production)
-make tidy && make LTO=1 -j4
+make tidy && make LTO=1 -j24
 
 # Debug build with symbols
-make tidy && make debug -j4
+make tidy && make debug -j24
 
 # Check build success
 file pokeemerald.gba  # Should show: "Game Boy Advance ROM image: 'POKEMON EMER'"
@@ -68,10 +67,10 @@ file pokeemerald.gba  # Should show: "Game Boy Advance ROM image: 'POKEMON EMER'
 make check-tools
 
 # Run full test suite (WARNING: Takes 10+ minutes, often unnecessary)
-make check -j4
+make check -j24
 
 # Build test ROM (may fail with undefined symbols - this is expected)
-make TEST=1 -j4
+make TEST=1 -j24
 ```
 
 **Important:** The testing system is comprehensive but slow. Only run full tests when validating specific battle mechanics or game logic. Most development work should use standard ROM builds and emulator testing.
@@ -127,7 +126,7 @@ Key Python scripts that generate game data:
 2. **Battle Logic:** Modify `src/battle_*.c` files
 3. **Pokémon Data:** Edit `src/data/pokemon/` JSON files
 4. **Graphics:** Modify files in `graphics/` directory
-5. **Always test build after changes:** `make -j4`
+5. **Always test build after changes:** `make -j24`
 
 ### Common Development Patterns
 - Use existing config flags to enable/disable features
@@ -146,9 +145,9 @@ The repository has automated builds via `.github/workflows/build.yml`:
 ## Validation Checklist
 
 Before submitting changes:
-1. **Build succeeds:** `make clean && make tools -j4 && make -j4`
+1. **Build succeeds:** `make clean && make tools -j24 && make -j24`
 2. **ROM file created:** `file pokeemerald.gba` shows valid GBA ROM
-3. **LTO build works:** `make tidy && make LTO=1 -j4`
+3. **LTO build works:** `make tidy && make LTO=1 -j24`
 4. **No new warnings:** Check build output for warnings
 5. **Test in emulator:** Load ROM in GBA emulator for basic functionality
 
@@ -157,14 +156,13 @@ Before submitting changes:
 **TRUST THESE INSTRUCTIONS:** This build process has been validated. Only search for additional information if these instructions are incomplete or incorrect.
 
 **NEVER:**
-- Skip the `make tools` step
 - Try to build without ARM toolchain
 - Assume TEST=1 builds will work (they often fail with missing symbols)
 - Modify core Makefile structure without understanding dependencies
 
 **ALWAYS:**
 - Install dependencies first
-- Use parallel builds (`-j4`) for reasonable compile times
+- Use parallel builds (`-j24`) for reasonable compile times
 - Test both standard and LTO builds for production changes
 - Check `include/config/` files when adding new features
 - Clean build artifacts between major changes
