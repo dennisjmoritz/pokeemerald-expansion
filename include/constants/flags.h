@@ -43,12 +43,12 @@
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
+//
+//
+//
+//
+//
+//
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag
@@ -207,12 +207,12 @@
 #define FLAG_DECORATION_12                   0xB9
 #define FLAG_DECORATION_13                   0xBA
 #define FLAG_DECORATION_14                   0xBB
-#define FLAG_DECORATION_15                   0xBC
-#define FLAG_DECORATION_16                   0xBD
-#define FLAG_DECORATION_17                   0xBE
-#define FLAG_DECORATION_18                   0xBF
-#define FLAG_DECORATION_19                   0xC0
-#define FLAG_DECORATION_20                   0xC1
+#define FLAG_DECORATION_15                   0x020
+#define FLAG_DECORATION_16                   0x021
+#define FLAG_DECORATION_17                   0x022
+#define FLAG_DECORATION_18                   0x023
+#define FLAG_DECORATION_19                   0x024
+#define FLAG_DECORATION_20                   0x025
 #define FLAG_RECEIVED_POKENAV                0xBC
 #define FLAG_DELIVERED_STEVEN_LETTER         0xBD
 #define FLAG_DEFEATED_WALLY_MAUVILLE         0xBE

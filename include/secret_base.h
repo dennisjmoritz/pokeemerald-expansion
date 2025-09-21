@@ -18,4 +18,17 @@ void TrySetCurSecretBaseIndex(void);
 void CheckPlayerHasSecretBase(void);
 void ToggleSecretBaseEntranceMetatile(void);
 
+// House type system
+enum HouseType
+{
+    HOUSE_APARTMENT,
+    HOUSE_HOUSE, 
+    HOUSE_MANSION,
+    NUM_HOUSE_TYPES
+};
+
+// House type cost functions
+bool8 CanAffordHouseType(u8 houseType);
+void ChargeForHouseType(u8 houseType);
+
 #endif //GUARD_SECRET_BASE_H

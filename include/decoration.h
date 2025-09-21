@@ -73,10 +73,7 @@ void CopyDecorationCategoryName(u8 *dest, u8 category);
 bool8 IsSelectedDecorInThePC(void);
 u8 AddDecorationIconObject(u8 decor, s16 x, s16 y, u8 priority, u16 tilesTag, u16 paletteTag);
 
-// House type cost functions
-bool8 CanAffordHouseType(u8 houseType);
-void ChargeForHouseType(u8 houseType);
-u8 GetHouseTypeDecorationLimit(u8 houseType);
+// Decoration interaction functions
 void ShowHouseTypeMenu(u8 taskId);
 
 // Decoration interaction functions

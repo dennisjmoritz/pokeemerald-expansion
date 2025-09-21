@@ -2783,55 +2783,6 @@ static void TossDecoration(u8 taskId)
     DisplayItemMessageOnField(taskId, gStringVar4, ReturnToDecorationItemsAfterInvalidSelection);
 }
 
-// House type cost system implementation
-static const u32 sHouseTypeCosts[] = {
-    [HOUSE_TYPE_APARTMENT] = 25000,  // Apartment costs 25,000 (starter tier)
-    [HOUSE_TYPE_HOUSE]     = 100000, // House costs 100,000 (mid-tier)
-    [HOUSE_TYPE_MANSION]   = 500000, // Mansion costs 500,000 (premium)
-};
-
-static const u8 sHouseTypeDecorationLimits[] = {
-    [HOUSE_TYPE_APARTMENT] = 6,   // Apartments can hold 6 decorations
-    [HOUSE_TYPE_HOUSE]     = 12,  // Houses can hold 12 decorations (current max)
-    [HOUSE_TYPE_MANSION]   = 20,  // Mansions can hold 20 decorations
-};
-
-static const u8 sHouseTypeNames[][16] = {
-    [HOUSE_TYPE_APARTMENT] = _("APARTMENT"),
-    [HOUSE_TYPE_HOUSE]     = _("HOUSE"),
-    [HOUSE_TYPE_MANSION]   = _("MANSION"),
-};
-
-u32 GetHouseTypeCost(u8 houseType)
-{
-    if (houseType >= HOUSE_TYPE_COUNT)
-        return 0;
-    return sHouseTypeCosts[houseType];
-}
-
-bool8 CanAffordHouseType(u8 houseType)
-{
-    u32 cost = GetHouseTypeCost(houseType);
-    return IsEnoughMoney(&gSaveBlock1Ptr->money, cost);
-}
-
-void ChargeForHouseType(u8 houseType)
-{
-    u32 cost = GetHouseTypeCost(houseType);
-    if (IsEnoughMoney(&gSaveBlock1Ptr->money, cost))
-    {
-        RemoveMoney(&gSaveBlock1Ptr->money, cost);
-    }
-}
-
-u8 GetHouseTypeDecorationLimit(u8 houseType)
-{
-    if (houseType >= HOUSE_TYPE_COUNT)
-        return DECOR_MAX_PLAYERS_HOUSE; // Default to current max
-    return sHouseTypeDecorationLimits[houseType];
-}
-
-
 // Egg incubator helper functions
 static bool8 IsEggInIncubator(void)
 {
