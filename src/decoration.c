@@ -2892,8 +2892,8 @@ void UpdateEggIncubator(void)
     {
         u32 eggCycles;
         
-        // Increment steps (incubator works 2x faster than normal walking)
-        gSaveBlock1Ptr->eggIncubatorSteps += 2;
+        // Increment steps (incubator works at normal walking rate)
+        gSaveBlock1Ptr->eggIncubatorSteps += 1;
         
         // Every 256 steps, reduce egg cycles (like daycare)
         if (gSaveBlock1Ptr->eggIncubatorSteps >= 256)
@@ -2942,25 +2942,32 @@ void UseBerryPatchDecoration(void)
         // Check if berry is ready to harvest
         if (berryPatch->berry != 0 && berryPatch->stage >= 4)
         {
-            // Harvest berries
+            // Harvest berries using existing berry system approach
             u16 berryItem = DecorationBerryTypeToItemId(berryPatch->berry);
             u8 yield = berryPatch->berryYield;
-            if (yield == 0) yield = 2; // Minimum yield
+            if (yield == 0) yield = 2; // Minimum yield like existing trees
             
-            AddBagItem(berryItem, yield);
-            StringCopy(gStringVar1, ItemId_GetName(berryItem));
-            ConvertIntToDecimalStringN(gStringVar2, yield, STR_CONV_MODE_LEFT_ALIGN, 2);
-            StringExpandPlaceholders(gStringVar4, _("Harvested {STR_VAR_2} {STR_VAR_1}!"));
-            
-            // Clear the berry patch
-            berryPatch->berry = 0;
-            berryPatch->stage = 0;
-            berryPatch->berryYield = 0;
-            berryPatch->minutesUntilNextStage = 0;
+            // Use existing AddBagItem approach like ObjectEventInteractionPickBerryTree
+            if (AddBagItem(berryItem, yield))
+            {
+                StringCopy(gStringVar1, ItemId_GetName(berryItem));
+                ConvertIntToDecimalStringN(gStringVar2, yield, STR_CONV_MODE_LEFT_ALIGN, 2);
+                StringExpandPlaceholders(gStringVar4, _("Harvested {STR_VAR_2} {STR_VAR_1}!"));
+                
+                // Clear the berry patch like existing RemoveBerryTree
+                berryPatch->berry = 0;
+                berryPatch->stage = 0;
+                berryPatch->berryYield = 0;
+                berryPatch->minutesUntilNextStage = 0;
+            }
+            else
+            {
+                StringExpandPlaceholders(gStringVar4, _("Your BAG is full!"));
+            }
         }
         else if (berryPatch->berry != 0)
         {
-            // Show growth status
+            // Show growth status using existing berry info approach
             const struct Berry *berry = GetBerryInfo(berryPatch->berry);
             StringCopy(gStringVar1, berry->name);
             
@@ -2973,17 +2980,16 @@ void UseBerryPatchDecoration(void)
         }
         else
         {
-            // Empty patch - ask to plant a berry
-            StringExpandPlaceholders(gStringVar4, _("Plant a BERRY in the patch?"));
-            // This would normally open berry selection menu
-            // For now, plant a random berry as demo
+            // Empty patch - plant a berry using existing logic approach
+            // Simplified automatic planting like existing PlantBerryTree
             u8 berryTypes[] = {1, 2, 3, 4}; // CHERI, CHESTO, PECHA, RAWST (IDs 1-4)
             u8 berryType = berryTypes[Random() % ARRAY_COUNT(berryTypes)];
             
+            // Use existing PlantBerryTree approach
             berryPatch->berry = berryType;
             berryPatch->stage = 1;
-            berryPatch->minutesUntilNextStage = 240; // 4 hours to next stage
-            berryPatch->berryYield = 3; // Default yield
+            berryPatch->minutesUntilNextStage = 240; // 4 hours to next stage like existing system
+            berryPatch->berryYield = 3; // Default yield like existing berries
             
             const struct Berry *berry = GetBerryInfo(berryType);
             StringCopy(gStringVar1, berry->name);
@@ -3005,19 +3011,11 @@ void UseEggIncubatorDecoration(void)
             u32 eggCycles = GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_FRIENDSHIP);
             u8 species = GetBoxMonData(&gSaveBlock1Ptr->playerEggIncubator, MON_DATA_SPECIES);
             
-            if (eggCycles == 0)
-            {
-                // Egg is ready to hatch
-                StringExpandPlaceholders(gStringVar4, _("The EGG is ready to hatch!\nTake it from the incubator?"));
-            }
-            else
-            {
-                // Show progress
-                ConvertIntToDecimalStringN(gStringVar1, eggCycles, STR_CONV_MODE_LEFT_ALIGN, 3);
-                ConvertIntToDecimalStringN(gStringVar2, gSaveBlock1Ptr->eggIncubatorSteps, STR_CONV_MODE_LEFT_ALIGN, 4);
-                StringExpandPlaceholders(gStringVar4, 
-                    _("EGG cycles left: {STR_VAR_1}\nIncubator steps: {STR_VAR_2}\nTake the EGG out?"));
-            }
+            // Show progress
+            ConvertIntToDecimalStringN(gStringVar1, eggCycles, STR_CONV_MODE_LEFT_ALIGN, 3);
+            ConvertIntToDecimalStringN(gStringVar2, gSaveBlock1Ptr->eggIncubatorSteps, STR_CONV_MODE_LEFT_ALIGN, 4);
+            StringExpandPlaceholders(gStringVar4, 
+                _("EGG cycles left: {STR_VAR_1}\nIncubator steps: {STR_VAR_2}\nTake the EGG out?"));
             
             // This would normally show a yes/no prompt
             // For now, automatically withdraw if party has space
@@ -3050,7 +3048,7 @@ void UseEggIncubatorDecoration(void)
             
             if (hasEgg)
             {
-                StringExpandPlaceholders(gStringVar4, _("Place an EGG in the\nincubator for faster hatching?"));
+                StringExpandPlaceholders(gStringVar4, _("Place an EGG in the\nincubator?"));
                 
                 // For now, automatically deposit the first egg found
                 for (i = 0; i < gPlayerPartyCount; i++)
