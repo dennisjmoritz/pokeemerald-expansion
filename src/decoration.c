@@ -2831,14 +2831,6 @@ u8 GetHouseTypeDecorationLimit(u8 houseType)
     return sHouseTypeDecorationLimits[houseType];
 }
 
-// Helper function to convert berry type to item ID (replicating static function from berry.c)
-static u16 DecorationBerryTypeToItemId(u8 berryType)
-{
-    // Berry types are 1-indexed, items are 0-indexed relative to FIRST_BERRY_INDEX
-    if (berryType == 0)
-        return ITEM_ORAN_BERRY; // Default
-    return (berryType - 1) + ITEM_CHERI_BERRY; // CHERI is first berry item
-}
 
 // Egg incubator helper functions
 static bool8 IsEggInIncubator(void)
@@ -2932,7 +2924,7 @@ void UseMoveRelearnerDecoration(void)
     }
 }
 
-// Berry patch decoration functionality  
+// Berry patch decoration functionality using berry.c functions
 void UseBerryPatchDecoration(void)
 {
     if (IsDecorationInPlayerRoom(DECOR_BERRY_PATCH))
@@ -2942,8 +2934,8 @@ void UseBerryPatchDecoration(void)
         // Check if berry is ready to harvest
         if (berryPatch->berry != 0 && berryPatch->stage >= 4)
         {
-            // Harvest berries using existing berry system approach
-            u16 berryItem = DecorationBerryTypeToItemId(berryPatch->berry);
+            // Harvest berries using existing BerryTypeToItemId function from berry.c
+            u16 berryItem = BerryTypeToItemId(berryPatch->berry);
             u8 yield = berryPatch->berryYield;
             if (yield == 0) yield = 2; // Minimum yield like existing trees
             
@@ -2954,7 +2946,7 @@ void UseBerryPatchDecoration(void)
                 ConvertIntToDecimalStringN(gStringVar2, yield, STR_CONV_MODE_LEFT_ALIGN, 2);
                 StringExpandPlaceholders(gStringVar4, _("Harvested {STR_VAR_2} {STR_VAR_1}!"));
                 
-                // Clear the berry patch like existing RemoveBerryTree
+                // Clear the berry patch using RemoveBerryTree approach
                 berryPatch->berry = 0;
                 berryPatch->stage = 0;
                 berryPatch->berryYield = 0;
@@ -2967,7 +2959,7 @@ void UseBerryPatchDecoration(void)
         }
         else if (berryPatch->berry != 0)
         {
-            // Show growth status using existing berry info approach
+            // Show growth status using existing GetBerryInfo from berry.c
             const struct Berry *berry = GetBerryInfo(berryPatch->berry);
             StringCopy(gStringVar1, berry->name);
             
@@ -2980,14 +2972,13 @@ void UseBerryPatchDecoration(void)
         }
         else
         {
-            // Empty patch - plant a berry using existing logic approach
-            // Simplified automatic planting like existing PlantBerryTree
+            // Empty patch - plant a berry using existing PlantBerryTree approach
             u8 berryTypes[] = {1, 2, 3, 4}; // CHERI, CHESTO, PECHA, RAWST (IDs 1-4)
             u8 berryType = berryTypes[Random() % ARRAY_COUNT(berryTypes)];
             
-            // Use existing PlantBerryTree approach
+            // Use existing PlantBerryTree logic patterns
             berryPatch->berry = berryType;
-            berryPatch->stage = 1;
+            berryPatch->stage = 1; // BERRY_STAGE_PLANTED
             berryPatch->minutesUntilNextStage = 240; // 4 hours to next stage like existing system
             berryPatch->berryYield = 3; // Default yield like existing berries
             
@@ -3175,6 +3166,7 @@ static bool8 HasEVItemsInBag(void)
     return FALSE;
 }
 
+// EV Editor decoration functionality with basic UI
 void UseEVEditorDecoration(void)
 {
     if (IsDecorationInPlayerRoom(DECOR_EV_EDITOR))
@@ -3183,13 +3175,62 @@ void UseEVEditorDecoration(void)
         
         if (totalCredits > 0)
         {
-            // Show stored credits and open basic training interface
+            // Show stored credits and basic training interface
             ConvertIntToDecimalStringN(gStringVar1, totalCredits, STR_CONV_MODE_LEFT_ALIGN, 4);
             StringExpandPlaceholders(gStringVar4, 
-                _("EV EDITOR\nStored credits: {STR_VAR_1}\nSelect POKéMON to train?"));
+                _("EV EDITOR\nStored credits: {STR_VAR_1}\nTrain which POKéMON?"));
             
-            // TODO: This would open party menu followed by stat selection
-            // For now, show training interface is available
+            // Basic party selection simulation
+            // TODO: This should open actual party menu
+            if (gPlayerPartyCount > 0)
+            {
+                u8 partyIndex = 0; // Select first Pokemon for demo
+                struct Pokemon *mon = &gPlayerParty[partyIndex];
+                
+                if (!GetMonData(mon, MON_DATA_IS_EGG))
+                {
+                    // Basic EV modification demo
+                    u8 statToTrain = Random() % NUM_STATS; // Random stat for demo
+                    u16 *statCredits = &gSaveBlock1Ptr->evEditorCredits[statToTrain];
+                    
+                    if (*statCredits >= 10) // Cost 10 credits per EV modification
+                    {
+                        // Get current EVs
+                        u16 currentEV = GetMonData(mon, MON_DATA_HP_EV + statToTrain);
+                        
+                        if (currentEV < 252) // EV limit per stat
+                        {
+                            // Increase EV by 10 points (1 vitamin equivalent)
+                            u16 newEV = currentEV + 10;
+                            if (newEV > 252) newEV = 252;
+                            SetMonData(mon, MON_DATA_HP_EV + statToTrain, &newEV);
+                            
+                            // Consume credits
+                            *statCredits -= 10;
+                            
+                            // Update Pokemon stats
+                            CalculateMonStats(mon);
+                            
+                            StringCopy(gStringVar1, sEVStatNames[statToTrain]);
+                            ConvertIntToDecimalStringN(gStringVar2, newEV - currentEV, STR_CONV_MODE_LEFT_ALIGN, 2);
+                            StringExpandPlaceholders(gStringVar4, 
+                                _("Trained {STR_VAR_1}!\nIncreased by {STR_VAR_2} points!"));
+                        }
+                        else
+                        {
+                            StringExpandPlaceholders(gStringVar4, _("This stat is already maxed!"));
+                        }
+                    }
+                    else
+                    {
+                        StringExpandPlaceholders(gStringVar4, _("Not enough credits for training!"));
+                    }
+                }
+                else
+                {
+                    StringExpandPlaceholders(gStringVar4, _("Cannot train an EGG!"));
+                }
+            }
         }
         else if (HasEVItemsInBag())
         {
