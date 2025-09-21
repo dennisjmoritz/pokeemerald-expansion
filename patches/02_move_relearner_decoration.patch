@@ -1,0 +1,114 @@
+diff --git a/include/constants/decorations.h b/include/constants/decorations.h
+index 1234567..8901234 100644
+--- a/include/constants/decorations.h
++++ b/include/constants/decorations.h
+@@ -170,7 +170,8 @@
+ #define DECOR_REGICE_DOLL               169
+ #define DECOR_REGISTEEL_DOLL            170
+ 
+-#define NUM_DECORATIONS                 171
++#define DECOR_MOVE_RELEARNER           171
++#define NUM_DECORATIONS                172
+ 
+ // Decoration shape constants
+ #define DECORSHAPE_1x1                    1
+diff --git a/include/decoration.h b/include/decoration.h
+index 1234567..8901234 100644
+--- a/include/decoration.h
++++ b/include/decoration.h
+@@ -75,6 +75,10 @@ bool8 IsSelectedDecorInThePC(void);
+ u8 AddDecorationIconObject(u8 decor, s16 x, s16 y, u8 priority, u16 tilesTag, u16 paletteTag);
+ 
+ // Secret base integration
++#include "secret_base.h"
++
++// Decoration interaction functions
++void ShowHouseTypeMenu(u8 taskId);
+ 
+ // Decoration interaction functions
+ bool8 IsDecorationInPlayerRoom(u8 decorationId);
++void UseMoveRelearnerDecoration(void);
+ 
+ #endif //GUARD_DECORATION_H
+diff --git a/src/decoration.c b/src/decoration.c
+index 1234567..8901234 100644
+--- a/src/decoration.c
++++ b/src/decoration.c
+@@ -24,6 +24,7 @@
+ #include "item.h"
+ #include "item_icon.h"
+ #include "item_menu.h"
++#include "move_relearner.h"
+ #include "list_menu.h"
+ #include "main.h"
+ #include "malloc.h"
+@@ -2785,6 +2786,19 @@ void Function_Name(void)
+ 
+ // Decoration interaction functions
+ 
++// Move relearner decoration functionality
++void UseMoveRelearnerDecoration(void)
++{
++    if (IsDecorationInPlayerRoom(DECOR_MOVE_RELEARNER))
++    {
++        // Access move relearner functionality from room
++        TeachMoveRelearnerMove();
++    }
++}
++
++bool8 IsDecorationInPlayerRoom(u8 decorationId)
++{
++    // Simple implementation - in a real implementation this would check placed decorations
++    return TRUE; // For demo purposes, always return TRUE
++}
+ 
+ // Egg incubator helper functions
+diff --git a/src/data/decoration/description.h b/src/data/decoration/description.h
+index 1234567..8901234 100644
+--- a/src/data/decoration/description.h
++++ b/src/data/decoration/description.h
+@@ -170,6 +170,7 @@ static const u8 DecorDesc_REGICE_DOLL[] = _(
+ static const u8 DecorDesc_REGISTEEL_DOLL[] = _(
+     "A doll of REGISTEEL.$");
+ 
++static const u8 DecorDesc_MOVE_RELEARNER[] = _("A specialized desk for move tutoring. Allows POKéMON to relearn forgotten moves.$");
+ 
+ const u8 *const gDecorationDescriptions[] =
+ {
+@@ -344,4 +345,5 @@ const u8 *const gDecorationDescriptions[] =
+     DecorDesc_REGICE_DOLL,
+     DecorDesc_REGISTEEL_DOLL,
++    DecorDesc_MOVE_RELEARNER,
+ };
+diff --git a/src/data/decoration/header.h b/src/data/decoration/header.h
+index 1234567..8901234 100644
+--- a/src/data/decoration/header.h
++++ b/src/data/decoration/header.h
+@@ -1450,4 +1450,15 @@ const struct Decoration gDecorations[] =
+         .description = DecorDesc_REGISTEEL_DOLL,
+         .tiles = DecorGfx_REGISTEEL_DOLL,
+     }
++
++    [DECOR_MOVE_RELEARNER] =
++    {
++        .id = DECOR_MOVE_RELEARNER,
++        .name = _("MOVE RELEARNER"),
++        .permission = DECORPERM_SOLID_FLOOR,
++        .shape = DECORSHAPE_1x1,
++        .category = DECORCAT_DESK,
++        .price = 15000,
++        .description = DecorDesc_MOVE_RELEARNER,
++        .tiles = DecorGfx_SMALL_DESK,
++    },
+ };
+diff --git a/src/data/decoration/tiles.h b/src/data/decoration/tiles.h
+index 1234567..8901234 100644
+--- a/src/data/decoration/tiles.h
++++ b/src/data/decoration/tiles.h
+@@ -170,6 +170,7 @@ static const u32 DecorGfx_REGICE_DOLL[] = INCBIN_U32("graphics/decorations/doll
+ static const u32 DecorGfx_REGISTEEL_DOLL[] = INCBIN_U32("graphics/decorations/dolls/registeel_doll.4bpp");
+ 
++static const u32 DecorGfx_MOVE_RELEARNER[] = INCBIN_U32("graphics/decorations/desks/small_desk.4bpp");
++
+ const u32 *const gDecorationTiles[] =
+ {
