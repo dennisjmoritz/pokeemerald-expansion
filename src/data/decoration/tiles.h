@@ -641,3 +641,19 @@ const u16 DecorGfx_REGICE_DOLL[] = {
 const u16 DecorGfx_REGISTEEL_DOLL[] = {
     OBJ_EVENT_GFX_BIG_REGISTEEL_DOLL
 };
+
+const u16 DecorGfx_MOVE_RELEARNER[] = {
+    OBJ_EVENT_GFX_SMALL_DESK // Using desk graphics as placeholder
+};
+
+const u16 DecorGfx_BERRY_PATCH[] = {
+    OBJ_EVENT_GFX_BERRY_TREE // Using berry tree graphics  
+};
+
+const u16 DecorGfx_EGG_INCUBATOR[] = {
+    OBJ_EVENT_GFX_PC // Using PC graphics as placeholder
+};
+
+const u16 DecorGfx_EV_EDITOR[] = {
+    OBJ_EVENT_GFX_BOOKSHELF // Using bookshelf graphics as placeholder
+};

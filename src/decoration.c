@@ -13,6 +13,7 @@
 #include "fieldmap.h"
 #include "graphics.h"
 #include "international_string_util.h"
+#include "item.h"
 #include "item_icon.h"
 #include "item_menu.h"
 #include "list_menu.h"
@@ -20,6 +21,11 @@
 #include "menu.h"
 #include "menu_helpers.h"
 #include "metatile_behavior.h"
+#include "money.h"
+#include "move_relearner.h"
+#include "daycare.h"
+#include "party_menu.h"
+#include "pokemon.h"
 #include "overworld.h"
 #include "palette.h"
 #include "player_pc.h"
@@ -2772,4 +2778,156 @@ static void TossDecoration(u8 taskId)
     IdentifyOwnedDecorationsCurrentlyInUseInternal(taskId);
     StringExpandPlaceholders(gStringVar4, gText_DecorationThrownAway);
     DisplayItemMessageOnField(taskId, gStringVar4, ReturnToDecorationItemsAfterInvalidSelection);
+}
+
+// House type cost system implementation
+static const u32 sHouseTypeCosts[] = {
+    [HOUSE_TYPE_BASIC]   = 0,      // Basic house is free
+    [HOUSE_TYPE_COZY]    = 50000,  // Cozy house costs 50,000
+    [HOUSE_TYPE_LUXURY]  = 150000, // Luxury house costs 150,000
+    [HOUSE_TYPE_MODERN]  = 250000, // Modern house costs 250,000
+};
+
+static const u8 sHouseTypeNames[][16] = {
+    [HOUSE_TYPE_BASIC]   = _("BASIC"),
+    [HOUSE_TYPE_COZY]    = _("COZY"),
+    [HOUSE_TYPE_LUXURY]  = _("LUXURY"),
+    [HOUSE_TYPE_MODERN]  = _("MODERN"),
+};
+
+u32 GetHouseTypeCost(u8 houseType)
+{
+    if (houseType >= HOUSE_TYPE_COUNT)
+        return 0;
+    return sHouseTypeCosts[houseType];
+}
+
+bool8 CanAffordHouseType(u8 houseType)
+{
+    u32 cost = GetHouseTypeCost(houseType);
+    return IsEnoughMoney(&gSaveBlock1Ptr->money, cost);
+}
+
+void ChargeForHouseType(u8 houseType)
+{
+    u32 cost = GetHouseTypeCost(houseType);
+    if (IsEnoughMoney(&gSaveBlock1Ptr->money, cost))
+    {
+        RemoveMoney(&gSaveBlock1Ptr->money, cost);
+    }
+}
+
+// Decoration interaction functions
+bool8 IsDecorationInPlayerRoom(u8 decorationId)
+{
+    u8 i;
+    for (i = 0; i < DECOR_MAX_PLAYERS_HOUSE; i++)
+    {
+        if (gSaveBlock1Ptr->playerRoomDecorations[i] == decorationId)
+            return TRUE;
+    }
+    return FALSE;
+}
+
+// Move Relearner decoration functionality
+void UseMoveRelearnerDecoration(void)
+{
+    if (IsDecorationInPlayerRoom(DECOR_MOVE_RELEARNER))
+    {
+        gSpecialVar_0x8004 = 0; // Use first party slot by default
+        TeachMoveRelearnerMove();
+    }
+}
+
+// Berry patch decoration functionality  
+void UseBerryPatchDecoration(void)
+{
+    if (IsDecorationInPlayerRoom(DECOR_BERRY_PATCH))
+    {
+        // Simple berry giving - award a random berry
+        u16 berryItems[] = {ITEM_ORAN_BERRY, ITEM_PECHA_BERRY, ITEM_CHESTO_BERRY, ITEM_RAWST_BERRY};
+        u16 berryToGive = berryItems[Random() % ARRAY_COUNT(berryItems)];
+        AddBagItem(berryToGive, 1);
+        
+        StringCopy(gStringVar1, ItemId_GetName(berryToGive));
+        StringExpandPlaceholders(gStringVar4, gText_FoundOneItem);
+        DisplayItemMessageOnField(0, gStringVar4, NULL);
+    }
+}
+
+// Egg incubator decoration functionality
+void UseEggIncubatorDecoration(void)
+{
+    if (IsDecorationInPlayerRoom(DECOR_EGG_INCUBATOR))
+    {
+        u8 i;
+        u32 eggCycles;
+        u8 reducedCycles = 0;
+        
+        // Reduce egg cycles for all eggs in party
+        for (i = 0; i < gPlayerPartyCount; i++)
+        {
+            if (GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG) && 
+                !GetMonData(&gPlayerParty[i], MON_DATA_SANITY_IS_BAD_EGG))
+            {
+                eggCycles = GetMonData(&gPlayerParty[i], MON_DATA_FRIENDSHIP);
+                if (eggCycles > 0)
+                {
+                    // Reduce by 5 cycles, minimum 1
+                    if (eggCycles >= 5)
+                        eggCycles -= 5;
+                    else
+                        eggCycles = 1;
+                    SetMonData(&gPlayerParty[i], MON_DATA_FRIENDSHIP, &eggCycles);
+                    reducedCycles++;
+                }
+            }
+        }
+        
+        if (reducedCycles > 0)
+        {
+            StringExpandPlaceholders(gStringVar4, 
+                _("The incubator warmed your\nEGGs, reducing hatch time!"));
+        }
+        else
+        {
+            StringExpandPlaceholders(gStringVar4, 
+                _("You don't have any EGGs\nto incubate."));
+        }
+        DisplayItemMessageOnField(0, gStringVar4, NULL);
+    }
+}
+
+// EV Editor decoration functionality
+static const u16 sEVItems[] = {
+    ITEM_HP_UP,      // HP EV item
+    ITEM_PROTEIN,    // Attack EV item  
+    ITEM_IRON,       // Defense EV item
+    ITEM_CALCIUM,    // Sp. Attack EV item
+    ITEM_ZINC,       // Sp. Defense EV item
+    ITEM_CARBOS,     // Speed EV item
+};
+
+static const u8 sEVStatNames[][12] = {
+    _("HP"),
+    _("ATTACK"),
+    _("DEFENSE"), 
+    _("SP. ATK"),
+    _("SP. DEF"),
+    _("SPEED"),
+};
+
+void UseEVEditorDecoration(void)
+{
+    if (IsDecorationInPlayerRoom(DECOR_EV_EDITOR))
+    {
+        // For now, simple implementation - open party menu to select Pokemon
+        // Real implementation would need a custom UI
+        StringExpandPlaceholders(gStringVar4, 
+            _("Choose a POKéMON to train\nwith the EV EDITOR."));
+        DisplayItemMessageOnField(0, gStringVar4, NULL);
+        
+        // This would normally trigger a party selection menu
+        // followed by EV editing interface similar to debug system
+    }
 }
