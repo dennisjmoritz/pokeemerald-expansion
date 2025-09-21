@@ -13259,6 +13259,22 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_SecretKey,
     },
 
+        [ITEM_HOUSE_KEY] =
+    {
+        .name = ITEM_NAME("House Key"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "A key that opens\n"
+            "the door to a\n"
+            "secret house."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_SecretKey,
+        .iconPalette = gItemIconPalette_SecretKey,
+    },
+
     [ITEM_BIKE_VOUCHER] =
     {
         .name = ITEM_NAME("Bike Voucher"),
