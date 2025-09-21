@@ -1,0 +1,20 @@
+{{ doNotModifyHeader }}
+
+#ifndef GUARD_CONSTANTS_TMS_HMS_H
+#define GUARD_CONSTANTS_TMS_HMS_H
+
+#define FOREACH_TM(F) \
+## for tm in tms
+    F({{ tm.move }}) \
+## endfor
+
+#define FOREACH_HM(F) \
+## for hm in hms
+    F({{ hm.move }}) \
+## endfor
+
+#define FOREACH_TMHM(F) \
+    FOREACH_TM(F) \
+    FOREACH_HM(F)
+
+#endif // GUARD_CONSTANTS_TMS_HMS_H

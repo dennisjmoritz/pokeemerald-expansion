@@ -1,0 +1,37 @@
+{{ doNotModifyHeader }}
+
+// TMs/HMs. They don't have a set flingPower, as that's handled by GetFlingPowerFromItemId.
+
+## for tm in tms
+    [ITEM_TM_{{ tm.move }}] =
+    {
+        .name = ITEM_NAME("{{ tm.name }}"),
+        .price = {{ tm.price }},
+        .description = COMPOUND_STRING(
+            "{{ tm.description }}"),
+        .importance = {{ tm.importance }},
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+        .iconPic = {{ tm.iconPic }},
+        .iconPalette = {{ tm.iconPalette }},
+    },
+
+## endfor
+
+## for hm in hms
+    [ITEM_HM_{{ hm.move }}] =
+    {
+        .name = ITEM_NAME("{{ hm.name }}"),
+        .price = {{ hm.price }},
+        .description = COMPOUND_STRING(
+            "{{ hm.description }}"),
+        .importance = {{ hm.importance }},
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+        .iconPic = {{ hm.iconPic }},
+        .iconPalette = {{ hm.iconPalette }},
+    },
+
+## endfor

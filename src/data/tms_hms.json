@@ -1,0 +1,537 @@
+{
+  "tms": [
+    {
+      "move": "FOCUS_PUNCH",
+      "name": "TM01",
+      "price": 3000,
+      "description": "Powerful, but makes\\nthe user flinch if\\nhit by the foe.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "DRAGON_CLAW",
+      "name": "TM02",
+      "price": 3000,
+      "description": "Slashes the foe with\\nsharp claws.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "WATER_PULSE",
+      "name": "TM03",
+      "price": 3000,
+      "description": "Attacks with ultrasonic\\nwaves. May confuse\\nthe foe.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_WaterTMHM"
+    },
+    {
+      "move": "CALM_MIND",
+      "name": "TM04",
+      "price": 3000,
+      "description": "Raises SP. ATK and\\nSP. DEF by focusing\\nthe mind.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_PsychicTMHM"
+    },
+    {
+      "move": "ROAR",
+      "name": "TM05",
+      "price": 1000,
+      "description": "Makes the foe flee\\nto end the battle.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "TOXIC",
+      "name": "TM06",
+      "price": 3000,
+      "description": "Poisons the foe with\\nan intensifying toxin.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_PoisonTMHM"
+    },
+    {
+      "move": "HAIL",
+      "name": "TM07",
+      "price": 3000,
+      "description": "Summons a hailstorm\\nthat strikes every turn.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_IceTMHM"
+    },
+    {
+      "move": "BULK_UP",
+      "name": "TM08",
+      "price": 3000,
+      "description": "Bulks up the body\\nto boost both ATTACK\\nand DEFENSE.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_FightingTMHM"
+    },
+    {
+      "move": "BULLET_SEED",
+      "name": "TM09",
+      "price": 3000,
+      "description": "Shoots 2 to 5 seeds\\nin a row to strike\\nthe foe.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_GrassTMHM"
+    },
+    {
+      "move": "HIDDEN_POWER",
+      "name": "TM10",
+      "price": 3000,
+      "description": "The attack power\\nvaries among\\ndifferent POKéMON.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "SUNNY_DAY",
+      "name": "TM11",
+      "price": 2000,
+      "description": "Boosts the power of\\nFIRE-type moves for\\n5 turns.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_FireTMHM"
+    },
+    {
+      "move": "TAUNT",
+      "name": "TM12",
+      "price": 3000,
+      "description": "Taunts the foe into\\nonly using attack\\nmoves.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_DarkTMHM"
+    },
+    {
+      "move": "ICE_BEAM",
+      "name": "TM13",
+      "price": 4000,
+      "description": "Blasts the foe with\\nan icy beam that may\\nfreeze it.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_IceTMHM"
+    },
+    {
+      "move": "BLIZZARD",
+      "name": "TM14",
+      "price": 5500,
+      "description": "Hits the foe with\\nan icy storm that may\\nfreeze it.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_IceTMHM"
+    },
+    {
+      "move": "HYPER_BEAM",
+      "name": "TM15",
+      "price": 7500,
+      "description": "Powerful, but leaves\\nthe user immobile\\nthe next turn.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "LIGHT_SCREEN",
+      "name": "TM16",
+      "price": 3000,
+      "description": "Creates a wall of\\nlight that lowers\\nSP. ATK damage.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_PsychicTMHM"
+    },
+    {
+      "move": "PROTECT",
+      "name": "TM17",
+      "price": 3000,
+      "description": "Evades attack, but\\nmay fail if used\\nin succession.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "RAIN_DANCE",
+      "name": "TM18",
+      "price": 2000,
+      "description": "Boosts the power of\\nWATER-type moves for\\n5 turns.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_WaterTMHM"
+    },
+    {
+      "move": "GIGA_DRAIN",
+      "name": "TM19",
+      "price": 3000,
+      "description": "An attack that steals\\nhalf the damage\\ninflicted.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_GrassTMHM"
+    },
+    {
+      "move": "SAFEGUARD",
+      "name": "TM20",
+      "price": 3000,
+      "description": "Prevents all status\\nproblems for 5 turns.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "FRUSTRATION",
+      "name": "TM21",
+      "price": 1000,
+      "description": "An attack that is\\nstronger if the\\nPOKéMON's happiness is low.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "SOLAR_BEAM",
+      "name": "TM22",
+      "price": 3000,
+      "description": "Absorbs light in\\nthe 1st turn, then\\nattacks next turn.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_GrassTMHM"
+    },
+    {
+      "move": "IRON_TAIL",
+      "name": "TM23",
+      "price": 3000,
+      "description": "Attacks with a rock-\\nhard tail. May lower\\nDEFENSE.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_SteelTMHM"
+    },
+    {
+      "move": "THUNDERBOLT",
+      "name": "TM24",
+      "price": 3000,
+      "description": "A strong electrical\\nblast that may also\\nparalyze the foe.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_ElectricTMHM"
+    },
+    {
+      "move": "THUNDER",
+      "name": "TM25",
+      "price": 5500,
+      "description": "A lightning attack\\nthat may cause\\nparalysis.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_ElectricTMHM"
+    },
+    {
+      "move": "EARTHQUAKE",
+      "name": "TM26",
+      "price": 3000,
+      "description": "A powerful quake,\\nbut has no effect\\non flying foes.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_GroundTMHM"
+    },
+    {
+      "move": "RETURN",
+      "name": "TM27",
+      "price": 1000,
+      "description": "An attack that\\nincreases in power\\nwith friendship.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "DIG",
+      "name": "TM28",
+      "price": 2000,
+      "description": "Digs underground\\nthe 1st turn, then\\nstrikes next turn.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_GroundTMHM"
+    },
+    {
+      "move": "PSYCHIC",
+      "name": "TM29",
+      "price": 2000,
+      "description": "A powerful psychic\\nattack that may\\nlower SP. DEF.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_PsychicTMHM"
+    },
+    {
+      "move": "SHADOW_BALL",
+      "name": "TM30",
+      "price": 3000,
+      "description": "Hurls a black blob\\nthat may lower the\\nfoe's SP. DEF.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_GhostTMHM"
+    },
+    {
+      "move": "BRICK_BREAK",
+      "name": "TM31",
+      "price": 3000,
+      "description": "Destroys barriers\\nsuch as REFLECT\\nand causes damage.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_FightingTMHM"
+    },
+    {
+      "move": "DOUBLE_TEAM",
+      "name": "TM32",
+      "price": 2000,
+      "description": "Creates illusory\\ncopies to raise\\nevasiveness.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "REFLECT",
+      "name": "TM33",
+      "price": 3000,
+      "description": "Creates a wall of\\nlight that weakens\\nphysical attacks.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_PsychicTMHM"
+    },
+    {
+      "move": "SHOCK_WAVE",
+      "name": "TM34",
+      "price": 3000,
+      "description": "A fast and unavoidable\\nelectric attack.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_ElectricTMHM"
+    },
+    {
+      "move": "FLAMETHROWER",
+      "name": "TM35",
+      "price": 4000,
+      "description": "A powerful fire\\nattack that may\\ninflict a burn.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_FireTMHM"
+    },
+    {
+      "move": "SLUDGE_BOMB",
+      "name": "TM36",
+      "price": 1000,
+      "description": "Sludge is hurled to\\ninflict damage.\\nMay also poison.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_PoisonTMHM"
+    },
+    {
+      "move": "SANDSTORM",
+      "name": "TM37",
+      "price": 2000,
+      "description": "Causes a sandstorm\\nthat rages for\\nseveral turns.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_RockTMHM"
+    },
+    {
+      "move": "FIRE_BLAST",
+      "name": "TM38",
+      "price": 5500,
+      "description": "A fiery blast that\\nscorches all.\\nMay cause a burn.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_FireTMHM"
+    },
+    {
+      "move": "ROCK_TOMB",
+      "name": "TM39",
+      "price": 3000,
+      "description": "Stops the foe from\\nmoving with rocks\\nand cuts SPEED.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_RockTMHM"
+    },
+    {
+      "move": "AERIAL_ACE",
+      "name": "TM40",
+      "price": 3000,
+      "description": "An extremely speedy\\nand unavoidable\\nattack.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_FlyingTMHM"
+    },
+    {
+      "move": "TORMENT",
+      "name": "TM41",
+      "price": 3000,
+      "description": "Torments the foe\\nand stops successive\\nuse of a move.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_DarkTMHM"
+    },
+    {
+      "move": "FACADE",
+      "name": "TM42",
+      "price": 3000,
+      "description": "Boosts ATTACK when\\npoisoned, burned,\\nor paralyzed.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "SECRET_POWER",
+      "name": "TM43",
+      "price": 3000,
+      "description": "An attack with\\neffects that vary\\nby location.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "REST",
+      "name": "TM44",
+      "price": 3000,
+      "description": "The user sleeps for\\n2 turns to fully\\nrestore HP.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_PsychicTMHM"
+    },
+    {
+      "move": "ATTRACT",
+      "name": "TM45",
+      "price": 3000,
+      "description": "Makes the opposite\\ngender infatuated.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "THIEF",
+      "name": "TM46",
+      "price": 3000,
+      "description": "While attacking,\\nit may steal the\\nfoe's held item.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_DarkTMHM"
+    },
+    {
+      "move": "STEEL_WING",
+      "name": "TM47",
+      "price": 3000,
+      "description": "Strikes the foe\\nwith wings of steel.\\nMay raise DEFENSE.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_SteelTMHM"
+    },
+    {
+      "move": "SKILL_SWAP",
+      "name": "TM48",
+      "price": 3000,
+      "description": "Swaps abilities\\nwith the foe.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_PsychicTMHM"
+    },
+    {
+      "move": "SNATCH",
+      "name": "TM49",
+      "price": 3000,
+      "description": "Steals the effects\\nof the move the\\nfoe is trying to use.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_DarkTMHM"
+    },
+    {
+      "move": "OVERHEAT",
+      "name": "TM50",
+      "price": 3000,
+      "description": "Allows a full-power\\nattack, but sharply\\nlowers SP. ATK.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_FireTMHM"
+    },
+    {
+      "move": "SCALD",
+      "name": "TM51",
+      "price": 3000,
+      "description": "HOTHOTHOT",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_FireTMHM"
+    }
+  ],
+  "hms": [
+    {
+      "move": "CUT",
+      "name": "HM01",
+      "price": 0,
+      "description": "Cuts down thin\\ntrees and grass.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_HM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "FLY",
+      "name": "HM02",
+      "price": 0,
+      "description": "Flies to anywhere\\nyou've visited.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_HM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "SURF",
+      "name": "HM03",
+      "price": 0,
+      "description": "Creates a huge wave,\\nthen crashes it\\ndown on the foe.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_HM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "STRENGTH",
+      "name": "HM04",
+      "price": 0,
+      "description": "Builds enormous\\npower, then slams\\nthe foe.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_HM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "FLASH",
+      "name": "HM05",
+      "price": 0,
+      "description": "Looses a powerful\\nblast of light that\\nreduces accuracy.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_HM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "ROCK_SMASH",
+      "name": "HM06",
+      "price": 0,
+      "description": "A rock-crushing\\nattack that may\\nlower DEFENSE.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_HM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "WATERFALL",
+      "name": "HM07",
+      "price": 0,
+      "description": "Charges the foe\\nwith speed to climb\\nwaterfalls.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_HM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    },
+    {
+      "move": "DIVE",
+      "name": "HM08",
+      "price": 0,
+      "description": "Dives underwater\\nthe 1st turn, then\\nattacks next turn.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_HM",
+      "iconPalette": "gItemIconPalette_NormalTMHM"
+    }
+  ]
+}

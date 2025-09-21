@@ -20,12 +20,10 @@ This tutorial will guide you through adding new Technical Machines (TMs) and Hid
 
 If you've done this before and just need a quick reference:
 
-1. Add move to TM/HM list in `include/constants/tms_hms.h`
-2. Update item constants if needed
-3. Add TM/HM description and graphics
-4. Update Pokémon learnset compatibility
-5. Place TM/HM in world (shops, NPCs, hidden items)
-6. Test functionality
+1. Add TM/HM entry to `src/data/tms_hms.json`
+2. Update Pokémon learnset compatibility
+3. Place TM/HM in world (shops, NPCs, hidden items)
+4. Test functionality
 
 ## Understanding TMs and HMs
 
@@ -51,60 +49,68 @@ If you've done this before and just need a quick reference:
 
 The TM/HM system involves several interconnected files:
 
-- `include/constants/tms_hms.h`: Defines which moves are TMs/HMs
-- `include/constants/items.h`: TM/HM item constants  
-- `src/data/items.h`: TM/HM item data (descriptions, prices, etc.)
+- `src/data/tms_hms.json`: JSON configuration defining all TMs and HMs with their moves and item properties
+- `include/constants/tms_hms.h`: Auto-generated constants defining which moves are TMs/HMs
+- `include/constants/items.h`: Auto-generated TM/HM item constants  
+- `src/data/items.h`: Auto-generated TM/HM item data (descriptions, prices, etc.)
 - `src/data/graphics/items.h`: TM/HM graphics and icons
 - Move compatibility in Pokémon species data
 - Distribution through shops, NPCs, and world placement
 
 ### TM/HM Numbering
 
-TMs are typically numbered 01-99+ while HMs use 01-08. The system automatically maps these numbers to specific moves based on the definitions in `tms_hms.h`.
+TMs are typically numbered 01-99+ while HMs use 01-08. The system automatically maps these numbers to specific moves based on the order defined in `tms_hms.json`.
 
 ## Adding New TMs
 
-### 1. Adding TM to Constants
+### 1. Adding TM to JSON Configuration
 
-Edit `include/constants/tms_hms.h` to add your new TM move:
+Edit `src/data/tms_hms.json` to add your new TM. The JSON structure defines all TM and HM properties in one place:
 
-```c
-#define FOREACH_TM(F) \
-    F(FOCUS_PUNCH) \
-    F(DRAGON_CLAW) \
-    F(WATER_PULSE) \
-    F(CALM_MIND) \
-    /* ... existing TMs ... */ \
-    F(YOUR_NEW_MOVE) \      // Add your move here
-    F(ANOTHER_NEW_MOVE)     // Another example
-```
-
-The system will automatically assign TM numbers based on the order in this list.
-
-### 2. Configuring TM Data
-
-The TM items are automatically generated based on the constants. However, you may need to add specific item data in `src/data/items.h`:
-
-```c
-[ITEM_TM_YOUR_NEW_MOVE] =
+```json
 {
-    .name = ITEM_NAME("TM95"),
-    .pluralName = ITEM_PLURAL_NAME("TM95s"),
-    .price = 3000,
-    .description = COMPOUND_STRING(
-        "Teaches a Pokémon\n"
-        "the move Your New\n"
-        "Move. Single use."),
-    .pocket = POCKET_TM_HM,
-    .type = ITEM_USE_PARTY_MENU,
-    .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-    .secondaryId = ITEM_TM_YOUR_NEW_MOVE - ITEM_TM01 + 1,
-    .iconPic = gItemIcon_TM,
-    .iconPalette = gItemIconPalette_TMNormal,
-},
+  "tms": [
+    {
+      "move": "FOCUS_PUNCH",
+      "name": "TM01",
+      "price": 3000,
+      "description": "Powerful, but makes\nthe user flinch if\nhit by the foe.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_TMNormal"
+    },
+    {
+      "move": "DRAGON_CLAW",
+      "name": "TM02",
+      "price": 3000,
+      "description": "Slashes the foe with\nsharp claws.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_TMNormal"
+    },
+    // ... existing TMs ...
+    {
+      "move": "YOUR_NEW_MOVE",
+      "name": "TM95",
+      "price": 3000,
+      "description": "Teaches a Pokémon\nthe move Your New\nMove. Single use.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_TM",
+      "iconPalette": "gItemIconPalette_TMNormal"
+    }
+  ],
+  "hms": [
+    // HM definitions here
+  ]
+}
 ```
 
-### 3. Adding TM Graphics
+The system will automatically:
+- Generate TM constants in `include/constants/tms_hms.h`
+- Create item definitions in `src/data/items.h`
+- Assign TM numbers based on the order in the JSON array
+
+### 2. Adding TM Graphics
 
 TMs typically use shared graphics with different colored palettes. If you want custom TM graphics:
 
@@ -120,9 +126,9 @@ To create custom TM graphics:
 1. Create your TM icon as a 24x24 pixel image
 2. Convert to GBA format using the graphics tools
 3. Add the data to `src/data/graphics/items.h`
-4. Reference it in your item data
+4. Reference it in your TM's `iconPic` field in the JSON
 
-### 4. Updating TM Lists
+### 3. Updating TM Lists
 
 #### Mart Availability
 Add TMs to shops by editing shop data files:
@@ -152,21 +158,46 @@ static const struct GameCornerPrize sGameCornerTMs[] =
 
 ## Adding New HMs
 
-### 1. Adding HM to Constants
+### 1. Adding HM to JSON Configuration
 
-Edit `include/constants/tms_hms.h`:
+Edit `src/data/tms_hms.json` to add your new HM:
 
-```c
-#define FOREACH_HM(F) \
-    F(CUT) \
-    F(FLY) \
-    F(SURF) \
-    F(STRENGTH) \
-    F(FLASH) \
-    F(ROCK_SMASH) \
-    F(WATERFALL) \
-    F(DIVE) \
-    F(YOUR_NEW_HM_MOVE)    // Add your HM here
+```json
+{
+  "tms": [
+    // TM definitions here
+  ],
+  "hms": [
+    {
+      "move": "CUT",
+      "name": "HM01",
+      "price": 0,
+      "description": "Cuts down thin\ntrees and grass.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_HM",
+      "iconPalette": "gItemIconPalette_HM"
+    },
+    {
+      "move": "FLY",
+      "name": "HM02",
+      "price": 0,
+      "description": "Flies to anywhere\nyou've visited.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_HM",
+      "iconPalette": "gItemIconPalette_HM"
+    },
+    // ... existing HMs ...
+    {
+      "move": "YOUR_NEW_HM_MOVE",
+      "name": "HM09",
+      "price": 0,
+      "description": "Teaches a Pokémon\nthe move Your New\nHM Move.",
+      "importance": "I_REUSABLE_TMS",
+      "iconPic": "gItemIcon_HM",
+      "iconPalette": "gItemIconPalette_HM"
+    }
+  ]
+}
 ```
 
 ### 2. Configuring HM Field Use
@@ -183,34 +214,13 @@ bool8 FieldMove_YourNewHMMove(void)
 }
 ```
 
-### 3. HM Item Data
-
-```c
-[ITEM_HM_YOUR_NEW_MOVE] =
-{
-    .name = ITEM_NAME("HM09"),
-    .pluralName = ITEM_PLURAL_NAME("HM09s"),
-    .price = 0,  // HMs are usually not sold
-    .description = COMPOUND_STRING(
-        "Teaches a Pokémon\n"
-        "the move Your New\n"
-        "HM Move."),
-    .pocket = POCKET_TM_HM,
-    .type = ITEM_USE_PARTY_MENU,
-    .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-    .secondaryId = ITEM_HM_YOUR_NEW_MOVE - ITEM_HM01 + 1,
-    .iconPic = gItemIcon_HM,
-    .iconPalette = gItemIconPalette_HM,
-},
-```
-
-### 4. Preventing HM Move Deletion
+### 3. Preventing HM Move Deletion
 
 HM moves require special handling in the move deleter:
 
 ```c
 // In move deleter code
-if (IsHMMove(moveId))
+if (IsMoveHM(moveId))
 {
     // Prevent deletion or show special message
     return FALSE;
@@ -221,43 +231,32 @@ if (IsHMMove(moveId))
 
 ### Changing TM Move Assignments
 
-To change which move a TM teaches, simply modify `include/constants/tms_hms.h`:
+To change which move a TM teaches, modify the `move` field in `src/data/tms_hms.json`:
 
-```c
-// Change TM01 from Focus Punch to Mega Punch
-#define FOREACH_TM(F) \
-    F(MEGA_PUNCH) \    // Was F(FOCUS_PUNCH)
-    F(DRAGON_CLAW) \
-    // ... rest unchanged
+```json
+{
+  "move": "MEGA_PUNCH"  // Changed from FOCUS_PUNCH
+}
 ```
 
 ### Updating TM Prices
 
-Modify the price in the item data:
+Modify the `price` field in the JSON:
 
-```c
-[ITEM_TM01] =
+```json
 {
-    // ... other fields ...
-    .price = 5000,  // Changed from 3000
-    // ... rest unchanged
-},
+  "price": 5000  // Changed from 3000
+}
 ```
 
 ### Changing TM Descriptions
 
-Update the description text:
+Update the `description` field in the JSON:
 
-```c
-[ITEM_TM01] =
+```json
 {
-    // ... other fields ...
-    .description = COMPOUND_STRING(
-        "Teaches a powerful\n"
-        "punching move to\n"
-        "a Pokémon."),
-    // ... rest unchanged
-},
+  "description": "Teaches a powerful\npunching move to\na Pokémon."
+}
 ```
 
 ## Distribution and Availability
@@ -361,14 +360,14 @@ Many TMs follow type-based compatibility rules. Electric-type TMs typically work
 ### Common Issues
 
 **TM doesn't appear in game:**
-- Check that the TM constant is properly defined
-- Verify the item data includes all required fields
+- Check that the TM entry is properly defined in `tms_hms.json`
+- Verify all required fields are present (move, name, price, description, etc.)
 - Ensure the TM is actually distributed somewhere (shop, NPC, etc.)
 
 **TM teaches wrong move:**
-- Check the order in `tms_hms.h` FOREACH_TM list
+- Check the `move` field in the JSON entry
 - Verify move constants are spelled correctly
-- Ensure there are no duplicate entries
+- Ensure there are no duplicate move assignments
 
 **Pokémon can't learn TM:**
 - Check the species' teachable learnset
@@ -376,7 +375,7 @@ Many TMs follow type-based compatibility rules. Electric-type TMs typically work
 - Ensure the move exists and is properly defined
 
 **TM graphics issues:**
-- Verify icon graphics are properly referenced
+- Verify `iconPic` and `iconPalette` fields reference valid graphics
 - Check that palette is appropriate for move type
 - Ensure graphics data is included in build
 
