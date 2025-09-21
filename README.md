@@ -1,35 +1,20 @@
 # About This Repository
 
-This repository is a fork of **[pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion/)**.  
-It combines features from the ROM hacking community, custom additions, and a large multi-region project.  
+This repository is a fork of **[pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion/)**.
 
-A dedicated branch combines **Kanto, Johto, Hoenn, and Sinnoh** into one connected map.  
-
+I am trying to set it up so the feature I am using from other and my own implementations are more approachable. I may fail misarably at this..
 
 ---
 
-## Features
+## Branches of Interest
 
-This repository includes everything from **pokeemerald-expansion**, plus:  
-
-- Features created specifically for this fork  
-- Features adapted from community forks  
-- Systems for multi-region gameplay  
-- Support for [Poryscript](README_poryscript.md)  
-
-A detailed list can be found in [`FEATURES.md`](FEATURES.md).  
-
----
-
-## Feature Branches
-
-Development is organized into branches. Hopefully each of these branches can be treated as a freature branch with can be easily merged into a pokeemerald-expansion repo.
+Hopefully each of these branches can be treated as a freature branch with can be easily merged into a pokeemerald-expansion repo.
 
 - **Four-Region Map Branch** – combines Kanto, Johto, Hoenn, and Sinnoh (Currently buggy due to firered script integration) Maps were ported from: [StrangeQuark’s Omnis branch](https://github.com/StrangeQuark/pokeemerald/tree/omnis#) and [LiderMorti00’s Sinnoh expansion](https://github.com/LiderMorti00/Sinnoh-pokeemerald-expansion)  
-- **Apartments** - Reimagines secret bases to act more like apartments. Adds fuctional decorations.
-- **Unbound Quest Menu** - Brings PokemonSanFran's implimentation of the Pokemon Unbound's quest menu up to date with pokeemerald-expansion (most of the work done by lienne for their pokemon starbound project). Will be converting the quest data to a json format.
-- **Dex Modules** - Tweaks the ev/iv to be tabs on the summary screen rather than all included on that stats page and allows them to be turned on via an in game flag.
-- **Level 50** - Sets the game up to run all battles at scaled level 50 and other tweaks to follow a vgs mindset
+- **House** - Reimagines secret bases to act more like houses. Adds fuctional decorations.
+- **Unbound Quest Menu** - Brings PokemonSanFran's implimentation of the Pokemon Unbound's quest menu up to date with pokeemerald-expansion (most of the work done by lienne for their pokemon starbound project). Will be converting the quest data to a json format. This is not my work,but I want to keep it here for ease of use for people looking to bring the quest menu into pokeemerald-expansion
+- **Dex Modules** - Tweaks the ev/iv to be tabs on the summary screen rather than all included on that stats page and allows them to be turned on seperately via in game flags.
+- **Level 50** - Sets the game up to run all battles at scaled level 50 and other tweaks to follow a vgs mindset. Double battles.
 
 ---
 
@@ -58,9 +43,9 @@ Contributions are welcome. You can:
 - Report bugs  
 - Suggest or add features  
 - Improve documentation  
-- Help with testing  
+- Help with testing
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.  
+Keep in mind that much of this is a work in progress, so most of it won't be working perfectly (or at all).
 
 ---
 
