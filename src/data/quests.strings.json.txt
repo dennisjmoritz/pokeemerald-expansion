@@ -1,0 +1,49 @@
+// quest names
+#include "global.h"
+
+## for quest in quests
+const u8 gText_SideQuestName_{{ loop.index }}[] = _("{{ quest.name }}");
+## endfor
+
+// quest descriptions
+## for quest in quests
+const u8 gText_SideQuestDesc_{{ loop.index }}[] = _("{{ quest.desc }}");
+## endfor
+
+// quest completed descriptions
+## for quest in quests
+const u8 gText_SideQuestDoneDesc_{{ loop.index }}[] = _("{{ quest.donedesc }}");
+## endfor
+
+// quest maps
+## for quest in quests
+const u8 gText_SideQuestMap{{ loop.index }}[] = _("{{ quest.map }}");
+## endfor
+
+// subquest names
+## for quest in quests
+## for subquest in quest.subquests
+const u8 gText_SideQuestName_{{ quest.id }}_{{ subquest.id }}[] = _("{{ subquest.name }}");
+## endfor
+## endfor
+
+// subquest descriptions
+## for quest in quests
+## for subquest in quest.subquests
+const u8 gText_SideQuestDesc_{{ quest.id }}_{{ subquest.id }}[] = _("{{ subquest.desc }}");
+## endfor
+## endfor
+
+// subquest completed descriptions
+## for quest in quests
+## for subquest in quest.subquests
+const u8 gText_SideQuestDoneDesc_{{ quest.id }}_{{ subquest.id }}[] = _("{{ subquest.donedesc }}");
+## endfor
+## endfor
+
+// subquest maps
+## for quest in quests
+## for subquest in quest.subquests
+const u8 gText_SideQuestMap_{{ quest.id }}_{{ subquest.id }}[] = _("{{ subquest.map }}");
+## endfor
+## endfor

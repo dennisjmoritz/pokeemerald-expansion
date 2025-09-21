@@ -1,0 +1,47 @@
+// quest names
+## for quest in quests
+extern const u8 gText_SideQuestName_{{ loop.index }}[];
+## endfor
+
+// quest descriptions
+## for quest in quests
+extern const u8 gText_SideQuestDesc_{{ loop.index }}[];
+## endfor
+
+// quest completed descriptions
+## for quest in quests
+extern const u8 gText_SideQuestDoneDesc_{{ loop.index }}[];
+## endfor
+
+// quest maps
+## for quest in quests
+extern const u8 gText_SideQuestMap{{ loop.index }}[];
+## endfor
+
+// subquest names
+## for quest in quests
+## for subquest in quest.subquests
+extern const u8 gText_SideQuestName_{{ quest.id }}_{{ subquest.id }}[];
+## endfor
+## endfor
+
+// subquest descriptions
+## for quest in quests
+## for subquest in quest.subquests
+extern const u8 gText_SideQuestDesc_{{ quest.id }}_{{ subquest.id }}[];
+## endfor
+## endfor
+
+// subquest completed descriptions
+## for quest in quests
+## for subquest in quest.subquests
+extern const u8 gText_SideQuestDoneDesc_{{ quest.id }}_{{ subquest.id }}[];
+## endfor
+## endfor
+
+// subquest maps
+## for quest in quests
+## for subquest in quest.subquests
+extern const u8 gText_SideQuestMap_{{ quest.id }}_{{ subquest.id }}[];
+## endfor
+## endfor

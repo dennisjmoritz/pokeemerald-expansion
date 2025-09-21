@@ -1,0 +1,46 @@
+{{ doNotModifyHeader }}
+
+#define side_quest(n, d, dd, m, s, st, sq, ns) {.name = n, .desc = d, .donedesc = dd, .map = m, .sprite = s, .spritetype = st, .subquests = sq, .numSubquests = ns}
+#define sub_quest(i, n, d, m, s, st) {.id = i, .name = n, .desc = d, .map = m, .sprite = s, .spritetype = st}
+
+// Forward declarations
+## for quest in quests
+extern const struct SubQuest gSubQuests_{{ quest.id }}[];
+## endfor
+
+// SideQuest array
+static const struct SideQuest sSideQuests[QUEST_COUNT] =
+{
+## for quest in quests
+{% set sub_count = 0 %}
+{% for sub in quest.subquests %}
+{% set sub_count = sub_count + 1 %}
+{% endfor %}
+	side_quest(
+	      gText_SideQuestName_{{ loop.index }},
+	      gText_SideQuestDesc_{{ loop.index }},
+	      gText_SideQuestDoneDesc_{{ loop.index }},
+	      gText_SideQuestMap{{ loop.index }},
+	      {{ quest.sprite }},
+	      {{ quest.spritetype }},
+	      gSubQuests_{{ quest.id }},
+	      {{ sub_count }}
+	),
+## endfor
+};
+
+// SubQuest arrays
+## for quest in quests
+const struct SubQuest gSubQuests_{{ quest.id }}[] = {
+## for subquest in quest.subquests
+	sub_quest(
+	      {{ subquest.id }},
+	      gText_SideQuestName_{{ quest.id }}_{{ subquest.id }},
+	      gText_SideQuestDesc_{{ quest.id }}_{{ subquest.id }},
+	      gText_SideQuestMap_{{ quest.id }}_{{ subquest.id }},
+	      {{ subquest.sprite }},
+	      {{ subquest.spritetype }}
+	),
+## endfor
+};
+## endfor

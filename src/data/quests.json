@@ -1,0 +1,24 @@
+{
+  "quests": [
+    {
+      "id": "QUEST_READ_SIGN",
+      "name": "Read the Sign",
+      "desc": "Read the sign in Littleroot Town",
+      "donedesc": "You read the sign!",
+      "map": "Littleroot Town",
+      "sprite": "OBJ_EVENT_GFX_ITEM_BALL",
+      "spritetype": "OBJECT",
+      "subquests": [
+        {
+          "id": 0,
+          "name": "Read the Sign Sub",
+          "desc": "Read the sign to complete this subquest.",
+          "donedesc": "You read the sign!",
+          "map": "Littleroot Town",
+          "sprite": "OBJ_EVENT_GFX_ITEM_BALL",
+          "spritetype": "OBJECT"
+        }
+      ]
+    }
+  ]
+}

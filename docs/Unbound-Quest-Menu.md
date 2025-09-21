@@ -180,222 +180,85 @@ The 30 parent quests and 30 subquests that come with this branch consume 25 byte
 
 # Usage
 ##  Adding New Quests
-There are 30 blank parent quests for you to edit. 
+Quests are now defined in a JSON file and automatically generated during build. Simply edit `src/data/quests.json` to add new quests.
 
-### [`include/constants/quests.h`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/include/constants/quests.h)
-```c
-#define QUEST_29        28
-#define QUEST_30        29
-#define QUEST_INFINITY_STONES 30
-#define QUEST_COUNT     (QUEST_INFINITY_STONES + 1)
+### [`src/data/quests.json`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/src/data/quests.json)
+```json
+{
+  "quests": [
+    {
+      "id": "QUEST_31",
+      "name": "Endgame",
+      "desc": "Help fix the balance of the universe!\nGather the Infinity Gems.",
+      "donedesc": "All in balance, as it should be.",
+      "map": "New York City",
+      "sprite": "OBJ_EVENT_GFX_MAXIE",
+      "spritetype": "OBJECT",
+      "subquests": []
+    }
+  ]
+}
 ```
-Add a quest definition at the end of this list. You can name these whatever you want, like `QUEST_INFINITY_STONES`. These are the names you will use when you are scripting to refer to the quests. You will also need to update the value of QUEST\_COUNT to be your last quest in the list, +1.
+Add a new quest object to the `quests` array. Each quest requires:
+- `id`: Unique identifier (used for constants)
+- `name`: Display name in the menu
+- `desc`: Description when quest is active
+- `donedesc`: Description when quest is complete
+- `map`: Location string
+- `sprite`: Sprite ID (OBJ_EVENT_GFX_*, SPECIES_*, ITEM_*)
+- `spritetype`: "OBJECT", "PKMN", or "ITEM"
+- `subquests`: Array of subquest objects (empty for no subquests)
 
-### [`src/strings.c`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/src/strings.c)
-```c
-const u8 gText_SideQuestName_31[] = _("Endgame");
-const u8 gText_SideQuestDesc_31[] =_("Help fix the balance of the universe!\nGather the Infinity Gems.");
-const u8 gText_SideQuestDoneDesc_31[] = _("All in balance, as it should be.");
-const u8 gText_SideQuestMap31[] = _("New York City");
-```
-These are all of the strings being used for your quest. 
-
-### [`include/strings.h`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/include/strings.h)
-```c
-extern const u8 gText_SideQuestName_31[];
-extern const u8 gText_SideQuestDesc_31[];
-extern const u8 gText_SideQuestDoneDesc_31[];
-extern const u8 gText_SideQuestMap31[];
-```
-You will also need to define them in the header file.
-
-### [`src/quests.c`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/src/quests.c)
-```c
-side_quest(
-      gText_SideQuestName_31, //side quest name string
-      gText_SideQuestDesc_31, //side quest description string 
-      gText_SideQuestDoneDesc_31, //side quest complete description string
-      gText_SideQuestMap31, //side quest map string
-      OBJ_EVENT_GFX_MAXIE, //quest sprite id
-      OBJECT, //quest sprite type
-      NULL, //subquest struct
-      0 //number of subquest
-),
-```
-Add a quest as the last member of the `sSideQuests` struct.
-
-#### Existing strings
-If you are using an existing location in your game for your map strings, like the Cave of Origin, you can just use the strings listed in [`src/data/region_map/region_map_entries.h`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/src/data/region_map/region_map_entries.h), but you'll need to remove the `static` at the beginning of the line you want to use. This applies to any of the strings here.
-
-#### Sprites
-Quests display a sprite of your choice in the bottom left. You can choose between an item, an NPC (object), or a Pokémon.
-* Object / NPC IDs are listed in [`include/constants/event_objects.h`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/include/constants/event_objects.h). In the next field, use `OBJECT`.
-* Item IDs are listed in [`include/constants/items.h`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/include/constants/items.h). In the next field, use `ITEM`.
-* Species IDs are listed in [`include/constants/species.h`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/include/constants/species.h). In the next field, use `PKMN`.
-
-If this quest has no subquests, then the last two values should be `NULL` and `0`. 
+The build system will automatically:
+- Generate constants in `include/constants/quests.h`
+- Generate strings in `src/strings_quests.c` and `include/strings_quests.h`
+- Generate data structures in `src/data/quests.h`
 
 ## Add New Subquests
-Quest 1 has 10 blank subquests and Quest 2 has 20. You can edit or delete as you see fit.
+Subquests are defined within the `subquests` array of their parent quest in `src/data/quests.json`.
 
-### [`include/constants/quests.h`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/include/constants/quests.h)
-```c
-#define QUEST_1_SUB_COUNT 10
-#define QUEST_2_SUB_COUNT 20
-#define QUEST_INFINITY_SUB_COUNT 6
-#define SUB_QUEST_COUNT (QUEST_1_SUB_COUNT + QUEST_2_SUB_COUNT + QUEST_INFINITY_SUB_COUNT)
-```
-Define the number of subquests that you'll be using. You will also need to update the total number of subquests.
-
-### [`src/strings.c`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/src/strings.c)
-```c
-const u8 gText_SideQuest31_SubName1[] = _("Space Gem");
-const u8 gText_SideQuest31_SubDesc1[] = _("You defeated Tony to get the\nSpace Gem.");
-const u8 gText_SideQuest31_SubMap1[] = _("Bulgaria");
-
-const u8 gText_SideQuest31_SubName2[] = _("Mind Gem");
-const u8 gText_SideQuest31_SubDesc2[] = _("You defeated Hank to get the\nMind Gem.");
-const u8 gText_SideQuest31_SubMap2[] = _("Illonis");
-
-const u8 gText_SideQuest31_SubName3[] = _("Soul Gem");
-const u8 gText_SideQuest31_SubDesc3[] = _("You defeated Stephen to get the\nSoul Gem.");
-const u8 gText_SideQuest31_SubMap3[] = _("Pennsylvania");
-
-const u8 gText_SideQuest31_SubName4[] = _("Reality Gem");
-const u8 gText_SideQuest31_SubDesc4[] = _("You defeated Reed to get the\nReality Gem.");
-const u8 gText_SideQuest31_SubMap4[] = _("California");
-
-const u8 gText_SideQuest31_SubName5[] = _("Time Gem");
-const u8 gText_SideQuest31_SubDesc5[] = _("You defeated Steve to get the\nTime Gem.");
-const u8 gText_SideQuest31_SubMap5[] = _("Manhattan");
-
-const u8 gText_SideQuest31_SubName6[] = _("Power Gem");
-const u8 gText_SideQuest31_SubDesc6[] = _("You defeated King to get the\nPower Gem.");
-const u8 gText_SideQuest31_SubMap6[] = _("Atlantis");
-```
-These are all of the strings being used for your subquest. 
-
-### [`include/strings.h`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/include/strings.h)
-
-```c
-extern const u8 gText_SideQuest31_SubName1[];
-extern const u8 gText_SideQuest31_SubDesc1[];
-extern const u8 gText_SideQuest31_SubMap1[];
-
-extern const u8 gText_SideQuest31_SubName2[];
-extern const u8 gText_SideQuest31_SubDesc2[];
-extern const u8 gText_SideQuest31_SubMap2[];
-
-extern const u8 gText_SideQuest31_SubName3[];
-extern const u8 gText_SideQuest31_SubDesc3[];
-extern const u8 gText_SideQuest31_SubMap3[];
-
-extern const u8 gText_SideQuest31_SubName4[];
-extern const u8 gText_SideQuest31_SubDesc4[];
-extern const u8 gText_SideQuest31_SubMap4[];
-
-extern const u8 gText_SideQuest31_SubName5[];
-extern const u8 gText_SideQuest31_SubDesc5[];
-extern const u8 gText_SideQuest31_SubMap5[];
-
-extern const u8 gText_SideQuest31_SubName6[];
-extern const u8 gText_SideQuest31_SubDesc6[];
-extern const u8 gText_SideQuest31_SubMap6[];
-```
-You will also need to define them in the header file.
-
-### [`src/quests.c`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/src/quests.c)
-```c
-static const struct SubQuest sSubQuests31[QUEST_INFINITY_SUB_COUNT] =
+### [`src/data/quests.json`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/src/data/quests.json)
+```json
 {
-    sub_quest(
-          30,
-          gText_SideQuest31_SubName1,
-          gText_SideQuest31_SubDesc1,
-          gText_SideQuest31_SubMap1,
-          SPECIES_PORYGON2,
-          PKMN,
-          sText_QuestMenu_Caught
-    ),
-
-    sub_quest(
-          31,
-          gText_SideQuest31_SubName2,
-          gText_SideQuest31_SubDesc2,
-          gText_SideQuest31_SubMap2,
-          SPECIES_URSARING,
-          PKMN,
-          sText_QuestMenu_Caught
-    ),
-
-    sub_quest(
-          32,
-          gText_SideQuest31_SubName3,
-          gText_SideQuest31_SubDesc3,
-          gText_SideQuest31_SubMap3,
-          OBJ_EVENT_GFX_HEX_MANIAC,
-          OBJECT,
-          sText_QuestMenu_Found
-    ),
-
-    sub_quest(
-          33,
-          gText_SideQuest31_SubName4,
-          gText_SideQuest31_SubDesc4,
-          gText_SideQuest31_SubMap4,
-          ITEM_PETAYA_BERRY,
-          ITEM,
-          sText_QuestMenu_Found
-    ),
-
-    sub_quest(
-          34,
-          gText_SideQuest31_SubName5,
-          gText_SideQuest31_SubDesc5,
-          gText_SideQuest31_SubMap5,
-          ITEM_GUARD_SPEC,
-          ITEM,
-          sText_QuestMenu_Read
-    ),
-
-    sub_quest(
-          35,
-          gText_SideQuest31_SubName6,
-          gText_SideQuest31_SubDesc6,
-          gText_SideQuest31_SubMap6,
-          OBJ_EVENT_GFX_SWIMMER_M,
-          OBJECT,
-          sText_QuestMenu_Read
-    ),
-};
+  "id": "QUEST_31",
+  "name": "Endgame",
+  "desc": "Help fix the balance of the universe!\nGather the Infinity Gems.",
+  "donedesc": "All in balance, as it should be.",
+  "map": "New York City",
+  "sprite": "OBJ_EVENT_GFX_MAXIE",
+  "spritetype": "OBJECT",
+  "subquests": [
+    {
+      "id": 0,
+      "name": "Space Gem",
+      "desc": "You defeated Tony to get the\nSpace Gem.",
+      "map": "Bulgaria",
+      "sprite": "SPECIES_PORYGON2",
+      "spritetype": "PKMN",
+      "type": "sText_QuestMenu_Caught"
+    },
+    {
+      "id": 1,
+      "name": "Mind Gem",
+      "desc": "You defeated Hank to get the\nMind Gem.",
+      "map": "Illonis",
+      "sprite": "SPECIES_URSARING",
+      "spritetype": "PKMN",
+      "type": "sText_QuestMenu_Caught"
+    }
+  ]
+}
 ```
-This new struct should sit above the sSideQuests struct. Each quest that has subquests needs its struct to hold the data for its children's subquests. In the declaration of the struct, you should be using the same number of quests that you previously defined. 
+Each subquest requires:
+- `id`: Unique ID within the parent quest (0-based)
+- `name`: Display name
+- `desc`: Description when complete
+- `map`: Location string
+- `sprite`: Sprite ID
+- `spritetype`: "OBJECT", "PKMN", or "ITEM"
+- `type`: Completion type string (e.g., "sText_QuestMenu_Caught", "sText_QuestMenu_Found")
 
-Regardless of their parent, **each subquest needs its own unique ID**. 
-
-```c
-static const u8 sText_QuestMenu_Caught[] = _("Caught");
-static const u8 sText_QuestMenu_Found[] = _("Found");
-static const u8 sText_QuestMenu_Read[] = _("Read");
-```
-The last member of the struct uses a string that is declared at the top of [`src/strings.c`](https://github.com/PokemonSanFran/pokeemerald/tree/unbound-quest-menu/src/strings.c). Each subquest can have its unique label, much like sprites.
-
-```c
-    side_quest(
-      gText_SideQuestName_31, //side quest name string
-      gText_SideQuestDesc_31, //side quest description string
-      gText_SideQuestDoneDesc_31, //side quest complete description string
-      gText_SideQuestMap31, //side quest map string
-      OBJ_EVENT_GFX_MAXIE, //quest sprite id
-      OBJECT, //quest sprite type
-      sSubQuests31, //subquest struct
-      QUEST_INFINITY_SUB_COUNT //number of subquest
-),
-```
-If you are adding subquests to a quest that previously did not have them, you will need to edit the last two members of that element to properly assign the children to the parent _and_ declare the correct number of subquests.
-
-#### Sprites
-Sprites work the same way for subquests as they do for main quests.
+The build system handles all code generation automatically.
 
 ## Accessing In-Game
 Calling the function 
@@ -665,6 +528,7 @@ All changes to this project will be documented in this section. The format is ba
 
 ## Unreleased
 
+* **JSON-Driven Quest System**: Quests are now defined in `src/data/quests.json` and automatically generate constants, strings, and data structures during build. No more manual editing of multiple C files! ([GitHub Copilot])
 * Subquests structs (`sSubQuests1`, `sSubQuests2`) have been merged into a singular struct, and the assignment of subquests to parent quests is now done with the definition of struct elements in `sSideQuests`. ([MeekRhino#2126](https://github.com/meekrhino))
 * Magic numbers for subquest ids have been replaced with constants that are relative to the parent quest, allowing for easier addition and removal of subquests. It will no longer be required to renumber every quest to accommodate new or old ones. ([MeekRhino#2126](https://github.com/meekrhino))
 * Constants are used for identifying members of the `sSideQuests` struct, making it easier to identify individual quests. ([MeekRhino#2126](https://github.com/meekrhino))

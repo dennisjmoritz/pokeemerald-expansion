@@ -1,10 +1,7 @@
 #ifndef GUARD_CONSTANTS_QUESTS_H
 #define GUARD_CONSTANTS_QUESTS_H
 
-//
-// DO NOT MODIFY THIS FILE! It is auto-generated from src/data/quests.json and Inja template src/data/quests.constants.json.txt
-//
-
+{{ doNotModifyHeader }}
 
 // questmenu scripting command params
 #define QUEST_MENU_OPEN 0               // opens the quest menu (questId = 0)
@@ -22,13 +19,27 @@
 // quest number defines
 #define QUEST_NONE                      0xFFFF
 
-#define QUEST_READ_SIGN        0
-#define QUEST_COUNT    1
+{% set quest_count = 0 %}
+{% for quest in quests %}
+#define {{ quest.id }}        0
+{% set quest_count = quest_count + 1 %}
+{% endfor %}
+#define QUEST_COUNT    {{ quest_count }}
 
 // sub quest defines
-#define SUB_QUEST_COUNT    1
+{% set sub_quest_count = 0 %}
+{% for quest in quests %}
+{% for subquest in quest.subquests %}
+{% set sub_quest_count = sub_quest_count + 1 %}
+{% endfor %}
+{% endfor %}
+#define SUB_QUEST_COUNT    {{ sub_quest_count }}
 
-#define SUB_QUEST_QUEST_READ_SIGN_0 0
+{% for quest in quests %}
+{% for subquest in quest.subquests %}
+#define SUB_QUEST_{{ quest.id }}_{{ subquest.id }} {{ subquest.id }}
+{% endfor %}
+{% endfor %}
 
 #define QUEST_ARRAY_COUNT  (SUB_QUEST_COUNT > QUEST_COUNT ? SUB_QUEST_COUNT : QUEST_COUNT)
 #endif // GUARD_CONSTANTS_QUESTS_H

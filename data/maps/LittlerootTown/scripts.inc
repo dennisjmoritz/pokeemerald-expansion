@@ -389,10 +389,14 @@ LittlerootTown_EventScript_GoSaveBirchTrigger::
 
 LittlerootTown_EventScript_TownSign::
 	msgbox LittlerootTown_Text_TownSign, MSGBOX_SIGN
+	setflag FLAG_SYS_QUEST_MENU_GET
+	questmenu QUEST_MENU_UNLOCK_QUEST QUEST_READ_SIGN
+	questmenu QUEST_MENU_SET_ACTIVE QUEST_READ_SIGN
 	end
 
 LittlerootTown_EventScript_BirchsLabSign::
 	msgbox LittlerootTown_Text_ProfBirchsLab, MSGBOX_SIGN
+	subquestmenu QUEST_MENU_COMPLETE_QUEST, QUEST_READ_SIGN, SUB_QUEST_QUEST_READ_SIGN_0
 	end
 
 LittlerootTown_EventScript_BrendansHouseSign::
