@@ -85,13 +85,13 @@ VermilionCity_Text_DoYouHaveATicket::
 VermilionCity_Text_FlashedSSTicket::
 # 63 "data/maps/VermilionCity/scripts.pory"
 	.string "{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\p"
-	.string "{FONT_MALE}Great! Welcome to the S.S. ANNE!$"
+	.string "{FONT_NORMAL}Great! Welcome to the S.S. ANNE!$"
 
 VermilionCity_Text_DontHaveNeededSSTicket::
 # 67 "data/maps/VermilionCity/scripts.pory"
 	.string "{FONT_NORMAL}{PLAYER} doesn't have the needed S.S.\n"
 	.string "TICKET.\p"
-	.string "{FONT_MALE}Sorry!\p"
+	.string "{FONT_NORMAL}Sorry!\p"
 	.string "You need a ticket to get aboard.$"
 
 VermilionCity_Text_TheShipSetSail::

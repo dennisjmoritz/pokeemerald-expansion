@@ -83,7 +83,7 @@ PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
 	.string "{COLOR DARK_GRAY}{STR_VAR_1} looks dreamily content\p"
 	.string "{COLOR RED}DAISY: There you go! All done.\n"
 	.string "{FONT_NORMAL}{STR_VAR_1} looks dreamily content\p"
-	.string "{FONT_FEMALE}DAISY: There you go! All done. See?\n"
+	.string "{FONT_NORMAL}DAISY: There you go! All done. See?\n"
 	.string "Doesn't it look nice?\p"
 	.string "Giggle It's such a cute POKMON.$"
 
