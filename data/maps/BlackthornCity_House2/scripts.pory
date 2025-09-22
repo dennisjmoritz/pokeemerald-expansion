@@ -1,6 +1,3 @@
-#events for BlackthornCity_House2
-
-script BlackthornCity_House2_MapScripts {
-	.byte 0
+mapscripts BlackthornCity_House2_MapScripts {
 }
 

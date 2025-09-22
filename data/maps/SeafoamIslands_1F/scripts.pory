@@ -1,9 +1,5 @@
-#events for SeafoamIslands_1F
-
-script SeafoamIslands_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SeafoamIslands_1F_OnTransition
-	.byte 0
-
+mapscripts SeafoamIslands_1F_MapScripts {
+    SeafoamIslands_1F_OnTransition
 }
 
 script SeafoamIslands_1F_OnTransition {

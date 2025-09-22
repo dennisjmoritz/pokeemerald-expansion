@@ -1,9 +1,5 @@
-#events for MagmaHideout_1F
-
-script MagmaHideout_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, MagmaHideout_1F_OnTransition
-	.byte 0
-
+mapscripts MagmaHideout_1F_MapScripts {
+    MagmaHideout_1F_OnTransition
 }
 
 script MagmaHideout_1F_EventScript_Grunt1 {

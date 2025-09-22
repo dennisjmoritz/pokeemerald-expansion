@@ -1,9 +1,5 @@
-#events for CeruleanCity
-
-script CeruleanCity_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, CeruleanCity_OnTransition
-	.byte 0
-
+mapscripts CeruleanCity_MapScripts {
+    CeruleanCity_OnTransition
 }
 
 script CeruleanCity_OnTransition {

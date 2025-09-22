@@ -1,7 +1,3 @@
-#events for BattleFrontier_Lounge9
-
-script BattleFrontier_Lounge9_MapScripts {
-	.byte 0
-
+mapscripts BattleFrontier_Lounge9_MapScripts {
 }
 

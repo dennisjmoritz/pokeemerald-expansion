@@ -1,8 +1,4 @@
-#events for Route6_NorthEntrance
-
-script Route6_NorthEntrance_MapScripts {
-	.byte 0
-
+mapscripts Route6_NorthEntrance_MapScripts {
 }
 
 script Route6_NorthEntrance_EventScript_Guard {

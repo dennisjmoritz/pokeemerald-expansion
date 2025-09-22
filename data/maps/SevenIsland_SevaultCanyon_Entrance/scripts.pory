@@ -1,8 +1,4 @@
-#events for SevenIsland_SevaultCanyon_Entrance
-
-script SevenIsland_SevaultCanyon_Entrance_MapScripts {
-	.byte 0
-
+mapscripts SevenIsland_SevaultCanyon_Entrance_MapScripts {
 }
 
 script SevenIsland_SevaultCanyon_Entrance_EventScript_RouteSign {

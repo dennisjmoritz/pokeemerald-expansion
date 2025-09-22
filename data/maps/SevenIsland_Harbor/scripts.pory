@@ -1,8 +1,4 @@
-#events for SevenIsland_Harbor
-
-script SevenIsland_Harbor_MapScripts {
-	.byte 0
-
+mapscripts SevenIsland_Harbor_MapScripts {
 }
 
 script SevenIsland_Harbor_EventScript_Sailor {

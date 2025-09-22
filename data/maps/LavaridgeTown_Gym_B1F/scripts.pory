@@ -1,9 +1,5 @@
-#events for LavaridgeTown_Gym_B1F
-
-script LavaridgeTown_Gym_B1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, LavaridgeTown_Gym_B1F_OnTransition
-	.byte 0
-
+mapscripts LavaridgeTown_Gym_B1F_MapScripts {
+    LavaridgeTown_Gym_B1F_OnTransition
 }
 
 script LavaridgeTown_Gym_B1F_EventScript_SetTrainerTempVars {

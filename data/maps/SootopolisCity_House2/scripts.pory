@@ -1,8 +1,4 @@
-#events for SootopolisCity_House2
-
-script SootopolisCity_House2_MapScripts {
-	.byte 0
-
+mapscripts SootopolisCity_House2_MapScripts {
 }
 
 script SootopolisCity_House2_EventScript_ExpertF {

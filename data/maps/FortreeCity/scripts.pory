@@ -1,10 +1,6 @@
-#events for FortreeCity
-
-script FortreeCity_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, FortreeCity_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, FortreeCity_OnResume
-	.byte 0
-
+mapscripts FortreeCity_MapScripts {
+    FortreeCity_OnTransition
+    FortreeCity_OnResume
 }
 
 script FortreeCity_EventScript_Man {

@@ -1,9 +1,5 @@
-#events for Underwater_SealedChamber
-
-script Underwater_SealedChamber_MapScripts {
-	map_script MAP_SCRIPT_ON_DIVE_WARP, Underwater_SealedChamber_OnDive
-	.byte 0
-
+mapscripts Underwater_SealedChamber_MapScripts {
+    Underwater_SealedChamber_OnDive
 }
 
 script Underwater_SealedChamber_EventScript_SurfaceRoute134 {

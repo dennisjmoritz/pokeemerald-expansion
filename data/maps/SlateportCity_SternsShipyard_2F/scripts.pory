@@ -1,8 +1,4 @@
-#events for SlateportCity_SternsShipyard_2F
-
-script SlateportCity_SternsShipyard_2F_MapScripts {
-	.byte 0
-
+mapscripts SlateportCity_SternsShipyard_2F_MapScripts {
 }
 
 script SlateportCity_SternsShipyard_2F_EventScript_Scientist1 {

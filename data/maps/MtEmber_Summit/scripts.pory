@@ -1,10 +1,6 @@
-#events for MtEmber_Summit
-
-script MtEmber_Summit_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, MtEmber_Summit_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, MtEmber_Summit_OnResume
-	.byte 0
-
+mapscripts MtEmber_Summit_MapScripts {
+    MtEmber_Summit_OnTransition
+    MtEmber_Summit_OnResume
 }
 
 script MtEmber_Summit_OnResume {

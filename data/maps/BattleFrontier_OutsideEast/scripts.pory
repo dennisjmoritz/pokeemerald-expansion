@@ -1,10 +1,6 @@
-#events for BattleFrontier_OutsideEast
-
-script BattleFrontier_OutsideEast_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_OutsideEast_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_OutsideEast_OnTransition
-	.byte 0
-
+mapscripts BattleFrontier_OutsideEast_MapScripts {
+    BattleFrontier_OutsideEast_OnResume
+    BattleFrontier_OutsideEast_OnTransition
 }
 
 script BattleFrontier_OutsideEast_EventScript_TryRemoveSudowoodo {

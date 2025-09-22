@@ -1,7 +1,3 @@
-#events for ShoalCave_HighTideEntranceRoom
-
-script ShoalCave_HighTideEntranceRoom_MapScripts {
-	.byte 0
-
+mapscripts ShoalCave_HighTideEntranceRoom_MapScripts {
 }
 

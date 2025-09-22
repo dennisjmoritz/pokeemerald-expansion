@@ -1,6 +1,3 @@
-#events for FuchsiaCity_ZooBuilding
-
-script FuchsiaCity_ZooBuilding_MapScripts {
-	.byte 0
+mapscripts FuchsiaCity_ZooBuilding_MapScripts {
 }
 

@@ -1,8 +1,4 @@
-#events for SafariZone_North
-
-script SafariZone_North_MapScripts {
-	.byte 0
-
+mapscripts SafariZone_North_MapScripts {
 }
 
 script SafariZone_North_EventScript_RestHouseSign {

@@ -1,8 +1,4 @@
-#events for BattleFrontier_Lounge5
-
-script BattleFrontier_Lounge5_MapScripts {
-	.byte 0
-
+mapscripts BattleFrontier_Lounge5_MapScripts {
 }
 
 script BattleFrontier_Lounge5_EventScript_NatureGirl {

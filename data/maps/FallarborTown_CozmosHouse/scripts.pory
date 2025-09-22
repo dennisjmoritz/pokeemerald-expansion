@@ -1,8 +1,4 @@
-#events for FallarborTown_CozmosHouse
-
-script FallarborTown_CozmosHouse_MapScripts {
-	.byte 0
-
+mapscripts FallarborTown_CozmosHouse_MapScripts {
 }
 
 script FallarborTown_CozmosHouse_EventScript_ProfCozmo {

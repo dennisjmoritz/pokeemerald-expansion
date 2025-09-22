@@ -1,9 +1,5 @@
-#events for CeladonCity
-
-script CeladonCity_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, CeladonCity_OnTransition
-	.byte 0
-
+mapscripts CeladonCity_MapScripts {
+    CeladonCity_OnTransition
 }
 
 script CeladonCity_OnTransition {

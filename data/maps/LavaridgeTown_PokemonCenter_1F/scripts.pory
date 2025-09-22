@@ -1,10 +1,6 @@
-#events for LavaridgeTown_PokemonCenter_1F
-
-script LavaridgeTown_PokemonCenter_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, LavaridgeTown_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
-	.byte 0
-
+mapscripts LavaridgeTown_PokemonCenter_1F_MapScripts {
+    LavaridgeTown_PokemonCenter_1F_OnTransition
+    CableClub_OnResume
 }
 
 script LavaridgeTown_PokemonCenter_1F_EventScript_Nurse {

@@ -1,8 +1,4 @@
-#events for LilycoveCity_DepartmentStore_2F
-
-script LilycoveCity_DepartmentStore_2F_MapScripts {
-	.byte 0
-
+mapscripts LilycoveCity_DepartmentStore_2F_MapScripts {
 }
 
 script LilycoveCity_DepartmentStore_2F_EventScript_Cook {

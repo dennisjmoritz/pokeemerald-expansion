@@ -1,8 +1,4 @@
-#events for PetalburgCity_Mart
-
-script PetalburgCity_Mart_MapScripts {
-	.byte 0
-
+mapscripts PetalburgCity_Mart_MapScripts {
 }
 
 script PetalburgCity_Mart_EventScript_Clerk {

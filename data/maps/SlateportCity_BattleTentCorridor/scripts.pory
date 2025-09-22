@@ -1,12 +1,7 @@
-#events for SlateportCity_BattleTentCorridor
-
-script SlateportCity_BattleTentCorridor_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_BattleTentCorridor_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SlateportCity_BattleTentCorridor_OnWarp
-	.byte 0
-
-	@ This is Slateport Tent's version of the Battle Factory Pre-Battle Room
-
+mapscripts SlateportCity_BattleTentCorridor_MapScripts {
+    SlateportCity_BattleTentCorridor_OnFrame
+    SlateportCity_BattleTentCorridor_OnWarp
+    @ This is Slateport Tent's version of the Battle Factory Pre-Battle Room
 }
 
 script SlateportCity_BattleTentCorridor_EventScript_SetUpObjects {

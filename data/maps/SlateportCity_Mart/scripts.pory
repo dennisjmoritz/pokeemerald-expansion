@@ -1,8 +1,4 @@
-#events for SlateportCity_Mart
-
-script SlateportCity_Mart_MapScripts {
-	.byte 0
-
+mapscripts SlateportCity_Mart_MapScripts {
 }
 
 script SlateportCity_Mart_EventScript_Clerk {

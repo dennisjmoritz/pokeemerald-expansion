@@ -1,8 +1,4 @@
-#events for VerdanturfTown_FriendshipRatersHouse
-
-script VerdanturfTown_FriendshipRatersHouse_MapScripts {
-	.byte 0
-
+mapscripts VerdanturfTown_FriendshipRatersHouse_MapScripts {
 }
 
 script VerdanturfTown_FriendshipRatersHouse_EventScript_FriendshipRater {

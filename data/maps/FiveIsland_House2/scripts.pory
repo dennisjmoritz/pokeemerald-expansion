@@ -1,8 +1,4 @@
-#events for FiveIsland_House2
-
-script FiveIsland_House2_MapScripts {
-	.byte 0
-
+mapscripts FiveIsland_House2_MapScripts {
 }
 
 script FiveIsland_House2_EventScript_OldMan {

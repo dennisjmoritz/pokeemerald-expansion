@@ -1,6 +1,3 @@
-#events for JubilifeCity_Mart
-
-script JubilifeCity_Mart_MapScripts {
-	.byte 0
+mapscripts JubilifeCity_Mart_MapScripts {
 }
 

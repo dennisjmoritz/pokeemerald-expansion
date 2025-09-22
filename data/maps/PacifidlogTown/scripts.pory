@@ -1,10 +1,6 @@
-#events for PacifidlogTown
-
-script PacifidlogTown_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, PacifidlogTown_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, PacifidlogTown_OnResume
-	.byte 0
-
+mapscripts PacifidlogTown_MapScripts {
+    PacifidlogTown_OnTransition
+    PacifidlogTown_OnResume
 }
 
 script PacifidlogTown_EventScript_NinjaBoy {

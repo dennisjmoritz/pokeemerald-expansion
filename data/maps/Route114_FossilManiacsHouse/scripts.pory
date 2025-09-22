@@ -1,9 +1,5 @@
-#events for Route114_FossilManiacsHouse
-
-script Route114_FossilManiacsHouse_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route114_FossilManiacsHouse_OnTransition
-	.byte 0
-
+mapscripts Route114_FossilManiacsHouse_MapScripts {
+    Route114_FossilManiacsHouse_OnTransition
 }
 
 script Route114_FossilManiacsHouse_EventScript_FossilManiacsBrother {

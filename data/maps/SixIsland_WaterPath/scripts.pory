@@ -1,8 +1,4 @@
-#events for SixIsland_WaterPath
-
-script SixIsland_WaterPath_MapScripts {
-	.byte 0
-
+mapscripts SixIsland_WaterPath_MapScripts {
 }
 
 script SixIsland_WaterPath_EventScript_HornWantedSign {

@@ -1,8 +1,4 @@
-#events for LavaridgeTown_House
-
-script LavaridgeTown_House_MapScripts {
-	.byte 0
-
+mapscripts LavaridgeTown_House_MapScripts {
 }
 
 script LavaridgeTown_House_EventScript_OldMan {

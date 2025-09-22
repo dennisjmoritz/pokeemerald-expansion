@@ -1,9 +1,5 @@
-#events for Route119_WeatherInstitute_2F
-
-script Route119_WeatherInstitute_2F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route119_WeatherInstitute_2F_OnTransition
-	.byte 0
-
+mapscripts Route119_WeatherInstitute_2F_MapScripts {
+    Route119_WeatherInstitute_2F_OnTransition
 }
 
 script Route119_WeatherInstitute_2F_EventScript_SetScientistPosAquaHere {

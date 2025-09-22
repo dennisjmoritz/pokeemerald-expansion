@@ -1,8 +1,4 @@
-#events for RustboroCity_Gym
-
-script RustboroCity_Gym_MapScripts {
-	.byte 0
-
+mapscripts RustboroCity_Gym_MapScripts {
 }
 
 script RustboroCity_Gym_EventScript_Roxanne {

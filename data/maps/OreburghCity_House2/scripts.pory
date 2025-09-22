@@ -1,6 +1,3 @@
-#events for OreburghCity_House2
-
-script OreburghCity_House2_MapScripts {
-	.byte 0
+mapscripts OreburghCity_House2_MapScripts {
 }
 

@@ -1,8 +1,4 @@
-#events for Route110_SeasideCyclingRoadSouthEntrance
-
-script Route110_SeasideCyclingRoadSouthEntrance_MapScripts {
-	.byte 0
-
+mapscripts Route110_SeasideCyclingRoadSouthEntrance_MapScripts {
 }
 
 script Route110_SeasideCyclingRoadSouthEntrance_EventScript_Clerk {

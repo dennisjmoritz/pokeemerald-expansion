@@ -1,8 +1,4 @@
-#events for ThreeIsland_House4
-
-script ThreeIsland_House4_MapScripts {
-	.byte 0
-
+mapscripts ThreeIsland_House4_MapScripts {
 }
 
 script ThreeIsland_House4_EventScript_BaldingMan {

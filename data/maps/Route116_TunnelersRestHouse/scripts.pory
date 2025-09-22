@@ -1,9 +1,5 @@
-#events for Route116_TunnelersRestHouse
-
-script Route116_TunnelersRestHouse_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route116_TunnelersRestHouse_OnTransition
-	.byte 0
-
+mapscripts Route116_TunnelersRestHouse_MapScripts {
+    Route116_TunnelersRestHouse_OnTransition
 }
 
 script Route116_TunnelersRestHouse_EventScript_Tunneler1 {

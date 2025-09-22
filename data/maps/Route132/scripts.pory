@@ -1,8 +1,4 @@
-#events for Route132
-
-script Route132_MapScripts {
-	.byte 0
-
+mapscripts Route132_MapScripts {
 }
 
 script Route132_EventScript_Gilbert {

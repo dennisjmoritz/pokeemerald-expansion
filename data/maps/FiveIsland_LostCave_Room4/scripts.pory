@@ -1,8 +1,4 @@
-#events for FiveIsland_LostCave_Room4
-
-script FiveIsland_LostCave_Room4_MapScripts {
-	.byte 0
-
+mapscripts FiveIsland_LostCave_Room4_MapScripts {
 }
 
 script FiveIsland_LostCave_Room4_EventScript_Laura {

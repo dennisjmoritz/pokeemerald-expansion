@@ -1,8 +1,4 @@
-#events for AbandonedShip_CaptainsOffice
-
-script AbandonedShip_CaptainsOffice_MapScripts {
-	.byte 0
-
+mapscripts AbandonedShip_CaptainsOffice_MapScripts {
 }
 
 script AbandonedShip_CaptainsOffice_EventScript_CaptSternAide {

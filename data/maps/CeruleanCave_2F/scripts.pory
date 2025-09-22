@@ -1,6 +1,3 @@
-#events for CeruleanCave_2F
-
-script CeruleanCave_2F_MapScripts {
-	.byte 0
+mapscripts CeruleanCave_2F_MapScripts {
 }
 

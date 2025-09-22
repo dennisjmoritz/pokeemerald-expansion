@@ -1,8 +1,4 @@
-#events for DewfordTown_House2
-
-script DewfordTown_House2_MapScripts {
-	.byte 0
-
+mapscripts DewfordTown_House2_MapScripts {
 }
 
 script DewfordTown_House2_EventScript_Man {

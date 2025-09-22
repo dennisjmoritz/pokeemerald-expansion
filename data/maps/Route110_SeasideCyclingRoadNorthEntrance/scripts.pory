@@ -1,9 +1,5 @@
-#events for Route110_SeasideCyclingRoadNorthEntrance
-
-script Route110_SeasideCyclingRoadNorthEntrance_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route110_SeasideCyclingRoadNorthEntrance_OnTransition
-	.byte 0
-
+mapscripts Route110_SeasideCyclingRoadNorthEntrance_MapScripts {
+    Route110_SeasideCyclingRoadNorthEntrance_OnTransition
 }
 
 script Route110_SeasideCyclingRoadNorthEntrance_EventScript_RestartChallenge {

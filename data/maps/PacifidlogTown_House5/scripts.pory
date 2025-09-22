@@ -1,8 +1,4 @@
-#events for PacifidlogTown_House5
-
-script PacifidlogTown_House5_MapScripts {
-	.byte 0
-
+mapscripts PacifidlogTown_House5_MapScripts {
 }
 
 script PacifidlogTown_House5_EventScript_MirageIslandWatcher {

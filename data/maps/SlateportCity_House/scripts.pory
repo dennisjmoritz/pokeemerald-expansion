@@ -1,8 +1,4 @@
-#events for SlateportCity_House
-
-script SlateportCity_House_MapScripts {
-	.byte 0
-
+mapscripts SlateportCity_House_MapScripts {
 }
 
 script SlateportCity_House_EventScript_PokefanM {

@@ -1,8 +1,4 @@
-#events for AbandonedShip_Rooms_1F
-
-script AbandonedShip_Rooms_1F_MapScripts {
-	.byte 0
-
+mapscripts AbandonedShip_Rooms_1F_MapScripts {
 }
 
 script AbandonedShip_Rooms_1F_EventScript_Gentleman {

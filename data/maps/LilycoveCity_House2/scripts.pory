@@ -1,8 +1,4 @@
-#events for LilycoveCity_House2
-
-script LilycoveCity_House2_MapScripts {
-	.byte 0
-
+mapscripts LilycoveCity_House2_MapScripts {
 }
 
 script LilycoveCity_House2_EventScript_FatMan {

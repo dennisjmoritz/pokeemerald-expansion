@@ -1,8 +1,4 @@
-#events for LavenderTown_VolunteerPokemonHouse
-
-script LavenderTown_VolunteerPokemonHouse_MapScripts {
-	.byte 0
-
+mapscripts LavenderTown_VolunteerPokemonHouse_MapScripts {
 }
 
 script LavenderTown_VolunteerPokemonHouse_EventScript_MrFuji {

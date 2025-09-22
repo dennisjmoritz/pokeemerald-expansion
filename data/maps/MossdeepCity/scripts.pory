@@ -1,9 +1,5 @@
-#events for MossdeepCity
-
-script MossdeepCity_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_OnTransition
-	.byte 0
-
+mapscripts MossdeepCity_MapScripts {
+    MossdeepCity_OnTransition
 }
 
 script MossdeepCity_EventScript_PokefanF {

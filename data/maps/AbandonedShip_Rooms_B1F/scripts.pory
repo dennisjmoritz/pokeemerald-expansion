@@ -1,9 +1,5 @@
-#events for AbandonedShip_Rooms_B1F
-
-script AbandonedShip_Rooms_B1F_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, AbandonedShip_Rooms_B1F_OnResume
-	.byte 0
-
+mapscripts AbandonedShip_Rooms_B1F_MapScripts {
+    AbandonedShip_Rooms_B1F_OnResume
 }
 
 script AbandonedShip_Rooms_B1F_EventScript_FatMan {

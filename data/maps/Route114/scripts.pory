@@ -1,11 +1,7 @@
-#events for Route114
-
-script Route114_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route114_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Route114_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route114_OnFrame
-	.byte 0
-
+mapscripts Route114_MapScripts {
+    Route114_OnTransition
+    Route114_OnLoad
+    Route114_OnFrame
 }
 
 script Route114_EventScript_Man {

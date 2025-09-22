@@ -1,9 +1,5 @@
-#events for CeladonCity_GameCorner
-
-script CeladonCity_GameCorner_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, CeladonCity_GameCorner_OnLoad
-	.byte 0
-
+mapscripts CeladonCity_GameCorner_MapScripts {
+    CeladonCity_GameCorner_OnLoad
 }
 
 script CeladonCity_GameCorner_OnLoad {

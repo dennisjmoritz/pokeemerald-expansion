@@ -1,9 +1,5 @@
-#events for Route131
-
-script Route131_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route131_OnTransition
-	.byte 0
-
+mapscripts Route131_MapScripts {
+    Route131_OnTransition
 }
 
 script Route131_EventScript_SetLayout {

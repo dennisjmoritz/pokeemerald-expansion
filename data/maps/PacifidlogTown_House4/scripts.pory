@@ -1,8 +1,4 @@
-#events for PacifidlogTown_House4
-
-script PacifidlogTown_House4_MapScripts {
-	.byte 0
-
+mapscripts PacifidlogTown_House4_MapScripts {
 }
 
 script PacifidlogTown_House4_EventScript_LittleGirl {

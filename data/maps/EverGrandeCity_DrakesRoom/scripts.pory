@@ -1,12 +1,8 @@
-#events for EverGrandeCity_DrakesRoom
-
-script EverGrandeCity_DrakesRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_DrakesRoom_OnFrame
-	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_DrakesRoom_OnLoad
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_SidneysRoom_OnWarp
-	.byte 0
-
-@ Unused, Drake uses Sidneys identical OnWarp for some reason
+mapscripts EverGrandeCity_DrakesRoom_MapScripts {
+    EverGrandeCity_DrakesRoom_OnFrame
+    EverGrandeCity_DrakesRoom_OnLoad
+    EverGrandeCity_SidneysRoom_OnWarp
+    @ Unused, Drake uses Sidneys identical OnWarp for some reason
 }
 
 script EverGrandeCity_DrakesRoom_EventScript_PlayerTurnNorth {

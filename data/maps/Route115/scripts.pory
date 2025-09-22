@@ -1,11 +1,7 @@
-#events for Route115
-
-script Route115_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, Route115_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, Route115_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route115_OnFrame
-	.byte 0
-
+mapscripts Route115_MapScripts {
+    Route115_OnLoad
+    Route115_OnTransition
+    Route115_OnFrame
 }
 
 script Route115_EventScript_Woman {

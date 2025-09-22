@@ -1,9 +1,4 @@
-#events for CianwoodCity_PokemonCenter_1F
-
-script CianwoodCity_PokemonCenter_1F_MapScripts {
-	.byte 0
-
-
+mapscripts CianwoodCity_PokemonCenter_1F_MapScripts {
 }
 
 script CianwoodCity_PokemonCenter_1F_EventScript_Nurse {

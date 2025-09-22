@@ -1,6 +1,3 @@
-#events for JubilifeCity_Flat1_F2
-
-script JubilifeCity_Flat1_F2_MapScripts {
-	.byte 0
+mapscripts JubilifeCity_Flat1_F2_MapScripts {
 }
 

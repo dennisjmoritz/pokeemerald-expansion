@@ -1,8 +1,4 @@
-#events for NavelRock_Harbor
-
-script NavelRock_Harbor_MapScripts {
-	.byte 0
-
+mapscripts NavelRock_Harbor_MapScripts {
 }
 
 script NavelRock_Harbor_EventScript_Sailor {

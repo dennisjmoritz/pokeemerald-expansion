@@ -1,9 +1,5 @@
-#events for SixIsland
-
-script SixIsland_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SixIsland_OnTransition
-	.byte 0
-
+mapscripts SixIsland_MapScripts {
+    SixIsland_OnTransition
 }
 
 script SixIsland_OnTransition {

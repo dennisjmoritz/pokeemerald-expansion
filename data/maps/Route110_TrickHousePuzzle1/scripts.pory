@@ -1,9 +1,5 @@
-#events for Route110_TrickHousePuzzle1
-
-script Route110_TrickHousePuzzle1_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, Route110_TrickHousePuzzle1_OnLoad
-	.byte 0
-
+mapscripts Route110_TrickHousePuzzle1_MapScripts {
+    Route110_TrickHousePuzzle1_OnLoad
 }
 
 script Route110_TrickHousePuzzle1_EventScript_OpenDoor {

@@ -1,6 +1,3 @@
-#events for BattleTower_Corridor
-
-script BattleTower_Corridor_MapScripts {
-	.byte 0
+mapscripts BattleTower_Corridor_MapScripts {
 }
 

@@ -1,8 +1,4 @@
-#events for Route2
-
-script Route2_MapScripts {
-	.byte 0
-
+mapscripts Route2_MapScripts {
 }
 
 script Route2_EventScript_RouteSign {

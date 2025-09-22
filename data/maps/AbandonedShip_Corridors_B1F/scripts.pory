@@ -1,10 +1,6 @@
-#events for AbandonedShip_Corridors_B1F
-
-script AbandonedShip_Corridors_B1F_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, AbandonedShip_Corridors_B1F_OnResume
-	map_script MAP_SCRIPT_ON_LOAD, AbandonedShip_Corridors_B1F_OnLoad
-	.byte 0
-
+mapscripts AbandonedShip_Corridors_B1F_MapScripts {
+    AbandonedShip_Corridors_B1F_OnResume
+    AbandonedShip_Corridors_B1F_OnLoad
 }
 
 script AbandonedShip_Corridors_B1F_EventScript_LockStorageRoom {

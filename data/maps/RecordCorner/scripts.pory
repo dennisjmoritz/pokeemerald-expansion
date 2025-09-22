@@ -1,7 +1,3 @@
-#events for RecordCorner
-
-script RecordCorner_MapScripts {
-	.byte 0
-
+mapscripts RecordCorner_MapScripts {
 }
 

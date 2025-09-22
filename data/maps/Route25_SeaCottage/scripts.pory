@@ -1,9 +1,5 @@
-#events for Route25_SeaCottage
-
-script Route25_SeaCottage_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route25_SeaCottage_OnTransition
-	.byte 0
-
+mapscripts Route25_SeaCottage_MapScripts {
+    Route25_SeaCottage_OnTransition
 }
 
 script Route25_SeaCottage_OnTransition {

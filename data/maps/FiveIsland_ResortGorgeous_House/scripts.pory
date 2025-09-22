@@ -1,8 +1,4 @@
-#events for FiveIsland_ResortGorgeous_House
-
-script FiveIsland_ResortGorgeous_House_MapScripts {
-	.byte 0
-
+mapscripts FiveIsland_ResortGorgeous_House_MapScripts {
 }
 
 script FiveIsland_ResortGorgeous_House_EventScript_Selphy {

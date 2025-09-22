@@ -1,9 +1,5 @@
-#events for EverGrandeCity_Hall4
-
-script EverGrandeCity_Hall4_MapScripts {
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_Hall4_OnWarp
-	.byte 0
-
+mapscripts EverGrandeCity_Hall4_MapScripts {
+    EverGrandeCity_Hall4_OnWarp
 }
 
 script EverGrandeCity_Hall4_EventScript_TurnPlayerNorth {

@@ -1,8 +1,4 @@
-#events for PewterCity_Mart
-
-script PewterCity_Mart_MapScripts {
-	.byte 0
-
+mapscripts PewterCity_Mart_MapScripts {
 }
 
 script PewterCity_Mart_EventScript_Youngster {

@@ -1,9 +1,4 @@
-#events for TwoIsland_PokemonCenter_1F
-
-script TwoIsland_PokemonCenter_1F_MapScripts {
-	.byte 0
-
-
+mapscripts TwoIsland_PokemonCenter_1F_MapScripts {
 }
 
 script TwoIsland_PokemonCenter_1F_EventScript_Nurse {

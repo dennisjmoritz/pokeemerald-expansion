@@ -1,11 +1,7 @@
-#events for DesertRuins
-
-script DesertRuins_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, DesertRuins_OnResume
-	map_script MAP_SCRIPT_ON_LOAD, DesertRuins_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, DesertRuins_OnTransition
-	.byte 0
-
+mapscripts DesertRuins_MapScripts {
+    DesertRuins_OnResume
+    DesertRuins_OnLoad
+    DesertRuins_OnTransition
 }
 
 script DesertRuins_EventScript_TryRemoveRegirock {

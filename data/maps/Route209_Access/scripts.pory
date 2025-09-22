@@ -1,6 +1,3 @@
-#events for Route209_Access
-
-script Route209_Access_MapScripts {
-	.byte 0
+mapscripts Route209_Access_MapScripts {
 }
 

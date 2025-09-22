@@ -1,9 +1,4 @@
-#events for OlivineCity_PokemonCenter_1F
-
-script OlivineCity_PokemonCenter_1F_MapScripts {
-	.byte 0
-
-
+mapscripts OlivineCity_PokemonCenter_1F_MapScripts {
 }
 
 script OlivineCity_PokemonCenter_1F_EventScript_Nurse {

@@ -1,8 +1,4 @@
-#events for CeladonCity_Restaurant
-
-script CeladonCity_Restaurant_MapScripts {
-	.byte 0
-
+mapscripts CeladonCity_Restaurant_MapScripts {
 }
 
 script CeladonCity_Restaurant_EventScript_Chef {

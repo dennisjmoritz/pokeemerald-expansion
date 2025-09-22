@@ -1,8 +1,4 @@
-#events for Route119_House
-
-script Route119_House_MapScripts {
-	.byte 0
-
+mapscripts Route119_House_MapScripts {
 }
 
 script Route119_House_EventScript_Woman {

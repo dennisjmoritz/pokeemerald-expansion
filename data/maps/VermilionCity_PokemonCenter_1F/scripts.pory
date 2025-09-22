@@ -1,9 +1,4 @@
-#events for VermilionCity_PokemonCenter_1F
-
-script VermilionCity_PokemonCenter_1F_MapScripts {
-	.byte 0
-
-
+mapscripts VermilionCity_PokemonCenter_1F_MapScripts {
 }
 
 script VermilionCity_PokemonCenter_1F_EventScript_Nurse {

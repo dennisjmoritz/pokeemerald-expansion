@@ -1,8 +1,4 @@
-#events for CeladonCity_GameCorner_PrizeRoom
-
-script CeladonCity_GameCorner_PrizeRoom_MapScripts {
-	.byte 0
-
+mapscripts CeladonCity_GameCorner_PrizeRoom_MapScripts {
 }
 
 script CeladonCity_GameCorner_PrizeRoom_EventScript_BaldingMan {

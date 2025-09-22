@@ -1,8 +1,4 @@
-#events for Route111_WinstrateFamilysHouse
-
-script Route111_WinstrateFamilysHouse_MapScripts {
-	.byte 0
-
+mapscripts Route111_WinstrateFamilysHouse_MapScripts {
 }
 
 script Route111_WinstrateFamilysHouse_EventScript_Victor {

@@ -1,8 +1,4 @@
-#events for Route5_SouthEntrance
-
-script Route5_SouthEntrance_MapScripts {
-	.byte 0
-
+mapscripts Route5_SouthEntrance_MapScripts {
 }
 
 script Route5_SouthEntrance_EventScript_Guard {

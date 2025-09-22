@@ -1,9 +1,4 @@
-#events for CherrygroveCity_PokemonCenter_1F
-
-script CherrygroveCity_PokemonCenter_1F_MapScripts {
-	.byte 0
-
-
+mapscripts CherrygroveCity_PokemonCenter_1F_MapScripts {
 }
 
 script CherrygroveCity_PokemonCenter_1F_EventScript_Nurse {

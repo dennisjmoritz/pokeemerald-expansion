@@ -1,6 +1,3 @@
-#events for Route29
-
-script Route29_MapScripts {
-	.byte 0
+mapscripts Route29_MapScripts {
 }
 

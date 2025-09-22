@@ -1,6 +1,3 @@
-#events for EternaForest
-
-script EternaForest_MapScripts {
-	.byte 0
+mapscripts EternaForest_MapScripts {
 }
 

@@ -1,8 +1,4 @@
-#events for DewfordTown_Hall
-
-script DewfordTown_Hall_MapScripts {
-	.byte 0
-
+mapscripts DewfordTown_Hall_MapScripts {
 }
 
 script DewfordTown_Hall_EventScript_Girl {

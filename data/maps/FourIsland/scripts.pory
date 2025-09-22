@@ -1,10 +1,6 @@
-#events for FourIsland
-
-script FourIsland_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, FourIsland_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, FourIsland_OnFrame
-	.byte 0
-
+mapscripts FourIsland_MapScripts {
+    FourIsland_OnTransition
+    FourIsland_OnFrame
 }
 
 script FourIsland_OnTransition {

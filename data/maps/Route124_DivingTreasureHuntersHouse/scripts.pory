@@ -1,9 +1,5 @@
-#events for Route124_DivingTreasureHuntersHouse
-
-script Route124_DivingTreasureHuntersHouse_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route124_DivingTreasureHuntersHouse_OnTransition
-	.byte 0
-
+mapscripts Route124_DivingTreasureHuntersHouse_MapScripts {
+    Route124_DivingTreasureHuntersHouse_OnTransition
 }
 
 script Route124_DivingTreasureHuntersHouse_EventScript_TreasureHunter {

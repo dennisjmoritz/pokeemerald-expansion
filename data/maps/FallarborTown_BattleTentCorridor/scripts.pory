@@ -1,9 +1,5 @@
-#events for FallarborTown_BattleTentCorridor
-
-script FallarborTown_BattleTentCorridor_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, FallarborTown_BattleTentCorridor_OnFrame
-	.byte 0
-
+mapscripts FallarborTown_BattleTentCorridor_MapScripts {
+    FallarborTown_BattleTentCorridor_OnFrame
 }
 
 script FallarborTown_BattleTentCorridor_EventScript_EnterCorridor {

@@ -1,8 +1,4 @@
-#events for PokemonTower_4F
-
-script PokemonTower_4F_MapScripts {
-	.byte 0
-
+mapscripts PokemonTower_4F_MapScripts {
 }
 
 script PokemonTower_4F_EventScript_Paula {

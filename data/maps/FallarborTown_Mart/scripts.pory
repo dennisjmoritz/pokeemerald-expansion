@@ -1,8 +1,4 @@
-#events for FallarborTown_Mart
-
-script FallarborTown_Mart_MapScripts {
-	.byte 0
-
+mapscripts FallarborTown_Mart_MapScripts {
 }
 
 script FallarborTown_Mart_EventScript_Clerk {

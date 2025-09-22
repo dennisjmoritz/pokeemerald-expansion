@@ -1,8 +1,4 @@
-#events for MtPyre_6F
-
-script MtPyre_6F_MapScripts {
-	.byte 0
-
+mapscripts MtPyre_6F_MapScripts {
 }
 
 script MtPyre_6F_EventScript_Valerie {

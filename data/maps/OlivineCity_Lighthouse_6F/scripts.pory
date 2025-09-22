@@ -1,6 +1,3 @@
-#events for OlivineCity_Lighthouse_6F
-
-script OlivineCity_Lighthouse_6F_MapScripts {
-	.byte 0
+mapscripts OlivineCity_Lighthouse_6F_MapScripts {
 }
 

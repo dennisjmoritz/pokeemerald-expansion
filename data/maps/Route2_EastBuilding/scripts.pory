@@ -1,8 +1,4 @@
-#events for Route2_EastBuilding
-
-script Route2_EastBuilding_MapScripts {
-	.byte 0
-
+mapscripts Route2_EastBuilding_MapScripts {
 }
 
 script Route2_EastBuilding_EventScript_Aide {

@@ -1,6 +1,3 @@
-#events for Route212_North
-
-script Route212_North_MapScripts {
-	.byte 0
+mapscripts Route212_North_MapScripts {
 }
 

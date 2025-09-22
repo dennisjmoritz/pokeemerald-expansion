@@ -1,6 +1,3 @@
-#events for WhirlIslands_SouthWestEntrance
-
-script WhirlIslands_SouthWestEntrance_MapScripts {
-	.byte 0
+mapscripts WhirlIslands_SouthWestEntrance_MapScripts {
 }
 

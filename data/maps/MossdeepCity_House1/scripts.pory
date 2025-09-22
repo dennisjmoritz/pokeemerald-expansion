@@ -1,8 +1,4 @@
-#events for MossdeepCity_House1
-
-script MossdeepCity_House1_MapScripts {
-	.byte 0
-
+mapscripts MossdeepCity_House1_MapScripts {
 }
 
 script MossdeepCity_House1_EventScript_BlackBelt {

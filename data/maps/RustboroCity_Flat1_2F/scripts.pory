@@ -1,8 +1,4 @@
-#events for RustboroCity_Flat1_2F
-
-script RustboroCity_Flat1_2F_MapScripts {
-	.byte 0
-
+mapscripts RustboroCity_Flat1_2F_MapScripts {
 }
 
 script RustboroCity_Flat1_2F_EventScript_WaldasDad {

@@ -1,6 +1,3 @@
-#events for OlivineCity_Gym
-
-script OlivineCity_Gym_MapScripts {
-	.byte 0
+mapscripts OlivineCity_Gym_MapScripts {
 }
 

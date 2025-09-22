@@ -1,9 +1,5 @@
-#events for FieryPath
-
-script FieryPath_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, FieryPath_OnTransition
-	.byte 0
-
+mapscripts FieryPath_MapScripts {
+    FieryPath_OnTransition
 }
 
 script FieryPath_EventScript_MoveScottToFallarbor {

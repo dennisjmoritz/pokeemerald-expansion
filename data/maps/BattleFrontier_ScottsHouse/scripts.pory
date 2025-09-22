@@ -1,8 +1,4 @@
-#events for BattleFrontier_ScottsHouse
-
-script BattleFrontier_ScottsHouse_MapScripts {
-	.byte 0
-
+mapscripts BattleFrontier_ScottsHouse_MapScripts {
 }
 
 script BattleFrontier_ScottsHouse_EventScript_Scott {

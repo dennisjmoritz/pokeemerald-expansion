@@ -1,10 +1,6 @@
-#events for AquaHideout_B1F
-
-script AquaHideout_B1F_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, AquaHideout_B1F_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, AquaHideout_B1F_OnTransition
-	.byte 0
-
+mapscripts AquaHideout_B1F_MapScripts {
+    AquaHideout_B1F_OnResume
+    AquaHideout_B1F_OnTransition
 }
 
 script AquaHideout_B1F_EventScript_TryRemoveElectrode {

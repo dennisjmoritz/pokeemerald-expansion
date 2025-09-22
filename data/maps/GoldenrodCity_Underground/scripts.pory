@@ -1,6 +1,3 @@
-#events for GoldenrodCity_Underground
-
-script GoldenrodCity_Underground_MapScripts {
-	.byte 0
+mapscripts GoldenrodCity_Underground_MapScripts {
 }
 

@@ -1,6 +1,3 @@
-#events for HearthomeCity
-
-script HearthomeCity_MapScripts {
-	.byte 0
+mapscripts HearthomeCity_MapScripts {
 }
 

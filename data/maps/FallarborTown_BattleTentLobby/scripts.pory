@@ -1,10 +1,6 @@
-#events for FallarborTown_BattleTentLobby
-
-script FallarborTown_BattleTentLobby_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, FallarborTown_BattleTentLobby_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, FallarborTown_BattleTentLobby_OnWarp
-	.byte 0
-
+mapscripts FallarborTown_BattleTentLobby_MapScripts {
+    FallarborTown_BattleTentLobby_OnFrame
+    FallarborTown_BattleTentLobby_OnWarp
 }
 
 script FallarborTown_BattleTentLobby_EventScript_TurnPlayerNorth {

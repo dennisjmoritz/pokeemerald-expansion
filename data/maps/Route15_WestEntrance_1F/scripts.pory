@@ -1,8 +1,4 @@
-#events for Route15_WestEntrance_1F
-
-script Route15_WestEntrance_1F_MapScripts {
-	.byte 0
-
+mapscripts Route15_WestEntrance_1F_MapScripts {
 }
 
 script Route15_WestEntrance_1F_EventScript_Guard {

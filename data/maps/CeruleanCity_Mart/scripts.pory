@@ -1,8 +1,4 @@
-#events for CeruleanCity_Mart
-
-script CeruleanCity_Mart_MapScripts {
-	.byte 0
-
+mapscripts CeruleanCity_Mart_MapScripts {
 }
 
 script CeruleanCity_Mart_EventScript_Youngster {

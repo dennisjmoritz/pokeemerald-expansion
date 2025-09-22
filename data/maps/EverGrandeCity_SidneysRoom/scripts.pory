@@ -1,12 +1,8 @@
-#events for EverGrandeCity_SidneysRoom
-
-script EverGrandeCity_SidneysRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_SidneysRoom_OnLoad
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_SidneysRoom_OnWarp
-	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_SidneysRoom_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_SidneysRoom_OnFrame
-	.byte 0
-
+mapscripts EverGrandeCity_SidneysRoom_MapScripts {
+    EverGrandeCity_SidneysRoom_OnLoad
+    EverGrandeCity_SidneysRoom_OnWarp
+    EverGrandeCity_SidneysRoom_OnTransition
+    EverGrandeCity_SidneysRoom_OnFrame
 }
 
 script EverGrandeCity_SidneysRoom_EventScript_ResetAdvanceToNextRoom {

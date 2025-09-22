@@ -1,8 +1,4 @@
-#events for PewterCity_House1
-
-script PewterCity_House1_MapScripts {
-	.byte 0
-
+mapscripts PewterCity_House1_MapScripts {
 }
 
 script PewterCity_House1_EventScript_BaldingMan {

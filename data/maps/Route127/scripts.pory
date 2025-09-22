@@ -1,11 +1,7 @@
-#events for Route127
-
-script Route127_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route127_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Route127_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route127_OnFrame
-	.byte 0
-
+mapscripts Route127_MapScripts {
+    Route127_OnTransition
+    Route127_OnLoad
+    Route127_OnFrame
 }
 
 script Route127_EventScript_Camden {

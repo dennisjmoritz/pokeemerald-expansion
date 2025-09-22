@@ -1,8 +1,4 @@
-#events for Route2_ViridianForest_NorthEntrance
-
-script Route2_ViridianForest_NorthEntrance_MapScripts {
-	.byte 0
-
+mapscripts Route2_ViridianForest_NorthEntrance_MapScripts {
 }
 
 script Route2_ViridianForest_NorthEntrance_EventScript_Youngster {

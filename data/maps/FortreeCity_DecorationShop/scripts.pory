@@ -1,8 +1,4 @@
-#events for FortreeCity_DecorationShop
-
-script FortreeCity_DecorationShop_MapScripts {
-	.byte 0
-
+mapscripts FortreeCity_DecorationShop_MapScripts {
 }
 
 script FortreeCity_DecorationShop_EventScript_PokefanM {

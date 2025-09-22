@@ -1,9 +1,5 @@
-#events for Route114_LanettesHouse
-
-script Route114_LanettesHouse_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route114_LanettesHouse_OnTransition
-	.byte 0
-
+mapscripts Route114_LanettesHouse_MapScripts {
+    Route114_LanettesHouse_OnTransition
 }
 
 script Route114_LanettesHouse_EventScript_Lanette {

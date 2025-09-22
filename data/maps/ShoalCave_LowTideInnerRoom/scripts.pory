@@ -1,10 +1,6 @@
-#events for ShoalCave_LowTideInnerRoom
-
-script ShoalCave_LowTideInnerRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, ShoalCave_LowTideInnerRoom_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, ShoalCave_LowTideInnerRoom_OnTransition
-	.byte 0
-
+mapscripts ShoalCave_LowTideInnerRoom_MapScripts {
+    ShoalCave_LowTideInnerRoom_OnLoad
+    ShoalCave_LowTideInnerRoom_OnTransition
 }
 
 script ShoalCave_LowTideInnerRoom_EventScript_SetHighTide {

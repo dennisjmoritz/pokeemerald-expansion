@@ -1,8 +1,4 @@
-#events for VermilionCity_Mart
-
-script VermilionCity_Mart_MapScripts {
-	.byte 0
-
+mapscripts VermilionCity_Mart_MapScripts {
 }
 
 script VermilionCity_Mart_EventScript_CooltrainerF {

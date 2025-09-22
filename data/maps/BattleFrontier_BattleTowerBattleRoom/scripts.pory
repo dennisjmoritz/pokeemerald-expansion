@@ -1,10 +1,6 @@
-#events for BattleFrontier_BattleTowerBattleRoom
-
-script BattleFrontier_BattleTowerBattleRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerBattleRoom_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleTowerBattleRoom_OnWarp
-	.byte 0
-
+mapscripts BattleFrontier_BattleTowerBattleRoom_MapScripts {
+    BattleFrontier_BattleTowerBattleRoom_OnFrame
+    BattleFrontier_BattleTowerBattleRoom_OnWarp
 }
 
 script BattleFrontier_BattleTowerBattleRoom_EventScript_SetUpObjects {
@@ -420,6 +416,12 @@ script BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge {
 
 }
 
+script BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved {
+	.string "There was an error of some sort.\n"
+	.string "Your record could not be saved.$"
+
+}
+
 text BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth {
     format("We will restore your POKéMON to full health.")
 }
@@ -470,12 +472,6 @@ text BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait {
 
 text BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge {
     format("Would you like to cancel your BATTLE ROOM challenge?")
-}
-
-script BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved {
-	.string "There was an error of some sort.\n"
-	.string "Your record could not be saved.$"
-
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay {

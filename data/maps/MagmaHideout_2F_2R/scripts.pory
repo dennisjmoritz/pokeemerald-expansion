@@ -1,8 +1,4 @@
-#events for MagmaHideout_2F_2R
-
-script MagmaHideout_2F_2R_MapScripts {
-	.byte 0
-
+mapscripts MagmaHideout_2F_2R_MapScripts {
 }
 
 script MagmaHideout_2F_2R_EventScript_Grunt15 {

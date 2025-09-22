@@ -1,6 +1,3 @@
-#events for MtSilver_SouthRoom
-
-script MtSilver_SouthRoom_MapScripts {
-	.byte 0
+mapscripts MtSilver_SouthRoom_MapScripts {
 }
 

@@ -1,9 +1,5 @@
-#events for RocketHideout_B4F
-
-script RocketHideout_B4F_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, RocketHideout_B4F_OnLoad
-	.byte 0
-
+mapscripts RocketHideout_B4F_MapScripts {
+    RocketHideout_B4F_OnLoad
 }
 
 script RocketHideout_B4F_OnLoad {

@@ -1,8 +1,4 @@
-#events for SixIsland_Mart
-
-script SixIsland_Mart_MapScripts {
-	.byte 0
-
+mapscripts SixIsland_Mart_MapScripts {
 }
 
 script SixIsland_Mart_EventScript_Clerk {

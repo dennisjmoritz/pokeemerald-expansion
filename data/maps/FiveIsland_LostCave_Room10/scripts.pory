@@ -1,10 +1,6 @@
-#events for FiveIsland_LostCave_Room10
-
-script FiveIsland_LostCave_Room10_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, FiveIsland_LostCave_Room10_OnResume
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, FiveIsland_LostCave_Room10_OnFrame
-	.byte 0
-
+mapscripts FiveIsland_LostCave_Room10_MapScripts {
+    FiveIsland_LostCave_Room10_OnResume
+    FiveIsland_LostCave_Room10_OnFrame
 }
 
 script FiveIsland_LostCave_Room10_OnResume {

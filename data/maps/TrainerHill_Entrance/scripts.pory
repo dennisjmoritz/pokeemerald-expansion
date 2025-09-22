@@ -1,13 +1,9 @@
-#events for TrainerHill_Entrance
-
-script TrainerHill_Entrance_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, TrainerHill_Entrance_OnResume
-	map_script MAP_SCRIPT_ON_RETURN_TO_FIELD, TrainerHill_Entrance_OnReturn
-	map_script MAP_SCRIPT_ON_TRANSITION, TrainerHill_Entrance_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, TrainerHill_Entrance_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, TrainerHill_Entrance_OnFrame
-	.byte 0
-
+mapscripts TrainerHill_Entrance_MapScripts {
+    TrainerHill_Entrance_OnResume
+    TrainerHill_Entrance_OnReturn
+    TrainerHill_Entrance_OnTransition
+    TrainerHill_Entrance_OnLoad
+    TrainerHill_Entrance_OnFrame
 }
 
 script TrainerHill_Entrance_EventScript_TryFaceAttendant {

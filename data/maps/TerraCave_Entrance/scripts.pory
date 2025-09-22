@@ -1,8 +1,4 @@
-#events for TerraCave_Entrance
-
-script TerraCave_Entrance_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, TerraCave_Entrance_OnTransition
-	.byte 0
-
+mapscripts TerraCave_Entrance_MapScripts {
+    TerraCave_Entrance_OnTransition
 }
 

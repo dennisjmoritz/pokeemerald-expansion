@@ -1,8 +1,4 @@
-#events for FourIsland_PokemonDayCare
-
-script FourIsland_PokemonDayCare_MapScripts {
-	.byte 0
-
+mapscripts FourIsland_PokemonDayCare_MapScripts {
 }
 
 script FourIsland_PokemonDayCare_EventScript_DaycareWoman {

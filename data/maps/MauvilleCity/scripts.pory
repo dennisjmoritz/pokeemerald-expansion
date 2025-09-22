@@ -1,9 +1,5 @@
-#events for MauvilleCity
-
-script MauvilleCity_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, MauvilleCity_OnTransition
-	.byte 0
-
+mapscripts MauvilleCity_MapScripts {
+    MauvilleCity_OnTransition
 }
 
 script MauvilleCity_EventScript_MoveWattsonBackToGym {

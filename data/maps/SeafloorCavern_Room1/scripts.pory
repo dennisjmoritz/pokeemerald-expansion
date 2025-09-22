@@ -1,8 +1,4 @@
-#events for SeafloorCavern_Room1
-
-script SeafloorCavern_Room1_MapScripts {
-	.byte 0
-
+mapscripts SeafloorCavern_Room1_MapScripts {
 }
 
 script SeafloorCavern_Room1_EventScript_Grunt1 {

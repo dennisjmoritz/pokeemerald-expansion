@@ -1,10 +1,6 @@
-#events for SlateportCity
-
-script SlateportCity_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SlateportCity_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_OnFrame
-	.byte 0
-
+mapscripts SlateportCity_MapScripts {
+    SlateportCity_OnTransition
+    SlateportCity_OnFrame
 }
 
 script SlateportCity_EventScript_EnterSlateport {

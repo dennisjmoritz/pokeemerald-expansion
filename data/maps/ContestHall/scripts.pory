@@ -1,13 +1,9 @@
-#events for ContestHall
-
-script ContestHall_MapScripts {
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, ContestHall_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, ContestHall_OnFrame
-	map_script MAP_SCRIPT_ON_TRANSITION, ContestHall_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, ContestHall_OnResume
-	map_script MAP_SCRIPT_ON_RETURN_TO_FIELD, ContestHall_OnReturn
-	.byte 0
-
+mapscripts ContestHall_MapScripts {
+    ContestHall_OnWarp
+    ContestHall_OnFrame
+    ContestHall_OnTransition
+    ContestHall_OnResume
+    ContestHall_OnReturn
 }
 
 script ContestHall_EventScript_ReadyContestMusic {

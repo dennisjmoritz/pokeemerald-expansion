@@ -1,10 +1,6 @@
-#events for NewMauville_Entrance
-
-script NewMauville_Entrance_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, NewMauville_Entrance_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, NewMauville_Entrance_OnTransition
-	.byte 0
-
+mapscripts NewMauville_Entrance_MapScripts {
+    NewMauville_Entrance_OnLoad
+    NewMauville_Entrance_OnTransition
 }
 
 script NewMauville_Entrance_EventScript_CloseDoor {

@@ -1,9 +1,5 @@
-#events for BattleFrontier_OutsideWest
-
-script BattleFrontier_OutsideWest_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_OutsideWest_OnTransition
-	.byte 0
-
+mapscripts BattleFrontier_OutsideWest_MapScripts {
+    BattleFrontier_OutsideWest_OnTransition
 }
 
 script BattleFrontier_OutsideWest_EventScript_FerryAttendant {

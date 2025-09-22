@@ -1,9 +1,5 @@
-#events for FarawayIsland_Entrance
-
-script FarawayIsland_Entrance_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, FarawayIsland_Entrance_OnTransition
-	.byte 0
-
+mapscripts FarawayIsland_Entrance_MapScripts {
+    FarawayIsland_Entrance_OnTransition
 }
 
 script FarawayIsland_Entrance_EventScript_SetCloudsWeather {

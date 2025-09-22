@@ -1,10 +1,6 @@
-#events for MtEmber_Exterior
-
-script MtEmber_Exterior_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, MtEmber_Exterior_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, MtEmber_Exterior_OnLoad
-	.byte 0
-
+mapscripts MtEmber_Exterior_MapScripts {
+    MtEmber_Exterior_OnTransition
+    MtEmber_Exterior_OnLoad
 }
 
 script MtEmber_Exterior_OnTransition {

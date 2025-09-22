@@ -1,8 +1,4 @@
-#events for SootopolisCity_House5
-
-script SootopolisCity_House5_MapScripts {
-	.byte 0
-
+mapscripts SootopolisCity_House5_MapScripts {
 }
 
 script SootopolisCity_House5_EventScript_Maniac {

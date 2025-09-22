@@ -1,6 +1,3 @@
-#events for SlowpokeWell_B2F
-
-script SlowpokeWell_B2F_MapScripts {
-	.byte 0
+mapscripts SlowpokeWell_B2F_MapScripts {
 }
 

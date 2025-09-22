@@ -1,9 +1,5 @@
-#events for UndergroundPath_NorthSouthTunnel
-
-script UndergroundPath_NorthSouthTunnel_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, UndergroundPath_NorthSouthTunnel_OnTransition
-	.byte 0
-
+mapscripts UndergroundPath_NorthSouthTunnel_MapScripts {
+    UndergroundPath_NorthSouthTunnel_OnTransition
 }
 
 script UndergroundPath_NorthSouthTunnel_OnTransition {

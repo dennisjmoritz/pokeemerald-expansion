@@ -1,8 +1,4 @@
-#events for BattleFrontier_RankingHall
-
-script BattleFrontier_RankingHall_MapScripts {
-	.byte 0
-
+mapscripts BattleFrontier_RankingHall_MapScripts {
 }
 
 script BattleFrontier_RankingHall_EventScript_TowerSinglesRecords {

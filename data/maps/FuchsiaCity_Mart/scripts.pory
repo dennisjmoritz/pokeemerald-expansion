@@ -1,8 +1,4 @@
-#events for FuchsiaCity_Mart
-
-script FuchsiaCity_Mart_MapScripts {
-	.byte 0
-
+mapscripts FuchsiaCity_Mart_MapScripts {
 }
 
 script FuchsiaCity_Mart_EventScript_CooltrainerF {

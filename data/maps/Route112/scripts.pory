@@ -1,9 +1,5 @@
-#events for Route112
-
-script Route112_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route112_OnTransition
-	.byte 0
-
+mapscripts Route112_MapScripts {
+    Route112_OnTransition
 }
 
 script Route112_EventScript_MagmaGrunts {

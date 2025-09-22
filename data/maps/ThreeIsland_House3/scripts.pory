@@ -1,8 +1,4 @@
-#events for ThreeIsland_House3
-
-script ThreeIsland_House3_MapScripts {
-	.byte 0
-
+mapscripts ThreeIsland_House3_MapScripts {
 }
 
 script ThreeIsland_House3_EventScript_Beauty {

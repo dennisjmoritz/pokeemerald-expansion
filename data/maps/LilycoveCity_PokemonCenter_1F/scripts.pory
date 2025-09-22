@@ -1,10 +1,6 @@
-#events for LilycoveCity_PokemonCenter_1F
-
-script LilycoveCity_PokemonCenter_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
-	.byte 0
-
+mapscripts LilycoveCity_PokemonCenter_1F_MapScripts {
+    LilycoveCity_PokemonCenter_1F_OnTransition
+    CableClub_OnResume
 }
 
 script LilycoveCity_PokemonCenter_1F_EventScript_SetLilycoveLadyGfx {

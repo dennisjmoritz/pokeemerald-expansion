@@ -1,12 +1,7 @@
-#events for BattleFrontier_Lounge3
-
-script BattleFrontier_Lounge3_MapScripts {
-	.byte 0
-
-	.set BET_AMOUNT_5,  5
-	.set BET_AMOUNT_10, 10
-	.set BET_AMOUNT_15, 15
-
+mapscripts BattleFrontier_Lounge3_MapScripts {
+    .set BET_AMOUNT_5,  5
+    .set BET_AMOUNT_10, 10
+    .set BET_AMOUNT_15, 15
 }
 
 script BattleFrontier_Lounge3_EventScript_Gambler {

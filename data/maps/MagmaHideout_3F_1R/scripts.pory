@@ -1,8 +1,4 @@
-#events for MagmaHideout_3F_1R
-
-script MagmaHideout_3F_1R_MapScripts {
-	.byte 0
-
+mapscripts MagmaHideout_3F_1R_MapScripts {
 }
 
 script MagmaHideout_3F_1R_EventScript_Grunt9 {

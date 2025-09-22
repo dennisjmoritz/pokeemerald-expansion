@@ -1,8 +1,4 @@
-#events for Route3
-
-script Route3_MapScripts {
-	.byte 0
-
+mapscripts Route3_MapScripts {
 }
 
 script Route3_EventScript_Youngster {

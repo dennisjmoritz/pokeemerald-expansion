@@ -1,8 +1,4 @@
-#events for SixIsland_GreenPath
-
-script SixIsland_GreenPath_MapScripts {
-	.byte 0
-
+mapscripts SixIsland_GreenPath_MapScripts {
 }
 
 script SixIsland_GreenPath_EventScript_RightRouteSign {

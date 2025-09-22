@@ -1,8 +1,4 @@
-#events for Route19
-
-script Route19_MapScripts {
-	.byte 0
-
+mapscripts Route19_MapScripts {
 }
 
 script Route19_EventScript_RouteSign {

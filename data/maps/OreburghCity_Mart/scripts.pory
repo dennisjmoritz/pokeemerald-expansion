@@ -1,6 +1,3 @@
-#events for OreburghCity_Mart
-
-script OreburghCity_Mart_MapScripts {
-	.byte 0
+mapscripts OreburghCity_Mart_MapScripts {
 }
 

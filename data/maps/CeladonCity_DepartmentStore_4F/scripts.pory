@@ -1,8 +1,4 @@
-#events for CeladonCity_DepartmentStore_4F
-
-script CeladonCity_DepartmentStore_4F_MapScripts {
-	.byte 0
-
+mapscripts CeladonCity_DepartmentStore_4F_MapScripts {
 }
 
 script CeladonCity_DepartmentStore_4F_EventScript_Man {

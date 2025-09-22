@@ -1,12 +1,8 @@
-#events for BattleFrontier_BattleTowerMultiPartnerRoom
-
-script BattleFrontier_BattleTowerMultiPartnerRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattleTowerMultiPartnerRoom_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattleTowerMultiPartnerRoom_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleTowerMultiPartnerRoom_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerMultiPartnerRoom_OnFrame
-	.byte 0
-
+mapscripts BattleFrontier_BattleTowerMultiPartnerRoom_MapScripts {
+    BattleFrontier_BattleTowerMultiPartnerRoom_OnResume
+    BattleFrontier_BattleTowerMultiPartnerRoom_OnTransition
+    BattleFrontier_BattleTowerMultiPartnerRoom_OnWarp
+    BattleFrontier_BattleTowerMultiPartnerRoom_OnFrame
 }
 
 script BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_ChosePartner {
@@ -224,18 +220,6 @@ script BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner8 {
 	goto BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_TalkToPotentialPartner
 	end
 
-}
-
-text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner {
-    format("Please find a partner from out of the TRAINERS gathered here.")
-}
-
-text BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner {
-    format("{PLAYER}, you have not found a partner for your tag team.\p Would you like to quit looking and return to the reception counter?")
-}
-
-text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner2 {
-    format("Then, please find a partner from the TRAINERS gathered here.")
 }
 
 script BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner {
@@ -2432,5 +2416,17 @@ script BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMReject {
 	.string "If we meet again, you have to team up\n"
 	.string "with me. You'll do that, right?$"
 
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner {
+    format("Please find a partner from out of the TRAINERS gathered here.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner {
+    format("{PLAYER}, you have not found a partner for your tag team.\p Would you like to quit looking and return to the reception counter?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner2 {
+    format("Then, please find a partner from the TRAINERS gathered here.")
 }
 

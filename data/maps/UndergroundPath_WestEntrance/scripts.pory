@@ -1,8 +1,4 @@
-#events for UndergroundPath_WestEntrance
-
-script UndergroundPath_WestEntrance_MapScripts {
-	.byte 0
-
+mapscripts UndergroundPath_WestEntrance_MapScripts {
 }
 
 script UndergroundPath_WestEntrance_EventScript_BaldingMan {

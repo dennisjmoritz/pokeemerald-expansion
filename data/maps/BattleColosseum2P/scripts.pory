@@ -1,6 +1,3 @@
-#events for BattleColosseum2P
-
-script BattleColosseum2P_MapScripts {
-	.byte 0
+mapscripts BattleColosseum2P_MapScripts {
 }
 

@@ -1,10 +1,6 @@
-#events for MauvilleCity_PokemonCenter_1F
-
-script MauvilleCity_PokemonCenter_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, MauvilleCity_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
-	.byte 0
-
+mapscripts MauvilleCity_PokemonCenter_1F_MapScripts {
+    MauvilleCity_PokemonCenter_1F_OnTransition
+    CableClub_OnResume
 }
 
 script MauvilleCity_PokemonCenter_1F_EventScript_SetMauvilleOldManGfx {

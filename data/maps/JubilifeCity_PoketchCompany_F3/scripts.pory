@@ -1,6 +1,3 @@
-#events for JubilifeCity_PoketchCompany_F3
-
-script JubilifeCity_PoketchCompany_F3_MapScripts {
-	.byte 0
+mapscripts JubilifeCity_PoketchCompany_F3_MapScripts {
 }
 

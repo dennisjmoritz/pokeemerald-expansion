@@ -1,8 +1,4 @@
-#events for RustboroCity_House1
-
-script RustboroCity_House1_MapScripts {
-	.byte 0
-
+mapscripts RustboroCity_House1_MapScripts {
 }
 
 script RustboroCity_House1_EventScript_Trader {

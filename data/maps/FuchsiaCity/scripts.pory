@@ -1,9 +1,5 @@
-#events for FuchsiaCity
-
-script FuchsiaCity_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, FuchsiaCity_OnTransition
-	.byte 0
-
+mapscripts FuchsiaCity_MapScripts {
+    FuchsiaCity_OnTransition
 }
 
 script FuchsiaCity_OnTransition {

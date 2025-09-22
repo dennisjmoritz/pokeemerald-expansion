@@ -1,10 +1,6 @@
-#events for UnionRoom
-
-script UnionRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, UnionRoom_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, UnionRoom_OnTransition
-	.byte 0
-
+mapscripts UnionRoom_MapScripts {
+    UnionRoom_OnResume
+    UnionRoom_OnTransition
 }
 
 script UnionRoom_EventScript_Player1 {

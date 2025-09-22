@@ -1,11 +1,7 @@
-#events for BattleFrontier_BattlePyramidFloor
-
-script BattleFrontier_BattlePyramidFloor_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePyramidFloor_OnResume
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePyramidFloor_OnFrame
-	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattlePyramidFloor_OnTransition
-	.byte 0
-
+mapscripts BattleFrontier_BattlePyramidFloor_MapScripts {
+    BattleFrontier_BattlePyramidFloor_OnResume
+    BattleFrontier_BattlePyramidFloor_OnFrame
+    BattleFrontier_BattlePyramidFloor_OnTransition
 }
 
 script BattleFrontier_BattlePyramidFloor_EventScript_UpdateLight {
@@ -130,10 +126,6 @@ script BattlePyramid_Retire {
 	goto BattleFrontier_BattlePyramid_EventScript_WarpToLobbyLost
 
 @ Also used by Trainer Hill
-}
-
-text BattleFacility_TrainerBattle_PlaceholderText {
-    format("This is a sample message.")
 }
 
 script gText_BattlePyramidConfirmRest {
@@ -991,5 +983,9 @@ script BattlePyramid_Text_OneTrainersRemaining6 {
 script BattlePyramid_Text_ZeroTrainersRemaining6 {
 	.string "There aren't any TRAINERS left that\n"
 	.string "can take you on now…$"
+}
+
+text BattleFacility_TrainerBattle_PlaceholderText {
+    format("This is a sample message.")
 }
 

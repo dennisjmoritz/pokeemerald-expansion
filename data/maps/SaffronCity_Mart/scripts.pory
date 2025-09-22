@@ -1,8 +1,4 @@
-#events for SaffronCity_Mart
-
-script SaffronCity_Mart_MapScripts {
-	.byte 0
-
+mapscripts SaffronCity_Mart_MapScripts {
 }
 
 script SaffronCity_Mart_EventScript_Lass {

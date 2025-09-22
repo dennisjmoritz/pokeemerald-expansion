@@ -1,11 +1,7 @@
-#events for Route125
-
-script Route125_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route125_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Route125_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route125_OnFrame
-	.byte 0
-
+mapscripts Route125_MapScripts {
+    Route125_OnTransition
+    Route125_OnLoad
+    Route125_OnFrame
 }
 
 script Route125_EventScript_Nolen {

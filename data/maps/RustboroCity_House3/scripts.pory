@@ -1,8 +1,4 @@
-#events for RustboroCity_House3
-
-script RustboroCity_House3_MapScripts {
-	.byte 0
-
+mapscripts RustboroCity_House3_MapScripts {
 }
 
 script RustboroCity_House3_EventScript_OldMan {

@@ -1,9 +1,5 @@
-#events for SlateportCity_Harbor
-
-script SlateportCity_Harbor_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SlateportCity_Harbor_OnTransition
-	.byte 0
-
+mapscripts SlateportCity_Harbor_MapScripts {
+    SlateportCity_Harbor_OnTransition
 }
 
 script SlateportCity_Harbor_EventScript_ShowSSTidal {

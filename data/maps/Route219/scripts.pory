@@ -1,6 +1,3 @@
-#events for Route219
-
-script Route219_MapScripts {
-	.byte 0
+mapscripts Route219_MapScripts {
 }
 

@@ -1,6 +1,3 @@
-#events for Route215_Access
-
-script Route215_Access_MapScripts {
-	.byte 0
+mapscripts Route215_Access_MapScripts {
 }
 

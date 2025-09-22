@@ -1,9 +1,5 @@
-#events for FallarborTown
-
-script FallarborTown_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, FallarborTown_OnTransition
-	.byte 0
-
+mapscripts FallarborTown_MapScripts {
+    FallarborTown_OnTransition
 }
 
 script FallarborTown_EventScript_ExpertM {

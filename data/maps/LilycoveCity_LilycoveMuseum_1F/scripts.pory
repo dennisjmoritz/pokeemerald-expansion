@@ -1,8 +1,4 @@
-#events for LilycoveCity_LilycoveMuseum_1F
-
-script LilycoveCity_LilycoveMuseum_1F_MapScripts {
-	.byte 0
-
+mapscripts LilycoveCity_LilycoveMuseum_1F_MapScripts {
 }
 
 script LilycoveCity_LilycoveMuseum_1F_EventScript_Greeter {

@@ -1,8 +1,4 @@
-#events for FortreeCity_House5
-
-script FortreeCity_House5_MapScripts {
-	.byte 0
-
+mapscripts FortreeCity_House5_MapScripts {
 }
 
 script FortreeCity_House5_EventScript_PokefanF {

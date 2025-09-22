@@ -1,10 +1,6 @@
-#events for SlateportCity_BattleTentLobby
-
-script SlateportCity_BattleTentLobby_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_BattleTentLobby_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SlateportCity_BattleTentLobby_OnWarp
-	.byte 0
-
+mapscripts SlateportCity_BattleTentLobby_MapScripts {
+    SlateportCity_BattleTentLobby_OnFrame
+    SlateportCity_BattleTentLobby_OnWarp
 }
 
 script SlateportCity_BattleTentLobby_EventScript_TurnPlayerNorth {

@@ -1,8 +1,4 @@
-#events for Route8_WestEntrance
-
-script Route8_WestEntrance_MapScripts {
-	.byte 0
-
+mapscripts Route8_WestEntrance_MapScripts {
 }
 
 script Route8_WestEntrance_EventScript_Guard {

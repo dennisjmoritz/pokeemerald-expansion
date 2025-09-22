@@ -1,8 +1,4 @@
-#events for FortreeCity_House2
-
-script FortreeCity_House2_MapScripts {
-	.byte 0
-
+mapscripts FortreeCity_House2_MapScripts {
 }
 
 script FortreeCity_House2_EventScript_HiddenPowerGiver {

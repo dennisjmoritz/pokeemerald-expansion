@@ -1,8 +1,4 @@
-#events for RustboroCity_CuttersHouse
-
-script RustboroCity_CuttersHouse_MapScripts {
-	.byte 0
-
+mapscripts RustboroCity_CuttersHouse_MapScripts {
 }
 
 script RustboroCity_CuttersHouse_EventScript_Cutter {

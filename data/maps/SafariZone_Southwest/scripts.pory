@@ -1,8 +1,4 @@
-#events for SafariZone_Southwest
-
-script SafariZone_Southwest_MapScripts {
-	.byte 0
-
+mapscripts SafariZone_Southwest_MapScripts {
 }
 
 script SafariZone_Southwest_EventScript_Woman {

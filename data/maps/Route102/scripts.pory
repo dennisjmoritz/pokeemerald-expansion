@@ -1,8 +1,4 @@
-#events for Route102
-
-script Route102_MapScripts {
-	.byte 0
-
+mapscripts Route102_MapScripts {
 }
 
 script Route102_EventScript_LittleBoy {

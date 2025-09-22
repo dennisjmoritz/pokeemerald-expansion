@@ -1,6 +1,3 @@
-#events for Route28_PokemonCenter_2F
-
-script Route28_PokemonCenter_2F_MapScripts {
-	.byte 0
+mapscripts Route28_PokemonCenter_2F_MapScripts {
 }
 

@@ -1,10 +1,6 @@
-#events for Route101
-
-script Route101_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route101_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route101_OnFrame
-	.byte 0
-
+mapscripts Route101_MapScripts {
+    Route101_OnTransition
+    Route101_OnFrame
 }
 
 script Route101_EventScript_HideMapNamePopup {

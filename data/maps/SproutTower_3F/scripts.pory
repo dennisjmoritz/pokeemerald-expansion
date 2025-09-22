@@ -1,6 +1,3 @@
-#events for SproutTower_3F
-
-script SproutTower_3F_MapScripts {
-	.byte 0
+mapscripts SproutTower_3F_MapScripts {
 }
 

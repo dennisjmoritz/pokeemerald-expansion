@@ -1,6 +1,3 @@
-#events for SevenIsland_TanobyRuins_WeepthChamber
-
-script SevenIsland_TanobyRuins_WeepthChamber_MapScripts {
-	.byte 0
+mapscripts SevenIsland_TanobyRuins_WeepthChamber_MapScripts {
 }
 

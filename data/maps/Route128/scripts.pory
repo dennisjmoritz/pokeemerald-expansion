@@ -1,10 +1,6 @@
-#events for Route128
-
-script Route128_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route128_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route128_OnFrame
-	.byte 0
-
+mapscripts Route128_MapScripts {
+    Route128_OnTransition
+    Route128_OnFrame
 }
 
 script Route128_EventScript_KyogreAwakenedScene {

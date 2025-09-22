@@ -1,6 +1,3 @@
-#events for MtMortar_Entrance
-
-script MtMortar_Entrance_MapScripts {
-	.byte 0
+mapscripts MtMortar_Entrance_MapScripts {
 }
 

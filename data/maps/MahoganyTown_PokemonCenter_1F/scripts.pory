@@ -1,9 +1,4 @@
-#events for MahoganyTown_PokemonCenter_1F
-
-script MahoganyTown_PokemonCenter_1F_MapScripts {
-	.byte 0
-
-
+mapscripts MahoganyTown_PokemonCenter_1F_MapScripts {
 }
 
 script MahoganyTown_PokemonCenter_1F_EventScript_Nurse {

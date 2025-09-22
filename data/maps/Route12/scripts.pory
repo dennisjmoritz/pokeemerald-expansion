@@ -1,9 +1,5 @@
-#events for Route12
-
-script Route12_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, Route12_OnResume
-	.byte 0
-
+mapscripts Route12_MapScripts {
+    Route12_OnResume
 }
 
 script Route12_OnResume {

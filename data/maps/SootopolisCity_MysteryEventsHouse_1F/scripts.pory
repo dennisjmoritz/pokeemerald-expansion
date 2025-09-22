@@ -1,10 +1,6 @@
-#events for SootopolisCity_MysteryEventsHouse_1F
-
-script SootopolisCity_MysteryEventsHouse_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SootopolisCity_MysteryEventsHouse_1F_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SootopolisCity_MysteryEventsHouse_1F_OnFrame
-	.byte 0
-
+mapscripts SootopolisCity_MysteryEventsHouse_1F_MapScripts {
+    SootopolisCity_MysteryEventsHouse_1F_OnTransition
+    SootopolisCity_MysteryEventsHouse_1F_OnFrame
 }
 
 script SootopolisCity_MysteryEventsHouse_1F_EventScript_SetTrainerVisitingLayout {

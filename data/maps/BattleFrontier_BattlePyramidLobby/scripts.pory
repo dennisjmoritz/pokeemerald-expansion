@@ -1,11 +1,7 @@
-#events for BattleFrontier_BattlePyramidLobby
-
-script BattleFrontier_BattlePyramidLobby_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePyramidLobby_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleDomeLobby_OnWarp
-	.byte 0
-
-@ Unused. Pyramid uses Dome's OnWarp (presumably by mistake). Their effects are identical
+mapscripts BattleFrontier_BattlePyramidLobby_MapScripts {
+    BattleFrontier_BattlePyramidLobby_OnFrame
+    BattleFrontier_BattleDomeLobby_OnWarp
+    @ Unused. Pyramid uses Dome's OnWarp (presumably by mistake). Their effects are identical
 }
 
 script BattleFrontier_BattlePyramidLobby_EventScript_GetChallengeStatus {

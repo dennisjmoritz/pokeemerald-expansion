@@ -1,8 +1,4 @@
-#events for SafariZone_RestHouse
-
-script SafariZone_RestHouse_MapScripts {
-	.byte 0
-
+mapscripts SafariZone_RestHouse_MapScripts {
 }
 
 script SafariZone_RestHouse_EventScript_Youngster {

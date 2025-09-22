@@ -1,8 +1,4 @@
-#events for FourIsland_House1
-
-script FourIsland_House1_MapScripts {
-	.byte 0
-
+mapscripts FourIsland_House1_MapScripts {
 }
 
 script FourIsland_House1_EventScript_FatMan {

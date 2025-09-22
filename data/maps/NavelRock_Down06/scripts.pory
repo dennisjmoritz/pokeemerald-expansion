@@ -1,7 +1,3 @@
-#events for NavelRock_Down06
-
-script NavelRock_Down06_MapScripts {
-	.byte 0
-
+mapscripts NavelRock_Down06_MapScripts {
 }
 

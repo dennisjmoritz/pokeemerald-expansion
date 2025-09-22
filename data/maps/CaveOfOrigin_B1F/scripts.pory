@@ -1,8 +1,4 @@
-#events for CaveOfOrigin_B1F
-
-script CaveOfOrigin_B1F_MapScripts {
-	.byte 0
-
+mapscripts CaveOfOrigin_B1F_MapScripts {
 }
 
 script CaveOfOrigin_B1F_EventScript_Wallace {

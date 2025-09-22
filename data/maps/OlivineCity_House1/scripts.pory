@@ -1,6 +1,3 @@
-#events for OlivineCity_House1
-
-script OlivineCity_House1_MapScripts {
-	.byte 0
+mapscripts OlivineCity_House1_MapScripts {
 }
 

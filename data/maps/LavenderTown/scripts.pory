@@ -1,9 +1,5 @@
-#events for LavenderTown
-
-script LavenderTown_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, LavenderTown_OnTransition
-	.byte 0
-
+mapscripts LavenderTown_MapScripts {
+    LavenderTown_OnTransition
 }
 
 script LavenderTown_OnTransition {

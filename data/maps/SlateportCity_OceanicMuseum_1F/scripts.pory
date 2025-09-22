@@ -1,8 +1,4 @@
-#events for SlateportCity_OceanicMuseum_1F
-
-script SlateportCity_OceanicMuseum_1F_MapScripts {
-	.byte 0
-
+mapscripts SlateportCity_OceanicMuseum_1F_MapScripts {
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_EntranceAttendant {

@@ -1,10 +1,6 @@
-#events for RustboroCity
-
-script RustboroCity_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, RustboroCity_OnFrame
-	.byte 0
-
+mapscripts RustboroCity_MapScripts {
+    RustboroCity_OnTransition
+    RustboroCity_OnFrame
 }
 
 script RustboroCity_EventScript_PositionScientistForExit {

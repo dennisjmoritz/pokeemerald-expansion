@@ -1,10 +1,6 @@
-#events for MtChimney_CableCarStation
-
-script MtChimney_CableCarStation_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, MtChimney_CableCarStation_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, MtChimney_CableCarStation_OnFrame
-	.byte 0
-
+mapscripts MtChimney_CableCarStation_MapScripts {
+    MtChimney_CableCarStation_OnTransition
+    MtChimney_CableCarStation_OnFrame
 }
 
 script MtChimney_CableCarStation_EventScript_MoveAttendantAside {

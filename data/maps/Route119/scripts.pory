@@ -1,10 +1,6 @@
-#events for Route119
-
-script Route119_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, Route119_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, Route119_OnTransition
-	.byte 0
-
+mapscripts Route119_MapScripts {
+    Route119_OnResume
+    Route119_OnTransition
 }
 
 script Route119_EventScript_TryRemoveKecleon {

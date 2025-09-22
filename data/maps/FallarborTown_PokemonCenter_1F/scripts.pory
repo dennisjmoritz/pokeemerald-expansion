@@ -1,10 +1,6 @@
-#events for FallarborTown_PokemonCenter_1F
-
-script FallarborTown_PokemonCenter_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, FallarborTown_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
-	.byte 0
-
+mapscripts FallarborTown_PokemonCenter_1F_MapScripts {
+    FallarborTown_PokemonCenter_1F_OnTransition
+    CableClub_OnResume
 }
 
 script FallarborTown_PokemonCenter_1F_EventScript_Nurse {

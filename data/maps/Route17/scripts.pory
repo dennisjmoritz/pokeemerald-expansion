@@ -1,8 +1,4 @@
-#events for Route17
-
-script Route17_MapScripts {
-	.byte 0
-
+mapscripts Route17_MapScripts {
 }
 
 script Route17_EventScript_ItemsNotice {

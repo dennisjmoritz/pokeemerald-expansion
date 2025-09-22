@@ -1,9 +1,5 @@
-#events for LilycoveCity_House3
-
-script LilycoveCity_House3_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_House3_OnTransition
-	.byte 0
-
+mapscripts LilycoveCity_House3_MapScripts {
+    LilycoveCity_House3_OnTransition
 }
 
 script LilycoveCity_House3_EventScript_PokefanF {

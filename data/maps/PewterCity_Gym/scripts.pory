@@ -1,8 +1,4 @@
-#events for PewterCity_Gym
-
-script PewterCity_Gym_MapScripts {
-	.byte 0
-
+mapscripts PewterCity_Gym_MapScripts {
 }
 
 script PewterCity_Gym_EventScript_Brock {

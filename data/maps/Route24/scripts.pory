@@ -1,8 +1,4 @@
-#events for Route24
-
-script Route24_MapScripts {
-	.byte 0
-
+mapscripts Route24_MapScripts {
 }
 
 script Route24_EventScript_Rocket {

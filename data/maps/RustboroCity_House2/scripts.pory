@@ -1,8 +1,4 @@
-#events for RustboroCity_House2
-
-script RustboroCity_House2_MapScripts {
-	.byte 0
-
+mapscripts RustboroCity_House2_MapScripts {
 }
 
 script RustboroCity_House2_EventScript_PokefanF {

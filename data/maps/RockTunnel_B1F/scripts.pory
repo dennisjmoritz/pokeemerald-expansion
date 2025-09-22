@@ -1,8 +1,4 @@
-#events for RockTunnel_B1F
-
-script RockTunnel_B1F_MapScripts {
-	.byte 0
-
+mapscripts RockTunnel_B1F_MapScripts {
 }
 
 script RockTunnel_B1F_EventScript_Sofia {

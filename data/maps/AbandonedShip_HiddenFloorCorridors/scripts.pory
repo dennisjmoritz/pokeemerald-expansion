@@ -1,10 +1,6 @@
-#events for AbandonedShip_HiddenFloorCorridors
-
-script AbandonedShip_HiddenFloorCorridors_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, AbandonedShip_HiddenFloorCorridors_OnResume
-	map_script MAP_SCRIPT_ON_LOAD, AbandonedShip_HiddenFloorCorridors_OnLoad
-	.byte 0
-
+mapscripts AbandonedShip_HiddenFloorCorridors_MapScripts {
+    AbandonedShip_HiddenFloorCorridors_OnResume
+    AbandonedShip_HiddenFloorCorridors_OnLoad
 }
 
 script AbandonedShip_HiddenFloorCorridors_EventScript_UnlockRoom1 {

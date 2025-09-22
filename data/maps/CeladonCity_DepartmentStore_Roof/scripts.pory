@@ -1,8 +1,4 @@
-#events for CeladonCity_DepartmentStore_Roof
-
-script CeladonCity_DepartmentStore_Roof_MapScripts {
-	.byte 0
-
+mapscripts CeladonCity_DepartmentStore_Roof_MapScripts {
 }
 
 script CeladonCity_DepartmentStore_Roof_EventScript_ThirstyGirl {

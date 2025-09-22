@@ -1,6 +1,3 @@
-#events for SurvivalArea
-
-script SurvivalArea_MapScripts {
-	.byte 0
+mapscripts SurvivalArea_MapScripts {
 }
 

@@ -1,6 +1,3 @@
-#events for MahoganyTown_RocketHideout_B3F
-
-script MahoganyTown_RocketHideout_B3F_MapScripts {
-	.byte 0
+mapscripts MahoganyTown_RocketHideout_B3F_MapScripts {
 }
 

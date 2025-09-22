@@ -1,9 +1,5 @@
-#events for BattleFrontier_BattleArenaCorridor
-
-script BattleFrontier_BattleArenaCorridor_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleArenaCorridor_OnFrame
-	.byte 0
-
+mapscripts BattleFrontier_BattleArenaCorridor_MapScripts {
+    BattleFrontier_BattleArenaCorridor_OnFrame
 }
 
 script BattleFrontier_BattleArenaCorridor_EventScript_WalkToBattleRoom {

@@ -1,8 +1,4 @@
-#events for FortreeCity_House3
-
-script FortreeCity_House3_MapScripts {
-	.byte 0
-
+mapscripts FortreeCity_House3_MapScripts {
 }
 
 script FortreeCity_House3_EventScript_Maniac {

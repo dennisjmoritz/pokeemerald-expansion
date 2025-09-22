@@ -1,10 +1,6 @@
-#events for RustboroCity_PokemonCenter_1F
-
-script RustboroCity_PokemonCenter_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
-	.byte 0
-
+mapscripts RustboroCity_PokemonCenter_1F_MapScripts {
+    RustboroCity_PokemonCenter_1F_OnTransition
+    CableClub_OnResume
 }
 
 script RustboroCity_PokemonCenter_1F_EventScript_Nurse {

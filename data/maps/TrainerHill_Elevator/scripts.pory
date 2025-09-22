@@ -1,9 +1,5 @@
-#events for TrainerHill_Elevator
-
-script TrainerHill_Elevator_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, TrainerHill_Elevator_OnFrame
-	.byte 0
-
+mapscripts TrainerHill_Elevator_MapScripts {
+    TrainerHill_Elevator_OnFrame
 }
 
 script TrainerHill_Elevator_EventScript_Attendant {

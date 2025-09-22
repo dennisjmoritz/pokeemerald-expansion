@@ -1,9 +1,5 @@
-#events for SilphCo_11F
-
-script SilphCo_11F_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, SilphCo_11F_OnLoad
-	.byte 0
-
+mapscripts SilphCo_11F_MapScripts {
+    SilphCo_11F_OnLoad
 }
 
 script SilphCo_11F_OnLoad {

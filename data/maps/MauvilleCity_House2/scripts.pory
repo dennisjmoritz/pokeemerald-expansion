@@ -1,8 +1,4 @@
-#events for MauvilleCity_House2
-
-script MauvilleCity_House2_MapScripts {
-	.byte 0
-
+mapscripts MauvilleCity_House2_MapScripts {
 }
 
 script MauvilleCity_House2_EventScript_Woman {

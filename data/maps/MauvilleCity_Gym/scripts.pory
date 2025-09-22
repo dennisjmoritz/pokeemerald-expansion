@@ -1,9 +1,5 @@
-#events for MauvilleCity_Gym
-
-script MauvilleCity_Gym_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, MauvilleCity_Gym_OnLoad
-	.byte 0
-
+mapscripts MauvilleCity_Gym_MapScripts {
+    MauvilleCity_Gym_OnLoad
 }
 
 script MauvilleCity_Gym_EventScript_UpdateBarriers {

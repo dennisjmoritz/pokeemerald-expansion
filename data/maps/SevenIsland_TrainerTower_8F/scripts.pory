@@ -1,6 +1,3 @@
-#events for SevenIsland_TrainerTower_8F
-
-script SevenIsland_TrainerTower_8F_MapScripts {
-	.byte 0
+mapscripts SevenIsland_TrainerTower_8F_MapScripts {
 }
 

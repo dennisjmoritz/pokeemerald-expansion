@@ -1,8 +1,4 @@
-#events for MeteorFalls_StevensCave
-
-script MeteorFalls_StevensCave_MapScripts {
-	.byte 0
-
+mapscripts MeteorFalls_StevensCave_MapScripts {
 }
 
 script MeteorFalls_StevensCave_EventScript_Steven {

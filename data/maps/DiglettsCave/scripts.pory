@@ -1,6 +1,3 @@
-#events for DiglettsCave
-
-script DiglettsCave_MapScripts {
-	.byte 0
+mapscripts DiglettsCave_MapScripts {
 }
 

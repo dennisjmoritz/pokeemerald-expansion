@@ -1,8 +1,4 @@
-#events for GraniteCave_StevensRoom
-
-script GraniteCave_StevensRoom_MapScripts {
-	.byte 0
-
+mapscripts GraniteCave_StevensRoom_MapScripts {
 }
 
 script GraniteCave_StevensRoom_EventScript_Steven {

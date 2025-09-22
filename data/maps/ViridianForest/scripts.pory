@@ -1,9 +1,5 @@
-#events for ViridianForest
-
-script ViridianForest_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, ViridianForest_OnTransition
-	.byte 0
-
+mapscripts ViridianForest_MapScripts {
+    ViridianForest_OnTransition
 }
 
 script ViridianForest_OnTransition {

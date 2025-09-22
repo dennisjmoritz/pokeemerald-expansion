@@ -1,8 +1,4 @@
-#events for Route21_North
-
-script Route21_North_MapScripts {
-	.byte 0
-
+mapscripts Route21_North_MapScripts {
 }
 
 script Route21_North_Text_RonaldIntro {

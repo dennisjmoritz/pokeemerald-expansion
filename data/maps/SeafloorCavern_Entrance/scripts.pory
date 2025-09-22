@@ -1,9 +1,5 @@
-#events for SeafloorCavern_Entrance
-
-script SeafloorCavern_Entrance_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, SeafloorCavern_Entrance_OnResume
-	.byte 0
-
+mapscripts SeafloorCavern_Entrance_MapScripts {
+    SeafloorCavern_Entrance_OnResume
 }
 
 script SeafloorCavern_Entrance_EventScript_Grunt {

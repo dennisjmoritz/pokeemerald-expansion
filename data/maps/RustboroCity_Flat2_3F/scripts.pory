@@ -1,8 +1,4 @@
-#events for RustboroCity_Flat2_3F
-
-script RustboroCity_Flat2_3F_MapScripts {
-	.byte 0
-
+mapscripts RustboroCity_Flat2_3F_MapScripts {
 }
 
 script RustboroCity_Flat2_3F_EventScript_DevonEmployee {

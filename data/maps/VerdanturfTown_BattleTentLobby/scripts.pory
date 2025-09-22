@@ -1,10 +1,6 @@
-#events for VerdanturfTown_BattleTentLobby
-
-script VerdanturfTown_BattleTentLobby_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentLobby_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, VerdanturfTown_BattleTentLobby_OnWarp
-	.byte 0
-
+mapscripts VerdanturfTown_BattleTentLobby_MapScripts {
+    VerdanturfTown_BattleTentLobby_OnFrame
+    VerdanturfTown_BattleTentLobby_OnWarp
 }
 
 script VerdanturfTown_BattleTentLobby_EventScript_TurnPlayerNorth {

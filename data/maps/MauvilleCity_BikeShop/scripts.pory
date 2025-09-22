@@ -1,8 +1,4 @@
-#events for MauvilleCity_BikeShop
-
-script MauvilleCity_BikeShop_MapScripts {
-	.byte 0
-
+mapscripts MauvilleCity_BikeShop_MapScripts {
 }
 
 script MauvilleCity_BikeShop_EventScript_Rydel {

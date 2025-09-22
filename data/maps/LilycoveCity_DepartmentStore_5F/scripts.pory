@@ -1,11 +1,7 @@
-#events for LilycoveCity_DepartmentStore_5F
-
-script LilycoveCity_DepartmentStore_5F_MapScripts {
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LilycoveCity_DepartmentStore_5F_OnWarp
-	.byte 0
-
-@ During the abnormal weather from Kyogre/Groudon awakening the dept store rooftop is inaccessible
-@ Likely done to avoid dealing with showing the weather. Technically the rooftop is indoors
+mapscripts LilycoveCity_DepartmentStore_5F_MapScripts {
+    LilycoveCity_DepartmentStore_5F_OnWarp
+    @ During the abnormal weather from Kyogre/Groudon awakening the dept store rooftop is inaccessible
+    @ Likely done to avoid dealing with showing the weather. Technically the rooftop is indoors
 }
 
 script LilycoveCity_DepartmentStore_5F_EventScript_BlockRoofStairs {

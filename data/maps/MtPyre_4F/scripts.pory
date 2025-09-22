@@ -1,10 +1,5 @@
-#events for MtPyre_4F
-
-script MtPyre_4F_MapScripts {
-	.byte 0
-
-@ Seems like the scripts for the 4F and 5F were swapped
-
+mapscripts MtPyre_4F_MapScripts {
+    @ Seems like the scripts for the 4F and 5F were swapped
 }
 
 script MtPyre_5F_EventScript_Atsushi {

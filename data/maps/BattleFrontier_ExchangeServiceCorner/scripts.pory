@@ -1,8 +1,4 @@
-#events for BattleFrontier_ExchangeServiceCorner
-
-script BattleFrontier_ExchangeServiceCorner_MapScripts {
-	.byte 0
-
+mapscripts BattleFrontier_ExchangeServiceCorner_MapScripts {
 }
 
 script BattleFrontier_ExchangeServiceCorner_EventScript_ClerkWelcome {
@@ -540,6 +536,159 @@ script BattleFrontier_ExchangeServiceCorner_EventScript_Girl {
 
 }
 
+script BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc {
+	.string "A large poster with a SMOOCHUM print.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc {
+	.string "A SMOOCHUM cushion.\n"
+	.string "Place it on a mat or a desk.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc {
+	.string "A SMOOCHUM DOLL.\n"
+	.string "Place it on a mat or a desk.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc {
+	.string "A TOGEPI DOLL.\n"
+	.string "Place it on a mat or a desk.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc {
+	.string "A MEOWTH DOLL.\n"
+	.string "Place it on a mat or a desk.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc {
+	.string "A CLEFAIRY DOLL.\n"
+	.string "Place it on a mat or a desk.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc {
+	.string "A DITTO DOLL.\n"
+	.string "Place it on a mat or a desk.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc {
+	.string "A CYNDAQUIL DOLL.\n"
+	.string "Place it on a mat or a desk.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc {
+	.string "A CHIKORITA DOLL.\n"
+	.string "Place it on a mat or a desk.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc {
+	.string "A TOTODILE DOLL.\n"
+	.string "Place it on a mat or a desk.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc {
+	.string "A large DOLL.\n"
+	.string "Place it on a mat or a desk.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc {
+	.string "Raises the stat ATTACK of one\n"
+	.string "POKéMON.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc {
+	.string "Raises the stat SP. ATK of one\n"
+	.string "POKéMON.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_IronDesc {
+	.string "Raises the stat DEFENSE of one\n"
+	.string "POKéMON.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_ZincDesc {
+	.string "Raises the stat SP. DEF of one\n"
+	.string "POKéMON.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc {
+	.string "Raises the stat SPEED of one\n"
+	.string "POKéMON.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc {
+	.string "Raises the HP of one POKéMON.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc {
+	.string "A hold item that gradually restores\n"
+	.string "HP in battle.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc {
+	.string "A hold item that restores any\n"
+	.string "lowered stat.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc {
+	.string "A hold item that occasionally allows\n"
+	.string "the first strike.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc {
+	.string "A hold item that snaps POKéMON out\n"
+	.string "of infatuation.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc {
+	.string "A hold item that casts a glare to\n"
+	.string "reduce accuracy.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc {
+	.string "Raises a move's power, but permits\n"
+	.string "only that move.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc {
+	.string "A hold item that may cause flinching\n"
+	.string "when the foe is hit.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc {
+	.string "A hold item that occasionally\n"
+	.string "prevents fainting.$"
+
+}
+
+script BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc {
+	.string "A hold item that raises the\n"
+	.string "critical-hit rate.$"
+}
+
 text BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize {
     format("Hello, this is the EXCHANGE SERVICE CORNER.\p We exchange the Battle Points you have collected for lovely prizes.\p Please choose a prize from this list.")
 }
@@ -710,158 +859,5 @@ text BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll {
 
 text BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord {
     format("Did you know?\p If you stretch your record at any of the BATTLE facilities, they start\l giving you more and more Battle Points.")
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc {
-	.string "A large poster with a SMOOCHUM print.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc {
-	.string "A SMOOCHUM cushion.\n"
-	.string "Place it on a mat or a desk.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc {
-	.string "A SMOOCHUM DOLL.\n"
-	.string "Place it on a mat or a desk.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc {
-	.string "A TOGEPI DOLL.\n"
-	.string "Place it on a mat or a desk.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc {
-	.string "A MEOWTH DOLL.\n"
-	.string "Place it on a mat or a desk.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc {
-	.string "A CLEFAIRY DOLL.\n"
-	.string "Place it on a mat or a desk.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc {
-	.string "A DITTO DOLL.\n"
-	.string "Place it on a mat or a desk.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc {
-	.string "A CYNDAQUIL DOLL.\n"
-	.string "Place it on a mat or a desk.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc {
-	.string "A CHIKORITA DOLL.\n"
-	.string "Place it on a mat or a desk.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc {
-	.string "A TOTODILE DOLL.\n"
-	.string "Place it on a mat or a desk.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc {
-	.string "A large DOLL.\n"
-	.string "Place it on a mat or a desk.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc {
-	.string "Raises the stat ATTACK of one\n"
-	.string "POKéMON.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc {
-	.string "Raises the stat SP. ATK of one\n"
-	.string "POKéMON.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_IronDesc {
-	.string "Raises the stat DEFENSE of one\n"
-	.string "POKéMON.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_ZincDesc {
-	.string "Raises the stat SP. DEF of one\n"
-	.string "POKéMON.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc {
-	.string "Raises the stat SPEED of one\n"
-	.string "POKéMON.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc {
-	.string "Raises the HP of one POKéMON.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc {
-	.string "A hold item that gradually restores\n"
-	.string "HP in battle.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc {
-	.string "A hold item that restores any\n"
-	.string "lowered stat.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc {
-	.string "A hold item that occasionally allows\n"
-	.string "the first strike.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc {
-	.string "A hold item that snaps POKéMON out\n"
-	.string "of infatuation.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc {
-	.string "A hold item that casts a glare to\n"
-	.string "reduce accuracy.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc {
-	.string "Raises a move's power, but permits\n"
-	.string "only that move.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc {
-	.string "A hold item that may cause flinching\n"
-	.string "when the foe is hit.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc {
-	.string "A hold item that occasionally\n"
-	.string "prevents fainting.$"
-
-}
-
-script BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc {
-	.string "A hold item that raises the\n"
-	.string "critical-hit rate.$"
 }
 

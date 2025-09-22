@@ -1,9 +1,4 @@
-#events for IndigoPlateau_PokemonCenter_1F
-
-script IndigoPlateau_PokemonCenter_1F_MapScripts {
-	.byte 0
-
-
+mapscripts IndigoPlateau_PokemonCenter_1F_MapScripts {
 }
 
 script IndigoPlateau_PokemonCenter_1F_EventScript_Nurse {

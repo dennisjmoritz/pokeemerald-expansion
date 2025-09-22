@@ -1,6 +1,3 @@
-#events for NewBarkTown_House1
-
-script NewBarkTown_House1_MapScripts {
-	.byte 0
+mapscripts NewBarkTown_House1_MapScripts {
 }
 

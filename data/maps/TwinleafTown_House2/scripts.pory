@@ -1,6 +1,3 @@
-#events for TwinleafTown_House2
-
-script TwinleafTown_House2_MapScripts {
-	.byte 0
+mapscripts TwinleafTown_House2_MapScripts {
 }
 

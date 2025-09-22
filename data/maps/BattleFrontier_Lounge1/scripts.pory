@@ -1,9 +1,5 @@
-#events for BattleFrontier_Lounge1
-
-script BattleFrontier_Lounge1_MapScripts {
-	.byte 0
-
-@ NPC that rates pokemon based on their IVs
+mapscripts BattleFrontier_Lounge1_MapScripts {
+    @ NPC that rates pokemon based on their IVs
 }
 
 script BattleFrontier_Lounge1_EventScript_Breeder {

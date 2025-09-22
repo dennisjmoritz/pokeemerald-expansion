@@ -1,8 +1,4 @@
-#events for LavenderTown_Mart
-
-script LavenderTown_Mart_MapScripts {
-	.byte 0
-
+mapscripts LavenderTown_Mart_MapScripts {
 }
 
 script LavenderTown_Mart_EventScript_BaldingMan {

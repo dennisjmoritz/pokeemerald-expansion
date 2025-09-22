@@ -1,6 +1,3 @@
-#events for OldaleTown_RivalsHouse
-
-script OldaleTown_RivalsHouse_MapScripts {
-	.byte 0
+mapscripts OldaleTown_RivalsHouse_MapScripts {
 }
 

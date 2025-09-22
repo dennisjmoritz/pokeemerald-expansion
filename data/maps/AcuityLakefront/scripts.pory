@@ -1,6 +1,3 @@
-#events for AcuityLakefront
-
-script AcuityLakefront_MapScripts {
-	.byte 0
+mapscripts AcuityLakefront_MapScripts {
 }
 

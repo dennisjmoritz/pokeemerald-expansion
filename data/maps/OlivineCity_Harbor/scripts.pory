@@ -1,6 +1,3 @@
-#events for OlivineCity_Harbor
-
-script OlivineCity_Harbor_MapScripts {
-	.byte 0
+mapscripts OlivineCity_Harbor_MapScripts {
 }
 

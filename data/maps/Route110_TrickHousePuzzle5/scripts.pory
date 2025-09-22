@@ -1,9 +1,5 @@
-#events for Route110_TrickHousePuzzle5
-
-script Route110_TrickHousePuzzle5_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle5_OnTransition
-	.byte 0
-
+mapscripts Route110_TrickHousePuzzle5_MapScripts {
+    Route110_TrickHousePuzzle5_OnTransition
 }
 
 script Route110_TrickHousePuzzle5_EventScript_Scroll {

@@ -1,9 +1,5 @@
-#events for SilphCo_1F
-
-script SilphCo_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SilphCo_1F_OnTransition
-	.byte 0
-
+mapscripts SilphCo_1F_MapScripts {
+    SilphCo_1F_OnTransition
 }
 
 script SilphCo_1F_OnTransition {

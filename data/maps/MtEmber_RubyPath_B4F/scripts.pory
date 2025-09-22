@@ -1,8 +1,4 @@
-#events for MtEmber_RubyPath_B4F
-
-script MtEmber_RubyPath_B4F_MapScripts {
-	.byte 0
-
+mapscripts MtEmber_RubyPath_B4F_MapScripts {
 }
 
 script MtEmber_RubyPath_B4F_EventScript_BrailleABC {

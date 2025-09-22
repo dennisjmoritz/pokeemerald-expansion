@@ -1,9 +1,5 @@
-#events for Route109_SeashoreHouse
-
-script Route109_SeashoreHouse_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route109_SeashoreHouse_OnTransition
-	.byte 0
-
+mapscripts Route109_SeashoreHouse_MapScripts {
+    Route109_SeashoreHouse_OnTransition
 }
 
 script Route109_SeashoreHouse_EventScript_Owner {

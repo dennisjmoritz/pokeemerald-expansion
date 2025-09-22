@@ -1,6 +1,3 @@
-#events for MtEmber_RubyPath_B2F_Stairs
-
-script MtEmber_RubyPath_B2F_Stairs_MapScripts {
-	.byte 0
+mapscripts MtEmber_RubyPath_B2F_Stairs_MapScripts {
 }
 

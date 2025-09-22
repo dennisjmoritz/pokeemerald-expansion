@@ -1,9 +1,5 @@
-#events for SevenIsland_SevaultCanyon_TanobyKey
-
-script SevenIsland_SevaultCanyon_TanobyKey_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SevenIsland_SevaultCanyon_TanobyKey_OnTransition
-	.byte 0
-
+mapscripts SevenIsland_SevaultCanyon_TanobyKey_MapScripts {
+    SevenIsland_SevaultCanyon_TanobyKey_OnTransition
 }
 
 script SevenIsland_SevaultCanyon_TanobyKey_OnTransition {

@@ -1,11 +1,7 @@
-#events for Route129
-
-script Route129_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route129_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Route129_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route129_OnFrame
-	.byte 0
-
+mapscripts Route129_MapScripts {
+    Route129_OnTransition
+    Route129_OnLoad
+    Route129_OnFrame
 }
 
 script Route129_EventScript_CheckSetAbnormalWeather {

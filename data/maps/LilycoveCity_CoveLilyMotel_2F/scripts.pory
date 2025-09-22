@@ -1,8 +1,4 @@
-#events for LilycoveCity_CoveLilyMotel_2F
-
-script LilycoveCity_CoveLilyMotel_2F_MapScripts {
-	.byte 0
-
+mapscripts LilycoveCity_CoveLilyMotel_2F_MapScripts {
 }
 
 script LilycoveCity_CoveLilyMotel_2F_EventScript_GameDesigner {

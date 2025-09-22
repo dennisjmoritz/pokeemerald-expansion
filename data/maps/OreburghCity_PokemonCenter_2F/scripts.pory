@@ -1,6 +1,3 @@
-#events for OreburghCity_PokemonCenter_2F
-
-script OreburghCity_PokemonCenter_2F_MapScripts {
-	.byte 0
+mapscripts OreburghCity_PokemonCenter_2F_MapScripts {
 }
 

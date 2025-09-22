@@ -1,8 +1,4 @@
-#events for Route110_TrickHousePuzzle4
-
-script Route110_TrickHousePuzzle4_MapScripts {
-	.byte 0
-
+mapscripts Route110_TrickHousePuzzle4_MapScripts {
 }
 
 script Route110_TrickHousePuzzle4_EventScript_Scroll {

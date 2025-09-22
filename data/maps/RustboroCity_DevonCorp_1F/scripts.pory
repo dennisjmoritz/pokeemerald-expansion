@@ -1,9 +1,5 @@
-#events for RustboroCity_DevonCorp_1F
-
-script RustboroCity_DevonCorp_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_DevonCorp_1F_OnTransition
-	.byte 0
-
+mapscripts RustboroCity_DevonCorp_1F_MapScripts {
+    RustboroCity_DevonCorp_1F_OnTransition
 }
 
 script RustboroCity_DevonCorp_1F_EventScript_BlockStairs {

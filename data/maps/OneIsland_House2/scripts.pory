@@ -1,8 +1,4 @@
-#events for OneIsland_House2
-
-script OneIsland_House2_MapScripts {
-	.byte 0
-
+mapscripts OneIsland_House2_MapScripts {
 }
 
 script OneIsland_House2_EventScript_Lass {

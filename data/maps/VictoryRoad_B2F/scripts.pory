@@ -1,8 +1,4 @@
-#events for VictoryRoad_B2F
-
-script VictoryRoad_B2F_MapScripts {
-	.byte 0
-
+mapscripts VictoryRoad_B2F_MapScripts {
 }
 
 script VictoryRoad_B2F_EventScript_Vito {

@@ -44,40 +44,70 @@ def convert_inc_to_pory(inc_path, pory_path):
         lines = f.readlines()
 
     output = []
-    # Always add a map events header
-    map_name = os.path.basename(os.path.dirname(pory_path))
-    output.append(f"#events for {map_name}\n\n")
+    mapscripts_block = None
+    other_script_blocks = []
+    text_blocks = []
     i = 0
     while i < len(lines):
         line = lines[i]
         script_match = SCRIPT_LABEL_RE.match(line.strip())
         text_match = TEXT_LABEL_RE.match(line.strip())
-        if text_match and not SCRIPT_LABEL_RE.match(line.strip()):
-            label = text_match.group(1)
+        # Detect main mapscripts block: label ends with _MapScripts and contains map_script/.byte 0
+        if script_match and script_match.group(1).endswith('_MapScripts'):
+            label = script_match.group(1)
             block_lines = []
             i += 1
-            # Collect until next label or EOF
             while i < len(lines) and not SCRIPT_LABEL_RE.match(lines[i].strip()) and not TEXT_LABEL_RE.match(lines[i].strip()):
                 block_lines.append(lines[i])
                 i += 1
-            # Only convert if block contains .string lines
+            # Only wrap this block in mapscripts
+            mapscripts_block = (label, block_lines)
+        elif text_match and not SCRIPT_LABEL_RE.match(line.strip()):
+            label = text_match.group(1)
+            block_lines = []
+            i += 1
+            while i < len(lines) and not SCRIPT_LABEL_RE.match(lines[i].strip()) and not TEXT_LABEL_RE.match(lines[i].strip()):
+                block_lines.append(lines[i])
+                i += 1
             if any(STRING_LINE_RE.match(l) for l in block_lines):
-                output.append(convert_text_block(label, block_lines))
+                text_blocks.append(convert_text_block(label, block_lines))
         elif script_match:
             label = script_match.group(1)
             block_lines = []
             i += 1
-            # Collect until next label or EOF
             while i < len(lines) and not SCRIPT_LABEL_RE.match(lines[i].strip()) and not TEXT_LABEL_RE.match(lines[i].strip()):
                 block_lines.append(lines[i])
                 i += 1
-            # Treat all non-text blocks as scripts
-            output.append(convert_script_block(label, block_lines))
+            other_script_blocks.append(convert_script_block(label, block_lines))
         else:
             i += 1
+    # Output mapscripts block first
+    if mapscripts_block:
+        label, block_lines = mapscripts_block
+        # Extract referenced script labels from map_script lines
+        referenced = []
+        for line in block_lines:
+            line = line.strip()
+            if line.startswith('map_script'):
+                # map_script MAP_SCRIPT_ON_TRANSITION, SlateportCity_PokemonCenter_1F_OnTransition
+                parts = line.split(',')
+                if len(parts) == 2:
+                    ref = parts[1].strip()
+                    referenced.append(ref)
+            elif line and not line.startswith('.byte'):
+                # Also allow direct script references
+                referenced.append(line)
+        output.append(f"mapscripts {label} {{\n")
+        for ref in referenced:
+            output.append(f"    {ref}\n")
+        output.append("}\n\n")
+    # Output all other script blocks
+    output.extend(other_script_blocks)
+    # Output all text blocks after
+    output.extend(text_blocks)
     with open(pory_path, 'w', encoding='utf-8') as f:
         f.writelines(output)
-    print(f"Converted {inc_path} -> {pory_path} ({len(output)-1} blocks)")
+    print(f"Converted {inc_path} -> {pory_path} ({(1 if mapscripts_block else 0) + len(other_script_blocks) + len(text_blocks)} blocks)")
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:

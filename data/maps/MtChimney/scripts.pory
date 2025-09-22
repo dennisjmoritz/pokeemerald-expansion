@@ -1,10 +1,6 @@
-#events for MtChimney
-
-script MtChimney_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, MtChimney_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, MtChimney_OnTransition
-	.byte 0
-
+mapscripts MtChimney_MapScripts {
+    MtChimney_OnResume
+    MtChimney_OnTransition
 }
 
 script MtChimney_EventScript_Archie {

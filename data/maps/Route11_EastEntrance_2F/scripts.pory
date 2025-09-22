@@ -1,8 +1,4 @@
-#events for Route11_EastEntrance_2F
-
-script Route11_EastEntrance_2F_MapScripts {
-	.byte 0
-
+mapscripts Route11_EastEntrance_2F_MapScripts {
 }
 
 script Route11_EastEntrance_2F_EventScript_LeftBinoculars {

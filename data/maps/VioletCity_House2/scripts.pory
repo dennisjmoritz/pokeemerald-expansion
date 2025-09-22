@@ -1,6 +1,3 @@
-#events for VioletCity_House2
-
-script VioletCity_House2_MapScripts {
-	.byte 0
+mapscripts VioletCity_House2_MapScripts {
 }
 

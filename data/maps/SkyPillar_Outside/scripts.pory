@@ -1,11 +1,7 @@
-#events for SkyPillar_Outside
-
-script SkyPillar_Outside_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SkyPillar_Outside_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, SkyPillar_Outside_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SkyPillar_Outside_OnFrame
-	.byte 0
-
+mapscripts SkyPillar_Outside_MapScripts {
+    SkyPillar_Outside_OnTransition
+    SkyPillar_Outside_OnLoad
+    SkyPillar_Outside_OnFrame
 }
 
 script SkyPillar_Outside_EventScript_HideMapNamePopup {

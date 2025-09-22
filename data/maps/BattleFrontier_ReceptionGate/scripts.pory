@@ -1,10 +1,6 @@
-#events for BattleFrontier_ReceptionGate
-
-script BattleFrontier_ReceptionGate_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_ReceptionGate_OnFrame
-	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_ReceptionGate_OnTransition
-	.byte 0
-
+mapscripts BattleFrontier_ReceptionGate_MapScripts {
+    BattleFrontier_ReceptionGate_OnFrame
+    BattleFrontier_ReceptionGate_OnTransition
 }
 
 script BattleFrontier_ReceptionGate_EventScript_FirstTimeEntering {

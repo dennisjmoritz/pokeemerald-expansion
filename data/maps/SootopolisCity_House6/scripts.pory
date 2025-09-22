@@ -1,8 +1,4 @@
-#events for SootopolisCity_House6
-
-script SootopolisCity_House6_MapScripts {
-	.byte 0
-
+mapscripts SootopolisCity_House6_MapScripts {
 }
 
 script SootopolisCity_House6_EventScript_Woman {

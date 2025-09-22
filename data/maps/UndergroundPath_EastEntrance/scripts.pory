@@ -1,8 +1,4 @@
-#events for UndergroundPath_EastEntrance
-
-script UndergroundPath_EastEntrance_MapScripts {
-	.byte 0
-
+mapscripts UndergroundPath_EastEntrance_MapScripts {
 }
 
 script UndergroundPath_EastEntrance_EventScript_Woman {

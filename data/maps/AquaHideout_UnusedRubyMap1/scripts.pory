@@ -1,7 +1,3 @@
-#events for AquaHideout_UnusedRubyMap1
-
-script AquaHideout_UnusedRubyMap1_MapScripts {
-	.byte 0
-
+mapscripts AquaHideout_UnusedRubyMap1_MapScripts {
 }
 

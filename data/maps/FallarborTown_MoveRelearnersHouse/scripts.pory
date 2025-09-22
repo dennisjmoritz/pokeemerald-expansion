@@ -1,8 +1,4 @@
-#events for FallarborTown_MoveRelearnersHouse
-
-script FallarborTown_MoveRelearnersHouse_MapScripts {
-	.byte 0
-
+mapscripts FallarborTown_MoveRelearnersHouse_MapScripts {
 }
 
 script FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner {

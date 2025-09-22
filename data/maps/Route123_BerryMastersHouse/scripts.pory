@@ -1,9 +1,5 @@
-#events for Route123_BerryMastersHouse
-
-script Route123_BerryMastersHouse_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route123_BerryMastersHouse_OnTransition
-	.byte 0
-
+mapscripts Route123_BerryMastersHouse_MapScripts {
+    Route123_BerryMastersHouse_OnTransition
 }
 
 script Route123_BerryMastersHouse_EventScript_BerryMaster {

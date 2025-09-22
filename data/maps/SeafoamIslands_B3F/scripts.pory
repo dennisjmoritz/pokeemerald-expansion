@@ -1,10 +1,6 @@
-#events for SeafoamIslands_B3F
-
-script SeafoamIslands_B3F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SeafoamIslands_B3F_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SeafoamIslands_B3F_OnFrame
-	.byte 0
-
+mapscripts SeafoamIslands_B3F_MapScripts {
+    SeafoamIslands_B3F_OnTransition
+    SeafoamIslands_B3F_OnFrame
 }
 
 script SeafoamIslands_B3F_OnTransition {

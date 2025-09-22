@@ -1,10 +1,6 @@
-#events for LavaridgeTown
-
-script LavaridgeTown_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, LavaridgeTown_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, LavaridgeTown_OnFrame
-	.byte 0
-
+mapscripts LavaridgeTown_MapScripts {
+    LavaridgeTown_OnTransition
+    LavaridgeTown_OnFrame
 }
 
 script LavaridgeTown_EventScript_ClearLavaridgeWhiteOut {

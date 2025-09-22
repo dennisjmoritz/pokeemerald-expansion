@@ -1,10 +1,6 @@
-#events for SaffronCity_PokemonTrainerFanClub
-
-script SaffronCity_PokemonTrainerFanClub_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SaffronCity_PokemonTrainerFanClub_OnFrame
-	map_script MAP_SCRIPT_ON_TRANSITION, SaffronCity_PokemonTrainerFanClub_OnTransition
-	.byte 0
-
+mapscripts SaffronCity_PokemonTrainerFanClub_MapScripts {
+    SaffronCity_PokemonTrainerFanClub_OnFrame
+    SaffronCity_PokemonTrainerFanClub_OnTransition
 }
 
 script SaffronCity_PokemonTrainerFanClub_OnFrame {

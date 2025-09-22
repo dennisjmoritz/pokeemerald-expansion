@@ -1,8 +1,4 @@
-#events for Underwater_Route125
-
-script Underwater_Route125_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, Underwater_Route125_OnResume
-	.byte 0
-
+mapscripts Underwater_Route125_MapScripts {
+    Underwater_Route125_OnResume
 }
 

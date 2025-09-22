@@ -1,11 +1,7 @@
-#events for RustboroCity_DevonCorp_3F
-
-script RustboroCity_DevonCorp_3F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_DevonCorp_3F_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RustboroCity_DevonCorp_3F_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, RustboroCity_DevonCorp_3F_OnFrame
-	.byte 0
-
+mapscripts RustboroCity_DevonCorp_3F_MapScripts {
+    RustboroCity_DevonCorp_3F_OnTransition
+    RustboroCity_DevonCorp_3F_OnWarp
+    RustboroCity_DevonCorp_3F_OnFrame
 }
 
 script RustboroCity_DevonCorp_3F_EventScript_SetEmployeePos {

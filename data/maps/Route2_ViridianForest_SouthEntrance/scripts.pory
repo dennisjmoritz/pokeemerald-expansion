@@ -1,8 +1,4 @@
-#events for Route2_ViridianForest_SouthEntrance
-
-script Route2_ViridianForest_SouthEntrance_MapScripts {
-	.byte 0
-
+mapscripts Route2_ViridianForest_SouthEntrance_MapScripts {
 }
 
 script Route2_ViridianForest_SouthEntrance_EventScript_Woman1 {

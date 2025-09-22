@@ -1,8 +1,4 @@
-#events for MossdeepCity_House3
-
-script MossdeepCity_House3_MapScripts {
-	.byte 0
-
+mapscripts MossdeepCity_House3_MapScripts {
 }
 
 script MossdeepCity_House3_EventScript_SuperRodFisherman {

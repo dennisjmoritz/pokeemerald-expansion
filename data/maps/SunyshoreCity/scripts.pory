@@ -1,6 +1,3 @@
-#events for SunyshoreCity
-
-script SunyshoreCity_MapScripts {
-	.byte 0
+mapscripts SunyshoreCity_MapScripts {
 }
 

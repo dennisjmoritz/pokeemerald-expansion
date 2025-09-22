@@ -1,6 +1,3 @@
-#events for TinTower_3F
-
-script TinTower_3F_MapScripts {
-	.byte 0
+mapscripts TinTower_3F_MapScripts {
 }
 

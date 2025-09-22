@@ -1,8 +1,4 @@
-#events for GraniteCave_1F
-
-script GraniteCave_1F_MapScripts {
-	.byte 0
-
+mapscripts GraniteCave_1F_MapScripts {
 }
 
 script GraniteCave_1F_EventScript_Hiker {

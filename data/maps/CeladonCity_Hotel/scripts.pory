@@ -1,8 +1,4 @@
-#events for CeladonCity_Hotel
-
-script CeladonCity_Hotel_MapScripts {
-	.byte 0
-
+mapscripts CeladonCity_Hotel_MapScripts {
 }
 
 script CeladonCity_Hotel_EventScript_Receptionist {

@@ -1,6 +1,3 @@
-#events for OlivineCity_PokemonCenter_2F
-
-script OlivineCity_PokemonCenter_2F_MapScripts {
-	.byte 0
+mapscripts OlivineCity_PokemonCenter_2F_MapScripts {
 }
 

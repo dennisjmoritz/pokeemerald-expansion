@@ -1,9 +1,4 @@
-#events for VioletCity_PokemonCenter_1F
-
-script VioletCity_PokemonCenter_1F_MapScripts {
-	.byte 0
-
-
+mapscripts VioletCity_PokemonCenter_1F_MapScripts {
 }
 
 script VioletCity_PokemonCenter_1F_EventScript_Nurse {

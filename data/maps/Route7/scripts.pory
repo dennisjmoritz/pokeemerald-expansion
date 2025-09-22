@@ -1,8 +1,4 @@
-#events for Route7
-
-script Route7_MapScripts {
-	.byte 0
-
+mapscripts Route7_MapScripts {
 }
 
 script Route7_EventScript_UndergroundPathSign {

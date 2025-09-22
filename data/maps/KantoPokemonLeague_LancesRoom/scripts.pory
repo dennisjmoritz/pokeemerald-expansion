@@ -1,6 +1,3 @@
-#events for KantoPokemonLeague_LancesRoom
-
-script KantoPokemonLeague_LancesRoom_MapScripts {
-	.byte 0
+mapscripts KantoPokemonLeague_LancesRoom_MapScripts {
 }
 

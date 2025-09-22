@@ -1,10 +1,5 @@
-#events for TwoIsland_CapeBrink_House
-
-script TwoIsland_CapeBrink_House_MapScripts {
-	.byte 0
-
-@ See move_tutors.inc
-
+mapscripts TwoIsland_CapeBrink_House_MapScripts {
+    @ See move_tutors.inc
 }
 
 script Text_UltimateMoveThatMon {

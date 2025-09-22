@@ -1,8 +1,4 @@
-#events for LilycoveCity_DepartmentStoreElevator
-
-script LilycoveCity_DepartmentStoreElevator_MapScripts {
-	.byte 0
-
+mapscripts LilycoveCity_DepartmentStoreElevator_MapScripts {
 }
 
 script LilycoveCity_DepartmentStoreElevator_EventScript_Attendant {

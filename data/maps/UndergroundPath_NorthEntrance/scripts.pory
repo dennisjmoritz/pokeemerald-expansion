@@ -1,8 +1,4 @@
-#events for UndergroundPath_NorthEntrance
-
-script UndergroundPath_NorthEntrance_MapScripts {
-	.byte 0
-
+mapscripts UndergroundPath_NorthEntrance_MapScripts {
 }
 
 script UndergroundPath_NorthEntrance_EventScript_Saige {

@@ -1,8 +1,4 @@
-#events for SealedChamber_InnerRoom
-
-script SealedChamber_InnerRoom_MapScripts {
-	.byte 0
-
+mapscripts SealedChamber_InnerRoom_MapScripts {
 }
 
 script SealedChamber_InnerRoom_EventScript_BrailleBackWall {

@@ -1,10 +1,6 @@
-#events for PowerPlant
-
-script PowerPlant_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, PowerPlant_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, PowerPlant_OnTransition
-	.byte 0
-
+mapscripts PowerPlant_MapScripts {
+    PowerPlant_OnResume
+    PowerPlant_OnTransition
 }
 
 script PowerPlant_OnResume {

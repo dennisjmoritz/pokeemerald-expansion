@@ -1,7 +1,3 @@
-#events for MeteorFalls_B1F_2R
-
-script MeteorFalls_B1F_2R_MapScripts {
-	.byte 0
-
+mapscripts MeteorFalls_B1F_2R_MapScripts {
 }
 

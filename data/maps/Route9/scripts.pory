@@ -1,8 +1,4 @@
-#events for Route9
-
-script Route9_MapScripts {
-	.byte 0
-
+mapscripts Route9_MapScripts {
 }
 
 script Route9_EventScript_RouteSign {

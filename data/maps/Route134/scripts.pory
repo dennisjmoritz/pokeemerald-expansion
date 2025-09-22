@@ -1,9 +1,5 @@
-#events for Route134
-
-script Route134_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, Route134_OnResume
-	.byte 0
-
+mapscripts Route134_MapScripts {
+    Route134_OnResume
 }
 
 script Route134_EventScript_Jack {

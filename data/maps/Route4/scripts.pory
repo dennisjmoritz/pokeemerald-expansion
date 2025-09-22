@@ -1,8 +1,4 @@
-#events for Route4
-
-script Route4_MapScripts {
-	.byte 0
-
+mapscripts Route4_MapScripts {
 }
 
 script Route4_EventScript_Unused {

@@ -1,9 +1,5 @@
-#events for Route130
-
-script Route130_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route130_OnTransition
-	.byte 0
-
+mapscripts Route130_MapScripts {
+    Route130_OnTransition
 }
 
 script Route130_EventScript_SetMirageIslandLayout {

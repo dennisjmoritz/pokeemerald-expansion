@@ -1,8 +1,4 @@
-#events for SlateportCity_OceanicMuseum_2F
-
-script SlateportCity_OceanicMuseum_2F_MapScripts {
-	.byte 0
-
+mapscripts SlateportCity_OceanicMuseum_2F_MapScripts {
 }
 
 script SlateportCity_OceanicMuseum_2F_EventScript_CaptStern {

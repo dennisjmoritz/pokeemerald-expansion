@@ -1,7 +1,3 @@
-#events for Route104_Prototype
-
-script Route104_Prototype_MapScripts {
-	.byte 0
-
+mapscripts Route104_Prototype_MapScripts {
 }
 

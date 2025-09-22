@@ -1,6 +1,3 @@
-#events for FloaromaTwon_PokemonCenter_2F
-
-script FloaromaTwon_PokemonCenter_2F_MapScripts {
-	.byte 0
+mapscripts FloaromaTwon_PokemonCenter_2F_MapScripts {
 }
 

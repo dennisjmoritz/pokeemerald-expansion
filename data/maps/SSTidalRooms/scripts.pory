@@ -1,8 +1,4 @@
-#events for SSTidalRooms
-
-script SSTidalRooms_MapScripts {
-	.byte 0
-
+mapscripts SSTidalRooms_MapScripts {
 }
 
 script SSTidalRooms_EventScript_SnatchGiver {

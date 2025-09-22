@@ -1,8 +1,4 @@
-#events for SafariZone_Northwest
-
-script SafariZone_Northwest_MapScripts {
-	.byte 0
-
+mapscripts SafariZone_Northwest_MapScripts {
 }
 
 script SafariZone_Northwest_EventScript_Man {

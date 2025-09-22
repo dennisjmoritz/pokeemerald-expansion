@@ -1,11 +1,7 @@
-#events for EverGrandeCity_GlaciasRoom
-
-script EverGrandeCity_GlaciasRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_GlaciasRoom_OnFrame
-	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_GlaciasRoom_OnLoad
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_GlaciasRoom_OnWarp
-	.byte 0
-
+mapscripts EverGrandeCity_GlaciasRoom_MapScripts {
+    EverGrandeCity_GlaciasRoom_OnFrame
+    EverGrandeCity_GlaciasRoom_OnLoad
+    EverGrandeCity_GlaciasRoom_OnWarp
 }
 
 script EverGrandeCity_GlaciasRoom_EventScript_PlayerTurnNorth {

@@ -1,8 +1,4 @@
-#events for PetalburgWoods
-
-script PetalburgWoods_MapScripts {
-	.byte 0
-
+mapscripts PetalburgWoods_MapScripts {
 }
 
 script PetalburgWoods_EventScript_DevonResearcherLeft {

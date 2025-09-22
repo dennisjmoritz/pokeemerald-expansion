@@ -1,8 +1,4 @@
-#events for CinnabarIsland_Mart
-
-script CinnabarIsland_Mart_MapScripts {
-	.byte 0
-
+mapscripts CinnabarIsland_Mart_MapScripts {
 }
 
 script CinnabarIsland_Mart_EventScript_Woman {

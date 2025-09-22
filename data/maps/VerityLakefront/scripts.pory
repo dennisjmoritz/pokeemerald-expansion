@@ -1,6 +1,3 @@
-#events for VerityLakefront
-
-script VerityLakefront_MapScripts {
-	.byte 0
+mapscripts VerityLakefront_MapScripts {
 }
 

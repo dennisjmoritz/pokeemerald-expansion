@@ -1,10 +1,6 @@
-#events for LilycoveCity_LilycoveMuseum_2F
-
-script LilycoveCity_LilycoveMuseum_2F_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, LilycoveCity_LilycoveMuseum_2F_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, LilycoveCity_LilycoveMuseum_2F_OnFrame
-	.byte 0
-
+mapscripts LilycoveCity_LilycoveMuseum_2F_MapScripts {
+    LilycoveCity_LilycoveMuseum_2F_OnLoad
+    LilycoveCity_LilycoveMuseum_2F_OnFrame
 }
 
 script LilycoveCity_LilycoveMuseum_2F_EventScript_CheckBeautyPainting {

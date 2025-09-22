@@ -1,8 +1,4 @@
-#events for CeladonCity_Condominiums_3F
-
-script CeladonCity_Condominiums_3F_MapScripts {
-	.byte 0
-
+mapscripts CeladonCity_Condominiums_3F_MapScripts {
 }
 
 script CeladonCity_Condominiums_3F_EventScript_Programmer {

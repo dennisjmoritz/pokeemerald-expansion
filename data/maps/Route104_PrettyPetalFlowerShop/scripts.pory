@@ -1,9 +1,5 @@
-#events for Route104_PrettyPetalFlowerShop
-
-script Route104_PrettyPetalFlowerShop_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route104_PrettyPetalFlowerShop_OnTransition
-	.byte 0
-
+mapscripts Route104_PrettyPetalFlowerShop_MapScripts {
+    Route104_PrettyPetalFlowerShop_OnTransition
 }
 
 script Route104_PrettyPetalFlowerShop_EventScript_MoveShopOwner {

@@ -1,8 +1,4 @@
-#events for RustboroCity_Mart
-
-script RustboroCity_Mart_MapScripts {
-	.byte 0
-
+mapscripts RustboroCity_Mart_MapScripts {
 }
 
 script RustboroCity_Mart_EventScript_Clerk {

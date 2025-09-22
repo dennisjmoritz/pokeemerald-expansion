@@ -1,8 +1,4 @@
-#events for Route12_NorthEntrance_1F
-
-script Route12_NorthEntrance_1F_MapScripts {
-	.byte 0
-
+mapscripts Route12_NorthEntrance_1F_MapScripts {
 }
 
 script Route12_NorthEntrance_1F_EventScript_Guard {

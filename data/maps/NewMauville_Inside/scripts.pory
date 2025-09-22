@@ -1,11 +1,7 @@
-#events for NewMauville_Inside
-
-script NewMauville_Inside_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, NewMauville_Inside_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, NewMauville_Inside_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, NewMauville_Inside_OnLoad
-	.byte 0
-
+mapscripts NewMauville_Inside_MapScripts {
+    NewMauville_Inside_OnResume
+    NewMauville_Inside_OnTransition
+    NewMauville_Inside_OnLoad
 }
 
 script NewMauville_Inside_EventScript_TryRemoveVoltorb {

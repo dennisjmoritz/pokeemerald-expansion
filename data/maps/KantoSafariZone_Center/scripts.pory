@@ -1,6 +1,3 @@
-#events for KantoSafariZone_Center
-
-script KantoSafariZone_Center_MapScripts {
-	.byte 0
+mapscripts KantoSafariZone_Center_MapScripts {
 }
 

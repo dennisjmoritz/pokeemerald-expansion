@@ -1,11 +1,7 @@
-#events for FallarborTown_BattleTentBattleRoom
-
-script FallarborTown_BattleTentBattleRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, FallarborTown_BattleTentBattleRoom_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, FallarborTown_BattleTentBattleRoom_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, FallarborTown_BattleTentBattleRoom_OnWarp
-	.byte 0
-
+mapscripts FallarborTown_BattleTentBattleRoom_MapScripts {
+    FallarborTown_BattleTentBattleRoom_OnTransition
+    FallarborTown_BattleTentBattleRoom_OnFrame
+    FallarborTown_BattleTentBattleRoom_OnWarp
 }
 
 script FallarborTown_BattleTentBattleRoom_EventScript_SetPlayerGfx {

@@ -1,8 +1,4 @@
-#events for CeladonCity_House1
-
-script CeladonCity_House1_MapScripts {
-	.byte 0
-
+mapscripts CeladonCity_House1_MapScripts {
 }
 
 script CeladonCity_House1_EventScript_RocketChief {

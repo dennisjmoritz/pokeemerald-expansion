@@ -1,8 +1,4 @@
-#events for Route11
-
-script Route11_MapScripts {
-	.byte 0
-
+mapscripts Route11_MapScripts {
 }
 
 script Route11_EventScript_DiglettsCaveSign {

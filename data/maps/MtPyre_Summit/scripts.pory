@@ -1,9 +1,5 @@
-#events for MtPyre_Summit
-
-script MtPyre_Summit_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, MtPyre_Summit_OnTransition
-	.byte 0
-
+mapscripts MtPyre_Summit_MapScripts {
+    MtPyre_Summit_OnTransition
 }
 
 script MtPyre_Summit_EventScript_SetArchieMaxiePositions {

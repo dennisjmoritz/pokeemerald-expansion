@@ -1,8 +1,4 @@
-#events for BattleFrontier_Mart
-
-script BattleFrontier_Mart_MapScripts {
-	.byte 0
-
+mapscripts BattleFrontier_Mart_MapScripts {
 }
 
 script BattleFrontier_Mart_EventScript_Clerk {

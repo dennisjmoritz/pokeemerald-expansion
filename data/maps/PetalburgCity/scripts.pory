@@ -1,10 +1,6 @@
-#events for PetalburgCity
-
-script PetalburgCity_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, PetalburgCity_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, PetalburgCity_OnFrame
-	.byte 0
-
+mapscripts PetalburgCity_MapScripts {
+    PetalburgCity_OnTransition
+    PetalburgCity_OnFrame
 }
 
 script PetalburgCity_EventScript_MoveGymBoyToWestEntrance {

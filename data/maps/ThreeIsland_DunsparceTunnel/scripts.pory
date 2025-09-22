@@ -1,9 +1,5 @@
-#events for ThreeIsland_DunsparceTunnel
-
-script ThreeIsland_DunsparceTunnel_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, ThreeIsland_DunsparceTunnel_OnTransition
-	.byte 0
-
+mapscripts ThreeIsland_DunsparceTunnel_MapScripts {
+    ThreeIsland_DunsparceTunnel_OnTransition
 }
 
 script ThreeIsland_DunsparceTunnel_OnTransition {

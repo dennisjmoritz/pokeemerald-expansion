@@ -1,8 +1,4 @@
-#events for PokemonTower_2F
-
-script PokemonTower_2F_MapScripts {
-	.byte 0
-
+mapscripts PokemonTower_2F_MapScripts {
 }
 
 script PokemonTower_2F_EventScript_Channeler {

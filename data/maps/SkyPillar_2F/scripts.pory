@@ -1,11 +1,7 @@
-#events for SkyPillar_2F
-
-script SkyPillar_2F_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, CaveHole_CheckFallDownHole
-	map_script MAP_SCRIPT_ON_TRANSITION, SkyPillar_2F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, SkyPillar_2F_SetHoleWarp
-	.byte 0
-
+mapscripts SkyPillar_2F_MapScripts {
+    CaveHole_CheckFallDownHole
+    SkyPillar_2F_OnTransition
+    SkyPillar_2F_SetHoleWarp
 }
 
 script SkyPillar_2F_EventScript_CleanFloor {

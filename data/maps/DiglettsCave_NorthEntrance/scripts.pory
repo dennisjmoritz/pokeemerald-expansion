@@ -1,8 +1,4 @@
-#events for DiglettsCave_NorthEntrance
-
-script DiglettsCave_NorthEntrance_MapScripts {
-	.byte 0
-
+mapscripts DiglettsCave_NorthEntrance_MapScripts {
 }
 
 script DiglettsCave_NorthEntrance_EventScript_Hiker {

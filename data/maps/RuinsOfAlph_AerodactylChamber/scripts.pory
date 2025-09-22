@@ -1,6 +1,3 @@
-#events for RuinsOfAlph_AerodactylChamber
-
-script RuinsOfAlph_AerodactylChamber_MapScripts {
-	.byte 0
+mapscripts RuinsOfAlph_AerodactylChamber_MapScripts {
 }
 

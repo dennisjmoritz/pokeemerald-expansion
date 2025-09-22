@@ -1,10 +1,6 @@
-#events for FiveIsland_RocketWarehouse
-
-script FiveIsland_RocketWarehouse_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, FiveIsland_RocketWarehouse_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, FiveIsland_RocketWarehouse_OnTransition
-	.byte 0
-
+mapscripts FiveIsland_RocketWarehouse_MapScripts {
+    FiveIsland_RocketWarehouse_OnLoad
+    FiveIsland_RocketWarehouse_OnTransition
 }
 
 script FiveIsland_RocketWarehouse_OnTransition {

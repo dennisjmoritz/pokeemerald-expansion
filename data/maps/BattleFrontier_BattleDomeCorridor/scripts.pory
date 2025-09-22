@@ -1,9 +1,5 @@
-#events for BattleFrontier_BattleDomeCorridor
-
-script BattleFrontier_BattleDomeCorridor_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleDomeCorridor_OnFrame
-	.byte 0
-
+mapscripts BattleFrontier_BattleDomeCorridor_MapScripts {
+    BattleFrontier_BattleDomeCorridor_OnFrame
 }
 
 script BattleFrontier_BattleDomeCorridor_EventScript_EnterCorridor {

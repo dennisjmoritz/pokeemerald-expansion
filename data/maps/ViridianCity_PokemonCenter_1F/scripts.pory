@@ -1,9 +1,4 @@
-#events for ViridianCity_PokemonCenter_1F
-
-script ViridianCity_PokemonCenter_1F_MapScripts {
-	.byte 0
-
-
+mapscripts ViridianCity_PokemonCenter_1F_MapScripts {
 }
 
 script ViridianCity_PokemonCenter_1F_EventScript_Nurse {

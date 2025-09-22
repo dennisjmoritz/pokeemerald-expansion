@@ -1,8 +1,4 @@
-#events for CeruleanCity_House2
-
-script CeruleanCity_House2_MapScripts {
-	.byte 0
-
+mapscripts CeruleanCity_House2_MapScripts {
 }
 
 script CeruleanCity_House2_EventScript_Hiker {

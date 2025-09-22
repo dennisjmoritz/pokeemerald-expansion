@@ -1,8 +1,4 @@
-#events for CeladonCity_Gym
-
-script CeladonCity_Gym_MapScripts {
-	.byte 0
-
+mapscripts CeladonCity_Gym_MapScripts {
 }
 
 script CeladonCity_Gym_EventScript_Erika {

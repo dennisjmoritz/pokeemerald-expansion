@@ -1,9 +1,5 @@
-#events for SixIsland_PatternBush
-
-script SixIsland_PatternBush_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SixIsland_PatternBush_OnTransition
-	.byte 0
-
+mapscripts SixIsland_PatternBush_MapScripts {
+    SixIsland_PatternBush_OnTransition
 }
 
 script SixIsland_PatternBush_OnTransition {

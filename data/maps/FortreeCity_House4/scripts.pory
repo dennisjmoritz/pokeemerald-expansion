@@ -1,8 +1,4 @@
-#events for FortreeCity_House4
-
-script FortreeCity_House4_MapScripts {
-	.byte 0
-
+mapscripts FortreeCity_House4_MapScripts {
 }
 
 script FortreeCity_House4_EventScript_Woman {

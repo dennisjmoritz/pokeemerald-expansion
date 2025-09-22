@@ -1,6 +1,3 @@
-#events for RuinsOfAlph_HoOhChamber
-
-script RuinsOfAlph_HoOhChamber_MapScripts {
-	.byte 0
+mapscripts RuinsOfAlph_HoOhChamber_MapScripts {
 }
 

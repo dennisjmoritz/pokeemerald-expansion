@@ -1,11 +1,7 @@
-#events for Route105
-
-script Route105_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, Route105_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, Route105_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route105_OnFrame
-	.byte 0
-
+mapscripts Route105_MapScripts {
+    Route105_OnLoad
+    Route105_OnTransition
+    Route105_OnFrame
 }
 
 script Route105_CloseRegiEntrance {

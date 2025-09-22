@@ -1,12 +1,7 @@
-#events for MossdeepCity_Gym
-
-script MossdeepCity_Gym_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_Gym_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, MossdeepCity_Gym_OnLoad
-	.byte 0
-
-@ NOTE: Mossdeep Gym was redesigned between R/S and E. Leftover (and now functionally unused) scripts are commented below
-
+mapscripts MossdeepCity_Gym_MapScripts {
+    MossdeepCity_Gym_OnTransition
+    MossdeepCity_Gym_OnLoad
+    @ NOTE: Mossdeep Gym was redesigned between R/S and E. Leftover (and now functionally unused) scripts are commented below
 }
 
 script MossdeepCity_Gym_EventScript_CheckSwitch2 {

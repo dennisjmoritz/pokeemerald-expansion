@@ -1,6 +1,3 @@
-#events for PokemonLab_ResearchRoom
-
-script PokemonLab_ResearchRoom_MapScripts {
-	.byte 0
+mapscripts PokemonLab_ResearchRoom_MapScripts {
 }
 

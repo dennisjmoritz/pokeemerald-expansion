@@ -1,8 +1,4 @@
-#events for LilycoveCity_DepartmentStore_4F
-
-script LilycoveCity_DepartmentStore_4F_MapScripts {
-	.byte 0
-
+mapscripts LilycoveCity_DepartmentStore_4F_MapScripts {
 }
 
 script LilycoveCity_DepartmentStore_4F_EventScript_Gentleman {

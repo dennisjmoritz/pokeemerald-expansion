@@ -1,10 +1,6 @@
-#events for Route110_TrickHousePuzzle6
-
-script Route110_TrickHousePuzzle6_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle6_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route110_TrickHousePuzzle6_OnWarp
-	.byte 0
-
+mapscripts Route110_TrickHousePuzzle6_MapScripts {
+    Route110_TrickHousePuzzle6_OnTransition
+    Route110_TrickHousePuzzle6_OnWarp
 }
 
 script Route110_TrickHousePuzzle6_EventScript_InitPuzzle {

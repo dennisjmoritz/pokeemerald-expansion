@@ -1,6 +1,3 @@
-#events for MahoganyTown
-
-script MahoganyTown_MapScripts {
-	.byte 0
+mapscripts MahoganyTown_MapScripts {
 }
 

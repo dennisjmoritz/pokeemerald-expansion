@@ -1,20 +1,15 @@
-#events for Route110_TrickHouseEntrance
-
-script Route110_TrickHouseEntrance_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHouseEntrance_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route110_TrickHouseEntrance_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route110_TrickHouseEntrance_OnWarp
-	.byte 0
-
-	@ State descriptions for VAR_TRICK_HOUSE_ENTRANCE_STATE
-	@ 0: Trick Master is hiding
-	@ 1: Trick Master has left at start of challenge
-	@ 2: Trick Master ready to give normal reward from previous challenge (if bag was full)
-	@ 3: Trick Master still making next puzzle
-	@ 4: Finished final puzzle
-	@ 5: Completed previous challenge
-	@ 6: 'Trick Master' mechadoll ready to give Tent reward from final challenge (if bag was full)
-
+mapscripts Route110_TrickHouseEntrance_MapScripts {
+    Route110_TrickHouseEntrance_OnTransition
+    Route110_TrickHouseEntrance_OnFrame
+    Route110_TrickHouseEntrance_OnWarp
+    @ State descriptions for VAR_TRICK_HOUSE_ENTRANCE_STATE
+    @ 0: Trick Master is hiding
+    @ 1: Trick Master has left at start of challenge
+    @ 2: Trick Master ready to give normal reward from previous challenge (if bag was full)
+    @ 3: Trick Master still making next puzzle
+    @ 4: Finished final puzzle
+    @ 5: Completed previous challenge
+    @ 6: 'Trick Master' mechadoll ready to give Tent reward from final challenge (if bag was full)
 }
 
 script Route110_TrickHouseEntrance_EventScript_SetReadyToGiveReward {

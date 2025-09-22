@@ -1,10 +1,6 @@
-#events for NavelRock_Bottom
-
-script NavelRock_Bottom_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, NavelRock_Bottom_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, NavelRock_Bottom_OnResume
-	.byte 0
-
+mapscripts NavelRock_Bottom_MapScripts {
+    NavelRock_Bottom_OnTransition
+    NavelRock_Bottom_OnResume
 }
 
 script NavelRock_Bottom_EventScript_HideLugia {

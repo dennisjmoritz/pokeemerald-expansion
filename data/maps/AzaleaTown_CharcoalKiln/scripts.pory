@@ -1,6 +1,3 @@
-#events for AzaleaTown_CharcoalKiln
-
-script AzaleaTown_CharcoalKiln_MapScripts {
-	.byte 0
+mapscripts AzaleaTown_CharcoalKiln_MapScripts {
 }
 

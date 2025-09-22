@@ -1,9 +1,5 @@
-#events for SouthernIsland_Exterior
-
-script SouthernIsland_Exterior_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SouthernIsland_Exterior_OnTransition
-	.byte 0
-
+mapscripts SouthernIsland_Exterior_MapScripts {
+    SouthernIsland_Exterior_OnTransition
 }
 
 script SouthernIsland_Exterior_EventScript_Sailor {

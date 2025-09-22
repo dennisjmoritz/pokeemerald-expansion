@@ -1,10 +1,6 @@
-#events for BattleFrontier_BattlePalaceLobby
-
-script BattleFrontier_BattlePalaceLobby_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePalaceLobby_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePalaceLobby_OnWarp
-	.byte 0
-
+mapscripts BattleFrontier_BattlePalaceLobby_MapScripts {
+    BattleFrontier_BattlePalaceLobby_OnFrame
+    BattleFrontier_BattlePalaceLobby_OnWarp
 }
 
 script BattleFrontier_BattlePalaceLobby_EventScript_TurnPlayerNorth {

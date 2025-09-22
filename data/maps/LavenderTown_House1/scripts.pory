@@ -1,8 +1,4 @@
-#events for LavenderTown_House1
-
-script LavenderTown_House1_MapScripts {
-	.byte 0
-
+mapscripts LavenderTown_House1_MapScripts {
 }
 
 script LavenderTown_House1_EventScript_CooltrainerF {

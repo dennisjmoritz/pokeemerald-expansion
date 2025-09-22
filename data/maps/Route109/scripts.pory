@@ -1,8 +1,4 @@
-#events for Route109
-
-script Route109_MapScripts {
-	.byte 0
-
+mapscripts Route109_MapScripts {
 }
 
 script Route109_EventScript_StartDepartForDewford {

@@ -1,8 +1,4 @@
-#events for Route15
-
-script Route15_MapScripts {
-	.byte 0
-
+mapscripts Route15_MapScripts {
 }
 
 script Route15_EventScript_RouteSign {

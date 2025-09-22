@@ -1,11 +1,7 @@
-#events for BattleFrontier_BattleTowerMultiBattleRoom
-
-script BattleFrontier_BattleTowerMultiBattleRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattleTowerMultiBattleRoom_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleTowerMultiBattleRoom_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerMultiBattleRoom_OnFrame
-	.byte 0
-
+mapscripts BattleFrontier_BattleTowerMultiBattleRoom_MapScripts {
+    BattleFrontier_BattleTowerMultiBattleRoom_OnTransition
+    BattleFrontier_BattleTowerMultiBattleRoom_OnWarp
+    BattleFrontier_BattleTowerMultiBattleRoom_OnFrame
 }
 
 script BattleFrontier_BattleTowerMultiBattleRoom_EventScript_SetObjGfx {
@@ -441,6 +437,17 @@ script BattleFrontier_BattleTowerMultiBattleRoom_EventScript_ReconnectLink {
 
 }
 
+script gText_LinkStandby3 {
+	.string "Link standby…$"
+
+}
+
+script gText_YourPartnerHasRetired {
+	.string "Your partner has retired.\p"
+	.string "Your BATTLE ROOM challenge\n"
+	.string "will be canceled.$"
+}
+
 text BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor2ndOpponentSet {
     format("The 2nd set of opponents is next. Are you ready?")
 }
@@ -487,16 +494,5 @@ text BattleFrontier_BattleTowerMultiBattleRoom_Text_6thOpponentSetNext {
 
 text BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext {
     format("The 7th set of opponents is next. Do your best!")
-}
-
-script gText_LinkStandby3 {
-	.string "Link standby…$"
-
-}
-
-script gText_YourPartnerHasRetired {
-	.string "Your partner has retired.\p"
-	.string "Your BATTLE ROOM challenge\n"
-	.string "will be canceled.$"
 }
 

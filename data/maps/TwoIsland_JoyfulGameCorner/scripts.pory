@@ -1,12 +1,8 @@
-#events for TwoIsland_JoyfulGameCorner
-
-script TwoIsland_JoyfulGameCorner_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, TwoIsland_JoyfulGameCorner_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, TwoIsland_JoyfulGameCorner_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, TwoIsland_JoyfulGameCorner_OnFrame
-	map_script MAP_SCRIPT_ON_LOAD, CableClub_OnLoad
-	.byte 0
-
+mapscripts TwoIsland_JoyfulGameCorner_MapScripts {
+    TwoIsland_JoyfulGameCorner_OnTransition
+    TwoIsland_JoyfulGameCorner_OnWarp
+    TwoIsland_JoyfulGameCorner_OnFrame
+    CableClub_OnLoad
 }
 
 script TwoIsland_JoyfulGameCorner_OnTransition {

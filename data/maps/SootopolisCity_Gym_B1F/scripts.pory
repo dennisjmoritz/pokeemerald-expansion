@@ -1,8 +1,4 @@
-#events for SootopolisCity_Gym_B1F
-
-script SootopolisCity_Gym_B1F_MapScripts {
-	.byte 0
-
+mapscripts SootopolisCity_Gym_B1F_MapScripts {
 }
 
 script SootopolisCity_Gym_B1F_EventScript_Andrea {

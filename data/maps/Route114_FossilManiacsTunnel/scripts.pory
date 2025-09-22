@@ -1,10 +1,6 @@
-#events for Route114_FossilManiacsTunnel
-
-script Route114_FossilManiacsTunnel_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route114_FossilManiacsTunnel_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Route114_FossilManiacsTunnel_OnLoad
-	.byte 0
-
+mapscripts Route114_FossilManiacsTunnel_MapScripts {
+    Route114_FossilManiacsTunnel_OnTransition
+    Route114_FossilManiacsTunnel_OnLoad
 }
 
 script Route114_FossilManiacsTunnel_EventScript_MoveFossilManiac {

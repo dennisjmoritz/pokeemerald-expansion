@@ -1,6 +1,3 @@
-#events for Route42
-
-script Route42_MapScripts {
-	.byte 0
+mapscripts Route42_MapScripts {
 }
 

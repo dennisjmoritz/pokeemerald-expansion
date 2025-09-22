@@ -1,9 +1,5 @@
-#events for PokemonMansion_B1F
-
-script PokemonMansion_B1F_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, PokemonMansion_B1F_OnLoad
-	.byte 0
-
+mapscripts PokemonMansion_B1F_MapScripts {
+    PokemonMansion_B1F_OnLoad
 }
 
 script PokemonMansion_B1F_OnLoad {

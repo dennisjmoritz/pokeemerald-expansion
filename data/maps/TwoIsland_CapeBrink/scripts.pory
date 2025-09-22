@@ -1,6 +1,3 @@
-#events for TwoIsland_CapeBrink
-
-script TwoIsland_CapeBrink_MapScripts {
-	.byte 0
+mapscripts TwoIsland_CapeBrink_MapScripts {
 }
 

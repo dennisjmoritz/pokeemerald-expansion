@@ -1,6 +1,3 @@
-#events for OlivineCity_Mart
-
-script OlivineCity_Mart_MapScripts {
-	.byte 0
+mapscripts OlivineCity_Mart_MapScripts {
 }
 

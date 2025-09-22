@@ -1,8 +1,4 @@
-#events for CeladonCity_Condominiums_Roof
-
-script CeladonCity_Condominiums_Roof_MapScripts {
-	.byte 0
-
+mapscripts CeladonCity_Condominiums_Roof_MapScripts {
 }
 
 script CeladonCity_Condominiums_Roof_EventScript_Sign {

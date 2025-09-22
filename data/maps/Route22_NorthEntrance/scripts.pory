@@ -1,8 +1,4 @@
-#events for Route22_NorthEntrance
-
-script Route22_NorthEntrance_MapScripts {
-	.byte 0
-
+mapscripts Route22_NorthEntrance_MapScripts {
 }
 
 script Route22_NorthEntrance_EventScript_BoulderBadgeGuard {

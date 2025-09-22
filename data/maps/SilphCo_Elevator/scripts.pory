@@ -1,8 +1,4 @@
-#events for SilphCo_Elevator
-
-script SilphCo_Elevator_MapScripts {
-	.byte 0
-
+mapscripts SilphCo_Elevator_MapScripts {
 }
 
 script SilphCo_Elevator_EventScript_FloorSelect {

@@ -1,8 +1,4 @@
-#events for OneIsland_KindleRoad_EmberSpa
-
-script OneIsland_KindleRoad_EmberSpa_MapScripts {
-	.byte 0
-
+mapscripts OneIsland_KindleRoad_EmberSpa_MapScripts {
 }
 
 script OneIsland_KindleRoad_EmberSpa_EventScript_OldMan {

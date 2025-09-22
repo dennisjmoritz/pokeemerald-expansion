@@ -1,8 +1,4 @@
-#events for OldaleTown_Mart
-
-script OldaleTown_Mart_MapScripts {
-	.byte 0
-
+mapscripts OldaleTown_Mart_MapScripts {
 }
 
 script OldaleTown_Mart_EventScript_Clerk {

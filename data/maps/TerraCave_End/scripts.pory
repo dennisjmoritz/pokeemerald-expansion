@@ -1,10 +1,6 @@
-#events for TerraCave_End
-
-script TerraCave_End_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, TerraCave_End_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, TerraCave_End_OnTransition
-	.byte 0
-
+mapscripts TerraCave_End_MapScripts {
+    TerraCave_End_OnResume
+    TerraCave_End_OnTransition
 }
 
 script TerraCave_End_EventScript_TryRemoveGroudon {

@@ -1,9 +1,5 @@
-#events for SkyPillar_5F
-
-script SkyPillar_5F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SkyPillar_5F_OnTransition
-	.byte 0
-
+mapscripts SkyPillar_5F_MapScripts {
+    SkyPillar_5F_OnTransition
 }
 
 script SkyPillar_5F_EventScript_CleanFloor {

@@ -1,8 +1,4 @@
-#events for FortreeCity_House1
-
-script FortreeCity_House1_MapScripts {
-	.byte 0
-
+mapscripts FortreeCity_House1_MapScripts {
 }
 
 script FortreeCity_House1_EventScript_Trader {

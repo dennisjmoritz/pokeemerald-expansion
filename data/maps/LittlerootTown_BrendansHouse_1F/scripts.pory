@@ -1,11 +1,7 @@
-#events for LittlerootTown_BrendansHouse_1F
-
-script LittlerootTown_BrendansHouse_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, LittlerootTown_BrendansHouse_1F_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_BrendansHouse_1F_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_BrendansHouse_1F_OnFrame
-	.byte 0
-
+mapscripts LittlerootTown_BrendansHouse_1F_MapScripts {
+    LittlerootTown_BrendansHouse_1F_OnLoad
+    LittlerootTown_BrendansHouse_1F_OnTransition
+    LittlerootTown_BrendansHouse_1F_OnFrame
 }
 
 script LittlerootTown_BrendansHouse_1F_EventScript_SetMovingBoxes {

@@ -1,8 +1,4 @@
-#events for Route10
-
-script Route10_MapScripts {
-	.byte 0
-
+mapscripts Route10_MapScripts {
 }
 
 script Route10_EventScript_Unused {

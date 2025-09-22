@@ -1,8 +1,4 @@
-#events for Route121
-
-script Route121_MapScripts {
-	.byte 0
-
+mapscripts Route121_MapScripts {
 }
 
 script Route121_EventScript_Woman {

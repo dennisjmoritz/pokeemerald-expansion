@@ -1,11 +1,7 @@
-#events for SealedChamber_OuterRoom
-
-script SealedChamber_OuterRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, SealedChamber_OuterRoom_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, SealedChamber_OuterRoom_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, SealedChamber_OuterRoom_OnLoad
-	.byte 0
-
+mapscripts SealedChamber_OuterRoom_MapScripts {
+    SealedChamber_OuterRoom_OnResume
+    SealedChamber_OuterRoom_OnTransition
+    SealedChamber_OuterRoom_OnLoad
 }
 
 script SealedChamber_OuterRoom_EventScript_CloseInnerRoomEntrance {

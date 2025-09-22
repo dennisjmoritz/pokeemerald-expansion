@@ -1,9 +1,5 @@
-#events for ShoalCave_LowTideStairsRoom
-
-script ShoalCave_LowTideStairsRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, ShoalCave_LowTideStairsRoom_OnLoad
-	.byte 0
-
+mapscripts ShoalCave_LowTideStairsRoom_MapScripts {
+    ShoalCave_LowTideStairsRoom_OnLoad
 }
 
 script ShoalCave_LowTideStairsRoom_EventScript_SetShoalItemMetatiles {

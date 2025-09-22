@@ -1,8 +1,4 @@
-#events for CeruleanCity_BikeShop
-
-script CeruleanCity_BikeShop_MapScripts {
-	.byte 0
-
+mapscripts CeruleanCity_BikeShop_MapScripts {
 }
 
 script CeruleanCity_BikeShop_EventScript_Clerk {

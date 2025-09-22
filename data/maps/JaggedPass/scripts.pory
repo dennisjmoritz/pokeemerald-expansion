@@ -1,11 +1,7 @@
-#events for JaggedPass
-
-script JaggedPass_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, JaggedPass_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, JaggedPass_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, JaggedPass_OnLoad
-	.byte 0
-
+mapscripts JaggedPass_MapScripts {
+    JaggedPass_OnResume
+    JaggedPass_OnTransition
+    JaggedPass_OnLoad
 }
 
 script JaggedPass_EventScript_CheckHasMagmaEmblem {

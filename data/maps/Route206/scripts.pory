@@ -1,6 +1,3 @@
-#events for Route206
-
-script Route206_MapScripts {
-	.byte 0
+mapscripts Route206_MapScripts {
 }
 

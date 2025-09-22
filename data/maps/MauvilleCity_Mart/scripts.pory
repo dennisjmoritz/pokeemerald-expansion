@@ -1,8 +1,4 @@
-#events for MauvilleCity_Mart
-
-script MauvilleCity_Mart_MapScripts {
-	.byte 0
-
+mapscripts MauvilleCity_Mart_MapScripts {
 }
 
 script MauvilleCity_Mart_EventScript_Clerk {

@@ -1,9 +1,5 @@
-#events for AbandonedShip_HiddenFloorRooms
-
-script AbandonedShip_HiddenFloorRooms_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, AbandonedShip_HiddenFloorRooms_OnFrame
-	.byte 0
-
+mapscripts AbandonedShip_HiddenFloorRooms_MapScripts {
+    AbandonedShip_HiddenFloorRooms_OnFrame
 }
 
 script AbandonedShip_HiddenFloorRooms_EventScript_DoHiddenItemSparkle {

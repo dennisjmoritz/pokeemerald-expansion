@@ -1,8 +1,4 @@
-#events for Route12_FishingHouse
-
-script Route12_FishingHouse_MapScripts {
-	.byte 0
-
+mapscripts Route12_FishingHouse_MapScripts {
 }
 
 script Route12_FishingHouse_EventScript_FishingGuruBrother {

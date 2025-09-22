@@ -1,9 +1,5 @@
-#events for LilycoveCity_DepartmentStoreRooftop
-
-script LilycoveCity_DepartmentStoreRooftop_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_DepartmentStoreRooftop_OnTransition
-	.byte 0
-
+mapscripts LilycoveCity_DepartmentStoreRooftop_MapScripts {
+    LilycoveCity_DepartmentStoreRooftop_OnTransition
 }
 
 script LilycoveCity_DepartmentStoreRooftop_EventScript_ShowSaleWoman {

@@ -1,6 +1,3 @@
-#events for OreburghCity_Flat2_F1
-
-script OreburghCity_Flat2_F1_MapScripts {
-	.byte 0
+mapscripts OreburghCity_Flat2_F1_MapScripts {
 }
 

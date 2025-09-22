@@ -1,6 +1,3 @@
-#events for FightArea
-
-script FightArea_MapScripts {
-	.byte 0
+mapscripts FightArea_MapScripts {
 }
 

@@ -1,8 +1,4 @@
-#events for Route7_EastEntrance
-
-script Route7_EastEntrance_MapScripts {
-	.byte 0
-
+mapscripts Route7_EastEntrance_MapScripts {
 }
 
 script Route7_EastEntrance_EventScript_Guard {

@@ -1,9 +1,5 @@
-#events for Route124
-
-script Route124_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route124_OnTransition
-	.byte 0
-
+mapscripts Route124_MapScripts {
+    Route124_OnTransition
 }
 
 script Route124_EventScript_HuntersHouseSign {

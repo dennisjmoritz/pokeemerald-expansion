@@ -1,6 +1,3 @@
-#events for OlivineCity
-
-script OlivineCity_MapScripts {
-	.byte 0
+mapscripts OlivineCity_MapScripts {
 }
 

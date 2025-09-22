@@ -1,9 +1,5 @@
-#events for SSTidalCorridor
-
-script SSTidalCorridor_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SSTidalCorridor_OnFrame
-	.byte 0
-
+mapscripts SSTidalCorridor_MapScripts {
+    SSTidalCorridor_OnFrame
 }
 
 script SSTidalCorridor_EventScript_DepartSlateportForLilycove {

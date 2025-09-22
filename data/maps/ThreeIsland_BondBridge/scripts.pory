@@ -1,8 +1,4 @@
-#events for ThreeIsland_BondBridge
-
-script ThreeIsland_BondBridge_MapScripts {
-	.byte 0
-
+mapscripts ThreeIsland_BondBridge_MapScripts {
 }
 
 script ThreeIsland_BondBridge_EventScript_BerryForestSign {

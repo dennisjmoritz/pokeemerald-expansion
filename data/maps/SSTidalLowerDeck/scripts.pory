@@ -1,8 +1,4 @@
-#events for SSTidalLowerDeck
-
-script SSTidalLowerDeck_MapScripts {
-	.byte 0
-
+mapscripts SSTidalLowerDeck_MapScripts {
 }
 
 script SSTidalLowerDeck_EventScript_Phillip {

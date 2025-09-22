@@ -1,9 +1,5 @@
-#events for DesertUnderpass
-
-script DesertUnderpass_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, DesertUnderpass_OnTransition
-	.byte 0
-
+mapscripts DesertUnderpass_MapScripts {
+    DesertUnderpass_OnTransition
 }
 
 script DesertUnderpass_EventScript_Fossil {

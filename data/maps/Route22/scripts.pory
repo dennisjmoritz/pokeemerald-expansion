@@ -1,8 +1,4 @@
-#events for Route22
-
-script Route22_MapScripts {
-	.byte 0
-
+mapscripts Route22_MapScripts {
 }
 
 script Route22_EventScript_EarlyRivalTriggerTop {

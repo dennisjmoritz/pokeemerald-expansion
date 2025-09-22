@@ -1,12 +1,7 @@
-#events for CeladonCity_DepartmentStore_3F
-
-script CeladonCity_DepartmentStore_3F_MapScripts {
-	.byte 0
-
-// FIXME undefined reference: CeladonCity_DepartmentStore_3F_EventScript_CounterTutor::
-// FIXME undefined reference: 	goto EventScript_CounterTutor
-	end
-
+mapscripts CeladonCity_DepartmentStore_3F_MapScripts {
+    // FIXME undefined reference: CeladonCity_DepartmentStore_3F_EventScript_CounterTutor::
+    // FIXME undefined reference: 	goto EventScript_CounterTutor
+    end
 }
 
 script CeladonCity_DepartmentStore_3F_EventScript_GBAKid1 {

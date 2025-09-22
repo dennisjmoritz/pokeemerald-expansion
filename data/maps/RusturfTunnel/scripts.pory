@@ -1,10 +1,6 @@
-#events for RusturfTunnel
-
-script RusturfTunnel_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, RusturfTunnel_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, RusturfTunnel_OnFrame
-	.byte 0
-
+mapscripts RusturfTunnel_MapScripts {
+    RusturfTunnel_OnTransition
+    RusturfTunnel_OnFrame
 }
 
 script RusturfTunnel_EventScript_SetAquaGruntAndPeekoPos {

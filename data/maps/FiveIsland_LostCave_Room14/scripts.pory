@@ -1,6 +1,3 @@
-#events for FiveIsland_LostCave_Room14
-
-script FiveIsland_LostCave_Room14_MapScripts {
-	.byte 0
+mapscripts FiveIsland_LostCave_Room14_MapScripts {
 }
 

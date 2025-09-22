@@ -1,6 +1,3 @@
-#events for EcruteakCity_House3
-
-script EcruteakCity_House3_MapScripts {
-	.byte 0
+mapscripts EcruteakCity_House3_MapScripts {
 }
 

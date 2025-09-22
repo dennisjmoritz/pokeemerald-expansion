@@ -1,8 +1,4 @@
-#events for BattleFrontier_Lounge8
-
-script BattleFrontier_Lounge8_MapScripts {
-	.byte 0
-
+mapscripts BattleFrontier_Lounge8_MapScripts {
 }
 
 script BattleFrontier_Lounge8_EventScript_Man {

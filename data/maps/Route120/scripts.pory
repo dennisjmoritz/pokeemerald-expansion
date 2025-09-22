@@ -1,11 +1,7 @@
-#events for Route120
-
-script Route120_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, Route120_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, Route120_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Route120_OnLoad
-	.byte 0
-
+mapscripts Route120_MapScripts {
+    Route120_OnResume
+    Route120_OnTransition
+    Route120_OnLoad
 }
 
 script Route120_EventScript_RemoveKecleonObject {

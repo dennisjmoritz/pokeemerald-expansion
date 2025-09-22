@@ -1,6 +1,3 @@
-#events for Route32
-
-script Route32_MapScripts {
-	.byte 0
+mapscripts Route32_MapScripts {
 }
 

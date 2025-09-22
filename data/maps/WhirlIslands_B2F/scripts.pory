@@ -1,6 +1,3 @@
-#events for WhirlIslands_B2F
-
-script WhirlIslands_B2F_MapScripts {
-	.byte 0
+mapscripts WhirlIslands_B2F_MapScripts {
 }
 

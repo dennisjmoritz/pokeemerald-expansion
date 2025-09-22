@@ -1,12 +1,8 @@
-#events for SootopolisCity_Gym_1F
-
-script SootopolisCity_Gym_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SootopolisCity_Gym_1F_OnFrame
-	map_script MAP_SCRIPT_ON_RESUME, SootopolisCity_Gym_1F_OnResume
-	map_script MAP_SCRIPT_ON_LOAD, SootopolisCity_Gym_1F_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, SootopolisCity_Gym_1F_OnTransition
-	.byte 0
-
+mapscripts SootopolisCity_Gym_1F_MapScripts {
+    SootopolisCity_Gym_1F_OnFrame
+    SootopolisCity_Gym_1F_OnResume
+    SootopolisCity_Gym_1F_OnLoad
+    SootopolisCity_Gym_1F_OnTransition
 }
 
 script SootopolisCity_Gym_1F_EventScript_CheckSetStairMetatiles {

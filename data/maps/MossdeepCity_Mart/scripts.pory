@@ -1,8 +1,4 @@
-#events for MossdeepCity_Mart
-
-script MossdeepCity_Mart_MapScripts {
-	.byte 0
-
+mapscripts MossdeepCity_Mart_MapScripts {
 }
 
 script MossdeepCity_Mart_EventScript_Clerk {

@@ -1,8 +1,4 @@
-#events for Route2_House
-
-script Route2_House_MapScripts {
-	.byte 0
-
+mapscripts Route2_House_MapScripts {
 }
 
 script Route2_House_EventScript_Scientist {

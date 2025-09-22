@@ -1,6 +1,3 @@
-#events for FloaromaTown_House2
-
-script FloaromaTown_House2_MapScripts {
-	.byte 0
+mapscripts FloaromaTown_House2_MapScripts {
 }
 

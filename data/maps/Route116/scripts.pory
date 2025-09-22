@@ -1,11 +1,7 @@
-#events for Route116
-
-script Route116_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route116_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Route116_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route116_OnFrame
-	.byte 0
-
+mapscripts Route116_MapScripts {
+    Route116_OnTransition
+    Route116_OnLoad
+    Route116_OnFrame
 }
 
 script Route116_EventScript_SetWandasBoyfriendPos {

@@ -1,9 +1,4 @@
-#events for EcruteakCity_PokemonCenter_1F
-
-script EcruteakCity_PokemonCenter_1F_MapScripts {
-	.byte 0
-
-
+mapscripts EcruteakCity_PokemonCenter_1F_MapScripts {
 }
 
 script EcruteakCity_PokemonCenter_1F_EventScript_Nurse {

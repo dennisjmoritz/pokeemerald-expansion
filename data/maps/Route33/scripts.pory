@@ -1,6 +1,3 @@
-#events for Route33
-
-script Route33_MapScripts {
-	.byte 0
+mapscripts Route33_MapScripts {
 }
 

@@ -1,8 +1,4 @@
-#events for MtPyre_1F
-
-script MtPyre_1F_MapScripts {
-	.byte 0
-
+mapscripts MtPyre_1F_MapScripts {
 }
 
 script MtPyre_1F_EventScript_CleanseTagWoman {

@@ -1,8 +1,4 @@
-#events for SaffronCity_Gym
-
-script SaffronCity_Gym_MapScripts {
-	.byte 0
-
+mapscripts SaffronCity_Gym_MapScripts {
 }
 
 script SaffronCity_Gym_EventScript_Sabrina {

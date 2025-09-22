@@ -1,9 +1,5 @@
-#events for Route126
-
-script Route126_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route126_OnTransition
-	.byte 0
-
+mapscripts Route126_MapScripts {
+    Route126_OnTransition
 }
 
 script Route126_EventScript_Barry {

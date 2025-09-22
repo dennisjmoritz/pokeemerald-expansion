@@ -1,6 +1,3 @@
-#events for VeilstoneCity
-
-script VeilstoneCity_MapScripts {
-	.byte 0
+mapscripts VeilstoneCity_MapScripts {
 }
 

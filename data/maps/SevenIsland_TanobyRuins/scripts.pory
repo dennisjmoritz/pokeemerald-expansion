@@ -1,8 +1,4 @@
-#events for SevenIsland_TanobyRuins
-
-script SevenIsland_TanobyRuins_MapScripts {
-	.byte 0
-
+mapscripts SevenIsland_TanobyRuins_MapScripts {
 }
 
 script SevenIsland_TanobyRuins_Text_BrandonIntro {

@@ -1,8 +1,4 @@
-#events for SaffronCity_Dojo
-
-script SaffronCity_Dojo_MapScripts {
-	.byte 0
-
+mapscripts SaffronCity_Dojo_MapScripts {
 }
 
 script SaffronCity_Dojo_EventScript_TriggerMasterBattleLeft {

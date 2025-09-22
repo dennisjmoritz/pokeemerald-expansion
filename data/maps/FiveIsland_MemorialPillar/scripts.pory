@@ -1,8 +1,4 @@
-#events for FiveIsland_MemorialPillar
-
-script FiveIsland_MemorialPillar_MapScripts {
-	.byte 0
-
+mapscripts FiveIsland_MemorialPillar_MapScripts {
 }
 
 script FiveIsland_MemorialPillar_EventScript_MemorialMan {

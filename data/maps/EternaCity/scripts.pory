@@ -1,6 +1,3 @@
-#events for EternaCity
-
-script EternaCity_MapScripts {
-	.byte 0
+mapscripts EternaCity_MapScripts {
 }
 

@@ -1,8 +1,4 @@
-#events for Route25
-
-script Route25_MapScripts {
-	.byte 0
-
+mapscripts Route25_MapScripts {
 }
 
 script Route25_EventScript_SeaCottageSign {

@@ -1,6 +1,3 @@
-#events for CianwoodCity_House1
-
-script CianwoodCity_House1_MapScripts {
-	.byte 0
+mapscripts CianwoodCity_House1_MapScripts {
 }
 

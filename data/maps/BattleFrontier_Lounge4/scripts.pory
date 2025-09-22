@@ -1,8 +1,4 @@
-#events for BattleFrontier_Lounge4
-
-script BattleFrontier_Lounge4_MapScripts {
-	.byte 0
-
+mapscripts BattleFrontier_Lounge4_MapScripts {
 }
 
 script BattleFrontier_Lounge4_EventScript_Woman {

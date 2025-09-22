@@ -1,6 +1,3 @@
-#events for WhirlIslands_B4F
-
-script WhirlIslands_B4F_MapScripts {
-	.byte 0
+mapscripts WhirlIslands_B4F_MapScripts {
 }
 

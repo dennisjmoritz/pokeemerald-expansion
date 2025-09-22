@@ -1,6 +1,3 @@
-#events for RuinsOfAlph_ResearchCenter
-
-script RuinsOfAlph_ResearchCenter_MapScripts {
-	.byte 0
+mapscripts RuinsOfAlph_ResearchCenter_MapScripts {
 }
 

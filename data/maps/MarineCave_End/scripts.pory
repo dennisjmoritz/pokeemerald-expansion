@@ -1,10 +1,6 @@
-#events for MarineCave_End
-
-script MarineCave_End_MapScripts {
-	map_script MAP_SCRIPT_ON_RESUME, MarineCave_End_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, MarineCave_End_OnTransition
-	.byte 0
-
+mapscripts MarineCave_End_MapScripts {
+    MarineCave_End_OnResume
+    MarineCave_End_OnTransition
 }
 
 script MarineCave_End_EventScript_TryRemoveKyogre {

@@ -1,9 +1,5 @@
-#events for FiveIsland_Meadow
-
-script FiveIsland_Meadow_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, FiveIsland_Meadow_OnLoad
-	.byte 0
-
+mapscripts FiveIsland_Meadow_MapScripts {
+    FiveIsland_Meadow_OnLoad
 }
 
 script FiveIsland_Meadow_OnLoad {

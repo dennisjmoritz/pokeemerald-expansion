@@ -1,10 +1,6 @@
-#events for SSAnne_Exterior
-
-script SSAnne_Exterior_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SSAnne_Exterior_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SSAnne_Exterior_OnFrame
-	.byte 0
-
+mapscripts SSAnne_Exterior_MapScripts {
+    SSAnne_Exterior_OnTransition
+    SSAnne_Exterior_OnFrame
 }
 
 script SSAnne_Exterior_OnTransition {

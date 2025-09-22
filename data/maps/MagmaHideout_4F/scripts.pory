@@ -1,8 +1,4 @@
-#events for MagmaHideout_4F
-
-script MagmaHideout_4F_MapScripts {
-	.byte 0
-
+mapscripts MagmaHideout_4F_MapScripts {
 }
 
 script MagmaHideout_4F_EventScript_Maxie {

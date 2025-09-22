@@ -1,8 +1,4 @@
-#events for FuchsiaCity_House1
-
-script FuchsiaCity_House1_MapScripts {
-	.byte 0
-
+mapscripts FuchsiaCity_House1_MapScripts {
 }
 
 script FuchsiaCity_House1_EventScript_Woman {

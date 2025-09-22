@@ -1,10 +1,6 @@
-#events for FortreeCity_Gym
-
-script FortreeCity_Gym_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, FortreeCity_Gym_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, FortreeCity_Gym_OnWarp
-	.byte 0
-
+mapscripts FortreeCity_Gym_MapScripts {
+    FortreeCity_Gym_OnTransition
+    FortreeCity_Gym_OnWarp
 }
 
 script FortreeCity_Gym_EventScript_InitRotatingGates {

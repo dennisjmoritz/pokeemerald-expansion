@@ -1,10 +1,6 @@
-#events for Route103
-
-script Route103_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route103_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Route103_OnLoad
-	.byte 0
-
+mapscripts Route103_MapScripts {
+    Route103_OnTransition
+    Route103_OnLoad
 }
 
 script Route103_EventScript_OpenAlteringCave {

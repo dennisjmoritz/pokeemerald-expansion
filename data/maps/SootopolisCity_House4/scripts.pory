@@ -1,8 +1,4 @@
-#events for SootopolisCity_House4
-
-script SootopolisCity_House4_MapScripts {
-	.byte 0
-
+mapscripts SootopolisCity_House4_MapScripts {
 }
 
 script SootopolisCity_House4_EventScript_Man {

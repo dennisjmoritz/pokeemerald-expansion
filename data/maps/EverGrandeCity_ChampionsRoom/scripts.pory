@@ -1,11 +1,7 @@
-#events for EverGrandeCity_ChampionsRoom
-
-script EverGrandeCity_ChampionsRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_ChampionsRoom_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_ChampionsRoom_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_ChampionsRoom_OnFrame
-	.byte 0
-
+mapscripts EverGrandeCity_ChampionsRoom_MapScripts {
+    EverGrandeCity_ChampionsRoom_OnTransition
+    EverGrandeCity_ChampionsRoom_OnWarp
+    EverGrandeCity_ChampionsRoom_OnFrame
 }
 
 script EverGrandeCity_ChampionsRoom_EventScript_PlayerTurnNorth {

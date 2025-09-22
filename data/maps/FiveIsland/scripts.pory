@@ -1,9 +1,5 @@
-#events for FiveIsland
-
-script FiveIsland_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, FiveIsland_OnTransition
-	.byte 0
-
+mapscripts FiveIsland_MapScripts {
+    FiveIsland_OnTransition
 }
 
 script FiveIsland_OnTransition {

@@ -1,8 +1,4 @@
-#events for PokemonTower_6F
-
-script PokemonTower_6F_MapScripts {
-	.byte 0
-
+mapscripts PokemonTower_6F_MapScripts {
 }
 
 script PokemonTower_6F_EventScript_MarowakGhost {

@@ -1,6 +1,3 @@
-#events for NationalPark_GatehouseEast
-
-script NationalPark_GatehouseEast_MapScripts {
-	.byte 0
+mapscripts NationalPark_GatehouseEast_MapScripts {
 }
 

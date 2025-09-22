@@ -1,8 +1,4 @@
-#events for ThreeIsland_House1
-
-script ThreeIsland_House1_MapScripts {
-	.byte 0
-
+mapscripts ThreeIsland_House1_MapScripts {
 }
 
 script ThreeIsland_House1_EventScript_Lostelle {

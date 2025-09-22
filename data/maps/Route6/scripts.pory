@@ -1,8 +1,4 @@
-#events for Route6
-
-script Route6_MapScripts {
-	.byte 0
-
+mapscripts Route6_MapScripts {
 }
 
 script Route6_EventScript_UndergroundPathSign {

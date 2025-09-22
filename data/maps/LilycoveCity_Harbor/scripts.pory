@@ -1,9 +1,5 @@
-#events for LilycoveCity_Harbor
-
-script LilycoveCity_Harbor_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_Harbor_OnTransition
-	.byte 0
-
+mapscripts LilycoveCity_Harbor_MapScripts {
+    LilycoveCity_Harbor_OnTransition
 }
 
 script LilycoveCity_Harbor_EventScript_FerryAttendant {

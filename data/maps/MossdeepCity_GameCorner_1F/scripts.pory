@@ -1,11 +1,7 @@
-#events for MossdeepCity_GameCorner_1F
-
-script MossdeepCity_GameCorner_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, MossdeepCity_GameCorner_1F_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, MossdeepCity_GameCorner_1F_OnWarp
-	map_script MAP_SCRIPT_ON_LOAD, CableClub_OnLoad
-	.byte 0
-
+mapscripts MossdeepCity_GameCorner_1F_MapScripts {
+    MossdeepCity_GameCorner_1F_OnFrame
+    MossdeepCity_GameCorner_1F_OnWarp
+    CableClub_OnLoad
 }
 
 script MossdeepCity_GameCorner_1F_EventScript_InfoMan {

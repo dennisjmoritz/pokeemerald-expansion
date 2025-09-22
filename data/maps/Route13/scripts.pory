@@ -1,8 +1,4 @@
-#events for Route13
-
-script Route13_MapScripts {
-	.byte 0
-
+mapscripts Route13_MapScripts {
 }
 
 script Route13_EventScript_TrainerTips1 {

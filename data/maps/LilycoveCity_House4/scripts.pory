@@ -1,8 +1,4 @@
-#events for LilycoveCity_House4
-
-script LilycoveCity_House4_MapScripts {
-	.byte 0
-
+mapscripts LilycoveCity_House4_MapScripts {
 }
 
 script LilycoveCity_House4_EventScript_Man1 {

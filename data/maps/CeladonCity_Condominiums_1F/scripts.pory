@@ -1,8 +1,4 @@
-#events for CeladonCity_Condominiums_1F
-
-script CeladonCity_Condominiums_1F_MapScripts {
-	.byte 0
-
+mapscripts CeladonCity_Condominiums_1F_MapScripts {
 }
 
 script CeladonCity_Condominiums_1F_EventScript_TeaWoman {

@@ -1,9 +1,5 @@
-#events for DewfordTown
-
-script DewfordTown_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, DewfordTown_OnTransition
-	.byte 0
-
+mapscripts DewfordTown_MapScripts {
+    DewfordTown_OnTransition
 }
 
 script DewfordTown_EventScript_Briney {

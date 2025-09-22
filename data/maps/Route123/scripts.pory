@@ -1,9 +1,5 @@
-#events for Route123
-
-script Route123_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route123_OnTransition
-	.byte 0
-
+mapscripts Route123_MapScripts {
+    Route123_OnTransition
 }
 
 script Route123_EventScript_GigaDrainGirl {

@@ -1,8 +1,4 @@
-#events for VermilionCity_PokemonFanClub
-
-script VermilionCity_PokemonFanClub_MapScripts {
-	.byte 0
-
+mapscripts VermilionCity_PokemonFanClub_MapScripts {
 }
 
 script VermilionCity_PokemonFanClub_EventScript_Chairman {

@@ -1,6 +1,3 @@
-#events for SevenIsland_TanobyRuins_LiptooChamber
-
-script SevenIsland_TanobyRuins_LiptooChamber_MapScripts {
-	.byte 0
+mapscripts SevenIsland_TanobyRuins_LiptooChamber_MapScripts {
 }
 

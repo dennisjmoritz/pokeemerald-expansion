@@ -1,9 +1,5 @@
-#events for OldaleTown
-
-script OldaleTown_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, OldaleTown_OnTransition
-	.byte 0
-
+mapscripts OldaleTown_MapScripts {
+    OldaleTown_OnTransition
 }
 
 script OldaleTown_EventScript_SetOldaleState {

@@ -1,8 +1,4 @@
-#events for SootopolisCity_LotadAndSeedotHouse
-
-script SootopolisCity_LotadAndSeedotHouse_MapScripts {
-	.byte 0
-
+mapscripts SootopolisCity_LotadAndSeedotHouse_MapScripts {
 }
 
 script SootopolisCity_LotadAndSeedotHouse_EventScript_SeedotBrother {

@@ -1,6 +1,3 @@
-#events for MahoganyTown_Gym
-
-script MahoganyTown_Gym_MapScripts {
-	.byte 0
+mapscripts MahoganyTown_Gym_MapScripts {
 }
 

@@ -1,8 +1,4 @@
-#events for OldaleTown_House2
-
-script OldaleTown_House2_MapScripts {
-	.byte 0
-
+mapscripts OldaleTown_House2_MapScripts {
 }
 
 script OldaleTown_House2_EventScript_Woman {

@@ -1,9 +1,5 @@
-#events for VerdanturfTown
-
-script VerdanturfTown_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, VerdanturfTown_OnTransition
-	.byte 0
-
+mapscripts VerdanturfTown_MapScripts {
+    VerdanturfTown_OnTransition
 }
 
 script VerdanturfTown_EventScript_Twin {

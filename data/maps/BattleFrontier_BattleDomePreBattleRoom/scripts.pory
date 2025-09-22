@@ -1,10 +1,6 @@
-#events for BattleFrontier_BattleDomePreBattleRoom
-
-script BattleFrontier_BattleDomePreBattleRoom_MapScripts {
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleDomePreBattleRoom_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleDomePreBattleRoom_OnWarp
-	.byte 0
-
+mapscripts BattleFrontier_BattleDomePreBattleRoom_MapScripts {
+    BattleFrontier_BattleDomePreBattleRoom_OnFrame
+    BattleFrontier_BattleDomePreBattleRoom_OnWarp
 }
 
 script BattleFrontier_BattleDomePreBattleRoom_EventScript_TurnPlayerNorth {

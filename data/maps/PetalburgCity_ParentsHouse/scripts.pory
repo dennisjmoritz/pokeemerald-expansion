@@ -1,6 +1,3 @@
-#events for PetalburgCity_ParentsHouse
-
-script PetalburgCity_ParentsHouse_MapScripts {
-	.byte 0
+mapscripts PetalburgCity_ParentsHouse_MapScripts {
 }
 

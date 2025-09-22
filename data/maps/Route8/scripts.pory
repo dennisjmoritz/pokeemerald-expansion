@@ -1,8 +1,4 @@
-#events for Route8
-
-script Route8_MapScripts {
-	.byte 0
-
+mapscripts Route8_MapScripts {
 }
 
 script Route8_EventScript_UndergroundPathSign {

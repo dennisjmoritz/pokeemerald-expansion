@@ -1,6 +1,3 @@
-#events for FourIsland_IcefallCave_Entrance
-
-script FourIsland_IcefallCave_Entrance_MapScripts {
-	.byte 0
+mapscripts FourIsland_IcefallCave_Entrance_MapScripts {
 }
 

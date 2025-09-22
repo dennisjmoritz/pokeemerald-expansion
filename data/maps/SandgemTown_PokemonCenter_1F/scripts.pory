@@ -1,9 +1,4 @@
-#events for SandgemTown_PokemonCenter_1F
-
-script SandgemTown_PokemonCenter_1F_MapScripts {
-	.byte 0
-
-
+mapscripts SandgemTown_PokemonCenter_1F_MapScripts {
 }
 
 script SandgemTown_PokemonCenter_1F_EventScript_Nurse {

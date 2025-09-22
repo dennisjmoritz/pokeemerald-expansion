@@ -1,8 +1,4 @@
-#events for MauvilleCity_House1
-
-script MauvilleCity_House1_MapScripts {
-	.byte 0
-
+mapscripts MauvilleCity_House1_MapScripts {
 }
 
 script MauvilleCity_House1_EventScript_RockSmashDude {

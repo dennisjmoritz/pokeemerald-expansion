@@ -1,10 +1,6 @@
-#events for BattleFrontier_PokemonCenter_1F
-
-script BattleFrontier_PokemonCenter_1F_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
-	.byte 0
-
+mapscripts BattleFrontier_PokemonCenter_1F_MapScripts {
+    BattleFrontier_PokemonCenter_1F_OnTransition
+    CableClub_OnResume
 }
 
 script BattleFrontier_PokemonCenter_1F_EventScript_Nurse {

@@ -1,9 +1,5 @@
-#events for SaffronCity
-
-script SaffronCity_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, SaffronCity_OnTransition
-	.byte 0
-
+mapscripts SaffronCity_MapScripts {
+    SaffronCity_OnTransition
 }
 
 script SaffronCity_OnTransition {

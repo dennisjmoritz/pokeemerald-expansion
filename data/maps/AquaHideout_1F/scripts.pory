@@ -1,9 +1,5 @@
-#events for AquaHideout_1F
-
-script AquaHideout_1F_MapScripts {
-	.byte 0
-
-@ The below two entrance guards give hints about what to do to progress the story
+mapscripts AquaHideout_1F_MapScripts {
+    @ The below two entrance guards give hints about what to do to progress the story
 }
 
 script AquaHideout_1F_EventScript_HideoutEntranceGrunt1 {

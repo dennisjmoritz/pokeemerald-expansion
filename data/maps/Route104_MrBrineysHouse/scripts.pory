@@ -1,9 +1,5 @@
-#events for Route104_MrBrineysHouse
-
-script Route104_MrBrineysHouse_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route104_MrBrineysHouse_OnTransition
-	.byte 0
-
+mapscripts Route104_MrBrineysHouse_MapScripts {
+    Route104_MrBrineysHouse_OnTransition
 }
 
 script Route104_MrBrineysHouse_EventScript_HideRustboroRival {

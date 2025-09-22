@@ -1,6 +1,3 @@
-#events for SaffronCity_8F
-
-script SaffronCity_8F_MapScripts {
-	.byte 0
+mapscripts SaffronCity_8F_MapScripts {
 }
 

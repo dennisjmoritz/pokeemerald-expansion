@@ -1,9 +1,5 @@
-#events for Route117
-
-script Route117_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, Route117_OnTransition
-	.byte 0
-
+mapscripts Route117_MapScripts {
+    Route117_OnTransition
 }
 
 script Route117_EventScript_TryMoveDayCareMan {

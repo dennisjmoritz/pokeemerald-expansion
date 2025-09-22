@@ -1,8 +1,4 @@
-#events for VerdanturfTown_WandasHouse
-
-script VerdanturfTown_WandasHouse_MapScripts {
-	.byte 0
-
+mapscripts VerdanturfTown_WandasHouse_MapScripts {
 }
 
 script VerdanturfTown_WandasHouse_EventScript_Wally {

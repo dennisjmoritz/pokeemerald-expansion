@@ -1,6 +1,3 @@
-#events for SolaceonTown
-
-script SolaceonTown_MapScripts {
-	.byte 0
+mapscripts SolaceonTown_MapScripts {
 }
 

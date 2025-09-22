@@ -1,8 +1,4 @@
-#events for Route5_PokemonDayCare
-
-script Route5_PokemonDayCare_MapScripts {
-	.byte 0
-
+mapscripts Route5_PokemonDayCare_MapScripts {
 }
 
 script Route5_PokemonDayCare_Text_WantMeToRaiseMon {

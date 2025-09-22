@@ -1,8 +1,4 @@
-#events for LavaridgeTown_Mart
-
-script LavaridgeTown_Mart_MapScripts {
-	.byte 0
-
+mapscripts LavaridgeTown_Mart_MapScripts {
 }
 
 script LavaridgeTown_Mart_EventScript_Clerk {

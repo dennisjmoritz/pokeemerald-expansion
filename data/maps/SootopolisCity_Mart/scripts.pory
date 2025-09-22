@@ -1,8 +1,4 @@
-#events for SootopolisCity_Mart
-
-script SootopolisCity_Mart_MapScripts {
-	.byte 0
-
+mapscripts SootopolisCity_Mart_MapScripts {
 }
 
 script SootopolisCity_Mart_EventScript_Clerk {

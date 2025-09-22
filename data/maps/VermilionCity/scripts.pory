@@ -1,10 +1,6 @@
-#events for VermilionCity
-
-script VermilionCity_MapScripts {
-	map_script MAP_SCRIPT_ON_TRANSITION, VermilionCity_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, VermilionCity_OnFrame
-	.byte 0
-
+mapscripts VermilionCity_MapScripts {
+    VermilionCity_OnTransition
+    VermilionCity_OnFrame
 }
 
 script VermilionCity_OnFrame {

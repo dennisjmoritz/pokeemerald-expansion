@@ -1,6 +1,3 @@
-#events for AzaleaTown
-
-script AzaleaTown_MapScripts {
-	.byte 0
+mapscripts AzaleaTown_MapScripts {
 }
 

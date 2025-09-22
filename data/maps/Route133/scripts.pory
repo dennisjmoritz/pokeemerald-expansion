@@ -1,8 +1,4 @@
-#events for Route133
-
-script Route133_MapScripts {
-	.byte 0
-
+mapscripts Route133_MapScripts {
 }
 
 script Route133_EventScript_Franklin {

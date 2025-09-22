@@ -1,6 +1,3 @@
-#events for ValleyWindworks
-
-script ValleyWindworks_MapScripts {
-	.byte 0
+mapscripts ValleyWindworks_MapScripts {
 }
 

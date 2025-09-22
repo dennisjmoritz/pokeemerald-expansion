@@ -1,11 +1,7 @@
-#events for MossdeepCity_StevensHouse
-
-script MossdeepCity_StevensHouse_MapScripts {
-	map_script MAP_SCRIPT_ON_LOAD, MossdeepCity_StevensHouse_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_StevensHouse_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, MossdeepCity_StevensHouse_OnFrame
-	.byte 0
-
+mapscripts MossdeepCity_StevensHouse_MapScripts {
+    MossdeepCity_StevensHouse_OnLoad
+    MossdeepCity_StevensHouse_OnTransition
+    MossdeepCity_StevensHouse_OnFrame
 }
 
 script MossdeepCity_StevensHouse_EventScript_HideStevensNote {

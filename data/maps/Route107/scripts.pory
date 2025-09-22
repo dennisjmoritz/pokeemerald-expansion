@@ -1,8 +1,4 @@
-#events for Route107
-
-script Route107_MapScripts {
-	.byte 0
-
+mapscripts Route107_MapScripts {
 }
 
 script Route107_EventScript_Darrin {

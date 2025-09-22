@@ -1,8 +1,4 @@
-#events for PetalburgCity_House2
-
-script PetalburgCity_House2_MapScripts {
-	.byte 0
-
+mapscripts PetalburgCity_House2_MapScripts {
 }
 
 script PetalburgCity_House2_EventScript_Woman {

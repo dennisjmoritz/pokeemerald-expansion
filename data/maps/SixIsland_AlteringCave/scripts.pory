@@ -1,6 +1,3 @@
-#events for SixIsland_AlteringCave
-
-script SixIsland_AlteringCave_MapScripts {
-	.byte 0
+mapscripts SixIsland_AlteringCave_MapScripts {
 }
 
