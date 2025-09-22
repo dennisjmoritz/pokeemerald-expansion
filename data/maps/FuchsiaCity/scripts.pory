@@ -1,159 +1,339 @@
-text FuchsiaCity_Text_DidYouTrySafariGame {
-    format("Did you try the SAFARI GAME?\p There are some rare POKéMON that can only be caught there.")
+#events for FuchsiaCity
+
+script FuchsiaCity_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, FuchsiaCity_OnTransition
+	.byte 0
+
 }
 
-text FuchsiaCity_Text_SafariZoneZooInFront {
-    format("The SAFARI ZONE has a zoo in front of the entrance.\p Out back is the SAFARI GAME for catching POKéMON.")
+script FuchsiaCity_OnTransition {
+	setworldmapflag FLAG_TEMP_1
+// Replaced FLAG_WORLD_MAP_FUCHSIA_CITY with FLAG_TEMP_1
+	call_if_set FLAG_TEMP_1, FuchsiaCity_EventScript_SetOmanyteGfx
+// Replaced FLAG_GOT_DOME_FOSSIL with FLAG_TEMP_1
+	call_if_unset FLAG_TEMP_1, FuchsiaCity_EventScript_SetKabutoGfx
+// Replaced FLAG_GOT_DOME_FOSSIL with FLAG_TEMP_1
+	end
+
 }
 
-text FuchsiaCity_Text_WheresSara {
-    format("ERIK: Where's SARA? I said I'd meet her here.")
+script FuchsiaCity_EventScript_SetOmanyteGfx {
+// 	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_OMANYTE
+	return
+
 }
 
-text FuchsiaCity_Text_ItemBallInThere {
-    format("That item ball in there… Were you wanting that?\p Me, too! …Huh? That's a POKéMON?")
+script FuchsiaCity_EventScript_SetKabutoGfx {
+// 	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_KABUTO
+	return
+
 }
 
-text FuchsiaCity_Text_CitySign {
-    format("FUCHSIA CITY Behold! It's Passion Pink!")
+script FuchsiaCity_EventScript_LittleBoy {
+	msgbox FuchsiaCity_Text_DidYouTrySafariGame, MSGBOX_NPC
+	end
+
 }
 
-text FuchsiaCity_Text_SafariZoneSign {
-    format("POKéMON PARADISE SAFARI ZONE")
+script FuchsiaCity_EventScript_OldMan {
+	msgbox FuchsiaCity_Text_SafariZoneZooInFront, MSGBOX_NPC
+	end
+
 }
 
-text FuchsiaCity_Text_SafariGameSign {
-    format("SAFARI GAME POKéMON-U-CATCH!")
+script FuchsiaCity_EventScript_Erik {
+	msgbox FuchsiaCity_Text_WheresSara, MSGBOX_NPC
+	end
+
 }
 
-text FuchsiaCity_Text_WardensHomeSign {
-    format("SAFARI ZONE WARDEN'S HOME")
+script FuchsiaCity_EventScript_Youngster {
+	msgbox FuchsiaCity_Text_ItemBallInThere, MSGBOX_NPC
+	end
+
 }
 
-text FuchsiaCity_Text_SafariZoneOfficeSign {
-    format("POKéMON PARADISE! Welcome to the SAFARI ZONE!\l SAFARI ZONE OFFICE")
-}
+script FuchsiaCity_EventScript_Lass {
+	lock
+	faceplayer
+	msgbox FuchsiaCity_Text_MyFatherIsGymLeader
+	release
+	end
 
-text FuchsiaCity_Text_GymSign {
-    format("FUCHSIA CITY POKéMON GYM LEADER: KOGA\l The Poisonous Ninja Master")
-}
-
-text FuchsiaCity_Text_ChanseySign {
-    format("Name: CHANSEY Catching one is all up to chance.")
-}
-
-text FuchsiaCity_Text_VoltorbSign {
-    format("Name: VOLTORB The very image of a POKé BALL.")
-}
-
-text FuchsiaCity_Text_KangaskhanSign {
-    format("Name: KANGASKHAN\p A maternal POKéMON that raises its young in a pouch on its belly.")
-}
-
-text FuchsiaCity_Text_SlowpokeSign {
-    format("Name: SLOWPOKE Friendly and very slow moving.")
-}
-
-text FuchsiaCity_Text_LaprasSign {
-    format("Name: LAPRAS AKA the king of the seas.")
-}
-
-text FuchsiaCity_Text_OmanyteSign {
-    format("Name: OMANYTE An extremely rare POKéMON that was\l regenerated from a fossil.")
-}
-
-text FuchsiaCity_Text_KabutoSign {
-    format("Name: KABUTO An extremely rare POKéMON that was\l regenerated from a fossil.")
-}
-
-text FuchsiaCity_Text_Ellipsis {
-    format("……")
-}
-
-text Text_SubstituteTeach {
-    format("Aww, I wish I was a KANGASKHAN baby.\p I'd love to be a substitute for the baby…\p And snuggle in the mother KANGASKHAN's belly pouch.\p But only POKéMON can use the technique SUBSTITUTE…\p Want me to teach SUBSTITUTE to one of your POKéMON?")
-}
-
-text Text_SubstituteDeclined {
-    format("Oh, really? SUBSTITUTE seems so fun…")
-}
-
-text Text_SubstituteWhichMon {
-    format("Which POKéMON wants to learn SUBSTITUTE?")
-}
-
-text Text_SubstituteTaught {
-    format("Boy, what I'd give to crawl inside a KANGASKHAN belly pouch…")
-}
-
-text FuchsiaCity_Text_MyFatherIsGymLeader {
-    format("My father is the GYM LEADER of this town.\p I'm training to use POISON POKéMON as well as my father.")
 }
 
 script FuchsiaCity_EventScript_CitySign {
-    lockall
-    msgbox(FuchsiaCity_Text_CitySign)
-    releaseall
+	msgbox FuchsiaCity_Text_CitySign, MSGBOX_SIGN
+	end
+
 }
 
 script FuchsiaCity_EventScript_SafariZoneSign {
-    lockall
-    msgbox(FuchsiaCity_Text_SafariZoneSign)
-    releaseall
-}
+	msgbox FuchsiaCity_Text_SafariZoneSign, MSGBOX_SIGN
+	end
 
-script FuchsiaCity_EventScript_GymSign {
-    lockall
-    msgbox(FuchsiaCity_Text_GymSign)
-    releaseall
-}
-
-script FuchsiaCity_EventScript_WardensHomeSign {
-    lockall
-    msgbox(FuchsiaCity_Text_WardensHomeSign)
-    releaseall
-}
-
-script FuchsiaCity_EventScript_VoltorbSign {
-    lockall
-    msgbox(FuchsiaCity_Text_VoltorbSign)
-    releaseall
-}
-
-script FuchsiaCity_EventScript_SlowpokeSign {
-    lockall
-    msgbox(FuchsiaCity_Text_SlowpokeSign)
-    releaseall
-}
-
-script FuchsiaCity_EventScript_ChanseySign {
-    lockall
-    msgbox(FuchsiaCity_Text_ChanseySign)
-    releaseall
-}
-
-script FuchsiaCity_EventScript_KangaskhanSign {
-    lockall
-    msgbox(FuchsiaCity_Text_KangaskhanSign)
-    releaseall
-}
-
-script FuchsiaCity_EventScript_FossilMonSign {
-    // Also calls: goto_if_set FLAG_TEMP_1
-    lockall
-    msgbox(FuchsiaCity_Text_KabutoSign)
-    releaseall
-}
-
-script FuchsiaCity_EventScript_LaprasSign {
-    lockall
-    msgbox(FuchsiaCity_Text_LaprasSign)
-    releaseall
 }
 
 script FuchsiaCity_EventScript_SafariGameSign {
-    lockall
-    msgbox(FuchsiaCity_Text_SafariGameSign)
-    releaseall
+	msgbox FuchsiaCity_Text_SafariGameSign, MSGBOX_SIGN
+	end
+
+}
+
+script FuchsiaCity_EventScript_WardensHomeSign {
+	msgbox FuchsiaCity_Text_WardensHomeSign, MSGBOX_SIGN
+	end
+
+@ Unused
+}
+
+script FuchsiaCity_EventScript_SafariZoneOfficeSign {
+	msgbox FuchsiaCity_Text_SafariZoneOfficeSign, MSGBOX_SIGN
+	end
+
+}
+
+script FuchsiaCity_EventScript_GymSign {
+	lockall
+	msgbox FuchsiaCity_Text_GymSign
+	releaseall
+	end
+
+}
+
+script FuchsiaCity_EventScript_ChanseySign {
+	lockall
+	setvar VAR_0x8004, SPECIES_CHANSEY
+	showmonpic SPECIES_CHANSEY, 10, 3
+	msgbox FuchsiaCity_Text_ChanseySign
+	hidemonpic
+	releaseall
+	end
+
+}
+
+script FuchsiaCity_EventScript_VoltorbSign {
+	lockall
+	setvar VAR_0x8004, SPECIES_VOLTORB
+	showmonpic SPECIES_VOLTORB, 10, 3
+	msgbox FuchsiaCity_Text_VoltorbSign
+	hidemonpic
+	releaseall
+	end
+
+}
+
+script FuchsiaCity_EventScript_KangaskhanSign {
+	lockall
+	setvar VAR_0x8004, SPECIES_KANGASKHAN
+	showmonpic SPECIES_KANGASKHAN, 10, 3
+	msgbox FuchsiaCity_Text_KangaskhanSign
+	hidemonpic
+	releaseall
+	end
+
+}
+
+script FuchsiaCity_EventScript_SlowpokeSign {
+	lockall
+	setvar VAR_0x8004, SPECIES_SLOWPOKE
+	showmonpic SPECIES_SLOWPOKE, 10, 3
+	msgbox FuchsiaCity_Text_SlowpokeSign
+	hidemonpic
+	releaseall
+	end
+
+}
+
+script FuchsiaCity_EventScript_LaprasSign {
+	lockall
+	setvar VAR_0x8004, SPECIES_LAPRAS
+	showmonpic SPECIES_LAPRAS, 10, 3
+	msgbox FuchsiaCity_Text_LaprasSign
+	hidemonpic
+	releaseall
+	end
+
+}
+
+script FuchsiaCity_EventScript_FossilMonSign {
+	lockall
+	goto_if_set FLAG_TEMP_1, FuchsiaCity_EventScript_OmanyteSign
+// Replaced FLAG_GOT_DOME_FOSSIL with FLAG_TEMP_1
+	setvar VAR_0x8004, SPECIES_KABUTO
+	showmonpic SPECIES_KABUTO, 10, 3
+	msgbox FuchsiaCity_Text_KabutoSign
+	hidemonpic
+	releaseall
+	end
+
+}
+
+script FuchsiaCity_EventScript_OmanyteSign {
+	setvar VAR_0x8004, SPECIES_OMANYTE
+	showmonpic SPECIES_OMANYTE, 10, 3
+	msgbox FuchsiaCity_Text_OmanyteSign
+	hidemonpic
+	releaseall
+	end
+
+}
+
+script FuchsiaCity_Text_DidYouTrySafariGame {
+    .string "Did you try the SAFARI GAME?\p"
+    .string "There are some rare POKéMON that\n"
+    .string "can only be caught there.$"
+
+}
+
+script FuchsiaCity_Text_SafariZoneZooInFront {
+    .string "The SAFARI ZONE has a zoo in front\n"
+    .string "of the entrance.\p"
+    .string "Out back is the SAFARI GAME for\n"
+    .string "catching POKéMON.$"
+
+}
+
+script FuchsiaCity_Text_WheresSara {
+    .string "ERIK: Where's SARA?\n"
+    .string "I said I'd meet her here.$"
+
+}
+
+script FuchsiaCity_Text_ItemBallInThere {
+    .string "That item ball in there…\n"
+    .string "Were you wanting that?\p"
+    .string "Me, too!\n"
+    .string "…Huh? That's a POKéMON?$"
+
+}
+
+script FuchsiaCity_Text_CitySign {
+    .string "FUCHSIA CITY\n"
+    .string "Behold! It's Passion Pink!$"
+
+}
+
+script FuchsiaCity_Text_SafariZoneSign {
+    .string "POKéMON PARADISE\n"
+    .string "SAFARI ZONE$"
+
+}
+
+script FuchsiaCity_Text_SafariGameSign {
+    .string "SAFARI GAME\n"
+    .string "POKéMON-U-CATCH!$"
+
+}
+
+script FuchsiaCity_Text_WardensHomeSign {
+    .string "SAFARI ZONE\n"
+    .string "WARDEN'S HOME$"
+
+}
+
+script FuchsiaCity_Text_SafariZoneOfficeSign {
+    .string "POKéMON PARADISE!\n"
+    .string "Welcome to the SAFARI ZONE!\l"
+    .string "SAFARI ZONE OFFICE$"
+
+}
+
+script FuchsiaCity_Text_GymSign {
+    .string "FUCHSIA CITY POKéMON GYM\n"
+    .string "LEADER: KOGA\l"
+    .string "The Poisonous Ninja Master$"
+
+}
+
+script FuchsiaCity_Text_ChanseySign {
+    .string "Name: CHANSEY\n"
+    .string "Catching one is all up to chance.$"
+
+}
+
+script FuchsiaCity_Text_VoltorbSign {
+    .string "Name: VOLTORB\n"
+    .string "The very image of a POKé BALL.$"
+
+}
+
+script FuchsiaCity_Text_KangaskhanSign {
+    .string "Name: KANGASKHAN\p"
+    .string "A maternal POKéMON that raises its\n"
+    .string "young in a pouch on its belly.$"
+
+}
+
+script FuchsiaCity_Text_SlowpokeSign {
+    .string "Name: SLOWPOKE\n"
+    .string "Friendly and very slow moving.$"
+
+}
+
+script FuchsiaCity_Text_LaprasSign {
+    .string "Name: LAPRAS\n"
+    .string "AKA the king of the seas.$"
+
+}
+
+script FuchsiaCity_Text_OmanyteSign {
+    .string "Name: OMANYTE\n"
+    .string "An extremely rare POKéMON that was\l"
+    .string "regenerated from a fossil.$"
+
+}
+
+script FuchsiaCity_Text_KabutoSign {
+    .string "Name: KABUTO\n"
+    .string "An extremely rare POKéMON that was\l"
+    .string "regenerated from a fossil.$"
+
+@ Unused. May have been meant to be the placeholder text for the zoo mons, similar to RB's "!" text
+}
+
+script FuchsiaCity_Text_Ellipsis {
+    .string "……$"
+
+}
+
+script Text_SubstituteTeach {
+    .string "Aww, I wish I was a KANGASKHAN\n"
+    .string "baby.\p"
+    .string "I'd love to be a substitute for the\n"
+    .string "baby…\p"
+    .string "And snuggle in the mother\n"
+    .string "KANGASKHAN's belly pouch.\p"
+    .string "But only POKéMON can use the\n"
+    .string "technique SUBSTITUTE…\p"
+    .string "Want me to teach SUBSTITUTE to\n"
+    .string "one of your POKéMON?$"
+
+}
+
+script Text_SubstituteDeclined {
+    .string "Oh, really?\n"
+    .string "SUBSTITUTE seems so fun…$"
+
+}
+
+script Text_SubstituteWhichMon {
+    .string "Which POKéMON wants to learn\n"
+    .string "SUBSTITUTE?$"
+
+}
+
+script Text_SubstituteTaught {
+    .string "Boy, what I'd give to crawl inside\n"
+    .string "a KANGASKHAN belly pouch…$"
+
+}
+
+script FuchsiaCity_Text_MyFatherIsGymLeader {
+    .string "My father is the GYM LEADER of\n"
+    .string "this town.\p"
+    .string "I'm training to use POISON POKéMON\n"
+    .string "as well as my father.$"
+
 }
 

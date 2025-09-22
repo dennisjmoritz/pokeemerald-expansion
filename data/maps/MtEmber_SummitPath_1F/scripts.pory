@@ -1,0 +1,6 @@
+#events for MtEmber_SummitPath_1F
+
+script MtEmber_SummitPath_1F_MapScripts {
+	.byte 0
+}
+

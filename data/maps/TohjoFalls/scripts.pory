@@ -1,0 +1,6 @@
+#events for TohjoFalls
+
+script TohjoFalls_MapScripts {
+	.byte 0
+}
+

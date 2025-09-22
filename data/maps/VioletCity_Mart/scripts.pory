@@ -1,0 +1,6 @@
+#events for VioletCity_Mart
+
+script VioletCity_Mart_MapScripts {
+	.byte 0
+}
+

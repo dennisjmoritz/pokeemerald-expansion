@@ -1,0 +1,6 @@
+#events for Route32_Gatehouse
+
+script Route32_Gatehouse_MapScripts {
+	.byte 0
+}
+

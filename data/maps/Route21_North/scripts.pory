@@ -1,48 +1,81 @@
-text Route21_North_Text_RonaldIntro {
-    format("You want to know if the fish are biting?")
+#events for Route21_North
+
+script Route21_North_MapScripts {
+	.byte 0
+
 }
 
-text Route21_North_Text_RonaldDefeat {
-    format("Dang!")
+script Route21_North_Text_RonaldIntro {
+	.string "You want to know if the fish are\n"
+	.string "biting?$"
+
 }
 
-text Route21_North_Text_RonaldPostBattle {
-    format("I can't catch anything good. Not one good POKéMON to be had!")
+script Route21_North_Text_RonaldDefeat {
+	.string "Dang!$"
+
 }
 
-text Route21_North_Text_WadeIntro {
-    format("I got a big haul! Wanna go for it?")
+script Route21_North_Text_RonaldPostBattle {
+	.string "I can't catch anything good.\n"
+	.string "Not one good POKéMON to be had!$"
+
 }
 
-text Route21_North_Text_WadeDefeat {
-    format("Heheh, MAGIKARP just don't make the grade, do they?")
+script Route21_North_Text_WadeIntro {
+	.string "I got a big haul!\n"
+	.string "Wanna go for it?$"
+
 }
 
-text Route21_North_Text_WadePostBattle {
-    format("I seem to only catch MAGIKARP!")
+script Route21_North_Text_WadeDefeat {
+	.string "Heheh, MAGIKARP just don't make\n"
+	.string "the grade, do they?$"
+
 }
 
-text Route21_North_Text_SpencerIntro {
-    format("The sea cleanses my body and soul!")
+script Route21_North_Text_WadePostBattle {
+	.string "I seem to only catch MAGIKARP!$"
+
 }
 
-text Route21_North_Text_SpencerDefeat {
-    format("Ayah!")
+script Route21_North_Text_SpencerIntro {
+	.string "The sea cleanses my body and soul!$"
+
 }
 
-text Route21_North_Text_SpencerPostBattle {
-    format("The sea is great and all, but I like the mountains, too.")
+script Route21_North_Text_SpencerDefeat {
+	.string "Ayah!$"
+
 }
 
-text Route21_North_Text_CueBallIntro {
-    format("おれだって たまには およぎに くるぜ！")
+script Route21_North_Text_SpencerPostBattle {
+	.string "The sea is great and all, but I\n"
+	.string "like the mountains, too.$"
+
+@ Below is the battle text for the Cue Ball that was on Route 21 in Gen 1.
+@ This trainer wasnt used in Gen 3 so their text goes unused/untranslated
+@ Interestingly they did add a rematch intro text for this trainer
+@ English translations from RB are listed
+
+@ "What's wrong with me swimming?"
 }
 
-text Route21_North_Text_CueBallDefeat {
-    format("ぐわわ！")
+script Route21_North_Text_CueBallIntro {
+	.string "おれだって　たまには\n"
+	.string "およぎに　くるぜ！$"
+
+@ "Cheap shot!"
 }
 
-text Route21_North_Text_CueBallPostBattle {
-    format("うきやすそう だと？ うるせー おおきな おせわだッ！")
+script Route21_North_Text_CueBallDefeat {
+	.string "ぐわわ！$"
+
+@ "I look like what? A studded inner tube? Get lost!"
+}
+
+script Route21_North_Text_CueBallPostBattle {
+	.string "うきやすそう　だと？\n"
+	.string "うるせー　おおきな　おせわだッ！$"
 }
 

@@ -1,0 +1,6 @@
+#events for Route28_House
+
+script Route28_House_MapScripts {
+	.byte 0
+}
+

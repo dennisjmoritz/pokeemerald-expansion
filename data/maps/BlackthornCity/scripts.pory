@@ -1,0 +1,6 @@
+#events for BlackthornCity
+
+script BlackthornCity_MapScripts {
+	.byte 0
+}
+

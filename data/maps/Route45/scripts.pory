@@ -1,0 +1,6 @@
+#events for Route45
+
+script Route45_MapScripts {
+	.byte 0
+}
+

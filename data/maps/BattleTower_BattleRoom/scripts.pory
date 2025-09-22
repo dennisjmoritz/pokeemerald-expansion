@@ -1,0 +1,6 @@
+#events for BattleTower_BattleRoom
+
+script BattleTower_BattleRoom_MapScripts {
+	.byte 0
+}
+

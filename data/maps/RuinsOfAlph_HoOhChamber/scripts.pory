@@ -1,0 +1,6 @@
+#events for RuinsOfAlph_HoOhChamber
+
+script RuinsOfAlph_HoOhChamber_MapScripts {
+	.byte 0
+}
+

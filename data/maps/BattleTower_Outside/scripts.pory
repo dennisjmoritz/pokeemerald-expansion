@@ -1,0 +1,6 @@
+#events for BattleTower_Outside
+
+script BattleTower_Outside_MapScripts {
+	.byte 0
+}
+

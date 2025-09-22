@@ -1,4 +1,45 @@
-text SeafloorCavern_Room1_EventScript_Grunt2 {
-    format("We don't need a kid around! Go on home already!$ I want to go home…$ I want to get a promotion so I can boss around the GRUNTS…$ That submarine… It's tiny inside. I'm sore all over!$ Losing makes me sore!$ That submarine we jacked, man, it's brutal as a ride.\l It's way too tight in there!")
+#events for SeafloorCavern_Room1
+
+script SeafloorCavern_Room1_MapScripts {
+	.byte 0
+
+}
+
+script SeafloorCavern_Room1_EventScript_Grunt1 {
+	trainerbattle_single TRAINER_GRUNT_SEAFLOOR_CAVERN_1, SeafloorCavern_Room1_Text_Grunt1Intro, SeafloorCavern_Room1_Text_Grunt1Defeat
+	msgbox SeafloorCavern_Room1_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script SeafloorCavern_Room1_EventScript_Grunt2 {
+	trainerbattle_single TRAINER_GRUNT_SEAFLOOR_CAVERN_2, SeafloorCavern_Room1_Text_Grunt2Intro, SeafloorCavern_Room1_Text_Grunt2Defeat
+	msgbox SeafloorCavern_Room1_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+text SeafloorCavern_Room1_Text_Grunt1Intro {
+    format("We don't need a kid around! Go on home already!")
+}
+
+text SeafloorCavern_Room1_Text_Grunt1Defeat {
+    format("I want to go home…")
+}
+
+text SeafloorCavern_Room1_Text_Grunt1PostBattle {
+    format("I want to get a promotion so I can boss around the GRUNTS…")
+}
+
+text SeafloorCavern_Room1_Text_Grunt2Intro {
+    format("That submarine… It's tiny inside. I'm sore all over!")
+}
+
+text SeafloorCavern_Room1_Text_Grunt2Defeat {
+    format("Losing makes me sore!")
+}
+
+text SeafloorCavern_Room1_Text_Grunt2PostBattle {
+    format("That submarine we jacked, man, it's brutal as a ride.\l It's way too tight in there!")
 }
 

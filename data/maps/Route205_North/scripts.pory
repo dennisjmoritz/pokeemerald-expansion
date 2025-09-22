@@ -1,0 +1,6 @@
+#events for Route205_North
+
+script Route205_North_MapScripts {
+	.byte 0
+}
+

@@ -1,0 +1,6 @@
+#events for SevenIsland_TrainerTower_Lobby
+
+script SevenIsland_TrainerTower_Lobby_MapScripts {
+	.byte 0
+}
+

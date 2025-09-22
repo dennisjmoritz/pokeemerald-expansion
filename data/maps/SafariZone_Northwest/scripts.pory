@@ -1,0 +1,13 @@
+#events for SafariZone_Northwest
+
+script SafariZone_Northwest_MapScripts {
+	.byte 0
+
+}
+
+script SafariZone_Northwest_EventScript_Man {
+	msgbox SafariZone_Northwest_Text_Man, MSGBOX_NPC
+	end
+
+}
+

@@ -1,50 +1,68 @@
-text SafariZone_North_Text_RestHouse {
-    format("REST HOUSE")
-}
+#events for SafariZone_North
 
-text SafariZone_North_Text_SecretHouseStillAhead {
-    format("TRAINER TIPS\p The SECRET HOUSE is still ahead.")
-}
+script SafariZone_North_MapScripts {
+	.byte 0
 
-text SafariZone_North_Text_Area2 {
-    format("AREA 2")
-}
-
-text SafariZone_North_Text_ZigzagThroughTallGrass {
-    format("TRAINER TIPS\p POKéMON hide in tall grass.\p Zigzag through grassy areas to flush them out.")
-}
-
-text SafariZone_North_Text_WinFreeHMFindSecretHouse {
-    format("TRAINER TIPS\p Win a free HM for finding the SECRET HOUSE.")
-}
-
-script SafariZone_North_EventScript_TrainerTips1 {
-    lockall
-    msgbox(SafariZone_North_Text_SecretHouseStillAhead)
-    releaseall
-}
-
-script SafariZone_North_EventScript_AreaSign {
-    lockall
-    msgbox(SafariZone_North_Text_Area2)
-    releaseall
-}
-
-script SafariZone_North_EventScript_TrainerTips2 {
-    lockall
-    msgbox(SafariZone_North_Text_ZigzagThroughTallGrass)
-    releaseall
-}
-
-script SafariZone_North_EventScript_TrainerTips3 {
-    lockall
-    msgbox(SafariZone_North_Text_WinFreeHMFindSecretHouse)
-    releaseall
 }
 
 script SafariZone_North_EventScript_RestHouseSign {
-    lockall
-    msgbox(SafariZone_North_Text_RestHouse)
-    releaseall
+	msgbox SafariZone_North_Text_RestHouse, MSGBOX_SIGN
+	end
+
+}
+
+script SafariZone_North_EventScript_TrainerTips1 {
+	msgbox SafariZone_North_Text_SecretHouseStillAhead, MSGBOX_SIGN
+	end
+
+}
+
+script SafariZone_North_EventScript_AreaSign {
+	msgbox SafariZone_North_Text_Area2, MSGBOX_SIGN
+	end
+
+}
+
+script SafariZone_North_EventScript_TrainerTips2 {
+	msgbox SafariZone_North_Text_ZigzagThroughTallGrass, MSGBOX_SIGN
+	end
+
+}
+
+script SafariZone_North_EventScript_TrainerTips3 {
+	msgbox SafariZone_North_Text_WinFreeHMFindSecretHouse, MSGBOX_SIGN
+	end
+
+}
+
+script SafariZone_North_Text_RestHouse {
+    .string "REST HOUSE$"
+
+}
+
+script SafariZone_North_Text_SecretHouseStillAhead {
+    .string "TRAINER TIPS\p"
+    .string "The SECRET HOUSE is still ahead.$"
+
+}
+
+script SafariZone_North_Text_Area2 {
+    .string "AREA 2$"
+
+}
+
+script SafariZone_North_Text_ZigzagThroughTallGrass {
+    .string "TRAINER TIPS\p"
+    .string "POKéMON hide in tall grass.\p"
+    .string "Zigzag through grassy areas to\n"
+    .string "flush them out.$"
+
+}
+
+script SafariZone_North_Text_WinFreeHMFindSecretHouse {
+    .string "TRAINER TIPS\p"
+    .string "Win a free HM for finding the\n"
+    .string "SECRET HOUSE.$"
+
 }
 

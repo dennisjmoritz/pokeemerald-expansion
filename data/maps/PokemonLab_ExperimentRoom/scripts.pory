@@ -1,0 +1,6 @@
+#events for PokemonLab_ExperimentRoom
+
+script PokemonLab_ExperimentRoom_MapScripts {
+	.byte 0
+}
+

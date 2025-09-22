@@ -1,0 +1,6 @@
+#events for GoldenrodCity_RadioTower_2F
+
+script GoldenrodCity_RadioTower_2F_MapScripts {
+	.byte 0
+}
+

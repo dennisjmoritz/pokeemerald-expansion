@@ -1,42 +1,104 @@
-text SilphCo_10F_Text_GruntIntro {
-    format("Welcome to 10F! So good of you to join me!")
+#events for SilphCo_10F
+
+script SilphCo_10F_MapScripts {
+	map_script MAP_SCRIPT_ON_LOAD, SilphCo_10F_OnLoad
+	.byte 0
+
 }
 
-text SilphCo_10F_Text_GruntDefeat {
-    format("I'm stunned!")
+script SilphCo_10F_OnLoad {
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close10FDoor
+// Replaced FLAG_SILPH_10F_DOOR with FLAG_TEMP_1
+	end
+
 }
 
-text SilphCo_10F_Text_GruntPostBattle {
-    format("Nice try, but the boardroom is up one more floor.")
+script SilphCo_10F_EventScript_WorkerF {
+	lock
+	faceplayer
+	goto_if_ge VAR_TEMP_0, 1, SilphCo_10F_EventScript_WorkerFRocketsGone
+// Replaced VAR_MAP_SCENE_SILPH_CO_11F with VAR_TEMP_0
+	msgbox SilphCo_10F_Text_WaaaImScared
+	release
+	end
+
 }
 
-text SilphCo_10F_Text_TravisIntro {
-    format("Enough of your silly games!")
-}
+script SilphCo_10F_EventScript_WorkerFRocketsGone {
+	msgbox SilphCo_10F_Text_KeepMeCryingASecret
+	release
+	end
 
-text SilphCo_10F_Text_TravisDefeat {
-    format("No continues left!")
-}
-
-text SilphCo_10F_Text_TravisPostBattle {
-    format("Are you satisfied with beating me? Then go on home!")
-}
-
-text SilphCo_10F_Text_WaaaImScared {
-    format("Waaaaa! I'm scared!")
-}
-
-text SilphCo_10F_Text_KeepMeCryingASecret {
-    format("About me crying… Please keep it a secret.")
-}
-
-text SilphCo_10F_Text_FloorSign {
-    format("SILPH CO. HEAD OFFICE 10F")
 }
 
 script SilphCo_10F_EventScript_FloorSign {
-    lockall
-    msgbox(SilphCo_10F_Text_FloorSign)
-    releaseall
+	msgbox SilphCo_10F_Text_FloorSign, MSGBOX_SIGN
+	end
+
+}
+
+script SilphCo_10F_EventScript_Travis {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SCIENTIST_TRAVIS, SilphCo_10F_Text_TravisIntro, SilphCo_10F_Text_TravisDefeat
+	msgbox SilphCo_10F_Text_TravisPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script SilphCo_10F_EventScript_Grunt {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_39, SilphCo_10F_Text_GruntIntro, SilphCo_10F_Text_GruntDefeat
+	msgbox SilphCo_10F_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script SilphCo_10F_Text_GruntIntro {
+    .string "Welcome to 10F!\n"
+    .string "So good of you to join me!$"
+
+}
+
+script SilphCo_10F_Text_GruntDefeat {
+    .string "I'm stunned!$"
+
+}
+
+script SilphCo_10F_Text_GruntPostBattle {
+    .string "Nice try, but the boardroom is up\n"
+    .string "one more floor.$"
+
+}
+
+script SilphCo_10F_Text_TravisIntro {
+    .string "Enough of your silly games!$"
+
+}
+
+script SilphCo_10F_Text_TravisDefeat {
+    .string "No continues left!$"
+
+}
+
+script SilphCo_10F_Text_TravisPostBattle {
+    .string "Are you satisfied with beating me?\n"
+    .string "Then go on home!$"
+
+}
+
+script SilphCo_10F_Text_WaaaImScared {
+    .string "Waaaaa!\n"
+    .string "I'm scared!$"
+
+}
+
+script SilphCo_10F_Text_KeepMeCryingASecret {
+    .string "About me crying…\n"
+    .string "Please keep it a secret.$"
+
+}
+
+script SilphCo_10F_Text_FloorSign {
+    .string "SILPH CO. HEAD OFFICE\n"
+    .string "10F$"
+
 }
 

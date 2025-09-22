@@ -1,0 +1,7 @@
+#events for SeafloorCavern_Room2
+
+script SeafloorCavern_Room2_MapScripts {
+	.byte 0
+
+}
+

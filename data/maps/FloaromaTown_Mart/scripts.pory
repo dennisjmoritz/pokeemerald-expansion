@@ -1,0 +1,6 @@
+#events for FloaromaTown_Mart
+
+script FloaromaTown_Mart_MapScripts {
+	.byte 0
+}
+

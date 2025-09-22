@@ -1,0 +1,6 @@
+#events for SevenIsland_TanobyRuins_MoneanChamber
+
+script SevenIsland_TanobyRuins_MoneanChamber_MapScripts {
+	.byte 0
+}
+

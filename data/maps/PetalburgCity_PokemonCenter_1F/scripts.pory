@@ -1,4 +1,93 @@
-text PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType {
-    format("That PC-based POKéMON Storage System…\p Whoever made it must be some kind of a scientific wizard!$ When my POKéMON ate an ORAN BERRY, it regained HP!$ There are many types of POKéMON.\p All types have their strengths and weaknesses against other types.\p Depending on the types of POKéMON, a battle could be easy or hard.$ For example, your TREECKO is a GRASS type.\p It's strong against the WATER and GROUND types.\p But, it's weak against FIRE-type POKéMON.$ For example, your TORCHIC is a FIRE type.\p It's strong against the GRASS and BUG types.\p But, it's weak against WATER-type POKéMON.$ For example, your MUDKIP is a WATER type.\p It's strong against the FIRE type.\p But, it's weak against GRASS-type and ELECTRIC-type POKéMON.")
+#events for PetalburgCity_PokemonCenter_1F
+
+script PetalburgCity_PokemonCenter_1F_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, PetalburgCity_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_Nurse {
+	setvar VAR_0x800B, LOCALID_PETALBURG_NURSE
+// FIXME undefined reference: 	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_FatMan {
+	msgbox PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem, MSGBOX_NPC
+	end
+
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_Youngster {
+	msgbox PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP, MSGBOX_NPC
+	end
+
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_Woman {
+	lock
+	faceplayer
+	msgbox PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon, MSGBOX_DEFAULT
+	specialvar VAR_RESULT, IsStarterInParty
+	goto_if_eq VAR_RESULT, TRUE, PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo
+	release
+	end
+
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo {
+	call_if_eq VAR_STARTER_MON, 0, PetalburgCity_PokemonCenter_1F_EventScript_SayTreeckoType
+	call_if_eq VAR_STARTER_MON, 1, PetalburgCity_PokemonCenter_1F_EventScript_SayTorchicType
+	call_if_eq VAR_STARTER_MON, 2, PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType
+	release
+	end
+
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_SayTreeckoType {
+	msgbox PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType, MSGBOX_DEFAULT
+	return
+
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_SayTorchicType {
+	msgbox PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType, MSGBOX_DEFAULT
+	return
+
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType {
+	msgbox PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType, MSGBOX_DEFAULT
+	return
+
+}
+
+text PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem {
+    format("That PC-based POKéMON Storage System…\p Whoever made it must be some kind of a scientific wizard!")
+}
+
+text PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP {
+    format("When my POKéMON ate an ORAN BERRY, it regained HP!")
+}
+
+text PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon {
+    format("There are many types of POKéMON.\p All types have their strengths and weaknesses against other types.\p Depending on the types of POKéMON, a battle could be easy or hard.")
+}
+
+text PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType {
+    format("For example, your TREECKO is a GRASS type.\p It's strong against the WATER and GROUND types.\p But, it's weak against FIRE-type POKéMON.")
+}
+
+text PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType {
+    format("For example, your TORCHIC is a FIRE type.\p It's strong against the GRASS and BUG types.\p But, it's weak against WATER-type POKéMON.")
+}
+
+text PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType {
+    format("For example, your MUDKIP is a WATER type.\p It's strong against the FIRE type.\p But, it's weak against GRASS-type and ELECTRIC-type POKéMON.")
 }
 

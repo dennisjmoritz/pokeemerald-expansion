@@ -1,0 +1,6 @@
+#events for BurnedTower_B1F
+
+script BurnedTower_B1F_MapScripts {
+	.byte 0
+}
+

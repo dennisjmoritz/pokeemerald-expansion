@@ -1,0 +1,7 @@
+#events for NavelRock_Fork
+
+script NavelRock_Fork_MapScripts {
+	.byte 0
+
+}
+

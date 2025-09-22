@@ -1,0 +1,6 @@
+#events for Route35
+
+script Route35_MapScripts {
+	.byte 0
+}
+

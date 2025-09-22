@@ -1,16 +1,18 @@
-text CeladonCity_Condominiums_Roof_Text_IKnowEverything {
-    format("I KNOW EVERYTHING!")
+#events for CeladonCity_Condominiums_Roof
+
+script CeladonCity_Condominiums_Roof_MapScripts {
+	.byte 0
+
 }
 
 script CeladonCity_Condominiums_Roof_EventScript_Sign {
-    lockall
-    msgbox(CeladonCity_Condominiums_Roof_Text_IKnowEverything)
-    releaseall
+	msgbox CeladonCity_Condominiums_Roof_Text_IKnowEverything, MSGBOX_SIGN
+	end
+
 }
 
-script CeladonCity_Condominiums_Roof_EventScript_Sign {
-    lockall
-    msgbox(CeladonCity_Condominiums_Roof_Text_IKnowEverything)
-    releaseall
+script CeladonCity_Condominiums_Roof_Text_IKnowEverything {
+    .string "I KNOW EVERYTHING!$"
+
 }
 

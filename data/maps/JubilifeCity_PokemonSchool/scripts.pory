@@ -1,0 +1,6 @@
+#events for JubilifeCity_PokemonSchool
+
+script JubilifeCity_PokemonSchool_MapScripts {
+	.byte 0
+}
+

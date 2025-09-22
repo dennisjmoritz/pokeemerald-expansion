@@ -1,16 +1,18 @@
-text CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom {
-    format("GAME FREAK Meeting Room")
+#events for CeladonCity_Condominiums_2F
+
+script CeladonCity_Condominiums_2F_MapScripts {
+	.byte 0
+
 }
 
 script CeladonCity_Condominiums_2F_EventScript_MeetingRoomSign {
-    lockall
-    msgbox(CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom)
-    releaseall
+	msgbox CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom, MSGBOX_SIGN
+	end
+
 }
 
-script CeladonCity_Condominiums_2F_EventScript_MeetingRoomSign {
-    lockall
-    msgbox(CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom)
-    releaseall
+script CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom {
+    .string "GAME FREAK Meeting Room$"
+
 }
 

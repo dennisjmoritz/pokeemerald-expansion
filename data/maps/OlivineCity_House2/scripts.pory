@@ -1,0 +1,6 @@
+#events for OlivineCity_House2
+
+script OlivineCity_House2_MapScripts {
+	.byte 0
+}
+

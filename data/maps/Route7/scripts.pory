@@ -1,10 +1,19 @@
-text Route7_Text_UndergroundPathSign {
-    format("UNDERGROUND PATH CELADON CITY - LAVENDER TOWN")
+#events for Route7
+
+script Route7_MapScripts {
+	.byte 0
+
 }
 
 script Route7_EventScript_UndergroundPathSign {
-    lockall
-    msgbox(Route7_Text_UndergroundPathSign)
-    releaseall
+	msgbox Route7_Text_UndergroundPathSign, MSGBOX_SIGN
+	end
+
+}
+
+script Route7_Text_UndergroundPathSign {
+    .string "UNDERGROUND PATH\n"
+    .string "CELADON CITY - LAVENDER TOWN$"
+
 }
 

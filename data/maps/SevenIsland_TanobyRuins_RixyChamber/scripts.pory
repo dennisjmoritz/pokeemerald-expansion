@@ -1,0 +1,6 @@
+#events for SevenIsland_TanobyRuins_RixyChamber
+
+script SevenIsland_TanobyRuins_RixyChamber_MapScripts {
+	.byte 0
+}
+

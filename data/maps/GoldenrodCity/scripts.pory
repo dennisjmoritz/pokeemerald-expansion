@@ -1,0 +1,6 @@
+#events for GoldenrodCity
+
+script GoldenrodCity_MapScripts {
+	.byte 0
+}
+

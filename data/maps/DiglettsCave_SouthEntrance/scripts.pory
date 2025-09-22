@@ -1,4 +1,21 @@
-text DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel {
-    format("Well, isn't this a surprise! DIGLETT dug this long tunnel!\p It goes right to VIRIDIAN CITY, they tell me.")
+#events for DiglettsCave_SouthEntrance
+
+script DiglettsCave_SouthEntrance_MapScripts {
+	.byte 0
+
+}
+
+script DiglettsCave_SouthEntrance_EventScript_OldMan {
+	msgbox DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel, MSGBOX_NPC
+	end
+
+}
+
+script DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel {
+    .string "Well, isn't this a surprise!\n"
+    .string "DIGLETT dug this long tunnel!\p"
+    .string "It goes right to VIRIDIAN CITY,\n"
+    .string "they tell me.$"
+
 }
 

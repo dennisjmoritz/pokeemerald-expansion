@@ -1,0 +1,6 @@
+#events for BarrierStation_NorthEntrance
+
+script BarrierStation_NorthEntrance_MapScripts {
+	.byte 0
+}
+

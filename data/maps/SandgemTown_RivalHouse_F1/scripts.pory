@@ -1,0 +1,6 @@
+#events for SandgemTown_RivalHouse_F1
+
+script SandgemTown_RivalHouse_F1_MapScripts {
+	.byte 0
+}
+

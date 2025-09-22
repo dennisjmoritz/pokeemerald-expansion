@@ -1,4 +1,63 @@
-text LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight {
-    format("Hmm…\p An attacking move… Or a defensive move…\p It's no easy matter to decide which TM moves should be taught to POKéMON…$ There are so many different kinds of TM moves.\p A catalog I read said there are fifty different kinds.$ I'd like to get all the different TMs, but a POKéMON learns only four moves.")
+#events for LilycoveCity_DepartmentStore_4F
+
+script LilycoveCity_DepartmentStore_4F_MapScripts {
+	.byte 0
+
+}
+
+script LilycoveCity_DepartmentStore_4F_EventScript_Gentleman {
+	msgbox LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM, MSGBOX_NPC
+	end
+
+}
+
+script LilycoveCity_DepartmentStore_4F_EventScript_Woman {
+	msgbox LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs, MSGBOX_NPC
+	end
+
+}
+
+script LilycoveCity_DepartmentStore_4F_EventScript_Youngster {
+	msgbox LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves, MSGBOX_NPC
+	end
+
+}
+
+script LilycoveCity_DepartmentStore_4F_EventScript_ClerkLeft {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+text LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM {
+    format("Hmm…\p An attacking move… Or a defensive move…\p It's no easy matter to decide which TM moves should be taught to POKéMON…")
+}
+
+text LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs {
+    format("There are so many different kinds of TM moves.\p A catalog I read said there are fifty different kinds.")
+}
+
+text LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves {
+    format("I'd like to get all the different TMs, but a POKéMON learns only four moves.")
 }
 

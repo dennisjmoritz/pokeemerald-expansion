@@ -1,0 +1,6 @@
+#events for IlexForest
+
+script IlexForest_MapScripts {
+	.byte 0
+}
+

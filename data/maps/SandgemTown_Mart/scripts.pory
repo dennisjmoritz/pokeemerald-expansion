@@ -1,0 +1,6 @@
+#events for SandgemTown_Mart
+
+script SandgemTown_Mart_MapScripts {
+	.byte 0
+}
+

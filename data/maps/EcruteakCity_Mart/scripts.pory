@@ -1,0 +1,6 @@
+#events for EcruteakCity_Mart
+
+script EcruteakCity_Mart_MapScripts {
+	.byte 0
+}
+

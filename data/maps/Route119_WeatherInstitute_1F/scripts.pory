@@ -1,32 +1,138 @@
-text Route119_WeatherInstitute_1F_EventScript_Grunt4 {
-    format("The BOSS got interested in the research they have going here,\l so he sent us out.\p You quit meddling!$ Blast it… Blasted by a kid…$ Our BOSS knows everything.\p But I'm just a GRUNT. What would I know about what he's thinking?$ Huh? What's a kid doing here?$ Huh? I lost?!$ Oh, no… I'll catch an earful for losing to a kid…\p I should just take a nap in the bed…$ While I was sleeping, everyone went upstairs!$ Wow, you're really strong!\p I wish I could be a POKéMON TRAINER like you!$ The PROFESSOR loves rain. That's a fact.\p But if it keeps raining, people will be in trouble. That's another fact.\p And thus, the PROFESSOR is studying if the rain can be put to good use.$ On the 2nd floor of the INSTITUTE, we study the weather patterns over\l the HOENN region.\p We've been noticing temporary and isolated cases of droughts and\l heavy rain lately…$ Hello! We've been saved by your actions!\p What I don't understand is what on earth the AQUAS were up to.$ There's a bed… Let's take a rest.")
+#events for Route119_WeatherInstitute_1F
+
+script Route119_WeatherInstitute_1F_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, Route119_WeatherInstitute_1F_OnTransition
+	.byte 0
+
+}
+
+script Route119_WeatherInstitute_1F_EventScript_SetLittleBoyPos {
+	setobjectxyperm LOCALID_WEATHER_INSTITUTE_LITTLE_BOY, 0, 5
+	setobjectmovementtype LOCALID_WEATHER_INSTITUTE_LITTLE_BOY, MOVEMENT_TYPE_FACE_RIGHT
+	return
+
+}
+
+script Route119_WeatherInstitute_1F_EventScript_LittleBoy {
+	lock
+	faceplayer
+	special GetPlayerBigGuyGirlString
+	goto_if_eq VAR_WEATHER_INSTITUTE_STATE, 0, Route119_WeatherInstitute_1F_EventScript_LittleBoyTeamAquaHere
+	msgbox Route119_WeatherInstitute_1F_Text_WowYoureStrong, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script Route119_WeatherInstitute_1F_EventScript_LittleBoyTeamAquaHere {
+	msgbox Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script Route119_WeatherInstitute_1F_EventScript_InstituteWorker1 {
+	lock
+	faceplayer
+	goto_if_unset FLAG_SYS_GAME_CLEAR, Route119_WeatherInstitute_1F_EventScript_StudyingRain
+	setvar VAR_0x8004, 0
+	call_if_set FLAG_DEFEATED_KYOGRE, Route119_WeatherInstitute_1F_EventScript_LegendaryDefeated
+	call_if_set FLAG_DEFEATED_GROUDON, Route119_WeatherInstitute_1F_EventScript_LegendaryDefeated
+	goto_if_eq VAR_0x8004, 2, Route119_WeatherInstitute_1F_EventScript_StudyingRain  @ Both defeated
+	msgbox Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script Route119_WeatherInstitute_1F_EventScript_LegendaryDefeated {
+	addvar VAR_0x8004, 1
+	return
+
+}
+
+script Route119_WeatherInstitute_1F_EventScript_StudyingRain {
+	msgbox Route119_WeatherInstitute_1F_Text_ProfStudyingRain, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script Route119_WeatherInstitute_1F_EventScript_InstituteWorker2 {
+	msgbox Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo, MSGBOX_NPC
+	end
+
 }
 
 script Route119_WeatherInstitute_1F_EventScript_Bed {
-    // Also calls: call Common_EventScript_OutOfCenterPartyHeal
-    lockall
-    msgbox(Route119_WeatherInstitute_1F_Text_TakeRestInBed)
-    releaseall
+	lockall
+	msgbox Route119_WeatherInstitute_1F_Text_TakeRestInBed, MSGBOX_DEFAULT
+	closemessage
+// FIXME undefined reference: 	call Common_EventScript_OutOfCenterPartyHeal
+	releaseall
+	end
+
 }
 
-script Route119_WeatherInstitute_1F_EventScript_Bed {
-    // Also calls: call Common_EventScript_OutOfCenterPartyHeal
-    lockall
-    msgbox(Route119_WeatherInstitute_1F_Text_TakeRestInBed)
-    releaseall
+script Route119_WeatherInstitute_1F_EventScript_Grunt1 {
+	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_1, Route119_WeatherInstitute_1F_Text_Grunt1Intro, Route119_WeatherInstitute_1F_Text_Grunt1Defeat
+	msgbox Route119_WeatherInstitute_1F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
 }
 
-script Route119_WeatherInstitute_1F_EventScript_Bed {
-    // Also calls: call Common_EventScript_OutOfCenterPartyHeal
-    lockall
-    msgbox(Route119_WeatherInstitute_1F_Text_TakeRestInBed)
-    releaseall
+script Route119_WeatherInstitute_1F_EventScript_Grunt4 {
+	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_4, Route119_WeatherInstitute_1F_Text_Grunt4Intro, Route119_WeatherInstitute_1F_Text_Grunt4Defeat
+	msgbox Route119_WeatherInstitute_1F_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
+	end
+
 }
 
-script Route119_WeatherInstitute_1F_EventScript_Bed {
-    // Also calls: call Common_EventScript_OutOfCenterPartyHeal
-    lockall
-    msgbox(Route119_WeatherInstitute_1F_Text_TakeRestInBed)
-    releaseall
+text Route119_WeatherInstitute_1F_Text_Grunt1Intro {
+    format("The BOSS got interested in the research they have going here,\l so he sent us out.\p You quit meddling!")
+}
+
+text Route119_WeatherInstitute_1F_Text_Grunt1Defeat {
+    format("Blast it… Blasted by a kid…")
+}
+
+text Route119_WeatherInstitute_1F_Text_Grunt1PostBattle {
+    format("Our BOSS knows everything.\p But I'm just a GRUNT. What would I know about what he's thinking?")
+}
+
+text Route119_WeatherInstitute_1F_Text_Grunt4Intro {
+    format("Huh? What's a kid doing here?")
+}
+
+text Route119_WeatherInstitute_1F_Text_Grunt4Defeat {
+    format("Huh? I lost?!")
+}
+
+text Route119_WeatherInstitute_1F_Text_Grunt4PostBattle {
+    format("Oh, no… I'll catch an earful for losing to a kid…\p I should just take a nap in the bed…")
+}
+
+text Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs {
+    format("While I was sleeping, everyone went upstairs!")
+}
+
+text Route119_WeatherInstitute_1F_Text_WowYoureStrong {
+    format("Wow, you're really strong!\p I wish I could be a POKéMON TRAINER like you!")
+}
+
+text Route119_WeatherInstitute_1F_Text_ProfStudyingRain {
+    format("The PROFESSOR loves rain. That's a fact.\p But if it keeps raining, people will be in trouble. That's another fact.\p And thus, the PROFESSOR is studying if the rain can be put to good use.")
+}
+
+text Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather {
+    format("On the 2nd floor of the INSTITUTE, we study the weather patterns over\l the HOENN region.\p We've been noticing temporary and isolated cases of droughts and\l heavy rain lately…")
+}
+
+text Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo {
+    format("Hello! We've been saved by your actions!\p What I don't understand is what on earth the AQUAS were up to.")
+}
+
+text Route119_WeatherInstitute_1F_Text_TakeRestInBed {
+    format("There's a bed… Let's take a rest.")
 }
 

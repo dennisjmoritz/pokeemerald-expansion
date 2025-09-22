@@ -1,4 +1,129 @@
-text RocketHideout_Elevator_Text_AppearsToNeedAKey {
-    format("It appears to need a key.")
+#events for RocketHideout_Elevator
+
+script RocketHideout_Elevator_MapScripts {
+	.byte 0
+
+}
+
+script RocketHideout_Elevator_EventScript_FloorSelect {
+	lockall
+	goto_if_unset FLAG_TEMP_1, RocketHideout_Elevator_EventScript_NeedKey
+// Replaced FLAG_CAN_USE_ROCKET_HIDEOUT_LIFT with FLAG_TEMP_1
+	setvar VAR_0x8004, 2
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_2, EventScript_GetElevatorFloor
+	copyvar VAR_0x8005, VAR_TEMP_0
+// Replaced VAR_ELEVATOR_FLOOR with VAR_TEMP_0
+// FIXME undefined reference: 	special DrawElevatorCurrentFloorWindow
+// FIXME undefined reference: 	message Text_WantWhichFloor
+	waitmessage
+	setvar VAR_0x8004, 2
+// FIXME undefined reference: 	specialvar VAR_RESULT, InitElevatorFloorSelectMenuPos
+	switch VAR_RESULT
+	case 0, RocketHideout_Elevator_EventScript_FloorSelectFromB1F
+	case 1, RocketHideout_Elevator_EventScript_FloorSelectFromB2F
+	case 2, RocketHideout_Elevator_EventScript_FloorSelectFromB4F
+	end
+
+}
+
+script RocketHideout_Elevator_EventScript_FloorSelectFromB1F {
+// FIXME undefined reference: 	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 0, FALSE
+	goto RocketHideout_Elevator_EventScript_ChooseFloor
+	end
+
+}
+
+script RocketHideout_Elevator_EventScript_FloorSelectFromB2F {
+// FIXME undefined reference: 	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 1, FALSE
+	goto RocketHideout_Elevator_EventScript_ChooseFloor
+	end
+
+}
+
+script RocketHideout_Elevator_EventScript_FloorSelectFromB4F {
+// FIXME undefined reference: 	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 2, FALSE
+	goto RocketHideout_Elevator_EventScript_ChooseFloor
+	end
+
+}
+
+script RocketHideout_Elevator_EventScript_ChooseFloor {
+	switch VAR_RESULT
+	case 0, RocketHideout_Elevator_EventScript_ToB1F
+	case 1, RocketHideout_Elevator_EventScript_ToB2F
+	case 2, RocketHideout_Elevator_EventScript_ToB4F
+	case 3, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	case 127, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end
+
+}
+
+script RocketHideout_Elevator_EventScript_ToB1F {
+	setvar VAR_0x8006, 3
+	setdynamicwarp MAP_ROCKET_HIDEOUT_B1F, 255, 24, 25
+	goto_if_eq VAR_TEMP_0, 3, RocketHideout_Elevator_EventScript_ExitFloorSelect
+// Replaced VAR_ELEVATOR_FLOOR with VAR_TEMP_0
+	call RocketHideout_Elevator_EventScript_MoveElevator
+	setvar VAR_TEMP_0, 3
+// Replaced VAR_ELEVATOR_FLOOR with VAR_TEMP_0
+	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end
+
+}
+
+script RocketHideout_Elevator_EventScript_ToB2F {
+	setvar VAR_0x8006, 2
+	setdynamicwarp MAP_ROCKET_HIDEOUT_B2F, 255, 28, 16
+	goto_if_eq VAR_TEMP_0, 2, RocketHideout_Elevator_EventScript_ExitFloorSelect
+// Replaced VAR_ELEVATOR_FLOOR with VAR_TEMP_0
+	call RocketHideout_Elevator_EventScript_MoveElevator
+	setvar VAR_TEMP_0, 2
+// Replaced VAR_ELEVATOR_FLOOR with VAR_TEMP_0
+	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end
+
+}
+
+script RocketHideout_Elevator_EventScript_ToB4F {
+	setvar VAR_0x8006, 0
+	setdynamicwarp MAP_ROCKET_HIDEOUT_B4F, 255, 20, 23
+	goto_if_eq VAR_TEMP_0, 0, RocketHideout_Elevator_EventScript_ExitFloorSelect
+// Replaced VAR_ELEVATOR_FLOOR with VAR_TEMP_0
+	call RocketHideout_Elevator_EventScript_MoveElevator
+	setvar VAR_TEMP_0, 0
+// Replaced VAR_ELEVATOR_FLOOR with VAR_TEMP_0
+	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end
+
+}
+
+script RocketHideout_Elevator_EventScript_ExitFloorSelect {
+// FIXME undefined reference: 	special CloseElevatorCurrentFloorWindow
+	releaseall
+	end
+
+}
+
+script RocketHideout_Elevator_EventScript_MoveElevator {
+// FIXME undefined reference: 	special CloseElevatorCurrentFloorWindow
+	closemessage
+	waitse
+// FIXME undefined reference: 	special AnimateElevator
+	waitstate
+	setflag FLAG_TEMP_2
+	return
+
+}
+
+script RocketHideout_Elevator_EventScript_NeedKey {
+	msgbox RocketHideout_Elevator_Text_AppearsToNeedAKey
+	releaseall
+	end
+
+}
+
+script RocketHideout_Elevator_Text_AppearsToNeedAKey {
+    .string "It appears to need a key.$"
+
 }
 

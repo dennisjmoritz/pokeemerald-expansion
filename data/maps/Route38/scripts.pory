@@ -1,0 +1,6 @@
+#events for Route38
+
+script Route38_MapScripts {
+	.byte 0
+}
+

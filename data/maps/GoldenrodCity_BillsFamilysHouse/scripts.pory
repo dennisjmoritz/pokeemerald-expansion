@@ -1,0 +1,6 @@
+#events for GoldenrodCity_BillsFamilysHouse
+
+script GoldenrodCity_BillsFamilysHouse_MapScripts {
+	.byte 0
+}
+

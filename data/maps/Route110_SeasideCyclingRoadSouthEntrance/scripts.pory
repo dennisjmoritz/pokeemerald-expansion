@@ -1,4 +1,54 @@
-text Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad {
-    format("On CYCLING ROAD, you can go all out and cycle as fast as you'd like.\p It feels great to go that fast, but try not to crash into anyone!$ Sorry, you can't walk on CYCLING ROAD. It's too dangerous.\p Please come back with a BIKE.")
+#events for Route110_SeasideCyclingRoadSouthEntrance
+
+script Route110_SeasideCyclingRoadSouthEntrance_MapScripts {
+	.byte 0
+
+}
+
+script Route110_SeasideCyclingRoadSouthEntrance_EventScript_Clerk {
+	lock
+	faceplayer
+	msgbox Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script Route110_SeasideCyclingRoadSouthEntrance_EventScript_BikeCheck {
+	lockall
+	specialvar VAR_RESULT, GetPlayerAvatarBike
+	goto_if_eq VAR_RESULT, 0, Route110_SeasideCyclingRoadSouthEntrance_EventScript_NoBike
+	setflag FLAG_SYS_CYCLING_ROAD
+	setvar VAR_TEMP_1, 1
+	releaseall
+	end
+
+}
+
+script Route110_SeasideCyclingRoadSouthEntrance_EventScript_NoBike {
+	msgbox Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_PLAYER, Route110_SeasideCyclingRoadSouthEntrance_Movement_PushPlayerBackFromCounter
+	waitmovement 0
+	releaseall
+	end
+
+}
+
+script Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad {
+	lockall
+	clearflag FLAG_SYS_CYCLING_ROAD
+	setvar VAR_TEMP_1, 0
+	releaseall
+	end
+
+}
+
+text Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad {
+    format("On CYCLING ROAD, you can go all out and cycle as fast as you'd like.\p It feels great to go that fast, but try not to crash into anyone!")
+}
+
+text Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk {
+    format("Sorry, you can't walk on CYCLING ROAD. It's too dangerous.\p Please come back with a BIKE.")
 }
 

@@ -1,0 +1,6 @@
+#events for MahoganyTown
+
+script MahoganyTown_MapScripts {
+	.byte 0
+}
+

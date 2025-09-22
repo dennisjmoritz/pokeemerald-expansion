@@ -1,4 +1,42 @@
-text SootopolisCity_House2_EventScript_DontKnowAboutOrbs {
-    format("MT. PYRE…\p At its peak are two orbs placed side by side. Did you know?$ Yes, two orbs side by side…\p The sight of them together… It is somehow soothing…$ Is that so? Perhaps you ought to visit and see…")
+#events for SootopolisCity_House2
+
+script SootopolisCity_House2_MapScripts {
+	.byte 0
+
+}
+
+script SootopolisCity_House2_EventScript_ExpertF {
+	lock
+	faceplayer
+	msgbox SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, SootopolisCity_House2_EventScript_KnowAboutOrbs
+	call_if_eq VAR_RESULT, NO, SootopolisCity_House2_EventScript_DontKnowAboutOrbs
+	release
+	end
+
+}
+
+script SootopolisCity_House2_EventScript_KnowAboutOrbs {
+	msgbox SootopolisCity_House2_Text_YesTwoOrbsSideBySide, MSGBOX_DEFAULT
+	return
+
+}
+
+script SootopolisCity_House2_EventScript_DontKnowAboutOrbs {
+	msgbox SootopolisCity_House2_Text_OughtToVisitAndSee, MSGBOX_DEFAULT
+	return
+
+}
+
+text SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs {
+    format("MT. PYRE…\p At its peak are two orbs placed side by side. Did you know?")
+}
+
+text SootopolisCity_House2_Text_YesTwoOrbsSideBySide {
+    format("Yes, two orbs side by side…\p The sight of them together… It is somehow soothing…")
+}
+
+text SootopolisCity_House2_Text_OughtToVisitAndSee {
+    format("Is that so? Perhaps you ought to visit and see…")
 }
 

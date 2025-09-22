@@ -1,0 +1,6 @@
+#events for VioletCity_PokemonCenter_2F
+
+script VioletCity_PokemonCenter_2F_MapScripts {
+	.byte 0
+}
+

@@ -1,4 +1,40 @@
-text MauvilleCity_Mart_EventScript_Man {
-    format("There are items that temporarily elevate the stats of POKéMON.\p The ones I know you use in battle are X ATTACK and X DEFEND…\p I do believe that there are others like them.$ Use a certain move, or use an item instead…\p The TRAINER's decisions determine how battles turn out, I think.")
+#events for MauvilleCity_Mart
+
+script MauvilleCity_Mart_MapScripts {
+	.byte 0
+
+}
+
+script MauvilleCity_Mart_EventScript_Clerk {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart MauvilleCity_Mart_Pokemart
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script MauvilleCity_Mart_EventScript_ExpertM {
+	msgbox MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats, MSGBOX_NPC
+	end
+
+}
+
+script MauvilleCity_Mart_EventScript_Man {
+	msgbox MauvilleCity_Mart_Text_DecisionsDetermineBattle, MSGBOX_NPC
+	end
+
+}
+
+text MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats {
+    format("There are items that temporarily elevate the stats of POKéMON.\p The ones I know you use in battle are X ATTACK and X DEFEND…\p I do believe that there are others like them.")
+}
+
+text MauvilleCity_Mart_Text_DecisionsDetermineBattle {
+    format("Use a certain move, or use an item instead…\p The TRAINER's decisions determine how battles turn out, I think.")
 }
 

@@ -1,4 +1,65 @@
-text OldaleTown_Mart_EventScript_Boy {
-    format("The clerk says they're all sold out. I can't buy any POKé BALLS.$ I'm going to buy a bunch of POKé BALLS and catch a bunch of POKéMON!$ If a POKéMON gets hurt and loses its HP and faints, it won't be able to battle.\p To prevent your POKéMON from fainting, restore its HP with a POTION.")
+#events for OldaleTown_Mart
+
+script OldaleTown_Mart_MapScripts {
+	.byte 0
+
+}
+
+script OldaleTown_Mart_EventScript_Clerk {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	goto_if_set FLAG_ADVENTURE_STARTED, OldaleTown_Mart_ExpandedItems
+	pokemart OldaleTown_Mart_Pokemart_Basic
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script OldaleTown_Mart_ExpandedItems {
+	pokemart OldaleTown_Mart_Pokemart_Expanded
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script OldaleTown_Mart_EventScript_Woman {
+	lock
+	faceplayer
+	goto_if_set FLAG_ADVENTURE_STARTED, OldaleTown_Mart_EventScript_PokeBallsInStock
+	msgbox OldaleTown_Mart_Text_PokeBallsAreSoldOut, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script OldaleTown_Mart_EventScript_PokeBallsInStock {
+	msgbox OldaleTown_Mart_Text_ImGoingToBuyPokeBalls, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script OldaleTown_Mart_EventScript_Boy {
+	msgbox OldaleTown_Mart_Text_RestoreHPWithPotion, MSGBOX_NPC
+	end
+
+}
+
+text OldaleTown_Mart_Text_PokeBallsAreSoldOut {
+    format("The clerk says they're all sold out. I can't buy any POKé BALLS.")
+}
+
+text OldaleTown_Mart_Text_ImGoingToBuyPokeBalls {
+    format("I'm going to buy a bunch of POKé BALLS and catch a bunch of POKéMON!")
+}
+
+text OldaleTown_Mart_Text_RestoreHPWithPotion {
+    format("If a POKéMON gets hurt and loses its HP and faints, it won't be able to battle.\p To prevent your POKéMON from fainting, restore its HP with a POTION.")
 }
 

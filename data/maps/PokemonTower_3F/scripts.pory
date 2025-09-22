@@ -1,36 +1,82 @@
-text PokemonTower_3F_Text_HopeIntro {
-    format("Urrg… Awaa… Huhu… Graa…")
+#events for PokemonTower_3F
+
+script PokemonTower_3F_MapScripts {
+	.byte 0
+
 }
 
-text PokemonTower_3F_Text_HopeDefeat {
-    format("Hwa! I'm saved!")
+script PokemonTower_3F_EventScript_Patricia {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_CHANNELER_PATRICIA, PokemonTower_3F_Text_PatriciaIntro, PokemonTower_3F_Text_PatriciaDefeat
+	msgbox PokemonTower_3F_Text_PatriciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 }
 
-text PokemonTower_3F_Text_HopePostBattle {
-    format("The ghosts can be identified by the SILPH SCOPE.")
+script PokemonTower_3F_EventScript_Carly {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_CHANNELER_CARLY, PokemonTower_3F_Text_CarlyIntro, PokemonTower_3F_Text_CarlyDefeat
+	msgbox PokemonTower_3F_Text_CarlyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 }
 
-text PokemonTower_3F_Text_CarlyIntro {
-    format("Kekeke… Kwaaah!")
+script PokemonTower_3F_EventScript_Hope {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_CHANNELER_HOPE, PokemonTower_3F_Text_HopeIntro, PokemonTower_3F_Text_HopeDefeat
+	msgbox PokemonTower_3F_Text_HopePostBattle, MSGBOX_AUTOCLOSE
+	end
+
 }
 
-text PokemonTower_3F_Text_CarlyDefeat {
-    format("Hmm? What am I doing?")
+script PokemonTower_3F_Text_HopeIntro {
+    .string "Urrg… Awaa…\n"
+    .string "Huhu… Graa…$"
+
 }
 
-text PokemonTower_3F_Text_CarlyPostBattle {
-    format("Sorry! I was possessed!")
+script PokemonTower_3F_Text_HopeDefeat {
+    .string "Hwa!\n"
+    .string "I'm saved!$"
+
 }
 
-text PokemonTower_3F_Text_PatriciaIntro {
-    format("Be gone! Malevolent spirit!")
+script PokemonTower_3F_Text_HopePostBattle {
+    .string "The ghosts can be identified by\n"
+    .string "the SILPH SCOPE.$"
+
 }
 
-text PokemonTower_3F_Text_PatriciaDefeat {
-    format("Whew! The spirit left!")
+script PokemonTower_3F_Text_CarlyIntro {
+    .string "Kekeke…\n"
+    .string "Kwaaah!$"
+
 }
 
-text PokemonTower_3F_Text_PatriciaPostBattle {
-    format("The others above… They must have been possessed.")
+script PokemonTower_3F_Text_CarlyDefeat {
+    .string "Hmm?\n"
+    .string "What am I doing?$"
+
+}
+
+script PokemonTower_3F_Text_CarlyPostBattle {
+    .string "Sorry!\n"
+    .string "I was possessed!$"
+
+}
+
+script PokemonTower_3F_Text_PatriciaIntro {
+    .string "Be gone!\n"
+    .string "Malevolent spirit!$"
+
+}
+
+script PokemonTower_3F_Text_PatriciaDefeat {
+    .string "Whew!\n"
+    .string "The spirit left!$"
+
+}
+
+script PokemonTower_3F_Text_PatriciaPostBattle {
+    .string "The others above…\n"
+    .string "They must have been possessed.$"
+
 }
 

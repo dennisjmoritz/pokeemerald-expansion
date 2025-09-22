@@ -1,0 +1,6 @@
+#events for Route34_Gatehouse
+
+script Route34_Gatehouse_MapScripts {
+	.byte 0
+}
+

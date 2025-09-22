@@ -1,180 +1,246 @@
-text Route17_Text_RaulIntro {
-    format("There's no getting rich quick in battling kids.")
-}
+#events for Route17
 
-text Route17_Text_RaulDefeat {
-    format("Burned out!")
-}
+script Route17_MapScripts {
+	.byte 0
 
-text Route17_Text_RaulPostBattle {
-    format("You can find good stuff lying around on CYCLING ROAD.\p There's good money in picking them up and selling them.")
-}
-
-text Route17_Text_IsaiahIntro {
-    format("I'm mighty proud of my bod, kiddo. Come on!")
-}
-
-text Route17_Text_IsaiahDefeat {
-    format("Whoo!")
-}
-
-text Route17_Text_IsaiahPostBattle {
-    format("I could belly-bump you outta here!")
-}
-
-text Route17_Text_VirgilIntro {
-    format("You heading to FUCHSIA?")
-}
-
-text Route17_Text_VirgilDefeat {
-    format("Crash and burn!")
-}
-
-text Route17_Text_VirgilPostBattle {
-    format("I love racing downhill!")
-}
-
-text Route17_Text_BillyIntro {
-    format("We're BIKERS! We rule the roads, man!")
-}
-
-text Route17_Text_BillyDefeat {
-    format("Smoked!")
-}
-
-text Route17_Text_BillyPostBattle {
-    format("Are you looking for adventure?")
-}
-
-text Route17_Text_NikolasIntro {
-    format("Let VOLTORB electrify you!")
-}
-
-text Route17_Text_NikolasDefeat {
-    format("Grounded out!")
-}
-
-text Route17_Text_NikolasPostBattle {
-    format("I got my VOLTORB at the abandoned POWER PLANT.")
-}
-
-text Route17_Text_ZeekIntro {
-    format("I leveled up my POKéMON, but it won't evolve. Why?")
-}
-
-text Route17_Text_ZeekDefeat {
-    format("Why, you!")
-}
-
-text Route17_Text_ZeekPostBattle {
-    format("Maybe some POKéMON need element STONES to evolve.")
-}
-
-text Route17_Text_JamalIntro {
-    format("I need a little exercise!")
-}
-
-text Route17_Text_JamalDefeat {
-    format("Whew! Good workout!")
-}
-
-text Route17_Text_JamalPostBattle {
-    format("I'm sure I lost weight there!")
-}
-
-text Route17_Text_CoreyIntro {
-    format("Be a rebel!")
-}
-
-text Route17_Text_CoreyDefeat {
-    format("Aaaargh!")
-}
-
-text Route17_Text_CoreyPostBattle {
-    format("Be ready to fight for your beliefs!")
-}
-
-text Route17_Text_JaxonIntro {
-    format("Nice BIKE! How's it handle?")
-}
-
-text Route17_Text_JaxonDefeat {
-    format("Shoot!")
-}
-
-text Route17_Text_JaxonPostBattle {
-    format("The slope makes it hard to steer.")
-}
-
-text Route17_Text_WilliamIntro {
-    format("Get lost, kid! I'm bushed!")
-}
-
-text Route17_Text_WilliamDefeat {
-    format("Are you satisfied?")
-}
-
-text Route17_Text_WilliamPostBattle {
-    format("I need to catch a few z's!")
-}
-
-text Route17_Text_WatchOutForDiscardedItems {
-    format("It's a notice.\p Watch out for discarded items.")
-}
-
-text Route17_Text_SameSpeciesGrowDifferentRates {
-    format("TRAINER TIPS\p All POKéMON are unique.\p Even POKéMON of the same species and level grow at different rates.")
-}
-
-text Route17_Text_PressBToStayInPlace {
-    format("TRAINER TIPS\p Press the B Button to stay in place while on a slope.")
-}
-
-text Route17_Text_RouteSign {
-    format("ROUTE 17 CELADON CITY - FUCHSIA CITY")
-}
-
-text Route17_Text_DontThrowGameThrowBalls {
-    format("It's a notice!\p Don't throw the game, throw POKé BALLS instead!")
-}
-
-text Route17_Text_CyclingRoadSign {
-    format("CYCLING ROAD Slope ends here!")
-}
-
-script Route17_EventScript_RouteSign {
-    lockall
-    msgbox(Route17_Text_RouteSign)
-    releaseall
-}
-
-script Route17_EventScript_TrainerTips2 {
-    lockall
-    msgbox(Route17_Text_PressBToStayInPlace)
-    releaseall
-}
-
-script Route17_EventScript_TrainerTips1 {
-    lockall
-    msgbox(Route17_Text_SameSpeciesGrowDifferentRates)
-    releaseall
 }
 
 script Route17_EventScript_ItemsNotice {
-    lockall
-    msgbox(Route17_Text_WatchOutForDiscardedItems)
-    releaseall
+	msgbox Route17_Text_WatchOutForDiscardedItems, MSGBOX_SIGN
+	end
+
+}
+
+script Route17_EventScript_TrainerTips1 {
+	msgbox Route17_Text_SameSpeciesGrowDifferentRates, MSGBOX_SIGN
+	end
+
+}
+
+script Route17_EventScript_TrainerTips2 {
+	msgbox Route17_Text_PressBToStayInPlace, MSGBOX_SIGN
+	end
+
+}
+
+script Route17_EventScript_RouteSign {
+	msgbox Route17_Text_RouteSign, MSGBOX_SIGN
+	end
+
 }
 
 script Route17_EventScript_BallsNotice {
-    lockall
-    msgbox(Route17_Text_DontThrowGameThrowBalls)
-    releaseall
+	msgbox Route17_Text_DontThrowGameThrowBalls, MSGBOX_SIGN
+	end
+
 }
 
 script Route17_EventScript_CyclingRoadSign {
-    lockall
-    msgbox(Route17_Text_CyclingRoadSign)
-    releaseall
+	msgbox Route17_Text_CyclingRoadSign, MSGBOX_SIGN
+	end
+
+}
+
+script Route17_Text_RaulIntro {
+    .string "There's no getting rich quick in\n"
+    .string "battling kids.$"
+
+}
+
+script Route17_Text_RaulDefeat {
+    .string "Burned out!$"
+
+}
+
+script Route17_Text_RaulPostBattle {
+    .string "You can find good stuff lying\n"
+    .string "around on CYCLING ROAD.\p"
+    .string "There's good money in picking them\n"
+    .string "up and selling them.$"
+
+}
+
+script Route17_Text_IsaiahIntro {
+    .string "I'm mighty proud of my bod, kiddo.\n"
+    .string "Come on!$"
+
+}
+
+script Route17_Text_IsaiahDefeat {
+    .string "Whoo!$"
+
+}
+
+script Route17_Text_IsaiahPostBattle {
+    .string "I could belly-bump you outta\n"
+    .string "here!$"
+
+}
+
+script Route17_Text_VirgilIntro {
+    .string "You heading to FUCHSIA?$"
+
+}
+
+script Route17_Text_VirgilDefeat {
+    .string "Crash and burn!$"
+
+}
+
+script Route17_Text_VirgilPostBattle {
+    .string "I love racing downhill!$"
+
+}
+
+script Route17_Text_BillyIntro {
+    .string "We're BIKERS!\n"
+    .string "We rule the roads, man!$"
+
+}
+
+script Route17_Text_BillyDefeat {
+    .string "Smoked!$"
+
+}
+
+script Route17_Text_BillyPostBattle {
+    .string "Are you looking for adventure?$"
+
+}
+
+script Route17_Text_NikolasIntro {
+    .string "Let VOLTORB electrify you!$"
+
+}
+
+script Route17_Text_NikolasDefeat {
+    .string "Grounded out!$"
+
+}
+
+script Route17_Text_NikolasPostBattle {
+    .string "I got my VOLTORB at the abandoned\n"
+    .string "POWER PLANT.$"
+
+}
+
+script Route17_Text_ZeekIntro {
+    .string "I leveled up my POKéMON, but it\n"
+    .string "won't evolve. Why?$"
+
+}
+
+script Route17_Text_ZeekDefeat {
+    .string "Why, you!$"
+
+}
+
+script Route17_Text_ZeekPostBattle {
+    .string "Maybe some POKéMON need element\n"
+    .string "STONES to evolve.$"
+
+}
+
+script Route17_Text_JamalIntro {
+    .string "I need a little exercise!$"
+
+}
+
+script Route17_Text_JamalDefeat {
+    .string "Whew!\n"
+    .string "Good workout!$"
+
+}
+
+script Route17_Text_JamalPostBattle {
+    .string "I'm sure I lost weight there!$"
+
+}
+
+script Route17_Text_CoreyIntro {
+    .string "Be a rebel!$"
+
+}
+
+script Route17_Text_CoreyDefeat {
+    .string "Aaaargh!$"
+
+}
+
+script Route17_Text_CoreyPostBattle {
+    .string "Be ready to fight for your beliefs!$"
+
+}
+
+script Route17_Text_JaxonIntro {
+    .string "Nice BIKE!\n"
+    .string "How's it handle?$"
+
+}
+
+script Route17_Text_JaxonDefeat {
+    .string "Shoot!$"
+
+}
+
+script Route17_Text_JaxonPostBattle {
+    .string "The slope makes it hard to steer.$"
+
+}
+
+script Route17_Text_WilliamIntro {
+    .string "Get lost, kid!\n"
+    .string "I'm bushed!$"
+
+}
+
+script Route17_Text_WilliamDefeat {
+    .string "Are you satisfied?$"
+
+}
+
+script Route17_Text_WilliamPostBattle {
+    .string "I need to catch a few z's!$"
+
+}
+
+script Route17_Text_WatchOutForDiscardedItems {
+    .string "It's a notice.\p"
+    .string "Watch out for discarded items.$"
+
+}
+
+script Route17_Text_SameSpeciesGrowDifferentRates {
+    .string "TRAINER TIPS\p"
+    .string "All POKéMON are unique.\p"
+    .string "Even POKéMON of the same species\n"
+    .string "and level grow at different rates.$"
+
+}
+
+script Route17_Text_PressBToStayInPlace {
+    .string "TRAINER TIPS\p"
+    .string "Press the B Button to stay in place\n"
+    .string "while on a slope.$"
+
+}
+
+script Route17_Text_RouteSign {
+    .string "ROUTE 17\n"
+    .string "CELADON CITY - FUCHSIA CITY$"
+
+}
+
+script Route17_Text_DontThrowGameThrowBalls {
+    .string "It's a notice!\p"
+    .string "Don't throw the game, throw POKé\n"
+    .string "BALLS instead!$"
+
+}
+
+script Route17_Text_CyclingRoadSign {
+    .string "CYCLING ROAD\n"
+    .string "Slope ends here!$"
+
 }
 

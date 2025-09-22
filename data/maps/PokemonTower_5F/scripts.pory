@@ -1,56 +1,140 @@
-text PokemonTower_5F_Text_RestHereInPurifiedSpace {
-    format("Come, child! I have purified this space.\l You can rest here.")
+#events for PokemonTower_5F
+
+script PokemonTower_5F_MapScripts {
+	.byte 0
+
 }
 
-text PokemonTower_5F_Text_TammyIntro {
-    format("Give…me… your…all…")
+script PokemonTower_5F_EventScript_Channeler {
+	msgbox PokemonTower_5F_Text_RestHereInPurifiedSpace, MSGBOX_NPC
+	end
+
 }
 
-text PokemonTower_5F_Text_TammyDefeat {
-    format("Gasp!")
+script PokemonTower_5F_EventScript_PurifiedZone {
+	lockall
+	fadescreen FADE_TO_WHITE
+	special HealPlayerParty
+	fadescreen FADE_FROM_WHITE
+	msgbox PokemonTower_5F_Text_PurifiedZoneMonsFullyHealed
+	setvar VAR_TEMP_1, 1
+	releaseall
+	end
+
 }
 
-text PokemonTower_5F_Text_TammyPostBattle {
-    format("I was under possession.")
+script PokemonTower_5F_EventScript_ExitPurifiedZone {
+	lockall
+	setvar VAR_TEMP_1, 0
+	releaseall
+	end
+
 }
 
-text PokemonTower_5F_Text_RuthIntro {
-    format("You…shall… join…us…")
+script PokemonTower_5F_EventScript_Tammy {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_CHANNELER_TAMMY, PokemonTower_5F_Text_TammyIntro, PokemonTower_5F_Text_TammyDefeat
+	msgbox PokemonTower_5F_Text_TammyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 }
 
-text PokemonTower_5F_Text_RuthDefeat {
-    format("What a nightmare!")
+script PokemonTower_5F_EventScript_Ruth {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_CHANNELER_RUTH, PokemonTower_5F_Text_RuthIntro, PokemonTower_5F_Text_RuthDefeat
+	msgbox PokemonTower_5F_Text_RuthPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 }
 
-text PokemonTower_5F_Text_RuthPostBattle {
-    format("I was possessed.")
+script PokemonTower_5F_EventScript_Karina {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_CHANNELER_KARINA, PokemonTower_5F_Text_KarinaIntro, PokemonTower_5F_Text_KarinaDefeat
+	msgbox PokemonTower_5F_Text_KarinaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 }
 
-text PokemonTower_5F_Text_KarinaIntro {
-    format("Zombies!")
+script PokemonTower_5F_EventScript_Janae {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_CHANNELER_JANAE, PokemonTower_5F_Text_JanaeIntro, PokemonTower_5F_Text_JanaeDefeat
+	msgbox PokemonTower_5F_Text_JanaePostBattle, MSGBOX_AUTOCLOSE
+	end
+
 }
 
-text PokemonTower_5F_Text_KarinaDefeat {
-    format("Ha?")
+script PokemonTower_5F_Text_RestHereInPurifiedSpace {
+    .string "Come, child!\n"
+    .string "I have purified this space.\l"
+    .string "You can rest here.$"
+
 }
 
-text PokemonTower_5F_Text_KarinaPostBattle {
-    format("I regained my senses.")
+script PokemonTower_5F_Text_TammyIntro {
+    .string "Give…me…\n"
+    .string "your…all…$"
+
 }
 
-text PokemonTower_5F_Text_JanaeIntro {
-    format("Urgah… Urff…")
+script PokemonTower_5F_Text_TammyDefeat {
+    .string "Gasp!$"
+
 }
 
-text PokemonTower_5F_Text_JanaeDefeat {
-    format("Whoo!")
+script PokemonTower_5F_Text_TammyPostBattle {
+    .string "I was under possession.$"
+
 }
 
-text PokemonTower_5F_Text_JanaePostBattle {
-    format("I fell to evil spirits despite my training in the mountains…")
+script PokemonTower_5F_Text_RuthIntro {
+    .string "You…shall…\n"
+    .string "join…us…$"
+
 }
 
-text PokemonTower_5F_Text_PurifiedZoneMonsFullyHealed {
-    format("Entered the purified and protected zone.\p {PLAYER}'s POKéMON were fully healed.")
+script PokemonTower_5F_Text_RuthDefeat {
+    .string "What a nightmare!$"
+
+}
+
+script PokemonTower_5F_Text_RuthPostBattle {
+    .string "I was possessed.$"
+
+}
+
+script PokemonTower_5F_Text_KarinaIntro {
+    .string "Zombies!$"
+
+}
+
+script PokemonTower_5F_Text_KarinaDefeat {
+    .string "Ha?$"
+
+}
+
+script PokemonTower_5F_Text_KarinaPostBattle {
+    .string "I regained my senses.$"
+
+}
+
+script PokemonTower_5F_Text_JanaeIntro {
+    .string "Urgah…\n"
+    .string "Urff…$"
+
+}
+
+script PokemonTower_5F_Text_JanaeDefeat {
+    .string "Whoo!$"
+
+}
+
+script PokemonTower_5F_Text_JanaePostBattle {
+    .string "I fell to evil spirits despite my\n"
+    .string "training in the mountains…$"
+
+}
+
+script PokemonTower_5F_Text_PurifiedZoneMonsFullyHealed {
+    .string "Entered the purified and protected\n"
+    .string "zone.\p"
+    .string "{PLAYER}'s POKéMON were fully\n"
+    .string "healed.$"
+
 }
 

@@ -1,72 +1,139 @@
-text Route4_Text_TrippedOverGeodude {
-    format("Ouch! I tripped over a rocky POKéMON, GEODUDE!")
+#events for Route4
+
+script Route4_MapScripts {
+	.byte 0
+
 }
 
-text Route4_Text_CrissyIntro {
-    format("I came to MT. MOON in search of mushroom POKéMON.")
+script Route4_EventScript_Unused {
+	end
+
 }
 
-text Route4_Text_CrissyDefeat {
-    format("After all I did to catch them!")
-}
+script Route4_EventScript_Woman {
+	msgbox Route4_Text_TrippedOverGeodude, MSGBOX_NPC
+	end
 
-text Route4_Text_CrissyPostBattle {
-    format("There might not be any more mushrooms here.\p I think I got them all.")
-}
-
-text Route4_Text_MtMoonEntrance {
-    format("MT. MOON Tunnel Entrance")
-}
-
-text Route4_Text_RouteSign {
-    format("ROUTE 4 MT. MOON - CERULEAN CITY")
-}
-
-text Text_MegaPunchTeach {
-    format("A punch of roaring ferocity!\p Packed with destructive power!\p When the chips are down, MEGA PUNCH is the ultimate attack!\l You agree, yes?\p Now! Let me teach it to your POKéMON!")
-}
-
-text Text_MegaPunchDeclined {
-    format("You'll be back when you understand the worth of MEGA PUNCH.")
-}
-
-text Text_MegaPunchWhichMon {
-    format("Fine! Which POKéMON will learn it?")
-}
-
-text Text_MegaPunchTaught {
-    format("Now, we are comrades in the way of punching!\p You should go before you're seen by the misguided fool who trains\l only his silly kicking over there.")
-}
-
-text Text_MegaKickTeach {
-    format("A kick of brutal ferocity!\p Packed with destructive power!\p When you get right down to it, MEGA KICK is the ultimate attack!\l Don't you agree?\p Okay! I'll teach it to your POKéMON!")
-}
-
-text Text_MegaKickDeclined {
-    format("You'll come crawling back when you realize the value of MEGA KICK.")
-}
-
-text Text_MegaKickWhichMon {
-    format("All right! Which POKéMON wants to learn it?")
-}
-
-text Text_MegaKickTaught {
-    format("Now, we are soul mates in the way of kicking!\p You should run before you're seen by the deluded nitwit who trains\l only simple punching over there.")
-}
-
-text Route4_Text_PeopleLikeAndRespectBrock {
-    format("Oh, wow, that's the BOULDERBADGE! You got it from BROCK, didn't you?\p BROCK is cool. He's not just tough. People like and respect him.\p I want to become a GYM LEADER like him.")
 }
 
 script Route4_EventScript_MtMoonSign {
-    lockall
-    msgbox(Route4_Text_MtMoonEntrance)
-    releaseall
+	msgbox Route4_Text_MtMoonEntrance, MSGBOX_SIGN
+	end
+
 }
 
 script Route4_EventScript_RouteSign {
-    lockall
-    msgbox(Route4_Text_RouteSign)
-    releaseall
+	msgbox Route4_Text_RouteSign, MSGBOX_SIGN
+	end
+
+}
+
+script Route4_Text_TrippedOverGeodude {
+    .string "Ouch! I tripped over a rocky\n"
+    .string "POKéMON, GEODUDE!$"
+
+}
+
+script Route4_Text_CrissyIntro {
+    .string "I came to MT. MOON in search of\n"
+    .string "mushroom POKéMON.$"
+
+}
+
+script Route4_Text_CrissyDefeat {
+    .string "After all I did to catch them!$"
+
+}
+
+script Route4_Text_CrissyPostBattle {
+    .string "There might not be any more\n"
+    .string "mushrooms here.\p"
+    .string "I think I got them all.$"
+
+}
+
+script Route4_Text_MtMoonEntrance {
+    .string "MT. MOON\n"
+    .string "Tunnel Entrance$"
+
+}
+
+script Route4_Text_RouteSign {
+    .string "ROUTE 4\n"
+    .string "MT. MOON - CERULEAN CITY$"
+
+}
+
+script Text_MegaPunchTeach {
+    .string "A punch of roaring ferocity!\p"
+    .string "Packed with destructive power!\p"
+    .string "When the chips are down,\n"
+    .string "MEGA PUNCH is the ultimate attack!\l"
+    .string "You agree, yes?\p"
+    .string "Now!\n"
+    .string "Let me teach it to your POKéMON!$"
+
+}
+
+script Text_MegaPunchDeclined {
+    .string "You'll be back when you understand\n"
+    .string "the worth of MEGA PUNCH.$"
+
+}
+
+script Text_MegaPunchWhichMon {
+    .string "Fine!\n"
+    .string "Which POKéMON will learn it?$"
+
+}
+
+script Text_MegaPunchTaught {
+    .string "Now, we are comrades in the way of\n"
+    .string "punching!\p"
+    .string "You should go before you're seen\n"
+    .string "by the misguided fool who trains\l"
+    .string "only his silly kicking over there.$"
+
+}
+
+script Text_MegaKickTeach {
+    .string "A kick of brutal ferocity!\p"
+    .string "Packed with destructive power!\p"
+    .string "When you get right down to it,\n"
+    .string "MEGA KICK is the ultimate attack!\l"
+    .string "Don't you agree?\p"
+    .string "Okay!\n"
+    .string "I'll teach it to your POKéMON!$"
+
+}
+
+script Text_MegaKickDeclined {
+    .string "You'll come crawling back when you\n"
+    .string "realize the value of MEGA KICK.$"
+
+}
+
+script Text_MegaKickWhichMon {
+    .string "All right!\n"
+    .string "Which POKéMON wants to learn it?$"
+
+}
+
+script Text_MegaKickTaught {
+    .string "Now, we are soul mates in the way\n"
+    .string "of kicking!\p"
+    .string "You should run before you're seen\n"
+    .string "by the deluded nitwit who trains\l"
+    .string "only simple punching over there.$"
+
+}
+
+script Route4_Text_PeopleLikeAndRespectBrock {
+    .string "Oh, wow, that's the BOULDERBADGE!\n"
+    .string "You got it from BROCK, didn't you?\p"
+    .string "BROCK is cool. He's not just tough.\n"
+    .string "People like and respect him.\p"
+    .string "I want to become a GYM LEADER\n"
+    .string "like him.$"
 }
 

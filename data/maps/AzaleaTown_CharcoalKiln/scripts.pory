@@ -1,0 +1,6 @@
+#events for AzaleaTown_CharcoalKiln
+
+script AzaleaTown_CharcoalKiln_MapScripts {
+	.byte 0
+}
+

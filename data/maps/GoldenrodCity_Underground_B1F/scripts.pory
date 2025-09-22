@@ -1,0 +1,6 @@
+#events for GoldenrodCity_Underground_B1F
+
+script GoldenrodCity_Underground_B1F_MapScripts {
+	.byte 0
+}
+

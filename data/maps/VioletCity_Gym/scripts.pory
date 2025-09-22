@@ -1,0 +1,6 @@
+#events for VioletCity_Gym
+
+script VioletCity_Gym_MapScripts {
+	.byte 0
+}
+

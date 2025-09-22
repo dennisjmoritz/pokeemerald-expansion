@@ -1,0 +1,6 @@
+#events for LakeVerity
+
+script LakeVerity_MapScripts {
+	.byte 0
+}
+

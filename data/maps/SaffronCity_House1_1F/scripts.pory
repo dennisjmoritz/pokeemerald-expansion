@@ -1,0 +1,6 @@
+#events for SaffronCity_House1_1F
+
+script SaffronCity_House1_1F_MapScripts {
+	.byte 0
+}
+

@@ -1,4 +1,126 @@
-text LilycoveCity_DepartmentStore_5F_EventScript_LittleGirl {
-    format("This place is full of cute DOLLS.\p I should buy some for me, instead of just for my children.$ I'm not big enough to raise POKéMON, so I'm getting a cute DOLL instead.$ They sell many cute MATS here.\p I wonder which one I should get? Maybe I'll buy them all…$ I think they closed the rooftop because the weather is wild today.")
+#events for LilycoveCity_DepartmentStore_5F
+
+script LilycoveCity_DepartmentStore_5F_MapScripts {
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LilycoveCity_DepartmentStore_5F_OnWarp
+	.byte 0
+
+@ During the abnormal weather from Kyogre/Groudon awakening the dept store rooftop is inaccessible
+@ Likely done to avoid dealing with showing the weather. Technically the rooftop is indoors
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_BlockRoofStairs {
+	setobjectxy LOCALID_DEPARTMENT_STORE_STAIRS_WOMAN, 16, 2
+	turnobject LOCALID_DEPARTMENT_STORE_STAIRS_WOMAN, DIR_NORTH
+	end
+
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarLeft {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Dolls
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidLeft {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Cushions
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidRight {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Posters
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarRight {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Mats
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_PokefanF {
+	msgbox LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls, MSGBOX_NPC
+	end
+
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_Woman {
+	lockall
+	applymovement LOCALID_DEPARTMENT_STORE_STAIRS_WOMAN, Common_Movement_FacePlayer
+	waitmovement 0
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 0, LilycoveCity_DepartmentStore_5F_EventScript_WomanNormal
+	goto_if_ge VAR_SOOTOPOLIS_CITY_STATE, 4, LilycoveCity_DepartmentStore_5F_EventScript_WomanNormal
+	goto LilycoveCity_DepartmentStore_5F_EventScript_WomanLegendaryWeather
+	end
+
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_WomanNormal {
+	msgbox LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere, MSGBOX_DEFAULT
+	closemessage
+	releaseall
+	end
+
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_WomanLegendaryWeather {
+	msgbox LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_DEPARTMENT_STORE_STAIRS_WOMAN, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	releaseall
+	end
+
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_LittleGirl {
+	msgbox LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon, MSGBOX_NPC
+	end
+
+}
+
+text LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls {
+    format("This place is full of cute DOLLS.\p I should buy some for me, instead of just for my children.")
+}
+
+text LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon {
+    format("I'm not big enough to raise POKéMON, so I'm getting a cute DOLL instead.")
+}
+
+text LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere {
+    format("They sell many cute MATS here.\p I wonder which one I should get? Maybe I'll buy them all…")
+}
+
+text LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather {
+    format("I think they closed the rooftop because the weather is wild today.")
 }
 

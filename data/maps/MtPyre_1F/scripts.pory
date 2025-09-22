@@ -1,4 +1,55 @@
-text MtPyre_1F_EventScript_Man {
-    format("All sorts of beings wander the slopes of MT. PYRE…\p There is no telling what may happen. Take this. It's for your own good.$ Have a POKéMON hold that CLEANSE TAG.\p It will help ward off wild POKéMON.$ Did you come to pay your respect to the spirits of departed POKéMON?\p You must care for your POKéMON a lot.$ This is the final resting place of my ZIGZAGOON. I cherished it…")
+#events for MtPyre_1F
+
+script MtPyre_1F_MapScripts {
+	.byte 0
+
+}
+
+script MtPyre_1F_EventScript_CleanseTagWoman {
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_CLEANSE_TAG, MtPyre_1F_EventScript_ReceivedCleanseTag
+	msgbox MtPyre_1F_Text_TakeThisForYourOwnGood, MSGBOX_DEFAULT
+	giveitem ITEM_CLEANSE_TAG
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_CLEANSE_TAG
+	release
+	end
+
+}
+
+script MtPyre_1F_EventScript_ReceivedCleanseTag {
+	msgbox MtPyre_1F_Text_ExplainCleanseTag, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MtPyre_1F_EventScript_PokefanF {
+	msgbox MtPyre_1F_Text_ComeToPayRespects, MSGBOX_NPC
+	end
+
+}
+
+script MtPyre_1F_EventScript_Man {
+	msgbox MtPyre_1F_Text_RestingPlaceOfZigzagoon, MSGBOX_NPC
+	end
+
+}
+
+text MtPyre_1F_Text_TakeThisForYourOwnGood {
+    format("All sorts of beings wander the slopes of MT. PYRE…\p There is no telling what may happen. Take this. It's for your own good.")
+}
+
+text MtPyre_1F_Text_ExplainCleanseTag {
+    format("Have a POKéMON hold that CLEANSE TAG.\p It will help ward off wild POKéMON.")
+}
+
+text MtPyre_1F_Text_ComeToPayRespects {
+    format("Did you come to pay your respect to the spirits of departed POKéMON?\p You must care for your POKéMON a lot.")
+}
+
+text MtPyre_1F_Text_RestingPlaceOfZigzagoon {
+    format("This is the final resting place of my ZIGZAGOON. I cherished it…")
 }
 

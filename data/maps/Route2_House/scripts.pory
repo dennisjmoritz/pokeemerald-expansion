@@ -1,4 +1,60 @@
-text Route2_House_Text_FaintedMonsCanUseFieldMoves {
-    format("A fainted POKéMON just has no energy left to battle.\p It can still use moves like CUT outside of battle.")
+#events for Route2_House
+
+script Route2_House_MapScripts {
+	.byte 0
+
+}
+
+script Route2_House_EventScript_Scientist {
+	msgbox Route2_House_Text_FaintedMonsCanUseFieldMoves, MSGBOX_NPC
+	end
+
+}
+
+script Route2_House_EventScript_Reyley {
+	lock
+	faceplayer
+// 	setvar VAR_0x8008, INGAME_TRADE_MR_MIME
+// FIXME undefined reference: 	call EventScript_GetInGameTradeSpeciesInfo
+	goto_if_set FLAG_TEMP_1, Route2_House_EventScript_AlreadyTraded
+// Replaced FLAG_DID_MIMIEN_TRADE with FLAG_TEMP_1
+	goto_if_eq VAR_RESULT, NO, Route2_House_EventScript_DeclineTrade
+// FIXME undefined reference: 	call EventScript_ChooseMonForInGameTrade
+	goto_if_ge VAR_0x8004, PARTY_SIZE, Route2_House_EventScript_DeclineTrade
+// FIXME undefined reference: 	call EventScript_GetInGameTradeSpecies
+	goto_if_ne VAR_RESULT, VAR_0x8009, Route2_House_EventScript_NotRequestedMon
+// FIXME undefined reference: 	call EventScript_DoInGameTrade
+	setflag FLAG_TEMP_1
+// Replaced FLAG_DID_MIMIEN_TRADE with FLAG_TEMP_1
+	release
+	end
+
+}
+
+script Route2_House_EventScript_DeclineTrade {
+	release
+	end
+
+}
+
+script Route2_House_EventScript_NotRequestedMon {
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+	release
+	end
+
+}
+
+script Route2_House_EventScript_AlreadyTraded {
+	release
+	end
+
+}
+
+script Route2_House_Text_FaintedMonsCanUseFieldMoves {
+    .string "A fainted POKéMON just has no\n"
+    .string "energy left to battle.\p"
+    .string "It can still use moves like CUT\n"
+    .string "outside of battle.$"
+
 }
 

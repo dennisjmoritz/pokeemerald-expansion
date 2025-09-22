@@ -1,0 +1,6 @@
+#events for MahoganyTown_PokemonCenter_2F
+
+script MahoganyTown_PokemonCenter_2F_MapScripts {
+	.byte 0
+}
+

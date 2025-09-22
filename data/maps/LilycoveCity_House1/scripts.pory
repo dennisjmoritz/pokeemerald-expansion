@@ -1,4 +1,33 @@
-text LilycoveCity_House1_EventScript_Kecleon {
-    format("POKéMON are partners to people. They aren't our tools.\p Unfortunately, there are some people who fail to understand that…$ KECLEON: Ruroro?")
+#events for LilycoveCity_House1
+
+script LilycoveCity_House1_MapScripts {
+	.byte 0
+
+}
+
+script LilycoveCity_House1_EventScript_ExpertM {
+	msgbox LilycoveCity_House1_Text_PokemonPartnersNotTools, MSGBOX_NPC
+	end
+
+}
+
+script LilycoveCity_House1_EventScript_Kecleon {
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_KECLEON, CRY_MODE_NORMAL
+	msgbox LilycoveCity_House1_Text_Kecleon, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+}
+
+text LilycoveCity_House1_Text_PokemonPartnersNotTools {
+    format("POKéMON are partners to people. They aren't our tools.\p Unfortunately, there are some people who fail to understand that…")
+}
+
+text LilycoveCity_House1_Text_Kecleon {
+    format("KECLEON: Ruroro?")
 }
 

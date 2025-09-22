@@ -1,0 +1,6 @@
+#events for EcruteakCity_GatehouseWest
+
+script EcruteakCity_GatehouseWest_MapScripts {
+	.byte 0
+}
+

@@ -1,0 +1,6 @@
+#events for NationalPark
+
+script NationalPark_MapScripts {
+	.byte 0
+}
+

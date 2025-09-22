@@ -1,0 +1,6 @@
+#events for LakeOfRage_House1
+
+script LakeOfRage_House1_MapScripts {
+	.byte 0
+}
+

@@ -1,4 +1,27 @@
-text RustboroCity_House2_EventScript_LittleGirl {
-    format("The TRAINER'S SCHOOL is excellent.\p If you study there, you could even become a GYM LEADER.$ ROXANNE, the GYM LEADER, really knows a lot about POKéMON.\p She's really strong, too!")
+#events for RustboroCity_House2
+
+script RustboroCity_House2_MapScripts {
+	.byte 0
+
+}
+
+script RustboroCity_House2_EventScript_PokefanF {
+	msgbox RustboroCity_House2_Text_TrainerSchoolExcellent, MSGBOX_NPC
+	end
+
+}
+
+script RustboroCity_House2_EventScript_LittleGirl {
+	msgbox RustboroCity_House2_Text_RoxanneKnowsALot, MSGBOX_NPC
+	end
+
+}
+
+text RustboroCity_House2_Text_TrainerSchoolExcellent {
+    format("The TRAINER'S SCHOOL is excellent.\p If you study there, you could even become a GYM LEADER.")
+}
+
+text RustboroCity_House2_Text_RoxanneKnowsALot {
+    format("ROXANNE, the GYM LEADER, really knows a lot about POKéMON.\p She's really strong, too!")
 }
 

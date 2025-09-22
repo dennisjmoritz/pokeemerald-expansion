@@ -1,0 +1,6 @@
+#events for Route30
+
+script Route30_MapScripts {
+	.byte 0
+}
+

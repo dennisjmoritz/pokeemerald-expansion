@@ -1,0 +1,6 @@
+#events for RuinsOfAlph_ResearchCenter
+
+script RuinsOfAlph_ResearchCenter_MapScripts {
+	.byte 0
+}
+

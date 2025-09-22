@@ -1,10 +1,81 @@
-text RS_MysteryEventsHouse_EventScript_Door {
-    format("When I was young, I traveled the world as a POKéMON TRAINER.\p Now that I've become an old buzzard, my only amusement is watching young\l TRAINERS battle.$ The door appears to be locked.$ A TRAINER named {STR_VAR_1} is visiting my home.\p Would you like to challenge {STR_VAR_1}?$ You won't battle? I'm disappointed that I can't see you battle…$ Oh, good, good!\p But my house isn't all that sturdy.\p Could I ask you to keep it down to a 3-on-3 match?$ Before you two battle, you should save your progress.$ I hope to see a good match!$ So, it became a standoff.\p It was a brilliant match in which neither side conceded a step!$ That was superlative!\p Why, it was like seeing myself in my youth again!$ Ah, too bad for you!\p But it was a good match. I hope you can win next time.")
+#events for MossdeepCity_GameCorner_1F
+
+script MossdeepCity_GameCorner_1F_MapScripts {
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, MossdeepCity_GameCorner_1F_OnFrame
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, MossdeepCity_GameCorner_1F_OnWarp
+	map_script MAP_SCRIPT_ON_LOAD, CableClub_OnLoad
+	.byte 0
+
+}
+
+script MossdeepCity_GameCorner_1F_EventScript_InfoMan {
+	lock
+	faceplayer
+	goto MossdeepCity_GameCorner_1F_EventScript_InfoMan2
+	release
+	end
+
+@ Script is redundant, the label in the goto also does lock and faceplayer
+}
+
+script MossdeepCity_GameCorner_1F_EventScript_OldMan {
+	lock
+	faceplayer
+	goto MossdeepCity_GameCorner_1F_EventScript_OldMan2
+	release
+	end
+
+
+@ Everything below is leftover from RS
+@ The house that was here in RS was moved to Sootopolis and replaced by the Game Corner
+@ The text below is unused and duplicated in its replacement in Sootopolis City
+@ And the BG Door event was moved inaccessibly into a wall
+
 }
 
 script RS_MysteryEventsHouse_EventScript_Door {
-    lockall
-    msgbox(RS_MysteryEventsHouse_Text_DoorIsLocked)
-    releaseall
+	msgbox RS_MysteryEventsHouse_Text_DoorIsLocked, MSGBOX_SIGN
+	end
+
+}
+
+text RS_MysteryEventsHouse_Text_OldManGreeting {
+    format("When I was young, I traveled the world as a POKéMON TRAINER.\p Now that I've become an old buzzard, my only amusement is watching young\l TRAINERS battle.")
+}
+
+text RS_MysteryEventsHouse_Text_DoorIsLocked {
+    format("The door appears to be locked.")
+}
+
+text RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer {
+    format("A TRAINER named {STR_VAR_1} is visiting my home.\p Would you like to challenge {STR_VAR_1}?")
+}
+
+text RS_MysteryEventsHouse_Text_YouWontBattle {
+    format("You won't battle? I'm disappointed that I can't see you battle…")
+}
+
+text RS_MysteryEventsHouse_Text_KeepItToA3On3 {
+    format("Oh, good, good!\p But my house isn't all that sturdy.\p Could I ask you to keep it down to a 3-on-3 match?")
+}
+
+text RS_MysteryEventsHouse_Text_SaveYourProgress {
+    format("Before you two battle, you should save your progress.")
+}
+
+text RS_MysteryEventsHouse_Text_HopeToSeeAGoodMatch {
+    format("I hope to see a good match!")
+}
+
+text RS_MysteryEventsHouse_Text_BattleTie {
+    format("So, it became a standoff.\p It was a brilliant match in which neither side conceded a step!")
+}
+
+text RS_MysteryEventsHouse_Text_BattleWon {
+    format("That was superlative!\p Why, it was like seeing myself in my youth again!")
+}
+
+text RS_MysteryEventsHouse_Text_BattleLost {
+    format("Ah, too bad for you!\p But it was a good match. I hope you can win next time.")
 }
 

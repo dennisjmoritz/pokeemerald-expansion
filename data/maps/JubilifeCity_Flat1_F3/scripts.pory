@@ -1,0 +1,6 @@
+#events for JubilifeCity_Flat1_F3
+
+script JubilifeCity_Flat1_F3_MapScripts {
+	.byte 0
+}
+

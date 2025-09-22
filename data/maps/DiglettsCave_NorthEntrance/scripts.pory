@@ -1,4 +1,21 @@
-text DiglettsCave_NorthEntrance_RockTunnelPitchBlack {
-    format("I went inside ROCK TUNNEL, but it's pitch-black and scary in there.\p If I could get a POKéMON to use FLASH and light it up…")
+#events for DiglettsCave_NorthEntrance
+
+script DiglettsCave_NorthEntrance_MapScripts {
+	.byte 0
+
+}
+
+script DiglettsCave_NorthEntrance_EventScript_Hiker {
+	msgbox DiglettsCave_NorthEntrance_RockTunnelPitchBlack, MSGBOX_NPC
+	end
+
+}
+
+script DiglettsCave_NorthEntrance_RockTunnelPitchBlack {
+    .string "I went inside ROCK TUNNEL, but it's\n"
+    .string "pitch-black and scary in there.\p"
+    .string "If I could get a POKéMON to use\n"
+    .string "FLASH and light it up…$"
+
 }
 

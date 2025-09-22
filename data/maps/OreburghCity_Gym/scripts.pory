@@ -1,0 +1,6 @@
+#events for OreburghCity_Gym
+
+script OreburghCity_Gym_MapScripts {
+	.byte 0
+}
+

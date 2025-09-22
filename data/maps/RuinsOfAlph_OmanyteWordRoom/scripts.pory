@@ -1,0 +1,6 @@
+#events for RuinsOfAlph_OmanyteWordRoom
+
+script RuinsOfAlph_OmanyteWordRoom_MapScripts {
+	.byte 0
+}
+

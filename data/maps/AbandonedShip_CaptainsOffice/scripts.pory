@@ -1,4 +1,46 @@
-text AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus {
-    format("I'm investigating this ship on behalf of CAPT. STERN.\p He also asked me to find a SCANNER, but I haven't had any success…$ Oh! That's a SCANNER!\p Listen, can I get you to deliver that to CAPT. STERN?\p I want to investigate this ship a little more.$ This ship is called S.S. CACTUS. It seems to be from an earlier era.")
+#events for AbandonedShip_CaptainsOffice
+
+script AbandonedShip_CaptainsOffice_MapScripts {
+	.byte 0
+
+}
+
+script AbandonedShip_CaptainsOffice_EventScript_CaptSternAide {
+	lock
+	faceplayer
+	goto_if_set FLAG_EXCHANGED_SCANNER, AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus
+	checkitem ITEM_SCANNER
+	goto_if_eq VAR_RESULT, TRUE, AbandonedShip_CaptainsOffice_EventScript_CanYouDeliverScanner
+	goto_if_set FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_2_SCANNER, AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus
+	msgbox AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script AbandonedShip_CaptainsOffice_EventScript_CanYouDeliverScanner {
+	msgbox AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus {
+	msgbox AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner {
+    format("I'm investigating this ship on behalf of CAPT. STERN.\p He also asked me to find a SCANNER, but I haven't had any success…")
+}
+
+text AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner {
+    format("Oh! That's a SCANNER!\p Listen, can I get you to deliver that to CAPT. STERN?\p I want to investigate this ship a little more.")
+}
+
+text AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus {
+    format("This ship is called S.S. CACTUS. It seems to be from an earlier era.")
 }
 

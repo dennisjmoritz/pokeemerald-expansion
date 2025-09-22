@@ -1,0 +1,6 @@
+#events for RuinsOfAlph_OmanyteItemRoom
+
+script RuinsOfAlph_OmanyteItemRoom_MapScripts {
+	.byte 0
+}
+

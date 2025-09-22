@@ -1,0 +1,6 @@
+#events for OlivineCity_Cafe
+
+script OlivineCity_Cafe_MapScripts {
+	.byte 0
+}
+

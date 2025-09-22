@@ -1,0 +1,6 @@
+#events for GoldenrodCity_PokemonCenter_2F
+
+script GoldenrodCity_PokemonCenter_2F_MapScripts {
+	.byte 0
+}
+

@@ -1,0 +1,6 @@
+#events for VioletCity_House1
+
+script VioletCity_House1_MapScripts {
+	.byte 0
+}
+

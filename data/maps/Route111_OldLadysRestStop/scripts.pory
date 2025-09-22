@@ -1,4 +1,52 @@
-text Route111_OldLadysRestStop_EventScript_DeclineRest {
-    format("Oh, dear, dear. Aren't your POKéMON exhausted?\p If you'd like, rest up here. That's a fine idea! You should do that.$ That's right. Take your time and rest up!$ Oh, dear, dear. Are your POKéMON still tired?\p You should take another rest here. That's a fine idea. You should do that.$ Is that so? You don't need to be shy about it.")
+#events for Route111_OldLadysRestStop
+
+script Route111_OldLadysRestStop_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, Route111_OldLadysRestStop_OnTransition
+	.byte 0
+
+}
+
+script Route111_OldLadysRestStop_EventScript_OldLady {
+	lock
+	faceplayer
+	msgbox Route111_OldLadysRestStop_Text_RestUpHere, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route111_OldLadysRestStop_EventScript_Rest
+	goto_if_eq VAR_RESULT, NO, Route111_OldLadysRestStop_EventScript_DeclineRest
+	end
+
+}
+
+script Route111_OldLadysRestStop_EventScript_Rest {
+	msgbox Route111_OldLadysRestStop_Text_TakeYourTimeRestUp, MSGBOX_DEFAULT
+	closemessage
+// FIXME undefined reference: 	call Common_EventScript_OutOfCenterPartyHeal
+	msgbox Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route111_OldLadysRestStop_EventScript_Rest
+	goto_if_eq VAR_RESULT, NO, Route111_OldLadysRestStop_EventScript_DeclineRest
+	end
+
+}
+
+script Route111_OldLadysRestStop_EventScript_DeclineRest {
+	msgbox Route111_OldLadysRestStop_Text_DontNeedToBeShy, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text Route111_OldLadysRestStop_Text_RestUpHere {
+    format("Oh, dear, dear. Aren't your POKéMON exhausted?\p If you'd like, rest up here. That's a fine idea! You should do that.")
+}
+
+text Route111_OldLadysRestStop_Text_TakeYourTimeRestUp {
+    format("That's right. Take your time and rest up!")
+}
+
+text Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest {
+    format("Oh, dear, dear. Are your POKéMON still tired?\p You should take another rest here. That's a fine idea. You should do that.")
+}
+
+text Route111_OldLadysRestStop_Text_DontNeedToBeShy {
+    format("Is that so? You don't need to be shy about it.")
 }
 

@@ -1,0 +1,6 @@
+#events for BlackthornCity_Gym
+
+script BlackthornCity_Gym_MapScripts {
+	.byte 0
+}
+

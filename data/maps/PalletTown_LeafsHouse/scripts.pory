@@ -1,0 +1,6 @@
+#events for PalletTown_LeafsHouse
+
+script PalletTown_LeafsHouse_MapScripts {
+	.byte 0
+}
+

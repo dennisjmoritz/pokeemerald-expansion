@@ -1,0 +1,6 @@
+#events for FiveIsland_LostCave_Room7
+
+script FiveIsland_LostCave_Room7_MapScripts {
+	.byte 0
+}
+

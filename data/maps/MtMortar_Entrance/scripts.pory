@@ -1,0 +1,6 @@
+#events for MtMortar_Entrance
+
+script MtMortar_Entrance_MapScripts {
+	.byte 0
+}
+

@@ -1,0 +1,6 @@
+#events for Route222
+
+script Route222_MapScripts {
+	.byte 0
+}
+

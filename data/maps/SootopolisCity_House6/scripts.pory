@@ -1,4 +1,65 @@
-text SootopolisCity_House6_EventScript_NoRoomForWailmerDoll {
-    format("Hello! You're our first guest in a good while.\p You've brightened up my day, so I'll give you a big WAILMER DOLL.$ Take good care of it!$ Oh, you want it, but not right now? Okay, then I'll hold it for you.$ Are you sure? You don't want this DOLL?$ I love plush DOLLS!")
+#events for SootopolisCity_House6
+
+script SootopolisCity_House6_MapScripts {
+	.byte 0
+
+}
+
+script SootopolisCity_House6_EventScript_Woman {
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_WAILMER_DOLL, SootopolisCity_House6_EventScript_ReceivedWailmerDoll
+	msgbox SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, NO, SootopolisCity_House6_EventScript_DeclineWailmerDoll
+	msgbox SootopolisCity_House6_Text_TakeGoodCareOfIt, MSGBOX_DEFAULT
+	givedecoration DECOR_WAILMER_DOLL
+	goto_if_eq VAR_RESULT, FALSE, SootopolisCity_House6_EventScript_NoRoomForWailmerDoll
+	setflag FLAG_RECEIVED_WAILMER_DOLL
+	release
+	end
+
+}
+
+script SootopolisCity_House6_EventScript_DeclineWailmerDoll {
+	msgbox SootopolisCity_House6_Text_DontWantThisDoll, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script SootopolisCity_House6_EventScript_ReceivedWailmerDoll {
+	msgbox SootopolisCity_House6_Text_LovePlushDolls, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script SootopolisCity_House6_EventScript_NoRoomForWailmerDoll {
+	bufferdecorationname STR_VAR_2, DECOR_WAILMER_DOLL
+	msgbox gText_NoRoomLeftForAnother, MSGBOX_DEFAULT
+	msgbox SootopolisCity_House6_Text_IllHoldItForYou, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll {
+    format("Hello! You're our first guest in a good while.\p You've brightened up my day, so I'll give you a big WAILMER DOLL.")
+}
+
+text SootopolisCity_House6_Text_TakeGoodCareOfIt {
+    format("Take good care of it!")
+}
+
+text SootopolisCity_House6_Text_IllHoldItForYou {
+    format("Oh, you want it, but not right now? Okay, then I'll hold it for you.")
+}
+
+text SootopolisCity_House6_Text_DontWantThisDoll {
+    format("Are you sure? You don't want this DOLL?")
+}
+
+text SootopolisCity_House6_Text_LovePlushDolls {
+    format("I love plush DOLLS!")
 }
 

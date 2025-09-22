@@ -1,4 +1,77 @@
-text EverGrandeCity_PhoebesRoom_EventScript_Defeated {
-    format("Ahahaha!\p I'm PHOEBE of the ELITE FOUR. I did my training on MT. PYRE.\p While I trained, I gained the ability to commune with GHOST-type POKéMON.\p Yes, the bond I developed with POKéMON is extremely tight.\p So, come on, just try and see if you can even inflict damage on my POKéMON!$ Oh, darn. I've gone and lost.$ There's a definite bond between you and your POKéMON, too.\p I didn't recognize it, so it's only natural that I lost.\p Yup, I'd like to see how far your bond will carry you.\p Go ahead, move on to the next room.")
+#events for EverGrandeCity_PhoebesRoom
+
+script EverGrandeCity_PhoebesRoom_MapScripts {
+	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_PhoebesRoom_OnLoad
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_PhoebesRoom_OnWarp
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_PhoebesRoom_OnFrame
+	.byte 0
+
+}
+
+script EverGrandeCity_PhoebesRoom_EventScript_PlayerTurnNorth {
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	end
+
+}
+
+script EverGrandeCity_PhoebesRoom_EventScript_WalkInCloseDoor {
+	lockall
+	call PokemonLeague_EliteFour_EventScript_WalkInCloseDoor
+	setvar VAR_ELITE_4_STATE, 2
+	releaseall
+	end
+
+}
+
+script EverGrandeCity_PhoebesRoom_EventScript_ResetAdvanceToNextRoom {
+	call PokemonLeague_EliteFour_EventScript_ResetAdvanceToNextRoom
+	return
+
+}
+
+script EverGrandeCity_PhoebesRoom_EventScript_CloseDoor {
+	call PokemonLeague_EliteFour_EventScript_CloseDoor
+	return
+
+}
+
+script EverGrandeCity_PhoebesRoom_EventScript_Phoebe {
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_ELITE_4_PHOEBE, EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech
+	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
+	msgbox EverGrandeCity_PhoebesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_PHOEBE, EverGrandeCity_PhoebesRoom_Text_Defeat
+	goto EverGrandeCity_PhoebesRoom_EventScript_Defeated
+	end
+
+}
+
+script EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech {
+	msgbox EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script EverGrandeCity_PhoebesRoom_EventScript_Defeated {
+	setflag FLAG_DEFEATED_ELITE_4_PHOEBE
+	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
+	msgbox EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text EverGrandeCity_PhoebesRoom_Text_IntroSpeech {
+    format("Ahahaha!\p I'm PHOEBE of the ELITE FOUR. I did my training on MT. PYRE.\p While I trained, I gained the ability to commune with GHOST-type POKéMON.\p Yes, the bond I developed with POKéMON is extremely tight.\p So, come on, just try and see if you can even inflict damage on my POKéMON!")
+}
+
+text EverGrandeCity_PhoebesRoom_Text_Defeat {
+    format("Oh, darn. I've gone and lost.")
+}
+
+text EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech {
+    format("There's a definite bond between you and your POKéMON, too.\p I didn't recognize it, so it's only natural that I lost.\p Yup, I'd like to see how far your bond will carry you.\p Go ahead, move on to the next room.")
 }
 

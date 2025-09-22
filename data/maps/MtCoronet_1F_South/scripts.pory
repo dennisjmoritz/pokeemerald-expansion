@@ -1,0 +1,6 @@
+#events for MtCoronet_1F_South
+
+script MtCoronet_1F_South_MapScripts {
+	.byte 0
+}
+

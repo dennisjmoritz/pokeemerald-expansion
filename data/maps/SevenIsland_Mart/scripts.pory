@@ -1,12 +1,78 @@
-text SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn {
-    format("POKéMON have personalities of their own, just like people.\p My PIKACHU has a HASTY nature, so it grew to be a speedy POKéMON.")
+#events for SevenIsland_Mart
+
+script SevenIsland_Mart_MapScripts {
+	.byte 0
+
 }
 
-text SevenIsland_Mart_Text_PreparationsCompleteForRuins {
-    format("Okay, preparations are complete for me to explore the RUINS.")
+script SevenIsland_Mart_EventScript_Clerk {
+@	goto_if_questlog EventScript_ReleaseEnd
+	lock
+	faceplayer
+// FIXME undefined reference: 	message Text_MayIHelpYou
+	waitmessage
+	pokemart SevenIsland_Mart_Items
+// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
+	release
+	end
+
+	.align 2
 }
 
-text SevenIsland_Mart_Text_NeedToFishOnSevenIsland {
-    format("I need to fish on SEVEN ISLAND.\p That will complete my fishing tour of the SEVII ISLANDS.\p I'd better stock up on some POKé BALLS first, though.")
+script SevenIsland_Mart_Items {
+	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_FULL_RESTORE
+	.2byte ITEM_MAX_POTION
+	.2byte ITEM_HYPER_POTION
+	.2byte ITEM_REVIVE
+	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_NONE
+	release
+	end
+
+}
+
+script SevenIsland_Mart_EventScript_Lass {
+	msgbox SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn, MSGBOX_NPC
+	end
+
+}
+
+script SevenIsland_Mart_EventScript_Hiker {
+	msgbox SevenIsland_Mart_Text_PreparationsCompleteForRuins, MSGBOX_NPC
+	end
+
+}
+
+script SevenIsland_Mart_EventScript_Fisher {
+	msgbox SevenIsland_Mart_Text_NeedToFishOnSevenIsland, MSGBOX_NPC
+	end
+
+}
+
+script SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn {
+    .string "POKéMON have personalities of their\n"
+    .string "own, just like people.\p"
+    .string "My PIKACHU has a HASTY nature,\n"
+    .string "so it grew to be a speedy POKéMON.$"
+
+}
+
+script SevenIsland_Mart_Text_PreparationsCompleteForRuins {
+    .string "Okay, preparations are complete\n"
+    .string "for me to explore the RUINS.$"
+
+}
+
+script SevenIsland_Mart_Text_NeedToFishOnSevenIsland {
+    .string "I need to fish on SEVEN ISLAND.\p"
+    .string "That will complete my fishing tour\n"
+    .string "of the SEVII ISLANDS.\p"
+    .string "I'd better stock up on some\n"
+    .string "POKé BALLS first, though.$"
+
 }
 

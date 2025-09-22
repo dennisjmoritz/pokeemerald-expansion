@@ -1,0 +1,6 @@
+#events for IcePath_B3F
+
+script IcePath_B3F_MapScripts {
+	.byte 0
+}
+

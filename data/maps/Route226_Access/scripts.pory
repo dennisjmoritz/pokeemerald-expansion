@@ -1,0 +1,6 @@
+#events for Route226_Access
+
+script Route226_Access_MapScripts {
+	.byte 0
+}
+

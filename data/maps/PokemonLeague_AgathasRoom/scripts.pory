@@ -1,16 +1,181 @@
-text PokemonLeague_AgathasRoom_Text_Intro {
-    format("I am AGATHA of the ELITE FOUR.\p I hear OAK's taken a lot of interest in you, child.\p That old duff was once tough and handsome.\p But that was decades ago. He's a shadow of his former self.\p Now he just wants to fiddle with his POKéDEX.\p He's wrong. POKéMON are for battling!\p {PLAYER}! I'll show you how a real TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}")
+#events for PokemonLeague_AgathasRoom
+
+script PokemonLeague_AgathasRoom_MapScripts {
+	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_AgathasRoom_OnResume
+	map_script MAP_SCRIPT_ON_LOAD, PokemonLeague_AgathasRoom_OnLoad
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PokemonLeague_AgathasRoom_OnWarp
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_AgathasRoom_OnFrame
+	.byte 0
+
 }
 
-text PokemonLeague_AgathasRoom_Text_RematchIntro {
-    format("I am AGATHA of the ELITE FOUR.\p You're the child that OAK's taken under his wing, aren't you?\p That old duff was once tough and handsome.\p But that was decades ago. He's a shadow of his former self.\p Now he just wants to fiddle with his POKéDEX.\p He's wrong. POKéMON are for battling!\p {PLAYER}! I'll show you how a real TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}")
+script PokemonLeague_AgathasRoom_OnResume {
+	setvar VAR_0x8004, 2
+// FIXME undefined reference: 	call PokemonLeague_EventScript_DoLightingEffect
+	end
+
 }
 
-text PokemonLeague_AgathasRoom_Text_Defeat {
-    format("Oh, my! You're something special, child!")
+script PokemonLeague_AgathasRoom_OnLoad {
+	call_if_set FLAG_TEMP_1, PokemonLeague_AgathasRoom_EventScript_SetDoorOpen
+// Replaced FLAG_DEFEATED_AGATHA with FLAG_TEMP_1
+	call_if_eq VAR_TEMP_0, 3, PokemonLeague_AgathasRoom_EventScript_CloseEntry
+// Replaced VAR_MAP_SCENE_POKEMON_LEAGUE with VAR_TEMP_0
+	end
+
 }
 
-text PokemonLeague_AgathasRoom_Text_PostBattle {
-    format("You win!\p I see what the old duff sees in you now.\p I have nothing else to say. Run along now, child!")
+script PokemonLeague_AgathasRoom_EventScript_CloseEntry {
+// FIXME undefined reference: 	call PokemonLeague_EventScript_CloseEntry
+	return
+
+}
+
+script PokemonLeague_AgathasRoom_EventScript_SetDoorOpen {
+// FIXME undefined reference: 	call PokemonLeague_EventScript_SetDoorOpen
+	return
+
+}
+
+script PokemonLeague_AgathasRoom_OnWarp {
+	map_script_2 VAR_TEMP_1, 0, PokemonLeague_AgathasRoom_EventScript_TurnPlayerNorth
+	.2byte 0
+
+}
+
+script PokemonLeague_AgathasRoom_EventScript_TurnPlayerNorth {
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	end
+
+}
+
+script PokemonLeague_AgathasRoom_OnFrame {
+	map_script_2 VAR_TEMP_0, 2, PokemonLeague_AgathasRoom_EventScript_EnterRoom
+// Replaced VAR_MAP_SCENE_POKEMON_LEAGUE with VAR_TEMP_0
+	.2byte 0
+
+}
+
+script PokemonLeague_AgathasRoom_EventScript_EnterRoom {
+	lockall
+// FIXME undefined reference: 	call PokemonLeague_EventScript_EnterRoom
+	setvar VAR_TEMP_0, 3
+// Replaced VAR_MAP_SCENE_POKEMON_LEAGUE with VAR_TEMP_0
+	releaseall
+	end
+
+}
+
+script PokemonLeague_AgathasRoom_EventScript_Agatha {
+	lock
+	faceplayer
+@	famechecker FAMECHECKER_AGATHA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
+	goto_if_set FLAG_TEMP_1, PokemonLeague_AgathasRoom_EventScript_PostBattle
+// Replaced FLAG_DEFEATED_AGATHA with FLAG_TEMP_1
+@	famechecker FAMECHECKER_AGATHA, 0
+@	famechecker FAMECHECKER_AGATHA, 4
+@	famechecker FAMECHECKER_OAK, 4
+	call_if_unset FLAG_SYS_GAME_CLEAR, PokemonLeague_AgathasRoom_EventScript_Intro
+	call_if_set FLAG_SYS_GAME_CLEAR, PokemonLeague_AgathasRoom_EventScript_RematchIntro
+	setflag FLAG_TEMP_3
+	setflag FLAG_TEMP_5
+	call_if_unset FLAG_TEMP_1, PokemonLeague_AgathasRoom_EventScript_Battle
+// Replaced FLAG_SYS_CAN_LINK_WITH_RS with FLAG_TEMP_1
+	call_if_set FLAG_TEMP_1, PokemonLeague_AgathasRoom_EventScript_Rematch
+// Replaced FLAG_SYS_CAN_LINK_WITH_RS with FLAG_TEMP_1
+	clearflag FLAG_TEMP_5
+	goto PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha
+	end
+
+}
+
+script PokemonLeague_AgathasRoom_EventScript_Intro {
+	msgbox PokemonLeague_AgathasRoom_Text_Intro
+	return
+
+}
+
+script PokemonLeague_AgathasRoom_EventScript_RematchIntro {
+	msgbox PokemonLeague_AgathasRoom_Text_RematchIntro
+	return
+
+}
+
+script PokemonLeague_AgathasRoom_EventScript_Battle {
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_ELITE_FOUR_AGATHA, PokemonLeague_AgathasRoom_Text_Defeat
+	return
+
+}
+
+script PokemonLeague_AgathasRoom_EventScript_Rematch {
+// FIXME undefined reference: 	trainerbattle_no_intro TRAINER_ELITE_FOUR_AGATHA_2, PokemonLeague_AgathasRoom_Text_Defeat
+	return
+
+}
+
+script PokemonLeague_AgathasRoom_EventScript_PostBattle {
+	msgbox PokemonLeague_AgathasRoom_Text_PostBattle
+	release
+	end
+
+}
+
+script PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha {
+	setflag FLAG_TEMP_1
+// Replaced FLAG_DEFEATED_AGATHA with FLAG_TEMP_1
+// FIXME undefined reference: 	call PokemonLeague_EventScript_OpenDoor
+	msgbox PokemonLeague_AgathasRoom_Text_PostBattle
+	release
+	end
+
+}
+
+script PokemonLeague_AgathasRoom_Text_Intro {
+    .string "I am AGATHA of the ELITE FOUR.\p"
+    .string "I hear OAK's taken a lot of\n"
+    .string "interest in you, child.\p"
+    .string "That old duff was once tough and\n"
+    .string "handsome.\p"
+    .string "But that was decades ago.\n"
+    .string "He's a shadow of his former self.\p"
+    .string "Now he just wants to fiddle with\n"
+    .string "his POKéDEX.\p"
+    .string "He's wrong.\n"
+    .string "POKéMON are for battling!\p"
+    .string "{PLAYER}! I'll show you how a real\n"
+    .string "TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+
+}
+
+script PokemonLeague_AgathasRoom_Text_RematchIntro {
+    .string "I am AGATHA of the ELITE FOUR.\p"
+    .string "You're the child that OAK's taken\n"
+    .string "under his wing, aren't you?\p"
+    .string "That old duff was once tough and\n"
+    .string "handsome.\p"
+    .string "But that was decades ago.\n"
+    .string "He's a shadow of his former self.\p"
+    .string "Now he just wants to fiddle with\n"
+    .string "his POKéDEX.\p"
+    .string "He's wrong.\n"
+    .string "POKéMON are for battling!\p"
+    .string "{PLAYER}! I'll show you how a real\n"
+    .string "TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+
+}
+
+script PokemonLeague_AgathasRoom_Text_Defeat {
+    .string "Oh, my!\n"
+    .string "You're something special, child!$"
+
+}
+
+script PokemonLeague_AgathasRoom_Text_PostBattle {
+    .string "You win!\p"
+    .string "I see what the old duff sees in\n"
+    .string "you now.\p"
+    .string "I have nothing else to say.\n"
+    .string "Run along now, child!$"
+
 }
 

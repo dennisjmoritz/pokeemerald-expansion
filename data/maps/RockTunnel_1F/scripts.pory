@@ -1,94 +1,197 @@
-text RockTunnel_1F_Text_LennyIntro {
-    format("This tunnel goes a long way, kid!")
+#events for RockTunnel_1F
+
+script RockTunnel_1F_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, RockTunnel_1F_OnTransition
+	.byte 0
+
 }
 
-text RockTunnel_1F_Text_LennyDefeat {
-    format("Doh! You win!")
-}
+script RockTunnel_1F_OnTransition {
+	setworldmapflag FLAG_TEMP_1
+// Replaced FLAG_WORLD_MAP_ROCK_TUNNEL_1F with FLAG_TEMP_1
+	end
 
-text RockTunnel_1F_Text_LennyPostBattle {
-    format("Watch for ONIX. They appear only occasionally.\p High-level ones can put the squeeze on you!")
-}
-
-text RockTunnel_1F_Text_OliverIntro {
-    format("Hmm. Maybe I'm lost in here…")
-}
-
-text RockTunnel_1F_Text_OliverDefeat {
-    format("Ease up! What am I doing?\l Which way is out?")
-}
-
-text RockTunnel_1F_Text_OliverPostBattle {
-    format("That sleeping POKéMON on ROUTE 12 forced me to take this detour.")
-}
-
-text RockTunnel_1F_Text_LucasIntro {
-    format("Outsiders like you need to show me some respect!")
-}
-
-text RockTunnel_1F_Text_LucasDefeat {
-    format("I give!")
-}
-
-text RockTunnel_1F_Text_LucasPostBattle {
-    format("You're talented enough to hike!")
-}
-
-text RockTunnel_1F_Text_AshtonIntro {
-    format("POKéMON fight! Ready, go!")
-}
-
-text RockTunnel_1F_Text_AshtonDefeat {
-    format("Game over!")
-}
-
-text RockTunnel_1F_Text_AshtonPostBattle {
-    format("Oh well, I'll get a ZUBAT as I go!")
-}
-
-text RockTunnel_1F_Text_LeahIntro {
-    format("Eek!\p Don't try anything funny in the dark!")
-}
-
-text RockTunnel_1F_Text_LeahDefeat {
-    format("It was too dark…")
-}
-
-text RockTunnel_1F_Text_LeahPostBattle {
-    format("I saw a MACHOP in this tunnel.")
-}
-
-text RockTunnel_1F_Text_DanaIntro {
-    format("I came this far looking for wild POKéMON.")
-}
-
-text RockTunnel_1F_Text_DanaDefeat {
-    format("I'm out of POKéMON!")
-}
-
-text RockTunnel_1F_Text_DanaPostBattle {
-    format("You looked cute and harmless. Was I ever wrong!")
-}
-
-text RockTunnel_1F_Text_ArianaIntro {
-    format("You have POKéMON! Let's start!")
-}
-
-text RockTunnel_1F_Text_ArianaDefeat {
-    format("You play hard!")
-}
-
-text RockTunnel_1F_Text_ArianaPostBattle {
-    format("Whew! I'm all sweaty now.")
-}
-
-text RockTunnel_1F_Text_RouteSign {
-    format("ROCK TUNNEL CERULEAN CITY - LAVENDER TOWN")
 }
 
 script RockTunnel_1F_EventScript_RouteSign {
-    lockall
-    msgbox(RockTunnel_1F_Text_RouteSign)
-    releaseall
+	msgbox RockTunnel_1F_Text_RouteSign, MSGBOX_SIGN
+	end
+
+}
+
+script RockTunnel_1F_EventScript_Lenny {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_HIKER_LENNY, RockTunnel_1F_Text_LennyIntro, RockTunnel_1F_Text_LennyDefeat
+	msgbox RockTunnel_1F_Text_LennyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script RockTunnel_1F_EventScript_Oliver {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_HIKER_OLIVER, RockTunnel_1F_Text_OliverIntro, RockTunnel_1F_Text_OliverDefeat
+	msgbox RockTunnel_1F_Text_OliverPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script RockTunnel_1F_EventScript_Lucas {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_HIKER_LUCAS, RockTunnel_1F_Text_LucasIntro, RockTunnel_1F_Text_LucasDefeat
+	msgbox RockTunnel_1F_Text_LucasPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script RockTunnel_1F_EventScript_Ashton {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_POKEMANIAC_ASHTON, RockTunnel_1F_Text_AshtonIntro, RockTunnel_1F_Text_AshtonDefeat
+	msgbox RockTunnel_1F_Text_AshtonPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script RockTunnel_1F_EventScript_Leah {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_PICNICKER_LEAH, RockTunnel_1F_Text_LeahIntro, RockTunnel_1F_Text_LeahDefeat
+	msgbox RockTunnel_1F_Text_LeahPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script RockTunnel_1F_EventScript_Ariana {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_PICNICKER_ARIANA, RockTunnel_1F_Text_ArianaIntro, RockTunnel_1F_Text_ArianaDefeat
+	msgbox RockTunnel_1F_Text_ArianaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script RockTunnel_1F_EventScript_Dana {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_PICNICKER_DANA, RockTunnel_1F_Text_DanaIntro, RockTunnel_1F_Text_DanaDefeat
+	msgbox RockTunnel_1F_Text_DanaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script RockTunnel_1F_Text_LennyIntro {
+    .string "This tunnel goes a long way, kid!$"
+
+}
+
+script RockTunnel_1F_Text_LennyDefeat {
+    .string "Doh!\n"
+    .string "You win!$"
+
+}
+
+script RockTunnel_1F_Text_LennyPostBattle {
+    .string "Watch for ONIX.\n"
+    .string "They appear only occasionally.\p"
+    .string "High-level ones can put the\n"
+    .string "squeeze on you!$"
+
+}
+
+script RockTunnel_1F_Text_OliverIntro {
+    .string "Hmm.\n"
+    .string "Maybe I'm lost in here…$"
+
+}
+
+script RockTunnel_1F_Text_OliverDefeat {
+    .string "Ease up!\n"
+    .string "What am I doing?\l"
+    .string "Which way is out?$"
+
+}
+
+script RockTunnel_1F_Text_OliverPostBattle {
+    .string "That sleeping POKéMON on ROUTE 12\n"
+    .string "forced me to take this detour.$"
+
+}
+
+script RockTunnel_1F_Text_LucasIntro {
+    .string "Outsiders like you need to show me\n"
+    .string "some respect!$"
+
+}
+
+script RockTunnel_1F_Text_LucasDefeat {
+    .string "I give!$"
+
+}
+
+script RockTunnel_1F_Text_LucasPostBattle {
+    .string "You're talented enough to hike!$"
+
+}
+
+script RockTunnel_1F_Text_AshtonIntro {
+    .string "POKéMON fight!\n"
+    .string "Ready, go!$"
+
+}
+
+script RockTunnel_1F_Text_AshtonDefeat {
+    .string "Game over!$"
+
+}
+
+script RockTunnel_1F_Text_AshtonPostBattle {
+    .string "Oh well, I'll get a ZUBAT as I go!$"
+
+}
+
+script RockTunnel_1F_Text_LeahIntro {
+    .string "Eek!\p"
+    .string "Don't try anything funny in the\n"
+    .string "dark!$"
+
+}
+
+script RockTunnel_1F_Text_LeahDefeat {
+    .string "It was too dark…$"
+
+}
+
+script RockTunnel_1F_Text_LeahPostBattle {
+    .string "I saw a MACHOP in this tunnel.$"
+
+}
+
+script RockTunnel_1F_Text_DanaIntro {
+    .string "I came this far looking for wild\n"
+    .string "POKéMON.$"
+
+}
+
+script RockTunnel_1F_Text_DanaDefeat {
+    .string "I'm out of POKéMON!$"
+
+}
+
+script RockTunnel_1F_Text_DanaPostBattle {
+    .string "You looked cute and harmless.\n"
+    .string "Was I ever wrong!$"
+
+}
+
+script RockTunnel_1F_Text_ArianaIntro {
+    .string "You have POKéMON!\n"
+    .string "Let's start!$"
+
+}
+
+script RockTunnel_1F_Text_ArianaDefeat {
+    .string "You play hard!$"
+
+}
+
+script RockTunnel_1F_Text_ArianaPostBattle {
+    .string "Whew!\n"
+    .string "I'm all sweaty now.$"
+
+}
+
+script RockTunnel_1F_Text_RouteSign {
+    .string "ROCK TUNNEL\n"
+    .string "CERULEAN CITY - LAVENDER TOWN$"
+
 }
 

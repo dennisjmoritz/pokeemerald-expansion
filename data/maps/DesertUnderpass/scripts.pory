@@ -1,8 +1,48 @@
-text DesertUnderpass_Text_FoundRootFossil {
-    format("{PLAYER} found the ROOT FOSSIL.")
+#events for DesertUnderpass
+
+script DesertUnderpass_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, DesertUnderpass_OnTransition
+	.byte 0
+
 }
 
-text DesertUnderpass_Text_FoundClawFossil {
-    format("{PLAYER} found the CLAW FOSSIL.")
+script DesertUnderpass_EventScript_Fossil {
+	lock
+	faceplayer
+	goto_if_set FLAG_CHOSE_ROOT_FOSSIL, DesertUnderpass_EventScript_GiveClawFossil
+	goto_if_set FLAG_CHOSE_CLAW_FOSSIL, DesertUnderpass_EventScript_GiveRootFossil
+	release
+	end
+
+}
+
+script DesertUnderpass_EventScript_GiveClawFossil {
+	giveitem ITEM_CLAW_FOSSIL
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	removeobject LOCALID_UNDERPASS_FOSSIL
+	release
+	end
+
+}
+
+script DesertUnderpass_EventScript_GiveRootFossil {
+	giveitem ITEM_ROOT_FOSSIL
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	removeobject LOCALID_UNDERPASS_FOSSIL
+	release
+	end
+
+@ Unused
+}
+
+script DesertUnderpass_Text_FoundRootFossil {
+	.string "{PLAYER} found the ROOT FOSSIL.$"
+
+@ Unused
+}
+
+script DesertUnderpass_Text_FoundClawFossil {
+	.string "{PLAYER} found the CLAW FOSSIL.$"
+
 }
 

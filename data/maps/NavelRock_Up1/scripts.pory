@@ -1,0 +1,7 @@
+#events for NavelRock_Up1
+
+script NavelRock_Up1_MapScripts {
+	.byte 0
+
+}
+

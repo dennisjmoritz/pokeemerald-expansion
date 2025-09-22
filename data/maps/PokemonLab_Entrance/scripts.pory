@@ -1,0 +1,6 @@
+#events for PokemonLab_Entrance
+
+script PokemonLab_Entrance_MapScripts {
+	.byte 0
+}
+

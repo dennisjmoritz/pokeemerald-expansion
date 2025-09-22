@@ -1,4 +1,36 @@
-text LilycoveCity_House2_EventScript_ReceivedRest {
-    format("Huh? What? What's that?\p I'm not near awake yet… You can have this…$ Yawn…\p Sleep is essential for good health… Sleep and regain health…")
+#events for LilycoveCity_House2
+
+script LilycoveCity_House2_MapScripts {
+	.byte 0
+
+}
+
+script LilycoveCity_House2_EventScript_FatMan {
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_TM_REST, LilycoveCity_House2_EventScript_ReceivedRest
+	msgbox LilycoveCity_House2_Text_NotAwakeYetHaveThis, MSGBOX_DEFAULT
+	giveitem ITEM_TM_REST
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_TM_REST
+	msgbox LilycoveCity_House2_Text_SleepIsEssential, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script LilycoveCity_House2_EventScript_ReceivedRest {
+	msgbox LilycoveCity_House2_Text_SleepIsEssential, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text LilycoveCity_House2_Text_NotAwakeYetHaveThis {
+    format("Huh? What? What's that?\p I'm not near awake yet… You can have this…")
+}
+
+text LilycoveCity_House2_Text_SleepIsEssential {
+    format("Yawn…\p Sleep is essential for good health… Sleep and regain health…")
 }
 

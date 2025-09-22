@@ -1,0 +1,6 @@
+#events for RuinsOfAlph_AerodactylItemRoom
+
+script RuinsOfAlph_AerodactylItemRoom_MapScripts {
+	.byte 0
+}
+

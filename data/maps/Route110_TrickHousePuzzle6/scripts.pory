@@ -1,4 +1,91 @@
-text Route110_TrickHousePuzzle6_EventScript_Sebastian {
-    format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is my life.” … … … … … … … …\p The lock clicked open!$ When I heard there was a strange house, I had to check it out.$ I've discovered a tough TRAINER!$ I'm sure having a good time checking this place out.\p It's a challenge I've found worth repeating!$ Maybe I could get my BIRD POKéMON to fly over the wall…$ Gwaaah! I blew it!$ Ehehehe… I guess I lost because I was trying to cheat.$ I'm getting dizzy from these rotating doors…$ Everything's spinning around and around. I can't take this anymore…$ You don't seem to be affected at all. Or do you have your poker face on?")
+#events for Route110_TrickHousePuzzle6
+
+script Route110_TrickHousePuzzle6_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle6_OnTransition
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route110_TrickHousePuzzle6_OnWarp
+	.byte 0
+
+}
+
+script Route110_TrickHousePuzzle6_EventScript_InitPuzzle {
+	special RotatingGate_InitPuzzleAndGraphics
+	end
+
+}
+
+script Route110_TrickHousePuzzle6_EventScript_Scroll {
+	lockall
+	goto_if_eq VAR_TRICK_HOUSE_PUZZLE_6_STATE, 0, Route110_TrickHousePuzzle6_EventScript_FoundScroll
+	goto Route110_TrickHousePuzzle_EventScript_ReadScrollAgain
+	end
+
+}
+
+script Route110_TrickHousePuzzle6_EventScript_FoundScroll {
+	setvar VAR_TRICK_HOUSE_PUZZLE_6_STATE, 1
+	goto Route110_TrickHousePuzzle_EventScript_FoundScroll
+	end
+
+}
+
+script Route110_TrickHousePuzzle6_EventScript_Sophia {
+	trainerbattle_single TRAINER_SOPHIA, Route110_TrickHousePuzzle6_Text_SophiaIntro, Route110_TrickHousePuzzle6_Text_SophiaDefeat
+	msgbox Route110_TrickHousePuzzle6_Text_SophiaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script Route110_TrickHousePuzzle6_EventScript_Benny {
+	trainerbattle_single TRAINER_BENNY, Route110_TrickHousePuzzle6_Text_BennyIntro, Route110_TrickHousePuzzle6_Text_BennyDefeat
+	msgbox Route110_TrickHousePuzzle6_Text_BennyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script Route110_TrickHousePuzzle6_EventScript_Sebastian {
+	trainerbattle_single TRAINER_SEBASTIAN, Route110_TrickHousePuzzle6_Text_SebastianIntro, Route110_TrickHousePuzzle6_Text_SebastianDefeat
+	msgbox Route110_TrickHousePuzzle6_Text_SebastianPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+text Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened {
+    format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is my life.” … … … … … … … …\p The lock clicked open!")
+}
+
+text Route110_TrickHousePuzzle6_Text_SophiaIntro {
+    format("When I heard there was a strange house, I had to check it out.")
+}
+
+text Route110_TrickHousePuzzle6_Text_SophiaDefeat {
+    format("I've discovered a tough TRAINER!")
+}
+
+text Route110_TrickHousePuzzle6_Text_SophiaPostBattle {
+    format("I'm sure having a good time checking this place out.\p It's a challenge I've found worth repeating!")
+}
+
+text Route110_TrickHousePuzzle6_Text_BennyIntro {
+    format("Maybe I could get my BIRD POKéMON to fly over the wall…")
+}
+
+text Route110_TrickHousePuzzle6_Text_BennyDefeat {
+    format("Gwaaah! I blew it!")
+}
+
+text Route110_TrickHousePuzzle6_Text_BennyPostBattle {
+    format("Ehehehe… I guess I lost because I was trying to cheat.")
+}
+
+text Route110_TrickHousePuzzle6_Text_SebastianIntro {
+    format("I'm getting dizzy from these rotating doors…")
+}
+
+text Route110_TrickHousePuzzle6_Text_SebastianDefeat {
+    format("Everything's spinning around and around. I can't take this anymore…")
+}
+
+text Route110_TrickHousePuzzle6_Text_SebastianPostBattle {
+    format("You don't seem to be affected at all. Or do you have your poker face on?")
 }
 

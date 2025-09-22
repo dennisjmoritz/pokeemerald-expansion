@@ -1,0 +1,6 @@
+#events for Route30_MrPokemonsHouse
+
+script Route30_MrPokemonsHouse_MapScripts {
+	.byte 0
+}
+

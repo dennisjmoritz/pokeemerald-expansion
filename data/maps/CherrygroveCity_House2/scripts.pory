@@ -1,0 +1,6 @@
+#events for CherrygroveCity_House2
+
+script CherrygroveCity_House2_MapScripts {
+	.byte 0
+}
+

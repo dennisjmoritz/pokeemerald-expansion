@@ -1,0 +1,6 @@
+#events for BarrierStation_North
+
+script BarrierStation_North_MapScripts {
+	.byte 0
+}
+

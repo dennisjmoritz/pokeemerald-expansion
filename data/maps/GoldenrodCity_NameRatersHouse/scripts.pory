@@ -1,0 +1,6 @@
+#events for GoldenrodCity_NameRatersHouse
+
+script GoldenrodCity_NameRatersHouse_MapScripts {
+	.byte 0
+}
+

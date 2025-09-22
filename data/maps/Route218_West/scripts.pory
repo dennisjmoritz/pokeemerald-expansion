@@ -1,0 +1,6 @@
+#events for Route218_West
+
+script Route218_West_MapScripts {
+	.byte 0
+}
+

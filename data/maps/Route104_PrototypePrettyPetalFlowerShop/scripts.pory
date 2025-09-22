@@ -1,0 +1,7 @@
+#events for Route104_PrototypePrettyPetalFlowerShop
+
+script Route104_PrototypePrettyPetalFlowerShop_MapScripts {
+	.byte 0
+
+}
+

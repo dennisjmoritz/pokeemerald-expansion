@@ -1,0 +1,6 @@
+#events for RuinsOfAlph_Outside
+
+script RuinsOfAlph_Outside_MapScripts {
+	.byte 0
+}
+

@@ -1,0 +1,6 @@
+#events for Route34
+
+script Route34_MapScripts {
+	.byte 0
+}
+

@@ -1,4 +1,36 @@
-text AbandonedShip_Corridors_1F_EventScript_Charlie {
-    format("What's so funny about having my inner tube aboard the ship?$ Whoa, you overwhelmed me!$ It's not easy throwing POKé BALLS while hanging on to an inner tube!$ Isn't it fun here? I get excited just being here!")
+#events for AbandonedShip_Corridors_1F
+
+script AbandonedShip_Corridors_1F_MapScripts {
+	.byte 0
+
+}
+
+script AbandonedShip_Corridors_1F_EventScript_Youngster {
+	msgbox AbandonedShip_Corridors_1F_Text_IsntItFunHere, MSGBOX_NPC
+	end
+
+}
+
+script AbandonedShip_Corridors_1F_EventScript_Charlie {
+	trainerbattle_single TRAINER_CHARLIE, AbandonedShip_Corridors_1F_Text_CharlieIntro, AbandonedShip_Corridors_1F_Text_CharlieDefeat
+	msgbox AbandonedShip_Corridors_1F_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+text AbandonedShip_Corridors_1F_Text_CharlieIntro {
+    format("What's so funny about having my inner tube aboard the ship?")
+}
+
+text AbandonedShip_Corridors_1F_Text_CharlieDefeat {
+    format("Whoa, you overwhelmed me!")
+}
+
+text AbandonedShip_Corridors_1F_Text_CharliePostBattle {
+    format("It's not easy throwing POKé BALLS while hanging on to an inner tube!")
+}
+
+text AbandonedShip_Corridors_1F_Text_IsntItFunHere {
+    format("Isn't it fun here? I get excited just being here!")
 }
 

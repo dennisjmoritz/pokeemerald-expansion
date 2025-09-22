@@ -1,0 +1,6 @@
+#events for Route40
+
+script Route40_MapScripts {
+	.byte 0
+}
+

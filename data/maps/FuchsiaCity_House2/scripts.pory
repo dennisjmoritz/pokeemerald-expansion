@@ -1,28 +1,99 @@
-text FuchsiaCity_House2_Text_DoYouLikeToFish {
-    format("I'm the FISHING GURU's older brother.\p I simply looove fishing! I can't bear to go without.\p Tell me, do you like to fish?")
+#events for FuchsiaCity_House2
+
+script FuchsiaCity_House2_MapScripts {
+	.byte 0
+
 }
 
-text FuchsiaCity_House2_Text_LikeYourStyleTakeThis {
-    format("Grand! I like your style. I think we can be friends.\p Take this and fish, young friend!")
+script FuchsiaCity_House2_EventScript_FishingGurusBrother {
+	lock
+	faceplayer
+	goto_if_set FLAG_TEMP_1, FuchsiaCity_House2_EventScript_AlreadyGotGoodRod
+// Replaced FLAG_GOT_GOOD_ROD with FLAG_TEMP_1
+	msgbox FuchsiaCity_House2_Text_DoYouLikeToFish, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, FuchsiaCity_House2_EventScript_GiveGoodRod
+	msgbox FuchsiaCity_House2_Text_OhThatsDisappointing
+	release
+	end
+
 }
 
-text FuchsiaCity_House2_Text_ReceivedGoodRod {
-    format("{PLAYER} received a GOOD ROD from the FISHING GURU's brother.")
+script FuchsiaCity_House2_EventScript_AlreadyGotGoodRod {
+	msgbox FuchsiaCity_House2_Text_HowAreTheFishBiting
+	release
+	end
+
 }
 
-text FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons {
-    format("Fishing is a way of life! It is like the finest poetry.\p A crummy OLD ROD could only catch MAGIKARP, yes?\p But with a GOOD ROD, you can catch much better POKéMON.")
+script FuchsiaCity_House2_EventScript_GiveGoodRod {
+	msgbox FuchsiaCity_House2_Text_LikeYourStyleTakeThis
+	checkitemspace ITEM_GOOD_ROD
+	goto_if_eq VAR_RESULT, FALSE, FuchsiaCity_House2_EventScript_NoRoomForGoodRod
+	msgbox FuchsiaCity_House2_Text_ReceivedGoodRod, MSGBOX_DEFAULT
+	giveitem ITEM_GOOD_ROD
+	msgbox FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons
+	setflag FLAG_TEMP_1
+// Replaced FLAG_GOT_GOOD_ROD with FLAG_TEMP_1
+	release
+	end
+
 }
 
-text FuchsiaCity_House2_Text_OhThatsDisappointing {
-    format("Oh… That's so disappointing…")
+script FuchsiaCity_House2_EventScript_NoRoomForGoodRod {
+	msgbox FuchsiaCity_House2_Text_YouHaveNoRoomForGift
+	release
+	end
+
 }
 
-text FuchsiaCity_House2_Text_HowAreTheFishBiting {
-    format("Hello there, {PLAYER}!\p How are the fish biting?")
+script FuchsiaCity_House2_Text_DoYouLikeToFish {
+    .string "I'm the FISHING GURU's older\n"
+    .string "brother.\p"
+    .string "I simply looove fishing!\n"
+    .string "I can't bear to go without.\p"
+    .string "Tell me, do you like to fish?$"
+
 }
 
-text FuchsiaCity_House2_Text_YouHaveNoRoomForGift {
-    format("Oh, no!\p I had a gift for you, but you have no room for it!")
+script FuchsiaCity_House2_Text_LikeYourStyleTakeThis {
+    .string "Grand! I like your style.\n"
+    .string "I think we can be friends.\p"
+    .string "Take this and fish, young friend!$"
+
+}
+
+script FuchsiaCity_House2_Text_ReceivedGoodRod {
+    .string "{PLAYER} received a GOOD ROD from\n"
+    .string "the FISHING GURU's brother.$"
+
+}
+
+script FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons {
+    .string "Fishing is a way of life!\n"
+    .string "It is like the finest poetry.\p"
+    .string "A crummy OLD ROD could only catch\n"
+    .string "MAGIKARP, yes?\p"
+    .string "But with a GOOD ROD, you can\n"
+    .string "catch much better POKéMON.$"
+
+}
+
+script FuchsiaCity_House2_Text_OhThatsDisappointing {
+    .string "Oh…\n"
+    .string "That's so disappointing…$"
+
+}
+
+script FuchsiaCity_House2_Text_HowAreTheFishBiting {
+    .string "Hello there, {PLAYER}!\p"
+    .string "How are the fish biting?$"
+
+}
+
+script FuchsiaCity_House2_Text_YouHaveNoRoomForGift {
+    .string "Oh, no!\p"
+    .string "I had a gift for you, but you have\n"
+    .string "no room for it!$"
+
 }
 

@@ -1,0 +1,6 @@
+#events for MahoganyTown_RocketHideout_B2F
+
+script MahoganyTown_RocketHideout_B2F_MapScripts {
+	.byte 0
+}
+

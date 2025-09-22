@@ -1,0 +1,6 @@
+#events for Route33
+
+script Route33_MapScripts {
+	.byte 0
+}
+

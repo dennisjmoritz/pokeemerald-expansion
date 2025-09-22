@@ -1,0 +1,6 @@
+#events for OreburghMine_B1F
+
+script OreburghMine_B1F_MapScripts {
+	.byte 0
+}
+

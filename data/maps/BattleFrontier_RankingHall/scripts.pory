@@ -1,16 +1,168 @@
-text BattleFrontier_RankingHall_EventScript_Boy {
-    format("This is the RANKING HALL.\p This is where we recognize the immortal TRAINERS who left great records in\l BATTLE FRONTIER events.$ BATTLE DOME, BATTLE PIKE, and BATTLE FACTORY Records$ BATTLE PALACE, BATTLE ARENA, and BATTLE PYRAMID Records$ Hi, is your name on this list?$ Wow, that's super! I'll have to try harder, too!$ Oh, is that right?\p If you saw your friend's name up here, I bet it would make you work harder!$ Hmm… My name's not up there…\p Well, it's only natural since I haven't taken any challenges yet.")
+#events for BattleFrontier_RankingHall
+
+script BattleFrontier_RankingHall_MapScripts {
+	.byte 0
+
+}
+
+script BattleFrontier_RankingHall_EventScript_TowerSinglesRecords {
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_TOWER_SINGLES
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_TowerDoublesRecords {
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_TOWER_DOUBLES
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_TowerMultisRecords {
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_TOWER_MULTIS
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_TowerLinkRecords {
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_TOWER_LINK
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_ArenaRecords {
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_ARENA
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_PalaceRecords {
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_PALACE
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_FactoryRecords {
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_FACTORY
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_DomeRecords {
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_DOME
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_PikeRecords {
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_PIKE
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_PyramidRecords {
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_PYRAMID
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_ShowRecords {
+	special ShowRankingHallRecordsWindow
+	waitbuttonpress
+	special ScrollRankingHallRecordsWindow
+	waitbuttonpress
+	special RemoveRecordsWindow
+	releaseall
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_Attendant {
+	msgbox BattleFrontier_RankingHall_Text_ExplainRankingHall, MSGBOX_NPC
+	end
+
 }
 
 script BattleFrontier_RankingHall_EventScript_DomePikeFactoryRecordsSign {
-    lockall
-    msgbox(BattleFrontier_RankingHall_Text_DomePikeFactoryRecords)
-    releaseall
+	msgbox BattleFrontier_RankingHall_Text_DomePikeFactoryRecords, MSGBOX_SIGN
+	end
+
 }
 
 script BattleFrontier_RankingHall_EventScript_PalaceArenaPyramidRecordsSIgn {
-    lockall
-    msgbox(BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords)
-    releaseall
+	msgbox BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords, MSGBOX_SIGN
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_NinjaBoy {
+	lock
+	faceplayer
+	msgbox BattleFrontier_RankingHall_Text_IsYourNameOnThisList, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, BattleFrontier_RankingHall_EventScript_NinjaBoyNameOnList
+	msgbox BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_NinjaBoyNameOnList {
+	msgbox BattleFrontier_RankingHall_Text_WowThatsSuper, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script BattleFrontier_RankingHall_EventScript_Boy {
+	msgbox BattleFrontier_RankingHall_Text_MyNamesNotUpThere, MSGBOX_NPC
+	end
+
+}
+
+text BattleFrontier_RankingHall_Text_ExplainRankingHall {
+    format("This is the RANKING HALL.\p This is where we recognize the immortal TRAINERS who left great records in\l BATTLE FRONTIER events.")
+}
+
+text BattleFrontier_RankingHall_Text_DomePikeFactoryRecords {
+    format("BATTLE DOME, BATTLE PIKE, and BATTLE FACTORY Records")
+}
+
+text BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords {
+    format("BATTLE PALACE, BATTLE ARENA, and BATTLE PYRAMID Records")
+}
+
+text BattleFrontier_RankingHall_Text_IsYourNameOnThisList {
+    format("Hi, is your name on this list?")
+}
+
+text BattleFrontier_RankingHall_Text_WowThatsSuper {
+    format("Wow, that's super! I'll have to try harder, too!")
+}
+
+text BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName {
+    format("Oh, is that right?\p If you saw your friend's name up here, I bet it would make you work harder!")
+}
+
+text BattleFrontier_RankingHall_Text_MyNamesNotUpThere {
+    format("Hmm… My name's not up there…\p Well, it's only natural since I haven't taken any challenges yet.")
 }
 

@@ -1,0 +1,6 @@
+#events for KantoSafariZone_West
+
+script KantoSafariZone_West_MapScripts {
+	.byte 0
+}
+

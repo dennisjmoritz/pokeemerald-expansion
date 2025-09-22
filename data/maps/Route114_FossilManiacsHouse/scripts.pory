@@ -1,28 +1,56 @@
-text Route114_FossilManiacsHouse_EventScript_Bookshelf {
-    format("My big brother's the FOSSIL MANIAC… He's a nice guy who loves FOSSILS…\p He loves digging holes, too… He dug this hole by himself…\p You can have this, so you can DIG holes just like my big brother…$ If you make a POKéMON DIG inside a cave, you're returned to the entrance…$ Rocks in peculiar shapes fill the display case…$ THE COMPOSITION OF STRATA… HOW RAIN SHAPES THE LAND…\l STONES, SOIL, AND ROCK…\p It's crammed with books.")
+#events for Route114_FossilManiacsHouse
+
+script Route114_FossilManiacsHouse_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, Route114_FossilManiacsHouse_OnTransition
+	.byte 0
+
+}
+
+script Route114_FossilManiacsHouse_EventScript_FossilManiacsBrother {
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_TM_DIG, Route114_FossilManiacsHouse_EventScript_ReceivedDig
+	msgbox Route114_FossilManiacsHouse_Text_HaveThisToDigLikeMyBrother, MSGBOX_DEFAULT
+	giveitem ITEM_TM_DIG
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_TM_DIG
+	release
+	end
+
+}
+
+script Route114_FossilManiacsHouse_EventScript_ReceivedDig {
+	msgbox Route114_FossilManiacsHouse_Text_DigReturnsYouToEntrance, MSGBOX_DEFAULT
+	release
+	end
+
 }
 
 script Route114_FossilManiacsHouse_EventScript_RockDisplay {
-    lockall
-    msgbox(Route114_FossilManiacsHouse_Text_RocksFillDisplayCase)
-    releaseall
-}
+	msgbox Route114_FossilManiacsHouse_Text_RocksFillDisplayCase, MSGBOX_SIGN
+	end
 
-script Route114_FossilManiacsHouse_EventScript_RockDisplay {
-    lockall
-    msgbox(Route114_FossilManiacsHouse_Text_RocksFillDisplayCase)
-    releaseall
 }
 
 script Route114_FossilManiacsHouse_EventScript_Bookshelf {
-    lockall
-    msgbox(Route114_FossilManiacsHouse_Text_CrammedWithBooks)
-    releaseall
+	msgbox Route114_FossilManiacsHouse_Text_CrammedWithBooks, MSGBOX_SIGN
+	end
+
 }
 
-script Route114_FossilManiacsHouse_EventScript_Bookshelf {
-    lockall
-    msgbox(Route114_FossilManiacsHouse_Text_CrammedWithBooks)
-    releaseall
+text Route114_FossilManiacsHouse_Text_HaveThisToDigLikeMyBrother {
+    format("My big brother's the FOSSIL MANIAC… He's a nice guy who loves FOSSILS…\p He loves digging holes, too… He dug this hole by himself…\p You can have this, so you can DIG holes just like my big brother…")
+}
+
+text Route114_FossilManiacsHouse_Text_DigReturnsYouToEntrance {
+    format("If you make a POKéMON DIG inside a cave, you're returned to the entrance…")
+}
+
+text Route114_FossilManiacsHouse_Text_RocksFillDisplayCase {
+    format("Rocks in peculiar shapes fill the display case…")
+}
+
+text Route114_FossilManiacsHouse_Text_CrammedWithBooks {
+    format("THE COMPOSITION OF STRATA… HOW RAIN SHAPES THE LAND…\l STONES, SOIL, AND ROCK…\p It's crammed with books.")
 }
 

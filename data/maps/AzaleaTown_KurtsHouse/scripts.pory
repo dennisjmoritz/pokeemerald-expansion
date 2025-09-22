@@ -1,0 +1,6 @@
+#events for AzaleaTown_KurtsHouse
+
+script AzaleaTown_KurtsHouse_MapScripts {
+	.byte 0
+}
+

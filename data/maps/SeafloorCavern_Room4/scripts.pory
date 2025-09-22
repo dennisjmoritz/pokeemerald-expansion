@@ -1,4 +1,45 @@
-text SeafloorCavern_Room4_EventScript_Grunt4 {
-    format("Who are you? Where did you come in from?$ Lost it…$ I can't find the way out!\p I'm not afraid. Don't get me wrong!$ Who are you? Where do you think you're going?$ I failed to win!$ My partner forgot the map in that submarine!\p How's that for being useless?")
+#events for SeafloorCavern_Room4
+
+script SeafloorCavern_Room4_MapScripts {
+	.byte 0
+
+}
+
+script SeafloorCavern_Room4_EventScript_Grunt3 {
+	trainerbattle_single TRAINER_GRUNT_SEAFLOOR_CAVERN_3, SeafloorCavern_Room4_Text_Grunt3Intro, SeafloorCavern_Room4_Text_Grunt3Defeat
+	msgbox SeafloorCavern_Room4_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script SeafloorCavern_Room4_EventScript_Grunt4 {
+	trainerbattle_single TRAINER_GRUNT_SEAFLOOR_CAVERN_4, SeafloorCavern_Room4_Text_Grunt4Intro, SeafloorCavern_Room4_Text_Grunt4Defeat
+	msgbox SeafloorCavern_Room4_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+text SeafloorCavern_Room4_Text_Grunt3Intro {
+    format("Who are you? Where did you come in from?")
+}
+
+text SeafloorCavern_Room4_Text_Grunt3Defeat {
+    format("Lost it…")
+}
+
+text SeafloorCavern_Room4_Text_Grunt3PostBattle {
+    format("I can't find the way out!\p I'm not afraid. Don't get me wrong!")
+}
+
+text SeafloorCavern_Room4_Text_Grunt4Intro {
+    format("Who are you? Where do you think you're going?")
+}
+
+text SeafloorCavern_Room4_Text_Grunt4Defeat {
+    format("I failed to win!")
+}
+
+text SeafloorCavern_Room4_Text_Grunt4PostBattle {
+    format("My partner forgot the map in that submarine!\p How's that for being useless?")
 }
 

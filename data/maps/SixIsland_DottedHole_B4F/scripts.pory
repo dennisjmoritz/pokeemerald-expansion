@@ -1,0 +1,6 @@
+#events for SixIsland_DottedHole_B4F
+
+script SixIsland_DottedHole_B4F_MapScripts {
+	.byte 0
+}
+

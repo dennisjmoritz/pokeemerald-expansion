@@ -1,12 +1,32 @@
-text FiveIsland_LostCave_Room4_Text_LauraIntro {
-    format("I think there is a mysterious power at work in this cave.")
+#events for FiveIsland_LostCave_Room4
+
+script FiveIsland_LostCave_Room4_MapScripts {
+	.byte 0
+
 }
 
-text FiveIsland_LostCave_Room4_Text_LauraDefeat {
-    format("If you don't go into the right tunnel, you won't get ahead.")
+script FiveIsland_LostCave_Room4_EventScript_Laura {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_PSYCHIC_LAURA, FiveIsland_LostCave_Room4_Text_LauraIntro, FiveIsland_LostCave_Room4_Text_LauraDefeat
+	msgbox FiveIsland_LostCave_Room4_Text_LauraPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 }
 
-text FiveIsland_LostCave_Room4_Text_LauraPostBattle {
-    format("Earlier, a lady went into the caves ahead.")
+script FiveIsland_LostCave_Room4_Text_LauraIntro {
+    .string "I think there is a mysterious power\n"
+    .string "at work in this cave.$"
+
+}
+
+script FiveIsland_LostCave_Room4_Text_LauraDefeat {
+    .string "If you don't go into the right\n"
+    .string "tunnel, you won't get ahead.$"
+
+}
+
+script FiveIsland_LostCave_Room4_Text_LauraPostBattle {
+    .string "Earlier, a lady went into the caves\n"
+    .string "ahead.$"
+
 }
 

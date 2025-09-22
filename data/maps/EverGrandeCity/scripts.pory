@@ -1,22 +1,45 @@
-text EverGrandeCity_EventScript_SetVisitedEverGrande {
-    format("ENTERING VICTORY ROAD$ ENTERING POKéMON LEAGUE CENTER GATE$ EVER GRANDE CITY\p “The paradise of flowers, the sea, and POKéMON.”")
+#events for EverGrandeCity
+
+script EverGrandeCity_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_OnTransition
+	.byte 0
+
 }
 
 script EverGrandeCity_EventScript_VictoryRoadSign {
-    lockall
-    msgbox(EverGrandeCity_Text_EnteringVictoryRoad)
-    releaseall
+	msgbox EverGrandeCity_Text_EnteringVictoryRoad, MSGBOX_SIGN
+	end
+
 }
 
 script EverGrandeCity_EventScript_CitySign {
-    lockall
-    msgbox(EverGrandeCity_Text_CitySign)
-    releaseall
+	msgbox EverGrandeCity_Text_CitySign, MSGBOX_SIGN
+	end
+
 }
 
 script EverGrandeCity_EventScript_PokemonLeagueSign {
-    lockall
-    msgbox(EverGrandeCity_Text_EnteringPokemonLeague)
-    releaseall
+	msgbox EverGrandeCity_Text_EnteringPokemonLeague, MSGBOX_SIGN
+	end
+
+}
+
+script EverGrandeCity_EventScript_SetVisitedEverGrande {
+	setflag FLAG_VISITED_EVER_GRANDE_CITY
+	setvar VAR_TEMP_1, 1
+	end
+
+}
+
+text EverGrandeCity_Text_EnteringVictoryRoad {
+    format("ENTERING VICTORY ROAD")
+}
+
+text EverGrandeCity_Text_EnteringPokemonLeague {
+    format("ENTERING POKéMON LEAGUE CENTER GATE")
+}
+
+text EverGrandeCity_Text_CitySign {
+    format("EVER GRANDE CITY\p “The paradise of flowers, the sea, and POKéMON.”")
 }
 

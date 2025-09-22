@@ -1,4 +1,75 @@
-text MossdeepCity_House4_EventScript_Skitty {
-    format("My little brother says he likes to go find people's SECRET BASES.$ My little brother says he likes to visit people's SECRET BASES and have\l POKéMON battles.$ Was it you who made a SECRET BASE near {STR_VAR_1}?$ You should make a SECRET BASE somewhere. I'll go find it!$ SKITTY: Miyaan?")
+#events for MossdeepCity_House4
+
+script MossdeepCity_House4_MapScripts {
+	.byte 0
+
+}
+
+script MossdeepCity_House4_EventScript_Woman {
+	lock
+	faceplayer
+	goto_if_set FLAG_SYS_GAME_CLEAR, MossdeepCity_House4_EventScript_CanBattleAtSecretBases
+	msgbox MossdeepCity_House4_Text_BrotherLikesToFindBases, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MossdeepCity_House4_EventScript_CanBattleAtSecretBases {
+	msgbox MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MossdeepCity_House4_EventScript_NinjaBoy {
+	lock
+	faceplayer
+	special CheckPlayerHasSecretBase
+	goto_if_eq VAR_RESULT, FALSE, MossdeepCity_House4_EventScript_NoSecretBase
+	special GetSecretBaseNearbyMapName
+	msgbox MossdeepCity_House4_Text_YouMadeSecretBaseNearX, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MossdeepCity_House4_EventScript_NoSecretBase {
+	msgbox MossdeepCity_House4_Text_MakeSecretBase, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MossdeepCity_House4_EventScript_Skitty {
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_SKITTY, CRY_MODE_NORMAL
+	msgbox MossdeepCity_House4_Text_Skitty, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+}
+
+text MossdeepCity_House4_Text_BrotherLikesToFindBases {
+    format("My little brother says he likes to go find people's SECRET BASES.")
+}
+
+text MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle {
+    format("My little brother says he likes to visit people's SECRET BASES and have\l POKéMON battles.")
+}
+
+text MossdeepCity_House4_Text_YouMadeSecretBaseNearX {
+    format("Was it you who made a SECRET BASE near {STR_VAR_1}?")
+}
+
+text MossdeepCity_House4_Text_MakeSecretBase {
+    format("You should make a SECRET BASE somewhere. I'll go find it!")
+}
+
+text MossdeepCity_House4_Text_Skitty {
+    format("SKITTY: Miyaan?")
 }
 

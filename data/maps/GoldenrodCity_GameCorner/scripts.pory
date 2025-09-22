@@ -1,0 +1,6 @@
+#events for GoldenrodCity_GameCorner
+
+script GoldenrodCity_GameCorner_MapScripts {
+	.byte 0
+}
+

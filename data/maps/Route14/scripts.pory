@@ -1,162 +1,247 @@
-text Route14_Text_CarterIntro {
-    format("You need to use TMs to teach good moves to POKéMON.")
-}
+#events for Route14
 
-text Route14_Text_CarterDefeat {
-    format("Not good enough quite yet.")
-}
+script Route14_MapScripts {
+	.byte 0
 
-text Route14_Text_CarterPostBattle {
-    format("You have some HMs, right? POKéMON can't forget those moves easily.")
-}
-
-text Route14_Text_MitchIntro {
-    format("My bird POKéMON should be ready for battle.")
-}
-
-text Route14_Text_MitchDefeat {
-    format("Not ready yet!")
-}
-
-text Route14_Text_MitchPostBattle {
-    format("My bird POKéMON need to learn better moves.")
-}
-
-text Route14_Text_BeckIntro {
-    format("They have TMs on sale at the CELADON DEPT. STORE.\p TMs aren't really rare, but not many people have HMs.")
-}
-
-text Route14_Text_BeckDefeat {
-    format("Aww, bummer!")
-}
-
-text Route14_Text_BeckPostBattle {
-    format("Try teaching POKéMON a move that's the same type as it.\p That apparently boosts the power of the move.")
-}
-
-text Route14_Text_MarlonIntro {
-    format("Have you taught your bird POKéMON how to FLY?\p You'll be able to soar with it into the sky!")
-}
-
-text Route14_Text_MarlonDefeat {
-    format("Shot down in flames!")
-}
-
-text Route14_Text_MarlonPostBattle {
-    format("Bird POKéMON are my one true love. I don't want to raise anything else.")
-}
-
-text Route14_Text_DonaldIntro {
-    format("Have you heard the legend of the winged mirages?")
-}
-
-text Route14_Text_DonaldDefeat {
-    format("Why? Why'd I lose?")
-}
-
-text Route14_Text_DonaldPostBattle {
-    format("Well, the winged mirages are the legendary bird POKéMON.\p There are three of them: ARTICUNO, ZAPDOS, and MOLTRES.")
-}
-
-text Route14_Text_BennyIntro {
-    format("I'm not into it, but okay. Let's go!")
-}
-
-text Route14_Text_BennyDefeat {
-    format("I knew it!")
-}
-
-text Route14_Text_BennyPostBattle {
-    format("Winning, losing… It's insignificant under this huge sky.")
-}
-
-text Route14_Text_LukasIntro {
-    format("C'mon, c'mon. Let's go, let's go, let's go!")
-}
-
-text Route14_Text_LukasDefeat {
-    format("Arrg! Lost! Get lost!")
-}
-
-text Route14_Text_LukasPostBattle {
-    format("What, what, what? What do you want still?")
-}
-
-text Route14_Text_IsaacIntro {
-    format("I need to burn some time. Shut up and battle.")
-}
-
-text Route14_Text_IsaacDefeat {
-    format("What? You!?")
-}
-
-text Route14_Text_IsaacPostBattle {
-    format("Raising POKéMON is a drag, man.")
-}
-
-text Route14_Text_GeraldIntro {
-    format("We ride out here because of the wide-open spaces.")
-}
-
-text Route14_Text_GeraldDefeat {
-    format("Wipeout!")
-}
-
-text Route14_Text_GeraldPostBattle {
-    format("It's cool you made your POKéMON so strong.\p Might is right! And you know it!")
-}
-
-text Route14_Text_MalikIntro {
-    format("POKéMON battle? Cool! Rumble!")
-}
-
-text Route14_Text_MalikDefeat {
-    format("Blown away!")
-}
-
-text Route14_Text_MalikPostBattle {
-    format("You know who'd win, you and me one-on-one!")
-}
-
-text Route14_Text_RouteSign {
-    format("ROUTE 14 West to FUCHSIA CITY")
-}
-
-text Route14_Text_KiriIntro {
-    format("KIRI: JAN, let's try really, really hard together.")
-}
-
-text Route14_Text_KiriDefeat {
-    format("KIRI: Whimper… We lost, didn't we?")
-}
-
-text Route14_Text_KiriPostBattle {
-    format("KIRI: Did we lose because of me?")
-}
-
-text Route14_Text_KiriNotEnoughMons {
-    format("KIRI: We can battle if you have two POKéMON.")
-}
-
-text Route14_Text_JanIntro {
-    format("JAN: KIRI, here we go! We have to try hard!")
-}
-
-text Route14_Text_JanDefeat {
-    format("JAN: Eeeeh! No fair!")
-}
-
-text Route14_Text_JanPostBattle {
-    format("JAN: KIRI, don't cry! We'll just try harder next time.")
-}
-
-text Route14_Text_JanNotEnoughMons {
-    format("JAN: You want to battle? You don't have enough POKéMON.")
 }
 
 script Route14_EventScript_RouteSign {
-    lockall
-    msgbox(Route14_Text_RouteSign)
-    releaseall
+	msgbox Route14_Text_RouteSign, MSGBOX_SIGN
+	end
+
+}
+
+script Route14_Text_CarterIntro {
+    .string "You need to use TMs to teach good\n"
+    .string "moves to POKéMON.$"
+
+}
+
+script Route14_Text_CarterDefeat {
+    .string "Not good enough quite yet.$"
+
+}
+
+script Route14_Text_CarterPostBattle {
+    .string "You have some HMs, right? POKéMON\n"
+    .string "can't forget those moves easily.$"
+
+}
+
+script Route14_Text_MitchIntro {
+    .string "My bird POKéMON should be ready\n"
+    .string "for battle.$"
+
+}
+
+script Route14_Text_MitchDefeat {
+    .string "Not ready yet!$"
+
+}
+
+script Route14_Text_MitchPostBattle {
+    .string "My bird POKéMON need to learn\n"
+    .string "better moves.$"
+
+}
+
+script Route14_Text_BeckIntro {
+    .string "They have TMs on sale at the\n"
+    .string "CELADON DEPT. STORE.\p"
+    .string "TMs aren't really rare, but not\n"
+    .string "many people have HMs.$"
+
+}
+
+script Route14_Text_BeckDefeat {
+    .string "Aww, bummer!$"
+
+}
+
+script Route14_Text_BeckPostBattle {
+    .string "Try teaching POKéMON a move that's\n"
+    .string "the same type as it.\p"
+    .string "That apparently boosts the power\n"
+    .string "of the move.$"
+
+}
+
+script Route14_Text_MarlonIntro {
+    .string "Have you taught your bird POKéMON\n"
+    .string "how to FLY?\p"
+    .string "You'll be able to soar with it into\n"
+    .string "the sky!$"
+
+}
+
+script Route14_Text_MarlonDefeat {
+    .string "Shot down in flames!$"
+
+}
+
+script Route14_Text_MarlonPostBattle {
+    .string "Bird POKéMON are my one true love.\n"
+    .string "I don't want to raise anything else.$"
+
+}
+
+script Route14_Text_DonaldIntro {
+    .string "Have you heard the legend of the\n"
+    .string "winged mirages?$"
+
+}
+
+script Route14_Text_DonaldDefeat {
+    .string "Why?\n"
+    .string "Why'd I lose?$"
+
+}
+
+script Route14_Text_DonaldPostBattle {
+    .string "Well, the winged mirages are the\n"
+    .string "legendary bird POKéMON.\p"
+    .string "There are three of them: ARTICUNO,\n"
+    .string "ZAPDOS, and MOLTRES.$"
+
+}
+
+script Route14_Text_BennyIntro {
+    .string "I'm not into it, but okay.\n"
+    .string "Let's go!$"
+
+}
+
+script Route14_Text_BennyDefeat {
+    .string "I knew it!$"
+
+}
+
+script Route14_Text_BennyPostBattle {
+    .string "Winning, losing… It's insignificant\n"
+    .string "under this huge sky.$"
+
+}
+
+script Route14_Text_LukasIntro {
+    .string "C'mon, c'mon.\n"
+    .string "Let's go, let's go, let's go!$"
+
+}
+
+script Route14_Text_LukasDefeat {
+    .string "Arrg!\n"
+    .string "Lost! Get lost!$"
+
+}
+
+script Route14_Text_LukasPostBattle {
+    .string "What, what, what?\n"
+    .string "What do you want still?$"
+
+}
+
+script Route14_Text_IsaacIntro {
+    .string "I need to burn some time.\n"
+    .string "Shut up and battle.$"
+
+}
+
+script Route14_Text_IsaacDefeat {
+    .string "What?\n"
+    .string "You!?$"
+
+}
+
+script Route14_Text_IsaacPostBattle {
+    .string "Raising POKéMON is a drag, man.$"
+
+}
+
+script Route14_Text_GeraldIntro {
+    .string "We ride out here because of the\n"
+    .string "wide-open spaces.$"
+
+}
+
+script Route14_Text_GeraldDefeat {
+    .string "Wipeout!$"
+
+}
+
+script Route14_Text_GeraldPostBattle {
+    .string "It's cool you made your POKéMON so\n"
+    .string "strong.\p"
+    .string "Might is right!\n"
+    .string "And you know it!$"
+
+}
+
+script Route14_Text_MalikIntro {
+    .string "POKéMON battle?\n"
+    .string "Cool! Rumble!$"
+
+}
+
+script Route14_Text_MalikDefeat {
+    .string "Blown away!$"
+
+}
+
+script Route14_Text_MalikPostBattle {
+    .string "You know who'd win, you and me\n"
+    .string "one-on-one!$"
+
+}
+
+script Route14_Text_RouteSign {
+    .string "ROUTE 14\n"
+    .string "West to FUCHSIA CITY$"
+
+}
+
+script Route14_Text_KiriIntro {
+    .string "KIRI: JAN, let's try really,\n"
+    .string "really hard together.$"
+
+}
+
+script Route14_Text_KiriDefeat {
+    .string "KIRI: Whimper…\n"
+    .string "We lost, didn't we?$"
+
+}
+
+script Route14_Text_KiriPostBattle {
+    .string "KIRI: Did we lose because of me?$"
+
+}
+
+script Route14_Text_KiriNotEnoughMons {
+    .string "KIRI: We can battle if you have\n"
+    .string "two POKéMON.$"
+
+}
+
+script Route14_Text_JanIntro {
+    .string "JAN: KIRI, here we go!\n"
+    .string "We have to try hard!$"
+
+}
+
+script Route14_Text_JanDefeat {
+    .string "JAN: Eeeeh!\n"
+    .string "No fair!$"
+
+}
+
+script Route14_Text_JanPostBattle {
+    .string "JAN: KIRI, don't cry!\n"
+    .string "We'll just try harder next time.$"
+
+}
+
+script Route14_Text_JanNotEnoughMons {
+    .string "JAN: You want to battle?\n"
+    .string "You don't have enough POKéMON.$"
 }
 

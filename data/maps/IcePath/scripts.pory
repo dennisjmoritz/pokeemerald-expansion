@@ -1,0 +1,6 @@
+#events for IcePath
+
+script IcePath_MapScripts {
+	.byte 0
+}
+

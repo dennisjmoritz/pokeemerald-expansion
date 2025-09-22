@@ -1,4 +1,39 @@
-text SlateportCity_PokemonCenter_1F_EventScript_Woman {
-    format("Want a tip for battling?\p I'd say it's raising different kinds of POKéMON in a balanced manner.\p It's no good to make just one POKéMON strong.\p If it has a type disadvantage, it might not stand a chance.$ I trade POKéMON with my friends.\p If a traded POKéMON is holding an item, it makes me twice as happy!")
+#events for SlateportCity_PokemonCenter_1F
+
+script SlateportCity_PokemonCenter_1F_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, SlateportCity_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+}
+
+script SlateportCity_PokemonCenter_1F_EventScript_Nurse {
+	setvar VAR_0x800B, LOCALID_SLATEPORT_NURSE
+// FIXME undefined reference: 	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+}
+
+script SlateportCity_PokemonCenter_1F_EventScript_Sailor {
+	msgbox SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon, MSGBOX_NPC
+	end
+
+}
+
+script SlateportCity_PokemonCenter_1F_EventScript_Woman {
+	msgbox SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend, MSGBOX_NPC
+	end
+
+}
+
+text SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon {
+    format("Want a tip for battling?\p I'd say it's raising different kinds of POKéMON in a balanced manner.\p It's no good to make just one POKéMON strong.\p If it has a type disadvantage, it might not stand a chance.")
+}
+
+text SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend {
+    format("I trade POKéMON with my friends.\p If a traded POKéMON is holding an item, it makes me twice as happy!")
 }
 

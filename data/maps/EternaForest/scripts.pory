@@ -1,0 +1,6 @@
+#events for EternaForest
+
+script EternaForest_MapScripts {
+	.byte 0
+}
+

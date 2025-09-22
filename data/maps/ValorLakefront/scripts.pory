@@ -1,0 +1,6 @@
+#events for ValorLakefront
+
+script ValorLakefront_MapScripts {
+	.byte 0
+}
+

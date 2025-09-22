@@ -1,0 +1,6 @@
+#events for Route207
+
+script Route207_MapScripts {
+	.byte 0
+}
+

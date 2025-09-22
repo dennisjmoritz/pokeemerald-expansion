@@ -1,0 +1,6 @@
+#events for NewBarkTown
+
+script NewBarkTown_MapScripts {
+	.byte 0
+}
+

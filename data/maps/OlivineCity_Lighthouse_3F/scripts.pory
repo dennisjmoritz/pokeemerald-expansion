@@ -1,0 +1,6 @@
+#events for OlivineCity_Lighthouse_3F
+
+script OlivineCity_Lighthouse_3F_MapScripts {
+	.byte 0
+}
+

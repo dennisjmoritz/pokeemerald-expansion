@@ -1,0 +1,6 @@
+#events for MooMooFarm
+
+script MooMooFarm_MapScripts {
+	.byte 0
+}
+

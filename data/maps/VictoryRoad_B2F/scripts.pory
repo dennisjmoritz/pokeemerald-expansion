@@ -1,4 +1,121 @@
-text VictoryRoad_B2F_EventScript_Dianne {
-    format("I trained together with my whole family, every one of us!\l I'm not losing to anyone!$ Better than my family?! Is that possible?!$ I was better than everyone in my family. I've never lost before…\p I've lost my confidence… Maybe I'll go home…$ I'd heard that there was a tough little kid around. Do they mean you?$ The little shrimp is tough!$ The rumors I heard, that tough little kid is from PETALBURG CITY.$ You must be getting a little tired.$ No signs of tiring at all!$ VICTORY ROAD and the POKéMON LEAGUE are long and grueling challenges.\l Beware of fatigue!$ You shouldn't get complacent just because you have a lot of GYM BADGES.\p There's always going to be someone who's better than you!$ You're better than me!$ Gaze on your collected BADGES and remember the TRAINERS you've faced.$ I've come this far, but the tension's giving me awful stomach pain…$ Ooh… It hurts…$ I can't help getting all tense knowing that I'm nearing the POKéMON LEAGUE.\p It's all I can do to feign calm.$ The elite among the elite gather in this cave.\p How are you finding it?$ Not rattled in the least bit!$ You do have guts! I like that! Keep it going!")
+#events for VictoryRoad_B2F
+
+script VictoryRoad_B2F_MapScripts {
+	.byte 0
+
+}
+
+script VictoryRoad_B2F_EventScript_Vito {
+	trainerbattle_single TRAINER_VITO, VictoryRoad_B2F_Text_VitoIntro, VictoryRoad_B2F_Text_VitoDefeat
+	msgbox VictoryRoad_B2F_Text_VitoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script VictoryRoad_B2F_EventScript_Owen {
+	trainerbattle_single TRAINER_OWEN, VictoryRoad_B2F_Text_OwenIntro, VictoryRoad_B2F_Text_OwenDefeat
+	msgbox VictoryRoad_B2F_Text_OwenPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script VictoryRoad_B2F_EventScript_Caroline {
+	trainerbattle_single TRAINER_CAROLINE, VictoryRoad_B2F_Text_CarolineIntro, VictoryRoad_B2F_Text_CarolineDefeat
+	msgbox VictoryRoad_B2F_Text_CarolinePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script VictoryRoad_B2F_EventScript_Julie {
+	trainerbattle_single TRAINER_JULIE, VictoryRoad_B2F_Text_JulieIntro, VictoryRoad_B2F_Text_JulieDefeat
+	msgbox VictoryRoad_B2F_Text_JuliePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script VictoryRoad_B2F_EventScript_Felix {
+	trainerbattle_single TRAINER_FELIX, VictoryRoad_B2F_Text_FelixIntro, VictoryRoad_B2F_Text_FelixDefeat
+	msgbox VictoryRoad_B2F_Text_FelixPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script VictoryRoad_B2F_EventScript_Dianne {
+	trainerbattle_single TRAINER_DIANNE, VictoryRoad_B2F_Text_DianneIntro, VictoryRoad_B2F_Text_DianneDefeat
+	msgbox VictoryRoad_B2F_Text_DiannePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+text VictoryRoad_B2F_Text_VitoIntro {
+    format("I trained together with my whole family, every one of us!\l I'm not losing to anyone!")
+}
+
+text VictoryRoad_B2F_Text_VitoDefeat {
+    format("Better than my family?! Is that possible?!")
+}
+
+text VictoryRoad_B2F_Text_VitoPostBattle {
+    format("I was better than everyone in my family. I've never lost before…\p I've lost my confidence… Maybe I'll go home…")
+}
+
+text VictoryRoad_B2F_Text_OwenIntro {
+    format("I'd heard that there was a tough little kid around. Do they mean you?")
+}
+
+text VictoryRoad_B2F_Text_OwenDefeat {
+    format("The little shrimp is tough!")
+}
+
+text VictoryRoad_B2F_Text_OwenPostBattle {
+    format("The rumors I heard, that tough little kid is from PETALBURG CITY.")
+}
+
+text VictoryRoad_B2F_Text_CarolineIntro {
+    format("You must be getting a little tired.")
+}
+
+text VictoryRoad_B2F_Text_CarolineDefeat {
+    format("No signs of tiring at all!")
+}
+
+text VictoryRoad_B2F_Text_CarolinePostBattle {
+    format("VICTORY ROAD and the POKéMON LEAGUE are long and grueling challenges.\l Beware of fatigue!")
+}
+
+text VictoryRoad_B2F_Text_JulieIntro {
+    format("You shouldn't get complacent just because you have a lot of GYM BADGES.\p There's always going to be someone who's better than you!")
+}
+
+text VictoryRoad_B2F_Text_JulieDefeat {
+    format("You're better than me!")
+}
+
+text VictoryRoad_B2F_Text_JuliePostBattle {
+    format("Gaze on your collected BADGES and remember the TRAINERS you've faced.")
+}
+
+text VictoryRoad_B2F_Text_FelixIntro {
+    format("I've come this far, but the tension's giving me awful stomach pain…")
+}
+
+text VictoryRoad_B2F_Text_FelixDefeat {
+    format("Ooh… It hurts…")
+}
+
+text VictoryRoad_B2F_Text_FelixPostBattle {
+    format("I can't help getting all tense knowing that I'm nearing the POKéMON LEAGUE.\p It's all I can do to feign calm.")
+}
+
+text VictoryRoad_B2F_Text_DianneIntro {
+    format("The elite among the elite gather in this cave.\p How are you finding it?")
+}
+
+text VictoryRoad_B2F_Text_DianneDefeat {
+    format("Not rattled in the least bit!")
+}
+
+text VictoryRoad_B2F_Text_DiannePostBattle {
+    format("You do have guts! I like that! Keep it going!")
 }
 

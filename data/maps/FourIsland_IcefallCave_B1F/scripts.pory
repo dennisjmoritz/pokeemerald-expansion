@@ -1,0 +1,6 @@
+#events for FourIsland_IcefallCave_B1F
+
+script FourIsland_IcefallCave_B1F_MapScripts {
+	.byte 0
+}
+

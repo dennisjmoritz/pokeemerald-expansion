@@ -1,4 +1,72 @@
-text SootopolisCity_Mart_EventScript_GentlemanNoLegendaries {
-    format("PP UP is great!\p It raises the POWER POINTS, the PP, of a POKéMON move.$ What… What is happening?\p I really want to know, but it's too scary to go outside.$ Do you know FULL RESTORE?\p Full restoration of HP! Eradication of all status problems!\p It's truly an item of your dreams!$ This weather… Did something awaken?")
+#events for SootopolisCity_Mart
+
+script SootopolisCity_Mart_MapScripts {
+	.byte 0
+
+}
+
+script SootopolisCity_Mart_EventScript_Clerk {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart SootopolisCity_Mart_Pokemart
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script SootopolisCity_Mart_EventScript_FatMan {
+	lock
+	faceplayer
+	goto_if_ge VAR_SKY_PILLAR_STATE, 2, SootopolisCity_Mart_EventScript_FatManNoLegendaries
+	goto_if_unset FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, SootopolisCity_Mart_EventScript_FatManNoLegendaries
+	msgbox SootopolisCity_Mart_Text_TooScaryOutside, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script SootopolisCity_Mart_EventScript_FatManNoLegendaries {
+	msgbox SootopolisCity_Mart_Text_PPUpIsGreat, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script SootopolisCity_Mart_EventScript_Gentleman {
+	lock
+	faceplayer
+	goto_if_ge VAR_SKY_PILLAR_STATE, 2, SootopolisCity_Mart_EventScript_GentlemanNoLegendaries
+	goto_if_unset FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, SootopolisCity_Mart_EventScript_GentlemanNoLegendaries
+	msgbox SootopolisCity_Mart_Text_DidSomethingAwaken, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script SootopolisCity_Mart_EventScript_GentlemanNoLegendaries {
+	msgbox SootopolisCity_Mart_Text_FullRestoreItemOfDreams, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text SootopolisCity_Mart_Text_PPUpIsGreat {
+    format("PP UP is great!\p It raises the POWER POINTS, the PP, of a POKéMON move.")
+}
+
+text SootopolisCity_Mart_Text_TooScaryOutside {
+    format("What… What is happening?\p I really want to know, but it's too scary to go outside.")
+}
+
+text SootopolisCity_Mart_Text_FullRestoreItemOfDreams {
+    format("Do you know FULL RESTORE?\p Full restoration of HP! Eradication of all status problems!\p It's truly an item of your dreams!")
+}
+
+text SootopolisCity_Mart_Text_DidSomethingAwaken {
+    format("This weather… Did something awaken?")
 }
 

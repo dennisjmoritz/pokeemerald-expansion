@@ -1,0 +1,6 @@
+#events for MtMortar_1F
+
+script MtMortar_1F_MapScripts {
+	.byte 0
+}
+

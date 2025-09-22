@@ -1,0 +1,6 @@
+#events for KantoPokemonLeague_LoreleisRoom
+
+script KantoPokemonLeague_LoreleisRoom_MapScripts {
+	.byte 0
+}
+

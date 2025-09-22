@@ -1,0 +1,6 @@
+#events for Route209
+
+script Route209_MapScripts {
+	.byte 0
+}
+

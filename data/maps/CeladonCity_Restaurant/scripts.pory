@@ -1,32 +1,115 @@
-text CeladonCity_Restaurant_Text_TakingBreakRightNow {
-    format("Hi!\p Sorry, but we're taking a break right now.")
+#events for CeladonCity_Restaurant
+
+script CeladonCity_Restaurant_MapScripts {
+	.byte 0
+
 }
 
-text CeladonCity_Restaurant_Text_OftenGoToDrugstore {
-    format("My POKéMON are weak, so I often have to go to the DRUGSTORE.")
+script CeladonCity_Restaurant_EventScript_Chef {
+	msgbox CeladonCity_Restaurant_Text_TakingBreakRightNow, MSGBOX_NPC
+	end
+
 }
 
-text CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner {
-    format("Psst! There's a basement under the GAME CORNER, I hear.")
+script CeladonCity_Restaurant_EventScript_Woman {
+	msgbox CeladonCity_Restaurant_Text_OftenGoToDrugstore, MSGBOX_NPC
+	end
+
 }
 
-text CeladonCity_Restaurant_Text_ManLostItAllAtSlots {
-    format("Munch…\p The man at that table lost it all at the slots.")
+script CeladonCity_Restaurant_EventScript_CoinCaseMan {
+	lock
+	faceplayer
+	goto_if_set FLAG_TEMP_1, CeladonCity_Restaurant_EventScript_AlreadyGotCoinCase
+// Replaced FLAG_GOT_COIN_CASE with FLAG_TEMP_1
+	msgbox CeladonCity_Restaurant_Text_TakeThisImBusted
+	checkitemspace ITEM_COIN_CASE
+	goto_if_eq VAR_RESULT, FALSE, CeladonCity_Restaurant_EventScript_NoRoomForCoinCase
+	msgbox CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan, MSGBOX_DEFAULT
+	giveitem ITEM_COIN_CASE
+	setflag FLAG_TEMP_1
+// Replaced FLAG_GOT_COIN_CASE with FLAG_TEMP_1
+	release
+	end
+
 }
 
-text CeladonCity_Restaurant_Text_TakeThisImBusted {
-    format("Go ahead! Laugh! I'm flat-out busted!\p No more slots for me! I'm going straight!\p Here! I won't be needing this anymore!")
+script CeladonCity_Restaurant_EventScript_NoRoomForCoinCase {
+	msgbox CeladonCity_Restaurant_Text_MakeRoomForThis
+	release
+	end
+
 }
 
-text CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan {
-    format("{PLAYER} received a COIN CASE from the man.")
+script CeladonCity_Restaurant_EventScript_AlreadyGotCoinCase {
+	msgbox CeladonCity_Restaurant_Text_ThoughtIdWinItBack
+	release
+	end
+
 }
 
-text CeladonCity_Restaurant_Text_MakeRoomForThis {
-    format("Make room for this!")
+script CeladonCity_Restaurant_EventScript_WorkerM {
+	msgbox CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner, MSGBOX_NPC
+	end
+
 }
 
-text CeladonCity_Restaurant_Text_ThoughtIdWinItBack {
-    format("I always thought I was going to win it back…")
+script CeladonCity_Restaurant_EventScript_FatMan {
+	msgbox CeladonCity_Restaurant_Text_ManLostItAllAtSlots, MSGBOX_NPC
+	end
+
+}
+
+script CeladonCity_Restaurant_Text_TakingBreakRightNow {
+    .string "Hi!\p"
+    .string "Sorry, but we're taking a break\n"
+    .string "right now.$"
+
+}
+
+script CeladonCity_Restaurant_Text_OftenGoToDrugstore {
+    .string "My POKéMON are weak, so I often\n"
+    .string "have to go to the DRUGSTORE.$"
+
+}
+
+script CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner {
+    .string "Psst! There's a basement under the\n"
+    .string "GAME CORNER, I hear.$"
+
+}
+
+script CeladonCity_Restaurant_Text_ManLostItAllAtSlots {
+    .string "Munch…\p"
+    .string "The man at that table lost it all\n"
+    .string "at the slots.$"
+
+}
+
+script CeladonCity_Restaurant_Text_TakeThisImBusted {
+    .string "Go ahead! Laugh!\n"
+    .string "I'm flat-out busted!\p"
+    .string "No more slots for me!\n"
+    .string "I'm going straight!\p"
+    .string "Here!\n"
+    .string "I won't be needing this anymore!$"
+
+}
+
+script CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan {
+    .string "{PLAYER} received a COIN CASE\n"
+    .string "from the man.$"
+
+}
+
+script CeladonCity_Restaurant_Text_MakeRoomForThis {
+    .string "Make room for this!$"
+
+}
+
+script CeladonCity_Restaurant_Text_ThoughtIdWinItBack {
+    .string "I always thought I was going to\n"
+    .string "win it back…$"
+
 }
 

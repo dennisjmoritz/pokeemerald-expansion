@@ -1,0 +1,6 @@
+#events for RuinsOfAlph_AerodactylWordRoom
+
+script RuinsOfAlph_AerodactylWordRoom_MapScripts {
+	.byte 0
+}
+

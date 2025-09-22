@@ -1,0 +1,7 @@
+#events for MeteorFalls_B1F_1R
+
+script MeteorFalls_B1F_1R_MapScripts {
+	.byte 0
+
+}
+

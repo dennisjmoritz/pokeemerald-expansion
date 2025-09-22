@@ -1,0 +1,6 @@
+#events for VioletCity_EarlsAcademy
+
+script VioletCity_EarlsAcademy_MapScripts {
+	.byte 0
+}
+

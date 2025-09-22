@@ -1,0 +1,6 @@
+#events for KantoSafariZone_SecretHouse
+
+script KantoSafariZone_SecretHouse_MapScripts {
+	.byte 0
+}
+

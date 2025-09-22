@@ -1,16 +1,47 @@
-text JPText_BodySlamTeach {
-    format("そーれ ぼよーん！ どっちが さきに へたばるか？\l のしかかり しょうぶ してるんだ\p きみは なかまに はいったら つぶれそうだな‥\l かわりに きみの ポケモンに\l のしかかり おしえて やろっか？")
+#events for FourIsland_House1
+
+script FourIsland_House1_MapScripts {
+	.byte 0
+
 }
 
-text JPText_BodySlamDeclined {
-    format("また おいで ぼよーん！")
+script FourIsland_House1_EventScript_FatMan {
+	msgbox FourIsland_House1_Text_YoureAwfullyHeavy, MSGBOX_NPC
+	end
+
+@ Text for this file was split weirdly, and is instead in FourIsland_PokemonCenter_1F/text.inc
+@ Theres also an unused JP version of that text in this file instead
+
 }
 
-text JPText_BodySlamWhichMon {
-    format("どの ポケモンに おしえたい かい？$ ぼよよーん！")
+script JPText_BodySlamTeach {
+//     .string "そーれ　ぼよーん！\n"
+//     .string "どっちが　さきに　へたばるか？\l"
+//     .string "のしかかり　しょうぶ　してるんだ\p"
+//     .string "きみは　なかまに　はいったら\n"
+//     .string "つぶれそうだな‥\l"
+//     .string "かわりに　きみの　ポケモンに\l"
+//     .string "のしかかり　おしえて　やろっか？$"
+
 }
 
-text FourIsland_House1_Text_YoureAwfullyHeavy {
-    format("There! Boing! You're awfully heavy!")
+script JPText_BodySlamDeclined {
+//     .string "また　おいで　ぼよーん！$"
+
+}
+
+script JPText_BodySlamWhichMon {
+//     .string "どの　ポケモンに\n"
+    .string "おしえたい　かい？$"
+
+// JPText_BodySlamTaught::
+    .string "ぼよよーん！$"
+
+}
+
+script FourIsland_House1_Text_YoureAwfullyHeavy {
+    .string "There! Boing!\n"
+    .string "You're awfully heavy!$"
+
 }
 

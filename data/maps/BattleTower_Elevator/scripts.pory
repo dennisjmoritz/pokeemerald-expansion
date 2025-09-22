@@ -1,0 +1,6 @@
+#events for BattleTower_Elevator
+
+script BattleTower_Elevator_MapScripts {
+	.byte 0
+}
+

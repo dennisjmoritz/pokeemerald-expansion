@@ -1,0 +1,7 @@
+#events for NavelRock_Down04
+
+script NavelRock_Down04_MapScripts {
+	.byte 0
+
+}
+

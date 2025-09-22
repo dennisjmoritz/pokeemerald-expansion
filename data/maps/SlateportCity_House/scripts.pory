@@ -1,4 +1,27 @@
-text SlateportCity_House_EventScript_Girl {
-    format("My POKéMON has a HASTY nature.\p It has higher SPEED compared to my other POKéMON.\p Maybe their nature has something to do with the stat gains of POKéMON.$ You're a TRAINER, aren't you?\p Since you came to SLATEPORT CITY, you must be going to the BATTLE TENT.")
+#events for SlateportCity_House
+
+script SlateportCity_House_MapScripts {
+	.byte 0
+
+}
+
+script SlateportCity_House_EventScript_PokefanM {
+	msgbox SlateportCity_House_Text_NatureToDoWithStatGains, MSGBOX_NPC
+	end
+
+}
+
+script SlateportCity_House_EventScript_Girl {
+	msgbox SlateportCity_House_Text_MustBeGoingToBattleTent, MSGBOX_NPC
+	end
+
+}
+
+text SlateportCity_House_Text_NatureToDoWithStatGains {
+    format("My POKéMON has a HASTY nature.\p It has higher SPEED compared to my other POKéMON.\p Maybe their nature has something to do with the stat gains of POKéMON.")
+}
+
+text SlateportCity_House_Text_MustBeGoingToBattleTent {
+    format("You're a TRAINER, aren't you?\p Since you came to SLATEPORT CITY, you must be going to the BATTLE TENT.")
 }
 

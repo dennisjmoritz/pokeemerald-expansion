@@ -1,0 +1,6 @@
+#events for GoldenrodCity_GatehouseNorth
+
+script GoldenrodCity_GatehouseNorth_MapScripts {
+	.byte 0
+}
+

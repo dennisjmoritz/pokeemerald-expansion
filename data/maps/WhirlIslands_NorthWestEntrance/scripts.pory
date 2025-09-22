@@ -1,0 +1,6 @@
+#events for WhirlIslands_NorthWestEntrance
+
+script WhirlIslands_NorthWestEntrance_MapScripts {
+	.byte 0
+}
+

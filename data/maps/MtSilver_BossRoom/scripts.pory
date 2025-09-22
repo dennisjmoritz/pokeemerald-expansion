@@ -1,0 +1,6 @@
+#events for MtSilver_BossRoom
+
+script MtSilver_BossRoom_MapScripts {
+	.byte 0
+}
+

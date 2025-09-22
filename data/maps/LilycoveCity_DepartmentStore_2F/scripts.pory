@@ -1,4 +1,63 @@
-text LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight {
-    format("Learn to use items properly. That's basic, really.$ My husband is waiting at home. What would make a good gift for him?$ I'm leaving on a long journey soon. I need to stock up on items.")
+#events for LilycoveCity_DepartmentStore_2F
+
+script LilycoveCity_DepartmentStore_2F_MapScripts {
+	.byte 0
+
+}
+
+script LilycoveCity_DepartmentStore_2F_EventScript_Cook {
+	msgbox LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly, MSGBOX_NPC
+	end
+
+}
+
+script LilycoveCity_DepartmentStore_2F_EventScript_PokefanF {
+	msgbox LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband, MSGBOX_NPC
+	end
+
+}
+
+script LilycoveCity_DepartmentStore_2F_EventScript_Sailor {
+	msgbox LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems, MSGBOX_NPC
+	end
+
+}
+
+script LilycoveCity_DepartmentStore_2F_EventScript_ClerkLeft {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart LilycoveCity_DepartmentStore_2F_Pokemart1
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart LilycoveCity_DepartmentStore_2F_Pokemart2
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+text LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly {
+    format("Learn to use items properly. That's basic, really.")
+}
+
+text LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband {
+    format("My husband is waiting at home. What would make a good gift for him?")
+}
+
+text LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems {
+    format("I'm leaving on a long journey soon. I need to stock up on items.")
 }
 

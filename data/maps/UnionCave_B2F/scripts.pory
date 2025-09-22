@@ -1,0 +1,6 @@
+#events for UnionCave_B2F
+
+script UnionCave_B2F_MapScripts {
+	.byte 0
+}
+

@@ -1,58 +1,142 @@
-text SilphCo_9F_Text_YouShouldTakeQuickNap {
-    format("You look tired. You should take a quick nap.")
+#events for SilphCo_9F
+
+script SilphCo_9F_MapScripts {
+	map_script MAP_SCRIPT_ON_LOAD, SilphCo_9F_OnLoad
+	.byte 0
+
 }
 
-text SilphCo_9F_Text_DontGiveUp {
-    format("Don't give up!")
+script SilphCo_9F_OnLoad {
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close9FDoor1
+// Replaced FLAG_SILPH_9F_DOOR_1 with FLAG_TEMP_1
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close9FDoor2
+// Replaced FLAG_SILPH_9F_DOOR_2 with FLAG_TEMP_1
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close9FDoor3
+// Replaced FLAG_SILPH_9F_DOOR_3 with FLAG_TEMP_1
+// FIXME undefined reference: 	call_if_unset FLAG_TEMP_1, EventScript_Close9FDoor4
+// Replaced FLAG_SILPH_9F_DOOR_4 with FLAG_TEMP_1
+	end
+
 }
 
-text SilphCo_9F_Text_ThankYouSoMuch {
-    format("Thank you so much.")
+script SilphCo_9F_EventScript_HealWoman {
+	lock
+	faceplayer
+	goto_if_ge VAR_TEMP_0, 1, SilphCo_9F_EventScript_HealWomanRocketsGone
+// Replaced VAR_MAP_SCENE_SILPH_CO_11F with VAR_TEMP_0
+	msgbox SilphCo_9F_Text_YouShouldTakeQuickNap
+	closemessage
+// FIXME undefined reference: 	call EventScript_OutOfCenterPartyHeal
+	msgbox SilphCo_9F_Text_DontGiveUp
+	release
+	end
+
 }
 
-text SilphCo_9F_Text_Grunt1Intro {
-    format("Your POKéMON seem to adore you, kid!")
-}
+script SilphCo_9F_EventScript_HealWomanRocketsGone {
+	msgbox SilphCo_9F_Text_ThankYouSoMuch
+	release
+	end
 
-text SilphCo_9F_Text_Grunt1Defeat {
-    format("Ghaaah!")
-}
-
-text SilphCo_9F_Text_Grunt1PostBattle {
-    format("If I had started as a TRAINER at your age…")
-}
-
-text SilphCo_9F_Text_EdIntro {
-    format("Your POKéMON have weak points! I can nail them!")
-}
-
-text SilphCo_9F_Text_EdDefeat {
-    format("You hammered me!")
-}
-
-text SilphCo_9F_Text_EdPostBattle {
-    format("Exploiting weak spots does work. Think about type advantages.")
-}
-
-text SilphCo_9F_Text_Grunt2Intro {
-    format("I am one of the four ROCKET BROTHERS!")
-}
-
-text SilphCo_9F_Text_Grunt2Defeat {
-    format("Warg! Brothers, I lost!")
-}
-
-text SilphCo_9F_Text_Grunt2PostBattle {
-    format("My brothers will avenge me!")
-}
-
-text SilphCo_9F_Text_FloorSign {
-    format("SILPH CO. HEAD OFFICE 9F")
 }
 
 script SilphCo_9F_EventScript_FloorSign {
-    lockall
-    msgbox(SilphCo_9F_Text_FloorSign)
-    releaseall
+	msgbox SilphCo_9F_Text_FloorSign, MSGBOX_SIGN
+	end
+
+}
+
+script SilphCo_9F_EventScript_Ed {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_SCIENTIST_ED, SilphCo_9F_Text_EdIntro, SilphCo_9F_Text_EdDefeat
+	msgbox SilphCo_9F_Text_EdPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script SilphCo_9F_EventScript_Grunt1 {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_37, SilphCo_9F_Text_Grunt1Intro, SilphCo_9F_Text_Grunt1Defeat
+	msgbox SilphCo_9F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script SilphCo_9F_EventScript_Grunt2 {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_38, SilphCo_9F_Text_Grunt2Intro, SilphCo_9F_Text_Grunt2Defeat
+	msgbox SilphCo_9F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script SilphCo_9F_Text_YouShouldTakeQuickNap {
+    .string "You look tired.\n"
+    .string "You should take a quick nap.$"
+
+}
+
+script SilphCo_9F_Text_DontGiveUp {
+    .string "Don't give up!$"
+
+}
+
+script SilphCo_9F_Text_ThankYouSoMuch {
+    .string "Thank you so much.$"
+
+}
+
+script SilphCo_9F_Text_Grunt1Intro {
+    .string "Your POKéMON seem to adore you,\n"
+    .string "kid!$"
+
+}
+
+script SilphCo_9F_Text_Grunt1Defeat {
+    .string "Ghaaah!$"
+
+}
+
+script SilphCo_9F_Text_Grunt1PostBattle {
+    .string "If I had started as a TRAINER at\n"
+    .string "your age…$"
+
+}
+
+script SilphCo_9F_Text_EdIntro {
+    .string "Your POKéMON have weak points!\n"
+    .string "I can nail them!$"
+
+}
+
+script SilphCo_9F_Text_EdDefeat {
+    .string "You hammered me!$"
+
+}
+
+script SilphCo_9F_Text_EdPostBattle {
+    .string "Exploiting weak spots does work.\n"
+    .string "Think about type advantages.$"
+
+}
+
+script SilphCo_9F_Text_Grunt2Intro {
+    .string "I am one of the four ROCKET\n"
+    .string "BROTHERS!$"
+
+}
+
+script SilphCo_9F_Text_Grunt2Defeat {
+    .string "Warg!\n"
+    .string "Brothers, I lost!$"
+
+}
+
+script SilphCo_9F_Text_Grunt2PostBattle {
+    .string "My brothers will avenge me!$"
+
+}
+
+script SilphCo_9F_Text_FloorSign {
+    .string "SILPH CO. HEAD OFFICE\n"
+    .string "9F$"
+
 }
 

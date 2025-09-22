@@ -1,0 +1,6 @@
+#events for KantoSafariZone_Building3
+
+script KantoSafariZone_Building3_MapScripts {
+	.byte 0
+}
+

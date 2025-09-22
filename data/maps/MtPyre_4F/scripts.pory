@@ -1,4 +1,28 @@
-text MtPyre_5F_EventScript_Atsushi {
-    format("Teacher… Please watch over my progress!$ Teacher… Please forgive me!$ Until I improve, my teacher, who rests here, will never find true peace…")
+#events for MtPyre_4F
+
+script MtPyre_4F_MapScripts {
+	.byte 0
+
+@ Seems like the scripts for the 4F and 5F were swapped
+
+}
+
+script MtPyre_5F_EventScript_Atsushi {
+	trainerbattle_single TRAINER_ATSUSHI, MtPyre_5F_Text_AtsushiIntro, MtPyre_5F_Text_AtsushiDefeat
+	msgbox MtPyre_5F_Text_AtsushiPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+text MtPyre_5F_Text_AtsushiIntro {
+    format("Teacher… Please watch over my progress!")
+}
+
+text MtPyre_5F_Text_AtsushiDefeat {
+    format("Teacher… Please forgive me!")
+}
+
+text MtPyre_5F_Text_AtsushiPostBattle {
+    format("Until I improve, my teacher, who rests here, will never find true peace…")
 }
 

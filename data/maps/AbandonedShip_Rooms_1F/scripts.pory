@@ -1,4 +1,91 @@
-text AbandonedShip_Rooms_1F_EventScript_ThaliaRematch {
-    format("Ships of this sort are rare, so I'm taking a look around.\p Hmhm… There appear to be other cabins…$ What on earth would compel you to come here? You must be curious!$ Not just curious, but also strong…$ The man next door…\p He says he's just sightseeing, but I don't know about that.$ You're such a tough TRAINER! Let me register you as a memento!$ What on earth would compel you to come back? You must really be curious!$ Aren't you too strong?$ I'm sure that man's up to something! He just acts so suspiciously!$ Waaah! I've been found! …Huh?$ Oh, you're not my mom.$ I'm in trouble with my mom, so I ran. Keep it a secret where I am!")
+#events for AbandonedShip_Rooms_1F
+
+script AbandonedShip_Rooms_1F_MapScripts {
+	.byte 0
+
+}
+
+script AbandonedShip_Rooms_1F_EventScript_Gentleman {
+	msgbox AbandonedShip_Rooms_1F_Text_TakingALookAround, MSGBOX_NPC
+	end
+
+}
+
+script AbandonedShip_Rooms_1F_EventScript_Demetrius {
+	trainerbattle_single TRAINER_DEMETRIUS, AbandonedShip_Rooms_1F_Text_DemetriusIntro, AbandonedShip_Rooms_1F_Text_DemetriusDefeat
+	msgbox AbandonedShip_Rooms_1F_Text_DemetriusPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script AbandonedShip_Rooms_1F_EventScript_Thalia {
+	trainerbattle_single TRAINER_THALIA_1, AbandonedShip_Rooms_1F_Text_ThaliaIntro, AbandonedShip_Rooms_1F_Text_ThaliaDefeat, AbandonedShip_Rooms_1F_EventScript_RegisterThalia
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, AbandonedShip_Rooms_1F_EventScript_ThaliaRematch
+	msgbox AbandonedShip_Rooms_1F_Text_ThaliaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script AbandonedShip_Rooms_1F_EventScript_RegisterThalia {
+	special PlayerFaceTrainerAfterBattle
+	waitmovement 0
+	msgbox AbandonedShip_Rooms_1F_Text_ThaliaRegister, MSGBOX_DEFAULT
+	register_matchcall TRAINER_THALIA_1
+	release
+	end
+
+}
+
+script AbandonedShip_Rooms_1F_EventScript_ThaliaRematch {
+	trainerbattle_rematch TRAINER_THALIA_1, AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro, AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat
+	msgbox AbandonedShip_Rooms_1F_Text_ThaliaPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+text AbandonedShip_Rooms_1F_Text_TakingALookAround {
+    format("Ships of this sort are rare, so I'm taking a look around.\p Hmhm… There appear to be other cabins…")
+}
+
+text AbandonedShip_Rooms_1F_Text_ThaliaIntro {
+    format("What on earth would compel you to come here? You must be curious!")
+}
+
+text AbandonedShip_Rooms_1F_Text_ThaliaDefeat {
+    format("Not just curious, but also strong…")
+}
+
+text AbandonedShip_Rooms_1F_Text_ThaliaPostBattle {
+    format("The man next door…\p He says he's just sightseeing, but I don't know about that.")
+}
+
+text AbandonedShip_Rooms_1F_Text_ThaliaRegister {
+    format("You're such a tough TRAINER! Let me register you as a memento!")
+}
+
+text AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro {
+    format("What on earth would compel you to come back? You must really be curious!")
+}
+
+text AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat {
+    format("Aren't you too strong?")
+}
+
+text AbandonedShip_Rooms_1F_Text_ThaliaPostRematch {
+    format("I'm sure that man's up to something! He just acts so suspiciously!")
+}
+
+text AbandonedShip_Rooms_1F_Text_DemetriusIntro {
+    format("Waaah! I've been found! …Huh?")
+}
+
+text AbandonedShip_Rooms_1F_Text_DemetriusDefeat {
+    format("Oh, you're not my mom.")
+}
+
+text AbandonedShip_Rooms_1F_Text_DemetriusPostBattle {
+    format("I'm in trouble with my mom, so I ran. Keep it a secret where I am!")
 }
 

@@ -1,6 +1,28 @@
+#events for Underwater_SealedChamber
+
+script Underwater_SealedChamber_MapScripts {
+	map_script MAP_SCRIPT_ON_DIVE_WARP, Underwater_SealedChamber_OnDive
+	.byte 0
+
+}
+
+script Underwater_SealedChamber_EventScript_SurfaceRoute134 {
+	setdivewarp MAP_ROUTE134, 60, 31
+	end
+
+}
+
+script Underwater_SealedChamber_EventScript_SurfaceSealedChamber {
+	setdivewarp MAP_SEALED_CHAMBER_OUTER_ROOM, 10, 19
+	end
+
+}
+
 script Underwater_SealedChamber_EventScript_Braille {
-    lockall
-    msgbox(Underwater_SealedChamber_Braille_GoUpHere)
-    releaseall
+	lockall
+	braillemsgbox Underwater_SealedChamber_Braille_GoUpHere
+	releaseall
+	end
+
 }
 

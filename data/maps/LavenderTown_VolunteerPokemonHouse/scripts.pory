@@ -1,74 +1,205 @@
-text LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere {
-    format("I recently moved to this town.\p I hear that MR. FUJI's not from these parts originally, either.")
+#events for LavenderTown_VolunteerPokemonHouse
+
+script LavenderTown_VolunteerPokemonHouse_MapScripts {
+	.byte 0
+
 }
 
-text LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo {
-    format("That's odd, MR. FUJI isn't here. Where'd he go?")
+script LavenderTown_VolunteerPokemonHouse_EventScript_MrFuji {
+	lock
+	faceplayer
+	goto_if_set FLAG_TEMP_1, LavenderTown_VolunteerPokemonHouse_EventScript_AlreadyHavePokeFlute
+// Replaced FLAG_GOT_POKE_FLUTE with FLAG_TEMP_1
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis
+	checkitemspace ITEM_POKE_FLUTE
+	goto_if_eq VAR_RESULT, FALSE, LavenderTown_VolunteerPokemonHouse_EventScript_NoRoomForPokeFlute
+	setflag FLAG_TEMP_1
+// Replaced FLAG_GOT_POKE_FLUTE with FLAG_TEMP_1
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji, MSGBOX_DEFAULT
+// 	giveitem ITEM_POKE_FLUTE, 1, MUS_OBTAIN_KEY_ITEM
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute
+	release
+	end
+
 }
 
-text LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother {
-    format("MR. FUJI had been praying alone for CUBONE's mother.")
+script LavenderTown_VolunteerPokemonHouse_EventScript_AlreadyHavePokeFlute {
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou
+	release
+	end
+
 }
 
-text LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons {
-    format("This is really MR. FUJI's house.\p He's really kind.\p He looks after abandoned and orphaned POKéMON.")
+script LavenderTown_VolunteerPokemonHouse_EventScript_NoRoomForPokeFlute {
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis
+	release
+	end
+
 }
 
-text LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug {
-    format("It's so warm! POKéMON are so nice to hug.")
+script LavenderTown_VolunteerPokemonHouse_EventScript_LittleGirl {
+	lock
+	faceplayer
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons
+	release
+	end
+
 }
 
-text LavenderTown_VolunteerPokemonHouse_Text_Nidorino {
-    format("NIDORINO: Gaoo!")
+script LavenderTown_VolunteerPokemonHouse_EventScript_LittleBoy {
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug, MSGBOX_NPC
+	end
+
 }
 
-text LavenderTown_VolunteerPokemonHouse_Text_Psyduck {
-    format("PSYDUCK: Gwappa!")
+script LavenderTown_VolunteerPokemonHouse_EventScript_Youngster {
+	lock
+	faceplayer
+	goto_if_set FLAG_TEMP_1, LavenderTown_VolunteerPokemonHouse_EventScript_YoungsterFujiBack
+// Replaced FLAG_RESCUED_MR_FUJI with FLAG_TEMP_1
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo
+	release
+	end
+
 }
 
-text LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis {
-    format("MR. FUJI: {PLAYER}…\p Your POKéDEX quest is one that requires strong dedication.\p Without deep love for POKéMON, your quest may fail.\p I'm not sure if this will help you, but I'd like you to have it.")
+script LavenderTown_VolunteerPokemonHouse_EventScript_YoungsterFujiBack {
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother
+	release
+	end
+
 }
 
-text LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji {
-    format("{PLAYER} received a POKé FLUTE from MR. FUJI.")
+script LavenderTown_VolunteerPokemonHouse_EventScript_Nidorino {
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_NIDORINO, CRY_MODE_NORMAL
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_Nidorino
+	waitmoncry
+	release
+	end
+
 }
 
-text LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute {
-    format("Upon hearing the POKé FLUTE, sleeping POKéMON will spring awake.\p Try using it on POKéMON that are sleeping obstacles.")
-}
+script LavenderTown_VolunteerPokemonHouse_EventScript_Psyduck {
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_PSYDUCK, CRY_MODE_NORMAL
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_Psyduck
+	waitmoncry
+	release
+	end
 
-text LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis {
-    format("You must make room for this!")
-}
-
-text LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou {
-    format("MR. FUJI: Has my POKé FLUTE helped you?")
-}
-
-text LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped {
-    format("POKéMON FAN MAGAZINE Monthly Grand Prize Drawing!\p The application form is…\p Gone! It's been clipped out. Someone must have applied already.")
-}
-
-text LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf {
-    format("POKéMON magazines line the shelf.\p POKéMON INSIDER…\p POKéMON FAN…")
 }
 
 script LavenderTown_VolunteerPokemonHouse_EventScript_PokemonFanMagazine {
-    lockall
-    msgbox(LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped)
-    releaseall
+	lockall
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped
+	releaseall
+	end
+
 }
 
 script LavenderTown_VolunteerPokemonHouse_EventScript_Bookshelf {
-    lockall
-    msgbox(LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf)
-    releaseall
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf, MSGBOX_SIGN
+	end
+
 }
 
-script LavenderTown_VolunteerPokemonHouse_EventScript_Bookshelf {
-    lockall
-    msgbox(LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf)
-    releaseall
+script LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere {
+    .string "I recently moved to this town.\p"
+    .string "I hear that MR. FUJI's not from\n"
+    .string "these parts originally, either.$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo {
+    .string "That's odd, MR. FUJI isn't here.\n"
+    .string "Where'd he go?$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother {
+    .string "MR. FUJI had been praying alone\n"
+    .string "for CUBONE's mother.$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons {
+    .string "This is really MR. FUJI's house.\p"
+    .string "He's really kind.\p"
+    .string "He looks after abandoned and\n"
+    .string "orphaned POKéMON.$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug {
+    .string "It's so warm!\n"
+    .string "POKéMON are so nice to hug.$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_Nidorino {
+    .string "NIDORINO: Gaoo!$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_Psyduck {
+    .string "PSYDUCK: Gwappa!$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis {
+    .string "MR. FUJI: {PLAYER}…\p"
+    .string "Your POKéDEX quest is one that\n"
+    .string "requires strong dedication.\p"
+    .string "Without deep love for POKéMON,\n"
+    .string "your quest may fail.\p"
+    .string "I'm not sure if this will help you,\n"
+    .string "but I'd like you to have it.$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji {
+    .string "{PLAYER} received a POKé FLUTE\n"
+    .string "from MR. FUJI.$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute {
+    .string "Upon hearing the POKé FLUTE,\n"
+    .string "sleeping POKéMON will spring awake.\p"
+    .string "Try using it on POKéMON that are\n"
+    .string "sleeping obstacles.$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis {
+    .string "You must make room for this!$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou {
+    .string "MR. FUJI: Has my POKé FLUTE\n"
+    .string "helped you?$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped {
+    .string "POKéMON FAN MAGAZINE\n"
+    .string "Monthly Grand Prize Drawing!\p"
+    .string "The application form is…\p"
+    .string "Gone! It's been clipped out.\n"
+    .string "Someone must have applied already.$"
+
+}
+
+script LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf {
+    .string "POKéMON magazines line the shelf.\p"
+    .string "POKéMON INSIDER…\p"
+    .string "POKéMON FAN…$"
+
 }
 

@@ -1,0 +1,6 @@
+#events for OlivineCity
+
+script OlivineCity_MapScripts {
+	.byte 0
+}
+

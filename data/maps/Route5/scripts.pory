@@ -1,10 +1,19 @@
-text Route5_Text_UndergroundPathSign {
-    format("UNDERGROUND PATH CERULEAN CITY - VERMILION CITY")
+#events for Route5
+
+script Route5_MapScripts {
+	.byte 0
+
 }
 
 script Route5_EventScript_UndergroundPathSign {
-    lockall
-    msgbox(Route5_Text_UndergroundPathSign)
-    releaseall
+	msgbox Route5_Text_UndergroundPathSign, MSGBOX_SIGN
+	end
+
+}
+
+script Route5_Text_UndergroundPathSign {
+    .string "UNDERGROUND PATH\n"
+    .string "CERULEAN CITY - VERMILION CITY$"
+
 }
 

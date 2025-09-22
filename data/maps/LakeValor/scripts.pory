@@ -1,0 +1,6 @@
+#events for LakeValor
+
+script LakeValor_MapScripts {
+	.byte 0
+}
+

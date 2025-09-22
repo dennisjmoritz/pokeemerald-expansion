@@ -1,4 +1,49 @@
-text MossdeepCity_House1_EventScript_Woman {
-    format("Hmm! Your {STR_VAR_1}…$ It likes {STR_VAR_1}S, doesn't it?\p No, I'm positive of it! It definitely likes {STR_VAR_1}S!$ It doesn't appear to like or dislike any {POKEBLOCK}S.$ My husband can tell what kind of {POKEBLOCK}S a POKéMON likes at a glance.")
+#events for MossdeepCity_House1
+
+script MossdeepCity_House1_MapScripts {
+	.byte 0
+
+}
+
+script MossdeepCity_House1_EventScript_BlackBelt {
+	lock
+	faceplayer
+	bufferleadmonspeciesname STR_VAR_1
+	msgbox MossdeepCity_House1_Text_HmmYourPokemon, MSGBOX_DEFAULT
+	specialvar VAR_RESULT, GetPokeblockNameByMonNature
+	goto_if_eq VAR_RESULT, 0, MossdeepCity_House1_EventScript_NeutralNature
+	msgbox MossdeepCity_House1_Text_ItLikesXPokeblocks, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MossdeepCity_House1_EventScript_NeutralNature {
+	msgbox MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MossdeepCity_House1_EventScript_Woman {
+	msgbox MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes, MSGBOX_NPC
+	end
+
+}
+
+text MossdeepCity_House1_Text_HmmYourPokemon {
+    format("Hmm! Your {STR_VAR_1}…")
+}
+
+text MossdeepCity_House1_Text_ItLikesXPokeblocks {
+    format("It likes {STR_VAR_1}S, doesn't it?\p No, I'm positive of it! It definitely likes {STR_VAR_1}S!")
+}
+
+text MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks {
+    format("It doesn't appear to like or dislike any {POKEBLOCK}S.")
+}
+
+text MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes {
+    format("My husband can tell what kind of {POKEBLOCK}S a POKéMON likes at a glance.")
 }
 

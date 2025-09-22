@@ -1,0 +1,7 @@
+#events for MossdeepCity_GameCorner_B1F
+
+script MossdeepCity_GameCorner_B1F_MapScripts {
+	.byte 0
+
+}
+

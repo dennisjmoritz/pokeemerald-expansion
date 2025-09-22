@@ -1,0 +1,6 @@
+#events for SevenIsland_TrainerTower_Elevator
+
+script SevenIsland_TrainerTower_Elevator_MapScripts {
+	.byte 0
+}
+

@@ -1,0 +1,6 @@
+#events for GoldenrodCity_Underground_NorthEntrance
+
+script GoldenrodCity_Underground_NorthEntrance_MapScripts {
+	.byte 0
+}
+

@@ -1,0 +1,6 @@
+#events for Azalea_Gatehouse
+
+script Azalea_Gatehouse_MapScripts {
+	.byte 0
+}
+

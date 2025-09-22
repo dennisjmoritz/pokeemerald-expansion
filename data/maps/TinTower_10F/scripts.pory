@@ -1,0 +1,6 @@
+#events for TinTower_10F
+
+script TinTower_10F_MapScripts {
+	.byte 0
+}
+

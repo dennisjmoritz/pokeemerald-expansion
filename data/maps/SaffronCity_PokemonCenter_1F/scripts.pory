@@ -1,0 +1,16 @@
+#events for SaffronCity_PokemonCenter_1F
+
+script SaffronCity_PokemonCenter_1F_MapScripts {
+	.byte 0
+
+
+}
+
+script SaffronCity_PokemonCenter_1F_EventScript_Nurse {
+	setvar VAR_0x800B, LOCALID_SAFFRON_NURSE
+	waitmessage
+	waitbuttonpress
+	release
+	end
+}
+

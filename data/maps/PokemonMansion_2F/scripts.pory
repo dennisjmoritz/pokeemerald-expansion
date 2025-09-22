@@ -1,44 +1,95 @@
-text PokemonMansion_Text_PressSecretSwitch {
-    format("A secret switch!\p Press it?")
+#events for PokemonMansion_2F
+
+script PokemonMansion_2F_MapScripts {
+	map_script MAP_SCRIPT_ON_LOAD, PokemonMansion_2F_OnLoad
+	.byte 0
+
 }
 
-text PokemonMansion_Text_WhoWouldnt {
-    format("Who wouldn't?")
+script PokemonMansion_2F_OnLoad {
+// FIXME undefined reference: 	call_if_set FLAG_TEMP_1, PokemonMansion_EventScript_PressSwitch_2F
+// Replaced FLAG_POKEMON_MANSION_SWITCH_STATE with FLAG_TEMP_1
+	end
+
 }
 
-text PokemonMansion_Text_NotQuiteYet {
-    format("Not quite yet!")
-}
+script PokemonMansion_2F_EventScript_Statue {
+	lockall
+	setvar VAR_0x8004, 1
+// FIXME undefined reference: 	call PokemonMansion_EventScript_SecretSwitch
+	playse SE_UNLOCK
+	special DrawWholeMapView
+	waitse
+	releaseall
+	end
 
-text PokemonMansion_1F_Text_ArnieIntro {
-    format("I can't get out! This old place is one big puzzle.")
-}
-
-text PokemonMansion_1F_Text_ArnieDefeat {
-    format("Oh, no! My bag of loot!")
-}
-
-text PokemonMansion_1F_Text_ArniePostBattle {
-    format("The switches here open and close alternating sets of doors.")
-}
-
-text PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle {
-    format("Diary: July 5 Guyana, South America\p A new POKéMON was discovered deep in the jungle.")
-}
-
-text PokemonMansion_1F_Text_ChristenedDiscoveredMonMew {
-    format("Diary: July 10 We christened the newly discovered\l POKéMON, MEW.")
-}
-
-script PokemonMansion_2F_EventScript_DiaryJuly10th {
-    lockall
-    msgbox(PokemonMansion_1F_Text_ChristenedDiscoveredMonMew)
-    releaseall
 }
 
 script PokemonMansion_2F_EventScript_DiaryJuly5th {
-    lockall
-    msgbox(PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle)
-    releaseall
+	msgbox PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle, MSGBOX_SIGN
+	end
+
+}
+
+script PokemonMansion_2F_EventScript_DiaryJuly10th {
+	msgbox PokemonMansion_1F_Text_ChristenedDiscoveredMonMew, MSGBOX_SIGN
+	end
+
+}
+
+script PokemonMansion_2F_EventScript_Arnie {
+// FIXME undefined reference: 	trainerbattle_single TRAINER_BURGLAR_ARNIE, PokemonMansion_1F_Text_ArnieIntro, PokemonMansion_1F_Text_ArnieDefeat
+	msgbox PokemonMansion_1F_Text_ArniePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script PokemonMansion_Text_PressSecretSwitch {
+    .string "A secret switch!\p"
+    .string "Press it?$"
+
+}
+
+script PokemonMansion_Text_WhoWouldnt {
+    .string "Who wouldn't?$"
+
+}
+
+script PokemonMansion_Text_NotQuiteYet {
+    .string "Not quite yet!$"
+
+}
+
+script PokemonMansion_1F_Text_ArnieIntro {
+    .string "I can't get out!\n"
+    .string "This old place is one big puzzle.$"
+
+}
+
+script PokemonMansion_1F_Text_ArnieDefeat {
+    .string "Oh, no!\n"
+    .string "My bag of loot!$"
+
+}
+
+script PokemonMansion_1F_Text_ArniePostBattle {
+    .string "The switches here open and close\n"
+    .string "alternating sets of doors.$"
+
+}
+
+script PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle {
+    .string "Diary: July 5\n"
+    .string "Guyana, South America\p"
+    .string "A new POKéMON was discovered deep\n"
+    .string "in the jungle.$"
+
+}
+
+script PokemonMansion_1F_Text_ChristenedDiscoveredMonMew {
+    .string "Diary: July 10\n"
+    .string "We christened the newly discovered\l"
+    .string "POKéMON, MEW.$"
+
 }
 

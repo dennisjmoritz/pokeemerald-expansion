@@ -1,4 +1,37 @@
-text BattleFrontier_Lounge8_EventScript_NinjaBoy {
-    format("What a TRAINER needs…\p Knowledge… Strategy…\l Luck…\l Guts…\l Spirit…\l Bravery…\l And ability…\p Well, I'm all set in every way! I'll be unstoppable at every building!\p Huh? POKéMON? What's that?$ Do you know about the FRONTIER BRAINS?\p That's what SCOTT calls the seven special TRAINERS that run the seven\l facilities in the BATTLE FRONTIER.$ At the BATTLE TOWER, an older girl told me that I have a lot of talent\l for battling!\p I like POKéMON CONTESTS more!\p But I'm no good at CONTESTS!\p I guess having talent and liking something aren't the same.")
+#events for BattleFrontier_Lounge8
+
+script BattleFrontier_Lounge8_MapScripts {
+	.byte 0
+
+}
+
+script BattleFrontier_Lounge8_EventScript_Man {
+	msgbox BattleFrontier_Lounge8_Text_WhatATrainerNeeds, MSGBOX_NPC
+	end
+
+}
+
+script BattleFrontier_Lounge8_EventScript_Woman {
+	msgbox BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains, MSGBOX_NPC
+	end
+
+}
+
+script BattleFrontier_Lounge8_EventScript_NinjaBoy {
+	msgbox BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling, MSGBOX_NPC
+	end
+
+}
+
+text BattleFrontier_Lounge8_Text_WhatATrainerNeeds {
+    format("What a TRAINER needs…\p Knowledge… Strategy…\l Luck…\l Guts…\l Spirit…\l Bravery…\l And ability…\p Well, I'm all set in every way! I'll be unstoppable at every building!\p Huh? POKéMON? What's that?")
+}
+
+text BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains {
+    format("Do you know about the FRONTIER BRAINS?\p That's what SCOTT calls the seven special TRAINERS that run the seven\l facilities in the BATTLE FRONTIER.")
+}
+
+text BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling {
+    format("At the BATTLE TOWER, an older girl told me that I have a lot of talent\l for battling!\p I like POKéMON CONTESTS more!\p But I'm no good at CONTESTS!\p I guess having talent and liking something aren't the same.")
 }
 

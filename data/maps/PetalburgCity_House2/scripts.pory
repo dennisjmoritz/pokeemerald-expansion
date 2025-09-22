@@ -1,4 +1,27 @@
-text PetalburgCity_House2_EventScript_SchoolKid {
-    format("NORMAN became our town's new GYM LEADER.\p I think he called his family over from somewhere far away.$ I battled NORMAN once, but, whew, he was way too strong.\p How would I put it?\p I just got the feeling that he lives for POKéMON.")
+#events for PetalburgCity_House2
+
+script PetalburgCity_House2_MapScripts {
+	.byte 0
+
+}
+
+script PetalburgCity_House2_EventScript_Woman {
+	msgbox PetalburgCity_House2_Text_NormanBecameGymLeader, MSGBOX_NPC
+	end
+
+}
+
+script PetalburgCity_House2_EventScript_SchoolKid {
+	msgbox PetalburgCity_House2_Text_BattledNormanOnce, MSGBOX_NPC
+	end
+
+}
+
+text PetalburgCity_House2_Text_NormanBecameGymLeader {
+    format("NORMAN became our town's new GYM LEADER.\p I think he called his family over from somewhere far away.")
+}
+
+text PetalburgCity_House2_Text_BattledNormanOnce {
+    format("I battled NORMAN once, but, whew, he was way too strong.\p How would I put it?\p I just got the feeling that he lives for POKéMON.")
 }
 

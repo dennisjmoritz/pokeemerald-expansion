@@ -1,4 +1,33 @@
-text Route119_House_EventScript_Wingull {
-    format("I heard about a cave called the CAVE OF ORIGIN.\p People rumor that the spirits of POKéMON are revived there. Could\l something like that really happen?$ WINGULL: Pihyoh!")
+#events for Route119_House
+
+script Route119_House_MapScripts {
+	.byte 0
+
+}
+
+script Route119_House_EventScript_Woman {
+	msgbox Route119_House_Text_RumorAboutCaveOfOrigin, MSGBOX_NPC
+	end
+
+}
+
+script Route119_House_EventScript_Wingull {
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_WINGULL, CRY_MODE_NORMAL
+	msgbox Route119_House_Text_Wingull, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+}
+
+text Route119_House_Text_RumorAboutCaveOfOrigin {
+    format("I heard about a cave called the CAVE OF ORIGIN.\p People rumor that the spirits of POKéMON are revived there. Could\l something like that really happen?")
+}
+
+text Route119_House_Text_Wingull {
+    format("WINGULL: Pihyoh!")
 }
 

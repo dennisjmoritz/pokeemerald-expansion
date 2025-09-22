@@ -1,0 +1,6 @@
+#events for SproutTower_1F
+
+script SproutTower_1F_MapScripts {
+	.byte 0
+}
+

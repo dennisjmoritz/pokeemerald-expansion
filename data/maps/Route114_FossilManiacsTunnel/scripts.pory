@@ -1,4 +1,79 @@
-text Route114_FossilManiacsTunnel_EventScript_PlayerRevivedFossil {
-    format("I'm the FOSSIL MANIAC… I'm a nice guy who loves FOSSILS…\p Do you want a FOSSIL?\p But the FOSSILS around these parts all belong to me… None for you…\p If you can't bear to go without a FOSSIL, look in a desert where there\l are boulders and sand that may hide\l FOSSILS…$ You found a FOSSIL, didn't you? That's so nice… It's so dreamy…\p What are you going to do with that FOSSIL?\p From what I've heard, DEVON is doing research on reviving POKéMON from\l FOSSILS…\p I love my FOSSILS, so I would never do anything like that…$ FOSSILS are so… Wonderful… It's so dreamy…$ Oh… It's not safe that way…\p I was digging away, you see… When the whole wall collapsed…\p I think there's a giant cavern underneath now…\p But I've left it alone because I don't think there are any FOSSILS there…")
+#events for Route114_FossilManiacsTunnel
+
+script Route114_FossilManiacsTunnel_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, Route114_FossilManiacsTunnel_OnTransition
+	map_script MAP_SCRIPT_ON_LOAD, Route114_FossilManiacsTunnel_OnLoad
+	.byte 0
+
+}
+
+script Route114_FossilManiacsTunnel_EventScript_MoveFossilManiac {
+	setobjectxyperm LOCALID_FOSSIL_MANIAC, 6, 5
+	setobjectmovementtype LOCALID_FOSSIL_MANIAC, MOVEMENT_TYPE_FACE_DOWN
+	return
+
+}
+
+script Route114_FossilManiacsTunnel_EventScript_CloseDesertUnderpass {
+	setmetatile 6, 1, METATILE_Fallarbor_RedRockWall, TRUE
+	setmetatile 6, 2, METATILE_Fallarbor_RedRockWall, TRUE
+	return
+
+}
+
+script Route114_FossilManiacsTunnel_EventScript_ManiacMentionCaveIn {
+	lockall
+	applymovement LOCALID_FOSSIL_MANIAC, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	msgbox Route114_FossilManiacsTunnel_Text_NotSafeThatWay, MSGBOX_DEFAULT
+	setvar VAR_FOSSIL_MANIAC_STATE, 2
+	releaseall
+	end
+
+}
+
+script Route114_FossilManiacsTunnel_EventScript_FossilManiac {
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_REVIVED_FOSSIL_MON, Route114_FossilManiacsTunnel_EventScript_PlayerRevivedFossil
+	checkitem ITEM_ROOT_FOSSIL
+	goto_if_eq VAR_RESULT, TRUE, Route114_FossilManiacsTunnel_EventScript_PlayerHasFossil
+	checkitem ITEM_CLAW_FOSSIL
+	goto_if_eq VAR_RESULT, TRUE, Route114_FossilManiacsTunnel_EventScript_PlayerHasFossil
+	msgbox Route114_FossilManiacsTunnel_Text_LookInDesertForFossils, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script Route114_FossilManiacsTunnel_EventScript_PlayerHasFossil {
+	msgbox Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script Route114_FossilManiacsTunnel_EventScript_PlayerRevivedFossil {
+	msgbox Route114_FossilManiacsTunnel_Text_FossilsAreWonderful, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text Route114_FossilManiacsTunnel_Text_LookInDesertForFossils {
+    format("I'm the FOSSIL MANIAC… I'm a nice guy who loves FOSSILS…\p Do you want a FOSSIL?\p But the FOSSILS around these parts all belong to me… None for you…\p If you can't bear to go without a FOSSIL, look in a desert where there\l are boulders and sand that may hide\l FOSSILS…")
+}
+
+text Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils {
+    format("You found a FOSSIL, didn't you? That's so nice… It's so dreamy…\p What are you going to do with that FOSSIL?\p From what I've heard, DEVON is doing research on reviving POKéMON from\l FOSSILS…\p I love my FOSSILS, so I would never do anything like that…")
+}
+
+text Route114_FossilManiacsTunnel_Text_FossilsAreWonderful {
+    format("FOSSILS are so… Wonderful… It's so dreamy…")
+}
+
+text Route114_FossilManiacsTunnel_Text_NotSafeThatWay {
+    format("Oh… It's not safe that way…\p I was digging away, you see… When the whole wall collapsed…\p I think there's a giant cavern underneath now…\p But I've left it alone because I don't think there are any FOSSILS there…")
 }
 

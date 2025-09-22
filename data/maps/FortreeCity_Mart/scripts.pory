@@ -1,4 +1,50 @@
-text FortreeCity_Mart_EventScript_Boy {
-    format("SUPER REPEL lasts a long time, and it gets the job done.\p It's much better than an ordinary REPEL.$ I always stock up on more items than I'm sure I'll need.\p You never know what might happen. Better to be safe than sorry!$ A RARE CANDY makes a POKéMON grow immediately by one level.")
+#events for FortreeCity_Mart
+
+script FortreeCity_Mart_MapScripts {
+	.byte 0
+
+}
+
+script FortreeCity_Mart_EventScript_Clerk {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart FortreeCity_Mart_Pokemart
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script FortreeCity_Mart_EventScript_Woman {
+	msgbox FortreeCity_Mart_Text_SuperRepelBetter, MSGBOX_NPC
+	end
+
+}
+
+script FortreeCity_Mart_EventScript_Girl {
+	msgbox FortreeCity_Mart_Text_StockUpOnItems, MSGBOX_NPC
+	end
+
+}
+
+script FortreeCity_Mart_EventScript_Boy {
+	msgbox FortreeCity_Mart_Text_RareCandyMakesMonGrow, MSGBOX_NPC
+	end
+
+}
+
+text FortreeCity_Mart_Text_SuperRepelBetter {
+    format("SUPER REPEL lasts a long time, and it gets the job done.\p It's much better than an ordinary REPEL.")
+}
+
+text FortreeCity_Mart_Text_StockUpOnItems {
+    format("I always stock up on more items than I'm sure I'll need.\p You never know what might happen. Better to be safe than sorry!")
+}
+
+text FortreeCity_Mart_Text_RareCandyMakesMonGrow {
+    format("A RARE CANDY makes a POKéMON grow immediately by one level.")
 }
 

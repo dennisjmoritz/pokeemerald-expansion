@@ -1,102 +1,158 @@
-text Route10_Text_MarkIntro {
-    format("Wow, you came all the way here? Maybe you're a POKéMANIAC, too?\l Want to see my collection?")
+#events for Route10
+
+script Route10_MapScripts {
+	.byte 0
+
 }
 
-text Route10_Text_MarkDefeat {
-    format("Humph. I'm not angry!")
-}
+script Route10_EventScript_Unused {
+	end
 
-text Route10_Text_MarkPostBattle {
-    format("I have more rare POKéMON at home!")
-}
-
-text Route10_Text_ClarkIntro {
-    format("Ha-hahah-ah-ha!")
-}
-
-text Route10_Text_ClarkDefeat {
-    format("Ha-haha! Not laughing!\l Ha-hay fever! Haha-ha-choo!")
-}
-
-text Route10_Text_ClarkPostBattle {
-    format("Haha-ha-choo! Ha-choo!\l Snort! Snivel!")
-}
-
-text Route10_Text_HermanIntro {
-    format("Hi, kid! Want to see my POKéMON?")
-}
-
-text Route10_Text_HermanDefeat {
-    format("Oh, no! My POKéMON!")
-}
-
-text Route10_Text_HermanPostBattle {
-    format("I don't like you. I don't like anyone better than me!")
-}
-
-text Route10_Text_HeidiIntro {
-    format("I've been out at a POKéMON GYM a few times.\p …But I always lose.")
-}
-
-text Route10_Text_HeidiDefeat {
-    format("Ohh! After all my training!")
-}
-
-text Route10_Text_HeidiPostBattle {
-    format("I noticed some POKéMANIACS prowling around.\p Can you imagine? Them? Up here in the mountains?")
-}
-
-text Route10_Text_TrentIntro {
-    format("Ah! This mountain air is delicious!")
-}
-
-text Route10_Text_TrentDefeat {
-    format("That cleared my head!")
-}
-
-text Route10_Text_TrentPostBattle {
-    format("I feel bloated on mountain air!")
-}
-
-text Route10_Text_CarolIntro {
-    format("I'm feeling a bit faint. I haven't hiked in some time.")
-}
-
-text Route10_Text_CarolDefeat {
-    format("I'm too tired. I wasn't up for it.")
-}
-
-text Route10_Text_CarolPostBattle {
-    format("The POKéMON here in the mountains are so chunky…\p I wish there were pink POKéMON with a floral pattern!")
-}
-
-text Route10_Text_RockTunnelDetourToLavender {
-    format("ROCK TUNNEL Detour to LAVENDER TOWN")
-}
-
-text Route10_Text_RockTunnel {
-    format("ROCK TUNNEL")
-}
-
-text Route10_Text_PowerPlant {
-    format("POWER PLANT")
-}
-
-script Route10_EventScript_SouthRockTunnelSign {
-    lockall
-    msgbox(Route10_Text_RockTunnel)
-    releaseall
-}
-
-script Route10_EventScript_PowerPlantSign {
-    lockall
-    msgbox(Route10_Text_PowerPlant)
-    releaseall
 }
 
 script Route10_EventScript_NorthRockTunnelSign {
-    lockall
-    msgbox(Route10_Text_RockTunnelDetourToLavender)
-    releaseall
+	msgbox Route10_Text_RockTunnelDetourToLavender, MSGBOX_SIGN
+	end
+
+}
+
+script Route10_EventScript_SouthRockTunnelSign {
+	msgbox Route10_Text_RockTunnel, MSGBOX_SIGN
+	end
+
+}
+
+script Route10_EventScript_PowerPlantSign {
+	msgbox Route10_Text_PowerPlant, MSGBOX_SIGN
+	end
+
+}
+
+script Route10_Text_MarkIntro {
+    .string "Wow, you came all the way here?\n"
+    .string "Maybe you're a POKéMANIAC, too?\l"
+    .string "Want to see my collection?$"
+
+}
+
+script Route10_Text_MarkDefeat {
+    .string "Humph.\n"
+    .string "I'm not angry!$"
+
+}
+
+script Route10_Text_MarkPostBattle {
+    .string "I have more rare POKéMON at home!$"
+
+}
+
+script Route10_Text_ClarkIntro {
+    .string "Ha-hahah-ah-ha!$"
+
+}
+
+script Route10_Text_ClarkDefeat {
+    .string "Ha-haha!\n"
+    .string "Not laughing!\l"
+    .string "Ha-hay fever! Haha-ha-choo!$"
+
+}
+
+script Route10_Text_ClarkPostBattle {
+    .string "Haha-ha-choo!\n"
+    .string "Ha-choo!\l"
+    .string "Snort! Snivel!$"
+
+}
+
+script Route10_Text_HermanIntro {
+    .string "Hi, kid!\n"
+    .string "Want to see my POKéMON?$"
+
+}
+
+script Route10_Text_HermanDefeat {
+    .string "Oh, no!\n"
+    .string "My POKéMON!$"
+
+}
+
+script Route10_Text_HermanPostBattle {
+    .string "I don't like you.\n"
+    .string "I don't like anyone better than me!$"
+
+}
+
+script Route10_Text_HeidiIntro {
+    .string "I've been out at a POKéMON GYM\n"
+    .string "a few times.\p"
+    .string "…But I always lose.$"
+
+}
+
+script Route10_Text_HeidiDefeat {
+    .string "Ohh!\n"
+    .string "After all my training!$"
+
+}
+
+script Route10_Text_HeidiPostBattle {
+    .string "I noticed some POKéMANIACS\n"
+    .string "prowling around.\p"
+    .string "Can you imagine? Them?\n"
+    .string "Up here in the mountains?$"
+
+}
+
+script Route10_Text_TrentIntro {
+    .string "Ah!\n"
+    .string "This mountain air is delicious!$"
+
+}
+
+script Route10_Text_TrentDefeat {
+    .string "That cleared my head!$"
+
+}
+
+script Route10_Text_TrentPostBattle {
+    .string "I feel bloated on mountain air!$"
+
+}
+
+script Route10_Text_CarolIntro {
+    .string "I'm feeling a bit faint.\n"
+    .string "I haven't hiked in some time.$"
+
+}
+
+script Route10_Text_CarolDefeat {
+    .string "I'm too tired.\n"
+    .string "I wasn't up for it.$"
+
+}
+
+script Route10_Text_CarolPostBattle {
+    .string "The POKéMON here in the mountains\n"
+    .string "are so chunky…\p"
+    .string "I wish there were pink POKéMON\n"
+    .string "with a floral pattern!$"
+
+}
+
+script Route10_Text_RockTunnelDetourToLavender {
+    .string "ROCK TUNNEL\n"
+    .string "Detour to LAVENDER TOWN$"
+
+}
+
+script Route10_Text_RockTunnel {
+    .string "ROCK TUNNEL$"
+
+}
+
+script Route10_Text_PowerPlant {
+    .string "POWER PLANT$"
+
 }
 

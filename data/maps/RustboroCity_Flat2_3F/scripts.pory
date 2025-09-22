@@ -1,4 +1,27 @@
-text RustboroCity_Flat2_3F_EventScript_Woman {
-    format("DEVON's PRESIDENT likes to collect rare stones.$ I think the PRESIDENT's son also collects rare stones.")
+#events for RustboroCity_Flat2_3F
+
+script RustboroCity_Flat2_3F_MapScripts {
+	.byte 0
+
+}
+
+script RustboroCity_Flat2_3F_EventScript_DevonEmployee {
+	msgbox RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones, MSGBOX_NPC
+	end
+
+}
+
+script RustboroCity_Flat2_3F_EventScript_Woman {
+	msgbox RustboroCity_Flat2_3F_Text_PresidentsSonAlsoCollectsRareStones, MSGBOX_NPC
+	end
+
+}
+
+text RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones {
+    format("DEVON's PRESIDENT likes to collect rare stones.")
+}
+
+text RustboroCity_Flat2_3F_Text_PresidentsSonAlsoCollectsRareStones {
+    format("I think the PRESIDENT's son also collects rare stones.")
 }
 

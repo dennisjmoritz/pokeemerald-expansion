@@ -1,0 +1,6 @@
+#events for DarkCave_Blackthorn
+
+script DarkCave_Blackthorn_MapScripts {
+	.byte 0
+}
+

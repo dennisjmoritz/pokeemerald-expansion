@@ -1,112 +1,170 @@
-text ThreeIsland_BondBridge_Text_NikkiIntro {
-    format("The salty tang of the sea… It tickles my heart.")
-}
+#events for ThreeIsland_BondBridge
 
-text ThreeIsland_BondBridge_Text_NikkiDefeat {
-    format("…Sniff, sniff… Something smells unpleasant…")
-}
+script ThreeIsland_BondBridge_MapScripts {
+	.byte 0
 
-text ThreeIsland_BondBridge_Text_NikkiPostBattle {
-    format("Perhaps that reek is your sweaty POKéMON's body odor…")
-}
-
-text ThreeIsland_BondBridge_Text_VioletIntro {
-    format("Where are you off to in such a hurry?")
-}
-
-text ThreeIsland_BondBridge_Text_VioletDefeat {
-    format("You're raising some wonderful POKéMON.")
-}
-
-text ThreeIsland_BondBridge_Text_VioletPostBattle {
-    format("If you keep going this way, you'll eventually reach BERRY FOREST.")
-}
-
-text ThreeIsland_BondBridge_Text_AmiraIntro {
-    format("My mommy said that I can't swim without my float ring.")
-}
-
-text ThreeIsland_BondBridge_Text_AmiraDefeat {
-    format("Waaah! Waaah!")
-}
-
-text ThreeIsland_BondBridge_Text_AmiraPostBattle {
-    format("This year, I'm going to finally learn how to swim!")
-}
-
-text ThreeIsland_BondBridge_Text_AlexisIntro {
-    format("Yay, yay! POKéMON!")
-}
-
-text ThreeIsland_BondBridge_Text_AlexisDefeat {
-    format("What happens now?")
-}
-
-text ThreeIsland_BondBridge_Text_AlexisPostBattle {
-    format("Did I just win? Or did I lose?")
-}
-
-text ThreeIsland_BondBridge_Text_TishaIntro {
-    format("Oh, no, don't come here! Please, stay away from me!")
-}
-
-text ThreeIsland_BondBridge_Text_TishaDefeat {
-    format("Okay, you've won! Now will you please go away?")
-}
-
-text ThreeIsland_BondBridge_Text_TishaPostBattle {
-    format("A POKéMON bit through my swimsuit.\p I can't get out of the water!")
-}
-
-text ThreeIsland_BondBridge_Text_JoyIntro {
-    format("JOY: We'll teach you what our favorite POKéMON is!")
-}
-
-text ThreeIsland_BondBridge_Text_JoyDefeat {
-    format("JOY: Ohh… MEG!")
-}
-
-text ThreeIsland_BondBridge_Text_JoyPostBattle {
-    format("JOY: Wasn't that fun? I hope we can battle again!")
-}
-
-text ThreeIsland_BondBridge_Text_JoyNotEnoughMons {
-    format("JOY: I really want to battle with MEG.\p One POKéMON isn't enough.")
-}
-
-text ThreeIsland_BondBridge_Text_MegIntro {
-    format("MEG: We'll show you our favorite POKéMON.")
-}
-
-text ThreeIsland_BondBridge_Text_MegDefeat {
-    format("MEG: Ohh… JOY!")
-}
-
-text ThreeIsland_BondBridge_Text_MegPostBattle {
-    format("MEG: JOY, wasn't that fun?")
-}
-
-text ThreeIsland_BondBridge_Text_MegNotEnoughMons {
-    format("MEG: I want to battle together with JOY.\p One POKéMON isn't enough.")
-}
-
-text ThreeIsland_BondBridge_Text_BerryForestAhead {
-    format("BERRY FOREST AHEAD")
-}
-
-text ThreeIsland_BondBridge_Text_BondBridgeSign {
-    format("BOND BRIDGE Please be quiet when crossing.\p BERRY FOREST AHEAD")
 }
 
 script ThreeIsland_BondBridge_EventScript_BerryForestSign {
-    lockall
-    msgbox(ThreeIsland_BondBridge_Text_BerryForestAhead)
-    releaseall
+	msgbox ThreeIsland_BondBridge_Text_BerryForestAhead, MSGBOX_SIGN
+	end
+
 }
 
 script ThreeIsland_BondBridge_EventScript_BondBridgeSign {
-    lockall
-    msgbox(ThreeIsland_BondBridge_Text_BondBridgeSign)
-    releaseall
+	msgbox ThreeIsland_BondBridge_Text_BondBridgeSign, MSGBOX_SIGN
+	end
+
+}
+
+script ThreeIsland_BondBridge_Text_NikkiIntro {
+    .string "The salty tang of the sea…\n"
+    .string "It tickles my heart.$"
+
+}
+
+script ThreeIsland_BondBridge_Text_NikkiDefeat {
+    .string "…Sniff, sniff…\n"
+    .string "Something smells unpleasant…$"
+
+}
+
+script ThreeIsland_BondBridge_Text_NikkiPostBattle {
+    .string "Perhaps that reek is your sweaty\n"
+    .string "POKéMON's body odor…$"
+
+}
+
+script ThreeIsland_BondBridge_Text_VioletIntro {
+    .string "Where are you off to in such\n"
+    .string "a hurry?$"
+
+}
+
+script ThreeIsland_BondBridge_Text_VioletDefeat {
+    .string "You're raising some wonderful\n"
+    .string "POKéMON.$"
+
+}
+
+script ThreeIsland_BondBridge_Text_VioletPostBattle {
+    .string "If you keep going this way, you'll\n"
+    .string "eventually reach BERRY FOREST.$"
+
+}
+
+script ThreeIsland_BondBridge_Text_AmiraIntro {
+    .string "My mommy said that I can't swim\n"
+    .string "without my float ring.$"
+
+}
+
+script ThreeIsland_BondBridge_Text_AmiraDefeat {
+    .string "Waaah!\n"
+    .string "Waaah!$"
+
+}
+
+script ThreeIsland_BondBridge_Text_AmiraPostBattle {
+    .string "This year, I'm going to finally\n"
+    .string "learn how to swim!$"
+
+}
+
+script ThreeIsland_BondBridge_Text_AlexisIntro {
+    .string "Yay, yay!\n"
+    .string "POKéMON!$"
+
+}
+
+script ThreeIsland_BondBridge_Text_AlexisDefeat {
+    .string "What happens now?$"
+
+}
+
+script ThreeIsland_BondBridge_Text_AlexisPostBattle {
+    .string "Did I just win?\n"
+    .string "Or did I lose?$"
+
+}
+
+script ThreeIsland_BondBridge_Text_TishaIntro {
+    .string "Oh, no, don't come here!\n"
+    .string "Please, stay away from me!$"
+
+}
+
+script ThreeIsland_BondBridge_Text_TishaDefeat {
+    .string "Okay, you've won!\n"
+    .string "Now will you please go away?$"
+
+}
+
+script ThreeIsland_BondBridge_Text_TishaPostBattle {
+    .string "A POKéMON bit through my \n"
+    .string "swimsuit.\p"
+    .string "I can't get out of the water!$"
+
+}
+
+script ThreeIsland_BondBridge_Text_JoyIntro {
+    .string "JOY: We'll teach you what our\n"
+    .string "favorite POKéMON is!$"
+
+}
+
+script ThreeIsland_BondBridge_Text_JoyDefeat {
+    .string "JOY: Ohh…\n"
+    .string "MEG!$"
+
+}
+
+script ThreeIsland_BondBridge_Text_JoyPostBattle {
+    .string "JOY: Wasn't that fun?\n"
+    .string "I hope we can battle again!$"
+
+}
+
+script ThreeIsland_BondBridge_Text_JoyNotEnoughMons {
+    .string "JOY: I really want to battle with\n"
+    .string "MEG.\p"
+    .string "One POKéMON isn't enough.$"
+
+}
+
+script ThreeIsland_BondBridge_Text_MegIntro {
+    .string "MEG: We'll show you our favorite\n"
+    .string "POKéMON.$"
+
+}
+
+script ThreeIsland_BondBridge_Text_MegDefeat {
+    .string "MEG: Ohh…\n"
+    .string "JOY!$"
+
+}
+
+script ThreeIsland_BondBridge_Text_MegPostBattle {
+    .string "MEG: JOY, wasn't that fun?$"
+
+}
+
+script ThreeIsland_BondBridge_Text_MegNotEnoughMons {
+    .string "MEG: I want to battle together\n"
+    .string "with JOY.\p"
+    .string "One POKéMON isn't enough.$"
+
+}
+
+script ThreeIsland_BondBridge_Text_BerryForestAhead {
+    .string "BERRY FOREST AHEAD$"
+
+}
+
+script ThreeIsland_BondBridge_Text_BondBridgeSign {
+    .string "BOND BRIDGE\n"
+    .string "Please be quiet when crossing.\p"
+    .string "BERRY FOREST AHEAD$"
+
 }
 

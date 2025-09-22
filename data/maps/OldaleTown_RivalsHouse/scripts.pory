@@ -1,0 +1,6 @@
+#events for OldaleTown_RivalsHouse
+
+script OldaleTown_RivalsHouse_MapScripts {
+	.byte 0
+}
+

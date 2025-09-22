@@ -1,4 +1,154 @@
-text MeteorFalls_1F_1R_EventScript_MetCozmo {
-    format("Hehehe!\p With this METEORITE, that thing in MT. CHIMNEY will…$ Heh?\p I don't know who you are, but if you get in the way of TEAM MAGMA, don't\l expect any mercy!$ Hold it right there, TEAM MAGMA!\p You're badly mistaken if you think you can have your way with the world!$ Hehehe! Even TEAM AQUA joins us!\p But it's too much trouble to deal with you all…\p Heh, it doesn't matter!\p We've got the METEORITE, so off to MT. CHIMNEY we go!\p Hehehe! Be seeing you, you TEAM AQUA dingbats!$ ARCHIE: Didn't I see you before? At SLATEPORT's MUSEUM?\p Ah, so your name is {PLAYER}.\p At the time, I thought you were one of TEAM MAGMA's goons.\p Humph… You're one odd kid.\p TEAM MAGMA is a dangerous group of total fanatics.\p They engage in destruction, claiming to expand the land mass.\p They are the rivals to us, the sea-loving TEAM AQUA!$ BOSS, we should give chase to TEAM MAGMA…$ ARCHIE: Yes, yes, we must! We've got to hurry.\p There's no telling what TEAM MAGMA will do at MT. CHIMNEY!$ ARCHIE: {PLAYER}, you should keep an eye out for TEAM MAGMA, too.\p Farewell!$ I… I'm COZMO… I'm a PROFESSOR…\p TEAM MAGMA asked me to guide them to METEOR FALLS…\p But they tricked me. They even took my METEORITE away…\p And then another similar bunch, TEAM AQUA showed up.\p After that… I don't understand any of it.\p But that TEAM MAGMA…\p What are they going to do with that METEORITE at MT. CHIMNEY?$ PROF. COZMO: But that TEAM MAGMA…\p What are they going to do with that METEORITE at MT. CHIMNEY?")
+#events for MeteorFalls_1F_1R
+
+script MeteorFalls_1F_1R_MapScripts {
+	map_script MAP_SCRIPT_ON_LOAD, MeteorFalls_1F_1R_OnLoad
+	.byte 0
+
+}
+
+script MeteorFalls_1F_1R_EventScript_OpenStevensCave {
+	setmetatile 4, 1, METATILE_MeteorFalls_CaveEntrance_Top, TRUE
+	setmetatile 3, 2, METATILE_MeteorFalls_CaveEntrance_Left, TRUE
+	setmetatile 4, 2, METATILE_MeteorFalls_CaveEntrance_Bottom, FALSE
+	setmetatile 5, 2, METATILE_MeteorFalls_CaveEntrance_Right, TRUE
+	return
+
+}
+
+script MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene {
+	lockall
+	playbgm MUS_ENCOUNTER_MAGMA, FALSE
+	applymovement LOCALID_PLAYER, Common_Movement_FaceDown
+	waitmovement 0
+	delay 30
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_1, Common_Movement_WalkInPlaceDown
+	waitmovement 0
+	msgbox MeteorFalls_1F_1R_Text_WithThisMeteorite, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_1, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_2, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_1, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_1, Common_Movement_Delay48
+	waitmovement 0
+	msgbox MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_1, MeteorFalls_1F_1R_Movement_MagmaGruntApproachPlayer
+	waitmovement 0
+	msgbox MeteorFalls_1F_1R_Text_HoldItRightThereMagma, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_1, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	addobject LOCALID_METEOR_FALLS_ARCHIE
+	addobject LOCALID_METEOR_FALLS_AQUA_GRUNT_1
+	addobject LOCALID_METEOR_FALLS_AQUA_GRUNT_2
+	playbgm MUS_ENCOUNTER_AQUA, FALSE
+	applymovement LOCALID_METEOR_FALLS_ARCHIE, MeteorFalls_1F_1R_Movement_ArchieArrive
+	applymovement LOCALID_METEOR_FALLS_AQUA_GRUNT_1, MeteorFalls_1F_1R_Movement_AquaGrunt1Arrive
+	applymovement LOCALID_METEOR_FALLS_AQUA_GRUNT_2, MeteorFalls_1F_1R_Movement_AquaGrunt2Arrive
+	waitmovement 0
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_1, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	msgbox MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_PLAYER, MeteorFalls_1F_1R_Movement_PushPlayerOutOfWay
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_1, MeteorFalls_1F_1R_Movement_MagmaGrunt1Exit
+	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_2, MeteorFalls_1F_1R_Movement_MagmaGrunt2Exit
+	waitmovement 0
+	removeobject LOCALID_METEOR_FALLS_MAGMA_GRUNT_1
+	removeobject LOCALID_METEOR_FALLS_MAGMA_GRUNT_2
+	applymovement LOCALID_METEOR_FALLS_ARCHIE, MeteorFalls_1F_1R_Movement_ArchieApproachPlayer
+	waitmovement 0
+	msgbox MeteorFalls_1F_1R_Text_ArchieSeenYouBefore, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_METEOR_FALLS_AQUA_GRUNT_1, MeteorFalls_1F_1R_Movement_AquaGrunt1ApproachArchie
+	applymovement LOCALID_METEOR_FALLS_AQUA_GRUNT_2, MeteorFalls_1F_1R_Movement_AquaGrunt2ApproachArchie
+	waitmovement 0
+	msgbox MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma, MSGBOX_DEFAULT
+	applymovement LOCALID_METEOR_FALLS_ARCHIE, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	msgbox MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo, MSGBOX_DEFAULT
+	applymovement LOCALID_METEOR_FALLS_ARCHIE, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	msgbox MeteorFalls_1F_1R_Text_ArchieFarewell, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_METEOR_FALLS_ARCHIE, MeteorFalls_1F_1R_Movement_ArchieExit
+	applymovement LOCALID_METEOR_FALLS_AQUA_GRUNT_1, MeteorFalls_1F_1R_Movement_AquaGrunt1Exit
+	applymovement LOCALID_METEOR_FALLS_AQUA_GRUNT_2, MeteorFalls_1F_1R_Movement_AquaGrunt2Exit
+	waitmovement 0
+	fadedefaultbgm
+	removeobject LOCALID_METEOR_FALLS_ARCHIE
+	removeobject LOCALID_METEOR_FALLS_AQUA_GRUNT_1
+	removeobject LOCALID_METEOR_FALLS_AQUA_GRUNT_2
+	setflag FLAG_HIDE_ROUTE_112_TEAM_MAGMA
+	setflag FLAG_MET_ARCHIE_METEOR_FALLS
+	setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
+	setvar VAR_METEOR_FALLS_STATE, 1
+	releaseall
+	end
+
+}
+
+script MeteorFalls_1F_1R_EventScript_ProfCozmo {
+	lock
+	faceplayer
+	goto_if_set FLAG_MET_PROF_COZMO, MeteorFalls_1F_1R_EventScript_MetCozmo
+	setflag FLAG_MET_PROF_COZMO
+	msgbox MeteorFalls_1F_1R_Text_MeetProfCozmo, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MeteorFalls_1F_1R_EventScript_MetCozmo {
+	msgbox MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text MeteorFalls_1F_1R_Text_WithThisMeteorite {
+    format("Hehehe!\p With this METEORITE, that thing in MT. CHIMNEY will…")
+}
+
+text MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma {
+    format("Heh?\p I don't know who you are, but if you get in the way of TEAM MAGMA, don't\l expect any mercy!")
+}
+
+text MeteorFalls_1F_1R_Text_HoldItRightThereMagma {
+    format("Hold it right there, TEAM MAGMA!\p You're badly mistaken if you think you can have your way with the world!")
+}
+
+text MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua {
+    format("Hehehe! Even TEAM AQUA joins us!\p But it's too much trouble to deal with you all…\p Heh, it doesn't matter!\p We've got the METEORITE, so off to MT. CHIMNEY we go!\p Hehehe! Be seeing you, you TEAM AQUA dingbats!")
+}
+
+text MeteorFalls_1F_1R_Text_ArchieSeenYouBefore {
+    format("ARCHIE: Didn't I see you before? At SLATEPORT's MUSEUM?\p Ah, so your name is {PLAYER}.\p At the time, I thought you were one of TEAM MAGMA's goons.\p Humph… You're one odd kid.\p TEAM MAGMA is a dangerous group of total fanatics.\p They engage in destruction, claiming to expand the land mass.\p They are the rivals to us, the sea-loving TEAM AQUA!")
+}
+
+text MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma {
+    format("BOSS, we should give chase to TEAM MAGMA…")
+}
+
+text MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo {
+    format("ARCHIE: Yes, yes, we must! We've got to hurry.\p There's no telling what TEAM MAGMA will do at MT. CHIMNEY!")
+}
+
+text MeteorFalls_1F_1R_Text_ArchieFarewell {
+    format("ARCHIE: {PLAYER}, you should keep an eye out for TEAM MAGMA, too.\p Farewell!")
+}
+
+text MeteorFalls_1F_1R_Text_MeetProfCozmo {
+    format("I… I'm COZMO… I'm a PROFESSOR…\p TEAM MAGMA asked me to guide them to METEOR FALLS…\p But they tricked me. They even took my METEORITE away…\p And then another similar bunch, TEAM AQUA showed up.\p After that… I don't understand any of it.\p But that TEAM MAGMA…\p What are they going to do with that METEORITE at MT. CHIMNEY?")
+}
+
+text MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney {
+    format("PROF. COZMO: But that TEAM MAGMA…\p What are they going to do with that METEORITE at MT. CHIMNEY?")
 }
 

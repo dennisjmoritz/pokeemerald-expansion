@@ -1,0 +1,8 @@
+#events for AbandonedShip_Underwater1
+
+script AbandonedShip_Underwater1_MapScripts {
+	map_script MAP_SCRIPT_ON_RESUME, AbandonedShip_Underwater1_OnResume
+	.byte 0
+
+}
+

@@ -1,4 +1,63 @@
-text MossdeepCity_House2_EventScript_WingullExitWest {
-    format("My little sister exchanges MAIL with her boyfriend in FORTREE.\p I don't envy her one bit at all.$ Even though I can't see my friend in FORTREE, my POKéMON carries MAIL\l back and forth for us.\p I'm not lonesome, even though we're apart.$ WINGULL: Pihyoh!")
+#events for MossdeepCity_House2
+
+script MossdeepCity_House2_MapScripts {
+	.byte 0
+
+}
+
+script MossdeepCity_House2_EventScript_Man {
+	msgbox MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree, MSGBOX_NPC
+	end
+
+}
+
+script MossdeepCity_House2_EventScript_Twin {
+	msgbox MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth, MSGBOX_NPC
+	end
+
+}
+
+script MossdeepCity_House2_EventScript_Wingull {
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_WINGULL, CRY_MODE_NORMAL
+	msgbox MossdeepCity_House2_Text_Wingull, MSGBOX_DEFAULT
+	waitmoncry
+	closemessage
+	setflag FLAG_WINGULL_DELIVERED_MAIL
+	clearflag FLAG_HIDE_FORTREE_CITY_HOUSE_4_WINGULL
+	call_if_eq VAR_FACING, DIR_NORTH, MossdeepCity_House2_EventScript_WingullExitNorth
+	call_if_eq VAR_FACING, DIR_WEST, MossdeepCity_House2_EventScript_WingullExitWest
+	removeobject LOCALID_MOSSDEEP_HOUSE_WINGULL
+	release
+	end
+
+}
+
+script MossdeepCity_House2_EventScript_WingullExitNorth {
+	applymovement LOCALID_MOSSDEEP_HOUSE_WINGULL, MossdeepCity_House2_Movement_WingullExitNorth
+	waitmovement 0
+	return
+
+}
+
+script MossdeepCity_House2_EventScript_WingullExitWest {
+	applymovement LOCALID_MOSSDEEP_HOUSE_WINGULL, MossdeepCity_House2_Movement_WingullExitEast
+	waitmovement 0
+	return
+
+}
+
+text MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree {
+    format("My little sister exchanges MAIL with her boyfriend in FORTREE.\p I don't envy her one bit at all.")
+}
+
+text MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth {
+    format("Even though I can't see my friend in FORTREE, my POKéMON carries MAIL\l back and forth for us.\p I'm not lonesome, even though we're apart.")
+}
+
+text MossdeepCity_House2_Text_Wingull {
+    format("WINGULL: Pihyoh!")
 }
 

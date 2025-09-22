@@ -1,0 +1,6 @@
+#events for SandgemTown_House1
+
+script SandgemTown_House1_MapScripts {
+	.byte 0
+}
+

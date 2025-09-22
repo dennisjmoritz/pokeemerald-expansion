@@ -1,0 +1,6 @@
+#events for FourIsland_House2
+
+script FourIsland_House2_MapScripts {
+	.byte 0
+}
+

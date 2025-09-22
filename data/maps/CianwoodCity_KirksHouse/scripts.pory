@@ -1,0 +1,6 @@
+#events for CianwoodCity_KirksHouse
+
+script CianwoodCity_KirksHouse_MapScripts {
+	.byte 0
+}
+

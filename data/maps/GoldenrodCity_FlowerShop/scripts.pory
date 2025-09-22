@@ -1,0 +1,6 @@
+#events for GoldenrodCity_FlowerShop
+
+script GoldenrodCity_FlowerShop_MapScripts {
+	.byte 0
+}
+

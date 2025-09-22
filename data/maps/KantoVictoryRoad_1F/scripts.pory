@@ -1,0 +1,6 @@
+#events for KantoVictoryRoad_1F
+
+script KantoVictoryRoad_1F_MapScripts {
+	.byte 0
+}
+

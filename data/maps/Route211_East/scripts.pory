@@ -1,0 +1,6 @@
+#events for Route211_East
+
+script Route211_East_MapScripts {
+	.byte 0
+}
+

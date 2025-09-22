@@ -1,4 +1,88 @@
-text Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened {
-    format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER I love.” … … … … … … … …\p The lock clicked open!$ Not many TRAINERS have made it this far.$ That must mean you're tough, too…$ You've beaten the POKéMON LEAGUE CHAMPION? That's too much!$ Consider yourself lucky to be battling me!$ This isn't right! I can't lose!$ It's a miracle that you beat me. You can brag about it.$ You've been slugging through the TRICK HOUSE challenge, too.$ I see… You possess an extraordinary style.$ Seeing someone like you should please the TRICK MASTER.")
+#events for Route110_TrickHousePuzzle8
+
+script Route110_TrickHousePuzzle8_MapScripts {
+	.byte 0
+
+}
+
+script Route110_TrickHousePuzzle8_EventScript_Scroll {
+	lockall
+	goto_if_eq VAR_TRICK_HOUSE_PUZZLE_8_STATE, 0, Route110_TrickHousePuzzle8_EventScript_FoundScroll
+	goto Route110_TrickHousePuzzle_EventScript_ReadScrollAgain
+	end
+
+}
+
+script Route110_TrickHousePuzzle8_EventScript_FoundScroll {
+	setvar VAR_TRICK_HOUSE_PUZZLE_8_STATE, 1
+	goto Route110_TrickHousePuzzle_EventScript_FoundScroll
+	end
+
+}
+
+script Route110_TrickHousePuzzle8_EventScript_Vincent {
+	trainerbattle_single TRAINER_VINCENT, Route110_TrickHousePuzzle8_Text_VincentIntro, Route110_TrickHousePuzzle8_Text_VincentDefeat
+	msgbox Route110_TrickHousePuzzle8_Text_VincentPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script Route110_TrickHousePuzzle8_EventScript_Keira {
+	trainerbattle_single TRAINER_KEIRA, Route110_TrickHousePuzzle8_Text_KeiraIntro, Route110_TrickHousePuzzle8_Text_KeiraDefeat
+	msgbox Route110_TrickHousePuzzle8_Text_KeiraPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script Route110_TrickHousePuzzle8_EventScript_Leroy {
+	trainerbattle_single TRAINER_LEROY, Route110_TrickHousePuzzle8_Text_LeroyIntro, Route110_TrickHousePuzzle8_Text_LeroyDefeat
+	msgbox Route110_TrickHousePuzzle8_Text_LeroyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened {
+	.string "{PLAYER} wrote down the secret code\n"
+	.string "on the door.\p"
+	.string "“TRICK MASTER I love.”\n"
+	.string "… … … … … … … …\p"
+	.string "The lock clicked open!$"
+
+}
+
+text Route110_TrickHousePuzzle8_Text_VincentIntro {
+    format("Not many TRAINERS have made it this far.")
+}
+
+text Route110_TrickHousePuzzle8_Text_VincentDefeat {
+    format("That must mean you're tough, too…")
+}
+
+text Route110_TrickHousePuzzle8_Text_VincentPostBattle {
+    format("You've beaten the POKéMON LEAGUE CHAMPION? That's too much!")
+}
+
+text Route110_TrickHousePuzzle8_Text_KeiraIntro {
+    format("Consider yourself lucky to be battling me!")
+}
+
+text Route110_TrickHousePuzzle8_Text_KeiraDefeat {
+    format("This isn't right! I can't lose!")
+}
+
+text Route110_TrickHousePuzzle8_Text_KeiraPostBattle {
+    format("It's a miracle that you beat me. You can brag about it.")
+}
+
+text Route110_TrickHousePuzzle8_Text_LeroyIntro {
+    format("You've been slugging through the TRICK HOUSE challenge, too.")
+}
+
+text Route110_TrickHousePuzzle8_Text_LeroyDefeat {
+    format("I see… You possess an extraordinary style.")
+}
+
+text Route110_TrickHousePuzzle8_Text_LeroyPostBattle {
+    format("Seeing someone like you should please the TRICK MASTER.")
 }
 

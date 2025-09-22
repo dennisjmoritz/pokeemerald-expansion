@@ -1,4 +1,18 @@
-text AbandonedShip_Rooms_B1F_EventScript_FatMan {
+#events for AbandonedShip_Rooms_B1F
+
+script AbandonedShip_Rooms_B1F_MapScripts {
+	map_script MAP_SCRIPT_ON_RESUME, AbandonedShip_Rooms_B1F_OnResume
+	.byte 0
+
+}
+
+script AbandonedShip_Rooms_B1F_EventScript_FatMan {
+	msgbox AbandonedShip_Rooms_B1F_Text_GettingQueasy, MSGBOX_NPC
+	end
+
+}
+
+text AbandonedShip_Rooms_B1F_Text_GettingQueasy {
     format("Urrrrppp…\p I'm getting queasy just being aboard this ship…\p It's not even moving, but…")
 }
 

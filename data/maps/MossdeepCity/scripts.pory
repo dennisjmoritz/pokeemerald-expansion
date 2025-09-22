@@ -1,28 +1,277 @@
-text MossdeepCity_EventScript_ScottExitEast {
-    format("I got this from STEVEN, but I don't know what it's good for.\p I think it's called KING'S ROCK. Do you want it?$ Why would you want it? You're weird.\p You can keep it, but keep it a secret from STEVEN.$ STEVEN's house is right over there!$ Yeah, you think so, too! What are you supposed to do with some weird rock?$ Around MOSSDEEP, you can see wild WAILMER.\p It's called, uh… What was it now…\p WAI, WAI, WAI…\p WAILMER watching!$ The island's SPACE CENTER has been launching huge rockets.\p There's been some kind of an uproar over a letter they received recently.$ The island's SPACE CENTER has been launching huge rockets.$ I heard from a SAILOR buddy that TEAM AQUA set up shop in LILYCOVE.\p I also heard that someone came along and wiped the floor with them!\p But MOSSDEEP here's been targeted by that TEAM MAGMA.\p If you want to know what they're up to, go visit the SPACE CENTER.$ I'm a SAILOR, so the sea's obviously more important to me.\p But you know? When I get back on land after a long voyage, I do feel relief!$ Wouldn't it be nice?\p If the whole world was covered in plants and flowers like this island?$ All life needs the sea to live, even though it makes its home on the land.\p Life, having run its course, becomes soil and returns to the land.\p And the sea is always connected to the land.\p Yes, like the very shoreline here.$ A voyage on a ship is fine.\p But crossing the sea with POKéMON using SURF…\p Now that's an exhilarating trip! Wouldn't you agree, youngster?$ This rock has a special meaning to the people at the SPACE CENTER.\p They put it here as their wish for their rockets to fly safely.\p When you make a wish, what do you use? Do you wish upon a star?\p I use a wish tag to make it happen. That's what I do.$ It's a white rock.$ MOSSDEEP CITY POKéMON GYM LEADERS: LIZA & TATE\p “The mystic combination!”$ MOSSDEEP CITY “Our slogan: Cherish POKéMON!”$ MOSSDEEP SPACE CENTER “The closest place to space.”$ SCOTT: {PLAYER}{KUN}, feeling good? I'm doing great!\p I'd heard MOSSDEEP's GYM LEADER is pretty strong, so I decided to come\l take a look-see for myself.\p But there's something wrong about this town.\p People are going on about a warning letter and the SPACE CENTER…\p I don't think it concerns me in any way, though.$ Ahh… It feels great letting the waves wash over my feet…\p Speaking of the waves, you know that island city SOOTOPOLIS?\p I think the GYM there had a new LEADER come in.\p People tell me the new LEADER once mentored WALLACE.")
+#events for MossdeepCity
+
+script MossdeepCity_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_OnTransition
+	.byte 0
+
 }
 
-script MossdeepCity_EventScript_CitySign {
-    lockall
-    msgbox(MossdeepCity_Text_CitySign)
-    releaseall
+script MossdeepCity_EventScript_PokefanF {
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_HM_DIVE, MossdeepCity_EventScript_PokefanFMagmaGone
+	msgbox MossdeepCity_Text_SpaceCenterReceivedLetter, MSGBOX_DEFAULT
+	release
+	end
+
 }
 
-script MossdeepCity_EventScript_GymSign {
-    lockall
-    msgbox(MossdeepCity_Text_GymSign)
-    releaseall
+script MossdeepCity_EventScript_PokefanFMagmaGone {
+	msgbox MossdeepCity_Text_SpaceCenterLaunchingRockets, MSGBOX_DEFAULT
+	release
+	end
+
 }
 
-script MossdeepCity_EventScript_SpaceCenterSign {
-    lockall
-    msgbox(MossdeepCity_Text_SpaceCenterSign)
-    releaseall
+script MossdeepCity_EventScript_Sailor {
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_HM_DIVE, MossdeepCity_EventScript_SailorMagmaGone
+	msgbox MossdeepCity_Text_MossdeepTargetedByMagma, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MossdeepCity_EventScript_SailorMagmaGone {
+	msgbox MossdeepCity_Text_FeelReliefOnLand, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MossdeepCity_EventScript_NinjaBoy {
+	msgbox MossdeepCity_Text_WailmerWatching, MSGBOX_NPC
+	end
+
+}
+
+script MossdeepCity_EventScript_ExpertM {
+	msgbox MossdeepCity_Text_LifeNeedsSeaToLive, MSGBOX_NPC
+	end
+
+}
+
+script MossdeepCity_EventScript_Girl {
+	msgbox MossdeepCity_Text_NiceIfWorldCoveredByFlowers, MSGBOX_NPC
+	end
+
+}
+
+script MossdeepCity_EventScript_Woman {
+	msgbox MossdeepCity_Text_SpecialSpaceCenterRock, MSGBOX_NPC
+	end
+
 }
 
 script MossdeepCity_EventScript_WhiteRock {
-    lockall
-    msgbox(MossdeepCity_Text_ItsAWhiteRock)
-    releaseall
+	msgbox MossdeepCity_Text_ItsAWhiteRock, MSGBOX_SIGN
+	end
+
+}
+
+script MossdeepCity_EventScript_GymSign {
+	msgbox MossdeepCity_Text_GymSign, MSGBOX_SIGN
+	end
+
+}
+
+script MossdeepCity_EventScript_CitySign {
+	msgbox MossdeepCity_Text_CitySign, MSGBOX_SIGN
+	end
+
+}
+
+script MossdeepCity_EventScript_SpaceCenterSign {
+	msgbox MossdeepCity_Text_SpaceCenterSign, MSGBOX_SIGN
+	end
+
+}
+
+script MossdeepCity_EventScript_VisitedMossdeep {
+	setflag FLAG_VISITED_MOSSDEEP_CITY
+	setvar VAR_TEMP_1, 1
+	end
+
+}
+
+script MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter {
+	lockall
+	applymovement LOCALID_MOSSDEEP_MAXIE, MossdeepCity_Movement_MaxieGestureToSpaceCenter
+	waitmovement 0
+	applymovement LOCALID_MOSSDEEP_GRUNT_1, MossdeepCity_Movement_GruntFaceSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_2, MossdeepCity_Movement_GruntFaceSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_3, MossdeepCity_Movement_GruntFaceSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_4, MossdeepCity_Movement_GruntFaceSpaceCenter
+	waitmovement 0
+	applymovement LOCALID_MOSSDEEP_MAXIE, MossdeepCity_Movement_MaxieEnterSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_1, MossdeepCity_Movement_Grunt1EnterSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_2, MossdeepCity_Movement_Grunt2EnterSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_3, MossdeepCity_Movement_Grunt3EnterSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_4, MossdeepCity_Movement_Grunt4EnterSpaceCenter
+	waitmovement 0
+	removeobject LOCALID_MOSSDEEP_MAXIE
+	removeobject LOCALID_MOSSDEEP_GRUNT_1
+	removeobject LOCALID_MOSSDEEP_GRUNT_2
+	removeobject LOCALID_MOSSDEEP_GRUNT_3
+	removeobject LOCALID_MOSSDEEP_GRUNT_4
+	delay 30
+	setvar VAR_MOSSDEEP_CITY_STATE, 2
+	setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
+	releaseall
+	end
+
+}
+
+script MossdeepCity_EventScript_Man {
+	lock
+	faceplayer
+	msgbox MossdeepCity_Text_SurfExhilarating, MSGBOX_DEFAULT
+	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+}
+
+script MossdeepCity_EventScript_KingsRockBoy {
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_KINGS_ROCK, MossdeepCity_EventScript_ReceivedKingsRock
+	msgbox MossdeepCity_Text_WantKingsRockStevenGaveMe, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MossdeepCity_EventScript_DeclineKingsRock
+	msgbox MossdeepCity_Text_YouCanKeepIt, MSGBOX_DEFAULT
+	giveitem ITEM_KINGS_ROCK
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_KINGS_ROCK
+	release
+	end
+
+}
+
+script MossdeepCity_EventScript_ReceivedKingsRock {
+	msgbox MossdeepCity_Text_StevensHouseOverThere, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MossdeepCity_EventScript_DeclineKingsRock {
+	msgbox MossdeepCity_Text_WhatToDoWithWeirdRock, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MossdeepCity_EventScript_BlackBelt {
+	msgbox MossdeepCity_Text_SootopolisNewGymLeader, MSGBOX_NPC
+	end
+
+}
+
+script MossdeepCity_EventScript_Scott {
+	lock
+	faceplayer
+	msgbox MossdeepCity_Text_ScottSomethingWrongWithTown, MSGBOX_DEFAULT
+	closemessage
+	call_if_eq VAR_FACING, DIR_NORTH, MossdeepCity_EventScript_ScottExitNorth
+	call_if_eq VAR_FACING, DIR_EAST, MossdeepCity_EventScript_ScottExitEast
+	addvar VAR_SCOTT_STATE, 1
+	removeobject LOCALID_MOSSDEEP_SCOTT
+	release
+	end
+
+}
+
+script MossdeepCity_EventScript_ScottExitNorth {
+	applymovement LOCALID_PLAYER, MossdeepCity_Movement_PlayerWatchScottExit
+	applymovement LOCALID_MOSSDEEP_SCOTT, MossdeepCity_Movement_ScottExitNorth
+	waitmovement 0
+	return
+
+}
+
+script MossdeepCity_EventScript_ScottExitEast {
+	applymovement LOCALID_PLAYER, MossdeepCity_Movement_PlayerWatchScottExit
+	applymovement LOCALID_MOSSDEEP_SCOTT, MossdeepCity_Movement_ScottExitEast
+	waitmovement 0
+	return
+
+}
+
+text MossdeepCity_Text_WantKingsRockStevenGaveMe {
+    format("I got this from STEVEN, but I don't know what it's good for.\p I think it's called KING'S ROCK. Do you want it?")
+}
+
+text MossdeepCity_Text_YouCanKeepIt {
+    format("Why would you want it? You're weird.\p You can keep it, but keep it a secret from STEVEN.")
+}
+
+text MossdeepCity_Text_StevensHouseOverThere {
+    format("STEVEN's house is right over there!")
+}
+
+text MossdeepCity_Text_WhatToDoWithWeirdRock {
+    format("Yeah, you think so, too! What are you supposed to do with some weird rock?")
+}
+
+text MossdeepCity_Text_WailmerWatching {
+    format("Around MOSSDEEP, you can see wild WAILMER.\p It's called, uh… What was it now…\p WAI, WAI, WAI…\p WAILMER watching!")
+}
+
+text MossdeepCity_Text_SpaceCenterReceivedLetter {
+    format("The island's SPACE CENTER has been launching huge rockets.\p There's been some kind of an uproar over a letter they received recently.")
+}
+
+text MossdeepCity_Text_SpaceCenterLaunchingRockets {
+    format("The island's SPACE CENTER has been launching huge rockets.")
+}
+
+text MossdeepCity_Text_MossdeepTargetedByMagma {
+    format("I heard from a SAILOR buddy that TEAM AQUA set up shop in LILYCOVE.\p I also heard that someone came along and wiped the floor with them!\p But MOSSDEEP here's been targeted by that TEAM MAGMA.\p If you want to know what they're up to, go visit the SPACE CENTER.")
+}
+
+text MossdeepCity_Text_FeelReliefOnLand {
+    format("I'm a SAILOR, so the sea's obviously more important to me.\p But you know? When I get back on land after a long voyage, I do feel relief!")
+}
+
+text MossdeepCity_Text_NiceIfWorldCoveredByFlowers {
+    format("Wouldn't it be nice?\p If the whole world was covered in plants and flowers like this island?")
+}
+
+text MossdeepCity_Text_LifeNeedsSeaToLive {
+    format("All life needs the sea to live, even though it makes its home on the land.\p Life, having run its course, becomes soil and returns to the land.\p And the sea is always connected to the land.\p Yes, like the very shoreline here.")
+}
+
+text MossdeepCity_Text_SurfExhilarating {
+    format("A voyage on a ship is fine.\p But crossing the sea with POKéMON using SURF…\p Now that's an exhilarating trip! Wouldn't you agree, youngster?")
+}
+
+text MossdeepCity_Text_SpecialSpaceCenterRock {
+    format("This rock has a special meaning to the people at the SPACE CENTER.\p They put it here as their wish for their rockets to fly safely.\p When you make a wish, what do you use? Do you wish upon a star?\p I use a wish tag to make it happen. That's what I do.")
+}
+
+text MossdeepCity_Text_ItsAWhiteRock {
+    format("It's a white rock.")
+}
+
+text MossdeepCity_Text_GymSign {
+    format("MOSSDEEP CITY POKéMON GYM LEADERS: LIZA & TATE\p “The mystic combination!”")
+}
+
+text MossdeepCity_Text_CitySign {
+    format("MOSSDEEP CITY “Our slogan: Cherish POKéMON!”")
+}
+
+text MossdeepCity_Text_SpaceCenterSign {
+    format("MOSSDEEP SPACE CENTER “The closest place to space.”")
+}
+
+text MossdeepCity_Text_ScottSomethingWrongWithTown {
+    format("SCOTT: {PLAYER}{KUN}, feeling good? I'm doing great!\p I'd heard MOSSDEEP's GYM LEADER is pretty strong, so I decided to come\l take a look-see for myself.\p But there's something wrong about this town.\p People are going on about a warning letter and the SPACE CENTER…\p I don't think it concerns me in any way, though.")
+}
+
+text MossdeepCity_Text_SootopolisNewGymLeader {
+    format("Ahh… It feels great letting the waves wash over my feet…\p Speaking of the waves, you know that island city SOOTOPOLIS?\p I think the GYM there had a new LEADER come in.\p People tell me the new LEADER once mentored WALLACE.")
 }
 

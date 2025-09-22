@@ -1,0 +1,6 @@
+#events for Route46
+
+script Route46_MapScripts {
+	.byte 0
+}
+

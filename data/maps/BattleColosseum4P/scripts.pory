@@ -1,0 +1,6 @@
+#events for BattleColosseum4P
+
+script BattleColosseum4P_MapScripts {
+	.byte 0
+}
+

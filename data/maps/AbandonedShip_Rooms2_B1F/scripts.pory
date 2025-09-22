@@ -1,4 +1,17 @@
-text AbandonedShip_Rooms2_B1F_EventScript_Camper {
+#events for AbandonedShip_Rooms2_B1F
+
+script AbandonedShip_Rooms2_B1F_MapScripts {
+	.byte 0
+
+}
+
+script AbandonedShip_Rooms2_B1F_EventScript_Camper {
+	msgbox AbandonedShip_Rooms2_B1F_Text_PerfectPlaceToGoExploring, MSGBOX_NPC
+	end
+
+}
+
+text AbandonedShip_Rooms2_B1F_Text_PerfectPlaceToGoExploring {
     format("This is a perfect place to go exploring! It's exciting here!\p I bet there're amazing treasures on board.")
 }
 

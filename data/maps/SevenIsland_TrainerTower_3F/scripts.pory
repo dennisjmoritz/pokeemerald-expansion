@@ -1,0 +1,6 @@
+#events for SevenIsland_TrainerTower_3F
+
+script SevenIsland_TrainerTower_3F_MapScripts {
+	.byte 0
+}
+

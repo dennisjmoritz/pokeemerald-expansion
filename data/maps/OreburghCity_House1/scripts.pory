@@ -1,0 +1,6 @@
+#events for OreburghCity_House1
+
+script OreburghCity_House1_MapScripts {
+	.byte 0
+}
+

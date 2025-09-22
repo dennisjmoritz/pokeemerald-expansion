@@ -1,0 +1,6 @@
+#events for Route44
+
+script Route44_MapScripts {
+	.byte 0
+}
+

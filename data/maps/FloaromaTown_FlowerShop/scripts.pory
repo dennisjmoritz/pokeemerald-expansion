@@ -1,0 +1,6 @@
+#events for FloaromaTown_FlowerShop
+
+script FloaromaTown_FlowerShop_MapScripts {
+	.byte 0
+}
+

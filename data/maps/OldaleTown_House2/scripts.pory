@@ -1,4 +1,27 @@
-text OldaleTown_House2_EventScript_Man {
-    format("When POKéMON battle, they eventually level up and become stronger.$ If the POKéMON with you become stronger, you'll be able to go farther\l away from here.")
+#events for OldaleTown_House2
+
+script OldaleTown_House2_MapScripts {
+	.byte 0
+
+}
+
+script OldaleTown_House2_EventScript_Woman {
+	msgbox OldaleTown_House2_Text_PokemonLevelUp, MSGBOX_NPC
+	end
+
+}
+
+script OldaleTown_House2_EventScript_Man {
+	msgbox OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon, MSGBOX_NPC
+	end
+
+}
+
+text OldaleTown_House2_Text_PokemonLevelUp {
+    format("When POKéMON battle, they eventually level up and become stronger.")
+}
+
+text OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon {
+    format("If the POKéMON with you become stronger, you'll be able to go farther\l away from here.")
 }
 

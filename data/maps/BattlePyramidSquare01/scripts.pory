@@ -1,0 +1,6 @@
+#events for BattlePyramidSquare01
+
+script BattlePyramidSquare01_MapScripts {
+	.byte 0
+}
+

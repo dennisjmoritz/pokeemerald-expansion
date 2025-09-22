@@ -1,0 +1,6 @@
+#events for CianwoodCity_House2
+
+script CianwoodCity_House2_MapScripts {
+	.byte 0
+}
+

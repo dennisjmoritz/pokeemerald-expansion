@@ -1,4 +1,39 @@
-text MossdeepCity_PokemonCenter_1F_EventScript_Girl {
-    format("The GYM LEADERS in this town are a formidable duo.\p Their combination attacks are, like, excellent and wow!$ Depending on the special abilities of POKéMON, some moves might change\l or not work at all.")
+#events for MossdeepCity_PokemonCenter_1F
+
+script MossdeepCity_PokemonCenter_1F_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+}
+
+script MossdeepCity_PokemonCenter_1F_EventScript_Nurse {
+	setvar VAR_0x800B, LOCALID_MOSSDEEP_NURSE
+// FIXME undefined reference: 	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+}
+
+script MossdeepCity_PokemonCenter_1F_EventScript_Woman {
+	msgbox MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable, MSGBOX_NPC
+	end
+
+}
+
+script MossdeepCity_PokemonCenter_1F_EventScript_Girl {
+	msgbox MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves, MSGBOX_NPC
+	end
+
+}
+
+text MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable {
+    format("The GYM LEADERS in this town are a formidable duo.\p Their combination attacks are, like, excellent and wow!")
+}
+
+text MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves {
+    format("Depending on the special abilities of POKéMON, some moves might change\l or not work at all.")
 }
 

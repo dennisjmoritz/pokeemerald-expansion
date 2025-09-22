@@ -1,4 +1,45 @@
-text VerdanturfTown_BattleTentCorridor_EventScript_EnterCorridor {
-    format("Which CONTEST are you entering? Want a piece of advice?\p In any CONTEST, for example, a CUTE CONTEST, I don't think they judge you\l only on cuteness in the first round.\p You need to work out ways for raising POKéMON better.$ I raised my POKéMON to be cute.\p I found out you can put POKéMON in a CONTEST for cuteness!\p I'm so glad I raised my POKéMON with loving care…$ My POKéMON rules!\p It's cool, tough yet beautiful, cute, and smart. It's complete!\p I may as well go for wins in every single CONTEST.$ POKéMON CONTESTS NORMAL RANK STAGE!")
+#events for VerdanturfTown_BattleTentCorridor
+
+script VerdanturfTown_BattleTentCorridor_MapScripts {
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentCorridor_OnFrame
+	.byte 0
+
+}
+
+script VerdanturfTown_BattleTentCorridor_EventScript_EnterCorridor {
+	lockall
+	setvar VAR_TEMP_0, 1
+	applymovement LOCALID_VERDANTURF_TENT_CORRIDOR_ATTENDANT, VerdanturfTown_BattleTentCorridor_Movement_WalkToDoor
+	applymovement LOCALID_PLAYER, VerdanturfTown_BattleTentCorridor_Movement_WalkToDoor
+	waitmovement 0
+	opendoor 2, 1
+	waitdooranim
+	applymovement LOCALID_VERDANTURF_TENT_CORRIDOR_ATTENDANT, VerdanturfTown_BattleTentCorridor_Movement_AttendantEnterDoor
+	applymovement LOCALID_PLAYER, VerdanturfTown_BattleTentCorridor_Movement_PlayerEnterDoor
+	waitmovement 0
+	closedoor 2, 1
+	waitdooranim
+	setvar VAR_0x8006, 0
+	warp MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM, 6, 5
+	waitstate
+	releaseall
+	end
+
+}
+
+text VerdanturfTown_ContestHall_Text_WhichContestYouEntering {
+    format("Which CONTEST are you entering? Want a piece of advice?\p In any CONTEST, for example, a CUTE CONTEST, I don't think they judge you\l only on cuteness in the first round.\p You need to work out ways for raising POKéMON better.")
+}
+
+text VerdanturfTown_ContestHall_Text_RaisedMonToBeCute {
+    format("I raised my POKéMON to be cute.\p I found out you can put POKéMON in a CONTEST for cuteness!\p I'm so glad I raised my POKéMON with loving care…")
+}
+
+text VerdanturfTown_ContestHall_Text_MyMonRules {
+    format("My POKéMON rules!\p It's cool, tough yet beautiful, cute, and smart. It's complete!\p I may as well go for wins in every single CONTEST.")
+}
+
+text VerdanturfTown_ContestHall_Text_NormalRankStage {
+    format("POKéMON CONTESTS NORMAL RANK STAGE!")
 }
 

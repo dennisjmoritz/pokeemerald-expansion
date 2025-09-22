@@ -1,0 +1,6 @@
+#events for BattleTower_Gatehouse
+
+script BattleTower_Gatehouse_MapScripts {
+	.byte 0
+}
+

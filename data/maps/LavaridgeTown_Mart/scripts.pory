@@ -1,4 +1,40 @@
-text LavaridgeTown_Mart_EventScript_OldWoman {
-    format("Use X SPEED to add to a POKéMON's SPEED in battle.\p That will help it get in the first strike--a decided advantage!$ On MT. CHIMNEY's peak, there's a local specialty that you can buy only there.\p Give it to a POKéMON--it will be elated.")
+#events for LavaridgeTown_Mart
+
+script LavaridgeTown_Mart_MapScripts {
+	.byte 0
+
+}
+
+script LavaridgeTown_Mart_EventScript_Clerk {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart LavaridgeTown_Mart_Pokemart
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script LavaridgeTown_Mart_EventScript_ExpertM {
+	msgbox LavaridgeTown_Mart_Text_XSpeedFirstStrike, MSGBOX_NPC
+	end
+
+}
+
+script LavaridgeTown_Mart_EventScript_OldWoman {
+	msgbox LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney, MSGBOX_NPC
+	end
+
+}
+
+text LavaridgeTown_Mart_Text_XSpeedFirstStrike {
+    format("Use X SPEED to add to a POKéMON's SPEED in battle.\p That will help it get in the first strike--a decided advantage!")
+}
+
+text LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney {
+    format("On MT. CHIMNEY's peak, there's a local specialty that you can buy only there.\p Give it to a POKéMON--it will be elated.")
 }
 

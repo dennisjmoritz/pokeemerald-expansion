@@ -1,0 +1,6 @@
+#events for FloaromaTown_House1
+
+script FloaromaTown_House1_MapScripts {
+	.byte 0
+}
+

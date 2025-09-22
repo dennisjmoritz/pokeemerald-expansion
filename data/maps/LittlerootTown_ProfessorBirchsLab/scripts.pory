@@ -1,94 +1,914 @@
-text LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall {
-    format("Hunh? PROF. BIRCH?\p The PROF's away on fieldwork. Ergo, he isn't here.\p Oh, let me explain what fieldwork is.\p It is to study things in the natural environment, like fields and mountains,\l instead of a laboratory.\p The PROF isn't one for doing desk work. He's the type of person who would\l rather go outside and experience\l things than read about them here.$ The PROF isn't one for doing desk work. He's the type of person who would\l rather go outside and experience\l things than read about them here.$ PROF. BIRCH is studying the habitats and distribution of POKéMON.\p The PROF enjoys {RIVAL}'s help, too. There's a lot of love there.$ PROF. BIRCH: So, {PLAYER}{KUN}.\p I've heard so much about you from your father.\p I've heard that you don't have your own POKéMON yet.\p But the way you battled earlier, you pulled it off with aplomb!\p I guess you have your father's blood in your veins after all!\p Oh, yes. As thanks for rescuing me, I'd like you to have the POKéMON you\l used earlier.\p {PLAYER} received the {STR_VAR_1}!$ PROF. BIRCH: While you're at it, why not give a nickname to that {STR_VAR_1}?$ PROF. BIRCH: If you work at POKéMON and gain experience, I think you'll make\l an extremely good TRAINER.\p My kid, {RIVAL}, is also studying POKéMON while helping me out.\p {PLAYER}{KUN}, don't you think it might be a good idea to go see {RIVAL}?$ PROF. BIRCH: Great! {RIVAL} should be happy, too.\p Get {RIVAL} to teach you what it means to be a TRAINER.$ PROF. BIRCH: Oh, don't be that way. You should go meet my kid.$ PROF. BIRCH: {RIVAL}? Gone home, I think.\p Or maybe that kid's scrabbling around in tall grass again somewhere…\p If you or your POKéMON get tired, you should get some rest at home.$ PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!\p I heard you beat {RIVAL} on your first try. That's excellent!\p {RIVAL}'s been helping with my research for a long time.\p {RIVAL} has an extensive history as a TRAINER already.\p Here, {PLAYER}{KUN}, I ordered this for my research, but I think you should have\l this POKéDEX.$ {PLAYER} received the POKéDEX!$ PROF. BIRCH: The POKéDEX is a high-tech tool that automatically makes a record\l of any POKéMON you meet or catch.\p My kid, {RIVAL}, goes everywhere with it.\p Whenever my kid catches a rare POKéMON and records its data in the POKéDEX,\l why, {RIVAL} looks for me while I'm out\l doing fieldwork, and shows me.$ PROF. BIRCH: Countless POKéMON await you!\p Argh, I'm getting the itch to get out and do fieldwork again!$ MAY: Oh, wow, {PLAYER}{KUN}! You got a POKéDEX, too!\p That's great! Just like me! I've got something for you, too!$ MAY: It's fun if you can get a lot of POKéMON!\p I'm going to look all over the place because I want different POKéMON.\p If I find any cute POKéMON, I'll catch them with POKé BALLS!$ Oh? Your BAG's full.$ MAY: I wonder where I should go look for POKéMON next?$ BRENDAN: Huh… So you got a POKéDEX, too.\p Well then, here. I'll give you these.$ BRENDAN: You know it's more fun to have a whole bunch of POKéMON.\p I'm going to explore all over the place to find different POKéMON.\p If I find any cool POKéMON, you bet I'll try to get them with POKé BALLS.$ Hey, your BAG's full.$ BRENDAN: Where should I look for POKéMON next…$ It's a serious-looking machine. The PROF must use this for research.$ It's a PC used for research. Better not mess around with it.$ It's crammed with books on POKéMON.$ It's a book that's too hard to read.$ PROF. BIRCH: Now…\p {PLAYER}{KUN} and {RIVAL}, I've had the two of you help me study POKéMON.\p Thanks to your help, new facts are coming to light.\p It appears that in the HOENN region, there are also POKéMON from other\l regions.\p It goes to show how rich and varied the natural environments of HOENN\l happen to be.\p That's why I think it's necessary for me to upgrade your POKéDEX to\l the NATIONAL Mode.\p Here, let me see your POKéDEX units.$ MAY: Eheheh!\p It's so cool that even my POKéDEX is getting updated!\p It's because you went out and caught so many POKéMON, {PLAYER}{KUN}!$ BRENDAN: I went out all over HOENN and checked out POKéMON.\p You can thank me for getting the NATIONAL Mode POKéDEX.\p Yep, you're lucky, {PLAYER}!$ PROF. BIRCH: Okay, all done!$ {PLAYER}'s POKéDEX was upgraded to the NATIONAL Mode!$ PROF. BIRCH: But listen. You've become the CHAMPION,\l but your POKéMON journey isn't over.\p There is no end to the road that is POKéMON.\p Somewhere, there is a grassy patch that's waiting for you!$ MAY: I think I'll take a short break from fieldwork.\p I think I'll help the PROF here for a while.$ BRENDAN: For the time being, I'm taking a break from fieldwork.\p I'll be helping out the PROF here for a while.$ PROF. BIRCH: Oh, {PLAYER}{KUN}! Let's have a look at your POKéDEX.\p … … … … … … … … … … … …\p Yes, there's no doubt about it.\p You really have completed the HOENN region's POKéDEX.\p That's more than just impressive.\p I have a gift for you.\p Consider it my show of appreciation for the fantastic work you've done.\p My gift is a rare POKéMON only found in another region!\p You can have any one of these three POKéMON!$ PROF. BIRCH: These are rare POKéMON only found in another region!\p You can have any one of these three POKéMON!$ PROF. BIRCH: The FIRE POKéMON CYNDAQUIL caught your eye!\p You're as sharp as ever!\p So the CYNDAQUIL is your choice?$ PROF. BIRCH: The WATER POKéMON TOTODILE is your choice!\p You know how to pick a good one.\p So, you'll take the TOTODILE?$ PROF. BIRCH: The GRASS POKéMON CHIKORITA is your choice!\p You sure know what you're doing.\p So, you'll take the CHIKORITA?$ PROF. BIRCH: Take your time before you decide.\p They're all invaluable POKéMON.$ PROF. BIRCH: I see! You picked a fine POKéMON!$ {PLAYER} received the {STR_VAR_1} from PROF. BIRCH!$ Want to give a nickname to the {STR_VAR_1} you received?$ PROF. BIRCH: Listen, {PLAYER}{KUN}. You've completed the HOENN POKéDEX,\l but your POKéMON journey isn't over.\p There is no end to the road that is POKéMON.\p Somewhere, there is a grassy patch that's waiting for you!$ You received the promised POKéMON. Better leave the others alone.$ Oh, you don't have any room for this POKéMON.$ MAY: {PLAYER}{KUN}, after this… What are you going to do?\p Are you going to keep battling and sharpening your skills?\p Or are you going to try filling the NATIONAL POKéDEX?\p I'm staying here to help the PROF.$ BRENDAN: Rather than collecting POKéMON, I prefer slowly and \l steadily raising the one I chose.$ MAY: Oh, hi, {PLAYER}{KUN}! Have you gone to that place,\l the BATTLE FRONTIER?$ BRENDAN: Hey, {PLAYER}! Have you gone out to that place,\l the BATTLE FRONTIER?$ … … … … … … … … … … … Beep!\p SCOTT: Hi, hi, {PLAYER}! It's me, SCOTT.\p I'm aboard the S.S. TIDAL now. It feels great to be on the sea!\p By the way…\p There's this place that I'd like to invite you to for a visit.\p If you're interested, board a ferry at either SLATEPORT or LILYCOVE.\p I'll fill you in on the details when we meet. I'll be waiting!\p … … … … … … … … … … … Click!")
+#events for LittlerootTown_ProfessorBirchsLab
+
+script LittlerootTown_ProfessorBirchsLab_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_ProfessorBirchsLab_OnTransition
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_ProfessorBirchsLab_OnWarp
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_ProfessorBirchsLab_OnFrame
+	.byte 0
+
+	@ State descriptions for VAR_DEX_UPGRADE_JOHTO_STARTER_STATE
+	@ 1: Beat Elite Four, Dex upgrade ready
+	@ 2: Received National Dex
+	@ 3: Left lab after receiving National Dex
+	@ 4: Entered lab after catching all Hoenn mons
+	@ 5: Birch told player to choose Johto starter
+	@ 6: Chose Johto starter
+
+	@ State descriptions for VAR_BIRCH_LAB_STATE
+	@ 1: Never occurs
+	@ 2: Chose starter
+	@ 3: Received starter in lab
+	@ 4: Defeated rival on Route 103
+	@ 5: Received pokedex
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_CheckReadyForJohtoStarter {
+	specialvar VAR_RESULT, HasAllHoennMons
+	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_ProfessorBirchsLab_EventScript_SetReadyForJohtoStarter
+	setobjectmovementtype LOCALID_BIRCHS_LAB_RIVAL, MOVEMENT_TYPE_WANDER_UP_AND_DOWN
+	setobjectxyperm LOCALID_BIRCHS_LAB_RIVAL, 5, 10
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SetReadyForJohtoStarter {
+	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 4
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_SetJohtoStarterLayout
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SetJohtoStarterLayout {
+	setmaplayoutindex LAYOUT_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB_WITH_TABLE
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SetAfterJohtoStarterLayout {
+	setmaplayoutindex LAYOUT_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB_WITH_TABLE
+	setobjectmovementtype LOCALID_BIRCHS_LAB_RIVAL, MOVEMENT_TYPE_WANDER_UP_AND_DOWN
+	setobjectxyperm LOCALID_BIRCHS_LAB_RIVAL, 5, 10
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SetPlayerPosForReceiveStarter {
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForDexUpgrade {
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	addobject LOCALID_BIRCHS_LAB_BIRCH
+	addobject LOCALID_BIRCHS_LAB_RIVAL
+	turnobject LOCALID_BIRCHS_LAB_RIVAL, DIR_NORTH
+	setobjectxy LOCALID_BIRCHS_LAB_RIVAL, 5, 5
+	turnobject LOCALID_BIRCHS_LAB_BIRCH, DIR_SOUTH
+	setobjectxy LOCALID_BIRCHS_LAB_BIRCH, 6, 4
+	turnobject LOCALID_BIRCHS_LAB_AIDE, DIR_EAST
+	setobjectxy LOCALID_BIRCHS_LAB_AIDE, 10, 10
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_AddRivalObject {
+	addobject LOCALID_BIRCHS_LAB_RIVAL
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForJohtoStarters {
+	addobject LOCALID_BIRCHS_LAB_CYNDAQUIL_BALL
+	addobject LOCALID_BIRCHS_LAB_TOTODILE_BALL
+	addobject LOCALID_BIRCHS_LAB_CHIKORITA_BALL
+	addobject LOCALID_BIRCHS_LAB_RIVAL
+	turnobject LOCALID_BIRCHS_LAB_CYNDAQUIL_BALL, DIR_SOUTH
+	setobjectxy LOCALID_BIRCHS_LAB_CYNDAQUIL_BALL, 8, 4
+	turnobject LOCALID_BIRCHS_LAB_TOTODILE_BALL, DIR_SOUTH
+	setobjectxy LOCALID_BIRCHS_LAB_TOTODILE_BALL, 9, 4
+	turnobject LOCALID_BIRCHS_LAB_CHIKORITA_BALL, DIR_SOUTH
+	setobjectxy LOCALID_BIRCHS_LAB_CHIKORITA_BALL, 10, 4
+	turnobject LOCALID_BIRCHS_LAB_BIRCH, DIR_SOUTH
+	setobjectxy LOCALID_BIRCHS_LAB_BIRCH, 6, 4
+	turnobject LOCALID_BIRCHS_LAB_RIVAL, DIR_EAST
+	setobjectxy LOCALID_BIRCHS_LAB_RIVAL, 5, 5
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent {
+	lockall
+	bufferleadmonspeciesname STR_VAR_1
+	message LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon
+	waitmessage
+	playfanfare MUS_OBTAIN_ITEM
+	waitfanfare
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, LittlerootTown_ProfessorBirchsLab_EventScript_NicknameStarter
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_NicknameStarter {
+	setvar VAR_0x8004, 0
+	call Common_EventScript_NameReceivedPartyMon
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_DeclineSeeingRival
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou, MSGBOX_DEFAULT
+	clearflag FLAG_HIDE_ROUTE_101_BOY
+	setvar VAR_BIRCH_LAB_STATE, 3
+	releaseall
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_DeclineSeeingRival {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_DeclineSeeingRival
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedexEvent {
+	lockall
+	applymovement LOCALID_PLAYER, LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForPokedex
+	waitmovement 0
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex {
+	lockall
+	delay 30
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_BIRCHS_LAB_BIRCH, LittlerootTown_ProfessorBirchsLab_Movement_BirchRetrievePokedexes
+	waitmovement 0
+	delay 20
+	playse SE_CLICK
+	delay 10
+	playse SE_CLICK
+	delay 10
+	playse SE_CLICK
+	delay 10
+	playse SE_CLICK
+	delay 20
+	applymovement LOCALID_BIRCHS_LAB_RIVAL, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayUpgradeComment
+	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanUpgradeComment
+	playse SE_PC_ON
+	waitse
+	delay 20
+	applymovement LOCALID_BIRCHS_LAB_BIRCH, LittlerootTown_ProfessorBirchsLab_Movement_BirchReturnPokedex
+	waitmovement 0
+	applymovement LOCALID_BIRCHS_LAB_RIVAL, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone, MSGBOX_DEFAULT
+	playfanfare MUS_OBTAIN_ITEM
+	message LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational
+	waitmessage
+	waitfanfare
+	setflag FLAG_SYS_NATIONAL_DEX
+	special EnableNationalPokedex
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
+	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2
+	setvar VAR_SCOTT_BF_CALL_STEP_COUNTER, 0
+	setflag FLAG_SCOTT_CALL_BATTLE_FRONTIER
+	releaseall
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_MayUpgradeComment {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool, MSGBOX_DEFAULT
+	closemessage
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_BrendanUpgradeComment {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe, MSGBOX_DEFAULT
+	closemessage
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_ChooseJohtoStarter {
+	lockall
+	applymovement LOCALID_PLAYER, LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForJohtoStarter
+	waitmovement 0
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon, MSGBOX_DEFAULT
+	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 5
+	releaseall
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Aide {
+	lock
+	faceplayer
+	goto_if_ge VAR_BIRCH_LAB_STATE, 3, LittlerootTown_ProfessorBirchsLab_EventScript_AideReceivedStarter
+	goto_if_set FLAG_BIRCH_AIDE_MET, LittlerootTown_ProfessorBirchsLab_EventScript_AideAlreadyMet
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork, MSGBOX_DEFAULT
+	setflag FLAG_BIRCH_AIDE_MET
+	release
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_AideAlreadyMet {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_AideReceivedStarter {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Cyndaquil {
+	release
+	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter
+	applymovement LOCALID_BIRCHS_LAB_BIRCH, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	showmonpic SPECIES_CYNDAQUIL, 10, 3
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveCyndaquil
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Totodile {
+	release
+	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter
+	applymovement LOCALID_BIRCHS_LAB_BIRCH, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	showmonpic SPECIES_TOTODILE, 10, 3
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveTotodile
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Chikorita {
+	release
+	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter
+	applymovement LOCALID_BIRCHS_LAB_BIRCH, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	showmonpic SPECIES_CHIKORITA, 10, 3
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveChikorita
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone, MSGBOX_DEFAULT
+	releaseall
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime {
+	hidemonpic
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable, MSGBOX_DEFAULT
+	releaseall
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_GiveCyndaquil {
+	bufferspeciesname STR_VAR_1, SPECIES_CYNDAQUIL
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CYNDAQUIL
+	givemon SPECIES_CYNDAQUIL, 5
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToPC
+	hidemonpic
+// FIXME undefined reference: 	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToParty {
+	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
+	removeobject LOCALID_BIRCHS_LAB_CYNDAQUIL_BALL
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil
+// FIXME undefined reference: 	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToPC {
+	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
+	removeobject LOCALID_BIRCHS_LAB_CYNDAQUIL_BALL
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_CyndaquilTransferredToPC
+// FIXME undefined reference: 	call Common_EventScript_NameReceivedBoxMon
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_CyndaquilTransferredToPC
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_CyndaquilTransferredToPC {
+// FIXME undefined reference: 	call Common_EventScript_TransferredToPC
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil {
+	hidemonpic
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
+	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
+	releaseall
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_GiveTotodile {
+	bufferspeciesname STR_VAR_1, SPECIES_TOTODILE
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_TOTODILE
+	givemon SPECIES_TOTODILE, 5
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToPC
+	hidemonpic
+// FIXME undefined reference: 	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToParty {
+	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
+	removeobject LOCALID_BIRCHS_LAB_TOTODILE_BALL
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
+// FIXME undefined reference: 	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToPC {
+	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
+	removeobject LOCALID_BIRCHS_LAB_TOTODILE_BALL
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC
+// FIXME undefined reference: 	call Common_EventScript_NameReceivedBoxMon
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC {
+// FIXME undefined reference: 	call Common_EventScript_TransferredToPC
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile {
+	hidemonpic
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
+	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
+	releaseall
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_GiveChikorita {
+	bufferspeciesname STR_VAR_1, SPECIES_CHIKORITA
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CHIKORITA
+	givemon SPECIES_CHIKORITA, 5
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToPC
+	hidemonpic
+// FIXME undefined reference: 	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToParty {
+	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
+	removeobject LOCALID_BIRCHS_LAB_CHIKORITA_BALL
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita
+// FIXME undefined reference: 	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToPC {
+	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
+	removeobject LOCALID_BIRCHS_LAB_CHIKORITA_BALL
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ChikoritaTransferredToPC
+// FIXME undefined reference: 	call Common_EventScript_NameReceivedBoxMon
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ChikoritaTransferredToPC
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_ChikoritaTransferredToPC {
+// FIXME undefined reference: 	call Common_EventScript_TransferredToPC
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita {
+	hidemonpic
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
+	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
+	releaseall
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter {
+	playfanfare MUS_OBTAIN_ITEM
+	message LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter
+	waitmessage
+	waitfanfare
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Birch {
+	lock
+	faceplayer
+	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 5, LittlerootTown_ProfessorBirchsLab_EventScript_CanHaveAnyOneOfRarePokemon
+	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_ProfessorBirchsLab_EventScript_GrassyPatchWaiting
+	goto_if_unset FLAG_HAS_MATCH_CALL, LittlerootTown_ProfessorBirchsLab_EventScript_TryRatePokedexOrRegister
+	goto_if_unset FLAG_ENABLE_PROF_BIRCH_MATCH_CALL, EventScript_RegisterProfBirch
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_TryRatePokedexOrRegister
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_CanHaveAnyOneOfRarePokemon {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_GrassyPatchWaiting {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_TryRatePokedexOrRegister {
+	goto_if_unset FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_UNKNOWN_0x380, ProfBirch_EventScript_RatePokedexOrRegister
+	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 3, ProfBirch_EventScript_RatePokedexOrRegister
+	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, ProfBirch_EventScript_RatePokedexOrRegister
+	goto_if_eq VAR_BIRCH_LAB_STATE, 5, LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script EventScript_RegisterProfBirch {
+	msgbox MatchCall_Text_BirchRegisterCall, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox MatchCall_Text_RegisteredBirch, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	setflag FLAG_ENABLE_PROF_BIRCH_MATCH_CALL
+	setvar VAR_REGISTER_BIRCH_STATE, 2
+	release
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex, MSGBOX_DEFAULT
+	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_BIRCHS_LAB_RIVAL, LittlerootTown_ProfessorBirchsLab_Movement_RivalApproachPlayer
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls
+	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls
+	setvar VAR_BIRCH_LAB_STATE, 5
+	setflag FLAG_ADVENTURE_STARTED
+	setvar VAR_OLDALE_TOWN_STATE, 1
+	setvar VAR_LITTLEROOT_RIVAL_STATE, 4
+	setvar VAR_LITTLEROOT_TOWN_STATE, 3
+	releaseall
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese, MSGBOX_DEFAULT
+	giveitem ITEM_POKE_BALL, 5
+	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls, MSGBOX_DEFAULT
+	setvar VAR_RESULT, 0
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese, MSGBOX_DEFAULT
+	giveitem ITEM_POKE_BALL, 5
+	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls, MSGBOX_DEFAULT
+	setvar VAR_RESULT, 1
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex {
+	playfanfare MUS_OBTAIN_ITEM
+	message LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex
+	waitfanfare
+	setflag FLAG_SYS_POKEDEX_GET
+	special SetUnlockedPokedexFlags
+	setflag FLAG_RECEIVED_POKEDEX
+	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 1
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull, MSGBOX_DEFAULT
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull, MSGBOX_DEFAULT
+	return
+
 }
 
 script LittlerootTown_ProfessorBirchsLab_EventScript_Machine {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine)
-    releaseall
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine, MSGBOX_SIGN
+	end
+
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_Machine {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine)
-    releaseall
+script LittlerootTown_ProfessorBirchsLab_EventScript_Rival {
+	lock
+	faceplayer
+	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 5, LittlerootTown_ProfessorBirchsLab_EventScript_RivalFuturePlans
+	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_RivalHaveYouGoneToBattleFrontier
+	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_ProfessorBirchsLab_EventScript_RivalTakeBreakFromFieldwork
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayWhereShouldIGoNext
+	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanWhereShouldIGoNext
+	release
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_MayWhereShouldIGoNext {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext, MSGBOX_DEFAULT
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_BrendanWhereShouldIGoNext {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext, MSGBOX_DEFAULT
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_RivalFuturePlans {
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayWhatNextImStayingHere
+	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanPreferCollectingSlowly
+	release
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_MayWhatNextImStayingHere {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere, MSGBOX_DEFAULT
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_RivalHaveYouGoneToBattleFrontier {
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayHaveYouGoneToBattleFrontier
+	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanHaveYouGoneToBattleFrontier
+	release
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_MayHaveYouGoneToBattleFrontier {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier, MSGBOX_DEFAULT
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_BrendanHaveYouGoneToBattleFrontier {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier, MSGBOX_DEFAULT
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_RivalTakeBreakFromFieldwork {
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayTakeBreakFromFieldwork
+	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanTakeBreakFromFieldwork
+	release
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_MayTakeBreakFromFieldwork {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork, MSGBOX_DEFAULT
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_BrendanTakeBreakFromFieldwork {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork, MSGBOX_DEFAULT
+	return
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_PC {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch, MSGBOX_SIGN
+	end
+
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf {
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon, MSGBOX_SIGN
+	end
+
 }
 
 script LittlerootTown_ProfessorBirchsLab_EventScript_Book {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead)
-    releaseall
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead, MSGBOX_SIGN
+	end
+
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_Book {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead)
-    releaseall
+script LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall {
+	lockall
+	pokenavcall LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall
+	waitmessage
+	clearflag FLAG_SCOTT_CALL_BATTLE_FRONTIER
+	releaseall
+	end
+
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon)
-    releaseall
+text LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork {
+    format("Hunh? PROF. BIRCH?\p The PROF's away on fieldwork. Ergo, he isn't here.\p Oh, let me explain what fieldwork is.\p It is to study things in the natural environment, like fields and mountains,\l instead of a laboratory.\p The PROF isn't one for doing desk work. He's the type of person who would\l rather go outside and experience\l things than read about them here.")
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon)
-    releaseall
+text LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork {
+    format("The PROF isn't one for doing desk work. He's the type of person who would\l rather go outside and experience\l things than read about them here.")
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon)
-    releaseall
+text LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo {
+    format("PROF. BIRCH is studying the habitats and distribution of POKéMON.\p The PROF enjoys {RIVAL}'s help, too. There's a lot of love there.")
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon)
-    releaseall
+text LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon {
+    format("PROF. BIRCH: So, {PLAYER}{KUN}.\p I've heard so much about you from your father.\p I've heard that you don't have your own POKéMON yet.\p But the way you battled earlier, you pulled it off with aplomb!\p I guess you have your father's blood in your veins after all!\p Oh, yes. As thanks for rescuing me, I'd like you to have the POKéMON you\l used earlier.\p {PLAYER} received the {STR_VAR_1}!")
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon)
-    releaseall
+text LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon {
+    format("PROF. BIRCH: While you're at it, why not give a nickname to that {STR_VAR_1}?")
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_PC {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch)
-    releaseall
+text LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival {
+    format("PROF. BIRCH: If you work at POKéMON and gain experience, I think you'll make\l an extremely good TRAINER.\p My kid, {RIVAL}, is also studying POKéMON while helping me out.\p {PLAYER}{KUN}, don't you think it might be a good idea to go see {RIVAL}?")
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_PC {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch)
-    releaseall
+text LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou {
+    format("PROF. BIRCH: Great! {RIVAL} should be happy, too.\p Get {RIVAL} to teach you what it means to be a TRAINER.")
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_PC {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch)
-    releaseall
+text LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay {
+    format("PROF. BIRCH: Oh, don't be that way. You should go meet my kid.")
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_PC {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch)
-    releaseall
+text LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome {
+    format("PROF. BIRCH: {RIVAL}? Gone home, I think.\p Or maybe that kid's scrabbling around in tall grass again somewhere…\p If you or your POKéMON get tired, you should get some rest at home.")
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_PC {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch)
-    releaseall
+text LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex {
+    format("PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!\p I heard you beat {RIVAL} on your first try. That's excellent!\p {RIVAL}'s been helping with my research for a long time.\p {RIVAL} has an extensive history as a TRAINER already.\p Here, {PLAYER}{KUN}, I ordered this for my research, but I think you should have\l this POKéDEX.")
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_PC {
-    lockall
-    msgbox(LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch)
-    releaseall
+text LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex {
+    format("{PLAYER} received the POKéDEX!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex {
+    format("PROF. BIRCH: The POKéDEX is a high-tech tool that automatically makes a record\l of any POKéMON you meet or catch.\p My kid, {RIVAL}, goes everywhere with it.\p Whenever my kid catches a rare POKéMON and records its data in the POKéDEX,\l why, {RIVAL} looks for me while I'm out\l doing fieldwork, and shows me.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait {
+    format("PROF. BIRCH: Countless POKéMON await you!\p Argh, I'm getting the itch to get out and do fieldwork again!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese {
+    format("MAY: Oh, wow, {PLAYER}{KUN}! You got a POKéDEX, too!\p That's great! Just like me! I've got something for you, too!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls {
+    format("MAY: It's fun if you can get a lot of POKéMON!\p I'm going to look all over the place because I want different POKéMON.\p If I find any cute POKéMON, I'll catch them with POKé BALLS!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull {
+    format("Oh? Your BAG's full.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext {
+    format("MAY: I wonder where I should go look for POKéMON next?")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese {
+    format("BRENDAN: Huh… So you got a POKéDEX, too.\p Well then, here. I'll give you these.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls {
+    format("BRENDAN: You know it's more fun to have a whole bunch of POKéMON.\p I'm going to explore all over the place to find different POKéMON.\p If I find any cool POKéMON, you bet I'll try to get them with POKé BALLS.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull {
+    format("Hey, your BAG's full.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext {
+    format("BRENDAN: Where should I look for POKéMON next…")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine {
+    format("It's a serious-looking machine. The PROF must use this for research.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch {
+    format("It's a PC used for research. Better not mess around with it.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon {
+    format("It's crammed with books on POKéMON.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead {
+    format("It's a book that's too hard to read.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational {
+    format("PROF. BIRCH: Now…\p {PLAYER}{KUN} and {RIVAL}, I've had the two of you help me study POKéMON.\p Thanks to your help, new facts are coming to light.\p It appears that in the HOENN region, there are also POKéMON from other\l regions.\p It goes to show how rich and varied the natural environments of HOENN\l happen to be.\p That's why I think it's necessary for me to upgrade your POKéDEX to\l the NATIONAL Mode.\p Here, let me see your POKéDEX units.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool {
+    format("MAY: Eheheh!\p It's so cool that even my POKéDEX is getting updated!\p It's because you went out and caught so many POKéMON, {PLAYER}{KUN}!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe {
+    format("BRENDAN: I went out all over HOENN and checked out POKéMON.\p You can thank me for getting the NATIONAL Mode POKéDEX.\p Yep, you're lucky, {PLAYER}!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone {
+    format("PROF. BIRCH: Okay, all done!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational {
+    format("{PLAYER}'s POKéDEX was upgraded to the NATIONAL Mode!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2 {
+    format("PROF. BIRCH: But listen. You've become the CHAMPION,\l but your POKéMON journey isn't over.\p There is no end to the road that is POKéMON.\p Somewhere, there is a grassy patch that's waiting for you!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork {
+    format("MAY: I think I'll take a short break from fieldwork.\p I think I'll help the PROF here for a while.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork {
+    format("BRENDAN: For the time being, I'm taking a break from fieldwork.\p I'll be helping out the PROF here for a while.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon {
+    format("PROF. BIRCH: Oh, {PLAYER}{KUN}! Let's have a look at your POKéDEX.\p … … … … … … … … … … … …\p Yes, there's no doubt about it.\p You really have completed the HOENN region's POKéDEX.\p That's more than just impressive.\p I have a gift for you.\p Consider it my show of appreciation for the fantastic work you've done.\p My gift is a rare POKéMON only found in another region!\p You can have any one of these three POKéMON!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon {
+    format("PROF. BIRCH: These are rare POKéMON only found in another region!\p You can have any one of these three POKéMON!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil {
+    format("PROF. BIRCH: The FIRE POKéMON CYNDAQUIL caught your eye!\p You're as sharp as ever!\p So the CYNDAQUIL is your choice?")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile {
+    format("PROF. BIRCH: The WATER POKéMON TOTODILE is your choice!\p You know how to pick a good one.\p So, you'll take the TOTODILE?")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita {
+    format("PROF. BIRCH: The GRASS POKéMON CHIKORITA is your choice!\p You sure know what you're doing.\p So, you'll take the CHIKORITA?")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable {
+    format("PROF. BIRCH: Take your time before you decide.\p They're all invaluable POKéMON.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_PickedFinePokemon {
+    format("PROF. BIRCH: I see! You picked a fine POKéMON!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter {
+    format("{PLAYER} received the {STR_VAR_1} from PROF. BIRCH!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter {
+    format("Want to give a nickname to the {STR_VAR_1} you received?")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting {
+    format("PROF. BIRCH: Listen, {PLAYER}{KUN}. You've completed the HOENN POKéDEX,\l but your POKéMON journey isn't over.\p There is no end to the road that is POKéMON.\p Somewhere, there is a grassy patch that's waiting for you!")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone {
+    format("You received the promised POKéMON. Better leave the others alone.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_DontHaveAnyRoomForPokemon {
+    format("Oh, you don't have any room for this POKéMON.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere {
+    format("MAY: {PLAYER}{KUN}, after this… What are you going to do?\p Are you going to keep battling and sharpening your skills?\p Or are you going to try filling the NATIONAL POKéDEX?\p I'm staying here to help the PROF.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly {
+    format("BRENDAN: Rather than collecting POKéMON, I prefer slowly and \l steadily raising the one I chose.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier {
+    format("MAY: Oh, hi, {PLAYER}{KUN}! Have you gone to that place,\l the BATTLE FRONTIER?")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier {
+    format("BRENDAN: Hey, {PLAYER}! Have you gone out to that place,\l the BATTLE FRONTIER?")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall {
+    format("… … … … … … … … … … … Beep!\p SCOTT: Hi, hi, {PLAYER}! It's me, SCOTT.\p I'm aboard the S.S. TIDAL now. It feels great to be on the sea!\p By the way…\p There's this place that I'd like to invite you to for a visit.\p If you're interested, board a ferry at either SLATEPORT or LILYCOVE.\p I'll fill you in on the details when we meet. I'll be waiting!\p … … … … … … … … … … … Click!")
 }
 

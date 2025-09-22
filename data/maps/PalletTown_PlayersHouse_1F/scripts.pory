@@ -1,34 +1,128 @@
-text PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou {
-    format("MOM: …Right. All boys leave home someday.\l It said so on TV.\p Oh, yes. PROF. OAK, next door, was looking for you.")
+#events for PalletTown_PlayersHouse_1F
+
+script PalletTown_PlayersHouse_1F_MapScripts {
+	.byte 0
+
 }
 
-text PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou {
-    format("MOM: …Right. All girls dream of traveling.\l It said so on TV.\p Oh, yes. PROF. OAK, next door, was looking for you.")
+script PalletTown_PlayersHouse_1F_EventScript_Mom {
+	lock
+	faceplayer
+	goto_if_set FLAG_TEMP_1, PalletTown_PlayersHouse_1F_EventScript_MomHeal
+// Replaced FLAG_BEAT_RIVAL_IN_OAKS_LAB with FLAG_TEMP_1
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouMale
+	call_if_eq VAR_RESULT, FEMALE, PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouFemale
+	closemessage
+	applymovement LOCALID_MOM, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
 }
 
-text PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest {
-    format("MOM: {PLAYER}! You should take a quick rest.")
+script PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouMale {
+	msgbox PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou
+	return
+
 }
 
-text PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare {
-    format("MOM: Oh, good! You and your POKéMON are looking great.\l Take care now!")
+script PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouFemale {
+	msgbox PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou
+	return
+
 }
 
-text PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad {
-    format("There's a movie on TV. Four boys are walking on railroad\l tracks.\p …I better go, too.")
-}
+script PalletTown_PlayersHouse_1F_EventScript_MomHeal {
+	msgbox PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest
+	closemessage
+// FIXME undefined reference: 	call EventScript_OutOfCenterPartyHeal
+	msgbox PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare
+	release
+	end
 
-text PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad {
-    format("There's a movie on TV. A girl with her hair in pigtails is\l walking up a brick road.\p …I better go, too.")
-}
-
-text PalletTown_PlayersHouse_1F_Text_OopsWrongSide {
-    format("Oops, wrong side…")
+@ Displays special text if interacted with from side or back (which are normally inaccessible)
 }
 
 script PalletTown_PlayersHouse_1F_EventScript_TV {
-    lockall
-    msgbox(PalletTown_PlayersHouse_1F_Text_OopsWrongSide)
-    releaseall
+	lockall
+	goto_if_eq VAR_FACING, DIR_NORTH, PalletTown_PlayersHouse_1F_EventScript_TVScreen
+	msgbox PalletTown_PlayersHouse_1F_Text_OopsWrongSide
+	releaseall
+	end
+
+}
+
+script PalletTown_PlayersHouse_1F_EventScript_TVScreen {
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, PalletTown_PlayersHouse_1F_EventScript_TVScreenMale
+	call_if_eq VAR_RESULT, FEMALE, PalletTown_PlayersHouse_1F_EventScript_TVScreenFemale
+	releaseall
+	end
+
+}
+
+script PalletTown_PlayersHouse_1F_EventScript_TVScreenMale {
+	msgbox PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad
+	return
+
+}
+
+script PalletTown_PlayersHouse_1F_EventScript_TVScreenFemale {
+	msgbox PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad
+	return
+
+}
+
+script PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou {
+    .string "MOM: …Right.\n"
+    .string "All boys leave home someday.\l"
+    .string "It said so on TV.\p"
+    .string "Oh, yes. PROF. OAK, next door, was\n"
+    .string "looking for you.$"
+
+}
+
+script PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou {
+    .string "MOM: …Right.\n"
+    .string "All girls dream of traveling.\l"
+    .string "It said so on TV.\p"
+    .string "Oh, yes. PROF. OAK, next door, was\n"
+    .string "looking for you.$"
+
+}
+
+script PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest {
+    .string "MOM: {PLAYER}!\n"
+    .string "You should take a quick rest.$"
+
+}
+
+script PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare {
+    .string "MOM: Oh, good! You and your\n"
+    .string "POKéMON are looking great.\l"
+    .string "Take care now!$"
+
+}
+
+script PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad {
+    .string "There's a movie on TV.\n"
+    .string "Four boys are walking on railroad\l"
+    .string "tracks.\p"
+    .string "…I better go, too.$"
+
+}
+
+script PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad {
+    .string "There's a movie on TV.\n"
+    .string "A girl with her hair in pigtails is\l"
+    .string "walking up a brick road.\p"
+    .string "…I better go, too.$"
+
+}
+
+script PalletTown_PlayersHouse_1F_Text_OopsWrongSide {
+    .string "Oops, wrong side…$"
+
 }
 

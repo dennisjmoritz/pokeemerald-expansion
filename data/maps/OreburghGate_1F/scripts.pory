@@ -1,0 +1,6 @@
+#events for OreburghGate_1F
+
+script OreburghGate_1F_MapScripts {
+	.byte 0
+}
+

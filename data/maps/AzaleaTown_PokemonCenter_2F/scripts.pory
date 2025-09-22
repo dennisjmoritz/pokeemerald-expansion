@@ -1,0 +1,6 @@
+#events for AzaleaTown_PokemonCenter_2F
+
+script AzaleaTown_PokemonCenter_2F_MapScripts {
+	.byte 0
+}
+

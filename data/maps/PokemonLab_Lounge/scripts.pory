@@ -1,0 +1,6 @@
+#events for PokemonLab_Lounge
+
+script PokemonLab_Lounge_MapScripts {
+	.byte 0
+}
+

@@ -1,4 +1,32 @@
-text BattleFrontier_BattleArenaCorridor_EventScript_WalkToBattleRoom {
+#events for BattleFrontier_BattleArenaCorridor
+
+script BattleFrontier_BattleArenaCorridor_MapScripts {
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleArenaCorridor_OnFrame
+	.byte 0
+
+}
+
+script BattleFrontier_BattleArenaCorridor_EventScript_WalkToBattleRoom {
+	delay 16
+	setvar VAR_TEMP_0, 1
+	applymovement LOCALID_ARENA_CORRIDOR_ATTENDANT, BattleFrontier_BattleArenaCorridor_Movement_AttendantWalkToDoor
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaCorridor_Movement_PlayerWalkToDoor
+	waitmovement 0
+	applymovement LOCALID_ARENA_CORRIDOR_ATTENDANT, BattleFrontier_BattleArenaCorridor_Movement_AttendantFacePlayer
+	waitmovement 0
+	msgbox BattleFrontier_BattleArenaCorridor_Text_PleaseStepIn, MSGBOX_SIGN
+	applymovement LOCALID_ARENA_CORRIDOR_ATTENDANT, BattleFrontier_BattleArenaCorridor_Movement_AttendantMoveOutOfWay
+	waitmovement 0
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaCorridor_Movement_PlayerEnterDoor
+	waitmovement 0
+	setvar VAR_0x8006, 0
+	warp MAP_BATTLE_FRONTIER_BATTLE_ARENA_BATTLE_ROOM, 7, 5
+	waitstate
+	end
+
+}
+
+text BattleFrontier_BattleArenaCorridor_Text_PleaseStepIn {
     format("Your battles shall be waged in the next room. Please step in!")
 }
 

@@ -1,0 +1,7 @@
+#events for GraniteCave_B2F
+
+script GraniteCave_B2F_MapScripts {
+	.byte 0
+
+}
+

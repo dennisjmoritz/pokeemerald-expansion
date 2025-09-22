@@ -1,4 +1,40 @@
-text MauvilleCity_House1_EventScript_ReceivedRockSmash {
-    format("Woohoo!\p I hear people call me the ROCK SMASH GUY, but I find that sort of degrading.\p I think I deserve a bit more respect, like maybe the ROCK SMASH DUDE.\p Woohoo!\p Anyways, your POKéMON look pretty strong.\p I like that! Here, take this HIDDEN MACHINE!$ That HM contains ROCK SMASH.\p If you come across large boulders that block your path…\p Well, use that HM move and smash them right out of your way!\p Yes, sir! Smash rocks aside, I say! Woohoo!$ Oh, yes, if you smash a rock, a POKéMON could come flying out of hiding.\p Woohoo!")
+#events for MauvilleCity_House1
+
+script MauvilleCity_House1_MapScripts {
+	.byte 0
+
+}
+
+script MauvilleCity_House1_EventScript_RockSmashDude {
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_HM_ROCK_SMASH, MauvilleCity_House1_EventScript_ReceivedRockSmash
+	msgbox MauvilleCity_House1_Text_ImRockSmashDudeTakeThis, MSGBOX_DEFAULT
+	giveitem ITEM_HM_ROCK_SMASH
+	setflag FLAG_RECEIVED_HM_ROCK_SMASH
+	setflag FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY
+	msgbox MauvilleCity_House1_Text_ExplainRockSmash, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script MauvilleCity_House1_EventScript_ReceivedRockSmash {
+	msgbox MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text MauvilleCity_House1_Text_ImRockSmashDudeTakeThis {
+    format("Woohoo!\p I hear people call me the ROCK SMASH GUY, but I find that sort of degrading.\p I think I deserve a bit more respect, like maybe the ROCK SMASH DUDE.\p Woohoo!\p Anyways, your POKéMON look pretty strong.\p I like that! Here, take this HIDDEN MACHINE!")
+}
+
+text MauvilleCity_House1_Text_ExplainRockSmash {
+    format("That HM contains ROCK SMASH.\p If you come across large boulders that block your path…\p Well, use that HM move and smash them right out of your way!\p Yes, sir! Smash rocks aside, I say! Woohoo!")
+}
+
+text MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock {
+    format("Oh, yes, if you smash a rock, a POKéMON could come flying out of hiding.\p Woohoo!")
 }
 

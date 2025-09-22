@@ -1,162 +1,245 @@
-text Route19_Text_RichardIntro {
-    format("I have to exercise and warm up before going out for a swim.")
-}
+#events for Route19
 
-text Route19_Text_RichardDefeat {
-    format("All warmed up!")
-}
+script Route19_MapScripts {
+	.byte 0
 
-text Route19_Text_RichardPostBattle {
-    format("Thanks, kid! I'm ready for a swim.")
-}
-
-text Route19_Text_ReeceIntro {
-    format("Wait! Slow down! You'll have a heart attack!")
-}
-
-text Route19_Text_ReeceDefeat {
-    format("Ooh! That's chilly!")
-}
-
-text Route19_Text_ReecePostBattle {
-    format("Watch out for TENTACOOL. They sting so painfully.")
-}
-
-text Route19_Text_MatthewIntro {
-    format("I love swimming! What about you?")
-}
-
-text Route19_Text_MatthewDefeat {
-    format("Belly flop!")
-}
-
-text Route19_Text_MatthewPostBattle {
-    format("I can beat even marine POKéMON at swimming.")
-}
-
-text Route19_Text_DouglasIntro {
-    format("What's beyond the horizon?")
-}
-
-text Route19_Text_DouglasDefeat {
-    format("Glub!")
-}
-
-text Route19_Text_DouglasPostBattle {
-    format("I see a couple of islands over yonder!")
-}
-
-text Route19_Text_DavidIntro {
-    format("I tried diving for POKéMON, but it was a no-go.")
-}
-
-text Route19_Text_DavidDefeat {
-    format("Help!")
-}
-
-text Route19_Text_DavidPostBattle {
-    format("I guess you have to fish for sea POKéMON.")
-}
-
-text Route19_Text_TonyIntro {
-    format("I look at the sea to forget all the bad things that happened.")
-}
-
-text Route19_Text_TonyDefeat {
-    format("Ooh! Traumatic!")
-}
-
-text Route19_Text_TonyPostBattle {
-    format("I'm looking at the sea to forget the bad thing that happened!")
-}
-
-text Route19_Text_AnyaIntro {
-    format("Oh, I just love your ride! Can I have it if I win?")
-}
-
-text Route19_Text_AnyaDefeat {
-    format("Oh! I lost!")
-}
-
-text Route19_Text_AnyaPostBattle {
-    format("It's still a long way to go to SEAFOAM ISLANDS…\p I want to go back to FUCHSIA…")
-}
-
-text Route19_Text_AliceIntro {
-    format("Swimming's great! Sunburns aren't!")
-}
-
-text Route19_Text_AliceDefeat {
-    format("Shocker!")
-}
-
-text Route19_Text_AlicePostBattle {
-    format("My boyfriend wanted to swim to SEAFOAM ISLANDS.")
-}
-
-text Route19_Text_AxleIntro {
-    format("Ahoy, there! These waters are treacherous!")
-}
-
-text Route19_Text_AxleDefeat {
-    format("Ooh! Dangerous!")
-}
-
-text Route19_Text_AxlePostBattle {
-    format("M-my legs! They cramped up! Glub, glub…")
-}
-
-text Route19_Text_ConnieIntro {
-    format("I swam here with my friends… I'm tired…")
-}
-
-text Route19_Text_ConnieDefeat {
-    format("I'm exhausted…")
-}
-
-text Route19_Text_ConniePostBattle {
-    format("If I were to ride a POKéMON on the sea, I'd like a LAPRAS.\p LAPRAS is so big, I bet it would keep me dry on water.")
-}
-
-text Route19_Text_RouteSign {
-    format("SEA ROUTE 19 FUCHSIA CITY - SEAFOAM ISLANDS")
-}
-
-text Route19_Text_LiaIntro {
-    format("LIA: I'm looking after my brother. He just became a TRAINER.")
-}
-
-text Route19_Text_LiaDefeat {
-    format("LIA: That's no way to treat my little brother!")
-}
-
-text Route19_Text_LiaPostBattle {
-    format("LIA: Do you have a younger brother?\p I hope you're teaching him all sorts of things.")
-}
-
-text Route19_Text_LiaNotEnoughMons {
-    format("LIA: I want to battle together with my little brother.\p Don't you have two POKéMON?")
-}
-
-text Route19_Text_LucIntro {
-    format("LUC: My big sis taught me how to swim and train POKéMON.")
-}
-
-text Route19_Text_LucDefeat {
-    format("LUC: Oh, wow! Someone tougher than my big sis!")
-}
-
-text Route19_Text_LucPostBattle {
-    format("LUC: My big sis is strong and nice. I think she's awesome!")
-}
-
-text Route19_Text_LucNotEnoughMons {
-    format("LUC: I don't want to if I can't battle you with my big sis.\p Don't you have two POKéMON?")
 }
 
 script Route19_EventScript_RouteSign {
-    lockall
-    msgbox(Route19_Text_RouteSign)
-    releaseall
+	msgbox Route19_Text_RouteSign, MSGBOX_SIGN
+	end
+
+}
+
+script Route19_Text_RichardIntro {
+    .string "I have to exercise and warm up\n"
+    .string "before going out for a swim.$"
+
+}
+
+script Route19_Text_RichardDefeat {
+    .string "All warmed up!$"
+
+}
+
+script Route19_Text_RichardPostBattle {
+    .string "Thanks, kid!\n"
+    .string "I'm ready for a swim.$"
+
+}
+
+script Route19_Text_ReeceIntro {
+    .string "Wait! Slow down!\n"
+    .string "You'll have a heart attack!$"
+
+}
+
+script Route19_Text_ReeceDefeat {
+    .string "Ooh!\n"
+    .string "That's chilly!$"
+
+}
+
+script Route19_Text_ReecePostBattle {
+    .string "Watch out for TENTACOOL.\n"
+    .string "They sting so painfully.$"
+
+}
+
+script Route19_Text_MatthewIntro {
+    .string "I love swimming!\n"
+    .string "What about you?$"
+
+}
+
+script Route19_Text_MatthewDefeat {
+    .string "Belly flop!$"
+
+}
+
+script Route19_Text_MatthewPostBattle {
+    .string "I can beat even marine POKéMON\n"
+    .string "at swimming.$"
+
+}
+
+script Route19_Text_DouglasIntro {
+    .string "What's beyond the horizon?$"
+
+}
+
+script Route19_Text_DouglasDefeat {
+    .string "Glub!$"
+
+}
+
+script Route19_Text_DouglasPostBattle {
+    .string "I see a couple of islands over\n"
+    .string "yonder!$"
+
+}
+
+script Route19_Text_DavidIntro {
+    .string "I tried diving for POKéMON, but it\n"
+    .string "was a no-go.$"
+
+}
+
+script Route19_Text_DavidDefeat {
+    .string "Help!$"
+
+}
+
+script Route19_Text_DavidPostBattle {
+    .string "I guess you have to fish for sea\n"
+    .string "POKéMON.$"
+
+}
+
+script Route19_Text_TonyIntro {
+    .string "I look at the sea to forget all\n"
+    .string "the bad things that happened.$"
+
+}
+
+script Route19_Text_TonyDefeat {
+    .string "Ooh!\n"
+    .string "Traumatic!$"
+
+}
+
+script Route19_Text_TonyPostBattle {
+    .string "I'm looking at the sea to forget\n"
+    .string "the bad thing that happened!$"
+
+}
+
+script Route19_Text_AnyaIntro {
+    .string "Oh, I just love your ride!\n"
+    .string "Can I have it if I win?$"
+
+}
+
+script Route19_Text_AnyaDefeat {
+    .string "Oh! I lost!$"
+
+}
+
+script Route19_Text_AnyaPostBattle {
+    .string "It's still a long way to go to\n"
+    .string "SEAFOAM ISLANDS…\p"
+    .string "I want to go back to FUCHSIA…$"
+
+}
+
+script Route19_Text_AliceIntro {
+    .string "Swimming's great!\n"
+    .string "Sunburns aren't!$"
+
+}
+
+script Route19_Text_AliceDefeat {
+    .string "Shocker!$"
+
+}
+
+script Route19_Text_AlicePostBattle {
+    .string "My boyfriend wanted to swim to\n"
+    .string "SEAFOAM ISLANDS.$"
+
+}
+
+script Route19_Text_AxleIntro {
+    .string "Ahoy, there!\n"
+    .string "These waters are treacherous!$"
+
+}
+
+script Route19_Text_AxleDefeat {
+    .string "Ooh!\n"
+    .string "Dangerous!$"
+
+}
+
+script Route19_Text_AxlePostBattle {
+    .string "M-my legs! They cramped up!\n"
+    .string "Glub, glub…$"
+
+}
+
+script Route19_Text_ConnieIntro {
+    .string "I swam here with my friends…\n"
+    .string "I'm tired…$"
+
+}
+
+script Route19_Text_ConnieDefeat {
+    .string "I'm exhausted…$"
+
+}
+
+script Route19_Text_ConniePostBattle {
+    .string "If I were to ride a POKéMON on\n"
+    .string "the sea, I'd like a LAPRAS.\p"
+    .string "LAPRAS is so big, I bet it\n"
+    .string "would keep me dry on water.$"
+
+}
+
+script Route19_Text_RouteSign {
+    .string "SEA ROUTE 19\n"
+    .string "FUCHSIA CITY - SEAFOAM ISLANDS$"
+
+}
+
+script Route19_Text_LiaIntro {
+    .string "LIA: I'm looking after my brother.\n"
+    .string "He just became a TRAINER.$"
+
+}
+
+script Route19_Text_LiaDefeat {
+    .string "LIA: That's no way to treat my\n"
+    .string "little brother!$"
+
+}
+
+script Route19_Text_LiaPostBattle {
+    .string "LIA: Do you have a younger\n"
+    .string "brother?\p"
+    .string "I hope you're teaching him all\n"
+    .string "sorts of things.$"
+
+}
+
+script Route19_Text_LiaNotEnoughMons {
+    .string "LIA: I want to battle together\n"
+    .string "with my little brother.\p"
+    .string "Don't you have two POKéMON?$"
+
+}
+
+script Route19_Text_LucIntro {
+    .string "LUC: My big sis taught me how\n"
+    .string "to swim and train POKéMON.$"
+
+}
+
+script Route19_Text_LucDefeat {
+    .string "LUC: Oh, wow!\n"
+    .string "Someone tougher than my big sis!$"
+
+}
+
+script Route19_Text_LucPostBattle {
+    .string "LUC: My big sis is strong and nice.\n"
+    .string "I think she's awesome!$"
+
+}
+
+script Route19_Text_LucNotEnoughMons {
+    .string "LUC: I don't want to if I can't\n"
+    .string "battle you with my big sis.\p"
+    .string "Don't you have two POKéMON?$"
 }
 

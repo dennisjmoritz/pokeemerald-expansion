@@ -1,4 +1,77 @@
-text EverGrandeCity_GlaciasRoom_EventScript_Defeated {
-    format("Welcome, my name is GLACIA of the ELITE FOUR.\p I've traveled from afar to HOENN so that I may hone my ice skills.\p But all I have seen are challenges by weak TRAINERS and their POKéMON.\p What about you?\p It would please me to no end if I could go all out against you!$ You and your POKéMON… How hot your spirits burn!\p The all-consuming heat overwhelms.\p It's no surprise that my icy skills failed to harm you.$ Advance to the next room.\p And there, confirm the truly fearsome side of the POKéMON LEAGUE.")
+#events for EverGrandeCity_GlaciasRoom
+
+script EverGrandeCity_GlaciasRoom_MapScripts {
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_GlaciasRoom_OnFrame
+	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_GlaciasRoom_OnLoad
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_GlaciasRoom_OnWarp
+	.byte 0
+
+}
+
+script EverGrandeCity_GlaciasRoom_EventScript_PlayerTurnNorth {
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	end
+
+}
+
+script EverGrandeCity_GlaciasRoom_EventScript_WalkInCloseDoor {
+	lockall
+	call PokemonLeague_EliteFour_EventScript_WalkInCloseDoor
+	setvar VAR_ELITE_4_STATE, 3
+	releaseall
+	end
+
+}
+
+script EverGrandeCity_GlaciasRoom_EventScript_ResetAdvanceToNextRoom {
+	call PokemonLeague_EliteFour_EventScript_ResetAdvanceToNextRoom
+	return
+
+}
+
+script EverGrandeCity_GlaciasRoom_EventScript_CloseDoor {
+	call PokemonLeague_EliteFour_EventScript_CloseDoor
+	return
+
+}
+
+script EverGrandeCity_GlaciasRoom_EventScript_Glacia {
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_ELITE_4_GLACIA, EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech
+	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
+	msgbox EverGrandeCity_GlaciasRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_GLACIA, EverGrandeCity_GlaciasRoom_Text_Defeat
+	goto EverGrandeCity_GlaciasRoom_EventScript_Defeated
+	end
+
+}
+
+script EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech {
+	msgbox EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script EverGrandeCity_GlaciasRoom_EventScript_Defeated {
+	setflag FLAG_DEFEATED_ELITE_4_GLACIA
+	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
+	msgbox EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text EverGrandeCity_GlaciasRoom_Text_IntroSpeech {
+    format("Welcome, my name is GLACIA of the ELITE FOUR.\p I've traveled from afar to HOENN so that I may hone my ice skills.\p But all I have seen are challenges by weak TRAINERS and their POKéMON.\p What about you?\p It would please me to no end if I could go all out against you!")
+}
+
+text EverGrandeCity_GlaciasRoom_Text_Defeat {
+    format("You and your POKéMON… How hot your spirits burn!\p The all-consuming heat overwhelms.\p It's no surprise that my icy skills failed to harm you.")
+}
+
+text EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech {
+    format("Advance to the next room.\p And there, confirm the truly fearsome side of the POKéMON LEAGUE.")
 }
 

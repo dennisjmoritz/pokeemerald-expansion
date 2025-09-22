@@ -1,6 +1,19 @@
+#events for SafariZone_Southwest
+
+script SafariZone_Southwest_MapScripts {
+	.byte 0
+
+}
+
+script SafariZone_Southwest_EventScript_Woman {
+	msgbox SafariZone_Southwest_Text_Woman, MSGBOX_NPC
+	end
+
+}
+
 script SafariZone_Southwest_EventScript_RestHouseSign {
-    lockall
-    msgbox(SafariZone_Southwest_Text_RestHouseSign)
-    releaseall
+	msgbox SafariZone_Southwest_Text_RestHouseSign, MSGBOX_SIGN
+	end
+
 }
 

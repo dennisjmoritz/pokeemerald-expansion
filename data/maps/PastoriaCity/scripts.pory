@@ -1,0 +1,6 @@
+#events for PastoriaCity
+
+script PastoriaCity_MapScripts {
+	.byte 0
+}
+

@@ -1,0 +1,6 @@
+#events for CianwoodCity
+
+script CianwoodCity_MapScripts {
+	.byte 0
+}
+

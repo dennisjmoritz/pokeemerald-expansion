@@ -1,0 +1,6 @@
+#events for Route37
+
+script Route37_MapScripts {
+	.byte 0
+}
+

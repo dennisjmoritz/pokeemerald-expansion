@@ -1,0 +1,6 @@
+#events for Route212_South
+
+script Route212_South_MapScripts {
+	.byte 0
+}
+

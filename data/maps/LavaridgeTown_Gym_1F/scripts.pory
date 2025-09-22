@@ -1,4 +1,396 @@
-text LavaridgeTown_Gym_1F_EventScript_GymStatue {
-    format("Hey, how's it going, CHAMPION- bound {PLAYER}?\p LAVARIDGE's GYM LEADER FLANNERY uses FIRE-type POKéMON.\p Her passion for POKéMON burns stronger and hotter than a volcano.\p Don't get too close to her--you'll burn! Hose her down with water and then\l go for it!$ Yow! That was a scorching-hot battle!$ Owowowowow! Yikes, it's hot!$ I'm blinded by sweat in my eyes…$ Being buried in hot sand promotes circulation.\p It's effective for healing pain in your joints.$ I'm trying to relieve my stress. Don't come along and stress me out!$ I hope FLANNERY flames you good!$ Haaah… Whew…\p If you spend too much time buried in hot sand, it tuckers you out…$ You must be getting tired by now. You'd like to rest in the hot sand,\l wouldn't you?\p But you should know that maintaining your willpower is an important ability\l for all TRAINERS.$ Play with fire, and be burned…$ Your skill is real… But our LEADER FLANNERY is strong.\p If you don't watch yourself, you'll be burned seriously.$ Can your POKéMON withstand 392-degree heat?$ It didn't burn hotly enough…$ The temperature of magma is 392 degrees.\p Your POKéMON beat me, so they should easily survive in magma.$ Um… Okay, I'll battle with you.$ Oh, but you're too strong.$ I'm going to be a pretty and strong TRAINER just like FLANNERY.$ Come on, get with it! Let's go before my feelings cool!$ It's so hot, and yet my heart is clutched by ice…$ The way the battling spirit burns within you, you may stand a chance\l against our LEADER.$ See how the flames blaze wildly? They flare in anticipation of my win!$ Something didn't go right.$ Well, so what? I say so what? I can walk on hot coals barefoot!\p …Don't even think about trying it!$ As much as I love mountains, I especially love volcanoes.$ Well, it seems to me I lost without ever being in control.$ I stay here because I became a fan of FLANNERY's power.\p Hehehehe.$ Welcome… No, wait.\p Puny TRAINER, how good to see you've made it here!\p I have been entrusted with the… No, wait.\p I am FLANNERY, and I'm the GYM LEADER here!\p Uh… Dare not underestimate me, though\l I have been LEADER only a short time!\p With skills inherited from my grand- father, I shall, uh…demonstrate the\l hot moves we have honed on this land!$ Oh… I guess I was trying too hard…\p I… I've only recently become a GYM LEADER.\p I tried too hard to be someone I'm not.\p I have to do things my natural way. If I don't, my POKéMON will be confused.\p Thanks for teaching me that. For that, you deserve this.$ {PLAYER} received the HEAT BADGE from FLANNERY.$ If you have a HEAT BADGE, all POKéMON up to Level 50, even those you get in\l trades from other people, will obey\l you completely.\p And, it lets POKéMON use the HM move STRENGTH outside of battle.\p This is a token of my appreciation. Don't be shy about taking it!$ That TM50 contains OVERHEAT.\p That move inflicts serious damage on the opponent.\p But it also sharply cuts the SP. ATK of the POKéMON using it. It might not\l be suitable for longer battles.$ Registered GYM LEADER FLANNERY in the POKéNAV.$ Your power reminds me of someone…\p Oh! I know! You battle like NORMAN, the GYM LEADER of PETALBURG.$ LAVARIDGE TOWN POKéMON GYM$ LAVARIDGE TOWN POKéMON GYM\p FLANNERY'S CERTIFIED TRAINERS: {PLAYER}$ FLANNERY: Losing a battle isn't going to deflate me.\p I love POKéMON. I love to battle.\l And… I love this GYM!\p Let's exchange superhot moves in another battle!$ Whew! On the verge of eruption!$ FLANNERY: I lost the match, but I'm completely satisfied.\p It's not often I get to enjoy a battle this heated.\p Let's have another one like this again sometime!$ FLANNERY: Losing a battle isn't going to deflate me.\p I love POKéMON. I love to battle.\l And… I love this GYM!\p Let's exchange superhot moves in another battle!\p Oh, wait. Do you only have one POKéMON that can battle?\p I hate to say this, but when you come see me, bring at least two POKéMON.")
+#events for LavaridgeTown_Gym_1F
+
+script LavaridgeTown_Gym_1F_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, LavaridgeTown_Gym_1F_OnTransition
+	.byte 0
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_SetTrainerTempVars {
+	setvar VAR_TEMP_B, 0
+	setvar VAR_TEMP_C, 0
+	setvar VAR_TEMP_D, 0
+	setvar VAR_TEMP_E, 0
+	setvar VAR_TEMP_F, 0
+	goto_if_defeated TRAINER_COLE, LavaridgeTown_Gym_1F_EventScript_SetGeraldTempVar
+	setvar VAR_TEMP_B, 1
+}
+
+script LavaridgeTown_Gym_1F_EventScript_SetGeraldTempVar {
+	goto_if_defeated TRAINER_GERALD, LavaridgeTown_Gym_1F_EventScript_SetAxleTempVar
+	setvar VAR_TEMP_C, 1
+}
+
+script LavaridgeTown_Gym_1F_EventScript_SetAxleTempVar {
+	goto_if_defeated TRAINER_AXLE, LavaridgeTown_Gym_1F_EventScript_SetDanielleTempVar
+	setvar VAR_TEMP_D, 1
+}
+
+script LavaridgeTown_Gym_1F_EventScript_SetDanielleTempVar {
+	goto_if_defeated TRAINER_DANIELLE, LavaridgeTown_Gym_1F_EventScript_EndSetTrainerTempVars
+	setvar VAR_TEMP_E, 1
+}
+
+script LavaridgeTown_Gym_1F_EventScript_EndSetTrainerTempVars {
+	return
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_CheckBuryTrainers {
+	goto_if_defeated TRAINER_COLE, LavaridgeTown_Gym_1F_EventScript_CheckBuryGerald
+	setobjectmovementtype LOCALID_COLE, MOVEMENT_TYPE_BURIED
+}
+
+script LavaridgeTown_Gym_1F_EventScript_CheckBuryGerald {
+	goto_if_defeated TRAINER_GERALD, LavaridgeTown_Gym_1F_EventScript_CheckBuryAxle
+	setobjectmovementtype LOCALID_GERALD, MOVEMENT_TYPE_BURIED
+}
+
+script LavaridgeTown_Gym_1F_EventScript_CheckBuryAxle {
+	goto_if_defeated TRAINER_AXLE, LavaridgeTown_Gym_1F_EventScript_CheckBuryDanielle
+	setobjectmovementtype LOCALID_AXLE, MOVEMENT_TYPE_BURIED
+}
+
+script LavaridgeTown_Gym_1F_EventScript_CheckBuryDanielle {
+	goto_if_defeated TRAINER_DANIELLE, LavaridgeTown_Gym_1F_EventScript_EndCheckBuryTrainers
+	setobjectmovementtype LOCALID_DANIELLE, MOVEMENT_TYPE_BURIED
+}
+
+script LavaridgeTown_Gym_1F_EventScript_EndCheckBuryTrainers {
+	return
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_Flannery {
+	trainerbattle_single TRAINER_FLANNERY_1, LavaridgeTown_Gym_1F_Text_FlanneryIntro, LavaridgeTown_Gym_1F_Text_FlanneryDefeat, LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated, NO_MUSIC
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, LavaridgeTown_Gym_1F_EventScript_FlanneryRematch
+	goto_if_unset FLAG_RECEIVED_TM_OVERHEAT, LavaridgeTown_Gym_1F_EventScript_GiveOverheat2
+	msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated {
+	message LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis, MSGBOX_DEFAULT
+	setflag FLAG_WHITEOUT_TO_LAVARIDGE
+	setflag FLAG_DEFEATED_LAVARIDGE_GYM
+	setflag FLAG_BADGE04_GET
+	addvar VAR_PETALBURG_GYM_STATE, 1
+	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
+	setvar VAR_0x8008, 4
+	call Common_EventScript_SetGymTrainers
+	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
+	setvar VAR_LAVARIDGE_TOWN_STATE, 1
+	call LavaridgeTown_Gym_1F_EventScript_GiveOverheat
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox LavaridgeTown_Gym_1F_Text_RegisteredFlannery, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	setflag FLAG_ENABLE_FLANNERY_MATCH_CALL
+	release
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_GiveOverheat2 {
+	giveitem ITEM_TM_OVERHEAT
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_OVERHEAT
+	release
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_GiveOverheat {
+	giveitem ITEM_TM_OVERHEAT
+// FIXME undefined reference: 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
+	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_OVERHEAT
+	return
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_FlanneryRematch {
+	trainerbattle_rematch_double TRAINER_FLANNERY_1, LavaridgeTown_Gym_1F_Text_FlanneryPreRematch, LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat, LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons
+	msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_Cole {
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, LOCALID_COLE, TRAINER_COLE, LavaridgeTown_Gym_1F_Text_ColeIntro, LavaridgeTown_Gym_1F_Text_ColeDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript, OBJ_ID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE
+	msgbox LavaridgeTown_Gym_1F_Text_ColePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script LavaridgeTown_Gym_EventScript_CheckTrainerScript {
+	call LavaridgeTown_Gym_1F_EventScript_SetTrainerTempVars
+	release
+	special ShouldTryGetTrainerScript
+	goto_if_eq VAR_RESULT, 1, EventScript_GotoTrainerScript
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_Axle {
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, LOCALID_AXLE, TRAINER_AXLE, LavaridgeTown_Gym_1F_Text_AxleIntro, LavaridgeTown_Gym_1F_Text_AxleDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript, OBJ_ID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE
+	msgbox LavaridgeTown_Gym_1F_Text_AxlePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script LavaridgeTown_Gym_B1F_EventScript_Keegan {
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, LOCALID_KEEGAN, TRAINER_KEEGAN, LavaridgeTown_Gym_B1F_Text_KeeganIntro, LavaridgeTown_Gym_B1F_Text_KeeganDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript, OBJ_ID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE
+	msgbox LavaridgeTown_Gym_B1F_Text_KeeganPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_Danielle {
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, LOCALID_DANIELLE, TRAINER_DANIELLE, LavaridgeTown_Gym_1F_Text_DanielleIntro, LavaridgeTown_Gym_1F_Text_DanielleDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript, OBJ_ID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE
+	msgbox LavaridgeTown_Gym_1F_Text_DaniellePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_Gerald {
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, LOCALID_GERALD, TRAINER_GERALD, LavaridgeTown_Gym_1F_Text_GeraldIntro, LavaridgeTown_Gym_1F_Text_GeraldDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript, OBJ_ID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE
+	msgbox LavaridgeTown_Gym_1F_Text_GeraldPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script LavaridgeTown_Gym_B1F_EventScript_Jace {
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, LOCALID_JACE, TRAINER_JACE, LavaridgeTown_Gym_B1F_Text_JaceIntro, LavaridgeTown_Gym_B1F_Text_JaceDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript, OBJ_ID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE
+	msgbox LavaridgeTown_Gym_B1F_Text_JacePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script LavaridgeTown_Gym_B1F_EventScript_Jeff {
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, LOCALID_JEFF, TRAINER_JEFF, LavaridgeTown_Gym_B1F_Text_JeffIntro, LavaridgeTown_Gym_B1F_Text_JeffDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript, OBJ_ID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE
+	msgbox LavaridgeTown_Gym_B1F_Text_JeffPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script LavaridgeTown_Gym_B1F_EventScript_Eli {
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, LOCALID_ELI, TRAINER_ELI, LavaridgeTown_Gym_B1F_Text_EliIntro, LavaridgeTown_Gym_B1F_Text_EliDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript, OBJ_ID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE
+	msgbox LavaridgeTown_Gym_B1F_Text_EliPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_GymGuide {
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, LavaridgeTown_Gym_1F_EventScript_GymGuidePostVictory
+	msgbox LavaridgeTown_Gym_1F_Text_GymGuideAdvice, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_GymGuidePostVictory {
+	msgbox LavaridgeTown_Gym_1F_Text_GymGuidePostVictory, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_LeftGymStatue {
+	lockall
+	goto_if_set FLAG_BADGE04_GET, LavaridgeTown_Gym_1F_EventScript_GymStatueCertified
+	goto LavaridgeTown_Gym_1F_EventScript_GymStatue
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_RightGymStatue {
+	lockall
+	goto_if_set FLAG_BADGE04_GET, LavaridgeTown_Gym_1F_EventScript_GymStatueCertified
+	goto LavaridgeTown_Gym_1F_EventScript_GymStatue
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_GymStatueCertified {
+	msgbox LavaridgeTown_Gym_1F_Text_GymStatueCertified, MSGBOX_DEFAULT
+	releaseall
+	end
+
+}
+
+script LavaridgeTown_Gym_1F_EventScript_GymStatue {
+	msgbox LavaridgeTown_Gym_1F_Text_GymStatue, MSGBOX_DEFAULT
+	releaseall
+	end
+
+}
+
+text LavaridgeTown_Gym_1F_Text_GymGuideAdvice {
+    format("Hey, how's it going, CHAMPION- bound {PLAYER}?\p LAVARIDGE's GYM LEADER FLANNERY uses FIRE-type POKéMON.\p Her passion for POKéMON burns stronger and hotter than a volcano.\p Don't get too close to her--you'll burn! Hose her down with water and then\l go for it!")
+}
+
+text LavaridgeTown_Gym_1F_Text_GymGuidePostVictory {
+    format("Yow! That was a scorching-hot battle!")
+}
+
+text LavaridgeTown_Gym_1F_Text_ColeIntro {
+    format("Owowowowow! Yikes, it's hot!")
+}
+
+text LavaridgeTown_Gym_1F_Text_ColeDefeat {
+    format("I'm blinded by sweat in my eyes…")
+}
+
+text LavaridgeTown_Gym_1F_Text_ColePostBattle {
+    format("Being buried in hot sand promotes circulation.\p It's effective for healing pain in your joints.")
+}
+
+text LavaridgeTown_Gym_1F_Text_AxleIntro {
+    format("I'm trying to relieve my stress. Don't come along and stress me out!")
+}
+
+text LavaridgeTown_Gym_1F_Text_AxleDefeat {
+    format("I hope FLANNERY flames you good!")
+}
+
+text LavaridgeTown_Gym_1F_Text_AxlePostBattle {
+    format("Haaah… Whew…\p If you spend too much time buried in hot sand, it tuckers you out…")
+}
+
+text LavaridgeTown_Gym_B1F_Text_KeeganIntro {
+    format("You must be getting tired by now. You'd like to rest in the hot sand,\l wouldn't you?\p But you should know that maintaining your willpower is an important ability\l for all TRAINERS.")
+}
+
+text LavaridgeTown_Gym_B1F_Text_KeeganDefeat {
+    format("Play with fire, and be burned…")
+}
+
+text LavaridgeTown_Gym_B1F_Text_KeeganPostBattle {
+    format("Your skill is real… But our LEADER FLANNERY is strong.\p If you don't watch yourself, you'll be burned seriously.")
+}
+
+text LavaridgeTown_Gym_1F_Text_GeraldIntro {
+    format("Can your POKéMON withstand 392-degree heat?")
+}
+
+text LavaridgeTown_Gym_1F_Text_GeraldDefeat {
+    format("It didn't burn hotly enough…")
+}
+
+text LavaridgeTown_Gym_1F_Text_GeraldPostBattle {
+    format("The temperature of magma is 392 degrees.\p Your POKéMON beat me, so they should easily survive in magma.")
+}
+
+text LavaridgeTown_Gym_1F_Text_DanielleIntro {
+    format("Um… Okay, I'll battle with you.")
+}
+
+text LavaridgeTown_Gym_1F_Text_DanielleDefeat {
+    format("Oh, but you're too strong.")
+}
+
+text LavaridgeTown_Gym_1F_Text_DaniellePostBattle {
+    format("I'm going to be a pretty and strong TRAINER just like FLANNERY.")
+}
+
+text LavaridgeTown_Gym_B1F_Text_JaceIntro {
+    format("Come on, get with it! Let's go before my feelings cool!")
+}
+
+text LavaridgeTown_Gym_B1F_Text_JaceDefeat {
+    format("It's so hot, and yet my heart is clutched by ice…")
+}
+
+text LavaridgeTown_Gym_B1F_Text_JacePostBattle {
+    format("The way the battling spirit burns within you, you may stand a chance\l against our LEADER.")
+}
+
+text LavaridgeTown_Gym_B1F_Text_JeffIntro {
+    format("See how the flames blaze wildly? They flare in anticipation of my win!")
+}
+
+text LavaridgeTown_Gym_B1F_Text_JeffDefeat {
+    format("Something didn't go right.")
+}
+
+text LavaridgeTown_Gym_B1F_Text_JeffPostBattle {
+    format("Well, so what? I say so what? I can walk on hot coals barefoot!\p …Don't even think about trying it!")
+}
+
+text LavaridgeTown_Gym_B1F_Text_EliIntro {
+    format("As much as I love mountains, I especially love volcanoes.")
+}
+
+text LavaridgeTown_Gym_B1F_Text_EliDefeat {
+    format("Well, it seems to me I lost without ever being in control.")
+}
+
+text LavaridgeTown_Gym_B1F_Text_EliPostBattle {
+    format("I stay here because I became a fan of FLANNERY's power.\p Hehehehe.")
+}
+
+text LavaridgeTown_Gym_1F_Text_FlanneryIntro {
+    format("Welcome… No, wait.\p Puny TRAINER, how good to see you've made it here!\p I have been entrusted with the… No, wait.\p I am FLANNERY, and I'm the GYM LEADER here!\p Uh… Dare not underestimate me, though\l I have been LEADER only a short time!\p With skills inherited from my grand- father, I shall, uh…demonstrate the\l hot moves we have honed on this land!")
+}
+
+text LavaridgeTown_Gym_1F_Text_FlanneryDefeat {
+    format("Oh… I guess I was trying too hard…\p I… I've only recently become a GYM LEADER.\p I tried too hard to be someone I'm not.\p I have to do things my natural way. If I don't, my POKéMON will be confused.\p Thanks for teaching me that. For that, you deserve this.")
+}
+
+text LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge {
+    format("{PLAYER} received the HEAT BADGE from FLANNERY.")
+}
+
+text LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis {
+    format("If you have a HEAT BADGE, all POKéMON up to Level 50, even those you get in\l trades from other people, will obey\l you completely.\p And, it lets POKéMON use the HM move STRENGTH outside of battle.\p This is a token of my appreciation. Don't be shy about taking it!")
+}
+
+text LavaridgeTown_Gym_1F_Text_ExplainOverheat {
+    format("That TM50 contains OVERHEAT.\p That move inflicts serious damage on the opponent.\p But it also sharply cuts the SP. ATK of the POKéMON using it. It might not\l be suitable for longer battles.")
+}
+
+text LavaridgeTown_Gym_1F_Text_RegisteredFlannery {
+    format("Registered GYM LEADER FLANNERY in the POKéNAV.")
+}
+
+text LavaridgeTown_Gym_1F_Text_FlanneryPostBattle {
+    format("Your power reminds me of someone…\p Oh! I know! You battle like NORMAN, the GYM LEADER of PETALBURG.")
+}
+
+text LavaridgeTown_Gym_1F_Text_GymStatue {
+    format("LAVARIDGE TOWN POKéMON GYM")
+}
+
+text LavaridgeTown_Gym_1F_Text_GymStatueCertified {
+    format("LAVARIDGE TOWN POKéMON GYM\p FLANNERY'S CERTIFIED TRAINERS: {PLAYER}")
+}
+
+text LavaridgeTown_Gym_1F_Text_FlanneryPreRematch {
+    format("FLANNERY: Losing a battle isn't going to deflate me.\p I love POKéMON. I love to battle.\l And… I love this GYM!\p Let's exchange superhot moves in another battle!")
+}
+
+text LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat {
+    format("Whew! On the verge of eruption!")
+}
+
+text LavaridgeTown_Gym_1F_Text_FlanneryPostRematch {
+    format("FLANNERY: I lost the match, but I'm completely satisfied.\p It's not often I get to enjoy a battle this heated.\p Let's have another one like this again sometime!")
+}
+
+text LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons {
+    format("FLANNERY: Losing a battle isn't going to deflate me.\p I love POKéMON. I love to battle.\l And… I love this GYM!\p Let's exchange superhot moves in another battle!\p Oh, wait. Do you only have one POKéMON that can battle?\p I hate to say this, but when you come see me, bring at least two POKéMON.")
 }
 

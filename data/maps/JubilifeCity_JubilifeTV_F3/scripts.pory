@@ -1,0 +1,6 @@
+#events for JubilifeCity_JubilifeTV_F3
+
+script JubilifeCity_JubilifeTV_F3_MapScripts {
+	.byte 0
+}
+

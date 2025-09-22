@@ -1,0 +1,7 @@
+#events for Underwater_Route126
+
+script Underwater_Route126_MapScripts {
+	.byte 0
+
+}
+

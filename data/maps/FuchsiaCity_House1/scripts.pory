@@ -1,12 +1,51 @@
-text FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth {
-    format("The SAFARI ZONE's WARDEN is old, but he's still very much active.\p All his teeth are false, though.")
+#events for FuchsiaCity_House1
+
+script FuchsiaCity_House1_MapScripts {
+	.byte 0
+
 }
 
-text FuchsiaCity_House1_Text_BillIsMyGrandson {
-    format("Hmm? You've met BILL?\p He's my grandson!\p He always liked collecting things, even as a child!")
+script FuchsiaCity_House1_EventScript_Woman {
+	msgbox FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth, MSGBOX_NPC
+	end
+
 }
 
-text FuchsiaCity_House1_Text_BillFilesHisOwnMonData {
-    format("BILL files his own POKéMON data on his PC.\p Did he show you?")
+script FuchsiaCity_House1_EventScript_OldMan {
+	lock
+	faceplayer
+	msgbox FuchsiaCity_House1_Text_BillIsMyGrandson
+	release
+	end
+
+}
+
+script FuchsiaCity_House1_EventScript_LittleBoy {
+	msgbox FuchsiaCity_House1_Text_BillFilesHisOwnMonData, MSGBOX_NPC
+	end
+
+}
+
+script FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth {
+    .string "The SAFARI ZONE's WARDEN is old, \n"
+    .string "but he's still very much active.\p"
+    .string "All his teeth are false, though.$"
+
+}
+
+script FuchsiaCity_House1_Text_BillIsMyGrandson {
+    .string "Hmm?\n"
+    .string "You've met BILL?\p"
+    .string "He's my grandson!\p"
+    .string "He always liked collecting things,\n"
+    .string "even as a child!$"
+
+}
+
+script FuchsiaCity_House1_Text_BillFilesHisOwnMonData {
+    .string "BILL files his own POKéMON data on\n"
+    .string "his PC.\p"
+    .string "Did he show you?$"
+
 }
 

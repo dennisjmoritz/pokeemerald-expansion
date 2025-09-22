@@ -1,4 +1,20 @@
-text UndergroundPath_EastEntrance_Text_DoYouGoToCeladonDeptStore {
-    format("The DEPARTMENT STORE in CELADON has a great selection.\p Do you go there very often?")
+#events for UndergroundPath_EastEntrance
+
+script UndergroundPath_EastEntrance_MapScripts {
+	.byte 0
+
+}
+
+script UndergroundPath_EastEntrance_EventScript_Woman {
+	msgbox UndergroundPath_EastEntrance_Text_DoYouGoToCeladonDeptStore, MSGBOX_NPC
+	end
+
+}
+
+script UndergroundPath_EastEntrance_Text_DoYouGoToCeladonDeptStore {
+    .string "The DEPARTMENT STORE in CELADON\n"
+    .string "has a great selection.\p"
+    .string "Do you go there very often?$"
+
 }
 

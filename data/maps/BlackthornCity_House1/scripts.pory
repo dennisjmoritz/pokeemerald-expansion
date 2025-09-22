@@ -1,0 +1,6 @@
+#events for BlackthornCity_House1
+
+script BlackthornCity_House1_MapScripts {
+	.byte 0
+}
+

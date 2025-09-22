@@ -1,0 +1,6 @@
+#events for SlowpokeWell_B1F
+
+script SlowpokeWell_B1F_MapScripts {
+	.byte 0
+}
+

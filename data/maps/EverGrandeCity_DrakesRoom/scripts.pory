@@ -1,4 +1,80 @@
-text EverGrandeCity_DrakesRoom_EventScript_Defeated {
-    format("I am the last of the POKéMON LEAGUE ELITE FOUR, DRAKE the DRAGON master!\p In their natural state, POKéMON are wild living things. They are free.\p At times, they hinder us. At times, they help us.\p For us to battle with POKéMON as partners, do you know what it takes?\p Do you know what is needed?\p If you don't, then you will never prevail over me!$ Superb, it should be said.$ You deserve every credit for coming this far as a TRAINER of POKéMON.\p You do seem to know what is needed.\p Yes, what a TRAINER needs is a virtuous heart.\p POKéMON touch the good hearts of TRAINERS and learn good from wrong.\p They touch the good hearts of TRAINERS and grow strong.\p Go! Go onwards! The CHAMPION is waiting!")
+#events for EverGrandeCity_DrakesRoom
+
+script EverGrandeCity_DrakesRoom_MapScripts {
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_DrakesRoom_OnFrame
+	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_DrakesRoom_OnLoad
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_SidneysRoom_OnWarp
+	.byte 0
+
+@ Unused, Drake uses Sidneys identical OnWarp for some reason
+}
+
+script EverGrandeCity_DrakesRoom_EventScript_PlayerTurnNorth {
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	end
+
+}
+
+script EverGrandeCity_DrakesRoom_EventScript_WalkInCloseDoor {
+	lockall
+	call PokemonLeague_EliteFour_EventScript_WalkInCloseDoor
+	setvar VAR_ELITE_4_STATE, 4
+	releaseall
+	end
+
+}
+
+script EverGrandeCity_DrakesRoom_EventScript_ResetAdvanceToNextRoom {
+	call PokemonLeague_EliteFour_EventScript_ResetAdvanceToNextRoom
+	return
+
+}
+
+script EverGrandeCity_DrakesRoom_EventScript_CloseDoor {
+	call PokemonLeague_EliteFour_EventScript_CloseDoor
+	return
+
+}
+
+script EverGrandeCity_DrakesRoom_EventScript_Drake {
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_ELITE_4_DRAKE, EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech
+	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
+	msgbox EverGrandeCity_DrakesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_DRAKE, EverGrandeCity_DrakesRoom_Text_Defeat
+	goto EverGrandeCity_DrakesRoom_EventScript_Defeated
+	end
+
+}
+
+script EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech {
+	msgbox EverGrandeCity_DrakesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script EverGrandeCity_DrakesRoom_EventScript_Defeated {
+	setvar VAR_0x8004, FANCOUNTER_DEFEATED_DRAKE
+	special Script_TryGainNewFanFromCounter
+	setflag FLAG_DEFEATED_ELITE_4_DRAKE
+	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
+	msgbox EverGrandeCity_DrakesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text EverGrandeCity_DrakesRoom_Text_IntroSpeech {
+    format("I am the last of the POKéMON LEAGUE ELITE FOUR, DRAKE the DRAGON master!\p In their natural state, POKéMON are wild living things. They are free.\p At times, they hinder us. At times, they help us.\p For us to battle with POKéMON as partners, do you know what it takes?\p Do you know what is needed?\p If you don't, then you will never prevail over me!")
+}
+
+text EverGrandeCity_DrakesRoom_Text_Defeat {
+    format("Superb, it should be said.")
+}
+
+text EverGrandeCity_DrakesRoom_Text_PostBattleSpeech {
+    format("You deserve every credit for coming this far as a TRAINER of POKéMON.\p You do seem to know what is needed.\p Yes, what a TRAINER needs is a virtuous heart.\p POKéMON touch the good hearts of TRAINERS and learn good from wrong.\p They touch the good hearts of TRAINERS and grow strong.\p Go! Go onwards! The CHAMPION is waiting!")
 }
 

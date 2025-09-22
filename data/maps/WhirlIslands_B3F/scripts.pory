@@ -1,0 +1,6 @@
+#events for WhirlIslands_B3F
+
+script WhirlIslands_B3F_MapScripts {
+	.byte 0
+}
+

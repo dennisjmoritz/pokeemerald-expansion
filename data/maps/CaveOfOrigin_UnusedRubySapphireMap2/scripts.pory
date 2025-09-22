@@ -1,0 +1,8 @@
+#events for CaveOfOrigin_UnusedRubySapphireMap2
+
+script CaveOfOrigin_UnusedRubySapphireMap2_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, CaveOfOrigin_UnusedRubySapphireMap2_OnTransition
+	.byte 0
+
+}
+

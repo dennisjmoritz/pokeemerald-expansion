@@ -1,0 +1,6 @@
+#events for GoldenrodCity_House2
+
+script GoldenrodCity_House2_MapScripts {
+	.byte 0
+}
+

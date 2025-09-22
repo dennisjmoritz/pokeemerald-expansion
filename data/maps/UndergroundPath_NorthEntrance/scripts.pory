@@ -1,0 +1,50 @@
+#events for UndergroundPath_NorthEntrance
+
+script UndergroundPath_NorthEntrance_MapScripts {
+	.byte 0
+
+}
+
+script UndergroundPath_NorthEntrance_EventScript_Saige {
+	lock
+	faceplayer
+//	setvar VAR_0x8008, INGAME_TRADE_NIDORAN
+    // call EventScript_GetInGameTradeSpeciesInfo
+	goto_if_set FLAG_TEMP_1, UndergroundPath_NorthEntrance_EventScript_AlreadyTraded
+// Replaced FLAG_DID_MS_NIDO_TRADE with FLAG_TEMP_1
+    // msgbox Trade_Text_DoYouHaveMonWantToTradeForMon, MSGBOX_YESNO
+    // goto_if_eq VAR_RESULT, NO, UndergroundPath_NorthEntrance_EventScript_DeclineTrade
+    // call EventScript_ChooseMonForInGameTrade
+    // goto_if_ge VAR_0x8004, PARTY_SIZE, UndergroundPath_NorthEntrance_EventScript_DeclineTrade
+    // call EventScript_GetInGameTradeSpecies
+    // goto_if_ne VAR_RESULT, VAR_0x8009, UndergroundPath_NorthEntrance_EventScript_NotRequestedMon
+    // call EventScript_DoInGameTrade
+// FIXME undefined reference: 	msgbox Trade_Text_ThanksYoureAPal
+	setflag FLAG_TEMP_1
+// Replaced FLAG_DID_MS_NIDO_TRADE with FLAG_TEMP_1
+	release
+	end
+
+}
+
+script UndergroundPath_NorthEntrance_EventScript_DeclineTrade {
+// FIXME undefined reference: 	msgbox Trade_Text_ThatsTooBad
+	release
+	end
+
+}
+
+script UndergroundPath_NorthEntrance_EventScript_NotRequestedMon {
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+// FIXME undefined reference: 	msgbox Trade_Text_ThisIsNoMon
+	release
+	end
+
+}
+
+script UndergroundPath_NorthEntrance_EventScript_AlreadyTraded {
+// FIXME undefined reference: 	msgbox Trade_Text_HowIsMyOldMon
+	release
+	end
+}
+

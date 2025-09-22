@@ -1,0 +1,6 @@
+#events for CianwoodCity_PhotoStudio
+
+script CianwoodCity_PhotoStudio_MapScripts {
+	.byte 0
+}
+

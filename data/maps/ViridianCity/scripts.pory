@@ -1,114 +1,480 @@
-text ViridianCity_Text_CanCarryMonsAnywhere {
-    format("Those POKé BALLS at your waist! You have POKéMON, don't you?\p It's great that you can carry and use POKéMON anytime, anywhere.")
+#events for ViridianCity
+
+script ViridianCity_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, ViridianCity_OnTransition
+	.byte 0
+
 }
 
-text ViridianCity_Text_GymClosedWonderWhoLeaderIs {
-    format("This POKéMON GYM is always closed.\p I wonder who the LEADER is?")
+script ViridianCity_OnTransition {
+    // setworldmapflag FLAG_TEMP_1
+// Replaced FLAG_WORLD_MAP_VIRIDIAN_CITY with FLAG_TEMP_1
+    // call_if_eq VAR_TEMP_0, 0, ViridianCity_EventScript_SetOldManBlockingRoad
+// Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN with VAR_TEMP_0
+    // call_if_eq VAR_TEMP_0, 1, ViridianCity_EventScript_SetOldManStandingByRoad
+// Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN with VAR_TEMP_0
+    // call_if_ge VAR_TEMP_0, 2, ViridianCity_EventScript_SetOldManNormal
+// Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN with VAR_TEMP_0
+    // call_if_eq VAR_TEMP_0, 0, ViridianCity_EventScript_TryUnlockGym
+// Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_GYM_DOOR with VAR_TEMP_0
+    end
+
 }
 
-text ViridianCity_Text_ViridiansGymLeaderReturned {
-    format("VIRIDIAN GYM's LEADER returned!")
+script ViridianCity_EventScript_SetOldManNormal {
+//	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_OLD_MAN_1
+	return
+
 }
 
-text ViridianCity_Text_WantToKnowAboutCaterpillarMons {
-    format("You want to know about the two kinds of caterpillar POKéMON?")
+script ViridianCity_EventScript_SetOldManStandingByRoad {
+//	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_OLD_MAN_1
+	setobjectxyperm LOCALID_TUTORIAL_MAN, 21, 8
+	setobjectmovementtype LOCALID_TUTORIAL_MAN, MOVEMENT_TYPE_LOOK_AROUND
+	return
+
 }
 
-text ViridianCity_Text_OhOkayThen {
-    format("Oh, okay then!")
+script ViridianCity_EventScript_SetOldManBlockingRoad {
+//	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_OLD_MAN_LYING_DOWN
+	setobjectxyperm LOCALID_TUTORIAL_MAN, 21, 11
+	setobjectmovementtype LOCALID_TUTORIAL_MAN, MOVEMENT_TYPE_FACE_DOWN
+	return
+
 }
 
-text ViridianCity_Text_ExplainCaterpieWeedle {
-    format("CATERPIE has no poison, but WEEDLE does.\p Watch that your POKéMON aren't stabbed by WEEDLE's POISON STING.")
+script ViridianCity_EventScript_TryUnlockGym {
+    // goto_if_unset FLAG_BADGE02_GET, EventScript_Return
+    // goto_if_unset FLAG_BADGE03_GET, EventScript_Return
+    // goto_if_unset FLAG_BADGE04_GET, EventScript_Return
+    // goto_if_unset FLAG_BADGE05_GET, EventScript_Return
+    // goto_if_unset FLAG_BADGE06_GET, EventScript_Return
+    // goto_if_unset FLAG_BADGE07_GET, EventScript_Return
+	setvar VAR_TEMP_0, 1
+// Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_GYM_DOOR with VAR_TEMP_0
+	return
+
 }
 
-text ViridianCity_Text_GrandpaHasntHadCoffeeYet {
-    format("Oh, Grandpa! Don't be so mean!\p I'm so sorry. He hasn't had his coffee yet.")
+script ViridianCity_EventScript_GymDoorLocked {
+	lockall
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	delay 20
+	msgbox ViridianCity_Text_GymDoorsAreLocked
+	closemessage
+	applymovement LOCALID_PLAYER, ViridianCity_Movement_JumpDownLedge
+	waitmovement 0
+	releaseall
+	end
+
 }
 
-text ViridianCity_Text_GoShoppingInPewterOccasionally {
-    format("I go shopping in PEWTER CITY occasionally.\p I have to take the winding trail in VIRIDIAN FOREST when I go.")
-}
+script ViridianCity_Movement_JumpDownLedge {
+	jump_2_down
+	step_end
 
-text ViridianCity_Text_ThisIsPrivateProperty {
-    format("I absolutely forbid you from going through here!\p This is private property!")
-}
-
-text ViridianCity_Text_ShowYouHowToCatchMons {
-    format("Well, now, I've had my coffee, and that's what I need to get going!\p Hm? What is that red box you have?\p Ah, so you're working on your POKéDEX.\p Then let me give you a word of advice.\p Whenever you catch a POKéMON, the POKéDEX automatically updates\l its data.\p …You don't know how to catch a POKéMON?\p I suppose I had better show you then!")
-}
-
-text ViridianCity_Text_ThatWasEducationalTakeThis {
-    format("There! Now tell me, that was educational, was it not?\p And here, take this, too.")
-}
-
-text ViridianCity_Text_WatchThatToLearnBasics {
-    format("If there's something you don't understand, watch that.\p It will teach you about the basics of being a POKéMON TRAINER.")
-}
-
-text ViridianCity_Text_WeakenMonsFirstToCatch {
-    format("Well, now, I've had my coffee, and that's what I need to get going!\p But I made it too strong. It gave me a headache…\p Incidentally, are you filling your POKéDEX?\p At first, focus on weakening the POKéMON before trying to catch it.")
-}
-
-text ViridianCity_Text_HowsTeachyTVHelping {
-    format("Well, now, I've had my coffee, and that's what I need to get going!\p But I made it too strong. It gave me a headache…\p Incidentally, is my old TEACHY TV helping you?")
-}
-
-text ViridianCity_Text_MyGrandsonOnTheShow {
-    format("Wahaha! It's my grandson on the show!\p Since he's the one doing the teaching, you're bound to learn.")
-}
-
-text ViridianCity_Text_TooBusyForTeachyTV {
-    format("Hm… You're too busy to not even have the time for TEACHY TV…\p Time is money, and neither should be ill spent…")
-}
-
-text ViridianCity_Text_CitySign {
-    format("VIRIDIAN CITY The Eternally Green Paradise")
-}
-
-text ViridianCity_Text_CatchMonsForEasierBattles {
-    format("TRAINER TIPS\p Catch POKéMON and expand your collection.\p The more you have, the easier it is to battle.")
-}
-
-text ViridianCity_Text_MovesLimitedByPP {
-    format("TRAINER TIPS\p The battle moves of POKéMON are limited by their POWER POINTS, PP.\p To replenish PP, rest your tired POKéMON at a POKéMON CENTER.")
-}
-
-text ViridianCity_Text_GymSign {
-    format("VIRIDIAN CITY POKéMON GYM")
-}
-
-text ViridianCity_Text_GymDoorsAreLocked {
-    format("VIRIDIAN GYM's doors are locked…")
-}
-
-script ViridianCity_EventScript_TrainerTips1 {
-    lockall
-    msgbox(ViridianCity_Text_CatchMonsForEasierBattles)
-    releaseall
-}
-
-script ViridianCity_EventScript_GymSign {
-    lockall
-    msgbox(ViridianCity_Text_GymSign)
-    releaseall
-}
-
-script ViridianCity_EventScript_TrainerTips2 {
-    lockall
-    msgbox(ViridianCity_Text_MovesLimitedByPP)
-    releaseall
 }
 
 script ViridianCity_EventScript_CitySign {
-    lockall
-    msgbox(ViridianCity_Text_CitySign)
-    releaseall
+	msgbox ViridianCity_Text_CitySign, MSGBOX_SIGN
+	end
+
+}
+
+script ViridianCity_EventScript_TrainerTips1 {
+	msgbox ViridianCity_Text_CatchMonsForEasierBattles, MSGBOX_SIGN
+	end
+
+}
+
+script ViridianCity_EventScript_TrainerTips2 {
+	msgbox ViridianCity_Text_MovesLimitedByPP, MSGBOX_SIGN
+	end
+
+}
+
+script ViridianCity_EventScript_GymSign {
+	msgbox ViridianCity_Text_GymSign, MSGBOX_SIGN
+	end
+
 }
 
 script ViridianCity_EventScript_GymDoor {
-    lockall
-    msgbox(ViridianCity_Text_GymDoorsAreLocked)
-    releaseall
+	msgbox ViridianCity_Text_GymDoorsAreLocked, MSGBOX_SIGN
+	end
+
+}
+
+script ViridianCity_EventScript_Boy {
+	msgbox ViridianCity_Text_CanCarryMonsAnywhere, MSGBOX_NPC
+	end
+
+@ Other old man, not the tutorial old man
+}
+
+script ViridianCity_EventScript_OldMan {
+	lock
+	faceplayer
+	goto_if_eq VAR_TEMP_0, 1, ViridianCity_EventScript_OldManGymLeaderReturned
+// Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_GYM_DOOR with VAR_TEMP_0
+	msgbox ViridianCity_Text_GymClosedWonderWhoLeaderIs
+	closemessage
+	applymovement LOCALID_VIRIDIAN_OLD_MAN, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_OldManGymLeaderReturned {
+	msgbox ViridianCity_Text_ViridiansGymLeaderReturned
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_TutorialOldMan {
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE01_GET, ViridianCity_EventScript_AskIfTeachyTVHelpful
+	goto_if_ge VAR_TEMP_0, 2, ViridianCity_EventScript_TutorialCompleted
+// Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN with VAR_TEMP_0
+	goto_if_eq VAR_TEMP_0, 1, ViridianCity_EventScript_TutorialStart
+// Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN with VAR_TEMP_0
+	goto_if_eq VAR_TEMP_0, 0, ViridianCity_EventScript_TutorialNotReady
+// Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN with VAR_TEMP_0
+	end
+
+}
+
+script ViridianCity_EventScript_AskIfTeachyTVHelpful {
+	msgbox ViridianCity_Text_HowsTeachyTVHelping, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, ViridianCity_EventScript_TeachyTVNotHelpful
+	msgbox ViridianCity_Text_MyGrandsonOnTheShow
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_TeachyTVNotHelpful {
+	msgbox ViridianCity_Text_TooBusyForTeachyTV
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_TutorialCompleted {
+	msgbox ViridianCity_Text_WeakenMonsFirstToCatch
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_TutorialStart {
+	call ViridianCity_EventScript_DoTutorialBattle
+	release
+	end
+
+@ Unused
+}
+
+script ViridianCity_EventScript_WatchToLearnBasics {
+	msgbox ViridianCity_Text_WatchThatToLearnBasics
+	release
+	end
+
+@ Unused. Starts battle after the post battle text, which is odd.
+}
+
+script ViridianCity_EventScript_TutorialUnused {
+	msgbox ViridianCity_Text_ThatWasEducationalTakeThis
+@	goto_if_questlog EventScript_ReleaseEnd
+// FIXME undefined reference: 	special StartOldManTutorialBattle
+	waitstate
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_TutorialNotReady {
+	msgbox ViridianCity_Text_ThisIsPrivateProperty
+	closemessage
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_Youngster {
+	lock
+	faceplayer
+	msgbox ViridianCity_Text_WantToKnowAboutCaterpillarMons, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, ViridianCity_EventScript_YoungsterExplainCaterpillars
+	goto_if_eq VAR_RESULT, NO, ViridianCity_EventScript_YoungsterDeclineExplanation
+	end
+
+}
+
+script ViridianCity_EventScript_YoungsterExplainCaterpillars {
+	msgbox ViridianCity_Text_ExplainCaterpieWeedle
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_YoungsterDeclineExplanation {
+	msgbox ViridianCity_Text_OhOkayThen
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_Woman {
+	lock
+	faceplayer
+	goto_if_eq VAR_TEMP_0, 0, ViridianCity_EventScript_WomanRoadBlocked
+// Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN with VAR_TEMP_0
+	msgbox ViridianCity_Text_GoShoppingInPewterOccasionally
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_WomanRoadBlocked {
+	msgbox ViridianCity_Text_GrandpaHasntHadCoffeeYet
+	closemessage
+	applymovement LOCALID_VIRIDIAN_WOMAN, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+// FIXME undefined reference: ViridianCity_EventScript_DreamEaterTutor::
+// FIXME undefined reference: 	goto EventScript_DreamEaterTutor
+	end
+
+}
+
+script ViridianCity_EventScript_RoadBlocked {
+	lockall
+	msgbox ViridianCity_Text_ThisIsPrivateProperty
+	closemessage
+	applymovement LOCALID_PLAYER, ViridianCity_Movement_WalkDown
+	waitmovement 0
+	releaseall
+	end
+
+}
+
+script ViridianCity_Movement_WalkDown {
+	walk_down
+	step_end
+
+}
+
+script ViridianCity_EventScript_TutorialTriggerLeft {
+	lockall
+	applymovement LOCALID_TUTORIAL_MAN, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	call ViridianCity_EventScript_DoTutorialBattle
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_TutorialTriggerRight {
+	lockall
+	applymovement LOCALID_TUTORIAL_MAN, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	call ViridianCity_EventScript_DoTutorialBattle
+	release
+	end
+
+}
+
+script ViridianCity_EventScript_DoTutorialBattle {
+	msgbox ViridianCity_Text_ShowYouHowToCatchMons
+	closemessage
+@	goto_if_questlog EventScript_ReleaseEnd
+// FIXME undefined reference: 	special StartOldManTutorialBattle
+	waitstate
+	lock
+	faceplayer
+	msgbox ViridianCity_Text_ThatWasEducationalTakeThis
+	setvar VAR_TEMP_0, 2
+// Replaced VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN with VAR_TEMP_0
+	giveitem ITEM_TEACHY_TV
+	msgbox ViridianCity_Text_WatchThatToLearnBasics
+	return
+
+}
+
+script ViridianCity_Text_CanCarryMonsAnywhere {
+    .string "Those POKé BALLS at your waist!\n"
+    .string "You have POKéMON, don't you?\p"
+    .string "It's great that you can carry and\n"
+    .string "use POKéMON anytime, anywhere.$"
+
+}
+
+script ViridianCity_Text_GymClosedWonderWhoLeaderIs {
+    .string "This POKéMON GYM is always closed.\p"
+    .string "I wonder who the LEADER is?$"
+
+}
+
+script ViridianCity_Text_ViridiansGymLeaderReturned {
+    .string "VIRIDIAN GYM's LEADER returned!$"
+
+}
+
+script ViridianCity_Text_WantToKnowAboutCaterpillarMons {
+    .string "You want to know about the two\n"
+    .string "kinds of caterpillar POKéMON?$"
+
+}
+
+script ViridianCity_Text_OhOkayThen {
+    .string "Oh, okay then!$"
+
+}
+
+script ViridianCity_Text_ExplainCaterpieWeedle {
+    .string "CATERPIE has no poison,\n"
+    .string "but WEEDLE does.\p"
+    .string "Watch that your POKéMON aren't\n"
+    .string "stabbed by WEEDLE's POISON STING.$"
+
+}
+
+script ViridianCity_Text_GrandpaHasntHadCoffeeYet {
+    .string "Oh, Grandpa!\n"
+    .string "Don't be so mean!\p"
+    .string "I'm so sorry.\n"
+    .string "He hasn't had his coffee yet.$"
+
+}
+
+script ViridianCity_Text_GoShoppingInPewterOccasionally {
+    .string "I go shopping in PEWTER CITY\n"
+    .string "occasionally.\p"
+    .string "I have to take the winding trail in\n"
+    .string "VIRIDIAN FOREST when I go.$"
+
+}
+
+script ViridianCity_Text_ThisIsPrivateProperty {
+    .string "I absolutely forbid you from\n"
+    .string "going through here!\p"
+    .string "This is private property!$"
+
+}
+
+script ViridianCity_Text_ShowYouHowToCatchMons {
+    .string "Well, now, I've had my coffee, and\n"
+    .string "that's what I need to get going!\p"
+    .string "Hm?\n"
+    .string "What is that red box you have?\p"
+    .string "Ah, so you're working on your\n"
+    .string "POKéDEX.\p"
+    .string "Then let me give you a word of\n"
+    .string "advice.\p"
+    .string "Whenever you catch a POKéMON,\n"
+    .string "the POKéDEX automatically updates\l"
+    .string "its data.\p"
+    .string "…You don't know how to catch\n"
+    .string "a POKéMON?\p"
+    .string "I suppose I had better show you\n"
+    .string "then!$"
+
+}
+
+script ViridianCity_Text_ThatWasEducationalTakeThis {
+    .string "There! Now tell me, that was\n"
+    .string "educational, was it not?\p"
+    .string "And here, take this, too.$"
+
+}
+
+script ViridianCity_Text_WatchThatToLearnBasics {
+    .string "If there's something you don't\n"
+    .string "understand, watch that.\p"
+    .string "It will teach you about the basics\n"
+    .string "of being a POKéMON TRAINER.$"
+
+}
+
+script ViridianCity_Text_WeakenMonsFirstToCatch {
+    .string "Well, now, I've had my coffee, and\n"
+    .string "that's what I need to get going!\p"
+    .string "But I made it too strong.\n"
+    .string "It gave me a headache…\p"
+    .string "Incidentally, are you filling your\n"
+    .string "POKéDEX?\p"
+    .string "At first, focus on weakening the\n"
+    .string "POKéMON before trying to catch it.$"
+
+}
+
+script ViridianCity_Text_HowsTeachyTVHelping {
+    .string "Well, now, I've had my coffee, and\n"
+    .string "that's what I need to get going!\p"
+    .string "But I made it too strong.\n"
+    .string "It gave me a headache…\p"
+    .string "Incidentally, is my old TEACHY TV\n"
+    .string "helping you?$"
+
+}
+
+script ViridianCity_Text_MyGrandsonOnTheShow {
+    .string "Wahaha!\n"
+    .string "It's my grandson on the show!\p"
+    .string "Since he's the one doing the\n"
+    .string "teaching, you're bound to learn.$"
+
+}
+
+script ViridianCity_Text_TooBusyForTeachyTV {
+    .string "Hm… You're too busy to not even\n"
+    .string "have the time for TEACHY TV…\p"
+    .string "Time is money, and neither should\n"
+    .string "be ill spent…$"
+
+}
+
+script ViridianCity_Text_CitySign {
+    .string "VIRIDIAN CITY \n"
+    .string "The Eternally Green Paradise$"
+
+}
+
+script ViridianCity_Text_CatchMonsForEasierBattles {
+    .string "TRAINER TIPS\p"
+    .string "Catch POKéMON and expand your\n"
+    .string "collection.\p"
+    .string "The more you have, the easier it\n"
+    .string "is to battle.$"
+
+}
+
+script ViridianCity_Text_MovesLimitedByPP {
+    .string "TRAINER TIPS\p"
+    .string "The battle moves of POKéMON are\n"
+    .string "limited by their POWER POINTS, PP.\p"
+    .string "To replenish PP, rest your tired\n"
+    .string "POKéMON at a POKéMON CENTER.$"
+
+}
+
+script ViridianCity_Text_GymSign {
+    .string "VIRIDIAN CITY POKéMON GYM$"
+
+}
+
+script ViridianCity_Text_GymDoorsAreLocked {
+    .string "VIRIDIAN GYM's doors are locked…$"
 }
 

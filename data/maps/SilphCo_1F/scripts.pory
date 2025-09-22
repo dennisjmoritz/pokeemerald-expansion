@@ -1,18 +1,47 @@
-text SilphCo_1F_Text_WelcomePresidentInBoardroom {
-    format("Welcome.\p The PRESIDENT is in the boardroom on 11F.")
+#events for SilphCo_1F
+
+script SilphCo_1F_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, SilphCo_1F_OnTransition
+	.byte 0
+
 }
 
-text SilphCo_1F_Text_DestroyedWontBeFixedForWhile {
-    format("めちゃめちゃに こわされてる とうぶん なおりそうに ない‥")
+script SilphCo_1F_OnTransition {
+	setworldmapflag FLAG_TEMP_1
+// Replaced FLAG_WORLD_MAP_SILPH_CO_1F with FLAG_TEMP_1
+	end
+
 }
 
-text SilphCo_1F_Text_FloorSign {
-    format("SILPH CO. HEAD OFFICE 1F")
+script SilphCo_1F_EventScript_Receptionist {
+	msgbox SilphCo_1F_Text_WelcomePresidentInBoardroom, MSGBOX_NPC
+	end
+
 }
 
 script SilphCo_1F_EventScript_FloorSign {
-    lockall
-    msgbox(SilphCo_1F_Text_FloorSign)
-    releaseall
+	msgbox SilphCo_1F_Text_FloorSign, MSGBOX_SIGN
+	end
+
+}
+
+script SilphCo_1F_Text_WelcomePresidentInBoardroom {
+    .string "Welcome.\p"
+    .string "The PRESIDENT is in the boardroom\n"
+    .string "on 11F.$"
+
+@ Tentative translation. Unknown origin
+}
+
+script SilphCo_1F_Text_DestroyedWontBeFixedForWhile {
+//     .string "めちゃめちゃに　こわされてる\n"
+//     .string "とうぶん　なおりそうに　ない‥$"
+
+}
+
+script SilphCo_1F_Text_FloorSign {
+    .string "SILPH CO. HEAD OFFICE\n"
+    .string "1F$"
+
 }
 

@@ -1,0 +1,6 @@
+#events for TwinleafTown_Haouse1
+
+script TwinleafTown_Haouse1_MapScripts {
+	.byte 0
+}
+

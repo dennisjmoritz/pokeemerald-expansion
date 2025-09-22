@@ -1,0 +1,6 @@
+#events for Route29_Gatehouse
+
+script Route29_Gatehouse_MapScripts {
+	.byte 0
+}
+

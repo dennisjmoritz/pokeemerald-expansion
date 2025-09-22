@@ -1,0 +1,6 @@
+#events for RuinsOfAlph_KabutoWordRoom
+
+script RuinsOfAlph_KabutoWordRoom_MapScripts {
+	.byte 0
+}
+

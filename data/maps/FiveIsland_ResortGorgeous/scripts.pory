@@ -1,98 +1,204 @@
-text FiveIsland_ResortGorgeous_Text_DaisyIntro {
-    format("With these hands, I will create my victory!")
+#events for FiveIsland_ResortGorgeous
+
+script FiveIsland_ResortGorgeous_MapScripts {
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, FiveIsland_ResortGorgeous_OnWarp
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, FiveIsland_ResortGorgeous_OnFrame
+	.byte 0
+
 }
 
-text FiveIsland_ResortGorgeous_Text_DaisyDefeat {
-    format("The shame of this… I'm red-faced…")
+script FiveIsland_ResortGorgeous_OnWarp {
+	map_script_2 VAR_TEMP_0, 1, FiveIsland_ResortGorgeous_EventScript_TurnPlayerNorth
+// Replaced VAR_MAP_SCENE_FIVE_ISLAND_RESORT_GORGEOUS with VAR_TEMP_0
+	.2byte 0
+
 }
 
-text FiveIsland_ResortGorgeous_Text_DaisyPostBattle {
-    format("Uh-oh, my paint tubes have scattered everywhere!")
+script FiveIsland_ResortGorgeous_EventScript_TurnPlayerNorth {
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	end
+
 }
 
-text FiveIsland_ResortGorgeous_Text_CelinaIntro {
-    format("Excuse me! I'm trying to paint.\l Please keep out of my sight!")
+script FiveIsland_ResortGorgeous_OnFrame {
+	map_script_2 VAR_TEMP_0, 1, FiveIsland_ResortGorgeous_EventScript_SelphyReturnHomeScene
+// Replaced VAR_MAP_SCENE_FIVE_ISLAND_RESORT_GORGEOUS with VAR_TEMP_0
+	.2byte 0
+
 }
 
-text FiveIsland_ResortGorgeous_Text_CelinaDefeat {
-    format("This loss… I feel like I'm whiting out…")
+script FiveIsland_ResortGorgeous_EventScript_SelphyReturnHomeScene {
+	lockall
+// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
+	msgbox FiveIsland_ResortGorgeous_Text_SelphyThanksYouMayGoNow
+	closemessage
+	applymovement LOCALID_RESORT_GORGEOUS_SELPHY, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	opendoor 39, 8
+	waitdooranim
+	applymovement LOCALID_RESORT_GORGEOUS_SELPHY, FiveIsland_ResortGorgeous_Movement_SelphyEnterHome
+	waitmovement 0
+	closedoor 39, 8
+	waitdooranim
+	removeobject LOCALID_RESORT_GORGEOUS_SELPHY
+	clearflag FLAG_TEMP_1
+// Replaced FLAG_HIDE_RESORT_GORGEOUS_INSIDE_SELPHY with FLAG_TEMP_1
+	setvar VAR_TEMP_0, 2
+// Replaced VAR_MAP_SCENE_FIVE_ISLAND_RESORT_GORGEOUS with VAR_TEMP_0
+	releaseall
+	end
+
 }
 
-text FiveIsland_ResortGorgeous_Text_CelinaPostBattle {
-    format("GILLIAN? Please tilt your head slightly…\l There! That's the look I want!")
-}
+script FiveIsland_ResortGorgeous_Movement_SelphyEnterHome {
+	walk_up
+	set_invisible
+	step_end
 
-text FiveIsland_ResortGorgeous_Text_RaynaIntro {
-    format("Hmm… The angle, it is not quite there…")
-}
-
-text FiveIsland_ResortGorgeous_Text_RaynaDefeat {
-    format("Oh… My feelings, they are blue…")
-}
-
-text FiveIsland_ResortGorgeous_Text_RaynaPostBattle {
-    format("The sky and the sea… They are so fickle.\p Their changing expressions make them difficult to capture.")
-}
-
-text FiveIsland_ResortGorgeous_Text_JackiIntro {
-    format("I am visiting my friend's retreat, if you must know.")
-}
-
-text FiveIsland_ResortGorgeous_Text_JackiDefeat {
-    format("Oh, my, so strong.")
-}
-
-text FiveIsland_ResortGorgeous_Text_JackiPostBattle {
-    format("I find it pleasurable to leisurely battle in the gentle sea breeze.")
-}
-
-text FiveIsland_ResortGorgeous_Text_GillianIntro {
-    format("I'm thinking of having a pool made specially for POKéMON.")
-}
-
-text FiveIsland_ResortGorgeous_Text_GillianDefeat {
-    format("Oh, my goodness gracious!")
-}
-
-text FiveIsland_ResortGorgeous_Text_GillianPostBattle {
-    format("A pool would be nice, but I must say, a sun-room may be sublime.")
-}
-
-text FiveIsland_ResortGorgeous_Text_DestinIntro {
-    format("I'm a good runner. I'm really fast!")
-}
-
-text FiveIsland_ResortGorgeous_Text_DestinDefeat {
-    format("Oops! I rushed things!")
-}
-
-text FiveIsland_ResortGorgeous_Text_DestinPostBattle {
-    format("When I run with the wind, it feels like I could fly!")
-}
-
-text FiveIsland_ResortGorgeous_Text_TobyIntro {
-    format("I say, this marine life here at this resort agrees with me.")
-}
-
-text FiveIsland_ResortGorgeous_Text_TobyDefeat {
-    format("That's a shocker! You must be joking.")
-}
-
-text FiveIsland_ResortGorgeous_Text_TobyPostBattle {
-    format("Getting so serious over this… How nonsensical.")
-}
-
-text FiveIsland_ResortGorgeous_Text_SelphyThanksYouMayGoNow {
-    format("SELPHY: Thank you.\p You may go now.")
-}
-
-text FiveIsland_ResortGorgeous_Text_SelphysHouse {
-    format("SELPHY'S HOUSE")
 }
 
 script FiveIsland_ResortGorgeous_EventScript_SelphysHouseSign {
-    lockall
-    msgbox(FiveIsland_ResortGorgeous_Text_SelphysHouse)
-    releaseall
+	msgbox FiveIsland_ResortGorgeous_Text_SelphysHouse, MSGBOX_SIGN
+	end
+
+}
+
+script FiveIsland_ResortGorgeous_Text_DaisyIntro {
+    .string "With these hands, I will create\n"
+    .string "my victory!$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_DaisyDefeat {
+    .string "The shame of this…\n"
+    .string "I'm red-faced…$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_DaisyPostBattle {
+    .string "Uh-oh, my paint tubes have\n"
+    .string "scattered everywhere!$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_CelinaIntro {
+    .string "Excuse me!\n"
+    .string "I'm trying to paint.\l"
+    .string "Please keep out of my sight!$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_CelinaDefeat {
+    .string "This loss…\n"
+    .string "I feel like I'm whiting out…$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_CelinaPostBattle {
+    .string "GILLIAN?\n"
+    .string "Please tilt your head slightly…\l"
+    .string "There! That's the look I want!$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_RaynaIntro {
+    .string "Hmm…\n"
+    .string "The angle, it is not quite there…$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_RaynaDefeat {
+    .string "Oh…\n"
+    .string "My feelings, they are blue…$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_RaynaPostBattle {
+    .string "The sky and the sea…\n"
+    .string "They are so fickle.\p"
+    .string "Their changing expressions make\n"
+    .string "them difficult to capture.$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_JackiIntro {
+    .string "I am visiting my friend's retreat,\n"
+    .string "if you must know.$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_JackiDefeat {
+    .string "Oh, my, so strong.$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_JackiPostBattle {
+    .string "I find it pleasurable to leisurely\n"
+    .string "battle in the gentle sea breeze.$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_GillianIntro {
+    .string "I'm thinking of having a pool\n"
+    .string "made specially for POKéMON.$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_GillianDefeat {
+    .string "Oh, my goodness gracious!$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_GillianPostBattle {
+    .string "A pool would be nice, but I must\n"
+    .string "say, a sun-room may be sublime.$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_DestinIntro {
+    .string "I'm a good runner.\n"
+    .string "I'm really fast!$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_DestinDefeat {
+    .string "Oops!\n"
+    .string "I rushed things!$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_DestinPostBattle {
+    .string "When I run with the wind, it feels\n"
+    .string "like I could fly!$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_TobyIntro {
+    .string "I say, this marine life here at\n"
+    .string "this resort agrees with me.$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_TobyDefeat {
+    .string "That's a shocker!\n"
+    .string "You must be joking.$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_TobyPostBattle {
+    .string "Getting so serious over this…\n"
+    .string "How nonsensical.$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_SelphyThanksYouMayGoNow {
+    .string "SELPHY: Thank you.\p"
+    .string "You may go now.$"
+
+}
+
+script FiveIsland_ResortGorgeous_Text_SelphysHouse {
+    .string "SELPHY'S HOUSE$"
+
 }
 

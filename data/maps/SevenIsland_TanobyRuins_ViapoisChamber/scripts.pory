@@ -1,0 +1,6 @@
+#events for SevenIsland_TanobyRuins_ViapoisChamber
+
+script SevenIsland_TanobyRuins_ViapoisChamber_MapScripts {
+	.byte 0
+}
+

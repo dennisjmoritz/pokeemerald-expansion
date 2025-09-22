@@ -1,0 +1,8 @@
+#events for MarineCave_Entrance
+
+script MarineCave_Entrance_MapScripts {
+	map_script MAP_SCRIPT_ON_RESUME, MarineCave_Entrance_OnResume
+	.byte 0
+
+}
+

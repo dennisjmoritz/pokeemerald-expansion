@@ -1,4 +1,53 @@
-text FortreeCity_DecorationShop_EventScript_ClerkChairs {
-    format("Merchandise you buy here is sent to your own PC.\p That's fantastic! I wish they could also deliver me home like that.$ I'm buying a pretty desk and I'm putting my cute DOLLS on it.\p If I don't, when I decorate my SECRET BASE, my DOLLS will get\l dirty or poked with splinters.")
+#events for FortreeCity_DecorationShop
+
+script FortreeCity_DecorationShop_MapScripts {
+	.byte 0
+
+}
+
+script FortreeCity_DecorationShop_EventScript_PokefanM {
+	msgbox FortreeCity_DecorationShop_Text_MerchandiseSentToPC, MSGBOX_NPC
+	end
+
+}
+
+script FortreeCity_DecorationShop_EventScript_Girl {
+	msgbox FortreeCity_DecorationShop_Text_BuyingDeskForDolls, MSGBOX_NPC
+	end
+
+}
+
+script FortreeCity_DecorationShop_EventScript_ClerkDesks {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemartdecoration FortreeCity_DecorationShop_PokemartDecor_Desks
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+script FortreeCity_DecorationShop_EventScript_ClerkChairs {
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemartdecoration FortreeCity_DecorationShop_PokemartDecor_Chairs
+// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+}
+
+text FortreeCity_DecorationShop_Text_MerchandiseSentToPC {
+    format("Merchandise you buy here is sent to your own PC.\p That's fantastic! I wish they could also deliver me home like that.")
+}
+
+text FortreeCity_DecorationShop_Text_BuyingDeskForDolls {
+    format("I'm buying a pretty desk and I'm putting my cute DOLLS on it.\p If I don't, when I decorate my SECRET BASE, my DOLLS will get\l dirty or poked with splinters.")
 }
 

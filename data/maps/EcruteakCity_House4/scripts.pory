@@ -1,0 +1,6 @@
+#events for EcruteakCity_House4
+
+script EcruteakCity_House4_MapScripts {
+	.byte 0
+}
+

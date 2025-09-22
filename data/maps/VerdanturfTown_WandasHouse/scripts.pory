@@ -1,4 +1,162 @@
-text VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande {
-    format("WALLY: I lost to you, {PLAYER}, but I'm not feeling down anymore.\p Because I have a new purpose in life. Together with my RALTS, I'm going\l to challenge POKéMON GYMS and become\l a great TRAINER.\p Please watch me, {PLAYER}. I'm going to be stronger than you.\p When I do, I'm going to challenge you to another battle.$ WALLY: Please watch me, {PLAYER}. I'm going to get stronger than you.\p When I do, I'm going to challenge you to another battle.$ UNCLE: Oh! {PLAYER}{KUN}! WALLY's next door.\p But, boy, there's something I have to tell you.\p This natural environment is doing wonders for WALLY's health.\p Maybe it's not just the environment. It could be POKéMON that are giving\l the boy hope.$ WALLY's gone away… He slipped off on his own…$ UNCLE: Is that right? WALLY's gone away that far all by\l himself…\p Well, I have to give him credit--he is my little brother's son.$ WANDA: You are? Oh, right, I get it!\p You're the {PLAYER} who WALLY was telling me about.\p I'm WALLY's cousin. Glad to meet you!\p I think WALLY's become a lot more lively and healthy since he came here.$ WANDA: Don't worry about WALLY. He'll be just fine.\p I know my little cousin, and he has POKéMON with him, too.$ Thanks to you, I can see my girlfriend every day.\l Happy? You bet I am!$ My daughter's boyfriend is a very driven and passionate sort of person.\p He's been digging a tunnel nonstop just so he can see my daughter.\p My daughter's a little concerned, so she goes out to the tunnel a lot.$ It's amazing. My daughter's boyfriend was digging the tunnel by hand!\p It's so incredible!$ If anything were to happen to WALLY, I would never be able to look his\l parents in PETALBURG in the eye…$ WALLY was in EVER GRANDE?\p His parents in PETALBURG would be astonished to hear that!")
+#events for VerdanturfTown_WandasHouse
+
+script VerdanturfTown_WandasHouse_MapScripts {
+	.byte 0
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_Wally {
+	lock
+	faceplayer
+	goto_if_set FLAG_WALLY_SPEECH, VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech
+	msgbox VerdanturfTown_WandasHouse_Text_StrongerSpeech, MSGBOX_DEFAULT
+	setflag FLAG_WALLY_SPEECH
+	release
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech {
+	msgbox VerdanturfTown_WandasHouse_Text_StrongerSpeechShort, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WallysUncle {
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, VerdanturfTown_WandasHouse_EventScript_WallysUncleEverGrande
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WallysUncleSlippedOff
+	msgbox VerdanturfTown_WandasHouse_Text_WallysNextDoor, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WallysUncleSlippedOff {
+	msgbox VerdanturfTown_WandasHouse_Text_WallySlippedOff, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WallysUncleEverGrande {
+	msgbox VerdanturfTown_WandasHouse_Text_WallyGoneThatFar, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WandasBoyfriend {
+	msgbox VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay, MSGBOX_NPC
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_Wanda {
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WandaDontWorry
+	goto_if_set FLAG_DEFEATED_WALLY_MAUVILLE, VerdanturfTown_WandasHouse_EventScript_MeetWanda
+	msgbox VerdanturfTown_WandasHouse_Text_DontWorryAboutWally, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_MeetWanda {
+	msgbox VerdanturfTown_WandasHouse_Text_MeetWanda, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WandaDontWorry {
+	msgbox VerdanturfTown_WandasHouse_Text_DontWorryAboutWally, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WallysAunt {
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WallysAuntAnythingHappened
+	goto_if_set FLAG_RUSTURF_TUNNEL_OPENED, VerdanturfTown_WandasHouse_EventScript_WallysAuntTunnelOpen
+	msgbox VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WallysAuntTunnelOpen {
+	msgbox VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WallysAuntAnythingHappened {
+	msgbox VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande {
+	msgbox VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande, MSGBOX_DEFAULT
+	release
+	end
+
+}
+
+text VerdanturfTown_WandasHouse_Text_StrongerSpeech {
+    format("WALLY: I lost to you, {PLAYER}, but I'm not feeling down anymore.\p Because I have a new purpose in life. Together with my RALTS, I'm going\l to challenge POKéMON GYMS and become\l a great TRAINER.\p Please watch me, {PLAYER}. I'm going to be stronger than you.\p When I do, I'm going to challenge you to another battle.")
+}
+
+text VerdanturfTown_WandasHouse_Text_StrongerSpeechShort {
+    format("WALLY: Please watch me, {PLAYER}. I'm going to get stronger than you.\p When I do, I'm going to challenge you to another battle.")
+}
+
+text VerdanturfTown_WandasHouse_Text_WallysNextDoor {
+    format("UNCLE: Oh! {PLAYER}{KUN}! WALLY's next door.\p But, boy, there's something I have to tell you.\p This natural environment is doing wonders for WALLY's health.\p Maybe it's not just the environment. It could be POKéMON that are giving\l the boy hope.")
+}
+
+text VerdanturfTown_WandasHouse_Text_WallySlippedOff {
+    format("WALLY's gone away… He slipped off on his own…")
+}
+
+text VerdanturfTown_WandasHouse_Text_WallyGoneThatFar {
+    format("UNCLE: Is that right? WALLY's gone away that far all by\l himself…\p Well, I have to give him credit--he is my little brother's son.")
+}
+
+text VerdanturfTown_WandasHouse_Text_MeetWanda {
+    format("WANDA: You are? Oh, right, I get it!\p You're the {PLAYER} who WALLY was telling me about.\p I'm WALLY's cousin. Glad to meet you!\p I think WALLY's become a lot more lively and healthy since he came here.")
+}
+
+text VerdanturfTown_WandasHouse_Text_DontWorryAboutWally {
+    format("WANDA: Don't worry about WALLY. He'll be just fine.\p I know my little cousin, and he has POKéMON with him, too.")
+}
+
+text VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay {
+    format("Thanks to you, I can see my girlfriend every day.\l Happy? You bet I am!")
+}
+
+text VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven {
+    format("My daughter's boyfriend is a very driven and passionate sort of person.\p He's been digging a tunnel nonstop just so he can see my daughter.\p My daughter's a little concerned, so she goes out to the tunnel a lot.")
+}
+
+text VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging {
+    format("It's amazing. My daughter's boyfriend was digging the tunnel by hand!\p It's so incredible!")
+}
+
+text VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally {
+    format("If anything were to happen to WALLY, I would never be able to look his\l parents in PETALBURG in the eye…")
+}
+
+text VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande {
+    format("WALLY was in EVER GRANDE?\p His parents in PETALBURG would be astonished to hear that!")
 }
 

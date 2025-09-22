@@ -1,4 +1,80 @@
-text FallarborTown_PokemonCenter_1F_EventScript_LanetteExited {
-    format("Oh, hello. You are?\p Okay, your name's {PLAYER}{KUN}. I can see that you're a TRAINER.\p So that means you use the POKéMON Storage System I developed.\p How I arrived at that conclusion is a simple deductive process.\p You spoke to me because you wanted to access something on this PC.\p Oh, I'm sorry. I'm LANETTE.\p Honestly, I'm glad to meet you--it's great you're using the Storage System.\p If you could, please visit me at home. My house is on ROUTE 114.$ I wonder what POKéMON looked like long, long ago?\p Maybe the FOSSIL MANIAC at the edge of town will know.$ In the fields of FALLARBOR, we plant seedlings of hardy trees that thrive\l even in volcanic ash.")
+#events for FallarborTown_PokemonCenter_1F
+
+script FallarborTown_PokemonCenter_1F_MapScripts {
+	map_script MAP_SCRIPT_ON_TRANSITION, FallarborTown_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+}
+
+script FallarborTown_PokemonCenter_1F_EventScript_Nurse {
+	setvar VAR_0x800B, LOCALID_FALLARBOR_NURSE
+// FIXME undefined reference: 	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+}
+
+script FallarborTown_PokemonCenter_1F_EventScript_Girl {
+	msgbox FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown, MSGBOX_NPC
+	end
+
+}
+
+script FallarborTown_PokemonCenter_1F_EventScript_ExpertM {
+	msgbox FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees, MSGBOX_NPC
+	end
+
+}
+
+script FallarborTown_PokemonCenter_1F_EventScript_Lanette {
+	lock
+	faceplayer
+	msgbox FallarborTown_PokemonCenter_1F_Text_LanetteGreeting, MSGBOX_DEFAULT
+	closemessage
+	switch VAR_FACING
+	case DIR_NORTH, FallarborTown_PokemonCenter_1F_EventScript_LanetteExitNorth
+	case DIR_WEST, FallarborTown_PokemonCenter_1F_EventScript_LanetteExitWest
+	end
+
+}
+
+script FallarborTown_PokemonCenter_1F_EventScript_LanetteExitNorth {
+	applymovement LOCALID_FALLARBOR_LANETTE, FallarborTown_PokemonCenter_1F_Movement_LanetteExitNorth
+	waitmovement 0
+	goto FallarborTown_PokemonCenter_1F_EventScript_LanetteExited
+	end
+
+}
+
+script FallarborTown_PokemonCenter_1F_EventScript_LanetteExitWest {
+	applymovement LOCALID_FALLARBOR_LANETTE, FallarborTown_PokemonCenter_1F_Movement_LanetteExitWest
+	waitmovement 0
+	goto FallarborTown_PokemonCenter_1F_EventScript_LanetteExited
+	end
+
+}
+
+script FallarborTown_PokemonCenter_1F_EventScript_LanetteExited {
+	playse SE_SLIDING_DOOR
+	removeobject LOCALID_FALLARBOR_LANETTE
+	clearflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
+	release
+	end
+
+}
+
+text FallarborTown_PokemonCenter_1F_Text_LanetteGreeting {
+    format("Oh, hello. You are?\p Okay, your name's {PLAYER}{KUN}. I can see that you're a TRAINER.\p So that means you use the POKéMON Storage System I developed.\p How I arrived at that conclusion is a simple deductive process.\p You spoke to me because you wanted to access something on this PC.\p Oh, I'm sorry. I'm LANETTE.\p Honestly, I'm glad to meet you--it's great you're using the Storage System.\p If you could, please visit me at home. My house is on ROUTE 114.")
+}
+
+text FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown {
+    format("I wonder what POKéMON looked like long, long ago?\p Maybe the FOSSIL MANIAC at the edge of town will know.")
+}
+
+text FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees {
+    format("In the fields of FALLARBOR, we plant seedlings of hardy trees that thrive\l even in volcanic ash.")
 }
 

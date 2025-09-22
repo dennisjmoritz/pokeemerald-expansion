@@ -1,20 +1,82 @@
-text Route16_House_Text_FoundMySecretRetreat {
-    format("Oh, dear. You've found my secret retreat.\p Please don't tell anyone I'm here. I'll make it up to you with this!")
+#events for Route16_House
+
+script Route16_House_MapScripts {
+	.byte 0
+
 }
 
-text Route16_House_Text_ReceivedHM02FromGirl {
-    format("{PLAYER} received HM02 from the girl.")
+script Route16_House_EventScript_Woman {
+	lock
+	faceplayer
+	goto_if_set FLAG_TEMP_1, Route16_House_EventScript_AlreadyGotHM02
+// Replaced FLAG_GOT_HM02 with FLAG_TEMP_1
+	msgbox Route16_House_Text_FoundMySecretRetreat
+	checkitemspace ITEM_HM02
+	goto_if_eq VAR_RESULT, FALSE, Route16_House_EventScript_NoRoomForHM02
+	msgbox Route16_House_Text_ReceivedHM02FromGirl, MSGBOX_DEFAULT
+	giveitem ITEM_HM02
+	msgbox Route16_House_Text_ExplainHM02
+	setflag FLAG_TEMP_1
+// Replaced FLAG_GOT_HM02 with FLAG_TEMP_1
+	release
+	end
+
 }
 
-text Route16_House_Text_ExplainHM02 {
-    format("HM02 is FLY. It's a wonderfully convenient move.\p Please, put it to good use.")
+script Route16_House_EventScript_NoRoomForHM02 {
+	msgbox Route16_House_Text_DontHaveAnyRoomForThis
+	release
+	end
+
 }
 
-text Route16_House_Text_DontHaveAnyRoomForThis {
-    format("You don't have any room for this.")
+script Route16_House_EventScript_AlreadyGotHM02 {
+	msgbox Route16_House_Text_ExplainHM02
+	release
+	end
+
 }
 
-text Route16_House_Text_Fearow {
-    format("FEAROW: Kyueen!")
+script Route16_House_EventScript_Fearow {
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_FEAROW, CRY_MODE_NORMAL
+	msgbox Route16_House_Text_Fearow
+	waitmoncry
+	release
+	end
+
+}
+
+script Route16_House_Text_FoundMySecretRetreat {
+    .string "Oh, dear.\n"
+    .string "You've found my secret retreat.\p"
+    .string "Please don't tell anyone I'm here.\n"
+    .string "I'll make it up to you with this!$"
+
+}
+
+script Route16_House_Text_ReceivedHM02FromGirl {
+    .string "{PLAYER} received HM02\n"
+    .string "from the girl.$"
+
+}
+
+script Route16_House_Text_ExplainHM02 {
+    .string "HM02 is FLY.\n"
+    .string "It's a wonderfully convenient move.\p"
+    .string "Please, put it to good use.$"
+
+}
+
+script Route16_House_Text_DontHaveAnyRoomForThis {
+    .string "You don't have any room for this.$"
+
+}
+
+script Route16_House_Text_Fearow {
+    .string "FEAROW: Kyueen!$"
+
 }
 

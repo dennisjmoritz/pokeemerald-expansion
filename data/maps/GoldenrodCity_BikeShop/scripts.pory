@@ -1,0 +1,6 @@
+#events for GoldenrodCity_BikeShop
+
+script GoldenrodCity_BikeShop_MapScripts {
+	.byte 0
+}
+
