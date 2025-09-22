@@ -1,106 +1,11 @@
 mapscripts Route18_MapScripts {
-    Route18_OnTransition
-    Route18_OnWarp
+    MAP_SCRIPT_ON_TRANSITION: Route18_OnTransition
+    MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: Route18_OnWarp
 }
 
-script Route18_OnTransition {
-	call_if_eq VAR_TEMP_0, 1, Route18_OnTransitionCyclingRoad
-// Replaced VAR_MAP_SCENE_ROUTE16 with VAR_TEMP_0
-	end
-
-}
-
-script Route18_OnTransitionCyclingRoad {
-	setflag FLAG_TEMP_1
-// Replaced FLAG_SYS_ON_CYCLING_ROAD with FLAG_TEMP_1
-	return
-
-}
-
-script Route18_OnWarp {
-	map_script_2 VAR_TEMP_0, 1, Route18_OnWarpCyclingRoad
-// Replaced VAR_MAP_SCENE_ROUTE16 with VAR_TEMP_0
-	.2byte 0
-
-}
-
-script Route18_OnWarpCyclingRoad {
-// FIXME undefined reference: 	special ForcePlayerOntoBike
-	end
-
-}
-
-script Route18_EventScript_RouteSign {
-	msgbox Route18_Text_RouteSign, MSGBOX_SIGN
-	end
-
-}
-
-script Route18_EventScript_CyclingRoadSign {
-	msgbox Route18_Text_CyclingRoadSign, MSGBOX_SIGN
-	end
-
-}
-
-script Route18_Text_WiltonIntro {
-    .string "I always check every grassy area\n"
-    .string "for new POKéMON.$"
-
-}
-
-script Route18_Text_WiltonDefeat {
-    .string "Tch!$"
-
-}
-
-script Route18_Text_WiltonPostBattle {
-    .string "I wish I had a BIKE!$"
-
-}
-
-script Route18_Text_RamiroIntro {
-    .string "Kurukkoo!\n"
-    .string "How do you like my birdcall?$"
-
-}
-
-script Route18_Text_RamiroDefeat {
-    .string "I had to bug you!$"
-
-}
-
-script Route18_Text_RamiroPostBattle {
-    .string "I collect sea POKéMON on weekends\n"
-    .string "because the sea is so close.$"
-
-}
-
-script Route18_Text_JacobIntro {
-    .string "This is my turf!\n"
-    .string "Get out of here!$"
-
-}
-
-script Route18_Text_JacobDefeat {
-    .string "Darn!$"
-
-}
-
-script Route18_Text_JacobPostBattle {
-    .string "This is my fave area for catching\n"
-    .string "POKéMON.$"
-
-}
-
-script Route18_Text_RouteSign {
-    .string "ROUTE 18\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
-
-}
-
-script Route18_Text_CyclingRoadSign {
-    .string "CYCLING ROAD\n"
-    .string "No pedestrians permitted!$"
+script Route18_MapScripts {
+	map_script(MAP_SCRIPT_ON_TRANSITION, Route18_OnTransition)
+	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route18_OnWarp)
 
 }
 

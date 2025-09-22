@@ -1,27 +1,7 @@
 mapscripts SootopolisCity_House4_MapScripts {
 }
 
-script SootopolisCity_House4_EventScript_Man {
-	msgbox SootopolisCity_House4_Text_AncientTreasuresWaitingInSea, MSGBOX_NPC
-	end
-
-}
-
-script SootopolisCity_House4_EventScript_Woman {
-	msgbox SootopolisCity_House4_Text_StrollUnderwaterWithPokemon, MSGBOX_NPC
-	end
-
-}
-
-script SootopolisCity_House4_EventScript_Azumarill {
-	lock
-	faceplayer
-	waitse
-	playmoncry SPECIES_AZUMARILL, CRY_MODE_NORMAL
-	msgbox SootopolisCity_House4_Text_Azumarill, MSGBOX_DEFAULT
-	waitmoncry
-	release
-	end
+script SootopolisCity_House4_MapScripts {
 
 }
 

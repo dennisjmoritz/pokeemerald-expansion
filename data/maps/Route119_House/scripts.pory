@@ -1,21 +1,7 @@
 mapscripts Route119_House_MapScripts {
 }
 
-script Route119_House_EventScript_Woman {
-	msgbox Route119_House_Text_RumorAboutCaveOfOrigin, MSGBOX_NPC
-	end
-
-}
-
-script Route119_House_EventScript_Wingull {
-	lock
-	faceplayer
-	waitse
-	playmoncry SPECIES_WINGULL, CRY_MODE_NORMAL
-	msgbox Route119_House_Text_Wingull, MSGBOX_DEFAULT
-	waitmoncry
-	release
-	end
+script Route119_House_MapScripts {
 
 }
 

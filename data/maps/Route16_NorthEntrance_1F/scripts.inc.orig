@@ -3,10 +3,8 @@ Route16_NorthEntrance_1F_MapScripts::
 	.byte 0
 
 Route16_NorthEntrance_1F_OnTransition::
-	clearflag FLAG_TEMP_1
-// Replaced FLAG_SYS_ON_CYCLING_ROAD with FLAG_TEMP_1
-	call_if_set FLAG_TEMP_1, Route16_NorthEntrance_1F_EventScript_DisableNeedBikeTrigger
-// Replaced FLAG_GOT_BICYCLE with FLAG_TEMP_1
+	clearflag FLAG_SYS_ON_CYCLING_ROAD
+	call_if_set FLAG_GOT_BICYCLE, Route16_NorthEntrance_1F_EventScript_DisableNeedBikeTrigger
 	end
 
 Route16_NorthEntrance_1F_EventScript_DisableNeedBikeTrigger::
@@ -48,6 +46,7 @@ Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerBottom::
 	end
 
 Route16_NorthEntrance_1F_EventScript_NeedBikeTrigger::
+	textcolor NPC_TEXT_COLOR_MALE
 	msgbox Route16_NorthEntrance_1F_Text_ExcuseMeWaitUp
 	closemessage
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
@@ -113,20 +112,3 @@ Route16_NorthEntrance_1F_Movement_WalkRight::
 Route16_NorthEntrance_1F_EventScript_OldMan::
 	msgbox Route16_NorthEntrance_1F_Text_HowdYouGetInGoodEffort, MSGBOX_NPC
 	end
-
-Route16_NorthEntrance_1F_Text_NoPedestriansOnCyclingRoad::
-    .string "No pedestrians are allowed on\n"
-    .string "CYCLING ROAD!$"
-
-Route16_NorthEntrance_1F_Text_CyclingRoadIsDownhillCourse::
-    .string "CYCLING ROAD is a downhill course\n"
-    .string "by the sea. It's a great ride.$"
-
-Route16_NorthEntrance_1F_Text_ExcuseMeWaitUp::
-    .string "Excuse me!\n"
-    .string "Wait up, please!$"
-
-Route16_NorthEntrance_1F_Text_HowdYouGetInGoodEffort::
-    .string "How'd you get in?\n"
-    .string "Good effort!$"
-

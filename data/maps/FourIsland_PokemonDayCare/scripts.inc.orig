@@ -2,23 +2,23 @@ FourIsland_PokemonDayCare_MapScripts::
 	.byte 0
 
 FourIsland_PokemonDayCare_EventScript_DaycareWoman::
-@	goto_if_questlog EventScript_ReleaseEnd
+	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
 	specialvar VAR_RESULT, GetDaycareState
 	goto_if_eq VAR_RESULT, DAYCARE_EGG_WAITING, FourIsland_PokemonDayCare_EggWaiting
 	goto_if_eq VAR_RESULT, DAYCARE_ONE_MON, FourIsland_PokemonDayCare_OneMonInDaycare
 	goto_if_eq VAR_RESULT, DAYCARE_TWO_MONS, FourIsland_PokemonDayCare_TwoMonsInDaycare
-// FIXME undefined reference: 	msgbox DayCare_Text_WouldYouLikeUsToRaiseMon, MSGBOX_YESNO
+	msgbox DayCare_Text_WouldYouLikeUsToRaiseMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, FourIsland_PokemonDayCare_GiveMonToRaise
-// FIXME undefined reference: 	msgbox DayCare_Text_FineThenComeAgain
+	msgbox DayCare_Text_FineThenComeAgain
 	release
 	end
 
 FourIsland_PokemonDayCare_GiveMonToRaise::
 	specialvar VAR_RESULT, CountPartyNonEggMons
 	goto_if_eq VAR_RESULT, 1, FourIsland_PokemonDayCare_OnlyOneMonInParty
-// FIXME undefined reference: 	msgbox DayCare_Text_WhichMonShouldWeRaise
+	msgbox DayCare_Text_WhichMonShouldWeRaise
 	fadescreen FADE_TO_BLACK
 	special ChooseSendDaycareMon
 	waitstate
@@ -28,7 +28,7 @@ FourIsland_PokemonDayCare_GiveMonToRaise::
 	specialvar VAR_0x8005, GetSelectedMonNicknameAndSpecies
 	waitse
 	playmoncry VAR_0x8005, CRY_MODE_NORMAL
-// FIXME undefined reference: 	msgbox DayCare_Text_WellRaiseYourMon
+	msgbox DayCare_Text_WellRaiseYourMon
 	waitmoncry
 	special StoreSelectedPokemonInDaycare
 	incrementgamestat GAME_STAT_USED_DAYCARE
@@ -38,33 +38,33 @@ FourIsland_PokemonDayCare_GiveMonToRaise::
 	end
 
 FourIsland_PokemonDayCare_ComeAgain::
-// FIXME undefined reference: 	msgbox DayCare_Text_ComeAgain
+	msgbox DayCare_Text_ComeAgain
 	release
 	end
 
 FourIsland_PokemonDayCare_CanRaiseOneMore::
-// FIXME undefined reference: 	msgbox DayCare_Text_WeCanRaiseOneMore, MSGBOX_YESNO
+	msgbox DayCare_Text_WeCanRaiseOneMore, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, FourIsland_PokemonDayCare_GiveMonToRaise
 	goto FourIsland_PokemonDayCare_ComeAgain
 	end
 
 FourIsland_PokemonDayCare_OnlyOneMonInParty::
-// FIXME undefined reference: 	msgbox DayCare_Text_YouHaveJustOneMon
+	msgbox DayCare_Text_YouHaveJustOneMon
 	release
 	end
 
 FourIsland_PokemonDayCare_OnlyOneAliveMonInParty::
-// FIXME undefined reference: 	msgbox DayCare_Text_WhatWillYouBattleWith
+	msgbox DayCare_Text_WhatWillYouBattleWith
 	release
 	end
 
 FourIsland_PokemonDayCare_EggWaiting::
-// FIXME undefined reference: 	msgbox DayCare_Text_HusbandWasLookingForYou
+	msgbox DayCare_Text_HusbandWasLookingForYou
 	release
 	end
 
 FourIsland_PokemonDayCare_MonHasGrownXLevels::
-// FIXME undefined reference: 	msgbox DayCare_Text_YourMonHasGrownXLevels
+	msgbox DayCare_Text_YourMonHasGrownXLevels
 	return
 
 FourIsland_PokemonDayCare_DisplayLevelsGained::
@@ -73,12 +73,12 @@ FourIsland_PokemonDayCare_DisplayLevelsGained::
 	return
 
 FourIsland_PokemonDayCare_OneMonInDaycare::
-// FIXME undefined reference: 	msgbox DayCare_Text_GoodToSeeYou
+	msgbox DayCare_Text_GoodToSeeYou
 	setvar VAR_0x8004, 0
 	call FourIsland_PokemonDayCare_DisplayLevelsGained
-// FIXME undefined reference: 	msgbox DayCare_Text_WeCanRaiseOneMore, MSGBOX_YESNO
+	msgbox DayCare_Text_WeCanRaiseOneMore, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, FourIsland_PokemonDayCare_GiveMonToRaise
-// FIXME undefined reference: 	msgbox DayCare_Text_TakeYourMonBack, MSGBOX_YESNO
+	msgbox DayCare_Text_TakeYourMonBack, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, FourIsland_PokemonDayCare_TryRetrieveMon
 	goto FourIsland_PokemonDayCare_ComeAgain
 	end
@@ -98,7 +98,7 @@ FourIsland_PokemonDayCare_TryRetrieveMon::
 
 FourIsland_PokemonDayCare_CostPrompt::
 	special GetDaycareCost
-// FIXME undefined reference: 	msgbox DayCare_Text_ItWillCostX, MSGBOX_YESNO
+	msgbox DayCare_Text_ItWillCostX, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, FourIsland_PokemonDayCare_CheckEnoughMoney
 	goto FourIsland_PokemonDayCare_ComeAgain
 	end
@@ -106,7 +106,7 @@ FourIsland_PokemonDayCare_CostPrompt::
 FourIsland_PokemonDayCare_CheckEnoughMoney::
 	specialvar VAR_RESULT, IsEnoughForCostInVar0x8005
 	goto_if_eq VAR_RESULT, TRUE, FourIsland_PokemonDayCare_RetrieveMon
-// FIXME undefined reference: 	msgbox DayCare_Text_NotEnoughMoney
+	msgbox DayCare_Text_NotEnoughMoney
 	release
 	end
 
@@ -115,13 +115,13 @@ FourIsland_PokemonDayCare_RetrieveMon::
 	waitmovement 0
 	specialvar VAR_RESULT, TakePokemonFromDaycare
 	special SubtractMoneyFromVar0x8005
-// FIXME undefined reference: 	playse SE_RS_SHOP
-// FIXME undefined reference: 	msgbox DayCare_Text_HeresYourMon
+	playse SE_RS_SHOP
+	msgbox DayCare_Text_HeresYourMon
 	waitse
 	playmoncry VAR_RESULT, CRY_MODE_NORMAL
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
-// FIXME undefined reference: 	msgbox DayCare_Text_TookBackMon
-// FIXME undefined reference: 	call EventScript_RestorePrevTextColor
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	msgbox DayCare_Text_TookBackMon
+	call EventScript_RestorePrevTextColor
 	waitmoncry
 	specialvar VAR_RESULT, GetDaycareState
 	goto_if_eq VAR_RESULT, DAYCARE_ONE_MON, FourIsland_PokemonDayCare_AskRetrieveOtherMon
@@ -129,13 +129,13 @@ FourIsland_PokemonDayCare_RetrieveMon::
 	end
 
 FourIsland_PokemonDayCare_AskRetrieveOtherMon::
-// FIXME undefined reference: 	msgbox DayCare_Text_TakeOtherOneBackToo, MSGBOX_YESNO
+	msgbox DayCare_Text_TakeOtherOneBackToo, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, FourIsland_PokemonDayCare_TryRetrieveMon
 	goto FourIsland_PokemonDayCare_ComeAgain
 	end
 
 FourIsland_PokemonDayCare_NoRoomInParty::
-// FIXME undefined reference: 	msgbox DayCare_Text_YourPartyIsFull
+	msgbox DayCare_Text_YourPartyIsFull
 	release
 	end
 
@@ -149,7 +149,7 @@ FourIsland_PokemonDayCare_Movement_RetrieveMon::
 	delay_16
 	delay_16
 	face_up
-// 	walk_slower_up
+	walk_slower_up
 	set_invisible
 	delay_16
 	delay_16
@@ -158,7 +158,7 @@ FourIsland_PokemonDayCare_Movement_RetrieveMon::
 	delay_16
 	face_down
 	set_visible
-// 	walk_slower_down
+	walk_slower_down
 	step_end
 
 @ Unused. Possibly a commented script, or a typo end added to the above Movement script
@@ -166,14 +166,14 @@ FourIsland_PokemonDayCare_EventScript_UnusedEnd::
 	end
 
 FourIsland_PokemonDayCare_TwoMonsInDaycare::
-// FIXME undefined reference: 	msgbox DayCare_Text_GoodToSeeYou
+	msgbox DayCare_Text_GoodToSeeYou
 	setvar VAR_0x8004, 0
 	call FourIsland_PokemonDayCare_DisplayLevelsGained
 	setvar VAR_0x8004, 1
 	call FourIsland_PokemonDayCare_DisplayLevelsGained
-// FIXME undefined reference: 	msgbox DayCare_Text_TakeYourMonBack, MSGBOX_YESNO
+	msgbox DayCare_Text_TakeYourMonBack, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, FourIsland_PokemonDayCare_TryRetrieveMon
-// FIXME undefined reference: 	msgbox DayCare_Text_ComeAgain
+	msgbox DayCare_Text_ComeAgain
 	release
 	end
 
@@ -184,7 +184,7 @@ FourIsland_PokemonDayCare_EventScript_UnusedRetrieveMon::
 	goto_if_eq VAR_RESULT, 2, FourIsland_PokemonDayCare_ComeAgain
 	copyvar VAR_0x8004, VAR_RESULT
 	specialvar VAR_RESULT, TakePokemonFromDaycare
-// FIXME undefined reference: 	msgbox DayCare_Text_HeresYourMon
-// FIXME undefined reference: 	msgbox DayCare_Text_ComeAgain
+	msgbox DayCare_Text_HeresYourMon
+	msgbox DayCare_Text_ComeAgain
 	release
 	end

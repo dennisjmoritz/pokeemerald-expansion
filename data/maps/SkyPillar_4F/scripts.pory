@@ -1,12 +1,13 @@
 mapscripts SkyPillar_4F_MapScripts {
-    CaveHole_CheckFallDownHole
-    SkyPillar_4F_OnTransition
-    SkyPillar_4F_SetHoleWarp
+    MAP_SCRIPT_ON_FRAME_TABLE: CaveHole_CheckFallDownHole
+    MAP_SCRIPT_ON_TRANSITION: SkyPillar_4F_OnTransition
+    MAP_SCRIPT_ON_RESUME: SkyPillar_4F_SetHoleWarp
 }
 
-script SkyPillar_4F_EventScript_CleanFloor {
-	setmaplayoutindex LAYOUT_SKY_PILLAR_4F_CLEAN
-	return
+script SkyPillar_4F_MapScripts {
+	map_script(MAP_SCRIPT_ON_FRAME_TABLE, CaveHole_CheckFallDownHole)
+	map_script(MAP_SCRIPT_ON_TRANSITION, SkyPillar_4F_OnTransition)
+	map_script(MAP_SCRIPT_ON_RESUME, SkyPillar_4F_SetHoleWarp)
 
 }
 

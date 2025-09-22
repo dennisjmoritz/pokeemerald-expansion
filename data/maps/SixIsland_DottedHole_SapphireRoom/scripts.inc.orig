@@ -4,8 +4,8 @@ SixIsland_DottedHole_SapphireRoom_MapScripts::
 SixIsland_DottedHole_SapphireRoom_EventScript_Sapphire::
 	lock
 	faceplayer
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_NEUTRAL
-// FIXME undefined reference: 	playfanfare MUS_OBTAIN_KEY_ITEM
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_OBTAIN_KEY_ITEM
 	message SixIsland_DottedHole_SapphireRoom_Text_FoundSapphire
 	waitmessage
 	waitfanfare
@@ -24,13 +24,13 @@ SixIsland_DottedHole_SapphireRoom_EventScript_Sapphire::
 	setvar VAR_0x8005, 0
 	setvar VAR_0x8006, 12
 	setvar VAR_0x8007, 3
-// FIXME undefined reference: 	special ShakeScreen
+	special ShakeScreen
 	delay 60
 	call_if_eq VAR_FACING, DIR_NORTH, SixIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireNorth
 	call_if_eq VAR_FACING, DIR_SOUTH, SixIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireSouth
 	call_if_eq VAR_FACING, DIR_EAST, SixIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireEast
 	call_if_eq VAR_FACING, DIR_WEST, SixIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireWest
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
+	textcolor NPC_TEXT_COLOR_MALE
 	msgbox SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, SixIsland_DottedHole_SapphireRoom_EventScript_ThiefGetSapphireNorth
@@ -51,8 +51,7 @@ SixIsland_DottedHole_SapphireRoom_EventScript_Sapphire::
 	playse SE_EXIT
 	delay 35
 	removeobject LOCALID_DOTTED_HOLE_THIEF
-	setflag FLAG_TEMP_1
-// Replaced FLAG_LEARNED_YES_NAH_CHANSEY with FLAG_TEMP_1
+	setflag FLAG_LEARNED_YES_NAH_CHANSEY
 	release
 	end
 
@@ -220,47 +219,22 @@ SixIsland_DottedHole_SapphireRoom_Movement_PlayerWatchThiefExit::
 SixIsland_DottedHole_SapphireRoom_EventScript_BrailleMessage::
 	lockall
 	setvar VAR_0x8005, 130
-@	braillemessage_wait Braille_Text_LetTheTwo
-@	braillemessage_wait Braille_Text_Glittering
-@	braillemessage_wait Braille_Text_Stones
-@	braillemessage_wait Braille_Text_OneInRed
-@	braillemessage_wait Braille_Text_OneInBlue
-@	braillemessage_wait Braille_Text_ConnectThe
-@	braillemessage_wait Braille_Text_Past
-@	braillemessage_wait Braille_Text_TwoFriends
-@	braillemessage_wait Braille_Text_Sharing
-@	braillemessage_wait Braille_Text_PowerOpen
-@	braillemessage_wait Braille_Text_AWindowTo
-@	braillemessage_wait Braille_Text_ANewWorld
-@	braillemessage_wait Braille_Text_ThatGlows
-@	braillemessage_wait Braille_Text_TheNext
-@	braillemessage_wait Braille_Text_WorldWaits
+	braillemessage_wait Braille_Text_LetTheTwo
+	braillemessage_wait Braille_Text_Glittering
+	braillemessage_wait Braille_Text_Stones
+	braillemessage_wait Braille_Text_OneInRed
+	braillemessage_wait Braille_Text_OneInBlue
+	braillemessage_wait Braille_Text_ConnectThe
+	braillemessage_wait Braille_Text_Past
+	braillemessage_wait Braille_Text_TwoFriends
+	braillemessage_wait Braille_Text_Sharing
+	braillemessage_wait Braille_Text_PowerOpen
+	braillemessage_wait Braille_Text_AWindowTo
+	braillemessage_wait Braille_Text_ANewWorld
+	braillemessage_wait Braille_Text_ThatGlows
+	braillemessage_wait Braille_Text_TheNext
+	braillemessage_wait Braille_Text_WorldWaits
 	braillemessage Braille_Text_ForYou
 	waitbuttonpress
 	releaseall
 	end
-
-SixIsland_DottedHole_SapphireRoom_Text_FoundSapphire::
-    .string "{PLAYER} found a SAPPHIRE!$"
-
-SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou::
-    .string "Fufu… Fufufufu…\n"
-    .string "I guessed right.\p"
-    .string "I was right in tailing you!$"
-
-SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword::
-    .string "I knew that there was a SAPPHIRE\n"
-    .string "here, so it belongs to me!\p"
-    .string "I'll sell it to TEAM ROCKET for\n"
-    .string "serious money.\p"
-    .string "…D-don't glare at me like that!\p"
-    .string "If you want it back, why don't you\n"
-    .string "go get it after I sell it?\p"
-    .string "I'll even tell you one of the\n"
-    .string "passwords to TEAM ROCKET's\l"
-    .string "WAREHOUSE.\p"
-    .string "The WAREHOUSE password I know is\n"
-    .string "“Yes, nah, CHANSEY.”\p"
-    .string "I'm done.\n"
-    .string "Don't think badly of me!$"
-

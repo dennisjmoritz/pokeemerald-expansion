@@ -1,43 +1,9 @@
 mapscripts SilphCo_1F_MapScripts {
-    SilphCo_1F_OnTransition
+    MAP_SCRIPT_ON_TRANSITION: SilphCo_1F_OnTransition
 }
 
-script SilphCo_1F_OnTransition {
-	setworldmapflag FLAG_TEMP_1
-// Replaced FLAG_WORLD_MAP_SILPH_CO_1F with FLAG_TEMP_1
-	end
-
-}
-
-script SilphCo_1F_EventScript_Receptionist {
-	msgbox SilphCo_1F_Text_WelcomePresidentInBoardroom, MSGBOX_NPC
-	end
-
-}
-
-script SilphCo_1F_EventScript_FloorSign {
-	msgbox SilphCo_1F_Text_FloorSign, MSGBOX_SIGN
-	end
-
-}
-
-script SilphCo_1F_Text_WelcomePresidentInBoardroom {
-    .string "Welcome.\p"
-    .string "The PRESIDENT is in the boardroom\n"
-    .string "on 11F.$"
-
-@ Tentative translation. Unknown origin
-}
-
-script SilphCo_1F_Text_DestroyedWontBeFixedForWhile {
-//     .string "めちゃめちゃに　こわされてる\n"
-//     .string "とうぶん　なおりそうに　ない‥$"
-
-}
-
-script SilphCo_1F_Text_FloorSign {
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "1F$"
+script SilphCo_1F_MapScripts {
+	map_script(MAP_SCRIPT_ON_TRANSITION, SilphCo_1F_OnTransition)
 
 }
 

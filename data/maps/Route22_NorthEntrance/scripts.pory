@@ -1,22 +1,7 @@
 mapscripts Route22_NorthEntrance_MapScripts {
 }
 
-script Route22_NorthEntrance_EventScript_BoulderBadgeGuard {
-	lock
-	faceplayer
-	setvar VAR_TEMP_1, 1
-// FIXME undefined reference: 	bufferstdstring STR_VAR_1, STDSTRING_BOULDER_BADGE
-// FIXME undefined reference: 	goto Route22_NorthEntrance_EventScript_BadgeGuard
-	end
+script Route22_NorthEntrance_MapScripts {
 
-}
-
-script Route22_NorthEntrance_EventScript_BoulderBadgeGuardTrigger {
-	lockall
-	setvar VAR_TEMP_1, 1
-	setvar VAR_0x8009, 1
-// FIXME undefined reference: 	bufferstdstring STR_VAR_1, STDSTRING_BOULDER_BADGE
-// FIXME undefined reference: 	goto Route23_EventScript_BadgeGuardTrigger
-	end
 }
 

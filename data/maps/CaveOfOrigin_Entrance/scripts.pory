@@ -1,4 +1,9 @@
 mapscripts CaveOfOrigin_Entrance_MapScripts {
-    CaveOfOrigin_Entrance_OnResume
+    MAP_SCRIPT_ON_RESUME: CaveOfOrigin_Entrance_OnResume
+}
+
+script CaveOfOrigin_Entrance_MapScripts {
+	map_script(MAP_SCRIPT_ON_RESUME, CaveOfOrigin_Entrance_OnResume)
+
 }
 

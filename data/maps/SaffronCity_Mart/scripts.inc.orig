@@ -10,11 +10,13 @@ SaffronCity_Mart_EventScript_Youngster::
 	end
 
 SaffronCity_Mart_EventScript_Clerk::
-@	goto_if_questlog EventScript_ReleaseEnd
+	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
+	message Text_MayIHelpYou
 	waitmessage
 	pokemart SaffronCity_Mart_Items
+	msgbox Text_PleaseComeAgain
 	release
 	end
 
@@ -29,14 +31,3 @@ SaffronCity_Mart_Items::
 	.2byte ITEM_NONE
 	release
 	end
-
-SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper::
-    .string "MAX REPEL keeps weaker POKéMON\n"
-    .string "from appearing.\p"
-    .string "MAX REPEL stays effective longer\n"
-    .string "than SUPER REPEL.$"
-
-SaffronCity_Mart_Text_ReviveIsCostly::
-    .string "REVIVE is costly, but it revives\n"
-    .string "fainted POKéMON!$"
-

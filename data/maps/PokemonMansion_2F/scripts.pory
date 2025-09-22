@@ -1,91 +1,9 @@
 mapscripts PokemonMansion_2F_MapScripts {
-    PokemonMansion_2F_OnLoad
+    MAP_SCRIPT_ON_LOAD: PokemonMansion_2F_OnLoad
 }
 
-script PokemonMansion_2F_OnLoad {
-// FIXME undefined reference: 	call_if_set FLAG_TEMP_1, PokemonMansion_EventScript_PressSwitch_2F
-// Replaced FLAG_POKEMON_MANSION_SWITCH_STATE with FLAG_TEMP_1
-	end
-
-}
-
-script PokemonMansion_2F_EventScript_Statue {
-	lockall
-	setvar VAR_0x8004, 1
-// FIXME undefined reference: 	call PokemonMansion_EventScript_SecretSwitch
-	playse SE_UNLOCK
-	special DrawWholeMapView
-	waitse
-	releaseall
-	end
-
-}
-
-script PokemonMansion_2F_EventScript_DiaryJuly5th {
-	msgbox PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle, MSGBOX_SIGN
-	end
-
-}
-
-script PokemonMansion_2F_EventScript_DiaryJuly10th {
-	msgbox PokemonMansion_1F_Text_ChristenedDiscoveredMonMew, MSGBOX_SIGN
-	end
-
-}
-
-script PokemonMansion_2F_EventScript_Arnie {
-// FIXME undefined reference: 	trainerbattle_single TRAINER_BURGLAR_ARNIE, PokemonMansion_1F_Text_ArnieIntro, PokemonMansion_1F_Text_ArnieDefeat
-	msgbox PokemonMansion_1F_Text_ArniePostBattle, MSGBOX_AUTOCLOSE
-	end
-
-}
-
-script PokemonMansion_Text_PressSecretSwitch {
-    .string "A secret switch!\p"
-    .string "Press it?$"
-
-}
-
-script PokemonMansion_Text_WhoWouldnt {
-    .string "Who wouldn't?$"
-
-}
-
-script PokemonMansion_Text_NotQuiteYet {
-    .string "Not quite yet!$"
-
-}
-
-script PokemonMansion_1F_Text_ArnieIntro {
-    .string "I can't get out!\n"
-    .string "This old place is one big puzzle.$"
-
-}
-
-script PokemonMansion_1F_Text_ArnieDefeat {
-    .string "Oh, no!\n"
-    .string "My bag of loot!$"
-
-}
-
-script PokemonMansion_1F_Text_ArniePostBattle {
-    .string "The switches here open and close\n"
-    .string "alternating sets of doors.$"
-
-}
-
-script PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle {
-    .string "Diary: July 5\n"
-    .string "Guyana, South America\p"
-    .string "A new POKéMON was discovered deep\n"
-    .string "in the jungle.$"
-
-}
-
-script PokemonMansion_1F_Text_ChristenedDiscoveredMonMew {
-    .string "Diary: July 10\n"
-    .string "We christened the newly discovered\l"
-    .string "POKéMON, MEW.$"
+script PokemonMansion_2F_MapScripts {
+	map_script(MAP_SCRIPT_ON_LOAD, PokemonMansion_2F_OnLoad)
 
 }
 

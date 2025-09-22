@@ -5,14 +5,8 @@ MtEmber_RubyPath_B3F_MapScripts::
 MtEmber_RubyPath_B5F_EventScript_Ruby::
 	lock
 	faceplayer
-	setflag FLAG_TEMP_1
-// Replaced FLAG_GOT_RUBY with FLAG_TEMP_1
+	setflag FLAG_GOT_RUBY
 	removeobject LOCALID_RUBY
-	msgbox MtEmber_RubyPath_B3F_Text_FoundARuby, MSGBOX_DEFAULT
-// 	giveitem ITEM_RUBY, 1, MUS_OBTAIN_KEY_ITEM
+	giveitem_msg MtEmber_RubyPath_B3F_Text_FoundARuby, ITEM_RUBY, 1, MUS_OBTAIN_KEY_ITEM
 	release
 	end
-
-MtEmber_RubyPath_B3F_Text_FoundARuby::
-    .string "{PLAYER} found a RUBY!$"
-

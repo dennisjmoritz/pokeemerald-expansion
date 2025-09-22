@@ -1,10 +1,9 @@
 mapscripts AbandonedShip_Rooms_B1F_MapScripts {
-    AbandonedShip_Rooms_B1F_OnResume
+    MAP_SCRIPT_ON_RESUME: AbandonedShip_Rooms_B1F_OnResume
 }
 
-script AbandonedShip_Rooms_B1F_EventScript_FatMan {
-	msgbox AbandonedShip_Rooms_B1F_Text_GettingQueasy, MSGBOX_NPC
-	end
+script AbandonedShip_Rooms_B1F_MapScripts {
+	map_script(MAP_SCRIPT_ON_RESUME, AbandonedShip_Rooms_B1F_OnResume)
 
 }
 

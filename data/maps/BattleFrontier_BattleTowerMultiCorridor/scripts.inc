@@ -1,0 +1,19 @@
+BattleFrontier_BattleTowerMultiCorridor_MapScripts::
+# 2 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattleTowerMultiCorridor_OnTransition
+# 3 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleTowerMultiCorridor_OnWarp
+# 4 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerMultiCorridor_OnFrame
+	.byte 0
+
+
+BattleFrontier_BattleTowerMultiCorridor_MapScripts::
+# 8 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattleTowerMultiCorridor_OnTransition
+# 9 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleTowerMultiCorridor_OnWarp
+# 10 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerMultiCorridor_OnFrame
+	return
+

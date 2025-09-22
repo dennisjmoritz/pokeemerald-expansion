@@ -1,90 +1,9 @@
 mapscripts ThreeIsland_Port_MapScripts {
-    ThreeIsland_Port_OnTransition
+    MAP_SCRIPT_ON_TRANSITION: ThreeIsland_Port_OnTransition
 }
 
-script ThreeIsland_Port_OnTransition {
-	clearflag FLAG_TEMP_1
-// Replaced FLAG_SYS_PC_STORAGE_DISABLED with FLAG_TEMP_1
-	setflag FLAG_TEMP_1
-// Replaced FLAG_SEVII_DETOUR_FINISHED with FLAG_TEMP_1
-	end
-
-}
-
-script ThreeIsland_Port_EventScript_Woman {
-	lock
-	faceplayer
-	goto_if_ge VAR_TEMP_0, 2, ThreeIsland_Port_EventScript_WomanLostelleFound
-// Replaced VAR_MAP_SCENE_TWO_ISLAND_JOYFUL_GAME_CORNER with VAR_TEMP_0
-	goto_if_ge VAR_TEMP_0, 4, ThreeIsland_Port_EventScript_WomanBikersGone
-// Replaced VAR_MAP_SCENE_THREE_ISLAND with VAR_TEMP_0
-	msgbox ThreeIsland_Port_Text_IllCallThePolice
-	release
-	end
-
-}
-
-script ThreeIsland_Port_EventScript_WomanLostelleFound {
-	msgbox ThreeIsland_Port_Text_EverythingTurnedOutForBest
-	release
-	end
-
-}
-
-script ThreeIsland_Port_EventScript_WomanBikersGone {
-	msgbox ThreeIsland_Port_Text_ThankGoodnessBikersGone
-	release
-	end
-
-}
-
-script ThreeIsland_Port_EventScript_Biker1 {
-	msgbox ThreeIsland_Port_Text_WereKantoRiderFederation, MSGBOX_NPC
-	end
-
-}
-
-script ThreeIsland_Port_EventScript_Biker2 {
-	lock
-	msgbox ThreeIsland_Port_Text_ForkOverMoney
-	release
-	end
-
-}
-
-script ThreeIsland_Port_Text_WereKantoRiderFederation {
-    .string "We're the KANTO RIDER FEDERATION!\n"
-    .string "Vroom! Vavavavooom! Vroom!\p"
-    .string "My bike's wimpy, so I have to\n"
-    .string "make exhaust noises myself!$"
-
-}
-
-script ThreeIsland_Port_Text_ForkOverMoney {
-    .string "Hey, hey, lady!\n"
-    .string "Fork over some spending money!$"
-
-}
-
-script ThreeIsland_Port_Text_IllCallThePolice {
-    .string "Aiyeeh!\p"
-    .string "Wh-who are you?!\n"
-    .string "I… I'll call the police!$"
-
-}
-
-script ThreeIsland_Port_Text_ThankGoodnessBikersGone {
-    .string "Those BIKERS…\n"
-    .string "Are they gone?\p"
-    .string "Oh, thank goodness!\n"
-    .string "They certainly had me terrified!$"
-
-}
-
-script ThreeIsland_Port_Text_EverythingTurnedOutForBest {
-    .string "Those BIKERS ran off, and\n"
-    .string "LOSTELLE was found safe.\p"
-    .string "Everything turned out for the best!$"
+script ThreeIsland_Port_MapScripts {
+	map_script(MAP_SCRIPT_ON_TRANSITION, ThreeIsland_Port_OnTransition)
 
 }
 

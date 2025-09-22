@@ -1,15 +1,7 @@
 mapscripts SlateportCity_House_MapScripts {
 }
 
-script SlateportCity_House_EventScript_PokefanM {
-	msgbox SlateportCity_House_Text_NatureToDoWithStatGains, MSGBOX_NPC
-	end
-
-}
-
-script SlateportCity_House_EventScript_Girl {
-	msgbox SlateportCity_House_Text_MustBeGoingToBattleTent, MSGBOX_NPC
-	end
+script SlateportCity_House_MapScripts {
 
 }
 

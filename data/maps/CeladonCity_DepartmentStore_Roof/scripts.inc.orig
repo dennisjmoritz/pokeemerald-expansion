@@ -2,7 +2,8 @@ CeladonCity_DepartmentStore_Roof_MapScripts::
 	.byte 0
 
 CeladonCity_DepartmentStore_Roof_EventScript_ThirstyGirl::
-@	goto_if_questlog EventScript_ReleaseEnd
+	goto_if_questlog EventScript_ReleaseEnd
+	special QuestLog_CutRecording
 	lock
 	faceplayer
 	call CeladonCity_DepartmentStore_Roof_EventScript_CheckPlayerHasDrinks
@@ -35,8 +36,10 @@ CeladonCity_DepartmentStore_Roof_EventScript_SetHasLemonade::
 CeladonCity_DepartmentStore_Roof_EventScript_AskGiveDrink::
 	msgbox CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, CeladonCity_DepartmentStore_Roof_EventScript_DontGiveDrink
+	textcolor NPC_TEXT_COLOR_NEUTRAL
 	message CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink
 	waitmessage
+	textcolor NPC_TEXT_COLOR_FEMALE
 	switch VAR_TEMP_1
 	case 1, CeladonCity_DepartmentStore_Roof_EventScript_AskGiveFreshWater
 	case 2, CeladonCity_DepartmentStore_Roof_EventScript_AskGiveSodaPop
@@ -48,7 +51,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_AskGiveDrink::
 	end
 
 CeladonCity_DepartmentStore_Roof_EventScript_AskGiveFreshWater::
-// FIXME undefined reference: 	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_FRESH_WATER, FALSE
+	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_FRESH_WATER, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_DepartmentStore_Roof_EventScript_GiveFreshWater
 	case 1, CeladonCity_DepartmentStore_Roof_EventScript_DontGiveDrink
@@ -56,7 +59,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_AskGiveFreshWater::
 	end
 
 CeladonCity_DepartmentStore_Roof_EventScript_AskGiveSodaPop::
-// FIXME undefined reference: 	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_SODA_POP, FALSE
+	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_SODA_POP, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_DepartmentStore_Roof_EventScript_GiveSodaPop
 	case 1, CeladonCity_DepartmentStore_Roof_EventScript_DontGiveDrink
@@ -64,7 +67,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_AskGiveSodaPop::
 	end
 
 CeladonCity_DepartmentStore_Roof_EventScript_AskGiveFreshWaterSodaPop::
-// FIXME undefined reference: 	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_FRESH_WATER_SODA_POP, FALSE
+	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_FRESH_WATER_SODA_POP, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_DepartmentStore_Roof_EventScript_GiveFreshWater
 	case 1, CeladonCity_DepartmentStore_Roof_EventScript_GiveSodaPop
@@ -73,7 +76,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_AskGiveFreshWaterSodaPop::
 	end
 
 CeladonCity_DepartmentStore_Roof_EventScript_AskGiveLemonade::
-// FIXME undefined reference: 	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_LEMONADE, FALSE
+	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_LEMONADE, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_DepartmentStore_Roof_EventScript_GiveLemonade
 	case 1, CeladonCity_DepartmentStore_Roof_EventScript_DontGiveDrink
@@ -81,7 +84,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_AskGiveLemonade::
 	end
 
 CeladonCity_DepartmentStore_Roof_EventScript_AskGiveFreshWaterLemonade::
-// FIXME undefined reference: 	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_FRESH_WATER_LEMONADE, FALSE
+	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_FRESH_WATER_LEMONADE, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_DepartmentStore_Roof_EventScript_GiveFreshWater
 	case 1, CeladonCity_DepartmentStore_Roof_EventScript_GiveLemonade
@@ -90,7 +93,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_AskGiveFreshWaterLemonade::
 	end
 
 CeladonCity_DepartmentStore_Roof_EventScript_AskGiveSodaPopLemonade::
-// FIXME undefined reference: 	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_SODA_POP_LEMONADE, FALSE
+	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_SODA_POP_LEMONADE, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_DepartmentStore_Roof_EventScript_GiveSodaPop
 	case 1, CeladonCity_DepartmentStore_Roof_EventScript_GiveLemonade
@@ -99,7 +102,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_AskGiveSodaPopLemonade::
 	end
 
 CeladonCity_DepartmentStore_Roof_EventScript_AskGiveAllDrinks::
-// FIXME undefined reference: 	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_FRESH_WATER_SODA_POP_LEMONADE, FALSE
+	multichoice 0, 0, MULTICHOICE_THIRSTY_GIRL_FRESH_WATER_SODA_POP_LEMONADE, FALSE
 	switch VAR_RESULT
 	case 0, CeladonCity_DepartmentStore_Roof_EventScript_GiveFreshWater
 	case 1, CeladonCity_DepartmentStore_Roof_EventScript_GiveSodaPop
@@ -111,8 +114,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_AskGiveAllDrinks::
 CeladonCity_DepartmentStore_Roof_EventScript_GiveFreshWater::
 	setvar VAR_0x8008, ITEM_FRESH_WATER
 	setvar VAR_0x8009, ITEM_TM16
-	goto_if_set FLAG_TEMP_1, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
-// Replaced FLAG_GOT_TM16_FROM_THIRSTY_GIRL with FLAG_TEMP_1
+	goto_if_set FLAG_GOT_TM16_FROM_THIRSTY_GIRL, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
 	msgbox CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis
 	goto CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink
 	end
@@ -120,8 +122,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_GiveFreshWater::
 CeladonCity_DepartmentStore_Roof_EventScript_GiveSodaPop::
 	setvar VAR_0x8008, ITEM_SODA_POP
 	setvar VAR_0x8009, ITEM_TM20
-	goto_if_set FLAG_TEMP_1, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
-// Replaced FLAG_GOT_TM20_FROM_THIRSTY_GIRL with FLAG_TEMP_1
+	goto_if_set FLAG_GOT_TM20_FROM_THIRSTY_GIRL, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
 	msgbox CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis
 	goto CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink
 	end
@@ -129,8 +130,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_GiveSodaPop::
 CeladonCity_DepartmentStore_Roof_EventScript_GiveLemonade::
 	setvar VAR_0x8008, ITEM_LEMONADE
 	setvar VAR_0x8009, ITEM_TM33
-	goto_if_set FLAG_TEMP_1, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
-// Replaced FLAG_GOT_TM33_FROM_THIRSTY_GIRL with FLAG_TEMP_1
+	goto_if_set FLAG_GOT_TM33_FROM_THIRSTY_GIRL, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
 	msgbox CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis
 	goto CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink
 	end
@@ -142,11 +142,13 @@ CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink::
 	checkitemspace VAR_0x8009
 	goto_if_eq VAR_RESULT, FALSE, CeladonCity_DepartmentStore_Roof_EventScript_NoRoomForReward
 	additem VAR_0x8009
+	textcolor NPC_TEXT_COLOR_NEUTRAL
 	playfanfare MUS_LEVEL_UP
 	message Text_ReceivedItemFromLittleGirl
 	waitmessage
 	waitfanfare
-	// putitemaway VAR_0x8009
+	putitemaway VAR_0x8009
+	call EventScript_RestorePrevTextColor
 	call_if_eq VAR_0x8008, ITEM_FRESH_WATER, CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM16
 	call_if_eq VAR_0x8008, ITEM_SODA_POP, CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM20
 	call_if_eq VAR_0x8008, ITEM_LEMONADE, CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM33
@@ -154,20 +156,17 @@ CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink::
 	end
 
 CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM16::
-	setflag FLAG_TEMP_1
-// Replaced FLAG_GOT_TM16_FROM_THIRSTY_GIRL with FLAG_TEMP_1
+	setflag FLAG_GOT_TM16_FROM_THIRSTY_GIRL
 	msgbox CeladonCity_DepartmentStore_Roof_Text_ExplainTM16
 	return
 
 CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM20::
-	setflag FLAG_TEMP_1
-// Replaced FLAG_GOT_TM20_FROM_THIRSTY_GIRL with FLAG_TEMP_1
+	setflag FLAG_GOT_TM20_FROM_THIRSTY_GIRL
 	msgbox CeladonCity_DepartmentStore_Roof_Text_ExplainTM20
 	return
 
 CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM33::
-	setflag FLAG_TEMP_1
-// Replaced FLAG_GOT_TM33_FROM_THIRSTY_GIRL with FLAG_TEMP_1
+	setflag FLAG_GOT_TM33_FROM_THIRSTY_GIRL
 	msgbox CeladonCity_DepartmentStore_Roof_Text_ExplainTM33
 	return
 
@@ -207,7 +206,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_VendingMachine::
 	end
 
 CeladonCity_DepartmentStore_Roof_EventScript_ChooseDrink::
-// FIXME undefined reference: 	multichoice 12, 0, MULTICHOICE_CELADON_VENDING_MACHINE, FALSE
+	multichoice 12, 0, MULTICHOICE_CELADON_VENDING_MACHINE, FALSE
 	copyvar VAR_TEMP_1, VAR_RESULT
 	switch VAR_TEMP_1
 	case 0, CeladonCity_DepartmentStore_Roof_EventScript_BuyFreshWater
@@ -282,86 +281,3 @@ CeladonCity_DepartmentStore_Roof_EventScript_ExitVendingMachine::
 	hidemoneybox
 	releaseall
 	end
-
-CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink::
-    .string "I'm thirsty!\n"
-    .string "I want something to drink!\p"
-    .string "{FONT_NORMAL}Give her a drink?$"
-
-CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink::
-    .string "Give her which drink?$"
-
-CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis::
-    .string "Yay!\p"
-    .string "FRESH WATER!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
-
-Text_ReceivedItemFromLittleGirl::
-    .string "{PLAYER} received a {STR_VAR_2}\n"
-    .string "from the little girl.$"
-
-CeladonCity_DepartmentStore_Roof_Text_ExplainTM16::
-    .string "TM16 contains LIGHT SCREEN.\p"
-    .string "It's a move that weakens the power\n"
-    .string "of special attacks by your foe.$"
-
-CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis::
-    .string "Yay!\p"
-    .string "SODA POP!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
-
-CeladonCity_DepartmentStore_Roof_Text_ExplainTM20::
-    .string "TM20 contains SAFEGUARD.\p"
-    .string "It's a move that prevents status\n"
-    .string "problems among your POKéMON.$"
-
-CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis::
-    .string "Yay!\p"
-    .string "LEMONADE!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
-
-CeladonCity_DepartmentStore_Roof_Text_ExplainTM33::
-    .string "TM33 contains REFLECT.\p"
-    .string "It's a move that weakens the power\n"
-    .string "of physical attacks by your foe.$"
-
-CeladonCity_DepartmentStore_Roof_Text_DontHaveSpaceForThis::
-    .string "You don't have space for this!$"
-
-CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll::
-    .string "No, thank you!\n"
-    .string "I'm not thirsty after all!$"
-
-CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature::
-    .string "My sister is a TRAINER, believe it\n"
-    .string "or not.\p"
-    .string "But, she's so immature, she drives\n"
-    .string "me nuts!$"
-
-CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink::
-    .string "I'm thirsty!\n"
-    .string "I want something to drink!$"
-
-CeladonCity_DepartmentStore_Roof_Text_FloorSign::
-    .string "ROOFTOP SQUARE:\n"
-    .string "VENDING MACHINES$"
-
-CeladonCity_DepartmentStore_Roof_Text_VendingMachineWhatDoesItHave::
-    .string "A vending machine!\n"
-    .string "What does it have?$"
-
-CeladonCity_DepartmentStore_Roof_Text_NotEnoughMoney::
-    .string "Oops, not enough money!$"
-
-CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut::
-    .string "A can of {STR_VAR_1} popped out!$"
-
-CeladonCity_DepartmentStore_Roof_Text_NoMoreRoomForStuff::
-    .string "There's no more room for stuff!$"
-
-CeladonCity_DepartmentStore_Roof_Text_NotThirsty::
-    .string "Not thirsty!$"
-

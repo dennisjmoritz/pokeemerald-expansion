@@ -1,26 +1,7 @@
 mapscripts Route2_MapScripts {
 }
 
-script Route2_EventScript_RouteSign {
-	msgbox Route2_Text_RouteSign, MSGBOX_SIGN
-	end
-
-}
-
-script Route2_EventScript_DiglettsCaveSign {
-	msgbox Route2_Text_DiglettsCave, MSGBOX_SIGN
-	end
-
-}
-
-script Route2_Text_RouteSign {
-    .string "ROUTE 2\n"
-    .string "VIRIDIAN CITY - PEWTER CITY$"
-
-}
-
-script Route2_Text_DiglettsCave {
-    .string "DIGLETT'S CAVE$"
+script Route2_MapScripts {
 
 }
 

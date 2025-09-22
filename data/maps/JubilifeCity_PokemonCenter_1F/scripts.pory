@@ -1,12 +1,8 @@
 mapscripts JubilifeCity_PokemonCenter_1F_MapScripts {
 }
 
-script JubilifeCity_PokemonCenter_1F_EventScript_Nurse {
-	setvar VAR_0x800B, LOCALID_JUBILIFE_NURSE
-// FIXME undefined reference: 	call Common_EventScript_PkmnCenterNurse
-	waitmessage
-	waitbuttonpress
-	release
-	end
+script JubilifeCity_PokemonCenter_1F_MapScripts {
+
+
 }
 

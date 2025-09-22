@@ -1,34 +1,7 @@
 mapscripts FortreeCity_Mart_MapScripts {
 }
 
-script FortreeCity_Mart_EventScript_Clerk {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart FortreeCity_Mart_Pokemart
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
-}
-
-script FortreeCity_Mart_EventScript_Woman {
-	msgbox FortreeCity_Mart_Text_SuperRepelBetter, MSGBOX_NPC
-	end
-
-}
-
-script FortreeCity_Mart_EventScript_Girl {
-	msgbox FortreeCity_Mart_Text_StockUpOnItems, MSGBOX_NPC
-	end
-
-}
-
-script FortreeCity_Mart_EventScript_Boy {
-	msgbox FortreeCity_Mart_Text_RareCandyMakesMonGrow, MSGBOX_NPC
-	end
+script FortreeCity_Mart_MapScripts {
 
 }
 

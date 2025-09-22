@@ -1,0 +1,9 @@
+mapscripts SafariZone_Center_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: SafariZone_Center_OnTransition
+}
+
+script SafariZone_Center_MapScripts {
+	map_script(MAP_SCRIPT_ON_TRANSITION, SafariZone_Center_OnTransition)
+
+}
+

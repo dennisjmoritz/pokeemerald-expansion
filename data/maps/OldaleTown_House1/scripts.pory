@@ -1,9 +1,7 @@
 mapscripts OldaleTown_House1_MapScripts {
 }
 
-script OldaleTown_House1_EventScript_Woman {
-	msgbox OldaleTown_House1_Text_LeftPokemonGoesOutFirst, MSGBOX_NPC
-	end
+script OldaleTown_House1_MapScripts {
 
 }
 

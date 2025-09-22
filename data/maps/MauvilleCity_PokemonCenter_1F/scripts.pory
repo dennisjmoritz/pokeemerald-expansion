@@ -1,39 +1,11 @@
 mapscripts MauvilleCity_PokemonCenter_1F_MapScripts {
-    MauvilleCity_PokemonCenter_1F_OnTransition
-    CableClub_OnResume
+    MAP_SCRIPT_ON_TRANSITION: MauvilleCity_PokemonCenter_1F_OnTransition
+    MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script MauvilleCity_PokemonCenter_1F_EventScript_SetMauvilleOldManGfx {
-	special SetMauvilleOldManObjEventGfx
-	end
-
-}
-
-script MauvilleCity_PokemonCenter_1F_EventScript_Nurse {
-	setvar VAR_0x800B, LOCALID_MAUVILLE_NURSE
-// FIXME undefined reference: 	call Common_EventScript_PkmnCenterNurse
-	waitmessage
-	waitbuttonpress
-	release
-	end
-
-}
-
-script MauvilleCity_PokemonCenter_1F_EventScript_Woman1 {
-	msgbox MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings, MSGBOX_NPC
-	end
-
-}
-
-script MauvilleCity_PokemonCenter_1F_EventScript_Woman2 {
-	msgbox MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner, MSGBOX_NPC
-	end
-
-}
-
-script MauvilleCity_PokemonCenter_1F_EventScript_Youngster {
-	msgbox MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun, MSGBOX_NPC
-	end
+script MauvilleCity_PokemonCenter_1F_MapScripts {
+	map_script(MAP_SCRIPT_ON_TRANSITION, MauvilleCity_PokemonCenter_1F_OnTransition)
+	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
 
 }
 

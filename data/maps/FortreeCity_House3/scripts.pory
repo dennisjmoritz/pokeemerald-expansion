@@ -1,15 +1,7 @@
 mapscripts FortreeCity_House3_MapScripts {
 }
 
-script FortreeCity_House3_EventScript_Maniac {
-	msgbox FortreeCity_House3_Text_MetStevenHadAmazingPokemon, MSGBOX_NPC
-	end
-
-}
-
-script FortreeCity_House3_EventScript_SchoolKidM {
-	msgbox FortreeCity_House3_Text_OhYouHavePokedex, MSGBOX_NPC
-	end
+script FortreeCity_House3_MapScripts {
 
 }
 

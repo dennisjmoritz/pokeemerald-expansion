@@ -1,13 +1,7 @@
 mapscripts TwoIsland_Harbor_MapScripts {
 }
 
-script TwoIsland_Harbor_EventScript_Sailor {
-	lock
-	faceplayer
-	message Text_WhereDoYouWantToSail
-	waitmessage
-// 	setvar VAR_0x8004, SEAGALLOP_TWO_ISLAND
-// FIXME undefined reference: 	goto EventScript_ChooseDestFromTwoIsland
-	end
+script TwoIsland_Harbor_MapScripts {
+
 }
 

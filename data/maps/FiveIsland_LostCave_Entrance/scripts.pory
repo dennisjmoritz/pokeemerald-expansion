@@ -1,3 +1,9 @@
 mapscripts FiveIsland_LostCave_Entrance_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: FiveIsland_LostCave_Entrance_OnTransition
+}
+
+script FiveIsland_LostCave_Entrance_MapScripts {
+	map_script(MAP_SCRIPT_ON_TRANSITION, FiveIsland_LostCave_Entrance_OnTransition)
+
 }
 

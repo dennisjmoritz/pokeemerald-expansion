@@ -1,64 +1,13 @@
 mapscripts EverGrandeCity_DrakesRoom_MapScripts {
-    EverGrandeCity_DrakesRoom_OnFrame
-    EverGrandeCity_DrakesRoom_OnLoad
-    EverGrandeCity_SidneysRoom_OnWarp
-    @ Unused, Drake uses Sidneys identical OnWarp for some reason
+    MAP_SCRIPT_ON_FRAME_TABLE: EverGrandeCity_DrakesRoom_OnFrame
+    MAP_SCRIPT_ON_LOAD: EverGrandeCity_DrakesRoom_OnLoad
+    MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: EverGrandeCity_SidneysRoom_OnWarp
 }
 
-script EverGrandeCity_DrakesRoom_EventScript_PlayerTurnNorth {
-	turnobject LOCALID_PLAYER, DIR_NORTH
-	end
-
-}
-
-script EverGrandeCity_DrakesRoom_EventScript_WalkInCloseDoor {
-	lockall
-	call PokemonLeague_EliteFour_EventScript_WalkInCloseDoor
-	setvar VAR_ELITE_4_STATE, 4
-	releaseall
-	end
-
-}
-
-script EverGrandeCity_DrakesRoom_EventScript_ResetAdvanceToNextRoom {
-	call PokemonLeague_EliteFour_EventScript_ResetAdvanceToNextRoom
-	return
-
-}
-
-script EverGrandeCity_DrakesRoom_EventScript_CloseDoor {
-	call PokemonLeague_EliteFour_EventScript_CloseDoor
-	return
-
-}
-
-script EverGrandeCity_DrakesRoom_EventScript_Drake {
-	lock
-	faceplayer
-	goto_if_set FLAG_DEFEATED_ELITE_4_DRAKE, EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech
-	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
-	msgbox EverGrandeCity_DrakesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_DRAKE, EverGrandeCity_DrakesRoom_Text_Defeat
-	goto EverGrandeCity_DrakesRoom_EventScript_Defeated
-	end
-
-}
-
-script EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech {
-	msgbox EverGrandeCity_DrakesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
-	release
-	end
-
-}
-
-script EverGrandeCity_DrakesRoom_EventScript_Defeated {
-	setvar VAR_0x8004, FANCOUNTER_DEFEATED_DRAKE
-	special Script_TryGainNewFanFromCounter
-	setflag FLAG_DEFEATED_ELITE_4_DRAKE
-	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
-	msgbox EverGrandeCity_DrakesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
-	release
-	end
+script EverGrandeCity_DrakesRoom_MapScripts {
+	map_script(MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_DrakesRoom_OnFrame)
+	map_script(MAP_SCRIPT_ON_LOAD, EverGrandeCity_DrakesRoom_OnLoad)
+	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_SidneysRoom_OnWarp)
 
 }
 

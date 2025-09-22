@@ -1,4 +1,9 @@
 mapscripts Underwater_Route134_MapScripts {
-    Underwater_Route134_OnResume
+    MAP_SCRIPT_ON_RESUME: Underwater_Route134_OnResume
+}
+
+script Underwater_Route134_MapScripts {
+	map_script(MAP_SCRIPT_ON_RESUME, Underwater_Route134_OnResume)
+
 }
 

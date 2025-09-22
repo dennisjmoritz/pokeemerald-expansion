@@ -1,34 +1,7 @@
 mapscripts VerdanturfTown_Mart_MapScripts {
 }
 
-script VerdanturfTown_Mart_EventScript_Clerk {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart VerdanturfTown_Mart_Pokemart
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
-}
-
-script VerdanturfTown_Mart_EventScript_Boy {
-	msgbox VerdanturfTown_Mart_Text_XSpecialIsCrucial, MSGBOX_NPC
-	end
-
-}
-
-script VerdanturfTown_Mart_EventScript_ExpertF {
-	msgbox VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent, MSGBOX_NPC
-	end
-
-}
-
-script VerdanturfTown_Mart_EventScript_Lass {
-	msgbox VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon, MSGBOX_NPC
-	end
+script VerdanturfTown_Mart_MapScripts {
 
 }
 

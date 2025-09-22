@@ -5,10 +5,8 @@ SevenIsland_SevaultCanyon_TanobyKey_MapScripts::
 	.byte 0
 
 SevenIsland_SevaultCanyon_TanobyKey_OnTransition::
-	setworldmapflag FLAG_TEMP_1
-// Replaced FLAG_WORLD_MAP_SEVEN_ISLAND_SEVAULT_CANYON_TANOBY_KEY with FLAG_TEMP_1
-	call_if_set FLAG_TEMP_1, SevenIsland_SevaultCanyon_TanobyKey_EventScript_MoveBouldersToSolvedPos
-// Replaced FLAG_SYS_UNLOCKED_TANOBY_RUINS with FLAG_TEMP_1
+	setworldmapflag FLAG_WORLD_MAP_SEVEN_ISLAND_SEVAULT_CANYON_TANOBY_KEY
+	call_if_set FLAG_SYS_UNLOCKED_TANOBY_RUINS, SevenIsland_SevaultCanyon_TanobyKey_EventScript_MoveBouldersToSolvedPos
 	setvar VAR_TEMP_1, 0
 	setvar VAR_TEMP_2, 0
 	setvar VAR_TEMP_3, 0
@@ -99,22 +97,22 @@ SevenIsland_SevaultCanyon_TanobyKey_EventScript_SwitchPressed::
 	setvar VAR_0x8005, 1
 	setvar VAR_0x8006, 8
 	setvar VAR_0x8007, 3
-// FIXME undefined reference: 	special ShakeScreen
+	special ShakeScreen
 	delay 60
 	return
 
-// FIXME undefined reference: SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolvedShakeScreen::
+SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolvedShakeScreen::
 	setvar VAR_0x8004, 2
 	setvar VAR_0x8005, 2
 	setvar VAR_0x8006, 10
 	setvar VAR_0x8007, 3
-// FIXME undefined reference: 	special ShakeScreen
+	special ShakeScreen
 	delay 60
 	setvar VAR_0x8004, 3
 	setvar VAR_0x8005, 3
 	setvar VAR_0x8006, 12
 	setvar VAR_0x8007, 2
-// FIXME undefined reference: 	special ShakeScreen
+	special ShakeScreen
 	delay 60
 	playse SE_LAVARIDGE_FALL_WARP
 	waitse
@@ -125,14 +123,8 @@ SevenIsland_SevaultCanyon_TanobyKey_EventScript_SwitchAlreadyPressed::
 	end
 
 SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolved::
-// FIXME undefined reference: 	call SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolvedShakeScreen
+	call SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolvedShakeScreen
 	msgbox SevenIsland_SevaultCanyon_TanobyKey_Text_MysteriousRumbleFarAway
-	setflag FLAG_TEMP_1
-// Replaced FLAG_SYS_UNLOCKED_TANOBY_RUINS with FLAG_TEMP_1
+	setflag FLAG_SYS_UNLOCKED_TANOBY_RUINS
 	releaseall
 	end
-
-SevenIsland_SevaultCanyon_TanobyKey_Text_MysteriousRumbleFarAway::
-    .string "A mysterious rumble echoed\n"
-    .string "somewhere far away.$"
-

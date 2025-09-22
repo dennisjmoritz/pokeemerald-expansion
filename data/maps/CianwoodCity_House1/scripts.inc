@@ -1,0 +1,7 @@
+CianwoodCity_House1_MapScripts::
+	.byte 0
+
+
+CianwoodCity_House1_MapScripts::
+	return
+

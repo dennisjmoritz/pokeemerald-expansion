@@ -1,3 +1,9 @@
 mapscripts FourIsland_IcefallCave_Entrance_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: FourIsland_IcefallCave_Entrance_OnTransition
+}
+
+script FourIsland_IcefallCave_Entrance_MapScripts {
+	map_script(MAP_SCRIPT_ON_TRANSITION, FourIsland_IcefallCave_Entrance_OnTransition)
+
 }
 

@@ -1,0 +1,14 @@
+mapscripts TrainerTower_1F_MapScripts {
+    MAP_SCRIPT_ON_RESUME: TrainerTower_OnResume
+    MAP_SCRIPT_ON_TRANSITION: TrainerTower_OnTransition
+    MAP_SCRIPT_ON_FRAME_TABLE: TrainerTower_OnFrame
+}
+
+script TrainerTower_1F_MapScripts {
+	map_script(MAP_SCRIPT_ON_RESUME, TrainerTower_OnResume)
+	map_script(MAP_SCRIPT_ON_TRANSITION, TrainerTower_OnTransition)
+	map_script(MAP_SCRIPT_ON_FRAME_TABLE, TrainerTower_OnFrame)
+
+
+}
+

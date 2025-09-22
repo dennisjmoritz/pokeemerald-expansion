@@ -1,0 +1,9 @@
+mapscripts SilphCo_8F_MapScripts {
+    MAP_SCRIPT_ON_LOAD: SilphCo_8F_OnLoad
+}
+
+script SilphCo_8F_MapScripts {
+	map_script(MAP_SCRIPT_ON_LOAD, SilphCo_8F_OnLoad)
+
+}
+

@@ -1,28 +1,7 @@
 mapscripts OneIsland_House1_MapScripts {
 }
 
-script OneIsland_House1_EventScript_OldMan {
-	msgbox OneIsland_House1_Text_GazeUponVolcanoOnSunnyDays, MSGBOX_NPC
-	end
-
-}
-
-script OneIsland_House1_EventScript_OldWoman {
-	msgbox OneIsland_House1_Text_LastTimeMtEmberErupted, MSGBOX_NPC
-	end
-
-}
-
-script OneIsland_House1_Text_GazeUponVolcanoOnSunnyDays {
-    .string "On sunny days, I step out and gaze\n"
-    .string "upon the volcano.\p"
-    .string "That's my daily routine.$"
-
-}
-
-script OneIsland_House1_Text_LastTimeMtEmberErupted {
-    .string "Let me think… When was the last\n"
-    .string "time MT. EMBER erupted?$"
+script OneIsland_House1_MapScripts {
 
 }
 

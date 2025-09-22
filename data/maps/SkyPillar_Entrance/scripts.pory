@@ -1,4 +1,9 @@
 mapscripts SkyPillar_Entrance_MapScripts {
-    SkyPillar_Entrance_OnTransition
+    MAP_SCRIPT_ON_TRANSITION: SkyPillar_Entrance_OnTransition
+}
+
+script SkyPillar_Entrance_MapScripts {
+	map_script(MAP_SCRIPT_ON_TRANSITION, SkyPillar_Entrance_OnTransition)
+
 }
 

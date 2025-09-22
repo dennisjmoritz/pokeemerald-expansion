@@ -1,15 +1,7 @@
 mapscripts VerdanturfTown_House_MapScripts {
 }
 
-script VerdanturfTown_House_EventScript_Woman1 {
-	msgbox VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague, MSGBOX_NPC
-	end
-
-}
-
-script VerdanturfTown_House_EventScript_Woman2 {
-	msgbox VerdanturfTown_House_Text_DefeatEliteFourInARow, MSGBOX_NPC
-	end
+script VerdanturfTown_House_MapScripts {
 
 }
 

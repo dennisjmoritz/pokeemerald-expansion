@@ -1,0 +1,7 @@
+NewBarkTown_ProfessorElmsLab_MapScripts::
+	.byte 0
+
+
+NewBarkTown_ProfessorElmsLab_MapScripts::
+	return
+

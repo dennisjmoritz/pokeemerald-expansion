@@ -1,48 +1,8 @@
 mapscripts LilycoveCity_DepartmentStore_2F_MapScripts {
 }
 
-script LilycoveCity_DepartmentStore_2F_EventScript_Cook {
-	msgbox LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly, MSGBOX_NPC
-	end
+script LilycoveCity_DepartmentStore_2F_MapScripts {
 
-}
-
-script LilycoveCity_DepartmentStore_2F_EventScript_PokefanF {
-	msgbox LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband, MSGBOX_NPC
-	end
-
-}
-
-script LilycoveCity_DepartmentStore_2F_EventScript_Sailor {
-	msgbox LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems, MSGBOX_NPC
-	end
-
-}
-
-script LilycoveCity_DepartmentStore_2F_EventScript_ClerkLeft {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart LilycoveCity_DepartmentStore_2F_Pokemart1
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
-}
-
-script LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart LilycoveCity_DepartmentStore_2F_Pokemart2
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
 }
 
 text LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly {

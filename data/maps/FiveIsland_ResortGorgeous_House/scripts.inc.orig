@@ -4,21 +4,19 @@ FiveIsland_ResortGorgeous_House_MapScripts::
 	.byte 0
 
 FiveIsland_ResortGorgeous_House_EventScript_Selphy::
-@	goto_if_questlog EventScript_ReleaseEnd
-// FIXME undefined reference: 	special QuestLog_CutRecording
+	goto_if_questlog EventScript_ReleaseEnd
+	special QuestLog_CutRecording
 	lock
 	faceplayer
 	goto_if_set SHOWN_REQUESTED_MON, FiveIsland_ResortGorgeous_House_EventScript_JustFulfilledRequest
-	goto_if_eq VAR_TEMP_0, 0xFFFF, FiveIsland_ResortGorgeous_House_EventScript_RequestTookTooLong
-// Replaced VAR_RESORT_GORGEOUS_REQUESTED_MON with VAR_TEMP_0
-	goto_if_ne VAR_TEMP_0, SPECIES_NONE, FiveIsland_ResortGorgeous_House_EventScript_CheckForRequestedMon
-// Replaced VAR_RESORT_GORGEOUS_REQUESTED_MON with VAR_TEMP_0
+	goto_if_eq VAR_RESORT_GORGEOUS_REQUESTED_MON, 0xFFFF, FiveIsland_ResortGorgeous_House_EventScript_RequestTookTooLong
+	goto_if_ne VAR_RESORT_GORGEOUS_REQUESTED_MON, SPECIES_NONE, FiveIsland_ResortGorgeous_House_EventScript_CheckForRequestedMon
 	msgbox FiveIsland_ResortGorgeous_House_Text_PleaseHearMyWish
 	goto FiveIsland_ResortGorgeous_House_EventScript_RequestMon
 	end
 
 FiveIsland_ResortGorgeous_House_EventScript_RequestMon::
-// FIXME undefined reference: 	special SampleResortGorgeousMonAndReward
+	special SampleResortGorgeousMonAndReward
 	msgbox FiveIsland_ResortGorgeous_House_Text_WishToSeeMonPlease
 	release
 	end
@@ -29,26 +27,25 @@ FiveIsland_ResortGorgeous_House_EventScript_RequestTookTooLong::
 	end
 
 FiveIsland_ResortGorgeous_House_EventScript_CheckForRequestedMon::
-	copyvar VAR_0x8004, VAR_TEMP_0
-// Replaced VAR_RESORT_GORGEOUS_REQUESTED_MON with VAR_TEMP_0
-// FIXME undefined reference: 	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
+	copyvar VAR_0x8004, VAR_RESORT_GORGEOUS_REQUESTED_MON
+	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
 	goto_if_eq VAR_RESULT, TRUE, FiveIsland_ResortGorgeous_House_EventScript_ShowRequestedMon
 	goto FiveIsland_ResortGorgeous_House_EventScript_RequestMon
 	end
 
 FiveIsland_ResortGorgeous_House_EventScript_ShowRequestedMon::
-// FIXME undefined reference: 	special SampleResortGorgeousMonAndReward
+	special SampleResortGorgeousMonAndReward
 	msgbox FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou
 	addobject LOCALID_RESORT_GORGEOUS_HOUSE_BUTLER
 	applymovement LOCALID_RESORT_GORGEOUS_HOUSE_BUTLER, FiveIsland_ResortGorgeous_House_Movement_ButlerEnter
 	waitmovement 0
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
+	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady
 	applymovement LOCALID_RESORT_GORGEOUS_HOUSE_SELPHY, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
+	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
+	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerNorth
@@ -57,12 +54,10 @@ FiveIsland_ResortGorgeous_House_EventScript_ShowRequestedMon::
 	call_if_eq VAR_FACING, DIR_WEST, FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerWest
 	copyobjectxytoperm LOCALID_RESORT_GORGEOUS_HOUSE_BUTLER
 	msgbox FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks
-	giveitem VAR_TEMP_0
-// Replaced VAR_RESORT_GORGEOUS_REWARD with VAR_TEMP_0
+	giveitem VAR_RESORT_GORGEOUS_REWARD
 	goto_if_eq VAR_RESULT, FALSE, FiveIsland_ResortGorgeous_House_EventScript_NoRoomForReward
 	setflag SHOWN_REQUESTED_MON
-	setvar VAR_TEMP_0, SPECIES_NONE
-// Replaced VAR_RESORT_GORGEOUS_REQUESTED_MON with VAR_TEMP_0
+	setvar VAR_RESORT_GORGEOUS_REQUESTED_MON, SPECIES_NONE
 	release
 	end
 
@@ -95,13 +90,12 @@ FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerWest::
 	return
 
 FiveIsland_ResortGorgeous_House_EventScript_NoRoomForReward::
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_MALE
+	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull
-// FIXME undefined reference: 	textcolor NPC_TEXT_COLOR_FEMALE
+	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing
 	setflag SHOWN_REQUESTED_MON
-	setvar VAR_TEMP_0, SPECIES_NONE
-// Replaced VAR_RESORT_GORGEOUS_REQUESTED_MON with VAR_TEMP_0
+	setvar VAR_RESORT_GORGEOUS_REQUESTED_MON, SPECIES_NONE
 	release
 	end
 
@@ -147,72 +141,3 @@ FiveIsland_ResortGorgeous_House_Movement_ButlerEnter::
 FiveIsland_ResortGorgeous_House_EventScript_Butler::
 	msgbox FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun, MSGBOX_NPC
 	end
-
-FiveIsland_ResortGorgeous_House_Text_PleaseHearMyWish::
-    .string "SELPHY: Oh?\n"
-    .string "Do I know you from somewhere?\p"
-    .string "Oh, but that doesn't matter.\p"
-    .string "I am exquisitely bored.\n"
-    .string "Please, hear my wish.$"
-
-FiveIsland_ResortGorgeous_House_Text_WishToSeeMonPlease::
-    .string "I wish to see a POKéMON.\n"
-    .string "A darling {STR_VAR_1}.\p"
-    .string "I want to see one right away.\n"
-    .string "Please, make my wish come true.$"
-
-FiveIsland_ResortGorgeous_House_Text_OhImTiredOfWaiting::
-    .string "SELPHY: Oh, I'm tired of this.\n"
-    .string "I'm tired of waiting for you.\p"
-    .string "I'll forgive you this time, but\n"
-    .string "please don't fail me next time.$"
-
-FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou::
-    .string "SELPHY: Oh, hello, there.\p"
-    .string "Oh, my gracious. That must be the\n"
-    .string "{STR_VAR_1} you caught for me.\p"
-    .string "Giggle…\n"
-    .string "I see a resemblance to you.\p"
-    .string "Thank you so kindly.\p"
-    .string "… …  … …  … …\n"
-    .string "Is something the matter?\p"
-    .string "You may leave.\p"
-    .string "… …  … …  … …\n"
-    .string "Oh, fine. I understand now.\p"
-    .string "SEBASTIAN!\n"
-    .string "I need you here this instant!$"
-
-FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady::
-    .string "Butler: Yes, my lady.$"
-
-FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation::
-    .string "SELPHY: See to it that this person\n"
-    .string "is given a token of appreciation.$"
-
-FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid::
-    .string "Butler: I shall do as you bid,\n"
-    .string "my lady.$"
-
-FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks::
-    .string "Butler: I sincerely thank you for\n"
-    .string "pleasing Lady SELPHY.\p"
-    .string "Please accept this as her thanks…$"
-
-FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull::
-    .string "Butler: Your BAG appears to be\n"
-    .string "unfortunately full.$"
-
-FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing::
-    .string "Oh…\n"
-    .string "How disappointing.$"
-
-FiveIsland_ResortGorgeous_House_Text_SelphyWishYouBestOfLuck::
-    .string "SELPHY: I wish you the best of\n"
-    .string "luck.$"
-
-FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun::
-    .string "Butler: The smile of Lady SELPHY\n"
-    .string "has the brilliance of the sun.\p"
-    .string "Please, I beg you to bring joy\n"
-    .string "to Lady SELPHY.$"
-

@@ -1,28 +1,7 @@
 mapscripts MauvilleCity_Mart_MapScripts {
 }
 
-script MauvilleCity_Mart_EventScript_Clerk {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart MauvilleCity_Mart_Pokemart
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
-}
-
-script MauvilleCity_Mart_EventScript_ExpertM {
-	msgbox MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats, MSGBOX_NPC
-	end
-
-}
-
-script MauvilleCity_Mart_EventScript_Man {
-	msgbox MauvilleCity_Mart_Text_DecisionsDetermineBattle, MSGBOX_NPC
-	end
+script MauvilleCity_Mart_MapScripts {
 
 }
 

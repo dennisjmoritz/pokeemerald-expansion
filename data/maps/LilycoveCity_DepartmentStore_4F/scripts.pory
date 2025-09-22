@@ -1,48 +1,8 @@
 mapscripts LilycoveCity_DepartmentStore_4F_MapScripts {
 }
 
-script LilycoveCity_DepartmentStore_4F_EventScript_Gentleman {
-	msgbox LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM, MSGBOX_NPC
-	end
+script LilycoveCity_DepartmentStore_4F_MapScripts {
 
-}
-
-script LilycoveCity_DepartmentStore_4F_EventScript_Woman {
-	msgbox LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs, MSGBOX_NPC
-	end
-
-}
-
-script LilycoveCity_DepartmentStore_4F_EventScript_Youngster {
-	msgbox LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves, MSGBOX_NPC
-	end
-
-}
-
-script LilycoveCity_DepartmentStore_4F_EventScript_ClerkLeft {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
-}
-
-script LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
 }
 
 text LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM {

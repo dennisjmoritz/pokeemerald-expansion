@@ -1,15 +1,7 @@
 mapscripts Route5_MapScripts {
 }
 
-script Route5_EventScript_UndergroundPathSign {
-	msgbox Route5_Text_UndergroundPathSign, MSGBOX_SIGN
-	end
-
-}
-
-script Route5_Text_UndergroundPathSign {
-    .string "UNDERGROUND PATH\n"
-    .string "CERULEAN CITY - VERMILION CITY$"
+script Route5_MapScripts {
 
 }
 

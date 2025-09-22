@@ -1,47 +1,7 @@
 mapscripts LilycoveCity_DepartmentStore_3F_MapScripts {
 }
 
-script LilycoveCity_DepartmentStore_3F_EventScript_ClerkLeft {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart LilycoveCity_DepartmentStore_3F_Pokemart_Vitamins
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
-}
-
-script LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
-}
-
-script LilycoveCity_DepartmentStore_3F_EventScript_TriathleteM {
-	msgbox LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon, MSGBOX_NPC
-	end
-
-}
-
-script LilycoveCity_DepartmentStore_3F_EventScript_PokefanM {
-	msgbox LilycoveCity_DepartmentStore_3F_Text_WantMoreEndurance, MSGBOX_NPC
-	end
-
-}
-
-script LilycoveCity_DepartmentStore_3F_EventScript_Woman {
-	msgbox LilycoveCity_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon, MSGBOX_NPC
-	end
+script LilycoveCity_DepartmentStore_3F_MapScripts {
 
 }
 

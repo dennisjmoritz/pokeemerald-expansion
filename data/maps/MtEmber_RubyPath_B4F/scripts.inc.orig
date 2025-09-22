@@ -3,70 +3,70 @@ MtEmber_RubyPath_B4F_MapScripts::
 
 MtEmber_RubyPath_B4F_EventScript_BrailleABC::
 	lockall
-// FIXME undefined reference: 	braillemessage Braille_Text_ABC
+	braillemessage Braille_Text_ABC
 	waitbuttonpress
 	releaseall
 	end
 
 MtEmber_RubyPath_B4F_EventScript_BrailleGHI::
 	lockall
-// FIXME undefined reference: 	braillemessage Braille_Text_GHI
+	braillemessage Braille_Text_GHI
 	waitbuttonpress
 	releaseall
 	end
 
 MtEmber_RubyPath_B4F_EventScript_BrailleMNO::
 	lockall
-// FIXME undefined reference: 	braillemessage Braille_Text_MNO
+	braillemessage Braille_Text_MNO
 	waitbuttonpress
 	releaseall
 	end
 
 MtEmber_RubyPath_B4F_EventScript_BrailleTUV::
 	lockall
-// FIXME undefined reference: 	braillemessage Braille_Text_TUV
+	braillemessage Braille_Text_TUV
 	waitbuttonpress
 	releaseall
 	end
 
 MtEmber_RubyPath_B4F_EventScript_BrailleDEF::
 	lockall
-// FIXME undefined reference: 	braillemessage Braille_Text_DEF
+	braillemessage Braille_Text_DEF
 	waitbuttonpress
 	releaseall
 	end
 
 MtEmber_RubyPath_B4F_EventScript_BrailleJKL::
 	lockall
-// FIXME undefined reference: 	braillemessage Braille_Text_JKL
+	braillemessage Braille_Text_JKL
 	waitbuttonpress
 	releaseall
 	end
 
 MtEmber_RubyPath_B4F_EventScript_BraillePQRS::
 	lockall
-// FIXME undefined reference: 	braillemessage Braille_Text_PQRS
+	braillemessage Braille_Text_PQRS
 	waitbuttonpress
 	releaseall
 	end
 
 MtEmber_RubyPath_B4F_EventScript_BrailleWXYZ::
 	lockall
-// FIXME undefined reference: 	braillemessage Braille_Text_WXYZ
+	braillemessage Braille_Text_WXYZ
 	waitbuttonpress
 	releaseall
 	end
 
 MtEmber_RubyPath_B4F_EventScript_BraillePeriod::
 	lockall
-// FIXME undefined reference: 	braillemessage Braille_Text_Period
+	braillemessage Braille_Text_Period
 	waitbuttonpress
 	releaseall
 	end
 
 MtEmber_RubyPath_B4F_EventScript_BrailleComma::
 	lockall
-// FIXME undefined reference: 	braillemessage Braille_Text_Comma
+	braillemessage Braille_Text_Comma
 	waitbuttonpress
 	releaseall
 	end

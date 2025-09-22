@@ -2,13 +2,13 @@ SixIsland_Mart_MapScripts::
 	.byte 0
 
 SixIsland_Mart_EventScript_Clerk::
-@	goto_if_questlog EventScript_ReleaseEnd
+	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
-// FIXME undefined reference: 	message Text_MayIHelpYou
+	message Text_MayIHelpYou
 	waitmessage
 	pokemart SixIsland_Mart_Items
-// FIXME undefined reference: 	msgbox Text_PleaseComeAgain
+	msgbox Text_PleaseComeAgain
 	release
 	end
 
@@ -29,16 +29,3 @@ SixIsland_Mart_Items::
 SixIsland_Mart_EventScript_Picnicker::
 	msgbox SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter, MSGBOX_NPC
 	end
-
-SixIsland_Mart_Text_AgathaOldestEverEliteFourMember::
-    .string "Play with POKéMON lots and live\n"
-    .string "a long life!\p"
-    .string "Take AGATHA, for example.\p"
-    .string "She set a record for being the\n"
-    .string "oldest-ever ELITE FOUR member.\p"
-    .string "She spurs me to do bigger things.$"
-
-SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter::
-    .string "I should buy some MAIL and write\n"
-    .string "him a letter…$"
-

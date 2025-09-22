@@ -1,43 +1,7 @@
 mapscripts FourIsland_House1_MapScripts {
 }
 
-script FourIsland_House1_EventScript_FatMan {
-	msgbox FourIsland_House1_Text_YoureAwfullyHeavy, MSGBOX_NPC
-	end
-
-@ Text for this file was split weirdly, and is instead in FourIsland_PokemonCenter_1F/text.inc
-@ Theres also an unused JP version of that text in this file instead
-
-}
-
-script JPText_BodySlamTeach {
-//     .string "そーれ　ぼよーん！\n"
-//     .string "どっちが　さきに　へたばるか？\l"
-//     .string "のしかかり　しょうぶ　してるんだ\p"
-//     .string "きみは　なかまに　はいったら\n"
-//     .string "つぶれそうだな‥\l"
-//     .string "かわりに　きみの　ポケモンに\l"
-//     .string "のしかかり　おしえて　やろっか？$"
-
-}
-
-script JPText_BodySlamDeclined {
-//     .string "また　おいで　ぼよーん！$"
-
-}
-
-script JPText_BodySlamWhichMon {
-//     .string "どの　ポケモンに\n"
-    .string "おしえたい　かい？$"
-
-// JPText_BodySlamTaught::
-    .string "ぼよよーん！$"
-
-}
-
-script FourIsland_House1_Text_YoureAwfullyHeavy {
-    .string "There! Boing!\n"
-    .string "You're awfully heavy!$"
+script FourIsland_House1_MapScripts {
 
 }
 

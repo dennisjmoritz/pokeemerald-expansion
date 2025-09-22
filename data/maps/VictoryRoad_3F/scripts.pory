@@ -1,0 +1,9 @@
+mapscripts VictoryRoad_3F_MapScripts {
+    MAP_SCRIPT_ON_LOAD: VictoryRoad_3F_OnLoad
+}
+
+script VictoryRoad_3F_MapScripts {
+	map_script(MAP_SCRIPT_ON_LOAD, VictoryRoad_3F_OnLoad)
+
+}
+

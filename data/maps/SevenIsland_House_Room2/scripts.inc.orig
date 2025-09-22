@@ -15,12 +15,12 @@ SevenIsland_House_Room2_EventScript_BattleVisitingTrainer::
 	lockall
 	applymovement LOCALID_PLAYER, SevenIsland_House_Room2_Movement_PlayerEnterRoom
 	waitmovement 0
-// FIXME undefined reference: 	special BufferEReaderTrainerGreeting
+	special BufferEReaderTrainerGreeting
 	msgbox gStringVar4
 	closemessage
 	setvar VAR_0x8004, 2
 	setvar VAR_0x8005, 0
-// FIXME undefined reference: 	special StartSpecialBattle
+	special StartSpecialBattle
 	waitstate
 	call_if_eq VAR_RESULT, 3, SevenIsland_House_Room2_EventScript_BattleTie
 	call_if_eq VAR_RESULT, 1, SevenIsland_House_Room2_EventScript_BattleWon
@@ -37,22 +37,19 @@ SevenIsland_House_Room2_EventScript_BattleVisitingTrainer::
 	end
 
 SevenIsland_House_Room2_EventScript_BattleTie::
-	setvar VAR_TEMP_0, 3
-// Replaced VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1 with VAR_TEMP_0
+	setvar VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1, 3
 	msgbox SevenIsland_House_Room2_Text_MatchEndedUpDraw
 	return
 
 SevenIsland_House_Room2_EventScript_BattleWon::
-	setvar VAR_TEMP_0, 1
-// Replaced VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1 with VAR_TEMP_0
+	setvar VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1, 1
 	special ShowFieldMessageStringVar4
 	waitmessage
 	waitbuttonpress
 	return
 
 SevenIsland_House_Room2_EventScript_BattleLost::
-	setvar VAR_TEMP_0, 2
-// Replaced VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1 with VAR_TEMP_0
+	setvar VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1, 2
 	special ShowFieldMessageStringVar4
 	waitmessage
 	waitbuttonpress

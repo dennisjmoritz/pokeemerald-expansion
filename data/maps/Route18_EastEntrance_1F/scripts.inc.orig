@@ -3,10 +3,8 @@ Route18_EastEntrance_1F_MapScripts::
 	.byte 0
 
 Route18_EastEntrance_1F_OnTransition::
-	clearflag FLAG_TEMP_1
-// Replaced FLAG_SYS_ON_CYCLING_ROAD with FLAG_TEMP_1
-	call_if_set FLAG_TEMP_1, Route18_EastEntrance_1F_EventScript_DisableNeedBikeTrigger
-// Replaced FLAG_GOT_BICYCLE with FLAG_TEMP_1
+	clearflag FLAG_SYS_ON_CYCLING_ROAD
+	call_if_set FLAG_GOT_BICYCLE, Route18_EastEntrance_1F_EventScript_DisableNeedBikeTrigger
 	end
 
 Route18_EastEntrance_1F_EventScript_DisableNeedBikeTrigger::
@@ -48,6 +46,7 @@ Route18_EastEntrance_1F_EventScript_NeedBikeTriggerBottom::
 	end
 
 Route18_EastEntrance_1F_EventScript_NeedBikeTrigger::
+	textcolor NPC_TEXT_COLOR_MALE
 	msgbox Route18_EastEntrance_1F_Text_ExcuseMe
 	closemessage
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
@@ -109,15 +108,3 @@ Route18_EastEntrance_1F_Movement_WalkUp4::
 Route18_EastEntrance_1F_Movement_WalkRight::
 	walk_right
 	step_end
-
-Route18_EastEntrance_1F_Text_NeedBicycleForCyclingRoad::
-    .string "You need a BICYCLE to go out on\n"
-    .string "CYCLING ROAD!$"
-
-Route18_EastEntrance_1F_Text_CyclingRoadAllUphillFromHere::
-    .string "CYCLING ROAD is all uphill from\n"
-    .string "here.$"
-
-Route18_EastEntrance_1F_Text_ExcuseMe::
-    .string "Excuse me!$"
-

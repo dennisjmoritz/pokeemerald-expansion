@@ -1,28 +1,7 @@
 mapscripts LavaridgeTown_Mart_MapScripts {
 }
 
-script LavaridgeTown_Mart_EventScript_Clerk {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart LavaridgeTown_Mart_Pokemart
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
-}
-
-script LavaridgeTown_Mart_EventScript_ExpertM {
-	msgbox LavaridgeTown_Mart_Text_XSpeedFirstStrike, MSGBOX_NPC
-	end
-
-}
-
-script LavaridgeTown_Mart_EventScript_OldWoman {
-	msgbox LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney, MSGBOX_NPC
-	end
+script LavaridgeTown_Mart_MapScripts {
 
 }
 

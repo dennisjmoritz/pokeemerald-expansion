@@ -1,14 +1,7 @@
 mapscripts CeladonCity_Condominiums_Roof_MapScripts {
 }
 
-script CeladonCity_Condominiums_Roof_EventScript_Sign {
-	msgbox CeladonCity_Condominiums_Roof_Text_IKnowEverything, MSGBOX_SIGN
-	end
-
-}
-
-script CeladonCity_Condominiums_Roof_Text_IKnowEverything {
-    .string "I KNOW EVERYTHING!$"
+script CeladonCity_Condominiums_Roof_MapScripts {
 
 }
 

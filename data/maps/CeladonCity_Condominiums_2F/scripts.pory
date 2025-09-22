@@ -1,14 +1,7 @@
 mapscripts CeladonCity_Condominiums_2F_MapScripts {
 }
 
-script CeladonCity_Condominiums_2F_EventScript_MeetingRoomSign {
-	msgbox CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom, MSGBOX_SIGN
-	end
-
-}
-
-script CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom {
-    .string "GAME FREAK Meeting Room$"
+script CeladonCity_Condominiums_2F_MapScripts {
 
 }
 

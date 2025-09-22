@@ -1,34 +1,7 @@
 mapscripts MossdeepCity_Mart_MapScripts {
 }
 
-script MossdeepCity_Mart_EventScript_Clerk {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart MossdeepCity_Mart_Pokemart
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
-}
-
-script MossdeepCity_Mart_EventScript_Woman {
-	msgbox MossdeepCity_Mart_Text_ReviveIsFantastic, MSGBOX_NPC
-	end
-
-}
-
-script MossdeepCity_Mart_EventScript_Boy {
-	msgbox MossdeepCity_Mart_Text_MaxRepelLastsLongest, MSGBOX_NPC
-	end
-
-}
-
-script MossdeepCity_Mart_EventScript_Sailor {
-	msgbox MossdeepCity_Mart_Text_NetAndDiveBallsRare, MSGBOX_NPC
-	end
+script MossdeepCity_Mart_MapScripts {
 
 }
 

@@ -1,11 +1,8 @@
 mapscripts Route32_PokemonCenter_1F_MapScripts {
 }
 
-script Route32_PokemonCenter_1F_EventScript_Nurse {
-	setvar VAR_0x800B, LOCALID_ROUTE_32_NURSE
-	waitmessage
-	waitbuttonpress
-	release
-	end
+script Route32_PokemonCenter_1F_MapScripts {
+
+
 }
 

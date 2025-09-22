@@ -1,0 +1,7 @@
+GoldenrodCity_RadioTower_3F_MapScripts::
+	.byte 0
+
+
+GoldenrodCity_RadioTower_3F_MapScripts::
+	return
+

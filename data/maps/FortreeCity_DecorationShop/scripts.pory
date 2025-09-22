@@ -1,42 +1,8 @@
 mapscripts FortreeCity_DecorationShop_MapScripts {
 }
 
-script FortreeCity_DecorationShop_EventScript_PokefanM {
-	msgbox FortreeCity_DecorationShop_Text_MerchandiseSentToPC, MSGBOX_NPC
-	end
+script FortreeCity_DecorationShop_MapScripts {
 
-}
-
-script FortreeCity_DecorationShop_EventScript_Girl {
-	msgbox FortreeCity_DecorationShop_Text_BuyingDeskForDolls, MSGBOX_NPC
-	end
-
-}
-
-script FortreeCity_DecorationShop_EventScript_ClerkDesks {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemartdecoration FortreeCity_DecorationShop_PokemartDecor_Desks
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
-}
-
-script FortreeCity_DecorationShop_EventScript_ClerkChairs {
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemartdecoration FortreeCity_DecorationShop_PokemartDecor_Chairs
-// FIXME undefined reference: 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
 }
 
 text FortreeCity_DecorationShop_Text_MerchandiseSentToPC {

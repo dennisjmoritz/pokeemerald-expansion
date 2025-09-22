@@ -1,4 +1,9 @@
 mapscripts CaveOfOrigin_UnusedRubySapphireMap3_MapScripts {
-    CaveOfOrigin_UnusedRubySapphireMap3_OnTransition
+    MAP_SCRIPT_ON_TRANSITION: CaveOfOrigin_UnusedRubySapphireMap3_OnTransition
+}
+
+script CaveOfOrigin_UnusedRubySapphireMap3_MapScripts {
+	map_script(MAP_SCRIPT_ON_TRANSITION, CaveOfOrigin_UnusedRubySapphireMap3_OnTransition)
+
 }
 
