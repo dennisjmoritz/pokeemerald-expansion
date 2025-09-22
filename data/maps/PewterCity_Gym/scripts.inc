@@ -16,7 +16,7 @@ PewterCity_Gym_Text_BrockIntro::
 	.string "knowing that you'll lose?\p"
 	.string "That's the TRAINER's honor that\n"
 	.string "compels you to challenge me.\p"
-	.string "Fine, then! Show me your best!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "Fine, then! Show me your best!{PLAY_BGM}{MUS_RG_GYM}$"
 
 PewterCity_Gym_Text_BrockDefeat::
 # 9 "data/maps/PewterCity_Gym/scripts.pory"

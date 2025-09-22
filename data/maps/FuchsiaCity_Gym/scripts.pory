@@ -3,7 +3,7 @@ mapscripts FuchsiaCity_Gym_MapScripts {
 
 
 text FuchsiaCity_Gym_Text_KogaIntro {
-    format("KOGA: Fwahahaha!\p A mere child like you dares to challenge me?\p The very idea makes me shiver with mirth!\p Very well, I shall show you true terror as a ninja master.\p Poison brings steady doom. Sleep renders foes helpless.\p Despair to the creeping horror of POISON-type POKéMON!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}")
+    format("KOGA: Fwahahaha!\p A mere child like you dares to challenge me?\p The very idea makes me shiver with mirth!\p Very well, I shall show you true terror as a ninja master.\p Poison brings steady doom. Sleep renders foes helpless.\p Despair to the creeping horror of POISON-type POKéMON!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text FuchsiaCity_Gym_Text_KogaDefeat {

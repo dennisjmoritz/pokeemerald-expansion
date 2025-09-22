@@ -3,7 +3,7 @@ mapscripts CeladonCity_Gym_MapScripts {
 
 
 text CeladonCity_Gym_Text_ErikaIntro {
-    format("Hello… Lovely weather, isn't it?\l It's so pleasant…\p …Oh, dear… I must have dozed off. Welcome.\p My name is ERIKA. I am the LEADER of CELADON GYM.\p I am a student of the art of flower arranging.\p My POKéMON are solely of the GRASS type.\p …Oh, I'm sorry, I had no idea that you wished to challenge me.\p Very well, but I shall not lose.{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}")
+    format("Hello… Lovely weather, isn't it?\l It's so pleasant…\p …Oh, dear… I must have dozed off. Welcome.\p My name is ERIKA. I am the LEADER of CELADON GYM.\p I am a student of the art of flower arranging.\p My POKéMON are solely of the GRASS type.\p …Oh, I'm sorry, I had no idea that you wished to challenge me.\p Very well, but I shall not lose.{PLAY_BGM MUS_RG_GYM}")
 }
 
 text CeladonCity_Gym_Text_ErikaDefeat {

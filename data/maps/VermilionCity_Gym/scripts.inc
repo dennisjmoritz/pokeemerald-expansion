@@ -15,7 +15,7 @@ VermilionCity_Gym_Text_LtSurgeIntro::
 	.string "I tell you, kid, electric POKéMON saved\n"
 	.string "me during the war!\p"
 	.string "They zapped my enemies into paralysis!\p"
-	.string "The same as I'll do to you!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "The same as I'll do to you!{PLAY_BGM}{MUS_RG_GYM}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
 # 11 "data/maps/VermilionCity_Gym/scripts.pory"

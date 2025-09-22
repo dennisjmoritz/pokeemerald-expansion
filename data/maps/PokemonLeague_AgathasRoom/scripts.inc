@@ -23,7 +23,7 @@ PokemonLeague_AgathasRoom_Text_Intro::
 	.string "POKéDEX.\p"
 	.string "He's wrong. POKéMON are for battling!\p"
 	.string "{PLAYER}! I'll show you how a real\n"
-	.string "TRAINER battles!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "TRAINER battles!{PLAY_BGM}{MUS_RG_GYM}$"
 
 PokemonLeague_AgathasRoom_Text_RematchIntro::
 # 13 "data/maps/PokemonLeague_AgathasRoom/scripts.pory"
@@ -38,7 +38,7 @@ PokemonLeague_AgathasRoom_Text_RematchIntro::
 	.string "POKéDEX.\p"
 	.string "He's wrong. POKéMON are for battling!\p"
 	.string "{PLAYER}! I'll show you how a real\n"
-	.string "TRAINER battles!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "TRAINER battles!{PLAY_BGM}{MUS_RG_GYM}$"
 
 PokemonLeague_AgathasRoom_Text_Defeat::
 # 17 "data/maps/PokemonLeague_AgathasRoom/scripts.pory"

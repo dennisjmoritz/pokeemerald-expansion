@@ -14,7 +14,7 @@ FuchsiaCity_Gym_Text_KogaIntro::
 	.string "Poison brings steady doom. Sleep\n"
 	.string "renders foes helpless.\p"
 	.string "Despair to the creeping horror of\n"
-	.string "POISON-type POKéMON!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "POISON-type POKéMON!{PLAY_BGM}{MUS_RG_GYM}$"
 
 FuchsiaCity_Gym_Text_KogaDefeat::
 # 9 "data/maps/FuchsiaCity_Gym/scripts.pory"

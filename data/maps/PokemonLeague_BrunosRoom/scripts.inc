@@ -22,7 +22,7 @@ PokemonLeague_BrunosRoom_Text_Intro::
 	.string "{PLAYER}!\p"
 	.string "We will grind you down with our superior\n"
 	.string "power!\p"
-	.string "Hoo hah!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "Hoo hah!{PLAY_BGM}{MUS_RG_GYM}$"
 
 PokemonLeague_BrunosRoom_Text_RematchIntro::
 # 13 "data/maps/PokemonLeague_BrunosRoom/scripts.pory"
@@ -36,7 +36,7 @@ PokemonLeague_BrunosRoom_Text_RematchIntro::
 	.string "{PLAYER}!\p"
 	.string "We will grind you down with our superior\n"
 	.string "power!\p"
-	.string "Hoo hah!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "Hoo hah!{PLAY_BGM}{MUS_RG_GYM}$"
 
 PokemonLeague_BrunosRoom_Text_Defeat::
 # 17 "data/maps/PokemonLeague_BrunosRoom/scripts.pory"

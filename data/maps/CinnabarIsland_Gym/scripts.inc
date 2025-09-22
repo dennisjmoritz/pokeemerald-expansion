@@ -12,7 +12,7 @@ CinnabarIsland_Gym_Text_BlaineIntro::
 	.string "My fiery POKéMON are all rough and\n"
 	.string "ready with intense heat!\p"
 	.string "They incinerate all challengers!\p"
-	.string "Hah! You better have BURN HEAL!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "Hah! You better have BURN HEAL!{PLAY_BGM}{MUS_RG_GYM}$"
 
 CinnabarIsland_Gym_Text_BlaineDefeat::
 # 10 "data/maps/CinnabarIsland_Gym/scripts.pory"

@@ -21,7 +21,7 @@ PokemonLeague_LoreleisRoom_Text_Intro::
 	.string "Freezing moves are powerful.\p"
 	.string "Your POKéMON will be at my mercy when\n"
 	.string "they are frozen solid.\p"
-	.string "Hahaha! Are you ready?{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "Hahaha! Are you ready?{PLAY_BGM}{MUS_RG_GYM}$"
 
 PokemonLeague_LoreleisRoom_Text_RematchIntro::
 # 14 "data/maps/PokemonLeague_LoreleisRoom/scripts.pory"
@@ -34,7 +34,7 @@ PokemonLeague_LoreleisRoom_Text_RematchIntro::
 	.string "Freezing moves are powerful.\p"
 	.string "Your POKéMON will be at my mercy when\n"
 	.string "they are frozen solid.\p"
-	.string "Hahaha! Are you ready?{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "Hahaha! Are you ready?{PLAY_BGM}{MUS_RG_GYM}$"
 
 PokemonLeague_LoreleisRoom_Text_Defeat::
 # 18 "data/maps/PokemonLeague_LoreleisRoom/scripts.pory"

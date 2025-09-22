@@ -24,7 +24,7 @@ PokemonLeague_LancesRoom_Text_Intro::
 	.string "There's no being clever with them.\p"
 	.string "Well, are you ready to lose?\p"
 	.string "Your LEAGUE challenge ends with me,\n"
-	.string "{PLAYER}!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "{PLAYER}!{PLAY_BGM}{MUS_RG_GYM}$"
 
 PokemonLeague_LancesRoom_Text_RematchIntro::
 # 13 "data/maps/PokemonLeague_LancesRoom/scripts.pory"
@@ -40,7 +40,7 @@ PokemonLeague_LancesRoom_Text_RematchIntro::
 	.string "There's no being clever with them.\p"
 	.string "Well, are you ready to lose?\p"
 	.string "Your LEAGUE challenge ends with me,\n"
-	.string "{PLAYER}!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "{PLAYER}!{PLAY_BGM}{MUS_RG_GYM}$"
 
 PokemonLeague_LancesRoom_Text_Defeat::
 # 17 "data/maps/PokemonLeague_LancesRoom/scripts.pory"

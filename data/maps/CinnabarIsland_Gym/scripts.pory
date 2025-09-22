@@ -4,7 +4,7 @@ mapscripts CinnabarIsland_Gym_MapScripts {
 
 
 text CinnabarIsland_Gym_Text_BlaineIntro {
-    format("Hah!\p I am BLAINE, the red-hot LEADER of CINNABAR GYM!\p My fiery POKéMON are all rough and ready with intense heat!\p They incinerate all challengers!\p Hah! You better have BURN HEAL!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}")
+    format("Hah!\p I am BLAINE, the red-hot LEADER of CINNABAR GYM!\p My fiery POKéMON are all rough and ready with intense heat!\p They incinerate all challengers!\p Hah! You better have BURN HEAL!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text CinnabarIsland_Gym_Text_BlaineDefeat {

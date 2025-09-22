@@ -10,7 +10,7 @@ CeruleanCity_Gym_Text_MistyIntro::
 	.string "What is your approach when you catch\n"
 	.string "and train POKéMON?\p"
 	.string "My policy is an all-out offensive with\n"
-	.string "WATER-type POKéMON!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "WATER-type POKéMON!{PLAY_BGM}{MUS_RG_GYM}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::
 # 9 "data/maps/CeruleanCity_Gym/scripts.pory"

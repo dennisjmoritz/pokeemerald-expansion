@@ -3,7 +3,7 @@ mapscripts SaffronCity_Gym_MapScripts {
 
 
 text SaffronCity_Gym_Text_SabrinaIntro {
-    format("I had a vision of your arrival.\p I have had psychic powers since I was a child.\p It started when a spoon I carelessly tossed, bent.\p I dislike battling, but if you wish, I will show you my powers!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}")
+    format("I had a vision of your arrival.\p I have had psychic powers since I was a child.\p It started when a spoon I carelessly tossed, bent.\p I dislike battling, but if you wish, I will show you my powers!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text SaffronCity_Gym_Text_SabrinaDefeat {

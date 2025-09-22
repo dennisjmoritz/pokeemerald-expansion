@@ -3,7 +3,7 @@ mapscripts CeruleanCity_Gym_MapScripts {
 
 
 text CeruleanCity_Gym_Text_MistyIntro {
-    format("Hi, you're a new face!\p Only those TRAINERS who have a policy about POKéMON can turn pro.\p What is your approach when you catch and train POKéMON?\p My policy is an all-out offensive with WATER-type POKéMON!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}")
+    format("Hi, you're a new face!\p Only those TRAINERS who have a policy about POKéMON can turn pro.\p What is your approach when you catch and train POKéMON?\p My policy is an all-out offensive with WATER-type POKéMON!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text CeruleanCity_Gym_Text_ExplainTM03 {

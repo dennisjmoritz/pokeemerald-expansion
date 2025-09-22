@@ -7,11 +7,11 @@ mapscripts PokemonLeague_BrunosRoom_MapScripts {
 
 
 text PokemonLeague_BrunosRoom_Text_Intro {
-    format("I am BRUNO of the ELITE FOUR!\p Through rigorous training, people and POKéMON can become stronger\l without limit.\p I've lived and trained with my fighting POKéMON!\l And that will never change!\p {PLAYER}!\p We will grind you down with our superior power!\p Hoo hah!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}")
+    format("I am BRUNO of the ELITE FOUR!\p Through rigorous training, people and POKéMON can become stronger\l without limit.\p I've lived and trained with my fighting POKéMON!\l And that will never change!\p {PLAYER}!\p We will grind you down with our superior power!\p Hoo hah!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text PokemonLeague_BrunosRoom_Text_RematchIntro {
-    format("I am BRUNO of the ELITE FOUR!\p Through rigorous training, people and POKéMON can become stronger\l without limit.\p I've lived and trained with my fighting POKéMON!\l And that will never change!\p {PLAYER}!\p We will grind you down with our superior power!\p Hoo hah!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}")
+    format("I am BRUNO of the ELITE FOUR!\p Through rigorous training, people and POKéMON can become stronger\l without limit.\p I've lived and trained with my fighting POKéMON!\l And that will never change!\p {PLAYER}!\p We will grind you down with our superior power!\p Hoo hah!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text PokemonLeague_BrunosRoom_Text_Defeat {

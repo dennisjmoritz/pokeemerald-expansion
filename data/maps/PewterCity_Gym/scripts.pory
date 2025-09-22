@@ -3,7 +3,7 @@ mapscripts PewterCity_Gym_MapScripts {
 
 
 text PewterCity_Gym_Text_BrockIntro {
-    format("So, you're here. I'm BROCK. I'm PEWTER's GYM LEADER.\p My rock-hard willpower is evident even in my POKéMON.\p My POKéMON are all rock hard, and have true-grit determination.\p That's right - my POKéMON are all the ROCK type!\p Fuhaha! You're going to challenge me knowing that you'll lose?\p That's the TRAINER's honor that compels you to challenge me.\p Fine, then! Show me your best!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}")
+    format("So, you're here. I'm BROCK. I'm PEWTER's GYM LEADER.\p My rock-hard willpower is evident even in my POKéMON.\p My POKéMON are all rock hard, and have true-grit determination.\p That's right - my POKéMON are all the ROCK type!\p Fuhaha! You're going to challenge me knowing that you'll lose?\p That's the TRAINER's honor that compels you to challenge me.\p Fine, then! Show me your best!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text PewterCity_Gym_Text_BrockDefeat {

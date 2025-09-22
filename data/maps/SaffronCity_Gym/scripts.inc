@@ -10,7 +10,7 @@ SaffronCity_Gym_Text_SabrinaIntro::
 	.string "It started when a spoon I carelessly\n"
 	.string "tossed, bent.\p"
 	.string "I dislike battling, but if you wish, I will\n"
-	.string "show you my powers!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "show you my powers!{PLAY_BGM}{MUS_RG_GYM}$"
 
 SaffronCity_Gym_Text_SabrinaDefeat::
 # 9 "data/maps/SaffronCity_Gym/scripts.pory"

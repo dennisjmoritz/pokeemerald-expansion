@@ -16,7 +16,7 @@ CeladonCity_Gym_Text_ErikaIntro::
 	.string "type.\p"
 	.string "…Oh, I'm sorry, I had no idea that you\n"
 	.string "wished to challenge me.\p"
-	.string "Very well, but I shall not lose.{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}$"
+	.string "Very well, but I shall not lose.{PLAY_BGM MUS_RG_GYM}$"
 
 CeladonCity_Gym_Text_ErikaDefeat::
 # 9 "data/maps/CeladonCity_Gym/scripts.pory"
