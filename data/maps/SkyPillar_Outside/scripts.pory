@@ -1,1 +1,4 @@
-mapscripts SkyPillar_Outside_MapScripts {}
+text SkyPillar_Outside_EventScript_ClosedDoor {
+    format("The door is closed.$ WALLACE: Oh, my, I'm terribly sorry!\p In my haste, I didn't notice that I'd left you behind!\p I've opened the locked door of the SKY PILLAR.\p {PLAYER}{KUN}, let's be on our way!$ WALLACE: It's an earthquake!\p There's not a moment to waste! We've got to hurry!$ WALLACE: Hmm… The situation is getting worse…$ WALLACE: This isn't good…\p The weather distortion is spreading even here…\p {PLAYER}{KUN}.\p RAYQUAZA should be farther up from here.\p I'm worried about SOOTOPOLIS. I've got to go back.\p Everything is in your hands now. Don't fail us!")
+}
+

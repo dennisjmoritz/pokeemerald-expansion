@@ -1,1 +1,34 @@
-mapscripts SevenIsland_MapScripts {}
+text Text_SwordsDanceTeach {
+    format("Not many people come out here.\p If I train here, I'm convinced that I'll get stronger and stronger.\p Yep, stronger and stronger…\p How would you like to learn a move like that? It's SWORDS DANCE.")
+}
+
+text Text_SwordsDanceDeclined {
+    format("Well, that's fine, too.")
+}
+
+text Text_SwordsDanceWhichMon {
+    format("All right, pick which POKéMON I should teach it to.")
+}
+
+text Text_SwordsDanceTaught {
+    format("If only we could keep getting stronger and stronger, eh?")
+}
+
+text SevenIsland_Text_IslandSign {
+    format("SEVEN ISLAND Quest Island of Infinity")
+}
+
+text SevenIsland_Text_IslandsMadeInSevenDays {
+    format("These islands are called the SEVII ISLANDS because there are seven.\p …Or at least that's what the young people believe.\p The truth is, these islands are so named because they are said to\l have been made in seven days.")
+}
+
+text SevenIsland_Text_IslandVirtuallyUntouched {
+    format("This island has been left virtually untouched in its natural state.\p It could be a little difficult to hike around because of that.")
+}
+
+script SevenIsland_EventScript_IslandSign {
+    lockall
+    msgbox(SevenIsland_Text_IslandSign)
+    releaseall
+}
+

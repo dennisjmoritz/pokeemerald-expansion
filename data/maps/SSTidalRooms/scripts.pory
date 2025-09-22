@@ -1,1 +1,18 @@
-mapscripts SSTidalRooms_MapScripts {}
+text SSTidalRooms_EventScript_Naomi {
+    format("There's a bed… Let's take a rest.$ I often sail to LILYCOVE CITY.\p I enjoy attending CONTESTS, you see.$ That was an enjoyable match!$ I get so excited imagining what kinds of POKéMON I'll get to see in the next\l CONTEST. The anticipation of it thrills!$ Are your friends strong?$ Your friends are, indeed, strong.$ Friends need not be human. For me, POKéMON are treasured friends!$ Child… Did you knock on the door?$ A loss is to be accepted without haste or panic.$ To be never ruffled in any situation is the GENTLEMAN's code of conduct.$ JED: I feel a little shy about this, but… We'll show you our lovey-dovey power!$ JED: Sigh…$ JED: It's the first time that our lovey- dovey power couldn't prevail!\l You must be an awesome TRAINER!$ JED: You only have one POKéMON? Isn't that just too lonesome?$ LEA: I feel a little silly, but… We'll show you our lovey-dovey power!$ LEA: Oh, boo!$ LEA: I can't believe it! Our lovey-dovey power failed…\l You must be an awesome TRAINER!$ LEA: I wanted to battle… But you don't even have two POKéMON…$ Ah, you've come just in time.\p I'm bored, you see. You may entertain me.$ …That will do.$ Perhaps I shall get Father to acquire a yacht for me.\l A yacht for me and POKéMON!$ Oh, you're such an adorable TRAINER. Would you like to have tea?\l Or would you rather battle?$ I see. You're the active sort.$ A world cruise on a luxury liner has its charms, I must say…\p But, I will admit there is an appealing side to touring HOENN by ferry.$ Uh… Hi! I… I'm not acting suspicious! Uh… You can have this! For free!\p It… Honestly, I didn't SNATCH it from someone! I'd never do such a thing!\l It's clean! You can use it!$ SNATCH steals the beneficial effects of certain moves before they can be\l used by a foe or ally.")
+}
+
+script SSTidalRooms_EventScript_Bed {
+    // Also calls: call Common_EventScript_OutOfCenterPartyHeal, call SSTidalRooms_EventScript_ProgessCruiseAfterBed
+    lockall
+    msgbox(SSTidalRooms_Text_TakeRestOnBed)
+    releaseall
+}
+
+script SSTidalRooms_EventScript_Bed {
+    // Also calls: call Common_EventScript_OutOfCenterPartyHeal, call SSTidalRooms_EventScript_ProgessCruiseAfterBed
+    lockall
+    msgbox(SSTidalRooms_Text_TakeRestOnBed)
+    releaseall
+}
+

@@ -1,1 +1,4 @@
-mapscripts SlateportCity_SternsShipyard_2F_MapScripts {}
+text SlateportCity_SternsShipyard_2F_EventScript_Scientist2 {
+    format("Designing a large ship is more like making a big building than putting\l together a transportation vehicle.$ Don't you think it's strange that a ship made of heavy iron floats?\p It floats because of a principle called buoyancy.")
+}
+

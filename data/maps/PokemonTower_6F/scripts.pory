@@ -1,1 +1,48 @@
-mapscripts PokemonTower_6F_MapScripts {}
+text PokemonTower_6F_Text_AngelicaIntro {
+    format("Give…me… blood…")
+}
+
+text PokemonTower_6F_Text_AngelicaDefeat {
+    format("Groan!")
+}
+
+text PokemonTower_6F_Text_AngelicaPostBattle {
+    format("I feel anemic and weak…")
+}
+
+text PokemonTower_6F_Text_EmiliaIntro {
+    format("Urff… Kwaah!")
+}
+
+text PokemonTower_6F_Text_EmiliaDefeat {
+    format("Something fell out!")
+}
+
+text PokemonTower_6F_Text_EmiliaPostBattle {
+    format("My hair didn't fall out! It was a malevolent spirit!")
+}
+
+text PokemonTower_6F_Text_JenniferIntro {
+    format("Ke…ke…ke… ke…ke…ke!")
+}
+
+text PokemonTower_6F_Text_JenniferDefeat {
+    format("Keee!")
+}
+
+text PokemonTower_6F_Text_JenniferPostBattle {
+    format("What's going on here?")
+}
+
+text PokemonTower_6F_Text_BeGoneIntruders {
+    format("Be gone… Intruders…")
+}
+
+text PokemonTower_6F_Text_GhostWasCubonesMother {
+    format("The ghost was the restless spirit of CUBONE's mother!")
+}
+
+text PokemonTower_6F_Text_MothersSpiritWasCalmed {
+    format("The mother's spirit was calmed.\p It departed to the afterlife…")
+}
+

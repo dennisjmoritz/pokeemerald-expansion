@@ -1,1 +1,4 @@
-mapscripts Route114_FossilManiacsTunnel_MapScripts {}
+text Route114_FossilManiacsTunnel_EventScript_PlayerRevivedFossil {
+    format("I'm the FOSSIL MANIAC… I'm a nice guy who loves FOSSILS…\p Do you want a FOSSIL?\p But the FOSSILS around these parts all belong to me… None for you…\p If you can't bear to go without a FOSSIL, look in a desert where there\l are boulders and sand that may hide\l FOSSILS…$ You found a FOSSIL, didn't you? That's so nice… It's so dreamy…\p What are you going to do with that FOSSIL?\p From what I've heard, DEVON is doing research on reviving POKéMON from\l FOSSILS…\p I love my FOSSILS, so I would never do anything like that…$ FOSSILS are so… Wonderful… It's so dreamy…$ Oh… It's not safe that way…\p I was digging away, you see… When the whole wall collapsed…\p I think there's a giant cavern underneath now…\p But I've left it alone because I don't think there are any FOSSILS there…")
+}
+

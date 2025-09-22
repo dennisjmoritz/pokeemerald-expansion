@@ -1,1 +1,8 @@
-mapscripts DesertUnderpass_MapScripts {}
+text DesertUnderpass_Text_FoundRootFossil {
+    format("{PLAYER} found the ROOT FOSSIL.")
+}
+
+text DesertUnderpass_Text_FoundClawFossil {
+    format("{PLAYER} found the CLAW FOSSIL.")
+}
+

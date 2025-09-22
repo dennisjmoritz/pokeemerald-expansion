@@ -1,1 +1,6 @@
-mapscripts Underwater_SealedChamber_MapScripts {}
+script Underwater_SealedChamber_EventScript_Braille {
+    lockall
+    msgbox(Underwater_SealedChamber_Braille_GoUpHere)
+    releaseall
+}
+

@@ -1,1 +1,16 @@
-mapscripts Route109_MapScripts {}
+text Route109_EventScript_Elijah {
+    format("MR. BRINEY: Ahoy! We've made land in SLATEPORT!\p I suppose you're going to visit CAPT. STERN and deliver the DEVON GOODS?$ MR. BRINEY: I thought you're supposed to deliver the DEVON GOODS.\p Would you like to sail back to DEWFORD, then?$ MR. BRINEY: DEWFORD it is, then!\p Anchors aweigh! PEEKO, we're setting sail, my darling!$ MR. BRINEY: Then you go on and deliver the DEVON GOODS. I'll be waiting.$ MR. BRINEY: Ahoy! We've made land in SLATEPORT!\p You just go on and tell me whenever you want to set sail again!$ MR. BRINEY: Ahoy! For you, I'll go out to sea anytime!\p Now, my friend, where are we bound?$ MR. BRINEY: You just tell me whenever you need to set sail again!$ Yo, TRAINERS! Whether you're hot to trot,\l or cool cat not,\l chill at my papa's spot!$ Little kids can dart around so quickly…\p You don't dare take your eyes off them for an instant. It's very taxing.\p Mine are with my POKéMON, so they should be okay, but…$ Our sand castle's taking a long time to make.$ You can have this!$ We're going to get all the sand from the beach and make a big castle!\p And then we're going to be a king and queen.\p We'll let you be a servant.$ The water around these parts is clean.\p But, I get my ZIGZAGOON to pick up litter from the shoreline at times.\p Dirty water becomes rain and joins our rivers, which we drink from…\p If we pollute the sea, it all comes back to haunt us eventually.$ ZIGZAGOON: Guguu?$ SEASHORE HOUSE\p “May hot battles rage on hot sands! The place for hot TRAINERS!”$ TRAINER TIPS\p POKéMON at the same level may not always have identical stats.\p POKéMON raised by TRAINERS are said to grow stronger than wild POKéMON.")
+}
+
+script Route109_EventScript_SeashoreHouseSign {
+    lockall
+    msgbox(Route109_Text_SeashoreHouseSign)
+    releaseall
+}
+
+script Route109_EventScript_TrainerTipsSign {
+    lockall
+    msgbox(Route109_Text_TrainerTipsSign)
+    releaseall
+}
+

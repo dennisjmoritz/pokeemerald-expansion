@@ -1,1 +1,28 @@
-mapscripts MauvilleCity_MapScripts {}
+text MauvilleCity_EventScript_RegisterWallyCall {
+    format("UNCLE: It's because of POKéMON that this boy's got more pep, I suppose…\l But he's become a bit too peppy…$ WALLY: Aww, UNCLE, please?\p I want to challenge this GYM and see how much better I've become.\p Please? May I, please?$ UNCLE: Now hold on, WALLY.\p Since you started living with POKéMON, you have grown quite a lot stronger.\p But don't you think you're pushing it to suddenly challenge a GYM?$ WALLY: I'm not pushing it.\p If I combine forces with RALTS, we can beat anyone!$ WALLY: Oh! Hi, {PLAYER}!\p I've gotten a lot stronger since we met.\p {PLAYER}, I want you and my UNCLE to understand that.\p {PLAYER}, please, will you have a battle with me?$ WALLY: Oh… If you won't battle me, {PLAYER}, my UNCLE won't know that I've\l become really strong.$ UNCLE: {PLAYER}{KUN}, was it? On WALLY's behalf, can I ask you to\l battle with him just this once?\p I don't think he's going to listen to any reason the way he is now.$ WALLY: {PLAYER}, please! Battle with me, please.$ WALLY: {PLAYER}, thank you.\p Okay… Here I come!$ WALLY: … … … … … … …\p … … … … … … … …\p I lost…$ WALLY: UNCLE… I'll go back to VERDANTURF…$ {PLAYER}, thank you. Being a TRAINER is tough, isn't it?\p It's not enough just to have POKéMON and make them battle. That isn't what\l being a real TRAINER is about.$ UNCLE: WALLY, there's no need to be so down on yourself.\p Why, what's keeping you from becoming stronger and stronger?\p Come on, let's go home. Everyone's waiting for you.$ UNCLE: {PLAYER}{KUN}, it just dawned on me that you must be the TRAINER who kept\l an eye out for WALLY when he caught\l his POKéMON.\p Why don't you visit us in VERDANTURF sometime?\l I'm sure WALLY would enjoy it.$ … … … … … … … … … … … Beep!\p WALLY: Oh, hello, {PLAYER}!\p I just wanted to tell you that my uncle bought me a POKéNAV!\p Now I can get in touch with you anytime, {PLAYER}!\p … … … … … … … … … … … Click!$ Registered WALLY in the POKéNAV.$ SCOTT: Hehe… I was watching that match!\p You're friends with that boy WALLY, aren't you?\p But you didn't hold anything back and beat him impressively.\p Yeah! That's what a real POKéMON battle is all about!\p I idolize TRAINERS like that!\p … … … … … … I'll be cheering for you!$ WATTSON: Oh, {PLAYER}{KUN}! You look like you have a lot of zip!\l That's a good thing, wahahahaha!\p Fine! I've decided! I need a favor, {PLAYER}{KUN}!\p MAUVILLE CITY has an underground sector called NEW MAUVILLE.\p {PLAYER}{KUN}, I'd like you to go there and switch off the GENERATOR.\p The GENERATOR has been running a bit haywire. It's getting unsafe.\p Here, this is the KEY to get into NEW MAUVILLE.$ WATTSON: Don't you worry about it. It won't be a challenge to you.\p The entrance to NEW MAUVILLE is just a short SURF away from ROUTE 110.\p That's it, then, you have my trust! Wahahahaha!$ WATTSON: Wahahahaha!\p I knew it, {PLAYER}{KUN}! I knew I'd made the right choice asking you!\p This is my thanks--a TM containing THUNDERBOLT!\p Go on, you've earned it!$ WATTSON: Wahahahaha!\p It pleases me to no end to see the young step up and take charge!$ You know, it's cool to have POKéMON battles and stuff…\p But if your POKéMON gets hurt, you have to nurse it back to health.$ The roads of this town stretch north and south, and east and west.\p Because of that, we get all sorts of people coming through.$ Have you been to RYDEL'S CYCLES yet?\p RYDEL, the owner, is a very generous man.$ Even if you're riding a BIKE, wild POKéMON could jump you.$ MAUVILLE CITY “The bright and shiny city of fun!”$ MAUVILLE CITY POKéMON GYM LEADER: WATTSON\l “The cheerfully electrifying man!”$ “Ride in gravel and shake up your soul!”\l RYDEL'S CYCLES$ “The play spot for all!” MAUVILLE GAME CORNER$ Hi, do you check out TV at all?\p They've added a bunch of cool new shows recently.\p TV is so cool. I've seen my friends on TV just out of the blue.\p And, sometimes, they even put you on TV without telling you.\p I wish I would be on TV sometime.\p That's why I think you should check out TVs whenever you can.$ Hi, have you been checking out TVs?")
+}
+
+script MauvilleCity_EventScript_GymSign {
+    lockall
+    msgbox(MauvilleCity_Text_GymSign)
+    releaseall
+}
+
+script MauvilleCity_EventScript_CitySign {
+    lockall
+    msgbox(MauvilleCity_Text_CitySign)
+    releaseall
+}
+
+script MauvilleCity_EventScript_BikeShopSign {
+    lockall
+    msgbox(MauvilleCity_Text_BikeShopSign)
+    releaseall
+}
+
+script MauvilleCity_EventScript_GameCornerSign {
+    lockall
+    msgbox(MauvilleCity_Text_GameCornerSign)
+    releaseall
+}
+

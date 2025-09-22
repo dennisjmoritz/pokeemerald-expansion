@@ -1,1 +1,90 @@
-mapscripts SevenIsland_SevaultCanyon_Entrance_MapScripts {}
+text SevenIsland_SevaultCanyon_Entrance_Text_MiahIntro {
+    format("Kyahaha! I'll flick you away effortlessly!")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_MiahDefeat {
+    format("Tch! Too strong for me!")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_MiahPostBattle {
+    format("What's that? I don't act the way I look?\p Heh, that's a part of my strategy!")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_MasonIntro {
+    format("Howdy! Are you a member of my fan club?")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_MasonDefeat {
+    format("Oh, so you're not a fan…\p Well, I can change that. Let me sing for you!")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_MasonPostBattle {
+    format("Lalalah… My POKéMON, I send them out,\l all the girls scream and shout!")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_NicolasIntro {
+    format("This island is too spread out… It's not easy patrolling the place.")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_NicolasDefeat {
+    format("Uh-huh…")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle {
+    format("TRAINERS like you from cities, they sure are tough.\p You'll be headed for the TOWER, won't you?")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_MadelineIntro {
+    format("I punish people who abuse POKéMON!")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat {
+    format("You don't seem to be a problem TRAINER.")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_MadelinePostBattle {
+    format("If you treat your POKéMON with kindness, they'll understand.")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_EveIntro {
+    format("EVE: I'll team up with JON and battle together.")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_EveDefeat {
+    format("EVE: Me and JON, we lost. Ehehe.")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_EvePostBattle {
+    format("EVE: I'm going to work harder with JON.")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_EveNotEnoughMons {
+    format("EVE: I want to team up with JON when I battle you.\p Come back with two POKéMON, okay?")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_JonIntro {
+    format("JON: When I'm with EVE, it feels like we could never lose.")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_JonDefeat {
+    format("JON: When I'm with EVE, it doesn't feel like I've lost!")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_JonPostBattle {
+    format("JON: When I'm with EVE, I feel giddy whether I win or lose.\p It's magical!")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_JonNotEnoughMons {
+    format("JON: If it's with EVE, I'll be happy to battle with you.\p So, I'd like to make it a two-on-two battle, if I may.")
+}
+
+text SevenIsland_SevaultCanyon_Entrance_Text_RouteSign {
+    format("SEVAULT CANYON ENTRANCE\p TRAINERS are asked to refrain from damaging plants in the CANYON.")
+}
+
+script SevenIsland_SevaultCanyon_Entrance_EventScript_RouteSign {
+    lockall
+    msgbox(SevenIsland_SevaultCanyon_Entrance_Text_RouteSign)
+    releaseall
+}
+

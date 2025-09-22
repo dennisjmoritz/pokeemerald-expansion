@@ -1,1 +1,4 @@
-mapscripts EverGrandeCity_PhoebesRoom_MapScripts {}
+text EverGrandeCity_PhoebesRoom_EventScript_Defeated {
+    format("Ahahaha!\p I'm PHOEBE of the ELITE FOUR. I did my training on MT. PYRE.\p While I trained, I gained the ability to commune with GHOST-type POKéMON.\p Yes, the bond I developed with POKéMON is extremely tight.\p So, come on, just try and see if you can even inflict damage on my POKéMON!$ Oh, darn. I've gone and lost.$ There's a definite bond between you and your POKéMON, too.\p I didn't recognize it, so it's only natural that I lost.\p Yup, I'd like to see how far your bond will carry you.\p Go ahead, move on to the next room.")
+}
+

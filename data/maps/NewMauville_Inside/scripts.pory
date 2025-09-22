@@ -1,1 +1,52 @@
-mapscripts NewMauville_Inside_MapScripts {}
+text NewMauville_Inside_EventScript_DefeatedVoltorb3 {
+    format("The generator is radiating heat that can be felt even at a distance.\p It looks like it should be turned off as soon as possible.$ The generator quieted down.$ {PLAYER} stepped on the switch.\p Click…\p … … … … … … … … … … … … … … … …\p The generator appears to have stopped…")
+}
+
+script NewMauville_Inside_EventScript_Generator {
+    lockall
+    msgbox(NewMauville_Inside_Text_GeneratorRadiatingHeat)
+    releaseall
+}
+
+script NewMauville_Inside_EventScript_Generator {
+    lockall
+    msgbox(NewMauville_Inside_Text_GeneratorRadiatingHeat)
+    releaseall
+}
+
+script NewMauville_Inside_EventScript_Generator {
+    lockall
+    msgbox(NewMauville_Inside_Text_GeneratorRadiatingHeat)
+    releaseall
+}
+
+script NewMauville_Inside_EventScript_Generator {
+    lockall
+    msgbox(NewMauville_Inside_Text_GeneratorRadiatingHeat)
+    releaseall
+}
+
+script NewMauville_Inside_EventScript_Generator {
+    lockall
+    msgbox(NewMauville_Inside_Text_GeneratorRadiatingHeat)
+    releaseall
+}
+
+script NewMauville_Inside_EventScript_Generator {
+    lockall
+    msgbox(NewMauville_Inside_Text_GeneratorRadiatingHeat)
+    releaseall
+}
+
+script NewMauville_Inside_EventScript_Generator {
+    lockall
+    msgbox(NewMauville_Inside_Text_GeneratorRadiatingHeat)
+    releaseall
+}
+
+script NewMauville_Inside_EventScript_Generator {
+    lockall
+    msgbox(NewMauville_Inside_Text_GeneratorRadiatingHeat)
+    releaseall
+}
+

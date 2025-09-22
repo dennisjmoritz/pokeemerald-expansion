@@ -1,1 +1,164 @@
-mapscripts BattleFrontier_Lounge3_MapScripts {}
+text BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere {
+    format("…What's that you want?\p Can't you see we're kind of busy here? Can't your business wait till later?")
+}
+
+text BattleFrontier_Lounge3_Text_YouLookToughExplainGambling {
+    format("…Huh? You look to me like a tough TRAINER.\p Heheh… Listen, I have this proposition.\p We have a little group going here, and we play a little game with what\l goes on in the BATTLE FRONTIER.\p The rules are really simple.\p First, we pick one of the facilities in the BATTLE FRONTIER.\p Then, we each pick a different TRAINER who's taking that facility's challenge,\l and bet with our Battle Points.\p The guy who bet on the TRAINER with the best record takes all the Battle\l Points in the pool.\p Sounds simple, huh? So, anyway…")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle {
+    format("What I'm looking for is a TRAINER who's going to be challenging the BATTLE\l TOWER's SINGLE BATTLE ROOMS.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble {
+    format("What I'm looking for is a TRAINER who's going to be challenging the BATTLE\l TOWER's DOUBLE BATTLE ROOMS.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti {
+    format("What I'm looking for is a TRAINER who's going to be challenging the BATTLE\l TOWER's MULTI BATTLE ROOMS.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattleDomeSingle {
+    format("What I'm looking for is a TRAINER who's going to be entering the BATTLE\l DOME's SINGLE BATTLE Tourney.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble {
+    format("What I'm looking for is a TRAINER who's going to be entering the BATTLE\l DOME's DOUBLE BATTLE Tourney.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle {
+    format("What I'm looking for is a TRAINER who's going to be entering the BATTLE\l FACTORY's Battle Swap Single Tourney.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble {
+    format("What I'm looking for is a TRAINER who's going to be entering the BATTLE\l FACTORY's Battle Swap Double Tourney.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattlePalaceSingle {
+    format("What I'm looking for is a TRAINER who's going to be challenging the BATTLE\l PALACE's SINGLE BATTLE HALLS.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattlePalaceDouble {
+    format("What I'm looking for is a TRAINER who's going to be challenging the BATTLE\l PALACE's DOUBLE BATTLE HALLS.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattleArena {
+    format("What I'm looking for is a TRAINER who's going to be entering the BATTLE\l ARENA's Set KO Tourney.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattlePike {
+    format("What I'm looking for is a TRAINER who's going to be entering the BATTLE PIKE's\l Battle Choice.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_ChallengeBattlePyramid {
+    format("What I'm looking for is a TRAINER who's going to be entering the BATTLE\l PYRAMID's Battle Quest.\p But so far, I haven't seen a TRAINER that has that winning quality.")
+}
+
+text BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe {
+    format("I'll see to it that you benefit, too. So how about it?\l How about entering that event for me?")
+}
+
+text BattleFrontier_Lounge3_Text_SpotMeSomeBattlePoints {
+    format("All right, that's perfect. So, uh… How about spotting me some\l of your Battle Points?\p Trust me, I'll show you my gratitude afterward.")
+}
+
+text BattleFrontier_Lounge3_Text_HowMuchCanYouSpot {
+    format("Great, great! So, how much can you spot me?")
+}
+
+text BattleFrontier_Lounge3_Text_YouDontHaveEnoughPoints {
+    format("Oh, no, no, no! You don't have enough Battle Points!\p I wish you wouldn't monkey around and waste everyone's time!")
+}
+
+text BattleFrontier_Lounge3_Text_ThanksOffYouGo {
+    format("Heheh! Thanks much! So, off you go!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattleTowerSingle {
+    format("Get to the BATTLE TOWER's SINGLE BATTLE ROOMS pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattleTowerDouble {
+    format("Get to the BATTLE TOWER's DOUBLE BATTLE ROOMS pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattleTowerMulti {
+    format("Get to the BATTLE TOWER's MULTI BATTLE ROOMS pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattleDomeSingle {
+    format("Get to the BATTLE DOME's SINGLE BATTLE Tourney pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattleDomeDouble {
+    format("Get to the BATTLE DOME's DOUBLE BATTLE Tourney pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattleFactorySingle {
+    format("Get to the BATTLE FACTORY's Battle Swap Single Tourney pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble {
+    format("Get to the BATTLE FACTORY's Battle Swap Double Tourney pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle {
+    format("Get to the BATTLE PALACE's SINGLE BATTLE HALLS pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble {
+    format("Get to the BATTLE PALACE's DOUBLE BATTLE HALLS pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattleArena {
+    format("Get to the BATTLE ARENA's Set KO Tourney pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattlePike {
+    format("Get to the BATTLE PIKE's Battle Choice pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_GetToBattlePyramid {
+    format("Get to the BATTLE PYRAMID's Battle Quest pronto!\p It's a must-win situation! Don't blow your chance!\l Both of our futures depend on you!")
+}
+
+text BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints {
+    format("Oh, it's you… Nice try…\p I hate to break it to you, but I can't return your Battle Points…\p I guess we'll have to let it motivate us to try harder next time!")
+}
+
+text BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints {
+    format("Oh, yes! Hello there, champ!\p I knew you could! I knew you would!\l We're both big winners!\p I'll return your Battle Points and, of course, a little extra from me!")
+}
+
+text BattleFrontier_Lounge3_Text_ObtainedBattlePoints {
+    format("{PLAYER} obtained {STR_VAR_1} Battle Points.")
+}
+
+text BattleFrontier_Lounge3_Text_ThinkOfMeForAnotherChallenge {
+    format("If you're up for another challenge, please do think of me!")
+}
+
+text BattleFrontier_Lounge3_Text_NotInterested {
+    format("Not interested?! You shouldn't be so afraid to take a chance!")
+}
+
+text BattleFrontier_Lounge3_Text_Oh {
+    format("Oh…")
+}
+
+text BattleFrontier_Lounge3_Text_BackedWrongTrainer {
+    format("I backed the wrong TRAINER again!\p Maybe I should be battling normally like everyone else…")
+}
+
+text BattleFrontier_Lounge3_Text_TrainerGoodButRattled {
+    format("That TRAINER…\p He's good, but he gets rattled too easily to survive the BATTLE DOME…")
+}
+
+text BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne {
+    format("Giggle! I know a winner when I see one!")
+}
+
+text BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges {
+    format("Those TRAINERS… What are they doing?\l They should be taking challenges.")
+}
+

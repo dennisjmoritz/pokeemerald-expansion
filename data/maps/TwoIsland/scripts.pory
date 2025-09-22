@@ -1,1 +1,70 @@
-mapscripts TwoIsland_MapScripts {}
+text TwoIsland_Text_IslandSign {
+    format("TWO ISLAND Boon Island for Two")
+}
+
+text TwoIsland_Text_JoyfulGameCornerSign {
+    format("Skip & Chomp! Joyful GAME CORNER")
+}
+
+text TwoIsland_Text_DangerFastCurrent {
+    format("DANGER! FAST CURRENT! Fishing and surfing prohibited!")
+}
+
+text TwoIsland_Text_WelcomeToShopMerchandiseLimited {
+    format("Oh! Hello, welcome to my shop!\p We've only opened up recently.\p Our merchandise is limited, but I hope we can serve your needs.")
+}
+
+text TwoIsland_Text_AddedMerchandiseForLostelle {
+    format("I can't tell you how grateful I am for your rescue of LOSTELLE.\p Thanks to your feat, the people of THREE ISLAND have changed their\l attitudes about KANTO people.\p And, I'm from KANTO, you see.\p The people of THREE ISLAND helped me add to my merchandise.")
+}
+
+text TwoIsland_Text_HopeYouGiveItYourBest {
+    format("Hi! I'm giving it my best here. I hope you do too, {PLAYER}.")
+}
+
+text TwoIsland_Text_BringingItemsFromDistantLands {
+    format("Oh, hello, {PLAYER}! Welcome!\p I've started bringing in items from distant lands.\p I've got some rare items in, too. Please have a look!")
+}
+
+text TwoIsland_Text_FellowMovedFromCeladonCity {
+    format("That fellow there, he moved here from CELADON CITY.\p He started up a shop with his younger brother.\p You have to wonder if he knew what he was getting into.")
+}
+
+text TwoIsland_Text_ShopkeepersBrotherWorksGameCorner {
+    format("The shopkeeper's brother took a job at the GAME CORNER.\p He's trying to pull together money so they can buy more merchandise.")
+}
+
+text TwoIsland_Text_BrunoCameToIslandWhileBack {
+    format("Listen, listen. Did you know?\p A famous TRAINER came to the ISLAND a little while back.\p He's one of the ELITE FOUR. His name is BRUNO.\p He went away disappointed when he found out that they were all sold\l out of Rage Candybars.")
+}
+
+text TwoIsland_Text_BuyRareItemsHere {
+    format("The discerning TRAINER knows to buy rare items here!")
+}
+
+text TwoIsland_Text_OldWomanLivesOutOnCape {
+    format("There's an old woman who lives in a cottage out on the cape.\p She gives the eye to POKéMON. It's a bit unnerving.")
+}
+
+text TwoIsland_Text_HaveYouTriedJumpingGame {
+    format("Boing! Boing! Have you tried the jumping game?\p The POKéMON you can enter… Boing!\p Some go boing!\p And some go boooooooing!\p Did you know that? Boing!")
+}
+
+script TwoIsland_EventScript_IslandSign {
+    lockall
+    msgbox(TwoIsland_Text_IslandSign)
+    releaseall
+}
+
+script TwoIsland_EventScript_JoyfulGameCornerSign {
+    lockall
+    msgbox(TwoIsland_Text_JoyfulGameCornerSign)
+    releaseall
+}
+
+script TwoIsland_EventScript_FastCurrentSign {
+    lockall
+    msgbox(TwoIsland_Text_DangerFastCurrent)
+    releaseall
+}
+

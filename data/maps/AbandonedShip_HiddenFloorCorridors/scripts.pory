@@ -1,1 +1,32 @@
-mapscripts AbandonedShip_HiddenFloorCorridors_MapScripts {}
+text AbandonedShip_HiddenFloorCorridors_EventScript_TheDoorIsOpen {
+    format("The door is locked.\p “RM. 1” is painted on the door.$ The door is locked.\p “RM. 2” is painted on the door.$ The door is locked.\p “RM. 4” is painted on the door.$ The door is locked.\p “RM. 6” is painted on the door.$ {PLAYER} inserted and turned the KEY.\p The inserted KEY stuck fast, but the door opened.")
+}
+
+script AbandonedShip_HiddenFloorCorridors_EventScript_Room1Door {
+    // Also calls: goto_if_set FLAG_USED_ROOM_1_KEY, call AbandonedShip_HiddenFloorCorridors_EventScript_UnlockRoom1
+    lockall
+    msgbox(AbandonedShip_HiddenFloorCorridors_Text_InsertedKey)
+    releaseall
+}
+
+script AbandonedShip_HiddenFloorCorridors_EventScript_Room2Door {
+    // Also calls: goto_if_set FLAG_USED_ROOM_2_KEY, call AbandonedShip_HiddenFloorCorridors_EventScript_UnlockRoom2
+    lockall
+    msgbox(AbandonedShip_HiddenFloorCorridors_Text_InsertedKey)
+    releaseall
+}
+
+script AbandonedShip_HiddenFloorCorridors_EventScript_Room4Door {
+    // Also calls: goto_if_set FLAG_USED_ROOM_4_KEY, call AbandonedShip_HiddenFloorCorridors_EventScript_UnlockRoom4
+    lockall
+    msgbox(AbandonedShip_HiddenFloorCorridors_Text_InsertedKey)
+    releaseall
+}
+
+script AbandonedShip_HiddenFloorCorridors_EventScript_Room6Door {
+    // Also calls: goto_if_set FLAG_USED_ROOM_6_KEY, call AbandonedShip_HiddenFloorCorridors_EventScript_UnlockRoom6
+    lockall
+    msgbox(AbandonedShip_HiddenFloorCorridors_Text_InsertedKey)
+    releaseall
+}
+

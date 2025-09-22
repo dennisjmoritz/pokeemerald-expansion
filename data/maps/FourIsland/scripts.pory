@@ -1,1 +1,40 @@
-mapscripts FourIsland_MapScripts {}
+text FourIsland_Text_IslandSign {
+    format("FOUR ISLAND The Warm, Blue, Floe Island")
+}
+
+text FourIsland_Text_LoreleiHasReturned {
+    format("LORELEI has returned.\p Did she find the city life too stressful, I wonder?")
+}
+
+text FourIsland_Text_LoreleiMetLaprasAsChild {
+    format("LORELEI has gone back.\p The LAPRAS she has, I imagine it to be the one she met as a child.\p I believe it was in ICEFALL CAVE that she caught it.\p Perhaps that POKéMON has been with her ever since.")
+}
+
+text FourIsland_Text_RivalAlreadyGotEggBeSmellingYa {
+    format("{RIVAL}: Hey! {PLAYER}!\p What are you doing here in the SEVII ISLANDS?\p You should quit copying me, you know?\p Anyways, I already got my POKéMON EGG, so I'm done with this island.\p Heh, I bet you don't even know about POKéMON EGGS.\p You'll never fill your NATIONAL POKéDEX that way.\p By the way, I saw someone we both know on this island.\p Why don't you go look around if it makes you curious?\p Me, I don't have the time to waste.\p Be smelling ya!")
+}
+
+text FourIsland_Text_LoreleiHasLotsOfStuffedDolls {
+    format("Oh, you found me! Please don't tell LORELEI.\p Did you know that LORELEI has lots and lots of stuffed dolls?\p Every time she comes back to FOUR ISLAND, her collection grows!")
+}
+
+text FourIsland_Text_MadeSlushieUsingIcefallCaveIce {
+    format("Ooh, chilly!\p I made a slushie using ice I shaved inside ICEFALL CAVE.\p It's chilly and tasty!")
+}
+
+text FourIsland_Text_LoreleisHouse {
+    format("LORELEI'S HOUSE")
+}
+
+script FourIsland_EventScript_IslandSign {
+    lockall
+    msgbox(FourIsland_Text_IslandSign)
+    releaseall
+}
+
+script FourIsland_EventScript_LoreleisHouseSign {
+    lockall
+    msgbox(FourIsland_Text_LoreleisHouse)
+    releaseall
+}
+

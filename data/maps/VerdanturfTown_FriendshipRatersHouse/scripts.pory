@@ -1,1 +1,4 @@
-mapscripts VerdanturfTown_FriendshipRatersHouse_MapScripts {}
+text VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu {
+    format("Let me see your POKéMON. I'll check to see how much it likes you.\p Oh. Your POKéMON…$ It adores you. It can't possibly love you any more.\l I even feel happy seeing it.$ It seems to be very happy. It obviously likes you a whole lot.$ It likes you quite a lot. It seems to want to be babied a little.$ It's getting used to you. It seems to believe in you.$ It's not very used to you yet. It neither loves nor hates you.$ It's very wary. It has scary viciousness in its eyes.\l It doesn't like you much at all.$ This is a little hard for me to say…\p Your POKéMON simply detests you. Doesn't that make you uncomfortable?$ PIKACHU: Pika pika!")
+}
+

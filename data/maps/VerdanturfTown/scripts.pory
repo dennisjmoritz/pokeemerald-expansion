@@ -1,1 +1,28 @@
-mapscripts VerdanturfTown_MapScripts {}
+text VerdanturfTown_EventScript_RusturfTunnelSign {
+    format("My papa told me.\p He says this tunnel is full of timid POKéMON.\p They get all scared of loud noise and make a big uproar.\p So they had to stop the big tunnel project.\p But there's one man. He's trying to dig the tunnel by himself!$ There was a man who dug a tunnel for a lady he loved.\p I don't really get it, but hey!$ The way the winds blow, volcanic ash is never blown in this direction.\p The air is clean and delicious here. Living here should do wonders for even\l frail and sickly people.$ My POKéMON and I, we've been riding a hot winning streak.\p So I decided to make my BATTLE TENT debut in this town.$ Did you see the cave next to the POKéMON MART?\p There's a guy in there who's trying to bust up boulders so he can bust out\l through to the other side.\p It'd be great if we could go through… It'll make it easy to visit RUSTBORO.$ That cave next to the POKéMON MART is now a tunnel to the other side.\p It's great--it's easy to go shop for new DEVON products in RUSTBORO now.$ VERDANTURF TOWN\p “The windswept highlands with the sweet fragrance of grass.”$ WANDA'S HOUSE$ BATTLE TENT VERDANTURF SITE “Feast Your Eyes on Battles!”$ RUSTURF TUNNEL “Linking RUSTBORO and VERDANTURF\p “The tunnel project has been canceled.”")
+}
+
+script VerdanturfTown_EventScript_TownSign {
+    lockall
+    msgbox(VerdanturfTown_Text_TownSign)
+    releaseall
+}
+
+script VerdanturfTown_EventScript_WandasHouseSign {
+    lockall
+    msgbox(VerdanturfTown_Text_WandasHouse)
+    releaseall
+}
+
+script VerdanturfTown_EventScript_BattleTentSign {
+    lockall
+    msgbox(VerdanturfTown_Text_BattleTentSign)
+    releaseall
+}
+
+script VerdanturfTown_EventScript_RusturfTunnelSign {
+    lockall
+    msgbox(VerdanturfTown_Text_RusturfTunnelSign)
+    releaseall
+}
+

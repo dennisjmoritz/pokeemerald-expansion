@@ -1,1 +1,4 @@
-mapscripts FortreeCity_PokemonCenter_1F_MapScripts {}
+text FortreeCity_PokemonCenter_1F_EventScript_Boy {
+    format("Listen, kid, are you working on a POKéDEX?\p Hmm… Go to the SAFARI ZONE. That's my suggestion.$ Have you done anything at the RECORD CORNER?\p It's pretty neat. It mixes and matches the records of TRAINERS.\p I don't know quite how it works, but it's cool. It's exciting, even!$ Oh, wow, you have a POKéNAV! And it's just like mine!\p Do you know about POKéNAV's MATCH CALL system?\p Access it, and you can chat with registered TRAINERS anytime.\p It also shows you which TRAINERS want a rematch with you.\p It's really nifty! Those DEVON guys sure know what they're doing!")
+}
+

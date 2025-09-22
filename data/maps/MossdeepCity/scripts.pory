@@ -1,1 +1,28 @@
-mapscripts MossdeepCity_MapScripts {}
+text MossdeepCity_EventScript_ScottExitEast {
+    format("I got this from STEVEN, but I don't know what it's good for.\p I think it's called KING'S ROCK. Do you want it?$ Why would you want it? You're weird.\p You can keep it, but keep it a secret from STEVEN.$ STEVEN's house is right over there!$ Yeah, you think so, too! What are you supposed to do with some weird rock?$ Around MOSSDEEP, you can see wild WAILMER.\p It's called, uh… What was it now…\p WAI, WAI, WAI…\p WAILMER watching!$ The island's SPACE CENTER has been launching huge rockets.\p There's been some kind of an uproar over a letter they received recently.$ The island's SPACE CENTER has been launching huge rockets.$ I heard from a SAILOR buddy that TEAM AQUA set up shop in LILYCOVE.\p I also heard that someone came along and wiped the floor with them!\p But MOSSDEEP here's been targeted by that TEAM MAGMA.\p If you want to know what they're up to, go visit the SPACE CENTER.$ I'm a SAILOR, so the sea's obviously more important to me.\p But you know? When I get back on land after a long voyage, I do feel relief!$ Wouldn't it be nice?\p If the whole world was covered in plants and flowers like this island?$ All life needs the sea to live, even though it makes its home on the land.\p Life, having run its course, becomes soil and returns to the land.\p And the sea is always connected to the land.\p Yes, like the very shoreline here.$ A voyage on a ship is fine.\p But crossing the sea with POKéMON using SURF…\p Now that's an exhilarating trip! Wouldn't you agree, youngster?$ This rock has a special meaning to the people at the SPACE CENTER.\p They put it here as their wish for their rockets to fly safely.\p When you make a wish, what do you use? Do you wish upon a star?\p I use a wish tag to make it happen. That's what I do.$ It's a white rock.$ MOSSDEEP CITY POKéMON GYM LEADERS: LIZA & TATE\p “The mystic combination!”$ MOSSDEEP CITY “Our slogan: Cherish POKéMON!”$ MOSSDEEP SPACE CENTER “The closest place to space.”$ SCOTT: {PLAYER}{KUN}, feeling good? I'm doing great!\p I'd heard MOSSDEEP's GYM LEADER is pretty strong, so I decided to come\l take a look-see for myself.\p But there's something wrong about this town.\p People are going on about a warning letter and the SPACE CENTER…\p I don't think it concerns me in any way, though.$ Ahh… It feels great letting the waves wash over my feet…\p Speaking of the waves, you know that island city SOOTOPOLIS?\p I think the GYM there had a new LEADER come in.\p People tell me the new LEADER once mentored WALLACE.")
+}
+
+script MossdeepCity_EventScript_CitySign {
+    lockall
+    msgbox(MossdeepCity_Text_CitySign)
+    releaseall
+}
+
+script MossdeepCity_EventScript_GymSign {
+    lockall
+    msgbox(MossdeepCity_Text_GymSign)
+    releaseall
+}
+
+script MossdeepCity_EventScript_SpaceCenterSign {
+    lockall
+    msgbox(MossdeepCity_Text_SpaceCenterSign)
+    releaseall
+}
+
+script MossdeepCity_EventScript_WhiteRock {
+    lockall
+    msgbox(MossdeepCity_Text_ItsAWhiteRock)
+    releaseall
+}
+

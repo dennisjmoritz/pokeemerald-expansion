@@ -1,1 +1,4 @@
-mapscripts FortreeCity_House1_MapScripts {}
+text FortreeCity_House1_EventScript_Zigzagoon {
+    format("Wrooooaaar! I need it! I have to get me a {STR_VAR_1}!\l I'll do anything for it!\p …Uh… Did you hear that? My shout from the bottom of my heart?\p Having heard that, you will trade your {STR_VAR_1} for my {STR_VAR_2},\l won't you?$ Oh, yeah, right on!\p {STR_VAR_1}, welcome! {STR_VAR_2}, you take care!$ Uh, no, I don't think so. That isn't a {STR_VAR_1}.$ No? You won't trade me? Even after I bared my heart to you?$ I'm going to make VOLBEAT super strong from this moment on!\p I hope you do the same with PLUSLE!$ Trading POKéMON with others…\p It's as if you're trading your own memories with other people.$ ZIGZAGOON: Gumomoh?")
+}
+

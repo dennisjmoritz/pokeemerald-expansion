@@ -1,1 +1,4 @@
-mapscripts MauvilleCity_PokemonCenter_2F_MapScripts {}
+text MauvilleCity_PokemonCenter_2F_EventScript_Youngster {
+    format("Did you know that you can link battle at the COLOSSEUM here?\p They put up your record on the wall for everyone to see.\p It's embarrassing if you lose more often than you win…")
+}
+

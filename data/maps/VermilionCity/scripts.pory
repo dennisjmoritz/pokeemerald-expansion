@@ -1,1 +1,134 @@
-mapscripts VermilionCity_MapScripts {}
+text VermilionCity_Text_GrimerMultipliesInSludge {
+    format("We're careful about pollution here.\p We've heard GRIMER multiplies in toxic sludge.")
+}
+
+text VermilionCity_Text_DidYouSeeSSAnneInHarbor {
+    format("Did you see the S.S. ANNE moored in the harbor?")
+}
+
+text VermilionCity_Text_SSAnneHasDepartedForYear {
+    format("So, the S.S. ANNE has departed?\p She'll be back in VERMILION about this time next year.")
+}
+
+text VermilionCity_Text_BuildingOnThisLand {
+    format("I'm putting up a building on this plot of land. I own it all.\p My POKéMON is tamping the land to lay the foundation.")
+}
+
+text VermilionCity_Text_Machop {
+    format("MACHOP: Guoh! Gogogoh!")
+}
+
+text VermilionCity_Text_MachopStompingLandFlat {
+    format("A MACHOP is stomping the land flat.")
+}
+
+text VermilionCity_Text_SSAnneVisitsOnceAYear {
+    format("The S.S. ANNE is a famous luxury cruise ship.\p It visits VERMILION once a year.")
+}
+
+text VermilionCity_Text_CitySign {
+    format("VERMILION CITY The Port of Exquisite Sunsets")
+}
+
+text VermilionCity_Text_SnorlaxBlockingRoute12 {
+    format("NOTICE!\p ROUTE 12 may be blocked off by a sleeping POKéMON.\p Detour through ROCK TUNNEL to LAVENDER TOWN.\p VERMILION POLICE")
+}
+
+text VermilionCity_Text_PokemonFanClubSign {
+    format("POKéMON FAN CLUB All POKéMON fans welcome!")
+}
+
+text VermilionCity_Text_GymSign {
+    format("VERMILION CITY POKéMON GYM LEADER: LT. SURGE\l The Lightning American!")
+}
+
+text VermilionCity_Text_VermilionHarbor {
+    format("VERMILION HARBOR")
+}
+
+text VermilionCity_Text_WelcomeToTheSSAnne {
+    format("Welcome to the S.S. ANNE!")
+}
+
+text VermilionCity_Text_DoYouHaveATicket {
+    format("Welcome to the S.S. ANNE!\p Excuse me, do you have a ticket?")
+}
+
+text VermilionCity_Text_FlashedSSTicket {
+    format("{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\p Great! Welcome to the S.S. ANNE!")
+}
+
+text VermilionCity_Text_DontHaveNeededSSTicket {
+    format("{FONT_NORMAL}{PLAYER} doesn't have the needed S.S. TICKET.\p Sorry!\p You need a ticket to get aboard.")
+}
+
+text VermilionCity_Text_TheShipSetSail {
+    format("The ship set sail.")
+}
+
+text VermilionCity_Text_BoardSeagallopTriPass {
+    format("Ah, you have a TRI-PASS.\p Would you like to board a SEAGALLOP ferry?")
+}
+
+text VermilionCity_Text_Seagallop7Departing {
+    format("Okay, everything's in order.\p SEAGALLOP HI-SPEED 7 will be departing immediately.")
+}
+
+text VermilionCity_Text_BoardSeagallopRainbowPass {
+    format("Ah, you have a RAINBOW PASS.\p Would you like to board a SEAGALLOP ferry?")
+}
+
+text VermilionCity_Text_OhMysticTicketTakeYouToNavelRock {
+    format("Oh! That's a MYSTICTICKET! Now that is rare.\p We'll be happy to take you to NAVEL ROCK anytime.")
+}
+
+text VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland {
+    format("Oh! That's an AURORATICKET! Now that is rare.\p We'll be happy to take you to BIRTH ISLAND anytime.")
+}
+
+text VermilionCity_Text_BoardSeagallopFerry {
+    format("Would you like to board a SEAGALLOP ferry?")
+}
+
+text VermilionCity_Text_Seagallop10Departing {
+    format("Okay, everything's in order for you to board a special ferry.\p SEAGALLOP HI-SPEED 10 will be departing immediately.")
+}
+
+text VermilionCity_Text_Seagallop12Departing {
+    format("Okay, everything's in order for you to board a special ferry.\p SEAGALLOP HI-SPEED 12 will be departing immediately.")
+}
+
+text VermilionCity_Text_Route2AideHasPackageForYou {
+    format("Oh, hello, {PLAYER}! How are you doing?\p It's me, one of PROF. OAK's AIDES.\p Did you meet the other AIDE?\p He had a package from PROF. OAK for you, {PLAYER}.\p He said he'd look for you around ROUTE 2, {PLAYER}.\p If you're in the ROUTE 2 area, please look for him.")
+}
+
+script VermilionCity_EventScript_CitySign {
+    lockall
+    msgbox(VermilionCity_Text_CitySign)
+    releaseall
+}
+
+script VermilionCity_EventScript_PokemonFanClubSign {
+    lockall
+    msgbox(VermilionCity_Text_PokemonFanClubSign)
+    releaseall
+}
+
+script VermilionCity_EventScript_GymSign {
+    lockall
+    msgbox(VermilionCity_Text_GymSign)
+    releaseall
+}
+
+script VermilionCity_EventScript_HarborSign {
+    lockall
+    msgbox(VermilionCity_Text_VermilionHarbor)
+    releaseall
+}
+
+script VermilionCity_EventScript_SnorlaxNotice {
+    lockall
+    msgbox(VermilionCity_Text_SnorlaxBlockingRoute12)
+    releaseall
+}
+

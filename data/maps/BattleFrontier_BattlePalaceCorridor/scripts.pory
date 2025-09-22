@@ -1,1 +1,4 @@
-mapscripts BattleFrontier_BattlePalaceCorridor_MapScripts {}
+text BattleFrontier_BattlePalaceCorridor_EventScript_LongStreakComment {
+    format("People and POKéMON, they are but the same…\p Their individual nature makes them good at certain things, and not good\l at others.$ Rather than trying to make a POKéMON do what it dislikes, try to let it do\l what it likes and is good at doing.\p Put yourself in the POKéMON's position and consider what moves it would like.$ A POKéMON's nature is a remarkable thing…\p Some POKéMON behave in a completely different way when they are cornered.$ Are you beginning to understand how a POKéMON's nature makes it behave?$ Ah… I see a strong, heartfelt bond between you and your POKéMON…")
+}
+

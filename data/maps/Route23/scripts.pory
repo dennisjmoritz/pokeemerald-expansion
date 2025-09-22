@@ -1,1 +1,10 @@
-mapscripts Route23_MapScripts {}
+text Route23_Text_VictoryRoadGateSign {
+    format("VICTORY ROAD GATE - POKéMON LEAGUE")
+}
+
+script Route23_EventScript_VictoryRoadGateSign {
+    lockall
+    msgbox(Route23_Text_VictoryRoadGateSign)
+    releaseall
+}
+

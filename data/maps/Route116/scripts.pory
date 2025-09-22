@@ -1,1 +1,34 @@
-mapscripts Route116_MapScripts {}
+text Route116_EventScript_Johnson {
+    format("Ohhh, what am I to do?\p We were on our walk, PEEKO and I, when we were jumped by an odd thug…\p The scoundrel made off with my darling PEEKO!\p Wrrrooooooaaaar! PEEKO!$ Nnn… Roar!\p I want to dig that tunnel!$ Nnn… Roar! What's going on?\p I was digging the tunnel without any tools when some goon ordered me out!\p That tunnel's filled with POKéMON that react badly to loud noises.\l They could cause an uproar.\p That's why we stopped using heavy equipment for tunneling…\p I'm worried that the goon will do something stupid and startle the\l POKéMON into an uproar.$ Nnn… Roar!\p That goofy goon hightailed it out of the tunnel! I can go back to digging!$ Oh! It's you!\p You're that person who not only helped me in PETALBURG WOODS, but also got\l back my stolen package and then even\l graciously delivered it to SLATEPORT!\p CAPT. STERN informed us that the package arrived, too!\p I thank you very, very much!\p Why, if I were a rain cloud, I would shower you with gratitude and hail\l you as a hero!\p For you, the most wonderful TRAINER, I bear good news!\p Recently, our company developed a new kind of POKé BALL.\p As a token of our appreciation, this is our gift to our wonderful TRAINER!$ Our new POKé BALL will be available at the POKéMON MART in RUSTBORO.\p Please do try it out! Thank you and bye-bye!$ Your BAG is jam-packed. I can't give you this REPEAT BALL.$ As a token of our appreciation for your delivering our package, I have\l a gift of a new kind of POKé BALL\l for our most wonderful TRAINER!$ I dropped my glasses… Can you help me find them?$ Those glasses! May I see them for a second?$ Hmm… These are BLACKGLASSES.\l They're not what I'm looking for…\p Maybe my glasses aren't around here…$ Hmm… I can't find my glasses anywhere…\l Maybe they're not around here…$ Hmm… These are BLACKGLASSES.\l They're not what I'm looking for…$ ROUTE 116 {LEFT_ARROW} RUSTBORO CITY$ RUSTURF TUNNEL “Linking RUSTBORO and VERDANTURF\p “The tunnel project has been canceled.”$ TUNNELER'S REST HOUSE$ TRAINER TIPS\p If you want to stop a POKéMON from evolving, press the B Button while it\l is trying to evolve.\l The startled POKéMON will stop.\p This is called an evolution cancel.$ TRAINER TIPS\p Your BAG has several POCKETS.\p Items you obtain are automatically placed in the appropriate POCKETS.\p No TRAINER can afford to be without a BAG of their own.")
+}
+
+script Route116_EventScript_RouteSignRustboro {
+    lockall
+    msgbox(Route116_Text_RouteSignRustboro)
+    releaseall
+}
+
+script Route116_EventScript_RusturfTunnelSign {
+    lockall
+    msgbox(Route116_Text_RusturfTunnelSign)
+    releaseall
+}
+
+script Route116_EventScript_TunnelersRestHouseSign {
+    lockall
+    msgbox(Route116_Text_TunnelersRestHouse)
+    releaseall
+}
+
+script Route116_EventScript_TrainerTipsBToStopEvolution {
+    lockall
+    msgbox(Route116_Text_TrainerTipsBToStopEvolution)
+    releaseall
+}
+
+script Route116_EventScript_TrainerTipsBagHasPockets {
+    lockall
+    msgbox(Route116_Text_TrainerTipsBagHasPockets)
+    releaseall
+}
+

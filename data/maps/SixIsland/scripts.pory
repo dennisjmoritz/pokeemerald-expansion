@@ -1,1 +1,18 @@
-mapscripts SixIsland_MapScripts {}
+text SixIsland_Text_IslandSign {
+    format("SIX ISLAND Fortune Island of Aged Wisdom")
+}
+
+text SixIsland_Text_ThatWayToWaterPathRuinValley {
+    format("Keep going this way and you'll get to the WATER PATH.\p Stay on that and you'll get to the RUIN VALLEY.")
+}
+
+text SixIsland_Text_SkyAtNightIsFantastic {
+    format("When you're this far away from the city, the sky at night is fantastic.")
+}
+
+script SixIsland_EventScript_IslandSign {
+    lockall
+    msgbox(SixIsland_Text_IslandSign)
+    releaseall
+}
+

@@ -1,1 +1,4 @@
-mapscripts SootopolisCity_House1_MapScripts {}
+text SootopolisCity_House1_EventScript_Kecleon {
+    format("For thirty years I've remained in SOOTOPOLIS honing my skills.\p I developed a shattering TM. I bequeath it to you!$ TM31 contains BRICK BREAK! It's a move so horrible that I can't describe it.$ KECLEON: Puu puhyaah.")
+}
+

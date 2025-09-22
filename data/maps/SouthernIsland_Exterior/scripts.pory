@@ -1,1 +1,6 @@
-mapscripts SouthernIsland_Exterior_MapScripts {}
+script SouthernIsland_Exterior_EventScript_Sign {
+    lockall
+    msgbox(SouthernIsland_Exterior_Text_Sign)
+    releaseall
+}
+

@@ -1,1 +1,4 @@
-mapscripts FortreeCity_DecorationShop_MapScripts {}
+text FortreeCity_DecorationShop_EventScript_ClerkChairs {
+    format("Merchandise you buy here is sent to your own PC.\p That's fantastic! I wish they could also deliver me home like that.$ I'm buying a pretty desk and I'm putting my cute DOLLS on it.\p If I don't, when I decorate my SECRET BASE, my DOLLS will get\l dirty or poked with splinters.")
+}
+

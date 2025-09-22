@@ -1,1 +1,28 @@
-mapscripts MossdeepCity_StevensHouse_MapScripts {}
+text MossdeepCity_StevensHouse_EventScript_DiveItemBall {
+    format("STEVEN: {PLAYER}{KUN}…\p As you can see, there's not much here, but this is my home.\p Thank you for all that you've done.\p This is my token of appreciation. It's the HIDDEN MACHINE DIVE.\p No need to be shy--you've earned this HM.$ STEVEN: While you're using SURF, you should notice dark patches of water.\p Use DIVE if you come to deep water like it. You'll drop to the seafloor.\p When you want to come back up, use DIVE again.\p In some places, it won't be possible for you to surface, though.$ STEVEN: Apparently, there's an underwater cavern between\l MOSSDEEP and SOOTOPOLIS.\p You know, the one that CAPT. STERN found in his submarine.$ {PLAYER} checked the POKé BALL.\p It contained the POKéMON BELDUM.\p Take the POKé BALL?$ {PLAYER} obtained a BELDUM.$ There is no space for another POKéMON.$ {PLAYER} left the POKé BALL where it was.$ It's a letter.\p … … … … … …\p To {PLAYER}{KUN}…\p I've decided to do a little soul- searching and train on the road.\p I don't plan to return home for some time.\p I have a favor to ask of you.\p I want you to take the POKé BALL on the desk.\p Inside it is a BELDUM, my favorite POKéMON.\p I'm counting on you.\p May our paths cross someday.\p STEVEN STONE$ It's a collection of rare rocks and stones assembled by STEVEN.")
+}
+
+script MossdeepCity_StevensHouse_EventScript_RockDisplay {
+    lockall
+    msgbox(MossdeepCity_StevensHouse_Text_CollectionOfRareRocks)
+    releaseall
+}
+
+script MossdeepCity_StevensHouse_EventScript_RockDisplay {
+    lockall
+    msgbox(MossdeepCity_StevensHouse_Text_CollectionOfRareRocks)
+    releaseall
+}
+
+script MossdeepCity_StevensHouse_EventScript_RockDisplay {
+    lockall
+    msgbox(MossdeepCity_StevensHouse_Text_CollectionOfRareRocks)
+    releaseall
+}
+
+script MossdeepCity_StevensHouse_EventScript_RockDisplay {
+    lockall
+    msgbox(MossdeepCity_StevensHouse_Text_CollectionOfRareRocks)
+    releaseall
+}
+

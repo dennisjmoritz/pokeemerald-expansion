@@ -1,1 +1,16 @@
-mapscripts LittlerootTown_BrendansHouse_2F_MapScripts {}
+text PlayersHouse_2F_EventScript_GameCube {
+    format("The clock is stopped…\p Better set it and start it!$ MOM: {PLAYER}, how do you like your new room?\p Good! Everything's put away neatly!\p They finished moving everything in downstairs, too.\p POKéMON movers are so convenient!\p Oh, you should make sure that everything's all there on your desk.$ {PLAYER} flipped open the notebook.\p ADVENTURE RULE NO. 1 Open the MENU with START.\p ADVENTURE RULE NO. 2 Record your progress with SAVE.\p The remaining pages are blank…$ {PLAYER} took a closer look at the HOENN region map.$ It's a Nintendo GameCube.\p A Game Boy Advance is connected to serve as the Controller.")
+}
+
+script PlayersHouse_2F_EventScript_Notebook {
+    lockall
+    msgbox(PlayersHouse_2F_Text_Notebook)
+    releaseall
+}
+
+script PlayersHouse_2F_EventScript_GameCube {
+    lockall
+    msgbox(PlayersHouse_2F_Text_ItsAGameCube)
+    releaseall
+}
+

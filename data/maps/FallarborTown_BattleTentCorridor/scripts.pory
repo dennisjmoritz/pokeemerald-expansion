@@ -1,1 +1,4 @@
-mapscripts FallarborTown_BattleTentCorridor_MapScripts {}
+text FallarborTown_BattleTentCorridor_EventScript_EnterCorridor {
+    format("We do all right in the preliminary round, but we can never win the appeals…\p Maybe it means I have to watch what other contestants are doing…$ See! My POKéMON won all these RIBBONS!\p Have your POKéMON earned any RIBBONS? You can check them on your POKéNAV.$ I can't beat GYM LEADERS…\p I can't win any CONTESTS…\p I've been here, there, and everywhere, and it's all for naught…$ POKéMON CONTESTS SUPER RANK STAGE!")
+}
+

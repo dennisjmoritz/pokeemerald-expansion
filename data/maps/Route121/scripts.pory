@@ -1,1 +1,16 @@
-mapscripts Route121_MapScripts {}
+text Route121_EventScript_RematchCristin {
+    format("Okay! We're to move out to MT. PYRE!$ Ahead looms MT. PYRE…\p It is a natural monument to the spirits of departed POKéMON…$ MT. PYRE PIER\p …The sign is old and worn out. The words are barely legible…$ “Filled with rare POKéMON!” SAFARI ZONE")
+}
+
+script Route121_EventScript_MtPyrePierSign {
+    lockall
+    msgbox(Route121_Text_MtPyrePierSign)
+    releaseall
+}
+
+script Route121_EventScript_SafariZoneSign {
+    lockall
+    msgbox(Route121_Text_SafariZoneSign)
+    releaseall
+}
+

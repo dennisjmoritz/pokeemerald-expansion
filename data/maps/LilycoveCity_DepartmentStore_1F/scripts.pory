@@ -1,1 +1,10 @@
-mapscripts LilycoveCity_DepartmentStore_1F_MapScripts {}
+text LilycoveCity_DepartmentStore_1F_EventScript_FloorNamesSign {
+    format("Welcome to LILYCOVE DEPARTMENT STORE.$ Whenever I come to the DEPARTMENT STORE, I always end up buying all sorts\l of things because it's so fun.$ Today, my mom is going to buy me some nice furniture.$ I'm buying something for my AZUMARILL as a reward for winning a CONTEST.$ AZUMARILL: Maririroo!$ 1F: SERVICE COUNTER LOTTERY CORNER\p 2F: TRAINER'S ZONE\p 3F: BATTLE COLLECTION\p 4F: TM CORNER\p 5F: POKé DOLL FLOOR\p ROOFTOP: ROOFTOP PLAZA$ Wireless Communication is a lot of fun, isn't it?\p I think it lets you do things that weren't possible before.\p For instance, you can now trade with people you couldn't before.\p I think it's going to be exciting!$ I want to spread the word about how fun Wireless Communication can be.")
+}
+
+script LilycoveCity_DepartmentStore_1F_EventScript_FloorNamesSign {
+    lockall
+    msgbox(LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign)
+    releaseall
+}
+

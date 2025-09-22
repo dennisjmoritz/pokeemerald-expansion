@@ -1,1 +1,4 @@
-mapscripts Route111_OldLadysRestStop_MapScripts {}
+text Route111_OldLadysRestStop_EventScript_DeclineRest {
+    format("Oh, dear, dear. Aren't your POKéMON exhausted?\p If you'd like, rest up here. That's a fine idea! You should do that.$ That's right. Take your time and rest up!$ Oh, dear, dear. Are your POKéMON still tired?\p You should take another rest here. That's a fine idea. You should do that.$ Is that so? You don't need to be shy about it.")
+}
+

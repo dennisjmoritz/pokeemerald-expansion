@@ -1,1 +1,4 @@
-mapscripts EverGrandeCity_GlaciasRoom_MapScripts {}
+text EverGrandeCity_GlaciasRoom_EventScript_Defeated {
+    format("Welcome, my name is GLACIA of the ELITE FOUR.\p I've traveled from afar to HOENN so that I may hone my ice skills.\p But all I have seen are challenges by weak TRAINERS and their POKéMON.\p What about you?\p It would please me to no end if I could go all out against you!$ You and your POKéMON… How hot your spirits burn!\p The all-consuming heat overwhelms.\p It's no surprise that my icy skills failed to harm you.$ Advance to the next room.\p And there, confirm the truly fearsome side of the POKéMON LEAGUE.")
+}
+

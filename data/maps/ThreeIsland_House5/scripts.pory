@@ -1,1 +1,8 @@
-mapscripts ThreeIsland_House5_MapScripts {}
+text ThreeIsland_House5_Text_ImNotLostelle {
+    format("Me? I'm not LOSTELLE.\p She's probably gone to the BERRY FOREST, I think.\p She picks BERRIES there for making lunch.")
+}
+
+text ThreeIsland_House5_Text_IllGoPlayWithLostelle {
+    format("I think I'll go play with LOSTELLE today.")
+}
+

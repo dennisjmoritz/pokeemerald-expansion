@@ -1,1 +1,12 @@
-mapscripts Route11_EastEntrance_1F_MapScripts {}
+text Route11_EastEntrance_1F_EventScript_BottomGuard {
+    format("{PLAYER}{KUN}の バッグ いっぱい みたい だね")
+}
+
+text Route11_EastEntrance_1F_Text_ManInLavenderRatesNames {
+    format("Don't you think it's hard to think up good names for POKéMON?\p Especially if you've caught a whole bunch?\p In LAVENDER TOWN, there's a man who rates POKéMON nicknames.\p He can even help you rename your POKéMON, too.")
+}
+
+text Route11_EastEntrance_1F_Text_RockTunnelToReachLavender {
+    format("If you're aiming to reach LAVENDER TOWN, take ROCK TUNNEL.\p You can get to ROCK TUNNEL from CERULEAN CITY.")
+}
+

@@ -1,1 +1,40 @@
-mapscripts BattleFrontier_OutsideEast_MapScripts {}
+text BattleFrontier_OutsideEast_EventScript_Camper {
+    format("This is the BATTLE TOWER! Keep the win streak as the toughest\l TRAINER!$ This is the BATTLE PALACE! Keep your eyes on POKéMON battles!$ This is the BATTLE ARENA! Let the toughest teams gather!$ This is the BATTLE PYRAMID! Advance through the Battle Quest!$ BATTLE FRONTIER RANKING HALL Set your sights on new records!$ BATTLE POINT EXCHANGE SERVICE CORNER Exchange your Battle Points!$ Wow! It's huge!\p The BATTLE TOWER feels special. It's different from the others.$ My grand ambition is to conquer both the BATTLE FRONTIER and the POKéMON\l LEAGUE.\p And if my dream comes true…\p I… I'm going to ask MIMI next door if she will be friends with me!$ The BATTLE PYRAMID's too harsh! I just can't make it to the top!\p Since I'm out of options, maybe I can climb the outside…$ I thrive in darkness… Yes… What is worthy of me?\l None other than the BATTLE PYRAMID…\p What say you to wandering in darkness and in utter and total desperation?$ I didn't sleep for a week, but then I put together the ultimate team!\p I can't see myself losing, no joke. We're storming the BATTLE ARENA!$ Did SCOTT bring you here, too? What is it with that guy?\p It sounds like he really does know how to spot talented TRAINERS, but…\p I've never seen him battling in person ever.$ ZIGG! I believe in you, little buddy!\p I'll make my little ZIGG any favorite tasty treats you like if you win!$ ZIGZAGOON looks vacant…$ People call me a busybody, but I can't help it.\p Your hat's on crooked! Oh, no, trash on the ground!\l Oops, it's almost dinnertime!\p I don't know if I can stand to just watch at the BATTLE PALACE…$ I may not look that impressive now, but I once beat a GYM LEADER.\p Who knows, maybe I should give it another shot at glory.$ I'm fast on my BIKE, and that goes for the way I battle, too.\p I win matches in the blink of an eye!$ I'm better than my daddy at POKéMON.$ Go on, my baby sweetie! Go rack up some wins for Daddy!\p You're just like your mother, so you'll be dominating!$ It wasn't easy getting here, but I'd heard about this knockout\l pretty girl at the BATTLE ARENA.\p Instead of her, do you know what I found?\p A whole teeming mob of sweaty, stinky, and primitive martial artists!$ I sometimes see this really important- looking old man going in there.\p He has these really awesome POKéMON. He seems really nice, though.$ Do you know it? The legend of the BATTLE PYRAMID?\p When there comes a confident TRAINER reaching for the golden pinnacle,\l there shall appear a man among men.\p Don't know that legend? Well, of course not!\l I just made it up!\p What's it supposed to mean? That, my friend, I can't say!$ Man! Oh man! I've never lost once before!\p But I got wiped out with no saving grace at all!\p And then I'm told I don't have any talent?! Man!$ This guy ran into a horribly tough TRAINER while he was on the BATTLE\l TOWER challenge.\p Now look at him…\p You need to be cautious if you ever decide to go to the BATTLE TOWER.$ Yes! I've finally got enough Battle Points!\p I guess I'll trade for another giant plush DOLL!$ Oh, yeah, okay! So this is the RANKING HALL!\p I'd like to go down in history as a super champ and have my name\l recorded here for posterity.$ With you by my side, I can do anything.$ Ooh, darling, you are so wonderful!\p Ooh, I just can't wait anymore!\p Let's go to a MULTI BATTLE ROOM right this instant!\p If we get together in the BATTLE SALON, the power of our love will overcome\l everyone we meet.\p Why, before us, darling, everything will topple like dominoes!$ The BATTLE FRONTIER isn't exclusively for tough TRAINERS.\p Many people with special abilities have been invited, it seems.\p That man SCOTT…\p He may have built this place to serve a bigger objective…$ Excuse me, young one. Have you good eyesight?\p There is an odd tree past here, and to my tired eyes it seems to wiggle.$ Excuse me, young one. Have you a good memory?\p I have this feeling there once was an odd tree past here.$ I… I saw it!\p There was a sticky sort of a POKéMON with a long tail up ahead!\p It was hiding under a boulder, and it kept staring at me!")
+}
+
+script BattleFrontier_OutsideEast_EventScript_BattleTowerSign {
+    lockall
+    msgbox(BattleFrontier_OutsideEast_Text_BattleTowerSign)
+    releaseall
+}
+
+script BattleFrontier_OutsideEast_EventScript_BattlePalaceSign {
+    lockall
+    msgbox(BattleFrontier_OutsideEast_Text_BattlePalaceSign)
+    releaseall
+}
+
+script BattleFrontier_OutsideEast_EventScript_BattleArenaSign {
+    lockall
+    msgbox(BattleFrontier_OutsideEast_Text_BattleArenaSign)
+    releaseall
+}
+
+script BattleFrontier_OutsideEast_EventScript_BattlePyramidSign {
+    lockall
+    msgbox(BattleFrontier_OutsideEast_Text_BattlePyramidSign)
+    releaseall
+}
+
+script BattleFrontier_OutsideEast_EventScript_ExchangeCornerSign {
+    lockall
+    msgbox(BattleFrontier_OutsideEast_Text_ExchangeCornerSign)
+    releaseall
+}
+
+script BattleFrontier_OutsideEast_EventScript_RankingHallSign {
+    lockall
+    msgbox(BattleFrontier_OutsideEast_Text_RankingHallSign)
+    releaseall
+}
+

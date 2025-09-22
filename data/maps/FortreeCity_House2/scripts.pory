@@ -1,1 +1,4 @@
-mapscripts FortreeCity_House2_MapScripts {}
+text FortreeCity_House2_EventScript_WrongGuess {
+    format("People… POKéMON…\p Their hidden powers are aroused by living in natural environments…$ Let this old woman see if your hidden power has awoken…\p I hold a coin in my hand.\p Now, tell me, have I palmed it in the right hand? Or in the left?$ Oh! Yes, correct!\p We shall try again.\p In which hand have I palmed the coin? The right or left?$ Oh! Yes, correct!\p We shall try again.\p In which hand have I palmed the coin? The right or left?$ Oh! Splendid! Your hidden power has awoken!\p Here, take this and awaken the hidden power of your POKéMON.$ HIDDEN POWER is a move that changes with the POKéMON.$ No, too bad. You guessed wrong.")
+}
+

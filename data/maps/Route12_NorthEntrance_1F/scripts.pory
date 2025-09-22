@@ -1,1 +1,4 @@
-mapscripts Route12_NorthEntrance_1F_MapScripts {}
+text Route12_NorthEntrance_1F_Text_LookoutSpotUpstairs {
+    format("There's a lookout spot upstairs. The view is magnificent.")
+}
+

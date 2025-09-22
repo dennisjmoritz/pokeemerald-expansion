@@ -1,1 +1,67 @@
-mapscripts Route25_SeaCottage_MapScripts {}
+text Route25_SeaCottage_Text_ImBillHelpMeOutPal {
+    format("Hiya! I'm a POKéMON… …No I'm not!\p Call me BILL! I'm a true-blue POKéMANIAC!\p Hey! What's with that skeptical look?\p I'm not joshing you, pal.\p I screwed up an experiment and got combined with a POKéMON!\p So, how about it? Help me out here!")
+}
+
+text Route25_SeaCottage_Text_ImBillHelpMeOutLady {
+    format("Hiya! I'm a POKéMON… …No I'm not!\p Call me BILL! I'm a true-blue POKéMANIAC!\p Hey! What's with that skeptical look?\p I'm not joshing you, lady.\p I screwed up an experiment and got combined with a POKéMON!\p So, how about it? Help me out here!")
+}
+
+text Route25_SeaCottage_Text_RunCellSeparationOnPC {
+    format("Wait till I get inside the TELEPORTER.\p When I do, go to my PC and run the Cell Separation System.")
+}
+
+text Route25_SeaCottage_Text_NoPleaseChief {
+    format("No!? Now don't be so cold!\p Come on, you gotta help a guy in deep, deep trouble!\p What do you say, chief? Please?\l Okay?\l All right!")
+}
+
+text Route25_SeaCottage_Text_NoPleaseBeautiful {
+    format("No!? Now don't be so cold!\p Come on, you gotta help a guy in deep, deep trouble!\p What do you say, beautiful? Please?\l Okay?\l All right!")
+}
+
+text Route25_SeaCottage_Text_ThanksBudTakeThis {
+    format("BILL: Yeehah! Thanks, bud! I owe you one!\p So, did you come to see my POKéMON collection?\p You didn't? That's a bummer.\p I've got to thank you… Oh, here, maybe this'll do.")
+}
+
+text Route25_SeaCottage_Text_ThanksLadyTakeThis {
+    format("BILL: Yeehah! Thanks, lady! I owe you one!\p So, did you come to see my POKéMON collection?\p You didn't? That's a bummer.\p I've got to thank you… Oh, here, maybe this'll do.")
+}
+
+text Route25_SeaCottage_Text_ReceivedSSTicketFromBill {
+    format("{PLAYER} received an S.S. TICKET from BILL.")
+}
+
+text Route25_SeaCottage_Text_YouveGotTooMuchStuff {
+    format("You've got too much stuff!")
+}
+
+text Route25_SeaCottage_Text_SSAnnePartyYouGoInstead {
+    format("That cruise ship S.S. ANNE is in VERMILION CITY.\p I hear there are lots of TRAINERS on board, too.\p They invited me to their party, but I can't stand fancy do's.\p Why don't you go instead of me? Go on and have a good time.")
+}
+
+text Route25_SeaCottage_Text_CheckOutRareMonsOnPC {
+    format("BILL: Feel like checking out some of my rare POKéMON on my PC?\p Go on, check out my PC.")
+}
+
+text Route25_SeaCottage_Text_TeleporterIsDisplayed {
+    format("TELEPORTER is displayed on the PC monitor.")
+}
+
+text Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator {
+    format("{PLAYER} initiated the TELEPORTER's Cell Separator.")
+}
+
+text Route25_SeaCottage_Text_BillsFavoriteMonList {
+    format("BILL's favorite POKéMON list!")
+}
+
+text Route25_SeaCottage_Text_SeeWhichMon {
+    format("Which POKéMON do you want to see?")
+}
+
+script Route25_SeaCottage_EventScript_Computer {
+    // Also calls: goto_if_set RETURN_AFTER_SS_TICKET, goto_if_set BILL_IN_TELEPORTER
+    lockall
+    msgbox(Route25_SeaCottage_Text_TeleporterIsDisplayed)
+    releaseall
+}
+

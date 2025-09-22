@@ -1,1 +1,10 @@
-mapscripts OldaleTown_MapScripts {}
+text OldaleTown_EventScript_DoExitMovement2 {
+    format("I want to take a rest, so I'm saving my progress.$ Hi! I work at a POKéMON MART.\p Can I get you to come with me?$ This is a POKéMON MART. Just look for our blue roof.\p We sell a variety of goods including POKé BALLS for catching POKéMON.\p Here, I'd like you to have this as a promotional item.$ A POTION can be used anytime, so it's even more useful than a POKéMON CENTER\l in certain situations.$ Aaaaah! Wait! Please don't come in here.\p I just discovered the footprints of a rare POKéMON!\p Wait until I finish sketching them, okay?$ I just discovered the footprints of a rare POKéMON!\p Wait until I finish sketching them, okay?$ I finished sketching the footprints of a rare POKéMON.\p But it turns out they were only my own footprints…$ MAY: {PLAYER}{KUN}! Over here!\l Let's hurry home!$ BRENDAN: I'm heading back to my dad's LAB now.\l {PLAYER}, you should hustle back, too.$ OLDALE TOWN “Where things start off scarce.”")
+}
+
+script OldaleTown_EventScript_TownSign {
+    lockall
+    msgbox(OldaleTown_Text_TownSign)
+    releaseall
+}
+

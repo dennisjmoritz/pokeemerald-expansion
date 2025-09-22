@@ -1,1 +1,156 @@
-mapscripts Route12_MapScripts {}
+text Route12_Text_MonSprawledOutInSlumber {
+    format("A POKéMON is sprawled out in a deep and comfortable slumber.")
+}
+
+text Text_SnorlaxWokeUp {
+    format("SNORLAX woke up!\p It attacked in a grumpy rage!")
+}
+
+text Text_SnorlaxReturnedToMountains {
+    format("SNORLAX calmed down. It gave a huge yawn…\l And returned to the mountains.")
+}
+
+text Text_WantToUsePokeFlute {
+    format("Want to use the POKé FLUTE?")
+}
+
+text Text_PlayedPokeFlute {
+    format("{PLAYER} played the POKé FLUTE.")
+}
+
+text Route12_Text_NedIntro {
+    format("Yeah! I got a bite here!")
+}
+
+text Route12_Text_NedDefeat {
+    format("Tch! Just a small fry…")
+}
+
+text Route12_Text_NedPostBattle {
+    format("Hang on! My line's snagged!")
+}
+
+text Route12_Text_ChipIntro {
+    format("Be patient. Fishing is a waiting game.")
+}
+
+text Route12_Text_ChipDefeat {
+    format("That one got away!")
+}
+
+text Route12_Text_ChipPostBattle {
+    format("With a better ROD, I could catch better POKéMON…")
+}
+
+text Route12_Text_JustinIntro {
+    format("I'm searching for a MOON STONE. Have you found one?")
+}
+
+text Route12_Text_JustinDefeat {
+    format("Oww!")
+}
+
+text Route12_Text_JustinPostBattle {
+    format("I could have made my POKéMON evolve with a MOON STONE.\p I would have won then, I bet.")
+}
+
+text Route12_Text_LucaIntro {
+    format("Electricity is my specialty.\p I don't know a thing about POKéMON of the sea, though.")
+}
+
+text Route12_Text_LucaDefeat {
+    format("Unplugged!")
+}
+
+text Route12_Text_LucaPostBattle {
+    format("Water conducts electricity, so you should zap sea POKéMON.")
+}
+
+text Route12_Text_HankIntro {
+    format("The FISHING FOOL versus POKéMON KID!")
+}
+
+text Route12_Text_HankDefeat {
+    format("Touch too much!")
+}
+
+text Route12_Text_HankPostBattle {
+    format("I guess you get to be good at what you like.\p Well, you beat me at POKéMON, but you can't top me at fishing.")
+}
+
+text Route12_Text_ElliotIntro {
+    format("I love fishing, don't get me wrong.\p But it'd be best if I also had more work.")
+}
+
+text Route12_Text_ElliotDefeat {
+    format("It's not easy…")
+}
+
+text Route12_Text_ElliotPostBattle {
+    format("It's all right. Losing doesn't bug me anymore.")
+}
+
+text Route12_Text_AndrewIntro {
+    format("What's catching?\p You never know what you could catch!")
+}
+
+text Route12_Text_AndrewDefeat {
+    format("Lost it!")
+}
+
+text Route12_Text_AndrewPostBattle {
+    format("What, MAGIKARP?\p I catch them all the time, sure. But, boy are they wimpy.")
+}
+
+text Route12_Text_RouteSign {
+    format("ROUTE 12 North to LAVENDER")
+}
+
+text Route12_Text_SportfishingArea {
+    format("SPORTFISHING AREA")
+}
+
+text Route12_Text_JesIntro {
+    format("JES: If I win, I'm going to propose to GIA.")
+}
+
+text Route12_Text_JesDefeat {
+    format("JES: Oh, please, why couldn't you let us win?")
+}
+
+text Route12_Text_JesPostBattle {
+    format("JES: Oh, GIA, forgive me, my love!")
+}
+
+text Route12_Text_JesNotEnoughMons {
+    format("JES: GIA and I, we'll be together forever.\p We won't battle unless you have two POKéMON of your own.")
+}
+
+text Route12_Text_GiaIntro {
+    format("GIA: Hey, JES…\p If we win, I'll marry you!")
+}
+
+text Route12_Text_GiaDefeat {
+    format("GIA: Oh, but why?")
+}
+
+text Route12_Text_GiaPostBattle {
+    format("GIA: JES, you silly! You ruined this!")
+}
+
+text Route12_Text_GiaNotEnoughMons {
+    format("GIA: I can't bear to battle without my JES!\p Don't you have one more POKéMON?")
+}
+
+script Route12_EventScript_RouteSign {
+    lockall
+    msgbox(Route12_Text_RouteSign)
+    releaseall
+}
+
+script Route12_EventScript_FishingSign {
+    lockall
+    msgbox(Route12_Text_SportfishingArea)
+    releaseall
+}
+

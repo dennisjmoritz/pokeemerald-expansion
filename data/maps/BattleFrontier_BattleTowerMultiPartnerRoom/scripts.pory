@@ -1,1 +1,1368 @@
-mapscripts BattleFrontier_BattleTowerMultiPartnerRoom_MapScripts {}
+text BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner8 {
+    format("Please find a partner from out of the TRAINERS gathered here.$ {PLAYER}, you have not found a partner for your tag team.\p Would you like to quit looking and return to the reception counter?$ Then, please find a partner from the TRAINERS gathered here.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner {
+    format("Thank you for choosing a partner.\p I will now show you to your MULTI BATTLE ROOM.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Intro {
+    format("I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice. You can call me {STR_VAR_3}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Mon1 {
+    format("On {STR_VAR_1}'s advice, I brought one {STR_VAR_3} with {STR_VAR_2} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Mon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p Please, let me join you as a tag team.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Accept {
+    format("Thank you! I'll go register right now.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Reject {
+    format("I really wanted to form a tag team with you, {PLAYER}…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Intro {
+    format("I am {STR_VAR_1}'s no. {STR_VAR_2} apprentice. My name is {STR_VAR_3}.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Mon1 {
+    format("I got advice from {STR_VAR_1} and chose one {STR_VAR_3} with {STR_VAR_2} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Mon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p Please, let's form a tag team!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Accept {
+    format("Thank you very much! I'll be done with registration quickly!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Reject {
+    format("{PLAYER}, I was hoping that I could partner up with you…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Intro {
+    format("Um, my name's {STR_VAR_3}, and I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\p Snivel…\p I'm sorry! This tension is making me cry…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Mon1 {
+    format("{STR_VAR_3} advised me, so I have one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Mon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p Snivel… Please, please team up with me!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Accept {
+    format("Oh, really? You will? Awesome! Wicked! Awoooh!\p Oh… I'm sorry… I'm so happy, I'm crying…\p I'll go register right away. Please don't go away!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Reject {
+    format("Oh, b-but… Sob… Waaaaah!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Intro {
+    format("Hi, there! I'm {STR_VAR_3}! I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Mon1 {
+    format("{STR_VAR_3} recommended my crew. One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Mon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}, that's what I have! Cool, huh?\p So come on! Let's form a tag team!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Accept {
+    format("Yay! Great! Okay, I'll go register, okay?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Reject {
+    format("Aww, why? I wanted to team up, {PLAYER}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Intro {
+    format("I'm {STR_VAR_3}, the no. {STR_VAR_2} apprentice of the famous {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Mon1 {
+    format("I looked to {STR_VAR_3} for advice. One {STR_VAR_1}-using {STR_VAR_2}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Mon2Ask {
+    format("and one {STR_VAR_2} with {STR_VAR_1}, that's my pair.\p Please, will you join me in a tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Accept {
+    format("Thank you! I'll register right away!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Reject {
+    format("{PLAYER}, I had been hoping to join you in a tag team…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Intro {
+    format("Um… I'm sincerely happy that you would take the time to talk to me.\p I'm {STR_VAR_3}. I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Mon1 {
+    format("{STR_VAR_3} gave me advice. I'm very grateful for it.\p I have a team of one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Mon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}. I know I'm asking a lot…\p I don't think you'll be willing to, but may I join you as a partner?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Accept {
+    format("Really? I can't believe it! I can't believe you'll let me join you!\l I… I won't let you down!\p Um… If it's really okay, I'll go register right this instant!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Reject {
+    format("Oh… I didn't think I was good enough…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Intro {
+    format("Hi, I'm {STR_VAR_3}. I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Mon1 {
+    format("{STR_VAR_3} told me that it would be good to make this team:\l one {STR_VAR_1}-using {STR_VAR_2}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Mon2Ask {
+    format("and one {STR_VAR_2} that knows how to use {STR_VAR_1}.\p Not bad, huh? Want me to team up with you?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Accept {
+    format("Okay, glad to join you! I hope you won't mess things up for me!\l I'll do my registration now.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Reject {
+    format("Huh? Why did you turn me down? You're no judge of character!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Intro {
+    format("I'm {STR_VAR_3} and I'm a TRIATHLETE. I'm busy every day what with jogging,\l training, and rapping.\p I also happen to be {STR_VAR_1}'s no. {STR_VAR_2} apprentice.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Mon1 {
+    format("This is what {STR_VAR_3} recommended. One {STR_VAR_1}-using {STR_VAR_2}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Mon2Ask {
+    format("and one {STR_VAR_1}-using {STR_VAR_2}.\p I put a lot of effort into raising them, even though I'm busy.\p Let's form a tag team and give it a go!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Accept {
+    format("Thanks, that's the spirit! Hang tight while I go register, okay?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Reject {
+    format("I took time from my busy schedule to be here! Give me a break!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Intro {
+    format("Hi! How's it going?\p I'm {STR_VAR_3}, {STR_VAR_1}'s no. {STR_VAR_2} apprentice. Glad to meet you!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon1 {
+    format("Listen, listen! You have to hear about the POKéMON {STR_VAR_3} recommended.\l One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}. Of course I raised them superbly!\p So, want to team up? I'm sure it'll be a great combo!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Accept {
+    format("Yay, I think this will be fun! I'll go register!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Reject {
+    format("Oh, you're mean! I come recommended, you know.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Intro {
+    format("Please let me introduce myself. I am {STR_VAR_3}.\p I serve as {STR_VAR_1}'s no. {STR_VAR_2} apprentice.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon1 {
+    format("I sought the sage advice of {STR_VAR_3} and raised my team\l of one {STR_VAR_2} with {STR_VAR_1}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon2Ask {
+    format("and one {STR_VAR_2} with {STR_VAR_1}.\p Please agree to a tag team with me!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Accept {
+    format("Oh… I'm delighted! I promise to give you my best!\p Of course I will register us! Please wait!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Reject {
+    format("I had been hoping to join you, {PLAYER}…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Intro {
+    format("Eek! You spoke to me! I… I'm overjoyed!\p I'm {STR_VAR_3}! I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon1 {
+    format("On {STR_VAR_3}'s advice, I trained one {STR_VAR_1}-using {STR_VAR_2}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon2Ask {
+    format("and one {STR_VAR_1}-using {STR_VAR_2}.\p Please, can you grant me my wish? I want to be your tag-team partner!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Accept {
+    format("Eek! I… I feel giddy! Thank you so much!\l I'll go register us right away!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Reject {
+    format("Waaah! Don't you feel any pity? But that makes you cooler…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Intro {
+    format("Yeehaw! I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\p {STR_VAR_3}'s my name, hello, hello!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Mon1 {
+    format("My mentor {STR_VAR_3} recommended one {STR_VAR_1}-master {STR_VAR_2}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Mon2Ask {
+    format("and one {STR_VAR_1}-master {STR_VAR_2}.\p Good stuff, huh? You'll partner with me, won't you?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Accept {
+    format("Okay, excellent! I'll get the registration done quickly!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Reject {
+    format("Gwaaah! You're a calculating one, {PLAYER}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Intro {
+    format("Hey! There's big trouble! This is the BATTLE TOWER's last day!\p … … … … … … I'm only joking!\p People call me {STR_VAR_3} and I do, too! I'm {STR_VAR_1}'s 1,000th apprentice!\l Actually, I'm no. {STR_VAR_2}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon1 {
+    format("{STR_VAR_3} gave me some advice. {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon2Ask {
+    format("{STR_VAR_2} with {STR_VAR_1}. I've got ten of each kind!\l Actually, just one of each!\p How about it? Want to try tag battles with me?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Accept {
+    format("Yippee! I'll give you a POKéMON as my thanks!\p Just joking! But I will really go do the registration, okay?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Reject {
+    format("Oh, that's so cold! I'll have to wreck the BATTLE TOWER for that!\p Of course I won't!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Intro {
+    format("Hey, there, I'm rockin' and a-rollin'! POKéMON, I be controllin'!\p I'm {STR_VAR_3} the rappin' SAILOR. Don't be mistakin' me for no wailer!\p I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice. Me, you shouldn't be quick to dismiss!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Mon1 {
+    format("With the advice of {STR_VAR_3} I did abide, put together my team of pride!\l One {STR_VAR_1}-using {STR_VAR_2}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Mon2Ask {
+    format("and one {STR_VAR_1}-using {STR_VAR_2}!\p Our meeting we should commemorate, with a tag-team victory to celebrate!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Accept {
+    format("Hey, hey, I like your style! Our registration, I will go file!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Reject {
+    format("Oh, hey, {PLAYER}, now that's cold! If I may be so bold!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Intro {
+    format("Yippee-yahoo! Oh, don't run! I was just having fun!\p Howdy! I'm {STR_VAR_3}! I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon1 {
+    format("{STR_VAR_3} told me what to do. So one {STR_VAR_1}-using {STR_VAR_2}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon2Ask {
+    format("and one {STR_VAR_1}-using {STR_VAR_2}, I did choose.\p So, what do you say? Come on, make my day!\p Please, I'm begging you! Let me join you, don't leave me blue!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Accept {
+    format("Yeahah! Luck is with me! It sure makes me happy!\p Before we go join the fray, I'll go register right away!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Reject {
+    format("You're turning me down? {PLAYER}, you're making me frown!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Intro {
+    format("Cough!\p Oh, sorry, I have a cold. My POKéMON are fine, though.\p My name's {STR_VAR_3}, {STR_VAR_1}'s no. {STR_VAR_2} apprentice. Cough!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Mon1 {
+    format("I took {STR_VAR_3}'s advice to heart and put together my team of\l one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Mon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p I trained them every day, even in wind and rain.\p That's why I have this cold, I think.\p That's what I'm about. Want to be my tag partner?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Accept {
+    format("Thanks, I appreciate this! Cough, cough!\l Hang on while I go register.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Reject {
+    format("Oh, you won't? {PLAYER}, I think we'd make a good pair.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Intro {
+    format("Oh, hello! This is nerve-racking.\p I'm {STR_VAR_3}. I'm the no. {STR_VAR_2} apprentice of {STR_VAR_1}.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon1 {
+    format("{STR_VAR_3} said this team'll be good-- one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p I'm feeling self-conscious about this, but will you let me join you?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Accept {
+    format("Oh, gee, thank you! I feel bashful, but I'll do my best!\p I'll go get the registration done.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Reject {
+    format("Oh, please don't say no! I feel self-conscious enough already…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Intro {
+    format("I am {STR_VAR_3}, and that's no lie. I am {STR_VAR_1}'s no. {STR_VAR_2} apprentice.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Mon1 {
+    format("{STR_VAR_3} recommended my team.\p Since the advice sounded sincere, I decided to bring with me\l my {STR_VAR_1}-using {STR_VAR_2} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Mon2Ask {
+    format("my {STR_VAR_1}-using {STR_VAR_2}.\p If possible, I would like you to accept me as your tag-team partner.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Accept {
+    format("You really will accept me? It would be too terrible otherwise.\p But since you've agreed, this is fine. I shall go register the both of us.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Reject {
+    format("Hm? Now why would you refuse? Is this your idea of a joke?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassIntro {
+    format("I'm {STR_VAR_1}, and I'm a LASS!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon1 {
+    format("What I have are one {STR_VAR_2} that uses {STR_VAR_1} and one")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon2Ask {
+    format("{STR_VAR_2} that uses {STR_VAR_1}. Those are what I have with me.\p Will you be my partner?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassAccept {
+    format("Thank you! I'll go do the registration!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassReject {
+    format("You don't want to be my partner? You'll regret it later!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterIntro {
+    format("Hello!\p I'm YOUNGSTER {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon1 {
+    format("Want to know what I have? One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p You'll be my tag-team partner, won't you?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterAccept {
+    format("Yay! I'll go and register, okay?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterReject {
+    format("Aww! If you'd form a tag team with my POKéMON, we'd be unstoppable!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerIntro {
+    format("Yahoo! I'm HIKER {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon1 {
+    format("Know what I have with me? My {STR_VAR_1}-using {STR_VAR_2} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon2Ask {
+    format("my {STR_VAR_1}-using {STR_VAR_2}!\p Sounds good, eh? Want to form a tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerAccept {
+    format("Yahoo! I'll go do the registering, then.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerReject {
+    format("I would've liked to battle with you at my side.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyIntro {
+    format("Hello! I'm {STR_VAR_1}, and I'm a BEAUTY!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon1 {
+    format("Do you know what I've been raising? One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p What do you think? Want to make a tag team together?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyAccept {
+    format("Wonderful! I'll get the registration done now!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyReject {
+    format("How disappointing!\p We two together--we would've been the best!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanIntro {
+    format("Yo!\p You know who I am? I'm {STR_VAR_1} the FISHERMAN!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon1 {
+    format("I've got with me a team of one {STR_VAR_1}-using {STR_VAR_2} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon2Ask {
+    format("one {STR_VAR_1}-using {STR_VAR_2}.\p So, how about it? Will you battle at my side?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanAccept {
+    format("Good, good! Leave it up to me!\p I'll go and register us now.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanReject {
+    format("We matched up perfectly, too…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyIntro {
+    format("Glad to make your acquaintance. I am {STR_VAR_1}, a LADY.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon1 {
+    format("I am accompanied by a team of one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p I hope I meet your approval. For I wish to have you as my partner.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyAccept {
+    format("I thank you sincerely. I shall handle the registration.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyReject {
+    format("I'm sure that you will regret not having me as your partner.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFIntro {
+    format("I'm TRIATHLETE {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFMon1 {
+    format("What I have… One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}! That's my pair!\p Please? Will you form a tag team with me?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFAccept {
+    format("Gee, thanks! I'll go register at the counter.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFReject {
+    format("We two together, we would've been tough for certain!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherIntro {
+    format("Hiya! I'm BUG CATCHER {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherMon1 {
+    format("Check out what I have! One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p So, listen! Do you want to form a tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherAccept {
+    format("Gotcha!\p I'll go do the registration stuff at the counter.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherReject {
+    format("Aww, my POKéMON are awesome. I hope you won't regret this!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMIntro {
+    format("Good day! I'm SCHOOL KID {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon1 {
+    format("What I've been raising are one {STR_VAR_2} that uses {STR_VAR_1}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon2Ask {
+    format("and one {STR_VAR_2} that uses {STR_VAR_1}.\p Not too bad, don't you think? Would you care to form a tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMAccept {
+    format("Thank you very much! I'll get done with the registration.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMReject {
+    format("That's too bad…\p I was hoping that I could learn from you as your partner…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyIntro {
+    format("Yo! Let me tell you who I am! I'm RICH BOY {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon1 {
+    format("Guess what I got! One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p I'm willing to offer you the chance to be in a tag team with me.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyAccept {
+    format("Smart move!\p I'll finish up the registration process quick!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyReject {
+    format("You'd turn me of all people down? You'll regret that decision for sure!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltIntro {
+    format("Hiyah! I am BLACK BELT {STR_VAR_1}.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon1 {
+    format("As my companions, I have one {STR_VAR_2} using {STR_VAR_1}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon2Ask {
+    format("and one {STR_VAR_2} using {STR_VAR_1}.\p Please, grant me my wish! Allow me to be your tag partner!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltAccept {
+    format("Hiyah! I will go register forthwith!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltReject {
+    format("I see… I hope for an opportunity the next time we meet…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFIntro {
+    format("Hi, there! I'm {STR_VAR_1}, and I'm a TUBER!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon1 {
+    format("I'll tell you what I have. One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}! May I please be on your tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFAccept {
+    format("Thank you! I'll go register us now!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFReject {
+    format("If we'd become partners, we could have been so strong!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacIntro {
+    format("Greetings… I am HEX MANIAC {STR_VAR_1}…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon1 {
+    format("I bear with me one {STR_VAR_1}-using {STR_VAR_2} together with one")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon2Ask {
+    format("{STR_VAR_1}-using {STR_VAR_2}…\p I beseech you… Join me in a tag team…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacAccept {
+    format("I thank you… I shall register us…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacReject {
+    format("I so longed to join you…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMIntro {
+    format("How do you do? I'm {STR_VAR_1}, and I'm a POKéMON BREEDER!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon1 {
+    format("I'm raising a couple good ones! One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p How about it? Feel like making a tag team with me?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMAccept {
+    format("Thank you kindly!\p I'll go take care of the registration stuff, so you wait right here!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMReject {
+    format("I was looking forward to being your partner…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFIntro {
+    format("Well, hello! I'm TRIATHLETE {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon1 {
+    format("Want to know what I run with? One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p Well? Want to be in a tag team with me?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFAccept {
+    format("Good going!\p I'll be quick and get the registration all done!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFReject {
+    format("You and me, we would've been tops. It's too bad…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMIntro {
+    format("Hey, there! My name's {STR_VAR_1}! I'm a TRIATHLETE!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon1 {
+    format("I go on runs with my durable team-- one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p Not too shabby, huh? We should be in a tag team together!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMAccept {
+    format("All right! I'll go register in a flash!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMReject {
+    format("I really wanted to battle as your tag-team partner…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlIntro {
+    format("I'm BATTLE GIRL {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon1 {
+    format("I've been toughening up one {STR_VAR_1}-using {STR_VAR_2} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon2Ask {
+    format("one {STR_VAR_1}-using {STR_VAR_2}!\p Do you like that combo? How about you and me join up?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlAccept {
+    format("Why, thanks!\p I'll get the registration done right now!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlReject {
+    format("With you, I thought we could form the ultimate tag team…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMIntro {
+    format("I'm TRIATHLETE {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon1 {
+    format("I've been running with one {STR_VAR_2} that knows how to use {STR_VAR_1}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon2Ask {
+    format("and one {STR_VAR_2} with {STR_VAR_1}!\p We could be in a tag team. Wouldn't that be great?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMAccept {
+    format("Thank you!\p I'll go register us, and that's right now!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMReject {
+    format("Aww, that's too bad. We would've been the toughest tag team around!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMIntro {
+    format("Me? I'm TUBER {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon1 {
+    format("What do I have with me? One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p Hey? You'll team up with me, right?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMAccept {
+    format("Okay!\p I'll go register! Let's be excellent together!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMReject {
+    format("My POKéMON are tough for sure… It's too bad you don't want to team up.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristIntro {
+    format("Yay-hey! Call me GUITARIST {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon1 {
+    format("Check out my entourage! One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p Yay-hey! Pretty wild, huh? We'll have to do a duet in a tag team!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristAccept {
+    format("Yay-hey! Right on! I'll do that registration stuff now!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristReject {
+    format("My POKéMON rock hard! You'll be sorry, I tell you!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanIntro {
+    format("Pleased to meet you. I am {STR_VAR_1}, a GENTLEMAN.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon1 {
+    format("I am accompanied by my trusted {STR_VAR_1}-using {STR_VAR_2} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon2Ask {
+    format("one {STR_VAR_1}-using {STR_VAR_2}.\p May I ask you to join me in a tag-team partnership arrangement?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanAccept {
+    format("Ah, I thank you for your trust. I shall be done with the registration.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanReject {
+    format("That is most unfortunate…\p I shall look forward to the next opportunity…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMIntro {
+    format("Hello, I'm {STR_VAR_1}, and I'm a POKéFAN.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMMon1 {
+    format("I have with me now one {STR_VAR_2} that knows the move {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p Do you like what you see? Why don't you be my tag partner?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMAccept {
+    format("Thank you! I'll look after the registration!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMReject {
+    format("My POKéMON are top grade… It's too bad you can't appreciate that.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMIntro {
+    format("Hm! I am {STR_VAR_1}, and an EXPERT am I!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon1 {
+    format("The POKéMON that I've toughened up are one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p What say you to a tag team with me?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMAccept {
+    format("Hm! I shall register us right away!\l Let us both do our best!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMReject {
+    format("I will hope that your choice is indeed correct…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFIntro {
+    format("Hello, hello. I'm {STR_VAR_1}, and I'm an EXPERT.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon1 {
+    format("I've raised my POKéMON thoroughly. One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}-- they're what I have.\p Wouldn't you like to team up with me?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFAccept {
+    format("Good, good. I'll see to the registration right away.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFReject {
+    format("Perhaps we can form a team the next time we meet.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerIntro {
+    format("I'm DRAGON TAMER {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon1 {
+    format("The team I've been toughening up is one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p How about it? Want to be my partner?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerAccept {
+    format("Okay, I'll give it my best! I'll go register now, all right?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerReject {
+    format("You're not going to find many tougher partners than me!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperIntro {
+    format("I'm BIRD KEEPER {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon1 {
+    format("What POKéMON do I have? One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p Don't you think we'd make a decent tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperAccept {
+    format("Great, thanks! I'll look after the registration!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperReject {
+    format("My POKéMON and I are strong. What a letdown.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyIntro {
+    format("I'm NINJA BOY {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon1 {
+    format("My POKéMON team consists of one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p Let's be in a tag team together!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyAccept {
+    format("Yay! Let me go register!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyReject {
+    format("You'll regret not having my tough POKéMON on your side!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyIntro {
+    format("Hello! I'm PARASOL LADY {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon1 {
+    format("Escorting me now are my {STR_VAR_2} that uses {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon2Ask {
+    format("one {STR_VAR_2} that uses {STR_VAR_1}.\p Aren't they nice? Care to join us in a tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyAccept {
+    format("Thanks a bunch!\p I'll go register at the counter. Let's not disappoint each other!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyReject {
+    format("My POKéMON are tremendously strong. How disappointing…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacIntro {
+    format("Hello. I'm {STR_VAR_1}, and I'm a BUG MANIAC!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon1 {
+    format("I have found my POKéMON, yes. One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}-- they are what I found.\p Could I interest you in forming a tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacAccept {
+    format("Okay! Understood!\p I won't be long with the registration!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacReject {
+    format("With the POKéMON I found, we wouldn't have lost…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorIntro {
+    format("Ahoy, there! I'm SAILOR {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon1 {
+    format("Let me show you my pride and joy! One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p Of course you're not going to turn me down. We will team up, right?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorAccept {
+    format("I didn't expect any less! I'll go register now.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorReject {
+    format("We would've stormed through the opposition! Too bad!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorIntro {
+    format("Hi, I'm {STR_VAR_1}. I'm a COLLECTOR.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon1 {
+    format("The jewels in my collection are my {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p Swell, huh? We should be in a team together.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorAccept {
+    format("Oh, yeah!\p Well, let's not waste any time. I'll go register the two of us.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorReject {
+    format("Well, that's upsetting. You don't appreciate my POKéMON.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMIntro {
+    format("Howdy, I'm {STR_VAR_1}. I'm a POKéMON RANGER.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon1 {
+    format("Keeping me company are one {STR_VAR_1}-using {STR_VAR_2} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p Don't you think we'd make an impressive tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMAccept {
+    format("That's super! I'll deal with the registration now.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMReject {
+    format("Next time, choose my POKéMON, will you?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFIntro {
+    format("My name's {STR_VAR_1}. I'm a POKéMON RANGER!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon1 {
+    format("Let me tell you about my team. I have one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p How would you like to form a tag team with my little posse?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFAccept {
+    format("We'll be at our best! I'll get the registration done quick!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFReject {
+    format("I hope you'll choose my POKéMON next time.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyIntro {
+    format("Pleased to meet you. I'm {STR_VAR_1}. I consider myself an AROMA LADY.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon1 {
+    format("I travel with one {STR_VAR_2} that uses {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon2Ask {
+    format("one {STR_VAR_2} that uses {STR_VAR_1}.\p I hope they strike your fancy. Would you care to be my partner?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyAccept {
+    format("I'm honored by your acceptance. I will go register right this instant.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyReject {
+    format("It would be wonderful if we could form a tag team the next time we meet.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacIntro {
+    format("Want to know who I am? I'm {STR_VAR_1}, the RUIN MANIAC!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon1 {
+    format("The POKéMON that I have with me are one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p Intriguing, eh? How about you and I partner up?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacAccept {
+    format("That's a sound decision! I'll go do the registration paperwork.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject {
+    format("Hmm… I think my POKéMON are tough…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro {
+    format("I'm COOLTRAINER {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon1 {
+    format("The POKéMON I have right now are one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}. Cool, huh?\p Don't you think it'd be pretty cool if we made a tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMAccept {
+    format("Cool! I'll go do the registration in a flash!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMReject {
+    format("I thought that we'd make just the greatest team ever.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFIntro {
+    format("I'm COOLTRAINER {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon1 {
+    format("The team I've been raising has one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p Does that sound okay? How about we become tag partners?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFAccept {
+    format("Sounds A-OK! I'd better do the registration.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFReject {
+    format("I was thinking how we would be one tough team…")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacIntro {
+    format("Heyo! I'm {STR_VAR_1}, the POKéMANIAC!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacMon1 {
+    format("What does a guy like me have? One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}, that's what!\p Let's do it! We'll stomp around as a tag team!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacAccept {
+    format("Good call! I'll register the both of us!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacReject {
+    format("My POKéMON are brutal! It's not my fault if you regret this!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerIntro {
+    format("Yo, there! I'm KINDLER {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon1 {
+    format("You know what my training cooked up? One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p Well, what do you say? Want to form a tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerAccept {
+    format("All right! I'll get on with the registration.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerReject {
+    format("Promise you'll partner up with me the next time we run into each other.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperIntro {
+    format("I'm {STR_VAR_1}, and I'm a CAMPER!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon1 {
+    format("I've been raising one {STR_VAR_1}- using {STR_VAR_2} and one")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon2Ask {
+    format("{STR_VAR_1}-using {STR_VAR_2}.\p Do you think it'd be fun to team up? I bet it would be!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperAccept {
+    format("Yeah! Off I go to register!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperReject {
+    format("Next time, okay? I want to be on your team.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerIntro {
+    format("Hello! I'm {STR_VAR_1}, and I'm a PICNICKER!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon1 {
+    format("The POKéMON I've been taking are one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p Are you interested in joining me on a tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerAccept {
+    format("Why, thank you! I will do the registration now.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerReject {
+    format("It would be nice if I could join you some other time.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMIntro {
+    format("I'm PSYCHIC {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon1 {
+    format("The twosome I've been raising are one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p Would you like to form a tag team with me?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMAccept {
+    format("Sure thing! I'll take care of the registration!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMReject {
+    format("If we meet again, that's when I'd like to team up with you.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFIntro {
+    format("I'm {STR_VAR_1}. I'm a PSYCHIC.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon1 {
+    format("One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}-- they're my disciples.\p Doesn't the idea of forming a tag-team partnership intrigue you?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFAccept {
+    format("Thank you. I'll go deal with the registration.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFReject {
+    format("I hope there will be another chance to forge an alliance.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFIntro {
+    format("I'm SCHOOL KID {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon1 {
+    format("One {STR_VAR_1}-using {STR_VAR_2}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon2Ask {
+    format("and one {STR_VAR_1}-using {STR_VAR_2} are my POKéMON pair.\p May I please be your partner on a tag team?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFAccept {
+    format("Ooh, thank you! I'll register at the counter right away!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFReject {
+    format("Please? May I join you the next time?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFIntro {
+    format("Hiya! The name's {STR_VAR_1}! I'm a POKéMON BREEDER!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon1 {
+    format("The POKéMON I've raised are one {STR_VAR_1}-using {STR_VAR_2} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon2Ask {
+    format("one {STR_VAR_1}-using {STR_VAR_2}.\p Sound interesting? How about we form a tag team, then?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFAccept {
+    format("All righty! You leave the registration to me!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFReject {
+    format("You have to team up with me next time, all right?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFIntro {
+    format("I'm {STR_VAR_1}, and I'm proud to say that I am a POKéFAN.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon1 {
+    format("The darling POKéMON I've raised are one {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}.\p Aren't they just the cutest? We ought to make a team!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFAccept {
+    format("Thank you, dear! I'll be on my way to register!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFReject {
+    format("My darling POKéMON are the best, I'll have you know. How annoying!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFIntro {
+    format("Hi, I'm SWIMMER {STR_VAR_1}.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon1 {
+    format("One {STR_VAR_1}-using {STR_VAR_2}")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon2Ask {
+    format("and one {STR_VAR_1}-using {STR_VAR_2} are what I've trained.\p You and me, let's make a tag team.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFAccept {
+    format("That's cool! I'll register the two of us.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFReject {
+    format("If we meet again, you owe me a tag team!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMIntro {
+    format("What's happening? I'm {STR_VAR_1}, and I'm a TRIATHLETE.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon1 {
+    format("I got a couple decent POKéMON. One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p It'd be neat if we made a tag team together, so how about it?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMAccept {
+    format("Right on! You wait while I register, okay?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMReject {
+    format("I expect you'll let me join you next time, how's that?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFIntro {
+    format("I'm the TRIATHLETE {STR_VAR_1}!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon1 {
+    format("One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon2Ask {
+    format("another {STR_VAR_2} that knows how to use {STR_VAR_1}. That's my pair.\p What do you think? We'd make a good team, I'd say.")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFAccept {
+    format("I like that answer! I'll get done with registration fast!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFReject {
+    format("You'll give me another chance to form a partnership, won't you?")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMIntro {
+    format("Hi, there! Hello! I'm {STR_VAR_1}, and I'm a SWIMMER!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon1 {
+    format("Check out what I've been raising! One {STR_VAR_2} with {STR_VAR_1} and")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon2Ask {
+    format("one {STR_VAR_2} with {STR_VAR_1}!\p Sweet, huh? It'd be sweet to form a team, too!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMAccept {
+    format("Much obliged! I'll get this registration thing done!")
+}
+
+text BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMReject {
+    format("If we meet again, you have to team up with me. You'll do that, right?")
+}
+

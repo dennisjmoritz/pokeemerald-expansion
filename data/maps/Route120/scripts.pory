@@ -1,1 +1,16 @@
-mapscripts Route120_MapScripts {}
+text Route120_EventScript_Callie {
+    format("STEVEN: Hm? {PLAYER}{KUN}, hi. It's been a while.\p There's something here that you can't see, right?\p Now, if I were to use this device on the invisible obstacle…\p No, no. Rather than describing it, I should just show you.\l That would be more fun.\p {PLAYER}{KUN}, are your POKéMON ready for battle?$ STEVEN: No?\p I'll wait here, so you can get ready.$ STEVEN: {PLAYER}{KUN}, are your POKéMON ready for battle?$ STEVEN: {PLAYER}{KUN}, show me your true power as a TRAINER!$ STEVEN used the DEVON SCOPE.\p An invisible POKéMON became completely visible!\p The startled POKéMON attacked!$ STEVEN: I see… Your battle style is intriguing.\p Your POKéMON have obviously grown since I first met you in DEWFORD.\p I'd like you to have this DEVON SCOPE.\p Who knows, there may be other concealed POKéMON.$ STEVEN: {PLAYER}{KUN}.\p I enjoy seeing POKéMON and TRAINERS who strive together.\p I think you're doing great.\p Well, let's meet again somewhere.$ Something unseeable is in the way.$ Something unseeable is in the way.\p Want to use the DEVON SCOPE?$ {PLAYER} used the DEVON SCOPE.\p An invisible POKéMON became completely visible!\p The startled POKéMON attacked!$ ROUTE 120 {LEFT_ARROW} FORTREE CITY$ {RIGHT_ARROW} ROUTE 121 {LEFT_ARROW} ROUTE 120")
+}
+
+script Route120_EventScript_RouteSignFortree {
+    lockall
+    msgbox(Route120_Text_RouteSignFortree)
+    releaseall
+}
+
+script Route120_EventScript_RouteSign121 {
+    lockall
+    msgbox(Route120_Text_RouteSign121)
+    releaseall
+}
+

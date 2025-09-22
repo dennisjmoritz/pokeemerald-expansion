@@ -1,1 +1,76 @@
-mapscripts SSTidalCorridor_MapScripts {}
+text SSTidalCorridor_EventScript_ScottScene {
+    format("SCOTT: Well, hi, hi! {PLAYER}{KUN}, {PLAYER}{KUN}!\p Something's come up, so I have to disembark, but am I glad to see you!\p Congratulations, LEAGUE CHAMPION!\p There's a place I'd like to invite someone like you.\p It's the… BATTLE FRONTIER!\p What's the place like? You'll understand when you see it!\p I've spoken with the ship's CAPTAIN about this.\p The next time you take a ferry, you should be able to sail to\l the BATTLE FRONTIER.\p Okay, {PLAYER}{KUN}, I'll be waiting for you at the BATTLE FRONTIER!$ This ferry is built to plow through fast-running currents.\p We hope you enjoy your voyage with us. Feel free to explore the ship.$ We hope you enjoy your voyage on our ferry.$ We have made land in SLATEPORT CITY. Thank you for sailing with us.$ We have made land in LILYCOVE CITY. Thank you for sailing with us.$ It'll be some time before we make land, I reckon.\p You can rest up in your cabin if you'd like. Your cabin's No. 2.\p The bed in there is soft and plushy. I can attest to how comfy it is!$ We've arrived!$ Go visit other cabins. TRAINERS bored of the boat trip will\l be itching to battle.$ Enjoy your cruise!$ The horizon spreads beyond the porthole.$ MR. BRINEY: Welcome aboard, {PLAYER}{KUN}!\p They made me honorary captain of the S.S. TIDAL!\p You can call me CAPTAIN BRINEY now!\p You know, I retired once before, but when I saw this majestic ship…\p Let me just say, it stirred my sleeping soul as a sailor!$ PEEKO: Pihyo pihyohyo…$ Cabin 1$ Cabin 2$ Cabin 3$ Cabin 4")
+}
+
+script SSTidalCorridor_EventScript_Porthole {
+    lockall
+    msgbox(SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole)
+    releaseall
+}
+
+script SSTidalCorridor_EventScript_Porthole {
+    lockall
+    msgbox(SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole)
+    releaseall
+}
+
+script SSTidalCorridor_EventScript_Porthole {
+    lockall
+    msgbox(SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole)
+    releaseall
+}
+
+script SSTidalCorridor_EventScript_Porthole {
+    lockall
+    msgbox(SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole)
+    releaseall
+}
+
+script SSTidalCorridor_EventScript_Porthole {
+    lockall
+    msgbox(SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole)
+    releaseall
+}
+
+script SSTidalCorridor_EventScript_Porthole {
+    lockall
+    msgbox(SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole)
+    releaseall
+}
+
+script SSTidalCorridor_EventScript_Porthole {
+    lockall
+    msgbox(SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole)
+    releaseall
+}
+
+script SSTidalCorridor_EventScript_Porthole {
+    lockall
+    msgbox(SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole)
+    releaseall
+}
+
+script SSTidalCorridor_EventScript_Cabin1Sign {
+    lockall
+    msgbox(SSTidalCorridor_Text_Cabin1)
+    releaseall
+}
+
+script SSTidalCorridor_EventScript_Cabin2Sign {
+    lockall
+    msgbox(SSTidalCorridor_Text_Cabin2)
+    releaseall
+}
+
+script SSTidalCorridor_EventScript_Cabin3Sign {
+    lockall
+    msgbox(SSTidalCorridor_Text_Cabin3)
+    releaseall
+}
+
+script SSTidalCorridor_EventScript_Cabin4Sign {
+    lockall
+    msgbox(SSTidalCorridor_Text_Cabin4)
+    releaseall
+}
+

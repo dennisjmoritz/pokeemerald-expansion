@@ -1,1 +1,22 @@
-mapscripts Route117_MapScripts {}
+text Route117_EventScript_Aisha {
+    format("I left my POKéMON at the DAY CARE.\p When I got it back, it had a new move that I didn't teach it.\l I was really, really surprised.$ What do you think? Aren't these flowers pretty?\p I planted them all!$ The air is tasty here!$ ROUTE 117 {LEFT_ARROW} VERDANTURF TOWN$ ROUTE 117 {RIGHT_ARROW} MAUVILLE CITY$ POKéMON DAY CARE “Let us raise your POKéMON.”")
+}
+
+script Route117_EventScript_RouteSignVerdanturf {
+    lockall
+    msgbox(Route117_Text_RouteSignVerdanturf)
+    releaseall
+}
+
+script Route117_EventScript_RouteSignMauville {
+    lockall
+    msgbox(Route117_Text_RouteSignMauville)
+    releaseall
+}
+
+script Route117_EventScript_DayCareSign {
+    lockall
+    msgbox(Route117_Text_DayCareSign)
+    releaseall
+}
+

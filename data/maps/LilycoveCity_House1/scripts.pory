@@ -1,1 +1,4 @@
-mapscripts LilycoveCity_House1_MapScripts {}
+text LilycoveCity_House1_EventScript_Kecleon {
+    format("POKéMON are partners to people. They aren't our tools.\p Unfortunately, there are some people who fail to understand that…$ KECLEON: Ruroro?")
+}
+

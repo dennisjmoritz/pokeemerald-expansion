@@ -1,1 +1,22 @@
-mapscripts Route112_MapScripts {}
+text Route112_EventScript_Shayla {
+    format("Hey, man, is our leader really going to awaken that thing?$ Sounds like it, yeah. But I heard we need a METEORITE to do it.$ Oh, I get it now. That's why the rest of the crew went out to FALLARBOR.$ You got it. And until they come back, we're not to let anyone pass, right.$ Eh, I'd like to get to MAUVILLE, but if I went down these ledges, it'd be no\l easy matter to get back to LAVARIDGE.$ MT. CHIMNEY CABLE CAR “A short walk {UP_ARROW} way!”$ MT. CHIMNEY\p “For LAVARIDGE TOWN or the summit, please take the CABLE CAR.”$ ROUTE 112 {LEFT_ARROW} LAVARIDGE TOWN")
+}
+
+script Route112_EventScript_MtChimneySign {
+    lockall
+    msgbox(Route112_Text_MtChimneySign)
+    releaseall
+}
+
+script Route112_EventScript_MtChimneyCableCarSign {
+    lockall
+    msgbox(Route112_Text_MtChimneyCableCarSign)
+    releaseall
+}
+
+script Route112_EventScript_RouteSignLavaridge {
+    lockall
+    msgbox(Route112_Text_RouteSignLavaridge)
+    releaseall
+}
+

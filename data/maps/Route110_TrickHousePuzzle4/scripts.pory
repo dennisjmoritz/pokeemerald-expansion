@@ -1,1 +1,4 @@
-mapscripts Route110_TrickHousePuzzle4_MapScripts {}
+text Route110_TrickHousePuzzle4_EventScript_Paula {
+    format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is cool.” … … … … … … … …\p The lock clicked open!$ It's too much bother to think this out. I only wanted to battle!$ Even though I lost, I still like battling the best!$ Wouldn't you agree? You would go anywhere if TRAINERS were there.$ Heh! Boulders like this, I can brush aside with one finger!$ I can push boulders, but I can't solve the puzzle…$ It's not good enough to be brawny… You have to use your head. Be brainy!$ The TRICK HOUSE is getting trickier, isn't it?$ Aaak!$ Has anyone made it to the end?")
+}
+

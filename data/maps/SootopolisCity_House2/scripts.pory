@@ -1,1 +1,4 @@
-mapscripts SootopolisCity_House2_MapScripts {}
+text SootopolisCity_House2_EventScript_DontKnowAboutOrbs {
+    format("MT. PYRE…\p At its peak are two orbs placed side by side. Did you know?$ Yes, two orbs side by side…\p The sight of them together… It is somehow soothing…$ Is that so? Perhaps you ought to visit and see…")
+}
+

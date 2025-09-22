@@ -1,1 +1,4 @@
-mapscripts PacifidlogTown_House2_MapScripts {}
+text PacifidlogTown_House2_EventScript_UnhappyAzurill {
+    format("Er-hem!\p I am the POKéMON FAN CLUB's most important person, the CHAIRMAN's\l younger brother.\p I'm here enjoying my vacation with POKéMON, yes, indeed.$ Ah! Your POKéMON…$ It clearly likes you very much.\p A POKéMON that adoring and adorable deserves a TM like this, no?$ Hmm… It's not bad, but it's also not good.\p You, as the TRAINER, need to put in some more effort.$ It has a vicious look to it.\p A frightening POKéMON like that deserves a TM like this.$ If a POKéMON likes you a lot, RETURN's power is enhanced.\p If it doesn't like you, FRUSTRATION's power goes up.$ Oh, yes. In about {STR_VAR_1} or so days, I should be getting a good TM or two.\p You should come see me then. I'll give you a TM that's suitable for\l your POKéMON.$ AZURILL: Rurii.$ It appears to be very friendly with the TRAINER.$ AZURILL: Rururi!$ It doesn't appear to like the TRAINER very much.")
+}
+

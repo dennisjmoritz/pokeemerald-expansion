@@ -1,1 +1,4 @@
-mapscripts Route110_TrickHousePuzzle2_MapScripts {}
+text Route110_TrickHousePuzzle2_EventScript_Georgia {
+    format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is smart.” … … … … … … … …\p The lock clicked open!$ Which switch closes which hole?$ After that battle, I'm even more confused!$ Can I get you to push all the buttons for me?$ Oh! You're on your second TRICK HOUSE challenge!$ You're good at battling too?$ The TRICK MASTER rigged all the tricks in this house all by himself.$ I want to make my own GYM one day. So, I'm studying how to set traps.$ I didn't study battling enough!$ You're strong, aren't you? Maybe even enough to be a GYM LEADER!")
+}
+

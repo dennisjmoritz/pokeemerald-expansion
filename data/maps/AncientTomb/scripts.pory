@@ -1,1 +1,19 @@
-mapscripts AncientTomb_MapScripts {}
+script AncientTomb_EventScript_CaveEntranceMiddle {
+    // Also calls: goto_if_set FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED
+    lockall
+    msgbox(AncientTomb_Braille_ShineInTheMiddle)
+    releaseall
+}
+
+script AncientTomb_EventScript_CaveEntranceSide {
+    lockall
+    msgbox(AncientTomb_Braille_ShineInTheMiddle)
+    releaseall
+}
+
+script AncientTomb_EventScript_CaveEntranceSide {
+    lockall
+    msgbox(AncientTomb_Braille_ShineInTheMiddle)
+    releaseall
+}
+

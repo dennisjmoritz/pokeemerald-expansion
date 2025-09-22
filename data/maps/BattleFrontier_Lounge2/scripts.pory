@@ -1,1 +1,140 @@
-mapscripts BattleFrontier_Lounge2_MapScripts {}
+text BattleFrontier_Lounge2_Text_FrontierManiacIntro {
+    format("Howdy! When it comes to news about the BATTLE FRONTIER, I'm no. 1.\p You can think of me as the FRONTIER MANIAC.\p Just checking, but you are a TRAINER, isn't that right?\p I'll happily share the hottest news I gathered about the BATTLE FRONTIER.")
+}
+
+text BattleFrontier_Lounge2_Text_SwingByForTheLatestWord {
+    format("Howdy! Did you swing by to grill me about the latest word? Oh, all right!")
+}
+
+text BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight {
+    format("Well? Well? Well?\p I'm sure my information's been seriously useful to you, right?")
+}
+
+text BattleFrontier_Lounge2_Text_FacilityIsHottest {
+    format("Let's see now…\p It sounds like the {STR_VAR_1} is the hottest place going.")
+}
+
+text BattleFrontier_Lounge2_Text_BattleTowerIsHottest {
+    format("Let's see now…\p It sounds like BATTLE TOWER {STR_VAR_1} is the hottest.")
+}
+
+text BattleFrontier_Lounge2_Text_SalonMaidenIsThere {
+    format("Bet you didn't know this!\p One of those top TRAINERS that SCOTT calls the FRONTIER BRAINS is there.\p It's this mysterious TRAINER called the SALON MAIDEN that runs the place.")
+}
+
+text BattleFrontier_Lounge2_Text_SalonMaidenSilverMons {
+    format("Have you battled the SALON MAIDEN?\p When she's measuring up her opponent, she apparently uses these POKéMON:\p A PSYCHIC-type PSI POKéMON, a FIRE-type VOLCANO POKéMON,\l and a NORMAL-type SLEEPING POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_SalonMaidenGoldMons {
+    format("Have you battled the SALON MAIDEN when she's serious?\p When she's battling flat out, she apparently uses these POKéMON:\p A DRAGON & PSYCHIC EON POKéMON, an ELECTRIC-type THUNDER POKéMON,\l and a NORMAL-type SLEEPING POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_DomeAceIsThere {
+    format("Bet you didn't know this!\p One of those top TRAINERS that SCOTT calls the FRONTIER BRAINS is there.\p It's this flamboyant TRAINER called the DOME ACE that runs the place.")
+}
+
+text BattleFrontier_Lounge2_Text_DomeAceSilverMons {
+    format("Have you battled the DOME ACE?\p When he's treating the opponent lightly, he uses these three POKéMON:\p A DRAGON & FLYING DRAGON POKéMON, a WATER & GROUND MUD FISH POKéMON,\l and a FIRE & FLYING FLAME POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_DomeAceGoldMons {
+    format("Have you battled the DOME ACE when he's serious?\p When he's demonstrating his strategy, he uses these three POKéMON:\p A DRAGON & FLYING EON POKéMON, a WATER & GROUND MUD FISH POKéMON,\l and a STEEL- & PSYCHIC-type IRON LEG\l POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_FactoryHeadIsThere {
+    format("Bet you didn't know this!\p One of those top TRAINERS that SCOTT calls the FRONTIER BRAINS is there.\p It's this freaky TRAINER called the FACTORY HEAD that runs the place.")
+}
+
+text BattleFrontier_Lounge2_Text_FactoryHeadSilverMons {
+    format("Have you battled the FACTORY HEAD already?\p Let me think… When he goes to battle, he just gets three rental POKéMON.\p He battles under pretty much the same conditions as you.")
+}
+
+text BattleFrontier_Lounge2_Text_FactoryHeadGoldMons {
+    format("Have you battled the FACTORY HEAD when he's serious?\p When he goes seriously to battle, he still gets three rental POKéMON.\p He battles under virtually the same conditions as you.")
+}
+
+text BattleFrontier_Lounge2_Text_PikeQueenIsThere {
+    format("Bet you didn't know this!\p One of those top TRAINERS that SCOTT calls the FRONTIER BRAINS is there.\p It's this scary TRAINER called the PIKE QUEEN that runs the place.")
+}
+
+text BattleFrontier_Lounge2_Text_PikeQueenSilverMons {
+    format("Have you battled the PIKE QUEEN before?\p When she's in a good mood, they say she uses these three POKéMON:\p A POISON-type FANG SNAKE POKéMON, a BUG & ROCK MOLD POKéMON,\l and a WATER-type TENDER POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_PikeQueenGoldMons {
+    format("Have you battled the PIKE QUEEN when she's serious?\p When she's seriously annoyed, they say she uses these three POKéMON:\p A POISON-type FANG SNAKE POKéMON, a STEEL & GROUND IRON SNAKE POKéMON,\l and a WATER- & FLYING-type ATROCIOUS\l POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_ArenaTycoonIsThere {
+    format("Bet you didn't know this!\p One of those top TRAINERS that SCOTT calls the FRONTIER BRAINS is there.\p It's this cute TRAINER called the ARENA TYCOON that runs the place.")
+}
+
+text BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons {
+    format("Have you battled the ARENA TYCOON before?\p When she's assessing the foe's ability, she supposedly uses these POKéMON:\p A BUG & FIGHTING SINGLE HORN POKéMON, a DARK-type MOONLIGHT POKéMON,\l and a BUG & GHOST SHED POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons {
+    format("Have you battled the ARENA TYCOON when she's serious?\p When she battles for keeps, she supposedly uses these POKéMON:\p A DARK-type MOONLIGHT POKéMON, a GHOST & POISON SHADOW POKéMON\l and a GRASS- & FIGHTING-type\l MUSHROOM POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_PalaceMavenIsThere {
+    format("Bet you didn't know this!\p One of those top TRAINERS that SCOTT calls the FRONTIER BRAINS is there.\p It's this sinister TRAINER called the PALACE MAVEN that runs the place.")
+}
+
+text BattleFrontier_Lounge2_Text_PalaceMavenSilverMons {
+    format("Have you battled the PALACE MAVEN before?\p When he's testing the opponent's spirit, he's said to use these POKéMON:\p A POISON & FLYING-type BAT POKéMON, a NORMAL-type LAZY POKéMON, and a\l WATER- & ICE-type TRANSPORT POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_PalaceMavenGoldMons {
+    format("Have you battled the PALACE MAVEN when he's serious?\p When he throws his entire might into battle, he's said to use these POKéMON:\p A FIRE-type LEGENDARY POKéMON, a NORMAL-type LAZY POKéMON,\l and a WATER-type AURORA POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_PyramidKingIsThere {
+    format("Bet you didn't know this!\p One of those top TRAINERS that SCOTT calls the FRONTIER BRAINS is there.\p It's this fiery-hot TRAINER called the PYRAMID KING that runs the place.")
+}
+
+text BattleFrontier_Lounge2_Text_PyramidKingSilverMons {
+    format("Have you battled the PYRAMID KING before?\p When he's checking the foe's power, he apparently uses these POKéMON:\p A ROCK-type ROCK PEAK POKéMON, an ICE-type ICEBERG POKéMON,\l and a STEEL-type IRON POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_PyramidKingGoldMons {
+    format("Have you battled the PYRAMID KING when he's serious?\p When he's pumped with hot power, he apparently uses these POKéMON:\p An ICE & FLYING FREEZE POKéMON, an ELECTRIC & FLYING ELECTRIC POKéMON,\l and a FIRE- & FLYING-type FLAME\l POKéMON.")
+}
+
+text BattleFrontier_Lounge2_Text_DoubleBattleAdvice1 {
+    format("Sure, there are several places where you can enter DOUBLE BATTLES.\p But the DOUBLE BATTLE ROOMS of the BATTLE TOWER are, like, basic!\p They're where you should learn about how DOUBLE BATTLES are played here\l in the BATTLE FRONTIER.")
+}
+
+text BattleFrontier_Lounge2_Text_DoubleBattleAdvice2 {
+    format("Watch yourself in the battles here.\p I hear there are TRAINERS that have strategies they developed just for\l DOUBLE BATTLES.")
+}
+
+text BattleFrontier_Lounge2_Text_DoubleBattleAdvice3 {
+    format("Once you're confident and comfortable with DOUBLE BATTLES here, you should\l think about challenging other places\l offering DOUBLE BATTLES.")
+}
+
+text BattleFrontier_Lounge2_Text_MultiBattleAdvice {
+    format("All sorts of TRAINERS gather in the BATTLE SALON.\p Just think--you may run into your friends or followers!\l You should look carefully!")
+}
+
+text BattleFrontier_Lounge2_Text_LinkMultiBattleAdvice {
+    format("If you're with a friend, head for the LINK MULTI BATTLE ROOM.\p If you play with a strong friend, you can expect to see tough foes!")
+}
+
+text BattleFrontier_Lounge2_Text_NewsGatheringPower {
+    format("What amazing news-gathering power! My mentor's like none other!")
+}
+
+text BattleFrontier_Lounge2_Text_AmazingPowersOfObservation {
+    format("What amazing powers of observation! My mentor's like none other!")
+}
+
+text BattleFrontier_Lounge2_Text_AmazingPowerOfPersuasion {
+    format("What amazing power of persuasion! My mentor's like none other!")
+}
+
+text BattleFrontier_Lounge2_Text_ThisPlaceIsScaringMe {
+    format("…What is this place? It's scaring me…")
+}
+

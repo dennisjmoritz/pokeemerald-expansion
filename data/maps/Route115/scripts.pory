@@ -1,1 +1,16 @@
-mapscripts Route115_MapScripts {}
+text Route115_EventScript_Marlene {
+    format("Exploring a cave isn't like walking on a road.\p You never know when wild POKéMON will appear. It's full of suspense.$ ROUTE 115 {DOWN_ARROW} RUSTBORO CITY$ METEOR FALLS FALLARBOR TOWN THROUGH HERE")
+}
+
+script Route115_EventScript_RouteSignRustboro {
+    lockall
+    msgbox(Route115_Text_RouteSignRustboro)
+    releaseall
+}
+
+script Route115_EventScript_MeteorFallsSign {
+    lockall
+    msgbox(Route115_Text_MeteorFallsSign)
+    releaseall
+}
+

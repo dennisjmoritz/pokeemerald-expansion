@@ -1,1 +1,4 @@
-mapscripts VerdanturfTown_BattleTentCorridor_MapScripts {}
+text VerdanturfTown_BattleTentCorridor_EventScript_EnterCorridor {
+    format("Which CONTEST are you entering? Want a piece of advice?\p In any CONTEST, for example, a CUTE CONTEST, I don't think they judge you\l only on cuteness in the first round.\p You need to work out ways for raising POKéMON better.$ I raised my POKéMON to be cute.\p I found out you can put POKéMON in a CONTEST for cuteness!\p I'm so glad I raised my POKéMON with loving care…$ My POKéMON rules!\p It's cool, tough yet beautiful, cute, and smart. It's complete!\p I may as well go for wins in every single CONTEST.$ POKéMON CONTESTS NORMAL RANK STAGE!")
+}
+

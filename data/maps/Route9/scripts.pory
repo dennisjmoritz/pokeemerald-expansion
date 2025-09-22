@@ -1,1 +1,118 @@
-mapscripts Route9_MapScripts {}
+text Route9_Text_AliciaIntro {
+    format("You have POKéMON with you! You're mine!")
+}
+
+text Route9_Text_AliciaDefeat {
+    format("You deceived me…")
+}
+
+text Route9_Text_AliciaPostBattle {
+    format("The tunnel coming up is pitch-black inside.\p You'll need FLASH to get through there.")
+}
+
+text Route9_Text_ChrisIntro {
+    format("Who's that walking there with those good-looking POKéMON?")
+}
+
+text Route9_Text_ChrisDefeat {
+    format("Out like a light!")
+}
+
+text Route9_Text_ChrisPostBattle {
+    format("Keep walking!")
+}
+
+text Route9_Text_DrewIntro {
+    format("I'm taking the ROCK TUNNEL to go to LAVENDER…")
+}
+
+text Route9_Text_DrewDefeat {
+    format("Can't measure up…")
+}
+
+text Route9_Text_DrewPostBattle {
+    format("Are you off to ROCK TUNNEL, too?")
+}
+
+text Route9_Text_CaitlinIntro {
+    format("Don't you dare patronize me!")
+}
+
+text Route9_Text_CaitlinDefeat {
+    format("No! You're too much.")
+}
+
+text Route9_Text_CaitlinPostBattle {
+    format("You're obviously talented. Good luck to you!")
+}
+
+text Route9_Text_JeremyIntro {
+    format("Bwahaha! Great! I was bored, eh!")
+}
+
+text Route9_Text_JeremyDefeat {
+    format("Keep it coming, eh!\p Oh wait. I'm out of POKéMON!")
+}
+
+text Route9_Text_JeremyPostBattle {
+    format("You sure had guts standing up to me there, eh?")
+}
+
+text Route9_Text_BriceIntro {
+    format("Hahaha! Aren't you a little toughie!")
+}
+
+text Route9_Text_BriceDefeat {
+    format("What's that?")
+}
+
+text Route9_Text_BricePostBattle {
+    format("Hahaha! Kids should be tough!")
+}
+
+text Route9_Text_BrentIntro {
+    format("I got up early every day to raise my POKéMON from cocoons!")
+}
+
+text Route9_Text_BrentDefeat {
+    format("WHAT?\p What a total waste of time!")
+}
+
+text Route9_Text_BrentPostBattle {
+    format("I have to collect more than bugs to get stronger…")
+}
+
+text Route9_Text_AlanIntro {
+    format("Hahahaha! Bring it on!")
+}
+
+text Route9_Text_AlanDefeat {
+    format("Hahahaha! You beat me fair!")
+}
+
+text Route9_Text_AlanPostBattle {
+    format("Hahahaha! Us hearty guys always laugh!")
+}
+
+text Route9_Text_ConnerIntro {
+    format("Go, my super BUG POKéMON!")
+}
+
+text Route9_Text_ConnerDefeat {
+    format("My bugs…")
+}
+
+text Route9_Text_ConnerPostBattle {
+    format("If you don't like BUG POKéMON, you bug me!")
+}
+
+text Route9_Text_RouteSign {
+    format("ROUTE 9 CERULEAN CITY - ROCK TUNNEL")
+}
+
+script Route9_EventScript_RouteSign {
+    lockall
+    msgbox(Route9_Text_RouteSign)
+    releaseall
+}
+

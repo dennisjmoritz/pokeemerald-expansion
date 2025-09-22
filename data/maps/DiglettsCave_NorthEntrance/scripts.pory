@@ -1,1 +1,4 @@
-mapscripts DiglettsCave_NorthEntrance_MapScripts {}
+text DiglettsCave_NorthEntrance_RockTunnelPitchBlack {
+    format("I went inside ROCK TUNNEL, but it's pitch-black and scary in there.\p If I could get a POKéMON to use FLASH and light it up…")
+}
+

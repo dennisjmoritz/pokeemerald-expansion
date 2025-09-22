@@ -1,1 +1,12 @@
-mapscripts SevenIsland_Mart_MapScripts {}
+text SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn {
+    format("POKéMON have personalities of their own, just like people.\p My PIKACHU has a HASTY nature, so it grew to be a speedy POKéMON.")
+}
+
+text SevenIsland_Mart_Text_PreparationsCompleteForRuins {
+    format("Okay, preparations are complete for me to explore the RUINS.")
+}
+
+text SevenIsland_Mart_Text_NeedToFishOnSevenIsland {
+    format("I need to fish on SEVEN ISLAND.\p That will complete my fishing tour of the SEVII ISLANDS.\p I'd better stock up on some POKé BALLS first, though.")
+}
+

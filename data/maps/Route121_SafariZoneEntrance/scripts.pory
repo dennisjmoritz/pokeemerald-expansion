@@ -1,1 +1,6 @@
-mapscripts Route121_SafariZoneEntrance_MapScripts {}
+script Route121_SafariZoneEntrance_EventScript_TrainerTipSign {
+    lockall
+    msgbox(Route121_SafariZoneEntrance_Text_TrainerTip)
+    releaseall
+}
+

@@ -1,1 +1,12 @@
-mapscripts Route2_ViridianForest_NorthEntrance_MapScripts {}
+text Route2_ViridianForest_NorthEntrance_Text_ManyMonsOnlyInForests {
+    format("Many POKéMON live only in forests and caves.\p You need to be persistent and look everywhere to get different kinds.")
+}
+
+text Route2_ViridianForest_NorthEntrance_Text_CanCutSkinnyTrees {
+    format("Have you noticed the skinny trees on the roadside?\p They can be cut down by a special POKéMON move, I hear.")
+}
+
+text Route2_ViridianForest_NorthEntrance_Text_CanCancelEvolution {
+    format("Do you know the evolution-cancel technique?\p When a POKéMON is evolving, you can stop the process.\p It's a technique for raising POKéMON the way they are.")
+}
+

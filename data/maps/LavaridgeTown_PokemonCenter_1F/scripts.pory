@@ -1,1 +1,4 @@
-mapscripts LavaridgeTown_PokemonCenter_1F_MapScripts {}
+text LavaridgeTown_PokemonCenter_1F_EventScript_Gentleman {
+    format("I think POKéMON get closer to their TRAINERS if they spend time together.\p The longer the better. That's what I think.$ It's sort of magical how just sitting in a hot-spring pool can invigorate.\p I wish I could let my POKéMON soak, too.$ Hohoho! Hey, kid, you can reach the hot springs from here.\p If POKéMON are getting rest, so too should their TRAINERS.")
+}
+

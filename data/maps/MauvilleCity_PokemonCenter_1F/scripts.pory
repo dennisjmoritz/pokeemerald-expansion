@@ -1,1 +1,4 @@
-mapscripts MauvilleCity_PokemonCenter_1F_MapScripts {}
+text MauvilleCity_PokemonCenter_1F_EventScript_Youngster {
+    format("That man over there, he says weird things!\p He's funny in a weird way. I doubt I'll forget about him!$ When I accessed the RECORD CORNER, the data for what's hot in DEWFORD\l got updated.\p Now that bit of data is the same as my friend's!$ A RECORD CORNER opened upstairs in the POKéMON CENTER.\p I don't know what it's about, but it sounds fun. I'll go check it out!")
+}
+

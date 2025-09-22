@@ -1,1 +1,4 @@
-mapscripts DewfordTown_PokemonCenter_1F_MapScripts {}
+text DewfordTown_PokemonCenter_1F_EventScript_Man {
+    format("There's a stone cavern at the edge of town.\p I've heard you can find rare stones there.$ Even if a POKéMON faints and can't battle, it can still use a move learned\l from a HIDDEN MACHINE (HM).")
+}
+

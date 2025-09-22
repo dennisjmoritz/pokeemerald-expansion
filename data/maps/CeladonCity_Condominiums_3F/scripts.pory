@@ -1,1 +1,84 @@
-mapscripts CeladonCity_Condominiums_3F_MapScripts {}
+text CeladonCity_Condominiums_3F_Text_ImTheProgrammer {
+    format("Me? I'm the programmer!")
+}
+
+text CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist {
+    format("I'm the graphic artist! I drew you!")
+}
+
+text CeladonCity_Condominiums_3F_Text_IWroteTheStory {
+    format("I wrote the story! Isn't ERIKA cute?\p I like MISTY a lot, too! Oh, and SABRINA, I like her!")
+}
+
+text CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex {
+    format("Is that right?\p I'm the game designer!\p Filling up your POKéDEX is tough, but don't quit!\p When you finish, come tell me!")
+}
+
+text CeladonCity_Condominiums_3F_Text_CompletedPokedexCongratulations {
+    format("Wow! Excellent! You completed your POKéDEX!\l Congratulations!\l …")
+}
+
+text CeladonCity_Condominiums_3F_Text_ItsTheGameProgram {
+    format("It's the game program! Messing with it could bug out the game!")
+}
+
+text CeladonCity_Condominiums_3F_Text_SomeonesPlayingGame {
+    format("Someone's playing a game instead of working!")
+}
+
+text CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding {
+    format("It's the script! Better not look at the ending!")
+}
+
+text CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom {
+    format("GAME FREAK Development Room")
+}
+
+script CeladonCity_Condominiums_3F_EventScript_DevelopmentRoomSign {
+    lockall
+    msgbox(CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom)
+    releaseall
+}
+
+script CeladonCity_Condominiums_3F_EventScript_Computer1 {
+    lockall
+    msgbox(CeladonCity_Condominiums_3F_Text_ItsTheGameProgram)
+    releaseall
+}
+
+script CeladonCity_Condominiums_3F_EventScript_Computer2 {
+    lockall
+    msgbox(CeladonCity_Condominiums_3F_Text_SomeonesPlayingGame)
+    releaseall
+}
+
+script CeladonCity_Condominiums_3F_EventScript_Computer3 {
+    lockall
+    msgbox(CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding)
+    releaseall
+}
+
+script CeladonCity_Condominiums_3F_EventScript_DevelopmentRoomSign {
+    lockall
+    msgbox(CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom)
+    releaseall
+}
+
+script CeladonCity_Condominiums_3F_EventScript_Computer3 {
+    lockall
+    msgbox(CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding)
+    releaseall
+}
+
+script CeladonCity_Condominiums_3F_EventScript_Computer1 {
+    lockall
+    msgbox(CeladonCity_Condominiums_3F_Text_ItsTheGameProgram)
+    releaseall
+}
+
+script CeladonCity_Condominiums_3F_EventScript_Computer2 {
+    lockall
+    msgbox(CeladonCity_Condominiums_3F_Text_SomeonesPlayingGame)
+    releaseall
+}
+

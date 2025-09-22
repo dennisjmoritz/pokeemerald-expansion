@@ -1,1 +1,11 @@
-mapscripts VerdanturfTown_BattleTentLobby_MapScripts {}
+text VerdanturfTown_BattleTentLobby_EventScript_ExitRules {
+    format("If it doesn't like a certain move, a POKéMON will be reluctant to use it.\p It doesn't matter how strong it is, either.\p For example, a POKéMON with a GENTLE nature probably won't enjoy hurting\l its opponents.\p If it can't seem to live up to its potential, it's probably failing at\l using a disliked move against its will.$ My big sister is gentle usually. But when she gets angry,\l she's really, really scary!\p I bet a gentle POKéMON will be scary if it gets angry!$ My feelings toward my POKéMON… The attraction runs deep…\p Oh, hi, you didn't see that, did you? Well, it doesn't matter.\p How would you like this TM for your POKéMON?$ My feelings toward my POKéMON… I'm sure the attraction is mutual!\p They battle exactly the way I want them to!$ What kind of moves have you taught your POKéMON?\p I think you would give yourself an advantage if they knew how to\l heal or protect themselves.$ SCOTT: Hey there, {PLAYER}{KUN}! I thought I might see you here.\p A BATTLE TENT's a place where you can meet tough TRAINERS.\p It doesn't matter what the rules are, or how battles are waged, either.\p {PLAYER}{KUN}, I expect you to do the best you can!$ SCOTT: I visit here regularly in hopes of seeing tough TRAINERS in action\l in whatever the situation.")
+}
+
+script VerdanturfTown_BattleTentLobby_EventScript_RulesBoard {
+    // Also calls: goto VerdanturfTown_BattleTentLobby_EventScript_ReadRulesBoard
+    lockall
+    msgbox(VerdanturfTown_BattleTentLobby_Text_RulesAreListed)
+    releaseall
+}
+

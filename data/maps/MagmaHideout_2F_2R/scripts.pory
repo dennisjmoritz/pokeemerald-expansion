@@ -1,1 +1,4 @@
-mapscripts MagmaHideout_2F_2R_MapScripts {}
+text MagmaHideout_2F_2R_EventScript_Grunt8 {
+    format("I don't have a bone to pick with you. I'm just following orders!$ I may have lost, but…$ We dug up something beyond belief! And, we got the BLUE ORB!\p All that's left is for our leader to… Fufufu… Fwahahaha!$ I can't stand heat. Maybe I should've joined TEAM AQUA instead…$ Yeah, I really may not be right for TEAM MAGMA…$ Don't you get lonely for the sea being in a place like this?$ You can hear tremors here sometimes.\p Could it be the volcano rattling? Or is it GROU…\p Whoops! No, no, never mind!$ You're a fiery battler. Just like a volcano!$ You just happened to win this time, but that doesn't matter.\p TEAM MAGMA's goal is about to be reached!$ One of our guys was freaking out that he lost his MAGMA EMBLEM…\p Wait a minute! Was it you who found it?$ I'm having trouble believing this…$ I'm getting this feeling that our plan is going to end in failure…")
+}
+

@@ -1,1 +1,16 @@
-mapscripts Route16_NorthEntrance_1F_MapScripts {}
+text Route16_NorthEntrance_1F_Text_NoPedestriansOnCyclingRoad {
+    format("No pedestrians are allowed on CYCLING ROAD!")
+}
+
+text Route16_NorthEntrance_1F_Text_CyclingRoadIsDownhillCourse {
+    format("CYCLING ROAD is a downhill course by the sea. It's a great ride.")
+}
+
+text Route16_NorthEntrance_1F_Text_ExcuseMeWaitUp {
+    format("Excuse me! Wait up, please!")
+}
+
+text Route16_NorthEntrance_1F_Text_HowdYouGetInGoodEffort {
+    format("How'd you get in? Good effort!")
+}
+

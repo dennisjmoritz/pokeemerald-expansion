@@ -1,1 +1,4 @@
-mapscripts SootopolisCity_House3_MapScripts {}
+text SootopolisCity_House3_EventScript_Girl {
+    format("You're a POKéMON TRAINER, aren't you?\p SOOTOPOLIS's JUAN has many fans. Even more than his student WALLACE!\p Do you have any?$ Oh, then you must be pretty strong.$ Oh, dear… That's a little lonesome.\p Try working a little harder to get a fan following.$ Dedicated fans come over from even outside of HOENN.\p It was really wild when I went to the TRAINER FAN CLUB in LILYCOVE.")
+}
+

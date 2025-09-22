@@ -1,1 +1,74 @@
-mapscripts LilycoveCity_LilycoveMuseum_2F_MapScripts {}
+text LilycoveCity_LilycoveMuseum_2F_EventScript_ShowToughPainting {
+    format("This is our special exhibit hall.$ As you can plainly see, there is not a single painting on exhibit.\p Here, I don't wish to exhibit works of so-called classical art.\p Such classical works you can see on our ground floor.\p I wish to exhibit work that is far different from the classics.\p Art, after all, is not restricted to old, famous works!\p This exhibit hall, I wish to fill it with…\p Modern and vibrant artworks of POKéMON seemingly ready to spring\l forth into glorious life!$ I beg your pardon. I didn't intend to monopolize the conversation.\p Now, as you are young, and yet obviously well traveled…\p You must encounter lively POKéMON and works of art depicting them.\p If you were to come across such a painting, may we ask you to obtain\l the artist's permission to exhibit\l it here?$ I wish to fill this exhibit hall with modern and vibrant paintings of\l POKéMON.$ Thanks to you, we've added a new painting to our collection!\p I've heard it depicts your POKéMON. Truly magnificent!\p Thank you so very, very much!$ Ah! It's you! {PLAYER}!$ Isn't this marvelous? This collection of paintings!\p Each one of them flawless! None better than another!\p These paintings have attracted more guests to our ART MUSEUM.\p Sincerely, I thank you, {PLAYER}. This is my dream come true!$ This is merely a token of my gratitude.$ I will keep this for you until we meet again.$ Ah, so good to see you, {PLAYER}!\p It's an honor to have you visit us on your busy journeys.\p Please, relax and do enjoy your visit with us.$ It's a picture frame with pink-colored adornments.$ It's a picture frame with yellow-colored adornments.$ It's a picture frame with blue-colored adornments.$ It's a picture frame with red-colored adornments.$ It's a picture frame with green-colored adornments.$ It's a painting of POKéMON.$ I've been away awhile, so the new paintings up here surprised me.\p I wish someone would paint my POKéMON this pretty.$ Well… So this is where they show the topical POKéMON paintings.\p I see, these new paintings are indeed rather amusing.$ Wow, is that right? These paintings are of your POKéMON.\p Isn't that just the ultimate joy for a TRAINER?")
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_CutePainting {
+    // Also calls: goto_if_set FLAG_CUTE_PAINTING_MADE
+    lockall
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsPinkPictureFrame)
+    releaseall
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_CutePainting {
+    // Also calls: goto_if_set FLAG_CUTE_PAINTING_MADE
+    lockall
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsPinkPictureFrame)
+    releaseall
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_ToughPainting {
+    // Also calls: goto_if_set FLAG_TOUGH_PAINTING_MADE
+    lockall
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsYellowPictureFrame)
+    releaseall
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_ToughPainting {
+    // Also calls: goto_if_set FLAG_TOUGH_PAINTING_MADE
+    lockall
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsYellowPictureFrame)
+    releaseall
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_CoolPainting {
+    // Also calls: goto_if_set FLAG_COOL_PAINTING_MADE
+    lockall
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsRedPictureFrame)
+    releaseall
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_CoolPainting {
+    // Also calls: goto_if_set FLAG_COOL_PAINTING_MADE
+    lockall
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsRedPictureFrame)
+    releaseall
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_BeautyPainting {
+    // Also calls: goto_if_set FLAG_BEAUTY_PAINTING_MADE
+    lockall
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsBluePictureFrame)
+    releaseall
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_BeautyPainting {
+    // Also calls: goto_if_set FLAG_BEAUTY_PAINTING_MADE
+    lockall
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsBluePictureFrame)
+    releaseall
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_SmartPainting {
+    // Also calls: goto_if_set FLAG_SMART_PAINTING_MADE
+    lockall
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsGreenPictureFrame)
+    releaseall
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_SmartPainting {
+    // Also calls: goto_if_set FLAG_SMART_PAINTING_MADE
+    lockall
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsGreenPictureFrame)
+    releaseall
+}
+

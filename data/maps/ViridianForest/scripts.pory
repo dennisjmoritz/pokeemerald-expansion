@@ -1,1 +1,128 @@
-mapscripts ViridianForest_MapScripts {}
+text ViridianForest_Text_FriendsItchingToBattle {
+    format("I came here with some friends to catch us some BUG POKéMON!\p They're all itching to get into some POKéMON battles!")
+}
+
+text ViridianForest_Text_RickIntro {
+    format("Hey! You have POKéMON! Come on!\l Let's battle 'em!")
+}
+
+text ViridianForest_Text_RickDefeat {
+    format("No! CATERPIE can't hack it!")
+}
+
+text ViridianForest_Text_RickPostBattle {
+    format("Ssh! You'll scare the bugs away. Another time, okay?")
+}
+
+text ViridianForest_Text_DougIntro {
+    format("Yo! You can't jam out if you're a\l POKéMON TRAINER!")
+}
+
+text ViridianForest_Text_DougDefeat {
+    format("Huh? I ran out of POKéMON!")
+}
+
+text ViridianForest_Text_DougPostBattle {
+    format("That totally stinks! I'm going to catch some stronger ones!")
+}
+
+text ViridianForest_Text_SammyIntro {
+    format("Hey, wait up! What's the hurry? Why the rush?")
+}
+
+text ViridianForest_Text_SammyDefeat {
+    format("I give! You're good at this!")
+}
+
+text ViridianForest_Text_SammyPostBattle {
+    format("Sometimes, you can find stuff on the ground.\p I'm looking for the stuff I dropped. Can you help me?")
+}
+
+text ViridianForest_Text_AnthonyIntro {
+    format("I might be little, but I won't like it if you go easy on me!")
+}
+
+text ViridianForest_Text_AnthonyDefeat {
+    format("Oh, boo. Nothing went right.")
+}
+
+text ViridianForest_Text_AnthonyPostBattle {
+    format("I lost some of my allowance…")
+}
+
+text ViridianForest_Text_CharlieIntro {
+    format("Did you know that POKéMON evolve?")
+}
+
+text ViridianForest_Text_CharlieDefeat {
+    format("Oh! I lost!")
+}
+
+text ViridianForest_Text_CharliePostBattle {
+    format("BUG POKéMON evolve quickly. They're a lot of fun!")
+}
+
+text ViridianForest_Text_RanOutOfPokeBalls {
+    format("I was throwing POKé BALLS to catch POKéMON, and I ran out.\p That's why you can never have too many POKé BALLS.")
+}
+
+text ViridianForest_Text_AvoidGrassyAreasWhenWeak {
+    format("TRAINER TIPS\p If your POKéMON are weak and you want to avoid battles, stay away\l from grassy areas!")
+}
+
+text ViridianForest_Text_UseAntidoteForPoison {
+    format("For poison, use ANTIDOTE! Get it at POKéMON MARTS!")
+}
+
+text ViridianForest_Text_ContactOakViaPCToRatePokedex {
+    format("TRAINER TIPS\p Contact PROF. OAK via a PC to get your POKéDEX evaluated!")
+}
+
+text ViridianForest_Text_CantCatchOwnedMons {
+    format("TRAINER TIPS\p You can't catch a POKéMON that belongs to someone else.\p Throw POKé BALLS only at wild POKéMON to catch them!")
+}
+
+text ViridianForest_Text_WeakenMonsBeforeCapture {
+    format("TRAINER TIPS\p Weaken POKéMON before attempting capture!\p When healthy, they may escape!")
+}
+
+text ViridianForest_Text_LeavingViridianForest {
+    format("LEAVING VIRIDIAN FOREST PEWTER CITY AHEAD")
+}
+
+script ViridianForest_EventScript_TrainerTips1 {
+    lockall
+    msgbox(ViridianForest_Text_AvoidGrassyAreasWhenWeak)
+    releaseall
+}
+
+script ViridianForest_EventScript_TrainerTips3 {
+    lockall
+    msgbox(ViridianForest_Text_ContactOakViaPCToRatePokedex)
+    releaseall
+}
+
+script ViridianForest_EventScript_TrainerTips4 {
+    lockall
+    msgbox(ViridianForest_Text_CantCatchOwnedMons)
+    releaseall
+}
+
+script ViridianForest_EventScript_ExitSign {
+    lockall
+    msgbox(ViridianForest_Text_LeavingViridianForest)
+    releaseall
+}
+
+script ViridianForest_EventScript_TrainerTips2 {
+    lockall
+    msgbox(ViridianForest_Text_UseAntidoteForPoison)
+    releaseall
+}
+
+script ViridianForest_EventScript_TrainerTips5 {
+    lockall
+    msgbox(ViridianForest_Text_WeakenMonsBeforeCapture)
+    releaseall
+}
+

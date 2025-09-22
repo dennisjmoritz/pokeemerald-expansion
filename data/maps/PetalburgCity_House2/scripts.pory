@@ -1,1 +1,4 @@
-mapscripts PetalburgCity_House2_MapScripts {}
+text PetalburgCity_House2_EventScript_SchoolKid {
+    format("NORMAN became our town's new GYM LEADER.\p I think he called his family over from somewhere far away.$ I battled NORMAN once, but, whew, he was way too strong.\p How would I put it?\p I just got the feeling that he lives for POKéMON.")
+}
+

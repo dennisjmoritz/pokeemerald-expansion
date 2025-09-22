@@ -1,1 +1,4 @@
-mapscripts SevenIsland_SevaultCanyon_TanobyKey_MapScripts {}
+text SevenIsland_SevaultCanyon_TanobyKey_Text_MysteriousRumbleFarAway {
+    format("A mysterious rumble echoed somewhere far away.")
+}
+

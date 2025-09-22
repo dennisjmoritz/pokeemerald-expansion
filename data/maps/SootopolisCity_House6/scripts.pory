@@ -1,1 +1,4 @@
-mapscripts SootopolisCity_House6_MapScripts {}
+text SootopolisCity_House6_EventScript_NoRoomForWailmerDoll {
+    format("Hello! You're our first guest in a good while.\p You've brightened up my day, so I'll give you a big WAILMER DOLL.$ Take good care of it!$ Oh, you want it, but not right now? Okay, then I'll hold it for you.$ Are you sure? You don't want this DOLL?$ I love plush DOLLS!")
+}
+

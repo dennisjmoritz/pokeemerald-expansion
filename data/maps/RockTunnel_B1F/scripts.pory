@@ -1,1 +1,96 @@
-mapscripts RockTunnel_B1F_MapScripts {}
+text RockTunnel_B1F_Text_SofiaIntro {
+    format("Do you know how you can avoid getting lost in the mountains?\p You can bend twigs as trail markers.")
+}
+
+text RockTunnel_B1F_Text_SofiaDefeat {
+    format("Ohhh! I did my best!")
+}
+
+text RockTunnel_B1F_Text_SofiaPostBattle {
+    format("I want to go home!")
+}
+
+text RockTunnel_B1F_Text_DudleyIntro {
+    format("Hahaha! Can you beat my power?")
+}
+
+text RockTunnel_B1F_Text_DudleyDefeat {
+    format("Oops! Outmuscled!")
+}
+
+text RockTunnel_B1F_Text_DudleyPostBattle {
+    format("I go for power because I hate thinking.")
+}
+
+text RockTunnel_B1F_Text_CooperIntro {
+    format("You have a POKéDEX? I want one, too.")
+}
+
+text RockTunnel_B1F_Text_CooperDefeat {
+    format("Shoot! I am so jealous!")
+}
+
+text RockTunnel_B1F_Text_CooperPostBattle {
+    format("When you finish your POKéDEX, can I have it?")
+}
+
+text RockTunnel_B1F_Text_SteveIntro {
+    format("Um… Do you know about POKéMON cosplay?")
+}
+
+text RockTunnel_B1F_Text_SteveDefeat {
+    format("Well, that's that.")
+}
+
+text RockTunnel_B1F_Text_StevePostBattle {
+    format("POKéMON cosplay is dressing up as POKéMON for fun.\p CLEFAIRY is a favorite.")
+}
+
+text RockTunnel_B1F_Text_AllenIntro {
+    format("My POKéMON techniques will leave you crying!")
+}
+
+text RockTunnel_B1F_Text_AllenDefeat {
+    format("I give! You're a better technician!")
+}
+
+text RockTunnel_B1F_Text_AllenPostBattle {
+    format("In mountains, you'll often find ROCK-type POKéMON.")
+}
+
+text RockTunnel_B1F_Text_MarthaIntro {
+    format("I don't often come here, but I will battle you.")
+}
+
+text RockTunnel_B1F_Text_MarthaDefeat {
+    format("Oh! I lost!")
+}
+
+text RockTunnel_B1F_Text_MarthaPostBattle {
+    format("I like tiny POKéMON. Big ones are too scary!")
+}
+
+text RockTunnel_B1F_Text_EricIntro {
+    format("Hit me with your best shot!")
+}
+
+text RockTunnel_B1F_Text_EricDefeat {
+    format("Fired away!")
+}
+
+text RockTunnel_B1F_Text_EricPostBattle {
+    format("I'll raise my POKéMON to beat yours, kid.")
+}
+
+text RockTunnel_B1F_Text_WinstonIntro {
+    format("I draw illustrations of POKéMON when I'm home.")
+}
+
+text RockTunnel_B1F_Text_WinstonDefeat {
+    format("Whew… I'm exhausted…")
+}
+
+text RockTunnel_B1F_Text_WinstonPostBattle {
+    format("I'm an artist, not a fighter. I'll go home to draw.")
+}
+

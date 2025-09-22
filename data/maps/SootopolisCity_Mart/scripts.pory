@@ -1,1 +1,4 @@
-mapscripts SootopolisCity_Mart_MapScripts {}
+text SootopolisCity_Mart_EventScript_GentlemanNoLegendaries {
+    format("PP UP is great!\p It raises the POWER POINTS, the PP, of a POKéMON move.$ What… What is happening?\p I really want to know, but it's too scary to go outside.$ Do you know FULL RESTORE?\p Full restoration of HP! Eradication of all status problems!\p It's truly an item of your dreams!$ This weather… Did something awaken?")
+}
+

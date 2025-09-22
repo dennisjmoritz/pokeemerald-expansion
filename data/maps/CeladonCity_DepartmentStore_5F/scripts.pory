@@ -1,1 +1,18 @@
-mapscripts CeladonCity_DepartmentStore_5F_MapScripts {}
+text CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers {
+    format("POKéMON stat enhancers can be bought only here.\p HP UP increases the base HP of a POKéMON.\p CALCIUM raises the base SP. ATK stat of one POKéMON.\p ZINC boosts the base SP. DEF stat of one POKéMON.\p CARBOS enhances the base SPEED stat.")
+}
+
+text CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers {
+    format("I'm here for POKéMON stat enhancers.\p PROTEIN increases the base ATTACK power.\p IRON increases the base DEFENSE stat.")
+}
+
+text CeladonCity_DepartmentStore_5F_Text_Drugstore {
+    format("5F: DRUGSTORE")
+}
+
+script CeladonCity_DepartmentStore_5F_EventScript_FloorSign {
+    lockall
+    msgbox(CeladonCity_DepartmentStore_5F_Text_Drugstore)
+    releaseall
+}
+

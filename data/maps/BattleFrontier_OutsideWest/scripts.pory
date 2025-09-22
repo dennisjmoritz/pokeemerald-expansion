@@ -1,1 +1,22 @@
-mapscripts BattleFrontier_OutsideWest_MapScripts {}
+text BattleFrontier_OutsideWest_EventScript_PokefanF {
+    format("This is the BATTLE DOME! Your path to the invincible superstar!$ This is the BATTLE FACTORY! Seek out the toughest POKéMON!$ This is the BATTLE PIKE! Choose one of three paths!$ This is the BATTLE TOWER.\p TRAINERS bring their best-raised POKéMON for elimination-style matches.$ Hello, are you here for the ferry? May I see your TICKET?$ {PLAYER} doesn't have the TICKET…\p I'm terribly sorry.\p You must have a TICKET to board the ferry.$ {PLAYER} flashed the TICKET.\p Perfect! That's all you need!\p And where would you like to go?$ SLATEPORT CITY it is, then!$ LILYCOVE CITY it is, then!$ Please sail with us another time!$ Please board the ferry and wait for departure.$ Then, where would you like to go?$ I'm the best out of all my friends. But here…\l I've been useless!$ I want to go to the BATTLE TOWER, but I can't find it even though I have\l a map of the BATTLE FRONTIER.\p This place is just too big!$ I wanted to take a challenge as soon as I arrived here.\p But on the way, I got seasick… Urrrrp…$ It's not as if just anyone can come here, you know?\p Only those TRAINERS who've been recognized as tough are brought here.\p That's why many TRAINERS don't even know about the BATTLE FRONTIER.$ Hey, bro…\p Are you sure we can make challenges even if we don't have any POKéMON?$ Uh… I'm sure it'll be okay.\p I think…\p But remember that big scary guy? He said, “I'll lend you POKéMON!”$ That's the BATTLE FACTORY. You can rent strong POKéMON there.\p But it makes me wonder. Who's raising those rental POKéMON?$ I'm scared of going into the BATTLE PIKE because of SEVIPER…\p B-but I came all the way here, so I will try to conquer everything!\l …Shudder…$ Let's play rock, paper, scissors! One, two, three!\p … … … … … …$ Yay! I won! I will take the BATTLE PIKE challenge!$ Oh, no… I lost.\p I guess I'm not very lucky today. I'll put off my BATTLE PIKE challenge\l until tomorrow.$ I believe I'm the only person here who, for some unknown reason, would choose\l fishing over battling.\p Huh? You can't catch anything here? That's disappointing…$ Today, I'm going to keep battling, no matter what, until I get a Symbol.$ Oh? You're off to challenge the BATTLE DOME?\p I'll wish you the best of luck. Let us both win our way up and meet\l in challenges.$ Grandpa, over here! The BATTLE DOME is here!\l Go get 'em, Grandpa!$ Ah, so this here is the BATTLE DOME? I won't let GENTLEMEN beat me!\p But where is the entrance?$ There used to be nothing here not all that long ago.\p But, now look at this place! Amazing! I'll bring my mother out to see this.$ I've finally arrived at the BATTLE FRONTIER!\p I'm sure to grab attention with my looks and ability!$ Munch, munch…\p It looks like this square's filled with tough people.\p Munch, munch…$ Crunch, munch…\p A while back, I met this older girl at the BATTLE PIKE.\p She had these eyes that were scary in a real ornery way.\p Crunch, munch…\p She got all furious: “Will you quit eating!” Then she whaled on me.\p It was a hair-raising kind of scary experience, sure enough.\p Crunch, munch…$ Huh? Will you listen to yourself? That's nothing!\p Why, the last time I cheered for him, our eyes met and sparks flew!$ Whaaaaaat?! Pfft!\p That only happened because I happened to be sitting next to you!\p The DOME ACE only looked our way because my cheering was so loud!$ Oh, shush! Keep that racket down!\p You fair-weather fans should stick to cheering for some GYM LEADER!\p The DOME ACE is mine! The only idol for me!$ Those people squabbling over there…\p It's hard to believe, but they once were TRAINERS, and good ones, too.\p They used to be incredibly tough, and they were famous, too.\p But they were obliterated by this certain TRAINER at a tournament.\p They were so thoroughly whipped, they became smitten by the TRAINER.\p Now they're just fans of the TRAINER. They go cheer for their idol at the\l BATTLE DOME every day now.$ I heard a rumor that someone saw a POKéMON with an unusually long tail\l somewhere in the BATTLE FRONTIER.\p It must be adorable. I'm sure of it…\p Oh, challenges can wait. I feel driven to find the delightful creature!")
+}
+
+script BattleFrontier_OutsideWest_EventScript_BattleDomeSign {
+    lockall
+    msgbox(BattleFrontier_OutsideWest_Text_BattleDomeSign)
+    releaseall
+}
+
+script BattleFrontier_OutsideWest_EventScript_BattlePikeSign {
+    lockall
+    msgbox(BattleFrontier_OutsideWest_Text_BattlePikeSign)
+    releaseall
+}
+
+script BattleFrontier_OutsideWest_EventScript_BattleFactorySign {
+    lockall
+    msgbox(BattleFrontier_OutsideWest_Text_BattleFactorySign)
+    releaseall
+}
+

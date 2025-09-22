@@ -1,1 +1,74 @@
-mapscripts SilphCo_2F_MapScripts {}
+text SilphCo_2F_Text_ConnorIntro {
+    format("Help! I'm a SILPH employee.")
+}
+
+text SilphCo_2F_Text_ConnorDefeat {
+    format("How did you know I was a ROCKET?")
+}
+
+text SilphCo_2F_Text_ConnorPostBattle {
+    format("I work for both SILPH and TEAM ROCKET.")
+}
+
+text SilphCo_2F_Text_JerryIntro {
+    format("It's off-limits here! Go home!")
+}
+
+text SilphCo_2F_Text_JerryDefeat {
+    format("You're good.")
+}
+
+text SilphCo_2F_Text_JerryPostBattle {
+    format("Can you solve the maze in here? It's not easy, I tell you!")
+}
+
+text SilphCo_2F_Text_Grunt1Intro {
+    format("No kids are allowed in here!")
+}
+
+text SilphCo_2F_Text_Grunt1Defeat {
+    format("Tough!")
+}
+
+text SilphCo_2F_Text_Grunt1PostBattle {
+    format("Diamond-shaped tiles are teleport blocks.\p They're transporters for this high-tech building.")
+}
+
+text SilphCo_2F_Text_Grunt2Intro {
+    format("Hey, kid! What are you wandering here for?")
+}
+
+text SilphCo_2F_Text_Grunt2Defeat {
+    format("I goofed!")
+}
+
+text SilphCo_2F_Text_Grunt2PostBattle {
+    format("SILPH CO. will be associated with TEAM ROCKET!")
+}
+
+text Text_ThunderWaveTeach {
+    format("Eeek! No! Stop! Help!\p Oh, you're not with TEAM ROCKET. I'm sorry, I thought…\p Will you forgive me if I teach you the THUNDER WAVE technique?")
+}
+
+text Text_ThunderWaveDeclined {
+    format("Oh… But THUNDER WAVE is convenient…")
+}
+
+text Text_ThunderWaveWhichMon {
+    format("Which POKéMON should I teach THUNDER WAVE?")
+}
+
+text Text_ThunderWaveTaught {
+    format("THUNDER WAVE causes paralysis in the target POKéMON.\p A paralyzed POKéMON may be unable to move in battle.\p It's an ELECTRIC-type move, so it won't work on some POKéMON.")
+}
+
+text SilphCo_2F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 2F")
+}
+
+script SilphCo_2F_EventScript_FloorSign {
+    lockall
+    msgbox(SilphCo_2F_Text_FloorSign)
+    releaseall
+}
+

@@ -1,1 +1,22 @@
-mapscripts Route114_MapScripts {}
+text Route114_EventScript_Kai {
+    format("All my POKéMON does is ROAR… No one dares to come near me…\p Sigh… If you would, please take this TM away…$ TM05 contains ROAR. A ROAR sends POKéMON scurrying.$ Bow! Bowwow!$ METEOR FALLS RUSTBORO CITY THROUGH HERE$ FOSSIL MANIAC'S HOUSE “Fossils gratefully accepted!”$ LANETTE'S HOUSE")
+}
+
+script Route114_EventScript_MeteorFallsSign {
+    lockall
+    msgbox(Route114_Text_MeteorFallsSign)
+    releaseall
+}
+
+script Route114_EventScript_FossilManiacsHouseSign {
+    lockall
+    msgbox(Route114_Text_FossilManiacsHouseSign)
+    releaseall
+}
+
+script Route114_EventScript_LanettesHouseSign {
+    lockall
+    msgbox(Route114_Text_LanettesHouse)
+    releaseall
+}
+

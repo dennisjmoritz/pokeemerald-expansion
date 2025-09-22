@@ -1,1 +1,44 @@
-mapscripts CeladonCity_Condominiums_1F_MapScripts {}
+text CeladonCity_Condominiums_1F_Text_Meowth {
+    format("MEOWTH: Meow!")
+}
+
+text CeladonCity_Condominiums_1F_Text_TryThisDrinkInstead {
+    format("You shouldn't spend all your money on drinks.\p Try this instead.")
+}
+
+text CeladonCity_Condominiums_1F_Text_NothingBeatsThirstLikeTea {
+    format("Nothing beats thirst like some hot TEA.\p It really is the best.")
+}
+
+text CeladonCity_Condominiums_1F_Text_MyDearMonsKeepMeCompany {
+    format("My dear POKéMON keep me company. MEOWTH even brings money home!")
+}
+
+text CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea {
+    format("Oh, hello, dearie. Did you enjoy my TEA?\p By the way, dear. Are you, by any chance, from PALLET TOWN?\p A girl from PALLET TOWN, DAISY, she enjoys TEA every day.\p She visits the CELADON DEPT. STORE to buy some TEA.")
+}
+
+text CeladonCity_Condominiums_1F_Text_Clefairy {
+    format("CLEFAIRY: Pi pippippi!")
+}
+
+text CeladonCity_Condominiums_1F_Text_Nidoran {
+    format("NIDORAN♀: Kya kyaoo!")
+}
+
+text CeladonCity_Condominiums_1F_Text_ManagersSuite {
+    format("CELADON MANSION Manager's Suite")
+}
+
+script CeladonCity_Condominiums_1F_EventScript_SuiteSign {
+    lockall
+    msgbox(CeladonCity_Condominiums_1F_Text_ManagersSuite)
+    releaseall
+}
+
+script CeladonCity_Condominiums_1F_EventScript_SuiteSign {
+    lockall
+    msgbox(CeladonCity_Condominiums_1F_Text_ManagersSuite)
+    releaseall
+}
+

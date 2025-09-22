@@ -1,1 +1,4 @@
-mapscripts LilycoveCity_DepartmentStore_5F_MapScripts {}
+text LilycoveCity_DepartmentStore_5F_EventScript_LittleGirl {
+    format("This place is full of cute DOLLS.\p I should buy some for me, instead of just for my children.$ I'm not big enough to raise POKéMON, so I'm getting a cute DOLL instead.$ They sell many cute MATS here.\p I wonder which one I should get? Maybe I'll buy them all…$ I think they closed the rooftop because the weather is wild today.")
+}
+

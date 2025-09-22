@@ -1,1 +1,4 @@
-mapscripts MagmaHideout_1F_MapScripts {}
+text MagmaHideout_1F_EventScript_Grunt2 {
+    format("When TEAM MAGMA has roll call, we get important guarding assignments in\l the order that we line up.\p That's why I'm stuck off in this corner. I'm always late to roll call!$ I'm always late for training sessions, too!\p I hate to say it, but I'm wimpy…$ Okay, I'll try to put a little more effort into things from now on…$ Our leader told us to dig into MT. CHIMNEY, so we dug and dug.\p And in the course of digging, we came across something that blew our minds!\p What did we find?\p Fuhahaha! I'll tell you if you beat me!$ Arrgh! Taken down!$ I won't tell you after all. You'll find out when you get there!\p It'd be better if you saved surprises to the end, don't you think?")
+}
+

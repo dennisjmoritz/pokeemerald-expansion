@@ -1,1 +1,4 @@
-mapscripts PacifidlogTown_PokemonCenter_1F_MapScripts {}
+text PacifidlogTown_PokemonCenter_1F_EventScript_OldMan {
+    format("What color is your TRAINER CARD? Mine's copper!$ PACIFIDLOG TOWN floats on top of a colony of CORSOLA.\p If I told you that, would you believe me?$ The ancestors of the people in PACIFIDLOG were said to have been\l born on boats and then lived and died \l aboard them.\p I understand that they lived that way because they were searching for\l something.")
+}
+

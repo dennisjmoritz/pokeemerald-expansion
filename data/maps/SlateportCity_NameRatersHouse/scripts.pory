@@ -1,1 +1,4 @@
-mapscripts SlateportCity_NameRatersHouse_MapScripts {}
+text SlateportCity_NameRatersHouse_EventScript_NewNameDifferent {
+    format("Hi, hi! I'm the NAME RATER! I'm the fortune-teller of names!\p I shall be pleased to rate your POKéMON's nickname.$ Which POKéMON's nickname should I critique?$ Hmmm… {STR_VAR_1}, is it? That is quite a fine name you bestowed.\p But! What say you, if I were to suggest a slightly better name?$ Ah, good. Then, what shall the new nickname be?$ Done! From now on, this POKéMON shall be known as {STR_VAR_1}!\p It is a better name than before! How fortunate for you!$ I see. Do come visit again.$ Done! From now on, this POKéMON shall be known as {STR_VAR_1}!\p It looks no different from before, and yet, this is vastly superior!\p How fortunate for you!$ Hmmm… {STR_VAR_1} it is!\p This is a magnificent nickname! It is impeccably beyond reproach!\p You'll do well to cherish your {STR_VAR_1} now and beyond.$ Now, now. That is merely an EGG!")
+}
+

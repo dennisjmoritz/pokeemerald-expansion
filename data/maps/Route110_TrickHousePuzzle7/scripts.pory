@@ -1,1 +1,4 @@
-mapscripts Route110_TrickHousePuzzle7_MapScripts {}
+text Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened {
+    format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is huggable.” … … … … … … … …\p The lock clicked open!$ The TRICK MASTER always vanishes like smoke. How does he do it?$ Aiyeeeh! You're much too strong! How do you do it?$ I wish I could appear and disappear as if I were smoke, too.$ Going around the same spot… It begets ill fortune…$ Defeated! It's a bad sign…$ I've circled the same spot over ten times now… It's ill fortune…$ Whoever wins will get through here first. That's the feeling I get.$ Oh! Well, go ahead, then!$ You're solving all the puzzles in the TRICK HOUSE. That's the feeling I get.$ Nufufufu, here at last! Let's get right with it!$ You're so casual about winning!$ Humph! I'm not upset! Not me!$ I ever so closely watched you coming!$ This outcome I didn't see coming…$ Well, anyway, we both picked a weird place to get acquainted.\p As one weirdo to another, let's do our best!$ It's awfully cramped in here…$ Oh, yes, strong you are.$ I was hoping to switch places with you when I beat you, but…")
+}
+

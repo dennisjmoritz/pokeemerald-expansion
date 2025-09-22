@@ -1,1 +1,10 @@
-mapscripts Route124_DivingTreasureHuntersHouse_MapScripts {}
+text Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard {
+    format("I'm the DIVING TREASURE HUNTER!\p I'm the awesome dude who makes deep-sea dives to gather treasures\l resting at the bottom.$ Tell me, have you seen any SHARDS of tools made in ancient times?$ You haven't got any treasures for me…\p If you see any SHARDS, like the RED SHARD, you've got to trade it with me!$ Oh, hey! That… That's a SHARD! I'm looking for those!\p Oh, man, you've got to trade that with me! I'll give you something good!$ What do you want to trade?$ You'll trade your {STR_VAR_1} for my {STR_VAR_2}, then?$ It's a done deal! Use that wisely!$ Do you want to trade something else?$ Whoops, your BAG's full. Get rid of some items, friend!$ No? That's a downer. Well, if you change your mind, come back.$ {CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item {CLEAR_TO 0x0f}RED SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}FIRE STONE{CLEAR_TO 0xc8}\p {CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item {CLEAR_TO 0x06}YELLOW SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}THUNDERSTONE{CLEAR_TO 0xc8}\p {CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item {CLEAR_TO 0x0c}BLUE SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}WATER STONE{CLEAR_TO 0xc8}\p {CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item {CLEAR_TO 0x08}GREEN SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}LEAF STONE")
+}
+
+script Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard {
+    lockall
+    msgbox(Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard)
+    releaseall
+}
+

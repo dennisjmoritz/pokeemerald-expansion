@@ -1,1 +1,16 @@
-mapscripts OneIsland_TreasureBeach_MapScripts {}
+text OneIsland_TreasureBeach_Text_AmaraIntro {
+    format("Lying back, rocked by the waves… It's exquisite.")
+}
+
+text OneIsland_TreasureBeach_Text_AmaraDefeat {
+    format("I lost… It feels awful.")
+}
+
+text OneIsland_TreasureBeach_Text_AmaraPostBattle {
+    format("The sea is pleasantly warm in these parts.")
+}
+
+text OneIsland_TreasureBeach_Text_GoodThingsWashUpOnBeach {
+    format("Good things get washed up by the ocean current onto this beach.\p That's why I often come here for some beachcombing.")
+}
+

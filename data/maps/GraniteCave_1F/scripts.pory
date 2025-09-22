@@ -1,1 +1,4 @@
-mapscripts GraniteCave_1F_MapScripts {}
+text GraniteCave_1F_EventScript_ReceivedFlash {
+    format("Hey, you. It gets awfully dark ahead.\l It'll be tough trying to explore.\p That guy who came by earlier… STEVEN, I think it was.\p He knew how to use FLASH, so he ought to be all right, but…\p Well, for us HIKERS, helping out those that we meet is our motto.\p Here you go, I'll pass this on to you.$ Teach that hidden move FLASH to a POKéMON and use it.\p It lights up even the inky darkness of caves.\p But, to use it, you need the GYM BADGE from DEWFORD's POKéMON GYM.")
+}
+

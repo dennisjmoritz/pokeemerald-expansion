@@ -1,1 +1,4 @@
-mapscripts BattleFrontier_Mart_MapScripts {}
+text BattleFrontier_Mart_EventScript_Boy {
+    format("We came here to chaperon our grandson.\p But since we're here, we thought we should get some souvenirs.$ Dear, what do you think of this? Wouldn't this make a nice gift?\p It's…PRO…TE…IN? It sounds delicious, doesn't it?$ A lot of the BATTLE FRONTIER's facilities don't allow the use of items\l during battles.\p That rule makes things tougher than they already are!")
+}
+

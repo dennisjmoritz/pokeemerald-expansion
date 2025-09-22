@@ -1,1 +1,4 @@
-mapscripts FarawayIsland_Interior_MapScripts {}
+text FarawayIsland_Interior_EventScript_HideMewWhenGrassCut {
+    format("The feeling of being watched faded…")
+}
+

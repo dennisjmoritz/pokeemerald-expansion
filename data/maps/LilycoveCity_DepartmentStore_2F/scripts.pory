@@ -1,1 +1,4 @@
-mapscripts LilycoveCity_DepartmentStore_2F_MapScripts {}
+text LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight {
+    format("Learn to use items properly. That's basic, really.$ My husband is waiting at home. What would make a good gift for him?$ I'm leaving on a long journey soon. I need to stock up on items.")
+}
+

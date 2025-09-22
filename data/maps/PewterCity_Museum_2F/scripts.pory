@@ -1,1 +1,92 @@
-mapscripts PewterCity_Museum_2F_MapScripts {}
+text Text_SeismicTossTeach {
+    format("The secrets of space… The mysteries of earth…\p There are so many things about which we know so little.\p But that should spur us to study harder, not toss in the towel.\p The only thing you should toss…\p Well, how about SEISMIC TOSS? Should I teach that to a POKéMON?")
+}
+
+text Text_SeismicTossDeclined {
+    format("Is that so? I'm sure you'll be back for it.")
+}
+
+text Text_SeismicTossWhichMon {
+    format("Which POKéMON wants to learn SEISMIC TOSS?")
+}
+
+text Text_SeismicTossTaught {
+    format("I hope you won't toss in the towel. Keep it up.")
+}
+
+text PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone {
+    format("MOON STONE, huh?\p What's so special about it? Looks like an ordinary rock to me.")
+}
+
+text PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding {
+    format("July 20, 1969!\p Humankind first set foot on the moon that day.\p I bought a color TV just so I could watch that news.")
+}
+
+text PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth {
+    format("This month, we're running a space exhibit.")
+}
+
+text PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu {
+    format("I want a PIKACHU! It's so cute!\p I asked my daddy to catch me one!")
+}
+
+text PewterCity_Museum_1F_Text_PikachuSoonIPromise {
+    format("Yeah, a PIKACHU soon, I promise!")
+}
+
+text PewterCity_Museum_1F_Text_SpaceShuttle {
+    format("Space Shuttle")
+}
+
+text PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon {
+    format("A meteorite that fell on MT. MOON. It is thought to be a MOON STONE.")
+}
+
+script PewterCity_Museum_2F_EventScript_MoonStone {
+    lockall
+    msgbox(PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon)
+    releaseall
+}
+
+script PewterCity_Museum_2F_EventScript_SpaceShuttle {
+    lockall
+    msgbox(PewterCity_Museum_1F_Text_SpaceShuttle)
+    releaseall
+}
+
+script PewterCity_Museum_2F_EventScript_SpaceShuttle {
+    lockall
+    msgbox(PewterCity_Museum_1F_Text_SpaceShuttle)
+    releaseall
+}
+
+script PewterCity_Museum_2F_EventScript_SpaceShuttle {
+    lockall
+    msgbox(PewterCity_Museum_1F_Text_SpaceShuttle)
+    releaseall
+}
+
+script PewterCity_Museum_2F_EventScript_SpaceShuttle {
+    lockall
+    msgbox(PewterCity_Museum_1F_Text_SpaceShuttle)
+    releaseall
+}
+
+script PewterCity_Museum_2F_EventScript_SpaceShuttle {
+    lockall
+    msgbox(PewterCity_Museum_1F_Text_SpaceShuttle)
+    releaseall
+}
+
+script PewterCity_Museum_2F_EventScript_SpaceShuttle {
+    lockall
+    msgbox(PewterCity_Museum_1F_Text_SpaceShuttle)
+    releaseall
+}
+
+script PewterCity_Museum_2F_EventScript_MoonStone {
+    lockall
+    msgbox(PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon)
+    releaseall
+}
+

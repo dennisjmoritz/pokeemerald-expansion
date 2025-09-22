@@ -1,1 +1,4 @@
-mapscripts MossdeepCity_House3_MapScripts {}
+text MossdeepCity_House3_EventScript_DeclineSuperRod {
+    format("Hey there, TRAINER! A SUPER ROD really is super!\p Say all you want, but this baby can catch POKéMON off the seafloor!\p What do you think? You want it, don't you?$ You bet, you bet! After all, a SUPER ROD is really super!$ If there's any water, try dropping in your ROD and see what bites!$ Hunh? Don't you like to fish?$ Go after the seafloor POKéMON with your SUPER ROD.")
+}
+

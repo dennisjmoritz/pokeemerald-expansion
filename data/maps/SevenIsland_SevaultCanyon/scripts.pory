@@ -1,1 +1,118 @@
-mapscripts SevenIsland_SevaultCanyon_MapScripts {}
+text SevenIsland_SevaultCanyon_Text_CyndyIntro {
+    format("My conditioning's in top form!")
+}
+
+text SevenIsland_SevaultCanyon_Text_CyndyDefeat {
+    format("Huh? Something's not right…")
+}
+
+text SevenIsland_SevaultCanyon_Text_CyndyPostBattle {
+    format("The way I am now, I may have to hold off on TRAINER TOWER…")
+}
+
+text SevenIsland_SevaultCanyon_Text_EvanIntro {
+    format("It doesn't matter if you happen to have the strongest POKéMON…\p It doesn't mean a thing if you don't know how to use them properly!")
+}
+
+text SevenIsland_SevaultCanyon_Text_EvanDefeat {
+    format("You're a master at this.")
+}
+
+text SevenIsland_SevaultCanyon_Text_EvanPostBattle {
+    format("You see them every so often, TRAINERS with awesome POKéMON\l who have no idea what to do.\p Before training POKéMON, TRAINERS themselves need to grow up.")
+}
+
+text SevenIsland_SevaultCanyon_Text_JacksonIntro {
+    format("I work to protect the environment. In turn, nature protects me!")
+}
+
+text SevenIsland_SevaultCanyon_Text_JacksonDefeat {
+    format("Whoa! You're tough! How about protecting me?")
+}
+
+text SevenIsland_SevaultCanyon_Text_JacksonPostBattle {
+    format("From far out among the stars, our planet is just a drop of water.\p But we want to protect that drop of water for everyone.")
+}
+
+text SevenIsland_SevaultCanyon_Text_KatelynIntro {
+    format("Those shoes you have are pretty snazzy.")
+}
+
+text SevenIsland_SevaultCanyon_Text_KatelynDefeat {
+    format("You're hot stuff in spite of your cute looks.")
+}
+
+text SevenIsland_SevaultCanyon_Text_KatelynPostBattle {
+    format("Your mom bought those snazzy RUNNING SHOES for you?\p She must adore you.")
+}
+
+text SevenIsland_SevaultCanyon_Text_LeroyIntro {
+    format("You look strong. Let me battle you, please!")
+}
+
+text SevenIsland_SevaultCanyon_Text_LeroyDefeat {
+    format("I knew it! You're as tough as I thought!")
+}
+
+text SevenIsland_SevaultCanyon_Text_LeroyPostBattle {
+    format("The way you battle has given me a lot of useful data.\p Thanks so much!")
+}
+
+text SevenIsland_SevaultCanyon_Text_MichelleIntro {
+    format("I was given the best possible education to become this strong.\p I don't want to lose to anyone!")
+}
+
+text SevenIsland_SevaultCanyon_Text_MichelleDefeat {
+    format("Thank you. I feel like I've been set free by losing to you.")
+}
+
+text SevenIsland_SevaultCanyon_Text_MichellePostBattle {
+    format("For some reason, I get furious over the slightest thing.\p I'll calm myself by breathing deeply.")
+}
+
+text SevenIsland_SevaultCanyon_Text_LexIntro {
+    format("LEX: My darling NYA, together we could win!")
+}
+
+text SevenIsland_SevaultCanyon_Text_LexDefeat {
+    format("LEX: I seem to have been too careless…")
+}
+
+text SevenIsland_SevaultCanyon_Text_LexPostBattle {
+    format("LEX: I think it was a good experience for NYA.\p You have my gratitude.")
+}
+
+text SevenIsland_SevaultCanyon_Text_LexNotEnoughMons {
+    format("LEX: May I ask you to battle the both of us at the same time?")
+}
+
+text SevenIsland_SevaultCanyon_Text_NyaIntro {
+    format("NYA: I'll do my best so I won't drag down my mentor, LEX!")
+}
+
+text SevenIsland_SevaultCanyon_Text_NyaDefeat {
+    format("NYA: Oh, no… I'm so sorry, I…")
+}
+
+text SevenIsland_SevaultCanyon_Text_NyaPostBattle {
+    format("NYA: I think I'm going to need much more seasoning and tutoring\l under LEX…\p …So, LEX, please, may I stay with you like this?")
+}
+
+text SevenIsland_SevaultCanyon_Text_NyaNotEnoughMons {
+    format("NYA: I'm sorry, but may we battle in two-on-two style?")
+}
+
+text SevenIsland_SevaultCanyon_Text_RouteSign {
+    format("SEVAULT CANYON TANOBY RUINS AHEAD")
+}
+
+text SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly {
+    format("Training by oneself is certainly not a bad thing.\p But it's also not bad to aim for the top with a partner.\p Even BRUNO… He trained with a fellow by the\l name of BRAWLY before.")
+}
+
+script SevenIsland_SevaultCanyon_EventScript_RouteSign {
+    lockall
+    msgbox(SevenIsland_SevaultCanyon_Text_RouteSign)
+    releaseall
+}
+

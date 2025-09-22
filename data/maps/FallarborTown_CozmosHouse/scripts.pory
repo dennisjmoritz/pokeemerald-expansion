@@ -1,1 +1,4 @@
-mapscripts FallarborTown_CozmosHouse_MapScripts {}
+text FallarborTown_CozmosHouse_EventScript_CozmoIsHappy {
+    format("PROF. COZMO: Oh… I never should have let myself be\l conned into telling TEAM MAGMA where\l you can find METEORITES…\p That METEORITE from METEOR FALLS… It's never going to be mine now…$ Oh! Hah?\p That item…\p Could it be?\p Is it the METEORITE that TEAM MAGMA took from METEOR FALLS?\p Please, may I have it?\p I'm not asking for it for free. How about in exchange for this TM?$ PROF. COZMO: This TM, it represents my feeling of gratitude.\l Please use it!$ PROF. COZMO: Oh, I can't believe it. This is really, really great!\p This is really going to help my research!$ PROF. COZMO: Oh, but… I'm crushed with disappointment…$ PROF. COZMO: Please, may I have that METEORITE?\p I'm not asking for it for free. How about in exchange for this TM?$ PROF. COZMO went off to METEOR FALLS on ROUTE 114 with some people from\l TEAM MAGMA.$ Poor PROF. COZMO… He's so depressed… I feel sorry for him.$ Look at PROF. COZMO… He's so happy! I think it's cute.")
+}
+

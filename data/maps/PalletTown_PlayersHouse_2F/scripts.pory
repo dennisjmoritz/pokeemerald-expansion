@@ -1,1 +1,20 @@
-mapscripts PalletTown_PlayersHouse_2F_MapScripts {}
+text PalletTown_PlayersHouse_2F_Text_PlayedWithNES {
+    format("{PLAYER} played with the NES.\p …Okay! It's time to go!")
+}
+
+text PalletTown_PlayersHouse_2F_Text_PressLRForHelp {
+    format("It's a posted notice…\p If you're confused, ask for HELP! Press the L or R Button!")
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_NES {
+    lockall
+    msgbox(PalletTown_PlayersHouse_2F_Text_PlayedWithNES)
+    releaseall
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_Sign {
+    lockall
+    msgbox(PalletTown_PlayersHouse_2F_Text_PressLRForHelp)
+    releaseall
+}
+

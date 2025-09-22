@@ -1,1 +1,112 @@
-mapscripts SixIsland_WaterPath_MapScripts {}
+text SixIsland_WaterPath_Text_RoseIntro {
+    format("I let a pleasant breeze lead me all the way here.")
+}
+
+text SixIsland_WaterPath_Text_RoseDefeat {
+    format("Giggle… You're so cute when you're determined.")
+}
+
+text SixIsland_WaterPath_Text_RosePostBattle {
+    format("I want to go to the woods over there, but…\p There are lots of BUG POKéMON. They scare me a little.")
+}
+
+text SixIsland_WaterPath_Text_EdwardIntro {
+    format("I'm practicing in secret so no one can see me.")
+}
+
+text SixIsland_WaterPath_Text_EdwardDefeat {
+    format("Nobody saw me losing, right?")
+}
+
+text SixIsland_WaterPath_Text_EdwardPostBattle {
+    format("As a performer, I don't want people to know about the effort I put in.")
+}
+
+text SixIsland_WaterPath_Text_SamirIntro {
+    format("What, you're suggesting that you're sick of seeing SWIMMERS like me?\p Aww, don't be hatin'!")
+}
+
+text SixIsland_WaterPath_Text_SamirDefeat {
+    format("Oh, no, no, no.")
+}
+
+text SixIsland_WaterPath_Text_SamirPostBattle {
+    format("I couldn't lift the stigma of being a SWIMMER…")
+}
+
+text SixIsland_WaterPath_Text_DeniseIntro {
+    format("My boyfriend's always busy, so I come swimming by myself.")
+}
+
+text SixIsland_WaterPath_Text_DeniseDefeat {
+    format("Awww, I knew this would happen!")
+}
+
+text SixIsland_WaterPath_Text_DenisePostBattle {
+    format("When I can't be with my boyfriend, I spend time with the POKéMON he\l gave me.")
+}
+
+text SixIsland_WaterPath_Text_EarlIntro {
+    format("Tell me, where are the mountains around these parts?")
+}
+
+text SixIsland_WaterPath_Text_EarlDefeat {
+    format("I lost my way while I was busy battling!")
+}
+
+text SixIsland_WaterPath_Text_EarlPostBattle {
+    format("Aren't there any mountains around these parts?")
+}
+
+text SixIsland_WaterPath_Text_MiuIntro {
+    format("MIU: Hello, POKéMON! It's time to play!")
+}
+
+text SixIsland_WaterPath_Text_MiuDefeat {
+    format("MIU: Oh, no! Mommy!")
+}
+
+text SixIsland_WaterPath_Text_MiuPostBattle {
+    format("MIU: It makes me all sad inside when we lose…")
+}
+
+text SixIsland_WaterPath_Text_MiuNotEnoughMons {
+    format("MIU: MIA and I are TWINS. We want to battle together.")
+}
+
+text SixIsland_WaterPath_Text_MiaIntro {
+    format("MIA: Hello, POKéMON! It's time to battle!")
+}
+
+text SixIsland_WaterPath_Text_MiaDefeat {
+    format("MIA: You're mean! You're bad for winning!")
+}
+
+text SixIsland_WaterPath_Text_MiaPostBattle {
+    format("MIA: Ohh… I'm sorry, my POKéMON…")
+}
+
+text SixIsland_WaterPath_Text_MiaNotEnoughMons {
+    format("MIA: Oh, you only have one POKéMON?\p Don't you feel lonesome?")
+}
+
+text SixIsland_WaterPath_Text_WantedUltimateHorn {
+    format("Wanted! The Ultimate Horn!")
+}
+
+text SixIsland_WaterPath_Text_RouteSign {
+    format("WATER PATH Leads to RUIN VALLEY")
+}
+
+script SixIsland_WaterPath_EventScript_HornWantedSign {
+    lockall
+    msgbox(SixIsland_WaterPath_Text_WantedUltimateHorn)
+    releaseall
+}
+
+script SixIsland_WaterPath_EventScript_RouteSign {
+    lockall
+    msgbox(SixIsland_WaterPath_Text_RouteSign)
+    releaseall
+}
+

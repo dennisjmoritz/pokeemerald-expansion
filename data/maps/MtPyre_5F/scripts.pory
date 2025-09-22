@@ -1,1 +1,4 @@
-mapscripts MtPyre_5F_MapScripts {}
+text MtPyre_4F_EventScript_Tasha {
+    format("I love all things horrifying… It's like a disease…\p When I'm here… I shiver with fear…$ Losing, I dislike…$ I want to see dreadful things… I can't leave…\p Stay… Won't you stay with me?")
+}
+

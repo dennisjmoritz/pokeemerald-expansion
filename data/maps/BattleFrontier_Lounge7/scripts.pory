@@ -1,1 +1,84 @@
-mapscripts BattleFrontier_Lounge7_MapScripts {}
+text BattleFrontier_Lounge7_EventScript_Gentleman {
+    format("Buhahaha!\p You couldn't tell it from looking now, but I used to be one tough TRAINER.\p I had a reputation as the toughest BEAUTY around, I tell you!\p … … … … … …\p What is it now? You don't believe me.\p I'm not like that blowhard woman over there. I'm actually talented!\p Let me prove it to you. I can teach your POKéMON special and\l yet cute moves.\p But my lessons don't come free. How about paying for the moves I teach\l with a wee bit of Battle Points?$ Buhahaha!\p Are you back to learn special and yet cute POKéMON moves?$ Fine, fine, look here! Which move should I teach?$ The move {STR_VAR_1}, is it? That will be {STR_VAR_2} Battle Points, okay?$ Fine, fine, now pick the POKéMON I should teach the move to.$ What the… You haven't got enough Battle Points!$ Do you see how skilled I am now? I'll take your Battle Points, thanks!$ What's that? You don't want to…\p If you want to see how skilled I am, you come see me anytime!$ Ihihihi!\p I know it's hard to see now, but I used to be one fantastic TRAINER.\p I had a reputation as the most invincible SWIMMER around, I tell you!\p … … … … … …\p What's wrong? You don't believe me.\p I'm not like that buffoonish woman over there. I'm actually experienced!\p I can prove it to you. I can teach your POKéMON hard and\l yet pretty moves.\p But my lessons don't come free. How about paying for the moves I teach\l with a wee bit of Battle Points?$ Ihihihi!\p Have you come to learn hard and yet pretty POKéMON moves?$ Those ladies, the way they bad-mouth each other, you probably think that\l they don't get along.\p But if that were true, they wouldn't stay out here together, would they?$ When I was just a wee YOUNGSTER, those ladies were strong and beautiful.\p They were idols among us TRAINERS.\p Even now, age hasn't dulled their abilities.\p In fact, their POKéMON moves have grown even more polished.\p But… For some reason, I can't help but feel this…\p Time is so cruel…")
+}
+
+text BattleFrontier_Lounge7_Text_SoftboiledDesc {
+    format("Recovers up to half the user's maximum HP.")
+}
+
+text BattleFrontier_Lounge7_Text_SeismicTossDesc {
+    format("Inflicts damage identical to the user's level.")
+}
+
+text BattleFrontier_Lounge7_Text_DreamEaterDesc {
+    format("Recovers half the damage inflicted on a sleeping foe.")
+}
+
+text BattleFrontier_Lounge7_Text_MegaPunchDesc {
+    format("A strong punch thrown with incredible power.")
+}
+
+text BattleFrontier_Lounge7_Text_MegaKickDesc {
+    format("An extremely powerful kick with intense force.")
+}
+
+text BattleFrontier_Lounge7_Text_BodySlamDesc {
+    format("A full-body slam that may cause paralysis.")
+}
+
+text BattleFrontier_Lounge7_Text_RockSlideDesc {
+    format("Large boulders are hurled. May cause flinching.")
+}
+
+text BattleFrontier_Lounge7_Text_CounterDesc {
+    format("Retaliates any physical hit with double the power.")
+}
+
+text BattleFrontier_Lounge7_Text_ThunderWaveDesc {
+    format("A weak jolt of electricity that paralyzes the foe.")
+}
+
+text BattleFrontier_Lounge7_Text_SwordsDanceDesc {
+    format("A fighting dance that sharply raises ATTACK.")
+}
+
+text BattleFrontier_Lounge7_Text_DefenseCurlDesc {
+    format("Curls up to con- ceal weak spots and raise DEFENSE.")
+}
+
+text BattleFrontier_Lounge7_Text_SnoreDesc {
+    format("A loud attack that can be used only while asleep.")
+}
+
+text BattleFrontier_Lounge7_Text_MudSlapDesc {
+    format("Hurls mud in the foe's face to re- duce its accuracy.")
+}
+
+text BattleFrontier_Lounge7_Text_SwiftDesc {
+    format("Sprays star- shaped rays that never miss.")
+}
+
+text BattleFrontier_Lounge7_Text_IcyWindDesc {
+    format("A chilling attack that lowers the foe's SPEED.")
+}
+
+text BattleFrontier_Lounge7_Text_EndureDesc {
+    format("Endures any at- tack for 1 turn, leaving 1HP.")
+}
+
+text BattleFrontier_Lounge7_Text_PsychUpDesc {
+    format("Copies the foe's effect(s) and gives to the user.")
+}
+
+text BattleFrontier_Lounge7_Text_IcePunchDesc {
+    format("An icy punch that may freeze the foe.")
+}
+
+text BattleFrontier_Lounge7_Text_ThunderPunchDesc {
+    format("An electrified punch that may paralyze the foe.")
+}
+
+text BattleFrontier_Lounge7_Text_FirePunchDesc {
+    format("A fiery punch that may burn the foe.")
+}
+

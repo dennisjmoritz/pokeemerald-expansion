@@ -1,1 +1,4 @@
-mapscripts LilycoveCity_DepartmentStoreRooftop_MapScripts {}
+text LilycoveCity_DepartmentStoreRooftop_EventScript_ExitVendingMachine {
+    format("Don't they have set dates for their clear-out sales?\p I watch TV, but they never show any commercials.$ Yes! I've been waiting a long time for this clear-out sale.\p They have items that you can only get here. I'm going to load up, that I am!$ Ohh… I'm bone-dry thirsty!$ It's a VENDING MACHINE. Which drink would you like?$ Clang!\p A can of {STR_VAR_1} dropped down.$ Clang!\p Score! An extra can of {STR_VAR_1} dropped down!$ Not enough money…$ Decided against buying a drink.")
+}
+

@@ -1,1 +1,4 @@
-mapscripts VerdanturfTown_Mart_MapScripts {}
+text VerdanturfTown_Mart_EventScript_Lass {
+    format("For any POKéMON match, X SPECIAL is crucial.\p It jacks up the power of some moves even though it's only for one battle.$ They don't seem to sell any winning strategy guides for the BATTLE TENT…\p It seems one must rely on one's own wits after all…$ The NEST BALL works better on weakened POKéMON.\p VERDANTURF is the only place you can buy it.")
+}
+

@@ -1,1 +1,4 @@
-mapscripts PetalburgCity_PokemonCenter_1F_MapScripts {}
+text PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType {
+    format("That PC-based POKéMON Storage System…\p Whoever made it must be some kind of a scientific wizard!$ When my POKéMON ate an ORAN BERRY, it regained HP!$ There are many types of POKéMON.\p All types have their strengths and weaknesses against other types.\p Depending on the types of POKéMON, a battle could be easy or hard.$ For example, your TREECKO is a GRASS type.\p It's strong against the WATER and GROUND types.\p But, it's weak against FIRE-type POKéMON.$ For example, your TORCHIC is a FIRE type.\p It's strong against the GRASS and BUG types.\p But, it's weak against WATER-type POKéMON.$ For example, your MUDKIP is a WATER type.\p It's strong against the FIRE type.\p But, it's weak against GRASS-type and ELECTRIC-type POKéMON.")
+}
+

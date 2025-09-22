@@ -1,1 +1,54 @@
-mapscripts SlateportCity_MapScripts {}
+text SlateportCity_EventScript_BerryCrushRankingsSign {
+    format("I'm the ENERGY GURU! I'll go for it and sell you what you need!$ Oh? Your {STR_VAR_1}…$ Went for it stupendously!\p As its reward, please give it this EFFORT RIBBON.$ {PLAYER} received the EFFORT RIBBON.$ {PLAYER} put the EFFORT RIBBON on {STR_VAR_1}.$ You have to go for it a little harder.\p If you do, I'll give your POKéMON something nice.$ Oh! Your {STR_VAR_1}, that EFFORT RIBBON looks good on it!$ The light of the lighthouse reaches dozens of miles away.\p I wonder if it doesn't startle POKéMON in the sea.$ Ooh, look at this!\p The seaweed you can get around these parts is fresh and full of life.\p Why, it looks like it can even rear up and attack!$ Where the water is clean, the fruits of bountiful harvest gather.\p And where people gather, a market soon starts.\p That is how a town is born and grows.$ Shopping where you can breathe the scent of the ocean…\p SLATEPORT is such a wonderful place!$ If you put DOLLS or CUSHIONS on the floor, they'll get dirty.\p I'm going to buy some BRICKS so my DOLLS and CUSHIONS won't get dirty\l when I leave them out.$ Wroooar! I'm going to compete in the BATTLE TENT, too!\p But before that, I need to catch some POKéMON!$ Whew… I'm just bushed…\p I hiked over from MAUVILLE CITY. But, boy, this city's huge.\p If I'd known this, I would've ridden my BIKE here.$ STERN, the fellow who built the MUSEUM, also happens to be the leader\l of an undersea exploration team.\p So, everyone calls him CAPT. STERN.$ What is that over there? That long line…$ When I was a child, I visited the MUSEUM often.\p I used to dream about the mysteries of the sea after seeing the exhibits.$ Hey, there! Quit pushing! This is the line, can't you see?$ TEAM AQUA has a policy of assembling and dispersing at\l the operation site.$ Our BOSS is brilliant.\p What would he want to do with a MUSEUM now?$ What's the new scheme, I wonder?\p Our BOSS is scary when he's mad, so I'd better not screw things up…$ If there's something we need in the MUSEUM, we should take it all!$ Hey, you there! Don't butt in!$ A long line, huh?\p It reminds me of the times I lined up to buy smash-hit games…$ Why are we even lining up and paying? We should just march in!$ What? What do you want?$ You want to read this sign? I'll read it for you!$ Let's see…\p Um… I think it says something like “the life in the sea is endless.”\p Yup, I'm pretty sure that's what it says.$ Grumble…\p I should've brought my Game Boy Advance so I wouldn't get bored in line…\p Grumble…$ When this operation's over, I'll take you to a hot spring spa!\p That's what our leader said. I can't wait!$ The sea is just so vast…\p Could the sea have been made by the tears shed by POKéMON?$ Do you know what they do with old ships that become too creaky to sail?\p They sink them in the sea so they become habitats for POKéMON.$ Whenever I visit here, I get carried away and buy too much.$ If you want to change your POKéMON's nickname, you'll have to get the NAME\l RATER to help you.$ Any POKéMON you get in a trade, you can't change its nickname.\p The original TRAINER's love for that POKéMON is in the nickname.$ Recently, a BATTLE TENT was built in SLATEPORT.\p GYMS are fun, but the BATTLE TENT's awesome in its own way.\p You should go find tough POKéMON for the BATTLE TENT!$ I was hoping that it was a famous star so I could get an autograph.\p But who's that being interviewed? Isn't that CAPT. STERN?$ That lady interviewer is so cool and pretty.\p When I grow up, I'm going to be an international journalist!$ CAPT. STERN says they discovered something at the bottom of the sea.\p I wonder what it is? What could it be?$ What's going on here?\p Did the good CAPTAIN come back with a big fish from the ocean floor?$ Hey! Are you watching? Am I on TV?$ A TV interview! Here! The CAPTAIN's a celebrity!$ TY: Okay, CAPT. STERN, a big smile for the camera!$ GABBY: I see, I see. You've had a most invaluable experience…$ CAPT. STERN: Yes, indeed. We intend to move ahead with our exploration.$ GABBY: That's wonderful, CAPT. STERN! Thank you for taking the time from\l your busy schedule to talk to us.\p We hope we can interview you again with news of more discoveries!$ CAPT. STERN: Whew…\p That was my first time to be filmed for TV. That was nerve-wracking.$ Oh! {PLAYER}{KUN}! You're looking great!\p We made a huge discovery on our last seafloor exploration.\p We found an underwater cavern on ROUTE 128.\p We think it's the habitat of a POKéMON that's said to have been long extinct.$ Fufufu… CAPT. STERN, I presume.\p We of TEAM AQUA will assume control of your submarine!\p Your objections are meaningless! We expect your total cooperation!\p Fufufu… Just watch and learn what TEAM\l AQUA has planned!$ CAPT. STERN: What was that all about?\p It sounded like someone using a megaphone…\p Where did it come from?$ It's from the HARBOR!\p The submarine! They're trying to take it!$ {PLAYER}{KUN}! Please, come with me!$ BATTLE TENT SLATEPORT SITE “Find it! The ultimate POKéMON!”$ STERN'S SHIPYARD\p “Wanted: A sailor capable of sailing in all currents.”$ STERN'S SHIPYARD\p “The ferry S.S. TIDAL nears completion for serving the ports of\l SLATEPORT and LILYCOVE.”$ STERN'S SHIPYARD\p “Boarding of the SLATEPORT-LILYCOVE ferry S.S. TIDAL is handled at the\l HARBOR.”$ POKéMON FAN CLUB “Calling all fans of POKéMON!”$ “The endless sea sustains all life.”\p OCEANIC MUSEUM$ SLATEPORT CITY\p “The port where people and POKéMON cross paths.”$ SLATEPORT MARKET “Unique items found nowhere else!”$ SLATEPORT HARBOR\p “The ferry S.S. TIDAL is under construction in the SHIPYARD.\p “Service is scheduled to begin shortly.”$ SLATEPORT HARBOR\p “Enjoy a delightful cruise on the ferry S.S. TIDAL.”$ NAME RATER'S HOUSE “POKéMON nicknames rated.”$ If a wild POKéMON gets hurt, it heals itself by chewing on BERRIES.\p Did you know that?\p Somebody saw that and got the idea of making medicine from BERRIES.\p Did you know that?\p To turn BERRIES into medicine, they must be crushed into powder.\p Did you know that?\p You seem to have an interest in BERRIES!\p I've got something good for someone like you.$ I recently had machines installed at POKéMON CENTERS for crushing BERRIES.\p The BERRY CRUSH machines are at the DIRECT CORNER upstairs.\p Did you know?\p Could you make BERRY POWDER for me using those machines?\p I can make you all sorts of medicine if you bring me lots of BERRY POWDER.$ Have you brought me some BERRY POWDER?$ What would you like to exchange it with?$ Okay, you want to exchange your BERRY POWDER for one {STR_VAR_1}?$ Oh, dear. You don't have enough BERRY POWDER.$ This is fine BERRY POWDER. It will make excellent medicine.\p Would you like to trade more of your BERRY POWDER for something else?$ Okay! When you get some more BERRY POWDER, bring it to me, please!$ Come back if you'd like to trade your BERRY POWDER for some medicine.\p I'm always running a bazaar here.\p Did you know?$ SCOTT: Huh? I'm sure I met you somewhere before.\p Have I introduced myself to you? If not, my name's SCOTT.\p I just saw TEAM AQUA run away from here like they were stung.\p Let me guess--you drove them away?$ SCOTT: Hmm… Maybe, just maybe, this TRAINER…$ SCOTT: All right! I think you're going to become a good friend.\p So, let's register each other in our POKéNAVS.\p … … … … … …$ Registered this SCOTT person in the POKéNAV.$ SCOTT: What I'd like to do is tag along with you, but I do want to keep an eye\l on the talents of other people, too.\p So, I'll be off to roam other towns a bit more.\p Be seeing you, {PLAYER}{KUN}!$ SCOTT: Oh, hey! If it isn't {PLAYER}{KUN}!\p {PLAYER}{KUN}, let me guess--you're going to take the BATTLE TENT challenge?\p Yeah! That's a good idea! That's a really great idea!\p After all, a tough TRAINER is the perfect fit for the BATTLE TENT!\p Give it your best effort!")
+}
+
+script SlateportCity_EventScript_NameRatersHouseSign {
+    lockall
+    msgbox(SlateportCity_Text_NameRatersHouseSign)
+    releaseall
+}
+
+script SlateportCity_EventScript_HarborSign {
+    // Also calls: goto_if_set FLAG_SYS_GAME_CLEAR
+    lockall
+    msgbox(SlateportCity_Text_HarborFerryUnderConstruction)
+    releaseall
+}
+
+script SlateportCity_EventScript_MarketSign {
+    lockall
+    msgbox(SlateportCity_Text_MarketSign)
+    releaseall
+}
+
+script SlateportCity_EventScript_OceanicMuseumSign {
+    lockall
+    msgbox(SlateportCity_Text_OceanicMuseumSign)
+    releaseall
+}
+
+script SlateportCity_EventScript_CitySign {
+    lockall
+    msgbox(SlateportCity_Text_CitySign)
+    releaseall
+}
+
+script SlateportCity_EventScript_PokemonFanClubSign {
+    lockall
+    msgbox(SlateportCity_Text_PokemonFanClubSign)
+    releaseall
+}
+
+script SlateportCity_EventScript_BattleTentSign {
+    lockall
+    msgbox(SlateportCity_Text_BattleTentSign)
+    releaseall
+}
+
+script SlateportCity_EventScript_SternsShipyardSign {
+    // Also calls: goto_if_set FLAG_SYS_GAME_CLEAR, goto_if_set FLAG_BADGE07_GET
+    lockall
+    msgbox(SlateportCity_Text_SternsShipyardWantedSign)
+    releaseall
+}
+

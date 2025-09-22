@@ -1,1 +1,12 @@
-mapscripts Route18_EastEntrance_1F_MapScripts {}
+text Route18_EastEntrance_1F_Text_NeedBicycleForCyclingRoad {
+    format("You need a BICYCLE to go out on CYCLING ROAD!")
+}
+
+text Route18_EastEntrance_1F_Text_CyclingRoadAllUphillFromHere {
+    format("CYCLING ROAD is all uphill from here.")
+}
+
+text Route18_EastEntrance_1F_Text_ExcuseMe {
+    format("Excuse me!")
+}
+

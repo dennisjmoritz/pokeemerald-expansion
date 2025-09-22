@@ -1,1 +1,4 @@
-mapscripts Underwater_SeafloorCavern_MapScripts {}
+text Underwater_SeafloorCavern_EventScript_CheckStolenSub {
+    format("“SUBMARINE EXPLORER 1” is painted on the hull.\p This is the submarine TEAM AQUA stole in SLATEPORT!\p TEAM AQUA must have gone ashore here.")
+}
+

@@ -1,1 +1,4 @@
-mapscripts BattleFrontier_PokemonCenter_1F_MapScripts {}
+text BattleFrontier_PokemonCenter_1F_EventScript_Skitty {
+    format("There was someone here using a POKéMON I've never seen before.\p I never learned about it at TRAINER'S SCHOOL at least.\p I wonder where you can catch POKéMON like that.$ Okay! Next stop, the BATTLE ARENA! I'd better get the right POKéMON from\l the PC Storage System.$ Giggle… I'm going to go through every challenge with just this baby!$ SKITTY: Mya myaaah!")
+}
+

@@ -1,1 +1,4 @@
-mapscripts MtPyre_4F_MapScripts {}
+text MtPyre_5F_EventScript_Atsushi {
+    format("Teacher… Please watch over my progress!$ Teacher… Please forgive me!$ Until I improve, my teacher, who rests here, will never find true peace…")
+}
+

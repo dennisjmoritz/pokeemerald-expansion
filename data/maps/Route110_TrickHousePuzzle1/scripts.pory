@@ -1,1 +1,4 @@
-mapscripts Route110_TrickHousePuzzle1_MapScripts {}
+text Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened {
+    format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is fabulous.” … … … … … … … …\p The lock clicked open!$ I'll hack and slash my way to victory with the CUT we just learned!$ Why are you so serious?$ I never get tired of hacking and slashing!$ I wandered into this weird house by accident…$ And now I've lost…$ I lost my way, I lost a battle, and I'm now even more lost… I can't get out…$ Just who is the TRICK MASTER?$ I lost while I was lost in thought!$ You're strong! Just who are you?")
+}
+

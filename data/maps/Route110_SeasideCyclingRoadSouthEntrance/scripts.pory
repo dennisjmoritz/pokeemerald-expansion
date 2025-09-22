@@ -1,1 +1,4 @@
-mapscripts Route110_SeasideCyclingRoadSouthEntrance_MapScripts {}
+text Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad {
+    format("On CYCLING ROAD, you can go all out and cycle as fast as you'd like.\p It feels great to go that fast, but try not to crash into anyone!$ Sorry, you can't walk on CYCLING ROAD. It's too dangerous.\p Please come back with a BIKE.")
+}
+

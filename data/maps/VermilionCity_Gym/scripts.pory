@@ -1,1 +1,114 @@
-mapscripts VermilionCity_Gym_MapScripts {}
+text VermilionCity_Gym_Text_LtSurgeIntro {
+    format("Hey, kid! What do you think you're doing here?\p You won't live long in combat! Not with your puny power!\p I tell you, kid, electric POKéMON saved me during the war!\p They zapped my enemies into paralysis!\p The same as I'll do to you!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}")
+}
+
+text VermilionCity_Gym_Text_LtSurgePostBattle {
+    format("A little word of advice, kid!\p Electricity is sure powerful!\p But, it's useless against GROUND- type POKéMON!")
+}
+
+text VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis {
+    format("The THUNDERBADGE cranks up your POKéMON's SPEED!\p It also lets your POKéMON FLY lightning-quick anytime, kid!\p You're special, kid! Take this!")
+}
+
+text VermilionCity_Gym_Text_ReceivedTM34FromLtSurge {
+    format("{PLAYER} received TM34 from LT. SURGE.")
+}
+
+text VermilionCity_Gym_Text_ExplainTM34 {
+    format("TM34 contains SHOCK WAVE!\p Teach it to an ELECTRIC POKéMON!")
+}
+
+text VermilionCity_Gym_Text_MakeRoomInYourBag {
+    format("Yo, kid, make room in your BAG!")
+}
+
+text VermilionCity_Gym_Text_LtSurgeDefeat {
+    format("Now that's a shocker!\p You're the real deal, kid!\p Fine, then, take the THUNDERBADGE!")
+}
+
+text VermilionCity_Gym_Text_TuckerIntro {
+    format("When I was in the Army, LT. SURGE was my strict CO.\p He was a hard taskmaster.")
+}
+
+text VermilionCity_Gym_Text_TuckerDefeat {
+    format("Stop! You're very good!")
+}
+
+text VermilionCity_Gym_Text_TuckerPostBattle {
+    format("It's not easy opening that door.\p LT. SURGE was always famous for his cautious nature in the Army.")
+}
+
+text VermilionCity_Gym_Text_BailyIntro {
+    format("I'm a lightweight, but I'm good with electricity!\p That's why I joined this GYM.")
+}
+
+text VermilionCity_Gym_Text_BailyDefeat {
+    format("Fried!")
+}
+
+text VermilionCity_Gym_Text_BailyPostBattle {
+    format("Okay, I'll talk!\p LT. SURGE said he hid door switches inside something.")
+}
+
+text VermilionCity_Gym_Text_DwayneIntro {
+    format("This is no place for kids! Not even if you're good!")
+}
+
+text VermilionCity_Gym_Text_DwayneDefeat {
+    format("Wow! Surprised me!")
+}
+
+text VermilionCity_Gym_Text_DwaynePostBattle {
+    format("LT. SURGE installed the traps in the GYM himself.\p He set up double locks everywhere. Let me give you a hint.\p When you open the first lock, the second lock is right next to it.")
+}
+
+text VermilionCity_Gym_Text_GymGuyAdvice {
+    format("Yo! Champ in the making!\p LT. SURGE has a nickname.\p People refer to him as the Lightning American!\p He's an expert on electric POKéMON.\p BIRD/WATER-type POKéMON match poorly against the ELECTRIC type.\p Beware of paralysis, too.\p LT. SURGE is very cautious.\p He's locked himself in, so it won't be easy getting to him.")
+}
+
+text VermilionCity_Gym_Text_GymGuyPostVictory {
+    format("Whew! That match was electric!")
+}
+
+text VermilionCity_Gym_Text_GymStatue {
+    format("VERMILION POKéMON GYM LEADER: LT. SURGE\p WINNING TRAINERS: {RIVAL}")
+}
+
+text VermilionCity_Gym_Text_GymStatuePlayerWon {
+    format("VERMILION POKéMON GYM LEADER: LT. SURGE\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+}
+
+text VermilionCity_Gym_Text_NopeOnlyTrashHere {
+    format("Nope! There's only trash here.")
+}
+
+text VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened {
+    format("Hey! There's a switch under the trash! Turn it on!\p The first electric lock opened!")
+}
+
+text VermilionCity_Gym_Text_AnotherSwitchInTrash {
+    format("ガサゴソ‥！ おっと！ ゴミばこの そこに\l また スイッチが あった！\l おして みよう！ ‥ ポチッとな$ (Text unavailable in this build)")
+}
+
+text VermilionCity_Gym_Text_SecondLockOpened {
+    format("The second electric lock opened! The motorized door opened!")
+}
+
+text VermilionCity_Gym_Text_OnlyTrashLocksWereReset {
+    format("Nope! There's only trash here.\p Hey! The electric locks were reset!")
+}
+
+script VermilionCity_Gym_EventScript_GymStatue {
+    // Also calls: goto_if_set FLAG_BADGE03_GET
+    lockall
+    msgbox(VermilionCity_Gym_Text_GymStatue)
+    releaseall
+}
+
+script VermilionCity_Gym_EventScript_GymStatue {
+    // Also calls: goto_if_set FLAG_BADGE03_GET
+    lockall
+    msgbox(VermilionCity_Gym_Text_GymStatue)
+    releaseall
+}
+

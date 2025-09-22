@@ -1,1 +1,4 @@
-mapscripts LilycoveCity_Harbor_MapScripts {}
+text LilycoveCity_Harbor_EventScript_BoardFerryWithBrineyAndSailorEast {
+    format("I beg your pardon? You're looking for a ship?\p I'm sorry, the ferry service isn't available at present…$ Hello, are you here for the ferry? May I see your TICKET?$ {PLAYER} doesn't have the TICKET…\p I'm terribly sorry.\p You must have a TICKET to board the ferry.$ {PLAYER} flashed the TICKET.\p Perfect! That's all you need!\p And where would you like to go?$ Please sail with us another time!$ SLATEPORT CITY it is, then!$ BATTLE FRONTIER it is, then!$ Please board the ferry and wait for departure.$ Then, where would you like to go?$ Until they finish making the ferry, we sailors have nothing to do…\p I wish they'd get a move on, the folks at the SHIPYARD in SLATEPORT.$ The ferry S.S. TIDAL is finally in operation.\p The folks at the SHIPYARD in SLATEPORT must've worked extra hard.\p Well, it's my turn to get busy now!")
+}
+

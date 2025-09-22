@@ -1,1 +1,4 @@
-mapscripts Route119_House_MapScripts {}
+text Route119_House_EventScript_Wingull {
+    format("I heard about a cave called the CAVE OF ORIGIN.\p People rumor that the spirits of POKéMON are revived there. Could\l something like that really happen?$ WINGULL: Pihyoh!")
+}
+

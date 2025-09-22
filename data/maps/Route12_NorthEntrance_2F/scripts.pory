@@ -1,1 +1,40 @@
-mapscripts Route12_NorthEntrance_2F_MapScripts {}
+text Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale {
+    format("My POKéMON's ashes are stored in POKéMON TOWER.\p You can have this TM. I don't need it anymore…")
+}
+
+text Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale {
+    format("My POKéMON's ashes are stored in POKéMON TOWER.\p You can have this TM. I don't need it anymore…")
+}
+
+text Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl {
+    format("{PLAYER} received TM27 from the little girl.")
+}
+
+text Route12_NorthEntrance_2F_Text_ExplainTM27 {
+    format("TM27 is a move called RETURN…\p If you treat your POKéMON good, it will return your love by working\l its hardest in battle.")
+}
+
+text Route12_NorthEntrance_2F_Text_DontHaveRoomForThis {
+    format("You don't have room for this.")
+}
+
+text Route12_NorthEntrance_2F_Text_TheresManFishing {
+    format("Let's see what the binoculars have to show…\p There's a man fishing!")
+}
+
+text Route12_NorthEntrance_2F_Text_ItsPokemonTower {
+    format("Let's see what the binoculars have to show…\p It's POKéMON TOWER!")
+}
+
+script Route12_NorthEntrance_2F_EventScript_LeftBinoculars {
+    lockall
+    msgbox(Route12_NorthEntrance_2F_Text_TheresManFishing)
+    releaseall
+}
+
+script Route12_NorthEntrance_2F_EventScript_RightBinoculars {
+    lockall
+    msgbox(Route12_NorthEntrance_2F_Text_ItsPokemonTower)
+    releaseall
+}
+

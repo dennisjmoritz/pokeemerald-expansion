@@ -1,1 +1,34 @@
-mapscripts InsideOfTruck_MapScripts {}
+text InsideOfTruck_EventScript_MovingBox {
+    format("The box is printed with a POKéMON logo.\p It's a POKéMON brand moving and delivery service.")
+}
+
+script InsideOfTruck_EventScript_MovingBox {
+    lockall
+    msgbox(InsideOfTruck_Text_BoxPrintedWithMonLogo)
+    releaseall
+}
+
+script InsideOfTruck_EventScript_MovingBox {
+    lockall
+    msgbox(InsideOfTruck_Text_BoxPrintedWithMonLogo)
+    releaseall
+}
+
+script InsideOfTruck_EventScript_MovingBox {
+    lockall
+    msgbox(InsideOfTruck_Text_BoxPrintedWithMonLogo)
+    releaseall
+}
+
+script InsideOfTruck_EventScript_MovingBox {
+    lockall
+    msgbox(InsideOfTruck_Text_BoxPrintedWithMonLogo)
+    releaseall
+}
+
+script InsideOfTruck_EventScript_MovingBox {
+    lockall
+    msgbox(InsideOfTruck_Text_BoxPrintedWithMonLogo)
+    releaseall
+}
+

@@ -1,1 +1,4 @@
-mapscripts MirageTower_4F_MapScripts {}
+text MirageTower_4F_EventScript_CollapseMirageTower {
+    format("You found the ROOT FOSSIL.\p If this FOSSIL is taken, the ground around it will likely crumble away…\p Take the ROOT FOSSIL anyway?$ {PLAYER} left the ROOT FOSSIL alone.$ You found the CLAW FOSSIL.\p If this FOSSIL is taken, the ground around it will likely crumble away…\p Take the CLAW FOSSIL anyway?$ {PLAYER} left the CLAW FOSSIL alone.")
+}
+

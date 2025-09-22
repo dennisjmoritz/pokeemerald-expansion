@@ -1,1 +1,22 @@
-mapscripts PetalburgCity_MapScripts {}
+text PetalburgCity_EventScript_GymBoy {
+    format("Where has our WALLY gone?\p We have to leave for VERDANTURF TOWN very soon…$ Hiya! Are you maybe… A rookie TRAINER?\p Do you know what POKéMON TRAINERS do when they reach a new town?\p They first check what kind of GYM is in the town.$ See? This is PETALBURG CITY's GYM.$ This is the GYM's sign. Look for it whenever you're looking for a GYM.$ My face is reflected in the water.\p It's a shining grin full of hope…\p Or it could be a look of somber silence struggling with fear…\p What do you see reflected in your face?$ Let's say you have six POKéMON. If you catch another one…\p It is automatically sent to a STORAGE BOX over a PC connection.$ PETALBURG CITY POKéMON GYM LEADER: NORMAN\l “A man in pursuit of power!”$ PETALBURG CITY “Where people mingle with nature.”$ WALLY'S HOUSE$ Excuse me!\p Let me guess, from the way you're dressed, are you a POKéMON TRAINER?$ … … … … … …\p Well, maybe not. Your clothes aren't all that dirty.\p You're either a rookie TRAINER, or maybe you're just an ordinary kid.$ I'm roaming the land in search of talented TRAINERS.\p I'm sorry to have taken your time.")
+}
+
+script PetalburgCity_EventScript_GymSign {
+    lockall
+    msgbox(PetalburgCity_Text_GymSign)
+    releaseall
+}
+
+script PetalburgCity_EventScript_CitySign {
+    lockall
+    msgbox(PetalburgCity_Text_CitySign)
+    releaseall
+}
+
+script PetalburgCity_EventScript_WallyHouseSign {
+    lockall
+    msgbox(PetalburgCity_Text_WallyHouseSign)
+    releaseall
+}
+

@@ -1,1 +1,24 @@
-mapscripts ViridianCity_Mart_MapScripts {}
+text ViridianCity_Mart_Text_YouCameFromPallet {
+    format("Hey! You came from PALLET TOWN?")
+}
+
+text ViridianCity_Mart_Text_TakeThisToProfOak {
+    format("You know PROF. OAK, right?\p His order came in. Can I get you to take it to him?")
+}
+
+text ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk {
+    format("{PLAYER} received OAK'S PARCEL from the POKéMON MART clerk.")
+}
+
+text ViridianCity_Mart_Text_SayHiToOakForMe {
+    format("Okay, thanks! Please say hi to PROF. OAK for me, too.")
+}
+
+text ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes {
+    format("This shop does good business in ANTIDOTES, I've heard.")
+}
+
+text ViridianCity_Mart_Text_GotToBuySomePotions {
+    format("I've got to buy some POTIONS.\p You never know when your POKéMON will need quick healing.")
+}
+

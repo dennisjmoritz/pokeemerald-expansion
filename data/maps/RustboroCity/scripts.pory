@@ -1,1 +1,40 @@
-mapscripts RustboroCity_MapScripts {}
+text RustboroCity_EventScript_Boy1 {
+    format("The DEVON CORPORATION… We all just shorten it to DEVON.\p That company makes all sorts of convenient products.$ Hm? A sneaky-looking man?\p Come to think of it, yes, a shady- looking guy went around the corner.$ Have you taken the POKéMON GYM challenge?\p When you get that shiny GYM BADGE in hand, I guess TRAINERS begin to\l realize what is required of them.$ Hey, that's RUSTBORO's GYM BADGE!\p Out of all the POKéMON GYM BADGES, RUSTBORO's is the coolest, I'd say.$ Oh? Who might you be? You're a new face around these parts.\p Have you just transferred into the POKéMON TRAINER'S SCHOOL?$ I challenged the GYM LEADER, but…\p It's not going to be easy winning with my FIRE-type POKéMON…\p FIRE-type POKéMON don't match up well against ROCK-type POKéMON…$ The old sailor MR. BRINEY lives in a cottage by the sea.\p He goes for walks in the tunnel every so often.$ The old sailor MR. BRINEY lives in a cottage by the sea.\p He said he was going shopping in SLATEPORT for his pet, PEEKO.\p That old sea dog, he must really love that PEEKO.$ Wow, you have POKéMON with you, too.\p When I get bigger, I'm going to go places with POKéMON, too.$ POKéMON TRAINER'S SCHOOL!\p If I go to this school, will I be able to catch rare POKéMON easily?$ If a POKéMON gains experience in battles, it can sometimes change in\l the way it looks.$ A POKéMON changes shape? If one did that, I would be shocked!$ A POKéMON you get in a trade from someone grows fast.\p But if you don't have certain GYM BADGES, it may not obey you…$ Get out! Out of the way!$ Wait! Pleeeaaase!\p Don't take my GOODS!$ Oh, it's you!\p You're that fantastic TRAINER who helped me in PETALBURG WOODS!\p Help me! I was robbed by TEAM AQUA! I have to get the DEVON GOODS back!\p If I don't… I'm going to be in serious trouble.$ That shady character, I think he took off towards the tunnel over there.$ Oh! How did it go? The DEVON GOODS?\p You did! You got them back!\p You really are a great TRAINER!\p I know! As my thanks, I'll give you another GREAT BALL!$ You're loaded with items. I can't give you this GREAT BALL.$ Excuse me, please! Please come with me!$ MAY: Oh, hi, {PLAYER}{KUN}!\p You had a MATCH CALL feature put on your POKéNAV!\p Let's register each other so we can contact one another anytime!\p … … … … … …$ Registered MAY in the POKéNAV.$ MAY: Oh, by the way, I passed MR. BRINEY in PETALBURG WOODS.\p I guess he's on his way home to his cottage by the sea.\p How's your POKéDEX coming along, {PLAYER}{KUN}? Mine's looking pretty decent!\p So… How about a little battle?$ MAY: Oh, what's the matter?\p Haven't you caught or raised your POKéMON very much?\p That's not very good for a TRAINER!$ MAY: So, what do you think? How about a little battle here?$ MAY: You just became a TRAINER, {PLAYER}{KUN}. I'm not going to lose!$ Yikes! You're better than I expected!$ MAY: Oh, by the way, MR. BRINEY, who I just passed…\p {PLAYER}{KUN}, you just moved here so you might not know this, but MR. BRINEY\l was once a revered seafarer.$ BRENDAN: Oh, hey, {PLAYER}!\p You had a MATCH CALL feature put on your POKéNAV! Cool!\p Let's register each other so we can get in touch anytime!\p … … … … … …$ Registered BRENDAN in the POKéNAV.$ BRENDAN: By the way, {PLAYER}, I walked by MR. BRINEY in PETALBURG WOODS.\p I bet he was on his way home to his cottage by the sea.\p {PLAYER}, how's your POKéDEX? Have you filled in any pages yet?\p Mine rules.\p Want to have a battle to test how far you've progressed?$ BRENDAN: What's the matter? Don't have any confidence in your POKéMON?$ BRENDAN: What's up? Want to have a battle with me?$ BRENDAN: I know you just became a TRAINER, but I won't go easy!$ Hmm… You're pretty good.$ BRENDAN: By the way, you know MR. BRINEY? The guy I just passed?\p I bet you didn't know this, since you just moved here, {PLAYER}, but\l MR. BRINEY was once a great sailor.$ “Timesaving tunnel nearing completion!”\p …Is what it says on the sign, but there's also a big “X” splashed\l across it in red paint…$ DEVON CORPORATION\p “For all your living needs, we make it all.”$ RUSTBORO CITY POKéMON GYM LEADER: ROXANNE\p “The ROCK-loving honors student!”$ DEVON CORP. BRANCH OFFICE\p “Access limited to DEVON employees and authorized personnel.”$ RUSTBORO CITY\p “The city probing the integration of nature and science.”$ POKéMON TRAINER'S SCHOOL\p “We'll teach you anything about POKéMON!”$ CUTTER'S HOUSE$ I've been developing an added feature for the POKéNAV…\p And it turned out great!\p {PLAYER}, may I see that POKéNAV? The one our PRESIDENT gave you?$ There you go, {PLAYER}!\p I added a new feature named MATCH CALL to your POKéNAV.\p Using the MATCH CALL feature, you can chat with people who have\l been registered in your POKéNAV.\p {PLAYER}, our PRESIDENT STONE should be registered in your POKéNAV.\p Test it out. Please give our PRESIDENT a call.$ Please select the POKéNAV.$ Okay, I'd better get back to work. Please take care, {PLAYER}!$ Did you know this?\p You can have a 2-on-2 battle even if you're not with another TRAINER.\p If you catch the eyes of two TRAINERS when you have two or more POKéMON,\l they'll both challenge you.\p Don't you think it'd be cool if you could beat two TRAINERS by yourself?")
+}
+
+script RustboroCity_EventScript_GymSign {
+    lockall
+    msgbox(RustboroCity_Text_GymSign)
+    releaseall
+}
+
+script RustboroCity_EventScript_TrainersSchoolSign {
+    lockall
+    msgbox(RustboroCity_Text_TrainersSchoolSign)
+    releaseall
+}
+
+script RustboroCity_EventScript_CitySign {
+    lockall
+    msgbox(RustboroCity_Text_CitySign)
+    releaseall
+}
+
+script RustboroCity_EventScript_DevonCorpSign {
+    lockall
+    msgbox(RustboroCity_Text_DevonCorpSign)
+    releaseall
+}
+
+script RustboroCity_EventScript_TunnelSign {
+    lockall
+    msgbox(RustboroCity_Text_TunnelNearingCompletion)
+    releaseall
+}
+
+script RustboroCity_EventScript_CuttersHouseSign {
+    lockall
+    msgbox(RustboroCity_Text_CuttersHouse)
+    releaseall
+}
+

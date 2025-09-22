@@ -1,1 +1,4 @@
-mapscripts SootopolisCity_House7_MapScripts {}
+text SootopolisCity_House7_EventScript_PokefanF {
+    format("An underwater volcano erupted and forced itself up from the depths.\p Its crater emerged from the sea and became filled with rainwater.\p That's how SOOTOPOLIS CITY came into being.$ The cave that links SOOTOPOLIS and the outside world…\p It seems as if the cave was made to keep something from getting out.\p Or am I just imagining things?")
+}
+

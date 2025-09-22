@@ -1,1 +1,4 @@
-mapscripts FortreeCity_House5_MapScripts {}
+text FortreeCity_House5_EventScript_Zigzagoon {
+    format("The tree houses of FORTREE are great!\p I think it's the number one town for living together with POKéMON.$ POKéMON and people have adapted to nature for survival.\p There's no need to make nature conform to the way we want to live.$ ZIGZAGOON: Bufuu!")
+}
+

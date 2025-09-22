@@ -1,1 +1,26 @@
-mapscripts Route1_MapScripts {}
+text Route1_Text_WorkAtPokeMartTakeSample {
+    format("Hi! I work at a POKéMON MART.\p It's part of a convenient chain selling all sorts of items.\p Please, visit us in VIRIDIAN CITY.\p I know, I'll give you a sample. Here you go!")
+}
+
+text Route1_Text_ComeSeeUsIfYouNeedPokeBalls {
+    format("Please come see us if you need POKé BALLS for catching POKéMON.")
+}
+
+text Route1_Text_PutPotionAway {
+    format("{PLAYER} put the POTION away in the BAG's ITEMS POCKET.")
+}
+
+text Route1_Text_CanJumpFromLedges {
+    format("See those ledges along the road?\p It's a bit scary, but you can jump from them.\p You can get back to PALLET TOWN quicker that way.")
+}
+
+text Route1_Text_RouteSign {
+    format("ROUTE 1 PALLET TOWN - VIRIDIAN CITY")
+}
+
+script Route1_EventScript_RouteSign {
+    lockall
+    msgbox(Route1_Text_RouteSign)
+    releaseall
+}
+

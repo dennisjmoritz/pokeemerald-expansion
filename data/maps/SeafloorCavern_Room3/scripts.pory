@@ -1,1 +1,4 @@
-mapscripts SeafloorCavern_Room3_MapScripts {}
+text SeafloorCavern_Room3_EventScript_Grunt5 {
+    format("Ahahahaha!\p How did you manage to get here without a submarine?\l What an impressive child!\p But… It won't do to have you meddling about here.\p And, I do want payback for what happened at the WEATHER INSTITUTE…\p I'm going to give you a little taste of pain! Resign yourself to it!$ Ahahahaha!\p Ouch!$ Ahahahaha! You're so darn strong.\p It's terribly disappointing that you're not a TEAM AQUA member.\p You could have enjoyed the fabulous world our BOSS has promised as\l one of us…$ For our dream to become real, we need the power of POKéMON.\p But meddlers like you use the power of POKéMON to mess with us even at\l a place like this!\p Life just doesn't work the way we need it to!$ Gwah!$ You know, we don't dare question the motives of our leader.\p But here you are, just some punk, going up against our BOSS.\p Maybe… You must be something…")
+}
+

@@ -1,1 +1,16 @@
-mapscripts BattleFrontier_RankingHall_MapScripts {}
+text BattleFrontier_RankingHall_EventScript_Boy {
+    format("This is the RANKING HALL.\p This is where we recognize the immortal TRAINERS who left great records in\l BATTLE FRONTIER events.$ BATTLE DOME, BATTLE PIKE, and BATTLE FACTORY Records$ BATTLE PALACE, BATTLE ARENA, and BATTLE PYRAMID Records$ Hi, is your name on this list?$ Wow, that's super! I'll have to try harder, too!$ Oh, is that right?\p If you saw your friend's name up here, I bet it would make you work harder!$ Hmm… My name's not up there…\p Well, it's only natural since I haven't taken any challenges yet.")
+}
+
+script BattleFrontier_RankingHall_EventScript_DomePikeFactoryRecordsSign {
+    lockall
+    msgbox(BattleFrontier_RankingHall_Text_DomePikeFactoryRecords)
+    releaseall
+}
+
+script BattleFrontier_RankingHall_EventScript_PalaceArenaPyramidRecordsSIgn {
+    lockall
+    msgbox(BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords)
+    releaseall
+}
+

@@ -1,1 +1,4 @@
-mapscripts OldaleTown_Mart_MapScripts {}
+text OldaleTown_Mart_EventScript_Boy {
+    format("The clerk says they're all sold out. I can't buy any POKé BALLS.$ I'm going to buy a bunch of POKé BALLS and catch a bunch of POKéMON!$ If a POKéMON gets hurt and loses its HP and faints, it won't be able to battle.\p To prevent your POKéMON from fainting, restore its HP with a POTION.")
+}
+

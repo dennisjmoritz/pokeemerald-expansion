@@ -1,1 +1,67 @@
-mapscripts Route12_FishingHouse_MapScripts {}
+text Route12_FishingHouse_Text_DoYouLikeToFish {
+    format("I'm the FISHING GURU's younger brother.\p I simply looove fishing! I can't bear to go without.\p Tell me, do you like to fish?")
+}
+
+text Route12_FishingHouse_Text_TakeThisAndFish {
+    format("Grand! I like your style. I think we can be friends.\p Take this and fish, young friend!")
+}
+
+text Route12_FishingHouse_Text_ReceivedSuperRod {
+    format("{PLAYER} received a SUPER ROD from the FISHING GURU's brother.")
+}
+
+text Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe {
+    format("Fishing is a way of life! It is like the finest poetry.\p From the seas to rivers, go out and land the big one, my friend.\p Now, I have a request.\p If you catch a big MAGIKARP with that ROD, I want to see it.\p As much as I love to fish, I also love seeing gigantic MAGIKARP.")
+}
+
+text Route12_FishingHouse_Text_OhThatsDisappointing {
+    format("Oh… That's so disappointing…")
+}
+
+text Route12_FishingHouse_Text_TryFishingBringMeMagikarp {
+    format("Hello there, {PLAYER}! Have you been fishing?\p Try fishing with the SUPER ROD in any body of water.\p You'll find different POKéMON in different places.\p Oh, and don't forget to bring me gigantic MAGIKARP.")
+}
+
+text Route12_FishingHouse_Text_OhMagikarpAllowMeToSee {
+    format("Oh? {PLAYER}? Why, if it isn't a MAGIKARP!\p Allow me to see it, quick!")
+}
+
+text Route12_FishingHouse_Text_WhoaXInchesTakeThis {
+    format("… … …Whoa! {STR_VAR_2} inches!\p You have a rare appreciation for the fine, poetic aspects of fishing!\p You must take this. I insist!")
+}
+
+text Route12_FishingHouse_Text_LookForwardToGreaterRecords {
+    format("I'll look forward to seeing greater records from you!")
+}
+
+text Route12_FishingHouse_Text_HuhXInchesSameSizeAsLast {
+    format("Huh? {STR_VAR_2} inches?\p This is the same size as the one I saw before.")
+}
+
+text Route12_FishingHouse_Text_HmmXInchesDoesntMeasureUp {
+    format("Hmm… This one is {STR_VAR_2} inches long.\p It doesn't measure up to the {STR_VAR_3}-inch one you brought before.")
+}
+
+text Route12_FishingHouse_Text_DoesntLookLikeMagikarp {
+    format("Uh… That doesn't look much like a MAGIKARP.")
+}
+
+text Route12_FishingHouse_Text_NoRoomForGift {
+    format("Oh, no!\p I had a gift for you, but you have no room for it.")
+}
+
+text Route12_FishingHouse_Text_MostGiganticMagikarpXInches {
+    format("The most gigantic MAGIKARP I have ever witnessed…\p {STR_VAR_3} inches!")
+}
+
+text Route12_FishingHouse_Text_BlankChartOfSomeSort {
+    format("It's a blank chart of some sort.\p It has spaces for writing in records of some kind.")
+}
+
+script Route12_FishingHouse_EventScript_MagikarpRecordSign {
+    // Also calls: goto_if_set FLAG_TEMP_1
+    lockall
+    msgbox(Route12_FishingHouse_Text_BlankChartOfSomeSort)
+    releaseall
+}
+

@@ -1,1 +1,40 @@
-mapscripts ThreeIsland_BerryForest_MapScripts {}
+text ThreeIsland_BerryForest_Text_HelpScaryPokemon {
+    format("LOSTELLE: Whimper… Sniff… Oh! Please, help!\p A scary POKéMON appeared there a little while ago.\p It kept scaring. It made LOSTELLE scared.\p I'm too scared to move! But I want to go home…")
+}
+
+text ThreeIsland_BerryForest_Text_HereItComesAgain {
+    format("Oh! Here it comes again! No! Go away! It's scaring me!\p Waaaaaaah! I want my daddy!")
+}
+
+text ThreeIsland_BerryForest_Text_ThankYouHaveThis {
+    format("Ohh! That was so scary! Thank you!\p LOSTELLE came to pick some BERRIES.\p You can have this!")
+}
+
+text ThreeIsland_BerryForest_Text_LetsGoHome {
+    format("What's your name?\p LOSTELLE's scared, so can I go with you to my daddy's house?\p Okay! Let's go home!")
+}
+
+text ThreeIsland_BerryForest_Text_BerryPouchIsFull {
+    format("Your BERRY POUCH is full. I guess you don't want this.")
+}
+
+text ThreeIsland_BerryForest_Text_WelcomeToBerryForest {
+    format("Welcome to the BERRY FOREST\p Be friendly and share BERRIES with others and POKéMON.")
+}
+
+text ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons {
+    format("Beware of wild, BERRY-loving POKéMON!")
+}
+
+script ThreeIsland_BerryForest_EventScript_BewareSign {
+    lockall
+    msgbox(ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons)
+    releaseall
+}
+
+script ThreeIsland_BerryForest_EventScript_WelcomeSign {
+    lockall
+    msgbox(ThreeIsland_BerryForest_Text_WelcomeToBerryForest)
+    releaseall
+}
+

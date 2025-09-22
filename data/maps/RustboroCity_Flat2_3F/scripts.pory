@@ -1,1 +1,4 @@
-mapscripts RustboroCity_Flat2_3F_MapScripts {}
+text RustboroCity_Flat2_3F_EventScript_Woman {
+    format("DEVON's PRESIDENT likes to collect rare stones.$ I think the PRESIDENT's son also collects rare stones.")
+}
+

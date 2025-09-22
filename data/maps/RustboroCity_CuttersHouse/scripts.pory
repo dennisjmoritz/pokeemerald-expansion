@@ -1,1 +1,4 @@
-mapscripts RustboroCity_CuttersHouse_MapScripts {}
+text RustboroCity_CuttersHouse_EventScript_Lass {
+    format("That determined expression… That limber way you move…\l And your well-trained POKéMON…\p You're obviously a skilled TRAINER!\p No, wait, don't say a word. I can tell just by looking at you.\p I'm sure that you can put this HIDDEN MACHINE to good use.\p No need to be modest or shy. Go on, take it!$ That HIDDEN MACHINE, or HM for short, is CUT.\p An HM move is one that can be used by POKéMON outside of battle.\p Any POKéMON that's learned CUT can chop down thin trees if the TRAINER\l has earned the STONE BADGE.\p And, unlike a TM, an HM can be used more than once.$ When they were expanding the city of RUSTBORO, my dad helped out.\p He made his POKéMON use CUT to clear the land of trees.")
+}
+

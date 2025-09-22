@@ -1,1 +1,8 @@
-mapscripts CinnabarIsland_Mart_MapScripts {}
+text CinnabarIsland_Mart_Text_DontTheyHaveXAttack {
+    format("Don't they have X ATTACK?\p I like it because it raises the ATTACK stat in battle.")
+}
+
+text CinnabarIsland_Mart_Text_ExtraItemsNeverHurt {
+    format("It never hurts to have extra items. You never know what might happen.")
+}
+

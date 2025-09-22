@@ -1,1 +1,78 @@
-mapscripts CeruleanCity_Gym_MapScripts {}
+text CeruleanCity_Gym_Text_MistyIntro {
+    format("Hi, you're a new face!\p Only those TRAINERS who have a policy about POKéMON can turn pro.\p What is your approach when you catch and train POKéMON?\p My policy is an all-out offensive with WATER-type POKéMON!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}")
+}
+
+text CeruleanCity_Gym_Text_ExplainTM03 {
+    format("TM03 teaches WATER PULSE.\p Use it on an aquatic POKéMON!")
+}
+
+text CeruleanCity_Gym_Text_ExplainCascadeBadge {
+    format("The CASCADEBADGE makes all POKéMON up to Lv. 30 obey.\p That includes even outsiders you got in trades.\p There's more. You can now use CUT anytime, even out of battle.\p You can CUT down small trees to open new pathways.\p You can also have my favorite TM.")
+}
+
+text CeruleanCity_Gym_Text_ReceivedTM03FromMisty {
+    format("{PLAYER} received TM03 from MISTY.")
+}
+
+text CeruleanCity_Gym_Text_BetterMakeRoomForThis {
+    format("You better make room for this!")
+}
+
+text CeruleanCity_Gym_Text_MistyDefeat {
+    format("Wow! You're too much!\p All right!\p You can have the CASCADEBADGE to show you beat me.")
+}
+
+text CeruleanCity_Gym_Text_DianaIntro {
+    format("What? You? I'm more than good enough for you!\p MISTY won't have to be bothered.")
+}
+
+text CeruleanCity_Gym_Text_DianaDefeat {
+    format("You overwhelmed me!")
+}
+
+text CeruleanCity_Gym_Text_DianaPostBattle {
+    format("You have to face other TRAINERS to see how good you really are.")
+}
+
+text CeruleanCity_Gym_Text_LuisIntro {
+    format("Splash!\p I'm first up! Let's do it!")
+}
+
+text CeruleanCity_Gym_Text_LuisDefeat {
+    format("That can't be!")
+}
+
+text CeruleanCity_Gym_Text_LuisPostBattle {
+    format("MISTY is a TRAINER who's going to keep improving.\p She won't lose to someone like you!")
+}
+
+text CeruleanCity_Gym_Text_GymGuyAdvice {
+    format("Yo! Champ in the making!\p Let me give you some advice!\p The LEADER, MISTY, is a pro who uses WATER-type POKéMON.\p You can drain all their water with GRASS-type POKéMON.\p Or, you might use ELECTRIC-type POKéMON and zap them!")
+}
+
+text CeruleanCity_Gym_Text_WeMakePrettyGoodTeam {
+    format("You beat MISTY! See, what'd I tell ya?\p You and me, kid, we make a pretty darn-good team!")
+}
+
+text CeruleanCity_Gym_Text_GymStatue {
+    format("CERULEAN POKéMON GYM LEADER: MISTY\p WINNING TRAINERS: {RIVAL}")
+}
+
+text CeruleanCity_Gym_Text_GymStatuePlayerWon {
+    format("CERULEAN POKéMON GYM LEADER: MISTY\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+}
+
+script CeruleanCity_Gym_EventScript_GymStatue {
+    // Also calls: goto_if_set FLAG_BADGE02_GET
+    lockall
+    msgbox(CeruleanCity_Gym_Text_GymStatue)
+    releaseall
+}
+
+script CeruleanCity_Gym_EventScript_GymStatue {
+    // Also calls: goto_if_set FLAG_BADGE02_GET
+    lockall
+    msgbox(CeruleanCity_Gym_Text_GymStatue)
+    releaseall
+}
+

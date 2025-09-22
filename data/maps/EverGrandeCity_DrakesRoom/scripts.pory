@@ -1,1 +1,4 @@
-mapscripts EverGrandeCity_DrakesRoom_MapScripts {}
+text EverGrandeCity_DrakesRoom_EventScript_Defeated {
+    format("I am the last of the POKéMON LEAGUE ELITE FOUR, DRAKE the DRAGON master!\p In their natural state, POKéMON are wild living things. They are free.\p At times, they hinder us. At times, they help us.\p For us to battle with POKéMON as partners, do you know what it takes?\p Do you know what is needed?\p If you don't, then you will never prevail over me!$ Superb, it should be said.$ You deserve every credit for coming this far as a TRAINER of POKéMON.\p You do seem to know what is needed.\p Yes, what a TRAINER needs is a virtuous heart.\p POKéMON touch the good hearts of TRAINERS and learn good from wrong.\p They touch the good hearts of TRAINERS and grow strong.\p Go! Go onwards! The CHAMPION is waiting!")
+}
+

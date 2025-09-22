@@ -1,1 +1,12 @@
-mapscripts FuchsiaCity_House1_MapScripts {}
+text FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth {
+    format("The SAFARI ZONE's WARDEN is old, but he's still very much active.\p All his teeth are false, though.")
+}
+
+text FuchsiaCity_House1_Text_BillIsMyGrandson {
+    format("Hmm? You've met BILL?\p He's my grandson!\p He always liked collecting things, even as a child!")
+}
+
+text FuchsiaCity_House1_Text_BillFilesHisOwnMonData {
+    format("BILL files his own POKéMON data on his PC.\p Did he show you?")
+}
+

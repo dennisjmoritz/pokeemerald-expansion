@@ -1,1 +1,19 @@
-mapscripts DesertRuins_MapScripts {}
+script DesertRuins_EventScript_CaveEntranceMiddle {
+    // Also calls: goto_if_set FLAG_SYS_REGIROCK_PUZZLE_COMPLETED
+    lockall
+    msgbox(DesertRuins_Braille_UseRockSmash)
+    releaseall
+}
+
+script DesertRuins_EventScript_CaveEntranceSide {
+    lockall
+    msgbox(DesertRuins_Braille_UseRockSmash)
+    releaseall
+}
+
+script DesertRuins_EventScript_CaveEntranceSide {
+    lockall
+    msgbox(DesertRuins_Braille_UseRockSmash)
+    releaseall
+}
+

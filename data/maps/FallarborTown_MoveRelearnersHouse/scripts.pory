@@ -1,1 +1,4 @@
-mapscripts FallarborTown_MoveRelearnersHouse_MapScripts {}
+text FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale {
+    format("I'm the MOVE TUTOR.\p I know all the moves that POKéMON learn--every one of them--and I can\l teach POKéMON those moves.\p I can teach a move to a POKéMON of yours if you'd like.\p I'll do it for a HEART SCALE. I'm collecting those now.$ Oh! That's it! That's an honest to goodness HEART SCALE!\p Let me guess, you want me to teach a move?$ Which POKéMON needs tutoring?$ Which move should I teach?$ Sorry…\p It doesn't appear as if I have any move I can teach that POKéMON.$ {PLAYER} handed over one HEART SCALE in exchange.$ If your POKéMON need to learn a move, come back with a HEART SCALE.$ Hunh? There isn't a single move that I can teach an EGG.")
+}
+

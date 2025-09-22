@@ -1,1 +1,4 @@
-mapscripts MagmaHideout_3F_1R_MapScripts {}
+text MagmaHideout_3F_1R_EventScript_Grunt16 {
+    format("What did I do to deserve this guard posting?\p My left ear is burning up!$ I'm getting heat exhaustion…$ Do you think it's odd that we're wearing hoods in this magma-filled volcano?$ We joined so we can help our leader achieve his fantastic vision.\p I don't care if you're with TEAM AQUA or if you're just some kid passing by.\p No one interferes with us and gets away with it!$ Oh, no! You're not to be trusted at all!$ Listen to me. TEAM MAGMA is right!\p Don't listen to TEAM AQUA. Don't believe their lies!")
+}
+

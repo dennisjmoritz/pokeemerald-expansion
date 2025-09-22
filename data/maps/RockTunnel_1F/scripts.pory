@@ -1,1 +1,94 @@
-mapscripts RockTunnel_1F_MapScripts {}
+text RockTunnel_1F_Text_LennyIntro {
+    format("This tunnel goes a long way, kid!")
+}
+
+text RockTunnel_1F_Text_LennyDefeat {
+    format("Doh! You win!")
+}
+
+text RockTunnel_1F_Text_LennyPostBattle {
+    format("Watch for ONIX. They appear only occasionally.\p High-level ones can put the squeeze on you!")
+}
+
+text RockTunnel_1F_Text_OliverIntro {
+    format("Hmm. Maybe I'm lost in here…")
+}
+
+text RockTunnel_1F_Text_OliverDefeat {
+    format("Ease up! What am I doing?\l Which way is out?")
+}
+
+text RockTunnel_1F_Text_OliverPostBattle {
+    format("That sleeping POKéMON on ROUTE 12 forced me to take this detour.")
+}
+
+text RockTunnel_1F_Text_LucasIntro {
+    format("Outsiders like you need to show me some respect!")
+}
+
+text RockTunnel_1F_Text_LucasDefeat {
+    format("I give!")
+}
+
+text RockTunnel_1F_Text_LucasPostBattle {
+    format("You're talented enough to hike!")
+}
+
+text RockTunnel_1F_Text_AshtonIntro {
+    format("POKéMON fight! Ready, go!")
+}
+
+text RockTunnel_1F_Text_AshtonDefeat {
+    format("Game over!")
+}
+
+text RockTunnel_1F_Text_AshtonPostBattle {
+    format("Oh well, I'll get a ZUBAT as I go!")
+}
+
+text RockTunnel_1F_Text_LeahIntro {
+    format("Eek!\p Don't try anything funny in the dark!")
+}
+
+text RockTunnel_1F_Text_LeahDefeat {
+    format("It was too dark…")
+}
+
+text RockTunnel_1F_Text_LeahPostBattle {
+    format("I saw a MACHOP in this tunnel.")
+}
+
+text RockTunnel_1F_Text_DanaIntro {
+    format("I came this far looking for wild POKéMON.")
+}
+
+text RockTunnel_1F_Text_DanaDefeat {
+    format("I'm out of POKéMON!")
+}
+
+text RockTunnel_1F_Text_DanaPostBattle {
+    format("You looked cute and harmless. Was I ever wrong!")
+}
+
+text RockTunnel_1F_Text_ArianaIntro {
+    format("You have POKéMON! Let's start!")
+}
+
+text RockTunnel_1F_Text_ArianaDefeat {
+    format("You play hard!")
+}
+
+text RockTunnel_1F_Text_ArianaPostBattle {
+    format("Whew! I'm all sweaty now.")
+}
+
+text RockTunnel_1F_Text_RouteSign {
+    format("ROCK TUNNEL CERULEAN CITY - LAVENDER TOWN")
+}
+
+script RockTunnel_1F_EventScript_RouteSign {
+    lockall
+    msgbox(RockTunnel_1F_Text_RouteSign)
+    releaseall
+}
+

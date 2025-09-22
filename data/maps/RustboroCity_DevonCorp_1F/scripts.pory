@@ -1,1 +1,16 @@
-mapscripts RustboroCity_DevonCorp_1F_MapScripts {}
+text RustboroCity_DevonCorp_1F_EventScript_ProductsDisplay {
+    format("Hello and welcome to the DEVON CORPORATION.\p We're proud producers of items and medicine that enhance your life.$ One of our research staff stupidly got robbed of an important parcel.$ Hey, those RUNNING SHOES! They're one of our products!\p It makes me happy when I see someone using something we made.$ That stolen parcel…\p Well, sure it's important, but it's not anything that anyone can use.\p In my estimation, that robber must not have been very bright.$ It sounds like they've recovered the ripped-off DEVON GOODS.$ I'm sorry, only authorized people are allowed to enter here.$ It's beyond stupid. How could we get robbed?$ Hi, there! You're always welcome here!$ Samples of rocks and metal are displayed in the glass case.\p There's a panel with some writing on it…\p “DEVON CORPORATION got its start as a producer of stones from quarries.\p “The company also produced iron from filings in the sand.\p “From that humble start as a producer of raw materials, DEVON developed.\p “DEVON is now a manufacturer of a wide range of industrial products.”$ Prototypes and test products fill the glass display case.\p There's a panel with a description…\p “In addition to industrial products, DEVON now markets sundries and\l pharmaceuticals for better lifestyles.\p “Recently, DEVON has begun marketing tools for POKéMON TRAINERS, including\l POKé BALLS and POKéNAV systems.”")
+}
+
+script RustboroCity_DevonCorp_1F_EventScript_ProductsDisplay {
+    lockall
+    msgbox(RustboroCity_DevonCorp_1F_Text_ProductDisplay)
+    releaseall
+}
+
+script RustboroCity_DevonCorp_1F_EventScript_RocksMetalDisplay {
+    lockall
+    msgbox(RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay)
+    releaseall
+}
+

@@ -1,1 +1,4 @@
-mapscripts CeruleanCity_House3_MapScripts {}
+text CeruleanCity_House3_Text_PleaseTradeWithMyHusband {
+    format("My husband likes trading POKéMON.\p You're collecting POKéMON for your POKéDEX, aren't you?\p Would you please trade with him?")
+}
+

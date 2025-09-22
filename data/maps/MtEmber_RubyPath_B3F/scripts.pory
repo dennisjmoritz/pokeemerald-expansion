@@ -1,1 +1,4 @@
-mapscripts MtEmber_RubyPath_B3F_MapScripts {}
+text MtEmber_RubyPath_B3F_Text_FoundARuby {
+    format("{PLAYER} found a RUBY!")
+}
+

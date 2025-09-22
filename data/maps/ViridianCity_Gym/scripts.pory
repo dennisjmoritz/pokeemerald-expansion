@@ -1,1 +1,154 @@
-mapscripts ViridianCity_Gym_MapScripts {}
+text ViridianCity_Gym_Text_GiovanniIntro {
+    format("Fwahahaha! Welcome to my hideout!\p It shall be so until I can restore TEAM ROCKET to its former glory.\p But, you have found me again. So be it.\l This time, I'm not holding back!\p Once more, you shall face GIOVANNI, the greatest TRAINER!")
+}
+
+text ViridianCity_Gym_Text_GiovanniDefeat {
+    format("Ha! That was a truly intense fight.\l You have won!\p As proof, here is the EARTHBADGE! {PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}")
+}
+
+text ViridianCity_Gym_Text_GiovanniPostBattle {
+    format("Having lost in this fashion, I can't face my followers.\l I have betrayed their trust.\p As of today, TEAM ROCKET is finished forever!\p As for myself, I shall dedicate my life to training again.\p Let us meet again someday! Farewell!")
+}
+
+text ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis {
+    format("The EARTHBADGE makes POKéMON of any level obey without question.\p It is evidence of your mastery as a POKéMON TRAINER.\p With it, you can challenge the POKéMON LEAGUE.\p Also, take this TM.\p Consider it a gift for your POKéMON LEAGUE challenge.")
+}
+
+text ViridianCity_Gym_Text_ReceivedTM26FromGiovanni {
+    format("{PLAYER} received TM26 from GIOVANNI.")
+}
+
+text ViridianCity_Gym_Text_ExplainTM26 {
+    format("TM26 contains EARTHQUAKE.\p It is a powerful attack that causes a massive tremor.\p I made it when I ran the GYM here, far too long ago…")
+}
+
+text ViridianCity_Gym_Text_YouDoNotHaveSpace {
+    format("You do not have space for this!")
+}
+
+text ViridianCity_Gym_Text_YujiIntro {
+    format("Heh! You must be running out of steam\l by now!")
+}
+
+text ViridianCity_Gym_Text_YujiDefeat {
+    format("I ran out of gas!")
+}
+
+text ViridianCity_Gym_Text_YujiPostBattle {
+    format("You'll need power to keep up with our GYM LEADER.")
+}
+
+text ViridianCity_Gym_Text_AtsushiIntro {
+    format("Rrrroar! I'm working myself into a rage!")
+}
+
+text ViridianCity_Gym_Text_AtsushiDefeat {
+    format("Wargh!")
+}
+
+text ViridianCity_Gym_Text_AtsushiPostBattle {
+    format("I'm still not worthy!")
+}
+
+text ViridianCity_Gym_Text_JasonIntro {
+    format("POKéMON and I, we make wonderful music together!")
+}
+
+text ViridianCity_Gym_Text_JasonDefeat {
+    format("You are in perfect harmony!")
+}
+
+text ViridianCity_Gym_Text_JasonPostBattle {
+    format("Do you know the identity of our GYM LEADER?")
+}
+
+text ViridianCity_Gym_Text_KiyoIntro {
+    format("Karate is the ultimate form of martial arts!")
+}
+
+text ViridianCity_Gym_Text_KiyoDefeat {
+    format("Aiyah!")
+}
+
+text ViridianCity_Gym_Text_KiyoPostBattle {
+    format("If my POKéMON were as good at karate as I…")
+}
+
+text ViridianCity_Gym_Text_WarrenIntro {
+    format("The truly talented win with style.")
+}
+
+text ViridianCity_Gym_Text_WarrenDefeat {
+    format("I lost my grip!")
+}
+
+text ViridianCity_Gym_Text_WarrenPostBattle {
+    format("The LEADER will scold me for losing this way…")
+}
+
+text ViridianCity_Gym_Text_TakashiIntro {
+    format("I'm the KARATE KING! Your fate rests with me!")
+}
+
+text ViridianCity_Gym_Text_TakashiDefeat {
+    format("Ayah!")
+}
+
+text ViridianCity_Gym_Text_TakashiPostBattle {
+    format("The POKéMON LEAGUE? You? Don't get cocky!")
+}
+
+text ViridianCity_Gym_Text_ColeIntro {
+    format("Your POKéMON will cower at the crack of my whip!")
+}
+
+text ViridianCity_Gym_Text_ColeDefeat {
+    format("Yowch! Whiplash!")
+}
+
+text ViridianCity_Gym_Text_ColePostBattle {
+    format("Wait! I was just careless!")
+}
+
+text ViridianCity_Gym_Text_SamuelIntro {
+    format("VIRIDIAN GYM was closed for a long time.\p But now, our LEADER is back!")
+}
+
+text ViridianCity_Gym_Text_SamuelDefeat {
+    format("I was beaten?")
+}
+
+text ViridianCity_Gym_Text_SamuelPostBattle {
+    format("You can go on to the POKéMON LEAGUE only by defeating our GYM\l LEADER!")
+}
+
+text ViridianCity_Gym_Text_GymGuyAdvice {
+    format("Yo! Champ in the making!\p Even I don't know the VIRIDIAN LEADER's identity.\p But one thing's certain. This will be the toughest of all\l the GYM LEADERS.\p Also, I heard that the TRAINERS here like GROUND-type POKéMON.")
+}
+
+text ViridianCity_Gym_Text_GymGuyPostVictory {
+    format("Blow me away! GIOVANNI was the GYM LEADER of VIRIDIAN?")
+}
+
+text ViridianCity_Gym_Text_GymStatue {
+    format("VIRIDIAN POKéMON GYM LEADER: ?\p WINNING TRAINERS: {RIVAL}")
+}
+
+text ViridianCity_Gym_Text_GymStatuePlayerWon {
+    format("VIRIDIAN POKéMON GYM LEADER: GIOVANNI\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+}
+
+script ViridianCity_Gym_EventScript_GymStatue {
+    // Also calls: goto_if_set FLAG_BADGE08_GET
+    lockall
+    msgbox(ViridianCity_Gym_Text_GymStatue)
+    releaseall
+}
+
+script ViridianCity_Gym_EventScript_GymStatue {
+    // Also calls: goto_if_set FLAG_BADGE08_GET
+    lockall
+    msgbox(ViridianCity_Gym_Text_GymStatue)
+    releaseall
+}
+

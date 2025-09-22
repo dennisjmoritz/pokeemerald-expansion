@@ -1,1 +1,38 @@
-mapscripts RustboroCity_PokemonSchool_MapScripts {}
+text RustboroCity_PokemonSchool_EventScript_ScottWatchStudents {
+    format("The blackboard lists status changes that may affect POKéMON in battle.$ Which topic do you want to read?$ If a POKéMON is poisoned, it will steadily lose HP.\p The effects of poison remain after a battle.\p A poisoned POKéMON's HP will drop while it is traveling.\p Heal a poisoning using an ANTIDOTE.$ If a POKéMON becomes paralyzed, its SPEED drops.\p It may also not be able to move while it is in battle.\p Paralysis remains after battle. Cure it using a PARLYZ HEAL.$ If a POKéMON falls asleep, it will be unable to attack.\p A POKéMON may wake up on its own, but if a battle ends while it is\l sleeping, it will stay asleep.\p Wake it up using an AWAKENING.$ A burn reduces ATTACK power, and it steadily reduces the victim's HP.\p A burn lingers after battle. Cure a burn using a BURN HEAL.$ If a POKéMON is frozen, it becomes completely helpless.\p It will remain frozen after battle. Thaw it out using an ICE HEAL.$ Students who don't study get a little taste of my QUICK CLAW.\p Whether or not you are a good student will be evident from the way you use\l this item.$ A POKéMON holding the QUICK CLAW will occasionally speed up and get to move\l before its opponent.\p There are many other items that are meant to be held by POKéMON.\p Just those alone will give you many topics to study!$ I'm trading POKéMON with my friend right now.$ I always wanted a SEEDOT, and I'm finally getting one!$ POKéMON can hold items, but they don't know what to do with man-made\l items like POTION and ANTIDOTE.$ You know how some POKéMON moves can confuse a POKéMON?\p A confused POKéMON will sometimes attack itself without meaning to.\p But once it leaves battle, it will return to normal.$ A POKéMON holding a BERRY will heal itself…\p There are many kinds of items that POKéMON can hold…\p Boy, it sure is hard taking notes down…$ It's this student's notebook…\p POKéMON are to be caught using POKé BALLS.\p Up to six POKéMON can accompany a TRAINER.\p A TRAINER is someone who catches POKéMON, raises them, and battles\l with them.\p A TRAINER's mission is to defeat the strong TRAINERS who await\l challengers in POKéMON GYMS.$ Hello? Didn't we meet before? I think back in PETALBURG CITY.\p Let me introduce myself. My name's SCOTT.\p I've been traveling everywhere in search of outstanding TRAINERS.\p More specifically, I'm looking for POKéMON battle experts.\p So, what brings you to this SCHOOL? Are you a TRAINER, too?\p The first thing you should do is to have a POKéMON learn the move CUT.\p If I remember correctly, someone in this town has CUT.$ SCOTT: Hmm…\p The talent levels of the students here are unknown. The potential's there.$ SCOTT: Oh, what's that?\p It's a STONE BADGE, isn't it? That's pretty impressive, I'd say.\p But, you know, I would've loved to see you in battle.\p It's hard to tell what you're like as a TRAINER from a LEAGUE BADGE.$ Hello? Didn't we meet before? I think back in PETALBURG CITY.\p Let me introduce myself. My name's SCOTT.\p I've been traveling everywhere in search of outstanding TRAINERS.\p More specifically, I'm looking for POKéMON battle experts.\p Oh, what's that? It's a STONE BADGE, isn't it?\p That's pretty impressive, I'd say, for a starting TRAINER like yourself.\p But, you know, I would've loved to see you in battle.\p It's hard to tell what you're like as a TRAINER from a LEAGUE BADGE.")
+}
+
+script RustboroCity_PokemonSchool_EventScript_Blackboard {
+    // Also calls: goto RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic
+    lockall
+    msgbox(RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges)
+    releaseall
+}
+
+script RustboroCity_PokemonSchool_EventScript_Blackboard {
+    // Also calls: goto RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic
+    lockall
+    msgbox(RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges)
+    releaseall
+}
+
+script RustboroCity_PokemonSchool_EventScript_Blackboard {
+    // Also calls: goto RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic
+    lockall
+    msgbox(RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges)
+    releaseall
+}
+
+script RustboroCity_PokemonSchool_EventScript_Blackboard {
+    // Also calls: goto RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic
+    lockall
+    msgbox(RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges)
+    releaseall
+}
+
+script RustboroCity_PokemonSchool_EventScript_StudentNotebook {
+    lockall
+    msgbox(RustboroCity_PokemonSchool_Text_StudentsNotes)
+    releaseall
+}
+

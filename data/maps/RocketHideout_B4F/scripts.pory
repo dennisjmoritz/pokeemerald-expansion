@@ -1,1 +1,48 @@
-mapscripts RocketHideout_B4F_MapScripts {}
+text RocketHideout_B4F_Text_GiovanniIntro {
+    format("So! I must say, I am impressed you got here.\p TEAM ROCKET captures POKéMON from around the world.\p They're important tools for keeping our criminal enterprise going.\p I am the leader, GIOVANNI!\p For your insolence, you will feel a world of pain!")
+}
+
+text RocketHideout_B4F_Text_GiovanniDefeat {
+    format("WHAT! This can't be!")
+}
+
+text RocketHideout_B4F_Text_GiovanniPostBattle {
+    format("I see that you raise POKéMON with utmost care.\p A child like you would never understand what I hope to achieve.\p I shall step aside this time!\p I hope we meet again…")
+}
+
+text RocketHideout_B4F_Text_Grunt2Intro {
+    format("I know you! You ruined our plans at MT. MOON!")
+}
+
+text RocketHideout_B4F_Text_Grunt2Defeat {
+    format("Burned again!")
+}
+
+text RocketHideout_B4F_Text_Grunt2PostBattle {
+    format("Do you have something against TEAM ROCKET?")
+}
+
+text RocketHideout_B4F_Text_Grunt3Intro {
+    format("How can you not see the beauty of our evil?")
+}
+
+text RocketHideout_B4F_Text_Grunt3Defeat {
+    format("Ayaya!")
+}
+
+text RocketHideout_B4F_Text_Grunt3PostBattle {
+    format("BOSS! I'm sorry I failed you!")
+}
+
+text RocketHideout_B4F_Text_Grunt1Intro {
+    format("The elevator doesn't work? Who has the LIFT KEY?")
+}
+
+text RocketHideout_B4F_Text_Grunt1Defeat {
+    format("No!")
+}
+
+text RocketHideout_B4F_Text_Grunt1PostBattle {
+    format("Oh, no! I dropped the LIFT KEY!")
+}
+

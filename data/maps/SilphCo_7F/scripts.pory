@@ -1,1 +1,126 @@
-mapscripts SilphCo_7F_MapScripts {}
+text SilphCo_7F_Text_HaveMonForSavingUs {
+    format("Oh! Hi! You're not a ROCKET! You came to save us?\l Why, thank you!\p I want you to have this POKéMON for saving us.")
+}
+
+text SilphCo_7F_Text_ObtainedLaprasFromEmployee {
+    format("{PLAYER} obtained a LAPRAS from the SILPH employee!")
+}
+
+text SilphCo_7F_Text_ExplainLapras {
+    format("It's a LAPRAS. It's a very intelligent POKéMON.\p We kept it in our lab, but it will be much better off with you.\p I think you will be a good TRAINER for LAPRAS!\p It's a good swimmer. It'll give you a lift across water!")
+}
+
+text SilphCo_7F_Text_RocketBossWentToBoardroom {
+    format("TEAM ROCKET's BOSS went to the boardroom!\p Is our PRESIDENT okay? I'm worried.")
+}
+
+text SilphCo_7F_Text_OhNo {
+    format("Oh, no!")
+}
+
+text SilphCo_7F_Text_SavedAtLast {
+    format("Saved at last!")
+}
+
+text SilphCo_7F_Text_RocketsAfterMasterBall {
+    format("TEAM ROCKET was after the MASTER BALL, which catches any POKéMON.")
+}
+
+text SilphCo_7F_Text_CanceledMasterBallProject {
+    format("We canceled the MASTER BALL project because of TEAM ROCKET.")
+}
+
+text SilphCo_7F_Text_BadIfTeamRocketTookOver {
+    format("It would be bad if TEAM ROCKET took over SILPH or our POKéMON.")
+}
+
+text SilphCo_7F_Text_WowYouChasedOffTeamRocket {
+    format("Wow!\p You chased off TEAM ROCKET all by yourself?")
+}
+
+text SilphCo_7F_Text_ReallyDangerousHere {
+    format("You! It's really dangerous here!\p You came to save me? You can't!")
+}
+
+text SilphCo_7F_Text_ThankYouSoMuch {
+    format("Thank you so much!")
+}
+
+text SilphCo_7F_Text_Grunt3Intro {
+    format("Uh-oh! I smell a little mouse!")
+}
+
+text SilphCo_7F_Text_Grunt3Defeat {
+    format("Lights out!")
+}
+
+text SilphCo_7F_Text_Grunt3PostBattle {
+    format("You won't find my BOSS by just scurrying around!")
+}
+
+text SilphCo_7F_Text_JoshuaIntro {
+    format("Heheh!\p You mistook me for a SILPH worker?")
+}
+
+text SilphCo_7F_Text_JoshuaDefeat {
+    format("I'm done!")
+}
+
+text SilphCo_7F_Text_JoshuaPostBattle {
+    format("Despite your age, you are a skilled TRAINER!")
+}
+
+text SilphCo_7F_Text_Grunt1Intro {
+    format("I am one of the four ROCKET BROTHERS!")
+}
+
+text SilphCo_7F_Text_Grunt1Defeat {
+    format("Aack! Brothers, I lost!")
+}
+
+text SilphCo_7F_Text_Grunt1PostBattle {
+    format("Doesn't matter. My brothers will repay the favor!")
+}
+
+text SilphCo_7F_Text_Grunt2Intro {
+    format("A child intruder? That must be you!")
+}
+
+text SilphCo_7F_Text_Grunt2Defeat {
+    format("Fine! I lost!")
+}
+
+text SilphCo_7F_Text_Grunt2PostBattle {
+    format("Go on home before my BOSS gets ticked off!")
+}
+
+text SilphCo_7F_Text_RivalWhatKeptYou {
+    format("{RIVAL}: What kept you, {PLAYER}?")
+}
+
+text SilphCo_7F_Text_RivalIntro {
+    format("{RIVAL}: Hahaha! I thought you'd turn up if I waited here!\p I guess TEAM ROCKET slowed you down! Not that I care!\p I saw you in SAFFRON, so I decided to see if you got better!")
+}
+
+text SilphCo_7F_Text_RivalDefeat {
+    format("Oh, man! So, you are ready for BOSS\l ROCKET!")
+}
+
+text SilphCo_7F_Text_RivalVictory {
+    format("{RIVAL}“: Hahaha! I win again!")
+}
+
+text SilphCo_7F_Text_RivalPostBattle {
+    format("Well, {PLAYER}! I'm moving on up and ahead!\p By checking my POKéDEX, I'm starting to see what's strong and\l how they evolve!\p Am I a genius or what?\p I'm going to the POKéMON LEAGUE to boot out the ELITE FOUR.\p I'll become the world's most powerful TRAINER!\p {PLAYER}, well, good luck to you! Don't sweat it!\l Smell ya!")
+}
+
+text SilphCo_7F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 7F")
+}
+
+script SilphCo_7F_EventScript_FloorSign {
+    lockall
+    msgbox(SilphCo_7F_Text_FloorSign)
+    releaseall
+}
+

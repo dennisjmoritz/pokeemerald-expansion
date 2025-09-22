@@ -1,1 +1,4 @@
-mapscripts PacifidlogTown_House3_MapScripts {}
+text PacifidlogTown_House3_EventScript_Girl {
+    format("Check out this {STR_VAR_2}!\p It's the {STR_VAR_2} that I caught yesterday to celebrate my birthday!\p Oh, I can see that you want it! After all, it's priceless!\p I'll tell you what. I might be willing to trade it for a {STR_VAR_1}.$ Oh, so this is a {STR_VAR_1}?\p It's sort of like a {STR_VAR_2}, and yet it's subtly different.\p Thank you!$ No, no, no! I won't accept any less than a real {STR_VAR_1}!$ Oh, so you're not going to go through with this?\p That's cool. I'm not desperate to make a trade or anything.$ I know I could go looking for one on my own, but…\p But I really wanted to get a BAGON that another TRAINER caught…$ Is that a POKéDEX?\p Did you get to meet a lot of different POKéMON?\p I wish I was like you.")
+}
+

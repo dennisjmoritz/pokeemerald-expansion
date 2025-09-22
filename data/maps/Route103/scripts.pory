@@ -1,1 +1,10 @@
-mapscripts Route103_MapScripts {}
+text Route103_EventScript_Isabelle {
+    format("MAY: Let's see… The POKéMON found on ROUTE 103 include…$ Oh, hi, {PLAYER}{KUN}!\p …Oh, I see, my dad gave you a POKéMON as a gift.\p Since we're here, let's have a quick battle!\p I'll give you a taste of what being a TRAINER is like.$ Wow! That's great! {PLAYER}{KUN}, you're pretty good!$ MAY: I think I know why my dad has an eye out for you now.\p I mean, you just got that POKéMON, but it already likes you.\p You might be able to befriend any kind of POKéMON easily.\p Well, it's time to head back to the LAB.$ BRENDAN: Okay, so it's this one and that one that live on ROUTE 103…$ Hey, it's {PLAYER}!\p …Oh, yeah, Dad gave you a POKéMON.\p Since we're here, how about a little battle?\p I'll teach you what being a TRAINER's about!$ Huh, {PLAYER}, you're not too shabby.$ BRENDAN: I think I get it. I think I know why my dad has his eye\l out for you now.\p Look, your POKéMON already likes you, even though you just got it.\p {PLAYER}, I get the feeling that you could befriend any POKéMON with ease.\p We should head back to the LAB.$ My POKéMON is staggeringly tired… I should have brought a POTION…$ If you cross the sea from here, it'll be a shortcut to OLDALE TOWN.\p Fufufu, that's useful, isn't it?$ ROUTE 103 {DOWN_ARROW} OLDALE TOWN")
+}
+
+script Route103_EventScript_RouteSign {
+    lockall
+    msgbox(Route103_Text_RouteSign)
+    releaseall
+}
+

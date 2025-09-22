@@ -1,1 +1,22 @@
-mapscripts Route123_MapScripts {}
+text Route123_EventScript_RematchFernando {
+    format("I love GRASS-type POKéMON!\p Do you have any GRASS-type POKéMON?$ Oh?\p You like GRASS-type POKéMON, too, don't you?\p I'm so happy, you can have this! It's a token of our friendship.$ I check trees with my GRASS-type POKéMON. I'm like a tree doctor.$ {RIGHT_ARROW} ROUTE 123 {LEFT_ARROW} ROUTE 118$ {UP_ARROW} MT. PYRE “Forbidden to the faint of heart.”$ BERRY MASTER'S HOUSE")
+}
+
+script Route123_EventScript_RouteSignMtPyre {
+    lockall
+    msgbox(Route123_Text_RouteSignMtPyre)
+    releaseall
+}
+
+script Route123_EventScript_RouteSign {
+    lockall
+    msgbox(Route123_Text_RouteSign)
+    releaseall
+}
+
+script Route123_EventScript_BerryMastersHouseSign {
+    lockall
+    msgbox(Route123_Text_BerryMastersHouse)
+    releaseall
+}
+

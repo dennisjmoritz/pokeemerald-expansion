@@ -1,1 +1,4 @@
-mapscripts MtPyre_3F_MapScripts {}
+text MtPyre_3F_EventScript_RematchGabrielle {
+    format("The rich atmosphere of the mountain has elevated my psychic power!\p A mere child like you… You dream of winning?$ I drown in self-pity…$ My psychic powers have surely grown several times, but…$ Ahahahaha!\p This is no place for children, least of all you!$ I lost that cleanly…$ This means my training is still not enough…\p I've got to keep working toward the summit…\p Go, me!$ Why have you come here?$ That was amazing! You're a very special TRAINER.$ POKéMON no longer of this world. POKéMON that are with you now.\p And the POKéMON that you will meet in the future…\p They are all to be equally cherished. Please remember that.$ I would like to see your POKéMON when they grow up some more…\p Please, I need to see your POKéNAV.$ Oh, it's you…\p Have you come to show me your grown POKéMON?$ How amazing! You are a special person.$ POKéMON no longer of this world. POKéMON that are with you now.\p And the POKéMON that you will meet in the future…\p They are all to be equally cherished. I see that you've remembered that.")
+}
+

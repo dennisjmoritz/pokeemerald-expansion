@@ -1,1 +1,4 @@
-mapscripts LilycoveCity_DepartmentStore_3F_MapScripts {}
+text LilycoveCity_DepartmentStore_3F_EventScript_Woman {
+    format("For quickly toughening up POKéMON, items are the best.\p PROTEIN boosts ATTACK, and CALCIUM raises SP. ATK.$ I want my POKéMON to have more endurance.\p I'm trying to decide whether to raise DEFENSE with IRON, or SP. DEF with ZINC.$ I gave a CARBOS to my POKéMON, and its SPEED went up.")
+}
+

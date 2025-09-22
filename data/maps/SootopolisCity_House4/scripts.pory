@@ -1,1 +1,4 @@
-mapscripts SootopolisCity_House4_MapScripts {}
+text SootopolisCity_House4_EventScript_Azumarill {
+    format("Listen up, and I'll tell you something good.\p There's supposed to be an ancient ruin in the sea around here.\p There could be treasures just waiting to be discovered down there.$ Ancient treasures…\p It would be nice if they existed, but even if they didn't, it would be so\l beautiful to take an underwater\l stroll with my POKéMON.$ AZUMARILL: Marurii.")
+}
+

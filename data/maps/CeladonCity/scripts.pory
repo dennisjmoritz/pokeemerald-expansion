@@ -1,1 +1,136 @@
-mapscripts CeladonCity_MapScripts {}
+text CeladonCity_Text_GotMyKoffingInCinnabar {
+    format("I got my KOFFING in CINNABAR.\p It's usually nice, but it breathes poison when it's angry.")
+}
+
+text CeladonCity_Text_GymIsGreatFullOfWomen {
+    format("Heheh! This GYM is great! It's full of women!")
+}
+
+text CeladonCity_Text_GameCornerIsBadForCitysImage {
+    format("CELADON takes pride in its efforts to keep the city beautiful.\p That's why the new GAME CORNER is bad for our city's image.")
+}
+
+text CeladonCity_Text_BlewItAllAtSlots {
+    format("Moan… I blew it all at the slots!\p I knew I should have cashed in my COINS for prizes!")
+}
+
+text CeladonCity_Text_MyTrustedPalPoliwrath {
+    format("This is my trusted pal, POLIWRATH.\p It evolved from a POLIWHIRL when I used a WATER STONE.")
+}
+
+text CeladonCity_Text_Poliwrath {
+    format("POLIWRATH: Ribi ribit!")
+}
+
+text CeladonCity_Text_GetLostOrIllPunchYou {
+    format("What are you staring at? Get lost, or I'll punch you.")
+}
+
+text CeladonCity_Text_KeepOutOfTeamRocketsWay {
+    format("Keep out of TEAM ROCKET's way!")
+}
+
+text CeladonCity_Text_ExplainXAccuracyDireHit {
+    format("TRAINER TIPS\p X ACCURACY boosts the accuracy of techniques.\p DIRE HIT jacks up the likelihood of critical hits.\p Get your items at the CELADON DEPT. STORE!")
+}
+
+text CeladonCity_Text_CitySign {
+    format("CELADON CITY The City of Rainbow Dreams")
+}
+
+text CeladonCity_Text_GymSign {
+    format("CELADON CITY POKéMON GYM LEADER: ERIKA\l The Nature-Loving Princess!")
+}
+
+text CeladonCity_Text_MansionSign {
+    format("CELADON MANSION")
+}
+
+text CeladonCity_Text_DeptStoreSign {
+    format("Find what you need at the CELADON DEPT. STORE!")
+}
+
+text CeladonCity_Text_GuardSpecProtectsFromStatus {
+    format("TRAINER TIPS\p GUARD SPEC. protects POKéMON from status-reduction moves during\l battle.\p Get your items at the CELADON DEPT. STORE!")
+}
+
+text CeladonCity_Text_PrizeExchangeSign {
+    format("COINS exchanged for prizes! PRIZE EXCHANGE")
+}
+
+text CeladonCity_Text_GameCornerSign {
+    format("ROCKET GAME CORNER The playground for grown-ups!")
+}
+
+text CeladonCity_Text_ScaldedTongueOnTea {
+    format("Aaaagh, ow… I scalded my tongue!\p This nice old lady in the MANSION gave me some TEA.\p But it was boiling hot! Gotta cool it to drink it.")
+}
+
+text Text_SoftboiledTeach {
+    format("Hello, there!\p I've seen you about, but I never had a chance to chat.\p It must be good luck that brought us together finally.\p I'd like to celebrate by teaching you the move SOFTBOILED.")
+}
+
+text Text_SoftboiledDeclined {
+    format("I'll always be keeping an eye out for you.\p I hope we can chat again.")
+}
+
+text Text_SoftboiledWhichMon {
+    format("So, who's the POKéMON that gets the chance to learn SOFTBOILED?")
+}
+
+text Text_SoftboiledTaught {
+    format("I wish you the best of luck!")
+}
+
+text CeladonCity_Text_SomeoneStoleSilphScope {
+    format("Oh, what am I to do…\p Someone stole our SILPH SCOPE.\p The thief came running this way, I'm sure of it.\p But I lost sight of him! Where'd he go?")
+}
+
+script CeladonCity_EventScript_TrainerTips2 {
+    lockall
+    msgbox(CeladonCity_Text_GuardSpecProtectsFromStatus)
+    releaseall
+}
+
+script CeladonCity_EventScript_PrizeExchangeSign {
+    lockall
+    msgbox(CeladonCity_Text_PrizeExchangeSign)
+    releaseall
+}
+
+script CeladonCity_EventScript_GameCornerSign {
+    lockall
+    msgbox(CeladonCity_Text_GameCornerSign)
+    releaseall
+}
+
+script CeladonCity_EventScript_CitySign {
+    lockall
+    msgbox(CeladonCity_Text_CitySign)
+    releaseall
+}
+
+script CeladonCity_EventScript_MansionSign {
+    lockall
+    msgbox(CeladonCity_Text_MansionSign)
+    releaseall
+}
+
+script CeladonCity_EventScript_TrainerTips1 {
+    lockall
+    msgbox(CeladonCity_Text_ExplainXAccuracyDireHit)
+    releaseall
+}
+
+script CeladonCity_EventScript_DeptStoreSign {
+    lockall
+    msgbox(CeladonCity_Text_DeptStoreSign)
+    releaseall
+}
+
+script CeladonCity_EventScript_GymSign {
+    lockall
+    msgbox(CeladonCity_Text_GymSign)
+    releaseall
+}
+

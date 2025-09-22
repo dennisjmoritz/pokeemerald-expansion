@@ -1,1 +1,32 @@
-mapscripts CeladonCity_Restaurant_MapScripts {}
+text CeladonCity_Restaurant_Text_TakingBreakRightNow {
+    format("Hi!\p Sorry, but we're taking a break right now.")
+}
+
+text CeladonCity_Restaurant_Text_OftenGoToDrugstore {
+    format("My POKéMON are weak, so I often have to go to the DRUGSTORE.")
+}
+
+text CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner {
+    format("Psst! There's a basement under the GAME CORNER, I hear.")
+}
+
+text CeladonCity_Restaurant_Text_ManLostItAllAtSlots {
+    format("Munch…\p The man at that table lost it all at the slots.")
+}
+
+text CeladonCity_Restaurant_Text_TakeThisImBusted {
+    format("Go ahead! Laugh! I'm flat-out busted!\p No more slots for me! I'm going straight!\p Here! I won't be needing this anymore!")
+}
+
+text CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan {
+    format("{PLAYER} received a COIN CASE from the man.")
+}
+
+text CeladonCity_Restaurant_Text_MakeRoomForThis {
+    format("Make room for this!")
+}
+
+text CeladonCity_Restaurant_Text_ThoughtIdWinItBack {
+    format("I always thought I was going to win it back…")
+}
+

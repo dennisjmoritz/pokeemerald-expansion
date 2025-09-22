@@ -1,1 +1,120 @@
-mapscripts MtEmber_Exterior_MapScripts {}
+text Text_ExplosionTeach {
+    format("Can you imagine? If this volcano were to erupt?\p The explosion would be the end of us. How terrifying is that?\p While we're terrified, would you like me to teach EXPLOSION?")
+}
+
+text Text_ExplosionDeclined {
+    format("Yeah, you're right. It is too terrifying.")
+}
+
+text Text_ExplosionWhichMon {
+    format("You're terribly brave!\p Which POKéMON should I teach EXPLOSION?")
+}
+
+text Text_ExplosionTaught {
+    format("Using EXPLOSION while on this volcano…\p What a terrifying thrill!")
+}
+
+text Text_ExplosionTeachJP {
+    format("こ この かざんが もし だいばくはつ したら\l お おれら ひとたまりも\l ないなあ ‥ブルブル！\p こ こわい ついでに だいばくはつ でも おぼえてみる？")
+}
+
+text Text_ExplosionDeclinedJP {
+    format("や やっぱ こわいもんな ブルブル")
+}
+
+text Text_ExplosionWhichMonJP {
+    format("つ つよきだね！ じゃあ どの ポケモンに する？")
+}
+
+text Text_ExplosionTaughtJP {
+    format("かざんで だいばくはつを‥ す すごい スリル！")
+}
+
+text MtEmber_Exterior_Text_WellTryDiggingHere {
+    format("Over here. We'll try digging here.\p That treasure the ADMINS've been talking about should be here.")
+}
+
+text MtEmber_Exterior_Text_YoureInTheWayGetLost {
+    format("What the…? You're in the way. Get lost.")
+}
+
+text MtEmber_Exterior_Text_PunchedThroughAtLast {
+    format("Whew, punched through at last. Let's go treasure hunting!")
+}
+
+text MtEmber_Exterior_Text_WhatsPasswordAgain {
+    format("Any treasure we find, we haul back to the WAREHOUSE, understood?\p …Oh, and what're the passwords? At the ROCKET WAREHOUSE, I mean.")
+}
+
+text MtEmber_Exterior_Text_FirstPasswordGoldeen {
+    format("What, you forgot the password? There're actually two.\p The first one's “GOLDEEN need log.”\p And the second one is…")
+}
+
+text MtEmber_Exterior_Text_SnoopsBeenListeningIn {
+    format("Hey! This snoop's been listening in!")
+}
+
+text MtEmber_Exterior_Text_Grunt1Intro {
+    format("You've been eavesdropping on us, haven't you?")
+}
+
+text MtEmber_Exterior_Text_Grunt1Defeat {
+    format("Huh, what?")
+}
+
+text MtEmber_Exterior_Text_Grunt1PostBattle {
+    format("Why'd you have to win?")
+}
+
+text MtEmber_Exterior_Text_Grunt2Intro {
+    format("Trying to horn in on our treasure? Don't bet on it!")
+}
+
+text MtEmber_Exterior_Text_Grunt2Defeat {
+    format("Wait! But how?")
+}
+
+text MtEmber_Exterior_Text_Grunt2PostBattle {
+    format("Develop amnesia conveniently and forget everything you heard!")
+}
+
+text MtEmber_Exterior_Text_WellRegroupDontStepInsideThere {
+    format("What a setback… We'll have to regroup.\p You! Don't even think about taking a step inside here!\p If you know what's good for you, don't even think about this!")
+}
+
+text MtEmber_Exterior_Text_LoganIntro {
+    format("An active volcano is one that's erupting, or about to.")
+}
+
+text MtEmber_Exterior_Text_LoganDefeat {
+    format("Whew… That was hot! Sweat's erupting from me!")
+}
+
+text MtEmber_Exterior_Text_LoganPostBattle {
+    format("They say there're over 1,500 active volcanoes in the world.\p Just thinking about them makes me feel all hot and gooey inside!")
+}
+
+text MtEmber_Exterior_Text_BethIntro {
+    format("Do you know how caves form inside volcanoes?")
+}
+
+text MtEmber_Exterior_Text_BethDefeat {
+    format("Atchah! You're shockingly good!")
+}
+
+text MtEmber_Exterior_Text_BethPostBattle {
+    format("When lava at the surface of magma hardens, and the magma inside flows\l out, caverns are left behind.")
+}
+
+text MtEmber_Exterior_Text_JocelynIntro {
+    format("I've been in training so I can mend my broken heart…\p It toughened me up physically at least! Hi-yah!")
+}
+
+text MtEmber_Exterior_Text_JocelynDefeat {
+    format("I think I tried to overdo it…")
+}
+
+text MtEmber_Exterior_Text_JocelynPostBattle {
+    format("The way you battle, it reminds me of the guy who dumped me…")
+}
+

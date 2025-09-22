@@ -1,1 +1,44 @@
-mapscripts CeruleanCity_House1_MapScripts {}
+text CeruleanCity_House1_Text_BadgesHaveAmazingSecrets {
+    format("Only skilled TRAINERS can collect POKéMON BADGES.\p I see you have at least one.\p Those BADGES have amazing secrets, did you know?")
+}
+
+text CeruleanCity_House1_Text_DescribeWhichBadge {
+    format("Now then…\p Which of the eight BADGES should I describe?")
+}
+
+text CeruleanCity_House1_Text_ComeVisitAnytime {
+    format("Come visit me anytime you wish.")
+}
+
+text CeruleanCity_House1_Text_AttackStatFlash {
+    format("The ATTACK stat of all your POKéMON increases a little bit.\p It also lets you use the move FLASH outside of battle.")
+}
+
+text CeruleanCity_House1_Text_ObeyLv30Cut {
+    format("POKéMON up to Lv. 30 will obey you.\p That includes even outsiders you obtain in trades.\p POKéMON of higher levels will be unruly in battle, however.\p It also lets you use the move CUT outside of battle.")
+}
+
+text CeruleanCity_House1_Text_SpeedStatFly {
+    format("The SPEED stat of all your POKéMON increases a little bit.\p It also lets you use the move FLY outside of battle.")
+}
+
+text CeruleanCity_House1_Text_ObeyLv50Strength {
+    format("POKéMON up to Lv. 50 will obey you.\p That includes even outsiders you obtain in trades.\p POKéMON of higher levels will be unruly in battle, however.\p It also lets you use the move STRENGTH outside of battle.")
+}
+
+text CeruleanCity_House1_Text_DefenseStatSurf {
+    format("The DEFENSE stat of all your POKéMON increases a little bit.\p It also lets you use the move SURF outside of battle.")
+}
+
+text CeruleanCity_House1_Text_ObeyLv70RockSmash {
+    format("POKéMON up to Lv. 70 will obey you.\p That includes even outsiders you obtain in trades.\p POKéMON of higher levels will be unruly in battle, however.\p It also lets you use the move ROCK SMASH outside of battle.")
+}
+
+text CeruleanCity_House1_Text_SpStatsWaterfall {
+    format("The SP. ATK and SP. DEF stats of all your POKéMON rise a little bit.\p It also lets you use the move WATERFALL outside of battle.")
+}
+
+text CeruleanCity_House1_Text_AllMonsWillObeyYou {
+    format("All POKéMON will obey you!")
+}
+

@@ -1,1 +1,4 @@
-mapscripts MauvilleCity_Mart_MapScripts {}
+text MauvilleCity_Mart_EventScript_Man {
+    format("There are items that temporarily elevate the stats of POKéMON.\p The ones I know you use in battle are X ATTACK and X DEFEND…\p I do believe that there are others like them.$ Use a certain move, or use an item instead…\p The TRAINER's decisions determine how battles turn out, I think.")
+}
+

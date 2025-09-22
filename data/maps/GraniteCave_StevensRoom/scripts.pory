@@ -1,1 +1,4 @@
-mapscripts GraniteCave_StevensRoom_MapScripts {}
+text GraniteCave_StevensRoom_EventScript_BagFull {
+    format("My name is STEVEN.\p I'm interested in rare stones, so I travel here and there.\p Oh? A LETTER for me?$ STEVEN: Okay, thank you.\p You went through all this trouble to deliver that. I need to thank you.\p Let me see… I'll give you this TM.\p It contains my favorite move, STEEL WING.$ STEVEN: Your POKéMON appear quite capable.\p If you keep training, you could even become the CHAMPION of the POKéMON\l LEAGUE one day. That's what I think.\p I know, since we've gotten to know each other, let's register one another in\l our POKéNAVS.\p … … … … … …$ Registered STEVEN in the POKéNAV.$ Now, I've got to hurry along.$ Oh, your BAG is full… That's too bad, then.")
+}
+

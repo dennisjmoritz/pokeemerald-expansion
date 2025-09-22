@@ -1,1 +1,4 @@
-mapscripts Route110_TrickHousePuzzle3_MapScripts {}
+text Route110_TrickHousePuzzle3_EventScript_Alan {
+    format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is coveted.” … … … … … … … …\p The lock clicked open!$ I keep coming back to this same place!$ I'm already having trouble, and then you have to beat me? It's not fair!$ It's full of doors here! It's too small and dark in here! Help!$ I don't know what's going on here. I'm starting to feel sad…$ You… You're awful!$ I know I'm weak! And, I have no sense of direction!$ I don't get it. What would anyone want with a house this bizarre?$ I don't get it. How did I lose?$ I don't get it. How many traps are in this house?\p You may be the one to solve that.")
+}
+

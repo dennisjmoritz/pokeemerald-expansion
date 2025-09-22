@@ -1,1 +1,4 @@
-mapscripts VerdanturfTown_PokemonCenter_1F_MapScripts {}
+text VerdanturfTown_PokemonCenter_1F_EventScript_ExpertM {
+    format("You can't consider yourself a real TRAINER if you don't have faith\l in your POKéMON.\p Only those people who can believe in their battling POKéMON can win\l through to the very end.$ The reason why anyone would visit VERDANTURF…\p It's the BATTLE TENT. It goes without saying.\p Or is there somebody here that you came to see?")
+}
+

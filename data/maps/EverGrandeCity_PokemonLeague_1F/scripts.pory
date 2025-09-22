@@ -1,1 +1,4 @@
-mapscripts EverGrandeCity_PokemonLeague_1F_MapScripts {}
+text EverGrandeCity_PokemonLeague_1F_EventScript_GoForth {
+    format("Beyond this point, only those TRAINERS who have collected all the GYM BADGES\l are permitted to enter.\p TRAINER, let us confirm that you have all the GYM BADGES.$ You haven't obtained all the BADGES.\p If you're bound for the POKéMON LEAGUE, you must return with them.$ TRAINER! Believe in yourself and your POKéMON, and go forth!")
+}
+

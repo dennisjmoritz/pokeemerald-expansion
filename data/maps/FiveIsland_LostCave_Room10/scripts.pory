@@ -1,1 +1,12 @@
-mapscripts FiveIsland_LostCave_Room10_MapScripts {}
+text FiveIsland_LostCave_Room10_Text_SelphyIntro {
+    format("W-what do you intend to do with me?")
+}
+
+text FiveIsland_LostCave_Room10_Text_SelphyDefeat {
+    format("Oh… I was afraid that you meant to harm me.")
+}
+
+text FiveIsland_LostCave_Room10_Text_MayIAskYouToTakeMeHome {
+    format("I am so glad that you happened here.\p I grew rather bored of walking, and I am feeling fatigued.\p May I ask you to take me home from here?")
+}
+

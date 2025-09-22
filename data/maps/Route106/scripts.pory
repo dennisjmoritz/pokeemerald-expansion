@@ -1,1 +1,10 @@
-mapscripts Route106_MapScripts {}
+text Route106_EventScript_Ned {
+    format("TRAINER TIPS\p Advice on catching POKéMON with a ROD: Press the A Button if you get a bite.")
+}
+
+script Route106_EventScript_TrainerTipsSign {
+    lockall
+    msgbox(Route106_Text_TrainerTips)
+    releaseall
+}
+

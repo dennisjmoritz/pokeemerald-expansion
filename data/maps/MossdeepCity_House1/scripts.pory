@@ -1,1 +1,4 @@
-mapscripts MossdeepCity_House1_MapScripts {}
+text MossdeepCity_House1_EventScript_Woman {
+    format("Hmm! Your {STR_VAR_1}…$ It likes {STR_VAR_1}S, doesn't it?\p No, I'm positive of it! It definitely likes {STR_VAR_1}S!$ It doesn't appear to like or dislike any {POKEBLOCK}S.$ My husband can tell what kind of {POKEBLOCK}S a POKéMON likes at a glance.")
+}
+

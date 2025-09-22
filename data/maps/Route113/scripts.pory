@@ -1,1 +1,28 @@
-mapscripts Route113_MapScripts {}
+text Route113_EventScript_Wyatt {
+    format("Wahahaha! Today's technology is a wondrous thing!\p Take this volcanic ash here. It can be fashioned into glass.$ It's fun walking through the volcano's ashes on the ground and grass.\p You can see where you walked--it's really neat!$ ROUTE 113 {RIGHT_ARROW} ROUTE 111$ ROUTE 113 {LEFT_ARROW} FALLARBOR TOWN$ TRAINER TIPS\p You may register one of the KEY ITEMS in your BAG as SELECT.\p Simply press SELECT to use the registered item conveniently.$ GLASS WORKSHOP “Turning Volcanic Ash into Glass Items”")
+}
+
+script Route113_EventScript_RouteSign111 {
+    lockall
+    msgbox(Route113_Text_RouteSign111)
+    releaseall
+}
+
+script Route113_EventScript_RouteSignFallarbor {
+    lockall
+    msgbox(Route113_Text_RouteSignFallarbor)
+    releaseall
+}
+
+script Route113_EventScript_TrainerTipsRegisterKeyItems {
+    lockall
+    msgbox(Route113_Text_TrainerTipsRegisterKeyItems)
+    releaseall
+}
+
+script Route113_EventScript_GlassWorkshopSign {
+    lockall
+    msgbox(Route113_Text_GlassWorkshopSign)
+    releaseall
+}
+

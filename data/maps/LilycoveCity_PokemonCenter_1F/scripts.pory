@@ -1,1 +1,4 @@
-mapscripts LilycoveCity_PokemonCenter_1F_MapScripts {}
+text LilycoveCity_PokemonCenter_1F_EventScript_ManiacBadTeamGone {
+    format("I wonder how many kinds of POKéMON there are in the world.\p It'd be great to cross seas and trade POKéMON with people far away.$ I've been hearing about some rotten scoundrels who steal POKéMON and rip\l off METEORITES.$ Those rotten scoundrels who steal POKéMON and rip off METEORITES…\p I haven't seen them around recently.")
+}
+

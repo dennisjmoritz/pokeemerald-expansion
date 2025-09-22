@@ -1,1 +1,4 @@
-mapscripts RustboroCity_House1_MapScripts {}
+text RustboroCity_House1_EventScript_Hiker {
+    format("Huh? My POKéMON is cute? Sure, I knew that.\p But if you really want, I'm willing to trade it to you.\p I'll trade you my {STR_VAR_2} for a {STR_VAR_1} if you want.$ Eheheh… Please be good to my POKéMON.$ Huh? That doesn't look anything like a {STR_VAR_1} to me.$ Oh, if you don't want to, that's okay. But my POKéMON is cute, you know…$ Any POKéMON can be cute if you raise it with care and kindness.$ In all sorts of places, there are all sorts of POKéMON and people.\p I find that fascinating, so I go to all sorts of places.")
+}
+

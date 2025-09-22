@@ -1,1 +1,4 @@
-mapscripts LavaridgeTown_HerbShop_MapScripts {}
+text LavaridgeTown_HerbShop_EventScript_ExplainCharcoal {
+    format("Welcome to the HERB SHOP, home of effective and inexpensive medicine!$ You've come to look at herbal medicine in LAVARIDGE?\p That's rather commendable.\p I like you! Take this!$ That CHARCOAL I gave you, it's used for making herbal medicine.\p It also does wonders when held by a POKéMON.\p It intensifies the power of FIRE-type moves.$ Herbal medicine works impressively well. But your POKéMON will dislike you for it.\l It must be horribly bitter!")
+}
+

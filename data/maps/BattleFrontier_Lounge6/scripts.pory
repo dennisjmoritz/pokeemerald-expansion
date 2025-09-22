@@ -1,1 +1,4 @@
-mapscripts BattleFrontier_Lounge6_MapScripts {}
+text BattleFrontier_Lounge6_EventScript_TradeCompleted {
+    format("My POKéMON is a {STR_VAR_2}. Do you know it?\l It's quite cute and rather nice.\p This little one, I could trade with pride!\p Would you like to trade me a {STR_VAR_1} for my {STR_VAR_2}?$ Oh, it's adorable! Thank you!\l I promise I'll be good to it!\p Oh! I hope you'll be good to my {STR_VAR_2}, too!$ Oh, I'm sorry! I don't intend to trade for anything\l but a {STR_VAR_1}.$ Oh, you won't? Well, that's fine, too.\l Please come visit us again.$ Giggle! A SKITTY is so much cuter than I had\l imagined. I'm delighted!")
+}
+

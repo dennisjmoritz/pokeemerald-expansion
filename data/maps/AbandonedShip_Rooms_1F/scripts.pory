@@ -1,1 +1,4 @@
-mapscripts AbandonedShip_Rooms_1F_MapScripts {}
+text AbandonedShip_Rooms_1F_EventScript_ThaliaRematch {
+    format("Ships of this sort are rare, so I'm taking a look around.\p Hmhm… There appear to be other cabins…$ What on earth would compel you to come here? You must be curious!$ Not just curious, but also strong…$ The man next door…\p He says he's just sightseeing, but I don't know about that.$ You're such a tough TRAINER! Let me register you as a memento!$ What on earth would compel you to come back? You must really be curious!$ Aren't you too strong?$ I'm sure that man's up to something! He just acts so suspiciously!$ Waaah! I've been found! …Huh?$ Oh, you're not my mom.$ I'm in trouble with my mom, so I ran. Keep it a secret where I am!")
+}
+

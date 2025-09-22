@@ -1,1 +1,4 @@
-mapscripts MossdeepCity_House4_MapScripts {}
+text MossdeepCity_House4_EventScript_Skitty {
+    format("My little brother says he likes to go find people's SECRET BASES.$ My little brother says he likes to visit people's SECRET BASES and have\l POKéMON battles.$ Was it you who made a SECRET BASE near {STR_VAR_1}?$ You should make a SECRET BASE somewhere. I'll go find it!$ SKITTY: Miyaan?")
+}
+

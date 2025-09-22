@@ -1,1 +1,4 @@
-mapscripts VictoryRoad_B1F_MapScripts {}
+text VictoryRoad_B1F_EventScript_Halle {
+    format("The thought that I'm getting closer to the POKéMON LEAGUE…\p I'm getting stage fright…$ I couldn't do a thing…$ The POKéMON LEAGUE became distant again… What a letdown…$ To win your way through the POKéMON LEAGUE, you need the trust of your\l POKéMON.$ Your relationship is based on solid trust.$ By being together all the time, trust grows between POKéMON and TRAINERS.$ This isn't the goal. It's only a place on the way to the POKéMON LEAGUE.$ That's the way!$ You'll do fine, for sure! Your POKéMON are all eager to go!$ My POKéMON are cosmically awe inspiring!$ I've never met anyone like you before.$ Even outside of battle, I sense incredible power emanating from you\l and your POKéMON.$ Okay, no need to get your back up! Relax, let's take it easy!$ Whoa! Wonderful!$ Sure, this is VICTORY ROAD.\p But it's not all that different from the path you've taken so far.\p Try to enjoy things the rest of the way!")
+}
+

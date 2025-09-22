@@ -1,1 +1,4 @@
-mapscripts SkyPillar_Top_MapScripts {}
+text SkyPillar_Top_EventScript_AwakenRayquaza {
+    format("The awakened RAYQUAZA flew off…")
+}
+

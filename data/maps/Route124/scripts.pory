@@ -1,1 +1,10 @@
-mapscripts Route124_MapScripts {}
+text Route124_EventScript_Isabella {
+    format("HUNTER'S HOUSE")
+}
+
+script Route124_EventScript_HuntersHouseSign {
+    lockall
+    msgbox(Route124_Text_HuntersHouse)
+    releaseall
+}
+

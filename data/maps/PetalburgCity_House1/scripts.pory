@@ -1,1 +1,4 @@
-mapscripts PetalburgCity_House1_MapScripts {}
+text PetalburgCity_House1_EventScript_Woman {
+    format("Traveling is wonderful!\p When I was young, I roamed the seas and the mountains!$ Sigh…\p I wish I could go on an adventure with some POKéMON…\p Crawl through some damp grass… Climb rocky, rugged mountains…\p Cross the raging seas… Wander about in dark caves…\p And, sometimes, even get a little homesick…\p It must be fabulous to travel!")
+}
+

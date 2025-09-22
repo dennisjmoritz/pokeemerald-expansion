@@ -1,1 +1,20 @@
-mapscripts Route18_EastEntrance_2F_MapScripts {}
+text Route18_EastEntrance_2F_Text_PalletTownInWest {
+    format("Let's see what the binoculars have to show…\p PALLET TOWN is in the west.")
+}
+
+text Route18_EastEntrance_2F_Text_PeopleSwimming {
+    format("Let's see what the binoculars have to show…\p There are people swimming.")
+}
+
+script Route18_EastEntrance_2F_EventScript_LeftBinoculars {
+    lockall
+    msgbox(Route18_EastEntrance_2F_Text_PalletTownInWest)
+    releaseall
+}
+
+script Route18_EastEntrance_2F_EventScript_RightBinoculars {
+    lockall
+    msgbox(Route18_EastEntrance_2F_Text_PeopleSwimming)
+    releaseall
+}
+

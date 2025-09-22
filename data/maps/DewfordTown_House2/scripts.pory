@@ -1,1 +1,4 @@
-mapscripts DewfordTown_House2_MapScripts {}
+text DewfordTown_House2_EventScript_Boy {
+    format("Gorge your eyes on this!\p It's a SILK SCARF. It's right at the cutting edge of fashion, yeah!\p Oh, I can see your eyes twinkling! You appreciate my dazzling style!\p Oh, you're a delight! Here you go. I want you to have it!$ Oh, you don't have room?\p Now, listen tight, this SCARF is a must- have! Why, I would sell all my items\l in order to get it!$ The SILK SCARF raises the power of NORMAL-type moves.\p It's a marvelous SCARF that will go with almost all POKéMON!$ Wow, you bothered to cross the sea to visit DEWFORD?\p Did you maybe come here because you heard about BRAWLY?\p He's so cool… Everyone idolizes him.")
+}
+

@@ -1,1 +1,4 @@
-mapscripts RustboroCity_House2_MapScripts {}
+text RustboroCity_House2_EventScript_LittleGirl {
+    format("The TRAINER'S SCHOOL is excellent.\p If you study there, you could even become a GYM LEADER.$ ROXANNE, the GYM LEADER, really knows a lot about POKéMON.\p She's really strong, too!")
+}
+

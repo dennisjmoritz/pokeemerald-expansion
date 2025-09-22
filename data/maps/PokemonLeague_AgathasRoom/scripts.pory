@@ -1,1 +1,16 @@
-mapscripts PokemonLeague_AgathasRoom_MapScripts {}
+text PokemonLeague_AgathasRoom_Text_Intro {
+    format("I am AGATHA of the ELITE FOUR.\p I hear OAK's taken a lot of interest in you, child.\p That old duff was once tough and handsome.\p But that was decades ago. He's a shadow of his former self.\p Now he just wants to fiddle with his POKéDEX.\p He's wrong. POKéMON are for battling!\p {PLAYER}! I'll show you how a real TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}")
+}
+
+text PokemonLeague_AgathasRoom_Text_RematchIntro {
+    format("I am AGATHA of the ELITE FOUR.\p You're the child that OAK's taken under his wing, aren't you?\p That old duff was once tough and handsome.\p But that was decades ago. He's a shadow of his former self.\p Now he just wants to fiddle with his POKéDEX.\p He's wrong. POKéMON are for battling!\p {PLAYER}! I'll show you how a real TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}")
+}
+
+text PokemonLeague_AgathasRoom_Text_Defeat {
+    format("Oh, my! You're something special, child!")
+}
+
+text PokemonLeague_AgathasRoom_Text_PostBattle {
+    format("You win!\p I see what the old duff sees in you now.\p I have nothing else to say. Run along now, child!")
+}
+

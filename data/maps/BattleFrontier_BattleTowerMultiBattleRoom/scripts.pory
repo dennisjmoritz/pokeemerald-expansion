@@ -1,1 +1,12 @@
-mapscripts BattleFrontier_BattleTowerMultiBattleRoom_MapScripts {}
+text BattleFrontier_BattleTowerMultiBattleRoom_EventScript_ReconnectLink {
+    format("The 2nd set of opponents is next. Are you ready?$ The 3rd set of opponents is next. Are you ready?$ The 4th set of opponents is next. Are you ready?$ The 5th set of opponents is next. Are you ready?$ The 6th set of opponents is next. Are you ready?$ The 7th set of opponents is next. Are you ready?$ The 2nd set of opponents is next. Do your best!$ The 3rd set of opponents is next. Do your best!$ The 4th set of opponents is next. Do your best!$ The 5th set of opponents is next. Do your best!$ The 6th set of opponents is next. Do your best!$ The 7th set of opponents is next. Do your best!")
+}
+
+text gText_LinkStandby3 {
+    format("Link standby…")
+}
+
+text gText_YourPartnerHasRetired {
+    format("Your partner has retired.\p Your BATTLE ROOM challenge will be canceled.")
+}
+

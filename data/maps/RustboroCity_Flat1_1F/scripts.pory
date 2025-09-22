@@ -1,1 +1,4 @@
-mapscripts RustboroCity_Flat1_1F_MapScripts {}
+text RustboroCity_Flat1_1F_EventScript_Woman {
+    format("Every POKéMON has a special ability that it can use.$ POKéMON are such strange creatures.")
+}
+

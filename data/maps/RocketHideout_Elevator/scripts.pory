@@ -1,1 +1,4 @@
-mapscripts RocketHideout_Elevator_MapScripts {}
+text RocketHideout_Elevator_Text_AppearsToNeedAKey {
+    format("It appears to need a key.")
+}
+

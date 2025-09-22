@@ -1,1 +1,4 @@
-mapscripts SSTidalLowerDeck_MapScripts {}
+text SSTidalLowerDeck_EventScript_Leonard {
+    format("Arrrgh! I'm fed up and dog-tired of cleaning this huge place!\p Let's have a quick battle!$ Little bro, I lost!$ We're the CLEANUP BROTHERS!\p The old one dumps the detergent, and the young one does the scrubbing!$ This is the bottom of the ship's hull. There's plenty of room.\l It'll be alright for a POKéMON battle.$ Big bro, I lost!$ We're the CLEANUP BROTHERS!\p The old one dumps the detergent, and the young one does the scrubbing!")
+}
+

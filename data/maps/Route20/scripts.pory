@@ -1,1 +1,140 @@
-mapscripts Route20_MapScripts {}
+text Route20_Text_BarryIntro {
+    format("The water is shallow here. There are many people swimming.")
+}
+
+text Route20_Text_BarryDefeat {
+    format("Splash!")
+}
+
+text Route20_Text_BarryPostBattle {
+    format("I wish I could ride my POKéMON. I bet you're not tired.")
+}
+
+text Route20_Text_ShirleyIntro {
+    format("SEAFOAM is a quiet getaway. I'm vacationing here.")
+}
+
+text Route20_Text_ShirleyDefeat {
+    format("Quit it!")
+}
+
+text Route20_Text_ShirleyPostBattle {
+    format("There's a huge cavern underneath this island.")
+}
+
+text Route20_Text_TiffanyIntro {
+    format("I love floating with the fishes here among the waves.")
+}
+
+text Route20_Text_TiffanyDefeat {
+    format("Yowch!")
+}
+
+text Route20_Text_TiffanyPostBattle {
+    format("Want to float with me?")
+}
+
+text Route20_Text_IreneIntro {
+    format("Are you on vacation, too?")
+}
+
+text Route20_Text_IreneDefeat {
+    format("No mercy at all!")
+}
+
+text Route20_Text_IrenePostBattle {
+    format("SEAFOAM used to be a single island in the distant past.")
+}
+
+text Route20_Text_DeanIntro {
+    format("Check out my buff physique!")
+}
+
+text Route20_Text_DeanDefeat {
+    format("Wimpy!")
+}
+
+text Route20_Text_DeanPostBattle {
+    format("I should've been buffing up my POKéMON, not me!")
+}
+
+text Route20_Text_DarrinIntro {
+    format("Why are you riding a POKéMON? Can't you swim?")
+}
+
+text Route20_Text_DarrinDefeat {
+    format("Ouch! Torpedoed!")
+}
+
+text Route20_Text_DarrinPostBattle {
+    format("Riding a POKéMON sure looks fun!")
+}
+
+text Route20_Text_RogerIntro {
+    format("I rode my bird POKéMON here.")
+}
+
+text Route20_Text_RogerDefeat {
+    format("Oh, no! Now what am I to do?")
+}
+
+text Route20_Text_RogerPostBattle {
+    format("My birds are exhausted. They can't FLY me back!")
+}
+
+text Route20_Text_NoraIntro {
+    format("My boyfriend gave me big pearls.")
+}
+
+text Route20_Text_NoraDefeat {
+    format("Oh, no! My pearls were in them!")
+}
+
+text Route20_Text_NoraPostBattle {
+    format("Will my pearls grow bigger inside CLOYSTER?")
+}
+
+text Route20_Text_MissyIntro {
+    format("I swam here from CINNABAR ISLAND. It wasn't easy, I tell you.")
+}
+
+text Route20_Text_MissyDefeat {
+    format("I'm so disappointed!")
+}
+
+text Route20_Text_MissyPostBattle {
+    format("POKéMON have taken over an abandoned mansion on CINNABAR.\p They call it the POKéMON MANSION now.")
+}
+
+text Route20_Text_MelissaIntro {
+    format("CINNABAR, in the west, has a LAB for POKéMON.\p My daddy works there.")
+}
+
+text Route20_Text_MelissaDefeat {
+    format("Wait! You're supposed to wait!")
+}
+
+text Route20_Text_MelissaPostBattle {
+    format("CINNABAR is a volcanic island.\p I heard it rose out of the sea when a volcano erupted.")
+}
+
+text Route20_Text_SeafoamIslands {
+    format("SEAFOAM ISLANDS")
+}
+
+text Route20_Text_MistyTrainsHere {
+    format("Strong TRAINERS and WATER POKéMON are common sights in these parts.\p They say that MISTY of the CERULEAN GYM trains here.")
+}
+
+script Route20_EventScript_SeafoamIslandsSign {
+    lockall
+    msgbox(Route20_Text_SeafoamIslands)
+    releaseall
+}
+
+script Route20_EventScript_SeafoamIslandsSign {
+    lockall
+    msgbox(Route20_Text_SeafoamIslands)
+    releaseall
+}
+

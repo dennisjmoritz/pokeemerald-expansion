@@ -1,1 +1,4 @@
-mapscripts Route112_CableCarStation_MapScripts {}
+text Route112_CableCarStation_EventScript_DeclineRide {
+    format("The CABLE CAR is ready to go up. Would you like to be on it?$ Please step this way.$ Please ride with us another time.")
+}
+

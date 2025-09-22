@@ -1,1 +1,36 @@
-mapscripts SeafoamIslands_B4F_MapScripts {}
+text Text_RockSlideTeach {
+    format("When you're up on a rocky mountain like this, rockslides are a threat.\p Can you imagine? Boulders tumbling down on you?\p That'd be, like, waaaaaaaaaaah! Total terror!\p You don't seem to be scared. Want to try using ROCK SLIDE?")
+}
+
+text Text_RockSlideDeclined {
+    format("Oh, so you are scared after all.")
+}
+
+text Text_RockSlideWhichMon {
+    format("Which POKéMON should I teach ROCK SLIDE?")
+}
+
+text Text_RockSlideTaught {
+    format("It might be scary to use it in this tunnel…")
+}
+
+text SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow {
+    format("Hint: Boulders might change the flow of water.")
+}
+
+text SeafoamIslands_B4F_Text_DangerFastCurrent {
+    format("DANGER Fast current!")
+}
+
+script SeafoamIslands_B4F_EventScript_FastCurrentSign {
+    lockall
+    msgbox(SeafoamIslands_B4F_Text_DangerFastCurrent)
+    releaseall
+}
+
+script SeafoamIslands_B4F_EventScript_BoulderHintSign {
+    lockall
+    msgbox(SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow)
+    releaseall
+}
+

@@ -1,1 +1,60 @@
-mapscripts BattleFrontier_Lounge5_MapScripts {}
+text BattleFrontier_Lounge5_Text_NatureGirlGreeting {
+    format("Ehehe! I can tell what POKéMON are thinking!\p Please! Can I see your POKéMON?")
+}
+
+text BattleFrontier_Lounge5_Text_NatureGirlNoneShown {
+    format("Boo! Cheapie!")
+}
+
+text BattleFrontier_Lounge5_Text_NatureGirlAttackHighAttackLow {
+    format("Hmhm…\p This one says it likes to battle! It will battle even if it has a lot\l of ouchies!")
+}
+
+text BattleFrontier_Lounge5_Text_NatureGirlAttackHighDefenseLow {
+    format("Hmhm…\p This one says it likes to battle! But if it gets enough ouchies,\l it will worry about itself!")
+}
+
+text BattleFrontier_Lounge5_Text_NatureGirlAttackHighSupportLow {
+    format("Hmhm…\p This one says it likes to battle! But if it gets enough ouchies,\l it will turn sneaky!")
+}
+
+text BattleFrontier_Lounge5_Text_NatureGirlDefenseHighAttackLow {
+    format("Hmhm…\p This one says it looks after itself! But if it gets enough ouchies,\l it will hit back!")
+}
+
+text BattleFrontier_Lounge5_Text_NatureGirlDefenseHighDefenseLow {
+    format("Hmhm…\p This one says it looks after itself! It says it worries about itself whether\l or not it has a lot of ouchies!")
+}
+
+text BattleFrontier_Lounge5_Text_NatureGirlDefenseHighSupportLow {
+    format("Hmhm…\p This one says it looks after itself! But if it gets enough ouchies,\l it will turn sneaky!")
+}
+
+text BattleFrontier_Lounge5_Text_NatureGirlSupportHighAttackLow {
+    format("Hmhm…\p This one says it likes to be sneaky! But if it gets enough ouchies,\l it will hit back!")
+}
+
+text BattleFrontier_Lounge5_Text_NatureGirlSupportHighDefenseLow {
+    format("Hmhm…\p This one says it likes to be sneaky! But if it gets enough ouchies,\l it will worry about itself!")
+}
+
+text BattleFrontier_Lounge5_Text_NatureGirlSupportHighSupportLow {
+    format("Hmhm…\p This one says it likes to be sneaky! It says it likes to be sneaky even\l if it has a lot of ouchies!")
+}
+
+text BattleFrontier_Lounge5_Text_NatureGirlEgg {
+    format("That's silly! An EGG is asleep! I can't talk to it!")
+}
+
+text BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon {
+    format("How charming! That little lady claims she can\l understand POKéMON!")
+}
+
+text BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound {
+    format("I have this feeling that the little girl is saying something profound.")
+}
+
+text BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot {
+    format("I know something!\p That little girl plays at the red house a lot!")
+}
+

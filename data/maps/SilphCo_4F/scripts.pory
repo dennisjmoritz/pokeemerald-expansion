@@ -1,1 +1,54 @@
-mapscripts SilphCo_4F_MapScripts {}
+text SilphCo_4F_Text_CantYouSeeImHiding {
+    format("Sssh! Can't you see I'm hiding?")
+}
+
+text SilphCo_4F_Text_TeamRocketIsGone {
+    format("Huh? TEAM ROCKET is gone?")
+}
+
+text SilphCo_4F_Text_Grunt1Intro {
+    format("TEAM ROCKET has taken control of SILPH CO.!")
+}
+
+text SilphCo_4F_Text_Grunt1Defeat {
+    format("Arrgh!")
+}
+
+text SilphCo_4F_Text_Grunt1PostBattle {
+    format("Fwahahaha! My BOSS has been after this place!")
+}
+
+text SilphCo_4F_Text_RodneyIntro {
+    format("My POKéMON is my loyal servant.")
+}
+
+text SilphCo_4F_Text_RodneyDefeat {
+    format("Darn! You weak POKéMON!")
+}
+
+text SilphCo_4F_Text_RodneyPostBattle {
+    format("The doors are electronically locked.\p It takes a CARD KEY to open the doors here.")
+}
+
+text SilphCo_4F_Text_Grunt2Intro {
+    format("Intruder spotted!")
+}
+
+text SilphCo_4F_Text_Grunt2Defeat {
+    format("Who are you?")
+}
+
+text SilphCo_4F_Text_Grunt2PostBattle {
+    format("I better tell the BOSS on 11F!")
+}
+
+text SilphCo_4F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 4F")
+}
+
+script SilphCo_4F_EventScript_FloorSign {
+    lockall
+    msgbox(SilphCo_4F_Text_FloorSign)
+    releaseall
+}
+

@@ -1,1 +1,4 @@
-mapscripts FortreeCity_House4_MapScripts {}
+text FortreeCity_House4_EventScript_Wingull {
+    format("By being together with POKéMON, people make more and more friends.\p And that brings the world closer together. I think it's wonderful!$ There! Go, BIRD POKéMON!$ Heheh, I asked my WINGULL to run an errand for me.$ Good! Welcome back, WINGULL!\p Huh? What is this? What is it holding?\p A MENTAL HERB? It must have picked it up somewhere.\p But I'm not a TRAINER, so you can have it.$ Thanks to my WINGULL, I have friends who live far away.$ WINGULL: Pihyoh!")
+}
+

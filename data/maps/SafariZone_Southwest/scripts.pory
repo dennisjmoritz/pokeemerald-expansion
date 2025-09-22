@@ -1,1 +1,6 @@
-mapscripts SafariZone_Southwest_MapScripts {}
+script SafariZone_Southwest_EventScript_RestHouseSign {
+    lockall
+    msgbox(SafariZone_Southwest_Text_RestHouseSign)
+    releaseall
+}
+

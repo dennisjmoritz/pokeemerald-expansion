@@ -1,1 +1,4 @@
-mapscripts FallarborTown_Mart_MapScripts {}
+text FallarborTown_Mart_EventScript_Skitty {
+    format("I'm having a hard time deciding if I should make my SKITTY evolve or not.\p I only have to use this MOON STONE, but it's so hard to decide…\p If I make it evolve, it will become much stronger.\p But it will look so different, too.$ SKITTY: Miyao?$ This NUGGET I found here… I suppose I'll have to sell it, seeing\l as how it has no other use.")
+}
+

@@ -1,1 +1,4 @@
-mapscripts AbandonedShip_CaptainsOffice_MapScripts {}
+text AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus {
+    format("I'm investigating this ship on behalf of CAPT. STERN.\p He also asked me to find a SCANNER, but I haven't had any success…$ Oh! That's a SCANNER!\p Listen, can I get you to deliver that to CAPT. STERN?\p I want to investigate this ship a little more.$ This ship is called S.S. CACTUS. It seems to be from an earlier era.")
+}
+

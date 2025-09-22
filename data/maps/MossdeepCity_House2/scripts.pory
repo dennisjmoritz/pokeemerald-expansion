@@ -1,1 +1,4 @@
-mapscripts MossdeepCity_House2_MapScripts {}
+text MossdeepCity_House2_EventScript_WingullExitWest {
+    format("My little sister exchanges MAIL with her boyfriend in FORTREE.\p I don't envy her one bit at all.$ Even though I can't see my friend in FORTREE, my POKéMON carries MAIL\l back and forth for us.\p I'm not lonesome, even though we're apart.$ WINGULL: Pihyoh!")
+}
+

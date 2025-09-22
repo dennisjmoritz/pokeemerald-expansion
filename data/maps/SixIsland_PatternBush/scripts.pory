@@ -1,1 +1,144 @@
-mapscripts SixIsland_PatternBush_MapScripts {}
+text SixIsland_PatternBush_Text_BethanyIntro {
+    format("I'm curious, how do you raise your POKéMON?")
+}
+
+text SixIsland_PatternBush_Text_BethanyDefeat {
+    format("You raise your POKéMON with a whole lot of love!")
+}
+
+text SixIsland_PatternBush_Text_BethanyPostBattle {
+    format("In the same way your mother raised you full of love, you should raise\l your POKéMON.")
+}
+
+text SixIsland_PatternBush_Text_AllisonIntro {
+    format("I'm working to preserve the natural ecology of POKéMON here.")
+}
+
+text SixIsland_PatternBush_Text_AllisonDefeat {
+    format("Oh, for someone so young, you are tremendous!")
+}
+
+text SixIsland_PatternBush_Text_AllisonPostBattle {
+    format("I'm not saying that you shouldn't catch POKéMON.\p I just want people to raise their POKéMON responsibly.")
+}
+
+text SixIsland_PatternBush_Text_GarretIntro {
+    format("I caught a BUG POKéMON that lives only around here!")
+}
+
+text SixIsland_PatternBush_Text_GarretDefeat {
+    format("Heheh… Isn't my POKéMON awesome?")
+}
+
+text SixIsland_PatternBush_Text_GarretPostBattle {
+    format("There's a girl near the BUSH who measures HERACROSS for TRAINERS.")
+}
+
+text SixIsland_PatternBush_Text_JonahIntro {
+    format("You know, it just doesn't feel right if I don't use BUG POKéMON.")
+}
+
+text SixIsland_PatternBush_Text_JonahDefeat {
+    format("It's okay, losing is a fun part of POKéMON's appeal, too.")
+}
+
+text SixIsland_PatternBush_Text_JonahPostBattle {
+    format("By the way, “appeal” is a weird word, if you think about it.\p Like, is it like an orange peel? Or like a ringing bell?")
+}
+
+text SixIsland_PatternBush_Text_VanceIntro {
+    format("Yeah, yeah, yeah! Look at all the BUG POKéMON!")
+}
+
+text SixIsland_PatternBush_Text_VanceDefeat {
+    format("I got beat while I was still busy celebrating!")
+}
+
+text SixIsland_PatternBush_Text_VancePostBattle {
+    format("I'm going to bring my little brother here next time.")
+}
+
+text SixIsland_PatternBush_Text_NashIntro {
+    format("Look, look! There are funny patterns on the ground.")
+}
+
+text SixIsland_PatternBush_Text_NashDefeat {
+    format("Super awesome!")
+}
+
+text SixIsland_PatternBush_Text_NashPostBattle {
+    format("The funny patterns on the ground…\p They look like the patterns on my grandpa's clothes.")
+}
+
+text SixIsland_PatternBush_Text_CordellIntro {
+    format("I bet you think I'm just some guy, don't you, eh?")
+}
+
+text SixIsland_PatternBush_Text_CordellDefeat {
+    format("I bet you think I'm weak, don't you, eh?")
+}
+
+text SixIsland_PatternBush_Text_CordellPostBattle {
+    format("Ayup, you townies come around all so dandy with a hat that flashy…\p How about giving me that?")
+}
+
+text SixIsland_PatternBush_Text_DaliaIntro {
+    format("Take a deep breath. Isn't the air delicious?")
+}
+
+text SixIsland_PatternBush_Text_DaliaDefeat {
+    format("If you'd like, I can teach you how to breathe properly.")
+}
+
+text SixIsland_PatternBush_Text_DaliaPostBattle {
+    format("First, exhale. Blow everything out.\p When you can't exhale anymore, inhale the clean air!\p Isn't it refreshing?")
+}
+
+text SixIsland_PatternBush_Text_JoanaIntro {
+    format("I love BUG POKéMON. That's why I'm here all the time.\p Am I the only girl like that?")
+}
+
+text SixIsland_PatternBush_Text_JoanaDefeat {
+    format("I lost, but I'm still laughing. Am I the only girl like that?")
+}
+
+text SixIsland_PatternBush_Text_JoanaPostBattle {
+    format("I'm going to keep on collecting BUG POKéMON.\p Am I the only girl like that?")
+}
+
+text SixIsland_PatternBush_Text_RileyIntro {
+    format("This is a good spot. I'll pitch my tent here.")
+}
+
+text SixIsland_PatternBush_Text_RileyDefeat {
+    format("Wimped out…")
+}
+
+text SixIsland_PatternBush_Text_RileyPostBattle {
+    format("I'm going to observe the night sky here.")
+}
+
+text SixIsland_PatternBush_Text_MarcyIntro {
+    format("Oh, yuck! I think a bug stung me!")
+}
+
+text SixIsland_PatternBush_Text_MarcyDefeat {
+    format("It wasn't a bug. I cut my shin on some grass.")
+}
+
+text SixIsland_PatternBush_Text_MarcyPostBattle {
+    format("A little cut like that… A little spit's enough to cure it!")
+}
+
+text SixIsland_PatternBush_Text_LaytonIntro {
+    format("Have you noticed something odd about these parts?")
+}
+
+text SixIsland_PatternBush_Text_LaytonDefeat {
+    format("Have you taken a good look around your feet?")
+}
+
+text SixIsland_PatternBush_Text_LaytonPostBattle {
+    format("There are places here in PATTERN BUSH where grass won't grow.\p What could be the cause of such a phenomenon?")
+}
+

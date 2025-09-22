@@ -1,1 +1,16 @@
-mapscripts FortreeCity_MapScripts {}
+text FortreeCity_EventScript_UseDevonScope {
+    format("No one believes me, but I saw this gigantic POKéMON in the sky.\p It seemed to squirm as it flew toward ROUTE 131.\p By the way… Sniff… Um… You, uh…smell singed.\p Were you at a volcano or something?$ I want to go to the POKéMON GYM, but something's blocking the way.\p After all the bother I went through training on ROUTE 120…$ I've got my pride-and-joy POKéMON with me. This time, I'll beat WINONA.$ The ground absorbs rainwater, and trees grow by drinking that water…\p Our FORTREE CITY exists because there's both water and soil.$ The CITY consists of homes built on trees.\p Perhaps because of that lifestyle, everyone is healthy and lively.\p Why, even myself--I feel as if I've grown thirty years younger.$ Living on top of trees is okay.\p But sometimes BUG POKéMON come in through windows.\l It can be really startling.$ There are POKéMON that evolve when you trade them! That's what I heard.$ Something unseeable is in the way.$ Something unseeable is in the way.\p Want to use the DEVON SCOPE?$ {PLAYER} used the DEVON SCOPE.\p An invisible POKéMON became completely visible!\p The startled POKéMON fled!$ FORTREE CITY “The treetop city that frolics with\l nature.”$ FORTREE CITY POKéMON GYM LEADER: WINONA\p “The bird user taking flight into the world.”")
+}
+
+script FortreeCity_EventScript_CitySign {
+    lockall
+    msgbox(FortreeCity_Text_CitySign)
+    releaseall
+}
+
+script FortreeCity_EventScript_GymSign {
+    lockall
+    msgbox(FortreeCity_Text_GymSign)
+    releaseall
+}
+

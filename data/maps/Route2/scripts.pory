@@ -1,1 +1,20 @@
-mapscripts Route2_MapScripts {}
+text Route2_Text_RouteSign {
+    format("ROUTE 2 VIRIDIAN CITY - PEWTER CITY")
+}
+
+text Route2_Text_DiglettsCave {
+    format("DIGLETT'S CAVE")
+}
+
+script Route2_EventScript_DiglettsCaveSign {
+    lockall
+    msgbox(Route2_Text_DiglettsCave)
+    releaseall
+}
+
+script Route2_EventScript_RouteSign {
+    lockall
+    msgbox(Route2_Text_RouteSign)
+    releaseall
+}
+

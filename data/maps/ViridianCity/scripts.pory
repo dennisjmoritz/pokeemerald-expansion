@@ -1,1 +1,114 @@
-mapscripts ViridianCity_MapScripts {}
+text ViridianCity_Text_CanCarryMonsAnywhere {
+    format("Those POKé BALLS at your waist! You have POKéMON, don't you?\p It's great that you can carry and use POKéMON anytime, anywhere.")
+}
+
+text ViridianCity_Text_GymClosedWonderWhoLeaderIs {
+    format("This POKéMON GYM is always closed.\p I wonder who the LEADER is?")
+}
+
+text ViridianCity_Text_ViridiansGymLeaderReturned {
+    format("VIRIDIAN GYM's LEADER returned!")
+}
+
+text ViridianCity_Text_WantToKnowAboutCaterpillarMons {
+    format("You want to know about the two kinds of caterpillar POKéMON?")
+}
+
+text ViridianCity_Text_OhOkayThen {
+    format("Oh, okay then!")
+}
+
+text ViridianCity_Text_ExplainCaterpieWeedle {
+    format("CATERPIE has no poison, but WEEDLE does.\p Watch that your POKéMON aren't stabbed by WEEDLE's POISON STING.")
+}
+
+text ViridianCity_Text_GrandpaHasntHadCoffeeYet {
+    format("Oh, Grandpa! Don't be so mean!\p I'm so sorry. He hasn't had his coffee yet.")
+}
+
+text ViridianCity_Text_GoShoppingInPewterOccasionally {
+    format("I go shopping in PEWTER CITY occasionally.\p I have to take the winding trail in VIRIDIAN FOREST when I go.")
+}
+
+text ViridianCity_Text_ThisIsPrivateProperty {
+    format("I absolutely forbid you from going through here!\p This is private property!")
+}
+
+text ViridianCity_Text_ShowYouHowToCatchMons {
+    format("Well, now, I've had my coffee, and that's what I need to get going!\p Hm? What is that red box you have?\p Ah, so you're working on your POKéDEX.\p Then let me give you a word of advice.\p Whenever you catch a POKéMON, the POKéDEX automatically updates\l its data.\p …You don't know how to catch a POKéMON?\p I suppose I had better show you then!")
+}
+
+text ViridianCity_Text_ThatWasEducationalTakeThis {
+    format("There! Now tell me, that was educational, was it not?\p And here, take this, too.")
+}
+
+text ViridianCity_Text_WatchThatToLearnBasics {
+    format("If there's something you don't understand, watch that.\p It will teach you about the basics of being a POKéMON TRAINER.")
+}
+
+text ViridianCity_Text_WeakenMonsFirstToCatch {
+    format("Well, now, I've had my coffee, and that's what I need to get going!\p But I made it too strong. It gave me a headache…\p Incidentally, are you filling your POKéDEX?\p At first, focus on weakening the POKéMON before trying to catch it.")
+}
+
+text ViridianCity_Text_HowsTeachyTVHelping {
+    format("Well, now, I've had my coffee, and that's what I need to get going!\p But I made it too strong. It gave me a headache…\p Incidentally, is my old TEACHY TV helping you?")
+}
+
+text ViridianCity_Text_MyGrandsonOnTheShow {
+    format("Wahaha! It's my grandson on the show!\p Since he's the one doing the teaching, you're bound to learn.")
+}
+
+text ViridianCity_Text_TooBusyForTeachyTV {
+    format("Hm… You're too busy to not even have the time for TEACHY TV…\p Time is money, and neither should be ill spent…")
+}
+
+text ViridianCity_Text_CitySign {
+    format("VIRIDIAN CITY The Eternally Green Paradise")
+}
+
+text ViridianCity_Text_CatchMonsForEasierBattles {
+    format("TRAINER TIPS\p Catch POKéMON and expand your collection.\p The more you have, the easier it is to battle.")
+}
+
+text ViridianCity_Text_MovesLimitedByPP {
+    format("TRAINER TIPS\p The battle moves of POKéMON are limited by their POWER POINTS, PP.\p To replenish PP, rest your tired POKéMON at a POKéMON CENTER.")
+}
+
+text ViridianCity_Text_GymSign {
+    format("VIRIDIAN CITY POKéMON GYM")
+}
+
+text ViridianCity_Text_GymDoorsAreLocked {
+    format("VIRIDIAN GYM's doors are locked…")
+}
+
+script ViridianCity_EventScript_TrainerTips1 {
+    lockall
+    msgbox(ViridianCity_Text_CatchMonsForEasierBattles)
+    releaseall
+}
+
+script ViridianCity_EventScript_GymSign {
+    lockall
+    msgbox(ViridianCity_Text_GymSign)
+    releaseall
+}
+
+script ViridianCity_EventScript_TrainerTips2 {
+    lockall
+    msgbox(ViridianCity_Text_MovesLimitedByPP)
+    releaseall
+}
+
+script ViridianCity_EventScript_CitySign {
+    lockall
+    msgbox(ViridianCity_Text_CitySign)
+    releaseall
+}
+
+script ViridianCity_EventScript_GymDoor {
+    lockall
+    msgbox(ViridianCity_Text_GymDoorsAreLocked)
+    releaseall
+}
+

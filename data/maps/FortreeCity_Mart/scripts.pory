@@ -1,1 +1,4 @@
-mapscripts FortreeCity_Mart_MapScripts {}
+text FortreeCity_Mart_EventScript_Boy {
+    format("SUPER REPEL lasts a long time, and it gets the job done.\p It's much better than an ordinary REPEL.$ I always stock up on more items than I'm sure I'll need.\p You never know what might happen. Better to be safe than sorry!$ A RARE CANDY makes a POKéMON grow immediately by one level.")
+}
+

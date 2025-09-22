@@ -1,1 +1,4 @@
-mapscripts RustboroCity_Mart_MapScripts {}
+text RustboroCity_Mart_EventScript_BugCatcher {
+    format("I'm buying some PARLYZ HEALS and ANTIDOTES.\p Just in case I run into SHROOMISH in PETALBURG WOODS.$ My POKéMON evolved. It has a lot of HP now.\p I should buy SUPER POTIONS for it instead of ordinary POTIONS.$ I'm getting an ESCAPE ROPE just in case I get lost in a cave.\p I just need to use it to get back to the entrance.")
+}
+

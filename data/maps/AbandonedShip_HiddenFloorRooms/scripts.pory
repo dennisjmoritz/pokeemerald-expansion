@@ -1,1 +1,40 @@
-mapscripts AbandonedShip_HiddenFloorRooms_MapScripts {}
+text AbandonedShip_HiddenFloorRooms_EventScript_Trash {
+    format("It's bright and shiny! But it's just trash…")
+}
+
+script AbandonedShip_HiddenFloorRooms_EventScript_Trash {
+    lockall
+    msgbox(AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash)
+    releaseall
+}
+
+script AbandonedShip_HiddenFloorRooms_EventScript_Trash {
+    lockall
+    msgbox(AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash)
+    releaseall
+}
+
+script AbandonedShip_HiddenFloorRooms_EventScript_Trash {
+    lockall
+    msgbox(AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash)
+    releaseall
+}
+
+script AbandonedShip_HiddenFloorRooms_EventScript_Trash {
+    lockall
+    msgbox(AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash)
+    releaseall
+}
+
+script AbandonedShip_HiddenFloorRooms_EventScript_Trash {
+    lockall
+    msgbox(AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash)
+    releaseall
+}
+
+script AbandonedShip_HiddenFloorRooms_EventScript_Trash {
+    lockall
+    msgbox(AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash)
+    releaseall
+}
+

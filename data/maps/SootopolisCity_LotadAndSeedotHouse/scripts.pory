@@ -1,1 +1,16 @@
-mapscripts SootopolisCity_LotadAndSeedotHouse_MapScripts {}
+text SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord {
+    format("Do you know the POKéMON SEEDOT? It's hardly ever seen in SOOTOPOLIS.\p Anyway, I love big SEEDOT. The bigger the better.\p But my younger brother, he says that LOTAD is bigger.\p That's silly. SEEDOT has to be bigger than that!\p Huh? Do you have a SEEDOT with you? P-p-please, show me!$ {STR_VAR_2}! Oh, my gosh, this is a big one!\p It might even beat the big LOTAD my younger brother saw!\p Thanks for showing me. This is my thanks!$ {PLAYER} received a POTION.$ Hunh? Your BAG is crammed full.$ {STR_VAR_2}, is it?\p Hmm… I've seen a bigger SEEDOT than this one.$ Oh, now this is quite something… But it's not a SEEDOT!$ You don't have a big SEEDOT? That's too bad…\p If you get a big SEEDOT, please come show me.$ The biggest SEEDOT in history! {STR_VAR_2}'s {STR_VAR_3} giant!\p A SEEDOT bigger than a LOTAD always wanted!$ Do you know the POKéMON LOTAD? It's rarely seen in SOOTOPOLIS.\p I love, I mean love, big LOTAD!\p My big brother says that SEEDOT is bigger.\p But that's wrong! Everyone knows that LOTAD is a lot bigger.\p Hunh? Do you have a LOTAD? P-p-please show me!$ {STR_VAR_2}! Wow, that is big!\p It might be even bigger than the huge SEEDOT my big brother saw.\p Thanks for showing me! This is my thanks!$ {PLAYER} received a POTION.$ Hunh? Your BAG is crammed full.$ {STR_VAR_2}?\p Hmm… I've seen a bigger LOTAD than this one here.$ Well, isn't this something! But it's no LOTAD!$ Don't you have a big LOTAD? How disappointing…\p If you get a big LOTAD, please come show me!$ The biggest LOTAD in history! {STR_VAR_2}'s {STR_VAR_3} colossus!\p A LOTAD bigger than a SEEDOT always wanted!")
+}
+
+script SootopolisCity_LotadAndSeedotHouse_EventScript_SeedotSizeRecord {
+    lockall
+    msgbox(SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory)
+    releaseall
+}
+
+script SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord {
+    lockall
+    msgbox(SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory)
+    releaseall
+}
+

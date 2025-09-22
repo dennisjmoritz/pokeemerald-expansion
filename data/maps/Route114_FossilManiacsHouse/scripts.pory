@@ -1,1 +1,28 @@
-mapscripts Route114_FossilManiacsHouse_MapScripts {}
+text Route114_FossilManiacsHouse_EventScript_Bookshelf {
+    format("My big brother's the FOSSIL MANIAC… He's a nice guy who loves FOSSILS…\p He loves digging holes, too… He dug this hole by himself…\p You can have this, so you can DIG holes just like my big brother…$ If you make a POKéMON DIG inside a cave, you're returned to the entrance…$ Rocks in peculiar shapes fill the display case…$ THE COMPOSITION OF STRATA… HOW RAIN SHAPES THE LAND…\l STONES, SOIL, AND ROCK…\p It's crammed with books.")
+}
+
+script Route114_FossilManiacsHouse_EventScript_RockDisplay {
+    lockall
+    msgbox(Route114_FossilManiacsHouse_Text_RocksFillDisplayCase)
+    releaseall
+}
+
+script Route114_FossilManiacsHouse_EventScript_RockDisplay {
+    lockall
+    msgbox(Route114_FossilManiacsHouse_Text_RocksFillDisplayCase)
+    releaseall
+}
+
+script Route114_FossilManiacsHouse_EventScript_Bookshelf {
+    lockall
+    msgbox(Route114_FossilManiacsHouse_Text_CrammedWithBooks)
+    releaseall
+}
+
+script Route114_FossilManiacsHouse_EventScript_Bookshelf {
+    lockall
+    msgbox(Route114_FossilManiacsHouse_Text_CrammedWithBooks)
+    releaseall
+}
+

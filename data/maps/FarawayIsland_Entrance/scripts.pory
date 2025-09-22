@@ -1,1 +1,6 @@
-mapscripts FarawayIsland_Entrance_MapScripts {}
+script FarawayIsland_Entrance_EventScript_Sign {
+    lockall
+    msgbox(FarawayIsland_Entrance_Text_Sign)
+    releaseall
+}
+

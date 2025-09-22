@@ -1,1 +1,4 @@
-mapscripts OldaleTown_PokemonCenter_1F_MapScripts {}
+text OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable {
+    format("That PC in the corner there is for any POKéMON TRAINER to use.\p Naturally, that means you're welcome to use it, too.$ POKéMON CENTERS are great!\p You can use their services as much as you like, and it's all for free.\l You never have to worry!$ The POKéMON WIRELESS CLUB on the second floor was built recently.\p But they say they're still making adjustments.$ The POKéMON WIRELESS CLUB on the second floor was built recently.\p I traded POKéMON right away.")
+}
+

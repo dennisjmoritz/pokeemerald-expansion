@@ -1,1 +1,4 @@
-mapscripts NewMauville_Entrance_MapScripts {}
+text NewMauville_Entrance_EventScript_DontOpenDoor {
+    format("The door is locked.$ Use the BASEMENT KEY?$ {PLAYER} used the BASEMENT KEY.\p The door opened!")
+}
+

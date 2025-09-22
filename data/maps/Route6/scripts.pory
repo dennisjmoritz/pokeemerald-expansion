@@ -1,1 +1,82 @@
-mapscripts Route6_MapScripts {}
+text Route6_Text_RickyIntro {
+    format("Who's there? Quit listening in on us!")
+}
+
+text Route6_Text_RickyDefeat {
+    format("I just can't win!")
+}
+
+text Route6_Text_RickyPostBattle {
+    format("Whisper… Whisper…")
+}
+
+text Route6_Text_NancyIntro {
+    format("Excuse me! This is a private conversation!")
+}
+
+text Route6_Text_NancyDefeat {
+    format("Ugh! I hate losing.")
+}
+
+text Route6_Text_NancyPostBattle {
+    format("Whisper… Whisper…")
+}
+
+text Route6_Text_KeigoIntro {
+    format("There aren't many bugs out here.")
+}
+
+text Route6_Text_KeigoDefeat {
+    format("No! You're kidding!")
+}
+
+text Route6_Text_KeigoPostBattle {
+    format("I like bugs, so I'm going back to VIRIDIAN FOREST.")
+}
+
+text Route6_Text_JeffIntro {
+    format("Huh? You want to talk to me?")
+}
+
+text Route6_Text_JeffDefeat {
+    format("This stinks… I couldn't beat your challenge…")
+}
+
+text Route6_Text_JeffPostBattle {
+    format("I should bring more POKéMON with me. I'll feel safer that way.")
+}
+
+text Route6_Text_IsabelleIntro {
+    format("Me? Well, okay. I'll play!")
+}
+
+text Route6_Text_IsabelleDefeat {
+    format("Things just didn't work…")
+}
+
+text Route6_Text_IsabellePostBattle {
+    format("I want to get stronger. What's your secret?")
+}
+
+text Route6_Text_ElijahIntro {
+    format("I've never seen you around. Are you good?")
+}
+
+text Route6_Text_ElijahDefeat {
+    format("You're too good!")
+}
+
+text Route6_Text_ElijahPostBattle {
+    format("Are my POKéMON weak? Or, am I just bad?\l Which do you think?")
+}
+
+text Route6_Text_UndergroundPathSign {
+    format("UNDERGROUND PATH CERULEAN CITY - VERMILION CITY")
+}
+
+script Route6_EventScript_UndergroundPathSign {
+    lockall
+    msgbox(Route6_Text_UndergroundPathSign)
+    releaseall
+}
+

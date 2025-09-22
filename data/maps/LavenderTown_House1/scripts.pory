@@ -1,1 +1,12 @@
-mapscripts LavenderTown_House1_MapScripts {}
+text LavenderTown_House1_Text_Cubone {
+    format("CUBONE: Kyarugoo!")
+}
+
+text LavenderTown_House1_Text_RocketsKilledCubonesMother {
+    format("Those horrible ROCKETS! They deserve no mercy!\p That poor CUBONE's mother…\p It was killed trying to escape from TEAM ROCKET.")
+}
+
+text LavenderTown_House1_Text_GhostOfPokemonTowerIsGone {
+    format("The ghost of POKéMON TOWER is gone!\p Someone must have soothed its restless spirit!")
+}
+

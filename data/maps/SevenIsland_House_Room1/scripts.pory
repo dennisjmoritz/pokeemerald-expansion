@@ -1,1 +1,62 @@
-mapscripts SevenIsland_House_Room1_MapScripts {}
+text SevenIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles {
+    format("I may not look like much now, but when I was younger…\p I flew everywhere, challenging TRAINERS wherever I found them.\p Now, my only source of enjoyment is reminiscing about the past while\l watching battles.")
+}
+
+text SevenIsland_House_Room1_Text_SlightBreezeAroundBox {
+    format("There is a slight breeze blowing around the box.")
+}
+
+text SevenIsland_House_Room1_Text_ChallengeVisitingTrainer {
+    format("Ah! Welcome, my friend!\p Let me tell you something. There's a hidden room in the basement.\p A TRAINER named {STR_VAR_1} is waiting there now.\p Tell me, you did come to challenge {STR_VAR_1}, am I right?")
+}
+
+text SevenIsland_House_Room1_Text_OhYouWontBattle {
+    format("Oh… You won't battle…\p I see, I see. … …\p Well, perhaps if you change your mind, do come back.")
+}
+
+text SevenIsland_House_Room1_Text_LimitThreeMonsPerSide {
+    format("Ah! You will battle for me?\p It was worth my time moving the box aside, then.\p … … But there is one slight problem.\p This hidden room is not built very sturdy.\p Can I get you to limit it to battles of three POKéMON per side?")
+}
+
+text SevenIsland_House_Room1_Text_SaveProgressBeforeBattle {
+    format("Fine! Before your battle, would you like to save your game?")
+}
+
+text SevenIsland_House_Room1_Text_DontHoldAnythingBack {
+    format("All right. Don't hold anything back!")
+}
+
+text SevenIsland_House_Room1_Text_StrVar1_1 {
+    format("{STR_VAR_1}")
+}
+
+text SevenIsland_House_Room2_Text_MatchEndedUpDraw {
+    format("The match ended up a draw.")
+}
+
+text SevenIsland_House_Room1_Text_DrawWasIt {
+    format("A draw, was it?\p However, let me say that it was a worthy spectacle.\p I'd say it was a wonderful battle with a real sense of depth!")
+}
+
+text SevenIsland_House_Room1_Text_StrVar1_2 {
+    format("{STR_VAR_1}")
+}
+
+text SevenIsland_House_Room1_Text_AstoundingBattle {
+    format("Bravo!\p Bravo, indeed! What an astounding battle!\p It was so astounding, why, it keeps filling my eyes with tears!\p The thrust and parry of expertly used techniques!\p The clash of power upon power!\p Yes! It was sheer magnificence!")
+}
+
+text SevenIsland_House_Room1_Text_StrVar1_3 {
+    format("{STR_VAR_1}")
+}
+
+text SevenIsland_House_Room1_Text_FeelYourDisappointment {
+    format("Too bad! I feel your disappointment.\p However, that disappointment is what will make you better.\p Use it, learn from it, and make it motivate you to seek greatness.\p Forget not this disappointment and redouble your training!")
+}
+
+script SevenIsland_House_Room1_EventScript_Box {
+    lockall
+    msgbox(SevenIsland_House_Room1_Text_SlightBreezeAroundBox)
+    releaseall
+}
+

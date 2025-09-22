@@ -1,1 +1,36 @@
-mapscripts PokemonTower_4F_MapScripts {}
+text PokemonTower_4F_Text_PaulaIntro {
+    format("Ghost! No! Kwaaah!")
+}
+
+text PokemonTower_4F_Text_PaulaDefeat {
+    format("Where is the ghost?")
+}
+
+text PokemonTower_4F_Text_PaulaPostBattle {
+    format("I must have been dreaming…")
+}
+
+text PokemonTower_4F_Text_LaurelIntro {
+    format("Be cursed with me! Kwaaah!")
+}
+
+text PokemonTower_4F_Text_LaurelDefeat {
+    format("What!")
+}
+
+text PokemonTower_4F_Text_LaurelPostBattle {
+    format("We can't determine the identity of the ghosts…")
+}
+
+text PokemonTower_4F_Text_JodyIntro {
+    format("Huhuhu… Beat me not!")
+}
+
+text PokemonTower_4F_Text_JodyDefeat {
+    format("Huh? Who? What?")
+}
+
+text PokemonTower_4F_Text_JodyPostBattle {
+    format("May the departed POKéMON rest in peace…")
+}
+

@@ -1,1 +1,4 @@
-mapscripts Route111_WinstrateFamilysHouse_MapScripts {}
+text Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection {
+    format("You're the first TRAINER I've seen who deploys POKéMON so masterfully.\p But, I should tell you--my son is stronger than you.\p He even took the POKéMON LEAGUE challenge, I'll have you know.$ We use this MACHO BRACE to more effectively strengthen our POKéMON\l in training.\p Since you've beaten all of us here, I don't know if you need it, but we\l would like you to have our MACHO BRACE.$ When it comes to POKéMON battles, we tend to be pretty passionate.$ Mommy is stronger than Daddy.\p I'm stronger than Mommy.\p And Grandma's stronger than me!\p But my big brother is even stronger than Grandma.$ There's no question that you're strong.\p But if you were to battle my grandson, you'd end up crying in frustration.\p He's much stronger than any TRAINER our family knows.\p He must be challenging the POKéMON LEAGUE CHAMPION by now.\p Knowing my grandson, he could be the CHAMPION already!$ My grandson must be challenging the POKéMON LEAGUE CHAMPION by now.\p Knowing my grandson, he could be the CHAMPION already!")
+}
+

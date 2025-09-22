@@ -1,1 +1,41 @@
-mapscripts Route11_EastEntrance_2F_MapScripts {}
+text Route11_EastEntrance_2F_Text_GiveItemfinderIfCaught30 {
+    format("Hi! Remember me? I'm one of PROF. OAK's AIDES.\p If your POKéDEX has complete data on {STR_VAR_1} species, I'm supposed to\l give you a reward.\p PROF. OAK entrusted me with the {STR_VAR_2} for you.\p So, {PLAYER}, let me ask you.\p Have you gathered data on at least {STR_VAR_1} kinds of POKéMON?")
+}
+
+text Route11_EastEntrance_2F_Text_GreatHereYouGo {
+    format("Great! You have caught or owned {STR_VAR_3} kinds of POKéMON!\p Congratulations! Here you go!")
+}
+
+text Route11_EastEntrance_2F_Text_ReceivedItemfinderFromAide {
+    format("{PLAYER} received the {STR_VAR_2} from the AIDE.")
+}
+
+text Route11_EastEntrance_2F_Text_ExplainItemfinder {
+    format("There are items on the ground that may be hidden from view.\p Use the ITEMFINDER to detect any hidden items close to you.\p The machine is a bit limited. It can't pinpoint item locations.\p What it does is show the direction where the item is.\p Use it to get your bearings, then search the suspect area by hand.")
+}
+
+text Route11_EastEntrance_2F_Text_BigMonAsleepOnRoad {
+    format("Let's see what the binoculars have to show…\p A big POKéMON is asleep on a road!")
+}
+
+text Route11_EastEntrance_2F_Text_WhatABreathtakingView {
+    format("Let's see what the binoculars have to show…\p What a breathtaking view!")
+}
+
+text Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender {
+    format("Let's see what the binoculars have to show…\p To get to LAVENDER TOWN from CERULEAN CITY…\p ROCK TUNNEL appears to be a good route to take.")
+}
+
+script Route11_EastEntrance_2F_EventScript_LeftBinoculars {
+    // Also calls: goto_if_set FLAG_TEMP_1
+    lockall
+    msgbox(Route11_EastEntrance_2F_Text_BigMonAsleepOnRoad)
+    releaseall
+}
+
+script Route11_EastEntrance_2F_EventScript_RightBinoculars {
+    lockall
+    msgbox(Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender)
+    releaseall
+}
+

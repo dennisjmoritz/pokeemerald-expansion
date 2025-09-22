@@ -1,1 +1,24 @@
-mapscripts RocketHideout_B3F_MapScripts {}
+text RocketHideout_B3F_Text_Grunt1Intro {
+    format("Stop meddling in TEAM ROCKET's affairs or else!")
+}
+
+text RocketHideout_B3F_Text_Grunt1Defeat {
+    format("Oof! Taken down!")
+}
+
+text RocketHideout_B3F_Text_Grunt1PostBattle {
+    format("SILPH SCOPE? Oh, that machine the BOSS stole.\p It's here somewhere.")
+}
+
+text RocketHideout_B3F_Text_Grunt2Intro {
+    format("We got word from upstairs that you were coming!")
+}
+
+text RocketHideout_B3F_Text_Grunt2Defeat {
+    format("What? I lost? No!")
+}
+
+text RocketHideout_B3F_Text_Grunt2PostBattle {
+    format("Go ahead and go!\p But you can't run the elevator without the LIFT KEY.")
+}
+

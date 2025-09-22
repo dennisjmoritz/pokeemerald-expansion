@@ -1,1 +1,34 @@
-mapscripts Route104_MapScripts {}
+text Route104_EventScript_Darian {
+    format("That seaside cottage is where MR. BRINEY lives.\p He was once a mighty sailor who never feared the sea, however stormy.$ The sea, huh?\p I wonder what it's like at the bottom of the sea?$ If you're going to throw a POKé BALL, weaken the wild POKéMON first.\p It will be easier to catch if it's been poisoned, burned, or lulled to sleep.$ You're a thief if you try to steal someone else's POKéMON.\p You should throw POKé BALLS only at wild POKéMON.$ Oh, no, I'm not a TRAINER.\p But that's right, if TRAINERS lock eyes, it's a challenge to battle.\p If you don't want to battle, stay out of their sight.$ I like filling my mouth with seeds, then spitting them out fast!\p You can have this, so you try it out!\p Use it on a POKéMON, and it will learn a move for firing seeds rapidly.$ A word of advice!\p A TM, TECHNICAL MACHINE, is good only for one-time use.\p Once you use it, it's gone. Think twice before using it!$ This FLOWER SHOP started selling saplings recently.\p It made me so happy, I went overboard shopping.\p I don't need this WHITE HERB anymore. Would you take it, please?$ This FLOWER SHOP started selling saplings recently.\p It made me so happy, I went overboard shopping. Where should I put them?$ MR. BRINEY'S COTTAGE$ ROUTE 1O4 {RIGHT_ARROW} PETALBURG CITY$ ROUTE 1O4 {UP_ARROW} RUSTBORO CITY$ PRETTY PETAL FLOWER SHOP$ TRAINER TIPS\p In the HOENN region there are pairs of TRAINERS who challenge others\l for 2-on-2 POKéMON battles called\l DOUBLE BATTLES.\p In a DOUBLE BATTLE, the TRAINER must send out two POKéMON, the one at the\l left of the list and the top one.\l Watch how POKéMON are lined up.$ MAY: Oh, hi, {PLAYER}{KUN}!\p DEVON upgraded your POKéNAV with the MATCH CALL system, huh?\p We should register each other so we can get in contact anytime.$ {PLAYER} registered MAY in the POKéNAV.$ MAY: Oh, by the way, {PLAYER}{KUN}, how's your POKéDEX coming along?$ Mine's looking pretty decent. So…\l How about a little battle?$ MAY: Oh, what's the matter?\p Haven't you caught or raised your POKéMON very much?\p That's not very good for a TRAINER!$ MAY: So, what do you think? How about a little battle here?$ MAY: You just became a TRAINER, {PLAYER}{KUN}. I'm not going to lose!$ Yikes! You're better than I expected!$ MAY: I can tell you've gotten pretty good with the way you handle POKéMON.\p But instead of only making them battle, you should be like MR. BRINEY.\p It's important to become friends with POKéMON, too.$ BRENDAN: Oh, hey, {PLAYER}!\p Cool, you had DEVON install the MATCH CALL system on your POKéNAV!\p Let's register each other in our POKéNAVS so we can keep in touch.$ {PLAYER} registered BRENDAN in the POKéNAV.$ BRENDAN: {PLAYER}, how's your POKéDEX? Have you filled in any pages yet?$ Me, I'm doing great!\p Want to check out how good I am with a battle?$ BRENDAN: What's the matter? Don't have any confidence in your POKéMON?$ BRENDAN: What's up? Want to have a battle with me?$ BRENDAN: I know you just became a TRAINER, but I won't go easy!$ Hmm… You're pretty good.$ BRENDAN: You've gotten pretty decent at handling POKéMON.\p But, you know, you shouldn't just be making POKéMON battle.\p Like MR. BRINEY, it's important to become friends with your POKéMON.")
+}
+
+script Route104_EventScript_BrineysCottageSign {
+    lockall
+    msgbox(Route104_Text_MrBrineysCottage)
+    releaseall
+}
+
+script Route104_EventScript_RouteSignPetalburg {
+    lockall
+    msgbox(Route104_Text_RouteSignPetalburg)
+    releaseall
+}
+
+script Route104_EventScript_RouteSignRustboro {
+    lockall
+    msgbox(Route104_Text_RouteSignRustboro)
+    releaseall
+}
+
+script Route104_EventScript_FlowerShopSign {
+    lockall
+    msgbox(Route104_Text_PrettyPetalFlowShop)
+    releaseall
+}
+
+script Route104_EventScript_TrainerTipsDoubleBattles {
+    lockall
+    msgbox(Route104_Text_TrainerTipsDoubleBattles)
+    releaseall
+}
+

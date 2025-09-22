@@ -1,1 +1,11 @@
-mapscripts SlateportCity_BattleTentLobby_MapScripts {}
+text SlateportCity_BattleTentLobby_EventScript_ExitRules {
+    format("So, like, I couldn't find myself any POKéMON that were, like, for me.\p So, I figured, like, hey, I should file a complaint to the guy there?\p And he wouldn't hear me out, like, hey! So, like, total bummer, man!\p Hey, like, you! Zip it, you know? Just, you know, take this!$ That's, like, TM41, you know? Hey, it's TORMENT, you hearing me?\p Like, it won't let the other guy use the same move twice in a row, see?\p Hey, now, you listen here, like, I'm not laying a torment on you!$ I don't really like BUG POKéMON, but maybe I'll try using some for\l a change of pace.\p Who knows, I might even get to like them!$ You can battle all you want here even if you don't have any tough POKéMON.$ Wouldn't it be nice if they had more of a selection?")
+}
+
+script SlateportCity_BattleTentLobby_EventScript_RulesBoard {
+    // Also calls: goto SlateportCity_BattleTentLobby_EventScript_ReadRulesBoard
+    lockall
+    msgbox(BattleFrontier_BattleFactoryLobby_Text_RulesAreListed)
+    releaseall
+}
+

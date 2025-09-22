@@ -1,1 +1,32 @@
-mapscripts Route119_WeatherInstitute_1F_MapScripts {}
+text Route119_WeatherInstitute_1F_EventScript_Grunt4 {
+    format("The BOSS got interested in the research they have going here,\l so he sent us out.\p You quit meddling!$ Blast it… Blasted by a kid…$ Our BOSS knows everything.\p But I'm just a GRUNT. What would I know about what he's thinking?$ Huh? What's a kid doing here?$ Huh? I lost?!$ Oh, no… I'll catch an earful for losing to a kid…\p I should just take a nap in the bed…$ While I was sleeping, everyone went upstairs!$ Wow, you're really strong!\p I wish I could be a POKéMON TRAINER like you!$ The PROFESSOR loves rain. That's a fact.\p But if it keeps raining, people will be in trouble. That's another fact.\p And thus, the PROFESSOR is studying if the rain can be put to good use.$ On the 2nd floor of the INSTITUTE, we study the weather patterns over\l the HOENN region.\p We've been noticing temporary and isolated cases of droughts and\l heavy rain lately…$ Hello! We've been saved by your actions!\p What I don't understand is what on earth the AQUAS were up to.$ There's a bed… Let's take a rest.")
+}
+
+script Route119_WeatherInstitute_1F_EventScript_Bed {
+    // Also calls: call Common_EventScript_OutOfCenterPartyHeal
+    lockall
+    msgbox(Route119_WeatherInstitute_1F_Text_TakeRestInBed)
+    releaseall
+}
+
+script Route119_WeatherInstitute_1F_EventScript_Bed {
+    // Also calls: call Common_EventScript_OutOfCenterPartyHeal
+    lockall
+    msgbox(Route119_WeatherInstitute_1F_Text_TakeRestInBed)
+    releaseall
+}
+
+script Route119_WeatherInstitute_1F_EventScript_Bed {
+    // Also calls: call Common_EventScript_OutOfCenterPartyHeal
+    lockall
+    msgbox(Route119_WeatherInstitute_1F_Text_TakeRestInBed)
+    releaseall
+}
+
+script Route119_WeatherInstitute_1F_EventScript_Bed {
+    // Also calls: call Common_EventScript_OutOfCenterPartyHeal
+    lockall
+    msgbox(Route119_WeatherInstitute_1F_Text_TakeRestInBed)
+    releaseall
+}
+

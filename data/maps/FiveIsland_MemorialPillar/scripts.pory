@@ -1,1 +1,91 @@
-mapscripts FiveIsland_MemorialPillar_MapScripts {}
+text FiveIsland_MemorialPillar_Text_MiloIntro {
+    format("I'm the eldest of the BIRD BROTHERS.\p The best thing about birds… It has to be the beak.")
+}
+
+text FiveIsland_MemorialPillar_Text_MiloDefeat {
+    format("Oh, so sharp!")
+}
+
+text FiveIsland_MemorialPillar_Text_MiloPostBattle {
+    format("You can fly to FOUR ISLAND from here.")
+}
+
+text FiveIsland_MemorialPillar_Text_ChazIntro {
+    format("I'm the middle kid of the BIRD BROTHERS.\p The best thing about birds… It has to be the wings.")
+}
+
+text FiveIsland_MemorialPillar_Text_ChazDefeat {
+    format("Flap, flap!")
+}
+
+text FiveIsland_MemorialPillar_Text_ChazPostBattle {
+    format("There was a really somber guy over that way.")
+}
+
+text FiveIsland_MemorialPillar_Text_HaroldIntro {
+    format("I'm the youngest of the BIRD BROTHERS.\p The best thing about birds… It has to be the down.")
+}
+
+text FiveIsland_MemorialPillar_Text_HaroldDefeat {
+    format("Down is so comfy… It makes me drowsy…")
+}
+
+text FiveIsland_MemorialPillar_Text_HaroldPostBattle {
+    format("It fills me with happiness when bird POKéMON beg playfully…")
+}
+
+text FiveIsland_MemorialPillar_Text_ScrubScrub {
+    format("Scrub, scrub…")
+}
+
+text FiveIsland_MemorialPillar_Text_YourMonsLookHealthy {
+    format("Hello… Your POKéMON look healthy…")
+}
+
+text FiveIsland_MemorialPillar_Text_ThisIsWhereIBuriedMyOnix {
+    format("This is where I buried my ONIX… It was named TECTONIX…")
+}
+
+text FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering {
+    format("“Here lies TECTONIX” is engraved on a boulder.\p There is a LEMONADE placed as an offering in front of the grave.")
+}
+
+text FiveIsland_MemorialPillar_Text_LeaveAnotherLemonadeOffering {
+    format("Would you like to leave another LEMONADE as an offering?")
+}
+
+text FiveIsland_MemorialPillar_Text_PlacedCanOfLemonade {
+    format("{PLAYER} placed a can of LEMONADE in front of the grave.")
+}
+
+text FiveIsland_MemorialPillar_Text_ThankYouPleaseTakeThis {
+    format("Th-thank you…\p That was my TECTONIX's favorite drink…\p I don't even know you, but your act of kindness…\p It's uplifted me a little.\p Can you please take this as my thanks?")
+}
+
+text FiveIsland_MemorialPillar_Text_BeGoodToYourMonsToo {
+    format("Please be good to your POKéMON, too.")
+}
+
+text FiveIsland_MemorialPillar_Text_DontHaveRoomForIt {
+    format("If you don't have room for it, I'll hold it for you till next time.")
+}
+
+text FiveIsland_MemorialPillar_Text_StillHaveThingAsMyThanks {
+    format("Oh, it's you from that time…\p I still have that thing I wanted you to have as my thanks.")
+}
+
+text FiveIsland_MemorialPillar_Text_ScrubScrubTectonix {
+    format("Scrub, scrub…\p … … … TECTONIX…")
+}
+
+text FiveIsland_MemorialPillar_Text_HereLiesTectonix {
+    format("Boulders and rocks are neatly piled up as a cairn.\p “Here lies TECTONIX” is engraved on a boulder.")
+}
+
+script FiveIsland_MemorialPillar_EventScript_Memorial {
+    // Also calls: goto_if_set FLAG_TEMP_1, goto_if_set FLAG_TEMP_1
+    lockall
+    msgbox(FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering)
+    releaseall
+}
+

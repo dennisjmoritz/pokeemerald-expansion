@@ -1,1 +1,57 @@
-mapscripts SealedChamber_InnerRoom_MapScripts {}
+script SealedChamber_InnerRoom_EventScript_BrailleBackWall {
+    // Also calls: goto_if_set FLAG_REGI_DOORS_OPENED
+    lockall
+    msgbox(SealedChamber_InnerRoom_Braille_FirstWailordLastRelicanth)
+    releaseall
+}
+
+script SealedChamber_InnerRoom_EventScript_BrailleStoryPart1 {
+    lockall
+    msgbox(SealedChamber_InnerRoom_Braille_InThisCaveWeHaveLived)
+    releaseall
+}
+
+script SealedChamber_InnerRoom_EventScript_BrailleStoryPart2 {
+    lockall
+    msgbox(SealedChamber_InnerRoom_Braille_WeOweAllToThePokemon)
+    releaseall
+}
+
+script SealedChamber_InnerRoom_EventScript_BrailleStoryPart3 {
+    lockall
+    msgbox(SealedChamber_InnerRoom_Braille_ButWeSealedThePokemonAway)
+    releaseall
+}
+
+script SealedChamber_InnerRoom_EventScript_BrailleStoryPart4 {
+    lockall
+    msgbox(SealedChamber_InnerRoom_Braille_WeFearedIt)
+    releaseall
+}
+
+script SealedChamber_InnerRoom_EventScript_BrailleStoryPart5 {
+    lockall
+    msgbox(SealedChamber_InnerRoom_Braille_ThoseWithCourageHope)
+    releaseall
+}
+
+script SealedChamber_InnerRoom_EventScript_BrailleStoryPart6 {
+    lockall
+    msgbox(SealedChamber_InnerRoom_Braille_OpenDoorEternalPokemonWaits)
+    releaseall
+}
+
+script SealedChamber_InnerRoom_EventScript_BrailleBackWall {
+    // Also calls: goto_if_set FLAG_REGI_DOORS_OPENED
+    lockall
+    msgbox(SealedChamber_InnerRoom_Braille_FirstWailordLastRelicanth)
+    releaseall
+}
+
+script SealedChamber_InnerRoom_EventScript_BrailleBackWall {
+    // Also calls: goto_if_set FLAG_REGI_DOORS_OPENED
+    lockall
+    msgbox(SealedChamber_InnerRoom_Braille_FirstWailordLastRelicanth)
+    releaseall
+}
+

@@ -1,1 +1,175 @@
-mapscripts SealedChamber_OuterRoom_MapScripts {}
+script SealedChamber_OuterRoom_EventScript_BrailleABC {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_ABC)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleGHI {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_GHI)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleMNO {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_MNO)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleTUV {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_TUV)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleDEF {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_DEF)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleJKL {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_JKL)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BraillePQRS {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_PQRS)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleWXYZ {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_WXYZ)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BraillePeriod {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_Period)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleComma {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_Comma)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_InnerRoomEntranceWall {
+    // Also calls: goto_if_set FLAG_SYS_BRAILLE_DIG
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_DigHere)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleABC {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_ABC)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleABC {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_ABC)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleGHI {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_GHI)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleGHI {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_GHI)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleMNO {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_MNO)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleMNO {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_MNO)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleTUV {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_TUV)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleTUV {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_TUV)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleDEF {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_DEF)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleDEF {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_DEF)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleJKL {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_JKL)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleJKL {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_JKL)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BraillePQRS {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_PQRS)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BraillePQRS {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_PQRS)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleWXYZ {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_WXYZ)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleWXYZ {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_WXYZ)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleDigHere {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_DigHere)
+    releaseall
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleDigHere {
+    lockall
+    msgbox(SealedChamber_OuterRoom_Braille_DigHere)
+    releaseall
+}
+

@@ -1,1 +1,4 @@
-mapscripts UndergroundPath_EastEntrance_MapScripts {}
+text UndergroundPath_EastEntrance_Text_DoYouGoToCeladonDeptStore {
+    format("The DEPARTMENT STORE in CELADON has a great selection.\p Do you go there very often?")
+}
+

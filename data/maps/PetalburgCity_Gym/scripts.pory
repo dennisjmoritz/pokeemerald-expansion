@@ -1,1 +1,76 @@
-mapscripts PetalburgCity_Gym_MapScripts {}
+text PetalburgCity_Gym_EventScript_GymStatue {
+    format("DAD: Hm?\p Well, if it isn't {PLAYER}! So you're all finished moving in?\p I'm surprised that you managed to get here by yourself.\p Oh, I see. You're with your POKéMON.\p Hm… Then I guess you're going to become a TRAINER like me, {PLAYER}.\p That's great news! I'll be looking forward to it!$ Um… I… I'd like to get a POKéMON, please…$ DAD: Hm? You're… Uh… Oh, right. You're WALLY, right?$ WALLY: I'm going to go stay with my relatives in VERDANTURF TOWN.\p I thought I would be lonely by myself, so I wanted to take a POKéMON along.\p But I've never caught a POKéMON before. I don't know how…$ DAD: Hm. I see.$ DAD: {PLAYER}, you heard that, right?\p Go with WALLY and make sure that he safely catches a POKéMON.$ WALLY, here, I'll loan you my POKéMON.\p WALLY received a ZIGZAGOON!$ WALLY: Oh, wow! A POKéMON!\p DAD: Hm. I'll give you a POKé BALL, too. Go for it!\p WALLY received a POKé BALL!$ WALLY: Oh, wow! Thank you!$ {PLAYER}… Would you really come with me?$ DAD: So, did it work out?$ WALLY: Thank you, yes, it did. Here's your POKéMON back.\p {PLAYER}, thank you for coming along with me.\p You two are why I was able to catch my POKéMON.\p I promise I'll take really good care of it.\p Oh! My mom's waiting for me, so I have to go!\p Bye, {PLAYER}!$ DAD: Now…\p {PLAYER}, if you want to become a strong TRAINER, here's my advice.\p Head for RUSTBORO CITY beyond this town.\p There, you should challenge the GYM LEADER, ROXANNE.\p After her, go on to other POKéMON GYMS and defeat their LEADERS.\p Collect BADGES from them, understood?\p Of course, I'm a GYM LEADER, too. We'll battle one day, {PLAYER}.\p But that's only after you become stronger.$ DAD: Hm? Aren't you going to the POKéMON GYM in RUSTBORO CITY?\p There's no challenge for me to battle a greenhorn TRAINER.\p {PLAYER}, I want you to challenge me when you become a lot stronger.\p I'll battle you, {PLAYER}, when you can show me four GYM BADGES, okay?$ DAD: I see… So, you've beaten the GYM LEADER in RUSTBORO CITY.\p But there are many more TRAINERS who are stronger than you, {PLAYER}.\p Across the sea in DEWFORD TOWN is a GYM LEADER named BRAWLY.\p You should go challenge him.$ DAD: Hm… {PLAYER}, you have gotten stronger.\p I can tell by the number of BADGES that you've earned.$ DAD: Hm… So, you did get four GYM BADGES.\p Fine, as I promised, we will have a POKéMON battle.\p {PLAYER}…\p I'm so happy that I can have a real battle with my own child.\p But, a battle is a battle!\p I will do everything in my power as a GYM LEADER to win.\p {PLAYER}, you'd better give it your best shot, too!$ …\p I… I can't…\p I can't believe it. {PLAYER}…\p I lost to {PLAYER}?\p But, rules are rules! Here, take this.$ {PLAYER} received the BALANCE BADGE from DAD!$ DAD: With that BADGE, the DEFENSE of all your POKéMON will increase.\p POKéMON that know the HM move SURF will be able to travel over water.\p This is my gift to you. {PLAYER}, I'm sure you can use it correctly.$ DAD: TM42 contains FACADE.\p It doubles the power of moves if the POKéMON is poisoned, paralyzed,\l or burned.\p It might be able to turn a bad situation into an advantage.$ DAD: As the GYM LEADER, I can't express how upset I am…\p But as a father, it makes me both happy and a little sad. It's odd…$ Ah, there you are, {PLAYER}{KUN}!\p Please come with me. I have something I want you to have.$ NORMAN, you don't mind, do you?\p Let me borrow your {PLAYER}{KUN} for a minute or two.$ DAD: {PLAYER}, you should go visit your mother every so often.\p I'm going to stay here and redouble my training.\p It would bother me as a TRAINER to not avenge my loss to you, {PLAYER}!$ DAD: {PLAYER}, how are things going?\p The world of POKéMON is deep.\p I honestly think that no amount of training would ever be enough.$ Hey, how's it going, CHAMPION- bound {PLAYER}?\p The doors in this GYM open when you beat the awaiting TRAINERS.\p Whoops! The doors in this room are already open, so don't attack me!\p The TRAINERS of PETALBURG GYM use all kinds of items.\p The door at the left leads to the SPEED ROOM.\p The door at the right leads to the ACCURACY ROOM.\p The room's name will be on the door, so choose carefully.\p Once you've chosen the door… Well, hey, go for it!$ {PLAYER}! Whoa! You've overcome even your own father!\p Like, whoa! What a stunning turn of events!$ The ability to attack before the opponent…\p Just that alone puts me at a great advantage, don't you agree?$ That was a magnificent battle!$ Go on to the next room where a new challenge awaits you.\p At the left is the CONFUSION ROOM.\p The right door leads to the DEFENSE ROOM.$ Whomever you beat, and whomever you may lose to, you never shirk from\l training yourself and your POKéMON.\p That's what I think being a GYM LEADER is all about.$ This is the CONFUSION ROOM.\p Let me see how well bonded you are with your POKéMON!$ I couldn't confuse your team enough… You share a strong bond together.$ The next room is the STRENGTH ROOM. Can you withstand brute force?$ After you beat our LEADER, the training has become a lot tougher.$ Just when you think you're going to win, your opponent restores HP…\p Can you just imagine how awful that must feel?\p I'll show you exactly how awful it feels!$ I couldn't restore HP enough… What ATTACK power…$ I should have expected no less from our LEADER's kid.\p No, wait! A TRAINER's abilities are earned only through effort.\p I lost because my own efforts weren't enough.\p Go on! The ONE-HIT KO ROOM is next.$ I'm going to keep training at GYMS. One day, I'll become a LEADER.$ I'm not going to take it easy just because you're our LEADER's kid.\p I'll show you how horrid it is for a POKéMON to take a critical hit!$ Your power… You're the real deal.$ Your father really is strong. He's a TRAINER worth my respect.\p And, I sense the same glow coming from you as your father.\p I hope that you'll stage a terrific battle with your father!$ Since your dad became the LEADER, the TRAINERS of PETALBURG CITY have\l become a lot tougher.$ Giggle… This is the ACCURACY ROOM.\p It's pretty nasty when every attack lands without fail.$ You were a cut above me…$ There are some even stronger TRAINERS waiting for you.\p The left is the DEFENSE ROOM, and the right is the RECOVERY ROOM.\p Your POKéMON's ATTACK power will be on trial either way.$ Do you know what we're trying to achieve as TRAINERS?\p We're striving to become soul mates with our POKéMON.$ The higher the DEFENSE, the more reckless I can be in attack.$ Our defenses weren't enough…$ I think you've taught me a valuable lesson here.\p Now, go on! The left door goes to the STRENGTH ROOM.\p The right door opens to the ONE-HIT KO ROOM.\p Both of them have TRAINERS who are skilled at offense.$ Hi! Have you tried using SURF?$ Our GYM LEADER told us to go all out and beat you.\p Even if you happen to be the LEADER's kid!$ But… I went all out!$ The way you use your POKéMON… It's like your father's style.\p Go on through! The GYM LEADER, your father, is waiting!$ Sure, it's fine to make your POKéMON stronger.\p But what decides the winner?\p Why, it's the feelings TRAINERS have for their POKéMON.$ This door appears to be locked right now…$ “SPEED ROOM,” the sign says.\p Do you want to go through?$ This door appears to be locked right now…$ “ACCURACY ROOM,” the sign says.\p Do you want to go through?$ “CONFUSION ROOM,” the sign says.\p Do you want to go through?$ “DEFENSE ROOM,” the sign says.\p Do you want to go through?$ “RECOVERY ROOM,” the sign says.\p Do you want to go through?$ “STRENGTH ROOM,” the sign says.\p Do you want to go through?$ “ONE-HIT KO ROOM,” the sign says.\p Do you want to go through?$ “GYM LEADER'S ROOM\p “See for yourself what POKéMON await you!” the sign says.\p Do you want to go through?$ PETALBURG CITY POKéMON GYM$ PETALBURG CITY POKéMON GYM\p NORMAN'S CERTIFIED TRAINERS: {PLAYER}$ DAD: {PLAYER}… I had a feeling that you would come.\p I would never refuse to accept a challenge from you.\p You do understand, don't you?\p Inside a GYM, it doesn't matter that we are a parent and child.\p …No, because we are parent and child, we owe it to each other to do the best\l we can. Isn't that right, {PLAYER}?$ Uh… Haha… Maybe that was going too hard…$ DAD: {PLAYER}… What is your dream?\p My dream… Hahaha…\l It has already come true, actually.$ DAD: {PLAYER}… I had a feeling that you would come.\p I would never refuse to accept a challenge from you.\p You do understand, don't you?\p Inside a GYM, it doesn't matter that we are a parent and child.\p Hm? Wait a second, {PLAYER}.\p Do you only have one POKéMON that is capable of battle?\p Sorry, but you'll have to come back with at least two POKéMON.")
+}
+
+script PetalburgCity_Gym_EventScript_SpeedRoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterSpeedRoom)
+    releaseall
+}
+
+script PetalburgCity_Gym_EventScript_AccuracyRoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterAccuracyRoom)
+    releaseall
+}
+
+script PetalburgCity_Gym_EventScript_ConfusionRoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterConfusionRoom)
+    releaseall
+}
+
+script PetalburgCity_Gym_EventScript_LeftDefenseRoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterDefenseRoom)
+    releaseall
+}
+
+script PetalburgCity_Gym_EventScript_RightDefenseRoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterDefenseRoom)
+    releaseall
+}
+
+script PetalburgCity_Gym_EventScript_RecoveryRoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterRecoveryRoom)
+    releaseall
+}
+
+script PetalburgCity_Gym_EventScript_LeftStrengthRoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterStrengthRoom)
+    releaseall
+}
+
+script PetalburgCity_Gym_EventScript_RightStrengthRoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterStrengthRoom)
+    releaseall
+}
+
+script PetalburgCity_Gym_EventScript_LeftOHKORoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterOHKORoom)
+    releaseall
+}
+
+script PetalburgCity_Gym_EventScript_RightOHKORoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterOHKORoom)
+    releaseall
+}
+
+script PetalburgCity_Gym_EventScript_LeftGymLeadersRoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterGymLeadersRoom)
+    releaseall
+}
+
+script PetalburgCity_Gym_EventScript_RightGymLeadersRoomDoor {
+    lockall
+    msgbox(PetalburgCity_Gym_Text_EnterGymLeadersRoom)
+    releaseall
+}
+

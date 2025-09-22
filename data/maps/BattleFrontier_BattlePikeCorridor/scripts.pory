@@ -1,1 +1,4 @@
-mapscripts BattleFrontier_BattlePikeCorridor_MapScripts {}
+text BattleFrontier_BattlePikeCorridor_EventScript_TurnPlayerNorth {
+    format("Your Battle Choice challenge has now begun…")
+}
+

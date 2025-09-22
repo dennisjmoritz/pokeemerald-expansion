@@ -1,1 +1,110 @@
-mapscripts Route3_MapScripts {}
+text Route3_Text_TunnelFromCeruleanTiring {
+    format("Whew… I better take a rest… Groan…\p That tunnel from CERULEAN takes a lot out of you!")
+}
+
+text Route3_Text_ColtonIntro {
+    format("Hey! I saw you in VIRIDIAN FOREST!")
+}
+
+text Route3_Text_ColtonDefeat {
+    format("You beat me again!")
+}
+
+text Route3_Text_ColtonPostBattle {
+    format("There are other kinds of POKéMON than the ones you find in forests.")
+}
+
+text Route3_Text_BenIntro {
+    format("Hi! I like shorts!\p They're delightfully comfy and easy to wear!")
+}
+
+text Route3_Text_BenDefeat {
+    format("I don't believe it!")
+}
+
+text Route3_Text_BenPostBattle {
+    format("Are you using a POKéMON CENTER's PC for storing your POKéMON?\p Each BOX can hold up to 30 POKéMON.")
+}
+
+text Route3_Text_JaniceIntro {
+    format("Excuse me! You looked at me, didn't you?")
+}
+
+text Route3_Text_JaniceDefeat {
+    format("You're mean!")
+}
+
+text Route3_Text_JanicePostBattle {
+    format("You shouldn't be staring if you don't want to battle!")
+}
+
+text Route3_Text_GregIntro {
+    format("Are you a TRAINER? Let's get with it right away!")
+}
+
+text Route3_Text_GregDefeat {
+    format("If I had new POKéMON, I would've won!")
+}
+
+text Route3_Text_GregPostBattle {
+    format("If a POKéMON BOX on the PC gets full, just switch to another BOX.")
+}
+
+text Route3_Text_SallyIntro {
+    format("That look you gave me… It's so intriguing!")
+}
+
+text Route3_Text_SallyDefeat {
+    format("Be nice!")
+}
+
+text Route3_Text_SallyPostBattle {
+    format("You can avoid battles by not letting TRAINERS see you.")
+}
+
+text Route3_Text_CalvinIntro {
+    format("Hey! You're not wearing shorts! What's wrong with you?")
+}
+
+text Route3_Text_CalvinDefeat {
+    format("Lost! Lost! Lost!")
+}
+
+text Route3_Text_CalvinPostBattle {
+    format("I always wear shorts, even in winter. That's my policy.")
+}
+
+text Route3_Text_JamesIntro {
+    format("I'll battle you with the POKéMON I just caught.")
+}
+
+text Route3_Text_JamesDefeat {
+    format("Done like dinner!")
+}
+
+text Route3_Text_JamesPostBattle {
+    format("Trained POKéMON are stronger than the wild ones.")
+}
+
+text Route3_Text_RobinIntro {
+    format("Eek! Did you touch me?")
+}
+
+text Route3_Text_RobinDefeat {
+    format("That's it?")
+}
+
+text Route3_Text_RobinPostBattle {
+    format("ROUTE 4 is at the foot of MT. MOON.")
+}
+
+text Route3_Text_RouteSign {
+    format("ROUTE 3 MT. MOON AHEAD")
+}
+
+script Route3_EventScript_RouteSign {
+    lockall
+    msgbox(Route3_Text_RouteSign)
+    releaseall
+}
+

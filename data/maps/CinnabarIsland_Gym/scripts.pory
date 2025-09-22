@@ -1,1 +1,178 @@
-mapscripts CinnabarIsland_Gym_MapScripts {}
+text CinnabarIsland_Gym_Text_BlaineIntro {
+    format("Hah!\p I am BLAINE, the red-hot LEADER of CINNABAR GYM!\p My fiery POKéMON are all rough and ready with intense heat!\p They incinerate all challengers!\p Hah! You better have BURN HEAL!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}")
+}
+
+text CinnabarIsland_Gym_Text_BlaineDefeat {
+    format("I have burned down to nothing! Not even ashes remain!\p You have earned the VOLCANOBADGE.")
+}
+
+text CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove {
+    format("FIRE BLAST is the ultimate fire technique.\p Don't waste it on WATER POKéMON.")
+}
+
+text CinnabarIsland_Gym_Text_ExplainVolcanoBadge {
+    format("Hah!\p The VOLCANOBADGE heightens the SPECIAL stats of your POKéMON.\p Here, you can have this, too!")
+}
+
+text CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine {
+    format("{PLAYER} received TM38 from BLAINE.")
+}
+
+text CinnabarIsland_Gym_Text_BlainePostBattle {
+    format("TM38 contains FIRE BLAST. Teach it to FIRE-type POKéMON.\p VULPIX or CHARMELEON would be ideal for that move.")
+}
+
+text CinnabarIsland_Gym_Text_MakeSpaceForThis {
+    format("Make space for this, child!")
+}
+
+text CinnabarIsland_Gym_Text_ErikIntro {
+    format("Do you know how hot POKéMON fire breath can get?")
+}
+
+text CinnabarIsland_Gym_Text_ErikDefeat {
+    format("Yow! Hot, hot, hot!")
+}
+
+text CinnabarIsland_Gym_Text_ErikPostBattle {
+    format("Fire, or to be more precise, combustion…\p …Oxygen in the air… Blah, blah, blah, blah…")
+}
+
+text CinnabarIsland_Gym_Text_QuinnIntro {
+    format("I was a thief, but I went straight as a TRAINER.")
+}
+
+text CinnabarIsland_Gym_Text_QuinnDefeat {
+    format("I surrender!")
+}
+
+text CinnabarIsland_Gym_Text_QuinnPostBattle {
+    format("I get this uncontrollable urge to steal other people's POKéMON.")
+}
+
+text CinnabarIsland_Gym_Text_AveryIntro {
+    format("I've studied POKéMON thoroughly. You can't win!")
+}
+
+text CinnabarIsland_Gym_Text_AveryDefeat {
+    format("Waah! My studies were insufficient!")
+}
+
+text CinnabarIsland_Gym_Text_AveryPostBattle {
+    format("My theories are too complicated for you to understand.")
+}
+
+text CinnabarIsland_Gym_Text_RamonIntro {
+    format("I like using FIRE-type POKéMON. I just do.")
+}
+
+text CinnabarIsland_Gym_Text_RamonDefeat {
+    format("Too hot to handle!")
+}
+
+text CinnabarIsland_Gym_Text_RamonPostBattle {
+    format("I wish there were a thief POKéMON. I'd use that!")
+}
+
+text CinnabarIsland_Gym_Text_DerekIntro {
+    format("I know why BLAINE became a TRAINER.")
+}
+
+text CinnabarIsland_Gym_Text_DerekDefeat {
+    format("Ow!")
+}
+
+text CinnabarIsland_Gym_Text_DerekPostBattle {
+    format("Our LEADER, BLAINE, became lost in the mountains but good.\p Night fell when a fiery bird POKéMON appeared.\p Its light allowed BLAINE to find his way down safely.")
+}
+
+text CinnabarIsland_Gym_Text_DustyIntro {
+    format("I've been to many GYMS, but this one best suits my style.")
+}
+
+text CinnabarIsland_Gym_Text_DustyDefeat {
+    format("Yowza! Too hot!")
+}
+
+text CinnabarIsland_Gym_Text_DustyPostBattle {
+    format("PONYTA, NINETALES… Those are popular FIRE POKéMON.")
+}
+
+text CinnabarIsland_Gym_Text_ZacIntro {
+    format("Fire is weak against H2O.")
+}
+
+text CinnabarIsland_Gym_Text_ZacDefeat {
+    format("Oh! Snuffed out!")
+}
+
+text CinnabarIsland_Gym_Text_ZacPostBattle {
+    format("Water beats fire, of course.\p But fire melts ice, so the FIRE type beats ICE-type POKéMON.")
+}
+
+text CinnabarIsland_Gym_Text_GymGuyAdvice {
+    format("Yo! Champ in the making!\p The hotheaded BLAINE is a FIRE POKéMON pro.\p Douse his spirits with water!\p You'd better take some BURN HEALS, too.")
+}
+
+text CinnabarIsland_Gym_Text_GymGuyPostVictory {
+    format("{PLAYER}! You beat that firebrand!")
+}
+
+text CinnabarIsland_Gym_Text_GymStatue {
+    format("CINNABAR POKéMON GYM LEADER: BLAINE\p WINNING TRAINERS: {RIVAL}")
+}
+
+text CinnabarIsland_Gym_Text_GymStatuePlayerWon {
+    format("CINNABAR POKéMON GYM LEADER: BLAINE\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+}
+
+text CinnabarIsland_Gym_Text_PokemonQuizRules {
+    format("POKéMON Quiz!\p Get it right, and the door opens to the next room.\p Get it wrong, and face a TRAINER!\p If you want to conserve your POKéMON for the GYM LEADER…\p Then get it right! Here we go!")
+}
+
+text CinnabarIsland_Gym_Text_QuizQuestion1 {
+    format("CATERPIE evolves into METAPOD?")
+}
+
+text CinnabarIsland_Gym_Text_QuizQuestion2 {
+    format("There are nine certified POKéMON LEAGUE BADGES?")
+}
+
+text CinnabarIsland_Gym_Text_QuizQuestion3 {
+    format("POLIWAG evolves three times?")
+}
+
+text CinnabarIsland_Gym_Text_QuizQuestion4 {
+    format("Are electric moves effective against GROUND-type POKéMON?")
+}
+
+text CinnabarIsland_Gym_Text_QuizQuestion5 {
+    format("POKéMON of the same kind and level are not identical?")
+}
+
+text CinnabarIsland_Gym_Text_QuizQuestion6 {
+    format("TM28 contains TOMBSTONY?")
+}
+
+text CinnabarIsland_Gym_Text_CorrectGoOnThrough {
+    format("You're absolutely correct!\p Go on through!")
+}
+
+text CinnabarIsland_Gym_Text_SorryBadCall {
+    format("Sorry! Bad call!")
+}
+
+script CinnabarIsland_Gym_EventScript_GymStatue {
+    // Also calls: goto_if_set FLAG_BADGE07_GET
+    lockall
+    msgbox(CinnabarIsland_Gym_Text_GymStatue)
+    releaseall
+}
+
+script CinnabarIsland_Gym_EventScript_GymStatue {
+    // Also calls: goto_if_set FLAG_BADGE07_GET
+    lockall
+    msgbox(CinnabarIsland_Gym_Text_GymStatue)
+    releaseall
+}
+

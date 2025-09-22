@@ -1,1 +1,74 @@
-mapscripts LavenderTown_VolunteerPokemonHouse_MapScripts {}
+text LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere {
+    format("I recently moved to this town.\p I hear that MR. FUJI's not from these parts originally, either.")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo {
+    format("That's odd, MR. FUJI isn't here. Where'd he go?")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother {
+    format("MR. FUJI had been praying alone for CUBONE's mother.")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons {
+    format("This is really MR. FUJI's house.\p He's really kind.\p He looks after abandoned and orphaned POKéMON.")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug {
+    format("It's so warm! POKéMON are so nice to hug.")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_Nidorino {
+    format("NIDORINO: Gaoo!")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_Psyduck {
+    format("PSYDUCK: Gwappa!")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis {
+    format("MR. FUJI: {PLAYER}…\p Your POKéDEX quest is one that requires strong dedication.\p Without deep love for POKéMON, your quest may fail.\p I'm not sure if this will help you, but I'd like you to have it.")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji {
+    format("{PLAYER} received a POKé FLUTE from MR. FUJI.")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute {
+    format("Upon hearing the POKé FLUTE, sleeping POKéMON will spring awake.\p Try using it on POKéMON that are sleeping obstacles.")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis {
+    format("You must make room for this!")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou {
+    format("MR. FUJI: Has my POKé FLUTE helped you?")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped {
+    format("POKéMON FAN MAGAZINE Monthly Grand Prize Drawing!\p The application form is…\p Gone! It's been clipped out. Someone must have applied already.")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf {
+    format("POKéMON magazines line the shelf.\p POKéMON INSIDER…\p POKéMON FAN…")
+}
+
+script LavenderTown_VolunteerPokemonHouse_EventScript_PokemonFanMagazine {
+    lockall
+    msgbox(LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped)
+    releaseall
+}
+
+script LavenderTown_VolunteerPokemonHouse_EventScript_Bookshelf {
+    lockall
+    msgbox(LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf)
+    releaseall
+}
+
+script LavenderTown_VolunteerPokemonHouse_EventScript_Bookshelf {
+    lockall
+    msgbox(LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf)
+    releaseall
+}
+

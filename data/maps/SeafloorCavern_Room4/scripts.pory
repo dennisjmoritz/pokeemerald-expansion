@@ -1,1 +1,4 @@
-mapscripts SeafloorCavern_Room4_MapScripts {}
+text SeafloorCavern_Room4_EventScript_Grunt4 {
+    format("Who are you? Where did you come in from?$ Lost it…$ I can't find the way out!\p I'm not afraid. Don't get me wrong!$ Who are you? Where do you think you're going?$ I failed to win!$ My partner forgot the map in that submarine!\p How's that for being useless?")
+}
+
