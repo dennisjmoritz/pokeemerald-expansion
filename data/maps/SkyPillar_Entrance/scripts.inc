@@ -1,0 +1,5 @@
+SkyPillar_Entrance_MapScripts::
+# 2 "data/maps/SkyPillar_Entrance/scripts.pory"
+	map_script MAP_SCRIPT_ON_TRANSITION, SkyPillar_Entrance_OnTransition
+	.byte 0
+

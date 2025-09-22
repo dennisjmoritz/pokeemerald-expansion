@@ -7,7 +7,7 @@ text PewterCity_Gym_Text_BrockIntro {
 }
 
 text PewterCity_Gym_Text_BrockDefeat {
-    format("I took you for granted, and so I lost.\p As proof of your victory, I confer on you thisthe official POKMON\l LEAGUE BOULDERBADGE.\p {FONT_NORMAL}{PLAYER} received the BOULDERBADGE from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p {FONT_MALE}Just having the BOULDERBADGE makes your POKMON more powerful.\p It also enables the use of the move FLASH outside of battle.\p Of course, a POKMON must know the move FLASH to use it.")
+    format("I took you for granted, and so I lost.\p As proof of your victory, I confer on you thisthe official POKMON\l LEAGUE BOULDERBADGE.\p {FONT_NORMAL}{PLAYER} received the BOULDERBADGE from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p {FONT_NORMAL}Just having the BOULDERBADGE makes your POKMON more powerful.\p It also enables the use of the move FLASH outside of battle.\p Of course, a POKMON must know the move FLASH to use it.")
 }
 
 text PewterCity_Gym_Text_TakeThisWithYou {

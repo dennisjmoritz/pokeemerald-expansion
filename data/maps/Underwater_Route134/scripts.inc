@@ -1,0 +1,5 @@
+Underwater_Route134_MapScripts::
+# 2 "data/maps/Underwater_Route134/scripts.pory"
+	map_script MAP_SCRIPT_ON_RESUME, Underwater_Route134_OnResume
+	.byte 0
+

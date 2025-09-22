@@ -1,3 +1,0 @@
-data/maps/BattleFrontier_Lounge3/scripts.pory:2:     .set BET_AMOUNT_5,  5
-data/maps/MauvilleCity_GameCorner/scripts.pory:2:     .set TM_DOUBLE_TEAM_COINS, 1500
-data/maps/Route113_GlassWorkshop/scripts.pory:3:     .set BLUE_FLUTE_PRICE,   250

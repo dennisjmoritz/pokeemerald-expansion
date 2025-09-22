@@ -1,0 +1,26 @@
+LilycoveCity_PokemonCenter_1F_MapScripts::
+# 2 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_PokemonCenter_1F_OnTransition
+# 3 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+
+LilycoveCity_PokemonCenter_1F_Text_HowManyKindsOfPokemon::
+# 7 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+	.string "I wonder how many kinds of POKMON\n"
+	.string "there are in the world.\p"
+	.string "It'd be great to cross seas and trade\n"
+	.string "POKMON with people far away.$"
+
+LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels::
+# 11 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+	.string "I've been hearing about some rotten\n"
+	.string "scoundrels who steal POKMON and rip\l"
+	.string "off METEORITES.$"
+
+LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels::
+# 15 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+	.string "Those rotten scoundrels who steal\n"
+	.string "POKMON and rip off METEORITES\p"
+	.string "I haven't seen them around recently.$"

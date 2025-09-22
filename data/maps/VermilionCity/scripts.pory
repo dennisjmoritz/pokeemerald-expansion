@@ -61,11 +61,11 @@ text VermilionCity_Text_DoYouHaveATicket {
 }
 
 text VermilionCity_Text_FlashedSSTicket {
-    format("{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\p {FONT_MALE}Great! Welcome to the S.S. ANNE!")
+    format("{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\p {FONT_NORMAL}Great! Welcome to the S.S. ANNE!")
 }
 
 text VermilionCity_Text_DontHaveNeededSSTicket {
-    format("{FONT_NORMAL}{PLAYER} doesn't have the needed S.S. TICKET.\p {FONT_MALE}Sorry!\p You need a ticket to get aboard.")
+    format("{FONT_NORMAL}{PLAYER} doesn't have the needed S.S. TICKET.\p {FONT_NORMAL}Sorry!\p You need a ticket to get aboard.")
 }
 
 text VermilionCity_Text_TheShipSetSail {

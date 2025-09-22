@@ -1,0 +1,53 @@
+Route111_WinstrateFamilysHouse_MapScripts::
+	.byte 0
+
+
+Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou::
+# 5 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+	.string "You're the first TRAINER I've seen who\n"
+	.string "deploys POKMON so masterfully.\p"
+	.string "But, I should tell you--my son is\n"
+	.string "stronger than you.\p"
+	.string "He even took the POKMON LEAGUE\n"
+	.string "challenge, I'll have you know.$"
+
+Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace::
+# 9 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+	.string "We use this MACHO BRACE to more\n"
+	.string "effectively strengthen our POKMON\l"
+	.string "in training.\p"
+	.string "Since you've beaten all of us here, I\n"
+	.string "don't know if you need it, but we\l"
+	.string "would like you to have our MACHO BRACE.$"
+
+Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles::
+# 13 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+	.string "When it comes to POKMON battles, we\n"
+	.string "tend to be pretty passionate.$"
+
+Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers::
+# 17 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+	.string "Mommy is stronger than Daddy.\p"
+	.string "I'm stronger than Mommy.\p"
+	.string "And Grandma's stronger than me!\p"
+	.string "But my big brother is even stronger\n"
+	.string "than Grandma.$"
+
+Route111_WinstrateFamilysHouse_Text_GrandsonStrong::
+# 21 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+	.string "There's no question that you're strong.\p"
+	.string "But if you were to battle my grandson,\n"
+	.string "you'd end up crying in frustration.\p"
+	.string "He's much stronger than any TRAINER\n"
+	.string "our family knows.\p"
+	.string "He must be challenging the POKMON\n"
+	.string "LEAGUE CHAMPION by now.\p"
+	.string "Knowing my grandson, he could be the\n"
+	.string "CHAMPION already!$"
+
+Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort::
+# 25 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+	.string "My grandson must be challenging the\n"
+	.string "POKMON LEAGUE CHAMPION by now.\p"
+	.string "Knowing my grandson, he could be the\n"
+	.string "CHAMPION already!$"
