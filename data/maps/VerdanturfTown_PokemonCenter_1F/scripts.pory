@@ -5,10 +5,10 @@ mapscripts VerdanturfTown_PokemonCenter_1F_MapScripts {
 
 
 text VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon {
-    format("You can't consider yourself a real TRAINER if you don't have faith\l in your POKéMON.\p Only those people who can believe in their battling POKéMON can win\l through to the very end.")
+    format("You can't consider yourself a real TRAINER if you don't have faith\l in your POKMON.\p Only those people who can believe in their battling POKMON can win\l through to the very end.")
 }
 
 text VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent {
-    format("The reason why anyone would visit VERDANTURF…\p It's the BATTLE TENT. It goes without saying.\p Or is there somebody here that you came to see?")
+    format("The reason why anyone would visit VERDANTURF\p It's the BATTLE TENT. It goes without saying.\p Or is there somebody here that you came to see?")
 }
 

@@ -27,7 +27,7 @@ text BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent {
 }
 
 text BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored {
-    format("Your POKéMON will be restored to full health.")
+    format("Your POKMON will be restored to full health.")
 }
 
 text BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent {
@@ -83,15 +83,15 @@ text BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta {
 }
 
 text BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger {
-    format("GRETA: Hey! Howdy!\p …Wait, are you the challenger?")
+    format("GRETA: Hey! Howdy!\p Wait, are you the challenger?")
 }
 
 text BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight {
-    format("Is that right? Hmm… Hmhm…")
+    format("Is that right? Hmm Hmhm")
 }
 
 text BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy {
-    format("I don't know how to say it, but… To put it bluntly, you look pretty weak.\l Are you sure you're up for me?\p Hmm…\p Well, all right! We'll take things easy to start with!")
+    format("I don't know how to say it, but To put it bluntly, you look pretty weak.\l Are you sure you're up for me?\p Hmm\p Well, all right! We'll take things easy to start with!")
 }
 
 text BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle {
@@ -107,7 +107,7 @@ text BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol {
 }
 
 text BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime {
-    format("Hmm…\p It's going to be fun the next time! I'm looking forward to it!")
+    format("Hmm\p It's going to be fun the next time! I'm looking forward to it!")
 }
 
 text BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain {
@@ -115,7 +115,7 @@ text BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain 
 }
 
 text BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady {
-    format("… … … So, are you ready?")
+    format("   So, are you ready?")
 }
 
 text BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort {

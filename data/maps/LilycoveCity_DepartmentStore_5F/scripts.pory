@@ -8,11 +8,11 @@ text LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls {
 }
 
 text LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon {
-    format("I'm not big enough to raise POKéMON, so I'm getting a cute DOLL instead.")
+    format("I'm not big enough to raise POKMON, so I'm getting a cute DOLL instead.")
 }
 
 text LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere {
-    format("They sell many cute MATS here.\p I wonder which one I should get? Maybe I'll buy them all…")
+    format("They sell many cute MATS here.\p I wonder which one I should get? Maybe I'll buy them all")
 }
 
 text LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather {

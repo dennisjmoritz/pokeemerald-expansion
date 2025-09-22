@@ -35,18 +35,18 @@ text FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden {
 }
 
 text FuchsiaCity_WardensHouse_Text_ExplainStrength {
-    format("WARDEN: Inside HM04 you'll find STRENGTH.\p It lets POKéMON move boulders when you're outside of battle.\p Oh yes, did you find the SECRET HOUSE in the SAFARI ZONE?")
+    format("WARDEN: Inside HM04 you'll find STRENGTH.\p It lets POKMON move boulders when you're outside of battle.\p Oh yes, did you find the SECRET HOUSE in the SAFARI ZONE?")
 }
 
 text FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff {
-    format("なんや　にもつ いっぱいやんけ！")
+    format(" ")
 }
 
 text FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay {
-    format("POKéMON photos and fossils are on display.")
+    format("POKMON photos and fossils are on display.")
 }
 
 text FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay {
-    format("Old POKéMON merchandise is on display.")
+    format("Old POKMON merchandise is on display.")
 }
 

@@ -13,11 +13,11 @@ text FourIsland_Text_LoreleiHasReturned {
 }
 
 text FourIsland_Text_LoreleiMetLaprasAsChild {
-    format("LORELEI has gone back.\p The LAPRAS she has, I imagine it to be the one she met as a child.\p I believe it was in ICEFALL CAVE that she caught it.\p Perhaps that POKéMON has been with her ever since.")
+    format("LORELEI has gone back.\p The LAPRAS she has, I imagine it to be the one she met as a child.\p I believe it was in ICEFALL CAVE that she caught it.\p Perhaps that POKMON has been with her ever since.")
 }
 
 text FourIsland_Text_RivalAlreadyGotEggBeSmellingYa {
-    format("{RIVAL}: Hey! {PLAYER}!\p What are you doing here in the SEVII ISLANDS?\p You should quit copying me, you know?\p Anyways, I already got my POKéMON EGG, so I'm done with this island.\p Heh, I bet you don't even know about POKéMON EGGS.\p You'll never fill your NATIONAL POKéDEX that way.\p By the way, I saw someone we both know on this island.\p Why don't you go look around if it makes you curious?\p Me, I don't have the time to waste.\p Be smelling ya!")
+    format("{RIVAL}: Hey! {PLAYER}!\p What are you doing here in the SEVII ISLANDS?\p You should quit copying me, you know?\p Anyways, I already got my POKMON EGG, so I'm done with this island.\p Heh, I bet you don't even know about POKMON EGGS.\p You'll never fill your NATIONAL POKDEX that way.\p By the way, I saw someone we both know on this island.\p Why don't you go look around if it makes you curious?\p Me, I don't have the time to waste.\p Be smelling ya!")
 }
 
 text FourIsland_Text_LoreleiHasLotsOfStuffedDolls {

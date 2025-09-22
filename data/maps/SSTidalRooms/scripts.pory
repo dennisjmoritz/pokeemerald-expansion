@@ -3,7 +3,7 @@ mapscripts SSTidalRooms_MapScripts {
 
 
 text SSTidalRooms_Text_TakeRestOnBed {
-    format("There's a bed… Let's take a rest.")
+    format("There's a bed Let's take a rest.")
 }
 
 text SSTidalRooms_Text_ColtonIntro {
@@ -15,7 +15,7 @@ text SSTidalRooms_Text_ColtonDefeat {
 }
 
 text SSTidalRooms_Text_ColtonPostBattle {
-    format("I get so excited imagining what kinds of POKéMON I'll get to see in the next\l CONTEST. The anticipation of it thrills!")
+    format("I get so excited imagining what kinds of POKMON I'll get to see in the next\l CONTEST. The anticipation of it thrills!")
 }
 
 text SSTidalRooms_Text_MicahIntro {
@@ -27,11 +27,11 @@ text SSTidalRooms_Text_MicahDefeat {
 }
 
 text SSTidalRooms_Text_MicahPostBattle {
-    format("Friends need not be human. For me, POKéMON are treasured friends!")
+    format("Friends need not be human. For me, POKMON are treasured friends!")
 }
 
 text SSTidalRooms_Text_ThomasIntro {
-    format("Child… Did you knock on the door?")
+    format("Child Did you knock on the door?")
 }
 
 text SSTidalRooms_Text_ThomasDefeat {
@@ -43,11 +43,11 @@ text SSTidalRooms_Text_ThomasPostBattle {
 }
 
 text SSTidalRooms_Text_JedIntro {
-    format("JED: I feel a little shy about this, but… We'll show you our lovey-dovey power!")
+    format("JED: I feel a little shy about this, but We'll show you our lovey-dovey power!")
 }
 
 text SSTidalRooms_Text_JedDefeat {
-    format("JED: Sigh…")
+    format("JED: Sigh")
 }
 
 text SSTidalRooms_Text_JedPostBattle {
@@ -55,11 +55,11 @@ text SSTidalRooms_Text_JedPostBattle {
 }
 
 text SSTidalRooms_Text_JedNotEnoughMons {
-    format("JED: You only have one POKéMON? Isn't that just too lonesome?")
+    format("JED: You only have one POKMON? Isn't that just too lonesome?")
 }
 
 text SSTidalRooms_Text_LeaIntro {
-    format("LEA: I feel a little silly, but… We'll show you our lovey-dovey power!")
+    format("LEA: I feel a little silly, but We'll show you our lovey-dovey power!")
 }
 
 text SSTidalRooms_Text_LeaDefeat {
@@ -67,11 +67,11 @@ text SSTidalRooms_Text_LeaDefeat {
 }
 
 text SSTidalRooms_Text_LeaPostBattle {
-    format("LEA: I can't believe it! Our lovey-dovey power failed…\l You must be an awesome TRAINER!")
+    format("LEA: I can't believe it! Our lovey-dovey power failed\l You must be an awesome TRAINER!")
 }
 
 text SSTidalRooms_Text_LeaNotEnoughMons {
-    format("LEA: I wanted to battle… But you don't even have two POKéMON…")
+    format("LEA: I wanted to battle But you don't even have two POKMON")
 }
 
 text SSTidalRooms_Text_GarretIntro {
@@ -79,11 +79,11 @@ text SSTidalRooms_Text_GarretIntro {
 }
 
 text SSTidalRooms_Text_GarretDefeat {
-    format("…That will do.")
+    format("That will do.")
 }
 
 text SSTidalRooms_Text_GarretPostBattle {
-    format("Perhaps I shall get Father to acquire a yacht for me.\l A yacht for me and POKéMON!")
+    format("Perhaps I shall get Father to acquire a yacht for me.\l A yacht for me and POKMON!")
 }
 
 text SSTidalRooms_Text_NaomiIntro {
@@ -95,11 +95,11 @@ text SSTidalRooms_Text_NaomiDefeat {
 }
 
 text SSTidalRooms_Text_NaomiPostBattle {
-    format("A world cruise on a luxury liner has its charms, I must say…\p But, I will admit there is an appealing side to touring HOENN by ferry.")
+    format("A world cruise on a luxury liner has its charms, I must say\p But, I will admit there is an appealing side to touring HOENN by ferry.")
 }
 
 text SSTidalRooms_Text_NotSuspiciousTakeThis {
-    format("Uh… Hi! I… I'm not acting suspicious! Uh… You can have this! For free!\p It… Honestly, I didn't SNATCH it from someone! I'd never do such a thing!\l It's clean! You can use it!")
+    format("Uh Hi! I I'm not acting suspicious! Uh You can have this! For free!\p It Honestly, I didn't SNATCH it from someone! I'd never do such a thing!\l It's clean! You can use it!")
 }
 
 text SSTidalRooms_Text_ExplainSnatch {

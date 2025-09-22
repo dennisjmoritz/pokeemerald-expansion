@@ -5,7 +5,7 @@ mapscripts Route18_MapScripts {
 
 
 text Route18_Text_WiltonIntro {
-    format("I always check every grassy area for new POKéMON.")
+    format("I always check every grassy area for new POKMON.")
 }
 
 text Route18_Text_WiltonDefeat {
@@ -25,7 +25,7 @@ text Route18_Text_RamiroDefeat {
 }
 
 text Route18_Text_RamiroPostBattle {
-    format("I collect sea POKéMON on weekends because the sea is so close.")
+    format("I collect sea POKMON on weekends because the sea is so close.")
 }
 
 text Route18_Text_JacobIntro {
@@ -37,7 +37,7 @@ text Route18_Text_JacobDefeat {
 }
 
 text Route18_Text_JacobPostBattle {
-    format("This is my fave area for catching POKéMON.")
+    format("This is my fave area for catching POKMON.")
 }
 
 text Route18_Text_RouteSign {

@@ -15,7 +15,7 @@ text SSTidalLowerDeck_Text_PhillipPostBattle {
 }
 
 text SSTidalLowerDeck_Text_LeonardIntro {
-    format("This is the bottom of the ship's hull. There's plenty of room.\l It'll be alright for a POKéMON battle.")
+    format("This is the bottom of the ship's hull. There's plenty of room.\l It'll be alright for a POKMON battle.")
 }
 
 text SSTidalLowerDeck_Text_LeonardDefeat {

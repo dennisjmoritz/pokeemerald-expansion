@@ -6,27 +6,27 @@ mapscripts Route116_MapScripts {
 
 
 text Route116_Text_ScoundrelMadeOffWithPeeko {
-    format("Ohhh, what am I to do?\p We were on our walk, PEEKO and I, when we were jumped by an odd thug…\p The scoundrel made off with my darling PEEKO!\p Wrrrooooooaaaar! PEEKO!")
+    format("Ohhh, what am I to do?\p We were on our walk, PEEKO and I, when we were jumped by an odd thug\p The scoundrel made off with my darling PEEKO!\p Wrrrooooooaaaar! PEEKO!")
 }
 
 text Route116_Text_WantToDigTunnel {
-    format("Nnn… Roar!\p I want to dig that tunnel!")
+    format("Nnn Roar!\p I want to dig that tunnel!")
 }
 
 text Route116_Text_DiggingTunnelWhenGoonOrderedMeOut {
-    format("Nnn… Roar! What's going on?\p I was digging the tunnel without any tools when some goon ordered me out!\p That tunnel's filled with POKéMON that react badly to loud noises.\l They could cause an uproar.\p That's why we stopped using heavy equipment for tunneling…\p I'm worried that the goon will do something stupid and startle the\l POKéMON into an uproar.")
+    format("Nnn Roar! What's going on?\p I was digging the tunnel without any tools when some goon ordered me out!\p That tunnel's filled with POKMON that react badly to loud noises.\l They could cause an uproar.\p That's why we stopped using heavy equipment for tunneling\p I'm worried that the goon will do something stupid and startle the\l POKMON into an uproar.")
 }
 
 text Route116_Text_GoonHightailedItOutOfTunnel {
-    format("Nnn… Roar!\p That goofy goon hightailed it out of the tunnel! I can go back to digging!")
+    format("Nnn Roar!\p That goofy goon hightailed it out of the tunnel! I can go back to digging!")
 }
 
 text Route116_Text_ThankYouTokenOfAppreciation {
-    format("Oh! It's you!\p You're that person who not only helped me in PETALBURG WOODS, but also got\l back my stolen package and then even\l graciously delivered it to SLATEPORT!\p CAPT. STERN informed us that the package arrived, too!\p I thank you very, very much!\p Why, if I were a rain cloud, I would shower you with gratitude and hail\l you as a hero!\p For you, the most wonderful TRAINER, I bear good news!\p Recently, our company developed a new kind of POKé BALL.\p As a token of our appreciation, this is our gift to our wonderful TRAINER!")
+    format("Oh! It's you!\p You're that person who not only helped me in PETALBURG WOODS, but also got\l back my stolen package and then even\l graciously delivered it to SLATEPORT!\p CAPT. STERN informed us that the package arrived, too!\p I thank you very, very much!\p Why, if I were a rain cloud, I would shower you with gratitude and hail\l you as a hero!\p For you, the most wonderful TRAINER, I bear good news!\p Recently, our company developed a new kind of POK BALL.\p As a token of our appreciation, this is our gift to our wonderful TRAINER!")
 }
 
 text Route116_Text_NewBallAvailableAtMart {
-    format("Our new POKé BALL will be available at the POKéMON MART in RUSTBORO.\p Please do try it out! Thank you and bye-bye!")
+    format("Our new POK BALL will be available at the POKMON MART in RUSTBORO.\p Please do try it out! Thank you and bye-bye!")
 }
 
 text Route116_Text_BagIsJamPacked {
@@ -34,11 +34,11 @@ text Route116_Text_BagIsJamPacked {
 }
 
 text Route116_Text_TokenOfAppreciation {
-    format("As a token of our appreciation for your delivering our package, I have\l a gift of a new kind of POKé BALL\l for our most wonderful TRAINER!")
+    format("As a token of our appreciation for your delivering our package, I have\l a gift of a new kind of POK BALL\l for our most wonderful TRAINER!")
 }
 
 text Route116_Text_CanYouHelpMeFindGlasses {
-    format("I dropped my glasses… Can you help me find them?")
+    format("I dropped my glasses Can you help me find them?")
 }
 
 text Route116_Text_MayISeeThoseGlasses {
@@ -46,15 +46,15 @@ text Route116_Text_MayISeeThoseGlasses {
 }
 
 text Route116_Text_NotWhatImLookingForMaybeTheyArentHere {
-    format("Hmm… These are BLACKGLASSES.\l They're not what I'm looking for…\p Maybe my glasses aren't around here…")
+    format("Hmm These are BLACKGLASSES.\l They're not what I'm looking for\p Maybe my glasses aren't around here")
 }
 
 text Route116_Text_CantFindGlassesNotHere {
-    format("Hmm… I can't find my glasses anywhere…\l Maybe they're not around here…")
+    format("Hmm I can't find my glasses anywhere\l Maybe they're not around here")
 }
 
 text Route116_Text_NotWhatImLookingFor {
-    format("Hmm… These are BLACKGLASSES.\l They're not what I'm looking for…")
+    format("Hmm These are BLACKGLASSES.\l They're not what I'm looking for")
 }
 
 text Route116_Text_RouteSignRustboro {
@@ -62,7 +62,7 @@ text Route116_Text_RouteSignRustboro {
 }
 
 text Route116_Text_RusturfTunnelSign {
-    format("RUSTURF TUNNEL “Linking RUSTBORO and VERDANTURF\p “The tunnel project has been canceled.”")
+    format("RUSTURF TUNNEL Linking RUSTBORO and VERDANTURF\p The tunnel project has been canceled.")
 }
 
 text Route116_Text_TunnelersRestHouse {
@@ -70,7 +70,7 @@ text Route116_Text_TunnelersRestHouse {
 }
 
 text Route116_Text_TrainerTipsBToStopEvolution {
-    format("TRAINER TIPS\p If you want to stop a POKéMON from evolving, press the B Button while it\l is trying to evolve.\l The startled POKéMON will stop.\p This is called an evolution cancel.")
+    format("TRAINER TIPS\p If you want to stop a POKMON from evolving, press the B Button while it\l is trying to evolve.\l The startled POKMON will stop.\p This is called an evolution cancel.")
 }
 
 text Route116_Text_TrainerTipsBagHasPockets {

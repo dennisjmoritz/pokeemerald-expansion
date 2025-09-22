@@ -15,7 +15,7 @@ text SevenIsland_TanobyRuins_Text_BrandonPostBattle {
 }
 
 text SevenIsland_TanobyRuins_Text_BenjaminIntro {
-    format("A mystic POKéMON is said to sleep inside here.")
+    format("A mystic POKMON is said to sleep inside here.")
 }
 
 text SevenIsland_TanobyRuins_Text_BenjaminDefeat {
@@ -23,7 +23,7 @@ text SevenIsland_TanobyRuins_Text_BenjaminDefeat {
 }
 
 text SevenIsland_TanobyRuins_Text_BenjaminPostBattle {
-    format("I hear there are other ruins like the one here.\p Might they be the resting places of other mystic POKéMON?")
+    format("I hear there are other ruins like the one here.\p Might they be the resting places of other mystic POKMON?")
 }
 
 text SevenIsland_TanobyRuins_Text_EdnaIntro {
@@ -47,6 +47,6 @@ text SevenIsland_TanobyRuins_Text_CliffordDefeat {
 }
 
 text SevenIsland_TanobyRuins_Text_CliffordPostBattle {
-    format("Ah, so you are studying POKéMON on your own…\p Yes, you certainly are quite the extraordinary person, indeed.")
+    format("Ah, so you are studying POKMON on your own\p Yes, you certainly are quite the extraordinary person, indeed.")
 }
 

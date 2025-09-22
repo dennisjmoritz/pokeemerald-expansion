@@ -3,7 +3,7 @@ mapscripts PokemonTower_3F_MapScripts {
 
 
 text PokemonTower_3F_Text_HopeIntro {
-    format("Urrg… Awaa… Huhu… Graa…")
+    format("Urrg Awaa Huhu Graa")
 }
 
 text PokemonTower_3F_Text_HopeDefeat {
@@ -15,7 +15,7 @@ text PokemonTower_3F_Text_HopePostBattle {
 }
 
 text PokemonTower_3F_Text_CarlyIntro {
-    format("Kekeke… Kwaaah!")
+    format("Kekeke Kwaaah!")
 }
 
 text PokemonTower_3F_Text_CarlyDefeat {
@@ -35,6 +35,6 @@ text PokemonTower_3F_Text_PatriciaDefeat {
 }
 
 text PokemonTower_3F_Text_PatriciaPostBattle {
-    format("The others above… They must have been possessed.")
+    format("The others above They must have been possessed.")
 }
 

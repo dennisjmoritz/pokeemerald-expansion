@@ -7,43 +7,43 @@ mapscripts Route110_TrickHouseEnd_MapScripts {
 
 
 text Route110_TrickHouseEnd_Text_YouveMadeItToMe {
-    format("Aak! You've made it to me?\l Hmmm… You're sharp!")
+    format("Aak! You've made it to me?\l Hmmm You're sharp!")
 }
 
 text Route110_TrickHouseEnd_Text_AllNightToPlantTrees {
-    format("It took me all night to plant all those trees…\p You're almost my equal in greatness by one, two, three, four, five, six places!")
+    format("It took me all night to plant all those trees\p You're almost my equal in greatness by one, two, three, four, five, six places!")
 }
 
 text Route110_TrickHouseEnd_Text_AllNightToMakeMaze {
-    format("It took me all night to make the maze…\p You're almost my equal in greatness by one, two, three, four, five places!")
+    format("It took me all night to make the maze\p You're almost my equal in greatness by one, two, three, four, five places!")
 }
 
 text Route110_TrickHouseEnd_Text_AllNightToPreparePanels {
-    format("It took me all night to prepare the wall panels…\p You're almost my equal in greatness by one, two, three, four places!")
+    format("It took me all night to prepare the wall panels\p You're almost my equal in greatness by one, two, three, four places!")
 }
 
 text Route110_TrickHouseEnd_Text_AllNightToShoveBoulders {
-    format("It took me all night to shove in those boulders…\p You're almost my equal in greatness by one, two, three places!")
+    format("It took me all night to shove in those boulders\p You're almost my equal in greatness by one, two, three places!")
 }
 
 text Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls {
-    format("It took me all night to make MECHADOLLS and another to think up the quiz…\p You're almost my equal in greatness by one, two places!")
+    format("It took me all night to make MECHADOLLS and another to think up the quiz\p You're almost my equal in greatness by one, two places!")
 }
 
 text Route110_TrickHouseEnd_Text_AllNightToInstallDoors {
-    format("It took me all night to install the doors…\p You're almost my equal in greatness!")
+    format("It took me all night to install the doors\p You're almost my equal in greatness!")
 }
 
 text Route110_TrickHouseEnd_Text_AllNightSettingUpArrows {
-    format("It took me all night setting up arrows…\p You're my equal in greatness!")
+    format("It took me all night setting up arrows\p You're my equal in greatness!")
 }
 
 text Route110_TrickHouseEnd_Text_AllNightPolishingFloors {
-    format("It took me all night polishing floors…\p You're above me in greatness! Possibly…")
+    format("It took me all night polishing floors\p You're above me in greatness! Possibly")
 }
 
 text Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry {
-    format("Wh-what should I do? My fountain of ideas for tricks has\l run dry…\p Perhaps it is time I toured the country on a quest to devise new tricks…")
+    format("Wh-what should I do? My fountain of ideas for tricks has\l run dry\p Perhaps it is time I toured the country on a quest to devise new tricks")
 }
 
 text Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent {
@@ -55,7 +55,7 @@ text Route110_TrickHouseEnd_Text_NoRoomInPC {
 }
 
 text Route110_TrickHouseEnd_Text_LeavingOnJourney {
-    format("… … … … … …\p I am leaving on a journey of discovery. A quest in search of new tricks.\p I wish that you will one day visit and entertain me again.\p And now, farewell!")
+    format("     \p I am leaving on a journey of discovery. A quest in search of new tricks.\p I wish that you will one day visit and entertain me again.\p And now, farewell!")
 }
 
 text Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward {

@@ -13,10 +13,10 @@ text PacifidlogTown_Text_NeatHousesOnWater {
 }
 
 text PacifidlogTown_Text_SkyPillarTooScary {
-    format("The SKY PILLAR?\p …Oh, you must mean that tall, tall tower a little further out.\p If you asked me, I wouldn't climb it. It's too scary to get up that high.\p Life at sea level in PACIFIDLOG, that suits me fine.")
+    format("The SKY PILLAR?\p Oh, you must mean that tall, tall tower a little further out.\p If you asked me, I wouldn't climb it. It's too scary to get up that high.\p Life at sea level in PACIFIDLOG, that suits me fine.")
 }
 
 text PacifidlogTown_Text_TownSign {
-    format("PACIFIDLOG TOWN\p “Where the morning sun smiles upon the waters.”")
+    format("PACIFIDLOG TOWN\p Where the morning sun smiles upon the waters.")
 }
 

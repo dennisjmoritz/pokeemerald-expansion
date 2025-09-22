@@ -16,7 +16,7 @@ text CeladonCity_Text_GameCornerIsBadForCitysImage {
 }
 
 text CeladonCity_Text_BlewItAllAtSlots {
-    format("Moan… I blew it all at the slots!\p I knew I should have cashed in my COINS for prizes!")
+    format("Moan I blew it all at the slots!\p I knew I should have cashed in my COINS for prizes!")
 }
 
 text CeladonCity_Text_MyTrustedPalPoliwrath {
@@ -44,7 +44,7 @@ text CeladonCity_Text_CitySign {
 }
 
 text CeladonCity_Text_GymSign {
-    format("CELADON CITY POKéMON GYM LEADER: ERIKA\l The Nature-Loving Princess!")
+    format("CELADON CITY POKMON GYM LEADER: ERIKA\l The Nature-Loving Princess!")
 }
 
 text CeladonCity_Text_MansionSign {
@@ -56,7 +56,7 @@ text CeladonCity_Text_DeptStoreSign {
 }
 
 text CeladonCity_Text_GuardSpecProtectsFromStatus {
-    format("TRAINER TIPS\p GUARD SPEC. protects POKéMON from status-reduction moves during\l battle.\p Get your items at the CELADON DEPT. STORE!")
+    format("TRAINER TIPS\p GUARD SPEC. protects POKMON from status-reduction moves during\l battle.\p Get your items at the CELADON DEPT. STORE!")
 }
 
 text CeladonCity_Text_PrizeExchangeSign {
@@ -68,7 +68,7 @@ text CeladonCity_Text_GameCornerSign {
 }
 
 text CeladonCity_Text_ScaldedTongueOnTea {
-    format("Aaaagh, ow… I scalded my tongue!\p This nice old lady in the MANSION gave me some TEA.\p But it was boiling hot! Gotta cool it to drink it.")
+    format("Aaaagh, ow I scalded my tongue!\p This nice old lady in the MANSION gave me some TEA.\p But it was boiling hot! Gotta cool it to drink it.")
 }
 
 text Text_SoftboiledTeach {
@@ -80,7 +80,7 @@ text Text_SoftboiledDeclined {
 }
 
 text Text_SoftboiledWhichMon {
-    format("So, who's the POKéMON that gets the chance to learn SOFTBOILED?")
+    format("So, who's the POKMON that gets the chance to learn SOFTBOILED?")
 }
 
 text Text_SoftboiledTaught {
@@ -88,6 +88,6 @@ text Text_SoftboiledTaught {
 }
 
 text CeladonCity_Text_SomeoneStoleSilphScope {
-    format("Oh, what am I to do…\p Someone stole our SILPH SCOPE.\p The thief came running this way, I'm sure of it.\p But I lost sight of him! Where'd he go?")
+    format("Oh, what am I to do\p Someone stole our SILPH SCOPE.\p The thief came running this way, I'm sure of it.\p But I lost sight of him! Where'd he go?")
 }
 

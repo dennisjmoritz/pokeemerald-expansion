@@ -27,7 +27,7 @@ text RockTunnel_B1F_Text_DudleyPostBattle {
 }
 
 text RockTunnel_B1F_Text_CooperIntro {
-    format("You have a POKéDEX? I want one, too.")
+    format("You have a POKDEX? I want one, too.")
 }
 
 text RockTunnel_B1F_Text_CooperDefeat {
@@ -35,11 +35,11 @@ text RockTunnel_B1F_Text_CooperDefeat {
 }
 
 text RockTunnel_B1F_Text_CooperPostBattle {
-    format("When you finish your POKéDEX, can I have it?")
+    format("When you finish your POKDEX, can I have it?")
 }
 
 text RockTunnel_B1F_Text_SteveIntro {
-    format("Um… Do you know about POKéMON cosplay?")
+    format("Um Do you know about POKMON cosplay?")
 }
 
 text RockTunnel_B1F_Text_SteveDefeat {
@@ -47,11 +47,11 @@ text RockTunnel_B1F_Text_SteveDefeat {
 }
 
 text RockTunnel_B1F_Text_StevePostBattle {
-    format("POKéMON cosplay is dressing up as POKéMON for fun.\p CLEFAIRY is a favorite.")
+    format("POKMON cosplay is dressing up as POKMON for fun.\p CLEFAIRY is a favorite.")
 }
 
 text RockTunnel_B1F_Text_AllenIntro {
-    format("My POKéMON techniques will leave you crying!")
+    format("My POKMON techniques will leave you crying!")
 }
 
 text RockTunnel_B1F_Text_AllenDefeat {
@@ -59,7 +59,7 @@ text RockTunnel_B1F_Text_AllenDefeat {
 }
 
 text RockTunnel_B1F_Text_AllenPostBattle {
-    format("In mountains, you'll often find ROCK-type POKéMON.")
+    format("In mountains, you'll often find ROCK-type POKMON.")
 }
 
 text RockTunnel_B1F_Text_MarthaIntro {
@@ -71,7 +71,7 @@ text RockTunnel_B1F_Text_MarthaDefeat {
 }
 
 text RockTunnel_B1F_Text_MarthaPostBattle {
-    format("I like tiny POKéMON. Big ones are too scary!")
+    format("I like tiny POKMON. Big ones are too scary!")
 }
 
 text RockTunnel_B1F_Text_EricIntro {
@@ -83,15 +83,15 @@ text RockTunnel_B1F_Text_EricDefeat {
 }
 
 text RockTunnel_B1F_Text_EricPostBattle {
-    format("I'll raise my POKéMON to beat yours, kid.")
+    format("I'll raise my POKMON to beat yours, kid.")
 }
 
 text RockTunnel_B1F_Text_WinstonIntro {
-    format("I draw illustrations of POKéMON when I'm home.")
+    format("I draw illustrations of POKMON when I'm home.")
 }
 
 text RockTunnel_B1F_Text_WinstonDefeat {
-    format("Whew… I'm exhausted…")
+    format("Whew I'm exhausted")
 }
 
 text RockTunnel_B1F_Text_WinstonPostBattle {

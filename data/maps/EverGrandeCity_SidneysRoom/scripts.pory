@@ -7,7 +7,7 @@ mapscripts EverGrandeCity_SidneysRoom_MapScripts {
 
 
 text EverGrandeCity_SidneysRoom_Text_IntroSpeech {
-    format("Welcome, challenger! I'm SIDNEY of the ELITE FOUR.\p I like that look you're giving me. I guess you'll give me a good match.\l That's good! Looking real good!\p All right! You and me, let's enjoy a battle that can only be staged\l here in the POKéMON LEAGUE!")
+    format("Welcome, challenger! I'm SIDNEY of the ELITE FOUR.\p I like that look you're giving me. I guess you'll give me a good match.\l That's good! Looking real good!\p All right! You and me, let's enjoy a battle that can only be staged\l here in the POKMON LEAGUE!")
 }
 
 text EverGrandeCity_SidneysRoom_Text_Defeat {

@@ -7,11 +7,11 @@ text CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon {
 }
 
 text CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday {
-    format("Gahaha! I raked it in today! If only every day were like this…")
+    format("Gahaha! I raked it in today! If only every day were like this")
 }
 
 text CeladonCity_GameCorner_PrizeRoom_Text_CoinCaseRequired {
-    format("A COIN CASE is required…")
+    format("A COIN CASE is required")
 }
 
 text CeladonCity_GameCorner_PrizeRoom_Text_WeExchangeCoinsForPrizes {
@@ -23,7 +23,7 @@ text CeladonCity_GameCorner_PrizeRoom_Text_WhichPrize {
 }
 
 text CeladonCity_GameCorner_PrizeRoom_Text_HereYouGo {
-    format("はい どうぞ")
+    format(" ")
 }
 
 text CeladonCity_GameCorner_PrizeRoom_Text_YouWantPrize {
@@ -39,10 +39,10 @@ text CeladonCity_GameCorner_PrizeRoom_Text_NeedMoreCoins {
 }
 
 text CeladonCity_GameCorner_PrizeRoom_Text_OopsNotEnoughRoom {
-    format("おきゃくさん もう もてないよ")
+    format("  ")
 }
 
 text CeladonCity_GameCorner_PrizeRoom_Text_OhFineThen {
-    format("あっ そう")
+    format(" ")
 }
 

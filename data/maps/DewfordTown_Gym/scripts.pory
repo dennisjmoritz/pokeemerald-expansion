@@ -4,7 +4,7 @@ mapscripts DewfordTown_Gym_MapScripts {
 
 
 text DewfordTown_Gym_Text_GymGuideAdvice {
-    format("Hey, how's it going, CHAMPION- bound {PLAYER}?\p DEWFORD's GYM LEADER BRAWLY commands FIGHTING-type POKéMON.\p Going against him with NORMAL-type POKéMON is asking for trouble.\p FIGHTING POKéMON will lay a serious smack down on NORMAL POKéMON,\l so be careful!\p What's worse, the GYM is as dark as the ocean floor.\p But it will get brighter after defeating the TRAINERS in your way.\p Hey, okay, go for it!")
+    format("Hey, how's it going, CHAMPION- bound {PLAYER}?\p DEWFORD's GYM LEADER BRAWLY commands FIGHTING-type POKMON.\p Going against him with NORMAL-type POKMON is asking for trouble.\p FIGHTING POKMON will lay a serious smack down on NORMAL POKMON,\l so be careful!\p What's worse, the GYM is as dark as the ocean floor.\p But it will get brighter after defeating the TRAINERS in your way.\p Hey, okay, go for it!")
 }
 
 text DewfordTown_Gym_Text_GymGuidePostVictory {
@@ -16,7 +16,7 @@ text DewfordTown_Gym_Text_TakaoIntro {
 }
 
 text DewfordTown_Gym_Text_TakaoDefeat {
-    format("Not enough power…")
+    format("Not enough power")
 }
 
 text DewfordTown_Gym_Text_TakaoPostBattle {
@@ -28,11 +28,11 @@ text DewfordTown_Gym_Text_JocelynIntro {
 }
 
 text DewfordTown_Gym_Text_JocelynDefeat {
-    format("But… How? How could I lose so easily?")
+    format("But How? How could I lose so easily?")
 }
 
 text DewfordTown_Gym_Text_JocelynPostBattle {
-    format("I'm not going to waste this loss. I'll use it to motivate me to train!\p One day I'll become a GYM LEADER…\p No, I'll become the POKéMON LEAGUE CHAMPION!")
+    format("I'm not going to waste this loss. I'll use it to motivate me to train!\p One day I'll become a GYM LEADER\p No, I'll become the POKMON LEAGUE CHAMPION!")
 }
 
 text DewfordTown_Gym_Text_LauraIntro {
@@ -44,15 +44,15 @@ text DewfordTown_Gym_Text_LauraDefeat {
 }
 
 text DewfordTown_Gym_Text_LauraPostBattle {
-    format("I battle in the dark to make my heart stronger.\p But because it's so dark, I can never see BRAWLY's face…")
+    format("I battle in the dark to make my heart stronger.\p But because it's so dark, I can never see BRAWLY's face")
 }
 
 text DewfordTown_Gym_Text_LilithIntro {
-    format("Ufufu… Are you stumbling around in the dark?")
+    format("Ufufu Are you stumbling around in the dark?")
 }
 
 text DewfordTown_Gym_Text_LilithDefeat {
-    format("Oh, you… I don't want to know you!")
+    format("Oh, you I don't want to know you!")
 }
 
 text DewfordTown_Gym_Text_LilithPostBattle {
@@ -96,15 +96,15 @@ text DewfordTown_Gym_Text_ReceivedKnuckleBadge {
 }
 
 text DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis {
-    format("The KNUCKLE BADGE makes all POKéMON up to Level 30, even those you get in\l trades, obey without question.\p And, you'll be able to use the HM move FLASH outside of battle.\p If you'd like, use this TECHNICAL MACHINE, too.")
+    format("The KNUCKLE BADGE makes all POKMON up to Level 30, even those you get in\l trades, obey without question.\p And, you'll be able to use the HM move FLASH outside of battle.\p If you'd like, use this TECHNICAL MACHINE, too.")
 }
 
 text DewfordTown_Gym_Text_ExplainBulkUp {
-    format("That TM08 contains BULK UP.\p It's a move that raises both ATTACK and DEFENSE stats.\p … … … … … …")
+    format("That TM08 contains BULK UP.\p It's a move that raises both ATTACK and DEFENSE stats.\p      ")
 }
 
 text DewfordTown_Gym_Text_RegisteredBrawly {
-    format("Registered GYM LEADER BRAWLY in the POKéNAV.")
+    format("Registered GYM LEADER BRAWLY in the POKNAV.")
 }
 
 text DewfordTown_Gym_Text_BrawlyPostBattle {
@@ -112,15 +112,15 @@ text DewfordTown_Gym_Text_BrawlyPostBattle {
 }
 
 text DewfordTown_Gym_Text_GymStatue {
-    format("DEWFORD TOWN POKéMON GYM")
+    format("DEWFORD TOWN POKMON GYM")
 }
 
 text DewfordTown_Gym_Text_GymStatueCertified {
-    format("DEWFORD TOWN POKéMON GYM\p BRAWLY'S CERTIFIED TRAINERS: {PLAYER}")
+    format("DEWFORD TOWN POKMON GYM\p BRAWLY'S CERTIFIED TRAINERS: {PLAYER}")
 }
 
 text DewfordTown_Gym_Text_BrawlyPreRematch {
-    format("BRAWLY: A wave may draw back, but it always returns to the shore.\p A giant wave of a talent like you… I knew you would return!\p Show me how much higher you've gone!")
+    format("BRAWLY: A wave may draw back, but it always returns to the shore.\p A giant wave of a talent like you I knew you would return!\p Show me how much higher you've gone!")
 }
 
 text DewfordTown_Gym_Text_BrawlyRematchDefeat {
@@ -132,6 +132,6 @@ text DewfordTown_Gym_Text_BrawlyPostRematch {
 }
 
 text DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons {
-    format("BRAWLY: A wave may draw back, but it always returns to the shore.\p A giant wave of a talent like you… I knew you would return!\p Oh? You only have one POKéMON that can battle.\p I'm sorry, but I'd like you to come back with at least two POKéMON.")
+    format("BRAWLY: A wave may draw back, but it always returns to the shore.\p A giant wave of a talent like you I knew you would return!\p Oh? You only have one POKMON that can battle.\p I'm sorry, but I'd like you to come back with at least two POKMON.")
 }
 

@@ -4,18 +4,18 @@ mapscripts VerdanturfTown_BattleTentCorridor_MapScripts {
 
 
 text VerdanturfTown_ContestHall_Text_WhichContestYouEntering {
-    format("Which CONTEST are you entering? Want a piece of advice?\p In any CONTEST, for example, a CUTE CONTEST, I don't think they judge you\l only on cuteness in the first round.\p You need to work out ways for raising POKéMON better.")
+    format("Which CONTEST are you entering? Want a piece of advice?\p In any CONTEST, for example, a CUTE CONTEST, I don't think they judge you\l only on cuteness in the first round.\p You need to work out ways for raising POKMON better.")
 }
 
 text VerdanturfTown_ContestHall_Text_RaisedMonToBeCute {
-    format("I raised my POKéMON to be cute.\p I found out you can put POKéMON in a CONTEST for cuteness!\p I'm so glad I raised my POKéMON with loving care…")
+    format("I raised my POKMON to be cute.\p I found out you can put POKMON in a CONTEST for cuteness!\p I'm so glad I raised my POKMON with loving care")
 }
 
 text VerdanturfTown_ContestHall_Text_MyMonRules {
-    format("My POKéMON rules!\p It's cool, tough yet beautiful, cute, and smart. It's complete!\p I may as well go for wins in every single CONTEST.")
+    format("My POKMON rules!\p It's cool, tough yet beautiful, cute, and smart. It's complete!\p I may as well go for wins in every single CONTEST.")
 }
 
 text VerdanturfTown_ContestHall_Text_NormalRankStage {
-    format("POKéMON CONTESTS NORMAL RANK STAGE!")
+    format("POKMON CONTESTS NORMAL RANK STAGE!")
 }
 

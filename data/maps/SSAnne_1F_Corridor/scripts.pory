@@ -3,7 +3,7 @@ mapscripts SSAnne_1F_Corridor_MapScripts {
 
 
 text SSAnne_1F_Corridor_Text_LeStrongSilentType {
-    format("Bonjour! I am le waiter on this ship!\p I will be happy to serve you anything you please!\p … … … Ah! Le strong silent type!")
+    format("Bonjour! I am le waiter on this ship!\p I will be happy to serve you anything you please!\p    Ah! Le strong silent type!")
 }
 
 text SSAnne_1F_Corridor_Text_PassengersAreRestless {

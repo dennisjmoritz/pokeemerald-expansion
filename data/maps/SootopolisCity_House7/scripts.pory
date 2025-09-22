@@ -7,6 +7,6 @@ text SootopolisCity_House7_Text_CityFromEruptedVolcano {
 }
 
 text SootopolisCity_House7_Text_CaveMadeToKeepSomething {
-    format("The cave that links SOOTOPOLIS and the outside world…\p It seems as if the cave was made to keep something from getting out.\p Or am I just imagining things?")
+    format("The cave that links SOOTOPOLIS and the outside world\p It seems as if the cave was made to keep something from getting out.\p Or am I just imagining things?")
 }
 

@@ -5,19 +5,19 @@ mapscripts FortreeCity_MapScripts {
 
 
 text FortreeCity_Text_SawGiganticPokemonInSky {
-    format("No one believes me, but I saw this gigantic POKéMON in the sky.\p It seemed to squirm as it flew toward ROUTE 131.\p By the way… Sniff… Um… You, uh…smell singed.\p Were you at a volcano or something?")
+    format("No one believes me, but I saw this gigantic POKMON in the sky.\p It seemed to squirm as it flew toward ROUTE 131.\p By the way Sniff Um You, uhsmell singed.\p Were you at a volcano or something?")
 }
 
 text FortreeCity_Text_SomethingBlockingGym {
-    format("I want to go to the POKéMON GYM, but something's blocking the way.\p After all the bother I went through training on ROUTE 120…")
+    format("I want to go to the POKMON GYM, but something's blocking the way.\p After all the bother I went through training on ROUTE 120")
 }
 
 text FortreeCity_Text_ThisTimeIllBeatWinona {
-    format("I've got my pride-and-joy POKéMON with me. This time, I'll beat WINONA.")
+    format("I've got my pride-and-joy POKMON with me. This time, I'll beat WINONA.")
 }
 
 text FortreeCity_Text_TreesGrowByDrinkingRainwater {
-    format("The ground absorbs rainwater, and trees grow by drinking that water…\p Our FORTREE CITY exists because there's both water and soil.")
+    format("The ground absorbs rainwater, and trees grow by drinking that water\p Our FORTREE CITY exists because there's both water and soil.")
 }
 
 text FortreeCity_Text_EveryoneHealthyAndLively {
@@ -25,11 +25,11 @@ text FortreeCity_Text_EveryoneHealthyAndLively {
 }
 
 text FortreeCity_Text_BugPokemonComeThroughWindow {
-    format("Living on top of trees is okay.\p But sometimes BUG POKéMON come in through windows.\l It can be really startling.")
+    format("Living on top of trees is okay.\p But sometimes BUG POKMON come in through windows.\l It can be really startling.")
 }
 
 text FortreeCity_Text_PokemonThatEvolveWhenTraded {
-    format("There are POKéMON that evolve when you trade them! That's what I heard.")
+    format("There are POKMON that evolve when you trade them! That's what I heard.")
 }
 
 text FortreeCity_Text_SomethingUnseeable {
@@ -41,14 +41,14 @@ text FortreeCity_Text_UnseeableUseDevonScope {
 }
 
 text FortreeCity_Text_UsedDevonScopePokemonFled {
-    format("{PLAYER} used the DEVON SCOPE.\p An invisible POKéMON became completely visible!\p The startled POKéMON fled!")
+    format("{PLAYER} used the DEVON SCOPE.\p An invisible POKMON became completely visible!\p The startled POKMON fled!")
 }
 
 text FortreeCity_Text_CitySign {
-    format("FORTREE CITY “The treetop city that frolics with\l nature.”")
+    format("FORTREE CITY The treetop city that frolics with\l nature.")
 }
 
 text FortreeCity_Text_GymSign {
-    format("FORTREE CITY POKéMON GYM LEADER: WINONA\p “The bird user taking flight into the world.”")
+    format("FORTREE CITY POKMON GYM LEADER: WINONA\p The bird user taking flight into the world.")
 }
 

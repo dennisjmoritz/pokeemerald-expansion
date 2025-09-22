@@ -4,7 +4,7 @@ mapscripts Route12_MapScripts {
 
 
 text Route12_Text_MonSprawledOutInSlumber {
-    format("A POKéMON is sprawled out in a deep and comfortable slumber.")
+    format("A POKMON is sprawled out in a deep and comfortable slumber.")
 }
 
 text Text_SnorlaxWokeUp {
@@ -12,15 +12,15 @@ text Text_SnorlaxWokeUp {
 }
 
 text Text_SnorlaxReturnedToMountains {
-    format("SNORLAX calmed down. It gave a huge yawn…\l And returned to the mountains.")
+    format("SNORLAX calmed down. It gave a huge yawn\l And returned to the mountains.")
 }
 
 text Text_WantToUsePokeFlute {
-    format("Want to use the POKé FLUTE?")
+    format("Want to use the POK FLUTE?")
 }
 
 text Text_PlayedPokeFlute {
-    format("{PLAYER} played the POKé FLUTE.")
+    format("{PLAYER} played the POK FLUTE.")
 }
 
 text Route12_Text_NedIntro {
@@ -28,7 +28,7 @@ text Route12_Text_NedIntro {
 }
 
 text Route12_Text_NedDefeat {
-    format("Tch! Just a small fry…")
+    format("Tch! Just a small fry")
 }
 
 text Route12_Text_NedPostBattle {
@@ -44,7 +44,7 @@ text Route12_Text_ChipDefeat {
 }
 
 text Route12_Text_ChipPostBattle {
-    format("With a better ROD, I could catch better POKéMON…")
+    format("With a better ROD, I could catch better POKMON")
 }
 
 text Route12_Text_JustinIntro {
@@ -56,11 +56,11 @@ text Route12_Text_JustinDefeat {
 }
 
 text Route12_Text_JustinPostBattle {
-    format("I could have made my POKéMON evolve with a MOON STONE.\p I would have won then, I bet.")
+    format("I could have made my POKMON evolve with a MOON STONE.\p I would have won then, I bet.")
 }
 
 text Route12_Text_LucaIntro {
-    format("Electricity is my specialty.\p I don't know a thing about POKéMON of the sea, though.")
+    format("Electricity is my specialty.\p I don't know a thing about POKMON of the sea, though.")
 }
 
 text Route12_Text_LucaDefeat {
@@ -68,11 +68,11 @@ text Route12_Text_LucaDefeat {
 }
 
 text Route12_Text_LucaPostBattle {
-    format("Water conducts electricity, so you should zap sea POKéMON.")
+    format("Water conducts electricity, so you should zap sea POKMON.")
 }
 
 text Route12_Text_HankIntro {
-    format("The FISHING FOOL versus POKéMON KID!")
+    format("The FISHING FOOL versus POKMON KID!")
 }
 
 text Route12_Text_HankDefeat {
@@ -80,7 +80,7 @@ text Route12_Text_HankDefeat {
 }
 
 text Route12_Text_HankPostBattle {
-    format("I guess you get to be good at what you like.\p Well, you beat me at POKéMON, but you can't top me at fishing.")
+    format("I guess you get to be good at what you like.\p Well, you beat me at POKMON, but you can't top me at fishing.")
 }
 
 text Route12_Text_ElliotIntro {
@@ -88,7 +88,7 @@ text Route12_Text_ElliotIntro {
 }
 
 text Route12_Text_ElliotDefeat {
-    format("It's not easy…")
+    format("It's not easy")
 }
 
 text Route12_Text_ElliotPostBattle {
@@ -128,11 +128,11 @@ text Route12_Text_JesPostBattle {
 }
 
 text Route12_Text_JesNotEnoughMons {
-    format("JES: GIA and I, we'll be together forever.\p We won't battle unless you have two POKéMON of your own.")
+    format("JES: GIA and I, we'll be together forever.\p We won't battle unless you have two POKMON of your own.")
 }
 
 text Route12_Text_GiaIntro {
-    format("GIA: Hey, JES…\p If we win, I'll marry you!")
+    format("GIA: Hey, JES\p If we win, I'll marry you!")
 }
 
 text Route12_Text_GiaDefeat {
@@ -144,6 +144,6 @@ text Route12_Text_GiaPostBattle {
 }
 
 text Route12_Text_GiaNotEnoughMons {
-    format("GIA: I can't bear to battle without my JES!\p Don't you have one more POKéMON?")
+    format("GIA: I can't bear to battle without my JES!\p Don't you have one more POKMON?")
 }
 

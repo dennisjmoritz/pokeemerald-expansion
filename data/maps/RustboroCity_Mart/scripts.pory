@@ -7,7 +7,7 @@ text RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish {
 }
 
 text RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead {
-    format("My POKéMON evolved. It has a lot of HP now.\p I should buy SUPER POTIONS for it instead of ordinary POTIONS.")
+    format("My POKMON evolved. It has a lot of HP now.\p I should buy SUPER POTIONS for it instead of ordinary POTIONS.")
 }
 
 text RustboroCity_Mart_Text_GettingEscapeRopeJustInCase {

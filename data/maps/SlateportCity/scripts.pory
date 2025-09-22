@@ -9,7 +9,7 @@ text SlateportCity_Text_EnergyGuruSellWhatYouNeed {
 }
 
 text SlateportCity_Text_OhYourPokemon {
-    format("Oh? Your {STR_VAR_1}…")
+    format("Oh? Your {STR_VAR_1}")
 }
 
 text SlateportCity_Text_PleaseGiveItThisEffortRibbon {
@@ -25,7 +25,7 @@ text SlateportCity_Text_PutEffortRibbonOnMon {
 }
 
 text SlateportCity_Text_GoForItLittleHarder {
-    format("You have to go for it a little harder.\p If you do, I'll give your POKéMON something nice.")
+    format("You have to go for it a little harder.\p If you do, I'll give your POKMON something nice.")
 }
 
 text SlateportCity_Text_EffortRibbonLooksGoodOnIt {
@@ -33,7 +33,7 @@ text SlateportCity_Text_EffortRibbonLooksGoodOnIt {
 }
 
 text SlateportCity_Text_WonderIfLighthouseStartlesPokemon {
-    format("The light of the lighthouse reaches dozens of miles away.\p I wonder if it doesn't startle POKéMON in the sea.")
+    format("The light of the lighthouse reaches dozens of miles away.\p I wonder if it doesn't startle POKMON in the sea.")
 }
 
 text SlateportCity_Text_SeaweedFullOfLife {
@@ -45,7 +45,7 @@ text SlateportCity_Text_HowTownIsBornAndGrows {
 }
 
 text SlateportCity_Text_SlateportWonderfulPlace {
-    format("Shopping where you can breathe the scent of the ocean…\p SLATEPORT is such a wonderful place!")
+    format("Shopping where you can breathe the scent of the ocean\p SLATEPORT is such a wonderful place!")
 }
 
 text SlateportCity_Text_BuyBricksSoDecorWontGetDirty {
@@ -53,11 +53,11 @@ text SlateportCity_Text_BuyBricksSoDecorWontGetDirty {
 }
 
 text SlateportCity_Text_GoingToCompeteInBattleTent {
-    format("Wroooar! I'm going to compete in the BATTLE TENT, too!\p But before that, I need to catch some POKéMON!")
+    format("Wroooar! I'm going to compete in the BATTLE TENT, too!\p But before that, I need to catch some POKMON!")
 }
 
 text SlateportCity_Text_BushedHikingFromMauville {
-    format("Whew… I'm just bushed…\p I hiked over from MAUVILLE CITY. But, boy, this city's huge.\p If I'd known this, I would've ridden my BIKE here.")
+    format("Whew I'm just bushed\p I hiked over from MAUVILLE CITY. But, boy, this city's huge.\p If I'd known this, I would've ridden my BIKE here.")
 }
 
 text SlateportCity_Text_EveryoneCallsHimCaptStern {
@@ -65,7 +65,7 @@ text SlateportCity_Text_EveryoneCallsHimCaptStern {
 }
 
 text SlateportCity_Text_WhatsLongLineOverThere {
-    format("What is that over there? That long line…")
+    format("What is that over there? That long line")
 }
 
 text SlateportCity_Text_VisitedMuseumOften {
@@ -85,7 +85,7 @@ text SlateportCity_Text_BossIsBrilliant {
 }
 
 text SlateportCity_Text_WhatsNewSchemeIWonder {
-    format("What's the new scheme, I wonder?\p Our BOSS is scary when he's mad, so I'd better not screw things up…")
+    format("What's the new scheme, I wonder?\p Our BOSS is scary when he's mad, so I'd better not screw things up")
 }
 
 text SlateportCity_Text_ShouldTakeItAll {
@@ -97,7 +97,7 @@ text SlateportCity_Text_DontButtIn {
 }
 
 text SlateportCity_Text_RemindsMeOfLongLineForGames {
-    format("A long line, huh?\p It reminds me of the times I lined up to buy smash-hit games…")
+    format("A long line, huh?\p It reminds me of the times I lined up to buy smash-hit games")
 }
 
 text SlateportCity_Text_WhyAreWeLiningUp {
@@ -113,11 +113,11 @@ text SlateportCity_Text_IllReadSignForYou {
 }
 
 text SlateportCity_Text_SaysSomethingLikeSeaIsEndless {
-    format("Let's see…\p Um… I think it says something like “the life in the sea is endless.”\p Yup, I'm pretty sure that's what it says.")
+    format("Let's see\p Um I think it says something like the life in the sea is endless.\p Yup, I'm pretty sure that's what it says.")
 }
 
 text SlateportCity_Text_ShouldveBroughtMyGameBoy {
-    format("Grumble…\p I should've brought my Game Boy Advance so I wouldn't get bored in line…\p Grumble…")
+    format("Grumble\p I should've brought my Game Boy Advance so I wouldn't get bored in line\p Grumble")
 }
 
 text SlateportCity_Text_HotSpringsAfterOperation {
@@ -125,11 +125,11 @@ text SlateportCity_Text_HotSpringsAfterOperation {
 }
 
 text SlateportCity_Text_SeaIsSoWet {
-    format("The sea is just so vast…\p Could the sea have been made by the tears shed by POKéMON?")
+    format("The sea is just so vast\p Could the sea have been made by the tears shed by POKMON?")
 }
 
 text SlateportCity_Text_SinkOldBoats {
-    format("Do you know what they do with old ships that become too creaky to sail?\p They sink them in the sea so they become habitats for POKéMON.")
+    format("Do you know what they do with old ships that become too creaky to sail?\p They sink them in the sea so they become habitats for POKMON.")
 }
 
 text SlateportCity_Text_BuyTooMuch {
@@ -137,15 +137,15 @@ text SlateportCity_Text_BuyTooMuch {
 }
 
 text SlateportCity_Text_GetNameRaterToHelpYou {
-    format("If you want to change your POKéMON's nickname, you'll have to get the NAME\l RATER to help you.")
+    format("If you want to change your POKMON's nickname, you'll have to get the NAME\l RATER to help you.")
 }
 
 text SlateportCity_Text_CantChangeTradeMonName {
-    format("Any POKéMON you get in a trade, you can't change its nickname.\p The original TRAINER's love for that POKéMON is in the nickname.")
+    format("Any POKMON you get in a trade, you can't change its nickname.\p The original TRAINER's love for that POKMON is in the nickname.")
 }
 
 text SlateportCity_Text_BattleTentBuiltRecently {
-    format("Recently, a BATTLE TENT was built in SLATEPORT.\p GYMS are fun, but the BATTLE TENT's awesome in its own way.\p You should go find tough POKéMON for the BATTLE TENT!")
+    format("Recently, a BATTLE TENT was built in SLATEPORT.\p GYMS are fun, but the BATTLE TENT's awesome in its own way.\p You should go find tough POKMON for the BATTLE TENT!")
 }
 
 text SlateportCity_Text_CaptSternBeingInterviewed {
@@ -177,7 +177,7 @@ text SlateportCity_Text_BigSmileForCamera {
 }
 
 text SlateportCity_Text_MostInvaluableExperience {
-    format("GABBY: I see, I see. You've had a most invaluable experience…")
+    format("GABBY: I see, I see. You've had a most invaluable experience")
 }
 
 text SlateportCity_Text_SternMoveAheadWithExploration {
@@ -189,19 +189,19 @@ text SlateportCity_Text_GabbyWonderfulThanksForInterview {
 }
 
 text SlateportCity_Text_SternWhewFirstInterview {
-    format("CAPT. STERN: Whew…\p That was my first time to be filmed for TV. That was nerve-wracking.")
+    format("CAPT. STERN: Whew\p That was my first time to be filmed for TV. That was nerve-wracking.")
 }
 
 text SlateportCity_Text_OhPlayerWeMadeDiscovery {
-    format("Oh! {PLAYER}{KUN}! You're looking great!\p We made a huge discovery on our last seafloor exploration.\p We found an underwater cavern on ROUTE 128.\p We think it's the habitat of a POKéMON that's said to have been long extinct.")
+    format("Oh! {PLAYER}{KUN}! You're looking great!\p We made a huge discovery on our last seafloor exploration.\p We found an underwater cavern on ROUTE 128.\p We think it's the habitat of a POKMON that's said to have been long extinct.")
 }
 
 text SlateportCity_Text_AquaWillAssumeControlOfSubmarine {
-    format("Fufufu… CAPT. STERN, I presume.\p We of TEAM AQUA will assume control of your submarine!\p Your objections are meaningless! We expect your total cooperation!\p Fufufu… Just watch and learn what TEAM\l AQUA has planned!")
+    format("Fufufu CAPT. STERN, I presume.\p We of TEAM AQUA will assume control of your submarine!\p Your objections are meaningless! We expect your total cooperation!\p Fufufu Just watch and learn what TEAM\l AQUA has planned!")
 }
 
 text SlateportCity_Text_SternWhatWasAllThat {
-    format("CAPT. STERN: What was that all about?\p It sounded like someone using a megaphone…\p Where did it come from?")
+    format("CAPT. STERN: What was that all about?\p It sounded like someone using a megaphone\p Where did it come from?")
 }
 
 text SlateportCity_Text_FromHarborTryingToTakeSub {
@@ -213,55 +213,55 @@ text SlateportCity_Text_PleaseComeWithMe {
 }
 
 text SlateportCity_Text_BattleTentSign {
-    format("BATTLE TENT SLATEPORT SITE “Find it! The ultimate POKéMON!”")
+    format("BATTLE TENT SLATEPORT SITE Find it! The ultimate POKMON!")
 }
 
 text SlateportCity_Text_SternsShipyardWantedSign {
-    format("STERN'S SHIPYARD\p “Wanted: A sailor capable of sailing in all currents.”")
+    format("STERN'S SHIPYARD\p Wanted: A sailor capable of sailing in all currents.")
 }
 
 text SlateportCity_Text_SternsShipyardNearsCompletion {
-    format("STERN'S SHIPYARD\p “The ferry S.S. TIDAL nears completion for serving the ports of\l SLATEPORT and LILYCOVE.”")
+    format("STERN'S SHIPYARD\p The ferry S.S. TIDAL nears completion for serving the ports of\l SLATEPORT and LILYCOVE.")
 }
 
 text SlateportCity_Text_SternsShipyardFerryComplete {
-    format("STERN'S SHIPYARD\p “Boarding of the SLATEPORT-LILYCOVE ferry S.S. TIDAL is handled at the\l HARBOR.”")
+    format("STERN'S SHIPYARD\p Boarding of the SLATEPORT-LILYCOVE ferry S.S. TIDAL is handled at the\l HARBOR.")
 }
 
 text SlateportCity_Text_PokemonFanClubSign {
-    format("POKéMON FAN CLUB “Calling all fans of POKéMON!”")
+    format("POKMON FAN CLUB Calling all fans of POKMON!")
 }
 
 text SlateportCity_Text_OceanicMuseumSign {
-    format("“The endless sea sustains all life.”\p OCEANIC MUSEUM")
+    format("The endless sea sustains all life.\p OCEANIC MUSEUM")
 }
 
 text SlateportCity_Text_CitySign {
-    format("SLATEPORT CITY\p “The port where people and POKéMON cross paths.”")
+    format("SLATEPORT CITY\p The port where people and POKMON cross paths.")
 }
 
 text SlateportCity_Text_MarketSign {
-    format("SLATEPORT MARKET “Unique items found nowhere else!”")
+    format("SLATEPORT MARKET Unique items found nowhere else!")
 }
 
 text SlateportCity_Text_HarborFerryUnderConstruction {
-    format("SLATEPORT HARBOR\p “The ferry S.S. TIDAL is under construction in the SHIPYARD.\p “Service is scheduled to begin shortly.”")
+    format("SLATEPORT HARBOR\p The ferry S.S. TIDAL is under construction in the SHIPYARD.\p Service is scheduled to begin shortly.")
 }
 
 text SlateportCity_Text_HarborSign {
-    format("SLATEPORT HARBOR\p “Enjoy a delightful cruise on the ferry S.S. TIDAL.”")
+    format("SLATEPORT HARBOR\p Enjoy a delightful cruise on the ferry S.S. TIDAL.")
 }
 
 text SlateportCity_Text_NameRatersHouseSign {
-    format("NAME RATER'S HOUSE “POKéMON nicknames rated.”")
+    format("NAME RATER'S HOUSE POKMON nicknames rated.")
 }
 
 text SlateportCity_Text_ExplainBerries {
-    format("If a wild POKéMON gets hurt, it heals itself by chewing on BERRIES.\p Did you know that?\p Somebody saw that and got the idea of making medicine from BERRIES.\p Did you know that?\p To turn BERRIES into medicine, they must be crushed into powder.\p Did you know that?\p You seem to have an interest in BERRIES!\p I've got something good for someone like you.")
+    format("If a wild POKMON gets hurt, it heals itself by chewing on BERRIES.\p Did you know that?\p Somebody saw that and got the idea of making medicine from BERRIES.\p Did you know that?\p To turn BERRIES into medicine, they must be crushed into powder.\p Did you know that?\p You seem to have an interest in BERRIES!\p I've got something good for someone like you.")
 }
 
 text SlateportCity_Text_ExplainBerryPowder {
-    format("I recently had machines installed at POKéMON CENTERS for crushing BERRIES.\p The BERRY CRUSH machines are at the DIRECT CORNER upstairs.\p Did you know?\p Could you make BERRY POWDER for me using those machines?\p I can make you all sorts of medicine if you bring me lots of BERRY POWDER.")
+    format("I recently had machines installed at POKMON CENTERS for crushing BERRIES.\p The BERRY CRUSH machines are at the DIRECT CORNER upstairs.\p Did you know?\p Could you make BERRY POWDER for me using those machines?\p I can make you all sorts of medicine if you bring me lots of BERRY POWDER.")
 }
 
 text SlateportCity_Text_BroughtMeSomeBerryPowder {
@@ -297,15 +297,15 @@ text SlateportCity_Text_YouDroveTeamAquaAway {
 }
 
 text SlateportCity_Text_MaybeThisTrainer {
-    format("SCOTT: Hmm… Maybe, just maybe, this TRAINER…")
+    format("SCOTT: Hmm Maybe, just maybe, this TRAINER")
 }
 
 text SlateportCity_Text_LetsRegisterEachOther {
-    format("SCOTT: All right! I think you're going to become a good friend.\p So, let's register each other in our POKéNAVS.\p … … … … … …")
+    format("SCOTT: All right! I think you're going to become a good friend.\p So, let's register each other in our POKNAVS.\p      ")
 }
 
 text SlateportCity_Text_RegisteredScott {
-    format("Registered this SCOTT person in the POKéNAV.")
+    format("Registered this SCOTT person in the POKNAV.")
 }
 
 text SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou {

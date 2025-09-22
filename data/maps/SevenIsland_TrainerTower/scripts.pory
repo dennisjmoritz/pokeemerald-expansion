@@ -8,7 +8,7 @@ text SevenIsland_TrainerTower_Text_DarioIntro {
 }
 
 text SevenIsland_TrainerTower_Text_DarioDefeat {
-    format("Give up…")
+    format("Give up")
 }
 
 text SevenIsland_TrainerTower_Text_DarioPostBattle {
@@ -16,7 +16,7 @@ text SevenIsland_TrainerTower_Text_DarioPostBattle {
 }
 
 text SevenIsland_TrainerTower_Text_RodetteIntro {
-    format("Somewhere on this island, peculiar POKéMON are sleeping.")
+    format("Somewhere on this island, peculiar POKMON are sleeping.")
 }
 
 text SevenIsland_TrainerTower_Text_RodetteDefeat {
@@ -24,7 +24,7 @@ text SevenIsland_TrainerTower_Text_RodetteDefeat {
 }
 
 text SevenIsland_TrainerTower_Text_RodettePostBattle {
-    format("Somewhere on this island, peculiar POKéMON are sleeping.\p Could it be that they're waiting for you?")
+    format("Somewhere on this island, peculiar POKMON are sleeping.\p Could it be that they're waiting for you?")
 }
 
 text SevenIsland_TrainerTower_Text_TrainerTowerSign {
@@ -36,10 +36,10 @@ text SevenIsland_TrainerTower_Text_TrainerTowerAhead {
 }
 
 text SevenIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed {
-    format("トレーナータワーには いまは　はいれない　みたい‥")
+    format(" ")
 }
 
 text SevenIsland_TrainerTower_Text_TrainerTowerIsOpenLetsGoIn {
-    format("トレーナータワーが　あいてる！ さっそく　はいってみよう！")
+    format(" ")
 }
 

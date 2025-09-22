@@ -3,11 +3,11 @@ mapscripts Route9_MapScripts {
 
 
 text Route9_Text_AliciaIntro {
-    format("You have POKéMON with you! You're mine!")
+    format("You have POKMON with you! You're mine!")
 }
 
 text Route9_Text_AliciaDefeat {
-    format("You deceived me…")
+    format("You deceived me")
 }
 
 text Route9_Text_AliciaPostBattle {
@@ -15,7 +15,7 @@ text Route9_Text_AliciaPostBattle {
 }
 
 text Route9_Text_ChrisIntro {
-    format("Who's that walking there with those good-looking POKéMON?")
+    format("Who's that walking there with those good-looking POKMON?")
 }
 
 text Route9_Text_ChrisDefeat {
@@ -27,11 +27,11 @@ text Route9_Text_ChrisPostBattle {
 }
 
 text Route9_Text_DrewIntro {
-    format("I'm taking the ROCK TUNNEL to go to LAVENDER…")
+    format("I'm taking the ROCK TUNNEL to go to LAVENDER")
 }
 
 text Route9_Text_DrewDefeat {
-    format("Can't measure up…")
+    format("Can't measure up")
 }
 
 text Route9_Text_DrewPostBattle {
@@ -55,7 +55,7 @@ text Route9_Text_JeremyIntro {
 }
 
 text Route9_Text_JeremyDefeat {
-    format("Keep it coming, eh!\p Oh wait. I'm out of POKéMON!")
+    format("Keep it coming, eh!\p Oh wait. I'm out of POKMON!")
 }
 
 text Route9_Text_JeremyPostBattle {
@@ -75,7 +75,7 @@ text Route9_Text_BricePostBattle {
 }
 
 text Route9_Text_BrentIntro {
-    format("I got up early every day to raise my POKéMON from cocoons!")
+    format("I got up early every day to raise my POKMON from cocoons!")
 }
 
 text Route9_Text_BrentDefeat {
@@ -83,7 +83,7 @@ text Route9_Text_BrentDefeat {
 }
 
 text Route9_Text_BrentPostBattle {
-    format("I have to collect more than bugs to get stronger…")
+    format("I have to collect more than bugs to get stronger")
 }
 
 text Route9_Text_AlanIntro {
@@ -99,15 +99,15 @@ text Route9_Text_AlanPostBattle {
 }
 
 text Route9_Text_ConnerIntro {
-    format("Go, my super BUG POKéMON!")
+    format("Go, my super BUG POKMON!")
 }
 
 text Route9_Text_ConnerDefeat {
-    format("My bugs…")
+    format("My bugs")
 }
 
 text Route9_Text_ConnerPostBattle {
-    format("If you don't like BUG POKéMON, you bug me!")
+    format("If you don't like BUG POKMON, you bug me!")
 }
 
 text Route9_Text_RouteSign {

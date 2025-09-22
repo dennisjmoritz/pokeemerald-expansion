@@ -3,10 +3,10 @@ mapscripts LilycoveCity_House2_MapScripts {
 
 
 text LilycoveCity_House2_Text_NotAwakeYetHaveThis {
-    format("Huh? What? What's that?\p I'm not near awake yet… You can have this…")
+    format("Huh? What? What's that?\p I'm not near awake yet You can have this")
 }
 
 text LilycoveCity_House2_Text_SleepIsEssential {
-    format("Yawn…\p Sleep is essential for good health… Sleep and regain health…")
+    format("Yawn\p Sleep is essential for good health Sleep and regain health")
 }
 

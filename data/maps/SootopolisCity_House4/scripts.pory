@@ -7,7 +7,7 @@ text SootopolisCity_House4_Text_AncientTreasuresWaitingInSea {
 }
 
 text SootopolisCity_House4_Text_StrollUnderwaterWithPokemon {
-    format("Ancient treasures…\p It would be nice if they existed, but even if they didn't, it would be so\l beautiful to take an underwater\l stroll with my POKéMON.")
+    format("Ancient treasures\p It would be nice if they existed, but even if they didn't, it would be so\l beautiful to take an underwater\l stroll with my POKMON.")
 }
 
 text SootopolisCity_House4_Text_Azumarill {

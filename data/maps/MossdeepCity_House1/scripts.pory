@@ -3,7 +3,7 @@ mapscripts MossdeepCity_House1_MapScripts {
 
 
 text MossdeepCity_House1_Text_HmmYourPokemon {
-    format("Hmm! Your {STR_VAR_1}…")
+    format("Hmm! Your {STR_VAR_1}")
 }
 
 text MossdeepCity_House1_Text_ItLikesXPokeblocks {
@@ -15,6 +15,6 @@ text MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks {
 }
 
 text MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes {
-    format("My husband can tell what kind of {POKEBLOCK}S a POKéMON likes at a glance.")
+    format("My husband can tell what kind of {POKEBLOCK}S a POKMON likes at a glance.")
 }
 

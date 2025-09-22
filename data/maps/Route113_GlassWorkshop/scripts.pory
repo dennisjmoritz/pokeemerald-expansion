@@ -29,7 +29,7 @@ text Route113_GlassWorkshop_Text_LetsSeeCollectedAshes {
 }
 
 text Route113_GlassWorkshop_Text_NotEnoughAshNeedX {
-    format("Hmmm… There's not enough ash here, huff-puff.\l I can't make glass with this, huff-puff.\p Let's see… {STR_VAR_1} is the number of steps you'll need to walk for me to make you\l a BLUE FLUTE, huff-puff.")
+    format("Hmmm There's not enough ash here, huff-puff.\l I can't make glass with this, huff-puff.\p Let's see {STR_VAR_1} is the number of steps you'll need to walk for me to make you\l a BLUE FLUTE, huff-puff.")
 }
 
 text Route113_GlassWorkshop_Text_WhichGlassItemWoudYouLike {
@@ -49,7 +49,7 @@ text Route113_GlassWorkshop_Text_IllMakeItemForYou {
 }
 
 text Route113_GlassWorkshop_Text_NotEnoughAshToMakeItem {
-    format("A {STR_VAR_1}, huff-puff?\p There's not enough ash here to make that, though, huff-puff.\p Let's see… {STR_VAR_2} is the number of steps you'll need to walk through volcanic ash\l for me to make that item, huff-puff.\p Which item would you rather have me make instead, huff-puff?")
+    format("A {STR_VAR_1}, huff-puff?\p There's not enough ash here to make that, though, huff-puff.\p Let's see {STR_VAR_2} is the number of steps you'll need to walk through volcanic ash\l for me to make that item, huff-puff.\p Which item would you rather have me make instead, huff-puff?")
 }
 
 text Route113_GlassWorkshop_Text_AllThatAshButDontWantAnything {

@@ -11,7 +11,7 @@ text CeruleanCity_BikeShop_Text_SorryYouCantAffordIt {
 }
 
 text CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo {
-    format("Oh, that's…\p A BIKE VOUCHER!\p Okay! Here you go!")
+    format("Oh, that's\p A BIKE VOUCHER!\p Okay! Here you go!")
 }
 
 text CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle {
@@ -43,7 +43,7 @@ text CeruleanCity_BikeShop_Text_WowYourBikeIsCool {
 }
 
 text CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket {
-    format("ついに　はつばい！\p ドイツ　せい　さいこうきゅう おりたたみ　じてんしゃ！")
+    format("\p  ")
 }
 
 text CeruleanCity_BikeShop_Text_ShinyNewBicycle {

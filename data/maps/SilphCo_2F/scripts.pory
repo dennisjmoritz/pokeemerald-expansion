@@ -52,19 +52,19 @@ text SilphCo_2F_Text_Grunt2PostBattle {
 }
 
 text Text_ThunderWaveTeach {
-    format("Eeek! No! Stop! Help!\p Oh, you're not with TEAM ROCKET. I'm sorry, I thought…\p Will you forgive me if I teach you the THUNDER WAVE technique?")
+    format("Eeek! No! Stop! Help!\p Oh, you're not with TEAM ROCKET. I'm sorry, I thought\p Will you forgive me if I teach you the THUNDER WAVE technique?")
 }
 
 text Text_ThunderWaveDeclined {
-    format("Oh… But THUNDER WAVE is convenient…")
+    format("Oh But THUNDER WAVE is convenient")
 }
 
 text Text_ThunderWaveWhichMon {
-    format("Which POKéMON should I teach THUNDER WAVE?")
+    format("Which POKMON should I teach THUNDER WAVE?")
 }
 
 text Text_ThunderWaveTaught {
-    format("THUNDER WAVE causes paralysis in the target POKéMON.\p A paralyzed POKéMON may be unable to move in battle.\p It's an ELECTRIC-type move, so it won't work on some POKéMON.")
+    format("THUNDER WAVE causes paralysis in the target POKMON.\p A paralyzed POKMON may be unable to move in battle.\p It's an ELECTRIC-type move, so it won't work on some POKMON.")
 }
 
 text SilphCo_2F_Text_FloorSign {

@@ -11,7 +11,7 @@ text SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant {
 }
 
 text SafariZone_SecretHouse_Text_ExplainSurf {
-    format("HM03 is SURF.\p POKéMON will be able to ferry you across water using it.\p And, this HM isn't disposable, so you can use it over and over.\p You're super lucky for winning this fabulous prize!")
+    format("HM03 is SURF.\p POKMON will be able to ferry you across water using it.\p And, this HM isn't disposable, so you can use it over and over.\p You're super lucky for winning this fabulous prize!")
 }
 
 text SafariZone_SecretHouse_Text_DontHaveRoomForPrize {

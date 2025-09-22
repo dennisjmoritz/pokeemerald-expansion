@@ -3,6 +3,6 @@ mapscripts CinnabarIsland_PokemonLab_Lounge_MapScripts {
 
 
 text CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon {
-    format("I found this most remarkable fossil inside MT. MOON.\p I think it's of a rare, prehistoric POKéMON.")
+    format("I found this most remarkable fossil inside MT. MOON.\p I think it's of a rare, prehistoric POKMON.")
 }
 

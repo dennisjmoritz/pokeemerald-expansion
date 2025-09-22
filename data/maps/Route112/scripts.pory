@@ -24,11 +24,11 @@ text Route112_Text_NotEasyToGetBackToLavaridge {
 }
 
 text Route112_Text_MtChimneyCableCarSign {
-    format("MT. CHIMNEY CABLE CAR “A short walk {UP_ARROW} way!”")
+    format("MT. CHIMNEY CABLE CAR A short walk {UP_ARROW} way!")
 }
 
 text Route112_Text_MtChimneySign {
-    format("MT. CHIMNEY\p “For LAVARIDGE TOWN or the summit, please take the CABLE CAR.”")
+    format("MT. CHIMNEY\p For LAVARIDGE TOWN or the summit, please take the CABLE CAR.")
 }
 
 text Route112_Text_RouteSignLavaridge {

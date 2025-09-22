@@ -6,7 +6,7 @@ mapscripts EverGrandeCity_PhoebesRoom_MapScripts {
 
 
 text EverGrandeCity_PhoebesRoom_Text_IntroSpeech {
-    format("Ahahaha!\p I'm PHOEBE of the ELITE FOUR. I did my training on MT. PYRE.\p While I trained, I gained the ability to commune with GHOST-type POKéMON.\p Yes, the bond I developed with POKéMON is extremely tight.\p So, come on, just try and see if you can even inflict damage on my POKéMON!")
+    format("Ahahaha!\p I'm PHOEBE of the ELITE FOUR. I did my training on MT. PYRE.\p While I trained, I gained the ability to commune with GHOST-type POKMON.\p Yes, the bond I developed with POKMON is extremely tight.\p So, come on, just try and see if you can even inflict damage on my POKMON!")
 }
 
 text EverGrandeCity_PhoebesRoom_Text_Defeat {
@@ -14,6 +14,6 @@ text EverGrandeCity_PhoebesRoom_Text_Defeat {
 }
 
 text EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech {
-    format("There's a definite bond between you and your POKéMON, too.\p I didn't recognize it, so it's only natural that I lost.\p Yup, I'd like to see how far your bond will carry you.\p Go ahead, move on to the next room.")
+    format("There's a definite bond between you and your POKMON, too.\p I didn't recognize it, so it's only natural that I lost.\p Yup, I'd like to see how far your bond will carry you.\p Go ahead, move on to the next room.")
 }
 

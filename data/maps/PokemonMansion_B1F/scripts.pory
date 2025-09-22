@@ -4,7 +4,7 @@ mapscripts PokemonMansion_B1F_MapScripts {
 
 
 text PokemonMansion_B1F_Text_LewisIntro {
-    format("Uh-oh… Where am I now?")
+    format("Uh-oh Where am I now?")
 }
 
 text PokemonMansion_B1F_Text_LewisDefeat {
@@ -28,6 +28,6 @@ text PokemonMansion_B1F_Text_IvanPostBattle {
 }
 
 text PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful {
-    format("Diary: Sept. 1 MEWTWO is far too powerful.\p We have failed to curb its vicious tendencies…")
+    format("Diary: Sept. 1 MEWTWO is far too powerful.\p We have failed to curb its vicious tendencies")
 }
 

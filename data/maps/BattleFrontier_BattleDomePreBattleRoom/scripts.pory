@@ -21,7 +21,7 @@ text BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals {
 }
 
 text BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons {
-    format("Please choose the two POKéMON that are to appear in battle.")
+    format("Please choose the two POKMON that are to appear in battle.")
 }
 
 text BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay {
@@ -29,7 +29,7 @@ text BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay {
 }
 
 text BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth {
-    format("Thank you for competing!\p I'll restore your POKéMON to full health.")
+    format("Thank you for competing!\p I'll restore your POKMON to full health.")
 }
 
 text BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete {

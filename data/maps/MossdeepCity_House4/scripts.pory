@@ -7,7 +7,7 @@ text MossdeepCity_House4_Text_BrotherLikesToFindBases {
 }
 
 text MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle {
-    format("My little brother says he likes to visit people's SECRET BASES and have\l POKéMON battles.")
+    format("My little brother says he likes to visit people's SECRET BASES and have\l POKMON battles.")
 }
 
 text MossdeepCity_House4_Text_YouMadeSecretBaseNearX {

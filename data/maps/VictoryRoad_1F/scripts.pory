@@ -9,11 +9,11 @@ text VictoryRoad_1F_Text_NaomiIntro {
 }
 
 text VictoryRoad_1F_Text_NaomiDefeat {
-    format("I lost out…")
+    format("I lost out")
 }
 
 text VictoryRoad_1F_Text_NaomiPostBattle {
-    format("I never wanted to lose to anybody, especially to a younger kid…")
+    format("I never wanted to lose to anybody, especially to a younger kid")
 }
 
 text VictoryRoad_1F_Text_RolandoIntro {
@@ -21,7 +21,7 @@ text VictoryRoad_1F_Text_RolandoIntro {
 }
 
 text VictoryRoad_1F_Text_RolandoDefeat {
-    format("I had a chance…")
+    format("I had a chance")
 }
 
 text VictoryRoad_1F_Text_RolandoPostBattle {

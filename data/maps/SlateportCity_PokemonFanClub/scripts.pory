@@ -3,31 +3,31 @@ mapscripts SlateportCity_PokemonFanClub_MapScripts {
 
 
 text SlateportCity_PokemonFanClub_Text_MeetChairman {
-    format("Er-hem! I am the CHAIRMAN of the POKéMON FAN CLUB!\p Being the CHAIRMAN, I am naturally the most important!\p No one can best me when it comes to raising POKéMON. No one!\p Well, let me tell you about POKéMON CONTESTS.\p They're events where one can show off POKéMON for the world to see!\p However, they're held in far-off towns, so I cannot participate often enough.\p That is why we gather here to show off our POKéMON, and have others\l show us theirs.")
+    format("Er-hem! I am the CHAIRMAN of the POKMON FAN CLUB!\p Being the CHAIRMAN, I am naturally the most important!\p No one can best me when it comes to raising POKMON. No one!\p Well, let me tell you about POKMON CONTESTS.\p They're events where one can show off POKMON for the world to see!\p However, they're held in far-off towns, so I cannot participate often enough.\p That is why we gather here to show off our POKMON, and have others\l show us theirs.")
 }
 
 text SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon {
-    format("The POKéMON of a TRAINER who has entered a POKéMON CONTEST…\l That, I would like to see.")
+    format("The POKMON of a TRAINER who has entered a POKMON CONTEST\l That, I would like to see.")
 }
 
 text SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon {
-    format("Er-hem! I see you've participated in a POKéMON CONTEST!\p Please! Allow me to examine how you have raised your POKéMON.\p It delights me no end to see POKéMON raised by other TRAINERS.\p The happy expressions of POKéMON raised with proper care…\p The kindly eyes of the TRAINER that nurtured and raised the POKéMON…\p The very thought fills my heart to overwhelming with joy.\p Oh! I do beg your pardon! Forgive me for prattling on so!\p Please! Allow me to examine how much your POKéMON has grown!")
+    format("Er-hem! I see you've participated in a POKMON CONTEST!\p Please! Allow me to examine how you have raised your POKMON.\p It delights me no end to see POKMON raised by other TRAINERS.\p The happy expressions of POKMON raised with proper care\p The kindly eyes of the TRAINER that nurtured and raised the POKMON\p The very thought fills my heart to overwhelming with joy.\p Oh! I do beg your pardon! Forgive me for prattling on so!\p Please! Allow me to examine how much your POKMON has grown!")
 }
 
 text SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing {
-    format("How is your POKéMON growing? Allow me to examine it.")
+    format("How is your POKMON growing? Allow me to examine it.")
 }
 
 text SlateportCity_PokemonFanClub_Text_HmHmISee {
-    format("Hm, hm… I see…")
+    format("Hm, hm I see")
 }
 
 text SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks {
-    format("Hmmm… It's not bad, but it's not good, either…\p You, the TRAINER, must put more effort into raising this POKéMON!\p For instance, may I suggest that you give it more {POKEBLOCK}S?")
+    format("Hmmm It's not bad, but it's not good, either\p You, the TRAINER, must put more effort into raising this POKMON!\p For instance, may I suggest that you give it more {POKEBLOCK}S?")
 }
 
 text SlateportCity_PokemonFanClub_Text_NoSpaceForReward {
-    format("Oh, my…\p Your POKéMON is growing quite well, so you deserve a reward.\p Unfortunately, you have no space for this in your BAG.")
+    format("Oh, my\p Your POKMON is growing quite well, so you deserve a reward.\p Unfortunately, you have no space for this in your BAG.")
 }
 
 text SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis {
@@ -35,55 +35,55 @@ text SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis {
 }
 
 text SlateportCity_PokemonFanClub_Text_ExplainRedScarf {
-    format("Let a POKéMON hold that RED SCARF.\p Everyone will recognize the coolness of that POKéMON!")
+    format("Let a POKMON hold that RED SCARF.\p Everyone will recognize the coolness of that POKMON!")
 }
 
 text SlateportCity_PokemonFanClub_Text_ExplainBlueScarf {
-    format("Let a POKéMON hold that BLUE SCARF.\p Its beauty will be accentuated much more than now!")
+    format("Let a POKMON hold that BLUE SCARF.\p Its beauty will be accentuated much more than now!")
 }
 
 text SlateportCity_PokemonFanClub_Text_ExplainPinkScarf {
-    format("Let a POKéMON hold that PINK SCARF.\p It will draw out the cuteness of the POKéMON some more!")
+    format("Let a POKMON hold that PINK SCARF.\p It will draw out the cuteness of the POKMON some more!")
 }
 
 text SlateportCity_PokemonFanClub_Text_ExplainGreenScarf {
-    format("Let a POKéMON hold that GREEN SCARF.\p That will enhance the smartness of POKéMON!")
+    format("Let a POKMON hold that GREEN SCARF.\p That will enhance the smartness of POKMON!")
 }
 
 text SlateportCity_PokemonFanClub_Text_ExplainYellowScarf {
-    format("Let a POKéMON hold that YELLOW SCARF.\p It will bolster your POKéMON's toughness so much more!")
+    format("Let a POKMON hold that YELLOW SCARF.\p It will bolster your POKMON's toughness so much more!")
 }
 
 text SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou {
-    format("I'm sorry, but I've nothing else to give you! None at all!\p After all, you're blessed with the gift of raising POKéMON without resorting\l to any items!")
+    format("I'm sorry, but I've nothing else to give you! None at all!\p After all, you're blessed with the gift of raising POKMON without resorting\l to any items!")
 }
 
 text SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou {
-    format("I love seeing POKéMON that love their TRAINERS.\p POKéMON are very sensitive to the feelings of their TRAINERS.\p If you treat your POKéMON with love and care, they'll love you back.\p When your POKéMON grow to love you, please come show me.")
+    format("I love seeing POKMON that love their TRAINERS.\p POKMON are very sensitive to the feelings of their TRAINERS.\p If you treat your POKMON with love and care, they'll love you back.\p When your POKMON grow to love you, please come show me.")
 }
 
 text SlateportCity_PokemonFanClub_Text_PokemonAdoresYou {
-    format("Your POKéMON really adores you.\p For you, a most compassionate TRAINER, a gift from the FAN CLUB!")
+    format("Your POKMON really adores you.\p For you, a most compassionate TRAINER, a gift from the FAN CLUB!")
 }
 
 text SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove {
-    format("POKéMON are very sensitive to the feelings of their TRAINERS.\p If you treat your POKéMON with love and care, they'll love you back.")
+    format("POKMON are very sensitive to the feelings of their TRAINERS.\p If you treat your POKMON with love and care, they'll love you back.")
 }
 
 text SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting {
-    format("If you keep letting a POKéMON faint in battle, it'll come to resent it.\p Soon, it will become less trusting of the TRAINER.\p In other words, it certainly won't like you very much.")
+    format("If you keep letting a POKMON faint in battle, it'll come to resent it.\p Soon, it will become less trusting of the TRAINER.\p In other words, it certainly won't like you very much.")
 }
 
 text SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein {
-    format("Do POKéMON enjoy having items used on them?\p Mine acted really happy when I gave it some PROTEIN.")
+    format("Do POKMON enjoy having items used on them?\p Mine acted really happy when I gave it some PROTEIN.")
 }
 
 text SlateportCity_PokemonFanClub_Text_Skitty {
-    format("SKITTY: Fffnyaaaah…")
+    format("SKITTY: Fffnyaaaah")
 }
 
 text SlateportCity_PokemonFanClub_Text_Zigzagoon {
-    format("ZIGZAGOON: Kyuuu…")
+    format("ZIGZAGOON: Kyuuu")
 }
 
 text SlateportCity_PokemonFanClub_Text_Azumarill {

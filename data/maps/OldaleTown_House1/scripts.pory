@@ -3,6 +3,6 @@ mapscripts OldaleTown_House1_MapScripts {
 
 
 text OldaleTown_House1_Text_LeftPokemonGoesOutFirst {
-    format("When a POKéMON battle starts, the one at the left of the list goes out first.\p So, when you get more POKéMON in your party, try switching around the order\l of your POKéMON.\p It could give you an advantage.")
+    format("When a POKMON battle starts, the one at the left of the list goes out first.\p So, when you get more POKMON in your party, try switching around the order\l of your POKMON.\p It could give you an advantage.")
 }
 

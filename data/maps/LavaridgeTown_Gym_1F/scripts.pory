@@ -4,7 +4,7 @@ mapscripts LavaridgeTown_Gym_1F_MapScripts {
 
 
 text LavaridgeTown_Gym_1F_Text_GymGuideAdvice {
-    format("Hey, how's it going, CHAMPION- bound {PLAYER}?\p LAVARIDGE's GYM LEADER FLANNERY uses FIRE-type POKéMON.\p Her passion for POKéMON burns stronger and hotter than a volcano.\p Don't get too close to her--you'll burn! Hose her down with water and then\l go for it!")
+    format("Hey, how's it going, CHAMPION- bound {PLAYER}?\p LAVARIDGE's GYM LEADER FLANNERY uses FIRE-type POKMON.\p Her passion for POKMON burns stronger and hotter than a volcano.\p Don't get too close to her--you'll burn! Hose her down with water and then\l go for it!")
 }
 
 text LavaridgeTown_Gym_1F_Text_GymGuidePostVictory {
@@ -16,7 +16,7 @@ text LavaridgeTown_Gym_1F_Text_ColeIntro {
 }
 
 text LavaridgeTown_Gym_1F_Text_ColeDefeat {
-    format("I'm blinded by sweat in my eyes…")
+    format("I'm blinded by sweat in my eyes")
 }
 
 text LavaridgeTown_Gym_1F_Text_ColePostBattle {
@@ -32,7 +32,7 @@ text LavaridgeTown_Gym_1F_Text_AxleDefeat {
 }
 
 text LavaridgeTown_Gym_1F_Text_AxlePostBattle {
-    format("Haaah… Whew…\p If you spend too much time buried in hot sand, it tuckers you out…")
+    format("Haaah Whew\p If you spend too much time buried in hot sand, it tuckers you out")
 }
 
 text LavaridgeTown_Gym_B1F_Text_KeeganIntro {
@@ -40,27 +40,27 @@ text LavaridgeTown_Gym_B1F_Text_KeeganIntro {
 }
 
 text LavaridgeTown_Gym_B1F_Text_KeeganDefeat {
-    format("Play with fire, and be burned…")
+    format("Play with fire, and be burned")
 }
 
 text LavaridgeTown_Gym_B1F_Text_KeeganPostBattle {
-    format("Your skill is real… But our LEADER FLANNERY is strong.\p If you don't watch yourself, you'll be burned seriously.")
+    format("Your skill is real But our LEADER FLANNERY is strong.\p If you don't watch yourself, you'll be burned seriously.")
 }
 
 text LavaridgeTown_Gym_1F_Text_GeraldIntro {
-    format("Can your POKéMON withstand 392-degree heat?")
+    format("Can your POKMON withstand 392-degree heat?")
 }
 
 text LavaridgeTown_Gym_1F_Text_GeraldDefeat {
-    format("It didn't burn hotly enough…")
+    format("It didn't burn hotly enough")
 }
 
 text LavaridgeTown_Gym_1F_Text_GeraldPostBattle {
-    format("The temperature of magma is 392 degrees.\p Your POKéMON beat me, so they should easily survive in magma.")
+    format("The temperature of magma is 392 degrees.\p Your POKMON beat me, so they should easily survive in magma.")
 }
 
 text LavaridgeTown_Gym_1F_Text_DanielleIntro {
-    format("Um… Okay, I'll battle with you.")
+    format("Um Okay, I'll battle with you.")
 }
 
 text LavaridgeTown_Gym_1F_Text_DanielleDefeat {
@@ -76,7 +76,7 @@ text LavaridgeTown_Gym_B1F_Text_JaceIntro {
 }
 
 text LavaridgeTown_Gym_B1F_Text_JaceDefeat {
-    format("It's so hot, and yet my heart is clutched by ice…")
+    format("It's so hot, and yet my heart is clutched by ice")
 }
 
 text LavaridgeTown_Gym_B1F_Text_JacePostBattle {
@@ -92,7 +92,7 @@ text LavaridgeTown_Gym_B1F_Text_JeffDefeat {
 }
 
 text LavaridgeTown_Gym_B1F_Text_JeffPostBattle {
-    format("Well, so what? I say so what? I can walk on hot coals barefoot!\p …Don't even think about trying it!")
+    format("Well, so what? I say so what? I can walk on hot coals barefoot!\p Don't even think about trying it!")
 }
 
 text LavaridgeTown_Gym_B1F_Text_EliIntro {
@@ -108,11 +108,11 @@ text LavaridgeTown_Gym_B1F_Text_EliPostBattle {
 }
 
 text LavaridgeTown_Gym_1F_Text_FlanneryIntro {
-    format("Welcome… No, wait.\p Puny TRAINER, how good to see you've made it here!\p I have been entrusted with the… No, wait.\p I am FLANNERY, and I'm the GYM LEADER here!\p Uh… Dare not underestimate me, though\l I have been LEADER only a short time!\p With skills inherited from my grand- father, I shall, uh…demonstrate the\l hot moves we have honed on this land!")
+    format("Welcome No, wait.\p Puny TRAINER, how good to see you've made it here!\p I have been entrusted with the No, wait.\p I am FLANNERY, and I'm the GYM LEADER here!\p Uh Dare not underestimate me, though\l I have been LEADER only a short time!\p With skills inherited from my grand- father, I shall, uhdemonstrate the\l hot moves we have honed on this land!")
 }
 
 text LavaridgeTown_Gym_1F_Text_FlanneryDefeat {
-    format("Oh… I guess I was trying too hard…\p I… I've only recently become a GYM LEADER.\p I tried too hard to be someone I'm not.\p I have to do things my natural way. If I don't, my POKéMON will be confused.\p Thanks for teaching me that. For that, you deserve this.")
+    format("Oh I guess I was trying too hard\p I I've only recently become a GYM LEADER.\p I tried too hard to be someone I'm not.\p I have to do things my natural way. If I don't, my POKMON will be confused.\p Thanks for teaching me that. For that, you deserve this.")
 }
 
 text LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge {
@@ -120,31 +120,31 @@ text LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge {
 }
 
 text LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis {
-    format("If you have a HEAT BADGE, all POKéMON up to Level 50, even those you get in\l trades from other people, will obey\l you completely.\p And, it lets POKéMON use the HM move STRENGTH outside of battle.\p This is a token of my appreciation. Don't be shy about taking it!")
+    format("If you have a HEAT BADGE, all POKMON up to Level 50, even those you get in\l trades from other people, will obey\l you completely.\p And, it lets POKMON use the HM move STRENGTH outside of battle.\p This is a token of my appreciation. Don't be shy about taking it!")
 }
 
 text LavaridgeTown_Gym_1F_Text_ExplainOverheat {
-    format("That TM50 contains OVERHEAT.\p That move inflicts serious damage on the opponent.\p But it also sharply cuts the SP. ATK of the POKéMON using it. It might not\l be suitable for longer battles.")
+    format("That TM50 contains OVERHEAT.\p That move inflicts serious damage on the opponent.\p But it also sharply cuts the SP. ATK of the POKMON using it. It might not\l be suitable for longer battles.")
 }
 
 text LavaridgeTown_Gym_1F_Text_RegisteredFlannery {
-    format("Registered GYM LEADER FLANNERY in the POKéNAV.")
+    format("Registered GYM LEADER FLANNERY in the POKNAV.")
 }
 
 text LavaridgeTown_Gym_1F_Text_FlanneryPostBattle {
-    format("Your power reminds me of someone…\p Oh! I know! You battle like NORMAN, the GYM LEADER of PETALBURG.")
+    format("Your power reminds me of someone\p Oh! I know! You battle like NORMAN, the GYM LEADER of PETALBURG.")
 }
 
 text LavaridgeTown_Gym_1F_Text_GymStatue {
-    format("LAVARIDGE TOWN POKéMON GYM")
+    format("LAVARIDGE TOWN POKMON GYM")
 }
 
 text LavaridgeTown_Gym_1F_Text_GymStatueCertified {
-    format("LAVARIDGE TOWN POKéMON GYM\p FLANNERY'S CERTIFIED TRAINERS: {PLAYER}")
+    format("LAVARIDGE TOWN POKMON GYM\p FLANNERY'S CERTIFIED TRAINERS: {PLAYER}")
 }
 
 text LavaridgeTown_Gym_1F_Text_FlanneryPreRematch {
-    format("FLANNERY: Losing a battle isn't going to deflate me.\p I love POKéMON. I love to battle.\l And… I love this GYM!\p Let's exchange superhot moves in another battle!")
+    format("FLANNERY: Losing a battle isn't going to deflate me.\p I love POKMON. I love to battle.\l And I love this GYM!\p Let's exchange superhot moves in another battle!")
 }
 
 text LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat {
@@ -156,6 +156,6 @@ text LavaridgeTown_Gym_1F_Text_FlanneryPostRematch {
 }
 
 text LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons {
-    format("FLANNERY: Losing a battle isn't going to deflate me.\p I love POKéMON. I love to battle.\l And… I love this GYM!\p Let's exchange superhot moves in another battle!\p Oh, wait. Do you only have one POKéMON that can battle?\p I hate to say this, but when you come see me, bring at least two POKéMON.")
+    format("FLANNERY: Losing a battle isn't going to deflate me.\p I love POKMON. I love to battle.\l And I love this GYM!\p Let's exchange superhot moves in another battle!\p Oh, wait. Do you only have one POKMON that can battle?\p I hate to say this, but when you come see me, bring at least two POKMON.")
 }
 

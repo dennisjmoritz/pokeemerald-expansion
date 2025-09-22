@@ -5,7 +5,7 @@ mapscripts CeladonCity_PokemonCenter_1F_MapScripts {
 
 
 text CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons {
-    format("A POKé FLUTE awakens sleeping POKéMON. You know that.\p It does so with a sound that only they can hear.")
+    format("A POK FLUTE awakens sleeping POKMON. You know that.\p It does so with a sound that only they can hear.")
 }
 
 text CeladonCity_PokemonCenter_1F_Text_RodeHereFromFuchsia {

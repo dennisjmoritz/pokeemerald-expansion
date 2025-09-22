@@ -3,7 +3,7 @@ mapscripts LavaridgeTown_House_MapScripts {
 
 
 text LavaridgeTown_House_Text_WifeWarmingEggInHotSprings {
-    format("My wife's warming an EGG in the hot springs. This is what she told me.\p She left two POKéMON with the DAY CARE. And they discovered that EGG!")
+    format("My wife's warming an EGG in the hot springs. This is what she told me.\p She left two POKMON with the DAY CARE. And they discovered that EGG!")
 }
 
 text LavaridgeTown_House_Text_Zigzagoon {

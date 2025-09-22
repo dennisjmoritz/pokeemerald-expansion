@@ -20,7 +20,7 @@ text SilphCo_6F_Text_WeGotEngaged {
 }
 
 text SilphCo_6F_Text_ThatManIsSuchACoward {
-    format("That man next to me… He's such a coward!")
+    format("That man next to me He's such a coward!")
 }
 
 text SilphCo_6F_Text_NeedsMeToLookAfterHim {
@@ -28,7 +28,7 @@ text SilphCo_6F_Text_NeedsMeToLookAfterHim {
 }
 
 text SilphCo_6F_Text_RocketsTryingToConquerWorld {
-    format("TEAM ROCKET is trying to conquer the world with POKéMON.")
+    format("TEAM ROCKET is trying to conquer the world with POKMON.")
 }
 
 text SilphCo_6F_Text_RocketsRanAwayBecauseOfYou {
@@ -36,7 +36,7 @@ text SilphCo_6F_Text_RocketsRanAwayBecauseOfYou {
 }
 
 text SilphCo_6F_Text_TargetedSilphForOurMonProducts {
-    format("They must have targeted SILPH for our POKéMON products.")
+    format("They must have targeted SILPH for our POKMON products.")
 }
 
 text SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder {

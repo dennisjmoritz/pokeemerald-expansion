@@ -3,15 +3,15 @@ mapscripts SlateportCity_NameRatersHouse_MapScripts {
 
 
 text SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname {
-    format("Hi, hi! I'm the NAME RATER! I'm the fortune-teller of names!\p I shall be pleased to rate your POKéMON's nickname.")
+    format("Hi, hi! I'm the NAME RATER! I'm the fortune-teller of names!\p I shall be pleased to rate your POKMON's nickname.")
 }
 
 text SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname {
-    format("Which POKéMON's nickname should I critique?")
+    format("Which POKMON's nickname should I critique?")
 }
 
 text SlateportCity_NameRatersHouse_Text_FineNameSuggestBetterOne {
-    format("Hmmm… {STR_VAR_1}, is it? That is quite a fine name you bestowed.\p But! What say you, if I were to suggest a slightly better name?")
+    format("Hmmm {STR_VAR_1}, is it? That is quite a fine name you bestowed.\p But! What say you, if I were to suggest a slightly better name?")
 }
 
 text SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe {
@@ -19,7 +19,7 @@ text SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe {
 }
 
 text SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName {
-    format("Done! From now on, this POKéMON shall be known as {STR_VAR_1}!\p It is a better name than before! How fortunate for you!")
+    format("Done! From now on, this POKMON shall be known as {STR_VAR_1}!\p It is a better name than before! How fortunate for you!")
 }
 
 text SlateportCity_NameRatersHouse_Text_DoVisitAgain {
@@ -27,11 +27,11 @@ text SlateportCity_NameRatersHouse_Text_DoVisitAgain {
 }
 
 text SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior {
-    format("Done! From now on, this POKéMON shall be known as {STR_VAR_1}!\p It looks no different from before, and yet, this is vastly superior!\p How fortunate for you!")
+    format("Done! From now on, this POKMON shall be known as {STR_VAR_1}!\p It looks no different from before, and yet, this is vastly superior!\p How fortunate for you!")
 }
 
 text SlateportCity_NameRatersHouse_Text_MagnificentName {
-    format("Hmmm… {STR_VAR_1} it is!\p This is a magnificent nickname! It is impeccably beyond reproach!\p You'll do well to cherish your {STR_VAR_1} now and beyond.")
+    format("Hmmm {STR_VAR_1} it is!\p This is a magnificent nickname! It is impeccably beyond reproach!\p You'll do well to cherish your {STR_VAR_1} now and beyond.")
 }
 
 text SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg {

@@ -3,6 +3,6 @@ mapscripts SSAnne_3F_Corridor_MapScripts {
 
 
 text SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons {
-    format("Our CAPTAIN is a sword master. He's awesome at using CUT.\p They say he even teaches CUT to POKéMON!")
+    format("Our CAPTAIN is a sword master. He's awesome at using CUT.\p They say he even teaches CUT to POKMON!")
 }
 

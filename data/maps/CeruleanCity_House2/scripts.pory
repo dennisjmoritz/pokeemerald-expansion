@@ -3,7 +3,7 @@ mapscripts CeruleanCity_House2_MapScripts {
 
 
 text CeruleanCity_House2_Text_RocketsStoleTMForDig {
-    format("Those miserable ROCKETS!\p Look what they've done to my house!\p They stole a TM for teaching POKéMON how to DIG holes!\p I was going to use it on a MANKEY or a SANDSHREW…\p That cost me a bundle, it did!")
+    format("Those miserable ROCKETS!\p Look what they've done to my house!\p They stole a TM for teaching POKMON how to DIG holes!\p I was going to use it on a MANKEY or a SANDSHREW\p That cost me a bundle, it did!")
 }
 
 text CeruleanCity_House2_Text_TeachDiglettDigWithoutTM {

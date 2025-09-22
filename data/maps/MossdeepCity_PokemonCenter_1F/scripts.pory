@@ -9,6 +9,6 @@ text MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable {
 }
 
 text MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves {
-    format("Depending on the special abilities of POKéMON, some moves might change\l or not work at all.")
+    format("Depending on the special abilities of POKMON, some moves might change\l or not work at all.")
 }
 

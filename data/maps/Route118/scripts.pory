@@ -6,7 +6,7 @@ mapscripts Route118_MapScripts {
 
 
 text Route118_Text_StevenQuestions {
-    format("STEVEN: Hi, {PLAYER}{KUN}!\p It's me, STEVEN! We met in the cave near DEWFORD.\p Have you met many kinds of POKéMON since I last saw you?\p There are many, many kinds of POKéMON in this wide world of ours.\p If you wanted to raise only your favorites, that's fine.\p Perhaps you find it more fun to raise all sorts of POKéMON.\p As a TRAINER of POKéMON, what do you think?\p Of course, it's not any of my business.\p It would be nice if we were to meet again somewhere.")
+    format("STEVEN: Hi, {PLAYER}{KUN}!\p It's me, STEVEN! We met in the cave near DEWFORD.\p Have you met many kinds of POKMON since I last saw you?\p There are many, many kinds of POKMON in this wide world of ours.\p If you wanted to raise only your favorites, that's fine.\p Perhaps you find it more fun to raise all sorts of POKMON.\p As a TRAINER of POKMON, what do you think?\p Of course, it's not any of my business.\p It would be nice if we were to meet again somewhere.")
 }
 
 text Route118_Text_YouAgreeGoodRodIsGood {
@@ -26,11 +26,11 @@ text Route118_Text_DontYouLikeToFish {
 }
 
 text Route118_Text_TryCatchingMonWithGoodRod {
-    format("Try catching all sorts of POKéMON with your GOOD ROD.")
+    format("Try catching all sorts of POKMON with your GOOD ROD.")
 }
 
 text Route118_Text_CanCrossRiversWithSurf {
-    format("Even if there isn't a boat, you can cross rivers and the sea if you have\l a POKéMON that knows SURF.\p POKéMON can be counted on to do so much!")
+    format("Even if there isn't a boat, you can cross rivers and the sea if you have\l a POKMON that knows SURF.\p POKMON can be counted on to do so much!")
 }
 
 text Route118_Text_RouteSignMauville {

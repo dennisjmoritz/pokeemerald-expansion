@@ -7,15 +7,15 @@ mapscripts BattleFrontier_BattlePikeRoomNormal_MapScripts {
 
 
 text BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth {
-    format("Welcome… You must be commended for your luck…\p Your POKéMON shall be restored to full health…")
+    format("Welcome You must be commended for your luck\p Your POKMON shall be restored to full health")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge {
-    format("I urge you to enjoy the rest of your Battle Choice challenge…")
+    format("I urge you to enjoy the rest of your Battle Choice challenge")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon {
-    format("Ah, you're a lucky one. I'm in somewhat-good spirits now.\p I will restore one of your POKéMON to full health.")
+    format("Ah, you're a lucky one. I'm in somewhat-good spirits now.\p I will restore one of your POKMON to full health.")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell {
@@ -23,19 +23,19 @@ text BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell {
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons {
-    format("Excuse me…\p Would you care for a battle? I'll restore your POKéMON if you win.")
+    format("Excuse me\p Would you care for a battle? I'll restore your POKMON if you win.")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe {
-    format("Very well… Now, shall we?")
+    format("Very well Now, shall we?")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou {
-    format("I see… How unsporting of you…")
+    format("I see How unsporting of you")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised {
-    format("Magnificent…\p As promised, I shall restore your POKéMON to full health.")
+    format("Magnificent\p As promised, I shall restore your POKMON to full health.")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2 {
@@ -83,47 +83,47 @@ text BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough {
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia {
-    format("I must apologize to you…\p My KIRLIA has a TIMID nature…")
+    format("I must apologize to you\p My KIRLIA has a TIMID nature")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops {
-    format("I must apologize to you…\p My DUSCLOPS has a TIMID nature…")
+    format("I must apologize to you\p My DUSCLOPS has a TIMID nature")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled {
-    format("It attacks without warning if it is startled by another person…\p Are you and your POKéMON all right?")
+    format("It attacks without warning if it is startled by another person\p Are you and your POKMON all right?")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine {
-    format("I do apologize for what happened… I do hope your POKéMON are fine.")
+    format("I do apologize for what happened I do hope your POKMON are fine.")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_Silence {
-    format("… … … … … … … … … … … …")
+    format("           ")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer {
-    format("Welcome…\p Here, we will have you battle a somewhat-tough TRAINER…")
+    format("Welcome\p Here, we will have you battle a somewhat-tough TRAINER")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth {
-    format("How wonderful…\p To honor your victory, your POKéMON shall be restored to full health…")
+    format("How wonderful\p To honor your victory, your POKMON shall be restored to full health")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2 {
-    format("I urge you to enjoy the rest of your Battle Choice challenge…")
+    format("I urge you to enjoy the rest of your Battle Choice challenge")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen {
-    format("I am LUCY… I am the law here…\l For I am the PIKE QUEEN…\p You already know it, but to advance, you must defeat me…\p …I'm not one for idle chatter. Hurry. Come on…")
+    format("I am LUCY I am the law here\l For I am the PIKE QUEEN\p You already know it, but to advance, you must defeat me\p I'm not one for idle chatter. Hurry. Come on")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck {
-    format("Your luck… I hope you didn't use it all up here…")
+    format("Your luck I hope you didn't use it all up here")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass {
-    format("LUCY: … … … … … … Show me your FRONTIER PASS…")
+    format("LUCY:       Show me your FRONTIER PASS")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol {
@@ -131,11 +131,11 @@ text BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol {
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear {
-    format("…That's all there is… Disappear already…")
+    format("That's all there is Disappear already")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain {
-    format("LUCY: …You again…\p … … … … … …\p …I've trampled flowers and braved storms to get to where I am…\p I don't feel any compulsion to keep losing to the same opponent…\p … … … … … … Fine… I'll do it…")
+    format("LUCY: You again\p      \p I've trampled flowers and braved storms to get to where I am\p I don't feel any compulsion to keep losing to the same opponent\p       Fine I'll do it")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn {
@@ -143,7 +143,7 @@ text BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn {
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass {
-    format("LUCY: … … … … … …\p …FRONTIER PASS…")
+    format("LUCY:      \p FRONTIER PASS")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine {
@@ -151,30 +151,30 @@ text BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine {
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_IWontForget {
-    format("…You, I won't forget… …Ever…")
+    format("You, I won't forget Ever")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal {
-    format("I welcome you…\p Giggle… You seem to be bereft of luck…\p If only you hadn't chosen this room, your POKéMON could have been healed…")
+    format("I welcome you\p Giggle You seem to be bereft of luck\p If only you hadn't chosen this room, your POKMON could have been healed")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne {
-    format("I welcome you…\p Since you have chosen this room, I will restore one POKéMON to full health…")
+    format("I welcome you\p Since you have chosen this room, I will restore one POKMON to full health")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo {
-    format("I welcome you…\p Since you have chosen this room, I will restore two POKéMON to full health…")
+    format("I welcome you\p Since you have chosen this room, I will restore two POKMON to full health")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons {
-    format("I welcome you…\p Giggle… You should thank your lucky stars…\p Since you have chosen this room, all your POKéMON will be restored…")
+    format("I welcome you\p Giggle You should thank your lucky stars\p Since you have chosen this room, all your POKMON will be restored")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster {
-    format("I shall go fetch our master…")
+    format("I shall go fetch our master")
 }
 
 text BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons {
-    format("Ah, you're a lucky one! I'm in good spirits now.\p I will restore two of your POKéMON to full health!")
+    format("Ah, you're a lucky one! I'm in good spirits now.\p I will restore two of your POKMON to full health!")
 }
 

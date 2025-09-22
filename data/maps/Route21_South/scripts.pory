@@ -3,7 +3,7 @@ mapscripts Route21_South_MapScripts {
 
 
 text Route21_South_Text_JackIntro {
-    format("I caught my POKéMON at sea.")
+    format("I caught my POKMON at sea.")
 }
 
 text Route21_South_Text_JackDefeat {
@@ -11,7 +11,7 @@ text Route21_South_Text_JackDefeat {
 }
 
 text Route21_South_Text_JackPostBattle {
-    format("Where'd you catch your POKéMON?")
+    format("Where'd you catch your POKMON?")
 }
 
 text Route21_South_Text_JeromeIntro {
@@ -19,7 +19,7 @@ text Route21_South_Text_JeromeIntro {
 }
 
 text Route21_South_Text_JeromeDefeat {
-    format("Pant… Pant… Pant…")
+    format("Pant Pant Pant")
 }
 
 text Route21_South_Text_JeromePostBattle {
@@ -75,7 +75,7 @@ text Route21_North_Text_LilPostBattle {
 }
 
 text Route21_North_Text_LilNotEnoughMons {
-    format("LIL: Huh? A battle? I can't be bothered to do it alone.\l Bring two POKéMON, won't you?")
+    format("LIL: Huh? A battle? I can't be bothered to do it alone.\l Bring two POKMON, won't you?")
 }
 
 text Route21_North_Text_IanIntro {
@@ -91,6 +91,6 @@ text Route21_North_Text_IanPostBattle {
 }
 
 text Route21_North_Text_IanNotEnoughMons {
-    format("IAN: We want a two-on-two battle. So can you bring two POKéMON?")
+    format("IAN: We want a two-on-two battle. So can you bring two POKMON?")
 }
 

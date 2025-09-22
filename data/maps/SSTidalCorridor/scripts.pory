@@ -4,7 +4,7 @@ mapscripts SSTidalCorridor_MapScripts {
 
 
 text SSTidalCorridor_Text_ScottBattleFrontierInvite {
-    format("SCOTT: Well, hi, hi! {PLAYER}{KUN}, {PLAYER}{KUN}!\p Something's come up, so I have to disembark, but am I glad to see you!\p Congratulations, LEAGUE CHAMPION!\p There's a place I'd like to invite someone like you.\p It's the… BATTLE FRONTIER!\p What's the place like? You'll understand when you see it!\p I've spoken with the ship's CAPTAIN about this.\p The next time you take a ferry, you should be able to sail to\l the BATTLE FRONTIER.\p Okay, {PLAYER}{KUN}, I'll be waiting for you at the BATTLE FRONTIER!")
+    format("SCOTT: Well, hi, hi! {PLAYER}{KUN}, {PLAYER}{KUN}!\p Something's come up, so I have to disembark, but am I glad to see you!\p Congratulations, LEAGUE CHAMPION!\p There's a place I'd like to invite someone like you.\p It's the BATTLE FRONTIER!\p What's the place like? You'll understand when you see it!\p I've spoken with the ship's CAPTAIN about this.\p The next time you take a ferry, you should be able to sail to\l the BATTLE FRONTIER.\p Okay, {PLAYER}{KUN}, I'll be waiting for you at the BATTLE FRONTIER!")
 }
 
 text SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage {
@@ -44,11 +44,11 @@ text SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole {
 }
 
 text SSTidalCorridor_Text_BrineyWelcomeAboard {
-    format("MR. BRINEY: Welcome aboard, {PLAYER}{KUN}!\p They made me honorary captain of the S.S. TIDAL!\p You can call me CAPTAIN BRINEY now!\p You know, I retired once before, but when I saw this majestic ship…\p Let me just say, it stirred my sleeping soul as a sailor!")
+    format("MR. BRINEY: Welcome aboard, {PLAYER}{KUN}!\p They made me honorary captain of the S.S. TIDAL!\p You can call me CAPTAIN BRINEY now!\p You know, I retired once before, but when I saw this majestic ship\p Let me just say, it stirred my sleeping soul as a sailor!")
 }
 
 text SSTidalCorridor_Text_Peeko {
-    format("PEEKO: Pihyo pihyohyo…")
+    format("PEEKO: Pihyo pihyohyo")
 }
 
 text SSTidalCorridor_Text_Cabin1 {

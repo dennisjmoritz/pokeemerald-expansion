@@ -11,7 +11,7 @@ text SSAnne_Deck_Text_ScrubbingDecksHardWork {
 }
 
 text SSAnne_Deck_Text_FeelSeasick {
-    format("Urf… I feel ill…\p I got seasick, so I stepped out to get some air…")
+    format("Urf I feel ill\p I got seasick, so I stepped out to get some air")
 }
 
 text SSAnne_Deck_Text_EdmondIntro {
@@ -23,7 +23,7 @@ text SSAnne_Deck_Text_EdmondDefeat {
 }
 
 text SSAnne_Deck_Text_EdmondPostBattle {
-    format("How many kinds of POKéMON do you think there are in this big world?")
+    format("How many kinds of POKMON do you think there are in this big world?")
 }
 
 text SSAnne_Deck_Text_TrevorIntro {
@@ -35,6 +35,6 @@ text SSAnne_Deck_Text_TrevorDefeat {
 }
 
 text SSAnne_Deck_Text_TrevorPostBattle {
-    format("My pa said there are 100 kinds of POKéMON. I think there are more.")
+    format("My pa said there are 100 kinds of POKMON. I think there are more.")
 }
 

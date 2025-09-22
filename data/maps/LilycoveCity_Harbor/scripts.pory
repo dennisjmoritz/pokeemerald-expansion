@@ -4,7 +4,7 @@ mapscripts LilycoveCity_Harbor_MapScripts {
 
 
 text LilycoveCity_Harbor_Text_FerryUnavailable {
-    format("I beg your pardon? You're looking for a ship?\p I'm sorry, the ferry service isn't available at present…")
+    format("I beg your pardon? You're looking for a ship?\p I'm sorry, the ferry service isn't available at present")
 }
 
 text LilycoveCity_Harbor_Text_MayISeeYourTicket {
@@ -12,7 +12,7 @@ text LilycoveCity_Harbor_Text_MayISeeYourTicket {
 }
 
 text LilycoveCity_Harbor_Text_NoTicket {
-    format("{PLAYER} doesn't have the TICKET…\p I'm terribly sorry.\p You must have a TICKET to board the ferry.")
+    format("{PLAYER} doesn't have the TICKET\p I'm terribly sorry.\p You must have a TICKET to board the ferry.")
 }
 
 text LilycoveCity_Harbor_Text_FlashTicketWhereTo {
@@ -40,7 +40,7 @@ text LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo {
 }
 
 text LilycoveCity_Harbor_Text_SailorFerryUnavailable {
-    format("Until they finish making the ferry, we sailors have nothing to do…\p I wish they'd get a move on, the folks at the SHIPYARD in SLATEPORT.")
+    format("Until they finish making the ferry, we sailors have nothing to do\p I wish they'd get a move on, the folks at the SHIPYARD in SLATEPORT.")
 }
 
 text LilycoveCity_Harbor_Text_SailorFerryAvailable {

@@ -3,11 +3,11 @@ mapscripts Route102_MapScripts {
 
 
 text Route102_Text_WatchMeCatchPokemon {
-    format("WALLY: {PLAYER}… POKéMON hide in tall grass like this,\l don't they?\p Please watch me and see if I can catch one properly.\p …Whoa!")
+    format("WALLY: {PLAYER} POKMON hide in tall grass like this,\l don't they?\p Please watch me and see if I can catch one properly.\p Whoa!")
 }
 
 text Route102_Text_WallyIDidIt {
-    format("WALLY: I did it… It's my… My POKéMON!")
+    format("WALLY: I did it It's my My POKMON!")
 }
 
 text Route102_Text_LetsGoBack {
@@ -15,11 +15,11 @@ text Route102_Text_LetsGoBack {
 }
 
 text Route102_Text_ImNotVeryTall {
-    format("I'm…not very tall, so I sink right into tall grass.\p The grass goes up my nose and… Fwafwafwafwafwa…\p Fwatchoo!")
+    format("I'mnot very tall, so I sink right into tall grass.\p The grass goes up my nose and Fwafwafwafwafwa\p Fwatchoo!")
 }
 
 text Route102_Text_CatchWholeBunchOfPokemon {
-    format("I'm going to catch a whole bunch of POKéMON!")
+    format("I'm going to catch a whole bunch of POKMON!")
 }
 
 text Route102_Text_RouteSignOldale {

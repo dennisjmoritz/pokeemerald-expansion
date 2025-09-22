@@ -6,10 +6,10 @@ mapscripts Route105_MapScripts {
 
 
 text Route104_Text_DadPokenavCall {
-    format("… … … … … … … … … … … Beep!\p DAD: Oh, {PLAYER}?\p … … … … … … Where are you now?\l It sounds windy wherever you are.\p I just heard from DEVON's MR. STONE about your POKéNAV, so I decided\l to give you a call.\p It sounds like you're doing fine, so that's fine with me.\p You take care now.\p … … … … … … … … … … … Click!")
+    format("           Beep!\p DAD: Oh, {PLAYER}?\p       Where are you now?\l It sounds windy wherever you are.\p I just heard from DEVON's MR. STONE about your POKNAV, so I decided\l to give you a call.\p It sounds like you're doing fine, so that's fine with me.\p You take care now.\p            Click!")
 }
 
 text Route104_Text_RegisteredDadInPokenav {
-    format("Registered DAD NORMAN in the POKéNAV.")
+    format("Registered DAD NORMAN in the POKNAV.")
 }
 

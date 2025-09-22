@@ -13,7 +13,7 @@ text PewterCity_PokemonCenter_1F_Text_Jigglypuff {
 }
 
 text PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy {
-    format("Yawn!\p When JIGGLYPUFF sings, POKéMON get drowsy…\p …Me, too… Snore…")
+    format("Yawn!\p When JIGGLYPUFF sings, POKMON get drowsy\p Me, too Snore")
 }
 
 text PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu {
@@ -21,6 +21,6 @@ text PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu {
 }
 
 text PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid {
-    format("I'm trading POKéMON with that kid there.\p I had two PIKACHU, so I figured I might as well trade one.")
+    format("I'm trading POKMON with that kid there.\p I had two PIKACHU, so I figured I might as well trade one.")
 }
 

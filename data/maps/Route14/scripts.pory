@@ -3,7 +3,7 @@ mapscripts Route14_MapScripts {
 
 
 text Route14_Text_CarterIntro {
-    format("You need to use TMs to teach good moves to POKéMON.")
+    format("You need to use TMs to teach good moves to POKMON.")
 }
 
 text Route14_Text_CarterDefeat {
@@ -11,11 +11,11 @@ text Route14_Text_CarterDefeat {
 }
 
 text Route14_Text_CarterPostBattle {
-    format("You have some HMs, right? POKéMON can't forget those moves easily.")
+    format("You have some HMs, right? POKMON can't forget those moves easily.")
 }
 
 text Route14_Text_MitchIntro {
-    format("My bird POKéMON should be ready for battle.")
+    format("My bird POKMON should be ready for battle.")
 }
 
 text Route14_Text_MitchDefeat {
@@ -23,7 +23,7 @@ text Route14_Text_MitchDefeat {
 }
 
 text Route14_Text_MitchPostBattle {
-    format("My bird POKéMON need to learn better moves.")
+    format("My bird POKMON need to learn better moves.")
 }
 
 text Route14_Text_BeckIntro {
@@ -35,11 +35,11 @@ text Route14_Text_BeckDefeat {
 }
 
 text Route14_Text_BeckPostBattle {
-    format("Try teaching POKéMON a move that's the same type as it.\p That apparently boosts the power of the move.")
+    format("Try teaching POKMON a move that's the same type as it.\p That apparently boosts the power of the move.")
 }
 
 text Route14_Text_MarlonIntro {
-    format("Have you taught your bird POKéMON how to FLY?\p You'll be able to soar with it into the sky!")
+    format("Have you taught your bird POKMON how to FLY?\p You'll be able to soar with it into the sky!")
 }
 
 text Route14_Text_MarlonDefeat {
@@ -47,7 +47,7 @@ text Route14_Text_MarlonDefeat {
 }
 
 text Route14_Text_MarlonPostBattle {
-    format("Bird POKéMON are my one true love. I don't want to raise anything else.")
+    format("Bird POKMON are my one true love. I don't want to raise anything else.")
 }
 
 text Route14_Text_DonaldIntro {
@@ -59,7 +59,7 @@ text Route14_Text_DonaldDefeat {
 }
 
 text Route14_Text_DonaldPostBattle {
-    format("Well, the winged mirages are the legendary bird POKéMON.\p There are three of them: ARTICUNO, ZAPDOS, and MOLTRES.")
+    format("Well, the winged mirages are the legendary bird POKMON.\p There are three of them: ARTICUNO, ZAPDOS, and MOLTRES.")
 }
 
 text Route14_Text_BennyIntro {
@@ -71,7 +71,7 @@ text Route14_Text_BennyDefeat {
 }
 
 text Route14_Text_BennyPostBattle {
-    format("Winning, losing… It's insignificant under this huge sky.")
+    format("Winning, losing It's insignificant under this huge sky.")
 }
 
 text Route14_Text_LukasIntro {
@@ -95,7 +95,7 @@ text Route14_Text_IsaacDefeat {
 }
 
 text Route14_Text_IsaacPostBattle {
-    format("Raising POKéMON is a drag, man.")
+    format("Raising POKMON is a drag, man.")
 }
 
 text Route14_Text_GeraldIntro {
@@ -107,11 +107,11 @@ text Route14_Text_GeraldDefeat {
 }
 
 text Route14_Text_GeraldPostBattle {
-    format("It's cool you made your POKéMON so strong.\p Might is right! And you know it!")
+    format("It's cool you made your POKMON so strong.\p Might is right! And you know it!")
 }
 
 text Route14_Text_MalikIntro {
-    format("POKéMON battle? Cool! Rumble!")
+    format("POKMON battle? Cool! Rumble!")
 }
 
 text Route14_Text_MalikDefeat {
@@ -131,7 +131,7 @@ text Route14_Text_KiriIntro {
 }
 
 text Route14_Text_KiriDefeat {
-    format("KIRI: Whimper… We lost, didn't we?")
+    format("KIRI: Whimper We lost, didn't we?")
 }
 
 text Route14_Text_KiriPostBattle {
@@ -139,7 +139,7 @@ text Route14_Text_KiriPostBattle {
 }
 
 text Route14_Text_KiriNotEnoughMons {
-    format("KIRI: We can battle if you have two POKéMON.")
+    format("KIRI: We can battle if you have two POKMON.")
 }
 
 text Route14_Text_JanIntro {
@@ -155,6 +155,6 @@ text Route14_Text_JanPostBattle {
 }
 
 text Route14_Text_JanNotEnoughMons {
-    format("JAN: You want to battle? You don't have enough POKéMON.")
+    format("JAN: You want to battle? You don't have enough POKMON.")
 }
 

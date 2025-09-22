@@ -4,11 +4,11 @@ mapscripts AquaHideout_B2F_MapScripts {
 
 
 text AquaHideout_B2F_Text_MattIntro {
-    format("Hehehe…\p Got here already, did you? We underestimated you!\p But this is it!\p I'm a cut above the GRUNTS you've seen so far.\p I'm not stalling for time. I'm going to pulverize you!")
+    format("Hehehe\p Got here already, did you? We underestimated you!\p But this is it!\p I'm a cut above the GRUNTS you've seen so far.\p I'm not stalling for time. I'm going to pulverize you!")
 }
 
 text AquaHideout_B2F_Text_MattDefeat {
-    format("Hehehe… So, I lost, too…")
+    format("Hehehe So, I lost, too")
 }
 
 text AquaHideout_B2F_Text_OurBossGotThroughHisPreparations {
@@ -24,11 +24,11 @@ text AquaHideout_B2F_Text_Grunt4Intro {
 }
 
 text AquaHideout_B2F_Text_Grunt4Defeat {
-    format("Tired of waiting… Lost and dazed…")
+    format("Tired of waiting Lost and dazed")
 }
 
 text AquaHideout_B2F_Text_Grunt4PostBattle {
-    format("BOSS… Is this good enough?")
+    format("BOSS Is this good enough?")
 }
 
 text AquaHideout_B2F_Text_Grunt6Intro {
@@ -40,7 +40,7 @@ text AquaHideout_B2F_Text_Grunt6Defeat {
 }
 
 text AquaHideout_B2F_Text_Grunt6PostBattle {
-    format("That reminds me… I can't remember where I put the MASTER BALL.\p If I fail to guard it, our BOSS will chew me out…")
+    format("That reminds me I can't remember where I put the MASTER BALL.\p If I fail to guard it, our BOSS will chew me out")
 }
 
 text AquaHideout_B2F_Text_Grunt8Intro {
@@ -48,10 +48,10 @@ text AquaHideout_B2F_Text_Grunt8Intro {
 }
 
 text AquaHideout_B2F_Text_Grunt8Defeat {
-    format("I was too occupied thinking about the warp panels…")
+    format("I was too occupied thinking about the warp panels")
 }
 
 text AquaHideout_B2F_Text_Grunt8PostBattle {
-    format("I'll have to learn about how I can battle more effectively…")
+    format("I'll have to learn about how I can battle more effectively")
 }
 

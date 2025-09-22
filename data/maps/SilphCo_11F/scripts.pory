@@ -16,7 +16,7 @@ text SilphCo_11F_Text_ObtainedMasterBallFromPresident {
 }
 
 text SilphCo_11F_Text_ThatsOurSecretPrototype {
-    format("PRESIDENT: You can't buy that anywhere.\p It's our secret prototype MASTER BALL.\p It will catch any POKéMON without fail!\p You should be quiet about using it, though.")
+    format("PRESIDENT: You can't buy that anywhere.\p It's our secret prototype MASTER BALL.\p It will catch any POKMON without fail!\p You should be quiet about using it, though.")
 }
 
 text SilphCo_11F_Text_YouHaveNoRoomForThis {
@@ -28,7 +28,7 @@ text SilphCo_11F_Text_ThanksForRescuingUs {
 }
 
 text SilphCo_11F_Text_GiovanniIntro {
-    format("Ah, {PLAYER}! So we meet again!\p The PRESIDENT and I are discussing a vital business proposition.\p Keep your nose out of grown-up matters…\p Or, experience a world of pain!")
+    format("Ah, {PLAYER}! So we meet again!\p The PRESIDENT and I are discussing a vital business proposition.\p Keep your nose out of grown-up matters\p Or, experience a world of pain!")
 }
 
 text SilphCo_11F_Text_GiovanniDefeat {
@@ -36,7 +36,7 @@ text SilphCo_11F_Text_GiovanniDefeat {
 }
 
 text SilphCo_11F_Text_GiovanniPostBattle {
-    format("Blast it all! You ruined our plans for SILPH!\p But, TEAM ROCKET will never fall!\p {PLAYER}! Never forget that all POKéMON exist for TEAM ROCKET!\p I must go, but I shall return!")
+    format("Blast it all! You ruined our plans for SILPH!\p But, TEAM ROCKET will never fall!\p {PLAYER}! Never forget that all POKMON exist for TEAM ROCKET!\p I must go, but I shall return!")
 }
 
 text SilphCo_11F_Text_Grunt2Intro {
@@ -44,7 +44,7 @@ text SilphCo_11F_Text_Grunt2Intro {
 }
 
 text SilphCo_11F_Text_Grunt2Defeat {
-    format("Don't… Please!")
+    format("Don't Please!")
 }
 
 text SilphCo_11F_Text_Grunt2PostBattle {
@@ -60,11 +60,11 @@ text SilphCo_11F_Text_Grunt1Defeat {
 }
 
 text SilphCo_11F_Text_Grunt1PostBattle {
-    format("Watch your step… My BOSS likes his POKéMON tough!")
+    format("Watch your step My BOSS likes his POKMON tough!")
 }
 
 text SilphCo_11F_Text_MonitorHasMonsOnIt {
-    format("The monitor has POKéMON on it!")
+    format("The monitor has POKMON on it!")
 }
 
 text SilphCo_11F_Text_FloorSign {

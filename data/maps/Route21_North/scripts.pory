@@ -11,7 +11,7 @@ text Route21_North_Text_RonaldDefeat {
 }
 
 text Route21_North_Text_RonaldPostBattle {
-    format("I can't catch anything good. Not one good POKéMON to be had!")
+    format("I can't catch anything good. Not one good POKMON to be had!")
 }
 
 text Route21_North_Text_WadeIntro {
@@ -39,14 +39,14 @@ text Route21_North_Text_SpencerPostBattle {
 }
 
 text Route21_North_Text_CueBallIntro {
-    format("おれだって　たまには およぎに　くるぜ！")
+    format(" ")
 }
 
 text Route21_North_Text_CueBallDefeat {
-    format("ぐわわ！")
+    format("")
 }
 
 text Route21_North_Text_CueBallPostBattle {
-    format("うきやすそう　だと？ うるせー　おおきな　おせわだッ！")
+    format(" ")
 }
 

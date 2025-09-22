@@ -15,7 +15,7 @@ text Route24_Text_YouDontHaveAnyRoom {
 }
 
 text Route24_Text_JoinTeamRocket {
-    format("By the way, how would you like to join TEAM ROCKET?\p We're a group of professional criminals specializing in POKéMON!\p Want to join?\p Are you sure?\p Come on, join us!\p I'm telling you to join!\p …Okay, you need convincing!\p I'll make you an offer you can't refuse!")
+    format("By the way, how would you like to join TEAM ROCKET?\p We're a group of professional criminals specializing in POKMON!\p Want to join?\p Are you sure?\p Come on, join us!\p I'm telling you to join!\p Okay, you need convincing!\p I'll make you an offer you can't refuse!")
 }
 
 text Route24_Text_RocketDefeat {

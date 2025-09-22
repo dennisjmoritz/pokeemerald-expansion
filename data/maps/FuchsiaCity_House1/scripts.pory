@@ -11,6 +11,6 @@ text FuchsiaCity_House1_Text_BillIsMyGrandson {
 }
 
 text FuchsiaCity_House1_Text_BillFilesHisOwnMonData {
-    format("BILL files his own POKéMON data on his PC.\p Did he show you?")
+    format("BILL files his own POKMON data on his PC.\p Did he show you?")
 }
 

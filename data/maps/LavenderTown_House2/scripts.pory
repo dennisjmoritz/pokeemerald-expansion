@@ -3,11 +3,11 @@ mapscripts LavenderTown_House2_MapScripts {
 
 
 text LavenderTown_House2_Text_WantMeToRateNicknames {
-    format("Hello, hello! I am the official NAME RATER!\p Want me to rate the nicknames of your POKéMON?")
+    format("Hello, hello! I am the official NAME RATER!\p Want me to rate the nicknames of your POKMON?")
 }
 
 text LavenderTown_House2_Text_CritiqueWhichMonsNickname {
-    format("Which POKéMON's nickname should I critique?")
+    format("Which POKMON's nickname should I critique?")
 }
 
 text LavenderTown_House2_Text_GiveItANicerName {
@@ -19,7 +19,7 @@ text LavenderTown_House2_Text_WhatShallNewNicknameBe {
 }
 
 text LavenderTown_House2_Text_FromNowOnShallBeKnownAsName {
-    format("Done! From now on, this POKéMON shall be known as {STR_VAR_1}!\p It is a better name than before! How fortunate for you!")
+    format("Done! From now on, this POKMON shall be known as {STR_VAR_1}!\p It is a better name than before! How fortunate for you!")
 }
 
 text LavenderTown_House2_Text_ISeeComeVisitAgain {
@@ -27,7 +27,7 @@ text LavenderTown_House2_Text_ISeeComeVisitAgain {
 }
 
 text LavenderTown_House2_Text_FromNowOnShallBeKnownAsSameName {
-    format("Done! From now on, this POKéMON shall be known as {STR_VAR_1}!\p It looks no different from before, and yet, this is vastly superior!\p How fortunate for you!")
+    format("Done! From now on, this POKMON shall be known as {STR_VAR_1}!\p It looks no different from before, and yet, this is vastly superior!\p How fortunate for you!")
 }
 
 text LavenderTown_House2_Text_TrulyImpeccableName {

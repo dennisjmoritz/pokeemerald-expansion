@@ -7,6 +7,6 @@ text SafariZone_Center_Text_WhereDidErikGo {
 }
 
 text SafariZone_Center_Text_CatchingMonsAsGifts {
-    format("I'm catching POKéMON to take home as gifts.")
+    format("I'm catching POKMON to take home as gifts.")
 }
 

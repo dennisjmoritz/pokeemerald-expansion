@@ -5,6 +5,6 @@ mapscripts BattleFrontier_BattlePikeRoomFinal_MapScripts {
 
 
 text BattleFrontier_BattlePikeRoomFinal_Text_CongratsThisWayPlease {
-    format("Congratulations… Now, this way, please…")
+    format("Congratulations Now, this way, please")
 }
 

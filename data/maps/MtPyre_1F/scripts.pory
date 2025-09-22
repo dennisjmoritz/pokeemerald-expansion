@@ -3,18 +3,18 @@ mapscripts MtPyre_1F_MapScripts {
 
 
 text MtPyre_1F_Text_TakeThisForYourOwnGood {
-    format("All sorts of beings wander the slopes of MT. PYRE…\p There is no telling what may happen. Take this. It's for your own good.")
+    format("All sorts of beings wander the slopes of MT. PYRE\p There is no telling what may happen. Take this. It's for your own good.")
 }
 
 text MtPyre_1F_Text_ExplainCleanseTag {
-    format("Have a POKéMON hold that CLEANSE TAG.\p It will help ward off wild POKéMON.")
+    format("Have a POKMON hold that CLEANSE TAG.\p It will help ward off wild POKMON.")
 }
 
 text MtPyre_1F_Text_ComeToPayRespects {
-    format("Did you come to pay your respect to the spirits of departed POKéMON?\p You must care for your POKéMON a lot.")
+    format("Did you come to pay your respect to the spirits of departed POKMON?\p You must care for your POKMON a lot.")
 }
 
 text MtPyre_1F_Text_RestingPlaceOfZigzagoon {
-    format("This is the final resting place of my ZIGZAGOON. I cherished it…")
+    format("This is the final resting place of my ZIGZAGOON. I cherished it")
 }
 

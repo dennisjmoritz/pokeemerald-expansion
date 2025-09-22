@@ -4,15 +4,15 @@ mapscripts Route123_MapScripts {
 
 
 text Route123_Text_LoveGrassMonsHaveAny {
-    format("I love GRASS-type POKéMON!\p Do you have any GRASS-type POKéMON?")
+    format("I love GRASS-type POKMON!\p Do you have any GRASS-type POKMON?")
 }
 
 text Route123_Text_YouLikeGrassMonsTooHaveThis {
-    format("Oh?\p You like GRASS-type POKéMON, too, don't you?\p I'm so happy, you can have this! It's a token of our friendship.")
+    format("Oh?\p You like GRASS-type POKMON, too, don't you?\p I'm so happy, you can have this! It's a token of our friendship.")
 }
 
 text Route123_Text_CheckTreesWithMyGrassMon {
-    format("I check trees with my GRASS-type POKéMON. I'm like a tree doctor.")
+    format("I check trees with my GRASS-type POKMON. I'm like a tree doctor.")
 }
 
 text Route123_Text_RouteSign {
@@ -20,7 +20,7 @@ text Route123_Text_RouteSign {
 }
 
 text Route123_Text_RouteSignMtPyre {
-    format("{UP_ARROW} MT. PYRE “Forbidden to the faint of heart.”")
+    format("{UP_ARROW} MT. PYRE Forbidden to the faint of heart.")
 }
 
 text Route123_Text_BerryMastersHouse {

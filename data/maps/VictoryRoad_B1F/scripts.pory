@@ -3,19 +3,19 @@ mapscripts VictoryRoad_B1F_MapScripts {
 
 
 text VictoryRoad_B1F_Text_SamuelIntro {
-    format("The thought that I'm getting closer to the POKéMON LEAGUE…\p I'm getting stage fright…")
+    format("The thought that I'm getting closer to the POKMON LEAGUE\p I'm getting stage fright")
 }
 
 text VictoryRoad_B1F_Text_SamuelDefeat {
-    format("I couldn't do a thing…")
+    format("I couldn't do a thing")
 }
 
 text VictoryRoad_B1F_Text_SamuelPostBattle {
-    format("The POKéMON LEAGUE became distant again… What a letdown…")
+    format("The POKMON LEAGUE became distant again What a letdown")
 }
 
 text VictoryRoad_B1F_Text_ShannonIntro {
-    format("To win your way through the POKéMON LEAGUE, you need the trust of your\l POKéMON.")
+    format("To win your way through the POKMON LEAGUE, you need the trust of your\l POKMON.")
 }
 
 text VictoryRoad_B1F_Text_ShannonDefeat {
@@ -23,11 +23,11 @@ text VictoryRoad_B1F_Text_ShannonDefeat {
 }
 
 text VictoryRoad_B1F_Text_ShannonPostBattle {
-    format("By being together all the time, trust grows between POKéMON and TRAINERS.")
+    format("By being together all the time, trust grows between POKMON and TRAINERS.")
 }
 
 text VictoryRoad_B1F_Text_MichelleIntro {
-    format("This isn't the goal. It's only a place on the way to the POKéMON LEAGUE.")
+    format("This isn't the goal. It's only a place on the way to the POKMON LEAGUE.")
 }
 
 text VictoryRoad_B1F_Text_MichelleDefeat {
@@ -35,11 +35,11 @@ text VictoryRoad_B1F_Text_MichelleDefeat {
 }
 
 text VictoryRoad_B1F_Text_MichellePostBattle {
-    format("You'll do fine, for sure! Your POKéMON are all eager to go!")
+    format("You'll do fine, for sure! Your POKMON are all eager to go!")
 }
 
 text VictoryRoad_B1F_Text_MitchellIntro {
-    format("My POKéMON are cosmically awe inspiring!")
+    format("My POKMON are cosmically awe inspiring!")
 }
 
 text VictoryRoad_B1F_Text_MitchellDefeat {
@@ -47,7 +47,7 @@ text VictoryRoad_B1F_Text_MitchellDefeat {
 }
 
 text VictoryRoad_B1F_Text_MitchellPostBattle {
-    format("Even outside of battle, I sense incredible power emanating from you\l and your POKéMON.")
+    format("Even outside of battle, I sense incredible power emanating from you\l and your POKMON.")
 }
 
 text VictoryRoad_B1F_Text_HalleIntro {

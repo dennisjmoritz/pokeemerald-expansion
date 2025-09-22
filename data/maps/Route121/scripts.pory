@@ -7,14 +7,14 @@ text Route121_Text_OkayMoveOutToMtPyre {
 }
 
 text Route121_Text_AheadLoomsMtPyre {
-    format("Ahead looms MT. PYRE…\p It is a natural monument to the spirits of departed POKéMON…")
+    format("Ahead looms MT. PYRE\p It is a natural monument to the spirits of departed POKMON")
 }
 
 text Route121_Text_MtPyrePierSign {
-    format("MT. PYRE PIER\p …The sign is old and worn out. The words are barely legible…")
+    format("MT. PYRE PIER\p The sign is old and worn out. The words are barely legible")
 }
 
 text Route121_Text_SafariZoneSign {
-    format("“Filled with rare POKéMON!” SAFARI ZONE")
+    format("Filled with rare POKMON! SAFARI ZONE")
 }
 

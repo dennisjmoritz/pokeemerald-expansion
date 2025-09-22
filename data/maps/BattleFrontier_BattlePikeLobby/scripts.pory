@@ -5,7 +5,7 @@ mapscripts BattleFrontier_BattlePikeLobby_MapScripts {
 
 
 text BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike {
-    format("Where the luck of TRAINERS is put to the test…\p Welcome to the BATTLE PIKE…\p I am your guide to the BATTLE PIKE…")
+    format("Where the luck of TRAINERS is put to the test\p Welcome to the BATTLE PIKE\p I am your guide to the BATTLE PIKE")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_TakeChallenge {
@@ -13,11 +13,11 @@ text BattleFrontier_BattlePikeLobby_Text_TakeChallenge {
 }
 
 text BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike {
-    format("Here we conduct an event we call the Battle Choice.\p The Battle Choice rules are very simple…\p Choose one of three paths and make your way to the goal room at the end\l of the BATTLE PIKE. It's that simple.\p However, what happens on the chosen path depends entirely on the luck\l of the challenger…\p If you reach the goal, you will be rewarded with Battle Points.\p If you want to interrupt your challenge, please have a word with\l our staff in the big rooms on the way.\p If you don't save before interrupting, you will be disqualified.")
+    format("Here we conduct an event we call the Battle Choice.\p The Battle Choice rules are very simple\p Choose one of three paths and make your way to the goal room at the end\l of the BATTLE PIKE. It's that simple.\p However, what happens on the chosen path depends entirely on the luck\l of the challenger\p If you reach the goal, you will be rewarded with Battle Points.\p If you want to interrupt your challenge, please have a word with\l our staff in the big rooms on the way.\p If you don't save before interrupting, you will be disqualified.")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou {
-    format("We look forward to seeing you on another occasion…")
+    format("We look forward to seeing you on another occasion")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode {
@@ -25,15 +25,15 @@ text BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode {
 }
 
 text BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50 {
-    format("I beg your pardon, but…\p You do not have three eligible POKéMON for the Battle Choice event.\p You must have three different POKéMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready…")
+    format("I beg your pardon, but\p You do not have three eligible POKMON for the Battle Choice event.\p You must have three different POKMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen {
-    format("I beg your pardon, but…\p You do not have three eligible POKéMON for the Battle Choice event.\p You must have three different POKéMON to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready…")
+    format("I beg your pardon, but\p You do not have three eligible POKMON for the Battle Choice event.\p You must have three different POKMON to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons {
-    format("Please choose the three POKéMON you wish to enter in the challenge…")
+    format("Please choose the three POKMON you wish to enter in the challenge")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge {
@@ -41,39 +41,39 @@ text BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge {
 }
 
 text BattleFrontier_BattlePikeLobby_Text_StepThisWay {
-    format("Please step this way…")
+    format("Please step this way")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults {
-    format("Your challenge has ended…\p I shall record your results. Please wait…")
+    format("Your challenge has ended\p I shall record your results. Please wait")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance {
-    format("You have completed the challenge…\p I must say… You seem to possess luck in abundance…")
+    format("You have completed the challenge\p I must say You seem to possess luck in abundance")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_ShallRecordResults {
-    format("I shall record your results. Please wait…")
+    format("I shall record your results. Please wait")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2 {
-    format("To commemorate your completion of the Battle Choice challenge, we award\l you these Battle Point(s)…")
+    format("To commemorate your completion of the Battle Choice challenge, we award\l you these Battle Point(s)")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit {
-    format("You appear to have reached the limit for Battle Points…\p Please exchange some Battle Points for prizes, then return…")
+    format("You appear to have reached the limit for Battle Points\p Please exchange some Battle Points for prizes, then return")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting {
-    format("I beg your pardon, but…\p You failed to save before you quit your challenge the last time.\p Because of that, your challenge so far has been disqualified. I am sorry…")
+    format("I beg your pardon, but\p You failed to save before you quit your challenge the last time.\p Because of that, your challenge so far has been disqualified. I am sorry")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen {
-    format("Congratulations…\p You have snatched victory from the PIKE QUEEN and cleared the event…")
+    format("Congratulations\p You have snatched victory from the PIKE QUEEN and cleared the event")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints {
-    format("In recognition of your amazing luck, we award you these Battle Point(s)…")
+    format("In recognition of your amazing luck, we award you these Battle Point(s)")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal {
@@ -85,7 +85,7 @@ text BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer {
 }
 
 text BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere {
-    format("Listen! Listen!\p Don't you think that the special abilities of POKéMON will be useful\l here?")
+    format("Listen! Listen!\p Don't you think that the special abilities of POKMON will be useful\l here?")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose {
@@ -101,14 +101,14 @@ text BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading {
 }
 
 text BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules {
-    format("The BAG and POKéNAV may not be used during a Battle Choice challenge.")
+    format("The BAG and POKNAV may not be used during a Battle Choice challenge.")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules {
-    format("During a Battle Choice challenge, any BERRY or HERB held by POKéMON\l will be effective only once.")
+    format("During a Battle Choice challenge, any BERRY or HERB held by POKMON\l will be effective only once.")
 }
 
 text BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules {
-    format("During a Battle Choice challenge, the sequence of POKéMON cannot be\l changed.\p The sequence must be set before starting your challenge.")
+    format("During a Battle Choice challenge, the sequence of POKMON cannot be\l changed.\p The sequence must be set before starting your challenge.")
 }
 

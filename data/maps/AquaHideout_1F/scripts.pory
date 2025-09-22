@@ -3,27 +3,27 @@ mapscripts AquaHideout_1F_MapScripts {
 
 
 text AquaHideout_1F_Text_OurBossIsSnatchingSomething {
-    format("What? What? What do you want with TEAM AQUA?\p Our BOSS isn't here! He's gone off to snatch something important!\p … … Where did he go?\p Wahaha! Do you really think I'd tell you something that crucial?")
+    format("What? What? What do you want with TEAM AQUA?\p Our BOSS isn't here! He's gone off to snatch something important!\p   Where did he go?\p Wahaha! Do you really think I'd tell you something that crucial?")
 }
 
 text AquaHideout_1F_Text_WhereMightMagmaHideoutBe {
-    format("What? What? Are you a TEAM MAGMA grunt?\p I hear that TEAM MAGMA is trying to awaken an awesome POKéMON at their\l HIDEOUT.\p But where might their HIDEOUT be?")
+    format("What? What? Are you a TEAM MAGMA grunt?\p I hear that TEAM MAGMA is trying to awaken an awesome POKMON at their\l HIDEOUT.\p But where might their HIDEOUT be?")
 }
 
 text AquaHideout_1F_Text_BossWentToJackASubmarine {
-    format("What? What? What do you want with TEAM AQUA?\p Our BOSS isn't here! He's gone off to jack a submarine!\p … … Where did he go?\p Wahaha! Do you really think I'd tell you something that crucial?")
+    format("What? What? What do you want with TEAM AQUA?\p Our BOSS isn't here! He's gone off to jack a submarine!\p   Where did he go?\p Wahaha! Do you really think I'd tell you something that crucial?")
 }
 
 text AquaHideout_1F_Text_BossIsOnRoute122 {
-    format("What? What? What do you want with TEAM AQUA?\p Our BOSS isn't here! He's on his way to MT. PYRE on ROUTE 122!\p … … Why did he go?\p Wahaha! Do you really think I'd tell you something that crucial?")
+    format("What? What? What do you want with TEAM AQUA?\p Our BOSS isn't here! He's on his way to MT. PYRE on ROUTE 122!\p   Why did he go?\p Wahaha! Do you really think I'd tell you something that crucial?")
 }
 
 text AquaHideout_1F_Text_TeamMagmaAtMtChimney {
-    format("What? What? Are you a TEAM MAGMA grunt?\p I hear that TEAM MAGMA is after an awesome POKéMON at MT. CHIMNEY.\p But what is that POKéMON like?")
+    format("What? What? Are you a TEAM MAGMA grunt?\p I hear that TEAM MAGMA is after an awesome POKMON at MT. CHIMNEY.\p But what is that POKMON like?")
 }
 
 text AquaHideout_1F_Text_BossIsInSlateportCity {
-    format("What? What? What do you want with TEAM AQUA?\p Our BOSS isn't here! He's on his way to SLATEPORT CITY!\p … … Why did he go?\p Wahaha! Do you really think I'd tell you something that crucial?")
+    format("What? What? What do you want with TEAM AQUA?\p Our BOSS isn't here! He's on his way to SLATEPORT CITY!\p   Why did he go?\p Wahaha! Do you really think I'd tell you something that crucial?")
 }
 
 text AquaHideout_1F_Text_Grunt1Intro {
@@ -31,10 +31,10 @@ text AquaHideout_1F_Text_Grunt1Intro {
 }
 
 text AquaHideout_1F_Text_Grunt1Defeat {
-    format("Grrrrr… I lost it!")
+    format("Grrrrr I lost it!")
 }
 
 text AquaHideout_1F_Text_Grunt1PostBattle {
-    format("I took the loss for the TEAM, but I did my job…")
+    format("I took the loss for the TEAM, but I did my job")
 }
 

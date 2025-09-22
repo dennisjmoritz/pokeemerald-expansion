@@ -24,11 +24,11 @@ text SilphCo_4F_Text_Grunt1PostBattle {
 }
 
 text SilphCo_4F_Text_RodneyIntro {
-    format("My POKéMON is my loyal servant.")
+    format("My POKMON is my loyal servant.")
 }
 
 text SilphCo_4F_Text_RodneyDefeat {
-    format("Darn! You weak POKéMON!")
+    format("Darn! You weak POKMON!")
 }
 
 text SilphCo_4F_Text_RodneyPostBattle {

@@ -4,7 +4,7 @@ mapscripts SevenIsland_MapScripts {
 
 
 text Text_SwordsDanceTeach {
-    format("Not many people come out here.\p If I train here, I'm convinced that I'll get stronger and stronger.\p Yep, stronger and stronger…\p How would you like to learn a move like that? It's SWORDS DANCE.")
+    format("Not many people come out here.\p If I train here, I'm convinced that I'll get stronger and stronger.\p Yep, stronger and stronger\p How would you like to learn a move like that? It's SWORDS DANCE.")
 }
 
 text Text_SwordsDanceDeclined {
@@ -12,7 +12,7 @@ text Text_SwordsDanceDeclined {
 }
 
 text Text_SwordsDanceWhichMon {
-    format("All right, pick which POKéMON I should teach it to.")
+    format("All right, pick which POKMON I should teach it to.")
 }
 
 text Text_SwordsDanceTaught {
@@ -24,7 +24,7 @@ text SevenIsland_Text_IslandSign {
 }
 
 text SevenIsland_Text_IslandsMadeInSevenDays {
-    format("These islands are called the SEVII ISLANDS because there are seven.\p …Or at least that's what the young people believe.\p The truth is, these islands are so named because they are said to\l have been made in seven days.")
+    format("These islands are called the SEVII ISLANDS because there are seven.\p Or at least that's what the young people believe.\p The truth is, these islands are so named because they are said to\l have been made in seven days.")
 }
 
 text SevenIsland_Text_IslandVirtuallyUntouched {

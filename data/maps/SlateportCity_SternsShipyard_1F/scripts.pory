@@ -3,11 +3,11 @@ mapscripts SlateportCity_SternsShipyard_1F_MapScripts {
 
 
 text SlateportCity_SternsShipyard_1F_Text_CantMakeHeadsOrTails {
-    format("Umm… If this goes here, and that goes over there…\p Then where does this thing go? And what about that doohickey?\p Aaargh! I can't make heads or tails of this!")
+    format("Umm If this goes here, and that goes over there\p Then where does this thing go? And what about that doohickey?\p Aaargh! I can't make heads or tails of this!")
 }
 
 text SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern {
-    format("Hm? Hi, I'm DOCK.\p CAPT. STERN commissioned me to design a ferry.\p Oh! That there… Are they DEVON GOODS?\p But, hmm… This won't do…\p CAPT. STERN went off somewhere. He said he had some work to do.\p Could I get you to go find CAPT. STERN and deliver that to him?")
+    format("Hm? Hi, I'm DOCK.\p CAPT. STERN commissioned me to design a ferry.\p Oh! That there Are they DEVON GOODS?\p But, hmm This won't do\p CAPT. STERN went off somewhere. He said he had some work to do.\p Could I get you to go find CAPT. STERN and deliver that to him?")
 }
 
 text SlateportCity_SternsShipyard_1F_Text_CouldYouFindStern {
@@ -15,7 +15,7 @@ text SlateportCity_SternsShipyard_1F_Text_CouldYouFindStern {
 }
 
 text SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran {
-    format("DOCK: Shipbuilding is an art.\p A lot of things can't be figured out just by calculating.\p I really could use advice from a veteran who knows the seas…")
+    format("DOCK: Shipbuilding is an art.\p A lot of things can't be figured out just by calculating.\p I really could use advice from a veteran who knows the seas")
 }
 
 text SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs {
@@ -31,7 +31,7 @@ text SlateportCity_SternsShipyard_1F_Text_DecidedToHelpDock {
 }
 
 text SlateportCity_SternsShipyard_1F_Text_SeaIsLikeLivingThing {
-    format("The seasons, the weather, where the moon sits in the sky…\p These and other conditions make the sea change its expression.\p That's right! The sea is like a living thing!")
+    format("The seasons, the weather, where the moon sits in the sky\p These and other conditions make the sea change its expression.\p That's right! The sea is like a living thing!")
 }
 
 text SlateportCity_SternsShipyard_1F_Text_GetSeasickEasily {

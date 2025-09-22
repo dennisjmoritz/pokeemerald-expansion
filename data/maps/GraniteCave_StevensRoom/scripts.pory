@@ -7,15 +7,15 @@ text GraniteCave_StevensRoom_Text_ImStevenLetterForMe {
 }
 
 text GraniteCave_StevensRoom_Text_ThankYouTakeThis {
-    format("STEVEN: Okay, thank you.\p You went through all this trouble to deliver that. I need to thank you.\p Let me see… I'll give you this TM.\p It contains my favorite move, STEEL WING.")
+    format("STEVEN: Okay, thank you.\p You went through all this trouble to deliver that. I need to thank you.\p Let me see I'll give you this TM.\p It contains my favorite move, STEEL WING.")
 }
 
 text GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister {
-    format("STEVEN: Your POKéMON appear quite capable.\p If you keep training, you could even become the CHAMPION of the POKéMON\l LEAGUE one day. That's what I think.\p I know, since we've gotten to know each other, let's register one another in\l our POKéNAVS.\p … … … … … …")
+    format("STEVEN: Your POKMON appear quite capable.\p If you keep training, you could even become the CHAMPION of the POKMON\l LEAGUE one day. That's what I think.\p I know, since we've gotten to know each other, let's register one another in\l our POKNAVS.\p      ")
 }
 
 text GraniteCave_StevensRoom_Text_RegisteredSteven {
-    format("Registered STEVEN in the POKéNAV.")
+    format("Registered STEVEN in the POKNAV.")
 }
 
 text GraniteCave_StevensRoom_Text_IveGotToHurryAlong {
@@ -23,6 +23,6 @@ text GraniteCave_StevensRoom_Text_IveGotToHurryAlong {
 }
 
 text GraniteCave_StevensRoom_Text_OhBagIsFull {
-    format("Oh, your BAG is full… That's too bad, then.")
+    format("Oh, your BAG is full That's too bad, then.")
 }
 

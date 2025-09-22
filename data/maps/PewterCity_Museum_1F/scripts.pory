@@ -3,7 +3,7 @@ mapscripts PewterCity_Museum_1F_MapScripts {
 
 
 text PewterCity_Museum_1F_Text_Its50YForChildsTicket {
-    format("Yes, yes. It's ¥50 for a child's ticket.\p Would you like to come in?")
+    format("Yes, yes. It's 50 for a child's ticket.\p Would you like to come in?")
 }
 
 text PewterCity_Museum_1F_Text_ComeAgain {
@@ -11,7 +11,7 @@ text PewterCity_Museum_1F_Text_ComeAgain {
 }
 
 text PewterCity_Museum_1F_Text_Right50YThankYou {
-    format("Right, ¥50! Thank you!")
+    format("Right, 50! Thank you!")
 }
 
 text PewterCity_Museum_1F_Text_DontHaveEnoughMoney {
@@ -27,7 +27,7 @@ text PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs {
 }
 
 text PewterCity_Museum_1F_Text_AmberContainsGeneticMatter {
-    format("AMBER contains the genetic matter of ancient POKéMON.\p There's a LAB somewhere trying to resurrect POKéMON from AMBER.")
+    format("AMBER contains the genetic matter of ancient POKMON.\p There's a LAB somewhere trying to resurrect POKMON from AMBER.")
 }
 
 text PewterCity_Museum_1F_Text_AmberIsFossilizedSap {
@@ -35,7 +35,7 @@ text PewterCity_Museum_1F_Text_AmberIsFossilizedSap {
 }
 
 text PewterCity_Museum_1F_Text_PleaseGoAround {
-    format("あちらへ　おまわりください")
+    format("")
 }
 
 text PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife {
@@ -43,7 +43,7 @@ text PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife {
 }
 
 text PewterCity_Museum_1F_Text_WantYouToGetAmberExamined {
-    format("Ssh! Listen, I need to share a secret with someone.\p I think that this chunk of AMBER contains POKéMON DNA!\p It would be a shattering scientific breakthrough if POKéMON could be\l resurrected from it.\p But, my colleagues just ignore what I have to say.\p So, I have a favor to ask!\p I want you to get this examined at a POKéMON LAB somewhere.")
+    format("Ssh! Listen, I need to share a secret with someone.\p I think that this chunk of AMBER contains POKMON DNA!\p It would be a shattering scientific breakthrough if POKMON could be\l resurrected from it.\p But, my colleagues just ignore what I have to say.\p So, I have a favor to ask!\p I want you to get this examined at a POKMON LAB somewhere.")
 }
 
 text PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan {
@@ -59,7 +59,7 @@ text PewterCity_Museum_1F_Text_DontHaveSpaceForThis {
 }
 
 text PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit {
-    format("We have two fossils of rare, prehistoric POKéMON on exhibit.")
+    format("We have two fossils of rare, prehistoric POKMON on exhibit.")
 }
 
 text PewterCity_Museum_1F_Text_BeautifulPieceOfAmber {
@@ -67,10 +67,10 @@ text PewterCity_Museum_1F_Text_BeautifulPieceOfAmber {
 }
 
 text PewterCity_Museum_1F_Text_AerodactylFossil {
-    format("AERODACTYL Fossil A primitive and rare POKéMON.")
+    format("AERODACTYL Fossil A primitive and rare POKMON.")
 }
 
 text PewterCity_Museum_1F_Text_KabutopsFossil {
-    format("KABUTOPS Fossil A primitive and rare POKéMON.")
+    format("KABUTOPS Fossil A primitive and rare POKMON.")
 }
 

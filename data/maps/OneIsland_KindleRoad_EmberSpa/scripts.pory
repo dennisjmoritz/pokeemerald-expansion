@@ -11,7 +11,7 @@ text OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder {
 }
 
 text OneIsland_KindleRoad_EmberSpa_Text_WaterExquisiteFullyRefreshed {
-    format("The water is perfectly warm. It feels exquisite…\p {PLAYER} and the POKéMON were fully refreshed!")
+    format("The water is perfectly warm. It feels exquisite\p {PLAYER} and the POKMON were fully refreshed!")
 }
 
 text OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic {
@@ -23,7 +23,7 @@ text OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs {
 }
 
 text OneIsland_KindleRoad_EmberSpa_Text_BrunoVisitsSpaOnOccasion {
-    format("After an honest day of training, nothing beats a relaxing soak in\l the hot spring pool.\p BRUNO, who's a senior ahead of me, visits the SPA on occasion.\p He comes to rehab injuries, both his own and his POKéMON's.")
+    format("After an honest day of training, nothing beats a relaxing soak in\l the hot spring pool.\p BRUNO, who's a senior ahead of me, visits the SPA on occasion.\p He comes to rehab injuries, both his own and his POKMON's.")
 }
 
 text OneIsland_KindleRoad_EmberSpa_Text_UsedThisToMakeEmberSpa {

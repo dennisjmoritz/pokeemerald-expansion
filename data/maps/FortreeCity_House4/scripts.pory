@@ -3,11 +3,11 @@ mapscripts FortreeCity_House4_MapScripts {
 
 
 text FortreeCity_House4_Text_BringsWorldCloserTogether {
-    format("By being together with POKéMON, people make more and more friends.\p And that brings the world closer together. I think it's wonderful!")
+    format("By being together with POKMON, people make more and more friends.\p And that brings the world closer together. I think it's wonderful!")
 }
 
 text FortreeCity_House4_Text_GoBirdPokemon {
-    format("There! Go, BIRD POKéMON!")
+    format("There! Go, BIRD POKMON!")
 }
 
 text FortreeCity_House4_Text_AskedWingullToRunErrand {

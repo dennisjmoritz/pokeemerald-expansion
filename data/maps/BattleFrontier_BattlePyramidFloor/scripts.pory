@@ -258,39 +258,39 @@ text BattlePyramid_Text_ZeroItemsRemaining4 {
 }
 
 text BattlePyramid_Text_EightItemsRemaining5 {
-    format("On this floor of the PYRAMID, I hear there are eight items…")
+    format("On this floor of the PYRAMID, I hear there are eight items")
 }
 
 text BattlePyramid_Text_SevenItemsRemaining5 {
-    format("On this floor of the PYRAMID, I hear there are seven items…")
+    format("On this floor of the PYRAMID, I hear there are seven items")
 }
 
 text BattlePyramid_Text_SixItemsRemaining5 {
-    format("On this floor of the PYRAMID, I hear there are six items…")
+    format("On this floor of the PYRAMID, I hear there are six items")
 }
 
 text BattlePyramid_Text_FiveItemsRemaining5 {
-    format("On this floor of the PYRAMID, I hear there are five items…")
+    format("On this floor of the PYRAMID, I hear there are five items")
 }
 
 text BattlePyramid_Text_FourItemsRemaining5 {
-    format("On this floor of the PYRAMID, I hear there are four items…")
+    format("On this floor of the PYRAMID, I hear there are four items")
 }
 
 text BattlePyramid_Text_ThreeItemsRemaining5 {
-    format("On this floor of the PYRAMID, I hear there are three items…")
+    format("On this floor of the PYRAMID, I hear there are three items")
 }
 
 text BattlePyramid_Text_TwoItemsRemaining5 {
-    format("On this floor of the PYRAMID, I hear there are two items…")
+    format("On this floor of the PYRAMID, I hear there are two items")
 }
 
 text BattlePyramid_Text_OneItemRemaining5 {
-    format("On this floor of the PYRAMID, I hear there is one item…")
+    format("On this floor of the PYRAMID, I hear there is one item")
 }
 
 text BattlePyramid_Text_ZeroItemsRemaining5 {
-    format("On this floor of the PYRAMID, I hear there are no items…")
+    format("On this floor of the PYRAMID, I hear there are no items")
 }
 
 text BattlePyramid_Text_EightItemsRemaining6 {
@@ -454,7 +454,7 @@ text BattlePyramid_Text_OneTrainersRemaining4 {
 }
 
 text BattlePyramid_Text_ZeroTrainersRemaining4 {
-    format("There isn't a single person left who can defeat you now…")
+    format("There isn't a single person left who can defeat you now")
 }
 
 text BattlePyramid_Text_SevenTrainersRemaining5 {
@@ -518,6 +518,6 @@ text BattlePyramid_Text_OneTrainersRemaining6 {
 }
 
 text BattlePyramid_Text_ZeroTrainersRemaining6 {
-    format("There aren't any TRAINERS left that can take you on now…")
+    format("There aren't any TRAINERS left that can take you on now")
 }
 

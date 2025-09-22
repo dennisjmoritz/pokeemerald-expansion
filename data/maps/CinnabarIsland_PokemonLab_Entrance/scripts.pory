@@ -8,22 +8,22 @@ text CinnabarIsland_Gym_Text_PhotoOfBlaineAndFuji {
 }
 
 text CinnabarIsland_PokemonLab_Entrance_Text_StudyMonsExtensively {
-    format("We study POKéMON extensively every day.\p People often bring us rare POKéMON for examination.")
+    format("We study POKMON extensively every day.\p People often bring us rare POKMON for examination.")
 }
 
 text CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji {
-    format("A photo of the LAB's founder… DR. FUJI?!")
+    format("A photo of the LAB's founder DR. FUJI?!")
 }
 
 text CinnabarIsland_PokemonLab_Entrance_Text_MeetingRoomSign {
-    format("POKéMON LAB Meeting Room")
+    format("POKMON LAB Meeting Room")
 }
 
 text CinnabarIsland_PokemonLab_Entrance_Text_RAndDRoomSign {
-    format("POKéMON LAB R & D Room")
+    format("POKMON LAB R & D Room")
 }
 
 text CinnabarIsland_PokemonLab_Entrance_Text_TestingRoomSign {
-    format("POKéMON LAB Testing Room")
+    format("POKMON LAB Testing Room")
 }
 

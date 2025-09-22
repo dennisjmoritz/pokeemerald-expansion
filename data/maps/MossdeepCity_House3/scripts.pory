@@ -3,7 +3,7 @@ mapscripts MossdeepCity_House3_MapScripts {
 
 
 text MossdeepCity_House3_Text_YouWantSuperRod {
-    format("Hey there, TRAINER! A SUPER ROD really is super!\p Say all you want, but this baby can catch POKéMON off the seafloor!\p What do you think? You want it, don't you?")
+    format("Hey there, TRAINER! A SUPER ROD really is super!\p Say all you want, but this baby can catch POKMON off the seafloor!\p What do you think? You want it, don't you?")
 }
 
 text MossdeepCity_House3_Text_SuperRodIsSuper {
@@ -19,6 +19,6 @@ text MossdeepCity_House3_Text_DontYouLikeToFish {
 }
 
 text MossdeepCity_House3_Text_GoAfterSeafloorPokemon {
-    format("Go after the seafloor POKéMON with your SUPER ROD.")
+    format("Go after the seafloor POKMON with your SUPER ROD.")
 }
 

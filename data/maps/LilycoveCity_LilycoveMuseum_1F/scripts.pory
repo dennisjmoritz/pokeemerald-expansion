@@ -3,7 +3,7 @@ mapscripts LilycoveCity_LilycoveMuseum_1F_MapScripts {
 
 
 text LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum {
-    format("Welcome to LILYCOVE MUSEUM.\p Please take the time to enjoy our collection of fantastic artwork\l featuring POKéMON.")
+    format("Welcome to LILYCOVE MUSEUM.\p Please take the time to enjoy our collection of fantastic artwork\l featuring POKMON.")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings {
@@ -15,11 +15,11 @@ text LilycoveCity_LilycoveMuseum_1F_Text_NotDisturbYouTakeYourTime {
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings {
-    format("Oh? I do believe that you seem to be a POKéMON TRAINER.\p Have you an interest in paintings, too?")
+    format("Oh? I do believe that you seem to be a POKMON TRAINER.\p Have you an interest in paintings, too?")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_HonoredYoudVisitInSpiteOfThat {
-    format("I see…\p I'm honored that you would visit us in spite of that.")
+    format("I see\p I'm honored that you would visit us in spite of that.")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_ExcellentCanYouComeWithMe {
@@ -35,15 +35,15 @@ text LilycoveCity_LilycoveMuseum_1F_Text_OddLandscapeFantasticScenery {
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBeautifulWoman {
-    format("It's a painting of a beautiful, smiling woman with a POKéMON on her lap.")
+    format("It's a painting of a beautiful, smiling woman with a POKMON on her lap.")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfLegendaryPokemon {
-    format("It's a painting of a legendary POKéMON from long ago.\p The artist painted this from imagination.")
+    format("It's a painting of a legendary POKMON from long ago.\p The artist painted this from imagination.")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon {
-    format("It's a painting of GRASS POKéMON swaying in a breeze.\p They appear to be enjoying the wind's gentle caress.")
+    format("It's a painting of GRASS POKMON swaying in a breeze.\p They appear to be enjoying the wind's gentle caress.")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries {
@@ -51,27 +51,27 @@ text LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries {
 }
 
 text LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica {
-    format("It's a replica of a famous sculpture.\p It depicts an ancient BIRD POKéMON.")
+    format("It's a replica of a famous sculpture.\p It depicts an ancient BIRD POKMON.")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone {
-    format("It's a big POKé BALL carved from a black stone.\p It was apparently used in festivals in the olden days.")
+    format("It's a big POK BALL carved from a black stone.\p It was apparently used in festivals in the olden days.")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText {
-    format("It's a huge stone tablet inscribed with POKéMON and dense text in the\l small characters of an ancient,\l unreadable language.")
+    format("It's a huge stone tablet inscribed with POKMON and dense text in the\l small characters of an ancient,\l unreadable language.")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_WorksOfMagnificence {
-    format("Hmmm… What works of great magnificence…")
+    format("Hmmm What works of great magnificence")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts {
-    format("Battling with POKéMON is fun, I'll grant you that.\p But one mustn't forget our love for the fine arts.")
+    format("Battling with POKMON is fun, I'll grant you that.\p But one mustn't forget our love for the fine arts.")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration {
-    format("This ART MUSEUM… Well, you could see many fantastic paintings.\p And the CURATOR is a wonderful person.\p Among artists like myself, this MUSEUM is an inspiration.")
+    format("This ART MUSEUM Well, you could see many fantastic paintings.\p And the CURATOR is a wonderful person.\p Among artists like myself, this MUSEUM is an inspiration.")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty {
@@ -79,7 +79,7 @@ text LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty {
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_ThisPokemonIsAdorable {
-    format("This POKéMON is adorable! Just like our little boy!")
+    format("This POKMON is adorable! Just like our little boy!")
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_HeardMuseumGotNewPaintings {
@@ -95,6 +95,6 @@ text LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings {
 }
 
 text LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination {
-    format("The ART MUSEUM has become a favorite tourist destination.\p It's great for LILYCOVE… No, great for the HOENN region!\p This is what I've heard--a lone TRAINER procured all the paintings upstairs.")
+    format("The ART MUSEUM has become a favorite tourist destination.\p It's great for LILYCOVE No, great for the HOENN region!\p This is what I've heard--a lone TRAINER procured all the paintings upstairs.")
 }
 

@@ -12,7 +12,7 @@ text VictoryRoad_2F_Text_DawsonDefeat {
 }
 
 text VictoryRoad_2F_Text_DawsonPostBattle {
-    format("I can beat you when it comes to knowledge about POKéMON!")
+    format("I can beat you when it comes to knowledge about POKMON!")
 }
 
 text VictoryRoad_2F_Text_DaisukeIntro {
@@ -48,7 +48,7 @@ text VictoryRoad_2F_Text_VincentDefeat {
 }
 
 text VictoryRoad_2F_Text_VincentPostBattle {
-    format("You earned the right to be on VICTORY ROAD…")
+    format("You earned the right to be on VICTORY ROAD")
 }
 
 text VictoryRoad_2F_Text_GregoryIntro {
@@ -64,6 +64,6 @@ text VictoryRoad_2F_Text_GregoryPostBattle {
 }
 
 text VictoryRoad_2F_Text_Gyaoo {
-    format("ギヤーオ！")
+    format("")
 }
 

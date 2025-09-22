@@ -5,14 +5,14 @@ mapscripts EverGrandeCity_PokemonCenter_1F_MapScripts {
 
 
 text EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad {
-    format("The POKéMON LEAGUE is only a short distance after the VICTORY ROAD.\p If you've come this far, what choice do you have but to keep going?")
+    format("The POKMON LEAGUE is only a short distance after the VICTORY ROAD.\p If you've come this far, what choice do you have but to keep going?")
 }
 
 text EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon {
-    format("The long and harrowing VICTORY ROAD…\p It's like reliving the path one has traveled in life…\p Believe in your POKéMON and give it your very best!")
+    format("The long and harrowing VICTORY ROAD\p It's like reliving the path one has traveled in life\p Believe in your POKMON and give it your very best!")
 }
 
 text EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou {
-    format("SCOTT: {PLAYER}{KUN}, you've clawed your way up to face the POKéMON LEAGUE!\p I'm happy for you! You made my cheering worthwhile!\p {PLAYER}{KUN}, if you were to become the POKéMON LEAGUE CHAMPION…\p I'll get in touch with you then.\p Okay, {PLAYER}{KUN}. Go for greatness!")
+    format("SCOTT: {PLAYER}{KUN}, you've clawed your way up to face the POKMON LEAGUE!\p I'm happy for you! You made my cheering worthwhile!\p {PLAYER}{KUN}, if you were to become the POKMON LEAGUE CHAMPION\p I'll get in touch with you then.\p Okay, {PLAYER}{KUN}. Go for greatness!")
 }
 

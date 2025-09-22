@@ -5,7 +5,7 @@ mapscripts AbandonedShip_Corridors_B1F_MapScripts {
 
 
 text AbandonedShip_Corridors_B1F_Text_DuncanIntro {
-    format("When we go out to sea, we SAILORS always bring our POKéMON.\l How about a quick battle?")
+    format("When we go out to sea, we SAILORS always bring our POKMON.\l How about a quick battle?")
 }
 
 text AbandonedShip_Corridors_B1F_Text_DuncanDefeat {
@@ -13,7 +13,7 @@ text AbandonedShip_Corridors_B1F_Text_DuncanDefeat {
 }
 
 text AbandonedShip_Corridors_B1F_Text_DuncanPostBattle {
-    format("The ship's bottom has sunk into the depths.\p If a POKéMON knew how to go underwater, we might make some progress…")
+    format("The ship's bottom has sunk into the depths.\p If a POKMON knew how to go underwater, we might make some progress")
 }
 
 text AbandonedShip_Corridors_B1F_Text_YayItsAShip {
@@ -21,7 +21,7 @@ text AbandonedShip_Corridors_B1F_Text_YayItsAShip {
 }
 
 text AbandonedShip_Corridors_B1F_Text_DoorIsLocked {
-    format("The door is locked.\p “STORAGE” is painted on the door.")
+    format("The door is locked.\p STORAGE is painted on the door.")
 }
 
 text AbandonedShip_Corridors_B1F_Text_InsertedStorageKey {

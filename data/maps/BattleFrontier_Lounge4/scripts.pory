@@ -11,6 +11,6 @@ text BattleFrontier_Lounge4_Text_IfIOpenedRestaurantHere {
 }
 
 text BattleFrontier_Lounge4_Text_NeedBreatherAfterBattles {
-    format("Whew…\p I need to take a breather after some intense battles…\p But even now, I never take a break from plotting strategy and combos.")
+    format("Whew\p I need to take a breather after some intense battles\p But even now, I never take a break from plotting strategy and combos.")
 }
 

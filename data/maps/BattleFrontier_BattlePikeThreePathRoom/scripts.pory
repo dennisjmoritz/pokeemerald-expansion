@@ -6,31 +6,31 @@ mapscripts BattleFrontier_BattlePikeThreePathRoom_MapScripts {
 
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1 {
-    format("You are currently in the 1st room…")
+    format("You are currently in the 1st room")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom3 {
-    format("You are currently in the 3rd room…")
+    format("You are currently in the 3rd room")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom5 {
-    format("You are currently in the 5th room…")
+    format("You are currently in the 5th room")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom7 {
-    format("You are currently in the 7th room…")
+    format("You are currently in the 7th room")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom9 {
-    format("You are currently in the 9th room…")
+    format("You are currently in the 9th room")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom11 {
-    format("You are currently in the 11th room…")
+    format("You are currently in the 11th room")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom13 {
-    format("You are currently in the 13th room…")
+    format("You are currently in the 13th room")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge {
@@ -46,62 +46,62 @@ text BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge {
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume {
-    format("We've been awaiting your return…\p Before resuming your Battle Choice challenge, let me save the game…")
+    format("We've been awaiting your return\p Before resuming your Battle Choice challenge, let me save the game")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge {
-    format("Please do enjoy your Battle Choice challenge…")
+    format("Please do enjoy your Battle Choice challenge")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData {
-    format("I am saving your data… A little time, please…")
+    format("I am saving your data A little time, please")
 }
 
 text BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack {
-    format("The path is blocked! And there is no turning back…")
+    format("The path is blocked! And there is no turning back")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose {
-    format("I beg your pardon, but…\p Are you perhaps finding it difficult to choose your path?")
+    format("I beg your pardon, but\p Are you perhaps finding it difficult to choose your path?")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence {
-    format("I see… I apologize for my impertinence…")
+    format("I see I apologize for my impertinence")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath {
-    format("Ah, let me see… There is something about the path on the right…")
+    format("Ah, let me see There is something about the path on the right")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutCenterPath {
-    format("Ah, let me see… There is something about the path in the center…")
+    format("Ah, let me see There is something about the path in the center")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath {
-    format("Ah, let me see… There is something about the path on the left…")
+    format("Ah, let me see There is something about the path on the left")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon {
-    format("It seems to have the distinct aroma of POKéMON wafting around it…")
+    format("It seems to have the distinct aroma of POKMON wafting around it")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople {
-    format("Is it… A TRAINER? I sense the presence of people…")
+    format("Is it A TRAINER? I sense the presence of people")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering {
-    format("I seem to have heard something… It may have been whispering…")
+    format("I seem to have heard something It may have been whispering")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga {
-    format("For some odd reason, I felt a wave of nostalgia coming from it…")
+    format("For some odd reason, I felt a wave of nostalgia coming from it")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent {
-    format("I am sorry to say…\p A terrifying event, yes, a horrible one, is about to befall you…\p I urge you to pay the utmost care and prepare for the worst…")
+    format("I am sorry to say\p A terrifying event, yes, a horrible one, is about to befall you\p I urge you to pay the utmost care and prepare for the worst")
 }
 
 text BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence {
-    format("From every path I sense a dreadful presence…")
+    format("From every path I sense a dreadful presence")
 }
 

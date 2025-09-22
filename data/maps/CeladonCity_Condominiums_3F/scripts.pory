@@ -15,11 +15,11 @@ text CeladonCity_Condominiums_3F_Text_IWroteTheStory {
 }
 
 text CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex {
-    format("Is that right?\p I'm the game designer!\p Filling up your POKéDEX is tough, but don't quit!\p When you finish, come tell me!")
+    format("Is that right?\p I'm the game designer!\p Filling up your POKDEX is tough, but don't quit!\p When you finish, come tell me!")
 }
 
 text CeladonCity_Condominiums_3F_Text_CompletedPokedexCongratulations {
-    format("Wow! Excellent! You completed your POKéDEX!\l Congratulations!\l …")
+    format("Wow! Excellent! You completed your POKDEX!\l Congratulations!\l ")
 }
 
 text CeladonCity_Condominiums_3F_Text_ItsTheGameProgram {

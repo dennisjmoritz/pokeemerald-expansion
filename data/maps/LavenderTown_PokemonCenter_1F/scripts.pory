@@ -9,7 +9,7 @@ text LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney {
 }
 
 text LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets {
-    format("I saw CUBONE's mother trying to escape from TEAM ROCKET.\p She was killed trying to get away…")
+    format("I saw CUBONE's mother trying to escape from TEAM ROCKET.\p She was killed trying to get away")
 }
 
 text LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls {

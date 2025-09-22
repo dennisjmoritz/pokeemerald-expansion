@@ -23,7 +23,7 @@ text LilycoveCity_DepartmentStore_1F_Text_Azumarill {
 }
 
 text LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign {
-    format("1F: SERVICE COUNTER LOTTERY CORNER\p 2F: TRAINER'S ZONE\p 3F: BATTLE COLLECTION\p 4F: TM CORNER\p 5F: POKé DOLL FLOOR\p ROOFTOP: ROOFTOP PLAZA")
+    format("1F: SERVICE COUNTER LOTTERY CORNER\p 2F: TRAINER'S ZONE\p 3F: BATTLE COLLECTION\p 4F: TM CORNER\p 5F: POK DOLL FLOOR\p ROOFTOP: ROOFTOP PLAZA")
 }
 
 text LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun {

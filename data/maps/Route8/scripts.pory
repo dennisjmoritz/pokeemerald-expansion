@@ -3,7 +3,7 @@ mapscripts Route8_MapScripts {
 
 
 text Route8_Text_AidanIntro {
-    format("You look good at POKéMON, but how is your chemistry grade?")
+    format("You look good at POKMON, but how is your chemistry grade?")
 }
 
 text Route8_Text_AidanDefeat {
@@ -35,7 +35,7 @@ text Route8_Text_GlennDefeat {
 }
 
 text Route8_Text_GlennPostBattle {
-    format("Go with GRIMER first…and… …and…then…")
+    format("Go with GRIMER firstand andthen")
 }
 
 text Route8_Text_PaigeIntro {
@@ -47,11 +47,11 @@ text Route8_Text_PaigeDefeat {
 }
 
 text Route8_Text_PaigePostBattle {
-    format("When POKéMON grow up, they get ugly! They shouldn't evolve.")
+    format("When POKMON grow up, they get ugly! They shouldn't evolve.")
 }
 
 text Route8_Text_LeslieIntro {
-    format("School is fun, but so are POKéMON.")
+    format("School is fun, but so are POKMON.")
 }
 
 text Route8_Text_LeslieDefeat {
@@ -59,7 +59,7 @@ text Route8_Text_LeslieDefeat {
 }
 
 text Route8_Text_LesliePostBattle {
-    format("I was planning on getting some fresh air for a change, but…\p We're stuck here because of the gates at SAFFRON.")
+    format("I was planning on getting some fresh air for a change, but\p We're stuck here because of the gates at SAFFRON.")
 }
 
 text Route8_Text_AndreaIntro {
@@ -79,7 +79,7 @@ text Route8_Text_MeganIntro {
 }
 
 text Route8_Text_MeganDefeat {
-    format("Look what you did to my poor, cute POKéMON!")
+    format("Look what you did to my poor, cute POKMON!")
 }
 
 text Route8_Text_MeganPostBattle {
@@ -95,11 +95,11 @@ text Route8_Text_RichDefeat {
 }
 
 text Route8_Text_RichPostBattle {
-    format("Playing games and POKéMON are like eating peanuts! I just can't stop!")
+    format("Playing games and POKMON are like eating peanuts! I just can't stop!")
 }
 
 text Route8_Text_JuliaIntro {
-    format("What's a cute, round, and fluffy POKéMON?")
+    format("What's a cute, round, and fluffy POKMON?")
 }
 
 text Route8_Text_JuliaDefeat {
@@ -107,7 +107,7 @@ text Route8_Text_JuliaDefeat {
 }
 
 text Route8_Text_JuliaPostBattle {
-    format("I read that CLEFAIRY evolves when it's exposed to a MOON STONE.\p I read that in a POKéMON JOURNAL. I wonder if it's true?")
+    format("I read that CLEFAIRY evolves when it's exposed to a MOON STONE.\p I read that in a POKMON JOURNAL. I wonder if it's true?")
 }
 
 text Route8_Text_UndergroundPathSign {
@@ -119,15 +119,15 @@ text Route8_Text_EliIntro {
 }
 
 text Route8_Text_EliDefeat {
-    format("ELI: But… We used our twin power…")
+    format("ELI: But We used our twin power")
 }
 
 text Route8_Text_EliPostBattle {
-    format("ELI: I caught my POKéMON with ANNE!")
+    format("ELI: I caught my POKMON with ANNE!")
 }
 
 text Route8_Text_EliNotEnoughMons {
-    format("ELI: We can't battle if you don't have two POKéMON.")
+    format("ELI: We can't battle if you don't have two POKMON.")
 }
 
 text Route8_Text_AnneIntro {
@@ -135,15 +135,15 @@ text Route8_Text_AnneIntro {
 }
 
 text Route8_Text_AnneDefeat {
-    format("ANNE: Our twin power…")
+    format("ANNE: Our twin power")
 }
 
 text Route8_Text_AnnePostBattle {
-    format("ANNE: I'm raising POKéMON with ELI.")
+    format("ANNE: I'm raising POKMON with ELI.")
 }
 
 text Route8_Text_AnneNotEnoughMons {
-    format("ANNE: Hi, hi! Let's battle! But bring two POKéMON.")
+    format("ANNE: Hi, hi! Let's battle! But bring two POKMON.")
 }
 
 text Route8_Text_RicardoIntro {

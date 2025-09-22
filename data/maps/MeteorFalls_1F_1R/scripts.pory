@@ -4,7 +4,7 @@ mapscripts MeteorFalls_1F_1R_MapScripts {
 
 
 text MeteorFalls_1F_1R_Text_WithThisMeteorite {
-    format("Hehehe!\p With this METEORITE, that thing in MT. CHIMNEY will…")
+    format("Hehehe!\p With this METEORITE, that thing in MT. CHIMNEY will")
 }
 
 text MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma {
@@ -16,15 +16,15 @@ text MeteorFalls_1F_1R_Text_HoldItRightThereMagma {
 }
 
 text MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua {
-    format("Hehehe! Even TEAM AQUA joins us!\p But it's too much trouble to deal with you all…\p Heh, it doesn't matter!\p We've got the METEORITE, so off to MT. CHIMNEY we go!\p Hehehe! Be seeing you, you TEAM AQUA dingbats!")
+    format("Hehehe! Even TEAM AQUA joins us!\p But it's too much trouble to deal with you all\p Heh, it doesn't matter!\p We've got the METEORITE, so off to MT. CHIMNEY we go!\p Hehehe! Be seeing you, you TEAM AQUA dingbats!")
 }
 
 text MeteorFalls_1F_1R_Text_ArchieSeenYouBefore {
-    format("ARCHIE: Didn't I see you before? At SLATEPORT's MUSEUM?\p Ah, so your name is {PLAYER}.\p At the time, I thought you were one of TEAM MAGMA's goons.\p Humph… You're one odd kid.\p TEAM MAGMA is a dangerous group of total fanatics.\p They engage in destruction, claiming to expand the land mass.\p They are the rivals to us, the sea-loving TEAM AQUA!")
+    format("ARCHIE: Didn't I see you before? At SLATEPORT's MUSEUM?\p Ah, so your name is {PLAYER}.\p At the time, I thought you were one of TEAM MAGMA's goons.\p Humph You're one odd kid.\p TEAM MAGMA is a dangerous group of total fanatics.\p They engage in destruction, claiming to expand the land mass.\p They are the rivals to us, the sea-loving TEAM AQUA!")
 }
 
 text MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma {
-    format("BOSS, we should give chase to TEAM MAGMA…")
+    format("BOSS, we should give chase to TEAM MAGMA")
 }
 
 text MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo {
@@ -36,10 +36,10 @@ text MeteorFalls_1F_1R_Text_ArchieFarewell {
 }
 
 text MeteorFalls_1F_1R_Text_MeetProfCozmo {
-    format("I… I'm COZMO… I'm a PROFESSOR…\p TEAM MAGMA asked me to guide them to METEOR FALLS…\p But they tricked me. They even took my METEORITE away…\p And then another similar bunch, TEAM AQUA showed up.\p After that… I don't understand any of it.\p But that TEAM MAGMA…\p What are they going to do with that METEORITE at MT. CHIMNEY?")
+    format("I I'm COZMO I'm a PROFESSOR\p TEAM MAGMA asked me to guide them to METEOR FALLS\p But they tricked me. They even took my METEORITE away\p And then another similar bunch, TEAM AQUA showed up.\p After that I don't understand any of it.\p But that TEAM MAGMA\p What are they going to do with that METEORITE at MT. CHIMNEY?")
 }
 
 text MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney {
-    format("PROF. COZMO: But that TEAM MAGMA…\p What are they going to do with that METEORITE at MT. CHIMNEY?")
+    format("PROF. COZMO: But that TEAM MAGMA\p What are they going to do with that METEORITE at MT. CHIMNEY?")
 }
 

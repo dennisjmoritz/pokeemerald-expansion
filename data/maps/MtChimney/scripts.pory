@@ -5,11 +5,11 @@ mapscripts MtChimney_MapScripts {
 
 
 text MtChimney_Text_MeteoriteWillActivateVolcano {
-    format("The power contained in the METEORITE…\p By amplifying its power with this machine, MT. CHIMNEY's volcanic\l activity will instantly intensify…\p Its energy will grow deep inside the crater and…\l Fufufu…")
+    format("The power contained in the METEORITE\p By amplifying its power with this machine, MT. CHIMNEY's volcanic\l activity will instantly intensify\p Its energy will grow deep inside the crater and\l Fufufu")
 }
 
 text MtChimney_Text_MaxieIntro {
-    format("MAXIE: Hm? Who are you?\p … … … … … … … … … … … …\p I'd heard ARCHIE bemoaning a child who's been meddling in TEAM AQUA's\l affairs.\p It must be you he meant.\p Humph! So you're thinking of interfering with us, TEAM MAGMA?\p Now you listen. Long ago, living things used the\l land to live and grow.\p That is why land is all important! It is the cradle of all!\p That is why TEAM MAGMA is dedicated to the expansion of the land mass.\p It is for further advancement of humankind and POKéMON!\p And for that, we need the power of what sleeps within this mountain…\p Oh! There was no need for you to learn that much.\p But, no matter! I'll teach you the consequences of\l meddling in our grand design!")
+    format("MAXIE: Hm? Who are you?\p            \p I'd heard ARCHIE bemoaning a child who's been meddling in TEAM AQUA's\l affairs.\p It must be you he meant.\p Humph! So you're thinking of interfering with us, TEAM MAGMA?\p Now you listen. Long ago, living things used the\l land to live and grow.\p That is why land is all important! It is the cradle of all!\p That is why TEAM MAGMA is dedicated to the expansion of the land mass.\p It is for further advancement of humankind and POKMON!\p And for that, we need the power of what sleeps within this mountain\p Oh! There was no need for you to learn that much.\p But, no matter! I'll teach you the consequences of\l meddling in our grand design!")
 }
 
 text MtChimney_Text_MaxieDefeat {
@@ -17,7 +17,7 @@ text MtChimney_Text_MaxieDefeat {
 }
 
 text MtChimney_Text_MaxieYouHaventSeenLastOfMagma {
-    format("MAXIE: But, enough. I will back off this time.\p But don't think that this is the last you've seen of TEAM MAGMA.\p Fufufu…\p Even without the METEORITE, if we obtain that ORB… Fufufu…")
+    format("MAXIE: But, enough. I will back off this time.\p But don't think that this is the last you've seen of TEAM MAGMA.\p Fufufu\p Even without the METEORITE, if we obtain that ORB Fufufu")
 }
 
 text MtChimney_Text_TabithaIntro {
@@ -25,11 +25,11 @@ text MtChimney_Text_TabithaIntro {
 }
 
 text MtChimney_Text_TabithaDefeat {
-    format("Hehehe…\p Even though I've lost, if our leader awakens that thing…")
+    format("Hehehe\p Even though I've lost, if our leader awakens that thing")
 }
 
 text MtChimney_Text_TabithaPostBattle {
-    format("BOSS, hurry! Give it the METEORITE's energy!\p Hehehe…")
+    format("BOSS, hurry! Give it the METEORITE's energy!\p Hehehe")
 }
 
 text MtChimney_Text_Grunt2Intro {
@@ -41,7 +41,7 @@ text MtChimney_Text_Grunt2Defeat {
 }
 
 text MtChimney_Text_Grunt2PostBattle {
-    format("Our BOSS says, “It will make everyone happy.”\p But why does everyone keep getting in our way?")
+    format("Our BOSS says, It will make everyone happy.\p But why does everyone keep getting in our way?")
 }
 
 text MtChimney_Text_Grunt1Intro {
@@ -49,7 +49,7 @@ text MtChimney_Text_Grunt1Intro {
 }
 
 text MtChimney_Text_Grunt1Defeat {
-    format("My dream of a big house…")
+    format("My dream of a big house")
 }
 
 text MtChimney_Text_Grunt1PostBattle {
@@ -57,7 +57,7 @@ text MtChimney_Text_Grunt1PostBattle {
 }
 
 text MtChimney_Text_TeamAquaAlwaysMessingWithPlans {
-    format("That annoying TEAM AQUA… They always mess with our plans!")
+    format("That annoying TEAM AQUA They always mess with our plans!")
 }
 
 text MtChimney_Text_MeteoritesPackAmazingPower {
@@ -89,19 +89,19 @@ text MtChimney_Text_ArchieGoStopTeamMagma {
 }
 
 text MtChimney_Text_ArchieIHaveMyHandsFull {
-    format("ARCHIE: Grrr…\p I want to stop that MAXIE, but I can't!\p Not when I have my hands full battling three opponents at once!")
+    format("ARCHIE: Grrr\p I want to stop that MAXIE, but I can't!\p Not when I have my hands full battling three opponents at once!")
 }
 
 text MtChimney_Text_ArchieThankYou {
-    format("ARCHIE: {PLAYER}! Thank you!\p With your help, we thwarted TEAM MAGMA's destructive plan!\p But… You… Whose side are you on?\p Ah, it doesn't matter.\p We will remain vigilant and keep up our pursuit of TEAM MAGMA.\p {PLAYER}, we shall meet again!")
+    format("ARCHIE: {PLAYER}! Thank you!\p With your help, we thwarted TEAM MAGMA's destructive plan!\p But You Whose side are you on?\p Ah, it doesn't matter.\p We will remain vigilant and keep up our pursuit of TEAM MAGMA.\p {PLAYER}, we shall meet again!")
 }
 
 text MtChimney_Text_MagmaOutnumbersUs {
-    format("Darn… TEAM MAGMA outnumbers us! We can't keep up with them!")
+    format("Darn TEAM MAGMA outnumbers us! We can't keep up with them!")
 }
 
 text MtChimney_Text_LessHabitatForWaterPokemon {
-    format("If they expand the land, there'll be less habitats for WATER POKéMON!")
+    format("If they expand the land, there'll be less habitats for WATER POKMON!")
 }
 
 text MtChimney_Text_MagmasNameSimilar {
@@ -113,7 +113,7 @@ text MtChimney_Text_Bushaa {
 }
 
 text MtChimney_Text_LavaCookiesJust200 {
-    format("LAVA COOKIES are MT. CHIMNEY's local specialty.\p Try one. It's just ¥200.")
+    format("LAVA COOKIES are MT. CHIMNEY's local specialty.\p Try one. It's just 200.")
 }
 
 text MtChimney_Text_ThankYouDear {
@@ -129,11 +129,11 @@ text MtChimney_Text_OhFineThen {
 }
 
 text MtChimney_Text_MetoriteFittedOnMachine {
-    format("A METEORITE is fitted on a mysterious machine…\p The machine seems to be storing energy in the METEORITE.")
+    format("A METEORITE is fitted on a mysterious machine\p The machine seems to be storing energy in the METEORITE.")
 }
 
 text MtChimney_Text_RemoveTheMeteorite {
-    format("A METEORITE is fitted on a mysterious machine…\p Do you want to remove the METEORITE?")
+    format("A METEORITE is fitted on a mysterious machine\p Do you want to remove the METEORITE?")
 }
 
 text MtChimney_Text_PlayerRemovedMeteorite {
@@ -145,7 +145,7 @@ text MtChimney_Text_PlayerLeftMeteorite {
 }
 
 text MtChimney_Text_MachineMakesNoResponse {
-    format("This mysterious machine… It makes no response whatsoever.")
+    format("This mysterious machine It makes no response whatsoever.")
 }
 
 text MtChimney_Text_RouteSign {
@@ -169,7 +169,7 @@ text MtChimney_Text_ShelbyRegister {
 }
 
 text MtChimney_Text_ShelbyRematchIntro {
-    format("If you can mesh your heart with those of your POKéMON, why, you should be\l able to achieve great things.")
+    format("If you can mesh your heart with those of your POKMON, why, you should be\l able to achieve great things.")
 }
 
 text MtChimney_Text_ShelbyRematchDefeat {
@@ -177,7 +177,7 @@ text MtChimney_Text_ShelbyRematchDefeat {
 }
 
 text MtChimney_Text_ShelbyPostRematch {
-    format("Perhaps your heart has become one with the hearts of your POKéMON.")
+    format("Perhaps your heart has become one with the hearts of your POKMON.")
 }
 
 text MtChimney_Text_MelissaIntro {
@@ -193,15 +193,15 @@ text MtChimney_Text_MelissaPostBattle {
 }
 
 text MtChimney_Text_SheilaIntro {
-    format("I've finally made it to MT. CHIMNEY. I want to make my POKéMON battle!")
+    format("I've finally made it to MT. CHIMNEY. I want to make my POKMON battle!")
 }
 
 text MtChimney_Text_SheilaDefeat {
-    format("The way you battle… It's like a MT. CHIMNEY eruption!")
+    format("The way you battle It's like a MT. CHIMNEY eruption!")
 }
 
 text MtChimney_Text_SheilaPostBattle {
-    format("Like I said, I've finally made it to MT. CHIMNEY. It would be a shame if\l I only do a little sightseeing…\p I want to get in some battles and buy COOKIES as souvenirs.")
+    format("Like I said, I've finally made it to MT. CHIMNEY. It would be a shame if\l I only do a little sightseeing\p I want to get in some battles and buy COOKIES as souvenirs.")
 }
 
 text MtChimney_Text_ShirleyIntro {
@@ -229,7 +229,7 @@ text MtChimney_Text_SawyerPostBattle {
 }
 
 text MtChimney_Text_SawyerRegister {
-    format("I like little fireballs like you. Let me register you in my POKéNAV.")
+    format("I like little fireballs like you. Let me register you in my POKNAV.")
 }
 
 text MtChimney_Text_SawyerRematchIntro {

@@ -8,10 +8,10 @@ text EverGrandeCity_Text_EnteringVictoryRoad {
 }
 
 text EverGrandeCity_Text_EnteringPokemonLeague {
-    format("ENTERING POKéMON LEAGUE CENTER GATE")
+    format("ENTERING POKMON LEAGUE CENTER GATE")
 }
 
 text EverGrandeCity_Text_CitySign {
-    format("EVER GRANDE CITY\p “The paradise of flowers, the sea, and POKéMON.”")
+    format("EVER GRANDE CITY\p The paradise of flowers, the sea, and POKMON.")
 }
 

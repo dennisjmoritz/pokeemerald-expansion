@@ -5,14 +5,14 @@ mapscripts LavaridgeTown_PokemonCenter_1F_MapScripts {
 
 
 text LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether {
-    format("I think POKéMON get closer to their TRAINERS if they spend time together.\p The longer the better. That's what I think.")
+    format("I think POKMON get closer to their TRAINERS if they spend time together.\p The longer the better. That's what I think.")
 }
 
 text LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate {
-    format("It's sort of magical how just sitting in a hot-spring pool can invigorate.\p I wish I could let my POKéMON soak, too.")
+    format("It's sort of magical how just sitting in a hot-spring pool can invigorate.\p I wish I could let my POKMON soak, too.")
 }
 
 text LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo {
-    format("Hohoho! Hey, kid, you can reach the hot springs from here.\p If POKéMON are getting rest, so too should their TRAINERS.")
+    format("Hohoho! Hey, kid, you can reach the hot springs from here.\p If POKMON are getting rest, so too should their TRAINERS.")
 }
 

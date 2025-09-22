@@ -8,7 +8,7 @@ text SilphCo_1F_Text_WelcomePresidentInBoardroom {
 }
 
 text SilphCo_1F_Text_DestroyedWontBeFixedForWhile {
-    format("めちゃめちゃに　こわされてる とうぶん　なおりそうに　ない‥")
+    format(" ")
 }
 
 text SilphCo_1F_Text_FloorSign {

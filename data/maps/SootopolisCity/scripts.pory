@@ -8,11 +8,11 @@ mapscripts SootopolisCity_MapScripts {
 
 
 text SootopolisCity_Text_GymSign {
-    format("SOOTOPOLIS CITY POKéMON GYM LEADER: JUAN\p “The GYM LEADER with the beauty of pure water!”")
+    format("SOOTOPOLIS CITY POKMON GYM LEADER: JUAN\p The GYM LEADER with the beauty of pure water!")
 }
 
 text SootopolisCity_Text_CitySign {
-    format("SOOTOPOLIS CITY\p “The mystical city where history slumbers.”")
+    format("SOOTOPOLIS CITY\p The mystical city where history slumbers.")
 }
 
 text SootopolisCity_Text_DoorIsClosed {
@@ -20,31 +20,31 @@ text SootopolisCity_Text_DoorIsClosed {
 }
 
 text SootopolisCity_Text_PhysicallyFitLivingHere {
-    format("Diving in the sea. Climbing up and down stairs all the time…\p If you live in this town, you end up getting physically fit.")
+    format("Diving in the sea. Climbing up and down stairs all the time\p If you live in this town, you end up getting physically fit.")
 }
 
 text SootopolisCity_Text_GiantPokemonSuddenlyAppeared {
-    format("These giant POKéMON suddenly appeared in the middle of the city!\p And, I've never seen them before!\p Why are they smashing into each other like that?\p Why can't they be friends, those POKéMON?")
+    format("These giant POKMON suddenly appeared in the middle of the city!\p And, I've never seen them before!\p Why are they smashing into each other like that?\p Why can't they be friends, those POKMON?")
 }
 
 text SootopolisCity_Text_WhatIsThatGreenPokemon {
-    format("What? What? What? What is that green POKéMON?!")
+    format("What? What? What? What is that green POKMON?!")
 }
 
 text SootopolisCity_Text_WhereDidLegendariesGo {
-    format("GROUDON and KYOGRE… Where did they go?\p Will they cause droughts or downpours somewhere else?")
+    format("GROUDON and KYOGRE Where did they go?\p Will they cause droughts or downpours somewhere else?")
 }
 
 text SootopolisCity_Text_TwoPokemonArentAngry {
-    format("I just get this sense somehow that the two POKéMON aren't angry.\p I think… They probably can't control their own power…")
+    format("I just get this sense somehow that the two POKMON aren't angry.\p I think They probably can't control their own power")
 }
 
 text SootopolisCity_Text_FlyingMonStoppedRampage {
-    format("That flying POKéMON came down from the sky and stopped the rampaging\l POKéMON…")
+    format("That flying POKMON came down from the sky and stopped the rampaging\l POKMON")
 }
 
 text SootopolisCity_Text_WonderWhatWorldIsLike {
-    format("I… I've never been out of this city.\p I wonder what the world is like on the other side of this round sky?")
+    format("I I've never been out of this city.\p I wonder what the world is like on the other side of this round sky?")
 }
 
 text SootopolisCity_Text_ThisIsWicked {
@@ -56,11 +56,11 @@ text SootopolisCity_Text_ThatWasWicked {
 }
 
 text SootopolisCity_Text_GoRedAndBlueMon {
-    format("Go for it, red POKéMON! Don't back off, blue POKéMON!")
+    format("Go for it, red POKMON! Don't back off, blue POKMON!")
 }
 
 text SootopolisCity_Text_DoYouKnowMonNames {
-    format("… … … … … …\p Hi, do you know the names of those POKéMON fighting over there?")
+    format("     \p Hi, do you know the names of those POKMON fighting over there?")
 }
 
 text SootopolisCity_Text_GreenOneSettlesThings {
@@ -68,19 +68,19 @@ text SootopolisCity_Text_GreenOneSettlesThings {
 }
 
 text SootopolisCity_Text_SeeingLegendWithOwnEyes {
-    format("There's an ancient legend that claims the land and sea were shaped by\l a colossal battle between POKéMON.\p Well, I'm seeing that happen with my very own eyes!\p Whoa! I never expected to be witness to something this huge!")
+    format("There's an ancient legend that claims the land and sea were shaped by\l a colossal battle between POKMON.\p Well, I'm seeing that happen with my very own eyes!\p Whoa! I never expected to be witness to something this huge!")
 }
 
 text SootopolisCity_Text_SawLegendWithOwnEyes {
-    format("There's an ancient legend that claims the land and sea were shaped by\l a colossal battle between POKéMON.\p Well, I saw that happen with my very own eyes!\p Whoa! I never expected to be witness to something this huge!")
+    format("There's an ancient legend that claims the land and sea were shaped by\l a colossal battle between POKMON.\p Well, I saw that happen with my very own eyes!\p Whoa! I never expected to be witness to something this huge!")
 }
 
 text SootopolisCity_Text_BigPokemonFighting {
-    format("A big POKéMON is fighting with another big POKéMON!\p Please, someone make them stop!")
+    format("A big POKMON is fighting with another big POKMON!\p Please, someone make them stop!")
 }
 
 text SootopolisCity_Text_PrettyMonCameFromSky {
-    format("A pretty POKéMON came down from the sky…")
+    format("A pretty POKMON came down from the sky")
 }
 
 text SootopolisCity_Text_SootopolisWillBeWrecked {
@@ -96,23 +96,23 @@ text SootopolisCity_Text_NoOrdinaryTourist {
 }
 
 text SootopolisCity_Text_CityRegainedCalm {
-    format("The city has regained its calm…")
+    format("The city has regained its calm")
 }
 
 text SootopolisCity_Text_CaveOfOriginPleaseLeave {
-    format("Who might you be?\p This is the CAVE OF ORIGIN.\p The spirits of POKéMON, becalmed at MT. PYRE, are said to be revived here.\p Please leave.")
+    format("Who might you be?\p This is the CAVE OF ORIGIN.\p The spirits of POKMON, becalmed at MT. PYRE, are said to be revived here.\p Please leave.")
 }
 
 text SootopolisCity_Text_LeadSuperiorTrainerToCave {
-    format("A person with a strong will and superior talent…\p A TRAINER who has knowledge and experience of many kinds of POKéMON…\p If such a person were to appear, I was instructed by WALLACE to lead that\l TRAINER to this CAVE.")
+    format("A person with a strong will and superior talent\p A TRAINER who has knowledge and experience of many kinds of POKMON\p If such a person were to appear, I was instructed by WALLACE to lead that\l TRAINER to this CAVE.")
 }
 
 text SootopolisCity_Text_AwakenedPokemonClash {
-    format("Oh, my…\p The clash between the two awakened POKéMON was quelled by the awakening\l of a third POKéMON…")
+    format("Oh, my\p The clash between the two awakened POKMON was quelled by the awakening\l of a third POKMON")
 }
 
 text SootopolisCity_Text_CaveOfOriginSleepsToo {
-    format("This is the CAVE OF ORIGIN…\p With the passing of the crisis, the cave, too, shall sleep…")
+    format("This is the CAVE OF ORIGIN\p With the passing of the crisis, the cave, too, shall sleep")
 }
 
 text SootopolisCity_Text_SootopolisSkyBeautiful {
@@ -120,83 +120,83 @@ text SootopolisCity_Text_SootopolisSkyBeautiful {
 }
 
 text SootopolisCity_Text_GiganticPokemonFight {
-    format("When two POKéMON that gigantic are fighting that savagely, there's\l not much that we can do.")
+    format("When two POKMON that gigantic are fighting that savagely, there's\l not much that we can do.")
 }
 
 text SootopolisCity_Text_FearedWorstWhenPokemonFlewDown {
-    format("When that third POKéMON flew down, I feared the worst.")
+    format("When that third POKMON flew down, I feared the worst.")
 }
 
 text SootopolisCity_Text_NightSkyFavoriteScenery {
-    format("A circle of a night sky framed by the crater of a volcano…\p And in that ring, stars flicker and blink as if they were alive…\l It's my favorite scenery.")
+    format("A circle of a night sky framed by the crater of a volcano\p And in that ring, stars flicker and blink as if they were alive\l It's my favorite scenery.")
 }
 
 text SootopolisCity_Text_WeatherWentWild {
-    format("The weather was clear this morning, but…\p All of a sudden, dark clouds brewed up, rain started falling in sheets, and\l there was thunder and lightning, too.\p The weather just went completely wild!\p Is all of this because of those POKéMON?")
+    format("The weather was clear this morning, but\p All of a sudden, dark clouds brewed up, rain started falling in sheets, and\l there was thunder and lightning, too.\p The weather just went completely wild!\p Is all of this because of those POKMON?")
 }
 
 text SootopolisCity_Text_YouBroughtFlyingMon {
-    format("Oh?\p It was you who brought that flying POKéMON here?\p Well, aren't you amazing!")
+    format("Oh?\p It was you who brought that flying POKMON here?\p Well, aren't you amazing!")
 }
 
 text SootopolisCity_Text_GroudonPleaseStop {
-    format("MAXIE: G… GROUDON… Please! Stop what you're doing!\p I know the extent of your power now!\p If you keep going, all HOENN, not just SOOTOPOLIS, will be utterly ruined!")
+    format("MAXIE: G GROUDON Please! Stop what you're doing!\p I know the extent of your power now!\p If you keep going, all HOENN, not just SOOTOPOLIS, will be utterly ruined!")
 }
 
 text SootopolisCity_Text_AfterAllOurScheming {
-    format("MAXIE: So the super-ancient POKéMON weren't only GROUDON and KYOGRE…\p After all our fruitless scheming and frantic efforts, that one POKéMON's\l simple action puts everything right\l again as if nothing had happened…\p Fu… Fuhahaha…")
+    format("MAXIE: So the super-ancient POKMON weren't only GROUDON and KYOGRE\p After all our fruitless scheming and frantic efforts, that one POKMON's\l simple action puts everything right\l again as if nothing had happened\p Fu Fuhahaha")
 }
 
 text SootopolisCity_Text_KyogreCalmDown {
-    format("ARCHIE: KYOGRE! What's wrong?! Look over here! It's the RED ORB!\l Calm down! KYOGRE!\p … … … … … … … … … … … …\p It's no good! It's not responding at all!")
+    format("ARCHIE: KYOGRE! What's wrong?! Look over here! It's the RED ORB!\l Calm down! KYOGRE!\p            \p It's no good! It's not responding at all!")
 }
 
 text SootopolisCity_Text_TryingMeaninglessToPokemon {
-    format("ARCHIE: KYOGRE and GROUDON both flew off to who knows where.\p The weather in HOENN has returned to its normal state…\p Haha… Hahaha…\p Maybe what we were trying to do was something small, even meaningless,\l to POKéMON…")
+    format("ARCHIE: KYOGRE and GROUDON both flew off to who knows where.\p The weather in HOENN has returned to its normal state\p Haha Hahaha\p Maybe what we were trying to do was something small, even meaningless,\l to POKMON")
 }
 
 text SootopolisCity_Text_InvolvedWithCrisisComeWithMe {
-    format("STEVEN: Those POKéMON fighting… GROUDON… And KYOGRE…\p The two super-ancient POKéMON were awakened from a long sleep…\p And now they are smashing each other with their uncontrollable energy…\p …{PLAYER}{KUN}.\p You being here now I'll take to mean that you're prepared to become\l involved in this crisis.\p Well, then, there's someone that I'd like you to meet.\p Come with me, please.")
+    format("STEVEN: Those POKMON fighting GROUDON And KYOGRE\p The two super-ancient POKMON were awakened from a long sleep\p And now they are smashing each other with their uncontrollable energy\p {PLAYER}{KUN}.\p You being here now I'll take to mean that you're prepared to become\l involved in this crisis.\p Well, then, there's someone that I'd like you to meet.\p Come with me, please.")
 }
 
 text SootopolisCity_Text_DoesThisMakeYourFearPokemon {
-    format("STEVEN: Listen, {PLAYER}{KUN}.\p Does seeing GROUDON and KYOGRE make you think POKéMON are to be feared?\p But that's not true. POKéMON are really more…\p …Why am I asking you this? You already know.")
+    format("STEVEN: Listen, {PLAYER}{KUN}.\p Does seeing GROUDON and KYOGRE make you think POKMON are to be feared?\p But that's not true. POKMON are really more\p Why am I asking you this? You already know.")
 }
 
 text SootopolisCity_Text_HereWereAreHelpWallace {
-    format("STEVEN: Okay, here we are!\p Inside here you'll find someone named WALLACE.\p I think you have what's needed to help him…")
+    format("STEVEN: Okay, here we are!\p Inside here you'll find someone named WALLACE.\p I think you have what's needed to help him")
 }
 
 text SootopolisCity_Text_KnowWhatsNeededToHelpHim {
-    format("STEVEN: I think you have what's needed to help him…")
+    format("STEVEN: I think you have what's needed to help him")
 }
 
 text SootopolisCity_Text_NeverBeenToSkyPillar {
-    format("STEVEN: The SKY PILLAR…\p I've never been there. I wonder where it could be?")
+    format("STEVEN: The SKY PILLAR\p I've never been there. I wonder where it could be?")
 }
 
 text SootopolisCity_Text_SoThatsRayquaza {
-    format("STEVEN: So that's RAYQUAZA…\p It's incredible how the two rampaging POKéMON would flee from it in fear…")
+    format("STEVEN: So that's RAYQUAZA\p It's incredible how the two rampaging POKMON would flee from it in fear")
 }
 
 text SootopolisCity_Text_MaxieArchieLeft {
-    format("STEVEN: It looks like both MAXIE and ARCHIE have gone away somewhere.\p Perhaps they've gone to MT. PYRE to return those ORBS…")
+    format("STEVEN: It looks like both MAXIE and ARCHIE have gone away somewhere.\p Perhaps they've gone to MT. PYRE to return those ORBS")
 }
 
 text SootopolisCity_Text_HaventYouScaledSkyPillar {
-    format("WALLACE: Oh? {PLAYER}{KUN}?\p Haven't you scaled the SKY PILLAR yet?\p I'm sure that you can make it to the top of the SKY PILLAR…")
+    format("WALLACE: Oh? {PLAYER}{KUN}?\p Haven't you scaled the SKY PILLAR yet?\p I'm sure that you can make it to the top of the SKY PILLAR")
 }
 
 text SootopolisCity_Text_AquaMagmaDidntMeanHarm {
-    format("WALLACE: {PLAYER}{KUN}…\p The leaders of TEAM MAGMA and AQUA, I don't think they meant harm.\p It wouldn't hurt to hear what they have to say for themselves.")
+    format("WALLACE: {PLAYER}{KUN}\p The leaders of TEAM MAGMA and AQUA, I don't think they meant harm.\p It wouldn't hurt to hear what they have to say for themselves.")
 }
 
 text SootopolisCity_Text_ThankYouForHelpAcceptThis {
-    format("WALLACE: {PLAYER}{KUN}… My eyes didn't deceive me.\p Thanks to your help, SOOTOPOLIS… No, all of HOENN was saved.\p On behalf of the people, I thank you.\p This is a gift from me. Please accept it.")
+    format("WALLACE: {PLAYER}{KUN} My eyes didn't deceive me.\p Thanks to your help, SOOTOPOLIS No, all of HOENN was saved.\p On behalf of the people, I thank you.\p This is a gift from me. Please accept it.")
 }
 
 text SootopolisCity_Text_ExplainWaterfallGoToGym {
-    format("That HIDDEN MACHINE contains WATERFALL.\p If you have the RAIN BADGE, a POKéMON that has learned that HM move can\l force its way up waterfalls.\p And where does one get the RAIN BADGE? You know, don't you?\p That's right! You have to beat the SOOTOPOLIS GYM LEADER.\p When you're all set to go, step through that door.")
+    format("That HIDDEN MACHINE contains WATERFALL.\p If you have the RAIN BADGE, a POKMON that has learned that HM move can\l force its way up waterfalls.\p And where does one get the RAIN BADGE? You know, don't you?\p That's right! You have to beat the SOOTOPOLIS GYM LEADER.\p When you're all set to go, step through that door.")
 }
 
 text SootopolisCity_Text_DazzledByMentor {

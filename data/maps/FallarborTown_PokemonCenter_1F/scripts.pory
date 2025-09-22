@@ -5,11 +5,11 @@ mapscripts FallarborTown_PokemonCenter_1F_MapScripts {
 
 
 text FallarborTown_PokemonCenter_1F_Text_LanetteGreeting {
-    format("Oh, hello. You are?\p Okay, your name's {PLAYER}{KUN}. I can see that you're a TRAINER.\p So that means you use the POKéMON Storage System I developed.\p How I arrived at that conclusion is a simple deductive process.\p You spoke to me because you wanted to access something on this PC.\p Oh, I'm sorry. I'm LANETTE.\p Honestly, I'm glad to meet you--it's great you're using the Storage System.\p If you could, please visit me at home. My house is on ROUTE 114.")
+    format("Oh, hello. You are?\p Okay, your name's {PLAYER}{KUN}. I can see that you're a TRAINER.\p So that means you use the POKMON Storage System I developed.\p How I arrived at that conclusion is a simple deductive process.\p You spoke to me because you wanted to access something on this PC.\p Oh, I'm sorry. I'm LANETTE.\p Honestly, I'm glad to meet you--it's great you're using the Storage System.\p If you could, please visit me at home. My house is on ROUTE 114.")
 }
 
 text FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown {
-    format("I wonder what POKéMON looked like long, long ago?\p Maybe the FOSSIL MANIAC at the edge of town will know.")
+    format("I wonder what POKMON looked like long, long ago?\p Maybe the FOSSIL MANIAC at the edge of town will know.")
 }
 
 text FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees {

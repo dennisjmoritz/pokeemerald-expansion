@@ -3,14 +3,14 @@ mapscripts PetalburgCity_Mart_MapScripts {
 
 
 text PetalburgCity_Mart_Text_WeakWillGrowStronger {
-    format("Even if a POKéMON is weak now, it will grow stronger.\p The most important thing is love! Love for your POKéMON!")
+    format("Even if a POKMON is weak now, it will grow stronger.\p The most important thing is love! Love for your POKMON!")
 }
 
 text PetalburgCity_Mart_Text_RepelIsUseful {
-    format("Do you use REPEL? It keeps POKéMON away, so it's\l useful when you're in a hurry.")
+    format("Do you use REPEL? It keeps POKMON away, so it's\l useful when you're in a hurry.")
 }
 
 text PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou {
-    format("Do you have any ANTIDOTES with you?\p If you walk around with a poisoned POKéMON, it will lose HP until it faints.\l Take some ANTIDOTES with you.")
+    format("Do you have any ANTIDOTES with you?\p If you walk around with a poisoned POKMON, it will lose HP until it faints.\l Take some ANTIDOTES with you.")
 }
 

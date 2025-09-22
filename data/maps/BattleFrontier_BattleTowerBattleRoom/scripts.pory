@@ -5,7 +5,7 @@ mapscripts BattleFrontier_BattleTowerBattleRoom_MapScripts {
 
 
 text BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth {
-    format("We will restore your POKéMON to full health.")
+    format("We will restore your POKMON to full health.")
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent {
@@ -61,7 +61,7 @@ text BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved {
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay {
-    format("Excuse me, but…\p Our leader, the SALON MAIDEN, is on her way here in hopes of battling you.\p She should be arriving very shortly.")
+    format("Excuse me, but\p Our leader, the SALON MAIDEN, is on her way here in hopes of battling you.\p She should be arriving very shortly.")
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden {
@@ -69,15 +69,15 @@ text BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden {
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel {
-    format("Greetings… My name is ANABEL.\p I am the SALON MAIDEN, and I am in charge of running the BATTLE TOWER…\p I have heard several rumors about you…\p In all honesty, what I have heard does not seem attractive in any way…\p The reason I've come to see you… Well, there is but one reason…")
+    format("Greetings My name is ANABEL.\p I am the SALON MAIDEN, and I am in charge of running the BATTLE TOWER\p I have heard several rumors about you\p In all honesty, what I have heard does not seem attractive in any way\p The reason I've come to see you Well, there is but one reason")
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent {
-    format("Let me see your talent in its entirety…")
+    format("Let me see your talent in its entirety")
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized {
-    format("ANABEL: Fufufu, nicely done…\p Your FRONTIER PASS, please… Your talent shall be recognized.")
+    format("ANABEL: Fufufu, nicely done\p Your FRONTIER PASS, please Your talent shall be recognized.")
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol {
@@ -85,11 +85,11 @@ text BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol {
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime {
-    format("… … … … … …\p You have confidence in your POKéMON battling talent, don't you?\p I urge you to keep battling and keep on winning.\p I will be waiting for you. Until the next time we meet…")
+    format("     \p You have confidence in your POKMON battling talent, don't you?\p I urge you to keep battling and keep on winning.\p I will be waiting for you. Until the next time we meet")
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack {
-    format("ANABEL: You really did come back to see me…\p … … … … … …\p You've won straight matches to see me… I won't have to hold back against you…\p It's been too long now…\p Too long since I've been able to battle without thinking about anything…")
+    format("ANABEL: You really did come back to see me\p      \p You've won straight matches to see me I won't have to hold back against you\p It's been too long now\p Too long since I've been able to battle without thinking about anything")
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe {
@@ -97,7 +97,7 @@ text BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe {
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease {
-    format("ANABEL: Fufu, congratulations… Your FRONTIER PASS, please…")
+    format("ANABEL: Fufu, congratulations Your FRONTIER PASS, please")
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine {
@@ -105,6 +105,6 @@ text BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine {
 }
 
 text BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain {
-    format("That was fun…\p I have never had a POKéMON battle so enjoyable before…\p I wish I could battle with you again…")
+    format("That was fun\p I have never had a POKMON battle so enjoyable before\p I wish I could battle with you again")
 }
 

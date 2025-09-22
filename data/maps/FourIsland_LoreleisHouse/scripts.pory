@@ -4,18 +4,18 @@ mapscripts FourIsland_LoreleisHouse_MapScripts {
 
 
 text FourIsland_LoreleisHouse_Text_IfAnythingWereToHappenToIsland {
-    format("LORELEI: There's something weighing heavily on my mind.\p If anything were to happen on the island where I was born…\p I wouldn't know about it if I were in the POKéMON LEAGUE.\p I wonder if that would make me irresponsible to my home…")
+    format("LORELEI: There's something weighing heavily on my mind.\p If anything were to happen on the island where I was born\p I wouldn't know about it if I were in the POKMON LEAGUE.\p I wonder if that would make me irresponsible to my home")
 }
 
 text FourIsland_LoreleisHouse_Text_IllReturnToLeagueInShortWhile {
-    format("LORELEI: So, you managed to solve all the problems here?\p That's wonderful.\p That means there isn't any reason for me to be here all the time.\p Thank you…\p I'll return to the POKéMON LEAGUE in a short while.")
+    format("LORELEI: So, you managed to solve all the problems here?\p That's wonderful.\p That means there isn't any reason for me to be here all the time.\p Thank you\p I'll return to the POKMON LEAGUE in a short while.")
 }
 
 text FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow {
-    format("I don't know what will happen in the future, but…\p I will do what I can here and now. That's all I can do.")
+    format("I don't know what will happen in the future, but\p I will do what I can here and now. That's all I can do.")
 }
 
 text FourIsland_LoreleisHouse_Text_StuffedMonDollsGalore {
-    format("Stuffed POKéMON dolls galore!")
+    format("Stuffed POKMON dolls galore!")
 }
 

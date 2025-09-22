@@ -62,7 +62,7 @@ text Route16_Text_CamronDefeat {
 }
 
 text Route16_Text_CamronPostBattle {
-    format("If I'm going to have POKéMON, they may as well be ferocious.\p I'd use them to leave my enemies in tatters.")
+    format("If I'm going to have POKMON, they may as well be ferocious.\p I'd use them to leave my enemies in tatters.")
 }
 
 text Route16_Text_RubenIntro {
@@ -74,11 +74,11 @@ text Route16_Text_RubenDefeat {
 }
 
 text Route16_Text_RubenPostBattle {
-    format("I get my kicks by harassing people with my stinking POKéMON.\p They're great for startling people. And, they bite, too.")
+    format("I get my kicks by harassing people with my stinking POKMON.\p They're great for startling people. And, they bite, too.")
 }
 
 text Route16_Text_MonSprawledOutInSlumber {
-    format("A POKéMON is sprawled out in a deep and comfortable slumber.")
+    format("A POKMON is sprawled out in a deep and comfortable slumber.")
 }
 
 text Route16_Text_CyclingRoadSign {
@@ -102,7 +102,7 @@ text Route16_Text_JedPostBattle {
 }
 
 text Route16_Text_JedNotEnoughMons {
-    format("JED: You have just one POKéMON? Is there no love in your heart?")
+    format("JED: You have just one POKMON? Is there no love in your heart?")
 }
 
 text Route16_Text_LeaIntro {
@@ -118,6 +118,6 @@ text Route16_Text_LeaPostBattle {
 }
 
 text Route16_Text_LeaNotEnoughMons {
-    format("LEA: Oh, you don't have two POKéMON with you?\p Doesn't it feel lonely for you or your POKéMON?")
+    format("LEA: Oh, you don't have two POKMON with you?\p Doesn't it feel lonely for you or your POKMON?")
 }
 

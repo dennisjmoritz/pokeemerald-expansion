@@ -3,11 +3,11 @@ mapscripts OneIsland_TreasureBeach_MapScripts {
 
 
 text OneIsland_TreasureBeach_Text_AmaraIntro {
-    format("Lying back, rocked by the waves… It's exquisite.")
+    format("Lying back, rocked by the waves It's exquisite.")
 }
 
 text OneIsland_TreasureBeach_Text_AmaraDefeat {
-    format("I lost… It feels awful.")
+    format("I lost It feels awful.")
 }
 
 text OneIsland_TreasureBeach_Text_AmaraPostBattle {

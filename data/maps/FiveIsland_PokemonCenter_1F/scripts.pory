@@ -9,6 +9,6 @@ text FiveIsland_PokemonCenter_1F_Text_OnMyWayToPrepareMeal {
 }
 
 text FiveIsland_PokemonCenter_1F_Text_YoureOnQuestToCatchEveryMon {
-    format("You're on a quest to catch every single kind of POKéMON?\p …How incredible. Please tell me if you catch a strong one!")
+    format("You're on a quest to catch every single kind of POKMON?\p How incredible. Please tell me if you catch a strong one!")
 }
 

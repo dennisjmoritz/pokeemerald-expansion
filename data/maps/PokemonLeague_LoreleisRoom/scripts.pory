@@ -8,18 +8,18 @@ mapscripts PokemonLeague_LoreleisRoom_MapScripts {
 
 
 text PokemonLeague_LoreleisRoom_Text_Intro {
-    format("Welcome to the POKéMON LEAGUE.\p I am LORELEI of the ELITE FOUR.\p No one can best me when it comes to icy POKéMON.\p Freezing moves are powerful.\p Your POKéMON will be at my mercy when they are frozen solid.\p Hahaha! Are you ready?{PLAY_BGM}{MUS_RG_GYM}")
+    format("Welcome to the POKMON LEAGUE.\p I am LORELEI of the ELITE FOUR.\p No one can best me when it comes to icy POKMON.\p Freezing moves are powerful.\p Your POKMON will be at my mercy when they are frozen solid.\p Hahaha! Are you ready?{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text PokemonLeague_LoreleisRoom_Text_RematchIntro {
-    format("Welcome to the POKéMON LEAGUE.\p I, LORELEI of the ELITE FOUR, have returned!\p You know how it goes. No one can best me when it comes\l to icy POKéMON.\p Freezing moves are powerful.\p Your POKéMON will be at my mercy when they are frozen solid.\p Hahaha! Are you ready?{PLAY_BGM}{MUS_RG_GYM}")
+    format("Welcome to the POKMON LEAGUE.\p I, LORELEI of the ELITE FOUR, have returned!\p You know how it goes. No one can best me when it comes\l to icy POKMON.\p Freezing moves are powerful.\p Your POKMON will be at my mercy when they are frozen solid.\p Hahaha! Are you ready?{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text PokemonLeague_LoreleisRoom_Text_Defeat {
-    format("…Things shouldn't be this way!")
+    format("Things shouldn't be this way!")
 }
 
 text PokemonLeague_LoreleisRoom_Text_PostBattle {
-    format("You're better than I thought. Go on ahead.\p You only got a taste of the POKéMON LEAGUE's power.")
+    format("You're better than I thought. Go on ahead.\p You only got a taste of the POKMON LEAGUE's power.")
 }
 

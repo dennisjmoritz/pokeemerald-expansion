@@ -3,10 +3,10 @@ mapscripts SixIsland_Mart_MapScripts {
 
 
 text SixIsland_Mart_Text_AgathaOldestEverEliteFourMember {
-    format("Play with POKéMON lots and live a long life!\p Take AGATHA, for example.\p She set a record for being the oldest-ever ELITE FOUR member.\p She spurs me to do bigger things.")
+    format("Play with POKMON lots and live a long life!\p Take AGATHA, for example.\p She set a record for being the oldest-ever ELITE FOUR member.\p She spurs me to do bigger things.")
 }
 
 text SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter {
-    format("I should buy some MAIL and write him a letter…")
+    format("I should buy some MAIL and write him a letter")
 }
 

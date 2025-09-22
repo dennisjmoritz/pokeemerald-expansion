@@ -6,7 +6,7 @@ mapscripts MossdeepCity_GameCorner_1F_MapScripts {
 
 
 text RS_MysteryEventsHouse_Text_OldManGreeting {
-    format("When I was young, I traveled the world as a POKéMON TRAINER.\p Now that I've become an old buzzard, my only amusement is watching young\l TRAINERS battle.")
+    format("When I was young, I traveled the world as a POKMON TRAINER.\p Now that I've become an old buzzard, my only amusement is watching young\l TRAINERS battle.")
 }
 
 text RS_MysteryEventsHouse_Text_DoorIsLocked {
@@ -18,7 +18,7 @@ text RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer {
 }
 
 text RS_MysteryEventsHouse_Text_YouWontBattle {
-    format("You won't battle? I'm disappointed that I can't see you battle…")
+    format("You won't battle? I'm disappointed that I can't see you battle")
 }
 
 text RS_MysteryEventsHouse_Text_KeepItToA3On3 {

@@ -7,14 +7,14 @@ text SafariZone_West_Text_KogaPatrolsSafariEverySoOften {
 }
 
 text SafariZone_West_Text_RocksMakeMonRunButEasierCatch {
-    format("Tossing ROCKS at POKéMON might make them run, but they'll be\l easier to catch.")
+    format("Tossing ROCKS at POKMON might make them run, but they'll be\l easier to catch.")
 }
 
 text SafariZone_West_Text_BaitMakesMonStickAround {
-    format("Using BAIT will make POKéMON more likely to stick around if they get\l busy eating.")
+    format("Using BAIT will make POKMON more likely to stick around if they get\l busy eating.")
 }
 
 text SafariZone_West_Text_HikedLotsDidntSeeMonIWanted {
-    format("I hiked a lot, but I didn't see any POKéMON I wanted.")
+    format("I hiked a lot, but I didn't see any POKMON I wanted.")
 }
 

@@ -7,6 +7,6 @@ text PetalburgCity_House2_Text_NormanBecameGymLeader {
 }
 
 text PetalburgCity_House2_Text_BattledNormanOnce {
-    format("I battled NORMAN once, but, whew, he was way too strong.\p How would I put it?\p I just got the feeling that he lives for POKéMON.")
+    format("I battled NORMAN once, but, whew, he was way too strong.\p How would I put it?\p I just got the feeling that he lives for POKMON.")
 }
 

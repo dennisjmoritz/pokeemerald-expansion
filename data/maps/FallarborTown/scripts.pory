@@ -4,7 +4,7 @@ mapscripts FallarborTown_MapScripts {
 
 
 text FallarborTown_Text_ShadyCharactersCozmosHome {
-    format("Something's happening, and I don't like it!\p I've seen shady characters wandering in and out of PROF. COZMO's home…")
+    format("Something's happening, and I don't like it!\p I've seen shady characters wandering in and out of PROF. COZMO's home")
 }
 
 text FallarborTown_Text_RegionKnownForMeteors {
@@ -20,18 +20,18 @@ text FallarborTown_Text_Azurill {
 }
 
 text FallarborTown_Text_HaveYouChallengedFlannery {
-    format("Have you already challenged FLANNERY, the LEADER of LAVARIDGE GYM?\p The girl's grandfather was famous. He was one of the ELITE FOUR in the\l POKéMON LEAGUE at one point.\p It wouldn't surprise me to see FLANNERY become a great TRAINER in her own\l right.")
+    format("Have you already challenged FLANNERY, the LEADER of LAVARIDGE GYM?\p The girl's grandfather was famous. He was one of the ELITE FOUR in the\l POKMON LEAGUE at one point.\p It wouldn't surprise me to see FLANNERY become a great TRAINER in her own\l right.")
 }
 
 text FallarborTown_Text_BattleTentSign {
-    format("BATTLE TENT FALLARBOR SITE “May the Greatest Teams Gather!”")
+    format("BATTLE TENT FALLARBOR SITE May the Greatest Teams Gather!")
 }
 
 text FallarborTown_Text_TownSign {
-    format("FALLARBOR TOWN “A farm community with small gardens.”")
+    format("FALLARBOR TOWN A farm community with small gardens.")
 }
 
 text FallarborTown_Text_MoveTutorSign {
-    format("MOVE TUTOR'S HOUSE “New moves taught to POKéMON.”")
+    format("MOVE TUTOR'S HOUSE New moves taught to POKMON.")
 }
 

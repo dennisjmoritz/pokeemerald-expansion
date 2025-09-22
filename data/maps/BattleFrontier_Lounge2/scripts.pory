@@ -15,11 +15,11 @@ text BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight {
 }
 
 text BattleFrontier_Lounge2_Text_FacilityIsHottest {
-    format("Let's see now…\p It sounds like the {STR_VAR_1} is the hottest place going.")
+    format("Let's see now\p It sounds like the {STR_VAR_1} is the hottest place going.")
 }
 
 text BattleFrontier_Lounge2_Text_BattleTowerIsHottest {
-    format("Let's see now…\p It sounds like BATTLE TOWER {STR_VAR_1} is the hottest.")
+    format("Let's see now\p It sounds like BATTLE TOWER {STR_VAR_1} is the hottest.")
 }
 
 text BattleFrontier_Lounge2_Text_SalonMaidenIsThere {
@@ -27,11 +27,11 @@ text BattleFrontier_Lounge2_Text_SalonMaidenIsThere {
 }
 
 text BattleFrontier_Lounge2_Text_SalonMaidenSilverMons {
-    format("Have you battled the SALON MAIDEN?\p When she's measuring up her opponent, she apparently uses these POKéMON:\p A PSYCHIC-type PSI POKéMON, a FIRE-type VOLCANO POKéMON,\l and a NORMAL-type SLEEPING POKéMON.")
+    format("Have you battled the SALON MAIDEN?\p When she's measuring up her opponent, she apparently uses these POKMON:\p A PSYCHIC-type PSI POKMON, a FIRE-type VOLCANO POKMON,\l and a NORMAL-type SLEEPING POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_SalonMaidenGoldMons {
-    format("Have you battled the SALON MAIDEN when she's serious?\p When she's battling flat out, she apparently uses these POKéMON:\p A DRAGON & PSYCHIC EON POKéMON, an ELECTRIC-type THUNDER POKéMON,\l and a NORMAL-type SLEEPING POKéMON.")
+    format("Have you battled the SALON MAIDEN when she's serious?\p When she's battling flat out, she apparently uses these POKMON:\p A DRAGON & PSYCHIC EON POKMON, an ELECTRIC-type THUNDER POKMON,\l and a NORMAL-type SLEEPING POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_DomeAceIsThere {
@@ -39,11 +39,11 @@ text BattleFrontier_Lounge2_Text_DomeAceIsThere {
 }
 
 text BattleFrontier_Lounge2_Text_DomeAceSilverMons {
-    format("Have you battled the DOME ACE?\p When he's treating the opponent lightly, he uses these three POKéMON:\p A DRAGON & FLYING DRAGON POKéMON, a WATER & GROUND MUD FISH POKéMON,\l and a FIRE & FLYING FLAME POKéMON.")
+    format("Have you battled the DOME ACE?\p When he's treating the opponent lightly, he uses these three POKMON:\p A DRAGON & FLYING DRAGON POKMON, a WATER & GROUND MUD FISH POKMON,\l and a FIRE & FLYING FLAME POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_DomeAceGoldMons {
-    format("Have you battled the DOME ACE when he's serious?\p When he's demonstrating his strategy, he uses these three POKéMON:\p A DRAGON & FLYING EON POKéMON, a WATER & GROUND MUD FISH POKéMON,\l and a STEEL- & PSYCHIC-type IRON LEG\l POKéMON.")
+    format("Have you battled the DOME ACE when he's serious?\p When he's demonstrating his strategy, he uses these three POKMON:\p A DRAGON & FLYING EON POKMON, a WATER & GROUND MUD FISH POKMON,\l and a STEEL- & PSYCHIC-type IRON LEG\l POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_FactoryHeadIsThere {
@@ -51,11 +51,11 @@ text BattleFrontier_Lounge2_Text_FactoryHeadIsThere {
 }
 
 text BattleFrontier_Lounge2_Text_FactoryHeadSilverMons {
-    format("Have you battled the FACTORY HEAD already?\p Let me think… When he goes to battle, he just gets three rental POKéMON.\p He battles under pretty much the same conditions as you.")
+    format("Have you battled the FACTORY HEAD already?\p Let me think When he goes to battle, he just gets three rental POKMON.\p He battles under pretty much the same conditions as you.")
 }
 
 text BattleFrontier_Lounge2_Text_FactoryHeadGoldMons {
-    format("Have you battled the FACTORY HEAD when he's serious?\p When he goes seriously to battle, he still gets three rental POKéMON.\p He battles under virtually the same conditions as you.")
+    format("Have you battled the FACTORY HEAD when he's serious?\p When he goes seriously to battle, he still gets three rental POKMON.\p He battles under virtually the same conditions as you.")
 }
 
 text BattleFrontier_Lounge2_Text_PikeQueenIsThere {
@@ -63,11 +63,11 @@ text BattleFrontier_Lounge2_Text_PikeQueenIsThere {
 }
 
 text BattleFrontier_Lounge2_Text_PikeQueenSilverMons {
-    format("Have you battled the PIKE QUEEN before?\p When she's in a good mood, they say she uses these three POKéMON:\p A POISON-type FANG SNAKE POKéMON, a BUG & ROCK MOLD POKéMON,\l and a WATER-type TENDER POKéMON.")
+    format("Have you battled the PIKE QUEEN before?\p When she's in a good mood, they say she uses these three POKMON:\p A POISON-type FANG SNAKE POKMON, a BUG & ROCK MOLD POKMON,\l and a WATER-type TENDER POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_PikeQueenGoldMons {
-    format("Have you battled the PIKE QUEEN when she's serious?\p When she's seriously annoyed, they say she uses these three POKéMON:\p A POISON-type FANG SNAKE POKéMON, a STEEL & GROUND IRON SNAKE POKéMON,\l and a WATER- & FLYING-type ATROCIOUS\l POKéMON.")
+    format("Have you battled the PIKE QUEEN when she's serious?\p When she's seriously annoyed, they say she uses these three POKMON:\p A POISON-type FANG SNAKE POKMON, a STEEL & GROUND IRON SNAKE POKMON,\l and a WATER- & FLYING-type ATROCIOUS\l POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_ArenaTycoonIsThere {
@@ -75,11 +75,11 @@ text BattleFrontier_Lounge2_Text_ArenaTycoonIsThere {
 }
 
 text BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons {
-    format("Have you battled the ARENA TYCOON before?\p When she's assessing the foe's ability, she supposedly uses these POKéMON:\p A BUG & FIGHTING SINGLE HORN POKéMON, a DARK-type MOONLIGHT POKéMON,\l and a BUG & GHOST SHED POKéMON.")
+    format("Have you battled the ARENA TYCOON before?\p When she's assessing the foe's ability, she supposedly uses these POKMON:\p A BUG & FIGHTING SINGLE HORN POKMON, a DARK-type MOONLIGHT POKMON,\l and a BUG & GHOST SHED POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons {
-    format("Have you battled the ARENA TYCOON when she's serious?\p When she battles for keeps, she supposedly uses these POKéMON:\p A DARK-type MOONLIGHT POKéMON, a GHOST & POISON SHADOW POKéMON\l and a GRASS- & FIGHTING-type\l MUSHROOM POKéMON.")
+    format("Have you battled the ARENA TYCOON when she's serious?\p When she battles for keeps, she supposedly uses these POKMON:\p A DARK-type MOONLIGHT POKMON, a GHOST & POISON SHADOW POKMON\l and a GRASS- & FIGHTING-type\l MUSHROOM POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_PalaceMavenIsThere {
@@ -87,11 +87,11 @@ text BattleFrontier_Lounge2_Text_PalaceMavenIsThere {
 }
 
 text BattleFrontier_Lounge2_Text_PalaceMavenSilverMons {
-    format("Have you battled the PALACE MAVEN before?\p When he's testing the opponent's spirit, he's said to use these POKéMON:\p A POISON & FLYING-type BAT POKéMON, a NORMAL-type LAZY POKéMON, and a\l WATER- & ICE-type TRANSPORT POKéMON.")
+    format("Have you battled the PALACE MAVEN before?\p When he's testing the opponent's spirit, he's said to use these POKMON:\p A POISON & FLYING-type BAT POKMON, a NORMAL-type LAZY POKMON, and a\l WATER- & ICE-type TRANSPORT POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_PalaceMavenGoldMons {
-    format("Have you battled the PALACE MAVEN when he's serious?\p When he throws his entire might into battle, he's said to use these POKéMON:\p A FIRE-type LEGENDARY POKéMON, a NORMAL-type LAZY POKéMON,\l and a WATER-type AURORA POKéMON.")
+    format("Have you battled the PALACE MAVEN when he's serious?\p When he throws his entire might into battle, he's said to use these POKMON:\p A FIRE-type LEGENDARY POKMON, a NORMAL-type LAZY POKMON,\l and a WATER-type AURORA POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_PyramidKingIsThere {
@@ -99,11 +99,11 @@ text BattleFrontier_Lounge2_Text_PyramidKingIsThere {
 }
 
 text BattleFrontier_Lounge2_Text_PyramidKingSilverMons {
-    format("Have you battled the PYRAMID KING before?\p When he's checking the foe's power, he apparently uses these POKéMON:\p A ROCK-type ROCK PEAK POKéMON, an ICE-type ICEBERG POKéMON,\l and a STEEL-type IRON POKéMON.")
+    format("Have you battled the PYRAMID KING before?\p When he's checking the foe's power, he apparently uses these POKMON:\p A ROCK-type ROCK PEAK POKMON, an ICE-type ICEBERG POKMON,\l and a STEEL-type IRON POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_PyramidKingGoldMons {
-    format("Have you battled the PYRAMID KING when he's serious?\p When he's pumped with hot power, he apparently uses these POKéMON:\p An ICE & FLYING FREEZE POKéMON, an ELECTRIC & FLYING ELECTRIC POKéMON,\l and a FIRE- & FLYING-type FLAME\l POKéMON.")
+    format("Have you battled the PYRAMID KING when he's serious?\p When he's pumped with hot power, he apparently uses these POKMON:\p An ICE & FLYING FREEZE POKMON, an ELECTRIC & FLYING ELECTRIC POKMON,\l and a FIRE- & FLYING-type FLAME\l POKMON.")
 }
 
 text BattleFrontier_Lounge2_Text_DoubleBattleAdvice1 {
@@ -139,6 +139,6 @@ text BattleFrontier_Lounge2_Text_AmazingPowerOfPersuasion {
 }
 
 text BattleFrontier_Lounge2_Text_ThisPlaceIsScaringMe {
-    format("…What is this place? It's scaring me…")
+    format("What is this place? It's scaring me")
 }
 

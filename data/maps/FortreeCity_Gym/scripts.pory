@@ -5,7 +5,7 @@ mapscripts FortreeCity_Gym_MapScripts {
 
 
 text FortreeCity_Gym_Text_GymGuideAdvice {
-    format("Yo, how's it going, CHAMPION- bound {PLAYER}?\p FORTREE GYM LEADER WINONA is a master of FLYING-type POKéMON.\p She's waiting at the back of this GYM, behind the rotating doors.\p She's waiting for new challengers who are trying to take wing!\p Okay, go for it!")
+    format("Yo, how's it going, CHAMPION- bound {PLAYER}?\p FORTREE GYM LEADER WINONA is a master of FLYING-type POKMON.\p She's waiting at the back of this GYM, behind the rotating doors.\p She's waiting for new challengers who are trying to take wing!\p Okay, go for it!")
 }
 
 text FortreeCity_Gym_Text_GymGuidePostVictory {
@@ -13,11 +13,11 @@ text FortreeCity_Gym_Text_GymGuidePostVictory {
 }
 
 text FortreeCity_Gym_Text_JaredIntro {
-    format("Behold the elegant battle style of BIRD POKéMON!")
+    format("Behold the elegant battle style of BIRD POKMON!")
 }
 
 text FortreeCity_Gym_Text_JaredDefeat {
-    format("You… You're strong…")
+    format("You You're strong")
 }
 
 text FortreeCity_Gym_Text_JaredPostBattle {
@@ -25,11 +25,11 @@ text FortreeCity_Gym_Text_JaredPostBattle {
 }
 
 text FortreeCity_Gym_Text_EdwardoIntro {
-    format("The lovers of BIRD POKéMON aspire to join this GYM.\p As a member of the FORTREE GYM, I'm not allowed to lose!")
+    format("The lovers of BIRD POKMON aspire to join this GYM.\p As a member of the FORTREE GYM, I'm not allowed to lose!")
 }
 
 text FortreeCity_Gym_Text_EdwardoDefeat {
-    format("It was too much of a load for me to bear…")
+    format("It was too much of a load for me to bear")
 }
 
 text FortreeCity_Gym_Text_EdwardoPostBattle {
@@ -41,11 +41,11 @@ text FortreeCity_Gym_Text_FlintIntro {
 }
 
 text FortreeCity_Gym_Text_FlintDefeat {
-    format("WINONA, I… I lost!")
+    format("WINONA, I I lost!")
 }
 
 text FortreeCity_Gym_Text_FlintPostBattle {
-    format("WINONA is cute and she's strong. She's the ultimate LEADER!\p Blush…")
+    format("WINONA is cute and she's strong. She's the ultimate LEADER!\p Blush")
 }
 
 text FortreeCity_Gym_Text_AshleyIntro {
@@ -53,7 +53,7 @@ text FortreeCity_Gym_Text_AshleyIntro {
 }
 
 text FortreeCity_Gym_Text_AshleyDefeat {
-    format("I was beaten…")
+    format("I was beaten")
 }
 
 text FortreeCity_Gym_Text_AshleyPostBattle {
@@ -61,7 +61,7 @@ text FortreeCity_Gym_Text_AshleyPostBattle {
 }
 
 text FortreeCity_Gym_Text_HumbertoIntro {
-    format("When WINONA takes to battle, her face shines with beautiful determination…\p I'm not letting you witness that lovely sight!")
+    format("When WINONA takes to battle, her face shines with beautiful determination\p I'm not letting you witness that lovely sight!")
 }
 
 text FortreeCity_Gym_Text_HumbertoDefeat {
@@ -73,7 +73,7 @@ text FortreeCity_Gym_Text_HumbertoPostBattle {
 }
 
 text FortreeCity_Gym_Text_DariusIntro {
-    format("You'd better know that there are all sorts of FLYING-type POKéMON.\p You do know that, right?")
+    format("You'd better know that there are all sorts of FLYING-type POKMON.\p You do know that, right?")
 }
 
 text FortreeCity_Gym_Text_DariusDefeat {
@@ -81,15 +81,15 @@ text FortreeCity_Gym_Text_DariusDefeat {
 }
 
 text FortreeCity_Gym_Text_DariusPostBattle {
-    format("Sure, you beat me all right. But you'd better watch it! Our LEADER\l WINONA's POKéMON are all business.")
+    format("Sure, you beat me all right. But you'd better watch it! Our LEADER\l WINONA's POKMON are all business.")
 }
 
 text FortreeCity_Gym_Text_WinonaIntro {
-    format("I am WINONA. I am the LEADER of the FORTREE POKéMON GYM.\p I have become one with BIRD POKéMON and have soared the skies…\p However grueling the battle, we have triumphed with grace…\p Witness the elegant choreography of BIRD POKéMON and I!")
+    format("I am WINONA. I am the LEADER of the FORTREE POKMON GYM.\p I have become one with BIRD POKMON and have soared the skies\p However grueling the battle, we have triumphed with grace\p Witness the elegant choreography of BIRD POKMON and I!")
 }
 
 text FortreeCity_Gym_Text_WinonaDefeat {
-    format("Never before have I seen a TRAINER command POKéMON with more grace\l than I…\p In recognition of your prowess, I present to you this GYM BADGE.")
+    format("Never before have I seen a TRAINER command POKMON with more grace\l than I\p In recognition of your prowess, I present to you this GYM BADGE.")
 }
 
 text FortreeCity_Gym_Text_ReceivedFeatherBadge {
@@ -97,27 +97,27 @@ text FortreeCity_Gym_Text_ReceivedFeatherBadge {
 }
 
 text FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis {
-    format("With the FEATHER BADGE, all POKéMON up to LV 70, even those received through\l trades, will obey your every command.\p You will also be able to use the HM move FLY outside of battle.\p And this… This is a gift from me.")
+    format("With the FEATHER BADGE, all POKMON up to LV 70, even those received through\l trades, will obey your every command.\p You will also be able to use the HM move FLY outside of battle.\p And this This is a gift from me.")
 }
 
 text FortreeCity_Gym_Text_ExplainAerialAce {
-    format("TM40 contains AERIAL ACE.\p Its speed… No POKéMON should be able to avoid it.\p … … … … … …")
+    format("TM40 contains AERIAL ACE.\p Its speed No POKMON should be able to avoid it.\p      ")
 }
 
 text FortreeCity_Gym_Text_RegisteredWinona {
-    format("Registered GYM LEADER WINONA in the POKéNAV.")
+    format("Registered GYM LEADER WINONA in the POKNAV.")
 }
 
 text FortreeCity_Gym_Text_WinonaPostBattle {
-    format("Though I fell to you, I will remain devoted to BIRD POKéMON.")
+    format("Though I fell to you, I will remain devoted to BIRD POKMON.")
 }
 
 text FortreeCity_Gym_Text_GymStatue {
-    format("FORTREE CITY POKéMON GYM")
+    format("FORTREE CITY POKMON GYM")
 }
 
 text FortreeCity_Gym_Text_GymStatueCertified {
-    format("FORTREE CITY POKéMON GYM\p WINONA'S CERTIFIED TRAINERS: {PLAYER}")
+    format("FORTREE CITY POKMON GYM\p WINONA'S CERTIFIED TRAINERS: {PLAYER}")
 }
 
 text FortreeCity_Gym_Text_WinonaPreRematch {
@@ -125,7 +125,7 @@ text FortreeCity_Gym_Text_WinonaPreRematch {
 }
 
 text FortreeCity_Gym_Text_WinonaRematchDefeat {
-    format("I failed to reach your height again…")
+    format("I failed to reach your height again")
 }
 
 text FortreeCity_Gym_Text_WinonaPostRematch {
@@ -133,6 +133,6 @@ text FortreeCity_Gym_Text_WinonaPostRematch {
 }
 
 text FortreeCity_Gym_Text_WinonaRematchNeedTwoMons {
-    format("WINONA: We humans can never escape gravity's pull on the ground.\p But by striving for excellence, we have the power to soar!\p You have scaled the pinnacle as the reigning CHAMPION.\p Please, allow me to see your power at full flight!\p Oh, no… Do you have but one POKéMON with you?\p Please return with two POKéMON at the very least.")
+    format("WINONA: We humans can never escape gravity's pull on the ground.\p But by striving for excellence, we have the power to soar!\p You have scaled the pinnacle as the reigning CHAMPION.\p Please, allow me to see your power at full flight!\p Oh, no Do you have but one POKMON with you?\p Please return with two POKMON at the very least.")
 }
 

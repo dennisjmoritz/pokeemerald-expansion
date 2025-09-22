@@ -13,7 +13,7 @@ text ViridianCity_Mart_Text_TakeThisToProfOak {
 }
 
 text ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk {
-    format("{PLAYER} received OAK'S PARCEL from the POKéMON MART clerk.")
+    format("{PLAYER} received OAK'S PARCEL from the POKMON MART clerk.")
 }
 
 text ViridianCity_Mart_Text_SayHiToOakForMe {
@@ -25,6 +25,6 @@ text ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes {
 }
 
 text ViridianCity_Mart_Text_GotToBuySomePotions {
-    format("I've got to buy some POTIONS.\p You never know when your POKéMON will need quick healing.")
+    format("I've got to buy some POTIONS.\p You never know when your POKMON will need quick healing.")
 }
 

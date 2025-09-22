@@ -7,15 +7,15 @@ text AbandonedShip_Rooms2_1F_Text_DanIntro {
 }
 
 text AbandonedShip_Rooms2_1F_Text_DanDefeat {
-    format("DAN: We couldn't win even though we worked together…")
+    format("DAN: We couldn't win even though we worked together")
 }
 
 text AbandonedShip_Rooms2_1F_Text_DanPostBattle {
-    format("DAN: We can't find any treasures… I wonder if someone got them already?")
+    format("DAN: We can't find any treasures I wonder if someone got them already?")
 }
 
 text AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons {
-    format("DAN: You don't even have two POKéMON. You can't expect to beat us like that.")
+    format("DAN: You don't even have two POKMON. You can't expect to beat us like that.")
 }
 
 text AbandonedShip_Rooms2_1F_Text_KiraIntro {
@@ -31,7 +31,7 @@ text AbandonedShip_Rooms2_1F_Text_KiraPostBattle {
 }
 
 text AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons {
-    format("KIRA: Oh, you don't have two POKéMON? We'll have to battle some other time!")
+    format("KIRA: Oh, you don't have two POKMON? We'll have to battle some other time!")
 }
 
 text AbandonedShip_Rooms2_1F_Text_KiraRegister {
@@ -39,7 +39,7 @@ text AbandonedShip_Rooms2_1F_Text_KiraRegister {
 }
 
 text AbandonedShip_Rooms2_1F_Text_DanRematchIntro {
-    format("DAN: We've been searching for treasures all this time.\p Our POKéMON have grown stronger, too. Let us show you, okay?")
+    format("DAN: We've been searching for treasures all this time.\p Our POKMON have grown stronger, too. Let us show you, okay?")
 }
 
 text AbandonedShip_Rooms2_1F_Text_DanRematchDefeat {
@@ -47,11 +47,11 @@ text AbandonedShip_Rooms2_1F_Text_DanRematchDefeat {
 }
 
 text AbandonedShip_Rooms2_1F_Text_DanPostRematch {
-    format("DAN: We can't find any treasures, we lose at POKéMON…\p I want to go home… But if I say that, she gets all angry with me…")
+    format("DAN: We can't find any treasures, we lose at POKMON\p I want to go home But if I say that, she gets all angry with me")
 }
 
 text AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons {
-    format("DAN: You don't even have two POKéMON. You can't expect to beat us like that.")
+    format("DAN: You don't even have two POKMON. You can't expect to beat us like that.")
 }
 
 text AbandonedShip_Rooms2_1F_Text_KiraRematchIntro {
@@ -59,15 +59,15 @@ text AbandonedShip_Rooms2_1F_Text_KiraRematchIntro {
 }
 
 text AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat {
-    format("KIRA: Oh, we lost again…")
+    format("KIRA: Oh, we lost again")
 }
 
 text AbandonedShip_Rooms2_1F_Text_KiraPostRematch {
-    format("KIRA: We're not leaving until we raise our POKéMON some more and we find\l the treasures here!")
+    format("KIRA: We're not leaving until we raise our POKMON some more and we find\l the treasures here!")
 }
 
 text AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons {
-    format("KIRA: Oh, you don't have two POKéMON? We'll have to battle some other time!")
+    format("KIRA: Oh, you don't have two POKMON? We'll have to battle some other time!")
 }
 
 text AbandonedShip_Rooms2_1F_Text_JaniIntro {
@@ -83,7 +83,7 @@ text AbandonedShip_Rooms2_1F_Text_JaniPostBattle {
 }
 
 text AbandonedShip_Rooms2_1F_Text_GarrisonIntro {
-    format("Strength and compassion… Those are a TRAINER's treasures!")
+    format("Strength and compassion Those are a TRAINER's treasures!")
 }
 
 text AbandonedShip_Rooms2_1F_Text_GarrisonDefeat {

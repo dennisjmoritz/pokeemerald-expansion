@@ -13,7 +13,7 @@ text BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge {
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge {
-    format("The Battle Swap Single Tournament is a SINGLE BATTLE competition using\l only rental POKéMON.\p First, you will be loaned three POKéMON specifically for this event.\p Using the supplied rental POKéMON, you must conduct a SINGLE BATTLE.\p If you win, you are permitted to trade one of your rental POKéMON.\p Repeat this cycle of battling and trading--if you win seven times in\l a row, you will earn Battle Points.\p If you want to interrupt your challenge, please save the game.\p If you don't save, you will be disqualified from your challenge.")
+    format("The Battle Swap Single Tournament is a SINGLE BATTLE competition using\l only rental POKMON.\p First, you will be loaned three POKMON specifically for this event.\p Using the supplied rental POKMON, you must conduct a SINGLE BATTLE.\p If you win, you are permitted to trade one of your rental POKMON.\p Repeat this cycle of battling and trading--if you win seven times in\l a row, you will earn Battle Points.\p If you want to interrupt your challenge, please save the game.\p If you don't save, you will be disqualified from your challenge.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_LookForwardToNextVisit {
@@ -29,7 +29,7 @@ text BattleFrontier_BattleFactoryLobby_Text_OkayToSaveBeforeChallenge {
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_WillHoldMonsForSafekeeping {
-    format("Okay, I will hold your POKéMON for safekeeping while you compete.")
+    format("Okay, I will hold your POKMON for safekeeping while you compete.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_StepThisWay {
@@ -37,11 +37,11 @@ text BattleFrontier_BattleFactoryLobby_Text_StepThisWay {
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults {
-    format("Thank you for participating!\p I will return your POKéMON in exchange for our rental POKéMON.\p I must also save the event results. Please wait.")
+    format("Thank you for participating!\p I will return your POKMON in exchange for our rental POKMON.\p I must also save the event results. Please wait.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_ReturnMons {
-    format("I will return your POKéMON in exchange for our rental POKéMON.")
+    format("I will return your POKMON in exchange for our rental POKMON.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins {
@@ -65,7 +65,7 @@ text BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting {
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_WellReturnMons {
-    format("We'll return your personal POKéMON.")
+    format("We'll return your personal POKMON.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem {
@@ -81,7 +81,7 @@ text BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge {
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge {
-    format("The Battle Swap Double Tournament is a DOUBLE BATTLE competition using\l only rental POKéMON.\p First, you will be loaned three POKéMON specifically for this event.\p Using the supplied rental POKéMON, you must conduct a DOUBLE BATTLE.\p If you win, you are permitted to trade one of your rental POKéMON.\p Repeat this cycle of battling and trading--if you win seven times in\l a row, you will earn Battle Points.\p If you want to interrupt your challenge, please save the game.\p If you don't save before interrupting, you will be disqualified.")
+    format("The Battle Swap Double Tournament is a DOUBLE BATTLE competition using\l only rental POKMON.\p First, you will be loaned three POKMON specifically for this event.\p Using the supplied rental POKMON, you must conduct a DOUBLE BATTLE.\p If you win, you are permitted to trade one of your rental POKMON.\p Repeat this cycle of battling and trading--if you win seven times in\l a row, you will earn Battle Points.\p If you want to interrupt your challenge, please save the game.\p If you don't save before interrupting, you will be disqualified.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead {
@@ -93,7 +93,7 @@ text BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints {
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave {
-    format("Let me exchange your POKéMON for our rental POKéMON.\p I need to save the battle data, so please wait.")
+    format("Let me exchange your POKMON for our rental POKMON.\p I need to save the battle data, so please wait.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch {
@@ -101,15 +101,15 @@ text BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch {
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves {
-    format("Hi! You, there!\p Are you thinking that the events here are easy since you don't need to have\l a raised team of POKéMON?\p I wouldn't be too sure about winning that easily.\p If you don't have thorough knowledge about POKéMON and their moves,\l it will be tough to keep winning.")
+    format("Hi! You, there!\p Are you thinking that the events here are easy since you don't need to have\l a raised team of POKMON?\p I wouldn't be too sure about winning that easily.\p If you don't have thorough knowledge about POKMON and their moves,\l it will be tough to keep winning.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon {
-    format("I swapped for a weak POKéMON… I thought it was a good kind to have…\p They wiped the floor with us…")
+    format("I swapped for a weak POKMON I thought it was a good kind to have\p They wiped the floor with us")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons {
-    format("Things haven't been going my way at all.\p You need to check your opponent's POKéMON during battle to see if\l they're any good.")
+    format("Things haven't been going my way at all.\p You need to check your opponent's POKMON during battle to see if\l they're any good.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints {
@@ -117,7 +117,7 @@ text BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints {
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried {
-    format("Like, I'm really tough, but I get bored really easily, so I just kept swapping\l and battling over and over.\p So anyway, when I kept entering Battle Swap events, I noticed they\l varied the rental POKéMON.")
+    format("Like, I'm really tough, but I get bored really easily, so I just kept swapping\l and battling over and over.\p So anyway, when I kept entering Battle Swap events, I noticed they\l varied the rental POKMON.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_RulesAreListed {
@@ -129,22 +129,22 @@ text BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading {
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules {
-    format("In a Battle Swap event, you may use only three POKéMON.\p Whether you are renting or swapping, your team may not have two or more\l of the same POKéMON.")
+    format("In a Battle Swap event, you may use only three POKMON.\p Whether you are renting or swapping, your team may not have two or more\l of the same POKMON.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules {
-    format("You may swap POKéMON only with the TRAINER you have just defeated.\p You may swap for only those POKéMON used by the beaten TRAINER.")
+    format("You may swap POKMON only with the TRAINER you have just defeated.\p You may swap for only those POKMON used by the beaten TRAINER.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules {
-    format("After every battle you win, you may swap for one of your defeated\l opponent's POKéMON.\p You will not be able to swap POKéMON with the seventh TRAINER in the event.")
+    format("After every battle you win, you may swap for one of your defeated\l opponent's POKMON.\p You will not be able to swap POKMON with the seventh TRAINER in the event.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules {
-    format("There are two key points to be aware of when swapping POKéMON.\p First, when swapping, you can't check the stats of the POKéMON you are\l about to receive.\p Second, the POKéMON on your team are lined up in sequence, depending on\l the order in which you rented them.\p This sequence remains unchanged even when swaps are made.")
+    format("There are two key points to be aware of when swapping POKMON.\p First, when swapping, you can't check the stats of the POKMON you are\l about to receive.\p Second, the POKMON on your team are lined up in sequence, depending on\l the order in which you rented them.\p This sequence remains unchanged even when swaps are made.")
 }
 
 text BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules {
-    format("In the Open Level, the rental POKéMON and the opposing TRAINERS' POKéMON\l are all Level 100.")
+    format("In the Open Level, the rental POKMON and the opposing TRAINERS' POKMON\l are all Level 100.")
 }
 

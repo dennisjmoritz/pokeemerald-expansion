@@ -4,15 +4,15 @@ mapscripts FiveIsland_Meadow_MapScripts {
 
 
 text FiveIsland_Meadow_Text_DoorNeedsTwoPasswords {
-    format("とびらを　あけるには パスワードが　2つ　いるようだ")
+    format(" 2")
 }
 
 text FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded {
-    format("{PLAYER} entered a password.\p “GOLDEEN need log.”\p … …  … …  … …\p Another password is needed to open the door…")
+    format("{PLAYER} entered a password.\p GOLDEEN need log.\p        \p Another password is needed to open the door")
 }
 
 text FiveIsland_Meadow_Text_EnteredPasswordDoorOpened {
-    format("{PLAYER} entered two passwords.\p “GOLDEEN need log.” “Yes, nah, CHANSEY.”\p … …  … …  … …\p The WAREHOUSE's door opened!")
+    format("{PLAYER} entered two passwords.\p GOLDEEN need log. Yes, nah, CHANSEY.\p        \p The WAREHOUSE's door opened!")
 }
 
 text FiveIsland_Meadow_Text_WarehouseDoorAlreadyOpen {
@@ -36,7 +36,7 @@ text FiveIsland_Meadow_Text_Rocket2Intro {
 }
 
 text FiveIsland_Meadow_Text_Rocket2Defeat {
-    format("That wasn't supposed to happen…")
+    format("That wasn't supposed to happen")
 }
 
 text FiveIsland_Meadow_Text_Rocket2PostBattle {

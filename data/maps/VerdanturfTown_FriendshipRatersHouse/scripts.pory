@@ -3,7 +3,7 @@ mapscripts VerdanturfTown_FriendshipRatersHouse_MapScripts {
 
 
 text VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou {
-    format("Let me see your POKéMON. I'll check to see how much it likes you.\p Oh. Your POKéMON…")
+    format("Let me see your POKMON. I'll check to see how much it likes you.\p Oh. Your POKMON")
 }
 
 text VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou {
@@ -31,7 +31,7 @@ text VerdanturfTown_FriendshipRatersHouse_Text_VeryWary {
 }
 
 text VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou {
-    format("This is a little hard for me to say…\p Your POKéMON simply detests you. Doesn't that make you uncomfortable?")
+    format("This is a little hard for me to say\p Your POKMON simply detests you. Doesn't that make you uncomfortable?")
 }
 
 text VerdanturfTown_FriendshipRatersHouse_Text_Pikachu {

@@ -5,23 +5,23 @@ mapscripts Route4_PokemonCenter_1F_MapScripts {
 
 
 text Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou {
-    format("Okay, set six POKé BALLS in my belt…\p Yeah, that'll do it. At most, you can have six POKéMON with you.")
+    format("Okay, set six POK BALLS in my belt\p Yeah, that'll do it. At most, you can have six POKMON with you.")
 }
 
 text Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean {
-    format("TEAM ROCKET attacks CERULEAN citizens…\p Not a day goes by without TEAM ROCKET being in the news.")
+    format("TEAM ROCKET attacks CERULEAN citizens\p Not a day goes by without TEAM ROCKET being in the news.")
 }
 
 text Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500 {
-    format("MAN: Hello there, laddie! Have I got a deal just for you!\p I'll let you have a secret POKéMON - a MAGIKARP - for just ¥500!\p So, you'll buy it, am I right?")
+    format("MAN: Hello there, laddie! Have I got a deal just for you!\p I'll let you have a secret POKMON - a MAGIKARP - for just 500!\p So, you'll buy it, am I right?")
 }
 
 text Route4_PokemonCenter_1F_Text_SweetieBuyMagikarpForJust500 {
-    format("MAN: Hello there, sweetie pie! Have I got a deal just for you!\p I'll let you have a secret POKéMON - a MAGIKARP - for just ¥500!\p So, you'll buy it, am I right?")
+    format("MAN: Hello there, sweetie pie! Have I got a deal just for you!\p I'll let you have a secret POKMON - a MAGIKARP - for just 500!\p So, you'll buy it, am I right?")
 }
 
 text Route4_PokemonCenter_1F_Text_PaidOutrageouslyForMagikarp {
-    format("{PLAYER} paid an outrageous ¥500 and bought the MAGIKARP…")
+    format("{PLAYER} paid an outrageous 500 and bought the MAGIKARP")
 }
 
 text Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou {
@@ -29,7 +29,7 @@ text Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou {
 }
 
 text Route4_PokemonCenter_1F_Text_NoRoomForMorePokemon {
-    format("There's no more room for any more POKéMON, it looks like.")
+    format("There's no more room for any more POKMON, it looks like.")
 }
 
 text Route4_PokemonCenter_1F_Text_YoullNeedMoreMoney {
@@ -41,7 +41,7 @@ text Route4_PokemonCenter_1F_Text_IDontGiveRefunds {
 }
 
 text Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC {
-    format("Sometimes, you'll have too many POKéMON with you to add any more.\p In that case, you should just store some using any PC.")
+    format("Sometimes, you'll have too many POKMON with you to add any more.\p In that case, you should just store some using any PC.")
 }
 
 text Route4_PokemonCenter_1F_Text_ItsANewspaper {

@@ -4,18 +4,18 @@ mapscripts FallarborTown_BattleTentCorridor_MapScripts {
 
 
 text FallarborTown_ContestHall_Text_DoAllRightInPreliminary {
-    format("We do all right in the preliminary round, but we can never win the appeals…\p Maybe it means I have to watch what other contestants are doing…")
+    format("We do all right in the preliminary round, but we can never win the appeals\p Maybe it means I have to watch what other contestants are doing")
 }
 
 text FallarborTown_ContestHall_Text_MonAllTheseRibbons {
-    format("See! My POKéMON won all these RIBBONS!\p Have your POKéMON earned any RIBBONS? You can check them on your POKéNAV.")
+    format("See! My POKMON won all these RIBBONS!\p Have your POKMON earned any RIBBONS? You can check them on your POKNAV.")
 }
 
 text FallarborTown_ContestHall_Text_CantWinEverywhere {
-    format("I can't beat GYM LEADERS…\p I can't win any CONTESTS…\p I've been here, there, and everywhere, and it's all for naught…")
+    format("I can't beat GYM LEADERS\p I can't win any CONTESTS\p I've been here, there, and everywhere, and it's all for naught")
 }
 
 text FallarborTown_ContestHall_Text_SuperRankStage {
-    format("POKéMON CONTESTS SUPER RANK STAGE!")
+    format("POKMON CONTESTS SUPER RANK STAGE!")
 }
 

@@ -25,6 +25,6 @@ text Route113_Text_TrainerTipsRegisterKeyItems {
 }
 
 text Route113_Text_GlassWorkshopSign {
-    format("GLASS WORKSHOP “Turning Volcanic Ash into Glass Items”")
+    format("GLASS WORKSHOP Turning Volcanic Ash into Glass Items")
 }
 

@@ -4,7 +4,7 @@ mapscripts RocketHideout_B4F_MapScripts {
 
 
 text RocketHideout_B4F_Text_GiovanniIntro {
-    format("So! I must say, I am impressed you got here.\p TEAM ROCKET captures POKéMON from around the world.\p They're important tools for keeping our criminal enterprise going.\p I am the leader, GIOVANNI!\p For your insolence, you will feel a world of pain!")
+    format("So! I must say, I am impressed you got here.\p TEAM ROCKET captures POKMON from around the world.\p They're important tools for keeping our criminal enterprise going.\p I am the leader, GIOVANNI!\p For your insolence, you will feel a world of pain!")
 }
 
 text RocketHideout_B4F_Text_GiovanniDefeat {
@@ -12,7 +12,7 @@ text RocketHideout_B4F_Text_GiovanniDefeat {
 }
 
 text RocketHideout_B4F_Text_GiovanniPostBattle {
-    format("I see that you raise POKéMON with utmost care.\p A child like you would never understand what I hope to achieve.\p I shall step aside this time!\p I hope we meet again…")
+    format("I see that you raise POKMON with utmost care.\p A child like you would never understand what I hope to achieve.\p I shall step aside this time!\p I hope we meet again")
 }
 
 text RocketHideout_B4F_Text_Grunt2Intro {

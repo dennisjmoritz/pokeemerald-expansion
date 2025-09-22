@@ -35,7 +35,7 @@ text Route109_Text_ChillAtMyPapasSpot {
 }
 
 text Route109_Text_LittleKidsDartAround {
-    format("Little kids can dart around so quickly…\p You don't dare take your eyes off them for an instant. It's very taxing.\p Mine are with my POKéMON, so they should be okay, but…")
+    format("Little kids can dart around so quickly\p You don't dare take your eyes off them for an instant. It's very taxing.\p Mine are with my POKMON, so they should be okay, but")
 }
 
 text Route109_Text_SandCastleTakingLongTime {
@@ -51,7 +51,7 @@ text Route109_Text_WereGoingToMakeBigCastle {
 }
 
 text Route109_Text_ZigzagoonPicksUpLitter {
-    format("The water around these parts is clean.\p But, I get my ZIGZAGOON to pick up litter from the shoreline at times.\p Dirty water becomes rain and joins our rivers, which we drink from…\p If we pollute the sea, it all comes back to haunt us eventually.")
+    format("The water around these parts is clean.\p But, I get my ZIGZAGOON to pick up litter from the shoreline at times.\p Dirty water becomes rain and joins our rivers, which we drink from\p If we pollute the sea, it all comes back to haunt us eventually.")
 }
 
 text Route109_Text_ZigzagoonCry {
@@ -59,10 +59,10 @@ text Route109_Text_ZigzagoonCry {
 }
 
 text Route109_Text_SeashoreHouseSign {
-    format("SEASHORE HOUSE\p “May hot battles rage on hot sands! The place for hot TRAINERS!”")
+    format("SEASHORE HOUSE\p May hot battles rage on hot sands! The place for hot TRAINERS!")
 }
 
 text Route109_Text_TrainerTipsSign {
-    format("TRAINER TIPS\p POKéMON at the same level may not always have identical stats.\p POKéMON raised by TRAINERS are said to grow stronger than wild POKéMON.")
+    format("TRAINER TIPS\p POKMON at the same level may not always have identical stats.\p POKMON raised by TRAINERS are said to grow stronger than wild POKMON.")
 }
 

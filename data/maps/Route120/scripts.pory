@@ -6,7 +6,7 @@ mapscripts Route120_MapScripts {
 
 
 text Route120_Text_StevenGreeting {
-    format("STEVEN: Hm? {PLAYER}{KUN}, hi. It's been a while.\p There's something here that you can't see, right?\p Now, if I were to use this device on the invisible obstacle…\p No, no. Rather than describing it, I should just show you.\l That would be more fun.\p {PLAYER}{KUN}, are your POKéMON ready for battle?")
+    format("STEVEN: Hm? {PLAYER}{KUN}, hi. It's been a while.\p There's something here that you can't see, right?\p Now, if I were to use this device on the invisible obstacle\p No, no. Rather than describing it, I should just show you.\l That would be more fun.\p {PLAYER}{KUN}, are your POKMON ready for battle?")
 }
 
 text Route120_Text_StevenIllWaitHere {
@@ -14,7 +14,7 @@ text Route120_Text_StevenIllWaitHere {
 }
 
 text Route120_Text_StevenReadyForBattle {
-    format("STEVEN: {PLAYER}{KUN}, are your POKéMON ready for battle?")
+    format("STEVEN: {PLAYER}{KUN}, are your POKMON ready for battle?")
 }
 
 text Route120_Text_StevenShowMeYourPower {
@@ -22,15 +22,15 @@ text Route120_Text_StevenShowMeYourPower {
 }
 
 text Route120_Text_StevenUsedDevonScope {
-    format("STEVEN used the DEVON SCOPE.\p An invisible POKéMON became completely visible!\p The startled POKéMON attacked!")
+    format("STEVEN used the DEVON SCOPE.\p An invisible POKMON became completely visible!\p The startled POKMON attacked!")
 }
 
 text Route120_Text_StevenGiveDevonScope {
-    format("STEVEN: I see… Your battle style is intriguing.\p Your POKéMON have obviously grown since I first met you in DEWFORD.\p I'd like you to have this DEVON SCOPE.\p Who knows, there may be other concealed POKéMON.")
+    format("STEVEN: I see Your battle style is intriguing.\p Your POKMON have obviously grown since I first met you in DEWFORD.\p I'd like you to have this DEVON SCOPE.\p Who knows, there may be other concealed POKMON.")
 }
 
 text Route120_Text_StevenGoodbye {
-    format("STEVEN: {PLAYER}{KUN}.\p I enjoy seeing POKéMON and TRAINERS who strive together.\p I think you're doing great.\p Well, let's meet again somewhere.")
+    format("STEVEN: {PLAYER}{KUN}.\p I enjoy seeing POKMON and TRAINERS who strive together.\p I think you're doing great.\p Well, let's meet again somewhere.")
 }
 
 text Kecleon_Text_SomethingUnseeable {
@@ -42,7 +42,7 @@ text Kecleon_Text_WantToUseDevonScope {
 }
 
 text Kecleon_Text_UseDevonScopeMonAttacked {
-    format("{PLAYER} used the DEVON SCOPE.\p An invisible POKéMON became completely visible!\p The startled POKéMON attacked!")
+    format("{PLAYER} used the DEVON SCOPE.\p An invisible POKMON became completely visible!\p The startled POKMON attacked!")
 }
 
 text Route120_Text_RouteSignFortree {

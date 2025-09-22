@@ -3,10 +3,10 @@ mapscripts ThreeIsland_House2_MapScripts {
 
 
 text ThreeIsland_House2_Text_CantMakeThisSpoonBend {
-    format("Urrrrrrrrgggghhhh… Kwaaaaah!\p …It's useless! I can't make this spoon bend with my mind.\p Maybe I really don't have any psychic powers.")
+    format("Urrrrrrrrgggghhhh Kwaaaaah!\p It's useless! I can't make this spoon bend with my mind.\p Maybe I really don't have any psychic powers.")
 }
 
 text ThreeIsland_House2_Text_IAdmireSabrina {
-    format("You know about a girl GYM LEADER in SAFFRON CITY?\p She uses PSYCHIC-type POKéMON, right?\p I admire her, I really do.\p I've heard that she's one cool customer and beautiful, too.")
+    format("You know about a girl GYM LEADER in SAFFRON CITY?\p She uses PSYCHIC-type POKMON, right?\p I admire her, I really do.\p I've heard that she's one cool customer and beautiful, too.")
 }
 

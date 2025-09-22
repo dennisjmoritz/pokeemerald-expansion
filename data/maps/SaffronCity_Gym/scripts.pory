@@ -15,7 +15,7 @@ text SaffronCity_Gym_Text_SabrinaPostBattle {
 }
 
 text SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis {
-    format("The MARSHBADGE makes POKéMON up to Lv. 70 obey you.\p Stronger POKéMON will become wild, ignoring your orders in battle.\p Just don't raise your POKéMON too much to avoid that problem.\p Wait, please take this TM with you.")
+    format("The MARSHBADGE makes POKMON up to Lv. 70 obey you.\p Stronger POKMON will become wild, ignoring your orders in battle.\p Just don't raise your POKMON too much to avoid that problem.\p Wait, please take this TM with you.")
 }
 
 text SaffronCity_Gym_Text_ReceivedTM04FromSabrina {
@@ -23,7 +23,7 @@ text SaffronCity_Gym_Text_ReceivedTM04FromSabrina {
 }
 
 text SaffronCity_Gym_Text_ExplainTM04 {
-    format("TM04 is CALM MIND.\p It makes the POKéMON concentrate to raise both SP. ATK and SP. DEF.")
+    format("TM04 is CALM MIND.\p It makes the POKMON concentrate to raise both SP. ATK and SP. DEF.")
 }
 
 text SaffronCity_Gym_Text_BagFullOfOtherItems {
@@ -51,11 +51,11 @@ text SaffronCity_Gym_Text_JohanDefeat {
 }
 
 text SaffronCity_Gym_Text_JohanPostBattle {
-    format("PSYCHIC POKéMON fear only ghosts and bugs!")
+    format("PSYCHIC POKMON fear only ghosts and bugs!")
 }
 
 text SaffronCity_Gym_Text_StacyIntro {
-    format("POKéMON take on the appearance of their TRAINERS.\p Your POKéMON must be tough, then!")
+    format("POKMON take on the appearance of their TRAINERS.\p Your POKMON must be tough, then!")
 }
 
 text SaffronCity_Gym_Text_StacyDefeat {
@@ -63,11 +63,11 @@ text SaffronCity_Gym_Text_StacyDefeat {
 }
 
 text SaffronCity_Gym_Text_StacyPostBattle {
-    format("I have much to learn still…\p I must master PSYCHIC and teach it to my POKéMON…")
+    format("I have much to learn still\p I must master PSYCHIC and teach it to my POKMON")
 }
 
 text SaffronCity_Gym_Text_TyronIntro {
-    format("You understand, don't you?\p That power alone isn't enough to win in the world of POKéMON?")
+    format("You understand, don't you?\p That power alone isn't enough to win in the world of POKMON?")
 }
 
 text SaffronCity_Gym_Text_TyronDefeat {
@@ -79,7 +79,7 @@ text SaffronCity_Gym_Text_TyronPostBattle {
 }
 
 text SaffronCity_Gym_Text_TashaIntro {
-    format("You and I, our POKéMON shall battle!")
+    format("You and I, our POKMON shall battle!")
 }
 
 text SaffronCity_Gym_Text_TashaDefeat {
@@ -99,11 +99,11 @@ text SaffronCity_Gym_Text_CameronDefeat {
 }
 
 text SaffronCity_Gym_Text_CameronPostBattle {
-    format("There used to be two POKéMON GYMS in SAFFRON.\p The FIGHTING DOJO next door lost its GYM status, though.\p We simply creamed them when we decided to have just one GYM.")
+    format("There used to be two POKMON GYMS in SAFFRON.\p The FIGHTING DOJO next door lost its GYM status, though.\p We simply creamed them when we decided to have just one GYM.")
 }
 
 text SaffronCity_Gym_Text_PrestonIntro {
-    format("SAFFRON POKéMON GYM is famous for training psychics.\p You want to see SABRINA, don't you? I can tell!")
+    format("SAFFRON POKMON GYM is famous for training psychics.\p You want to see SABRINA, don't you? I can tell!")
 }
 
 text SaffronCity_Gym_Text_PrestonDefeat {
@@ -115,7 +115,7 @@ text SaffronCity_Gym_Text_PrestonPostBattle {
 }
 
 text SaffronCity_Gym_Text_GymGuyAdvice {
-    format("Yo! Champ in the making!\p SABRINA's POKéMON use psychic power instead of force.\p FIGHTING POKéMON are especially weak against PSYCHIC POKéMON.\p They'll get destroyed before they can even aim a punch!")
+    format("Yo! Champ in the making!\p SABRINA's POKMON use psychic power instead of force.\p FIGHTING POKMON are especially weak against PSYCHIC POKMON.\p They'll get destroyed before they can even aim a punch!")
 }
 
 text SaffronCity_Gym_Text_GymGuyPostVictory {
@@ -123,10 +123,10 @@ text SaffronCity_Gym_Text_GymGuyPostVictory {
 }
 
 text SaffronCity_Gym_Text_GymStatue {
-    format("SAFFRON POKéMON GYM LEADER: SABRINA\p WINNING TRAINERS: {RIVAL}")
+    format("SAFFRON POKMON GYM LEADER: SABRINA\p WINNING TRAINERS: {RIVAL}")
 }
 
 text SaffronCity_Gym_Text_GymStatuePlayerWon {
-    format("SAFFRON POKéMON GYM LEADER: SABRINA\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+    format("SAFFRON POKMON GYM LEADER: SABRINA\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
 }
 

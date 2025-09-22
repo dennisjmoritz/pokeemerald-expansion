@@ -5,7 +5,7 @@ mapscripts FourIsland_PokemonCenter_1F_MapScripts {
 
 
 text Text_BodySlamTeach {
-    format("Ready? Boing!\p We're having a BODY SLAM match to see who wimps out first.\p If you were to join us, you'd be squashed like a bug, though…\p How about I teach BODY SLAM to a POKéMON of yours instead?")
+    format("Ready? Boing!\p We're having a BODY SLAM match to see who wimps out first.\p If you were to join us, you'd be squashed like a bug, though\p How about I teach BODY SLAM to a POKMON of yours instead?")
 }
 
 text Text_BodySlamDeclined {
@@ -13,7 +13,7 @@ text Text_BodySlamDeclined {
 }
 
 text Text_BodySlamWhichMon {
-    format("Which POKéMON wants to learn how to BODY SLAM?")
+    format("Which POKMON wants to learn how to BODY SLAM?")
 }
 
 text Text_BodySlamTaught {
@@ -21,18 +21,18 @@ text Text_BodySlamTaught {
 }
 
 text FourIsland_House1_Text_FatMan {
-    format("それ　ぼよーん！ おまえ　おもいなあー！")
+    format(" ")
 }
 
 text FourIsland_PokemonCenter_1F_Text_RareIceMonsInCave {
-    format("There's a rare kind of ICE POKéMON that lives in the cave.\p We get a lot of visitors hoping to see that POKéMON.")
+    format("There's a rare kind of ICE POKMON that lives in the cave.\p We get a lot of visitors hoping to see that POKMON.")
 }
 
 text FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore {
-    format("Oh? A POKéMON EGG? …I have no idea.\p …Oh, wait. The DAY-CARE people in town were saying something.\p They said that they'd found EGGS before on their property.")
+    format("Oh? A POKMON EGG? I have no idea.\p Oh, wait. The DAY-CARE people in town were saying something.\p They said that they'd found EGGS before on their property.")
 }
 
 text FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived {
-    format("What's this?\p The new POKéMON JOURNAL hasn't arrived on this island?")
+    format("What's this?\p The new POKMON JOURNAL hasn't arrived on this island?")
 }
 

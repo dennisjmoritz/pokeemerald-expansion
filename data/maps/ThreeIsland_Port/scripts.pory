@@ -12,11 +12,11 @@ text ThreeIsland_Port_Text_ForkOverMoney {
 }
 
 text ThreeIsland_Port_Text_IllCallThePolice {
-    format("Aiyeeh!\p Wh-who are you?! I… I'll call the police!")
+    format("Aiyeeh!\p Wh-who are you?! I I'll call the police!")
 }
 
 text ThreeIsland_Port_Text_ThankGoodnessBikersGone {
-    format("Those BIKERS… Are they gone?\p Oh, thank goodness! They certainly had me terrified!")
+    format("Those BIKERS Are they gone?\p Oh, thank goodness! They certainly had me terrified!")
 }
 
 text ThreeIsland_Port_Text_EverythingTurnedOutForBest {

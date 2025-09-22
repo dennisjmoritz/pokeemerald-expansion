@@ -7,7 +7,7 @@ text SootopolisCity_Gym_B1F_Text_AndreaIntro {
 }
 
 text SootopolisCity_Gym_B1F_Text_AndreaDefeat {
-    format("Please forgive me, JUAN…")
+    format("Please forgive me, JUAN")
 }
 
 text SootopolisCity_Gym_B1F_Text_AndreaPostBattle {
@@ -27,15 +27,15 @@ text SootopolisCity_Gym_B1F_Text_CrissyPostBattle {
 }
 
 text SootopolisCity_Gym_B1F_Text_DaphneIntro {
-    format("The sight of JUAN conducting a battle…\p The very beauty of it compelled me to become a TRAINER.")
+    format("The sight of JUAN conducting a battle\p The very beauty of it compelled me to become a TRAINER.")
 }
 
 text SootopolisCity_Gym_B1F_Text_DaphneDefeat {
-    format("You battled with more beauty than I could muster…")
+    format("You battled with more beauty than I could muster")
 }
 
 text SootopolisCity_Gym_B1F_Text_DaphnePostBattle {
-    format("The grace you bring to battle is fabulous.\p Oh… I'm so fortunate to have found POKéMON.")
+    format("The grace you bring to battle is fabulous.\p Oh I'm so fortunate to have found POKMON.")
 }
 
 text SootopolisCity_Gym_B1F_Text_ConnieIntro {
@@ -51,7 +51,7 @@ text SootopolisCity_Gym_B1F_Text_ConniePostBattle {
 }
 
 text SootopolisCity_Gym_B1F_Text_BridgetIntro {
-    format("The POKéMON GYM of the highest level in the HOENN region…\p That's the SOOTOPOLIS GYM.")
+    format("The POKMON GYM of the highest level in the HOENN region\p That's the SOOTOPOLIS GYM.")
 }
 
 text SootopolisCity_Gym_B1F_Text_BridgetDefeat {
@@ -63,11 +63,11 @@ text SootopolisCity_Gym_B1F_Text_BridgetPostBattle {
 }
 
 text SootopolisCity_Gym_B1F_Text_OliviaIntro {
-    format("I train my POKéMON together with JUAN.\p Don't think I'm a pushover.")
+    format("I train my POKMON together with JUAN.\p Don't think I'm a pushover.")
 }
 
 text SootopolisCity_Gym_B1F_Text_OliviaDefeat {
-    format("I was beaten…")
+    format("I was beaten")
 }
 
 text SootopolisCity_Gym_B1F_Text_OliviaPostBattle {
@@ -75,7 +75,7 @@ text SootopolisCity_Gym_B1F_Text_OliviaPostBattle {
 }
 
 text SootopolisCity_Gym_B1F_Text_TiffanyIntro {
-    format("A graceful glide across the ice while crossing no lines…\p A TRAINER putting on that performance would be elegantly beautiful!")
+    format("A graceful glide across the ice while crossing no lines\p A TRAINER putting on that performance would be elegantly beautiful!")
 }
 
 text SootopolisCity_Gym_B1F_Text_TiffanyDefeat {
@@ -87,7 +87,7 @@ text SootopolisCity_Gym_B1F_Text_TiffanyPostBattle {
 }
 
 text SootopolisCity_Gym_B1F_Text_BethanyIntro {
-    format("When I'm with my POKéMON, the time flies by before you can say, “Oops!”")
+    format("When I'm with my POKMON, the time flies by before you can say, Oops!")
 }
 
 text SootopolisCity_Gym_B1F_Text_BethanyDefeat {
@@ -95,23 +95,23 @@ text SootopolisCity_Gym_B1F_Text_BethanyDefeat {
 }
 
 text SootopolisCity_Gym_B1F_Text_BethanyPostBattle {
-    format("I wish I could forget about lost causes before I can manage an “Oops!”")
+    format("I wish I could forget about lost causes before I can manage an Oops!")
 }
 
 text SootopolisCity_Gym_B1F_Text_AnnikaIntro {
-    format("I can battle with really rare POKéMON if you'd like.")
+    format("I can battle with really rare POKMON if you'd like.")
 }
 
 text SootopolisCity_Gym_B1F_Text_AnnikaDefeat {
-    format("Oh, there now! Did you have a good look at my POKéMON?")
+    format("Oh, there now! Did you have a good look at my POKMON?")
 }
 
 text SootopolisCity_Gym_B1F_Text_AnnikaPostBattle {
-    format("I came to this GYM because JUAN praised me for my darling POKéMON.\p Oh, if only I'd met JUAN years ago when I was younger…")
+    format("I came to this GYM because JUAN praised me for my darling POKMON.\p Oh, if only I'd met JUAN years ago when I was younger")
 }
 
 text SootopolisCity_Gym_B1F_Text_BriannaIntro {
-    format("Giggle… Your grim look is so charming.")
+    format("Giggle Your grim look is so charming.")
 }
 
 text SootopolisCity_Gym_B1F_Text_BriannaDefeat {
@@ -119,6 +119,6 @@ text SootopolisCity_Gym_B1F_Text_BriannaDefeat {
 }
 
 text SootopolisCity_Gym_B1F_Text_BriannaPostBattle {
-    format("You couldn't lay a finger on JUAN, I'm sure. Giggle…")
+    format("You couldn't lay a finger on JUAN, I'm sure. Giggle")
 }
 

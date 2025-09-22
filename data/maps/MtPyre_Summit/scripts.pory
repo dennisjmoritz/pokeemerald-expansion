@@ -8,11 +8,11 @@ text MtPyre_Summit_Text_Grunt1Intro {
 }
 
 text MtPyre_Summit_Text_Grunt1Defeat {
-    format("I thought you were one of the MAGMAS who happened to come back…")
+    format("I thought you were one of the MAGMAS who happened to come back")
 }
 
 text MtPyre_Summit_Text_Grunt1PostBattle {
-    format("Yeah, so you are strong… But there're a lot of us!")
+    format("Yeah, so you are strong But there're a lot of us!")
 }
 
 text MtPyre_Summit_Text_Grunt2Intro {
@@ -20,7 +20,7 @@ text MtPyre_Summit_Text_Grunt2Intro {
 }
 
 text MtPyre_Summit_Text_Grunt2Defeat {
-    format("Urgh… I should've let you take on TEAM MAGMA first…")
+    format("Urgh I should've let you take on TEAM MAGMA first")
 }
 
 text MtPyre_Summit_Text_Grunt2PostBattle {
@@ -28,11 +28,11 @@ text MtPyre_Summit_Text_Grunt2PostBattle {
 }
 
 text MtPyre_Summit_Text_Grunt3Intro {
-    format("You… We saw you at MT. CHIMNEY.\p You don't belong to either TEAM, so why would you be here?")
+    format("You We saw you at MT. CHIMNEY.\p You don't belong to either TEAM, so why would you be here?")
 }
 
 text MtPyre_Summit_Text_Grunt3Defeat {
-    format("If you're going to mess with anyone, let it be TEAM MAGMA…")
+    format("If you're going to mess with anyone, let it be TEAM MAGMA")
 }
 
 text MtPyre_Summit_Text_Grunt3PostBattle {
@@ -44,7 +44,7 @@ text MtPyre_Summit_Text_Grunt4Intro {
 }
 
 text MtPyre_Summit_Text_Grunt4Defeat {
-    format("If you want to join TEAM AQUA that badly, we can consider it…")
+    format("If you want to join TEAM AQUA that badly, we can consider it")
 }
 
 text MtPyre_Summit_Text_Grunt4PostBattle {
@@ -52,50 +52,50 @@ text MtPyre_Summit_Text_Grunt4PostBattle {
 }
 
 text MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo {
-    format("ARCHIE: TEAM MAGMA's MAXIE got ahead of us, but we also got what we wanted.\p The RED ORB preserved at MT. PYRE… I, ARCHIE, now have it in my possession!\p Fufufu… Now we can bring our ultimate objective to fruition!\p Okay, TEAM! We're pulling out!")
+    format("ARCHIE: TEAM MAGMA's MAXIE got ahead of us, but we also got what we wanted.\p The RED ORB preserved at MT. PYRE I, ARCHIE, now have it in my possession!\p Fufufu Now we can bring our ultimate objective to fruition!\p Okay, TEAM! We're pulling out!")
 }
 
 text MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis {
-    format("Oh, no… This cannot happen…\p Not only the BLUE ORB, but even the RED ORB has been taken…\p The BLUE ORB and RED ORB must never be separated. They belong together.\p What are those men trying to do with the two ORBS?\p … … … … … … … … … … … …\p Oh, yes. Was it TEAM MAGMA who came and took the BLUE ORB first?\p Well, in their haste, they left this behind.\p I couldn't imagine what exactly it could be.\p I would like you to have it. Perhaps it will be useful in some way.")
+    format("Oh, no This cannot happen\p Not only the BLUE ORB, but even the RED ORB has been taken\p The BLUE ORB and RED ORB must never be separated. They belong together.\p What are those men trying to do with the two ORBS?\p            \p Oh, yes. Was it TEAM MAGMA who came and took the BLUE ORB first?\p Well, in their haste, they left this behind.\p I couldn't imagine what exactly it could be.\p I would like you to have it. Perhaps it will be useful in some way.")
 }
 
 text MtPyre_Summit_Text_OrbsHaveBeenTaken {
-    format("The BLUE ORB and RED ORB taken by those sinister men…\p They must never be apart… I fear something terrible will happen…")
+    format("The BLUE ORB and RED ORB taken by those sinister men\p They must never be apart I fear something terrible will happen")
 }
 
 text MtPyre_Summit_Text_GroudonKyogreAwakened {
-    format("Oh, my goodness…\p You say that both GROUDON and KYOGRE have been awakened?\p It is said that the BLUE ORB and the RED ORB quelled the rage of\l the two POKéMON…\p It is also said that the true owner of the ORBS still exists.\p However, no one knows who, or what exactly, the ORBS belong to.\p It could be a human, or perhaps a POKéMON, but no one knows.")
+    format("Oh, my goodness\p You say that both GROUDON and KYOGRE have been awakened?\p It is said that the BLUE ORB and the RED ORB quelled the rage of\l the two POKMON\p It is also said that the true owner of the ORBS still exists.\p However, no one knows who, or what exactly, the ORBS belong to.\p It could be a human, or perhaps a POKMON, but no one knows.")
 }
 
 text MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs {
-    format("The two men who took the ORBS came back to return them on their own.\p Those men… Perhaps they are not so evil after all…")
+    format("The two men who took the ORBS came back to return them on their own.\p Those men Perhaps they are not so evil after all")
 }
 
 text MtPyre_Summit_Text_SuperAncientPokemonTaughtUs {
-    format("The embodiments of the land, sea, and the sky…\p That is said to be the identities of the super-ancient POKéMON…\p In the same way that we humans and POKéMON have life, our world, too,\l is alive…\p The super-ancient POKéMON have taught us that…")
+    format("The embodiments of the land, sea, and the sky\p That is said to be the identities of the super-ancient POKMON\p In the same way that we humans and POKMON have life, our world, too,\l is alive\p The super-ancient POKMON have taught us that")
 }
 
 text MtPyre_Summit_Text_WillYouHearOutMyTale {
-    format("MT. PYRE is where we calm the spirits of POKéMON that have passed on…\p This is a high place where one can see all of HOENN…\p The disembodied spirits of POKéMON must find solace here…\p Is it coincidence that you are here…\p Will you hear out my tale? A tale long told in the HOENN region?")
+    format("MT. PYRE is where we calm the spirits of POKMON that have passed on\p This is a high place where one can see all of HOENN\p The disembodied spirits of POKMON must find solace here\p Is it coincidence that you are here\p Will you hear out my tale? A tale long told in the HOENN region?")
 }
 
 text MtPyre_Summit_Text_GroudonKyogreTale {
-    format("It happened long, long ago…\p The world was wracked by a ferocious clash between the POKéMON of the land\l and the POKéMON of the sea…\p The POKéMON of the land raised mountains and created continents…\p The POKéMON of the sea raised huge waves and carved out oceans…\p Their fierce duel raged without end.\p The world was engulfed in massive infernos and vicious storms.\p The BLUE ORB and the RED ORB brought an end to the calamity.\p Light poured from the two ORBS and becalmed the enraged adversaries.\p The pair, made docile, dove deep into the sea where eventually they\l disappeared…")
+    format("It happened long, long ago\p The world was wracked by a ferocious clash between the POKMON of the land\l and the POKMON of the sea\p The POKMON of the land raised mountains and created continents\p The POKMON of the sea raised huge waves and carved out oceans\p Their fierce duel raged without end.\p The world was engulfed in massive infernos and vicious storms.\p The BLUE ORB and the RED ORB brought an end to the calamity.\p Light poured from the two ORBS and becalmed the enraged adversaries.\p The pair, made docile, dove deep into the sea where eventually they\l disappeared")
 }
 
 text MtPyre_Summit_Text_WellThatTooIsFine {
-    format("I see… Well, that, too, is fine…")
+    format("I see Well, that, too, is fine")
 }
 
 text MtPyre_Summit_Text_MaxieSilence {
-    format("MAXIE: {PLAYER}…\p … … … … … … … … … … … …")
+    format("MAXIE: {PLAYER}\p            ")
 }
 
 text MtPyre_Summit_Text_HearTheNewLegendOfHoenn {
-    format("It is my role to pass on the legends of HOENN to future generations.\p And the crisis that just ended in SOOTOPOLIS rewrote a legend…\p Have you the time to hear the new legend of HOENN?")
+    format("It is my role to pass on the legends of HOENN to future generations.\p And the crisis that just ended in SOOTOPOLIS rewrote a legend\p Have you the time to hear the new legend of HOENN?")
 }
 
 text MtPyre_Summit_Text_HoennTrioTale {
-    format("It happened long, long ago…\p The world was wracked by a ferocious clash between the POKéMON of the land\l and the POKéMON of the sea…\p The POKéMON of the land raised mountains and created continents…\p The POKéMON of the sea raised huge waves and carved out oceans…\p Their fierce duel raged without end.\p The world was engulfed in massive fires and vicious storms.\p It was then that the POKéMON of the sky descended from a storm.\p The POKéMON, shining a vivid green, becalmed the two enraged POKéMON.\p Then, its duty done, the green POKéMON flew off into the wild blue yonder…")
+    format("It happened long, long ago\p The world was wracked by a ferocious clash between the POKMON of the land\l and the POKMON of the sea\p The POKMON of the land raised mountains and created continents\p The POKMON of the sea raised huge waves and carved out oceans\p Their fierce duel raged without end.\p The world was engulfed in massive fires and vicious storms.\p It was then that the POKMON of the sky descended from a storm.\p The POKMON, shining a vivid green, becalmed the two enraged POKMON.\p Then, its duty done, the green POKMON flew off into the wild blue yonder")
 }
 

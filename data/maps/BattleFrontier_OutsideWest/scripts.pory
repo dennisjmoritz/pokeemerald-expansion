@@ -8,7 +8,7 @@ text BattleFrontier_OutsideWest_Text_BattleDomeSign {
 }
 
 text BattleFrontier_OutsideWest_Text_BattleFactorySign {
-    format("This is the BATTLE FACTORY! Seek out the toughest POKéMON!")
+    format("This is the BATTLE FACTORY! Seek out the toughest POKMON!")
 }
 
 text BattleFrontier_OutsideWest_Text_BattlePikeSign {
@@ -16,7 +16,7 @@ text BattleFrontier_OutsideWest_Text_BattlePikeSign {
 }
 
 text BattleFrontier_OutsideWest_Text_ThisIsBattleTower {
-    format("This is the BATTLE TOWER.\p TRAINERS bring their best-raised POKéMON for elimination-style matches.")
+    format("This is the BATTLE TOWER.\p TRAINERS bring their best-raised POKMON for elimination-style matches.")
 }
 
 text BattleFrontier_OutsideWest_Text_MayISeeYourTicket {
@@ -24,7 +24,7 @@ text BattleFrontier_OutsideWest_Text_MayISeeYourTicket {
 }
 
 text BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard {
-    format("{PLAYER} doesn't have the TICKET…\p I'm terribly sorry.\p You must have a TICKET to board the ferry.")
+    format("{PLAYER} doesn't have the TICKET\p I'm terribly sorry.\p You must have a TICKET to board the ferry.")
 }
 
 text BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo {
@@ -52,7 +52,7 @@ text BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo {
 }
 
 text BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends {
-    format("I'm the best out of all my friends. But here…\l I've been useless!")
+    format("I'm the best out of all my friends. But here\l I've been useless!")
 }
 
 text BattleFrontier_OutsideWest_Text_CantFindBattleTower {
@@ -60,7 +60,7 @@ text BattleFrontier_OutsideWest_Text_CantFindBattleTower {
 }
 
 text BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere {
-    format("I wanted to take a challenge as soon as I arrived here.\p But on the way, I got seasick… Urrrrp…")
+    format("I wanted to take a challenge as soon as I arrived here.\p But on the way, I got seasick Urrrrp")
 }
 
 text BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere {
@@ -68,23 +68,23 @@ text BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere {
 }
 
 text BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons {
-    format("Hey, bro…\p Are you sure we can make challenges even if we don't have any POKéMON?")
+    format("Hey, bro\p Are you sure we can make challenges even if we don't have any POKMON?")
 }
 
 text BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons {
-    format("Uh… I'm sure it'll be okay.\p I think…\p But remember that big scary guy? He said, “I'll lend you POKéMON!”")
+    format("Uh I'm sure it'll be okay.\p I think\p But remember that big scary guy? He said, I'll lend you POKMON!")
 }
 
 text BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons {
-    format("That's the BATTLE FACTORY. You can rent strong POKéMON there.\p But it makes me wonder. Who's raising those rental POKéMON?")
+    format("That's the BATTLE FACTORY. You can rent strong POKMON there.\p But it makes me wonder. Who's raising those rental POKMON?")
 }
 
 text BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper {
-    format("I'm scared of going into the BATTLE PIKE because of SEVIPER…\p B-but I came all the way here, so I will try to conquer everything!\l …Shudder…")
+    format("I'm scared of going into the BATTLE PIKE because of SEVIPER\p B-but I came all the way here, so I will try to conquer everything!\l Shudder")
 }
 
 text BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors {
-    format("Let's play rock, paper, scissors! One, two, three!\p … … … … … …")
+    format("Let's play rock, paper, scissors! One, two, three!\p      ")
 }
 
 text BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge {
@@ -92,11 +92,11 @@ text BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge {
 }
 
 text BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge {
-    format("Oh, no… I lost.\p I guess I'm not very lucky today. I'll put off my BATTLE PIKE challenge\l until tomorrow.")
+    format("Oh, no I lost.\p I guess I'm not very lucky today. I'll put off my BATTLE PIKE challenge\l until tomorrow.")
 }
 
 text BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling {
-    format("I believe I'm the only person here who, for some unknown reason, would choose\l fishing over battling.\p Huh? You can't catch anything here? That's disappointing…")
+    format("I believe I'm the only person here who, for some unknown reason, would choose\l fishing over battling.\p Huh? You can't catch anything here? That's disappointing")
 }
 
 text BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol {
@@ -124,11 +124,11 @@ text BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier {
 }
 
 text BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople {
-    format("Munch, munch…\p It looks like this square's filled with tough people.\p Munch, munch…")
+    format("Munch, munch\p It looks like this square's filled with tough people.\p Munch, munch")
 }
 
 text BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike {
-    format("Crunch, munch…\p A while back, I met this older girl at the BATTLE PIKE.\p She had these eyes that were scary in a real ornery way.\p Crunch, munch…\p She got all furious: “Will you quit eating!” Then she whaled on me.\p It was a hair-raising kind of scary experience, sure enough.\p Crunch, munch…")
+    format("Crunch, munch\p A while back, I met this older girl at the BATTLE PIKE.\p She had these eyes that were scary in a real ornery way.\p Crunch, munch\p She got all furious: Will you quit eating! Then she whaled on me.\p It was a hair-raising kind of scary experience, sure enough.\p Crunch, munch")
 }
 
 text BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet {
@@ -144,10 +144,10 @@ text BattleFrontier_OutsideWest_Text_DomeAceIsMine {
 }
 
 text BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers {
-    format("Those people squabbling over there…\p It's hard to believe, but they once were TRAINERS, and good ones, too.\p They used to be incredibly tough, and they were famous, too.\p But they were obliterated by this certain TRAINER at a tournament.\p They were so thoroughly whipped, they became smitten by the TRAINER.\p Now they're just fans of the TRAINER. They go cheer for their idol at the\l BATTLE DOME every day now.")
+    format("Those people squabbling over there\p It's hard to believe, but they once were TRAINERS, and good ones, too.\p They used to be incredibly tough, and they were famous, too.\p But they were obliterated by this certain TRAINER at a tournament.\p They were so thoroughly whipped, they became smitten by the TRAINER.\p Now they're just fans of the TRAINER. They go cheer for their idol at the\l BATTLE DOME every day now.")
 }
 
 text BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier {
-    format("I heard a rumor that someone saw a POKéMON with an unusually long tail\l somewhere in the BATTLE FRONTIER.\p It must be adorable. I'm sure of it…\p Oh, challenges can wait. I feel driven to find the delightful creature!")
+    format("I heard a rumor that someone saw a POKMON with an unusually long tail\l somewhere in the BATTLE FRONTIER.\p It must be adorable. I'm sure of it\p Oh, challenges can wait. I feel driven to find the delightful creature!")
 }
 

@@ -5,7 +5,7 @@ mapscripts FortreeCity_PokemonCenter_1F_MapScripts {
 
 
 text FortreeCity_PokemonCenter_1F_Text_GoToSafariZone {
-    format("Listen, kid, are you working on a POKéDEX?\p Hmm… Go to the SAFARI ZONE. That's my suggestion.")
+    format("Listen, kid, are you working on a POKDEX?\p Hmm Go to the SAFARI ZONE. That's my suggestion.")
 }
 
 text FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat {
@@ -13,6 +13,6 @@ text FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat {
 }
 
 text FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav {
-    format("Oh, wow, you have a POKéNAV! And it's just like mine!\p Do you know about POKéNAV's MATCH CALL system?\p Access it, and you can chat with registered TRAINERS anytime.\p It also shows you which TRAINERS want a rematch with you.\p It's really nifty! Those DEVON guys sure know what they're doing!")
+    format("Oh, wow, you have a POKNAV! And it's just like mine!\p Do you know about POKNAV's MATCH CALL system?\p Access it, and you can chat with registered TRAINERS anytime.\p It also shows you which TRAINERS want a rematch with you.\p It's really nifty! Those DEVON guys sure know what they're doing!")
 }
 

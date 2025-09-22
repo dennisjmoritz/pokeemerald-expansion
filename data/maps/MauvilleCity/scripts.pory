@@ -4,7 +4,7 @@ mapscripts MauvilleCity_MapScripts {
 
 
 text MauvilleCity_Text_UncleHesTooPeppy {
-    format("UNCLE: It's because of POKéMON that this boy's got more pep, I suppose…\l But he's become a bit too peppy…")
+    format("UNCLE: It's because of POKMON that this boy's got more pep, I suppose\l But he's become a bit too peppy")
 }
 
 text MauvilleCity_Text_WallyWantToChallengeGym {
@@ -12,7 +12,7 @@ text MauvilleCity_Text_WallyWantToChallengeGym {
 }
 
 text MauvilleCity_Text_UncleYourePushingIt {
-    format("UNCLE: Now hold on, WALLY.\p Since you started living with POKéMON, you have grown quite a lot stronger.\p But don't you think you're pushing it to suddenly challenge a GYM?")
+    format("UNCLE: Now hold on, WALLY.\p Since you started living with POKMON, you have grown quite a lot stronger.\p But don't you think you're pushing it to suddenly challenge a GYM?")
 }
 
 text MauvilleCity_Text_WallyWeCanBeatAnyone {
@@ -24,7 +24,7 @@ text MauvilleCity_Text_WallyWillYouBattleMe {
 }
 
 text MauvilleCity_Text_WallyMyUncleWontKnowImStrong {
-    format("WALLY: Oh… If you won't battle me, {PLAYER}, my UNCLE won't know that I've\l become really strong.")
+    format("WALLY: Oh If you won't battle me, {PLAYER}, my UNCLE won't know that I've\l become really strong.")
 }
 
 text MauvilleCity_Text_UncleCanYouBattleWally {
@@ -36,19 +36,19 @@ text MauvilleCity_Text_WallyPleaseBattleMe {
 }
 
 text MauvilleCity_Text_WallyHereICome {
-    format("WALLY: {PLAYER}, thank you.\p Okay… Here I come!")
+    format("WALLY: {PLAYER}, thank you.\p Okay Here I come!")
 }
 
 text MauvilleCity_Text_WallyDefeat {
-    format("WALLY: … … … … … … …\p … … … … … … … …\p I lost…")
+    format("WALLY:       \p        \p I lost")
 }
 
 text MauvilleCity_Text_WallyIllGoBackToVerdanturf {
-    format("WALLY: UNCLE… I'll go back to VERDANTURF…")
+    format("WALLY: UNCLE I'll go back to VERDANTURF")
 }
 
 text MauvilleCity_Text_ThankYouNotEnoughToBattle {
-    format("{PLAYER}, thank you. Being a TRAINER is tough, isn't it?\p It's not enough just to have POKéMON and make them battle. That isn't what\l being a real TRAINER is about.")
+    format("{PLAYER}, thank you. Being a TRAINER is tough, isn't it?\p It's not enough just to have POKMON and make them battle. That isn't what\l being a real TRAINER is about.")
 }
 
 text MauvilleCity_Text_UncleNoNeedToBeDown {
@@ -56,19 +56,19 @@ text MauvilleCity_Text_UncleNoNeedToBeDown {
 }
 
 text MauvilleCity_Text_UncleVisitUsSometime {
-    format("UNCLE: {PLAYER}{KUN}, it just dawned on me that you must be the TRAINER who kept\l an eye out for WALLY when he caught\l his POKéMON.\p Why don't you visit us in VERDANTURF sometime?\l I'm sure WALLY would enjoy it.")
+    format("UNCLE: {PLAYER}{KUN}, it just dawned on me that you must be the TRAINER who kept\l an eye out for WALLY when he caught\l his POKMON.\p Why don't you visit us in VERDANTURF sometime?\l I'm sure WALLY would enjoy it.")
 }
 
 text MauvilleCity_Text_WallyPokenavCall {
-    format("… … … … … … … … … … … Beep!\p WALLY: Oh, hello, {PLAYER}!\p I just wanted to tell you that my uncle bought me a POKéNAV!\p Now I can get in touch with you anytime, {PLAYER}!\p … … … … … … … … … … … Click!")
+    format("           Beep!\p WALLY: Oh, hello, {PLAYER}!\p I just wanted to tell you that my uncle bought me a POKNAV!\p Now I can get in touch with you anytime, {PLAYER}!\p            Click!")
 }
 
 text MauvilleCity_Text_RegisteredWally {
-    format("Registered WALLY in the POKéNAV.")
+    format("Registered WALLY in the POKNAV.")
 }
 
 text MauvilleCity_Text_ScottYouDidntHoldBack {
-    format("SCOTT: Hehe… I was watching that match!\p You're friends with that boy WALLY, aren't you?\p But you didn't hold anything back and beat him impressively.\p Yeah! That's what a real POKéMON battle is all about!\p I idolize TRAINERS like that!\p … … … … … … I'll be cheering for you!")
+    format("SCOTT: Hehe I was watching that match!\p You're friends with that boy WALLY, aren't you?\p But you didn't hold anything back and beat him impressively.\p Yeah! That's what a real POKMON battle is all about!\p I idolize TRAINERS like that!\p       I'll be cheering for you!")
 }
 
 text MauvilleCity_Text_WattsonNeedFavorTakeKey {
@@ -88,7 +88,7 @@ text MauvilleCity_Text_WattsonYoungTakeCharge {
 }
 
 text MauvilleCity_Text_NurseHurtMonBackToHealth {
-    format("You know, it's cool to have POKéMON battles and stuff…\p But if your POKéMON gets hurt, you have to nurse it back to health.")
+    format("You know, it's cool to have POKMON battles and stuff\p But if your POKMON gets hurt, you have to nurse it back to health.")
 }
 
 text MauvilleCity_Text_AllSortsOfPeopleComeThrough {
@@ -100,23 +100,23 @@ text MauvilleCity_Text_RydelVeryGenerous {
 }
 
 text MauvilleCity_Text_PokemonCanJumpYouOnBike {
-    format("Even if you're riding a BIKE, wild POKéMON could jump you.")
+    format("Even if you're riding a BIKE, wild POKMON could jump you.")
 }
 
 text MauvilleCity_Text_CitySign {
-    format("MAUVILLE CITY “The bright and shiny city of fun!”")
+    format("MAUVILLE CITY The bright and shiny city of fun!")
 }
 
 text MauvilleCity_Text_GymSign {
-    format("MAUVILLE CITY POKéMON GYM LEADER: WATTSON\l “The cheerfully electrifying man!”")
+    format("MAUVILLE CITY POKMON GYM LEADER: WATTSON\l The cheerfully electrifying man!")
 }
 
 text MauvilleCity_Text_BikeShopSign {
-    format("“Ride in gravel and shake up your soul!”\l RYDEL'S CYCLES")
+    format("Ride in gravel and shake up your soul!\l RYDEL'S CYCLES")
 }
 
 text MauvilleCity_Text_GameCornerSign {
-    format("“The play spot for all!” MAUVILLE GAME CORNER")
+    format("The play spot for all! MAUVILLE GAME CORNER")
 }
 
 text MauvilleCity_Text_ExplainTV {

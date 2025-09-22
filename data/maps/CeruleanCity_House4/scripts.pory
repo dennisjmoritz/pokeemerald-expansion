@@ -3,19 +3,19 @@ mapscripts CeruleanCity_House4_MapScripts {
 
 
 text CeruleanCity_House4_Text_NothingEntertaining {
-    format("Sigh… Too much time, too little to do…\p Is nothing entertaining happening anywhere?")
+    format("Sigh Too much time, too little to do\p Is nothing entertaining happening anywhere?")
 }
 
 text CeruleanCity_House4_Text_NewNewsInformativeHaveThis {
-    format("Ah! A new news report!\p Hmm…\p I see! That was quite informative!\p I applaud you for taking interest in the news at your young age.\p As my thanks for sharing the news with me, I want you to have this.")
+    format("Ah! A new news report!\p Hmm\p I see! That was quite informative!\p I applaud you for taking interest in the news at your young age.\p As my thanks for sharing the news with me, I want you to have this.")
 }
 
 text CeruleanCity_House4_Text_IncredibleNewsHaveBerries {
-    format("Oh, oh! Th-this news report!\p Hmm…\p Amazing! What an incredible piece of news!\p I haven't seen a news story this incredible in too long a time!\p Thanks for sharing this fantastic news. Have a bunch of BERRIES!")
+    format("Oh, oh! Th-this news report!\p Hmm\p Amazing! What an incredible piece of news!\p I haven't seen a news story this incredible in too long a time!\p Thanks for sharing this fantastic news. Have a bunch of BERRIES!")
 }
 
 text CeruleanCity_House4_Text_WishCouldShareNewsWithOthers {
-    format("It seems such a shame to not share this news with other folks…\p I wish I could tell someone… Let others know the news…")
+    format("It seems such a shame to not share this news with other folks\p I wish I could tell someone Let others know the news")
 }
 
 text CeruleanCity_House4_Text_ThanksForSpreadingNewsTakeThis {

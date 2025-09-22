@@ -3,7 +3,7 @@ mapscripts SeafloorCavern_Room3_MapScripts {
 
 
 text SeafloorCavern_Room3_Text_ShellyIntro {
-    format("Ahahahaha!\p How did you manage to get here without a submarine?\l What an impressive child!\p But… It won't do to have you meddling about here.\p And, I do want payback for what happened at the WEATHER INSTITUTE…\p I'm going to give you a little taste of pain! Resign yourself to it!")
+    format("Ahahahaha!\p How did you manage to get here without a submarine?\l What an impressive child!\p But It won't do to have you meddling about here.\p And, I do want payback for what happened at the WEATHER INSTITUTE\p I'm going to give you a little taste of pain! Resign yourself to it!")
 }
 
 text SeafloorCavern_Room3_Text_ShellyDefeat {
@@ -11,11 +11,11 @@ text SeafloorCavern_Room3_Text_ShellyDefeat {
 }
 
 text SeafloorCavern_Room3_Text_ShellyPostBattle {
-    format("Ahahahaha! You're so darn strong.\p It's terribly disappointing that you're not a TEAM AQUA member.\p You could have enjoyed the fabulous world our BOSS has promised as\l one of us…")
+    format("Ahahahaha! You're so darn strong.\p It's terribly disappointing that you're not a TEAM AQUA member.\p You could have enjoyed the fabulous world our BOSS has promised as\l one of us")
 }
 
 text SeafloorCavern_Room3_Text_Grunt5Intro {
-    format("For our dream to become real, we need the power of POKéMON.\p But meddlers like you use the power of POKéMON to mess with us even at\l a place like this!\p Life just doesn't work the way we need it to!")
+    format("For our dream to become real, we need the power of POKMON.\p But meddlers like you use the power of POKMON to mess with us even at\l a place like this!\p Life just doesn't work the way we need it to!")
 }
 
 text SeafloorCavern_Room3_Text_Grunt5Defeat {
@@ -23,6 +23,6 @@ text SeafloorCavern_Room3_Text_Grunt5Defeat {
 }
 
 text SeafloorCavern_Room3_Text_Grunt5PostBattle {
-    format("You know, we don't dare question the motives of our leader.\p But here you are, just some punk, going up against our BOSS.\p Maybe… You must be something…")
+    format("You know, we don't dare question the motives of our leader.\p But here you are, just some punk, going up against our BOSS.\p Maybe You must be something")
 }
 

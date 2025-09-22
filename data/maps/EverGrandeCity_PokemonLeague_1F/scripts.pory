@@ -9,10 +9,10 @@ text EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges {
 }
 
 text EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges {
-    format("You haven't obtained all the BADGES.\p If you're bound for the POKéMON LEAGUE, you must return with them.")
+    format("You haven't obtained all the BADGES.\p If you're bound for the POKMON LEAGUE, you must return with them.")
 }
 
 text EverGrandeCity_PokemonLeague_1F_Text_GoForth {
-    format("TRAINER! Believe in yourself and your POKéMON, and go forth!")
+    format("TRAINER! Believe in yourself and your POKMON, and go forth!")
 }
 

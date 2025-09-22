@@ -11,6 +11,6 @@ text FiveIsland_LostCave_Room1_Text_LawsonDefeat {
 }
 
 text FiveIsland_LostCave_Room1_Text_LawsonPostBattle {
-    format("I'm trying to get out of here, but I always end up at the same spot.\p Maybe the number of boulders is a hint…")
+    format("I'm trying to get out of here, but I always end up at the same spot.\p Maybe the number of boulders is a hint")
 }
 

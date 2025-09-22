@@ -5,7 +5,7 @@ mapscripts CinnabarIsland_MapScripts {
 
 
 text CinnabarIsland_Text_DoorIsLocked {
-    format("The door is locked…")
+    format("The door is locked")
 }
 
 text CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab {
@@ -13,7 +13,7 @@ text CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab {
 }
 
 text CinnabarIsland_Text_ScientistsExperimentInMansion {
-    format("Scientists conduct experiments in the burned-out building.\p You know, the one they call the POKéMON MANSION.")
+    format("Scientists conduct experiments in the burned-out building.\p You know, the one they call the POKMON MANSION.")
 }
 
 text CinnabarIsland_Text_IslandSign {
@@ -21,11 +21,11 @@ text CinnabarIsland_Text_IslandSign {
 }
 
 text CinnabarIsland_Text_PokemonLab {
-    format("POKéMON LAB")
+    format("POKMON LAB")
 }
 
 text CinnabarIsland_Text_GymSign {
-    format("CINNABAR ISLAND POKéMON GYM LEADER: BLAINE\l The Hotheaded Quiz Master!")
+    format("CINNABAR ISLAND POKMON GYM LEADER: BLAINE\l The Hotheaded Quiz Master!")
 }
 
 text CinnabarIsland_Text_HeyIfItIsntPlayer {
@@ -41,7 +41,7 @@ text CinnabarIsland_Text_AllRightLetsGo {
 }
 
 text CinnabarIsland_Text_IllBeWaitingInPokeCenter {
-    format("What, are you too busy?\p Well, all right. The boat hasn't arrived yet anyway.\p I'll be waiting at the POKéMON CENTER over there.\p Come see me when you're done with your business here.")
+    format("What, are you too busy?\p Well, all right. The boat hasn't arrived yet anyway.\p I'll be waiting at the POKMON CENTER over there.\p Come see me when you're done with your business here.")
 }
 
 text CinnabarIsland_Text_MyPalsBoatArrived {

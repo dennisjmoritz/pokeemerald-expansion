@@ -11,7 +11,7 @@ text Route11_Text_HugoDefeat {
 }
 
 text Route11_Text_HugoPostBattle {
-    format("POKéMON is life! And to live is to play games!")
+    format("POKMON is life! And to live is to play games!")
 }
 
 text Route11_Text_JasperIntro {
@@ -23,7 +23,7 @@ text Route11_Text_JasperDefeat {
 }
 
 text Route11_Text_JasperPostBattle {
-    format("You can't be a coward in the world of POKéMON!")
+    format("You can't be a coward in the world of POKMON!")
 }
 
 text Route11_Text_EddieIntro {
@@ -55,7 +55,7 @@ text Route11_Text_DillonIntro {
 }
 
 text Route11_Text_DillonDefeat {
-    format("My POKéMON couldn't win… Haven't they grown enough?")
+    format("My POKMON couldn't win Haven't they grown enough?")
 }
 
 text Route11_Text_DillonPostBattle {
@@ -75,11 +75,11 @@ text Route11_Text_DirkPostBattle {
 }
 
 text Route11_Text_DarianIntro {
-    format("I have never won before…")
+    format("I have never won before")
 }
 
 text Route11_Text_DarianDefeat {
-    format("I saw this coming…")
+    format("I saw this coming")
 }
 
 text Route11_Text_DarianPostBattle {
@@ -91,11 +91,11 @@ text Route11_Text_YasuIntro {
 }
 
 text Route11_Text_YasuDefeat {
-    format("Darn! My POKéMON need to be stronger!")
+    format("Darn! My POKMON need to be stronger!")
 }
 
 text Route11_Text_YasuPostBattle {
-    format("There's a fat POKéMON that comes down from the mountains.\p I bet it'd be strong if you can catch it.")
+    format("There's a fat POKMON that comes down from the mountains.\p I bet it'd be strong if you can catch it.")
 }
 
 text Route11_Text_BernieIntro {
@@ -111,7 +111,7 @@ text Route11_Text_BerniePostBattle {
 }
 
 text Route11_Text_DaveIntro {
-    format("I raised my POKéMON carefully. They should be ready by now!")
+    format("I raised my POKMON carefully. They should be ready by now!")
 }
 
 text Route11_Text_DaveDefeat {
@@ -119,7 +119,7 @@ text Route11_Text_DaveDefeat {
 }
 
 text Route11_Text_DavePostBattle {
-    format("Tch… I better go find stronger ones!")
+    format("Tch I better go find stronger ones!")
 }
 
 text Route11_Text_DiglettsCave {

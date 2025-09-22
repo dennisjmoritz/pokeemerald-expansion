@@ -13,7 +13,7 @@ text RocketHideout_B1F_Text_Grunt1Defeat {
 }
 
 text RocketHideout_B1F_Text_Grunt1PostBattle {
-    format("Blast it… You're dissing TEAM ROCKET, aren't you?")
+    format("Blast it You're dissing TEAM ROCKET, aren't you?")
 }
 
 text RocketHideout_B1F_Text_Grunt2Intro {
@@ -49,7 +49,7 @@ text RocketHideout_B1F_Text_Grunt4Defeat {
 }
 
 text RocketHideout_B1F_Text_Grunt4PostBattle {
-    format("Okay, I'll talk… Take the elevator to see my BOSS.")
+    format("Okay, I'll talk Take the elevator to see my BOSS.")
 }
 
 text RocketHideout_B1F_Text_Grunt5Intro {
@@ -57,7 +57,7 @@ text RocketHideout_B1F_Text_Grunt5Intro {
 }
 
 text RocketHideout_B1F_Text_Grunt5Defeat {
-    format("Why…?")
+    format("Why?")
 }
 
 text RocketHideout_B1F_Text_Grunt5PostBattle {

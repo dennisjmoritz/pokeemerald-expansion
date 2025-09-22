@@ -3,14 +3,14 @@ mapscripts SootopolisCity_House2_MapScripts {
 
 
 text SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs {
-    format("MT. PYRE…\p At its peak are two orbs placed side by side. Did you know?")
+    format("MT. PYRE\p At its peak are two orbs placed side by side. Did you know?")
 }
 
 text SootopolisCity_House2_Text_YesTwoOrbsSideBySide {
-    format("Yes, two orbs side by side…\p The sight of them together… It is somehow soothing…")
+    format("Yes, two orbs side by side\p The sight of them together It is somehow soothing")
 }
 
 text SootopolisCity_House2_Text_OughtToVisitAndSee {
-    format("Is that so? Perhaps you ought to visit and see…")
+    format("Is that so? Perhaps you ought to visit and see")
 }
 

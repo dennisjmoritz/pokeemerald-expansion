@@ -48,10 +48,10 @@ text TwoIsland_Text_BuyRareItemsHere {
 }
 
 text TwoIsland_Text_OldWomanLivesOutOnCape {
-    format("There's an old woman who lives in a cottage out on the cape.\p She gives the eye to POKéMON. It's a bit unnerving.")
+    format("There's an old woman who lives in a cottage out on the cape.\p She gives the eye to POKMON. It's a bit unnerving.")
 }
 
 text TwoIsland_Text_HaveYouTriedJumpingGame {
-    format("Boing! Boing! Have you tried the jumping game?\p The POKéMON you can enter… Boing!\p Some go boing!\p And some go boooooooing!\p Did you know that? Boing!")
+    format("Boing! Boing! Have you tried the jumping game?\p The POKMON you can enter Boing!\p Some go boing!\p And some go boooooooing!\p Did you know that? Boing!")
 }
 

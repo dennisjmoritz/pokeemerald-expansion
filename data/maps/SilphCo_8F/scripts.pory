@@ -4,7 +4,7 @@ mapscripts SilphCo_8F_MapScripts {
 
 
 text SilphCo_8F_Text_WonderIfSilphIsFinished {
-    format("I wonder if SILPH is finished…")
+    format("I wonder if SILPH is finished")
 }
 
 text SilphCo_8F_Text_ThanksForSavingUs {
@@ -20,7 +20,7 @@ text SilphCo_8F_Text_Grunt1Defeat {
 }
 
 text SilphCo_8F_Text_Grunt1PostBattle {
-    format("If you don't turn back… I'll call for backup!")
+    format("If you don't turn back I'll call for backup!")
 }
 
 text SilphCo_8F_Text_ParkerIntro {
@@ -52,6 +52,6 @@ text SilphCo_8F_Text_FloorSign {
 }
 
 text SilphCo_8F_Text_ToRocketBossMonsAreTools {
-    format("TEAM ROCKET's BOSS is terribly cruel!\p To him, POKéMON are just tools to be used.\p What will happen if that tyrant takes over our company…")
+    format("TEAM ROCKET's BOSS is terribly cruel!\p To him, POKMON are just tools to be used.\p What will happen if that tyrant takes over our company")
 }
 

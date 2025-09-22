@@ -8,7 +8,7 @@ text Route119_WeatherInstitute_1F_Text_Grunt1Intro {
 }
 
 text Route119_WeatherInstitute_1F_Text_Grunt1Defeat {
-    format("Blast it… Blasted by a kid…")
+    format("Blast it Blasted by a kid")
 }
 
 text Route119_WeatherInstitute_1F_Text_Grunt1PostBattle {
@@ -24,7 +24,7 @@ text Route119_WeatherInstitute_1F_Text_Grunt4Defeat {
 }
 
 text Route119_WeatherInstitute_1F_Text_Grunt4PostBattle {
-    format("Oh, no… I'll catch an earful for losing to a kid…\p I should just take a nap in the bed…")
+    format("Oh, no I'll catch an earful for losing to a kid\p I should just take a nap in the bed")
 }
 
 text Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs {
@@ -32,7 +32,7 @@ text Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs {
 }
 
 text Route119_WeatherInstitute_1F_Text_WowYoureStrong {
-    format("Wow, you're really strong!\p I wish I could be a POKéMON TRAINER like you!")
+    format("Wow, you're really strong!\p I wish I could be a POKMON TRAINER like you!")
 }
 
 text Route119_WeatherInstitute_1F_Text_ProfStudyingRain {
@@ -40,7 +40,7 @@ text Route119_WeatherInstitute_1F_Text_ProfStudyingRain {
 }
 
 text Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather {
-    format("On the 2nd floor of the INSTITUTE, we study the weather patterns over\l the HOENN region.\p We've been noticing temporary and isolated cases of droughts and\l heavy rain lately…")
+    format("On the 2nd floor of the INSTITUTE, we study the weather patterns over\l the HOENN region.\p We've been noticing temporary and isolated cases of droughts and\l heavy rain lately")
 }
 
 text Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo {
@@ -48,6 +48,6 @@ text Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo {
 }
 
 text Route119_WeatherInstitute_1F_Text_TakeRestInBed {
-    format("There's a bed… Let's take a rest.")
+    format("There's a bed Let's take a rest.")
 }
 

@@ -3,7 +3,7 @@ mapscripts FortreeCity_House1_MapScripts {
 
 
 text FortreeCity_House1_Text_YouWillTradeWontYou {
-    format("Wrooooaaar! I need it! I have to get me a {STR_VAR_1}!\l I'll do anything for it!\p …Uh… Did you hear that? My shout from the bottom of my heart?\p Having heard that, you will trade your {STR_VAR_1} for my {STR_VAR_2},\l won't you?")
+    format("Wrooooaaar! I need it! I have to get me a {STR_VAR_1}!\l I'll do anything for it!\p Uh Did you hear that? My shout from the bottom of my heart?\p Having heard that, you will trade your {STR_VAR_1} for my {STR_VAR_2},\l won't you?")
 }
 
 text FortreeCity_House1_Text_MonYouTakeCare {
@@ -23,7 +23,7 @@ text FortreeCity_House1_Text_GoingToMakeVolbeatStrong {
 }
 
 text FortreeCity_House1_Text_TradingMemoriesWithOthers {
-    format("Trading POKéMON with others…\p It's as if you're trading your own memories with other people.")
+    format("Trading POKMON with others\p It's as if you're trading your own memories with other people.")
 }
 
 text FortreeCity_House1_Text_Zigzagoon {

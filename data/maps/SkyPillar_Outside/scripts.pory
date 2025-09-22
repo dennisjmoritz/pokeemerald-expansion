@@ -18,10 +18,10 @@ text SkyPillar_Outside_Text_EarthquakeNotMomentToWaste {
 }
 
 text SkyPillar_Outside_Text_SituationGettingWorse {
-    format("WALLACE: Hmm… The situation is getting worse…")
+    format("WALLACE: Hmm The situation is getting worse")
 }
 
 text SkyPillar_Outside_Text_GotToGoBackForSootopolis {
-    format("WALLACE: This isn't good…\p The weather distortion is spreading even here…\p {PLAYER}{KUN}.\p RAYQUAZA should be farther up from here.\p I'm worried about SOOTOPOLIS. I've got to go back.\p Everything is in your hands now. Don't fail us!")
+    format("WALLACE: This isn't good\p The weather distortion is spreading even here\p {PLAYER}{KUN}.\p RAYQUAZA should be farther up from here.\p I'm worried about SOOTOPOLIS. I've got to go back.\p Everything is in your hands now. Don't fail us!")
 }
 

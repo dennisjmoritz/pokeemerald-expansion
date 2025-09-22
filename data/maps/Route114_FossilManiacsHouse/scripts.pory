@@ -4,18 +4,18 @@ mapscripts Route114_FossilManiacsHouse_MapScripts {
 
 
 text Route114_FossilManiacsHouse_Text_HaveThisToDigLikeMyBrother {
-    format("My big brother's the FOSSIL MANIAC… He's a nice guy who loves FOSSILS…\p He loves digging holes, too… He dug this hole by himself…\p You can have this, so you can DIG holes just like my big brother…")
+    format("My big brother's the FOSSIL MANIAC He's a nice guy who loves FOSSILS\p He loves digging holes, too He dug this hole by himself\p You can have this, so you can DIG holes just like my big brother")
 }
 
 text Route114_FossilManiacsHouse_Text_DigReturnsYouToEntrance {
-    format("If you make a POKéMON DIG inside a cave, you're returned to the entrance…")
+    format("If you make a POKMON DIG inside a cave, you're returned to the entrance")
 }
 
 text Route114_FossilManiacsHouse_Text_RocksFillDisplayCase {
-    format("Rocks in peculiar shapes fill the display case…")
+    format("Rocks in peculiar shapes fill the display case")
 }
 
 text Route114_FossilManiacsHouse_Text_CrammedWithBooks {
-    format("THE COMPOSITION OF STRATA… HOW RAIN SHAPES THE LAND…\l STONES, SOIL, AND ROCK…\p It's crammed with books.")
+    format("THE COMPOSITION OF STRATA HOW RAIN SHAPES THE LAND\l STONES, SOIL, AND ROCK\p It's crammed with books.")
 }
 

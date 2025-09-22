@@ -3,15 +3,15 @@ mapscripts SixIsland_OutcastIsland_MapScripts {
 
 
 text SixIsland_OutcastIsland_Text_RocketIntro {
-    format("There're no rare POKéMON around these parts! Not a one!\p That burns me up, man. I'll take it out on you!")
+    format("There're no rare POKMON around these parts! Not a one!\p That burns me up, man. I'll take it out on you!")
 }
 
 text SixIsland_OutcastIsland_Text_RocketDefeat {
-    format("…Huh?")
+    format("Huh?")
 }
 
 text SixIsland_OutcastIsland_Text_RocketPostBattle {
-    format("So listen, you haven't seen any rare POKéMON, have you?")
+    format("So listen, you haven't seen any rare POKMON, have you?")
 }
 
 text SixIsland_OutcastIsland_Text_TylorIntro {
@@ -19,7 +19,7 @@ text SixIsland_OutcastIsland_Text_TylorIntro {
 }
 
 text SixIsland_OutcastIsland_Text_TylorDefeat {
-    format("Nope, no luck at all…")
+    format("Nope, no luck at all")
 }
 
 text SixIsland_OutcastIsland_Text_TylorPostBattle {
@@ -27,19 +27,19 @@ text SixIsland_OutcastIsland_Text_TylorPostBattle {
 }
 
 text SixIsland_OutcastIsland_Text_MymoIntro {
-    format("Gasp… Gasp…\p I swam here from SIX ISLE PORT in one go.")
+    format("Gasp Gasp\p I swam here from SIX ISLE PORT in one go.")
 }
 
 text SixIsland_OutcastIsland_Text_MymoDefeat {
-    format("Gasp… Gasp…")
+    format("Gasp Gasp")
 }
 
 text SixIsland_OutcastIsland_Text_MymoPostBattle {
-    format("I'm only at the halfway point… I'm beat…")
+    format("I'm only at the halfway point I'm beat")
 }
 
 text SixIsland_OutcastIsland_Text_NicoleIntro {
-    format("It's not so easy sending POKéMON out while swimming, you know?")
+    format("It's not so easy sending POKMON out while swimming, you know?")
 }
 
 text SixIsland_OutcastIsland_Text_NicoleDefeat {
@@ -63,7 +63,7 @@ text SixIsland_OutcastIsland_Text_AvaPostBattle {
 }
 
 text SixIsland_OutcastIsland_Text_AvaNotEnoughMons {
-    format("AVA: You're challenging us to a battle?\p You'll need at least two POKéMON if you want to do that.")
+    format("AVA: You're challenging us to a battle?\p You'll need at least two POKMON if you want to do that.")
 }
 
 text SixIsland_OutcastIsland_Text_GebIntro {
@@ -79,6 +79,6 @@ text SixIsland_OutcastIsland_Text_GebPostBattle {
 }
 
 text SixIsland_OutcastIsland_Text_GebNotEnoughMons {
-    format("GEB: Please battle against me and my sister!\p …Oh, you don't have two POKéMON?")
+    format("GEB: Please battle against me and my sister!\p Oh, you don't have two POKMON?")
 }
 

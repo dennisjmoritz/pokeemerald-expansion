@@ -3,11 +3,11 @@ mapscripts CeladonCity_DepartmentStore_4F_MapScripts {
 
 
 text CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent {
-    format("I'm getting a present for my girlfriend.\p I guess a POKé DOLL will be it. It's the popular thing.")
+    format("I'm getting a present for my girlfriend.\p I guess a POK DOLL will be it. It's the popular thing.")
 }
 
 text CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll {
-    format("I heard something useful.\p If a wild POKéMON appears, you can distract it with a POKé DOLL.\p You can run away while the wild POKéMON is distracted.")
+    format("I heard something useful.\p If a wild POKMON appears, you can distract it with a POK DOLL.\p You can run away while the wild POKMON is distracted.")
 }
 
 text CeladonCity_DepartmentStore_4F_Text_FloorSign {

@@ -21,11 +21,11 @@ text LilycoveCity_PokemonTrainerFanClub_Text_OthersDontKnowYoureTheBest {
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_TrainersPowerIsOutOfTheOrdinary {
-    format("I hate to say this, but the TRAINER everybody's talking about is\l {STR_VAR_1}, no question about it!\p That TRAINER's power… It's out of the ordinary.")
+    format("I hate to say this, but the TRAINER everybody's talking about is\l {STR_VAR_1}, no question about it!\p That TRAINER's power It's out of the ordinary.")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsBestNoOneWantsToListen {
-    format("Darn it… I've been telling people that {STR_VAR_1} is the best now…\p But no one wants to listen…")
+    format("Darn it I've been telling people that {STR_VAR_1} is the best now\p But no one wants to listen")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_HearingAboutToughNewTrainer {
@@ -37,15 +37,15 @@ text LilycoveCity_PokemonTrainerFanClub_Text_ImPullingForYou {
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_BrawlyNoImYourFan {
-    format("Sigh… BRAWLY…\p Oh, no! Wait! That's not right! No, no, no!\p I'm your fan through and through!\p So make me proud! Go for it!")
+    format("Sigh BRAWLY\p Oh, no! Wait! That's not right! No, no, no!\p I'm your fan through and through!\p So make me proud! Go for it!")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingBrawly {
-    format("I can't help it, I can only get to like BRAWLY…")
+    format("I can't help it, I can only get to like BRAWLY")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly {
-    format("Nobody understands the charm of BRAWLY…\p I don't care!\p Even if I'm the only one, I'm going to keep cheering for BRAWLY!")
+    format("Nobody understands the charm of BRAWLY\p I don't care!\p Even if I'm the only one, I'm going to keep cheering for BRAWLY!")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly {
@@ -61,7 +61,7 @@ text LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattli
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman {
-    format("NORMAN battled with more power, charisma, and showmanship than you.\p Even though people may say that you're strong…\p You've still got a long way to go compared to your father.")
+    format("NORMAN battled with more power, charisma, and showmanship than you.\p Even though people may say that you're strong\p You've still got a long way to go compared to your father.")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent {
@@ -69,7 +69,7 @@ text LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent {
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers {
-    format("Everyone here, we're all huge fans of POKéMON battles.\p We discuss who we consider to be the strongest of all TRAINERS.\p If you were to become famous, we might even become your fans!")
+    format("Everyone here, we're all huge fans of POKMON battles.\p We discuss who we consider to be the strongest of all TRAINERS.\p If you were to become famous, we might even become your fans!")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_OhWoweeItsPlayer {
@@ -81,7 +81,7 @@ text LilycoveCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou {
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_EveryoneThinksTrainerIsCool {
-    format("{STR_VAR_1} is really cool…\p Everyone thinks so, right, right?")
+    format("{STR_VAR_1} is really cool\p Everyone thinks so, right, right?")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsReallyCoolItsJustMe {
@@ -89,7 +89,7 @@ text LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsReallyCoolItsJustMe {
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_WishThereWasTrainerLikeThat {
-    format("My favorite TRAINER is…\p Cool…\p Strong…\p And really nice…\p I wish there was a TRAINER like that…")
+    format("My favorite TRAINER is\p Cool\p Strong\p And really nice\p I wish there was a TRAINER like that")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_WantToBeStrongLikeYou {
@@ -97,15 +97,15 @@ text LilycoveCity_PokemonTrainerFanClub_Text_WantToBeStrongLikeYou {
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_OnlyOneWhoCheersForYou {
-    format("Even if I'm the only one…\p You'll always be the only one I cheer for, {PLAYER}!\p Because I believe in you, {PLAYER}!")
+    format("Even if I'm the only one\p You'll always be the only one I cheer for, {PLAYER}!\p Because I believe in you, {PLAYER}!")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsWickedlyCool {
-    format("{STR_VAR_1} is so wickedly cool… I want to shake hands with my hero.")
+    format("{STR_VAR_1} is so wickedly cool I want to shake hands with my hero.")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan {
-    format("Even if I'm the only one…\p I'm never going to stop being {STR_VAR_1}'s fan!\p Because I've heard, {STR_VAR_1} never loses!")
+    format("Even if I'm the only one\p I'm never going to stop being {STR_VAR_1}'s fan!\p Because I've heard, {STR_VAR_1} never loses!")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_YoureAmazingAfterAll {
@@ -137,11 +137,11 @@ text LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout {
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_NoOneCanKnockYouButTrainerStronger {
-    format("You are really popular…\p You're strong, and you're caring to POKéMON. No one can knock you.\p But, you know, I believe in {STR_VAR_1}.\p {STR_VAR_1} is definitely stronger! I'm positive!")
+    format("You are really popular\p You're strong, and you're caring to POKMON. No one can knock you.\p But, you know, I believe in {STR_VAR_1}.\p {STR_VAR_1} is definitely stronger! I'm positive!")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_YouImpressive {
-    format("You…\p Impressive!")
+    format("You\p Impressive!")
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth {
@@ -153,6 +153,6 @@ text LilycoveCity_PokemonTrainerFanClub_Text_HaventRealizedPotential {
 }
 
 text LilycoveCity_PokemonTrainerFanClub_Text_YourePowerfulButNotTrueStrength {
-    format("It is true that you are tremendously powerful.\p But! I can tell…\p That strength cannot be considered true strength yet!\p True strength is…! … …\p Actually, I have no idea, either.")
+    format("It is true that you are tremendously powerful.\p But! I can tell\p That strength cannot be considered true strength yet!\p True strength is!  \p Actually, I have no idea, either.")
 }
 

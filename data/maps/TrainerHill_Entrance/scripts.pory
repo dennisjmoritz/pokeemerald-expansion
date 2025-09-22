@@ -20,11 +20,11 @@ text TrainerHill_Entrance_Text_SaveGameBeforeEnter {
 }
 
 text TrainerHill_Entrance_Text_TrainersUpToFloorX {
-    format("Let's see… The TRAINERS here now are…\p Up to floor no. {STR_VAR_1}.")
+    format("Let's see The TRAINERS here now are\p Up to floor no. {STR_VAR_1}.")
 }
 
 text TrainerHill_Entrance_Text_TrainersInEveryRoom {
-    format("Let's see… The TRAINERS here now are…\p There appear to be TRAINERS gathered in every room.")
+    format("Let's see The TRAINERS here now are\p There appear to be TRAINERS gathered in every room.")
 }
 
 text TrainerHill_Entrance_Text_LikeToChallengeTrainers {
@@ -32,7 +32,7 @@ text TrainerHill_Entrance_Text_LikeToChallengeTrainers {
 }
 
 text TrainerHill_Entrance_Text_TimeProgessGetSetGo {
-    format("I will time your progress. Best of luck!\p On your marks…\p Get set…\p Go!")
+    format("I will time your progress. Best of luck!\p On your marks\p Get set\p Go!")
 }
 
 text TrainerHill_Entrance_Text_PleaseVisitUsAgain {
@@ -60,11 +60,11 @@ text TrainerHill_Entrance_Text_ExplainTrainerHill {
 }
 
 text TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon {
-    format("Oh, I'm sorry, but you appear to have only one POKéMON with you.\p You will need at least two POKéMON to enter this event.")
+    format("Oh, I'm sorry, but you appear to have only one POKMON with you.\p You will need at least two POKMON to enter this event.")
 }
 
 text TrainerHill_Roof_Text_YouFinallyCameBravo {
-    format("Hm! Hm!\p You finally came! Yes, you have arrived!\p Wait! Don't say it! I know why you came all the way\l here by yourself!\p You wanted to see me, the owner of the TRAINER HILL, because…\p You want to form a tag team with me! Wa-hoo!\p …Uh? That's not it?\p Anyway, I watched you on your way up. Marvelous battling! Bravo, indeed!")
+    format("Hm! Hm!\p You finally came! Yes, you have arrived!\p Wait! Don't say it! I know why you came all the way\l here by yourself!\p You wanted to see me, the owner of the TRAINER HILL, because\p You want to form a tag team with me! Wa-hoo!\p Uh? That's not it?\p Anyway, I watched you on your way up. Marvelous battling! Bravo, indeed!")
 }
 
 text TrainerHill_Roof_Text_HaveTheMostMarvelousGift {
@@ -80,7 +80,7 @@ text TrainerHill_Roof_Text_GotHereMarvelouslyQuickly {
 }
 
 text TrainerHill_Roof_Text_YouWerentVeryQuick {
-    format("But, oh… You weren't very quick getting here.")
+    format("But, oh You weren't very quick getting here.")
 }
 
 text TrainerHill_Roof_Text_ArriveZippierNextTime {
@@ -96,7 +96,7 @@ text TrainerHill_Entrance_Text_ChallengeTime {
 }
 
 text TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead {
-    format("Who knows what sort of TRAINERS and POKéMON combos are ahead?\p All I know is that I'll knock aside anyone that stands in my way!")
+    format("Who knows what sort of TRAINERS and POKMON combos are ahead?\p All I know is that I'll knock aside anyone that stands in my way!")
 }
 
 text TrainerHill_Entrance_Text_CantWaitToTestTheWaters {

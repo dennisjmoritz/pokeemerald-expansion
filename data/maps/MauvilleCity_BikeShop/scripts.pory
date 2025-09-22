@@ -7,7 +7,7 @@ text MauvilleCity_BikeShop_Text_RydelGreeting {
 }
 
 text MauvilleCity_BikeShop_Text_DidYouComeFromFarAway {
-    format("RYDEL: Your RUNNING SHOES… They're awfully filthy.\p Did you come from far away?")
+    format("RYDEL: Your RUNNING SHOES They're awfully filthy.\p Did you come from far away?")
 }
 
 text MauvilleCity_BikeShop_Text_GuessYouDontNeedBike {
@@ -15,7 +15,7 @@ text MauvilleCity_BikeShop_Text_GuessYouDontNeedBike {
 }
 
 text MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne {
-    format("RYDEL: Hm, hm… … … … …\p You're saying that you came all this way from LITTLEROOT?\p My goodness! That's ridiculously far!\p If you had one of my BIKES, you could go anywhere easily while feeling the\l gentle caress of the wind!\p I'll tell you what! I'll give you a BIKE!\p Oh, wait a second!\p I forgot to tell you that there are two kinds of BIKES!\p They are the MACH BIKE and the ACRO BIKE!\p The MACH BIKE is for cyclists who want to feel the wind with their bodies!\p And an ACRO BIKE is for those who prefer technical rides!\p I'm a real sweetheart, so you can have whichever one you like!\p Which one will you choose?")
+    format("RYDEL: Hm, hm    \p You're saying that you came all this way from LITTLEROOT?\p My goodness! That's ridiculously far!\p If you had one of my BIKES, you could go anywhere easily while feeling the\l gentle caress of the wind!\p I'll tell you what! I'll give you a BIKE!\p Oh, wait a second!\p I forgot to tell you that there are two kinds of BIKES!\p They are the MACH BIKE and the ACRO BIKE!\p The MACH BIKE is for cyclists who want to feel the wind with their bodies!\p And an ACRO BIKE is for those who prefer technical rides!\p I'm a real sweetheart, so you can have whichever one you like!\p Which one will you choose?")
 }
 
 text MauvilleCity_BikeShop_Text_ChoseMachBike {

@@ -3,14 +3,14 @@ mapscripts MossdeepCity_Mart_MapScripts {
 
 
 text MossdeepCity_Mart_Text_ReviveIsFantastic {
-    format("REVIVE is fantastic!\p Give it to a fainted POKéMON, and the POKéMON will arise.\p But be careful, REVIVE doesn't restore the used-up PP of moves.")
+    format("REVIVE is fantastic!\p Give it to a fainted POKMON, and the POKMON will arise.\p But be careful, REVIVE doesn't restore the used-up PP of moves.")
 }
 
 text MossdeepCity_Mart_Text_MaxRepelLastsLongest {
-    format("MAX REPEL keeps all weak POKéMON away.\p Out of all the REPEL sprays, it lasts the longest.")
+    format("MAX REPEL keeps all weak POKMON away.\p Out of all the REPEL sprays, it lasts the longest.")
 }
 
 text MossdeepCity_Mart_Text_NetAndDiveBallsRare {
-    format("The NET and DIVE BALLS are rare POKé BALLS that are only made in MOSSDEEP.\p A NET BALL is effective against BUG-type and WATER-type POKéMON.\p A DIVE BALL works best on POKéMON at the bottom of the sea.")
+    format("The NET and DIVE BALLS are rare POK BALLS that are only made in MOSSDEEP.\p A NET BALL is effective against BUG-type and WATER-type POKMON.\p A DIVE BALL works best on POKMON at the bottom of the sea.")
 }
 

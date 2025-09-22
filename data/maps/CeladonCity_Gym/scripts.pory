@@ -3,7 +3,7 @@ mapscripts CeladonCity_Gym_MapScripts {
 
 
 text CeladonCity_Gym_Text_ErikaIntro {
-    format("Hello… Lovely weather, isn't it?\l It's so pleasant…\p …Oh, dear… I must have dozed off. Welcome.\p My name is ERIKA. I am the LEADER of CELADON GYM.\p I am a student of the art of flower arranging.\p My POKéMON are solely of the GRASS type.\p …Oh, I'm sorry, I had no idea that you wished to challenge me.\p Very well, but I shall not lose.{PLAY_BGM MUS_RG_GYM}")
+    format("Hello Lovely weather, isn't it?\l It's so pleasant\p Oh, dear I must have dozed off. Welcome.\p My name is ERIKA. I am the LEADER of CELADON GYM.\p I am a student of the art of flower arranging.\p My POKMON are solely of the GRASS type.\p Oh, I'm sorry, I had no idea that you wished to challenge me.\p Very well, but I shall not lose.{PLAY_BGM MUS_RG_GYM}")
 }
 
 text CeladonCity_Gym_Text_ErikaDefeat {
@@ -11,11 +11,11 @@ text CeladonCity_Gym_Text_ErikaDefeat {
 }
 
 text CeladonCity_Gym_Text_ErikaPostBattle {
-    format("You are cataloging POKéMON? I must say I'm impressed.\p I would never collect POKéMON if they were unattractive.")
+    format("You are cataloging POKMON? I must say I'm impressed.\p I would never collect POKMON if they were unattractive.")
 }
 
 text CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis {
-    format("The RAINBOWBADGE will make POKéMON up to Lv. 50 obey.\p It also allows POKéMON to use STRENGTH in and out of battle.\p Please also take this with you.")
+    format("The RAINBOWBADGE will make POKMON up to Lv. 50 obey.\p It also allows POKMON to use STRENGTH in and out of battle.\p Please also take this with you.")
 }
 
 text CeladonCity_Gym_Text_ReceivedTM19FromErika {
@@ -23,7 +23,7 @@ text CeladonCity_Gym_Text_ReceivedTM19FromErika {
 }
 
 text CeladonCity_Gym_Text_ExplainTM19 {
-    format("TM19 contains GIGA DRAIN.\p Half the damage it inflicts is drained to heal your POKéMON.\p Wouldn't you agree that it's a wonderful move?")
+    format("TM19 contains GIGA DRAIN.\p Half the damage it inflicts is drained to heal your POKMON.\p Wouldn't you agree that it's a wonderful move?")
 }
 
 text CeladonCity_Gym_Text_ShouldMakeRoomForThis {
@@ -51,11 +51,11 @@ text CeladonCity_Gym_Text_BridgetDefeat {
 }
 
 text CeladonCity_Gym_Text_BridgetPostBattle {
-    format("GRASS-type POKéMON are tough against the WATER type.\p They also have an edge on ROCK- and GROUND-type POKéMON.")
+    format("GRASS-type POKMON are tough against the WATER type.\p They also have an edge on ROCK- and GROUND-type POKMON.")
 }
 
 text CeladonCity_Gym_Text_TinaIntro {
-    format("…Weren't you peeking in here earlier?")
+    format("Weren't you peeking in here earlier?")
 }
 
 text CeladonCity_Gym_Text_TinaDefeat {
@@ -63,11 +63,11 @@ text CeladonCity_Gym_Text_TinaDefeat {
 }
 
 text CeladonCity_Gym_Text_TinaPostBattle {
-    format("Oh, you were looking at ERIKA… You weren't looking at me…")
+    format("Oh, you were looking at ERIKA You weren't looking at me")
 }
 
 text CeladonCity_Gym_Text_TamiaIntro {
-    format("Look, look! See my POKéMON!\p I like the GRASS type. I like how they're easy to raise.")
+    format("Look, look! See my POKMON!\p I like the GRASS type. I like how they're easy to raise.")
 }
 
 text CeladonCity_Gym_Text_TamiaDefeat {
@@ -75,11 +75,11 @@ text CeladonCity_Gym_Text_TamiaDefeat {
 }
 
 text CeladonCity_Gym_Text_TamiaPostBattle {
-    format("We only use GRASS-type POKéMON at our GYM.\p Why? We also use them for making flower arrangements!")
+    format("We only use GRASS-type POKMON at our GYM.\p Why? We also use them for making flower arrangements!")
 }
 
 text CeladonCity_Gym_Text_LisaIntro {
-    format("Oh, hey!\p We don't like BUG- or FIRE-type POKéMON in here!")
+    format("Oh, hey!\p We don't like BUG- or FIRE-type POKMON in here!")
 }
 
 text CeladonCity_Gym_Text_LisaDefeat {
@@ -91,7 +91,7 @@ text CeladonCity_Gym_Text_LisaPostBattle {
 }
 
 text CeladonCity_Gym_Text_LoriIntro {
-    format("Pleased to meet you. My hobby is POKéMON training.")
+    format("Pleased to meet you. My hobby is POKMON training.")
 }
 
 text CeladonCity_Gym_Text_LoriDefeat {
@@ -111,14 +111,14 @@ text CeladonCity_Gym_Text_MaryDefeat {
 }
 
 text CeladonCity_Gym_Text_MaryPostBattle {
-    format("I didn't bring my best POKéMON. Wait until next time!")
+    format("I didn't bring my best POKMON. Wait until next time!")
 }
 
 text CeladonCity_Gym_Text_GymStatue {
-    format("CELADON POKéMON GYM LEADER: ERIKA\p WINNING TRAINERS: {RIVAL}")
+    format("CELADON POKMON GYM LEADER: ERIKA\p WINNING TRAINERS: {RIVAL}")
 }
 
 text CeladonCity_Gym_Text_GymStatuePlayerWon {
-    format("CELADON POKéMON GYM LEADER: ERIKA\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+    format("CELADON POKMON GYM LEADER: ERIKA\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
 }
 

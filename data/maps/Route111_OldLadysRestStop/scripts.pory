@@ -4,7 +4,7 @@ mapscripts Route111_OldLadysRestStop_MapScripts {
 
 
 text Route111_OldLadysRestStop_Text_RestUpHere {
-    format("Oh, dear, dear. Aren't your POKéMON exhausted?\p If you'd like, rest up here. That's a fine idea! You should do that.")
+    format("Oh, dear, dear. Aren't your POKMON exhausted?\p If you'd like, rest up here. That's a fine idea! You should do that.")
 }
 
 text Route111_OldLadysRestStop_Text_TakeYourTimeRestUp {
@@ -12,7 +12,7 @@ text Route111_OldLadysRestStop_Text_TakeYourTimeRestUp {
 }
 
 text Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest {
-    format("Oh, dear, dear. Are your POKéMON still tired?\p You should take another rest here. That's a fine idea. You should do that.")
+    format("Oh, dear, dear. Are your POKMON still tired?\p You should take another rest here. That's a fine idea. You should do that.")
 }
 
 text Route111_OldLadysRestStop_Text_DontNeedToBeShy {

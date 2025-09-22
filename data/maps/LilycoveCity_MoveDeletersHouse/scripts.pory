@@ -3,11 +3,11 @@ mapscripts LilycoveCity_MoveDeletersHouse_MapScripts {
 
 
 text LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove {
-    format("Uh… Oh, yes, I'm the MOVE DELETER.\p I can make POKéMON forget their moves.\p Would you like me to do that?")
+    format("Uh Oh, yes, I'm the MOVE DELETER.\p I can make POKMON forget their moves.\p Would you like me to do that?")
 }
 
 text LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget {
-    format("Which POKéMON should forget a move?")
+    format("Which POKMON should forget a move?")
 }
 
 text LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten {
@@ -15,7 +15,7 @@ text LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten {
 }
 
 text LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove {
-    format("{STR_VAR_1} knows only one move so it can't be forgotten…")
+    format("{STR_VAR_1} knows only one move so it can't be forgotten")
 }
 
 text LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten {

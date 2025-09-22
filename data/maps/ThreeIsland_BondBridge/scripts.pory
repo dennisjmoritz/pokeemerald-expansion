@@ -3,15 +3,15 @@ mapscripts ThreeIsland_BondBridge_MapScripts {
 
 
 text ThreeIsland_BondBridge_Text_NikkiIntro {
-    format("The salty tang of the sea… It tickles my heart.")
+    format("The salty tang of the sea It tickles my heart.")
 }
 
 text ThreeIsland_BondBridge_Text_NikkiDefeat {
-    format("…Sniff, sniff… Something smells unpleasant…")
+    format("Sniff, sniff Something smells unpleasant")
 }
 
 text ThreeIsland_BondBridge_Text_NikkiPostBattle {
-    format("Perhaps that reek is your sweaty POKéMON's body odor…")
+    format("Perhaps that reek is your sweaty POKMON's body odor")
 }
 
 text ThreeIsland_BondBridge_Text_VioletIntro {
@@ -19,7 +19,7 @@ text ThreeIsland_BondBridge_Text_VioletIntro {
 }
 
 text ThreeIsland_BondBridge_Text_VioletDefeat {
-    format("You're raising some wonderful POKéMON.")
+    format("You're raising some wonderful POKMON.")
 }
 
 text ThreeIsland_BondBridge_Text_VioletPostBattle {
@@ -39,7 +39,7 @@ text ThreeIsland_BondBridge_Text_AmiraPostBattle {
 }
 
 text ThreeIsland_BondBridge_Text_AlexisIntro {
-    format("Yay, yay! POKéMON!")
+    format("Yay, yay! POKMON!")
 }
 
 text ThreeIsland_BondBridge_Text_AlexisDefeat {
@@ -59,15 +59,15 @@ text ThreeIsland_BondBridge_Text_TishaDefeat {
 }
 
 text ThreeIsland_BondBridge_Text_TishaPostBattle {
-    format("A POKéMON bit through my swimsuit.\p I can't get out of the water!")
+    format("A POKMON bit through my swimsuit.\p I can't get out of the water!")
 }
 
 text ThreeIsland_BondBridge_Text_JoyIntro {
-    format("JOY: We'll teach you what our favorite POKéMON is!")
+    format("JOY: We'll teach you what our favorite POKMON is!")
 }
 
 text ThreeIsland_BondBridge_Text_JoyDefeat {
-    format("JOY: Ohh… MEG!")
+    format("JOY: Ohh MEG!")
 }
 
 text ThreeIsland_BondBridge_Text_JoyPostBattle {
@@ -75,15 +75,15 @@ text ThreeIsland_BondBridge_Text_JoyPostBattle {
 }
 
 text ThreeIsland_BondBridge_Text_JoyNotEnoughMons {
-    format("JOY: I really want to battle with MEG.\p One POKéMON isn't enough.")
+    format("JOY: I really want to battle with MEG.\p One POKMON isn't enough.")
 }
 
 text ThreeIsland_BondBridge_Text_MegIntro {
-    format("MEG: We'll show you our favorite POKéMON.")
+    format("MEG: We'll show you our favorite POKMON.")
 }
 
 text ThreeIsland_BondBridge_Text_MegDefeat {
-    format("MEG: Ohh… JOY!")
+    format("MEG: Ohh JOY!")
 }
 
 text ThreeIsland_BondBridge_Text_MegPostBattle {
@@ -91,7 +91,7 @@ text ThreeIsland_BondBridge_Text_MegPostBattle {
 }
 
 text ThreeIsland_BondBridge_Text_MegNotEnoughMons {
-    format("MEG: I want to battle together with JOY.\p One POKéMON isn't enough.")
+    format("MEG: I want to battle together with JOY.\p One POKMON isn't enough.")
 }
 
 text ThreeIsland_BondBridge_Text_BerryForestAhead {

@@ -3,10 +3,10 @@ mapscripts CeruleanCity_Mart_MapScripts {
 
 
 text CeruleanCity_Mart_Text_RepelWorksOnWeakMons {
-    format("REPEL not only keeps bugs away, it also works on weak POKéMON.\p Put your strongest POKéMON at the left of the POKéMON LIST.\p If your first POKéMON is strong, REPEL's effect is boosted.")
+    format("REPEL not only keeps bugs away, it also works on weak POKMON.\p Put your strongest POKMON at the left of the POKMON LIST.\p If your first POKMON is strong, REPEL's effect is boosted.")
 }
 
 text CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy {
-    format("Do you know about RARE CANDY? They don't sell it in shops.\p I think it makes POKéMON grow very quickly all of a sudden.")
+    format("Do you know about RARE CANDY? They don't sell it in shops.\p I think it makes POKMON grow very quickly all of a sudden.")
 }
 

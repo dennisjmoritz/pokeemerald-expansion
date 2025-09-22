@@ -7,15 +7,15 @@ text SeafloorCavern_Room1_Text_Grunt1Intro {
 }
 
 text SeafloorCavern_Room1_Text_Grunt1Defeat {
-    format("I want to go home…")
+    format("I want to go home")
 }
 
 text SeafloorCavern_Room1_Text_Grunt1PostBattle {
-    format("I want to get a promotion so I can boss around the GRUNTS…")
+    format("I want to get a promotion so I can boss around the GRUNTS")
 }
 
 text SeafloorCavern_Room1_Text_Grunt2Intro {
-    format("That submarine… It's tiny inside. I'm sore all over!")
+    format("That submarine It's tiny inside. I'm sore all over!")
 }
 
 text SeafloorCavern_Room1_Text_Grunt2Defeat {

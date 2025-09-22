@@ -4,11 +4,11 @@ mapscripts Route116_TunnelersRestHouse_MapScripts {
 
 
 text Route116_TunnelersRestHouse_Text_WeHadToStopBoring {
-    format("That RUSTURF TUNNEL there…\p At first, we had a huge work crew boring through rock with the latest machinery.\l But, we had to stop.\p It turns out that we would have had a negative effect on wild POKéMON in\l the area.\p So, we've got nothing to do but loll around here doing nothing.")
+    format("That RUSTURF TUNNEL there\p At first, we had a huge work crew boring through rock with the latest machinery.\l But, we had to stop.\p It turns out that we would have had a negative effect on wild POKMON in\l the area.\p So, we've got nothing to do but loll around here doing nothing.")
 }
 
 text Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf {
-    format("There's a man digging his way to VERDANTURF all by his lonesome.\l He's desperate to get through.\p He says that if he digs little by little without using machines, he won't\l disturb POKéMON, and he'll avoid\l harming the natural environment.\p I wonder if he made it through yet.")
+    format("There's a man digging his way to VERDANTURF all by his lonesome.\l He's desperate to get through.\p He says that if he digs little by little without using machines, he won't\l disturb POKMON, and he'll avoid\l harming the natural environment.\p I wonder if he made it through yet.")
 }
 
 text Route116_TunnelersRestHouse_Text_GetToVerdanturfWithoutTunnel {

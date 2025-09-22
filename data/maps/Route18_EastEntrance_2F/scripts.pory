@@ -3,10 +3,10 @@ mapscripts Route18_EastEntrance_2F_MapScripts {
 
 
 text Route18_EastEntrance_2F_Text_PalletTownInWest {
-    format("Let's see what the binoculars have to show…\p PALLET TOWN is in the west.")
+    format("Let's see what the binoculars have to show\p PALLET TOWN is in the west.")
 }
 
 text Route18_EastEntrance_2F_Text_PeopleSwimming {
-    format("Let's see what the binoculars have to show…\p There are people swimming.")
+    format("Let's see what the binoculars have to show\p There are people swimming.")
 }
 

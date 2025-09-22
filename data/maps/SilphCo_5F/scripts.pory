@@ -24,7 +24,7 @@ text SilphCo_5F_Text_Grunt1PostBattle {
 }
 
 text SilphCo_5F_Text_BeauIntro {
-    format("We study POKé BALL technology on this floor.")
+    format("We study POK BALL technology on this floor.")
 }
 
 text SilphCo_5F_Text_BeauDefeat {
@@ -32,7 +32,7 @@ text SilphCo_5F_Text_BeauDefeat {
 }
 
 text SilphCo_5F_Text_BeauPostBattle {
-    format("We worked on the ultimate POKé BALL which would catch anything.")
+    format("We worked on the ultimate POK BALL which would catch anything.")
 }
 
 text SilphCo_5F_Text_DaltonIntro {
@@ -52,7 +52,7 @@ text SilphCo_5F_Text_Grunt2Intro {
 }
 
 text SilphCo_5F_Text_Grunt2Defeat {
-    format("Cough… Cough…")
+    format("Cough Cough")
 }
 
 text SilphCo_5F_Text_Grunt2PostBattle {
@@ -60,15 +60,15 @@ text SilphCo_5F_Text_Grunt2PostBattle {
 }
 
 text SilphCo_5F_Text_PorygonFirstVRMon {
-    format("It's a POKéMON REPORT!\p POKéMON LAB created PORYGON, the first virtual-reality POKéMON.")
+    format("It's a POKMON REPORT!\p POKMON LAB created PORYGON, the first virtual-reality POKMON.")
 }
 
 text SilphCo_5F_Text_Over350TechniquesConfirmed {
-    format("It's a POKéMON REPORT!\p Over 350 POKéMON techniques have been confirmed.")
+    format("It's a POKMON REPORT!\p Over 350 POKMON techniques have been confirmed.")
 }
 
 text SilphCo_5F_Text_SomeMonsEvolveWhenTraded {
-    format("It's a POKéMON REPORT!\p Some POKéMON have been confirmed to evolve when they are traded.")
+    format("It's a POKMON REPORT!\p Some POKMON have been confirmed to evolve when they are traded.")
 }
 
 text SilphCo_5F_Text_FloorSign {
@@ -76,6 +76,6 @@ text SilphCo_5F_Text_FloorSign {
 }
 
 text SilphCo_5F_Text_RocketBossLookingForStrongMons {
-    format("Those thugs that took over our building…\p Their BOSS said he was looking for strong POKéMON.\p I hope our PRESIDENT managed to avoid trouble…")
+    format("Those thugs that took over our building\p Their BOSS said he was looking for strong POKMON.\p I hope our PRESIDENT managed to avoid trouble")
 }
 

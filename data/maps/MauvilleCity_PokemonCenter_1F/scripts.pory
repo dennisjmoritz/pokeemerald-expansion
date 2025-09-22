@@ -13,6 +13,6 @@ text MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner {
 }
 
 text MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun {
-    format("A RECORD CORNER opened upstairs in the POKéMON CENTER.\p I don't know what it's about, but it sounds fun. I'll go check it out!")
+    format("A RECORD CORNER opened upstairs in the POKMON CENTER.\p I don't know what it's about, but it sounds fun. I'll go check it out!")
 }
 

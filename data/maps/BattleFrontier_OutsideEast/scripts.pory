@@ -9,7 +9,7 @@ text BattleFrontier_OutsideEast_Text_BattleTowerSign {
 }
 
 text BattleFrontier_OutsideEast_Text_BattlePalaceSign {
-    format("This is the BATTLE PALACE! Keep your eyes on POKéMON battles!")
+    format("This is the BATTLE PALACE! Keep your eyes on POKMON battles!")
 }
 
 text BattleFrontier_OutsideEast_Text_BattleArenaSign {
@@ -33,15 +33,15 @@ text BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial {
 }
 
 text BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier {
-    format("My grand ambition is to conquer both the BATTLE FRONTIER and the POKéMON\l LEAGUE.\p And if my dream comes true…\p I… I'm going to ask MIMI next door if she will be friends with me!")
+    format("My grand ambition is to conquer both the BATTLE FRONTIER and the POKMON\l LEAGUE.\p And if my dream comes true\p I I'm going to ask MIMI next door if she will be friends with me!")
 }
 
 text BattleFrontier_OutsideEast_Text_PyramidTooHarsh {
-    format("The BATTLE PYRAMID's too harsh! I just can't make it to the top!\p Since I'm out of options, maybe I can climb the outside…")
+    format("The BATTLE PYRAMID's too harsh! I just can't make it to the top!\p Since I'm out of options, maybe I can climb the outside")
 }
 
 text BattleFrontier_OutsideEast_Text_ThriveInDarkness {
-    format("I thrive in darkness… Yes… What is worthy of me?\l None other than the BATTLE PYRAMID…\p What say you to wandering in darkness and in utter and total desperation?")
+    format("I thrive in darkness Yes What is worthy of me?\l None other than the BATTLE PYRAMID\p What say you to wandering in darkness and in utter and total desperation?")
 }
 
 text BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam {
@@ -49,7 +49,7 @@ text BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam {
 }
 
 text BattleFrontier_OutsideEast_Text_DidScottBringYouHere {
-    format("Did SCOTT bring you here, too? What is it with that guy?\p It sounds like he really does know how to spot talented TRAINERS, but…\p I've never seen him battling in person ever.")
+    format("Did SCOTT bring you here, too? What is it with that guy?\p It sounds like he really does know how to spot talented TRAINERS, but\p I've never seen him battling in person ever.")
 }
 
 text BattleFrontier_OutsideEast_Text_BelieveInYouBuddy {
@@ -57,11 +57,11 @@ text BattleFrontier_OutsideEast_Text_BelieveInYouBuddy {
 }
 
 text BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant {
-    format("ZIGZAGOON looks vacant…")
+    format("ZIGZAGOON looks vacant")
 }
 
 text BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody {
-    format("People call me a busybody, but I can't help it.\p Your hat's on crooked! Oh, no, trash on the ground!\l Oops, it's almost dinnertime!\p I don't know if I can stand to just watch at the BATTLE PALACE…")
+    format("People call me a busybody, but I can't help it.\p Your hat's on crooked! Oh, no, trash on the ground!\l Oops, it's almost dinnertime!\p I don't know if I can stand to just watch at the BATTLE PALACE")
 }
 
 text BattleFrontier_OutsideEast_Text_OnceBeatGymLeader {
@@ -73,7 +73,7 @@ text BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles {
 }
 
 text BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon {
-    format("I'm better than my daddy at POKéMON.")
+    format("I'm better than my daddy at POKMON.")
 }
 
 text BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy {
@@ -85,7 +85,7 @@ text BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena {
 }
 
 text BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere {
-    format("I sometimes see this really important- looking old man going in there.\p He has these really awesome POKéMON. He seems really nice, though.")
+    format("I sometimes see this really important- looking old man going in there.\p He has these really awesome POKMON. He seems really nice, though.")
 }
 
 text BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid {
@@ -97,7 +97,7 @@ text BattleFrontier_OutsideEast_Text_GotWipedOut {
 }
 
 text BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower {
-    format("This guy ran into a horribly tough TRAINER while he was on the BATTLE\l TOWER challenge.\p Now look at him…\p You need to be cautious if you ever decide to go to the BATTLE TOWER.")
+    format("This guy ran into a horribly tough TRAINER while he was on the BATTLE\l TOWER challenge.\p Now look at him\p You need to be cautious if you ever decide to go to the BATTLE TOWER.")
 }
 
 text BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll {
@@ -117,7 +117,7 @@ text BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome {
 }
 
 text BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers {
-    format("The BATTLE FRONTIER isn't exclusively for tough TRAINERS.\p Many people with special abilities have been invited, it seems.\p That man SCOTT…\p He may have built this place to serve a bigger objective…")
+    format("The BATTLE FRONTIER isn't exclusively for tough TRAINERS.\p Many people with special abilities have been invited, it seems.\p That man SCOTT\p He may have built this place to serve a bigger objective")
 }
 
 text BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle {
@@ -129,6 +129,6 @@ text BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere {
 }
 
 text BattleFrontier_OutsideEast_Text_StickyMonWithLongTail {
-    format("I… I saw it!\p There was a sticky sort of a POKéMON with a long tail up ahead!\p It was hiding under a boulder, and it kept staring at me!")
+    format("I I saw it!\p There was a sticky sort of a POKMON with a long tail up ahead!\p It was hiding under a boulder, and it kept staring at me!")
 }
 

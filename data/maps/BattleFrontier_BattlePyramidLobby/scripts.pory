@@ -17,7 +17,7 @@ text BattleFrontier_BattlePyramidLobby_Text_AwaitFutureChallenge {
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid {
-    format("The Battle Quest is a battling event in which you must explore\l the PYRAMID and try to reach the top.\p In the PYRAMID are seven floors of mazes, all of them filled with not only\l skilled TRAINERS but also wild POKéMON.\p You must enter with three POKéMON, none of them holding an item.\p On your ascent, you will be provided with a BATTLE BAG for items.\p If you fail in your challenge, any item placed in the BATTLE BAG disappears.\p If you want to interrupt your challenge, you must select “REST”\l and save the game.\p If you don't save before interrupting, you will be disqualified.")
+    format("The Battle Quest is a battling event in which you must explore\l the PYRAMID and try to reach the top.\p In the PYRAMID are seven floors of mazes, all of them filled with not only\l skilled TRAINERS but also wild POKMON.\p You must enter with three POKMON, none of them holding an item.\p On your ascent, you will be provided with a BATTLE BAG for items.\p If you fail in your challenge, any item placed in the BATTLE BAG disappears.\p If you want to interrupt your challenge, you must select REST\l and save the game.\p If you don't save before interrupting, you will be disqualified.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode {
@@ -25,15 +25,15 @@ text BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode {
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons {
-    format("Very good. Now, please select the three POKéMON you wish to accompany you.")
+    format("Very good. Now, please select the three POKMON you wish to accompany you.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen {
-    format("A slight problem, adventurer!\p You seem to not have the three POKéMON qualified for the challenge.\p Please also remember to take all items from your POKéMON.\p EGGS{STR_VAR_1} ineligible.\p When you are ready, please have a word with me.")
+    format("A slight problem, adventurer!\p You seem to not have the three POKMON qualified for the challenge.\p Please also remember to take all items from your POKMON.\p EGGS{STR_VAR_1} ineligible.\p When you are ready, please have a word with me.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50 {
-    format("A slight problem, adventurer!\p You seem to not have the three POKéMON qualified for the challenge.\p The three POKéMON must be different and each no higher than Level 50.\p Please also remember to take all items from your POKéMON.\p EGGS{STR_VAR_1} ineligible.\p When you are ready, please have a word with me.")
+    format("A slight problem, adventurer!\p You seem to not have the three POKMON qualified for the challenge.\p The three POKMON must be different and each no higher than Level 50.\p Please also remember to take all items from your POKMON.\p EGGS{STR_VAR_1} ineligible.\p When you are ready, please have a word with me.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge {
@@ -73,27 +73,27 @@ text BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid {
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake {
-    format("Ah, a slight problem.\p At least one POKéMON is holding an item.\p I'm sorry to say, items obtained in the PYRAMID cannot be taken away.")
+    format("Ah, a slight problem.\p At least one POKMON is holding an item.\p I'm sorry to say, items obtained in the PYRAMID cannot be taken away.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag {
-    format("All items held by your POKéMON will be moved to your BATTLE BAG, {PLAYER}.")
+    format("All items held by your POKMON will be moved to your BATTLE BAG, {PLAYER}.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep {
-    format("The BATTLE BAG cannot hold all your items, I'm sorry to say.\p Please pick the items you'll keep in the BATTLE BAG, and with your POKéMON.")
+    format("The BATTLE BAG cannot hold all your items, I'm sorry to say.\p Please pick the items you'll keep in the BATTLE BAG, and with your POKMON.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem {
-    format("At least one POKéMON is still holding an item.")
+    format("At least one POKMON is still holding an item.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep {
-    format("Please pick the items you'll keep in the BATTLE BAG, and with your POKéMON.")
+    format("Please pick the items you'll keep in the BATTLE BAG, and with your POKMON.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld {
-    format("{PLAYER} returned everything that the POKéMON held.")
+    format("{PLAYER} returned everything that the POKMON held.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept {
@@ -109,11 +109,11 @@ text BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis {
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem {
-    format("{PLAYER} received the prize {STR_VAR_1}. …Ah… Your BAG appears to be filled.\p Please return after you've organized your BAG's contents.")
+    format("{PLAYER} received the prize {STR_VAR_1}. Ah Your BAG appears to be filled.\p Please return after you've organized your BAG's contents.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag {
-    format("How disappointing for you…\p Here is the BAG we've been holding for you.\p {PLAYER} got the BAG back.")
+    format("How disappointing for you\p Here is the BAG we've been holding for you.\p {PLAYER} got the BAG back.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge {
@@ -125,95 +125,95 @@ text BattleFrontier_BattlePyramidLobby_Text_HereIsPrize {
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait {
-    format("Welcome…\p I shall be pleased to tell you what misfortunes await in the PYRAMID…")
+    format("Welcome\p I shall be pleased to tell you what misfortunes await in the PYRAMID")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_Aah {
-    format("… … … … … … … … … … … …\p … … … … … … Aah!")
+    format("           \p       Aah!")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintParalysis {
-    format("I see a shower of sparks…\p …And in it, I see your POKéMON struggling with paralysis…")
+    format("I see a shower of sparks\p And in it, I see your POKMON struggling with paralysis")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintPoison {
-    format("I see poison…\p …And, I see your POKéMON suffering from the effects of poison…")
+    format("I see poison\p And, I see your POKMON suffering from the effects of poison")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintBurn {
-    format("I see bright red flames…\p …And, I see your POKéMON suffering from burns…")
+    format("I see bright red flames\p And, I see your POKMON suffering from burns")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintPPWaste {
-    format("I sense the tremendous pressure of unrequited anger…\p It is a curse…\p …And, I see your POKéMON drained of Power Points and having no recourse\l but to use STRUGGLE…")
+    format("I sense the tremendous pressure of unrequited anger\p It is a curse\p And, I see your POKMON drained of Power Points and having no recourse\l but to use STRUGGLE")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintLevitate {
-    format("I see POKéMON loftily airborne…\p …And, I see your POKéMON frustrated by powerless GROUND-type moves…")
+    format("I see POKMON loftily airborne\p And, I see your POKMON frustrated by powerless GROUND-type moves")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility {
-    format("I sense terrific energy rising from the ground below…\p …And, I see your POKéMON unable to escape the power's clutches…")
+    format("I sense terrific energy rising from the ground below\p And, I see your POKMON unable to escape the power's clutches")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintIce {
-    format("I see ICE-type POKéMON…\p …And, I see your POKéMON fighting the freezing effects of ice…")
+    format("I see ICE-type POKMON\p And, I see your POKMON fighting the freezing effects of ice")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintExplosion {
-    format("I see a flurry of moves that imperil the user…\p …And, I see your POKéMON falling to them…")
+    format("I see a flurry of moves that imperil the user\p And, I see your POKMON falling to them")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintPsychic {
-    format("I see PSYCHIC-type POKéMON…\p …And, I see your POKéMON in torment from PSYCHIC moves…")
+    format("I see PSYCHIC-type POKMON\p And, I see your POKMON in torment from PSYCHIC moves")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintRock {
-    format("I see ROCK-type POKéMON…\p …And, I see your POKéMON suffering from ROCK moves…")
+    format("I see ROCK-type POKMON\p And, I see your POKMON suffering from ROCK moves")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintFighting {
-    format("I see FIGHTING-type POKéMON…\p …And, I see your POKéMON pummeled by FIGHTING moves…")
+    format("I see FIGHTING-type POKMON\p And, I see your POKMON pummeled by FIGHTING moves")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintWeather {
-    format("RAIN DANCE… SUNNY DAY… SANDSTORM… HAIL…\p I see POKéMON that become stronger with the weather…\p …And, I see your POKéMON confounded by different types of moves…")
+    format("RAIN DANCE SUNNY DAY SANDSTORM HAIL\p I see POKMON that become stronger with the weather\p And, I see your POKMON confounded by different types of moves")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintBug {
-    format("I see BUG-type POKéMON…\p …And, I see your POKéMON suffering from different kinds of attacks…")
+    format("I see BUG-type POKMON\p And, I see your POKMON suffering from different kinds of attacks")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintDark {
-    format("I see DARK-type POKéMON…\p …And, I see your POKéMON suffering from DARK-type moves…")
+    format("I see DARK-type POKMON\p And, I see your POKMON suffering from DARK-type moves")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintWater {
-    format("I see WATER-type POKéMON…\p …And, I see your POKéMON suffering from WATER-type moves…")
+    format("I see WATER-type POKMON\p And, I see your POKMON suffering from WATER-type moves")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintGhost {
-    format("I see GHOST-type POKéMON…\p …And, I see your POKéMON suffering from GHOST-type moves…")
+    format("I see GHOST-type POKMON\p And, I see your POKMON suffering from GHOST-type moves")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintSteel {
-    format("I see STEEL-type POKéMON…\p …And, I see your POKéMON suffering from enormously powerful moves…")
+    format("I see STEEL-type POKMON\p And, I see your POKMON suffering from enormously powerful moves")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon {
-    format("I see flying POKéMON…\p …And, I see your POKéMON suffering from enormously powerful moves…")
+    format("I see flying POKMON\p And, I see your POKMON suffering from enormously powerful moves")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve {
-    format("I see those that have evolved from the power of stones…\p I also sense fire, water, and electricity…\p …And, I see your POKéMON suffering from those three powers…")
+    format("I see those that have evolved from the power of stones\p I also sense fire, water, and electricity\p And, I see your POKMON suffering from those three powers")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_HintNormal {
-    format("I see NORMAL-type POKéMON…\p …And, I see your POKéMON suffering from enormously powerful moves…")
+    format("I see NORMAL-type POKMON\p And, I see your POKMON suffering from enormously powerful moves")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot {
-    format("Whether you believe my fortunes or not, the choice is yours…\p The future can be changed anytime… I wish you safe passage…")
+    format("Whether you believe my fortunes or not, the choice is yours\p The future can be changed anytime I wish you safe passage")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning {
@@ -241,7 +241,7 @@ text BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading {
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules {
-    format("When the PYRAMID is conquered, the wild POKéMON that appear in it\l are replaced by different kinds.\p Explore, observe, and learn what kinds of wild POKéMON you may encounter.")
+    format("When the PYRAMID is conquered, the wild POKMON that appear in it\l are replaced by different kinds.\p Explore, observe, and learn what kinds of wild POKMON you may encounter.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules {
@@ -249,7 +249,7 @@ text BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules {
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules {
-    format("The mazes in the PYRAMID rearrange themselves every time you enter it.\p The mazes are poorly lit. You must advance with caution.\p The light grows brighter whenever you defeat a wild POKéMON or a TRAINER.")
+    format("The mazes in the PYRAMID rearrange themselves every time you enter it.\p The mazes are poorly lit. You must advance with caution.\p The light grows brighter whenever you defeat a wild POKMON or a TRAINER.")
 }
 
 text BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules {

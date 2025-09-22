@@ -5,7 +5,7 @@ mapscripts Route119_MapScripts {
 
 
 text Route119_Text_MayIntro {
-    format("MAY: {PLAYER}{KUN}! Where were you? I was looking for you!\p How much stronger have you gotten? Let me check for you!\p Ready with your POKéMON? Of course you are! Go!")
+    format("MAY: {PLAYER}{KUN}! Where were you? I was looking for you!\p How much stronger have you gotten? Let me check for you!\p Ready with your POKMON? Of course you are! Go!")
 }
 
 text Route119_Text_MayDefeat {
@@ -17,23 +17,23 @@ text Route119_Text_MayPresentForYou {
 }
 
 text Route119_Text_MayExplainFly {
-    format("MAY: Use FLY, and your POKéMON will instantly carry you to any town you've\l already visited.\p But, to use FLY, you have to get the GYM BADGE from FORTREE CITY.\l That's important, so don't forget.\p You should FLY home and visit LITTLEROOT for a change.\p I bet your mom's worried about you, {PLAYER}{KUN}.\p Well, let's meet again somewhere!")
+    format("MAY: Use FLY, and your POKMON will instantly carry you to any town you've\l already visited.\p But, to use FLY, you have to get the GYM BADGE from FORTREE CITY.\l That's important, so don't forget.\p You should FLY home and visit LITTLEROOT for a change.\p I bet your mom's worried about you, {PLAYER}{KUN}.\p Well, let's meet again somewhere!")
 }
 
 text Route119_Text_BrendanIntro {
-    format("BRENDAN: {PLAYER}! So this is where you've been looking for POKéMON?\p Let me see how good you got. I'll test you!\p Now! It's a battle, so battle!")
+    format("BRENDAN: {PLAYER}! So this is where you've been looking for POKMON?\p Let me see how good you got. I'll test you!\p Now! It's a battle, so battle!")
 }
 
 text Route119_Text_BrendanDefeat {
-    format("Hmm… You've gotten pretty darn decent.")
+    format("Hmm You've gotten pretty darn decent.")
 }
 
 text Route119_Text_BrendanIllGiveYouThis {
-    format("BRENDAN: I'd say you're good enough to search for POKéMON anywhere.\p Here, I'll give you this. Try it out.")
+    format("BRENDAN: I'd say you're good enough to search for POKMON anywhere.\p Here, I'll give you this. Try it out.")
 }
 
 text Route119_Text_BrendanExplainFly {
-    format("BRENDAN: Use FLY, and your POKéMON instantly carries you to any town\l you've already visited.\p But you need the FORTREE GYM BADGE to do that.\p Anyway, I have to move along.")
+    format("BRENDAN: Use FLY, and your POKMON instantly carries you to any town\l you've already visited.\p But you need the FORTREE GYM BADGE to do that.\p Anyway, I have to move along.")
 }
 
 text Route119_Text_ScottWayToGoBeSeeingYou {
@@ -41,7 +41,7 @@ text Route119_Text_ScottWayToGoBeSeeingYou {
 }
 
 text Route119_Text_ScottYouWonAtFortreeGym {
-    format("… … … … … … … … … … … Beep!\p SCOTT: Hiya, {PLAYER}{KUN}, it's me!\p Just as I thought, you won at the FORTREE GYM.\p Your strength… Perhaps you really are the TRAINER\l that I've been searching for.\p Remember, you have a fan in me. I'll be cheering from the sidelines.\l Keep up the great work!\p … … … … … … … … … … … Click!")
+    format("           Beep!\p SCOTT: Hiya, {PLAYER}{KUN}, it's me!\p Just as I thought, you won at the FORTREE GYM.\p Your strength Perhaps you really are the TRAINER\l that I've been searching for.\p Remember, you have a fan in me. I'll be cheering from the sidelines.\l Keep up the great work!\p            Click!")
 }
 
 text Route119_Text_StayAwayFromWeatherInstitute {
@@ -53,15 +53,15 @@ text Route119_Text_DontGoNearWeatherInstitute {
 }
 
 text Route119_Text_ThoughtFlyByCatchingBirdMons {
-    format("I thought you FLY by catching a whole flock of BIRD POKéMON, and then\l hanging on to them somehow.\p But it turns out there's an HM move called FLY!\p I wish I'd known about that a long time ago…")
+    format("I thought you FLY by catching a whole flock of BIRD POKMON, and then\l hanging on to them somehow.\p But it turns out there's an HM move called FLY!\p I wish I'd known about that a long time ago")
 }
 
 text Route119_Text_TallGrassSnaresBikeTires {
-    format("Tch… It's a no-go…\p The tall grass snares BIKE tires. There's no way you can cycle here.")
+    format("Tch It's a no-go\p The tall grass snares BIKE tires. There's no way you can cycle here.")
 }
 
 text Route119_Text_CanYourMonMakeSecretBase {
-    format("Can your POKéMON use its SECRET POWER on a big pile of grass and make a\l SECRET BASE?")
+    format("Can your POKMON use its SECRET POWER on a big pile of grass and make a\l SECRET BASE?")
 }
 
 text Route119_Text_RouteSignFortree {

@@ -11,6 +11,6 @@ text FortreeCity_Mart_Text_StockUpOnItems {
 }
 
 text FortreeCity_Mart_Text_RareCandyMakesMonGrow {
-    format("A RARE CANDY makes a POKéMON grow immediately by one level.")
+    format("A RARE CANDY makes a POKMON grow immediately by one level.")
 }
 

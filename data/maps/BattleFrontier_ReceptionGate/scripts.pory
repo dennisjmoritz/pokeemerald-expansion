@@ -9,7 +9,7 @@ text BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay {
 }
 
 text BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier {
-    format("The front lines of POKéMON battling! Welcome to the BATTLE FRONTIER!")
+    format("The front lines of POKMON battling! Welcome to the BATTLE FRONTIER!")
 }
 
 text BattleFrontier_ReceptionGate_Text_IssueFrontierPass {
@@ -69,7 +69,7 @@ text BattleFrontier_ReceptionGate_Text_BattleFactoryInfo {
 }
 
 text BattleFrontier_ReceptionGate_Text_BattlePikeInfo {
-    format("The BATTLE PIKE is the building shaped like a POKéMON at the center-left of\l the BATTLE FRONTIER.\p An event called the Battle Choice is conducted there.")
+    format("The BATTLE PIKE is the building shaped like a POKMON at the center-left of\l the BATTLE FRONTIER.\p An event called the Battle Choice is conducted there.")
 }
 
 text BattleFrontier_ReceptionGate_Text_BattlePyramidInfo {
@@ -97,19 +97,19 @@ text BattleFrontier_ReceptionGate_Text_LevelModeInfo {
 }
 
 text BattleFrontier_ReceptionGate_Text_Level50Info {
-    format("The Level 50 course is open to POKéMON up to and including Level 50.\p Please keep in mind, however, that no TRAINER you face will have any\l POKéMON below Level 50.\p This course is the entry level for battles at the BATTLE FRONTIER.\p To begin, we hope you will challenge this course.")
+    format("The Level 50 course is open to POKMON up to and including Level 50.\p Please keep in mind, however, that no TRAINER you face will have any\l POKMON below Level 50.\p This course is the entry level for battles at the BATTLE FRONTIER.\p To begin, we hope you will challenge this course.")
 }
 
 text BattleFrontier_ReceptionGate_Text_OpenLevelInfo {
-    format("The Open Level course places no limit on the levels of POKéMON entering\l challenges.\p The levels of your opponents will be adjusted to match the levels of\l your POKéMON.\p However, no TRAINER you face will have any POKéMON below Level 60.")
+    format("The Open Level course places no limit on the levels of POKMON entering\l challenges.\p The levels of your opponents will be adjusted to match the levels of\l your POKMON.\p However, no TRAINER you face will have any POKMON below Level 60.")
 }
 
 text BattleFrontier_ReceptionGate_Text_MonEntryInfo {
-    format("Virtually any kind of POKéMON may take on the challenges at all facilities.\p EGGS and certain kinds of POKéMON, however, are not permitted.\p The numbers of POKéMON required for challenges will depend on the facility.\p At all facilities, however, two or more of the same kind of POKéMON are not\l permitted.")
+    format("Virtually any kind of POKMON may take on the challenges at all facilities.\p EGGS and certain kinds of POKMON, however, are not permitted.\p The numbers of POKMON required for challenges will depend on the facility.\p At all facilities, however, two or more of the same kind of POKMON are not\l permitted.")
 }
 
 text BattleFrontier_ReceptionGate_Text_HoldItemsInfo {
-    format("When entering a challenge at a BATTLE FRONTIER facility, POKéMON may not\l be holding the same kind of item.\p Please make sure that all POKéMON entering a challenge are holding\l different items.")
+    format("When entering a challenge at a BATTLE FRONTIER facility, POKMON may not\l be holding the same kind of item.\p Please make sure that all POKMON entering a challenge are holding\l different items.")
 }
 
 text BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass {

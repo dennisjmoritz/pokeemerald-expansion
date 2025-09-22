@@ -4,15 +4,15 @@ mapscripts PokemonMansion_3F_MapScripts {
 
 
 text PokemonMansion_Text_PressSecretSwitchJP {
-    format("ひみつの　スイッチが　ある！\p おして　みますか？")
+    format("\p ")
 }
 
 text PokemonMansion_Text_LetsTryIt {
-    format("おしてみよう！　‥ポチッとな")
+    format("")
 }
 
 text PokemonMansion_Text_GaveUpOnPressingSwitch {
-    format("おすのは　あきらめた")
+    format("")
 }
 
 text PokemonMansion_1F_Text_SimonIntro {

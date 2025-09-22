@@ -3,63 +3,63 @@ mapscripts BattleFrontier_Lounge1_MapScripts {
 
 
 text BattleFrontier_Lounge1_Text_PokemonBreederIntro {
-    format("For 70 years I have raised POKéMON! I am the man they revere as\l the legendary top POKéMON BREEDER!\p If you ever become as seasoned as me, you'll see the abilities of POKéMON\l at a glance.\p You're a TRAINER. Doesn't it interest you to know your own POKéMON's\l abilities?\p Here! Let's have a look at your POKéMON!")
+    format("For 70 years I have raised POKMON! I am the man they revere as\l the legendary top POKMON BREEDER!\p If you ever become as seasoned as me, you'll see the abilities of POKMON\l at a glance.\p You're a TRAINER. Doesn't it interest you to know your own POKMON's\l abilities?\p Here! Let's have a look at your POKMON!")
 }
 
 text BattleFrontier_Lounge1_Text_AverageAbility {
-    format("…Hmm…\p This one, overall, I would describe as being of average ability.")
+    format("Hmm\p This one, overall, I would describe as being of average ability.")
 }
 
 text BattleFrontier_Lounge1_Text_BetterThanAverageAbility {
-    format("…Hmm…\p This one, overall, I would describe as having better-than-average ability.")
+    format("Hmm\p This one, overall, I would describe as having better-than-average ability.")
 }
 
 text BattleFrontier_Lounge1_Text_ImpressiveAbility {
-    format("…Hmm…\p This one, overall, I would say is quite impressive in ability!")
+    format("Hmm\p This one, overall, I would say is quite impressive in ability!")
 }
 
 text BattleFrontier_Lounge1_Text_OutstandingAbility {
-    format("…Hmm…\p This one, overall, I would say is wonderfully outstanding in ability!")
+    format("Hmm\p This one, overall, I would say is wonderfully outstanding in ability!")
 }
 
 text BattleFrontier_Lounge1_Text_BestAspectHP {
-    format("Incidentally, the best aspect of it, I would say, is its HP…")
+    format("Incidentally, the best aspect of it, I would say, is its HP")
 }
 
 text BattleFrontier_Lounge1_Text_BestAspectAtk {
-    format("Incidentally, the best aspect of it, I would say, is its ATTACK…")
+    format("Incidentally, the best aspect of it, I would say, is its ATTACK")
 }
 
 text BattleFrontier_Lounge1_Text_BestAspectDef {
-    format("Incidentally, the best aspect of it, I would say, is its DEFENSE…")
+    format("Incidentally, the best aspect of it, I would say, is its DEFENSE")
 }
 
 text BattleFrontier_Lounge1_Text_BestAspectSpAtk {
-    format("Incidentally, the best aspect of it, I would say, is its SPECIAL ATTACK…")
+    format("Incidentally, the best aspect of it, I would say, is its SPECIAL ATTACK")
 }
 
 text BattleFrontier_Lounge1_Text_BestAspectSpDef {
-    format("Incidentally, the best aspect of it, I would say, is its SPECIAL DEFENSE…")
+    format("Incidentally, the best aspect of it, I would say, is its SPECIAL DEFENSE")
 }
 
 text BattleFrontier_Lounge1_Text_BestAspectSpeed {
-    format("Incidentally, the best aspect of it, I would say, is its SPEED…")
+    format("Incidentally, the best aspect of it, I would say, is its SPEED")
 }
 
 text BattleFrontier_Lounge1_Text_StatRelativelyGood {
-    format("That stat is relatively good. …Hm… That's how I call it.")
+    format("That stat is relatively good. Hm That's how I call it.")
 }
 
 text BattleFrontier_Lounge1_Text_StatImpressive {
-    format("That stat is quite impressive. …Hm… That's how I call it.")
+    format("That stat is quite impressive. Hm That's how I call it.")
 }
 
 text BattleFrontier_Lounge1_Text_StatOutstanding {
-    format("That stat is outstanding! …Hm… That's how I call it.")
+    format("That stat is outstanding! Hm That's how I call it.")
 }
 
 text BattleFrontier_Lounge1_Text_StatFlawless {
-    format("It's flawless! A thing of perfection! …Hm… That's how I call it.")
+    format("It's flawless! A thing of perfection! Hm That's how I call it.")
 }
 
 text BattleFrontier_Lounge1_Text_NoTimeForMyAdvice {
@@ -71,18 +71,18 @@ text BattleFrontier_Lounge1_Text_HaveBusinessNeedsTending {
 }
 
 text BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon {
-    format("Ah, youngster! Do your POKéMON's abilities intrigue you?\p Here, here! Let's have a look at your POKéMON!")
+    format("Ah, youngster! Do your POKMON's abilities intrigue you?\p Here, here! Let's have a look at your POKMON!")
 }
 
 text BattleFrontier_Lounge1_Text_EvenICantTell {
-    format("An expert I am, but even I can't tell anything about an unhatched POKéMON!\p Show me a POKéMON! A POKéMON is what I need to see!")
+    format("An expert I am, but even I can't tell anything about an unhatched POKMON!\p Show me a POKMON! A POKMON is what I need to see!")
 }
 
 text BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding {
-    format("He said my POKéMON is outstanding! I'm glad I raised it carefully!")
+    format("He said my POKMON is outstanding! I'm glad I raised it carefully!")
 }
 
 text BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt {
-    format("He said my POKéMON is outstanding! But I didn't do anything special\l raising it…")
+    format("He said my POKMON is outstanding! But I didn't do anything special\l raising it")
 }
 

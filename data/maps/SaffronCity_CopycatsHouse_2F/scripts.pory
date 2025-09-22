@@ -3,15 +3,15 @@ mapscripts SaffronCity_CopycatsHouse_2F_MapScripts {
 
 
 text SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale {
-    format("{PLAYER}: Hi! Do you like POKéMON?\p {PLAYER}: Uh, no, I just asked you.\p {PLAYER}: Huh? You're strange!\p COPYCAT: Hmm? Quit mimicking? But, that's my favorite hobby!")
+    format("{PLAYER}: Hi! Do you like POKMON?\p {PLAYER}: Uh, no, I just asked you.\p {PLAYER}: Huh? You're strange!\p COPYCAT: Hmm? Quit mimicking? But, that's my favorite hobby!")
 }
 
 text SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale {
-    format("{PLAYER}: Hi. You must like POKéMON.\p {PLAYER}: No, not me. I asked you.\p {PLAYER}: Pardon? You're weird!\l \l COPYCAT: Hmm? Quit mimicking?\l But that's my favorite hobby!")
+    format("{PLAYER}: Hi. You must like POKMON.\p {PLAYER}: No, not me. I asked you.\p {PLAYER}: Pardon? You're weird!\l \l COPYCAT: Hmm? Quit mimicking?\l But that's my favorite hobby!")
 }
 
 text Text_MimicTeach {
-    format("Oh wow! A POKé DOLL!\p For me? Thank you!\p You know what? I can teach the move MIMIC.")
+    format("Oh wow! A POK DOLL!\p For me? Thank you!\p You know what? I can teach the move MIMIC.")
 }
 
 text Text_MimicDeclined {
@@ -31,15 +31,15 @@ text Text_MimicTaughtFemale {
 }
 
 text SaffronCity_CopycatsHouse_2F_Text_TooMuchInBag {
-    format("にもつが　いっぱいね！")
+    format("")
 }
 
 text SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMaleJP {
-    format("{PLAYER}“やあ！　こんにちは！ きみ　ポケモン　すきかい？\p {PLAYER}“ぼく　じゃなくって きみに　きいてるんだ　けど\p {PLAYER}“‥‥　えー　なんだよ！ ヘンな　やつ　だなあ！\p モノマネむすめ“‥‥　なに？ ひとの　マネ　すんなって？\p だって　あたし ものまね　しゅみ　なんだ　もん！”")
+    format("{PLAYER} \p {PLAYER} \p {PLAYER} \p  \p  ")
 }
 
 text SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemaleJP {
-    format("{PLAYER}“こんにちは！ ポケモン　すきなのね？\p {PLAYER}“わたし　じゃなくって あなたに　きいてるんだ　けど\p {PLAYER}“‥　えー　なんなの！ おかしなこ　ねー！\p モノマネむすめ“‥　なに？ ひとの　マネ　すんなって？\p だって　あたし ものまね　しゅみ　なんだ　もん！")
+    format("{PLAYER} \p {PLAYER} \p {PLAYER} \p  \p  ")
 }
 
 text SaffronCity_CopycatsHouse_2F_Text_Doduo {
@@ -47,7 +47,7 @@ text SaffronCity_CopycatsHouse_2F_Text_Doduo {
 }
 
 text SaffronCity_CopycatsHouse_2F_Text_RareMonOnlyDoll {
-    format("This is a rare POKéMON! Huh? It's only a doll!")
+    format("This is a rare POKMON! Huh? It's only a doll!")
 }
 
 text SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket {
@@ -55,10 +55,10 @@ text SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket {
 }
 
 text SaffronCity_CopycatsHouse_2F_Text_MySecrets {
-    format("…\p My Secrets!\p Skill: Mimicry! Hobby: Collecting dolls!\l Favorite POKéMON: CLEFAIRY!")
+    format("\p My Secrets!\p Skill: Mimicry! Hobby: Collecting dolls!\l Favorite POKMON: CLEFAIRY!")
 }
 
 text SaffronCity_CopycatsHouse_2F_Text_HuhCantSee {
-    format("？　みえないぞ‥")
+    format("")
 }
 

@@ -5,11 +5,11 @@ mapscripts Route128_MapScripts {
 
 
 text Route128_Text_ArchieWhatHappened {
-    format("ARCHIE: What happened… What is this wretched scene…\p Did I…make a horrible mistake?")
+    format("ARCHIE: What happened What is this wretched scene\p Did Imake a horrible mistake?")
 }
 
 text Route128_Text_ArchieIOnlyWanted {
-    format("I… I only wanted…")
+    format("I I only wanted")
 }
 
 text Route128_Text_MaxieDoYouUnderstandNow {
@@ -17,11 +17,11 @@ text Route128_Text_MaxieDoYouUnderstandNow {
 }
 
 text Route128_Text_MaxieResposibilityFallsToArchieAndMe {
-    format("MAXIE: {PLAYER}, don't say anything.\p I know that I have no right to be critical of ARCHIE…\p But the way things are now, I doubt that we humans will be capable of\l doing anything about it.\p But neither can we stand by and just watch helplessly.\p The responsibility for putting an end to this falls to ARCHIE and me…")
+    format("MAXIE: {PLAYER}, don't say anything.\p I know that I have no right to be critical of ARCHIE\p But the way things are now, I doubt that we humans will be capable of\l doing anything about it.\p But neither can we stand by and just watch helplessly.\p The responsibility for putting an end to this falls to ARCHIE and me")
 }
 
 text Route128_Text_MaxieThisDefiesBelief {
-    format("MAXIE: This defies belief…\p Those super-ancient POKéMON…\p Their power is unbelievable. They've upset the balance of nature…")
+    format("MAXIE: This defies belief\p Those super-ancient POKMON\p Their power is unbelievable. They've upset the balance of nature")
 }
 
 text Route128_Text_StevenWhatIsHappening {
@@ -29,10 +29,10 @@ text Route128_Text_StevenWhatIsHappening {
 }
 
 text Route128_Text_StevenWholeWorldWillDrown {
-    format("This is terrible…\p After the scorching heat wave ended, this deluge began.\p If this doesn't stop, all of HOENN… No, the whole world will drown.\p This huge rain cloud is spreading from above SOOTOPOLIS…\p What in the world is taking place there?\p There's no point arguing here… SOOTOPOLIS might provide answers…")
+    format("This is terrible\p After the scorching heat wave ended, this deluge began.\p If this doesn't stop, all of HOENN No, the whole world will drown.\p This huge rain cloud is spreading from above SOOTOPOLIS\p What in the world is taking place there?\p There's no point arguing here SOOTOPOLIS might provide answers")
 }
 
 text Route128_Text_StevenImGoingToSootopolis {
-    format("{PLAYER}{KUN}… I don't know what you intend to do,\l but don't do anything reckless.\p Okay. I'm going to SOOTOPOLIS.")
+    format("{PLAYER}{KUN} I don't know what you intend to do,\l but don't do anything reckless.\p Okay. I'm going to SOOTOPOLIS.")
 }
 

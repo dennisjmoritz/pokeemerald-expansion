@@ -8,19 +8,19 @@ text LavenderTown_Text_DoYouBelieveInGhosts {
 }
 
 text LavenderTown_Text_SoThereAreBelievers {
-    format("Really? So there are believers…")
+    format("Really? So there are believers")
 }
 
 text LavenderTown_Text_JustImaginingWhiteHand {
-    format("Hahaha, I guess not.\p That white hand on your shoulder… I'm just imagining it.")
+    format("Hahaha, I guess not.\p That white hand on your shoulder I'm just imagining it.")
 }
 
 text LavenderTown_Text_TownKnownAsMonGraveSite {
-    format("This town is known as the grave site of POKéMON.\p Memorial services are held in POKéMON TOWER.")
+    format("This town is known as the grave site of POKMON.\p Memorial services are held in POKMON TOWER.")
 }
 
 text LavenderTown_Text_GhostsAppearedInTower {
-    format("Ghosts appeared in POKéMON TOWER.\p I think they're the spirits of POKéMON that the ROCKETS killed.")
+    format("Ghosts appeared in POKMON TOWER.\p I think they're the spirits of POKMON that the ROCKETS killed.")
 }
 
 text LavenderTown_Text_TownSign {
@@ -32,10 +32,10 @@ text LavenderTown_Text_SilphScopeNotice {
 }
 
 text LavenderTown_Text_VolunteerPokemonHouse {
-    format("LAVENDER VOLUNTEER POKéMON HOUSE")
+    format("LAVENDER VOLUNTEER POKMON HOUSE")
 }
 
 text LavenderTown_Text_PokemonTowerSign {
-    format("POKéMON TOWER Becalm the Spirits of POKéMON")
+    format("POKMON TOWER Becalm the Spirits of POKMON")
 }
 

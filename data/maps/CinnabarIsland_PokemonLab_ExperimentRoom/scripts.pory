@@ -3,7 +3,7 @@ mapscripts CinnabarIsland_PokemonLab_ExperimentRoom_MapScripts {
 
 
 text Text_MetronomeTeach {
-    format("Tch-tch-tch! I'll teach you a nifty move.\p Teach it to a POKéMON, and watch the fun unfold!\p It's a move called METRONOME. Does it strike your fancy?")
+    format("Tch-tch-tch! I'll teach you a nifty move.\p Teach it to a POKMON, and watch the fun unfold!\p It's a move called METRONOME. Does it strike your fancy?")
 }
 
 text Text_MetronomeDeclined {
@@ -11,15 +11,15 @@ text Text_MetronomeDeclined {
 }
 
 text Text_MetronomeWhichMon {
-    format("Okay! Which POKéMON should I teach?")
+    format("Okay! Which POKMON should I teach?")
 }
 
 text Text_MetronomeTaught {
-    format("Tch-tch-tch! That's the sound of a METRONOME.\p It tweaks your POKéMON's brain into using moves it doesn't even know.")
+    format("Tch-tch-tch! That's the sound of a METRONOME.\p It tweaks your POKMON's brain into using moves it doesn't even know.")
 }
 
 text CinnabarIsland_PokemonLab_ExperimentRoom_Text_HaveYouAFossilForMe {
-    format("Hiya!\p I am important doctor. Yes, very much so, indeed.\p Here, I study rare POKéMON fossils. All the time, I study.\p You! Have you a fossil for me?")
+    format("Hiya!\p I am important doctor. Yes, very much so, indeed.\p Here, I study rare POKMON fossils. All the time, I study.\p You! Have you a fossil for me?")
 }
 
 text CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoIsTooBad {
@@ -27,7 +27,7 @@ text CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoIsTooBad {
 }
 
 text CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalkJP {
-    format("ちょっと　じかん　かかるよ！\p そこらへんを　すこし ブラブラ　してくると　よろしー！")
+    format("\p  ")
 }
 
 text CinnabarIsland_PokemonLab_ExperimentRoom_Text_FossilMonBackToLife {
@@ -39,11 +39,11 @@ text CinnabarIsland_PokemonLab_ExperimentRoom_Text_ReceivedMonFromDoctor {
 }
 
 text CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoRoomForPokemon {
-    format("ポケモン　いっぱいで　もてないね！")
+    format("")
 }
 
 text CinnabarIsland_PokemonLab_ExperimentRoom_Text_ThatFossilIsOfMonMakeItLiveAgain {
-    format("Oh! That is {STR_VAR_2}, it is!\p It is fossil of {STR_VAR_1}, a POKéMON that is already extinct!\p My Resurrection Machine will make that POKéMON live again!")
+    format("Oh! That is {STR_VAR_2}, it is!\p It is fossil of {STR_VAR_1}, a POKMON that is already extinct!\p My Resurrection Machine will make that POKMON live again!")
 }
 
 text CinnabarIsland_PokemonLab_ExperimentRoom_Text_HandedFossilToWeirdDoctor {

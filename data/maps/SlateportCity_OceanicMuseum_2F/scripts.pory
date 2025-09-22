@@ -23,7 +23,7 @@ text SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat {
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious {
-    format("Oh, man, what a disaster… The BOSS is going to be furious…")
+    format("Oh, man, what a disaster The BOSS is going to be furious")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis {
@@ -43,11 +43,11 @@ text SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong {
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_ArchieWarning {
-    format("We are TEAM AQUA, and we love the sea!\p And I am TEAM AQUA's leader, ARCHIE!\p What makes you interfere with us?\p …No! You can't be! You're not one of TEAM MAGMA?\p Wait, that can't be right. You're not dressed for the part.\p … … … … … … … … … … … …\p POKéMON, people… All life depends on the sea.\p So, TEAM AQUA is dedicated to the expansion of the sea.\p Don't you agree? What we are doing is a magnificent undertaking.\p Ah, fine… You're still too young to understand\l our noble objective.\p But, I warn you, don't even consider interfering with our plans again.\p The consequences will cost you dearly!\p And don't you forget it!")
+    format("We are TEAM AQUA, and we love the sea!\p And I am TEAM AQUA's leader, ARCHIE!\p What makes you interfere with us?\p No! You can't be! You're not one of TEAM MAGMA?\p Wait, that can't be right. You're not dressed for the part.\p            \p POKMON, people All life depends on the sea.\p So, TEAM AQUA is dedicated to the expansion of the sea.\p Don't you agree? What we are doing is a magnificent undertaking.\p Ah, fine You're still too young to understand\l our noble objective.\p But, I warn you, don't even consider interfering with our plans again.\p The consequences will cost you dearly!\p And don't you forget it!")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs {
-    format("CAPT. STERN: You're… Ah, okay, you're {PLAYER}{KUN}…\p Anyway, that was a tense situation! Thank you for saving us!\p Oh, yes, I almost forgot that you even brought the parts from DEVON!")
+    format("CAPT. STERN: You're Ah, okay, you're {PLAYER}{KUN}\p Anyway, that was a tense situation! Thank you for saving us!\p Oh, yes, I almost forgot that you even brought the parts from DEVON!")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo {
@@ -55,7 +55,7 @@ text SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo {
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip {
-    format("I saw a model of a ship here.\p It reminded me of the ABANDONED SHIP near DEWFORD TOWN…")
+    format("I saw a model of a ship here.\p It reminded me of the ABANDONED SHIP near DEWFORD TOWN")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum {
@@ -67,42 +67,42 @@ text SlateportCity_OceanicMuseum_2F_Text_WantToRideSubmarine {
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample1 {
-    format("“WATER QUALITY SAMPLE 1,” the label says.\p The sea is all connected, but the water seems to differ by region.")
+    format("WATER QUALITY SAMPLE 1, the label says.\p The sea is all connected, but the water seems to differ by region.")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample2 {
-    format("“WATER QUALITY SAMPLE 2,” the label says.\p Does the saltiness of seawater differ by region, too?")
+    format("WATER QUALITY SAMPLE 2, the label says.\p Does the saltiness of seawater differ by region, too?")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_PressureExperiment {
-    format("A rubber ball is expanding and shrinking.\p “In the sea, the weight of water itself exerts pressure.\p “In shallow water, the pressure is not very heavy.\p “However, in extremely deep water, the pressure can reach even tens of\l thousands of tons on a small area.”")
+    format("A rubber ball is expanding and shrinking.\p In the sea, the weight of water itself exerts pressure.\p In shallow water, the pressure is not very heavy.\p However, in extremely deep water, the pressure can reach even tens of\l thousands of tons on a small area.")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_HoennModel {
-    format("“MODEL OF HOENN REGION”\p It's a miniature diorama of the HOENN region.\p Where is LITTLEROOT TOWN on this?")
+    format("MODEL OF HOENN REGION\p It's a miniature diorama of the HOENN region.\p Where is LITTLEROOT TOWN on this?")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay {
-    format("It's a display on the flow of seawater.\p “Near the bottom of the sea, water flows due to differences in such\l factors as temperature and salinity.”")
+    format("It's a display on the flow of seawater.\p Near the bottom of the sea, water flows due to differences in such\l factors as temperature and salinity.")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay {
-    format("It's a display on the flow of seawater.\p “Toward the surface, seawater flows as currents driven by the winds.”")
+    format("It's a display on the flow of seawater.\p Toward the surface, seawater flows as currents driven by the winds.")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica {
-    format("“THE FERRY S.S. TIDAL\p “A scale replica of the ship under construction at STERN'S SHIPYARD.”")
+    format("THE FERRY S.S. TIDAL\p A scale replica of the ship under construction at STERN'S SHIPYARD.")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica {
-    format("“SUBMARINE EXPLORER 1\p “A replica of the high-performance ocean floor exploration submarine.”")
+    format("SUBMARINE EXPLORER 1\p A replica of the high-performance ocean floor exploration submarine.")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_SumbersibleReplica {
-    format("“SUBMERSIBLE POD\p “A replica of a compact, unmanned pod for seafloor exploration.”")
+    format("SUBMERSIBLE POD\p A replica of a compact, unmanned pod for seafloor exploration.")
 }
 
 text SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica {
-    format("“S.S. ANNE\p “A replica of the luxury liner that circles the globe.”")
+    format("S.S. ANNE\p A replica of the luxury liner that circles the globe.")
 }
 

@@ -9,19 +9,19 @@ text PalletTown_Text_OakDontGoOut {
 }
 
 text PalletTown_Text_OakGrassUnsafeNeedMon {
-    format("OAK: It's unsafe! Wild POKéMON live in tall grass!\p You need your own POKéMON for your protection.\p I know! Here, come with me!")
+    format("OAK: It's unsafe! Wild POKMON live in tall grass!\p You need your own POKMON for your protection.\p I know! Here, come with me!")
 }
 
 text PalletTown_Text_RaisingMonsToo {
-    format("I'm raising POKéMON, too.\p When they get strong, they can protect me.")
+    format("I'm raising POKMON, too.\p When they get strong, they can protect me.")
 }
 
 text PalletTown_Text_CanStoreItemsAndMonsInPC {
-    format("Technology is incredible!\p You can now store and recall items and POKéMON as data via PC.")
+    format("Technology is incredible!\p You can now store and recall items and POKMON as data via PC.")
 }
 
 text PalletTown_Text_OakPokemonResearchLab {
-    format("OAK POKéMON RESEARCH LAB")
+    format("OAK POKMON RESEARCH LAB")
 }
 
 text PalletTown_Text_PlayersHouse {
@@ -37,15 +37,15 @@ text PalletTown_Text_TownSign {
 }
 
 text PalletTown_Text_OakLetMeSeePokedex {
-    format("OAK: Ah, {PLAYER}! You're back, are you?\p How much have you filled in your POKéDEX?\p May I see it?\p Let's see…")
+    format("OAK: Ah, {PLAYER}! You're back, are you?\p How much have you filled in your POKDEX?\p May I see it?\p Let's see")
 }
 
 text PalletTown_Text_CaughtXPuttingInHonestEffort {
-    format("You've caught {STR_VAR_2}…\p Hm, it looks as if you're putting in an honest effort.\p When you manage to fill it some more, come show me, please.")
+    format("You've caught {STR_VAR_2}\p Hm, it looks as if you're putting in an honest effort.\p When you manage to fill it some more, come show me, please.")
 }
 
 text PalletTown_Text_CaughtXImpressiveFollowMe {
-    format("You've caught… {STR_VAR_2}!? Now, this is impressive!\p There's something I wanted to ask of you, {PLAYER}.\p Come. Follow me.")
+    format("You've caught {STR_VAR_2}!? Now, this is impressive!\p There's something I wanted to ask of you, {PLAYER}.\p Come. Follow me.")
 }
 
 text PalletTown_Text_OakYouEnjoyingTraveling {

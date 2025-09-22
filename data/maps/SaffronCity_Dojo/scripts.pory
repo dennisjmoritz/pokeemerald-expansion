@@ -11,7 +11,7 @@ text SaffronCity_Dojo_Text_MasterKoichiDefeat {
 }
 
 text SaffronCity_Dojo_Text_ChoosePrizedFightingMon {
-    format("Indeed, I have lost!\p But, I beseech you, do not take our emblem as your trophy!\p In return, I will give you a prized FIGHTING POKéMON!\p Choose whichever one you like!")
+    format("Indeed, I have lost!\p But, I beseech you, do not take our emblem as your trophy!\p In return, I will give you a prized FIGHTING POKMON!\p Choose whichever one you like!")
 }
 
 text SaffronCity_Dojo_Text_StayAndTrainWithUs {
@@ -79,11 +79,11 @@ text SaffronCity_Dojo_Text_YouWantHitmonchan {
 }
 
 text SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster2 {
-    format("{PLAYER}は　カラテ　だいおう　から {STR_VAR_1}を　もらった！")
+    format("{PLAYER} {STR_VAR_1}")
 }
 
 text SaffronCity_Dojo_Text_BetterNotGetGreedy {
-    format("Better not get greedy…")
+    format("Better not get greedy")
 }
 
 text SaffronCity_Dojo_Text_EnemiesOnEverySide {

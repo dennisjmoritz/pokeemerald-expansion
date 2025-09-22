@@ -5,11 +5,11 @@ mapscripts Route103_MapScripts {
 
 
 text Route103_Text_MayRoute103Pokemon {
-    format("MAY: Let's see… The POKéMON found on ROUTE 103 include…")
+    format("MAY: Let's see The POKMON found on ROUTE 103 include")
 }
 
 text Route103_Text_MayLetsBattle {
-    format("Oh, hi, {PLAYER}{KUN}!\p …Oh, I see, my dad gave you a POKéMON as a gift.\p Since we're here, let's have a quick battle!\p I'll give you a taste of what being a TRAINER is like.")
+    format("Oh, hi, {PLAYER}{KUN}!\p Oh, I see, my dad gave you a POKMON as a gift.\p Since we're here, let's have a quick battle!\p I'll give you a taste of what being a TRAINER is like.")
 }
 
 text Route103_Text_MayDefeated {
@@ -17,15 +17,15 @@ text Route103_Text_MayDefeated {
 }
 
 text Route103_Text_MayTimeToHeadBack {
-    format("MAY: I think I know why my dad has an eye out for you now.\p I mean, you just got that POKéMON, but it already likes you.\p You might be able to befriend any kind of POKéMON easily.\p Well, it's time to head back to the LAB.")
+    format("MAY: I think I know why my dad has an eye out for you now.\p I mean, you just got that POKMON, but it already likes you.\p You might be able to befriend any kind of POKMON easily.\p Well, it's time to head back to the LAB.")
 }
 
 text Route103_Text_BrendanRoute103Pokemon {
-    format("BRENDAN: Okay, so it's this one and that one that live on ROUTE 103…")
+    format("BRENDAN: Okay, so it's this one and that one that live on ROUTE 103")
 }
 
 text Route103_Text_BrendanLetsBattle {
-    format("Hey, it's {PLAYER}!\p …Oh, yeah, Dad gave you a POKéMON.\p Since we're here, how about a little battle?\p I'll teach you what being a TRAINER's about!")
+    format("Hey, it's {PLAYER}!\p Oh, yeah, Dad gave you a POKMON.\p Since we're here, how about a little battle?\p I'll teach you what being a TRAINER's about!")
 }
 
 text Route103_Text_BrendanDefeated {
@@ -33,11 +33,11 @@ text Route103_Text_BrendanDefeated {
 }
 
 text Route103_Text_BrendanTimeToHeadBack {
-    format("BRENDAN: I think I get it. I think I know why my dad has his eye\l out for you now.\p Look, your POKéMON already likes you, even though you just got it.\p {PLAYER}, I get the feeling that you could befriend any POKéMON with ease.\p We should head back to the LAB.")
+    format("BRENDAN: I think I get it. I think I know why my dad has his eye\l out for you now.\p Look, your POKMON already likes you, even though you just got it.\p {PLAYER}, I get the feeling that you could befriend any POKMON with ease.\p We should head back to the LAB.")
 }
 
 text Route103_Text_ShouldHaveBroughtPotion {
-    format("My POKéMON is staggeringly tired… I should have brought a POTION…")
+    format("My POKMON is staggeringly tired I should have brought a POTION")
 }
 
 text Route103_Text_ShortcutToOldale {

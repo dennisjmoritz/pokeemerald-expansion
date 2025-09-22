@@ -3,7 +3,7 @@ mapscripts BattleFrontier_Lounge8_MapScripts {
 
 
 text BattleFrontier_Lounge8_Text_WhatATrainerNeeds {
-    format("What a TRAINER needs…\p Knowledge… Strategy…\l Luck…\l Guts…\l Spirit…\l Bravery…\l And ability…\p Well, I'm all set in every way! I'll be unstoppable at every building!\p Huh? POKéMON? What's that?")
+    format("What a TRAINER needs\p Knowledge Strategy\l Luck\l Guts\l Spirit\l Bravery\l And ability\p Well, I'm all set in every way! I'll be unstoppable at every building!\p Huh? POKMON? What's that?")
 }
 
 text BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains {
@@ -11,6 +11,6 @@ text BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains {
 }
 
 text BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling {
-    format("At the BATTLE TOWER, an older girl told me that I have a lot of talent\l for battling!\p I like POKéMON CONTESTS more!\p But I'm no good at CONTESTS!\p I guess having talent and liking something aren't the same.")
+    format("At the BATTLE TOWER, an older girl told me that I have a lot of talent\l for battling!\p I like POKMON CONTESTS more!\p But I'm no good at CONTESTS!\p I guess having talent and liking something aren't the same.")
 }
 

@@ -14,7 +14,7 @@ text LittlerootTown_Text_WaitPlayer {
 }
 
 text LittlerootTown_Text_WearTheseRunningShoes {
-    format("MOM: {PLAYER}! {PLAYER}! Did you introduce yourself to PROF. BIRCH?\p Oh! What an adorable POKéMON! You got it from PROF. BIRCH. How nice!\p You're your father's child, all right. You look good together with POKéMON!\p Here, honey! If you're going out on an adventure, wear these RUNNING SHOES.\p They'll put a zip in your step!")
+    format("MOM: {PLAYER}! {PLAYER}! Did you introduce yourself to PROF. BIRCH?\p Oh! What an adorable POKMON! You got it from PROF. BIRCH. How nice!\p You're your father's child, all right. You look good together with POKMON!\p Here, honey! If you're going out on an adventure, wear these RUNNING SHOES.\p They'll put a zip in your step!")
 }
 
 text LittlerootTown_Text_SwitchShoesWithRunningShoes {
@@ -22,31 +22,31 @@ text LittlerootTown_Text_SwitchShoesWithRunningShoes {
 }
 
 text LittlerootTown_Text_ExplainRunningShoes {
-    format("MOM: {PLAYER}, those shoes came with instructions.\p “Press the B Button while wearing these RUNNING SHOES to run extra-fast!\p “Slip on these RUNNING SHOES and race in the great outdoors!”")
+    format("MOM: {PLAYER}, those shoes came with instructions.\p Press the B Button while wearing these RUNNING SHOES to run extra-fast!\p Slip on these RUNNING SHOES and race in the great outdoors!")
 }
 
 text LittlerootTown_Text_ComeHomeIfAnythingHappens {
-    format("… … … … … … … … … … … … … … … …\p To think that you have your very own POKéMON now…\l Your father will be overjoyed.\p …But please be careful. If anything happens, you can come home.\p Go on, go get them, honey!")
+    format("               \p To think that you have your very own POKMON now\l Your father will be overjoyed.\p But please be careful. If anything happens, you can come home.\p Go on, go get them, honey!")
 }
 
 text LittlerootTown_Text_CanUsePCToStoreItems {
-    format("If you use a PC, you can store items and POKéMON.\p The power of science is staggering!")
+    format("If you use a PC, you can store items and POKMON.\p The power of science is staggering!")
 }
 
 text LittlerootTown_Text_BirchSpendsDaysInLab {
-    format("PROF. BIRCH spends days in his LAB studying, then he'll suddenly go out in\l the wild to do more research…\p When does PROF. BIRCH spend time at home?")
+    format("PROF. BIRCH spends days in his LAB studying, then he'll suddenly go out in\l the wild to do more research\p When does PROF. BIRCH spend time at home?")
 }
 
 text LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut {
-    format("Um, um, um!\p If you go outside and go in the grass, wild POKéMON will jump out!")
+    format("Um, um, um!\p If you go outside and go in the grass, wild POKMON will jump out!")
 }
 
 text LittlerootTown_Text_DangerousIfYouDontHavePokemon {
-    format("It's dangerous if you don't have your own POKéMON.")
+    format("It's dangerous if you don't have your own POKMON.")
 }
 
 text LittlerootTown_Text_CanYouGoSeeWhatsHappening {
-    format("Um, hi!\p There are scary POKéMON outside! I can hear their cries!\p I want to go see what's going on, but I don't have any POKéMON…\p Can you go see what's happening for me?")
+    format("Um, hi!\p There are scary POKMON outside! I can hear their cries!\p I want to go see what's going on, but I don't have any POKMON\p Can you go see what's happening for me?")
 }
 
 text LittlerootTown_Text_YouSavedBirch {
@@ -54,15 +54,15 @@ text LittlerootTown_Text_YouSavedBirch {
 }
 
 text LittlerootTown_Text_GoodLuckCatchingPokemon {
-    format("Are you going to catch POKéMON? Good luck!")
+    format("Are you going to catch POKMON? Good luck!")
 }
 
 text LittlerootTown_Text_TownSign {
-    format("LITTLEROOT TOWN “A town that can't be shaded any hue.”")
+    format("LITTLEROOT TOWN A town that can't be shaded any hue.")
 }
 
 text LittlerootTown_Text_ProfBirchsLab {
-    format("PROF. BIRCH'S POKéMON LAB")
+    format("PROF. BIRCH'S POKMON LAB")
 }
 
 text LittlerootTown_Text_PlayersHouse {
@@ -74,6 +74,6 @@ text LittlerootTown_Text_ProfBirchsHouse {
 }
 
 text LittlerootTown_Text_BirchSomethingToShowYouAtLab {
-    format("PROF. BIRCH: Well, well, {PLAYER}{KUN}! That was good work out there!\p I knew there was something special about you when I first saw you,\l but I never expected this.\p Oh, yes. Do you still have the POKéDEX I gave you?\p I have something to show you. Let's go to my LAB.")
+    format("PROF. BIRCH: Well, well, {PLAYER}{KUN}! That was good work out there!\p I knew there was something special about you when I first saw you,\l but I never expected this.\p Oh, yes. Do you still have the POKDEX I gave you?\p I have something to show you. Let's go to my LAB.")
 }
 

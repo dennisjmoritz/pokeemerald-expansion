@@ -3,15 +3,15 @@ mapscripts TwoIsland_CapeBrink_House_MapScripts {
 
 
 text Text_UltimateMoveThatMon {
-    format("I perfected the ultimate move of its type…\p But will no one take it for future use?\p …Hm? Hmmm!\p Y-you… Th-that {STR_VAR_1}…")
+    format("I perfected the ultimate move of its type\p But will no one take it for future use?\p Hm? Hmmm!\p Y-you Th-that {STR_VAR_1}")
 }
 
 text Text_JustMistaken {
-    format("…No… I was just mistaken.")
+    format("No I was just mistaken.")
 }
 
 text Text_AllowMeToTeachMonUltimateMove {
-    format("Oh! This is the one! This is the POKéMON!\p This {STR_VAR_1} is worthy of learning my ultimate move!\p Will you allow it?\p Will you allow your {STR_VAR_1} to learn my {STR_VAR_2}?")
+    format("Oh! This is the one! This is the POKMON!\p This {STR_VAR_1} is worthy of learning my ultimate move!\p Will you allow it?\p Will you allow your {STR_VAR_1} to learn my {STR_VAR_2}?")
 }
 
 text Text_YouRejectIt {
@@ -23,7 +23,7 @@ text Text_LetMeConferUltimateMove {
 }
 
 text Text_TaughtMove {
-    format("Gasp, gasp, gasp…\p I didn't think I could teach that move while I still lived…")
+    format("Gasp, gasp, gasp\p I didn't think I could teach that move while I still lived")
 }
 
 text Text_MakeBestUseOfMove {
@@ -31,7 +31,7 @@ text Text_MakeBestUseOfMove {
 }
 
 text Text_PassedOnEverythingIKnow {
-    format("Gasp, gasp, gasp…\p I have no regrets now. I've passed on everything I know.\p Now I can live out my life knowing my work is done.")
+    format("Gasp, gasp, gasp\p I have no regrets now. I've passed on everything I know.\p Now I can live out my life knowing my work is done.")
 }
 
 text Text_FeelRejuvenated {

@@ -7,7 +7,7 @@ text MagmaHideout_3F_1R_Text_Grunt9Intro {
 }
 
 text MagmaHideout_3F_1R_Text_Grunt9Defeat {
-    format("I'm getting heat exhaustion…")
+    format("I'm getting heat exhaustion")
 }
 
 text MagmaHideout_3F_1R_Text_Grunt9PostBattle {

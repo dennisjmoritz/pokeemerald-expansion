@@ -44,7 +44,7 @@ text ThreeIsland_Text_OughtToBeThankingUs {
 }
 
 text ThreeIsland_Text_YouCowardsToughInPack {
-    format("Grr… You cowards… So tough in a pack…")
+    format("Grr You cowards So tough in a pack")
 }
 
 text ThreeIsland_Text_WannaMakeSomethingOfYourStaring {
@@ -56,15 +56,15 @@ text ThreeIsland_Text_ThatsSmart {
 }
 
 text ThreeIsland_Text_Biker1Intro {
-    format("Heh, I like your guts. You'll be losing money to me, but…")
+    format("Heh, I like your guts. You'll be losing money to me, but")
 }
 
 text ThreeIsland_Text_Biker1Defeat {
-    format("Wha… What is this kid?!")
+    format("Wha What is this kid?!")
 }
 
 text ThreeIsland_Text_Biker1PostBattle {
-    format("Aww, man… Don't you dare laugh!")
+    format("Aww, man Don't you dare laugh!")
 }
 
 text ThreeIsland_Text_Biker2Intro {
@@ -84,7 +84,7 @@ text ThreeIsland_Text_Biker3Intro {
 }
 
 text ThreeIsland_Text_Biker3Defeat {
-    format("… … …   … … …")
+    format("       ")
 }
 
 text ThreeIsland_Text_Biker3PostBattle {
@@ -104,7 +104,7 @@ text ThreeIsland_Text_PaxtonPostBattle {
 }
 
 text ThreeIsland_Text_ThankYouOhYourMonGotHurt {
-    format("Thank you! Those goons were nothing but bad trouble.\p Oh, look, your POKéMON got hurt on my account.")
+    format("Thank you! Those goons were nothing but bad trouble.\p Oh, look, your POKMON got hurt on my account.")
 }
 
 text ThreeIsland_Text_GivenFullRestore {
@@ -116,11 +116,11 @@ text ThreeIsland_Text_OhYourBagIsFull {
 }
 
 text ThreeIsland_Text_YouveGotImpressiveMons {
-    format("You've got seriously impressive POKéMON with you.")
+    format("You've got seriously impressive POKMON with you.")
 }
 
 text ThreeIsland_Text_LostelleWentOffTowardsBondBridge {
-    format("It'd be fantastic if someone as strong as you lived here.\p I hope you'll at least stay here a while.\p …I beg your pardon? You're looking for LOSTELLE?\p LOSTELLE went off towards BOND BRIDGE a while ago.")
+    format("It'd be fantastic if someone as strong as you lived here.\p I hope you'll at least stay here a while.\p I beg your pardon? You're looking for LOSTELLE?\p LOSTELLE went off towards BOND BRIDGE a while ago.")
 }
 
 text ThreeIsland_Text_WouldntWantToSeeBikersHereAgain {

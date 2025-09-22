@@ -7,11 +7,11 @@ text SeafloorCavern_Room9_Text_ArchieHoldItRightThere {
 }
 
 text SeafloorCavern_Room9_Text_ArchieSoItWasYou {
-    format("ARCHIE: Fufufu… So it was you, after all.")
+    format("ARCHIE: Fufufu So it was you, after all.")
 }
 
 text SeafloorCavern_Room9_Text_ArchieBeholdKyogre {
-    format("ARCHIE: Behold!\p See how beautiful it is, the sleeping form of the ancient POKéMON KYOGRE!\p I have waited so long for this day to come…")
+    format("ARCHIE: Behold!\p See how beautiful it is, the sleeping form of the ancient POKMON KYOGRE!\p I have waited so long for this day to come")
 }
 
 text SeafloorCavern_Room9_Text_ArchieYouMustDisappear {
@@ -23,7 +23,7 @@ text SeafloorCavern_Room9_Text_ArchieDefeat {
 }
 
 text SeafloorCavern_Room9_Text_ArchieWithThisRedOrb {
-    format("ARCHIE: Fufufu…\p I commend you. I must recognize that you are truly gifted.\p But! I have this in my possession!\p With this RED ORB, I can make KYOGRE…")
+    format("ARCHIE: Fufufu\p I commend you. I must recognize that you are truly gifted.\p But! I have this in my possession!\p With this RED ORB, I can make KYOGRE")
 }
 
 text SeafloorCavern_Room9_Text_RedOrbShinesByItself {
@@ -31,27 +31,27 @@ text SeafloorCavern_Room9_Text_RedOrbShinesByItself {
 }
 
 text SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo {
-    format("ARCHIE: What?!\p I didn't do anything. Why did the RED ORB…\p Where did KYOGRE go?")
+    format("ARCHIE: What?!\p I didn't do anything. Why did the RED ORB\p Where did KYOGRE go?")
 }
 
 text SeafloorCavern_Room9_Text_ArchieAMessageFromOutside {
-    format("ARCHIE: Hm? It's a message from our members outside…")
+    format("ARCHIE: Hm? It's a message from our members outside")
 }
 
 text SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard {
-    format("ARCHIE: Yes, what is it?\p Hm… It's raining heavily?\p Good… That should have happened. That is why we awakened KYOGRE,\l to realize TEAM AQUA's vision of\l expanding the sea.\p What?!\p It's raining far harder than we envisioned? You're in danger?\p That can't be… That's just not possible…\p Hold your position and monitor the situation!")
+    format("ARCHIE: Yes, what is it?\p Hm It's raining heavily?\p Good That should have happened. That is why we awakened KYOGRE,\l to realize TEAM AQUA's vision of\l expanding the sea.\p What?!\p It's raining far harder than we envisioned? You're in danger?\p That can't be That's just not possible\p Hold your position and monitor the situation!")
 }
 
 text SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear {
-    format("ARCHIE: There's something wrong…\p The RED ORB is supposed to awaken and control KYOGRE…\p But… Why? Why did KYOGRE disappear?\p Why?!")
+    format("ARCHIE: There's something wrong\p The RED ORB is supposed to awaken and control KYOGRE\p But Why? Why did KYOGRE disappear?\p Why?!")
 }
 
 text SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought {
-    format("MAXIE: What have you wrought?\p ARCHIE… You've finally awoken KYOGRE, haven't you?\p What will happen to the world if this downpour continues for all eternity?\p The world's landmass will drown in the deepening sea…")
+    format("MAXIE: What have you wrought?\p ARCHIE You've finally awoken KYOGRE, haven't you?\p What will happen to the world if this downpour continues for all eternity?\p The world's landmass will drown in the deepening sea")
 }
 
 text SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty {
-    format("ARCHIE: W-what?! Don't get all high and mighty with me!\p Wasn't it you, TEAM MAGMA, that infuriated GROUDON?\p So long as I have this RED ORB, I should be able to control KYOGRE…\p I should be able to control it…")
+    format("ARCHIE: W-what?! Don't get all high and mighty with me!\p Wasn't it you, TEAM MAGMA, that infuriated GROUDON?\p So long as I have this RED ORB, I should be able to control KYOGRE\p I should be able to control it")
 }
 
 text SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue {

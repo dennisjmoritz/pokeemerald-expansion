@@ -5,7 +5,7 @@ mapscripts IndigoPlateau_PokemonCenter_1F_MapScripts {
 
 
 text IndigoPlateau_PokemonCenter_1F_Text_GymGuyAdvice {
-    format("Yo! Champ in the making!\p At the POKéMON LEAGUE, you will face the ELITE FOUR all in a row.\p If you lose, you have to start all over again!\p This is it! Go for it!")
+    format("Yo! Champ in the making!\p At the POKMON LEAGUE, you will face the ELITE FOUR all in a row.\p If you lose, you have to start all over again!\p This is it! Go for it!")
 }
 
 text IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck {
@@ -13,11 +13,11 @@ text IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck {
 }
 
 text IndigoPlateau_PokemonCenter_1F_Text_LoreleiIsAbsentClosedForTimeBeing {
-    format("I am so sorry, but you've wasted your time coming here.\p LORELEI of the ELITE FOUR is absent, you see.\p As a result, the POKéMON LEAGUE is closed for the time being.")
+    format("I am so sorry, but you've wasted your time coming here.\p LORELEI of the ELITE FOUR is absent, you see.\p As a result, the POKMON LEAGUE is closed for the time being.")
 }
 
 text IndigoPlateau_PokemonCenter_1F_Text_AgathaWhuppedUs {
-    format("AGATHA's GHOST-type POKéMON are horrifically terrifying in toughness.\p I took my FIGHTING-type POKéMON and raised them to the max.\p I went at AGATHA feeling pretty confident, but she whupped us.\p That old lady's also got a really short fuse, too.\p It doesn't take anything to get that scary lady hollering.")
+    format("AGATHA's GHOST-type POKMON are horrifically terrifying in toughness.\p I took my FIGHTING-type POKMON and raised them to the max.\p I went at AGATHA feeling pretty confident, but she whupped us.\p That old lady's also got a really short fuse, too.\p It doesn't take anything to get that scary lady hollering.")
 }
 
 text IndigoPlateau_PokemonCenter_1F_Text_LancesCousinGymLeaderFarAway {

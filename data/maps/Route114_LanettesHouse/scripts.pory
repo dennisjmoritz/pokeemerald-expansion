@@ -4,23 +4,23 @@ mapscripts Route114_LanettesHouse_MapScripts {
 
 
 text Route114_LanettesHouse_Text_EverythingClutteredKeepThis {
-    format("LANETTE: Oh! {PLAYER}{KUN}!\p I'm sorry everything is so cluttered… When I get engrossed in research,\l things end up this way…\p This is embarrassing… Please keep this a secret in exchange for this.")
+    format("LANETTE: Oh! {PLAYER}{KUN}!\p I'm sorry everything is so cluttered When I get engrossed in research,\l things end up this way\p This is embarrassing Please keep this a secret in exchange for this.")
 }
 
 text Route114_LanettesHouse_Text_OrganizeYourBoxes {
-    format("May I offer advice about my POKéMON Storage System?\p You should organize your BOXES so you can tell which POKéMON are in them.")
+    format("May I offer advice about my POKMON Storage System?\p You should organize your BOXES so you can tell which POKMON are in them.")
 }
 
 text Route114_LanettesHouse_Text_ResearchNotesPage1 {
-    format("It's LANETTE's research notes. There's information about BOXES.\p Design BOXES to hold 30 POKéMON each.\p Each TRAINER should be able to store 420 POKéMON on the PC system.\p Keep reading?")
+    format("It's LANETTE's research notes. There's information about BOXES.\p Design BOXES to hold 30 POKMON each.\p Each TRAINER should be able to store 420 POKMON on the PC system.\p Keep reading?")
 }
 
 text Route114_LanettesHouse_Text_ResearchNotesPage2 {
-    format("A marking system should be added to make POKéMON easier to organize.\p The name and wallpaper design of each BOX will be made changeable to please\l the stored POKéMON.\p Keep reading?")
+    format("A marking system should be added to make POKMON easier to organize.\p The name and wallpaper design of each BOX will be made changeable to please\l the stored POKMON.\p Keep reading?")
 }
 
 text Route114_LanettesHouse_Text_ResearchNotesPage3 {
-    format("When storing a POKéMON, it should be sent to the BOX inspected last.\p If that BOX is full, the received POKéMON is stored in the next BOX.\p In other words, when a BOX is examined, it is automatically selected as the BOX\l to which POKéMON are sent.")
+    format("When storing a POKMON, it should be sent to the BOX inspected last.\p If that BOX is full, the received POKMON is stored in the next BOX.\p In other words, when a BOX is examined, it is automatically selected as the BOX\l to which POKMON are sent.")
 }
 
 text Route114_LanettesHouse_Text_ClosedTheNotebook {
@@ -28,6 +28,6 @@ text Route114_LanettesHouse_Text_ClosedTheNotebook {
 }
 
 text Route114_LanettesHouse_Text_EmailFromBill {
-    format("There's an e-mail from someone on the PC.\p “… … … … … … …\p “Your Storage System offers more convenience than mine.\p “It has a lot of user-friendly features that make it fun and useful, too.\p “It makes me proud that I played a part in its development.\p “Here's hoping that you'll continue research in Storage Systems.\p “From BILL … … … … … … … …”")
+    format("There's an e-mail from someone on the PC.\p       \p Your Storage System offers more convenience than mine.\p It has a lot of user-friendly features that make it fun and useful, too.\p It makes me proud that I played a part in its development.\p Here's hoping that you'll continue research in Storage Systems.\p From BILL        ")
 }
 

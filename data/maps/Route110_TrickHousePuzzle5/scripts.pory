@@ -4,23 +4,23 @@ mapscripts Route110_TrickHousePuzzle5_MapScripts {
 
 
 text Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened {
-    format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is a genius.” … … … … … … … …\p The lock clicked open!")
+    format("{PLAYER} wrote down the secret code on the door.\p TRICK MASTER is a genius.        \p The lock clicked open!")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll1Intro {
-    format("CLICKETY-CLACK… MECHADOLL 1 AM I!\p IF YOU ANSWER QUIZZES CORRECTLY, THEN YOU WILL GO TO MECHADOLL 5.\l THEN YOU CAN OBTAIN THE SECRET CODE.")
+    format("CLICKETY-CLACK MECHADOLL 1 AM I!\p IF YOU ANSWER QUIZZES CORRECTLY, THEN YOU WILL GO TO MECHADOLL 5.\l THEN YOU CAN OBTAIN THE SECRET CODE.")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1 {
-    format("MECHADOLL 1 QUIZ.\p One of these POKéMON is not found on ROUTE 110. Which one is it?")
+    format("MECHADOLL 1 QUIZ.\p One of these POKMON is not found on ROUTE 110. Which one is it?")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2 {
-    format("MECHADOLL 1 QUIZ.\p One of these POKéMON is not of the WATER type. Which one is it?")
+    format("MECHADOLL 1 QUIZ.\p One of these POKMON is not of the WATER type. Which one is it?")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3 {
-    format("MECHADOLL 1 QUIZ.\p One of these POKéMON does not use LEECH LIFE. Which one is it?")
+    format("MECHADOLL 1 QUIZ.\p One of these POKMON does not use LEECH LIFE. Which one is it?")
 }
 
 text Route110_TrickHousePuzzle5_Text_CorrectGoThrough {
@@ -40,23 +40,23 @@ text Route110_TrickHousePuzzle5_Text_WaitForNextChallenge {
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll2Intro {
-    format("CLICKETY-CLACK… MECHADOLL 2 AM I!\p MECHADOLL 1'S QUIZ DIFFICULTY LEVEL IS SET TOO LOW.")
+    format("CLICKETY-CLACK MECHADOLL 2 AM I!\p MECHADOLL 1'S QUIZ DIFFICULTY LEVEL IS SET TOO LOW.")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1 {
-    format("MECHADOLL 2 QUIZ.\p Which of these POKéMON did WALLY borrow from your father?")
+    format("MECHADOLL 2 QUIZ.\p Which of these POKMON did WALLY borrow from your father?")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2 {
-    format("MECHADOLL 2 QUIZ.\p Which of these POKéMON was chasing PROF. BIRCH?")
+    format("MECHADOLL 2 QUIZ.\p Which of these POKMON was chasing PROF. BIRCH?")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3 {
-    format("MECHADOLL 2 QUIZ.\p Which of these POKéMON did TEAM AQUA use in PETALBURG FOREST?")
+    format("MECHADOLL 2 QUIZ.\p Which of these POKMON did TEAM AQUA use in PETALBURG FOREST?")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll3Intro {
-    format("CLICKETY-CLACK… MECHADOLL 3 AM I!\p MATTERS OF MONEY ARE MY SOLE FOCUS.")
+    format("CLICKETY-CLACK MECHADOLL 3 AM I!\p MATTERS OF MONEY ARE MY SOLE FOCUS.")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1 {
@@ -72,7 +72,7 @@ text Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3 {
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll4Intro {
-    format("CLICKETY-CLACK… MECHADOLL 4 THAT IS ME!\p MY QUIZ IS AN OBJECT OF BEAUTY.")
+    format("CLICKETY-CLACK MECHADOLL 4 THAT IS ME!\p MY QUIZ IS AN OBJECT OF BEAUTY.")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1 {
@@ -88,11 +88,11 @@ text Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3 {
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll5Intro {
-    format("CLICKETY-CLACK… MECHADOLL 5 AM I!\p THE MASTER'S BEST AND PROUDEST ACHIEVEMENT AM I.")
+    format("CLICKETY-CLACK MECHADOLL 5 AM I!\p THE MASTER'S BEST AND PROUDEST ACHIEVEMENT AM I.")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1 {
-    format("MECHADOLL 5 QUIZ.\p In SLATEPORT's POKéMON FAN CLUB, how many POKéMON were there?")
+    format("MECHADOLL 5 QUIZ.\p In SLATEPORT's POKMON FAN CLUB, how many POKMON were there?")
 }
 
 text Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2 {

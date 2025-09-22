@@ -10,7 +10,7 @@ text BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn {
 }
 
 text BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead {
-    format("Hey, my name's NOLAND! I'm basically in charge of this place,\l which is why I'm the FACTORY HEAD!\p I had a look at your Battle Swap data.\p You seem to have the right idea, but you're still square in your head!\p Listen up, okay? Knowledge isn't only about reading books or doing desk work.\p Just doing that sort of thing… It may as well be useless!\p You have to experience things with your heart and your body, understand?\p I'll take you on under the same conditions as you.\p I'll be using rental POKéMON, too!")
+    format("Hey, my name's NOLAND! I'm basically in charge of this place,\l which is why I'm the FACTORY HEAD!\p I had a look at your Battle Swap data.\p You seem to have the right idea, but you're still square in your head!\p Listen up, okay? Knowledge isn't only about reading books or doing desk work.\p Just doing that sort of thing It may as well be useless!\p You have to experience things with your heart and your body, understand?\p I'll take you on under the same conditions as you.\p I'll be using rental POKMON, too!")
 }
 
 text BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn {
@@ -26,11 +26,11 @@ text BattleFrontier_BattleFactoryBattleRoom_Text_ReceivedKnowledgeSymbol {
 }
 
 text BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred {
-    format("Heh… You're a pretty bright spark…\p Next time, I'll come after you hard. No holds barred, understand?\p You keep up your studies!")
+    format("Heh You're a pretty bright spark\p Next time, I'll come after you hard. No holds barred, understand?\p You keep up your studies!")
 }
 
 text BattleFrontier_BattleFactoryBattleRoom_Text_HarderLookThanLastTime {
-    format("NOLAND: Hey, hey! How's it going? You keeping up with your studies?\p …Oh?\p You've taken on a harder look than the last time I saw you.\p Now, this should be fun! I'm getting excited, hey!")
+    format("NOLAND: Hey, hey! How's it going? You keeping up with your studies?\p Oh?\p You've taken on a harder look than the last time I saw you.\p Now, this should be fun! I'm getting excited, hey!")
 }
 
 text BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn {
@@ -38,7 +38,7 @@ text BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn {
 }
 
 text BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass {
-    format("NOLAND: What the… You're getting out of my league!\p Sheesh! Let's see that FRONTIER PASS!")
+    format("NOLAND: What the You're getting out of my league!\p Sheesh! Let's see that FRONTIER PASS!")
 }
 
 text BattleFrontier_BattleFactoryBattleRoom_Text_KnowledgeSymbolTookGoldenShine {

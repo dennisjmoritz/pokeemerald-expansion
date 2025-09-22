@@ -7,7 +7,7 @@ text MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree {
 }
 
 text MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth {
-    format("Even though I can't see my friend in FORTREE, my POKéMON carries MAIL\l back and forth for us.\p I'm not lonesome, even though we're apart.")
+    format("Even though I can't see my friend in FORTREE, my POKMON carries MAIL\l back and forth for us.\p I'm not lonesome, even though we're apart.")
 }
 
 text MossdeepCity_House2_Text_Wingull {

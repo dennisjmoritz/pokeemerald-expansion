@@ -6,7 +6,7 @@ mapscripts Route115_MapScripts {
 
 
 text Route115_Text_NeverKnowWhenCavePokemonWillAppear {
-    format("Exploring a cave isn't like walking on a road.\p You never know when wild POKéMON will appear. It's full of suspense.")
+    format("Exploring a cave isn't like walking on a road.\p You never know when wild POKMON will appear. It's full of suspense.")
 }
 
 text Route115_Text_RouteSignRustboro {

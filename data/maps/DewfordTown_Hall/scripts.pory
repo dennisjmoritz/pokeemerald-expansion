@@ -3,19 +3,19 @@ mapscripts DewfordTown_Hall_MapScripts {
 
 
 text DewfordTown_Hall_Text_CantImagineLifeWithoutTrend {
-    format("What's in vogue? Why, it has to be “{STR_VAR_1}”!\p I can't imagine what life would be like without “{STR_VAR_1}”!")
+    format("What's in vogue? Why, it has to be {STR_VAR_1}!\p I can't imagine what life would be like without {STR_VAR_1}!")
 }
 
 text DewfordTown_Hall_Text_GettingBoredOfTrend {
-    format("What's in vogue? Why, it has to be “{STR_VAR_1}”!\p But I'm getting kind of bored with it.\p I should look for the next big thing.")
+    format("What's in vogue? Why, it has to be {STR_VAR_1}!\p But I'm getting kind of bored with it.\p I should look for the next big thing.")
 }
 
 text DewfordTown_Hall_Text_TeachingMonAboutTrend {
-    format("I'm teaching my POKéMON about “{STR_VAR_1},”\l but it's not going well.\p It's a bit too much, I think.")
+    format("I'm teaching my POKMON about {STR_VAR_1},\l but it's not going well.\p It's a bit too much, I think.")
 }
 
 text DewfordTown_Hall_Text_DeepLinkBetweenXAndY {
-    format("I'm studying up on the hip and trendy “{STR_VAR_1}” now.\p Is it true that there's a deep link between “{STR_VAR_1}”\l and “{STR_VAR_2}”?")
+    format("I'm studying up on the hip and trendy {STR_VAR_1} now.\p Is it true that there's a deep link between {STR_VAR_1}\l and {STR_VAR_2}?")
 }
 
 text DewfordTown_Hall_Text_MyHunchWasRight {
@@ -27,75 +27,75 @@ text DewfordTown_Hall_Text_NotEasyToKeepUp {
 }
 
 text DewfordTown_Hall_Text_TVShowAboutTrend {
-    format("This whole business about “{STR_VAR_1}”…\l Isn't there a TV show on it?")
+    format("This whole business about {STR_VAR_1}\l Isn't there a TV show on it?")
 }
 
 text DewfordTown_Hall_Text_IsTrendMorePopularAcrossSea {
-    format("Across the sea…\p Is “{STR_VAR_1}” even more popular?")
+    format("Across the sea\p Is {STR_VAR_1} even more popular?")
 }
 
 text DewfordTown_Hall_Text_CollectTrendMerchandise {
-    format("I collect official “{STR_VAR_1}”\l licensed merchandise.\p I have official “{STR_VAR_1}” DOLLS…\p Official “{STR_VAR_1}” brand clothing…\p And officially licensed “{STR_VAR_1}”\l picture books.\p Heheh, I own! I'm not sharing anything with you!")
+    format("I collect official {STR_VAR_1}\l licensed merchandise.\p I have official {STR_VAR_1} DOLLS\p Official {STR_VAR_1} brand clothing\p And officially licensed {STR_VAR_1}\l picture books.\p Heheh, I own! I'm not sharing anything with you!")
 }
 
 text DewfordTown_Hall_Text_BooksAboutTrend {
-    format("IDENTIFYING GOOD “{STR_VAR_1}” &\l BAD “{STR_VAR_1}”…\p THE LINK BETWEEN “{STR_VAR_1}” AND\l POKéMON…\p USEFUL “{STR_VAR_1}”…\p It's neatly jammed with books about “{STR_VAR_1}.”")
+    format("IDENTIFYING GOOD {STR_VAR_1} &\l BAD {STR_VAR_1}\p THE LINK BETWEEN {STR_VAR_1} AND\l POKMON\p USEFUL {STR_VAR_1}\p It's neatly jammed with books about {STR_VAR_1}.")
 }
 
 text DewfordTown_Hall_Text_TrendsScream {
-    format("“{STR_VAR_1}'S SCREAM” is the title.")
+    format("{STR_VAR_1}'S SCREAM is the title.")
 }
 
 text DewfordTown_Hall_Text_TrendsSmile {
-    format("“{STR_VAR_1}'S SMILE” is the title.")
+    format("{STR_VAR_1}'S SMILE is the title.")
 }
 
 text DewfordTown_Hall_Text_LastTrend {
-    format("It's titled “THE LAST {STR_VAR_1}”.")
+    format("It's titled THE LAST {STR_VAR_1}.")
 }
 
 text DewfordTown_Hall_Text_BirthOfTrend {
-    format("It's titled “THE BIRTH OF {STR_VAR_1}”.")
+    format("It's titled THE BIRTH OF {STR_VAR_1}.")
 }
 
 text DewfordTown_Hall_Text_SawTrendCoolestThing {
-    format("I saw “{STR_VAR_1}”! Cool, huh?\p It's, like, the coolest thing going!\p It was awesome! It was the real thing, oh yeah!")
+    format("I saw {STR_VAR_1}! Cool, huh?\p It's, like, the coolest thing going!\p It was awesome! It was the real thing, oh yeah!")
 }
 
 text DewfordTown_Hall_Text_AllegedTrendNotAuthentic {
-    format("Oh, no, no, no.\p That alleged “{STR_VAR_1}”\l you claim to have seen--it's not.\p The authentic article is much… How should I say it?\l Sharper, yet more mellow!\p Ah, no matter. It's astonishing!")
+    format("Oh, no, no, no.\p That alleged {STR_VAR_1}\l you claim to have seen--it's not.\p The authentic article is much How should I say it?\l Sharper, yet more mellow!\p Ah, no matter. It's astonishing!")
 }
 
 text DewfordTown_Hall_Text_ComposedTrendThemeSong {
-    format("Hey, listen, I composed a theme song for “{STR_VAR_1}.”\p “{STR_VAR_1}” is really popular right now.\p Okay, listen! … …\p Oh! {STR_VAR_1}!\p Wonderful {STR_VAR_1}!")
+    format("Hey, listen, I composed a theme song for {STR_VAR_1}.\p {STR_VAR_1} is really popular right now.\p Okay, listen!  \p Oh! {STR_VAR_1}!\p Wonderful {STR_VAR_1}!")
 }
 
 text DewfordTown_Hall_Text_WorkOnYourSinging {
-    format("… …\p I dare say, chap, it would pay for you to work on your singing before you\l trifle yourself with\l “{STR_VAR_1}.”")
+    format(" \p I dare say, chap, it would pay for you to work on your singing before you\l trifle yourself with\l {STR_VAR_1}.")
 }
 
 text DewfordTown_Hall_Text_OrganizeTrendParty {
-    format("Anyway, as I was saying earlier, we should get together and organize a\l “{STR_VAR_1}” party\l on the island.")
+    format("Anyway, as I was saying earlier, we should get together and organize a\l {STR_VAR_1} party\l on the island.")
 }
 
 text DewfordTown_Hall_Text_BrilliantIndeed {
-    format("Oh, a smashing good idea!\p It will settle once and for all who is the best at\l “{STR_VAR_1}.”\l Brilliant, indeed!\p Starting today, our lives will revolve around “{STR_VAR_1}”!")
+    format("Oh, a smashing good idea!\p It will settle once and for all who is the best at\l {STR_VAR_1}.\l Brilliant, indeed!\p Starting today, our lives will revolve around {STR_VAR_1}!")
 }
 
 text DewfordTown_Hall_Text_TrendHasBecomePartOfLife {
-    format("I was thinking, though…\p Wouldn't you agree that “{STR_VAR_1}” has\l grown from being something trendy to\l being a part of our daily lives?")
+    format("I was thinking, though\p Wouldn't you agree that {STR_VAR_1} has\l grown from being something trendy to\l being a part of our daily lives?")
 }
 
 text DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind {
-    format("Beg pardon? That much, what?\p However, it's true that “{STR_VAR_1}”\l weighs heavily on your mind, whether\l you're awake or asleep.\p Absolutely, you're the “{STR_VAR_1}”\l PROFESSOR, old sport!")
+    format("Beg pardon? That much, what?\p However, it's true that {STR_VAR_1}\l weighs heavily on your mind, whether\l you're awake or asleep.\p Absolutely, you're the {STR_VAR_1}\l PROFESSOR, old sport!")
 }
 
 text DewfordTown_Hall_Text_IfWeTeamUpWellBeInvincible {
-    format("If you and me team up as a combo, we'll be invincible when it comes to all\l things “{STR_VAR_1}”!")
+    format("If you and me team up as a combo, we'll be invincible when it comes to all\l things {STR_VAR_1}!")
 }
 
 text DewfordTown_Hall_Text_WellBeTrendDuo {
-    format("Spot on, my friend!\p We shall be the “{STR_VAR_1}” DUO!\p Isn't that a ripe image? Hahahah!")
+    format("Spot on, my friend!\p We shall be the {STR_VAR_1} DUO!\p Isn't that a ripe image? Hahahah!")
 }
 
 text DewfordTown_Hall_Text_GiveYouSludgeBomb {
@@ -103,6 +103,6 @@ text DewfordTown_Hall_Text_GiveYouSludgeBomb {
 }
 
 text DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo {
-    format("I love SLUDGE BOMB.\p But POKéMON with the move “{STR_VAR_1}”\l are in, too.")
+    format("I love SLUDGE BOMB.\p But POKMON with the move {STR_VAR_1}\l are in, too.")
 }
 

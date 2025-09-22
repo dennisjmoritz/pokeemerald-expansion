@@ -3,11 +3,11 @@ mapscripts RustboroCity_House1_MapScripts {
 
 
 text RustboroCity_House1_Text_IllTradeIfYouWant {
-    format("Huh? My POKéMON is cute? Sure, I knew that.\p But if you really want, I'm willing to trade it to you.\p I'll trade you my {STR_VAR_2} for a {STR_VAR_1} if you want.")
+    format("Huh? My POKMON is cute? Sure, I knew that.\p But if you really want, I'm willing to trade it to you.\p I'll trade you my {STR_VAR_2} for a {STR_VAR_1} if you want.")
 }
 
 text RustboroCity_House1_Text_PleaseBeGoodToMyPokemon {
-    format("Eheheh… Please be good to my POKéMON.")
+    format("Eheheh Please be good to my POKMON.")
 }
 
 text RustboroCity_House1_Text_DoesntLookLikeMonToMe {
@@ -15,14 +15,14 @@ text RustboroCity_House1_Text_DoesntLookLikeMonToMe {
 }
 
 text RustboroCity_House1_Text_YouDontWantToThatsOkay {
-    format("Oh, if you don't want to, that's okay. But my POKéMON is cute, you know…")
+    format("Oh, if you don't want to, that's okay. But my POKMON is cute, you know")
 }
 
 text RustboroCity_House1_Text_AnyPokemonCanBeCute {
-    format("Any POKéMON can be cute if you raise it with care and kindness.")
+    format("Any POKMON can be cute if you raise it with care and kindness.")
 }
 
 text RustboroCity_House1_Text_AllSortsOfPlaces {
-    format("In all sorts of places, there are all sorts of POKéMON and people.\p I find that fascinating, so I go to all sorts of places.")
+    format("In all sorts of places, there are all sorts of POKMON and people.\p I find that fascinating, so I go to all sorts of places.")
 }
 

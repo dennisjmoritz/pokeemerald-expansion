@@ -11,7 +11,7 @@ text AbandonedShip_Corridors_1F_Text_CharlieDefeat {
 }
 
 text AbandonedShip_Corridors_1F_Text_CharliePostBattle {
-    format("It's not easy throwing POKé BALLS while hanging on to an inner tube!")
+    format("It's not easy throwing POK BALLS while hanging on to an inner tube!")
 }
 
 text AbandonedShip_Corridors_1F_Text_IsntItFunHere {

@@ -3,14 +3,14 @@ mapscripts MtPyre_4F_MapScripts {
 
 
 text MtPyre_5F_Text_AtsushiIntro {
-    format("Teacher… Please watch over my progress!")
+    format("Teacher Please watch over my progress!")
 }
 
 text MtPyre_5F_Text_AtsushiDefeat {
-    format("Teacher… Please forgive me!")
+    format("Teacher Please forgive me!")
 }
 
 text MtPyre_5F_Text_AtsushiPostBattle {
-    format("Until I improve, my teacher, who rests here, will never find true peace…")
+    format("Until I improve, my teacher, who rests here, will never find true peace")
 }
 

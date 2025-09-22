@@ -3,11 +3,11 @@ mapscripts Route1_MapScripts {
 
 
 text Route1_Text_WorkAtPokeMartTakeSample {
-    format("Hi! I work at a POKéMON MART.\p It's part of a convenient chain selling all sorts of items.\p Please, visit us in VIRIDIAN CITY.\p I know, I'll give you a sample. Here you go!")
+    format("Hi! I work at a POKMON MART.\p It's part of a convenient chain selling all sorts of items.\p Please, visit us in VIRIDIAN CITY.\p I know, I'll give you a sample. Here you go!")
 }
 
 text Route1_Text_ComeSeeUsIfYouNeedPokeBalls {
-    format("Please come see us if you need POKé BALLS for catching POKéMON.")
+    format("Please come see us if you need POK BALLS for catching POKMON.")
 }
 
 text Route1_Text_PutPotionAway {

@@ -5,7 +5,7 @@ mapscripts SevenIsland_House_Room1_MapScripts {
 
 
 text SevenIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles {
-    format("I may not look like much now, but when I was younger…\p I flew everywhere, challenging TRAINERS wherever I found them.\p Now, my only source of enjoyment is reminiscing about the past while\l watching battles.")
+    format("I may not look like much now, but when I was younger\p I flew everywhere, challenging TRAINERS wherever I found them.\p Now, my only source of enjoyment is reminiscing about the past while\l watching battles.")
 }
 
 text SevenIsland_House_Room1_Text_SlightBreezeAroundBox {
@@ -17,11 +17,11 @@ text SevenIsland_House_Room1_Text_ChallengeVisitingTrainer {
 }
 
 text SevenIsland_House_Room1_Text_OhYouWontBattle {
-    format("Oh… You won't battle…\p I see, I see. … …\p Well, perhaps if you change your mind, do come back.")
+    format("Oh You won't battle\p I see, I see.  \p Well, perhaps if you change your mind, do come back.")
 }
 
 text SevenIsland_House_Room1_Text_LimitThreeMonsPerSide {
-    format("Ah! You will battle for me?\p It was worth my time moving the box aside, then.\p … … But there is one slight problem.\p This hidden room is not built very sturdy.\p Can I get you to limit it to battles of three POKéMON per side?")
+    format("Ah! You will battle for me?\p It was worth my time moving the box aside, then.\p   But there is one slight problem.\p This hidden room is not built very sturdy.\p Can I get you to limit it to battles of three POKMON per side?")
 }
 
 text SevenIsland_House_Room1_Text_SaveProgressBeforeBattle {

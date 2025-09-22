@@ -3,11 +3,11 @@ mapscripts BattleFrontier_Lounge7_MapScripts {
 
 
 text BattleFrontier_Lounge7_Text_LeftTutorIntro {
-    format("Buhahaha!\p You couldn't tell it from looking now, but I used to be one tough TRAINER.\p I had a reputation as the toughest BEAUTY around, I tell you!\p … … … … … …\p What is it now? You don't believe me.\p I'm not like that blowhard woman over there. I'm actually talented!\p Let me prove it to you. I can teach your POKéMON special and\l yet cute moves.\p But my lessons don't come free. How about paying for the moves I teach\l with a wee bit of Battle Points?")
+    format("Buhahaha!\p You couldn't tell it from looking now, but I used to be one tough TRAINER.\p I had a reputation as the toughest BEAUTY around, I tell you!\p      \p What is it now? You don't believe me.\p I'm not like that blowhard woman over there. I'm actually talented!\p Let me prove it to you. I can teach your POKMON special and\l yet cute moves.\p But my lessons don't come free. How about paying for the moves I teach\l with a wee bit of Battle Points?")
 }
 
 text BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack {
-    format("Buhahaha!\p Are you back to learn special and yet cute POKéMON moves?")
+    format("Buhahaha!\p Are you back to learn special and yet cute POKMON moves?")
 }
 
 text BattleFrontier_Lounge7_Text_TeachWhichMove {
@@ -19,11 +19,11 @@ text BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints {
 }
 
 text BattleFrontier_Lounge7_Text_TeachMoveToWhichMon {
-    format("Fine, fine, now pick the POKéMON I should teach the move to.")
+    format("Fine, fine, now pick the POKMON I should teach the move to.")
 }
 
 text BattleFrontier_Lounge7_Text_HaventGotEnoughPoints {
-    format("What the… You haven't got enough Battle Points!")
+    format("What the You haven't got enough Battle Points!")
 }
 
 text BattleFrontier_Lounge7_Text_IllTakeBattlePoints {
@@ -31,15 +31,15 @@ text BattleFrontier_Lounge7_Text_IllTakeBattlePoints {
 }
 
 text BattleFrontier_Lounge7_Text_YouDontWantTo {
-    format("What's that? You don't want to…\p If you want to see how skilled I am, you come see me anytime!")
+    format("What's that? You don't want to\p If you want to see how skilled I am, you come see me anytime!")
 }
 
 text BattleFrontier_Lounge7_Text_RightTutorIntro {
-    format("Ihihihi!\p I know it's hard to see now, but I used to be one fantastic TRAINER.\p I had a reputation as the most invincible SWIMMER around, I tell you!\p … … … … … …\p What's wrong? You don't believe me.\p I'm not like that buffoonish woman over there. I'm actually experienced!\p I can prove it to you. I can teach your POKéMON hard and\l yet pretty moves.\p But my lessons don't come free. How about paying for the moves I teach\l with a wee bit of Battle Points?")
+    format("Ihihihi!\p I know it's hard to see now, but I used to be one fantastic TRAINER.\p I had a reputation as the most invincible SWIMMER around, I tell you!\p      \p What's wrong? You don't believe me.\p I'm not like that buffoonish woman over there. I'm actually experienced!\p I can prove it to you. I can teach your POKMON hard and\l yet pretty moves.\p But my lessons don't come free. How about paying for the moves I teach\l with a wee bit of Battle Points?")
 }
 
 text BattleFrontier_Lounge7_Text_RightTutorWelcomeBack {
-    format("Ihihihi!\p Have you come to learn hard and yet pretty POKéMON moves?")
+    format("Ihihihi!\p Have you come to learn hard and yet pretty POKMON moves?")
 }
 
 text BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong {
@@ -47,7 +47,7 @@ text BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong {
 }
 
 text BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful {
-    format("When I was just a wee YOUNGSTER, those ladies were strong and beautiful.\p They were idols among us TRAINERS.\p Even now, age hasn't dulled their abilities.\p In fact, their POKéMON moves have grown even more polished.\p But… For some reason, I can't help but feel this…\p Time is so cruel…")
+    format("When I was just a wee YOUNGSTER, those ladies were strong and beautiful.\p They were idols among us TRAINERS.\p Even now, age hasn't dulled their abilities.\p In fact, their POKMON moves have grown even more polished.\p But For some reason, I can't help but feel this\p Time is so cruel")
 }
 
 text BattleFrontier_Lounge7_Text_SoftboiledDesc {

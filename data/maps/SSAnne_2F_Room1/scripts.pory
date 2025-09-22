@@ -3,6 +3,6 @@ mapscripts SSAnne_2F_Room1_MapScripts {
 
 
 text SSAnne_2F_Room1_Text_SleepingMonLookedLikeThis {
-    format("I've journeyed far and wide, but in all my travels I've never seen\l any POKéMON sleep like this one!\p It was something like this!")
+    format("I've journeyed far and wide, but in all my travels I've never seen\l any POKMON sleep like this one!\p It was something like this!")
 }
 

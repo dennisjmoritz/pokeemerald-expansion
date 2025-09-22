@@ -7,15 +7,15 @@ text SevenIsland_SevaultCanyon_Text_CyndyIntro {
 }
 
 text SevenIsland_SevaultCanyon_Text_CyndyDefeat {
-    format("Huh? Something's not right…")
+    format("Huh? Something's not right")
 }
 
 text SevenIsland_SevaultCanyon_Text_CyndyPostBattle {
-    format("The way I am now, I may have to hold off on TRAINER TOWER…")
+    format("The way I am now, I may have to hold off on TRAINER TOWER")
 }
 
 text SevenIsland_SevaultCanyon_Text_EvanIntro {
-    format("It doesn't matter if you happen to have the strongest POKéMON…\p It doesn't mean a thing if you don't know how to use them properly!")
+    format("It doesn't matter if you happen to have the strongest POKMON\p It doesn't mean a thing if you don't know how to use them properly!")
 }
 
 text SevenIsland_SevaultCanyon_Text_EvanDefeat {
@@ -23,7 +23,7 @@ text SevenIsland_SevaultCanyon_Text_EvanDefeat {
 }
 
 text SevenIsland_SevaultCanyon_Text_EvanPostBattle {
-    format("You see them every so often, TRAINERS with awesome POKéMON\l who have no idea what to do.\p Before training POKéMON, TRAINERS themselves need to grow up.")
+    format("You see them every so often, TRAINERS with awesome POKMON\l who have no idea what to do.\p Before training POKMON, TRAINERS themselves need to grow up.")
 }
 
 text SevenIsland_SevaultCanyon_Text_JacksonIntro {
@@ -79,7 +79,7 @@ text SevenIsland_SevaultCanyon_Text_LexIntro {
 }
 
 text SevenIsland_SevaultCanyon_Text_LexDefeat {
-    format("LEX: I seem to have been too careless…")
+    format("LEX: I seem to have been too careless")
 }
 
 text SevenIsland_SevaultCanyon_Text_LexPostBattle {
@@ -95,11 +95,11 @@ text SevenIsland_SevaultCanyon_Text_NyaIntro {
 }
 
 text SevenIsland_SevaultCanyon_Text_NyaDefeat {
-    format("NYA: Oh, no… I'm so sorry, I…")
+    format("NYA: Oh, no I'm so sorry, I")
 }
 
 text SevenIsland_SevaultCanyon_Text_NyaPostBattle {
-    format("NYA: I think I'm going to need much more seasoning and tutoring\l under LEX…\p …So, LEX, please, may I stay with you like this?")
+    format("NYA: I think I'm going to need much more seasoning and tutoring\l under LEX\p So, LEX, please, may I stay with you like this?")
 }
 
 text SevenIsland_SevaultCanyon_Text_NyaNotEnoughMons {
@@ -111,6 +111,6 @@ text SevenIsland_SevaultCanyon_Text_RouteSign {
 }
 
 text SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly {
-    format("Training by oneself is certainly not a bad thing.\p But it's also not bad to aim for the top with a partner.\p Even BRUNO… He trained with a fellow by the\l name of BRAWLY before.")
+    format("Training by oneself is certainly not a bad thing.\p But it's also not bad to aim for the top with a partner.\p Even BRUNO He trained with a fellow by the\l name of BRAWLY before.")
 }
 

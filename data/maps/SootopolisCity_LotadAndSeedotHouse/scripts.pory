@@ -3,7 +3,7 @@ mapscripts SootopolisCity_LotadAndSeedotHouse_MapScripts {
 
 
 text SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot {
-    format("Do you know the POKéMON SEEDOT? It's hardly ever seen in SOOTOPOLIS.\p Anyway, I love big SEEDOT. The bigger the better.\p But my younger brother, he says that LOTAD is bigger.\p That's silly. SEEDOT has to be bigger than that!\p Huh? Do you have a SEEDOT with you? P-p-please, show me!")
+    format("Do you know the POKMON SEEDOT? It's hardly ever seen in SOOTOPOLIS.\p Anyway, I love big SEEDOT. The bigger the better.\p But my younger brother, he says that LOTAD is bigger.\p That's silly. SEEDOT has to be bigger than that!\p Huh? Do you have a SEEDOT with you? P-p-please, show me!")
 }
 
 text SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad {
@@ -19,15 +19,15 @@ text SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1 {
 }
 
 text SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot {
-    format("{STR_VAR_2}, is it?\p Hmm… I've seen a bigger SEEDOT than this one.")
+    format("{STR_VAR_2}, is it?\p Hmm I've seen a bigger SEEDOT than this one.")
 }
 
 text SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotSeedot {
-    format("Oh, now this is quite something… But it's not a SEEDOT!")
+    format("Oh, now this is quite something But it's not a SEEDOT!")
 }
 
 text SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot {
-    format("You don't have a big SEEDOT? That's too bad…\p If you get a big SEEDOT, please come show me.")
+    format("You don't have a big SEEDOT? That's too bad\p If you get a big SEEDOT, please come show me.")
 }
 
 text SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory {
@@ -35,7 +35,7 @@ text SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory {
 }
 
 text SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad {
-    format("Do you know the POKéMON LOTAD? It's rarely seen in SOOTOPOLIS.\p I love, I mean love, big LOTAD!\p My big brother says that SEEDOT is bigger.\p But that's wrong! Everyone knows that LOTAD is a lot bigger.\p Hunh? Do you have a LOTAD? P-p-please show me!")
+    format("Do you know the POKMON LOTAD? It's rarely seen in SOOTOPOLIS.\p I love, I mean love, big LOTAD!\p My big brother says that SEEDOT is bigger.\p But that's wrong! Everyone knows that LOTAD is a lot bigger.\p Hunh? Do you have a LOTAD? P-p-please show me!")
 }
 
 text SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot {
@@ -51,7 +51,7 @@ text SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2 {
 }
 
 text SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad {
-    format("{STR_VAR_2}?\p Hmm… I've seen a bigger LOTAD than this one here.")
+    format("{STR_VAR_2}?\p Hmm I've seen a bigger LOTAD than this one here.")
 }
 
 text SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad {
@@ -59,7 +59,7 @@ text SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad {
 }
 
 text SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad {
-    format("Don't you have a big LOTAD? How disappointing…\p If you get a big LOTAD, please come show me!")
+    format("Don't you have a big LOTAD? How disappointing\p If you get a big LOTAD, please come show me!")
 }
 
 text SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory {

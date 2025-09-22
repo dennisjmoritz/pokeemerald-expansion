@@ -13,7 +13,7 @@ text LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries {
 }
 
 text LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint {
-    format("Congratulations!\p I did a painting of your POKéMON to commemorate its victory…\p Well, your POKéMON's appeals were so fantastic, it spurred me into\l painting better than I usually do.\l Look, see?")
+    format("Congratulations!\p I did a painting of your POKMON to commemorate its victory\p Well, your POKMON's appeals were so fantastic, it spurred me into\l painting better than I usually do.\l Look, see?")
 }
 
 text LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum {
@@ -25,7 +25,7 @@ text LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum {
 }
 
 text LilycoveCity_ContestLobby_Text_TakeMementoOfPainting {
-    format("Oh, that's right!\p As a memento of me painting your POKéMON, please take this.")
+    format("Oh, that's right!\p As a memento of me painting your POKMON, please take this.")
 }
 
 text LilycoveCity_ContestLobby_Text_ReceivedARibbon {
@@ -41,7 +41,7 @@ text LilycoveCity_ContestLobby_Text_OkaySeeYou {
 }
 
 text LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum {
-    format("Oh… Then, I guess I'll just take this home with me…\p But, you know, I would like to take this to the art museum… Okay?")
+    format("Oh Then, I guess I'll just take this home with me\p But, you know, I would like to take this to the art museum Okay?")
 }
 
 text LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs {
@@ -49,23 +49,23 @@ text LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs {
 }
 
 text LilycoveCity_ContestLobby_Text_MasterRankHereICome {
-    format("Hoo, boy… Master Rank CONTESTS, here I come.\p The world will know that my dearest POKéMON is the cutest being in all\l existence. The time has come!\l Uheheheh.")
+    format("Hoo, boy Master Rank CONTESTS, here I come.\p The world will know that my dearest POKMON is the cutest being in all\l existence. The time has come!\l Uheheheh.")
 }
 
 text LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere {
-    format("You can see a whole variety of POKéMON here.\p That's why I make this place a regular part of my daily stroll.")
+    format("You can see a whole variety of POKMON here.\p That's why I make this place a regular part of my daily stroll.")
 }
 
 text LilycoveCity_ContestLobby_Text_ContestFeastForEyes {
-    format("Wow, coming out to a CONTEST is a feast for these eyes!\p Would you look at all the POKéMON that just scream to be painted?")
+    format("Wow, coming out to a CONTEST is a feast for these eyes!\p Would you look at all the POKMON that just scream to be painted?")
 }
 
 text LilycoveCity_ContestLobby_Text_ToughContestIsExtreme {
-    format("The TOUGHNESS CONTEST is like extreme, man!\p Those muscular appeals… Cascading sweat… I swoon!")
+    format("The TOUGHNESS CONTEST is like extreme, man!\p Those muscular appeals Cascading sweat I swoon!")
 }
 
 text LilycoveCity_ContestLobby_Text_LavishedCareOnMon {
-    format("Day in and day out, I lavished my care on this POKéMON.\p Its condition is peaking. Today, victory is mine!")
+    format("Day in and day out, I lavished my care on this POKMON.\p Its condition is peaking. Today, victory is mine!")
 }
 
 text LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily {

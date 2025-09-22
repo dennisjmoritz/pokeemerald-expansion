@@ -63,7 +63,7 @@ text Route17_Text_NikolasPostBattle {
 }
 
 text Route17_Text_ZeekIntro {
-    format("I leveled up my POKéMON, but it won't evolve. Why?")
+    format("I leveled up my POKMON, but it won't evolve. Why?")
 }
 
 text Route17_Text_ZeekDefeat {
@@ -71,7 +71,7 @@ text Route17_Text_ZeekDefeat {
 }
 
 text Route17_Text_ZeekPostBattle {
-    format("Maybe some POKéMON need element STONES to evolve.")
+    format("Maybe some POKMON need element STONES to evolve.")
 }
 
 text Route17_Text_JamalIntro {
@@ -127,7 +127,7 @@ text Route17_Text_WatchOutForDiscardedItems {
 }
 
 text Route17_Text_SameSpeciesGrowDifferentRates {
-    format("TRAINER TIPS\p All POKéMON are unique.\p Even POKéMON of the same species and level grow at different rates.")
+    format("TRAINER TIPS\p All POKMON are unique.\p Even POKMON of the same species and level grow at different rates.")
 }
 
 text Route17_Text_PressBToStayInPlace {
@@ -139,7 +139,7 @@ text Route17_Text_RouteSign {
 }
 
 text Route17_Text_DontThrowGameThrowBalls {
-    format("It's a notice!\p Don't throw the game, throw POKé BALLS instead!")
+    format("It's a notice!\p Don't throw the game, throw POK BALLS instead!")
 }
 
 text Route17_Text_CyclingRoadSign {

@@ -5,7 +5,7 @@ mapscripts RustboroCity_MapScripts {
 
 
 text RustboroCity_Text_WeShortenItToDevon {
-    format("The DEVON CORPORATION… We all just shorten it to DEVON.\p That company makes all sorts of convenient products.")
+    format("The DEVON CORPORATION We all just shorten it to DEVON.\p That company makes all sorts of convenient products.")
 }
 
 text RustboroCity_Text_SneakyLookingManWentAroundCorner {
@@ -13,19 +13,19 @@ text RustboroCity_Text_SneakyLookingManWentAroundCorner {
 }
 
 text RustboroCity_Text_HaveYouChallengedGym {
-    format("Have you taken the POKéMON GYM challenge?\p When you get that shiny GYM BADGE in hand, I guess TRAINERS begin to\l realize what is required of them.")
+    format("Have you taken the POKMON GYM challenge?\p When you get that shiny GYM BADGE in hand, I guess TRAINERS begin to\l realize what is required of them.")
 }
 
 text RustboroCity_Text_HeyThatsRustborosGymBadge {
-    format("Hey, that's RUSTBORO's GYM BADGE!\p Out of all the POKéMON GYM BADGES, RUSTBORO's is the coolest, I'd say.")
+    format("Hey, that's RUSTBORO's GYM BADGE!\p Out of all the POKMON GYM BADGES, RUSTBORO's is the coolest, I'd say.")
 }
 
 text RustboroCity_Text_YoureNewAroundHere {
-    format("Oh? Who might you be? You're a new face around these parts.\p Have you just transferred into the POKéMON TRAINER'S SCHOOL?")
+    format("Oh? Who might you be? You're a new face around these parts.\p Have you just transferred into the POKMON TRAINER'S SCHOOL?")
 }
 
 text RustboroCity_Text_GymLeaderIsntEasyWithFire {
-    format("I challenged the GYM LEADER, but…\p It's not going to be easy winning with my FIRE-type POKéMON…\p FIRE-type POKéMON don't match up well against ROCK-type POKéMON…")
+    format("I challenged the GYM LEADER, but\p It's not going to be easy winning with my FIRE-type POKMON\p FIRE-type POKMON don't match up well against ROCK-type POKMON")
 }
 
 text RustboroCity_Text_MrBrineyWalksInTheTunnel {
@@ -37,23 +37,23 @@ text RustboroCity_Text_MrBrineyLovesPeeko {
 }
 
 text RustboroCity_Text_WowYouHavePokemon {
-    format("Wow, you have POKéMON with you, too.\p When I get bigger, I'm going to go places with POKéMON, too.")
+    format("Wow, you have POKMON with you, too.\p When I get bigger, I'm going to go places with POKMON, too.")
 }
 
 text RustboroCity_Text_CatchRarePokemonIfIGoToSchool {
-    format("POKéMON TRAINER'S SCHOOL!\p If I go to this school, will I be able to catch rare POKéMON easily?")
+    format("POKMON TRAINER'S SCHOOL!\p If I go to this school, will I be able to catch rare POKMON easily?")
 }
 
 text RustboroCity_Text_PokemonCanChangeLookFromExp {
-    format("If a POKéMON gains experience in battles, it can sometimes change in\l the way it looks.")
+    format("If a POKMON gains experience in battles, it can sometimes change in\l the way it looks.")
 }
 
 text RustboroCity_Text_PokemonChangeShape {
-    format("A POKéMON changes shape? If one did that, I would be shocked!")
+    format("A POKMON changes shape? If one did that, I would be shocked!")
 }
 
 text RustboroCity_Text_TradePokemonGrowFast {
-    format("A POKéMON you get in a trade from someone grows fast.\p But if you don't have certain GYM BADGES, it may not obey you…")
+    format("A POKMON you get in a trade from someone grows fast.\p But if you don't have certain GYM BADGES, it may not obey you")
 }
 
 text RustboroCity_Text_OutOfTheWay {
@@ -65,7 +65,7 @@ text RustboroCity_Text_WaitDontTakeMyGoods {
 }
 
 text RustboroCity_Text_HelpMeIWasRobbed {
-    format("Oh, it's you!\p You're that fantastic TRAINER who helped me in PETALBURG WOODS!\p Help me! I was robbed by TEAM AQUA! I have to get the DEVON GOODS back!\p If I don't… I'm going to be in serious trouble.")
+    format("Oh, it's you!\p You're that fantastic TRAINER who helped me in PETALBURG WOODS!\p Help me! I was robbed by TEAM AQUA! I have to get the DEVON GOODS back!\p If I don't I'm going to be in serious trouble.")
 }
 
 text RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel {
@@ -85,19 +85,19 @@ text RustboroCity_Text_PleaseComeWithMe {
 }
 
 text RustboroCity_Text_MayHiLetsRegister {
-    format("MAY: Oh, hi, {PLAYER}{KUN}!\p You had a MATCH CALL feature put on your POKéNAV!\p Let's register each other so we can contact one another anytime!\p … … … … … …")
+    format("MAY: Oh, hi, {PLAYER}{KUN}!\p You had a MATCH CALL feature put on your POKNAV!\p Let's register each other so we can contact one another anytime!\p      ")
 }
 
 text RustboroCity_Text_RegisteredMay {
-    format("Registered MAY in the POKéNAV.")
+    format("Registered MAY in the POKNAV.")
 }
 
 text RustboroCity_Text_MayPassedBrineyWantToBattle {
-    format("MAY: Oh, by the way, I passed MR. BRINEY in PETALBURG WOODS.\p I guess he's on his way home to his cottage by the sea.\p How's your POKéDEX coming along, {PLAYER}{KUN}? Mine's looking pretty decent!\p So… How about a little battle?")
+    format("MAY: Oh, by the way, I passed MR. BRINEY in PETALBURG WOODS.\p I guess he's on his way home to his cottage by the sea.\p How's your POKDEX coming along, {PLAYER}{KUN}? Mine's looking pretty decent!\p So How about a little battle?")
 }
 
 text RustboroCity_Text_MayOhHaventRaisedPokemonEnough {
-    format("MAY: Oh, what's the matter?\p Haven't you caught or raised your POKéMON very much?\p That's not very good for a TRAINER!")
+    format("MAY: Oh, what's the matter?\p Haven't you caught or raised your POKMON very much?\p That's not very good for a TRAINER!")
 }
 
 text RustboroCity_Text_MayWantToBattle {
@@ -113,23 +113,23 @@ text RustboroCity_Text_MayDefeat {
 }
 
 text RustboroCity_Text_MayMrBrineyHint {
-    format("MAY: Oh, by the way, MR. BRINEY, who I just passed…\p {PLAYER}{KUN}, you just moved here so you might not know this, but MR. BRINEY\l was once a revered seafarer.")
+    format("MAY: Oh, by the way, MR. BRINEY, who I just passed\p {PLAYER}{KUN}, you just moved here so you might not know this, but MR. BRINEY\l was once a revered seafarer.")
 }
 
 text RustboroCity_Text_BrendanHiLetsRegister {
-    format("BRENDAN: Oh, hey, {PLAYER}!\p You had a MATCH CALL feature put on your POKéNAV! Cool!\p Let's register each other so we can get in touch anytime!\p … … … … … …")
+    format("BRENDAN: Oh, hey, {PLAYER}!\p You had a MATCH CALL feature put on your POKNAV! Cool!\p Let's register each other so we can get in touch anytime!\p      ")
 }
 
 text RustboroCity_Text_RegisteredBrendan {
-    format("Registered BRENDAN in the POKéNAV.")
+    format("Registered BRENDAN in the POKNAV.")
 }
 
 text RustboroCity_Text_BrendanPassedBrineyWantToBattle {
-    format("BRENDAN: By the way, {PLAYER}, I walked by MR. BRINEY in PETALBURG WOODS.\p I bet he was on his way home to his cottage by the sea.\p {PLAYER}, how's your POKéDEX? Have you filled in any pages yet?\p Mine rules.\p Want to have a battle to test how far you've progressed?")
+    format("BRENDAN: By the way, {PLAYER}, I walked by MR. BRINEY in PETALBURG WOODS.\p I bet he was on his way home to his cottage by the sea.\p {PLAYER}, how's your POKDEX? Have you filled in any pages yet?\p Mine rules.\p Want to have a battle to test how far you've progressed?")
 }
 
 text RustboroCity_Text_BrendanNoConfidenceInPokemon {
-    format("BRENDAN: What's the matter? Don't have any confidence in your POKéMON?")
+    format("BRENDAN: What's the matter? Don't have any confidence in your POKMON?")
 }
 
 text RustboroCity_Text_BrendanWantToBattle {
@@ -141,7 +141,7 @@ text RustboroCity_Text_BrendanIWontGoEasy {
 }
 
 text RustboroCity_Text_BrendanDefeat {
-    format("Hmm… You're pretty good.")
+    format("Hmm You're pretty good.")
 }
 
 text RustboroCity_Text_BrendanMrBrineyHint {
@@ -149,27 +149,27 @@ text RustboroCity_Text_BrendanMrBrineyHint {
 }
 
 text RustboroCity_Text_TunnelNearingCompletion {
-    format("“Timesaving tunnel nearing completion!”\p …Is what it says on the sign, but there's also a big “X” splashed\l across it in red paint…")
+    format("Timesaving tunnel nearing completion!\p Is what it says on the sign, but there's also a big X splashed\l across it in red paint")
 }
 
 text RustboroCity_Text_DevonCorpSign {
-    format("DEVON CORPORATION\p “For all your living needs, we make it all.”")
+    format("DEVON CORPORATION\p For all your living needs, we make it all.")
 }
 
 text RustboroCity_Text_GymSign {
-    format("RUSTBORO CITY POKéMON GYM LEADER: ROXANNE\p “The ROCK-loving honors student!”")
+    format("RUSTBORO CITY POKMON GYM LEADER: ROXANNE\p The ROCK-loving honors student!")
 }
 
 text RustboroCity_Text_DevonCorpBranchOfficeSign {
-    format("DEVON CORP. BRANCH OFFICE\p “Access limited to DEVON employees and authorized personnel.”")
+    format("DEVON CORP. BRANCH OFFICE\p Access limited to DEVON employees and authorized personnel.")
 }
 
 text RustboroCity_Text_CitySign {
-    format("RUSTBORO CITY\p “The city probing the integration of nature and science.”")
+    format("RUSTBORO CITY\p The city probing the integration of nature and science.")
 }
 
 text RustboroCity_Text_TrainersSchoolSign {
-    format("POKéMON TRAINER'S SCHOOL\p “We'll teach you anything about POKéMON!”")
+    format("POKMON TRAINER'S SCHOOL\p We'll teach you anything about POKMON!")
 }
 
 text RustboroCity_Text_CuttersHouse {
@@ -177,15 +177,15 @@ text RustboroCity_Text_CuttersHouse {
 }
 
 text RustboroCity_Text_DevelopedNewPokenavFeature {
-    format("I've been developing an added feature for the POKéNAV…\p And it turned out great!\p {PLAYER}, may I see that POKéNAV? The one our PRESIDENT gave you?")
+    format("I've been developing an added feature for the POKNAV\p And it turned out great!\p {PLAYER}, may I see that POKNAV? The one our PRESIDENT gave you?")
 }
 
 text RustboroCity_Text_AddedMatchCallPleaseCallMrStone {
-    format("There you go, {PLAYER}!\p I added a new feature named MATCH CALL to your POKéNAV.\p Using the MATCH CALL feature, you can chat with people who have\l been registered in your POKéNAV.\p {PLAYER}, our PRESIDENT STONE should be registered in your POKéNAV.\p Test it out. Please give our PRESIDENT a call.")
+    format("There you go, {PLAYER}!\p I added a new feature named MATCH CALL to your POKNAV.\p Using the MATCH CALL feature, you can chat with people who have\l been registered in your POKNAV.\p {PLAYER}, our PRESIDENT STONE should be registered in your POKNAV.\p Test it out. Please give our PRESIDENT a call.")
 }
 
 text RustboroCity_Text_PleaseSelectPokenav {
-    format("Please select the POKéNAV.")
+    format("Please select the POKNAV.")
 }
 
 text RustboroCity_Text_IdBetterGetBackToWork {
@@ -193,6 +193,6 @@ text RustboroCity_Text_IdBetterGetBackToWork {
 }
 
 text RustboroCity_Text_YouCanHave2On2Battle {
-    format("Did you know this?\p You can have a 2-on-2 battle even if you're not with another TRAINER.\p If you catch the eyes of two TRAINERS when you have two or more POKéMON,\l they'll both challenge you.\p Don't you think it'd be cool if you could beat two TRAINERS by yourself?")
+    format("Did you know this?\p You can have a 2-on-2 battle even if you're not with another TRAINER.\p If you catch the eyes of two TRAINERS when you have two or more POKMON,\l they'll both challenge you.\p Don't you think it'd be cool if you could beat two TRAINERS by yourself?")
 }
 

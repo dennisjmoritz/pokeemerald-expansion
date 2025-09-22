@@ -4,7 +4,7 @@ mapscripts CeruleanCity_MapScripts {
 
 
 text CeruleanCity_Text_RivalIntro {
-    format("{RIVAL}: Yo! {PLAYER}!\p You're still struggling along back here?\p I'm doing great! I caught a bunch of strong and smart POKéMON!\p Here, let me see what you caught, {PLAYER}!")
+    format("{RIVAL}: Yo! {PLAYER}!\p You're still struggling along back here?\p I'm doing great! I caught a bunch of strong and smart POKMON!\p Here, let me see what you caught, {PLAYER}!")
 }
 
 text CeruleanCity_Text_RivalDefeat {
@@ -12,7 +12,7 @@ text CeruleanCity_Text_RivalDefeat {
 }
 
 text CeruleanCity_Text_RivalPostBattle {
-    format("{RIVAL}: Hey, guess what?\p I went to BILL's and got him to show me his rare POKéMON.\p That added a lot of pages to my POKéDEX!\p After all, BILL's world famous as a POKéMANIAC.\p He invented the POKéMON Storage System on PC, too.\p Since you're using his system, you should go thank him.\p Well, I better get rolling! Smell ya later!")
+    format("{RIVAL}: Hey, guess what?\p I went to BILL's and got him to show me his rare POKMON.\p That added a lot of pages to my POKDEX!\p After all, BILL's world famous as a POKMANIAC.\p He invented the POKMON Storage System on PC, too.\p Since you're using his system, you should go thank him.\p Well, I better get rolling! Smell ya later!")
 }
 
 text CeruleanCity_Text_OhRightLittlePresentAsFavor {
@@ -20,15 +20,15 @@ text CeruleanCity_Text_OhRightLittlePresentAsFavor {
 }
 
 text CeruleanCity_Text_ExplainFameCheckerSmellYa {
-    format("A chatty gossip like you… That thing's perfect.\p I don't need it because I don't give a hoot about others.\p All right, this time I really am gone. Smell ya!")
+    format("A chatty gossip like you That thing's perfect.\p I don't need it because I don't give a hoot about others.\p All right, this time I really am gone. Smell ya!")
 }
 
 text CeruleanCity_Text_RivalVictory {
-    format("なんたって！ おれは　てんさい　だからよ！")
+    format(" ")
 }
 
 text CeruleanCity_Text_GruntIntro {
-    format("Hey! Stay out! It's not your yard!\p …Huh? Me?\p I'm an innocent bystander! Don't you believe me?{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}")
+    format("Hey! Stay out! It's not your yard!\p Huh? Me?\p I'm an innocent bystander! Don't you believe me?{PLAY_BGM}{MUS_RG_ROCKET_HIDEOUT}")
 }
 
 text CeruleanCity_Text_GruntDefeat {
@@ -36,7 +36,7 @@ text CeruleanCity_Text_GruntDefeat {
 }
 
 text CeruleanCity_Text_OkayIllReturnStolenTM {
-    format("…Okay. I'll return the TM I stole.")
+    format("Okay. I'll return the TM I stole.")
 }
 
 text CeruleanCity_Text_RecoveredTM28FromGrunt {
@@ -52,7 +52,7 @@ text CeruleanCity_Text_MakeRoomForThisCantRun {
 }
 
 text CeruleanCity_Text_TrainerLifeIsToughIsntIt {
-    format("You're a TRAINER, too?\p Collecting, battling… It's a tough life, isn't it?")
+    format("You're a TRAINER, too?\p Collecting, battling It's a tough life, isn't it?")
 }
 
 text CeruleanCity_Text_YouCanCutDownSmallTrees {
@@ -64,7 +64,7 @@ text CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree {
 }
 
 text CeruleanCity_Text_PokemonEncyclopediaAmusing {
-    format("You're making an encyclopedia on POKéMON? That sounds amusing.")
+    format("You're making an encyclopedia on POKMON? That sounds amusing.")
 }
 
 text CeruleanCity_Text_PeopleHereWereRobbed {
@@ -92,23 +92,23 @@ text CeruleanCity_Text_SlowbroWithdraw {
 }
 
 text CeruleanCity_Text_HardToControlMonsObedience {
-    format("No! That's wrong! It's so hard to control POKéMON!\p Your POKéMON's obedience depends on your abilities as a TRAINER.")
+    format("No! That's wrong! It's so hard to control POKMON!\p Your POKMON's obedience depends on your abilities as a TRAINER.")
 }
 
 text CeruleanCity_Text_SlowbroTookSnooze {
-    format("SLOWBRO took a snooze…")
+    format("SLOWBRO took a snooze")
 }
 
 text CeruleanCity_Text_SlowbroLoafingAround {
-    format("SLOWBRO is loafing around…")
+    format("SLOWBRO is loafing around")
 }
 
 text CeruleanCity_Text_SlowbroTurnedAway {
-    format("SLOWBRO turned away…")
+    format("SLOWBRO turned away")
 }
 
 text CeruleanCity_Text_SlowbroIgnoredOrders {
-    format("SLOWBRO ignored orders…")
+    format("SLOWBRO ignored orders")
 }
 
 text CeruleanCity_Text_WantBrightRedBicycle {
@@ -116,7 +116,7 @@ text CeruleanCity_Text_WantBrightRedBicycle {
 }
 
 text CeruleanCity_Text_ThisIsCeruleanCave {
-    format("This is CERULEAN CAVE.\p Horribly strong POKéMON live inside there.\p It takes a very special TRAINER to be allowed inside there.\p You'd have to be strong enough to become the POKéMON LEAGUE\l CHAMPION for starters.\p And, you would have to have made a great achievement.")
+    format("This is CERULEAN CAVE.\p Horribly strong POKMON live inside there.\p It takes a very special TRAINER to be allowed inside there.\p You'd have to be strong enough to become the POKMON LEAGUE\l CHAMPION for starters.\p And, you would have to have made a great achievement.")
 }
 
 text CeruleanCity_Text_CitySign {
@@ -124,7 +124,7 @@ text CeruleanCity_Text_CitySign {
 }
 
 text CeruleanCity_Text_TrainerTipsHeldItems {
-    format("TRAINER TIPS\p A POKéMON can be made to hold an item.\p Some items can even be used by the holding POKéMON in battle.")
+    format("TRAINER TIPS\p A POKMON can be made to hold an item.\p Some items can even be used by the holding POKMON in battle.")
 }
 
 text CeruleanCity_Text_BikeShopSign {
@@ -132,6 +132,6 @@ text CeruleanCity_Text_BikeShopSign {
 }
 
 text CeruleanCity_Text_GymSign {
-    format("CERULEAN CITY POKéMON GYM LEADER: MISTY\l The Tomboyish Mermaid!")
+    format("CERULEAN CITY POKMON GYM LEADER: MISTY\l The Tomboyish Mermaid!")
 }
 

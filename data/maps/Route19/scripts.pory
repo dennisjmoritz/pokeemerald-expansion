@@ -35,7 +35,7 @@ text Route19_Text_MatthewDefeat {
 }
 
 text Route19_Text_MatthewPostBattle {
-    format("I can beat even marine POKéMON at swimming.")
+    format("I can beat even marine POKMON at swimming.")
 }
 
 text Route19_Text_DouglasIntro {
@@ -51,7 +51,7 @@ text Route19_Text_DouglasPostBattle {
 }
 
 text Route19_Text_DavidIntro {
-    format("I tried diving for POKéMON, but it was a no-go.")
+    format("I tried diving for POKMON, but it was a no-go.")
 }
 
 text Route19_Text_DavidDefeat {
@@ -59,7 +59,7 @@ text Route19_Text_DavidDefeat {
 }
 
 text Route19_Text_DavidPostBattle {
-    format("I guess you have to fish for sea POKéMON.")
+    format("I guess you have to fish for sea POKMON.")
 }
 
 text Route19_Text_TonyIntro {
@@ -83,7 +83,7 @@ text Route19_Text_AnyaDefeat {
 }
 
 text Route19_Text_AnyaPostBattle {
-    format("It's still a long way to go to SEAFOAM ISLANDS…\p I want to go back to FUCHSIA…")
+    format("It's still a long way to go to SEAFOAM ISLANDS\p I want to go back to FUCHSIA")
 }
 
 text Route19_Text_AliceIntro {
@@ -107,19 +107,19 @@ text Route19_Text_AxleDefeat {
 }
 
 text Route19_Text_AxlePostBattle {
-    format("M-my legs! They cramped up! Glub, glub…")
+    format("M-my legs! They cramped up! Glub, glub")
 }
 
 text Route19_Text_ConnieIntro {
-    format("I swam here with my friends… I'm tired…")
+    format("I swam here with my friends I'm tired")
 }
 
 text Route19_Text_ConnieDefeat {
-    format("I'm exhausted…")
+    format("I'm exhausted")
 }
 
 text Route19_Text_ConniePostBattle {
-    format("If I were to ride a POKéMON on the sea, I'd like a LAPRAS.\p LAPRAS is so big, I bet it would keep me dry on water.")
+    format("If I were to ride a POKMON on the sea, I'd like a LAPRAS.\p LAPRAS is so big, I bet it would keep me dry on water.")
 }
 
 text Route19_Text_RouteSign {
@@ -139,11 +139,11 @@ text Route19_Text_LiaPostBattle {
 }
 
 text Route19_Text_LiaNotEnoughMons {
-    format("LIA: I want to battle together with my little brother.\p Don't you have two POKéMON?")
+    format("LIA: I want to battle together with my little brother.\p Don't you have two POKMON?")
 }
 
 text Route19_Text_LucIntro {
-    format("LUC: My big sis taught me how to swim and train POKéMON.")
+    format("LUC: My big sis taught me how to swim and train POKMON.")
 }
 
 text Route19_Text_LucDefeat {
@@ -155,6 +155,6 @@ text Route19_Text_LucPostBattle {
 }
 
 text Route19_Text_LucNotEnoughMons {
-    format("LUC: I don't want to if I can't battle you with my big sis.\p Don't you have two POKéMON?")
+    format("LUC: I don't want to if I can't battle you with my big sis.\p Don't you have two POKMON?")
 }
 

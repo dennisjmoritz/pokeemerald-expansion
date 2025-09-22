@@ -3,7 +3,7 @@ mapscripts SSAnne_B1F_Room2_MapScripts {
 
 
 text SSAnne_B1F_Room2_Text_HueyIntro {
-    format("Even us sailors have POKéMON, too!")
+    format("Even us sailors have POKMON, too!")
 }
 
 text SSAnne_B1F_Room2_Text_HueyDefeat {
@@ -11,6 +11,6 @@ text SSAnne_B1F_Room2_Text_HueyDefeat {
 }
 
 text SSAnne_B1F_Room2_Text_HueyPostBattle {
-    format("We caught all our POKéMON while we were out at sea.")
+    format("We caught all our POKMON while we were out at sea.")
 }
 

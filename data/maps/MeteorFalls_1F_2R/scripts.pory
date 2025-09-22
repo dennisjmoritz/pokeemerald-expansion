@@ -11,11 +11,11 @@ text MeteorFalls_1F_2R_Text_NicolasDefeat {
 }
 
 text MeteorFalls_1F_2R_Text_NicolasPostBattle {
-    format("The road ahead remains long and harsh.\p When will my POKéMON and I become the best?")
+    format("The road ahead remains long and harsh.\p When will my POKMON and I become the best?")
 }
 
 text MeteorFalls_1F_2R_Text_NicolasRegister {
-    format("I want to know more about your power. Let me register you in my POKéNAV.")
+    format("I want to know more about your power. Let me register you in my POKNAV.")
 }
 
 text MeteorFalls_1F_2R_Text_NicolasRematchIntro {
@@ -27,11 +27,11 @@ text MeteorFalls_1F_2R_Text_NicolasRematchDefeat {
 }
 
 text MeteorFalls_1F_2R_Text_NicolasPostRematch {
-    format("You've obviously kept up your POKéMON training.\p So long as you remain strong, I, too, can become stronger!")
+    format("You've obviously kept up your POKMON training.\p So long as you remain strong, I, too, can become stronger!")
 }
 
 text MeteorFalls_1F_2R_Text_JohnIntro {
-    format("JOHN: We've always battled POKéMON together as a twosome.\l We've confidence in ourselves.")
+    format("JOHN: We've always battled POKMON together as a twosome.\l We've confidence in ourselves.")
 }
 
 text MeteorFalls_1F_2R_Text_JohnDefeat {
@@ -43,7 +43,7 @@ text MeteorFalls_1F_2R_Text_JohnPostBattle {
 }
 
 text MeteorFalls_1F_2R_Text_JohnNotEnoughMons {
-    format("JOHN: Well, well, what a young TRAINER!\p Will you battle with us? If so, you'll have to return with more POKéMON.")
+    format("JOHN: Well, well, what a young TRAINER!\p Will you battle with us? If so, you'll have to return with more POKMON.")
 }
 
 text MeteorFalls_1F_2R_Text_JohnRegister {
@@ -59,15 +59,15 @@ text MeteorFalls_1F_2R_Text_JayDefeat {
 }
 
 text MeteorFalls_1F_2R_Text_JayPostBattle {
-    format("JAY: Fifty years of marriage…\p If we ever argued, we always settled it with a POKéMON battle…")
+    format("JAY: Fifty years of marriage\p If we ever argued, we always settled it with a POKMON battle")
 }
 
 text MeteorFalls_1F_2R_Text_JayNotEnoughMons {
-    format("JAY: Well, well, aren't you a young TRAINER?\p If you'd care to battle with us, you'll have to come back with more POKéMON.")
+    format("JAY: Well, well, aren't you a young TRAINER?\p If you'd care to battle with us, you'll have to come back with more POKMON.")
 }
 
 text MeteorFalls_1F_2R_Text_JohnRematchIntro {
-    format("JOHN: We've always battled POKéMON together as a twosome.\l We've confidence in ourselves.")
+    format("JOHN: We've always battled POKMON together as a twosome.\l We've confidence in ourselves.")
 }
 
 text MeteorFalls_1F_2R_Text_JohnRematchDefeat {
@@ -75,11 +75,11 @@ text MeteorFalls_1F_2R_Text_JohnRematchDefeat {
 }
 
 text MeteorFalls_1F_2R_Text_JohnPostRematch {
-    format("JOHN: Married for fifty years…\p On reflection, the dear wife and I, we battled day in and day out…")
+    format("JOHN: Married for fifty years\p On reflection, the dear wife and I, we battled day in and day out")
 }
 
 text MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons {
-    format("JOHN: Well, well, what a young TRAINER!\p Will you battle with us? If so, you'll have to return with more POKéMON.")
+    format("JOHN: Well, well, what a young TRAINER!\p Will you battle with us? If so, you'll have to return with more POKMON.")
 }
 
 text MeteorFalls_1F_2R_Text_JayRematchIntro {
@@ -91,10 +91,10 @@ text MeteorFalls_1F_2R_Text_JayRematchDefeat {
 }
 
 text MeteorFalls_1F_2R_Text_JayPostRematch {
-    format("JAY: Fifty years of marriage… Many things have happened.\p I hope that we will continue to make happy memories together.")
+    format("JAY: Fifty years of marriage Many things have happened.\p I hope that we will continue to make happy memories together.")
 }
 
 text MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons {
-    format("JAY: Well, well, aren't you a young TRAINER?\p If you'd care to battle with us, you'll have to come back with more POKéMON.")
+    format("JAY: Well, well, aren't you a young TRAINER?\p If you'd care to battle with us, you'll have to come back with more POKMON.")
 }
 

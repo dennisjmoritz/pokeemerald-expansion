@@ -3,11 +3,11 @@ mapscripts MagmaHideout_2F_1R_MapScripts {
 
 
 text MagmaHideout_2F_1R_Text_Grunt14Intro {
-    format("What, what, what?\p Only TEAM MAGMA members are supposed to be in here!\p But you're not dressed in TEAM MAGMA's uniform…\p You rouse my suspicion! Battle with me!")
+    format("What, what, what?\p Only TEAM MAGMA members are supposed to be in here!\p But you're not dressed in TEAM MAGMA's uniform\p You rouse my suspicion! Battle with me!")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt14Defeat {
-    format("Aiyiyi… My pride as a TEAM MAGMA member…")
+    format("Aiyiyi My pride as a TEAM MAGMA member")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt14PostBattle {
@@ -23,7 +23,7 @@ text MagmaHideout_2F_1R_Text_Grunt3Defeat {
 }
 
 text MagmaHideout_2F_1R_Text_Grunt3PostBattle {
-    format("Maybe it would've been better if I did just let you go unchallenged…")
+    format("Maybe it would've been better if I did just let you go unchallenged")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt4Intro {
@@ -43,10 +43,10 @@ text MagmaHideout_2F_1R_Text_Grunt5Intro {
 }
 
 text MagmaHideout_2F_1R_Text_Grunt5Defeat {
-    format("Mutter…")
+    format("Mutter")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt5PostBattle {
-    format("Actually, I'm no expert at battling…")
+    format("Actually, I'm no expert at battling")
 }
 

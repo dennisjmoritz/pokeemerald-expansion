@@ -15,7 +15,7 @@ text SafariZone_North_Text_Area2 {
 }
 
 text SafariZone_North_Text_ZigzagThroughTallGrass {
-    format("TRAINER TIPS\p POKéMON hide in tall grass.\p Zigzag through grassy areas to flush them out.")
+    format("TRAINER TIPS\p POKMON hide in tall grass.\p Zigzag through grassy areas to flush them out.")
 }
 
 text SafariZone_North_Text_WinFreeHMFindSecretHouse {

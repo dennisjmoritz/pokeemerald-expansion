@@ -9,7 +9,7 @@ text FiveIsland_ResortGorgeous_Text_DaisyIntro {
 }
 
 text FiveIsland_ResortGorgeous_Text_DaisyDefeat {
-    format("The shame of this… I'm red-faced…")
+    format("The shame of this I'm red-faced")
 }
 
 text FiveIsland_ResortGorgeous_Text_DaisyPostBattle {
@@ -21,23 +21,23 @@ text FiveIsland_ResortGorgeous_Text_CelinaIntro {
 }
 
 text FiveIsland_ResortGorgeous_Text_CelinaDefeat {
-    format("This loss… I feel like I'm whiting out…")
+    format("This loss I feel like I'm whiting out")
 }
 
 text FiveIsland_ResortGorgeous_Text_CelinaPostBattle {
-    format("GILLIAN? Please tilt your head slightly…\l There! That's the look I want!")
+    format("GILLIAN? Please tilt your head slightly\l There! That's the look I want!")
 }
 
 text FiveIsland_ResortGorgeous_Text_RaynaIntro {
-    format("Hmm… The angle, it is not quite there…")
+    format("Hmm The angle, it is not quite there")
 }
 
 text FiveIsland_ResortGorgeous_Text_RaynaDefeat {
-    format("Oh… My feelings, they are blue…")
+    format("Oh My feelings, they are blue")
 }
 
 text FiveIsland_ResortGorgeous_Text_RaynaPostBattle {
-    format("The sky and the sea… They are so fickle.\p Their changing expressions make them difficult to capture.")
+    format("The sky and the sea They are so fickle.\p Their changing expressions make them difficult to capture.")
 }
 
 text FiveIsland_ResortGorgeous_Text_JackiIntro {
@@ -53,7 +53,7 @@ text FiveIsland_ResortGorgeous_Text_JackiPostBattle {
 }
 
 text FiveIsland_ResortGorgeous_Text_GillianIntro {
-    format("I'm thinking of having a pool made specially for POKéMON.")
+    format("I'm thinking of having a pool made specially for POKMON.")
 }
 
 text FiveIsland_ResortGorgeous_Text_GillianDefeat {
@@ -85,7 +85,7 @@ text FiveIsland_ResortGorgeous_Text_TobyDefeat {
 }
 
 text FiveIsland_ResortGorgeous_Text_TobyPostBattle {
-    format("Getting so serious over this… How nonsensical.")
+    format("Getting so serious over this How nonsensical.")
 }
 
 text FiveIsland_ResortGorgeous_Text_SelphyThanksYouMayGoNow {

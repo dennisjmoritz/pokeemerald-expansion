@@ -13,11 +13,11 @@ text Route104_Text_WhatsItLikeAtBottomOfSea {
 }
 
 text Route104_Text_ThrowBallAtWeakenedPokemon {
-    format("If you're going to throw a POKé BALL, weaken the wild POKéMON first.\p It will be easier to catch if it's been poisoned, burned, or lulled to sleep.")
+    format("If you're going to throw a POK BALL, weaken the wild POKMON first.\p It will be easier to catch if it's been poisoned, burned, or lulled to sleep.")
 }
 
 text Route104_Text_OnlyThrowBallAtWildPokemon {
-    format("You're a thief if you try to steal someone else's POKéMON.\p You should throw POKé BALLS only at wild POKéMON.")
+    format("You're a thief if you try to steal someone else's POKMON.\p You should throw POK BALLS only at wild POKMON.")
 }
 
 text Route104_Text_ImNotATrainer {
@@ -25,7 +25,7 @@ text Route104_Text_ImNotATrainer {
 }
 
 text Route104_Text_LikeFillingMouthWithSeedsTakeThis {
-    format("I like filling my mouth with seeds, then spitting them out fast!\p You can have this, so you try it out!\p Use it on a POKéMON, and it will learn a move for firing seeds rapidly.")
+    format("I like filling my mouth with seeds, then spitting them out fast!\p You can have this, so you try it out!\p Use it on a POKMON, and it will learn a move for firing seeds rapidly.")
 }
 
 text Route104_Text_TMsAreOneTimeUse {
@@ -57,27 +57,27 @@ text Route104_Text_PrettyPetalFlowShop {
 }
 
 text Route104_Text_TrainerTipsDoubleBattles {
-    format("TRAINER TIPS\p In the HOENN region there are pairs of TRAINERS who challenge others\l for 2-on-2 POKéMON battles called\l DOUBLE BATTLES.\p In a DOUBLE BATTLE, the TRAINER must send out two POKéMON, the one at the\l left of the list and the top one.\l Watch how POKéMON are lined up.")
+    format("TRAINER TIPS\p In the HOENN region there are pairs of TRAINERS who challenge others\l for 2-on-2 POKMON battles called\l DOUBLE BATTLES.\p In a DOUBLE BATTLE, the TRAINER must send out two POKMON, the one at the\l left of the list and the top one.\l Watch how POKMON are lined up.")
 }
 
 text Route104_Text_MayWeShouldRegister {
-    format("MAY: Oh, hi, {PLAYER}{KUN}!\p DEVON upgraded your POKéNAV with the MATCH CALL system, huh?\p We should register each other so we can get in contact anytime.")
+    format("MAY: Oh, hi, {PLAYER}{KUN}!\p DEVON upgraded your POKNAV with the MATCH CALL system, huh?\p We should register each other so we can get in contact anytime.")
 }
 
 text Route104_Text_RegisteredMay {
-    format("{PLAYER} registered MAY in the POKéNAV.")
+    format("{PLAYER} registered MAY in the POKNAV.")
 }
 
 text Route104_Text_MayHowsYourPokedex {
-    format("MAY: Oh, by the way, {PLAYER}{KUN}, how's your POKéDEX coming along?")
+    format("MAY: Oh, by the way, {PLAYER}{KUN}, how's your POKDEX coming along?")
 }
 
 text Route104_Text_MayMinesDecentLetsBattle {
-    format("Mine's looking pretty decent. So…\l How about a little battle?")
+    format("Mine's looking pretty decent. So\l How about a little battle?")
 }
 
 text Route104_Text_MayHaventRaisedPokemon {
-    format("MAY: Oh, what's the matter?\p Haven't you caught or raised your POKéMON very much?\p That's not very good for a TRAINER!")
+    format("MAY: Oh, what's the matter?\p Haven't you caught or raised your POKMON very much?\p That's not very good for a TRAINER!")
 }
 
 text Route104_Text_MayLetsBattle {
@@ -93,19 +93,19 @@ text Route104_Text_MayDefeat {
 }
 
 text Route104_Text_MayPostBattle {
-    format("MAY: I can tell you've gotten pretty good with the way you handle POKéMON.\p But instead of only making them battle, you should be like MR. BRINEY.\p It's important to become friends with POKéMON, too.")
+    format("MAY: I can tell you've gotten pretty good with the way you handle POKMON.\p But instead of only making them battle, you should be like MR. BRINEY.\p It's important to become friends with POKMON, too.")
 }
 
 text Route104_Text_BrendanWeShouldRegister {
-    format("BRENDAN: Oh, hey, {PLAYER}!\p Cool, you had DEVON install the MATCH CALL system on your POKéNAV!\p Let's register each other in our POKéNAVS so we can keep in touch.")
+    format("BRENDAN: Oh, hey, {PLAYER}!\p Cool, you had DEVON install the MATCH CALL system on your POKNAV!\p Let's register each other in our POKNAVS so we can keep in touch.")
 }
 
 text Route104_Text_RegisteredBrendan {
-    format("{PLAYER} registered BRENDAN in the POKéNAV.")
+    format("{PLAYER} registered BRENDAN in the POKNAV.")
 }
 
 text Route104_Text_BrendanHowsYourPokedex {
-    format("BRENDAN: {PLAYER}, how's your POKéDEX? Have you filled in any pages yet?")
+    format("BRENDAN: {PLAYER}, how's your POKDEX? Have you filled in any pages yet?")
 }
 
 text Route104_Text_BrendanDoingGreatLetsBattle {
@@ -113,7 +113,7 @@ text Route104_Text_BrendanDoingGreatLetsBattle {
 }
 
 text Route104_Text_BrendanNoConfidence {
-    format("BRENDAN: What's the matter? Don't have any confidence in your POKéMON?")
+    format("BRENDAN: What's the matter? Don't have any confidence in your POKMON?")
 }
 
 text Route104_Text_BrendanLetsBattle {
@@ -125,10 +125,10 @@ text Route104_Text_BrendanIntro {
 }
 
 text Route104_Text_BrendanDefeat {
-    format("Hmm… You're pretty good.")
+    format("Hmm You're pretty good.")
 }
 
 text Route104_Text_BrendanPostBattle {
-    format("BRENDAN: You've gotten pretty decent at handling POKéMON.\p But, you know, you shouldn't just be making POKéMON battle.\p Like MR. BRINEY, it's important to become friends with your POKéMON.")
+    format("BRENDAN: You've gotten pretty decent at handling POKMON.\p But, you know, you shouldn't just be making POKMON battle.\p Like MR. BRINEY, it's important to become friends with your POKMON.")
 }
 

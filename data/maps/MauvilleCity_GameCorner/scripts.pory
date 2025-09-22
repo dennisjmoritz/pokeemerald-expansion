@@ -25,7 +25,7 @@ text MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins {
 }
 
 text MauvilleCity_GameCorner_Text_WereYouLookingForCoins {
-    format("Were you looking for COINS?\p It's ¥1000 for 50 COINS. Would you like some?")
+    format("Were you looking for COINS?\p It's 1000 for 50 COINS. Would you like some?")
 }
 
 text MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins {
@@ -33,7 +33,7 @@ text MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins {
 }
 
 text MauvilleCity_GameCorner_Text_DontHaveEnoughMoney {
-    format("Um… You don't appear to have enough money…")
+    format("Um You don't appear to have enough money")
 }
 
 text MauvilleCity_GameCorner_Text_CoinCaseIsFull {
@@ -41,7 +41,7 @@ text MauvilleCity_GameCorner_Text_CoinCaseIsFull {
 }
 
 text MauvilleCity_GameCorner_Text_DontNeedCoinsThen {
-    format("Oh… You don't need COINS, then? Good luck on your adventure!")
+    format("Oh You don't need COINS, then? Good luck on your adventure!")
 }
 
 text MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes {
@@ -129,7 +129,7 @@ text MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay {
 }
 
 text MauvilleCity_GameCorner_Text_RouletteOnlyLuck {
-    format("This ROULETTE thing… It's rather demanding.\p Win or lose, it's only by luck.")
+    format("This ROULETTE thing It's rather demanding.\p Win or lose, it's only by luck.")
 }
 
 text MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed {
@@ -137,11 +137,11 @@ text MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed {
 }
 
 text MauvilleCity_GameCorner_Text_DifficultToStopOn7 {
-    format("It's very difficult to make it stop right on “7.”\p If it stops on “7” during the REEL TIME bonus game, you'll receive extra COINS.")
+    format("It's very difficult to make it stop right on 7.\p If it stops on 7 during the REEL TIME bonus game, you'll receive extra COINS.")
 }
 
 text MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo {
-    format("Here's some information for you about the SLOTS.\p The more lightning bolts you stock, the more REEL TIME chances you get.\p In a game with the maximum five REEL TIME chances…\p It is possible to receive four regular bonuses, then a big bonus.\p That would total 660 COINS, but it's very difficult to get.")
+    format("Here's some information for you about the SLOTS.\p The more lightning bolts you stock, the more REEL TIME chances you get.\p In a game with the maximum five REEL TIME chances\p It is possible to receive four regular bonuses, then a big bonus.\p That would total 660 COINS, but it's very difficult to get.")
 }
 
 text MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase {

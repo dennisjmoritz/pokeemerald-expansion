@@ -4,7 +4,7 @@ mapscripts MauvilleCity_Gym_MapScripts {
 
 
 text MauvilleCity_Gym_Text_GymGuideAdvice {
-    format("Hey, how's it going, CHAMPION- bound {PLAYER}?\p WATTSON, the LEADER of MAUVILLE GYM, uses ELECTRIC-type POKéMON.\p If you challenge him with WATER-type POKéMON, he'll zap them! Bzzt!\p And, he's put in switch-controlled doors all over his GYM! Eccentric!\p Hey, go for it!")
+    format("Hey, how's it going, CHAMPION- bound {PLAYER}?\p WATTSON, the LEADER of MAUVILLE GYM, uses ELECTRIC-type POKMON.\p If you challenge him with WATER-type POKMON, he'll zap them! Bzzt!\p And, he's put in switch-controlled doors all over his GYM! Eccentric!\p Hey, go for it!")
 }
 
 text MauvilleCity_Gym_Text_GymGuidePostVictory {
@@ -20,7 +20,7 @@ text MauvilleCity_Gym_Text_KirkDefeat {
 }
 
 text MauvilleCity_Gym_Text_KirkPostBattle {
-    format("POKéMON and rock, it's all about heart, whoa-yeah!")
+    format("POKMON and rock, it's all about heart, whoa-yeah!")
 }
 
 text MauvilleCity_Gym_Text_ShawnIntro {
@@ -28,7 +28,7 @@ text MauvilleCity_Gym_Text_ShawnIntro {
 }
 
 text MauvilleCity_Gym_Text_ShawnDefeat {
-    format("Unplugged and turned off…")
+    format("Unplugged and turned off")
 }
 
 text MauvilleCity_Gym_Text_ShawnPostBattle {
@@ -40,7 +40,7 @@ text MauvilleCity_Gym_Text_BenIntro {
 }
 
 text MauvilleCity_Gym_Text_BenDefeat {
-    format("It's no fun to lose…")
+    format("It's no fun to lose")
 }
 
 text MauvilleCity_Gym_Text_BenPostBattle {
@@ -48,7 +48,7 @@ text MauvilleCity_Gym_Text_BenPostBattle {
 }
 
 text MauvilleCity_Gym_Text_VivianIntro {
-    format("With my charm and my POKéMON's moves, you'll be shocked!")
+    format("With my charm and my POKMON's moves, you'll be shocked!")
 }
 
 text MauvilleCity_Gym_Text_VivianDefeat {
@@ -64,7 +64,7 @@ text MauvilleCity_Gym_Text_AngeloIntro {
 }
 
 text MauvilleCity_Gym_Text_AngeloDefeat {
-    format("Oh… My eyes are frazzled…")
+    format("Oh My eyes are frazzled")
 }
 
 text MauvilleCity_Gym_Text_AngeloPostBattle {
@@ -84,15 +84,15 @@ text MauvilleCity_Gym_Text_ReceivedDynamoBadge {
 }
 
 text MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis {
-    format("With the DYNAMO BADGE, POKéMON can use ROCK SMASH out of battle.\p And, it will make your POKéMON a little bit faster, too.\p Hmm… You should take this, too!")
+    format("With the DYNAMO BADGE, POKMON can use ROCK SMASH out of battle.\p And, it will make your POKMON a little bit faster, too.\p Hmm You should take this, too!")
 }
 
 text MauvilleCity_Gym_Text_ExplainShockWave {
-    format("That TM34 there contains SHOCK WAVE.\p It's a trustworthy move that never misses! You can count on it!\p … … … … … …")
+    format("That TM34 there contains SHOCK WAVE.\p It's a trustworthy move that never misses! You can count on it!\p      ")
 }
 
 text MauvilleCity_Gym_Text_RegisteredWattson {
-    format("Registered GYM LEADER WATTSON in the POKéNAV.")
+    format("Registered GYM LEADER WATTSON in the POKNAV.")
 }
 
 text MauvilleCity_Gym_Text_WattsonPostBattle {
@@ -104,19 +104,19 @@ text MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor {
 }
 
 text MauvilleCity_Gym_Text_GymStatue {
-    format("MAUVILLE CITY POKéMON GYM")
+    format("MAUVILLE CITY POKMON GYM")
 }
 
 text MauvilleCity_Gym_Text_GymStatueCertified {
-    format("MAUVILLE CITY POKéMON GYM\p WATTSON'S CERTIFIED TRAINERS: {PLAYER}")
+    format("MAUVILLE CITY POKMON GYM\p WATTSON'S CERTIFIED TRAINERS: {PLAYER}")
 }
 
 text MauvilleCity_Gym_Text_WattsonPreRematch {
-    format("WATTSON: Ah-ha! Here at last! I know what you want.\l You want to battle my POKéMON!\p Wahahahaha!\p I'll make sparks fly from you! Don't say I didn't warn you!")
+    format("WATTSON: Ah-ha! Here at last! I know what you want.\l You want to battle my POKMON!\p Wahahahaha!\p I'll make sparks fly from you! Don't say I didn't warn you!")
 }
 
 text MauvilleCity_Gym_Text_WattsonRematchDefeat {
-    format("Oof… Our batteries ran dry…")
+    format("Oof Our batteries ran dry")
 }
 
 text MauvilleCity_Gym_Text_WattsonPostRematch {
@@ -124,6 +124,6 @@ text MauvilleCity_Gym_Text_WattsonPostRematch {
 }
 
 text MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons {
-    format("WATTSON: Ah-ha! Here at last! I know what you want.\l You want to battle my POKéMON!\p Wahahahaha!\p Oops! Wait! You've only one POKéMON with you!\p Come see me with two or more POKéMON, all right?")
+    format("WATTSON: Ah-ha! Here at last! I know what you want.\l You want to battle my POKMON!\p Wahahahaha!\p Oops! Wait! You've only one POKMON with you!\p Come see me with two or more POKMON, all right?")
 }
 

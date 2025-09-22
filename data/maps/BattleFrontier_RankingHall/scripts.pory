@@ -27,6 +27,6 @@ text BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName {
 }
 
 text BattleFrontier_RankingHall_Text_MyNamesNotUpThere {
-    format("Hmm… My name's not up there…\p Well, it's only natural since I haven't taken any challenges yet.")
+    format("Hmm My name's not up there\p Well, it's only natural since I haven't taken any challenges yet.")
 }
 

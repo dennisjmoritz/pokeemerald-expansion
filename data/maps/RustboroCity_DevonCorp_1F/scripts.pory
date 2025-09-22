@@ -16,7 +16,7 @@ text RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct {
 }
 
 text RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright {
-    format("That stolen parcel…\p Well, sure it's important, but it's not anything that anyone can use.\p In my estimation, that robber must not have been very bright.")
+    format("That stolen parcel\p Well, sure it's important, but it's not anything that anyone can use.\p In my estimation, that robber must not have been very bright.")
 }
 
 text RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered {
@@ -36,10 +36,10 @@ text RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere {
 }
 
 text RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay {
-    format("Samples of rocks and metal are displayed in the glass case.\p There's a panel with some writing on it…\p “DEVON CORPORATION got its start as a producer of stones from quarries.\p “The company also produced iron from filings in the sand.\p “From that humble start as a producer of raw materials, DEVON developed.\p “DEVON is now a manufacturer of a wide range of industrial products.”")
+    format("Samples of rocks and metal are displayed in the glass case.\p There's a panel with some writing on it\p DEVON CORPORATION got its start as a producer of stones from quarries.\p The company also produced iron from filings in the sand.\p From that humble start as a producer of raw materials, DEVON developed.\p DEVON is now a manufacturer of a wide range of industrial products.")
 }
 
 text RustboroCity_DevonCorp_1F_Text_ProductDisplay {
-    format("Prototypes and test products fill the glass display case.\p There's a panel with a description…\p “In addition to industrial products, DEVON now markets sundries and\l pharmaceuticals for better lifestyles.\p “Recently, DEVON has begun marketing tools for POKéMON TRAINERS, including\l POKé BALLS and POKéNAV systems.”")
+    format("Prototypes and test products fill the glass display case.\p There's a panel with a description\p In addition to industrial products, DEVON now markets sundries and\l pharmaceuticals for better lifestyles.\p Recently, DEVON has begun marketing tools for POKMON TRAINERS, including\l POK BALLS and POKNAV systems.")
 }
 

@@ -5,15 +5,15 @@ mapscripts LittlerootTown_BrendansHouse_2F_MapScripts {
 
 
 text PlayersHouse_2F_Text_ClockIsStopped {
-    format("The clock is stopped…\p Better set it and start it!")
+    format("The clock is stopped\p Better set it and start it!")
 }
 
 text PlayersHouse_2F_Text_HowDoYouLikeYourRoom {
-    format("MOM: {PLAYER}, how do you like your new room?\p Good! Everything's put away neatly!\p They finished moving everything in downstairs, too.\p POKéMON movers are so convenient!\p Oh, you should make sure that everything's all there on your desk.")
+    format("MOM: {PLAYER}, how do you like your new room?\p Good! Everything's put away neatly!\p They finished moving everything in downstairs, too.\p POKMON movers are so convenient!\p Oh, you should make sure that everything's all there on your desk.")
 }
 
 text PlayersHouse_2F_Text_Notebook {
-    format("{PLAYER} flipped open the notebook.\p ADVENTURE RULE NO. 1 Open the MENU with START.\p ADVENTURE RULE NO. 2 Record your progress with SAVE.\p The remaining pages are blank…")
+    format("{PLAYER} flipped open the notebook.\p ADVENTURE RULE NO. 1 Open the MENU with START.\p ADVENTURE RULE NO. 2 Record your progress with SAVE.\p The remaining pages are blank")
 }
 
 text Common_Text_LookCloserAtMap {

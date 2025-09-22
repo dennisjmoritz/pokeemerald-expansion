@@ -3,7 +3,7 @@ mapscripts RustboroCity_PokemonSchool_MapScripts {
 
 
 text RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges {
-    format("The blackboard lists status changes that may affect POKéMON in battle.")
+    format("The blackboard lists status changes that may affect POKMON in battle.")
 }
 
 text RustboroCity_PokemonSchool_Text_ReadWhichTopic {
@@ -11,15 +11,15 @@ text RustboroCity_PokemonSchool_Text_ReadWhichTopic {
 }
 
 text RustboroCity_PokemonSchool_Text_ExplainPoison {
-    format("If a POKéMON is poisoned, it will steadily lose HP.\p The effects of poison remain after a battle.\p A poisoned POKéMON's HP will drop while it is traveling.\p Heal a poisoning using an ANTIDOTE.")
+    format("If a POKMON is poisoned, it will steadily lose HP.\p The effects of poison remain after a battle.\p A poisoned POKMON's HP will drop while it is traveling.\p Heal a poisoning using an ANTIDOTE.")
 }
 
 text RustboroCity_PokemonSchool_Text_ExplainParalysis {
-    format("If a POKéMON becomes paralyzed, its SPEED drops.\p It may also not be able to move while it is in battle.\p Paralysis remains after battle. Cure it using a PARLYZ HEAL.")
+    format("If a POKMON becomes paralyzed, its SPEED drops.\p It may also not be able to move while it is in battle.\p Paralysis remains after battle. Cure it using a PARLYZ HEAL.")
 }
 
 text RustboroCity_PokemonSchool_Text_ExplainSleep {
-    format("If a POKéMON falls asleep, it will be unable to attack.\p A POKéMON may wake up on its own, but if a battle ends while it is\l sleeping, it will stay asleep.\p Wake it up using an AWAKENING.")
+    format("If a POKMON falls asleep, it will be unable to attack.\p A POKMON may wake up on its own, but if a battle ends while it is\l sleeping, it will stay asleep.\p Wake it up using an AWAKENING.")
 }
 
 text RustboroCity_PokemonSchool_Text_ExplainBurn {
@@ -27,7 +27,7 @@ text RustboroCity_PokemonSchool_Text_ExplainBurn {
 }
 
 text RustboroCity_PokemonSchool_Text_ExplainFreeze {
-    format("If a POKéMON is frozen, it becomes completely helpless.\p It will remain frozen after battle. Thaw it out using an ICE HEAL.")
+    format("If a POKMON is frozen, it becomes completely helpless.\p It will remain frozen after battle. Thaw it out using an ICE HEAL.")
 }
 
 text RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw {
@@ -35,11 +35,11 @@ text RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw {
 }
 
 text RustboroCity_PokemonSchool_Text_ExplainQuickClaw {
-    format("A POKéMON holding the QUICK CLAW will occasionally speed up and get to move\l before its opponent.\p There are many other items that are meant to be held by POKéMON.\p Just those alone will give you many topics to study!")
+    format("A POKMON holding the QUICK CLAW will occasionally speed up and get to move\l before its opponent.\p There are many other items that are meant to be held by POKMON.\p Just those alone will give you many topics to study!")
 }
 
 text RustboroCity_PokemonSchool_Text_TradingRightNow {
-    format("I'm trading POKéMON with my friend right now.")
+    format("I'm trading POKMON with my friend right now.")
 }
 
 text RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot {
@@ -47,27 +47,27 @@ text RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot {
 }
 
 text RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems {
-    format("POKéMON can hold items, but they don't know what to do with man-made\l items like POTION and ANTIDOTE.")
+    format("POKMON can hold items, but they don't know what to do with man-made\l items like POTION and ANTIDOTE.")
 }
 
 text RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself {
-    format("You know how some POKéMON moves can confuse a POKéMON?\p A confused POKéMON will sometimes attack itself without meaning to.\p But once it leaves battle, it will return to normal.")
+    format("You know how some POKMON moves can confuse a POKMON?\p A confused POKMON will sometimes attack itself without meaning to.\p But once it leaves battle, it will return to normal.")
 }
 
 text RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry {
-    format("A POKéMON holding a BERRY will heal itself…\p There are many kinds of items that POKéMON can hold…\p Boy, it sure is hard taking notes down…")
+    format("A POKMON holding a BERRY will heal itself\p There are many kinds of items that POKMON can hold\p Boy, it sure is hard taking notes down")
 }
 
 text RustboroCity_PokemonSchool_Text_StudentsNotes {
-    format("It's this student's notebook…\p POKéMON are to be caught using POKé BALLS.\p Up to six POKéMON can accompany a TRAINER.\p A TRAINER is someone who catches POKéMON, raises them, and battles\l with them.\p A TRAINER's mission is to defeat the strong TRAINERS who await\l challengers in POKéMON GYMS.")
+    format("It's this student's notebook\p POKMON are to be caught using POK BALLS.\p Up to six POKMON can accompany a TRAINER.\p A TRAINER is someone who catches POKMON, raises them, and battles\l with them.\p A TRAINER's mission is to defeat the strong TRAINERS who await\l challengers in POKMON GYMS.")
 }
 
 text RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut {
-    format("Hello? Didn't we meet before? I think back in PETALBURG CITY.\p Let me introduce myself. My name's SCOTT.\p I've been traveling everywhere in search of outstanding TRAINERS.\p More specifically, I'm looking for POKéMON battle experts.\p So, what brings you to this SCHOOL? Are you a TRAINER, too?\p The first thing you should do is to have a POKéMON learn the move CUT.\p If I remember correctly, someone in this town has CUT.")
+    format("Hello? Didn't we meet before? I think back in PETALBURG CITY.\p Let me introduce myself. My name's SCOTT.\p I've been traveling everywhere in search of outstanding TRAINERS.\p More specifically, I'm looking for POKMON battle experts.\p So, what brings you to this SCHOOL? Are you a TRAINER, too?\p The first thing you should do is to have a POKMON learn the move CUT.\p If I remember correctly, someone in this town has CUT.")
 }
 
 text RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown {
-    format("SCOTT: Hmm…\p The talent levels of the students here are unknown. The potential's there.")
+    format("SCOTT: Hmm\p The talent levels of the students here are unknown. The potential's there.")
 }
 
 text RustboroCity_PokemonSchool_Text_ScottStoneBadge {
@@ -75,6 +75,6 @@ text RustboroCity_PokemonSchool_Text_ScottStoneBadge {
 }
 
 text RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge {
-    format("Hello? Didn't we meet before? I think back in PETALBURG CITY.\p Let me introduce myself. My name's SCOTT.\p I've been traveling everywhere in search of outstanding TRAINERS.\p More specifically, I'm looking for POKéMON battle experts.\p Oh, what's that? It's a STONE BADGE, isn't it?\p That's pretty impressive, I'd say, for a starting TRAINER like yourself.\p But, you know, I would've loved to see you in battle.\p It's hard to tell what you're like as a TRAINER from a LEAGUE BADGE.")
+    format("Hello? Didn't we meet before? I think back in PETALBURG CITY.\p Let me introduce myself. My name's SCOTT.\p I've been traveling everywhere in search of outstanding TRAINERS.\p More specifically, I'm looking for POKMON battle experts.\p Oh, what's that? It's a STONE BADGE, isn't it?\p That's pretty impressive, I'd say, for a starting TRAINER like yourself.\p But, you know, I would've loved to see you in battle.\p It's hard to tell what you're like as a TRAINER from a LEAGUE BADGE.")
 }
 

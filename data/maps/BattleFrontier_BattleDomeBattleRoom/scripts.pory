@@ -35,11 +35,11 @@ text BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait {
 }
 
 text BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer {
-    format("The REFEREES have reached a decision!\p The winner is… Oh, my goodness!\l The winner is {STR_VAR_1}!\l Congratulations!")
+    format("The REFEREES have reached a decision!\p The winner is Oh, my goodness!\l The winner is {STR_VAR_1}!\l Congratulations!")
 }
 
 text BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer {
-    format("The REFEREES have reached a decision!\p The winner is… Oh, my goodness!\l The winner is {PLAYER}!\l Congratulations!")
+    format("The REFEREES have reached a decision!\p The winner is Oh, my goodness!\l The winner is {PLAYER}!\l Congratulations!")
 }
 
 text BattleFrontier_BattleDomeBattleRoom_Text_BrightNewHope {
@@ -111,7 +111,7 @@ text BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster {
 }
 
 text BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker {
-    format("And now… The TRAINER standing in {PLAYER}'s record-setting path…\p Yes! The one and only! The BATTLE DOME COMMISSIONER!\l Our very own DOME ACE!\l Make way for TUCKER!")
+    format("And now The TRAINER standing in {PLAYER}'s record-setting path\p Yes! The one and only! The BATTLE DOME COMMISSIONER!\l Our very own DOME ACE!\l Make way for TUCKER!")
 }
 
 text BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant {
@@ -143,7 +143,7 @@ text BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol {
 }
 
 text BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime {
-    format("… … … … … …\p I sorely underestimated you. I won't make the same mistake next time…")
+    format("     \p I sorely underestimated you. I won't make the same mistake next time")
 }
 
 text BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched {
@@ -151,11 +151,11 @@ text BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched {
 }
 
 text BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker {
-    format("Ladies and gentlemen! Boys, girls, and POKéMON!\p Finally! Finally, the legend has returned!\p Yes, the name of that legend! Our very own DOME ACE!\l It's none other than TUCKER!")
+    format("Ladies and gentlemen! Boys, girls, and POKMON!\p Finally! Finally, the legend has returned!\p Yes, the name of that legend! Our very own DOME ACE!\l It's none other than TUCKER!")
 }
 
 text BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro {
-    format("TUCKER: Ah… The pummeling roar of the crowd…\l Their furnace-like heat of excitement…\l This is a wonderful place…\p To the crowd, I am the DOME ACE… I represent their hopes and dreams…\l I must never fade from their sight…\p I must burn! Brighter and more brilliant!\l I must light all that gather here!")
+    format("TUCKER: Ah The pummeling roar of the crowd\l Their furnace-like heat of excitement\l This is a wonderful place\p To the crowd, I am the DOME ACE I represent their hopes and dreams\l I must never fade from their sight\p I must burn! Brighter and more brilliant!\l I must light all that gather here!")
 }
 
 text BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess {
@@ -187,6 +187,6 @@ text BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker {
 }
 
 text BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker {
-    format("The REFEREES have reached a decision!\p The winner is… Oh, my goodness!\l The winner is our very own DOME ACE!\l It's TUCKER!\p Congratulations! And thank you! Let's hear it for the DOME ACE, TUCKER!")
+    format("The REFEREES have reached a decision!\p The winner is Oh, my goodness!\l The winner is our very own DOME ACE!\l It's TUCKER!\p Congratulations! And thank you! Let's hear it for the DOME ACE, TUCKER!")
 }
 

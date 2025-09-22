@@ -12,7 +12,7 @@ text LilycoveCity_House3_Text_OhAreYouSure {
 }
 
 text LilycoveCity_House3_Text_ExplainPokeblocks {
-    format("Oh, good! You're a smart soul! This is a bit long, so listen up!\p Are you ready?\p If you look at {POKEBLOCK}S, you should see that they are rated on how they feel.\p The lower the feel rating, the better it is. Don't forget this!\p A good {POKEBLOCK} has a low feel rating and a high level.\p A POKéMON can eat more good {POKEBLOCK}S than ordinary ones, too.\p And this is important.\p If you want to make smooth {POKEBLOCK}S, use different kinds of BERRIES.\p Don't be stingy--the kinds of BERRIES affect the smoothness of {POKEBLOCK}S.\p And another thing.\p The more people blending BERRIES, the smoother the {POKEBLOCK}S.\p That's why you should talk to other people and make {POKEBLOCK}S together.\p That's about all you need to know to make good {POKEBLOCK}S.\p If everyone had POKéMON they love, smooth {POKEBLOCK}S, and a loving family,\l the world would be a happier place.\p Don't give up, dear!")
+    format("Oh, good! You're a smart soul! This is a bit long, so listen up!\p Are you ready?\p If you look at {POKEBLOCK}S, you should see that they are rated on how they feel.\p The lower the feel rating, the better it is. Don't forget this!\p A good {POKEBLOCK} has a low feel rating and a high level.\p A POKMON can eat more good {POKEBLOCK}S than ordinary ones, too.\p And this is important.\p If you want to make smooth {POKEBLOCK}S, use different kinds of BERRIES.\p Don't be stingy--the kinds of BERRIES affect the smoothness of {POKEBLOCK}S.\p And another thing.\p The more people blending BERRIES, the smoother the {POKEBLOCK}S.\p That's why you should talk to other people and make {POKEBLOCK}S together.\p That's about all you need to know to make good {POKEBLOCK}S.\p If everyone had POKMON they love, smooth {POKEBLOCK}S, and a loving family,\l the world would be a happier place.\p Don't give up, dear!")
 }
 
 text LilycoveCity_House3_Text_HappyToHaveQuadruplets {
@@ -32,6 +32,6 @@ text LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender {
 }
 
 text LilycoveCity_House3_Text_GoingToEnterContest {
-    format("I want to brag about how tough my POKéMON is, so we're going to enter\l a CONTEST together.")
+    format("I want to brag about how tough my POKMON is, so we're going to enter\l a CONTEST together.")
 }
 

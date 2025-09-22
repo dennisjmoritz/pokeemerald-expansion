@@ -6,11 +6,11 @@ mapscripts Route114_MapScripts {
 
 
 text Route114_Text_AllMyMonDoesIsRoarTakeThis {
-    format("All my POKéMON does is ROAR… No one dares to come near me…\p Sigh… If you would, please take this TM away…")
+    format("All my POKMON does is ROAR No one dares to come near me\p Sigh If you would, please take this TM away")
 }
 
 text Route114_Text_ExplainRoar {
-    format("TM05 contains ROAR. A ROAR sends POKéMON scurrying.")
+    format("TM05 contains ROAR. A ROAR sends POKMON scurrying.")
 }
 
 text Route114_Text_Poochyena {
@@ -22,7 +22,7 @@ text Route114_Text_MeteorFallsSign {
 }
 
 text Route114_Text_FossilManiacsHouseSign {
-    format("FOSSIL MANIAC'S HOUSE “Fossils gratefully accepted!”")
+    format("FOSSIL MANIAC'S HOUSE Fossils gratefully accepted!")
 }
 
 text Route114_Text_LanettesHouse {

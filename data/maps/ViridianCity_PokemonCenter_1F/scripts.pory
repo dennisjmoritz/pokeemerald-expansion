@@ -9,10 +9,10 @@ text ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC {
 }
 
 text ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown {
-    format("There's a POKéMON CENTER in every town ahead.\p They charge no money, so don't be shy about healing POKéMON.")
+    format("There's a POKMON CENTER in every town ahead.\p They charge no money, so don't be shy about healing POKMON.")
 }
 
 text ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons {
-    format("POKéMON CENTERS heal your tired, hurt, or fainted POKéMON.\p They make all POKéMON completely healthy.")
+    format("POKMON CENTERS heal your tired, hurt, or fainted POKMON.\p They make all POKMON completely healthy.")
 }
 

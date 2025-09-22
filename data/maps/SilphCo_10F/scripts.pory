@@ -32,7 +32,7 @@ text SilphCo_10F_Text_WaaaImScared {
 }
 
 text SilphCo_10F_Text_KeepMeCryingASecret {
-    format("About me crying… Please keep it a secret.")
+    format("About me crying Please keep it a secret.")
 }
 
 text SilphCo_10F_Text_FloorSign {

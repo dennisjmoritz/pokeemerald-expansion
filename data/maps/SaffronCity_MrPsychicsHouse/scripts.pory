@@ -3,7 +3,7 @@ mapscripts SaffronCity_MrPsychicsHouse_MapScripts {
 
 
 text SaffronCity_MrPsychicsHouse_Text_YouWantedThis {
-    format("…Wait! Don't say a word!\p You wanted this!")
+    format("Wait! Don't say a word!\p You wanted this!")
 }
 
 text SaffronCity_MrPsychicsHouse_Text_ReceivedTM29FromMrPsychic {

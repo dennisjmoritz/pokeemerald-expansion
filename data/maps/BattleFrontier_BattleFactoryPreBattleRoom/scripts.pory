@@ -5,11 +5,11 @@ mapscripts BattleFrontier_BattleFactoryPreBattleRoom_MapScripts {
 
 
 text BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection {
-    format("First, we will hold your POKéMON for safekeeping.\p You may then choose from our selection of POKéMON.")
+    format("First, we will hold your POKMON for safekeeping.\p You may then choose from our selection of POKMON.")
 }
 
 text BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons {
-    format("Thank you for competing! Let us restore your POKéMON!")
+    format("Thank you for competing! Let us restore your POKMON!")
 }
 
 text BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent {
@@ -161,11 +161,11 @@ text BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained {
 }
 
 text BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon {
-    format("Before starting the battle, would you like to swap a POKéMON?")
+    format("Before starting the battle, would you like to swap a POKMON?")
 }
 
 text BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete {
-    format("Thank you! Your POKéMON swap is complete.")
+    format("Thank you! Your POKMON swap is complete.")
 }
 
 text BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay {
@@ -185,11 +185,11 @@ text BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments {
 }
 
 text BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo {
-    format("…Uh-huh? What?! …Whoa! Understood, sir! Will do!")
+    format("Uh-huh? What?! Whoa! Understood, sir! Will do!")
 }
 
 text BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow {
-    format("Oh, my… Sorry to keep you waiting!\p I have a message from this facility's boss, the FACTORY HEAD.\p He says, “We're going to do it! Come here right now!”")
+    format("Oh, my Sorry to keep you waiting!\p I have a message from this facility's boss, the FACTORY HEAD.\p He says, We're going to do it! Come here right now!")
 }
 
 text BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead {

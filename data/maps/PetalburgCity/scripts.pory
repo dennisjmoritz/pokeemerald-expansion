@@ -5,11 +5,11 @@ mapscripts PetalburgCity_MapScripts {
 
 
 text PetalburgCity_Text_WhereIsWally {
-    format("Where has our WALLY gone?\p We have to leave for VERDANTURF TOWN very soon…")
+    format("Where has our WALLY gone?\p We have to leave for VERDANTURF TOWN very soon")
 }
 
 text PetalburgCity_Text_AreYouRookieTrainer {
-    format("Hiya! Are you maybe… A rookie TRAINER?\p Do you know what POKéMON TRAINERS do when they reach a new town?\p They first check what kind of GYM is in the town.")
+    format("Hiya! Are you maybe A rookie TRAINER?\p Do you know what POKMON TRAINERS do when they reach a new town?\p They first check what kind of GYM is in the town.")
 }
 
 text PetalburgCity_Text_ThisIsPetalburgGym {
@@ -21,19 +21,19 @@ text PetalburgCity_Text_ThisIsGymSign {
 }
 
 text PetalburgCity_Text_WaterReflection {
-    format("My face is reflected in the water.\p It's a shining grin full of hope…\p Or it could be a look of somber silence struggling with fear…\p What do you see reflected in your face?")
+    format("My face is reflected in the water.\p It's a shining grin full of hope\p Or it could be a look of somber silence struggling with fear\p What do you see reflected in your face?")
 }
 
 text PetalburgCity_Text_FullPartyExplanation {
-    format("Let's say you have six POKéMON. If you catch another one…\p It is automatically sent to a STORAGE BOX over a PC connection.")
+    format("Let's say you have six POKMON. If you catch another one\p It is automatically sent to a STORAGE BOX over a PC connection.")
 }
 
 text PetalburgCity_Text_GymSign {
-    format("PETALBURG CITY POKéMON GYM LEADER: NORMAN\l “A man in pursuit of power!”")
+    format("PETALBURG CITY POKMON GYM LEADER: NORMAN\l A man in pursuit of power!")
 }
 
 text PetalburgCity_Text_CitySign {
-    format("PETALBURG CITY “Where people mingle with nature.”")
+    format("PETALBURG CITY Where people mingle with nature.")
 }
 
 text PetalburgCity_Text_WallyHouseSign {
@@ -41,11 +41,11 @@ text PetalburgCity_Text_WallyHouseSign {
 }
 
 text PetalburgCity_Text_AreYouATrainer {
-    format("Excuse me!\p Let me guess, from the way you're dressed, are you a POKéMON TRAINER?")
+    format("Excuse me!\p Let me guess, from the way you're dressed, are you a POKMON TRAINER?")
 }
 
 text PetalburgCity_Text_WellMaybeNot {
-    format("… … … … … …\p Well, maybe not. Your clothes aren't all that dirty.\p You're either a rookie TRAINER, or maybe you're just an ordinary kid.")
+    format("     \p Well, maybe not. Your clothes aren't all that dirty.\p You're either a rookie TRAINER, or maybe you're just an ordinary kid.")
 }
 
 text PetalburgCity_Text_ImLookingForTalentedTrainers {

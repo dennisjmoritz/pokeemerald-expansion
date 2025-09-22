@@ -5,14 +5,14 @@ mapscripts FuchsiaCity_PokemonCenter_1F_MapScripts {
 
 
 text FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon {
-    format("You can't become a good TRAINER with just one strong POKéMON.\p But raising many POKéMON evenly is no easy task, either.")
+    format("You can't become a good TRAINER with just one strong POKMON.\p But raising many POKMON evenly is no easy task, either.")
 }
 
 text FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian {
-    format("There's a narrow trail west of VIRIDIAN CITY.\p It goes to the POKéMON LEAGUE HQ. The HQ governs all TRAINERS.")
+    format("There's a narrow trail west of VIRIDIAN CITY.\p It goes to the POKMON LEAGUE HQ. The HQ governs all TRAINERS.")
 }
 
 text FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex {
-    format("If you're working on a POKéDEX, visit the SAFARI ZONE.\p All sorts of rare POKéMON breed there.")
+    format("If you're working on a POKDEX, visit the SAFARI ZONE.\p All sorts of rare POKMON breed there.")
 }
 

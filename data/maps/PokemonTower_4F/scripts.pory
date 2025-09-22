@@ -11,7 +11,7 @@ text PokemonTower_4F_Text_PaulaDefeat {
 }
 
 text PokemonTower_4F_Text_PaulaPostBattle {
-    format("I must have been dreaming…")
+    format("I must have been dreaming")
 }
 
 text PokemonTower_4F_Text_LaurelIntro {
@@ -23,11 +23,11 @@ text PokemonTower_4F_Text_LaurelDefeat {
 }
 
 text PokemonTower_4F_Text_LaurelPostBattle {
-    format("We can't determine the identity of the ghosts…")
+    format("We can't determine the identity of the ghosts")
 }
 
 text PokemonTower_4F_Text_JodyIntro {
-    format("Huhuhu… Beat me not!")
+    format("Huhuhu Beat me not!")
 }
 
 text PokemonTower_4F_Text_JodyDefeat {
@@ -35,6 +35,6 @@ text PokemonTower_4F_Text_JodyDefeat {
 }
 
 text PokemonTower_4F_Text_JodyPostBattle {
-    format("May the departed POKéMON rest in peace…")
+    format("May the departed POKMON rest in peace")
 }
 

@@ -11,7 +11,7 @@ text Route25_Text_JoeyDefeat {
 }
 
 text Route25_Text_JoeyPostBattle {
-    format("All POKéMON have weaknesses. Even the strongest ones.\p That's why it's best to raise POKéMON of different types.")
+    format("All POKMON have weaknesses. Even the strongest ones.\p That's why it's best to raise POKMON of different types.")
 }
 
 text Route25_Text_DanIntro {
@@ -31,7 +31,7 @@ text Route25_Text_FlintIntro {
 }
 
 text Route25_Text_FlintDefeat {
-    format("Aww, darn…")
+    format("Aww, darn")
 }
 
 text Route25_Text_FlintPostBattle {
@@ -43,7 +43,7 @@ text Route25_Text_KelseyIntro {
 }
 
 text Route25_Text_KelseyDefeat {
-    format("My conditioning isn't the best…")
+    format("My conditioning isn't the best")
 }
 
 text Route25_Text_KelseyPostBattle {
@@ -51,7 +51,7 @@ text Route25_Text_KelseyPostBattle {
 }
 
 text Route25_Text_ChadIntro {
-    format("I had this feeling… I knew I had to battle you!")
+    format("I had this feeling I knew I had to battle you!")
 }
 
 text Route25_Text_ChadDefeat {
@@ -59,11 +59,11 @@ text Route25_Text_ChadDefeat {
 }
 
 text Route25_Text_ChadPostBattle {
-    format("If your POKéMON gets confused, switch it out.\p That's a good tactic.")
+    format("If your POKMON gets confused, switch it out.\p That's a good tactic.")
 }
 
 text Route25_Text_HaleyIntro {
-    format("My friend has many cute POKéMON. I'm so jealous!")
+    format("My friend has many cute POKMON. I'm so jealous!")
 }
 
 text Route25_Text_HaleyDefeat {
@@ -87,7 +87,7 @@ text Route25_Text_FranklinPostBattle {
 }
 
 text Route25_Text_NobIntro {
-    format("I'm off to see a POKéMANIAC's collection at the cape.")
+    format("I'm off to see a POKMANIAC's collection at the cape.")
 }
 
 text Route25_Text_NobDefeat {
@@ -95,7 +95,7 @@ text Route25_Text_NobDefeat {
 }
 
 text Route25_Text_NobPostBattle {
-    format("The POKéMANIAC sure lives up to his name.\p His collection includes many rare species of POKéMON.")
+    format("The POKMANIAC sure lives up to his name.\p His collection includes many rare species of POKMON.")
 }
 
 text Route25_Text_WayneIntro {
@@ -119,6 +119,6 @@ text Route25_Text_MistyHighHopesAboutThisPlace {
 }
 
 text Route25_Text_AreYouHereAlone {
-    format("Hello, are you here alone?\p If you're out at CERULEAN's cape… Well, it should be as a couple.")
+    format("Hello, are you here alone?\p If you're out at CERULEAN's cape Well, it should be as a couple.")
 }
 

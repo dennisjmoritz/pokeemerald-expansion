@@ -4,7 +4,7 @@ mapscripts SlateportCity_Harbor_MapScripts {
 
 
 text SlateportCity_Harbor_Text_FerryServiceUnavailable {
-    format("I beg your pardon? You're looking for a ship?\p I'm sorry, the ferry service isn't available at present…")
+    format("I beg your pardon? You're looking for a ship?\p I'm sorry, the ferry service isn't available at present")
 }
 
 text SlateportCity_Harbor_Text_MayISeeYourTicket {
@@ -12,7 +12,7 @@ text SlateportCity_Harbor_Text_MayISeeYourTicket {
 }
 
 text SlateportCity_Harbor_Text_YouMustHaveTicket {
-    format("{PLAYER} doesn't have the TICKET…\p I'm terribly sorry.\p You must have a TICKET to board the ferry.")
+    format("{PLAYER} doesn't have the TICKET\p I'm terribly sorry.\p You must have a TICKET to board the ferry.")
 }
 
 text SlateportCity_Harbor_Text_FlashedTicketWhereTo {
@@ -40,7 +40,7 @@ text SlateportCity_Harbor_Text_WhereWouldYouLikeToGo {
 }
 
 text SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday {
-    format("A journey to the bottom of the sea… I wonder what it'd be like?\p I'd love to go deep underwater like that someday.")
+    format("A journey to the bottom of the sea I wonder what it'd be like?\p I'd love to go deep underwater like that someday.")
 }
 
 text SlateportCity_Harbor_Text_AbnormalWeather {
@@ -48,27 +48,27 @@ text SlateportCity_Harbor_Text_AbnormalWeather {
 }
 
 text SlateportCity_Harbor_Text_SubTooSmallForMe {
-    format("I wanted to go with CAPT. STERN on the ocean floor exploration.\p But the sub's too small for me.\p If I squeezed in, there wouldn't be any room for the CAPTAIN…")
+    format("I wanted to go with CAPT. STERN on the ocean floor exploration.\p But the sub's too small for me.\p If I squeezed in, there wouldn't be any room for the CAPTAIN")
 }
 
 text SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum {
-    format("CAPT. STERN: Those thugs…\p They're the same lot who tried to rob the DEVON GOODS at the MUSEUM.")
+    format("CAPT. STERN: Those thugs\p They're the same lot who tried to rob the DEVON GOODS at the MUSEUM.")
 }
 
 text SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove {
-    format("ARCHIE: Oh? Not you again…\p You are tenacious to track us here, that much I will give you.\p But now… No one can stop us! No one!\p Or, will you follow us back to our HIDEOUT in LILYCOVE CITY?\p Fwahahahaha…")
+    format("ARCHIE: Oh? Not you again\p You are tenacious to track us here, that much I will give you.\p But now No one can stop us! No one!\p Or, will you follow us back to our HIDEOUT in LILYCOVE CITY?\p Fwahahahaha")
 }
 
 text SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine {
-    format("CAPT. STERN: Why…\p Why would TEAM AQUA steal my SUBMARINE EXPLORER 1?\p They can't be after the slumbering POKéMON at the bottom of the sea…\p But even if I were to chase them, I don't stand a chance against them…")
+    format("CAPT. STERN: Why\p Why would TEAM AQUA steal my SUBMARINE EXPLORER 1?\p They can't be after the slumbering POKMON at the bottom of the sea\p But even if I were to chase them, I don't stand a chance against them")
 }
 
 text SlateportCity_Harbor_Text_TeamAquaLeftNeedDive {
-    format("CAPT. STERN: Oh, {PLAYER}{KUN}…\p Okay… So TEAM AQUA left before you could stop them…\p Oh, no, don't blame yourself. You're not responsible for this.\p Trying to catch a submarine… It's impossible for most people.\p You would need a POKéMON that knows how to DIVE…\p Perhaps if you went out to MOSSDEEP CITY…\p A lot of divers live out there, so someone might teach you…")
+    format("CAPT. STERN: Oh, {PLAYER}{KUN}\p Okay So TEAM AQUA left before you could stop them\p Oh, no, don't blame yourself. You're not responsible for this.\p Trying to catch a submarine It's impossible for most people.\p You would need a POKMON that knows how to DIVE\p Perhaps if you went out to MOSSDEEP CITY\p A lot of divers live out there, so someone might teach you")
 }
 
 text SlateportCity_Harbor_Text_NeedDiveToCatchSub {
-    format("CAPT. STERN: Trying to catch a submarine… It's impossible.\p You would need a POKéMON that knows how to DIVE…\p Perhaps if you went out to MOSSDEEP CITY…\p A lot of divers live out there, so someone might teach you…")
+    format("CAPT. STERN: Trying to catch a submarine It's impossible.\p You would need a POKMON that knows how to DIVE\p Perhaps if you went out to MOSSDEEP CITY\p A lot of divers live out there, so someone might teach you")
 }
 
 text SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry {
@@ -80,11 +80,11 @@ text SlateportCity_Harbor_Text_FinishedMakingFerry {
 }
 
 text SlateportCity_Harbor_Text_WouldYouTradeScanner {
-    format("CAPT. STERN: Oh? {PLAYER}{KUN}, that item you have…\p That's a SCANNER! That would sure help us on our explorations.\p {PLAYER}{KUN}, would you trade your SCANNER for something?\p Like, say, a DEEPSEATOOTH or a DEEPSEASCALE that I have?")
+    format("CAPT. STERN: Oh? {PLAYER}{KUN}, that item you have\p That's a SCANNER! That would sure help us on our explorations.\p {PLAYER}{KUN}, would you trade your SCANNER for something?\p Like, say, a DEEPSEATOOTH or a DEEPSEASCALE that I have?")
 }
 
 text SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow {
-    format("CAPT. STERN: Are you certain? It's useless to you, {PLAYER}{KUN}…\p Well, okay, then. If you want to trade your SCANNER, let me know.")
+    format("CAPT. STERN: Are you certain? It's useless to you, {PLAYER}{KUN}\p Well, okay, then. If you want to trade your SCANNER, let me know.")
 }
 
 text SlateportCity_Harbor_Text_TradeForDeepSeaTooth {

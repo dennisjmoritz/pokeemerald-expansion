@@ -3,7 +3,7 @@ mapscripts CeladonCity_DepartmentStore_3F_MapScripts {
 
 
 text CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer {
-    format("Captured POKéMON are registered with an ID No. and the OT.\p OT stands for “Original TRAINER” - the TRAINER that caught it first.")
+    format("Captured POKMON are registered with an ID No. and the OT.\p OT stands for Original TRAINER - the TRAINER that caught it first.")
 }
 
 text CeladonCity_DepartmentStore_3F_Text_BuddyTradingKangaskhanForHaunter {
@@ -11,11 +11,11 @@ text CeladonCity_DepartmentStore_3F_Text_BuddyTradingKangaskhanForHaunter {
 }
 
 text CeladonCity_DepartmentStore_3F_Text_HaunterEvolvedOnTrade {
-    format("Come on, HAUNTER!\p I love HAUNTER! I collect them!\p Huh?\p HAUNTER turned into a different POKéMON while being traded!")
+    format("Come on, HAUNTER!\p I love HAUNTER! I collect them!\p Huh?\p HAUNTER turned into a different POKMON while being traded!")
 }
 
 text CeladonCity_DepartmentStore_3F_Text_CanIdentifyTradeMonsByID {
-    format("You can identify POKéMON you get in trades by their ID Numbers.")
+    format("You can identify POKMON you get in trades by their ID Numbers.")
 }
 
 text CeladonCity_DepartmentStore_3F_Text_ItsSuperNES {
@@ -43,11 +43,11 @@ text CeladonCity_DepartmentStore_3F_Text_TVGameShop {
 }
 
 text CeladonCity_DepartmentStore_3F_Text_RedGreenBothArePokemon {
-    format("Red and Green! Both are POKéMON!")
+    format("Red and Green! Both are POKMON!")
 }
 
 text Text_CounterTeach {
-    format("Oh, hi! I finally finished POKéMON.\p Not done yet? How about I teach you a good move?\p The move I have in mind is COUNTER.\p Not like the one I'm leaning on, mind you!")
+    format("Oh, hi! I finally finished POKMON.\p Not done yet? How about I teach you a good move?\p The move I have in mind is COUNTER.\p Not like the one I'm leaning on, mind you!")
 }
 
 text Text_CounterDeclined {
@@ -55,10 +55,10 @@ text Text_CounterDeclined {
 }
 
 text Text_CounterWhichMon {
-    format("Which POKéMON should I teach COUNTER to?")
+    format("Which POKMON should I teach COUNTER to?")
 }
 
 text Text_CounterTaught {
-    format("Are you using that COUNTER move I taught your POKéMON?")
+    format("Are you using that COUNTER move I taught your POKMON?")
 }
 

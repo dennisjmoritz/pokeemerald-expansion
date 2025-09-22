@@ -14,6 +14,6 @@ text NewMauville_Inside_Text_GeneratorQuietedDown {
 }
 
 text NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped {
-    format("{PLAYER} stepped on the switch.\p Click…\p … … … … … … … … … … … … … … … …\p The generator appears to have stopped…")
+    format("{PLAYER} stepped on the switch.\p Click\p                \p The generator appears to have stopped")
 }
 

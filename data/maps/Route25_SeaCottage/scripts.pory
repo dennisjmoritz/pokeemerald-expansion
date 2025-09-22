@@ -4,11 +4,11 @@ mapscripts Route25_SeaCottage_MapScripts {
 
 
 text Route25_SeaCottage_Text_ImBillHelpMeOutPal {
-    format("Hiya! I'm a POKéMON… …No I'm not!\p Call me BILL! I'm a true-blue POKéMANIAC!\p Hey! What's with that skeptical look?\p I'm not joshing you, pal.\p I screwed up an experiment and got combined with a POKéMON!\p So, how about it? Help me out here!")
+    format("Hiya! I'm a POKMON No I'm not!\p Call me BILL! I'm a true-blue POKMANIAC!\p Hey! What's with that skeptical look?\p I'm not joshing you, pal.\p I screwed up an experiment and got combined with a POKMON!\p So, how about it? Help me out here!")
 }
 
 text Route25_SeaCottage_Text_ImBillHelpMeOutLady {
-    format("Hiya! I'm a POKéMON… …No I'm not!\p Call me BILL! I'm a true-blue POKéMANIAC!\p Hey! What's with that skeptical look?\p I'm not joshing you, lady.\p I screwed up an experiment and got combined with a POKéMON!\p So, how about it? Help me out here!")
+    format("Hiya! I'm a POKMON No I'm not!\p Call me BILL! I'm a true-blue POKMANIAC!\p Hey! What's with that skeptical look?\p I'm not joshing you, lady.\p I screwed up an experiment and got combined with a POKMON!\p So, how about it? Help me out here!")
 }
 
 text Route25_SeaCottage_Text_RunCellSeparationOnPC {
@@ -24,11 +24,11 @@ text Route25_SeaCottage_Text_NoPleaseBeautiful {
 }
 
 text Route25_SeaCottage_Text_ThanksBudTakeThis {
-    format("BILL: Yeehah! Thanks, bud! I owe you one!\p So, did you come to see my POKéMON collection?\p You didn't? That's a bummer.\p I've got to thank you… Oh, here, maybe this'll do.")
+    format("BILL: Yeehah! Thanks, bud! I owe you one!\p So, did you come to see my POKMON collection?\p You didn't? That's a bummer.\p I've got to thank you Oh, here, maybe this'll do.")
 }
 
 text Route25_SeaCottage_Text_ThanksLadyTakeThis {
-    format("BILL: Yeehah! Thanks, lady! I owe you one!\p So, did you come to see my POKéMON collection?\p You didn't? That's a bummer.\p I've got to thank you… Oh, here, maybe this'll do.")
+    format("BILL: Yeehah! Thanks, lady! I owe you one!\p So, did you come to see my POKMON collection?\p You didn't? That's a bummer.\p I've got to thank you Oh, here, maybe this'll do.")
 }
 
 text Route25_SeaCottage_Text_ReceivedSSTicketFromBill {
@@ -44,7 +44,7 @@ text Route25_SeaCottage_Text_SSAnnePartyYouGoInstead {
 }
 
 text Route25_SeaCottage_Text_CheckOutRareMonsOnPC {
-    format("BILL: Feel like checking out some of my rare POKéMON on my PC?\p Go on, check out my PC.")
+    format("BILL: Feel like checking out some of my rare POKMON on my PC?\p Go on, check out my PC.")
 }
 
 text Route25_SeaCottage_Text_TeleporterIsDisplayed {
@@ -56,10 +56,10 @@ text Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator {
 }
 
 text Route25_SeaCottage_Text_BillsFavoriteMonList {
-    format("BILL's favorite POKéMON list!")
+    format("BILL's favorite POKMON list!")
 }
 
 text Route25_SeaCottage_Text_SeeWhichMon {
-    format("Which POKéMON do you want to see?")
+    format("Which POKMON do you want to see?")
 }
 

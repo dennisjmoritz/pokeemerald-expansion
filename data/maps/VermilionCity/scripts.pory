@@ -17,7 +17,7 @@ text VermilionCity_Text_SSAnneHasDepartedForYear {
 }
 
 text VermilionCity_Text_BuildingOnThisLand {
-    format("I'm putting up a building on this plot of land. I own it all.\p My POKéMON is tamping the land to lay the foundation.")
+    format("I'm putting up a building on this plot of land. I own it all.\p My POKMON is tamping the land to lay the foundation.")
 }
 
 text VermilionCity_Text_Machop {
@@ -37,15 +37,15 @@ text VermilionCity_Text_CitySign {
 }
 
 text VermilionCity_Text_SnorlaxBlockingRoute12 {
-    format("NOTICE!\p ROUTE 12 may be blocked off by a sleeping POKéMON.\p Detour through ROCK TUNNEL to LAVENDER TOWN.\p VERMILION POLICE")
+    format("NOTICE!\p ROUTE 12 may be blocked off by a sleeping POKMON.\p Detour through ROCK TUNNEL to LAVENDER TOWN.\p VERMILION POLICE")
 }
 
 text VermilionCity_Text_PokemonFanClubSign {
-    format("POKéMON FAN CLUB All POKéMON fans welcome!")
+    format("POKMON FAN CLUB All POKMON fans welcome!")
 }
 
 text VermilionCity_Text_GymSign {
-    format("VERMILION CITY POKéMON GYM LEADER: LT. SURGE\l The Lightning American!")
+    format("VERMILION CITY POKMON GYM LEADER: LT. SURGE\l The Lightning American!")
 }
 
 text VermilionCity_Text_VermilionHarbor {

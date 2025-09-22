@@ -7,7 +7,7 @@ text CeladonCity_Restaurant_Text_TakingBreakRightNow {
 }
 
 text CeladonCity_Restaurant_Text_OftenGoToDrugstore {
-    format("My POKéMON are weak, so I often have to go to the DRUGSTORE.")
+    format("My POKMON are weak, so I often have to go to the DRUGSTORE.")
 }
 
 text CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner {
@@ -15,7 +15,7 @@ text CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner {
 }
 
 text CeladonCity_Restaurant_Text_ManLostItAllAtSlots {
-    format("Munch…\p The man at that table lost it all at the slots.")
+    format("Munch\p The man at that table lost it all at the slots.")
 }
 
 text CeladonCity_Restaurant_Text_TakeThisImBusted {
@@ -31,6 +31,6 @@ text CeladonCity_Restaurant_Text_MakeRoomForThis {
 }
 
 text CeladonCity_Restaurant_Text_ThoughtIdWinItBack {
-    format("I always thought I was going to win it back…")
+    format("I always thought I was going to win it back")
 }
 

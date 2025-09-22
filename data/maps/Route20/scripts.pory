@@ -12,7 +12,7 @@ text Route20_Text_BarryDefeat {
 }
 
 text Route20_Text_BarryPostBattle {
-    format("I wish I could ride my POKéMON. I bet you're not tired.")
+    format("I wish I could ride my POKMON. I bet you're not tired.")
 }
 
 text Route20_Text_ShirleyIntro {
@@ -60,11 +60,11 @@ text Route20_Text_DeanDefeat {
 }
 
 text Route20_Text_DeanPostBattle {
-    format("I should've been buffing up my POKéMON, not me!")
+    format("I should've been buffing up my POKMON, not me!")
 }
 
 text Route20_Text_DarrinIntro {
-    format("Why are you riding a POKéMON? Can't you swim?")
+    format("Why are you riding a POKMON? Can't you swim?")
 }
 
 text Route20_Text_DarrinDefeat {
@@ -72,11 +72,11 @@ text Route20_Text_DarrinDefeat {
 }
 
 text Route20_Text_DarrinPostBattle {
-    format("Riding a POKéMON sure looks fun!")
+    format("Riding a POKMON sure looks fun!")
 }
 
 text Route20_Text_RogerIntro {
-    format("I rode my bird POKéMON here.")
+    format("I rode my bird POKMON here.")
 }
 
 text Route20_Text_RogerDefeat {
@@ -108,11 +108,11 @@ text Route20_Text_MissyDefeat {
 }
 
 text Route20_Text_MissyPostBattle {
-    format("POKéMON have taken over an abandoned mansion on CINNABAR.\p They call it the POKéMON MANSION now.")
+    format("POKMON have taken over an abandoned mansion on CINNABAR.\p They call it the POKMON MANSION now.")
 }
 
 text Route20_Text_MelissaIntro {
-    format("CINNABAR, in the west, has a LAB for POKéMON.\p My daddy works there.")
+    format("CINNABAR, in the west, has a LAB for POKMON.\p My daddy works there.")
 }
 
 text Route20_Text_MelissaDefeat {
@@ -128,6 +128,6 @@ text Route20_Text_SeafoamIslands {
 }
 
 text Route20_Text_MistyTrainsHere {
-    format("Strong TRAINERS and WATER POKéMON are common sights in these parts.\p They say that MISTY of the CERULEAN GYM trains here.")
+    format("Strong TRAINERS and WATER POKMON are common sights in these parts.\p They say that MISTY of the CERULEAN GYM trains here.")
 }
 

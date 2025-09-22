@@ -3,7 +3,7 @@ mapscripts PokemonTower_2F_MapScripts {
 
 
 text PokemonTower_2F_Text_RivalIntro {
-    format("{RIVAL}: Hey, {PLAYER}! What brings you here?\l Is your POKéMON dead?\p Hey! It's alive!\p I can at least make them faint! Let's go!")
+    format("{RIVAL}: Hey, {PLAYER}! What brings you here?\l Is your POKMON dead?\p Hey! It's alive!\p I can at least make them faint! Let's go!")
 }
 
 text PokemonTower_2F_Text_RivalDefeat {
@@ -11,11 +11,11 @@ text PokemonTower_2F_Text_RivalDefeat {
 }
 
 text PokemonTower_2F_Text_RivalVictory {
-    format("{RIVAL}“あーあ‥！ ほんとに　くたばっちまったぞ！\l よわいなー！\l もっと　ちゃんと　そだてて　やれよ")
+    format("{RIVAL} \l \l ")
 }
 
 text PokemonTower_2F_Text_RivalPostBattle {
-    format("How's your POKéDEX coming? I just caught a CUBONE!\p I can't find the bigger MAROWAK. Where could they be?\p I bet there aren't any left!\p Well, I better get going. I've got a lot to accomplish,\l unlike you.\p Smell ya later!")
+    format("How's your POKDEX coming? I just caught a CUBONE!\p I can't find the bigger MAROWAK. Where could they be?\p I bet there aren't any left!\p Well, I better get going. I've got a lot to accomplish,\l unlike you.\p Smell ya later!")
 }
 
 text PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts {

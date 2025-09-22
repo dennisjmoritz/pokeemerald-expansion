@@ -8,7 +8,7 @@ text Route104_MrBrineysHouse_Text_WaitUpPeeko {
 }
 
 text Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford {
-    format("Hm? You're {PLAYER}{KUN}! You saved my darling PEEKO!\l We owe so much to you!\p What's that? You want to sail with me?\p Hmhm…\p You have a LETTER bound for DEWFORD and a package for SLATEPORT, then?\p Quite the busy life you must lead!\p But, certainly, what you're asking is no problem at all.\p You've come to the right man! We'll set sail for DEWFORD.")
+    format("Hm? You're {PLAYER}{KUN}! You saved my darling PEEKO!\l We owe so much to you!\p What's that? You want to sail with me?\p Hmhm\p You have a LETTER bound for DEWFORD and a package for SLATEPORT, then?\p Quite the busy life you must lead!\p But, certainly, what you're asking is no problem at all.\p You've come to the right man! We'll set sail for DEWFORD.")
 }
 
 text Route104_MrBrineysHouse_Text_SetSailForDewford {

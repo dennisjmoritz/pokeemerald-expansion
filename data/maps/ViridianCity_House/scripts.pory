@@ -7,7 +7,7 @@ text ViridianCity_House_Text_NicknamingIsFun {
 }
 
 text ViridianCity_House_Text_MyDaddyLovesMonsToo {
-    format("My daddy loves POKéMON, too.")
+    format("My daddy loves POKMON, too.")
 }
 
 text ViridianCity_House_Text_Speary {

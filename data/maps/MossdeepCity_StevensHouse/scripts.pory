@@ -6,7 +6,7 @@ mapscripts MossdeepCity_StevensHouse_MapScripts {
 
 
 text MossdeepCity_StevensHouse_Text_YouveEarnedHMDive {
-    format("STEVEN: {PLAYER}{KUN}…\p As you can see, there's not much here, but this is my home.\p Thank you for all that you've done.\p This is my token of appreciation. It's the HIDDEN MACHINE DIVE.\p No need to be shy--you've earned this HM.")
+    format("STEVEN: {PLAYER}{KUN}\p As you can see, there's not much here, but this is my home.\p Thank you for all that you've done.\p This is my token of appreciation. It's the HIDDEN MACHINE DIVE.\p No need to be shy--you've earned this HM.")
 }
 
 text MossdeepCity_StevensHouse_Text_ExplainDive {
@@ -18,7 +18,7 @@ text MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis {
 }
 
 text MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum {
-    format("{PLAYER} checked the POKé BALL.\p It contained the POKéMON BELDUM.\p Take the POKé BALL?")
+    format("{PLAYER} checked the POK BALL.\p It contained the POKMON BELDUM.\p Take the POK BALL?")
 }
 
 text MossdeepCity_StevensHouse_Text_ObtainedBeldum {
@@ -26,15 +26,15 @@ text MossdeepCity_StevensHouse_Text_ObtainedBeldum {
 }
 
 text MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon {
-    format("There is no space for another POKéMON.")
+    format("There is no space for another POKMON.")
 }
 
 text MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas {
-    format("{PLAYER} left the POKé BALL where it was.")
+    format("{PLAYER} left the POK BALL where it was.")
 }
 
 text MossdeepCity_StevensHouse_Text_LetterFromSteven {
-    format("It's a letter.\p … … … … … …\p To {PLAYER}{KUN}…\p I've decided to do a little soul- searching and train on the road.\p I don't plan to return home for some time.\p I have a favor to ask of you.\p I want you to take the POKé BALL on the desk.\p Inside it is a BELDUM, my favorite POKéMON.\p I'm counting on you.\p May our paths cross someday.\p STEVEN STONE")
+    format("It's a letter.\p      \p To {PLAYER}{KUN}\p I've decided to do a little soul- searching and train on the road.\p I don't plan to return home for some time.\p I have a favor to ask of you.\p I want you to take the POK BALL on the desk.\p Inside it is a BELDUM, my favorite POKMON.\p I'm counting on you.\p May our paths cross someday.\p STEVEN STONE")
 }
 
 text MossdeepCity_StevensHouse_Text_CollectionOfRareRocks {

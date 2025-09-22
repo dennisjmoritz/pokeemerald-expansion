@@ -6,11 +6,11 @@ mapscripts PokemonLeague_ChampionsRoom_MapScripts {
 
 
 text PokemonLeague_ChampionsRoom_Text_Intro {
-    format("{RIVAL}: Hey, {PLAYER}!\p I was looking forward to seeing you, {PLAYER}.\p My rival should be strong to keep me sharp.\p While working on my POKéDEX, I looked all over for POKéMON.\p Not only that, I assembled teams that would beat any POKéMON type.\p And now…\p I'm the POKéMON LEAGUE CHAMPION!\p {PLAYER}! Do you know what that means?\p I'll tell you.\p I am the most powerful TRAINER in the world!")
+    format("{RIVAL}: Hey, {PLAYER}!\p I was looking forward to seeing you, {PLAYER}.\p My rival should be strong to keep me sharp.\p While working on my POKDEX, I looked all over for POKMON.\p Not only that, I assembled teams that would beat any POKMON type.\p And now\p I'm the POKMON LEAGUE CHAMPION!\p {PLAYER}! Do you know what that means?\p I'll tell you.\p I am the most powerful TRAINER in the world!")
 }
 
 text PokemonLeague_ChampionsRoom_Text_RematchIntro {
-    format("{RIVAL}: Hey, {PLAYER}!\p You came back, {PLAYER}! Hahah, that is so great!\p My rival should be strong to keep me sharp.\p While working on my POKéDEX, I looked all over for POKéMON.\p Not only that, I assembled teams that would beat any POKéMON type.\p And now…\p I'm the POKéMON LEAGUE CHAMPION!\p {PLAYER}! Do you know what that means?\p I'll tell you.\p I am the most powerful TRAINER in the world!")
+    format("{RIVAL}: Hey, {PLAYER}!\p You came back, {PLAYER}! Hahah, that is so great!\p My rival should be strong to keep me sharp.\p While working on my POKDEX, I looked all over for POKMON.\p Not only that, I assembled teams that would beat any POKMON type.\p And now\p I'm the POKMON LEAGUE CHAMPION!\p {PLAYER}! Do you know what that means?\p I'll tell you.\p I am the most powerful TRAINER in the world!")
 }
 
 text PokemonLeague_ChampionsRoom_Text_Defeat {
@@ -18,11 +18,11 @@ text PokemonLeague_ChampionsRoom_Text_Defeat {
 }
 
 text PokemonLeague_ChampionsRoom_Text_Victory {
-    format("はーはッ！ かった！　かった！　かった！\p {PLAYER}に　まける　ような おれさま　では　なーい！\p ま！　ポケモンの てんさい　{RIVAL}さま　あいてに\l ここまで　よく　がんばった！\p ほめて　つかわす！ はーッ！　はーはッはッ！")
+    format(" \p {PLAYER} \p  {RIVAL}\l \p  ")
 }
 
 text PokemonLeague_ChampionsRoom_Text_PostBattle {
-    format("Why? Why did I lose?\p I never made any mistakes raising my POKéMON…\p Darn it! You're the new POKéMON LEAGUE CHAMPION!\p Although I don't like to admit it…")
+    format("Why? Why did I lose?\p I never made any mistakes raising my POKMON\p Darn it! You're the new POKMON LEAGUE CHAMPION!\p Although I don't like to admit it")
 }
 
 text PokemonLeague_ChampionsRoom_Text_OakPlayer {
@@ -30,14 +30,14 @@ text PokemonLeague_ChampionsRoom_Text_OakPlayer {
 }
 
 text PokemonLeague_ChampionsRoom_Text_OakCongratulations {
-    format("OAK: So, you've won! Sincerely, congratulations!\p You're the new POKéMON LEAGUE CHAMPION!\p You've grown up so much since you first left with {STR_VAR_1} to work\l on the POKéDEX.\p {PLAYER}, you have come of age!")
+    format("OAK: So, you've won! Sincerely, congratulations!\p You're the new POKMON LEAGUE CHAMPION!\p You've grown up so much since you first left with {STR_VAR_1} to work\l on the POKDEX.\p {PLAYER}, you have come of age!")
 }
 
 text PokemonLeague_ChampionsRoom_Text_OakImDisappointedRival {
-    format("OAK: {RIVAL}… I'm disappointed in you.\p I came when I heard you'd beaten the ELITE FOUR.\p But, when I got here, you had already lost!\p {RIVAL}, do you understand why you lost?\p You have forgotten to treat your POKéMON with love and trust.\p Without them, you will never become a CHAMP again!")
+    format("OAK: {RIVAL} I'm disappointed in you.\p I came when I heard you'd beaten the ELITE FOUR.\p But, when I got here, you had already lost!\p {RIVAL}, do you understand why you lost?\p You have forgotten to treat your POKMON with love and trust.\p Without them, you will never become a CHAMP again!")
 }
 
 text PokemonLeague_ChampionsRoom_Text_OakPlayerComeWithMe {
-    format("OAK: {PLAYER}.\p You understand that your victory was not just your own doing.\p The bond you share with your POKéMON is marvelous.\p {PLAYER}! Come with me!")
+    format("OAK: {PLAYER}.\p You understand that your victory was not just your own doing.\p The bond you share with your POKMON is marvelous.\p {PLAYER}! Come with me!")
 }
 

@@ -7,6 +7,6 @@ text PetalburgCity_House1_Text_TravelingIsWonderful {
 }
 
 text PetalburgCity_House1_Text_GoOnAdventure {
-    format("Sigh…\p I wish I could go on an adventure with some POKéMON…\p Crawl through some damp grass… Climb rocky, rugged mountains…\p Cross the raging seas… Wander about in dark caves…\p And, sometimes, even get a little homesick…\p It must be fabulous to travel!")
+    format("Sigh\p I wish I could go on an adventure with some POKMON\p Crawl through some damp grass Climb rocky, rugged mountains\p Cross the raging seas Wander about in dark caves\p And, sometimes, even get a little homesick\p It must be fabulous to travel!")
 }
 

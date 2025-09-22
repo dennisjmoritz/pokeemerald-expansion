@@ -5,10 +5,10 @@ mapscripts SlateportCity_PokemonCenter_1F_MapScripts {
 
 
 text SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon {
-    format("Want a tip for battling?\p I'd say it's raising different kinds of POKéMON in a balanced manner.\p It's no good to make just one POKéMON strong.\p If it has a type disadvantage, it might not stand a chance.")
+    format("Want a tip for battling?\p I'd say it's raising different kinds of POKMON in a balanced manner.\p It's no good to make just one POKMON strong.\p If it has a type disadvantage, it might not stand a chance.")
 }
 
 text SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend {
-    format("I trade POKéMON with my friends.\p If a traded POKéMON is holding an item, it makes me twice as happy!")
+    format("I trade POKMON with my friends.\p If a traded POKMON is holding an item, it makes me twice as happy!")
 }
 

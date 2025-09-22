@@ -11,11 +11,11 @@ text SSAnne_B1F_Room1_Text_PhillipDefeat {
 }
 
 text SSAnne_B1F_Room1_Text_PhillipPostBattle {
-    format("When we're out at sea, jellyfish POKéMON sometimes drift by.")
+    format("When we're out at sea, jellyfish POKMON sometimes drift by.")
 }
 
 text SSAnne_B1F_Room1_Text_BarnyIntro {
-    format("Hello, stranger!\p I can't tell if you're from the seas or mountains, but stop and chat.\p All my POKéMON are from the sea.")
+    format("Hello, stranger!\p I can't tell if you're from the seas or mountains, but stop and chat.\p All my POKMON are from the sea.")
 }
 
 text SSAnne_B1F_Room1_Text_BarnyDefeat {

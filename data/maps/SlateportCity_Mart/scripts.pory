@@ -3,10 +3,10 @@ mapscripts SlateportCity_Mart_MapScripts {
 
 
 text SlateportCity_Mart_Text_SomeItemsOnlyAtMart {
-    format("The MARKET does have some interesting merchandise.\p But there are some items you can only get at a POKéMON MART.")
+    format("The MARKET does have some interesting merchandise.\p But there are some items you can only get at a POKMON MART.")
 }
 
 text SlateportCity_Mart_Text_GreatBallIsBetter {
-    format("A GREAT BALL is better than a POKé BALL at catching POKéMON.\p With this, I should be able to get that elusive POKéMON…")
+    format("A GREAT BALL is better than a POK BALL at catching POKMON.\p With this, I should be able to get that elusive POKMON")
 }
 

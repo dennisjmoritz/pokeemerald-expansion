@@ -3,10 +3,10 @@ mapscripts RustboroCity_Flat1_1F_MapScripts {
 
 
 text RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility {
-    format("Every POKéMON has a special ability that it can use.")
+    format("Every POKMON has a special ability that it can use.")
 }
 
 text RustboroCity_Flat1_1F_Text_PokemonStrange {
-    format("POKéMON are such strange creatures.")
+    format("POKMON are such strange creatures.")
 }
 

@@ -20,7 +20,7 @@ text SixIsland_RuinValley_Text_LeftDoorAlone {
 }
 
 text SixIsland_RuinValley_Text_SeveralDotsOnTheDoor {
-    format("On closer inspection, there are several dots on the door…")
+    format("On closer inspection, there are several dots on the door")
 }
 
 text SixIsland_RuinValley_Text_DoorIsOpen {
@@ -32,7 +32,7 @@ text SixIsland_RuinValley_Text_StanlyIntro {
 }
 
 text SixIsland_RuinValley_Text_StanlyDefeat {
-    format("Hmm…")
+    format("Hmm")
 }
 
 text SixIsland_RuinValley_Text_StanlyPostBattle {
@@ -60,7 +60,7 @@ text SixIsland_RuinValley_Text_LarryDefeat {
 }
 
 text SixIsland_RuinValley_Text_LarryPostBattle {
-    format("Those ruins over there…\p I haven't had any luck in finding how I can get inside.")
+    format("Those ruins over there\p I haven't had any luck in finding how I can get inside.")
 }
 
 text SixIsland_RuinValley_Text_DarylIntro {
@@ -84,6 +84,6 @@ text SixIsland_RuinValley_Text_HectorDefeat {
 }
 
 text SixIsland_RuinValley_Text_HectorPostBattle {
-    format("The door to the ruins… It has these strange patterns\l engraved on the outside.\p I don't know what they mean, though.")
+    format("The door to the ruins It has these strange patterns\l engraved on the outside.\p I don't know what they mean, though.")
 }
 

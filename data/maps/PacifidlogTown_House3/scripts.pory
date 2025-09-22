@@ -19,10 +19,10 @@ text PacifidlogTown_House3_Text_NotDesperateOrAnything {
 }
 
 text PacifidlogTown_House3_Text_ReallyWantedToGetBagon {
-    format("I know I could go looking for one on my own, but…\p But I really wanted to get a BAGON that another TRAINER caught…")
+    format("I know I could go looking for one on my own, but\p But I really wanted to get a BAGON that another TRAINER caught")
 }
 
 text PacifidlogTown_House3_Text_IsThatAPokedex {
-    format("Is that a POKéDEX?\p Did you get to meet a lot of different POKéMON?\p I wish I was like you.")
+    format("Is that a POKDEX?\p Did you get to meet a lot of different POKMON?\p I wish I was like you.")
 }
 

@@ -4,7 +4,7 @@ mapscripts ThreeIsland_BerryForest_MapScripts {
 
 
 text ThreeIsland_BerryForest_Text_HelpScaryPokemon {
-    format("LOSTELLE: Whimper… Sniff… Oh! Please, help!\p A scary POKéMON appeared there a little while ago.\p It kept scaring. It made LOSTELLE scared.\p I'm too scared to move! But I want to go home…")
+    format("LOSTELLE: Whimper Sniff Oh! Please, help!\p A scary POKMON appeared there a little while ago.\p It kept scaring. It made LOSTELLE scared.\p I'm too scared to move! But I want to go home")
 }
 
 text ThreeIsland_BerryForest_Text_HereItComesAgain {
@@ -24,10 +24,10 @@ text ThreeIsland_BerryForest_Text_BerryPouchIsFull {
 }
 
 text ThreeIsland_BerryForest_Text_WelcomeToBerryForest {
-    format("Welcome to the BERRY FOREST\p Be friendly and share BERRIES with others and POKéMON.")
+    format("Welcome to the BERRY FOREST\p Be friendly and share BERRIES with others and POKMON.")
 }
 
 text ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons {
-    format("Beware of wild, BERRY-loving POKéMON!")
+    format("Beware of wild, BERRY-loving POKMON!")
 }
 

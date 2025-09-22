@@ -7,6 +7,6 @@ text OneIsland_House1_Text_GazeUponVolcanoOnSunnyDays {
 }
 
 text OneIsland_House1_Text_LastTimeMtEmberErupted {
-    format("Let me think… When was the last time MT. EMBER erupted?")
+    format("Let me think When was the last time MT. EMBER erupted?")
 }
 

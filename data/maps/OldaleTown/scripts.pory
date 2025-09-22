@@ -8,27 +8,27 @@ text OldaleTown_Text_SavingMyProgress {
 }
 
 text OldaleTown_Text_IWorkAtPokemonMart {
-    format("Hi! I work at a POKéMON MART.\p Can I get you to come with me?")
+    format("Hi! I work at a POKMON MART.\p Can I get you to come with me?")
 }
 
 text OldaleTown_Text_ThisIsAPokemonMart {
-    format("This is a POKéMON MART. Just look for our blue roof.\p We sell a variety of goods including POKé BALLS for catching POKéMON.\p Here, I'd like you to have this as a promotional item.")
+    format("This is a POKMON MART. Just look for our blue roof.\p We sell a variety of goods including POK BALLS for catching POKMON.\p Here, I'd like you to have this as a promotional item.")
 }
 
 text OldaleTown_Text_PotionExplanation {
-    format("A POTION can be used anytime, so it's even more useful than a POKéMON CENTER\l in certain situations.")
+    format("A POTION can be used anytime, so it's even more useful than a POKMON CENTER\l in certain situations.")
 }
 
 text OldaleTown_Text_WaitDontComeInHere {
-    format("Aaaaah! Wait! Please don't come in here.\p I just discovered the footprints of a rare POKéMON!\p Wait until I finish sketching them, okay?")
+    format("Aaaaah! Wait! Please don't come in here.\p I just discovered the footprints of a rare POKMON!\p Wait until I finish sketching them, okay?")
 }
 
 text OldaleTown_Text_DiscoveredFootprints {
-    format("I just discovered the footprints of a rare POKéMON!\p Wait until I finish sketching them, okay?")
+    format("I just discovered the footprints of a rare POKMON!\p Wait until I finish sketching them, okay?")
 }
 
 text OldaleTown_Text_FinishedSketchingFootprints {
-    format("I finished sketching the footprints of a rare POKéMON.\p But it turns out they were only my own footprints…")
+    format("I finished sketching the footprints of a rare POKMON.\p But it turns out they were only my own footprints")
 }
 
 text OldaleTown_Text_MayLetsGoBack {
@@ -40,6 +40,6 @@ text OldaleTown_Text_BrendanLetsGoBack {
 }
 
 text OldaleTown_Text_TownSign {
-    format("OLDALE TOWN “Where things start off scarce.”")
+    format("OLDALE TOWN Where things start off scarce.")
 }
 

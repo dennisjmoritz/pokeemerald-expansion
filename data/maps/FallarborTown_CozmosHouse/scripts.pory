@@ -3,11 +3,11 @@ mapscripts FallarborTown_CozmosHouse_MapScripts {
 
 
 text FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow {
-    format("PROF. COZMO: Oh… I never should have let myself be\l conned into telling TEAM MAGMA where\l you can find METEORITES…\p That METEORITE from METEOR FALLS… It's never going to be mine now…")
+    format("PROF. COZMO: Oh I never should have let myself be\l conned into telling TEAM MAGMA where\l you can find METEORITES\p That METEORITE from METEOR FALLS It's never going to be mine now")
 }
 
 text FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt {
-    format("Oh! Hah?\p That item…\p Could it be?\p Is it the METEORITE that TEAM MAGMA took from METEOR FALLS?\p Please, may I have it?\p I'm not asking for it for free. How about in exchange for this TM?")
+    format("Oh! Hah?\p That item\p Could it be?\p Is it the METEORITE that TEAM MAGMA took from METEOR FALLS?\p Please, may I have it?\p I'm not asking for it for free. How about in exchange for this TM?")
 }
 
 text FallarborTown_CozmosHouse_Text_PleaseUseThisTM {
@@ -19,7 +19,7 @@ text FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch {
 }
 
 text FallarborTown_CozmosHouse_Text_CrushedWithDisappointment {
-    format("PROF. COZMO: Oh, but… I'm crushed with disappointment…")
+    format("PROF. COZMO: Oh, but I'm crushed with disappointment")
 }
 
 text FallarborTown_CozmosHouse_Text_MayIHaveMeteorite {
@@ -31,10 +31,10 @@ text FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls {
 }
 
 text FallarborTown_CozmosHouse_Text_FeelSorryForCozmo {
-    format("Poor PROF. COZMO… He's so depressed… I feel sorry for him.")
+    format("Poor PROF. COZMO He's so depressed I feel sorry for him.")
 }
 
 text FallarborTown_CozmosHouse_Text_CozmoIsSoHappy {
-    format("Look at PROF. COZMO… He's so happy! I think it's cute.")
+    format("Look at PROF. COZMO He's so happy! I think it's cute.")
 }
 

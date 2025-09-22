@@ -20,7 +20,7 @@ text MossdeepCity_Text_WhatToDoWithWeirdRock {
 }
 
 text MossdeepCity_Text_WailmerWatching {
-    format("Around MOSSDEEP, you can see wild WAILMER.\p It's called, uh… What was it now…\p WAI, WAI, WAI…\p WAILMER watching!")
+    format("Around MOSSDEEP, you can see wild WAILMER.\p It's called, uh What was it now\p WAI, WAI, WAI\p WAILMER watching!")
 }
 
 text MossdeepCity_Text_SpaceCenterReceivedLetter {
@@ -48,7 +48,7 @@ text MossdeepCity_Text_LifeNeedsSeaToLive {
 }
 
 text MossdeepCity_Text_SurfExhilarating {
-    format("A voyage on a ship is fine.\p But crossing the sea with POKéMON using SURF…\p Now that's an exhilarating trip! Wouldn't you agree, youngster?")
+    format("A voyage on a ship is fine.\p But crossing the sea with POKMON using SURF\p Now that's an exhilarating trip! Wouldn't you agree, youngster?")
 }
 
 text MossdeepCity_Text_SpecialSpaceCenterRock {
@@ -60,22 +60,22 @@ text MossdeepCity_Text_ItsAWhiteRock {
 }
 
 text MossdeepCity_Text_GymSign {
-    format("MOSSDEEP CITY POKéMON GYM LEADERS: LIZA & TATE\p “The mystic combination!”")
+    format("MOSSDEEP CITY POKMON GYM LEADERS: LIZA & TATE\p The mystic combination!")
 }
 
 text MossdeepCity_Text_CitySign {
-    format("MOSSDEEP CITY “Our slogan: Cherish POKéMON!”")
+    format("MOSSDEEP CITY Our slogan: Cherish POKMON!")
 }
 
 text MossdeepCity_Text_SpaceCenterSign {
-    format("MOSSDEEP SPACE CENTER “The closest place to space.”")
+    format("MOSSDEEP SPACE CENTER The closest place to space.")
 }
 
 text MossdeepCity_Text_ScottSomethingWrongWithTown {
-    format("SCOTT: {PLAYER}{KUN}, feeling good? I'm doing great!\p I'd heard MOSSDEEP's GYM LEADER is pretty strong, so I decided to come\l take a look-see for myself.\p But there's something wrong about this town.\p People are going on about a warning letter and the SPACE CENTER…\p I don't think it concerns me in any way, though.")
+    format("SCOTT: {PLAYER}{KUN}, feeling good? I'm doing great!\p I'd heard MOSSDEEP's GYM LEADER is pretty strong, so I decided to come\l take a look-see for myself.\p But there's something wrong about this town.\p People are going on about a warning letter and the SPACE CENTER\p I don't think it concerns me in any way, though.")
 }
 
 text MossdeepCity_Text_SootopolisNewGymLeader {
-    format("Ahh… It feels great letting the waves wash over my feet…\p Speaking of the waves, you know that island city SOOTOPOLIS?\p I think the GYM there had a new LEADER come in.\p People tell me the new LEADER once mentored WALLACE.")
+    format("Ahh It feels great letting the waves wash over my feet\p Speaking of the waves, you know that island city SOOTOPOLIS?\p I think the GYM there had a new LEADER come in.\p People tell me the new LEADER once mentored WALLACE.")
 }
 

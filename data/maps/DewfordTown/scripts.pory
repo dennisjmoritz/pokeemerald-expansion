@@ -8,15 +8,15 @@ text DewfordTown_Text_TinyIslandCommunity {
 }
 
 text DewfordTown_Text_TownSign {
-    format("DEWFORD TOWN “A tiny island in the blue sea.”")
+    format("DEWFORD TOWN A tiny island in the blue sea.")
 }
 
 text DewfordTown_Text_GymSign {
-    format("DEWFORD TOWN POKéMON GYM LEADER: BRAWLY\l “A big wave in fighting!”")
+    format("DEWFORD TOWN POKMON GYM LEADER: BRAWLY\l A big wave in fighting!")
 }
 
 text DewfordTown_Text_HallSign {
-    format("DEWFORD HALL “Everyone's information exchange!”")
+    format("DEWFORD HALL Everyone's information exchange!")
 }
 
 text Route104_Text_LandedInDewfordDeliverLetter {
@@ -64,7 +64,7 @@ text DewfordTown_Text_GiveYouOneOfMyRods {
 }
 
 text DewfordTown_Text_ThrowInFishingAdvice {
-    format("And, as an added bonus, I'll even throw in a little fishing advice!\p First, you want to face the water, then use the ROD.\p Focus your mind… If you get a bite, pull on the ROD.\p Sometimes you can snag something immediately, but with bigger catches,\l you need to time the pulls on your ROD\l to haul them in.")
+    format("And, as an added bonus, I'll even throw in a little fishing advice!\p First, you want to face the water, then use the ROD.\p Focus your mind If you get a bite, pull on the ROD.\p Sometimes you can snag something immediately, but with bigger catches,\l you need to time the pulls on your ROD\l to haul them in.")
 }
 
 text DewfordTown_Text_ThatsTooBadThen {
@@ -80,23 +80,23 @@ text DewfordTown_Text_GreatHaulInSomeBigOnes {
 }
 
 text DewfordTown_Text_FishingAdvice {
-    format("Oh, hey, don't get down on yourself! I'll give you a little fishing advice.\p First, you want to face the water, then use the ROD.\p Focus your mind… If you get a bite, pull the ROD.\p Sometimes you can snag something immediately, but with bigger catches,\l you need to time the pulls on your ROD\l to haul them in.")
+    format("Oh, hey, don't get down on yourself! I'll give you a little fishing advice.\p First, you want to face the water, then use the ROD.\p Focus your mind If you get a bite, pull the ROD.\p Sometimes you can snag something immediately, but with bigger catches,\l you need to time the pulls on your ROD\l to haul them in.")
 }
 
 text DewfordTown_Text_XIsTheBiggestHappeningThingRight {
-    format("I like what's hip, happening, and trendy. I'm always checking it out.\p Listen, have you heard about this new “{STR_VAR_1}”?\p That's right! Of course you know!\p I mean, sheesh, “{STR_VAR_1}”…\l It's the hottest thing in cool!\p Wherever you're from, “{STR_VAR_1}”\l is the biggest happening thing, right?")
+    format("I like what's hip, happening, and trendy. I'm always checking it out.\p Listen, have you heard about this new {STR_VAR_1}?\p That's right! Of course you know!\p I mean, sheesh, {STR_VAR_1}\l It's the hottest thing in cool!\p Wherever you're from, {STR_VAR_1}\l is the biggest happening thing, right?")
 }
 
 text DewfordTown_Text_TellMeWhatsNewAndIn {
-    format("Hunh? It's not the hip and happening thing?\p Well, hey, you have to tell me, what's new and what's “in”?")
+    format("Hunh? It's not the hip and happening thing?\p Well, hey, you have to tell me, what's new and what's in?")
 }
 
 text DewfordTown_Text_OfCourseIKnowAboutThat {
-    format("Hunh? “{STR_VAR_2}”?\p … …\p …Uh… Yeah! That's right! Yeah, I knew that! Knew it all along!\p Of course I know about that! “{STR_VAR_2},” right?\p Yeah, that's it, it's there! Isn't “{STR_VAR_2}”\l the coolest, or what?\p It's the hippest thing in hip. You think I'd not know about it?\p “{STR_VAR_1}”… It's, like, so five minutes ago.\p Now, “{STR_VAR_2}” is what's vital and in tune with the times!")
+    format("Hunh? {STR_VAR_2}?\p  \p Uh Yeah! That's right! Yeah, I knew that! Knew it all along!\p Of course I know about that! {STR_VAR_2}, right?\p Yeah, that's it, it's there! Isn't {STR_VAR_2}\l the coolest, or what?\p It's the hippest thing in hip. You think I'd not know about it?\p {STR_VAR_1} It's, like, so five minutes ago.\p Now, {STR_VAR_2} is what's vital and in tune with the times!")
 }
 
 text DewfordTown_Text_XHuhIThinkYIsCool {
-    format("Hmm… “{STR_VAR_2},” huh?\p But personally, I think “{STR_VAR_1}”\l is what's real in cool.")
+    format("Hmm {STR_VAR_2}, huh?\p But personally, I think {STR_VAR_1}\l is what's real in cool.")
 }
 
 text DewfordTown_Text_HearOfAnyTrendsComeShareWithMe {
@@ -104,6 +104,6 @@ text DewfordTown_Text_HearOfAnyTrendsComeShareWithMe {
 }
 
 text DewfordTown_Text_YeahDefinitionOfInRightNow {
-    format("Yeah, absolutely right!\p “{STR_VAR_1}” is the definition of “in” right now.")
+    format("Yeah, absolutely right!\p {STR_VAR_1} is the definition of in right now.")
 }
 

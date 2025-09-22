@@ -5,6 +5,6 @@ mapscripts InsideOfTruck_MapScripts {
 
 
 text InsideOfTruck_Text_BoxPrintedWithMonLogo {
-    format("The box is printed with a POKéMON logo.\p It's a POKéMON brand moving and delivery service.")
+    format("The box is printed with a POKMON logo.\p It's a POKMON brand moving and delivery service.")
 }
 

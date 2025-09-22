@@ -7,18 +7,18 @@ mapscripts PokemonLeague_LancesRoom_MapScripts {
 
 
 text PokemonLeague_LancesRoom_Text_Intro {
-    format("Ah! I've heard about you, {PLAYER}!\p I lead the ELITE FOUR.\p You can call me LANCE the dragon TRAINER.\p You know that dragons are mythical POKéMON.\p They're hard to catch and raise, but their powers are superior.\p They're virtually indestructible. There's no being clever with them.\p Well, are you ready to lose?\p Your LEAGUE challenge ends with me, {PLAYER}!{PLAY_BGM}{MUS_RG_GYM}")
+    format("Ah! I've heard about you, {PLAYER}!\p I lead the ELITE FOUR.\p You can call me LANCE the dragon TRAINER.\p You know that dragons are mythical POKMON.\p They're hard to catch and raise, but their powers are superior.\p They're virtually indestructible. There's no being clever with them.\p Well, are you ready to lose?\p Your LEAGUE challenge ends with me, {PLAYER}!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text PokemonLeague_LancesRoom_Text_RematchIntro {
-    format("Ah! So, you've returned, {PLAYER}!\p I lead the ELITE FOUR.\p You can call me LANCE the dragon TRAINER.\p You know that dragons are mythical POKéMON.\p They're hard to catch and raise, but their powers are superior.\p They're virtually indestructible. There's no being clever with them.\p Well, are you ready to lose?\p Your LEAGUE challenge ends with me, {PLAYER}!{PLAY_BGM}{MUS_RG_GYM}")
+    format("Ah! So, you've returned, {PLAYER}!\p I lead the ELITE FOUR.\p You can call me LANCE the dragon TRAINER.\p You know that dragons are mythical POKMON.\p They're hard to catch and raise, but their powers are superior.\p They're virtually indestructible. There's no being clever with them.\p Well, are you ready to lose?\p Your LEAGUE challenge ends with me, {PLAYER}!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text PokemonLeague_LancesRoom_Text_Defeat {
-    format("That's it!\p I hate to admit it, but you are a POKéMON master!")
+    format("That's it!\p I hate to admit it, but you are a POKMON master!")
 }
 
 text PokemonLeague_LancesRoom_Text_PostBattle {
-    format("I still can't believe my dragons lost to you, {PLAYER}.\p You are now the POKéMON LEAGUE CHAMPION!\p …Or, you would have been, but you have one more challenge left.\p There is one more TRAINER to face! His name is…\p {RIVAL}!\p He beat the ELITE FOUR before you.\p He is the real POKéMON LEAGUE CHAMPION.")
+    format("I still can't believe my dragons lost to you, {PLAYER}.\p You are now the POKMON LEAGUE CHAMPION!\p Or, you would have been, but you have one more challenge left.\p There is one more TRAINER to face! His name is\p {RIVAL}!\p He beat the ELITE FOUR before you.\p He is the real POKMON LEAGUE CHAMPION.")
 }
 

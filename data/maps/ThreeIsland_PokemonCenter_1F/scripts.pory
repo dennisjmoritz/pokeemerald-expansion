@@ -13,6 +13,6 @@ text ThreeIsland_PokemonCenter_1F_Text_ImpossibleToSurfBetweenIslands {
 }
 
 text ThreeIsland_PokemonCenter_1F_Text_AlwaysBerriesInBerryForest {
-    format("Let's crush BERRIES! …That'd be wasting BERRIES?\p You can always find some BERRIES on the ground in BERRY FOREST.")
+    format("Let's crush BERRIES! That'd be wasting BERRIES?\p You can always find some BERRIES on the ground in BERRY FOREST.")
 }
 

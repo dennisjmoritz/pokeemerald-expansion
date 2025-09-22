@@ -7,6 +7,6 @@ text FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants {
 }
 
 text FuchsiaCity_Mart_Text_DidYouTryXSpeed {
-    format("Did you try X SPEED? It speeds up a POKéMON in battle.")
+    format("Did you try X SPEED? It speeds up a POKMON in battle.")
 }
 

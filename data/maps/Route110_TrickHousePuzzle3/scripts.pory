@@ -5,7 +5,7 @@ mapscripts Route110_TrickHousePuzzle3_MapScripts {
 
 
 text Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened {
-    format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is coveted.” … … … … … … … …\p The lock clicked open!")
+    format("{PLAYER} wrote down the secret code on the door.\p TRICK MASTER is coveted.        \p The lock clicked open!")
 }
 
 text Route110_TrickHousePuzzle3_Text_JustinIntro {
@@ -21,11 +21,11 @@ text Route110_TrickHousePuzzle3_Text_JustinPostBattle {
 }
 
 text Route110_TrickHousePuzzle3_Text_MarthaIntro {
-    format("I don't know what's going on here. I'm starting to feel sad…")
+    format("I don't know what's going on here. I'm starting to feel sad")
 }
 
 text Route110_TrickHousePuzzle3_Text_MarthaDefeat {
-    format("You… You're awful!")
+    format("You You're awful!")
 }
 
 text Route110_TrickHousePuzzle3_Text_MarthaPostBattle {

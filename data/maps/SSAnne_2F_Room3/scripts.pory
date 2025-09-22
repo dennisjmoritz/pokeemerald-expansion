@@ -3,7 +3,7 @@ mapscripts SSAnne_2F_Room3_MapScripts {
 
 
 text SSAnne_2F_Room3_Text_SeenMonsFerryPeople {
-    format("Ah, yes, I have seen some POKéMON ferry people across the water!")
+    format("Ah, yes, I have seen some POKMON ferry people across the water!")
 }
 
 text SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown {

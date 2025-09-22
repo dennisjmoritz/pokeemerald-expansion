@@ -28,7 +28,7 @@ text SaffronCity_Text_WatchWhereYoureWalking {
 }
 
 text SaffronCity_Text_WeCanExploitMonsAroundWorld {
-    format("With SILPH under control, we can exploit POKéMON around the world!\p We'll get stinking rich, yeahah!")
+    format("With SILPH under control, we can exploit POKMON around the world!\p We'll get stinking rich, yeahah!")
 }
 
 text SaffronCity_Text_YouBeatTeamRocket {
@@ -44,7 +44,7 @@ text SaffronCity_Text_PeopleComingBackToSaffron {
 }
 
 text SaffronCity_Text_FlewHereOnPidgeot {
-    format("I flew here on my PIDGEOT when I read about SILPH.\p It's already over? I missed the media action…")
+    format("I flew here on my PIDGEOT when I read about SILPH.\p It's already over? I missed the media action")
 }
 
 text SaffronCity_Text_Pidgeot {
@@ -60,7 +60,7 @@ text SaffronCity_Text_ImASecurityGuard {
 }
 
 text SaffronCity_Text_HesTakingASnooze {
-    format("… Snore…\p Hah! He's taking a snooze!")
+    format(" Snore\p Hah! He's taking a snooze!")
 }
 
 text SaffronCity_Text_CitySign {
@@ -72,7 +72,7 @@ text SaffronCity_Text_FightingDojo {
 }
 
 text SaffronCity_Text_GymSign {
-    format("SAFFRON CITY POKéMON GYM LEADER: SABRINA\l The Master of PSYCHIC POKéMON!")
+    format("SAFFRON CITY POKMON GYM LEADER: SABRINA\l The Master of PSYCHIC POKMON!")
 }
 
 text SaffronCity_Text_FullHealCuresStatus {
@@ -80,7 +80,7 @@ text SaffronCity_Text_FullHealCuresStatus {
 }
 
 text SaffronCity_Text_GreatBallImprovedCatchRate {
-    format("TRAINER TIPS\p The new GREAT BALL offers improved catching rates.\p Try it on those hard-to-catch POKéMON.")
+    format("TRAINER TIPS\p The new GREAT BALL offers improved catching rates.\p Try it on those hard-to-catch POKMON.")
 }
 
 text SaffronCity_Text_SilphCoSign {
@@ -92,14 +92,14 @@ text SaffronCity_Text_MrPsychicsHouse {
 }
 
 text SaffronCity_Text_SilphsLatestProduct {
-    format("SILPH's latest product! Release to be determined…")
+    format("SILPH's latest product! Release to be determined")
 }
 
 text SaffronCity_Text_TrainerFanClubSign {
-    format("POKéMON TRAINER FAN CLUB\p Many TRAINERS have scribbled their names on this sign.")
+    format("POKMON TRAINER FAN CLUB\p Many TRAINERS have scribbled their names on this sign.")
 }
 
 text SaffronCity_Text_HowCanClubNotRecognizeLance {
-    format("This FAN CLUB… No one here has a clue!\p How could they not recognize the brilliance that is LANCE?\p He stands for justice! He's cool, and yet passionate!\l He's the greatest, LANCE!")
+    format("This FAN CLUB No one here has a clue!\p How could they not recognize the brilliance that is LANCE?\p He stands for justice! He's cool, and yet passionate!\l He's the greatest, LANCE!")
 }
 

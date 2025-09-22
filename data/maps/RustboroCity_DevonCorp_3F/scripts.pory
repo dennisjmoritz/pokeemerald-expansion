@@ -14,11 +14,11 @@ text RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis {
 }
 
 text RustboroCity_DevonCorp_3F_Text_ReceivedPokenav {
-    format("{PLAYER} received a POKéNAV.")
+    format("{PLAYER} received a POKNAV.")
 }
 
 text RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp {
-    format("MR. STONE: That device…\p It's a POKéMON NAVIGATOR, or POKéNAV for short.\p It's an indispensable tool for any TRAINER on an adventure.\p It has a map of the HOENN region.\p You can check the locations of DEWFORD and SLATEPORT easily!\p By the way, I've heard that sinister criminals--MAGMA and AQUA, I believe--\l have been making trouble far and wide.\p I think it would be best if you rested up before you go on your way.")
+    format("MR. STONE: That device\p It's a POKMON NAVIGATOR, or POKNAV for short.\p It's an indispensable tool for any TRAINER on an adventure.\p It has a map of the HOENN region.\p You can check the locations of DEWFORD and SLATEPORT easily!\p By the way, I've heard that sinister criminals--MAGMA and AQUA, I believe--\l have been making trouble far and wide.\p I think it would be best if you rested up before you go on your way.")
 }
 
 text RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare {
@@ -34,15 +34,15 @@ text RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter {
 }
 
 text RustboroCity_DevonCorp_3F_Text_ExplainExpShare {
-    format("MR. STONE: A POKéMON holding that EXP. SHARE will be given some of the\l EXP Points from battle.\p It will get EXP Points even if it didn't actually battle.\p I would say EXP. SHARE is quite useful for raising weak POKéMON.")
+    format("MR. STONE: A POKMON holding that EXP. SHARE will be given some of the\l EXP Points from battle.\p It will get EXP Points even if it didn't actually battle.\p I would say EXP. SHARE is quite useful for raising weak POKMON.")
 }
 
 text RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends {
-    format("MR. STONE: Since my youth, I've immersed myself in work.\p Consequently, I'm not familiar with trends and that sort of thing.\p But do young people all want to be TRAINERS in the POKéMON LEAGUE?")
+    format("MR. STONE: Since my youth, I've immersed myself in work.\p Consequently, I'm not familiar with trends and that sort of thing.\p But do young people all want to be TRAINERS in the POKMON LEAGUE?")
 }
 
 text RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere {
-    format("This is the DEVON CORPORATION's third floor.\p Our PRESIDENT's OFFICE is on this floor.\p Anyway, I can't tell you how much I'm grateful for what you've done.\p Um… By the way, that parcel you got back for us…\p Could I get you to deliver that to the SHIPYARD in SLATEPORT?\p It would be awful if those robbers tried to take it again.\p Uh… Hehehe, so, uh, could I count on you to do that for me?\p Oh, that's right. Could you wait here a second?")
+    format("This is the DEVON CORPORATION's third floor.\p Our PRESIDENT's OFFICE is on this floor.\p Anyway, I can't tell you how much I'm grateful for what you've done.\p Um By the way, that parcel you got back for us\p Could I get you to deliver that to the SHIPYARD in SLATEPORT?\p It would be awful if those robbers tried to take it again.\p Uh Hehehe, so, uh, could I count on you to do that for me?\p Oh, that's right. Could you wait here a second?")
 }
 
 text RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe {

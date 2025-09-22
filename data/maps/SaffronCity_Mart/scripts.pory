@@ -3,10 +3,10 @@ mapscripts SaffronCity_Mart_MapScripts {
 
 
 text SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper {
-    format("MAX REPEL keeps weaker POKéMON from appearing.\p MAX REPEL stays effective longer than SUPER REPEL.")
+    format("MAX REPEL keeps weaker POKMON from appearing.\p MAX REPEL stays effective longer than SUPER REPEL.")
 }
 
 text SaffronCity_Mart_Text_ReviveIsCostly {
-    format("REVIVE is costly, but it revives fainted POKéMON!")
+    format("REVIVE is costly, but it revives fainted POKMON!")
 }
 

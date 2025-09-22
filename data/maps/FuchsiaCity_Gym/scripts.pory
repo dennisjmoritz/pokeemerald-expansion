@@ -3,7 +3,7 @@ mapscripts FuchsiaCity_Gym_MapScripts {
 
 
 text FuchsiaCity_Gym_Text_KogaIntro {
-    format("KOGA: Fwahahaha!\p A mere child like you dares to challenge me?\p The very idea makes me shiver with mirth!\p Very well, I shall show you true terror as a ninja master.\p Poison brings steady doom. Sleep renders foes helpless.\p Despair to the creeping horror of POISON-type POKéMON!{PLAY_BGM}{MUS_RG_GYM}")
+    format("KOGA: Fwahahaha!\p A mere child like you dares to challenge me?\p The very idea makes me shiver with mirth!\p Very well, I shall show you true terror as a ninja master.\p Poison brings steady doom. Sleep renders foes helpless.\p Despair to the creeping horror of POISON-type POKMON!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text FuchsiaCity_Gym_Text_KogaDefeat {
@@ -11,11 +11,11 @@ text FuchsiaCity_Gym_Text_KogaDefeat {
 }
 
 text FuchsiaCity_Gym_Text_KogaPostBattle {
-    format("When afflicted by TOXIC, a POKéMON suffers more and more.\p It suffers worsening damage as the battle wears on!\p It will surely terrorize foes!")
+    format("When afflicted by TOXIC, a POKMON suffers more and more.\p It suffers worsening damage as the battle wears on!\p It will surely terrorize foes!")
 }
 
 text FuchsiaCity_Gym_Text_KogaExplainSoulBadge {
-    format("Now that you have the SOULBADGE, the DEFENSE of your POKéMON rises.\p It also lets you SURF outside of battle.\p Ah! Take this, too!")
+    format("Now that you have the SOULBADGE, the DEFENSE of your POKMON rises.\p It also lets you SURF outside of battle.\p Ah! Take this, too!")
 }
 
 text FuchsiaCity_Gym_Text_ReceivedTM06FromKoga {
@@ -31,7 +31,7 @@ text FuchsiaCity_Gym_Text_MakeSpaceForThis {
 }
 
 text FuchsiaCity_Gym_Text_KaydenIntro {
-    format("Strength isn't the key for POKéMON. Do you understand this?\p POKéMON is about strategy!\p I'll show you how strategy can beat brute strength.")
+    format("Strength isn't the key for POKMON. Do you understand this?\p POKMON is about strategy!\p I'll show you how strategy can beat brute strength.")
 }
 
 text FuchsiaCity_Gym_Text_KaydenDefeat {
@@ -111,10 +111,10 @@ text FuchsiaCity_Gym_Text_GymGuyPostVictory {
 }
 
 text FuchsiaCity_Gym_Text_GymStatue {
-    format("FUCHSIA POKéMON GYM LEADER: KOGA\p WINNING TRAINERS: {RIVAL}")
+    format("FUCHSIA POKMON GYM LEADER: KOGA\p WINNING TRAINERS: {RIVAL}")
 }
 
 text FuchsiaCity_Gym_Text_GymStatuePlayerWon {
-    format("FUCHSIA POKéMON GYM LEADER: KOGA\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+    format("FUCHSIA POKMON GYM LEADER: KOGA\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
 }
 

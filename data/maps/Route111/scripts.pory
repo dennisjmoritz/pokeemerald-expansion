@@ -7,7 +7,7 @@ mapscripts Route111_MapScripts {
 
 
 text Route111_Text_BattleOurFamily {
-    format("Hello! I take it you're a traveler.\p How's this? What do you say to taking on our family of four in a series of\l POKéMON battles?")
+    format("Hello! I take it you're a traveler.\p How's this? What do you say to taking on our family of four in a series of\l POKMON battles?")
 }
 
 text Route111_Text_IsThatSo {
@@ -47,7 +47,7 @@ text Route111_Text_ViviDefeat {
 }
 
 text Route111_Text_ViviPostBattle {
-    format("This stinks…\p …Snivel… Grandma!")
+    format("This stinks\p Snivel Grandma!")
 }
 
 text Route111_Text_VickyIntro {
@@ -55,7 +55,7 @@ text Route111_Text_VickyIntro {
 }
 
 text Route111_Text_VickyDefeat {
-    format("Kwah! You are strong… My granddaughter was right…")
+    format("Kwah! You are strong My granddaughter was right")
 }
 
 text Route111_Text_VickyPostBattle {
@@ -63,11 +63,11 @@ text Route111_Text_VickyPostBattle {
 }
 
 text Route111_Text_ToughToKeepWinningUpTheRanks {
-    format("If you don't raise your POKéMON some more, it could be tough to keep winning\l up through the ranks.\p I've heard the POKéMON LEAGUE's ELITE FOUR are far stronger than\l any GYM LEADER.")
+    format("If you don't raise your POKMON some more, it could be tough to keep winning\l up through the ranks.\p I've heard the POKMON LEAGUE's ELITE FOUR are far stronger than\l any GYM LEADER.")
 }
 
 text Route111_Text_WinstrateFamilyDestroyedMe {
-    format("I challenged the WINSTRATE family, but four matches in a row is tough\l going… They destroyed me.")
+    format("I challenged the WINSTRATE family, but four matches in a row is tough\l going They destroyed me.")
 }
 
 text Route111_Text_RouteSignMauville {
@@ -75,7 +75,7 @@ text Route111_Text_RouteSignMauville {
 }
 
 text Route111_Text_WinstrateHouseSign {
-    format("“Our family's hearts beat as one!” THE WINSTRATE'S HOUSE")
+    format("Our family's hearts beat as one! THE WINSTRATE'S HOUSE")
 }
 
 text Route111_Text_RouteSign112 {
@@ -87,11 +87,11 @@ text Route111_Text_RouteSign113 {
 }
 
 text Route111_Text_OldLadysRestStopSign {
-    format("OLD LADY'S REST STOP “Come in and rest your tired bones.”")
+    format("OLD LADY'S REST STOP Come in and rest your tired bones.")
 }
 
 text Route111_Text_TrainerTipsSpAtkSpDef {
-    format("TRAINER TIPS\p One of the indicators of a POKéMON's powerfulness is SP. ATK. It stands for\l “SPECIAL ATTACK.”\p Likewise, SP. DEF stands for “SPECIAL DEFENSE.”")
+    format("TRAINER TIPS\p One of the indicators of a POKMON's powerfulness is SP. ATK. It stands for\l SPECIAL ATTACK.\p Likewise, SP. DEF stands for SPECIAL DEFENSE.")
 }
 
 text Route111_Text_ShouldBeMirageTowerAroundHere {
@@ -99,23 +99,23 @@ text Route111_Text_ShouldBeMirageTowerAroundHere {
 }
 
 text Route111_Text_MirageTowerClearlyVisible {
-    format("I see it! The tower of sand!\p The sand tower they called a mirage is clearly visible!\p But it looks so fragile… It could crumble away anytime…\p I want to go inside it, but I can't get my courage up for it…")
+    format("I see it! The tower of sand!\p The sand tower they called a mirage is clearly visible!\p But it looks so fragile It could crumble away anytime\p I want to go inside it, but I can't get my courage up for it")
 }
 
 text Route111_Text_ThatWasShockingSandRainedDown {
-    format("Whoa… That was shocking.\p Sand rained down in chunks all of a sudden.\p What was it like inside? Were there sandy ghosts and such?")
+    format("Whoa That was shocking.\p Sand rained down in chunks all of a sudden.\p What was it like inside? Were there sandy ghosts and such?")
 }
 
 text Route111_Text_MirageTowerHasntBeenSeenSince {
-    format("Since I spoke to you, the tower of sand hasn't been seen.\p Perhaps it really was the MIRAGE TOWER…")
+    format("Since I spoke to you, the tower of sand hasn't been seen.\p Perhaps it really was the MIRAGE TOWER")
 }
 
 text Route111_Text_ClawFossilDisappeared {
-    format("The CLAW FOSSIL disappeared into the sand…")
+    format("The CLAW FOSSIL disappeared into the sand")
 }
 
 text Route111_Text_RootFossilDisappeared {
-    format("The ROOT FOSSIL disappeared into the sand…")
+    format("The ROOT FOSSIL disappeared into the sand")
 }
 
 text Route111_Text_MauvilleUncleToldMeToTakeRockSmash {
@@ -123,6 +123,6 @@ text Route111_Text_MauvilleUncleToldMeToTakeRockSmash {
 }
 
 text Route111_Text_TrainerHillSign {
-    format("{RIGHT_ARROW} TRAINER HILL ENTRANCE\p “Scale the heights, you hot-blooded TRAINERS!”")
+    format("{RIGHT_ARROW} TRAINER HILL ENTRANCE\p Scale the heights, you hot-blooded TRAINERS!")
 }
 

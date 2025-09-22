@@ -3,11 +3,11 @@ mapscripts FuchsiaCity_House3_MapScripts {
 
 
 text FuchsiaCity_House3_Text_WouldYouLikeToForgetMove {
-    format("Uh… Oh, yes, I'm the MOVE DELETER.\p I can make POKéMON forget their moves.\p Would you like me to do that?")
+    format("Uh Oh, yes, I'm the MOVE DELETER.\p I can make POKMON forget their moves.\p Would you like me to do that?")
 }
 
 text FuchsiaCity_House3_Text_WhichMonShouldForgetMove {
-    format("Which POKéMON should forget a move?")
+    format("Which POKMON should forget a move?")
 }
 
 text FuchsiaCity_House3_Text_WhichMoveShouldBeForgotten {
@@ -15,7 +15,7 @@ text FuchsiaCity_House3_Text_WhichMoveShouldBeForgotten {
 }
 
 text FuchsiaCity_House3_Text_MonOnlyKnowsOneMove {
-    format("{STR_VAR_1} seems to know only one move…")
+    format("{STR_VAR_1} seems to know only one move")
 }
 
 text FuchsiaCity_House3_Text_MonsMoveShouldBeForgotten {

@@ -12,11 +12,11 @@ text Text_DoubleEdgeDeclined {
 }
 
 text Text_DoubleEdgeWhichMon {
-    format("Which POKéMON should I teach DOUBLE-EDGE?")
+    format("Which POKMON should I teach DOUBLE-EDGE?")
 }
 
 text Text_DoubleEdgeTaught {
-    format("Keep that drive going for the POKéMON LEAGUE!\p Take a run at them and knock 'em out!")
+    format("Keep that drive going for the POKMON LEAGUE!\p Take a run at them and knock 'em out!")
 }
 
 text VictoryRoad_3F_Text_GeorgeIntro {
@@ -52,7 +52,7 @@ text VictoryRoad_3F_Text_CarolineDefeat {
 }
 
 text VictoryRoad_3F_Text_CarolinePostBattle {
-    format("You showed me just how good I was…")
+    format("You showed me just how good I was")
 }
 
 text VictoryRoad_3F_Text_ColbyIntro {
@@ -64,7 +64,7 @@ text VictoryRoad_3F_Text_ColbyDefeat {
 }
 
 text VictoryRoad_3F_Text_ColbyPostBattle {
-    format("All TRAINERS here are headed to the POKéMON LEAGUE.\p Don't let down your guard.")
+    format("All TRAINERS here are headed to the POKMON LEAGUE.\p Don't let down your guard.")
 }
 
 text VictoryRoad_3F_Text_RayIntro {
@@ -76,11 +76,11 @@ text VictoryRoad_3F_Text_RayDefeat {
 }
 
 text VictoryRoad_3F_Text_RayPostBattle {
-    format("RAY: You've beaten us. Greatness remains elusive…")
+    format("RAY: You've beaten us. Greatness remains elusive")
 }
 
 text VictoryRoad_3F_Text_RayNotEnoughMons {
-    format("RAY: Together, the two of us are striving for the pinnacle.\p We need you to bring two POKéMON into battle with us.")
+    format("RAY: Together, the two of us are striving for the pinnacle.\p We need you to bring two POKMON into battle with us.")
 }
 
 text VictoryRoad_3F_Text_TyraIntro {
@@ -88,7 +88,7 @@ text VictoryRoad_3F_Text_TyraIntro {
 }
 
 text VictoryRoad_3F_Text_TyraDefeat {
-    format("TYRA: Oh, but…")
+    format("TYRA: Oh, but")
 }
 
 text VictoryRoad_3F_Text_TyraPostBattle {
@@ -96,6 +96,6 @@ text VictoryRoad_3F_Text_TyraPostBattle {
 }
 
 text VictoryRoad_3F_Text_TyraNotEnoughMons {
-    format("TYRA: You can't battle with us if you have only one POKéMON.")
+    format("TYRA: You can't battle with us if you have only one POKMON.")
 }
 

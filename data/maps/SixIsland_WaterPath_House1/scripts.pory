@@ -19,7 +19,7 @@ text SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne {
 }
 
 text SixIsland_WaterPath_House1_Text_ItsXInchesSameAsBefore {
-    format("Huh? This {STR_VAR_2}-inch measurement… Oh, boo! It's the same as before.")
+    format("Huh? This {STR_VAR_2}-inch measurement Oh, boo! It's the same as before.")
 }
 
 text SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest {

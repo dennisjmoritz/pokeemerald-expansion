@@ -7,15 +7,15 @@ mapscripts TwoIsland_JoyfulGameCorner_MapScripts {
 
 
 text TwoIsland_JoyfulGameCorner_Text_WhereHasLostelleGottenTo {
-    format("Now, where's LOSTELLE gotten to today?\p She always brings me lunch every day right about now…")
+    format("Now, where's LOSTELLE gotten to today?\p She always brings me lunch every day right about now")
 }
 
 text TwoIsland_JoyfulGameCorner_Text_PleaseHelpFindLostelle {
-    format("Hm? You, there! Are you a friend of LOSTELLE's?\p Have you seen LOSTELLE around? I don't know where she might be.\l She should've been here long ago.\p LOSTELLE's a cutie - she got my looks - so what if someone…\p What if something's happened to my LOSTELLE?!\p Please, help me find her! Please go search THREE ISLAND!")
+    format("Hm? You, there! Are you a friend of LOSTELLE's?\p Have you seen LOSTELLE around? I don't know where she might be.\l She should've been here long ago.\p LOSTELLE's a cutie - she got my looks - so what if someone\p What if something's happened to my LOSTELLE?!\p Please, help me find her! Please go search THREE ISLAND!")
 }
 
 text TwoIsland_JoyfulGameCorner_Text_IsThisOnlyThreeIsland {
-    format("Hah? What is this GAME CORNER? How much sadder can this get?\p Those clowns…\p They said they'd be waiting on the island, so where are they?\p Hey, you! Is this the only THREE ISLAND around here?")
+    format("Hah? What is this GAME CORNER? How much sadder can this get?\p Those clowns\p They said they'd be waiting on the island, so where are they?\p Hey, you! Is this the only THREE ISLAND around here?")
 }
 
 text TwoIsland_JoyfulGameCorner_Text_ThisIsTwoIslandMoveIt {
@@ -23,7 +23,7 @@ text TwoIsland_JoyfulGameCorner_Text_ThisIsTwoIslandMoveIt {
 }
 
 text TwoIsland_JoyfulGameCorner_Text_TheseIslandsAreConfusing {
-    format("Huh… Oh, oh, gotcha.\p Tch… These islands are confusing…")
+    format("Huh Oh, oh, gotcha.\p Tch These islands are confusing")
 }
 
 text TwoIsland_JoyfulGameCorner_Text_PunkScuffedUpMyFloor {
@@ -31,7 +31,7 @@ text TwoIsland_JoyfulGameCorner_Text_PunkScuffedUpMyFloor {
 }
 
 text TwoIsland_JoyfulGameCorner_Text_PleaseGoToThreeIsland {
-    format("Hey, but listen! I'm begging you, you have to go to THREE ISLAND.\p If anything were to happen to my LOSTELLE…\p My place is the house with the red roof on THREE ISLAND.\p She may just show up late here, so I can't run off anywhere.\p That's why I have to get you to do me this big favor.")
+    format("Hey, but listen! I'm begging you, you have to go to THREE ISLAND.\p If anything were to happen to my LOSTELLE\p My place is the house with the red roof on THREE ISLAND.\p She may just show up late here, so I can't run off anywhere.\p That's why I have to get you to do me this big favor.")
 }
 
 text TwoIsland_JoyfulGameCorner_Text_NotRunningAnyGamesToday {
@@ -67,7 +67,7 @@ text TwoIsland_JoyfulGameCorner_Text_ReceivedMoonStoneFromLostellesDaddy {
 }
 
 text TwoIsland_JoyfulGameCorner_Text_NotGoingToFitInBag {
-    format("Your BAG's not going to fit another thing…")
+    format("Your BAG's not going to fit another thing")
 }
 
 text TwoIsland_JoyfulGameCorner_Text_IllGetGameCornerRunning {

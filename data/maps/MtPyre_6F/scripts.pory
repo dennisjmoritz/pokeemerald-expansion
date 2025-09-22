@@ -3,31 +3,31 @@ mapscripts MtPyre_6F_MapScripts {
 
 
 text MtPyre_6F_Text_ValerieIntro {
-    format("When I'm here… A curious power flows into me…")
+    format("When I'm here A curious power flows into me")
 }
 
 text MtPyre_6F_Text_ValerieDefeat {
-    format("The power is ebbing away…")
+    format("The power is ebbing away")
 }
 
 text MtPyre_6F_Text_ValeriePostBattle {
-    format("Perhaps the power is from the spirits of POKéMON in fitful sleep here…")
+    format("Perhaps the power is from the spirits of POKMON in fitful sleep here")
 }
 
 text MtPyre_6F_Text_ValerieRegister {
-    format("Fufufu… I lost the match, but… I have this little ability…\p Without ever laying my hands on your POKéNAV… Hiyah!")
+    format("Fufufu I lost the match, but I have this little ability\p Without ever laying my hands on your POKNAV Hiyah!")
 }
 
 text MtPyre_6F_Text_ValerieRematchIntro {
-    format("Behind you… What is it…")
+    format("Behind you What is it")
 }
 
 text MtPyre_6F_Text_ValerieRematchDefeat {
-    format("Something faded away…")
+    format("Something faded away")
 }
 
 text MtPyre_6F_Text_ValeriePostRematch {
-    format("The POKéMON at rest here… Sometimes, they play…")
+    format("The POKMON at rest here Sometimes, they play")
 }
 
 text MtPyre_6F_Text_CedricIntro {
@@ -39,6 +39,6 @@ text MtPyre_6F_Text_CedricDefeat {
 }
 
 text MtPyre_6F_Text_CedricPostBattle {
-    format("I had this feeling that a lost TRAINER would be panicked and easy to beat.\p It's dirty and I won't try it again…")
+    format("I had this feeling that a lost TRAINER would be panicked and easy to beat.\p It's dirty and I won't try it again")
 }
 

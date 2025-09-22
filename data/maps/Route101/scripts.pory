@@ -9,7 +9,7 @@ text Route101_Text_HelpMe {
 }
 
 text Route101_Text_PleaseHelp {
-    format("Hello! You over there! Please! Help!\p In my BAG! There's a POKé BALL!")
+    format("Hello! You over there! Please! Help!\p In my BAG! There's a POK BALL!")
 }
 
 text Route101_Text_DontLeaveMe {
@@ -17,15 +17,15 @@ text Route101_Text_DontLeaveMe {
 }
 
 text Route101_Text_YouSavedMe {
-    format("PROF. BIRCH: Whew…\p I was in the tall grass studying wild POKéMON when I was jumped.\p You saved me. Thanks a lot!\p Oh?\p Hi, you're {PLAYER}{KUN}!\p This is not the place to chat, so come by my POKéMON LAB later, okay?")
+    format("PROF. BIRCH: Whew\p I was in the tall grass studying wild POKMON when I was jumped.\p You saved me. Thanks a lot!\p Oh?\p Hi, you're {PLAYER}{KUN}!\p This is not the place to chat, so come by my POKMON LAB later, okay?")
 }
 
 text Route101_Text_TakeTiredPokemonToPokeCenter {
-    format("If POKéMON get tired, take them to a POKéMON CENTER.\p There's a POKéMON CENTER in OLDALE TOWN right close by.")
+    format("If POKMON get tired, take them to a POKMON CENTER.\p There's a POKMON CENTER in OLDALE TOWN right close by.")
 }
 
 text Route101_Text_WildPokemonInTallGrass {
-    format("Wild POKéMON will jump out at you in tall grass.\p If you want to catch POKéMON, you have to go into the tall grass and search.")
+    format("Wild POKMON will jump out at you in tall grass.\p If you want to catch POKMON, you have to go into the tall grass and search.")
 }
 
 text Route101_Text_RouteSign {

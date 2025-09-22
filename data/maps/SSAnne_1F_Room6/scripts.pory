@@ -11,10 +11,10 @@ text SSAnne_1F_Room6_Text_GladEveryoneIsRefreshed {
 }
 
 text SSAnne_1F_Room6_Text_SorryYouLookLikeMyBrother {
-    format("Oh, I'm sorry for fussing over you. You look like my little brother…")
+    format("Oh, I'm sorry for fussing over you. You look like my little brother")
 }
 
 text SSAnne_1F_Room6_Text_SorryYouLookLikeMySister {
-    format("Oh, I'm sorry for fussing over you. You look like my little sister…")
+    format("Oh, I'm sorry for fussing over you. You look like my little sister")
 }
 

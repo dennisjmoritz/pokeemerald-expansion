@@ -16,7 +16,7 @@ text SilphCo_9F_Text_ThankYouSoMuch {
 }
 
 text SilphCo_9F_Text_Grunt1Intro {
-    format("Your POKéMON seem to adore you, kid!")
+    format("Your POKMON seem to adore you, kid!")
 }
 
 text SilphCo_9F_Text_Grunt1Defeat {
@@ -24,11 +24,11 @@ text SilphCo_9F_Text_Grunt1Defeat {
 }
 
 text SilphCo_9F_Text_Grunt1PostBattle {
-    format("If I had started as a TRAINER at your age…")
+    format("If I had started as a TRAINER at your age")
 }
 
 text SilphCo_9F_Text_EdIntro {
-    format("Your POKéMON have weak points! I can nail them!")
+    format("Your POKMON have weak points! I can nail them!")
 }
 
 text SilphCo_9F_Text_EdDefeat {

@@ -9,11 +9,11 @@ text AquaHideout_B1F_Text_Grunt2Intro {
 }
 
 text AquaHideout_B1F_Text_Grunt2Defeat {
-    format("I can't win at all…")
+    format("I can't win at all")
 }
 
 text AquaHideout_B1F_Text_Grunt2PostBattle {
-    format("Our HIDEOUT's secret?\p Well, let's just say… There's a submarine at the far end!\p But, by now… Kekekeke…")
+    format("Our HIDEOUT's secret?\p Well, let's just say There's a submarine at the far end!\p But, by now Kekekeke")
 }
 
 text AquaHideout_B1F_Text_Grunt3Intro {
@@ -29,11 +29,11 @@ text AquaHideout_B1F_Text_Grunt3PostBattle {
 }
 
 text AquaHideout_B1F_Text_Grunt5Intro {
-    format("Yawn… Keeping watch over the HIDEOUT bores me. I'll take you on.")
+    format("Yawn Keeping watch over the HIDEOUT bores me. I'll take you on.")
 }
 
 text AquaHideout_B1F_Text_Grunt5Defeat {
-    format("Yawn… Oh, I lost…")
+    format("Yawn Oh, I lost")
 }
 
 text AquaHideout_B1F_Text_Grunt5PostBattle {
@@ -45,7 +45,7 @@ text AquaHideout_B1F_Text_Grunt7Intro {
 }
 
 text AquaHideout_B1F_Text_Grunt7Defeat {
-    format("I lost in a cool way…")
+    format("I lost in a cool way")
 }
 
 text AquaHideout_B1F_Text_Grunt7PostBattle {

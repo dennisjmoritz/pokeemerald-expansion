@@ -5,11 +5,11 @@ mapscripts SaffronCity_PokemonTrainerFanClub_MapScripts {
 
 
 text SaffronCity_PokemonTrainerFanClub_Text_HuhYou {
-    format("Huh? You…")
+    format("Huh? You")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_YourePlayerWereYourFansNow {
-    format("Are you maybe… … …\p You are! You are {PLAYER}!\p We were just talking about you!\p We were talking about how an incredibly good TRAINER appeared.\p And that someone is you! You're so cool!\p So, we decided that we'll become your FAN CLUB!\p We all hope you'll keep battling and show us how cool you are.\p That way, maybe other people will become fans just like me.")
+    format("Are you maybe  \p You are! You are {PLAYER}!\p We were just talking about you!\p We were talking about how an incredibly good TRAINER appeared.\p And that someone is you! You're so cool!\p So, we decided that we'll become your FAN CLUB!\p We all hope you'll keep battling and show us how cool you are.\p That way, maybe other people will become fans just like me.")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou {
@@ -37,15 +37,15 @@ text SaffronCity_PokemonTrainerFanClub_Text_CanYouAutographShorts {
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_CountingOnYou {
-    format("However hot it's been…\p And however cold it may get…\p I've always believed in, and worn, shorts!\p I'm counting on you to keep winning!\p I believe in you just as much as I believe in shorts!")
+    format("However hot it's been\p And however cold it may get\p I've always believed in, and worn, shorts!\p I'm counting on you to keep winning!\p I believe in you just as much as I believe in shorts!")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero {
-    format("BROCK's my hero! He's a man among men!\p Heheh, I got my mom to do something for me.\p I got her to embroider “BROCK” on my shorts!")
+    format("BROCK's my hero! He's a man among men!\p Heheh, I got my mom to do something for me.\p I got her to embroider BROCK on my shorts!")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd {
-    format("…  …\p …  … I'm BROCK's fan!\p Even if I were his only fan, I swear it on my rock-hard will,\l and on my shorts!\p I'll be his fan to the bitter end!")
+    format("  \p    I'm BROCK's fan!\p Even if I were his only fan, I swear it on my rock-hard will,\l and on my shorts!\p I'll be his fan to the bitter end!")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool {
@@ -61,15 +61,15 @@ text SaffronCity_PokemonTrainerFanClub_Text_NeverSeenTrainerOfYourMagnificence {
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_HmmAndYouAre {
-    format("Hmm… And you are?\p Were you hoping to sign up for a membership in our FAN CLUB?")
+    format("Hmm And you are?\p Were you hoping to sign up for a membership in our FAN CLUB?")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_YouveStillAWaysToGo {
-    format("Ah, so you are the much- talked-about {PLAYER}.\p You certainly do have the look of a winner.\p But for me to accept you as a true POKéMON great…\p … …\p You've still a ways to go!")
+    format("Ah, so you are the much- talked-about {PLAYER}.\p You certainly do have the look of a winner.\p But for me to accept you as a true POKMON great\p  \p You've still a ways to go!")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_YoullBeTalkedAboutIfYouKeepWinning {
-    format("All of us gathered here are fans of POKéMON TRAINERS.\p The way they look in battle… They are the picture of coolness.\p Perhaps you will be talked about here, too, if you keep winning.")
+    format("All of us gathered here are fans of POKMON TRAINERS.\p The way they look in battle They are the picture of coolness.\p Perhaps you will be talked about here, too, if you keep winning.")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay {
@@ -77,7 +77,7 @@ text SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay {
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_EveryoneButMeStoppedBeingYourFan {
-    format("Everyone stopped being {PLAYER}'s fan…\p But that means I can have {PLAYER} all to myself!\p Yay! Go for it! My one and only {PLAYER}!")
+    format("Everyone stopped being {PLAYER}'s fan\p But that means I can have {PLAYER} all to myself!\p Yay! Go for it! My one and only {PLAYER}!")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina {
@@ -93,11 +93,11 @@ text SaffronCity_PokemonTrainerFanClub_Text_CanIBecomeCoolTrainerOneDay {
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_TheWayYouBattleIsCool {
-    format("Oh, man, oh, man! Cool! Too cool!\p …Huh? No, not you.\p Just the way you battle. That's cool.")
+    format("Oh, man, oh, man! Cool! Too cool!\p Huh? No, not you.\p Just the way you battle. That's cool.")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_ImOnlyOneLeftOfYourFans {
-    format("Yo, {PLAYER}!\p Looks like I'm the only one left out of your fans.\p But, you know, I like being an only fan… It's less stressful.\p Keep up and at it!")
+    format("Yo, {PLAYER}!\p Looks like I'm the only one left out of your fans.\p But, you know, I like being an only fan It's less stressful.\p Keep up and at it!")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_LoveWayTrainerTalks {
@@ -113,11 +113,11 @@ text SaffronCity_PokemonTrainerFanClub_Text_AdoreWayYouBattle {
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_ImYourNumberOneFan {
-    format("Oh, my goodness! If it isn't {PLAYER}!\p It's so disappointing… I realized I'm your number-one-and-only fan!\p Well, it can't be helped! Let me cheer you on, at least!\p Hurray, hurray, {PLAYER}!")
+    format("Oh, my goodness! If it isn't {PLAYER}!\p It's so disappointing I realized I'm your number-one-and-only fan!\p Well, it can't be helped! Let me cheer you on, at least!\p Hurray, hurray, {PLAYER}!")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_TrainerHasBeenOnFire {
-    format("Recently, {STR_VAR_1} has been on fire.\p The way he battles… It's just the way that I like it!")
+    format("Recently, {STR_VAR_1} has been on fire.\p The way he battles It's just the way that I like it!")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_EveryoneTalksAboutYou {
@@ -129,11 +129,11 @@ text SaffronCity_PokemonTrainerFanClub_Text_YouReallyAreAmazing {
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_ImYourOnlyFan {
-    format("I'm your only fan… Sigh… This is lonely…\p Can't you try harder and make the others take notice of you?")
+    format("I'm your only fan Sigh This is lonely\p Can't you try harder and make the others take notice of you?")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_WhyCantOthersSeeMastersDignity {
-    format("Master {STR_VAR_1} is so dignified… He is so my type.\p Why can't the others see the dignity he simply oozes?")
+    format("Master {STR_VAR_1} is so dignified He is so my type.\p Why can't the others see the dignity he simply oozes?")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_BelieveInMasterWithAllMyHeart {
@@ -145,7 +145,7 @@ text SaffronCity_PokemonTrainerFanClub_Text_YourBattleStyleIsEducational {
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingYourFan {
-    format("Instead of just watching others battle, battle yourself!\p …My DOJO's MASTER chewed me out like that…\p But I won't let that stop me from being your fan!\p I can't stop being your fan!")
+    format("Instead of just watching others battle, battle yourself!\p My DOJO's MASTER chewed me out like that\p But I won't let that stop me from being your fan!\p I can't stop being your fan!")
 }
 
 text SaffronCity_PokemonTrainerFanClub_Text_OnlyMasterHasMyRespect {

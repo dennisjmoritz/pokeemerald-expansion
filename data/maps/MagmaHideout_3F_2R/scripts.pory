@@ -3,7 +3,7 @@ mapscripts MagmaHideout_3F_2R_MapScripts {
 
 
 text MagmaHideout_3F_2R_Text_Grunt10Intro {
-    format("I understand everything our leader says. But you know what?\p Doing stuff like digging up a super- ancient POKéMON and ripping off\l someone's METEORITE…\p I think we're going a little too far. What do you think?")
+    format("I understand everything our leader says. But you know what?\p Doing stuff like digging up a super- ancient POKMON and ripping off\l someone's METEORITE\p I think we're going a little too far. What do you think?")
 }
 
 text MagmaHideout_3F_2R_Text_Grunt10Defeat {

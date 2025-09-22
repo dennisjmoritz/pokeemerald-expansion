@@ -3,11 +3,11 @@ mapscripts BattleFrontier_ScottsHouse_MapScripts {
 
 
 text BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier {
-    format("SCOTT: Well, hello and welcome! Heheh… Sorry about the cramped space.\p Anyway, {PLAYER}{KUN}, let me formally welcome you to the BATTLE FRONTIER.\p This is my dream come true. It took me years and years, but I've\l finally given shape to my dream.")
+    format("SCOTT: Well, hello and welcome! Heheh Sorry about the cramped space.\p Anyway, {PLAYER}{KUN}, let me formally welcome you to the BATTLE FRONTIER.\p This is my dream come true. It took me years and years, but I've\l finally given shape to my dream.")
 }
 
 text BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal {
-    format("On reflection, it was a terribly long journey…\p I left home alone on a quest to find strong TRAINERS.\p No one can imagine how much effort or time it took to make this real.")
+    format("On reflection, it was a terribly long journey\p I left home alone on a quest to find strong TRAINERS.\p No one can imagine how much effort or time it took to make this real.")
 }
 
 text BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing {
@@ -35,15 +35,15 @@ text BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain {
 }
 
 text BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier {
-    format("SCOTT: You don't just train for battle, right?\p I think I remember you working on a POKéDEX as well.\p Well, guess what?\p You may run into wild POKéMON in the BATTLE FRONTIER somewhere…\l Fufufu!")
+    format("SCOTT: You don't just train for battle, right?\p I think I remember you working on a POKDEX as well.\p Well, guess what?\p You may run into wild POKMON in the BATTLE FRONTIER somewhere\l Fufufu!")
 }
 
 text BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols {
-    format("SCOTT: Are you enjoying things in the BATTLE FRONTIER?\p …Wait a second… Oh!\p Your FRONTIER PASS! You've collected the full set\l of silver symbols!\p That's more than impressive! You are tough, just as I suspected!\p Normally, I wouldn't do something like this, but this is a special time!\p I want you to have this. I'm sure you can put it to proper use.")
+    format("SCOTT: Are you enjoying things in the BATTLE FRONTIER?\p Wait a second Oh!\p Your FRONTIER PASS! You've collected the full set\l of silver symbols!\p That's more than impressive! You are tough, just as I suspected!\p Normally, I wouldn't do something like this, but this is a special time!\p I want you to have this. I'm sure you can put it to proper use.")
 }
 
 text BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols {
-    format("SCOTT: I hope you're enjoying everything in the BATTLE FRONTIER.\p …Wait a second… Oh, my disbelieving eyes!\p Your FRONTIER PASS! You've gathered up the full set\l of gold symbols!\p That's more than stupendous! You're incredible, just as I suspected!\p … … … … … …\p {PLAYER}, you've got to accept this!\p I think you will be able to appreciate the value of my gift!")
+    format("SCOTT: I hope you're enjoying everything in the BATTLE FRONTIER.\p Wait a second Oh, my disbelieving eyes!\p Your FRONTIER PASS! You've gathered up the full set\l of gold symbols!\p That's more than stupendous! You're incredible, just as I suspected!\p      \p {PLAYER}, you've got to accept this!\p I think you will be able to appreciate the value of my gift!")
 }
 
 text BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere {

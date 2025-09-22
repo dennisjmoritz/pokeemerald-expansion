@@ -9,7 +9,7 @@ text FiveIsland_LostCave_Room10_Text_SelphyIntro {
 }
 
 text FiveIsland_LostCave_Room10_Text_SelphyDefeat {
-    format("Oh… I was afraid that you meant to harm me.")
+    format("Oh I was afraid that you meant to harm me.")
 }
 
 text FiveIsland_LostCave_Room10_Text_MayIAskYouToTakeMeHome {

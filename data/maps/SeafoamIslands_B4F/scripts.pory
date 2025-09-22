@@ -16,11 +16,11 @@ text Text_RockSlideDeclined {
 }
 
 text Text_RockSlideWhichMon {
-    format("Which POKéMON should I teach ROCK SLIDE?")
+    format("Which POKMON should I teach ROCK SLIDE?")
 }
 
 text Text_RockSlideTaught {
-    format("It might be scary to use it in this tunnel…")
+    format("It might be scary to use it in this tunnel")
 }
 
 text SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow {

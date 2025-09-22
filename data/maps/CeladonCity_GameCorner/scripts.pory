@@ -56,15 +56,15 @@ text CeladonCity_GameCorner_Text_WinsComeAndGo {
 }
 
 text CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck {
-    format("These slot games… Win or lose, it's only by luck.")
+    format("These slot games Win or lose, it's only by luck.")
 }
 
 text CeladonCity_GameCorner_Text_GymGuyAdvice {
-    format("Hey!\p You have better things to do, champ in the making!\p CELADON GYM's LEADER is ERIKA.\p She is a user of GRASS-type POKéMON, and at one with nature.\p She might appear docile because of her flower arranging…\p But she's not one to be taken lightly!")
+    format("Hey!\p You have better things to do, champ in the making!\p CELADON GYM's LEADER is ERIKA.\p She is a user of GRASS-type POKMON, and at one with nature.\p She might appear docile because of her flower arranging\p But she's not one to be taken lightly!")
 }
 
 text CeladonCity_GameCorner_Text_RareMonsForCoins {
-    format("They offer rare POKéMON that can be exchanged for your COINS.\p But, I just can't seem to win!")
+    format("They offer rare POKMON that can be exchanged for your COINS.\p But, I just can't seem to win!")
 }
 
 text CeladonCity_GameCorner_Text_SoEasyToGetHooked {
@@ -84,7 +84,7 @@ text CeladonCity_GameCorner_Text_YouHaveLotsOfCoins {
 }
 
 text CeladonCity_GameCorner_Text_NeedMoreCoinsForMonIWant {
-    format("Darn! I need more COINS for the POKéMON I want!")
+    format("Darn! I need more COINS for the POKMON I want!")
 }
 
 text CeladonCity_GameCorner_Text_HereAreSomeCoinsShoo {
@@ -120,7 +120,7 @@ text CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt {
 }
 
 text CeladonCity_GameCorner_Text_CoinCaseIsRequired {
-    format("A COIN CASE is required…")
+    format("A COIN CASE is required")
 }
 
 text CeladonCity_GameCorner_Text_DontHaveCoinCase {

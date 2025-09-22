@@ -13,7 +13,7 @@ text MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel {
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut {
-    format("If only I was a little younger, I would have liked being an astronaut…\p No… It's not too late! I can and will try!")
+    format("If only I was a little younger, I would have liked being an astronaut\p No It's not too late! I can and will try!")
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis {
@@ -21,11 +21,11 @@ text MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis {
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace {
-    format("I wish ordinary people could go into space one day…")
+    format("I wish ordinary people could go into space one day")
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace {
-    format("TEAM MAGMA… Do they want to go to space, too?")
+    format("TEAM MAGMA Do they want to go to space, too?")
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn {
@@ -57,7 +57,7 @@ text MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro {
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat {
-    format("We should've taken a break… That's what we should've done…")
+    format("We should've taken a break That's what we should've done")
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle {
@@ -65,7 +65,7 @@ text MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle {
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle {
-    format("We three losing like this… We look worse than usual by triple!")
+    format("We three losing like this We look worse than usual by triple!")
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle {
@@ -81,11 +81,11 @@ text MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere {
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel {
-    format("STEVEN: TEAM MAGMA…\p What's the point of stealing rocket fuel?")
+    format("STEVEN: TEAM MAGMA\p What's the point of stealing rocket fuel?")
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano {
-    format("MAXIE: Fufufu… Since you're so curious, you deserve an explanation.\p We're going to jettison the entire load into MT. CHIMNEY!\p With GROUDON gone, we have no need for that slag heap of a mountain!\p So we'll use the fuel's power to make the volcano erupt!\p It will be savage!")
+    format("MAXIE: Fufufu Since you're so curious, you deserve an explanation.\p We're going to jettison the entire load into MT. CHIMNEY!\p With GROUDON gone, we have no need for that slag heap of a mountain!\p So we'll use the fuel's power to make the volcano erupt!\p It will be savage!")
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle {
@@ -97,19 +97,19 @@ text MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly {
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand {
-    format("All I want… I just want to expand the land mass…")
+    format("All I want I just want to expand the land mass")
 }
 
 text MossdeepCity_SpaceCenter_Text_TabithaDefeat {
-    format("I'm with our leader…")
+    format("I'm with our leader")
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided {
-    format("MAXIE: We failed to make the volcano erupt…\p We failed to control GROUDON after we had awoken it…\p Is our goal to expand the land misguided?\p … … … … … … … … … … … …\p If… If we, TEAM MAGMA, are wrong…\l … … … … … …\p Then might TEAM AQUA's goal to expand the sea also be equally misguided?")
+    format("MAXIE: We failed to make the volcano erupt\p We failed to control GROUDON after we had awoken it\p Is our goal to expand the land misguided?\p            \p If If we, TEAM MAGMA, are wrong\l      \p Then might TEAM AQUA's goal to expand the sea also be equally misguided?")
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp {
-    format("MAXIE: All right… We will give up on the fuel…\p There appear to be more important matters that I must examine…")
+    format("MAXIE: All right We will give up on the fuel\p There appear to be more important matters that I must examine")
 }
 
 text MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome {

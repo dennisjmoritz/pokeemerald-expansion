@@ -3,11 +3,11 @@ mapscripts FortreeCity_House2_MapScripts {
 
 
 text FortreeCity_House2_Text_HiddenPowersArousedByNature {
-    format("People… POKéMON…\p Their hidden powers are aroused by living in natural environments…")
+    format("People POKMON\p Their hidden powers are aroused by living in natural environments")
 }
 
 text FortreeCity_House2_Text_CoinInWhichHand {
-    format("Let this old woman see if your hidden power has awoken…\p I hold a coin in my hand.\p Now, tell me, have I palmed it in the right hand? Or in the left?")
+    format("Let this old woman see if your hidden power has awoken\p I hold a coin in my hand.\p Now, tell me, have I palmed it in the right hand? Or in the left?")
 }
 
 text FortreeCity_House2_Text_CorrectTryAgainWhichHand {
@@ -19,11 +19,11 @@ text FortreeCity_House2_Text_CorrectTryAgainWhichHand2 {
 }
 
 text FortreeCity_House2_Text_YourHiddenPowerHasAwoken {
-    format("Oh! Splendid! Your hidden power has awoken!\p Here, take this and awaken the hidden power of your POKéMON.")
+    format("Oh! Splendid! Your hidden power has awoken!\p Here, take this and awaken the hidden power of your POKMON.")
 }
 
 text FortreeCity_House2_Text_ExplainHiddenPower {
-    format("HIDDEN POWER is a move that changes with the POKéMON.")
+    format("HIDDEN POWER is a move that changes with the POKMON.")
 }
 
 text FortreeCity_House2_Text_YouGuessedWrong {

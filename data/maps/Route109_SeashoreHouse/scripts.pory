@@ -4,7 +4,7 @@ mapscripts Route109_SeashoreHouse_MapScripts {
 
 
 text Route109_SeashoreHouse_Text_SeashoreHouseIntro {
-    format("I'm the owner of the SEASHORE HOUSE. But you can call me MR. SEA!\p What I love above all is to see hot POKéMON battles.\p Let me see that your heart burns hot!\p If you can defeat all the TRAINERS here, I'll reward your efforts.")
+    format("I'm the owner of the SEASHORE HOUSE. But you can call me MR. SEA!\p What I love above all is to see hot POKMON battles.\p Let me see that your heart burns hot!\p If you can defeat all the TRAINERS here, I'll reward your efforts.")
 }
 
 text Route109_SeashoreHouse_Text_ShowMeSomeHotMatches {
@@ -20,7 +20,7 @@ text Route109_SeashoreHouse_Text_BagFull {
 }
 
 text Route109_SeashoreHouse_Text_WantToBuySodaPop {
-    format("Want to buy some SODA POP? POKéMON love it!\p Just ¥300 a bottle! Buy some!")
+    format("Want to buy some SODA POP? POKMON love it!\p Just 300 a bottle! Buy some!")
 }
 
 text Route109_SeashoreHouse_Text_HereYouGo {
@@ -48,7 +48,7 @@ text Route109_SeashoreHouse_Text_DwaynePostBattle {
 }
 
 text Route109_SeashoreHouse_Text_JohannaIntro {
-    format("Boring battles aren't worth the effort.\p Fiery hot battles are what toughen up TRAINERS and POKéMON!")
+    format("Boring battles aren't worth the effort.\p Fiery hot battles are what toughen up TRAINERS and POKMON!")
 }
 
 text Route109_SeashoreHouse_Text_JohannaDefeated {
@@ -60,14 +60,14 @@ text Route109_SeashoreHouse_Text_JohannaPostBattle {
 }
 
 text Route109_SeashoreHouse_Text_SimonIntro {
-    format("I'm going to show you how great my POKéMON are, but don't cry!")
+    format("I'm going to show you how great my POKMON are, but don't cry!")
 }
 
 text Route109_SeashoreHouse_Text_SimonDefeated {
-    format("…I lost, but I won't cry…")
+    format("I lost, but I won't cry")
 }
 
 text Route109_SeashoreHouse_Text_SimonPostBattle {
-    format("If one of my POKéMON knew the move for carrying me across water on its\l back, I could get rid of this inner tube.")
+    format("If one of my POKMON knew the move for carrying me across water on its\l back, I could get rid of this inner tube.")
 }
 

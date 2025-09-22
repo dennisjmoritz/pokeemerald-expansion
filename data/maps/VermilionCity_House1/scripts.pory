@@ -19,7 +19,7 @@ text VermilionCity_House1_Text_FishingIsAWayOfLife {
 }
 
 text VermilionCity_House1_Text_OhThatsSoDisappointing {
-    format("Oh… That's so disappointing…")
+    format("Oh That's so disappointing")
 }
 
 text VermilionCity_House1_Text_HowAreTheFishBiting {

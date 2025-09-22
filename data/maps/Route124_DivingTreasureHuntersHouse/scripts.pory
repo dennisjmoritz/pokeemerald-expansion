@@ -12,11 +12,11 @@ text Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards {
 }
 
 text Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards {
-    format("You haven't got any treasures for me…\p If you see any SHARDS, like the RED SHARD, you've got to trade it with me!")
+    format("You haven't got any treasures for me\p If you see any SHARDS, like the RED SHARD, you've got to trade it with me!")
 }
 
 text Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou {
-    format("Oh, hey! That… That's a SHARD! I'm looking for those!\p Oh, man, you've got to trade that with me! I'll give you something good!")
+    format("Oh, hey! That That's a SHARD! I'm looking for those!\p Oh, man, you've got to trade that with me! I'll give you something good!")
 }
 
 text Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade {

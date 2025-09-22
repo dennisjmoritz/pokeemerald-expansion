@@ -7,7 +7,7 @@ text CeladonCity_House1_Text_SlotsReelInTheDough {
 }
 
 text CeladonCity_House1_Text_ShippedMonsAsSlotPrizes {
-    format("CHIEF!\p We just shipped two thousand more POKéMON as slot prizes\l again today!")
+    format("CHIEF!\p We just shipped two thousand more POKMON as slot prizes\l again today!")
 }
 
 text CeladonCity_House1_Text_DontTouchGameCornerPoster {
@@ -15,6 +15,6 @@ text CeladonCity_House1_Text_DontTouchGameCornerPoster {
 }
 
 text Text_ItsABuddhistAltar {
-    format("ぶつだん　だ‥")
+    format("")
 }
 

@@ -13,11 +13,11 @@ text MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber {
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent {
-    format("I know that things are a little haywire right now, but…\p The rocket's launch is imminent!")
+    format("I know that things are a little haywire right now, but\p The rocket's launch is imminent!")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber {
-    format("I know that things are a little haywire right now, but…\p The rocket launched safely! That's successful launch no. {STR_VAR_1}!")
+    format("I know that things are a little haywire right now, but\p The rocket launched safely! That's successful launch no. {STR_VAR_1}!")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection {
@@ -45,7 +45,7 @@ text MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma {
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace {
-    format("Some people claim that POKéMON came from space. Could it be true?")
+    format("Some people claim that POKMON came from space. Could it be true?")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma {
@@ -53,11 +53,11 @@ text MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma {
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind {
-    format("A giant chunk of metal bursts through the skies and flies into space…\p It boggles my mind!")
+    format("A giant chunk of metal bursts through the skies and flies into space\p It boggles my mind!")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream {
-    format("A giant chunk of metal bursts through the skies and flies into space…\p But TEAM MAGMA wants to spoil that dream of mine!\p I'm not having any of that!")
+    format("A giant chunk of metal bursts through the skies and flies into space\p But TEAM MAGMA wants to spoil that dream of mine!\p I'm not having any of that!")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel {
@@ -69,7 +69,7 @@ text MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro {
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat {
-    format("Ran out of fuel…")
+    format("Ran out of fuel")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle {
@@ -81,7 +81,7 @@ text MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro {
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat {
-    format("Grrr… We should've used sneaky treachery…")
+    format("Grrr We should've used sneaky treachery")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle {
@@ -109,10 +109,10 @@ text MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat {
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle {
-    format("Please, tell our leader that I never abandoned my post.\l That I stayed to the bitter end…")
+    format("Please, tell our leader that I never abandoned my post.\l That I stayed to the bitter end")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice {
-    format("This is… An intent-to-steal notice?\p “To the staff of the SPACE CENTER: How are you? We are doing fine.\p “We will soon visit you to take your rocket fuel.\p “Please don't try to stop us. We will take the fuel no matter what.\p “Let there be more land! TEAM MAGMA”")
+    format("This is An intent-to-steal notice?\p To the staff of the SPACE CENTER: How are you? We are doing fine.\p We will soon visit you to take your rocket fuel.\p Please don't try to stop us. We will take the fuel no matter what.\p Let there be more land! TEAM MAGMA")
 }
 

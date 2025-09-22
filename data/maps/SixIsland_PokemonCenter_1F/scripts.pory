@@ -10,10 +10,10 @@ text SixIsland_PokemonCenter_1F_Text_SomethingHiddenOnThisIsland {
 }
 
 text SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem {
-    format("You know of POKéMON that evolve only upon trading, yes?\p But did you know that there are still others?\p Some POKéMON evolve only when traded while holding specific items.")
+    format("You know of POKMON that evolve only upon trading, yes?\p But did you know that there are still others?\p Some POKMON evolve only when traded while holding specific items.")
 }
 
 text SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere {
-    format("{RIVAL}: Hey, {PLAYER}! How's your POKéDEX filling up?\p It looks like it's impossible to get all the POKéMON by hanging around\l just these parts.\p Maybe there are POKéMON we don't know about somewhere far away…\p … … …  … … …  … … …\p Well, if I can't do it, there's no way for you to get it done.\p I'm not going to get all desperate over this.\p I'll keep collecting POKéMON at my own pace while I train them.\p That's what I'll do. So there's no point staying here.\l I may as well leave for home.\p That's that, then! Smell ya later!")
+    format("{RIVAL}: Hey, {PLAYER}! How's your POKDEX filling up?\p It looks like it's impossible to get all the POKMON by hanging around\l just these parts.\p Maybe there are POKMON we don't know about somewhere far away\p           \p Well, if I can't do it, there's no way for you to get it done.\p I'm not going to get all desperate over this.\p I'll keep collecting POKMON at my own pace while I train them.\p That's what I'll do. So there's no point staying here.\l I may as well leave for home.\p That's that, then! Smell ya later!")
 }
 

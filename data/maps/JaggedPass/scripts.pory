@@ -6,7 +6,7 @@ mapscripts JaggedPass_MapScripts {
 
 
 text JaggedPass_Text_EricIntro {
-    format("MT. CHIMNEY's JAGGED PASS…\p Now this is what I've always wanted in a mountain.\p This jagged bumpiness… It rocks my soul!")
+    format("MT. CHIMNEY's JAGGED PASS\p Now this is what I've always wanted in a mountain.\p This jagged bumpiness It rocks my soul!")
 }
 
 text JaggedPass_Text_EricDefeat {
@@ -14,7 +14,7 @@ text JaggedPass_Text_EricDefeat {
 }
 
 text JaggedPass_Text_EricPostBattle {
-    format("Yes, I did lose at POKéMON…\p But, when it comes to the love of the mountains, I have you beat!")
+    format("Yes, I did lose at POKMON\p But, when it comes to the love of the mountains, I have you beat!")
 }
 
 text JaggedPass_Text_DianaIntro {
@@ -22,7 +22,7 @@ text JaggedPass_Text_DianaIntro {
 }
 
 text JaggedPass_Text_DianaDefeat {
-    format("Ohhh, no! The ground is too bumpy…")
+    format("Ohhh, no! The ground is too bumpy")
 }
 
 text JaggedPass_Text_DianaPostBattle {
@@ -34,7 +34,7 @@ text JaggedPass_Text_DianaRegister {
 }
 
 text JaggedPass_Text_DianaRematchIntro {
-    format("Picnics are fun wherever you go. Just like POKéMON!")
+    format("Picnics are fun wherever you go. Just like POKMON!")
 }
 
 text JaggedPass_Text_DianaRematchDefeat {
@@ -50,7 +50,7 @@ text JaggedPass_Text_EthanIntro {
 }
 
 text JaggedPass_Text_EthanDefeat {
-    format("It was all over while we were still trying to find a good footing…")
+    format("It was all over while we were still trying to find a good footing")
 }
 
 text JaggedPass_Text_EthanPostBattle {
@@ -58,7 +58,7 @@ text JaggedPass_Text_EthanPostBattle {
 }
 
 text JaggedPass_Text_EthanRegister {
-    format("When I get more used to this bumpiness, I'll be sure to win!\p Can you register me in your POKéNAV?")
+    format("When I get more used to this bumpiness, I'll be sure to win!\p Can you register me in your POKNAV?")
 }
 
 text JaggedPass_Text_EthanRematchIntro {
@@ -66,11 +66,11 @@ text JaggedPass_Text_EthanRematchIntro {
 }
 
 text JaggedPass_Text_EthanRematchDefeat {
-    format("It's still not easy to battle on this bumpy ground…")
+    format("It's still not easy to battle on this bumpy ground")
 }
 
 text JaggedPass_Text_EthanPostRematch {
-    format("I should get an ACRO BIKE from RYDEL in MAUVILLE CITY…")
+    format("I should get an ACRO BIKE from RYDEL in MAUVILLE CITY")
 }
 
 text JaggedPass_Text_GruntIntro {
@@ -78,7 +78,7 @@ text JaggedPass_Text_GruntIntro {
 }
 
 text JaggedPass_Text_GruntDefeat {
-    format("Urrrgh…\p I should've ducked into our HIDEOUT right away…")
+    format("Urrrgh\p I should've ducked into our HIDEOUT right away")
 }
 
 text JaggedPass_Text_GoWhereverYouWant {
@@ -94,11 +94,11 @@ text JaggedPass_Text_JulioIntro {
 }
 
 text JaggedPass_Text_JulioDefeat {
-    format("I feel like I'm falling apart…")
+    format("I feel like I'm falling apart")
 }
 
 text JaggedPass_Text_JulioPostBattle {
-    format("My bicycle bounced around so much, my rear end's sore…")
+    format("My bicycle bounced around so much, my rear end's sore")
 }
 
 text JaggedPass_Text_AutumnIntro {
@@ -106,7 +106,7 @@ text JaggedPass_Text_AutumnIntro {
 }
 
 text JaggedPass_Text_AutumnDefeat {
-    format("Hmm… What went wrong?")
+    format("Hmm What went wrong?")
 }
 
 text JaggedPass_Text_AutumnPostBattle {

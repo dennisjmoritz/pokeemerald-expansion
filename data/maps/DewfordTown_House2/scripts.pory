@@ -11,10 +11,10 @@ text DewfordTown_House2_Text_NoRoom {
 }
 
 text DewfordTown_House2_Text_ExplainSilkScarf {
-    format("The SILK SCARF raises the power of NORMAL-type moves.\p It's a marvelous SCARF that will go with almost all POKéMON!")
+    format("The SILK SCARF raises the power of NORMAL-type moves.\p It's a marvelous SCARF that will go with almost all POKMON!")
 }
 
 text DewfordTown_House2_Text_BrawlySoCool {
-    format("Wow, you bothered to cross the sea to visit DEWFORD?\p Did you maybe come here because you heard about BRAWLY?\p He's so cool… Everyone idolizes him.")
+    format("Wow, you bothered to cross the sea to visit DEWFORD?\p Did you maybe come here because you heard about BRAWLY?\p He's so cool Everyone idolizes him.")
 }
 

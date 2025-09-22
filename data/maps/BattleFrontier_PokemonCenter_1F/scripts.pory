@@ -5,15 +5,15 @@ mapscripts BattleFrontier_PokemonCenter_1F_MapScripts {
 
 
 text BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon {
-    format("There was someone here using a POKéMON I've never seen before.\p I never learned about it at TRAINER'S SCHOOL at least.\p I wonder where you can catch POKéMON like that.")
+    format("There was someone here using a POKMON I've never seen before.\p I never learned about it at TRAINER'S SCHOOL at least.\p I wonder where you can catch POKMON like that.")
 }
 
 text BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena {
-    format("Okay! Next stop, the BATTLE ARENA! I'd better get the right POKéMON from\l the PC Storage System.")
+    format("Okay! Next stop, the BATTLE ARENA! I'd better get the right POKMON from\l the PC Storage System.")
 }
 
 text BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge {
-    format("Giggle… I'm going to go through every challenge with just this baby!")
+    format("Giggle I'm going to go through every challenge with just this baby!")
 }
 
 text BattleFrontier_PokemonCenter_1F_Text_Skitty {

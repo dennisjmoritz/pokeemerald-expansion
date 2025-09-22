@@ -4,22 +4,22 @@ mapscripts BattleFrontier_BattlePalaceCorridor_MapScripts {
 
 
 text BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame {
-    format("People and POKéMON, they are but the same…\p Their individual nature makes them good at certain things, and not good\l at others.")
+    format("People and POKMON, they are but the same\p Their individual nature makes them good at certain things, and not good\l at others.")
 }
 
 text BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes {
-    format("Rather than trying to make a POKéMON do what it dislikes, try to let it do\l what it likes and is good at doing.\p Put yourself in the POKéMON's position and consider what moves it would like.")
+    format("Rather than trying to make a POKMON do what it dislikes, try to let it do\l what it likes and is good at doing.\p Put yourself in the POKMON's position and consider what moves it would like.")
 }
 
 text BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered {
-    format("A POKéMON's nature is a remarkable thing…\p Some POKéMON behave in a completely different way when they are cornered.")
+    format("A POKMON's nature is a remarkable thing\p Some POKMON behave in a completely different way when they are cornered.")
 }
 
 text BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature {
-    format("Are you beginning to understand how a POKéMON's nature makes it behave?")
+    format("Are you beginning to understand how a POKMON's nature makes it behave?")
 }
 
 text BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons {
-    format("Ah… I see a strong, heartfelt bond between you and your POKéMON…")
+    format("Ah I see a strong, heartfelt bond between you and your POKMON")
 }
 

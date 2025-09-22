@@ -3,11 +3,11 @@ mapscripts FortreeCity_House5_MapScripts {
 
 
 text FortreeCity_House5_Text_TreeHousesAreGreat {
-    format("The tree houses of FORTREE are great!\p I think it's the number one town for living together with POKéMON.")
+    format("The tree houses of FORTREE are great!\p I think it's the number one town for living together with POKMON.")
 }
 
 text FortreeCity_House5_Text_AdaptedToNature {
-    format("POKéMON and people have adapted to nature for survival.\p There's no need to make nature conform to the way we want to live.")
+    format("POKMON and people have adapted to nature for survival.\p There's no need to make nature conform to the way we want to live.")
 }
 
 text FortreeCity_House5_Text_Zigzagoon {

@@ -7,11 +7,11 @@ text SixIsland_WaterPath_Text_RoseIntro {
 }
 
 text SixIsland_WaterPath_Text_RoseDefeat {
-    format("Giggle… You're so cute when you're determined.")
+    format("Giggle You're so cute when you're determined.")
 }
 
 text SixIsland_WaterPath_Text_RosePostBattle {
-    format("I want to go to the woods over there, but…\p There are lots of BUG POKéMON. They scare me a little.")
+    format("I want to go to the woods over there, but\p There are lots of BUG POKMON. They scare me a little.")
 }
 
 text SixIsland_WaterPath_Text_EdwardIntro {
@@ -35,7 +35,7 @@ text SixIsland_WaterPath_Text_SamirDefeat {
 }
 
 text SixIsland_WaterPath_Text_SamirPostBattle {
-    format("I couldn't lift the stigma of being a SWIMMER…")
+    format("I couldn't lift the stigma of being a SWIMMER")
 }
 
 text SixIsland_WaterPath_Text_DeniseIntro {
@@ -47,7 +47,7 @@ text SixIsland_WaterPath_Text_DeniseDefeat {
 }
 
 text SixIsland_WaterPath_Text_DenisePostBattle {
-    format("When I can't be with my boyfriend, I spend time with the POKéMON he\l gave me.")
+    format("When I can't be with my boyfriend, I spend time with the POKMON he\l gave me.")
 }
 
 text SixIsland_WaterPath_Text_EarlIntro {
@@ -63,7 +63,7 @@ text SixIsland_WaterPath_Text_EarlPostBattle {
 }
 
 text SixIsland_WaterPath_Text_MiuIntro {
-    format("MIU: Hello, POKéMON! It's time to play!")
+    format("MIU: Hello, POKMON! It's time to play!")
 }
 
 text SixIsland_WaterPath_Text_MiuDefeat {
@@ -71,7 +71,7 @@ text SixIsland_WaterPath_Text_MiuDefeat {
 }
 
 text SixIsland_WaterPath_Text_MiuPostBattle {
-    format("MIU: It makes me all sad inside when we lose…")
+    format("MIU: It makes me all sad inside when we lose")
 }
 
 text SixIsland_WaterPath_Text_MiuNotEnoughMons {
@@ -79,7 +79,7 @@ text SixIsland_WaterPath_Text_MiuNotEnoughMons {
 }
 
 text SixIsland_WaterPath_Text_MiaIntro {
-    format("MIA: Hello, POKéMON! It's time to battle!")
+    format("MIA: Hello, POKMON! It's time to battle!")
 }
 
 text SixIsland_WaterPath_Text_MiaDefeat {
@@ -87,11 +87,11 @@ text SixIsland_WaterPath_Text_MiaDefeat {
 }
 
 text SixIsland_WaterPath_Text_MiaPostBattle {
-    format("MIA: Ohh… I'm sorry, my POKéMON…")
+    format("MIA: Ohh I'm sorry, my POKMON")
 }
 
 text SixIsland_WaterPath_Text_MiaNotEnoughMons {
-    format("MIA: Oh, you only have one POKéMON?\p Don't you feel lonesome?")
+    format("MIA: Oh, you only have one POKMON?\p Don't you feel lonesome?")
 }
 
 text SixIsland_WaterPath_Text_WantedUltimateHorn {

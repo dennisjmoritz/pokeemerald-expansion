@@ -6,43 +6,43 @@ mapscripts Route110_TrickHouseEntrance_MapScripts {
 
 
 text Route110_TrickHouseEntrance_Text_YoureBeingWatched {
-    format("You're being watched…")
+    format("You're being watched")
 }
 
 text Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk {
-    format("Hah? Grrr…\p How did you know I concealed myself beneath this desk? You're sharp!")
+    format("Hah? Grrr\p How did you know I concealed myself beneath this desk? You're sharp!")
 }
 
 text Route110_TrickHouseEntrance_Text_ConcealedBehindTree {
-    format("Hah? Grrr…\p How did you know I concealed myself behind this tree? You're sharp!")
+    format("Hah? Grrr\p How did you know I concealed myself behind this tree? You're sharp!")
 }
 
 text Route110_TrickHouseEntrance_Text_ConcealedInDresser {
-    format("Hah? Grrr…\p How did you know I concealed myself in this dresser? You're sharp!")
+    format("Hah? Grrr\p How did you know I concealed myself in this dresser? You're sharp!")
 }
 
 text Route110_TrickHouseEntrance_Text_ConealedBeyondWindow {
-    format("Hah? Grrr…\p How did you know I concealed myself beyond this window? You're sharp!")
+    format("Hah? Grrr\p How did you know I concealed myself beyond this window? You're sharp!")
 }
 
 text Route110_TrickHouseEntrance_Text_ConcealedInPlanter {
-    format("Hah? Grrr…\p How did you know I concealed myself in this planter? You're sharp!")
+    format("Hah? Grrr\p How did you know I concealed myself in this planter? You're sharp!")
 }
 
 text Route110_TrickHouseEntrance_Text_ConcealedInCupboard {
-    format("Hah? Grrr…\p How did you know I concealed myself in this cupboard? You're sharp!")
+    format("Hah? Grrr\p How did you know I concealed myself in this cupboard? You're sharp!")
 }
 
 text Route110_TrickHouseEntrance_Text_ConcealedBehindWindow {
-    format("Hah? Grrr…\p How did you know I concealed myself behind this window? You're sharp!")
+    format("Hah? Grrr\p How did you know I concealed myself behind this window? You're sharp!")
 }
 
 text Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion {
-    format("Hah? Grrr…\p How did you know I concealed myself beneath this cushion? You're sharp!")
+    format("Hah? Grrr\p How did you know I concealed myself beneath this cushion? You're sharp!")
 }
 
 text Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster {
-    format("Behold!\p For I am the greatest living mystery of a man in all of HOENN!\l They call me…\p The TRICK MASTER! Wahahaha! Glad to meet you!")
+    format("Behold!\p For I am the greatest living mystery of a man in all of HOENN!\l They call me\p The TRICK MASTER! Wahahaha! Glad to meet you!")
 }
 
 text Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse {
@@ -58,11 +58,11 @@ text Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll {
 }
 
 text Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote {
-    format("There is a note affixed to the scroll…\p “I am leaving on a journey. Don't look for me. TRICK MASTER”")
+    format("There is a note affixed to the scroll\p I am leaving on a journey. Don't look for me. TRICK MASTER")
 }
 
 text Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick {
-    format("For the next time, I'll use this trick, and that scheme, and those ruses…\p Mufufufu… If I may say so, it's brilliantly difficult, even for me!")
+    format("For the next time, I'll use this trick, and that scheme, and those ruses\p Mufufufu If I may say so, it's brilliantly difficult, even for me!")
 }
 
 text Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges {
@@ -102,6 +102,6 @@ text Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt {
 }
 
 text Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere {
-    format("The door is locked.\p …On closer inspection, this is written on it: “Write the secret code here.”")
+    format("The door is locked.\p On closer inspection, this is written on it: Write the secret code here.")
 }
 

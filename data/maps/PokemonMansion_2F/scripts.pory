@@ -28,10 +28,10 @@ text PokemonMansion_1F_Text_ArniePostBattle {
 }
 
 text PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle {
-    format("Diary: July 5 Guyana, South America\p A new POKéMON was discovered deep in the jungle.")
+    format("Diary: July 5 Guyana, South America\p A new POKMON was discovered deep in the jungle.")
 }
 
 text PokemonMansion_1F_Text_ChristenedDiscoveredMonMew {
-    format("Diary: July 10 We christened the newly discovered\l POKéMON, MEW.")
+    format("Diary: July 10 We christened the newly discovered\l POKMON, MEW.")
 }
 

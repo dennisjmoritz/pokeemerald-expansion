@@ -3,10 +3,10 @@ mapscripts LavaridgeTown_Mart_MapScripts {
 
 
 text LavaridgeTown_Mart_Text_XSpeedFirstStrike {
-    format("Use X SPEED to add to a POKéMON's SPEED in battle.\p That will help it get in the first strike--a decided advantage!")
+    format("Use X SPEED to add to a POKMON's SPEED in battle.\p That will help it get in the first strike--a decided advantage!")
 }
 
 text LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney {
-    format("On MT. CHIMNEY's peak, there's a local specialty that you can buy only there.\p Give it to a POKéMON--it will be elated.")
+    format("On MT. CHIMNEY's peak, there's a local specialty that you can buy only there.\p Give it to a POKMON--it will be elated.")
 }
 

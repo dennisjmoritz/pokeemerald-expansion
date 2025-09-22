@@ -7,7 +7,7 @@ text BattleFrontier_Mart_Text_ChaperonGrandson {
 }
 
 text BattleFrontier_Mart_Text_ProteinMakeNiceGift {
-    format("Dear, what do you think of this? Wouldn't this make a nice gift?\p It's…PRO…TE…IN? It sounds delicious, doesn't it?")
+    format("Dear, what do you think of this? Wouldn't this make a nice gift?\p It'sPROTEIN? It sounds delicious, doesn't it?")
 }
 
 text BattleFrontier_Mart_Text_FacilitiesDontAllowItems {

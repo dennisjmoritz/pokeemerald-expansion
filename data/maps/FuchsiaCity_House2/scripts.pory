@@ -15,11 +15,11 @@ text FuchsiaCity_House2_Text_ReceivedGoodRod {
 }
 
 text FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons {
-    format("Fishing is a way of life! It is like the finest poetry.\p A crummy OLD ROD could only catch MAGIKARP, yes?\p But with a GOOD ROD, you can catch much better POKéMON.")
+    format("Fishing is a way of life! It is like the finest poetry.\p A crummy OLD ROD could only catch MAGIKARP, yes?\p But with a GOOD ROD, you can catch much better POKMON.")
 }
 
 text FuchsiaCity_House2_Text_OhThatsDisappointing {
-    format("Oh… That's so disappointing…")
+    format("Oh That's so disappointing")
 }
 
 text FuchsiaCity_House2_Text_HowAreTheFishBiting {

@@ -6,15 +6,15 @@ mapscripts MtPyre_2F_MapScripts {
 
 
 text MtPyre_2F_Text_MemoriesOfSkitty {
-    format("Memories of my darling SKITTY… My eyes overflow thinking about it.")
+    format("Memories of my darling SKITTY My eyes overflow thinking about it.")
 }
 
 text MtPyre_2F_Text_TumbledFromFloorAbove {
-    format("Ooch, ouch… There are holes in the ground here and there.\p I didn't notice and took a tumble from the floor above.")
+    format("Ooch, ouch There are holes in the ground here and there.\p I didn't notice and took a tumble from the floor above.")
 }
 
 text MtPyre_2F_Text_MarkIntro {
-    format("Hey! Are you searching for POKéMON? You came along after me! You're rude!")
+    format("Hey! Are you searching for POKMON? You came along after me! You're rude!")
 }
 
 text MtPyre_2F_Text_MarkDefeat {
@@ -22,7 +22,7 @@ text MtPyre_2F_Text_MarkDefeat {
 }
 
 text MtPyre_2F_Text_MarkPostBattle {
-    format("People don't come here often, so I thought there'd be rare POKéMON.")
+    format("People don't come here often, so I thought there'd be rare POKMON.")
 }
 
 text MtPyre_2F_Text_LukeIntro {
@@ -38,7 +38,7 @@ text MtPyre_2F_Text_LukePostBattle {
 }
 
 text MtPyre_2F_Text_LukeNotEnoughMons {
-    format("LUKE: If you want to take me on, bring some more POKéMON.\p If you don't, I won't be able to show off to my girl how cool I am!")
+    format("LUKE: If you want to take me on, bring some more POKMON.\p If you don't, I won't be able to show off to my girl how cool I am!")
 }
 
 text MtPyre_2F_Text_DezIntro {
@@ -54,19 +54,19 @@ text MtPyre_2F_Text_DezPostBattle {
 }
 
 text MtPyre_2F_Text_DezNotEnoughMons {
-    format("DEZ: If you want to challenge us, you should bring at least two POKéMON.\p My boyfriend's strong. Just one POKéMON won't do at all.")
+    format("DEZ: If you want to challenge us, you should bring at least two POKMON.\p My boyfriend's strong. Just one POKMON won't do at all.")
 }
 
 text MtPyre_2F_Text_LeahIntro {
-    format("You are an unfamiliar sight… Depart before anything befalls you!")
+    format("You are an unfamiliar sight Depart before anything befalls you!")
 }
 
 text MtPyre_2F_Text_LeahDefeat {
-    format("Hmm… You're durable.")
+    format("Hmm You're durable.")
 }
 
 text MtPyre_2F_Text_LeahPostBattle {
-    format("Our family has been TRAINERS here since my great-grandmother's time…\p It is my duty to protect this mountain…")
+    format("Our family has been TRAINERS here since my great-grandmother's time\p It is my duty to protect this mountain")
 }
 
 text MtPyre_2F_Text_ZanderIntro {
@@ -78,6 +78,6 @@ text MtPyre_2F_Text_ZanderDefeat {
 }
 
 text MtPyre_2F_Text_ZanderPostBattle {
-    format("I get freaked out every time I see anything move…\p I shouldn't have come here to train…")
+    format("I get freaked out every time I see anything move\p I shouldn't have come here to train")
 }
 

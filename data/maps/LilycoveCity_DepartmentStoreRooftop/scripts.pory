@@ -12,7 +12,7 @@ text LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale {
 }
 
 text LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty {
-    format("Ohh… I'm bone-dry thirsty!")
+    format("Ohh I'm bone-dry thirsty!")
 }
 
 text LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike {
@@ -28,7 +28,7 @@ text LilycoveCity_DepartmentStoreRooftop_Text_ExtraCanOfDrinkDroppedDown {
 }
 
 text LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney {
-    format("Not enough money…")
+    format("Not enough money")
 }
 
 text LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink {

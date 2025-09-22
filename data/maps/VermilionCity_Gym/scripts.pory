@@ -5,15 +5,15 @@ mapscripts VermilionCity_Gym_MapScripts {
 
 
 text VermilionCity_Gym_Text_LtSurgeIntro {
-    format("Hey, kid! What do you think you're doing here?\p You won't live long in combat! Not with your puny power!\p I tell you, kid, electric POKéMON saved me during the war!\p They zapped my enemies into paralysis!\p The same as I'll do to you!{PLAY_BGM}{MUS_RG_GYM}")
+    format("Hey, kid! What do you think you're doing here?\p You won't live long in combat! Not with your puny power!\p I tell you, kid, electric POKMON saved me during the war!\p They zapped my enemies into paralysis!\p The same as I'll do to you!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text VermilionCity_Gym_Text_LtSurgePostBattle {
-    format("A little word of advice, kid!\p Electricity is sure powerful!\p But, it's useless against GROUND- type POKéMON!")
+    format("A little word of advice, kid!\p Electricity is sure powerful!\p But, it's useless against GROUND- type POKMON!")
 }
 
 text VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis {
-    format("The THUNDERBADGE cranks up your POKéMON's SPEED!\p It also lets your POKéMON FLY lightning-quick anytime, kid!\p You're special, kid! Take this!")
+    format("The THUNDERBADGE cranks up your POKMON's SPEED!\p It also lets your POKMON FLY lightning-quick anytime, kid!\p You're special, kid! Take this!")
 }
 
 text VermilionCity_Gym_Text_ReceivedTM34FromLtSurge {
@@ -21,7 +21,7 @@ text VermilionCity_Gym_Text_ReceivedTM34FromLtSurge {
 }
 
 text VermilionCity_Gym_Text_ExplainTM34 {
-    format("TM34 contains SHOCK WAVE!\p Teach it to an ELECTRIC POKéMON!")
+    format("TM34 contains SHOCK WAVE!\p Teach it to an ELECTRIC POKMON!")
 }
 
 text VermilionCity_Gym_Text_MakeRoomInYourBag {
@@ -69,7 +69,7 @@ text VermilionCity_Gym_Text_DwaynePostBattle {
 }
 
 text VermilionCity_Gym_Text_GymGuyAdvice {
-    format("Yo! Champ in the making!\p LT. SURGE has a nickname.\p People refer to him as the Lightning American!\p He's an expert on electric POKéMON.\p BIRD/WATER-type POKéMON match poorly against the ELECTRIC type.\p Beware of paralysis, too.\p LT. SURGE is very cautious.\p He's locked himself in, so it won't be easy getting to him.")
+    format("Yo! Champ in the making!\p LT. SURGE has a nickname.\p People refer to him as the Lightning American!\p He's an expert on electric POKMON.\p BIRD/WATER-type POKMON match poorly against the ELECTRIC type.\p Beware of paralysis, too.\p LT. SURGE is very cautious.\p He's locked himself in, so it won't be easy getting to him.")
 }
 
 text VermilionCity_Gym_Text_GymGuyPostVictory {
@@ -77,11 +77,11 @@ text VermilionCity_Gym_Text_GymGuyPostVictory {
 }
 
 text VermilionCity_Gym_Text_GymStatue {
-    format("VERMILION POKéMON GYM LEADER: LT. SURGE\p WINNING TRAINERS: {RIVAL}")
+    format("VERMILION POKMON GYM LEADER: LT. SURGE\p WINNING TRAINERS: {RIVAL}")
 }
 
 text VermilionCity_Gym_Text_GymStatuePlayerWon {
-    format("VERMILION POKéMON GYM LEADER: LT. SURGE\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+    format("VERMILION POKMON GYM LEADER: LT. SURGE\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
 }
 
 text VermilionCity_Gym_Text_NopeOnlyTrashHere {
@@ -93,7 +93,7 @@ text VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened {
 }
 
 text VermilionCity_Gym_Text_AnotherSwitchInTrash {
-    format("ガサゴソ‥！ おっと！　ゴミばこの　そこに\l また　スイッチが　あった！\l おして　みよう！　‥　ポチッとな")
+    format(" \l \l ")
 }
 
 text VermilionCity_Gym_Text_SecondLockOpened {

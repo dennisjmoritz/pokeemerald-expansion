@@ -7,7 +7,7 @@ text PokemonTower_5F_Text_RestHereInPurifiedSpace {
 }
 
 text PokemonTower_5F_Text_TammyIntro {
-    format("Give…me… your…all…")
+    format("Giveme yourall")
 }
 
 text PokemonTower_5F_Text_TammyDefeat {
@@ -19,7 +19,7 @@ text PokemonTower_5F_Text_TammyPostBattle {
 }
 
 text PokemonTower_5F_Text_RuthIntro {
-    format("You…shall… join…us…")
+    format("Youshall joinus")
 }
 
 text PokemonTower_5F_Text_RuthDefeat {
@@ -43,7 +43,7 @@ text PokemonTower_5F_Text_KarinaPostBattle {
 }
 
 text PokemonTower_5F_Text_JanaeIntro {
-    format("Urgah… Urff…")
+    format("Urgah Urff")
 }
 
 text PokemonTower_5F_Text_JanaeDefeat {
@@ -51,10 +51,10 @@ text PokemonTower_5F_Text_JanaeDefeat {
 }
 
 text PokemonTower_5F_Text_JanaePostBattle {
-    format("I fell to evil spirits despite my training in the mountains…")
+    format("I fell to evil spirits despite my training in the mountains")
 }
 
 text PokemonTower_5F_Text_PurifiedZoneMonsFullyHealed {
-    format("Entered the purified and protected zone.\p {PLAYER}'s POKéMON were fully healed.")
+    format("Entered the purified and protected zone.\p {PLAYER}'s POKMON were fully healed.")
 }
 

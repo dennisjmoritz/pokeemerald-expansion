@@ -11,7 +11,7 @@ text Route6_Text_RickyDefeat {
 }
 
 text Route6_Text_RickyPostBattle {
-    format("Whisper… Whisper…")
+    format("Whisper Whisper")
 }
 
 text Route6_Text_NancyIntro {
@@ -23,7 +23,7 @@ text Route6_Text_NancyDefeat {
 }
 
 text Route6_Text_NancyPostBattle {
-    format("Whisper… Whisper…")
+    format("Whisper Whisper")
 }
 
 text Route6_Text_KeigoIntro {
@@ -43,11 +43,11 @@ text Route6_Text_JeffIntro {
 }
 
 text Route6_Text_JeffDefeat {
-    format("This stinks… I couldn't beat your challenge…")
+    format("This stinks I couldn't beat your challenge")
 }
 
 text Route6_Text_JeffPostBattle {
-    format("I should bring more POKéMON with me. I'll feel safer that way.")
+    format("I should bring more POKMON with me. I'll feel safer that way.")
 }
 
 text Route6_Text_IsabelleIntro {
@@ -55,7 +55,7 @@ text Route6_Text_IsabelleIntro {
 }
 
 text Route6_Text_IsabelleDefeat {
-    format("Things just didn't work…")
+    format("Things just didn't work")
 }
 
 text Route6_Text_IsabellePostBattle {
@@ -71,7 +71,7 @@ text Route6_Text_ElijahDefeat {
 }
 
 text Route6_Text_ElijahPostBattle {
-    format("Are my POKéMON weak? Or, am I just bad?\l Which do you think?")
+    format("Are my POKMON weak? Or, am I just bad?\l Which do you think?")
 }
 
 text Route6_Text_UndergroundPathSign {

@@ -6,6 +6,6 @@ mapscripts SkyPillar_Top_MapScripts {
 
 
 text SkyPillar_Top_Text_RayquazaFlewOff {
-    format("The awakened RAYQUAZA flew off…")
+    format("The awakened RAYQUAZA flew off")
 }
 

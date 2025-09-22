@@ -3,7 +3,7 @@ mapscripts PokemonTower_6F_MapScripts {
 
 
 text PokemonTower_6F_Text_AngelicaIntro {
-    format("Give…me… blood…")
+    format("Giveme blood")
 }
 
 text PokemonTower_6F_Text_AngelicaDefeat {
@@ -11,11 +11,11 @@ text PokemonTower_6F_Text_AngelicaDefeat {
 }
 
 text PokemonTower_6F_Text_AngelicaPostBattle {
-    format("I feel anemic and weak…")
+    format("I feel anemic and weak")
 }
 
 text PokemonTower_6F_Text_EmiliaIntro {
-    format("Urff… Kwaah!")
+    format("Urff Kwaah!")
 }
 
 text PokemonTower_6F_Text_EmiliaDefeat {
@@ -27,7 +27,7 @@ text PokemonTower_6F_Text_EmiliaPostBattle {
 }
 
 text PokemonTower_6F_Text_JenniferIntro {
-    format("Ke…ke…ke… ke…ke…ke!")
+    format("Kekeke kekeke!")
 }
 
 text PokemonTower_6F_Text_JenniferDefeat {
@@ -39,7 +39,7 @@ text PokemonTower_6F_Text_JenniferPostBattle {
 }
 
 text PokemonTower_6F_Text_BeGoneIntruders {
-    format("Be gone… Intruders…")
+    format("Be gone Intruders")
 }
 
 text PokemonTower_6F_Text_GhostWasCubonesMother {
@@ -47,6 +47,6 @@ text PokemonTower_6F_Text_GhostWasCubonesMother {
 }
 
 text PokemonTower_6F_Text_MothersSpiritWasCalmed {
-    format("The mother's spirit was calmed.\p It departed to the afterlife…")
+    format("The mother's spirit was calmed.\p It departed to the afterlife")
 }
 

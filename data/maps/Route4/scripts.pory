@@ -3,11 +3,11 @@ mapscripts Route4_MapScripts {
 
 
 text Route4_Text_TrippedOverGeodude {
-    format("Ouch! I tripped over a rocky POKéMON, GEODUDE!")
+    format("Ouch! I tripped over a rocky POKMON, GEODUDE!")
 }
 
 text Route4_Text_CrissyIntro {
-    format("I came to MT. MOON in search of mushroom POKéMON.")
+    format("I came to MT. MOON in search of mushroom POKMON.")
 }
 
 text Route4_Text_CrissyDefeat {
@@ -27,7 +27,7 @@ text Route4_Text_RouteSign {
 }
 
 text Text_MegaPunchTeach {
-    format("A punch of roaring ferocity!\p Packed with destructive power!\p When the chips are down, MEGA PUNCH is the ultimate attack!\l You agree, yes?\p Now! Let me teach it to your POKéMON!")
+    format("A punch of roaring ferocity!\p Packed with destructive power!\p When the chips are down, MEGA PUNCH is the ultimate attack!\l You agree, yes?\p Now! Let me teach it to your POKMON!")
 }
 
 text Text_MegaPunchDeclined {
@@ -35,7 +35,7 @@ text Text_MegaPunchDeclined {
 }
 
 text Text_MegaPunchWhichMon {
-    format("Fine! Which POKéMON will learn it?")
+    format("Fine! Which POKMON will learn it?")
 }
 
 text Text_MegaPunchTaught {
@@ -43,7 +43,7 @@ text Text_MegaPunchTaught {
 }
 
 text Text_MegaKickTeach {
-    format("A kick of brutal ferocity!\p Packed with destructive power!\p When you get right down to it, MEGA KICK is the ultimate attack!\l Don't you agree?\p Okay! I'll teach it to your POKéMON!")
+    format("A kick of brutal ferocity!\p Packed with destructive power!\p When you get right down to it, MEGA KICK is the ultimate attack!\l Don't you agree?\p Okay! I'll teach it to your POKMON!")
 }
 
 text Text_MegaKickDeclined {
@@ -51,7 +51,7 @@ text Text_MegaKickDeclined {
 }
 
 text Text_MegaKickWhichMon {
-    format("All right! Which POKéMON wants to learn it?")
+    format("All right! Which POKMON wants to learn it?")
 }
 
 text Text_MegaKickTaught {

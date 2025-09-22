@@ -3,14 +3,14 @@ mapscripts OldaleTown_Mart_MapScripts {
 
 
 text OldaleTown_Mart_Text_PokeBallsAreSoldOut {
-    format("The clerk says they're all sold out. I can't buy any POKé BALLS.")
+    format("The clerk says they're all sold out. I can't buy any POK BALLS.")
 }
 
 text OldaleTown_Mart_Text_ImGoingToBuyPokeBalls {
-    format("I'm going to buy a bunch of POKé BALLS and catch a bunch of POKéMON!")
+    format("I'm going to buy a bunch of POK BALLS and catch a bunch of POKMON!")
 }
 
 text OldaleTown_Mart_Text_RestoreHPWithPotion {
-    format("If a POKéMON gets hurt and loses its HP and faints, it won't be able to battle.\p To prevent your POKéMON from fainting, restore its HP with a POTION.")
+    format("If a POKMON gets hurt and loses its HP and faints, it won't be able to battle.\p To prevent your POKMON from fainting, restore its HP with a POTION.")
 }
 

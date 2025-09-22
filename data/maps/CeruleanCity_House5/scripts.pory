@@ -11,7 +11,7 @@ text CeruleanCity_House1_Text_HaveJustTheThing {
 }
 
 text CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner {
-    format("There's something new on the second floor of POKéMON CENTERS, at the\l DIRECT CORNER.\p They installed a Wireless Adapter machine for crushing BERRIES.\p This is where you come in.\p I have a favor to ask, one that I can entrust only to you.\p Could you make BERRY POWDER for me using that machine?\p Don't forget, the machine is at the DIRECT CORNER of POKéMON CENTERS.\p I'll concoct medicine for you if you bring me some BERRY POWDER.\p Don't forget, crush BERRIES into BERRY POWDER and bring it to me.")
+    format("There's something new on the second floor of POKMON CENTERS, at the\l DIRECT CORNER.\p They installed a Wireless Adapter machine for crushing BERRIES.\p This is where you come in.\p I have a favor to ask, one that I can entrust only to you.\p Could you make BERRY POWDER for me using that machine?\p Don't forget, the machine is at the DIRECT CORNER of POKMON CENTERS.\p I'll concoct medicine for you if you bring me some BERRY POWDER.\p Don't forget, crush BERRIES into BERRY POWDER and bring it to me.")
 }
 
 text CeruleanCity_House1_Text_WhyMustYouLieNoBerries {

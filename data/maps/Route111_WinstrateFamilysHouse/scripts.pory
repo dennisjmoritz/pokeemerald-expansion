@@ -3,15 +3,15 @@ mapscripts Route111_WinstrateFamilysHouse_MapScripts {
 
 
 text Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou {
-    format("You're the first TRAINER I've seen who deploys POKéMON so masterfully.\p But, I should tell you--my son is stronger than you.\p He even took the POKéMON LEAGUE challenge, I'll have you know.")
+    format("You're the first TRAINER I've seen who deploys POKMON so masterfully.\p But, I should tell you--my son is stronger than you.\p He even took the POKMON LEAGUE challenge, I'll have you know.")
 }
 
 text Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace {
-    format("We use this MACHO BRACE to more effectively strengthen our POKéMON\l in training.\p Since you've beaten all of us here, I don't know if you need it, but we\l would like you to have our MACHO BRACE.")
+    format("We use this MACHO BRACE to more effectively strengthen our POKMON\l in training.\p Since you've beaten all of us here, I don't know if you need it, but we\l would like you to have our MACHO BRACE.")
 }
 
 text Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles {
-    format("When it comes to POKéMON battles, we tend to be pretty passionate.")
+    format("When it comes to POKMON battles, we tend to be pretty passionate.")
 }
 
 text Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers {
@@ -19,10 +19,10 @@ text Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers {
 }
 
 text Route111_WinstrateFamilysHouse_Text_GrandsonStrong {
-    format("There's no question that you're strong.\p But if you were to battle my grandson, you'd end up crying in frustration.\p He's much stronger than any TRAINER our family knows.\p He must be challenging the POKéMON LEAGUE CHAMPION by now.\p Knowing my grandson, he could be the CHAMPION already!")
+    format("There's no question that you're strong.\p But if you were to battle my grandson, you'd end up crying in frustration.\p He's much stronger than any TRAINER our family knows.\p He must be challenging the POKMON LEAGUE CHAMPION by now.\p Knowing my grandson, he could be the CHAMPION already!")
 }
 
 text Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort {
-    format("My grandson must be challenging the POKéMON LEAGUE CHAMPION by now.\p Knowing my grandson, he could be the CHAMPION already!")
+    format("My grandson must be challenging the POKMON LEAGUE CHAMPION by now.\p Knowing my grandson, he could be the CHAMPION already!")
 }
 

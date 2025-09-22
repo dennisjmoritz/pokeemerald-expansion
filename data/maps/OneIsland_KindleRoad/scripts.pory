@@ -15,7 +15,7 @@ text OneIsland_KindleRoad_Text_MariaPostBattle {
 }
 
 text OneIsland_KindleRoad_Text_AbigailIntro {
-    format("I'm beginning to get a sunburn…")
+    format("I'm beginning to get a sunburn")
 }
 
 text OneIsland_KindleRoad_Text_AbigailDefeat {
@@ -23,7 +23,7 @@ text OneIsland_KindleRoad_Text_AbigailDefeat {
 }
 
 text OneIsland_KindleRoad_Text_AbigailPostBattle {
-    format("I like that cap you have. Maybe I should wear one, too…")
+    format("I like that cap you have. Maybe I should wear one, too")
 }
 
 text OneIsland_KindleRoad_Text_FinnIntro {
@@ -43,7 +43,7 @@ text OneIsland_KindleRoad_Text_GarrettIntro {
 }
 
 text OneIsland_KindleRoad_Text_GarrettDefeat {
-    format("Hey, what the… You're good, you!")
+    format("Hey, what the You're good, you!")
 }
 
 text OneIsland_KindleRoad_Text_GarrettPostBattle {
@@ -55,7 +55,7 @@ text OneIsland_KindleRoad_Text_TommyIntro {
 }
 
 text OneIsland_KindleRoad_Text_TommyDefeat {
-    format("I've lost it all again…")
+    format("I've lost it all again")
 }
 
 text OneIsland_KindleRoad_Text_TommyPostBattle {
@@ -91,11 +91,11 @@ text OneIsland_KindleRoad_Text_SheaIntro {
 }
 
 text OneIsland_KindleRoad_Text_SheaDefeat {
-    format("Gasp… Gasp…")
+    format("Gasp Gasp")
 }
 
 text OneIsland_KindleRoad_Text_SheaPostBattle {
-    format("I lost because I'm pooped from all the running I did…")
+    format("I lost because I'm pooped from all the running I did")
 }
 
 text OneIsland_KindleRoad_Text_HughIntro {
@@ -107,7 +107,7 @@ text OneIsland_KindleRoad_Text_HughDefeat {
 }
 
 text OneIsland_KindleRoad_Text_HughPostBattle {
-    format("Even martial artists are becoming fashion conscious these days…")
+    format("Even martial artists are becoming fashion conscious these days")
 }
 
 text OneIsland_KindleRoad_Text_BryceIntro {
@@ -147,7 +147,7 @@ text OneIsland_KindleRoad_Text_KiaPostBattle {
 }
 
 text OneIsland_KindleRoad_Text_KiaNotEnoughMons {
-    format("KIA: If you want to battle with us, you have to bring at least two\l POKéMON with you.")
+    format("KIA: If you want to battle with us, you have to bring at least two\l POKMON with you.")
 }
 
 text OneIsland_KindleRoad_Text_MikIntro {
@@ -163,7 +163,7 @@ text OneIsland_KindleRoad_Text_MikPostBattle {
 }
 
 text OneIsland_KindleRoad_Text_MikNotEnoughMons {
-    format("MIK: Hey, do you want to battle with us two?\p Bring two or more POKéMON with you, then.")
+    format("MIK: Hey, do you want to battle with us two?\p Bring two or more POKMON with you, then.")
 }
 
 text OneIsland_KindleRoad_Text_RouteSign {

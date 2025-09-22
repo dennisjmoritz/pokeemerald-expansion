@@ -3,7 +3,7 @@ mapscripts CeladonCity_DepartmentStore_2F_MapScripts {
 
 
 text CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel {
-    format("SUPER REPEL keeps weak POKéMON at bay…\p Hmm, it's a more powerful REPEL.")
+    format("SUPER REPEL keeps weak POKMON at bay\p Hmm, it's a more powerful REPEL.")
 }
 
 text CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings {
@@ -15,6 +15,6 @@ text CeladonCity_DepartmentStore_2F_Text_FloorSign {
 }
 
 text CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes {
-    format("We have a customer, LANCE, who occasionally comes.\p He always buys capes.\p I wonder… Does he have many identical capes at home?")
+    format("We have a customer, LANCE, who occasionally comes.\p He always buys capes.\p I wonder Does he have many identical capes at home?")
 }
 

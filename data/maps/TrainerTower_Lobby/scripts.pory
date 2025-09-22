@@ -12,7 +12,7 @@ text TrainerTower_Lobby_Text_WelcomeToTrainerTower {
 }
 
 text TrainerTower_Lobby_Text_TrainersUpToFloorNum {
-    format("TRAINERS from all over the world gather here to battle.\p Let me see…\p Right now, there are TRAINERS only up to Floor {STR_VAR_1}.")
+    format("TRAINERS from all over the world gather here to battle.\p Let me see\p Right now, there are TRAINERS only up to Floor {STR_VAR_1}.")
 }
 
 text TrainerTower_Lobby_Text_TrainersUpEighthFloor {
@@ -24,7 +24,7 @@ text TrainerTower_Lobby_Text_LikeToChallengeTrainers {
 }
 
 text TrainerTower_Lobby_Text_StartClockGetSetGo {
-    format("Okay, I'll get the clock started, so give it everything you have.\p On your marks…\p Get set…\p Go!")
+    format("Okay, I'll get the clock started, so give it everything you have.\p On your marks\p Get set\p Go!")
 }
 
 text TrainerTower_Lobby_Text_PleaseVisitUsAgain {
@@ -44,23 +44,23 @@ text TrainerTower_Lobby_Text_MoveCounterHereWhenTrainersSwitch {
 }
 
 text TrainerTower_Roof_Text_ImOwnerBattledPerfectly {
-    format("Hello…\p I am the owner of this TOWER…\p How the sky soars above this rooftop…\p The caress of the winds up here…\p It's all so perfect…\p The way you battled… It, too, was perfection…")
+    format("Hello\p I am the owner of this TOWER\p How the sky soars above this rooftop\p The caress of the winds up here\p It's all so perfect\p The way you battled It, too, was perfection")
 }
 
 text TrainerTower_Roof_Text_ThisIsForYou {
-    format("This is for you…")
+    format("This is for you")
 }
 
 text TrainerTower_Roof_Text_DoneItInRecordTime {
-    format("Oh! Stupendous!\p It's marvelous how you've come up here so quickly.\p The fact is, you've done it in record time…\p I'll have your record posted at the reception counter.")
+    format("Oh! Stupendous!\p It's marvelous how you've come up here so quickly.\p The fact is, you've done it in record time\p I'll have your record posted at the reception counter.")
 }
 
 text TrainerTower_Roof_Text_TookSweetTimeGettingHere {
-    format("You seem to have taken your sweet time getting here…")
+    format("You seem to have taken your sweet time getting here")
 }
 
 text TrainerTower_Roof_Text_IdLikeToSeeBetterTime {
-    format("What I would like to see is a better time out of you…\p I'm counting on you.\p Until then, farewell…")
+    format("What I would like to see is a better time out of you\p I'm counting on you.\p Until then, farewell")
 }
 
 text TrainerTower_Text_XMinYZSec {
@@ -68,11 +68,11 @@ text TrainerTower_Text_XMinYZSec {
 }
 
 text TrainerTower_Lobby_Text_HereAreTheResults {
-    format("せいせきひょうです")
+    format("")
 }
 
 text TrainerTower_Lobby_Text_NeedTwoMonsForDouble {
-    format("This is a two-on-two battle.\p You may not battle unless you have at least two POKéMON.")
+    format("This is a two-on-two battle.\p You may not battle unless you have at least two POKMON.")
 }
 
 text TrainerTower_Lobby_Text_ExplainTrainerTower {
@@ -88,6 +88,6 @@ text TrainerTower_Lobby_Text_WonderWhatKindsOfTrainers {
 }
 
 text TrainerTower_Lobby_Text_StairsTougherThanAnyBattle {
-    format("Gasp, gasp… Gasp…\p Never mind battling! These stairs… They're tougher than any battle…")
+    format("Gasp, gasp Gasp\p Never mind battling! These stairs They're tougher than any battle")
 }
 

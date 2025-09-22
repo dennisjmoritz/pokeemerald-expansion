@@ -5,7 +5,7 @@ mapscripts SootopolisCity_MysteryEventsHouse_1F_MapScripts {
 
 
 text SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles {
-    format("When I was young, I traveled the world as a POKéMON TRAINER.\p Now that I've become an old buzzard, my only amusement is watching young\l TRAINERS battle.")
+    format("When I was young, I traveled the world as a POKMON TRAINER.\p Now that I've become an old buzzard, my only amusement is watching young\l TRAINERS battle.")
 }
 
 text SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked {
@@ -17,7 +17,7 @@ text SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer {
 }
 
 text SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle {
-    format("You won't battle? I'm disappointed that I can't see you battle…")
+    format("You won't battle? I'm disappointed that I can't see you battle")
 }
 
 text SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3 {

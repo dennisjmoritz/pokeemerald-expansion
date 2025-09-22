@@ -5,6 +5,6 @@ mapscripts PokemonLeague_HallOfFame_MapScripts {
 
 
 text PokemonLeague_HallOfFame_Text_OakCongratulations {
-    format("OAK: Er-hem! Congratulations, {PLAYER}!\p This floor is the POKéMON HALL OF FAME.\p POKéMON LEAGUE CHAMPIONS are honored for their exploits here.\p Their POKéMON are also recorded in the HALL OF FAME.\p {PLAYER}!\p You have worked hard to become the new LEAGUE CHAMPION.\p Congratulations, {PLAYER}, you and your POKéMON are HALL OF FAMERS!")
+    format("OAK: Er-hem! Congratulations, {PLAYER}!\p This floor is the POKMON HALL OF FAME.\p POKMON LEAGUE CHAMPIONS are honored for their exploits here.\p Their POKMON are also recorded in the HALL OF FAME.\p {PLAYER}!\p You have worked hard to become the new LEAGUE CHAMPION.\p Congratulations, {PLAYER}, you and your POKMON are HALL OF FAMERS!")
 }
 

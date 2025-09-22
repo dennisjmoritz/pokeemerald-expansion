@@ -3,14 +3,14 @@ mapscripts MauvilleCity_House1_MapScripts {
 
 
 text MauvilleCity_House1_Text_ImRockSmashDudeTakeThis {
-    format("Woohoo!\p I hear people call me the ROCK SMASH GUY, but I find that sort of degrading.\p I think I deserve a bit more respect, like maybe the ROCK SMASH DUDE.\p Woohoo!\p Anyways, your POKéMON look pretty strong.\p I like that! Here, take this HIDDEN MACHINE!")
+    format("Woohoo!\p I hear people call me the ROCK SMASH GUY, but I find that sort of degrading.\p I think I deserve a bit more respect, like maybe the ROCK SMASH DUDE.\p Woohoo!\p Anyways, your POKMON look pretty strong.\p I like that! Here, take this HIDDEN MACHINE!")
 }
 
 text MauvilleCity_House1_Text_ExplainRockSmash {
-    format("That HM contains ROCK SMASH.\p If you come across large boulders that block your path…\p Well, use that HM move and smash them right out of your way!\p Yes, sir! Smash rocks aside, I say! Woohoo!")
+    format("That HM contains ROCK SMASH.\p If you come across large boulders that block your path\p Well, use that HM move and smash them right out of your way!\p Yes, sir! Smash rocks aside, I say! Woohoo!")
 }
 
 text MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock {
-    format("Oh, yes, if you smash a rock, a POKéMON could come flying out of hiding.\p Woohoo!")
+    format("Oh, yes, if you smash a rock, a POKMON could come flying out of hiding.\p Woohoo!")
 }
 

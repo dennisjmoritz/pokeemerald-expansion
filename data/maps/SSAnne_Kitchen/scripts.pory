@@ -15,15 +15,15 @@ text SSAnne_Kitchen_Text_SoBusyImDizzy {
 }
 
 text SSAnne_Kitchen_Text_PeelSpudsEveryDay {
-    format("Hum-de-hum-de-ho…\p I peel spuds every day! Hum-hum…")
+    format("Hum-de-hum-de-ho\p I peel spuds every day! Hum-hum")
 }
 
 text SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton {
-    format("Did you hear about SNORLAX? It's a glutton.\p No other POKéMON eats and sleeps the way SNORLAX can and does!")
+    format("Did you hear about SNORLAX? It's a glutton.\p No other POKMON eats and sleeps the way SNORLAX can and does!")
 }
 
 text SSAnne_Kitchen_Text_OnlyGetToPeelOnions {
-    format("Snivel… Sniff…\p I only get to peel onions… Snivel…")
+    format("Snivel Sniff\p I only get to peel onions Snivel")
 }
 
 text SSAnne_Kitchen_Text_IAmLeChefMainCourseIs {

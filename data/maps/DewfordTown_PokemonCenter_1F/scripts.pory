@@ -9,6 +9,6 @@ text DewfordTown_PokemonCenter_1F_Text_StoneCavern {
 }
 
 text DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM {
-    format("Even if a POKéMON faints and can't battle, it can still use a move learned\l from a HIDDEN MACHINE (HM).")
+    format("Even if a POKMON faints and can't battle, it can still use a move learned\l from a HIDDEN MACHINE (HM).")
 }
 

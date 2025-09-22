@@ -3,7 +3,7 @@ mapscripts PacifidlogTown_House5_MapScripts {
 
 
 text PacifidlogTown_House5_Text_CantSeeMirageIslandToday {
-    format("I can't see MIRAGE ISLAND today…")
+    format("I can't see MIRAGE ISLAND today")
 }
 
 text PacifidlogTown_House5_Text_CanSeeMirageIslandToday {
@@ -11,6 +11,6 @@ text PacifidlogTown_House5_Text_CanSeeMirageIslandToday {
 }
 
 text PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather {
-    format("MIRAGE ISLAND…\p It must become visible and invisible depending on the weather conditions\l that make mirages appear.\p Or is it really appearing and disappearing?")
+    format("MIRAGE ISLAND\p It must become visible and invisible depending on the weather conditions\l that make mirages appear.\p Or is it really appearing and disappearing?")
 }
 

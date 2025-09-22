@@ -19,11 +19,11 @@ text Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe {
 }
 
 text Route12_FishingHouse_Text_OhThatsDisappointing {
-    format("Oh… That's so disappointing…")
+    format("Oh That's so disappointing")
 }
 
 text Route12_FishingHouse_Text_TryFishingBringMeMagikarp {
-    format("Hello there, {PLAYER}! Have you been fishing?\p Try fishing with the SUPER ROD in any body of water.\p You'll find different POKéMON in different places.\p Oh, and don't forget to bring me gigantic MAGIKARP.")
+    format("Hello there, {PLAYER}! Have you been fishing?\p Try fishing with the SUPER ROD in any body of water.\p You'll find different POKMON in different places.\p Oh, and don't forget to bring me gigantic MAGIKARP.")
 }
 
 text Route12_FishingHouse_Text_OhMagikarpAllowMeToSee {
@@ -31,7 +31,7 @@ text Route12_FishingHouse_Text_OhMagikarpAllowMeToSee {
 }
 
 text Route12_FishingHouse_Text_WhoaXInchesTakeThis {
-    format("… … …Whoa! {STR_VAR_2} inches!\p You have a rare appreciation for the fine, poetic aspects of fishing!\p You must take this. I insist!")
+    format("  Whoa! {STR_VAR_2} inches!\p You have a rare appreciation for the fine, poetic aspects of fishing!\p You must take this. I insist!")
 }
 
 text Route12_FishingHouse_Text_LookForwardToGreaterRecords {
@@ -43,11 +43,11 @@ text Route12_FishingHouse_Text_HuhXInchesSameSizeAsLast {
 }
 
 text Route12_FishingHouse_Text_HmmXInchesDoesntMeasureUp {
-    format("Hmm… This one is {STR_VAR_2} inches long.\p It doesn't measure up to the {STR_VAR_3}-inch one you brought before.")
+    format("Hmm This one is {STR_VAR_2} inches long.\p It doesn't measure up to the {STR_VAR_3}-inch one you brought before.")
 }
 
 text Route12_FishingHouse_Text_DoesntLookLikeMagikarp {
-    format("Uh… That doesn't look much like a MAGIKARP.")
+    format("Uh That doesn't look much like a MAGIKARP.")
 }
 
 text Route12_FishingHouse_Text_NoRoomForGift {
@@ -55,7 +55,7 @@ text Route12_FishingHouse_Text_NoRoomForGift {
 }
 
 text Route12_FishingHouse_Text_MostGiganticMagikarpXInches {
-    format("The most gigantic MAGIKARP I have ever witnessed…\p {STR_VAR_3} inches!")
+    format("The most gigantic MAGIKARP I have ever witnessed\p {STR_VAR_3} inches!")
 }
 
 text Route12_FishingHouse_Text_BlankChartOfSomeSort {

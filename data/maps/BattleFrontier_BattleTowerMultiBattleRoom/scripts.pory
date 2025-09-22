@@ -54,7 +54,7 @@ text BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext {
 }
 
 text gText_LinkStandby3 {
-    format("Link standby…")
+    format("Link standby")
 }
 
 text gText_YourPartnerHasRetired {

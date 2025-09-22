@@ -3,7 +3,7 @@ mapscripts Route3_MapScripts {
 
 
 text Route3_Text_TunnelFromCeruleanTiring {
-    format("Whew… I better take a rest… Groan…\p That tunnel from CERULEAN takes a lot out of you!")
+    format("Whew I better take a rest Groan\p That tunnel from CERULEAN takes a lot out of you!")
 }
 
 text Route3_Text_ColtonIntro {
@@ -15,7 +15,7 @@ text Route3_Text_ColtonDefeat {
 }
 
 text Route3_Text_ColtonPostBattle {
-    format("There are other kinds of POKéMON than the ones you find in forests.")
+    format("There are other kinds of POKMON than the ones you find in forests.")
 }
 
 text Route3_Text_BenIntro {
@@ -27,7 +27,7 @@ text Route3_Text_BenDefeat {
 }
 
 text Route3_Text_BenPostBattle {
-    format("Are you using a POKéMON CENTER's PC for storing your POKéMON?\p Each BOX can hold up to 30 POKéMON.")
+    format("Are you using a POKMON CENTER's PC for storing your POKMON?\p Each BOX can hold up to 30 POKMON.")
 }
 
 text Route3_Text_JaniceIntro {
@@ -47,15 +47,15 @@ text Route3_Text_GregIntro {
 }
 
 text Route3_Text_GregDefeat {
-    format("If I had new POKéMON, I would've won!")
+    format("If I had new POKMON, I would've won!")
 }
 
 text Route3_Text_GregPostBattle {
-    format("If a POKéMON BOX on the PC gets full, just switch to another BOX.")
+    format("If a POKMON BOX on the PC gets full, just switch to another BOX.")
 }
 
 text Route3_Text_SallyIntro {
-    format("That look you gave me… It's so intriguing!")
+    format("That look you gave me It's so intriguing!")
 }
 
 text Route3_Text_SallyDefeat {
@@ -79,7 +79,7 @@ text Route3_Text_CalvinPostBattle {
 }
 
 text Route3_Text_JamesIntro {
-    format("I'll battle you with the POKéMON I just caught.")
+    format("I'll battle you with the POKMON I just caught.")
 }
 
 text Route3_Text_JamesDefeat {
@@ -87,7 +87,7 @@ text Route3_Text_JamesDefeat {
 }
 
 text Route3_Text_JamesPostBattle {
-    format("Trained POKéMON are stronger than the wild ones.")
+    format("Trained POKMON are stronger than the wild ones.")
 }
 
 text Route3_Text_RobinIntro {

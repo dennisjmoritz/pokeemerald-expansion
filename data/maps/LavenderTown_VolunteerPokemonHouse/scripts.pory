@@ -15,11 +15,11 @@ text LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother {
 }
 
 text LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons {
-    format("This is really MR. FUJI's house.\p He's really kind.\p He looks after abandoned and orphaned POKéMON.")
+    format("This is really MR. FUJI's house.\p He's really kind.\p He looks after abandoned and orphaned POKMON.")
 }
 
 text LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug {
-    format("It's so warm! POKéMON are so nice to hug.")
+    format("It's so warm! POKMON are so nice to hug.")
 }
 
 text LavenderTown_VolunteerPokemonHouse_Text_Nidorino {
@@ -31,15 +31,15 @@ text LavenderTown_VolunteerPokemonHouse_Text_Psyduck {
 }
 
 text LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis {
-    format("MR. FUJI: {PLAYER}…\p Your POKéDEX quest is one that requires strong dedication.\p Without deep love for POKéMON, your quest may fail.\p I'm not sure if this will help you, but I'd like you to have it.")
+    format("MR. FUJI: {PLAYER}\p Your POKDEX quest is one that requires strong dedication.\p Without deep love for POKMON, your quest may fail.\p I'm not sure if this will help you, but I'd like you to have it.")
 }
 
 text LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji {
-    format("{PLAYER} received a POKé FLUTE from MR. FUJI.")
+    format("{PLAYER} received a POK FLUTE from MR. FUJI.")
 }
 
 text LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute {
-    format("Upon hearing the POKé FLUTE, sleeping POKéMON will spring awake.\p Try using it on POKéMON that are sleeping obstacles.")
+    format("Upon hearing the POK FLUTE, sleeping POKMON will spring awake.\p Try using it on POKMON that are sleeping obstacles.")
 }
 
 text LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis {
@@ -47,14 +47,14 @@ text LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis {
 }
 
 text LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou {
-    format("MR. FUJI: Has my POKé FLUTE helped you?")
+    format("MR. FUJI: Has my POK FLUTE helped you?")
 }
 
 text LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped {
-    format("POKéMON FAN MAGAZINE Monthly Grand Prize Drawing!\p The application form is…\p Gone! It's been clipped out. Someone must have applied already.")
+    format("POKMON FAN MAGAZINE Monthly Grand Prize Drawing!\p The application form is\p Gone! It's been clipped out. Someone must have applied already.")
 }
 
 text LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf {
-    format("POKéMON magazines line the shelf.\p POKéMON INSIDER…\p POKéMON FAN…")
+    format("POKMON magazines line the shelf.\p POKMON INSIDER\p POKMON FAN")
 }
 

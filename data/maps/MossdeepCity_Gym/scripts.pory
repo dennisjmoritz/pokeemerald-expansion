@@ -5,7 +5,7 @@ mapscripts MossdeepCity_Gym_MapScripts {
 
 
 text MossdeepCity_Gym_Text_GymGuideAdvice {
-    format("Yo, how's it going, CHAMPION-bound {PLAYER}?\p The GYM LEADERS here use PSYCHIC-type POKéMON.\p If you go up against them with FIGHTING- or POISON-type POKéMON,\l they'll inflict horrible damage!\p Plus, they'll come at you with outstanding combination attacks.\p If you want to win, you'll need to show them how tight you are with your\l POKéMON. Go for it!")
+    format("Yo, how's it going, CHAMPION-bound {PLAYER}?\p The GYM LEADERS here use PSYCHIC-type POKMON.\p If you go up against them with FIGHTING- or POISON-type POKMON,\l they'll inflict horrible damage!\p Plus, they'll come at you with outstanding combination attacks.\p If you want to win, you'll need to show them how tight you are with your\l POKMON. Go for it!")
 }
 
 text MossdeepCity_Gym_Text_GymGuidePostVictory {
@@ -33,19 +33,19 @@ text MossdeepCity_Gym_Text_VirgilDefeat {
 }
 
 text MossdeepCity_Gym_Text_VirgilPostBattle {
-    format("If there are prodigies in the world, then our GYM LEADERS are them!\p However, you may be even more talented than them…")
+    format("If there are prodigies in the world, then our GYM LEADERS are them!\p However, you may be even more talented than them")
 }
 
 text MossdeepCity_Gym_Text_BlakeIntro {
-    format("Fufufufu… Watch me levitate a POKé BALL telekinetically!\p Wrooooooooaaaar! … … … … … … …\p Sometimes, I'm out of sync…")
+    format("Fufufufu Watch me levitate a POK BALL telekinetically!\p Wrooooooooaaaar!       \p Sometimes, I'm out of sync")
 }
 
 text MossdeepCity_Gym_Text_BlakeDefeat {
-    format("My POKéMON battling skills are out of sync, too!")
+    format("My POKMON battling skills are out of sync, too!")
 }
 
 text MossdeepCity_Gym_Text_BlakePostBattle {
-    format("A POKé BALL was too heavy to lift psychically. But this dust bunny…\p Whoooooooooooooooh! … … … … … …\p No, I'm not cheating! I didn't blow on it! Honestly!")
+    format("A POK BALL was too heavy to lift psychically. But this dust bunny\p Whoooooooooooooooh!      \p No, I'm not cheating! I didn't blow on it! Honestly!")
 }
 
 text MossdeepCity_Gym_Text_HannahIntro {
@@ -61,7 +61,7 @@ text MossdeepCity_Gym_Text_HannahPostBattle {
 }
 
 text MossdeepCity_Gym_Text_SamanthaIntro {
-    format("I see it… I see your future…\p If you can beat me, I will tell you your future!")
+    format("I see it I see your future\p If you can beat me, I will tell you your future!")
 }
 
 text MossdeepCity_Gym_Text_SamanthaDefeat {
@@ -69,11 +69,11 @@ text MossdeepCity_Gym_Text_SamanthaDefeat {
 }
 
 text MossdeepCity_Gym_Text_SamanthaPostBattle {
-    format("You will wage a terrifically intense battle with our GYM LEADERS…\p The result… You won't hear it from me!")
+    format("You will wage a terrifically intense battle with our GYM LEADERS\p The result You won't hear it from me!")
 }
 
 text MossdeepCity_Gym_Text_MauraIntro {
-    format("The roads you have traveled… What you have experienced…\p Come at me with everything you've learned!")
+    format("The roads you have traveled What you have experienced\p Come at me with everything you've learned!")
 }
 
 text MossdeepCity_Gym_Text_MauraDefeat {
@@ -81,7 +81,7 @@ text MossdeepCity_Gym_Text_MauraDefeat {
 }
 
 text MossdeepCity_Gym_Text_MauraPostBattle {
-    format("A bright future awaits those who have worked diligently.\p For those who lazed idly, there is only despair at the end.\p What goes around comes around…")
+    format("A bright future awaits those who have worked diligently.\p For those who lazed idly, there is only despair at the end.\p What goes around comes around")
 }
 
 text MossdeepCity_Gym_Text_SylviaIntro {
@@ -89,11 +89,11 @@ text MossdeepCity_Gym_Text_SylviaIntro {
 }
 
 text MossdeepCity_Gym_Text_SylviaDefeat {
-    format("What you do… It horrifies me…")
+    format("What you do It horrifies me")
 }
 
 text MossdeepCity_Gym_Text_SylviaPostBattle {
-    format("How dare you beat me…\p It won't be my fault if something horrible befalls you…")
+    format("How dare you beat me\p It won't be my fault if something horrible befalls you")
 }
 
 text MossdeepCity_Gym_Text_NateIntro {
@@ -105,7 +105,7 @@ text MossdeepCity_Gym_Text_NateDefeat {
 }
 
 text MossdeepCity_Gym_Text_NatePostBattle {
-    format("I… I don't let defeat rattle m-me, however b-badly.")
+    format("I I don't let defeat rattle m-me, however b-badly.")
 }
 
 text MossdeepCity_Gym_Text_KathleenIntro {
@@ -145,7 +145,7 @@ text MossdeepCity_Gym_Text_MaceyPostBattle {
 }
 
 text MossdeepCity_Gym_Text_NicholasIntro {
-    format("Wroooar! Have a taste of my super POKéMON hard-battling power!")
+    format("Wroooar! Have a taste of my super POKMON hard-battling power!")
 }
 
 text MossdeepCity_Gym_Text_NicholasDefeat {
@@ -153,15 +153,15 @@ text MossdeepCity_Gym_Text_NicholasDefeat {
 }
 
 text MossdeepCity_Gym_Text_NicholasPostBattle {
-    format("All right! I think I'll develop a special invincible POKéMON power next.")
+    format("All right! I think I'll develop a special invincible POKMON power next.")
 }
 
 text MossdeepCity_Gym_Text_TateAndLizaIntro {
-    format("TATE: Hehehe… Were you surprised?\p LIZA: Fufufu… Were you surprised?\p TATE: That there are two GYM LEADERS? LIZA: That there are two GYM LEADERS?\p TATE: We're twins! LIZA: We're twins!\p TATE: We don't need to talk because… LIZA: We can each determine what…\p TATE: The other is thinking… LIZA: All in our minds!\p TATE: This combination of ours… LIZA: Can you beat it?")
+    format("TATE: Hehehe Were you surprised?\p LIZA: Fufufu Were you surprised?\p TATE: That there are two GYM LEADERS? LIZA: That there are two GYM LEADERS?\p TATE: We're twins! LIZA: We're twins!\p TATE: We don't need to talk because LIZA: We can each determine what\p TATE: The other is thinking LIZA: All in our minds!\p TATE: This combination of ours LIZA: Can you beat it?")
 }
 
 text MossdeepCity_Gym_Text_TateAndLizaDefeat {
-    format("TATE: What?! Our combination… LIZA: Was shattered!\p TATE: It can't be helped. You've won… LIZA: So, in recognition, take this.")
+    format("TATE: What?! Our combination LIZA: Was shattered!\p TATE: It can't be helped. You've won LIZA: So, in recognition, take this.")
 }
 
 text MossdeepCity_Gym_Text_ReceivedMindBadge {
@@ -169,39 +169,39 @@ text MossdeepCity_Gym_Text_ReceivedMindBadge {
 }
 
 text MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis {
-    format("TATE: The MIND BADGE enhances the SP. ATK and SP. DEF of POKéMON.\p LIZA: It also lets you use the HM move DIVE outside of battle.\p TATE: You should also take this, too.")
+    format("TATE: The MIND BADGE enhances the SP. ATK and SP. DEF of POKMON.\p LIZA: It also lets you use the HM move DIVE outside of battle.\p TATE: You should also take this, too.")
 }
 
 text MossdeepCity_Gym_Text_ExplainCalmMind {
-    format("TATE: That TM04 contains… LIZA: CALM MIND!\p TATE: It raises SP. ATK and… LIZA: It raises SP. DEF!\p TATE: It's a move that's perfect… LIZA: For PSYCHIC POKéMON!\p … … … … … …")
+    format("TATE: That TM04 contains LIZA: CALM MIND!\p TATE: It raises SP. ATK and LIZA: It raises SP. DEF!\p TATE: It's a move that's perfect LIZA: For PSYCHIC POKMON!\p      ")
 }
 
 text MossdeepCity_Gym_Text_RegisteredTateAndLiza {
-    format("Registered GYM LEADERS TATE & LIZA in the POKéNAV.")
+    format("Registered GYM LEADERS TATE & LIZA in the POKNAV.")
 }
 
 text MossdeepCity_Gym_Text_TateAndLizaPostBattle {
-    format("TATE: Looks like the bond between you and your POKéMON is far stronger than\l the bond that we share as twins.\p LIZA: You will become even stronger! We've battled you, so we know.")
+    format("TATE: Looks like the bond between you and your POKMON is far stronger than\l the bond that we share as twins.\p LIZA: You will become even stronger! We've battled you, so we know.")
 }
 
 text MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons {
-    format("TATE: Hehehe… Were you surprised?\p LIZA: That there are two GYM LEADERS?\p TATE: Oops, you have only one… LIZA: POKéMON that can battle.\p TATE: We can't battle that way!\p LIZA: If you want to challenge us, bring some more POKéMON.")
+    format("TATE: Hehehe Were you surprised?\p LIZA: That there are two GYM LEADERS?\p TATE: Oops, you have only one LIZA: POKMON that can battle.\p TATE: We can't battle that way!\p LIZA: If you want to challenge us, bring some more POKMON.")
 }
 
 text MossdeepCity_Gym_Text_GymStatue {
-    format("MOSSDEEP CITY POKéMON GYM")
+    format("MOSSDEEP CITY POKMON GYM")
 }
 
 text MossdeepCity_Gym_Text_GymStatueCertified {
-    format("MOSSDEEP CITY POKéMON GYM\p LIZA AND TATE'S CERTIFIED TRAINERS: {PLAYER}")
+    format("MOSSDEEP CITY POKMON GYM\p LIZA AND TATE'S CERTIFIED TRAINERS: {PLAYER}")
 }
 
 text MossdeepCity_Gym_Text_TateAndLizaPreRematch {
-    format("TATE: POKéMON… LIZA: POKéMON…\p TATE: By changing the party's mix… LIZA: The battle style changes.\p TATE: But me… LIZA: But me…\p TATE: I'll always be with LIZA! LIZA: I'll always be with TATE!\p TATE: Our combination… LIZA: We'll show you again and again!")
+    format("TATE: POKMON LIZA: POKMON\p TATE: By changing the party's mix LIZA: The battle style changes.\p TATE: But me LIZA: But me\p TATE: I'll always be with LIZA! LIZA: I'll always be with TATE!\p TATE: Our combination LIZA: We'll show you again and again!")
 }
 
 text MossdeepCity_Gym_Text_TateAndLizaRematchDefeat {
-    format("TATE: You and your POKéMON… LIZA: It's as if you were siblings!")
+    format("TATE: You and your POKMON LIZA: It's as if you were siblings!")
 }
 
 text MossdeepCity_Gym_Text_TateAndLizaPostRematch {
@@ -209,6 +209,6 @@ text MossdeepCity_Gym_Text_TateAndLizaPostRematch {
 }
 
 text MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons {
-    format("TATE: You're back again… LIZA: You're back again…\p TATE: To give us a rematch. LIZA: To give us a rematch.\p TATE: But… LIZA: For our match…\p TATE: You brought just one POKéMON! LIZA: You brought just one POKéMON!\p TATE: We need you to bring at least… LIZA: Two POKéMON when you come back.")
+    format("TATE: You're back again LIZA: You're back again\p TATE: To give us a rematch. LIZA: To give us a rematch.\p TATE: But LIZA: For our match\p TATE: You brought just one POKMON! LIZA: You brought just one POKMON!\p TATE: We need you to bring at least LIZA: Two POKMON when you come back.")
 }
 

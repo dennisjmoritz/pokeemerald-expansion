@@ -11,7 +11,7 @@ text VictoryRoad_B2F_Text_VitoDefeat {
 }
 
 text VictoryRoad_B2F_Text_VitoPostBattle {
-    format("I was better than everyone in my family. I've never lost before…\p I've lost my confidence… Maybe I'll go home…")
+    format("I was better than everyone in my family. I've never lost before\p I've lost my confidence Maybe I'll go home")
 }
 
 text VictoryRoad_B2F_Text_OwenIntro {
@@ -35,7 +35,7 @@ text VictoryRoad_B2F_Text_CarolineDefeat {
 }
 
 text VictoryRoad_B2F_Text_CarolinePostBattle {
-    format("VICTORY ROAD and the POKéMON LEAGUE are long and grueling challenges.\l Beware of fatigue!")
+    format("VICTORY ROAD and the POKMON LEAGUE are long and grueling challenges.\l Beware of fatigue!")
 }
 
 text VictoryRoad_B2F_Text_JulieIntro {
@@ -51,15 +51,15 @@ text VictoryRoad_B2F_Text_JuliePostBattle {
 }
 
 text VictoryRoad_B2F_Text_FelixIntro {
-    format("I've come this far, but the tension's giving me awful stomach pain…")
+    format("I've come this far, but the tension's giving me awful stomach pain")
 }
 
 text VictoryRoad_B2F_Text_FelixDefeat {
-    format("Ooh… It hurts…")
+    format("Ooh It hurts")
 }
 
 text VictoryRoad_B2F_Text_FelixPostBattle {
-    format("I can't help getting all tense knowing that I'm nearing the POKéMON LEAGUE.\p It's all I can do to feign calm.")
+    format("I can't help getting all tense knowing that I'm nearing the POKMON LEAGUE.\p It's all I can do to feign calm.")
 }
 
 text VictoryRoad_B2F_Text_DianneIntro {

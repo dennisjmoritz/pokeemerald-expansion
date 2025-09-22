@@ -47,7 +47,7 @@ text BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved {
 }
 
 text BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer {
-    format("You're finally about to face the 50th TRAINER.\p From here on, every time you beat seven TRAINERS in a row, your POKéMON will\l receive a commemorative RIBBON.\p Good luck!")
+    format("You're finally about to face the 50th TRAINER.\p From here on, every time you beat seven TRAINERS in a row, your POKMON will\l receive a commemorative RIBBON.\p Good luck!")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons {
@@ -55,7 +55,7 @@ text BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons {
 }
 
 text BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons {
-    format("{PLAYER} put the RIBBONS on the challenger POKéMON.")
+    format("{PLAYER} put the RIBBONS on the challenger POKMON.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower {
@@ -111,7 +111,7 @@ text BattleFrontier_BattleTowerLobby_Text_WhichLevelMode {
 }
 
 text BattleFrontier_BattleTowerLobby_Text_PleaseSelectMons {
-    format("Please select the POKéMON you wish to enter.")
+    format("Please select the POKMON you wish to enter.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_OkayToSaveBeforeEntering {
@@ -127,35 +127,35 @@ text BattleFrontier_BattleTowerLobby_Text_RecordLastMatch {
 }
 
 text BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50 {
-    format("Excuse me!\p You don't have {STR_VAR_2} eligible POKéMON.\p You must have {STR_VAR_2} different POKéMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
+    format("Excuse me!\p You don't have {STR_VAR_2} eligible POKMON.\p You must have {STR_VAR_2} different POKMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen {
-    format("Excuse me!\p You don't have {STR_VAR_2} eligible POKéMON.\p You must have {STR_VAR_2} different POKéMON to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
+    format("Excuse me!\p You don't have {STR_VAR_2} eligible POKMON.\p You must have {STR_VAR_2} different POKMON to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles {
-    format("Excuse me!\p You don't have three eligible POKéMON.\p You must have three different POKéMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
+    format("Excuse me!\p You don't have three eligible POKMON.\p You must have three different POKMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles {
-    format("Excuse me!\p You don't have three eligible POKéMON.\p You must have three different POKéMON to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
+    format("Excuse me!\p You don't have three eligible POKMON.\p You must have three different POKMON to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Doubles {
-    format("Excuse me!\p You don't have four eligible POKéMON.\p You must have four different POKéMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
+    format("Excuse me!\p You don't have four eligible POKMON.\p You must have four different POKMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenDoubles {
-    format("Excuse me!\p You don't have four eligible POKéMON.\p You must have four different POKéMON to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
+    format("Excuse me!\p You don't have four eligible POKMON.\p You must have four different POKMON to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Multis {
-    format("Excuse me!\p You don't have two eligible POKéMON.\p You must have two different POKéMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
+    format("Excuse me!\p You don't have two eligible POKMON.\p You must have two different POKMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis {
-    format("Excuse me!\p You don't have two eligible POKéMON.\p You must have two different POKéMON to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
+    format("Excuse me!\p You don't have two eligible POKMON.\p You must have two different POKMON to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle {
@@ -167,11 +167,11 @@ text BattleFrontier_BattleTowerLobby_Text_TakeSinglesChallenge {
 }
 
 text BattleFrontier_BattleTowerLobby_Text_ExplainSinglesChallenge {
-    format("The BATTLE TOWER's SINGLE BATTLE ROOMS are facilities for conducting\l SINGLE BATTLES with three POKéMON.\p There are many SINGLE BATTLE ROOMS in the BATTLE TOWER for team battles.\p In each of the SINGLE BATTLE ROOMS, seven TRAINERS await your challenge.\p If you manage to defeat all seven, you will earn Battle Points.\p If you want to interrupt your challenge, please save the game.\p If you don't save before interrupting, you will be disqualified.")
+    format("The BATTLE TOWER's SINGLE BATTLE ROOMS are facilities for conducting\l SINGLE BATTLES with three POKMON.\p There are many SINGLE BATTLE ROOMS in the BATTLE TOWER for team battles.\p In each of the SINGLE BATTLE ROOMS, seven TRAINERS await your challenge.\p If you manage to defeat all seven, you will earn Battle Points.\p If you want to interrupt your challenge, please save the game.\p If you don't save before interrupting, you will be disqualified.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_SelectThreeMons {
-    format("Now please select the three POKéMON that are to be entered.")
+    format("Now please select the three POKMON that are to be entered.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_WelcomeDoubleBattle {
@@ -183,11 +183,11 @@ text BattleFrontier_BattleTowerLobby_Text_TakeDoublesChallenge {
 }
 
 text BattleFrontier_BattleTowerLobby_Text_ExplainDoublesChallenge {
-    format("The BATTLE TOWER's DOUBLE BATTLE ROOMS are facilities for conducting\l DOUBLE BATTLES with four POKéMON.\p There are many DOUBLE BATTLE ROOMS in the BATTLE TOWER for team battles.\p In each of the DOUBLE BATTLE ROOMS, seven TRAINERS await your challenge.\p If you manage to defeat all seven, you will earn Battle Points.\p If you want to interrupt your challenge, please save the game.\p If you don't save before interrupting, you will be disqualified.")
+    format("The BATTLE TOWER's DOUBLE BATTLE ROOMS are facilities for conducting\l DOUBLE BATTLES with four POKMON.\p There are many DOUBLE BATTLE ROOMS in the BATTLE TOWER for team battles.\p In each of the DOUBLE BATTLE ROOMS, seven TRAINERS await your challenge.\p If you manage to defeat all seven, you will earn Battle Points.\p If you want to interrupt your challenge, please save the game.\p If you don't save before interrupting, you will be disqualified.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_PleaseSelectFourMons {
-    format("Now please select the four POKéMON that are to be entered.")
+    format("Now please select the four POKMON that are to be entered.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle {
@@ -199,11 +199,11 @@ text BattleFrontier_BattleTowerLobby_Text_TakeMultisChallenge {
 }
 
 text BattleFrontier_BattleTowerLobby_Text_ExplainMultisChallenge {
-    format("The BATTLE TOWER's MULTI BATTLE ROOMS are facilities for conducting\l MULTI BATTLES.\p For MULTI BATTLES, you must partner with a TRAINER in the TOWER and enter\l with two POKéMON each.\p Inside the TOWER is a room named the BATTLE SALON where you may meet\l other TRAINERS.\p There, you must find a TRAINER to act as your partner in MULTI BATTLES.\p Once you have partnered up, you will be shown to a MULTI BATTLE ROOM.\p In the MULTI BATTLE ROOM, seven tag teams await your challenge.\p If you manage to defeat all seven teams, you will earn Battle Points.\p If you want to interrupt your challenge, please save the game.\p If you don't save before interrupting, you will be disqualified.")
+    format("The BATTLE TOWER's MULTI BATTLE ROOMS are facilities for conducting\l MULTI BATTLES.\p For MULTI BATTLES, you must partner with a TRAINER in the TOWER and enter\l with two POKMON each.\p Inside the TOWER is a room named the BATTLE SALON where you may meet\l other TRAINERS.\p There, you must find a TRAINER to act as your partner in MULTI BATTLES.\p Once you have partnered up, you will be shown to a MULTI BATTLE ROOM.\p In the MULTI BATTLE ROOM, seven tag teams await your challenge.\p If you manage to defeat all seven teams, you will earn Battle Points.\p If you want to interrupt your challenge, please save the game.\p If you don't save before interrupting, you will be disqualified.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons {
-    format("Now please select the two POKéMON that are to be entered.")
+    format("Now please select the two POKMON that are to be entered.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle {
@@ -215,15 +215,15 @@ text BattleFrontier_BattleTowerLobby_Text_TakeLinkMultisChallenge {
 }
 
 text BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge {
-    format("The BATTLE TOWER's MULTI BATTLE ROOMS are facilities for conducting\l MULTI BATTLES with a friend.\p You must link with your friend using Wireless Adapters or a Game Boy\l Advance Game Link cable.\p You must partner with your friend and enter two different kinds of POKéMON.\p There are many MULTI BATTLE ROOMS in the BATTLE TOWER for team battles.\p In a MULTI BATTLE ROOM, seven tag teams await you and your friend\l to make a tag-team challenge.\p If you manage to defeat all seven teams, you will earn Battle Points.\p Please beware that unlike other ROOMS, you may not interrupt your challenge.\p Once you start, you must battle seven MULTI BATTLES in a row nonstop.")
+    format("The BATTLE TOWER's MULTI BATTLE ROOMS are facilities for conducting\l MULTI BATTLES with a friend.\p You must link with your friend using Wireless Adapters or a Game Boy\l Advance Game Link cable.\p You must partner with your friend and enter two different kinds of POKMON.\p There are many MULTI BATTLE ROOMS in the BATTLE TOWER for team battles.\p In a MULTI BATTLE ROOM, seven tag teams await you and your friend\l to make a tag-team challenge.\p If you manage to defeat all seven teams, you will earn Battle Points.\p Please beware that unlike other ROOMS, you may not interrupt your challenge.\p Once you start, you must battle seven MULTI BATTLES in a row nonstop.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons2 {
-    format("Now please select the two POKéMON that are to be entered.")
+    format("Now please select the two POKMON that are to be entered.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_ChoseSameMonAsFriend {
-    format("You have chosen the same kind of POKéMON as your friend.\p Please choose two POKéMON different from your friend's, match the level\l you wish to enter, and register again.")
+    format("You have chosen the same kind of POKMON as your friend.\p Please choose two POKMON different from your friend's, match the level\l you wish to enter, and register again.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_LinkMultiOnlyForTwoPlayers {
@@ -231,11 +231,11 @@ text BattleFrontier_BattleTowerLobby_Text_LinkMultiOnlyForTwoPlayers {
 }
 
 text BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMon {
-    format("Your friend has also selected the POKéMON {STR_VAR_1}.")
+    format("Your friend has also selected the POKMON {STR_VAR_1}.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMons {
-    format("Your friend has also selected the POKéMON {STR_VAR_1} and {STR_VAR_2}.")
+    format("Your friend has also selected the POKMON {STR_VAR_1} and {STR_VAR_2}.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlMode {
@@ -243,15 +243,15 @@ text BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlMode {
 }
 
 text BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMon {
-    format("Your friend has chosen a different battle level.\p Your friend has also selected the POKéMON {STR_VAR_1}.")
+    format("Your friend has chosen a different battle level.\p Your friend has also selected the POKMON {STR_VAR_1}.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMons {
-    format("Your friend has chosen a different battle level.\p Your friend has also selected the POKéMON {STR_VAR_1} and {STR_VAR_2}.")
+    format("Your friend has chosen a different battle level.\p Your friend has also selected the POKMON {STR_VAR_1} and {STR_VAR_2}.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode {
-    format("Please choose two POKéMON different from your friend's, match the level\l you wish to enter, and register again.")
+    format("Please choose two POKMON different from your friend's, match the level\l you wish to enter, and register again.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn {
@@ -283,14 +283,14 @@ text BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules {
 }
 
 text BattleFrontier_BattleTowerLobby_Text_ExplainMonRules {
-    format("Depending on the BATTLE ROOM you are entering, you will be required to take\l a certain number of POKéMON.\p The SINGLE BATTLE mode requires three POKéMON.\p The DOUBLE BATTLE mode requires four, and the MULTI modes both require two.")
+    format("Depending on the BATTLE ROOM you are entering, you will be required to take\l a certain number of POKMON.\p The SINGLE BATTLE mode requires three POKMON.\p The DOUBLE BATTLE mode requires four, and the MULTI modes both require two.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_ExplainSalonRules {
-    format("The BATTLE SALON is where you must find a partner to form a tag team for\l the MULTI BATTLE ROOM challenge.\p Choose the best partner for you by examining other TRAINERS'\l POKéMON and their moves.\p You may choose a new tag partner after winning seven straight matches.")
+    format("The BATTLE SALON is where you must find a partner to form a tag team for\l the MULTI BATTLE ROOM challenge.\p Choose the best partner for you by examining other TRAINERS'\l POKMON and their moves.\p You may choose a new tag partner after winning seven straight matches.")
 }
 
 text BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules {
-    format("The LINK MULTI BATTLE Mode is for two friends to mount a challenge together.\p You and your friend must be linked with Wireless Adapters or a GBA Game Link\l cable.\p You must choose two POKéMON at the registration counter.\p These POKéMON must be different from those of your friend.\p You may not interrupt this challenge in the middle, unlike other modes.")
+    format("The LINK MULTI BATTLE Mode is for two friends to mount a challenge together.\p You and your friend must be linked with Wireless Adapters or a GBA Game Link\l cable.\p You must choose two POKMON at the registration counter.\p These POKMON must be different from those of your friend.\p You may not interrupt this challenge in the middle, unlike other modes.")
 }
 

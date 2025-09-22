@@ -3,11 +3,11 @@ mapscripts PacifidlogTown_House4_MapScripts {
 
 
 text PacifidlogTown_House4_Text_PeopleSawHighFlyingPokemon {
-    format("People were saying they saw a POKéMON flying high above HOENN.\p Is it flying around all the time? Doesn't it need to rest somewhere?")
+    format("People were saying they saw a POKMON flying high above HOENN.\p Is it flying around all the time? Doesn't it need to rest somewhere?")
 }
 
 text PacifidlogTown_House4_Text_SkyPokemon {
-    format("A sky POKéMON! A sky POKéMON!")
+    format("A sky POKMON! A sky POKMON!")
 }
 
 text PacifidlogTown_House4_Text_WhereDidYouComeFrom {

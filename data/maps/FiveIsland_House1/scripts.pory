@@ -3,10 +3,10 @@ mapscripts FiveIsland_House1_MapScripts {
 
 
 text FiveIsland_House1_JPText_HusbandWentOffFishing {
-    format("こんばんの　おかずは ようい　しなくて　いいぞ！\p って　だんなが つりに　いったん　だけど‥\l しんじて　いいのかねえ")
+    format(" \p  \l ")
 }
 
 text FiveIsland_House1_Text_HusbandWentOffFishing {
-    format("Don't worry about buying anything for dinner tonight!\p …That's what my husband said when he went off fishing today.\p I'm not sure if I can count on him to live up to that promise.")
+    format("Don't worry about buying anything for dinner tonight!\p That's what my husband said when he went off fishing today.\p I'm not sure if I can count on him to live up to that promise.")
 }
 

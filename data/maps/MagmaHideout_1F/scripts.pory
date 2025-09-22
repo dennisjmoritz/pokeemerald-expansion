@@ -8,11 +8,11 @@ text MagmaHideout_1F_Text_Grunt1Intro {
 }
 
 text MagmaHideout_1F_Text_Grunt1Defeat {
-    format("I'm always late for training sessions, too!\p I hate to say it, but I'm wimpy…")
+    format("I'm always late for training sessions, too!\p I hate to say it, but I'm wimpy")
 }
 
 text MagmaHideout_1F_Text_Grunt1PostBattle {
-    format("Okay, I'll try to put a little more effort into things from now on…")
+    format("Okay, I'll try to put a little more effort into things from now on")
 }
 
 text MagmaHideout_1F_Text_Grunt2Intro {

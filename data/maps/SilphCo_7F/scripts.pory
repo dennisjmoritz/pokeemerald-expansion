@@ -5,7 +5,7 @@ mapscripts SilphCo_7F_MapScripts {
 
 
 text SilphCo_7F_Text_HaveMonForSavingUs {
-    format("Oh! Hi! You're not a ROCKET! You came to save us?\l Why, thank you!\p I want you to have this POKéMON for saving us.")
+    format("Oh! Hi! You're not a ROCKET! You came to save us?\l Why, thank you!\p I want you to have this POKMON for saving us.")
 }
 
 text SilphCo_7F_Text_ObtainedLaprasFromEmployee {
@@ -13,7 +13,7 @@ text SilphCo_7F_Text_ObtainedLaprasFromEmployee {
 }
 
 text SilphCo_7F_Text_ExplainLapras {
-    format("It's a LAPRAS. It's a very intelligent POKéMON.\p We kept it in our lab, but it will be much better off with you.\p I think you will be a good TRAINER for LAPRAS!\p It's a good swimmer. It'll give you a lift across water!")
+    format("It's a LAPRAS. It's a very intelligent POKMON.\p We kept it in our lab, but it will be much better off with you.\p I think you will be a good TRAINER for LAPRAS!\p It's a good swimmer. It'll give you a lift across water!")
 }
 
 text SilphCo_7F_Text_RocketBossWentToBoardroom {
@@ -21,15 +21,15 @@ text SilphCo_7F_Text_RocketBossWentToBoardroom {
 }
 
 text SilphCo_7F_Text_OhNo {
-    format("あ‥　もう　もてないぞ")
+    format("")
 }
 
 text SilphCo_7F_Text_SavedAtLast {
-    format("たすかったよ　ありがと！")
+    format("")
 }
 
 text SilphCo_7F_Text_RocketsAfterMasterBall {
-    format("TEAM ROCKET was after the MASTER BALL, which catches any POKéMON.")
+    format("TEAM ROCKET was after the MASTER BALL, which catches any POKMON.")
 }
 
 text SilphCo_7F_Text_CanceledMasterBallProject {
@@ -37,7 +37,7 @@ text SilphCo_7F_Text_CanceledMasterBallProject {
 }
 
 text SilphCo_7F_Text_BadIfTeamRocketTookOver {
-    format("It would be bad if TEAM ROCKET took over SILPH or our POKéMON.")
+    format("It would be bad if TEAM ROCKET took over SILPH or our POKMON.")
 }
 
 text SilphCo_7F_Text_WowYouChasedOffTeamRocket {
@@ -113,11 +113,11 @@ text SilphCo_7F_Text_RivalDefeat {
 }
 
 text SilphCo_7F_Text_RivalVictory {
-    format("{RIVAL}“おまえなあ‥\p こんな　うでまえじゃ まだまだ‥\l いちにんまえ　とは　いえないぜ")
+    format("{RIVAL}\p  \l ")
 }
 
 text SilphCo_7F_Text_RivalPostBattle {
-    format("Well, {PLAYER}! I'm moving on up and ahead!\p By checking my POKéDEX, I'm starting to see what's strong and\l how they evolve!\p Am I a genius or what?\p I'm going to the POKéMON LEAGUE to boot out the ELITE FOUR.\p I'll become the world's most powerful TRAINER!\p {PLAYER}, well, good luck to you! Don't sweat it!\l Smell ya!")
+    format("Well, {PLAYER}! I'm moving on up and ahead!\p By checking my POKDEX, I'm starting to see what's strong and\l how they evolve!\p Am I a genius or what?\p I'm going to the POKMON LEAGUE to boot out the ELITE FOUR.\p I'll become the world's most powerful TRAINER!\p {PLAYER}, well, good luck to you! Don't sweat it!\l Smell ya!")
 }
 
 text SilphCo_7F_Text_FloorSign {

@@ -5,18 +5,18 @@ mapscripts OldaleTown_PokemonCenter_1F_MapScripts {
 
 
 text OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC {
-    format("That PC in the corner there is for any POKéMON TRAINER to use.\p Naturally, that means you're welcome to use it, too.")
+    format("That PC in the corner there is for any POKMON TRAINER to use.\p Naturally, that means you're welcome to use it, too.")
 }
 
 text OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat {
-    format("POKéMON CENTERS are great!\p You can use their services as much as you like, and it's all for free.\l You never have to worry!")
+    format("POKMON CENTERS are great!\p You can use their services as much as you like, and it's all for free.\l You never have to worry!")
 }
 
 text OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable {
-    format("The POKéMON WIRELESS CLUB on the second floor was built recently.\p But they say they're still making adjustments.")
+    format("The POKMON WIRELESS CLUB on the second floor was built recently.\p But they say they're still making adjustments.")
 }
 
 text OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub {
-    format("The POKéMON WIRELESS CLUB on the second floor was built recently.\p I traded POKéMON right away.")
+    format("The POKMON WIRELESS CLUB on the second floor was built recently.\p I traded POKMON right away.")
 }
 

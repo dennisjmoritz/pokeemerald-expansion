@@ -3,7 +3,7 @@ mapscripts Route15_MapScripts {
 
 
 text Route15_Text_KindraIntro {
-    format("I just got some POKéMON in trades. Can I try them out on you?")
+    format("I just got some POKMON in trades. Can I try them out on you?")
 }
 
 text Route15_Text_KindraDefeat {
@@ -11,7 +11,7 @@ text Route15_Text_KindraDefeat {
 }
 
 text Route15_Text_KindraPostBattle {
-    format("You can't change the nickname of any POKéMON you get in a trade.\p Only the Original TRAINER can get the nickname changed.")
+    format("You can't change the nickname of any POKMON you get in a trade.\p Only the Original TRAINER can get the nickname changed.")
 }
 
 text Route15_Text_BeckyIntro {
@@ -27,7 +27,7 @@ text Route15_Text_BeckyPostBattle {
 }
 
 text Route15_Text_EdwinIntro {
-    format("When I whistle, I can summon bird POKéMON.")
+    format("When I whistle, I can summon bird POKMON.")
 }
 
 text Route15_Text_EdwinDefeat {
@@ -47,11 +47,11 @@ text Route15_Text_ChesterDefeat {
 }
 
 text Route15_Text_ChesterPostBattle {
-    format("This is so obvious, you should know this, but…\p Moves like EARTHQUAKE and FISSURE have no effect on bird POKéMON.")
+    format("This is so obvious, you should know this, but\p Moves like EARTHQUAKE and FISSURE have no effect on bird POKMON.")
 }
 
 text Route15_Text_GraceIntro {
-    format("Oh, you're a little cutie! So like a darling POKéMON!")
+    format("Oh, you're a little cutie! So like a darling POKMON!")
 }
 
 text Route15_Text_GraceDefeat {
@@ -63,15 +63,15 @@ text Route15_Text_GracePostBattle {
 }
 
 text Route15_Text_OliviaIntro {
-    format("I raise POKéMON for protection because I live alone.")
+    format("I raise POKMON for protection because I live alone.")
 }
 
 text Route15_Text_OliviaDefeat {
-    format("POKéMON isn't about winning or losing for me.")
+    format("POKMON isn't about winning or losing for me.")
 }
 
 text Route15_Text_OliviaPostBattle {
-    format("I love having my POKéMON greet me when I get home.\p It's so reassuring.")
+    format("I love having my POKMON greet me when I get home.\p It's so reassuring.")
 }
 
 text Route15_Text_ErnestIntro {
@@ -99,7 +99,7 @@ text Route15_Text_AlexPostBattle {
 }
 
 text Route15_Text_CeliaIntro {
-    format("What's cool and happening? Trading POKéMON!")
+    format("What's cool and happening? Trading POKMON!")
 }
 
 text Route15_Text_CeliaDefeat {
@@ -107,11 +107,11 @@ text Route15_Text_CeliaDefeat {
 }
 
 text Route15_Text_CeliaPostBattle {
-    format("I trade POKéMON with my friends all the time.")
+    format("I trade POKMON with my friends all the time.")
 }
 
 text Route15_Text_YazminIntro {
-    format("Want to play with my POKéMON?")
+    format("Want to play with my POKMON?")
 }
 
 text Route15_Text_YazminDefeat {
@@ -139,7 +139,7 @@ text Route15_Text_MyaPostBattle {
 }
 
 text Route15_Text_MyaNotEnoughMons {
-    format("MYA: Do you want to challenge us? You'll need two POKéMON, though.")
+    format("MYA: Do you want to challenge us? You'll need two POKMON, though.")
 }
 
 text Route15_Text_RonIntro {
@@ -147,14 +147,14 @@ text Route15_Text_RonIntro {
 }
 
 text Route15_Text_RonDefeat {
-    format("RON: Oh, no, no… Sis, I'm sorry!")
+    format("RON: Oh, no, no Sis, I'm sorry!")
 }
 
 text Route15_Text_RonPostBattle {
-    format("RON: Oh, bleah… I wish I had a nice sister…")
+    format("RON: Oh, bleah I wish I had a nice sister")
 }
 
 text Route15_Text_RonNotEnoughMons {
-    format("RON: Did you want to battle with my sister and me?\p You need two POKéMON, then.")
+    format("RON: Did you want to battle with my sister and me?\p You need two POKMON, then.")
 }
 

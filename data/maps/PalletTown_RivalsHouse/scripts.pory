@@ -28,7 +28,7 @@ text PalletTown_RivalsHouse_Text_ExplainTownMap {
 }
 
 text PalletTown_RivalsHouse_Text_PleaseGiveMonsRest {
-    format("DAISY: Just like people, POKéMON are living things.\p When they get tired, please give them a rest.")
+    format("DAISY: Just like people, POKMON are living things.\p When they get tired, please give them a rest.")
 }
 
 text PalletTown_RivalsHouse_Text_ItsBigMapOfKanto {
@@ -36,11 +36,11 @@ text PalletTown_RivalsHouse_Text_ItsBigMapOfKanto {
 }
 
 text PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks {
-    format("The shelves are crammed full of books on POKéMON.")
+    format("The shelves are crammed full of books on POKMON.")
 }
 
 text PalletTown_RivalsHouse_Text_LikeMeToGroomMon {
-    format("DAISY: Hi, {PLAYER}! Good timing.\p I'm about to have some tea. Would you like to join me?\p Oh, but look. Your POKéMON are a little dirty.\p Would you like me to groom one?")
+    format("DAISY: Hi, {PLAYER}! Good timing.\p I'm about to have some tea. Would you like to join me?\p Oh, but look. Your POKMON are a little dirty.\p Would you like me to groom one?")
 }
 
 text PalletTown_RivalsHouse_Text_DontNeedAnyGrooming {
@@ -56,7 +56,7 @@ text PalletTown_RivalsHouse_Text_LookingNiceInNoTime {
 }
 
 text PalletTown_RivalsHouse_Text_ThereYouGoAllDone {
-    format("{COLOR DARK_GRAY}{STR_VAR_1} looks dreamily content…\p {COLOR RED}DAISY: There you go! All done. {FONT_NORMAL}{STR_VAR_1} looks dreamily content…\p {FONT_FEMALE}DAISY: There you go! All done. See? Doesn't it look nice?\p Giggle… It's such a cute POKéMON.")
+    format("{COLOR DARK_GRAY}{STR_VAR_1} looks dreamily content\p {COLOR RED}DAISY: There you go! All done. {FONT_NORMAL}{STR_VAR_1} looks dreamily content\p {FONT_FEMALE}DAISY: There you go! All done. See? Doesn't it look nice?\p Giggle It's such a cute POKMON.")
 }
 
 text PalletTown_RivalsHouse_Text_CantGroomAnEgg {
@@ -64,11 +64,11 @@ text PalletTown_RivalsHouse_Text_CantGroomAnEgg {
 }
 
 text PalletTown_RivalsHouse_Text_MayISeeFirstMon {
-    format("DAISY: Your POKéMON grow to love you if you raise them with love.\p For example, {PLAYER}, may I see your first POKéMON?")
+    format("DAISY: Your POKMON grow to love you if you raise them with love.\p For example, {PLAYER}, may I see your first POKMON?")
 }
 
 text PalletTown_RivalsHouse_Text_CouldntLoveYouMore {
-    format("It couldn't possibly love you any more than it does now.\p Your POKéMON is happy beyond words.")
+    format("It couldn't possibly love you any more than it does now.\p Your POKMON is happy beyond words.")
 }
 
 text PalletTown_RivalsHouse_Text_ItLooksVeryHappy {
@@ -84,7 +84,7 @@ text PalletTown_RivalsHouse_Text_ItsWarmingUpToYou {
 }
 
 text PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet {
-    format("It's not quite familiar with you yet.\p POKéMON are all quite wary when you first get them.")
+    format("It's not quite familiar with you yet.\p POKMON are all quite wary when you first get them.")
 }
 
 text PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou {
@@ -92,10 +92,10 @@ text PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou {
 }
 
 text PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch {
-    format("…Um, it's not easy for me to say this, but…\p Is there some reason why your POKéMON would hate you so much?")
+    format("Um, it's not easy for me to say this, but\p Is there some reason why your POKMON would hate you so much?")
 }
 
 text PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy {
-    format("“The lovely and sweet CLEFAIRY”")
+    format("The lovely and sweet CLEFAIRY")
 }
 

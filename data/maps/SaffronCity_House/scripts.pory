@@ -3,7 +3,7 @@ mapscripts SaffronCity_House_MapScripts {
 
 
 text SaffronCity_House_Text_DontLookAtMyLetter {
-    format("…Thank you for writing. I hope to see you soon!\p …Hey! Don't look at my letter!")
+    format("Thank you for writing. I hope to see you soon!\p Hey! Don't look at my letter!")
 }
 
 text SaffronCity_House_Text_Pidgey {
@@ -11,10 +11,10 @@ text SaffronCity_House_Text_Pidgey {
 }
 
 text SaffronCity_House_Text_GettingCopycatPokeDoll {
-    format("The COPYCAT is cute! I'm getting her a POKé DOLL.")
+    format("The COPYCAT is cute! I'm getting her a POK DOLL.")
 }
 
 text SaffronCity_House_Text_ExplainPPUp {
-    format("I was given a PP UP as a gift.\p It's used to increase the PP of a POKéMON's move.\p I should use it on a powerful move with only a few PP.")
+    format("I was given a PP UP as a gift.\p It's used to increase the PP of a POKMON's move.\p I should use it on a powerful move with only a few PP.")
 }
 

@@ -7,11 +7,11 @@ text Route6_NorthEntrance_Text_ThirstyOnGuardDuty {
 }
 
 text Route6_NorthEntrance_Text_ThatTeaLooksTasty {
-    format("Oh, that TEA… It looks awfully tasty…")
+    format("Oh, that TEA It looks awfully tasty")
 }
 
 text Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards {
-    format("Huh? I can have this drink? Gee, thanks!\l … …\l Glug, glug…\l … …\l Gulp…\l If you want to go to SAFFRON\l CITY…\l … …\l You can go on through.\p I'll share this TEA with the other guards!")
+    format("Huh? I can have this drink? Gee, thanks!\l  \l Glug, glug\l  \l Gulp\l If you want to go to SAFFRON\l CITY\l  \l You can go on through.\p I'll share this TEA with the other guards!")
 }
 
 text Route6_NorthEntrance_Text_HiHowsItGoing {

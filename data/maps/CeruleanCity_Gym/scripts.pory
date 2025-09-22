@@ -3,15 +3,15 @@ mapscripts CeruleanCity_Gym_MapScripts {
 
 
 text CeruleanCity_Gym_Text_MistyIntro {
-    format("Hi, you're a new face!\p Only those TRAINERS who have a policy about POKéMON can turn pro.\p What is your approach when you catch and train POKéMON?\p My policy is an all-out offensive with WATER-type POKéMON!{PLAY_BGM}{MUS_RG_GYM}")
+    format("Hi, you're a new face!\p Only those TRAINERS who have a policy about POKMON can turn pro.\p What is your approach when you catch and train POKMON?\p My policy is an all-out offensive with WATER-type POKMON!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text CeruleanCity_Gym_Text_ExplainTM03 {
-    format("TM03 teaches WATER PULSE.\p Use it on an aquatic POKéMON!")
+    format("TM03 teaches WATER PULSE.\p Use it on an aquatic POKMON!")
 }
 
 text CeruleanCity_Gym_Text_ExplainCascadeBadge {
-    format("The CASCADEBADGE makes all POKéMON up to Lv. 30 obey.\p That includes even outsiders you got in trades.\p There's more. You can now use CUT anytime, even out of battle.\p You can CUT down small trees to open new pathways.\p You can also have my favorite TM.")
+    format("The CASCADEBADGE makes all POKMON up to Lv. 30 obey.\p That includes even outsiders you got in trades.\p There's more. You can now use CUT anytime, even out of battle.\p You can CUT down small trees to open new pathways.\p You can also have my favorite TM.")
 }
 
 text CeruleanCity_Gym_Text_ReceivedTM03FromMisty {
@@ -51,7 +51,7 @@ text CeruleanCity_Gym_Text_LuisPostBattle {
 }
 
 text CeruleanCity_Gym_Text_GymGuyAdvice {
-    format("Yo! Champ in the making!\p Let me give you some advice!\p The LEADER, MISTY, is a pro who uses WATER-type POKéMON.\p You can drain all their water with GRASS-type POKéMON.\p Or, you might use ELECTRIC-type POKéMON and zap them!")
+    format("Yo! Champ in the making!\p Let me give you some advice!\p The LEADER, MISTY, is a pro who uses WATER-type POKMON.\p You can drain all their water with GRASS-type POKMON.\p Or, you might use ELECTRIC-type POKMON and zap them!")
 }
 
 text CeruleanCity_Gym_Text_WeMakePrettyGoodTeam {
@@ -59,10 +59,10 @@ text CeruleanCity_Gym_Text_WeMakePrettyGoodTeam {
 }
 
 text CeruleanCity_Gym_Text_GymStatue {
-    format("CERULEAN POKéMON GYM LEADER: MISTY\p WINNING TRAINERS: {RIVAL}")
+    format("CERULEAN POKMON GYM LEADER: MISTY\p WINNING TRAINERS: {RIVAL}")
 }
 
 text CeruleanCity_Gym_Text_GymStatuePlayerWon {
-    format("CERULEAN POKéMON GYM LEADER: MISTY\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+    format("CERULEAN POKMON GYM LEADER: MISTY\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
 }
 

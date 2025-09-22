@@ -3,10 +3,10 @@ mapscripts VerdanturfTown_House_MapScripts {
 
 
 text VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague {
-    format("Far away, deep in EVER GRANDE CITY, is the POKéMON LEAGUE.\p The TRAINERS who gather there are all frighteningly well skilled.")
+    format("Far away, deep in EVER GRANDE CITY, is the POKMON LEAGUE.\p The TRAINERS who gather there are all frighteningly well skilled.")
 }
 
 text VerdanturfTown_House_Text_DefeatEliteFourInARow {
-    format("In the POKéMON LEAGUE, I think the rules say that you have to battle the\l ELITE FOUR all in a row.\p If you lose to any of them, you have to begin your challenge again from the\l first one.")
+    format("In the POKMON LEAGUE, I think the rules say that you have to battle the\l ELITE FOUR all in a row.\p If you lose to any of them, you have to begin your challenge again from the\l first one.")
 }
 

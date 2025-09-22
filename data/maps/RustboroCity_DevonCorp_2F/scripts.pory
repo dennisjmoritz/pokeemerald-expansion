@@ -4,35 +4,35 @@ mapscripts RustboroCity_DevonCorp_2F_MapScripts {
 
 
 text RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon {
-    format("We're developing a device for talking with POKéMON.\p But we haven't had much success…")
+    format("We're developing a device for talking with POKMON.\p But we haven't had much success")
 }
 
 text RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls {
-    format("I'm developing new kinds of POKé BALLS…\p But I haven't made much headway…")
+    format("I'm developing new kinds of POK BALLS\p But I haven't made much headway")
 }
 
 text RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls {
-    format("We finally made new kinds of POKé BALLS!\p The REPEAT BALL makes it easier to catch POKéMON you've caught before.\p The TIMER BALL gets better at catching POKéMON the longer a battle runs.\p Both are proudly developed by the DEVON CORPORATION.\p Please give them a try!")
+    format("We finally made new kinds of POK BALLS!\p The REPEAT BALL makes it easier to catch POKMON you've caught before.\p The TIMER BALL gets better at catching POKMON the longer a battle runs.\p Both are proudly developed by the DEVON CORPORATION.\p Please give them a try!")
 }
 
 text RustboroCity_DevonCorp_2F_Text_IMadePokenav {
-    format("I made the POKéNAV!\p As an engineer, I feel blessed to have made something so great!")
+    format("I made the POKNAV!\p As an engineer, I feel blessed to have made something so great!")
 }
 
 text RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav {
-    format("Oh, wow! That's a POKéNAV!\p It came about as a result of our PRESIDENT's desire to learn about\l the feelings of POKéMON.\p Would you like me to describe its features in detail?\p No, no. I think you'll find out just by trying the POKéNAV out.")
+    format("Oh, wow! That's a POKNAV!\p It came about as a result of our PRESIDENT's desire to learn about\l the feelings of POKMON.\p Would you like me to describe its features in detail?\p No, no. I think you'll find out just by trying the POKNAV out.")
 }
 
 text RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams {
-    format("I'm trying to develop a device that visually reproduces the dreams of\l POKéMON…\p But it's not going well.")
+    format("I'm trying to develop a device that visually reproduces the dreams of\l POKMON\p But it's not going well.")
 }
 
 text RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils {
-    format("I've been trying to develop a device that resurrects POKéMON from fossils…\p And, it's working!")
+    format("I've been trying to develop a device that resurrects POKMON from fossils\p And, it's working!")
 }
 
 text RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife {
-    format("Wait! That thing you have there… Is that a POKéMON fossil?\p Would you like to bring that POKéMON back to life?\p I can with my newly developed FOSSIL REGENERATOR.")
+    format("Wait! That thing you have there Is that a POKMON fossil?\p Would you like to bring that POKMON back to life?\p I can with my newly developed FOSSIL REGENERATOR.")
 }
 
 text RustboroCity_DevonCorp_2F_Text_OhIsThatSo {
@@ -40,7 +40,7 @@ text RustboroCity_DevonCorp_2F_Text_OhIsThatSo {
 }
 
 text RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne {
-    format("Oh, now that's a surprise! You have not one, but two, fossils?\p Unfortunately, my machine can only regenerate one POKéMON at a time.\p Would you like to pick one of your fossils for regeneration?")
+    format("Oh, now that's a surprise! You have not one, but two, fossils?\p Unfortunately, my machine can only regenerate one POKMON at a time.\p Would you like to pick one of your fossils for regeneration?")
 }
 
 text RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher {
@@ -48,11 +48,11 @@ text RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher {
 }
 
 text RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime {
-    format("The FOSSIL REGENERATOR, which I made, is incredible.\p But it has one drawback--it takes a long time to work.\p So, uh… How about you go for a stroll and look around for a while?")
+    format("The FOSSIL REGENERATOR, which I made, is incredible.\p But it has one drawback--it takes a long time to work.\p So, uh How about you go for a stroll and look around for a while?")
 }
 
 text RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife {
-    format("Thanks for waiting!\p Your fossilized POKéMON has been brought back to life!\p The fossil was an ancient POKéMON. {STR_VAR_2}, it was!")
+    format("Thanks for waiting!\p Your fossilized POKMON has been brought back to life!\p The fossil was an ancient POKMON. {STR_VAR_2}, it was!")
 }
 
 text RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher {
@@ -60,11 +60,11 @@ text RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher {
 }
 
 text RustboroCity_DevonCorp_2F_Text_TooManyPokemon {
-    format("Uh-oh, you've got too many POKéMON. You have no room for this one.")
+    format("Uh-oh, you've got too many POKMON. You have no room for this one.")
 }
 
 text RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature {
-    format("I'm trying to develop a new feature for the POKéNAV…\p But it's not going well.")
+    format("I'm trying to develop a new feature for the POKNAV\p But it's not going well.")
 }
 
 text RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext {

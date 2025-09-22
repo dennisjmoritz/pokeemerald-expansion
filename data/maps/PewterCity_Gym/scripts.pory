@@ -3,11 +3,11 @@ mapscripts PewterCity_Gym_MapScripts {
 
 
 text PewterCity_Gym_Text_BrockIntro {
-    format("So, you're here. I'm BROCK. I'm PEWTER's GYM LEADER.\p My rock-hard willpower is evident even in my POKéMON.\p My POKéMON are all rock hard, and have true-grit determination.\p That's right - my POKéMON are all the ROCK type!\p Fuhaha! You're going to challenge me knowing that you'll lose?\p That's the TRAINER's honor that compels you to challenge me.\p Fine, then! Show me your best!{PLAY_BGM}{MUS_RG_GYM}")
+    format("So, you're here. I'm BROCK. I'm PEWTER's GYM LEADER.\p My rock-hard willpower is evident even in my POKMON.\p My POKMON are all rock hard, and have true-grit determination.\p That's right - my POKMON are all the ROCK type!\p Fuhaha! You're going to challenge me knowing that you'll lose?\p That's the TRAINER's honor that compels you to challenge me.\p Fine, then! Show me your best!{PLAY_BGM}{MUS_RG_GYM}")
 }
 
 text PewterCity_Gym_Text_BrockDefeat {
-    format("I took you for granted, and so I lost.\p As proof of your victory, I confer on you this…the official POKéMON\l LEAGUE BOULDERBADGE.\p {FONT_NORMAL}{PLAYER} received the BOULDERBADGE from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p {FONT_MALE}Just having the BOULDERBADGE makes your POKéMON more powerful.\p It also enables the use of the move FLASH outside of battle.\p Of course, a POKéMON must know the move FLASH to use it.")
+    format("I took you for granted, and so I lost.\p As proof of your victory, I confer on you thisthe official POKMON\l LEAGUE BOULDERBADGE.\p {FONT_NORMAL}{PLAYER} received the BOULDERBADGE from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p {FONT_MALE}Just having the BOULDERBADGE makes your POKMON more powerful.\p It also enables the use of the move FLASH outside of battle.\p Of course, a POKMON must know the move FLASH to use it.")
 }
 
 text PewterCity_Gym_Text_TakeThisWithYou {
@@ -19,11 +19,11 @@ text PewterCity_Gym_Text_ReceivedTM39FromBrock {
 }
 
 text PewterCity_Gym_Text_ExplainTM39 {
-    format("A TM, Technical Machine, contains a technique for POKéMON.\p Using a TM teaches the move it contains to a POKéMON.\p A TM is good for only one use.\p So, when you use one, pick the POKéMON carefully.\p Anyways… TM39 contains ROCK TOMB.\p It hurls boulders at the foe and lowers its SPEED.")
+    format("A TM, Technical Machine, contains a technique for POKMON.\p Using a TM teaches the move it contains to a POKMON.\p A TM is good for only one use.\p So, when you use one, pick the POKMON carefully.\p Anyways TM39 contains ROCK TOMB.\p It hurls boulders at the foe and lowers its SPEED.")
 }
 
 text PewterCity_Gym_Text_BrockPostBattle {
-    format("There are all kinds of TRAINERS in this huge world of ours.\p You appear to be very gifted as a POKéMON TRAINER.\p So let me make a suggestion.\p Go to the GYM in CERULEAN and test your abilities.")
+    format("There are all kinds of TRAINERS in this huge world of ours.\p You appear to be very gifted as a POKMON TRAINER.\p So let me make a suggestion.\p Go to the GYM in CERULEAN and test your abilities.")
 }
 
 text PewterCity_Gym_Text_DontHaveRoomForThis {
@@ -35,15 +35,15 @@ text PewterCity_Gym_Text_LiamIntro {
 }
 
 text PewterCity_Gym_Text_LiamDefeat {
-    format("Darn!\p Light-years isn't time… It measures distance!")
+    format("Darn!\p Light-years isn't time It measures distance!")
 }
 
 text PewterCity_Gym_Text_LiamPostBattle {
-    format("You're pretty hot. …But not as hot as BROCK!")
+    format("You're pretty hot. But not as hot as BROCK!")
 }
 
 text PewterCity_Gym_Text_LetMeTakeYouToTheTop {
-    format("Hiya! Do you want to dream big?\p Do you dare to dream of becoming the POKéMON champ?\p I'm no TRAINER, but I can advise you on how to win.\p Let me take you to the top!")
+    format("Hiya! Do you want to dream big?\p Do you dare to dream of becoming the POKMON champ?\p I'm no TRAINER, but I can advise you on how to win.\p Let me take you to the top!")
 }
 
 text PewterCity_Gym_Text_LetsGetHappening {
@@ -51,7 +51,7 @@ text PewterCity_Gym_Text_LetsGetHappening {
 }
 
 text PewterCity_Gym_Text_TryDifferentPartyOrders {
-    format("The first POKéMON out in a match is at the left of the POKéMON LIST.\p By changing the order of POKéMON, you may gain an advantage.\p Try different orders to suit your opponent's party.")
+    format("The first POKMON out in a match is at the left of the POKMON LIST.\p By changing the order of POKMON, you may gain an advantage.\p Try different orders to suit your opponent's party.")
 }
 
 text PewterCity_Gym_Text_ItsFreeLetsGetHappening {
@@ -59,14 +59,14 @@ text PewterCity_Gym_Text_ItsFreeLetsGetHappening {
 }
 
 text PewterCity_Gym_Text_YoureChampMaterial {
-    format("Just as I thought! You're POKéMON champ material!")
+    format("Just as I thought! You're POKMON champ material!")
 }
 
 text PewterCity_Gym_Text_GymStatue {
-    format("PEWTER POKéMON GYM LEADER: BROCK\p WINNING TRAINERS: {RIVAL}")
+    format("PEWTER POKMON GYM LEADER: BROCK\p WINNING TRAINERS: {RIVAL}")
 }
 
 text PewterCity_Gym_Text_GymStatuePlayerWon {
-    format("PEWTER POKéMON GYM LEADER: BROCK\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+    format("PEWTER POKMON GYM LEADER: BROCK\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
 }
 

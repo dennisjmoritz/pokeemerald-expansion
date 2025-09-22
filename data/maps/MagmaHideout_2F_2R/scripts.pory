@@ -7,19 +7,19 @@ text MagmaHideout_2F_2R_Text_Grunt15Intro {
 }
 
 text MagmaHideout_2F_2R_Text_Grunt15Defeat {
-    format("I may have lost, but…")
+    format("I may have lost, but")
 }
 
 text MagmaHideout_2F_2R_Text_Grunt15PostBattle {
-    format("We dug up something beyond belief! And, we got the BLUE ORB!\p All that's left is for our leader to… Fufufu… Fwahahaha!")
+    format("We dug up something beyond belief! And, we got the BLUE ORB!\p All that's left is for our leader to Fufufu Fwahahaha!")
 }
 
 text MagmaHideout_2F_2R_Text_Grunt6Intro {
-    format("I can't stand heat. Maybe I should've joined TEAM AQUA instead…")
+    format("I can't stand heat. Maybe I should've joined TEAM AQUA instead")
 }
 
 text MagmaHideout_2F_2R_Text_Grunt6Defeat {
-    format("Yeah, I really may not be right for TEAM MAGMA…")
+    format("Yeah, I really may not be right for TEAM MAGMA")
 }
 
 text MagmaHideout_2F_2R_Text_Grunt6PostBattle {
@@ -27,7 +27,7 @@ text MagmaHideout_2F_2R_Text_Grunt6PostBattle {
 }
 
 text MagmaHideout_2F_2R_Text_Grunt7Intro {
-    format("You can hear tremors here sometimes.\p Could it be the volcano rattling? Or is it GROU…\p Whoops! No, no, never mind!")
+    format("You can hear tremors here sometimes.\p Could it be the volcano rattling? Or is it GROU\p Whoops! No, no, never mind!")
 }
 
 text MagmaHideout_2F_2R_Text_Grunt7Defeat {
@@ -39,14 +39,14 @@ text MagmaHideout_2F_2R_Text_Grunt7PostBattle {
 }
 
 text MagmaHideout_2F_2R_Text_Grunt8Intro {
-    format("One of our guys was freaking out that he lost his MAGMA EMBLEM…\p Wait a minute! Was it you who found it?")
+    format("One of our guys was freaking out that he lost his MAGMA EMBLEM\p Wait a minute! Was it you who found it?")
 }
 
 text MagmaHideout_2F_2R_Text_Grunt8Defeat {
-    format("I'm having trouble believing this…")
+    format("I'm having trouble believing this")
 }
 
 text MagmaHideout_2F_2R_Text_Grunt8PostBattle {
-    format("I'm getting this feeling that our plan is going to end in failure…")
+    format("I'm getting this feeling that our plan is going to end in failure")
 }
 

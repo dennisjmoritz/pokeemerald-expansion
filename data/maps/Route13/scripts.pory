@@ -3,7 +3,7 @@ mapscripts Route13_MapScripts {
 
 
 text Route13_Text_SebastianIntro {
-    format("My bird POKéMON want to battle with you!")
+    format("My bird POKMON want to battle with you!")
 }
 
 text Route13_Text_SebastianDefeat {
@@ -11,7 +11,7 @@ text Route13_Text_SebastianDefeat {
 }
 
 text Route13_Text_SebastianPostBattle {
-    format("My POKéMON look happy even though they lost.")
+    format("My POKMON look happy even though they lost.")
 }
 
 text Route13_Text_SusieIntro {
@@ -39,7 +39,7 @@ text Route13_Text_ValeriePostBattle {
 }
 
 text Route13_Text_GwenIntro {
-    format("My cute POKéMON wish to make your acquaintance.")
+    format("My cute POKMON wish to make your acquaintance.")
 }
 
 text Route13_Text_GwenDefeat {
@@ -47,7 +47,7 @@ text Route13_Text_GwenDefeat {
 }
 
 text Route13_Text_GwenPostBattle {
-    format("You have to make POKéMON battle to toughen them up.")
+    format("You have to make POKMON battle to toughen them up.")
 }
 
 text Route13_Text_AlmaIntro {
@@ -59,7 +59,7 @@ text Route13_Text_AlmaDefeat {
 }
 
 text Route13_Text_AlmaPostBattle {
-    format("CARBOS boosted the SPEED of my POKéMON.")
+    format("CARBOS boosted the SPEED of my POKMON.")
 }
 
 text Route13_Text_PerryIntro {
@@ -83,11 +83,11 @@ text Route13_Text_LolaDefeat {
 }
 
 text Route13_Text_LolaPostBattle {
-    format("I wonder which is stronger, male or female POKéMON?")
+    format("I wonder which is stronger, male or female POKMON?")
 }
 
 text Route13_Text_SheilaIntro {
-    format("Do you want to battle some POKéMON with me?")
+    format("Do you want to battle some POKMON with me?")
 }
 
 text Route13_Text_SheilaDefeat {
@@ -95,7 +95,7 @@ text Route13_Text_SheilaDefeat {
 }
 
 text Route13_Text_SheilaPostBattle {
-    format("I don't know anything about POKéMON actually.\p The ones I use… I picked them for their looks!")
+    format("I don't know anything about POKMON actually.\p The ones I use I picked them for their looks!")
 }
 
 text Route13_Text_JaredIntro {
@@ -111,7 +111,7 @@ text Route13_Text_JaredPostBattle {
 }
 
 text Route13_Text_RobertIntro {
-    format("I always go with bird POKéMON. I've dedicated myself to them.")
+    format("I always go with bird POKMON. I've dedicated myself to them.")
 }
 
 text Route13_Text_RobertDefeat {
@@ -119,7 +119,7 @@ text Route13_Text_RobertDefeat {
 }
 
 text Route13_Text_RobertPostBattle {
-    format("I wish I could fly like PIDGEY and PIDGEOTTO…")
+    format("I wish I could fly like PIDGEY and PIDGEOTTO")
 }
 
 text Route13_Text_LookToLeftOfThatPost {

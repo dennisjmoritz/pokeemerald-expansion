@@ -3,10 +3,10 @@ mapscripts MauvilleCity_Mart_MapScripts {
 
 
 text MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats {
-    format("There are items that temporarily elevate the stats of POKéMON.\p The ones I know you use in battle are X ATTACK and X DEFEND…\p I do believe that there are others like them.")
+    format("There are items that temporarily elevate the stats of POKMON.\p The ones I know you use in battle are X ATTACK and X DEFEND\p I do believe that there are others like them.")
 }
 
 text MauvilleCity_Mart_Text_DecisionsDetermineBattle {
-    format("Use a certain move, or use an item instead…\p The TRAINER's decisions determine how battles turn out, I think.")
+    format("Use a certain move, or use an item instead\p The TRAINER's decisions determine how battles turn out, I think.")
 }
 

@@ -4,7 +4,7 @@ mapscripts MtMoon_1F_MapScripts {
 
 
 text MtMoon_1F_Text_MarcosIntro {
-    format("WHOA! You shocked me!\l …Oh, you're just a kid!")
+    format("WHOA! You shocked me!\l Oh, you're just a kid!")
 }
 
 text MtMoon_1F_Text_MarcosDefeat {
@@ -44,11 +44,11 @@ text MtMoon_1F_Text_JovanIntro {
 }
 
 text MtMoon_1F_Text_JovanDefeat {
-    format("My POKéMON won't do!")
+    format("My POKMON won't do!")
 }
 
 text MtMoon_1F_Text_JovanPostBattle {
-    format("I have to find stronger POKéMON. Where might they be?")
+    format("I have to find stronger POKMON. Where might they be?")
 }
 
 text MtMoon_1F_Text_IrisIntro {

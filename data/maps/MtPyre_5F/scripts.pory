@@ -3,14 +3,14 @@ mapscripts MtPyre_5F_MapScripts {
 
 
 text MtPyre_4F_Text_TashaIntro {
-    format("I love all things horrifying… It's like a disease…\p When I'm here… I shiver with fear…")
+    format("I love all things horrifying It's like a disease\p When I'm here I shiver with fear")
 }
 
 text MtPyre_4F_Text_TashaDefeat {
-    format("Losing, I dislike…")
+    format("Losing, I dislike")
 }
 
 text MtPyre_4F_Text_TashaPostBattle {
-    format("I want to see dreadful things… I can't leave…\p Stay… Won't you stay with me?")
+    format("I want to see dreadful things I can't leave\p Stay Won't you stay with me?")
 }
 

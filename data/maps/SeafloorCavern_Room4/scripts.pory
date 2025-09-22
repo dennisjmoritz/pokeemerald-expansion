@@ -7,7 +7,7 @@ text SeafloorCavern_Room4_Text_Grunt3Intro {
 }
 
 text SeafloorCavern_Room4_Text_Grunt3Defeat {
-    format("Lost it…")
+    format("Lost it")
 }
 
 text SeafloorCavern_Room4_Text_Grunt3PostBattle {

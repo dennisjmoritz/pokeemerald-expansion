@@ -17,7 +17,7 @@ text BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge {
 }
 
 text BattleFrontier_BattleArenaLobby_Text_ExplainChallenge {
-    format("In the BATTLE ARENA, we undertake the Set KO Tourney.\p All participants enter with a team of three POKéMON.\p The three POKéMON must be lined up in the order in which they are to appear.\p During battle, the POKéMON will appear one at a time in the preset order.\p Once a POKéMON enters battle, it must remain out until the match is decided.\p If a match remains undecided in three turns, it goes to judging.\p If you wish to interrupt your challenge, please save the game.\p If you don't save, you will not be able to continue with your challenge.\p If you pull off the feat of beating seven TRAINERS in succession,\l we will present you with Battle Points.")
+    format("In the BATTLE ARENA, we undertake the Set KO Tourney.\p All participants enter with a team of three POKMON.\p The three POKMON must be lined up in the order in which they are to appear.\p During battle, the POKMON will appear one at a time in the preset order.\p Once a POKMON enters battle, it must remain out until the match is decided.\p If a match remains undecided in three turns, it goes to judging.\p If you wish to interrupt your challenge, please save the game.\p If you don't save, you will not be able to continue with your challenge.\p If you pull off the feat of beating seven TRAINERS in succession,\l we will present you with Battle Points.")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_OkayToSave {
@@ -29,15 +29,15 @@ text BattleFrontier_BattleArenaLobby_Text_WhichLevelMode {
 }
 
 text BattleFrontier_BattleArenaLobby_Text_SelectThreeMons {
-    format("Very well, now select your three POKéMON, please.")
+    format("Very well, now select your three POKMON, please.")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen {
-    format("My dear challenger!\p You do not have the three POKéMON required for entry.\p To qualify, you must bring three different kinds of POKéMON.\p They also must not hold the same kinds of items.\p EGGS{STR_VAR_1} ineligible.\p When you have made your preparations, please do return.")
+    format("My dear challenger!\p You do not have the three POKMON required for entry.\p To qualify, you must bring three different kinds of POKMON.\p They also must not hold the same kinds of items.\p EGGS{STR_VAR_1} ineligible.\p When you have made your preparations, please do return.")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50 {
-    format("My dear challenger!\p You do not have the three POKéMON required for entry.\p To qualify, you must bring three different kinds of POKéMON.\p The three different POKéMON must all be Level 50 or lower.\p They also must not hold the same kinds of items.\p EGGS{STR_VAR_1} ineligible.\p When you have made your preparations, please do return.")
+    format("My dear challenger!\p You do not have the three POKMON required for entry.\p To qualify, you must bring three different kinds of POKMON.\p The three different POKMON must all be Level 50 or lower.\p They also must not hold the same kinds of items.\p EGGS{STR_VAR_1} ineligible.\p When you have made your preparations, please do return.")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_GuideYouToArena {
@@ -85,19 +85,19 @@ text BattleFrontier_BattleArenaLobby_Text_RecordLastMatch {
 }
 
 text BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack {
-    format("I lost on the REFEREE's decision…\p I don't think it was a good idea to only use defensive moves and not attack…")
+    format("I lost on the REFEREE's decision\p I don't think it was a good idea to only use defensive moves and not attack")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked {
-    format("I won in judging!\p Landing hits consistently on the opponent's POKéMON worked!")
+    format("I won in judging!\p Landing hits consistently on the opponent's POKMON worked!")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw {
-    format("Our match was declared a draw.\p When we ran out of time, both my POKéMON and the opponent's had about\l the same amount of HP left.")
+    format("Our match was declared a draw.\p When we ran out of time, both my POKMON and the opponent's had about\l the same amount of HP left.")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant {
-    format("In the BATTLE ARENA, the order of POKéMON is totally important.\p For example, if your first POKéMON has certain type disadvantages,\l try making your second POKéMON one\l with moves that are super effective\l against the first one.\p I think that will be a good way of making an effective team.")
+    format("In the BATTLE ARENA, the order of POKMON is totally important.\p For example, if your first POKMON has certain type disadvantages,\l try making your second POKMON one\l with moves that are super effective\l against the first one.\p I think that will be a good way of making an effective team.")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_RulesAreListed {
@@ -109,19 +109,19 @@ text BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading {
 }
 
 text BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules {
-    format("The Set KO Tourney has special rules, unlike standard battles.\p First, one battle lasts only three turns.\p If the outcome is not decided after three turns, it goes to judging.\p The REFEREE will choose the winner based on how the POKéMON battled.\p Also, a POKéMON cannot be switched out until its battle's outcome is decided.")
+    format("The Set KO Tourney has special rules, unlike standard battles.\p First, one battle lasts only three turns.\p If the outcome is not decided after three turns, it goes to judging.\p The REFEREE will choose the winner based on how the POKMON battled.\p Also, a POKMON cannot be switched out until its battle's outcome is decided.")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_ExplainMindRules {
-    format("The first judging factor is “Mind.” This factor evaluates how aggressive\l the battlers were.\p The judging is based on how often the TRAINERS ordered the use of\l offensive moves.")
+    format("The first judging factor is Mind. This factor evaluates how aggressive\l the battlers were.\p The judging is based on how often the TRAINERS ordered the use of\l offensive moves.")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules {
-    format("The second judging factor is “Skill.” This factor evaluates how effectively\l POKéMON moves were used.\p If a move worked successfully, the Skill rating goes up.\p If a move failed, the Skill rating is lowered.\p If it was an offensive move, the Skill rating goes up if the move was “super\l effective” and goes down if it was\l “not very effective.”\p The Skill rating will not go up for moves such as PROTECT and DETECT.\p If the opponent used PROTECT or DETECT, and your POKéMON failed to\l hit with a move, its Skill rating will not\l go down.")
+    format("The second judging factor is Skill. This factor evaluates how effectively\l POKMON moves were used.\p If a move worked successfully, the Skill rating goes up.\p If a move failed, the Skill rating is lowered.\p If it was an offensive move, the Skill rating goes up if the move was super\l effective and goes down if it was\l not very effective.\p The Skill rating will not go up for moves such as PROTECT and DETECT.\p If the opponent used PROTECT or DETECT, and your POKMON failed to\l hit with a move, its Skill rating will not\l go down.")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules {
-    format("The third judging factor is “Body.” This factor is based on how much HP\l remained at the end of a battle.\p The rating takes into account how much HP a POKéMON had at the start of\l battle, and what remained at the end.")
+    format("The third judging factor is Body. This factor is based on how much HP\l remained at the end of a battle.\p The rating takes into account how much HP a POKMON had at the start of\l battle, and what remained at the end.")
 }
 
 text BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon {

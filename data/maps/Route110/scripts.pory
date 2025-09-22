@@ -6,7 +6,7 @@ mapscripts Route110_MapScripts {
 
 
 text Route110_Text_WeCantTalkAboutAquaActivities {
-    format("TEAM AQUA's activities… We can't talk about them yet.")
+    format("TEAM AQUA's activities We can't talk about them yet.")
 }
 
 text Route110_Text_KickUpARuckus {
@@ -22,7 +22,7 @@ text Route110_Text_AquaActionsBringSmiles {
 }
 
 text Route110_Text_MayLetsBattle {
-    format("MAY: Hi, {PLAYER}{KUN}, long time no see!\p While I was searching for other POKéMON, my POKéMON grew stronger.\p So… How about a little battle?")
+    format("MAY: Hi, {PLAYER}{KUN}, long time no see!\p While I was searching for other POKMON, my POKMON grew stronger.\p So How about a little battle?")
 }
 
 text Route110_Text_MayDefeated {
@@ -38,19 +38,19 @@ text Route110_Text_MayExplainItemfinder {
 }
 
 text Route110_Text_BrendanLetsBattle {
-    format("BRENDAN: Hey, {PLAYER}. So this is where you were.\l How's it going?\p Have you been raising your POKéMON? I'll check for you.")
+    format("BRENDAN: Hey, {PLAYER}. So this is where you were.\l How's it going?\p Have you been raising your POKMON? I'll check for you.")
 }
 
 text Route110_Text_BrendanDefeated {
-    format("Hmm… You're pretty good.")
+    format("Hmm You're pretty good.")
 }
 
 text Route110_Text_BrendanTakeThis {
-    format("BRENDAN: {PLAYER}, you've trained without me noticing…\p Good enough! Here, take this.")
+    format("BRENDAN: {PLAYER}, you've trained without me noticing\p Good enough! Here, take this.")
 }
 
 text Route110_Text_BrendanExplainItemfinder {
-    format("BRENDAN: That's an ITEMFINDER.\p Use it to root around for items that aren't visible.\p If it senses something, it emits a sound.\p Anyway, I'm off to look for new POKéMON.")
+    format("BRENDAN: That's an ITEMFINDER.\p Use it to root around for items that aren't visible.\p If it senses something, it emits a sound.\p Anyway, I'm off to look for new POKMON.")
 }
 
 text Route110_Text_RideBikeAtFullSpeed {
@@ -62,11 +62,11 @@ text Route110_Text_HairStreamsBehindMe {
 }
 
 text Route110_Text_YouGotBikeFromRydel {
-    format("Oh, hey, you got that BIKE from RYDEL!\p Oh, it's glaringly obvious. It says right on your bike…\p RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p RYDEL, RYDEL, RYDEL, RYDEL, RYDEL… That name's everywhere.\p You should ride it around all over the place--it's good advertising!")
+    format("Oh, hey, you got that BIKE from RYDEL!\p Oh, it's glaringly obvious. It says right on your bike\p RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p RYDEL, RYDEL, RYDEL, RYDEL, RYDEL That name's everywhere.\p You should ride it around all over the place--it's good advertising!")
 }
 
 text Route110_Text_TwoRoads {
-    format("The two roads, one above, one below…\p A road each for people and POKéMON. Perhaps that is right and fair.")
+    format("The two roads, one above, one below\p A road each for people and POKMON. Perhaps that is right and fair.")
 }
 
 text Route110_Text_WalkOnTheLowRoad {
@@ -78,11 +78,11 @@ text Route110_Text_BikeTechniques {
 }
 
 text Route110_Text_WhichShouldIChoose {
-    format("Which should I choose?\p Make a beeline for MAUVILLE on CYCLING ROAD, or take the low road\l and look for POKéMON?")
+    format("Which should I choose?\p Make a beeline for MAUVILLE on CYCLING ROAD, or take the low road\l and look for POKMON?")
 }
 
 text Route110_Text_CyclingChallengeResultSummary {
-    format("Number of collisions: … … {STR_VAR_1}!\p Total time: … … {STR_VAR_2}!")
+    format("Number of collisions:   {STR_VAR_1}!\p Total time:   {STR_VAR_2}!")
 }
 
 text Route110_Text_ChallengeReactionBest {
@@ -98,11 +98,11 @@ text Route110_Text_ChallengeReactionOk {
 }
 
 text Route110_Text_ChallengeReactionBad {
-    format("My word… Your cycling skills border on terrifying.\p Most certainly, you need much more practice riding.")
+    format("My word Your cycling skills border on terrifying.\p Most certainly, you need much more practice riding.")
 }
 
 text Route110_Text_ChallengeReactionWorst {
-    format("…I am aghast…\p You're perhaps not cut out for this unfortunate cycling business.\p You ought to give serious thought to returning that BIKE to RYDEL.")
+    format("I am aghast\p You're perhaps not cut out for this unfortunate cycling business.\p You ought to give serious thought to returning that BIKE to RYDEL.")
 }
 
 text Route110_Text_RatedForNumberOfCollisions {
@@ -126,7 +126,7 @@ text Route110_Text_CyclingRoadSign {
 }
 
 text Route110_Text_AquaWasHere {
-    format("“TEAM AQUA was here!”\p Someone painted that onto this sign, but then someone else painted over it.\p “TEAM MAGMA rules!” is what it says now.")
+    format("TEAM AQUA was here!\p Someone painted that onto this sign, but then someone else painted over it.\p TEAM MAGMA rules! is what it says now.")
 }
 
 text Route110_Text_Route103Sign {
@@ -142,7 +142,7 @@ text Route110_Text_MauvilleCitySign {
 }
 
 text Route110_Text_TrainerTipsPrlzSleep {
-    format("TRAINER TIPS\p The foe can be made helpless by paralyzing it or causing it to sleep.\p It is an important technique for POKéMON battles.")
+    format("TRAINER TIPS\p The foe can be made helpless by paralyzing it or causing it to sleep.\p It is an important technique for POKMON battles.")
 }
 
 text Route110_Text_TrainerTipsRegisterItems {
@@ -150,15 +150,15 @@ text Route110_Text_TrainerTipsRegisterItems {
 }
 
 text Route110_Text_TrickHouseSign {
-    format("“Three steps {RIGHT_ARROW} and two steps {UP_ARROW} to reach the wondrous TRICK HOUSE.”")
+    format("Three steps {RIGHT_ARROW} and two steps {UP_ARROW} to reach the wondrous TRICK HOUSE.")
 }
 
 text Route110_Text_BestRecord {
-    format("THE BEST RECORD TO DATE…\p No. of collisions: {STR_VAR_1}\p Elapsed time: {STR_VAR_2}")
+    format("THE BEST RECORD TO DATE\p No. of collisions: {STR_VAR_1}\p Elapsed time: {STR_VAR_2}")
 }
 
 text Route110_Text_ThereIsNoRecord {
-    format("THE BEST RECORD TO DATE…\p No one seems to have taken the challenge. There is no record…")
+    format("THE BEST RECORD TO DATE\p No one seems to have taken the challenge. There is no record")
 }
 
 text Route110_Text_ImagineSeeingYouHere {
@@ -166,14 +166,14 @@ text Route110_Text_ImagineSeeingYouHere {
 }
 
 text Route110_Text_HeardYouInstallMatchCall {
-    format("Oh, I see! You two are running separately.\l Well, that's fine.\p Oh, yes, I heard that your POKéNAV had the MATCH CALL system installed.\p Well, then, I should register you in my POKéNAV as well.\p That way, even when we're apart, I can rate your POKéDEX anytime.\p … … … … … …")
+    format("Oh, I see! You two are running separately.\l Well, that's fine.\p Oh, yes, I heard that your POKNAV had the MATCH CALL system installed.\p Well, then, I should register you in my POKNAV as well.\p That way, even when we're apart, I can rate your POKDEX anytime.\p      ")
 }
 
 text Route110_Text_RegisteredBirchInPokenav {
-    format("Registered PROF. BIRCH in the POKéNAV.")
+    format("Registered PROF. BIRCH in the POKNAV.")
 }
 
 text Route110_Text_KeepAnEyeOutForRival {
-    format("PROF. BIRCH: {PLAYER}{KUN}…\p Please keep an eye out for my {RIVAL}. … … … … … …\p Well, I had better get going. See you again, {PLAYER}{KUN}!")
+    format("PROF. BIRCH: {PLAYER}{KUN}\p Please keep an eye out for my {RIVAL}.      \p Well, I had better get going. See you again, {PLAYER}{KUN}!")
 }
 

@@ -3,7 +3,7 @@ mapscripts LilycoveCity_CoveLilyMotel_1F_MapScripts {
 
 
 text LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot {
-    format("Hm, so they doubled the guests by using POKéMON as attractions?\p Hm, well, maybe I should make a cute POKéMON our inn's mascot.\p I wonder if that will attract more guests to stay with us?")
+    format("Hm, so they doubled the guests by using POKMON as attractions?\p Hm, well, maybe I should make a cute POKMON our inn's mascot.\p I wonder if that will attract more guests to stay with us?")
 }
 
 text LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua {
@@ -15,15 +15,15 @@ text LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV {
 }
 
 text LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem {
-    format("Amazing! You're telling me a POKéMON found someone's lost item?\p That's something. If we had some smart POKéMON like that…\p We could recover anything that our guests mislaid…")
+    format("Amazing! You're telling me a POKMON found someone's lost item?\p That's something. If we had some smart POKMON like that\p We could recover anything that our guests mislaid")
 }
 
 text LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted {
-    format("Oh, sorry, sorry! I was too involved in watching TV!\p I heard that someone busted the TEAM AQUA HIDEOUT.\p Thanks to that, we just booked a reservation from a big group.\p It was a company called… Uh… GAME something…")
+    format("Oh, sorry, sorry! I was too involved in watching TV!\p I heard that someone busted the TEAM AQUA HIDEOUT.\p Thanks to that, we just booked a reservation from a big group.\p It was a company called Uh GAME something")
 }
 
 text LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar {
-    format("Amazing! A house-sitting POKéMON caught a burglar?\p That's something. If we had a tough POKéMON as a security guard…\p We would be able to provide our guests with greater safety.")
+    format("Amazing! A house-sitting POKMON caught a burglar?\p That's something. If we had a tough POKMON as a security guard\p We would be able to provide our guests with greater safety.")
 }
 
 text LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner {

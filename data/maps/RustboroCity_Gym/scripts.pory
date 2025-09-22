@@ -3,11 +3,11 @@ mapscripts RustboroCity_Gym_MapScripts {
 
 
 text RustboroCity_Gym_Text_GymGuideAdvice {
-    format("Yo, how's it going?\p Listen, my friend! Would you like to become the CHAMPION?\p I'm no TRAINER, not me, but I can sure give you winning advice.\p That's settled, then! We'll aim for the POKéMON CHAMPIONSHIP together!\p It's your job as a TRAINER to collect GYM BADGES, am I right?\p But GYM LEADERS aren't pushovers!\p And that's where I come in! I'm here to provide expert advice!\p ROXANNE, the GYM LEADER, is a user of ROCK-type POKéMON.\p The ROCK type is very durable, but it can't stand WATER-type and\l GRASS-type moves.\p Come see me afterwards, if you beat the GYM LEADER.\p Well, go for it!")
+    format("Yo, how's it going?\p Listen, my friend! Would you like to become the CHAMPION?\p I'm no TRAINER, not me, but I can sure give you winning advice.\p That's settled, then! We'll aim for the POKMON CHAMPIONSHIP together!\p It's your job as a TRAINER to collect GYM BADGES, am I right?\p But GYM LEADERS aren't pushovers!\p And that's where I come in! I'm here to provide expert advice!\p ROXANNE, the GYM LEADER, is a user of ROCK-type POKMON.\p The ROCK type is very durable, but it can't stand WATER-type and\l GRASS-type moves.\p Come see me afterwards, if you beat the GYM LEADER.\p Well, go for it!")
 }
 
 text RustboroCity_Gym_Text_GymGuidePostVictory {
-    format("Whoa! What a breathtaking victory! My cheering must've worked!\p Great! Check your TRAINER CARD.\p The STONE BADGE you got should be properly recorded on it.\p In other words…\p You've climbed the first step on the stairs to the CHAMPIONSHIP!\p That's got to feel awesome!")
+    format("Whoa! What a breathtaking victory! My cheering must've worked!\p Great! Check your TRAINER CARD.\p The STONE BADGE you got should be properly recorded on it.\p In other words\p You've climbed the first step on the stairs to the CHAMPIONSHIP!\p That's got to feel awesome!")
 }
 
 text RustboroCity_Gym_Text_JoshIntro {
@@ -15,7 +15,7 @@ text RustboroCity_Gym_Text_JoshIntro {
 }
 
 text RustboroCity_Gym_Text_JoshDefeat {
-    format("You were too good for me…")
+    format("You were too good for me")
 }
 
 text RustboroCity_Gym_Text_JoshPostBattle {
@@ -35,7 +35,7 @@ text RustboroCity_Gym_Text_TommyPostBattle {
 }
 
 text RustboroCity_Gym_Text_MarcIntro {
-    format("We might be in the middle of town, but so what?\p My ROCK POKéMON need room to rampage!")
+    format("We might be in the middle of town, but so what?\p My ROCK POKMON need room to rampage!")
 }
 
 text RustboroCity_Gym_Text_MarcDefeat {
@@ -47,11 +47,11 @@ text RustboroCity_Gym_Text_MarcPostBattle {
 }
 
 text RustboroCity_Gym_Text_RoxanneIntro {
-    format("Hello, I am ROXANNE, the RUSTBORO POKéMON GYM LEADER.\p I became a GYM LEADER so that I might apply what I learned at the POKéMON\l TRAINER'S SCHOOL in battle.\p Would you kindly demonstrate how you battle, and with which POKéMON?")
+    format("Hello, I am ROXANNE, the RUSTBORO POKMON GYM LEADER.\p I became a GYM LEADER so that I might apply what I learned at the POKMON\l TRAINER'S SCHOOL in battle.\p Would you kindly demonstrate how you battle, and with which POKMON?")
 }
 
 text RustboroCity_Gym_Text_RoxanneDefeat {
-    format("So… I lost…\p It seems that I still have much more to learn…\p I understand.\p The POKéMON LEAGUE's rules state that TRAINERS are to be given this\l if they defeat a GYM LEADER.\p Please accept the official POKéMON LEAGUE STONE BADGE.")
+    format("So I lost\p It seems that I still have much more to learn\p I understand.\p The POKMON LEAGUE's rules state that TRAINERS are to be given this\l if they defeat a GYM LEADER.\p Please accept the official POKMON LEAGUE STONE BADGE.")
 }
 
 text RustboroCity_Gym_Text_ReceivedStoneBadge {
@@ -59,11 +59,11 @@ text RustboroCity_Gym_Text_ReceivedStoneBadge {
 }
 
 text RustboroCity_Gym_Text_StoneBadgeInfoTakeThis {
-    format("The STONE BADGE heightens the ATTACK power of your POKéMON.\p It also enables them to use the HM move CUT outside of battle.\p Please take this with you, too.")
+    format("The STONE BADGE heightens the ATTACK power of your POKMON.\p It also enables them to use the HM move CUT outside of battle.\p Please take this with you, too.")
 }
 
 text RustboroCity_Gym_Text_ExplainRockTomb {
-    format("That TECHNICAL MACHINE, TM39, contains ROCK TOMB.\p It not only inflicts damage by dropping rocks, it also lowers SPEED.\p If you use a TM, it instantly teaches the move to a POKéMON.\p Remember, a TM can be used only once, so think before you use it.")
+    format("That TECHNICAL MACHINE, TM39, contains ROCK TOMB.\p It not only inflicts damage by dropping rocks, it also lowers SPEED.\p If you use a TM, it instantly teaches the move to a POKMON.\p Remember, a TM can be used only once, so think before you use it.")
 }
 
 text RustboroCity_Gym_Text_RoxannePostBattle {
@@ -71,19 +71,19 @@ text RustboroCity_Gym_Text_RoxannePostBattle {
 }
 
 text RustboroCity_Gym_Text_GymStatue {
-    format("RUSTBORO CITY POKéMON GYM")
+    format("RUSTBORO CITY POKMON GYM")
 }
 
 text RustboroCity_Gym_Text_GymStatueCertified {
-    format("RUSTBORO CITY POKéMON GYM\p ROXANNE'S CERTIFIED TRAINERS: {PLAYER}")
+    format("RUSTBORO CITY POKMON GYM\p ROXANNE'S CERTIFIED TRAINERS: {PLAYER}")
 }
 
 text RustboroCity_Gym_Text_RoxanneRegisterCall {
-    format("… … … … … … … … … … … Beep!\p ROXANNE: Oh, hello, {PLAYER}? This is ROXANNE of RUSTBORO CITY.\p I heard from BRAWLY that you're moving up through the ranks of\l TRAINERS at an incredible clip.\p Well, I'd rather not think that I can't beat you.\p I promise, I will shape up my GYM so that you may challenge us again.\p I hope you'll be looking forward to that occasion as much as me!\p … … … … … … … … … … … Click!")
+    format("           Beep!\p ROXANNE: Oh, hello, {PLAYER}? This is ROXANNE of RUSTBORO CITY.\p I heard from BRAWLY that you're moving up through the ranks of\l TRAINERS at an incredible clip.\p Well, I'd rather not think that I can't beat you.\p I promise, I will shape up my GYM so that you may challenge us again.\p I hope you'll be looking forward to that occasion as much as me!\p            Click!")
 }
 
 text RustboroCity_Gym_Text_RegisteredRoxanne {
-    format("Registered GYM LEADER ROXANNE in the POKéNAV.")
+    format("Registered GYM LEADER ROXANNE in the POKNAV.")
 }
 
 text RustboroCity_Gym_Text_RoxannePreRematch {
@@ -91,14 +91,14 @@ text RustboroCity_Gym_Text_RoxannePreRematch {
 }
 
 text RustboroCity_Gym_Text_RoxanneRematchDefeat {
-    format("Grr… Again, I have lost…")
+    format("Grr Again, I have lost")
 }
 
 text RustboroCity_Gym_Text_RoxannePostRematch {
-    format("ROXANNE: I still have much to learn when it comes to battling POKéMON.\p That awareness makes me love battling all that much more!")
+    format("ROXANNE: I still have much to learn when it comes to battling POKMON.\p That awareness makes me love battling all that much more!")
 }
 
 text RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons {
-    format("ROXANNE: I'm so glad to see you again. I'm ROXANNE, the GYM LEADER here.\p I'm sure we've both experienced many battles since we last met.\p I would like to see how much better we've become…\p Oh, no… You only have one POKéMON with you?\p Please return with at least one more POKéMON.")
+    format("ROXANNE: I'm so glad to see you again. I'm ROXANNE, the GYM LEADER here.\p I'm sure we've both experienced many battles since we last met.\p I would like to see how much better we've become\p Oh, no You only have one POKMON with you?\p Please return with at least one more POKMON.")
 }
 

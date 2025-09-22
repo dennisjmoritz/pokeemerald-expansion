@@ -19,19 +19,19 @@ text SevenIsland_SevaultCanyon_Entrance_Text_MasonIntro {
 }
 
 text SevenIsland_SevaultCanyon_Entrance_Text_MasonDefeat {
-    format("Oh, so you're not a fan…\p Well, I can change that. Let me sing for you!")
+    format("Oh, so you're not a fan\p Well, I can change that. Let me sing for you!")
 }
 
 text SevenIsland_SevaultCanyon_Entrance_Text_MasonPostBattle {
-    format("Lalalah… My POKéMON, I send them out,\l all the girls scream and shout!")
+    format("Lalalah My POKMON, I send them out,\l all the girls scream and shout!")
 }
 
 text SevenIsland_SevaultCanyon_Entrance_Text_NicolasIntro {
-    format("This island is too spread out… It's not easy patrolling the place.")
+    format("This island is too spread out It's not easy patrolling the place.")
 }
 
 text SevenIsland_SevaultCanyon_Entrance_Text_NicolasDefeat {
-    format("Uh-huh…")
+    format("Uh-huh")
 }
 
 text SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle {
@@ -39,7 +39,7 @@ text SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle {
 }
 
 text SevenIsland_SevaultCanyon_Entrance_Text_MadelineIntro {
-    format("I punish people who abuse POKéMON!")
+    format("I punish people who abuse POKMON!")
 }
 
 text SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat {
@@ -47,7 +47,7 @@ text SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat {
 }
 
 text SevenIsland_SevaultCanyon_Entrance_Text_MadelinePostBattle {
-    format("If you treat your POKéMON with kindness, they'll understand.")
+    format("If you treat your POKMON with kindness, they'll understand.")
 }
 
 text SevenIsland_SevaultCanyon_Entrance_Text_EveIntro {
@@ -63,7 +63,7 @@ text SevenIsland_SevaultCanyon_Entrance_Text_EvePostBattle {
 }
 
 text SevenIsland_SevaultCanyon_Entrance_Text_EveNotEnoughMons {
-    format("EVE: I want to team up with JON when I battle you.\p Come back with two POKéMON, okay?")
+    format("EVE: I want to team up with JON when I battle you.\p Come back with two POKMON, okay?")
 }
 
 text SevenIsland_SevaultCanyon_Entrance_Text_JonIntro {

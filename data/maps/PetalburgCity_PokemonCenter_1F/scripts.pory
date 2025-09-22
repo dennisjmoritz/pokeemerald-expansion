@@ -5,26 +5,26 @@ mapscripts PetalburgCity_PokemonCenter_1F_MapScripts {
 
 
 text PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem {
-    format("That PC-based POKéMON Storage System…\p Whoever made it must be some kind of a scientific wizard!")
+    format("That PC-based POKMON Storage System\p Whoever made it must be some kind of a scientific wizard!")
 }
 
 text PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP {
-    format("When my POKéMON ate an ORAN BERRY, it regained HP!")
+    format("When my POKMON ate an ORAN BERRY, it regained HP!")
 }
 
 text PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon {
-    format("There are many types of POKéMON.\p All types have their strengths and weaknesses against other types.\p Depending on the types of POKéMON, a battle could be easy or hard.")
+    format("There are many types of POKMON.\p All types have their strengths and weaknesses against other types.\p Depending on the types of POKMON, a battle could be easy or hard.")
 }
 
 text PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType {
-    format("For example, your TREECKO is a GRASS type.\p It's strong against the WATER and GROUND types.\p But, it's weak against FIRE-type POKéMON.")
+    format("For example, your TREECKO is a GRASS type.\p It's strong against the WATER and GROUND types.\p But, it's weak against FIRE-type POKMON.")
 }
 
 text PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType {
-    format("For example, your TORCHIC is a FIRE type.\p It's strong against the GRASS and BUG types.\p But, it's weak against WATER-type POKéMON.")
+    format("For example, your TORCHIC is a FIRE type.\p It's strong against the GRASS and BUG types.\p But, it's weak against WATER-type POKMON.")
 }
 
 text PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType {
-    format("For example, your MUDKIP is a WATER type.\p It's strong against the FIRE type.\p But, it's weak against GRASS-type and ELECTRIC-type POKéMON.")
+    format("For example, your MUDKIP is a WATER type.\p It's strong against the FIRE type.\p But, it's weak against GRASS-type and ELECTRIC-type POKMON.")
 }
 

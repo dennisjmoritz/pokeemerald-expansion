@@ -5,6 +5,6 @@ mapscripts BattleFrontier_BattlePikeCorridor_MapScripts {
 
 
 text BattleFrontier_BattlePikeCorridor_Text_YourChallengeHasBegun {
-    format("Your Battle Choice challenge has now begun…")
+    format("Your Battle Choice challenge has now begun")
 }
 

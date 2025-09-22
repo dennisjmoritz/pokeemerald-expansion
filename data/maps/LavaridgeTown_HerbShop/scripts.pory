@@ -11,10 +11,10 @@ text LavaridgeTown_HerbShop_Text_YouveComeToLookAtHerbalMedicine {
 }
 
 text LavaridgeTown_HerbShop_Text_ExplainCharcoal {
-    format("That CHARCOAL I gave you, it's used for making herbal medicine.\p It also does wonders when held by a POKéMON.\p It intensifies the power of FIRE-type moves.")
+    format("That CHARCOAL I gave you, it's used for making herbal medicine.\p It also does wonders when held by a POKMON.\p It intensifies the power of FIRE-type moves.")
 }
 
 text LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike {
-    format("Herbal medicine works impressively well. But your POKéMON will dislike you for it.\l It must be horribly bitter!")
+    format("Herbal medicine works impressively well. But your POKMON will dislike you for it.\l It must be horribly bitter!")
 }
 

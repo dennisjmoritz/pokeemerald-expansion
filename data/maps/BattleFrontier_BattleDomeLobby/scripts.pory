@@ -18,7 +18,7 @@ text BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain {
 }
 
 text BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge {
-    format("The SINGLE BATTLE Tournament is exactly as the name suggests--\l a tournament of SINGLE BATTLES.\p All participating TRAINERS must enter three POKéMON each.\p In each battle, one of the three POKéMON must be held in reserve.\p The other two POKéMON can battle one at a time.\p Choose the two battling POKéMON after examining the opponent's trio.\p You win the tournament by defeating four TRAINERS.\p Battle Points are awarded to the tournament winner.\p If you want to interrupt your tournament, please save the game.\p If you don't save before interrupting, you will be disqualified.")
+    format("The SINGLE BATTLE Tournament is exactly as the name suggests--\l a tournament of SINGLE BATTLES.\p All participating TRAINERS must enter three POKMON each.\p In each battle, one of the three POKMON must be held in reserve.\p The other two POKMON can battle one at a time.\p Choose the two battling POKMON after examining the opponent's trio.\p You win the tournament by defeating four TRAINERS.\p Battle Points are awarded to the tournament winner.\p If you want to interrupt your tournament, please save the game.\p If you don't save before interrupting, you will be disqualified.")
 }
 
 text BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge {
@@ -30,15 +30,15 @@ text BattleFrontier_BattleDomeLobby_Text_WhichLevelMode {
 }
 
 text BattleFrontier_BattleDomeLobby_Text_SelectThreeMons {
-    format("Now select the three POKéMON that you wish to enter, please.")
+    format("Now select the three POKMON that you wish to enter, please.")
 }
 
 text BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen {
-    format("Excuse me!\p You don't have three eligible POKéMON.\p Also, the POKéMON must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
+    format("Excuse me!\p You don't have three eligible POKMON.\p Also, the POKMON must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
 }
 
 text BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50 {
-    format("Excuse me!\p You don't have three eligible POKéMON.\p You must have three different POKéMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
+    format("Excuse me!\p You don't have three eligible POKMON.\p You must have three different POKMON of Level 50 or less to enter.\p They also must be holding different kinds of items.\p EGGS{STR_VAR_1} ineligible.\p Please come see me when you are ready.")
 }
 
 text BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome {
@@ -90,7 +90,7 @@ text BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge {
 }
 
 text BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge {
-    format("The DOUBLE BATTLE Tournament is exactly as the name suggests--\l a tournament of DOUBLE BATTLES.\p All participating TRAINERS must enter three POKéMON each.\p In each battle, one of the three POKéMON must be held in reserve.\p The remaining two POKéMON must take part in a DOUBLE BATTLE.\p Choose the two battling POKéMON after examining the opponent's trio.\p You win the tournament by defeating four TRAINERS.\p Battle Points are awarded to the tournament winner.\p If you want to interrupt your tournament, please save the game.\p If you don't save before interrupting, you will be disqualified.")
+    format("The DOUBLE BATTLE Tournament is exactly as the name suggests--\l a tournament of DOUBLE BATTLES.\p All participating TRAINERS must enter three POKMON each.\p In each battle, one of the three POKMON must be held in reserve.\p The remaining two POKMON must take part in a DOUBLE BATTLE.\p Choose the two battling POKMON after examining the opponent's trio.\p You win the tournament by defeating four TRAINERS.\p Battle Points are awarded to the tournament winner.\p If you want to interrupt your tournament, please save the game.\p If you don't save before interrupting, you will be disqualified.")
 }
 
 text BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50 {
@@ -114,7 +114,7 @@ text BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough {
 }
 
 text BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier {
-    format("The BATTLE FRONTIER… I've long dreamed about a place like it.")
+    format("The BATTLE FRONTIER I've long dreamed about a place like it.")
 }
 
 text BattleFrontier_OutsideWest_Text_BattleDomeSign2 {
@@ -130,11 +130,11 @@ text BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation {
 }
 
 text BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound {
-    format("I ran into one of the tournament favorites in the very first round.\p Of course I got trashed…")
+    format("I ran into one of the tournament favorites in the very first round.\p Of course I got trashed")
 }
 
 text BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully {
-    format("I would've won if I'd kept this POKéMON held in reserve.\p You need to check your opponent's POKéMON carefully before choosing\l your battling POKéMON.")
+    format("I would've won if I'd kept this POKMON held in reserve.\p You need to check your opponent's POKMON carefully before choosing\l your battling POKMON.")
 }
 
 text BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker {
@@ -158,14 +158,14 @@ text BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading {
 }
 
 text BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules {
-    format("The tournament matchups are drawn up based on the toughness of POKéMON\l held by TRAINERS.\p The matchups avoid having tough TRAINERS face each other right away.")
+    format("The tournament matchups are drawn up based on the toughness of POKMON\l held by TRAINERS.\p The matchups avoid having tough TRAINERS face each other right away.")
 }
 
 text BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree {
-    format("The tournament chart, or as we call it, the “Tree,” is available for viewing\l in the Waiting Room from any guide.\p The Tournament Tree will provide several kinds of data.\p The data on view includes the previous tournament's results, the POKéMON held\l by TRAINERS, and the battle styles of\l TRAINERS.")
+    format("The tournament chart, or as we call it, the Tree, is available for viewing\l in the Waiting Room from any guide.\p The Tournament Tree will provide several kinds of data.\p The data on view includes the previous tournament's results, the POKMON held\l by TRAINERS, and the battle styles of\l TRAINERS.")
 }
 
 text BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules {
-    format("If battling POKéMON faint at the same time--a double KO--in a tournament\l match, the REFEREES will review\l the match and declare the winner.")
+    format("If battling POKMON faint at the same time--a double KO--in a tournament\l match, the REFEREES will review\l the match and declare the winner.")
 }
 

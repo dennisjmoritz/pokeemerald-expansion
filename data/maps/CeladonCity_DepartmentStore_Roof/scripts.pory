@@ -27,7 +27,7 @@ text CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis {
 }
 
 text CeladonCity_DepartmentStore_Roof_Text_ExplainTM20 {
-    format("TM20 contains SAFEGUARD.\p It's a move that prevents status problems among your POKéMON.")
+    format("TM20 contains SAFEGUARD.\p It's a move that prevents status problems among your POKMON.")
 }
 
 text CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis {

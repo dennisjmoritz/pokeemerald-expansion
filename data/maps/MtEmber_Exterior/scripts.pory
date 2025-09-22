@@ -13,27 +13,27 @@ text Text_ExplosionDeclined {
 }
 
 text Text_ExplosionWhichMon {
-    format("You're terribly brave!\p Which POKéMON should I teach EXPLOSION?")
+    format("You're terribly brave!\p Which POKMON should I teach EXPLOSION?")
 }
 
 text Text_ExplosionTaught {
-    format("Using EXPLOSION while on this volcano…\p What a terrifying thrill!")
+    format("Using EXPLOSION while on this volcano\p What a terrifying thrill!")
 }
 
 text Text_ExplosionTeachJP {
-    format("こ　この　かざんが もし　だいばくはつ　したら\l お　おれら　ひとたまりも\l ないなあ　‥ブルブル！\p こ　こわい　ついでに だいばくはつ　でも　おぼえてみる？")
+    format(" \l \l \p  ")
 }
 
 text Text_ExplosionDeclinedJP {
-    format("や　やっぱ　こわいもんな ブルブル")
+    format(" ")
 }
 
 text Text_ExplosionWhichMonJP {
-    format("つ　つよきだね！ じゃあ　どの　ポケモンに　する？")
+    format(" ")
 }
 
 text Text_ExplosionTaughtJP {
-    format("かざんで　だいばくはつを‥ す　すごい　スリル！")
+    format(" ")
 }
 
 text MtEmber_Exterior_Text_WellTryDiggingHere {
@@ -41,7 +41,7 @@ text MtEmber_Exterior_Text_WellTryDiggingHere {
 }
 
 text MtEmber_Exterior_Text_YoureInTheWayGetLost {
-    format("What the…? You're in the way. Get lost.")
+    format("What the? You're in the way. Get lost.")
 }
 
 text MtEmber_Exterior_Text_PunchedThroughAtLast {
@@ -49,11 +49,11 @@ text MtEmber_Exterior_Text_PunchedThroughAtLast {
 }
 
 text MtEmber_Exterior_Text_WhatsPasswordAgain {
-    format("Any treasure we find, we haul back to the WAREHOUSE, understood?\p …Oh, and what're the passwords? At the ROCKET WAREHOUSE, I mean.")
+    format("Any treasure we find, we haul back to the WAREHOUSE, understood?\p Oh, and what're the passwords? At the ROCKET WAREHOUSE, I mean.")
 }
 
 text MtEmber_Exterior_Text_FirstPasswordGoldeen {
-    format("What, you forgot the password? There're actually two.\p The first one's “GOLDEEN need log.”\p And the second one is…")
+    format("What, you forgot the password? There're actually two.\p The first one's GOLDEEN need log.\p And the second one is")
 }
 
 text MtEmber_Exterior_Text_SnoopsBeenListeningIn {
@@ -85,7 +85,7 @@ text MtEmber_Exterior_Text_Grunt2PostBattle {
 }
 
 text MtEmber_Exterior_Text_WellRegroupDontStepInsideThere {
-    format("What a setback… We'll have to regroup.\p You! Don't even think about taking a step inside here!\p If you know what's good for you, don't even think about this!")
+    format("What a setback We'll have to regroup.\p You! Don't even think about taking a step inside here!\p If you know what's good for you, don't even think about this!")
 }
 
 text MtEmber_Exterior_Text_LoganIntro {
@@ -93,7 +93,7 @@ text MtEmber_Exterior_Text_LoganIntro {
 }
 
 text MtEmber_Exterior_Text_LoganDefeat {
-    format("Whew… That was hot! Sweat's erupting from me!")
+    format("Whew That was hot! Sweat's erupting from me!")
 }
 
 text MtEmber_Exterior_Text_LoganPostBattle {
@@ -113,14 +113,14 @@ text MtEmber_Exterior_Text_BethPostBattle {
 }
 
 text MtEmber_Exterior_Text_JocelynIntro {
-    format("I've been in training so I can mend my broken heart…\p It toughened me up physically at least! Hi-yah!")
+    format("I've been in training so I can mend my broken heart\p It toughened me up physically at least! Hi-yah!")
 }
 
 text MtEmber_Exterior_Text_JocelynDefeat {
-    format("I think I tried to overdo it…")
+    format("I think I tried to overdo it")
 }
 
 text MtEmber_Exterior_Text_JocelynPostBattle {
-    format("The way you battle, it reminds me of the guy who dumped me…")
+    format("The way you battle, it reminds me of the guy who dumped me")
 }
 

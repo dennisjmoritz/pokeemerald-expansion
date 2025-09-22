@@ -20,11 +20,11 @@ text MtMoon_B2F_Text_ThenThisFossilIsMine {
 }
 
 text MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils {
-    format("Far away, on CINNABAR ISLAND, there's a POKéMON LAB.\p They do research on regenerating fossils.")
+    format("Far away, on CINNABAR ISLAND, there's a POKMON LAB.\p They do research on regenerating fossils.")
 }
 
 text MtMoon_B2F_Text_Grunt1Intro {
-    format("We, TEAM ROCKET, shall find the fossils!\p Reviving POKéMON from them will earn us huge riches!")
+    format("We, TEAM ROCKET, shall find the fossils!\p Reviving POKMON from them will earn us huge riches!")
 }
 
 text MtMoon_B2F_Text_Grunt1Defeat {
@@ -36,7 +36,7 @@ text MtMoon_B2F_Text_Grunt1PostBattle {
 }
 
 text MtMoon_B2F_Text_Grunt2Intro {
-    format("We, TEAM ROCKET, are POKéMON gangsters!\l We strike fear with our strength!")
+    format("We, TEAM ROCKET, are POKMON gangsters!\l We strike fear with our strength!")
 }
 
 text MtMoon_B2F_Text_Grunt2Defeat {
@@ -52,7 +52,7 @@ text MtMoon_B2F_Text_Grunt3Intro {
 }
 
 text MtMoon_B2F_Text_Grunt3Defeat {
-    format("So, you are good…")
+    format("So, you are good")
 }
 
 text MtMoon_B2F_Text_Grunt3PostBattle {
@@ -68,7 +68,7 @@ text MtMoon_B2F_Text_Grunt4Defeat {
 }
 
 text MtMoon_B2F_Text_Grunt4PostBattle {
-    format("POKéMON lived here long before people came.")
+    format("POKMON lived here long before people came.")
 }
 
 text MtMoon_B2F_Text_YouWantDomeFossil {

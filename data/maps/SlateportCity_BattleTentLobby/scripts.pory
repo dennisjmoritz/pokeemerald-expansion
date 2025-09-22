@@ -5,7 +5,7 @@ mapscripts SlateportCity_BattleTentLobby_MapScripts {
 
 
 text SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe {
-    format("So, like, I couldn't find myself any POKéMON that were, like, for me.\p So, I figured, like, hey, I should file a complaint to the guy there?\p And he wouldn't hear me out, like, hey! So, like, total bummer, man!\p Hey, like, you! Zip it, you know? Just, you know, take this!")
+    format("So, like, I couldn't find myself any POKMON that were, like, for me.\p So, I figured, like, hey, I should file a complaint to the guy there?\p And he wouldn't hear me out, like, hey! So, like, total bummer, man!\p Hey, like, you! Zip it, you know? Just, you know, take this!")
 }
 
 text SlateportCity_BattleTentLobby_Text_ExplainTorment {
@@ -13,11 +13,11 @@ text SlateportCity_BattleTentLobby_Text_ExplainTorment {
 }
 
 text SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons {
-    format("I don't really like BUG POKéMON, but maybe I'll try using some for\l a change of pace.\p Who knows, I might even get to like them!")
+    format("I don't really like BUG POKMON, but maybe I'll try using some for\l a change of pace.\p Who knows, I might even get to like them!")
 }
 
 text SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons {
-    format("You can battle all you want here even if you don't have any tough POKéMON.")
+    format("You can battle all you want here even if you don't have any tough POKMON.")
 }
 
 text SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection {

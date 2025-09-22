@@ -3,15 +3,15 @@ mapscripts MtPyre_3F_MapScripts {
 
 
 text MtPyre_3F_Text_WilliamIntro {
-    format("The rich atmosphere of the mountain has elevated my psychic power!\p A mere child like you… You dream of winning?")
+    format("The rich atmosphere of the mountain has elevated my psychic power!\p A mere child like you You dream of winning?")
 }
 
 text MtPyre_3F_Text_WilliamDefeat {
-    format("I drown in self-pity…")
+    format("I drown in self-pity")
 }
 
 text MtPyre_3F_Text_WilliamPostBattle {
-    format("My psychic powers have surely grown several times, but…")
+    format("My psychic powers have surely grown several times, but")
 }
 
 text MtPyre_3F_Text_KaylaIntro {
@@ -19,11 +19,11 @@ text MtPyre_3F_Text_KaylaIntro {
 }
 
 text MtPyre_3F_Text_KaylaDefeat {
-    format("I lost that cleanly…")
+    format("I lost that cleanly")
 }
 
 text MtPyre_3F_Text_KaylaPostBattle {
-    format("This means my training is still not enough…\p I've got to keep working toward the summit…\p Go, me!")
+    format("This means my training is still not enough\p I've got to keep working toward the summit\p Go, me!")
 }
 
 text MtPyre_3F_Text_GabrielleIntro {
@@ -35,15 +35,15 @@ text MtPyre_3F_Text_GabrielleDefeat {
 }
 
 text MtPyre_3F_Text_GabriellePostBattle {
-    format("POKéMON no longer of this world. POKéMON that are with you now.\p And the POKéMON that you will meet in the future…\p They are all to be equally cherished. Please remember that.")
+    format("POKMON no longer of this world. POKMON that are with you now.\p And the POKMON that you will meet in the future\p They are all to be equally cherished. Please remember that.")
 }
 
 text MtPyre_3F_Text_GabrielleRegister {
-    format("I would like to see your POKéMON when they grow up some more…\p Please, I need to see your POKéNAV.")
+    format("I would like to see your POKMON when they grow up some more\p Please, I need to see your POKNAV.")
 }
 
 text MtPyre_3F_Text_GabrielleRematchIntro {
-    format("Oh, it's you…\p Have you come to show me your grown POKéMON?")
+    format("Oh, it's you\p Have you come to show me your grown POKMON?")
 }
 
 text MtPyre_3F_Text_GabrielleRematchDefeat {
@@ -51,6 +51,6 @@ text MtPyre_3F_Text_GabrielleRematchDefeat {
 }
 
 text MtPyre_3F_Text_GabriellePostRematch {
-    format("POKéMON no longer of this world. POKéMON that are with you now.\p And the POKéMON that you will meet in the future…\p They are all to be equally cherished. I see that you've remembered that.")
+    format("POKMON no longer of this world. POKMON that are with you now.\p And the POKMON that you will meet in the future\p They are all to be equally cherished. I see that you've remembered that.")
 }
 

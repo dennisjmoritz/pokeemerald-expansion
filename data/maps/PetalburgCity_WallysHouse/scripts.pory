@@ -5,7 +5,7 @@ mapscripts PetalburgCity_WallysHouse_MapScripts {
 
 
 text PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally {
-    format("You're… Ah, you must be {PLAYER}{KUN}, right?\p Thank you for playing with WALLY a little while ago.\p He's been frail and sickly ever since he was a baby.\p We've sent him to stay with my relatives in VERDANTURF TOWN for a while.\p The air is a lot cleaner there than it is here.\p What's that? Where's WALLY? He's already left, our WALLY.\p I wonder where he could have gotten by now?")
+    format("You're Ah, you must be {PLAYER}{KUN}, right?\p Thank you for playing with WALLY a little while ago.\p He's been frail and sickly ever since he was a baby.\p We've sent him to stay with my relatives in VERDANTURF TOWN for a while.\p The air is a lot cleaner there than it is here.\p What's that? Where's WALLY? He's already left, our WALLY.\p I wonder where he could have gotten by now?")
 }
 
 text PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing {
@@ -13,11 +13,11 @@ text PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing {
 }
 
 text PetalburgCity_WallysHouse_Text_PleaseExcuseUs {
-    format("{PLAYER}{KUN}! Please excuse us for dragging you here this way.\p But our WALLY's become very healthy since he went to VERDANTURF TOWN.\p We owe it all to you!\p When WALLY left town, you helped him catch a POKéMON, right?\p I think that made WALLY really happy.\p Actually, not just WALLY. It made me, his father, happy too.\p Happy that he's gained such a great friend as you.\p This isn't a bribe or anything, but I'd really like you to have this.")
+    format("{PLAYER}{KUN}! Please excuse us for dragging you here this way.\p But our WALLY's become very healthy since he went to VERDANTURF TOWN.\p We owe it all to you!\p When WALLY left town, you helped him catch a POKMON, right?\p I think that made WALLY really happy.\p Actually, not just WALLY. It made me, his father, happy too.\p Happy that he's gained such a great friend as you.\p This isn't a bribe or anything, but I'd really like you to have this.")
 }
 
 text PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces {
-    format("If your POKéMON can SURF, you'll be able to go to all sorts of places.")
+    format("If your POKMON can SURF, you'll be able to go to all sorts of places.")
 }
 
 text PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon {
@@ -29,10 +29,10 @@ text PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity {
 }
 
 text PetalburgCity_WallysHouse_Text_WallyWasReallyHappy {
-    format("WALLY was really happy when he told us that he caught a POKéMON.\p It's been ages since I've seen him smile like that.")
+    format("WALLY was really happy when he told us that he caught a POKMON.\p It's been ages since I've seen him smile like that.")
 }
 
 text PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling {
-    format("I want you to keep this a secret from my husband…\p But our WALLY left VERDANTURF TOWN without telling anyone.\p You know, WALLY is frail, but he's surprisingly strong-willed.\p I'm sure that he'll come back safe and sound one day!")
+    format("I want you to keep this a secret from my husband\p But our WALLY left VERDANTURF TOWN without telling anyone.\p You know, WALLY is frail, but he's surprisingly strong-willed.\p I'm sure that he'll come back safe and sound one day!")
 }
 

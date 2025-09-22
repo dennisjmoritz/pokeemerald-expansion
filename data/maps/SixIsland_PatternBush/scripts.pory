@@ -4,19 +4,19 @@ mapscripts SixIsland_PatternBush_MapScripts {
 
 
 text SixIsland_PatternBush_Text_BethanyIntro {
-    format("I'm curious, how do you raise your POKéMON?")
+    format("I'm curious, how do you raise your POKMON?")
 }
 
 text SixIsland_PatternBush_Text_BethanyDefeat {
-    format("You raise your POKéMON with a whole lot of love!")
+    format("You raise your POKMON with a whole lot of love!")
 }
 
 text SixIsland_PatternBush_Text_BethanyPostBattle {
-    format("In the same way your mother raised you full of love, you should raise\l your POKéMON.")
+    format("In the same way your mother raised you full of love, you should raise\l your POKMON.")
 }
 
 text SixIsland_PatternBush_Text_AllisonIntro {
-    format("I'm working to preserve the natural ecology of POKéMON here.")
+    format("I'm working to preserve the natural ecology of POKMON here.")
 }
 
 text SixIsland_PatternBush_Text_AllisonDefeat {
@@ -24,15 +24,15 @@ text SixIsland_PatternBush_Text_AllisonDefeat {
 }
 
 text SixIsland_PatternBush_Text_AllisonPostBattle {
-    format("I'm not saying that you shouldn't catch POKéMON.\p I just want people to raise their POKéMON responsibly.")
+    format("I'm not saying that you shouldn't catch POKMON.\p I just want people to raise their POKMON responsibly.")
 }
 
 text SixIsland_PatternBush_Text_GarretIntro {
-    format("I caught a BUG POKéMON that lives only around here!")
+    format("I caught a BUG POKMON that lives only around here!")
 }
 
 text SixIsland_PatternBush_Text_GarretDefeat {
-    format("Heheh… Isn't my POKéMON awesome?")
+    format("Heheh Isn't my POKMON awesome?")
 }
 
 text SixIsland_PatternBush_Text_GarretPostBattle {
@@ -40,19 +40,19 @@ text SixIsland_PatternBush_Text_GarretPostBattle {
 }
 
 text SixIsland_PatternBush_Text_JonahIntro {
-    format("You know, it just doesn't feel right if I don't use BUG POKéMON.")
+    format("You know, it just doesn't feel right if I don't use BUG POKMON.")
 }
 
 text SixIsland_PatternBush_Text_JonahDefeat {
-    format("It's okay, losing is a fun part of POKéMON's appeal, too.")
+    format("It's okay, losing is a fun part of POKMON's appeal, too.")
 }
 
 text SixIsland_PatternBush_Text_JonahPostBattle {
-    format("By the way, “appeal” is a weird word, if you think about it.\p Like, is it like an orange peel? Or like a ringing bell?")
+    format("By the way, appeal is a weird word, if you think about it.\p Like, is it like an orange peel? Or like a ringing bell?")
 }
 
 text SixIsland_PatternBush_Text_VanceIntro {
-    format("Yeah, yeah, yeah! Look at all the BUG POKéMON!")
+    format("Yeah, yeah, yeah! Look at all the BUG POKMON!")
 }
 
 text SixIsland_PatternBush_Text_VanceDefeat {
@@ -72,7 +72,7 @@ text SixIsland_PatternBush_Text_NashDefeat {
 }
 
 text SixIsland_PatternBush_Text_NashPostBattle {
-    format("The funny patterns on the ground…\p They look like the patterns on my grandpa's clothes.")
+    format("The funny patterns on the ground\p They look like the patterns on my grandpa's clothes.")
 }
 
 text SixIsland_PatternBush_Text_CordellIntro {
@@ -84,7 +84,7 @@ text SixIsland_PatternBush_Text_CordellDefeat {
 }
 
 text SixIsland_PatternBush_Text_CordellPostBattle {
-    format("Ayup, you townies come around all so dandy with a hat that flashy…\p How about giving me that?")
+    format("Ayup, you townies come around all so dandy with a hat that flashy\p How about giving me that?")
 }
 
 text SixIsland_PatternBush_Text_DaliaIntro {
@@ -100,7 +100,7 @@ text SixIsland_PatternBush_Text_DaliaPostBattle {
 }
 
 text SixIsland_PatternBush_Text_JoanaIntro {
-    format("I love BUG POKéMON. That's why I'm here all the time.\p Am I the only girl like that?")
+    format("I love BUG POKMON. That's why I'm here all the time.\p Am I the only girl like that?")
 }
 
 text SixIsland_PatternBush_Text_JoanaDefeat {
@@ -108,7 +108,7 @@ text SixIsland_PatternBush_Text_JoanaDefeat {
 }
 
 text SixIsland_PatternBush_Text_JoanaPostBattle {
-    format("I'm going to keep on collecting BUG POKéMON.\p Am I the only girl like that?")
+    format("I'm going to keep on collecting BUG POKMON.\p Am I the only girl like that?")
 }
 
 text SixIsland_PatternBush_Text_RileyIntro {
@@ -116,7 +116,7 @@ text SixIsland_PatternBush_Text_RileyIntro {
 }
 
 text SixIsland_PatternBush_Text_RileyDefeat {
-    format("Wimped out…")
+    format("Wimped out")
 }
 
 text SixIsland_PatternBush_Text_RileyPostBattle {
@@ -132,7 +132,7 @@ text SixIsland_PatternBush_Text_MarcyDefeat {
 }
 
 text SixIsland_PatternBush_Text_MarcyPostBattle {
-    format("A little cut like that… A little spit's enough to cure it!")
+    format("A little cut like that A little spit's enough to cure it!")
 }
 
 text SixIsland_PatternBush_Text_LaytonIntro {

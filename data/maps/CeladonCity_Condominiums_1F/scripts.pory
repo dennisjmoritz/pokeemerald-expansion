@@ -15,7 +15,7 @@ text CeladonCity_Condominiums_1F_Text_NothingBeatsThirstLikeTea {
 }
 
 text CeladonCity_Condominiums_1F_Text_MyDearMonsKeepMeCompany {
-    format("My dear POKéMON keep me company. MEOWTH even brings money home!")
+    format("My dear POKMON keep me company. MEOWTH even brings money home!")
 }
 
 text CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea {
@@ -27,7 +27,7 @@ text CeladonCity_Condominiums_1F_Text_Clefairy {
 }
 
 text CeladonCity_Condominiums_1F_Text_Nidoran {
-    format("NIDORAN♀: Kya kyaoo!")
+    format("NIDORAN: Kya kyaoo!")
 }
 
 text CeladonCity_Condominiums_1F_Text_ManagersSuite {

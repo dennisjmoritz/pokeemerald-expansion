@@ -11,19 +11,19 @@ text ViridianCity_School_Text_ReadBlackboardCarefully {
 }
 
 text ViridianCity_School_Text_NotebookFirstPage {
-    format("Let's check out the notebook.\p First page…\p POKé BALLS are used to catch POKéMON.\p Up to six POKéMON can be carried in your party.\p People who raise and battle with POKéMON are called TRAINERS.")
+    format("Let's check out the notebook.\p First page\p POK BALLS are used to catch POKMON.\p Up to six POKMON can be carried in your party.\p People who raise and battle with POKMON are called TRAINERS.")
 }
 
 text ViridianCity_School_Text_NotebookSecondPage {
-    format("Second page…\p A healthy POKéMON may be hard to catch, so weaken it first.\p Poison, burn, or cause another status problem to weaken it.")
+    format("Second page\p A healthy POKMON may be hard to catch, so weaken it first.\p Poison, burn, or cause another status problem to weaken it.")
 }
 
 text ViridianCity_School_Text_NotebookThirdPage {
-    format("Third page…\p POKéMON TRAINERS seek others to engage in POKéMON battles.\p To TRAINERS, the taste of victory is sweet, indeed.\p Battles are constantly waged at POKéMON GYMS everywhere.")
+    format("Third page\p POKMON TRAINERS seek others to engage in POKMON battles.\p To TRAINERS, the taste of victory is sweet, indeed.\p Battles are constantly waged at POKMON GYMS everywhere.")
 }
 
 text ViridianCity_School_Text_NotebookFourthPage {
-    format("Fourth page…\p The ultimate goal for all POKéMON TRAINERS is simple.\p It is to defeat the top eight POKéMON GYM LEADERS.\p Do so to earn the right to face…\p The ELITE FOUR of the POKéMON LEAGUE!")
+    format("Fourth page\p The ultimate goal for all POKMON TRAINERS is simple.\p It is to defeat the top eight POKMON GYM LEADERS.\p Do so to earn the right to face\p The ELITE FOUR of the POKMON LEAGUE!")
 }
 
 text ViridianCity_School_Text_TurnThePage {
@@ -35,7 +35,7 @@ text ViridianCity_School_Text_HeyDontLookAtMyNotes {
 }
 
 text ViridianCity_School_Text_BlackboardListsStatusProblems {
-    format("The blackboard lists POKéMON STATUS problems during battles.")
+    format("The blackboard lists POKMON STATUS problems during battles.")
 }
 
 text ViridianCity_School_Text_ReadWhichTopic {
@@ -43,7 +43,7 @@ text ViridianCity_School_Text_ReadWhichTopic {
 }
 
 text ViridianCity_School_Text_ExplainSleep {
-    format("A POKéMON can't attack if it's asleep.\p POKéMON will stay asleep even after battles.\p Use AWAKENING to awaken one from sleep.")
+    format("A POKMON can't attack if it's asleep.\p POKMON will stay asleep even after battles.\p Use AWAKENING to awaken one from sleep.")
 }
 
 text ViridianCity_School_Text_ExplainBurn {
@@ -51,14 +51,14 @@ text ViridianCity_School_Text_ExplainBurn {
 }
 
 text ViridianCity_School_Text_ExplainPoison {
-    format("When poisoned, a POKéMON's health steadily drops.\p Poison lingers after battles. Use an ANTIDOTE to cure poison!")
+    format("When poisoned, a POKMON's health steadily drops.\p Poison lingers after battles. Use an ANTIDOTE to cure poison!")
 }
 
 text ViridianCity_School_Text_ExplainFreeze {
-    format("A frozen POKéMON becomes helplessly immobile.\p It stays frozen even after the battle ends.\p Use ICE HEAL to thaw out the suffering POKéMON.")
+    format("A frozen POKMON becomes helplessly immobile.\p It stays frozen even after the battle ends.\p Use ICE HEAL to thaw out the suffering POKMON.")
 }
 
 text ViridianCity_School_Text_ExplainParalysis {
-    format("Paralysis reduces SPEED and may prevent the POKéMON from moving.\p Paralysis remains after battles. Use PARLYZ HEAL for treatment.")
+    format("Paralysis reduces SPEED and may prevent the POKMON from moving.\p Paralysis remains after battles. Use PARLYZ HEAL for treatment.")
 }
 

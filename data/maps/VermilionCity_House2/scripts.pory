@@ -11,7 +11,7 @@ text VermilionCity_House2_Text_ThatsTooBad {
 }
 
 text VermilionCity_House2_Text_ThisIsNoMon {
-    format("…This is no {STR_VAR_1}.\p If you get one, please trade it to me!")
+    format("This is no {STR_VAR_1}.\p If you get one, please trade it to me!")
 }
 
 text VermilionCity_House2_Text_ThankYou {

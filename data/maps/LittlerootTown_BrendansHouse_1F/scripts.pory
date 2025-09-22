@@ -10,7 +10,7 @@ text PlayersHouse_1F_Text_IsntItNiceInHere {
 }
 
 text PlayersHouse_1F_Text_MoversPokemonGoSetClock {
-    format("The mover's POKéMON do all the work of moving us in and cleaning up after.\l This is so convenient!\p {PLAYER}, your room is upstairs. Go check it out, dear!\p DAD bought you a new clock to mark our move here.\l Don't forget to set it!")
+    format("The mover's POKMON do all the work of moving us in and cleaning up after.\l This is so convenient!\p {PLAYER}, your room is upstairs. Go check it out, dear!\p DAD bought you a new clock to mark our move here.\l Don't forget to set it!")
 }
 
 text PlayersHouse_1F_Text_ArentYouInterestedInRoom {
@@ -30,7 +30,7 @@ text PlayersHouse_1F_Text_MaybeDadWillBeOn {
 }
 
 text PlayersHouse_1F_Text_ItsOverWeMissedHim {
-    format("MOM: Oh… It's over.\p I think DAD was on, but we missed him. Too bad.")
+    format("MOM: Oh It's over.\p I think DAD was on, but we missed him. Too bad.")
 }
 
 text PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor {
@@ -62,11 +62,11 @@ text PlayersHouse_1F_Text_DontPushYourselfTooHard {
 }
 
 text PlayersHouse_1F_Text_IsThatAPokenav {
-    format("MOM: What is that, honey? A POKéNAV? Someone from DEVON gave it to you?\p Well, honey, how about registering your mom?\p … … …")
+    format("MOM: What is that, honey? A POKNAV? Someone from DEVON gave it to you?\p Well, honey, how about registering your mom?\p   ")
 }
 
 text PlayersHouse_1F_Text_RegisteredMom {
-    format("Registered MOM in the POKéNAV.")
+    format("Registered MOM in the POKNAV.")
 }
 
 text PlayersHouse_1F_Text_Vigoroth1 {
@@ -74,11 +74,11 @@ text PlayersHouse_1F_Text_Vigoroth1 {
 }
 
 text PlayersHouse_1F_Text_Vigoroth2 {
-    format("Huggoh, uggo uggo…")
+    format("Huggoh, uggo uggo")
 }
 
 text PlayersHouse_1F_Text_ReportFromPetalburgGym {
-    format("INTERVIEWER: …We brought you this report from in front of PETALBURG GYM.")
+    format("INTERVIEWER: We brought you this report from in front of PETALBURG GYM.")
 }
 
 text PlayersHouse_1F_Text_TheresAMovieOnTV {
@@ -86,11 +86,11 @@ text PlayersHouse_1F_Text_TheresAMovieOnTV {
 }
 
 text PlayersHouse_1F_Text_RunningShoesManual {
-    format("It's the instruction booklet for the RUNNING SHOES.\p “Press the B Button to run while wearing your RUNNING SHOES.\p “Lace up your RUNNING SHOES and hit the road running!”")
+    format("It's the instruction booklet for the RUNNING SHOES.\p Press the B Button to run while wearing your RUNNING SHOES.\p Lace up your RUNNING SHOES and hit the road running!")
 }
 
 text PlayersHouse_1F_Text_TicketFromBrineyCameForYou {
-    format("DAD: Hm?\p Hey, it's {PLAYER}!\p It's been a while since I saw you, but you look…stronger, somehow.\p That's the impression I get. But your old man hasn't given up yet!\p Oh, yes, I have something for you. This came to you from someone named\l MR. BRINEY.")
+    format("DAD: Hm?\p Hey, it's {PLAYER}!\p It's been a while since I saw you, but you lookstronger, somehow.\p That's the impression I get. But your old man hasn't given up yet!\p Oh, yes, I have something for you. This came to you from someone named\l MR. BRINEY.")
 }
 
 text PlayersHouse_1F_Text_PortsInSlateportLilycove {
@@ -102,7 +102,7 @@ text PlayersHouse_1F_Text_BetterGetBackToGym {
 }
 
 text PlayersHouse_1F_Text_DadShouldStayLonger {
-    format("MOM: That DAD of yours…\p He comes home for the first time in a while, but all he talks about is POKéMON.\p He should relax and stay a little longer.")
+    format("MOM: That DAD of yours\p He comes home for the first time in a while, but all he talks about is POKMON.\p He should relax and stay a little longer.")
 }
 
 text PlayersHouse_1F_Text_IsThatABreakingStory {
@@ -110,14 +110,14 @@ text PlayersHouse_1F_Text_IsThatABreakingStory {
 }
 
 text PlayersHouse_1F_Text_LatiEmergencyNewsFlash {
-    format("We bring you this emergency news flash!\p In various HOENN locales, there have been reports of a BZZT…colored\l POKéMON in flight.\p The identity of this POKéMON is currently unknown.\p We now return you to the regular movie program.")
+    format("We bring you this emergency news flash!\p In various HOENN locales, there have been reports of a BZZTcolored\l POKMON in flight.\p The identity of this POKMON is currently unknown.\p We now return you to the regular movie program.")
 }
 
 text PlayersHouse_1F_Text_WhatColorDidTheySay {
-    format("MOM: {PLAYER}, did you catch that?\p What color did the announcer say that POKéMON was?")
+    format("MOM: {PLAYER}, did you catch that?\p What color did the announcer say that POKMON was?")
 }
 
 text PlayersHouse_1F_Text_StillUnknownPokemon {
-    format("MOM: Well, isn't that something! There are still unknown POKéMON.")
+    format("MOM: Well, isn't that something! There are still unknown POKMON.")
 }
 

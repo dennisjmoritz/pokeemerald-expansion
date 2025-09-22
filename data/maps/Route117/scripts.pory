@@ -4,7 +4,7 @@ mapscripts Route117_MapScripts {
 
 
 text Route117_Text_DayCarePokemonHadNewMove {
-    format("I left my POKéMON at the DAY CARE.\p When I got it back, it had a new move that I didn't teach it.\l I was really, really surprised.")
+    format("I left my POKMON at the DAY CARE.\p When I got it back, it had a new move that I didn't teach it.\l I was really, really surprised.")
 }
 
 text Route117_Text_ArentTheseFlowersPretty {
@@ -24,6 +24,6 @@ text Route117_Text_RouteSignMauville {
 }
 
 text Route117_Text_DayCareSign {
-    format("POKéMON DAY CARE “Let us raise your POKéMON.”")
+    format("POKMON DAY CARE Let us raise your POKMON.")
 }
 

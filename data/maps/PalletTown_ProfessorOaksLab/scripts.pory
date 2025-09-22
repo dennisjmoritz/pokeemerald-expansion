@@ -30,15 +30,15 @@ text PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak {
 }
 
 text PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher {
-    format("{RIVAL}: My POKéMON looks a lot tougher than yours.")
+    format("{RIVAL}: My POKMON looks a lot tougher than yours.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons {
-    format("{RIVAL}: Wait, {PLAYER}! Let's check out our POKéMON!\p Come on, I'll take you on!")
+    format("{RIVAL}: Wait, {PLAYER}! Let's check out our POKMON!\p Come on, I'll take you on!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_RivalDefeat {
-    format("WHAT? Unbelievable!\l I picked the wrong POKéMON!")
+    format("WHAT? Unbelievable!\l I picked the wrong POKMON!")
 }
 
 text Text_RivalVictory {
@@ -46,7 +46,7 @@ text Text_RivalVictory {
 }
 
 text PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon {
-    format("{RIVAL}: Okay! I'll make my POKéMON battle to toughen it up!\p {PLAYER}! Gramps! Smell you later!")
+    format("{RIVAL}: Okay! I'll make my POKMON battle to toughen it up!\p {PLAYER}! Gramps! Smell you later!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_RivalGramps {
@@ -66,7 +66,7 @@ text PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap {
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne {
-    format("OAK: {RIVAL}? Let me think…\p Oh, that's right, I told you to come! Just wait!\p Here, {PLAYER}.\p There are three POKéMON here.\p Haha!\p The POKéMON are held inside these POKé BALLS.\p When I was young, I was a serious POKéMON TRAINER.\p But now, in my old age, I have only these three left.\p You can have one. Go on, choose!")
+    format("OAK: {RIVAL}? Let me think\p Oh, that's right, I told you to come! Just wait!\p Here, {PLAYER}.\p There are three POKMON here.\p Haha!\p The POKMON are held inside these POK BALLS.\p When I was young, I was a serious POKMON TRAINER.\p But now, in my old age, I have only these three left.\p You can have one. Go on, choose!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakBePatientRival {
@@ -74,7 +74,7 @@ text PalletTown_ProfessorOaksLab_Text_OakBePatientRival {
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose {
-    format("OAK: Now, {PLAYER}.\p Inside those three POKé BALLS are POKéMON.\p Which one will you choose for yourself?")
+    format("OAK: Now, {PLAYER}.\p Inside those three POK BALLS are POKMON.\p Which one will you choose for yourself?")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet {
@@ -82,19 +82,19 @@ text PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet {
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander {
-    format("Ah! CHARMANDER is your choice. You should raise it patiently.\p So, {PLAYER}, you're claiming the FIRE POKéMON CHARMANDER?")
+    format("Ah! CHARMANDER is your choice. You should raise it patiently.\p So, {PLAYER}, you're claiming the FIRE POKMON CHARMANDER?")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle {
-    format("Hm! SQUIRTLE is your choice. It's one worth raising.\p So, {PLAYER}, you've decided on the WATER POKéMON SQUIRTLE?")
+    format("Hm! SQUIRTLE is your choice. It's one worth raising.\p So, {PLAYER}, you've decided on the WATER POKMON SQUIRTLE?")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur {
-    format("I see! BULBASAUR is your choice. It's very easy to raise.\p So, {PLAYER}, you want to go with the GRASS POKéMON BULBASAUR?")
+    format("I see! BULBASAUR is your choice. It's very easy to raise.\p So, {PLAYER}, you want to go with the GRASS POKMON BULBASAUR?")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic {
-    format("This POKéMON is really quite energetic!")
+    format("This POKMON is really quite energetic!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak {
@@ -102,15 +102,15 @@ text PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak {
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon {
-    format("OAK: If a wild POKéMON appears, your POKéMON can battle it.\p With it at your side, you should be able to reach the next town.")
+    format("OAK: If a wild POKMON appears, your POKMON can battle it.\p With it at your side, you should be able to reach the next town.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow {
-    format("OAK: {PLAYER}, raise your young POKéMON by making it battle.\p It has to battle for it to grow.")
+    format("OAK: {PLAYER}, raise your young POKMON by making it battle.\p It has to battle for it to grow.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe {
-    format("OAK: Oh, {PLAYER}! How is my old POKéMON?\p Well, it seems to be growing more attached to you.\p You must be talented as a POKéMON TRAINER.\p What's that? You have something for me?")
+    format("OAK: Oh, {PLAYER}! How is my old POKMON?\p Well, it seems to be growing more attached to you.\p You must be talented as a POKMON TRAINER.\p What's that? You have something for me?")
 }
 
 text PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel {
@@ -118,7 +118,7 @@ text PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel {
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered {
-    format("Ah! It's the custom POKé BALL!\p I had it on order. Thank you!")
+    format("Ah! It's the custom POK BALL!\p I had it on order. Thank you!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo {
@@ -126,7 +126,7 @@ text PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo {
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk {
-    format("On the desk there is my invention, the POKéDEX!\p It automatically records data on POKéMON you've seen or caught.\p It's a high-tech encyclopedia!")
+    format("On the desk there is my invention, the POKDEX!\p It automatically records data on POKMON you've seen or caught.\p It's a high-tech encyclopedia!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou {
@@ -134,35 +134,35 @@ text PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou {
 }
 
 text PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak {
-    format("{PLAYER} received the POKéDEX from PROF. OAK.")
+    format("{PLAYER} received the POKDEX from PROF. OAK.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese {
-    format("OAK: You can't get detailed data on POKéMON by just seeing them.\p You must catch them to obtain complete data.\p So, here are some tools for catching wild POKéMON.")
+    format("OAK: You can't get detailed data on POKMON by just seeing them.\p You must catch them to obtain complete data.\p So, here are some tools for catching wild POKMON.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls {
-    format("{PLAYER} received five POKé BALLS.")
+    format("{PLAYER} received five POK BALLS.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakExplainCatching {
-    format("When a wild POKéMON appears, it's fair game.\p Just throw a POKé BALL at it and try to catch it!\p This won't always work, however.\p A healthy POKéMON can escape. You have to be lucky!")
+    format("When a wild POKMON appears, it's fair game.\p Just throw a POK BALL at it and try to catch it!\p This won't always work, however.\p A healthy POKMON can escape. You have to be lucky!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream {
-    format("To make a complete guide on all the POKéMON in the world…\p That was my dream!\p But, I'm too old. I can't get the job done.\p So, I want you two to fulfill my dream for me.\p Get moving, you two.\p This is a great undertaking in POKéMON history!")
+    format("To make a complete guide on all the POKMON in the world\p That was my dream!\p But, I'm too old. I can't get the job done.\p So, I want you two to fulfill my dream for me.\p Get moving, you two.\p This is a great undertaking in POKMON history!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait {
-    format("POKéMON around the world wait for you, {PLAYER}!")
+    format("POKMON around the world wait for you, {PLAYER}!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex {
-    format("Ah, {PLAYER}! How is your POKéDEX shaping up?\p {RIVAL} has already caught some POKéMON and added to the data.\p So, {PLAYER}, let's have a look at your POKéDEX.\p …What's the matter? You've added no new data at all.\p I'll give you these, so do try a little harder.")
+    format("Ah, {PLAYER}! How is your POKDEX shaping up?\p {RIVAL} has already caught some POKMON and added to the data.\p So, {PLAYER}, let's have a look at your POKDEX.\p What's the matter? You've added no new data at all.\p I'll give you these, so do try a little harder.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime {
-    format("OAK: Come see me sometime.\p After all, I want to know how your POKéDEX is coming along.")
+    format("OAK: Come see me sometime.\p After all, I want to know how your POKDEX is coming along.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia {
@@ -170,11 +170,11 @@ text PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia {
 }
 
 text PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls {
-    format("Those are POKé BALLS. They contain POKéMON!")
+    format("Those are POK BALLS. They contain POKMON!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OaksLastMon {
-    format("That's PROF. OAK's last POKéMON.")
+    format("That's PROF. OAK's last POKMON.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu {
@@ -186,27 +186,27 @@ text PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu {
 }
 
 text PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints {
-    format("All POKéMON types have strong and weak points against others.")
+    format("All POKMON types have strong and weak points against others.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_EmailMessage {
-    format("There's an e-mail message here.\p …\p Finally! The ultimate TRAINERS of the\l POKéMON LEAGUE are ready to\l take on all comers!\p Bring your best POKéMON and see how you rate as a TRAINER!\p POKéMON LEAGUE HQ INDIGO PLATEAU\p PROF. OAK, please visit us! …")
+    format("There's an e-mail message here.\p \p Finally! The ultimate TRAINERS of the\l POKMON LEAGUE are ready to\l take on all comers!\p Bring your best POKMON and see how you rate as a TRAINER!\p POKMON LEAGUE HQ INDIGO PLATEAU\p PROF. OAK, please visit us! ")
 }
 
 text PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide {
-    format("I study POKéMON as PROF. OAK's AIDE.")
+    format("I study POKMON as PROF. OAK's AIDE.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons {
-    format("Hi, {PLAYER}. I bet you've become good friends with your POKéMON.\p By the way, did you know about DAISY?\p If you show DAISY your POKéMON, she can tell how much it likes you.\p Occasionally, she will even groom a POKéMON for you.\p This is a secret, so please don't tell anyone.")
+    format("Hi, {PLAYER}. I bet you've become good friends with your POKMON.\p By the way, did you know about DAISY?\p If you show DAISY your POKMON, she can tell how much it likes you.\p Occasionally, she will even groom a POKMON for you.\p This is a secret, so please don't tell anyone.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow {
-    format("PROF. OAK is going to have his own radio show soon.\p The program will be called PROF. OAK's POKéMON SEMINAR.")
+    format("PROF. OAK is going to have his own radio show soon.\p The program will be called PROF. OAK's POKMON SEMINAR.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons {
-    format("PROF. OAK may not look like much, but he's the authority on POKéMON.\p Many POKéMON TRAINERS hold him in high regard.")
+    format("PROF. OAK may not look like much, but he's the authority on POKMON.\p Many POKMON TRAINERS hold him in high regard.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer {
@@ -214,34 +214,34 @@ text PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer {
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons {
-    format("Recently, there have been sightings of many rare POKéMON species.\p I'm talking about POKéMON that have never been seen in KANTO.\p I would love to go see things for myself, but I'm much too old.\p Since I can't do it, {PLAYER}, I'd like you to go in my place.")
+    format("Recently, there have been sightings of many rare POKMON species.\p I'm talking about POKMON that have never been seen in KANTO.\p I would love to go see things for myself, but I'm much too old.\p Since I can't do it, {PLAYER}, I'd like you to go in my place.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything {
-    format("{RIVAL}: Hey, I heard that!\p Gramps, what's with favoring {PLAYER} over me all the time?\p I went and collected more POKéMON, and faster, too.\p You should just let me handle everything.")
+    format("{RIVAL}: Hey, I heard that!\p Gramps, what's with favoring {PLAYER} over me all the time?\p I went and collected more POKMON, and faster, too.\p You should just let me handle everything.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes {
-    format("OAK: I know, I know. Of course I need your help, too.\p Now, I need to see both your POKéDEXES.")
+    format("OAK: I know, I know. Of course I need your help, too.\p Now, I need to see both your POKDEXES.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakTookBothPokedexUnits {
-    format("PROF. OAK took both POKéDEX units.")
+    format("PROF. OAK took both POKDEX units.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData {
-    format("… … …  … … …\p … … …  … … …\p …And that's done!\p Now these units can record data on a lot more POKéMON.")
+    format("      \p       \p And that's done!\p Now these units can record data on a lot more POKMON.")
 }
 
 text PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded {
-    format("{PLAYER}'s POKéDEX was upgraded!")
+    format("{PLAYER}'s POKDEX was upgraded!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex {
-    format("Now, {PLAYER} and {RIVAL}!\p This time, you really must work towards filling your POKéDEXES.\p I urge you to make them the best and the most complete of all time!\p Truly, this is a monumentally great undertaking in POKéMON history!")
+    format("Now, {PLAYER} and {RIVAL}!\p This time, you really must work towards filling your POKDEXES.\p I urge you to make them the best and the most complete of all time!\p Truly, this is a monumentally great undertaking in POKMON history!")
 }
 
 text PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex {
-    format("{RIVAL}: Gramps, calm down. Don't get so excited.\p I'll get the POKéDEX completed, don't you worry about a thing.\p I think I'll try looking around ONE ISLAND first…\p Anyways, I'm outta here!")
+    format("{RIVAL}: Gramps, calm down. Don't get so excited.\p I'll get the POKDEX completed, don't you worry about a thing.\p I think I'll try looking around ONE ISLAND first\p Anyways, I'm outta here!")
 }
 

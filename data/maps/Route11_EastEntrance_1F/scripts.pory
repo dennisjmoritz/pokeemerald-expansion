@@ -3,11 +3,11 @@ mapscripts Route11_EastEntrance_1F_MapScripts {
 
 
 text Route11_EastEntrance_1F_Text_BagIsFull {
-    format("{PLAYER}{KUN}の　バッグ いっぱい　みたい　だね")
+    format("{PLAYER}{KUN} ")
 }
 
 text Route11_EastEntrance_1F_Text_ManInLavenderRatesNames {
-    format("Don't you think it's hard to think up good names for POKéMON?\p Especially if you've caught a whole bunch?\p In LAVENDER TOWN, there's a man who rates POKéMON nicknames.\p He can even help you rename your POKéMON, too.")
+    format("Don't you think it's hard to think up good names for POKMON?\p Especially if you've caught a whole bunch?\p In LAVENDER TOWN, there's a man who rates POKMON nicknames.\p He can even help you rename your POKMON, too.")
 }
 
 text Route11_EastEntrance_1F_Text_RockTunnelToReachLavender {
