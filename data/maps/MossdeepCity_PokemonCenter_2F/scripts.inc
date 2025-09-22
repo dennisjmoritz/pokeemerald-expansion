@@ -1,0 +1,17 @@
+MossdeepCity_PokemonCenter_2F_MapScripts::
+# 2 "data/maps/MossdeepCity_PokemonCenter_2F/scripts.pory"
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, CableClub_OnFrame
+# 3 "data/maps/MossdeepCity_PokemonCenter_2F/scripts.pory"
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, CableClub_OnWarp
+# 4 "data/maps/MossdeepCity_PokemonCenter_2F/scripts.pory"
+	map_script MAP_SCRIPT_ON_LOAD, CableClub_OnLoad
+# 5 "data/maps/MossdeepCity_PokemonCenter_2F/scripts.pory"
+	map_script MAP_SCRIPT_ON_TRANSITION, CableClub_OnTransition
+	.byte 0
+
+
+MossdeepCity_PokemonCenter_2F_Text_Woman5::
+# 9 "data/maps/MossdeepCity_PokemonCenter_2F/scripts.pory"
+	.string "If I win a whole lot of link battles and\n"
+	.string "show everyone how good I am,\l"
+	.string "I might get a fan following!$"
