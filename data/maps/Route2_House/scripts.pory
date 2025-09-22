@@ -2,3 +2,7 @@ mapscripts Route2_House_MapScripts {
 }
 
 
+text Route2_House_Text_FaintedMonsCanUseFieldMoves {
+    format("A fainted POKéMON just has no energy left to battle.\p It can still use moves like CUT outside of battle.")
+}
+

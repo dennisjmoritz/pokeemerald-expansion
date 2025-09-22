@@ -2,3 +2,23 @@ mapscripts SixIsland_GreenPath_MapScripts {
 }
 
 
+text SixIsland_GreenPath_Text_JaclynIntro {
+    format("…Huh?\p I was envisioning my house, but this is where I TELEPORT?")
+}
+
+text SixIsland_GreenPath_Text_JaclynDefeat {
+    format("Big boo-boo!")
+}
+
+text SixIsland_GreenPath_Text_JaclynPostBattle {
+    format("I am so scatterbrained!\p I need to focus so I can TELEPORT properly to my house!")
+}
+
+text SixIsland_GreenPath_Text_LeftRouteSign {
+    format("GREEN PATH PATTERN BUSH AHEAD")
+}
+
+text SixIsland_GreenPath_Text_RightRouteSign {
+    format("GREEN PATH Think Green, Keep Nature Clean!")
+}
+

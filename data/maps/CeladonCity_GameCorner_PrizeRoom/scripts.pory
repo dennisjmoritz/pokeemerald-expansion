@@ -2,3 +2,47 @@ mapscripts CeladonCity_GameCorner_PrizeRoom_MapScripts {
 }
 
 
+text CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon {
+    format("I sure do fancy that PORYGON! But, it's hard to win at slots!")
+}
+
+text CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday {
+    format("Gahaha! I raked it in today! If only every day were like this…")
+}
+
+text CeladonCity_GameCorner_PrizeRoom_Text_CoinCaseRequired {
+    format("A COIN CASE is required…")
+}
+
+text CeladonCity_GameCorner_PrizeRoom_Text_WeExchangeCoinsForPrizes {
+    format("We exchange your COINS for prizes.")
+}
+
+text CeladonCity_GameCorner_PrizeRoom_Text_WhichPrize {
+    format("Which prize would you like?")
+}
+
+text CeladonCity_GameCorner_PrizeRoom_Text_HereYouGo {
+    format("はい どうぞ")
+}
+
+text CeladonCity_GameCorner_PrizeRoom_Text_YouWantPrize {
+    format("So, you want the {STR_VAR_1}?")
+}
+
+text CeladonCity_GameCorner_PrizeRoom_Text_YouWantTM {
+    format("Okay, a TM of {STR_VAR_2} is what you want?")
+}
+
+text CeladonCity_GameCorner_PrizeRoom_Text_NeedMoreCoins {
+    format("Sorry, you'll need more COINS than that.")
+}
+
+text CeladonCity_GameCorner_PrizeRoom_Text_OopsNotEnoughRoom {
+    format("おきゃくさん もう もてないよ")
+}
+
+text CeladonCity_GameCorner_PrizeRoom_Text_OhFineThen {
+    format("あっ そう")
+}
+

@@ -2,3 +2,63 @@ mapscripts SaffronCity_CopycatsHouse_2F_MapScripts {
 }
 
 
+text SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale {
+    format("{PLAYER}: Hi! Do you like POKéMON?\p {PLAYER}: Uh, no, I just asked you.\p {PLAYER}: Huh? You're strange!\p COPYCAT: Hmm? Quit mimicking? But, that's my favorite hobby!")
+}
+
+text SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale {
+    format("{PLAYER}: Hi. You must like POKéMON.\p {PLAYER}: No, not me. I asked you.\p {PLAYER}: Pardon? You're weird!\l \l COPYCAT: Hmm? Quit mimicking?\l But that's my favorite hobby!")
+}
+
+text Text_MimicTeach {
+    format("Oh wow! A POKé DOLL!\p For me? Thank you!\p You know what? I can teach the move MIMIC.")
+}
+
+text Text_MimicDeclined {
+    format("Don't you like MIMIC?")
+}
+
+text Text_MimicWhichMon {
+    format("I really love MIMIC! Who's going to learn it?")
+}
+
+text Text_MimicTaughtMale {
+    format("{PLAYER}: Hi! Thanks for earlier!\p {PLAYER}: Pardon?\p {PLAYER}: Is it that fun to mimic my every move?\p COPYCAT: You bet! It's a scream!")
+}
+
+text Text_MimicTaughtFemale {
+    format("{PLAYER}: Hi! Thanks for what you did for us.\p {PLAYER}: Pardon?\p {PLAYER}: Is it really that fun to copy what I say and do?\p COPYCAT: You bet! It's a scream!")
+}
+
+text SaffronCity_CopycatsHouse_2F_Text_TooMuchInBag {
+    format("にもつが　いっぱいね！")
+}
+
+text SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMaleJP {
+    format("{PLAYER}“やあ！　こんにちは！ きみ　ポケモン　すきかい？\p {PLAYER}“ぼく　じゃなくって きみに　きいてるんだ　けど\p {PLAYER}“‥‥　えー　なんだよ！ ヘンな　やつ　だなあ！\p モノマネむすめ“‥‥　なに？ ひとの　マネ　すんなって？\p だって　あたし ものまね　しゅみ　なんだ　もん！”")
+}
+
+text SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemaleJP {
+    format("{PLAYER}“こんにちは！ ポケモン　すきなのね？\p {PLAYER}“わたし　じゃなくって あなたに　きいてるんだ　けど\p {PLAYER}“‥　えー　なんなの！ おかしなこ　ねー！\p モノマネむすめ“‥　なに？ ひとの　マネ　すんなって？\p だって　あたし ものまね　しゅみ　なんだ　もん！")
+}
+
+text SaffronCity_CopycatsHouse_2F_Text_Doduo {
+    format("DODUO: Giiih!\p PRETTY MIRROR LOOK AT ME, SEE HOW PRETTY I CAN BE?")
+}
+
+text SaffronCity_CopycatsHouse_2F_Text_RareMonOnlyDoll {
+    format("This is a rare POKéMON! Huh? It's only a doll!")
+}
+
+text SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket {
+    format("A game with MARIO wearing a bucket on his head!")
+}
+
+text SaffronCity_CopycatsHouse_2F_Text_MySecrets {
+    format("…\p My Secrets!\p Skill: Mimicry! Hobby: Collecting dolls!\l Favorite POKéMON: CLEFAIRY!")
+}
+
+text SaffronCity_CopycatsHouse_2F_Text_HuhCantSee {
+    format("？　みえないぞ‥")
+}
+

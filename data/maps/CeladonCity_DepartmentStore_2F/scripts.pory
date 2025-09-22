@@ -2,3 +2,19 @@ mapscripts CeladonCity_DepartmentStore_2F_MapScripts {
 }
 
 
+text CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel {
+    format("SUPER REPEL keeps weak POKéMON at bay…\p Hmm, it's a more powerful REPEL.")
+}
+
+text CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings {
+    format("For long outings, you should buy REVIVE.")
+}
+
+text CeladonCity_DepartmentStore_2F_Text_FloorSign {
+    format("Top-Grade Items for TRAINERS!\p 2F: TRAINER'S MARKET")
+}
+
+text CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes {
+    format("We have a customer, LANCE, who occasionally comes.\p He always buys capes.\p I wonder… Does he have many identical capes at home?")
+}
+

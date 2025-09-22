@@ -4,3 +4,155 @@ mapscripts SaffronCity_PokemonTrainerFanClub_MapScripts {
 }
 
 
+text SaffronCity_PokemonTrainerFanClub_Text_HuhYou {
+    format("Huh? You…")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_YourePlayerWereYourFansNow {
+    format("Are you maybe… … …\p You are! You are {PLAYER}!\p We were just talking about you!\p We were talking about how an incredibly good TRAINER appeared.\p And that someone is you! You're so cool!\p So, we decided that we'll become your FAN CLUB!\p We all hope you'll keep battling and show us how cool you are.\p That way, maybe other people will become fans just like me.")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou {
+    format("I'll always be cheering for you!\p Go, {PLAYER}, go!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_IllAlwaysBelieveInYou {
+    format("I'll always believe in you, {PLAYER}.\p Please show the others what you're like when you battle seriously.")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_WasYourFanNotAnymore {
+    format("I'm sorry. I was your fan before.\p But now, you seem to have lost the drive you had before.\p Lately, I think {STR_VAR_1} has been a lot cooler.")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_EveryonesYourFanButICantBe {
+    format("Oh! {PLAYER}!\p Everyone's been all excited about you recently.\p I can understand why. I know that you're strong.\p But, do you know what?\p Once I became {STR_VAR_1}'s fan, I can't just stop being a fan.")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_TrainersCoolWhenBattling {
+    format("I think TRAINERS are so cool when they're battling.\p Don't you think so, too?")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_CanYouAutographShorts {
+    format("Oh! It's {PLAYER}! Too cool!\p Oh! Oh, yeah!\p Can you autograph something? How about my shorts?")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_CountingOnYou {
+    format("However hot it's been…\p And however cold it may get…\p I've always believed in, and worn, shorts!\p I'm counting on you to keep winning!\p I believe in you just as much as I believe in shorts!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero {
+    format("BROCK's my hero! He's a man among men!\p Heheh, I got my mom to do something for me.\p I got her to embroider “BROCK” on my shorts!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd {
+    format("…  …\p …  … I'm BROCK's fan!\p Even if I were his only fan, I swear it on my rock-hard will,\l and on my shorts!\p I'll be his fan to the bitter end!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool {
+    format("BROCK's the last word on cool, end of story!\p Now there's a guy who I want to be like!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_HadPleasureOfWatchingYouBattle {
+    format("{PLAYER}, I've had the pleasure of watching you battle.\p It brings back sweet memories of my own long-lost youth.\p May you continue to find success. You have a fan in me!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_NeverSeenTrainerOfYourMagnificence {
+    format("I have journeyed far and wide across the lands.\p But never have I seen a TRAINER of your magnificence.\p Take courage in your abilities and keep battling on!\p Make that a promise to me, my young idol!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_HmmAndYouAre {
+    format("Hmm… And you are?\p Were you hoping to sign up for a membership in our FAN CLUB?")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_YouveStillAWaysToGo {
+    format("Ah, so you are the much- talked-about {PLAYER}.\p You certainly do have the look of a winner.\p But for me to accept you as a true POKéMON great…\p … …\p You've still a ways to go!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_YoullBeTalkedAboutIfYouKeepWinning {
+    format("All of us gathered here are fans of POKéMON TRAINERS.\p The way they look in battle… They are the picture of coolness.\p Perhaps you will be talked about here, too, if you keep winning.")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay {
+    format("It's {PLAYER}! It's {PLAYER}!\p I want to be like {PLAYER} one day!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_EveryoneButMeStoppedBeingYourFan {
+    format("Everyone stopped being {PLAYER}'s fan…\p But that means I can have {PLAYER} all to myself!\p Yay! Go for it! My one and only {PLAYER}!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina {
+    format("Do you know what? I want to be like SABRINA!\p I want to be a psychic girl just like her!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan {
+    format("Even if I'm the only one, I won't stop being SABRINA's fan.\p My dream is to be like SABRINA, cute, but cool.\p I want to be a psychic girl just like her!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_CanIBecomeCoolTrainerOneDay {
+    format("I wonder if I can become a cool TRAINER one day?")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_TheWayYouBattleIsCool {
+    format("Oh, man, oh, man! Cool! Too cool!\p …Huh? No, not you.\p Just the way you battle. That's cool.")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_ImOnlyOneLeftOfYourFans {
+    format("Yo, {PLAYER}!\p Looks like I'm the only one left out of your fans.\p But, you know, I like being an only fan… It's less stressful.\p Keep up and at it!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_LoveWayTrainerTalks {
+    format("{STR_VAR_1}'s cool, huh? I love the way he talks.\p I'd really relish a chance to meet him in person once.")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_ImLoneTrainerFan {
+    format("Huh, can you believe it? Everyone turned into your fans.\p So after all we've been through, I'm the lone {STR_VAR_1} fan?\p Eh, being the one and only {STR_VAR_1} fan's my style, anyway.")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_AdoreWayYouBattle {
+    format("Oh, my goodness! Is it really you, {PLAYER}?\p I have to tell you, I adore the way you battle.\p I hope you'll keep at it. I'll be your number one fan!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_ImYourNumberOneFan {
+    format("Oh, my goodness! If it isn't {PLAYER}!\p It's so disappointing… I realized I'm your number-one-and-only fan!\p Well, it can't be helped! Let me cheer you on, at least!\p Hurray, hurray, {PLAYER}!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_TrainerHasBeenOnFire {
+    format("Recently, {STR_VAR_1} has been on fire.\p The way he battles… It's just the way that I like it!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_EveryoneTalksAboutYou {
+    format("Oh, hello! If it isn't {PLAYER}!\p Lately, all everyone talks about is you.\p I'm feeling lonesome because I prefer {STR_VAR_1}.")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_YouReallyAreAmazing {
+    format("Amazing! {PLAYER}, you really are amazing!\p Instead of just watching, maybe I should become a TRAINER, too.")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_ImYourOnlyFan {
+    format("I'm your only fan… Sigh… This is lonely…\p Can't you try harder and make the others take notice of you?")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_WhyCantOthersSeeMastersDignity {
+    format("Master {STR_VAR_1} is so dignified… He is so my type.\p Why can't the others see the dignity he simply oozes?")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_BelieveInMasterWithAllMyHeart {
+    format("I believe in Master {STR_VAR_1} with all my heart.\p Even if I am the only one to believe in him.\p I won't ever feel lonesome, though.\p Not if I keep thinking about Master {STR_VAR_1}.")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_YourBattleStyleIsEducational {
+    format("Hiyah!\p Your battling style is most educational.\p I hope that you will keep plugging away at success, hiyah!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingYourFan {
+    format("Instead of just watching others battle, battle yourself!\p …My DOJO's MASTER chewed me out like that…\p But I won't let that stop me from being your fan!\p I can't stop being your fan!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_OnlyMasterHasMyRespect {
+    format("Hiyah! There is but one TRAINER who has my respect.\p And that is none other than my MASTER at the FIGHTING DOJO.\p You should become a fan of my MASTER like me! Hiyah!")
+}
+
+text SaffronCity_PokemonTrainerFanClub_Text_NeverBeFanOfAnyoneButMaster {
+    format("Hiyah! I respect my MASTER at the FIGHTING DOJO.\p I will never become a fan of anyone other than my MASTER!\p I will even sneak out of the DOJO to spread word of his greatness.\p Hiyah!")
+}
+

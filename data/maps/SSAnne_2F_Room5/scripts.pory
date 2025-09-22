@@ -2,3 +2,11 @@ mapscripts SSAnne_2F_Room5_MapScripts {
 }
 
 
+text SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone {
+    format("Have you gone to the SAFARI ZONE in FUCHSIA CITY?\p There are many kinds of rare POKéMON.")
+}
+
+text SSAnne_2F_Room5_Text_WeThinkSafariZoneIsAwesome {
+    format("Me and my daddy think the SAFARI ZONE is awesome!\l I wish we could go there again.")
+}
+

@@ -2,3 +2,27 @@ mapscripts SevenIsland_SevaultCanyon_House_MapScripts {
 }
 
 
+text SevenIsland_SevaultCanyon_House_Text_ChanseyDanceJoinIn {
+    format("Dance, dance! CHANSEY Dance!\p You join in, too! Dance, dance!")
+}
+
+text SevenIsland_SevaultCanyon_House_Text_WouldYouLikeToDance {
+    format("Would you like to dance?")
+}
+
+text SevenIsland_SevaultCanyon_House_Text_ComeOnDance {
+    format("Come on, dance!")
+}
+
+text SevenIsland_SevaultCanyon_House_Text_DancedChanseyDance {
+    format("{PLAYER} danced the CHANSEY Dance!")
+}
+
+text SevenIsland_SevaultCanyon_House_Text_YoureAllChipperNow {
+    format("Ahahahaha!\p There, you're all chipper now! Lucky!")
+}
+
+text SevenIsland_SevaultCanyon_House_Text_Chansey {
+    format("CHANSEY: Chansi! Chansi!")
+}
+

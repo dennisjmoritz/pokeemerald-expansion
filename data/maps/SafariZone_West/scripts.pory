@@ -2,3 +2,19 @@ mapscripts SafariZone_West_MapScripts {
 }
 
 
+text SafariZone_West_Text_RestHouse {
+    format("REST HOUSE")
+}
+
+text SafariZone_West_Text_PleaseFindWardensLostTeeth {
+    format("REQUEST NOTICE\p Please find the SAFARI WARDEN's lost GOLD TEETH.\l They're around here somewhere.\p Reward offered! Contact: WARDEN")
+}
+
+text SafariZone_West_Text_SearchForSecretHouse {
+    format("TRAINER TIPS\p Zone Exploration Campaign! The Search for the SECRET HOUSE!")
+}
+
+text SafariZone_West_Text_AreaSign {
+    format("AREA 3 EAST: CENTER AREA")
+}
+

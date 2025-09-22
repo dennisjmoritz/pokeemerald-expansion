@@ -2,3 +2,147 @@ mapscripts Route17_MapScripts {
 }
 
 
+text Route17_Text_RaulIntro {
+    format("There's no getting rich quick in battling kids.")
+}
+
+text Route17_Text_RaulDefeat {
+    format("Burned out!")
+}
+
+text Route17_Text_RaulPostBattle {
+    format("You can find good stuff lying around on CYCLING ROAD.\p There's good money in picking them up and selling them.")
+}
+
+text Route17_Text_IsaiahIntro {
+    format("I'm mighty proud of my bod, kiddo. Come on!")
+}
+
+text Route17_Text_IsaiahDefeat {
+    format("Whoo!")
+}
+
+text Route17_Text_IsaiahPostBattle {
+    format("I could belly-bump you outta here!")
+}
+
+text Route17_Text_VirgilIntro {
+    format("You heading to FUCHSIA?")
+}
+
+text Route17_Text_VirgilDefeat {
+    format("Crash and burn!")
+}
+
+text Route17_Text_VirgilPostBattle {
+    format("I love racing downhill!")
+}
+
+text Route17_Text_BillyIntro {
+    format("We're BIKERS! We rule the roads, man!")
+}
+
+text Route17_Text_BillyDefeat {
+    format("Smoked!")
+}
+
+text Route17_Text_BillyPostBattle {
+    format("Are you looking for adventure?")
+}
+
+text Route17_Text_NikolasIntro {
+    format("Let VOLTORB electrify you!")
+}
+
+text Route17_Text_NikolasDefeat {
+    format("Grounded out!")
+}
+
+text Route17_Text_NikolasPostBattle {
+    format("I got my VOLTORB at the abandoned POWER PLANT.")
+}
+
+text Route17_Text_ZeekIntro {
+    format("I leveled up my POKéMON, but it won't evolve. Why?")
+}
+
+text Route17_Text_ZeekDefeat {
+    format("Why, you!")
+}
+
+text Route17_Text_ZeekPostBattle {
+    format("Maybe some POKéMON need element STONES to evolve.")
+}
+
+text Route17_Text_JamalIntro {
+    format("I need a little exercise!")
+}
+
+text Route17_Text_JamalDefeat {
+    format("Whew! Good workout!")
+}
+
+text Route17_Text_JamalPostBattle {
+    format("I'm sure I lost weight there!")
+}
+
+text Route17_Text_CoreyIntro {
+    format("Be a rebel!")
+}
+
+text Route17_Text_CoreyDefeat {
+    format("Aaaargh!")
+}
+
+text Route17_Text_CoreyPostBattle {
+    format("Be ready to fight for your beliefs!")
+}
+
+text Route17_Text_JaxonIntro {
+    format("Nice BIKE! How's it handle?")
+}
+
+text Route17_Text_JaxonDefeat {
+    format("Shoot!")
+}
+
+text Route17_Text_JaxonPostBattle {
+    format("The slope makes it hard to steer.")
+}
+
+text Route17_Text_WilliamIntro {
+    format("Get lost, kid! I'm bushed!")
+}
+
+text Route17_Text_WilliamDefeat {
+    format("Are you satisfied?")
+}
+
+text Route17_Text_WilliamPostBattle {
+    format("I need to catch a few z's!")
+}
+
+text Route17_Text_WatchOutForDiscardedItems {
+    format("It's a notice.\p Watch out for discarded items.")
+}
+
+text Route17_Text_SameSpeciesGrowDifferentRates {
+    format("TRAINER TIPS\p All POKéMON are unique.\p Even POKéMON of the same species and level grow at different rates.")
+}
+
+text Route17_Text_PressBToStayInPlace {
+    format("TRAINER TIPS\p Press the B Button to stay in place while on a slope.")
+}
+
+text Route17_Text_RouteSign {
+    format("ROUTE 17 CELADON CITY - FUCHSIA CITY")
+}
+
+text Route17_Text_DontThrowGameThrowBalls {
+    format("It's a notice!\p Don't throw the game, throw POKé BALLS instead!")
+}
+
+text Route17_Text_CyclingRoadSign {
+    format("CYCLING ROAD Slope ends here!")
+}
+

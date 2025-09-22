@@ -2,3 +2,15 @@ mapscripts SaffronCity_CopycatsHouse_1F_MapScripts {
 }
 
 
+text SaffronCity_CopycatsHouse_1F_Text_DaughterIsSelfCentered {
+    format("My daughter is so self-centered. She has but a few friends.")
+}
+
+text SaffronCity_CopycatsHouse_1F_Text_DaughterLikesToMimicPeople {
+    format("My daughter likes to mimic people. It's rather vexing.\p Her mimicry has earned her the nickname COPYCAT around here.")
+}
+
+text SaffronCity_CopycatsHouse_1F_Text_Chansey {
+    format("CHANSEY: Chaan! Sii!")
+}
+

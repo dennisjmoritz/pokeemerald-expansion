@@ -2,3 +2,23 @@ mapscripts Route16_House_MapScripts {
 }
 
 
+text Route16_House_Text_FoundMySecretRetreat {
+    format("Oh, dear. You've found my secret retreat.\p Please don't tell anyone I'm here. I'll make it up to you with this!")
+}
+
+text Route16_House_Text_ReceivedHM02FromGirl {
+    format("{PLAYER} received HM02 from the girl.")
+}
+
+text Route16_House_Text_ExplainHM02 {
+    format("HM02 is FLY. It's a wonderfully convenient move.\p Please, put it to good use.")
+}
+
+text Route16_House_Text_DontHaveAnyRoomForThis {
+    format("You don't have any room for this.")
+}
+
+text Route16_House_Text_Fearow {
+    format("FEAROW: Kyueen!")
+}
+

@@ -2,3 +2,39 @@ mapscripts SSAnne_CaptainsOffice_MapScripts {
 }
 
 
+text SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick {
+    format("CAPTAIN: Ooargh… I feel hideous…\l Urrp! Seasick…")
+}
+
+text SSAnne_CaptainsOffice_Text_RubbedCaptainsBack {
+    format("{PLAYER} rubbed the CAPTAIN's back!\p Rub-rub… Rub-rub…")
+}
+
+text SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut {
+    format("CAPTAIN: Whew! Thank you! I'm feeling much better now.\p You want to see my hidden CUT technique?\p I could show you my prized CUT technique if I weren't so ill…\p I know! You can have this! This HIDDEN MACHINE!\p Teach CUT to your POKéMON, and you can see it CUT anytime!")
+}
+
+text SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain {
+    format("{PLAYER} obtained HM01 from the CAPTAIN!")
+}
+
+text SSAnne_CaptainsOffice_Text_ExplainCut {
+    format("Using CUT, you can chop down small trees.\p Why not try it with the trees around VERMILION CITY?")
+}
+
+text SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon {
+    format("CAPTAIN: …Whew!\p Now that I'm not sick anymore, I guess it's time.\p The S.S. ANNE will set sail soon!\p Farewell, until our return to VERMILION CITY!")
+}
+
+text SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis {
+    format("Oh, no! You have no room for this!")
+}
+
+text SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked {
+    format("Yuck! Shouldn't have looked!")
+}
+
+text SSAnne_CaptainsOffice_Text_HowToConquerSeasickness {
+    format("How to Conquer Seasickness… The CAPTAIN's reading this!")
+}
+

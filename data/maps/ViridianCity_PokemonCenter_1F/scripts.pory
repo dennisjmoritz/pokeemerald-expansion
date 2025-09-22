@@ -4,3 +4,15 @@ mapscripts ViridianCity_PokemonCenter_1F_MapScripts {
 }
 
 
+text ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC {
+    format("Please feel free to use that PC in the corner.\p The receptionist told me so. It's so kind of her!")
+}
+
+text ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown {
+    format("There's a POKéMON CENTER in every town ahead.\p They charge no money, so don't be shy about healing POKéMON.")
+}
+
+text ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons {
+    format("POKéMON CENTERS heal your tired, hurt, or fainted POKéMON.\p They make all POKéMON completely healthy.")
+}
+

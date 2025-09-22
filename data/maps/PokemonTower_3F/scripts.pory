@@ -2,3 +2,39 @@ mapscripts PokemonTower_3F_MapScripts {
 }
 
 
+text PokemonTower_3F_Text_HopeIntro {
+    format("Urrg… Awaa… Huhu… Graa…")
+}
+
+text PokemonTower_3F_Text_HopeDefeat {
+    format("Hwa! I'm saved!")
+}
+
+text PokemonTower_3F_Text_HopePostBattle {
+    format("The ghosts can be identified by the SILPH SCOPE.")
+}
+
+text PokemonTower_3F_Text_CarlyIntro {
+    format("Kekeke… Kwaaah!")
+}
+
+text PokemonTower_3F_Text_CarlyDefeat {
+    format("Hmm? What am I doing?")
+}
+
+text PokemonTower_3F_Text_CarlyPostBattle {
+    format("Sorry! I was possessed!")
+}
+
+text PokemonTower_3F_Text_PatriciaIntro {
+    format("Be gone! Malevolent spirit!")
+}
+
+text PokemonTower_3F_Text_PatriciaDefeat {
+    format("Whew! The spirit left!")
+}
+
+text PokemonTower_3F_Text_PatriciaPostBattle {
+    format("The others above… They must have been possessed.")
+}
+

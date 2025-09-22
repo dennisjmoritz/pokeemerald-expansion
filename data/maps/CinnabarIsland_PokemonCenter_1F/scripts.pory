@@ -4,3 +4,27 @@ mapscripts CinnabarIsland_PokemonCenter_1F_MapScripts {
 }
 
 
+text CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked {
+    format("I came to visit the CINNABAR GYM, but the door is locked tight.\p There should be a key for it somewhere.\p Could it be in that burned-out mansion?\p The GYM LEADER's friend used to live there, they say.")
+}
+
+text CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom {
+    format("Do you have lots of friends?\p Linking up with the usual friends is fun, of course.\p But how about visiting the UNION ROOM every so often?\p Who knows, you may end up making new friends.\p I think it would be worth your time to check the UNION ROOM.")
+}
+
+text CinnabarIsland_PokemonCenter_1F_Text_EvolutionCanWaitForNewMoves {
+    format("POKéMON can still learn techniques after canceling evolution.\p Evolution can wait until new moves have been learned.")
+}
+
+text CinnabarIsland_PokemonCenter_1F_Text_ReadyToSailToOneIsland {
+    format("BILL: Hey, you kept me waiting! Ready to set sail to ONE ISLAND?")
+}
+
+text CinnabarIsland_PokemonCenter_1F_Text_OhNotDoneYet {
+    format("Oh, you're still not done yet?")
+}
+
+text CinnabarIsland_PokemonCenter_1F_Text_LetsGo {
+    format("Well, that's it. Let's go!")
+}
+

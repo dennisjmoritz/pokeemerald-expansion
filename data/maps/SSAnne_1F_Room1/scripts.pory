@@ -2,3 +2,7 @@ mapscripts SSAnne_1F_Room1_MapScripts {
 }
 
 
+text SSAnne_1F_Room1_Text_ImAGlobalPoliceAgent {
+    format("Ssh…! I'm a GLOBAL POLICE agent.\p I'm on the trail of TEAM ROCKET. They're up to nothing good!")
+}
+

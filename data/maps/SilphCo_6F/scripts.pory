@@ -3,3 +3,83 @@ mapscripts SilphCo_6F_MapScripts {
 }
 
 
+text SilphCo_6F_Text_RocketsTookOverBuilding {
+    format("The ROCKETS came and took over the building!")
+}
+
+text SilphCo_6F_Text_BetterGetBackToWork {
+    format("Well, better get back to work.")
+}
+
+text SilphCo_6F_Text_HelpMePlease {
+    format("Oh dear, oh dear. Help me, please!")
+}
+
+text SilphCo_6F_Text_WeGotEngaged {
+    format("We got engaged. Heheh!")
+}
+
+text SilphCo_6F_Text_ThatManIsSuchACoward {
+    format("That man next to me… He's such a coward!")
+}
+
+text SilphCo_6F_Text_NeedsMeToLookAfterHim {
+    format("He's so helpless, he needed someone like me to look after him.")
+}
+
+text SilphCo_6F_Text_RocketsTryingToConquerWorld {
+    format("TEAM ROCKET is trying to conquer the world with POKéMON.")
+}
+
+text SilphCo_6F_Text_RocketsRanAwayBecauseOfYou {
+    format("TEAM ROCKET ran away, and it's all because of you!")
+}
+
+text SilphCo_6F_Text_TargetedSilphForOurMonProducts {
+    format("They must have targeted SILPH for our POKéMON products.")
+}
+
+text SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder {
+    format("Come work for SILPH when you get older.")
+}
+
+text SilphCo_6F_Text_Grunt1Intro {
+    format("I am one of the four ROCKET BROTHERS!")
+}
+
+text SilphCo_6F_Text_Grunt1Defeat {
+    format("Flame out!")
+}
+
+text SilphCo_6F_Text_Grunt1PostBattle {
+    format("No matter! My brothers will avenge me!")
+}
+
+text SilphCo_6F_Text_TaylorIntro {
+    format("That rotten PRESIDENT!\p Serves him right for shipping me off to the TIKSI BRANCH!\p That's why TEAM ROCKET came after us, I'm sure of it!")
+}
+
+text SilphCo_6F_Text_TaylorDefeat {
+    format("Shoot!")
+}
+
+text SilphCo_6F_Text_TaylorPostBattle {
+    format("TIKSI BRANCH? It's in Russian no-man's-land!")
+}
+
+text SilphCo_6F_Text_Grunt2Intro {
+    format("You dare betray TEAM ROCKET?")
+}
+
+text SilphCo_6F_Text_Grunt2Defeat {
+    format("You traitor!")
+}
+
+text SilphCo_6F_Text_Grunt2PostBattle {
+    format("If you stand for justice, you betray us bad guys!")
+}
+
+text SilphCo_6F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 6F")
+}
+

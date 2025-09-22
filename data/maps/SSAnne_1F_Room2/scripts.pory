@@ -2,3 +2,31 @@ mapscripts SSAnne_1F_Room2_MapScripts {
 }
 
 
+text SSAnne_1F_Room2_Text_TylerIntro {
+    format("I love POKéMON! Do you?")
+}
+
+text SSAnne_1F_Room2_Text_TylerDefeat {
+    format("Wow! You're great!")
+}
+
+text SSAnne_1F_Room2_Text_TylerPostBattle {
+    format("Listen, listen! Let me be your friend, okay?\p Then we can trade POKéMON and do stuff.")
+}
+
+text SSAnne_1F_Room2_Text_AnnIntro {
+    format("I collected these POKéMON from all around the world!")
+}
+
+text SSAnne_1F_Room2_Text_AnnDefeat {
+    format("Oh, no! I went around the world for these!")
+}
+
+text SSAnne_1F_Room2_Text_AnnPostBattle {
+    format("You hurt my poor POKéMON!\p I demand that you heal them at a POKéMON CENTER!")
+}
+
+text SSAnne_1F_Room2_Text_CruisingAroundWorld {
+    format("We are cruising around the world, my children and I.")
+}
+

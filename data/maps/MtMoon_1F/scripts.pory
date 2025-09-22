@@ -3,3 +3,95 @@ mapscripts MtMoon_1F_MapScripts {
 }
 
 
+text MtMoon_1F_Text_MarcosIntro {
+    format("WHOA! You shocked me!\l …Oh, you're just a kid!")
+}
+
+text MtMoon_1F_Text_MarcosDefeat {
+    format("Wow! Shocked again!")
+}
+
+text MtMoon_1F_Text_MarcosPostBattle {
+    format("Kids like you shouldn't be wandering around here in the dark.")
+}
+
+text MtMoon_1F_Text_JoshIntro {
+    format("Did you come to explore the cave, too?")
+}
+
+text MtMoon_1F_Text_JoshDefeat {
+    format("Losing stinks! It's so uncool.")
+}
+
+text MtMoon_1F_Text_JoshPostBattle {
+    format("I came all the way down here to show off to girls.")
+}
+
+text MtMoon_1F_Text_MiriamIntro {
+    format("Wow! It's way bigger in here than I thought!")
+}
+
+text MtMoon_1F_Text_MiriamDefeat {
+    format("Oh! I lost it!")
+}
+
+text MtMoon_1F_Text_MiriamPostBattle {
+    format("How do you get out of here? It's so big, I may get lost.")
+}
+
+text MtMoon_1F_Text_JovanIntro {
+    format("What! Don't sneak up on me!")
+}
+
+text MtMoon_1F_Text_JovanDefeat {
+    format("My POKéMON won't do!")
+}
+
+text MtMoon_1F_Text_JovanPostBattle {
+    format("I have to find stronger POKéMON. Where might they be?")
+}
+
+text MtMoon_1F_Text_IrisIntro {
+    format("What? I'm waiting for my friends to find\l me here.")
+}
+
+text MtMoon_1F_Text_IrisDefeat {
+    format("I lost?")
+}
+
+text MtMoon_1F_Text_IrisPostBattle {
+    format("I came because I heard there are some very rare fossils here.")
+}
+
+text MtMoon_1F_Text_KentIntro {
+    format("Suspicious men are in the cave. What about you?")
+}
+
+text MtMoon_1F_Text_KentDefeat {
+    format("You got me!")
+}
+
+text MtMoon_1F_Text_KentPostBattle {
+    format("I saw them! I'm sure they're from TEAM ROCKET!")
+}
+
+text MtMoon_1F_Text_RobbyIntro {
+    format("You need to go through this cave to get to CERULEAN CITY.")
+}
+
+text MtMoon_1F_Text_RobbyDefeat {
+    format("I lost.")
+}
+
+text MtMoon_1F_Text_RobbyPostBattle {
+    format("ZUBAT is tough! But if you can catch one, you'll\l be able to count on it.")
+}
+
+text MtMoon_1F_Text_ZubatIsABloodsucker {
+    format("Beware! ZUBAT is a bloodsucker!")
+}
+
+text MtMoon_1F_Text_BrockHelpsExcavateFossils {
+    format("Hi, I'm excavating for fossils here under MT. MOON.\p Sometimes, BROCK of PEWTER GYM lends me a hand.")
+}
+

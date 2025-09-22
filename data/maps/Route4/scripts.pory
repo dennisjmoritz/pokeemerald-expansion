@@ -2,3 +2,63 @@ mapscripts Route4_MapScripts {
 }
 
 
+text Route4_Text_TrippedOverGeodude {
+    format("Ouch! I tripped over a rocky POKéMON, GEODUDE!")
+}
+
+text Route4_Text_CrissyIntro {
+    format("I came to MT. MOON in search of mushroom POKéMON.")
+}
+
+text Route4_Text_CrissyDefeat {
+    format("After all I did to catch them!")
+}
+
+text Route4_Text_CrissyPostBattle {
+    format("There might not be any more mushrooms here.\p I think I got them all.")
+}
+
+text Route4_Text_MtMoonEntrance {
+    format("MT. MOON Tunnel Entrance")
+}
+
+text Route4_Text_RouteSign {
+    format("ROUTE 4 MT. MOON - CERULEAN CITY")
+}
+
+text Text_MegaPunchTeach {
+    format("A punch of roaring ferocity!\p Packed with destructive power!\p When the chips are down, MEGA PUNCH is the ultimate attack!\l You agree, yes?\p Now! Let me teach it to your POKéMON!")
+}
+
+text Text_MegaPunchDeclined {
+    format("You'll be back when you understand the worth of MEGA PUNCH.")
+}
+
+text Text_MegaPunchWhichMon {
+    format("Fine! Which POKéMON will learn it?")
+}
+
+text Text_MegaPunchTaught {
+    format("Now, we are comrades in the way of punching!\p You should go before you're seen by the misguided fool who trains\l only his silly kicking over there.")
+}
+
+text Text_MegaKickTeach {
+    format("A kick of brutal ferocity!\p Packed with destructive power!\p When you get right down to it, MEGA KICK is the ultimate attack!\l Don't you agree?\p Okay! I'll teach it to your POKéMON!")
+}
+
+text Text_MegaKickDeclined {
+    format("You'll come crawling back when you realize the value of MEGA KICK.")
+}
+
+text Text_MegaKickWhichMon {
+    format("All right! Which POKéMON wants to learn it?")
+}
+
+text Text_MegaKickTaught {
+    format("Now, we are soul mates in the way of kicking!\p You should run before you're seen by the deluded nitwit who trains\l only simple punching over there.")
+}
+
+text Route4_Text_PeopleLikeAndRespectBrock {
+    format("Oh, wow, that's the BOULDERBADGE! You got it from BROCK, didn't you?\p BROCK is cool. He's not just tough. People like and respect him.\p I want to become a GYM LEADER like him.")
+}
+

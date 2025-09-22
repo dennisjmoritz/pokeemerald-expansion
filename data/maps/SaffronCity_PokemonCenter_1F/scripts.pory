@@ -4,3 +4,19 @@ mapscripts SaffronCity_PokemonCenter_1F_MapScripts {
 }
 
 
+text SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies {
+    format("POKéMON growth rates differ from species to species.")
+}
+
+text SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame {
+    format("SILPH CO. is widely known to all.\p It's a victim of its own fame - it attracted TEAM ROCKET.")
+}
+
+text SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets {
+    format("Sigh… Wouldn't this be great?\p If the ELITE FOUR came and stomped TEAM ROCKET?")
+}
+
+text SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff {
+    format("TEAM ROCKET took off! We can go out safely again!\l That's great!")
+}
+

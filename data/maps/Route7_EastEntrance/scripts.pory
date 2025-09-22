@@ -2,3 +2,19 @@ mapscripts Route7_EastEntrance_MapScripts {
 }
 
 
+text Route7_EastEntrance_Text_ThirstyOnGuardDuty {
+    format("I'm on guard duty. Gee, I'm thirsty, though!\p Oh, wait there, the road's closed.")
+}
+
+text Route7_EastEntrance_Text_ThatTeaLooksTasty {
+    format("Oh, that TEA… It looks awfully tasty…")
+}
+
+text Route7_EastEntrance_Text_ThanksIllShareTeaWithGuards {
+    format("Huh? I can have this drink? Gee, thanks!\l … …\l Glug, glug…\l … …\l Gulp…\l If you want to go to SAFFRON\l CITY…\l … …\l You can go on through.\p I'll share this TEA with the other guards!")
+}
+
+text Route7_EastEntrance_Text_HiHowsItGoing {
+    format("Hi, how's it going?")
+}
+

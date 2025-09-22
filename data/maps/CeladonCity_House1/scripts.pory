@@ -2,3 +2,19 @@ mapscripts CeladonCity_House1_MapScripts {
 }
 
 
+text CeladonCity_House1_Text_SlotsReelInTheDough {
+    format("Hehehe!\p The slots just reel in the dough, big-time!")
+}
+
+text CeladonCity_House1_Text_ShippedMonsAsSlotPrizes {
+    format("CHIEF!\p We just shipped two thousand more POKéMON as slot prizes\l again today!")
+}
+
+text CeladonCity_House1_Text_DontTouchGameCornerPoster {
+    format("Don't touch the poster at the GAME CORNER!\p There's no secret switch behind it!")
+}
+
+text Text_ItsABuddhistAltar {
+    format("ぶつだん　だ‥")
+}
+

@@ -2,3 +2,7 @@ mapscripts Route7_MapScripts {
 }
 
 
+text Route7_Text_UndergroundPathSign {
+    format("UNDERGROUND PATH CELADON CITY - LAVENDER TOWN")
+}
+

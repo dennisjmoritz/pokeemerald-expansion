@@ -6,3 +6,239 @@ mapscripts OneIsland_PokemonCenter_1F_MapScripts {
 }
 
 
+text OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio {
+    format("BILL: Hey, there! CELIO!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut {
+    format("CELIO: BILL! I can't believe you came out here.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing {
+    format("BILL: Well, absolutely! How's your research coming along?\p …Oh, wait a sec.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio {
+    format("{PLAYER}, this is my buddy CELIO. He's one dedicated PC MANIAC!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp {
+    format("CELIO, this is {PLAYER}, a rising contender as the POKéMON CHAMP!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_PlayerIsReigningPokemonChamp {
+    format("CELIO, this is {PLAYER}, the reigning POKéMON CHAMP!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive {
+    format("CELIO: That's really impressive.\p I hate to say it, but I have zero aptitude for battling.\p Anyways, I'm glad to meet you.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_BillBringMeUpToSpeed {
+    format("BILL: So, bring me up to speed. How's your machine running?")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours {
+    format("CELIO: It's running fine, but we're too remote out here.\p The PCs on this island just can't link with your PC, BILL.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou {
+    format("BILL: Oh, yeah? Okay, let me take a look-see.\p …Hang on here… I think we can make it work.\l Let me help you, okay?")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer {
+    format("{PLAYER}, can I get you to wait for me just a bit?\p …Actually, can I get you to do me a favor?\p The island next to this one's called TWO ISLAND.\p There's a guy there that runs a GAME CORNER.\p He has this thing for rare rocks and gems.\p We keep in touch, being fellow maniacs.\p So, can I get you to deliver this METEORITE to him?")
+}
+
+text OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill {
+    format("{PLAYER} accepted the METEORITE from BILL.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis {
+    format("CELIO: {PLAYER}, if you are going to TWO ISLAND, please take this.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands {
+    format("It's a PASS for the ferry service serving the local islands.\p It will let you travel between the ISLANDS ONE, TWO, and THREE.\p Oh, you should have this, too.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap {
+    format("{PLAYER} received an extra page for the TOWN MAP!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_ReceivedTownMap {
+    format("{PLAYER} received a TOWN MAP!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_BillCatchYouLater {
+    format("BILL: I'll catch you later! Say hi to the guy for me!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_HmmHowAboutLikeThis {
+    format("Hmm…\p How about we try this like this…")
+}
+
+text OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore {
+    format("Oh, hey, {PLAYER}!\p Did you see? We got the PC working!\p I've got a few things to show CELIO here.\p Can you go out on a stroll or something for a while more?")
+}
+
+text OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost {
+    format("I'm sorry for taking up so much of BILL's time.\p I'm also sorry for being such a poor host on your visit here.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_UsualPCServicesUnavailable {
+    format("The usual PC services aren't available…")
+}
+
+text OneIsland_PokemonCenter_1F_Text_BillOhHeyPlayer {
+    format("BILL: Oh, hey! {PLAYER}!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_BillWeGotItDone {
+    format("BILL: What kept you so long? Been out having a good time?\p We got it done. The PCs are up and running!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CelioJobWentQuick {
+    format("CELIO: The job went incredibly quick.\p BILL is one amazing guy…")
+}
+
+text OneIsland_PokemonCenter_1F_Text_BillYouveLearnedALot {
+    format("BILL: No, no! There was almost nothing left for me to do.\p CELIO, I have to hand it to you. You've learned a lot.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CelioOhReallyEhehe {
+    format("CELIO: Oh, really? Ehehe…")
+}
+
+text OneIsland_PokemonCenter_1F_Text_BillWeShouldHeadBackToKanto {
+    format("BILL: Well, there you have it. I'm finished with the job.\l We should head back to KANTO.\p CELIO, I'll be seeing you again.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CelioPromiseIllShowYouAroundSometime {
+    format("CELIO: {PLAYER}, I'm really sorry that we sent you off alone today.\p I promise, I will show you around these islands sometime.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CelioImModifyingMyNetworkMachine {
+    format("CELIO: Hello! You look awfully busy as always.\p How am I doing?\p Well, I'm modifying my Network Machine.\p When I get done with the machine, I hope you'll be first to use it,\l {PLAYER}.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful {
+    format("CELIO: {PLAYER}, how have things been for you?\p Oh, is that right? You've caught more POKéMON.\p Do you know what? Maybe I can be useful to you.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway {
+    format("I'm modifying the Network Machine right now.\p I'm changing it so it can handle trades over long distances.\p When I get finished, you'll be trading for exotic POKéMON from\l TRAINERS far away.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone {
+    format("But, there is a slight catch.\p For the link to work, the Machine needs a special gemstone.\p It's supposed to be on ONE ISLAND, but I haven't found one yet.\p Who knows where it could be.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_TryingToFindGem {
+    format("I was trying to find the gem even while I was studying.\p As a result, I've made no headway in both my search and studies…\p If I relied on BILL, I'm sure my research would progress.\p But this time, I want to try to do things by myself.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_OhThats {
+    format("Oh! Th-that's…")
+}
+
+text OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio {
+    format("{PLAYER} handed the RUBY to CELIO.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor {
+    format("Thank you! {PLAYER}, you're simply amazing.\p … … …  … … …\p Um… May I ask one more giant favor of you?")
+}
+
+text OneIsland_PokemonCenter_1F_Text_PleaseINeedYourHelp {
+    format("It… It's not anything weird. Please, I need your help.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands {
+    format("While I was studying gemstones, I discovered something important.\p There is another gem that forms a pair with this RUBY.\p That other gemstone is supposed to be in the SEVII ISLANDS.\p {PLAYER}, please, I need you to go find the other gem.\p {PLAYER}, may I have your ferry PASS and the TOWN MAP?")
+}
+
+text OneIsland_PokemonCenter_1F_Text_ReturnedTriPassForRainbowPass {
+    format("{PLAYER} returned the TRI-PASS and received the RAINBOW PASS.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_ObtainedExtraMapPage {
+    format("Obtained an extra page for the TOWN MAP!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands {
+    format("This is my own ferry PASS.\p It will let you get to all the SEVII ISLANDS.\p {PLAYER}, please, I can't do it without your help.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_HandedSapphireToCelio {
+    format("{PLAYER} handed the SAPPHIRE to CELIO.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime {
+    format("CELIO: So this is the gem that forms a pair with the RUBY…\p {PLAYER}, you've gone through a lot to get this, didn't you?\p You don't have to tell me. I know it wasn't easy.\p Thank you so much!\p Now it's my turn to work for you! Please give me a little time.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_OkayThisIsGood {
+    format("Okay, this is good…")
+}
+
+text OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette {
+    format("I did it! I linked up with LANETTE!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou {
+    format("{PLAYER}… {PLAYER}, I did it!\p I've managed to link up with TRAINERS in the HOENN region!\p Finally, the Network Machine is fully operational!\p {PLAYER}, I owe it all to you!\p Thanks to you, my dream came true…")
+}
+
+text OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck {
+    format("I… I'm not crying.\p That's enough about me!\p {PLAYER}, you're going to keep looking for exotic POKéMON, right?\p I wish you the best of luck!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou {
+    format("CELIO: Hello!\p {PLAYER}, I've been hearing rumors about you.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra {
+    format("{PLAYER}, what's your favorite kind of POKéMON?\p BILL is a POKéMANIAC, so he loves every kind.\p Apparently, the first one he caught was an ABRA.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod {
+    format("By the way, {PLAYER}, you're from PALLET TOWN, aren't you?\p I've heard that it's a quiet and pleasant place.\p BILL's hometown is GOLDENROD CITY, where his folks still live.\p I've heard that it's quite the festive, bustling city.\p I'd like to go there one day.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk {
+    format("{PLAYER}, is there anything that you can't stand?\p Apparently, BILL simply can't stomach milk at all.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_CameFromPalletDontKnowIt {
+    format("Oh, you're a stranger here! Hi! Where did you come from?\p …PALLET TOWN? I don't know it!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland {
+    format("On this island, there's an enormous volcano.\p It hasn't erupted lately, so why not enjoy a hike?")
+}
+
+text OneIsland_PokemonCenter_1F_Text_WishICouldTradeWithBoyfriend {
+    format("I wish I could trade POKéMON with my boyfriend who lives far away…")
+}
+
+text OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend {
+    format("I traded POKéMON with my boyfriend far away!\p Everyone's saying that we can thank you and CELIO.\p So, thank you!")
+}
+
+text OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment {
+    format("Network Machine Link Level 0\p …POKéMON Storage System under adjustment…")
+}
+
+text OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKanto {
+    format("Network Machine Link Level 1\p Link established with the KANTO region.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn {
+    format("Network Machine Link Level 2\p Link established with the KANTO and HOENN regions.")
+}
+
+text OneIsland_PokemonCenter_1F_Text_ObtainedTriPass {
+    format("Obtained the TRI-PASS!")
+}
+

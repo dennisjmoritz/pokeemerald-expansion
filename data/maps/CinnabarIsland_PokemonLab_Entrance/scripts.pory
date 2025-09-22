@@ -3,3 +3,27 @@ mapscripts CinnabarIsland_PokemonLab_Entrance_MapScripts {
 }
 
 
+text CinnabarIsland_Gym_Text_PhotoOfBlaineAndFuji {
+    format("It's a photo of BLAINE and MR. FUJI.\p They're standing shoulder to shoulder with big grins.")
+}
+
+text CinnabarIsland_PokemonLab_Entrance_Text_StudyMonsExtensively {
+    format("We study POKéMON extensively every day.\p People often bring us rare POKéMON for examination.")
+}
+
+text CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji {
+    format("A photo of the LAB's founder… DR. FUJI?!")
+}
+
+text CinnabarIsland_PokemonLab_Entrance_Text_MeetingRoomSign {
+    format("POKéMON LAB Meeting Room")
+}
+
+text CinnabarIsland_PokemonLab_Entrance_Text_RAndDRoomSign {
+    format("POKéMON LAB R & D Room")
+}
+
+text CinnabarIsland_PokemonLab_Entrance_Text_TestingRoomSign {
+    format("POKéMON LAB Testing Room")
+}
+

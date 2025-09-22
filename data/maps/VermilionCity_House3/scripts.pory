@@ -2,3 +2,19 @@ mapscripts VermilionCity_House3_MapScripts {
 }
 
 
+text VermilionCity_House3_Text_PidgeyFlyLetterToSaffron {
+    format("I'm getting my PIDGEY to fly a letter to SAFFRON in the north.")
+}
+
+text VermilionCity_House3_Text_Pidgey {
+    format("PIDGEY: Kurukkoo!")
+}
+
+text VermilionCity_House3_Text_DearPippiLetter {
+    format("Dear PIPPI, I hope to see you soon.\p I heard SAFFRON has problems with TEAM ROCKET.\p VERMILION appears to be safe.")
+}
+
+text VermilionCity_House3_Text_SendMyPidgeyToUnionRoom {
+    format("I want to exchange MAIL with all sorts of people.\p I send my PIDGEY to a UNION ROOM to exchange MAIL for me.")
+}
+

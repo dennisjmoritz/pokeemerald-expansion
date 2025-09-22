@@ -4,3 +4,27 @@ mapscripts PokemonMansion_1F_MapScripts {
 }
 
 
+text PokemonMansion_1F_Text_TedIntro {
+    format("Who are you? There shouldn't be anyone here.")
+}
+
+text PokemonMansion_1F_Text_TedDefeat {
+    format("Ouch!")
+}
+
+text PokemonMansion_1F_Text_TedPostBattle {
+    format("A key? I don't know what you're talking about.")
+}
+
+text PokemonMansion_1F_Text_JohnsonIntro {
+    format("W-w-waah! You startled me! I thought you were a ghost.")
+}
+
+text PokemonMansion_1F_Text_JohnsonDefeat {
+    format("Tch! I can't get any wins.")
+}
+
+text PokemonMansion_1F_Text_JohnsonPostBattle {
+    format("I was exploring here by myself, but I feel spooked.\p I ought to go soon.")
+}
+

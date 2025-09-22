@@ -2,3 +2,23 @@ mapscripts FourIsland_House1_MapScripts {
 }
 
 
+text JPText_BodySlamTeach {
+    format("そーれ　ぼよーん！ どっちが　さきに　へたばるか？\l のしかかり　しょうぶ　してるんだ\p きみは　なかまに　はいったら つぶれそうだな‥\l かわりに　きみの　ポケモンに\l のしかかり　おしえて　やろっか？")
+}
+
+text JPText_BodySlamDeclined {
+    format("また　おいで　ぼよーん！")
+}
+
+text JPText_BodySlamWhichMon {
+    format("どの　ポケモンに おしえたい　かい？")
+}
+
+text JPText_BodySlamTaught {
+    format("ぼよよーん！")
+}
+
+text FourIsland_House1_Text_YoureAwfullyHeavy {
+    format("There! Boing! You're awfully heavy!")
+}
+

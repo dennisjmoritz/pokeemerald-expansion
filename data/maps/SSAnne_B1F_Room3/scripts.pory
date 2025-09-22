@@ -2,3 +2,15 @@ mapscripts SSAnne_B1F_Room3_MapScripts {
 }
 
 
+text SSAnne_B1F_Room3_Text_DylanIntro {
+    format("I like feisty kids like you!")
+}
+
+text SSAnne_B1F_Room3_Text_DylanDefeat {
+    format("Argh! Lost it!")
+}
+
+text SSAnne_B1F_Room3_Text_DylanPostBattle {
+    format("Sea POKéMON live in deep water. You'll need a ROD to fish them up!")
+}
+

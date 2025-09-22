@@ -3,3 +3,135 @@ mapscripts ThreeIsland_MapScripts {
 }
 
 
+text ThreeIsland_Text_IslandSign {
+    format("THREE ISLAND Kin Island of Family Bonding")
+}
+
+text ThreeIsland_Text_IslandBelongsToUs {
+    format("Hyahoo!\p From this day on, this island belongs to us!")
+}
+
+text ThreeIsland_Text_GoBackToKanto {
+    format("We don't need you people bringing your noise and trouble here!\p We're asking you to go back to KANTO!")
+}
+
+text ThreeIsland_Text_BossIsOnHisWay {
+    format("Hey, go cry somewhere else. Our boss is on his way.\p When he gets here, we'll give you a k-rad motorbike show you won't\l soon forget!")
+}
+
+text ThreeIsland_Text_GetOffIslandNow {
+    format("W-what!? Not on your life! Get off the island now!")
+}
+
+text ThreeIsland_Text_WhosGonnaMakeMe {
+    format("Who's gonna make me?")
+}
+
+text ThreeIsland_Text_AreYouBossGoBackToKanto {
+    format("Are you the boss? Go back to KANTO right now!")
+}
+
+text ThreeIsland_Text_JustGotHerePal {
+    format("Hah?\p I just got here, pal.\p What's with the hostile attitude? It's mighty cold of you!")
+}
+
+text ThreeIsland_Text_FollowersRaisingHavoc {
+    format("Your gang of followers have been raising havoc on their bikes.\p Do you have any idea how much trouble they've caused us on the\l island?")
+}
+
+text ThreeIsland_Text_OughtToBeThankingUs {
+    format("No, man, I don't get it at all.\p Look at this place. What do you do for entertainment?\p You ought to be thanking us for livening up this sleepy village.\p But hey, if you insist, you can try making us leave.")
+}
+
+text ThreeIsland_Text_YouCowardsToughInPack {
+    format("Grr… You cowards… So tough in a pack…")
+}
+
+text ThreeIsland_Text_WannaMakeSomethingOfYourStaring {
+    format("You, what are you staring at? Don't you know it's not polite?\p You wanna make something of it or what?")
+}
+
+text ThreeIsland_Text_ThatsSmart {
+    format("That's smart. Keep your nose out of this.")
+}
+
+text ThreeIsland_Text_Biker1Intro {
+    format("Heh, I like your guts. You'll be losing money to me, but…")
+}
+
+text ThreeIsland_Text_Biker1Defeat {
+    format("Wha… What is this kid?!")
+}
+
+text ThreeIsland_Text_Biker1PostBattle {
+    format("Aww, man… Don't you dare laugh!")
+}
+
+text ThreeIsland_Text_Biker2Intro {
+    format("Aren't you from KANTO? You should be on our side!")
+}
+
+text ThreeIsland_Text_Biker2Defeat {
+    format("Stop fooling around!")
+}
+
+text ThreeIsland_Text_Biker2PostBattle {
+    format("What's the matter with you, getting all hot like that?\p Totally uncool, man!")
+}
+
+text ThreeIsland_Text_Biker3Intro {
+    format("We invited the boss out here, but you had to mess it up!\p You embarrassed us, man!")
+}
+
+text ThreeIsland_Text_Biker3Defeat {
+    format("… … …   … … …")
+}
+
+text ThreeIsland_Text_Biker3PostBattle {
+    format("Boss, I'm telling you, you've gotta do something about this kid!")
+}
+
+text ThreeIsland_Text_PaxtonIntro {
+    format("I've been watching you, and I'd say you've done enough.\p What are you, their friend or something?\p Then I guess you'll be battling me in their place.")
+}
+
+text ThreeIsland_Text_PaxtonDefeat {
+    format("All right, enough! We'll leave like you wanted!\p We'll be happy to see the last of this boring island!")
+}
+
+text ThreeIsland_Text_PaxtonPostBattle {
+    format("Humph! Yeah, go right on hanging around with these hayseeds!")
+}
+
+text ThreeIsland_Text_ThankYouOhYourMonGotHurt {
+    format("Thank you! Those goons were nothing but bad trouble.\p Oh, look, your POKéMON got hurt on my account.")
+}
+
+text ThreeIsland_Text_GivenFullRestore {
+    format("{PLAYER} was given a FULL RESTORE.")
+}
+
+text ThreeIsland_Text_OhYourBagIsFull {
+    format("Oh? Your BAG is full.")
+}
+
+text ThreeIsland_Text_YouveGotImpressiveMons {
+    format("You've got seriously impressive POKéMON with you.")
+}
+
+text ThreeIsland_Text_LostelleWentOffTowardsBondBridge {
+    format("It'd be fantastic if someone as strong as you lived here.\p I hope you'll at least stay here a while.\p …I beg your pardon? You're looking for LOSTELLE?\p LOSTELLE went off towards BOND BRIDGE a while ago.")
+}
+
+text ThreeIsland_Text_WouldntWantToSeeBikersHereAgain {
+    format("THREE ISLAND is actually the most populous of the islands here.\p Still, it could be less sleepy.\p But I wouldn't want to see goons like those BIKERS here again.")
+}
+
+text ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame {
+    format("I'm going to train my DODUO in the BERRY FOREST.\p When it evolves, I'm going to play a game on TWO ISLAND.")
+}
+
+text ThreeIsland_Text_Doduo {
+    format("DODUO: Gigiih!")
+}
+

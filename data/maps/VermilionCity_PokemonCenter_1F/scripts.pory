@@ -4,3 +4,27 @@ mapscripts VermilionCity_PokemonCenter_1F_MapScripts {
 }
 
 
+text VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild {
+    format("Even if they are the same level, POKéMON can have very different\l stats and abilities.\p A POKéMON raised by a TRAINER is stronger than one in the wild.")
+}
+
+text VermilionCity_PokemonCenter_1F_Text_PoisonedMonFaintedWhileWalking {
+    format("My POKéMON was poisoned! It fainted while we were walking!")
+}
+
+text VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes {
+    format("It is true that a higher-level POKéMON will be more powerful…\p But, all POKéMON will have weak points against specific types.\p So, there appears to be no universally strong POKéMON.")
+}
+
+text VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain {
+    format("The urge to battle with someone you've tangled with before…\p Have you ever had that urge? I'm sure you have.\p I wanted to battle certain people again over and over, too.\p So, I've been giving these away. Please, take one!")
+}
+
+text VermilionCity_PokemonCenter_1F_Text_UseDeviceForRematches {
+    format("Use that device and you'll find TRAINERS looking for a rematch.\p You have to charge its battery to use it, though.")
+}
+
+text VermilionCity_PokemonCenter_1F_Text_ExplainVSSeeker {
+    format("How do you use the VS SEEKER? There's nothing to it.\p Use it like beep-beep-beep, and TRAINERS around you will notice.\p If any TRAINER wants a rematch, it will let you know immediately.\p Charge its battery and use it while you're on a road.")
+}
+

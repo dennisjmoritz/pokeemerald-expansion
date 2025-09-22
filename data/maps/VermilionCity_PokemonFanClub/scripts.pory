@@ -2,3 +2,71 @@ mapscripts VermilionCity_PokemonFanClub_MapScripts {
 }
 
 
+text VermilionCity_PokemonFanClub_Text_AdmirePikachusTail {
+    format("Won't you admire my PIKACHU's adorable tail?")
+}
+
+text VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute {
+    format("Humph!\p My PIKACHU is twice as cute as that one!")
+}
+
+text VermilionCity_PokemonFanClub_Text_AdoreMySeel {
+    format("I just adore my SEEL! It's so lovable!\p It squeals, “Kyuuuh,” when I hug it!")
+}
+
+text VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive {
+    format("Oh, dear!\p My SEEL is far more attractive. By double, I would say.")
+}
+
+text VermilionCity_PokemonFanClub_Text_Pikachu {
+    format("PIKACHU: Chu! Pikachu!")
+}
+
+text VermilionCity_PokemonFanClub_Text_Seel {
+    format("SEEL: Kyuoo!")
+}
+
+text VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons {
+    format("I chair the POKéMON Fan Club!\p I raise more than a hundred POKéMON!\p I'm very fussy when it comes to POKéMON! I surely am!\p So…\p Did you come visit to hear about my POKéMON?")
+}
+
+text VermilionCity_PokemonFanClub_Text_ChairmansStory {
+    format("Good! Then listen up!\p My favorite RAPIDASH…\p It's…cute…lovely…smart… plus…amazing…you think so?…\l oh yes…it's…stunning…\l kindly…love it!\p Hug it…when…sleeping…warm and cuddly…spectacular…\l ravishing…\l …Oops! Look at the time!\l I kept you too long!\p Thanks for hearing me out! I want you to have this!")
+}
+
+text VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman {
+    format("{PLAYER} received a BIKE VOUCHER from the CHAIRMAN.")
+}
+
+text VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher {
+    format("Take that BIKE VOUCHER to the BIKE SHOP in CERULEAN CITY.\p Exchange that for a BICYCLE free of charge!\p Don't worry, my favorite FEAROW will FLY me anywhere I need to go.\p So, I have no need for a BICYCLE.\p I hope you like cycling!")
+}
+
+text VermilionCity_PokemonFanClub_Text_ComeBackToHearStory {
+    format("Oh. Come back when you want to hear my story!")
+}
+
+text VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain {
+    format("Hello, {PLAYER}!\p Did you come see me about my POKéMON again?\p No? Too bad!")
+}
+
+text VermilionCity_PokemonFanClub_Text_MakeRoomForThis {
+    format("Make room for this!")
+}
+
+text VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon {
+    format("Our CHAIRMAN is very vocal about POKéMON.")
+}
+
+text VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers {
+    format("Let's all listen politely to other TRAINERS!")
+}
+
+text VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack {
+    format("If someone brags, brag right back!")
+}
+
+text VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons {
+    format("Our CHAIRMAN really does adore his POKéMON.\p But the person who is most liked by POKéMON is DAISY, I think.")
+}
+

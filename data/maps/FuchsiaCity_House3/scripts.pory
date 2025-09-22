@@ -2,3 +2,35 @@ mapscripts FuchsiaCity_House3_MapScripts {
 }
 
 
+text FuchsiaCity_House3_Text_WouldYouLikeToForgetMove {
+    format("Uh… Oh, yes, I'm the MOVE DELETER.\p I can make POKéMON forget their moves.\p Would you like me to do that?")
+}
+
+text FuchsiaCity_House3_Text_WhichMonShouldForgetMove {
+    format("Which POKéMON should forget a move?")
+}
+
+text FuchsiaCity_House3_Text_WhichMoveShouldBeForgotten {
+    format("Which move should be forgotten?")
+}
+
+text FuchsiaCity_House3_Text_MonOnlyKnowsOneMove {
+    format("{STR_VAR_1} seems to know only one move…")
+}
+
+text FuchsiaCity_House3_Text_MonsMoveShouldBeForgotten {
+    format("Hm! {STR_VAR_1}'s {STR_VAR_2}? That move should be forgotten?")
+}
+
+text FuchsiaCity_House3_Text_MonHasForgottenMoveCompletely {
+    format("It worked to perfection!\p {STR_VAR_1} has forgotten {STR_VAR_2} completely.")
+}
+
+text FuchsiaCity_House3_Text_ComeAgainToForgetOtherMoves {
+    format("Come again if there are other moves to be forgotten.")
+}
+
+text FuchsiaCity_House3_Text_NoEggShouldKnowMoves {
+    format("What? No EGG should know any moves.")
+}
+

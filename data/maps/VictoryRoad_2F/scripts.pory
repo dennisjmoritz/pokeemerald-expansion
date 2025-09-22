@@ -3,3 +3,67 @@ mapscripts VictoryRoad_2F_MapScripts {
 }
 
 
+text VictoryRoad_2F_Text_DawsonIntro {
+    format("If you can get through here, you can go meet the ELITE FOUR.")
+}
+
+text VictoryRoad_2F_Text_DawsonDefeat {
+    format("No! Unbelievable!")
+}
+
+text VictoryRoad_2F_Text_DawsonPostBattle {
+    format("I can beat you when it comes to knowledge about POKéMON!")
+}
+
+text VictoryRoad_2F_Text_DaisukeIntro {
+    format("This here is VICTORY ROAD. It's the final test for TRAINERS!")
+}
+
+text VictoryRoad_2F_Text_DaisukeDefeat {
+    format("Atcho!")
+}
+
+text VictoryRoad_2F_Text_DaisukePostBattle {
+    format("If you get stuck, try moving some boulders around.")
+}
+
+text VictoryRoad_2F_Text_NelsonIntro {
+    format("Ah, so you wish to challenge the ELITE FOUR?")
+}
+
+text VictoryRoad_2F_Text_NelsonDefeat {
+    format("You got me!")
+}
+
+text VictoryRoad_2F_Text_NelsonPostBattle {
+    format("{RIVAL} also came through here.")
+}
+
+text VictoryRoad_2F_Text_VincentIntro {
+    format("Come on! I'll whip you!")
+}
+
+text VictoryRoad_2F_Text_VincentDefeat {
+    format("I got whipped!")
+}
+
+text VictoryRoad_2F_Text_VincentPostBattle {
+    format("You earned the right to be on VICTORY ROAD…")
+}
+
+text VictoryRoad_2F_Text_GregoryIntro {
+    format("Is VICTORY ROAD too tough?")
+}
+
+text VictoryRoad_2F_Text_GregoryDefeat {
+    format("Well done!")
+}
+
+text VictoryRoad_2F_Text_GregoryPostBattle {
+    format("Many TRAINERS give up their challenge here and go home.")
+}
+
+text VictoryRoad_2F_Text_Gyaoo {
+    format("ギヤーオ！")
+}
+

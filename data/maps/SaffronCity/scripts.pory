@@ -3,3 +3,103 @@ mapscripts SaffronCity_MapScripts {
 }
 
 
+text SaffronCity_Text_WhatDoYouWantGetLost {
+    format("What do you want? Get lost!")
+}
+
+text SaffronCity_Text_BossTakeTownForTeamRocket {
+    format("BOSS said he'll take this town in the name of TEAM ROCKET!")
+}
+
+text SaffronCity_Text_DontGetDefiantOrIllHurtYou {
+    format("Don't get defiant! Or I'll have to hurt you!")
+}
+
+text SaffronCity_Text_SaffronBelongsToTeamRocket {
+    format("SAFFRON belongs to TEAM ROCKET!")
+}
+
+text SaffronCity_Text_CriminalLifeMakesMeFeelAlive {
+    format("My life as a criminal makes me feel so alive!")
+}
+
+text SaffronCity_Text_WatchWhereYoureWalking {
+    format("Ow! Watch where you're walking!")
+}
+
+text SaffronCity_Text_WeCanExploitMonsAroundWorld {
+    format("With SILPH under control, we can exploit POKéMON around the world!\p We'll get stinking rich, yeahah!")
+}
+
+text SaffronCity_Text_YouBeatTeamRocket {
+    format("You beat TEAM ROCKET all alone? That's amazing!")
+}
+
+text SaffronCity_Text_SafeToGoOutAgain {
+    format("Yeah! TEAM ROCKET is gone! It's safe to go out again!")
+}
+
+text SaffronCity_Text_PeopleComingBackToSaffron {
+    format("People fled from here in droves when those ROCKETS came.\p They should be flocking back to SAFFRON now.")
+}
+
+text SaffronCity_Text_FlewHereOnPidgeot {
+    format("I flew here on my PIDGEOT when I read about SILPH.\p It's already over? I missed the media action…")
+}
+
+text SaffronCity_Text_Pidgeot {
+    format("PIDGEOT: Bi bibii!")
+}
+
+text SaffronCity_Text_SawRocketBossEscaping {
+    format("I saw the ROCKET BOSS escaping SILPH's building.")
+}
+
+text SaffronCity_Text_ImASecurityGuard {
+    format("I'm a security guard.\p Suspicious kids I don't allow in!")
+}
+
+text SaffronCity_Text_HesTakingASnooze {
+    format("… Snore…\p Hah! He's taking a snooze!")
+}
+
+text SaffronCity_Text_CitySign {
+    format("SAFFRON CITY Shining, Golden Land of Commerce")
+}
+
+text SaffronCity_Text_FightingDojo {
+    format("FIGHTING DOJO")
+}
+
+text SaffronCity_Text_GymSign {
+    format("SAFFRON CITY POKéMON GYM LEADER: SABRINA\l The Master of PSYCHIC POKéMON!")
+}
+
+text SaffronCity_Text_FullHealCuresStatus {
+    format("TRAINER TIPS\p FULL HEAL cures all ailments like burns, paralysis, poisoning,\l freezing, and sleep.\p It costs a bit more, but it's more convenient than buying other items.")
+}
+
+text SaffronCity_Text_GreatBallImprovedCatchRate {
+    format("TRAINER TIPS\p The new GREAT BALL offers improved catching rates.\p Try it on those hard-to-catch POKéMON.")
+}
+
+text SaffronCity_Text_SilphCoSign {
+    format("SILPH CO. OFFICE BUILDING")
+}
+
+text SaffronCity_Text_MrPsychicsHouse {
+    format("MR. PSYCHIC'S HOUSE")
+}
+
+text SaffronCity_Text_SilphsLatestProduct {
+    format("SILPH's latest product! Release to be determined…")
+}
+
+text SaffronCity_Text_TrainerFanClubSign {
+    format("POKéMON TRAINER FAN CLUB\p Many TRAINERS have scribbled their names on this sign.")
+}
+
+text SaffronCity_Text_HowCanClubNotRecognizeLance {
+    format("This FAN CLUB… No one here has a clue!\p How could they not recognize the brilliance that is LANCE?\p He stands for justice! He's cool, and yet passionate!\l He's the greatest, LANCE!")
+}
+

@@ -2,3 +2,19 @@ mapscripts CeladonCity_Hotel_MapScripts {
 }
 
 
+text CeladonCity_Hotel_Text_ThisHotelIsForPeople {
+    format("POKéMON? No, this is a hotel for people.\p We're full up, unfortunately.")
+}
+
+text CeladonCity_Hotel_Text_OnVacationWithBrotherAndBoyfriend {
+    format("I'm on vacation with my brother and boyfriend.\p CELADON is such a pretty city!")
+}
+
+text CeladonCity_Hotel_Text_WhyDidSheBringBrother {
+    format("Why? Why did she bring her brother?")
+}
+
+text CeladonCity_Hotel_Text_SisBroughtMeOnVacation {
+    format("Yippee! I'm on vacation! My sis brought me along! Awesome!")
+}
+

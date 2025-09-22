@@ -2,3 +2,99 @@ mapscripts SaffronCity_Dojo_MapScripts {
 }
 
 
+text SaffronCity_Dojo_Text_MasterKoichiIntro {
+    format("Grunt!\p I am the KARATE MASTER! I am the LEADER here!\p You wish to challenge us? Expect no mercy!\p Fwaaa!")
+}
+
+text SaffronCity_Dojo_Text_MasterKoichiDefeat {
+    format("Hwa! Arrgh! Beaten!")
+}
+
+text SaffronCity_Dojo_Text_ChoosePrizedFightingMon {
+    format("Indeed, I have lost!\p But, I beseech you, do not take our emblem as your trophy!\p In return, I will give you a prized FIGHTING POKéMON!\p Choose whichever one you like!")
+}
+
+text SaffronCity_Dojo_Text_StayAndTrainWithUs {
+    format("Grunt! Stay and train at karate with us!")
+}
+
+text SaffronCity_Dojo_Text_MikeIntro {
+    format("Hoargh! Take your shoes off!")
+}
+
+text SaffronCity_Dojo_Text_MikeDefeat {
+    format("I give up!")
+}
+
+text SaffronCity_Dojo_Text_MikePostBattle {
+    format("You wait 'til you see our MASTER! I'm a small fry compared to him!")
+}
+
+text SaffronCity_Dojo_Text_HidekiIntro {
+    format("I hear you're good! Show me!")
+}
+
+text SaffronCity_Dojo_Text_HidekiDefeat {
+    format("Judge! One point!")
+}
+
+text SaffronCity_Dojo_Text_HidekiPostBattle {
+    format("Our MASTER is a pro fighter. Be prepared to lose!")
+}
+
+text SaffronCity_Dojo_Text_AaronIntro {
+    format("Hiyah! I have no fear for anything tough!\p I shatter boulders for training every day!")
+}
+
+text SaffronCity_Dojo_Text_AaronDefeat {
+    format("Yow! Stubbed fingers!")
+}
+
+text SaffronCity_Dojo_Text_AaronPostBattle {
+    format("The only thing that frightens us is psychic power!")
+}
+
+text SaffronCity_Dojo_Text_HitoshiIntro {
+    format("Hwaah!\p You're trespassing in our FIGHTING DOJO!")
+}
+
+text SaffronCity_Dojo_Text_HitoshiDefeat {
+    format("Oof! I give up!")
+}
+
+text SaffronCity_Dojo_Text_HitoshiPostBattle {
+    format("The prime fighters across the land train here.")
+}
+
+text SaffronCity_Dojo_Text_YouWantHitmonlee {
+    format("You want the hard-kicking HITMONLEE?")
+}
+
+text SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster {
+    format("{PLAYER} received the {STR_VAR_1} from the KARATE MASTER.")
+}
+
+text SaffronCity_Dojo_Text_YouWantHitmonchan {
+    format("You want the piston-punching HITMONCHAN?")
+}
+
+text SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster2 {
+    format("{PLAYER}は　カラテ　だいおう　から {STR_VAR_1}を　もらった！")
+}
+
+text SaffronCity_Dojo_Text_BetterNotGetGreedy {
+    format("Better not get greedy…")
+}
+
+text SaffronCity_Dojo_Text_EnemiesOnEverySide {
+    format("Enemies on every side!")
+}
+
+text SaffronCity_Dojo_Text_GoesAroundComesAround {
+    format("What goes around comes around.")
+}
+
+text SaffronCity_Dojo_Text_FightingDojo {
+    format("FIGHTING DOJO")
+}
+

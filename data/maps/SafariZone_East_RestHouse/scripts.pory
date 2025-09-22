@@ -2,3 +2,15 @@ mapscripts SafariZone_East_RestHouse_MapScripts {
 }
 
 
+text SafariZone_East_Text_HowManyDidYouCatch {
+    format("How many did you catch? I'm bushed from the effort!")
+}
+
+text SafariZone_East_Text_CaughtChanseyAllWorthwhile {
+    format("I caught a CHANSEY!\p That makes this all worthwhile.")
+}
+
+text SafariZone_East_Text_TiredFromAllTheFun {
+    format("Whew! I'm tired from all the fun!")
+}
+

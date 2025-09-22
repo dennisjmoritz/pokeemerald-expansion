@@ -3,3 +3,123 @@ mapscripts PewterCity_MapScripts {
 }
 
 
+text Text_DreamEaterTeach {
+    format("Yawn! I must have dozed off in the sun.\p I had this weird dream about a DROWZEE eating my dream.\p And… I learned how to eat dreams…\p Oogh, this is too spooky!\p Let me teach it to a POKéMON so I can forget about it!")
+}
+
+text Text_DreamEaterDeclined {
+    format("…Snore…")
+}
+
+text Text_DreamEaterWhichMon {
+    format("Which POKéMON wants to learn DREAM EATER?")
+}
+
+text Text_DreamEaterTaught {
+    format("…ZZZ… I…can't eat…anymore…")
+}
+
+text PewterCity_Text_ClefairyCameFromMoon {
+    format("CLEFAIRY came from the moon. That's what the rumor is.\p They appeared after MOON STONES fell on MT. MOON.")
+}
+
+text PewterCity_Text_BrockOnlySeriousTrainerHere {
+    format("There aren't many serious POKéMON TRAINERS here.\p They're all like BUG CATCHERS, you know, just hobbyists.\p But PEWTER GYM's BROCK isn't like that, not one bit.")
+}
+
+text PewterCity_Text_DidYouCheckOutMuseum {
+    format("Did you check out the MUSEUM?")
+}
+
+text PewterCity_Text_WerentThoseFossilsAmazing {
+    format("Weren't those fossils from MT. MOON amazing?")
+}
+
+text PewterCity_Text_ReallyYouHaveToGo {
+    format("Really? You absolutely have to go!")
+}
+
+text PewterCity_Text_ThisIsTheMuseum {
+    format("This is it, the MUSEUM.\p You have to pay to get in, but it's worth it. See you around!")
+}
+
+text PewterCity_Text_DoYouKnowWhatImDoing {
+    format("Psssst! Do you know what I'm doing?")
+}
+
+text PewterCity_Text_ThatsRightItsHardWork {
+    format("That's right! It's hard work!")
+}
+
+text PewterCity_Text_SprayingRepelToKeepWildMonsOut {
+    format("I'm spraying REPEL to keep wild POKéMON out of my garden!")
+}
+
+text PewterCity_Text_BrocksLookingForChallengersFollowMe {
+    format("You're a TRAINER, right?\p BROCK's looking for new challengers. Follow me!")
+}
+
+text PewterCity_Text_GoTakeOnBrock {
+    format("If you have the right stuff, go take on BROCK!")
+}
+
+text PewterCity_Text_TrainerTipsEarningEXP {
+    format("TRAINER TIPS\p All POKéMON that appear in battle, however briefly, earn EXP Points.")
+}
+
+text PewterCity_Text_CallPoliceIfInfoOnThieves {
+    format("NOTICE!\p Thieves have been stealing POKéMON fossils from MT. MOON.\p Please call the PEWTER POLICE if you have any information.")
+}
+
+text PewterCity_Text_MuseumOfScience {
+    format("PEWTER MUSEUM OF SCIENCE")
+}
+
+text PewterCity_Text_GymSign {
+    format("PEWTER CITY POKéMON GYM LEADER: BROCK\l The Rock-Solid POKéMON TRAINER!")
+}
+
+text PewterCity_Text_CitySign {
+    format("PEWTER CITY A Stone Gray City")
+}
+
+text PewterCity_Text_DefeatedBrockYouCanHaveTreasure {
+    format("あッれー！ その　ジムバッジ‥‥\l すげえな　タケシに　かったのかよ！\p かんどう　したから おれの　たからもの　やるよ！")
+}
+
+text PewterCity_Text_BerriesInsideUseCarefully {
+    format("なかには　きのみが　はいってるぜ\p やくに　たつ　きのみも はいって　いるから\l だいじに　つかって　くれよ！")
+}
+
+text PewterCity_Text_MonsWillUseHeldBerriesOnTheirOwn {
+    format("ポケモンに　きのみを もたせて　おけば\l たたかっている　ときに\l かってに　つかって　くれるんだ\p キズぐすり　とか　どくけし　より てがるで　べんり　だろ？")
+}
+
+text PewterCity_Text_OhPlayer {
+    format("Oh, {PLAYER}{KUN}!")
+}
+
+text PewterCity_Text_AskedToDeliverThis {
+    format("I'm glad I caught up to you. I'm PROF. OAK's AIDE.\p I've been asked to deliver this, so here you go.")
+}
+
+text PewterCity_Text_ReceivedRunningShoesFromAide {
+    format("{PLAYER} received the RUNNING SHOES from the AIDE.")
+}
+
+text PewterCity_Text_SwitchedShoesWithRunningShoes {
+    format("{PLAYER} switched shoes with the RUNNING SHOES.")
+}
+
+text PewterCity_Text_ExplainRunningShoes {
+    format("Press the B Button to run. But only where there's room to run!")
+}
+
+text PewterCity_Text_MustBeGoingBackToLab {
+    format("Well, I must be going back to the LAB.\p Bye-bye!")
+}
+
+text PewterCity_Text_RunningShoesLetterFromMom {
+    format("There's a letter attached…\p Dear {PLAYER},\p Here is a pair of RUNNING SHOES for my beloved challenger.\p Remember, I'll always cheer for you! Don't ever give up!\p From Mom")
+}
+

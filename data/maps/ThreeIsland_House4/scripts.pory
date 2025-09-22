@@ -2,3 +2,11 @@ mapscripts ThreeIsland_House4_MapScripts {
 }
 
 
+text ThreeIsland_House4_Text_GhostsInBerryForest {
+    format("You must never, ever go out to the BERRY FOREST alone.\p Why? There are ghosts there.")
+}
+
+text ThreeIsland_House4_Text_PapaKeepsLyingToMe {
+    format("Papa keeps lying to me, and won't let me go out and play!")
+}
+

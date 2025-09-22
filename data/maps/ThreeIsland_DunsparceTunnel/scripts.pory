@@ -3,3 +3,19 @@ mapscripts ThreeIsland_DunsparceTunnel_MapScripts {
 }
 
 
+text ThreeIsland_DunsparceTunnel_Text_ProspectingForGold {
+    format("Hey, there! How's it going?\p What am I doing here, you ask? Why, I'm prospecting for gold!\p When I strike it rich, I'm buying a house in KANTO.")
+}
+
+text ThreeIsland_DunsparceTunnel_Text_StruckGoldThisIsForYou {
+    format("Hey, there! How's it going? Did you hear? I've struck gold!\p You remembered that I was prospecting, didn't you?\p You can't begin to imagine just how happy I am.\p So, I'll show you! This is for you!")
+}
+
+text ThreeIsland_DunsparceTunnel_Text_ThatsANugget {
+    format("That's a NUGGET!\p I can't give you any nuggets of wisdom, so that'll have to do!")
+}
+
+text ThreeIsland_DunsparceTunnel_Text_WhoopsBagCrammedFull {
+    format("Whoops, your BAG is crammed full! I'll give this to you later.")
+}
+

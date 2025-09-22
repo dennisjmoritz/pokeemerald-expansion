@@ -3,3 +3,39 @@ mapscripts SilphCo_10F_MapScripts {
 }
 
 
+text SilphCo_10F_Text_GruntIntro {
+    format("Welcome to 10F! So good of you to join me!")
+}
+
+text SilphCo_10F_Text_GruntDefeat {
+    format("I'm stunned!")
+}
+
+text SilphCo_10F_Text_GruntPostBattle {
+    format("Nice try, but the boardroom is up one more floor.")
+}
+
+text SilphCo_10F_Text_TravisIntro {
+    format("Enough of your silly games!")
+}
+
+text SilphCo_10F_Text_TravisDefeat {
+    format("No continues left!")
+}
+
+text SilphCo_10F_Text_TravisPostBattle {
+    format("Are you satisfied with beating me? Then go on home!")
+}
+
+text SilphCo_10F_Text_WaaaImScared {
+    format("Waaaaa! I'm scared!")
+}
+
+text SilphCo_10F_Text_KeepMeCryingASecret {
+    format("About me crying… Please keep it a secret.")
+}
+
+text SilphCo_10F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 10F")
+}
+

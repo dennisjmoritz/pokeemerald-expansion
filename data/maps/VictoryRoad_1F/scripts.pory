@@ -4,3 +4,27 @@ mapscripts VictoryRoad_1F_MapScripts {
 }
 
 
+text VictoryRoad_1F_Text_NaomiIntro {
+    format("I wonder if you are good enough for me?")
+}
+
+text VictoryRoad_1F_Text_NaomiDefeat {
+    format("I lost out…")
+}
+
+text VictoryRoad_1F_Text_NaomiPostBattle {
+    format("I never wanted to lose to anybody, especially to a younger kid…")
+}
+
+text VictoryRoad_1F_Text_RolandoIntro {
+    format("I can see you're good. Let me see exactly how good!")
+}
+
+text VictoryRoad_1F_Text_RolandoDefeat {
+    format("I had a chance…")
+}
+
+text VictoryRoad_1F_Text_RolandoPostBattle {
+    format("Tch! I concede, you are better than I!")
+}
+

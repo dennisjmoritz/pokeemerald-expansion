@@ -2,3 +2,19 @@ mapscripts SafariZone_West_RestHouse_MapScripts {
 }
 
 
+text SafariZone_West_Text_KogaPatrolsSafariEverySoOften {
+    format("The SAFARI ZONE's huge, wouldn't you say?\p FUCHSIA's GYM LEADER, KOGA, patrols the grounds every so often.\p Thanks to him, we can play here knowing that we're safe.")
+}
+
+text SafariZone_West_Text_RocksMakeMonRunButEasierCatch {
+    format("Tossing ROCKS at POKéMON might make them run, but they'll be\l easier to catch.")
+}
+
+text SafariZone_West_Text_BaitMakesMonStickAround {
+    format("Using BAIT will make POKéMON more likely to stick around if they get\l busy eating.")
+}
+
+text SafariZone_West_Text_HikedLotsDidntSeeMonIWanted {
+    format("I hiked a lot, but I didn't see any POKéMON I wanted.")
+}
+

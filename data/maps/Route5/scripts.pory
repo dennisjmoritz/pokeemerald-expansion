@@ -2,3 +2,7 @@ mapscripts Route5_MapScripts {
 }
 
 
+text Route5_Text_UndergroundPathSign {
+    format("UNDERGROUND PATH CERULEAN CITY - VERMILION CITY")
+}
+

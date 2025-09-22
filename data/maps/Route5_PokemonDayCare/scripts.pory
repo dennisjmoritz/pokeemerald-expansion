@@ -2,3 +2,71 @@ mapscripts Route5_PokemonDayCare_MapScripts {
 }
 
 
+text Route5_PokemonDayCare_Text_WantMeToRaiseMon {
+    format("I run the DAY-CARE service.\p Would you like me to raise one of your POKéMON?")
+}
+
+text Route5_PokemonDayCare_Text_ComeAgain {
+    format("Come again.")
+}
+
+text Route5_PokemonDayCare_Text_WhichMonShouldIRaise {
+    format("Which POKéMON should I raise?")
+}
+
+text Route5_PokemonDayCare_Text_ComeAnytimeYouLike {
+    format("Fine. Come anytime you like.")
+}
+
+text Route5_PokemonDayCare_Text_LookAfterMonForAWhile {
+    format("Fine, I'll look after your {STR_VAR_1} for a while.")
+}
+
+text Route5_PokemonDayCare_Text_ComeSeeMeInAWhile {
+    format("Come see me in a while.")
+}
+
+text Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime {
+    format("You're back already?\p Your {STR_VAR_1} needs to spend some more time with me.")
+}
+
+text Route5_PokemonDayCare_Text_OweMeXForMonsReturn {
+    format("You owe me ¥{STR_VAR_2} for the return of this POKéMON.")
+}
+
+text Route5_PokemonDayCare_Text_ThankYouHeresMon {
+    format("Thank you! Here's your POKéMON.")
+}
+
+text Route5_PokemonDayCare_Text_PlayerGotMonBack {
+    format("{PLAYER} got {STR_VAR_1} back from the DAY-CARE MAN.")
+}
+
+text Route5_PokemonDayCare_Text_OnlyHaveOneMonWithYou {
+    format("Oh? You only have one POKéMON with you.")
+}
+
+text Route5_PokemonDayCare_Text_WhatWillYouBattleWith {
+    format("If you leave me that POKéMON, what will you battle with?")
+}
+
+text Route5_PokemonDayCare_Text_MonHasGrownByXLevels {
+    format("Your {STR_VAR_1} has grown a lot. Yes, quite a lot, I'd say.\p Let me see… By level, it's grown by {STR_VAR_2}.\p Aren't I great?")
+}
+
+text Route5_PokemonDayCare_Text_YouveGotNoRoomForIt {
+    format("You can't take this POKéMON back if you've got no room for it.")
+}
+
+text Route5_PokemonDayCare_Text_DontHaveEnoughMoney {
+    format("You don't have enough money.")
+}
+
+text Route5_PokemonDayCare_Text_WantMeToTakeALookAtYours {
+    format("きみの みてみるかね？")
+}
+
+text Route5_PokemonDayCare_Text_CantAcceptMonWithHM {
+    format("わるいけど　ひでんのわざを　もった ポケモンは　あずかれないなぁ")
+}
+

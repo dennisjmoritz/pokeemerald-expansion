@@ -2,3 +2,51 @@ mapscripts CeruleanCity_House5_MapScripts {
 }
 
 
+text CeruleanCity_House1_Text_AnyInterestInBerries {
+    format("I concoct a variety of medicine from BERRY POWDER.\p Using good BERRY POWDER, I can make any kind of medicine.\p Now tell me, have you any interest in BERRIES?")
+}
+
+text CeruleanCity_House1_Text_HaveJustTheThing {
+    format("Ah, good! For you, then, I have just the thing.")
+}
+
+text CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner {
+    format("There's something new on the second floor of POKéMON CENTERS, at the\l DIRECT CORNER.\p They installed a Wireless Adapter machine for crushing BERRIES.\p This is where you come in.\p I have a favor to ask, one that I can entrust only to you.\p Could you make BERRY POWDER for me using that machine?\p Don't forget, the machine is at the DIRECT CORNER of POKéMON CENTERS.\p I'll concoct medicine for you if you bring me some BERRY POWDER.\p Don't forget, crush BERRIES into BERRY POWDER and bring it to me.")
+}
+
+text CeruleanCity_House1_Text_WhyMustYouLieNoBerries {
+    format("Why must you lie to me?\p How many BERRIES do you have? Not a one!")
+}
+
+text CeruleanCity_House1_Text_TakeInterestInAllSortsOfThings {
+    format("You have no interest in BERRIES?\p Young one, it's important to take an interest in all sorts of things.")
+}
+
+text CeruleanCity_House1_Text_HaveYouBroughtBerryPowder {
+    format("Er-hem! Have you brought me some BERRY POWDER?")
+}
+
+text CeruleanCity_House5_Text_ExchangeWithWhat {
+    format("With what would you like to exchange it?")
+}
+
+text CeruleanCity_House1_Text_YoullExchangeBerryPowderForItem {
+    format("Fine, you'll exchange your BERRY POWDER for one {STR_VAR_1}?")
+}
+
+text CeruleanCity_House1_Text_DontHaveEnoughBerryPowder {
+    format("Hm? You don't have enough BERRY POWDER.")
+}
+
+text CeruleanCity_House1_Text_TradeMoreBerryPowder {
+    format("This is fine BERRY POWDER indeed. It will make excellent medicine.\p Would you like to trade more BERRY POWDER for something else?")
+}
+
+text CeruleanCity_House1_Text_HopeToSeeYouAgain {
+    format("That's fine, then. I'll hope to see you back again.")
+}
+
+text CeruleanCity_House1_Text_SeeMeIfYoudLikeToTradePowder {
+    format("Come see me if you'd like to trade your BERRY POWDER.")
+}
+

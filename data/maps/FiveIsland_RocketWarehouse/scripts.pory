@@ -4,3 +4,99 @@ mapscripts FiveIsland_RocketWarehouse_MapScripts {
 }
 
 
+text FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen {
+    format("There are many POKéMON locked away in the pen…")
+}
+
+text FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled {
+    format("The pen door is unlocked. The POKéMON appear to have fled.")
+}
+
+text FiveIsland_RocketWarehouse_Text_Grunt2Intro {
+    format("Did you come here knowing it's TEAM ROCKET's WAREHOUSE?")
+}
+
+text FiveIsland_RocketWarehouse_Text_Grunt2Defeat {
+    format("What do you think you're doing?!")
+}
+
+text FiveIsland_RocketWarehouse_Text_Grunt2PostBattle {
+    format("TEAM ROCKET broke up? What planet are you from?")
+}
+
+text FiveIsland_RocketWarehouse_Text_Grunt1Intro {
+    format("Oh, now your POKéMON look strong. You're willing to sell them?\p Oh? You wanted to battle?")
+}
+
+text FiveIsland_RocketWarehouse_Text_Grunt1Defeat {
+    format("Oh, but… Too much!")
+}
+
+text FiveIsland_RocketWarehouse_Text_Grunt1PostBattle {
+    format("We can give you a great price. Sell us your POKéMON!")
+}
+
+text FiveIsland_RocketWarehouse_Text_Grunt3Intro {
+    format("I got word about you from the others.\p But there's no way a kid like you'd know our BOSS GIOVANNI!")
+}
+
+text FiveIsland_RocketWarehouse_Text_Grunt3Defeat {
+    format("Don't…you…dare…laugh…")
+}
+
+text FiveIsland_RocketWarehouse_Text_Grunt3PostBattle {
+    format("Don't mess in the doings of adults, you jumped-up pip-squeak!")
+}
+
+text FiveIsland_RocketWarehouse_Text_Admin1Intro {
+    format("I don't know or care if what I'm doing is right or wrong…\p I just put my faith in GIOVANNI and do as I am told.")
+}
+
+text FiveIsland_RocketWarehouse_Text_Admin1Defeat {
+    format("I… I'm shattered…")
+}
+
+text FiveIsland_RocketWarehouse_Text_Admin1PostBattle {
+    format("You're doing things according to your beliefs and morals.\p I understand now…")
+}
+
+text FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough {
+    format("I've made it so you can come back in through there.\p Why don't you go get rested and refreshed for what lies ahead?\p The ADMIN after me outranks me thoroughly as a TRAINER.\p You'd better steel yourself for one harsh challenge.")
+}
+
+text FiveIsland_RocketWarehouse_Text_Admin2Intro {
+    format("That's quite enough of you playing the hero, kid.\p Spreading lies about how TEAM ROCKET has disbanded…\p It's such an obvious attempt to cause confusion in our ranks.\p Fortunately, we're not so ignorant to fall for the lies of a child!\p And now, I'll show you how scary an angry adult can be!")
+}
+
+text FiveIsland_RocketWarehouse_Text_Admin2Defeat {
+    format("Urgh… You were too strong…\p … Th-that's GIOVANNI's BADGE!\p So it's true? TEAM ROCKET really has disbanded?")
+}
+
+text FiveIsland_RocketWarehouse_Text_Admin2PostBattle {
+    format("We will abandon this WAREHOUSE…\p But don't think this is over. I won't let this be the end.\p I will find GIOVANNI. And I will resurrect TEAM ROCKET!\l I will…\p Until then, farewell!")
+}
+
+text FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText {
+    format("A report with graphs and text is on the PC monitor.\p “The Influence of Magnetic Waves on POKéMON Evolution”…\p … … … … … …\p It's too difficult to understand…")
+}
+
+text FiveIsland_RocketWarehouse_Text_GideonIntro {
+    format("I almost managed to sell the SAPPHIRE for huge money…\p Then, you just had to come along and blow the whole deal apart!\p Fufu… Fufufufu… There's no forgiveness for you!")
+}
+
+text FiveIsland_RocketWarehouse_Text_GideonDefeat {
+    format("Gah! Darn! Darn! Darn!")
+}
+
+text FiveIsland_RocketWarehouse_Text_GideonPostBattle {
+    format("If I can't sell it, it's worthless! Go ahead, take it!")
+}
+
+text FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe {
+    format("What do you want now? Go on, get lost, leave me be.")
+}
+
+text FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair {
+    format("What, you again?\p You… You're not GIOVANNI's kid, are you?\p No, that can't be right! GIOVANNI's kid has red hair.\p You don't have any reasons for bugging me. Leave me alone!")
+}
+

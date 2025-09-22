@@ -3,3 +3,15 @@ mapscripts SilphCo_1F_MapScripts {
 }
 
 
+text SilphCo_1F_Text_WelcomePresidentInBoardroom {
+    format("Welcome.\p The PRESIDENT is in the boardroom on 11F.")
+}
+
+text SilphCo_1F_Text_DestroyedWontBeFixedForWhile {
+    format("めちゃめちゃに　こわされてる とうぶん　なおりそうに　ない‥")
+}
+
+text SilphCo_1F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 1F")
+}
+

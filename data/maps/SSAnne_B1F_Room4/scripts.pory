@@ -2,3 +2,27 @@ mapscripts SSAnne_B1F_Room4_MapScripts {
 }
 
 
+text SSAnne_B1F_Room4_Text_LeonardIntro {
+    format("You know what they say about sailors and battling!")
+}
+
+text SSAnne_B1F_Room4_Text_LeonardDefeat {
+    format("Right! Good battle, mate!")
+}
+
+text SSAnne_B1F_Room4_Text_LeonardPostBattle {
+    format("Hahaha! Want to be a sailor, mate?")
+}
+
+text SSAnne_B1F_Room4_Text_DuncanIntro {
+    format("Come on, then! My sailor's pride is at stake!")
+}
+
+text SSAnne_B1F_Room4_Text_DuncanDefeat {
+    format("Your spirit sank me!")
+}
+
+text SSAnne_B1F_Room4_Text_DuncanPostBattle {
+    format("Did you see the FISHING GURU in VERMILION CITY?")
+}
+

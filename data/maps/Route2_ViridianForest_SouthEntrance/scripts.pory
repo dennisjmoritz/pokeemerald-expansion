@@ -2,3 +2,11 @@ mapscripts Route2_ViridianForest_SouthEntrance_MapScripts {
 }
 
 
+text Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze {
+    format("Are you going to VIRIDIAN FOREST? It's a natural maze in there.\l Be careful you don't get lost.")
+}
+
+text Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite {
+    format("RATTATA may be small, but don't underestimate its wicked bite.\p Have you caught one already?")
+}
+

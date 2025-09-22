@@ -2,3 +2,135 @@ mapscripts Route13_MapScripts {
 }
 
 
+text Route13_Text_SebastianIntro {
+    format("My bird POKéMON want to battle with you!")
+}
+
+text Route13_Text_SebastianDefeat {
+    format("My PIDGEY and PIDGEOTTO combo lost?")
+}
+
+text Route13_Text_SebastianPostBattle {
+    format("My POKéMON look happy even though they lost.")
+}
+
+text Route13_Text_SusieIntro {
+    format("I'm told I'm good for a kid.")
+}
+
+text Route13_Text_SusieDefeat {
+    format("Ohh! I lost!")
+}
+
+text Route13_Text_SusiePostBattle {
+    format("I want to become a good TRAINER. I'll train hard, just watch.")
+}
+
+text Route13_Text_ValerieIntro {
+    format("Wow! Your BADGES are too cool!")
+}
+
+text Route13_Text_ValerieDefeat {
+    format("Not enough!")
+}
+
+text Route13_Text_ValeriePostBattle {
+    format("You got those BADGES from GYM LEADERS. I know!")
+}
+
+text Route13_Text_GwenIntro {
+    format("My cute POKéMON wish to make your acquaintance.")
+}
+
+text Route13_Text_GwenDefeat {
+    format("Good going! You totally won!")
+}
+
+text Route13_Text_GwenPostBattle {
+    format("You have to make POKéMON battle to toughen them up.")
+}
+
+text Route13_Text_AlmaIntro {
+    format("I found CARBOS in a cave once while I was spelunking.")
+}
+
+text Route13_Text_AlmaDefeat {
+    format("Oh, too bad! I just messed up!")
+}
+
+text Route13_Text_AlmaPostBattle {
+    format("CARBOS boosted the SPEED of my POKéMON.")
+}
+
+text Route13_Text_PerryIntro {
+    format("I'm not going to lose. Not when the wind's blowing my way!")
+}
+
+text Route13_Text_PerryDefeat {
+    format("The wind turned!")
+}
+
+text Route13_Text_PerryPostBattle {
+    format("I'm beat. I guess I'll FLY home.")
+}
+
+text Route13_Text_LolaIntro {
+    format("Sure, I'll play with you, sweetie.")
+}
+
+text Route13_Text_LolaDefeat {
+    format("Oh! You little beast!")
+}
+
+text Route13_Text_LolaPostBattle {
+    format("I wonder which is stronger, male or female POKéMON?")
+}
+
+text Route13_Text_SheilaIntro {
+    format("Do you want to battle some POKéMON with me?")
+}
+
+text Route13_Text_SheilaDefeat {
+    format("It's over already?")
+}
+
+text Route13_Text_SheilaPostBattle {
+    format("I don't know anything about POKéMON actually.\p The ones I use… I picked them for their looks!")
+}
+
+text Route13_Text_JaredIntro {
+    format("What're you lookin' at?")
+}
+
+text Route13_Text_JaredDefeat {
+    format("Dang! Stripped gears!")
+}
+
+text Route13_Text_JaredPostBattle {
+    format("Get lost!")
+}
+
+text Route13_Text_RobertIntro {
+    format("I always go with bird POKéMON. I've dedicated myself to them.")
+}
+
+text Route13_Text_RobertDefeat {
+    format("Out of power!")
+}
+
+text Route13_Text_RobertPostBattle {
+    format("I wish I could fly like PIDGEY and PIDGEOTTO…")
+}
+
+text Route13_Text_LookToLeftOfThatPost {
+    format("TRAINER TIPS\p Look, look! Look to the left of that post!")
+}
+
+text Route13_Text_SelectToSwitchItems {
+    format("TRAINER TIPS\p Use SELECT to switch items in the ITEMS window.")
+}
+
+text Route13_Text_RouteSign {
+    format("ROUTE 13 North to SILENCE BRIDGE")
+}
+

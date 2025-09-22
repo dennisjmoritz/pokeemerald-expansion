@@ -2,3 +2,7 @@ mapscripts FiveIsland_House2_MapScripts {
 }
 
 
+text FiveIsland_House2_Text_MeadowBelongedToFamily {
+    format("That MEADOW has belonged to our family for generations.\p I should have had a giant mansion built on it.\p It would be preferable to having those thugs run wild on it!")
+}
+

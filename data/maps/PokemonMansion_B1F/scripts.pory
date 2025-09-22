@@ -3,3 +3,31 @@ mapscripts PokemonMansion_B1F_MapScripts {
 }
 
 
+text PokemonMansion_B1F_Text_LewisIntro {
+    format("Uh-oh… Where am I now?")
+}
+
+text PokemonMansion_B1F_Text_LewisDefeat {
+    format("Awooh!")
+}
+
+text PokemonMansion_B1F_Text_LewisPostBattle {
+    format("You can find stuff lying around. The residents must've left them.")
+}
+
+text PokemonMansion_B1F_Text_IvanIntro {
+    format("This place is ideal for a lab. Look at all this space.")
+}
+
+text PokemonMansion_B1F_Text_IvanDefeat {
+    format("What was that for?")
+}
+
+text PokemonMansion_B1F_Text_IvanPostBattle {
+    format("I like it here. It's conducive to my studies.")
+}
+
+text PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful {
+    format("Diary: Sept. 1 MEWTWO is far too powerful.\p We have failed to curb its vicious tendencies…")
+}
+

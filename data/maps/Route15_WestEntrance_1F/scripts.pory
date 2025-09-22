@@ -2,3 +2,7 @@ mapscripts Route15_WestEntrance_1F_MapScripts {
 }
 
 
+text Route15_WestEntrance_1F_Text_OaksAideCameByHere {
+    format("Are you the kid who's working on a POKéDEX?\p PROF. OAK's AIDE came by here.")
+}
+

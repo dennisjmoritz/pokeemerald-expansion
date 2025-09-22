@@ -3,3 +3,15 @@ mapscripts SafariZone_Center_MapScripts {
 }
 
 
+text SafariZone_Center_Text_RestHouse {
+    format("REST HOUSE")
+}
+
+text SafariZone_Center_Text_PressStartToCheckTime {
+    format("TRAINER TIPS\p Press START to check remaining time.")
+}
+
+text SafariZone_Center_Text_CenterArea {
+    format("CENTER AREA")
+}
+

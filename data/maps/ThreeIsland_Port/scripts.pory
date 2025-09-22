@@ -3,3 +3,23 @@ mapscripts ThreeIsland_Port_MapScripts {
 }
 
 
+text ThreeIsland_Port_Text_WereKantoRiderFederation {
+    format("We're the KANTO RIDER FEDERATION! Vroom! Vavavavooom! Vroom!\p My bike's wimpy, so I have to make exhaust noises myself!")
+}
+
+text ThreeIsland_Port_Text_ForkOverMoney {
+    format("Hey, hey, lady! Fork over some spending money!")
+}
+
+text ThreeIsland_Port_Text_IllCallThePolice {
+    format("Aiyeeh!\p Wh-who are you?! I… I'll call the police!")
+}
+
+text ThreeIsland_Port_Text_ThankGoodnessBikersGone {
+    format("Those BIKERS… Are they gone?\p Oh, thank goodness! They certainly had me terrified!")
+}
+
+text ThreeIsland_Port_Text_EverythingTurnedOutForBest {
+    format("Those BIKERS ran off, and LOSTELLE was found safe.\p Everything turned out for the best!")
+}
+

@@ -2,3 +2,159 @@ mapscripts Route15_MapScripts {
 }
 
 
+text Route15_Text_KindraIntro {
+    format("I just got some POKéMON in trades. Can I try them out on you?")
+}
+
+text Route15_Text_KindraDefeat {
+    format("Not good enough!")
+}
+
+text Route15_Text_KindraPostBattle {
+    format("You can't change the nickname of any POKéMON you get in a trade.\p Only the Original TRAINER can get the nickname changed.")
+}
+
+text Route15_Text_BeckyIntro {
+    format("You look gentle, so I think I can beat you.\p I'll give it a go!")
+}
+
+text Route15_Text_BeckyDefeat {
+    format("No, wrong!")
+}
+
+text Route15_Text_BeckyPostBattle {
+    format("I'm afraid of BIKERS. They look so ugly and mean!")
+}
+
+text Route15_Text_EdwinIntro {
+    format("When I whistle, I can summon bird POKéMON.")
+}
+
+text Route15_Text_EdwinDefeat {
+    format("Ow! That's tragic!")
+}
+
+text Route15_Text_EdwinPostBattle {
+    format("Maybe I'm not cut out for battles. I'm not the right type, I guess.")
+}
+
+text Route15_Text_ChesterIntro {
+    format("Hmm? My birds are shivering! You're good, aren't you?")
+}
+
+text Route15_Text_ChesterDefeat {
+    format("Just as I thought!")
+}
+
+text Route15_Text_ChesterPostBattle {
+    format("This is so obvious, you should know this, but…\p Moves like EARTHQUAKE and FISSURE have no effect on bird POKéMON.")
+}
+
+text Route15_Text_GraceIntro {
+    format("Oh, you're a little cutie! So like a darling POKéMON!")
+}
+
+text Route15_Text_GraceDefeat {
+    format("You looked so cute, too!")
+}
+
+text Route15_Text_GracePostBattle {
+    format("I forgive you. I can take it.\l I'm a big girl now.")
+}
+
+text Route15_Text_OliviaIntro {
+    format("I raise POKéMON for protection because I live alone.")
+}
+
+text Route15_Text_OliviaDefeat {
+    format("POKéMON isn't about winning or losing for me.")
+}
+
+text Route15_Text_OliviaPostBattle {
+    format("I love having my POKéMON greet me when I get home.\p It's so reassuring.")
+}
+
+text Route15_Text_ErnestIntro {
+    format("Hey, kid! C'mon! I just got these off some loser!")
+}
+
+text Route15_Text_ErnestDefeat {
+    format("Why not?")
+}
+
+text Route15_Text_ErnestPostBattle {
+    format("Life's too short. It's cool to live as an outlaw.\l TEAM ROCKET RULES!")
+}
+
+text Route15_Text_AlexIntro {
+    format("Fork over all your cash when you lose to me, kid!")
+}
+
+text Route15_Text_AlexDefeat {
+    format("That can't be true!")
+}
+
+text Route15_Text_AlexPostBattle {
+    format("I was just joking about the money. Don't take me all serious.")
+}
+
+text Route15_Text_CeliaIntro {
+    format("What's cool and happening? Trading POKéMON!")
+}
+
+text Route15_Text_CeliaDefeat {
+    format("I said trade!")
+}
+
+text Route15_Text_CeliaPostBattle {
+    format("I trade POKéMON with my friends all the time.")
+}
+
+text Route15_Text_YazminIntro {
+    format("Want to play with my POKéMON?")
+}
+
+text Route15_Text_YazminDefeat {
+    format("I was too impatient!")
+}
+
+text Route15_Text_YazminPostBattle {
+    format("I'll go train with weaker people.")
+}
+
+text Route15_Text_RouteSign {
+    format("ROUTE 15 West to FUCHSIA CITY")
+}
+
+text Route15_Text_MyaIntro {
+    format("MYA: You're perfect. Help me train my little brother?")
+}
+
+text Route15_Text_MyaDefeat {
+    format("MYA: RON, you have to focus! Concentrate on what you're doing!")
+}
+
+text Route15_Text_MyaPostBattle {
+    format("MYA: Okay, we'll turn it up. I'll add to our training menu!")
+}
+
+text Route15_Text_MyaNotEnoughMons {
+    format("MYA: Do you want to challenge us? You'll need two POKéMON, though.")
+}
+
+text Route15_Text_RonIntro {
+    format("RON: My sister gets scary when we lose.")
+}
+
+text Route15_Text_RonDefeat {
+    format("RON: Oh, no, no… Sis, I'm sorry!")
+}
+
+text Route15_Text_RonPostBattle {
+    format("RON: Oh, bleah… I wish I had a nice sister…")
+}
+
+text Route15_Text_RonNotEnoughMons {
+    format("RON: Did you want to battle with my sister and me?\p You need two POKéMON, then.")
+}
+

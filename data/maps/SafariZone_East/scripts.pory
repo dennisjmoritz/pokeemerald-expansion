@@ -2,3 +2,15 @@ mapscripts SafariZone_East_MapScripts {
 }
 
 
+text SafariZone_East_Text_RestHouse {
+    format("REST HOUSE")
+}
+
+text SafariZone_East_Text_TimeDeclinesOnlyWhileYouWalk {
+    format("TRAINER TIPS\p The remaining time declines only while you walk.")
+}
+
+text SafariZone_East_Text_AreaSign {
+    format("AREA 1 WEST: CENTER AREA")
+}
+

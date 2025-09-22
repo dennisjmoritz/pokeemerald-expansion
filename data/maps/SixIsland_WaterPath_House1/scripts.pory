@@ -2,3 +2,43 @@ mapscripts SixIsland_WaterPath_House1_MapScripts {
 }
 
 
+text SixIsland_WaterPath_House1_Text_LoveItNeedItHeracross {
+    format("Hera, hera, HERACROSS! Big and shiny, it's the bug boss!\l Love it, need it, HERACROSS!")
+}
+
+text SixIsland_WaterPath_House1_Text_MayIMeasureHeracross {
+    format("Eeeeek! That's a HERACROSS!\p Please, please, may I measure how big it is?")
+}
+
+text SixIsland_WaterPath_House1_Text_ItsXInchesDeserveReward {
+    format("Eeeek, it's {STR_VAR_2} inches! I've never seen anything like this!\l You deserve a reward!")
+}
+
+text SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne {
+    format("I want to see a much, much bigger HERACROSS than that one.\p Oh, how I adore them, big HERACROSS!")
+}
+
+text SixIsland_WaterPath_House1_Text_ItsXInchesSameAsBefore {
+    format("Huh? This {STR_VAR_2}-inch measurement… Oh, boo! It's the same as before.")
+}
+
+text SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest {
+    format("Oh, it's just {STR_VAR_2} inches. The HERACROSS before was bigger.\p It was {STR_VAR_3} inches, the biggest HERACROSS you've brought me.")
+}
+
+text SixIsland_WaterPath_House1_Text_ThisWontDo {
+    format("Oh, no! This won't do!\p HERACROSS looks much more macho and cool, and has a lovely horn!")
+}
+
+text SixIsland_WaterPath_House1_Text_YourBagIsFull {
+    format("Your BAG is full. My reward won't fit.")
+}
+
+text SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches {
+    format("The biggest HERACROSS that I have ever seen measured so far is:\p {STR_VAR_3} inches!")
+}
+
+text SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort {
+    format("It's a blank chart of some sort.\p It has spaces for writing in records of some kind.")
+}
+

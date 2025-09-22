@@ -4,3 +4,39 @@ mapscripts OneIsland_MapScripts {
 }
 
 
+text OneIsland_Text_BillLetsGoSeeCelio {
+    format("BILL: Here we are! This is ONE ISLAND.\p There are several islands around here, and this is one of them.\p My friend CELIO sent the boat to fetch me here.\p He's in charge of the island's PC network by his lonesome.\p …Why am I telling you this now? Let's just go see CELIO!")
+}
+
+text Text_WhereDoYouWantToSail {
+    format("Ahoy, there! Where do you want to sail?")
+}
+
+text OneIsland_Text_LuckyToHaveCelioHere {
+    format("Here we are on an island smack in the middle of nowhere.\p We're lucky to have an upstanding young man like CELIO here.\p My granddaughter was in a tizzy over CELIO's friend.\p Something about a famous POKéMANIAC?\p I'm not sure what that means, but CELIO is quite the man!")
+}
+
+text OneIsland_Text_HavePCLinkageWithKanto {
+    format("My granddaughter was in a tizzy over a new breakthrough.\p She said we now have PC linkage with people in KANTO.\p I'm not sure what that means, but CELIO is quite the man!")
+}
+
+text OneIsland_Text_HavePCLinkageWithHoenn {
+    format("My granddaughter was in a tizzy over a new breakthrough.\p She said we finally have PC linkage with people in HOENN.\p I'm not sure what that means, but CELIO is quite the man.\p He would make a fine husband for my granddaughter!")
+}
+
+text OneIsland_Text_IslandSign {
+    format("ONE ISLAND Friends Gather at Knot Island")
+}
+
+text OneIsland_Text_PokemonNetCenterSign {
+    format("Expanding the POKéMON World! POKéMON NET CENTER")
+}
+
+text OneIsland_Text_ReturnToCinnabar {
+    format("グレンタウンに　もどりますか？")
+}
+
+text OneIsland_Text_IsntWarmClimateHereGreat {
+    format("Hi, sight-seeing, are you? Isn't the warm climate here great?")
+}
+

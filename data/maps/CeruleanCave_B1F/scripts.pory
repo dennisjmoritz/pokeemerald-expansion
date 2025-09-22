@@ -4,3 +4,7 @@ mapscripts CeruleanCave_B1F_MapScripts {
 }
 
 
+text CeruleanCave_B1F_Text_Mew {
+    format("Mew!")
+}
+

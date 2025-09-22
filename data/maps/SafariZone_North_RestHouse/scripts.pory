@@ -2,3 +2,15 @@ mapscripts SafariZone_North_RestHouse_MapScripts {
 }
 
 
+text SafariZone_East_Text_KeepAnyItemFoundOnSafari {
+    format("You can keep any item you find in the SAFARI ZONE.\p But, you'll run out of time if you try for all of them at once.")
+}
+
+text SafariZone_East_Text_PrizeInDeepestPartOfSafariZone {
+    format("Go to the deepest part of the SAFARI ZONE. You will win a prize!")
+}
+
+text SafariZone_East_Text_MyEeveeEvolvedIntoFlareon {
+    format("My EEVEE evolved into FLAREON.\p But, a friend's EEVEE turned into a VAPOREON. I wonder why?")
+}
+

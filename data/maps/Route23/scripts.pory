@@ -3,3 +3,7 @@ mapscripts Route23_MapScripts {
 }
 
 
+text Route23_Text_VictoryRoadGateSign {
+    format("VICTORY ROAD GATE - POKéMON LEAGUE")
+}
+

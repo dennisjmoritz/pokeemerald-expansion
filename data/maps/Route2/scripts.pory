@@ -2,3 +2,11 @@ mapscripts Route2_MapScripts {
 }
 
 
+text Route2_Text_RouteSign {
+    format("ROUTE 2 VIRIDIAN CITY - PEWTER CITY")
+}
+
+text Route2_Text_DiglettsCave {
+    format("DIGLETT'S CAVE")
+}
+

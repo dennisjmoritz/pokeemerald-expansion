@@ -2,3 +2,131 @@ mapscripts SaffronCity_Gym_MapScripts {
 }
 
 
+text SaffronCity_Gym_Text_SabrinaIntro {
+    format("I had a vision of your arrival.\p I have had psychic powers since I was a child.\p It started when a spoon I carelessly tossed, bent.\p I dislike battling, but if you wish, I will show you my powers!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}")
+}
+
+text SaffronCity_Gym_Text_SabrinaDefeat {
+    format("This loss shocks me! But, a loss is a loss.\p I admit, I didn't work hard enough to win.\p Your victory has earned you the MARSHBADGE.")
+}
+
+text SaffronCity_Gym_Text_SabrinaPostBattle {
+    format("Psychic power isn't something that only a few people have.\p Everyone has psychic power. People just don't realize it.")
+}
+
+text SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis {
+    format("The MARSHBADGE makes POKéMON up to Lv. 70 obey you.\p Stronger POKéMON will become wild, ignoring your orders in battle.\p Just don't raise your POKéMON too much to avoid that problem.\p Wait, please take this TM with you.")
+}
+
+text SaffronCity_Gym_Text_ReceivedTM04FromSabrina {
+    format("{PLAYER} received TM04 from SABRINA.")
+}
+
+text SaffronCity_Gym_Text_ExplainTM04 {
+    format("TM04 is CALM MIND.\p It makes the POKéMON concentrate to raise both SP. ATK and SP. DEF.")
+}
+
+text SaffronCity_Gym_Text_BagFullOfOtherItems {
+    format("Your BAG is full of other items.")
+}
+
+text SaffronCity_Gym_Text_AmandaIntro {
+    format("SABRINA is far younger than I, but she has earned my respect.")
+}
+
+text SaffronCity_Gym_Text_AmandaDefeat {
+    format("Not good enough!")
+}
+
+text SaffronCity_Gym_Text_AmandaPostBattle {
+    format("In a battle of equals, the one with the stronger will wins.\p If you wish to beat SABRINA, focus and will yourself to victory.")
+}
+
+text SaffronCity_Gym_Text_JohanIntro {
+    format("Does our unseen power scare you?")
+}
+
+text SaffronCity_Gym_Text_JohanDefeat {
+    format("I never foresaw this!")
+}
+
+text SaffronCity_Gym_Text_JohanPostBattle {
+    format("PSYCHIC POKéMON fear only ghosts and bugs!")
+}
+
+text SaffronCity_Gym_Text_StacyIntro {
+    format("POKéMON take on the appearance of their TRAINERS.\p Your POKéMON must be tough, then!")
+}
+
+text SaffronCity_Gym_Text_StacyDefeat {
+    format("I knew it!")
+}
+
+text SaffronCity_Gym_Text_StacyPostBattle {
+    format("I have much to learn still…\p I must master PSYCHIC and teach it to my POKéMON…")
+}
+
+text SaffronCity_Gym_Text_TyronIntro {
+    format("You understand, don't you?\p That power alone isn't enough to win in the world of POKéMON?")
+}
+
+text SaffronCity_Gym_Text_TyronDefeat {
+    format("I don't believe this!")
+}
+
+text SaffronCity_Gym_Text_TyronPostBattle {
+    format("SABRINA just wiped out the KARATE MASTER next door.")
+}
+
+text SaffronCity_Gym_Text_TashaIntro {
+    format("You and I, our POKéMON shall battle!")
+}
+
+text SaffronCity_Gym_Text_TashaDefeat {
+    format("I lost after all!")
+}
+
+text SaffronCity_Gym_Text_TashaPostBattle {
+    format("I knew that this was going to take place.")
+}
+
+text SaffronCity_Gym_Text_CameronIntro {
+    format("SABRINA is young, but she's also our highly skilled LEADER.\p You won't reach her easily!")
+}
+
+text SaffronCity_Gym_Text_CameronDefeat {
+    format("Ow! Down and out!")
+}
+
+text SaffronCity_Gym_Text_CameronPostBattle {
+    format("There used to be two POKéMON GYMS in SAFFRON.\p The FIGHTING DOJO next door lost its GYM status, though.\p We simply creamed them when we decided to have just one GYM.")
+}
+
+text SaffronCity_Gym_Text_PrestonIntro {
+    format("SAFFRON POKéMON GYM is famous for training psychics.\p You want to see SABRINA, don't you? I can tell!")
+}
+
+text SaffronCity_Gym_Text_PrestonDefeat {
+    format("Arrrgh!")
+}
+
+text SaffronCity_Gym_Text_PrestonPostBattle {
+    format("That's right! I used telepathy to read your mind!")
+}
+
+text SaffronCity_Gym_Text_GymGuyAdvice {
+    format("Yo! Champ in the making!\p SABRINA's POKéMON use psychic power instead of force.\p FIGHTING POKéMON are especially weak against PSYCHIC POKéMON.\p They'll get destroyed before they can even aim a punch!")
+}
+
+text SaffronCity_Gym_Text_GymGuyPostVictory {
+    format("Psychic power, huh?\p If I had that, I'd make a bundle at the slots!")
+}
+
+text SaffronCity_Gym_Text_GymStatue {
+    format("SAFFRON POKéMON GYM LEADER: SABRINA\p WINNING TRAINERS: {RIVAL}")
+}
+
+text SaffronCity_Gym_Text_GymStatuePlayerWon {
+    format("SAFFRON POKéMON GYM LEADER: SABRINA\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+}
+

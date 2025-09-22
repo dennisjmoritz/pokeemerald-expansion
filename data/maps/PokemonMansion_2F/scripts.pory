@@ -3,3 +3,35 @@ mapscripts PokemonMansion_2F_MapScripts {
 }
 
 
+text PokemonMansion_Text_PressSecretSwitch {
+    format("A secret switch!\p Press it?")
+}
+
+text PokemonMansion_Text_WhoWouldnt {
+    format("Who wouldn't?")
+}
+
+text PokemonMansion_Text_NotQuiteYet {
+    format("Not quite yet!")
+}
+
+text PokemonMansion_1F_Text_ArnieIntro {
+    format("I can't get out! This old place is one big puzzle.")
+}
+
+text PokemonMansion_1F_Text_ArnieDefeat {
+    format("Oh, no! My bag of loot!")
+}
+
+text PokemonMansion_1F_Text_ArniePostBattle {
+    format("The switches here open and close alternating sets of doors.")
+}
+
+text PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle {
+    format("Diary: July 5 Guyana, South America\p A new POKéMON was discovered deep in the jungle.")
+}
+
+text PokemonMansion_1F_Text_ChristenedDiscoveredMonMew {
+    format("Diary: July 10 We christened the newly discovered\l POKéMON, MEW.")
+}
+

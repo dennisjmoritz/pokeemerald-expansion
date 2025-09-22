@@ -2,3 +2,7 @@ mapscripts SixIsland_House_MapScripts {
 }
 
 
+text SixIsland_House_Text_GoodPlaceForNatureAndHistory {
+    format("There's nothing that young people'd find exciting here on this island.\p But, this is a good place in terms of nature and history.\p Relax and enjoy your stay.")
+}
+

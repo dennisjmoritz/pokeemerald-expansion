@@ -2,3 +2,15 @@ mapscripts FiveIsland_LostCave_Room1_MapScripts {
 }
 
 
+text FiveIsland_LostCave_Room1_Text_LawsonIntro {
+    format("Aiyeeeeeh!\p I thought this was an ancient ruin. But it's teeming with ghosts!")
+}
+
+text FiveIsland_LostCave_Room1_Text_LawsonDefeat {
+    format("Aiyeeeeeh! Mercy!")
+}
+
+text FiveIsland_LostCave_Room1_Text_LawsonPostBattle {
+    format("I'm trying to get out of here, but I always end up at the same spot.\p Maybe the number of boulders is a hint…")
+}
+

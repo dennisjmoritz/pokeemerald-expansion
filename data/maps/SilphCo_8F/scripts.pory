@@ -3,3 +3,55 @@ mapscripts SilphCo_8F_MapScripts {
 }
 
 
+text SilphCo_8F_Text_WonderIfSilphIsFinished {
+    format("I wonder if SILPH is finished…")
+}
+
+text SilphCo_8F_Text_ThanksForSavingUs {
+    format("Thanks for saving us!")
+}
+
+text SilphCo_8F_Text_Grunt1Intro {
+    format("That's as far as you'll go!")
+}
+
+text SilphCo_8F_Text_Grunt1Defeat {
+    format("Not enough grit!")
+}
+
+text SilphCo_8F_Text_Grunt1PostBattle {
+    format("If you don't turn back… I'll call for backup!")
+}
+
+text SilphCo_8F_Text_ParkerIntro {
+    format("You're causing us problems!")
+}
+
+text SilphCo_8F_Text_ParkerDefeat {
+    format("Huh? I lost?")
+}
+
+text SilphCo_8F_Text_ParkerPostBattle {
+    format("So, what do you think of SILPH BUILDING's maze?")
+}
+
+text SilphCo_8F_Text_Grunt2Intro {
+    format("I am one of the four ROCKET BROTHERS!")
+}
+
+text SilphCo_8F_Text_Grunt2Defeat {
+    format("Whoo! Oh, Brothers!")
+}
+
+text SilphCo_8F_Text_Grunt2PostBattle {
+    format("I'll leave you up to my brothers.")
+}
+
+text SilphCo_8F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 8F")
+}
+
+text SilphCo_8F_Text_ToRocketBossMonsAreTools {
+    format("TEAM ROCKET's BOSS is terribly cruel!\p To him, POKéMON are just tools to be used.\p What will happen if that tyrant takes over our company…")
+}
+

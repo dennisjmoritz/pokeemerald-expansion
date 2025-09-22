@@ -2,3 +2,51 @@ mapscripts CeruleanCity_BikeShop_MapScripts {
 }
 
 
+text CeruleanCity_BikeShop_Text_WelcomeToBikeShop {
+    format("Hi! Welcome to our BIKE SHOP.\p Have we got just the BIKE for you!")
+}
+
+text CeruleanCity_BikeShop_Text_SorryYouCantAffordIt {
+    format("Sorry! You can't afford it!")
+}
+
+text CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo {
+    format("Oh, that's…\p A BIKE VOUCHER!\p Okay! Here you go!")
+}
+
+text CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle {
+    format("{PLAYER} exchanged the BIKE VOUCHER for a BICYCLE.")
+}
+
+text CeruleanCity_BikeShop_Text_ThankYouComeAgain {
+    format("Thank you! Come back again sometime!")
+}
+
+text CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle {
+    format("How do you like your new BICYCLE? Do you like how it rides?\p You can take it out on CYCLING ROAD and even into caves!")
+}
+
+text CeruleanCity_BikeShop_Text_MakeRoomForBicycle {
+    format("You better make room for your BICYCLE!")
+}
+
+text CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe {
+    format("A plain city bike is good enough for me.\p After all, you can't put a shopping basket on a mountain bike.")
+}
+
+text CeruleanCity_BikeShop_Text_BikesCoolButExpensive {
+    format("These bikes are cool, but they're way expensive!")
+}
+
+text CeruleanCity_BikeShop_Text_WowYourBikeIsCool {
+    format("Wow. Your BIKE is really cool!")
+}
+
+text CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket {
+    format("ついに　はつばい！\p ドイツ　せい　さいこうきゅう おりたたみ　じてんしゃ！")
+}
+
+text CeruleanCity_BikeShop_Text_ShinyNewBicycle {
+    format("A shiny new BICYCLE!")
+}
+

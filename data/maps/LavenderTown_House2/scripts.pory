@@ -2,3 +2,39 @@ mapscripts LavenderTown_House2_MapScripts {
 }
 
 
+text LavenderTown_House2_Text_WantMeToRateNicknames {
+    format("Hello, hello! I am the official NAME RATER!\p Want me to rate the nicknames of your POKéMON?")
+}
+
+text LavenderTown_House2_Text_CritiqueWhichMonsNickname {
+    format("Which POKéMON's nickname should I critique?")
+}
+
+text LavenderTown_House2_Text_GiveItANicerName {
+    format("{STR_VAR_1}, is it? That is a decent nickname!\p But, would you like me to give it a nicer name?\p How about it?")
+}
+
+text LavenderTown_House2_Text_WhatShallNewNicknameBe {
+    format("Ah, good. Then, what shall the new nickname be?")
+}
+
+text LavenderTown_House2_Text_FromNowOnShallBeKnownAsName {
+    format("Done! From now on, this POKéMON shall be known as {STR_VAR_1}!\p It is a better name than before! How fortunate for you!")
+}
+
+text LavenderTown_House2_Text_ISeeComeVisitAgain {
+    format("I see. Do come visit again.")
+}
+
+text LavenderTown_House2_Text_FromNowOnShallBeKnownAsSameName {
+    format("Done! From now on, this POKéMON shall be known as {STR_VAR_1}!\p It looks no different from before, and yet, this is vastly superior!\p How fortunate for you!")
+}
+
+text LavenderTown_House2_Text_TrulyImpeccableName {
+    format("{STR_VAR_1}, is it? That is a truly impeccable name!\p Take good care of {STR_VAR_1}!")
+}
+
+text LavenderTown_House2_Text_ThatIsMerelyAnEgg {
+    format("Now, now. That is merely an EGG!")
+}
+

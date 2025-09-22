@@ -2,3 +2,11 @@ mapscripts SSAnne_B1F_Room5_MapScripts {
 }
 
 
+text SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks {
+    format("My buddy MACHOKE is super strong!\p He has enough STRENGTH to move big rocks!")
+}
+
+text SSAnne_B1F_Room5_Text_Machoke {
+    format("MACHOKE: Gwoh! Goggoh!")
+}
+

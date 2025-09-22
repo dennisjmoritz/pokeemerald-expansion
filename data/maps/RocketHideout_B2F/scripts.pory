@@ -2,3 +2,15 @@ mapscripts RocketHideout_B2F_MapScripts {
 }
 
 
+text RocketHideout_B2F_Text_GruntIntro {
+    format("BOSS said you can see ghosts with the SILPH SCOPE.")
+}
+
+text RocketHideout_B2F_Text_GruntDefeat {
+    format("I surrender!")
+}
+
+text RocketHideout_B2F_Text_GruntPostBattle {
+    format("The TEAM ROCKET HQ has four underground floors.\p Think you can reach the BOSS?")
+}
+

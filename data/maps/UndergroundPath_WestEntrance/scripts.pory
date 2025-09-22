@@ -2,3 +2,7 @@ mapscripts UndergroundPath_WestEntrance_MapScripts {
 }
 
 
+text UndergroundPath_WestEntrance_Text_SleepyMonNearCeladon {
+    format("I heard a sleepy POKéMON appeared out near CELADON CITY, too.")
+}
+

@@ -3,3 +3,59 @@ mapscripts FuchsiaCity_SafariZone_Entrance_MapScripts {
 }
 
 
+text FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone {
+    format("Welcome to the SAFARI ZONE!")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500 {
+    format("For just ¥500, you can play the SAFARI GAME.\p You can roam the wide-open safari and catch what you like.\p Would you like to play?")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_ThatllBe500WeOnlyUseSpecialBalls {
+    format("That'll be ¥500, please!\p We only use a special kind of POKé BALLS here.")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_PlayerReceived30SafariBalls {
+    format("{PLAYER} received 30 SAFARI BALLS from the attendant.")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_CallYouOnPAWhenYouRunOut {
+    format("We'll call you on the PA when you run out of time or SAFARI BALLS.\p Well, I'll wish you the best of luck!")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_OkayPleaseComeAgain {
+    format("Okay. Please come again!")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_OopsNotEnoughMoney {
+    format("Oops! Not enough money!")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_GoingToLeaveSafariZoneEarly {
+    format("Are you going to leave the SAFARI ZONE early?")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_PleaseReturnSafariBalls {
+    format("Please return any SAFARI BALLS you may have left.")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_GoodLuck {
+    format("Good luck!")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_CatchFairShareComeAgain {
+    format("Did you catch your fair share? Come again!")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_FirstTimeAtSafariZone {
+    format("Hi! Is it your first time here at the SAFARI ZONE?")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone {
+    format("The SAFARI ZONE actually has four zones in it.\p Each zone has different kinds of POKéMON, even some rare ones.\p Use the supplied SAFARI BALLS to catch them.\p You can also throw BAIT or ROCKS besides the SAFARI BALLS.\p If you throw BAIT, the POKéMON becomes less likely to flee, but\l harder to catch.\p If you throw ROCKS, the POKéMON becomes more likely to flee, but\l easier to catch.\p When you run out of time or SAFARI BALLS, it's game over for you!")
+}
+
+text FuchsiaCity_SafariZone_Entrance_Text_SorryYoureARegularHere {
+    format("Sorry, you're a regular here!")
+}
+

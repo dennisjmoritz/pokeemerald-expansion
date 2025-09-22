@@ -3,3 +3,43 @@ mapscripts FourIsland_IcefallCave_Back_MapScripts {
 }
 
 
+text FourIsland_IcefallCave_Back_Text_LoreleiKeepHandsOffMons {
+    format("LORELEI: Keep your filthy hands off the POKéMON in the cave!\p Do as I say, or you'll have me to answer to!")
+}
+
+text FourIsland_IcefallCave_Back_Text_ShutItLadyLeaveUsBe {
+    format("Aww, shut it, lady, and leave us be.\p Don't let your glasses get all steamed up!")
+}
+
+text FourIsland_IcefallCave_Back_Text_LoreleiPlayerHelpMeKickPoachersOut {
+    format("LORELEI: {PLAYER}?! What are you doing here?\p No, we can catch up later. Right now, I need your help.\p Help me kick these poachers out before they do anything else.\p They've been catching POKéMON here, then selling them off!\p Are you ready? You take that one, please!")
+}
+
+text FourIsland_IcefallCave_Back_Text_GruntIntro {
+    format("W-what?!\p Who says we can't do what we want with the POKéMON we catch?")
+}
+
+text FourIsland_IcefallCave_Back_Text_GruntDefeat {
+    format("We didn't plan on this!")
+}
+
+text FourIsland_IcefallCave_Back_Text_LoreleiWhereHaveYouTakenMons {
+    format("LORELEI: Humph. So despicably weak.\p You! Tell me!\p Where have you taken the captured POKéMON?\p I'm smashing your ring once and for all!")
+}
+
+text FourIsland_IcefallCave_Back_Text_NotTellingYouThat {
+    format("N-no way! I'm not telling you that!")
+}
+
+text FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou {
+    format("LORELEI: If you won't confess, we'll deep-freeze you.\p My LAPRAS is furious for what you've done to its friends.\p Go, LAPRAS! ICE BEAM…")
+}
+
+text FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland {
+    format("Wawaah! Okay! I'll talk!\p The POKéMON are in the ROCKET WAREHOUSE on FIVE ISLAND.\p There! I said it! We'll be going now!\p …But I doubt you'll ever make it into the ROCKET WAREHOUSE!\p Heheheheh!")
+}
+
+text FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful {
+    format("{PLAYER}, thank you. But this is awful…\p I was born and raised here on these islands.\p I had no idea that those horrible criminals were loose here…")
+}
+

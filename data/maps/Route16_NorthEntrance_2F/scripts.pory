@@ -2,3 +2,35 @@ mapscripts Route16_NorthEntrance_2F_MapScripts {
 }
 
 
+text Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend {
+    format("I'm on a relaxing ride on my new bike with my girlfriend.")
+}
+
+text Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes {
+    format("We're going riding together on our new bikes.")
+}
+
+text Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore {
+    format("Let's see what the binoculars have to show…\p It's the CELADON DEPT. STORE!")
+}
+
+text Route16_NorthEntrance_2F_Text_LongPathOverWater {
+    format("Let's see what the binoculars have to show…\p There's a long path over water far away.")
+}
+
+text Route16_NorthEntrance_2F_Text_GiveAmuletCoinIfCaught40 {
+    format("Hi! Remember me? I'm one of PROF. OAK's AIDES.\p If your POKéDEX has complete data on 40 species, I'm supposed to\l give you a reward.\p PROF. OAK entrusted me with an AMULET COIN for you.\p So, {PLAYER}, let me ask you.\p Have you gathered data on at least 40 kinds of POKéMON?")
+}
+
+text Route16_NorthEntrance_2F_Text_GreatHereYouGo {
+    format("Great! You have caught or owned {STR_VAR_3} kinds of POKéMON!\p Congratulations! Here you go!")
+}
+
+text Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide {
+    format("{PLAYER} received the AMULET COIN from the AIDE.")
+}
+
+text Route16_NorthEntrance_2F_Text_ExplainAmuletCoin {
+    format("An AMULET COIN is an item to be held by a POKéMON.\p If the POKéMON appears in a winning battle, you will earn more money.")
+}
+

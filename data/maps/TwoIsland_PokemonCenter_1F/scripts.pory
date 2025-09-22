@@ -4,3 +4,11 @@ mapscripts TwoIsland_PokemonCenter_1F_MapScripts {
 }
 
 
+text TwoIsland_PokemonCenter_1F_Text_HaveYouVisitedGameCorner {
+    format("Have you visited the GAME CORNER already?\p It's no good to go alone. You have to take a friend along.")
+}
+
+text TwoIsland_PokemonCenter_1F_Text_OldLadyLivesOutOnCape {
+    format("Not many people live on TWO ISLAND.\p There is this old lady who lives out on the cape.\p She's been there since I don't know when.")
+}
+

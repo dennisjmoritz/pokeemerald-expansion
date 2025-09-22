@@ -3,3 +3,39 @@ mapscripts LavenderTown_MapScripts {
 }
 
 
+text LavenderTown_Text_DoYouBelieveInGhosts {
+    format("Do you believe in ghosts?")
+}
+
+text LavenderTown_Text_SoThereAreBelievers {
+    format("Really? So there are believers…")
+}
+
+text LavenderTown_Text_JustImaginingWhiteHand {
+    format("Hahaha, I guess not.\p That white hand on your shoulder… I'm just imagining it.")
+}
+
+text LavenderTown_Text_TownKnownAsMonGraveSite {
+    format("This town is known as the grave site of POKéMON.\p Memorial services are held in POKéMON TOWER.")
+}
+
+text LavenderTown_Text_GhostsAppearedInTower {
+    format("Ghosts appeared in POKéMON TOWER.\p I think they're the spirits of POKéMON that the ROCKETS killed.")
+}
+
+text LavenderTown_Text_TownSign {
+    format("LAVENDER TOWN The Noble Purple Town")
+}
+
+text LavenderTown_Text_SilphScopeNotice {
+    format("New SILPH SCOPE! Make the Invisible Plain to See!\p SILPH CO.")
+}
+
+text LavenderTown_Text_VolunteerPokemonHouse {
+    format("LAVENDER VOLUNTEER POKéMON HOUSE")
+}
+
+text LavenderTown_Text_PokemonTowerSign {
+    format("POKéMON TOWER Becalm the Spirits of POKéMON")
+}
+

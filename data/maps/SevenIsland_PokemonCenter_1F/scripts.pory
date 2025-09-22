@@ -4,3 +4,15 @@ mapscripts SevenIsland_PokemonCenter_1F_MapScripts {
 }
 
 
+text SevenIsland_PokemonCenter_1F_Text_EventsDependingOnConnections {
+    format("On this island, different events occur depending on connections.\p What are those connections?\p They are for you to discover on your own.")
+}
+
+text SevenIsland_PokemonCenter_1F_Text_DidYouRideSeagallopHere {
+    format("Did you ride a SEAGALLOP ferry to get here?\p There are at least ten of those high-speed ships.\p I don't know where they all go, though.")
+}
+
+text SevenIsland_PokemonCenter_1F_Text_CheckOutTrainerTower {
+    format("If you're confident, you should check out TRAINER TOWER.")
+}
+

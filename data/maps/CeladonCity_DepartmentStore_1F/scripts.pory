@@ -2,3 +2,15 @@ mapscripts CeladonCity_DepartmentStore_1F_MapScripts {
 }
 
 
+text CeladonCity_DepartmentStore_1F_Text_WelcomeToDeptStore {
+    format("Hello! Welcome to CELADON DEPT. STORE.\p The board on the right describes the store layout.")
+}
+
+text CeladonCity_DepartmentStore_1F_Text_FloorDescriptions {
+    format("1F: SERVICE COUNTER\p 2F: TRAINER'S MARKET\p 3F: TV GAME SHOP\p 4F: WISE MAN GIFTS\p 5F: DRUGSTORE\p ROOFTOP SQUARE: VENDING MACHINES")
+}
+
+text CeladonCity_DepartmentStore_1F_Text_ServiceCounter {
+    format("1F: SERVICE COUNTER")
+}
+

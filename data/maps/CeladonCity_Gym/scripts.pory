@@ -2,3 +2,123 @@ mapscripts CeladonCity_Gym_MapScripts {
 }
 
 
+text CeladonCity_Gym_Text_ErikaIntro {
+    format("Hello… Lovely weather, isn't it?\l It's so pleasant…\p …Oh, dear… I must have dozed off. Welcome.\p My name is ERIKA. I am the LEADER of CELADON GYM.\p I am a student of the art of flower arranging.\p My POKéMON are solely of the GRASS type.\p …Oh, I'm sorry, I had no idea that you wished to challenge me.\p Very well, but I shall not lose.{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}")
+}
+
+text CeladonCity_Gym_Text_ErikaDefeat {
+    format("Oh! I concede defeat.\l You are remarkably strong.\p I must confer on you the RAINBOWBADGE.")
+}
+
+text CeladonCity_Gym_Text_ErikaPostBattle {
+    format("You are cataloging POKéMON? I must say I'm impressed.\p I would never collect POKéMON if they were unattractive.")
+}
+
+text CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis {
+    format("The RAINBOWBADGE will make POKéMON up to Lv. 50 obey.\p It also allows POKéMON to use STRENGTH in and out of battle.\p Please also take this with you.")
+}
+
+text CeladonCity_Gym_Text_ReceivedTM19FromErika {
+    format("{PLAYER} received TM19 from ERIKA.")
+}
+
+text CeladonCity_Gym_Text_ExplainTM19 {
+    format("TM19 contains GIGA DRAIN.\p Half the damage it inflicts is drained to heal your POKéMON.\p Wouldn't you agree that it's a wonderful move?")
+}
+
+text CeladonCity_Gym_Text_ShouldMakeRoomForThis {
+    format("You should make room for this.")
+}
+
+text CeladonCity_Gym_Text_KayIntro {
+    format("I should tell you about this GYM.\p Only real ladies are allowed in here!")
+}
+
+text CeladonCity_Gym_Text_KayDefeat {
+    format("You're too rough!")
+}
+
+text CeladonCity_Gym_Text_KayPostBattle {
+    format("Bleaah! I hope ERIKA wipes you out!")
+}
+
+text CeladonCity_Gym_Text_BridgetIntro {
+    format("Oh, welcome. I was getting bored.")
+}
+
+text CeladonCity_Gym_Text_BridgetDefeat {
+    format("My makeup!")
+}
+
+text CeladonCity_Gym_Text_BridgetPostBattle {
+    format("GRASS-type POKéMON are tough against the WATER type.\p They also have an edge on ROCK- and GROUND-type POKéMON.")
+}
+
+text CeladonCity_Gym_Text_TinaIntro {
+    format("…Weren't you peeking in here earlier?")
+}
+
+text CeladonCity_Gym_Text_TinaDefeat {
+    format("You're an eye-opener!")
+}
+
+text CeladonCity_Gym_Text_TinaPostBattle {
+    format("Oh, you were looking at ERIKA… You weren't looking at me…")
+}
+
+text CeladonCity_Gym_Text_TamiaIntro {
+    format("Look, look! See my POKéMON!\p I like the GRASS type. I like how they're easy to raise.")
+}
+
+text CeladonCity_Gym_Text_TamiaDefeat {
+    format("No!")
+}
+
+text CeladonCity_Gym_Text_TamiaPostBattle {
+    format("We only use GRASS-type POKéMON at our GYM.\p Why? We also use them for making flower arrangements!")
+}
+
+text CeladonCity_Gym_Text_LisaIntro {
+    format("Oh, hey!\p We don't like BUG- or FIRE-type POKéMON in here!")
+}
+
+text CeladonCity_Gym_Text_LisaDefeat {
+    format("Oh! You!")
+}
+
+text CeladonCity_Gym_Text_LisaPostBattle {
+    format("Our LEADER ERIKA might be quiet, but she's famous around here.")
+}
+
+text CeladonCity_Gym_Text_LoriIntro {
+    format("Pleased to meet you. My hobby is POKéMON training.")
+}
+
+text CeladonCity_Gym_Text_LoriDefeat {
+    format("Oh! Splendid!")
+}
+
+text CeladonCity_Gym_Text_LoriPostBattle {
+    format("I have a blind date coming up. I have to learn to be polite,\l especially if I have to battle.")
+}
+
+text CeladonCity_Gym_Text_MaryIntro {
+    format("Welcome to CELADON GYM!\p You'd better not underestimate the nice ladies here.")
+}
+
+text CeladonCity_Gym_Text_MaryDefeat {
+    format("Oh! Beaten!")
+}
+
+text CeladonCity_Gym_Text_MaryPostBattle {
+    format("I didn't bring my best POKéMON. Wait until next time!")
+}
+
+text CeladonCity_Gym_Text_GymStatue {
+    format("CELADON POKéMON GYM LEADER: ERIKA\p WINNING TRAINERS: {RIVAL}")
+}
+
+text CeladonCity_Gym_Text_GymStatuePlayerWon {
+    format("CELADON POKéMON GYM LEADER: ERIKA\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+}
+

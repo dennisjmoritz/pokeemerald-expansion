@@ -3,3 +3,55 @@ mapscripts FiveIsland_Meadow_MapScripts {
 }
 
 
+text FiveIsland_Meadow_Text_DoorNeedsTwoPasswords {
+    format("とびらを　あけるには パスワードが　2つ　いるようだ")
+}
+
+text FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded {
+    format("{PLAYER} entered a password.\p “GOLDEEN need log.”\p … …  … …  … …\p Another password is needed to open the door…")
+}
+
+text FiveIsland_Meadow_Text_EnteredPasswordDoorOpened {
+    format("{PLAYER} entered two passwords.\p “GOLDEEN need log.” “Yes, nah, CHANSEY.”\p … …  … …  … …\p The WAREHOUSE's door opened!")
+}
+
+text FiveIsland_Meadow_Text_WarehouseDoorAlreadyOpen {
+    format("The WAREHOUSE's door is already open.")
+}
+
+text FiveIsland_Meadow_Text_Rocket1Intro {
+    format("This area's strictly off-limits! Out, out!")
+}
+
+text FiveIsland_Meadow_Text_Rocket1Defeat {
+    format("Is this for real?")
+}
+
+text FiveIsland_Meadow_Text_Rocket1PostBattle {
+    format("You don't have any business here! Go home!")
+}
+
+text FiveIsland_Meadow_Text_Rocket2Intro {
+    format("There's nothing past here except our WAREHOUSE.\p So what brings you here?")
+}
+
+text FiveIsland_Meadow_Text_Rocket2Defeat {
+    format("That wasn't supposed to happen…")
+}
+
+text FiveIsland_Meadow_Text_Rocket2PostBattle {
+    format("You're wanting to know what's inside this WAREHOUSE?\p It's better you didn't know. For your own sake, I mean.")
+}
+
+text FiveIsland_Meadow_Text_Rocket3Intro {
+    format("You'd be wasting time even if you were to get by me.")
+}
+
+text FiveIsland_Meadow_Text_Rocket3Defeat {
+    format("Oh, that makes me furious!")
+}
+
+text FiveIsland_Meadow_Text_Rocket3PostBattle {
+    format("You won't be able to get in without the passwords anyway.")
+}
+

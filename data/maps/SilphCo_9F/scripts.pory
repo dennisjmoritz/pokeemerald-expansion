@@ -3,3 +3,55 @@ mapscripts SilphCo_9F_MapScripts {
 }
 
 
+text SilphCo_9F_Text_YouShouldTakeQuickNap {
+    format("You look tired. You should take a quick nap.")
+}
+
+text SilphCo_9F_Text_DontGiveUp {
+    format("Don't give up!")
+}
+
+text SilphCo_9F_Text_ThankYouSoMuch {
+    format("Thank you so much.")
+}
+
+text SilphCo_9F_Text_Grunt1Intro {
+    format("Your POKéMON seem to adore you, kid!")
+}
+
+text SilphCo_9F_Text_Grunt1Defeat {
+    format("Ghaaah!")
+}
+
+text SilphCo_9F_Text_Grunt1PostBattle {
+    format("If I had started as a TRAINER at your age…")
+}
+
+text SilphCo_9F_Text_EdIntro {
+    format("Your POKéMON have weak points! I can nail them!")
+}
+
+text SilphCo_9F_Text_EdDefeat {
+    format("You hammered me!")
+}
+
+text SilphCo_9F_Text_EdPostBattle {
+    format("Exploiting weak spots does work. Think about type advantages.")
+}
+
+text SilphCo_9F_Text_Grunt2Intro {
+    format("I am one of the four ROCKET BROTHERS!")
+}
+
+text SilphCo_9F_Text_Grunt2Defeat {
+    format("Warg! Brothers, I lost!")
+}
+
+text SilphCo_9F_Text_Grunt2PostBattle {
+    format("My brothers will avenge me!")
+}
+
+text SilphCo_9F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 9F")
+}
+

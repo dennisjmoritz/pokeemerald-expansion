@@ -2,3 +2,43 @@ mapscripts SSAnne_Kitchen_MapScripts {
 }
 
 
+text SSAnne_Kitchen_Text_BusyOutOfTheWay {
+    format("You, mon petit! We're busy here!\l Out of the way!")
+}
+
+text SSAnne_Kitchen_Text_SawOddBerryInTrash {
+    format("I saw an odd BERRY in the trash. I wonder what that was?")
+}
+
+text SSAnne_Kitchen_Text_SoBusyImDizzy {
+    format("I'm so busy I'm getting dizzy! You have to give me room here!")
+}
+
+text SSAnne_Kitchen_Text_PeelSpudsEveryDay {
+    format("Hum-de-hum-de-ho…\p I peel spuds every day! Hum-hum…")
+}
+
+text SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton {
+    format("Did you hear about SNORLAX? It's a glutton.\p No other POKéMON eats and sleeps the way SNORLAX can and does!")
+}
+
+text SSAnne_Kitchen_Text_OnlyGetToPeelOnions {
+    format("Snivel… Sniff…\p I only get to peel onions… Snivel…")
+}
+
+text SSAnne_Kitchen_Text_IAmLeChefMainCourseIs {
+    format("Er-hem! Indeed I am le CHEF!\p Le main course is")
+}
+
+text SSAnne_Kitchen_Text_SalmonDuSalad {
+    format("Salmon du Salad!\p Les guests may gripe it's fish again, however!")
+}
+
+text SSAnne_Kitchen_Text_EelsAuBarbecue {
+    format("Eels au Barbecue!\p Les guests will mutiny, I fear.")
+}
+
+text SSAnne_Kitchen_Text_PrimeBeefsteak {
+    format("Prime Beefsteak!\p But, have I enough fillets du beef?")
+}
+

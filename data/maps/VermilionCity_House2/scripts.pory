@@ -2,3 +2,23 @@ mapscripts VermilionCity_House2_MapScripts {
 }
 
 
+text VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon {
+    format("Hi! Do you have a {STR_VAR_1}?\p Want to trade it for my {STR_VAR_2}?")
+}
+
+text VermilionCity_House2_Text_ThatsTooBad {
+    format("That's too bad.")
+}
+
+text VermilionCity_House2_Text_ThisIsNoMon {
+    format("…This is no {STR_VAR_1}.\p If you get one, please trade it to me!")
+}
+
+text VermilionCity_House2_Text_ThankYou {
+    format("Thank you!")
+}
+
+text VermilionCity_House2_Text_HowIsMyOldMon {
+    format("How is my old {STR_VAR_2}?\p My {STR_VAR_1} is doing great!")
+}
+

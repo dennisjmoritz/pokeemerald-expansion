@@ -4,3 +4,23 @@ mapscripts PewterCity_PokemonCenter_1F_MapScripts {
 }
 
 
+text PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone {
+    format("What!?\p TEAM ROCKET is at MT. MOON? Huh?\p I'm on the phone! Scram!")
+}
+
+text PewterCity_PokemonCenter_1F_Text_Jigglypuff {
+    format("JIGGLYPUFF: Puu pupuu!")
+}
+
+text PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy {
+    format("Yawn!\p When JIGGLYPUFF sings, POKéMON get drowsy…\p …Me, too… Snore…")
+}
+
+text PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu {
+    format("I really want a PIKACHU, so I'm trading my CLEFAIRY for one.")
+}
+
+text PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid {
+    format("I'm trading POKéMON with that kid there.\p I had two PIKACHU, so I figured I might as well trade one.")
+}
+

@@ -2,3 +2,15 @@ mapscripts CinnabarIsland_PokemonLab_ResearchRoom_MapScripts {
 }
 
 
+text CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons {
+    format("EEVEE can evolve into one of three kinds of POKéMON.")
+}
+
+text CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail {
+    format("There's an e-mail message.\p … … …\p There are three legendary bird POKéMON.\p They are ARTICUNO, ZAPDOS, and MOLTRES.\p Their whereabouts are unknown.\p We plan to explore the cavern close to CERULEAN.\p From: POKéMON RESEARCH TEAM…")
+}
+
+text CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe {
+    format("An amber pipe!")
+}
+

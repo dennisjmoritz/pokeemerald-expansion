@@ -2,3 +2,19 @@ mapscripts FuchsiaCity_SafariZone_Office_MapScripts {
 }
 
 
+text FuchsiaCity_SafariZone_Office_Text_NicknamedWardenSlowpoke {
+    format("We nicknamed the WARDEN “SLOWPOKE.”\p You know, he has that vacant look like a SLOWPOKE.")
+}
+
+text FuchsiaCity_SafariZone_Office_Text_WardenIsVeryKnowledgeable {
+    format("WARDEN SLOWPOKE is very knowledgeable about POKéMON.\p He even has some fossils of rare, extinct POKéMON.")
+}
+
+text FuchsiaCity_SafariZone_Office_Text_CouldntUnderstandWarden {
+    format("WARDEN SLOWPOKE came in, but I couldn't understand him.\p I think he's got a speech problem!")
+}
+
+text FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone {
+    format("WARDEN SLOWPOKE is running a promotion campaign right now.\p Try to get to the farthest corner of the SAFARI ZONE.\p If you can make it, you'll win a very convenient prize.")
+}
+

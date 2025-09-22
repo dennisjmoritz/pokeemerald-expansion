@@ -2,3 +2,11 @@ mapscripts OneIsland_House1_MapScripts {
 }
 
 
+text OneIsland_House1_Text_GazeUponVolcanoOnSunnyDays {
+    format("On sunny days, I step out and gaze upon the volcano.\p That's my daily routine.")
+}
+
+text OneIsland_House1_Text_LastTimeMtEmberErupted {
+    format("Let me think… When was the last time MT. EMBER erupted?")
+}
+

@@ -3,3 +3,99 @@ mapscripts VictoryRoad_3F_MapScripts {
 }
 
 
+text Text_DoubleEdgeTeach {
+    format("You should be proud of yourself, having battled your way through\l VICTORY ROAD so courageously.\p In recognition of your feat, I'll teach you DOUBLE-EDGE.\p Would you like me to teach that technique?")
+}
+
+text Text_DoubleEdgeDeclined {
+    format("I'll teach you the technique anytime.")
+}
+
+text Text_DoubleEdgeWhichMon {
+    format("Which POKéMON should I teach DOUBLE-EDGE?")
+}
+
+text Text_DoubleEdgeTaught {
+    format("Keep that drive going for the POKéMON LEAGUE!\p Take a run at them and knock 'em out!")
+}
+
+text VictoryRoad_3F_Text_GeorgeIntro {
+    format("I heard rumors of a child prodigy.")
+}
+
+text VictoryRoad_3F_Text_GeorgeDefeat {
+    format("The rumors were true!")
+}
+
+text VictoryRoad_3F_Text_GeorgePostBattle {
+    format("So, it was you who beat GIOVANNI of TEAM ROCKET?")
+}
+
+text VictoryRoad_3F_Text_AlexaIntro {
+    format("TRAINERS live to seek stronger opponents.")
+}
+
+text VictoryRoad_3F_Text_AlexaDefeat {
+    format("Oh! So strong!")
+}
+
+text VictoryRoad_3F_Text_AlexaPostBattle {
+    format("By fighting tough battles, you get stronger.")
+}
+
+text VictoryRoad_3F_Text_CarolineIntro {
+    format("I'll show you just how good you are. Not!")
+}
+
+text VictoryRoad_3F_Text_CarolineDefeat {
+    format("I'm furious!")
+}
+
+text VictoryRoad_3F_Text_CarolinePostBattle {
+    format("You showed me just how good I was…")
+}
+
+text VictoryRoad_3F_Text_ColbyIntro {
+    format("Only the chosen can pass here!")
+}
+
+text VictoryRoad_3F_Text_ColbyDefeat {
+    format("I don't believe it!")
+}
+
+text VictoryRoad_3F_Text_ColbyPostBattle {
+    format("All TRAINERS here are headed to the POKéMON LEAGUE.\p Don't let down your guard.")
+}
+
+text VictoryRoad_3F_Text_RayIntro {
+    format("RAY: Together, the two of us are destined for greatness!")
+}
+
+text VictoryRoad_3F_Text_RayDefeat {
+    format("RAY: Ludicrous! This can't be!")
+}
+
+text VictoryRoad_3F_Text_RayPostBattle {
+    format("RAY: You've beaten us. Greatness remains elusive…")
+}
+
+text VictoryRoad_3F_Text_RayNotEnoughMons {
+    format("RAY: Together, the two of us are striving for the pinnacle.\p We need you to bring two POKéMON into battle with us.")
+}
+
+text VictoryRoad_3F_Text_TyraIntro {
+    format("TYRA: We're trying to become champions together.")
+}
+
+text VictoryRoad_3F_Text_TyraDefeat {
+    format("TYRA: Oh, but…")
+}
+
+text VictoryRoad_3F_Text_TyraPostBattle {
+    format("TYRA: You've taught me that power can be infinite in shape and form.")
+}
+
+text VictoryRoad_3F_Text_TyraNotEnoughMons {
+    format("TYRA: You can't battle with us if you have only one POKéMON.")
+}
+

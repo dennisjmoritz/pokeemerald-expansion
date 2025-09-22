@@ -2,3 +2,11 @@ mapscripts SSAnne_2F_Room3_MapScripts {
 }
 
 
+text SSAnne_2F_Room3_Text_SeenMonsFerryPeople {
+    format("Ah, yes, I have seen some POKéMON ferry people across the water!")
+}
+
+text SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown {
+    format("Small trees can be chopped down using the move CUT.\p But remember this! CUT is an HM technique.\p Once learned, it is not so easily discarded.")
+}
+

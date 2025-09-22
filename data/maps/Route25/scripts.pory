@@ -2,3 +2,123 @@ mapscripts Route25_MapScripts {
 }
 
 
+text Route25_Text_JoeyIntro {
+    format("Local TRAINERS come here to practice.")
+}
+
+text Route25_Text_JoeyDefeat {
+    format("You're decent.")
+}
+
+text Route25_Text_JoeyPostBattle {
+    format("All POKéMON have weaknesses. Even the strongest ones.\p That's why it's best to raise POKéMON of different types.")
+}
+
+text Route25_Text_DanIntro {
+    format("Dad took me to a great party on the S.S. ANNE at VERMILION CITY.")
+}
+
+text Route25_Text_DanDefeat {
+    format("I'm not mad!")
+}
+
+text Route25_Text_DanPostBattle {
+    format("On the S.S. ANNE, I saw TRAINERS from around the world.")
+}
+
+text Route25_Text_FlintIntro {
+    format("I'm a cool guy. I've got a girlfriend!")
+}
+
+text Route25_Text_FlintDefeat {
+    format("Aww, darn…")
+}
+
+text Route25_Text_FlintPostBattle {
+    format("Oh, well. My girlfriend will cheer me up.")
+}
+
+text Route25_Text_KelseyIntro {
+    format("Hi! My boyfriend is cool!")
+}
+
+text Route25_Text_KelseyDefeat {
+    format("My conditioning isn't the best…")
+}
+
+text Route25_Text_KelseyPostBattle {
+    format("I wish my boyfriend was as good as you.")
+}
+
+text Route25_Text_ChadIntro {
+    format("I had this feeling… I knew I had to battle you!")
+}
+
+text Route25_Text_ChadDefeat {
+    format("I knew I'd lose, too!")
+}
+
+text Route25_Text_ChadPostBattle {
+    format("If your POKéMON gets confused, switch it out.\p That's a good tactic.")
+}
+
+text Route25_Text_HaleyIntro {
+    format("My friend has many cute POKéMON. I'm so jealous!")
+}
+
+text Route25_Text_HaleyDefeat {
+    format("I'm not so jealous!")
+}
+
+text Route25_Text_HaleyPostBattle {
+    format("You came from MT. MOON? May I have a CLEFAIRY?")
+}
+
+text Route25_Text_FranklinIntro {
+    format("I just got down from MT. MOON, but I've still got gas in the tank!")
+}
+
+text Route25_Text_FranklinDefeat {
+    format("You worked hard!")
+}
+
+text Route25_Text_FranklinPostBattle {
+    format("Drat! A ZUBAT bit me back in that cave.")
+}
+
+text Route25_Text_NobIntro {
+    format("I'm off to see a POKéMANIAC's collection at the cape.")
+}
+
+text Route25_Text_NobDefeat {
+    format("You done got me, and real good, too!")
+}
+
+text Route25_Text_NobPostBattle {
+    format("The POKéMANIAC sure lives up to his name.\p His collection includes many rare species of POKéMON.")
+}
+
+text Route25_Text_WayneIntro {
+    format("You're going to see BILL? First, we battle!")
+}
+
+text Route25_Text_WayneDefeat {
+    format("You're something.")
+}
+
+text Route25_Text_WaynePostBattle {
+    format("The trail below is a shortcut to CERULEAN CITY.")
+}
+
+text Route25_Text_SeaCottageSign {
+    format("SEA COTTAGE BILL lives here!")
+}
+
+text Route25_Text_MistyHighHopesAboutThisPlace {
+    format("This cape is a famous date spot.\p MISTY, the GYM LEADER, has high hopes about this place.")
+}
+
+text Route25_Text_AreYouHereAlone {
+    format("Hello, are you here alone?\p If you're out at CERULEAN's cape… Well, it should be as a couple.")
+}
+

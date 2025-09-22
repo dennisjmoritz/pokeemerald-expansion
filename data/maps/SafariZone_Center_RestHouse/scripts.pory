@@ -2,3 +2,11 @@ mapscripts SafariZone_Center_RestHouse_MapScripts {
 }
 
 
+text SafariZone_Center_Text_WhereDidErikGo {
+    format("SARA: Where did my boyfriend, ERIK, go?")
+}
+
+text SafariZone_Center_Text_CatchingMonsAsGifts {
+    format("I'm catching POKéMON to take home as gifts.")
+}
+

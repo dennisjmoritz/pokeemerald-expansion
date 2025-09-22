@@ -4,3 +4,19 @@ mapscripts CeruleanCity_PokemonCenter_1F_MapScripts {
 }
 
 
+text CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons {
+    format("That BILL!\p I heard that he'll do whatever it takes to get rare POKéMON.\p He's not above doing all sorts of things, I've heard.")
+}
+
+text CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac {
+    format("Have you heard about BILL?\p Everyone calls him a POKéMANIAC!\p I think people are just jealous of BILL, though.\p Who wouldn't want to boast about their POKéMON?")
+}
+
+text CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons {
+    format("BILL has lots of POKéMON! He collects rare ones, too!")
+}
+
+text CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs {
+    format("Why don't you go upstairs and try trading POKéMON with your friends?\p You could get a lot more variety by trading.\p The POKéMON you get in trades grow quickly, too.")
+}
+

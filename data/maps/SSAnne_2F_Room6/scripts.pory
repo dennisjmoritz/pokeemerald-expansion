@@ -2,3 +2,11 @@ mapscripts SSAnne_2F_Room6_MapScripts {
 }
 
 
+text SSAnne_2F_Room6_Text_CaptainIsAwfullySick {
+    format("The CAPTAIN said he's awfully sick. He was all pale.")
+}
+
+text SSAnne_2F_Room6_Text_ManyPeopleGetSeasick {
+    format("I hear many people get seasick.")
+}
+

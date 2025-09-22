@@ -2,3 +2,7 @@ mapscripts CeladonCity_Condominiums_2F_MapScripts {
 }
 
 
+text CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom {
+    format("GAME FREAK Meeting Room")
+}
+

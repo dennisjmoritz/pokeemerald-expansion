@@ -2,3 +2,59 @@ mapscripts CinnabarIsland_PokemonLab_ExperimentRoom_MapScripts {
 }
 
 
+text Text_MetronomeTeach {
+    format("Tch-tch-tch! I'll teach you a nifty move.\p Teach it to a POKéMON, and watch the fun unfold!\p It's a move called METRONOME. Does it strike your fancy?")
+}
+
+text Text_MetronomeDeclined {
+    format("I tell you, it's a lot of fun!")
+}
+
+text Text_MetronomeWhichMon {
+    format("Okay! Which POKéMON should I teach?")
+}
+
+text Text_MetronomeTaught {
+    format("Tch-tch-tch! That's the sound of a METRONOME.\p It tweaks your POKéMON's brain into using moves it doesn't even know.")
+}
+
+text CinnabarIsland_PokemonLab_ExperimentRoom_Text_HaveYouAFossilForMe {
+    format("Hiya!\p I am important doctor. Yes, very much so, indeed.\p Here, I study rare POKéMON fossils. All the time, I study.\p You! Have you a fossil for me?")
+}
+
+text CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoIsTooBad {
+    format("No! Is too bad!")
+}
+
+text CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalkJP {
+    format("ちょっと　じかん　かかるよ！\p そこらへんを　すこし ブラブラ　してくると　よろしー！")
+}
+
+text CinnabarIsland_PokemonLab_ExperimentRoom_Text_FossilMonBackToLife {
+    format("You late. Where were you?\p Your fossil is back to life! It was {STR_VAR_1} like I think!")
+}
+
+text CinnabarIsland_PokemonLab_ExperimentRoom_Text_ReceivedMonFromDoctor {
+    format("{PLAYER} received the {STR_VAR_1} from the doctor.")
+}
+
+text CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoRoomForPokemon {
+    format("ポケモン　いっぱいで　もてないね！")
+}
+
+text CinnabarIsland_PokemonLab_ExperimentRoom_Text_ThatFossilIsOfMonMakeItLiveAgain {
+    format("Oh! That is {STR_VAR_2}, it is!\p It is fossil of {STR_VAR_1}, a POKéMON that is already extinct!\p My Resurrection Machine will make that POKéMON live again!")
+}
+
+text CinnabarIsland_PokemonLab_ExperimentRoom_Text_HandedFossilToWeirdDoctor {
+    format("So! You hurry and give me that!\p {FONT_NORMAL}{PLAYER} handed over the {STR_VAR_2} to the weird doctor.")
+}
+
+text CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalk {
+    format("I take a little time! You go for walk a little while!")
+}
+
+text CinnabarIsland_PokemonLab_ExperimentRoom_Text_YouComeAgain {
+    format("Aiyah! You come again!")
+}
+

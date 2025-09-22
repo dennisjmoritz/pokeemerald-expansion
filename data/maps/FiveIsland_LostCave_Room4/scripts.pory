@@ -2,3 +2,15 @@ mapscripts FiveIsland_LostCave_Room4_MapScripts {
 }
 
 
+text FiveIsland_LostCave_Room4_Text_LauraIntro {
+    format("I think there is a mysterious power at work in this cave.")
+}
+
+text FiveIsland_LostCave_Room4_Text_LauraDefeat {
+    format("If you don't go into the right tunnel, you won't get ahead.")
+}
+
+text FiveIsland_LostCave_Room4_Text_LauraPostBattle {
+    format("Earlier, a lady went into the caves ahead.")
+}
+

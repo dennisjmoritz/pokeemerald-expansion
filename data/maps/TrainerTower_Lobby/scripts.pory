@@ -7,3 +7,87 @@ mapscripts TrainerTower_Lobby_MapScripts {
 }
 
 
+text TrainerTower_Lobby_Text_WelcomeToTrainerTower {
+    format("Hello!\p Welcome to TRAINER TOWER where TRAINERS gather from all over!")
+}
+
+text TrainerTower_Lobby_Text_TrainersUpToFloorNum {
+    format("TRAINERS from all over the world gather here to battle.\p Let me see…\p Right now, there are TRAINERS only up to Floor {STR_VAR_1}.")
+}
+
+text TrainerTower_Lobby_Text_TrainersUpEighthFloor {
+    format("TRAINERS are awaiting your challenge up to the eighth floor.")
+}
+
+text TrainerTower_Lobby_Text_LikeToChallengeTrainers {
+    format("Would you like to challenge the waiting TRAINERS?")
+}
+
+text TrainerTower_Lobby_Text_StartClockGetSetGo {
+    format("Okay, I'll get the clock started, so give it everything you have.\p On your marks…\p Get set…\p Go!")
+}
+
+text TrainerTower_Lobby_Text_PleaseVisitUsAgain {
+    format("Please do visit us again!")
+}
+
+text TrainerTower_Lobby_Text_TooBadComeBackTryAgain {
+    format("That was too bad.\p I think you put in a tremendous effort in your battling.\p Please come back and try again!")
+}
+
+text TrainerTower_Lobby_Text_GiveItYourBest {
+    format("I hope you give it your best.")
+}
+
+text TrainerTower_Lobby_Text_MoveCounterHereWhenTrainersSwitch {
+    format("When the TRAINERS switch places, the movement can be hectic.\p To avoid the stampede, we moved the reception counter here.\p I'm sorry for the inconvenience.")
+}
+
+text TrainerTower_Roof_Text_ImOwnerBattledPerfectly {
+    format("Hello…\p I am the owner of this TOWER…\p How the sky soars above this rooftop…\p The caress of the winds up here…\p It's all so perfect…\p The way you battled… It, too, was perfection…")
+}
+
+text TrainerTower_Roof_Text_ThisIsForYou {
+    format("This is for you…")
+}
+
+text TrainerTower_Roof_Text_DoneItInRecordTime {
+    format("Oh! Stupendous!\p It's marvelous how you've come up here so quickly.\p The fact is, you've done it in record time…\p I'll have your record posted at the reception counter.")
+}
+
+text TrainerTower_Roof_Text_TookSweetTimeGettingHere {
+    format("You seem to have taken your sweet time getting here…")
+}
+
+text TrainerTower_Roof_Text_IdLikeToSeeBetterTime {
+    format("What I would like to see is a better time out of you…\p I'm counting on you.\p Until then, farewell…")
+}
+
+text TrainerTower_Text_XMinYZSec {
+    format("{STR_VAR_1} min. {STR_VAR_2}.{STR_VAR_3} sec.")
+}
+
+text TrainerTower_Lobby_Text_HereAreTheResults {
+    format("せいせきひょうです")
+}
+
+text TrainerTower_Lobby_Text_NeedTwoMonsForDouble {
+    format("This is a two-on-two battle.\p You may not battle unless you have at least two POKéMON.")
+}
+
+text TrainerTower_Lobby_Text_ExplainTrainerTower {
+    format("Here at TRAINER TOWER, there is an event called TIME ATTACK.\p You will be timed on how quickly you can get from the reception\l counter to the OWNER on the roof.\p The best times will be recorded on the Time Board.\p Try competing with friends to see who can beat it the fastest.\p You will not earn any EXP. Points or money by beating TRAINERS here.")
+}
+
+text TrainerTower_Lobby_Text_ThanksForCompeting {
+    format("Thank you for competing!")
+}
+
+text TrainerTower_Lobby_Text_WonderWhatKindsOfTrainers {
+    format("I'm here to see how good I am.\p I wonder what kinds of TRAINERS are waiting for me?\p It's nerve-racking!")
+}
+
+text TrainerTower_Lobby_Text_StairsTougherThanAnyBattle {
+    format("Gasp, gasp… Gasp…\p Never mind battling! These stairs… They're tougher than any battle…")
+}
+

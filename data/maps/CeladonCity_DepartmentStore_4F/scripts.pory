@@ -2,3 +2,15 @@ mapscripts CeladonCity_DepartmentStore_4F_MapScripts {
 }
 
 
+text CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent {
+    format("I'm getting a present for my girlfriend.\p I guess a POKé DOLL will be it. It's the popular thing.")
+}
+
+text CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll {
+    format("I heard something useful.\p If a wild POKéMON appears, you can distract it with a POKé DOLL.\p You can run away while the wild POKéMON is distracted.")
+}
+
+text CeladonCity_DepartmentStore_4F_Text_FloorSign {
+    format("Express yourself with gifts! 4F: WISE MAN GIFTS\p Evolution Special! Element STONES on sale now!")
+}
+

@@ -2,3 +2,23 @@ mapscripts SafariZone_North_MapScripts {
 }
 
 
+text SafariZone_North_Text_RestHouse {
+    format("REST HOUSE")
+}
+
+text SafariZone_North_Text_SecretHouseStillAhead {
+    format("TRAINER TIPS\p The SECRET HOUSE is still ahead.")
+}
+
+text SafariZone_North_Text_Area2 {
+    format("AREA 2")
+}
+
+text SafariZone_North_Text_ZigzagThroughTallGrass {
+    format("TRAINER TIPS\p POKéMON hide in tall grass.\p Zigzag through grassy areas to flush them out.")
+}
+
+text SafariZone_North_Text_WinFreeHMFindSecretHouse {
+    format("TRAINER TIPS\p Win a free HM for finding the SECRET HOUSE.")
+}
+

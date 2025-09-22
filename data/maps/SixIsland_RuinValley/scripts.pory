@@ -3,3 +3,87 @@ mapscripts SixIsland_RuinValley_MapScripts {
 }
 
 
+text SixIsland_RuinValley_Text_CantFigureOutHowToGetInside {
+    format("I can't figure out how I'm supposed to get inside.")
+}
+
+text SixIsland_RuinValley_Text_IFoundThisPlace {
+    format("Let me tell you, I found this place.\p Don't look so envious, will you?")
+}
+
+text SixIsland_RuinValley_Text_CheckDoorMoreThoroughly {
+    format("The door doesn't budge at all. Check it more thoroughly?")
+}
+
+text SixIsland_RuinValley_Text_LeftDoorAlone {
+    format("{PLAYER} left the door alone.")
+}
+
+text SixIsland_RuinValley_Text_SeveralDotsOnTheDoor {
+    format("On closer inspection, there are several dots on the door…")
+}
+
+text SixIsland_RuinValley_Text_DoorIsOpen {
+    format("The door is open.")
+}
+
+text SixIsland_RuinValley_Text_StanlyIntro {
+    format("There appear to be many secrets still unsolved in this world.")
+}
+
+text SixIsland_RuinValley_Text_StanlyDefeat {
+    format("Hmm…")
+}
+
+text SixIsland_RuinValley_Text_StanlyPostBattle {
+    format("I suggest to you that you, too, give a thought to the secrets and\l mysteries of our world once a day.")
+}
+
+text SixIsland_RuinValley_Text_FosterIntro {
+    format("I'm curious, what compelled you to come here?")
+}
+
+text SixIsland_RuinValley_Text_FosterDefeat {
+    format("It's been so long since I battled, my instincts are off.")
+}
+
+text SixIsland_RuinValley_Text_FosterPostBattle {
+    format("There are several ruins on the SEVII ISLANDS.\p The majority of them date back a long way.")
+}
+
+text SixIsland_RuinValley_Text_LarryIntro {
+    format("It's been said that there are mysterious stones on this island.\p I suspect it has something to do with the ruins here.")
+}
+
+text SixIsland_RuinValley_Text_LarryDefeat {
+    format("Oh, interesting.")
+}
+
+text SixIsland_RuinValley_Text_LarryPostBattle {
+    format("Those ruins over there…\p I haven't had any luck in finding how I can get inside.")
+}
+
+text SixIsland_RuinValley_Text_DarylIntro {
+    format("A battle with you, so high up!")
+}
+
+text SixIsland_RuinValley_Text_DarylDefeat {
+    format("Oh, the heartbreak of losing so easily to you!")
+}
+
+text SixIsland_RuinValley_Text_DarylPostBattle {
+    format("Experience the joy of climbing!")
+}
+
+text SixIsland_RuinValley_Text_HectorIntro {
+    format("I'm pretty familiar with the land around these parts.")
+}
+
+text SixIsland_RuinValley_Text_HectorDefeat {
+    format("You don't need to be so pushy. I'll be happy to tell you.")
+}
+
+text SixIsland_RuinValley_Text_HectorPostBattle {
+    format("The door to the ruins… It has these strange patterns\l engraved on the outside.\p I don't know what they mean, though.")
+}
+

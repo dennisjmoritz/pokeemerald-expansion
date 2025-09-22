@@ -2,3 +2,15 @@ mapscripts SixIsland_DottedHole_SapphireRoom_MapScripts {
 }
 
 
+text SixIsland_DottedHole_SapphireRoom_Text_FoundSapphire {
+    format("{PLAYER} found a SAPPHIRE!")
+}
+
+text SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou {
+    format("Fufu… Fufufufu… I guessed right.\p I was right in tailing you!")
+}
+
+text SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword {
+    format("I knew that there was a SAPPHIRE here, so it belongs to me!\p I'll sell it to TEAM ROCKET for serious money.\p …D-don't glare at me like that!\p If you want it back, why don't you go get it after I sell it?\p I'll even tell you one of the passwords to TEAM ROCKET's\l WAREHOUSE.\p The WAREHOUSE password I know is “Yes, nah, CHANSEY.”\p I'm done. Don't think badly of me!")
+}
+

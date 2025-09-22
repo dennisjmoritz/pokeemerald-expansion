@@ -4,3 +4,15 @@ mapscripts LavenderTown_PokemonCenter_1F_MapScripts {
 }
 
 
+text LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney {
+    format("TEAM ROCKET will do anything for the sake of money!\p There is no job too dirty, no deed too heinous, no crime too wicked!")
+}
+
+text LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets {
+    format("I saw CUBONE's mother trying to escape from TEAM ROCKET.\p She was killed trying to get away…")
+}
+
+text LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls {
+    format("You know how the CUBONE species wears skulls, right?\p People will pay a lot for one.")
+}
+

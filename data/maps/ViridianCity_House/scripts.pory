@@ -2,3 +2,19 @@ mapscripts ViridianCity_House_MapScripts {
 }
 
 
+text ViridianCity_House_Text_NicknamingIsFun {
+    format("Coming up with nicknames is fun, but it's not so easy to do.\p Clever names are nice, but simple names are easier to remember.")
+}
+
+text ViridianCity_House_Text_MyDaddyLovesMonsToo {
+    format("My daddy loves POKéMON, too.")
+}
+
+text ViridianCity_House_Text_Speary {
+    format("SPEARY: Tetweet!")
+}
+
+text ViridianCity_House_Text_SpearowNameSpeary {
+    format("SPEAROW Name: SPEARY")
+}
+

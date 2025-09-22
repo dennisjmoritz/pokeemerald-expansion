@@ -2,3 +2,27 @@ mapscripts SSAnne_B1F_Room1_MapScripts {
 }
 
 
+text SSAnne_B1F_Room1_Text_PhillipIntro {
+    format("Matey, you're walking the plank if you lose!")
+}
+
+text SSAnne_B1F_Room1_Text_PhillipDefeat {
+    format("Argh! Beaten by a kid!")
+}
+
+text SSAnne_B1F_Room1_Text_PhillipPostBattle {
+    format("When we're out at sea, jellyfish POKéMON sometimes drift by.")
+}
+
+text SSAnne_B1F_Room1_Text_BarnyIntro {
+    format("Hello, stranger!\p I can't tell if you're from the seas or mountains, but stop and chat.\p All my POKéMON are from the sea.")
+}
+
+text SSAnne_B1F_Room1_Text_BarnyDefeat {
+    format("Darn! I let that one get away!")
+}
+
+text SSAnne_B1F_Room1_Text_BarnyPostBattle {
+    format("I was going to make you my assistant, too!")
+}
+

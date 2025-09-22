@@ -2,3 +2,19 @@ mapscripts SaffronCity_MrPsychicsHouse_MapScripts {
 }
 
 
+text SaffronCity_MrPsychicsHouse_Text_YouWantedThis {
+    format("…Wait! Don't say a word!\p You wanted this!")
+}
+
+text SaffronCity_MrPsychicsHouse_Text_ReceivedTM29FromMrPsychic {
+    format("{PLAYER} received TM29 from MR. PSYCHIC.")
+}
+
+text SaffronCity_MrPsychicsHouse_Text_ExplainTM29 {
+    format("You already know, don't you? TM29 is PSYCHIC.\p It's an attack that may also lower the target's special stats.")
+}
+
+text SaffronCity_MrPsychicsHouse_Text_YouveNoRoom {
+    format("Where do you plan to put this? You've no room.")
+}
+

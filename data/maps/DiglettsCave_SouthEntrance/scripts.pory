@@ -2,3 +2,7 @@ mapscripts DiglettsCave_SouthEntrance_MapScripts {
 }
 
 
+text DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel {
+    format("Well, isn't this a surprise! DIGLETT dug this long tunnel!\p It goes right to VIRIDIAN CITY, they tell me.")
+}
+

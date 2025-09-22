@@ -3,3 +3,43 @@ mapscripts PokemonMansion_3F_MapScripts {
 }
 
 
+text PokemonMansion_Text_PressSecretSwitchJP {
+    format("ひみつの　スイッチが　ある！\p おして　みますか？")
+}
+
+text PokemonMansion_Text_LetsTryIt {
+    format("おしてみよう！　‥ポチッとな")
+}
+
+text PokemonMansion_Text_GaveUpOnPressingSwitch {
+    format("おすのは　あきらめた")
+}
+
+text PokemonMansion_1F_Text_SimonIntro {
+    format("This place is, like, huge!")
+}
+
+text PokemonMansion_1F_Text_SimonDefeat {
+    format("Ayah!")
+}
+
+text PokemonMansion_1F_Text_SimonPostBattle {
+    format("I wonder where my partner went.")
+}
+
+text PokemonMansion_1F_Text_BraydonIntro {
+    format("My mentor once lived here.")
+}
+
+text PokemonMansion_1F_Text_BraydonDefeat {
+    format("Whew! Overwhelming!")
+}
+
+text PokemonMansion_1F_Text_BraydonPostBattle {
+    format("So, you're stuck? Try jumping off over there!")
+}
+
+text PokemonMansion_1F_Text_MewGaveBirthToMewtwo {
+    format("Diary: Feb. 6 MEW gave birth.\p We named the newborn MEWTWO.")
+}
+

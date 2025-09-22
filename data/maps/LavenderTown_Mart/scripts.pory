@@ -2,3 +2,19 @@ mapscripts LavenderTown_Mart_MapScripts {
 }
 
 
+text LavenderTown_Mart_Text_SearchingForStatRaiseItems {
+    format("I'm searching for items that raise the stats of POKéMON.\p They're effective over the course of a single battle.\p X ATTACK, X DEFEND, X SPEED, and X SPECIAL are what I'm after.\p Do you know where I can get them?")
+}
+
+text LavenderTown_Mart_Text_DidYouBuyRevives {
+    format("Did you buy some REVIVES? They revive any fainted POKéMON!")
+}
+
+text LavenderTown_Mart_Text_TrainerDuosCanChallengeYou {
+    format("Sometimes, a TRAINER duo will challenge you with two POKéMON\l at the same time.\p If that happens, you have to send out two POKéMON to battle, too.")
+}
+
+text LavenderTown_Mart_Text_SoldNuggetFromMountainsFor5000 {
+    format("この　あいだ　やまおくで きんのたまを　ひろい　ましてね！\p つかえない　しなもの　ですが うったら　なんと　5000¥でした")
+}
+

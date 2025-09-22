@@ -2,3 +2,11 @@ mapscripts ThreeIsland_House1_MapScripts {
 }
 
 
+text ThreeIsland_House1_Text_YoureAlwaysSoCool {
+    format("LOSTELLE: Hi, {PLAYER}! You're always so cool!\p I'll make lunch for you, too, one day, {PLAYER}.")
+}
+
+text ThreeIsland_House1_Text_RareRocksGemsDisplayed {
+    format("Rare rocks and gems are displayed.")
+}
+

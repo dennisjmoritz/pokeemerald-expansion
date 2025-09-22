@@ -2,3 +2,99 @@ mapscripts Route24_MapScripts {
 }
 
 
+text Route24_Text_JustEarnedFabulousPrize {
+    format("Congratulations! You beat our five contest TRAINERS!\p You just earned a fabulous prize!")
+}
+
+text Route24_Text_ReceivedNuggetFromMysteryTrainer {
+    format("{PLAYER} received a NUGGET from the mystery TRAINER!")
+}
+
+text Route24_Text_YouDontHaveAnyRoom {
+    format("You don't have any room!")
+}
+
+text Route24_Text_JoinTeamRocket {
+    format("By the way, how would you like to join TEAM ROCKET?\p We're a group of professional criminals specializing in POKéMON!\p Want to join?\p Are you sure?\p Come on, join us!\p I'm telling you to join!\p …Okay, you need convincing!\p I'll make you an offer you can't refuse!")
+}
+
+text Route24_Text_RocketDefeat {
+    format("Arrgh! You are good!")
+}
+
+text Route24_Text_YoudBecomeTopRocketLeader {
+    format("With your ability, you'd become a top leader in TEAM ROCKET.\p Come on, think of the opportunity! Don't let this chance go to waste.")
+}
+
+text Route24_Text_ShaneIntro {
+    format("I saw your feat from the grass!")
+}
+
+text Route24_Text_ShaneDefeat {
+    format("I thought not!")
+}
+
+text Route24_Text_ShanePostBattle {
+    format("I hid because the people on the bridge frightened me.")
+}
+
+text Route24_Text_EthanIntro {
+    format("Okay! I'm No. 5! I'll stomp you!")
+}
+
+text Route24_Text_EthanDefeat {
+    format("Whoa! Too much!")
+}
+
+text Route24_Text_EthanPostBattle {
+    format("I did my best. I have no regrets!")
+}
+
+text Route24_Text_ReliIntro {
+    format("I'm No. 4! Getting tired?")
+}
+
+text Route24_Text_ReliDefeat {
+    format("I lost, too!")
+}
+
+text Route24_Text_ReliPostBattle {
+    format("I did my best, so I've no regrets!")
+}
+
+text Route24_Text_TimmyIntro {
+    format("Here's No. 3! I won't be easy!")
+}
+
+text Route24_Text_TimmyDefeat {
+    format("Ow! Stomped flat!")
+}
+
+text Route24_Text_TimmyPostBattle {
+    format("I did my best. I have no regrets!")
+}
+
+text Route24_Text_AliIntro {
+    format("I'm second! Now it's serious!")
+}
+
+text Route24_Text_AliDefeat {
+    format("How could I lose?")
+}
+
+text Route24_Text_AliPostBattle {
+    format("I did my best. I have no regrets!")
+}
+
+text Route24_Text_CaleIntro {
+    format("People call this the NUGGET BRIDGE!\p Beat us five TRAINERS and win a fabulous prize!\p Think you got what it takes?")
+}
+
+text Route24_Text_CaleDefeat {
+    format("Whoo! Good stuff!")
+}
+
+text Route24_Text_CalePostBattle {
+    format("I did my best. I have no regrets!")
+}
+

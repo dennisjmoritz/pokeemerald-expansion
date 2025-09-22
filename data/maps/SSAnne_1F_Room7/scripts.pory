@@ -2,3 +2,15 @@ mapscripts SSAnne_1F_Room7_MapScripts {
 }
 
 
+text SSAnne_1F_Room7_Text_ThomasIntro {
+    format("I am but a solitary traveler…\p My sole companions and friends are POKéMON I caught on my journeys…")
+}
+
+text SSAnne_1F_Room7_Text_ThomasDefeat {
+    format("My, my friends…")
+}
+
+text SSAnne_1F_Room7_Text_ThomasPostBattle {
+    format("You should be nice to friends!")
+}
+

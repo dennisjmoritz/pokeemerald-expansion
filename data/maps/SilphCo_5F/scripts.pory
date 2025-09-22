@@ -3,3 +3,79 @@ mapscripts SilphCo_5F_MapScripts {
 }
 
 
+text SilphCo_5F_Text_RocketsInUproarAboutIntruder {
+    format("TEAM ROCKET is in an uproar over some intruder.\p That's you, right?")
+}
+
+text SilphCo_5F_Text_YoureOurHeroThankYou {
+    format("TEAM ROCKET took off! You're our hero! Thank you!")
+}
+
+text SilphCo_5F_Text_Grunt1Intro {
+    format("I heard a kid was wandering around.")
+}
+
+text SilphCo_5F_Text_Grunt1Defeat {
+    format("Boom!")
+}
+
+text SilphCo_5F_Text_Grunt1PostBattle {
+    format("It's not smart to pick a fight with TEAM ROCKET!")
+}
+
+text SilphCo_5F_Text_BeauIntro {
+    format("We study POKé BALL technology on this floor.")
+}
+
+text SilphCo_5F_Text_BeauDefeat {
+    format("Dang! Blast it!")
+}
+
+text SilphCo_5F_Text_BeauPostBattle {
+    format("We worked on the ultimate POKé BALL which would catch anything.")
+}
+
+text SilphCo_5F_Text_DaltonIntro {
+    format("Whaaat?\p There shouldn't be any children here!")
+}
+
+text SilphCo_5F_Text_DaltonDefeat {
+    format("Oh, goodness!")
+}
+
+text SilphCo_5F_Text_DaltonPostBattle {
+    format("You're only on 5F. It's a long way to my BOSS!")
+}
+
+text SilphCo_5F_Text_Grunt2Intro {
+    format("Show TEAM ROCKET a little respect!")
+}
+
+text SilphCo_5F_Text_Grunt2Defeat {
+    format("Cough… Cough…")
+}
+
+text SilphCo_5F_Text_Grunt2PostBattle {
+    format("Which reminds me.\p KOFFING evolves into WEEZING!")
+}
+
+text SilphCo_5F_Text_PorygonFirstVRMon {
+    format("It's a POKéMON REPORT!\p POKéMON LAB created PORYGON, the first virtual-reality POKéMON.")
+}
+
+text SilphCo_5F_Text_Over350TechniquesConfirmed {
+    format("It's a POKéMON REPORT!\p Over 350 POKéMON techniques have been confirmed.")
+}
+
+text SilphCo_5F_Text_SomeMonsEvolveWhenTraded {
+    format("It's a POKéMON REPORT!\p Some POKéMON have been confirmed to evolve when they are traded.")
+}
+
+text SilphCo_5F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 5F")
+}
+
+text SilphCo_5F_Text_RocketBossLookingForStrongMons {
+    format("Those thugs that took over our building…\p Their BOSS said he was looking for strong POKéMON.\p I hope our PRESIDENT managed to avoid trouble…")
+}
+

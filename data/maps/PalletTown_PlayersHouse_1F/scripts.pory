@@ -2,3 +2,31 @@ mapscripts PalletTown_PlayersHouse_1F_MapScripts {
 }
 
 
+text PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou {
+    format("MOM: …Right. All boys leave home someday.\l It said so on TV.\p Oh, yes. PROF. OAK, next door, was looking for you.")
+}
+
+text PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou {
+    format("MOM: …Right. All girls dream of traveling.\l It said so on TV.\p Oh, yes. PROF. OAK, next door, was looking for you.")
+}
+
+text PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest {
+    format("MOM: {PLAYER}! You should take a quick rest.")
+}
+
+text PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare {
+    format("MOM: Oh, good! You and your POKéMON are looking great.\l Take care now!")
+}
+
+text PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad {
+    format("There's a movie on TV. Four boys are walking on railroad\l tracks.\p …I better go, too.")
+}
+
+text PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad {
+    format("There's a movie on TV. A girl with her hair in pigtails is\l walking up a brick road.\p …I better go, too.")
+}
+
+text PalletTown_PlayersHouse_1F_Text_OopsWrongSide {
+    format("Oops, wrong side…")
+}
+

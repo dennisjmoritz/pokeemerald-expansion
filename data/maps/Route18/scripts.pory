@@ -4,3 +4,47 @@ mapscripts Route18_MapScripts {
 }
 
 
+text Route18_Text_WiltonIntro {
+    format("I always check every grassy area for new POKéMON.")
+}
+
+text Route18_Text_WiltonDefeat {
+    format("Tch!")
+}
+
+text Route18_Text_WiltonPostBattle {
+    format("I wish I had a BIKE!")
+}
+
+text Route18_Text_RamiroIntro {
+    format("Kurukkoo! How do you like my birdcall?")
+}
+
+text Route18_Text_RamiroDefeat {
+    format("I had to bug you!")
+}
+
+text Route18_Text_RamiroPostBattle {
+    format("I collect sea POKéMON on weekends because the sea is so close.")
+}
+
+text Route18_Text_JacobIntro {
+    format("This is my turf! Get out of here!")
+}
+
+text Route18_Text_JacobDefeat {
+    format("Darn!")
+}
+
+text Route18_Text_JacobPostBattle {
+    format("This is my fave area for catching POKéMON.")
+}
+
+text Route18_Text_RouteSign {
+    format("ROUTE 18 CELADON CITY - FUCHSIA CITY")
+}
+
+text Route18_Text_CyclingRoadSign {
+    format("CYCLING ROAD No pedestrians permitted!")
+}
+

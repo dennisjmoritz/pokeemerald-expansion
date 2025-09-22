@@ -3,3 +3,43 @@ mapscripts SevenIsland_TrainerTower_MapScripts {
 }
 
 
+text SevenIsland_TrainerTower_Text_DarioIntro {
+    format("I sensed your approach.")
+}
+
+text SevenIsland_TrainerTower_Text_DarioDefeat {
+    format("Give up…")
+}
+
+text SevenIsland_TrainerTower_Text_DarioPostBattle {
+    format("In your future, I sense that you will meet many others.\p I think you will be linked to each other by a strange power.")
+}
+
+text SevenIsland_TrainerTower_Text_RodetteIntro {
+    format("Somewhere on this island, peculiar POKéMON are sleeping.")
+}
+
+text SevenIsland_TrainerTower_Text_RodetteDefeat {
+    format("What an amazing TRAINER!")
+}
+
+text SevenIsland_TrainerTower_Text_RodettePostBattle {
+    format("Somewhere on this island, peculiar POKéMON are sleeping.\p Could it be that they're waiting for you?")
+}
+
+text SevenIsland_TrainerTower_Text_TrainerTowerSign {
+    format("TRAINER TOWER ENTRANCE Rise to the Challenge, TRAINERS!")
+}
+
+text SevenIsland_TrainerTower_Text_TrainerTowerAhead {
+    format("TRAINER TOWER AHEAD")
+}
+
+text SevenIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed {
+    format("トレーナータワーには いまは　はいれない　みたい‥")
+}
+
+text SevenIsland_TrainerTower_Text_TrainerTowerIsOpenLetsGoIn {
+    format("トレーナータワーが　あいてる！ さっそく　はいってみよう！")
+}
+

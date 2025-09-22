@@ -4,3 +4,15 @@ mapscripts ThreeIsland_PokemonCenter_1F_MapScripts {
 }
 
 
+text ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto {
+    format("Hey, did you hear the news?\p The PC network here can now link with PCs in KANTO.\p I don't know how that came about, but it's fantastic!")
+}
+
+text ThreeIsland_PokemonCenter_1F_Text_ImpossibleToSurfBetweenIslands {
+    format("It's impossible to SURF between the islands around these parts.\p The tides are too fast and treacherous.")
+}
+
+text ThreeIsland_PokemonCenter_1F_Text_AlwaysBerriesInBerryForest {
+    format("Let's crush BERRIES! …That'd be wasting BERRIES?\p You can always find some BERRIES on the ground in BERRY FOREST.")
+}
+

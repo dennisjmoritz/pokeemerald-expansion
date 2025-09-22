@@ -2,3 +2,11 @@ mapscripts PewterCity_House2_MapScripts {
 }
 
 
+text PewterCity_House2_Text_MonsLearnTechniquesAsTheyGrow {
+    format("POKéMON learn new techniques as they grow.\p But some moves must be taught to them by people.")
+}
+
+text PewterCity_House2_Text_MonsEasierCatchIfStatused {
+    format("A POKéMON becomes easier to catch if it has a status problem.\p Sleep, poison, burn, or paralysis… Those are all effective.\p But catching POKéMON is never a sure thing!")
+}
+

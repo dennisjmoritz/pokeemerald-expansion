@@ -2,3 +2,119 @@ mapscripts FuchsiaCity_Gym_MapScripts {
 }
 
 
+text FuchsiaCity_Gym_Text_KogaIntro {
+    format("KOGA: Fwahahaha!\p A mere child like you dares to challenge me?\p The very idea makes me shiver with mirth!\p Very well, I shall show you true terror as a ninja master.\p Poison brings steady doom. Sleep renders foes helpless.\p Despair to the creeping horror of POISON-type POKéMON!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}")
+}
+
+text FuchsiaCity_Gym_Text_KogaDefeat {
+    format("Humph! You have proven your worth!\p Here! Take the SOULBADGE!")
+}
+
+text FuchsiaCity_Gym_Text_KogaPostBattle {
+    format("When afflicted by TOXIC, a POKéMON suffers more and more.\p It suffers worsening damage as the battle wears on!\p It will surely terrorize foes!")
+}
+
+text FuchsiaCity_Gym_Text_KogaExplainSoulBadge {
+    format("Now that you have the SOULBADGE, the DEFENSE of your POKéMON rises.\p It also lets you SURF outside of battle.\p Ah! Take this, too!")
+}
+
+text FuchsiaCity_Gym_Text_ReceivedTM06FromKoga {
+    format("{PLAYER} received TM06 from KOGA.")
+}
+
+text FuchsiaCity_Gym_Text_KogaExplainTM06 {
+    format("Sealed within that TM06 lies TOXIC!\p It is a secret technique dating back some four hundred years.")
+}
+
+text FuchsiaCity_Gym_Text_MakeSpaceForThis {
+    format("Make space for this, child!")
+}
+
+text FuchsiaCity_Gym_Text_KaydenIntro {
+    format("Strength isn't the key for POKéMON. Do you understand this?\p POKéMON is about strategy!\p I'll show you how strategy can beat brute strength.")
+}
+
+text FuchsiaCity_Gym_Text_KaydenDefeat {
+    format("What? Extraordinary!")
+}
+
+text FuchsiaCity_Gym_Text_KaydenPostBattle {
+    format("So, you mix brawn with brains? Good strategy!\p That's remarkable for a child TRAINER.")
+}
+
+text FuchsiaCity_Gym_Text_KirkIntro {
+    format("I was a magician once upon a time.\p But I dreamt of becoming a ninja, so I joined this GYM.")
+}
+
+text FuchsiaCity_Gym_Text_KirkDefeat {
+    format("I'm done for!")
+}
+
+text FuchsiaCity_Gym_Text_KirkPostBattle {
+    format("Even though I've lost, I will keep training according to the teachings\l of KOGA, my ninja master.")
+}
+
+text FuchsiaCity_Gym_Text_NateIntro {
+    format("Let's see you beat my special techniques!")
+}
+
+text FuchsiaCity_Gym_Text_NateDefeat {
+    format("You had me fooled!")
+}
+
+text FuchsiaCity_Gym_Text_NatePostBattle {
+    format("I like poison and sleep techniques, as they linger after battle!")
+}
+
+text FuchsiaCity_Gym_Text_PhilIntro {
+    format("Stop right there!\p The famed invisible walls of FUCHSIA GYM have you frustrated?")
+}
+
+text FuchsiaCity_Gym_Text_PhilDefeat {
+    format("Whoa! You've got it!")
+}
+
+text FuchsiaCity_Gym_Text_PhilPostBattle {
+    format("You impressed me! Here's a hint!\p Look very closely for gaps in the invisible walls!")
+}
+
+text FuchsiaCity_Gym_Text_EdgarIntro {
+    format("I also study the way of the ninja with Master KOGA!\p Ninja have a long history of using animals!")
+}
+
+text FuchsiaCity_Gym_Text_EdgarDefeat {
+    format("Awoo!")
+}
+
+text FuchsiaCity_Gym_Text_EdgarPostBattle {
+    format("I still have much to learn.")
+}
+
+text FuchsiaCity_Gym_Text_ShawnIntro {
+    format("Master KOGA comes from a long line of ninjas.\p What did you descend from?")
+}
+
+text FuchsiaCity_Gym_Text_ShawnDefeat {
+    format("You're more skilled than I'd thought!")
+}
+
+text FuchsiaCity_Gym_Text_ShawnPostBattle {
+    format("Where there is light, there is shadow!\p Light and shadow! Which do you choose?")
+}
+
+text FuchsiaCity_Gym_Text_GymGuyAdvice {
+    format("Yo! Champ in the making!\p FUCHSIA GYM is a tricked-up place. It's riddled with invisible walls!\p KOGA might appear close, but he's blocked off.\p You have to find gaps in the walls to reach him.")
+}
+
+text FuchsiaCity_Gym_Text_GymGuyPostVictory {
+    format("It's amazing how ninja can terrify, even now!")
+}
+
+text FuchsiaCity_Gym_Text_GymStatue {
+    format("FUCHSIA POKéMON GYM LEADER: KOGA\p WINNING TRAINERS: {RIVAL}")
+}
+
+text FuchsiaCity_Gym_Text_GymStatuePlayerWon {
+    format("FUCHSIA POKéMON GYM LEADER: KOGA\p WINNING TRAINERS: {RIVAL}, {PLAYER}")
+}
+

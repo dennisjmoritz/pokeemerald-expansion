@@ -2,3 +2,7 @@ mapscripts CeladonCity_Condominiums_Roof_MapScripts {
 }
 
 
+text CeladonCity_Condominiums_Roof_Text_IKnowEverything {
+    format("I KNOW EVERYTHING!")
+}
+

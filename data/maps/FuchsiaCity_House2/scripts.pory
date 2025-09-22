@@ -2,3 +2,31 @@ mapscripts FuchsiaCity_House2_MapScripts {
 }
 
 
+text FuchsiaCity_House2_Text_DoYouLikeToFish {
+    format("I'm the FISHING GURU's older brother.\p I simply looove fishing! I can't bear to go without.\p Tell me, do you like to fish?")
+}
+
+text FuchsiaCity_House2_Text_LikeYourStyleTakeThis {
+    format("Grand! I like your style. I think we can be friends.\p Take this and fish, young friend!")
+}
+
+text FuchsiaCity_House2_Text_ReceivedGoodRod {
+    format("{PLAYER} received a GOOD ROD from the FISHING GURU's brother.")
+}
+
+text FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons {
+    format("Fishing is a way of life! It is like the finest poetry.\p A crummy OLD ROD could only catch MAGIKARP, yes?\p But with a GOOD ROD, you can catch much better POKéMON.")
+}
+
+text FuchsiaCity_House2_Text_OhThatsDisappointing {
+    format("Oh… That's so disappointing…")
+}
+
+text FuchsiaCity_House2_Text_HowAreTheFishBiting {
+    format("Hello there, {PLAYER}!\p How are the fish biting?")
+}
+
+text FuchsiaCity_House2_Text_YouHaveNoRoomForGift {
+    format("Oh, no!\p I had a gift for you, but you have no room for it!")
+}
+

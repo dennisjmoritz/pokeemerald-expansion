@@ -2,3 +2,15 @@ mapscripts PewterCity_House1_MapScripts {
 }
 
 
+text PewterCity_House1_Text_Nidoran {
+    format("NIDORAN♂: Bowbow!")
+}
+
+text PewterCity_House1_Text_NidoranSit {
+    format("NIDORAN, sit!")
+}
+
+text PewterCity_House1_Text_TradeMonsAreFinicky {
+    format("Our POKéMON's an outsider, so it's finicky and hard to handle.\p An outsider is a POKéMON that you get in a trade.\p It grows fast, but it may ignore an unskilled TRAINER in battle.\p If only we had some BADGES…")
+}
+
