@@ -1,7 +1,0 @@
-SevenIsland_TrainerTower_3F_MapScripts::
-	.byte 0
-
-
-SevenIsland_TrainerTower_3F_MapScripts::
-	return
-

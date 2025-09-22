@@ -214,6 +214,7 @@ const u16 gObjectEventPic_OldManLyingDown[] = INCBIN_U16("graphics/object_events
 const u16 gObjectEventPic_WorkerM[] = INCBIN_U16("graphics/object_events/pics/people/worker_m.4bpp");
 const u16 gObjectEventPic_WorkerF[] = INCBIN_U16("graphics/object_events/pics/people/worker_f.4bpp");
 const u16 gObjectEventPic_Chef[] = INCBIN_U16("graphics/object_events/pics/people/chef.4bpp");
+const u16 gObjectEventPic_OldMan1[] = INCBIN_U16("graphics/object_events/pics/people/old_man_2.4bpp");
 const u16 gObjectEventPic_OldMan2[] = INCBIN_U16("graphics/object_events/pics/people/old_man_2.4bpp");
 const u16 gObjectEventPic_CooltrainerM[] = INCBIN_U16("graphics/object_events/pics/people/cooltrainer_m.4bpp");
 const u16 gObjectEventPic_CooltrainerF[] = INCBIN_U16("graphics/object_events/pics/people/cooltrainer_f.4bpp");

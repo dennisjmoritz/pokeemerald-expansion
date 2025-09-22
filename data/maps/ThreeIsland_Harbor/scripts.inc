@@ -1,7 +1,0 @@
-ThreeIsland_Harbor_MapScripts::
-	.byte 0
-
-
-ThreeIsland_Harbor_MapScripts::
-	return
-
