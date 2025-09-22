@@ -3,11 +3,6 @@ mapscripts FortreeCity_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script FortreeCity_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, FortreeCity_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text FortreeCity_PokemonCenter_1F_Text_GoToSafariZone {
     format("Listen, kid, are you working on a POKéDEX?\p Hmm… Go to the SAFARI ZONE. That's my suggestion.")

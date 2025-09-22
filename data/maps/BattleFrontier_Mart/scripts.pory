@@ -1,9 +1,6 @@
 mapscripts BattleFrontier_Mart_MapScripts {
 }
 
-script BattleFrontier_Mart_MapScripts {
-
-}
 
 text BattleFrontier_Mart_Text_ChaperonGrandson {
     format("We came here to chaperon our grandson.\p But since we're here, we thought we should get some souvenirs.")

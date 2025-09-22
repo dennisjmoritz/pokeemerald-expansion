@@ -1,9 +1,6 @@
 mapscripts PetalburgCity_Mart_MapScripts {
 }
 
-script PetalburgCity_Mart_MapScripts {
-
-}
 
 text PetalburgCity_Mart_Text_WeakWillGrowStronger {
     format("Even if a POKéMON is weak now, it will grow stronger.\p The most important thing is love! Love for your POKéMON!")

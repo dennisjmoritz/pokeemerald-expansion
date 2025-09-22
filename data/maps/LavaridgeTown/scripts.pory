@@ -3,11 +3,6 @@ mapscripts LavaridgeTown_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: LavaridgeTown_OnFrame
 }
 
-script LavaridgeTown_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, LavaridgeTown_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, LavaridgeTown_OnFrame)
-
-}
 
 text LavaridgeTown_Text_MayNiceBadgesTakeThis {
     format("MAY: {PLAYER}{KUN}! Long time no see!\p Oh? While I visited the hot springs, you got the LAVARIDGE GYM BADGE.\p You must have collected good POKéMON…\l No, I believe you raised some.\p I guess it would be okay for you to have this.")

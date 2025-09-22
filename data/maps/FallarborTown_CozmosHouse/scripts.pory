@@ -1,9 +1,6 @@
 mapscripts FallarborTown_CozmosHouse_MapScripts {
 }
 
-script FallarborTown_CozmosHouse_MapScripts {
-
-}
 
 text FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow {
     format("PROF. COZMO: Oh… I never should have let myself be\l conned into telling TEAM MAGMA where\l you can find METEORITES…\p That METEORITE from METEOR FALLS… It's never going to be mine now…")

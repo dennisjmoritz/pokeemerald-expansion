@@ -5,13 +5,6 @@ mapscripts SootopolisCity_Gym_1F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: SootopolisCity_Gym_1F_OnTransition
 }
 
-script SootopolisCity_Gym_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, SootopolisCity_Gym_1F_OnFrame)
-	map_script(MAP_SCRIPT_ON_RESUME, SootopolisCity_Gym_1F_OnResume)
-	map_script(MAP_SCRIPT_ON_LOAD, SootopolisCity_Gym_1F_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, SootopolisCity_Gym_1F_OnTransition)
-
-}
 
 text SootopolisCity_Gym_1F_Text_GymGuideAdvice {
     format("Yo! How's it going, CHAMPION- bound {PLAYER}?\p SOOTOPOLIS's GYM LEADER JUAN is a master of WATER-type POKéMON.\p And, to get to JUAN, an icy floor will hamper your progress…\p Listen, I'm sorry, but that's all the advice that I have for you.\p The rest of the way, you have to go for it yourself!")

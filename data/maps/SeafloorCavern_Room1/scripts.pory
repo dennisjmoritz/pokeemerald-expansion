@@ -1,9 +1,6 @@
 mapscripts SeafloorCavern_Room1_MapScripts {
 }
 
-script SeafloorCavern_Room1_MapScripts {
-
-}
 
 text SeafloorCavern_Room1_Text_Grunt1Intro {
     format("We don't need a kid around! Go on home already!")

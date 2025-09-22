@@ -1,9 +1,6 @@
 mapscripts RustboroCity_PokemonSchool_MapScripts {
 }
 
-script RustboroCity_PokemonSchool_MapScripts {
-
-}
 
 text RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges {
     format("The blackboard lists status changes that may affect POKéMON in battle.")

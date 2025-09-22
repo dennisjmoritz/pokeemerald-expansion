@@ -1,9 +1,6 @@
 mapscripts SeafloorCavern_Room4_MapScripts {
 }
 
-script SeafloorCavern_Room4_MapScripts {
-
-}
 
 text SeafloorCavern_Room4_Text_Grunt3Intro {
     format("Who are you? Where did you come in from?")

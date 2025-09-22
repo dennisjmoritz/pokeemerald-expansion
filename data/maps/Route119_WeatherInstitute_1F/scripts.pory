@@ -2,10 +2,6 @@ mapscripts Route119_WeatherInstitute_1F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route119_WeatherInstitute_1F_OnTransition
 }
 
-script Route119_WeatherInstitute_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route119_WeatherInstitute_1F_OnTransition)
-
-}
 
 text Route119_WeatherInstitute_1F_Text_Grunt1Intro {
     format("The BOSS got interested in the research they have going here,\l so he sent us out.\p You quit meddling!")

@@ -3,12 +3,6 @@ mapscripts LilycoveCity_ContestLobby_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: LilycoveCity_ContestLobby_OnFrame
 }
 
-script LilycoveCity_ContestLobby_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, LilycoveCity_ContestLobby_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, LilycoveCity_ContestLobby_OnFrame)
-
-
-}
 
 text LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase {
     format("Yippee!\p The lady at the reception counter gave me a case for {POKEBLOCK}S!")

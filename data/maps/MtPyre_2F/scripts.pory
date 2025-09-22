@@ -4,12 +4,6 @@ mapscripts MtPyre_2F_MapScripts {
     MAP_SCRIPT_ON_RESUME: MtPyre_2F_SetHoleWarp
 }
 
-script MtPyre_2F_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, CaveHole_CheckFallDownHole)
-	map_script(MAP_SCRIPT_ON_TRANSITION, CaveHole_FixCrackedGround)
-	map_script(MAP_SCRIPT_ON_RESUME, MtPyre_2F_SetHoleWarp)
-
-}
 
 text MtPyre_2F_Text_MemoriesOfSkitty {
     format("Memories of my darling SKITTY… My eyes overflow thinking about it.")

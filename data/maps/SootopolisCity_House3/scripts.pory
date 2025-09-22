@@ -1,9 +1,6 @@
 mapscripts SootopolisCity_House3_MapScripts {
 }
 
-script SootopolisCity_House3_MapScripts {
-
-}
 
 text SootopolisCity_House3_Text_JuanHasManyFansDoYou {
     format("You're a POKéMON TRAINER, aren't you?\p SOOTOPOLIS's JUAN has many fans. Even more than his student WALLACE!\p Do you have any?")

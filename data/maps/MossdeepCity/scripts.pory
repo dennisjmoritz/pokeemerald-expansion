@@ -2,10 +2,6 @@ mapscripts MossdeepCity_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: MossdeepCity_OnTransition
 }
 
-script MossdeepCity_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, MossdeepCity_OnTransition)
-
-}
 
 text MossdeepCity_Text_WantKingsRockStevenGaveMe {
     format("I got this from STEVEN, but I don't know what it's good for.\p I think it's called KING'S ROCK. Do you want it?")

@@ -1,9 +1,6 @@
 mapscripts DewfordTown_House2_MapScripts {
 }
 
-script DewfordTown_House2_MapScripts {
-
-}
 
 text DewfordTown_House2_Text_WantYouToHaveSilkScarf {
     format("Gorge your eyes on this!\p It's a SILK SCARF. It's right at the cutting edge of fashion, yeah!\p Oh, I can see your eyes twinkling! You appreciate my dazzling style!\p Oh, you're a delight! Here you go. I want you to have it!")

@@ -2,10 +2,6 @@ mapscripts BattleFrontier_OutsideWest_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: BattleFrontier_OutsideWest_OnTransition
 }
 
-script BattleFrontier_OutsideWest_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, BattleFrontier_OutsideWest_OnTransition)
-
-}
 
 text BattleFrontier_OutsideWest_Text_BattleDomeSign {
     format("This is the BATTLE DOME! Your path to the invincible superstar!")

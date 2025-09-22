@@ -1,9 +1,6 @@
 mapscripts SlateportCity_SternsShipyard_1F_MapScripts {
 }
 
-script SlateportCity_SternsShipyard_1F_MapScripts {
-
-}
 
 text SlateportCity_SternsShipyard_1F_Text_CantMakeHeadsOrTails {
     format("Umm… If this goes here, and that goes over there…\p Then where does this thing go? And what about that doohickey?\p Aaargh! I can't make heads or tails of this!")

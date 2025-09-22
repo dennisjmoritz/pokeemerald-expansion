@@ -2,10 +2,6 @@ mapscripts RustboroCity_DevonCorp_1F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: RustboroCity_DevonCorp_1F_OnTransition
 }
 
-script RustboroCity_DevonCorp_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, RustboroCity_DevonCorp_1F_OnTransition)
-
-}
 
 text RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp {
     format("Hello and welcome to the DEVON CORPORATION.\p We're proud producers of items and medicine that enhance your life.")

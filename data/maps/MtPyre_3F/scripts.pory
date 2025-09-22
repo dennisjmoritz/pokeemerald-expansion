@@ -1,9 +1,6 @@
 mapscripts MtPyre_3F_MapScripts {
 }
 
-script MtPyre_3F_MapScripts {
-
-}
 
 text MtPyre_3F_Text_WilliamIntro {
     format("The rich atmosphere of the mountain has elevated my psychic power!\p A mere child like you… You dream of winning?")

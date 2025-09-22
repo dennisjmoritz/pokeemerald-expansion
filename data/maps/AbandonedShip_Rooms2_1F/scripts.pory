@@ -1,9 +1,6 @@
 mapscripts AbandonedShip_Rooms2_1F_MapScripts {
 }
 
-script AbandonedShip_Rooms2_1F_MapScripts {
-
-}
 
 text AbandonedShip_Rooms2_1F_Text_DanIntro {
     format("DAN: While searching for treasures, we discovered a TRAINER!")

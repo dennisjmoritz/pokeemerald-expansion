@@ -1,9 +1,6 @@
 mapscripts Route121_MapScripts {
 }
 
-script Route121_MapScripts {
-
-}
 
 text Route121_Text_OkayMoveOutToMtPyre {
     format("Okay! We're to move out to MT. PYRE!")

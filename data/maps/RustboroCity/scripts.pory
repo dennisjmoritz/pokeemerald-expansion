@@ -3,11 +3,6 @@ mapscripts RustboroCity_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: RustboroCity_OnFrame
 }
 
-script RustboroCity_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, RustboroCity_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, RustboroCity_OnFrame)
-
-}
 
 text RustboroCity_Text_WeShortenItToDevon {
     format("The DEVON CORPORATION… We all just shorten it to DEVON.\p That company makes all sorts of convenient products.")

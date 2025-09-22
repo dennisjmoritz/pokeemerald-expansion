@@ -1,9 +1,6 @@
 mapscripts MossdeepCity_House1_MapScripts {
 }
 
-script MossdeepCity_House1_MapScripts {
-
-}
 
 text MossdeepCity_House1_Text_HmmYourPokemon {
     format("Hmm! Your {STR_VAR_1}…")

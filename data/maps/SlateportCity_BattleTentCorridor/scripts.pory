@@ -3,12 +3,6 @@ mapscripts SlateportCity_BattleTentCorridor_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: SlateportCity_BattleTentCorridor_OnWarp
 }
 
-script SlateportCity_BattleTentCorridor_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_BattleTentCorridor_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SlateportCity_BattleTentCorridor_OnWarp)
-
-
-}
 
 text SlateportCity_ContestHall_Text_AdviceForContests {
     format("Want a tasty little bit of advice for CONTESTS?\p Using a certain move after another certain kind of move sometimes gets\l you extra attention.\p If you know what you're doing, you can score big in appeal.\p Of course, your opponents might try disrupting your POKéMON's showing.")

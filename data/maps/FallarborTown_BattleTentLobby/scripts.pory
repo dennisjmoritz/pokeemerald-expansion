@@ -3,11 +3,6 @@ mapscripts FallarborTown_BattleTentLobby_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: FallarborTown_BattleTentLobby_OnWarp
 }
 
-script FallarborTown_BattleTentLobby_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, FallarborTown_BattleTentLobby_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, FallarborTown_BattleTentLobby_OnWarp)
-
-}
 
 text FallarborTown_BattleTentLobby_Text_MakeThinkImJustKid {
     format("Fufufufufu.\p I'm going to make everyone think I'm just a kid and let them play down.\p Then, I'll shock them and grab the title!")

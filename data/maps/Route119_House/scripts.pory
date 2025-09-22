@@ -1,9 +1,6 @@
 mapscripts Route119_House_MapScripts {
 }
 
-script Route119_House_MapScripts {
-
-}
 
 text Route119_House_Text_RumorAboutCaveOfOrigin {
     format("I heard about a cave called the CAVE OF ORIGIN.\p People rumor that the spirits of POKéMON are revived there. Could\l something like that really happen?")

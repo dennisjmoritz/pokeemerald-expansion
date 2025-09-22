@@ -3,9 +3,4 @@ mapscripts SevenIsland_House_Room1_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: SevenIsland_House_Room1_OnFrame
 }
 
-script SevenIsland_House_Room1_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, SevenIsland_House_Room1_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, SevenIsland_House_Room1_OnFrame)
-
-}
 

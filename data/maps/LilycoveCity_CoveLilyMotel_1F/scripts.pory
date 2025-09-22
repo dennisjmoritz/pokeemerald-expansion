@@ -1,9 +1,6 @@
 mapscripts LilycoveCity_CoveLilyMotel_1F_MapScripts {
 }
 
-script LilycoveCity_CoveLilyMotel_1F_MapScripts {
-
-}
 
 text LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot {
     format("Hm, so they doubled the guests by using POKéMON as attractions?\p Hm, well, maybe I should make a cute POKéMON our inn's mascot.\p I wonder if that will attract more guests to stay with us?")

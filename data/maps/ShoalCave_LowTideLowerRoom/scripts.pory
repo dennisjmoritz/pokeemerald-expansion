@@ -2,10 +2,6 @@ mapscripts ShoalCave_LowTideLowerRoom_MapScripts {
     MAP_SCRIPT_ON_LOAD: ShoalCave_LowTideLowerRoom_OnLoad
 }
 
-script ShoalCave_LowTideLowerRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, ShoalCave_LowTideLowerRoom_OnLoad)
-
-}
 
 text ShoalCave_LowTideLowerRoom_Text_CanOvercomeColdWithFocus {
     format("The penetrating cold around these parts is an impediment to training.\p But with focus, one can overcome!\p With this FOCUS BAND, buckle down and withstand the cold!")

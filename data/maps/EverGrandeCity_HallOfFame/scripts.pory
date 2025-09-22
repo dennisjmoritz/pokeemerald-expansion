@@ -3,11 +3,6 @@ mapscripts EverGrandeCity_HallOfFame_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: EverGrandeCity_HallOfFame_OnWarp
 }
 
-script EverGrandeCity_HallOfFame_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_HallOfFame_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_HallOfFame_OnWarp)
-
-}
 
 text EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions {
     format("WALLACE: This room…\p This is where we keep records of POKéMON that prevailed through\l harsh battles.\p It is here that the LEAGUE CHAMPIONS are honored.")

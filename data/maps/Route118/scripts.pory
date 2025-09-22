@@ -4,12 +4,6 @@ mapscripts Route118_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route118_OnFrame
 }
 
-script Route118_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route118_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, Route118_OnLoad)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route118_OnFrame)
-
-}
 
 text Route118_Text_StevenQuestions {
     format("STEVEN: Hi, {PLAYER}{KUN}!\p It's me, STEVEN! We met in the cave near DEWFORD.\p Have you met many kinds of POKéMON since I last saw you?\p There are many, many kinds of POKéMON in this wide world of ours.\p If you wanted to raise only your favorites, that's fine.\p Perhaps you find it more fun to raise all sorts of POKéMON.\p As a TRAINER of POKéMON, what do you think?\p Of course, it's not any of my business.\p It would be nice if we were to meet again somewhere.")

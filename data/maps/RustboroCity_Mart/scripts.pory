@@ -1,9 +1,6 @@
 mapscripts RustboroCity_Mart_MapScripts {
 }
 
-script RustboroCity_Mart_MapScripts {
-
-}
 
 text RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish {
     format("I'm buying some PARLYZ HEALS and ANTIDOTES.\p Just in case I run into SHROOMISH in PETALBURG WOODS.")

@@ -2,10 +2,6 @@ mapscripts SSTidalCorridor_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: SSTidalCorridor_OnFrame
 }
 
-script SSTidalCorridor_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, SSTidalCorridor_OnFrame)
-
-}
 
 text SSTidalCorridor_Text_ScottBattleFrontierInvite {
     format("SCOTT: Well, hi, hi! {PLAYER}{KUN}, {PLAYER}{KUN}!\p Something's come up, so I have to disembark, but am I glad to see you!\p Congratulations, LEAGUE CHAMPION!\p There's a place I'd like to invite someone like you.\p It's the… BATTLE FRONTIER!\p What's the place like? You'll understand when you see it!\p I've spoken with the ship's CAPTAIN about this.\p The next time you take a ferry, you should be able to sail to\l the BATTLE FRONTIER.\p Okay, {PLAYER}{KUN}, I'll be waiting for you at the BATTLE FRONTIER!")

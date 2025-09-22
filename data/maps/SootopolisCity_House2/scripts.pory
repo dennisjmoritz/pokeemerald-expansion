@@ -1,9 +1,6 @@
 mapscripts SootopolisCity_House2_MapScripts {
 }
 
-script SootopolisCity_House2_MapScripts {
-
-}
 
 text SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs {
     format("MT. PYRE…\p At its peak are two orbs placed side by side. Did you know?")

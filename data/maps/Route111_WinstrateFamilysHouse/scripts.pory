@@ -1,9 +1,6 @@
 mapscripts Route111_WinstrateFamilysHouse_MapScripts {
 }
 
-script Route111_WinstrateFamilysHouse_MapScripts {
-
-}
 
 text Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou {
     format("You're the first TRAINER I've seen who deploys POKéMON so masterfully.\p But, I should tell you--my son is stronger than you.\p He even took the POKéMON LEAGUE challenge, I'll have you know.")

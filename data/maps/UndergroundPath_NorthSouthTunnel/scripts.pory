@@ -2,8 +2,4 @@ mapscripts UndergroundPath_NorthSouthTunnel_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: UndergroundPath_NorthSouthTunnel_OnTransition
 }
 
-script UndergroundPath_NorthSouthTunnel_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, UndergroundPath_NorthSouthTunnel_OnTransition)
-
-}
 

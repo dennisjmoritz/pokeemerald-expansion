@@ -3,9 +3,4 @@ mapscripts SaffronCity_PokemonTrainerFanClub_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: SaffronCity_PokemonTrainerFanClub_OnTransition
 }
 
-script SaffronCity_PokemonTrainerFanClub_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, SaffronCity_PokemonTrainerFanClub_OnFrame)
-	map_script(MAP_SCRIPT_ON_TRANSITION, SaffronCity_PokemonTrainerFanClub_OnTransition)
-
-}
 

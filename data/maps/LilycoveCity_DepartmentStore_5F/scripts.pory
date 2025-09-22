@@ -2,10 +2,6 @@ mapscripts LilycoveCity_DepartmentStore_5F_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: LilycoveCity_DepartmentStore_5F_OnWarp
 }
 
-script LilycoveCity_DepartmentStore_5F_MapScripts {
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LilycoveCity_DepartmentStore_5F_OnWarp)
-
-}
 
 text LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls {
     format("This place is full of cute DOLLS.\p I should buy some for me, instead of just for my children.")

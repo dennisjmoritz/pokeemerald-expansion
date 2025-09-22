@@ -4,10 +4,4 @@ mapscripts SlateportCity_BattleTentBattleRoom_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: SlateportCity_BattleTentBattleRoom_OnFrame
 }
 
-script SlateportCity_BattleTentBattleRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, SlateportCity_BattleTentBattleRoom_OnTransition)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SlateportCity_BattleTentBattleRoom_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_BattleTentBattleRoom_OnFrame)
-
-}
 

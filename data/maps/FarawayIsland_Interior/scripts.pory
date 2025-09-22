@@ -5,13 +5,6 @@ mapscripts FarawayIsland_Interior_MapScripts {
     MAP_SCRIPT_ON_RETURN_TO_FIELD: FarawayIsland_Interior_OnReturnToField
 }
 
-script FarawayIsland_Interior_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, FarawayIsland_Interior_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, FarawayIsland_Interior_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, FarawayIsland_Interior_OnFrame)
-	map_script(MAP_SCRIPT_ON_RETURN_TO_FIELD, FarawayIsland_Interior_OnReturnToField)
-
-}
 
 text FarawayIsland_Interior_Text_TheFeelingOfBeingWatchedFaded {
     format("The feeling of being watched faded…")

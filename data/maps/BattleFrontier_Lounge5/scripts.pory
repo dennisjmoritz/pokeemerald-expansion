@@ -1,9 +1,6 @@
 mapscripts BattleFrontier_Lounge5_MapScripts {
 }
 
-script BattleFrontier_Lounge5_MapScripts {
-
-}
 
 text BattleFrontier_Lounge5_Text_NatureGirlGreeting {
     format("Ehehe! I can tell what POKéMON are thinking!\p Please! Can I see your POKéMON?")

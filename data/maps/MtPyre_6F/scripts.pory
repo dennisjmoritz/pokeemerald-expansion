@@ -1,9 +1,6 @@
 mapscripts MtPyre_6F_MapScripts {
 }
 
-script MtPyre_6F_MapScripts {
-
-}
 
 text MtPyre_6F_Text_ValerieIntro {
     format("When I'm here… A curious power flows into me…")

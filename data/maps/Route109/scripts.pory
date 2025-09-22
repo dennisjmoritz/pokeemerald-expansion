@@ -1,9 +1,6 @@
 mapscripts Route109_MapScripts {
 }
 
-script Route109_MapScripts {
-
-}
 
 text DewfordTown_Text_BrineyLandedInSlateportDeliverGoods {
     format("MR. BRINEY: Ahoy! We've made land in SLATEPORT!\p I suppose you're going to visit CAPT. STERN and deliver the DEVON GOODS?")

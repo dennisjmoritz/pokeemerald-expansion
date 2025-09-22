@@ -4,10 +4,4 @@ mapscripts SealedChamber_OuterRoom_MapScripts {
     MAP_SCRIPT_ON_LOAD: SealedChamber_OuterRoom_OnLoad
 }
 
-script SealedChamber_OuterRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, SealedChamber_OuterRoom_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, SealedChamber_OuterRoom_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, SealedChamber_OuterRoom_OnLoad)
-
-}
 

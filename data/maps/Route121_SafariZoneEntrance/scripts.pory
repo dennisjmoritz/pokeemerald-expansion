@@ -2,8 +2,4 @@ mapscripts Route121_SafariZoneEntrance_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route121_SafariZoneEntrance_OnFrame
 }
 
-script Route121_SafariZoneEntrance_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route121_SafariZoneEntrance_OnFrame)
-
-}
 

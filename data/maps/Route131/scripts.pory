@@ -2,8 +2,4 @@ mapscripts Route131_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route131_OnTransition
 }
 
-script Route131_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route131_OnTransition)
-
-}
 

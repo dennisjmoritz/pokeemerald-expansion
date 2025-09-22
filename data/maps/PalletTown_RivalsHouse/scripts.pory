@@ -2,8 +2,4 @@ mapscripts PalletTown_RivalsHouse_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: PalletTown_RivalsHouse_OnTransition
 }
 
-script PalletTown_RivalsHouse_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, PalletTown_RivalsHouse_OnTransition)
-
-}
 

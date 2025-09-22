@@ -2,10 +2,6 @@ mapscripts DewfordTown_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: DewfordTown_OnTransition
 }
 
-script DewfordTown_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, DewfordTown_OnTransition)
-
-}
 
 text DewfordTown_Text_TinyIslandCommunity {
     format("DEWFORD is a tiny island community. If something gets trendy here,\l everyone picks up on it right away.")

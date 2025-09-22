@@ -3,9 +3,4 @@ mapscripts FourIsland_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: FourIsland_OnFrame
 }
 
-script FourIsland_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, FourIsland_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, FourIsland_OnFrame)
-
-}
 

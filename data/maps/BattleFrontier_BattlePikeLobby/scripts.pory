@@ -3,11 +3,6 @@ mapscripts BattleFrontier_BattlePikeLobby_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: BattleFrontier_BattlePikeLobby_OnWarp
 }
 
-script BattleFrontier_BattlePikeLobby_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePikeLobby_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePikeLobby_OnWarp)
-
-}
 
 text BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike {
     format("Where the luck of TRAINERS is put to the test…\p Welcome to the BATTLE PIKE…\p I am your guide to the BATTLE PIKE…")

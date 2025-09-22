@@ -5,11 +5,4 @@ mapscripts PokemonLeague_AgathasRoom_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: PokemonLeague_AgathasRoom_OnFrame
 }
 
-script PokemonLeague_AgathasRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, PokemonLeague_AgathasRoom_OnResume)
-	map_script(MAP_SCRIPT_ON_LOAD, PokemonLeague_AgathasRoom_OnLoad)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PokemonLeague_AgathasRoom_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_AgathasRoom_OnFrame)
-
-}
 

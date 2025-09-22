@@ -1,9 +1,6 @@
 mapscripts RustboroCity_Gym_MapScripts {
 }
 
-script RustboroCity_Gym_MapScripts {
-
-}
 
 text RustboroCity_Gym_Text_GymGuideAdvice {
     format("Yo, how's it going?\p Listen, my friend! Would you like to become the CHAMPION?\p I'm no TRAINER, not me, but I can sure give you winning advice.\p That's settled, then! We'll aim for the POKéMON CHAMPIONSHIP together!\p It's your job as a TRAINER to collect GYM BADGES, am I right?\p But GYM LEADERS aren't pushovers!\p And that's where I come in! I'm here to provide expert advice!\p ROXANNE, the GYM LEADER, is a user of ROCK-type POKéMON.\p The ROCK type is very durable, but it can't stand WATER-type and\l GRASS-type moves.\p Come see me afterwards, if you beat the GYM LEADER.\p Well, go for it!")

@@ -4,12 +4,6 @@ mapscripts Route115_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route115_OnFrame
 }
 
-script Route115_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, Route115_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route115_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route115_OnFrame)
-
-}
 
 text Route115_Text_NeverKnowWhenCavePokemonWillAppear {
     format("Exploring a cave isn't like walking on a road.\p You never know when wild POKéMON will appear. It's full of suspense.")

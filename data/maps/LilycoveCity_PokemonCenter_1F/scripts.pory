@@ -3,11 +3,6 @@ mapscripts LilycoveCity_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script LilycoveCity_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, LilycoveCity_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text LilycoveCity_PokemonCenter_1F_Text_HowManyKindsOfPokemon {
     format("I wonder how many kinds of POKéMON there are in the world.\p It'd be great to cross seas and trade POKéMON with people far away.")

@@ -2,8 +2,4 @@ mapscripts TwoIsland_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: TwoIsland_OnTransition
 }
 
-script TwoIsland_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, TwoIsland_OnTransition)
-
-}
 

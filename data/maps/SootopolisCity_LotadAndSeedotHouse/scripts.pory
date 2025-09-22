@@ -1,9 +1,6 @@
 mapscripts SootopolisCity_LotadAndSeedotHouse_MapScripts {
 }
 
-script SootopolisCity_LotadAndSeedotHouse_MapScripts {
-
-}
 
 text SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot {
     format("Do you know the POKéMON SEEDOT? It's hardly ever seen in SOOTOPOLIS.\p Anyway, I love big SEEDOT. The bigger the better.\p But my younger brother, he says that LOTAD is bigger.\p That's silly. SEEDOT has to be bigger than that!\p Huh? Do you have a SEEDOT with you? P-p-please, show me!")

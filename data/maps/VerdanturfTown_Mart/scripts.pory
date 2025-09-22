@@ -1,9 +1,6 @@
 mapscripts VerdanturfTown_Mart_MapScripts {
 }
 
-script VerdanturfTown_Mart_MapScripts {
-
-}
 
 text VerdanturfTown_Mart_Text_XSpecialIsCrucial {
     format("For any POKéMON match, X SPECIAL is crucial.\p It jacks up the power of some moves even though it's only for one battle.")

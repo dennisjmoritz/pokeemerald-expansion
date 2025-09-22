@@ -1,9 +1,6 @@
 mapscripts BattleFrontier_Lounge2_MapScripts {
 }
 
-script BattleFrontier_Lounge2_MapScripts {
-
-}
 
 text BattleFrontier_Lounge2_Text_FrontierManiacIntro {
     format("Howdy! When it comes to news about the BATTLE FRONTIER, I'm no. 1.\p You can think of me as the FRONTIER MANIAC.\p Just checking, but you are a TRAINER, isn't that right?\p I'll happily share the hottest news I gathered about the BATTLE FRONTIER.")

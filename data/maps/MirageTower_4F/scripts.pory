@@ -1,9 +1,6 @@
 mapscripts MirageTower_4F_MapScripts {
 }
 
-script MirageTower_4F_MapScripts {
-
-}
 
 text MirageTower_4F_Text_TakeRootFossil {
     format("You found the ROOT FOSSIL.\p If this FOSSIL is taken, the ground around it will likely crumble away…\p Take the ROOT FOSSIL anyway?")

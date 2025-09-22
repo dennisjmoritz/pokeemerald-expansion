@@ -1,9 +1,6 @@
 mapscripts RustboroCity_House1_MapScripts {
 }
 
-script RustboroCity_House1_MapScripts {
-
-}
 
 text RustboroCity_House1_Text_IllTradeIfYouWant {
     format("Huh? My POKéMON is cute? Sure, I knew that.\p But if you really want, I'm willing to trade it to you.\p I'll trade you my {STR_VAR_2} for a {STR_VAR_1} if you want.")

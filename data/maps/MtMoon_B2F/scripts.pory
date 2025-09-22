@@ -2,8 +2,4 @@ mapscripts MtMoon_B2F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: MtMoon_B2F_OnTransition
 }
 
-script MtMoon_B2F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, MtMoon_B2F_OnTransition)
-
-}
 

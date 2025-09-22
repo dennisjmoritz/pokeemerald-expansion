@@ -2,10 +2,6 @@ mapscripts Route124_DivingTreasureHuntersHouse_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route124_DivingTreasureHuntersHouse_OnTransition
 }
 
-script Route124_DivingTreasureHuntersHouse_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route124_DivingTreasureHuntersHouse_OnTransition)
-
-}
 
 text Route124_DivingTreasureHuntersHouse_Text_Greeting {
     format("I'm the DIVING TREASURE HUNTER!\p I'm the awesome dude who makes deep-sea dives to gather treasures\l resting at the bottom.")

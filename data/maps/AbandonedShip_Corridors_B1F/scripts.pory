@@ -3,11 +3,6 @@ mapscripts AbandonedShip_Corridors_B1F_MapScripts {
     MAP_SCRIPT_ON_LOAD: AbandonedShip_Corridors_B1F_OnLoad
 }
 
-script AbandonedShip_Corridors_B1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, AbandonedShip_Corridors_B1F_OnResume)
-	map_script(MAP_SCRIPT_ON_LOAD, AbandonedShip_Corridors_B1F_OnLoad)
-
-}
 
 text AbandonedShip_Corridors_B1F_Text_DuncanIntro {
     format("When we go out to sea, we SAILORS always bring our POKéMON.\l How about a quick battle?")

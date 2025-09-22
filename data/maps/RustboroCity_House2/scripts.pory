@@ -1,9 +1,6 @@
 mapscripts RustboroCity_House2_MapScripts {
 }
 
-script RustboroCity_House2_MapScripts {
-
-}
 
 text RustboroCity_House2_Text_TrainerSchoolExcellent {
     format("The TRAINER'S SCHOOL is excellent.\p If you study there, you could even become a GYM LEADER.")

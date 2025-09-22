@@ -1,9 +1,6 @@
 mapscripts LavaridgeTown_HerbShop_MapScripts {
 }
 
-script LavaridgeTown_HerbShop_MapScripts {
-
-}
 
 text LavaridgeTown_HerbShop_Text_WelcomeToHerbShop {
     format("Welcome to the HERB SHOP, home of effective and inexpensive medicine!")

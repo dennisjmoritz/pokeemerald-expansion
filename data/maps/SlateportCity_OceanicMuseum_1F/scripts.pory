@@ -1,9 +1,6 @@
 mapscripts SlateportCity_OceanicMuseum_1F_MapScripts {
 }
 
-script SlateportCity_OceanicMuseum_1F_MapScripts {
-
-}
 
 text SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter {
     format("Welcome to the OCEANIC MUSEUM.\p The entrance fee is ¥50. Would you like to enter?")

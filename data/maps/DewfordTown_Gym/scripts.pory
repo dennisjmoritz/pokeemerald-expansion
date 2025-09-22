@@ -2,10 +2,6 @@ mapscripts DewfordTown_Gym_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: DewfordTown_Gym_OnTransition
 }
 
-script DewfordTown_Gym_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, DewfordTown_Gym_OnTransition)
-
-}
 
 text DewfordTown_Gym_Text_GymGuideAdvice {
     format("Hey, how's it going, CHAMPION- bound {PLAYER}?\p DEWFORD's GYM LEADER BRAWLY commands FIGHTING-type POKéMON.\p Going against him with NORMAL-type POKéMON is asking for trouble.\p FIGHTING POKéMON will lay a serious smack down on NORMAL POKéMON,\l so be careful!\p What's worse, the GYM is as dark as the ocean floor.\p But it will get brighter after defeating the TRAINERS in your way.\p Hey, okay, go for it!")

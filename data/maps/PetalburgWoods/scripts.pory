@@ -1,9 +1,6 @@
 mapscripts PetalburgWoods_MapScripts {
 }
 
-script PetalburgWoods_MapScripts {
-
-}
 
 text PetalburgWoods_Text_NotAOneToBeFound {
     format("Hmmm… Not a one to be found…")

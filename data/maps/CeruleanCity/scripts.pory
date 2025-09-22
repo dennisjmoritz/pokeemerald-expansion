@@ -2,8 +2,4 @@ mapscripts CeruleanCity_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: CeruleanCity_OnTransition
 }
 
-script CeruleanCity_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, CeruleanCity_OnTransition)
-
-}
 

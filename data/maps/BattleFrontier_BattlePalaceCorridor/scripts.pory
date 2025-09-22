@@ -2,10 +2,6 @@ mapscripts BattleFrontier_BattlePalaceCorridor_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: BattleFrontier_BattlePalaceCorridor_OnFrame
 }
 
-script BattleFrontier_BattlePalaceCorridor_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePalaceCorridor_OnFrame)
-
-}
 
 text BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame {
     format("People and POKéMON, they are but the same…\p Their individual nature makes them good at certain things, and not good\l at others.")

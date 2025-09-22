@@ -1,9 +1,6 @@
 mapscripts FortreeCity_House4_MapScripts {
 }
 
-script FortreeCity_House4_MapScripts {
-
-}
 
 text FortreeCity_House4_Text_BringsWorldCloserTogether {
     format("By being together with POKéMON, people make more and more friends.\p And that brings the world closer together. I think it's wonderful!")

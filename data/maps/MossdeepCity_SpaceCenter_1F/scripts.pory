@@ -3,11 +3,6 @@ mapscripts MossdeepCity_SpaceCenter_1F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: MossdeepCity_SpaceCenter_1F_OnTransition
 }
 
-script MossdeepCity_SpaceCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, MossdeepCity_SpaceCenter_1F_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, MossdeepCity_SpaceCenter_1F_OnTransition)
-
-}
 
 text MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent {
     format("The rocket's launch is imminent!")

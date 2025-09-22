@@ -1,9 +1,6 @@
 mapscripts SootopolisCity_Gym_B1F_MapScripts {
 }
 
-script SootopolisCity_Gym_B1F_MapScripts {
-
-}
 
 text SootopolisCity_Gym_B1F_Text_AndreaIntro {
     format("I'll show you the sublime techniques I learned from our LEADER JUAN!")

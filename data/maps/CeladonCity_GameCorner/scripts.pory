@@ -2,8 +2,4 @@ mapscripts CeladonCity_GameCorner_MapScripts {
     MAP_SCRIPT_ON_LOAD: CeladonCity_GameCorner_OnLoad
 }
 
-script CeladonCity_GameCorner_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, CeladonCity_GameCorner_OnLoad)
-
-}
 

@@ -1,9 +1,6 @@
 mapscripts OldaleTown_Mart_MapScripts {
 }
 
-script OldaleTown_Mart_MapScripts {
-
-}
 
 text OldaleTown_Mart_Text_PokeBallsAreSoldOut {
     format("The clerk says they're all sold out. I can't buy any POKé BALLS.")

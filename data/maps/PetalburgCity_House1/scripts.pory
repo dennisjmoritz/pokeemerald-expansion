@@ -1,9 +1,6 @@
 mapscripts PetalburgCity_House1_MapScripts {
 }
 
-script PetalburgCity_House1_MapScripts {
-
-}
 
 text PetalburgCity_House1_Text_TravelingIsWonderful {
     format("Traveling is wonderful!\p When I was young, I roamed the seas and the mountains!")

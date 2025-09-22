@@ -3,11 +3,6 @@ mapscripts Route101_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route101_OnFrame
 }
 
-script Route101_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route101_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route101_OnFrame)
-
-}
 
 text Route101_Text_HelpMe {
     format("H-help me!")

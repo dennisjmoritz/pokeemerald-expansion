@@ -3,10 +3,4 @@ mapscripts TrainerTower_Roof_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: TrainerTower_OnFrame
 }
 
-script TrainerTower_Roof_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, TrainerTower_OnResume)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, TrainerTower_OnFrame)
-
-
-}
 

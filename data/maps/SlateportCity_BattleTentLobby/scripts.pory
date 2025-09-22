@@ -3,11 +3,6 @@ mapscripts SlateportCity_BattleTentLobby_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: SlateportCity_BattleTentLobby_OnWarp
 }
 
-script SlateportCity_BattleTentLobby_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_BattleTentLobby_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SlateportCity_BattleTentLobby_OnWarp)
-
-}
 
 text SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe {
     format("So, like, I couldn't find myself any POKéMON that were, like, for me.\p So, I figured, like, hey, I should file a complaint to the guy there?\p And he wouldn't hear me out, like, hey! So, like, total bummer, man!\p Hey, like, you! Zip it, you know? Just, you know, take this!")

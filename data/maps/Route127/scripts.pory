@@ -4,10 +4,4 @@ mapscripts Route127_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route127_OnFrame
 }
 
-script Route127_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route127_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, Route127_OnLoad)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route127_OnFrame)
-
-}
 

@@ -3,11 +3,6 @@ mapscripts AbandonedShip_HiddenFloorCorridors_MapScripts {
     MAP_SCRIPT_ON_LOAD: AbandonedShip_HiddenFloorCorridors_OnLoad
 }
 
-script AbandonedShip_HiddenFloorCorridors_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, AbandonedShip_HiddenFloorCorridors_OnResume)
-	map_script(MAP_SCRIPT_ON_LOAD, AbandonedShip_HiddenFloorCorridors_OnLoad)
-
-}
 
 text AbandonedShip_HiddenFloorCorridors_Text_Rm1DoorIsLocked {
     format("The door is locked.\p “RM. 1” is painted on the door.")

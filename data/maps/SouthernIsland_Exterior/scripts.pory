@@ -2,8 +2,4 @@ mapscripts SouthernIsland_Exterior_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: SouthernIsland_Exterior_OnTransition
 }
 
-script SouthernIsland_Exterior_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, SouthernIsland_Exterior_OnTransition)
-
-}
 

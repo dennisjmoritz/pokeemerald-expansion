@@ -3,11 +3,6 @@ mapscripts PetalburgCity_WallysHouse_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: PetalburgCity_WallysHouse_OnWarp
 }
 
-script PetalburgCity_WallysHouse_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, PetalburgCity_WallysHouse_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PetalburgCity_WallysHouse_OnWarp)
-
-}
 
 text PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally {
     format("You're… Ah, you must be {PLAYER}{KUN}, right?\p Thank you for playing with WALLY a little while ago.\p He's been frail and sickly ever since he was a baby.\p We've sent him to stay with my relatives in VERDANTURF TOWN for a while.\p The air is a lot cleaner there than it is here.\p What's that? Where's WALLY? He's already left, our WALLY.\p I wonder where he could have gotten by now?")

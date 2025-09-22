@@ -1,9 +1,6 @@
 mapscripts SlateportCity_SternsShipyard_2F_MapScripts {
 }
 
-script SlateportCity_SternsShipyard_2F_MapScripts {
-
-}
 
 text SlateportCity_SternsShipyard_2F_Text_ShipDesignMoreLikeBuilding {
     format("Designing a large ship is more like making a big building than putting\l together a transportation vehicle.")

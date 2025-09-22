@@ -1,9 +1,6 @@
 mapscripts LilycoveCity_House2_MapScripts {
 }
 
-script LilycoveCity_House2_MapScripts {
-
-}
 
 text LilycoveCity_House2_Text_NotAwakeYetHaveThis {
     format("Huh? What? What's that?\p I'm not near awake yet… You can have this…")

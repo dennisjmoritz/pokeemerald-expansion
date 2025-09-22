@@ -2,8 +2,4 @@ mapscripts Route20_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route20_OnTransition
 }
 
-script Route20_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route20_OnTransition)
-
-}
 

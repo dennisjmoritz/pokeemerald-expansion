@@ -1,9 +1,6 @@
 mapscripts AbandonedShip_CaptainsOffice_MapScripts {
 }
 
-script AbandonedShip_CaptainsOffice_MapScripts {
-
-}
 
 text AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner {
     format("I'm investigating this ship on behalf of CAPT. STERN.\p He also asked me to find a SCANNER, but I haven't had any success…")

@@ -2,10 +2,6 @@ mapscripts FallarborTown_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: FallarborTown_OnTransition
 }
 
-script FallarborTown_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, FallarborTown_OnTransition)
-
-}
 
 text FallarborTown_Text_ShadyCharactersCozmosHome {
     format("Something's happening, and I don't like it!\p I've seen shady characters wandering in and out of PROF. COZMO's home…")

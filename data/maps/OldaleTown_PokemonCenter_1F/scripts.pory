@@ -3,11 +3,6 @@ mapscripts OldaleTown_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script OldaleTown_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, OldaleTown_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC {
     format("That PC in the corner there is for any POKéMON TRAINER to use.\p Naturally, that means you're welcome to use it, too.")

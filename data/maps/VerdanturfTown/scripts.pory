@@ -2,10 +2,6 @@ mapscripts VerdanturfTown_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: VerdanturfTown_OnTransition
 }
 
-script VerdanturfTown_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, VerdanturfTown_OnTransition)
-
-}
 
 text VerdanturfTown_Text_ManTryingToDigTunnel {
     format("My papa told me.\p He says this tunnel is full of timid POKéMON.\p They get all scared of loud noise and make a big uproar.\p So they had to stop the big tunnel project.\p But there's one man. He's trying to dig the tunnel by himself!")

@@ -2,10 +2,6 @@ mapscripts RustboroCity_DevonCorp_2F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: RustboroCity_DevonCorp_2F_OnTransition
 }
 
-script RustboroCity_DevonCorp_2F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, RustboroCity_DevonCorp_2F_OnTransition)
-
-}
 
 text RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon {
     format("We're developing a device for talking with POKéMON.\p But we haven't had much success…")

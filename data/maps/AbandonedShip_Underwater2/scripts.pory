@@ -2,8 +2,4 @@ mapscripts AbandonedShip_Underwater2_MapScripts {
     MAP_SCRIPT_ON_RESUME: AbandonedShip_Underwater2_OnResume
 }
 
-script AbandonedShip_Underwater2_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, AbandonedShip_Underwater2_OnResume)
-
-}
 

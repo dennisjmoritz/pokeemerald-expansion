@@ -2,10 +2,6 @@ mapscripts LilycoveCity_Harbor_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: LilycoveCity_Harbor_OnTransition
 }
 
-script LilycoveCity_Harbor_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, LilycoveCity_Harbor_OnTransition)
-
-}
 
 text LilycoveCity_Harbor_Text_FerryUnavailable {
     format("I beg your pardon? You're looking for a ship?\p I'm sorry, the ferry service isn't available at present…")

@@ -3,11 +3,6 @@ mapscripts PetalburgCity_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script PetalburgCity_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, PetalburgCity_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem {
     format("That PC-based POKéMON Storage System…\p Whoever made it must be some kind of a scientific wizard!")

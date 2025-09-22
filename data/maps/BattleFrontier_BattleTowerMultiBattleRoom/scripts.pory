@@ -4,12 +4,6 @@ mapscripts BattleFrontier_BattleTowerMultiBattleRoom_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: BattleFrontier_BattleTowerMultiBattleRoom_OnFrame
 }
 
-script BattleFrontier_BattleTowerMultiBattleRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattleTowerMultiBattleRoom_OnTransition)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleTowerMultiBattleRoom_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerMultiBattleRoom_OnFrame)
-
-}
 
 text BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor2ndOpponentSet {
     format("The 2nd set of opponents is next. Are you ready?")

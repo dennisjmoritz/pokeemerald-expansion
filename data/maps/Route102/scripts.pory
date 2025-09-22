@@ -1,9 +1,6 @@
 mapscripts Route102_MapScripts {
 }
 
-script Route102_MapScripts {
-
-}
 
 text Route102_Text_WatchMeCatchPokemon {
     format("WALLY: {PLAYER}… POKéMON hide in tall grass like this,\l don't they?\p Please watch me and see if I can catch one properly.\p …Whoa!")

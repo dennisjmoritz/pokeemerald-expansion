@@ -2,10 +2,6 @@ mapscripts Route119_WeatherInstitute_2F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route119_WeatherInstitute_2F_OnTransition
 }
 
-script Route119_WeatherInstitute_2F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route119_WeatherInstitute_2F_OnTransition)
-
-}
 
 text Route119_WeatherInstitute_2F_Text_Grunt2Intro {
     format("The INSTITUTE created a type of POKéMON that has something to do with\l the weather. We're here to take them!")

@@ -2,8 +2,4 @@ mapscripts Underwater_SealedChamber_MapScripts {
     MAP_SCRIPT_ON_DIVE_WARP: Underwater_SealedChamber_OnDive
 }
 
-script Underwater_SealedChamber_MapScripts {
-	map_script(MAP_SCRIPT_ON_DIVE_WARP, Underwater_SealedChamber_OnDive)
-
-}
 

@@ -1,9 +1,6 @@
 mapscripts GraniteCave_StevensRoom_MapScripts {
 }
 
-script GraniteCave_StevensRoom_MapScripts {
-
-}
 
 text GraniteCave_StevensRoom_Text_ImStevenLetterForMe {
     format("My name is STEVEN.\p I'm interested in rare stones, so I travel here and there.\p Oh? A LETTER for me?")

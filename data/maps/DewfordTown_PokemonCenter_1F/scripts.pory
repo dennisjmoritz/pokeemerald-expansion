@@ -3,11 +3,6 @@ mapscripts DewfordTown_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script DewfordTown_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, DewfordTown_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text DewfordTown_PokemonCenter_1F_Text_StoneCavern {
     format("There's a stone cavern at the edge of town.\p I've heard you can find rare stones there.")

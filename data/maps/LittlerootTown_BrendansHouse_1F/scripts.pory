@@ -4,12 +4,6 @@ mapscripts LittlerootTown_BrendansHouse_1F_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: LittlerootTown_BrendansHouse_1F_OnFrame
 }
 
-script LittlerootTown_BrendansHouse_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, LittlerootTown_BrendansHouse_1F_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, LittlerootTown_BrendansHouse_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_BrendansHouse_1F_OnFrame)
-
-}
 
 text PlayersHouse_1F_Text_IsntItNiceInHere {
     format("MOM: See, {PLAYER}? Isn't it nice in here, too?")

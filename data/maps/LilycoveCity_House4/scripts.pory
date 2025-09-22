@@ -1,9 +1,6 @@
 mapscripts LilycoveCity_House4_MapScripts {
 }
 
-script LilycoveCity_House4_MapScripts {
-
-}
 
 text LilycoveCity_House4_Text_MysteriesAtBottomOfSea {
     format("This planet's biggest mysteries are at the bottom of the sea.\p Somebody said that, but I don't know…")

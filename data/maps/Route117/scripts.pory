@@ -2,10 +2,6 @@ mapscripts Route117_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route117_OnTransition
 }
 
-script Route117_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route117_OnTransition)
-
-}
 
 text Route117_Text_DayCarePokemonHadNewMove {
     format("I left my POKéMON at the DAY CARE.\p When I got it back, it had a new move that I didn't teach it.\l I was really, really surprised.")

@@ -1,9 +1,6 @@
 mapscripts VictoryRoad_B1F_MapScripts {
 }
 
-script VictoryRoad_B1F_MapScripts {
-
-}
 
 text VictoryRoad_B1F_Text_SamuelIntro {
     format("The thought that I'm getting closer to the POKéMON LEAGUE…\p I'm getting stage fright…")

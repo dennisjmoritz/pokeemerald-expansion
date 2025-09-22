@@ -1,9 +1,6 @@
 mapscripts SlateportCity_OceanicMuseum_2F_MapScripts {
 }
 
-script SlateportCity_OceanicMuseum_2F_MapScripts {
-
-}
 
 text SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts {
     format("Yes? If you're looking for STERN, that would be me.\p Ah! Those must be the parts I ordered from MR. STONE of DEVON.\p Thank you! That's great! We can prepare for our expedition now.")

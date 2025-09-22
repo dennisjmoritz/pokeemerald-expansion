@@ -2,10 +2,6 @@ mapscripts LilycoveCity_DepartmentStoreRooftop_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: LilycoveCity_DepartmentStoreRooftop_OnTransition
 }
 
-script LilycoveCity_DepartmentStoreRooftop_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, LilycoveCity_DepartmentStoreRooftop_OnTransition)
-
-}
 
 text LilycoveCity_DepartmentStoreRooftop_Text_SetDatesForClearOutSales {
     format("Don't they have set dates for their clear-out sales?\p I watch TV, but they never show any commercials.")

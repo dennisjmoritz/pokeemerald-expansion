@@ -3,11 +3,6 @@ mapscripts MauvilleCity_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script MauvilleCity_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, MauvilleCity_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings {
     format("That man over there, he says weird things!\p He's funny in a weird way. I doubt I'll forget about him!")

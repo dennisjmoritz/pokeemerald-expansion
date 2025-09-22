@@ -1,9 +1,6 @@
 mapscripts MeteorFalls_1F_2R_MapScripts {
 }
 
-script MeteorFalls_1F_2R_MapScripts {
-
-}
 
 text MeteorFalls_1F_2R_Text_NicolasIntro {
     format("This is where we DRAGON users do our training.\p The CHAMPION even visits. Now do you see how special it is here?")

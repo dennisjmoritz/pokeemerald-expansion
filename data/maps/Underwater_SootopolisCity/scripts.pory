@@ -2,8 +2,4 @@ mapscripts Underwater_SootopolisCity_MapScripts {
     MAP_SCRIPT_ON_RESUME: Underwater_SootopolisCity_OnResume
 }
 
-script Underwater_SootopolisCity_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, Underwater_SootopolisCity_OnResume)
-
-}
 

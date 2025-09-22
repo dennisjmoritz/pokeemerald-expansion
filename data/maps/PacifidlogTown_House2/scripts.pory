@@ -1,9 +1,6 @@
 mapscripts PacifidlogTown_House2_MapScripts {
 }
 
-script PacifidlogTown_House2_MapScripts {
-
-}
 
 text PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation {
     format("Er-hem!\p I am the POKéMON FAN CLUB's most important person, the CHAIRMAN's\l younger brother.\p I'm here enjoying my vacation with POKéMON, yes, indeed.")

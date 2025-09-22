@@ -4,12 +4,6 @@ mapscripts Route120_MapScripts {
     MAP_SCRIPT_ON_LOAD: Route120_OnLoad
 }
 
-script Route120_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, Route120_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route120_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, Route120_OnLoad)
-
-}
 
 text Route120_Text_StevenGreeting {
     format("STEVEN: Hm? {PLAYER}{KUN}, hi. It's been a while.\p There's something here that you can't see, right?\p Now, if I were to use this device on the invisible obstacle…\p No, no. Rather than describing it, I should just show you.\l That would be more fun.\p {PLAYER}{KUN}, are your POKéMON ready for battle?")

@@ -1,9 +1,6 @@
 mapscripts SSTidalLowerDeck_MapScripts {
 }
 
-script SSTidalLowerDeck_MapScripts {
-
-}
 
 text SSTidalLowerDeck_Text_PhillipIntro {
     format("Arrrgh! I'm fed up and dog-tired of cleaning this huge place!\p Let's have a quick battle!")

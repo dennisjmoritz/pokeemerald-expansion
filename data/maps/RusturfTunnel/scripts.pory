@@ -3,11 +3,6 @@ mapscripts RusturfTunnel_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: RusturfTunnel_OnFrame
 }
 
-script RusturfTunnel_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, RusturfTunnel_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, RusturfTunnel_OnFrame)
-
-}
 
 text RusturfTunnel_Text_ComeAndGetSome {
     format("What, are you coming? Come and get some, then!")

@@ -1,9 +1,6 @@
 mapscripts BattleFrontier_Lounge7_MapScripts {
 }
 
-script BattleFrontier_Lounge7_MapScripts {
-
-}
 
 text BattleFrontier_Lounge7_Text_LeftTutorIntro {
     format("Buhahaha!\p You couldn't tell it from looking now, but I used to be one tough TRAINER.\p I had a reputation as the toughest BEAUTY around, I tell you!\p … … … … … …\p What is it now? You don't believe me.\p I'm not like that blowhard woman over there. I'm actually talented!\p Let me prove it to you. I can teach your POKéMON special and\l yet cute moves.\p But my lessons don't come free. How about paying for the moves I teach\l with a wee bit of Battle Points?")

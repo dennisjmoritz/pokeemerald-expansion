@@ -1,9 +1,6 @@
 mapscripts SootopolisCity_House4_MapScripts {
 }
 
-script SootopolisCity_House4_MapScripts {
-
-}
 
 text SootopolisCity_House4_Text_AncientTreasuresWaitingInSea {
     format("Listen up, and I'll tell you something good.\p There's supposed to be an ancient ruin in the sea around here.\p There could be treasures just waiting to be discovered down there.")

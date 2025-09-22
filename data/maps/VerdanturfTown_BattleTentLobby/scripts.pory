@@ -3,11 +3,6 @@ mapscripts VerdanturfTown_BattleTentLobby_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: VerdanturfTown_BattleTentLobby_OnWarp
 }
 
-script VerdanturfTown_BattleTentLobby_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentLobby_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, VerdanturfTown_BattleTentLobby_OnWarp)
-
-}
 
 text VerdanturfTown_BattleTentLobby_Text_MonsReluctantToUseDislikedMoves {
     format("If it doesn't like a certain move, a POKéMON will be reluctant to use it.\p It doesn't matter how strong it is, either.\p For example, a POKéMON with a GENTLE nature probably won't enjoy hurting\l its opponents.\p If it can't seem to live up to its potential, it's probably failing at\l using a disliked move against its will.")

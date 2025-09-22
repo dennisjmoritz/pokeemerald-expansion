@@ -1,9 +1,6 @@
 mapscripts FortreeCity_House2_MapScripts {
 }
 
-script FortreeCity_House2_MapScripts {
-
-}
 
 text FortreeCity_House2_Text_HiddenPowersArousedByNature {
     format("People… POKéMON…\p Their hidden powers are aroused by living in natural environments…")

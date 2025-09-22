@@ -4,12 +4,6 @@ mapscripts EverGrandeCity_DrakesRoom_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: EverGrandeCity_SidneysRoom_OnWarp
 }
 
-script EverGrandeCity_DrakesRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_DrakesRoom_OnFrame)
-	map_script(MAP_SCRIPT_ON_LOAD, EverGrandeCity_DrakesRoom_OnLoad)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_SidneysRoom_OnWarp)
-
-}
 
 text EverGrandeCity_DrakesRoom_Text_IntroSpeech {
     format("I am the last of the POKéMON LEAGUE ELITE FOUR, DRAKE the DRAGON master!\p In their natural state, POKéMON are wild living things. They are free.\p At times, they hinder us. At times, they help us.\p For us to battle with POKéMON as partners, do you know what it takes?\p Do you know what is needed?\p If you don't, then you will never prevail over me!")

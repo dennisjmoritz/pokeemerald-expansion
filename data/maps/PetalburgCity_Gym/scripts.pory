@@ -5,13 +5,6 @@ mapscripts PetalburgCity_Gym_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: PetalburgCity_Gym_OnFrame
 }
 
-script PetalburgCity_Gym_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, PetalburgCity_Gym_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, PetalburgCity_Gym_OnTransition)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PetalburgCity_Gym_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, PetalburgCity_Gym_OnFrame)
-
-}
 
 text PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon {
     format("DAD: Hm?\p Well, if it isn't {PLAYER}! So you're all finished moving in?\p I'm surprised that you managed to get here by yourself.\p Oh, I see. You're with your POKéMON.\p Hm… Then I guess you're going to become a TRAINER like me, {PLAYER}.\p That's great news! I'll be looking forward to it!")

@@ -5,13 +5,6 @@ mapscripts BattleFrontier_BattleTowerMultiPartnerRoom_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: BattleFrontier_BattleTowerMultiPartnerRoom_OnFrame
 }
 
-script BattleFrontier_BattleTowerMultiPartnerRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, BattleFrontier_BattleTowerMultiPartnerRoom_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattleTowerMultiPartnerRoom_OnTransition)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleTowerMultiPartnerRoom_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerMultiPartnerRoom_OnFrame)
-
-}
 
 text BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner {
     format("Please find a partner from out of the TRAINERS gathered here.")

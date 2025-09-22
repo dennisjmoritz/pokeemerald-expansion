@@ -2,10 +2,6 @@ mapscripts MagmaHideout_1F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: MagmaHideout_1F_OnTransition
 }
 
-script MagmaHideout_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, MagmaHideout_1F_OnTransition)
-
-}
 
 text MagmaHideout_1F_Text_Grunt1Intro {
     format("When TEAM MAGMA has roll call, we get important guarding assignments in\l the order that we line up.\p That's why I'm stuck off in this corner. I'm always late to roll call!")

@@ -3,11 +3,6 @@ mapscripts MossdeepCity_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script MossdeepCity_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, MossdeepCity_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable {
     format("The GYM LEADERS in this town are a formidable duo.\p Their combination attacks are, like, excellent and wow!")

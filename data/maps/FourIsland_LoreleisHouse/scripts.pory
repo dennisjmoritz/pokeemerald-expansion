@@ -2,8 +2,4 @@ mapscripts FourIsland_LoreleisHouse_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: FourIsland_LoreleisHouse_OnTransition
 }
 
-script FourIsland_LoreleisHouse_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, FourIsland_LoreleisHouse_OnTransition)
-
-}
 

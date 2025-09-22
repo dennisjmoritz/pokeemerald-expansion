@@ -4,12 +4,6 @@ mapscripts Route116_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route116_OnFrame
 }
 
-script Route116_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route116_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, Route116_OnLoad)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route116_OnFrame)
-
-}
 
 text Route116_Text_ScoundrelMadeOffWithPeeko {
     format("Ohhh, what am I to do?\p We were on our walk, PEEKO and I, when we were jumped by an odd thug…\p The scoundrel made off with my darling PEEKO!\p Wrrrooooooaaaar! PEEKO!")

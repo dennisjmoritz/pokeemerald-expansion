@@ -3,9 +3,4 @@ mapscripts PalletTown_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: PalletTown_OnFrame
 }
 
-script PalletTown_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, PalletTown_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, PalletTown_OnFrame)
-
-}
 

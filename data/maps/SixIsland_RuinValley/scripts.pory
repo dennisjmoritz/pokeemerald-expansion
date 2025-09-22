@@ -2,8 +2,4 @@ mapscripts SixIsland_RuinValley_MapScripts {
     MAP_SCRIPT_ON_LOAD: SixIsland_RuinValley_OnLoad
 }
 
-script SixIsland_RuinValley_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, SixIsland_RuinValley_OnLoad)
-
-}
 

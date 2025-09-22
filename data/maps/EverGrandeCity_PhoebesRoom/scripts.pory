@@ -4,12 +4,6 @@ mapscripts EverGrandeCity_PhoebesRoom_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: EverGrandeCity_PhoebesRoom_OnFrame
 }
 
-script EverGrandeCity_PhoebesRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, EverGrandeCity_PhoebesRoom_OnLoad)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_PhoebesRoom_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_PhoebesRoom_OnFrame)
-
-}
 
 text EverGrandeCity_PhoebesRoom_Text_IntroSpeech {
     format("Ahahaha!\p I'm PHOEBE of the ELITE FOUR. I did my training on MT. PYRE.\p While I trained, I gained the ability to commune with GHOST-type POKéMON.\p Yes, the bond I developed with POKéMON is extremely tight.\p So, come on, just try and see if you can even inflict damage on my POKéMON!")

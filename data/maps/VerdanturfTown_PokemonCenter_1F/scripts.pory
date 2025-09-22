@@ -3,11 +3,6 @@ mapscripts VerdanturfTown_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script VerdanturfTown_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, VerdanturfTown_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon {
     format("You can't consider yourself a real TRAINER if you don't have faith\l in your POKéMON.\p Only those people who can believe in their battling POKéMON can win\l through to the very end.")

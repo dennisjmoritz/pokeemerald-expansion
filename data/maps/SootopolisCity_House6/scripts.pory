@@ -1,9 +1,6 @@
 mapscripts SootopolisCity_House6_MapScripts {
 }
 
-script SootopolisCity_House6_MapScripts {
-
-}
 
 text SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll {
     format("Hello! You're our first guest in a good while.\p You've brightened up my day, so I'll give you a big WAILMER DOLL.")

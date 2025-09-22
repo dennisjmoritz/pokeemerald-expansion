@@ -4,12 +4,6 @@ mapscripts EverGrandeCity_GlaciasRoom_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: EverGrandeCity_GlaciasRoom_OnWarp
 }
 
-script EverGrandeCity_GlaciasRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_GlaciasRoom_OnFrame)
-	map_script(MAP_SCRIPT_ON_LOAD, EverGrandeCity_GlaciasRoom_OnLoad)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_GlaciasRoom_OnWarp)
-
-}
 
 text EverGrandeCity_GlaciasRoom_Text_IntroSpeech {
     format("Welcome, my name is GLACIA of the ELITE FOUR.\p I've traveled from afar to HOENN so that I may hone my ice skills.\p But all I have seen are challenges by weak TRAINERS and their POKéMON.\p What about you?\p It would please me to no end if I could go all out against you!")

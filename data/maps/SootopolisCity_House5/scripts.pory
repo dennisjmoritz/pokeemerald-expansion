@@ -1,9 +1,6 @@
 mapscripts SootopolisCity_House5_MapScripts {
 }
 
-script SootopolisCity_House5_MapScripts {
-
-}
 
 text SootopolisCity_House5_Text_SootopolisMtPyreConnection {
     format("There appears to be some connection between SOOTOPOLIS and MT. PYRE.\p My friends and I did some research on it at the lab where I used to work.")

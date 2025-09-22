@@ -2,8 +2,4 @@ mapscripts RocketHideout_B4F_MapScripts {
     MAP_SCRIPT_ON_LOAD: RocketHideout_B4F_OnLoad
 }
 
-script RocketHideout_B4F_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, RocketHideout_B4F_OnLoad)
-
-}
 

@@ -3,11 +3,6 @@ mapscripts BattleFrontier_OutsideEast_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: BattleFrontier_OutsideEast_OnTransition
 }
 
-script BattleFrontier_OutsideEast_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, BattleFrontier_OutsideEast_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, BattleFrontier_OutsideEast_OnTransition)
-
-}
 
 text BattleFrontier_OutsideEast_Text_BattleTowerSign {
     format("This is the BATTLE TOWER! Keep the win streak as the toughest\l TRAINER!")

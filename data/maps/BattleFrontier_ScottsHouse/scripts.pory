@@ -1,9 +1,6 @@
 mapscripts BattleFrontier_ScottsHouse_MapScripts {
 }
 
-script BattleFrontier_ScottsHouse_MapScripts {
-
-}
 
 text BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier {
     format("SCOTT: Well, hello and welcome! Heheh… Sorry about the cramped space.\p Anyway, {PLAYER}{KUN}, let me formally welcome you to the BATTLE FRONTIER.\p This is my dream come true. It took me years and years, but I've\l finally given shape to my dream.")

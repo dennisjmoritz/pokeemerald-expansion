@@ -1,9 +1,6 @@
 mapscripts SlateportCity_PokemonFanClub_MapScripts {
 }
 
-script SlateportCity_PokemonFanClub_MapScripts {
-
-}
 
 text SlateportCity_PokemonFanClub_Text_MeetChairman {
     format("Er-hem! I am the CHAIRMAN of the POKéMON FAN CLUB!\p Being the CHAIRMAN, I am naturally the most important!\p No one can best me when it comes to raising POKéMON. No one!\p Well, let me tell you about POKéMON CONTESTS.\p They're events where one can show off POKéMON for the world to see!\p However, they're held in far-off towns, so I cannot participate often enough.\p That is why we gather here to show off our POKéMON, and have others\l show us theirs.")

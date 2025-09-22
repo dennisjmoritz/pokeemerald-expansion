@@ -2,10 +2,6 @@ mapscripts AquaHideout_B2F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: AquaHideout_B2F_OnTransition
 }
 
-script AquaHideout_B2F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, AquaHideout_B2F_OnTransition)
-
-}
 
 text AquaHideout_B2F_Text_MattIntro {
     format("Hehehe…\p Got here already, did you? We underestimated you!\p But this is it!\p I'm a cut above the GRUNTS you've seen so far.\p I'm not stalling for time. I'm going to pulverize you!")

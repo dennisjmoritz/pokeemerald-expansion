@@ -4,10 +4,4 @@ mapscripts MirageTower_2F_MapScripts {
     MAP_SCRIPT_ON_RESUME: MirageTower_2F_SetHoleWarp
 }
 
-script MirageTower_2F_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, CaveHole_CheckFallDownHole)
-	map_script(MAP_SCRIPT_ON_TRANSITION, CaveHole_FixCrackedGround)
-	map_script(MAP_SCRIPT_ON_RESUME, MirageTower_2F_SetHoleWarp)
-
-}
 

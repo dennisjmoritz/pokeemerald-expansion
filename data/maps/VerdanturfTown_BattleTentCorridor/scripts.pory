@@ -2,10 +2,6 @@ mapscripts VerdanturfTown_BattleTentCorridor_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: VerdanturfTown_BattleTentCorridor_OnFrame
 }
 
-script VerdanturfTown_BattleTentCorridor_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentCorridor_OnFrame)
-
-}
 
 text VerdanturfTown_ContestHall_Text_WhichContestYouEntering {
     format("Which CONTEST are you entering? Want a piece of advice?\p In any CONTEST, for example, a CUTE CONTEST, I don't think they judge you\l only on cuteness in the first round.\p You need to work out ways for raising POKéMON better.")

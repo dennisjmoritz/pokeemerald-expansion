@@ -2,8 +2,4 @@ mapscripts EverGrandeCity_Hall5_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: EverGrandeCity_Hall5_OnWarp
 }
 
-script EverGrandeCity_Hall5_MapScripts {
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_Hall5_OnWarp)
-
-}
 

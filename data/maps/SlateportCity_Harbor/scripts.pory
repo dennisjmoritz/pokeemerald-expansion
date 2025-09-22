@@ -2,10 +2,6 @@ mapscripts SlateportCity_Harbor_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: SlateportCity_Harbor_OnTransition
 }
 
-script SlateportCity_Harbor_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, SlateportCity_Harbor_OnTransition)
-
-}
 
 text SlateportCity_Harbor_Text_FerryServiceUnavailable {
     format("I beg your pardon? You're looking for a ship?\p I'm sorry, the ferry service isn't available at present…")

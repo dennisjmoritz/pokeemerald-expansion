@@ -1,9 +1,6 @@
 mapscripts BattleFrontier_ExchangeServiceCorner_MapScripts {
 }
 
-script BattleFrontier_ExchangeServiceCorner_MapScripts {
-
-}
 
 text BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize {
     format("Hello, this is the EXCHANGE SERVICE CORNER.\p We exchange the Battle Points you have collected for lovely prizes.\p Please choose a prize from this list.")

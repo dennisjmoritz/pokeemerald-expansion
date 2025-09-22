@@ -1,10 +1,6 @@
 mapscripts MtPyre_5F_MapScripts {
 }
 
-script MtPyre_5F_MapScripts {
-
-
-}
 
 text MtPyre_4F_Text_TashaIntro {
     format("I love all things horrifying… It's like a disease…\p When I'm here… I shiver with fear…")

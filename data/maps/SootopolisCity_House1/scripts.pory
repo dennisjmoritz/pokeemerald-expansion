@@ -1,9 +1,6 @@
 mapscripts SootopolisCity_House1_MapScripts {
 }
 
-script SootopolisCity_House1_MapScripts {
-
-}
 
 text SootopolisCity_House1_Text_DevelopedThisTM {
     format("For thirty years I've remained in SOOTOPOLIS honing my skills.\p I developed a shattering TM. I bequeath it to you!")

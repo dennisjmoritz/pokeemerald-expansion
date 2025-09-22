@@ -3,11 +3,6 @@ mapscripts SootopolisCity_MysteryEventsHouse_1F_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: SootopolisCity_MysteryEventsHouse_1F_OnFrame
 }
 
-script SootopolisCity_MysteryEventsHouse_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, SootopolisCity_MysteryEventsHouse_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, SootopolisCity_MysteryEventsHouse_1F_OnFrame)
-
-}
 
 text SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles {
     format("When I was young, I traveled the world as a POKéMON TRAINER.\p Now that I've become an old buzzard, my only amusement is watching young\l TRAINERS battle.")

@@ -3,11 +3,6 @@ mapscripts PacifidlogTown_MapScripts {
     MAP_SCRIPT_ON_RESUME: PacifidlogTown_OnResume
 }
 
-script PacifidlogTown_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, PacifidlogTown_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, PacifidlogTown_OnResume)
-
-}
 
 text PacifidlogTown_Text_FastRunningCurrent {
     format("The sea between PACIFIDLOG and SLATEPORT has a fast-running tide.\p If you decide to SURF, you could end up swept away somewhere else.")

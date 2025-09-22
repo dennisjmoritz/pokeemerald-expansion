@@ -3,11 +3,6 @@ mapscripts Route119_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route119_OnTransition
 }
 
-script Route119_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, Route119_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route119_OnTransition)
-
-}
 
 text Route119_Text_MayIntro {
     format("MAY: {PLAYER}{KUN}! Where were you? I was looking for you!\p How much stronger have you gotten? Let me check for you!\p Ready with your POKéMON? Of course you are! Go!")

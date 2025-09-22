@@ -1,9 +1,6 @@
 mapscripts RustboroCity_House3_MapScripts {
 }
 
-script RustboroCity_House3_MapScripts {
-
-}
 
 text RustboroCity_House3_Text_IGivePerfectlySuitedNicknames {
     format("For my own POKéMON, I give them perfectly suited nicknames!\p It's my expression of, uh… originality, yes, that's it!")

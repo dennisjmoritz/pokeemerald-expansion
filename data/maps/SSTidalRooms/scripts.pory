@@ -1,9 +1,6 @@
 mapscripts SSTidalRooms_MapScripts {
 }
 
-script SSTidalRooms_MapScripts {
-
-}
 
 text SSTidalRooms_Text_TakeRestOnBed {
     format("There's a bed… Let's take a rest.")

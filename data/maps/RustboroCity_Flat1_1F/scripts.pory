@@ -1,9 +1,6 @@
 mapscripts RustboroCity_Flat1_1F_MapScripts {
 }
 
-script RustboroCity_Flat1_1F_MapScripts {
-
-}
 
 text RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility {
     format("Every POKéMON has a special ability that it can use.")

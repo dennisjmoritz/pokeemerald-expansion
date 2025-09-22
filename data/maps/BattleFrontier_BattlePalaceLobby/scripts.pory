@@ -3,11 +3,6 @@ mapscripts BattleFrontier_BattlePalaceLobby_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: BattleFrontier_BattlePalaceLobby_OnWarp
 }
 
-script BattleFrontier_BattlePalaceLobby_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePalaceLobby_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePalaceLobby_OnWarp)
-
-}
 
 text BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle {
     format("Where the hearts of TRAINERS are put to the test.\p I welcome you to the BATTLE PALACE.\p I accept challenges to the SINGLE BATTLE HALLS.")

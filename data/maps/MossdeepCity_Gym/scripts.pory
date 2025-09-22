@@ -3,12 +3,6 @@ mapscripts MossdeepCity_Gym_MapScripts {
     MAP_SCRIPT_ON_LOAD: MossdeepCity_Gym_OnLoad
 }
 
-script MossdeepCity_Gym_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, MossdeepCity_Gym_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, MossdeepCity_Gym_OnLoad)
-
-
-}
 
 text MossdeepCity_Gym_Text_GymGuideAdvice {
     format("Yo, how's it going, CHAMPION-bound {PLAYER}?\p The GYM LEADERS here use PSYCHIC-type POKéMON.\p If you go up against them with FIGHTING- or POISON-type POKéMON,\l they'll inflict horrible damage!\p Plus, they'll come at you with outstanding combination attacks.\p If you want to win, you'll need to show them how tight you are with your\l POKéMON. Go for it!")

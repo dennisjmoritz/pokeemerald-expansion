@@ -3,11 +3,6 @@ mapscripts SootopolisCity_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script SootopolisCity_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, SootopolisCity_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn {
     format("WALLACE is rumored to be the toughest TRAINER in the whole HOENN region.\p This town's GYM is led by the TRAINER who taught WALLACE.\p But the ELITE FOUR… They're said to be even stronger than WALLACE's mentor.\p How strong could they be?")

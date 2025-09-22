@@ -1,9 +1,6 @@
 mapscripts LilycoveCity_ContestHall_MapScripts {
 }
 
-script LilycoveCity_ContestHall_MapScripts {
-
-}
 
 text LilycoveCity_ContestHall_Text_TodayWonSmartnessContest {
     format("This POKéMON won the BEAUTY CONTEST here before.\p Well, guess what? Today, I made it win a SMARTNESS CONTEST!\p My abilities scare even me…")

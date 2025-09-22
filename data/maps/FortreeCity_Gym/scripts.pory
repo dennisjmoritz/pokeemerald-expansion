@@ -3,11 +3,6 @@ mapscripts FortreeCity_Gym_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: FortreeCity_Gym_OnWarp
 }
 
-script FortreeCity_Gym_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, FortreeCity_Gym_OnTransition)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, FortreeCity_Gym_OnWarp)
-
-}
 
 text FortreeCity_Gym_Text_GymGuideAdvice {
     format("Yo, how's it going, CHAMPION- bound {PLAYER}?\p FORTREE GYM LEADER WINONA is a master of FLYING-type POKéMON.\p She's waiting at the back of this GYM, behind the rotating doors.\p She's waiting for new challengers who are trying to take wing!\p Okay, go for it!")

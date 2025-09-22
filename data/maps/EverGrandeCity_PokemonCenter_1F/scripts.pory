@@ -3,11 +3,6 @@ mapscripts EverGrandeCity_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script EverGrandeCity_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad {
     format("The POKéMON LEAGUE is only a short distance after the VICTORY ROAD.\p If you've come this far, what choice do you have but to keep going?")

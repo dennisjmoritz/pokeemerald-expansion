@@ -3,9 +3,4 @@ mapscripts IndigoPlateau_Exterior_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: IndigoPlateau_Exterior_OnFrame
 }
 
-script IndigoPlateau_Exterior_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, IndigoPlateau_Exterior_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, IndigoPlateau_Exterior_OnFrame)
-
-}
 

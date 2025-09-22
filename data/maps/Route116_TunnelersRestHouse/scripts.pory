@@ -2,10 +2,6 @@ mapscripts Route116_TunnelersRestHouse_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route116_TunnelersRestHouse_OnTransition
 }
 
-script Route116_TunnelersRestHouse_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route116_TunnelersRestHouse_OnTransition)
-
-}
 
 text Route116_TunnelersRestHouse_Text_WeHadToStopBoring {
     format("That RUSTURF TUNNEL there…\p At first, we had a huge work crew boring through rock with the latest machinery.\l But, we had to stop.\p It turns out that we would have had a negative effect on wild POKéMON in\l the area.\p So, we've got nothing to do but loll around here doing nothing.")

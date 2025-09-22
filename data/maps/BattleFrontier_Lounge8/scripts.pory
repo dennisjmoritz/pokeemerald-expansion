@@ -1,9 +1,6 @@
 mapscripts BattleFrontier_Lounge8_MapScripts {
 }
 
-script BattleFrontier_Lounge8_MapScripts {
-
-}
 
 text BattleFrontier_Lounge8_Text_WhatATrainerNeeds {
     format("What a TRAINER needs…\p Knowledge… Strategy…\l Luck…\l Guts…\l Spirit…\l Bravery…\l And ability…\p Well, I'm all set in every way! I'll be unstoppable at every building!\p Huh? POKéMON? What's that?")

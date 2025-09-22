@@ -6,12 +6,4 @@ mapscripts SeafoamIslands_B4F_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: SeafoamIslands_B4F_OnFrame
 }
 
-script SeafoamIslands_B4F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, SeafoamIslands_B4F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, SeafoamIslands_B4F_OnResume)
-	map_script(MAP_SCRIPT_ON_LOAD, SeafoamIslands_B4F_OnLoad)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SeafoamIslands_B4F_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, SeafoamIslands_B4F_OnFrame)
-
-}
 

@@ -3,11 +3,6 @@ mapscripts Route103_MapScripts {
     MAP_SCRIPT_ON_LOAD: Route103_OnLoad
 }
 
-script Route103_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route103_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, Route103_OnLoad)
-
-}
 
 text Route103_Text_MayRoute103Pokemon {
     format("MAY: Let's see… The POKéMON found on ROUTE 103 include…")

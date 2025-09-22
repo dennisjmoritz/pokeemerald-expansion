@@ -3,11 +3,6 @@ mapscripts Route104_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route104_OnTransition
 }
 
-script Route104_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route104_OnFrame)
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route104_OnTransition)
-
-}
 
 text Route104_Text_BrineyLivesInSeasideCottage {
     format("That seaside cottage is where MR. BRINEY lives.\p He was once a mighty sailor who never feared the sea, however stormy.")

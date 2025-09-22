@@ -3,11 +3,6 @@ mapscripts BattleFrontier_BattlePyramidLobby_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: BattleFrontier_BattleDomeLobby_OnWarp
 }
 
-script BattleFrontier_BattlePyramidLobby_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePyramidLobby_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleDomeLobby_OnWarp)
-
-}
 
 text BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid {
     format("Where the courage of TRAINERS is put to the test!\p Welcome to the BATTLE PYRAMID!\p I am your guide to the Battle Quest.")

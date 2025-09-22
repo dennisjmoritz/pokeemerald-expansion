@@ -1,9 +1,6 @@
 mapscripts PacifidlogTown_House5_MapScripts {
 }
 
-script PacifidlogTown_House5_MapScripts {
-
-}
 
 text PacifidlogTown_House5_Text_CantSeeMirageIslandToday {
     format("I can't see MIRAGE ISLAND today…")

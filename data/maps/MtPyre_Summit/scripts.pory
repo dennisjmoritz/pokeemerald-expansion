@@ -2,10 +2,6 @@ mapscripts MtPyre_Summit_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: MtPyre_Summit_OnTransition
 }
 
-script MtPyre_Summit_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, MtPyre_Summit_OnTransition)
-
-}
 
 text MtPyre_Summit_Text_Grunt1Intro {
     format("No! Those TEAM MAGMA goons got here ahead of us!\p We can't fall behind!")

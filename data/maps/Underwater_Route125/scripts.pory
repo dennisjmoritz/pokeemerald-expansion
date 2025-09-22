@@ -2,8 +2,4 @@ mapscripts Underwater_Route125_MapScripts {
     MAP_SCRIPT_ON_RESUME: Underwater_Route125_OnResume
 }
 
-script Underwater_Route125_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, Underwater_Route125_OnResume)
-
-}
 

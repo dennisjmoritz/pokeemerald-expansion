@@ -2,10 +2,6 @@ mapscripts Route110_SeasideCyclingRoadNorthEntrance_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route110_SeasideCyclingRoadNorthEntrance_OnTransition
 }
 
-script Route110_SeasideCyclingRoadNorthEntrance_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route110_SeasideCyclingRoadNorthEntrance_OnTransition)
-
-}
 
 text Route110_SeasideCyclingRoadNorthEntrance_Text_GoAllOutOnCyclingRoad {
     format("On CYCLING ROAD, you can go all out and cycle as fast as you'd like.\p It feels great to go that fast, but try not to crash into anyone!")

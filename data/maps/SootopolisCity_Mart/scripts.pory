@@ -1,9 +1,6 @@
 mapscripts SootopolisCity_Mart_MapScripts {
 }
 
-script SootopolisCity_Mart_MapScripts {
-
-}
 
 text SootopolisCity_Mart_Text_PPUpIsGreat {
     format("PP UP is great!\p It raises the POWER POINTS, the PP, of a POKéMON move.")

@@ -1,9 +1,6 @@
 mapscripts VerdanturfTown_FriendshipRatersHouse_MapScripts {
 }
 
-script VerdanturfTown_FriendshipRatersHouse_MapScripts {
-
-}
 
 text VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou {
     format("Let me see your POKéMON. I'll check to see how much it likes you.\p Oh. Your POKéMON…")

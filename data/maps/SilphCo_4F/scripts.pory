@@ -2,8 +2,4 @@ mapscripts SilphCo_4F_MapScripts {
     MAP_SCRIPT_ON_LOAD: SilphCo_4F_OnLoad
 }
 
-script SilphCo_4F_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, SilphCo_4F_OnLoad)
-
-}
 

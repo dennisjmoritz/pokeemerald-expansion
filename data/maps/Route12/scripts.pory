@@ -2,8 +2,4 @@ mapscripts Route12_MapScripts {
     MAP_SCRIPT_ON_RESUME: Route12_OnResume
 }
 
-script Route12_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, Route12_OnResume)
-
-}
 

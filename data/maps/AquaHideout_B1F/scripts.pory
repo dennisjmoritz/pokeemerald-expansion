@@ -3,11 +3,6 @@ mapscripts AquaHideout_B1F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: AquaHideout_B1F_OnTransition
 }
 
-script AquaHideout_B1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, AquaHideout_B1F_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, AquaHideout_B1F_OnTransition)
-
-}
 
 text AquaHideout_B1F_Text_Grunt2Intro {
     format("If you want to know the secret about our HIDEOUT, you have me to beat!")

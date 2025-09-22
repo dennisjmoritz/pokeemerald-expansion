@@ -1,9 +1,6 @@
 mapscripts SeafloorCavern_Room9_MapScripts {
 }
 
-script SeafloorCavern_Room9_MapScripts {
-
-}
 
 text SeafloorCavern_Room9_Text_ArchieHoldItRightThere {
     format("ARCHIE: Hold it right there.")

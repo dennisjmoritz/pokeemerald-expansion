@@ -4,12 +4,6 @@ mapscripts BattleFrontier_BattleFactoryBattleRoom_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: BattleFrontier_BattleFactoryBattleRoom_OnFrame
 }
 
-script BattleFrontier_BattleFactoryBattleRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattleFactoryBattleRoom_OnTransition)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleFactoryBattleRoom_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleFactoryBattleRoom_OnFrame)
-
-}
 
 text BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn {
     format("Hey, hey! Get a move on!")

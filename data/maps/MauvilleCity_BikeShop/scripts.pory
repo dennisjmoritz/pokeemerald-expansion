@@ -1,9 +1,6 @@
 mapscripts MauvilleCity_BikeShop_MapScripts {
 }
 
-script MauvilleCity_BikeShop_MapScripts {
-
-}
 
 text MauvilleCity_BikeShop_Text_RydelGreeting {
     format("Well, well, what have we here? A most energetic customer!\p Me? You may call me RYDEL. I'm the owner of this cycle shop.")

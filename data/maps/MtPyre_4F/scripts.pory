@@ -1,10 +1,6 @@
 mapscripts MtPyre_4F_MapScripts {
 }
 
-script MtPyre_4F_MapScripts {
-
-
-}
 
 text MtPyre_5F_Text_AtsushiIntro {
     format("Teacher… Please watch over my progress!")

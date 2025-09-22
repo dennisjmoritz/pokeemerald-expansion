@@ -2,10 +2,6 @@ mapscripts Route109_SeashoreHouse_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route109_SeashoreHouse_OnTransition
 }
 
-script Route109_SeashoreHouse_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route109_SeashoreHouse_OnTransition)
-
-}
 
 text Route109_SeashoreHouse_Text_SeashoreHouseIntro {
     format("I'm the owner of the SEASHORE HOUSE. But you can call me MR. SEA!\p What I love above all is to see hot POKéMON battles.\p Let me see that your heart burns hot!\p If you can defeat all the TRAINERS here, I'll reward your efforts.")

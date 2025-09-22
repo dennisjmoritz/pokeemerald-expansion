@@ -1,9 +1,6 @@
 mapscripts MossdeepCity_House4_MapScripts {
 }
 
-script MossdeepCity_House4_MapScripts {
-
-}
 
 text MossdeepCity_House4_Text_BrotherLikesToFindBases {
     format("My little brother says he likes to go find people's SECRET BASES.")

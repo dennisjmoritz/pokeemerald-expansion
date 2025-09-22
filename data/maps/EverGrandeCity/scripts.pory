@@ -2,10 +2,6 @@ mapscripts EverGrandeCity_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: EverGrandeCity_OnTransition
 }
 
-script EverGrandeCity_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_OnTransition)
-
-}
 
 text EverGrandeCity_Text_EnteringVictoryRoad {
     format("ENTERING VICTORY ROAD")

@@ -5,13 +5,6 @@ mapscripts BattleFrontier_BattlePikeRoomNormal_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: BattleFrontier_BattlePikeRoom_OnWarp
 }
 
-script BattleFrontier_BattlePikeRoomNormal_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePikeRoom_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattlePikeRoom_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePikeRoomNormal_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePikeRoom_OnWarp)
-
-}
 
 text BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth {
     format("Welcome… You must be commended for your luck…\p Your POKéMON shall be restored to full health…")

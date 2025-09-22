@@ -3,9 +3,4 @@ mapscripts NavelRock_Base_MapScripts {
     MAP_SCRIPT_ON_RESUME: NavelRock_Base_OnResume
 }
 
-script NavelRock_Base_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, NavelRock_Base_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, NavelRock_Base_OnResume)
-
-}
 

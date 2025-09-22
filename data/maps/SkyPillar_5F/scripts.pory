@@ -2,8 +2,4 @@ mapscripts SkyPillar_5F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: SkyPillar_5F_OnTransition
 }
 
-script SkyPillar_5F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, SkyPillar_5F_OnTransition)
-
-}
 

@@ -4,12 +4,6 @@ mapscripts Route105_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route105_OnFrame
 }
 
-script Route105_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, Route105_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route105_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route105_OnFrame)
-
-}
 
 text Route104_Text_DadPokenavCall {
     format("… … … … … … … … … … … Beep!\p DAD: Oh, {PLAYER}?\p … … … … … … Where are you now?\l It sounds windy wherever you are.\p I just heard from DEVON's MR. STONE about your POKéNAV, so I decided\l to give you a call.\p It sounds like you're doing fine, so that's fine with me.\p You take care now.\p … … … … … … … … … … … Click!")

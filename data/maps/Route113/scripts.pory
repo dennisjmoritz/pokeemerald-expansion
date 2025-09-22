@@ -3,11 +3,6 @@ mapscripts Route113_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route113_OnTransition
 }
 
-script Route113_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, Route113_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route113_OnTransition)
-
-}
 
 text Route113_Text_AshCanBeFashionedIntoGlass {
     format("Wahahaha! Today's technology is a wondrous thing!\p Take this volcanic ash here. It can be fashioned into glass.")

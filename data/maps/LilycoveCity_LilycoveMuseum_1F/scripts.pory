@@ -1,9 +1,6 @@
 mapscripts LilycoveCity_LilycoveMuseum_1F_MapScripts {
 }
 
-script LilycoveCity_LilycoveMuseum_1F_MapScripts {
-
-}
 
 text LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum {
     format("Welcome to LILYCOVE MUSEUM.\p Please take the time to enjoy our collection of fantastic artwork\l featuring POKéMON.")

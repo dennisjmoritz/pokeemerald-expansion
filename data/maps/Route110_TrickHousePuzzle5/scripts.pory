@@ -2,10 +2,6 @@ mapscripts Route110_TrickHousePuzzle5_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route110_TrickHousePuzzle5_OnTransition
 }
 
-script Route110_TrickHousePuzzle5_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle5_OnTransition)
-
-}
 
 text Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened {
     format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is a genius.” … … … … … … … …\p The lock clicked open!")

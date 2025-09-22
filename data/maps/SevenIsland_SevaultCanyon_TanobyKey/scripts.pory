@@ -2,8 +2,4 @@ mapscripts SevenIsland_SevaultCanyon_TanobyKey_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: SevenIsland_SevaultCanyon_TanobyKey_OnTransition
 }
 
-script SevenIsland_SevaultCanyon_TanobyKey_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, SevenIsland_SevaultCanyon_TanobyKey_OnTransition)
-
-}
 

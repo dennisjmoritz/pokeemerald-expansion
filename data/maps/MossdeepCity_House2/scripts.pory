@@ -1,9 +1,6 @@
 mapscripts MossdeepCity_House2_MapScripts {
 }
 
-script MossdeepCity_House2_MapScripts {
-
-}
 
 text MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree {
     format("My little sister exchanges MAIL with her boyfriend in FORTREE.\p I don't envy her one bit at all.")

@@ -2,10 +2,6 @@ mapscripts Route114_LanettesHouse_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route114_LanettesHouse_OnTransition
 }
 
-script Route114_LanettesHouse_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route114_LanettesHouse_OnTransition)
-
-}
 
 text Route114_LanettesHouse_Text_EverythingClutteredKeepThis {
     format("LANETTE: Oh! {PLAYER}{KUN}!\p I'm sorry everything is so cluttered… When I get engrossed in research,\l things end up this way…\p This is embarrassing… Please keep this a secret in exchange for this.")

@@ -2,8 +2,4 @@ mapscripts SaffronCity_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: SaffronCity_OnTransition
 }
 
-script SaffronCity_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, SaffronCity_OnTransition)
-
-}
 

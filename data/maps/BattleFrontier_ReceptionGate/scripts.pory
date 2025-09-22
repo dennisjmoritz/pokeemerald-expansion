@@ -3,11 +3,6 @@ mapscripts BattleFrontier_ReceptionGate_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: BattleFrontier_ReceptionGate_OnTransition
 }
 
-script BattleFrontier_ReceptionGate_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_ReceptionGate_OnFrame)
-	map_script(MAP_SCRIPT_ON_TRANSITION, BattleFrontier_ReceptionGate_OnTransition)
-
-}
 
 text BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay {
     format("Is it your first time here? Please step this way!")

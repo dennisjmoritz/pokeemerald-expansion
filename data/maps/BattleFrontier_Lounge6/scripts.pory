@@ -1,9 +1,6 @@
 mapscripts BattleFrontier_Lounge6_MapScripts {
 }
 
-script BattleFrontier_Lounge6_MapScripts {
-
-}
 
 text BattleFrontier_Lounge6_Text_WouldYouLikeToTrade {
     format("My POKéMON is a {STR_VAR_2}. Do you know it?\l It's quite cute and rather nice.\p This little one, I could trade with pride!\p Would you like to trade me a {STR_VAR_1} for my {STR_VAR_2}?")

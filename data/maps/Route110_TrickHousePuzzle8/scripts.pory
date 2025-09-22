@@ -1,9 +1,6 @@
 mapscripts Route110_TrickHousePuzzle8_MapScripts {
 }
 
-script Route110_TrickHousePuzzle8_MapScripts {
-
-}
 
 text Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened {
     format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER I love.” … … … … … … … …\p The lock clicked open!")

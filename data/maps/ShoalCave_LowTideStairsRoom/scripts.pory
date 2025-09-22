@@ -2,8 +2,4 @@ mapscripts ShoalCave_LowTideStairsRoom_MapScripts {
     MAP_SCRIPT_ON_LOAD: ShoalCave_LowTideStairsRoom_OnLoad
 }
 
-script ShoalCave_LowTideStairsRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, ShoalCave_LowTideStairsRoom_OnLoad)
-
-}
 

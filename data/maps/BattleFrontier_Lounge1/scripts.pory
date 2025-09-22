@@ -1,9 +1,6 @@
 mapscripts BattleFrontier_Lounge1_MapScripts {
 }
 
-script BattleFrontier_Lounge1_MapScripts {
-
-}
 
 text BattleFrontier_Lounge1_Text_PokemonBreederIntro {
     format("For 70 years I have raised POKéMON! I am the man they revere as\l the legendary top POKéMON BREEDER!\p If you ever become as seasoned as me, you'll see the abilities of POKéMON\l at a glance.\p You're a TRAINER. Doesn't it interest you to know your own POKéMON's\l abilities?\p Here! Let's have a look at your POKéMON!")

@@ -1,9 +1,6 @@
 mapscripts AbandonedShip_Rooms2_B1F_MapScripts {
 }
 
-script AbandonedShip_Rooms2_B1F_MapScripts {
-
-}
 
 text AbandonedShip_Rooms2_B1F_Text_PerfectPlaceToGoExploring {
     format("This is a perfect place to go exploring! It's exciting here!\p I bet there're amazing treasures on board.")

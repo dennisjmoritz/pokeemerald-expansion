@@ -2,8 +2,4 @@ mapscripts FuchsiaCity_SafariZone_Entrance_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: FuchsiaCity_SafariZone_Entrance_OnFrame
 }
 
-script FuchsiaCity_SafariZone_Entrance_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, FuchsiaCity_SafariZone_Entrance_OnFrame)
-
-}
 

@@ -2,10 +2,6 @@ mapscripts Route110_TrickHousePuzzle1_MapScripts {
     MAP_SCRIPT_ON_LOAD: Route110_TrickHousePuzzle1_OnLoad
 }
 
-script Route110_TrickHousePuzzle1_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, Route110_TrickHousePuzzle1_OnLoad)
-
-}
 
 text Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened {
     format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is fabulous.” … … … … … … … …\p The lock clicked open!")

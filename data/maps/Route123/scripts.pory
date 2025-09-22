@@ -2,10 +2,6 @@ mapscripts Route123_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route123_OnTransition
 }
 
-script Route123_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route123_OnTransition)
-
-}
 
 text Route123_Text_LoveGrassMonsHaveAny {
     format("I love GRASS-type POKéMON!\p Do you have any GRASS-type POKéMON?")

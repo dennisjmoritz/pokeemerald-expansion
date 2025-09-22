@@ -2,8 +2,4 @@ mapscripts UndergroundPath_EastWestTunnel_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: UndergroundPath_EastWestTunnel_OnTransition
 }
 
-script UndergroundPath_EastWestTunnel_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, UndergroundPath_EastWestTunnel_OnTransition)
-
-}
 

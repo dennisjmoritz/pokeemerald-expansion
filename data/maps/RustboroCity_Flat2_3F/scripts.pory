@@ -1,9 +1,6 @@
 mapscripts RustboroCity_Flat2_3F_MapScripts {
 }
 
-script RustboroCity_Flat2_3F_MapScripts {
-
-}
 
 text RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones {
     format("DEVON's PRESIDENT likes to collect rare stones.")

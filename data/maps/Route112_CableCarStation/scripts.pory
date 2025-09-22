@@ -3,11 +3,6 @@ mapscripts Route112_CableCarStation_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route112_CableCarStation_OnFrame
 }
 
-script Route112_CableCarStation_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route112_CableCarStation_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route112_CableCarStation_OnFrame)
-
-}
 
 text Route112_CableCarStation_Text_CableCarReadyGetOn {
     format("The CABLE CAR is ready to go up. Would you like to be on it?")

@@ -2,8 +2,4 @@ mapscripts FiveIsland_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: FiveIsland_OnTransition
 }
 
-script FiveIsland_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, FiveIsland_OnTransition)
-
-}
 

@@ -2,8 +2,4 @@ mapscripts TrainerHill_Elevator_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: TrainerHill_Elevator_OnFrame
 }
 
-script TrainerHill_Elevator_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, TrainerHill_Elevator_OnFrame)
-
-}
 

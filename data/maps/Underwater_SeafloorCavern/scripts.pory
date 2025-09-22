@@ -4,12 +4,6 @@ mapscripts Underwater_SeafloorCavern_MapScripts {
     MAP_SCRIPT_ON_LOAD: Underwater_SeafloorCavern_OnLoad
 }
 
-script Underwater_SeafloorCavern_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, Underwater_SeafloorCavern_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, Underwater_SeafloorCavern_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, Underwater_SeafloorCavern_OnLoad)
-
-}
 
 text Underwater_SeafloorCavern_Text_SubExplorer1 {
     format("“SUBMARINE EXPLORER 1” is painted on the hull.\p This is the submarine TEAM AQUA stole in SLATEPORT!\p TEAM AQUA must have gone ashore here.")

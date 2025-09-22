@@ -1,9 +1,6 @@
 mapscripts MagmaHideout_2F_2R_MapScripts {
 }
 
-script MagmaHideout_2F_2R_MapScripts {
-
-}
 
 text MagmaHideout_2F_2R_Text_Grunt15Intro {
     format("I don't have a bone to pick with you. I'm just following orders!")

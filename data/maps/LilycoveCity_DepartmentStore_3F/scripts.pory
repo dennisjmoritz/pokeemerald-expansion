@@ -1,9 +1,6 @@
 mapscripts LilycoveCity_DepartmentStore_3F_MapScripts {
 }
 
-script LilycoveCity_DepartmentStore_3F_MapScripts {
-
-}
 
 text LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon {
     format("For quickly toughening up POKéMON, items are the best.\p PROTEIN boosts ATTACK, and CALCIUM raises SP. ATK.")

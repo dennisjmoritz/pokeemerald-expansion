@@ -2,8 +2,4 @@ mapscripts CinnabarIsland_PokemonLab_Entrance_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: CinnabarIsland_PokemonLab_Entrance_OnTransition
 }
 
-script CinnabarIsland_PokemonLab_Entrance_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, CinnabarIsland_PokemonLab_Entrance_OnTransition)
-
-}
 

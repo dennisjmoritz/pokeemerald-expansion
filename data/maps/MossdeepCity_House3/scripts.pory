@@ -1,9 +1,6 @@
 mapscripts MossdeepCity_House3_MapScripts {
 }
 
-script MossdeepCity_House3_MapScripts {
-
-}
 
 text MossdeepCity_House3_Text_YouWantSuperRod {
     format("Hey there, TRAINER! A SUPER ROD really is super!\p Say all you want, but this baby can catch POKéMON off the seafloor!\p What do you think? You want it, don't you?")

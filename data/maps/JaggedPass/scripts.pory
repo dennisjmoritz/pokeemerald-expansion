@@ -4,12 +4,6 @@ mapscripts JaggedPass_MapScripts {
     MAP_SCRIPT_ON_LOAD: JaggedPass_OnLoad
 }
 
-script JaggedPass_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, JaggedPass_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, JaggedPass_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, JaggedPass_OnLoad)
-
-}
 
 text JaggedPass_Text_EricIntro {
     format("MT. CHIMNEY's JAGGED PASS…\p Now this is what I've always wanted in a mountain.\p This jagged bumpiness… It rocks my soul!")

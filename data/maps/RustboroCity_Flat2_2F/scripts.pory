@@ -1,9 +1,6 @@
 mapscripts RustboroCity_Flat2_2F_MapScripts {
 }
 
-script RustboroCity_Flat2_2F_MapScripts {
-
-}
 
 text RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays {
     format("Way back in the old days, DEVON was just a teeny, tiny company.")

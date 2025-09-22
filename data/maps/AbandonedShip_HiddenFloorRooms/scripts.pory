@@ -2,10 +2,6 @@ mapscripts AbandonedShip_HiddenFloorRooms_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: AbandonedShip_HiddenFloorRooms_OnFrame
 }
 
-script AbandonedShip_HiddenFloorRooms_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, AbandonedShip_HiddenFloorRooms_OnFrame)
-
-}
 
 text AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash {
     format("It's bright and shiny! But it's just trash…")

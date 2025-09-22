@@ -1,9 +1,6 @@
 mapscripts SlateportCity_Mart_MapScripts {
 }
 
-script SlateportCity_Mart_MapScripts {
-
-}
 
 text SlateportCity_Mart_Text_SomeItemsOnlyAtMart {
     format("The MARKET does have some interesting merchandise.\p But there are some items you can only get at a POKéMON MART.")

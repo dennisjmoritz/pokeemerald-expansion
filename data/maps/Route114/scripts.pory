@@ -4,12 +4,6 @@ mapscripts Route114_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route114_OnFrame
 }
 
-script Route114_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route114_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, Route114_OnLoad)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route114_OnFrame)
-
-}
 
 text Route114_Text_AllMyMonDoesIsRoarTakeThis {
     format("All my POKéMON does is ROAR… No one dares to come near me…\p Sigh… If you would, please take this TM away…")

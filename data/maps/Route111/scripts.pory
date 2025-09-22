@@ -5,13 +5,6 @@ mapscripts Route111_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route111_OnFrame
 }
 
-script Route111_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, Route111_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route111_OnTransition)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route111_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route111_OnFrame)
-
-}
 
 text Route111_Text_BattleOurFamily {
     format("Hello! I take it you're a traveler.\p How's this? What do you say to taking on our family of four in a series of\l POKéMON battles?")

@@ -2,10 +2,6 @@ mapscripts LavaridgeTown_Gym_1F_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: LavaridgeTown_Gym_1F_OnTransition
 }
 
-script LavaridgeTown_Gym_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, LavaridgeTown_Gym_1F_OnTransition)
-
-}
 
 text LavaridgeTown_Gym_1F_Text_GymGuideAdvice {
     format("Hey, how's it going, CHAMPION- bound {PLAYER}?\p LAVARIDGE's GYM LEADER FLANNERY uses FIRE-type POKéMON.\p Her passion for POKéMON burns stronger and hotter than a volcano.\p Don't get too close to her--you'll burn! Hose her down with water and then\l go for it!")

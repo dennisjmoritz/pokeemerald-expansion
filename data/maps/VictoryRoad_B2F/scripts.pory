@@ -1,9 +1,6 @@
 mapscripts VictoryRoad_B2F_MapScripts {
 }
 
-script VictoryRoad_B2F_MapScripts {
-
-}
 
 text VictoryRoad_B2F_Text_VitoIntro {
     format("I trained together with my whole family, every one of us!\l I'm not losing to anyone!")

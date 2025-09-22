@@ -1,9 +1,6 @@
 mapscripts SlateportCity_NameRatersHouse_MapScripts {
 }
 
-script SlateportCity_NameRatersHouse_MapScripts {
-
-}
 
 text SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname {
     format("Hi, hi! I'm the NAME RATER! I'm the fortune-teller of names!\p I shall be pleased to rate your POKéMON's nickname.")

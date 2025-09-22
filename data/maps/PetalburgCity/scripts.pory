@@ -3,11 +3,6 @@ mapscripts PetalburgCity_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: PetalburgCity_OnFrame
 }
 
-script PetalburgCity_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, PetalburgCity_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, PetalburgCity_OnFrame)
-
-}
 
 text PetalburgCity_Text_WhereIsWally {
     format("Where has our WALLY gone?\p We have to leave for VERDANTURF TOWN very soon…")

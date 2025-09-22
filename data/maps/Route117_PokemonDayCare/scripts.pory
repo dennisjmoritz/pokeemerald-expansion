@@ -2,8 +2,4 @@ mapscripts Route117_PokemonDayCare_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route117_PokemonDayCare_OnTransition
 }
 
-script Route117_PokemonDayCare_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route117_PokemonDayCare_OnTransition)
-
-}
 

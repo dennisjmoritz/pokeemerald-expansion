@@ -3,11 +3,6 @@ mapscripts Route114_FossilManiacsTunnel_MapScripts {
     MAP_SCRIPT_ON_LOAD: Route114_FossilManiacsTunnel_OnLoad
 }
 
-script Route114_FossilManiacsTunnel_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route114_FossilManiacsTunnel_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, Route114_FossilManiacsTunnel_OnLoad)
-
-}
 
 text Route114_FossilManiacsTunnel_Text_LookInDesertForFossils {
     format("I'm the FOSSIL MANIAC… I'm a nice guy who loves FOSSILS…\p Do you want a FOSSIL?\p But the FOSSILS around these parts all belong to me… None for you…\p If you can't bear to go without a FOSSIL, look in a desert where there\l are boulders and sand that may hide\l FOSSILS…")

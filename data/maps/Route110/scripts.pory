@@ -4,12 +4,6 @@ mapscripts Route110_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route110_OnFrame
 }
 
-script Route110_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, Route110_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route110_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route110_OnFrame)
-
-}
 
 text Route110_Text_WeCantTalkAboutAquaActivities {
     format("TEAM AQUA's activities… We can't talk about them yet.")

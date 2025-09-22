@@ -1,9 +1,6 @@
 mapscripts VerdanturfTown_House_MapScripts {
 }
 
-script VerdanturfTown_House_MapScripts {
-
-}
 
 text VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague {
     format("Far away, deep in EVER GRANDE CITY, is the POKéMON LEAGUE.\p The TRAINERS who gather there are all frighteningly well skilled.")

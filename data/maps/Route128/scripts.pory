@@ -3,11 +3,6 @@ mapscripts Route128_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route128_OnFrame
 }
 
-script Route128_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route128_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route128_OnFrame)
-
-}
 
 text Route128_Text_ArchieWhatHappened {
     format("ARCHIE: What happened… What is this wretched scene…\p Did I…make a horrible mistake?")

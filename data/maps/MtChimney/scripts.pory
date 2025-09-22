@@ -3,11 +3,6 @@ mapscripts MtChimney_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: MtChimney_OnTransition
 }
 
-script MtChimney_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, MtChimney_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, MtChimney_OnTransition)
-
-}
 
 text MtChimney_Text_MeteoriteWillActivateVolcano {
     format("The power contained in the METEORITE…\p By amplifying its power with this machine, MT. CHIMNEY's volcanic\l activity will instantly intensify…\p Its energy will grow deep inside the crater and…\l Fufufu…")

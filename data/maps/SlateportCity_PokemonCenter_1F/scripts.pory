@@ -3,11 +3,6 @@ mapscripts SlateportCity_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script SlateportCity_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, SlateportCity_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon {
     format("Want a tip for battling?\p I'd say it's raising different kinds of POKéMON in a balanced manner.\p It's no good to make just one POKéMON strong.\p If it has a type disadvantage, it might not stand a chance.")

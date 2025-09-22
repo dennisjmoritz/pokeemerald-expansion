@@ -4,12 +4,6 @@ mapscripts LittlerootTown_MaysHouse_1F_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: LittlerootTown_MaysHouse_1F_OnFrame
 }
 
-script LittlerootTown_MaysHouse_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, LittlerootTown_MaysHouse_1F_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, LittlerootTown_MaysHouse_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_MaysHouse_1F_OnFrame)
-
-}
 
 text RivalsHouse_1F_Text_OhYoureTheNewNeighbor {
     format("Oh, hello. And you are?\p … … … … … … … … … … … … … … … … … …\p Oh, you're {PLAYER}{KUN}, our new next-door neighbor! Hi!\p We have a {STR_VAR_1} about the same age as you.\p Our {STR_VAR_1} was excited about making a new friend.\p Our {STR_VAR_1} is upstairs, I think.")

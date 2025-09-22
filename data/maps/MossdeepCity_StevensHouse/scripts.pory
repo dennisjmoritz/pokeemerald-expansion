@@ -4,12 +4,6 @@ mapscripts MossdeepCity_StevensHouse_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: MossdeepCity_StevensHouse_OnFrame
 }
 
-script MossdeepCity_StevensHouse_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, MossdeepCity_StevensHouse_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, MossdeepCity_StevensHouse_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, MossdeepCity_StevensHouse_OnFrame)
-
-}
 
 text MossdeepCity_StevensHouse_Text_YouveEarnedHMDive {
     format("STEVEN: {PLAYER}{KUN}…\p As you can see, there's not much here, but this is my home.\p Thank you for all that you've done.\p This is my token of appreciation. It's the HIDDEN MACHINE DIVE.\p No need to be shy--you've earned this HM.")

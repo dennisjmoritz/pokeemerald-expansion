@@ -2,10 +2,6 @@ mapscripts DesertUnderpass_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: DesertUnderpass_OnTransition
 }
 
-script DesertUnderpass_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, DesertUnderpass_OnTransition)
-
-}
 
 text DesertUnderpass_Text_FoundRootFossil {
     format("{PLAYER} found the ROOT FOSSIL.")

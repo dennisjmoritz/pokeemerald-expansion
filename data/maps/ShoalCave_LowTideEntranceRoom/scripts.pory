@@ -2,8 +2,4 @@ mapscripts ShoalCave_LowTideEntranceRoom_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: ShoalCave_LowTideEntranceRoom_OnTransition
 }
 
-script ShoalCave_LowTideEntranceRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, ShoalCave_LowTideEntranceRoom_OnTransition)
-
-}
 

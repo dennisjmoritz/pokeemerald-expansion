@@ -1,9 +1,6 @@
 mapscripts LilycoveCity_MoveDeletersHouse_MapScripts {
 }
 
-script LilycoveCity_MoveDeletersHouse_MapScripts {
-
-}
 
 text LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove {
     format("Uh… Oh, yes, I'm the MOVE DELETER.\p I can make POKéMON forget their moves.\p Would you like me to do that?")

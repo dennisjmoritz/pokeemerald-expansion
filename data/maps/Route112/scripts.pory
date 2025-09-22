@@ -2,10 +2,6 @@ mapscripts Route112_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route112_OnTransition
 }
 
-script Route112_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route112_OnTransition)
-
-}
 
 text Route112_Text_LeaderGoingToAwakenThing {
     format("Hey, man, is our leader really going to awaken that thing?")

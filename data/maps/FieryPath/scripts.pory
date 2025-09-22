@@ -2,8 +2,4 @@ mapscripts FieryPath_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: FieryPath_OnTransition
 }
 
-script FieryPath_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, FieryPath_OnTransition)
-
-}
 

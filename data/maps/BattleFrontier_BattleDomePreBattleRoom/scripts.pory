@@ -3,11 +3,6 @@ mapscripts BattleFrontier_BattleDomePreBattleRoom_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: BattleFrontier_BattleDomePreBattleRoom_OnWarp
 }
 
-script BattleFrontier_BattleDomePreBattleRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleDomePreBattleRoom_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleDomePreBattleRoom_OnWarp)
-
-}
 
 text BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound1 {
     format("Your 1st-round match is next. Are you ready?")

@@ -1,9 +1,6 @@
 mapscripts AquaHideout_1F_MapScripts {
 }
 
-script AquaHideout_1F_MapScripts {
-
-}
 
 text AquaHideout_1F_Text_OurBossIsSnatchingSomething {
     format("What? What? What do you want with TEAM AQUA?\p Our BOSS isn't here! He's gone off to snatch something important!\p … … Where did he go?\p Wahaha! Do you really think I'd tell you something that crucial?")

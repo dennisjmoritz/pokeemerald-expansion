@@ -1,9 +1,6 @@
 mapscripts DewfordTown_Hall_MapScripts {
 }
 
-script DewfordTown_Hall_MapScripts {
-
-}
 
 text DewfordTown_Hall_Text_CantImagineLifeWithoutTrend {
     format("What's in vogue? Why, it has to be “{STR_VAR_1}”!\p I can't imagine what life would be like without “{STR_VAR_1}”!")

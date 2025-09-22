@@ -3,11 +3,6 @@ mapscripts LilycoveCity_MapScripts {
     MAP_SCRIPT_ON_LOAD: LilycoveCity_OnLoad
 }
 
-script LilycoveCity_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, LilycoveCity_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, LilycoveCity_OnLoad)
-
-}
 
 text LilycoveCity_Text_MayShoppingLetsBattle {
     format("MAY: Oh, hey? {PLAYER}{KUN}, are you shopping, too?\p I bought a whole bunch of DOLLS and POSTERS.\p Of course, I've also caught a lot of POKéMON, and I'm raising them\l properly, too.\p Actually, I'm more worried if you're raising POKéMON properly, {PLAYER}{KUN}.\p I'll battle with you, so you can show me your POKéMON, {PLAYER}{KUN}.")

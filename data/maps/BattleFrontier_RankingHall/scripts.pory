@@ -1,9 +1,6 @@
 mapscripts BattleFrontier_RankingHall_MapScripts {
 }
 
-script BattleFrontier_RankingHall_MapScripts {
-
-}
 
 text BattleFrontier_RankingHall_Text_ExplainRankingHall {
     format("This is the RANKING HALL.\p This is where we recognize the immortal TRAINERS who left great records in\l BATTLE FRONTIER events.")

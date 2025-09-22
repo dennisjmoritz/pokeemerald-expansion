@@ -1,9 +1,6 @@
 mapscripts PacifidlogTown_House4_MapScripts {
 }
 
-script PacifidlogTown_House4_MapScripts {
-
-}
 
 text PacifidlogTown_House4_Text_PeopleSawHighFlyingPokemon {
     format("People were saying they saw a POKéMON flying high above HOENN.\p Is it flying around all the time? Doesn't it need to rest somewhere?")

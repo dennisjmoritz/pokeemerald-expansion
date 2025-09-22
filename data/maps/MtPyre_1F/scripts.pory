@@ -1,9 +1,6 @@
 mapscripts MtPyre_1F_MapScripts {
 }
 
-script MtPyre_1F_MapScripts {
-
-}
 
 text MtPyre_1F_Text_TakeThisForYourOwnGood {
     format("All sorts of beings wander the slopes of MT. PYRE…\p There is no telling what may happen. Take this. It's for your own good.")

@@ -1,9 +1,6 @@
 mapscripts LilycoveCity_DepartmentStore_1F_MapScripts {
 }
 
-script LilycoveCity_DepartmentStore_1F_MapScripts {
-
-}
 
 text LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore {
     format("Welcome to LILYCOVE DEPARTMENT STORE.")

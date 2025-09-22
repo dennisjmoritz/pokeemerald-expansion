@@ -2,10 +2,6 @@ mapscripts MauvilleCity_Gym_MapScripts {
     MAP_SCRIPT_ON_LOAD: MauvilleCity_Gym_OnLoad
 }
 
-script MauvilleCity_Gym_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, MauvilleCity_Gym_OnLoad)
-
-}
 
 text MauvilleCity_Gym_Text_GymGuideAdvice {
     format("Hey, how's it going, CHAMPION- bound {PLAYER}?\p WATTSON, the LEADER of MAUVILLE GYM, uses ELECTRIC-type POKéMON.\p If you challenge him with WATER-type POKéMON, he'll zap them! Bzzt!\p And, he's put in switch-controlled doors all over his GYM! Eccentric!\p Hey, go for it!")

@@ -2,10 +2,6 @@ mapscripts MauvilleCity_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: MauvilleCity_OnTransition
 }
 
-script MauvilleCity_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, MauvilleCity_OnTransition)
-
-}
 
 text MauvilleCity_Text_UncleHesTooPeppy {
     format("UNCLE: It's because of POKéMON that this boy's got more pep, I suppose…\l But he's become a bit too peppy…")

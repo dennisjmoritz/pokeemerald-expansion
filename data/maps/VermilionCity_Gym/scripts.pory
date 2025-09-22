@@ -3,9 +3,4 @@ mapscripts VermilionCity_Gym_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: VermilionCity_Gym_OnTransition
 }
 
-script VermilionCity_Gym_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, VermilionCity_Gym_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, VermilionCity_Gym_OnTransition)
-
-}
 

@@ -3,11 +3,6 @@ mapscripts PacifidlogTown_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script PacifidlogTown_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, PacifidlogTown_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard {
     format("What color is your TRAINER CARD? Mine's copper!")

@@ -5,13 +5,6 @@ mapscripts BattleFrontier_BattlePyramidTop_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: BattleFrontier_BattlePyramidTop_OnWarp
 }
 
-script BattleFrontier_BattlePyramidTop_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePyramidTop_OnResume)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePyramidTop_OnFrame)
-	map_script(MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattlePyramidTop_OnTransition)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePyramidTop_OnWarp)
-
-}
 
 text BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo {
     format("It is a delight to see you here! You have reached the summit of\l the BATTLE PYRAMID!\p Above here is the PYRAMID's lookout point.\p It is a place open only to those who have conquered the PYRAMID.\p Now, please! Up you go!")

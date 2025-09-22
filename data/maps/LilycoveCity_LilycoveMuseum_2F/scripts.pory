@@ -3,11 +3,6 @@ mapscripts LilycoveCity_LilycoveMuseum_2F_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: LilycoveCity_LilycoveMuseum_2F_OnFrame
 }
 
-script LilycoveCity_LilycoveMuseum_2F_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, LilycoveCity_LilycoveMuseum_2F_OnLoad)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, LilycoveCity_LilycoveMuseum_2F_OnFrame)
-
-}
 
 text LilycoveCity_LilycoveMuseum_2F_Text_ThisIsExhibitHall {
     format("This is our special exhibit hall.")

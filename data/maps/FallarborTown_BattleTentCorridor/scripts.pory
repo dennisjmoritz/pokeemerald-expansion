@@ -2,10 +2,6 @@ mapscripts FallarborTown_BattleTentCorridor_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: FallarborTown_BattleTentCorridor_OnFrame
 }
 
-script FallarborTown_BattleTentCorridor_MapScripts {
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, FallarborTown_BattleTentCorridor_OnFrame)
-
-}
 
 text FallarborTown_ContestHall_Text_DoAllRightInPreliminary {
     format("We do all right in the preliminary round, but we can never win the appeals…\p Maybe it means I have to watch what other contestants are doing…")

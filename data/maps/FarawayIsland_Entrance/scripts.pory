@@ -2,8 +2,4 @@ mapscripts FarawayIsland_Entrance_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: FarawayIsland_Entrance_OnTransition
 }
 
-script FarawayIsland_Entrance_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, FarawayIsland_Entrance_OnTransition)
-
-}
 

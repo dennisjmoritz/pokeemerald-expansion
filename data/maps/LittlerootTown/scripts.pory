@@ -4,17 +4,6 @@ mapscripts LittlerootTown_MapScripts {
     MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: LittlerootTown_OnWarp
 }
 
-script LittlerootTown_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, LittlerootTown_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_OnFrame)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_OnWarp)
-
-
-
-
-
-
-}
 
 text LittlerootTown_Text_OurNewHomeLetsGoInside {
     format("MOM: {PLAYER}, we're here, honey!\p It must be tiring riding with our things in the moving truck.\p Well, this is LITTLEROOT TOWN.\p How do you like it? This is our new home!\p It has a quaint feel, but it seems to be an easy place to live, don't you think?\p And, you get your own room, {PLAYER}! Let's go inside.")

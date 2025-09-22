@@ -6,12 +6,4 @@ mapscripts PokemonLeague_LoreleisRoom_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: PokemonLeague_LoreleisRoom_OnFrame
 }
 
-script PokemonLeague_LoreleisRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, PokemonLeague_LoreleisRoom_OnResume)
-	map_script(MAP_SCRIPT_ON_LOAD, PokemonLeague_LoreleisRoom_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, PokemonLeague_LoreleisRoom_OnTransition)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PokemonLeague_LoreleisRoom_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_LoreleisRoom_OnFrame)
-
-}
 

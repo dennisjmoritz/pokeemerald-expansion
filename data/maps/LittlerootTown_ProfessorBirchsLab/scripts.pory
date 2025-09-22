@@ -4,14 +4,6 @@ mapscripts LittlerootTown_ProfessorBirchsLab_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: LittlerootTown_ProfessorBirchsLab_OnFrame
 }
 
-script LittlerootTown_ProfessorBirchsLab_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, LittlerootTown_ProfessorBirchsLab_OnTransition)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_ProfessorBirchsLab_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_ProfessorBirchsLab_OnFrame)
-
-
-
-}
 
 text LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork {
     format("Hunh? PROF. BIRCH?\p The PROF's away on fieldwork. Ergo, he isn't here.\p Oh, let me explain what fieldwork is.\p It is to study things in the natural environment, like fields and mountains,\l instead of a laboratory.\p The PROF isn't one for doing desk work. He's the type of person who would\l rather go outside and experience\l things than read about them here.")

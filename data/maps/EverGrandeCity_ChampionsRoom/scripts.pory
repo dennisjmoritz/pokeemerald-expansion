@@ -4,12 +4,6 @@ mapscripts EverGrandeCity_ChampionsRoom_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: EverGrandeCity_ChampionsRoom_OnFrame
 }
 
-script EverGrandeCity_ChampionsRoom_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_ChampionsRoom_OnTransition)
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_ChampionsRoom_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_ChampionsRoom_OnFrame)
-
-}
 
 text EverGrandeCity_ChampionsRoom_Text_IntroSpeech {
     format("WALLACE: Welcome, {PLAYER}{KUN}.\p That incident in SOOTOPOLIS CITY… That was superb work, putting an end\l to that crisis all by yourself.\p Oops!\p It wouldn't be fair to say that you alone ended the crisis.\p You overcame that difficult situation by working as one with your POKéMON.\p We TRAINERS raise POKéMON by giving them items and by teaching them new\l techniques for battle.\p But we ourselves also learn many things from POKéMON.\p And this is where your achievements are put to the test against what\l others like you have achieved.\p Now!\p Who can most elegantly dance with their POKéMON in HOENN?\p Show me right here and now!")

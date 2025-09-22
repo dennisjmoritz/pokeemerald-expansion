@@ -1,9 +1,6 @@
 mapscripts FallarborTown_MoveRelearnersHouse_MapScripts {
 }
 
-script FallarborTown_MoveRelearnersHouse_MapScripts {
-
-}
 
 text FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor {
     format("I'm the MOVE TUTOR.\p I know all the moves that POKéMON learn--every one of them--and I can\l teach POKéMON those moves.\p I can teach a move to a POKéMON of yours if you'd like.\p I'll do it for a HEART SCALE. I'm collecting those now.")

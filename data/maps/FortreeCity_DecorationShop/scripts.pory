@@ -1,9 +1,6 @@
 mapscripts FortreeCity_DecorationShop_MapScripts {
 }
 
-script FortreeCity_DecorationShop_MapScripts {
-
-}
 
 text FortreeCity_DecorationShop_Text_MerchandiseSentToPC {
     format("Merchandise you buy here is sent to your own PC.\p That's fantastic! I wish they could also deliver me home like that.")

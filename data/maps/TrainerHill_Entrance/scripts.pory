@@ -6,14 +6,6 @@ mapscripts TrainerHill_Entrance_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: TrainerHill_Entrance_OnFrame
 }
 
-script TrainerHill_Entrance_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, TrainerHill_Entrance_OnResume)
-	map_script(MAP_SCRIPT_ON_RETURN_TO_FIELD, TrainerHill_Entrance_OnReturn)
-	map_script(MAP_SCRIPT_ON_TRANSITION, TrainerHill_Entrance_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, TrainerHill_Entrance_OnLoad)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, TrainerHill_Entrance_OnFrame)
-
-}
 
 text TrainerHill_Entrance_Text_StillGettingReady {
     format("This is the TRAINER HILL where you may enjoy tag battles with many\l TRAINERS.\p Unfortunately, we're still getting things ready. Please come back later!")

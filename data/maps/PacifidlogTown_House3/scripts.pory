@@ -1,9 +1,6 @@
 mapscripts PacifidlogTown_House3_MapScripts {
 }
 
-script PacifidlogTown_House3_MapScripts {
-
-}
 
 text PacifidlogTown_House3_Text_WillingToTradeIt {
     format("Check out this {STR_VAR_2}!\p It's the {STR_VAR_2} that I caught yesterday to celebrate my birthday!\p Oh, I can see that you want it! After all, it's priceless!\p I'll tell you what. I might be willing to trade it for a {STR_VAR_1}.")

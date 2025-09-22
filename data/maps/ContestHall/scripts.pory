@@ -6,12 +6,4 @@ mapscripts ContestHall_MapScripts {
     MAP_SCRIPT_ON_RETURN_TO_FIELD: ContestHall_OnReturn
 }
 
-script ContestHall_MapScripts {
-	map_script(MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, ContestHall_OnWarp)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, ContestHall_OnFrame)
-	map_script(MAP_SCRIPT_ON_TRANSITION, ContestHall_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, ContestHall_OnResume)
-	map_script(MAP_SCRIPT_ON_RETURN_TO_FIELD, ContestHall_OnReturn)
-
-}
 

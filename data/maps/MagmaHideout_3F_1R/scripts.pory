@@ -1,9 +1,6 @@
 mapscripts MagmaHideout_3F_1R_MapScripts {
 }
 
-script MagmaHideout_3F_1R_MapScripts {
-
-}
 
 text MagmaHideout_3F_1R_Text_Grunt9Intro {
     format("What did I do to deserve this guard posting?\p My left ear is burning up!")

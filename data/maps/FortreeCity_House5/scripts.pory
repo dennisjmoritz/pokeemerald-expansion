@@ -1,9 +1,6 @@
 mapscripts FortreeCity_House5_MapScripts {
 }
 
-script FortreeCity_House5_MapScripts {
-
-}
 
 text FortreeCity_House5_Text_TreeHousesAreGreat {
     format("The tree houses of FORTREE are great!\p I think it's the number one town for living together with POKéMON.")

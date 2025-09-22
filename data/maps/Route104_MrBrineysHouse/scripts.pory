@@ -2,10 +2,6 @@ mapscripts Route104_MrBrineysHouse_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route104_MrBrineysHouse_OnTransition
 }
 
-script Route104_MrBrineysHouse_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route104_MrBrineysHouse_OnTransition)
-
-}
 
 text Route104_MrBrineysHouse_Text_WaitUpPeeko {
     format("MR. BRINEY: Hold on, lass! Wait up, PEEKO!")

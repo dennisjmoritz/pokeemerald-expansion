@@ -3,9 +3,4 @@ mapscripts CinnabarIsland_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: CinnabarIsland_OnFrame
 }
 
-script CinnabarIsland_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, CinnabarIsland_OnTransition)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, CinnabarIsland_OnFrame)
-
-}
 

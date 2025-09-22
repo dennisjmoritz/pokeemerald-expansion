@@ -1,9 +1,6 @@
 mapscripts LavaridgeTown_Mart_MapScripts {
 }
 
-script LavaridgeTown_Mart_MapScripts {
-
-}
 
 text LavaridgeTown_Mart_Text_XSpeedFirstStrike {
     format("Use X SPEED to add to a POKéMON's SPEED in battle.\p That will help it get in the first strike--a decided advantage!")

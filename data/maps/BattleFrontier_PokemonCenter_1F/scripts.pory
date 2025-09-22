@@ -3,11 +3,6 @@ mapscripts BattleFrontier_PokemonCenter_1F_MapScripts {
     MAP_SCRIPT_ON_RESUME: CableClub_OnResume
 }
 
-script BattleFrontier_PokemonCenter_1F_MapScripts {
-	map_script(MAP_SCRIPT_ON_TRANSITION, BattleFrontier_PokemonCenter_1F_OnTransition)
-	map_script(MAP_SCRIPT_ON_RESUME, CableClub_OnResume)
-
-}
 
 text BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon {
     format("There was someone here using a POKéMON I've never seen before.\p I never learned about it at TRAINER'S SCHOOL at least.\p I wonder where you can catch POKéMON like that.")

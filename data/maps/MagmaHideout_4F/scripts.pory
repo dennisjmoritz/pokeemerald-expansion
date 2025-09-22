@@ -1,9 +1,6 @@
 mapscripts MagmaHideout_4F_MapScripts {
 }
 
-script MagmaHideout_4F_MapScripts {
-
-}
 
 text MagmaHideout_4F_Text_Grunt11Intro {
     format("I want to see GROUDON, too, but they won't let me see even its tail…\p It's got me feeling really frustrated.\p Oh, no! I blabbed about GROUDON!")

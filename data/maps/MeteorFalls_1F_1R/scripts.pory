@@ -2,10 +2,6 @@ mapscripts MeteorFalls_1F_1R_MapScripts {
     MAP_SCRIPT_ON_LOAD: MeteorFalls_1F_1R_OnLoad
 }
 
-script MeteorFalls_1F_1R_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, MeteorFalls_1F_1R_OnLoad)
-
-}
 
 text MeteorFalls_1F_1R_Text_WithThisMeteorite {
     format("Hehehe!\p With this METEORITE, that thing in MT. CHIMNEY will…")

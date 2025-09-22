@@ -3,11 +3,6 @@ mapscripts NewMauville_Entrance_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: NewMauville_Entrance_OnTransition
 }
 
-script NewMauville_Entrance_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, NewMauville_Entrance_OnLoad)
-	map_script(MAP_SCRIPT_ON_TRANSITION, NewMauville_Entrance_OnTransition)
-
-}
 
 text NewMauville_Entrance_Text_DoorIsLocked {
     format("The door is locked.")

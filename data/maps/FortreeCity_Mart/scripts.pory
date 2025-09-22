@@ -1,9 +1,6 @@
 mapscripts FortreeCity_Mart_MapScripts {
 }
 
-script FortreeCity_Mart_MapScripts {
-
-}
 
 text FortreeCity_Mart_Text_SuperRepelBetter {
     format("SUPER REPEL lasts a long time, and it gets the job done.\p It's much better than an ordinary REPEL.")

@@ -1,9 +1,6 @@
 mapscripts Route106_MapScripts {
 }
 
-script Route106_MapScripts {
-
-}
 
 text Route106_Text_TrainerTips {
     format("TRAINER TIPS\p Advice on catching POKéMON with a ROD: Press the A Button if you get a bite.")

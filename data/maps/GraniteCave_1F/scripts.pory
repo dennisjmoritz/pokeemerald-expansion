@@ -1,9 +1,6 @@
 mapscripts GraniteCave_1F_MapScripts {
 }
 
-script GraniteCave_1F_MapScripts {
-
-}
 
 text GraniteCave_1F_Text_GetsDarkAheadHereYouGo {
     format("Hey, you. It gets awfully dark ahead.\l It'll be tough trying to explore.\p That guy who came by earlier… STEVEN, I think it was.\p He knew how to use FLASH, so he ought to be all right, but…\p Well, for us HIKERS, helping out those that we meet is our motto.\p Here you go, I'll pass this on to you.")

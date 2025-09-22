@@ -2,8 +2,4 @@ mapscripts FiveIsland_Meadow_MapScripts {
     MAP_SCRIPT_ON_LOAD: FiveIsland_Meadow_OnLoad
 }
 
-script FiveIsland_Meadow_MapScripts {
-	map_script(MAP_SCRIPT_ON_LOAD, FiveIsland_Meadow_OnLoad)
-
-}
 

@@ -5,14 +5,6 @@ mapscripts Route110_TrickHousePuzzle7_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE: Route110_TrickHousePuzzle7_OnFrame
 }
 
-script Route110_TrickHousePuzzle7_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, Route110_TrickHousePuzzle7_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle7_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, Route110_TrickHousePuzzle7_OnLoad)
-	map_script(MAP_SCRIPT_ON_FRAME_TABLE, Route110_TrickHousePuzzle7_OnFrame)
-
-
-}
 
 text Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened {
     format("{PLAYER} wrote down the secret code on the door.\p “TRICK MASTER is huggable.” … … … … … … … …\p The lock clicked open!")

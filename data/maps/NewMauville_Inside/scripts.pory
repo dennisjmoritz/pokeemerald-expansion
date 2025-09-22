@@ -4,12 +4,6 @@ mapscripts NewMauville_Inside_MapScripts {
     MAP_SCRIPT_ON_LOAD: NewMauville_Inside_OnLoad
 }
 
-script NewMauville_Inside_MapScripts {
-	map_script(MAP_SCRIPT_ON_RESUME, NewMauville_Inside_OnResume)
-	map_script(MAP_SCRIPT_ON_TRANSITION, NewMauville_Inside_OnTransition)
-	map_script(MAP_SCRIPT_ON_LOAD, NewMauville_Inside_OnLoad)
-
-}
 
 text NewMauville_Inside_Text_GeneratorRadiatingHeat {
     format("The generator is radiating heat that can be felt even at a distance.\p It looks like it should be turned off as soon as possible.")

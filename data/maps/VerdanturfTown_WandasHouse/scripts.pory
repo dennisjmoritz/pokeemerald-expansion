@@ -1,9 +1,6 @@
 mapscripts VerdanturfTown_WandasHouse_MapScripts {
 }
 
-script VerdanturfTown_WandasHouse_MapScripts {
-
-}
 
 text VerdanturfTown_WandasHouse_Text_StrongerSpeech {
     format("WALLY: I lost to you, {PLAYER}, but I'm not feeling down anymore.\p Because I have a new purpose in life. Together with my RALTS, I'm going\l to challenge POKéMON GYMS and become\l a great TRAINER.\p Please watch me, {PLAYER}. I'm going to be stronger than you.\p When I do, I'm going to challenge you to another battle.")
