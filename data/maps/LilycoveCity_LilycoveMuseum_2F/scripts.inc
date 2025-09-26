@@ -1,11 +1,4 @@
 LilycoveCity_LilycoveMuseum_2F_MapScripts::
-	map_script MAP_SCRIPT_ON_LOAD, LilycoveCity_LilycoveMuseum_2F_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, LilycoveCity_LilycoveMuseum_2F_OnFrame
-	.byte 0
-
-LilycoveCity_LilycoveMuseum_2F_OnLoad:
-	goto_if_set FLAG_COOL_PAINTING_MADE, LilycoveCity_LilycoveMuseum_2F_EventScript_SetCoolPainting
-	goto LilycoveCity_LilycoveMuseum_2F_EventScript_CheckBeautyPainting
 	end
 
 LilycoveCity_LilycoveMuseum_2F_EventScript_CheckBeautyPainting::

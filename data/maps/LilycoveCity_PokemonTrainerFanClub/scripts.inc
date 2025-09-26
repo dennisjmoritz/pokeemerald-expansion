@@ -1,71 +1,7 @@
 LilycoveCity_PokemonTrainerFanClub_MapScripts::
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, LilycoveCity_PokemonTrainerFanClub_OnFrame
-	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_PokemonTrainerFanClub_OnTransition
-	.byte 0
-
-	@ See field_specials.c for a breakdown of the Fan Club and its variables
-
-LilycoveCity_PokemonTrainerFanClub_OnFrame:
-	map_script_2 VAR_LILYCOVE_FAN_CLUB_STATE, 1, LilycoveCity_PokemonTrainerFanClub_EventScript_MeetFirstFans
-	.2byte 0
-
-LilycoveCity_PokemonTrainerFanClub_EventScript_MeetFirstFans::
-	lockall
-	applymovement LOCALID_TRAINER_FAN_CLUB_LASS, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	msgbox LilycoveCity_PokemonTrainerFanClub_Text_OhWowItsPlayer, MSGBOX_DEFAULT
-	applymovement LOCALID_TRAINER_FAN_CLUB_LITTLE_GIRL, LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlWatchPlayer
-	applymovement LOCALID_TRAINER_FAN_CLUB_MAN, LilycoveCity_PokemonTrainerFanClub_Movement_FanApproachPlayer
-	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	msgbox LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan, MSGBOX_DEFAULT
-	applymovement LOCALID_TRAINER_FAN_CLUB_LITTLE_GIRL, LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlMoveCloserToPlayer
-	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
-	applymovement LOCALID_TRAINER_FAN_CLUB_LITTLE_GIRL, LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlHideFromPlayer
-	waitmovement 0
-	setvar VAR_LILYCOVE_FAN_CLUB_STATE, 2
-	releaseall
 	end
 
-LilycoveCity_PokemonTrainerFanClub_Movement_FanApproachPlayer:
-	delay_8
-	walk_in_place_faster_down
-	walk_down
-	walk_down
-	walk_down
-	walk_left
-	walk_left
-	step_end
-
-LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlWatchPlayer:
-	walk_fast_left
-	walk_fast_left
-	walk_fast_down
-	walk_fast_down
-	walk_fast_left
-	walk_fast_down
-	step_end
-
-LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlMoveCloserToPlayer:
-	walk_down
-	walk_in_place_faster_right
-	step_end
-
-LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlHideFromPlayer:
-	jump_in_place_right
-	walk_fast_up
-	walk_fast_up
-	walk_fast_right
-	walk_in_place_faster_down
-	step_end
-
-LilycoveCity_PokemonTrainerFanClub_OnTransition:
-	call LilycoveCity_PokemonTrainerFanClub_EventScript_HideOrShowInterviewer
-	goto_if_eq VAR_LILYCOVE_FAN_CLUB_STATE, 1, LilycoveCity_PokemonTrainerFanClub_EventScript_SetFanMemberPositionsForFirstFanMeeting
-	goto_if_eq VAR_LILYCOVE_FAN_CLUB_STATE, 2, LilycoveCity_PokemonTrainerFanClub_EventScript_UpdateFanMemberPositions
+LilycoveCity_PokemonTrainerFanClub_EventScript_MeetFirstFans::
 	end
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_UpdateFanMemberPositions::
