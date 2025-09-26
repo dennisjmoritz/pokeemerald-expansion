@@ -1,11 +1,5 @@
 BattleFrontier_BattleTowerElevator_MapScripts::
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerElevator_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleTowerElevator_OnWarp
-	.byte 0
-
-BattleFrontier_BattleTowerElevator_OnFrame:
-	map_script_2 VAR_TEMP_0, 0, BattleFrontier_BattleTowerElevator_EventScript_EnterElevator
-	.2byte 0
+	end
 
 BattleFrontier_BattleTowerElevator_EventScript_EnterElevator::
 	setvar VAR_TEMP_0, 1

@@ -6,10 +6,10 @@
   "maps": [
     {
       "path": "data/maps/AbandonedShip_CaptainsOffice/scripts.inc",
-      "status": "kept",
+      "status": "processed",
       "score_stats": {
-        "labels": 4,
-        "keep": 4,
+        "labels": 0,
+        "keep": 0,
         "stub": 0,
         "review": 0
       },
@@ -20,10 +20,478 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.777727"
+      "last_updated": "2025-09-26T15:48:13.844524"
     },
     {
       "path": "data/maps/AbandonedShip_Corridors_1F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844526"
+    },
+    {
+      "path": "data/maps/AbandonedShip_Corridors_B1F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844527"
+    },
+    {
+      "path": "data/maps/AbandonedShip_Deck/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844528"
+    },
+    {
+      "path": "data/maps/AbandonedShip_HiddenFloorCorridors/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844529"
+    },
+    {
+      "path": "data/maps/AbandonedShip_HiddenFloorRooms/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844530"
+    },
+    {
+      "path": "data/maps/AbandonedShip_Room_B1F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844531"
+    },
+    {
+      "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844532"
+    },
+    {
+      "path": "data/maps/AbandonedShip_Rooms2_B1F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844533"
+    },
+    {
+      "path": "data/maps/AbandonedShip_Rooms_1F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844534"
+    },
+    {
+      "path": "data/maps/AbandonedShip_Rooms_B1F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844535"
+    },
+    {
+      "path": "data/maps/AbandonedShip_Underwater1/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844536"
+    },
+    {
+      "path": "data/maps/AbandonedShip_Underwater2/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844537"
+    },
+    {
+      "path": "data/maps/AlteringCave/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844537"
+    },
+    {
+      "path": "data/maps/AncientTomb/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844538"
+    },
+    {
+      "path": "data/maps/AquaHideout_1F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844539"
+    },
+    {
+      "path": "data/maps/AquaHideout_B1F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844540"
+    },
+    {
+      "path": "data/maps/AquaHideout_B2F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844541"
+    },
+    {
+      "path": "data/maps/AquaHideout_UnusedRubyMap1/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844542"
+    },
+    {
+      "path": "data/maps/AquaHideout_UnusedRubyMap2/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844543"
+    },
+    {
+      "path": "data/maps/AquaHideout_UnusedRubyMap3/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844544"
+    },
+    {
+      "path": "data/maps/ArtisanCave_1F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844545"
+    },
+    {
+      "path": "data/maps/ArtisanCave_B1F/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844546"
+    },
+    {
+      "path": "data/maps/BattleColosseum_2P/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844547"
+    },
+    {
+      "path": "data/maps/BattleColosseum_4P/scripts.inc",
+      "status": "processed",
+      "score_stats": {
+        "labels": 0,
+        "keep": 0,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:13.844548"
+    },
+    {
+      "path": "data/maps/BattlePyramidSquare01/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 1,
+        "keep": 1,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.670489"
+    },
+    {
+      "path": "data/maps/BirthIsland_Exterior/scripts.inc",
+      "status": "stubbed",
+      "score_stats": {
+        "labels": 11,
+        "keep": 9,
+        "stub": 2,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.671479"
+    },
+    {
+      "path": "data/maps/BirthIsland_Harbor/scripts.inc",
       "status": "kept",
       "score_stats": {
         "labels": 3,
@@ -38,10 +506,318 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.778122"
+      "last_updated": "2025-09-26T15:48:23.671850"
     },
     {
-      "path": "data/maps/AbandonedShip_Corridors_B1F/scripts.inc",
+      "path": "data/maps/CaveOfOrigin_1F/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 1,
+        "keep": 0,
+        "stub": 0,
+        "review": 1
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.672119"
+    },
+    {
+      "path": "data/maps/CaveOfOrigin_B1F/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 7,
+        "keep": 7,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.673223"
+    },
+    {
+      "path": "data/maps/CaveOfOrigin_Entrance/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 1,
+        "keep": 1,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.673505"
+    },
+    {
+      "path": "data/maps/CaveOfOrigin_UnusedRubySapphireMap1/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 1,
+        "keep": 0,
+        "stub": 0,
+        "review": 1
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.673783"
+    },
+    {
+      "path": "data/maps/CaveOfOrigin_UnusedRubySapphireMap2/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 1,
+        "keep": 0,
+        "stub": 0,
+        "review": 1
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.674061"
+    },
+    {
+      "path": "data/maps/CaveOfOrigin_UnusedRubySapphireMap3/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 1,
+        "keep": 0,
+        "stub": 0,
+        "review": 1
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.674334"
+    },
+    {
+      "path": "data/maps/DesertRuins/scripts.inc",
+      "status": "stubbed",
+      "score_stats": {
+        "labels": 10,
+        "keep": 9,
+        "stub": 1,
+        "review": 0
+      },
+      "legendary_labels_kept": [
+        "DesertRuins_EventScript_Regirock"
+      ],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.675067"
+    },
+    {
+      "path": "data/maps/DesertUnderpass/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 6,
+        "keep": 5,
+        "stub": 0,
+        "review": 1
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.675502"
+    },
+    {
+      "path": "data/maps/DewfordTown/scripts.inc",
+      "status": "stubbed",
+      "score_stats": {
+        "labels": 27,
+        "keep": 24,
+        "stub": 2,
+        "review": 1
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.680029"
+    },
+    {
+      "path": "data/maps/DewfordTown_Gym/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 48,
+        "keep": 48,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": true,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.683389"
+    },
+    {
+      "path": "data/maps/DewfordTown_Hall/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 35,
+        "keep": 35,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.686593"
+    },
+    {
+      "path": "data/maps/DewfordTown_House1/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 4,
+        "keep": 4,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.687045"
+    },
+    {
+      "path": "data/maps/DewfordTown_House2/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 5,
+        "keep": 5,
+        "stub": 0,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.687669"
+    },
+    {
+      "path": "data/maps/DewfordTown_PokemonCenter_1F/scripts.inc",
+      "status": "stubbed",
+      "score_stats": {
+        "labels": 4,
+        "keep": 3,
+        "stub": 1,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": true,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.688331"
+    },
+    {
+      "path": "data/maps/DewfordTown_PokemonCenter_2F/scripts.inc",
+      "status": "stubbed",
+      "score_stats": {
+        "labels": 4,
+        "keep": 3,
+        "stub": 1,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": true,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.688918"
+    },
+    {
+      "path": "data/maps/EverGrandeCity/scripts.inc",
+      "status": "kept",
+      "score_stats": {
+        "labels": 5,
+        "keep": 4,
+        "stub": 0,
+        "review": 1
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 11,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.689577"
+    },
+    {
+      "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+      "status": "stubbed",
+      "score_stats": {
+        "labels": 14,
+        "keep": 11,
+        "stub": 3,
+        "review": 0
+      },
+      "legendary_labels_kept": [],
+      "gym": false,
+      "town_flag": null,
+      "center_dex_hook": false,
+      "coord_events_pruned": 0,
+      "notes": "",
+      "last_edit_commit": "",
+      "last_updated": "2025-09-26T15:48:23.692224"
+    },
+    {
+      "path": "data/maps/EverGrandeCity_DrakesRoom/scripts.inc",
       "status": "stubbed",
       "score_stats": {
         "labels": 8,
@@ -56,1640 +832,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.778936"
-    },
-    {
-      "path": "data/maps/AbandonedShip_Deck/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 0,
-        "stub": 0,
-        "review": 1
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.779171"
-    },
-    {
-      "path": "data/maps/AbandonedShip_HiddenFloorCorridors/scripts.inc",
-      "status": "stubbed",
-      "score_stats": {
-        "labels": 18,
-        "keep": 17,
-        "stub": 1,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.780614"
-    },
-    {
-      "path": "data/maps/AbandonedShip_HiddenFloorRooms/scripts.inc",
-      "status": "stubbed",
-      "score_stats": {
-        "labels": 17,
-        "keep": 16,
-        "stub": 1,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.781498"
-    },
-    {
-      "path": "data/maps/AbandonedShip_Room_B1F/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 1,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.781684"
-    },
-    {
-      "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 9,
-        "keep": 9,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.783117"
-    },
-    {
-      "path": "data/maps/AbandonedShip_Rooms2_B1F/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 2,
-        "keep": 2,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.783369"
-    },
-    {
-      "path": "data/maps/AbandonedShip_Rooms_1F/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 6,
-        "keep": 6,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.784136"
-    },
-    {
-      "path": "data/maps/AbandonedShip_Rooms_B1F/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 2,
-        "keep": 2,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.784454"
-    },
-    {
-      "path": "data/maps/AbandonedShip_Underwater1/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 1,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.784680"
-    },
-    {
-      "path": "data/maps/AbandonedShip_Underwater2/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 1,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.784897"
-    },
-    {
-      "path": "data/maps/AlteringCave/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 0,
-        "stub": 0,
-        "review": 1
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.785103"
-    },
-    {
-      "path": "data/maps/AncientTomb/scripts.inc",
-      "status": "stubbed",
-      "score_stats": {
-        "labels": 10,
-        "keep": 9,
-        "stub": 1,
-        "review": 0
-      },
-      "legendary_labels_kept": [
-        "AncientTomb_EventScript_Registeel"
-      ],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.785757"
-    },
-    {
-      "path": "data/maps/AquaHideout_1F/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 9,
-        "keep": 9,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.786719"
-    },
-    {
-      "path": "data/maps/AquaHideout_B1F/scripts.inc",
-      "status": "stubbed",
-      "score_stats": {
-        "labels": 14,
-        "keep": 13,
-        "stub": 1,
-        "review": 0
-      },
-      "legendary_labels_kept": [
-        "AquaHideout_B1F_EventScript_Electrode1",
-        "AquaHideout_B1F_EventScript_Electrode2"
-      ],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.787956"
-    },
-    {
-      "path": "data/maps/AquaHideout_B2F/scripts.inc",
-      "status": "stubbed",
-      "score_stats": {
-        "labels": 9,
-        "keep": 7,
-        "stub": 1,
-        "review": 1
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.789177"
-    },
-    {
-      "path": "data/maps/AquaHideout_UnusedRubyMap1/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 1,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.789357"
-    },
-    {
-      "path": "data/maps/AquaHideout_UnusedRubyMap2/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 1,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.789566"
-    },
-    {
-      "path": "data/maps/AquaHideout_UnusedRubyMap3/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 1,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.789741"
-    },
-    {
-      "path": "data/maps/ArtisanCave_1F/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 1,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.789915"
-    },
-    {
-      "path": "data/maps/ArtisanCave_B1F/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 0,
-        "stub": 0,
-        "review": 1
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.790119"
-    },
-    {
-      "path": "data/maps/BattleColosseum_2P/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 1,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.790294"
-    },
-    {
-      "path": "data/maps/BattleColosseum_4P/scripts.inc",
-      "status": "kept",
-      "score_stats": {
-        "labels": 1,
-        "keep": 1,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:45:20.790491"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619742"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleArenaCorridor/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619756"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleArenaLobby/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619770"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619785"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleDomeCorridor/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619799"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleDomeLobby/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619812"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619826"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619841"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619854"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619869"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619883"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619897"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619911"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePikeCorridor/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619926"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePikeLobby/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619939"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePikeRoomFinal/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619952"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619968"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePikeRoomWildMons/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619982"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.619999"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620012"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePyramidLobby/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620028"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattlePyramidTop/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620041"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620055"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleTowerCorridor/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620071"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleTowerElevator/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620084"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleTowerLobby/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620098"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620112"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620126"
-    },
-    {
-      "path": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620141"
-    },
-    {
-      "path": "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620155"
-    },
-    {
-      "path": "data/maps/BattleFrontier_Lounge1/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620167"
-    },
-    {
-      "path": "data/maps/BattleFrontier_Lounge2/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620179"
-    },
-    {
-      "path": "data/maps/BattleFrontier_Lounge3/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620194"
-    },
-    {
-      "path": "data/maps/BattleFrontier_Lounge4/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620208"
-    },
-    {
-      "path": "data/maps/BattleFrontier_Lounge5/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620220"
-    },
-    {
-      "path": "data/maps/BattleFrontier_Lounge6/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620232"
-    },
-    {
-      "path": "data/maps/BattleFrontier_Lounge7/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620245"
-    },
-    {
-      "path": "data/maps/BattleFrontier_Lounge8/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620257"
-    },
-    {
-      "path": "data/maps/BattleFrontier_Lounge9/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620269"
-    },
-    {
-      "path": "data/maps/BattleFrontier_Mart/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620281"
-    },
-    {
-      "path": "data/maps/BattleFrontier_OutsideEast/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620294"
-    },
-    {
-      "path": "data/maps/BattleFrontier_OutsideWest/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620309"
-    },
-    {
-      "path": "data/maps/BattleFrontier_PokemonCenter_1F/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": true,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620323"
-    },
-    {
-      "path": "data/maps/BattleFrontier_PokemonCenter_2F/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": true,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620338"
-    },
-    {
-      "path": "data/maps/BattleFrontier_RankingHall/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620350"
-    },
-    {
-      "path": "data/maps/BattleFrontier_ReceptionGate/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620363"
-    },
-    {
-      "path": "data/maps/BattleFrontier_ScottsHouse/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620375"
-    },
-    {
-      "path": "data/maps/BattlePyramidSquare01/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620387"
-    },
-    {
-      "path": "data/maps/BirthIsland_Exterior/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620609"
-    },
-    {
-      "path": "data/maps/BirthIsland_Harbor/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620624"
-    },
-    {
-      "path": "data/maps/CaveOfOrigin_1F/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620636"
-    },
-    {
-      "path": "data/maps/CaveOfOrigin_B1F/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620647"
-    },
-    {
-      "path": "data/maps/CaveOfOrigin_Entrance/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620660"
-    },
-    {
-      "path": "data/maps/CaveOfOrigin_UnusedRubySapphireMap1/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620678"
-    },
-    {
-      "path": "data/maps/CaveOfOrigin_UnusedRubySapphireMap2/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620691"
-    },
-    {
-      "path": "data/maps/CaveOfOrigin_UnusedRubySapphireMap3/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620705"
-    },
-    {
-      "path": "data/maps/DesertRuins/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620777"
-    },
-    {
-      "path": "data/maps/DesertUnderpass/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620789"
-    },
-    {
-      "path": "data/maps/DewfordTown/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620799"
-    },
-    {
-      "path": "data/maps/DewfordTown_Gym/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": true,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620811"
-    },
-    {
-      "path": "data/maps/DewfordTown_Hall/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620822"
-    },
-    {
-      "path": "data/maps/DewfordTown_House1/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620836"
-    },
-    {
-      "path": "data/maps/DewfordTown_House2/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620850"
-    },
-    {
-      "path": "data/maps/DewfordTown_PokemonCenter_1F/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": true,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620864"
-    },
-    {
-      "path": "data/maps/DewfordTown_PokemonCenter_2F/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": true,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620877"
-    },
-    {
-      "path": "data/maps/EverGrandeCity/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620888"
-    },
-    {
-      "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620901"
-    },
-    {
-      "path": "data/maps/EverGrandeCity_DrakesRoom/scripts.inc",
-      "status": "pending",
-      "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
-      },
-      "legendary_labels_kept": [],
-      "gym": false,
-      "town_flag": null,
-      "center_dex_hook": false,
-      "coord_events_pruned": 0,
-      "notes": "",
-      "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620913"
+      "last_updated": "2025-09-26T15:48:23.693093"
     },
     {
       "path": "data/maps/EverGrandeCity_GlaciasRoom/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 8,
+        "keep": 7,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1699,15 +850,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620926"
+      "last_updated": "2025-09-26T15:48:23.693925"
     },
     {
       "path": "data/maps/EverGrandeCity_Hall1/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 2,
+        "keep": 1,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1717,15 +868,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620938"
+      "last_updated": "2025-09-26T15:48:23.694227"
     },
     {
       "path": "data/maps/EverGrandeCity_Hall2/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 2,
+        "keep": 1,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1735,15 +886,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620950"
+      "last_updated": "2025-09-26T15:48:23.694535"
     },
     {
       "path": "data/maps/EverGrandeCity_Hall3/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 2,
+        "keep": 1,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1753,15 +904,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620961"
+      "last_updated": "2025-09-26T15:48:23.694824"
     },
     {
       "path": "data/maps/EverGrandeCity_Hall4/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 2,
+        "keep": 1,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1771,15 +922,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620973"
+      "last_updated": "2025-09-26T15:48:32.347951"
     },
     {
       "path": "data/maps/EverGrandeCity_Hall5/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 2,
+        "keep": 1,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1789,15 +940,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.620991"
+      "last_updated": "2025-09-26T15:48:32.348267"
     },
     {
       "path": "data/maps/EverGrandeCity_HallOfFame/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 5,
+        "keep": 3,
+        "stub": 2,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1807,15 +958,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621003"
+      "last_updated": "2025-09-26T15:48:32.349182"
     },
     {
       "path": "data/maps/EverGrandeCity_PhoebesRoom/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 8,
+        "keep": 7,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1825,15 +976,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621016"
+      "last_updated": "2025-09-26T15:48:32.349993"
     },
     {
       "path": "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 8,
+        "keep": 7,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1843,15 +994,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621030"
+      "last_updated": "2025-09-26T15:48:32.351163"
     },
     {
       "path": "data/maps/EverGrandeCity_PokemonCenter_2F/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 4,
+        "keep": 3,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1861,15 +1012,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621042"
+      "last_updated": "2025-09-26T15:48:32.351829"
     },
     {
       "path": "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 9,
+        "keep": 8,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1879,15 +1030,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621055"
+      "last_updated": "2025-09-26T15:48:32.352904"
     },
     {
       "path": "data/maps/EverGrandeCity_PokemonLeague_2F/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 4,
+        "keep": 3,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1897,15 +1048,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621070"
+      "last_updated": "2025-09-26T15:48:32.353235"
     },
     {
       "path": "data/maps/EverGrandeCity_SidneysRoom/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 8,
+        "keep": 7,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1915,16 +1066,16 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621083"
+      "last_updated": "2025-09-26T15:48:32.354032"
     },
     {
       "path": "data/maps/FallarborTown/scripts.inc",
-      "status": "pending",
+      "status": "kept",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
+        "labels": 9,
+        "keep": 8,
         "stub": 0,
-        "review": 0
+        "review": 1
       },
       "legendary_labels_kept": [],
       "gym": false,
@@ -1933,16 +1084,16 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621094"
+      "last_updated": "2025-09-26T15:48:32.354844"
     },
     {
       "path": "data/maps/FallarborTown_BattleTentBattleRoom/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
+        "labels": 19,
+        "keep": 17,
+        "stub": 1,
+        "review": 1
       },
       "legendary_labels_kept": [],
       "gym": false,
@@ -1951,15 +1102,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621108"
+      "last_updated": "2025-09-26T15:48:32.356754"
     },
     {
       "path": "data/maps/FallarborTown_BattleTentCorridor/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 2,
+        "keep": 1,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1969,15 +1120,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621125"
+      "last_updated": "2025-09-26T15:48:32.357452"
     },
     {
       "path": "data/maps/FallarborTown_BattleTentLobby/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 37,
+        "keep": 35,
+        "stub": 2,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -1987,14 +1138,14 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621138"
+      "last_updated": "2025-09-26T15:48:32.360136"
     },
     {
       "path": "data/maps/FallarborTown_CozmosHouse/scripts.inc",
-      "status": "pending",
+      "status": "kept",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
+        "labels": 10,
+        "keep": 10,
         "stub": 0,
         "review": 0
       },
@@ -2005,14 +1156,14 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621150"
+      "last_updated": "2025-09-26T15:48:32.361282"
     },
     {
       "path": "data/maps/FallarborTown_Mart/scripts.inc",
-      "status": "pending",
+      "status": "kept",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
+        "labels": 5,
+        "keep": 5,
         "stub": 0,
         "review": 0
       },
@@ -2023,14 +1174,14 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621162"
+      "last_updated": "2025-09-26T15:48:32.361857"
     },
     {
       "path": "data/maps/FallarborTown_MoveRelearnersHouse/scripts.inc",
-      "status": "pending",
+      "status": "kept",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
+        "labels": 8,
+        "keep": 8,
         "stub": 0,
         "review": 0
       },
@@ -2041,15 +1192,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621175"
+      "last_updated": "2025-09-26T15:48:32.362858"
     },
     {
       "path": "data/maps/FallarborTown_PokemonCenter_1F/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 8,
+        "keep": 7,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -2059,15 +1210,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621190"
+      "last_updated": "2025-09-26T15:48:32.363910"
     },
     {
       "path": "data/maps/FallarborTown_PokemonCenter_2F/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 4,
+        "keep": 3,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -2077,34 +1228,34 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621203"
+      "last_updated": "2025-09-26T15:48:32.364394"
     },
     {
       "path": "data/maps/FarawayIsland_Entrance/scripts.inc",
-      "status": "pending",
+      "status": "kept",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
+        "labels": 6,
+        "keep": 5,
         "stub": 0,
-        "review": 0
+        "review": 1
       },
       "legendary_labels_kept": [],
       "gym": false,
       "town_flag": null,
       "center_dex_hook": false,
-      "coord_events_pruned": 0,
+      "coord_events_pruned": 3,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621215"
+      "last_updated": "2025-09-26T15:48:32.365050"
     },
     {
       "path": "data/maps/FarawayIsland_Interior/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
-        "review": 0
+        "labels": 14,
+        "keep": 11,
+        "stub": 1,
+        "review": 2
       },
       "legendary_labels_kept": [],
       "gym": false,
@@ -2113,16 +1264,16 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621227"
+      "last_updated": "2025-09-26T15:48:32.366500"
     },
     {
       "path": "data/maps/FieryPath/scripts.inc",
-      "status": "pending",
+      "status": "kept",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
+        "labels": 2,
+        "keep": 1,
         "stub": 0,
-        "review": 0
+        "review": 1
       },
       "legendary_labels_kept": [],
       "gym": false,
@@ -2131,15 +1282,15 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621238"
+      "last_updated": "2025-09-26T15:48:32.366803"
     },
     {
       "path": "data/maps/FortreeCity/scripts.inc",
-      "status": "pending",
+      "status": "stubbed",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
-        "stub": 0,
+        "labels": 13,
+        "keep": 12,
+        "stub": 1,
         "review": 0
       },
       "legendary_labels_kept": [],
@@ -2149,14 +1300,14 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621251"
+      "last_updated": "2025-09-26T15:48:32.368067"
     },
     {
       "path": "data/maps/FortreeCity_DecorationShop/scripts.inc",
-      "status": "pending",
+      "status": "kept",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
+        "labels": 5,
+        "keep": 5,
         "stub": 0,
         "review": 0
       },
@@ -2167,14 +1318,14 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621263"
+      "last_updated": "2025-09-26T15:48:32.368662"
     },
     {
       "path": "data/maps/FortreeCity_Gym/scripts.inc",
-      "status": "pending",
+      "status": "kept",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
+        "labels": 19,
+        "keep": 19,
         "stub": 0,
         "review": 0
       },
@@ -2185,14 +1336,14 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621275"
+      "last_updated": "2025-09-26T15:48:32.371173"
     },
     {
       "path": "data/maps/FortreeCity_House1/scripts.inc",
-      "status": "pending",
+      "status": "kept",
       "score_stats": {
-        "labels": 0,
-        "keep": 0,
+        "labels": 7,
+        "keep": 7,
         "stub": 0,
         "review": 0
       },
@@ -2203,7 +1354,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621286"
+      "last_updated": "2025-09-26T15:48:32.372034"
     },
     {
       "path": "data/maps/FortreeCity_House2/scripts.inc",
@@ -2221,7 +1372,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621298"
+      "last_updated": "2025-09-26T15:48:13.839628"
     },
     {
       "path": "data/maps/FortreeCity_House3/scripts.inc",
@@ -2239,7 +1390,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621309"
+      "last_updated": "2025-09-26T15:48:13.839638"
     },
     {
       "path": "data/maps/FortreeCity_House4/scripts.inc",
@@ -2257,7 +1408,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621320"
+      "last_updated": "2025-09-26T15:48:13.839650"
     },
     {
       "path": "data/maps/FortreeCity_House5/scripts.inc",
@@ -2275,7 +1426,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621332"
+      "last_updated": "2025-09-26T15:48:13.839664"
     },
     {
       "path": "data/maps/FortreeCity_Mart/scripts.inc",
@@ -2293,7 +1444,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621344"
+      "last_updated": "2025-09-26T15:48:13.839676"
     },
     {
       "path": "data/maps/FortreeCity_PokemonCenter_1F/scripts.inc",
@@ -2311,7 +1462,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621356"
+      "last_updated": "2025-09-26T15:48:13.839687"
     },
     {
       "path": "data/maps/FortreeCity_PokemonCenter_2F/scripts.inc",
@@ -2329,7 +1480,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621371"
+      "last_updated": "2025-09-26T15:48:13.839698"
     },
     {
       "path": "data/maps/GraniteCave_1F/scripts.inc",
@@ -2347,7 +1498,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621384"
+      "last_updated": "2025-09-26T15:48:13.839709"
     },
     {
       "path": "data/maps/GraniteCave_B1F/scripts.inc",
@@ -2365,7 +1516,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621397"
+      "last_updated": "2025-09-26T15:48:13.839720"
     },
     {
       "path": "data/maps/GraniteCave_B2F/scripts.inc",
@@ -2383,7 +1534,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621409"
+      "last_updated": "2025-09-26T15:48:13.839731"
     },
     {
       "path": "data/maps/GraniteCave_StevensRoom/scripts.inc",
@@ -2401,7 +1552,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621435"
+      "last_updated": "2025-09-26T15:48:13.839743"
     },
     {
       "path": "data/maps/InsideOfTruck/scripts.inc",
@@ -2419,7 +1570,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621446"
+      "last_updated": "2025-09-26T15:48:13.839754"
     },
     {
       "path": "data/maps/IslandCave/scripts.inc",
@@ -2437,7 +1588,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621457"
+      "last_updated": "2025-09-26T15:48:13.839765"
     },
     {
       "path": "data/maps/JaggedPass/scripts.inc",
@@ -2455,7 +1606,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621470"
+      "last_updated": "2025-09-26T15:48:13.839778"
     },
     {
       "path": "data/maps/LavaridgeTown/scripts.inc",
@@ -2473,7 +1624,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621482"
+      "last_updated": "2025-09-26T15:48:13.839789"
     },
     {
       "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
@@ -2491,7 +1642,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621494"
+      "last_updated": "2025-09-26T15:48:13.839800"
     },
     {
       "path": "data/maps/LavaridgeTown_Gym_B1F/scripts.inc",
@@ -2509,7 +1660,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621508"
+      "last_updated": "2025-09-26T15:48:13.839811"
     },
     {
       "path": "data/maps/LavaridgeTown_HerbShop/scripts.inc",
@@ -2527,7 +1678,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621520"
+      "last_updated": "2025-09-26T15:48:13.839823"
     },
     {
       "path": "data/maps/LavaridgeTown_House/scripts.inc",
@@ -2545,7 +1696,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621532"
+      "last_updated": "2025-09-26T15:48:13.839834"
     },
     {
       "path": "data/maps/LavaridgeTown_Mart/scripts.inc",
@@ -2563,7 +1714,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621543"
+      "last_updated": "2025-09-26T15:48:13.839845"
     },
     {
       "path": "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.inc",
@@ -2581,7 +1732,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621556"
+      "last_updated": "2025-09-26T15:48:13.839857"
     },
     {
       "path": "data/maps/LavaridgeTown_PokemonCenter_2F/scripts.inc",
@@ -2599,7 +1750,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621568"
+      "last_updated": "2025-09-26T15:48:13.839868"
     },
     {
       "path": "data/maps/LilycoveCity/scripts.inc",
@@ -2617,7 +1768,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621579"
+      "last_updated": "2025-09-26T15:48:13.839881"
     },
     {
       "path": "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.inc",
@@ -2635,7 +1786,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621612"
+      "last_updated": "2025-09-26T15:48:13.839913"
     },
     {
       "path": "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.inc",
@@ -2653,7 +1804,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621625"
+      "last_updated": "2025-09-26T15:48:13.839925"
     },
     {
       "path": "data/maps/LilycoveCity_DepartmentStoreElevator/scripts.inc",
@@ -2671,7 +1822,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621638"
+      "last_updated": "2025-09-26T15:48:13.839937"
     },
     {
       "path": "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.inc",
@@ -2689,7 +1840,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621654"
+      "last_updated": "2025-09-26T15:48:13.839948"
     },
     {
       "path": "data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc",
@@ -2707,7 +1858,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621667"
+      "last_updated": "2025-09-26T15:48:13.839959"
     },
     {
       "path": "data/maps/LilycoveCity_DepartmentStore_2F/scripts.inc",
@@ -2725,7 +1876,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621680"
+      "last_updated": "2025-09-26T15:48:13.839970"
     },
     {
       "path": "data/maps/LilycoveCity_DepartmentStore_3F/scripts.inc",
@@ -2743,7 +1894,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621695"
+      "last_updated": "2025-09-26T15:48:13.839983"
     },
     {
       "path": "data/maps/LilycoveCity_DepartmentStore_4F/scripts.inc",
@@ -2761,7 +1912,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621708"
+      "last_updated": "2025-09-26T15:48:13.839994"
     },
     {
       "path": "data/maps/LilycoveCity_DepartmentStore_5F/scripts.inc",
@@ -2779,7 +1930,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621721"
+      "last_updated": "2025-09-26T15:48:13.840005"
     },
     {
       "path": "data/maps/LilycoveCity_Harbor/scripts.inc",
@@ -2797,7 +1948,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621732"
+      "last_updated": "2025-09-26T15:48:13.840016"
     },
     {
       "path": "data/maps/LilycoveCity_House1/scripts.inc",
@@ -2815,7 +1966,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621744"
+      "last_updated": "2025-09-26T15:48:13.840031"
     },
     {
       "path": "data/maps/LilycoveCity_House2/scripts.inc",
@@ -2833,7 +1984,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621756"
+      "last_updated": "2025-09-26T15:48:13.840042"
     },
     {
       "path": "data/maps/LilycoveCity_House3/scripts.inc",
@@ -2851,7 +2002,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621767"
+      "last_updated": "2025-09-26T15:48:13.840053"
     },
     {
       "path": "data/maps/LilycoveCity_House4/scripts.inc",
@@ -2869,7 +2020,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621781"
+      "last_updated": "2025-09-26T15:48:13.840063"
     },
     {
       "path": "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.inc",
@@ -2887,7 +2038,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621793"
+      "last_updated": "2025-09-26T15:48:13.840075"
     },
     {
       "path": "data/maps/LilycoveCity_LilycoveMuseum_2F/scripts.inc",
@@ -2905,7 +2056,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621806"
+      "last_updated": "2025-09-26T15:48:13.840086"
     },
     {
       "path": "data/maps/LilycoveCity_MoveDeletersHouse/scripts.inc",
@@ -2923,7 +2074,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621819"
+      "last_updated": "2025-09-26T15:48:13.840098"
     },
     {
       "path": "data/maps/LilycoveCity_PokemonCenter_1F/scripts.inc",
@@ -2941,7 +2092,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621831"
+      "last_updated": "2025-09-26T15:48:13.840109"
     },
     {
       "path": "data/maps/LilycoveCity_PokemonCenter_2F/scripts.inc",
@@ -2959,7 +2110,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621844"
+      "last_updated": "2025-09-26T15:48:13.840120"
     },
     {
       "path": "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.inc",
@@ -2977,7 +2128,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621858"
+      "last_updated": "2025-09-26T15:48:13.840131"
     },
     {
       "path": "data/maps/LilycoveCity_UnusedMart/scripts.inc",
@@ -2995,7 +2146,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621870"
+      "last_updated": "2025-09-26T15:48:13.840150"
     },
     {
       "path": "data/maps/LittlerootTown/scripts.inc",
@@ -3013,7 +2164,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621882"
+      "last_updated": "2025-09-26T15:48:13.840163"
     },
     {
       "path": "data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc",
@@ -3031,7 +2182,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621895"
+      "last_updated": "2025-09-26T15:48:13.840175"
     },
     {
       "path": "data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc",
@@ -3049,7 +2200,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621911"
+      "last_updated": "2025-09-26T15:48:13.840186"
     },
     {
       "path": "data/maps/LittlerootTown_MaysHouse_1F/scripts.inc",
@@ -3067,7 +2218,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621924"
+      "last_updated": "2025-09-26T15:48:13.840198"
     },
     {
       "path": "data/maps/LittlerootTown_MaysHouse_2F/scripts.inc",
@@ -3085,7 +2236,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621936"
+      "last_updated": "2025-09-26T15:48:13.840208"
     },
     {
       "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
@@ -3103,7 +2254,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621949"
+      "last_updated": "2025-09-26T15:48:13.840220"
     },
     {
       "path": "data/maps/MagmaHideout_1F/scripts.inc",
@@ -3121,7 +2272,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621964"
+      "last_updated": "2025-09-26T15:48:13.840232"
     },
     {
       "path": "data/maps/MagmaHideout_2F_1R/scripts.inc",
@@ -3139,7 +2290,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621978"
+      "last_updated": "2025-09-26T15:48:13.840243"
     },
     {
       "path": "data/maps/MagmaHideout_2F_2R/scripts.inc",
@@ -3157,7 +2308,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.621990"
+      "last_updated": "2025-09-26T15:48:13.840254"
     },
     {
       "path": "data/maps/MagmaHideout_2F_3R/scripts.inc",
@@ -3175,7 +2326,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622001"
+      "last_updated": "2025-09-26T15:48:13.840267"
     },
     {
       "path": "data/maps/MagmaHideout_3F_1R/scripts.inc",
@@ -3193,7 +2344,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622013"
+      "last_updated": "2025-09-26T15:48:13.840278"
     },
     {
       "path": "data/maps/MagmaHideout_3F_2R/scripts.inc",
@@ -3211,7 +2362,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622025"
+      "last_updated": "2025-09-26T15:48:13.840289"
     },
     {
       "path": "data/maps/MagmaHideout_3F_3R/scripts.inc",
@@ -3229,7 +2380,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622038"
+      "last_updated": "2025-09-26T15:48:13.840300"
     },
     {
       "path": "data/maps/MagmaHideout_4F/scripts.inc",
@@ -3247,7 +2398,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622049"
+      "last_updated": "2025-09-26T15:48:13.840311"
     },
     {
       "path": "data/maps/MarineCave_End/scripts.inc",
@@ -3265,7 +2416,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622060"
+      "last_updated": "2025-09-26T15:48:13.840321"
     },
     {
       "path": "data/maps/MarineCave_Entrance/scripts.inc",
@@ -3283,7 +2434,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622072"
+      "last_updated": "2025-09-26T15:48:13.840333"
     },
     {
       "path": "data/maps/MauvilleCity/scripts.inc",
@@ -3301,7 +2452,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622083"
+      "last_updated": "2025-09-26T15:48:13.840346"
     },
     {
       "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
@@ -3319,7 +2470,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622095"
+      "last_updated": "2025-09-26T15:48:13.840357"
     },
     {
       "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
@@ -3337,7 +2488,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622107"
+      "last_updated": "2025-09-26T15:48:13.840368"
     },
     {
       "path": "data/maps/MauvilleCity_Gym/scripts.inc",
@@ -3355,7 +2506,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622119"
+      "last_updated": "2025-09-26T15:48:13.840381"
     },
     {
       "path": "data/maps/MauvilleCity_House1/scripts.inc",
@@ -3373,7 +2524,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622130"
+      "last_updated": "2025-09-26T15:48:13.840394"
     },
     {
       "path": "data/maps/MauvilleCity_House2/scripts.inc",
@@ -3391,7 +2542,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622142"
+      "last_updated": "2025-09-26T15:48:13.840404"
     },
     {
       "path": "data/maps/MauvilleCity_Mart/scripts.inc",
@@ -3409,7 +2560,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622155"
+      "last_updated": "2025-09-26T15:48:13.840428"
     },
     {
       "path": "data/maps/MauvilleCity_PokemonCenter_1F/scripts.inc",
@@ -3427,7 +2578,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622167"
+      "last_updated": "2025-09-26T15:48:13.840440"
     },
     {
       "path": "data/maps/MauvilleCity_PokemonCenter_2F/scripts.inc",
@@ -3445,7 +2596,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622179"
+      "last_updated": "2025-09-26T15:48:13.840451"
     },
     {
       "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
@@ -3463,7 +2614,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622190"
+      "last_updated": "2025-09-26T15:48:13.840462"
     },
     {
       "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
@@ -3481,7 +2632,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622202"
+      "last_updated": "2025-09-26T15:48:13.840473"
     },
     {
       "path": "data/maps/MeteorFalls_B1F_1R/scripts.inc",
@@ -3499,7 +2650,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622215"
+      "last_updated": "2025-09-26T15:48:13.840484"
     },
     {
       "path": "data/maps/MeteorFalls_B1F_2R/scripts.inc",
@@ -3517,7 +2668,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622226"
+      "last_updated": "2025-09-26T15:48:13.840495"
     },
     {
       "path": "data/maps/MeteorFalls_StevensCave/scripts.inc",
@@ -3535,7 +2686,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622238"
+      "last_updated": "2025-09-26T15:48:13.840509"
     },
     {
       "path": "data/maps/MirageTower_1F/scripts.inc",
@@ -3553,7 +2704,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622249"
+      "last_updated": "2025-09-26T15:48:13.840520"
     },
     {
       "path": "data/maps/MirageTower_2F/scripts.inc",
@@ -3571,7 +2722,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622260"
+      "last_updated": "2025-09-26T15:48:13.840531"
     },
     {
       "path": "data/maps/MirageTower_3F/scripts.inc",
@@ -3589,7 +2740,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622274"
+      "last_updated": "2025-09-26T15:48:13.840542"
     },
     {
       "path": "data/maps/MirageTower_4F/scripts.inc",
@@ -3607,7 +2758,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622286"
+      "last_updated": "2025-09-26T15:48:13.840552"
     },
     {
       "path": "data/maps/MossdeepCity/scripts.inc",
@@ -3625,7 +2776,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622297"
+      "last_updated": "2025-09-26T15:48:13.840563"
     },
     {
       "path": "data/maps/MossdeepCity_GameCorner_1F/scripts.inc",
@@ -3643,7 +2794,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622310"
+      "last_updated": "2025-09-26T15:48:13.840574"
     },
     {
       "path": "data/maps/MossdeepCity_GameCorner_B1F/scripts.inc",
@@ -3661,7 +2812,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.622323"
+      "last_updated": "2025-09-26T15:48:13.840585"
     },
     {
       "path": "data/maps/MossdeepCity_Gym/scripts.inc",
@@ -3679,7 +2830,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623028"
+      "last_updated": "2025-09-26T15:48:13.840602"
     },
     {
       "path": "data/maps/MossdeepCity_House1/scripts.inc",
@@ -3697,7 +2848,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623041"
+      "last_updated": "2025-09-26T15:48:13.840613"
     },
     {
       "path": "data/maps/MossdeepCity_House2/scripts.inc",
@@ -3715,7 +2866,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623054"
+      "last_updated": "2025-09-26T15:48:13.840626"
     },
     {
       "path": "data/maps/MossdeepCity_House3/scripts.inc",
@@ -3733,7 +2884,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623065"
+      "last_updated": "2025-09-26T15:48:13.840637"
     },
     {
       "path": "data/maps/MossdeepCity_House4/scripts.inc",
@@ -3751,7 +2902,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623077"
+      "last_updated": "2025-09-26T15:48:13.840649"
     },
     {
       "path": "data/maps/MossdeepCity_Mart/scripts.inc",
@@ -3769,7 +2920,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623092"
+      "last_updated": "2025-09-26T15:48:13.840660"
     },
     {
       "path": "data/maps/MossdeepCity_PokemonCenter_1F/scripts.inc",
@@ -3787,7 +2938,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623105"
+      "last_updated": "2025-09-26T15:48:13.840672"
     },
     {
       "path": "data/maps/MossdeepCity_PokemonCenter_2F/scripts.inc",
@@ -3805,7 +2956,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623120"
+      "last_updated": "2025-09-26T15:48:13.840683"
     },
     {
       "path": "data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc",
@@ -3823,7 +2974,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623133"
+      "last_updated": "2025-09-26T15:48:13.840694"
     },
     {
       "path": "data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc",
@@ -3841,7 +2992,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623145"
+      "last_updated": "2025-09-26T15:48:13.840705"
     },
     {
       "path": "data/maps/MossdeepCity_StevensHouse/scripts.inc",
@@ -3859,7 +3010,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623158"
+      "last_updated": "2025-09-26T15:48:13.840717"
     },
     {
       "path": "data/maps/MtChimney/scripts.inc",
@@ -3877,7 +3028,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623170"
+      "last_updated": "2025-09-26T15:48:13.840729"
     },
     {
       "path": "data/maps/MtChimney_CableCarStation/scripts.inc",
@@ -3895,7 +3046,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623183"
+      "last_updated": "2025-09-26T15:48:13.840743"
     },
     {
       "path": "data/maps/MtPyre_1F/scripts.inc",
@@ -3913,7 +3064,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623193"
+      "last_updated": "2025-09-26T15:48:13.840753"
     },
     {
       "path": "data/maps/MtPyre_2F/scripts.inc",
@@ -3931,7 +3082,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623204"
+      "last_updated": "2025-09-26T15:48:13.840764"
     },
     {
       "path": "data/maps/MtPyre_3F/scripts.inc",
@@ -3949,7 +3100,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623217"
+      "last_updated": "2025-09-26T15:48:13.840774"
     },
     {
       "path": "data/maps/MtPyre_4F/scripts.inc",
@@ -3967,7 +3118,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623227"
+      "last_updated": "2025-09-26T15:48:13.840785"
     },
     {
       "path": "data/maps/MtPyre_5F/scripts.inc",
@@ -3985,7 +3136,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623238"
+      "last_updated": "2025-09-26T15:48:13.840795"
     },
     {
       "path": "data/maps/MtPyre_6F/scripts.inc",
@@ -4003,7 +3154,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623248"
+      "last_updated": "2025-09-26T15:48:13.840806"
     },
     {
       "path": "data/maps/MtPyre_Exterior/scripts.inc",
@@ -4021,7 +3172,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623260"
+      "last_updated": "2025-09-26T15:48:13.840817"
     },
     {
       "path": "data/maps/MtPyre_Summit/scripts.inc",
@@ -4039,7 +3190,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623271"
+      "last_updated": "2025-09-26T15:48:13.840828"
     },
     {
       "path": "data/maps/NavelRock_B1F/scripts.inc",
@@ -4057,7 +3208,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623283"
+      "last_updated": "2025-09-26T15:48:13.840839"
     },
     {
       "path": "data/maps/NavelRock_Bottom/scripts.inc",
@@ -4075,7 +3226,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623294"
+      "last_updated": "2025-09-26T15:48:13.840853"
     },
     {
       "path": "data/maps/NavelRock_Down01/scripts.inc",
@@ -4093,7 +3244,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623305"
+      "last_updated": "2025-09-26T15:48:13.840864"
     },
     {
       "path": "data/maps/NavelRock_Down02/scripts.inc",
@@ -4111,7 +3262,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623317"
+      "last_updated": "2025-09-26T15:48:13.840874"
     },
     {
       "path": "data/maps/NavelRock_Down03/scripts.inc",
@@ -4129,7 +3280,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623330"
+      "last_updated": "2025-09-26T15:48:13.840887"
     },
     {
       "path": "data/maps/NavelRock_Down04/scripts.inc",
@@ -4147,7 +3298,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623341"
+      "last_updated": "2025-09-26T15:48:13.840898"
     },
     {
       "path": "data/maps/NavelRock_Down05/scripts.inc",
@@ -4165,7 +3316,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623352"
+      "last_updated": "2025-09-26T15:48:13.840909"
     },
     {
       "path": "data/maps/NavelRock_Down06/scripts.inc",
@@ -4183,7 +3334,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623365"
+      "last_updated": "2025-09-26T15:48:13.840919"
     },
     {
       "path": "data/maps/NavelRock_Down07/scripts.inc",
@@ -4201,7 +3352,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623376"
+      "last_updated": "2025-09-26T15:48:13.840930"
     },
     {
       "path": "data/maps/NavelRock_Down08/scripts.inc",
@@ -4219,7 +3370,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623388"
+      "last_updated": "2025-09-26T15:48:13.840941"
     },
     {
       "path": "data/maps/NavelRock_Down09/scripts.inc",
@@ -4237,7 +3388,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623399"
+      "last_updated": "2025-09-26T15:48:13.840954"
     },
     {
       "path": "data/maps/NavelRock_Down10/scripts.inc",
@@ -4255,7 +3406,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623422"
+      "last_updated": "2025-09-26T15:48:13.840967"
     },
     {
       "path": "data/maps/NavelRock_Down11/scripts.inc",
@@ -4273,7 +3424,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623440"
+      "last_updated": "2025-09-26T15:48:13.840977"
     },
     {
       "path": "data/maps/NavelRock_Entrance/scripts.inc",
@@ -4291,7 +3442,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623452"
+      "last_updated": "2025-09-26T15:48:13.840990"
     },
     {
       "path": "data/maps/NavelRock_Exterior/scripts.inc",
@@ -4309,7 +3460,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623468"
+      "last_updated": "2025-09-26T15:48:13.841001"
     },
     {
       "path": "data/maps/NavelRock_Fork/scripts.inc",
@@ -4327,7 +3478,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623479"
+      "last_updated": "2025-09-26T15:48:13.841012"
     },
     {
       "path": "data/maps/NavelRock_Harbor/scripts.inc",
@@ -4345,7 +3496,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623490"
+      "last_updated": "2025-09-26T15:48:13.841023"
     },
     {
       "path": "data/maps/NavelRock_Top/scripts.inc",
@@ -4363,7 +3514,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623502"
+      "last_updated": "2025-09-26T15:48:13.841034"
     },
     {
       "path": "data/maps/NavelRock_Up1/scripts.inc",
@@ -4381,7 +3532,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623513"
+      "last_updated": "2025-09-26T15:48:13.841045"
     },
     {
       "path": "data/maps/NavelRock_Up2/scripts.inc",
@@ -4399,7 +3550,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623524"
+      "last_updated": "2025-09-26T15:48:13.841056"
     },
     {
       "path": "data/maps/NavelRock_Up3/scripts.inc",
@@ -4417,7 +3568,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623535"
+      "last_updated": "2025-09-26T15:48:13.841066"
     },
     {
       "path": "data/maps/NavelRock_Up4/scripts.inc",
@@ -4435,7 +3586,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623546"
+      "last_updated": "2025-09-26T15:48:13.841090"
     },
     {
       "path": "data/maps/NewMauville_Entrance/scripts.inc",
@@ -4453,7 +3604,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623558"
+      "last_updated": "2025-09-26T15:48:13.841101"
     },
     {
       "path": "data/maps/NewMauville_Inside/scripts.inc",
@@ -4471,7 +3622,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623570"
+      "last_updated": "2025-09-26T15:48:13.841115"
     },
     {
       "path": "data/maps/OldaleTown/scripts.inc",
@@ -4489,7 +3640,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623583"
+      "last_updated": "2025-09-26T15:48:13.841126"
     },
     {
       "path": "data/maps/OldaleTown_House1/scripts.inc",
@@ -4507,7 +3658,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623594"
+      "last_updated": "2025-09-26T15:48:13.841138"
     },
     {
       "path": "data/maps/OldaleTown_House2/scripts.inc",
@@ -4525,7 +3676,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623606"
+      "last_updated": "2025-09-26T15:48:13.841150"
     },
     {
       "path": "data/maps/OldaleTown_Mart/scripts.inc",
@@ -4543,7 +3694,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623618"
+      "last_updated": "2025-09-26T15:48:13.841161"
     },
     {
       "path": "data/maps/OldaleTown_PokemonCenter_1F/scripts.inc",
@@ -4561,7 +3712,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623630"
+      "last_updated": "2025-09-26T15:48:13.841173"
     },
     {
       "path": "data/maps/OldaleTown_PokemonCenter_2F/scripts.inc",
@@ -4579,7 +3730,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623643"
+      "last_updated": "2025-09-26T15:48:13.841184"
     },
     {
       "path": "data/maps/PacifidlogTown/scripts.inc",
@@ -4597,7 +3748,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623654"
+      "last_updated": "2025-09-26T15:48:13.841195"
     },
     {
       "path": "data/maps/PacifidlogTown_House1/scripts.inc",
@@ -4615,7 +3766,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623666"
+      "last_updated": "2025-09-26T15:48:13.841208"
     },
     {
       "path": "data/maps/PacifidlogTown_House2/scripts.inc",
@@ -4633,7 +3784,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623678"
+      "last_updated": "2025-09-26T15:48:13.841220"
     },
     {
       "path": "data/maps/PacifidlogTown_House3/scripts.inc",
@@ -4651,7 +3802,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623692"
+      "last_updated": "2025-09-26T15:48:13.841231"
     },
     {
       "path": "data/maps/PacifidlogTown_House4/scripts.inc",
@@ -4669,7 +3820,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623706"
+      "last_updated": "2025-09-26T15:48:13.841242"
     },
     {
       "path": "data/maps/PacifidlogTown_House5/scripts.inc",
@@ -4687,7 +3838,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623718"
+      "last_updated": "2025-09-26T15:48:13.841253"
     },
     {
       "path": "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.inc",
@@ -4705,7 +3856,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623731"
+      "last_updated": "2025-09-26T15:48:13.841264"
     },
     {
       "path": "data/maps/PacifidlogTown_PokemonCenter_2F/scripts.inc",
@@ -4723,7 +3874,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623744"
+      "last_updated": "2025-09-26T15:48:13.841275"
     },
     {
       "path": "data/maps/PetalburgCity/scripts.inc",
@@ -4741,7 +3892,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623757"
+      "last_updated": "2025-09-26T15:48:13.841286"
     },
     {
       "path": "data/maps/PetalburgCity_Gym/scripts.inc",
@@ -4759,7 +3910,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623768"
+      "last_updated": "2025-09-26T15:48:13.841297"
     },
     {
       "path": "data/maps/PetalburgCity_House1/scripts.inc",
@@ -4777,7 +3928,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623780"
+      "last_updated": "2025-09-26T15:48:13.841308"
     },
     {
       "path": "data/maps/PetalburgCity_House2/scripts.inc",
@@ -4795,7 +3946,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623794"
+      "last_updated": "2025-09-26T15:48:13.841321"
     },
     {
       "path": "data/maps/PetalburgCity_Mart/scripts.inc",
@@ -4813,7 +3964,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623805"
+      "last_updated": "2025-09-26T15:48:13.841333"
     },
     {
       "path": "data/maps/PetalburgCity_PokemonCenter_1F/scripts.inc",
@@ -4831,7 +3982,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623818"
+      "last_updated": "2025-09-26T15:48:13.841344"
     },
     {
       "path": "data/maps/PetalburgCity_PokemonCenter_2F/scripts.inc",
@@ -4849,7 +4000,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623833"
+      "last_updated": "2025-09-26T15:48:13.841358"
     },
     {
       "path": "data/maps/PetalburgCity_WallysHouse/scripts.inc",
@@ -4867,7 +4018,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623845"
+      "last_updated": "2025-09-26T15:48:13.841369"
     },
     {
       "path": "data/maps/PetalburgWoods/scripts.inc",
@@ -4885,7 +4036,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623857"
+      "last_updated": "2025-09-26T15:48:13.841380"
     },
     {
       "path": "data/maps/RecordCorner/scripts.inc",
@@ -4903,7 +4054,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623868"
+      "last_updated": "2025-09-26T15:48:13.841393"
     },
     {
       "path": "data/maps/Route101/scripts.inc",
@@ -4921,7 +4072,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623881"
+      "last_updated": "2025-09-26T15:48:13.841404"
     },
     {
       "path": "data/maps/Route102/scripts.inc",
@@ -4939,7 +4090,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623892"
+      "last_updated": "2025-09-26T15:48:13.841426"
     },
     {
       "path": "data/maps/Route103/scripts.inc",
@@ -4957,7 +4108,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623902"
+      "last_updated": "2025-09-26T15:48:13.841437"
     },
     {
       "path": "data/maps/Route104/scripts.inc",
@@ -4975,7 +4126,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623913"
+      "last_updated": "2025-09-26T15:48:13.841450"
     },
     {
       "path": "data/maps/Route104_MrBrineysHouse/scripts.inc",
@@ -4993,7 +4144,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623925"
+      "last_updated": "2025-09-26T15:48:13.841461"
     },
     {
       "path": "data/maps/Route104_PrettyPetalFlowerShop/scripts.inc",
@@ -5011,7 +4162,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623937"
+      "last_updated": "2025-09-26T15:48:13.841473"
     },
     {
       "path": "data/maps/Route104_Prototype/scripts.inc",
@@ -5029,7 +4180,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623953"
+      "last_updated": "2025-09-26T15:48:13.841486"
     },
     {
       "path": "data/maps/Route104_PrototypePrettyPetalFlowerShop/scripts.inc",
@@ -5047,7 +4198,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623966"
+      "last_updated": "2025-09-26T15:48:13.841498"
     },
     {
       "path": "data/maps/Route105/scripts.inc",
@@ -5065,7 +4216,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623977"
+      "last_updated": "2025-09-26T15:48:13.841509"
     },
     {
       "path": "data/maps/Route106/scripts.inc",
@@ -5083,7 +4234,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623988"
+      "last_updated": "2025-09-26T15:48:13.841520"
     },
     {
       "path": "data/maps/Route107/scripts.inc",
@@ -5101,7 +4252,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.623999"
+      "last_updated": "2025-09-26T15:48:13.841530"
     },
     {
       "path": "data/maps/Route108/scripts.inc",
@@ -5119,7 +4270,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624009"
+      "last_updated": "2025-09-26T15:48:13.841541"
     },
     {
       "path": "data/maps/Route109/scripts.inc",
@@ -5137,7 +4288,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624019"
+      "last_updated": "2025-09-26T15:48:13.841551"
     },
     {
       "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
@@ -5155,7 +4306,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624031"
+      "last_updated": "2025-09-26T15:48:13.841564"
     },
     {
       "path": "data/maps/Route110/scripts.inc",
@@ -5173,7 +4324,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624042"
+      "last_updated": "2025-09-26T15:48:13.841575"
     },
     {
       "path": "data/maps/Route110_SeasideCyclingRoadNorthEntrance/scripts.inc",
@@ -5191,7 +4342,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624056"
+      "last_updated": "2025-09-26T15:48:13.841587"
     },
     {
       "path": "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.inc",
@@ -5209,7 +4360,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624072"
+      "last_updated": "2025-09-26T15:48:13.841599"
     },
     {
       "path": "data/maps/Route110_TrickHouseCorridor/scripts.inc",
@@ -5227,7 +4378,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624084"
+      "last_updated": "2025-09-26T15:48:13.841610"
     },
     {
       "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
@@ -5245,7 +4396,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624096"
+      "last_updated": "2025-09-26T15:48:13.842207"
     },
     {
       "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
@@ -5263,7 +4414,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624109"
+      "last_updated": "2025-09-26T15:48:13.842220"
     },
     {
       "path": "data/maps/Route110_TrickHousePuzzle1/scripts.inc",
@@ -5281,7 +4432,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624121"
+      "last_updated": "2025-09-26T15:48:13.842234"
     },
     {
       "path": "data/maps/Route110_TrickHousePuzzle2/scripts.inc",
@@ -5299,7 +4450,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624133"
+      "last_updated": "2025-09-26T15:48:13.842246"
     },
     {
       "path": "data/maps/Route110_TrickHousePuzzle3/scripts.inc",
@@ -5317,7 +4468,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624145"
+      "last_updated": "2025-09-26T15:48:13.842257"
     },
     {
       "path": "data/maps/Route110_TrickHousePuzzle4/scripts.inc",
@@ -5335,7 +4486,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624159"
+      "last_updated": "2025-09-26T15:48:13.842270"
     },
     {
       "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
@@ -5353,7 +4504,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624171"
+      "last_updated": "2025-09-26T15:48:13.842281"
     },
     {
       "path": "data/maps/Route110_TrickHousePuzzle6/scripts.inc",
@@ -5371,7 +4522,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624184"
+      "last_updated": "2025-09-26T15:48:13.842292"
     },
     {
       "path": "data/maps/Route110_TrickHousePuzzle7/scripts.inc",
@@ -5389,7 +4540,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624198"
+      "last_updated": "2025-09-26T15:48:13.842303"
     },
     {
       "path": "data/maps/Route110_TrickHousePuzzle8/scripts.inc",
@@ -5407,7 +4558,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624210"
+      "last_updated": "2025-09-26T15:48:13.842314"
     },
     {
       "path": "data/maps/Route111/scripts.inc",
@@ -5425,7 +4576,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624222"
+      "last_updated": "2025-09-26T15:48:13.842324"
     },
     {
       "path": "data/maps/Route111_OldLadysRestStop/scripts.inc",
@@ -5443,7 +4594,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624235"
+      "last_updated": "2025-09-26T15:48:13.842336"
     },
     {
       "path": "data/maps/Route111_WinstrateFamilysHouse/scripts.inc",
@@ -5461,7 +4612,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624247"
+      "last_updated": "2025-09-26T15:48:13.842347"
     },
     {
       "path": "data/maps/Route112/scripts.inc",
@@ -5479,7 +4630,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624258"
+      "last_updated": "2025-09-26T15:48:13.842358"
     },
     {
       "path": "data/maps/Route112_CableCarStation/scripts.inc",
@@ -5497,7 +4648,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624270"
+      "last_updated": "2025-09-26T15:48:13.842369"
     },
     {
       "path": "data/maps/Route113/scripts.inc",
@@ -5515,7 +4666,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624281"
+      "last_updated": "2025-09-26T15:48:13.842387"
     },
     {
       "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
@@ -5533,7 +4684,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624293"
+      "last_updated": "2025-09-26T15:48:13.842398"
     },
     {
       "path": "data/maps/Route114/scripts.inc",
@@ -5551,7 +4702,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624304"
+      "last_updated": "2025-09-26T15:48:13.842421"
     },
     {
       "path": "data/maps/Route114_FossilManiacsHouse/scripts.inc",
@@ -5569,7 +4720,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624319"
+      "last_updated": "2025-09-26T15:48:13.842434"
     },
     {
       "path": "data/maps/Route114_FossilManiacsTunnel/scripts.inc",
@@ -5587,7 +4738,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624331"
+      "last_updated": "2025-09-26T15:48:13.842445"
     },
     {
       "path": "data/maps/Route114_LanettesHouse/scripts.inc",
@@ -5605,7 +4756,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624345"
+      "last_updated": "2025-09-26T15:48:13.842459"
     },
     {
       "path": "data/maps/Route115/scripts.inc",
@@ -5623,7 +4774,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624355"
+      "last_updated": "2025-09-26T15:48:13.842470"
     },
     {
       "path": "data/maps/Route116/scripts.inc",
@@ -5641,7 +4792,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624366"
+      "last_updated": "2025-09-26T15:48:13.842480"
     },
     {
       "path": "data/maps/Route116_TunnelersRestHouse/scripts.inc",
@@ -5659,7 +4810,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624378"
+      "last_updated": "2025-09-26T15:48:13.842491"
     },
     {
       "path": "data/maps/Route117/scripts.inc",
@@ -5677,7 +4828,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624389"
+      "last_updated": "2025-09-26T15:48:13.842504"
     },
     {
       "path": "data/maps/Route117_PokemonDayCare/scripts.inc",
@@ -5695,7 +4846,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624401"
+      "last_updated": "2025-09-26T15:48:13.842519"
     },
     {
       "path": "data/maps/Route118/scripts.inc",
@@ -5713,7 +4864,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624432"
+      "last_updated": "2025-09-26T15:48:13.842530"
     },
     {
       "path": "data/maps/Route119/scripts.inc",
@@ -5731,7 +4882,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624453"
+      "last_updated": "2025-09-26T15:48:13.842540"
     },
     {
       "path": "data/maps/Route119_House/scripts.inc",
@@ -5749,7 +4900,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624469"
+      "last_updated": "2025-09-26T15:48:13.842551"
     },
     {
       "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
@@ -5767,7 +4918,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624482"
+      "last_updated": "2025-09-26T15:48:13.842563"
     },
     {
       "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
@@ -5785,7 +4936,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624495"
+      "last_updated": "2025-09-26T15:48:13.842574"
     },
     {
       "path": "data/maps/Route120/scripts.inc",
@@ -5803,7 +4954,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624508"
+      "last_updated": "2025-09-26T15:48:13.842585"
     },
     {
       "path": "data/maps/Route121/scripts.inc",
@@ -5821,7 +4972,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624518"
+      "last_updated": "2025-09-26T15:48:13.842595"
     },
     {
       "path": "data/maps/Route122/scripts.inc",
@@ -5839,7 +4990,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624539"
+      "last_updated": "2025-09-26T15:48:13.842615"
     },
     {
       "path": "data/maps/Route123/scripts.inc",
@@ -5857,7 +5008,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624550"
+      "last_updated": "2025-09-26T15:48:13.842626"
     },
     {
       "path": "data/maps/Route123_BerryMastersHouse/scripts.inc",
@@ -5875,7 +5026,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624563"
+      "last_updated": "2025-09-26T15:48:13.842639"
     },
     {
       "path": "data/maps/Route124/scripts.inc",
@@ -5893,7 +5044,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624575"
+      "last_updated": "2025-09-26T15:48:13.842650"
     },
     {
       "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
@@ -5911,7 +5062,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624589"
+      "last_updated": "2025-09-26T15:48:13.842661"
     },
     {
       "path": "data/maps/Route125/scripts.inc",
@@ -5929,7 +5080,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624601"
+      "last_updated": "2025-09-26T15:48:13.842672"
     },
     {
       "path": "data/maps/Route126/scripts.inc",
@@ -5947,7 +5098,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624612"
+      "last_updated": "2025-09-26T15:48:13.842682"
     },
     {
       "path": "data/maps/Route127/scripts.inc",
@@ -5965,7 +5116,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624622"
+      "last_updated": "2025-09-26T15:48:13.842693"
     },
     {
       "path": "data/maps/Route128/scripts.inc",
@@ -5983,7 +5134,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624632"
+      "last_updated": "2025-09-26T15:48:13.842703"
     },
     {
       "path": "data/maps/Route129/scripts.inc",
@@ -6001,7 +5152,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624643"
+      "last_updated": "2025-09-26T15:48:13.842713"
     },
     {
       "path": "data/maps/Route130/scripts.inc",
@@ -6019,7 +5170,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624654"
+      "last_updated": "2025-09-26T15:48:13.842724"
     },
     {
       "path": "data/maps/Route131/scripts.inc",
@@ -6037,7 +5188,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624664"
+      "last_updated": "2025-09-26T15:48:13.842736"
     },
     {
       "path": "data/maps/Route132/scripts.inc",
@@ -6055,7 +5206,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624675"
+      "last_updated": "2025-09-26T15:48:13.842751"
     },
     {
       "path": "data/maps/Route133/scripts.inc",
@@ -6073,7 +5224,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624685"
+      "last_updated": "2025-09-26T15:48:13.842761"
     },
     {
       "path": "data/maps/Route134/scripts.inc",
@@ -6091,7 +5242,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624696"
+      "last_updated": "2025-09-26T15:48:13.842772"
     },
     {
       "path": "data/maps/RustboroCity/scripts.inc",
@@ -6109,7 +5260,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624709"
+      "last_updated": "2025-09-26T15:48:13.842783"
     },
     {
       "path": "data/maps/RustboroCity_CuttersHouse/scripts.inc",
@@ -6127,7 +5278,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624722"
+      "last_updated": "2025-09-26T15:48:13.842795"
     },
     {
       "path": "data/maps/RustboroCity_DevonCorp_1F/scripts.inc",
@@ -6145,7 +5296,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624737"
+      "last_updated": "2025-09-26T15:48:13.842806"
     },
     {
       "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
@@ -6163,7 +5314,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624749"
+      "last_updated": "2025-09-26T15:48:13.842817"
     },
     {
       "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
@@ -6181,7 +5332,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624763"
+      "last_updated": "2025-09-26T15:48:13.842830"
     },
     {
       "path": "data/maps/RustboroCity_Flat1_1F/scripts.inc",
@@ -6199,7 +5350,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624776"
+      "last_updated": "2025-09-26T15:48:13.842841"
     },
     {
       "path": "data/maps/RustboroCity_Flat1_2F/scripts.inc",
@@ -6217,7 +5368,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624787"
+      "last_updated": "2025-09-26T15:48:13.842853"
     },
     {
       "path": "data/maps/RustboroCity_Flat2_1F/scripts.inc",
@@ -6235,7 +5386,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624799"
+      "last_updated": "2025-09-26T15:48:13.842865"
     },
     {
       "path": "data/maps/RustboroCity_Flat2_2F/scripts.inc",
@@ -6253,7 +5404,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624811"
+      "last_updated": "2025-09-26T15:48:13.842876"
     },
     {
       "path": "data/maps/RustboroCity_Flat2_3F/scripts.inc",
@@ -6271,7 +5422,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624823"
+      "last_updated": "2025-09-26T15:48:13.842887"
     },
     {
       "path": "data/maps/RustboroCity_Gym/scripts.inc",
@@ -6289,7 +5440,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624836"
+      "last_updated": "2025-09-26T15:48:13.842898"
     },
     {
       "path": "data/maps/RustboroCity_House1/scripts.inc",
@@ -6307,7 +5458,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624847"
+      "last_updated": "2025-09-26T15:48:13.842909"
     },
     {
       "path": "data/maps/RustboroCity_House2/scripts.inc",
@@ -6325,7 +5476,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624861"
+      "last_updated": "2025-09-26T15:48:13.842920"
     },
     {
       "path": "data/maps/RustboroCity_House3/scripts.inc",
@@ -6343,7 +5494,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624872"
+      "last_updated": "2025-09-26T15:48:13.842931"
     },
     {
       "path": "data/maps/RustboroCity_Mart/scripts.inc",
@@ -6361,7 +5512,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624884"
+      "last_updated": "2025-09-26T15:48:13.842943"
     },
     {
       "path": "data/maps/RustboroCity_PokemonCenter_1F/scripts.inc",
@@ -6379,7 +5530,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624897"
+      "last_updated": "2025-09-26T15:48:13.842954"
     },
     {
       "path": "data/maps/RustboroCity_PokemonCenter_2F/scripts.inc",
@@ -6397,7 +5548,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624909"
+      "last_updated": "2025-09-26T15:48:13.842966"
     },
     {
       "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
@@ -6415,7 +5566,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624922"
+      "last_updated": "2025-09-26T15:48:13.842979"
     },
     {
       "path": "data/maps/RusturfTunnel/scripts.inc",
@@ -6433,7 +5584,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624933"
+      "last_updated": "2025-09-26T15:48:13.842992"
     },
     {
       "path": "data/maps/SSTidalCorridor/scripts.inc",
@@ -6451,7 +5602,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624947"
+      "last_updated": "2025-09-26T15:48:13.843004"
     },
     {
       "path": "data/maps/SSTidalLowerDeck/scripts.inc",
@@ -6469,7 +5620,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624960"
+      "last_updated": "2025-09-26T15:48:13.843015"
     },
     {
       "path": "data/maps/SSTidalRooms/scripts.inc",
@@ -6487,7 +5638,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.624971"
+      "last_updated": "2025-09-26T15:48:13.843026"
     },
     {
       "path": "data/maps/ScorchedSlab/scripts.inc",
@@ -6505,7 +5656,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625043"
+      "last_updated": "2025-09-26T15:48:13.843102"
     },
     {
       "path": "data/maps/SeafloorCavern_Entrance/scripts.inc",
@@ -6523,7 +5674,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625056"
+      "last_updated": "2025-09-26T15:48:13.843114"
     },
     {
       "path": "data/maps/SeafloorCavern_Room1/scripts.inc",
@@ -6541,7 +5692,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625067"
+      "last_updated": "2025-09-26T15:48:13.843125"
     },
     {
       "path": "data/maps/SeafloorCavern_Room2/scripts.inc",
@@ -6559,7 +5710,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625081"
+      "last_updated": "2025-09-26T15:48:13.843136"
     },
     {
       "path": "data/maps/SeafloorCavern_Room3/scripts.inc",
@@ -6577,7 +5728,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625092"
+      "last_updated": "2025-09-26T15:48:13.843147"
     },
     {
       "path": "data/maps/SeafloorCavern_Room4/scripts.inc",
@@ -6595,7 +5746,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625104"
+      "last_updated": "2025-09-26T15:48:13.843160"
     },
     {
       "path": "data/maps/SeafloorCavern_Room5/scripts.inc",
@@ -6613,7 +5764,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625115"
+      "last_updated": "2025-09-26T15:48:13.843171"
     },
     {
       "path": "data/maps/SeafloorCavern_Room6/scripts.inc",
@@ -6631,7 +5782,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625127"
+      "last_updated": "2025-09-26T15:48:13.843182"
     },
     {
       "path": "data/maps/SeafloorCavern_Room7/scripts.inc",
@@ -6649,7 +5800,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625141"
+      "last_updated": "2025-09-26T15:48:13.843193"
     },
     {
       "path": "data/maps/SeafloorCavern_Room8/scripts.inc",
@@ -6667,7 +5818,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625153"
+      "last_updated": "2025-09-26T15:48:13.843205"
     },
     {
       "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
@@ -6685,7 +5836,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625164"
+      "last_updated": "2025-09-26T15:48:13.843215"
     },
     {
       "path": "data/maps/SealedChamber_InnerRoom/scripts.inc",
@@ -6703,7 +5854,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625176"
+      "last_updated": "2025-09-26T15:48:13.843226"
     },
     {
       "path": "data/maps/SealedChamber_OuterRoom/scripts.inc",
@@ -6721,7 +5872,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625188"
+      "last_updated": "2025-09-26T15:48:13.843238"
     },
     {
       "path": "data/maps/ShoalCave_HighTideEntranceRoom/scripts.inc",
@@ -6739,7 +5890,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625468"
+      "last_updated": "2025-09-26T15:48:13.843460"
     },
     {
       "path": "data/maps/ShoalCave_HighTideInnerRoom/scripts.inc",
@@ -6757,7 +5908,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625482"
+      "last_updated": "2025-09-26T15:48:13.843478"
     },
     {
       "path": "data/maps/ShoalCave_LowTideEntranceRoom/scripts.inc",
@@ -6775,7 +5926,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625495"
+      "last_updated": "2025-09-26T15:48:13.843492"
     },
     {
       "path": "data/maps/ShoalCave_LowTideIceRoom/scripts.inc",
@@ -6793,7 +5944,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625507"
+      "last_updated": "2025-09-26T15:48:13.843504"
     },
     {
       "path": "data/maps/ShoalCave_LowTideInnerRoom/scripts.inc",
@@ -6811,7 +5962,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625519"
+      "last_updated": "2025-09-26T15:48:13.843520"
     },
     {
       "path": "data/maps/ShoalCave_LowTideLowerRoom/scripts.inc",
@@ -6829,7 +5980,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625537"
+      "last_updated": "2025-09-26T15:48:13.843532"
     },
     {
       "path": "data/maps/ShoalCave_LowTideStairsRoom/scripts.inc",
@@ -6847,7 +5998,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625550"
+      "last_updated": "2025-09-26T15:48:13.843543"
     },
     {
       "path": "data/maps/SkyPillar_1F/scripts.inc",
@@ -6865,7 +6016,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625561"
+      "last_updated": "2025-09-26T15:48:13.843557"
     },
     {
       "path": "data/maps/SkyPillar_2F/scripts.inc",
@@ -6883,7 +6034,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625574"
+      "last_updated": "2025-09-26T15:48:13.843568"
     },
     {
       "path": "data/maps/SkyPillar_3F/scripts.inc",
@@ -6901,7 +6052,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625585"
+      "last_updated": "2025-09-26T15:48:13.843579"
     },
     {
       "path": "data/maps/SkyPillar_4F/scripts.inc",
@@ -6919,7 +6070,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625595"
+      "last_updated": "2025-09-26T15:48:13.843589"
     },
     {
       "path": "data/maps/SkyPillar_5F/scripts.inc",
@@ -6937,7 +6088,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625608"
+      "last_updated": "2025-09-26T15:48:13.843600"
     },
     {
       "path": "data/maps/SkyPillar_Entrance/scripts.inc",
@@ -6955,7 +6106,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625620"
+      "last_updated": "2025-09-26T15:48:13.843613"
     },
     {
       "path": "data/maps/SkyPillar_Outside/scripts.inc",
@@ -6973,7 +6124,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625631"
+      "last_updated": "2025-09-26T15:48:13.843625"
     },
     {
       "path": "data/maps/SkyPillar_Top/scripts.inc",
@@ -6991,7 +6142,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625642"
+      "last_updated": "2025-09-26T15:48:13.843636"
     },
     {
       "path": "data/maps/SlateportCity/scripts.inc",
@@ -7009,7 +6160,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625655"
+      "last_updated": "2025-09-26T15:48:13.843647"
     },
     {
       "path": "data/maps/SlateportCity_BattleTentBattleRoom/scripts.inc",
@@ -7027,7 +6178,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625669"
+      "last_updated": "2025-09-26T15:48:13.843659"
     },
     {
       "path": "data/maps/SlateportCity_BattleTentCorridor/scripts.inc",
@@ -7045,7 +6196,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625685"
+      "last_updated": "2025-09-26T15:48:13.843671"
     },
     {
       "path": "data/maps/SlateportCity_BattleTentLobby/scripts.inc",
@@ -7063,7 +6214,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625698"
+      "last_updated": "2025-09-26T15:48:13.843682"
     },
     {
       "path": "data/maps/SlateportCity_Harbor/scripts.inc",
@@ -7081,7 +6232,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625710"
+      "last_updated": "2025-09-26T15:48:13.843693"
     },
     {
       "path": "data/maps/SlateportCity_House/scripts.inc",
@@ -7099,7 +6250,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625721"
+      "last_updated": "2025-09-26T15:48:13.843707"
     },
     {
       "path": "data/maps/SlateportCity_Mart/scripts.inc",
@@ -7117,7 +6268,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625733"
+      "last_updated": "2025-09-26T15:48:13.843718"
     },
     {
       "path": "data/maps/SlateportCity_NameRatersHouse/scripts.inc",
@@ -7135,7 +6286,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625746"
+      "last_updated": "2025-09-26T15:48:13.843731"
     },
     {
       "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
@@ -7153,7 +6304,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625758"
+      "last_updated": "2025-09-26T15:48:13.843743"
     },
     {
       "path": "data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc",
@@ -7171,7 +6322,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625771"
+      "last_updated": "2025-09-26T15:48:13.843754"
     },
     {
       "path": "data/maps/SlateportCity_PokemonCenter_1F/scripts.inc",
@@ -7189,7 +6340,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625785"
+      "last_updated": "2025-09-26T15:48:13.843765"
     },
     {
       "path": "data/maps/SlateportCity_PokemonCenter_2F/scripts.inc",
@@ -7207,7 +6358,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625798"
+      "last_updated": "2025-09-26T15:48:13.843778"
     },
     {
       "path": "data/maps/SlateportCity_PokemonFanClub/scripts.inc",
@@ -7225,7 +6376,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625811"
+      "last_updated": "2025-09-26T15:48:13.843790"
     },
     {
       "path": "data/maps/SlateportCity_SternsShipyard_1F/scripts.inc",
@@ -7243,7 +6394,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625823"
+      "last_updated": "2025-09-26T15:48:13.843801"
     },
     {
       "path": "data/maps/SlateportCity_SternsShipyard_2F/scripts.inc",
@@ -7261,7 +6412,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625836"
+      "last_updated": "2025-09-26T15:48:13.843812"
     },
     {
       "path": "data/maps/SootopolisCity/scripts.inc",
@@ -7279,7 +6430,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625847"
+      "last_updated": "2025-09-26T15:48:13.843824"
     },
     {
       "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
@@ -7297,7 +6448,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625860"
+      "last_updated": "2025-09-26T15:48:13.843835"
     },
     {
       "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
@@ -7315,7 +6466,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625872"
+      "last_updated": "2025-09-26T15:48:13.843850"
     },
     {
       "path": "data/maps/SootopolisCity_House1/scripts.inc",
@@ -7333,7 +6484,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625886"
+      "last_updated": "2025-09-26T15:48:13.843861"
     },
     {
       "path": "data/maps/SootopolisCity_House2/scripts.inc",
@@ -7351,7 +6502,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625898"
+      "last_updated": "2025-09-26T15:48:13.843872"
     },
     {
       "path": "data/maps/SootopolisCity_House3/scripts.inc",
@@ -7369,7 +6520,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625912"
+      "last_updated": "2025-09-26T15:48:13.843884"
     },
     {
       "path": "data/maps/SootopolisCity_House4/scripts.inc",
@@ -7387,7 +6538,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625925"
+      "last_updated": "2025-09-26T15:48:13.843895"
     },
     {
       "path": "data/maps/SootopolisCity_House5/scripts.inc",
@@ -7405,7 +6556,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625937"
+      "last_updated": "2025-09-26T15:48:13.843906"
     },
     {
       "path": "data/maps/SootopolisCity_House6/scripts.inc",
@@ -7423,7 +6574,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625948"
+      "last_updated": "2025-09-26T15:48:13.843917"
     },
     {
       "path": "data/maps/SootopolisCity_House7/scripts.inc",
@@ -7441,7 +6592,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625960"
+      "last_updated": "2025-09-26T15:48:13.843928"
     },
     {
       "path": "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.inc",
@@ -7459,7 +6610,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625973"
+      "last_updated": "2025-09-26T15:48:13.843940"
     },
     {
       "path": "data/maps/SootopolisCity_Mart/scripts.inc",
@@ -7477,7 +6628,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625985"
+      "last_updated": "2025-09-26T15:48:13.843951"
     },
     {
       "path": "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc",
@@ -7495,7 +6646,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.625998"
+      "last_updated": "2025-09-26T15:48:13.843965"
     },
     {
       "path": "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.inc",
@@ -7513,7 +6664,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626012"
+      "last_updated": "2025-09-26T15:48:13.843976"
     },
     {
       "path": "data/maps/SootopolisCity_PokemonCenter_1F/scripts.inc",
@@ -7531,7 +6682,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626025"
+      "last_updated": "2025-09-26T15:48:13.843988"
     },
     {
       "path": "data/maps/SootopolisCity_PokemonCenter_2F/scripts.inc",
@@ -7549,7 +6700,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626040"
+      "last_updated": "2025-09-26T15:48:13.844001"
     },
     {
       "path": "data/maps/SouthernIsland_Exterior/scripts.inc",
@@ -7567,7 +6718,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626052"
+      "last_updated": "2025-09-26T15:48:13.844014"
     },
     {
       "path": "data/maps/SouthernIsland_Interior/scripts.inc",
@@ -7585,7 +6736,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626063"
+      "last_updated": "2025-09-26T15:48:13.844025"
     },
     {
       "path": "data/maps/TerraCave_End/scripts.inc",
@@ -7603,7 +6754,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626077"
+      "last_updated": "2025-09-26T15:48:13.844036"
     },
     {
       "path": "data/maps/TerraCave_Entrance/scripts.inc",
@@ -7621,7 +6772,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626088"
+      "last_updated": "2025-09-26T15:48:13.844047"
     },
     {
       "path": "data/maps/TradeCenter/scripts.inc",
@@ -7639,7 +6790,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626101"
+      "last_updated": "2025-09-26T15:48:13.844058"
     },
     {
       "path": "data/maps/TrainerHill_1F/scripts.inc",
@@ -7657,7 +6808,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626113"
+      "last_updated": "2025-09-26T15:48:13.844070"
     },
     {
       "path": "data/maps/TrainerHill_2F/scripts.inc",
@@ -7675,7 +6826,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626125"
+      "last_updated": "2025-09-26T15:48:13.844083"
     },
     {
       "path": "data/maps/TrainerHill_3F/scripts.inc",
@@ -7693,7 +6844,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626136"
+      "last_updated": "2025-09-26T15:48:13.844094"
     },
     {
       "path": "data/maps/TrainerHill_4F/scripts.inc",
@@ -7711,7 +6862,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626149"
+      "last_updated": "2025-09-26T15:48:13.844105"
     },
     {
       "path": "data/maps/TrainerHill_Elevator/scripts.inc",
@@ -7729,7 +6880,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626162"
+      "last_updated": "2025-09-26T15:48:13.844116"
     },
     {
       "path": "data/maps/TrainerHill_Entrance/scripts.inc",
@@ -7747,7 +6898,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626174"
+      "last_updated": "2025-09-26T15:48:13.844127"
     },
     {
       "path": "data/maps/TrainerHill_Roof/scripts.inc",
@@ -7765,7 +6916,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626186"
+      "last_updated": "2025-09-26T15:48:13.844138"
     },
     {
       "path": "data/maps/Underwater_MarineCave/scripts.inc",
@@ -7783,7 +6934,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626197"
+      "last_updated": "2025-09-26T15:48:13.844150"
     },
     {
       "path": "data/maps/Underwater_Route105/scripts.inc",
@@ -7801,7 +6952,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626209"
+      "last_updated": "2025-09-26T15:48:13.844161"
     },
     {
       "path": "data/maps/Underwater_Route124/scripts.inc",
@@ -7819,7 +6970,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626220"
+      "last_updated": "2025-09-26T15:48:13.844171"
     },
     {
       "path": "data/maps/Underwater_Route125/scripts.inc",
@@ -7837,7 +6988,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626232"
+      "last_updated": "2025-09-26T15:48:13.844183"
     },
     {
       "path": "data/maps/Underwater_Route126/scripts.inc",
@@ -7855,7 +7006,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626244"
+      "last_updated": "2025-09-26T15:48:13.844196"
     },
     {
       "path": "data/maps/Underwater_Route127/scripts.inc",
@@ -7873,7 +7024,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626275"
+      "last_updated": "2025-09-26T15:48:13.844207"
     },
     {
       "path": "data/maps/Underwater_Route128/scripts.inc",
@@ -7891,7 +7042,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626287"
+      "last_updated": "2025-09-26T15:48:13.844220"
     },
     {
       "path": "data/maps/Underwater_Route129/scripts.inc",
@@ -7909,7 +7060,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626301"
+      "last_updated": "2025-09-26T15:48:13.844230"
     },
     {
       "path": "data/maps/Underwater_Route134/scripts.inc",
@@ -7927,7 +7078,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626313"
+      "last_updated": "2025-09-26T15:48:13.844242"
     },
     {
       "path": "data/maps/Underwater_SeafloorCavern/scripts.inc",
@@ -7945,7 +7096,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626325"
+      "last_updated": "2025-09-26T15:48:13.844253"
     },
     {
       "path": "data/maps/Underwater_SealedChamber/scripts.inc",
@@ -7963,7 +7114,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626338"
+      "last_updated": "2025-09-26T15:48:13.844267"
     },
     {
       "path": "data/maps/Underwater_SootopolisCity/scripts.inc",
@@ -7981,7 +7132,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626350"
+      "last_updated": "2025-09-26T15:48:13.844278"
     },
     {
       "path": "data/maps/UnionRoom/scripts.inc",
@@ -7999,7 +7150,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626361"
+      "last_updated": "2025-09-26T15:48:13.844289"
     },
     {
       "path": "data/maps/VerdanturfTown/scripts.inc",
@@ -8017,7 +7168,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626448"
+      "last_updated": "2025-09-26T15:48:13.844346"
     },
     {
       "path": "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.inc",
@@ -8035,7 +7186,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626463"
+      "last_updated": "2025-09-26T15:48:13.844364"
     },
     {
       "path": "data/maps/VerdanturfTown_BattleTentCorridor/scripts.inc",
@@ -8053,7 +7204,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626476"
+      "last_updated": "2025-09-26T15:48:13.844376"
     },
     {
       "path": "data/maps/VerdanturfTown_BattleTentLobby/scripts.inc",
@@ -8071,7 +7222,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626489"
+      "last_updated": "2025-09-26T15:48:13.844387"
     },
     {
       "path": "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc",
@@ -8089,7 +7240,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626507"
+      "last_updated": "2025-09-26T15:48:13.844399"
     },
     {
       "path": "data/maps/VerdanturfTown_House/scripts.inc",
@@ -8107,7 +7258,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626519"
+      "last_updated": "2025-09-26T15:48:13.844426"
     },
     {
       "path": "data/maps/VerdanturfTown_Mart/scripts.inc",
@@ -8125,7 +7276,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626531"
+      "last_updated": "2025-09-26T15:48:13.844439"
     },
     {
       "path": "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.inc",
@@ -8143,7 +7294,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626544"
+      "last_updated": "2025-09-26T15:48:13.844453"
     },
     {
       "path": "data/maps/VerdanturfTown_PokemonCenter_2F/scripts.inc",
@@ -8161,7 +7312,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626557"
+      "last_updated": "2025-09-26T15:48:13.844465"
     },
     {
       "path": "data/maps/VerdanturfTown_WandasHouse/scripts.inc",
@@ -8179,7 +7330,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626569"
+      "last_updated": "2025-09-26T15:48:13.844476"
     },
     {
       "path": "data/maps/VictoryRoad_1F/scripts.inc",
@@ -8197,7 +7348,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626582"
+      "last_updated": "2025-09-26T15:48:13.844487"
     },
     {
       "path": "data/maps/VictoryRoad_B1F/scripts.inc",
@@ -8215,7 +7366,7 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626594"
+      "last_updated": "2025-09-26T15:48:13.844501"
     },
     {
       "path": "data/maps/VictoryRoad_B2F/scripts.inc",
@@ -8233,10 +7384,10 @@
       "coord_events_pruned": 0,
       "notes": "",
       "last_edit_commit": "",
-      "last_updated": "2025-09-26T15:43:26.626605"
+      "last_updated": "2025-09-26T15:48:13.844512"
     }
   ],
-  "queue_index": 25,
+  "queue_index": 75,
   "batch_size": 25,
   "runs": [
     {
@@ -8267,7 +7418,82 @@
         "data/maps/ArtisanCave_1F/scripts.inc",
         "data/maps/ArtisanCave_B1F/scripts.inc",
         "data/maps/BattleColosseum_2P/scripts.inc",
-        "data/maps/BattleColosseum_4P/scripts.inc"
+        "data/maps/BattleColosseum_4P/scripts.inc",
+        "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc",
+        "data/maps/BattleFrontier_BattleArenaCorridor/scripts.inc",
+        "data/maps/BattleFrontier_BattleArenaLobby/scripts.inc",
+        "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.inc",
+        "data/maps/BattleFrontier_BattleDomeCorridor/scripts.inc",
+        "data/maps/BattleFrontier_BattleDomeLobby/scripts.inc",
+        "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc",
+        "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.inc",
+        "data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc",
+        "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc",
+        "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.inc",
+        "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.inc",
+        "data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc",
+        "data/maps/BattleFrontier_BattlePikeCorridor/scripts.inc",
+        "data/maps/BattleFrontier_BattlePikeLobby/scripts.inc",
+        "data/maps/BattleFrontier_BattlePikeRoomFinal/scripts.inc",
+        "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc",
+        "data/maps/BattleFrontier_BattlePikeRoomWildMons/scripts.inc",
+        "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc",
+        "data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc",
+        "data/maps/BattleFrontier_BattlePyramidLobby/scripts.inc",
+        "data/maps/BattleFrontier_BattlePyramidTop/scripts.inc",
+        "data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc",
+        "data/maps/BattleFrontier_BattleTowerCorridor/scripts.inc",
+        "data/maps/BattleFrontier_BattleTowerElevator/scripts.inc",
+        "data/maps/BattlePyramidSquare01/scripts.inc",
+        "data/maps/BirthIsland_Exterior/scripts.inc",
+        "data/maps/BirthIsland_Harbor/scripts.inc",
+        "data/maps/CaveOfOrigin_1F/scripts.inc",
+        "data/maps/CaveOfOrigin_B1F/scripts.inc",
+        "data/maps/CaveOfOrigin_Entrance/scripts.inc",
+        "data/maps/CaveOfOrigin_UnusedRubySapphireMap1/scripts.inc",
+        "data/maps/CaveOfOrigin_UnusedRubySapphireMap2/scripts.inc",
+        "data/maps/CaveOfOrigin_UnusedRubySapphireMap3/scripts.inc",
+        "data/maps/DesertRuins/scripts.inc",
+        "data/maps/DesertUnderpass/scripts.inc",
+        "data/maps/DewfordTown/scripts.inc",
+        "data/maps/DewfordTown_Gym/scripts.inc",
+        "data/maps/DewfordTown_Hall/scripts.inc",
+        "data/maps/DewfordTown_House1/scripts.inc",
+        "data/maps/DewfordTown_House2/scripts.inc",
+        "data/maps/DewfordTown_PokemonCenter_1F/scripts.inc",
+        "data/maps/DewfordTown_PokemonCenter_2F/scripts.inc",
+        "data/maps/EverGrandeCity/scripts.inc",
+        "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+        "data/maps/EverGrandeCity_DrakesRoom/scripts.inc",
+        "data/maps/EverGrandeCity_GlaciasRoom/scripts.inc",
+        "data/maps/EverGrandeCity_Hall1/scripts.inc",
+        "data/maps/EverGrandeCity_Hall2/scripts.inc",
+        "data/maps/EverGrandeCity_Hall3/scripts.inc",
+        "data/maps/EverGrandeCity_Hall4/scripts.inc",
+        "data/maps/EverGrandeCity_Hall5/scripts.inc",
+        "data/maps/EverGrandeCity_HallOfFame/scripts.inc",
+        "data/maps/EverGrandeCity_PhoebesRoom/scripts.inc",
+        "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.inc",
+        "data/maps/EverGrandeCity_PokemonCenter_2F/scripts.inc",
+        "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.inc",
+        "data/maps/EverGrandeCity_PokemonLeague_2F/scripts.inc",
+        "data/maps/EverGrandeCity_SidneysRoom/scripts.inc",
+        "data/maps/FallarborTown/scripts.inc",
+        "data/maps/FallarborTown_BattleTentBattleRoom/scripts.inc",
+        "data/maps/FallarborTown_BattleTentCorridor/scripts.inc",
+        "data/maps/FallarborTown_BattleTentLobby/scripts.inc",
+        "data/maps/FallarborTown_CozmosHouse/scripts.inc",
+        "data/maps/FallarborTown_Mart/scripts.inc",
+        "data/maps/FallarborTown_MoveRelearnersHouse/scripts.inc",
+        "data/maps/FallarborTown_PokemonCenter_1F/scripts.inc",
+        "data/maps/FallarborTown_PokemonCenter_2F/scripts.inc",
+        "data/maps/FarawayIsland_Entrance/scripts.inc",
+        "data/maps/FarawayIsland_Interior/scripts.inc",
+        "data/maps/FieryPath/scripts.inc",
+        "data/maps/FortreeCity/scripts.inc",
+        "data/maps/FortreeCity_DecorationShop/scripts.inc",
+        "data/maps/FortreeCity_Gym/scripts.inc",
+        "data/maps/FortreeCity_House1/scripts.inc"
       ],
       "errors": []
     }

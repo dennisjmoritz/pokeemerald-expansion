@@ -1,13 +1,5 @@
 BattleFrontier_BattlePikeRoomWildMons_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePikeRoomWildMons_OnResume
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePikeRoomWildMons_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePikeRoomWildMons_OnWarp
-	.byte 0
-
-BattleFrontier_BattlePikeRoomWildMons_OnFrame:
-	map_script_2 VAR_TEMP_0, 0, BattleFrontier_BattlePikeRoomWildMons_EventScript_SetInWildMonRoom
-	map_script_2 VAR_TEMP_1, 1, BattleFrontier_BattlePikeRoomWildMons_EventScript_WarpToLobbyLost
-	.2byte 0
+	end
 
 BattleFrontier_BattlePikeRoomWildMons_EventScript_SetInWildMonRoom::
 	setvar VAR_TEMP_0, 1

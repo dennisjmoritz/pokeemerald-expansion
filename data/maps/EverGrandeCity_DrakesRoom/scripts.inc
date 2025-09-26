@@ -1,13 +1,5 @@
 EverGrandeCity_DrakesRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_DrakesRoom_OnFrame
-	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_DrakesRoom_OnLoad
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_SidneysRoom_OnWarp
-	.byte 0
-
-@ Unused, Drake uses Sidneys identical OnWarp for some reason
-EverGrandeCity_DrakesRoom_OnWarp:
-	map_script_2 VAR_TEMP_1, 0, EverGrandeCity_DrakesRoom_EventScript_PlayerTurnNorth
-	.2byte 0
+	end
 
 EverGrandeCity_DrakesRoom_EventScript_PlayerTurnNorth::
 	turnobject LOCALID_PLAYER, DIR_NORTH

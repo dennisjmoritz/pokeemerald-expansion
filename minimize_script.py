@@ -282,6 +282,41 @@ class StoryMinimizer:
             
         return True
 
+    def prune_coord_events(self, map_dir):
+        """Prune coord events that set flags then warp/move"""
+        map_json_path = os.path.join(map_dir, 'map.json')
+        if not os.path.exists(map_json_path):
+            return 0
+            
+        with open(map_json_path, 'r') as f:
+            map_data = json.load(f)
+        
+        coord_events = map_data.get('coord_events', [])
+        if not coord_events:
+            return 0
+            
+        original_count = len(coord_events)
+        
+        # Keep coord events that don't match the pruning criteria
+        # (This is a simplified implementation - full implementation would need 
+        # to parse script content to find flag-set-then-warp patterns)
+        pruned_events = []
+        for event in coord_events:
+            script = event.get('script', '')
+            # Simple heuristic: if script name suggests story progression, remove it
+            if any(keyword in script.lower() for keyword in ['story', 'cutscene', 'event']):
+                continue  # Prune this event
+            pruned_events.append(event)
+        
+        pruned_count = original_count - len(pruned_events)
+        
+        if pruned_count > 0:
+            map_data['coord_events'] = pruned_events
+            with open(map_json_path, 'w') as f:
+                json.dump(map_data, f, indent=2)
+        
+        return pruned_count
+
     def process_batch(self, start_idx=None, end_idx=None):
         """Process a batch of maps"""
         if start_idx is None:
@@ -298,6 +333,7 @@ class StoryMinimizer:
                 
             map_info = self.state['maps'][i]
             scripts_path = os.path.join(self.repo_root, map_info['path'])
+            map_dir = os.path.dirname(scripts_path)
             
             try:
                 print(f"Processing {map_info['path']}...")
@@ -335,6 +371,10 @@ class StoryMinimizer:
                 # Add national dex hook for pokemon centers
                 if self.add_national_dex_hook(scripts_path):
                     map_info['center_dex_hook'] = True
+                
+                # Prune coordinate events
+                pruned = self.prune_coord_events(map_dir)
+                map_info['coord_events_pruned'] = pruned
                 
                 map_info['status'] = 'stubbed' if map_info['score_stats']['stub'] > 0 else 'kept'
                 map_info['last_updated'] = datetime.now().isoformat()

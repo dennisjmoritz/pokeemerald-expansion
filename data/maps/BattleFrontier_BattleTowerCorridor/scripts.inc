@@ -1,12 +1,4 @@
 BattleFrontier_BattleTowerCorridor_MapScripts::
-	map_script MAP_SCRIPT_ON_LOAD, BattleFrontier_BattleTowerCorridor_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerCorridor_OnFrame
-	.byte 0
-
-BattleFrontier_BattleTowerCorridor_OnLoad:
-	goto_if_eq VAR_0x8006, 1, BattleFrontier_BattleTowerCorridor_EventScript_OpenFarDoor
-	setmetatile 12, 0, METATILE_BattleFrontier_CorridorOpenDoor_Top, FALSE
-	setmetatile 12, 1, METATILE_BattleFrontier_CorridorOpenDoor_Bottom, FALSE
 	end
 
 BattleFrontier_BattleTowerCorridor_EventScript_OpenFarDoor::

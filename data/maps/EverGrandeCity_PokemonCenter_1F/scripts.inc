@@ -1,11 +1,4 @@
 EverGrandeCity_PokemonCenter_1F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
-	.byte 0
-
-EverGrandeCity_PokemonCenter_1F_OnTransition:
-	setrespawn HEAL_LOCATION_EVER_GRANDE_CITY
-	call_if_unset FLAG_MET_SCOTT_IN_EVERGRANDE, EverGrandeCity_PokemonCenter_1F_EventScript_TryShowScott
 	end
 
 EverGrandeCity_PokemonCenter_1F_EventScript_TryShowScott::

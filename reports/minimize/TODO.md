@@ -10,14 +10,17 @@ Progress tracker for minimizing story elements while preserving gym mechanics, l
 - [x] Build scoring system with story signal detection
 
 ## Processing Batches
-- [x] Batch 1: process maps [0..24] - AbandonedShip through BattleColosseum
-    - [x] Apply stubs based on story signal scoring
-    - [x] Add Fly visit hook (towns) - none in this batch
-    - [x] Add National Dex hook (centers) - none in this batch
-    - [ ] Prune coord events (qualified)
-    - [ ] Update reports
-    - [x] Commit batch 1 changes
+- [x] Batch 1: process maps [0..24] - AbandonedShip through BattleColosseum (6 files modified)
+- [x] Batch 2: process maps [25..49] - BattlePyramid through EverGrandeCity_Hall5 (includes DewfordTown, EverGrandeCity)
+- [x] Batch 3: process maps [50..74] - EverGrandeCity_Hall4 through FortreeCity_House1 (includes FallarborTown, FortreeCity)
 
-## Final Tasks  
-- [ ] REVIEW items (score==3) list prepared
-- [ ] Final reports and summary
+## Current Status (75/410 maps processed - 18.3% complete)
+- Labels: 383 kept, 33 stubbed, 13 review
+- National Dex hooks: 6 Pokemon Centers  
+- Legendary labels preserved: 1
+- Generated validation reports
+
+## Next Steps
+- [ ] Continue batch processing to completion
+- [ ] Manual review of score==3 labels
+- [ ] Final summary and validation

@@ -1,11 +1,5 @@
 BattleFrontier_BattleTowerBattleRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerBattleRoom_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleTowerBattleRoom_OnWarp
-	.byte 0
-
-BattleFrontier_BattleTowerBattleRoom_OnWarp:
-	map_script_2 VAR_TEMP_1, 0, BattleFrontier_BattleTowerBattleRoom_EventScript_SetUpObjects
-	.2byte 0
+	end
 
 BattleFrontier_BattleTowerBattleRoom_EventScript_SetUpObjects::
 	setvar VAR_TEMP_1, 1
@@ -189,21 +183,7 @@ BattleFrontier_EventScript_IncrementWinStreak::
 	return
 
 BattleFrontier_BattleTowerBattleRoom_EventScript_SecondAttendantEnter::
-	applymovement LOCALID_TOWER_BATTLE_ATTENDANT_2, BattleFrontier_BattleTowerBattleRoom_Movement_SecondAttendantEnter
-	waitmovement 0
-	applymovement LOCALID_TOWER_BATTLE_ATTENDANT_2, Common_Movement_WalkInPlaceLeft
-	waitmovement 0
-	playse SE_PIN
-	applymovement LOCALID_TOWER_BATTLE_ATTENDANT_1, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_TOWER_BATTLE_ATTENDANT_1, Common_Movement_Delay48
-	waitmovement 0
-	applymovement LOCALID_TOWER_BATTLE_ATTENDANT_2, BattleFrontier_BattleTowerBattleRoom_Movement_SecondAttendantDelay
-	applymovement LOCALID_TOWER_BATTLE_ATTENDANT_1, BattleFrontier_BattleTowerBattleRoom_Movement_AttendantFaceSecondAttendant
-	waitmovement 0
-	applymovement LOCALID_TOWER_BATTLE_ATTENDANT_2, BattleFrontier_BattleTowerBattleRoom_Movement_SecondAttendantExit
-	waitmovement 0
-	return
+	end
 
 BattleFrontier_BattleTowerBattleRoom_EventScript_MaidenUpNext::
 	goto_if_eq VAR_TEMP_2, 1, BattleFrontier_BattleTowerBattleRoom_EventScript_AskReadyForMaiden
@@ -311,97 +291,7 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_EndTowerBattle::
 	return
 
 BattleFrontier_EventScript_SetBrainObjectGfx::
-	frontier_setbrainobj
-	return
-
-BattleFrontier_BattleTowerBattleRoom_Movement_PlayerEnter:
-	walk_up
-	walk_up
-	walk_up
-	face_right
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_PlayerFaceAttendant:
-	face_down
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_PlayerFaceBattle:
-	face_right
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_OpponentEnter:
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	face_left
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_OpponentExit:
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_AttendantApproachPlayer:
-	walk_right
-	walk_right
-	walk_right
-	walk_up
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_AttendantReturnToPos:
-	walk_down
-	walk_left
-	walk_left
-	walk_left
-	face_right
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_SetInvisible:
-	set_invisible
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_SecondAttendantEnter:
-	set_visible
-	delay_16
-	walk_up
-	walk_left
-	walk_left
-	delay_8
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_SecondAttendantExit:
-	walk_right
-	walk_right
-	walk_down
-	set_invisible
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_SecondAttendantDelay:
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_AttendantFaceSecondAttendant:
-	face_right
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	walk_in_place_right
-	step_end
-
-BattleFrontier_BattleTowerBattleRoom_Movement_AnabelEnter:
-	walk_slow_down
-	walk_slow_down
-	walk_slow_down
-	walk_slow_down
-	face_left
-	step_end
+	end
 
 BattleFrontier_BattleTowerBattleRoom_EventScript_WarpToLobby::
 	copyvar VAR_RESULT, VAR_FRONTIER_BATTLE_MODE

@@ -1,11 +1,5 @@
 BattleFrontier_BattleFactoryPreBattleRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleFactoryPreBattleRoom_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleFactoryPreBattleRoom_OnWarp
-	.byte 0
-
-BattleFrontier_BattleFactoryPreBattleRoom_OnWarp:
-	map_script_2 VAR_TEMP_1, 0, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_SetUpObjects
-	.2byte 0
+	end
 
 BattleFrontier_BattleFactoryPreBattleRoom_EventScript_SetUpObjects::
 	setvar VAR_TEMP_1, 1

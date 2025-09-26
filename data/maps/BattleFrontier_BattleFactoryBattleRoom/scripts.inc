@@ -4,19 +4,6 @@
 @ The graphics of the opponent are represented with VAR_OBJ_GFX_ID_0, which will ultimately be set by factory_setopponentgfx.
 
 BattleFrontier_BattleFactoryBattleRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattleFactoryBattleRoom_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleFactoryBattleRoom_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleFactoryBattleRoom_OnFrame
-	.byte 0
-
-BattleFrontier_BattleFactoryBattleRoom_OnTransition:
-	frontier_settrainers
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, BattleFrontier_BattleFactoryBattleRoom_EventScript_SetPlayerGfxMale
-	call_if_eq VAR_RESULT, FEMALE, BattleFrontier_BattleFactoryBattleRoom_EventScript_SetPlayerGfxFemale
-	frontier_getbrainstatus
-	copyvar VAR_TEMP_F, VAR_RESULT
-	goto_if_ne VAR_RESULT, FRONTIER_BRAIN_NOT_READY, BattleFrontier_BattleFactoryBattleRoom_EventScript_SetUpFactoryHeadObj
 	end
 
 BattleFrontier_BattleFactoryBattleRoom_EventScript_SetUpFactoryHeadObj::
