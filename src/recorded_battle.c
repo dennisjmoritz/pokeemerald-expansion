@@ -802,6 +802,11 @@ bool8 RecordedBattle_CanStopPlayback(void)
     return (sIsPlaybackFinished == FALSE);
 }
 
+u8 GetRecordedBattleRecordMixFriendClass(void)
+{
+    return sRecordMixFriendClass;
+}
+
 u8 GetRecordedBattleApprenticeId(void)
 {
     return sApprenticeId;
