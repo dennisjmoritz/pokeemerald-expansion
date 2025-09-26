@@ -47,34 +47,6 @@ SlateportCity_Harbor_EventScript_AquaEscapeTrigger3::
 	end
 
 SlateportCity_Harbor_EventScript_AquaEscapeScene::
-	applymovement LOCALID_SLATEPORT_HARBOR_ARCHIE, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	applymovement LOCALID_SLATEPORT_HARBOR_GRUNT, Common_Movement_WalkInPlaceFasterDown
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	msgbox SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_SLATEPORT_HARBOR_GRUNT, SlateportCity_Harbor_Movement_AquaBoardSub
-	applymovement LOCALID_SLATEPORT_HARBOR_ARCHIE, SlateportCity_Harbor_Movement_AquaBoardSub
-	applymovement LOCALID_SLATEPORT_HARBOR_SUBMARINE, SlateportCity_Harbor_Movement_SubmarineExit
-	waitmovement 0
-	removeobject LOCALID_SLATEPORT_HARBOR_GRUNT
-	removeobject LOCALID_SLATEPORT_HARBOR_ARCHIE
-	removeobject LOCALID_SLATEPORT_HARBOR_SUBMARINE
-	setvar VAR_SLATEPORT_HARBOR_STATE, 2
-	setflag FLAG_MET_TEAM_AQUA_HARBOR
-	setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
-	call_if_eq VAR_0x8008, 0, SlateportCity_Harbor_EventScript_SternApproachPlayer0
-	call_if_eq VAR_0x8008, 1, SlateportCity_Harbor_EventScript_SternApproachPlayer1
-	call_if_eq VAR_0x8008, 2, SlateportCity_Harbor_EventScript_SternApproachPlayer
-	call_if_eq VAR_0x8008, 3, SlateportCity_Harbor_EventScript_SternApproachPlayer
-	msgbox SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine, MSGBOX_DEFAULT
-	closemessage
-	setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE
-	setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE
-	copyobjectxytoperm LOCALID_SLATEPORT_HARBOR_CAPT_STERN
-	setobjectmovementtype LOCALID_SLATEPORT_HARBOR_CAPT_STERN, MOVEMENT_TYPE_FACE_RIGHT
-	releaseall
 	end
 
 SlateportCity_Harbor_EventScript_SternApproachPlayer0::
@@ -92,67 +64,7 @@ SlateportCity_Harbor_EventScript_SternApproachPlayer1::
 	return
 
 SlateportCity_Harbor_EventScript_SternApproachPlayer::
-	applymovement LOCALID_SLATEPORT_HARBOR_CAPT_STERN, SlateportCity_Harbor_Movement_SternApproachPlayer
-	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	return
-
-SlateportCity_Harbor_Movement_AquaBoardSub:
-	delay_16
-	delay_16
-	jump_up
-	set_invisible
-	step_end
-
-@ Unused, Archie instead shares above identical movement script with Grunt
-SlateportCity_Harbor_Movement_ArchieBoardSub:
-	delay_16
-	delay_16
-	jump_up
-	set_invisible
-	step_end
-
-SlateportCity_Harbor_Movement_SubmarineExit:
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	walk_right
-	walk_right
-	walk_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	step_end
-
-SlateportCity_Harbor_Movement_SternApproachPlayer0:
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_up
-	step_end
-
-SlateportCity_Harbor_Movement_SternApproachPlayer1:
-	walk_left
-	walk_left
-	walk_up
-	walk_left
-	step_end
-
-SlateportCity_Harbor_Movement_SternApproachPlayer:
-	walk_left
-	walk_left
-	walk_left
-	step_end
-
-SlateportCity_Harbor_Movement_PlayerWalkUp:
-	walk_up
-	step_end
+	end
 
 SlateportCity_Harbor_EventScript_FerryAttendant::
 	lock

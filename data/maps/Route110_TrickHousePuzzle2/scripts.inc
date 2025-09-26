@@ -1,20 +1,4 @@
 Route110_TrickHousePuzzle2_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, Route110_TrickHousePuzzle2_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle2_OnTransition
-	.byte 0
-
-Route110_TrickHousePuzzle2_OnResume:
-	call_if_eq VAR_TEMP_1, 1, Route110_TrickHousePuzzle2_EventScript_PressButton1
-	call_if_eq VAR_TEMP_2, 1, Route110_TrickHousePuzzle2_EventScript_PressButton2
-	call_if_eq VAR_TEMP_3, 1, Route110_TrickHousePuzzle2_EventScript_PressButton3
-	call_if_eq VAR_TEMP_4, 1, Route110_TrickHousePuzzle2_EventScript_PressButton4
-	end
-
-Route110_TrickHousePuzzle2_OnTransition:
-	setvar VAR_TEMP_1, 0
-	setvar VAR_TEMP_2, 0
-	setvar VAR_TEMP_3, 0
-	setvar VAR_TEMP_4, 0
 	end
 
 Route110_TrickHousePuzzle2_EventScript_Scroll::

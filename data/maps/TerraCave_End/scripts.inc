@@ -1,10 +1,4 @@
 TerraCave_End_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, TerraCave_End_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, TerraCave_End_OnTransition
-	.byte 0
-
-TerraCave_End_OnResume:
-	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, TerraCave_End_EventScript_TryRemoveGroudon
 	end
 
 TerraCave_End_EventScript_TryRemoveGroudon::

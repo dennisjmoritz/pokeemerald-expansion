@@ -27,16 +27,7 @@ Route124_DivingTreasureHuntersHouse_EventScript_CheckPlayerHasShard::
 	end
 
 Route124_DivingTreasureHuntersHouse_EventScript_GetPlayersShards::
-	setvar VAR_TEMP_1, 0
-	checkitem ITEM_RED_SHARD
-	call_if_eq VAR_RESULT, TRUE, Route124_DivingTreasureHuntersHouse_EventScript_HasRedShard
-	checkitem ITEM_YELLOW_SHARD
-	call_if_eq VAR_RESULT, TRUE, Route124_DivingTreasureHuntersHouse_EventScript_HasYellowShard
-	checkitem ITEM_BLUE_SHARD
-	call_if_eq VAR_RESULT, TRUE, Route124_DivingTreasureHuntersHouse_EventScript_HasBlueShard
-	checkitem ITEM_GREEN_SHARD
-	call_if_eq VAR_RESULT, TRUE, Route124_DivingTreasureHuntersHouse_EventScript_HasGreenShard
-	return
+	end
 
 Route124_DivingTreasureHuntersHouse_EventScript_HasRedShard::
 	addvar VAR_TEMP_1, 1

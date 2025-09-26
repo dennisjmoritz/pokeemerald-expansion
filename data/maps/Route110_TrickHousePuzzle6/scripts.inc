@@ -1,17 +1,6 @@
 Route110_TrickHousePuzzle6_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle6_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route110_TrickHousePuzzle6_OnWarp
-	.byte 0
-
-Route110_TrickHousePuzzle6_OnTransition:
-	special RotatingGate_InitPuzzle
 	end
 
-Route110_TrickHousePuzzle6_OnWarp:
-	map_script_2 VAR_TEMP_0, VAR_TEMP_0, Route110_TrickHousePuzzle6_EventScript_InitPuzzle
-	.2byte 0
-
-@ NOTE: This rotating gate puzzle makes use of VAR_TEMP_0 - VAR_TEMP_5
 Route110_TrickHousePuzzle6_EventScript_InitPuzzle::
 	special RotatingGate_InitPuzzleAndGraphics
 	end

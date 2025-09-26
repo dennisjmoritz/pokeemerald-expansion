@@ -1,17 +1,4 @@
 Route110_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, Route110_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, Route110_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route110_OnFrame
-	.byte 0
-
-Route110_OnResume:
-	special UpdateCyclingRoadState
-	end
-
-Route110_OnTransition:
-	call Common_EventScript_SetupRivalGfxId
-	call Common_EventScript_SetupRivalOnBikeGfxId
-	call_if_eq VAR_CYCLING_CHALLENGE_STATE, 1, Route110_EventScript_SaveCyclingMusic
 	end
 
 Route110_EventScript_SaveCyclingMusic::
@@ -591,48 +578,6 @@ Route110_EventScript_BirchScene4::
 	goto Route110_EventScript_BirchScene
 
 Route110_EventScript_BirchScene::
-	addobject LOCALID_ROUTE110_BIRCH
-	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchEntrance
-	waitmovement 0
-	playse SE_PIN
-	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_Delay48
-	waitmovement 0
-	call_if_eq VAR_0x8008, 1, Route110_EventScript_BirchApproachPlayer1
-	call_if_eq VAR_0x8008, 2, Route110_EventScript_BirchApproachPlayer2
-	call_if_eq VAR_0x8008, 3, Route110_EventScript_BirchApproachPlayer3
-	call_if_eq VAR_0x8008, 4, Route110_EventScript_BirchApproachPlayer4
-	msgbox Route110_Text_ImagineSeeingYouHere, MSGBOX_DEFAULT
-	closemessage
-	delay 20
-	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
-	delay 10
-	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	delay 20
-	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	delay 30
-	msgbox Route110_Text_HeardYouInstallMatchCall, MSGBOX_DEFAULT
-	closemessage
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox Route110_Text_RegisteredBirchInPokenav, MSGBOX_DEFAULT
-	waitfanfare
-	closemessage
-	delay 30
-	setflag FLAG_ENABLE_PROF_BIRCH_MATCH_CALL
-	msgbox Route110_Text_KeepAnEyeOutForRival, MSGBOX_DEFAULT
-	closemessage
-	call_if_eq VAR_0x8008, 1, Route110_EventScript_BirchExit1
-	call_if_eq VAR_0x8008, 2, Route110_EventScript_BirchExit2
-	call_if_eq VAR_0x8008, 3, Route110_EventScript_BirchExit3
-	call_if_eq VAR_0x8008, 4, Route110_EventScript_BirchExit4
-	removeobject LOCALID_ROUTE110_BIRCH
-	setvar VAR_REGISTER_BIRCH_STATE, 2
-	releaseall
 	end
 
 Route110_EventScript_BirchApproachPlayer1::

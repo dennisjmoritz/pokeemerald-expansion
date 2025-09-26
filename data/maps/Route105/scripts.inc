@@ -1,13 +1,4 @@
 Route105_MapScripts::
-	map_script MAP_SCRIPT_ON_LOAD, Route105_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, Route105_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route105_OnFrame
-	.byte 0
-
-Route105_OnLoad:
-	call_if_unset FLAG_REGI_DOORS_OPENED, Route105_CloseRegiEntrance
-	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_105_NORTH, AbnormalWeather_EventScript_PlaceTilesRoute105North
-	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_105_SOUTH, AbnormalWeather_EventScript_PlaceTilesRoute105South
 	end
 
 Route105_CloseRegiEntrance::

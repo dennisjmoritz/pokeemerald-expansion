@@ -1,14 +1,4 @@
 RustboroCity_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, RustboroCity_OnFrame
-	.byte 0
-
-RustboroCity_OnTransition:
-	setflag FLAG_VISITED_RUSTBORO_CITY
-	call Common_EventScript_SetupRivalGfxId
-	call_if_eq VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_HideMapNamePopup
-	getplayerxy VAR_TEMP_0, VAR_TEMP_1
-	goto_if_eq VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_PositionScientistForExit
 	end
 
 RustboroCity_EventScript_PositionScientistForExit::
@@ -29,43 +19,7 @@ RustboroCity_OnFrame:
 	.2byte 0
 
 RustboroCity_EventScript_ScientistAddMatchCall::
-	lockall
-	setvar VAR_ROUTE104_STATE, 1
-	applymovement LOCALID_PLAYER, RustboroCity_Movement_PlayerWalkDown
-	waitmovement 0
-	playse SE_EXIT
-	delay 10
-	addobject LOCALID_RUSTBORO_SCIENTIST
-	applymovement LOCALID_RUSTBORO_SCIENTIST, RustboroCity_Movement_ScientistApproachPlayer
-	waitmovement 0
-	playse SE_PIN
-	applymovement LOCALID_RUSTBORO_SCIENTIST, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_RUSTBORO_SCIENTIST, Common_Movement_Delay48
-	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	applymovement LOCALID_RUSTBORO_SCIENTIST, RustboroCity_Movement_ScientistWalkInPlaceDown
-	waitmovement 0
-	msgbox RustboroCity_Text_DevelopedNewPokenavFeature, MSGBOX_DEFAULT
-	closemessage
-	setflag FLAG_HAS_MATCH_CALL
-	applymovement LOCALID_RUSTBORO_SCIENTIST, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
-	playse SE_CLICK
-	delay 10
-	playse SE_CLICK
-	delay 10
-	playse SE_CLICK
-	delay 10
-	playse SE_CLICK
-	delay 20
-	applymovement LOCALID_RUSTBORO_SCIENTIST, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	msgbox RustboroCity_Text_AddedMatchCallPleaseCallMrStone, MSGBOX_DEFAULT
-	closemessage
-	delay 20
-	goto RustboroCity_EventScript_MatchCallTutorial
+	end
 
 RustboroCity_EventScript_PleaseSelectPokenav::
 	msgbox RustboroCity_Text_PleaseSelectPokenav, MSGBOX_DEFAULT
@@ -74,60 +28,7 @@ RustboroCity_EventScript_PleaseSelectPokenav::
 	goto RustboroCity_EventScript_MatchCallTutorial
 
 RustboroCity_EventScript_MatchCallTutorial::
-	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
-	special ScriptMenu_CreateStartMenuForPokenavTutorial
-	waitstate
-	switch VAR_RESULT
-	case 0, RustboroCity_EventScript_PleaseSelectPokenav
-	case 1, RustboroCity_EventScript_PleaseSelectPokenav
-	case 2, RustboroCity_EventScript_PleaseSelectPokenav
-	case 4, RustboroCity_EventScript_PleaseSelectPokenav
-	case 5, RustboroCity_EventScript_PleaseSelectPokenav
-	case 6, RustboroCity_EventScript_PleaseSelectPokenav
-	case 7, RustboroCity_EventScript_PleaseSelectPokenav
-	case MULTI_B_PRESSED, RustboroCity_EventScript_PleaseSelectPokenav
-	special OpenPokenavForTutorial
-	waitstate
-	delay 20
-	msgbox RustboroCity_Text_IdBetterGetBackToWork, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_RUSTBORO_SCIENTIST, RustboroCity_Movement_ScientistLeave
-	waitmovement 0
-	playse SE_EXIT
-	removeobject LOCALID_RUSTBORO_SCIENTIST
-	setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
-	setvar VAR_RUSTBORO_CITY_STATE, 7
-	clearflag FLAG_HIDE_MAP_NAME_POPUP
-	releaseall
 	end
-
-RustboroCity_Movement_ScientistWalkInPlaceDown:
-	walk_in_place_down
-	step_end
-
-RustboroCity_Movement_PlayerWalkDown:
-	walk_down
-	step_end
-
-RustboroCity_Movement_ScientistApproachPlayer:
-	walk_down
-	delay_16
-	step_end
-
-@ Unused
-RustboroCity_Movement_ScientistWalkAroundPlayer:
-	delay_16
-	walk_left
-	walk_down
-	walk_down
-	walk_right
-	walk_in_place_faster_up
-	delay_16
-	step_end
-
-RustboroCity_Movement_ScientistLeave:
-	walk_up
-	step_end
 
 RustboroCity_EventScript_FatMan::
 	lock
@@ -282,37 +183,8 @@ RustboroCity_EventScript_StolenGoodsTrigger4::
 	end
 
 RustboroCity_EventScript_StolenGoodsScene::
-	msgbox RustboroCity_Text_OutOfTheWay, MSGBOX_DEFAULT
-	closemessage
-	playbgm MUS_ENCOUNTER_AQUA, FALSE
-	addobject LOCALID_RUSTBORO_GRUNT
-	addobject LOCALID_RUSTBORO_DEVON_EMPLOYEE
-	applymovement LOCALID_RUSTBORO_GRUNT, RustboroCity_Movement_GruntEscape
-	waitmovement 0
-	removeobject LOCALID_RUSTBORO_GRUNT
-	applymovement LOCALID_RUSTBORO_DEVON_EMPLOYEE, RustboroCity_Movement_EmployeeChaseGrunt1
-	waitmovement 0
-	msgbox RustboroCity_Text_WaitDontTakeMyGoods, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_RUSTBORO_DEVON_EMPLOYEE, RustboroCity_Movement_EmployeeChaseGrunt2
-	waitmovement 0
-	fadedefaultbgm
-	removeobject LOCALID_RUSTBORO_DEVON_EMPLOYEE
-	setobjectxyperm LOCALID_RUSTBORO_DEVON_EMPLOYEE, 30, 10
-	clearflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
-	setflag FLAG_DEVON_GOODS_STOLEN
-	setvar VAR_RUSTBORO_CITY_STATE, 2
-	setvar VAR_RUSTURF_TUNNEL_STATE, 2
-	setvar VAR_ROUTE116_STATE, 1
-	clearflag FLAG_HIDE_ROUTE_116_MR_BRINEY
-	clearflag FLAG_HIDE_RUSTURF_TUNNEL_PEEKO
-	clearflag FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT
-	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
-	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
-	releaseall
 	end
 
-@ Unused
 RustboroCity_EventScript_ShadyCharacterTookOff::
 	msgbox RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel, MSGBOX_DEFAULT
 	return
@@ -587,23 +459,6 @@ RustboroCity_EventScript_ReturnGoodsTrigger3::
 	end
 
 RustboroCity_EventScript_ReturnGoods::
-	call_if_eq VAR_TEMP_1, 0, RustboroCity_EventScript_EmployeeFacePlayerUp2
-	call_if_eq VAR_TEMP_1, 1, RustboroCity_EventScript_EmployeeFacePlayerLeft2
-	call_if_eq VAR_TEMP_1, 2, RustboroCity_EventScript_EmployeeFacePlayerDown2
-	call_if_eq VAR_TEMP_1, 3, RustboroCity_EventScript_EmployeeApproachPlayerDown2
-	call_if_eq VAR_TEMP_1, 4, RustboroCity_EventScript_EmployeeFacePlayerRight
-	msgbox RustboroCity_Text_YouGotItThankYou, MSGBOX_DEFAULT
-	giveitem ITEM_GREAT_BALL
-	call_if_eq VAR_RESULT, FALSE, RustboroCity_EventScript_BagFull
-	msgbox RustboroCity_Text_PleaseComeWithMe, MSGBOX_DEFAULT
-	closemessage
-	setflag FLAG_RETURNED_DEVON_GOODS
-	setflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
-	setvar VAR_RUSTBORO_CITY_STATE, 5
-	delay 30
-	warp MAP_RUSTBORO_CITY_DEVON_CORP_3F, 2, 2
-	waitstate
-	releaseall
 	end
 
 RustboroCity_EventScript_BagFull::

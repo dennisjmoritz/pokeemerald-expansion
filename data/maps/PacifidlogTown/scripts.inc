@@ -1,14 +1,4 @@
 PacifidlogTown_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, PacifidlogTown_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, PacifidlogTown_OnResume
-	.byte 0
-
-PacifidlogTown_OnTransition:
-	setflag FLAG_VISITED_PACIFIDLOG_TOWN
-	end
-
-PacifidlogTown_OnResume:
-	setstepcallback STEP_CB_PACIFIDLOG_BRIDGE
 	end
 
 PacifidlogTown_EventScript_NinjaBoy::

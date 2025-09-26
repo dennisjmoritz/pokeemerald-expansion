@@ -1,11 +1,4 @@
 RustboroCity_PokemonCenter_1F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
-	.byte 0
-
-RustboroCity_PokemonCenter_1F_OnTransition:
-	setrespawn HEAL_LOCATION_RUSTBORO_CITY
-	call Common_EventScript_UpdateBrineyLocation
 	end
 
 RustboroCity_PokemonCenter_1F_EventScript_Nurse::

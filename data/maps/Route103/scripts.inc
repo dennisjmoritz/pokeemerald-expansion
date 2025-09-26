@@ -1,15 +1,4 @@
 Route103_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route103_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Route103_OnLoad
-	.byte 0
-
-Route103_OnTransition:
-	call Common_EventScript_SetupRivalGfxId
-	call ProfBirch_EventScript_UpdateLocation
-	end
-
-Route103_OnLoad:
-	call_if_set FLAG_SYS_GAME_CLEAR, Route103_EventScript_OpenAlteringCave
 	end
 
 Route103_EventScript_OpenAlteringCave::
@@ -137,55 +126,7 @@ Route103_EventScript_RivalExitFacingSouth::
 	end
 
 Route103_EventScript_RivalEnd::
-	removeobject LOCALID_ROUTE103_RIVAL
-	setvar VAR_BIRCH_LAB_STATE, 4
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL
-	setflag FLAG_DEFEATED_RIVAL_ROUTE103
-	setvar VAR_OLDALE_RIVAL_STATE, 1
-	clearflag FLAG_HIDE_OLDALE_TOWN_RIVAL
-	savebgm MUS_DUMMY
-	fadedefaultbgm
-	releaseall
 	end
-
-Route103_Movement_RivalExitFacingNorth1:
-	walk_left
-	walk_down
-	step_end
-
-Route103_Movement_RivalExitFacingNorth2:
-	jump_2_down
-	delay_16
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	step_end
-
-Route103_Movement_WatchRivalExitFacingNorth:
-	delay_16
-	delay_4
-	walk_in_place_faster_left
-	delay_16
-	walk_in_place_faster_down
-	step_end
-
-Route103_Movement_RivalExit1:
-	walk_down
-	step_end
-
-Route103_Movement_RivalExit2:
-	jump_2_down
-	delay_16
-	walk_down
-	walk_down
-	walk_down
-	step_end
-
-Route103_Movement_WatchRivalExitFacingEastOrWest:
-	delay_16
-	walk_in_place_faster_down
-	step_end
 
 Route103_EventScript_Boy::
 	msgbox Route103_Text_ShouldHaveBroughtPotion, MSGBOX_NPC

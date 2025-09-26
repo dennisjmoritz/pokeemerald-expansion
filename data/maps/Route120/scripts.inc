@@ -1,12 +1,5 @@
 @ LOCALID_BRIDGE_KECLEON_SHADOW is a second object which is identical to LOCALID_BRIDGE_KECLEON but has a reflection palette tag for the bridge shadow
 Route120_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, Route120_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, Route120_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Route120_OnLoad
-	.byte 0
-
-Route120_OnResume:
-	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, Route120_EventScript_RemoveKecleonObject
 	end
 
 Route120_EventScript_RemoveKecleonObject::
@@ -211,28 +204,6 @@ Route120_EventScript_RemoveBridgeKecleonPostBattle::
 	end
 
 Route120_EventScript_StevenGiveDeconScope::
-	applymovement LOCALID_ROUTE120_STEVEN, Common_Movement_WalkInPlaceFasterDown
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	msgbox Route120_Text_StevenGiveDevonScope, MSGBOX_DEFAULT
-	giveitem ITEM_DEVON_SCOPE
-	setflag FLAG_RECEIVED_DEVON_SCOPE
-	msgbox Route120_Text_StevenGoodbye, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_ROUTE120_STEVEN, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	delay 50
-	setfieldeffectargument 0, 1
-	dofieldeffect FLDEFF_NPCFLY_OUT
-	delay 15
-	removeobject LOCALID_ROUTE120_STEVEN
-	waitfieldeffect FLDEFF_NPCFLY_OUT
-	setmetatile 13, 15, METATILE_Fortree_WoodBridge1_Top, FALSE
-	setmetatile 12, 16, METATILE_Fortree_WoodBridge1_Bottom, FALSE
-	setmetatile 12, 17, METATILE_General_ReflectiveWater, FALSE
-	setmetatile 13, 17, METATILE_General_ReflectiveWater, FALSE
-	special DrawWholeMapView
-	release
 	end
 
 Route120_EventScript_PlayerApproachKecleonNorth::

@@ -1,13 +1,4 @@
 Route111_MapScripts::
-	map_script MAP_SCRIPT_ON_LOAD, Route111_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, Route111_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route111_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route111_OnFrame
-	.byte 0
-
-Route111_OnLoad:
-	call_if_unset FLAG_REGI_DOORS_OPENED, Route111_EventScript_CloseDesertRuins
-	call_if_eq VAR_MIRAGE_TOWER_STATE, 1, Route111_EventScript_ShowTemporaryMirageTower
 	end
 
 Route111_EventScript_CloseDesertRuins::
@@ -75,13 +66,6 @@ Route111_EventScript_EndCheckSetSandstorm::
 	return
 
 Route111_EventScript_SetWinstratesNotDefeated::
-	clearflag FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE
-	setflag FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE
-	setflag FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE
-	setflag FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE
-	cleartrainerflag TRAINER_VICTOR
-	cleartrainerflag TRAINER_VICTORIA
-	cleartrainerflag TRAINER_VIVI
 	end
 
 Route111_EventScript_SetLayoutNoMirageTower::
@@ -267,72 +251,7 @@ Route111_EventScript_Victor::
 	end
 
 Route111_EventScript_BattleWinstrates::
-	msgbox Route111_Text_VictorIntro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_VICTOR, Route111_Text_VictorDefeat
-	applymovement LOCALID_ROUTE111_VICTOR, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	call Route111_EventScript_OpenWinstrateDoor
-	msgbox Route111_Text_VictorPostBattle, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_ROUTE111_VICTOR, Route111_Movement_WinstrateEnterHouse
-	waitmovement 0
-	removeobject LOCALID_ROUTE111_VICTOR
-	call Route111_EventScript_CloseWinstrateDoor
-	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
-	waitmovement 0
-	call Route111_EventScript_OpenWinstrateDoor
-	addobject LOCALID_ROUTE111_VICTORIA
-	applymovement LOCALID_ROUTE111_VICTORIA, Route111_Movement_WinstrateExitHouse
-	waitmovement 0
-	call Route111_EventScript_CloseWinstrateDoor
-	msgbox Route111_Text_VictoriaIntro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_VICTORIA, Route111_Text_VictoriaDefeat
-	applymovement LOCALID_ROUTE111_VICTORIA, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	call Route111_EventScript_OpenWinstrateDoor
-	msgbox Route111_Text_VictoriaPostBattle, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_ROUTE111_VICTORIA, Route111_Movement_WinstrateEnterHouse
-	waitmovement 0
-	removeobject LOCALID_ROUTE111_VICTORIA
-	call Route111_EventScript_CloseWinstrateDoor
-	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
-	waitmovement 0
-	call Route111_EventScript_OpenWinstrateDoor
-	addobject LOCALID_ROUTE111_VIVI
-	applymovement LOCALID_ROUTE111_VIVI, Route111_Movement_WinstrateExitHouse
-	waitmovement 0
-	call Route111_EventScript_CloseWinstrateDoor
-	msgbox Route111_Text_ViviIntro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_VIVI, Route111_Text_ViviDefeat
-	applymovement LOCALID_ROUTE111_VIVI, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	call Route111_EventScript_OpenWinstrateDoor
-	msgbox Route111_Text_ViviPostBattle, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_ROUTE111_VIVI, Route111_Movement_WinstrateEnterHouse
-	waitmovement 0
-	removeobject LOCALID_ROUTE111_VIVI
-	call Route111_EventScript_CloseWinstrateDoor
-	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
-	waitmovement 0
-	call Route111_EventScript_OpenWinstrateDoor
-	addobject LOCALID_ROUTE111_VICKY
-	applymovement LOCALID_ROUTE111_VICKY, Route111_Movement_WinstrateExitHouse
-	waitmovement 0
-	call Route111_EventScript_CloseWinstrateDoor
-	msgbox Route111_Text_VickyIntro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_VICKY, Route111_Text_VickyDefeat
-	msgbox Route111_Text_VickyPostBattle, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_ROUTE111_VICKY, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	call Route111_EventScript_OpenWinstrateDoor
-	applymovement LOCALID_ROUTE111_VICKY, Route111_Movement_WinstrateEnterHouse
-	waitmovement 0
-	removeobject LOCALID_ROUTE111_VICKY
-	call Route111_EventScript_CloseWinstrateDoor
-	release
+		trainerbattle_no_intro TRAINER_VICTOR, Route111_Text_VictorDefeat
 	end
 
 Route111_EventScript_OpenWinstrateDoor::

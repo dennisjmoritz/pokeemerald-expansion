@@ -1,15 +1,4 @@
 Route113_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, Route113_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, Route113_OnTransition
-	.byte 0
-
-Route113_OnResume:
-	setstepcallback STEP_CB_ASH
-	end
-
-Route113_OnTransition:
-	clearflag FLAG_FORCE_MIRAGE_TOWER_VISIBLE
-	call Route113_EventScript_CheckSetAshWeather
 	end
 
 Route113_EventScript_CheckSetAshWeather::

@@ -1,11 +1,5 @@
 PetalburgCity_WallysHouse_MapScripts::
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, PetalburgCity_WallysHouse_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PetalburgCity_WallysHouse_OnWarp
-	.byte 0
-
-PetalburgCity_WallysHouse_OnWarp:
-	map_script_2 VAR_PETALBURG_CITY_STATE, 4, PetalburgCity_WallysHouse_EventScript_PlayerWallysDadFaceEachOther
-	.2byte 0
+	end
 
 PetalburgCity_WallysHouse_EventScript_PlayerWallysDadFaceEachOther::
 	turnobject LOCALID_PLAYER, DIR_EAST

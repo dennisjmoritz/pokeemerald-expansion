@@ -1,11 +1,4 @@
 PetalburgCity_PokemonCenter_1F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, PetalburgCity_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
-	.byte 0
-
-PetalburgCity_PokemonCenter_1F_OnTransition:
-	setrespawn HEAL_LOCATION_PETALBURG_CITY
-	call Common_EventScript_UpdateBrineyLocation
 	end
 
 PetalburgCity_PokemonCenter_1F_EventScript_Nurse::

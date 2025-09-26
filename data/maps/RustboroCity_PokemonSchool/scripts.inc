@@ -101,64 +101,7 @@ RustboroCity_PokemonSchool_EventScript_TeacherCheckOnStudentsWest::
 	return
 
 RustboroCity_PokemonSchool_EventScript_GaveQuickClaw::
-	msgbox RustboroCity_PokemonSchool_Text_ExplainQuickClaw, MSGBOX_DEFAULT
-	closemessage
-	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	release
 	end
-
-RustboroCity_PokemonSchool_Movement_TeacherCheckOnStudentsWest:
-	walk_left
-	walk_down
-	walk_down
-	walk_right
-	walk_in_place_faster_down
-	delay_16
-	delay_16
-	delay_16
-	walk_down
-	walk_in_place_faster_left
-	delay_16
-	delay_16
-	walk_right
-	delay_16
-	delay_16
-	delay_8
-	walk_up
-	walk_left
-	walk_left
-	walk_up
-	walk_up
-	walk_right
-	step_end
-
-RustboroCity_PokemonSchool_Movement_TeacherCheckOnStudentsEast:
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_left
-	walk_left
-	walk_in_place_faster_down
-	delay_16
-	delay_16
-	delay_16
-	walk_down
-	walk_in_place_faster_left
-	delay_16
-	delay_16
-	walk_right
-	delay_16
-	delay_16
-	delay_8
-	walk_up
-	walk_right
-	walk_up
-	walk_up
-	walk_left
-	walk_left
-	step_end
 
 RustboroCity_PokemonSchool_EventScript_Scott::
 	lock

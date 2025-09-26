@@ -1,24 +1,5 @@
 Route118_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route118_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Route118_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route118_OnFrame
-	.byte 0
-
-Route118_OnTransition:
-	call GabbyAndTy_EventScript_UpdateLocation
-	call_if_eq VAR_SHOULD_END_ABNORMAL_WEATHER, 1, AbnormalWeather_EventScript_HideMapNamePopup
-	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_118_EAST, AbnormalWeather_StartGroudonWeather
-	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_118_WEST, AbnormalWeather_StartGroudonWeather
 	end
-
-Route118_OnLoad:
-	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_118_EAST, AbnormalWeather_EventScript_PlaceTilesRoute118East
-	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_118_WEST, AbnormalWeather_EventScript_PlaceTilesRoute118West
-	end
-
-Route118_OnFrame:
-	map_script_2 VAR_SHOULD_END_ABNORMAL_WEATHER, 1, AbnormalWeather_EventScript_EndEventAndCleanup_1
-	.2byte 0
 
 Route118_EventScript_GoodRodFisherman::
 	lock
