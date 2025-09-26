@@ -17,6 +17,7 @@ Successfully implemented and executed a comprehensive system to minimize Pokemon
 - **240 labels stubbed** - Complex story sequences reduced to functional stubs
 - **92 labels flagged** - Manual review candidates (score=3) identified
 - **Total labels processed**: 4,744 across entire codebase
+- **HM badge gates removed** - All 8 field moves accessible based on Pokemon knowledge only
 
 ### Gameplay Preservation Achievements
 - **10 gym maps processed** - All puzzles, trainers, and mechanics completely intact
@@ -43,7 +44,8 @@ Successfully implemented and executed a comprehensive system to minimize Pokemon
 - [x] **National Pokedex unlocked**: 30 Pokemon Centers enhanced for immediate access
 - [x] **Town fly mechanics**: FLAG_VISITED system verified for all 16 major locations
 - [x] **Story interruption reduction**: 256 coordinate events cleaned up
-- [x] **Badge/flag gate removal**: Field move usage simplified to Pokemon knowledge only
+- [x] **Badge/flag gate removal**: Field move usage simplified - Pokemon only need to know the move
+- [x] **HM accessibility**: All 8 HM field moves (Cut, Flash, Rock Smash, Strength, Surf, Fly, Dive, Waterfall) usable without badges
 
 ### ✅ Production System Targets
 - [x] **State persistence**: JSON-based tracking enables full resumability

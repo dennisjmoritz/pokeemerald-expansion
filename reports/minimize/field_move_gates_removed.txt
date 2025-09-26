@@ -1,0 +1,22 @@
+Field Move Badge Gates Removed
+===============================
+
+All HM field moves are now accessible based solely on Pokemon knowledge, not badge requirements.
+
+Modified Functions in src/field_move.c:
+- IsFieldMoveUnlocked_Cut() - Badge 1 requirement removed
+- IsFieldMoveUnlocked_Flash() - Badge 2 requirement removed  
+- IsFieldMoveUnlocked_RockSmash() - Badge 3 requirement removed
+- IsFieldMoveUnlocked_Strength() - Badge 4 requirement removed
+- IsFieldMoveUnlocked_Surf() - Badge 5 requirement removed
+- IsFieldMoveUnlocked_Fly() - Badge 6 requirement removed
+- IsFieldMoveUnlocked_Dive() - Badge 7 requirement removed
+- IsFieldMoveUnlocked_Waterfall() - Badge 8 requirement removed
+
+All functions now return TRUE instead of checking FLAG_BADGE##_GET flags.
+
+Impact:
+- Players can use HM moves as soon as they teach them to Pokemon
+- No need to progress through gym badge storyline to access field moves
+- Significantly reduces story gating and improves game flow
+- Maintains balance by still requiring Pokemon to know the specific move
