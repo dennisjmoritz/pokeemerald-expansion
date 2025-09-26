@@ -304,6 +304,9 @@
 
 #define FRONTIER_TRAINERS_COUNT         300
 
+#define TRAINER_RECORD_MIXING_FRIEND        FRONTIER_TRAINERS_COUNT
+#define TRAINER_RECORD_MIXING_APPRENTICE    400
+
 // special trainer IDs begin at 300, see constants/trainers.h
 
 #endif  // GUARD_CONSTANTS_BATTLE_FRONTIER_TRAINERS_H

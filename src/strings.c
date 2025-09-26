@@ -1098,7 +1098,7 @@ const u8 gText_Plus[] = _("{PLUS}");
 const u8 gText_Dash[] = _("-");
 const u8 gText_FromSpace[] = _("From ");
 const u8 gText_MixingRecords[] = _("Mixing records…");
-const u8 gText_RecordMixingComplete[] = _("Record mixing completed.\nThank you for waiting.");
+
 const u8 gText_YourName[] = _("YOUR NAME?");
 const u8 gText_BoxName[] = _("BOX NAME?");
 const u8 gText_PkmnsNickname[] = _("{STR_VAR_1}'s nickname?");

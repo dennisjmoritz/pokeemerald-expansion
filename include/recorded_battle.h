@@ -28,7 +28,6 @@ struct RecordedBattleSave
     u8 battleScene:1;
     u8 textSpeed:3;
     u64 AI_scripts;
-    u8 recordMixFriendName[PLAYER_NAME_LENGTH + 1];
     u8 recordMixFriendClass;
     u8 apprenticeId;
     u16 easyChatSpeech[EASY_CHAT_BATTLE_WORDS_COUNT];
@@ -84,7 +83,6 @@ void RecordedBattle_CheckMovesetChanges(u8 mode);
 u64 GetAiScriptsInRecordedBattle(void);
 void RecordedBattle_SetPlaybackFinished(void);
 bool8 RecordedBattle_CanStopPlayback(void);
-void GetRecordedBattleRecordMixFriendName(u8 *dst);
 u8 GetRecordedBattleRecordMixFriendClass(void);
 u8 GetRecordedBattleApprenticeId(void);
 u8 GetRecordedBattleRecordMixFriendLanguage(void);
