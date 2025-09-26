@@ -23,9 +23,7 @@
 static void InitLilycoveQuizLady(void);
 static void InitLilycoveFavorLady(void);
 static void InitLilycoveContestLady(void);
-static void ResetQuizLadyForRecordMix(void);
-static void ResetFavorLadyForRecordMix(void);
-static void ResetContestLadyForRecordMix(void);
+
 static u8 BufferQuizAuthorName(void);
 static bool8 IsQuizTrainerIdNotPlayer(void);
 static u8 GetPlayerNameLength(const u8 *);
@@ -77,21 +75,7 @@ void InitLilycoveLady(void)
     }
 }
 
-void ResetLilycoveLadyForRecordMix(void)
-{
-    switch (GetLilycoveLadyId())
-    {
-    case LILYCOVE_LADY_QUIZ:
-        ResetQuizLadyForRecordMix();
-        break;
-    case LILYCOVE_LADY_FAVOR:
-        ResetFavorLadyForRecordMix();
-        break;
-    case LILYCOVE_LADY_CONTEST:
-        ResetContestLadyForRecordMix();
-        break;
-    }
-}
+
 
 // Unused
 void InitLilycoveLadyRandomly(void)
@@ -149,12 +133,7 @@ static void InitLilycoveFavorLady(void)
     FavorLadyPickFavorAndBestItem();
 }
 
-static void ResetFavorLadyForRecordMix(void)
-{
-    sFavorLadyPtr = &gSaveBlock1Ptr->lilycoveLady.favor;
-    sFavorLadyPtr->id = LILYCOVE_LADY_FAVOR;
-    sFavorLadyPtr->state = LILYCOVE_LADY_STATE_READY;
-}
+
 
 u8 GetFavorLadyState(void)
 {
@@ -335,14 +314,7 @@ static void InitLilycoveQuizLady(void)
     QuizLadyPickQuestion();
 }
 
-static void ResetQuizLadyForRecordMix(void)
-{
-    sQuizLadyPtr = &gSaveBlock1Ptr->lilycoveLady.quiz;
-    sQuizLadyPtr->id = LILYCOVE_LADY_QUIZ;
-    sQuizLadyPtr->state = LILYCOVE_LADY_STATE_READY;
-    sQuizLadyPtr->waitingForChallenger = FALSE;
-    sQuizLadyPtr->playerAnswer = EC_EMPTY_WORD;
-}
+
 
 u8 GetQuizLadyState(void)
 {
@@ -574,26 +546,7 @@ void FieldCallback_QuizLadyEnableScriptContexts(void)
     ScriptContext_Enable();
 }
 
-void QuizLadyClearQuestionForRecordMix(const LilycoveLady *lilycoveLady)
-{
-    u8 i;
 
-    sQuizLadyPtr = &gSaveBlock1Ptr->lilycoveLady.quiz;
-    if (lilycoveLady->quiz.prevQuestionId < ARRAY_COUNT(sQuizLadyQuizQuestions)
-        && sQuizLadyPtr->id == LILYCOVE_LADY_QUIZ)
-    {
-        for (i = 0; i < 4; i++)
-        {
-            if (lilycoveLady->quiz.prevQuestionId != sQuizLadyPtr->questionId)
-                break;
-            sQuizLadyPtr->questionId = Random() % ARRAY_COUNT(sQuizLadyQuizQuestions);
-        }
-        if (lilycoveLady->quiz.prevQuestionId == sQuizLadyPtr->questionId)
-            sQuizLadyPtr->questionId = (sQuizLadyPtr->questionId + 1) % (int)ARRAY_COUNT(sQuizLadyQuizQuestions);
-
-        sQuizLadyPtr->prevQuestionId = lilycoveLady->quiz.prevQuestionId;
-    }
-}
 
 static void ResetContestLadyContestData(void)
 {
@@ -613,16 +566,7 @@ static void InitLilycoveContestLady(void)
     sContestLadyPtr->language = gGameLanguage;
 }
 
-static void ResetContestLadyForRecordMix(void)
-{
-    sContestLadyPtr = &gSaveBlock1Ptr->lilycoveLady.contest;
-    sContestLadyPtr->id = LILYCOVE_LADY_CONTEST;
-    sContestLadyPtr->givenPokeblock = FALSE;
 
-    if (sContestLadyPtr->numGoodPokeblocksGiven == LILYCOVE_LADY_GIFT_THRESHOLD
-     || sContestLadyPtr->numOtherPokeblocksGiven == LILYCOVE_LADY_GIFT_THRESHOLD)
-        ResetContestLadyContestData();
-}
 
 static void ContestLadySavePlayerNameIfHighSheen(u8 sheen)
 {

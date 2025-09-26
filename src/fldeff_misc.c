@@ -92,41 +92,7 @@ static const struct SpriteTemplate sSpriteTemplate_SandPillar =
 
 const struct SpritePalette gSpritePalette_SandPillar = {gTilesetPalettes_SecretBase[5], FLDEFF_PAL_TAG_SAND_PILLAR};
 
-static const u8 sRecordMixLights_Gfx[] = INCBIN_U8("graphics/field_effects/pics/record_mix_lights.4bpp");
-static const u16 sRecordMixLights_Pal[] = INCBIN_U16("graphics/field_effects/palettes/record_mix_lights.gbapal");
 
-static const struct SpriteFrameImage sPicTable_RecordMixLights[] =
-{
-    overworld_frame(sRecordMixLights_Gfx, 4, 1, 0),
-    overworld_frame(sRecordMixLights_Gfx, 4, 1, 1),
-    overworld_frame(sRecordMixLights_Gfx, 4, 1, 2),
-};
-
-static const struct SpritePalette sSpritePalette_RecordMixLights = {sRecordMixLights_Pal, 0x1000};
-
-static const union AnimCmd sAnim_RecordMixLights[] =
-{
-    ANIMCMD_FRAME(0, 30),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(2, 30),
-    ANIMCMD_JUMP(0),
-};
-
-static const union AnimCmd *const sAnimTable_RecordMixLights[] =
-{
-    sAnim_RecordMixLights,
-};
-
-static const struct SpriteTemplate sSpriteTemplate_RecordMixLights =
-{
-    .tileTag = TAG_NONE,
-    .paletteTag = 0x1000,
-    .oam = &gObjectEventBaseOam_32x8,
-    .anims = sAnimTable_RecordMixLights,
-    .images = sPicTable_RecordMixLights,
-    .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCallbackDummy,
-};
 
 // For accessing Pokémon storage PC or the Hall of Fame PC
 void ComputerScreenOpenEffect(u16 increment, u16 unused, u8 priority)
@@ -821,40 +787,4 @@ void DoWateringBerryTreeAnim(void)
     CreateTask(Task_WateringBerryTreeAnim, 80);
 }
 
-// The lights that blink on the counter when mixing records in the cable club
-u8 CreateRecordMixingLights(void)
-{
-    u8 spriteId;
 
-    LoadSpritePalette(&sSpritePalette_RecordMixLights);
-
-    spriteId = CreateSprite(&sSpriteTemplate_RecordMixLights, 0, 0, 82);
-
-    if (spriteId == MAX_SPRITES)
-    {
-        return MAX_SPRITES;
-    }
-    else
-    {
-        struct Sprite *sprite = &gSprites[spriteId];
-        GetMapCoordsFromSpritePos(16, 13, &sprite->x, &sprite->y);
-        sprite->coordOffsetEnabled = TRUE;
-        sprite->x += 16;
-        sprite->y += 2;
-    }
-    return spriteId;
-}
-
-void DestroyRecordMixingLights(void)
-{
-    int i;
-
-    for (i = 0; i < MAX_SPRITES; i++)
-    {
-        if (gSprites[i].template == &sSpriteTemplate_RecordMixLights)
-        {
-            FreeSpritePalette(&gSprites[i]);
-            DestroySprite(&gSprites[i]);
-        }
-    }
-}

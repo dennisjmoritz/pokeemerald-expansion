@@ -802,21 +802,6 @@ bool8 RecordedBattle_CanStopPlayback(void)
     return (sIsPlaybackFinished == FALSE);
 }
 
-void GetRecordedBattleRecordMixFriendName(u8 *dst)
-{
-    s32 i;
-
-    for (i = 0; i < PLAYER_NAME_LENGTH + 1; i++)
-        dst[i] = sRecordMixFriendName[i];
-    dst[PLAYER_NAME_LENGTH] = EOS;
-    ConvertInternationalString(dst, sRecordMixFriendLanguage);
-}
-
-u8 GetRecordedBattleRecordMixFriendClass(void)
-{
-    return sRecordMixFriendClass;
-}
-
 u8 GetRecordedBattleApprenticeId(void)
 {
     return sApprenticeId;

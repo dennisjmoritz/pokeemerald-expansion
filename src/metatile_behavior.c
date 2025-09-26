@@ -563,13 +563,7 @@ bool8 MetatileBehavior_IsSecretBasePC(u8 metatileBehavior)
         return FALSE;
 }
 
-bool8 MetatileBehavior_IsRecordMixingSecretBasePC(u8 metatileBehavior)
-{
-    if (metatileBehavior == MB_SECRET_BASE_REGISTER_PC)
-        return TRUE;
-    else
-        return FALSE;
-}
+
 
 // Used by the rock/grass floor spaces that the secret base trainer is not standing on
 bool8 MetatileBehavior_IsSecretBaseScenery1(u8 metatileBehavior)

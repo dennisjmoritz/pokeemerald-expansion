@@ -235,28 +235,7 @@ static void Task_ReturnToFieldWirelessLink(u8 taskId)
     }
 }
 
-void Task_ReturnToFieldRecordMixing(u8 taskId)
-{
-    struct Task *task = &gTasks[taskId];
 
-    switch (task->tState)
-    {
-    case 0:
-        SetLinkStandbyCallback();
-        task->tState++;
-        break;
-    case 1:
-        if (IsLinkTaskFinished())
-            task->tState++;
-        break;
-    case 2:
-        StartSendingKeysToLink();
-        ResetAllMultiplayerState();
-        UnlockPlayerFieldControls();
-        DestroyTask(taskId);
-        break;
-    }
-}
 
 void FieldCB_ReturnToFieldWirelessLink(void)
 {
