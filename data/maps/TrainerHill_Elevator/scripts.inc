@@ -1,10 +1,5 @@
 TrainerHill_Elevator_MapScripts::
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, TrainerHill_Elevator_OnFrame
-	.byte 0
-
-TrainerHill_Elevator_OnFrame:
-	map_script_2 VAR_TEMP_4, 0, TrainerHill_Elevator_EventScript_EnterElevator
-	.2byte 0
+	end
 
 TrainerHill_Elevator_EventScript_Attendant::
 	end

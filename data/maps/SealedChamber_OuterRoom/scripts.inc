@@ -1,20 +1,4 @@
 SealedChamber_OuterRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, SealedChamber_OuterRoom_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, SealedChamber_OuterRoom_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, SealedChamber_OuterRoom_OnLoad
-	.byte 0
-
-SealedChamber_OuterRoom_OnResume:
-	setdivewarp MAP_UNDERWATER_SEALED_CHAMBER, 12, 44
-	setescapewarp MAP_UNDERWATER_SEALED_CHAMBER, 12, 44
-	end
-
-SealedChamber_OuterRoom_OnTransition:
-	setflag FLAG_LANDMARK_SEALED_CHAMBER
-	end
-
-SealedChamber_OuterRoom_OnLoad:
-	call_if_unset FLAG_SYS_BRAILLE_DIG, SealedChamber_OuterRoom_EventScript_CloseInnerRoomEntrance
 	end
 
 SealedChamber_OuterRoom_EventScript_CloseInnerRoomEntrance::

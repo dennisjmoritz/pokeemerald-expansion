@@ -1,18 +1,5 @@
 BattleFrontier_BattlePyramidTop_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePyramidTop_OnResume
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePyramidTop_OnFrame
-	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattlePyramidTop_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePyramidTop_OnWarp
-	.byte 0
-
-BattleFrontier_BattlePyramidTop_OnTransition:
-	pyramid_updatelight 200, PYRAMID_LIGHT_SET_RADIUS
-	setvar VAR_TEMP_F, 1
 	end
-
-BattleFrontier_BattlePyramidTop_OnWarp:
-	map_script_2 VAR_TEMP_1, 0, BattleFrontier_BattlePyramidTop_EventScript_SetUpObjects
-	.2byte 0
 
 BattleFrontier_BattlePyramidTop_EventScript_SetUpObjects::
 	setvar VAR_TEMP_1, 1
@@ -27,22 +14,7 @@ BattleFrontier_BattlePyramidTop_OnResume:
 	goto_if_eq VAR_RESULT, FRONTIER_BRAIN_NOT_READY, BattleFrontier_BattlePyramidTop_EventScript_CheckChallengeStatus
 	call BattleFrontier_EventScript_SetBrainObjectGfx
 BattleFrontier_BattlePyramidTop_EventScript_CheckChallengeStatus::
-	copyvar VAR_TEMP_C, VAR_RESULT
-	frontier_getstatus
-	switch VAR_TEMP_CHALLENGE_STATUS
-	case 0, BattleFrontier_BattlePyramidTop_EventScript_ReadyChallenge
-	case CHALLENGE_STATUS_SAVING, BattleFrontier_BattlePyramid_EventScript_WarpToLobby
-	case CHALLENGE_STATUS_PAUSED, BattleFrontier_BattlePyramidTop_EventScript_ReadyChallenge
-	frontier_get FRONTIER_DATA_BATTLE_OUTCOME
-	goto_if_eq VAR_RESULT, B_OUTCOME_LOST, BattleFrontier_BattlePyramid_EventScript_WarpToLobbyLost
-	goto_if_eq VAR_RESULT, B_OUTCOME_DREW, BattleFrontier_BattlePyramid_EventScript_WarpToLobbyLost
-	goto_if_eq VAR_RESULT, B_OUTCOME_FORFEITED, BattleFrontier_BattlePyramid_EventScript_WarpToLobbyLost
 	end
-
-BattleFrontier_BattlePyramidTop_OnFrame:
-	map_script_2 VAR_TEMP_PLAYING_PYRAMID_MUSIC, 0, BattleFrontier_BattlePyramidTop_EventScript_PlayPyramidMusic
-	map_script_2 VAR_TEMP_F, 1, BattleFrontier_BattlePyramidTop_EventScript_ShowMapName
-	.2byte 0
 
 BattleFrontier_BattlePyramidTop_EventScript_PlayPyramidMusic::
 	playbgm MUS_B_PYRAMID_TOP, FALSE

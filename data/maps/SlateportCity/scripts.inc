@@ -1,13 +1,4 @@
 SlateportCity_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, SlateportCity_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_OnFrame
-	.byte 0
-
-SlateportCity_OnTransition:
-	setvar VAR_SLATEPORT_MUSEUM_1F_STATE, 0
-	call SlateportCity_EventScript_EnterSlateport
-	call_if_eq VAR_SLATEPORT_CITY_STATE, 1, SlateportCity_EventScript_MovePeopleForSternInterview
-	call_if_eq VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 1, SlateportCity_EventScript_SetReadyForScottScene
 	end
 
 SlateportCity_EventScript_EnterSlateport::
@@ -51,67 +42,7 @@ SlateportCity_OnFrame:
 	.2byte 0
 
 SlateportCity_EventScript_ScottScene::
-	lockall
-	addobject LOCALID_SLATEPORT_SCOTT
-	applymovement LOCALID_PLAYER, SlateportCity_Movement_PlayerFaceScott
-	applymovement LOCALID_SLATEPORT_SCOTT, SlateportCity_Movement_ScottApproachPlayer
-	waitmovement 0
-	msgbox SlateportCity_Text_YouDroveTeamAquaAway, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_SLATEPORT_SCOTT, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
-	delay 60
-	msgbox SlateportCity_Text_MaybeThisTrainer, MSGBOX_DEFAULT
-	applymovement LOCALID_SLATEPORT_SCOTT, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	msgbox SlateportCity_Text_LetsRegisterEachOther, MSGBOX_DEFAULT
-	closemessage
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox SlateportCity_Text_RegisteredScott, MSGBOX_DEFAULT
-	waitfanfare
-	closemessage
-	delay 30
-	setflag FLAG_ENABLE_SCOTT_MATCH_CALL
-	msgbox SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_SLATEPORT_SCOTT, SlateportCity_Movement_ScottExit
-	waitmovement 0
-	removeobject LOCALID_SLATEPORT_SCOTT
-	setobjectxyperm LOCALID_SLATEPORT_SCOTT, 10, 12
-	setobjectmovementtype LOCALID_SLATEPORT_SCOTT, MOVEMENT_TYPE_FACE_DOWN
-	clearflag FLAG_HIDE_MAP_NAME_POPUP
-	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 2
-	addvar VAR_SCOTT_STATE, 1
-	releaseall
 	end
-
-SlateportCity_Movement_PlayerFaceScott:
-	delay_16
-	delay_8
-	walk_in_place_faster_left
-	step_end
-
-SlateportCity_Movement_ScottApproachPlayer:
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	step_end
-
-SlateportCity_Movement_ScottExit:
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	step_end
 
 SlateportCity_EventScript_EnergyGuru::
 	lock
@@ -423,42 +354,7 @@ SlateportCity_EventScript_AquaGrunt8::
 	end
 
 SlateportCity_EventScript_AquaGrunt9::
-	lock
-	faceplayer
-	playse SE_PIN
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_Delay48
-	waitmovement 0
-	msgbox SlateportCity_Text_WhatDoYouWant, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, SlateportCity_Movement_DelayAquaGrunt
-	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_FacePlayer
-	waitmovement 0
-	msgbox SlateportCity_Text_IllReadSignForYou, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, SlateportCity_Movement_DelayAquaGrunt
-	waitmovement 0
-	msgbox SlateportCity_Text_SaysSomethingLikeSeaIsEndless, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_FacePlayer
-	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, SlateportCity_Movement_DelayAquaGrunt
-	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	release
 	end
-
-SlateportCity_Movement_DelayAquaGrunt:
-	delay_16
-	delay_16
-	step_end
 
 SlateportCity_EventScript_AquaGrunt10::
 	msgbox SlateportCity_Text_ShouldveBroughtMyGameBoy, MSGBOX_SIGN
@@ -543,153 +439,7 @@ SlateportCity_Pokemart_PowerTMs:
 
 @ Scene with Capt Sterns interview and Team Aqua announcing plans to steal Submarine
 SlateportCity_EventScript_CaptStern::
-	lockall
-	msgbox SlateportCity_Text_SternMoveAheadWithExploration, MSGBOX_DEFAULT
-	msgbox SlateportCity_Text_GabbyWonderfulThanksForInterview, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_SLATEPORT_GABBY, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	delay 10
-	applymovement LOCALID_SLATEPORT_TY, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	delay 25
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, SlateportCity_Movement_SternWatchGabbyAndTyExit
-	applymovement LOCALID_PLAYER, SlateportCity_Movement_PlayerFaceStern
-	applymovement LOCALID_SLATEPORT_GABBY, SlateportCity_Movement_GabbyExit
-	applymovement LOCALID_SLATEPORT_TY, SlateportCity_Movement_TyExit
-	waitmovement 0
-	removeobject LOCALID_SLATEPORT_GABBY
-	removeobject LOCALID_SLATEPORT_TY
-	msgbox SlateportCity_Text_SternWhewFirstInterview, MSGBOX_DEFAULT
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	msgbox SlateportCity_Text_OhPlayerWeMadeDiscovery, MSGBOX_DEFAULT
-	playbgm MUS_ENCOUNTER_AQUA, FALSE
-	msgbox SlateportCity_Text_AquaWillAssumeControlOfSubmarine, MSGBOX_DEFAULT
-	applymovement LOCALID_SLATEPORT_COOK, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_SLATEPORT_FAT_MAN, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_SLATEPORT_OLD_WOMAN, SlateportCity_Movement_OldWomanConcern
-	applymovement LOCALID_SLATEPORT_RICH_BOY, Common_Movement_QuestionMark
-	applymovement LOCALID_SLATEPORT_MAN_1, SlateportCity_Movement_ManConcern
-	waitmovement 0
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	msgbox SlateportCity_Text_SternWhatWasAllThat, MSGBOX_DEFAULT
-	playse SE_PIN
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, Common_Movement_Delay48
-	waitmovement 0
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	msgbox SlateportCity_Text_FromHarborTryingToTakeSub, MSGBOX_DEFAULT
-	msgbox SlateportCity_Text_PleaseComeWithMe, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, SlateportCity_Movement_SternEnterHarbor
-	applymovement LOCALID_PLAYER, SlateportCity_Movement_PlayerEnterHarbor
-	waitmovement 0
-	removeobject LOCALID_SLATEPORT_CAPT_STERN
-	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
-	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW
-	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
-	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE
-	setvar VAR_SLATEPORT_CITY_STATE, 2
-	warp MAP_SLATEPORT_CITY_HARBOR, 11, 14
-	waitstate
-	releaseall
 	end
-
-SlateportCity_Movement_OldWomanConcern:
-	delay_16
-	delay_16
-	emote_question_mark
-	walk_in_place_faster_right
-	delay_16
-	delay_16
-	walk_in_place_faster_left
-	step_end
-
-SlateportCity_Movement_ManConcern:
-	emote_question_mark
-	walk_in_place_faster_up
-	delay_16
-	walk_in_place_faster_down
-	delay_16
-	delay_16
-	walk_in_place_faster_left
-	step_end
-
-SlateportCity_Movement_GabbyExit:
-	delay_16
-	walk_left
-	walk_left
-	walk_down
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	step_end
-
-SlateportCity_Movement_TyExit:
-	walk_down
-	walk_left
-	walk_left
-	walk_left
-	walk_down
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	step_end
-
-SlateportCity_Movement_Unused:
-	walk_down
-	walk_in_place_faster_up
-	step_end
-
-SlateportCity_Movement_SternEnterHarbor:
-	walk_right
-	walk_up
-	walk_up
-	set_invisible
-	step_end
-
-SlateportCity_Movement_SternWatchGabbyAndTyExit:
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	walk_down
-	walk_left
-	step_end
-
-SlateportCity_Movement_PlayerEnterHarbor:
-	walk_in_place_faster_right
-	delay_16
-	delay_16
-	walk_right
-	walk_up
-	step_end
-
-SlateportCity_Movement_PlayerFaceStern:
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	walk_in_place_faster_down
-	step_end
 
 SlateportCity_EventScript_Ty::
 	msgbox SlateportCity_Text_BigSmileForCamera, MSGBOX_SIGN

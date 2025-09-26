@@ -1,11 +1,4 @@
 NavelRock_Top_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, NavelRock_Top_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, NavelRock_Top_OnResume
-	.byte 0
-
-NavelRock_Top_OnTransition:
-	call_if_set FLAG_CAUGHT_HO_OH, NavelRock_Top_EventScript_HideHoOh
-	call_if_unset FLAG_CAUGHT_HO_OH, NavelRock_Top_EventScript_TryShowHoOh
 	end
 
 NavelRock_Top_EventScript_HideHoOh::
@@ -31,42 +24,6 @@ NavelRock_Top_EventScript_TryRemoveHoOh::
 	return
 
 NavelRock_Top_EventScript_HoOh::
-	lockall
-	setvar VAR_TEMP_1, 1
-	special SpawnCameraObject
-	setvar VAR_0x8004, 3  @ num loops
-	setvar VAR_0x8005, 35 @ delay
-	special LoopWingFlapSE
-	applymovement LOCALID_NAVEL_ROCK_HO_OH, NavelRock_Top_Movement_HoOhAppear
-	applymovement LOCALID_CAMERA, NavelRock_Top_Movement_CameraPanUp
-	waitmovement 0
-	delay 50
-	setweather WEATHER_NONE
-	doweather
-	waitse
-	playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER
-	delay 30
-	waitmoncry
-	delay 60
-	setvar VAR_0x8004, 3  @ num loops
-	setvar VAR_0x8005, 35 @ delay
-	special LoopWingFlapSE
-	applymovement LOCALID_CAMERA, NavelRock_Top_Movement_CameraPanDown
-	applymovement LOCALID_NAVEL_ROCK_HO_OH, NavelRock_Top_Movement_HoOhApproach
-	waitmovement 0
-	special RemoveCameraObject
-	seteventmon SPECIES_HO_OH, 70
-	setflag FLAG_SYS_CTRL_OBJ_DELETE
-	special BattleSetup_StartLegendaryBattle
-	waitstate
-	clearflag FLAG_SYS_CTRL_OBJ_DELETE
-	setvar VAR_LAST_TALKED, LOCALID_NAVEL_ROCK_HO_OH
-	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, NavelRock_Top_EventScript_DefeatedHoOh
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, NavelRock_Top_EventScript_RanFromHoOh
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, NavelRock_Top_EventScript_RanFromHoOh
-	setflag FLAG_CAUGHT_HO_OH
-	releaseall
 	end
 
 NavelRock_Top_EventScript_DefeatedHoOh::

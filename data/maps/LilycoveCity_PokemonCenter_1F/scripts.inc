@@ -1,14 +1,6 @@
 LilycoveCity_PokemonCenter_1F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
-	.byte 0
-
-LilycoveCity_PokemonCenter_1F_OnTransition:
-	setrespawn HEAL_LOCATION_LILYCOVE_CITY
-	goto LilycoveCity_PokemonCenter_1F_EventScript_SetLilycoveLadyGfx
 	end
 
-@ SetLilycoveLadyGfx returns TRUE if its the Contest Lady
 LilycoveCity_PokemonCenter_1F_EventScript_SetLilycoveLadyGfx::
 	special SetLilycoveLadyGfx
 	goto_if_eq VAR_RESULT, FALSE, LilycoveCity_PokemonCenter_1F_EventScript_HideContestLadyMon

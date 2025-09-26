@@ -1,10 +1,4 @@
 NewMauville_Entrance_MapScripts::
-	map_script MAP_SCRIPT_ON_LOAD, NewMauville_Entrance_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, NewMauville_Entrance_OnTransition
-	.byte 0
-
-NewMauville_Entrance_OnLoad:
-	call_if_eq VAR_NEW_MAUVILLE_STATE, 0, NewMauville_Entrance_EventScript_CloseDoor
 	end
 
 NewMauville_Entrance_EventScript_CloseDoor::

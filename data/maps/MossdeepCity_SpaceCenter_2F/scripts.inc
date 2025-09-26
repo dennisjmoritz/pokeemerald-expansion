@@ -1,11 +1,4 @@
 MossdeepCity_SpaceCenter_2F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_SpaceCenter_2F_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, MossdeepCity_SpaceCenter_2F_OnFrame
-	.byte 0
-
-MossdeepCity_SpaceCenter_2F_OnTransition:
-	call_if_eq VAR_MOSSDEEP_CITY_STATE, 2, MossdeepCity_SpaceCenter_2F_EventScript_MoveCivilians
-	call_if_eq VAR_MOSSDEEP_SPACE_CENTER_STATE, 2, MossdeepCity_SpaceCenter_2F_EventScript_MoveDefeatedGrunts
 	end
 
 MossdeepCity_SpaceCenter_2F_EventScript_MoveCivilians::
@@ -254,57 +247,6 @@ MossdeepCity_SpaceCenter_2F_EventScript_DoStevenMultiBattle::
 	waitstate
 
 MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
-	msgbox MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided, MSGBOX_DEFAULT
-	closemessage
-	delay 20
-	applymovement LOCALID_SPACE_CENTER_MAXIE, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_SPACE_CENTER_TABITHA, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	delay 60
-	applymovement LOCALID_SPACE_CENTER_MAXIE, Common_Movement_WalkInPlaceFasterUp
-	applymovement LOCALID_SPACE_CENTER_TABITHA, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	delay 20
-	msgbox MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp, MSGBOX_DEFAULT
-	closemessage
-	setvar VAR_MOSSDEEP_CITY_STATE, 3
-	fadedefaultbgm
-	fadescreen FADE_TO_BLACK
-	setvar VAR_MOSSDEEP_SPACE_CENTER_STATE, 3
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
-	setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
-	removeobject LOCALID_SPACE_CENTER_GRUNT_6
-	removeobject LOCALID_SPACE_CENTER_GRUNT_7
-	removeobject LOCALID_SPACE_CENTER_GRUNT_5
-	removeobject LOCALID_SPACE_CENTER_TABITHA
-	removeobject LOCALID_SPACE_CENTER_MAXIE
-	setobjectxy LOCALID_SPACE_CENTER_2F_SCIENTIST, 5, 6
-	turnobject LOCALID_SPACE_CENTER_2F_SCIENTIST, DIR_SOUTH
-	setobjectxy LOCALID_SPACE_CENTER_2F_GENTLEMAN, 11, 8
-	turnobject LOCALID_SPACE_CENTER_2F_GENTLEMAN, DIR_NORTH
-	setobjectxy LOCALID_SPACE_CENTER_2F_RICH_BOY, 6, 2
-	turnobject LOCALID_SPACE_CENTER_2F_RICH_BOY, DIR_NORTH
-	call MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayer
-	fadescreen FADE_FROM_BLACK
-	msgbox MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome, MSGBOX_DEFAULT
-	closemessage
-	fadescreen FADE_TO_BLACK
-	setflag FLAG_DEFEATED_MAGMA_SPACE_CENTER
-	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
-	removeobject LOCALID_SPACE_CENTER_2F_STEVEN
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
-	clearflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
-	setvar VAR_STEVENS_HOUSE_STATE, 1
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
-	removeobject LOCALID_SPACE_CENTER_2F_SCIENTIST
-	setobjectxyperm LOCALID_SPACE_CENTER_2F_SCIENTIST, 5, 6
-	setobjectmovementtype LOCALID_SPACE_CENTER_2F_SCIENTIST, MOVEMENT_TYPE_WANDER_AROUND
-	addobject LOCALID_SPACE_CENTER_2F_SCIENTIST
-	fadescreen FADE_FROM_BLACK
-#ifdef BUGFIX
-	releaseall
-#endif
 	end
 
 MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayer::

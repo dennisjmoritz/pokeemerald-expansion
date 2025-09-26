@@ -1,31 +1,4 @@
 Route110_TrickHouseEntrance_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHouseEntrance_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route110_TrickHouseEntrance_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route110_TrickHouseEntrance_OnWarp
-	.byte 0
-
-	@ State descriptions for VAR_TRICK_HOUSE_ENTRANCE_STATE
-	@ 0: Trick Master is hiding
-	@ 1: Trick Master has left at start of challenge
-	@ 2: Trick Master ready to give normal reward from previous challenge (if bag was full)
-	@ 3: Trick Master still making next puzzle
-	@ 4: Finished final puzzle
-	@ 5: Completed previous challenge
-	@ 6: 'Trick Master' mechadoll ready to give Tent reward from final challenge (if bag was full)
-
-Route110_TrickHouseEntrance_OnTransition:
-	setflag FLAG_LANDMARK_TRICK_HOUSE
-	goto_if_eq VAR_TRICK_HOUSE_ENTER_FROM_CORRIDOR, 1, Route110_TrickHouseEntrance_EventScript_EnterFromCorridor
-	goto_if_eq VAR_TRICK_HOUSE_PRIZE_PICKUP, 1, Route110_TrickHouseEntrance_EventScript_SetReadyToGiveReward
-	goto_if_eq VAR_TRICK_HOUSE_FOUND_TRICK_MASTER, 1, Route110_TrickHouseEntrance_EventScript_MoveTrickMasterToDoor
-	call_if_eq VAR_TRICK_HOUSE_ENTRANCE_STATE, 5, Route110_TrickHouseEntrance_EventScript_CheckReadyForNextPuzzle
-	call_if_eq VAR_TRICK_HOUSE_ENTRANCE_STATE, 3, Route110_TrickHouseEntrance_EventScript_CheckReadyForNextPuzzle
-	call_if_eq VAR_TRICK_HOUSE_ENTRANCE_STATE, 0, Route110_TrickHouseEntrance_EventScript_CheckReadyForNextPuzzle
-	switch VAR_TRICK_HOUSE_ENTRANCE_STATE
-	case 0, Route110_TrickHouseEntrance_EventScript_ReadyBeingWatchedTrigger
-	case 1, Route110_TrickHouseEntrance_EventScript_SetNotBeingWatched1
-	case 3, Route110_TrickHouseEntrance_EventScript_SetNotBeingWatched2
-	case 4, Route110_TrickHouseEntrance_EventScript_SetNotBeingWatched3
 	end
 
 Route110_TrickHouseEntrance_EventScript_SetReadyToGiveReward::
@@ -109,19 +82,7 @@ Route110_TrickHouseEntrance_EventScript_SetNotBeingWatched2::
 	end
 
 Route110_TrickHouseEntrance_EventScript_SetNotBeingWatched3::
-	setvar VAR_TRICK_HOUSE_BEING_WATCHED_STATE, 1
 	end
-
-Route110_TrickHouseEntrance_OnWarp:
-	map_script_2 VAR_TRICK_HOUSE_FOUND_TRICK_MASTER, 1, Route110_TrickHouseEntrance_EventScript_TrickMasterFound
-	map_script_2 VAR_TRICK_HOUSE_ENTRANCE_STATE, 0, Route110_TrickHouseEntrance_EventScript_SetTrickMasterHidingSpot
-	map_script_2 VAR_TRICK_HOUSE_ENTRANCE_STATE, 1, Route110_TrickHouseEntrance_EventScript_RemoveTrickMaster
-	map_script_2 VAR_TRICK_HOUSE_ENTRANCE_STATE, 2, Route110_TrickHouseEntrance_EventScript_SetTrickMasterFacingDoor
-	map_script_2 VAR_TRICK_HOUSE_ENTRANCE_STATE, 3, Route110_TrickHouseEntrance_EventScript_SetTrickMasterFacingDoor
-	map_script_2 VAR_TRICK_HOUSE_ENTRANCE_STATE, 4, Route110_TrickHouseEntrance_EventScript_RemoveTrickMaster
-	map_script_2 VAR_TRICK_HOUSE_ENTRANCE_STATE, 5, Route110_TrickHouseEntrance_EventScript_RemoveTrickMaster
-	map_script_2 VAR_TRICK_HOUSE_ENTRANCE_STATE, 6, Route110_TrickHouseEntrance_EventScript_SetTrickMasterInFrontOfDoor
-	.2byte 0
 
 Route110_TrickHouseEntrance_EventScript_TrickMasterFound::
 	addobject LOCALID_TRICK_MASTER

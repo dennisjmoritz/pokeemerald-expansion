@@ -1,12 +1,4 @@
 JaggedPass_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, JaggedPass_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, JaggedPass_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, JaggedPass_OnLoad
-	.byte 0
-
-JaggedPass_OnResume:
-	setstepcallback STEP_CB_ASH
-	call_if_eq VAR_JAGGED_PASS_STATE, 0, JaggedPass_EventScript_CheckHasMagmaEmblem
 	end
 
 JaggedPass_EventScript_CheckHasMagmaEmblem::

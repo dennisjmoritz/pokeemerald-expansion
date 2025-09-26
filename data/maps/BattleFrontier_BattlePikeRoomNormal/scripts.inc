@@ -1,13 +1,5 @@
 BattleFrontier_BattlePikeRoomNormal_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePikeRoom_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattlePikeRoom_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePikeRoomNormal_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePikeRoom_OnWarp
-	.byte 0
-
-BattleFrontier_BattlePikeRoomNormal_OnFrame:
-	map_script_2 VAR_TEMP_0, 0, BattleFrontier_BattlePikeRoomNormal_EventScript_EnterRoom
-	.2byte 0
+	end
 
 BattleFrontier_BattlePikeRoomNormal_EventScript_EnterRoom::
 	setvar VAR_TEMP_0, 1
@@ -100,41 +92,8 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_EnterBrainRoom::
 	case 2, BattleFrontier_BattlePikeRoomNormal_EventScript_PreQueenHealTwoMons
 
 BattleFrontier_BattlePikeRoomNormal_EventScript_LucyEnter::
-	msgbox BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster, MSGBOX_DEFAULT
-	closemessage
-	special SpawnCameraObject
-	applymovement LOCALID_CAMERA, BattleFrontier_BattlePikeRoomNormal_Movement_CameraPanUp
-	applymovement LOCALID_PIKE_ROOM_NPC_2, BattleFrontier_BattlePikeRoomNormal_Movement_HealNPCExitForLucy
-	waitmovement 0
-	playse SE_PIKE_CURTAIN_CLOSE
-	call BattleFrontier_BattlePikeRoomNormal_EventScript_SetCurtainTilesLittleClosed
-	delay 4
-	call BattleFrontier_BattlePikeRoomNormal_EventScript_SetCurtainTilesMostlyClosed
-	delay 4
-	call BattleFrontier_BattlePikeRoomNormal_EventScript_SetCurtainTilesClosed
-	delay 4
-	waitse
-	delay 60
-	playse SE_PIKE_CURTAIN_OPEN
-	delay 65
-	call BattleFrontier_BattlePikeRoomNormal_EventScript_SetCurtainTilesMostlyClosed
-	showobjectat LOCALID_PIKE_ROOM_NPC_1, MAP_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_NORMAL
-	delay 4
-	call BattleFrontier_BattlePikeRoomNormal_EventScript_SetCurtainTilesLittleClosed
-	delay 4
-	call BattleFrontier_BattlePikeRoomNormal_EventScript_SetCurtainTilesOpen
-	waitse
-	applymovement LOCALID_PIKE_ROOM_NPC_1, BattleFrontier_BattlePikeRoomNormal_Movement_LucyEnter
-	waitmovement 0
-	pike_getbrainstatus
-	switch VAR_RESULT
-	case FRONTIER_BRAIN_GOLD, BattleFrontier_BattlePikeRoomNormal_EventScript_IntroLucyGold
-	case FRONTIER_BRAIN_STREAK, BattleFrontier_BattlePikeRoomNormal_EventScript_BattleLucySilver
-	case FRONTIER_BRAIN_STREAK_LONG, BattleFrontier_BattlePikeRoomNormal_EventScript_BattleLucyGold
-	frontier_get FRONTIER_DATA_HEARD_BRAIN_SPEECH
-	goto_if_ne VAR_RESULT, FALSE, BattleFrontier_BattlePikeRoomNormal_EventScript_BattleLucySilver
-	msgbox BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen, MSGBOX_DEFAULT
-	frontier_set FRONTIER_DATA_HEARD_BRAIN_SPEECH
+	end
+
 BattleFrontier_BattlePikeRoomNormal_EventScript_BattleLucySilver::
 	msgbox BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck, MSGBOX_DEFAULT
 	call BattleFrontier_BattlePikeRoomNormal_EventScript_DoPikeQueenBattle
@@ -230,35 +189,6 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_EnterFullHealRoom::
 	end
 
 BattleFrontier_BattlePikeRoomNormal_EventScript_EnterDoubleBattleRoom::
-	lockall
-	delay 16
-	applymovement LOCALID_PIKE_ROOM_NPC_1, BattleFrontier_BattlePikeRoomNormal_Movement_Trainer1WalkRight
-	applymovement LOCALID_PIKE_ROOM_NPC_2, BattleFrontier_BattlePikeRoomNormal_Movement_Trainer2WalkLeft
-	waitmovement 0
-	applymovement LOCALID_PIKE_ROOM_NPC_1, BattleFrontier_BattlePikeRoomNormal_Movement_DoubleTrainersWalkDown
-	applymovement LOCALID_PIKE_ROOM_NPC_2, BattleFrontier_BattlePikeRoomNormal_Movement_DoubleTrainersWalkDown
-	waitmovement 0
-	applymovement LOCALID_PIKE_ROOM_NPC_1, BattleFrontier_BattlePikeRoomNormal_Movement_Trainer1FacePlayer
-	applymovement LOCALID_PIKE_ROOM_NPC_2, BattleFrontier_BattlePikeRoomNormal_Movement_Trainer2FacePlayer
-	waitmovement 0
-	applymovement LOCALID_PLAYER, BattleFrontier_BattlePikeRoomNormal_Movement_PlayerFaceTrainer1
-	waitmovement 0
-	pike_gettrainerintro 0
-	msgbox gStringVar4, MSGBOX_DEFAULT
-	closemessage
-	delay 16
-	applymovement LOCALID_PLAYER, BattleFrontier_BattlePikeRoomNormal_Movement_PlayerFaceTrainer2
-	waitmovement 0
-	pike_gettrainerintro 1
-	msgbox gStringVar4, MSGBOX_DEFAULT
-	closemessage
-	setvar VAR_0x8004, SPECIAL_BATTLE_PIKE_DOUBLE
-	setvar VAR_0x8005, 0
-	special DoSpecialTrainerBattle
-	waitstate
-	switch VAR_RESULT
-	case 1, BattleFrontier_BattlePikeRoomNormal_EventScript_WonDoubleBattle
-	goto BattleFrontier_BattlePikeRoomNormal_EventScript_WarpToLobbyLost
 	end
 
 BattleFrontier_BattlePikeRoomNormal_EventScript_WonDoubleBattle::

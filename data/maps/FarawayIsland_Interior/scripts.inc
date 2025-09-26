@@ -1,12 +1,4 @@
 FarawayIsland_Interior_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, FarawayIsland_Interior_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, FarawayIsland_Interior_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, FarawayIsland_Interior_OnFrame
-	map_script MAP_SCRIPT_ON_RETURN_TO_FIELD, FarawayIsland_Interior_OnReturnToField
-	.byte 0
-
-FarawayIsland_Interior_OnReturnToField:
-	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, FarawayIsland_Interior_EventScript_TrySetMewAboveGrass
 	end
 
 FarawayIsland_Interior_EventScript_TrySetMewAboveGrass::

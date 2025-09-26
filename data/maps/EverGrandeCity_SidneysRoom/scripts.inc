@@ -1,18 +1,4 @@
 EverGrandeCity_SidneysRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_SidneysRoom_OnLoad
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_SidneysRoom_OnWarp
-	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_SidneysRoom_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_SidneysRoom_OnFrame
-	.byte 0
-
-EverGrandeCity_SidneysRoom_OnTransition:
-	setflag FLAG_MET_SCOTT_IN_EVERGRANDE
-	setflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
-	end
-
-EverGrandeCity_SidneysRoom_OnLoad:
-	call_if_set FLAG_DEFEATED_ELITE_4_SIDNEY, EverGrandeCity_SidneysRoom_EventScript_ResetAdvanceToNextRoom
-	call_if_eq VAR_ELITE_4_STATE, 1, EverGrandeCity_SidneysRoom_EventScript_CloseDoor
 	end
 
 EverGrandeCity_SidneysRoom_EventScript_ResetAdvanceToNextRoom::

@@ -1,27 +1,4 @@
 TrainerHill_Entrance_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, TrainerHill_Entrance_OnResume
-	map_script MAP_SCRIPT_ON_RETURN_TO_FIELD, TrainerHill_Entrance_OnReturn
-	map_script MAP_SCRIPT_ON_TRANSITION, TrainerHill_Entrance_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, TrainerHill_Entrance_OnLoad
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, TrainerHill_Entrance_OnFrame
-	.byte 0
-
-TrainerHill_Entrance_OnTransition:
-	setflag FLAG_LANDMARK_TRAINER_HILL
-	getplayerxy VAR_TEMP_D, VAR_RESULT
-	end
-
-@ Unused
-TrainerHill_Entrance_OnWarp:
-	end
-
-TrainerHill_Entrance_OnResume:
-	trainerhill_resumetimer
-	setvar VAR_TEMP_0, 0
-	trainerhill_getusingereader
-	goto_if_eq VAR_RESULT, FALSE, TrainerHill_Entrance_EventScript_TryFaceAttendant  @ VAR_RESULT always FALSE here
-	setobjectxy LOCALID_PLAYER, 9, 6
-	applymovement LOCALID_PLAYER, TrainerHill_Entrance_Movement_PlayerFaceAttendant
 	end
 
 TrainerHill_Entrance_EventScript_TryFaceAttendant::
@@ -45,15 +22,7 @@ TrainerHill_Entrance_OnLoad:
 	end
 
 TrainerHill_Entrance_EventScript_OpenCounterDoor::
-	setmetatile 17, 10, METATILE_TrainerHill_GreenFloorTile, FALSE
-	return
-
-TrainerHill_Entrance_OnFrame:
-	map_script_2 VAR_TEMP_0, 0, TrainerHill_Entrance_EventScript_ExitChallenge
-	map_script_2 VAR_TEMP_D, 17, TrainerHill_Entrance_EventScript_ExitElevator
-	map_script_2 VAR_TEMP_5, 1, TrainerHill_Entrance_EventScript_EntryTrigger
-	map_script_2 VAR_TEMP_1, 1, TrainerHill_EventScript_WarpToEntranceCounter
-	.2byte 0
+	end
 
 TrainerHill_Entrance_EventScript_ExitElevator::
 	lockall

@@ -1,12 +1,4 @@
 Underwater_SeafloorCavern_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, Underwater_SeafloorCavern_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, Underwater_SeafloorCavern_OnTransition
-	map_script MAP_SCRIPT_ON_LOAD, Underwater_SeafloorCavern_OnLoad
-	.byte 0
-
-Underwater_SeafloorCavern_OnTransition:
-	setflag FLAG_LANDMARK_SEAFLOOR_CAVERN
-	goto_if_set FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, Underwater_SeafloorCavern_EventScript_HideSubmarine
 	end
 
 Underwater_SeafloorCavern_EventScript_HideSubmarine::

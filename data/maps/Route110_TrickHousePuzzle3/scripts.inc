@@ -1,21 +1,4 @@
 Route110_TrickHousePuzzle3_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, Route110_TrickHousePuzzle3_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle3_OnTransition
-	.byte 0
-
-Route110_TrickHousePuzzle3_OnResume:
-	call Route110_TrickHousePuzzle3_EventScript_UpdateButtonMetatiles
-	call_if_eq VAR_TEMP_9, 0, Route110_TrickHousePuzzle3_EventScript_SetDoorsState0
-	call_if_eq VAR_TEMP_9, 1, Route110_TrickHousePuzzle3_EventScript_SetDoorsState1
-	end
-
-Route110_TrickHousePuzzle3_OnTransition:
-	setvar VAR_TEMP_1, 0
-	setvar VAR_TEMP_2, 0
-	setvar VAR_TEMP_3, 0
-	setvar VAR_TEMP_4, 0
-	setvar VAR_TEMP_8, 0
-	setvar VAR_TEMP_9, 0
 	end
 
 Route110_TrickHousePuzzle3_EventScript_UpdateButtonMetatiles::

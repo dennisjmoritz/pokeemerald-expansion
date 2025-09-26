@@ -1,12 +1,5 @@
 EverGrandeCity_PhoebesRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_PhoebesRoom_OnLoad
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_PhoebesRoom_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_PhoebesRoom_OnFrame
-	.byte 0
-
-EverGrandeCity_PhoebesRoom_OnWarp:
-	map_script_2 VAR_TEMP_1, 0, EverGrandeCity_PhoebesRoom_EventScript_PlayerTurnNorth
-	.2byte 0
+	end
 
 EverGrandeCity_PhoebesRoom_EventScript_PlayerTurnNorth::
 	turnobject LOCALID_PLAYER, DIR_NORTH

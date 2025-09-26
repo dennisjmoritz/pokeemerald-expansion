@@ -1,15 +1,4 @@
 AbandonedShip_Corridors_B1F_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, AbandonedShip_Corridors_B1F_OnResume
-	map_script MAP_SCRIPT_ON_LOAD, AbandonedShip_Corridors_B1F_OnLoad
-	.byte 0
-
-AbandonedShip_Corridors_B1F_OnResume:
-	setdivewarp MAP_ABANDONED_SHIP_UNDERWATER1, 5, 4
-	end
-
-AbandonedShip_Corridors_B1F_OnLoad:
-	call_if_unset FLAG_USED_STORAGE_KEY, AbandonedShip_Corridors_B1F_EventScript_LockStorageRoom
-	call_if_set FLAG_USED_STORAGE_KEY, AbandonedShip_Corridors_B1F_EventScript_UnlockStorageRoom
 	end
 
 AbandonedShip_Corridors_B1F_EventScript_LockStorageRoom::

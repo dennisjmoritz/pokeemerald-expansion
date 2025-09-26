@@ -1,11 +1,4 @@
 Route112_CableCarStation_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route112_CableCarStation_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route112_CableCarStation_OnFrame
-	.byte 0
-
-Route112_CableCarStation_OnTransition:
-	setescapewarp MAP_ROUTE112, 28, 28
-	call_if_eq VAR_CABLE_CAR_STATION_STATE, 2, Route112_CableCarStation_EventScript_MoveAttendantAside
 	end
 
 Route112_CableCarStation_EventScript_MoveAttendantAside::
