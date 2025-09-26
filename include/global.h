@@ -801,19 +801,7 @@ struct LinkBattleRecords
     //u8 padding;
 };
 
-struct RecordMixingGiftData
-{
-    u8 unk0;
-    u8 quantity;
-    u16 itemId;
-    u8 filler4[8];
-};
 
-struct RecordMixingGift
-{
-    int checksum;
-    struct RecordMixingGiftData data;
-};
 
 struct ContestWinner
 {
@@ -1154,7 +1142,6 @@ struct SaveBlock1
 #if FREE_MYSTERY_EVENT_BUFFERS == FALSE
     /*0x3???*/ struct RamScript ramScript;
 #endif //FREE_MYSTERY_EVENT_BUFFERS
-    /*0x3???*/ struct RecordMixingGift recordMixingGift;
     /*0x3???*/ LilycoveLady lilycoveLady;
     /*0x3???*/ struct TrainerNameRecord trainerNameRecords[20];
 #if FREE_UNION_ROOM_CHAT == FALSE

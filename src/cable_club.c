@@ -614,13 +614,7 @@ void TryTradeLinkup(void)
     CreateLinkupTask(2, 2);
 }
 
-void TryRecordMixLinkup(void)
-{
-    gSpecialVar_Result = LINKUP_ONGOING;
-    gLinkType = LINKTYPE_RECORD_MIX_BEFORE;
-    gBattleTypeFlags = 0;
-    CreateLinkupTask(2, 4);
-}
+
 
 void ValidateMixingGameLanguage(void)
 {
@@ -745,9 +739,6 @@ u8 CreateTask_ReestablishCableClubLink(void)
         break;
     case USING_TRADE_CENTER:
         gLinkType = LINKTYPE_TRADE;
-        break;
-    case USING_RECORD_CORNER:
-        gLinkType = LINKTYPE_RECORD_MIX_AFTER;
         break;
     }
 
