@@ -1,0 +1,11 @@
+mapscripts PalletTown_PlayersHouse_1F_MapScripts {
+}
+
+script PalletTown_PlayersHouse_1F_EventScript_Mom {
+    end
+}
+
+script PalletTown_PlayersHouse_1F_EventScript_TV {
+    end
+}
+

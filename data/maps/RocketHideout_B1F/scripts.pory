@@ -1,0 +1,23 @@
+mapscripts RocketHideout_B1F_MapScripts {
+}
+
+script RocketHideout_B1F_EventScript_Grunt1 {
+    end
+}
+
+script RocketHideout_B1F_EventScript_Grunt2 {
+    end
+}
+
+script RocketHideout_B1F_EventScript_Grunt3 {
+    end
+}
+
+script RocketHideout_B1F_EventScript_Grunt4 {
+    end
+}
+
+script RocketHideout_B1F_EventScript_Grunt5 {
+    end
+}
+

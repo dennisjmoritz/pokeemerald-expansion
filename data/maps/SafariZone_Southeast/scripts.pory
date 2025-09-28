@@ -1,0 +1,19 @@
+mapscripts SafariZone_Southeast_MapScripts {
+}
+
+script SafariZone_Southeast_EventScript_ExpansionZoneAttendant {
+    end
+}
+
+script SafariZone_Southeast_EventScript_FatMan {
+    end
+}
+
+script SafariZone_Southeast_EventScript_LittleGirl {
+    end
+}
+
+script SafariZone_Southeast_EventScript_RichBoy {
+    end
+}
+

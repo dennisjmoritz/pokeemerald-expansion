@@ -1,0 +1,33 @@
+mapscripts RustboroCity_DevonCorp_1F_MapScripts {
+}
+
+script RustboroCity_DevonCorp_1F_EventScript_Employee {
+    end
+}
+
+script RustboroCity_DevonCorp_1F_EventScript_Greeter {
+    end
+}
+
+script RustboroCity_DevonCorp_1F_EventScript_ProductsDisplay {
+    msgbox(RustboroCity_DevonCorp_1F_Text_ProductDisplay, MSGBOX_SIGN)
+    end
+}
+
+script RustboroCity_DevonCorp_1F_EventScript_RocksMetalDisplay {
+    msgbox(RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay, MSGBOX_SIGN)
+    end
+}
+
+script RustboroCity_DevonCorp_1F_EventScript_StairGuard {
+    end
+}
+
+
+text RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay {
+    format("Samples of rocks and metal are displayed in the glass case.\p There's a panel with some writing on it…\p “DEVON CORPORATION got its start as a producer of stones from quarries.\p “The company also produced iron from filings in the sand.\p “From that humble start as a producer of raw materials, DEVON developed.\p “DEVON is now a manufacturer of a wide range of industrial products.”")
+}
+
+text RustboroCity_DevonCorp_1F_Text_ProductDisplay {
+    format("Prototypes and test products fill the glass display case.\p There's a panel with a description…\p “In addition to industrial products, DEVON now markets sundries and\l pharmaceuticals for better lifestyles.\p “Recently, DEVON has begun marketing tools for POKéMON TRAINERS, including\l POKé BALLS and POKéNAV systems.”")
+}

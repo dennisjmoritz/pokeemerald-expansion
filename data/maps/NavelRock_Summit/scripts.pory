@@ -1,0 +1,7 @@
+mapscripts NavelRock_Summit_MapScripts {
+}
+
+script NavelRock_Summit_EventScript_HoOh {
+    end
+}
+

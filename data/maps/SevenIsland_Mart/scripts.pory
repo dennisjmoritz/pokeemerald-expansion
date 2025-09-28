@@ -1,0 +1,19 @@
+mapscripts SevenIsland_Mart_MapScripts {
+}
+
+script SevenIsland_Mart_EventScript_Clerk {
+    end
+}
+
+script SevenIsland_Mart_EventScript_Fisher {
+    end
+}
+
+script SevenIsland_Mart_EventScript_Hiker {
+    end
+}
+
+script SevenIsland_Mart_EventScript_Lass {
+    end
+}
+

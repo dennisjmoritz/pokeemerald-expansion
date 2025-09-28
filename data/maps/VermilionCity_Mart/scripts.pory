@@ -1,0 +1,15 @@
+mapscripts VermilionCity_Mart_MapScripts {
+}
+
+script VermilionCity_Mart_EventScript_BaldingMan {
+    end
+}
+
+script VermilionCity_Mart_EventScript_Clerk {
+    end
+}
+
+script VermilionCity_Mart_EventScript_CooltrainerF {
+    end
+}
+

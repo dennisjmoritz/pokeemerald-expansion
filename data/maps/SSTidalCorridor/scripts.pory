@@ -1,0 +1,71 @@
+mapscripts SSTidalCorridor_MapScripts {
+}
+
+script SSTidalCorridor_EventScript_Briney {
+    end
+}
+
+script SSTidalCorridor_EventScript_Cabin1Sign {
+    msgbox(SSTidalCorridor_Text_Cabin1, MSGBOX_SIGN)
+    end
+}
+
+script SSTidalCorridor_EventScript_Cabin2Sign {
+    msgbox(SSTidalCorridor_Text_Cabin2, MSGBOX_SIGN)
+    end
+}
+
+script SSTidalCorridor_EventScript_Cabin3Sign {
+    msgbox(SSTidalCorridor_Text_Cabin3, MSGBOX_SIGN)
+    end
+}
+
+script SSTidalCorridor_EventScript_Cabin4Sign {
+    msgbox(SSTidalCorridor_Text_Cabin4, MSGBOX_SIGN)
+    end
+}
+
+script SSTidalCorridor_EventScript_ExitSailor {
+    end
+}
+
+script SSTidalCorridor_EventScript_Peeko {
+    end
+}
+
+script SSTidalCorridor_EventScript_Porthole {
+    // lockall
+    // goto_if_eq VAR_SS_TIDAL_STATE, SS_TIDAL_DEPART_SLATEPORT, SSTidalCorridor_EventScript_LookThroughPorthole
+    // goto_if_eq VAR_SS_TIDAL_STATE, SS_TIDAL_HALFWAY_SLATEPORT, SSTidalCorridor_EventScript_LookThroughPorthole
+    msgbox(SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script SSTidalCorridor_EventScript_Sailor {
+    end
+}
+
+
+script SSTidalCorridor_EventScript_ReachedStepCount {
+    end
+}
+text SSTidalCorridor_Text_Cabin3 {
+    format("Cabin 3")
+}
+
+text SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole {
+    format("The horizon spreads beyond the porthole.")
+}
+
+text SSTidalCorridor_Text_Cabin1 {
+    format("Cabin 1")
+}
+
+text SSTidalCorridor_Text_Cabin4 {
+    format("Cabin 4")
+}
+
+text SSTidalCorridor_Text_Cabin2 {
+    format("Cabin 2")
+}

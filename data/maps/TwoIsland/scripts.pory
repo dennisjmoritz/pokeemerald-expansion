@@ -1,0 +1,58 @@
+mapscripts TwoIsland_MapScripts {
+}
+
+script TwoIsland_EventScript_Beauty {
+    end
+}
+
+script TwoIsland_EventScript_Boy {
+    end
+}
+
+script TwoIsland_EventScript_Clerk {
+    end
+}
+
+script TwoIsland_EventScript_FastCurrentSign {
+    msgbox(TwoIsland_Text_DangerFastCurrent, MSGBOX_SIGN)
+    end
+}
+
+script TwoIsland_EventScript_IslandSign {
+    msgbox(TwoIsland_Text_IslandSign, MSGBOX_SIGN)
+    end
+}
+
+script TwoIsland_EventScript_JoyfulGameCornerSign {
+    msgbox(TwoIsland_Text_JoyfulGameCornerSign, MSGBOX_SIGN)
+    end
+}
+
+script TwoIsland_EventScript_LittleBoy {
+    end
+}
+
+script TwoIsland_EventScript_Sailor {
+    end
+}
+
+script TwoIsland_EventScript_SuperNerd {
+    end
+}
+
+script TwoIsland_EventScript_Woman {
+    end
+}
+
+
+text TwoIsland_Text_IslandSign {
+    format("TWO ISLAND Boon Island for Two")
+}
+
+text TwoIsland_Text_JoyfulGameCornerSign {
+    format("Skip & Chomp! Joyful GAME CORNER")
+}
+
+text TwoIsland_Text_DangerFastCurrent {
+    format("DANGER! FAST CURRENT! Fishing and surfing prohibited!")
+}

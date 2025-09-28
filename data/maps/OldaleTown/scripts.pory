@@ -1,0 +1,44 @@
+mapscripts OldaleTown_MapScripts {
+}
+
+script OldaleTown_EventScript_BlockedPath {
+    end
+}
+
+script OldaleTown_EventScript_FootprintsMan {
+    end
+}
+
+script OldaleTown_EventScript_Girl {
+    end
+}
+
+script OldaleTown_EventScript_MartEmployee {
+    end
+}
+
+script OldaleTown_EventScript_Rival {
+    end
+}
+
+script OldaleTown_EventScript_RivalTrigger1 {
+    end
+}
+
+script OldaleTown_EventScript_RivalTrigger2 {
+    end
+}
+
+script OldaleTown_EventScript_RivalTrigger3 {
+    end
+}
+
+script OldaleTown_EventScript_TownSign {
+    msgbox(OldaleTown_Text_TownSign, MSGBOX_SIGN)
+    end
+}
+
+
+text OldaleTown_Text_TownSign {
+    format("OLDALE TOWN “Where things start off scarce.”")
+}

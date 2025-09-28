@@ -1,0 +1,55 @@
+mapscripts ViridianCity_Gym_MapScripts {
+}
+
+script ViridianCity_Gym_EventScript_Atsushi {
+    end
+}
+
+script ViridianCity_Gym_EventScript_Cole {
+    end
+}
+
+script ViridianCity_Gym_EventScript_Giovanni {
+    end
+}
+
+script ViridianCity_Gym_EventScript_GymGuy {
+    end
+}
+
+script ViridianCity_Gym_EventScript_GymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE08_GET, ViridianCity_Gym_EventScript_GymStatuePostVictory
+    msgbox(ViridianCity_Gym_Text_GymStatue, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script ViridianCity_Gym_EventScript_Jason {
+    end
+}
+
+script ViridianCity_Gym_EventScript_Kiyo {
+    end
+}
+
+script ViridianCity_Gym_EventScript_Samuel {
+    end
+}
+
+script ViridianCity_Gym_EventScript_Takashi {
+    end
+}
+
+script ViridianCity_Gym_EventScript_Warren {
+    end
+}
+
+script ViridianCity_Gym_EventScript_Yuji {
+    end
+}
+
+
+text ViridianCity_Gym_Text_GymStatue {
+    format("VIRIDIAN POKéMON GYM LEADER: ?\p WINNING TRAINERS: {RIVAL}")
+}

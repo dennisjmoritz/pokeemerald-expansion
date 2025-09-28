@@ -1,0 +1,98 @@
+mapscripts Route123_MapScripts {
+}
+
+script Route123_EventScript_Alberto {
+    end
+}
+
+script Route123_EventScript_BerryMastersHouseSign {
+    msgbox(Route123_Text_BerryMastersHouse, MSGBOX_SIGN)
+    end
+}
+
+script Route123_EventScript_Braxton {
+    end
+}
+
+script Route123_EventScript_Cameron {
+    end
+}
+
+script Route123_EventScript_Davis {
+    end
+}
+
+script Route123_EventScript_Ed {
+    end
+}
+
+script Route123_EventScript_Fernando {
+    end
+}
+
+script Route123_EventScript_Frederick {
+    end
+}
+
+script Route123_EventScript_GigaDrainGirl {
+    end
+}
+
+script Route123_EventScript_Jacki {
+    end
+}
+
+script Route123_EventScript_Jazmyn {
+    end
+}
+
+script Route123_EventScript_Jonas {
+    end
+}
+
+script Route123_EventScript_Kayley {
+    end
+}
+
+script Route123_EventScript_Kindra {
+    end
+}
+
+script Route123_EventScript_Miu {
+    end
+}
+
+script Route123_EventScript_RouteSign {
+    msgbox(Route123_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+script Route123_EventScript_RouteSignMtPyre {
+    msgbox(Route123_Text_RouteSignMtPyre, MSGBOX_SIGN)
+    end
+}
+
+script Route123_EventScript_Violet {
+    end
+}
+
+script Route123_EventScript_Wendy {
+    end
+}
+
+script Route123_EventScript_Yuki {
+    end
+}
+
+
+text Route123_Text_RouteSign {
+    format("{RIGHT_ARROW} ROUTE 123 {LEFT_ARROW} ROUTE 118")
+}
+
+text Route123_Text_RouteSignMtPyre {
+    format("{UP_ARROW} MT. PYRE “Forbidden to the faint of heart.”")
+}
+
+text Route123_Text_BerryMastersHouse {
+    format("BERRY MASTER'S HOUSE")
+}

@@ -1,0 +1,11 @@
+mapscripts DewfordTown_House2_MapScripts {
+}
+
+script DewfordTown_House2_EventScript_Boy {
+    end
+}
+
+script DewfordTown_House2_EventScript_Man {
+    end
+}
+

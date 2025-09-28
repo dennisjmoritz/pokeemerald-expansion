@@ -1,0 +1,65 @@
+mapscripts Route115_MapScripts {
+}
+
+script Route115_EventScript_Alix {
+    end
+}
+
+script Route115_EventScript_Cyndy {
+    end
+}
+
+script Route115_EventScript_Hector {
+    end
+}
+
+script Route115_EventScript_Helene {
+    end
+}
+
+script Route115_EventScript_Jaiden {
+    end
+}
+
+script Route115_EventScript_Koichi {
+    end
+}
+
+script Route115_EventScript_Kyra {
+    end
+}
+
+script Route115_EventScript_Marlene {
+    end
+}
+
+script Route115_EventScript_MeteorFallsSign {
+    msgbox(Route115_Text_MeteorFallsSign, MSGBOX_SIGN)
+    end
+}
+
+script Route115_EventScript_Nob {
+    end
+}
+
+script Route115_EventScript_RouteSignRustboro {
+    msgbox(Route115_Text_RouteSignRustboro, MSGBOX_SIGN)
+    end
+}
+
+script Route115_EventScript_Timothy {
+    end
+}
+
+script Route115_EventScript_Woman {
+    end
+}
+
+
+text Route115_Text_RouteSignRustboro {
+    format("ROUTE 115 {DOWN_ARROW} RUSTBORO CITY")
+}
+
+text Route115_Text_MeteorFallsSign {
+    format("METEOR FALLS FALLARBOR TOWN THROUGH HERE")
+}

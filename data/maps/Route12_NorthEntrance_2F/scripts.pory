@@ -1,0 +1,25 @@
+mapscripts Route12_NorthEntrance_2F_MapScripts {
+}
+
+script Route12_NorthEntrance_2F_EventScript_Lass {
+    end
+}
+
+script Route12_NorthEntrance_2F_EventScript_LeftBinoculars {
+    msgbox(Route12_NorthEntrance_2F_Text_TheresManFishing, MSGBOX_SIGN)
+    end
+}
+
+script Route12_NorthEntrance_2F_EventScript_RightBinoculars {
+    msgbox(Route12_NorthEntrance_2F_Text_ItsPokemonTower, MSGBOX_SIGN)
+    end
+}
+
+
+text Route12_NorthEntrance_2F_Text_TheresManFishing {
+    format("Let's see what the binoculars have to show…\p There's a man fishing!")
+}
+
+text Route12_NorthEntrance_2F_Text_ItsPokemonTower {
+    format("Let's see what the binoculars have to show…\p It's POKéMON TOWER!")
+}

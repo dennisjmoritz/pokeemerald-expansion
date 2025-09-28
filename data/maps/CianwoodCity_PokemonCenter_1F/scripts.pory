@@ -1,0 +1,7 @@
+mapscripts CianwoodCity_PokemonCenter_1F_MapScripts {
+}
+
+script CianwoodCity_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+

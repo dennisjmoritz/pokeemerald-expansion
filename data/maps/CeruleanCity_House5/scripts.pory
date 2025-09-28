@@ -1,0 +1,16 @@
+mapscripts CeruleanCity_House5_MapScripts {
+}
+
+script CeruleanCity_House5_EventScript_BerryCrushRankings {
+    // lockall
+    // goto_if_questlog EventScript_ReleaseEnd
+    // special ShowBerryCrushRankings
+    // waitstate
+    // releaseall
+    end
+}
+
+script CeruleanCity_House5_EventScript_BerryPowderMan {
+    end
+}
+

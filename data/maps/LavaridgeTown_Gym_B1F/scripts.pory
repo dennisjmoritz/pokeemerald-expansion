@@ -1,0 +1,19 @@
+mapscripts LavaridgeTown_Gym_B1F_MapScripts {
+}
+
+script LavaridgeTown_Gym_B1F_EventScript_Eli {
+    end
+}
+
+script LavaridgeTown_Gym_B1F_EventScript_Jace {
+    end
+}
+
+script LavaridgeTown_Gym_B1F_EventScript_Jeff {
+    end
+}
+
+script LavaridgeTown_Gym_B1F_EventScript_Keegan {
+    end
+}
+

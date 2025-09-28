@@ -1,0 +1,15 @@
+mapscripts LavaridgeTown_Mart_MapScripts {
+}
+
+script LavaridgeTown_Mart_EventScript_Clerk {
+    end
+}
+
+script LavaridgeTown_Mart_EventScript_ExpertM {
+    end
+}
+
+script LavaridgeTown_Mart_EventScript_OldWoman {
+    end
+}
+

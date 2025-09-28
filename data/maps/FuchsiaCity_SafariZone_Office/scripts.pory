@@ -1,0 +1,19 @@
+mapscripts FuchsiaCity_SafariZone_Office_MapScripts {
+}
+
+script FuchsiaCity_SafariZone_Office_EventScript_Worker1 {
+    end
+}
+
+script FuchsiaCity_SafariZone_Office_EventScript_Worker2 {
+    end
+}
+
+script FuchsiaCity_SafariZone_Office_EventScript_Worker3 {
+    end
+}
+
+script FuchsiaCity_SafariZone_Office_EventScript_Worker4 {
+    end
+}
+

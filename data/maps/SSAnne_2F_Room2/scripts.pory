@@ -1,0 +1,15 @@
+mapscripts SSAnne_2F_Room2_MapScripts {
+}
+
+script SSAnne_2F_Room2_EventScript_Brooks {
+    end
+}
+
+script SSAnne_2F_Room2_EventScript_Dale {
+    end
+}
+
+script SSAnne_2F_Room2_EventScript_ItemStardust {
+    end
+}
+

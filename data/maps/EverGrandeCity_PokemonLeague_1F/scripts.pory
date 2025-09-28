@@ -1,0 +1,15 @@
+mapscripts EverGrandeCity_PokemonLeague_1F_MapScripts {
+}
+
+script EverGrandeCity_PokemonLeague_1F_EventScript_Clerk {
+    end
+}
+
+script EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard {
+    end
+}
+
+script EverGrandeCity_PokemonLeague_1F_EventScript_Nurse {
+    end
+}
+

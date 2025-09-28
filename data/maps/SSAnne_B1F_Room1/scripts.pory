@@ -1,0 +1,11 @@
+mapscripts SSAnne_B1F_Room1_MapScripts {
+}
+
+script SSAnne_B1F_Room1_EventScript_Barny {
+    end
+}
+
+script SSAnne_B1F_Room1_EventScript_Phillip {
+    end
+}
+

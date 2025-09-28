@@ -1,0 +1,33 @@
+mapscripts Route15_WestEntrance_2F_MapScripts {
+}
+
+script Route15_WestEntrance_2F_EventScript_Aide {
+    end
+}
+
+script Route15_WestEntrance_2F_EventScript_LeftBinoculars {
+    // lockall
+    msgbox(Route15_WestEntrance_2F_Text_LargeShiningBird, MSGBOX_DEFAULT)
+    // showmonpic SPECIES_ARTICUNO, 10, 3
+    // delay 20
+    // waitbuttonpress
+    // hidemonpic
+    // setvar VAR_0x8004, SPECIES_ARTICUNO
+    // special SetSeenMon
+    // releaseall
+    end
+}
+
+script Route15_WestEntrance_2F_EventScript_RightBinoculars {
+    msgbox(Route15_WestEntrance_2F_Text_SmallIslandOnHorizon, MSGBOX_SIGN)
+    end
+}
+
+
+text Route15_WestEntrance_2F_Text_SmallIslandOnHorizon {
+    format("Let's see what the binoculars have to show…\p It looks like a small island on the horizon!")
+}
+
+text Route15_WestEntrance_2F_Text_LargeShiningBird {
+    format("Let's see what the binoculars have to show…\p A large, shining bird is flying toward the sea.")
+}

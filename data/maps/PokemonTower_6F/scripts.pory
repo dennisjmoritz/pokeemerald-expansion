@@ -1,0 +1,19 @@
+mapscripts PokemonTower_6F_MapScripts {
+}
+
+script PokemonTower_6F_EventScript_Angelica {
+    end
+}
+
+script PokemonTower_6F_EventScript_Emilia {
+    end
+}
+
+script PokemonTower_6F_EventScript_Jennifer {
+    end
+}
+
+script PokemonTower_6F_EventScript_MarowakGhost {
+    end
+}
+

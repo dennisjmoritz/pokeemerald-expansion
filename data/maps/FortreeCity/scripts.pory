@@ -1,0 +1,45 @@
+mapscripts FortreeCity_MapScripts {
+}
+
+script FortreeCity_EventScript_Boy {
+    end
+}
+
+script FortreeCity_EventScript_CitySign {
+    msgbox(FortreeCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script FortreeCity_EventScript_GameboyKid {
+    end
+}
+
+script FortreeCity_EventScript_Girl {
+    end
+}
+
+script FortreeCity_EventScript_GymSign {
+    msgbox(FortreeCity_Text_GymSign, MSGBOX_SIGN)
+    end
+}
+
+script FortreeCity_EventScript_Man {
+    end
+}
+
+script FortreeCity_EventScript_OldMan {
+    end
+}
+
+script FortreeCity_EventScript_Woman {
+    end
+}
+
+
+text FortreeCity_Text_CitySign {
+    format("FORTREE CITY “The treetop city that frolics with\l nature.”")
+}
+
+text FortreeCity_Text_GymSign {
+    format("FORTREE CITY POKéMON GYM LEADER: WINONA\p “The bird user taking flight into the world.”")
+}

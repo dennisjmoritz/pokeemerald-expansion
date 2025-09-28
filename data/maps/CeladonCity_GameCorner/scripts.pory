@@ -1,0 +1,218 @@
+mapscripts CeladonCity_GameCorner_MapScripts {
+}
+
+script CeladonCity_GameCorner_EventScript_BaldingMan {
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_CoinsClerk {
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_Fisher {
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_Gentleman {
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_GymGuy {
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_InfoClerk {
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_OldMan {
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_Poster {
+    // lockall
+    msgbox(CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt, MSGBOX_DEFAULT)
+    // call_if_unset FLAG_OPENED_ROCKET_HIDEOUT, CeladonCity_GameCorner_EventScript_OpenRocketHideout
+    // releaseall
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_RocketGrunt {
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_Scientist {
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine0 {
+    // lockall
+    // setvar VAR_0x8004, 0
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine1 {
+    // lockall
+    // setvar VAR_0x8004, 1
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine10 {
+    // lockall
+    // setvar VAR_0x8004, 10
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine11 {
+    // lockall
+    // setvar VAR_0x8004, 11
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine12 {
+    // lockall
+    // setvar VAR_0x8004, 12
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine13 {
+    // lockall
+    // setvar VAR_0x8004, 13
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine14 {
+    // lockall
+    // setvar VAR_0x8004, 14
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine16 {
+    // lockall
+    // setvar VAR_0x8004, 16
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine17 {
+    // lockall
+    // setvar VAR_0x8004, 17
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine19 {
+    // lockall
+    // setvar VAR_0x8004, 19
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine2 {
+    // lockall
+    // setvar VAR_0x8004, 2
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine20 {
+    // lockall
+    // setvar VAR_0x8004, 20
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine21 {
+    // lockall
+    // setvar VAR_0x8004, 21
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine3 {
+    // lockall
+    // setvar VAR_0x8004, 3
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine5 {
+    // lockall
+    // setvar VAR_0x8004, 5
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine6 {
+    // lockall
+    // setvar VAR_0x8004, 6
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine7 {
+    // lockall
+    // setvar VAR_0x8004, 7
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine8 {
+    // lockall
+    // setvar VAR_0x8004, 8
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_SlotMachine9 {
+    // lockall
+    // setvar VAR_0x8004, 9
+    // goto CeladonCity_GameCorner_EventScript_SlotMachine
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_UnusableSlotMachine1 {
+    msgbox(CeladonCity_GameCorner_Text_OutOfOrder, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_UnusableSlotMachine2 {
+    msgbox(CeladonCity_GameCorner_Text_OutToLunch, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_UnusableSlotMachine3 {
+    msgbox(CeladonCity_GameCorner_Text_SomeonesKeys, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_Woman1 {
+    end
+}
+
+script CeladonCity_GameCorner_EventScript_Woman2 {
+    end
+}
+
+text CeladonCity_GameCorner_Text_OutOfOrder {
+    format("OUT OF ORDER This is broken.")
+}
+
+text CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt {
+    format("Hey!\p A switch behind the poster!? Let's push it!")
+}
+
+text CeladonCity_GameCorner_Text_SomeonesKeys {
+    format("Someone's keys! They'll be back.")
+}
+
+text CeladonCity_GameCorner_Text_OutToLunch {
+    format("OUT TO LUNCH This is reserved.")
+}

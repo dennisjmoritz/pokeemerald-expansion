@@ -1,0 +1,7 @@
+mapscripts SeafloorCavern_Entrance_MapScripts {
+}
+
+script SeafloorCavern_Entrance_EventScript_Grunt {
+    end
+}
+

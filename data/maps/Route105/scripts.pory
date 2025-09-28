@@ -1,0 +1,31 @@
+mapscripts Route105_MapScripts {
+}
+
+script Route105_EventScript_Andres {
+    end
+}
+
+script Route105_EventScript_Beverly {
+    end
+}
+
+script Route105_EventScript_Dominik {
+    end
+}
+
+script Route105_EventScript_Foster {
+    end
+}
+
+script Route105_EventScript_Imani {
+    end
+}
+
+script Route105_EventScript_Josue {
+    end
+}
+
+script Route105_EventScript_Luis {
+    end
+}
+

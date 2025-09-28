@@ -1,0 +1,11 @@
+mapscripts RustboroCity_CuttersHouse_MapScripts {
+}
+
+script RustboroCity_CuttersHouse_EventScript_Cutter {
+    end
+}
+
+script RustboroCity_CuttersHouse_EventScript_Lass {
+    end
+}
+

@@ -1,0 +1,21 @@
+mapscripts SixIsland_WaterPath_MapScripts {
+}
+
+script SixIsland_WaterPath_EventScript_HornWantedSign {
+    msgbox(SixIsland_WaterPath_Text_WantedUltimateHorn, MSGBOX_SIGN)
+    end
+}
+
+script SixIsland_WaterPath_EventScript_RouteSign {
+    msgbox(SixIsland_WaterPath_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+
+text SixIsland_WaterPath_Text_WantedUltimateHorn {
+    format("Wanted! The Ultimate Horn!")
+}
+
+text SixIsland_WaterPath_Text_RouteSign {
+    format("WATER PATH Leads to RUIN VALLEY")
+}

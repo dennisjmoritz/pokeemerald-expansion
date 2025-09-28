@@ -1,0 +1,94 @@
+mapscripts Route114_MapScripts {
+}
+
+script Route114_EventScript_Angelina {
+    end
+}
+
+script Route114_EventScript_Bernie {
+    end
+}
+
+script Route114_EventScript_Charlotte {
+    end
+}
+
+script Route114_EventScript_Claude {
+    end
+}
+
+script Route114_EventScript_FossilManiacsHouseSign {
+    msgbox(Route114_Text_FossilManiacsHouseSign, MSGBOX_SIGN)
+    end
+}
+
+script Route114_EventScript_Ivy {
+    end
+}
+
+script Route114_EventScript_Kai {
+    end
+}
+
+script Route114_EventScript_LanettesHouseSign {
+    msgbox(Route114_Text_LanettesHouse, MSGBOX_SIGN)
+    end
+}
+
+script Route114_EventScript_Lenny {
+    end
+}
+
+script Route114_EventScript_Lucas {
+    end
+}
+
+script Route114_EventScript_Man {
+    end
+}
+
+script Route114_EventScript_MeteorFallsSign {
+    msgbox(Route114_Text_MeteorFallsSign, MSGBOX_SIGN)
+    end
+}
+
+script Route114_EventScript_Nancy {
+    end
+}
+
+script Route114_EventScript_Nolan {
+    end
+}
+
+script Route114_EventScript_Poochyena {
+    end
+}
+
+script Route114_EventScript_RoarGentleman {
+    end
+}
+
+script Route114_EventScript_Shane {
+    end
+}
+
+script Route114_EventScript_Steve {
+    end
+}
+
+script Route114_EventScript_Tyra {
+    end
+}
+
+
+text Route114_Text_MeteorFallsSign {
+    format("METEOR FALLS RUSTBORO CITY THROUGH HERE")
+}
+
+text Route114_Text_LanettesHouse {
+    format("LANETTE'S HOUSE")
+}
+
+text Route114_Text_FossilManiacsHouseSign {
+    format("FOSSIL MANIAC'S HOUSE “Fossils gratefully accepted!”")
+}

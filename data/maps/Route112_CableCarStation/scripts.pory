@@ -1,0 +1,7 @@
+mapscripts Route112_CableCarStation_MapScripts {
+}
+
+script Route112_CableCarStation_EventScript_Attendant {
+    end
+}
+

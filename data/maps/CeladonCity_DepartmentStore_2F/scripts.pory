@@ -1,0 +1,23 @@
+mapscripts CeladonCity_DepartmentStore_2F_MapScripts {
+}
+
+script CeladonCity_DepartmentStore_2F_EventScript_ClerkItems {
+    end
+}
+
+script CeladonCity_DepartmentStore_2F_EventScript_ClerkTMs {
+    end
+}
+
+script CeladonCity_DepartmentStore_2F_EventScript_FloorSign {
+    msgbox(CeladonCity_DepartmentStore_2F_Text_FloorSign, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_DepartmentStore_2F_EventScript_Lass {
+    end
+}
+
+text CeladonCity_DepartmentStore_2F_Text_FloorSign {
+    format("Top-Grade Items for TRAINERS!\p 2F: TRAINER'S MARKET")
+}

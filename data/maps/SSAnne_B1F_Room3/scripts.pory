@@ -1,0 +1,11 @@
+mapscripts SSAnne_B1F_Room3_MapScripts {
+}
+
+script SSAnne_B1F_Room3_EventScript_Dylan {
+    end
+}
+
+script SSAnne_B1F_Room3_EventScript_ItemEther {
+    end
+}
+

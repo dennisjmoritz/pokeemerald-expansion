@@ -1,0 +1,11 @@
+mapscripts Route114_FossilManiacsTunnel_MapScripts {
+}
+
+script Route114_FossilManiacsTunnel_EventScript_FossilManiac {
+    end
+}
+
+script Route114_FossilManiacsTunnel_EventScript_ManiacMentionCaveIn {
+    end
+}
+

@@ -1,0 +1,19 @@
+mapscripts PetalburgCity_Mart_MapScripts {
+}
+
+script PetalburgCity_Mart_EventScript_Boy {
+    end
+}
+
+script PetalburgCity_Mart_EventScript_Clerk {
+    end
+}
+
+script PetalburgCity_Mart_EventScript_Man {
+    end
+}
+
+script PetalburgCity_Mart_EventScript_Woman {
+    end
+}
+

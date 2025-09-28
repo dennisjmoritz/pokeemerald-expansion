@@ -1,0 +1,16 @@
+mapscripts Route3_MapScripts {
+}
+
+script Route3_EventScript_RouteSign {
+    msgbox(Route3_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+script Route3_EventScript_Youngster {
+    end
+}
+
+
+text Route3_Text_RouteSign {
+    format("ROUTE 3 MT. MOON AHEAD")
+}

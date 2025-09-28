@@ -1,0 +1,29 @@
+mapscripts CinnabarIsland_PokemonLab_ResearchRoom_MapScripts {
+}
+
+script CinnabarIsland_PokemonLab_ResearchRoom_EventScript_AmberPipe {
+    msgbox(CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe, MSGBOX_SIGN)
+    end
+}
+
+script CinnabarIsland_PokemonLab_ResearchRoom_EventScript_Computer {
+    msgbox(CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail, MSGBOX_SIGN)
+    end
+}
+
+script CinnabarIsland_PokemonLab_ResearchRoom_EventScript_MetronomeTutor {
+    end
+}
+
+script CinnabarIsland_PokemonLab_ResearchRoom_EventScript_Scientist {
+    end
+}
+
+
+text CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe {
+    format("An amber pipe!")
+}
+
+text CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail {
+    format("There's an e-mail message.\p … … …\p There are three legendary bird POKéMON.\p They are ARTICUNO, ZAPDOS, and MOLTRES.\p Their whereabouts are unknown.\p We plan to explore the cavern close to CERULEAN.\p From: POKéMON RESEARCH TEAM…")
+}

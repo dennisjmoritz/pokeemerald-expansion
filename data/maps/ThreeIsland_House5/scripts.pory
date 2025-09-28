@@ -1,0 +1,7 @@
+mapscripts ThreeIsland_House5_MapScripts {
+}
+
+script ThreeIsland_House5_EventScript_LittleGirl {
+    end
+}
+

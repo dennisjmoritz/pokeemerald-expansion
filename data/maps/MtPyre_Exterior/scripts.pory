@@ -1,0 +1,11 @@
+mapscripts MtPyre_Exterior_MapScripts {
+}
+
+script MtPyre_Exterior_EventScript_FogTrigger {
+    end
+}
+
+script MtPyre_Exterior_EventScript_SunTrigger {
+    end
+}
+

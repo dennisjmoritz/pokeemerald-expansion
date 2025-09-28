@@ -1,0 +1,19 @@
+mapscripts LavaridgeTown_PokemonCenter_1F_MapScripts {
+}
+
+script LavaridgeTown_PokemonCenter_1F_EventScript_Gentleman {
+    end
+}
+
+script LavaridgeTown_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+
+script LavaridgeTown_PokemonCenter_1F_EventScript_Woman {
+    end
+}
+
+script LavaridgeTown_PokemonCenter_1F_EventScript_Youngster {
+    end
+}
+

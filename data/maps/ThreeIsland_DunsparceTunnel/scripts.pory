@@ -1,0 +1,7 @@
+mapscripts ThreeIsland_DunsparceTunnel_MapScripts {
+}
+
+script ThreeIsland_DunsparceTunnel_EventScript_Prospector {
+    end
+}
+

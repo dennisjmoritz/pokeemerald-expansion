@@ -1,0 +1,11 @@
+mapscripts LilycoveCity_House1_MapScripts {
+}
+
+script LilycoveCity_House1_EventScript_ExpertM {
+    end
+}
+
+script LilycoveCity_House1_EventScript_Kecleon {
+    end
+}
+

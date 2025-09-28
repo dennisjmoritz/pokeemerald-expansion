@@ -1,0 +1,15 @@
+mapscripts DewfordTown_House1_MapScripts {
+}
+
+script DewfordTown_House1_EventScript_Man {
+    end
+}
+
+script DewfordTown_House1_EventScript_Woman {
+    end
+}
+
+script DewfordTown_House1_EventScript_Zigzagoon {
+    end
+}
+

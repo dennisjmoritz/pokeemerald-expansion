@@ -1,0 +1,40 @@
+mapscripts CeladonCity_Condominiums_RoofRoom_MapScripts {
+}
+
+script CeladonCity_Condominiums_RoofRoom_EventScript_BlackBelt {
+    end
+}
+
+script CeladonCity_Condominiums_RoofRoom_EventScript_Blackboard {
+    // lockall
+    msgbox(CeladonCity_Condominiums_RoofRoom_Text_WirelessAdapterLecture, MSGBOX_DEFAULT)
+    // message CeladonCity_Condominiums_RoofRoom_Text_ReadWhichHeading
+    // waitmessage
+    // setvar VAR_0x8004, 4
+    // multichoice 0, 0, MULTICHOICE_LINKED_DIRECT_UNION, FALSE
+    // switch VAR_RESULT
+    // case 0, CeladonCity_Condominiums_RoofRoom_EventScript_WirelessClub
+    // case 1, CeladonCity_Condominiums_RoofRoom_EventScript_DirectCorner
+    // case 2, CeladonCity_Condominiums_RoofRoom_EventScript_UnionRoom
+    // case 3, CeladonCity_Condominiums_RoofRoom_EventScript_ExitBlackboard
+    // case 127, CeladonCity_Condominiums_RoofRoom_EventScript_ExitBlackboard
+    end
+}
+
+script CeladonCity_Condominiums_RoofRoom_EventScript_EeveeBall {
+    end
+}
+
+script CeladonCity_Condominiums_RoofRoom_EventScript_TMsPamphlet {
+    msgbox(CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs, MSGBOX_SIGN)
+    end
+}
+
+
+text CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs {
+    format("It's a pamphlet on TMs.\p … …\p There are fifty TMs in all.\p There are also seven HMs that can be used repeatedly.\p SILPH CO.")
+}
+
+text CeladonCity_Condominiums_RoofRoom_Text_WirelessAdapterLecture {
+    format("POKéMON Lecture\p Playing with the Wireless Adapter")
+}

@@ -1,0 +1,18 @@
+mapscripts LittlerootTown_MaysHouse_1F_MapScripts {
+}
+
+script LittlerootTown_MaysHouse_1F_EventScript_GoSeeRoom {
+    end
+}
+
+script LittlerootTown_MaysHouse_1F_EventScript_MeetRival0 {
+    end
+}
+
+script LittlerootTown_MaysHouse_1F_EventScript_MeetRival1 {
+    end
+}
+
+script LittlerootTown_MaysHouse_1F_EventScript_MeetRival2 {
+    end
+}

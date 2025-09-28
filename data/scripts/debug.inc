@@ -22,7 +22,7 @@ Debug_CheatStart::
 	givemon SPECIES_MUDKIP, 20, ITEM_NONE
 	setflag FLAG_SYS_POKEDEX_GET
 	special SetUnlockedPokedexFlags
-	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+	setflag FLAG_RECEIVED_POKEDEX
 	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 2
 	setflag FLAG_SYS_NATIONAL_DEX
 	special EnableNationalPokedex
@@ -289,7 +289,6 @@ Debug_Follower_NPC_Test_Message:
 	.string "This is a Follower NPC test.$"
 
 Debug_EventScript_Steven_Multi::
-	call MossdeepCity_SpaceCenter_2F_EventScript_ChoosePartyForMultiBattle
 	release
 	end
 
@@ -318,7 +317,7 @@ Debug_EventScript_InflictStatus1::
 	dynmultipush Debug_EventScript_InflictStatus1_Text_Single, 0
 	dynmultipush Debug_EventScript_InflictStatus1_Text_PartyWide, 1
 	dynmultipush Debug_EventScript_InflictStatus1_Text_Close, 2
-	dynmultistack 0, 0, FALSE, 3 FALSE, 0, NULL
+	dynmultistack 0, 0, FALSE, 3 FALSE, 0, 0
 	switch VAR_RESULT
 	case 0, Debug_EventScript_InflictStatus1_Single
 	case 1, Debug_EventScript_InflictStatus1_Party
@@ -340,7 +339,7 @@ Debug_EventScript_InflictStatus1_Single:
 	dynmultipush Debug_EventScript_InflictStatus1_Text_Freeze, 4
 	dynmultipush Debug_EventScript_InflictStatus1_Text_Frostbite, 5
 	dynmultipush Debug_EventScript_InflictStatus1_Text_Close, 6
-	dynmultistack 0, 0, FALSE, 7, FALSE, 0, NULL
+	dynmultistack 0, 0, FALSE, 7, FALSE, 0, 0
 	switch VAR_RESULT
 	case 0, Debug_EventScript_InflictStatus1_Single_Poison
 	case 1, Debug_EventScript_InflictStatus1_Single_Paralysis
@@ -384,7 +383,7 @@ Debug_EventScript_SetHiddenNature::
 	dynmultipush Debug_EventScript_ChangeNature_Text_Sassy, 22
 	dynmultipush Debug_EventScript_ChangeNature_Text_Careful, 23
 	dynmultipush Debug_EventScript_ChangeNature_Text_Quirky, 24
-	dynmultistack 0, 0, TRUE, 7, FALSE, 0, NULL
+	dynmultistack 0, 0, TRUE, 7, FALSE, 0, 0
 	switch VAR_RESULT
 	case MULTI_B_PRESSED, Debug_EventScript_InflictStatus1_Close
     special SetHiddenNature
@@ -429,7 +428,7 @@ Debug_EventScript_InflictStatus1_Party:
 	dynmultipush Debug_EventScript_InflictStatus1_Text_Freeze, 4
 	dynmultipush Debug_EventScript_InflictStatus1_Text_Frostbite, 5
 	dynmultipush Debug_EventScript_InflictStatus1_Text_Close, 6
-	dynmultistack 0, 0, FALSE, 7, FALSE, 0, NULL
+	dynmultistack 0, 0, FALSE, 7, FALSE, 0, 0
 	switch VAR_RESULT
 	case 0, Debug_EventScript_InflictStatus1_Party_Poison
 	case 1, Debug_EventScript_InflictStatus1_Party_Paralysis

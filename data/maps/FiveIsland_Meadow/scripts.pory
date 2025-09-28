@@ -1,0 +1,28 @@
+mapscripts FiveIsland_Meadow_MapScripts {
+}
+
+script FiveIsland_Meadow_EventScript_Rocket1 {
+    end
+}
+
+script FiveIsland_Meadow_EventScript_Rocket2 {
+    end
+}
+
+script FiveIsland_Meadow_EventScript_Rocket3 {
+    end
+}
+
+script FiveIsland_Meadow_EventScript_WarehouseDoor {
+    // lockall
+    // goto_if_set FLAG_UNLOCKED_ROCKET_WAREHOUSE, FiveIsland_Meadow_EventScript_WarehouseDoorAlreadyOpen
+    // goto_if_set FLAG_LEARNED_YES_NAH_CHANSEY, FiveIsland_Meadow_EventScript_OpenWarehouseDoor
+    msgbox(FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+
+text FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded {
+    format("{PLAYER} entered a password.\p “GOLDEEN need log.”\p … …  … …  … …\p Another password is needed to open the door…")
+}

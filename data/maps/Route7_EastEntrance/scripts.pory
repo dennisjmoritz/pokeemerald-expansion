@@ -1,0 +1,19 @@
+mapscripts Route7_EastEntrance_MapScripts {
+}
+
+script Route7_EastEntrance_EventScript_Guard {
+    end
+}
+
+script Route7_EastEntrance_EventScript_GuardTriggerBottom {
+    end
+}
+
+script Route7_EastEntrance_EventScript_GuardTriggerMid {
+    end
+}
+
+script Route7_EastEntrance_EventScript_GuardTriggerTop {
+    end
+}
+

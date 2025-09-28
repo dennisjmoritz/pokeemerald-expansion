@@ -1,0 +1,15 @@
+mapscripts CinnabarIsland_PokemonLab_Lounge_MapScripts {
+}
+
+script CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton {
+    end
+}
+
+script CinnabarIsland_PokemonLab_Lounge_EventScript_Norma {
+    end
+}
+
+script CinnabarIsland_PokemonLab_Lounge_EventScript_Scientist {
+    end
+}
+

@@ -1,0 +1,49 @@
+mapscripts SSTidalRooms_MapScripts {
+}
+
+script SSTidalRooms_EventScript_Bed {
+    // lockall
+    msgbox(SSTidalRooms_Text_TakeRestOnBed, MSGBOX_DEFAULT)
+    // closemessage
+    // // FIXME undefined reference: 	call Common_EventScript_OutOfCenterPartyHeal
+    // call SSTidalRooms_EventScript_ProgessCruiseAfterBed
+    // releaseall
+    end
+}
+
+script SSTidalRooms_EventScript_Colton {
+    end
+}
+
+script SSTidalRooms_EventScript_Garret {
+    end
+}
+
+script SSTidalRooms_EventScript_Jed {
+    end
+}
+
+script SSTidalRooms_EventScript_Lea {
+    end
+}
+
+script SSTidalRooms_EventScript_Micah {
+    end
+}
+
+script SSTidalRooms_EventScript_Naomi {
+    end
+}
+
+script SSTidalRooms_EventScript_SnatchGiver {
+    end
+}
+
+script SSTidalRooms_EventScript_Thomas {
+    end
+}
+
+
+text SSTidalRooms_Text_TakeRestOnBed {
+    format("There's a bed… Let's take a rest.")
+}

@@ -1,0 +1,7 @@
+mapscripts RocketHideout_B2F_MapScripts {
+}
+
+script RocketHideout_B2F_EventScript_Grunt {
+    end
+}
+

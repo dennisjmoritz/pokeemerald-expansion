@@ -1,0 +1,35 @@
+mapscripts Route126_MapScripts {
+}
+
+script Route126_EventScript_Barry {
+    end
+}
+
+script Route126_EventScript_Brenda {
+    end
+}
+
+script Route126_EventScript_Dean {
+    end
+}
+
+script Route126_EventScript_Isobel {
+    end
+}
+
+script Route126_EventScript_Leonardo {
+    end
+}
+
+script Route126_EventScript_Nikki {
+    end
+}
+
+script Route126_EventScript_Pablo {
+    end
+}
+
+script Route126_EventScript_Sienna {
+    end
+}
+

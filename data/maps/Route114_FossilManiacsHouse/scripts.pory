@@ -1,0 +1,25 @@
+mapscripts Route114_FossilManiacsHouse_MapScripts {
+}
+
+script Route114_FossilManiacsHouse_EventScript_Bookshelf {
+    msgbox(Route114_FossilManiacsHouse_Text_CrammedWithBooks, MSGBOX_SIGN)
+    end
+}
+
+script Route114_FossilManiacsHouse_EventScript_FossilManiacsBrother {
+    end
+}
+
+script Route114_FossilManiacsHouse_EventScript_RockDisplay {
+    msgbox(Route114_FossilManiacsHouse_Text_RocksFillDisplayCase, MSGBOX_SIGN)
+    end
+}
+
+
+text Route114_FossilManiacsHouse_Text_CrammedWithBooks {
+    format("THE COMPOSITION OF STRATA… HOW RAIN SHAPES THE LAND…\l STONES, SOIL, AND ROCK…\p It's crammed with books.")
+}
+
+text Route114_FossilManiacsHouse_Text_RocksFillDisplayCase {
+    format("Rocks in peculiar shapes fill the display case…")
+}

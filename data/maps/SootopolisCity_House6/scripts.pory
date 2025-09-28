@@ -1,0 +1,7 @@
+mapscripts SootopolisCity_House6_MapScripts {
+}
+
+script SootopolisCity_House6_EventScript_Woman {
+    end
+}
+

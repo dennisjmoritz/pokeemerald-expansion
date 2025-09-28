@@ -1,0 +1,23 @@
+mapscripts LilycoveCity_DepartmentStore_4F_MapScripts {
+}
+
+script LilycoveCity_DepartmentStore_4F_EventScript_ClerkLeft {
+    end
+}
+
+script LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight {
+    end
+}
+
+script LilycoveCity_DepartmentStore_4F_EventScript_Gentleman {
+    end
+}
+
+script LilycoveCity_DepartmentStore_4F_EventScript_Woman {
+    end
+}
+
+script LilycoveCity_DepartmentStore_4F_EventScript_Youngster {
+    end
+}
+

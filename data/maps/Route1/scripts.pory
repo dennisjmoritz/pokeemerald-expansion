@@ -1,0 +1,20 @@
+mapscripts Route1_MapScripts {
+}
+
+script Route1_EventScript_Boy {
+    end
+}
+
+script Route1_EventScript_MartClerk {
+    end
+}
+
+script Route1_EventScript_RouteSign {
+    msgbox(Route1_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+
+text Route1_Text_RouteSign {
+    format("ROUTE 1 PALLET TOWN - VIRIDIAN CITY")
+}

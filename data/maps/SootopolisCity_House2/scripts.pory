@@ -1,0 +1,7 @@
+mapscripts SootopolisCity_House2_MapScripts {
+}
+
+script SootopolisCity_House2_EventScript_ExpertF {
+    end
+}
+

@@ -1,0 +1,174 @@
+mapscripts Route111_MapScripts {
+}
+
+script Route111_EventScript_Beau {
+    end
+}
+
+script Route111_EventScript_Becky {
+    end
+}
+
+script Route111_EventScript_Bianca {
+    end
+}
+
+script Route111_EventScript_Branden {
+    end
+}
+
+script Route111_EventScript_Brooke {
+    end
+}
+
+script Route111_EventScript_Bryan {
+    end
+}
+
+script Route111_EventScript_Celia {
+    end
+}
+
+script Route111_EventScript_Celina {
+    end
+}
+
+script Route111_EventScript_Daisuke {
+    end
+}
+
+script Route111_EventScript_Drew {
+    end
+}
+
+script Route111_EventScript_Dusty {
+    end
+}
+
+script Route111_EventScript_Girl {
+    end
+}
+
+script Route111_EventScript_Hayden {
+    end
+}
+
+script Route111_EventScript_Heidi {
+    end
+}
+
+script Route111_EventScript_Hiker {
+    end
+}
+
+script Route111_EventScript_Irene {
+    end
+}
+
+script Route111_EventScript_Man1 {
+    end
+}
+
+script Route111_EventScript_Man2 {
+    end
+}
+
+script Route111_EventScript_OldLadysRestStopSign {
+    msgbox(Route111_Text_OldLadysRestStopSign, MSGBOX_SIGN)
+    end
+}
+
+script Route111_EventScript_RockSmashTipFatMan {
+    end
+}
+
+script Route111_EventScript_RouteSign112 {
+    msgbox(Route111_Text_RouteSign112, MSGBOX_SIGN)
+    end
+}
+
+script Route111_EventScript_RouteSign113 {
+    msgbox(Route111_Text_RouteSign113, MSGBOX_SIGN)
+    end
+}
+
+script Route111_EventScript_RouteSignMauville {
+    msgbox(Route111_Text_RouteSignMauville, MSGBOX_SIGN)
+    end
+}
+
+script Route111_EventScript_SandstormTrigger {
+    end
+}
+
+script Route111_EventScript_SunTrigger {
+    end
+}
+
+script Route111_EventScript_TrainerHillSign {
+    msgbox(Route111_Text_TrainerHillSign, MSGBOX_SIGN)
+    end
+}
+
+script Route111_EventScript_TrainerTipsSpAtkSpDef {
+    msgbox(Route111_Text_TrainerTipsSpAtkSpDef, MSGBOX_SIGN)
+    end
+}
+
+script Route111_EventScript_Travis {
+    end
+}
+
+script Route111_EventScript_Tyron {
+    end
+}
+
+script Route111_EventScript_ViciousSandstormTriggerDown {
+    end
+}
+
+script Route111_EventScript_ViciousSandstormTriggerLeft {
+    end
+}
+
+script Route111_EventScript_Victor {
+    end
+}
+
+script Route111_EventScript_Wilton {
+    end
+}
+
+script Route111_EventScript_WinstrateHouseSign {
+    msgbox(Route111_Text_WinstrateHouseSign, MSGBOX_SIGN)
+    end
+}
+
+
+text Route111_Text_TrainerHillSign {
+    format("{RIGHT_ARROW} TRAINER HILL ENTRANCE\p “Scale the heights, you hot-blooded TRAINERS!”")
+}
+
+text Route111_Text_TrainerTipsSpAtkSpDef {
+    format("TRAINER TIPS\p One of the indicators of a POKéMON's powerfulness is SP. ATK. It stands for\l “SPECIAL ATTACK.”\p Likewise, SP. DEF stands for “SPECIAL DEFENSE.”")
+}
+
+text Route111_Text_RouteSign112 {
+    format("ROUTE 111 {LEFT_ARROW} ROUTE 112")
+}
+
+text Route111_Text_WinstrateHouseSign {
+    format("“Our family's hearts beat as one!” THE WINSTRATE'S HOUSE")
+}
+
+text Route111_Text_OldLadysRestStopSign {
+    format("OLD LADY'S REST STOP “Come in and rest your tired bones.”")
+}
+
+text Route111_Text_RouteSignMauville {
+    format("ROUTE 111 {DOWN_ARROW} MAUVILLE CITY")
+}
+
+text Route111_Text_RouteSign113 {
+    format("ROUTE 111 {LEFT_ARROW} ROUTE 113")
+}

@@ -1,0 +1,67 @@
+mapscripts DewfordTown_Hall_MapScripts {
+}
+
+script DewfordTown_Hall_EventScript_Bookshelf {
+    // lockall
+    // call Common_EventScript_BufferTrendyPhrase
+    msgbox(DewfordTown_Hall_Text_BooksAboutTrend, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script DewfordTown_Hall_EventScript_ExpertM {
+    end
+}
+
+script DewfordTown_Hall_EventScript_Girl {
+    end
+}
+
+script DewfordTown_Hall_EventScript_LittleBoy {
+    end
+}
+
+script DewfordTown_Hall_EventScript_Man {
+    end
+}
+
+script DewfordTown_Hall_EventScript_Painting {
+    // lockall
+    // call Common_EventScript_BufferTrendyPhrase
+    // special GetDewfordHallPaintingNameIndex
+    // switch VAR_RESULT
+    // case 0, DewfordTown_Hall_EventScript_ScreamTitle
+    // case 4, DewfordTown_Hall_EventScript_ScreamTitle
+    // case 1, DewfordTown_Hall_EventScript_SmileTitle
+    // case 5, DewfordTown_Hall_EventScript_ScreamTitle
+    // case 2, DewfordTown_Hall_EventScript_LastTitle
+    // case 6, DewfordTown_Hall_EventScript_LastTitle
+    // case 3, DewfordTown_Hall_EventScript_BirthTitle
+    // case 7, DewfordTown_Hall_EventScript_LastTitle
+    end
+}
+
+script DewfordTown_Hall_EventScript_PsychicM {
+    end
+}
+
+script DewfordTown_Hall_EventScript_SchoolKidM {
+    end
+}
+
+script DewfordTown_Hall_EventScript_SludgeBombMan {
+    end
+}
+
+script DewfordTown_Hall_EventScript_Twin {
+    end
+}
+
+script DewfordTown_Hall_EventScript_Woman {
+    end
+}
+
+
+text DewfordTown_Hall_Text_BooksAboutTrend {
+    format("IDENTIFYING GOOD “{STR_VAR_1}” &\l BAD “{STR_VAR_1}”…\p THE LINK BETWEEN “{STR_VAR_1}” AND\l POKéMON…\p USEFUL “{STR_VAR_1}”…\p It's neatly jammed with books about “{STR_VAR_1}.”")
+}

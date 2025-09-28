@@ -1,0 +1,18 @@
+mapscripts AbandonedShip_Rooms2_1F_MapScripts {
+}
+
+script AbandonedShip_Rooms2_1F_EventScript_Dan {
+    end
+}
+
+script AbandonedShip_Rooms2_1F_EventScript_Garrison {
+    end
+}
+
+script AbandonedShip_Rooms2_1F_EventScript_Jani {
+    end
+}
+
+script AbandonedShip_Rooms2_1F_EventScript_Kira {
+    end
+}

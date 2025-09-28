@@ -1,0 +1,27 @@
+mapscripts Route108_MapScripts {
+}
+
+script Route108_EventScript_Carolina {
+    end
+}
+
+script Route108_EventScript_Cory {
+    end
+}
+
+script Route108_EventScript_Jerome {
+    end
+}
+
+script Route108_EventScript_Matthew {
+    end
+}
+
+script Route108_EventScript_Missy {
+    end
+}
+
+script Route108_EventScript_Tara {
+    end
+}
+

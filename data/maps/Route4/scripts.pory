@@ -1,0 +1,25 @@
+mapscripts Route4_MapScripts {
+}
+
+script Route4_EventScript_MtMoonSign {
+    msgbox(Route4_Text_MtMoonEntrance, MSGBOX_SIGN)
+    end
+}
+
+script Route4_EventScript_RouteSign {
+    msgbox(Route4_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+script Route4_EventScript_Woman {
+    end
+}
+
+
+text Route4_Text_RouteSign {
+    format("ROUTE 4 MT. MOON - CERULEAN CITY")
+}
+
+text Route4_Text_MtMoonEntrance {
+    format("MT. MOON Tunnel Entrance")
+}

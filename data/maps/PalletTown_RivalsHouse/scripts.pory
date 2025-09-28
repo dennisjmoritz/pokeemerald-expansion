@@ -1,0 +1,19 @@
+mapscripts PalletTown_RivalsHouse_MapScripts {
+}
+
+script PalletTown_RivalsHouse_EventScript_Bookshelf {
+    end
+}
+
+script PalletTown_RivalsHouse_EventScript_Daisy {
+    end
+}
+
+script PalletTown_RivalsHouse_EventScript_Picture {
+    end
+}
+
+script PalletTown_RivalsHouse_EventScript_TownMap {
+    end
+}
+

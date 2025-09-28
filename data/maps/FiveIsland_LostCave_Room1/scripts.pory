@@ -1,0 +1,7 @@
+mapscripts FiveIsland_LostCave_Room1_MapScripts {
+}
+
+script FiveIsland_LostCave_Room1_EventScript_Lawson {
+    end
+}
+

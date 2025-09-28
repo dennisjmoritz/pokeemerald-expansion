@@ -1,0 +1,31 @@
+mapscripts Route16_NorthEntrance_1F_MapScripts {
+}
+
+script Route16_NorthEntrance_1F_EventScript_Guard {
+    end
+}
+
+script Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerBottom {
+    end
+}
+
+script Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMid {
+    end
+}
+
+script Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMidBottom {
+    end
+}
+
+script Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMidTop {
+    end
+}
+
+script Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerTop {
+    end
+}
+
+script Route16_NorthEntrance_1F_EventScript_OldMan {
+    end
+}
+

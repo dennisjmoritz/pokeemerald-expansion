@@ -1,0 +1,24 @@
+mapscripts MossdeepCity_StevensHouse_MapScripts {
+}
+
+script MossdeepCity_StevensHouse_EventScript_BeldumPokeball {
+    end
+}
+
+script MossdeepCity_StevensHouse_EventScript_Letter {
+    end
+}
+
+script MossdeepCity_StevensHouse_EventScript_RockDisplay {
+    msgbox(MossdeepCity_StevensHouse_Text_CollectionOfRareRocks, MSGBOX_SIGN)
+    end
+}
+
+script MossdeepCity_StevensHouse_EventScript_Steven {
+    end
+}
+
+
+text MossdeepCity_StevensHouse_Text_CollectionOfRareRocks {
+    format("It's a collection of rare rocks and stones assembled by STEVEN.")
+}

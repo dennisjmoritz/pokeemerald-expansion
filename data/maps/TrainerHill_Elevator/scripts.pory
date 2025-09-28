@@ -1,0 +1,7 @@
+mapscripts TrainerHill_Elevator_MapScripts {
+}
+
+script TrainerHill_Elevator_EventScript_Attendant {
+    end
+}
+

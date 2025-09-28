@@ -1,0 +1,69 @@
+mapscripts Route118_MapScripts {
+}
+
+script Route118_EventScript_Barny {
+    end
+}
+
+script Route118_EventScript_Chester {
+    end
+}
+
+script Route118_EventScript_Dalton {
+    end
+}
+
+script Route118_EventScript_Deandre {
+    end
+}
+
+script Route118_EventScript_Girl {
+    end
+}
+
+script Route118_EventScript_GoodRodFisherman {
+    end
+}
+
+script Route118_EventScript_Perry {
+    end
+}
+
+script Route118_EventScript_Rose {
+    end
+}
+
+script Route118_EventScript_RouteSign119 {
+    msgbox(Route118_Text_RouteSign119, MSGBOX_SIGN)
+    end
+}
+
+script Route118_EventScript_RouteSignMauville {
+    msgbox(Route118_Text_RouteSignMauville, MSGBOX_SIGN)
+    end
+}
+
+script Route118_EventScript_StevenTrigger0 {
+    end
+}
+
+script Route118_EventScript_StevenTrigger1 {
+    end
+}
+
+script Route118_EventScript_StevenTrigger2 {
+    end
+}
+
+script Route118_EventScript_Wade {
+    end
+}
+
+
+text Route118_Text_RouteSignMauville {
+    format("ROUTE 118 {LEFT_ARROW} MAUVILLE CITY")
+}
+
+text Route118_Text_RouteSign119 {
+    format("ROUTE 118 {UP_ARROW} ROUTE 119")
+}

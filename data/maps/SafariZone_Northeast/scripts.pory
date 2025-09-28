@@ -1,0 +1,15 @@
+mapscripts SafariZone_Northeast_MapScripts {
+}
+
+script SafariZone_Northeast_EventScript_Boy {
+    end
+}
+
+script SafariZone_Northeast_EventScript_Girl {
+    end
+}
+
+script SafariZone_Northeast_EventScript_Woman {
+    end
+}
+

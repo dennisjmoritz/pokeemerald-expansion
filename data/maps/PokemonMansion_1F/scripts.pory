@@ -1,0 +1,22 @@
+mapscripts PokemonMansion_1F_MapScripts {
+}
+
+script PokemonMansion_1F_EventScript_Johnson {
+    end
+}
+
+script PokemonMansion_1F_EventScript_Statue {
+    // lockall
+    // setvar VAR_0x8004, 0
+    // call PokemonMansion_EventScript_SecretSwitch
+    // playse SE_UNLOCK
+    // special DrawWholeMapView
+    // waitse
+    // releaseall
+    end
+}
+
+script PokemonMansion_1F_EventScript_Ted {
+    end
+}
+

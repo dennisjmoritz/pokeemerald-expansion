@@ -1,0 +1,19 @@
+mapscripts Route6_NorthEntrance_MapScripts {
+}
+
+script Route6_NorthEntrance_EventScript_Guard {
+    end
+}
+
+script Route6_NorthEntrance_EventScript_GuardTriggerLeft {
+    end
+}
+
+script Route6_NorthEntrance_EventScript_GuardTriggerMid {
+    end
+}
+
+script Route6_NorthEntrance_EventScript_GuardTriggerRight {
+    end
+}
+

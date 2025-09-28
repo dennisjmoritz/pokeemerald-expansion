@@ -1,0 +1,7 @@
+mapscripts FiveIsland_House2_MapScripts {
+}
+
+script FiveIsland_House2_EventScript_OldMan {
+    end
+}
+

@@ -1,0 +1,35 @@
+mapscripts Route132_MapScripts {
+}
+
+script Route132_EventScript_Dana {
+    end
+}
+
+script Route132_EventScript_Darcy {
+    end
+}
+
+script Route132_EventScript_Gilbert {
+    end
+}
+
+script Route132_EventScript_Jonathan {
+    end
+}
+
+script Route132_EventScript_Kiyo {
+    end
+}
+
+script Route132_EventScript_Makayla {
+    end
+}
+
+script Route132_EventScript_Paxton {
+    end
+}
+
+script Route132_EventScript_Ronald {
+    end
+}
+

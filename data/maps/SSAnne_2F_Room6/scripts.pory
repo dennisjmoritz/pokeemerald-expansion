@@ -1,0 +1,11 @@
+mapscripts SSAnne_2F_Room6_MapScripts {
+}
+
+script SSAnne_2F_Room6_EventScript_Woman1 {
+    end
+}
+
+script SSAnne_2F_Room6_EventScript_Woman2 {
+    end
+}
+

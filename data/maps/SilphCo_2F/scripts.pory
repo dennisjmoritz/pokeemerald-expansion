@@ -1,0 +1,28 @@
+mapscripts SilphCo_2F_MapScripts {
+}
+
+script SilphCo_2F_EventScript_Connor {
+    end
+}
+
+script SilphCo_2F_EventScript_FloorSign {
+    msgbox(SilphCo_2F_Text_FloorSign, MSGBOX_SIGN)
+    end
+}
+
+script SilphCo_2F_EventScript_Grunt1 {
+    end
+}
+
+script SilphCo_2F_EventScript_Grunt2 {
+    end
+}
+
+script SilphCo_2F_EventScript_Jerry {
+    end
+}
+
+
+text SilphCo_2F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 2F")
+}

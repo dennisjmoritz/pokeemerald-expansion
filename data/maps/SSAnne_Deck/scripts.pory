@@ -1,0 +1,23 @@
+mapscripts SSAnne_Deck_MapScripts {
+}
+
+script SSAnne_Deck_EventScript_BaldingMan {
+    end
+}
+
+script SSAnne_Deck_EventScript_Edmond {
+    end
+}
+
+script SSAnne_Deck_EventScript_Sailor {
+    end
+}
+
+script SSAnne_Deck_EventScript_Trevor {
+    end
+}
+
+script SSAnne_Deck_EventScript_Youngster {
+    end
+}
+

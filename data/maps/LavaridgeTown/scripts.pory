@@ -1,0 +1,62 @@
+mapscripts LavaridgeTown_MapScripts {
+}
+
+script LavaridgeTown_EventScript_EggWoman {
+    end
+}
+
+script LavaridgeTown_EventScript_ExpertF {
+    end
+}
+
+script LavaridgeTown_EventScript_ExpertM {
+    end
+}
+
+script LavaridgeTown_EventScript_GymSign {
+    msgbox(LavaridgeTown_Text_GymSign, MSGBOX_SIGN)
+    end
+}
+
+script LavaridgeTown_EventScript_HerbShopSign {
+    msgbox(LavaridgeTown_Text_HerbShopSign, MSGBOX_SIGN)
+    end
+}
+
+script LavaridgeTown_EventScript_HotSpringsOldWoman1 {
+    end
+}
+
+script LavaridgeTown_EventScript_HotSpringsOldWoman2 {
+    end
+}
+
+script LavaridgeTown_EventScript_HotSpringsTrigger {
+    end
+}
+
+script LavaridgeTown_EventScript_OldMan {
+    end
+}
+
+script LavaridgeTown_EventScript_TownSign {
+    msgbox(LavaridgeTown_Text_TownSign, MSGBOX_SIGN)
+    end
+}
+
+script LavaridgeTown_EventScript_Twin {
+    end
+}
+
+
+text LavaridgeTown_Text_GymSign {
+    format("LAVARIDGE TOWN POKéMON GYM LEADER: FLANNERY\l “One with a fiery passion that burns!”")
+}
+
+text LavaridgeTown_Text_HerbShopSign {
+    format("POKéMON HERB SHOP “Bitter taste--better cure!”")
+}
+
+text LavaridgeTown_Text_TownSign {
+    format("LAVARIDGE TOWN\p “POKéMON CENTER HOT SPRINGS An excellent place for relaxing!”")
+}

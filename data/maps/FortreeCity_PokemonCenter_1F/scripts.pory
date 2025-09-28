@@ -1,0 +1,19 @@
+mapscripts FortreeCity_PokemonCenter_1F_MapScripts {
+}
+
+script FortreeCity_PokemonCenter_1F_EventScript_Boy {
+    end
+}
+
+script FortreeCity_PokemonCenter_1F_EventScript_Gentleman {
+    end
+}
+
+script FortreeCity_PokemonCenter_1F_EventScript_Man {
+    end
+}
+
+script FortreeCity_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+

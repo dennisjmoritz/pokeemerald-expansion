@@ -1,0 +1,11 @@
+mapscripts Route2_House_MapScripts {
+}
+
+script Route2_House_EventScript_Reyley {
+    end
+}
+
+script Route2_House_EventScript_Scientist {
+    end
+}
+

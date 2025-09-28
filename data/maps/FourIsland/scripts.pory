@@ -1,0 +1,37 @@
+mapscripts FourIsland_MapScripts {
+}
+
+script FourIsland_EventScript_DaycareMan {
+    end
+}
+
+script FourIsland_EventScript_FatMan {
+    end
+}
+
+script FourIsland_EventScript_IslandSign {
+    msgbox(FourIsland_Text_IslandSign, MSGBOX_SIGN)
+    end
+}
+
+script FourIsland_EventScript_LittleGirl {
+    end
+}
+
+script FourIsland_EventScript_LoreleisHouseSign {
+    msgbox(FourIsland_Text_LoreleisHouse, MSGBOX_SIGN)
+    end
+}
+
+script FourIsland_EventScript_OldWoman {
+    end
+}
+
+
+text FourIsland_Text_IslandSign {
+    format("FOUR ISLAND The Warm, Blue, Floe Island")
+}
+
+text FourIsland_Text_LoreleisHouse {
+    format("LORELEI'S HOUSE")
+}

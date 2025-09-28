@@ -1,0 +1,7 @@
+mapscripts MarineCave_End_MapScripts {
+}
+
+script MarineCave_End_EventScript_Kyogre {
+    end
+}
+

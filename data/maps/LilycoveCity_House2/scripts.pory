@@ -1,0 +1,7 @@
+mapscripts LilycoveCity_House2_MapScripts {
+}
+
+script LilycoveCity_House2_EventScript_FatMan {
+    end
+}
+

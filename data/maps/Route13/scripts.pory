@@ -1,0 +1,30 @@
+mapscripts Route13_MapScripts {
+}
+
+script Route13_EventScript_RouteSign {
+    msgbox(Route13_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+script Route13_EventScript_TrainerTips1 {
+    msgbox(Route13_Text_LookToLeftOfThatPost, MSGBOX_SIGN)
+    end
+}
+
+script Route13_EventScript_TrainerTips2 {
+    msgbox(Route13_Text_SelectToSwitchItems, MSGBOX_SIGN)
+    end
+}
+
+
+text Route13_Text_LookToLeftOfThatPost {
+    format("TRAINER TIPS\p Look, look! Look to the left of that post!")
+}
+
+text Route13_Text_SelectToSwitchItems {
+    format("TRAINER TIPS\p Use SELECT to switch items in the ITEMS window.")
+}
+
+text Route13_Text_RouteSign {
+    format("ROUTE 13 North to SILENCE BRIDGE")
+}

@@ -1,0 +1,103 @@
+mapscripts PewterCity_MapScripts {
+}
+
+script PewterCity_EventScript_BugCatcher {
+    end
+}
+
+script PewterCity_EventScript_CitySign {
+    msgbox(PewterCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script PewterCity_EventScript_FatMan {
+    end
+}
+
+script PewterCity_EventScript_GymGuide {
+    end
+}
+
+script PewterCity_EventScript_GymGuideTriggerBottom {
+    end
+}
+
+script PewterCity_EventScript_GymGuideTriggerMid {
+    end
+}
+
+script PewterCity_EventScript_GymGuideTriggerRight {
+    end
+}
+
+script PewterCity_EventScript_GymGuideTriggerTop {
+    end
+}
+
+script PewterCity_EventScript_GymSign {
+    // lockall
+    // famechecker FAMECHECKER_BROCK, 0
+    msgbox(PewterCity_Text_GymSign, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script PewterCity_EventScript_Lass {
+    end
+}
+
+script PewterCity_EventScript_MuseumGuide {
+    end
+}
+
+script PewterCity_EventScript_MuseumSign {
+    msgbox(PewterCity_Text_MuseumOfScience, MSGBOX_SIGN)
+    end
+}
+
+script PewterCity_EventScript_PoliceNotice {
+    msgbox(PewterCity_Text_CallPoliceIfInfoOnThieves, MSGBOX_SIGN)
+    end
+}
+
+script PewterCity_EventScript_RunningShoesAide {
+    end
+}
+
+script PewterCity_EventScript_RunningShoesAideTriggerBottom {
+    end
+}
+
+script PewterCity_EventScript_RunningShoesAideTriggerMid {
+    end
+}
+
+script PewterCity_EventScript_RunningShoesAideTriggerTop {
+    end
+}
+
+script PewterCity_EventScript_TrainerTips {
+    msgbox(PewterCity_Text_TrainerTipsEarningEXP, MSGBOX_SIGN)
+    end
+}
+
+
+text PewterCity_Text_GymSign {
+    format("PEWTER CITY POKéMON GYM LEADER: BROCK\l The Rock-Solid POKéMON TRAINER!")
+}
+
+text PewterCity_Text_MuseumOfScience {
+    format("PEWTER MUSEUM OF SCIENCE")
+}
+
+text PewterCity_Text_CitySign {
+    format("PEWTER CITY A Stone Gray City")
+}
+
+text PewterCity_Text_CallPoliceIfInfoOnThieves {
+    format("NOTICE!\p Thieves have been stealing POKéMON fossils from MT. MOON.\p Please call the PEWTER POLICE if you have any information.")
+}
+
+text PewterCity_Text_TrainerTipsEarningEXP {
+    format("TRAINER TIPS\p All POKéMON that appear in battle, however briefly, earn EXP Points.")
+}

@@ -1,0 +1,20 @@
+mapscripts SevenIsland_MapScripts {
+}
+
+script SevenIsland_EventScript_IslandSign {
+    msgbox(SevenIsland_Text_IslandSign, MSGBOX_SIGN)
+    end
+}
+
+script SevenIsland_EventScript_OldWoman {
+    end
+}
+
+script SevenIsland_EventScript_Scientist {
+    end
+}
+
+
+text SevenIsland_Text_IslandSign {
+    format("SEVEN ISLAND Quest Island of Infinity")
+}

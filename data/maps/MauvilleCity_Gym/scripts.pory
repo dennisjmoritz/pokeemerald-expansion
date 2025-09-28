@@ -1,0 +1,61 @@
+mapscripts MauvilleCity_Gym_MapScripts {
+}
+
+script MauvilleCity_Gym_EventScript_Angelo {
+    end
+}
+
+script MauvilleCity_Gym_EventScript_Ben {
+    end
+}
+
+script MauvilleCity_Gym_EventScript_GymGuide {
+    end
+}
+
+script MauvilleCity_Gym_EventScript_Kirk {
+    end
+}
+
+script MauvilleCity_Gym_EventScript_LeftGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE03_GET, MauvilleCity_Gym_EventScript_GymStatueCertified
+    // goto MauvilleCity_Gym_EventScript_GymStatue
+    end
+}
+
+script MauvilleCity_Gym_EventScript_RightGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE03_GET, MauvilleCity_Gym_EventScript_GymStatueCertified
+    // goto MauvilleCity_Gym_EventScript_GymStatue
+    end
+}
+
+script MauvilleCity_Gym_EventScript_Shawn {
+    end
+}
+
+script MauvilleCity_Gym_EventScript_Switch1 {
+    end
+}
+
+script MauvilleCity_Gym_EventScript_Switch2 {
+    end
+}
+
+script MauvilleCity_Gym_EventScript_Switch3 {
+    end
+}
+
+script MauvilleCity_Gym_EventScript_Switch4 {
+    end
+}
+
+script MauvilleCity_Gym_EventScript_Vivian {
+    end
+}
+
+script MauvilleCity_Gym_EventScript_Wattson {
+    end
+}
+

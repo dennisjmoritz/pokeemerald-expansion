@@ -1,0 +1,15 @@
+mapscripts RustboroCity_Flat1_2F_MapScripts {
+}
+
+script RustboroCity_Flat1_2F_EventScript_PokeDoll {
+    end
+}
+
+script RustboroCity_Flat1_2F_EventScript_WaldasDad {
+    end
+}
+
+script RustboroCity_Flat1_2F_EventScript_WaldasMom {
+    end
+}
+

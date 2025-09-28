@@ -1,0 +1,36 @@
+mapscripts PokemonMansion_2F_MapScripts {
+}
+
+script PokemonMansion_2F_EventScript_Arnie {
+    end
+}
+
+script PokemonMansion_2F_EventScript_DiaryJuly10th {
+    msgbox(PokemonMansion_1F_Text_ChristenedDiscoveredMonMew, MSGBOX_SIGN)
+    end
+}
+
+script PokemonMansion_2F_EventScript_DiaryJuly5th {
+    msgbox(PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle, MSGBOX_SIGN)
+    end
+}
+
+script PokemonMansion_2F_EventScript_Statue {
+    // lockall
+    // setvar VAR_0x8004, 1
+    // call PokemonMansion_EventScript_SecretSwitch
+    // playse SE_UNLOCK
+    // special DrawWholeMapView
+    // waitse
+    // releaseall
+    end
+}
+
+
+text PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle {
+    format("Diary: July 5 Guyana, South America\p A new POKéMON was discovered deep in the jungle.")
+}
+
+text PokemonMansion_1F_Text_ChristenedDiscoveredMonMew {
+    format("Diary: July 10 We christened the newly discovered\l POKéMON, MEW.")
+}

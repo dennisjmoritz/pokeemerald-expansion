@@ -1,0 +1,11 @@
+mapscripts PacifidlogTown_House5_MapScripts {
+}
+
+script PacifidlogTown_House5_EventScript_Gentleman {
+    end
+}
+
+script PacifidlogTown_House5_EventScript_MirageIslandWatcher {
+    end
+}
+

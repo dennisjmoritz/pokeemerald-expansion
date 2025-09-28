@@ -1,0 +1,27 @@
+mapscripts RocketHideout_B4F_MapScripts {
+}
+
+script RocketHideout_B4F_EventScript_Giovanni {
+    end
+}
+
+script RocketHideout_B4F_EventScript_Grunt1 {
+    end
+}
+
+script RocketHideout_B4F_EventScript_Grunt2 {
+    end
+}
+
+script RocketHideout_B4F_EventScript_Grunt3 {
+    end
+}
+
+script RocketHideout_B4F_EventScript_LiftKey {
+    end
+}
+
+script RocketHideout_B4F_EventScript_SilphScope {
+    end
+}
+

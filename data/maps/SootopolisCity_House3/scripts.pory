@@ -1,0 +1,11 @@
+mapscripts SootopolisCity_House3_MapScripts {
+}
+
+script SootopolisCity_House3_EventScript_Girl {
+    end
+}
+
+script SootopolisCity_House3_EventScript_Woman {
+    end
+}
+

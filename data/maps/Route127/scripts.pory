@@ -1,0 +1,35 @@
+mapscripts Route127_MapScripts {
+}
+
+script Route127_EventScript_Aidan {
+    end
+}
+
+script Route127_EventScript_Athena {
+    end
+}
+
+script Route127_EventScript_Camden {
+    end
+}
+
+script Route127_EventScript_Donny {
+    end
+}
+
+script Route127_EventScript_Henry {
+    end
+}
+
+script Route127_EventScript_Jonah {
+    end
+}
+
+script Route127_EventScript_Koji {
+    end
+}
+
+script Route127_EventScript_Roger {
+    end
+}
+

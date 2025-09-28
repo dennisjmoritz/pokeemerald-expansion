@@ -1,0 +1,23 @@
+mapscripts VictoryRoad_B1F_MapScripts {
+}
+
+script VictoryRoad_B1F_EventScript_Halle {
+    end
+}
+
+script VictoryRoad_B1F_EventScript_Michelle {
+    end
+}
+
+script VictoryRoad_B1F_EventScript_Mitchell {
+    end
+}
+
+script VictoryRoad_B1F_EventScript_Samuel {
+    end
+}
+
+script VictoryRoad_B1F_EventScript_Shannon {
+    end
+}
+

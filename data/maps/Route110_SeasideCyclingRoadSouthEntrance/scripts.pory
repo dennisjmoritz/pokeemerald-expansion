@@ -1,0 +1,15 @@
+mapscripts Route110_SeasideCyclingRoadSouthEntrance_MapScripts {
+}
+
+script Route110_SeasideCyclingRoadSouthEntrance_EventScript_BikeCheck {
+    end
+}
+
+script Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad {
+    end
+}
+
+script Route110_SeasideCyclingRoadSouthEntrance_EventScript_Clerk {
+    end
+}
+

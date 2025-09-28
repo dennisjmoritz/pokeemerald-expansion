@@ -1,0 +1,11 @@
+mapscripts LavaridgeTown_House_MapScripts {
+}
+
+script LavaridgeTown_House_EventScript_OldMan {
+    end
+}
+
+script LavaridgeTown_House_EventScript_Zigzagoon {
+    end
+}
+

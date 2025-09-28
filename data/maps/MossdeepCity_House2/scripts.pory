@@ -1,0 +1,15 @@
+mapscripts MossdeepCity_House2_MapScripts {
+}
+
+script MossdeepCity_House2_EventScript_Man {
+    end
+}
+
+script MossdeepCity_House2_EventScript_Twin {
+    end
+}
+
+script MossdeepCity_House2_EventScript_Wingull {
+    end
+}
+

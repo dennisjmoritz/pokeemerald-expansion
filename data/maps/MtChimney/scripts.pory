@@ -1,0 +1,122 @@
+mapscripts MtChimney_MapScripts {
+}
+
+script MtChimney_EventScript_AquaPoochyena {
+    end
+}
+
+script MtChimney_EventScript_Archie {
+    end
+}
+
+script MtChimney_EventScript_BusyAquaGrunt1 {
+    end
+}
+
+script MtChimney_EventScript_BusyAquaGrunt2 {
+    end
+}
+
+script MtChimney_EventScript_BusyAquaGrunt3 {
+    end
+}
+
+script MtChimney_EventScript_BusyMagmaGrunt1 {
+    end
+}
+
+script MtChimney_EventScript_BusyMagmaGrunt2 {
+    end
+}
+
+script MtChimney_EventScript_BusyMagmaGrunt3 {
+    end
+}
+
+script MtChimney_EventScript_BusyMagmaGrunt4 {
+    end
+}
+
+script MtChimney_EventScript_BusyMagmaGrunt5 {
+    end
+}
+
+script MtChimney_EventScript_BusyMagmaGrunt6 {
+    end
+}
+
+script MtChimney_EventScript_Grunt1 {
+    end
+}
+
+script MtChimney_EventScript_Grunt2 {
+    end
+}
+
+script MtChimney_EventScript_LavaCookieLady {
+    end
+}
+
+script MtChimney_EventScript_MagmaPoochyena {
+    end
+}
+
+script MtChimney_EventScript_Maxie {
+    end
+}
+
+script MtChimney_EventScript_Melissa {
+    end
+}
+
+script MtChimney_EventScript_MeteoriteMachine {
+    // lockall
+    // goto_if_unset FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, MtChimney_EventScript_MachineOn
+    // goto_if_set FLAG_RECEIVED_METEORITE, MtChimney_EventScript_MachineOff
+    msgbox(MtChimney_Text_RemoveTheMeteorite, MSGBOX_YESNO)
+    // goto_if_eq VAR_RESULT, NO, MtChimney_EventScript_LeaveMeteoriteAlone
+    msgbox(MtChimney_Text_PlayerRemovedMeteorite, MSGBOX_DEFAULT)
+    // giveitem ITEM_METEORITE
+    // goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+    // setflag FLAG_RECEIVED_METEORITE
+    // releaseall
+    end
+}
+
+script MtChimney_EventScript_RouteSign {
+    msgbox(MtChimney_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+script MtChimney_EventScript_Sawyer {
+    end
+}
+
+script MtChimney_EventScript_Sheila {
+    end
+}
+
+script MtChimney_EventScript_Shelby {
+    end
+}
+
+script MtChimney_EventScript_Shirley {
+    end
+}
+
+script MtChimney_EventScript_Tabitha {
+    end
+}
+
+
+text MtChimney_Text_PlayerRemovedMeteorite {
+    format("{PLAYER} removed the METEORITE from the mysterious machine.")
+}
+
+text MtChimney_Text_RemoveTheMeteorite {
+    format("A METEORITE is fitted on a mysterious machine…\p Do you want to remove the METEORITE?")
+}
+
+text MtChimney_Text_RouteSign {
+    format("{DOWN_ARROW} JAGGED PATH LAVARIDGE TOWN AHEAD")
+}

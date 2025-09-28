@@ -1,0 +1,12 @@
+mapscripts SevenIsland_SevaultCanyon_Entrance_MapScripts {
+}
+
+script SevenIsland_SevaultCanyon_Entrance_EventScript_RouteSign {
+    msgbox(SevenIsland_SevaultCanyon_Entrance_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+
+text SevenIsland_SevaultCanyon_Entrance_Text_RouteSign {
+    format("SEVAULT CANYON ENTRANCE\p TRAINERS are asked to refrain from damaging plants in the CANYON.")
+}

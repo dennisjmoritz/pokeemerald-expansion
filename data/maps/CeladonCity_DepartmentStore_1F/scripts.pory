@@ -1,0 +1,25 @@
+mapscripts CeladonCity_DepartmentStore_1F_MapScripts {
+}
+
+script CeladonCity_DepartmentStore_1F_EventScript_FloorSign {
+    msgbox(CeladonCity_DepartmentStore_1F_Text_ServiceCounter, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_DepartmentStore_1F_EventScript_LayoutSign {
+    msgbox(CeladonCity_DepartmentStore_1F_Text_FloorDescriptions, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_DepartmentStore_1F_EventScript_Receptionist {
+    end
+}
+
+
+text CeladonCity_DepartmentStore_1F_Text_FloorDescriptions {
+    format("1F: SERVICE COUNTER\p 2F: TRAINER'S MARKET\p 3F: TV GAME SHOP\p 4F: WISE MAN GIFTS\p 5F: DRUGSTORE\p ROOFTOP SQUARE: VENDING MACHINES")
+}
+
+text CeladonCity_DepartmentStore_1F_Text_ServiceCounter {
+    format("1F: SERVICE COUNTER")
+}

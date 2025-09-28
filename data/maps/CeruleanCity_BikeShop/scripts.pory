@@ -1,0 +1,20 @@
+mapscripts CeruleanCity_BikeShop_MapScripts {
+}
+
+
+script CeruleanCity_BikeShop_EventScript_Clerk {
+    end
+}
+
+script CeruleanCity_BikeShop_EventScript_Woman {
+    end
+}
+
+script CeruleanCity_BikeShop_EventScript_Youngster {
+    end
+}
+
+
+text CeruleanCity_BikeShop_Text_ShinyNewBicycle {
+    format("A shiny new BICYCLE!")
+}

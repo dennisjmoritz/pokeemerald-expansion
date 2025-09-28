@@ -1,0 +1,15 @@
+mapscripts FortreeCity_House1_MapScripts {
+}
+
+script FortreeCity_House1_EventScript_ExpertF {
+    end
+}
+
+script FortreeCity_House1_EventScript_Trader {
+    end
+}
+
+script FortreeCity_House1_EventScript_Zigzagoon {
+    end
+}
+

@@ -1,0 +1,35 @@
+mapscripts SaffronCity_PokemonTrainerFanClub_MapScripts {
+}
+
+script SaffronCity_PokemonTrainerFanClub_EventScript_BattleGirl {
+    end
+}
+
+script SaffronCity_PokemonTrainerFanClub_EventScript_Beauty {
+    end
+}
+
+script SaffronCity_PokemonTrainerFanClub_EventScript_BlackBelt {
+    end
+}
+
+script SaffronCity_PokemonTrainerFanClub_EventScript_Gentleman {
+    end
+}
+
+script SaffronCity_PokemonTrainerFanClub_EventScript_LittleGirl {
+    end
+}
+
+script SaffronCity_PokemonTrainerFanClub_EventScript_Rocker {
+    end
+}
+
+script SaffronCity_PokemonTrainerFanClub_EventScript_Woman {
+    end
+}
+
+script SaffronCity_PokemonTrainerFanClub_EventScript_Youngster {
+    end
+}
+

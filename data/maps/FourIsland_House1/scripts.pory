@@ -1,0 +1,7 @@
+mapscripts FourIsland_House1_MapScripts {
+}
+
+script FourIsland_House1_EventScript_FatMan {
+    end
+}
+

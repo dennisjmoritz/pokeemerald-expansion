@@ -1,0 +1,36 @@
+mapscripts OneIsland_PokemonCenter_1F_MapScripts {
+}
+
+script OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerBottom {
+    end
+}
+
+script OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerMidBottom {
+    end
+}
+
+script OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerMidTop {
+    end
+}
+
+script OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerTop {
+    end
+}
+
+script OneIsland_PokemonCenter_1F_EventScript_NetworkMachine {
+    // lockall
+    // goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, OneIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithHoenn
+    // goto_if_set FLAG_SEVII_DETOUR_FINISHED, OneIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithKanto
+    msgbox(OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script OneIsland_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+
+
+text OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment {
+    format("Network Machine Link Level 0\p …POKéMON Storage System under adjustment…")
+}

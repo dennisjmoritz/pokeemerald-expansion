@@ -1,0 +1,19 @@
+mapscripts MossdeepCity_Mart_MapScripts {
+}
+
+script MossdeepCity_Mart_EventScript_Boy {
+    end
+}
+
+script MossdeepCity_Mart_EventScript_Clerk {
+    end
+}
+
+script MossdeepCity_Mart_EventScript_Sailor {
+    end
+}
+
+script MossdeepCity_Mart_EventScript_Woman {
+    end
+}
+

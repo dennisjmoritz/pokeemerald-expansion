@@ -1,0 +1,7 @@
+mapscripts NewMauville_Entrance_MapScripts {
+}
+
+script NewMauville_Entrance_EventScript_Door {
+    end
+}
+

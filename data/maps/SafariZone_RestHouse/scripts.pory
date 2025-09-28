@@ -1,0 +1,15 @@
+mapscripts SafariZone_RestHouse_MapScripts {
+}
+
+script SafariZone_RestHouse_EventScript_FatMan {
+    end
+}
+
+script SafariZone_RestHouse_EventScript_PsychicM {
+    end
+}
+
+script SafariZone_RestHouse_EventScript_Youngster {
+    end
+}
+

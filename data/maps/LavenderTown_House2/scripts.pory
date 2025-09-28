@@ -1,0 +1,7 @@
+mapscripts LavenderTown_House2_MapScripts {
+}
+
+script LavenderTown_House2_EventScript_NameRater {
+    end
+}
+

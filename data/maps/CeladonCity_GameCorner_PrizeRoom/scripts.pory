@@ -1,0 +1,23 @@
+mapscripts CeladonCity_GameCorner_PrizeRoom_MapScripts {
+}
+
+script CeladonCity_GameCorner_PrizeRoom_EventScript_BaldingMan {
+    end
+}
+
+script CeladonCity_GameCorner_PrizeRoom_EventScript_OldMan {
+    end
+}
+
+script CeladonCity_GameCorner_PrizeRoom_EventScript_PrizeClerkItems {
+    end
+}
+
+script CeladonCity_GameCorner_PrizeRoom_EventScript_PrizeClerkMons {
+    end
+}
+
+script CeladonCity_GameCorner_PrizeRoom_EventScript_PrizeClerkTMs {
+    end
+}
+

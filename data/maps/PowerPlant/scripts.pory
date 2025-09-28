@@ -1,0 +1,15 @@
+mapscripts PowerPlant_MapScripts {
+}
+
+script PowerPlant_EventScript_Electrode1 {
+    end
+}
+
+script PowerPlant_EventScript_Electrode2 {
+    end
+}
+
+script PowerPlant_EventScript_Zapdos {
+    end
+}
+

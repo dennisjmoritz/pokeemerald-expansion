@@ -1,0 +1,31 @@
+mapscripts PokemonTower_5F_MapScripts {
+}
+
+script PokemonTower_5F_EventScript_Channeler {
+    end
+}
+
+script PokemonTower_5F_EventScript_ExitPurifiedZone {
+    end
+}
+
+script PokemonTower_5F_EventScript_Janae {
+    end
+}
+
+script PokemonTower_5F_EventScript_Karina {
+    end
+}
+
+script PokemonTower_5F_EventScript_PurifiedZone {
+    end
+}
+
+script PokemonTower_5F_EventScript_Ruth {
+    end
+}
+
+script PokemonTower_5F_EventScript_Tammy {
+    end
+}
+

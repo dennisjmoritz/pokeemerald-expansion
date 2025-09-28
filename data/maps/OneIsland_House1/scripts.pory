@@ -1,0 +1,11 @@
+mapscripts OneIsland_House1_MapScripts {
+}
+
+script OneIsland_House1_EventScript_OldMan {
+    end
+}
+
+script OneIsland_House1_EventScript_OldWoman {
+    end
+}
+

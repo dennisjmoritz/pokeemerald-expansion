@@ -1,0 +1,11 @@
+mapscripts Route16_House_MapScripts {
+}
+
+script Route16_House_EventScript_Fearow {
+    end
+}
+
+script Route16_House_EventScript_Woman {
+    end
+}
+

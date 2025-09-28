@@ -1,0 +1,85 @@
+mapscripts ViridianForest_MapScripts {
+}
+
+script ViridianForest_EventScript_Anthony {
+    end
+}
+
+script ViridianForest_EventScript_Boy {
+    end
+}
+
+script ViridianForest_EventScript_Charlie {
+    end
+}
+
+script ViridianForest_EventScript_Doug {
+    end
+}
+
+script ViridianForest_EventScript_ExitSign {
+    msgbox(ViridianForest_Text_LeavingViridianForest, MSGBOX_SIGN)
+    end
+}
+
+script ViridianForest_EventScript_Rick {
+    end
+}
+
+script ViridianForest_EventScript_Sammy {
+    end
+}
+
+script ViridianForest_EventScript_TrainerTips1 {
+    msgbox(ViridianForest_Text_AvoidGrassyAreasWhenWeak, MSGBOX_SIGN)
+    end
+}
+
+script ViridianForest_EventScript_TrainerTips2 {
+    msgbox(ViridianForest_Text_UseAntidoteForPoison, MSGBOX_SIGN)
+    end
+}
+
+script ViridianForest_EventScript_TrainerTips3 {
+    msgbox(ViridianForest_Text_ContactOakViaPCToRatePokedex, MSGBOX_SIGN)
+    end
+}
+
+script ViridianForest_EventScript_TrainerTips4 {
+    msgbox(ViridianForest_Text_CantCatchOwnedMons, MSGBOX_SIGN)
+    end
+}
+
+script ViridianForest_EventScript_TrainerTips5 {
+    msgbox(ViridianForest_Text_WeakenMonsBeforeCapture, MSGBOX_SIGN)
+    end
+}
+
+script ViridianForest_EventScript_Youngster {
+    end
+}
+
+
+text ViridianForest_Text_WeakenMonsBeforeCapture {
+    format("TRAINER TIPS\p Weaken POKéMON before attempting capture!\p When healthy, they may escape!")
+}
+
+text ViridianForest_Text_CantCatchOwnedMons {
+    format("TRAINER TIPS\p You can't catch a POKéMON that belongs to someone else.\p Throw POKé BALLS only at wild POKéMON to catch them!")
+}
+
+text ViridianForest_Text_ContactOakViaPCToRatePokedex {
+    format("TRAINER TIPS\p Contact PROF. OAK via a PC to get your POKéDEX evaluated!")
+}
+
+text ViridianForest_Text_AvoidGrassyAreasWhenWeak {
+    format("TRAINER TIPS\p If your POKéMON are weak and you want to avoid battles, stay away\l from grassy areas!")
+}
+
+text ViridianForest_Text_UseAntidoteForPoison {
+    format("For poison, use ANTIDOTE! Get it at POKéMON MARTS!")
+}
+
+text ViridianForest_Text_LeavingViridianForest {
+    format("LEAVING VIRIDIAN FOREST PEWTER CITY AHEAD")
+}

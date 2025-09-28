@@ -1,0 +1,30 @@
+mapscripts Route10_MapScripts {
+}
+
+script Route10_EventScript_NorthRockTunnelSign {
+    msgbox(Route10_Text_RockTunnelDetourToLavender, MSGBOX_SIGN)
+    end
+}
+
+script Route10_EventScript_PowerPlantSign {
+    msgbox(Route10_Text_PowerPlant, MSGBOX_SIGN)
+    end
+}
+
+script Route10_EventScript_SouthRockTunnelSign {
+    msgbox(Route10_Text_RockTunnel, MSGBOX_SIGN)
+    end
+}
+
+
+text Route10_Text_PowerPlant {
+    format("POWER PLANT")
+}
+
+text Route10_Text_RockTunnel {
+    format("ROCK TUNNEL")
+}
+
+text Route10_Text_RockTunnelDetourToLavender {
+    format("ROCK TUNNEL Detour to LAVENDER TOWN")
+}

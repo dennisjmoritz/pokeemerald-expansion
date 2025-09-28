@@ -1,0 +1,7 @@
+mapscripts MtEmber_Summit_MapScripts {
+}
+
+script MtEmber_Summit_EventScript_Moltres {
+    end
+}
+

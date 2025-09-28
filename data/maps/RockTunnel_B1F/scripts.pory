@@ -1,0 +1,35 @@
+mapscripts RockTunnel_B1F_MapScripts {
+}
+
+script RockTunnel_B1F_EventScript_Allen {
+    end
+}
+
+script RockTunnel_B1F_EventScript_Cooper {
+    end
+}
+
+script RockTunnel_B1F_EventScript_Dudley {
+    end
+}
+
+script RockTunnel_B1F_EventScript_Eric {
+    end
+}
+
+script RockTunnel_B1F_EventScript_Martha {
+    end
+}
+
+script RockTunnel_B1F_EventScript_Sofia {
+    end
+}
+
+script RockTunnel_B1F_EventScript_Steve {
+    end
+}
+
+script RockTunnel_B1F_EventScript_Winston {
+    end
+}
+

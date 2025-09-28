@@ -1,0 +1,48 @@
+mapscripts Route124_MapScripts {
+}
+
+script Route124_EventScript_Chad {
+    end
+}
+
+script Route124_EventScript_Declan {
+    end
+}
+
+script Route124_EventScript_Grace {
+    end
+}
+
+script Route124_EventScript_HuntersHouseSign {
+    msgbox(Route124_Text_HuntersHouse, MSGBOX_SIGN)
+    end
+}
+
+script Route124_EventScript_Isabella {
+    end
+}
+
+script Route124_EventScript_Jenny {
+    end
+}
+
+script Route124_EventScript_Lila {
+    end
+}
+
+script Route124_EventScript_Roland {
+    end
+}
+
+script Route124_EventScript_Roy {
+    end
+}
+
+script Route124_EventScript_Spencer {
+    end
+}
+
+
+text Route124_Text_HuntersHouse {
+    format("HUNTER'S HOUSE")
+}

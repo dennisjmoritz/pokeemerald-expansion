@@ -1,0 +1,27 @@
+mapscripts MtEmber_Exterior_MapScripts {
+}
+
+script MtEmber_Exterior_EventScript_Beth {
+    end
+}
+
+script MtEmber_Exterior_EventScript_Grunt1 {
+    end
+}
+
+script MtEmber_Exterior_EventScript_Grunt2 {
+    end
+}
+
+script MtEmber_Exterior_EventScript_Jocelyn {
+    end
+}
+
+script MtEmber_Exterior_EventScript_Logan {
+    end
+}
+
+script MtEmber_Exterior_EventScript_RocketPasswordScene {
+    end
+}
+

@@ -1,0 +1,7 @@
+mapscripts OneIsland_TreasureBeach_MapScripts {
+}
+
+script OneIsland_TreasureBeach_EventScript_Boy {
+    end
+}
+

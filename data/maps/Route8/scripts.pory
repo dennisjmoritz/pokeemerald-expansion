@@ -1,0 +1,12 @@
+mapscripts Route8_MapScripts {
+}
+
+script Route8_EventScript_UndergroundPathSign {
+    msgbox(Route8_Text_UndergroundPathSign, MSGBOX_SIGN)
+    end
+}
+
+
+text Route8_Text_UndergroundPathSign {
+    format("UNDERGROUND PATH CELADON CITY - LAVENDER TOWN")
+}

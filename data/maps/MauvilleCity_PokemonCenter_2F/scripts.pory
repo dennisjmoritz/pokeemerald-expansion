@@ -1,0 +1,7 @@
+mapscripts MauvilleCity_PokemonCenter_2F_MapScripts {
+}
+
+script MauvilleCity_PokemonCenter_2F_EventScript_Youngster {
+    end
+}
+

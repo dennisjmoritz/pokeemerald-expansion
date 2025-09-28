@@ -1,0 +1,21 @@
+mapscripts OneIsland_KindleRoad_MapScripts {
+}
+
+script OneIsland_KindleRoad_EventScript_EmberSpaSign {
+    msgbox(OneIsland_KindleRoad_Text_EmberSpaSign, MSGBOX_SIGN)
+    end
+}
+
+script OneIsland_KindleRoad_EventScript_RouteSign {
+    msgbox(OneIsland_KindleRoad_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+
+text OneIsland_KindleRoad_Text_EmberSpaSign {
+    format("Light the Fire in Your Heart! EMBER SPA")
+}
+
+text OneIsland_KindleRoad_Text_RouteSign {
+    format("This is KINDLE ROAD.\p Go straight for MT. EMBER.")
+}

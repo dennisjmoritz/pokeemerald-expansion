@@ -1,0 +1,15 @@
+mapscripts RustboroCity_House3_MapScripts {
+}
+
+script RustboroCity_House3_EventScript_OldMan {
+    end
+}
+
+script RustboroCity_House3_EventScript_OldWoman {
+    end
+}
+
+script RustboroCity_House3_EventScript_Pekachu {
+    end
+}
+

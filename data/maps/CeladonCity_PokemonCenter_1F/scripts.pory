@@ -1,0 +1,7 @@
+mapscripts CeladonCity_PokemonCenter_1F_MapScripts {
+}
+
+script CeladonCity_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+

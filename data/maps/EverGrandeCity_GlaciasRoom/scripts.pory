@@ -1,0 +1,7 @@
+mapscripts EverGrandeCity_GlaciasRoom_MapScripts {
+}
+
+script EverGrandeCity_GlaciasRoom_EventScript_Glacia {
+    end
+}
+

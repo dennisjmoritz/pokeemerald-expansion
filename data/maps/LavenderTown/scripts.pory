@@ -1,0 +1,51 @@
+mapscripts LavenderTown_MapScripts {
+}
+
+script LavenderTown_EventScript_Boy {
+    end
+}
+
+script LavenderTown_EventScript_LittleGirl {
+    end
+}
+
+script LavenderTown_EventScript_PokemonTowerSign {
+    msgbox(LavenderTown_Text_PokemonTowerSign, MSGBOX_SIGN)
+    end
+}
+
+script LavenderTown_EventScript_SilphScopeNotice {
+    msgbox(LavenderTown_Text_SilphScopeNotice, MSGBOX_SIGN)
+    end
+}
+
+script LavenderTown_EventScript_TownSign {
+    msgbox(LavenderTown_Text_TownSign, MSGBOX_SIGN)
+    end
+}
+
+script LavenderTown_EventScript_VolunteerHouseSign {
+    msgbox(LavenderTown_Text_VolunteerPokemonHouse, MSGBOX_SIGN)
+    end
+}
+
+script LavenderTown_EventScript_WorkerM {
+    end
+}
+
+
+text LavenderTown_Text_TownSign {
+    format("LAVENDER TOWN The Noble Purple Town")
+}
+
+text LavenderTown_Text_PokemonTowerSign {
+    format("POKéMON TOWER Becalm the Spirits of POKéMON")
+}
+
+text LavenderTown_Text_SilphScopeNotice {
+    format("New SILPH SCOPE! Make the Invisible Plain to See!\p SILPH CO.")
+}
+
+text LavenderTown_Text_VolunteerPokemonHouse {
+    format("LAVENDER VOLUNTEER POKéMON HOUSE")
+}

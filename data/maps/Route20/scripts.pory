@@ -1,0 +1,12 @@
+mapscripts Route20_MapScripts {
+}
+
+script Route20_EventScript_SeafoamIslandsSign {
+    msgbox(Route20_Text_SeafoamIslands, MSGBOX_SIGN)
+    end
+}
+
+
+text Route20_Text_SeafoamIslands {
+    format("SEAFOAM ISLANDS")
+}

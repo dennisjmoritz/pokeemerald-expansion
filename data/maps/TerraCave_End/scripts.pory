@@ -1,0 +1,7 @@
+mapscripts TerraCave_End_MapScripts {
+}
+
+script TerraCave_End_EventScript_Groudon {
+    end
+}
+

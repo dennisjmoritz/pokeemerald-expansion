@@ -1,0 +1,11 @@
+mapscripts FourIsland_LoreleisHouse_MapScripts {
+}
+
+script FourIsland_LoreleisHouse_EventScript_Doll {
+    end
+}
+
+script FourIsland_LoreleisHouse_EventScript_Lorelei {
+    end
+}
+

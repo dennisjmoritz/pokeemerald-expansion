@@ -1,0 +1,36 @@
+mapscripts Route22_MapScripts {
+}
+
+script Route22_EventScript_EarlyRivalTriggerBottom {
+    end
+}
+
+script Route22_EventScript_EarlyRivalTriggerMid {
+    end
+}
+
+script Route22_EventScript_EarlyRivalTriggerTop {
+    end
+}
+
+script Route22_EventScript_LateRivalTriggerBottom {
+    end
+}
+
+script Route22_EventScript_LateRivalTriggerMid {
+    end
+}
+
+script Route22_EventScript_LateRivalTriggerTop {
+    end
+}
+
+script Route22_EventScript_LeagueGateSign {
+    msgbox(Route22_Text_LeagueGateSign, MSGBOX_SIGN)
+    end
+}
+
+
+text Route22_Text_LeagueGateSign {
+    format("POKéMON LEAGUE Front Gate")
+}

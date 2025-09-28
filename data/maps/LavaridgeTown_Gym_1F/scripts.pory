@@ -1,0 +1,41 @@
+mapscripts LavaridgeTown_Gym_1F_MapScripts {
+}
+
+script LavaridgeTown_Gym_1F_EventScript_Axle {
+    end
+}
+
+script LavaridgeTown_Gym_1F_EventScript_Cole {
+    end
+}
+
+script LavaridgeTown_Gym_1F_EventScript_Danielle {
+    end
+}
+
+script LavaridgeTown_Gym_1F_EventScript_Flannery {
+    end
+}
+
+script LavaridgeTown_Gym_1F_EventScript_Gerald {
+    end
+}
+
+script LavaridgeTown_Gym_1F_EventScript_GymGuide {
+    end
+}
+
+script LavaridgeTown_Gym_1F_EventScript_LeftGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE04_GET, LavaridgeTown_Gym_1F_EventScript_GymStatueCertified
+    // goto LavaridgeTown_Gym_1F_EventScript_GymStatue
+    end
+}
+
+script LavaridgeTown_Gym_1F_EventScript_RightGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE04_GET, LavaridgeTown_Gym_1F_EventScript_GymStatueCertified
+    // goto LavaridgeTown_Gym_1F_EventScript_GymStatue
+    end
+}
+

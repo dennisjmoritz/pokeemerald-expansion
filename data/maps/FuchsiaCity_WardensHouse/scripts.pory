@@ -1,0 +1,33 @@
+mapscripts FuchsiaCity_WardensHouse_MapScripts {
+}
+
+script FuchsiaCity_WardensHouse_EventScript_DisplaySign1 {
+    msgbox(FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay, MSGBOX_SIGN)
+    end
+}
+
+script FuchsiaCity_WardensHouse_EventScript_DisplaySign2 {
+    msgbox(FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay, MSGBOX_SIGN)
+    end
+}
+
+script FuchsiaCity_WardensHouse_EventScript_ItemRareCandy {
+    end
+}
+
+script FuchsiaCity_WardensHouse_EventScript_PokemonJournalKoga {
+    end
+}
+
+script FuchsiaCity_WardensHouse_EventScript_Warden {
+    end
+}
+
+
+text FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay {
+    format("Old POKéMON merchandise is on display.")
+}
+
+text FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay {
+    format("POKéMON photos and fossils are on display.")
+}

@@ -1,0 +1,62 @@
+mapscripts Route112_MapScripts {
+}
+
+script Route112_EventScript_Brice {
+    end
+}
+
+script Route112_EventScript_Bryant {
+    end
+}
+
+script Route112_EventScript_Carol {
+    end
+}
+
+script Route112_EventScript_Hiker {
+    end
+}
+
+script Route112_EventScript_Larry {
+    end
+}
+
+script Route112_EventScript_MagmaGrunts {
+    end
+}
+
+script Route112_EventScript_MtChimneyCableCarSign {
+    msgbox(Route112_Text_MtChimneyCableCarSign, MSGBOX_SIGN)
+    end
+}
+
+script Route112_EventScript_MtChimneySign {
+    msgbox(Route112_Text_MtChimneySign, MSGBOX_SIGN)
+    end
+}
+
+script Route112_EventScript_RouteSignLavaridge {
+    msgbox(Route112_Text_RouteSignLavaridge, MSGBOX_SIGN)
+    end
+}
+
+script Route112_EventScript_Shayla {
+    end
+}
+
+script Route112_EventScript_Trent {
+    end
+}
+
+
+text Route112_Text_RouteSignLavaridge {
+    format("ROUTE 112 {LEFT_ARROW} LAVARIDGE TOWN")
+}
+
+text Route112_Text_MtChimneyCableCarSign {
+    format("MT. CHIMNEY CABLE CAR “A short walk {UP_ARROW} way!”")
+}
+
+text Route112_Text_MtChimneySign {
+    format("MT. CHIMNEY\p “For LAVARIDGE TOWN or the summit, please take the CABLE CAR.”")
+}

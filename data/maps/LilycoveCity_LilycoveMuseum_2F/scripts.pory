@@ -1,0 +1,74 @@
+mapscripts LilycoveCity_LilycoveMuseum_2F_MapScripts {
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_BeautyPainting {
+    // lockall
+    // goto_if_set FLAG_BEAUTY_PAINTING_MADE, LilycoveCity_LilycoveMuseum_2F_EventScript_ShowBeautyPainting
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsBluePictureFrame, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_CoolPainting {
+    // lockall
+    // goto_if_set FLAG_COOL_PAINTING_MADE, LilycoveCity_LilycoveMuseum_2F_EventScript_ShowCoolPainting
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsRedPictureFrame, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_Curator {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_CutePainting {
+    // lockall
+    // goto_if_set FLAG_CUTE_PAINTING_MADE, LilycoveCity_LilycoveMuseum_2F_EventScript_ShowCutePainting
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsPinkPictureFrame, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_ExpertM {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_Girl {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_RichBoy {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_SmartPainting {
+    // lockall
+    // goto_if_set FLAG_SMART_PAINTING_MADE, LilycoveCity_LilycoveMuseum_2F_EventScript_ShowSmartPainting
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsGreenPictureFrame, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_2F_EventScript_ToughPainting {
+    // lockall
+    // goto_if_set FLAG_TOUGH_PAINTING_MADE, LilycoveCity_LilycoveMuseum_2F_EventScript_ShowToughPainting
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ItsYellowPictureFrame, MSGBOX_SIGN)
+    end
+}
+
+
+text LilycoveCity_LilycoveMuseum_2F_Text_ItsPinkPictureFrame {
+    format("It's a picture frame with pink-colored adornments.")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_ItsRedPictureFrame {
+    format("It's a picture frame with red-colored adornments.")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_ItsGreenPictureFrame {
+    format("It's a picture frame with green-colored adornments.")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_ItsYellowPictureFrame {
+    format("It's a picture frame with yellow-colored adornments.")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_ItsBluePictureFrame {
+    format("It's a picture frame with blue-colored adornments.")
+}

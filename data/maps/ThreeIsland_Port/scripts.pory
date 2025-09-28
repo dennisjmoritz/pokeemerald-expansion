@@ -1,0 +1,15 @@
+mapscripts ThreeIsland_Port_MapScripts {
+}
+
+script ThreeIsland_Port_EventScript_Biker1 {
+    end
+}
+
+script ThreeIsland_Port_EventScript_Biker2 {
+    end
+}
+
+script ThreeIsland_Port_EventScript_Woman {
+    end
+}
+

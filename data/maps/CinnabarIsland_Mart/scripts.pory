@@ -1,0 +1,15 @@
+mapscripts CinnabarIsland_Mart_MapScripts {
+}
+
+script CinnabarIsland_Mart_EventScript_Clerk {
+    end
+}
+
+script CinnabarIsland_Mart_EventScript_Scientist {
+    end
+}
+
+script CinnabarIsland_Mart_EventScript_Woman {
+    end
+}
+

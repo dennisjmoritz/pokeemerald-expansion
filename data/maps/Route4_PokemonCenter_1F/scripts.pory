@@ -1,0 +1,7 @@
+mapscripts Route4_PokemonCenter_1F_MapScripts {
+}
+
+script Route4_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+

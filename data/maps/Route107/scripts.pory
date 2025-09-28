@@ -1,0 +1,31 @@
+mapscripts Route107_MapScripts {
+}
+
+script Route107_EventScript_Beth {
+    end
+}
+
+script Route107_EventScript_Camron {
+    end
+}
+
+script Route107_EventScript_Darrin {
+    end
+}
+
+script Route107_EventScript_Denise {
+    end
+}
+
+script Route107_EventScript_Lisa {
+    end
+}
+
+script Route107_EventScript_Ray {
+    end
+}
+
+script Route107_EventScript_Tony {
+    end
+}
+

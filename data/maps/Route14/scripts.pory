@@ -1,0 +1,12 @@
+mapscripts Route14_MapScripts {
+}
+
+script Route14_EventScript_RouteSign {
+    msgbox(Route14_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+
+text Route14_Text_RouteSign {
+    format("ROUTE 14 West to FUCHSIA CITY")
+}

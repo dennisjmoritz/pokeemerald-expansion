@@ -1,0 +1,19 @@
+mapscripts LavenderTown_Mart_MapScripts {
+}
+
+script LavenderTown_Mart_EventScript_BaldingMan {
+    end
+}
+
+script LavenderTown_Mart_EventScript_Clerk {
+    end
+}
+
+script LavenderTown_Mart_EventScript_Rocker {
+    end
+}
+
+script LavenderTown_Mart_EventScript_Youngster {
+    end
+}
+

@@ -1,0 +1,126 @@
+mapscripts Route119_MapScripts {
+}
+
+script Route119_EventScript_Boy1 {
+    end
+}
+
+script Route119_EventScript_Boy2 {
+    end
+}
+
+script Route119_EventScript_Brent {
+    end
+}
+
+script Route119_EventScript_BridgeAquaGrunt1 {
+    end
+}
+
+script Route119_EventScript_BridgeAquaGrunt2 {
+    end
+}
+
+script Route119_EventScript_Catherine {
+    end
+}
+
+script Route119_EventScript_Chris {
+    end
+}
+
+script Route119_EventScript_CyclingTriathleteM {
+    end
+}
+
+script Route119_EventScript_Dayton {
+    end
+}
+
+script Route119_EventScript_Donald {
+    end
+}
+
+script Route119_EventScript_Doug {
+    end
+}
+
+script Route119_EventScript_Fabian {
+    end
+}
+
+script Route119_EventScript_Greg {
+    end
+}
+
+script Route119_EventScript_Hideo {
+    end
+}
+
+script Route119_EventScript_Hugh {
+    end
+}
+
+script Route119_EventScript_Jackson {
+    end
+}
+
+script Route119_EventScript_Kent {
+    end
+}
+
+script Route119_EventScript_Phil {
+    end
+}
+
+script Route119_EventScript_Rachel {
+    end
+}
+
+script Route119_EventScript_RivalTrigger1 {
+    end
+}
+
+script Route119_EventScript_RivalTrigger2 {
+    end
+}
+
+script Route119_EventScript_RouteSignFortree {
+    msgbox(Route119_Text_RouteSignFortree, MSGBOX_SIGN)
+    end
+}
+
+script Route119_EventScript_Takashi {
+    end
+}
+
+script Route119_EventScript_Taylor {
+    end
+}
+
+script Route119_EventScript_TrainerTipsDecoration {
+    msgbox(Route119_Text_TrainerTipsDecoration, MSGBOX_SIGN)
+    end
+}
+
+script Route119_EventScript_WeatherInstituteSign {
+    msgbox(Route119_Text_WeatherInstitute, MSGBOX_SIGN)
+    end
+}
+
+script Route119_EventScript_Yasu {
+    end
+}
+
+
+text Route119_Text_WeatherInstitute {
+    format("WEATHER INSTITUTE")
+}
+
+text Route119_Text_RouteSignFortree {
+    format("ROUTE 119 {RIGHT_ARROW} FORTREE CITY")
+}
+
+text Route119_Text_TrainerTipsDecoration {
+    format("TRAINER TIPS\p Up to sixteen decorations and furniture items can be placed in\l a SECRET BASE.\p Pick your favorite items and create your very own SECRET BASE exactly the\l way you want.")
+}

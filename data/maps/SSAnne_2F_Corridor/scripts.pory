@@ -1,0 +1,19 @@
+mapscripts SSAnne_2F_Corridor_MapScripts {
+}
+
+script SSAnne_2F_Corridor_EventScript_RivalTriggerLeft {
+    end
+}
+
+script SSAnne_2F_Corridor_EventScript_RivalTriggerMid {
+    end
+}
+
+script SSAnne_2F_Corridor_EventScript_RivalTriggerRight {
+    end
+}
+
+script SSAnne_2F_Corridor_EventScript_Sailor {
+    end
+}
+

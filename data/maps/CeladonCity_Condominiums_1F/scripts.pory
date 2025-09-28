@@ -1,0 +1,28 @@
+mapscripts CeladonCity_Condominiums_1F_MapScripts {
+}
+
+script CeladonCity_Condominiums_1F_EventScript_Clefairy {
+    end
+}
+
+script CeladonCity_Condominiums_1F_EventScript_Meowth {
+    end
+}
+
+script CeladonCity_Condominiums_1F_EventScript_Nidoran {
+    end
+}
+
+script CeladonCity_Condominiums_1F_EventScript_SuiteSign {
+    msgbox(CeladonCity_Condominiums_1F_Text_ManagersSuite, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_Condominiums_1F_EventScript_TeaWoman {
+    end
+}
+
+
+text CeladonCity_Condominiums_1F_Text_ManagersSuite {
+    format("CELADON MANSION Manager's Suite")
+}

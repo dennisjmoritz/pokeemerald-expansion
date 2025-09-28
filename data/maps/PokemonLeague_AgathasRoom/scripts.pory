@@ -1,0 +1,7 @@
+mapscripts PokemonLeague_AgathasRoom_MapScripts {
+}
+
+script PokemonLeague_AgathasRoom_EventScript_Agatha {
+    end
+}
+

@@ -1,0 +1,158 @@
+mapscripts LilycoveCity_ContestHall_MapScripts {
+}
+
+script LilycoveCity_ContestHall_EventScript_BeautyContestAudience1 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_BeautyContestAudience2 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_BeautyContestAudience3 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_BeautyContestJudge {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_BeautyContestMC {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_BeautyContestant1 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_BeautyContestant2 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_BeautyContestant3 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_BeautyContestant4 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_BeautyStageSign {
+    msgbox(LilycoveCity_ContestHall_Text_BeautyContestStage, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_Boy1 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_Boy2 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_CuteContestAudience1 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_CuteContestAudience2 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_CuteContestAudience3 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_CuteContestJudge {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_CuteContestMC {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_CuteContestant1 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_CuteContestant2 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_CuteContestant3 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_CuteContestant4 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_CuteStageSign {
+    msgbox(LilycoveCity_ContestHall_Text_CuteContestStage, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_Girl {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_Sailor {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_SmartContestAudience1 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_SmartContestAudience2 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_SmartContestAudience3 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_SmartContestAudience4 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_SmartContestJudge {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_SmartContestMC {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_SmartContestant1 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_SmartContestant2 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_SmartContestant3 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_SmartContestant4 {
+    end
+}
+
+script LilycoveCity_ContestHall_EventScript_SmartStageSign {
+    msgbox(LilycoveCity_ContestHall_Text_SmartContestStage, MSGBOX_SIGN)
+    end
+}
+
+
+text LilycoveCity_ContestHall_Text_SmartContestStage {
+    format("SMARTNESS CONTEST STAGE BE IMPRESSED BY SMART POKéMON!")
+}
+
+text LilycoveCity_ContestHall_Text_CuteContestStage {
+    format("CUTENESS CONTEST STAGE BE CHARMED BY CUTE POKéMON!")
+}
+
+text LilycoveCity_ContestHall_Text_BeautyContestStage {
+    format("BEAUTY CONTEST STAGE BE ALLURED BY BEAUTIFUL POKéMON!")
+}

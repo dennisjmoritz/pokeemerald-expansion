@@ -1,0 +1,23 @@
+mapscripts Route119_WeatherInstitute_2F_MapScripts {
+}
+
+script Route119_WeatherInstitute_2F_EventScript_Grunt2 {
+    end
+}
+
+script Route119_WeatherInstitute_2F_EventScript_Grunt3 {
+    end
+}
+
+script Route119_WeatherInstitute_2F_EventScript_Grunt5 {
+    end
+}
+
+script Route119_WeatherInstitute_2F_EventScript_Shelly {
+    end
+}
+
+script Route119_WeatherInstitute_2F_EventScript_WeatherScientist {
+    end
+}
+

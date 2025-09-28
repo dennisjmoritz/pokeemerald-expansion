@@ -1,0 +1,46 @@
+mapscripts DewfordTown_MapScripts {
+}
+
+script DewfordTown_EventScript_Briney {
+    end
+}
+
+script DewfordTown_EventScript_GymSign {
+    msgbox(DewfordTown_Text_GymSign, MSGBOX_SIGN)
+    end
+}
+
+script DewfordTown_EventScript_HallSign {
+    msgbox(DewfordTown_Text_HallSign, MSGBOX_SIGN)
+    end
+}
+
+script DewfordTown_EventScript_OldRodFisherman {
+    end
+}
+
+script DewfordTown_EventScript_TownSign {
+    msgbox(DewfordTown_Text_TownSign, MSGBOX_SIGN)
+    end
+}
+
+script DewfordTown_EventScript_TrendyPhraseBoy {
+    end
+}
+
+script DewfordTown_EventScript_Woman {
+    end
+}
+
+
+text DewfordTown_Text_TownSign {
+    format("DEWFORD TOWN “A tiny island in the blue sea.”")
+}
+
+text DewfordTown_Text_HallSign {
+    format("DEWFORD HALL “Everyone's information exchange!”")
+}
+
+text DewfordTown_Text_GymSign {
+    format("DEWFORD TOWN POKéMON GYM LEADER: BRAWLY\l “A big wave in fighting!”")
+}

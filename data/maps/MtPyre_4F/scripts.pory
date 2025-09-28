@@ -1,0 +1,7 @@
+mapscripts MtPyre_4F_MapScripts {
+}
+
+script MtPyre_4F_EventScript_Tasha {
+    end
+}
+

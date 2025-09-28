@@ -1,0 +1,31 @@
+mapscripts OneIsland_KindleRoad_EmberSpa_MapScripts {
+}
+
+script OneIsland_KindleRoad_EmberSpa_EventScript_BaldingMan1 {
+    end
+}
+
+script OneIsland_KindleRoad_EmberSpa_EventScript_BaldingMan2 {
+    end
+}
+
+script OneIsland_KindleRoad_EmberSpa_EventScript_BlackBelt {
+    end
+}
+
+script OneIsland_KindleRoad_EmberSpa_EventScript_OldMan {
+    end
+}
+
+script OneIsland_KindleRoad_EmberSpa_EventScript_OldWoman {
+    end
+}
+
+script OneIsland_KindleRoad_EmberSpa_EventScript_RockSmashMan {
+    end
+}
+
+script OneIsland_KindleRoad_EmberSpa_EventScript_SpaHeal {
+    end
+}
+

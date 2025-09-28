@@ -1,0 +1,31 @@
+mapscripts SlateportCity_PokemonFanClub_MapScripts {
+}
+
+script SlateportCity_PokemonFanClub_EventScript_Azumarill {
+    end
+}
+
+script SlateportCity_PokemonFanClub_EventScript_Chairman {
+    end
+}
+
+script SlateportCity_PokemonFanClub_EventScript_Man {
+    end
+}
+
+script SlateportCity_PokemonFanClub_EventScript_Skitty {
+    end
+}
+
+script SlateportCity_PokemonFanClub_EventScript_SootheBellWoman {
+    end
+}
+
+script SlateportCity_PokemonFanClub_EventScript_Twin {
+    end
+}
+
+script SlateportCity_PokemonFanClub_EventScript_Zigzagoon {
+    end
+}
+

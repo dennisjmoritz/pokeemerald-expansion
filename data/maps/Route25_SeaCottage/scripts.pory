@@ -1,0 +1,20 @@
+mapscripts Route25_SeaCottage_MapScripts {
+}
+
+script Route25_SeaCottage_EventScript_Bill {
+    end
+}
+
+script Route25_SeaCottage_EventScript_Computer {
+    // lockall
+    // goto_if_set RETURN_AFTER_SS_TICKET, Route25_SeaCottage_EventScript_OpenBillsMonList
+    // goto_if_set BILL_IN_TELEPORTER, Route25_SeaCottage_EventScript_RunCellSeparator
+    msgbox(Route25_SeaCottage_Text_TeleporterIsDisplayed, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+
+text Route25_SeaCottage_Text_TeleporterIsDisplayed {
+    format("TELEPORTER is displayed on the PC monitor.")
+}

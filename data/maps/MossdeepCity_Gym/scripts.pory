@@ -1,0 +1,97 @@
+mapscripts MossdeepCity_Gym_MapScripts {
+}
+
+script MossdeepCity_Gym_EventScript_Blake {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_BlueFloorSwitch {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_Clifford {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_GreenFloorSwitch {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_GymGuide {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_Hannah {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_Kathleen {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_LeftGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE07_GET, MossdeepCity_Gym_EventScript_GymStatueCertified
+    // goto MossdeepCity_Gym_EventScript_GymStatue
+    end
+}
+
+script MossdeepCity_Gym_EventScript_Macey {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_Maura {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_Nate {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_Nicholas {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_Preston {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_PurpleFloorSwitch {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_RedFloorSwitch {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_RightGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE07_GET, MossdeepCity_Gym_EventScript_GymStatueCertified
+    // goto MossdeepCity_Gym_EventScript_GymStatue
+    end
+}
+
+script MossdeepCity_Gym_EventScript_Samantha {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_Sylvia {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_TateAndLiza {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_Virgil {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_WarpToEntrance {
+    end
+}
+
+script MossdeepCity_Gym_EventScript_YellowFloorSwitch {
+    end
+}
+

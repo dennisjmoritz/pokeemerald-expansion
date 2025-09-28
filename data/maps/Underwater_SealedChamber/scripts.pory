@@ -1,0 +1,10 @@
+mapscripts Underwater_SealedChamber_MapScripts {
+}
+
+script Underwater_SealedChamber_EventScript_Braille {
+    // lockall
+    // braillemsgbox Underwater_SealedChamber_Braille_GoUpHere
+    // releaseall
+    end
+}
+

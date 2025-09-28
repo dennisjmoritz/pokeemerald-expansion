@@ -1,0 +1,82 @@
+mapscripts Route120_MapScripts {
+}
+
+script Route120_EventScript_Angelica {
+    end
+}
+
+script Route120_EventScript_BerryBeauty {
+    end
+}
+
+
+script Route120_EventScript_Callie {
+    end
+}
+
+script Route120_EventScript_Chip {
+    end
+}
+
+script Route120_EventScript_Clarissa {
+    end
+}
+
+script Route120_EventScript_Colin {
+    end
+}
+
+script Route120_EventScript_Jeffrey {
+    end
+}
+
+script Route120_EventScript_Jenna {
+    end
+}
+
+script Route120_EventScript_Jennifer {
+    end
+}
+
+script Route120_EventScript_Keigo {
+    end
+}
+
+script Route120_EventScript_Leonel {
+    end
+}
+
+script Route120_EventScript_Lorenzo {
+    end
+}
+
+script Route120_EventScript_Riley {
+    end
+}
+
+script Route120_EventScript_Robert {
+    end
+}
+
+script Route120_EventScript_RouteSign121 {
+    msgbox(Route120_Text_RouteSign121, MSGBOX_SIGN)
+    end
+}
+
+script Route120_EventScript_RouteSignFortree {
+    msgbox(Route120_Text_RouteSignFortree, MSGBOX_SIGN)
+    end
+}
+
+script Route120_EventScript_Steven {
+    end
+}
+
+
+text Route120_Text_RouteSign121 {
+    format("{RIGHT_ARROW} ROUTE 121 {LEFT_ARROW} ROUTE 120")
+}
+
+text Route120_Text_RouteSignFortree {
+    format("ROUTE 120 {LEFT_ARROW} FORTREE CITY")
+}

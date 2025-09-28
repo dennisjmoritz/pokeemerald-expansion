@@ -1,0 +1,15 @@
+mapscripts SootopolisCity_Mart_MapScripts {
+}
+
+script SootopolisCity_Mart_EventScript_Clerk {
+    end
+}
+
+script SootopolisCity_Mart_EventScript_FatMan {
+    end
+}
+
+script SootopolisCity_Mart_EventScript_Gentleman {
+    end
+}
+

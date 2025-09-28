@@ -1,0 +1,23 @@
+mapscripts LilycoveCity_DepartmentStore_3F_MapScripts {
+}
+
+script LilycoveCity_DepartmentStore_3F_EventScript_ClerkLeft {
+    end
+}
+
+script LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight {
+    end
+}
+
+script LilycoveCity_DepartmentStore_3F_EventScript_PokefanM {
+    end
+}
+
+script LilycoveCity_DepartmentStore_3F_EventScript_TriathleteM {
+    end
+}
+
+script LilycoveCity_DepartmentStore_3F_EventScript_Woman {
+    end
+}
+

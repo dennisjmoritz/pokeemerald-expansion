@@ -1,0 +1,31 @@
+mapscripts JaggedPass_MapScripts {
+}
+
+script JaggedPass_EventScript_Autumn {
+    end
+}
+
+script JaggedPass_EventScript_Diana {
+    end
+}
+
+script JaggedPass_EventScript_Eric {
+    end
+}
+
+script JaggedPass_EventScript_Ethan {
+    end
+}
+
+script JaggedPass_EventScript_Julio {
+    end
+}
+
+script JaggedPass_EventScript_MagmaHideoutGuard {
+    end
+}
+
+script JaggedPass_EventScript_OpenMagmaHideout {
+    end
+}
+

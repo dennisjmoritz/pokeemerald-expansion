@@ -1,0 +1,162 @@
+mapscripts FuchsiaCity_MapScripts {
+}
+
+script FuchsiaCity_EventScript_ChanseySign {
+    // lockall
+    // setvar VAR_0x8004, SPECIES_CHANSEY
+    // special SetSeenMon
+    // showmonpic SPECIES_CHANSEY, 10, 3
+    msgbox(FuchsiaCity_Text_ChanseySign, MSGBOX_DEFAULT)
+    // hidemonpic
+    // releaseall
+    end
+}
+
+script FuchsiaCity_EventScript_CitySign {
+    msgbox(FuchsiaCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script FuchsiaCity_EventScript_Erik {
+    end
+}
+
+script FuchsiaCity_EventScript_FossilMonSign {
+    // lockall
+    // goto_if_set FLAG_GOT_DOME_FOSSIL, FuchsiaCity_EventScript_OmanyteSign
+    // setvar VAR_0x8004, SPECIES_KABUTO
+    // special SetSeenMon
+    // showmonpic SPECIES_KABUTO, 10, 3
+    msgbox(FuchsiaCity_Text_KabutoSign, MSGBOX_DEFAULT)
+    // hidemonpic
+    // releaseall
+    end
+}
+
+script FuchsiaCity_EventScript_GymSign {
+    // lockall
+    // famechecker FAMECHECKER_KOGA, 0
+    msgbox(FuchsiaCity_Text_GymSign, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script FuchsiaCity_EventScript_KangaskhanSign {
+    // lockall
+    // setvar VAR_0x8004, SPECIES_KANGASKHAN
+    // special SetSeenMon
+    // showmonpic SPECIES_KANGASKHAN, 10, 3
+    msgbox(FuchsiaCity_Text_KangaskhanSign, MSGBOX_DEFAULT)
+    // hidemonpic
+    // releaseall
+    end
+}
+
+script FuchsiaCity_EventScript_LaprasSign {
+    // lockall
+    // setvar VAR_0x8004, SPECIES_LAPRAS
+    // special SetSeenMon
+    // showmonpic SPECIES_LAPRAS, 10, 3
+    msgbox(FuchsiaCity_Text_LaprasSign, MSGBOX_DEFAULT)
+    // hidemonpic
+    // releaseall
+    end
+}
+
+script FuchsiaCity_EventScript_Lass {
+    end
+}
+
+script FuchsiaCity_EventScript_LittleBoy {
+    end
+}
+
+script FuchsiaCity_EventScript_OldMan {
+    end
+}
+
+script FuchsiaCity_EventScript_SafariGameSign {
+    msgbox(FuchsiaCity_Text_SafariGameSign, MSGBOX_SIGN)
+    end
+}
+
+script FuchsiaCity_EventScript_SafariZoneSign {
+    msgbox(FuchsiaCity_Text_SafariZoneSign, MSGBOX_SIGN)
+    end
+}
+
+script FuchsiaCity_EventScript_SlowpokeSign {
+    // lockall
+    // setvar VAR_0x8004, SPECIES_SLOWPOKE
+    // special SetSeenMon
+    // showmonpic SPECIES_SLOWPOKE, 10, 3
+    msgbox(FuchsiaCity_Text_SlowpokeSign, MSGBOX_DEFAULT)
+    // hidemonpic
+    // releaseall
+    end
+}
+
+script FuchsiaCity_EventScript_VoltorbSign {
+    // lockall
+    // setvar VAR_0x8004, SPECIES_VOLTORB
+    // special SetSeenMon
+    // showmonpic SPECIES_VOLTORB, 10, 3
+    msgbox(FuchsiaCity_Text_VoltorbSign, MSGBOX_DEFAULT)
+    // hidemonpic
+    // releaseall
+    end
+}
+
+script FuchsiaCity_EventScript_WardensHomeSign {
+    msgbox(FuchsiaCity_Text_WardensHomeSign, MSGBOX_SIGN)
+    end
+}
+
+script FuchsiaCity_EventScript_Youngster {
+    end
+}
+
+
+text FuchsiaCity_Text_VoltorbSign {
+    format("Name: VOLTORB The very image of a POKé BALL.")
+}
+
+text FuchsiaCity_Text_KangaskhanSign {
+    format("Name: KANGASKHAN\p A maternal POKéMON that raises its young in a pouch on its belly.")
+}
+
+text FuchsiaCity_Text_CitySign {
+    format("FUCHSIA CITY Behold! It's Passion Pink!")
+}
+
+text FuchsiaCity_Text_GymSign {
+    format("FUCHSIA CITY POKéMON GYM LEADER: KOGA\l The Poisonous Ninja Master")
+}
+
+text FuchsiaCity_Text_KabutoSign {
+    format("Name: KABUTO An extremely rare POKéMON that was\l regenerated from a fossil.")
+}
+
+text FuchsiaCity_Text_LaprasSign {
+    format("Name: LAPRAS AKA the king of the seas.")
+}
+
+text FuchsiaCity_Text_WardensHomeSign {
+    format("SAFARI ZONE WARDEN'S HOME")
+}
+
+text FuchsiaCity_Text_SafariZoneSign {
+    format("POKéMON PARADISE SAFARI ZONE")
+}
+
+text FuchsiaCity_Text_SlowpokeSign {
+    format("Name: SLOWPOKE Friendly and very slow moving.")
+}
+
+text FuchsiaCity_Text_ChanseySign {
+    format("Name: CHANSEY Catching one is all up to chance.")
+}
+
+text FuchsiaCity_Text_SafariGameSign {
+    format("SAFARI GAME POKéMON-U-CATCH!")
+}

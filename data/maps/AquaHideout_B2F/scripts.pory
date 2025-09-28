@@ -1,0 +1,22 @@
+mapscripts AquaHideout_B2F_MapScripts {
+}
+
+script AquaHideout_B2F_EventScript_Grunt4 {
+    end
+}
+
+script AquaHideout_B2F_EventScript_Grunt6 {
+    end
+}
+
+script AquaHideout_B2F_EventScript_Grunt8 {
+    end
+}
+
+script AquaHideout_B2F_EventScript_Matt {
+    end
+}
+
+script AquaHideout_B2F_EventScript_MattNoticePlayer {
+    end
+}

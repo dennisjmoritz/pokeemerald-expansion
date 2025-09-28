@@ -1,0 +1,24 @@
+mapscripts PacifidlogTown_MapScripts {
+}
+
+script PacifidlogTown_EventScript_Fisherman {
+    end
+}
+
+script PacifidlogTown_EventScript_Girl {
+    end
+}
+
+script PacifidlogTown_EventScript_NinjaBoy {
+    end
+}
+
+script PacifidlogTown_EventScript_TownSign {
+    msgbox(PacifidlogTown_Text_TownSign, MSGBOX_SIGN)
+    end
+}
+
+
+text PacifidlogTown_Text_TownSign {
+    format("PACIFIDLOG TOWN\p “Where the morning sun smiles upon the waters.”")
+}

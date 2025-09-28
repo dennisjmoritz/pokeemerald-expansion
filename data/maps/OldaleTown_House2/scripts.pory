@@ -1,0 +1,11 @@
+mapscripts OldaleTown_House2_MapScripts {
+}
+
+script OldaleTown_House2_EventScript_Man {
+    end
+}
+
+script OldaleTown_House2_EventScript_Woman {
+    end
+}
+

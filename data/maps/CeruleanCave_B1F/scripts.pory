@@ -1,0 +1,6 @@
+mapscripts CeruleanCave_B1F_MapScripts {
+}
+
+script CeruleanCave_B1F_EventScript_Mewtwo {
+    end
+}

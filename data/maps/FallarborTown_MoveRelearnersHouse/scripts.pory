@@ -1,0 +1,7 @@
+mapscripts FallarborTown_MoveRelearnersHouse_MapScripts {
+}
+
+script FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner {
+    end
+}
+

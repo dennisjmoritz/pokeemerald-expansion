@@ -1,0 +1,11 @@
+mapscripts RustboroCity_House2_MapScripts {
+}
+
+script RustboroCity_House2_EventScript_LittleGirl {
+    end
+}
+
+script RustboroCity_House2_EventScript_PokefanF {
+    end
+}
+

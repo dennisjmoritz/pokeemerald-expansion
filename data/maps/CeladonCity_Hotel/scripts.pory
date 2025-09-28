@@ -1,0 +1,19 @@
+mapscripts CeladonCity_Hotel_MapScripts {
+}
+
+script CeladonCity_Hotel_EventScript_Beauty {
+    end
+}
+
+script CeladonCity_Hotel_EventScript_BeautyBoyfriend {
+    end
+}
+
+script CeladonCity_Hotel_EventScript_BeautyBrother {
+    end
+}
+
+script CeladonCity_Hotel_EventScript_Receptionist {
+    end
+}
+

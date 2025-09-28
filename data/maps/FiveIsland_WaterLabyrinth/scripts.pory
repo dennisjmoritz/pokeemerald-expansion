@@ -1,0 +1,7 @@
+mapscripts FiveIsland_WaterLabyrinth_MapScripts {
+}
+
+script FiveIsland_WaterLabyrinth_EventScript_EggGentleman {
+    end
+}
+

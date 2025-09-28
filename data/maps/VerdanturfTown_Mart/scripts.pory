@@ -1,0 +1,19 @@
+mapscripts VerdanturfTown_Mart_MapScripts {
+}
+
+script VerdanturfTown_Mart_EventScript_Boy {
+    end
+}
+
+script VerdanturfTown_Mart_EventScript_Clerk {
+    end
+}
+
+script VerdanturfTown_Mart_EventScript_ExpertF {
+    end
+}
+
+script VerdanturfTown_Mart_EventScript_Lass {
+    end
+}
+

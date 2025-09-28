@@ -1,0 +1,66 @@
+mapscripts SaffronCity_Dojo_MapScripts {
+}
+
+script SaffronCity_Dojo_EventScript_Aaron {
+    end
+}
+
+script SaffronCity_Dojo_EventScript_Hideki {
+    end
+}
+
+script SaffronCity_Dojo_EventScript_HitmonchanBall {
+    end
+}
+
+script SaffronCity_Dojo_EventScript_HitmonleeBall {
+    end
+}
+
+script SaffronCity_Dojo_EventScript_Hitoshi {
+    end
+}
+
+script SaffronCity_Dojo_EventScript_LeftScroll {
+    msgbox(SaffronCity_Dojo_Text_EnemiesOnEverySide, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_Dojo_EventScript_MasterKoichi {
+    end
+}
+
+script SaffronCity_Dojo_EventScript_Mike {
+    end
+}
+
+script SaffronCity_Dojo_EventScript_RightScroll {
+    msgbox(SaffronCity_Dojo_Text_GoesAroundComesAround, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_Dojo_EventScript_Statue {
+    msgbox(SaffronCity_Dojo_Text_FightingDojo, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_Dojo_EventScript_TriggerMasterBattleLeft {
+    end
+}
+
+script SaffronCity_Dojo_EventScript_TriggerMasterBattleRight {
+    end
+}
+
+
+text SaffronCity_Dojo_Text_GoesAroundComesAround {
+    format("What goes around comes around.")
+}
+
+text SaffronCity_Dojo_Text_FightingDojo {
+    format("FIGHTING DOJO")
+}
+
+text SaffronCity_Dojo_Text_EnemiesOnEverySide {
+    format("Enemies on every side!")
+}

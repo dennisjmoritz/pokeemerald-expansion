@@ -1,0 +1,11 @@
+mapscripts SevenIsland_SevaultCanyon_House_MapScripts {
+}
+
+script SevenIsland_SevaultCanyon_House_EventScript_Chansey {
+    end
+}
+
+script SevenIsland_SevaultCanyon_House_EventScript_ChanseyDanceMan {
+    end
+}
+

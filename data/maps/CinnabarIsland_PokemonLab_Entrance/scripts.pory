@@ -1,0 +1,43 @@
+mapscripts CinnabarIsland_PokemonLab_Entrance_MapScripts {
+}
+
+script CinnabarIsland_PokemonLab_Entrance_EventScript_DrFujiPhoto {
+    msgbox(CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji, MSGBOX_SIGN)
+    end
+}
+
+script CinnabarIsland_PokemonLab_Entrance_EventScript_MeetingRoomSign {
+    msgbox(CinnabarIsland_PokemonLab_Entrance_Text_MeetingRoomSign, MSGBOX_SIGN)
+    end
+}
+
+script CinnabarIsland_PokemonLab_Entrance_EventScript_RAndDRoomSign {
+    msgbox(CinnabarIsland_PokemonLab_Entrance_Text_RAndDRoomSign, MSGBOX_SIGN)
+    end
+}
+
+script CinnabarIsland_PokemonLab_Entrance_EventScript_Scientist {
+    end
+}
+
+script CinnabarIsland_PokemonLab_Entrance_EventScript_TestingRoomSign {
+    msgbox(CinnabarIsland_PokemonLab_Entrance_Text_TestingRoomSign, MSGBOX_SIGN)
+    end
+}
+
+
+text CinnabarIsland_PokemonLab_Entrance_Text_TestingRoomSign {
+    format("POKéMON LAB Testing Room")
+}
+
+text CinnabarIsland_PokemonLab_Entrance_Text_MeetingRoomSign {
+    format("POKéMON LAB Meeting Room")
+}
+
+text CinnabarIsland_PokemonLab_Entrance_Text_RAndDRoomSign {
+    format("POKéMON LAB R & D Room")
+}
+
+text CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji {
+    format("A photo of the LAB's founder… DR. FUJI?!")
+}

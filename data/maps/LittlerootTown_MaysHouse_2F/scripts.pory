@@ -1,0 +1,10 @@
+mapscripts LittlerootTown_MaysHouse_2F_MapScripts {
+}
+
+script LittlerootTown_MaysHouse_2F_EventScript_PC {
+    end
+}
+
+script LittlerootTown_MaysHouse_2F_EventScript_RivalsPokeBall {
+    end
+}

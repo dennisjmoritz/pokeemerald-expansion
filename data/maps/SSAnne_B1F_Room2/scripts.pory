@@ -1,0 +1,11 @@
+mapscripts SSAnne_B1F_Room2_MapScripts {
+}
+
+script SSAnne_B1F_Room2_EventScript_Huey {
+    end
+}
+
+script SSAnne_B1F_Room2_EventScript_ItemTM44 {
+    end
+}
+

@@ -1,0 +1,39 @@
+mapscripts VictoryRoad_3F_MapScripts {
+}
+
+script VictoryRoad_3F_EventScript_Alexa {
+    end
+}
+
+script VictoryRoad_3F_EventScript_Caroline {
+    end
+}
+
+script VictoryRoad_3F_EventScript_Colby {
+    end
+}
+
+script VictoryRoad_3F_EventScript_FloorSwitch {
+    end
+}
+
+script VictoryRoad_3F_EventScript_George {
+    end
+}
+
+script VictoryRoad_3F_EventScript_ItemMaxRevive {
+    end
+}
+
+script VictoryRoad_3F_EventScript_ItemTM50 {
+    end
+}
+
+script VictoryRoad_3F_EventScript_Ray {
+    end
+}
+
+script VictoryRoad_3F_EventScript_Tyra {
+    end
+}
+

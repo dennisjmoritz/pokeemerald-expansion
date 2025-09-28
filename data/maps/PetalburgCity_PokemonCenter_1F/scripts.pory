@@ -1,0 +1,18 @@
+mapscripts PetalburgCity_PokemonCenter_1F_MapScripts {
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_FatMan {
+    end
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_Woman {
+    end
+}
+
+script PetalburgCity_PokemonCenter_1F_EventScript_Youngster {
+    end
+}

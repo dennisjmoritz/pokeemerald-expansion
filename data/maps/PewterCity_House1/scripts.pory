@@ -1,0 +1,15 @@
+mapscripts PewterCity_House1_MapScripts {
+}
+
+script PewterCity_House1_EventScript_BaldingMan {
+    end
+}
+
+script PewterCity_House1_EventScript_LittleBoy {
+    end
+}
+
+script PewterCity_House1_EventScript_Nidoran {
+    end
+}
+

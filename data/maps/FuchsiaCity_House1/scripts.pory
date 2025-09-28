@@ -1,0 +1,15 @@
+mapscripts FuchsiaCity_House1_MapScripts {
+}
+
+script FuchsiaCity_House1_EventScript_LittleBoy {
+    end
+}
+
+script FuchsiaCity_House1_EventScript_OldMan {
+    end
+}
+
+script FuchsiaCity_House1_EventScript_Woman {
+    end
+}
+

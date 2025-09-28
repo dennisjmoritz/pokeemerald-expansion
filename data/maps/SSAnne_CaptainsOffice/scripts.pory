@@ -1,0 +1,25 @@
+mapscripts SSAnne_CaptainsOffice_MapScripts {
+}
+
+script SSAnne_CaptainsOffice_EventScript_Book {
+    msgbox(SSAnne_CaptainsOffice_Text_HowToConquerSeasickness, MSGBOX_SIGN)
+    end
+}
+
+script SSAnne_CaptainsOffice_EventScript_Captain {
+    end
+}
+
+script SSAnne_CaptainsOffice_EventScript_TrashCan {
+    msgbox(SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked, MSGBOX_SIGN)
+    end
+}
+
+
+text SSAnne_CaptainsOffice_Text_HowToConquerSeasickness {
+    format("How to Conquer Seasickness… The CAPTAIN's reading this!")
+}
+
+text SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked {
+    format("Yuck! Shouldn't have looked!")
+}

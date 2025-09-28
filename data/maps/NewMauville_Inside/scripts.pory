@@ -1,0 +1,39 @@
+mapscripts NewMauville_Inside_MapScripts {
+}
+
+script NewMauville_Inside_EventScript_BlueButton {
+    end
+}
+
+script NewMauville_Inside_EventScript_Generator {
+    // lockall
+    // goto_if_eq VAR_NEW_MAUVILLE_STATE, 2, NewMauville_Inside_EventScript_GeneratorOff
+    msgbox(NewMauville_Inside_Text_GeneratorRadiatingHeat, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script NewMauville_Inside_EventScript_GreenButton {
+    end
+}
+
+script NewMauville_Inside_EventScript_RedButton {
+    end
+}
+
+script NewMauville_Inside_EventScript_Voltorb1 {
+    end
+}
+
+script NewMauville_Inside_EventScript_Voltorb2 {
+    end
+}
+
+script NewMauville_Inside_EventScript_Voltorb3 {
+    end
+}
+
+
+text NewMauville_Inside_Text_GeneratorRadiatingHeat {
+    format("The generator is radiating heat that can be felt even at a distance.\p It looks like it should be turned off as soon as possible.")
+}

@@ -1,0 +1,20 @@
+mapscripts FiveIsland_MapScripts {
+}
+
+script FiveIsland_EventScript_BugCatcher {
+    end
+}
+
+script FiveIsland_EventScript_Fisher {
+    end
+}
+
+script FiveIsland_EventScript_IslandSign {
+    msgbox(FiveIsland_Text_IslandSign, MSGBOX_SIGN)
+    end
+}
+
+
+text FiveIsland_Text_IslandSign {
+    format("FIVE ISLAND Chrono Island: Where Time Goes")
+}

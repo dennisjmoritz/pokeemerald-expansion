@@ -1,0 +1,39 @@
+mapscripts UnionRoom_MapScripts {
+}
+
+script UnionRoom_EventScript_Attendant {
+    end
+}
+
+script UnionRoom_EventScript_Player1 {
+    end
+}
+
+script UnionRoom_EventScript_Player2 {
+    end
+}
+
+script UnionRoom_EventScript_Player3 {
+    end
+}
+
+script UnionRoom_EventScript_Player4 {
+    end
+}
+
+script UnionRoom_EventScript_Player5 {
+    end
+}
+
+script UnionRoom_EventScript_Player6 {
+    end
+}
+
+script UnionRoom_EventScript_Player7 {
+    end
+}
+
+script UnionRoom_EventScript_Player8 {
+    end
+}
+

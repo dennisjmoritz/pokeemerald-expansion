@@ -1,0 +1,39 @@
+mapscripts VictoryRoad_1F_MapScripts {
+}
+
+script VictoryRoad_1F_EventScript_Albert {
+    end
+}
+
+script VictoryRoad_1F_EventScript_Edgar {
+    end
+}
+
+script VictoryRoad_1F_EventScript_EntranceWally {
+    end
+}
+
+script VictoryRoad_1F_EventScript_ExitWally {
+    end
+}
+
+script VictoryRoad_1F_EventScript_Hope {
+    end
+}
+
+script VictoryRoad_1F_EventScript_Katelynn {
+    end
+}
+
+script VictoryRoad_1F_EventScript_Quincy {
+    end
+}
+
+script VictoryRoad_1F_EventScript_WallyBattleTrigger1 {
+    end
+}
+
+script VictoryRoad_1F_EventScript_WallyBattleTrigger2 {
+    end
+}
+

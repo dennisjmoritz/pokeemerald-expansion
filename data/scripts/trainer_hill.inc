@@ -66,3 +66,6 @@ TrainerHill_EventScript_TrainerBattle::
 	waitbuttonpress
 	closemessage
 	end
+
+TrainerHill_Entrance_Text_ChallengeTime:
+    .string "Placeholder$"

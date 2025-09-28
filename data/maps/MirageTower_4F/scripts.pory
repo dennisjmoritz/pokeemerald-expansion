@@ -1,0 +1,11 @@
+mapscripts MirageTower_4F_MapScripts {
+}
+
+script MirageTower_4F_EventScript_ClawFossil {
+    end
+}
+
+script MirageTower_4F_EventScript_RootFossil {
+    end
+}
+

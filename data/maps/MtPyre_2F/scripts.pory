@@ -1,0 +1,31 @@
+mapscripts MtPyre_2F_MapScripts {
+}
+
+script MtPyre_2F_EventScript_Dez {
+    end
+}
+
+script MtPyre_2F_EventScript_Leah {
+    end
+}
+
+script MtPyre_2F_EventScript_Luke {
+    end
+}
+
+script MtPyre_2F_EventScript_Mark {
+    end
+}
+
+script MtPyre_2F_EventScript_PokefanM {
+    end
+}
+
+script MtPyre_2F_EventScript_Woman {
+    end
+}
+
+script MtPyre_2F_EventScript_Zander {
+    end
+}
+

@@ -1,0 +1,36 @@
+mapscripts TrainerHill_Entrance_MapScripts {
+}
+
+script TrainerHill_Entrance_EventScript_Attendant {
+    end
+}
+
+script TrainerHill_Entrance_EventScript_Clerk {
+    end
+}
+
+script TrainerHill_Entrance_EventScript_EntryTrigger {
+    end
+}
+
+script TrainerHill_Entrance_EventScript_Girl {
+    end
+}
+
+script TrainerHill_Entrance_EventScript_Man {
+    end
+}
+
+script TrainerHill_Entrance_EventScript_Nurse {
+    end
+}
+
+script TrainerHill_Entrance_EventScript_Records {
+    // lockall
+    // fadescreen FADE_TO_BLACK
+    // special ShowTrainerHillRecords
+    // waitstate
+    // releaseall
+    end
+}
+

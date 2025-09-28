@@ -1,0 +1,23 @@
+mapscripts Route129_MapScripts {
+}
+
+script Route129_EventScript_Allison {
+    end
+}
+
+script Route129_EventScript_Chase {
+    end
+}
+
+script Route129_EventScript_Clarence {
+    end
+}
+
+script Route129_EventScript_Reed {
+    end
+}
+
+script Route129_EventScript_Tisha {
+    end
+}
+

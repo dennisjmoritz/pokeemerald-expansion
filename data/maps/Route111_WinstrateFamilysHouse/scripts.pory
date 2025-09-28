@@ -1,0 +1,19 @@
+mapscripts Route111_WinstrateFamilysHouse_MapScripts {
+}
+
+script Route111_WinstrateFamilysHouse_EventScript_Vicky {
+    end
+}
+
+script Route111_WinstrateFamilysHouse_EventScript_Victor {
+    end
+}
+
+script Route111_WinstrateFamilysHouse_EventScript_Victoria {
+    end
+}
+
+script Route111_WinstrateFamilysHouse_EventScript_Vivi {
+    end
+}
+

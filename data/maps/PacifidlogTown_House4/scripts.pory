@@ -1,0 +1,15 @@
+mapscripts PacifidlogTown_House4_MapScripts {
+}
+
+script PacifidlogTown_House4_EventScript_Boy {
+    end
+}
+
+script PacifidlogTown_House4_EventScript_LittleGirl {
+    end
+}
+
+script PacifidlogTown_House4_EventScript_Woman {
+    end
+}
+

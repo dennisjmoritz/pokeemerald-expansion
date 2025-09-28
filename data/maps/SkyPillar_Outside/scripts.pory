@@ -1,0 +1,7 @@
+mapscripts SkyPillar_Outside_MapScripts {
+}
+
+script SkyPillar_Outside_EventScript_Wallace {
+    end
+}
+

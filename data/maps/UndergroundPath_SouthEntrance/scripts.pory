@@ -1,0 +1,7 @@
+mapscripts UndergroundPath_SouthEntrance_MapScripts {
+}
+
+script UndergroundPath_SouthEntrance_EventScript_Woman {
+    end
+}
+

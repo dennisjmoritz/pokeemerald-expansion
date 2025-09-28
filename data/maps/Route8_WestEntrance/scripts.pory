@@ -1,0 +1,19 @@
+mapscripts Route8_WestEntrance_MapScripts {
+}
+
+script Route8_WestEntrance_EventScript_Guard {
+    end
+}
+
+script Route8_WestEntrance_EventScript_GuardTriggerBottom {
+    end
+}
+
+script Route8_WestEntrance_EventScript_GuardTriggerMid {
+    end
+}
+
+script Route8_WestEntrance_EventScript_GuardTriggerTop {
+    end
+}
+

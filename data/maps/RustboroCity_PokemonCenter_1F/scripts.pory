@@ -1,0 +1,19 @@
+mapscripts RustboroCity_PokemonCenter_1F_MapScripts {
+}
+
+script RustboroCity_PokemonCenter_1F_EventScript_Boy {
+    end
+}
+
+script RustboroCity_PokemonCenter_1F_EventScript_Girl {
+    end
+}
+
+script RustboroCity_PokemonCenter_1F_EventScript_Man {
+    end
+}
+
+script RustboroCity_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+

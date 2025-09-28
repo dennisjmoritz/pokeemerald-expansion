@@ -1,0 +1,11 @@
+mapscripts LittlerootTown_BrendansHouse_2F_MapScripts {
+}
+
+script LittlerootTown_BrendansHouse_2F_EventScript_PC {
+    end
+}
+
+script LittlerootTown_BrendansHouse_2F_EventScript_RivalsPokeBall {
+    end
+}
+

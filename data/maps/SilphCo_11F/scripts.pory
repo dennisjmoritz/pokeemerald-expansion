@@ -1,0 +1,36 @@
+mapscripts SilphCo_11F_MapScripts {
+}
+
+script SilphCo_11F_EventScript_FloorSign {
+    msgbox(SilphCo_11F_Text_FloorSign, MSGBOX_SIGN)
+    end
+}
+
+script SilphCo_11F_EventScript_GiovanniTriggerLeft {
+    end
+}
+
+script SilphCo_11F_EventScript_GiovanniTriggerRight {
+    end
+}
+
+script SilphCo_11F_EventScript_Grunt1 {
+    end
+}
+
+script SilphCo_11F_EventScript_Grunt2 {
+    end
+}
+
+script SilphCo_11F_EventScript_President {
+    end
+}
+
+script SilphCo_11F_EventScript_Secretary {
+    end
+}
+
+
+text SilphCo_11F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 11F")
+}

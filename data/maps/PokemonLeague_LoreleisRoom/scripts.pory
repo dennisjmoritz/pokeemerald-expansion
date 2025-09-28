@@ -1,0 +1,7 @@
+mapscripts PokemonLeague_LoreleisRoom_MapScripts {
+}
+
+script PokemonLeague_LoreleisRoom_EventScript_Lorelei {
+    end
+}
+

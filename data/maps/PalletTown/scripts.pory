@@ -1,0 +1,73 @@
+mapscripts PalletTown_MapScripts {
+}
+
+script PalletTown_EventScript_FatMan {
+    end
+}
+
+script PalletTown_EventScript_OakTriggerLeft {
+    end
+}
+
+script PalletTown_EventScript_OakTriggerRight {
+    end
+}
+
+script PalletTown_EventScript_OaksLabSign {
+    // lockall
+    // famechecker FAMECHECKER_OAK, 0
+    msgbox(PalletTown_Text_OakPokemonResearchLab, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script PalletTown_EventScript_PlayersHouseSign {
+    msgbox(PalletTown_Text_PlayersHouse, MSGBOX_SIGN)
+    end
+}
+
+script PalletTown_EventScript_RivalsHouseSign {
+    msgbox(PalletTown_Text_RivalsHouse, MSGBOX_SIGN)
+    end
+}
+
+script PalletTown_EventScript_SignLady {
+    end
+}
+
+script PalletTown_EventScript_SignLadyTrigger {
+    end
+}
+
+script PalletTown_EventScript_TownSign {
+    msgbox(PalletTown_Text_TownSign, MSGBOX_SIGN)
+    end
+}
+
+script PalletTown_EventScript_TrainerTips {
+    // lockall
+    msgbox(PalletTown_Text_PressStartToOpenMenu, MSGBOX_DEFAULT)
+    // setvar VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY, 1
+    // releaseall
+    end
+}
+
+text PalletTown_Text_PressStartToOpenMenu {
+    format("Press START to open the menu.")
+}
+
+text PalletTown_Text_OakPokemonResearchLab {
+    format("OAK POKéMON RESEARCH LAB")
+}
+
+text PalletTown_Text_TownSign {
+    format("PALLET TOWN Shades of your journey await!")
+}
+
+text PalletTown_Text_PlayersHouse {
+    format("{PLAYER}'s house")
+}
+
+text PalletTown_Text_RivalsHouse {
+    format("{RIVAL}'s house")
+}

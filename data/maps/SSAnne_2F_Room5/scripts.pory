@@ -1,0 +1,11 @@
+mapscripts SSAnne_2F_Room5_MapScripts {
+}
+
+script SSAnne_2F_Room5_EventScript_Gentleman {
+    end
+}
+
+script SSAnne_2F_Room5_EventScript_LittleBoy {
+    end
+}
+

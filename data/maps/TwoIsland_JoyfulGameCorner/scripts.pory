@@ -1,0 +1,15 @@
+mapscripts TwoIsland_JoyfulGameCorner_MapScripts {
+}
+
+script TwoIsland_JoyfulGameCorner_EventScript_InfoMan {
+    end
+}
+
+script TwoIsland_JoyfulGameCorner_EventScript_Lostelle {
+    end
+}
+
+script TwoIsland_JoyfulGameCorner_EventScript_LostellesDaddy {
+    end
+}
+

@@ -1,0 +1,11 @@
+mapscripts MagmaHideout_1F_MapScripts {
+}
+
+script MagmaHideout_1F_EventScript_Grunt1 {
+    end
+}
+
+script MagmaHideout_1F_EventScript_Grunt2 {
+    end
+}
+

@@ -1,0 +1,19 @@
+mapscripts PacifidlogTown_PokemonCenter_1F_MapScripts {
+}
+
+script PacifidlogTown_PokemonCenter_1F_EventScript_Girl {
+    end
+}
+
+script PacifidlogTown_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+
+script PacifidlogTown_PokemonCenter_1F_EventScript_OldMan {
+    end
+}
+
+script PacifidlogTown_PokemonCenter_1F_EventScript_Woman {
+    end
+}
+

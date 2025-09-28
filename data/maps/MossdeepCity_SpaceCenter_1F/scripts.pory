@@ -1,0 +1,47 @@
+mapscripts MossdeepCity_SpaceCenter_1F_MapScripts {
+}
+
+script MossdeepCity_SpaceCenter_1F_EventScript_Grunt1 {
+    end
+}
+
+script MossdeepCity_SpaceCenter_1F_EventScript_Grunt2 {
+    end
+}
+
+script MossdeepCity_SpaceCenter_1F_EventScript_Grunt3 {
+    end
+}
+
+script MossdeepCity_SpaceCenter_1F_EventScript_Grunt4 {
+    end
+}
+
+script MossdeepCity_SpaceCenter_1F_EventScript_MagmaNote {
+    end
+}
+
+script MossdeepCity_SpaceCenter_1F_EventScript_OldMan {
+    end
+}
+
+script MossdeepCity_SpaceCenter_1F_EventScript_RocketLaunchCounter {
+    end
+}
+
+script MossdeepCity_SpaceCenter_1F_EventScript_Scientist {
+    end
+}
+
+script MossdeepCity_SpaceCenter_1F_EventScript_Steven {
+    end
+}
+
+script MossdeepCity_SpaceCenter_1F_EventScript_SunStoneMan {
+    end
+}
+
+script MossdeepCity_SpaceCenter_1F_EventScript_Woman {
+    end
+}
+

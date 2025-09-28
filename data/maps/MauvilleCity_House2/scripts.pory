@@ -1,0 +1,7 @@
+mapscripts MauvilleCity_House2_MapScripts {
+}
+
+script MauvilleCity_House2_EventScript_Woman {
+    end
+}
+

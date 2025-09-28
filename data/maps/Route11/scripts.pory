@@ -1,0 +1,12 @@
+mapscripts Route11_MapScripts {
+}
+
+script Route11_EventScript_DiglettsCaveSign {
+    msgbox(Route11_Text_DiglettsCave, MSGBOX_SIGN)
+    end
+}
+
+
+text Route11_Text_DiglettsCave {
+    format("DIGLETT'S CAVE")
+}

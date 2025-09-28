@@ -1,0 +1,11 @@
+mapscripts FiveIsland_ResortGorgeous_House_MapScripts {
+}
+
+script FiveIsland_ResortGorgeous_House_EventScript_Butler {
+    end
+}
+
+script FiveIsland_ResortGorgeous_House_EventScript_Selphy {
+    end
+}
+

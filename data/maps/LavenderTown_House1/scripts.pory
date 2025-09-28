@@ -1,0 +1,11 @@
+mapscripts LavenderTown_House1_MapScripts {
+}
+
+script LavenderTown_House1_EventScript_CooltrainerF {
+    end
+}
+
+script LavenderTown_House1_EventScript_Cubone {
+    end
+}
+

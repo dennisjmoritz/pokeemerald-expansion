@@ -1,0 +1,7 @@
+mapscripts PokemonLeague_BrunosRoom_MapScripts {
+}
+
+script PokemonLeague_BrunosRoom_EventScript_Bruno {
+    end
+}
+

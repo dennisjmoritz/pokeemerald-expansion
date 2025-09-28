@@ -1,0 +1,7 @@
+mapscripts PewterCity_PokemonCenter_1F_MapScripts {
+}
+
+script PewterCity_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+

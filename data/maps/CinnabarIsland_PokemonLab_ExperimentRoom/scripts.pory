@@ -1,0 +1,11 @@
+mapscripts CinnabarIsland_PokemonLab_ExperimentRoom_MapScripts {
+}
+
+script CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_FossilScientist {
+    end
+}
+
+script CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_Garett {
+    end
+}
+

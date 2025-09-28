@@ -1,0 +1,15 @@
+mapscripts SaffronCity_Mart_MapScripts {
+}
+
+script SaffronCity_Mart_EventScript_Clerk {
+    end
+}
+
+script SaffronCity_Mart_EventScript_Lass {
+    end
+}
+
+script SaffronCity_Mart_EventScript_Youngster {
+    end
+}
+

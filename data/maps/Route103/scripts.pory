@@ -1,0 +1,60 @@
+mapscripts Route103_MapScripts {
+}
+
+script Route103_EventScript_Amy {
+    end
+}
+
+script Route103_EventScript_Andrew {
+    end
+}
+
+script Route103_EventScript_Boy {
+    end
+}
+
+script Route103_EventScript_Daisy {
+    end
+}
+
+script Route103_EventScript_Isabelle {
+    end
+}
+
+script Route103_EventScript_Liv {
+    end
+}
+
+script Route103_EventScript_Man {
+    end
+}
+
+script Route103_EventScript_Marcos {
+    end
+}
+
+script Route103_EventScript_Miguel {
+    end
+}
+
+script Route103_EventScript_Pete {
+    end
+}
+
+script Route103_EventScript_Rhett {
+    end
+}
+
+script Route103_EventScript_Rival {
+    end
+}
+
+script Route103_EventScript_RouteSign {
+    msgbox(Route103_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+
+text Route103_Text_RouteSign {
+    format("ROUTE 103 {DOWN_ARROW} OLDALE TOWN")
+}

@@ -1,0 +1,15 @@
+mapscripts PalletTown_PlayersHouse_2F_MapScripts {
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_NES {
+    end
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_PC {
+    end
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_Sign {
+    end
+}
+

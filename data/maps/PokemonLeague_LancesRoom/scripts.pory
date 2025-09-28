@@ -1,0 +1,7 @@
+mapscripts PokemonLeague_LancesRoom_MapScripts {
+}
+
+script PokemonLeague_LancesRoom_EventScript_Lance {
+    end
+}
+

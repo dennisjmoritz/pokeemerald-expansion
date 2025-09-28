@@ -1,0 +1,11 @@
+mapscripts SSTidalLowerDeck_MapScripts {
+}
+
+script SSTidalLowerDeck_EventScript_Leonard {
+    end
+}
+
+script SSTidalLowerDeck_EventScript_Phillip {
+    end
+}
+

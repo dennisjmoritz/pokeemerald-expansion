@@ -1,0 +1,91 @@
+mapscripts VermilionCity_MapScripts {
+}
+
+script VermilionCity_EventScript_CheckTicketLeft {
+    end
+}
+
+script VermilionCity_EventScript_CheckTicketRight {
+    end
+}
+
+script VermilionCity_EventScript_CitySign {
+    msgbox(VermilionCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script VermilionCity_EventScript_ExitedTicketCheck {
+    end
+}
+
+script VermilionCity_EventScript_FerrySailor {
+    end
+}
+
+script VermilionCity_EventScript_GymSign {
+    // lockall
+    // famechecker FAMECHECKER_LTSURGE, 0
+    msgbox(VermilionCity_Text_GymSign, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script VermilionCity_EventScript_HarborSign {
+    msgbox(VermilionCity_Text_VermilionHarbor, MSGBOX_SIGN)
+    end
+}
+
+script VermilionCity_EventScript_Machop {
+    end
+}
+
+script VermilionCity_EventScript_OaksAide {
+    end
+}
+
+script VermilionCity_EventScript_OldMan1 {
+    end
+}
+
+script VermilionCity_EventScript_OldMan2 {
+    end
+}
+
+script VermilionCity_EventScript_PokemonFanClubSign {
+    msgbox(VermilionCity_Text_PokemonFanClubSign, MSGBOX_SIGN)
+    end
+}
+
+script VermilionCity_EventScript_Sailor {
+    end
+}
+
+script VermilionCity_EventScript_SnorlaxNotice {
+    msgbox(VermilionCity_Text_SnorlaxBlockingRoute12, MSGBOX_SIGN)
+    end
+}
+
+script VermilionCity_EventScript_Woman {
+    end
+}
+
+
+text VermilionCity_Text_PokemonFanClubSign {
+    format("POKéMON FAN CLUB All POKéMON fans welcome!")
+}
+
+text VermilionCity_Text_VermilionHarbor {
+    format("VERMILION HARBOR")
+}
+
+text VermilionCity_Text_GymSign {
+    format("VERMILION CITY POKéMON GYM LEADER: LT. SURGE\l The Lightning American!")
+}
+
+text VermilionCity_Text_SnorlaxBlockingRoute12 {
+    format("NOTICE!\p ROUTE 12 may be blocked off by a sleeping POKéMON.\p Detour through ROCK TUNNEL to LAVENDER TOWN.\p VERMILION POLICE")
+}
+
+text VermilionCity_Text_CitySign {
+    format("VERMILION CITY The Port of Exquisite Sunsets")
+}

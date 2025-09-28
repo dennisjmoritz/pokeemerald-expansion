@@ -1,0 +1,7 @@
+mapscripts LilycoveCity_DepartmentStoreElevator_MapScripts {
+}
+
+script LilycoveCity_DepartmentStoreElevator_EventScript_Attendant {
+    end
+}
+

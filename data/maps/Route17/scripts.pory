@@ -1,0 +1,57 @@
+mapscripts Route17_MapScripts {
+}
+
+script Route17_EventScript_BallsNotice {
+    msgbox(Route17_Text_DontThrowGameThrowBalls, MSGBOX_SIGN)
+    end
+}
+
+script Route17_EventScript_CyclingRoadSign {
+    msgbox(Route17_Text_CyclingRoadSign, MSGBOX_SIGN)
+    end
+}
+
+script Route17_EventScript_ItemsNotice {
+    msgbox(Route17_Text_WatchOutForDiscardedItems, MSGBOX_SIGN)
+    end
+}
+
+script Route17_EventScript_RouteSign {
+    msgbox(Route17_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+script Route17_EventScript_TrainerTips1 {
+    msgbox(Route17_Text_SameSpeciesGrowDifferentRates, MSGBOX_SIGN)
+    end
+}
+
+script Route17_EventScript_TrainerTips2 {
+    msgbox(Route17_Text_PressBToStayInPlace, MSGBOX_SIGN)
+    end
+}
+
+
+text Route17_Text_CyclingRoadSign {
+    format("CYCLING ROAD Slope ends here!")
+}
+
+text Route17_Text_RouteSign {
+    format("ROUTE 17 CELADON CITY - FUCHSIA CITY")
+}
+
+text Route17_Text_PressBToStayInPlace {
+    format("TRAINER TIPS\p Press the B Button to stay in place while on a slope.")
+}
+
+text Route17_Text_SameSpeciesGrowDifferentRates {
+    format("TRAINER TIPS\p All POKéMON are unique.\p Even POKéMON of the same species and level grow at different rates.")
+}
+
+text Route17_Text_WatchOutForDiscardedItems {
+    format("It's a notice.\p Watch out for discarded items.")
+}
+
+text Route17_Text_DontThrowGameThrowBalls {
+    format("It's a notice!\p Don't throw the game, throw POKé BALLS instead!")
+}

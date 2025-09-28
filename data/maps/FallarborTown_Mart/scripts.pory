@@ -1,0 +1,19 @@
+mapscripts FallarborTown_Mart_MapScripts {
+}
+
+script FallarborTown_Mart_EventScript_Clerk {
+    end
+}
+
+script FallarborTown_Mart_EventScript_PokefanM {
+    end
+}
+
+script FallarborTown_Mart_EventScript_Skitty {
+    end
+}
+
+script FallarborTown_Mart_EventScript_Woman {
+    end
+}
+

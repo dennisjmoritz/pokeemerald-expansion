@@ -1,0 +1,16 @@
+mapscripts SevenIsland_House_Room1_MapScripts {
+}
+
+script SevenIsland_House_Room1_EventScript_Box {
+    msgbox(SevenIsland_House_Room1_Text_SlightBreezeAroundBox, MSGBOX_SIGN)
+    end
+}
+
+script SevenIsland_House_Room1_EventScript_OldWoman {
+    end
+}
+
+
+text SevenIsland_House_Room1_Text_SlightBreezeAroundBox {
+    format("There is a slight breeze blowing around the box.")
+}

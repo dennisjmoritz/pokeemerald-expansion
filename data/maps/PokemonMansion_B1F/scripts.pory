@@ -1,0 +1,31 @@
+mapscripts PokemonMansion_B1F_MapScripts {
+}
+
+script PokemonMansion_B1F_EventScript_DiarySep1st {
+    msgbox(PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful, MSGBOX_SIGN)
+    end
+}
+
+script PokemonMansion_B1F_EventScript_Ivan {
+    end
+}
+
+script PokemonMansion_B1F_EventScript_Lewis {
+    end
+}
+
+script PokemonMansion_B1F_EventScript_Statue {
+    // lockall
+    // setvar VAR_0x8004, 3
+    // call PokemonMansion_EventScript_SecretSwitch
+    // playse SE_UNLOCK
+    // special DrawWholeMapView
+    // waitse
+    // releaseall
+    end
+}
+
+
+text PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful {
+    format("Diary: Sept. 1 MEWTWO is far too powerful.\p We have failed to curb its vicious tendencies…")
+}

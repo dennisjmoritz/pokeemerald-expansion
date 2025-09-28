@@ -1,0 +1,15 @@
+mapscripts VerdanturfTown_PokemonCenter_1F_MapScripts {
+}
+
+script VerdanturfTown_PokemonCenter_1F_EventScript_ExpertM {
+    end
+}
+
+script VerdanturfTown_PokemonCenter_1F_EventScript_Gentleman {
+    end
+}
+
+script VerdanturfTown_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+

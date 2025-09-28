@@ -1,0 +1,7 @@
+mapscripts SevenIsland_Harbor_MapScripts {
+}
+
+script SevenIsland_Harbor_EventScript_Sailor {
+    end
+}
+

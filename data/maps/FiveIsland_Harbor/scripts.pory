@@ -1,0 +1,7 @@
+mapscripts FiveIsland_Harbor_MapScripts {
+}
+
+script FiveIsland_Harbor_EventScript_Sailor {
+    end
+}
+

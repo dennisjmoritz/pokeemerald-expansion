@@ -1,0 +1,7 @@
+mapscripts TrainerHill_Roof_MapScripts {
+}
+
+script TrainerHill_Roof_EventScript_Owner {
+    end
+}
+

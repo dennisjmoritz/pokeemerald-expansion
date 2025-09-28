@@ -1,0 +1,117 @@
+mapscripts CeladonCity_MapScripts {
+}
+
+script CeladonCity_EventScript_Boy {
+    end
+}
+
+script CeladonCity_EventScript_CitySign {
+    msgbox(CeladonCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_EventScript_DeptStoreSign {
+    msgbox(CeladonCity_Text_DeptStoreSign, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_EventScript_FatMan {
+    end
+}
+
+script CeladonCity_EventScript_GameCornerSign {
+    msgbox(CeladonCity_Text_GameCornerSign, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_EventScript_GymSign {
+    // lockall
+    // famechecker FAMECHECKER_ERIKA, 0
+    msgbox(CeladonCity_Text_GymSign, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script CeladonCity_EventScript_LittleGirl {
+    end
+}
+
+script CeladonCity_EventScript_MansionSign {
+    msgbox(CeladonCity_Text_MansionSign, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_EventScript_OldMan1 {
+    end
+}
+
+script CeladonCity_EventScript_OldMan2 {
+    end
+}
+
+script CeladonCity_EventScript_Poliwrath {
+    end
+}
+
+script CeladonCity_EventScript_PrizeExchangeSign {
+    msgbox(CeladonCity_Text_PrizeExchangeSign, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_EventScript_RocketGrunt1 {
+    end
+}
+
+script CeladonCity_EventScript_RocketGrunt2 {
+    end
+}
+
+script CeladonCity_EventScript_SilphCoScientist {
+    end
+}
+
+script CeladonCity_EventScript_TrainerTips1 {
+    msgbox(CeladonCity_Text_ExplainXAccuracyDireHit, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_EventScript_TrainerTips2 {
+    msgbox(CeladonCity_Text_GuardSpecProtectsFromStatus, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_EventScript_Woman {
+    end
+}
+
+text CeladonCity_Text_DeptStoreSign {
+    format("Find what you need at the CELADON DEPT. STORE!")
+}
+
+text CeladonCity_Text_PrizeExchangeSign {
+    format("COINS exchanged for prizes! PRIZE EXCHANGE")
+}
+
+text CeladonCity_Text_GameCornerSign {
+    format("ROCKET GAME CORNER The playground for grown-ups!")
+}
+
+text CeladonCity_Text_CitySign {
+    format("CELADON CITY The City of Rainbow Dreams")
+}
+
+text CeladonCity_Text_GuardSpecProtectsFromStatus {
+    format("TRAINER TIPS\p GUARD SPEC. protects POKéMON from status-reduction moves during\l battle.\p Get your items at the CELADON DEPT. STORE!")
+}
+
+text CeladonCity_Text_GymSign {
+    format("CELADON CITY POKéMON GYM LEADER: ERIKA\l The Nature-Loving Princess!")
+}
+
+text CeladonCity_Text_ExplainXAccuracyDireHit {
+    format("TRAINER TIPS\p X ACCURACY boosts the accuracy of techniques.\p DIRE HIT jacks up the likelihood of critical hits.\p Get your items at the CELADON DEPT. STORE!")
+}
+
+text CeladonCity_Text_MansionSign {
+    format("CELADON MANSION")
+}

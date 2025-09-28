@@ -1,0 +1,11 @@
+mapscripts SixIsland_Mart_MapScripts {
+}
+
+script SixIsland_Mart_EventScript_Clerk {
+    end
+}
+
+script SixIsland_Mart_EventScript_Picnicker {
+    end
+}
+

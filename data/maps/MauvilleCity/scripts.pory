@@ -1,0 +1,71 @@
+mapscripts MauvilleCity_MapScripts {
+}
+
+script MauvilleCity_EventScript_BikeShopSign {
+    msgbox(MauvilleCity_Text_BikeShopSign, MSGBOX_SIGN)
+    end
+}
+
+script MauvilleCity_EventScript_Boy {
+    end
+}
+
+script MauvilleCity_EventScript_CitySign {
+    msgbox(MauvilleCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script MauvilleCity_EventScript_GameCornerSign {
+    msgbox(MauvilleCity_Text_GameCornerSign, MSGBOX_SIGN)
+    end
+}
+
+script MauvilleCity_EventScript_GymSign {
+    msgbox(MauvilleCity_Text_GymSign, MSGBOX_SIGN)
+    end
+}
+
+script MauvilleCity_EventScript_Maniac {
+    end
+}
+
+script MauvilleCity_EventScript_RichBoy {
+    end
+}
+
+script MauvilleCity_EventScript_SchoolKidM {
+    end
+}
+
+script MauvilleCity_EventScript_Wally {
+    end
+}
+
+script MauvilleCity_EventScript_WallysUncle {
+    end
+}
+
+script MauvilleCity_EventScript_Wattson {
+    end
+}
+
+script MauvilleCity_EventScript_Woman {
+    end
+}
+
+
+text MauvilleCity_Text_CitySign {
+    format("MAUVILLE CITY “The bright and shiny city of fun!”")
+}
+
+text MauvilleCity_Text_GymSign {
+    format("MAUVILLE CITY POKéMON GYM LEADER: WATTSON\l “The cheerfully electrifying man!”")
+}
+
+text MauvilleCity_Text_BikeShopSign {
+    format("“Ride in gravel and shake up your soul!”\l RYDEL'S CYCLES")
+}
+
+text MauvilleCity_Text_GameCornerSign {
+    format("“The play spot for all!” MAUVILLE GAME CORNER")
+}

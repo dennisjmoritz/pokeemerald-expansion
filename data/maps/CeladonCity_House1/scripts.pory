@@ -1,0 +1,15 @@
+mapscripts CeladonCity_House1_MapScripts {
+}
+
+script CeladonCity_House1_EventScript_Rocket1 {
+    end
+}
+
+script CeladonCity_House1_EventScript_Rocket2 {
+    end
+}
+
+script CeladonCity_House1_EventScript_RocketChief {
+    end
+}
+

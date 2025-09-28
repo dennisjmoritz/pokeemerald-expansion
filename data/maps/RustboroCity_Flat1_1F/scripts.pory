@@ -1,0 +1,11 @@
+mapscripts RustboroCity_Flat1_1F_MapScripts {
+}
+
+script RustboroCity_Flat1_1F_EventScript_Man {
+    end
+}
+
+script RustboroCity_Flat1_1F_EventScript_Woman {
+    end
+}
+

@@ -1,0 +1,7 @@
+mapscripts EverGrandeCity_DrakesRoom_MapScripts {
+}
+
+script EverGrandeCity_DrakesRoom_EventScript_Drake {
+    end
+}
+

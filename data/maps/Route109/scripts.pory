@@ -1,0 +1,105 @@
+mapscripts Route109_MapScripts {
+}
+
+script Route109_EventScript_Alice {
+    end
+}
+
+script Route109_EventScript_Austina {
+    end
+}
+
+script Route109_EventScript_Carter {
+    end
+}
+
+script Route109_EventScript_Chandler {
+    end
+}
+
+script Route109_EventScript_David {
+    end
+}
+
+script Route109_EventScript_Edmond {
+    end
+}
+
+script Route109_EventScript_Elijah {
+    end
+}
+
+script Route109_EventScript_Gwen {
+    end
+}
+
+script Route109_EventScript_Hailey {
+    end
+}
+
+script Route109_EventScript_Huey {
+    end
+}
+
+script Route109_EventScript_Lola {
+    end
+}
+
+script Route109_EventScript_Mel {
+    end
+}
+
+script Route109_EventScript_MrBriney {
+    end
+}
+
+script Route109_EventScript_OldMan {
+    end
+}
+
+script Route109_EventScript_Paul {
+    end
+}
+
+script Route109_EventScript_Ricky {
+    end
+}
+
+script Route109_EventScript_SandCastleBoy {
+    end
+}
+
+script Route109_EventScript_SeashoreHouseGirl {
+    end
+}
+
+script Route109_EventScript_SeashoreHouseSign {
+    msgbox(Route109_Text_SeashoreHouseSign, MSGBOX_SIGN)
+    end
+}
+
+script Route109_EventScript_SoftSandGirl {
+    end
+}
+
+script Route109_EventScript_TrainerTipsSign {
+    msgbox(Route109_Text_TrainerTipsSign, MSGBOX_SIGN)
+    end
+}
+
+script Route109_EventScript_Woman {
+    end
+}
+
+script Route109_EventScript_Zigzagoon {
+    end
+}
+
+
+text Route109_Text_TrainerTipsSign {
+    format("TRAINER TIPS\p POKéMON at the same level may not always have identical stats.\p POKéMON raised by TRAINERS are said to grow stronger than wild POKéMON.")
+}
+
+text Route109_Text_SeashoreHouseSign {
+    format("SEASHORE HOUSE\p “May hot battles rage on hot sands! The place for hot TRAINERS!”")
+}

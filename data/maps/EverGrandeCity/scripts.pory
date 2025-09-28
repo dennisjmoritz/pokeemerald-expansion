@@ -1,0 +1,34 @@
+mapscripts EverGrandeCity_MapScripts {
+}
+
+script EverGrandeCity_EventScript_CitySign {
+    msgbox(EverGrandeCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script EverGrandeCity_EventScript_PokemonLeagueSign {
+    msgbox(EverGrandeCity_Text_EnteringPokemonLeague, MSGBOX_SIGN)
+    end
+}
+
+script EverGrandeCity_EventScript_SetVisitedEverGrande {
+    end
+}
+
+script EverGrandeCity_EventScript_VictoryRoadSign {
+    msgbox(EverGrandeCity_Text_EnteringVictoryRoad, MSGBOX_SIGN)
+    end
+}
+
+
+text EverGrandeCity_Text_CitySign {
+    format("EVER GRANDE CITY\p “The paradise of flowers, the sea, and POKéMON.”")
+}
+
+text EverGrandeCity_Text_EnteringVictoryRoad {
+    format("ENTERING VICTORY ROAD")
+}
+
+text EverGrandeCity_Text_EnteringPokemonLeague {
+    format("ENTERING POKéMON LEAGUE CENTER GATE")
+}

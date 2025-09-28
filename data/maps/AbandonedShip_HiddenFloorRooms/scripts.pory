@@ -1,0 +1,13 @@
+mapscripts AbandonedShip_HiddenFloorRooms_MapScripts {
+}
+
+script AbandonedShip_HiddenFloorRooms_EventScript_Trash {
+    // lockall
+    msgbox(AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+text AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash {
+    format("It's bright and shiny! But it's just trash…")
+}

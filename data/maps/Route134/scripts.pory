@@ -1,0 +1,39 @@
+mapscripts Route134_MapScripts {
+}
+
+script Route134_EventScript_Aaron {
+    end
+}
+
+script Route134_EventScript_Alex {
+    end
+}
+
+script Route134_EventScript_Hitoshi {
+    end
+}
+
+script Route134_EventScript_Hudson {
+    end
+}
+
+script Route134_EventScript_Jack {
+    end
+}
+
+script Route134_EventScript_Kelvin {
+    end
+}
+
+script Route134_EventScript_Laurel {
+    end
+}
+
+script Route134_EventScript_Marley {
+    end
+}
+
+script Route134_EventScript_Reyna {
+    end
+}
+

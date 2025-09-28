@@ -1,0 +1,11 @@
+mapscripts PetalburgCity_House2_MapScripts {
+}
+
+script PetalburgCity_House2_EventScript_SchoolKid {
+    end
+}
+
+script PetalburgCity_House2_EventScript_Woman {
+    end
+}
+

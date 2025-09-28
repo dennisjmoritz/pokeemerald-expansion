@@ -1,0 +1,25 @@
+mapscripts MauvilleCity_BikeShop_MapScripts {
+}
+
+script MauvilleCity_BikeShop_EventScript_AcroBikeHandbook {
+    // message MauvilleCity_BikeShop_Text_AcroHandbookWhichPage
+    // waitmessage
+    // goto MauvilleCity_BikeShop_EventScript_ChooseAcroHandbookPage
+    end
+}
+
+script MauvilleCity_BikeShop_EventScript_Assistant {
+    end
+}
+
+script MauvilleCity_BikeShop_EventScript_MachBikeHandbook {
+    // message MauvilleCity_BikeShop_Text_MachHandbookWhichPage
+    // waitmessage
+    // goto MauvilleCity_BikeShop_EventScript_ChooseMachHandbookPage
+    end
+}
+
+script MauvilleCity_BikeShop_EventScript_Rydel {
+    end
+}
+

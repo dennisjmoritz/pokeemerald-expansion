@@ -1,0 +1,19 @@
+mapscripts PokemonTower_7F_MapScripts {
+}
+
+script PokemonTower_7F_EventScript_Grunt1 {
+    end
+}
+
+script PokemonTower_7F_EventScript_Grunt2 {
+    end
+}
+
+script PokemonTower_7F_EventScript_Grunt3 {
+    end
+}
+
+script PokemonTower_7F_EventScript_MrFuji {
+    end
+}
+

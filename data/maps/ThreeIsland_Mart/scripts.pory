@@ -1,0 +1,19 @@
+mapscripts ThreeIsland_Mart_MapScripts {
+}
+
+script ThreeIsland_Mart_EventScript_BugCatcher {
+    end
+}
+
+script ThreeIsland_Mart_EventScript_Clerk {
+    end
+}
+
+script ThreeIsland_Mart_EventScript_Picnicker {
+    end
+}
+
+script ThreeIsland_Mart_EventScript_Youngster {
+    end
+}
+

@@ -1,0 +1,11 @@
+mapscripts Route113_GlassWorkshop_MapScripts {
+}
+
+script Route113_GlassWorkshop_EventScript_GlassWorker {
+    end
+}
+
+script Route113_GlassWorkshop_EventScript_NinjaBoy {
+    end
+}
+

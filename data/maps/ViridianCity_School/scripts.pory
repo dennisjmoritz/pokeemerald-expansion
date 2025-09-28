@@ -1,0 +1,70 @@
+mapscripts ViridianCity_School_MapScripts {
+}
+
+script ViridianCity_School_EventScript_Blackboard {
+    // lockall
+    msgbox(ViridianCity_School_Text_BlackboardListsStatusProblems, MSGBOX_DEFAULT)
+    // goto ViridianCity_School_EventScript_ChooseBlackboardTopic
+    end
+}
+
+script ViridianCity_School_EventScript_Lass {
+    end
+}
+
+script ViridianCity_School_EventScript_Notebook {
+    // lockall
+    msgbox(ViridianCity_School_Text_NotebookFirstPage, MSGBOX_DEFAULT)
+    msgbox(ViridianCity_School_Text_TurnThePage, MSGBOX_YESNO)
+    // goto_if_eq VAR_RESULT, NO, ViridianCity_School_EventScript_StopReadingNotebook
+    msgbox(ViridianCity_School_Text_NotebookSecondPage, MSGBOX_DEFAULT)
+    msgbox(ViridianCity_School_Text_TurnThePage, MSGBOX_YESNO)
+    // goto_if_eq VAR_RESULT, NO, ViridianCity_School_EventScript_StopReadingNotebook
+    msgbox(ViridianCity_School_Text_NotebookThirdPage, MSGBOX_DEFAULT)
+    msgbox(ViridianCity_School_Text_TurnThePage, MSGBOX_YESNO)
+    // goto_if_eq VAR_RESULT, NO, ViridianCity_School_EventScript_StopReadingNotebook
+    msgbox(ViridianCity_School_Text_NotebookFourthPage, MSGBOX_DEFAULT)
+    // applymovement LOCALID_SCHOOL_LASS, Common_Movement_WalkInPlaceFasterUp
+    // waitmovement 0
+    // textcolor NPC_TEXT_COLOR_FEMALE
+    msgbox(ViridianCity_School_Text_HeyDontLookAtMyNotes, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script ViridianCity_School_EventScript_PokemonJournal {
+    end
+}
+
+script ViridianCity_School_EventScript_Woman {
+    end
+}
+
+
+text ViridianCity_School_Text_NotebookSecondPage {
+    format("Second page…\p A healthy POKéMON may be hard to catch, so weaken it first.\p Poison, burn, or cause another status problem to weaken it.")
+}
+
+text ViridianCity_School_Text_NotebookFourthPage {
+    format("Fourth page…\p The ultimate goal for all POKéMON TRAINERS is simple.\p It is to defeat the top eight POKéMON GYM LEADERS.\p Do so to earn the right to face…\p The ELITE FOUR of the POKéMON LEAGUE!")
+}
+
+text ViridianCity_School_Text_HeyDontLookAtMyNotes {
+    format("GIRL: Hey! Don't look at my notes!")
+}
+
+text ViridianCity_School_Text_BlackboardListsStatusProblems {
+    format("The blackboard lists POKéMON STATUS problems during battles.")
+}
+
+text ViridianCity_School_Text_NotebookThirdPage {
+    format("Third page…\p POKéMON TRAINERS seek others to engage in POKéMON battles.\p To TRAINERS, the taste of victory is sweet, indeed.\p Battles are constantly waged at POKéMON GYMS everywhere.")
+}
+
+text ViridianCity_School_Text_NotebookFirstPage {
+    format("Let's check out the notebook.\p First page…\p POKé BALLS are used to catch POKéMON.\p Up to six POKéMON can be carried in your party.\p People who raise and battle with POKéMON are called TRAINERS.")
+}
+
+text ViridianCity_School_Text_TurnThePage {
+    format("Turn the page?")
+}

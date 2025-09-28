@@ -1,0 +1,64 @@
+mapscripts ThreeIsland_MapScripts {
+}
+
+script ThreeIsland_EventScript_AntiBiker1 {
+    end
+}
+
+script ThreeIsland_EventScript_AntiBiker2 {
+    end
+}
+
+script ThreeIsland_EventScript_BattleBikersTriggerLeft {
+    end
+}
+
+script ThreeIsland_EventScript_BattleBikersTriggerMid {
+    end
+}
+
+script ThreeIsland_EventScript_BattleBikersTriggerMidLeft {
+    end
+}
+
+script ThreeIsland_EventScript_BattleBikersTriggerMidRight {
+    end
+}
+
+script ThreeIsland_EventScript_BattleBikersTriggerRight {
+    end
+}
+
+script ThreeIsland_EventScript_Biker {
+    end
+}
+
+script ThreeIsland_EventScript_Biker6 {
+    end
+}
+
+script ThreeIsland_EventScript_BikerBossIntroTrigger {
+    end
+}
+
+script ThreeIsland_EventScript_Doduo {
+    end
+}
+
+script ThreeIsland_EventScript_IslandSign {
+    msgbox(ThreeIsland_Text_IslandSign, MSGBOX_SIGN)
+    end
+}
+
+script ThreeIsland_EventScript_LittleBoy {
+    end
+}
+
+script ThreeIsland_EventScript_Woman {
+    end
+}
+
+
+text ThreeIsland_Text_IslandSign {
+    format("THREE ISLAND Kin Island of Family Bonding")
+}

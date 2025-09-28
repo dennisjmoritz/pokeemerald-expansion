@@ -1,0 +1,15 @@
+mapscripts SouthernIsland_Exterior_MapScripts {
+}
+
+script SouthernIsland_Exterior_EventScript_Sailor {
+    end
+}
+
+script SouthernIsland_Exterior_EventScript_Sign {
+    msgbox(SouthernIsland_Exterior_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text SouthernIsland_Exterior_Text_Sign1 {
+    format("Southern Island")
+}

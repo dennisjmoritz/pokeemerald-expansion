@@ -1,0 +1,20 @@
+mapscripts FarawayIsland_Entrance_MapScripts {
+}
+
+script FarawayIsland_Entrance_EventScript_ClearWeather {
+    end
+}
+
+script FarawayIsland_Entrance_EventScript_Sailor {
+    end
+}
+
+script FarawayIsland_Entrance_EventScript_SetCloudsWeather {
+    end
+}
+
+script FarawayIsland_Entrance_EventScript_Sign {
+    msgbox(FarawayIsland_Entrance_Text_Sign, MSGBOX_SIGN)
+    end
+}
+

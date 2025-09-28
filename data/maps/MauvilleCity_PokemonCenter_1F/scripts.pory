@@ -1,0 +1,19 @@
+mapscripts MauvilleCity_PokemonCenter_1F_MapScripts {
+}
+
+script MauvilleCity_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+
+script MauvilleCity_PokemonCenter_1F_EventScript_Woman1 {
+    end
+}
+
+script MauvilleCity_PokemonCenter_1F_EventScript_Woman2 {
+    end
+}
+
+script MauvilleCity_PokemonCenter_1F_EventScript_Youngster {
+    end
+}
+

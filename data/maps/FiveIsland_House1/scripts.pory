@@ -1,0 +1,7 @@
+mapscripts FiveIsland_House1_MapScripts {
+}
+
+script FiveIsland_House1_EventScript_Woman {
+    end
+}
+

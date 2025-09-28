@@ -1,0 +1,51 @@
+mapscripts VictoryRoad_2F_MapScripts {
+}
+
+script VictoryRoad_2F_EventScript_Daisuke {
+    end
+}
+
+script VictoryRoad_2F_EventScript_Dawson {
+    end
+}
+
+script VictoryRoad_2F_EventScript_DoubleEdgeTutor {
+    end
+}
+
+script VictoryRoad_2F_EventScript_FloorSwitch1 {
+    end
+}
+
+script VictoryRoad_2F_EventScript_FloorSwitch2 {
+    end
+}
+
+script VictoryRoad_2F_EventScript_Gregory {
+    end
+}
+
+script VictoryRoad_2F_EventScript_ItemFullHeal {
+    end
+}
+
+script VictoryRoad_2F_EventScript_ItemGuardSpec {
+    end
+}
+
+script VictoryRoad_2F_EventScript_ItemTM07 {
+    end
+}
+
+script VictoryRoad_2F_EventScript_ItemTM37 {
+    end
+}
+
+script VictoryRoad_2F_EventScript_Nelson {
+    end
+}
+
+script VictoryRoad_2F_EventScript_Vincent {
+    end
+}
+

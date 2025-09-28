@@ -1,0 +1,7 @@
+mapscripts FourIsland_Harbor_MapScripts {
+}
+
+script FourIsland_Harbor_EventScript_Sailor {
+    end
+}
+

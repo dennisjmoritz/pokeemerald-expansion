@@ -1,0 +1,48 @@
+mapscripts LavenderTown_VolunteerPokemonHouse_MapScripts {
+}
+
+script LavenderTown_VolunteerPokemonHouse_EventScript_Bookshelf {
+    msgbox(LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf, MSGBOX_SIGN)
+    end
+}
+
+script LavenderTown_VolunteerPokemonHouse_EventScript_LittleBoy {
+    end
+}
+
+script LavenderTown_VolunteerPokemonHouse_EventScript_LittleGirl {
+    end
+}
+
+script LavenderTown_VolunteerPokemonHouse_EventScript_MrFuji {
+    end
+}
+
+script LavenderTown_VolunteerPokemonHouse_EventScript_Nidorino {
+    end
+}
+
+script LavenderTown_VolunteerPokemonHouse_EventScript_PokemonFanMagazine {
+    // lockall
+    // famechecker FAMECHECKER_MRFUJI, 2
+    msgbox(LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script LavenderTown_VolunteerPokemonHouse_EventScript_Psyduck {
+    end
+}
+
+script LavenderTown_VolunteerPokemonHouse_EventScript_Youngster {
+    end
+}
+
+
+text LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped {
+    format("POKéMON FAN MAGAZINE Monthly Grand Prize Drawing!\p The application form is…\p Gone! It's been clipped out. Someone must have applied already.")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf {
+    format("POKéMON magazines line the shelf.\p POKéMON INSIDER…\p POKéMON FAN…")
+}

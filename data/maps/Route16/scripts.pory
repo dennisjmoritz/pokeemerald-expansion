@@ -1,0 +1,25 @@
+mapscripts Route16_MapScripts {
+}
+
+script Route16_EventScript_CyclingRoadSign {
+    msgbox(Route16_Text_CyclingRoadSign, MSGBOX_SIGN)
+    end
+}
+
+script Route16_EventScript_RouteSign {
+    msgbox(Route16_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+script Route16_EventScript_Snorlax {
+    end
+}
+
+
+text Route16_Text_RouteSign {
+    format("ROUTE 16 CELADON CITY - FUCHSIA CITY")
+}
+
+text Route16_Text_CyclingRoadSign {
+    format("Enjoy the slope! CYCLING ROAD")
+}

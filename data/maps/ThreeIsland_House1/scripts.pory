@@ -1,0 +1,16 @@
+mapscripts ThreeIsland_House1_MapScripts {
+}
+
+script ThreeIsland_House1_EventScript_DisplayCase {
+    msgbox(ThreeIsland_House1_Text_RareRocksGemsDisplayed, MSGBOX_SIGN)
+    end
+}
+
+script ThreeIsland_House1_EventScript_Lostelle {
+    end
+}
+
+
+text ThreeIsland_House1_Text_RareRocksGemsDisplayed {
+    format("Rare rocks and gems are displayed.")
+}

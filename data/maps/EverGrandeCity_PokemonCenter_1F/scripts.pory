@@ -1,0 +1,19 @@
+mapscripts EverGrandeCity_PokemonCenter_1F_MapScripts {
+}
+
+script EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM {
+    end
+}
+
+script EverGrandeCity_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+
+script EverGrandeCity_PokemonCenter_1F_EventScript_Scott {
+    end
+}
+
+script EverGrandeCity_PokemonCenter_1F_EventScript_Woman {
+    end
+}
+

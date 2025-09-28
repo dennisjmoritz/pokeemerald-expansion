@@ -1,0 +1,11 @@
+mapscripts Route104_MrBrineysHouse_MapScripts {
+}
+
+script Route104_MrBrineysHouse_EventScript_Briney {
+    end
+}
+
+script Route104_MrBrineysHouse_EventScript_Peeko {
+    end
+}
+

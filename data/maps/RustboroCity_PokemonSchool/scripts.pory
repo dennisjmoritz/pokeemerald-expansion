@@ -1,0 +1,51 @@
+mapscripts RustboroCity_PokemonSchool_MapScripts {
+}
+
+script RustboroCity_PokemonSchool_EventScript_Blackboard {
+    // lockall
+    msgbox(RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges, MSGBOX_DEFAULT)
+    // goto RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic
+    end
+}
+
+script RustboroCity_PokemonSchool_EventScript_GameboyKid1 {
+    end
+}
+
+script RustboroCity_PokemonSchool_EventScript_GameboyKid2 {
+    end
+}
+
+script RustboroCity_PokemonSchool_EventScript_Lass {
+    end
+}
+
+script RustboroCity_PokemonSchool_EventScript_RichBoy {
+    end
+}
+
+script RustboroCity_PokemonSchool_EventScript_SchoolKidM {
+    end
+}
+
+script RustboroCity_PokemonSchool_EventScript_Scott {
+    end
+}
+
+script RustboroCity_PokemonSchool_EventScript_StudentNotebook {
+    msgbox(RustboroCity_PokemonSchool_Text_StudentsNotes, MSGBOX_SIGN)
+    end
+}
+
+script RustboroCity_PokemonSchool_EventScript_Teacher {
+    end
+}
+
+
+text RustboroCity_PokemonSchool_Text_StudentsNotes {
+    format("It's this student's notebook…\p POKéMON are to be caught using POKé BALLS.\p Up to six POKéMON can accompany a TRAINER.\p A TRAINER is someone who catches POKéMON, raises them, and battles\l with them.\p A TRAINER's mission is to defeat the strong TRAINERS who await\l challengers in POKéMON GYMS.")
+}
+
+text RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges {
+    format("The blackboard lists status changes that may affect POKéMON in battle.")
+}

@@ -1,0 +1,11 @@
+mapscripts Route11_EastEntrance_1F_MapScripts {
+}
+
+script Route11_EastEntrance_1F_EventScript_BottomGuard {
+    end
+}
+
+script Route11_EastEntrance_1F_EventScript_TopGuard {
+    end
+}
+

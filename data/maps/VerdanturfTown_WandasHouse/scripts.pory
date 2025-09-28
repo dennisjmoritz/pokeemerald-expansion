@@ -1,0 +1,23 @@
+mapscripts VerdanturfTown_WandasHouse_MapScripts {
+}
+
+script VerdanturfTown_WandasHouse_EventScript_Wally {
+    end
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WallysAunt {
+    end
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WallysUncle {
+    end
+}
+
+script VerdanturfTown_WandasHouse_EventScript_Wanda {
+    end
+}
+
+script VerdanturfTown_WandasHouse_EventScript_WandasBoyfriend {
+    end
+}
+

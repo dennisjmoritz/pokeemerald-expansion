@@ -1,0 +1,11 @@
+mapscripts RustboroCity_House1_MapScripts {
+}
+
+script RustboroCity_House1_EventScript_Hiker {
+    end
+}
+
+script RustboroCity_House1_EventScript_Trader {
+    end
+}
+

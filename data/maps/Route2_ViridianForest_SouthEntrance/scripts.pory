@@ -1,0 +1,11 @@
+mapscripts Route2_ViridianForest_SouthEntrance_MapScripts {
+}
+
+script Route2_ViridianForest_SouthEntrance_EventScript_Woman1 {
+    end
+}
+
+script Route2_ViridianForest_SouthEntrance_EventScript_Woman2 {
+    end
+}
+

@@ -1,0 +1,33 @@
+mapscripts Route16_NorthEntrance_2F_MapScripts {
+}
+
+script Route16_NorthEntrance_2F_EventScript_Aide {
+    end
+}
+
+script Route16_NorthEntrance_2F_EventScript_LeftBinoculars {
+    msgbox(Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore, MSGBOX_SIGN)
+    end
+}
+
+script Route16_NorthEntrance_2F_EventScript_LittleBoy {
+    end
+}
+
+script Route16_NorthEntrance_2F_EventScript_LittleGirl {
+    end
+}
+
+script Route16_NorthEntrance_2F_EventScript_RightBinoculars {
+    msgbox(Route16_NorthEntrance_2F_Text_LongPathOverWater, MSGBOX_SIGN)
+    end
+}
+
+
+text Route16_NorthEntrance_2F_Text_LongPathOverWater {
+    format("Let's see what the binoculars have to show…\p There's a long path over water far away.")
+}
+
+text Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore {
+    format("Let's see what the binoculars have to show…\p It's the CELADON DEPT. STORE!")
+}

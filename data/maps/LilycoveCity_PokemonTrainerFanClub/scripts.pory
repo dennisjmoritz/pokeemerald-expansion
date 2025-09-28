@@ -1,0 +1,39 @@
+mapscripts LilycoveCity_PokemonTrainerFanClub_MapScripts {
+}
+
+script LilycoveCity_PokemonTrainerFanClub_EventScript_Boy {
+    end
+}
+
+script LilycoveCity_PokemonTrainerFanClub_EventScript_ExpertF {
+    end
+}
+
+script LilycoveCity_PokemonTrainerFanClub_EventScript_Interviewer {
+    end
+}
+
+script LilycoveCity_PokemonTrainerFanClub_EventScript_Lass {
+    end
+}
+
+script LilycoveCity_PokemonTrainerFanClub_EventScript_LittleGirl {
+    end
+}
+
+script LilycoveCity_PokemonTrainerFanClub_EventScript_Man {
+    end
+}
+
+script LilycoveCity_PokemonTrainerFanClub_EventScript_NinjaBoy {
+    end
+}
+
+script LilycoveCity_PokemonTrainerFanClub_EventScript_PokefanM {
+    end
+}
+
+script LilycoveCity_PokemonTrainerFanClub_EventScript_Woman {
+    end
+}
+

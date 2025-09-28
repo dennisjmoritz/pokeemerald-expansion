@@ -1,0 +1,140 @@
+mapscripts LilycoveCity_ContestLobby_MapScripts {
+}
+
+script LilycoveCity_ContestLobby_EventScript_Artist {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_BerryBlenderSpeedRecords {
+    // lockall
+    // special ShowBerryBlenderRecordWindow
+    // waitbuttonpress
+    // special RemoveRecordsWindow
+    // releaseall
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_BlackBelt {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_BlendMaster {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker1 {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker2 {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker3 {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker4 {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker5 {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker6 {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_Blender3Boy {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_Blender3Girl {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_ContestReceptionist {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_ContestWinner1 {
+    // lockall
+    // fadescreen FADE_TO_BLACK
+    // showcontestpainting CONTEST_WINNER_HALL_1
+    // releaseall
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_ContestWinner2 {
+    // lockall
+    // fadescreen FADE_TO_BLACK
+    // showcontestpainting CONTEST_WINNER_HALL_2
+    // releaseall
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_ContestWinner3 {
+    // lockall
+    // fadescreen FADE_TO_BLACK
+    // showcontestpainting CONTEST_WINNER_HALL_3
+    // releaseall
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_ContestWinner4 {
+    // lockall
+    // fadescreen FADE_TO_BLACK
+    // showcontestpainting CONTEST_WINNER_HALL_4
+    // releaseall
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_ContestWinner5 {
+    // lockall
+    // fadescreen FADE_TO_BLACK
+    // showcontestpainting CONTEST_WINNER_HALL_5
+    // releaseall
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_ContestWinner6 {
+    // lockall
+    // fadescreen FADE_TO_BLACK
+    // showcontestpainting CONTEST_WINNER_HALL_6
+    // releaseall
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_FatMan {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_Fisherman {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_Girl {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_LinkContestReceptionist {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_LinkContestResults {
+    // lockall
+    // frontier_results FACILITY_LINK_CONTEST
+    // waitbuttonpress
+    // special RemoveRecordsWindow
+    // releaseall
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_LittleGirl {
+    end
+}
+
+script LilycoveCity_ContestLobby_EventScript_NinjaBoy {
+    end
+}

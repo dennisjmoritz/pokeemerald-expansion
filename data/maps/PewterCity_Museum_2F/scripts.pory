@@ -1,0 +1,41 @@
+mapscripts PewterCity_Museum_2F_MapScripts {
+}
+
+script PewterCity_Museum_2F_EventScript_BaldingMan {
+    end
+}
+
+script PewterCity_Museum_2F_EventScript_LittleGirl {
+    end
+}
+
+script PewterCity_Museum_2F_EventScript_Man {
+    end
+}
+
+script PewterCity_Museum_2F_EventScript_MoonStone {
+    msgbox(PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon, MSGBOX_SIGN)
+    end
+}
+
+script PewterCity_Museum_2F_EventScript_OldMan {
+    end
+}
+
+script PewterCity_Museum_2F_EventScript_Scientist {
+    end
+}
+
+script PewterCity_Museum_2F_EventScript_SpaceShuttle {
+    msgbox(PewterCity_Museum_1F_Text_SpaceShuttle, MSGBOX_SIGN)
+    end
+}
+
+
+text PewterCity_Museum_1F_Text_SpaceShuttle {
+    format("Space Shuttle")
+}
+
+text PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon {
+    format("A meteorite that fell on MT. MOON. It is thought to be a MOON STONE.")
+}

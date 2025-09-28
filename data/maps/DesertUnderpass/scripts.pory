@@ -1,0 +1,7 @@
+mapscripts DesertUnderpass_MapScripts {
+}
+
+script DesertUnderpass_EventScript_Fossil {
+    end
+}
+

@@ -1,0 +1,15 @@
+mapscripts Route24_MapScripts {
+}
+
+script Route24_EventScript_Rocket {
+    end
+}
+
+script Route24_EventScript_RocketTriggerLeft {
+    end
+}
+
+script Route24_EventScript_RocketTriggerRight {
+    end
+}
+

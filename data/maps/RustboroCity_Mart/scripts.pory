@@ -1,0 +1,19 @@
+mapscripts RustboroCity_Mart_MapScripts {
+}
+
+script RustboroCity_Mart_EventScript_Boy {
+    end
+}
+
+script RustboroCity_Mart_EventScript_BugCatcher {
+    end
+}
+
+script RustboroCity_Mart_EventScript_Clerk {
+    end
+}
+
+script RustboroCity_Mart_EventScript_PokefanF {
+    end
+}
+

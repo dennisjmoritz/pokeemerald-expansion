@@ -1,0 +1,36 @@
+mapscripts Route119_WeatherInstitute_1F_MapScripts {
+}
+
+script Route119_WeatherInstitute_1F_EventScript_Bed {
+    // lockall
+    msgbox(Route119_WeatherInstitute_1F_Text_TakeRestInBed, MSGBOX_DEFAULT)
+    // closemessage
+    // // FIXME undefined reference: 	call Common_EventScript_OutOfCenterPartyHeal
+    // releaseall
+    end
+}
+
+script Route119_WeatherInstitute_1F_EventScript_Grunt1 {
+    end
+}
+
+script Route119_WeatherInstitute_1F_EventScript_Grunt4 {
+    end
+}
+
+script Route119_WeatherInstitute_1F_EventScript_InstituteWorker1 {
+    end
+}
+
+script Route119_WeatherInstitute_1F_EventScript_InstituteWorker2 {
+    end
+}
+
+script Route119_WeatherInstitute_1F_EventScript_LittleBoy {
+    end
+}
+
+
+text Route119_WeatherInstitute_1F_Text_TakeRestInBed {
+    format("There's a bed… Let's take a rest.")
+}

@@ -1,0 +1,51 @@
+mapscripts MtPyre_Summit_MapScripts {
+}
+
+script MtPyre_Summit_EventScript_ArchieMaxieTrigger0 {
+    end
+}
+
+script MtPyre_Summit_EventScript_ArchieMaxieTrigger1 {
+    end
+}
+
+script MtPyre_Summit_EventScript_ArchieMaxieTrigger2 {
+    end
+}
+
+script MtPyre_Summit_EventScript_Grunt1 {
+    end
+}
+
+script MtPyre_Summit_EventScript_Grunt2 {
+    end
+}
+
+script MtPyre_Summit_EventScript_Grunt3 {
+    end
+}
+
+script MtPyre_Summit_EventScript_Grunt4 {
+    end
+}
+
+script MtPyre_Summit_EventScript_OldLady {
+    end
+}
+
+script MtPyre_Summit_EventScript_OldMan {
+    end
+}
+
+script MtPyre_Summit_EventScript_TeamAquaTrigger0 {
+    end
+}
+
+script MtPyre_Summit_EventScript_TeamAquaTrigger1 {
+    end
+}
+
+script MtPyre_Summit_EventScript_TeamAquaTrigger2 {
+    end
+}
+

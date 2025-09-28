@@ -1,0 +1,25 @@
+mapscripts Route18_EastEntrance_2F_MapScripts {
+}
+
+script Route18_EastEntrance_2F_EventScript_Haden {
+    end
+}
+
+script Route18_EastEntrance_2F_EventScript_LeftBinoculars {
+    msgbox(Route18_EastEntrance_2F_Text_PalletTownInWest, MSGBOX_SIGN)
+    end
+}
+
+script Route18_EastEntrance_2F_EventScript_RightBinoculars {
+    msgbox(Route18_EastEntrance_2F_Text_PeopleSwimming, MSGBOX_SIGN)
+    end
+}
+
+
+text Route18_EastEntrance_2F_Text_PeopleSwimming {
+    format("Let's see what the binoculars have to show…\p There are people swimming.")
+}
+
+text Route18_EastEntrance_2F_Text_PalletTownInWest {
+    format("Let's see what the binoculars have to show…\p PALLET TOWN is in the west.")
+}

@@ -1,0 +1,24 @@
+mapscripts SaffronCity_House_MapScripts {
+}
+
+script SaffronCity_House_EventScript_Lass {
+    end
+}
+
+script SaffronCity_House_EventScript_Letter {
+    msgbox(SaffronCity_House_Text_ExplainPPUp, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_House_EventScript_Pidgey {
+    end
+}
+
+script SaffronCity_House_EventScript_Youngster {
+    end
+}
+
+
+text SaffronCity_House_Text_ExplainPPUp {
+    format("I was given a PP UP as a gift.\p It's used to increase the PP of a POKéMON's move.\p I should use it on a powerful move with only a few PP.")
+}

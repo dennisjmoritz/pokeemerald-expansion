@@ -1,0 +1,20 @@
+mapscripts RustboroCity_DevonCorp_3F_MapScripts {
+}
+
+script RustboroCity_DevonCorp_3F_EventScript_Employee {
+    end
+}
+
+script RustboroCity_DevonCorp_3F_EventScript_MrStone {
+    end
+}
+
+script RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay {
+    msgbox(RustboroCity_DevonCorp_3F_Text_RareRocksDisplay, MSGBOX_SIGN)
+    end
+}
+
+
+text RustboroCity_DevonCorp_3F_Text_RareRocksDisplay {
+    format("It's a collection of rare rocks and stones assembled by the PRESIDENT.")
+}

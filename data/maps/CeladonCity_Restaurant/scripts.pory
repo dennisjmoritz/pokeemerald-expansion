@@ -1,0 +1,23 @@
+mapscripts CeladonCity_Restaurant_MapScripts {
+}
+
+script CeladonCity_Restaurant_EventScript_Chef {
+    end
+}
+
+script CeladonCity_Restaurant_EventScript_CoinCaseMan {
+    end
+}
+
+script CeladonCity_Restaurant_EventScript_FatMan {
+    end
+}
+
+script CeladonCity_Restaurant_EventScript_Woman {
+    end
+}
+
+script CeladonCity_Restaurant_EventScript_WorkerM {
+    end
+}
+

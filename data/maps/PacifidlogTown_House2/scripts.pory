@@ -1,0 +1,15 @@
+mapscripts PacifidlogTown_House2_MapScripts {
+}
+
+script PacifidlogTown_House2_EventScript_FanClubYoungerBrother {
+    end
+}
+
+script PacifidlogTown_House2_EventScript_HappyAzurill {
+    end
+}
+
+script PacifidlogTown_House2_EventScript_UnhappyAzurill {
+    end
+}
+

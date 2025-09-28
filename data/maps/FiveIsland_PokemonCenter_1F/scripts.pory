@@ -1,0 +1,7 @@
+mapscripts FiveIsland_PokemonCenter_1F_MapScripts {
+}
+
+script FiveIsland_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+

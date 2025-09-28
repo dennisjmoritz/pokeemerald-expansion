@@ -1,0 +1,28 @@
+mapscripts SilphCo_9F_MapScripts {
+}
+
+script SilphCo_9F_EventScript_Ed {
+    end
+}
+
+script SilphCo_9F_EventScript_FloorSign {
+    msgbox(SilphCo_9F_Text_FloorSign, MSGBOX_SIGN)
+    end
+}
+
+script SilphCo_9F_EventScript_Grunt1 {
+    end
+}
+
+script SilphCo_9F_EventScript_Grunt2 {
+    end
+}
+
+script SilphCo_9F_EventScript_HealWoman {
+    end
+}
+
+
+text SilphCo_9F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 9F")
+}

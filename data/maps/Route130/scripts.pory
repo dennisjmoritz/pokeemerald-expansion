@@ -1,0 +1,15 @@
+mapscripts Route130_MapScripts {
+}
+
+script Route130_EventScript_Katie {
+    end
+}
+
+script Route130_EventScript_Rodney {
+    end
+}
+
+script Route130_EventScript_Santiago {
+    end
+}
+

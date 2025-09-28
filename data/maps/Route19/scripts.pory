@@ -1,0 +1,12 @@
+mapscripts Route19_MapScripts {
+}
+
+script Route19_EventScript_RouteSign {
+    msgbox(Route19_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+
+text Route19_Text_RouteSign {
+    format("SEA ROUTE 19 FUCHSIA CITY - SEAFOAM ISLANDS")
+}

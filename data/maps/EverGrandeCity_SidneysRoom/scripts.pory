@@ -1,0 +1,7 @@
+mapscripts EverGrandeCity_SidneysRoom_MapScripts {
+}
+
+script EverGrandeCity_SidneysRoom_EventScript_Sidney {
+    end
+}
+

@@ -1,0 +1,25 @@
+mapscripts SootopolisCity_Gym_1F_MapScripts {
+}
+
+script SootopolisCity_Gym_1F_EventScript_GymGuide {
+    end
+}
+
+script SootopolisCity_Gym_1F_EventScript_Juan {
+    end
+}
+
+script SootopolisCity_Gym_1F_EventScript_LeftGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE08_GET, SootopolisCity_Gym_1F_EventScript_GymStatueCertified
+    // goto SootopolisCity_Gym_1F_EventScript_GymStatue
+    end
+}
+
+script SootopolisCity_Gym_1F_EventScript_RightGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE08_GET, SootopolisCity_Gym_1F_EventScript_GymStatueCertified
+    // goto SootopolisCity_Gym_1F_EventScript_GymStatue
+    end
+}
+

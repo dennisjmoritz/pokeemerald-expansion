@@ -1,0 +1,78 @@
+mapscripts PetalburgCity_MapScripts {
+}
+
+script PetalburgCity_EventScript_Boy {
+    end
+}
+
+script PetalburgCity_EventScript_CitySign {
+    msgbox(PetalburgCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script PetalburgCity_EventScript_Gentleman {
+    end
+}
+
+script PetalburgCity_EventScript_GymBoy {
+    end
+}
+
+script PetalburgCity_EventScript_GymSign {
+    msgbox(PetalburgCity_Text_GymSign, MSGBOX_SIGN)
+    end
+}
+
+script PetalburgCity_EventScript_Scott0 {
+    end
+}
+
+script PetalburgCity_EventScript_Scott1 {
+    end
+}
+
+script PetalburgCity_EventScript_Scott2 {
+    end
+}
+
+script PetalburgCity_EventScript_Scott3 {
+    end
+}
+
+script PetalburgCity_EventScript_ShowGymToPlayer0 {
+    end
+}
+
+script PetalburgCity_EventScript_ShowGymToPlayer1 {
+    end
+}
+
+script PetalburgCity_EventScript_ShowGymToPlayer2 {
+    end
+}
+
+script PetalburgCity_EventScript_ShowGymToPlayer3 {
+    end
+}
+
+script PetalburgCity_EventScript_WallyHouseSign {
+    msgbox(PetalburgCity_Text_WallyHouseSign, MSGBOX_SIGN)
+    end
+}
+
+script PetalburgCity_EventScript_WallysMom {
+    end
+}
+
+
+text PetalburgCity_Text_CitySign {
+    format("PETALBURG CITY “Where people mingle with nature.”")
+}
+
+text PetalburgCity_Text_WallyHouseSign {
+    format("WALLY'S HOUSE")
+}
+
+text PetalburgCity_Text_GymSign {
+    format("PETALBURG CITY POKéMON GYM LEADER: NORMAN\l “A man in pursuit of power!”")
+}

@@ -1,0 +1,27 @@
+mapscripts SafariZone_South_MapScripts {
+}
+
+script SafariZone_South_EventScript_Boy {
+    end
+}
+
+script SafariZone_South_EventScript_ConstructionWorker1 {
+    end
+}
+
+script SafariZone_South_EventScript_ConstructionWorker2 {
+    end
+}
+
+script SafariZone_South_EventScript_ExitAttendant {
+    end
+}
+
+script SafariZone_South_EventScript_Man {
+    end
+}
+
+script SafariZone_South_EventScript_Youngster {
+    end
+}
+

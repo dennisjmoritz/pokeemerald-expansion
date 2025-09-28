@@ -1,0 +1,6 @@
+mapscripts AbandonedShip_Rooms_B1F_MapScripts {
+}
+
+script AbandonedShip_Rooms_B1F_EventScript_FatMan {
+    end
+}

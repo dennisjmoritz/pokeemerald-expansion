@@ -1,0 +1,27 @@
+mapscripts LilycoveCity_House3_MapScripts {
+}
+
+script LilycoveCity_House3_EventScript_GameBoyKid1 {
+    end
+}
+
+script LilycoveCity_House3_EventScript_GameBoyKid2 {
+    end
+}
+
+script LilycoveCity_House3_EventScript_GameBoyKid3 {
+    end
+}
+
+script LilycoveCity_House3_EventScript_GameBoyKid4 {
+    end
+}
+
+script LilycoveCity_House3_EventScript_Man {
+    end
+}
+
+script LilycoveCity_House3_EventScript_PokefanF {
+    end
+}
+

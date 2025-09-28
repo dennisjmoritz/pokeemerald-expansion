@@ -1,0 +1,35 @@
+mapscripts SootopolisCity_LotadAndSeedotHouse_MapScripts {
+}
+
+script SootopolisCity_LotadAndSeedotHouse_EventScript_LotadBrother {
+    end
+}
+
+script SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord {
+    // special GetLotadSizeRecordInfo
+    // lockall
+    msgbox(SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script SootopolisCity_LotadAndSeedotHouse_EventScript_SeedotBrother {
+    end
+}
+
+script SootopolisCity_LotadAndSeedotHouse_EventScript_SeedotSizeRecord {
+    // special GetSeedotSizeRecordInfo
+    // lockall
+    msgbox(SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+
+text SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory {
+    format("The biggest SEEDOT in history! {STR_VAR_2}'s {STR_VAR_3} giant!\p A SEEDOT bigger than a LOTAD always wanted!")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory {
+    format("The biggest LOTAD in history! {STR_VAR_2}'s {STR_VAR_3} colossus!\p A LOTAD bigger than a SEEDOT always wanted!")
+}

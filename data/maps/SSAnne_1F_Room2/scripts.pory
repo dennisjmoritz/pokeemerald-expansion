@@ -1,0 +1,19 @@
+mapscripts SSAnne_1F_Room2_MapScripts {
+}
+
+script SSAnne_1F_Room2_EventScript_Ann {
+    end
+}
+
+script SSAnne_1F_Room2_EventScript_ItemTM31 {
+    end
+}
+
+script SSAnne_1F_Room2_EventScript_Tyler {
+    end
+}
+
+script SSAnne_1F_Room2_EventScript_Woman {
+    end
+}
+

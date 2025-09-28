@@ -1,0 +1,7 @@
+mapscripts GraniteCave_1F_MapScripts {
+}
+
+script GraniteCave_1F_EventScript_Hiker {
+    end
+}
+

@@ -1,0 +1,11 @@
+mapscripts SlateportCity_SternsShipyard_2F_MapScripts {
+}
+
+script SlateportCity_SternsShipyard_2F_EventScript_Scientist1 {
+    end
+}
+
+script SlateportCity_SternsShipyard_2F_EventScript_Scientist2 {
+    end
+}
+

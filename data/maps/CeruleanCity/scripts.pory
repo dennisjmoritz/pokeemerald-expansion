@@ -1,0 +1,101 @@
+mapscripts CeruleanCity_MapScripts {
+}
+
+script CeruleanCity_BikeShop_EventScript_Bicycle {
+    end
+}
+
+script CeruleanCity_EventScript_BaldingMan {
+    end
+}
+
+script CeruleanCity_EventScript_BikeShopSign {
+    msgbox(CeruleanCity_Text_BikeShopSign, MSGBOX_SIGN)
+    end
+}
+
+script CeruleanCity_EventScript_CeruleanCaveGuard {
+    end
+}
+
+script CeruleanCity_EventScript_CitySign {
+    msgbox(CeruleanCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script CeruleanCity_EventScript_Grunt {
+    end
+}
+
+script CeruleanCity_EventScript_GruntTriggerBottom {
+    end
+}
+
+script CeruleanCity_EventScript_GruntTriggerTop {
+    end
+}
+
+script CeruleanCity_EventScript_GymSign {
+    // lockall
+    // famechecker FAMECHECKER_MISTY, 0
+    msgbox(CeruleanCity_Text_GymSign, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script CeruleanCity_EventScript_Lass {
+    end
+}
+
+script CeruleanCity_EventScript_LittleBoy {
+    end
+}
+
+script CeruleanCity_EventScript_Policeman {
+    end
+}
+
+script CeruleanCity_EventScript_RivalTriggerLeft {
+    end
+}
+
+script CeruleanCity_EventScript_RivalTriggerMid {
+    end
+}
+
+script CeruleanCity_EventScript_RivalTriggerRight {
+    end
+}
+
+script CeruleanCity_EventScript_Slowbro {
+    end
+}
+
+script CeruleanCity_EventScript_TrainerTips {
+    msgbox(CeruleanCity_Text_TrainerTipsHeldItems, MSGBOX_SIGN)
+    end
+}
+
+script CeruleanCity_EventScript_Woman {
+    end
+}
+
+script CeruleanCity_EventScript_Youngster {
+    end
+}
+
+text CeruleanCity_Text_TrainerTipsHeldItems {
+    format("TRAINER TIPS\p A POKéMON can be made to hold an item.\p Some items can even be used by the holding POKéMON in battle.")
+}
+
+text CeruleanCity_Text_GymSign {
+    format("CERULEAN CITY POKéMON GYM LEADER: MISTY\l The Tomboyish Mermaid!")
+}
+
+text CeruleanCity_Text_CitySign {
+    format("CERULEAN CITY A Mysterious, Blue Aura Surrounds\l It")
+}
+
+text CeruleanCity_Text_BikeShopSign {
+    format("Grass and caves handled easily! BIKE SHOP")
+}

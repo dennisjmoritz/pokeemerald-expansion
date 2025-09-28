@@ -1,0 +1,233 @@
+mapscripts Route110_MapScripts {
+}
+
+script Route110_EventScript_Abigail {
+    end
+}
+
+script Route110_EventScript_Alyssa {
+    end
+}
+
+script Route110_EventScript_Anthony {
+    end
+}
+
+script Route110_EventScript_AquaGrunt1 {
+    end
+}
+
+script Route110_EventScript_AquaGrunt2 {
+    end
+}
+
+script Route110_EventScript_AquaGrunt3 {
+    end
+}
+
+script Route110_EventScript_AquaGrunt4 {
+    end
+}
+
+script Route110_EventScript_Benjamin {
+    end
+}
+
+script Route110_EventScript_BirchScene1 {
+    end
+}
+
+script Route110_EventScript_BirchScene2 {
+    end
+}
+
+script Route110_EventScript_BirchScene3 {
+    end
+}
+
+script Route110_EventScript_BirchScene4 {
+    end
+}
+
+script Route110_EventScript_Boy1 {
+    end
+}
+
+script Route110_EventScript_Boy2 {
+    end
+}
+
+script Route110_EventScript_ChallengeGuy {
+    end
+}
+
+script Route110_EventScript_CyclingChallengeEnd {
+    end
+}
+
+script Route110_EventScript_CyclingGirl1 {
+    end
+}
+
+script Route110_EventScript_CyclingGuy1 {
+    end
+}
+
+script Route110_EventScript_CyclingGuy2 {
+    end
+}
+
+script Route110_EventScript_CyclingRoadResultsSign {
+    // lockall
+    // specialvar VAR_RESULT, GetRecordedCyclingRoadResults
+    // goto_if_eq VAR_RESULT, FALSE, Route110_EventScript_NoRecordSet
+    msgbox(Route110_Text_BestRecord, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script Route110_EventScript_CyclingRoadSign {
+    msgbox(Route110_Text_CyclingRoadSign, MSGBOX_SIGN)
+    end
+}
+
+script Route110_EventScript_Dale {
+    end
+}
+
+script Route110_EventScript_Edward {
+    end
+}
+
+script Route110_EventScript_Edwin {
+    end
+}
+
+script Route110_EventScript_Isabel {
+    end
+}
+
+script Route110_EventScript_Jaclyn {
+    end
+}
+
+script Route110_EventScript_Jacob {
+    end
+}
+
+script Route110_EventScript_Jasmine {
+    end
+}
+
+script Route110_EventScript_Joseph {
+    end
+}
+
+script Route110_EventScript_Kaleb {
+    end
+}
+
+script Route110_EventScript_MauvilleCitySign {
+    msgbox(Route110_Text_MauvilleCitySign, MSGBOX_SIGN)
+    end
+}
+
+script Route110_EventScript_OldMan {
+    end
+}
+
+script Route110_EventScript_OldWoman {
+    end
+}
+
+script Route110_EventScript_RivalTrigger1 {
+    end
+}
+
+script Route110_EventScript_RivalTrigger2 {
+    end
+}
+
+script Route110_EventScript_RivalTrigger3 {
+    end
+}
+
+script Route110_EventScript_Route103Sign {
+    msgbox(Route110_Text_Route103Sign, MSGBOX_SIGN)
+    end
+}
+
+script Route110_EventScript_SeasideParkingSign {
+    msgbox(Route110_Text_SeasideParkingSign, MSGBOX_SIGN)
+    end
+}
+
+script Route110_EventScript_SlateportCitySign {
+    msgbox(Route110_Text_SlateportCitySign, MSGBOX_SIGN)
+    end
+}
+
+script Route110_EventScript_Timmy {
+    end
+}
+
+script Route110_EventScript_TrainerTipsPrlzSleep {
+    msgbox(Route110_Text_TrainerTipsPrlzSleep, MSGBOX_SIGN)
+    end
+}
+
+script Route110_EventScript_TrainerTipsRegisterItems {
+    msgbox(Route110_Text_TrainerTipsRegisterItems, MSGBOX_SIGN)
+    end
+}
+
+script Route110_EventScript_TrickHouseSign {
+    msgbox(Route110_Text_TrickHouseSign, MSGBOX_SIGN)
+    end
+}
+
+script Route110_EventScript_VandalizedSign {
+    msgbox(Route110_Text_AquaWasHere, MSGBOX_SIGN)
+    end
+}
+
+
+text Route110_Text_MauvilleCitySign {
+    format("ROUTE 110 {UP_ARROW} MAUVILLE CITY")
+}
+
+text Route110_Text_TrainerTipsPrlzSleep {
+    format("TRAINER TIPS\p The foe can be made helpless by paralyzing it or causing it to sleep.\p It is an important technique for POKéMON battles.")
+}
+
+text Route110_Text_TrickHouseSign {
+    format("“Three steps {RIGHT_ARROW} and two steps {UP_ARROW} to reach the wondrous TRICK HOUSE.”")
+}
+
+text Route110_Text_BestRecord {
+    format("THE BEST RECORD TO DATE…\p No. of collisions: {STR_VAR_1}\p Elapsed time: {STR_VAR_2}")
+}
+
+text Route110_Text_AquaWasHere {
+    format("“TEAM AQUA was here!”\p Someone painted that onto this sign, but then someone else painted over it.\p “TEAM MAGMA rules!” is what it says now.")
+}
+
+text Route110_Text_CyclingRoadSign {
+    format("SEASIDE CYCLING ROAD")
+}
+
+text Route110_Text_SlateportCitySign {
+    format("ROUTE 110 {DOWN_ARROW} SLATEPORT CITY")
+}
+
+text Route110_Text_SeasideParkingSign {
+    format("SEASIDE PARKING")
+}
+
+text Route110_Text_TrainerTipsRegisterItems {
+    format("TRAINER TIPS\p The items in the BAG can be reorganized by pressing SELECT.")
+}
+
+text Route110_Text_Route103Sign {
+    format("ROUTE 110 {LEFT_ARROW} ROUTE 103")
+}

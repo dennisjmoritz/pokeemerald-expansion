@@ -1,0 +1,16 @@
+mapscripts Route25_MapScripts {
+}
+
+script Route25_EventScript_Man {
+    end
+}
+
+script Route25_EventScript_SeaCottageSign {
+    msgbox(Route25_Text_SeaCottageSign, MSGBOX_SIGN)
+    end
+}
+
+
+text Route25_Text_SeaCottageSign {
+    format("SEA COTTAGE BILL lives here!")
+}

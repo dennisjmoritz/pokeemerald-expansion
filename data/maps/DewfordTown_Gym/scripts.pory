@@ -1,0 +1,49 @@
+mapscripts DewfordTown_Gym_MapScripts {
+}
+
+script DewfordTown_Gym_EventScript_Brawly {
+    end
+}
+
+script DewfordTown_Gym_EventScript_Brenden {
+    end
+}
+
+script DewfordTown_Gym_EventScript_Cristian {
+    end
+}
+
+script DewfordTown_Gym_EventScript_GymGuide {
+    end
+}
+
+script DewfordTown_Gym_EventScript_Jocelyn {
+    end
+}
+
+script DewfordTown_Gym_EventScript_Laura {
+    end
+}
+
+script DewfordTown_Gym_EventScript_LeftGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE02_GET, DewfordTown_Gym_EventScript_GymStatueCertified
+    // goto DewfordTown_Gym_EventScript_GymStatue
+    end
+}
+
+script DewfordTown_Gym_EventScript_Lilith {
+    end
+}
+
+script DewfordTown_Gym_EventScript_RightGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE02_GET, DewfordTown_Gym_EventScript_GymStatueCertified
+    // goto DewfordTown_Gym_EventScript_GymStatue
+    end
+}
+
+script DewfordTown_Gym_EventScript_Takao {
+    end
+}
+

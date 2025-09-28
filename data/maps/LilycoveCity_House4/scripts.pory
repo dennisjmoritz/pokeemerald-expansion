@@ -1,0 +1,11 @@
+mapscripts LilycoveCity_House4_MapScripts {
+}
+
+script LilycoveCity_House4_EventScript_Man1 {
+    end
+}
+
+script LilycoveCity_House4_EventScript_Man2 {
+    end
+}
+

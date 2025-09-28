@@ -1,0 +1,11 @@
+mapscripts MeteorFalls_1F_1R_MapScripts {
+}
+
+script MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene {
+    end
+}
+
+script MeteorFalls_1F_1R_EventScript_ProfCozmo {
+    end
+}
+

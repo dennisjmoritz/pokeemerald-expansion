@@ -1,0 +1,21 @@
+mapscripts Route18_MapScripts {
+}
+
+script Route18_EventScript_CyclingRoadSign {
+    msgbox(Route18_Text_CyclingRoadSign, MSGBOX_SIGN)
+    end
+}
+
+script Route18_EventScript_RouteSign {
+    msgbox(Route18_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+
+text Route18_Text_RouteSign {
+    format("ROUTE 18 CELADON CITY - FUCHSIA CITY")
+}
+
+text Route18_Text_CyclingRoadSign {
+    format("CYCLING ROAD No pedestrians permitted!")
+}

@@ -1,0 +1,11 @@
+mapscripts Route119_House_MapScripts {
+}
+
+script Route119_House_EventScript_Wingull {
+    end
+}
+
+script Route119_House_EventScript_Woman {
+    end
+}
+

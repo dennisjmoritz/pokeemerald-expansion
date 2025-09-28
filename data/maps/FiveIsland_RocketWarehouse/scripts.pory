@@ -1,0 +1,52 @@
+mapscripts FiveIsland_RocketWarehouse_MapScripts {
+}
+
+script FiveIsland_RocketWarehouse_EventScript_Admin1 {
+    end
+}
+
+script FiveIsland_RocketWarehouse_EventScript_Admin2 {
+    end
+}
+
+script FiveIsland_RocketWarehouse_EventScript_Admin2Trigger {
+    end
+}
+
+script FiveIsland_RocketWarehouse_EventScript_Cage {
+    // lockall
+    // goto_if_set FLAG_DEFEATED_ROCKETS_IN_WAREHOUSE, FiveIsland_RocketWarehouse_EventScript_CageUnlocked
+    msgbox(FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script FiveIsland_RocketWarehouse_EventScript_Computer {
+    msgbox(FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText, MSGBOX_SIGN)
+    end
+}
+
+script FiveIsland_RocketWarehouse_EventScript_Gideon {
+    end
+}
+
+script FiveIsland_RocketWarehouse_EventScript_Grunt1 {
+    end
+}
+
+script FiveIsland_RocketWarehouse_EventScript_Grunt2 {
+    end
+}
+
+script FiveIsland_RocketWarehouse_EventScript_Grunt3 {
+    end
+}
+
+
+text FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText {
+    format("A report with graphs and text is on the PC monitor.\p “The Influence of Magnetic Waves on POKéMON Evolution”…\p … … … … … …\p It's too difficult to understand…")
+}
+
+text FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen {
+    format("There are many POKéMON locked away in the pen…")
+}

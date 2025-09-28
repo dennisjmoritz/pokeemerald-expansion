@@ -1,0 +1,15 @@
+mapscripts MeteorFalls_1F_2R_MapScripts {
+}
+
+script MeteorFalls_1F_2R_EventScript_Jay {
+    end
+}
+
+script MeteorFalls_1F_2R_EventScript_John {
+    end
+}
+
+script MeteorFalls_1F_2R_EventScript_Nicolas {
+    end
+}
+

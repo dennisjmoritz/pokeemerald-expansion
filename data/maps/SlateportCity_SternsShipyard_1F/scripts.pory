@@ -1,0 +1,19 @@
+mapscripts SlateportCity_SternsShipyard_1F_MapScripts {
+}
+
+script SlateportCity_SternsShipyard_1F_EventScript_Briney {
+    end
+}
+
+script SlateportCity_SternsShipyard_1F_EventScript_Dock {
+    end
+}
+
+script SlateportCity_SternsShipyard_1F_EventScript_Scientist1 {
+    end
+}
+
+script SlateportCity_SternsShipyard_1F_EventScript_Scientist2 {
+    end
+}
+

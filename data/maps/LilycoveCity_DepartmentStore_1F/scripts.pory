@@ -1,0 +1,36 @@
+mapscripts LilycoveCity_DepartmentStore_1F_MapScripts {
+}
+
+script LilycoveCity_DepartmentStore_1F_EventScript_Azumarill {
+    end
+}
+
+script LilycoveCity_DepartmentStore_1F_EventScript_FloorNamesSign {
+    msgbox(LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_DepartmentStore_1F_EventScript_Greeter {
+    end
+}
+
+script LilycoveCity_DepartmentStore_1F_EventScript_LittleGirl {
+    end
+}
+
+script LilycoveCity_DepartmentStore_1F_EventScript_LotteryClerk {
+    end
+}
+
+script LilycoveCity_DepartmentStore_1F_EventScript_PokefanF {
+    end
+}
+
+script LilycoveCity_DepartmentStore_1F_EventScript_PokefanM {
+    end
+}
+
+
+text LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign {
+    format("1F: SERVICE COUNTER LOTTERY CORNER\p 2F: TRAINER'S ZONE\p 3F: BATTLE COLLECTION\p 4F: TM CORNER\p 5F: POKé DOLL FLOOR\p ROOFTOP: ROOFTOP PLAZA")
+}

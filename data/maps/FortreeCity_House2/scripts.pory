@@ -1,0 +1,6 @@
+mapscripts FortreeCity_House2_MapScripts {
+}
+
+script FortreeCity_House2_EventScript_HiddenPowerGiver {
+    end
+}

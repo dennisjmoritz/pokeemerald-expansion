@@ -1,0 +1,11 @@
+mapscripts PacifidlogTown_House3_MapScripts {
+}
+
+script PacifidlogTown_House3_EventScript_Girl {
+    end
+}
+
+script PacifidlogTown_House3_EventScript_Trader {
+    end
+}
+

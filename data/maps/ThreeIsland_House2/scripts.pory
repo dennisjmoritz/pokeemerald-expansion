@@ -1,0 +1,11 @@
+mapscripts ThreeIsland_House2_MapScripts {
+}
+
+script ThreeIsland_House2_EventScript_Man {
+    end
+}
+
+script ThreeIsland_House2_EventScript_Rocker {
+    end
+}
+

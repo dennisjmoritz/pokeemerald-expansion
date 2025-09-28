@@ -1,0 +1,39 @@
+mapscripts RusturfTunnel_MapScripts {
+}
+
+script RusturfTunnel_EventScript_AquaGruntBackUp {
+    end
+}
+
+script RusturfTunnel_EventScript_Grunt {
+    end
+}
+
+script RusturfTunnel_EventScript_Mike {
+    end
+}
+
+script RusturfTunnel_EventScript_Peeko {
+    end
+}
+
+script RusturfTunnel_EventScript_TunnelBlockagePos1 {
+    end
+}
+
+script RusturfTunnel_EventScript_TunnelBlockagePos2 {
+    end
+}
+
+script RusturfTunnel_EventScript_TunnelBlockagePos3 {
+    end
+}
+
+script RusturfTunnel_EventScript_Wanda {
+    end
+}
+
+script RusturfTunnel_EventScript_WandasBoyfriend {
+    end
+}
+

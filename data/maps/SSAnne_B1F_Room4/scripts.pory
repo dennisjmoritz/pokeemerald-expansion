@@ -1,0 +1,11 @@
+mapscripts SSAnne_B1F_Room4_MapScripts {
+}
+
+script SSAnne_B1F_Room4_EventScript_Duncan {
+    end
+}
+
+script SSAnne_B1F_Room4_EventScript_Leonard {
+    end
+}
+

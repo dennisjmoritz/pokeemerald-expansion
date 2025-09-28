@@ -1,0 +1,35 @@
+mapscripts Route131_MapScripts {
+}
+
+script Route131_EventScript_Herman {
+    end
+}
+
+script Route131_EventScript_Ian {
+    end
+}
+
+script Route131_EventScript_Kara {
+    end
+}
+
+script Route131_EventScript_Kevin {
+    end
+}
+
+script Route131_EventScript_Reli {
+    end
+}
+
+script Route131_EventScript_Richard {
+    end
+}
+
+script Route131_EventScript_Susie {
+    end
+}
+
+script Route131_EventScript_Talia {
+    end
+}
+

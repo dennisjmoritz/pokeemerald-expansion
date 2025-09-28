@@ -1,0 +1,31 @@
+mapscripts Route128_MapScripts {
+}
+
+script Route128_EventScript_Alexa {
+    end
+}
+
+script Route128_EventScript_Carlee {
+    end
+}
+
+script Route128_EventScript_Harrison {
+    end
+}
+
+script Route128_EventScript_Isaiah {
+    end
+}
+
+script Route128_EventScript_Katelyn {
+    end
+}
+
+script Route128_EventScript_Ruben {
+    end
+}
+
+script Route128_EventScript_Wayne {
+    end
+}
+

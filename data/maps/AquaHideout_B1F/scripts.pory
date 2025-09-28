@@ -1,0 +1,26 @@
+mapscripts AquaHideout_B1F_MapScripts {
+}
+
+script AquaHideout_B1F_EventScript_Electrode1 {
+    end
+}
+
+script AquaHideout_B1F_EventScript_Electrode2 {
+    end
+}
+
+script AquaHideout_B1F_EventScript_Grunt2 {
+    end
+}
+
+script AquaHideout_B1F_EventScript_Grunt3 {
+    end
+}
+
+script AquaHideout_B1F_EventScript_Grunt5 {
+    end
+}
+
+script AquaHideout_B1F_EventScript_Grunt7 {
+    end
+}

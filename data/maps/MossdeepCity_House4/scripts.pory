@@ -1,0 +1,15 @@
+mapscripts MossdeepCity_House4_MapScripts {
+}
+
+script MossdeepCity_House4_EventScript_NinjaBoy {
+    end
+}
+
+script MossdeepCity_House4_EventScript_Skitty {
+    end
+}
+
+script MossdeepCity_House4_EventScript_Woman {
+    end
+}
+

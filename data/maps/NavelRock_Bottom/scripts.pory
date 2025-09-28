@@ -1,0 +1,7 @@
+mapscripts NavelRock_Bottom_MapScripts {
+}
+
+script NavelRock_Bottom_EventScript_Lugia {
+    end
+}
+

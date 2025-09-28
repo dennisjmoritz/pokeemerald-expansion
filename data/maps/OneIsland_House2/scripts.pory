@@ -1,0 +1,7 @@
+mapscripts OneIsland_House2_MapScripts {
+}
+
+script OneIsland_House2_EventScript_Lass {
+    end
+}
+

@@ -1,0 +1,27 @@
+mapscripts PewterCity_Gym_MapScripts {
+}
+
+script PewterCity_Gym_EventScript_Brock {
+    end
+}
+
+script PewterCity_Gym_EventScript_GymGuy {
+    end
+}
+
+script PewterCity_Gym_EventScript_GymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE01_GET, PewterCity_Gym_EventScript_GymStatuePostVictory
+    msgbox(PewterCity_Gym_Text_GymStatue, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script PewterCity_Gym_EventScript_Liam {
+    end
+}
+
+
+text PewterCity_Gym_Text_GymStatue {
+    format("PEWTER POKéMON GYM LEADER: BROCK\p WINNING TRAINERS: {RIVAL}")
+}

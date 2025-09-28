@@ -1,0 +1,29 @@
+mapscripts OneIsland_MapScripts {
+}
+
+script OneIsland_EventScript_BaldingMan {
+    end
+}
+
+script OneIsland_EventScript_IslandSign {
+    msgbox(OneIsland_Text_IslandSign, MSGBOX_SIGN)
+    end
+}
+
+script OneIsland_EventScript_OldMan {
+    end
+}
+
+script OneIsland_EventScript_PokemonNetCenterSign {
+    msgbox(OneIsland_Text_PokemonNetCenterSign, MSGBOX_SIGN)
+    end
+}
+
+
+text OneIsland_Text_IslandSign {
+    format("ONE ISLAND Friends Gather at Knot Island")
+}
+
+text OneIsland_Text_PokemonNetCenterSign {
+    format("Expanding the POKéMON World! POKéMON NET CENTER")
+}

@@ -1,0 +1,68 @@
+mapscripts Route23_MapScripts {
+}
+
+script Route23_EventScript_CascadeBadgeGuard {
+    end
+}
+
+script Route23_EventScript_CascadeBadgeGuardTrigger {
+    end
+}
+
+script Route23_EventScript_EarthBadgeGuard {
+    end
+}
+
+script Route23_EventScript_EarthBadgeGuardTrigger {
+    end
+}
+
+script Route23_EventScript_MarshBadgeGuard {
+    end
+}
+
+script Route23_EventScript_MarshBadgeGuardTrigger {
+    end
+}
+
+script Route23_EventScript_RainbowBadgeGuard {
+    end
+}
+
+script Route23_EventScript_RainbowBadgeGuardTrigger {
+    end
+}
+
+script Route23_EventScript_SoulBadgeGuard {
+    end
+}
+
+script Route23_EventScript_SoulBadgeGuardTrigger {
+    end
+}
+
+script Route23_EventScript_ThunderBadgeGuard {
+    end
+}
+
+script Route23_EventScript_ThunderBadgeGuardTrigger {
+    end
+}
+
+script Route23_EventScript_VictoryRoadGateSign {
+    msgbox(Route23_Text_VictoryRoadGateSign, MSGBOX_SIGN)
+    end
+}
+
+script Route23_EventScript_VolcanoBadgeGuard {
+    end
+}
+
+script Route23_EventScript_VolcanoBadgeGuardTrigger {
+    end
+}
+
+
+text Route23_Text_VictoryRoadGateSign {
+    format("VICTORY ROAD GATE - POKéMON LEAGUE")
+}

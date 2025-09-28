@@ -1,0 +1,35 @@
+mapscripts MtMoon_B2F_MapScripts {
+}
+
+script MtMoon_B2F_EventScript_DomeFossil {
+    end
+}
+
+script MtMoon_B2F_EventScript_Grunt1 {
+    end
+}
+
+script MtMoon_B2F_EventScript_Grunt2 {
+    end
+}
+
+script MtMoon_B2F_EventScript_Grunt3 {
+    end
+}
+
+script MtMoon_B2F_EventScript_Grunt4 {
+    end
+}
+
+script MtMoon_B2F_EventScript_HelixFossil {
+    end
+}
+
+script MtMoon_B2F_EventScript_Miguel {
+    end
+}
+
+script MtMoon_B2F_EventScript_MiguelTrigger {
+    end
+}
+

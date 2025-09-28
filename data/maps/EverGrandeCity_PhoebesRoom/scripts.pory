@@ -1,0 +1,7 @@
+mapscripts EverGrandeCity_PhoebesRoom_MapScripts {
+}
+
+script EverGrandeCity_PhoebesRoom_EventScript_Phoebe {
+    end
+}
+

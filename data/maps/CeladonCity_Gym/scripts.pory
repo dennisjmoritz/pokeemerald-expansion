@@ -1,0 +1,46 @@
+mapscripts CeladonCity_Gym_MapScripts {
+}
+
+script CeladonCity_Gym_EventScript_Bridget {
+    end
+}
+
+script CeladonCity_Gym_EventScript_Erika {
+    end
+}
+
+script CeladonCity_Gym_EventScript_GymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE04_GET, CeladonCity_Gym_EventScript_GymStatuePostVictory
+    msgbox(CeladonCity_Gym_Text_GymStatue, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script CeladonCity_Gym_EventScript_Kay {
+    end
+}
+
+script CeladonCity_Gym_EventScript_Lisa {
+    end
+}
+
+script CeladonCity_Gym_EventScript_Lori {
+    end
+}
+
+script CeladonCity_Gym_EventScript_Mary {
+    end
+}
+
+script CeladonCity_Gym_EventScript_Tamia {
+    end
+}
+
+script CeladonCity_Gym_EventScript_Tina {
+    end
+}
+
+text CeladonCity_Gym_Text_GymStatue {
+    format("CELADON POKéMON GYM LEADER: ERIKA\p WINNING TRAINERS: {RIVAL}")
+}

@@ -1,0 +1,27 @@
+mapscripts RustboroCity_DevonCorp_2F_MapScripts {
+}
+
+script RustboroCity_DevonCorp_2F_EventScript_BallScientist {
+    end
+}
+
+script RustboroCity_DevonCorp_2F_EventScript_FossilScientist {
+    end
+}
+
+script RustboroCity_DevonCorp_2F_EventScript_MatchCallScientist {
+    end
+}
+
+script RustboroCity_DevonCorp_2F_EventScript_PokemonDreamsScientist {
+    end
+}
+
+script RustboroCity_DevonCorp_2F_EventScript_PokenavScientist {
+    end
+}
+
+script RustboroCity_DevonCorp_2F_EventScript_TalkToPokemonScientist {
+    end
+}
+

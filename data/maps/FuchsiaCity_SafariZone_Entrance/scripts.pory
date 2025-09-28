@@ -1,0 +1,19 @@
+mapscripts FuchsiaCity_SafariZone_Entrance_MapScripts {
+}
+
+script FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerLeft {
+    end
+}
+
+script FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerMid {
+    end
+}
+
+script FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerRight {
+    end
+}
+
+script FuchsiaCity_SafariZone_Entrance_EventScript_InfoAttendant {
+    end
+}
+

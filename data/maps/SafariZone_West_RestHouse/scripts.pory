@@ -1,0 +1,15 @@
+mapscripts SafariZone_West_RestHouse_MapScripts {
+}
+
+script SafariZone_West_RestHouse_EventScript_CooltrainerF {
+    end
+}
+
+script SafariZone_West_RestHouse_EventScript_Man {
+    end
+}
+
+script SafariZone_West_RestHouse_EventScript_Scientist {
+    end
+}
+

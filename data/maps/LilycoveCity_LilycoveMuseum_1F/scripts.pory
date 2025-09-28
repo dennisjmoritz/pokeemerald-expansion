@@ -1,0 +1,124 @@
+mapscripts LilycoveCity_LilycoveMuseum_1F_MapScripts {
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_Artist1 {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_Artist2 {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_BerryPainting {
+    msgbox(LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_Curator {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_FantasyPainting {
+    msgbox(LilycoveCity_LilycoveMuseum_1F_Text_OddLandscapeFantasticScenery, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_FatMan {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_GrassPokemonPainting {
+    msgbox(LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_Greeter {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_LegendaryPokemonPainting {
+    msgbox(LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfLegendaryPokemon, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_NinjaBoy {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_OldPainting {
+    msgbox(LilycoveCity_LilycoveMuseum_1F_Text_VeryOldPainting, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_PokeBallSculpture {
+    msgbox(LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_PsychicM {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_SchoolKidM {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_StoneTablet {
+    msgbox(LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_Woman1 {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_Woman2 {
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_1F_EventScript_WomanPainting {
+    msgbox(LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBeautifulWoman, MSGBOX_SIGN)
+    end
+}
+
+script LilycoveCity_LilycoveMuseum_EventScript_BirdSculpture {
+    msgbox(LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica, MSGBOX_SIGN)
+    end
+}
+
+
+text LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica {
+    format("It's a replica of a famous sculpture.\p It depicts an ancient BIRD POKéMON.")
+}
+
+text LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon {
+    format("It's a painting of GRASS POKéMON swaying in a breeze.\p They appear to be enjoying the wind's gentle caress.")
+}
+
+text LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText {
+    format("It's a huge stone tablet inscribed with POKéMON and dense text in the\l small characters of an ancient,\l unreadable language.")
+}
+
+text LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone {
+    format("It's a big POKé BALL carved from a black stone.\p It was apparently used in festivals in the olden days.")
+}
+
+text LilycoveCity_LilycoveMuseum_1F_Text_VeryOldPainting {
+    format("It's a very old painting. The paint is peeling here and there.")
+}
+
+text LilycoveCity_LilycoveMuseum_1F_Text_OddLandscapeFantasticScenery {
+    format("It's an odd landscape with bizarre and fantastic scenery.")
+}
+
+text LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries {
+    format("It's a delicious-looking painting of BERRIES.\p This painting could make you hungry!")
+}
+
+text LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBeautifulWoman {
+    format("It's a painting of a beautiful, smiling woman with a POKéMON on her lap.")
+}
+
+text LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfLegendaryPokemon {
+    format("It's a painting of a legendary POKéMON from long ago.\p The artist painted this from imagination.")
+}

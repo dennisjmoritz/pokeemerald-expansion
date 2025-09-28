@@ -1,0 +1,86 @@
+mapscripts Route117_MapScripts {
+}
+
+script NULL {
+    end
+}
+
+script Route117_EventScript_Aisha {
+    end
+}
+
+script Route117_EventScript_Anna {
+    end
+}
+
+script Route117_EventScript_Brandi {
+    end
+}
+
+script Route117_EventScript_DayCareSign {
+    msgbox(Route117_Text_DayCareSign, MSGBOX_SIGN)
+    end
+}
+
+script Route117_EventScript_Derek {
+    end
+}
+
+script Route117_EventScript_Dylan {
+    end
+}
+
+script Route117_EventScript_Girl {
+    end
+}
+
+script Route117_EventScript_Isaac {
+    end
+}
+
+script Route117_EventScript_LittleBoy {
+    end
+}
+
+script Route117_EventScript_Lydia {
+    end
+}
+
+script Route117_EventScript_Maria {
+    end
+}
+
+script Route117_EventScript_Meg {
+    end
+}
+
+script Route117_EventScript_Melina {
+    end
+}
+
+script Route117_EventScript_RouteSignMauville {
+    msgbox(Route117_Text_RouteSignMauville, MSGBOX_SIGN)
+    end
+}
+
+script Route117_EventScript_RouteSignVerdanturf {
+    msgbox(Route117_Text_RouteSignVerdanturf, MSGBOX_SIGN)
+    end
+}
+
+script Route117_EventScript_Woman {
+    end
+}
+
+
+text Route117_Text_DayCareSign {
+    format("POKéMON DAY CARE “Let us raise your POKéMON.”")
+}
+
+text Route117_Text_RouteSignVerdanturf {
+    format("ROUTE 117 {LEFT_ARROW} VERDANTURF TOWN")
+}
+
+text Route117_Text_RouteSignMauville {
+    format("ROUTE 117 {RIGHT_ARROW} MAUVILLE CITY")
+}

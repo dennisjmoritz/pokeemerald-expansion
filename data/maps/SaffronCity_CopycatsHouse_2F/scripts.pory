@@ -1,0 +1,33 @@
+mapscripts SaffronCity_CopycatsHouse_2F_MapScripts {
+}
+
+script SaffronCity_CopycatsHouse_2F_EventScript_Computer {
+    msgbox(SaffronCity_CopycatsHouse_2F_Text_MySecrets, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_CopycatsHouse_2F_EventScript_Copycat {
+    end
+}
+
+script SaffronCity_CopycatsHouse_2F_EventScript_Doduo {
+    end
+}
+
+script SaffronCity_CopycatsHouse_2F_EventScript_Doll {
+    end
+}
+
+script SaffronCity_CopycatsHouse_2F_EventScript_Game {
+    msgbox(SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket, MSGBOX_SIGN)
+    end
+}
+
+
+text SaffronCity_CopycatsHouse_2F_Text_MySecrets {
+    format("…\p My Secrets!\p Skill: Mimicry! Hobby: Collecting dolls!\l Favorite POKéMON: CLEFAIRY!")
+}
+
+text SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket {
+    format("A game with MARIO wearing a bucket on his head!")
+}

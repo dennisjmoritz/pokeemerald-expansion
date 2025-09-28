@@ -1,0 +1,11 @@
+mapscripts SeafloorCavern_Room1_MapScripts {
+}
+
+script SeafloorCavern_Room1_EventScript_Grunt1 {
+    end
+}
+
+script SeafloorCavern_Room1_EventScript_Grunt2 {
+    end
+}
+

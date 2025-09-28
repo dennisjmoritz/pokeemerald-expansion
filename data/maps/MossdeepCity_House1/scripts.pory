@@ -1,0 +1,11 @@
+mapscripts MossdeepCity_House1_MapScripts {
+}
+
+script MossdeepCity_House1_EventScript_BlackBelt {
+    end
+}
+
+script MossdeepCity_House1_EventScript_Woman {
+    end
+}
+

@@ -1,0 +1,177 @@
+mapscripts RustboroCity_MapScripts {
+}
+
+script RustboroCity_EventScript_Boy1 {
+    end
+}
+
+script RustboroCity_EventScript_Boy2 {
+    end
+}
+
+script RustboroCity_EventScript_CitySign {
+    msgbox(RustboroCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script RustboroCity_EventScript_CuttersHouseSign {
+    msgbox(RustboroCity_Text_CuttersHouse, MSGBOX_SIGN)
+    end
+}
+
+script RustboroCity_EventScript_DevonCorpSign {
+    msgbox(RustboroCity_Text_DevonCorpSign, MSGBOX_SIGN)
+    end
+}
+
+script RustboroCity_EventScript_DevonEmployee1 {
+    end
+}
+
+script RustboroCity_EventScript_DevonEmployee2 {
+    end
+}
+
+script RustboroCity_EventScript_FatMan {
+    end
+}
+
+script RustboroCity_EventScript_GymSign {
+    msgbox(RustboroCity_Text_GymSign, MSGBOX_SIGN)
+    end
+}
+
+script RustboroCity_EventScript_HelpGetGoodsTrigger0 {
+    end
+}
+
+script RustboroCity_EventScript_HelpGetGoodsTrigger1 {
+    end
+}
+
+script RustboroCity_EventScript_HelpGetGoodsTrigger2 {
+    end
+}
+
+script RustboroCity_EventScript_HelpGetGoodsTrigger3 {
+    end
+}
+
+script RustboroCity_EventScript_LittleBoy {
+    end
+}
+
+script RustboroCity_EventScript_LittleGirl {
+    end
+}
+
+script RustboroCity_EventScript_Man1 {
+    end
+}
+
+script RustboroCity_EventScript_Man2 {
+    end
+}
+
+script RustboroCity_EventScript_NinjaBoy {
+    end
+}
+
+script RustboroCity_EventScript_Rival {
+    end
+}
+
+script RustboroCity_EventScript_RivalTrigger0 {
+    end
+}
+
+script RustboroCity_EventScript_RivalTrigger1 {
+    end
+}
+
+script RustboroCity_EventScript_RivalTrigger2 {
+    end
+}
+
+script RustboroCity_EventScript_RivalTrigger3 {
+    end
+}
+
+script RustboroCity_EventScript_RivalTrigger4 {
+    end
+}
+
+script RustboroCity_EventScript_RivalTrigger5 {
+    end
+}
+
+script RustboroCity_EventScript_RivalTrigger6 {
+    end
+}
+
+script RustboroCity_EventScript_RivalTrigger7 {
+    end
+}
+
+script RustboroCity_EventScript_StolenGoodsTrigger0 {
+    end
+}
+
+script RustboroCity_EventScript_StolenGoodsTrigger1 {
+    end
+}
+
+script RustboroCity_EventScript_StolenGoodsTrigger2 {
+    end
+}
+
+script RustboroCity_EventScript_StolenGoodsTrigger3 {
+    end
+}
+
+script RustboroCity_EventScript_StolenGoodsTrigger4 {
+    end
+}
+
+script RustboroCity_EventScript_TrainersSchoolSign {
+    msgbox(RustboroCity_Text_TrainersSchoolSign, MSGBOX_SIGN)
+    end
+}
+
+script RustboroCity_EventScript_TunnelSign {
+    msgbox(RustboroCity_Text_TunnelNearingCompletion, MSGBOX_SIGN)
+    end
+}
+
+script RustboroCity_EventScript_Twin {
+    end
+}
+
+script RustboroCity_EventScript_Woman {
+    end
+}
+
+
+text RustboroCity_Text_CuttersHouse {
+    format("CUTTER'S HOUSE")
+}
+
+text RustboroCity_Text_CitySign {
+    format("RUSTBORO CITY\p “The city probing the integration of nature and science.”")
+}
+
+text RustboroCity_Text_GymSign {
+    format("RUSTBORO CITY POKéMON GYM LEADER: ROXANNE\p “The ROCK-loving honors student!”")
+}
+
+text RustboroCity_Text_TrainersSchoolSign {
+    format("POKéMON TRAINER'S SCHOOL\p “We'll teach you anything about POKéMON!”")
+}
+
+text RustboroCity_Text_DevonCorpSign {
+    format("DEVON CORPORATION\p “For all your living needs, we make it all.”")
+}
+
+text RustboroCity_Text_TunnelNearingCompletion {
+    format("“Timesaving tunnel nearing completion!”\p …Is what it says on the sign, but there's also a big “X” splashed\l across it in red paint…")
+}

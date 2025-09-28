@@ -1,0 +1,7 @@
+mapscripts LilycoveCity_MoveDeletersHouse_MapScripts {
+}
+
+script LilycoveCity_MoveDeletersHouse_EventScript_MoveDeleter {
+    end
+}
+

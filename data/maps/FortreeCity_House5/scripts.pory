@@ -1,0 +1,15 @@
+mapscripts FortreeCity_House5_MapScripts {
+}
+
+script FortreeCity_House5_EventScript_Man {
+    end
+}
+
+script FortreeCity_House5_EventScript_PokefanF {
+    end
+}
+
+script FortreeCity_House5_EventScript_Zigzagoon {
+    end
+}
+

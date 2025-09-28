@@ -1,0 +1,20 @@
+mapscripts MossdeepCity_GameCorner_1F_MapScripts {
+}
+
+script MossdeepCity_GameCorner_1F_EventScript_InfoMan {
+    end
+}
+
+script MossdeepCity_GameCorner_1F_EventScript_OldMan {
+    end
+}
+
+script RS_MysteryEventsHouse_EventScript_Door {
+    msgbox(RS_MysteryEventsHouse_Text_DoorIsLocked, MSGBOX_SIGN)
+    end
+}
+
+
+text RS_MysteryEventsHouse_Text_DoorIsLocked {
+    format("The door appears to be locked.")
+}

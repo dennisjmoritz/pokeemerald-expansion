@@ -1,0 +1,15 @@
+mapscripts MtPyre_3F_MapScripts {
+}
+
+script MtPyre_3F_EventScript_Gabrielle {
+    end
+}
+
+script MtPyre_3F_EventScript_Kayla {
+    end
+}
+
+script MtPyre_3F_EventScript_William {
+    end
+}
+

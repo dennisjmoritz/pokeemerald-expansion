@@ -1,0 +1,20 @@
+mapscripts SixIsland_MapScripts {
+}
+
+script SixIsland_EventScript_Boy {
+    end
+}
+
+script SixIsland_EventScript_Hiker {
+    end
+}
+
+script SixIsland_EventScript_IslandSign {
+    msgbox(SixIsland_Text_IslandSign, MSGBOX_SIGN)
+    end
+}
+
+
+text SixIsland_Text_IslandSign {
+    format("SIX ISLAND Fortune Island of Aged Wisdom")
+}

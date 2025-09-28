@@ -1,0 +1,15 @@
+mapscripts Route104_PrettyPetalFlowerShop_MapScripts {
+}
+
+script Route104_PrettyPetalFlowerShop_EventScript_RandomBerryGirl {
+    end
+}
+
+script Route104_PrettyPetalFlowerShop_EventScript_ShopOwner {
+    end
+}
+
+script Route104_PrettyPetalFlowerShop_EventScript_WailmerPailGirl {
+    end
+}
+

@@ -1,0 +1,51 @@
+mapscripts SixIsland_PatternBush_MapScripts {
+}
+
+script SixIsland_PatternBush_EventScript_Allison {
+    end
+}
+
+script SixIsland_PatternBush_EventScript_Bethany {
+    end
+}
+
+script SixIsland_PatternBush_EventScript_Cordell {
+    end
+}
+
+script SixIsland_PatternBush_EventScript_Dalia {
+    end
+}
+
+script SixIsland_PatternBush_EventScript_Garret {
+    end
+}
+
+script SixIsland_PatternBush_EventScript_Joana {
+    end
+}
+
+script SixIsland_PatternBush_EventScript_Jonah {
+    end
+}
+
+script SixIsland_PatternBush_EventScript_Layton {
+    end
+}
+
+script SixIsland_PatternBush_EventScript_Marcy {
+    end
+}
+
+script SixIsland_PatternBush_EventScript_Nash {
+    end
+}
+
+script SixIsland_PatternBush_EventScript_Riley {
+    end
+}
+
+script SixIsland_PatternBush_EventScript_Vance {
+    end
+}
+

@@ -1,0 +1,7 @@
+mapscripts OneIsland_Harbor_MapScripts {
+}
+
+script OneIsland_Harbor_EventScript_Sailor {
+    end
+}
+

@@ -1,0 +1,7 @@
+mapscripts BirthIsland_Exterior_MapScripts {
+}
+
+script BirthIsland_Exterior_EventScript_Triangle {
+    end
+}
+

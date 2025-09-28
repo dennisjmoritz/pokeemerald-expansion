@@ -1,0 +1,11 @@
+mapscripts PewterCity_House2_MapScripts {
+}
+
+script PewterCity_House2_EventScript_LittleBoy {
+    end
+}
+
+script PewterCity_House2_EventScript_OldMan {
+    end
+}
+

@@ -1,0 +1,67 @@
+mapscripts PewterCity_Museum_1F_MapScripts {
+}
+
+script PewterCity_Museum_1F_EventScript_AerodactylFossil {
+    // lockall
+    // setvar VAR_0x8004, SPECIES_AERODACTYL
+    // setvar VAR_0x8005, 10
+    // setvar VAR_0x8006, 3
+    // special OpenMuseumFossilPic
+    msgbox(PewterCity_Museum_1F_Text_AerodactylFossil, MSGBOX_DEFAULT)
+    // special CloseMuseumFossilPic
+    // releaseall
+    end
+}
+
+script PewterCity_Museum_1F_EventScript_EntranceTriggerLeft {
+    end
+}
+
+script PewterCity_Museum_1F_EventScript_EntranceTriggerMid {
+    end
+}
+
+script PewterCity_Museum_1F_EventScript_EntranceTriggerRight {
+    end
+}
+
+script PewterCity_Museum_1F_EventScript_KabutopsFossil {
+    // lockall
+    // setvar VAR_0x8004, SPECIES_KABUTOPS
+    // setvar VAR_0x8005, 10
+    // setvar VAR_0x8006, 3
+    // special OpenMuseumFossilPic
+    msgbox(PewterCity_Museum_1F_Text_KabutopsFossil, MSGBOX_DEFAULT)
+    // special CloseMuseumFossilPic
+    // releaseall
+    end
+}
+
+script PewterCity_Museum_1F_EventScript_OldAmber {
+    end
+}
+
+script PewterCity_Museum_1F_EventScript_OldAmberScientist {
+    end
+}
+
+script PewterCity_Museum_1F_EventScript_OldMan {
+    end
+}
+
+script PewterCity_Museum_1F_EventScript_Scientist1 {
+    end
+}
+
+script PewterCity_Museum_1F_EventScript_Scientist2 {
+    end
+}
+
+
+text PewterCity_Museum_1F_Text_AerodactylFossil {
+    format("AERODACTYL Fossil A primitive and rare POKéMON.")
+}
+
+text PewterCity_Museum_1F_Text_KabutopsFossil {
+    format("KABUTOPS Fossil A primitive and rare POKéMON.")
+}

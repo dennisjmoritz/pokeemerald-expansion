@@ -1,0 +1,24 @@
+mapscripts FiveIsland_MemorialPillar_MapScripts {
+}
+
+script FiveIsland_MemorialPillar_EventScript_Memorial {
+    // goto_if_questlog EventScript_ReleaseEnd
+    // special QuestLog_CutRecording
+    // lockall
+    // goto_if_set FLAG_GOT_TM42_AT_MEMORIAL_PILLAR, FiveIsland_MemorialPillar_EventScript_MemorialLemonadeAlreadyPlaced
+    // goto_if_set FLAG_NO_ROOM_FOR_TM42_AT_MEMORIAL_PILLAR, FiveIsland_MemorialPillar_EventScript_MemorialLemonadeAlreadyPlaced
+    msgbox(FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering, MSGBOX_DEFAULT)
+    // checkitem ITEM_LEMONADE
+    // goto_if_eq VAR_RESULT, TRUE, FiveIsland_MemorialPillar_EventScript_AskPlaceLemonade
+    // releaseall
+    end
+}
+
+script FiveIsland_MemorialPillar_EventScript_MemorialMan {
+    end
+}
+
+
+text FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering {
+    format("“Here lies TECTONIX” is engraved on a boulder.\p There is a LEMONADE placed as an offering in front of the grave.")
+}

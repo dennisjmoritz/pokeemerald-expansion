@@ -1,0 +1,7 @@
+mapscripts FiveIsland_LostCave_Room4_MapScripts {
+}
+
+script FiveIsland_LostCave_Room4_EventScript_Laura {
+    end
+}
+

@@ -1,0 +1,11 @@
+mapscripts PetalburgCity_WallysHouse_MapScripts {
+}
+
+script PetalburgCity_WallysHouse_EventScript_WallysDad {
+    end
+}
+
+script PetalburgCity_WallysHouse_EventScript_WallysMom {
+    end
+}
+

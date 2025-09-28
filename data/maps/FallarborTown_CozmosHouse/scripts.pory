@@ -1,0 +1,11 @@
+mapscripts FallarborTown_CozmosHouse_MapScripts {
+}
+
+script FallarborTown_CozmosHouse_EventScript_CozmosWife {
+    end
+}
+
+script FallarborTown_CozmosHouse_EventScript_ProfCozmo {
+    end
+}
+

@@ -1,0 +1,15 @@
+mapscripts AquaHideout_1F_MapScripts {
+}
+
+script AquaHideout_1F_EventScript_Grunt1 {
+    end
+}
+
+script AquaHideout_1F_EventScript_HideoutEntranceGrunt1 {
+    end
+}
+
+script AquaHideout_1F_EventScript_HideoutEntranceGrunt2 {
+    end
+}
+

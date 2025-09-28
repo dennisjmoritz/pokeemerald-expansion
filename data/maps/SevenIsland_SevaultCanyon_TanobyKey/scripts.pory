@@ -1,0 +1,31 @@
+mapscripts SevenIsland_SevaultCanyon_TanobyKey_MapScripts {
+}
+
+script SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch1 {
+    end
+}
+
+script SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch2 {
+    end
+}
+
+script SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch3 {
+    end
+}
+
+script SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch4 {
+    end
+}
+
+script SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch5 {
+    end
+}
+
+script SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch6 {
+    end
+}
+
+script SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch7 {
+    end
+}
+

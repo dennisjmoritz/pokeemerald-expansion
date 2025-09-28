@@ -1,0 +1,40 @@
+mapscripts RockTunnel_1F_MapScripts {
+}
+
+script RockTunnel_1F_EventScript_Ariana {
+    end
+}
+
+script RockTunnel_1F_EventScript_Ashton {
+    end
+}
+
+script RockTunnel_1F_EventScript_Dana {
+    end
+}
+
+script RockTunnel_1F_EventScript_Leah {
+    end
+}
+
+script RockTunnel_1F_EventScript_Lenny {
+    end
+}
+
+script RockTunnel_1F_EventScript_Lucas {
+    end
+}
+
+script RockTunnel_1F_EventScript_Oliver {
+    end
+}
+
+script RockTunnel_1F_EventScript_RouteSign {
+    msgbox(RockTunnel_1F_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+
+text RockTunnel_1F_Text_RouteSign {
+    format("ROCK TUNNEL CERULEAN CITY - LAVENDER TOWN")
+}

@@ -1,0 +1,29 @@
+mapscripts SeafoamIslands_B4F_MapScripts {
+}
+
+script SeafoamIslands_B4F_EventScript_Articuno {
+    end
+}
+
+script SeafoamIslands_B4F_EventScript_BoulderHintSign {
+    msgbox(SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow, MSGBOX_SIGN)
+    end
+}
+
+script SeafoamIslands_B4F_EventScript_FastCurrentSign {
+    msgbox(SeafoamIslands_B4F_Text_DangerFastCurrent, MSGBOX_SIGN)
+    end
+}
+
+script SeafoamIslands_B4F_EventScript_UpwardCurrent {
+    end
+}
+
+
+text SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow {
+    format("Hint: Boulders might change the flow of water.")
+}
+
+text SeafoamIslands_B4F_Text_DangerFastCurrent {
+    format("DANGER Fast current!")
+}

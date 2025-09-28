@@ -1,0 +1,19 @@
+mapscripts Route12_FishingHouse_MapScripts {
+}
+
+script Route12_FishingHouse_EventScript_FishingGuruBrother {
+    end
+}
+
+script Route12_FishingHouse_EventScript_MagikarpRecordSign {
+    // lockall
+    // goto_if_set FLAG_GOT_RECORD_SETTING_MAGIKARP, Route12_FishingHouse_EventScript_MagikarpRecordSignRecordSet
+    msgbox(Route12_FishingHouse_Text_BlankChartOfSomeSort, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+
+text Route12_FishingHouse_Text_BlankChartOfSomeSort {
+    format("It's a blank chart of some sort.\p It has spaces for writing in records of some kind.")
+}

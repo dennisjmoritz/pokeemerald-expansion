@@ -1,0 +1,15 @@
+mapscripts FortreeCity_House4_MapScripts {
+}
+
+script FortreeCity_House4_EventScript_Boy {
+    end
+}
+
+script FortreeCity_House4_EventScript_Wingull {
+    end
+}
+
+script FortreeCity_House4_EventScript_Woman {
+    end
+}
+

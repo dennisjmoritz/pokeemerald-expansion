@@ -1,0 +1,63 @@
+mapscripts LittlerootTown_ProfessorBirchsLab_MapScripts {
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Aide {
+    end
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Birch {
+    end
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Book {
+    msgbox(LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead, MSGBOX_SIGN)
+    end
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf {
+    msgbox(LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon, MSGBOX_SIGN)
+    end
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Chikorita {
+    end
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Cyndaquil {
+    end
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Machine {
+    msgbox(LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine, MSGBOX_SIGN)
+    end
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_PC {
+    msgbox(LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch, MSGBOX_SIGN)
+    end
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Rival {
+    end
+}
+
+script LittlerootTown_ProfessorBirchsLab_EventScript_Totodile {
+    end
+}
+
+
+text LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon {
+    format("It's crammed with books on POKéMON.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch {
+    format("It's a PC used for research. Better not mess around with it.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead {
+    format("It's a book that's too hard to read.")
+}
+
+text LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine {
+    format("It's a serious-looking machine. The PROF must use this for research.")
+}

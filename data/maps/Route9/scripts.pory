@@ -1,0 +1,12 @@
+mapscripts Route9_MapScripts {
+}
+
+script Route9_EventScript_RouteSign {
+    msgbox(Route9_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+
+text Route9_Text_RouteSign {
+    format("ROUTE 9 CERULEAN CITY - ROCK TUNNEL")
+}

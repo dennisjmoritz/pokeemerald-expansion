@@ -1,0 +1,91 @@
+mapscripts LittlerootTown_MapScripts {
+}
+
+script LittlerootTown_EventScript_BirchsLabSign {
+    msgbox(LittlerootTown_Text_ProfBirchsLab, MSGBOX_SIGN)
+    end
+}
+
+script LittlerootTown_EventScript_Boy {
+    end
+}
+
+script LittlerootTown_EventScript_BrendansHouseSign {
+    // lockall
+    // checkplayergender
+    // call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_PlayersHouseSignMale
+    // call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_BirchsHouseSignFemale
+    // releaseall
+    end
+}
+
+script LittlerootTown_EventScript_FatMan {
+    end
+}
+
+script LittlerootTown_EventScript_GiveRunningShoesTrigger0 {
+    end
+}
+
+script LittlerootTown_EventScript_GiveRunningShoesTrigger1 {
+    end
+}
+
+script LittlerootTown_EventScript_GiveRunningShoesTrigger2 {
+    end
+}
+
+script LittlerootTown_EventScript_GiveRunningShoesTrigger3 {
+    end
+}
+
+script LittlerootTown_EventScript_GiveRunningShoesTrigger4 {
+    end
+}
+
+script LittlerootTown_EventScript_GiveRunningShoesTrigger5 {
+    end
+}
+
+script LittlerootTown_EventScript_GoSaveBirchTrigger {
+    end
+}
+
+script LittlerootTown_EventScript_MaysHouseSign {
+    // lockall
+    // checkplayergender
+    // call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_BirchsHouseSignMale
+    // call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_PlayersHouseSignFemale
+    // releaseall
+    end
+}
+
+script LittlerootTown_EventScript_Mom {
+    end
+}
+
+script LittlerootTown_EventScript_NeedPokemonTriggerLeft {
+    end
+}
+
+script LittlerootTown_EventScript_NeedPokemonTriggerRight {
+    end
+}
+
+script LittlerootTown_EventScript_TownSign {
+    msgbox(LittlerootTown_Text_TownSign, MSGBOX_SIGN)
+    end
+}
+
+script LittlerootTown_EventScript_Twin {
+    end
+}
+
+
+text LittlerootTown_Text_ProfBirchsLab {
+    format("PROF. BIRCH'S POKéMON LAB")
+}
+
+text LittlerootTown_Text_TownSign {
+    format("LITTLEROOT TOWN “A town that can't be shaded any hue.”")
+}

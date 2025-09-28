@@ -1,0 +1,11 @@
+mapscripts Route2_EastBuilding_MapScripts {
+}
+
+script Route2_EastBuilding_EventScript_Aide {
+    end
+}
+
+script Route2_EastBuilding_EventScript_Rocker {
+    end
+}
+

@@ -1,0 +1,7 @@
+mapscripts CaveOfOrigin_B1F_MapScripts {
+}
+
+script CaveOfOrigin_B1F_EventScript_Wallace {
+    end
+}
+

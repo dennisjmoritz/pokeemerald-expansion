@@ -1,0 +1,11 @@
+mapscripts Route123_BerryMastersHouse_MapScripts {
+}
+
+script Route123_BerryMastersHouse_EventScript_BerryMaster {
+    end
+}
+
+script Route123_BerryMastersHouse_EventScript_BerryMastersWife {
+    end
+}
+

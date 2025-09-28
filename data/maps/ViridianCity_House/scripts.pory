@@ -1,0 +1,24 @@
+mapscripts ViridianCity_House_MapScripts {
+}
+
+script ViridianCity_House_EventScript_BaldingMan {
+    end
+}
+
+script ViridianCity_House_EventScript_LittleGirl {
+    end
+}
+
+script ViridianCity_House_EventScript_NicknameSign {
+    msgbox(ViridianCity_House_Text_SpearowNameSpeary, MSGBOX_SIGN)
+    end
+}
+
+script ViridianCity_House_EventScript_Speary {
+    end
+}
+
+
+text ViridianCity_House_Text_SpearowNameSpeary {
+    format("SPEAROW Name: SPEARY")
+}

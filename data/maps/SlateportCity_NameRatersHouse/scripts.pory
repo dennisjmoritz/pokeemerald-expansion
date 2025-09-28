@@ -1,0 +1,7 @@
+mapscripts SlateportCity_NameRatersHouse_MapScripts {
+}
+
+script SlateportCity_NameRatersHouse_EventScript_NameRater {
+    end
+}
+

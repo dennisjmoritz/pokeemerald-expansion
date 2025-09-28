@@ -1,0 +1,19 @@
+mapscripts Route109_SeashoreHouse_MapScripts {
+}
+
+script Route109_SeashoreHouse_EventScript_Dwayne {
+    end
+}
+
+script Route109_SeashoreHouse_EventScript_Johanna {
+    end
+}
+
+script Route109_SeashoreHouse_EventScript_Owner {
+    end
+}
+
+script Route109_SeashoreHouse_EventScript_Simon {
+    end
+}
+

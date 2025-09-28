@@ -1,0 +1,15 @@
+mapscripts SSAnne_1F_Room3_MapScripts {
+}
+
+script SSAnne_1F_Room3_EventScript_BaldingMan {
+    end
+}
+
+script SSAnne_1F_Room3_EventScript_LittleGirl {
+    end
+}
+
+script SSAnne_1F_Room3_EventScript_Wigglytuff {
+    end
+}
+

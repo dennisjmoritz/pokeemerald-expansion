@@ -1,0 +1,11 @@
+mapscripts FourIsland_Mart_MapScripts {
+}
+
+script FourIsland_Mart_EventScript_Camper {
+    end
+}
+
+script FourIsland_Mart_EventScript_Clerk {
+    end
+}
+

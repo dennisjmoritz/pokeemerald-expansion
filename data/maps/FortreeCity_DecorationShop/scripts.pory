@@ -1,0 +1,19 @@
+mapscripts FortreeCity_DecorationShop_MapScripts {
+}
+
+script FortreeCity_DecorationShop_EventScript_ClerkChairs {
+    end
+}
+
+script FortreeCity_DecorationShop_EventScript_ClerkDesks {
+    end
+}
+
+script FortreeCity_DecorationShop_EventScript_Girl {
+    end
+}
+
+script FortreeCity_DecorationShop_EventScript_PokefanM {
+    end
+}
+

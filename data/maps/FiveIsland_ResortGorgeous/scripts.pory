@@ -1,0 +1,12 @@
+mapscripts FiveIsland_ResortGorgeous_MapScripts {
+}
+
+script FiveIsland_ResortGorgeous_EventScript_SelphysHouseSign {
+    msgbox(FiveIsland_ResortGorgeous_Text_SelphysHouse, MSGBOX_SIGN)
+    end
+}
+
+
+text FiveIsland_ResortGorgeous_Text_SelphysHouse {
+    format("SELPHY'S HOUSE")
+}

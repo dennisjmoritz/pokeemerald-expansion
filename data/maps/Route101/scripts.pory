@@ -1,0 +1,40 @@
+mapscripts Route101_MapScripts {
+}
+
+script Route101_EventScript_BirchsBag {
+    end
+}
+
+script Route101_EventScript_Boy {
+    end
+}
+
+script Route101_EventScript_PreventExitNorth {
+    end
+}
+
+script Route101_EventScript_PreventExitSouth {
+    end
+}
+
+script Route101_EventScript_PreventExitWest {
+    end
+}
+
+script Route101_EventScript_RouteSign {
+    msgbox(Route101_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+script Route101_EventScript_StartBirchRescue {
+    end
+}
+
+script Route101_EventScript_Youngster {
+    end
+}
+
+
+text Route101_Text_RouteSign {
+    format("ROUTE 101 {UP_ARROW} OLDALE TOWN")
+}

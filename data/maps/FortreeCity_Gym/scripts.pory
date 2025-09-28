@@ -1,0 +1,49 @@
+mapscripts FortreeCity_Gym_MapScripts {
+}
+
+script FortreeCity_Gym_EventScript_Ashley {
+    end
+}
+
+script FortreeCity_Gym_EventScript_Darius {
+    end
+}
+
+script FortreeCity_Gym_EventScript_Edwardo {
+    end
+}
+
+script FortreeCity_Gym_EventScript_Flint {
+    end
+}
+
+script FortreeCity_Gym_EventScript_GymGuide {
+    end
+}
+
+script FortreeCity_Gym_EventScript_Humberto {
+    end
+}
+
+script FortreeCity_Gym_EventScript_Jared {
+    end
+}
+
+script FortreeCity_Gym_EventScript_LeftGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE06_GET, FortreeCity_Gym_EventScript_GymStatueCertified
+    // goto FortreeCity_Gym_EventScript_GymStatue
+    end
+}
+
+script FortreeCity_Gym_EventScript_RightGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE06_GET, FortreeCity_Gym_EventScript_GymStatueCertified
+    // goto FortreeCity_Gym_EventScript_GymStatue
+    end
+}
+
+script FortreeCity_Gym_EventScript_Winona {
+    end
+}
+

@@ -1,0 +1,52 @@
+mapscripts SilphCo_7F_MapScripts {
+}
+
+script SilphCo_7F_EventScript_FloorSign {
+    msgbox(SilphCo_7F_Text_FloorSign, MSGBOX_SIGN)
+    end
+}
+
+script SilphCo_7F_EventScript_Grunt1 {
+    end
+}
+
+script SilphCo_7F_EventScript_Grunt2 {
+    end
+}
+
+script SilphCo_7F_EventScript_Grunt3 {
+    end
+}
+
+script SilphCo_7F_EventScript_Joshua {
+    end
+}
+
+script SilphCo_7F_EventScript_LaprasGuy {
+    end
+}
+
+script SilphCo_7F_EventScript_RivalTriggerBottom {
+    end
+}
+
+script SilphCo_7F_EventScript_RivalTriggerTop {
+    end
+}
+
+script SilphCo_7F_EventScript_WorkerF {
+    end
+}
+
+script SilphCo_7F_EventScript_WorkerM1 {
+    end
+}
+
+script SilphCo_7F_EventScript_WorkerM2 {
+    end
+}
+
+
+text SilphCo_7F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 7F")
+}

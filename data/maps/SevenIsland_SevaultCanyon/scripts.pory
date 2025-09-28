@@ -1,0 +1,12 @@
+mapscripts SevenIsland_SevaultCanyon_MapScripts {
+}
+
+script SevenIsland_SevaultCanyon_EventScript_RouteSign {
+    msgbox(SevenIsland_SevaultCanyon_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+
+text SevenIsland_SevaultCanyon_Text_RouteSign {
+    format("SEVAULT CANYON TANOBY RUINS AHEAD")
+}

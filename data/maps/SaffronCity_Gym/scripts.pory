@@ -1,0 +1,51 @@
+mapscripts SaffronCity_Gym_MapScripts {
+}
+
+script SaffronCity_Gym_EventScript_Amanda {
+    end
+}
+
+script SaffronCity_Gym_EventScript_Cameron {
+    end
+}
+
+script SaffronCity_Gym_EventScript_GymGuy {
+    end
+}
+
+script SaffronCity_Gym_EventScript_GymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE06_GET, SaffronCity_Gym_EventScript_GymStatuePostVictory
+    msgbox(SaffronCity_Gym_Text_GymStatue, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script SaffronCity_Gym_EventScript_Johan {
+    end
+}
+
+script SaffronCity_Gym_EventScript_Preston {
+    end
+}
+
+script SaffronCity_Gym_EventScript_Sabrina {
+    end
+}
+
+script SaffronCity_Gym_EventScript_Stacy {
+    end
+}
+
+script SaffronCity_Gym_EventScript_Tasha {
+    end
+}
+
+script SaffronCity_Gym_EventScript_Tyron {
+    end
+}
+
+
+text SaffronCity_Gym_Text_GymStatue {
+    format("SAFFRON POKéMON GYM LEADER: SABRINA\p WINNING TRAINERS: {RIVAL}")
+}

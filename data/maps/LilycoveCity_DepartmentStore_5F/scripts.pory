@@ -1,0 +1,31 @@
+mapscripts LilycoveCity_DepartmentStore_5F_MapScripts {
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarLeft {
+    end
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarRight {
+    end
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidLeft {
+    end
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidRight {
+    end
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_LittleGirl {
+    end
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_PokefanF {
+    end
+}
+
+script LilycoveCity_DepartmentStore_5F_EventScript_Woman {
+    end
+}
+

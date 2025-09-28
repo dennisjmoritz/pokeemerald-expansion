@@ -1,0 +1,11 @@
+mapscripts LilycoveCity_CoveLilyMotel_1F_MapScripts {
+}
+
+script LilycoveCity_CoveLilyMotel_1F_EventScript_BlockingTV {
+    end
+}
+
+script LilycoveCity_CoveLilyMotel_1F_EventScript_MotelOwner {
+    end
+}
+

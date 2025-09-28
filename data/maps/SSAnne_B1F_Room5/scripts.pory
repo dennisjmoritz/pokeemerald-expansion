@@ -1,0 +1,15 @@
+mapscripts SSAnne_B1F_Room5_MapScripts {
+}
+
+script SSAnne_B1F_Room5_EventScript_Boy {
+    end
+}
+
+script SSAnne_B1F_Room5_EventScript_ItemSuperPotion {
+    end
+}
+
+script SSAnne_B1F_Room5_EventScript_Machoke {
+    end
+}
+

@@ -1,0 +1,15 @@
+mapscripts Route116_TunnelersRestHouse_MapScripts {
+}
+
+script Route116_TunnelersRestHouse_EventScript_Tunneler1 {
+    end
+}
+
+script Route116_TunnelersRestHouse_EventScript_Tunneler2 {
+    end
+}
+
+script Route116_TunnelersRestHouse_EventScript_Tunneler3 {
+    end
+}
+

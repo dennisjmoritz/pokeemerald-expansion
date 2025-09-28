@@ -1,0 +1,19 @@
+mapscripts SixIsland_WaterPath_House1_MapScripts {
+}
+
+script SixIsland_WaterPath_House1_EventScript_Beauty {
+    end
+}
+
+script SixIsland_WaterPath_House1_EventScript_SizeRecord {
+    // lockall
+    // goto_if_set FLAG_GOT_NEST_BALL_FROM_WATER_PATH_HOUSE_1, SixIsland_WaterPath_House1_EventScript_SizeRecordNonEmpty
+    msgbox(SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+
+text SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort {
+    format("It's a blank chart of some sort.\p It has spaces for writing in records of some kind.")
+}

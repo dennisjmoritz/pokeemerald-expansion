@@ -1,0 +1,15 @@
+mapscripts SaffronCity_CopycatsHouse_1F_MapScripts {
+}
+
+script SaffronCity_CopycatsHouse_1F_EventScript_Chansey {
+    end
+}
+
+script SaffronCity_CopycatsHouse_1F_EventScript_CopycatsDad {
+    end
+}
+
+script SaffronCity_CopycatsHouse_1F_EventScript_CopycatsMom {
+    end
+}
+

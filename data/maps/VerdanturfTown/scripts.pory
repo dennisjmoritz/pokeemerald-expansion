@@ -1,0 +1,55 @@
+mapscripts VerdanturfTown_MapScripts {
+}
+
+script VerdanturfTown_EventScript_BattleTentSign {
+    msgbox(VerdanturfTown_Text_BattleTentSign, MSGBOX_SIGN)
+    end
+}
+
+script VerdanturfTown_EventScript_Boy {
+    end
+}
+
+script VerdanturfTown_EventScript_Camper {
+    end
+}
+
+script VerdanturfTown_EventScript_Man {
+    end
+}
+
+script VerdanturfTown_EventScript_RusturfTunnelSign {
+    msgbox(VerdanturfTown_Text_RusturfTunnelSign, MSGBOX_SIGN)
+    end
+}
+
+script VerdanturfTown_EventScript_TownSign {
+    msgbox(VerdanturfTown_Text_TownSign, MSGBOX_SIGN)
+    end
+}
+
+script VerdanturfTown_EventScript_Twin {
+    end
+}
+
+script VerdanturfTown_EventScript_WandasHouseSign {
+    msgbox(VerdanturfTown_Text_WandasHouse, MSGBOX_SIGN)
+    end
+}
+
+
+text VerdanturfTown_Text_WandasHouse {
+    format("WANDA'S HOUSE")
+}
+
+text VerdanturfTown_Text_TownSign {
+    format("VERDANTURF TOWN\p “The windswept highlands with the sweet fragrance of grass.”")
+}
+
+text VerdanturfTown_Text_BattleTentSign {
+    format("BATTLE TENT VERDANTURF SITE “Feast Your Eyes on Battles!”")
+}
+
+text VerdanturfTown_Text_RusturfTunnelSign {
+    format("RUSTURF TUNNEL “Linking RUSTBORO and VERDANTURF\p “The tunnel project has been canceled.”")
+}

@@ -1,0 +1,15 @@
+mapscripts MossdeepCity_PokemonCenter_1F_MapScripts {
+}
+
+script MossdeepCity_PokemonCenter_1F_EventScript_Girl {
+    end
+}
+
+script MossdeepCity_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+
+script MossdeepCity_PokemonCenter_1F_EventScript_Woman {
+    end
+}
+

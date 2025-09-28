@@ -1,0 +1,35 @@
+mapscripts SSAnne_Kitchen_MapScripts {
+}
+
+script SSAnne_Kitchen_EventScript_Chef1 {
+    end
+}
+
+script SSAnne_Kitchen_EventScript_Chef2 {
+    end
+}
+
+script SSAnne_Kitchen_EventScript_Chef3 {
+    end
+}
+
+script SSAnne_Kitchen_EventScript_Chef4 {
+    end
+}
+
+script SSAnne_Kitchen_EventScript_Chef5 {
+    end
+}
+
+script SSAnne_Kitchen_EventScript_Chef6 {
+    end
+}
+
+script SSAnne_Kitchen_EventScript_Chef7 {
+    end
+}
+
+script SSAnne_Kitchen_EventScript_ItemGreatBall {
+    end
+}
+

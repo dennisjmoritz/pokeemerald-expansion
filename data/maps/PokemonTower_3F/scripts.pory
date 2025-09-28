@@ -1,0 +1,15 @@
+mapscripts PokemonTower_3F_MapScripts {
+}
+
+script PokemonTower_3F_EventScript_Carly {
+    end
+}
+
+script PokemonTower_3F_EventScript_Hope {
+    end
+}
+
+script PokemonTower_3F_EventScript_Patricia {
+    end
+}
+

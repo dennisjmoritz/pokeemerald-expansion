@@ -1,0 +1,19 @@
+mapscripts SafariZone_North_RestHouse_MapScripts {
+}
+
+script SafariZone_North_RestHouse_EventScript_BaldingMan {
+    end
+}
+
+script SafariZone_North_RestHouse_EventScript_Fisher {
+    end
+}
+
+script SafariZone_North_RestHouse_EventScript_Gentleman {
+    end
+}
+
+script SafariZone_North_RestHouse_EventScript_Scientist {
+    end
+}
+

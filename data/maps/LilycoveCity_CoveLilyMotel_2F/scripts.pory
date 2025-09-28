@@ -1,0 +1,31 @@
+mapscripts LilycoveCity_CoveLilyMotel_2F_MapScripts {
+}
+
+script LilycoveCity_CoveLilyMotel_2F_EventScript_FatMan {
+    end
+}
+
+script LilycoveCity_CoveLilyMotel_2F_EventScript_GameBoyKid {
+    end
+}
+
+script LilycoveCity_CoveLilyMotel_2F_EventScript_GameDesigner {
+    end
+}
+
+script LilycoveCity_CoveLilyMotel_2F_EventScript_GraphicArtist {
+    end
+}
+
+script LilycoveCity_CoveLilyMotel_2F_EventScript_Programmer {
+    end
+}
+
+script LilycoveCity_CoveLilyMotel_2F_EventScript_Scott {
+    end
+}
+
+script LilycoveCity_CoveLilyMotel_2F_EventScript_Woman {
+    end
+}
+

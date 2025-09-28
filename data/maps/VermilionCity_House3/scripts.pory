@@ -1,0 +1,24 @@
+mapscripts VermilionCity_House3_MapScripts {
+}
+
+script VermilionCity_House3_EventScript_Boy {
+    end
+}
+
+script VermilionCity_House3_EventScript_Lass {
+    end
+}
+
+script VermilionCity_House3_EventScript_Letter {
+    msgbox(VermilionCity_House3_Text_DearPippiLetter, MSGBOX_SIGN)
+    end
+}
+
+script VermilionCity_House3_EventScript_Pidgey {
+    end
+}
+
+
+text VermilionCity_House3_Text_DearPippiLetter {
+    format("Dear PIPPI, I hope to see you soon.\p I heard SAFFRON has problems with TEAM ROCKET.\p VERMILION appears to be safe.")
+}

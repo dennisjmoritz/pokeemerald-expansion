@@ -1,0 +1,7 @@
+mapscripts VermilionCity_House2_MapScripts {
+}
+
+script VermilionCity_House2_EventScript_Elyssa {
+    end
+}
+

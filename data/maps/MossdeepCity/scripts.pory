@@ -1,0 +1,87 @@
+mapscripts MossdeepCity_MapScripts {
+}
+
+script MossdeepCity_EventScript_BlackBelt {
+    end
+}
+
+script MossdeepCity_EventScript_CitySign {
+    msgbox(MossdeepCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script MossdeepCity_EventScript_ExpertM {
+    end
+}
+
+script MossdeepCity_EventScript_Girl {
+    end
+}
+
+script MossdeepCity_EventScript_GymSign {
+    msgbox(MossdeepCity_Text_GymSign, MSGBOX_SIGN)
+    end
+}
+
+script MossdeepCity_EventScript_KingsRockBoy {
+    end
+}
+
+script MossdeepCity_EventScript_Man {
+    end
+}
+
+script MossdeepCity_EventScript_NinjaBoy {
+    end
+}
+
+script MossdeepCity_EventScript_PokefanF {
+    end
+}
+
+script MossdeepCity_EventScript_Sailor {
+    end
+}
+
+script MossdeepCity_EventScript_Scott {
+    end
+}
+
+script MossdeepCity_EventScript_SpaceCenterSign {
+    msgbox(MossdeepCity_Text_SpaceCenterSign, MSGBOX_SIGN)
+    end
+}
+
+script MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter {
+    end
+}
+
+script MossdeepCity_EventScript_VisitedMossdeep {
+    end
+}
+
+script MossdeepCity_EventScript_WhiteRock {
+    msgbox(MossdeepCity_Text_ItsAWhiteRock, MSGBOX_SIGN)
+    end
+}
+
+script MossdeepCity_EventScript_Woman {
+    end
+}
+
+
+text MossdeepCity_Text_GymSign {
+    format("MOSSDEEP CITY POKéMON GYM LEADERS: LIZA & TATE\p “The mystic combination!”")
+}
+
+text MossdeepCity_Text_CitySign {
+    format("MOSSDEEP CITY “Our slogan: Cherish POKéMON!”")
+}
+
+text MossdeepCity_Text_SpaceCenterSign {
+    format("MOSSDEEP SPACE CENTER “The closest place to space.”")
+}
+
+text MossdeepCity_Text_ItsAWhiteRock {
+    format("It's a white rock.")
+}

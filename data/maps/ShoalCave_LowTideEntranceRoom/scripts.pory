@@ -1,0 +1,7 @@
+mapscripts ShoalCave_LowTideEntranceRoom_MapScripts {
+}
+
+script ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert {
+    end
+}
+

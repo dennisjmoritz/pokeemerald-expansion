@@ -1,0 +1,24 @@
+mapscripts CeladonCity_DepartmentStore_4F_MapScripts {
+}
+
+script CeladonCity_DepartmentStore_4F_EventScript_Clerk {
+    end
+}
+
+script CeladonCity_DepartmentStore_4F_EventScript_FloorSign {
+    msgbox(CeladonCity_DepartmentStore_4F_Text_FloorSign, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_DepartmentStore_4F_EventScript_Man {
+    end
+}
+
+script CeladonCity_DepartmentStore_4F_EventScript_Youngster {
+    end
+}
+
+
+text CeladonCity_DepartmentStore_4F_Text_FloorSign {
+    format("Express yourself with gifts! 4F: WISE MAN GIFTS\p Evolution Special! Element STONES on sale now!")
+}

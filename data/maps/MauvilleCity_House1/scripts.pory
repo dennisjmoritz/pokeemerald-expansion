@@ -1,0 +1,7 @@
+mapscripts MauvilleCity_House1_MapScripts {
+}
+
+script MauvilleCity_House1_EventScript_RockSmashDude {
+    end
+}
+

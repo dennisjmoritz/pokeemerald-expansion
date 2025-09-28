@@ -1,0 +1,7 @@
+mapscripts EcruteakCity_PokemonCenter_1F_MapScripts {
+}
+
+script EcruteakCity_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+

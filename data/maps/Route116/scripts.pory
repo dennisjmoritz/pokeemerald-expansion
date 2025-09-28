@@ -1,0 +1,108 @@
+mapscripts Route116_MapScripts {
+}
+
+script Route116_EventScript_Briney {
+    end
+}
+
+script Route116_EventScript_BrineyTrigger {
+    end
+}
+
+script Route116_EventScript_Clark {
+    end
+}
+
+script Route116_EventScript_Dawson {
+    end
+}
+
+script Route116_EventScript_Devan {
+    end
+}
+
+script Route116_EventScript_DevonEmployee {
+    end
+}
+
+script Route116_EventScript_GlassesMan {
+    end
+}
+
+script Route116_EventScript_Janice {
+    end
+}
+
+script Route116_EventScript_Jerry {
+    end
+}
+
+script Route116_EventScript_Joey {
+    end
+}
+
+script Route116_EventScript_Johnson {
+    end
+}
+
+script Route116_EventScript_Jose {
+    end
+}
+
+script Route116_EventScript_Karen {
+    end
+}
+
+script Route116_EventScript_RouteSignRustboro {
+    msgbox(Route116_Text_RouteSignRustboro, MSGBOX_SIGN)
+    end
+}
+
+script Route116_EventScript_RusturfTunnelSign {
+    msgbox(Route116_Text_RusturfTunnelSign, MSGBOX_SIGN)
+    end
+}
+
+script Route116_EventScript_Sarah {
+    end
+}
+
+script Route116_EventScript_TrainerTipsBToStopEvolution {
+    msgbox(Route116_Text_TrainerTipsBToStopEvolution, MSGBOX_SIGN)
+    end
+}
+
+script Route116_EventScript_TrainerTipsBagHasPockets {
+    msgbox(Route116_Text_TrainerTipsBagHasPockets, MSGBOX_SIGN)
+    end
+}
+
+script Route116_EventScript_TunnelersRestHouseSign {
+    msgbox(Route116_Text_TunnelersRestHouse, MSGBOX_SIGN)
+    end
+}
+
+script Route116_EventScript_WandasBoyfriend {
+    end
+}
+
+
+text Route116_Text_TrainerTipsBagHasPockets {
+    format("TRAINER TIPS\p Your BAG has several POCKETS.\p Items you obtain are automatically placed in the appropriate POCKETS.\p No TRAINER can afford to be without a BAG of their own.")
+}
+
+text Route116_Text_RusturfTunnelSign {
+    format("RUSTURF TUNNEL “Linking RUSTBORO and VERDANTURF\p “The tunnel project has been canceled.”")
+}
+
+text Route116_Text_TunnelersRestHouse {
+    format("TUNNELER'S REST HOUSE")
+}
+
+text Route116_Text_TrainerTipsBToStopEvolution {
+    format("TRAINER TIPS\p If you want to stop a POKéMON from evolving, press the B Button while it\l is trying to evolve.\l The startled POKéMON will stop.\p This is called an evolution cancel.")
+}
+
+text Route116_Text_RouteSignRustboro {
+    format("ROUTE 116 {LEFT_ARROW} RUSTBORO CITY")
+}

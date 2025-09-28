@@ -1,0 +1,15 @@
+mapscripts Route2_ViridianForest_NorthEntrance_MapScripts {
+}
+
+script Route2_ViridianForest_NorthEntrance_EventScript_CooltrainerF {
+    end
+}
+
+script Route2_ViridianForest_NorthEntrance_EventScript_OldMan {
+    end
+}
+
+script Route2_ViridianForest_NorthEntrance_EventScript_Youngster {
+    end
+}
+

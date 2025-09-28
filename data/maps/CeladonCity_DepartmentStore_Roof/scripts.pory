@@ -1,0 +1,29 @@
+mapscripts CeladonCity_DepartmentStore_Roof_MapScripts {
+}
+
+script CeladonCity_DepartmentStore_Roof_EventScript_CooltrainerM {
+    end
+}
+
+script CeladonCity_DepartmentStore_Roof_EventScript_FloorSign {
+    msgbox(CeladonCity_DepartmentStore_Roof_Text_FloorSign, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_DepartmentStore_Roof_EventScript_ThirstyGirl {
+    end
+}
+
+script CeladonCity_DepartmentStore_Roof_EventScript_VendingMachine {
+    // lockall
+    // message CeladonCity_DepartmentStore_Roof_Text_VendingMachineWhatDoesItHave
+    // waitmessage
+    // showmoneybox 0, 0
+    // goto CeladonCity_DepartmentStore_Roof_EventScript_ChooseDrink
+    end
+}
+
+
+text CeladonCity_DepartmentStore_Roof_Text_FloorSign {
+    format("ROOFTOP SQUARE: VENDING MACHINES")
+}

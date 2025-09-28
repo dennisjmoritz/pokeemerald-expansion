@@ -1,0 +1,88 @@
+mapscripts SealedChamber_OuterRoom_MapScripts {
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleABC {
+    // lockall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_ABC
+    // releaseall
+    end
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleComma {
+    // lockall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_Comma
+    // releaseall
+    end
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleDEF {
+    // lockall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_DEF
+    // releaseall
+    end
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleDigHere {
+    // lockall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_DigHere
+    // releaseall
+    end
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleGHI {
+    // lockall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_GHI
+    // releaseall
+    end
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleJKL {
+    // lockall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_JKL
+    // releaseall
+    end
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleMNO {
+    // lockall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_MNO
+    // releaseall
+    end
+}
+
+script SealedChamber_OuterRoom_EventScript_BraillePQRS {
+    // lockall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_PQRS
+    // releaseall
+    end
+}
+
+script SealedChamber_OuterRoom_EventScript_BraillePeriod {
+    // lockall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_Period
+    // releaseall
+    end
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleTUV {
+    // lockall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_TUV
+    // releaseall
+    end
+}
+
+script SealedChamber_OuterRoom_EventScript_BrailleWXYZ {
+    // lockall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_WXYZ
+    // releaseall
+    end
+}
+
+script SealedChamber_OuterRoom_EventScript_InnerRoomEntranceWall {
+    // lockall
+    // goto_if_set FLAG_SYS_BRAILLE_DIG, SealedChamber_OuterRoom_EventScript_HoleInWall
+    // braillemsgbox SealedChamber_OuterRoom_Braille_DigHere
+    // releaseall
+    end
+}
+

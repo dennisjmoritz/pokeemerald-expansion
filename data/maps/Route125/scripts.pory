@@ -1,0 +1,39 @@
+mapscripts Route125_MapScripts {
+}
+
+script Route125_EventScript_Auron {
+    end
+}
+
+script Route125_EventScript_Ernest {
+    end
+}
+
+script Route125_EventScript_Iris {
+    end
+}
+
+script Route125_EventScript_Kim {
+    end
+}
+
+script Route125_EventScript_Nolen {
+    end
+}
+
+script Route125_EventScript_Presley {
+    end
+}
+
+script Route125_EventScript_Sharon {
+    end
+}
+
+script Route125_EventScript_Stan {
+    end
+}
+
+script Route125_EventScript_Tanya {
+    end
+}
+

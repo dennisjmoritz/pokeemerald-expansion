@@ -1,0 +1,140 @@
+mapscripts VermilionCity_Gym_MapScripts {
+}
+
+script VermilionCity_Gym_EventScript_Baily {
+    end
+}
+
+script VermilionCity_Gym_EventScript_Dwayne {
+    end
+}
+
+script VermilionCity_Gym_EventScript_GymGuy {
+    end
+}
+
+script VermilionCity_Gym_EventScript_GymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE03_GET, VermilionCity_Gym_EventScript_GymStatuePostVictory
+    msgbox(VermilionCity_Gym_Text_GymStatue, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script VermilionCity_Gym_EventScript_LtSurge {
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan1 {
+    // lockall
+    // setvar TRASH_CAN_ID, 1
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan10 {
+    // lockall
+    // setvar TRASH_CAN_ID, 10
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan11 {
+    // lockall
+    // setvar TRASH_CAN_ID, 11
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan12 {
+    // lockall
+    // setvar TRASH_CAN_ID, 12
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan13 {
+    // lockall
+    // setvar TRASH_CAN_ID, 13
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan14 {
+    // lockall
+    // setvar TRASH_CAN_ID, 14
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan15 {
+    // lockall
+    // setvar TRASH_CAN_ID, 15
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan2 {
+    // lockall
+    // setvar TRASH_CAN_ID, 2
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan3 {
+    // lockall
+    // setvar TRASH_CAN_ID, 3
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan4 {
+    // lockall
+    // setvar TRASH_CAN_ID, 4
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan5 {
+    // lockall
+    // setvar TRASH_CAN_ID, 5
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan6 {
+    // lockall
+    // setvar TRASH_CAN_ID, 6
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan7 {
+    // lockall
+    // setvar TRASH_CAN_ID, 7
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan8 {
+    // lockall
+    // setvar TRASH_CAN_ID, 8
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_TrashCan9 {
+    // lockall
+    // setvar TRASH_CAN_ID, 9
+    // goto VermilionCity_Gym_EventScript_TrashCan
+    end
+}
+
+script VermilionCity_Gym_EventScript_Tucker {
+    end
+}
+
+
+text VermilionCity_Gym_Text_GymStatue {
+    format("VERMILION POKéMON GYM LEADER: LT. SURGE\p WINNING TRAINERS: {RIVAL}")
+}

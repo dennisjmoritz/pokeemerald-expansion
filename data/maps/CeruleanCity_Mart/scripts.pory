@@ -1,0 +1,15 @@
+mapscripts CeruleanCity_Mart_MapScripts {
+}
+
+script CeruleanCity_Mart_EventScript_Clerk {
+    end
+}
+
+script CeruleanCity_Mart_EventScript_Woman {
+    end
+}
+
+script CeruleanCity_Mart_EventScript_Youngster {
+    end
+}
+

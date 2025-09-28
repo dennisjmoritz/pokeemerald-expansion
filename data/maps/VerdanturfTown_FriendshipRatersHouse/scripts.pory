@@ -1,0 +1,11 @@
+mapscripts VerdanturfTown_FriendshipRatersHouse_MapScripts {
+}
+
+script VerdanturfTown_FriendshipRatersHouse_EventScript_FriendshipRater {
+    end
+}
+
+script VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu {
+    end
+}
+

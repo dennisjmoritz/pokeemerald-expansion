@@ -1,0 +1,45 @@
+mapscripts CinnabarIsland_MapScripts {
+}
+
+script CinnabarIsland_EventScript_GymDoorLocked {
+    end
+}
+
+script CinnabarIsland_EventScript_GymSign {
+    // lockall
+    // famechecker FAMECHECKER_BLAINE, 0
+    msgbox(CinnabarIsland_Text_GymSign, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script CinnabarIsland_EventScript_IslandSign {
+    msgbox(CinnabarIsland_Text_IslandSign, MSGBOX_SIGN)
+    end
+}
+
+script CinnabarIsland_EventScript_OldMan {
+    end
+}
+
+script CinnabarIsland_EventScript_PokemonLabSign {
+    msgbox(CinnabarIsland_Text_PokemonLab, MSGBOX_SIGN)
+    end
+}
+
+script CinnabarIsland_EventScript_Woman {
+    end
+}
+
+
+text CinnabarIsland_Text_PokemonLab {
+    format("POKéMON LAB")
+}
+
+text CinnabarIsland_Text_IslandSign {
+    format("CINNABAR ISLAND The Fiery Town of Burning Desire")
+}
+
+text CinnabarIsland_Text_GymSign {
+    format("CINNABAR ISLAND POKéMON GYM LEADER: BLAINE\l The Hotheaded Quiz Master!")
+}

@@ -1,0 +1,11 @@
+mapscripts SootopolisCity_House5_MapScripts {
+}
+
+script SootopolisCity_House5_EventScript_Girl {
+    end
+}
+
+script SootopolisCity_House5_EventScript_Maniac {
+    end
+}
+

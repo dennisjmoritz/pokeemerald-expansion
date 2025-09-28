@@ -1,0 +1,7 @@
+mapscripts MtPyre_5F_MapScripts {
+}
+
+script MtPyre_5F_EventScript_Atsushi {
+    end
+}
+

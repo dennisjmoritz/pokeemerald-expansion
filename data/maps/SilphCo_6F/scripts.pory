@@ -1,0 +1,44 @@
+mapscripts SilphCo_6F_MapScripts {
+}
+
+script SilphCo_6F_EventScript_FloorSign {
+    msgbox(SilphCo_6F_Text_FloorSign, MSGBOX_SIGN)
+    end
+}
+
+script SilphCo_6F_EventScript_Grunt1 {
+    end
+}
+
+script SilphCo_6F_EventScript_Grunt2 {
+    end
+}
+
+script SilphCo_6F_EventScript_Taylor {
+    end
+}
+
+script SilphCo_6F_EventScript_WorkerF1 {
+    end
+}
+
+script SilphCo_6F_EventScript_WorkerF2 {
+    end
+}
+
+script SilphCo_6F_EventScript_WorkerM1 {
+    end
+}
+
+script SilphCo_6F_EventScript_WorkerM2 {
+    end
+}
+
+script SilphCo_6F_EventScript_WorkerM3 {
+    end
+}
+
+
+text SilphCo_6F_Text_FloorSign {
+    format("SILPH CO. HEAD OFFICE 6F")
+}

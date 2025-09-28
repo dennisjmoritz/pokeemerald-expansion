@@ -1,0 +1,47 @@
+mapscripts FuchsiaCity_Gym_MapScripts {
+}
+
+script FuchsiaCity_Gym_EventScript_Edgar {
+    end
+}
+
+script FuchsiaCity_Gym_EventScript_GymGuy {
+    end
+}
+
+script FuchsiaCity_Gym_EventScript_GymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE05_GET, FuchsiaCity_Gym_EventScript_GymStatuePostVictory
+    msgbox(FuchsiaCity_Gym_Text_GymStatue, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script FuchsiaCity_Gym_EventScript_Kayden {
+    end
+}
+
+script FuchsiaCity_Gym_EventScript_Kirk {
+    end
+}
+
+script FuchsiaCity_Gym_EventScript_Koga {
+    end
+}
+
+script FuchsiaCity_Gym_EventScript_Nate {
+    end
+}
+
+script FuchsiaCity_Gym_EventScript_Phil {
+    end
+}
+
+script FuchsiaCity_Gym_EventScript_Shawn {
+    end
+}
+
+
+text FuchsiaCity_Gym_Text_GymStatue {
+    format("FUCHSIA POKéMON GYM LEADER: KOGA\p WINNING TRAINERS: {RIVAL}")
+}

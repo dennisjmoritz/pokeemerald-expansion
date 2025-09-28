@@ -1,0 +1,15 @@
+mapscripts DewfordTown_PokemonCenter_1F_MapScripts {
+}
+
+script DewfordTown_PokemonCenter_1F_EventScript_Man {
+    end
+}
+
+script DewfordTown_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+
+script DewfordTown_PokemonCenter_1F_EventScript_PokefanF {
+    end
+}
+

@@ -1,0 +1,37 @@
+mapscripts RustboroCity_Gym_MapScripts {
+}
+
+script RustboroCity_Gym_EventScript_GymGuide {
+    end
+}
+
+script RustboroCity_Gym_EventScript_Josh {
+    end
+}
+
+script RustboroCity_Gym_EventScript_LeftGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE01_GET, RustboroCity_Gym_EventScript_GymStatueCertified
+    // goto RustboroCity_Gym_EventScript_GymStatue
+    end
+}
+
+script RustboroCity_Gym_EventScript_Marc {
+    end
+}
+
+script RustboroCity_Gym_EventScript_RightGymStatue {
+    // lockall
+    // goto_if_set FLAG_BADGE01_GET, RustboroCity_Gym_EventScript_GymStatueCertified
+    // goto RustboroCity_Gym_EventScript_GymStatue
+    end
+}
+
+script RustboroCity_Gym_EventScript_Roxanne {
+    end
+}
+
+script RustboroCity_Gym_EventScript_Tommy {
+    end
+}
+

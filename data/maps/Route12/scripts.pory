@@ -1,0 +1,25 @@
+mapscripts Route12_MapScripts {
+}
+
+script Route12_EventScript_FishingSign {
+    msgbox(Route12_Text_SportfishingArea, MSGBOX_SIGN)
+    end
+}
+
+script Route12_EventScript_RouteSign {
+    msgbox(Route12_Text_RouteSign, MSGBOX_SIGN)
+    end
+}
+
+script Route12_EventScript_Snorlax {
+    end
+}
+
+
+text Route12_Text_RouteSign {
+    format("ROUTE 12 North to LAVENDER")
+}
+
+text Route12_Text_SportfishingArea {
+    format("SPORTFISHING AREA")
+}

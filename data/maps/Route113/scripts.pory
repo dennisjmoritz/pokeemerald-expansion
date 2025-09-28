@@ -1,0 +1,91 @@
+mapscripts Route113_MapScripts {
+}
+
+script Route113_EventScript_Coby {
+    end
+}
+
+script Route113_EventScript_Dillon {
+    end
+}
+
+script Route113_EventScript_Gentleman {
+    end
+}
+
+script Route113_EventScript_GlassWorkshopSign {
+    msgbox(Route113_Text_GlassWorkshopSign, MSGBOX_SIGN)
+    end
+}
+
+script Route113_EventScript_Jaylen {
+    end
+}
+
+script Route113_EventScript_Lao {
+    end
+}
+
+script Route113_EventScript_Lawrence {
+    end
+}
+
+script Route113_EventScript_Lung {
+    end
+}
+
+script Route113_EventScript_Madeline {
+    end
+}
+
+script Route113_EventScript_NinjaBoy {
+    end
+}
+
+script Route113_EventScript_RouteSign111 {
+    msgbox(Route113_Text_RouteSign111, MSGBOX_SIGN)
+    end
+}
+
+script Route113_EventScript_RouteSignFallarbor {
+    msgbox(Route113_Text_RouteSignFallarbor, MSGBOX_SIGN)
+    end
+}
+
+script Route113_EventScript_Sophie {
+    end
+}
+
+script Route113_EventScript_Tia {
+    end
+}
+
+script Route113_EventScript_Tori {
+    end
+}
+
+script Route113_EventScript_TrainerTipsRegisterKeyItems {
+    msgbox(Route113_Text_TrainerTipsRegisterKeyItems, MSGBOX_SIGN)
+    end
+}
+
+script Route113_EventScript_Wyatt {
+    end
+}
+
+
+text Route113_Text_RouteSign111 {
+    format("ROUTE 113 {RIGHT_ARROW} ROUTE 111")
+}
+
+text Route113_Text_TrainerTipsRegisterKeyItems {
+    format("TRAINER TIPS\p You may register one of the KEY ITEMS in your BAG as SELECT.\p Simply press SELECT to use the registered item conveniently.")
+}
+
+text Route113_Text_GlassWorkshopSign {
+    format("GLASS WORKSHOP “Turning Volcanic Ash into Glass Items”")
+}
+
+text Route113_Text_RouteSignFallarbor {
+    format("ROUTE 113 {LEFT_ARROW} FALLARBOR TOWN")
+}

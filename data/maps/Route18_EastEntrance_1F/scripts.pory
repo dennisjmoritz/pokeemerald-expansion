@@ -1,0 +1,27 @@
+mapscripts Route18_EastEntrance_1F_MapScripts {
+}
+
+script Route18_EastEntrance_1F_EventScript_Guard {
+    end
+}
+
+script Route18_EastEntrance_1F_EventScript_NeedBikeTriggerBottom {
+    end
+}
+
+script Route18_EastEntrance_1F_EventScript_NeedBikeTriggerMid {
+    end
+}
+
+script Route18_EastEntrance_1F_EventScript_NeedBikeTriggerMidBottom {
+    end
+}
+
+script Route18_EastEntrance_1F_EventScript_NeedBikeTriggerMidTop {
+    end
+}
+
+script Route18_EastEntrance_1F_EventScript_NeedBikeTriggerTop {
+    end
+}
+

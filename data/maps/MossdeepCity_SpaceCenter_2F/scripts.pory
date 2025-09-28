@@ -1,0 +1,39 @@
+mapscripts MossdeepCity_SpaceCenter_2F_MapScripts {
+}
+
+script MossdeepCity_SpaceCenter_2F_EventScript_Gentleman {
+    end
+}
+
+script MossdeepCity_SpaceCenter_2F_EventScript_Grunt5 {
+    end
+}
+
+script MossdeepCity_SpaceCenter_2F_EventScript_Grunt6 {
+    end
+}
+
+script MossdeepCity_SpaceCenter_2F_EventScript_Grunt7 {
+    end
+}
+
+script MossdeepCity_SpaceCenter_2F_EventScript_Maxie {
+    end
+}
+
+script MossdeepCity_SpaceCenter_2F_EventScript_RichBoy {
+    end
+}
+
+script MossdeepCity_SpaceCenter_2F_EventScript_Scientist {
+    end
+}
+
+script MossdeepCity_SpaceCenter_2F_EventScript_Steven {
+    end
+}
+
+script MossdeepCity_SpaceCenter_2F_EventScript_Tabitha {
+    end
+}
+

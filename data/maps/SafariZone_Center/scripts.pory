@@ -1,0 +1,34 @@
+mapscripts SafariZone_Center_MapScripts {
+}
+
+script SafariZone_Center_EventScript_AreaSign {
+    msgbox(SafariZone_Center_Text_CenterArea, MSGBOX_SIGN)
+    end
+}
+
+script SafariZone_Center_EventScript_ItemNugget {
+    end
+}
+
+script SafariZone_Center_EventScript_RestHouseSign {
+    msgbox(SafariZone_Center_Text_RestHouse, MSGBOX_SIGN)
+    end
+}
+
+script SafariZone_Center_EventScript_TrainerTips {
+    msgbox(SafariZone_Center_Text_PressStartToCheckTime, MSGBOX_SIGN)
+    end
+}
+
+
+text SafariZone_Center_Text_CenterArea {
+    format("CENTER AREA")
+}
+
+text SafariZone_Center_Text_RestHouse {
+    format("REST HOUSE")
+}
+
+text SafariZone_Center_Text_PressStartToCheckTime {
+    format("TRAINER TIPS\p Press START to check remaining time.")
+}

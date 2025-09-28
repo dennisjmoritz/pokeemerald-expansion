@@ -1,0 +1,143 @@
+mapscripts SaffronCity_MapScripts {
+}
+
+script SaffronCity_EventScript_Boy {
+    end
+}
+
+script SaffronCity_EventScript_CitySign {
+    msgbox(SaffronCity_Text_CitySign, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_EventScript_DojoSign {
+    msgbox(SaffronCity_Text_FightingDojo, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_EventScript_DoorGuardGrunt {
+    end
+}
+
+script SaffronCity_EventScript_GymSign {
+    // lockall
+    // famechecker FAMECHECKER_SABRINA, 0
+    msgbox(SaffronCity_Text_GymSign, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script SaffronCity_EventScript_Lass {
+    end
+}
+
+script SaffronCity_EventScript_Man {
+    end
+}
+
+script SaffronCity_EventScript_MrPsychicsHouseSign {
+    msgbox(SaffronCity_Text_MrPsychicsHouse, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_EventScript_Pidgeot {
+    end
+}
+
+script SaffronCity_EventScript_RocketGrunt1 {
+    end
+}
+
+script SaffronCity_EventScript_RocketGrunt2 {
+    end
+}
+
+script SaffronCity_EventScript_RocketGrunt3 {
+    end
+}
+
+script SaffronCity_EventScript_RocketGrunt4 {
+    end
+}
+
+script SaffronCity_EventScript_RocketGrunt5 {
+    end
+}
+
+script SaffronCity_EventScript_RocketGrunt6 {
+    end
+}
+
+script SaffronCity_EventScript_RocketGrunt7 {
+    end
+}
+
+script SaffronCity_EventScript_SilphCoSign {
+    msgbox(SaffronCity_Text_SilphCoSign, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_EventScript_SilphProductSign {
+    msgbox(SaffronCity_Text_SilphsLatestProduct, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_EventScript_TrainerFanClubSign {
+    msgbox(SaffronCity_Text_TrainerFanClubSign, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_EventScript_TrainerTips1 {
+    msgbox(SaffronCity_Text_FullHealCuresStatus, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_EventScript_TrainerTips2 {
+    msgbox(SaffronCity_Text_GreatBallImprovedCatchRate, MSGBOX_SIGN)
+    end
+}
+
+script SaffronCity_EventScript_WorkerM {
+    end
+}
+
+script SaffronCity_EventScript_Youngster {
+    end
+}
+
+
+text SaffronCity_Text_SilphCoSign {
+    format("SILPH CO. OFFICE BUILDING")
+}
+
+text SaffronCity_Text_MrPsychicsHouse {
+    format("MR. PSYCHIC'S HOUSE")
+}
+
+text SaffronCity_Text_TrainerFanClubSign {
+    format("POKéMON TRAINER FAN CLUB\p Many TRAINERS have scribbled their names on this sign.")
+}
+
+text SaffronCity_Text_CitySign {
+    format("SAFFRON CITY Shining, Golden Land of Commerce")
+}
+
+text SaffronCity_Text_FullHealCuresStatus {
+    format("TRAINER TIPS\p FULL HEAL cures all ailments like burns, paralysis, poisoning,\l freezing, and sleep.\p It costs a bit more, but it's more convenient than buying other items.")
+}
+
+text SaffronCity_Text_GreatBallImprovedCatchRate {
+    format("TRAINER TIPS\p The new GREAT BALL offers improved catching rates.\p Try it on those hard-to-catch POKéMON.")
+}
+
+text SaffronCity_Text_FightingDojo {
+    format("FIGHTING DOJO")
+}
+
+text SaffronCity_Text_GymSign {
+    format("SAFFRON CITY POKéMON GYM LEADER: SABRINA\l The Master of PSYCHIC POKéMON!")
+}
+
+text SaffronCity_Text_SilphsLatestProduct {
+    format("SILPH's latest product! Release to be determined…")
+}

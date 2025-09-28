@@ -1,0 +1,7 @@
+mapscripts Route111_OldLadysRestStop_MapScripts {
+}
+
+script Route111_OldLadysRestStop_EventScript_OldLady {
+    end
+}
+

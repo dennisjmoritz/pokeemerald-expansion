@@ -1,0 +1,27 @@
+mapscripts SixIsland_RuinValley_MapScripts {
+}
+
+script SixIsland_RuinValley_EventScript_DottedHoleDoor {
+    // lockall
+    // goto_if_set FLAG_USED_CUT_ON_RUIN_VALLEY_BRAILLE, SixIsland_RuinValley_EventScript_DottedHoleDoorOpen
+    msgbox(SixIsland_RuinValley_Text_CheckDoorMoreThoroughly, MSGBOX_YESNO)
+    // goto_if_eq VAR_RESULT, NO, SixIsland_RuinValley_EventScript_IgnoreDottedHoleDoor
+    msgbox(SixIsland_RuinValley_Text_SeveralDotsOnTheDoor, MSGBOX_DEFAULT)
+    // braillemessage Braille_Text_Cut
+    // waitbuttonpress
+    // releaseall
+    end
+}
+
+script SixIsland_RuinValley_EventScript_Scientist {
+    end
+}
+
+
+text SixIsland_RuinValley_Text_CheckDoorMoreThoroughly {
+    format("The door doesn't budge at all. Check it more thoroughly?")
+}
+
+text SixIsland_RuinValley_Text_SeveralDotsOnTheDoor {
+    format("On closer inspection, there are several dots on the door…")
+}

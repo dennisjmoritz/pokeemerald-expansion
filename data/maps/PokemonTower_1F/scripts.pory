@@ -1,0 +1,23 @@
+mapscripts PokemonTower_1F_MapScripts {
+}
+
+script PokemonTower_1F_EventScript_BaldingMan {
+    end
+}
+
+script PokemonTower_1F_EventScript_Channeler {
+    end
+}
+
+script PokemonTower_1F_EventScript_Woman1 {
+    end
+}
+
+script PokemonTower_1F_EventScript_Woman2 {
+    end
+}
+
+script PokemonTower_1F_EventScript_WorkerF {
+    end
+}
+

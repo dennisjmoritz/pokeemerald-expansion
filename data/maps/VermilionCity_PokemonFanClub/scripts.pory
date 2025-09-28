@@ -1,0 +1,45 @@
+mapscripts VermilionCity_PokemonFanClub_MapScripts {
+}
+
+script VermilionCity_PokemonFanClub_EventScript_Chairman {
+    end
+}
+
+script VermilionCity_PokemonFanClub_EventScript_FatMan {
+    end
+}
+
+script VermilionCity_PokemonFanClub_EventScript_Pikachu {
+    end
+}
+
+script VermilionCity_PokemonFanClub_EventScript_RulesSign1 {
+    msgbox(VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers, MSGBOX_SIGN)
+    end
+}
+
+script VermilionCity_PokemonFanClub_EventScript_RulesSign2 {
+    msgbox(VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack, MSGBOX_SIGN)
+    end
+}
+
+script VermilionCity_PokemonFanClub_EventScript_Seel {
+    end
+}
+
+script VermilionCity_PokemonFanClub_EventScript_Woman {
+    end
+}
+
+script VermilionCity_PokemonFanClub_EventScript_WorkerF {
+    end
+}
+
+
+text VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack {
+    format("If someone brags, brag right back!")
+}
+
+text VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers {
+    format("Let's all listen politely to other TRAINERS!")
+}

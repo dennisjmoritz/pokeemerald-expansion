@@ -1,0 +1,28 @@
+mapscripts CeladonCity_DepartmentStore_5F_MapScripts {
+}
+
+script CeladonCity_DepartmentStore_5F_EventScript_ClerkVitamins {
+    end
+}
+
+script CeladonCity_DepartmentStore_5F_EventScript_ClerkXItems {
+    end
+}
+
+script CeladonCity_DepartmentStore_5F_EventScript_FloorSign {
+    msgbox(CeladonCity_DepartmentStore_5F_Text_Drugstore, MSGBOX_SIGN)
+    end
+}
+
+script CeladonCity_DepartmentStore_5F_EventScript_Gentleman {
+    end
+}
+
+script CeladonCity_DepartmentStore_5F_EventScript_Sailor {
+    end
+}
+
+
+text CeladonCity_DepartmentStore_5F_Text_Drugstore {
+    format("5F: DRUGSTORE")
+}

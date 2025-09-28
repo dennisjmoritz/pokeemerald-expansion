@@ -1,0 +1,46 @@
+mapscripts FallarborTown_MapScripts {
+}
+
+script FallarborTown_EventScript_Azurill {
+    end
+}
+
+script FallarborTown_EventScript_BattleTentSign {
+    msgbox(FallarborTown_Text_BattleTentSign, MSGBOX_SIGN)
+    end
+}
+
+script FallarborTown_EventScript_ExpertM {
+    end
+}
+
+script FallarborTown_EventScript_Gentleman {
+    end
+}
+
+script FallarborTown_EventScript_Girl {
+    end
+}
+
+script FallarborTown_EventScript_MoveTutorSign {
+    msgbox(FallarborTown_Text_MoveTutorSign, MSGBOX_SIGN)
+    end
+}
+
+script FallarborTown_EventScript_TownSign {
+    msgbox(FallarborTown_Text_TownSign, MSGBOX_SIGN)
+    end
+}
+
+
+text FallarborTown_Text_TownSign {
+    format("FALLARBOR TOWN “A farm community with small gardens.”")
+}
+
+text FallarborTown_Text_MoveTutorSign {
+    format("MOVE TUTOR'S HOUSE “New moves taught to POKéMON.”")
+}
+
+text FallarborTown_Text_BattleTentSign {
+    format("BATTLE TENT FALLARBOR SITE “May the Greatest Teams Gather!”")
+}

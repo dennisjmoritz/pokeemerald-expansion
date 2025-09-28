@@ -1,0 +1,7 @@
+mapscripts MossdeepCity_House3_MapScripts {
+}
+
+script MossdeepCity_House3_EventScript_SuperRodFisherman {
+    end
+}
+

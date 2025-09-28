@@ -1,0 +1,7 @@
+mapscripts VermilionCity_House1_MapScripts {
+}
+
+script VermilionCity_House1_EventScript_FishingGuru {
+    end
+}
+

@@ -1,0 +1,11 @@
+mapscripts MtPyre_6F_MapScripts {
+}
+
+script MtPyre_6F_EventScript_Cedric {
+    end
+}
+
+script MtPyre_6F_EventScript_Valerie {
+    end
+}
+

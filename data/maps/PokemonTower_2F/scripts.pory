@@ -1,0 +1,15 @@
+mapscripts PokemonTower_2F_MapScripts {
+}
+
+script PokemonTower_2F_EventScript_Channeler {
+    end
+}
+
+script PokemonTower_2F_EventScript_RivalTriggerDown {
+    end
+}
+
+script PokemonTower_2F_EventScript_RivalTriggerRight {
+    end
+}
+

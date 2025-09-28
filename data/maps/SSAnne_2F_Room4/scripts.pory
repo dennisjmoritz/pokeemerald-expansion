@@ -1,0 +1,15 @@
+mapscripts SSAnne_2F_Room4_MapScripts {
+}
+
+script SSAnne_2F_Room4_EventScript_Dawn {
+    end
+}
+
+script SSAnne_2F_Room4_EventScript_ItemXAttack {
+    end
+}
+
+script SSAnne_2F_Room4_EventScript_Lamar {
+    end
+}
+

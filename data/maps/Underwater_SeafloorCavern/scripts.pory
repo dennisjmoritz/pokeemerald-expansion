@@ -1,0 +1,7 @@
+mapscripts Underwater_SeafloorCavern_MapScripts {
+}
+
+script Underwater_SeafloorCavern_EventScript_CheckStolenSub {
+    end
+}
+

@@ -1,0 +1,19 @@
+mapscripts Route5_SouthEntrance_MapScripts {
+}
+
+script Route5_SouthEntrance_EventScript_Guard {
+    end
+}
+
+script Route5_SouthEntrance_EventScript_GuardTriggerLeft {
+    end
+}
+
+script Route5_SouthEntrance_EventScript_GuardTriggerMid {
+    end
+}
+
+script Route5_SouthEntrance_EventScript_GuardTriggerRight {
+    end
+}
+

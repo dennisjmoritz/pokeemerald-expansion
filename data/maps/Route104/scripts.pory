@@ -1,0 +1,120 @@
+mapscripts Route104_MapScripts {
+}
+
+script Route104_EventScript_Billy {
+    end
+}
+
+script Route104_EventScript_Boy1 {
+    end
+}
+
+script Route104_EventScript_Boy2 {
+    end
+}
+
+script Route104_EventScript_BrineysCottageSign {
+    msgbox(Route104_Text_MrBrineysCottage, MSGBOX_SIGN)
+    end
+}
+
+script Route104_EventScript_BugCatcher {
+    end
+}
+
+script Route104_EventScript_Cindy {
+    end
+}
+
+script Route104_EventScript_Darian {
+    end
+}
+
+script Route104_EventScript_ExpertF {
+    end
+}
+
+script Route104_EventScript_FlowerShopSign {
+    msgbox(Route104_Text_PrettyPetalFlowShop, MSGBOX_SIGN)
+    end
+}
+
+script Route104_EventScript_Gina {
+    end
+}
+
+script Route104_EventScript_Girl1 {
+    end
+}
+
+script Route104_EventScript_Girl2 {
+    end
+}
+
+script Route104_EventScript_Haley {
+    end
+}
+
+script Route104_EventScript_Ivan {
+    end
+}
+
+script Route104_EventScript_Mia {
+    end
+}
+
+script Route104_EventScript_Rival {
+    end
+}
+
+script Route104_EventScript_RivalTrigger {
+    end
+}
+
+script Route104_EventScript_RouteSignPetalburg {
+    msgbox(Route104_Text_RouteSignPetalburg, MSGBOX_SIGN)
+    end
+}
+
+script Route104_EventScript_RouteSignRustboro {
+    msgbox(Route104_Text_RouteSignRustboro, MSGBOX_SIGN)
+    end
+}
+
+script Route104_EventScript_TrainerTipsDoubleBattles {
+    msgbox(Route104_Text_TrainerTipsDoubleBattles, MSGBOX_SIGN)
+    end
+}
+
+script Route104_EventScript_WhiteHerbFlorist {
+    end
+}
+
+script Route104_EventScript_Winston {
+    end
+}
+
+script Route104_EventScript_Woman {
+    end
+}
+
+
+text Route104_Text_TrainerTipsDoubleBattles {
+    format("TRAINER TIPS\p In the HOENN region there are pairs of TRAINERS who challenge others\l for 2-on-2 POKéMON battles called\l DOUBLE BATTLES.\p In a DOUBLE BATTLE, the TRAINER must send out two POKéMON, the one at the\l left of the list and the top one.\l Watch how POKéMON are lined up.")
+}
+
+text Route104_Text_PrettyPetalFlowShop {
+    format("PRETTY PETAL FLOWER SHOP")
+}
+
+text Route104_Text_MrBrineysCottage {
+    format("MR. BRINEY'S COTTAGE")
+}
+
+text Route104_Text_RouteSignRustboro {
+    format("ROUTE 1O4 {UP_ARROW} RUSTBORO CITY")
+}
+
+text Route104_Text_RouteSignPetalburg {
+    format("ROUTE 1O4 {RIGHT_ARROW} PETALBURG CITY")
+}

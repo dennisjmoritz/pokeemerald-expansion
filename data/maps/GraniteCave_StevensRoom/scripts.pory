@@ -1,0 +1,7 @@
+mapscripts GraniteCave_StevensRoom_MapScripts {
+}
+
+script GraniteCave_StevensRoom_EventScript_Steven {
+    end
+}
+

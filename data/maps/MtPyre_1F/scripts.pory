@@ -1,0 +1,15 @@
+mapscripts MtPyre_1F_MapScripts {
+}
+
+script MtPyre_1F_EventScript_CleanseTagWoman {
+    end
+}
+
+script MtPyre_1F_EventScript_Man {
+    end
+}
+
+script MtPyre_1F_EventScript_PokefanF {
+    end
+}
+

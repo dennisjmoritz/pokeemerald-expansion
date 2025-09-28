@@ -1,0 +1,7 @@
+mapscripts AzaleaTown_PokemonCenter_1F_MapScripts {
+}
+
+script AzaleaTown_PokemonCenter_1F_EventScript_Nurse {
+    end
+}
+

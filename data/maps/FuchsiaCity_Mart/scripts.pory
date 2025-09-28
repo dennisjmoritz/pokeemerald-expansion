@@ -1,0 +1,15 @@
+mapscripts FuchsiaCity_Mart_MapScripts {
+}
+
+script FuchsiaCity_Mart_EventScript_Clerk {
+    end
+}
+
+script FuchsiaCity_Mart_EventScript_CooltrainerF {
+    end
+}
+
+script FuchsiaCity_Mart_EventScript_Gentleman {
+    end
+}
+

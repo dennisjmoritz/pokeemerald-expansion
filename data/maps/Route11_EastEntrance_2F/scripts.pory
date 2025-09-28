@@ -1,0 +1,32 @@
+mapscripts Route11_EastEntrance_2F_MapScripts {
+}
+
+script Route11_EastEntrance_2F_EventScript_Aide {
+    end
+}
+
+script Route11_EastEntrance_2F_EventScript_LeftBinoculars {
+    // lockall
+    // goto_if_set FLAG_WOKE_UP_ROUTE_12_SNORLAX, Route11_EastEntrance_2F_EventScript_LeftBinocularsSnorlaxGone
+    msgbox(Route11_EastEntrance_2F_Text_BigMonAsleepOnRoad, MSGBOX_DEFAULT)
+    // releaseall
+    end
+}
+
+script Route11_EastEntrance_2F_EventScript_RightBinoculars {
+    msgbox(Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender, MSGBOX_SIGN)
+    end
+}
+
+script Route11_EastEntrance_2F_EventScript_Turner {
+    end
+}
+
+
+text Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender {
+    format("Let's see what the binoculars have to show…\p To get to LAVENDER TOWN from CERULEAN CITY…\p ROCK TUNNEL appears to be a good route to take.")
+}
+
+text Route11_EastEntrance_2F_Text_BigMonAsleepOnRoad {
+    format("Let's see what the binoculars have to show…\p A big POKéMON is asleep on a road!")
+}

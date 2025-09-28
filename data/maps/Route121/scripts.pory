@@ -1,0 +1,73 @@
+mapscripts Route121_MapScripts {
+}
+
+script Route121_EventScript_AquaGruntsMoveOut {
+    end
+}
+
+script Route121_EventScript_Cale {
+    end
+}
+
+script Route121_EventScript_Cristin {
+    end
+}
+
+script Route121_EventScript_Jessica {
+    end
+}
+
+script Route121_EventScript_Joy {
+    end
+}
+
+script Route121_EventScript_Kate {
+    end
+}
+
+script Route121_EventScript_Marcel {
+    end
+}
+
+script Route121_EventScript_MtPyrePierSign {
+    msgbox(Route121_Text_MtPyrePierSign, MSGBOX_SIGN)
+    end
+}
+
+script Route121_EventScript_Myles {
+    end
+}
+
+script Route121_EventScript_Pat {
+    end
+}
+
+script Route121_EventScript_SafariZoneSign {
+    msgbox(Route121_Text_SafariZoneSign, MSGBOX_SIGN)
+    end
+}
+
+script Route121_EventScript_Tammy {
+    end
+}
+
+script Route121_EventScript_Vanessa {
+    end
+}
+
+script Route121_EventScript_Walter {
+    end
+}
+
+script Route121_EventScript_Woman {
+    end
+}
+
+
+text Route121_Text_SafariZoneSign {
+    format("“Filled with rare POKéMON!” SAFARI ZONE")
+}
+
+text Route121_Text_MtPyrePierSign {
+    format("MT. PYRE PIER\p …The sign is old and worn out. The words are barely legible…")
+}

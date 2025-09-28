@@ -1,0 +1,27 @@
+mapscripts VictoryRoad_B2F_MapScripts {
+}
+
+script VictoryRoad_B2F_EventScript_Caroline {
+    end
+}
+
+script VictoryRoad_B2F_EventScript_Dianne {
+    end
+}
+
+script VictoryRoad_B2F_EventScript_Felix {
+    end
+}
+
+script VictoryRoad_B2F_EventScript_Julie {
+    end
+}
+
+script VictoryRoad_B2F_EventScript_Owen {
+    end
+}
+
+script VictoryRoad_B2F_EventScript_Vito {
+    end
+}
+

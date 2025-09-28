@@ -1,0 +1,16 @@
+mapscripts InsideOfTruck_MapScripts {
+}
+
+script InsideOfTruck_EventScript_MovingBox {
+    msgbox(InsideOfTruck_Text_BoxPrintedWithMonLogo, MSGBOX_SIGN)
+    end
+}
+
+script InsideOfTruck_EventScript_SetIntroFlags {
+    end
+}
+
+
+text InsideOfTruck_Text_BoxPrintedWithMonLogo {
+    format("The box is printed with a POKéMON logo.\p It's a POKéMON brand moving and delivery service.")
+}

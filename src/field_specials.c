@@ -3530,9 +3530,10 @@ void Unused_SetWeatherSunny(void)
 }
 
 // All mart employees have a local id of 1, so function always returns 1
+// TODO: Decide if I want to update mart list or remove this as it is alaways 1 anyway
 u32 GetMartEmployeeObjectEventId(void)
 {
-    static const u8 sPokeMarts[][3] =
+/*     static const u8 sPokeMarts[][3] =
     {
         { MAP_GROUP(MAP_OLDALE_TOWN_MART),     MAP_NUM(MAP_OLDALE_TOWN_MART),     LOCALID_OLDALE_MART_CLERK },
         { MAP_GROUP(MAP_LAVARIDGE_TOWN_MART),  MAP_NUM(MAP_LAVARIDGE_TOWN_MART),  LOCALID_LAVARIDGE_MART_CLERK },
@@ -3556,7 +3557,7 @@ u32 GetMartEmployeeObjectEventId(void)
             if (gSaveBlock1Ptr->location.mapNum == sPokeMarts[i][1])
                 return sPokeMarts[i][2];
         }
-    }
+    } */
     return 1;
 }
 
