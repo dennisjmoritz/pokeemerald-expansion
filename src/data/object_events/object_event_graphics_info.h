@@ -5376,7 +5376,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMaleReceptio
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AgentSmith = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
@@ -5422,6 +5422,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfOak = {
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .tracks = TRACKS_FOOT,
+    .compressed = FALSE,
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
