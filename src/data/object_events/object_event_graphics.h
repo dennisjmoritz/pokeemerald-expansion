@@ -241,6 +241,7 @@ const u16 gObjectEventPic_Blue[] = INCBIN_U16("graphics/object_events/pics/peopl
 const u16 gObjectEventPic_CableClubReceptionist[] = INCBIN_U16("graphics/object_events/pics/people/cable_club_receptionist.4bpp");
 const u16 gObjectEventPic_UnionRoomReceptionist[] = INCBIN_U16("graphics/object_events/pics/people/union_room_receptionist.4bpp");
 const u16 gObjectEventPic_UnusedMaleReceptionist[] = INCBIN_U16("graphics/object_events/pics/people/unused_male_receptionist.4bpp");
+const u32 gObjectEventPic_AgentSmith[] = INCBIN_U32("graphics/object_events/pics/people/agentsmith.4bpp");
 const u16 gObjectEventPic_ItemBall[] = INCBIN_U16("graphics/object_events/pics/misc/item_ball.4bpp");
 const u16 gObjectEventPic_MrFuji[] = INCBIN_U16("graphics/object_events/pics/people/mr_fuji.4bpp");
 const u16 gObjectEventPic_Bruno[] = INCBIN_U16("graphics/object_events/pics/people/bruno.4bpp");

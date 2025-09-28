@@ -92,7 +92,7 @@
     },
     {
       "local_id": "LOCALID_CERULEAN_SLOWBRO",
-      "graphics_id": "OBJ_EVENT_GFX_SLOWBRO",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SLOWBRO)",
       "x": 32,
       "y": 29,
       "elevation": 3,

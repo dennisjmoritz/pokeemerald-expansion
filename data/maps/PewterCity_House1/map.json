@@ -45,7 +45,7 @@
     {
       "local_id": "LOCALID_PEWTER_HOUSE_NIDORAN",
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_NIDORAN_M",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(NIDORAN_M)",
       "x": 6,
       "y": 3,
       "elevation": 3,

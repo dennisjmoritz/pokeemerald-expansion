@@ -2393,3 +2393,7 @@ static const struct SpriteFrameImage sPicTable_DeoxysN[] = {
     overworld_frame(gObjectEventPic_DeoxysN, 4, 4, 0),
     overworld_frame(gObjectEventPic_DeoxysN, 4, 4, 1),
 };
+
+static const struct SpriteFrameImage sPicTable_AgentSmith[] = {
+    overworld_ascending_frames(gObjectEventPic_AgentSmith, 2, 4),
+};

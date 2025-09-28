@@ -31,7 +31,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_WIGGLYTUFF",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(WIGGLYTUFF)",
       "x": 4,
       "y": 2,
       "elevation": 3,

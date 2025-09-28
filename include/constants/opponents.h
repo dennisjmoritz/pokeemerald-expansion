@@ -756,6 +756,7 @@
 #define TRAINER_YOUNGSTER_JOSH                             750
 #define TRAINER_YOUNGSTER_NASH                             751
 #define TRAINER_YOUNGSTER_TYLER                            752
+#define TRAINER_AGENT_SMITH                                753
 
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows

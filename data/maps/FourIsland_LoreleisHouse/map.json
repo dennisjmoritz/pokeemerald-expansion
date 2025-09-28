@@ -31,7 +31,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_WIGGLYTUFF",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(WIGGLYTUFF)",
       "x": 0,
       "y": 2,
       "elevation": 3,
@@ -45,7 +45,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_SEEL",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SEEL)",
       "x": 10,
       "y": 3,
       "elevation": 0,
@@ -73,7 +73,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_SLOWPOKE",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SLOWPOKE)",
       "x": 7,
       "y": 2,
       "elevation": 3,
@@ -87,7 +87,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_SLOWBRO",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SLOWBRO)",
       "x": 6,
       "y": 2,
       "elevation": 3,
@@ -101,7 +101,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PSYDUCK",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(PSYDUCK)",
       "x": 6,
       "y": 4,
       "elevation": 0,
@@ -115,7 +115,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_MEOWTH",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(MEOWTH)",
       "x": 9,
       "y": 4,
       "elevation": 0,
@@ -130,7 +130,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CHANSEY",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(CHANSEY)",
       "x": 10,
       "y": 4,
       "elevation": 0,
@@ -145,7 +145,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_JIGGLYPUFF",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(JIGGLYPUFF)",
       "x": 0,
       "y": 3,
       "elevation": 3,
@@ -160,7 +160,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_NIDORAN_F",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(NIDORAN_F)",
       "x": 0,
       "y": 5,
       "elevation": 3,
@@ -175,7 +175,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_NIDORAN_M",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(NIDORAN_M)",
       "x": 1,
       "y": 5,
       "elevation": 3,
@@ -190,7 +190,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PIDGEOT",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(PIDGEOT)",
       "x": 9,
       "y": 0,
       "elevation": 3,
@@ -205,7 +205,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_FEAROW",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(FEAROW)",
       "x": 10,
       "y": 0,
       "elevation": 3,
