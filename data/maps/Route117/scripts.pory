@@ -1,10 +1,6 @@
 mapscripts Route117_MapScripts {
 }
 
-script NULL {
-    end
-}
-
 script Route117_EventScript_Aisha {
     end
 }
@@ -74,7 +70,7 @@ script Route117_EventScript_Woman {
 
 
 text Route117_Text_DayCareSign {
-    format("POKéMON DAY CARE “Let us raise your POKéMON.”")
+    format("POKéMON DAY CARE Let us raise your POKéMON.")
 }
 
 text Route117_Text_RouteSignVerdanturf {
