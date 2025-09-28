@@ -3,11 +3,12 @@
 #define GUARD_CONSTANTS_REGION_MAP_SECTIONS_H
 
 enum {
-    MAPSEC_NONE,
+
 ## for map_section in map_sections
     {{ map_section.id }},
 ## endfor
-    MAPSEC_COUNT
+    MAPSEC_NONE,
+    MAPSEC_COUNT,
 };
 
 // Special location IDs that use the same value space as MAPSECs.
