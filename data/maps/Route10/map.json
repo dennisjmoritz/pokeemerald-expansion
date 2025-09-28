@@ -120,7 +120,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_12"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
@@ -133,7 +133,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_13"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
@@ -146,7 +146,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_14"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
@@ -159,7 +159,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_15"
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -231,7 +231,7 @@
       "y": 19,
       "elevation": 0,
       "item": "ITEM_SUPER_POTION",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -240,7 +240,7 @@
       "y": 40,
       "elevation": 3,
       "item": "ITEM_MAX_ETHER",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -249,7 +249,7 @@
       "y": 26,
       "elevation": 3,
       "item": "ITEM_CHERI_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -258,7 +258,7 @@
       "y": 29,
       "elevation": 3,
       "item": "ITEM_PERSIM_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -267,7 +267,7 @@
       "y": 57,
       "elevation": 3,
       "item": "ITEM_NANAB_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]

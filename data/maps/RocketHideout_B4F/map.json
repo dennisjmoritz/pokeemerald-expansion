@@ -27,8 +27,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_Giovanni",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "local_id": "LOCALID_SILPH_SCOPE",
@@ -43,8 +42,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_SilphScope",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -58,8 +56,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "RocketHideout_B4F_EventScript_Grunt1",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "local_id": "LOCALID_LIFT_KEY",
@@ -74,8 +71,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_LiftKey",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -89,8 +85,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_Grunt3",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -104,8 +99,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_Grunt2",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -120,8 +114,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
       "script_comment": "RocketHideout_B4F_EventScript_ItemTM49",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -136,8 +129,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
       "script_comment": "RocketHideout_B4F_EventScript_ItemMaxEther",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -152,8 +144,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
       "script_comment": "RocketHideout_B4F_EventScript_ItemCalcium",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -180,7 +171,7 @@
       "y": 6,
       "elevation": 3,
       "item": "ITEM_NEST_BALL",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -191,7 +182,7 @@
       "y": 6,
       "elevation": 3,
       "item": "ITEM_NET_BALL",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"

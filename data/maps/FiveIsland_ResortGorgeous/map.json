@@ -138,8 +138,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -166,7 +165,7 @@
       "y": 7,
       "elevation": 3,
       "item": "ITEM_NEST_BALL",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -177,7 +176,7 @@
       "y": 11,
       "elevation": 3,
       "item": "ITEM_STARDUST",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -188,7 +187,7 @@
       "y": 12,
       "elevation": 3,
       "item": "ITEM_STAR_PIECE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -199,7 +198,7 @@
       "y": 5,
       "elevation": 3,
       "item": "ITEM_STARDUST",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"

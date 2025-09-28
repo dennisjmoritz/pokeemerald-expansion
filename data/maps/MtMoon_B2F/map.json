@@ -27,8 +27,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtMoon_B2F_EventScript_DomeFossil",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "local_id": "LOCALID_HELIX_FOSSIL",
@@ -43,8 +42,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtMoon_B2F_EventScript_HelixFossil",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "local_id": "LOCALID_MIGUEL",
@@ -73,8 +71,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "MtMoon_B2F_EventScript_Grunt4",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -88,8 +85,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "MtMoon_B2F_EventScript_Grunt1",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -103,8 +99,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "MtMoon_B2F_EventScript_Grunt3",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -118,8 +113,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "MtMoon_B2F_EventScript_Grunt2",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -133,10 +127,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "MtMoon_B2F_EventScript_ItemStarPiece",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -150,10 +142,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "MtMoon_B2F_EventScript_ItemTM46",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -167,10 +157,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "MtMoon_B2F_EventScript_ItemRevive",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -184,10 +172,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "MtMoon_B2F_EventScript_ItemAntidote",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -239,7 +225,7 @@
       "y": 16,
       "elevation": 3,
       "item": "ITEM_MOON_STONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -250,7 +236,7 @@
       "y": 11,
       "elevation": 3,
       "item": "ITEM_ETHER",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"

@@ -125,8 +125,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianCity_Gym_EventScript_Giovanni",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -190,7 +189,7 @@
       "y": 2,
       "elevation": 3,
       "item": "ITEM_MACHO_BRACE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]

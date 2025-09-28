@@ -70,8 +70,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PewterCity_Museum_1F_EventScript_OldAmber",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -99,7 +98,6 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "PewterCity_Museum_1F_EventScript_SeismicTossTutor",
       "flag": "0"
     }
@@ -183,7 +181,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "PewterCity_Museum_1F_EventScript_PokemonJournalBrock"
     },
     {
@@ -193,7 +190,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "PewterCity_Museum_1F_EventScript_PokemonJournalBrock"
     }
   ]

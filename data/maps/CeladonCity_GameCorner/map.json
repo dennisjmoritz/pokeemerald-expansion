@@ -167,8 +167,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CeladonCity_GameCorner_EventScript_RocketGrunt",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -195,7 +194,7 @@
       "y": 4,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -204,7 +203,7 @@
       "y": 8,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -213,7 +212,7 @@
       "y": 11,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -222,7 +221,7 @@
       "y": 12,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -231,7 +230,7 @@
       "y": 9,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -240,7 +239,7 @@
       "y": 5,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -249,7 +248,7 @@
       "y": 4,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -258,7 +257,7 @@
       "y": 3,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -267,7 +266,7 @@
       "y": 5,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -276,7 +275,7 @@
       "y": 5,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -285,7 +284,7 @@
       "y": 13,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -294,7 +293,7 @@
       "y": 12,
       "elevation": 3,
       "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {

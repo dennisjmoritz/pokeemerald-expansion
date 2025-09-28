@@ -172,7 +172,7 @@
       "y": 12,
       "elevation": 0,
       "item": "ITEM_NUGGET",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]

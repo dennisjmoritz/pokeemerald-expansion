@@ -162,8 +162,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1",
+      "flag": "0",
       "script_comment": "Route25_EventScript_ItemTM43"
     },
     {
@@ -177,7 +176,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_12"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
@@ -232,7 +231,7 @@
       "y": 2,
       "elevation": 3,
       "item": "ITEM_ELIXIR",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -241,7 +240,7 @@
       "y": 6,
       "elevation": 3,
       "item": "ITEM_ETHER",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -250,7 +249,7 @@
       "y": 8,
       "elevation": 3,
       "item": "ITEM_ORAN_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -259,7 +258,7 @@
       "y": 3,
       "elevation": 3,
       "item": "ITEM_BLUK_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]

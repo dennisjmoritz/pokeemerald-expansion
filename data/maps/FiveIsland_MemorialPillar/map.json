@@ -47,7 +47,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "FiveIsland_MemorialPillar_EventScript_Milo",
       "flag": "0"
     },
@@ -63,7 +62,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "FiveIsland_MemorialPillar_EventScript_Chaz",
       "flag": "0"
     },
@@ -79,7 +77,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "FiveIsland_MemorialPillar_EventScript_Harold",
       "flag": "0"
     },
@@ -95,10 +92,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "FiveIsland_MemorialPillar_EventScript_ItemMetalCoat",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     }
   ],
   "warp_events": [],
@@ -118,7 +113,7 @@
       "y": 52,
       "elevation": 3,
       "item": "ITEM_BIG_PEARL",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -129,7 +124,7 @@
       "y": 7,
       "elevation": 3,
       "item": "ITEM_RAZZ_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -140,7 +135,7 @@
       "y": 22,
       "elevation": 3,
       "item": "ITEM_SITRUS_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -151,7 +146,7 @@
       "y": 25,
       "elevation": 3,
       "item": "ITEM_BLUK_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"

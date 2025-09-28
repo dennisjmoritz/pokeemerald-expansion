@@ -576,7 +576,7 @@
       "y": 42,
       "elevation": 0,
       "item": "ITEM_FULL_RESTORE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -585,7 +585,7 @@
       "y": 72,
       "elevation": 0,
       "item": "ITEM_ULTRA_BALL",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -594,7 +594,7 @@
       "y": 101,
       "elevation": 3,
       "item": "ITEM_MAX_ETHER",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -603,7 +603,7 @@
       "y": 18,
       "elevation": 3,
       "item": "ITEM_LUM_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -612,7 +612,7 @@
       "y": 29,
       "elevation": 3,
       "item": "ITEM_SITRUS_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -621,7 +621,7 @@
       "y": 67,
       "elevation": 3,
       "item": "ITEM_ASPEAR_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -630,7 +630,7 @@
       "y": 128,
       "elevation": 3,
       "item": "ITEM_LEPPA_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -639,7 +639,7 @@
       "y": 8,
       "elevation": 3,
       "item": "ITEM_MAX_ELIXIR",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {

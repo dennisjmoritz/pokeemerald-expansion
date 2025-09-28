@@ -27,8 +27,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ThreeIsland_BerryForest_EventScript_Lostelle",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -42,7 +41,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_12"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -56,7 +55,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_13"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -70,7 +69,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_14"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -84,7 +83,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_15"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -98,7 +97,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_16"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -112,7 +111,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_17"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -126,7 +125,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_18"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -140,7 +139,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_19"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -182,10 +181,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "ThreeIsland_BerryForest_EventScript_ItemMaxEther",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -199,10 +196,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "ThreeIsland_BerryForest_EventScript_ItemFullHeal",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -216,10 +211,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "ThreeIsland_BerryForest_EventScript_ItemMaxElixir",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -269,7 +262,7 @@
       "y": 25,
       "elevation": 3,
       "item": "ITEM_RAZZ_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -280,7 +273,7 @@
       "y": 15,
       "elevation": 3,
       "item": "ITEM_BLUK_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -291,7 +284,7 @@
       "y": 24,
       "elevation": 3,
       "item": "ITEM_NANAB_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -302,7 +295,7 @@
       "y": 24,
       "elevation": 3,
       "item": "ITEM_WEPEAR_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -313,7 +306,7 @@
       "y": 18,
       "elevation": 3,
       "item": "ITEM_ORAN_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -324,7 +317,7 @@
       "y": 23,
       "elevation": 3,
       "item": "ITEM_CHERI_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -335,7 +328,7 @@
       "y": 5,
       "elevation": 3,
       "item": "ITEM_CHESTO_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -346,7 +339,7 @@
       "y": 30,
       "elevation": 3,
       "item": "ITEM_PECHA_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -357,7 +350,7 @@
       "y": 5,
       "elevation": 3,
       "item": "ITEM_RAWST_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -368,7 +361,7 @@
       "y": 6,
       "elevation": 3,
       "item": "ITEM_ASPEAR_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -379,7 +372,7 @@
       "y": 32,
       "elevation": 3,
       "item": "ITEM_PERSIM_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -390,7 +383,7 @@
       "y": 16,
       "elevation": 3,
       "item": "ITEM_PINAP_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
@@ -401,7 +394,7 @@
       "y": 5,
       "elevation": 3,
       "item": "ITEM_LUM_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"

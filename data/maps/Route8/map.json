@@ -162,7 +162,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_12"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
@@ -175,7 +175,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_13"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
@@ -266,7 +266,7 @@
       "y": 10,
       "elevation": 3,
       "item": "ITEM_RAWST_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -275,7 +275,7 @@
       "y": 11,
       "elevation": 3,
       "item": "ITEM_LUM_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -284,7 +284,7 @@
       "y": 15,
       "elevation": 3,
       "item": "ITEM_LEPPA_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]

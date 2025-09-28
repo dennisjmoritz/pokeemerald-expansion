@@ -95,7 +95,7 @@
       "y": 7,
       "elevation": 3,
       "item": "ITEM_LEPPA_BERRY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"

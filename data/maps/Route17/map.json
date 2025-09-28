@@ -223,7 +223,7 @@
       "y": 83,
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -232,7 +232,7 @@
       "y": 53,
       "elevation": 3,
       "item": "ITEM_FULL_RESTORE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -241,7 +241,7 @@
       "y": 68,
       "elevation": 3,
       "item": "ITEM_PP_UP",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -250,7 +250,7 @@
       "y": 125,
       "elevation": 3,
       "item": "ITEM_MAX_REVIVE",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     },
     {
@@ -259,7 +259,7 @@
       "y": 157,
       "elevation": 3,
       "item": "ITEM_MAX_ELIXIR",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
     }
   ]

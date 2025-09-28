@@ -33,8 +33,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SixIsland_RuinValley_EventScript_Scientist",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -48,7 +47,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SixIsland_RuinValley_EventScript_Stanly",
       "flag": "0"
     },
@@ -64,7 +62,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SixIsland_RuinValley_EventScript_Foster",
       "flag": "0"
     },
@@ -80,7 +77,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SixIsland_RuinValley_EventScript_Larry",
       "flag": "0"
     },
@@ -96,7 +92,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SixIsland_RuinValley_EventScript_Daryl",
       "flag": "0"
     },
@@ -112,7 +107,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SixIsland_RuinValley_EventScript_Hector",
       "flag": "0"
     },
@@ -240,10 +234,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SixIsland_RuinValley_EventScript_ItemHPUp",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -257,10 +249,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SixIsland_RuinValley_EventScript_ItemFullRestore",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -274,10 +264,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SixIsland_RuinValley_EventScript_ItemSunStone",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     }
   ],
   "warp_events": [

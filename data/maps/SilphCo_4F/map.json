@@ -26,8 +26,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "SilphCo_4F_EventScript_Grunt2",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -41,8 +40,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "SilphCo_4F_EventScript_Grunt1",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -56,8 +54,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "SilphCo_4F_EventScript_Rodney",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -85,10 +82,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_ItemMaxRevive",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -102,10 +97,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_ItemEscapeRope",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -119,10 +112,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_ItemFullHeal",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -136,10 +127,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_ItemTM41",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -202,7 +191,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_Door1"
     },
     {
@@ -212,7 +200,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_Door1"
     },
     {
@@ -222,7 +209,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_Door1"
     },
     {
@@ -232,7 +218,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_Door1"
     },
     {
@@ -242,7 +227,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_Door2"
     },
     {
@@ -252,7 +236,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_Door2"
     },
     {
@@ -262,7 +245,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_Door2"
     },
     {
@@ -272,7 +254,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Common_EventScript_ShowBagIsFull",
-
       "script_comment": "SilphCo_4F_EventScript_Door2"
     },
     {
@@ -281,7 +262,7 @@
       "y": 20,
       "elevation": 0,
       "item": "ITEM_IRON",
-      "flag": "FLAG_TEMP_1",
+      "flag": "0",
       "quantity": 1,
       "underfoot": false,
       "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"

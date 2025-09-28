@@ -227,7 +227,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_13"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -241,7 +241,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_15"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -255,7 +255,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_16"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -269,7 +269,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_17"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -283,7 +283,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_18"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -297,7 +297,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_19"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -395,7 +395,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_11"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -410,8 +410,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
       "script_comment": "OneIsland_KindleRoad_EventScript_ItemEther",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -426,8 +425,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
       "script_comment": "OneIsland_KindleRoad_EventScript_ItemMaxRepel",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -442,8 +440,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
       "script_comment": "OneIsland_KindleRoad_EventScript_ItemCarbos",
-      "flag": "FLAG_TEMP_1",
-      "flag_comment": "Replaced FLAG_TEMP_1 with FLAG_TEMP_1"
+      "flag": "0"
     }
   ],
   "warp_events": [
