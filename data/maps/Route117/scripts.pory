@@ -74,7 +74,7 @@ script Route117_EventScript_Woman {
 
 
 text Route117_Text_DayCareSign {
-    format("POKéMON DAY CARE\n\"Let us raise your POKéMON.\"")
+    format("POKéMON DAY CARE\nLet us raise your POKéMON.")
 }
 
 text Route117_Text_RouteSignVerdanturf {
