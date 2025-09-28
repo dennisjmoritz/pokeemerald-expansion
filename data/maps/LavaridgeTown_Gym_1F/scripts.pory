@@ -2,14 +2,17 @@ mapscripts LavaridgeTown_Gym_1F_MapScripts {
 }
 
 script LavaridgeTown_Gym_1F_EventScript_Axle {
+    msgbox(LavaridgeTown_Gym_1F_Text_AxlePostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
 script LavaridgeTown_Gym_1F_EventScript_Cole {
+    msgbox(LavaridgeTown_Gym_1F_Text_ColePostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
 script LavaridgeTown_Gym_1F_EventScript_Danielle {
+    msgbox(LavaridgeTown_Gym_1F_Text_DaniellePostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -18,6 +21,7 @@ script LavaridgeTown_Gym_1F_EventScript_Flannery {
 }
 
 script LavaridgeTown_Gym_1F_EventScript_Gerald {
+    msgbox(LavaridgeTown_Gym_1F_Text_GeraldPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -39,3 +43,54 @@ script LavaridgeTown_Gym_1F_EventScript_RightGymStatue {
     end
 }
 
+text LavaridgeTown_Gym_1F_Text_ColePostBattle {
+    format("Being buried in hot sand promotes\ncirculation.\pIt's effective for healing pain in\nyour joints.$")
+}
+
+text LavaridgeTown_Gym_1F_Text_ExplainOverheat {
+    format("That TM50 contains OVERHEAT.\pThat move inflicts serious damage on\nthe opponent.\pBut it also sharply cuts the SP. ATK\nof the POKéMON using it. It might not\lbe suitable for longer battles.$")
+}
+
+text LavaridgeTown_Gym_1F_Text_FlanneryPostRematch {
+    format("FLANNERY: I lost the match,\nbut I'm completely satisfied.\pIt's not often I get to enjoy a battle\nthis heated.\pLet's have another one like this\nagain sometime!$")
+}
+
+text LavaridgeTown_Gym_1F_Text_DaniellePostBattle {
+    format("I'm going to be a pretty and strong\nTRAINER just like FLANNERY.$")
+}
+
+text LavaridgeTown_Gym_1F_Text_GeraldPostBattle {
+    format("The temperature of magma is\n392 degrees.\pYour POKéMON beat me, so they should\neasily survive in magma.$")
+}
+
+text LavaridgeTown_Gym_B1F_Text_JeffPostBattle {
+    format("Well, so what? I say so what?\nI can walk on hot coals barefoot!\p…Don't even think about trying it!$")
+}
+
+text LavaridgeTown_Gym_1F_Text_GymGuidePostVictory {
+    format("Yow! That was a scorching-hot battle!$")
+}
+
+text LavaridgeTown_Gym_1F_Text_GymStatueCertified {
+    format("LAVARIDGE TOWN POKéMON GYM\pFLANNERY'S CERTIFIED TRAINERS:\n{PLAYER}$")
+}
+
+text LavaridgeTown_Gym_B1F_Text_EliPostBattle {
+    format("I stay here because I became a fan\nof FLANNERY's power.\pHehehehe.$")
+}
+
+text LavaridgeTown_Gym_B1F_Text_JacePostBattle {
+    format("The way the battling spirit burns\nwithin you, you may stand a chance\lagainst our LEADER.$")
+}
+
+text LavaridgeTown_Gym_1F_Text_GymStatue {
+    format("LAVARIDGE TOWN POKéMON GYM$")
+}
+
+text LavaridgeTown_Gym_B1F_Text_KeeganPostBattle {
+    format("Your skill is real…\nBut our LEADER FLANNERY is strong.\pIf you don't watch yourself, you'll be\nburned seriously.$")
+}
+
+text LavaridgeTown_Gym_1F_Text_AxlePostBattle {
+    format("Haaah… Whew…\pIf you spend too much time buried in\nhot sand, it tuckers you out…$")
+}

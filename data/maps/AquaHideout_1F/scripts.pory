@@ -17,13 +17,29 @@ script AquaHideout_1F_EventScript_HideoutEntranceGrunt2 {
 
 
 text AquaHideout_1F_Text_Grunt1Defeat {
-    "Placeholder text for AquaHideout_1F_Text_Grunt1Defeat"
+    format("Placeholder text for AquaHideout_1F_Text_Grunt1Defeat")
 }
 
 text AquaHideout_1F_Text_Grunt1Intro {
-    "Placeholder text for AquaHideout_1F_Text_Grunt1Intro"
+    format("Placeholder text for AquaHideout_1F_Text_Grunt1Intro")
 }
 
 text AquaHideout_1F_Text_Grunt1PostBattle {
-    "Placeholder text for AquaHideout_1F_Text_Grunt1PostBattle"
+    format("Placeholder text for AquaHideout_1F_Text_Grunt1PostBattle")
+}
+
+text AquaHideout_1F_Text_BossIsInSlateportCity {
+    format("What? What? What do you want with\nTEAM AQUA?\pOur BOSS isn't here!\nHe's on his way to SLATEPORT CITY!\p… …\nWhy did he go?\pWahaha! Do you really think I'd tell\nyou something that crucial?$")
+}
+
+text AquaHideout_1F_Text_TeamMagmaAtMtChimney {
+    format("What? What?\nAre you a TEAM MAGMA grunt?\pI hear that TEAM MAGMA is after\nan awesome POKéMON at MT. CHIMNEY.\pBut what is that POKéMON like?$")
+}
+
+text AquaHideout_1F_Text_WhereMightMagmaHideoutBe {
+    format("What? What?\nAre you a TEAM MAGMA grunt?\pI hear that TEAM MAGMA is trying to\nawaken an awesome POKéMON at their\lHIDEOUT.\pBut where might their HIDEOUT be?$")
+}
+
+text AquaHideout_1F_Text_BossWentToJackASubmarine {
+    format("What? What? What do you want with \nTEAM AQUA?\pOur BOSS isn't here!\nHe's gone off to jack a submarine!\p… …\nWhere did he go?\pWahaha! Do you really think I'd tell\nyou something that crucial?$")
 }

@@ -2,14 +2,28 @@ mapscripts MossdeepCity_House2_MapScripts {
 }
 
 script MossdeepCity_House2_EventScript_Man {
+    msgbox(MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree, MSGBOX_NPC)
     end
 }
 
 script MossdeepCity_House2_EventScript_Twin {
+    msgbox(MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth, MSGBOX_NPC)
     end
 }
 
 script MossdeepCity_House2_EventScript_Wingull {
+    msgbox(MossdeepCity_House2_Text_Wingull, MSGBOX_DEFAULT)
     end
 }
 
+text MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth {
+    format("Even though I can't see my friend in\nFORTREE, my POKéMON carries MAIL\lback and forth for us.\pI'm not lonesome, even though we're\napart.$")
+}
+
+text MossdeepCity_House2_Text_Wingull {
+    format("WINGULL: Pihyoh!$")
+}
+
+text MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree {
+    format("My little sister exchanges MAIL with\nher boyfriend in FORTREE.\pI don't envy her one bit at all.$")
+}

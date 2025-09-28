@@ -8,3 +8,23 @@ script LittlerootTown_MaysHouse_2F_EventScript_PC {
 script LittlerootTown_MaysHouse_2F_EventScript_RivalsPokeBall {
     end
 }
+
+text RivalsHouse_2F_Text_BrendanWhereShouldIGoNext {
+    format("BRENDAN: I'm having a hard time deciding\nwhere I should catch POKéMON next.\pHey, {PLAYER}, if I see you while I'm out\ncatching POKéMON, I can pitch you a\lbattle if you'd like.$")
+}
+
+text RivalsHouse_2F_Text_MayWhereShouldIGoNext {
+    format("MAY: I wonder where I should go catch\nsome POKéMON next?\pWouldn't it be funny if we ran into each\nother, {PLAYER}{KUN}?$")
+}
+
+text RivalsHouse_2F_Text_BrendanGettingReady {
+    format("POKéMON fully restored…\nItems all packed, and…$")
+}
+
+text RivalsHouse_2F_Text_MayGettingReady {
+    format("POKéMON fully restored!\nItems ready, and…$")
+}
+
+text RivalsHouse_2F_Text_MayWhoAreYou {
+    format("Huh?\nWho… Who are you?\p… … … … … … … …\n… … … … … … … …\pOh, you're {PLAYER}{KUN}.\nSo your move was today.\pUm… I'm MAY.\nGlad to meet you!\pI…\nI have this dream of becoming friends\lwith POKéMON all over the world.\pI… I heard about you, {PLAYER}{KUN}, from\nmy dad, PROF. BIRCH.\pI was hoping that you would be nice,\n{PLAYER}{KUN}, and that we could be friends.\pOh, this is silly, isn't it?\nI… I've just met you, {PLAYER}{KUN}.\pEheheh…\pOh, no! I forgot!\pI was supposed to go help Dad catch\nsome wild POKéMON!\p{PLAYER}{KUN}, I'll catch you later!$")
+}

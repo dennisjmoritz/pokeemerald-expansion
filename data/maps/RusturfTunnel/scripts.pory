@@ -2,10 +2,12 @@ mapscripts RusturfTunnel_MapScripts {
 }
 
 script RusturfTunnel_EventScript_AquaGruntBackUp {
+    msgbox(RusturfTunnel_Text_ComeAndGetSome, MSGBOX_DEFAULT)
     end
 }
 
 script RusturfTunnel_EventScript_Grunt {
+    msgbox(RusturfTunnel_Text_GruntIntro, MSGBOX_DEFAULT)
     end
 }
 
@@ -15,6 +17,7 @@ script RusturfTunnel_EventScript_Mike {
 }
 
 script RusturfTunnel_EventScript_Peeko {
+    msgbox(RusturfTunnel_Text_Peeko, MSGBOX_DEFAULT)
     end
 }
 
@@ -31,6 +34,7 @@ script RusturfTunnel_EventScript_TunnelBlockagePos3 {
 }
 
 script RusturfTunnel_EventScript_Wanda {
+    msgbox(RusturfTunnel_Text_BoyfriendOnOtherSideOfRock, MSGBOX_DEFAULT)
     end
 }
 
@@ -41,13 +45,33 @@ script RusturfTunnel_EventScript_WandasBoyfriend {
 
 
 text RusturfTunnel_Text_MikeDefeat {
-    "Placeholder text for RusturfTunnel_Text_MikeDefeat"
+    format("Placeholder text for RusturfTunnel_Text_MikeDefeat")
 }
 
 text RusturfTunnel_Text_MikeIntro {
-    "Placeholder text for RusturfTunnel_Text_MikeIntro"
+    format("Placeholder text for RusturfTunnel_Text_MikeIntro")
 }
 
 text RusturfTunnel_Text_MikePostBattle {
-    "Placeholder text for RusturfTunnel_Text_MikePostBattle"
+    format("Placeholder text for RusturfTunnel_Text_MikePostBattle")
+}
+
+text RusturfTunnel_Text_ComeAndGetSome {
+    format("What, are you coming?\nCome and get some, then!$")
+}
+
+text RusturfTunnel_Text_GruntIntro {
+    format("Grah, keelhaul it all!\pThat hostage POKéMON turned out to\nbe worthless!\pAnd to think I made a getaway…\nIn this tunnel to nowhere!\pHey! You!\nSo you want to battle me?$")
+}
+
+text RusturfTunnel_Text_Peeko {
+    format("PEEKO: Pii pihyoh!$")
+}
+
+text RusturfTunnel_Text_ToGetToVerdanturf {
+    format("To get from RUSTBORO to VERDANTURF,\nyou need to go to DEWFORD, then pass\lthrough SLATEPORT and MAUVILLE…$")
+}
+
+text RusturfTunnel_Text_BoyfriendOnOtherSideOfRock {
+    format("On the other side of this rock…\nMy boyfriend is there.\pHe… He's not just digging the tunnel\nto come see me.\pHe works his hands raw and rough\nfor the benefit of everyone.$")
 }

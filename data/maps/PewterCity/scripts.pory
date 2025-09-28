@@ -2,6 +2,7 @@ mapscripts PewterCity_MapScripts {
 }
 
 script PewterCity_EventScript_BugCatcher {
+    msgbox(PewterCity_Text_DoYouKnowWhatImDoing, MSGBOX_YESNO)
     end
 }
 
@@ -37,16 +38,18 @@ script PewterCity_EventScript_GymGuideTriggerTop {
 script PewterCity_EventScript_GymSign {
     // lockall
     // famechecker FAMECHECKER_BROCK, 0
-    msgbox(PewterCity_Text_GymSign, MSGBOX_DEFAULT)
+    msgbox(PewterCity_Text_GymSign, MSGBOX_SIGN)
     // releaseall
     end
 }
 
 script PewterCity_EventScript_Lass {
+    msgbox(PewterCity_Text_ClefairyCameFromMoon, MSGBOX_NPC)
     end
 }
 
 script PewterCity_EventScript_MuseumGuide {
+    msgbox(PewterCity_Text_DidYouCheckOutMuseum, MSGBOX_YESNO)
     end
 }
 
@@ -100,4 +103,16 @@ text PewterCity_Text_CallPoliceIfInfoOnThieves {
 
 text PewterCity_Text_TrainerTipsEarningEXP {
     format("TRAINER TIPS\p All POKéMON that appear in battle, however briefly, earn EXP Points.")
+}
+
+text PewterCity_Text_DoYouKnowWhatImDoing {
+    format("Psssst!\nDo you know what I'm doing?$")
+}
+
+text PewterCity_Text_ClefairyCameFromMoon {
+    format("CLEFAIRY came from the moon.\nThat's what the rumor is.\pThey appeared after MOON STONES\nfell on MT. MOON.$")
+}
+
+text PewterCity_Text_DidYouCheckOutMuseum {
+    format("Did you check out the MUSEUM?$")
 }

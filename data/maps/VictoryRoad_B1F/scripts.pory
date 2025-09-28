@@ -29,61 +29,61 @@ script VictoryRoad_B1F_EventScript_Shannon {
 
 
 text VictoryRoad_B1F_Text_HalleDefeat {
-    "Placeholder text for VictoryRoad_B1F_Text_HalleDefeat"
+    format("Placeholder text for VictoryRoad_B1F_Text_HalleDefeat")
 }
 
 text VictoryRoad_B1F_Text_HalleIntro {
-    "Placeholder text for VictoryRoad_B1F_Text_HalleIntro"
+    format("Placeholder text for VictoryRoad_B1F_Text_HalleIntro")
 }
 
 text VictoryRoad_B1F_Text_HallePostBattle {
-    "Placeholder text for VictoryRoad_B1F_Text_HallePostBattle"
+    format("Placeholder text for VictoryRoad_B1F_Text_HallePostBattle")
 }
 
 text VictoryRoad_B1F_Text_MichelleDefeat {
-    "Placeholder text for VictoryRoad_B1F_Text_MichelleDefeat"
+    format("Placeholder text for VictoryRoad_B1F_Text_MichelleDefeat")
 }
 
 text VictoryRoad_B1F_Text_MichelleIntro {
-    "Placeholder text for VictoryRoad_B1F_Text_MichelleIntro"
+    format("Placeholder text for VictoryRoad_B1F_Text_MichelleIntro")
 }
 
 text VictoryRoad_B1F_Text_MichellePostBattle {
-    "Placeholder text for VictoryRoad_B1F_Text_MichellePostBattle"
+    format("Placeholder text for VictoryRoad_B1F_Text_MichellePostBattle")
 }
 
 text VictoryRoad_B1F_Text_MitchellDefeat {
-    "Placeholder text for VictoryRoad_B1F_Text_MitchellDefeat"
+    format("Placeholder text for VictoryRoad_B1F_Text_MitchellDefeat")
 }
 
 text VictoryRoad_B1F_Text_MitchellIntro {
-    "Placeholder text for VictoryRoad_B1F_Text_MitchellIntro"
+    format("Placeholder text for VictoryRoad_B1F_Text_MitchellIntro")
 }
 
 text VictoryRoad_B1F_Text_MitchellPostBattle {
-    "Placeholder text for VictoryRoad_B1F_Text_MitchellPostBattle"
+    format("Placeholder text for VictoryRoad_B1F_Text_MitchellPostBattle")
 }
 
 text VictoryRoad_B1F_Text_SamuelDefeat {
-    "Placeholder text for VictoryRoad_B1F_Text_SamuelDefeat"
+    format("Placeholder text for VictoryRoad_B1F_Text_SamuelDefeat")
 }
 
 text VictoryRoad_B1F_Text_SamuelIntro {
-    "Placeholder text for VictoryRoad_B1F_Text_SamuelIntro"
+    format("Placeholder text for VictoryRoad_B1F_Text_SamuelIntro")
 }
 
 text VictoryRoad_B1F_Text_SamuelPostBattle {
-    "Placeholder text for VictoryRoad_B1F_Text_SamuelPostBattle"
+    format("Placeholder text for VictoryRoad_B1F_Text_SamuelPostBattle")
 }
 
 text VictoryRoad_B1F_Text_ShannonDefeat {
-    "Placeholder text for VictoryRoad_B1F_Text_ShannonDefeat"
+    format("Placeholder text for VictoryRoad_B1F_Text_ShannonDefeat")
 }
 
 text VictoryRoad_B1F_Text_ShannonIntro {
-    "Placeholder text for VictoryRoad_B1F_Text_ShannonIntro"
+    format("Placeholder text for VictoryRoad_B1F_Text_ShannonIntro")
 }
 
 text VictoryRoad_B1F_Text_ShannonPostBattle {
-    "Placeholder text for VictoryRoad_B1F_Text_ShannonPostBattle"
+    format("Placeholder text for VictoryRoad_B1F_Text_ShannonPostBattle")
 }

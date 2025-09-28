@@ -36,6 +36,7 @@ script PalletTown_ProfessorOaksLab_EventScript_LeftSign {
 }
 
 script PalletTown_ProfessorOaksLab_EventScript_Pokedex {
+    msgbox(PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia, MSGBOX_NPC)
     end
 }
 
@@ -46,7 +47,7 @@ script PalletTown_ProfessorOaksLab_EventScript_ProfOak {
 script PalletTown_ProfessorOaksLab_EventScript_RightSign {
     // lockall
     // goto_if_ge VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6, PalletTown_ProfessorOaksLab_EventScript_RightSignAlt
-    msgbox(PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu, MSGBOX_DEFAULT)
+    msgbox(PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu, MSGBOX_SIGN)
     // releaseall
     end
 }
@@ -82,4 +83,8 @@ text PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu {
 
 text PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu {
     format("Press START to open the MENU!")
+}
+
+text PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia {
+    format("It's like an encyclopedia, but the\npages are blank.$")
 }

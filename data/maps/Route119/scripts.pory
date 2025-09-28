@@ -2,10 +2,12 @@ mapscripts Route119_MapScripts {
 }
 
 script Route119_EventScript_Boy1 {
+    msgbox(Route119_Text_ThoughtFlyByCatchingBirdMons, MSGBOX_NPC)
     end
 }
 
 script Route119_EventScript_Boy2 {
+    msgbox(Route119_Text_CanYourMonMakeSecretBase, MSGBOX_NPC)
     end
 }
 
@@ -15,10 +17,12 @@ script Route119_EventScript_Brent {
 }
 
 script Route119_EventScript_BridgeAquaGrunt1 {
+    msgbox(Route119_Text_StayAwayFromWeatherInstitute, MSGBOX_DEFAULT)
     end
 }
 
 script Route119_EventScript_BridgeAquaGrunt2 {
+    msgbox(Route119_Text_DontGoNearWeatherInstitute, MSGBOX_DEFAULT)
     end
 }
 
@@ -33,6 +37,7 @@ script Route119_EventScript_Chris {
 }
 
 script Route119_EventScript_CyclingTriathleteM {
+    msgbox(Route119_Text_TallGrassSnaresBikeTires, MSGBOX_NPC)
     end
 }
 
@@ -144,205 +149,241 @@ text Route119_Text_TrainerTipsDecoration {
 
 
 text Route119_Text_BrentDefeat {
-    "Whoopsie!\nI lost!"
+    format("Whoopsie! I lost!")
 }
 
 text Route119_Text_BrentIntro {
-    "We're the MIMIC CIRCLE!\nWe MIMIC what you do!"
+    format("We're the MIMIC CIRCLE! We MIMIC what you do!")
 }
 
 text Route119_Text_BrentPostBattle {
-    "What's so good about mimicry?\pFufufu…\nYou'll never understand…"
+    format("What's so good about mimicry?\pFufufu… You'll never understand…")
 }
 
 text Route119_Text_CatherineDefeat {
-    "Accidents happen when you're not\nprepared!"
+    format("Accidents happen when you're not prepared!")
 }
 
 text Route119_Text_CatherineIntro {
-    "Oh? Look at you.\pFor someone on an adventure,\nyou're traveling awfully light."
+    format("Oh? Look at you.\pFor someone on an adventure, you're traveling awfully light.")
 }
 
 text Route119_Text_CatherinePostBattle {
-    "You're traveling light but you have\neverything you need.\pYou're on top of things mentally and\nphysically, too."
+    format("You're traveling light but you have everything you need.\pYou're on top of things mentally and physically, too.")
 }
 
 text Route119_Text_ChrisDefeat {
-    "I don't have a clue about what it\ntakes to win."
+    format("I don't have a clue about what it takes to win.")
 }
 
 text Route119_Text_ChrisIntro {
-    "You spoke to me…\nSo you want to challenge me!\pSure! I'll try out the POKéMON I caught\nwhile SURFING!"
+    format("You spoke to me… So you want to challenge me!\pSure! I'll try out the POKéMON I caught while SURFING!")
 }
 
 text Route119_Text_ChrisPostBattle {
-    "Go for a SURF on my POKéMON…\pThen fish off its back…\pIt's an indescribably luxuriant moment!"
+    format("Go for a SURF on my POKéMON…\pThen fish off its back…\pIt's an indescribably luxuriant moment!")
 }
 
 text Route119_Text_DaytonDefeat {
-    "You're pretty amazing!\nHohoho!"
+    format("You're pretty amazing! Hohoho!")
 }
 
 text Route119_Text_DaytonIntro {
-    "Hohoho!\nI like kid TRAINERS!\nLet's have a good one!"
+    format("Hohoho! I like kid TRAINERS! Let's have a good one!")
 }
 
 text Route119_Text_DaytonPostBattle {
-    "Hohoho!\nI'll try emulating the pep of kid\nTRAINERS like you!"
+    format("Hohoho! I'll try emulating the pep of kid TRAINERS like you!")
 }
 
 text Route119_Text_DonaldDefeat {
-    "I wish we'd never met…"
+    format("I wish we'd never met…")
 }
 
 text Route119_Text_DonaldIntro {
-    "So, we finally meet!\nMy BUG POKéMON will keep you company!"
+    format("So, we finally meet! My BUG POKéMON will keep you company!")
 }
 
 text Route119_Text_DonaldPostBattle {
-    "I want to MIMIC you some more.\nCan you hurry up and move?"
+    format("I want to MIMIC you some more. Can you hurry up and move?")
 }
 
 text Route119_Text_DougDefeat {
-    "Whoop, that was a great match!"
+    format("Whoop, that was a great match!")
 }
 
 text Route119_Text_DougIntro {
-    "Yep, you've finally caught me!\nOr were you trying to avoid me?"
+    format("Yep, you've finally caught me! Or were you trying to avoid me?")
 }
 
 text Route119_Text_DougPostBattle {
-    "We're the MIMIC CIRCLE!\nI hope you enjoyed our performance."
+    format("We're the MIMIC CIRCLE! I hope you enjoyed our performance.")
 }
 
 text Route119_Text_FabianDefeat {
-    "You showed me who's the boss!\nWe'll have to take the loss, oh, no!"
+    format("You showed me who's the boss! We'll have to take the loss, oh, no!")
 }
 
 text Route119_Text_FabianIntro {
-    "Hit me with a power chord!\nVictory is mine!\nIt's our time to shine, whoa, yeah!"
+    format("Hit me with a power chord! Victory is mine! It's our time to shine, whoa, yeah!")
 }
 
 text Route119_Text_FabianPostBattle {
-    "Hit me with another power chord!\nLeave me alone!\nYour win you have to atone!"
+    format("Hit me with another power chord! Leave me alone! Your win you have to atone!")
 }
 
 text Route119_Text_GregDefeat {
-    "You're pretty strong!"
+    format("You're pretty strong!")
 }
 
 text Route119_Text_GregIntro {
-    "You don't know who I am, do you?\pBut, I also don't know you.\nSo, we'll battle!"
+    format("You don't know who I am, do you?\pBut, I also don't know you. So, we'll battle!")
 }
 
 text Route119_Text_GregPostBattle {
-    "Until you go away somewhere, we'll\nkeep on mimicking your every move."
+    format("Until you go away somewhere, we'll keep on mimicking your every move.")
 }
 
 text Route119_Text_HideoDefeat {
-    "I bow to your superiority."
+    format("I bow to your superiority.")
 }
 
 text Route119_Text_HideoIntro {
-    "To hide a tree, use a forest!"
+    format("To hide a tree, use a forest!")
 }
 
 text Route119_Text_HideoPostBattle {
-    "To hide a tree, use a forest!\nTo hide a POKéMON, use a POKéMON!\pThere is no deep, hidden meaning\nto that."
+    format("To hide a tree, use a forest! To hide a POKéMON, use a POKéMON!\pThere is no deep, hidden meaning to that.")
 }
 
 text Route119_Text_HughDefeat {
-    "Down and out!"
+    format("Down and out!")
 }
 
 text Route119_Text_HughIntro {
-    "The vast sky holds untold promise!\pNothing can compare to the sheer\nexhilaration of flight!"
+    format("The vast sky holds untold promise!\pNothing can compare to the sheer exhilaration of flight!")
 }
 
 text Route119_Text_HughPostBattle {
-    "My BIRD POKéMON made my dreams of\nflying come true!"
+    format("My BIRD POKéMON made my dreams of flying come true!")
 }
 
 text Route119_Text_JacksonDefeat {
-    "I didn't have enough POKéMON\nknow-how…"
+    format("I didn't have enough POKéMON know-how…")
 }
 
 text Route119_Text_JacksonIntro {
-    "Who has the knowledge and\nthe technique for survival?\pPOKéMON RANGERS, that's who!"
+    format("Who has the knowledge and the technique for survival?\pPOKéMON RANGERS, that's who!")
 }
 
 text Route119_Text_JacksonPostBattle {
-    "To break away from civilization and\nawaken the wild spirit within!\pThat's our vision."
+    format("To break away from civilization and awaken the wild spirit within!\pThat's our vision.")
 }
 
 text Route119_Text_KentDefeat {
-    "I give up!"
+    format("I give up!")
 }
 
 text Route119_Text_KentIntro {
-    "The MIMIC CIRCLE was formed by people\nwho like to MIMIC.\pA battle starts the instant we meet!"
+    format("The MIMIC CIRCLE was formed by people who like to MIMIC.\pA battle starts the instant we meet!")
 }
 
 text Route119_Text_KentPostBattle {
-    "Won't you join our MIMIC CIRCLE?"
+    format("Won't you join our MIMIC CIRCLE?")
 }
 
 text Route119_Text_PhilDefeat {
-    "We lacked potential…"
+    format("We lacked potential…")
 }
 
 text Route119_Text_PhilIntro {
-    "I'll show you the true potential of me\nand my BIRD POKéMON!"
+    format("I'll show you the true potential of me and my BIRD POKéMON!")
 }
 
 text Route119_Text_PhilPostBattle {
-    "Ever since I was a little kid, I always\nadmired BIRD POKéMON…"
+    format("Ever since I was a little kid, I always admired BIRD POKéMON…")
 }
 
 text Route119_Text_RachelDefeat {
-    "Oh, but…\nThat's not fair."
+    format("Oh, but… That's not fair.")
 }
 
 text Route119_Text_RachelIntro {
-    "Wherever and whenever I may be,\nI always have my parasol in hand."
+    format("Wherever and whenever I may be, I always have my parasol in hand.")
 }
 
 text Route119_Text_RachelPostBattle {
-    "You're asking if my parasol is heavy?\nYour BAG is filled with more junk than\nI ever carry around."
+    format("You're asking if my parasol is heavy? Your BAG is filled with more junk than I ever carry around.")
 }
 
 text Route119_Text_TakashiDefeat {
-    "You're surprisingly good!"
+    format("You're surprisingly good!")
 }
 
 text Route119_Text_TakashiIntro {
-    "If you're not on your guard,\nyou're in for some pain!"
+    format("If you're not on your guard, you're in for some pain!")
 }
 
 text Route119_Text_TakashiPostBattle {
-    "My surprise attack ended in\nfailure…"
+    format("My surprise attack ended in failure…")
 }
 
 text Route119_Text_TaylorDefeat {
-    "But if you win, I lose…"
+    format("But if you win, I lose…")
 }
 
 text Route119_Text_TaylorIntro {
-    "If you step forward, we step forward.\pIf you turn right, we turn, too…"
+    format("If you step forward, we step forward.\pIf you turn right, we turn, too…")
 }
 
 text Route119_Text_TaylorPostBattle {
-    "I can't MIMIC you winning the match.\nThat's just impossible…\nIt's burning me up…"
+    format("I can't MIMIC you winning the match. That's just impossible… It's burning me up…")
 }
 
 text Route119_Text_YasuDefeat {
-    "I admit defeat!"
+    format("I admit defeat!")
 }
 
 text Route119_Text_YasuIntro {
-    "To lurk in shadows, and live in\ndarkness… That is my destiny.\pI emerge to challenge you!"
+    format("To lurk in shadows, and live in darkness… That is my destiny.\pI emerge to challenge you!")
 }
 
 text Route119_Text_YasuPostBattle {
-    "Those defeated in battle withdraw\nquietly back into the shadows.\nThat, too, is destiny…"
+    format("Those defeated in battle withdraw quietly back into the shadows. That, too, is destiny…")
+}
+
+text Route119_Text_BrendanIllGiveYouThis {
+    format("BRENDAN: I'd say you're good enough\nto search for POKéMON anywhere.\pHere, I'll give you this.\nTry it out.$")
+}
+
+text Route119_Text_BrendanIntro {
+    format("BRENDAN: {PLAYER}! So this is where\nyou've been looking for POKéMON?\pLet me see how good you got.\nI'll test you!\pNow!\nIt's a battle, so battle!$")
+}
+
+text Route119_Text_StayAwayFromWeatherInstitute {
+    format("We're standing lookout here.\pHey, you! Stay away from the WEATHER\nINSTITUTE. It's not safe.$")
+}
+
+text Route119_Text_ThoughtFlyByCatchingBirdMons {
+    format("I thought you FLY by catching a whole\nflock of BIRD POKéMON, and then\lhanging on to them somehow.\pBut it turns out there's an HM move\ncalled FLY!\pI wish I'd known about that a long\ntime ago…$")
+}
+
+text Route119_Text_TallGrassSnaresBikeTires {
+    format("Tch…\nIt's a no-go…\pThe tall grass snares BIKE tires.\nThere's no way you can cycle here.$")
+}
+
+text Route119_Text_DontGoNearWeatherInstitute {
+    format("Lookout duty is surprisingly boring.\pHey, you! Please don't go near the\nWEATHER INSTITUTE.$")
+}
+
+text Route119_Text_CanYourMonMakeSecretBase {
+    format("Can your POKéMON use its SECRET POWER\non a big pile of grass and make a\lSECRET BASE?$")
+}
+
+text Route119_Text_MayPresentForYou {
+    format("MAY: But I had absolutely nothing to\nworry about! Keep it up!\pAnd, here! I have a present for you.$")
+}
+
+text Route119_Text_MayIntro {
+    format("MAY: {PLAYER}{KUN}!\nWhere were you? I was looking for you!\pHow much stronger have you gotten?\nLet me check for you!\pReady with your POKéMON?\nOf course you are! Go!$")
 }

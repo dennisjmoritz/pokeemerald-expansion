@@ -2,6 +2,11 @@ mapscripts FiveIsland_House2_MapScripts {
 }
 
 script FiveIsland_House2_EventScript_OldMan {
+    msgbox(FiveIsland_House2_Text_MeadowBelongedToFamily, MSGBOX_NPC)
     end
 }
 
+
+text FiveIsland_House2_Text_MeadowBelongedToFamily {
+    format("That MEADOW has belonged to our\nfamily for generations.\pI should have had a giant mansion\nbuilt on it.\pIt would be preferable to having\nthose thugs run wild on it!$")
+}

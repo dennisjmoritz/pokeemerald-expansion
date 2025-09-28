@@ -62,6 +62,7 @@ script Route115_EventScript_Timothy {
 }
 
 script Route115_EventScript_Woman {
+    msgbox(Route115_Text_NeverKnowWhenCavePokemonWillAppear, MSGBOX_NPC)
     end
 }
 
@@ -76,121 +77,125 @@ text Route115_Text_MeteorFallsSign {
 
 
 text Route115_Text_AlixDefeat {
-    "Gah!\nNot bad!"
+    format("Gah! Not bad!")
 }
 
 text Route115_Text_AlixIntro {
-    "Our eyes met!\nThere's no getting away now!"
+    format("Our eyes met! There's no getting away now!")
 }
 
 text Route115_Text_AlixPostBattle {
-    "Oh, well.\nI think I will TELEPORT home."
+    format("Oh, well. I think I will TELEPORT home.")
 }
 
 text Route115_Text_CyndyDefeat {
-    "I haven't trained enough!"
+    format("I haven't trained enough!")
 }
 
 text Route115_Text_CyndyIntro {
-    "This beach is my secret training spot!\nDon't come butting in!"
+    format("This beach is my secret training spot! Don't come butting in!")
 }
 
 text Route115_Text_CyndyPostBattle {
-    "The sand acts as a cushion to reduce\nimpact and prevent injury.\nThis is the perfect place to train."
+    format("The sand acts as a cushion to reduce impact and prevent injury. This is the perfect place to train.")
 }
 
 text Route115_Text_HectorDefeat {
-    "You…\nYou want my POKéMON, don't you?"
+    format("You… You want my POKéMON, don't you?")
 }
 
 text Route115_Text_HectorIntro {
-    "I have a rare POKéMON!\nWould you like me to show you?"
+    format("I have a rare POKéMON! Would you like me to show you?")
 }
 
 text Route115_Text_HectorPostBattle {
-    "I have this rare POKéMON.\nIt's enough to keep me satisfied."
+    format("I have this rare POKéMON. It's enough to keep me satisfied.")
 }
 
 text Route115_Text_HeleneDefeat {
-    "This is too humiliating!"
+    format("This is too humiliating!")
 }
 
 text Route115_Text_HeleneIntro {
-    "My POKéMON have black belt-level\nstrength!"
+    format("My POKéMON have black belt-level strength!")
 }
 
 text Route115_Text_HelenePostBattle {
-    "I rarely meet anyone who's better\nthan me…\pI get it now!\nYou're a GYM LEADER, aren't you?"
+    format("I rarely meet anyone who's better than me…\pI get it now! You're a GYM LEADER, aren't you?")
 }
 
 text Route115_Text_JaidenDefeat {
-    "Waaah!\nOur strategy failed!"
+    format("Waaah! Our strategy failed!")
 }
 
 text Route115_Text_JaidenIntro {
-    "Take that!\nUltra POKéMON ninja attack!"
+    format("Take that! Ultra POKéMON ninja attack!")
 }
 
 text Route115_Text_JaidenPostBattle {
-    "But my POKéMON were ultra,\nweren't they?"
+    format("But my POKéMON were ultra, weren't they?")
 }
 
 text Route115_Text_KoichiDefeat {
-    "Ouch, ouch, ouch!"
+    format("Ouch, ouch, ouch!")
 }
 
 text Route115_Text_KoichiIntro {
-    "You!\pMy MACHOP!\pDemand a battle!"
+    format("You!\pMy MACHOP!\pDemand a battle!")
 }
 
 text Route115_Text_KoichiPostBattle {
-    "My MACHOP crew!\pSo long as they seek power, I will\ngrow strong with them!"
+    format("My MACHOP crew!\pSo long as they seek power, I will grow strong with them!")
 }
 
 text Route115_Text_KyraDefeat {
-    "Gasp, gasp…"
+    format("Gasp, gasp…")
 }
 
 text Route115_Text_KyraIntro {
-    "I'll battle while I'm running!\nTry to keep up with me!"
+    format("I'll battle while I'm running! Try to keep up with me!")
 }
 
 text Route115_Text_KyraPostBattle {
-    "I made the mistake of trying to battle\nwhile running!\pI should take a run to calm down…"
+    format("I made the mistake of trying to battle while running!\pI should take a run to calm down…")
 }
 
 text Route115_Text_MarleneDefeat {
-    "You've broken my concentration!"
+    format("You've broken my concentration!")
 }
 
 text Route115_Text_MarleneIntro {
-    "You've disturbed my meditation…\nYou'll be punished for it."
+    format("You've disturbed my meditation… You'll be punished for it.")
 }
 
 text Route115_Text_MarlenePostBattle {
-    "I was meditating with my POKéMON.\nBut this place isn't very peaceful…"
+    format("I was meditating with my POKéMON. But this place isn't very peaceful…")
 }
 
 text Route115_Text_NobDefeat {
-    "Ugwaaaah!\nMy head is busted!"
+    format("Ugwaaaah! My head is busted!")
 }
 
 text Route115_Text_NobIntro {
-    "My strongest skill is busting bricks\nwith my forehead!"
+    format("My strongest skill is busting bricks with my forehead!")
 }
 
 text Route115_Text_NobPostBattle {
-    "I've been teaching my POKéMON karate.\pIt looks like they'll get a lot better\nthan me. I'm excited about that."
+    format("I've been teaching my POKéMON karate.\pIt looks like they'll get a lot better than me. I'm excited about that.")
 }
 
 text Route115_Text_TimothyDefeat {
-    "You're much stronger than\nI'd imagined!"
+    format("You're much stronger than I'd imagined!")
 }
 
 text Route115_Text_TimothyIntro {
-    "Hm…\nYou seem rather capable…\nLet me keep you company!"
+    format("Hm… You seem rather capable… Let me keep you company!")
 }
 
 text Route115_Text_TimothyPostBattle {
-    "There is no such thing as a born genius.\nIt all depends on effort!\nThat is what I believe…"
+    format("There is no such thing as a born genius. It all depends on effort! That is what I believe…")
+}
+
+text Route115_Text_NeverKnowWhenCavePokemonWillAppear {
+    format("Exploring a cave isn't like walking\non a road.\pYou never know when wild POKéMON will\nappear. It's full of suspense.$")
 }

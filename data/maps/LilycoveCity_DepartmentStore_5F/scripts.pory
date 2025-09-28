@@ -18,10 +18,12 @@ script LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidRight {
 }
 
 script LilycoveCity_DepartmentStore_5F_EventScript_LittleGirl {
+    msgbox(LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_DepartmentStore_5F_EventScript_PokefanF {
+    msgbox(LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls, MSGBOX_NPC)
     end
 }
 
@@ -29,3 +31,18 @@ script LilycoveCity_DepartmentStore_5F_EventScript_Woman {
     end
 }
 
+text LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls {
+    format("This place is full of cute DOLLS.\pI should buy some for me, instead of\njust for my children.$")
+}
+
+text LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere {
+    format("They sell many cute MATS here.\pI wonder which one I should get?\nMaybe I'll buy them all…$")
+}
+
+text LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather {
+    format("I think they closed the rooftop\nbecause the weather is wild today.$")
+}
+
+text LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon {
+    format("I'm not big enough to raise POKéMON,\nso I'm getting a cute DOLL instead.$")
+}

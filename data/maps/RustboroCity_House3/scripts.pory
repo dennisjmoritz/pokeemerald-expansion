@@ -2,14 +2,28 @@ mapscripts RustboroCity_House3_MapScripts {
 }
 
 script RustboroCity_House3_EventScript_OldMan {
+    msgbox(RustboroCity_House3_Text_IGivePerfectlySuitedNicknames, MSGBOX_NPC)
     end
 }
 
 script RustboroCity_House3_EventScript_OldWoman {
+    msgbox(RustboroCity_House3_Text_NamingPikachuPekachu, MSGBOX_NPC)
     end
 }
 
 script RustboroCity_House3_EventScript_Pekachu {
+    msgbox(RustboroCity_House3_Text_Pekachu, MSGBOX_DEFAULT)
     end
 }
 
+text RustboroCity_House3_Text_Pekachu {
+    format("PEKACHU: Peka!$")
+}
+
+text RustboroCity_House3_Text_NamingPikachuPekachu {
+    format("But giving the name PEKACHU to\na PIKACHU? It seems pointless.\pI suppose it is good to use a name\nthat's easy to understand, but…$")
+}
+
+text RustboroCity_House3_Text_IGivePerfectlySuitedNicknames {
+    format("For my own POKéMON, I give them\nperfectly suited nicknames!\pIt's my expression of, uh…\noriginality, yes, that's it!$")
+}

@@ -2,14 +2,17 @@ mapscripts FortreeCity_PokemonCenter_1F_MapScripts {
 }
 
 script FortreeCity_PokemonCenter_1F_EventScript_Boy {
+    msgbox(FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav, MSGBOX_NPC)
     end
 }
 
 script FortreeCity_PokemonCenter_1F_EventScript_Gentleman {
+    msgbox(FortreeCity_PokemonCenter_1F_Text_GoToSafariZone, MSGBOX_NPC)
     end
 }
 
 script FortreeCity_PokemonCenter_1F_EventScript_Man {
+    msgbox(FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat, MSGBOX_NPC)
     end
 }
 
@@ -17,3 +20,14 @@ script FortreeCity_PokemonCenter_1F_EventScript_Nurse {
     end
 }
 
+text FortreeCity_PokemonCenter_1F_Text_GoToSafariZone {
+    format("Listen, kid, are you working\non a POKéDEX?\pHmm… Go to the SAFARI ZONE.\nThat's my suggestion.$")
+}
+
+text FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav {
+    format("Oh, wow, you have a POKéNAV!\nAnd it's just like mine!\pDo you know about POKéNAV's\nMATCH CALL system?\pAccess it, and you can chat with\nregistered TRAINERS anytime.\pIt also shows you which TRAINERS\nwant a rematch with you.\pIt's really nifty! Those DEVON guys\nsure know what they're doing!$")
+}
+
+text FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat {
+    format("Have you done anything at\nthe RECORD CORNER?\pIt's pretty neat. It mixes and matches\nthe records of TRAINERS.\pI don't know quite how it works,\nbut it's cool. It's exciting, even!$")
+}

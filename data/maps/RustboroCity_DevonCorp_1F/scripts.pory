@@ -31,3 +31,27 @@ text RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay {
 text RustboroCity_DevonCorp_1F_Text_ProductDisplay {
     format("Prototypes and test products fill the glass display case.\p There's a panel with a description…\p “In addition to industrial products, DEVON now markets sundries and\l pharmaceuticals for better lifestyles.\p “Recently, DEVON has begun marketing tools for POKéMON TRAINERS, including\l POKé BALLS and POKéNAV systems.”")
 }
+
+text RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered {
+    format("It sounds like they've recovered\nthe ripped-off DEVON GOODS.$")
+}
+
+text RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed {
+    format("It's beyond stupid.\nHow could we get robbed?$")
+}
+
+text RustboroCity_DevonCorp_1F_Text_StaffGotRobbed {
+    format("One of our research staff stupidly\ngot robbed of an important parcel.$")
+}
+
+text RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp {
+    format("Hello and welcome to the DEVON\nCORPORATION.\pWe're proud producers of items and\nmedicine that enhance your life.$")
+}
+
+text RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere {
+    format("Hi, there!\nYou're always welcome here!$")
+}
+
+text RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright {
+    format("That stolen parcel…\pWell, sure it's important, but it's not\nanything that anyone can use.\pIn my estimation, that robber must not\nhave been very bright.$")
+}

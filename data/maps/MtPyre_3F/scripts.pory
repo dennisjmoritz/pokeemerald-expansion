@@ -19,37 +19,45 @@ script MtPyre_3F_EventScript_William {
 
 
 text MtPyre_3F_Text_GabrielleDefeat {
-    "Placeholder text for MtPyre_3F_Text_GabrielleDefeat"
+    format("Placeholder text for MtPyre_3F_Text_GabrielleDefeat")
 }
 
 text MtPyre_3F_Text_GabrielleIntro {
-    "Placeholder text for MtPyre_3F_Text_GabrielleIntro"
+    format("Placeholder text for MtPyre_3F_Text_GabrielleIntro")
 }
 
 text MtPyre_3F_Text_GabriellePostBattle {
-    "Placeholder text for MtPyre_3F_Text_GabriellePostBattle"
+    format("Placeholder text for MtPyre_3F_Text_GabriellePostBattle")
 }
 
 text MtPyre_3F_Text_KaylaDefeat {
-    "Placeholder text for MtPyre_3F_Text_KaylaDefeat"
+    format("Placeholder text for MtPyre_3F_Text_KaylaDefeat")
 }
 
 text MtPyre_3F_Text_KaylaIntro {
-    "Placeholder text for MtPyre_3F_Text_KaylaIntro"
+    format("Placeholder text for MtPyre_3F_Text_KaylaIntro")
 }
 
 text MtPyre_3F_Text_KaylaPostBattle {
-    "Placeholder text for MtPyre_3F_Text_KaylaPostBattle"
+    format("Placeholder text for MtPyre_3F_Text_KaylaPostBattle")
 }
 
 text MtPyre_3F_Text_WilliamDefeat {
-    "Placeholder text for MtPyre_3F_Text_WilliamDefeat"
+    format("Placeholder text for MtPyre_3F_Text_WilliamDefeat")
 }
 
 text MtPyre_3F_Text_WilliamIntro {
-    "Placeholder text for MtPyre_3F_Text_WilliamIntro"
+    format("Placeholder text for MtPyre_3F_Text_WilliamIntro")
 }
 
 text MtPyre_3F_Text_WilliamPostBattle {
-    "Placeholder text for MtPyre_3F_Text_WilliamPostBattle"
+    format("Placeholder text for MtPyre_3F_Text_WilliamPostBattle")
+}
+
+text MtPyre_3F_Text_GabriellePostRematch {
+    format("POKéMON no longer of this world.\nPOKéMON that are with you now.\pAnd the POKéMON that you will meet\nin the future…\pThey are all to be equally cherished.\nI see that you've remembered that.$")
+}
+
+text MtPyre_3F_Text_GabrielleRegister {
+    format("I would like to see your POKéMON\nwhen they grow up some more…\pPlease, I need to see your POKéNAV.$")
 }

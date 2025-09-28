@@ -14,25 +14,25 @@ script RocketHideout_B3F_EventScript_Grunt2 {
 
 
 text RocketHideout_B3F_Text_Grunt1Defeat {
-    "Placeholder text for RocketHideout_B3F_Text_Grunt1Defeat"
+    format("Placeholder text for RocketHideout_B3F_Text_Grunt1Defeat")
 }
 
 text RocketHideout_B3F_Text_Grunt1Intro {
-    "Placeholder text for RocketHideout_B3F_Text_Grunt1Intro"
+    format("Placeholder text for RocketHideout_B3F_Text_Grunt1Intro")
 }
 
 text RocketHideout_B3F_Text_Grunt1PostBattle {
-    "Placeholder text for RocketHideout_B3F_Text_Grunt1PostBattle"
+    format("Placeholder text for RocketHideout_B3F_Text_Grunt1PostBattle")
 }
 
 text RocketHideout_B3F_Text_Grunt2Defeat {
-    "Placeholder text for RocketHideout_B3F_Text_Grunt2Defeat"
+    format("Placeholder text for RocketHideout_B3F_Text_Grunt2Defeat")
 }
 
 text RocketHideout_B3F_Text_Grunt2Intro {
-    "Placeholder text for RocketHideout_B3F_Text_Grunt2Intro"
+    format("Placeholder text for RocketHideout_B3F_Text_Grunt2Intro")
 }
 
 text RocketHideout_B3F_Text_Grunt2PostBattle {
-    "Placeholder text for RocketHideout_B3F_Text_Grunt2PostBattle"
+    format("Placeholder text for RocketHideout_B3F_Text_Grunt2PostBattle")
 }

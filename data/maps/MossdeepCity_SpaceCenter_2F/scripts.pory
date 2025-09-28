@@ -6,18 +6,22 @@ script MossdeepCity_SpaceCenter_2F_EventScript_Gentleman {
 }
 
 script MossdeepCity_SpaceCenter_2F_EventScript_Grunt5 {
+    msgbox(MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle, MSGBOX_NPC)
     end
 }
 
 script MossdeepCity_SpaceCenter_2F_EventScript_Grunt6 {
+    msgbox(MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle, MSGBOX_NPC)
     end
 }
 
 script MossdeepCity_SpaceCenter_2F_EventScript_Grunt7 {
+    msgbox(MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle, MSGBOX_NPC)
     end
 }
 
 script MossdeepCity_SpaceCenter_2F_EventScript_Maxie {
+    msgbox(MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere, MSGBOX_DEFAULT)
     end
 }
 
@@ -34,6 +38,66 @@ script MossdeepCity_SpaceCenter_2F_EventScript_Steven {
 }
 
 script MossdeepCity_SpaceCenter_2F_EventScript_Tabitha {
+    msgbox(MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou, MSGBOX_DEFAULT)
     end
 }
 
+text MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided {
+    format("MAXIE: We failed to make the volcano\nerupt…\pWe failed to control GROUDON after\nwe had awoken it…\pIs our goal to expand the land\nmisguided?\p… … … … … …\n… … … … … …\pIf…\nIf we, TEAM MAGMA, are wrong…\l… … … … … …\pThen might TEAM AQUA's goal to expand\nthe sea also be equally misguided?$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro {
+    format("A reckless go-getter, are you?\nOkay, I'll go first!$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou {
+    format("Hehehe!\pWe come all the way here to get some\nfuel, and we're interfered with again!\pIf you're going to mess with us too,\nwe'll take care of you at the same time!$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle {
+    format("Three of us here, and look at the sorry\nmess we got ourselves into.$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere {
+    format("MAXIE: Clear out of the way!\nDon't you dare interfere!$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut {
+    format("If only I was a little younger, I would\nhave liked being an astronaut…\pNo… It's not too late!\nI can and will try!$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel {
+    format("Why would TEAM MAGMA want to steal\nour rocket fuel in the first place?$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle {
+    format("STEVEN: {PLAYER}{KUN}!\nYou're going to help me?\pLet's go into battle together!\nAre you ready?$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn {
+    format("What's wrong with you?\pYou're outnumbered three to one,\nbut you still want to take us on?$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace {
+    format("TEAM MAGMA…\nDo they want to go to space, too?$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle {
+    format("Are we being useful to our leader\nat all?$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace {
+    format("I wish ordinary people could go into\nspace one day…$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis {
+    format("If TEAM MAGMA takes the rocket fuel,\nI won't be able to go to space!\pThey can't be allowed to get away\nwith such an outrage!$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets {
+    format("MOSSDEEP has mainly sunny weather,\nand its winds are stable.\pIt's an ideal location for launching\nrockets.$")
+}
+
+text MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle {
+    format("We three losing like this…\nWe look worse than usual by triple!$")
+}

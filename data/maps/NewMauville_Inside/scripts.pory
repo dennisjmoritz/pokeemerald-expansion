@@ -18,6 +18,7 @@ script NewMauville_Inside_EventScript_GreenButton {
 }
 
 script NewMauville_Inside_EventScript_RedButton {
+    msgbox(NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped, MSGBOX_DEFAULT)
     end
 }
 
@@ -36,4 +37,12 @@ script NewMauville_Inside_EventScript_Voltorb3 {
 
 text NewMauville_Inside_Text_GeneratorRadiatingHeat {
     format("The generator is radiating heat that can be felt even at a distance.\p It looks like it should be turned off as soon as possible.")
+}
+
+text NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped {
+    format("{PLAYER} stepped on the switch.\pClick…\p… … … … … … … …\n… … … … … … … …\pThe generator appears to have\nstopped…$")
+}
+
+text NewMauville_Inside_Text_GeneratorQuietedDown {
+    format("The generator quieted down.$")
 }

@@ -29,6 +29,7 @@ script SilphCo_11F_EventScript_President {
 }
 
 script SilphCo_11F_EventScript_Secretary {
+    msgbox(SilphCo_11F_Text_ThanksForRescuingUs, MSGBOX_NPC)
     end
 }
 
@@ -39,25 +40,28 @@ text SilphCo_11F_Text_FloorSign {
 
 
 text SilphCo_11F_Text_Grunt1Defeat {
-    "Placeholder text for SilphCo_11F_Text_Grunt1Defeat"
+    format("Placeholder text for SilphCo_11F_Text_Grunt1Defeat")
 }
 
 text SilphCo_11F_Text_Grunt1Intro {
-    "Placeholder text for SilphCo_11F_Text_Grunt1Intro"
+    format("Placeholder text for SilphCo_11F_Text_Grunt1Intro")
 }
 
 text SilphCo_11F_Text_Grunt1PostBattle {
-    "Placeholder text for SilphCo_11F_Text_Grunt1PostBattle"
+    format("Placeholder text for SilphCo_11F_Text_Grunt1PostBattle")
 }
 
 text SilphCo_11F_Text_Grunt2Defeat {
-    "Placeholder text for SilphCo_11F_Text_Grunt2Defeat"
+    format("Placeholder text for SilphCo_11F_Text_Grunt2Defeat")
 }
 
 text SilphCo_11F_Text_Grunt2Intro {
-    "Placeholder text for SilphCo_11F_Text_Grunt2Intro"
+    format("Placeholder text for SilphCo_11F_Text_Grunt2Intro")
 }
 
 text SilphCo_11F_Text_Grunt2PostBattle {
-    "Placeholder text for SilphCo_11F_Text_Grunt2PostBattle"
+    format("Placeholder text for SilphCo_11F_Text_Grunt2PostBattle")
+}
+text SilphCo_11F_Text_ThanksForRescuingUs {
+    format("SECRETARY: Thank you for rescuing\nall of us.\pWe, from the PRESIDENT down,\nare indebted to you.$")
 }

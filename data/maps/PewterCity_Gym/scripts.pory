@@ -29,13 +29,13 @@ text PewterCity_Gym_Text_GymStatue {
 
 
 text PewterCity_Gym_Text_LiamDefeat {
-    "Placeholder text for PewterCity_Gym_Text_LiamDefeat"
+    format("Placeholder text for PewterCity_Gym_Text_LiamDefeat")
 }
 
 text PewterCity_Gym_Text_LiamIntro {
-    "Placeholder text for PewterCity_Gym_Text_LiamIntro"
+    format("Placeholder text for PewterCity_Gym_Text_LiamIntro")
 }
 
 text PewterCity_Gym_Text_LiamPostBattle {
-    "Placeholder text for PewterCity_Gym_Text_LiamPostBattle"
+    format("Placeholder text for PewterCity_Gym_Text_LiamPostBattle")
 }

@@ -5,3 +5,10 @@ script MossdeepCity_House3_EventScript_SuperRodFisherman {
     end
 }
 
+text MossdeepCity_House3_Text_DontYouLikeToFish {
+    format("Hunh?\nDon't you like to fish?$")
+}
+
+text MossdeepCity_House3_Text_GoAfterSeafloorPokemon {
+    format("Go after the seafloor POKéMON with\nyour SUPER ROD.$")
+}

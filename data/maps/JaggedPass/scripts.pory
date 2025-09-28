@@ -31,67 +31,92 @@ script JaggedPass_EventScript_MagmaHideoutGuard {
 }
 
 script JaggedPass_EventScript_OpenMagmaHideout {
+    msgbox(JaggedPass_Text_BoulderShakingInResponseToEmblem, MSGBOX_DEFAULT)
     end
 }
 
 
 
 text JaggedPass_Text_AutumnDefeat {
-    "Placeholder text for JaggedPass_Text_AutumnDefeat"
+    format("Placeholder text for JaggedPass_Text_AutumnDefeat")
 }
 
 text JaggedPass_Text_AutumnIntro {
-    "Placeholder text for JaggedPass_Text_AutumnIntro"
+    format("Placeholder text for JaggedPass_Text_AutumnIntro")
 }
 
 text JaggedPass_Text_AutumnPostBattle {
-    "Placeholder text for JaggedPass_Text_AutumnPostBattle"
+    format("Placeholder text for JaggedPass_Text_AutumnPostBattle")
 }
 
 text JaggedPass_Text_DianaDefeat {
-    "Placeholder text for JaggedPass_Text_DianaDefeat"
+    format("Placeholder text for JaggedPass_Text_DianaDefeat")
 }
 
 text JaggedPass_Text_DianaIntro {
-    "Placeholder text for JaggedPass_Text_DianaIntro"
+    format("Placeholder text for JaggedPass_Text_DianaIntro")
 }
 
 text JaggedPass_Text_DianaPostBattle {
-    "Placeholder text for JaggedPass_Text_DianaPostBattle"
+    format("Placeholder text for JaggedPass_Text_DianaPostBattle")
 }
 
 text JaggedPass_Text_EricDefeat {
-    "Placeholder text for JaggedPass_Text_EricDefeat"
+    format("Placeholder text for JaggedPass_Text_EricDefeat")
 }
 
 text JaggedPass_Text_EricIntro {
-    "Placeholder text for JaggedPass_Text_EricIntro"
+    format("Placeholder text for JaggedPass_Text_EricIntro")
 }
 
 text JaggedPass_Text_EricPostBattle {
-    "Placeholder text for JaggedPass_Text_EricPostBattle"
+    format("Placeholder text for JaggedPass_Text_EricPostBattle")
 }
 
 text JaggedPass_Text_EthanDefeat {
-    "Placeholder text for JaggedPass_Text_EthanDefeat"
+    format("Placeholder text for JaggedPass_Text_EthanDefeat")
 }
 
 text JaggedPass_Text_EthanIntro {
-    "Placeholder text for JaggedPass_Text_EthanIntro"
+    format("Placeholder text for JaggedPass_Text_EthanIntro")
 }
 
 text JaggedPass_Text_EthanPostBattle {
-    "Placeholder text for JaggedPass_Text_EthanPostBattle"
+    format("Placeholder text for JaggedPass_Text_EthanPostBattle")
 }
 
 text JaggedPass_Text_JulioDefeat {
-    "Placeholder text for JaggedPass_Text_JulioDefeat"
+    format("Placeholder text for JaggedPass_Text_JulioDefeat")
 }
 
 text JaggedPass_Text_JulioIntro {
-    "Placeholder text for JaggedPass_Text_JulioIntro"
+    format("Placeholder text for JaggedPass_Text_JulioIntro")
 }
 
 text JaggedPass_Text_JulioPostBattle {
-    "Placeholder text for JaggedPass_Text_JulioPostBattle"
+    format("Placeholder text for JaggedPass_Text_JulioPostBattle")
+}
+
+text JaggedPass_Text_DianaRegister {
+    format("Will you ever be back in this area?\nIf you do return, I'd like a rematch.$")
+}
+
+text JaggedPass_Text_EthanRegister {
+    format("When I get more used to this bumpiness,\nI'll be sure to win!\pCan you register me in your POKéNAV?$")
+}
+
+text JaggedPass_Text_GoWhereverYouWant {
+    format("Okay, oh-kay!\nI admit it--you're strong!\pDon't worry about me.\nGo wherever you want!$")
+}
+
+text JaggedPass_Text_DianaPostRematch {
+    format("I'll forget about losing and just\nenjoy this bumpy hike.$")
+}
+
+text JaggedPass_Text_EthanPostRematch {
+    format("I should get an ACRO BIKE from RYDEL\nin MAUVILLE CITY…$")
+}
+
+text JaggedPass_Text_BoulderShakingInResponseToEmblem {
+    format("Oh! This boulder is shaking in response\nto the MAGMA EMBLEM!$")
 }

@@ -2,6 +2,11 @@ mapscripts SSAnne_1F_Room6_MapScripts {
 }
 
 script SSAnne_1F_Room6_EventScript_Woman {
+    msgbox(SSAnne_1F_Room6_Text_TakeAShortRest, MSGBOX_YESNO)
     end
 }
 
+
+text SSAnne_1F_Room6_Text_TakeAShortRest {
+    format("You look tired. Would you like to\ntake a short rest?$")
+}

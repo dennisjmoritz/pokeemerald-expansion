@@ -2,6 +2,7 @@ mapscripts ViridianCity_MapScripts {
 }
 
 script ViridianCity_EventScript_Boy {
+    msgbox(ViridianCity_Text_CanCarryMonsAnywhere, MSGBOX_NPC)
     end
 }
 
@@ -59,6 +60,7 @@ script ViridianCity_EventScript_Woman {
 }
 
 script ViridianCity_EventScript_Youngster {
+    msgbox(ViridianCity_Text_WantToKnowAboutCaterpillarMons, MSGBOX_YESNO)
     end
 }
 
@@ -81,4 +83,12 @@ text ViridianCity_Text_GymDoorsAreLocked {
 
 text ViridianCity_Text_MovesLimitedByPP {
     format("TRAINER TIPS\p The battle moves of POKéMON are limited by their POWER POINTS, PP.\p To replenish PP, rest your tired POKéMON at a POKéMON CENTER.")
+}
+
+text ViridianCity_Text_CanCarryMonsAnywhere {
+    format("Those POKé BALLS at your waist!\nYou have POKéMON, don't you?\pIt's great that you can carry and\nuse POKéMON anytime, anywhere.$")
+}
+
+text ViridianCity_Text_WantToKnowAboutCaterpillarMons {
+    format("You want to know about the two\nkinds of caterpillar POKéMON?$")
 }

@@ -2,6 +2,7 @@ mapscripts DewfordTown_PokemonCenter_1F_MapScripts {
 }
 
 script DewfordTown_PokemonCenter_1F_EventScript_Man {
+    msgbox(DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM, MSGBOX_NPC)
     end
 }
 
@@ -10,6 +11,14 @@ script DewfordTown_PokemonCenter_1F_EventScript_Nurse {
 }
 
 script DewfordTown_PokemonCenter_1F_EventScript_PokefanF {
+    msgbox(DewfordTown_PokemonCenter_1F_Text_StoneCavern, MSGBOX_NPC)
     end
 }
 
+text DewfordTown_PokemonCenter_1F_Text_StoneCavern {
+    format("There's a stone cavern at the edge\nof town.\pI've heard you can find rare stones\nthere.$")
+}
+
+text DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM {
+    format("Even if a POKéMON faints and can't\nbattle, it can still use a move learned\lfrom a HIDDEN MACHINE (HM).$")
+}

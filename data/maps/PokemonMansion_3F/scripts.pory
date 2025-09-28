@@ -34,25 +34,25 @@ text PokemonMansion_1F_Text_MewGaveBirthToMewtwo {
 
 
 text PokemonMansion_1F_Text_BraydonDefeat {
-    "Placeholder text for PokemonMansion_1F_Text_BraydonDefeat"
+    format("Placeholder text for PokemonMansion_1F_Text_BraydonDefeat")
 }
 
 text PokemonMansion_1F_Text_BraydonIntro {
-    "Placeholder text for PokemonMansion_1F_Text_BraydonIntro"
+    format("Placeholder text for PokemonMansion_1F_Text_BraydonIntro")
 }
 
 text PokemonMansion_1F_Text_BraydonPostBattle {
-    "Placeholder text for PokemonMansion_1F_Text_BraydonPostBattle"
+    format("Placeholder text for PokemonMansion_1F_Text_BraydonPostBattle")
 }
 
 text PokemonMansion_1F_Text_SimonDefeat {
-    "Placeholder text for PokemonMansion_1F_Text_SimonDefeat"
+    format("Placeholder text for PokemonMansion_1F_Text_SimonDefeat")
 }
 
 text PokemonMansion_1F_Text_SimonIntro {
-    "Placeholder text for PokemonMansion_1F_Text_SimonIntro"
+    format("Placeholder text for PokemonMansion_1F_Text_SimonIntro")
 }
 
 text PokemonMansion_1F_Text_SimonPostBattle {
-    "Placeholder text for PokemonMansion_1F_Text_SimonPostBattle"
+    format("Placeholder text for PokemonMansion_1F_Text_SimonPostBattle")
 }

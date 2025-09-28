@@ -2,6 +2,7 @@ mapscripts PewterCity_Mart_MapScripts {
 }
 
 script PewterCity_Mart_EventScript_Boy {
+    msgbox(PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently, MSGBOX_NPC)
     end
 }
 
@@ -10,6 +11,15 @@ script PewterCity_Mart_EventScript_Clerk {
 }
 
 script PewterCity_Mart_EventScript_Youngster {
+    msgbox(PewterCity_Mart_Text_BoughtWeirdFishFromShadyGuy, MSGBOX_NPC)
     end
 }
 
+
+text PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently {
+    format("Good things can happen if you raise\nPOKéMON diligently.\pEven the weak ones can surprise\nyou if you don't give up on them.$")
+}
+
+text PewterCity_Mart_Text_BoughtWeirdFishFromShadyGuy {
+    format("A shady old guy sucked me into\nbuying this weird fish POKéMON!\pIt's totally weak and it cost ¥500!$")
+}

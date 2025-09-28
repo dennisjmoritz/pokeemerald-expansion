@@ -2,6 +2,7 @@ mapscripts ThreeIsland_Mart_MapScripts {
 }
 
 script ThreeIsland_Mart_EventScript_BugCatcher {
+    msgbox(ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest, MSGBOX_NPC)
     end
 }
 
@@ -10,10 +11,24 @@ script ThreeIsland_Mart_EventScript_Clerk {
 }
 
 script ThreeIsland_Mart_EventScript_Picnicker {
+    msgbox(ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger, MSGBOX_NPC)
     end
 }
 
 script ThreeIsland_Mart_EventScript_Youngster {
+    msgbox(ThreeIsland_Mart_Text_BikersWereAboutToTrashMart, MSGBOX_NPC)
     end
 }
 
+
+text ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest {
+    format("I sometimes buy medicine here.\pBut a lot of people heal POKéMON\nwith BERRIES from BERRY FOREST.\pAfter all, BERRIES are free and\nthey never run out.$")
+}
+
+text ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger {
+    format("Is it true?\pCELADON DEPT. STORE is several\ntimes bigger than this shop?$")
+}
+
+text ThreeIsland_Mart_Text_BikersWereAboutToTrashMart {
+    format("Those BIKERS were about to trash\nthis POKéMON MART.\pAm I glad they decided to leave!$")
+}

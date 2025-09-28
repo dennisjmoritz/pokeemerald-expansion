@@ -14,25 +14,25 @@ script SeafloorCavern_Room3_EventScript_Shelly {
 
 
 text SeafloorCavern_Room3_Text_Grunt5Defeat {
-    "Placeholder text for SeafloorCavern_Room3_Text_Grunt5Defeat"
+    format("Placeholder text for SeafloorCavern_Room3_Text_Grunt5Defeat")
 }
 
 text SeafloorCavern_Room3_Text_Grunt5Intro {
-    "Placeholder text for SeafloorCavern_Room3_Text_Grunt5Intro"
+    format("Placeholder text for SeafloorCavern_Room3_Text_Grunt5Intro")
 }
 
 text SeafloorCavern_Room3_Text_Grunt5PostBattle {
-    "Placeholder text for SeafloorCavern_Room3_Text_Grunt5PostBattle"
+    format("Placeholder text for SeafloorCavern_Room3_Text_Grunt5PostBattle")
 }
 
 text SeafloorCavern_Room3_Text_ShellyDefeat {
-    "Placeholder text for SeafloorCavern_Room3_Text_ShellyDefeat"
+    format("Placeholder text for SeafloorCavern_Room3_Text_ShellyDefeat")
 }
 
 text SeafloorCavern_Room3_Text_ShellyIntro {
-    "Placeholder text for SeafloorCavern_Room3_Text_ShellyIntro"
+    format("Placeholder text for SeafloorCavern_Room3_Text_ShellyIntro")
 }
 
 text SeafloorCavern_Room3_Text_ShellyPostBattle {
-    "Placeholder text for SeafloorCavern_Room3_Text_ShellyPostBattle"
+    format("Placeholder text for SeafloorCavern_Room3_Text_ShellyPostBattle")
 }

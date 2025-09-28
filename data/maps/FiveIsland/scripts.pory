@@ -2,10 +2,12 @@ mapscripts FiveIsland_MapScripts {
 }
 
 script FiveIsland_EventScript_BugCatcher {
+    msgbox(FiveIsland_Text_WeirdBuildingInMeadow, MSGBOX_NPC)
     end
 }
 
 script FiveIsland_EventScript_Fisher {
+    msgbox(FiveIsland_Text_BeenGettingBusierAroundHere, MSGBOX_NPC)
     end
 }
 
@@ -17,4 +19,12 @@ script FiveIsland_EventScript_IslandSign {
 
 text FiveIsland_Text_IslandSign {
     format("FIVE ISLAND Chrono Island: Where Time Goes")
+}
+
+text FiveIsland_Text_WeirdBuildingInMeadow {
+    format("Oh, this stinks. I wanted to play in\nthe MEADOW.\pBut they put up a weird building\non it, so I can't play there.$")
+}
+
+text FiveIsland_Text_BeenGettingBusierAroundHere {
+    format("It's been getting busier around\nthese parts lately.\pI haven't been catching many good\nfish lately, either.$")
 }

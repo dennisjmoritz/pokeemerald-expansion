@@ -2,6 +2,11 @@ mapscripts FourIsland_House1_MapScripts {
 }
 
 script FourIsland_House1_EventScript_FatMan {
+    msgbox(FourIsland_House1_Text_YoureAwfullyHeavy, MSGBOX_NPC)
     end
 }
 
+
+text FourIsland_House1_Text_YoureAwfullyHeavy {
+    format("There! Boing!\nYou're awfully heavy!$")
+}

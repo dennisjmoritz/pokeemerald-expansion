@@ -6,6 +6,11 @@ script Route2_House_EventScript_Reyley {
 }
 
 script Route2_House_EventScript_Scientist {
+    msgbox(Route2_House_Text_FaintedMonsCanUseFieldMoves, MSGBOX_NPC)
     end
 }
 
+
+text Route2_House_Text_FaintedMonsCanUseFieldMoves {
+    format("A fainted POKéMON just has no\nenergy left to battle.\pIt can still use moves like CUT\noutside of battle.$")
+}

@@ -12,10 +12,12 @@ script Route125_EventScript_Ernest {
 }
 
 script Route125_EventScript_Iris {
+    msgbox(Route125_Text_IrisPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
 script Route125_EventScript_Kim {
+    msgbox(Route125_Text_KimPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -47,85 +49,92 @@ script Route125_EventScript_Tanya {
 
 
 text Route125_Text_AuronDefeat {
-    "Oh, you weren't throwing trash into\nthe sea."
+    format("Oh, you weren't throwing trash into the sea.")
 }
 
 text Route125_Text_AuronIntro {
-    "Hey! Was it you throwing garbage\ninto the sea?"
+    format("Hey! Was it you throwing garbage into the sea?")
 }
 
 text Route125_Text_AuronPostBattle {
-    "I found an unsightly bottle bobbing\nin the waves earlier.\pIt angers me that someone would\npollute the sea!"
+    format("I found an unsightly bottle bobbing in the waves earlier.\pIt angers me that someone would pollute the sea!")
 }
 
 text Route125_Text_ErnestDefeat {
-    "Gwrroooar!\nI couldn't win!"
+    format("Gwrroooar! I couldn't win!")
 }
 
 text Route125_Text_ErnestIntro {
-    "Ahoy! I'm a buff, tough SAILOR!\nI've braved the world's seas!"
+    format("Ahoy! I'm a buff, tough SAILOR! I've braved the world's seas!")
 }
 
 text Route125_Text_ErnestPostBattle {
-    "The tide ebbs and flows inside the\nSHOAL CAVE.\pBy the way, it's about six hours from\nhigh tide to low tide. Did you know?"
+    format("The tide ebbs and flows inside the SHOAL CAVE.\pBy the way, it's about six hours from high tide to low tide. Did you know?")
 }
 
 text Route125_Text_NolenDefeat {
-    "I surrender!"
+    format("I surrender!")
 }
 
 text Route125_Text_NolenIntro {
-    "I heard you approaching, so I hung\naround for you!"
+    format("I heard you approaching, so I hung around for you!")
 }
 
 text Route125_Text_NolenPostBattle {
-    "Sound travels faster in water than\nit does through air."
+    format("Sound travels faster in water than it does through air.")
 }
 
 text Route125_Text_PresleyDefeat {
-    "Okay.\nI'll tell you why I'm here."
+    format("Okay. I'll tell you why I'm here.")
 }
 
 text Route125_Text_PresleyIntro {
-    "Why would a BIRDKEEPER like me\ncome out to the sea?"
+    format("Why would a BIRDKEEPER like me come out to the sea?")
 }
 
 text Route125_Text_PresleyPostBattle {
-    "I put a message in a bottle and put\nit out to sea.\pI'm sure that a girl SWIMMER will\nfind it!"
+    format("I put a message in a bottle and put it out to sea.\pI'm sure that a girl SWIMMER will find it!")
 }
 
 text Route125_Text_SharonDefeat {
-    "Lost it…"
+    format("Lost it…")
 }
 
 text Route125_Text_SharonIntro {
-    "How would you like to take on the\nWATER-type POKéMON I raised?"
+    format("How would you like to take on the WATER-type POKéMON I raised?")
 }
 
 text Route125_Text_SharonPostBattle {
-    "Your power… You're the real deal.\nI'm amazed!"
+    format("Your power… You're the real deal. I'm amazed!")
 }
 
 text Route125_Text_StanDefeat {
-    "I floundered…"
+    format("I floundered…")
 }
 
 text Route125_Text_StanIntro {
-    "Hey, there!\nCheck out my sweet POKéMON!"
+    format("Hey, there! Check out my sweet POKéMON!")
 }
 
 text Route125_Text_StanPostBattle {
-    "I was blown away by HORSEA's charm,\nso I started swimming, too."
+    format("I was blown away by HORSEA's charm, so I started swimming, too.")
 }
 
 text Route125_Text_TanyaDefeat {
-    "You're too much!"
+    format("You're too much!")
 }
 
 text Route125_Text_TanyaIntro {
-    "I'm tired of swimming.\nAre you up for a battle with me?"
+    format("I'm tired of swimming. Are you up for a battle with me?")
 }
 
 text Route125_Text_TanyaPostBattle {
-    "Whew…\nWhich way is it to MOSSDEEP CITY?"
+    format("Whew… Which way is it to MOSSDEEP CITY?")
+}
+text Route125_Text_IrisPostBattle {
+    format("IRIS: KIM, are we really going into the SHOAL CAVE? We'll get all wet.")
+}
+
+text Route125_Text_KimPostBattle {
+    format("KIM: A funny old man lives in the SHOAL CAVE, doesn't he?\pLet's go see him, IRIS!")
 }

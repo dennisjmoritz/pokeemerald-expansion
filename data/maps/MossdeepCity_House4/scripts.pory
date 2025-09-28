@@ -6,6 +6,7 @@ script MossdeepCity_House4_EventScript_NinjaBoy {
 }
 
 script MossdeepCity_House4_EventScript_Skitty {
+    msgbox(MossdeepCity_House4_Text_Skitty, MSGBOX_DEFAULT)
     end
 }
 
@@ -13,3 +14,14 @@ script MossdeepCity_House4_EventScript_Woman {
     end
 }
 
+text MossdeepCity_House4_Text_MakeSecretBase {
+    format("You should make a SECRET BASE\nsomewhere. I'll go find it!$")
+}
+
+text MossdeepCity_House4_Text_Skitty {
+    format("SKITTY: Miyaan?$")
+}
+
+text MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle {
+    format("My little brother says he likes to\nvisit people's SECRET BASES and have\lPOKéMON battles.$")
+}

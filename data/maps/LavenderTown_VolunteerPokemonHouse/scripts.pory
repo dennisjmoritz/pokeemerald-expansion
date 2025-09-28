@@ -7,6 +7,7 @@ script LavenderTown_VolunteerPokemonHouse_EventScript_Bookshelf {
 }
 
 script LavenderTown_VolunteerPokemonHouse_EventScript_LittleBoy {
+    msgbox(LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug, MSGBOX_NPC)
     end
 }
 
@@ -45,4 +46,8 @@ text LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped {
 
 text LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf {
     format("POKéMON magazines line the shelf.\p POKéMON INSIDER…\p POKéMON FAN…")
+}
+
+text LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug {
+    format("It's so warm!\nPOKéMON are so nice to hug.$")
 }

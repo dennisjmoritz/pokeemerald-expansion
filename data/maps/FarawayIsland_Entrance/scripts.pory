@@ -6,6 +6,7 @@ script FarawayIsland_Entrance_EventScript_ClearWeather {
 }
 
 script FarawayIsland_Entrance_EventScript_Sailor {
+    msgbox(FarawayIsland_Entrance_Text_SailorReturn, MSGBOX_YESNO)
     end
 }
 

@@ -23,37 +23,57 @@ script Route109_SeashoreHouse_EventScript_Simon {
 
 
 text Route109_SeashoreHouse_Text_DwayneDefeated {
-    "Placeholder text for Route109_SeashoreHouse_Text_DwayneDefeated"
+    format("Placeholder text for Route109_SeashoreHouse_Text_DwayneDefeated")
 }
 
 text Route109_SeashoreHouse_Text_DwayneIntro {
-    "Placeholder text for Route109_SeashoreHouse_Text_DwayneIntro"
+    format("Placeholder text for Route109_SeashoreHouse_Text_DwayneIntro")
 }
 
 text Route109_SeashoreHouse_Text_DwaynePostBattle {
-    "Placeholder text for Route109_SeashoreHouse_Text_DwaynePostBattle"
+    format("Placeholder text for Route109_SeashoreHouse_Text_DwaynePostBattle")
 }
 
 text Route109_SeashoreHouse_Text_JohannaDefeated {
-    "Placeholder text for Route109_SeashoreHouse_Text_JohannaDefeated"
+    format("Placeholder text for Route109_SeashoreHouse_Text_JohannaDefeated")
 }
 
 text Route109_SeashoreHouse_Text_JohannaIntro {
-    "Placeholder text for Route109_SeashoreHouse_Text_JohannaIntro"
+    format("Placeholder text for Route109_SeashoreHouse_Text_JohannaIntro")
 }
 
 text Route109_SeashoreHouse_Text_JohannaPostBattle {
-    "Placeholder text for Route109_SeashoreHouse_Text_JohannaPostBattle"
+    format("Placeholder text for Route109_SeashoreHouse_Text_JohannaPostBattle")
 }
 
 text Route109_SeashoreHouse_Text_SimonDefeated {
-    "Placeholder text for Route109_SeashoreHouse_Text_SimonDefeated"
+    format("Placeholder text for Route109_SeashoreHouse_Text_SimonDefeated")
 }
 
 text Route109_SeashoreHouse_Text_SimonIntro {
-    "Placeholder text for Route109_SeashoreHouse_Text_SimonIntro"
+    format("Placeholder text for Route109_SeashoreHouse_Text_SimonIntro")
 }
 
 text Route109_SeashoreHouse_Text_SimonPostBattle {
-    "Placeholder text for Route109_SeashoreHouse_Text_SimonPostBattle"
+    format("Placeholder text for Route109_SeashoreHouse_Text_SimonPostBattle")
+}
+
+text Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles {
+    format("You're scorching hot!\nThose battles blazed!\lI'm more than just satisfied!\pAs thanks for showing me your hot\nstreak, I want you to take these.\pIt's half a dozen bottles of SODA POP!$")
+}
+
+text Route109_SeashoreHouse_Text_BagFull {
+    format("Oh, but hey, your BAG's jammed full.\nI'll hang on to these for you.$")
+}
+
+text Route109_SeashoreHouse_Text_WantToBuySodaPop {
+    format("Want to buy some SODA POP?\nPOKéMON love it!\pJust ¥300 a bottle!\nBuy some!$")
+}
+
+text Route109_SeashoreHouse_Text_ShowMeSomeHotMatches {
+    format("Show me some hot matches!\pI run this SEASHORE HOUSE just for\nthat reason alone!$")
+}
+
+text Route109_SeashoreHouse_Text_NotEnoughMoney {
+    format("You don't have the money.$")
 }

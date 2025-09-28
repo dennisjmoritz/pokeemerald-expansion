@@ -12,10 +12,12 @@ script SlateportCity_OceanicMuseum_1F_EventScript_DepthMeasuringMachine {
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_EntranceAttendant {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGrunt {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis, MSGBOX_DEFAULT)
     end
 }
 
@@ -25,42 +27,52 @@ script SlateportCity_OceanicMuseum_1F_EventScript_FossilDisplay {
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt1 {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt2 {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt3 {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt4 {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds, MSGBOX_SIGN)
     end
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt5 {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_RustboroBungled, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt6 {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron1 {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron2 {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron3 {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron4 {
+    msgbox(SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon, MSGBOX_NPC)
     end
 }
 
@@ -137,4 +149,64 @@ text SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay {
 
 text SlateportCity_OceanicMuseum_1F_Text_FossilDisplay {
     format("It's a fossil with wavy ridges on it.\p “Soil on the ocean floor gets scoured by the tide.\p “The flowing seawater marks the soil with small ridges and valleys.\p “If this soil becomes fossilized, it is called a ripple mark.”")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon {
+    format("I want a sea POKéMON.\pI think it would feel cool and nice\nto hug.$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself {
+    format("Please enjoy yourself.$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_RustboroBungled {
+    format("If our goons didn't bungle things\nin RUSTBORO, we wouldn't be here!$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere {
+    format("We were told to assemble here,\nso we did, but…\pOur BOSS, the linchpin, isn't here.$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling {
+    format("I want to learn about the sea and\nuse that knowledge for battling.$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis {
+    format("Awww, come on!\nYou have to take this and let me go!$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds {
+    format("What I learn here, I can put to use on\nnefarious deeds…$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow {
+    format("The sea is vast without end, and\ninfinitely deep…\pThere must be many POKéMON that\nwe don't know about.$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel {
+    format("I get all giddy and gooey when\nI see the sea!\pFor me, CAPT. STERN is the number\none role model!$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter {
+    format("Welcome to the OCEANIC MUSEUM.\pThe entrance fee is ¥50.\nWould you like to enter?$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll {
+    format("We, TEAM AQUA, exist for the good\nof all!$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup {
+    format("Oh? You're with that group that\nwent in earlier?\pYou're the only one who's late.\nYou'd better go catch up to them!$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney {
+    format("I didn't have ¥50, so it took a long\ntime getting by the receptionist.$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis {
+    format("Aiyeeeh!\nWhat are you doing here?\pMe? I'm the TEAM AQUA member\nyou thumped before, remember?\lBack in RUSTURF TUNNEL?\pHere, take this!\nYou have to forgive me!$")
+}
+
+text SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich {
+    format("If I ripped off the stuff here,\nwould it make me rich?$")
 }

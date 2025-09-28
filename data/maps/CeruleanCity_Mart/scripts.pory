@@ -6,10 +6,20 @@ script CeruleanCity_Mart_EventScript_Clerk {
 }
 
 script CeruleanCity_Mart_EventScript_Woman {
+    msgbox(CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy, MSGBOX_NPC)
     end
 }
 
 script CeruleanCity_Mart_EventScript_Youngster {
+    msgbox(CeruleanCity_Mart_Text_RepelWorksOnWeakMons, MSGBOX_NPC)
     end
 }
 
+
+text CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy {
+    format("Do you know about RARE CANDY?\nThey don't sell it in shops.\pI think it makes POKéMON grow\nvery quickly all of a sudden.$")
+}
+
+text CeruleanCity_Mart_Text_RepelWorksOnWeakMons {
+    format("REPEL not only keeps bugs away,\nit also works on weak POKéMON.\pPut your strongest POKéMON at the\nleft of the POKéMON LIST.\pIf your first POKéMON is strong,\nREPEL's effect is boosted.$")
+}

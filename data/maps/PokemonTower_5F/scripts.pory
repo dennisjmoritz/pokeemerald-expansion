@@ -2,6 +2,7 @@ mapscripts PokemonTower_5F_MapScripts {
 }
 
 script PokemonTower_5F_EventScript_Channeler {
+    msgbox(PokemonTower_5F_Text_RestHereInPurifiedSpace, MSGBOX_NPC)
     end
 }
 
@@ -36,49 +37,52 @@ script PokemonTower_5F_EventScript_Tammy {
 
 
 text PokemonTower_5F_Text_JanaeDefeat {
-    "Placeholder text for PokemonTower_5F_Text_JanaeDefeat"
+    format("Placeholder text for PokemonTower_5F_Text_JanaeDefeat")
 }
 
 text PokemonTower_5F_Text_JanaeIntro {
-    "Placeholder text for PokemonTower_5F_Text_JanaeIntro"
+    format("Placeholder text for PokemonTower_5F_Text_JanaeIntro")
 }
 
 text PokemonTower_5F_Text_JanaePostBattle {
-    "Placeholder text for PokemonTower_5F_Text_JanaePostBattle"
+    format("Placeholder text for PokemonTower_5F_Text_JanaePostBattle")
 }
 
 text PokemonTower_5F_Text_KarinaDefeat {
-    "Placeholder text for PokemonTower_5F_Text_KarinaDefeat"
+    format("Placeholder text for PokemonTower_5F_Text_KarinaDefeat")
 }
 
 text PokemonTower_5F_Text_KarinaIntro {
-    "Placeholder text for PokemonTower_5F_Text_KarinaIntro"
+    format("Placeholder text for PokemonTower_5F_Text_KarinaIntro")
 }
 
 text PokemonTower_5F_Text_KarinaPostBattle {
-    "Placeholder text for PokemonTower_5F_Text_KarinaPostBattle"
+    format("Placeholder text for PokemonTower_5F_Text_KarinaPostBattle")
 }
 
 text PokemonTower_5F_Text_RuthDefeat {
-    "Placeholder text for PokemonTower_5F_Text_RuthDefeat"
+    format("Placeholder text for PokemonTower_5F_Text_RuthDefeat")
 }
 
 text PokemonTower_5F_Text_RuthIntro {
-    "Placeholder text for PokemonTower_5F_Text_RuthIntro"
+    format("Placeholder text for PokemonTower_5F_Text_RuthIntro")
 }
 
 text PokemonTower_5F_Text_RuthPostBattle {
-    "Placeholder text for PokemonTower_5F_Text_RuthPostBattle"
+    format("Placeholder text for PokemonTower_5F_Text_RuthPostBattle")
 }
 
 text PokemonTower_5F_Text_TammyDefeat {
-    "Placeholder text for PokemonTower_5F_Text_TammyDefeat"
+    format("Placeholder text for PokemonTower_5F_Text_TammyDefeat")
 }
 
 text PokemonTower_5F_Text_TammyIntro {
-    "Placeholder text for PokemonTower_5F_Text_TammyIntro"
+    format("Placeholder text for PokemonTower_5F_Text_TammyIntro")
 }
 
 text PokemonTower_5F_Text_TammyPostBattle {
-    "Placeholder text for PokemonTower_5F_Text_TammyPostBattle"
+    format("Placeholder text for PokemonTower_5F_Text_TammyPostBattle")
+}
+text PokemonTower_5F_Text_RestHereInPurifiedSpace {
+    format("Come, child!\nI have purified this space.\lYou can rest here.$")
 }

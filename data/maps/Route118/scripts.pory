@@ -22,6 +22,7 @@ script Route118_EventScript_Deandre {
 }
 
 script Route118_EventScript_Girl {
+    msgbox(Route118_Text_CanCrossRiversWithSurf, MSGBOX_NPC)
     end
 }
 
@@ -77,85 +78,105 @@ text Route118_Text_RouteSign119 {
 
 
 text Route118_Text_BarnyDefeat {
-    "I thought I was doing okay in my\ntraining…"
+    format("I thought I was doing okay in my training…")
 }
 
 text Route118_Text_BarnyIntro {
-    "I'm a FISHERMAN, but also a TRAINER.\nI'm raising the POKéMON I caught."
+    format("I'm a FISHERMAN, but also a TRAINER. I'm raising the POKéMON I caught.")
 }
 
 text Route118_Text_BarnyPostBattle {
-    "I couldn't win by training POKéMON\nwhile I fished…\pWas I doing things in half measures?"
+    format("I couldn't win by training POKéMON while I fished…\pWas I doing things in half measures?")
 }
 
 text Route118_Text_ChesterDefeat {
-    "They did take flight…"
+    format("They did take flight…")
 }
 
 text Route118_Text_ChesterIntro {
-    "Take flight!\nMy BIRD POKéMON!"
+    format("Take flight! My BIRD POKéMON!")
 }
 
 text Route118_Text_ChesterPostBattle {
-    "If they'd get stronger, they'd be able\nto fly more freely…"
+    format("If they'd get stronger, they'd be able to fly more freely…")
 }
 
 text Route118_Text_DaltonDefeat {
-    "La-lalala…"
+    format("La-lalala…")
 }
 
 text Route118_Text_DaltonIntro {
-    "Let my melody rock your soul!"
+    format("Let my melody rock your soul!")
 }
 
 text Route118_Text_DaltonPostBattle {
-    "An electric guitar doesn't always\nhave to be noisy…\pIt can be strummed to squeeze out\nthis heart-stirring melody…"
+    format("An electric guitar doesn't always have to be noisy…\pIt can be strummed to squeeze out this heart-stirring melody…")
 }
 
 text Route118_Text_DeandreDefeat {
-    "Come in, POKéMON! Are you okay?\nPOKéMON 1, 2, and 3?!"
+    format("Come in, POKéMON! Are you okay? POKéMON 1, 2, and 3?!")
 }
 
 text Route118_Text_DeandreIntro {
-    "Go, go, go!\nPOKéMON 1, 2, and 3!"
+    format("Go, go, go! POKéMON 1, 2, and 3!")
 }
 
 text Route118_Text_DeandrePostBattle {
-    "Isn't it cool that I have a POKéMON\nbattle team?\pYou can copy me--I don't mind!"
+    format("Isn't it cool that I have a POKéMON battle team?\pYou can copy me--I don't mind!")
 }
 
 text Route118_Text_PerryDefeat {
-    "Urgh…\nI crashed…"
+    format("Urgh… I crashed…")
 }
 
 text Route118_Text_PerryIntro {
-    "BIRD POKéMON that FLY elegantly in\nthe sky… They're the best!"
+    format("BIRD POKéMON that FLY elegantly in the sky… They're the best!")
 }
 
 text Route118_Text_PerryPostBattle {
-    "You've got great POKéMON.\nI'll have to train mine better."
+    format("You've got great POKéMON. I'll have to train mine better.")
 }
 
 text Route118_Text_RoseDefeat {
-    "Oh, dear me.\nI seem to have lost."
+    format("Oh, dear me. I seem to have lost.")
 }
 
 text Route118_Text_RoseIntro {
-    "The aroma of flowers has a magical\npower. It cleanses us body and soul."
+    format("The aroma of flowers has a magical power. It cleanses us body and soul.")
 }
 
 text Route118_Text_RosePostBattle {
-    "Flowers, POKéMON…\nI love whatever smells nice.\pStinky things…\nI'll pass."
+    format("Flowers, POKéMON… I love whatever smells nice.\pStinky things… I'll pass.")
 }
 
 text Route118_Text_WadeDefeat {
-    "I was beaten in heart?"
+    format("I was beaten in heart?")
 }
 
 text Route118_Text_WadeIntro {
-    "For FISHERMEN, equipment is the key.\pBut for TRAINERS, the key ingredients\nare POKéMON and heart, of course!"
+    format("For FISHERMEN, equipment is the key.\pBut for TRAINERS, the key ingredients are POKéMON and heart, of course!")
 }
 
 text Route118_Text_WadePostBattle {
-    "Come to think of it, fishing is a battle\nbetween a FISHERMAN and a POKéMON."
+    format("Come to think of it, fishing is a battle between a FISHERMAN and a POKéMON.")
+}
+
+text Route118_Text_CanCrossRiversWithSurf {
+    format("Even if there isn't a boat, you can\ncross rivers and the sea if you have\la POKéMON that knows SURF.\pPOKéMON can be counted on to do so\nmuch!$")
+}
+
+text Route118_Text_TryCatchingMonWithGoodRod {
+    format("Try catching all sorts of POKéMON\nwith your GOOD ROD.$")
+}
+
+text Route118_Text_StevenQuestions {
+    format("STEVEN: Hi, {PLAYER}{KUN}!\pIt's me, STEVEN!\nWe met in the cave near DEWFORD.\pHave you met many kinds of POKéMON\nsince I last saw you?\pThere are many, many kinds of POKéMON\nin this wide world of ours.\pIf you wanted to raise only your\nfavorites, that's fine.\pPerhaps you find it more fun to raise\nall sorts of POKéMON.\pAs a TRAINER of POKéMON,\nwhat do you think?\pOf course, it's not any of my business.\pIt would be nice if we were to meet\nagain somewhere.$")
+}
+
+text Route118_Text_IdenticalMindsTakeThis {
+    format("Hmm!\nWe're of identical minds!\pHmm!\nTake this GOOD ROD!$")
+}
+
+text Route118_Text_DontYouLikeToFish {
+    format("Don't you like to fish?$")
 }

@@ -14,25 +14,25 @@ script SSTidalLowerDeck_EventScript_Phillip {
 
 
 text SSTidalLowerDeck_Text_LeonardDefeat {
-    "Placeholder text for SSTidalLowerDeck_Text_LeonardDefeat"
+    format("Placeholder text for SSTidalLowerDeck_Text_LeonardDefeat")
 }
 
 text SSTidalLowerDeck_Text_LeonardIntro {
-    "Placeholder text for SSTidalLowerDeck_Text_LeonardIntro"
+    format("Placeholder text for SSTidalLowerDeck_Text_LeonardIntro")
 }
 
 text SSTidalLowerDeck_Text_LeonardPostBattle {
-    "Placeholder text for SSTidalLowerDeck_Text_LeonardPostBattle"
+    format("Placeholder text for SSTidalLowerDeck_Text_LeonardPostBattle")
 }
 
 text SSTidalLowerDeck_Text_PhillipDefeat {
-    "Placeholder text for SSTidalLowerDeck_Text_PhillipDefeat"
+    format("Placeholder text for SSTidalLowerDeck_Text_PhillipDefeat")
 }
 
 text SSTidalLowerDeck_Text_PhillipIntro {
-    "Placeholder text for SSTidalLowerDeck_Text_PhillipIntro"
+    format("Placeholder text for SSTidalLowerDeck_Text_PhillipIntro")
 }
 
 text SSTidalLowerDeck_Text_PhillipPostBattle {
-    "Placeholder text for SSTidalLowerDeck_Text_PhillipPostBattle"
+    format("Placeholder text for SSTidalLowerDeck_Text_PhillipPostBattle")
 }

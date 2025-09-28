@@ -2,6 +2,7 @@ mapscripts PalletTown_MapScripts {
 }
 
 script PalletTown_EventScript_FatMan {
+    msgbox(PalletTown_Text_CanStoreItemsAndMonsInPC, MSGBOX_NPC)
     end
 }
 
@@ -16,7 +17,7 @@ script PalletTown_EventScript_OakTriggerRight {
 script PalletTown_EventScript_OaksLabSign {
     // lockall
     // famechecker FAMECHECKER_OAK, 0
-    msgbox(PalletTown_Text_OakPokemonResearchLab, MSGBOX_DEFAULT)
+    msgbox(PalletTown_Text_OakPokemonResearchLab, MSGBOX_SIGN)
     // releaseall
     end
 }
@@ -70,4 +71,8 @@ text PalletTown_Text_PlayersHouse {
 
 text PalletTown_Text_RivalsHouse {
     format("{RIVAL}'s house")
+}
+
+text PalletTown_Text_CanStoreItemsAndMonsInPC {
+    format("Technology is incredible!\pYou can now store and recall items\nand POKéMON as data via PC.$")
 }

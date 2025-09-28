@@ -59,73 +59,73 @@ text FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen {
 
 
 text FiveIsland_RocketWarehouse_Text_Admin1Defeat {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Admin1Defeat"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Admin1Defeat")
 }
 
 text FiveIsland_RocketWarehouse_Text_Admin1Intro {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Admin1Intro"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Admin1Intro")
 }
 
 text FiveIsland_RocketWarehouse_Text_Admin2Defeat {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Admin2Defeat"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Admin2Defeat")
 }
 
 text FiveIsland_RocketWarehouse_Text_Admin2Intro {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Admin2Intro"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Admin2Intro")
 }
 
 text FiveIsland_RocketWarehouse_Text_Admin2PostBattle {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Admin2PostBattle"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Admin2PostBattle")
 }
 
 text FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe")
 }
 
 text FiveIsland_RocketWarehouse_Text_GideonDefeat {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_GideonDefeat"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_GideonDefeat")
 }
 
 text FiveIsland_RocketWarehouse_Text_GideonIntro {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_GideonIntro"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_GideonIntro")
 }
 
 text FiveIsland_RocketWarehouse_Text_Grunt1Defeat {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt1Defeat"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt1Defeat")
 }
 
 text FiveIsland_RocketWarehouse_Text_Grunt1Intro {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt1Intro"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt1Intro")
 }
 
 text FiveIsland_RocketWarehouse_Text_Grunt1PostBattle {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt1PostBattle"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt1PostBattle")
 }
 
 text FiveIsland_RocketWarehouse_Text_Grunt2Defeat {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt2Defeat"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt2Defeat")
 }
 
 text FiveIsland_RocketWarehouse_Text_Grunt2Intro {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt2Intro"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt2Intro")
 }
 
 text FiveIsland_RocketWarehouse_Text_Grunt2PostBattle {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt2PostBattle"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt2PostBattle")
 }
 
 text FiveIsland_RocketWarehouse_Text_Grunt3Defeat {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt3Defeat"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt3Defeat")
 }
 
 text FiveIsland_RocketWarehouse_Text_Grunt3Intro {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt3Intro"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt3Intro")
 }
 
 text FiveIsland_RocketWarehouse_Text_Grunt3PostBattle {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt3PostBattle"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_Grunt3PostBattle")
 }
 
 text FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough {
-    "Placeholder text for FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough"
+    format("Placeholder text for FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough")
 }

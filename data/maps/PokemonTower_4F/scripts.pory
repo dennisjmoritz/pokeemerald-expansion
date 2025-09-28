@@ -19,37 +19,37 @@ script PokemonTower_4F_EventScript_Paula {
 
 
 text PokemonTower_4F_Text_JodyDefeat {
-    "Placeholder text for PokemonTower_4F_Text_JodyDefeat"
+    format("Placeholder text for PokemonTower_4F_Text_JodyDefeat")
 }
 
 text PokemonTower_4F_Text_JodyIntro {
-    "Placeholder text for PokemonTower_4F_Text_JodyIntro"
+    format("Placeholder text for PokemonTower_4F_Text_JodyIntro")
 }
 
 text PokemonTower_4F_Text_JodyPostBattle {
-    "Placeholder text for PokemonTower_4F_Text_JodyPostBattle"
+    format("Placeholder text for PokemonTower_4F_Text_JodyPostBattle")
 }
 
 text PokemonTower_4F_Text_LaurelDefeat {
-    "Placeholder text for PokemonTower_4F_Text_LaurelDefeat"
+    format("Placeholder text for PokemonTower_4F_Text_LaurelDefeat")
 }
 
 text PokemonTower_4F_Text_LaurelIntro {
-    "Placeholder text for PokemonTower_4F_Text_LaurelIntro"
+    format("Placeholder text for PokemonTower_4F_Text_LaurelIntro")
 }
 
 text PokemonTower_4F_Text_LaurelPostBattle {
-    "Placeholder text for PokemonTower_4F_Text_LaurelPostBattle"
+    format("Placeholder text for PokemonTower_4F_Text_LaurelPostBattle")
 }
 
 text PokemonTower_4F_Text_PaulaDefeat {
-    "Placeholder text for PokemonTower_4F_Text_PaulaDefeat"
+    format("Placeholder text for PokemonTower_4F_Text_PaulaDefeat")
 }
 
 text PokemonTower_4F_Text_PaulaIntro {
-    "Placeholder text for PokemonTower_4F_Text_PaulaIntro"
+    format("Placeholder text for PokemonTower_4F_Text_PaulaIntro")
 }
 
 text PokemonTower_4F_Text_PaulaPostBattle {
-    "Placeholder text for PokemonTower_4F_Text_PaulaPostBattle"
+    format("Placeholder text for PokemonTower_4F_Text_PaulaPostBattle")
 }

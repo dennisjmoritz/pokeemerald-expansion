@@ -39,85 +39,89 @@ script Route128_EventScript_Wayne {
 
 
 text Route128_Text_AlexaDefeat {
-    "Oh!\nHow could this happen?!"
+    format("Oh! How could this happen?!")
 }
 
 text Route128_Text_AlexaIntro {
-    "We've been working so hard to mount\na POKéMON LEAGUE challenge…\pWe can't afford to lose now!"
+    format("We've been working so hard to mount a POKéMON LEAGUE challenge…\pWe can't afford to lose now!")
 }
 
 text Route128_Text_AlexaPostBattle {
-    "After all I've done to get here,\nI won't give up after one setback."
+    format("After all I've done to get here, I won't give up after one setback.")
 }
 
 text Route128_Text_CarleeDefeat {
-    "I couldn't see very well because of\nthe sun's glare."
+    format("I couldn't see very well because of the sun's glare.")
 }
 
 text Route128_Text_CarleeIntro {
-    "The sunlight seems to be more harsh\nin this area."
+    format("The sunlight seems to be more harsh in this area.")
 }
 
 text Route128_Text_CarleePostBattle {
-    "I should go back soon.\nI need to reapply my sunscreen."
+    format("I should go back soon. I need to reapply my sunscreen.")
 }
 
 text Route128_Text_HarrisonDefeat {
-    "Ouch!\nI guess it was impossible to win."
+    format("Ouch! I guess it was impossible to win.")
 }
 
 text Route128_Text_HarrisonIntro {
-    "You're looking awfully tough.\nI wonder if I can win?"
+    format("You're looking awfully tough. I wonder if I can win?")
 }
 
 text Route128_Text_HarrisonPostBattle {
-    "There are tough TRAINERS galore\naround EVER GRANDE.\pDo you think I may be out\nof my league?"
+    format("There are tough TRAINERS galore around EVER GRANDE.\pDo you think I may be out of my league?")
 }
 
 text Route128_Text_IsaiahDefeat {
-    "My first victory seems to be far\naway, too…"
+    format("My first victory seems to be far away, too…")
 }
 
 text Route128_Text_IsaiahIntro {
-    "EVER GRANDE CITY is still a long ways\naway…"
+    format("EVER GRANDE CITY is still a long ways away…")
 }
 
 text Route128_Text_IsaiahPostBattle {
-    "My whole life has been about losing,\nbut I will never give up!"
+    format("My whole life has been about losing, but I will never give up!")
 }
 
 text Route128_Text_KatelynDefeat {
-    "A POKéMON battle is grueling, too…"
+    format("A POKéMON battle is grueling, too…")
 }
 
 text Route128_Text_KatelynIntro {
-    "You have to swim, cycle, and then run\na marathon in a triathlon.\pIt's a grueling race that consists\nof three events."
+    format("You have to swim, cycle, and then run a marathon in a triathlon.\pIt's a grueling race that consists of three events.")
 }
 
 text Route128_Text_KatelynPostBattle {
-    "I have to ride a BIKE next, but…\nI'm about to throw in the towel…"
+    format("I have to ride a BIKE next, but… I'm about to throw in the towel…")
 }
 
 text Route128_Text_RubenDefeat {
-    "This can't be!"
+    format("This can't be!")
 }
 
 text Route128_Text_RubenIntro {
-    "There is no stronger TRAINER than I!"
+    format("There is no stronger TRAINER than I!")
 }
 
 text Route128_Text_RubenPostBattle {
-    "There probably is no stronger TRAINER\nthan you!"
+    format("There probably is no stronger TRAINER than you!")
 }
 
 text Route128_Text_WayneDefeat {
-    "I'm crestfallen!"
+    format("I'm crestfallen!")
 }
 
 text Route128_Text_WayneIntro {
-    "I want to visit EVER GRANDE, so I\ncaught myself a POKéMON that knows\nthe move WATERFALL to crest the falls."
+    format("I want to visit EVER GRANDE, so I caught myself a POKéMON that knows the move WATERFALL to crest the falls.")
 }
 
 text Route128_Text_WaynePostBattle {
-    "Awww, phooey!\pMy POKéMON knows WATERFALL, but\nI don't have the SOOTOPOLIS GYM BADGE!"
+    format("Awww, phooey!\pMy POKéMON knows WATERFALL, but I don't have the SOOTOPOLIS GYM BADGE!")
+}
+
+text Route128_Text_ArchieWhatHappened {
+    format("ARCHIE: What happened…\nWhat is this wretched scene…\pDid I…make a horrible mistake?$")
 }

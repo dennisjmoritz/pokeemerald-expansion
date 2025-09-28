@@ -39,85 +39,85 @@ script Route105_EventScript_Luis {
 
 
 text Route105_Text_AndresDefeated {
-    "Yes…\nI am no good at battling…"
+    format("Yes… I am no good at battling…")
 }
 
 text Route105_Text_AndresIntro {
-    "I'm convinced that the sea keeps\nsecrets from us."
+    format("I'm convinced that the sea keeps secrets from us.")
 }
 
 text Route105_Text_AndresPostBattle {
-    "I'm sure there are many secrets to be\ndiscovered in the world's seas.\pI mean to find them all!"
+    format("I'm sure there are many secrets to be discovered in the world's seas.\pI mean to find them all!")
 }
 
 text Route105_Text_BeverlyDefeated {
-    "I'm floating…"
+    format("I'm floating…")
 }
 
 text Route105_Text_BeverlyIntro {
-    "My body feels lighter in the water.\nIt's as if I've gotten slimmer!"
+    format("My body feels lighter in the water. It's as if I've gotten slimmer!")
 }
 
 text Route105_Text_DominikDefeated {
-    "I lost…\nNow I'm feeling blue…"
+    format("I lost… Now I'm feeling blue…")
 }
 
 text Route105_Text_DominikIntro {
-    "Swimming the deep blue sea…\nIt feels the greatest!"
+    format("Swimming the deep blue sea… It feels the greatest!")
 }
 
 text Route105_Text_DominikPostBattle {
-    "Why is the sea blue?\pI learned about that at the MUSEUM in\nSLATEPORT, but I forgot."
+    format("Why is the sea blue?\pI learned about that at the MUSEUM in SLATEPORT, but I forgot.")
 }
 
 text Route105_Text_FosterDefeated {
-    "I was thinking too much about that\nrock, while my POKéMON remained weak…"
+    format("I was thinking too much about that rock, while my POKéMON remained weak…")
 }
 
 text Route105_Text_FosterIntro {
-    "There's supposed to be a mystical\nrock around here.\nDo you know anything about it?"
+    format("There's supposed to be a mystical rock around here. Do you know anything about it?")
 }
 
 text Route105_Text_FosterPostBattle {
-    "I can spend hours and hours staring\nat a nice rock without growing bored."
+    format("I can spend hours and hours staring at a nice rock without growing bored.")
 }
 
 text Route105_Text_ImaniDefeated {
-    "I lost while I was lounging!"
+    format("I lost while I was lounging!")
 }
 
 text Route105_Text_ImaniIntro {
-    "The blue, blue sky…\nThe vast sea…\nIt's so peaceful…"
+    format("The blue, blue sky… The vast sea… It's so peaceful…")
 }
 
 text Route105_Text_ImaniPostBattle {
-    "I want to be told I'm relaxing to be\nwith. Giggle."
+    format("I want to be told I'm relaxing to be with. Giggle.")
 }
 
 text Route105_Text_JosueDefeated {
-    "I lost because I battled at sea."
+    format("I lost because I battled at sea.")
 }
 
 text Route105_Text_JosueIntro {
-    "I'm exhausted from swimming.\nI'm just not used to it.\pI need a battle for a change of pace!"
+    format("I'm exhausted from swimming. I'm just not used to it.\pI need a battle for a change of pace!")
 }
 
 text Route105_Text_JosuePostBattle {
-    "Yeah, for me, the sky is a much better\nmatch than the sea."
+    format("Yeah, for me, the sky is a much better match than the sea.")
 }
 
 text Route105_Text_LuisDefeated {
-    "Glub… Glub…"
+    format("Glub… Glub…")
 }
 
 text Route105_Text_LuisIntro {
-    "Whew! I was worried that a kid was\ndrowning when I saw you.\pYou seem to be okay, so what do you\nsay to a battle?"
+    format("Whew! I was worried that a kid was drowning when I saw you.\pYou seem to be okay, so what do you say to a battle?")
 }
 
 text Route105_Text_LuisPostBattle {
-    "If you are drowning, the signal is to\nwave one arm toward the beach."
+    format("If you are drowning, the signal is to wave one arm toward the beach.")
 }
 
 text Route105_Text_PostBattle {
-    "Your body weight is reduced to just\none tenth in the water.\pThat would make me…\nWhoops! I'm not telling you my weight!"
+    format("Your body weight is reduced to just\none tenth in the water.\pThat would make me…\nWhoops! I'm not telling you my weight!")
 }

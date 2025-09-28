@@ -2,6 +2,7 @@ mapscripts SootopolisCity_LotadAndSeedotHouse_MapScripts {
 }
 
 script SootopolisCity_LotadAndSeedotHouse_EventScript_LotadBrother {
+    msgbox(SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad, MSGBOX_DEFAULT)
     end
 }
 
@@ -14,6 +15,7 @@ script SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord {
 }
 
 script SootopolisCity_LotadAndSeedotHouse_EventScript_SeedotBrother {
+    msgbox(SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot, MSGBOX_DEFAULT)
     end
 }
 
@@ -32,4 +34,52 @@ text SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory {
 
 text SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory {
     format("The biggest LOTAD in history! {STR_VAR_2}'s {STR_VAR_3} colossus!\p A LOTAD bigger than a SEEDOT always wanted!")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot {
+    format("{STR_VAR_2}!\nWow, that is big!\pIt might be even bigger than the huge\nSEEDOT my big brother saw.\pThanks for showing me!\nThis is my thanks!$")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1 {
+    format("Hunh?\nYour BAG is crammed full.$")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad {
+    format("Well, isn't this something!\nBut it's no LOTAD!$")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad {
+    format("{STR_VAR_2}!\nOh, my gosh, this is a big one!\pIt might even beat the big LOTAD\nmy younger brother saw!\pThanks for showing me.\nThis is my thanks!$")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad {
+    format("Do you know the POKéMON LOTAD?\nIt's rarely seen in SOOTOPOLIS.\pI love, I mean love, big LOTAD!\pMy big brother says that SEEDOT is\nbigger.\pBut that's wrong! Everyone knows that\nLOTAD is a lot bigger.\pHunh? Do you have a LOTAD?\nP-p-please show me!$")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotSeedot {
+    format("Oh, now this is quite something…\nBut it's not a SEEDOT!$")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad {
+    format("Don't you have a big LOTAD?\nHow disappointing…\pIf you get a big LOTAD, please\ncome show me!$")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot {
+    format("You don't have a big SEEDOT?\nThat's too bad…\pIf you get a big SEEDOT, please\ncome show me.$")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2 {
+    format("Hunh?\nYour BAG is crammed full.$")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot {
+    format("Do you know the POKéMON SEEDOT?\nIt's hardly ever seen in SOOTOPOLIS.\pAnyway, I love big SEEDOT.\nThe bigger the better.\pBut my younger brother, he says that\nLOTAD is bigger.\pThat's silly.\nSEEDOT has to be bigger than that!\pHuh? Do you have a SEEDOT with you?\nP-p-please, show me!$")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad {
+    format("{STR_VAR_2}?\pHmm… I've seen a bigger LOTAD\nthan this one here.$")
+}
+
+text SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot {
+    format("{STR_VAR_2}, is it?\pHmm… I've seen a bigger SEEDOT\nthan this one.$")
 }

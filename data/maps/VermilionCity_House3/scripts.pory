@@ -2,10 +2,12 @@ mapscripts VermilionCity_House3_MapScripts {
 }
 
 script VermilionCity_House3_EventScript_Boy {
+    msgbox(VermilionCity_House3_Text_PidgeyFlyLetterToSaffron, MSGBOX_NPC)
     end
 }
 
 script VermilionCity_House3_EventScript_Lass {
+    msgbox(VermilionCity_House3_Text_SendMyPidgeyToUnionRoom, MSGBOX_NPC)
     end
 }
 
@@ -21,4 +23,12 @@ script VermilionCity_House3_EventScript_Pidgey {
 
 text VermilionCity_House3_Text_DearPippiLetter {
     format("Dear PIPPI, I hope to see you soon.\p I heard SAFFRON has problems with TEAM ROCKET.\p VERMILION appears to be safe.")
+}
+
+text VermilionCity_House3_Text_PidgeyFlyLetterToSaffron {
+    format("I'm getting my PIDGEY to fly a\nletter to SAFFRON in the north.$")
+}
+
+text VermilionCity_House3_Text_SendMyPidgeyToUnionRoom {
+    format("I want to exchange MAIL with all\nsorts of people.\pI send my PIDGEY to a UNION ROOM\nto exchange MAIL for me.$")
 }

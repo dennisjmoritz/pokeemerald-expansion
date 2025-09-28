@@ -2,6 +2,7 @@ mapscripts ThreeIsland_Port_MapScripts {
 }
 
 script ThreeIsland_Port_EventScript_Biker1 {
+    msgbox(ThreeIsland_Port_Text_WereKantoRiderFederation, MSGBOX_NPC)
     end
 }
 
@@ -13,3 +14,7 @@ script ThreeIsland_Port_EventScript_Woman {
     end
 }
 
+
+text ThreeIsland_Port_Text_WereKantoRiderFederation {
+    format("We're the KANTO RIDER FEDERATION!\nVroom! Vavavavooom! Vroom!\pMy bike's wimpy, so I have to\nmake exhaust noises myself!$")
+}

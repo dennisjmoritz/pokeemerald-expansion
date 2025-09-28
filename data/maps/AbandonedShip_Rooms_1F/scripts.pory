@@ -7,6 +7,7 @@ script AbandonedShip_Rooms_1F_EventScript_Demetrius {
 }
 
 script AbandonedShip_Rooms_1F_EventScript_Gentleman {
+    msgbox(AbandonedShip_Rooms_1F_Text_TakingALookAround, MSGBOX_NPC)
     end
 }
 
@@ -17,25 +18,37 @@ script AbandonedShip_Rooms_1F_EventScript_Thalia {
 
 
 text AbandonedShip_Rooms_1F_Text_DemetriusDefeat {
-    "Placeholder text for AbandonedShip_Rooms_1F_Text_DemetriusDefeat"
+    format("Placeholder text for AbandonedShip_Rooms_1F_Text_DemetriusDefeat")
 }
 
 text AbandonedShip_Rooms_1F_Text_DemetriusIntro {
-    "Placeholder text for AbandonedShip_Rooms_1F_Text_DemetriusIntro"
+    format("Placeholder text for AbandonedShip_Rooms_1F_Text_DemetriusIntro")
 }
 
 text AbandonedShip_Rooms_1F_Text_DemetriusPostBattle {
-    "Placeholder text for AbandonedShip_Rooms_1F_Text_DemetriusPostBattle"
+    format("Placeholder text for AbandonedShip_Rooms_1F_Text_DemetriusPostBattle")
 }
 
 text AbandonedShip_Rooms_1F_Text_ThaliaDefeat {
-    "Placeholder text for AbandonedShip_Rooms_1F_Text_ThaliaDefeat"
+    format("Placeholder text for AbandonedShip_Rooms_1F_Text_ThaliaDefeat")
 }
 
 text AbandonedShip_Rooms_1F_Text_ThaliaIntro {
-    "Placeholder text for AbandonedShip_Rooms_1F_Text_ThaliaIntro"
+    format("Placeholder text for AbandonedShip_Rooms_1F_Text_ThaliaIntro")
 }
 
 text AbandonedShip_Rooms_1F_Text_ThaliaPostBattle {
-    "Placeholder text for AbandonedShip_Rooms_1F_Text_ThaliaPostBattle"
+    format("Placeholder text for AbandonedShip_Rooms_1F_Text_ThaliaPostBattle")
+}
+
+text AbandonedShip_Rooms_1F_Text_ThaliaRegister {
+    format("You're such a tough TRAINER!\nLet me register you as a memento!$")
+}
+
+text AbandonedShip_Rooms_1F_Text_ThaliaPostRematch {
+    format("I'm sure that man's up to something!\nHe just acts so suspiciously!$")
+}
+
+text AbandonedShip_Rooms_1F_Text_TakingALookAround {
+    format("Ships of this sort are rare, so I'm\ntaking a look around.\pHmhm…\nThere appear to be other cabins…$")
 }

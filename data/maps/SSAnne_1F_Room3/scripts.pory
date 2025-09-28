@@ -2,10 +2,12 @@ mapscripts SSAnne_1F_Room3_MapScripts {
 }
 
 script SSAnne_1F_Room3_EventScript_BaldingMan {
+    msgbox(SSAnne_1F_Room3_Text_CruiseIsElegantAndCozy, MSGBOX_NPC)
     end
 }
 
 script SSAnne_1F_Room3_EventScript_LittleGirl {
+    msgbox(SSAnne_1F_Room3_Text_AlwaysTravelWithWigglytuff, MSGBOX_NPC)
     end
 }
 
@@ -13,3 +15,11 @@ script SSAnne_1F_Room3_EventScript_Wigglytuff {
     end
 }
 
+
+text SSAnne_1F_Room3_Text_CruiseIsElegantAndCozy {
+    format("A world cruise is so elegant yet\ncozy!$")
+}
+
+text SSAnne_1F_Room3_Text_AlwaysTravelWithWigglytuff {
+    format("I always travel with WIGGLYTUFF.\nI never leave home without it.$")
+}

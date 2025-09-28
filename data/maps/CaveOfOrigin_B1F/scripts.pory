@@ -2,6 +2,14 @@ mapscripts CaveOfOrigin_B1F_MapScripts {
 }
 
 script CaveOfOrigin_B1F_EventScript_Wallace {
+    msgbox(CaveOfOrigin_B1F_Text_WallaceStory, MSGBOX_DEFAULT)
     end
 }
 
+text CaveOfOrigin_B1F_Text_WallaceStory {
+    format("Ah, so you are {PLAYER}{KUN}?\nI've heard tales of your exploits.\pMy name is WALLACE.\pI was once the GYM LEADER of\nSOOTOPOLIS, but something came up.\pSo now, I've entrusted my mentor JUAN\nwith the GYM's operation.\p… … … … … …\n… … … … … …\pGROUDON and KYOGRE, the two POKéMON\nwreaking havoc here, are considered\lto be super-ancient POKéMON.\pBut there aren't just two super-\nancient POKéMON.\pThere is one more somewhere.\pSomewhere, there is a super-\nancient POKéMON named RAYQUAZA.\pIt's said that it was RAYQUAZA that\nbecalmed the two combatants in\lthe distant past.\pBut even I have no clue as to\nRAYQUAZA's whereabouts…$")
+}
+
+text CaveOfOrigin_B1F_Text_WellHeadToSkyPillar {
+    format("WALLACE: The SKY PILLAR?\pThat's it!\nIt must be the SKY PILLAR!\p{PLAYER}{KUN}, there's not a moment to lose!\nWe'll head to the SKY PILLAR right away!$")
+}

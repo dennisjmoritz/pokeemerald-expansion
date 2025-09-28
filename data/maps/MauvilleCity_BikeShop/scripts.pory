@@ -9,6 +9,7 @@ script MauvilleCity_BikeShop_EventScript_AcroBikeHandbook {
 }
 
 script MauvilleCity_BikeShop_EventScript_Assistant {
+    msgbox(MauvilleCity_BikeShop_Text_HandbooksAreInBack, MSGBOX_NPC)
     end
 }
 
@@ -23,3 +24,46 @@ script MauvilleCity_BikeShop_EventScript_Rydel {
     end
 }
 
+text MauvilleCity_BikeShop_Text_ChoseAcroBike {
+    format("{PLAYER} chose the ACRO BIKE.$")
+}
+
+text MauvilleCity_BikeShop_Text_ChoseMachBike {
+    format("{PLAYER} chose the MACH BIKE.$")
+}
+
+text MauvilleCity_BikeShop_Text_WantToSwitchBikes {
+    format("RYDEL: Oh? Were you thinking about\nswitching BIKES?$")
+}
+
+text MauvilleCity_BikeShop_Text_DidYouComeFromFarAway {
+    format("RYDEL: Your RUNNING SHOES…\nThey're awfully filthy.\pDid you come from far away?$")
+}
+
+text MauvilleCity_BikeShop_Text_HandbooksAreInBack {
+    format("I'm learning about BIKES while\nI work here.\pIf you need advice on how to ride your\nBIKE, there're a couple handbooks in\lthe back.$")
+}
+
+text MauvilleCity_BikeShop_Text_ExchangedAcroForMach {
+    format("{PLAYER} got the ACRO BIKE exchanged\nfor a MACH BIKE.$")
+}
+
+text MauvilleCity_BikeShop_Text_ComeBackToSwitchBikes {
+    format("RYDEL: If you get the urge to switch\nBIKES, just come see me!$")
+}
+
+text MauvilleCity_BikeShop_Text_GuessYouDontNeedBike {
+    format("RYDEL: Is that right?\pThen, I guess you have no need for\nany of my BIKES.$")
+}
+
+text MauvilleCity_BikeShop_Text_IllSwitchBikes {
+    format("RYDEL: Okay, no problem!\nI'll switch BIKES for you!$")
+}
+
+text MauvilleCity_BikeShop_Text_HappyYouLikeIt {
+    format("RYDEL: Good, good!\nI'm happy that you like it!$")
+}
+
+text MauvilleCity_BikeShop_Text_ExchangedMachForAcro {
+    format("{PLAYER} got the MACH BIKE exchanged\nfor an ACRO BIKE.$")
+}

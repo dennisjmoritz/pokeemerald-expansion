@@ -2,6 +2,7 @@ mapscripts RustboroCity_Flat1_2F_MapScripts {
 }
 
 script RustboroCity_Flat1_2F_EventScript_PokeDoll {
+    msgbox(RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll, MSGBOX_SIGN)
     end
 }
 
@@ -10,6 +11,42 @@ script RustboroCity_Flat1_2F_EventScript_WaldasDad {
 }
 
 script RustboroCity_Flat1_2F_EventScript_WaldasMom {
+    msgbox(RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard, MSGBOX_NPC)
     end
 }
 
+text RustboroCity_Flat1_2F_Text_LetsGiveItATry2 {
+    format("Ah, I see.\nWell, let's give it a try, shall we?$")
+}
+
+text RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard {
+    format("Oh, it's so hard every day…\pWhat's hard?\nYou need to ask?\pIt's trying to figure out what to\nmake for meals every day.\pIt really isn't easy coming up with\nmeals every day.$")
+}
+
+text RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase {
+    format("Oh, hello!\nWelcome to the PEPPER household.\pI have a question for you.\nHave you ever baby-sat?\pYou see, I'm a new father, so raising\na child is all new to me.\pAnd I have a problem. My daughter\nWALDA doesn't laugh enough.\pI think she'd laugh for me if I told\nher something funny.\pDo you know of a funny word or\nphrase you can tell me?$")
+}
+
+text RustboroCity_Flat1_2F_Text_BeenSayingXDoYouKnowBetterPhrase {
+    format("I've been saying “{STR_VAR_1}”\nto amuse her lately.\pDo you know of a better word or\na phrase that might work?$")
+}
+
+text RustboroCity_Flat1_2F_Text_OhIsThatRight {
+    format("Oh, is that right?\pWell, if you come up with a good\nsuggestion, I'm all ears.$")
+}
+
+text RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase {
+    format("Oh, so you don't know any good words.\nI'd better think for myself, then.\pHmm…\nHow about “{STR_VAR_1}”?\lLet's see if that will work.$")
+}
+
+text RustboroCity_Flat1_2F_Text_LetsGiveItATry {
+    format("Ah, I see.\nWell, let's give it a try, shall we?$")
+}
+
+text RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll {
+    format("It's a POKéMON plush DOLL!$")
+}
+
+text RustboroCity_Flat1_2F_Text_OhYouDontKnowAny {
+    format("Oh, so you don't know any good words.\nI guess I'll try to amuse her with\lthe saying I used before.\pAnyways, if you have a good suggestion,\ndon't hesitate in telling me, okay?$")
+}

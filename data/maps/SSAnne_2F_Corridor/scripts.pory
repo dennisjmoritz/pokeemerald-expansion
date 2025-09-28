@@ -14,6 +14,11 @@ script SSAnne_2F_Corridor_EventScript_RivalTriggerRight {
 }
 
 script SSAnne_2F_Corridor_EventScript_Sailor {
+    msgbox(SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner, MSGBOX_NPC)
     end
 }
 
+
+text SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner {
+    format("This ship, she is a luxury liner for\nTRAINERS of the world!\pAt every port, we hold parties with\ninvited TRAINERS.$")
+}

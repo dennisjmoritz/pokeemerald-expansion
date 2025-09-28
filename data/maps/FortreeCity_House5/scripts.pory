@@ -2,14 +2,28 @@ mapscripts FortreeCity_House5_MapScripts {
 }
 
 script FortreeCity_House5_EventScript_Man {
+    msgbox(FortreeCity_House5_Text_AdaptedToNature, MSGBOX_NPC)
     end
 }
 
 script FortreeCity_House5_EventScript_PokefanF {
+    msgbox(FortreeCity_House5_Text_TreeHousesAreGreat, MSGBOX_NPC)
     end
 }
 
 script FortreeCity_House5_EventScript_Zigzagoon {
+    msgbox(FortreeCity_House5_Text_Zigzagoon, MSGBOX_DEFAULT)
     end
 }
 
+text FortreeCity_House5_Text_TreeHousesAreGreat {
+    format("The tree houses of FORTREE are great!\pI think it's the number one town for\nliving together with POKéMON.$")
+}
+
+text FortreeCity_House5_Text_AdaptedToNature {
+    format("POKéMON and people have adapted to\nnature for survival.\pThere's no need to make nature\nconform to the way we want to live.$")
+}
+
+text FortreeCity_House5_Text_Zigzagoon {
+    format("ZIGZAGOON: Bufuu!$")
+}

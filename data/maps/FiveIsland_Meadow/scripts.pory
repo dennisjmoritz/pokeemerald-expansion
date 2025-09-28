@@ -32,37 +32,37 @@ text FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded {
 
 
 text FiveIsland_Meadow_Text_Rocket1Defeat {
-    "Placeholder text for FiveIsland_Meadow_Text_Rocket1Defeat"
+    format("Placeholder text for FiveIsland_Meadow_Text_Rocket1Defeat")
 }
 
 text FiveIsland_Meadow_Text_Rocket1Intro {
-    "Placeholder text for FiveIsland_Meadow_Text_Rocket1Intro"
+    format("Placeholder text for FiveIsland_Meadow_Text_Rocket1Intro")
 }
 
 text FiveIsland_Meadow_Text_Rocket1PostBattle {
-    "Placeholder text for FiveIsland_Meadow_Text_Rocket1PostBattle"
+    format("Placeholder text for FiveIsland_Meadow_Text_Rocket1PostBattle")
 }
 
 text FiveIsland_Meadow_Text_Rocket2Defeat {
-    "Placeholder text for FiveIsland_Meadow_Text_Rocket2Defeat"
+    format("Placeholder text for FiveIsland_Meadow_Text_Rocket2Defeat")
 }
 
 text FiveIsland_Meadow_Text_Rocket2Intro {
-    "Placeholder text for FiveIsland_Meadow_Text_Rocket2Intro"
+    format("Placeholder text for FiveIsland_Meadow_Text_Rocket2Intro")
 }
 
 text FiveIsland_Meadow_Text_Rocket2PostBattle {
-    "Placeholder text for FiveIsland_Meadow_Text_Rocket2PostBattle"
+    format("Placeholder text for FiveIsland_Meadow_Text_Rocket2PostBattle")
 }
 
 text FiveIsland_Meadow_Text_Rocket3Defeat {
-    "Placeholder text for FiveIsland_Meadow_Text_Rocket3Defeat"
+    format("Placeholder text for FiveIsland_Meadow_Text_Rocket3Defeat")
 }
 
 text FiveIsland_Meadow_Text_Rocket3Intro {
-    "Placeholder text for FiveIsland_Meadow_Text_Rocket3Intro"
+    format("Placeholder text for FiveIsland_Meadow_Text_Rocket3Intro")
 }
 
 text FiveIsland_Meadow_Text_Rocket3PostBattle {
-    "Placeholder text for FiveIsland_Meadow_Text_Rocket3PostBattle"
+    format("Placeholder text for FiveIsland_Meadow_Text_Rocket3PostBattle")
 }

@@ -9,13 +9,13 @@ script SSAnne_1F_Room5_EventScript_Arthur {
 
 
 text SSAnne_1F_Room5_Text_ArthurDefeat {
-    "Placeholder text for SSAnne_1F_Room5_Text_ArthurDefeat"
+    format("Placeholder text for SSAnne_1F_Room5_Text_ArthurDefeat")
 }
 
 text SSAnne_1F_Room5_Text_ArthurIntro {
-    "Placeholder text for SSAnne_1F_Room5_Text_ArthurIntro"
+    format("Placeholder text for SSAnne_1F_Room5_Text_ArthurIntro")
 }
 
 text SSAnne_1F_Room5_Text_ArthurPostBattle {
-    "Placeholder text for SSAnne_1F_Room5_Text_ArthurPostBattle"
+    format("Placeholder text for SSAnne_1F_Room5_Text_ArthurPostBattle")
 }

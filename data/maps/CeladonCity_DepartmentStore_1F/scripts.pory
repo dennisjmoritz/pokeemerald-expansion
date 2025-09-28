@@ -12,6 +12,7 @@ script CeladonCity_DepartmentStore_1F_EventScript_LayoutSign {
 }
 
 script CeladonCity_DepartmentStore_1F_EventScript_Receptionist {
+    msgbox(CeladonCity_DepartmentStore_1F_Text_WelcomeToDeptStore, MSGBOX_NPC)
     end
 }
 
@@ -22,4 +23,8 @@ text CeladonCity_DepartmentStore_1F_Text_FloorDescriptions {
 
 text CeladonCity_DepartmentStore_1F_Text_ServiceCounter {
     format("1F: SERVICE COUNTER")
+}
+
+text CeladonCity_DepartmentStore_1F_Text_WelcomeToDeptStore {
+    format("Hello!\nWelcome to CELADON DEPT. STORE.\pThe board on the right describes\nthe store layout.$")
 }

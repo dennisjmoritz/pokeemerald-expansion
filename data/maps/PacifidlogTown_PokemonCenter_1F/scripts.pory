@@ -2,6 +2,7 @@ mapscripts PacifidlogTown_PokemonCenter_1F_MapScripts {
 }
 
 script PacifidlogTown_PokemonCenter_1F_EventScript_Girl {
+    msgbox(PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard, MSGBOX_NPC)
     end
 }
 
@@ -10,10 +11,23 @@ script PacifidlogTown_PokemonCenter_1F_EventScript_Nurse {
 }
 
 script PacifidlogTown_PokemonCenter_1F_EventScript_OldMan {
+    msgbox(PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats, MSGBOX_NPC)
     end
 }
 
 script PacifidlogTown_PokemonCenter_1F_EventScript_Woman {
+    msgbox(PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola, MSGBOX_NPC)
     end
 }
 
+text PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard {
+    format("What color is your TRAINER CARD?\nMine's copper!$")
+}
+
+text PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats {
+    format("The ancestors of the people in\nPACIFIDLOG were said to have been\lborn on boats and then lived and died \laboard them.\pI understand that they lived that way\nbecause they were searching for\lsomething.$")
+}
+
+text PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola {
+    format("PACIFIDLOG TOWN floats on top of\na colony of CORSOLA.\pIf I told you that, would you believe\nme?$")
+}

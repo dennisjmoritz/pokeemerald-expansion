@@ -2,6 +2,7 @@ mapscripts RustboroCity_House1_MapScripts {
 }
 
 script RustboroCity_House1_EventScript_Hiker {
+    msgbox(RustboroCity_House1_Text_AllSortsOfPlaces, MSGBOX_NPC)
     end
 }
 
@@ -9,3 +10,18 @@ script RustboroCity_House1_EventScript_Trader {
     end
 }
 
+text RustboroCity_House1_Text_AnyPokemonCanBeCute {
+    format("Any POKéMON can be cute if you raise\nit with care and kindness.$")
+}
+
+text RustboroCity_House1_Text_AllSortsOfPlaces {
+    format("In all sorts of places, there are all\nsorts of POKéMON and people.\pI find that fascinating, so I go to all\nsorts of places.$")
+}
+
+text RustboroCity_House1_Text_DoesntLookLikeMonToMe {
+    format("Huh? That doesn't look anything like\na {STR_VAR_1} to me.$")
+}
+
+text RustboroCity_House1_Text_YouDontWantToThatsOkay {
+    format("Oh, if you don't want to, that's okay.\nBut my POKéMON is cute, you know…$")
+}

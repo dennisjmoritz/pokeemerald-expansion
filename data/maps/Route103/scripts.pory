@@ -11,6 +11,7 @@ script Route103_EventScript_Andrew {
 }
 
 script Route103_EventScript_Boy {
+    msgbox(Route103_Text_ShouldHaveBroughtPotion, MSGBOX_NPC)
     end
 }
 
@@ -29,6 +30,7 @@ script Route103_EventScript_Liv {
 }
 
 script Route103_EventScript_Man {
+    msgbox(Route103_Text_ShortcutToOldale, MSGBOX_NPC)
     end
 }
 
@@ -68,85 +70,109 @@ text Route103_Text_RouteSign {
 
 
 text Route103_Text_AndrewDefeated {
-    "Gah! Lost it!\nI'm even more annoyed now!"
+    format("Gah! Lost it! I'm even more annoyed now!")
 }
 
 text Route103_Text_AndrewIntro {
-    "Gah! My fishing line's all snarled up!\nI'm getting frustrated and mean!\nThat's it! Battle me!"
+    format("Gah! My fishing line's all snarled up! I'm getting frustrated and mean! That's it! Battle me!")
 }
 
 text Route103_Text_AndrewPostBattle {
-    "Gah, I'm still boiling mad…\nGrrrrr…"
+    format("Gah, I'm still boiling mad… Grrrrr…")
 }
 
 text Route103_Text_DaisyDefeated {
-    "You weren't led astray by our aroma…"
+    format("You weren't led astray by our aroma…")
 }
 
 text Route103_Text_DaisyIntro {
-    "Did you feel the tug of our\nsoul-soothing fragrance?"
+    format("Did you feel the tug of our soul-soothing fragrance?")
 }
 
 text Route103_Text_DaisyPostBattle {
-    "Aromatherapy is a form of mental\nhealing that works with fragrances."
+    format("Aromatherapy is a form of mental healing that works with fragrances.")
 }
 
 text Route103_Text_IsabelleDefeated {
-    "Groan…"
+    format("Groan…")
 }
 
 text Route103_Text_IsabelleIntro {
-    "Watch where you're going!\nWe're going to crash!"
+    format("Watch where you're going! We're going to crash!")
 }
 
 text Route103_Text_IsabellePostBattle {
-    "I'm a poor swimmer so I was practicing…\nSorry for almost crashing into you."
+    format("I'm a poor swimmer so I was practicing… Sorry for almost crashing into you.")
 }
 
 text Route103_Text_MarcosDefeated {
-    "My one-man show is ruined…"
+    format("My one-man show is ruined…")
 }
 
 text Route103_Text_MarcosIntro {
-    "Did my guitar's wailing draw you in?"
+    format("Did my guitar's wailing draw you in?")
 }
 
 text Route103_Text_MarcosPostBattle {
-    "I was playing my guitar where few\npeople were around, but a lot of fans\nhave gathered.\pHeh, maybe I should turn pro."
+    format("I was playing my guitar where few people were around, but a lot of fans have gathered.\pHeh, maybe I should turn pro.")
 }
 
 text Route103_Text_MiguelDefeated {
-    "Oh, my gosh!\nMy darling POKéMON!"
+    format("Oh, my gosh! My darling POKéMON!")
 }
 
 text Route103_Text_MiguelIntro {
-    "My POKéMON is delightfully adorable!\nDon't be shy--I'll show you!"
+    format("My POKéMON is delightfully adorable! Don't be shy--I'll show you!")
 }
 
 text Route103_Text_MiguelPostBattle {
-    "My delightful POKéMON looks darling\neven when it's fainted!"
+    format("My delightful POKéMON looks darling even when it's fainted!")
 }
 
 text Route103_Text_PeteDefeated {
-    "Oh, that's good going!"
+    format("Oh, that's good going!")
 }
 
 text Route103_Text_PeteIntro {
-    "This sort of distance…\nYou should just swim it!"
+    format("This sort of distance… You should just swim it!")
 }
 
 text Route103_Text_PetePostBattle {
-    "Oh, I understand where you're coming\nfrom now.\pIf I had a POKéMON that trusty,\nI'd want to SURF on it, too!"
+    format("Oh, I understand where you're coming from now.\pIf I had a POKéMON that trusty, I'd want to SURF on it, too!")
 }
 
 text Route103_Text_RhettDefeated {
-    "Whoa!\nThe kid can rock!"
+    format("Whoa! The kid can rock!")
 }
 
 text Route103_Text_RhettIntro {
-    "Whoa!\nHow'd you get into a space this small?"
+    format("Whoa! How'd you get into a space this small?")
 }
 
 text Route103_Text_RhettPostBattle {
-    "Do you like cramped quarters\nlike this?"
+    format("Do you like cramped quarters like this?")
+}
+
+text Route103_Text_MayRoute103Pokemon {
+    format("MAY: Let's see… The POKéMON found\non ROUTE 103 include…$")
+}
+
+text Route103_Text_ShouldHaveBroughtPotion {
+    format("My POKéMON is staggeringly tired…\nI should have brought a POTION…$")
+}
+
+text Route103_Text_ShortcutToOldale {
+    format("If you cross the sea from here,\nit'll be a shortcut to OLDALE TOWN.\pFufufu, that's useful, isn't it?$")
+}
+
+text Route103_Text_BrendanTimeToHeadBack {
+    format("BRENDAN: I think I get it.\nI think I know why my dad has his eye\lout for you now.\pLook, your POKéMON already likes you,\neven though you just got it.\p{PLAYER}, I get the feeling that you\ncould befriend any POKéMON with ease.\pWe should head back to the LAB.$")
+}
+
+text Route103_Text_MayTimeToHeadBack {
+    format("MAY: I think I know why my dad has\nan eye out for you now.\pI mean, you just got that POKéMON,\nbut it already likes you.\pYou might be able to befriend any\nkind of POKéMON easily.\pWell, it's time to head back to\nthe LAB.$")
+}
+
+text Route103_Text_BrendanRoute103Pokemon {
+    format("BRENDAN: Okay, so it's this one and\nthat one that live on ROUTE 103…$")
 }

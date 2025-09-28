@@ -17,3 +17,6 @@ script ShoalCave_LowTideLowerRoom_EventScript_ShoalSalt4 {
     end
 }
 
+text ShoalCave_LowTideLowerRoom_Text_EverythingStartsWithFocus {
+    format("Everything starts with focus!$")
+}

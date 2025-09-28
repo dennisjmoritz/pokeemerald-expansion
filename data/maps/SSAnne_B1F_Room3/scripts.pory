@@ -13,13 +13,13 @@ script SSAnne_B1F_Room3_EventScript_ItemEther {
 
 
 text SSAnne_B1F_Room3_Text_DylanDefeat {
-    "Placeholder text for SSAnne_B1F_Room3_Text_DylanDefeat"
+    format("Placeholder text for SSAnne_B1F_Room3_Text_DylanDefeat")
 }
 
 text SSAnne_B1F_Room3_Text_DylanIntro {
-    "Placeholder text for SSAnne_B1F_Room3_Text_DylanIntro"
+    format("Placeholder text for SSAnne_B1F_Room3_Text_DylanIntro")
 }
 
 text SSAnne_B1F_Room3_Text_DylanPostBattle {
-    "Placeholder text for SSAnne_B1F_Room3_Text_DylanPostBattle"
+    format("Placeholder text for SSAnne_B1F_Room3_Text_DylanPostBattle")
 }

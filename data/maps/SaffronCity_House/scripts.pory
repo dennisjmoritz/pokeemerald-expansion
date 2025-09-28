@@ -2,6 +2,7 @@ mapscripts SaffronCity_House_MapScripts {
 }
 
 script SaffronCity_House_EventScript_Lass {
+    msgbox(SaffronCity_House_Text_DontLookAtMyLetter, MSGBOX_NPC)
     end
 }
 
@@ -15,10 +16,19 @@ script SaffronCity_House_EventScript_Pidgey {
 }
 
 script SaffronCity_House_EventScript_Youngster {
+    msgbox(SaffronCity_House_Text_GettingCopycatPokeDoll, MSGBOX_NPC)
     end
 }
 
 
 text SaffronCity_House_Text_ExplainPPUp {
     format("I was given a PP UP as a gift.\p It's used to increase the PP of a POKéMON's move.\p I should use it on a powerful move with only a few PP.")
+}
+
+text SaffronCity_House_Text_DontLookAtMyLetter {
+    format("…Thank you for writing.\nI hope to see you soon!\p…Hey!\nDon't look at my letter!$")
+}
+
+text SaffronCity_House_Text_GettingCopycatPokeDoll {
+    format("The COPYCAT is cute!\nI'm getting her a POKé DOLL.$")
 }

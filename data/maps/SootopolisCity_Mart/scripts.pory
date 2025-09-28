@@ -13,3 +13,10 @@ script SootopolisCity_Mart_EventScript_Gentleman {
     end
 }
 
+text SootopolisCity_Mart_Text_PPUpIsGreat {
+    format("PP UP is great!\pIt raises the POWER POINTS, the PP,\nof a POKéMON move.$")
+}
+
+text SootopolisCity_Mart_Text_FullRestoreItemOfDreams {
+    format("Do you know FULL RESTORE?\pFull restoration of HP!\nEradication of all status problems!\pIt's truly an item of your dreams!$")
+}

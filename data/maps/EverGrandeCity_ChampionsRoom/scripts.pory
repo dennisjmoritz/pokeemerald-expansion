@@ -1,3 +1,30 @@
 mapscripts EverGrandeCity_ChampionsRoom_MapScripts {
 }
 
+text EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex {
+    format("PROF. BIRCH: See?\nWhat did I tell you, {RIVAL}?\pDidn't I tell you that you don't need\nto worry about {PLAYER}{KUN}?\p… … … … … … … …\n{PLAYER}{KUN}, you've finally done it.\pWhen I heard that you defeated your\nown father at the PETALBURG GYM,\lI thought perhaps you had a chance…\pBut to think you've actually become\nthe CHAMPION!\pAh, yes!\pWhat became of your POKéDEX?\nHere, let me see.$")
+}
+
+text EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech {
+    format("WALLACE: The POKéMON you sent into\nbattle…\pAt times they danced like a spring\nbreeze, and at times they struck\llike lightning.\pIt was with light, yet surefooted,\nelegance that you led your POKéMON.\pEven I felt bedazzled by your\nmasterful performance!\pYou now stand at the glorious peak\nof the POKéMON LEAGUE.\pI now proclaim you to be the new\nHOENN region…$")
+}
+
+text EverGrandeCity_ChampionsRoom_Text_MayAdvice {
+    format("MAY: {PLAYER}{KUN}!\pHere's some advice before you challenge\nthe CHAMPION…$")
+}
+
+text EverGrandeCity_ChampionsRoom_Text_IntroSpeech {
+    format("WALLACE: Welcome, {PLAYER}{KUN}.\pThat incident in SOOTOPOLIS CITY…\nThat was superb work, putting an end\lto that crisis all by yourself.\pOops!\pIt wouldn't be fair to say that you\nalone ended the crisis.\pYou overcame that difficult situation\nby working as one with your POKéMON.\pWe TRAINERS raise POKéMON by giving\nthem items and by teaching them new\ltechniques for battle.\pBut we ourselves also learn many\nthings from POKéMON.\pAnd this is where your achievements\nare put to the test against what\lothers like you have achieved.\pNow!\pWho can most elegantly dance with\ntheir POKéMON in HOENN?\pShow me right here and now!$")
+}
+
+text EverGrandeCity_ChampionsRoom_Text_MayCongratulations {
+    format("MAY: Groan…\p… … … … … … … …\n… … … … … … … …\pI'm just joking! That's okay!\nThat's the rule!\p{PLAYER}{KUN}!\nHonestly, congratulations!$")
+}
+
+text EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations {
+    format("BRENDAN: Whaaaat?! … … … … …\n… … … … … … … …\pIt can't be helped if that's the rule.\p{PLAYER}, way to go!\nCongratulations!$")
+}
+
+text EverGrandeCity_ChampionsRoom_Text_BrendanAdvice {
+    format("BRENDAN: {PLAYER}!\pHow would you like some advice before\nyou challenge the CHAMPION?…$")
+}

@@ -2,6 +2,7 @@ mapscripts CeladonCity_DepartmentStore_Roof_MapScripts {
 }
 
 script CeladonCity_DepartmentStore_Roof_EventScript_CooltrainerM {
+    msgbox(CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature, MSGBOX_NPC)
     end
 }
 
@@ -26,4 +27,8 @@ script CeladonCity_DepartmentStore_Roof_EventScript_VendingMachine {
 
 text CeladonCity_DepartmentStore_Roof_Text_FloorSign {
     format("ROOFTOP SQUARE: VENDING MACHINES")
+}
+
+text CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature {
+    format("My sister is a TRAINER, believe it\nor not.\pBut, she's so immature, she drives\nme nuts!$")
 }

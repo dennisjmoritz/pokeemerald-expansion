@@ -4,3 +4,11 @@ mapscripts AbandonedShip_CaptainsOffice_MapScripts {
 script AbandonedShip_CaptainsOffice_EventScript_CaptSternAide {
     end
 }
+
+text AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner {
+    format("Oh! That's a SCANNER!\pListen, can I get you to deliver that\nto CAPT. STERN?\pI want to investigate this ship a\nlittle more.$")
+}
+
+text AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus {
+    format("This ship is called S.S. CACTUS.\nIt seems to be from an earlier era.$")
+}

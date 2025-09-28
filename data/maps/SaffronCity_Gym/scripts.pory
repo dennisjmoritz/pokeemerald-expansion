@@ -59,85 +59,85 @@ text SaffronCity_Gym_Text_GymStatue {
 
 
 text SaffronCity_Gym_Text_AmandaDefeat {
-    "Placeholder text for SaffronCity_Gym_Text_AmandaDefeat"
+    format("Placeholder text for SaffronCity_Gym_Text_AmandaDefeat")
 }
 
 text SaffronCity_Gym_Text_AmandaIntro {
-    "Placeholder text for SaffronCity_Gym_Text_AmandaIntro"
+    format("Placeholder text for SaffronCity_Gym_Text_AmandaIntro")
 }
 
 text SaffronCity_Gym_Text_AmandaPostBattle {
-    "Placeholder text for SaffronCity_Gym_Text_AmandaPostBattle"
+    format("Placeholder text for SaffronCity_Gym_Text_AmandaPostBattle")
 }
 
 text SaffronCity_Gym_Text_CameronDefeat {
-    "Placeholder text for SaffronCity_Gym_Text_CameronDefeat"
+    format("Placeholder text for SaffronCity_Gym_Text_CameronDefeat")
 }
 
 text SaffronCity_Gym_Text_CameronIntro {
-    "Placeholder text for SaffronCity_Gym_Text_CameronIntro"
+    format("Placeholder text for SaffronCity_Gym_Text_CameronIntro")
 }
 
 text SaffronCity_Gym_Text_CameronPostBattle {
-    "Placeholder text for SaffronCity_Gym_Text_CameronPostBattle"
+    format("Placeholder text for SaffronCity_Gym_Text_CameronPostBattle")
 }
 
 text SaffronCity_Gym_Text_JohanDefeat {
-    "Placeholder text for SaffronCity_Gym_Text_JohanDefeat"
+    format("Placeholder text for SaffronCity_Gym_Text_JohanDefeat")
 }
 
 text SaffronCity_Gym_Text_JohanIntro {
-    "Placeholder text for SaffronCity_Gym_Text_JohanIntro"
+    format("Placeholder text for SaffronCity_Gym_Text_JohanIntro")
 }
 
 text SaffronCity_Gym_Text_JohanPostBattle {
-    "Placeholder text for SaffronCity_Gym_Text_JohanPostBattle"
+    format("Placeholder text for SaffronCity_Gym_Text_JohanPostBattle")
 }
 
 text SaffronCity_Gym_Text_PrestonDefeat {
-    "Placeholder text for SaffronCity_Gym_Text_PrestonDefeat"
+    format("Placeholder text for SaffronCity_Gym_Text_PrestonDefeat")
 }
 
 text SaffronCity_Gym_Text_PrestonIntro {
-    "Placeholder text for SaffronCity_Gym_Text_PrestonIntro"
+    format("Placeholder text for SaffronCity_Gym_Text_PrestonIntro")
 }
 
 text SaffronCity_Gym_Text_PrestonPostBattle {
-    "Placeholder text for SaffronCity_Gym_Text_PrestonPostBattle"
+    format("Placeholder text for SaffronCity_Gym_Text_PrestonPostBattle")
 }
 
 text SaffronCity_Gym_Text_StacyDefeat {
-    "Placeholder text for SaffronCity_Gym_Text_StacyDefeat"
+    format("Placeholder text for SaffronCity_Gym_Text_StacyDefeat")
 }
 
 text SaffronCity_Gym_Text_StacyIntro {
-    "Placeholder text for SaffronCity_Gym_Text_StacyIntro"
+    format("Placeholder text for SaffronCity_Gym_Text_StacyIntro")
 }
 
 text SaffronCity_Gym_Text_StacyPostBattle {
-    "Placeholder text for SaffronCity_Gym_Text_StacyPostBattle"
+    format("Placeholder text for SaffronCity_Gym_Text_StacyPostBattle")
 }
 
 text SaffronCity_Gym_Text_TashaDefeat {
-    "Placeholder text for SaffronCity_Gym_Text_TashaDefeat"
+    format("Placeholder text for SaffronCity_Gym_Text_TashaDefeat")
 }
 
 text SaffronCity_Gym_Text_TashaIntro {
-    "Placeholder text for SaffronCity_Gym_Text_TashaIntro"
+    format("Placeholder text for SaffronCity_Gym_Text_TashaIntro")
 }
 
 text SaffronCity_Gym_Text_TashaPostBattle {
-    "Placeholder text for SaffronCity_Gym_Text_TashaPostBattle"
+    format("Placeholder text for SaffronCity_Gym_Text_TashaPostBattle")
 }
 
 text SaffronCity_Gym_Text_TyronDefeat {
-    "Placeholder text for SaffronCity_Gym_Text_TyronDefeat"
+    format("Placeholder text for SaffronCity_Gym_Text_TyronDefeat")
 }
 
 text SaffronCity_Gym_Text_TyronIntro {
-    "Placeholder text for SaffronCity_Gym_Text_TyronIntro"
+    format("Placeholder text for SaffronCity_Gym_Text_TyronIntro")
 }
 
 text SaffronCity_Gym_Text_TyronPostBattle {
-    "Placeholder text for SaffronCity_Gym_Text_TyronPostBattle"
+    format("Placeholder text for SaffronCity_Gym_Text_TyronPostBattle")
 }

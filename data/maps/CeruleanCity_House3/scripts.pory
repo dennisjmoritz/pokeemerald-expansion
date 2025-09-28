@@ -6,6 +6,11 @@ script CeruleanCity_House3_EventScript_Dontae {
 }
 
 script CeruleanCity_House3_EventScript_OldWoman {
+    msgbox(CeruleanCity_House3_Text_PleaseTradeWithMyHusband, MSGBOX_NPC)
     end
 }
 
+
+text CeruleanCity_House3_Text_PleaseTradeWithMyHusband {
+    format("My husband likes trading POKéMON.\pYou're collecting POKéMON for your\nPOKéDEX, aren't you?\pWould you please trade with him?$")
+}

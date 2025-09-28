@@ -27,14 +27,17 @@ script LilycoveCity_LilycoveMuseum_2F_EventScript_CutePainting {
 }
 
 script LilycoveCity_LilycoveMuseum_2F_EventScript_ExpertM {
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsRatherAmusing, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_LilycoveMuseum_2F_EventScript_Girl {
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsSurprisedMe, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_LilycoveMuseum_2F_EventScript_RichBoy {
+    msgbox(LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon, MSGBOX_NPC)
     end
 }
 
@@ -71,4 +74,40 @@ text LilycoveCity_LilycoveMuseum_2F_Text_ItsYellowPictureFrame {
 
 text LilycoveCity_LilycoveMuseum_2F_Text_ItsBluePictureFrame {
     format("It's a picture frame with blue-colored adornments.")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_ItsYouPlayer {
+    format("Ah! It's you!\n{PLAYER}!$")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_HonorToHaveYouVisit {
+    format("Ah, so good to see you, {PLAYER}!\pIt's an honor to have you visit us\non your busy journeys.\pPlease, relax and do enjoy your\nvisit with us.$")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon {
+    format("Wow, is that right?\nThese paintings are of your POKéMON.\pIsn't that just the ultimate joy for\na TRAINER?$")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_ThanksAddedNewPainting {
+    format("Thanks to you, we've added a new\npainting to our collection!\pI've heard it depicts your POKéMON.\nTruly magnificent!\pThank you so very, very much!$")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsSurprisedMe {
+    format("I've been away awhile, so the new\npaintings up here surprised me.\pI wish someone would paint my POKéMON\nthis pretty.$")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_ItsPaintingOfPokemon {
+    format("It's a painting of POKéMON.$")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_TokenOfGratitude {
+    format("This is merely a token of my gratitude.$")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsRatherAmusing {
+    format("Well… So this is where they show\nthe topical POKéMON paintings.\pI see, these new paintings are indeed\nrather amusing.$")
+}
+
+text LilycoveCity_LilycoveMuseum_2F_Text_ThisIsExhibitHall {
+    format("This is our special exhibit hall.$")
 }

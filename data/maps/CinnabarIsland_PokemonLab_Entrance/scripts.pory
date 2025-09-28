@@ -17,6 +17,7 @@ script CinnabarIsland_PokemonLab_Entrance_EventScript_RAndDRoomSign {
 }
 
 script CinnabarIsland_PokemonLab_Entrance_EventScript_Scientist {
+    msgbox(CinnabarIsland_PokemonLab_Entrance_Text_StudyMonsExtensively, MSGBOX_NPC)
     end
 }
 
@@ -40,4 +41,8 @@ text CinnabarIsland_PokemonLab_Entrance_Text_RAndDRoomSign {
 
 text CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji {
     format("A photo of the LAB's founder… DR. FUJI?!")
+}
+
+text CinnabarIsland_PokemonLab_Entrance_Text_StudyMonsExtensively {
+    format("We study POKéMON extensively\nevery day.\pPeople often bring us rare POKéMON\nfor examination.$")
 }

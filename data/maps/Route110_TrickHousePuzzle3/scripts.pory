@@ -3,37 +3,37 @@ mapscripts Route110_TrickHousePuzzle3_MapScripts {
 
 
 text Route110_TrickHousePuzzle3_Text_AlanDefeat {
-    "Placeholder text for Route110_TrickHousePuzzle3_Text_AlanDefeat"
+    format("Placeholder text for Route110_TrickHousePuzzle3_Text_AlanDefeat")
 }
 
 text Route110_TrickHousePuzzle3_Text_AlanIntro {
-    "Placeholder text for Route110_TrickHousePuzzle3_Text_AlanIntro"
+    format("Placeholder text for Route110_TrickHousePuzzle3_Text_AlanIntro")
 }
 
 text Route110_TrickHousePuzzle3_Text_AlanPostBattle {
-    "Placeholder text for Route110_TrickHousePuzzle3_Text_AlanPostBattle"
+    format("Placeholder text for Route110_TrickHousePuzzle3_Text_AlanPostBattle")
 }
 
 text Route110_TrickHousePuzzle3_Text_JustinDefeat {
-    "Placeholder text for Route110_TrickHousePuzzle3_Text_JustinDefeat"
+    format("Placeholder text for Route110_TrickHousePuzzle3_Text_JustinDefeat")
 }
 
 text Route110_TrickHousePuzzle3_Text_JustinIntro {
-    "Placeholder text for Route110_TrickHousePuzzle3_Text_JustinIntro"
+    format("Placeholder text for Route110_TrickHousePuzzle3_Text_JustinIntro")
 }
 
 text Route110_TrickHousePuzzle3_Text_JustinPostBattle {
-    "Placeholder text for Route110_TrickHousePuzzle3_Text_JustinPostBattle"
+    format("Placeholder text for Route110_TrickHousePuzzle3_Text_JustinPostBattle")
 }
 
 text Route110_TrickHousePuzzle3_Text_MarthaDefeat {
-    "Placeholder text for Route110_TrickHousePuzzle3_Text_MarthaDefeat"
+    format("Placeholder text for Route110_TrickHousePuzzle3_Text_MarthaDefeat")
 }
 
 text Route110_TrickHousePuzzle3_Text_MarthaIntro {
-    "Placeholder text for Route110_TrickHousePuzzle3_Text_MarthaIntro"
+    format("Placeholder text for Route110_TrickHousePuzzle3_Text_MarthaIntro")
 }
 
 text Route110_TrickHousePuzzle3_Text_MarthaPostBattle {
-    "Placeholder text for Route110_TrickHousePuzzle3_Text_MarthaPostBattle"
+    format("Placeholder text for Route110_TrickHousePuzzle3_Text_MarthaPostBattle")
 }

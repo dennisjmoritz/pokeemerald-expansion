@@ -6,10 +6,20 @@ script ViridianCity_Mart_EventScript_Clerk {
 }
 
 script ViridianCity_Mart_EventScript_Woman {
+    msgbox(ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes, MSGBOX_NPC)
     end
 }
 
 script ViridianCity_Mart_EventScript_Youngster {
+    msgbox(ViridianCity_Mart_Text_GotToBuySomePotions, MSGBOX_NPC)
     end
 }
 
+
+text ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes {
+    format("This shop does good business in\nANTIDOTES, I've heard.$")
+}
+
+text ViridianCity_Mart_Text_GotToBuySomePotions {
+    format("I've got to buy some POTIONS.\pYou never know when your POKéMON\nwill need quick healing.$")
+}

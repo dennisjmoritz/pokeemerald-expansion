@@ -2,14 +2,28 @@ mapscripts SootopolisCity_House4_MapScripts {
 }
 
 script SootopolisCity_House4_EventScript_Azumarill {
+    msgbox(SootopolisCity_House4_Text_Azumarill, MSGBOX_DEFAULT)
     end
 }
 
 script SootopolisCity_House4_EventScript_Man {
+    msgbox(SootopolisCity_House4_Text_AncientTreasuresWaitingInSea, MSGBOX_NPC)
     end
 }
 
 script SootopolisCity_House4_EventScript_Woman {
+    msgbox(SootopolisCity_House4_Text_StrollUnderwaterWithPokemon, MSGBOX_NPC)
     end
 }
 
+text SootopolisCity_House4_Text_Azumarill {
+    format("AZUMARILL: Marurii.$")
+}
+
+text SootopolisCity_House4_Text_AncientTreasuresWaitingInSea {
+    format("Listen up, and I'll tell you something\ngood.\pThere's supposed to be an ancient\nruin in the sea around here.\pThere could be treasures just waiting\nto be discovered down there.$")
+}
+
+text SootopolisCity_House4_Text_StrollUnderwaterWithPokemon {
+    format("Ancient treasures…\pIt would be nice if they existed, but\neven if they didn't, it would be so\lbeautiful to take an underwater\lstroll with my POKéMON.$")
+}

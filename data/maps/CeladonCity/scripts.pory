@@ -2,6 +2,7 @@ mapscripts CeladonCity_MapScripts {
 }
 
 script CeladonCity_EventScript_Boy {
+    msgbox(CeladonCity_Text_ScaldedTongueOnTea, MSGBOX_NPC)
     end
 }
 
@@ -27,12 +28,13 @@ script CeladonCity_EventScript_GameCornerSign {
 script CeladonCity_EventScript_GymSign {
     // lockall
     // famechecker FAMECHECKER_ERIKA, 0
-    msgbox(CeladonCity_Text_GymSign, MSGBOX_DEFAULT)
+    msgbox(CeladonCity_Text_GymSign, MSGBOX_SIGN)
     // releaseall
     end
 }
 
 script CeladonCity_EventScript_LittleGirl {
+    msgbox(CeladonCity_Text_GotMyKoffingInCinnabar, MSGBOX_NPC)
     end
 }
 
@@ -46,6 +48,7 @@ script CeladonCity_EventScript_OldMan1 {
 }
 
 script CeladonCity_EventScript_OldMan2 {
+    msgbox(CeladonCity_Text_BlewItAllAtSlots, MSGBOX_NPC)
     end
 }
 
@@ -59,14 +62,17 @@ script CeladonCity_EventScript_PrizeExchangeSign {
 }
 
 script CeladonCity_EventScript_RocketGrunt1 {
+    msgbox(CeladonCity_Text_KeepOutOfTeamRocketsWay, MSGBOX_NPC)
     end
 }
 
 script CeladonCity_EventScript_RocketGrunt2 {
+    msgbox(CeladonCity_Text_GetLostOrIllPunchYou, MSGBOX_NPC)
     end
 }
 
 script CeladonCity_EventScript_SilphCoScientist {
+    msgbox(CeladonCity_Text_SomeoneStoleSilphScope, MSGBOX_NPC)
     end
 }
 
@@ -81,6 +87,7 @@ script CeladonCity_EventScript_TrainerTips2 {
 }
 
 script CeladonCity_EventScript_Woman {
+    msgbox(CeladonCity_Text_GameCornerIsBadForCitysImage, MSGBOX_NPC)
     end
 }
 
@@ -114,4 +121,32 @@ text CeladonCity_Text_ExplainXAccuracyDireHit {
 
 text CeladonCity_Text_MansionSign {
     format("CELADON MANSION")
+}
+
+text CeladonCity_Text_ScaldedTongueOnTea {
+    format("Aaaagh, ow…\nI scalded my tongue!\pThis nice old lady in the MANSION\ngave me some TEA.\pBut it was boiling hot!\nGotta cool it to drink it.$")
+}
+
+text CeladonCity_Text_GotMyKoffingInCinnabar {
+    format("I got my KOFFING in CINNABAR.\pIt's usually nice, but it breathes\npoison when it's angry.$")
+}
+
+text CeladonCity_Text_BlewItAllAtSlots {
+    format("Moan…\nI blew it all at the slots!\pI knew I should have cashed in my\nCOINS for prizes!$")
+}
+
+text CeladonCity_Text_KeepOutOfTeamRocketsWay {
+    format("Keep out of TEAM ROCKET's way!$")
+}
+
+text CeladonCity_Text_GetLostOrIllPunchYou {
+    format("What are you staring at?\nGet lost, or I'll punch you.$")
+}
+
+text CeladonCity_Text_SomeoneStoleSilphScope {
+    format("Oh, what am I to do…\pSomeone stole our SILPH SCOPE.\pThe thief came running this way,\nI'm sure of it.\pBut I lost sight of him!\nWhere'd he go?$")
+}
+
+text CeladonCity_Text_GameCornerIsBadForCitysImage {
+    format("CELADON takes pride in its efforts\nto keep the city beautiful.\pThat's why the new GAME CORNER is\nbad for our city's image.$")
 }

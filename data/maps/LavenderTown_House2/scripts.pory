@@ -2,6 +2,11 @@ mapscripts LavenderTown_House2_MapScripts {
 }
 
 script LavenderTown_House2_EventScript_NameRater {
+    msgbox(LavenderTown_House2_Text_WantMeToRateNicknames, MSGBOX_YESNO)
     end
 }
 
+
+text LavenderTown_House2_Text_WantMeToRateNicknames {
+    format("Hello, hello!\nI am the official NAME RATER!\pWant me to rate the nicknames of\nyour POKéMON?$")
+}

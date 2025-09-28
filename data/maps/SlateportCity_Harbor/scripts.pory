@@ -22,6 +22,7 @@ script SlateportCity_Harbor_EventScript_CaptStern {
 }
 
 script SlateportCity_Harbor_EventScript_FatMan {
+    msgbox(SlateportCity_Harbor_Text_SubTooSmallForMe, MSGBOX_NPC)
     end
 }
 
@@ -33,3 +34,70 @@ script SlateportCity_Harbor_EventScript_Sailor {
     end
 }
 
+text SlateportCity_Harbor_Text_YouMustHaveTicket {
+    format("{PLAYER} doesn't have the TICKET…\pI'm terribly sorry.\pYou must have a TICKET to board\nthe ferry.$")
+}
+
+text SlateportCity_Harbor_Text_FinishedMakingFerry {
+    format("CAPT. STERN: {PLAYER}{KUN}!\pWe finally finished making the ferry\nS.S. TIDAL!\pWe couldn't have done it without\nyour friend MR. BRINEY.\pPlease go for a short cruise on it!$")
+}
+
+text SlateportCity_Harbor_Text_SubTooSmallForMe {
+    format("I wanted to go with CAPT. STERN on\nthe ocean floor exploration.\pBut the sub's too small for me.\pIf I squeezed in, there wouldn't be\nany room for the CAPTAIN…$")
+}
+
+text SlateportCity_Harbor_Text_TeamAquaLeftNeedDive {
+    format("CAPT. STERN: Oh, {PLAYER}{KUN}…\pOkay… So TEAM AQUA left before you\ncould stop them…\pOh, no, don't blame yourself.\nYou're not responsible for this.\pTrying to catch a submarine…\nIt's impossible for most people.\pYou would need a POKéMON that knows\nhow to DIVE…\pPerhaps if you went out to\nMOSSDEEP CITY…\pA lot of divers live out there, so\nsomeone might teach you…$")
+}
+
+text SlateportCity_Harbor_Text_TradeForDeepSeaScale {
+    format("CAPT. STERN: So you'll trade it for\nmy DEEPSEASCALE?$")
+}
+
+text SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow {
+    format("CAPT. STERN: Are you certain?\nIt's useless to you, {PLAYER}{KUN}…\pWell, okay, then. If you want to trade\nyour SCANNER, let me know.$")
+}
+
+text SlateportCity_Harbor_Text_BattleFrontierItIs {
+    format("BATTLE FRONTIER it is, then!$")
+}
+
+text SlateportCity_Harbor_Text_MayISeeYourTicket {
+    format("Hello, are you here for the ferry?\nMay I see your TICKET?$")
+}
+
+text SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove {
+    format("ARCHIE: Oh?\nNot you again…\pYou are tenacious to track us here,\nthat much I will give you.\pBut now…\nNo one can stop us! No one!\pOr, will you follow us back to our\nHIDEOUT in LILYCOVE CITY?\pFwahahahaha…$")
+}
+
+text SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine {
+    format("CAPT. STERN: Why…\pWhy would TEAM AQUA steal my\nSUBMARINE EXPLORER 1?\pThey can't be after the slumbering\nPOKéMON at the bottom of the sea…\pBut even if I were to chase them,\nI don't stand a chance against them…$")
+}
+
+text SlateportCity_Harbor_Text_PleaseBoardFerry {
+    format("Please board the ferry and wait for\ndeparture.$")
+}
+
+text SlateportCity_Harbor_Text_LilycoveItIs {
+    format("LILYCOVE CITY it is, then!$")
+}
+
+text SlateportCity_Harbor_Text_NeedDiveToCatchSub {
+    format("CAPT. STERN: Trying to catch a\nsubmarine… It's impossible.\pYou would need a POKéMON that knows\nhow to DIVE…\pPerhaps if you went out to\nMOSSDEEP CITY…\pA lot of divers live out there, so\nsomeone might teach you…$")
+}
+
+text SlateportCity_Harbor_Text_SailAnotherTime {
+    format("Please sail with us another time!$")
+}
+
+text SlateportCity_Harbor_Text_ThisWillHelpResearch {
+    format("CAPT. STERN: Thanks, {PLAYER}{KUN}!\nThis will help our research a lot!$")
+}
+
+text SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday {
+    format("A journey to the bottom of the sea…\nI wonder what it'd be like?\pI'd love to go deep underwater like\nthat someday.$")
+}
+
+text SlateportCity_Harbor_Text_TradeForDeepSeaTooth {
+    format("CAPT. STERN: So you'll trade it for\nmy DEEPSEATOOTH?$")
+}

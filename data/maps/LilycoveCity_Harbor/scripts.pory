@@ -9,3 +9,34 @@ script LilycoveCity_Harbor_EventScript_Sailor {
     end
 }
 
+text LilycoveCity_Harbor_Text_SailorFerryAvailable {
+    format("The ferry S.S. TIDAL is finally in\noperation.\pThe folks at the SHIPYARD in SLATEPORT\nmust've worked extra hard.\pWell, it's my turn to get busy now!$")
+}
+
+text LilycoveCity_Harbor_Text_PleaseBoard {
+    format("Please board the ferry and wait for\ndeparture.$")
+}
+
+text LilycoveCity_Harbor_Text_MayISeeYourTicket {
+    format("Hello, are you here for the ferry?\nMay I see your TICKET?$")
+}
+
+text LilycoveCity_Harbor_Text_SlateportItIs {
+    format("SLATEPORT CITY it is, then!$")
+}
+
+text LilycoveCity_Harbor_Text_FerryUnavailable {
+    format("I beg your pardon?\nYou're looking for a ship?\pI'm sorry, the ferry service isn't\navailable at present…$")
+}
+
+text LilycoveCity_Harbor_Text_BattleFrontierItIs {
+    format("BATTLE FRONTIER it is, then!$")
+}
+
+text LilycoveCity_Harbor_Text_NoTicket {
+    format("{PLAYER} doesn't have the TICKET…\pI'm terribly sorry.\pYou must have a TICKET to board\nthe ferry.$")
+}
+
+text LilycoveCity_Harbor_Text_SailAnotherTime {
+    format("Please sail with us another time!$")
+}

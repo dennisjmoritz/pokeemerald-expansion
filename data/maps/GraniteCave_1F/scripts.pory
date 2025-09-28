@@ -5,3 +5,6 @@ script GraniteCave_1F_EventScript_Hiker {
     end
 }
 
+text GraniteCave_1F_Text_ExplainFlash {
+    format("Teach that hidden move FLASH to\na POKéMON and use it.\pIt lights up even the inky darkness\nof caves.\pBut, to use it, you need the GYM BADGE\nfrom DEWFORD's POKéMON GYM.$")
+}

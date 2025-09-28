@@ -10,6 +10,11 @@ script CinnabarIsland_PokemonLab_Lounge_EventScript_Norma {
 }
 
 script CinnabarIsland_PokemonLab_Lounge_EventScript_Scientist {
+    msgbox(CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon, MSGBOX_NPC)
     end
 }
 
+
+text CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon {
+    format("I found this most remarkable fossil\ninside MT. MOON.\pI think it's of a rare, prehistoric\nPOKéMON.$")
+}

@@ -6,10 +6,12 @@ script LavaridgeTown_EventScript_EggWoman {
 }
 
 script LavaridgeTown_EventScript_ExpertF {
+    msgbox(LavaridgeTown_Text_OhYouLikeHotSprings, MSGBOX_NPC)
     end
 }
 
 script LavaridgeTown_EventScript_ExpertM {
+    msgbox(LavaridgeTown_Text_HotSpringsNeverRunDry, MSGBOX_NPC)
     end
 }
 
@@ -24,10 +26,12 @@ script LavaridgeTown_EventScript_HerbShopSign {
 }
 
 script LavaridgeTown_EventScript_HotSpringsOldWoman1 {
+    msgbox(LavaridgeTown_Text_IfPokemonInHotSprings, MSGBOX_NPC)
     end
 }
 
 script LavaridgeTown_EventScript_HotSpringsOldWoman2 {
+    msgbox(LavaridgeTown_Text_HotSpringsClaims, MSGBOX_NPC)
     end
 }
 
@@ -36,6 +40,7 @@ script LavaridgeTown_EventScript_HotSpringsTrigger {
 }
 
 script LavaridgeTown_EventScript_OldMan {
+    msgbox(LavaridgeTown_Text_PokemonNippedBackside, MSGBOX_SIGN)
     end
 }
 
@@ -45,6 +50,7 @@ script LavaridgeTown_EventScript_TownSign {
 }
 
 script LavaridgeTown_EventScript_Twin {
+    msgbox(LavaridgeTown_Text_BatheInHotSpringsEveryDay, MSGBOX_NPC)
     end
 }
 
@@ -59,4 +65,48 @@ text LavaridgeTown_Text_HerbShopSign {
 
 text LavaridgeTown_Text_TownSign {
     format("LAVARIDGE TOWN\p “POKéMON CENTER HOT SPRINGS An excellent place for relaxing!”")
+}
+
+text LavaridgeTown_Text_BatheInHotSpringsEveryDay {
+    format("I bathe in the hot springs every day.\pI want to become a beautiful and strong\nGYM LEADER like FLANNERY.$")
+}
+
+text LavaridgeTown_Text_OhYouLikeHotSprings {
+    format("Oh, you like hot springs, do you?\pThat's surprising for one as young\nas you.$")
+}
+
+text LavaridgeTown_Text_AsYouWishThen {
+    format("As you wish, then…\pIf you have a change of heart about\nhatching this EGG, I will be here.$")
+}
+
+text LavaridgeTown_Text_NoRoomForThisEgg {
+    format("Oh? You've too many POKéMON.\nThere's no room for this EGG…$")
+}
+
+text LavaridgeTown_Text_BrendanNiceBadgesTakeThis {
+    format("BRENDAN: {PLAYER}, hey, it's been a while.\nHow's it going?\pHmm…\nThat's a decent collection of BADGES.\pAll right, then.\nYou may as well have this.$")
+}
+
+text LavaridgeTown_Text_PokemonNippedBackside {
+    format("Being buried in this hot sand is…\nSigh…\pSo warm and heavenly…\pEh? Gyaah! Ouch!\pA POKéMON nipped my backside!$")
+}
+
+text LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare {
+    format("Every so often, an EGG will be found at\nthe POKéMON DAY CARE.\pOr at least that's how the rumor goes.$")
+}
+
+text LavaridgeTown_Text_HotSpringsClaims {
+    format("They're claiming that these hot springs\nare good for calming nervous tension,\lrelieving aching muscles, solving\lromantic problems, and attracting\lmoney…$")
+}
+
+text LavaridgeTown_Text_IfPokemonInHotSprings {
+    format("If people put POKéMON in hot springs,\nit might be seriously strange.\pWhy, it might be an electric bath, or\na bubble bath, or even a lava bath…$")
+}
+
+text LavaridgeTown_Text_HotSpringsNeverRunDry {
+    format("We draw as much hot water as we need,\nand yet the hot springs never run dry.\pIsn't it magical?\pThese hot springs appear near active\nvolcanoes. Veins of water under the\lground are heated by magma to well up\las hot springs.$")
+}
+
+text LavaridgeTown_Text_MayNiceBadgesTakeThis {
+    format("MAY: {PLAYER}{KUN}! Long time no see!\pOh? While I visited the hot springs,\nyou got the LAVARIDGE GYM BADGE.\pYou must have collected\ngood POKéMON…\lNo, I believe you raised some.\pI guess it would be okay for you to\nhave this.$")
 }

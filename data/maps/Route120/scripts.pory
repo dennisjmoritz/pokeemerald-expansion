@@ -96,157 +96,177 @@ text Route120_Text_RouteSignFortree {
 
 
 text Route120_Text_AngelicaDefeat {
-    "You've completely ruined my beauty…"
+    format("You've completely ruined my beauty…")
 }
 
 text Route120_Text_AngelicaIntro {
-    "Me, POKéMON, and my parasol…\pIf any one of them is missing,\nthe picture of beauty will be ruined."
+    format("Me, POKéMON, and my parasol…\pIf any one of them is missing, the picture of beauty will be ruined.")
 }
 
 text Route120_Text_AngelicaPostBattle {
-    "A parasol wouldn't suit you at all.\pWhy, something like this would only\nget in your way."
+    format("A parasol wouldn't suit you at all.\pWhy, something like this would only get in your way.")
 }
 
 text Route120_Text_CallieDefeat {
-    "Ouch!\nI was the one to get hurt."
+    format("Ouch! I was the one to get hurt.")
 }
 
 text Route120_Text_CallieIntro {
-    "If you don't pay attention,\nyou could get hurt!"
+    format("If you don't pay attention, you could get hurt!")
 }
 
 text Route120_Text_CalliePostBattle {
-    "I wonder… Should I evolve my POKéMON?\nThey're cute the way they are, though."
+    format("I wonder… Should I evolve my POKéMON? They're cute the way they are, though.")
 }
 
 text Route120_Text_ChipDefeat {
-    "What a disgraceful setback…"
+    format("What a disgraceful setback…")
 }
 
 text Route120_Text_ChipIntro {
-    "Who might you be?\pAre you perhaps searching for ancient\nruins that are rumored to possibly\nexist according to legend?"
+    format("Who might you be?\pAre you perhaps searching for ancient ruins that are rumored to possibly exist according to legend?")
 }
 
 text Route120_Text_ChipPostBattle {
-    "That giant rock… I would like to\nbelieve it may indeed contain ancient\nruins. But I see no entrance."
+    format("That giant rock… I would like to believe it may indeed contain ancient ruins. But I see no entrance.")
 }
 
 text Route120_Text_ClarissaDefeat {
-    "A parasol can't ward off POKéMON\nattacks…"
+    format("A parasol can't ward off POKéMON attacks…")
 }
 
 text Route120_Text_ClarissaIntro {
-    "Why am I carrying this parasol?\pI'll tell you if you can win against me."
+    format("Why am I carrying this parasol?\pI'll tell you if you can win against me.")
 }
 
 text Route120_Text_ClarissaPostBattle {
-    "I don't think strong sunlight is good\nfor my POKéMON.\nSo I shield them with my parasol."
+    format("I don't think strong sunlight is good for my POKéMON. So I shield them with my parasol.")
 }
 
 text Route120_Text_ColinDefeat {
-    "You soared above me!"
+    format("You soared above me!")
 }
 
 text Route120_Text_ColinIntro {
-    "Do you have any moves that can strike\na flying POKéMON?"
+    format("Do you have any moves that can strike a flying POKéMON?")
 }
 
 text Route120_Text_ColinPostBattle {
-    "The move FLY is convenient,\ndon't you think?\pWhile the POKéMON is flying,\nalmost no moves can strike it."
+    format("The move FLY is convenient, don't you think?\pWhile the POKéMON is flying, almost no moves can strike it.")
 }
 
 text Route120_Text_JeffreyDefeat {
-    "Lost it…"
+    format("Lost it…")
 }
 
 text Route120_Text_JeffreyIntro {
-    "… … … … … …\n… … … … … …\nWant to battle?"
+    format("… … … … … … … … … … … … Want to battle?")
 }
 
 text Route120_Text_JeffreyPostBattle {
-    "… … … … … …\n… … … … … …\nI'll try harder…"
+    format("… … … … … … … … … … … … I'll try harder…")
 }
 
 text Route120_Text_JennaDefeat {
-    "I'm totally fit, but…"
+    format("I'm totally fit, but…")
 }
 
 text Route120_Text_JennaIntro {
-    "How's your physical fitness?\nIf you're not fit, you could have a\nrough time in critical situations."
+    format("How's your physical fitness? If you're not fit, you could have a rough time in critical situations.")
 }
 
 text Route120_Text_JennaPostBattle {
-    "Fitness training is in my routine.\nI always run with my POKéMON."
+    format("Fitness training is in my routine. I always run with my POKéMON.")
 }
 
 text Route120_Text_JenniferDefeat {
-    "You're obviously thinking."
+    format("You're obviously thinking.")
 }
 
 text Route120_Text_JenniferIntro {
-    "POKéMON have many special abilities.\nIf you want to become a first-class\nTRAINER, learn about them."
+    format("POKéMON have many special abilities. If you want to become a first-class TRAINER, learn about them.")
 }
 
 text Route120_Text_JenniferPostBattle {
-    "The special abilities of POKéMON\nwill make battle styles change."
+    format("The special abilities of POKéMON will make battle styles change.")
 }
 
 text Route120_Text_KeigoDefeat {
-    "The creation of new ninja techniques\nis but a distant dream…"
+    format("The creation of new ninja techniques is but a distant dream…")
 }
 
 text Route120_Text_KeigoIntro {
-    "I will adopt the movements of POKéMON\nand create new ninja techniques."
+    format("I will adopt the movements of POKéMON and create new ninja techniques.")
 }
 
 text Route120_Text_KeigoPostBattle {
-    "Perhaps I ought to apprentice under\na ninja sensei."
+    format("Perhaps I ought to apprentice under a ninja sensei.")
 }
 
 text Route120_Text_LeonelDefeat {
-    "I've seen your policy in action!"
+    format("I've seen your policy in action!")
 }
 
 text Route120_Text_LeonelIntro {
-    "Your party POKéMON…\nDo you have different types?"
+    format("Your party POKéMON… Do you have different types?")
 }
 
 text Route120_Text_LeonelPostBattle {
-    "I think it's awesome you're so strong\nbattling with your favorite POKéMON."
+    format("I think it's awesome you're so strong battling with your favorite POKéMON.")
 }
 
 text Route120_Text_LorenzoDefeat {
-    "With POKéMON that strong, you're in\nno danger of needing rescue!"
+    format("With POKéMON that strong, you're in no danger of needing rescue!")
 }
 
 text Route120_Text_LorenzoIntro {
-    "I'll check your POKéMON and see if\nthey're fit for the outdoors."
+    format("I'll check your POKéMON and see if they're fit for the outdoors.")
 }
 
 text Route120_Text_LorenzoPostBattle {
-    "To travel wherever your heart desires\nwith POKéMON…\nThat's the joy of being a TRAINER."
+    format("To travel wherever your heart desires with POKéMON… That's the joy of being a TRAINER.")
 }
 
 text Route120_Text_RileyDefeat {
-    "I lost!\nI should camouflage my shame!"
+    format("I lost! I should camouflage my shame!")
 }
 
 text Route120_Text_RileyIntro {
-    "We ninja conceal ourselves under our\ncamouflage cloaks.\nI bet you didn't know where I was!"
+    format("We ninja conceal ourselves under our camouflage cloaks. I bet you didn't know where I was!")
 }
 
 text Route120_Text_RileyPostBattle {
-    "Our camouflage cloaks are all\nhandmade."
+    format("Our camouflage cloaks are all handmade.")
 }
 
 text Route120_Text_RobertDefeat {
-    "Your POKéMON were stronger…"
+    format("Your POKéMON were stronger…")
 }
 
 text Route120_Text_RobertIntro {
-    "My POKéMON is strong!\nHow about yours?"
+    format("My POKéMON is strong! How about yours?")
 }
 
 text Route120_Text_RobertPostBattle {
-    "A POKéMON that grows steadily is one\nyou can count on."
+    format("A POKéMON that grows steadily is one you can count on.")
+}
+
+text Route120_Text_StevenReadyForBattle {
+    format("STEVEN: {PLAYER}{KUN}, are your POKéMON\nready for battle?$")
+}
+
+text Route120_Text_StevenIllWaitHere {
+    format("STEVEN: No?\pI'll wait here, so you can get ready.$")
+}
+
+text Kecleon_Text_SomethingUnseeable {
+    format("Something unseeable is in the way.$")
+}
+
+text Route120_Text_StevenGiveDevonScope {
+    format("STEVEN: I see…\nYour battle style is intriguing.\pYour POKéMON have obviously grown\nsince I first met you in DEWFORD.\pI'd like you to have this\nDEVON SCOPE.\pWho knows, there may be other\nconcealed POKéMON.$")
+}
+
+text Route120_Text_StevenShowMeYourPower {
+    format("STEVEN: {PLAYER}{KUN}, show me your true\npower as a TRAINER!$")
 }

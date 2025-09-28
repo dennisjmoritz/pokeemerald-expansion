@@ -2,10 +2,20 @@ mapscripts SSAnne_2F_Room5_MapScripts {
 }
 
 script SSAnne_2F_Room5_EventScript_Gentleman {
+    msgbox(SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone, MSGBOX_NPC)
     end
 }
 
 script SSAnne_2F_Room5_EventScript_LittleBoy {
+    msgbox(SSAnne_2F_Room5_Text_WeThinkSafariZoneIsAwesome, MSGBOX_NPC)
     end
 }
 
+
+text SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone {
+    format("Have you gone to the SAFARI ZONE\nin FUCHSIA CITY?\pThere are many kinds of rare\nPOKéMON.$")
+}
+
+text SSAnne_2F_Room5_Text_WeThinkSafariZoneIsAwesome {
+    format("Me and my daddy think the SAFARI\nZONE is awesome!\lI wish we could go there again.$")
+}

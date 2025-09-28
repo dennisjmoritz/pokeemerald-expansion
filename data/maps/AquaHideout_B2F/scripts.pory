@@ -27,49 +27,53 @@ script AquaHideout_B2F_EventScript_MattNoticePlayer {
 
 
 text AquaHideout_B2F_Text_Grunt4Defeat {
-    "Placeholder text for AquaHideout_B2F_Text_Grunt4Defeat"
+    format("Placeholder text for AquaHideout_B2F_Text_Grunt4Defeat")
 }
 
 text AquaHideout_B2F_Text_Grunt4Intro {
-    "Placeholder text for AquaHideout_B2F_Text_Grunt4Intro"
+    format("Placeholder text for AquaHideout_B2F_Text_Grunt4Intro")
 }
 
 text AquaHideout_B2F_Text_Grunt4PostBattle {
-    "Placeholder text for AquaHideout_B2F_Text_Grunt4PostBattle"
+    format("Placeholder text for AquaHideout_B2F_Text_Grunt4PostBattle")
 }
 
 text AquaHideout_B2F_Text_Grunt6Defeat {
-    "Placeholder text for AquaHideout_B2F_Text_Grunt6Defeat"
+    format("Placeholder text for AquaHideout_B2F_Text_Grunt6Defeat")
 }
 
 text AquaHideout_B2F_Text_Grunt6Intro {
-    "Placeholder text for AquaHideout_B2F_Text_Grunt6Intro"
+    format("Placeholder text for AquaHideout_B2F_Text_Grunt6Intro")
 }
 
 text AquaHideout_B2F_Text_Grunt6PostBattle {
-    "Placeholder text for AquaHideout_B2F_Text_Grunt6PostBattle"
+    format("Placeholder text for AquaHideout_B2F_Text_Grunt6PostBattle")
 }
 
 text AquaHideout_B2F_Text_Grunt8Defeat {
-    "Placeholder text for AquaHideout_B2F_Text_Grunt8Defeat"
+    format("Placeholder text for AquaHideout_B2F_Text_Grunt8Defeat")
 }
 
 text AquaHideout_B2F_Text_Grunt8Intro {
-    "Placeholder text for AquaHideout_B2F_Text_Grunt8Intro"
+    format("Placeholder text for AquaHideout_B2F_Text_Grunt8Intro")
 }
 
 text AquaHideout_B2F_Text_Grunt8PostBattle {
-    "Placeholder text for AquaHideout_B2F_Text_Grunt8PostBattle"
+    format("Placeholder text for AquaHideout_B2F_Text_Grunt8PostBattle")
 }
 
 text AquaHideout_B2F_Text_MattDefeat {
-    "Placeholder text for AquaHideout_B2F_Text_MattDefeat"
+    format("Placeholder text for AquaHideout_B2F_Text_MattDefeat")
 }
 
 text AquaHideout_B2F_Text_MattIntro {
-    "Placeholder text for AquaHideout_B2F_Text_MattIntro"
+    format("Placeholder text for AquaHideout_B2F_Text_MattIntro")
 }
 
 text AquaHideout_B2F_Text_MattPostBattle {
-    "Placeholder text for AquaHideout_B2F_Text_MattPostBattle"
+    format("Placeholder text for AquaHideout_B2F_Text_MattPostBattle")
+}
+
+text AquaHideout_B2F_Text_OurBossGotThroughHisPreparations {
+    format("Hehehe!\pWhile I was toying with you, our BOSS\ngot through his preparations!$")
 }

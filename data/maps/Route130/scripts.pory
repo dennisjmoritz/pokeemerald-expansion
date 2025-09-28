@@ -19,37 +19,37 @@ script Route130_EventScript_Santiago {
 
 
 text Route130_Text_KatieDefeat {
-    "Like the vast blue sea,\nthe world of POKéMON spans\ndepths beyond belief."
+    format("Like the vast blue sea, the world of POKéMON spans depths beyond belief.")
 }
 
 text Route130_Text_KatieIntro {
-    "In the deep blue sea,\nmy shattered blue heart finds\ncomfort among waves."
+    format("In the deep blue sea, my shattered blue heart finds comfort among waves.")
 }
 
 text Route130_Text_KatiePostBattle {
-    "The world's children dream\nof one day becoming\nthe POKéMON CHAMPION."
+    format("The world's children dream of one day becoming the POKéMON CHAMPION.")
 }
 
 text Route130_Text_RodneyDefeat {
-    "This kid's awfully tough…"
+    format("This kid's awfully tough…")
 }
 
 text Route130_Text_RodneyIntro {
-    "What a surprise! I didn't expect to\nsee a TRAINER out in the sea.\pI think we should battle!"
+    format("What a surprise! I didn't expect to see a TRAINER out in the sea.\pI think we should battle!")
 }
 
 text Route130_Text_RodneyPostBattle {
-    "Your eyes have that look of someone\nwho's experienced harsh challenges\nand won. It suits you well!"
+    format("Your eyes have that look of someone who's experienced harsh challenges and won. It suits you well!")
 }
 
 text Route130_Text_SantiagoDefeat {
-    "I needed to be a little less peaceful!"
+    format("I needed to be a little less peaceful!")
 }
 
 text Route130_Text_SantiagoIntro {
-    "Floating on the open sea like this…\nIt's peaceful."
+    format("Floating on the open sea like this… It's peaceful.")
 }
 
 text Route130_Text_SantiagoPostBattle {
-    "Swimming and battling like this…\nI'm one happy guy…"
+    format("Swimming and battling like this… I'm one happy guy…")
 }

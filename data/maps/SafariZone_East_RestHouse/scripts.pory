@@ -2,14 +2,29 @@ mapscripts SafariZone_East_RestHouse_MapScripts {
 }
 
 script SafariZone_East_RestHouse_EventScript_BaldingMan {
+    msgbox(SafariZone_East_Text_TiredFromAllTheFun, MSGBOX_NPC)
     end
 }
 
 script SafariZone_East_RestHouse_EventScript_Rocker {
+    msgbox(SafariZone_East_Text_CaughtChanseyAllWorthwhile, MSGBOX_NPC)
     end
 }
 
 script SafariZone_East_RestHouse_EventScript_Scientist {
+    msgbox(SafariZone_East_Text_HowManyDidYouCatch, MSGBOX_NPC)
     end
 }
 
+
+text SafariZone_East_Text_TiredFromAllTheFun {
+    format("Whew!\nI'm tired from all the fun!$")
+}
+
+text SafariZone_East_Text_CaughtChanseyAllWorthwhile {
+    format("I caught a CHANSEY!\pThat makes this all worthwhile.$")
+}
+
+text SafariZone_East_Text_HowManyDidYouCatch {
+    format("How many did you catch?\nI'm bushed from the effort!$")
+}

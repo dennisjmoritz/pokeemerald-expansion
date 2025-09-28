@@ -11,10 +11,12 @@ script VerdanturfTown_EventScript_Boy {
 }
 
 script VerdanturfTown_EventScript_Camper {
+    msgbox(VerdanturfTown_Text_MakeBattleTentDebut, MSGBOX_NPC)
     end
 }
 
 script VerdanturfTown_EventScript_Man {
+    msgbox(VerdanturfTown_Text_AirCleanHere, MSGBOX_NPC)
     end
 }
 
@@ -52,4 +54,20 @@ text VerdanturfTown_Text_BattleTentSign {
 
 text VerdanturfTown_Text_RusturfTunnelSign {
     format("RUSTURF TUNNEL “Linking RUSTBORO and VERDANTURF\p “The tunnel project has been canceled.”")
+}
+
+text VerdanturfTown_Text_AirCleanHere {
+    format("The way the winds blow, volcanic ash\nis never blown in this direction.\pThe air is clean and delicious here.\nLiving here should do wonders for even\lfrail and sickly people.$")
+}
+
+text VerdanturfTown_Text_ManDugTunnelForLove {
+    format("There was a man who dug a tunnel for\na lady he loved.\pI don't really get it, but hey!$")
+}
+
+text VerdanturfTown_Text_EasyToGetToRustboroNow {
+    format("That cave next to the POKéMON MART\nis now a tunnel to the other side.\pIt's great--it's easy to go shop for\nnew DEVON products in RUSTBORO now.$")
+}
+
+text VerdanturfTown_Text_MakeBattleTentDebut {
+    format("My POKéMON and I, we've been riding\na hot winning streak.\pSo I decided to make my BATTLE TENT\ndebut in this town.$")
 }

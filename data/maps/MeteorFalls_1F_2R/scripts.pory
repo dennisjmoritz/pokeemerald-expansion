@@ -17,13 +17,33 @@ script MeteorFalls_1F_2R_EventScript_Nicolas {
 
 
 text MeteorFalls_1F_2R_Text_NicolasDefeat {
-    "Placeholder text for MeteorFalls_1F_2R_Text_NicolasDefeat"
+    format("Placeholder text for MeteorFalls_1F_2R_Text_NicolasDefeat")
 }
 
 text MeteorFalls_1F_2R_Text_NicolasIntro {
-    "Placeholder text for MeteorFalls_1F_2R_Text_NicolasIntro"
+    format("Placeholder text for MeteorFalls_1F_2R_Text_NicolasIntro")
 }
 
 text MeteorFalls_1F_2R_Text_NicolasPostBattle {
-    "Placeholder text for MeteorFalls_1F_2R_Text_NicolasPostBattle"
+    format("Placeholder text for MeteorFalls_1F_2R_Text_NicolasPostBattle")
+}
+
+text MeteorFalls_1F_2R_Text_JohnPostRematch {
+    format("JOHN: Married for fifty years…\pOn reflection, the dear wife and I,\nwe battled day in and day out…$")
+}
+
+text MeteorFalls_1F_2R_Text_NicolasRegister {
+    format("I want to know more about your power.\nLet me register you in my POKéNAV.$")
+}
+
+text MeteorFalls_1F_2R_Text_NicolasPostRematch {
+    format("You've obviously kept up your\nPOKéMON training.\pSo long as you remain strong, I, too,\ncan become stronger!$")
+}
+
+text MeteorFalls_1F_2R_Text_JohnRegister {
+    format("JOHN: Young TRAINER, if the chance\narises, will you battle with us again?$")
+}
+
+text MeteorFalls_1F_2R_Text_JayPostRematch {
+    format("JAY: Fifty years of marriage…\nMany things have happened.\pI hope that we will continue to make\nhappy memories together.$")
 }

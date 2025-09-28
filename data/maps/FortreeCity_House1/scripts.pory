@@ -2,6 +2,7 @@ mapscripts FortreeCity_House1_MapScripts {
 }
 
 script FortreeCity_House1_EventScript_ExpertF {
+    msgbox(FortreeCity_House1_Text_TradingMemoriesWithOthers, MSGBOX_NPC)
     end
 }
 
@@ -10,6 +11,26 @@ script FortreeCity_House1_EventScript_Trader {
 }
 
 script FortreeCity_House1_EventScript_Zigzagoon {
+    msgbox(FortreeCity_House1_Text_Zigzagoon, MSGBOX_DEFAULT)
     end
 }
 
+text FortreeCity_House1_Text_GoingToMakeVolbeatStrong {
+    format("I'm going to make VOLBEAT super\nstrong from this moment on!\pI hope you do the same with PLUSLE!$")
+}
+
+text FortreeCity_House1_Text_TradingMemoriesWithOthers {
+    format("Trading POKéMON with others…\pIt's as if you're trading your own\nmemories with other people.$")
+}
+
+text FortreeCity_House1_Text_Zigzagoon {
+    format("ZIGZAGOON: Gumomoh?$")
+}
+
+text FortreeCity_House1_Text_YouWontTradeMe {
+    format("No? You won't trade me?\nEven after I bared my heart to you?$")
+}
+
+text FortreeCity_House1_Text_ThisIsntAMon {
+    format("Uh, no, I don't think so.\nThat isn't a {STR_VAR_1}.$")
+}

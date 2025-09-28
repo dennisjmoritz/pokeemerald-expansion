@@ -6,6 +6,7 @@ script LavaridgeTown_HerbShop_EventScript_Clerk {
 }
 
 script LavaridgeTown_HerbShop_EventScript_ExpertM {
+    msgbox(LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike, MSGBOX_NPC)
     end
 }
 
@@ -13,3 +14,10 @@ script LavaridgeTown_HerbShop_EventScript_OldMan {
     end
 }
 
+text LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike {
+    format("Herbal medicine works impressively well.\nBut your POKéMON will dislike you for it.\lIt must be horribly bitter!$")
+}
+
+text LavaridgeTown_HerbShop_Text_ExplainCharcoal {
+    format("That CHARCOAL I gave you, it's used\nfor making herbal medicine.\pIt also does wonders when held by\na POKéMON.\pIt intensifies the power of FIRE-type\nmoves.$")
+}

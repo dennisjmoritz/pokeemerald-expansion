@@ -2,6 +2,7 @@ mapscripts Route25_MapScripts {
 }
 
 script Route25_EventScript_Man {
+    msgbox(Route25_Text_AreYouHereAlone, MSGBOX_NPC)
     end
 }
 
@@ -13,4 +14,8 @@ script Route25_EventScript_SeaCottageSign {
 
 text Route25_Text_SeaCottageSign {
     format("SEA COTTAGE BILL lives here!")
+}
+
+text Route25_Text_AreYouHereAlone {
+    format("Hello, are you here alone?\pIf you're out at CERULEAN's cape…\nWell, it should be as a couple.$")
 }

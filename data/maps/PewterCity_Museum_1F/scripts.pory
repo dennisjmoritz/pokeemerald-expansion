@@ -38,6 +38,7 @@ script PewterCity_Museum_1F_EventScript_KabutopsFossil {
 }
 
 script PewterCity_Museum_1F_EventScript_OldAmber {
+    msgbox(PewterCity_Museum_1F_Text_BeautifulPieceOfAmber, MSGBOX_NPC)
     end
 }
 
@@ -46,6 +47,7 @@ script PewterCity_Museum_1F_EventScript_OldAmberScientist {
 }
 
 script PewterCity_Museum_1F_EventScript_OldMan {
+    msgbox(PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife, MSGBOX_NPC)
     end
 }
 
@@ -54,6 +56,7 @@ script PewterCity_Museum_1F_EventScript_Scientist1 {
 }
 
 script PewterCity_Museum_1F_EventScript_Scientist2 {
+    msgbox(PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit, MSGBOX_NPC)
     end
 }
 
@@ -64,4 +67,16 @@ text PewterCity_Museum_1F_Text_AerodactylFossil {
 
 text PewterCity_Museum_1F_Text_KabutopsFossil {
     format("KABUTOPS Fossil A primitive and rare POKéMON.")
+}
+
+text PewterCity_Museum_1F_Text_BeautifulPieceOfAmber {
+    format("There is a beautiful piece of\nAMBER in a clear gold color.$")
+}
+
+text PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife {
+    format("I should be grateful for my long\nlife.\pNever did I think I would get to\nsee the bones of a dragon!$")
+}
+
+text PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit {
+    format("We have two fossils of rare,\nprehistoric POKéMON on exhibit.$")
 }

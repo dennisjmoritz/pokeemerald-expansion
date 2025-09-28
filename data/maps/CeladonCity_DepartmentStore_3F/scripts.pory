@@ -7,18 +7,22 @@ script CeladonCity_DepartmentStore_3F_EventScript_FloorSign {
 }
 
 script CeladonCity_DepartmentStore_3F_EventScript_GBAKid1 {
+    msgbox(CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer, MSGBOX_NPC)
     end
 }
 
 script CeladonCity_DepartmentStore_3F_EventScript_GBAKid2 {
+    msgbox(CeladonCity_DepartmentStore_3F_Text_BuddyTradingKangaskhanForHaunter, MSGBOX_NPC)
     end
 }
 
 script CeladonCity_DepartmentStore_3F_EventScript_GBAKid3 {
+    msgbox(CeladonCity_DepartmentStore_3F_Text_HaunterEvolvedOnTrade, MSGBOX_NPC)
     end
 }
 
 script CeladonCity_DepartmentStore_3F_EventScript_LittleGirl {
+    msgbox(CeladonCity_DepartmentStore_3F_Text_CanIdentifyTradeMonsByID, MSGBOX_NPC)
     end
 }
 
@@ -78,4 +82,20 @@ text CeladonCity_DepartmentStore_3F_Text_AnRPG {
 
 text CeladonCity_DepartmentStore_3F_Text_RedGreenBothArePokemon {
     format("Red and Green! Both are POKéMON!")
+}
+
+text CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer {
+    format("Captured POKéMON are registered\nwith an ID No. and the OT.\pOT stands for “Original TRAINER” -\nthe TRAINER that caught it first.$")
+}
+
+text CeladonCity_DepartmentStore_3F_Text_BuddyTradingKangaskhanForHaunter {
+    format("All right!\pMy buddy's going to trade me his\nKANGASKHAN for my HAUNTER!$")
+}
+
+text CeladonCity_DepartmentStore_3F_Text_HaunterEvolvedOnTrade {
+    format("Come on, HAUNTER!\pI love HAUNTER!\nI collect them!\pHuh?\pHAUNTER turned into a different\nPOKéMON while being traded!$")
+}
+
+text CeladonCity_DepartmentStore_3F_Text_CanIdentifyTradeMonsByID {
+    format("You can identify POKéMON you get\nin trades by their ID Numbers.$")
 }

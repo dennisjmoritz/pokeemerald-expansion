@@ -21,6 +21,7 @@ script MossdeepCity_SpaceCenter_1F_EventScript_Grunt4 {
 }
 
 script MossdeepCity_SpaceCenter_1F_EventScript_MagmaNote {
+    msgbox(MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice, MSGBOX_DEFAULT)
     end
 }
 
@@ -37,6 +38,7 @@ script MossdeepCity_SpaceCenter_1F_EventScript_Scientist {
 }
 
 script MossdeepCity_SpaceCenter_1F_EventScript_Steven {
+    msgbox(MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel, MSGBOX_DEFAULT)
     end
 }
 
@@ -51,37 +53,93 @@ script MossdeepCity_SpaceCenter_1F_EventScript_Woman {
 
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat {
-    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat"
+    format("Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro {
-    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro"
+    format("Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle {
-    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle"
+    format("Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat {
-    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat"
+    format("Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro {
-    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro"
+    format("Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle {
-    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle"
+    format("Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat {
-    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat"
+    format("Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro {
-    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro"
+    format("Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro")
 }
 
 text MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle {
-    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle"
+    format("Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream {
+    format("A giant chunk of metal bursts through\nthe skies and flies into space…\pBut TEAM MAGMA wants to spoil\nthat dream of mine!\pI'm not having any of that!$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber {
+    format("The rocket launched safely!\nThat's successful launch no. {STR_VAR_1}!$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel {
+    format("STEVEN: {PLAYER}{KUN}, have you read that\nproclamation already?\pTEAM MAGMA is coming after the rocket\nfuel on this island.\pI don't know what they'd need it for,\nbut they can't be allowed to take it.\pI'll keep an eye on things for\na while longer.\pIn the meantime, why don't you go\ncheck out the town?$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma {
+    format("With TEAM MAGMA around, I guess\nstrolls on the beach aren't safe.$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers {
+    format("The HOENN region has been famous for \nits meteor showers for a long time.$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma {
+    format("TEAM AQUA should take care of\nTEAM MAGMA!\pBut if they did that, TEAM AQUA will\nbecome bold and brazen, won't they?$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice {
+    format("This is…\nAn intent-to-steal notice?\p“To the staff of the SPACE CENTER:\nHow are you? We are doing fine.\p“We will soon visit you to take your\nrocket fuel.\p“Please don't try to stop us.\nWe will take the fuel no matter what.\p“Let there be more land!\n                                          TEAM MAGMA”$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter {
+    format("Those MAGMA thugs have their sights\nset on our SPACE CENTER.\pBut we can't allow anything that minor\nto interfere with our rocket launch!$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber {
+    format("I know that things are a little\nhaywire right now, but…\pThe rocket launched safely!\nThat's successful launch no. {STR_VAR_1}!$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle {
+    format("Please, tell our leader that\nI never abandoned my post.\lThat I stayed to the bitter end…$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace {
+    format("Some people claim that POKéMON came\nfrom space. Could it be true?$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind {
+    format("A giant chunk of metal bursts through\nthe skies and flies into space…\pIt boggles my mind!$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent {
+    format("The rocket's launch is imminent!$")
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent {
+    format("I know that things are a little\nhaywire right now, but…\pThe rocket's launch is imminent!$")
 }

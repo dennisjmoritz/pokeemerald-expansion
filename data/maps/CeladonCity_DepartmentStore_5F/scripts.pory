@@ -15,14 +15,24 @@ script CeladonCity_DepartmentStore_5F_EventScript_FloorSign {
 }
 
 script CeladonCity_DepartmentStore_5F_EventScript_Gentleman {
+    msgbox(CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers, MSGBOX_NPC)
     end
 }
 
 script CeladonCity_DepartmentStore_5F_EventScript_Sailor {
+    msgbox(CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers, MSGBOX_NPC)
     end
 }
 
 
 text CeladonCity_DepartmentStore_5F_Text_Drugstore {
     format("5F: DRUGSTORE")
+}
+
+text CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers {
+    format("POKéMON stat enhancers can be\nbought only here.\pHP UP increases the base HP of a\nPOKéMON.\pCALCIUM raises the base SP. ATK\nstat of one POKéMON.\pZINC boosts the base SP. DEF stat\nof one POKéMON.\pCARBOS enhances the base SPEED\nstat.$")
+}
+
+text CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers {
+    format("I'm here for POKéMON stat\nenhancers.\pPROTEIN increases the base ATTACK\npower.\pIRON increases the base DEFENSE\nstat.$")
 }

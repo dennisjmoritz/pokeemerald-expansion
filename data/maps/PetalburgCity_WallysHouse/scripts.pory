@@ -9,3 +9,22 @@ script PetalburgCity_WallysHouse_EventScript_WallysMom {
     end
 }
 
+text PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing {
+    format("I wonder how our WALLY is doing?$")
+}
+
+text PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon {
+    format("WALLY's coming home soon.\nI'm looking forward to that.$")
+}
+
+text PetalburgCity_WallysHouse_Text_PleaseExcuseUs {
+    format("{PLAYER}{KUN}! Please excuse us for\ndragging you here this way.\pBut our WALLY's become very healthy\nsince he went to VERDANTURF TOWN.\pWe owe it all to you!\pWhen WALLY left town, you helped\nhim catch a POKéMON, right?\pI think that made WALLY really\nhappy.\pActually, not just WALLY.\nIt made me, his father, happy too.\pHappy that he's gained such a great\nfriend as you.\pThis isn't a bribe or anything, but\nI'd really like you to have this.$")
+}
+
+text PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity {
+    format("Oh? You met WALLY in\nEVER GRANDE CITY?\pOh, {PLAYER}{KUN}, don't be silly.\pHe may have gotten healthy, but he\ncan't go somewhere far away like\lthat all by himself.$")
+}
+
+text PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling {
+    format("I want you to keep this a secret\nfrom my husband…\pBut our WALLY left VERDANTURF TOWN\nwithout telling anyone.\pYou know, WALLY is frail, but\nhe's surprisingly strong-willed.\pI'm sure that he'll come back safe\nand sound one day!$")
+}

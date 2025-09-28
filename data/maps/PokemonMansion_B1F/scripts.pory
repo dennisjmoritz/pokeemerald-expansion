@@ -34,25 +34,25 @@ text PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful {
 
 
 text PokemonMansion_B1F_Text_IvanDefeat {
-    "Placeholder text for PokemonMansion_B1F_Text_IvanDefeat"
+    format("Placeholder text for PokemonMansion_B1F_Text_IvanDefeat")
 }
 
 text PokemonMansion_B1F_Text_IvanIntro {
-    "Placeholder text for PokemonMansion_B1F_Text_IvanIntro"
+    format("Placeholder text for PokemonMansion_B1F_Text_IvanIntro")
 }
 
 text PokemonMansion_B1F_Text_IvanPostBattle {
-    "Placeholder text for PokemonMansion_B1F_Text_IvanPostBattle"
+    format("Placeholder text for PokemonMansion_B1F_Text_IvanPostBattle")
 }
 
 text PokemonMansion_B1F_Text_LewisDefeat {
-    "Placeholder text for PokemonMansion_B1F_Text_LewisDefeat"
+    format("Placeholder text for PokemonMansion_B1F_Text_LewisDefeat")
 }
 
 text PokemonMansion_B1F_Text_LewisIntro {
-    "Placeholder text for PokemonMansion_B1F_Text_LewisIntro"
+    format("Placeholder text for PokemonMansion_B1F_Text_LewisIntro")
 }
 
 text PokemonMansion_B1F_Text_LewisPostBattle {
-    "Placeholder text for PokemonMansion_B1F_Text_LewisPostBattle"
+    format("Placeholder text for PokemonMansion_B1F_Text_LewisPostBattle")
 }

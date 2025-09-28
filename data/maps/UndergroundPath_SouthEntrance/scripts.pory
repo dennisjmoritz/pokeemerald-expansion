@@ -2,6 +2,11 @@ mapscripts UndergroundPath_SouthEntrance_MapScripts {
 }
 
 script UndergroundPath_SouthEntrance_EventScript_Woman {
+    msgbox(UndergroundPath_SouthEntrance_Text_PeopleLoseThingsInTheDarkness, MSGBOX_NPC)
     end
 }
 
+
+text UndergroundPath_SouthEntrance_Text_PeopleLoseThingsInTheDarkness {
+    format("People often lose things in the\ndarkness of the UNDERGROUND PATH.$")
+}

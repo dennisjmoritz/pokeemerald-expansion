@@ -5,3 +5,6 @@ script EverGrandeCity_DrakesRoom_EventScript_Drake {
     end
 }
 
+text EverGrandeCity_DrakesRoom_Text_PostBattleSpeech {
+    format("You deserve every credit for coming\nthis far as a TRAINER of POKéMON.\pYou do seem to know what is needed.\pYes, what a TRAINER needs is a\nvirtuous heart.\pPOKéMON touch the good hearts of\nTRAINERS and learn good from wrong.\pThey touch the good hearts of\nTRAINERS and grow strong.\pGo! Go onwards!\nThe CHAMPION is waiting!$")
+}

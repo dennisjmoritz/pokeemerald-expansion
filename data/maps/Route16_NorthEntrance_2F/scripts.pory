@@ -11,10 +11,12 @@ script Route16_NorthEntrance_2F_EventScript_LeftBinoculars {
 }
 
 script Route16_NorthEntrance_2F_EventScript_LittleBoy {
+    msgbox(Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend, MSGBOX_NPC)
     end
 }
 
 script Route16_NorthEntrance_2F_EventScript_LittleGirl {
+    msgbox(Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes, MSGBOX_NPC)
     end
 }
 
@@ -30,4 +32,12 @@ text Route16_NorthEntrance_2F_Text_LongPathOverWater {
 
 text Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore {
     format("Let's see what the binoculars have to show…\p It's the CELADON DEPT. STORE!")
+}
+
+text Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend {
+    format("I'm on a relaxing ride on my new\nbike with my girlfriend.$")
+}
+
+text Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes {
+    format("We're going riding together on our\nnew bikes.$")
 }

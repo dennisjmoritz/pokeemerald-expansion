@@ -6,7 +6,7 @@ script FuchsiaCity_EventScript_ChanseySign {
     // setvar VAR_0x8004, SPECIES_CHANSEY
     // special SetSeenMon
     // showmonpic SPECIES_CHANSEY, 10, 3
-    msgbox(FuchsiaCity_Text_ChanseySign, MSGBOX_DEFAULT)
+    msgbox(FuchsiaCity_Text_ChanseySign, MSGBOX_SIGN)
     // hidemonpic
     // releaseall
     end
@@ -18,6 +18,7 @@ script FuchsiaCity_EventScript_CitySign {
 }
 
 script FuchsiaCity_EventScript_Erik {
+    msgbox(FuchsiaCity_Text_WheresSara, MSGBOX_NPC)
     end
 }
 
@@ -27,7 +28,7 @@ script FuchsiaCity_EventScript_FossilMonSign {
     // setvar VAR_0x8004, SPECIES_KABUTO
     // special SetSeenMon
     // showmonpic SPECIES_KABUTO, 10, 3
-    msgbox(FuchsiaCity_Text_KabutoSign, MSGBOX_DEFAULT)
+    msgbox(FuchsiaCity_Text_KabutoSign, MSGBOX_SIGN)
     // hidemonpic
     // releaseall
     end
@@ -36,7 +37,7 @@ script FuchsiaCity_EventScript_FossilMonSign {
 script FuchsiaCity_EventScript_GymSign {
     // lockall
     // famechecker FAMECHECKER_KOGA, 0
-    msgbox(FuchsiaCity_Text_GymSign, MSGBOX_DEFAULT)
+    msgbox(FuchsiaCity_Text_GymSign, MSGBOX_SIGN)
     // releaseall
     end
 }
@@ -46,7 +47,7 @@ script FuchsiaCity_EventScript_KangaskhanSign {
     // setvar VAR_0x8004, SPECIES_KANGASKHAN
     // special SetSeenMon
     // showmonpic SPECIES_KANGASKHAN, 10, 3
-    msgbox(FuchsiaCity_Text_KangaskhanSign, MSGBOX_DEFAULT)
+    msgbox(FuchsiaCity_Text_KangaskhanSign, MSGBOX_SIGN)
     // hidemonpic
     // releaseall
     end
@@ -57,7 +58,7 @@ script FuchsiaCity_EventScript_LaprasSign {
     // setvar VAR_0x8004, SPECIES_LAPRAS
     // special SetSeenMon
     // showmonpic SPECIES_LAPRAS, 10, 3
-    msgbox(FuchsiaCity_Text_LaprasSign, MSGBOX_DEFAULT)
+    msgbox(FuchsiaCity_Text_LaprasSign, MSGBOX_SIGN)
     // hidemonpic
     // releaseall
     end
@@ -68,10 +69,12 @@ script FuchsiaCity_EventScript_Lass {
 }
 
 script FuchsiaCity_EventScript_LittleBoy {
+    msgbox(FuchsiaCity_Text_DidYouTrySafariGame, MSGBOX_NPC)
     end
 }
 
 script FuchsiaCity_EventScript_OldMan {
+    msgbox(FuchsiaCity_Text_SafariZoneZooInFront, MSGBOX_NPC)
     end
 }
 
@@ -90,7 +93,7 @@ script FuchsiaCity_EventScript_SlowpokeSign {
     // setvar VAR_0x8004, SPECIES_SLOWPOKE
     // special SetSeenMon
     // showmonpic SPECIES_SLOWPOKE, 10, 3
-    msgbox(FuchsiaCity_Text_SlowpokeSign, MSGBOX_DEFAULT)
+    msgbox(FuchsiaCity_Text_SlowpokeSign, MSGBOX_SIGN)
     // hidemonpic
     // releaseall
     end
@@ -101,7 +104,7 @@ script FuchsiaCity_EventScript_VoltorbSign {
     // setvar VAR_0x8004, SPECIES_VOLTORB
     // special SetSeenMon
     // showmonpic SPECIES_VOLTORB, 10, 3
-    msgbox(FuchsiaCity_Text_VoltorbSign, MSGBOX_DEFAULT)
+    msgbox(FuchsiaCity_Text_VoltorbSign, MSGBOX_SIGN)
     // hidemonpic
     // releaseall
     end
@@ -113,6 +116,7 @@ script FuchsiaCity_EventScript_WardensHomeSign {
 }
 
 script FuchsiaCity_EventScript_Youngster {
+    msgbox(FuchsiaCity_Text_ItemBallInThere, MSGBOX_NPC)
     end
 }
 
@@ -159,4 +163,20 @@ text FuchsiaCity_Text_ChanseySign {
 
 text FuchsiaCity_Text_SafariGameSign {
     format("SAFARI GAME POKéMON-U-CATCH!")
+}
+
+text FuchsiaCity_Text_WheresSara {
+    format("ERIK: Where's SARA?\nI said I'd meet her here.$")
+}
+
+text FuchsiaCity_Text_DidYouTrySafariGame {
+    format("Did you try the SAFARI GAME?\pThere are some rare POKéMON that\ncan only be caught there.$")
+}
+
+text FuchsiaCity_Text_SafariZoneZooInFront {
+    format("The SAFARI ZONE has a zoo in front\nof the entrance.\pOut back is the SAFARI GAME for\ncatching POKéMON.$")
+}
+
+text FuchsiaCity_Text_ItemBallInThere {
+    format("That item ball in there…\nWere you wanting that?\pMe, too!\n…Huh? That's a POKéMON?$")
 }

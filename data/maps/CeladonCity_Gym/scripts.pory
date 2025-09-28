@@ -54,85 +54,85 @@ text CeladonCity_Gym_Text_GymStatue {
 
 
 text CeladonCity_Gym_Text_BridgetDefeat {
-    "Placeholder text for CeladonCity_Gym_Text_BridgetDefeat"
+    format("Placeholder text for CeladonCity_Gym_Text_BridgetDefeat")
 }
 
 text CeladonCity_Gym_Text_BridgetIntro {
-    "Placeholder text for CeladonCity_Gym_Text_BridgetIntro"
+    format("Placeholder text for CeladonCity_Gym_Text_BridgetIntro")
 }
 
 text CeladonCity_Gym_Text_BridgetPostBattle {
-    "Placeholder text for CeladonCity_Gym_Text_BridgetPostBattle"
+    format("Placeholder text for CeladonCity_Gym_Text_BridgetPostBattle")
 }
 
 text CeladonCity_Gym_Text_KayDefeat {
-    "Placeholder text for CeladonCity_Gym_Text_KayDefeat"
+    format("Placeholder text for CeladonCity_Gym_Text_KayDefeat")
 }
 
 text CeladonCity_Gym_Text_KayIntro {
-    "Placeholder text for CeladonCity_Gym_Text_KayIntro"
+    format("Placeholder text for CeladonCity_Gym_Text_KayIntro")
 }
 
 text CeladonCity_Gym_Text_KayPostBattle {
-    "Placeholder text for CeladonCity_Gym_Text_KayPostBattle"
+    format("Placeholder text for CeladonCity_Gym_Text_KayPostBattle")
 }
 
 text CeladonCity_Gym_Text_LisaDefeat {
-    "Placeholder text for CeladonCity_Gym_Text_LisaDefeat"
+    format("Placeholder text for CeladonCity_Gym_Text_LisaDefeat")
 }
 
 text CeladonCity_Gym_Text_LisaIntro {
-    "Placeholder text for CeladonCity_Gym_Text_LisaIntro"
+    format("Placeholder text for CeladonCity_Gym_Text_LisaIntro")
 }
 
 text CeladonCity_Gym_Text_LisaPostBattle {
-    "Placeholder text for CeladonCity_Gym_Text_LisaPostBattle"
+    format("Placeholder text for CeladonCity_Gym_Text_LisaPostBattle")
 }
 
 text CeladonCity_Gym_Text_LoriDefeat {
-    "Placeholder text for CeladonCity_Gym_Text_LoriDefeat"
+    format("Placeholder text for CeladonCity_Gym_Text_LoriDefeat")
 }
 
 text CeladonCity_Gym_Text_LoriIntro {
-    "Placeholder text for CeladonCity_Gym_Text_LoriIntro"
+    format("Placeholder text for CeladonCity_Gym_Text_LoriIntro")
 }
 
 text CeladonCity_Gym_Text_LoriPostBattle {
-    "Placeholder text for CeladonCity_Gym_Text_LoriPostBattle"
+    format("Placeholder text for CeladonCity_Gym_Text_LoriPostBattle")
 }
 
 text CeladonCity_Gym_Text_MaryDefeat {
-    "Placeholder text for CeladonCity_Gym_Text_MaryDefeat"
+    format("Placeholder text for CeladonCity_Gym_Text_MaryDefeat")
 }
 
 text CeladonCity_Gym_Text_MaryIntro {
-    "Placeholder text for CeladonCity_Gym_Text_MaryIntro"
+    format("Placeholder text for CeladonCity_Gym_Text_MaryIntro")
 }
 
 text CeladonCity_Gym_Text_MaryPostBattle {
-    "Placeholder text for CeladonCity_Gym_Text_MaryPostBattle"
+    format("Placeholder text for CeladonCity_Gym_Text_MaryPostBattle")
 }
 
 text CeladonCity_Gym_Text_TamiaDefeat {
-    "Placeholder text for CeladonCity_Gym_Text_TamiaDefeat"
+    format("Placeholder text for CeladonCity_Gym_Text_TamiaDefeat")
 }
 
 text CeladonCity_Gym_Text_TamiaIntro {
-    "Placeholder text for CeladonCity_Gym_Text_TamiaIntro"
+    format("Placeholder text for CeladonCity_Gym_Text_TamiaIntro")
 }
 
 text CeladonCity_Gym_Text_TamiaPostBattle {
-    "Placeholder text for CeladonCity_Gym_Text_TamiaPostBattle"
+    format("Placeholder text for CeladonCity_Gym_Text_TamiaPostBattle")
 }
 
 text CeladonCity_Gym_Text_TinaDefeat {
-    "Placeholder text for CeladonCity_Gym_Text_TinaDefeat"
+    format("Placeholder text for CeladonCity_Gym_Text_TinaDefeat")
 }
 
 text CeladonCity_Gym_Text_TinaIntro {
-    "Placeholder text for CeladonCity_Gym_Text_TinaIntro"
+    format("Placeholder text for CeladonCity_Gym_Text_TinaIntro")
 }
 
 text CeladonCity_Gym_Text_TinaPostBattle {
-    "Placeholder text for CeladonCity_Gym_Text_TinaPostBattle"
+    format("Placeholder text for CeladonCity_Gym_Text_TinaPostBattle")
 }

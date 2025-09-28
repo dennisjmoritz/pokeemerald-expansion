@@ -7,10 +7,15 @@ script SilphCo_1F_EventScript_FloorSign {
 }
 
 script SilphCo_1F_EventScript_Receptionist {
+    msgbox(SilphCo_1F_Text_WelcomePresidentInBoardroom, MSGBOX_NPC)
     end
 }
 
 
 text SilphCo_1F_Text_FloorSign {
     format("SILPH CO. HEAD OFFICE 1F")
+}
+
+text SilphCo_1F_Text_WelcomePresidentInBoardroom {
+    format("Welcome.\pThe PRESIDENT is in the boardroom\non 11F.$")
 }

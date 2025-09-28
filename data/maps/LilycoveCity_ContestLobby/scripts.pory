@@ -2,6 +2,7 @@ mapscripts LilycoveCity_ContestLobby_MapScripts {
 }
 
 script LilycoveCity_ContestLobby_EventScript_Artist {
+    msgbox(LilycoveCity_ContestLobby_Text_ContestFeastForEyes, MSGBOX_NPC)
     end
 }
 
@@ -15,42 +16,52 @@ script LilycoveCity_ContestLobby_EventScript_BerryBlenderSpeedRecords {
 }
 
 script LilycoveCity_ContestLobby_EventScript_BlackBelt {
+    msgbox(LilycoveCity_ContestLobby_Text_MasterRankHereICome, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_BlendMaster {
+    msgbox(BerryBlender_Text_BlendWithTheBlendMaster, MSGBOX_DEFAULT)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker1 {
+    msgbox(BerryBlender_Text_WhoaAwesome, MSGBOX_DEFAULT)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker2 {
+    msgbox(BerryBlender_Text_WickedlyFast, MSGBOX_DEFAULT)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker3 {
+    msgbox(BerryBlender_Text_WhatAnExpert, MSGBOX_DEFAULT)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker4 {
+    msgbox(BerryBlender_Text_MadeAmazingPokeblocksWithMaster, MSGBOX_DEFAULT)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker5 {
+    msgbox(BerryBlender_Text_QualitiesOfBlendMaster, MSGBOX_DEFAULT)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker6 {
+    msgbox(BerryBlender_Text_MasterWorksOnSkillsInMountains, MSGBOX_DEFAULT)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_Blender3Boy {
+    msgbox(BerryBlender_Text_LetsGetBlendingAlready, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_Blender3Girl {
+    msgbox(BerryBlender_Text_WhatKindOfPokeblockWillIGet, MSGBOX_NPC)
     end
 }
 
@@ -107,18 +118,22 @@ script LilycoveCity_ContestLobby_EventScript_ContestWinner6 {
 }
 
 script LilycoveCity_ContestLobby_EventScript_FatMan {
+    msgbox(LilycoveCity_ContestLobby_Text_ToughContestIsExtreme, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_Fisherman {
+    msgbox(LilycoveCity_ContestLobby_Text_LavishedCareOnMon, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_Girl {
+    msgbox(LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_ContestLobby_EventScript_LinkContestReceptionist {
+    msgbox(LilycoveCity_ContestLobby_Text_LinkContestReception, MSGBOX_DEFAULT)
     end
 }
 
@@ -136,5 +151,46 @@ script LilycoveCity_ContestLobby_EventScript_LittleGirl {
 }
 
 script LilycoveCity_ContestLobby_EventScript_NinjaBoy {
+    msgbox(LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily, MSGBOX_NPC)
     end
+}
+
+text LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum {
+    format("Oh… Then, I guess I'll just take\nthis home with me…\pBut, you know, I would like to take\nthis to the art museum… Okay?$")
+}
+
+text LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint {
+    format("Congratulations!\pI did a painting of your POKéMON to\ncommemorate its victory…\pWell, your POKéMON's appeals were\nso fantastic, it spurred me into\lpainting better than I usually do.\lLook, see?$")
+}
+
+text LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere {
+    format("You can see a whole variety of\nPOKéMON here.\pThat's why I make this place a regular\npart of my daily stroll.$")
+}
+
+text LilycoveCity_ContestLobby_Text_ToughContestIsExtreme {
+    format("The TOUGHNESS CONTEST is like\nextreme, man!\pThose muscular appeals…\nCascading sweat… I swoon!$")
+}
+
+text LilycoveCity_ContestLobby_Text_MasterRankHereICome {
+    format("Hoo, boy… Master Rank CONTESTS,\nhere I come.\pThe world will know that my dearest\nPOKéMON is the cutest being in all\lexistence. The time has come!\lUheheheh.$")
+}
+
+text LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries {
+    format("Make {POKEBLOCK}S and put them in there.\pWhen you make a {POKEBLOCK}, everyone\nhas to put in a different BERRY.$")
+}
+
+text LilycoveCity_ContestLobby_Text_ContestFeastForEyes {
+    format("Wow, coming out to a CONTEST is\na feast for these eyes!\pWould you look at all the POKéMON\nthat just scream to be painted?$")
+}
+
+text LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily {
+    format("I made {POKEBLOCK}S with Mom, Dad, and\nBig Sister. They turned out great!\pI bet you can make smoother, better\n{POKEBLOCK}S if you have more people.$")
+}
+
+text LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum {
+    format("What, really? Then, sure, I will take\nthis painting there right now.\pI'll give it a proper title, too.\pI hope they'll like it and consider\nexhibiting this.\pPlease check if they did accept this.\nThank you!$")
+}
+
+text LilycoveCity_ContestLobby_Text_LavishedCareOnMon {
+    format("Day in and day out, I lavished my care\non this POKéMON.\pIts condition is peaking.\nToday, victory is mine!$")
 }

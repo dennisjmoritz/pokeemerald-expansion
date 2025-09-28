@@ -9,13 +9,13 @@ script FiveIsland_LostCave_Room1_EventScript_Lawson {
 
 
 text FiveIsland_LostCave_Room1_Text_LawsonDefeat {
-    "Placeholder text for FiveIsland_LostCave_Room1_Text_LawsonDefeat"
+    format("Placeholder text for FiveIsland_LostCave_Room1_Text_LawsonDefeat")
 }
 
 text FiveIsland_LostCave_Room1_Text_LawsonIntro {
-    "Placeholder text for FiveIsland_LostCave_Room1_Text_LawsonIntro"
+    format("Placeholder text for FiveIsland_LostCave_Room1_Text_LawsonIntro")
 }
 
 text FiveIsland_LostCave_Room1_Text_LawsonPostBattle {
-    "Placeholder text for FiveIsland_LostCave_Room1_Text_LawsonPostBattle"
+    format("Placeholder text for FiveIsland_LostCave_Room1_Text_LawsonPostBattle")
 }

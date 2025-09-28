@@ -31,37 +31,37 @@ script MtEmber_Exterior_EventScript_RocketPasswordScene {
 
 
 text MtEmber_Exterior_Text_BethDefeat {
-    "Placeholder text for MtEmber_Exterior_Text_BethDefeat"
+    format("Placeholder text for MtEmber_Exterior_Text_BethDefeat")
 }
 
 text MtEmber_Exterior_Text_BethIntro {
-    "Placeholder text for MtEmber_Exterior_Text_BethIntro"
+    format("Placeholder text for MtEmber_Exterior_Text_BethIntro")
 }
 
 text MtEmber_Exterior_Text_BethPostBattle {
-    "Placeholder text for MtEmber_Exterior_Text_BethPostBattle"
+    format("Placeholder text for MtEmber_Exterior_Text_BethPostBattle")
 }
 
 text MtEmber_Exterior_Text_JocelynDefeat {
-    "Placeholder text for MtEmber_Exterior_Text_JocelynDefeat"
+    format("Placeholder text for MtEmber_Exterior_Text_JocelynDefeat")
 }
 
 text MtEmber_Exterior_Text_JocelynIntro {
-    "Placeholder text for MtEmber_Exterior_Text_JocelynIntro"
+    format("Placeholder text for MtEmber_Exterior_Text_JocelynIntro")
 }
 
 text MtEmber_Exterior_Text_JocelynPostBattle {
-    "Placeholder text for MtEmber_Exterior_Text_JocelynPostBattle"
+    format("Placeholder text for MtEmber_Exterior_Text_JocelynPostBattle")
 }
 
 text MtEmber_Exterior_Text_LoganDefeat {
-    "Placeholder text for MtEmber_Exterior_Text_LoganDefeat"
+    format("Placeholder text for MtEmber_Exterior_Text_LoganDefeat")
 }
 
 text MtEmber_Exterior_Text_LoganIntro {
-    "Placeholder text for MtEmber_Exterior_Text_LoganIntro"
+    format("Placeholder text for MtEmber_Exterior_Text_LoganIntro")
 }
 
 text MtEmber_Exterior_Text_LoganPostBattle {
-    "Placeholder text for MtEmber_Exterior_Text_LoganPostBattle"
+    format("Placeholder text for MtEmber_Exterior_Text_LoganPostBattle")
 }

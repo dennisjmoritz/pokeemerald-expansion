@@ -6,10 +6,31 @@ script FortreeCity_House4_EventScript_Boy {
 }
 
 script FortreeCity_House4_EventScript_Wingull {
+    msgbox(FortreeCity_House4_Text_Wingull, MSGBOX_DEFAULT)
     end
 }
 
 script FortreeCity_House4_EventScript_Woman {
+    msgbox(FortreeCity_House4_Text_BringsWorldCloserTogether, MSGBOX_NPC)
     end
 }
 
+text FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb {
+    format("Good!\nWelcome back, WINGULL!\pHuh? What is this?\nWhat is it holding?\pA MENTAL HERB?\nIt must have picked it up somewhere.\pBut I'm not a TRAINER, so you can\nhave it.$")
+}
+
+text FortreeCity_House4_Text_BringsWorldCloserTogether {
+    format("By being together with POKéMON,\npeople make more and more friends.\pAnd that brings the world closer\ntogether. I think it's wonderful!$")
+}
+
+text FortreeCity_House4_Text_FriendsFarAwayThanksToWingull {
+    format("Thanks to my WINGULL, I have friends\nwho live far away.$")
+}
+
+text FortreeCity_House4_Text_AskedWingullToRunErrand {
+    format("Heheh, I asked my WINGULL to run\nan errand for me.$")
+}
+
+text FortreeCity_House4_Text_Wingull {
+    format("WINGULL: Pihyoh!$")
+}

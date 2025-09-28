@@ -25,25 +25,25 @@ script PokemonMansion_1F_EventScript_Ted {
 
 
 text PokemonMansion_1F_Text_JohnsonDefeat {
-    "Placeholder text for PokemonMansion_1F_Text_JohnsonDefeat"
+    format("Placeholder text for PokemonMansion_1F_Text_JohnsonDefeat")
 }
 
 text PokemonMansion_1F_Text_JohnsonIntro {
-    "Placeholder text for PokemonMansion_1F_Text_JohnsonIntro"
+    format("Placeholder text for PokemonMansion_1F_Text_JohnsonIntro")
 }
 
 text PokemonMansion_1F_Text_JohnsonPostBattle {
-    "Placeholder text for PokemonMansion_1F_Text_JohnsonPostBattle"
+    format("Placeholder text for PokemonMansion_1F_Text_JohnsonPostBattle")
 }
 
 text PokemonMansion_1F_Text_TedDefeat {
-    "Placeholder text for PokemonMansion_1F_Text_TedDefeat"
+    format("Placeholder text for PokemonMansion_1F_Text_TedDefeat")
 }
 
 text PokemonMansion_1F_Text_TedIntro {
-    "Placeholder text for PokemonMansion_1F_Text_TedIntro"
+    format("Placeholder text for PokemonMansion_1F_Text_TedIntro")
 }
 
 text PokemonMansion_1F_Text_TedPostBattle {
-    "Placeholder text for PokemonMansion_1F_Text_TedPostBattle"
+    format("Placeholder text for PokemonMansion_1F_Text_TedPostBattle")
 }

@@ -2,6 +2,11 @@ mapscripts FuchsiaCity_House3_MapScripts {
 }
 
 script FuchsiaCity_House3_EventScript_MoveDeleter {
+    msgbox(FuchsiaCity_House3_Text_WouldYouLikeToForgetMove, MSGBOX_YESNO)
     end
 }
 
+
+text FuchsiaCity_House3_Text_WouldYouLikeToForgetMove {
+    format("Uh…\nOh, yes, I'm the MOVE DELETER.\pI can make POKéMON forget their\nmoves.\pWould you like me to do that?$")
+}

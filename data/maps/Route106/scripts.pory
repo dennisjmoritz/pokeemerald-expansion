@@ -33,49 +33,49 @@ text Route106_Text_TrainerTips {
 
 
 text Route106_Text_DouglasDefeated {
-    "I give up!"
+    format("I give up!")
 }
 
 text Route106_Text_DouglasIntro {
-    "Hahahah! I'm a lousy runner, but in\nthe water you can't catch me!"
+    format("Hahahah! I'm a lousy runner, but in the water you can't catch me!")
 }
 
 text Route106_Text_DouglasPostBattle {
-    "I wouldn't lose in a swim race…"
+    format("I wouldn't lose in a swim race…")
 }
 
 text Route106_Text_ElliotDefeated {
-    "Like in deep-sea fishing, I lost\nspectacularly!"
+    format("Like in deep-sea fishing, I lost spectacularly!")
 }
 
 text Route106_Text_ElliotIntro {
-    "Which do you prefer, fishing in the\nsea or a stream?"
+    format("Which do you prefer, fishing in the sea or a stream?")
 }
 
 text Route106_Text_ElliotPostBattle {
-    "Fishing is the greatest whether it's\nin the sea or a stream.\nYou agree with me, right?"
+    format("Fishing is the greatest whether it's in the sea or a stream. You agree with me, right?")
 }
 
 text Route106_Text_KylaDefeated {
-    "Did you take it easy on me by any\nchance?"
+    format("Did you take it easy on me by any chance?")
 }
 
 text Route106_Text_KylaIntro {
-    "The sea is my backyard. I'm not going\nto take it easy because you're a kid!"
+    format("The sea is my backyard. I'm not going to take it easy because you're a kid!")
 }
 
 text Route106_Text_KylaPostBattle {
-    "Drifting along with the waves…\nI love it! Why don't you give it a try?"
+    format("Drifting along with the waves… I love it! Why don't you give it a try?")
 }
 
 text Route106_Text_NedDefeated {
-    "I lost because I'm trying to not go\nto the washroom…"
+    format("I lost because I'm trying to not go to the washroom…")
 }
 
 text Route106_Text_NedIntro {
-    "What do people do if they need to go\nto a washroom?\pWhat if my ROD hooks a big one while\nI'm in the washroom? I just can't go…"
+    format("What do people do if they need to go to a washroom?\pWhat if my ROD hooks a big one while I'm in the washroom? I just can't go…")
 }
 
 text Route106_Text_NedPostBattle {
-    "Oh, no! I've got this feeling I'll hook\na big one!"
+    format("Oh, no! I've got this feeling I'll hook a big one!")
 }

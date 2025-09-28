@@ -6,10 +6,43 @@ script PacifidlogTown_House2_EventScript_FanClubYoungerBrother {
 }
 
 script PacifidlogTown_House2_EventScript_HappyAzurill {
+    msgbox(PacifidlogTown_House2_Text_Rurii, MSGBOX_DEFAULT)
     end
 }
 
 script PacifidlogTown_House2_EventScript_UnhappyAzurill {
+    msgbox(PacifidlogTown_House2_Text_Rururi, MSGBOX_DEFAULT)
     end
 }
 
+text PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation {
+    format("Er-hem!\pI am the POKéMON FAN CLUB's most\nimportant person, the CHAIRMAN's\lyounger brother.\pI'm here enjoying my vacation with\nPOKéMON, yes, indeed.$")
+}
+
+text PacifidlogTown_House2_Text_ViciousPokemonTakeThis {
+    format("It has a vicious look to it.\pA frightening POKéMON like that\ndeserves a TM like this.$")
+}
+
+text PacifidlogTown_House2_Text_GetGoodTMInXDays {
+    format("Oh, yes. In about {STR_VAR_1} or so days,\nI should be getting a good TM or two.\pYou should come see me then.\nI'll give you a TM that's suitable for\lyour POKéMON.$")
+}
+
+text PacifidlogTown_House2_Text_AhYourPokemon {
+    format("Ah!\nYour POKéMON…$")
+}
+
+text PacifidlogTown_House2_Text_Rururi {
+    format("AZURILL: Rururi!$")
+}
+
+text PacifidlogTown_House2_Text_Rurii {
+    format("AZURILL: Rurii.$")
+}
+
+text PacifidlogTown_House2_Text_AdoringPokemonTakeThis {
+    format("It clearly likes you very much.\pA POKéMON that adoring and adorable\ndeserves a TM like this, no?$")
+}
+
+text PacifidlogTown_House2_Text_PutInSomeMoreEffort {
+    format("Hmm…\nIt's not bad, but it's also not good.\pYou, as the TRAINER, need to put in\nsome more effort.$")
+}

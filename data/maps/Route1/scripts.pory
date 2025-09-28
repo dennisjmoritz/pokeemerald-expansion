@@ -2,6 +2,7 @@ mapscripts Route1_MapScripts {
 }
 
 script Route1_EventScript_Boy {
+    msgbox(Route1_Text_CanJumpFromLedges, MSGBOX_NPC)
     end
 }
 
@@ -17,4 +18,8 @@ script Route1_EventScript_RouteSign {
 
 text Route1_Text_RouteSign {
     format("ROUTE 1 PALLET TOWN - VIRIDIAN CITY")
+}
+
+text Route1_Text_CanJumpFromLedges {
+    format("See those ledges along the road?\pIt's a bit scary, but you can jump\nfrom them.\pYou can get back to PALLET TOWN\nquicker that way.$")
 }

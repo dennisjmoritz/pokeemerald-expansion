@@ -2,46 +2,57 @@ mapscripts SlateportCity_MapScripts {
 }
 
 script SlateportCity_EventScript_AquaGrunt1 {
+    msgbox(SlateportCity_Text_QuitPushing, MSGBOX_DEFAULT)
     end
 }
 
 script SlateportCity_EventScript_AquaGrunt10 {
+    msgbox(SlateportCity_Text_ShouldveBroughtMyGameBoy, MSGBOX_SIGN)
     end
 }
 
 script SlateportCity_EventScript_AquaGrunt11 {
+    msgbox(SlateportCity_Text_HotSpringsAfterOperation, MSGBOX_DEFAULT)
     end
 }
 
 script SlateportCity_EventScript_AquaGrunt2 {
+    msgbox(SlateportCity_Text_AquaHasPolicy, MSGBOX_DEFAULT)
     end
 }
 
 script SlateportCity_EventScript_AquaGrunt3 {
+    msgbox(SlateportCity_Text_BossIsBrilliant, MSGBOX_DEFAULT)
     end
 }
 
 script SlateportCity_EventScript_AquaGrunt4 {
+    msgbox(SlateportCity_Text_WhatsNewSchemeIWonder, MSGBOX_DEFAULT)
     end
 }
 
 script SlateportCity_EventScript_AquaGrunt5 {
+    msgbox(SlateportCity_Text_ShouldTakeItAll, MSGBOX_DEFAULT)
     end
 }
 
 script SlateportCity_EventScript_AquaGrunt6 {
+    msgbox(SlateportCity_Text_DontButtIn, MSGBOX_DEFAULT)
     end
 }
 
 script SlateportCity_EventScript_AquaGrunt7 {
+    msgbox(SlateportCity_Text_RemindsMeOfLongLineForGames, MSGBOX_DEFAULT)
     end
 }
 
 script SlateportCity_EventScript_AquaGrunt8 {
+    msgbox(SlateportCity_Text_WhyAreWeLiningUp, MSGBOX_DEFAULT)
     end
 }
 
 script SlateportCity_EventScript_AquaGrunt9 {
+    msgbox(SlateportCity_Text_WhatDoYouWant, MSGBOX_DEFAULT)
     end
 }
 
@@ -63,6 +74,7 @@ script SlateportCity_EventScript_BerryPowderClerk {
 }
 
 script SlateportCity_EventScript_CaptStern {
+    msgbox(SlateportCity_Text_SternMoveAheadWithExploration, MSGBOX_DEFAULT)
     end
 }
 
@@ -84,6 +96,7 @@ script SlateportCity_EventScript_DollClerk {
 }
 
 script SlateportCity_EventScript_EffortRibbonWoman {
+    msgbox(SlateportCity_Text_OhYourPokemon, MSGBOX_DEFAULT)
     end
 }
 
@@ -96,6 +109,7 @@ script SlateportCity_EventScript_FatMan {
 }
 
 script SlateportCity_EventScript_Gabby {
+    msgbox(SlateportCity_Text_MostInvaluableExperience, MSGBOX_SIGN)
     end
 }
 
@@ -106,7 +120,7 @@ script SlateportCity_EventScript_Girl {
 script SlateportCity_EventScript_HarborSign {
     // lockall
     // goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_EventScript_HarborSignFerryComplete
-    msgbox(SlateportCity_Text_HarborFerryUnderConstruction, MSGBOX_DEFAULT)
+    msgbox(SlateportCity_Text_HarborFerryUnderConstruction, MSGBOX_SIGN)
     // releaseall
     end
 }
@@ -116,10 +130,12 @@ script SlateportCity_EventScript_Man1 {
 }
 
 script SlateportCity_EventScript_Man2 {
+    msgbox(SlateportCity_Text_BattleTentBuiltRecently, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_EventScript_Man3 {
+    msgbox(SlateportCity_Text_WonderIfLighthouseStartlesPokemon, MSGBOX_NPC)
     end
 }
 
@@ -147,6 +163,7 @@ script SlateportCity_EventScript_OldWoman {
 }
 
 script SlateportCity_EventScript_PokefanF {
+    msgbox(SlateportCity_Text_BuyTooMuch, MSGBOX_NPC)
     end
 }
 
@@ -164,10 +181,12 @@ script SlateportCity_EventScript_RichBoy {
 }
 
 script SlateportCity_EventScript_Sailor1 {
+    msgbox(SlateportCity_Text_SeaIsSoWet, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_EventScript_Sailor2 {
+    msgbox(SlateportCity_Text_SinkOldBoats, MSGBOX_NPC)
     end
 }
 
@@ -179,12 +198,13 @@ script SlateportCity_EventScript_SternsShipyardSign {
     // lockall
     // goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_EventScript_SternsShipyardFerryComplete
     // goto_if_set FLAG_BADGE07_GET, SlateportCity_EventScript_SternsShipyardNearsCompletion
-    msgbox(SlateportCity_Text_SternsShipyardWantedSign, MSGBOX_DEFAULT)
+    msgbox(SlateportCity_Text_SternsShipyardWantedSign, MSGBOX_SIGN)
     // releaseall
     end
 }
 
 script SlateportCity_EventScript_Ty {
+    msgbox(SlateportCity_Text_BigSmileForCamera, MSGBOX_SIGN)
     end
 }
 
@@ -193,6 +213,7 @@ script SlateportCity_EventScript_Woman1 {
 }
 
 script SlateportCity_EventScript_Woman2 {
+    msgbox(SlateportCity_Text_CantChangeTradeMonName, MSGBOX_NPC)
     end
 }
 
@@ -227,4 +248,164 @@ text SlateportCity_Text_PokemonFanClubSign {
 
 text SlateportCity_Text_CitySign {
     format("SLATEPORT CITY\p “The port where people and POKéMON cross paths.”")
+}
+
+text SlateportCity_Text_InterviewerSoCool {
+    format("That lady interviewer is so cool\nand pretty.\pWhen I grow up, I'm going to be\nan international journalist!$")
+}
+
+text SlateportCity_Text_WhyAreWeLiningUp {
+    format("Why are we even lining up and paying?\nWe should just march in!$")
+}
+
+text SlateportCity_Text_HotSpringsAfterOperation {
+    format("When this operation's over, I'll take\nyou to a hot spring spa!\pThat's what our leader said.\nI can't wait!$")
+}
+
+text SlateportCity_Text_ComeBackToTradeBerryPowder {
+    format("Come back if you'd like to trade your\nBERRY POWDER for some medicine.\pI'm always running a bazaar here.\pDid you know?$")
+}
+
+text SlateportCity_Text_SternsShipyardNearsCompletion {
+    format("STERN'S SHIPYARD\p“The ferry S.S. TIDAL nears\ncompletion for serving the ports of\lSLATEPORT and LILYCOVE.”$")
+}
+
+text SlateportCity_Text_BuyTooMuch {
+    format("Whenever I visit here, I get carried\naway and buy too much.$")
+}
+
+text SlateportCity_Text_BuyBricksSoDecorWontGetDirty {
+    format("If you put DOLLS or CUSHIONS on\nthe floor, they'll get dirty.\pI'm going to buy some BRICKS so my\nDOLLS and CUSHIONS won't get dirty\lwhen I leave them out.$")
+}
+
+text SlateportCity_Text_MostInvaluableExperience {
+    format("GABBY: I see, I see. You've had a most\ninvaluable experience…$")
+}
+
+text SlateportCity_Text_OhYourPokemon {
+    format("Oh?\nYour {STR_VAR_1}…$")
+}
+
+text SlateportCity_Text_DontHaveEnoughBerryPowder {
+    format("Oh, dear. You don't have enough\nBERRY POWDER.$")
+}
+
+text SlateportCity_Text_BigSmileForCamera {
+    format("TY: Okay, CAPT. STERN, a big smile\nfor the camera!$")
+}
+
+text SlateportCity_Text_HarborSign {
+    format("SLATEPORT HARBOR\p“Enjoy a delightful cruise on\nthe ferry S.S. TIDAL.”$")
+}
+
+text SlateportCity_Text_SeaIsSoWet {
+    format("The sea is just so vast…\pCould the sea have been made by\nthe tears shed by POKéMON?$")
+}
+
+text SlateportCity_Text_AquaHasPolicy {
+    format("TEAM AQUA has a policy of\nassembling and dispersing at\lthe operation site.$")
+}
+
+text SlateportCity_Text_EffortRibbonLooksGoodOnIt {
+    format("Oh! Your {STR_VAR_1}, that EFFORT\nRIBBON looks good on it!$")
+}
+
+text SlateportCity_Text_GoForItLittleHarder {
+    format("You have to go for it a little harder.\pIf you do, I'll give your POKéMON\nsomething nice.$")
+}
+
+text SlateportCity_Text_SinkOldBoats {
+    format("Do you know what they do with old\nships that become too creaky to sail?\pThey sink them in the sea so they\nbecome habitats for POKéMON.$")
+}
+
+text SlateportCity_Text_ExchangeBerryPowderForItem {
+    format("Okay, you want to exchange your\nBERRY POWDER for one {STR_VAR_1}?$")
+}
+
+text SlateportCity_Text_BossIsBrilliant {
+    format("Our BOSS is brilliant.\pWhat would he want to do with\na MUSEUM now?$")
+}
+
+text SlateportCity_Text_CaptSternBeingInterviewed {
+    format("I was hoping that it was a famous star\nso I could get an autograph.\pBut who's that being interviewed?\nIsn't that CAPT. STERN?$")
+}
+
+text SlateportCity_Text_CantChangeTradeMonName {
+    format("Any POKéMON you get in a trade,\nyou can't change its nickname.\pThe original TRAINER's love for that\nPOKéMON is in the nickname.$")
+}
+
+text SlateportCity_Text_ShouldveBroughtMyGameBoy {
+    format("Grumble…\pI should've brought my Game Boy\nAdvance so I wouldn't get bored in line…\pGrumble…$")
+}
+
+text SlateportCity_Text_DontButtIn {
+    format("Hey, you there!\nDon't butt in!$")
+}
+
+text SlateportCity_Text_QuitPushing {
+    format("Hey, there! Quit pushing!\nThis is the line, can't you see?$")
+}
+
+text SlateportCity_Text_CaptainsACelebrity {
+    format("A TV interview! Here!\nThe CAPTAIN's a celebrity!$")
+}
+
+text SlateportCity_Text_ShouldTakeItAll {
+    format("If there's something we need in\nthe MUSEUM, we should take it all!$")
+}
+
+text SlateportCity_Text_RemindsMeOfLongLineForGames {
+    format("A long line, huh?\pIt reminds me of the times I lined up to\nbuy smash-hit games…$")
+}
+
+text SlateportCity_Text_WhatDoYouWant {
+    format("What?\nWhat do you want?$")
+}
+
+text SlateportCity_Text_VisitedMuseumOften {
+    format("When I was a child, I visited\nthe MUSEUM often.\pI used to dream about the mysteries of\nthe sea after seeing the exhibits.$")
+}
+
+text SlateportCity_Text_AmIOnTV {
+    format("Hey! Are you watching?\nAm I on TV?$")
+}
+
+text SlateportCity_Text_GetNameRaterToHelpYou {
+    format("If you want to change your POKéMON's\nnickname, you'll have to get the NAME\lRATER to help you.$")
+}
+
+text SlateportCity_Text_WonderIfLighthouseStartlesPokemon {
+    format("The light of the lighthouse reaches\ndozens of miles away.\pI wonder if it doesn't startle POKéMON\nin the sea.$")
+}
+
+text SlateportCity_Text_YouDroveTeamAquaAway {
+    format("SCOTT: Huh?\nI'm sure I met you somewhere before.\pHave I introduced myself to you?\nIf not, my name's SCOTT.\pI just saw TEAM AQUA run away from\nhere like they were stung.\pLet me guess--you drove them away?$")
+}
+
+text SlateportCity_Text_SternMoveAheadWithExploration {
+    format("CAPT. STERN: Yes, indeed. We intend to\nmove ahead with our exploration.$")
+}
+
+text SlateportCity_Text_SternsShipyardFerryComplete {
+    format("STERN'S SHIPYARD\p“Boarding of the SLATEPORT-LILYCOVE\nferry S.S. TIDAL is handled at the\lHARBOR.”$")
+}
+
+text SlateportCity_Text_CaptainComeBackWithBigFish {
+    format("What's going on here?\pDid the good CAPTAIN come back with\na big fish from the ocean floor?$")
+}
+
+text SlateportCity_Text_BattleTentBuiltRecently {
+    format("Recently, a BATTLE TENT was built\nin SLATEPORT.\pGYMS are fun, but the BATTLE TENT's\nawesome in its own way.\pYou should go find tough POKéMON\nfor the BATTLE TENT!$")
+}
+
+text SlateportCity_Text_WhatsNewSchemeIWonder {
+    format("What's the new scheme, I wonder?\pOur BOSS is scary when he's mad, so\nI'd better not screw things up…$")
+}
+
+text SlateportCity_Text_ExplainBerryPowder {
+    format("I recently had machines installed at\nPOKéMON CENTERS for crushing BERRIES.\pThe BERRY CRUSH machines are at\nthe DIRECT CORNER upstairs.\pDid you know?\pCould you make BERRY POWDER for\nme using those machines?\pI can make you all sorts of medicine\nif you bring me lots of BERRY POWDER.$")
+}
+
+text SlateportCity_Text_SternSaysDiscoveredSomething {
+    format("CAPT. STERN says they discovered\nsomething at the bottom of the sea.\pI wonder what it is?\nWhat could it be?$")
 }

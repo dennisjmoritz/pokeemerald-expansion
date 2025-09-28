@@ -65,3 +65,19 @@ script AbandonedShip_HiddenFloorCorridors_EventScript_Room6Door {
 text AbandonedShip_HiddenFloorCorridors_Text_InsertedKey {
     format("{PLAYER} inserted and turned the KEY.\p The inserted KEY stuck fast, but the door opened.")
 }
+
+text AbandonedShip_HiddenFloorCorridors_Text_Rm4DoorIsLocked {
+    format("The door is locked.\p“RM. 4” is painted on the door.$")
+}
+
+text AbandonedShip_HiddenFloorCorridors_Text_Rm1DoorIsLocked {
+    format("The door is locked.\p“RM. 1” is painted on the door.$")
+}
+
+text AbandonedShip_HiddenFloorCorridors_Text_Rm2DoorIsLocked {
+    format("The door is locked.\p“RM. 2” is painted on the door.$")
+}
+
+text AbandonedShip_HiddenFloorCorridors_Text_Rm6DoorIsLocked {
+    format("The door is locked.\p“RM. 6” is painted on the door.$")
+}

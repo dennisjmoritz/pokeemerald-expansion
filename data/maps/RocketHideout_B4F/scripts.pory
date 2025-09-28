@@ -31,37 +31,37 @@ script RocketHideout_B4F_EventScript_SilphScope {
 
 
 text RocketHideout_B4F_Text_Grunt1Defeat {
-    "Placeholder text for RocketHideout_B4F_Text_Grunt1Defeat"
+    format("Placeholder text for RocketHideout_B4F_Text_Grunt1Defeat")
 }
 
 text RocketHideout_B4F_Text_Grunt1Intro {
-    "Placeholder text for RocketHideout_B4F_Text_Grunt1Intro"
+    format("Placeholder text for RocketHideout_B4F_Text_Grunt1Intro")
 }
 
 text RocketHideout_B4F_Text_Grunt1PostBattle {
-    "Placeholder text for RocketHideout_B4F_Text_Grunt1PostBattle"
+    format("Placeholder text for RocketHideout_B4F_Text_Grunt1PostBattle")
 }
 
 text RocketHideout_B4F_Text_Grunt2Defeat {
-    "Placeholder text for RocketHideout_B4F_Text_Grunt2Defeat"
+    format("Placeholder text for RocketHideout_B4F_Text_Grunt2Defeat")
 }
 
 text RocketHideout_B4F_Text_Grunt2Intro {
-    "Placeholder text for RocketHideout_B4F_Text_Grunt2Intro"
+    format("Placeholder text for RocketHideout_B4F_Text_Grunt2Intro")
 }
 
 text RocketHideout_B4F_Text_Grunt2PostBattle {
-    "Placeholder text for RocketHideout_B4F_Text_Grunt2PostBattle"
+    format("Placeholder text for RocketHideout_B4F_Text_Grunt2PostBattle")
 }
 
 text RocketHideout_B4F_Text_Grunt3Defeat {
-    "Placeholder text for RocketHideout_B4F_Text_Grunt3Defeat"
+    format("Placeholder text for RocketHideout_B4F_Text_Grunt3Defeat")
 }
 
 text RocketHideout_B4F_Text_Grunt3Intro {
-    "Placeholder text for RocketHideout_B4F_Text_Grunt3Intro"
+    format("Placeholder text for RocketHideout_B4F_Text_Grunt3Intro")
 }
 
 text RocketHideout_B4F_Text_Grunt3PostBattle {
-    "Placeholder text for RocketHideout_B4F_Text_Grunt3PostBattle"
+    format("Placeholder text for RocketHideout_B4F_Text_Grunt3PostBattle")
 }

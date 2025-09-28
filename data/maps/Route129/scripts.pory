@@ -29,61 +29,61 @@ script Route129_EventScript_Tisha {
 
 
 text Route129_Text_AllisonDefeat {
-    "I was sure I'd win!"
+    format("I was sure I'd win!")
 }
 
 text Route129_Text_AllisonIntro {
-    "I'm in the middle of a triathlon,\nbut, sure, why don't we battle?"
+    format("I'm in the middle of a triathlon, but, sure, why don't we battle?")
 }
 
 text Route129_Text_AllisonPostBattle {
-    "Do you know what's the greatest thing\nabout triathlons?\pTesting the limits of your own\nstrength and endurance against\nMother Nature!"
+    format("Do you know what's the greatest thing about triathlons?\pTesting the limits of your own strength and endurance against Mother Nature!")
 }
 
 text Route129_Text_ChaseDefeat {
-    "Wroooaaar!\nI failed to win!"
+    format("Wroooaaar! I failed to win!")
 }
 
 text Route129_Text_ChaseIntro {
-    "This is my first triathlon.\nI'm all tense and nervous!"
+    format("This is my first triathlon. I'm all tense and nervous!")
 }
 
 text Route129_Text_ChasePostBattle {
-    "If I'm all tensed up, I won't be able to\ngive it my all."
+    format("If I'm all tensed up, I won't be able to give it my all.")
 }
 
 text Route129_Text_ClarenceDefeat {
-    "Winning sure isn't easy."
+    format("Winning sure isn't easy.")
 }
 
 text Route129_Text_ClarenceIntro {
-    "Surfing isn't as easy as it seems,\nisn't that right?"
+    format("Surfing isn't as easy as it seems, isn't that right?")
 }
 
 text Route129_Text_ClarencePostBattle {
-    "You have your sights on the POKéMON\nLEAGUE? Keep at it!"
+    format("You have your sights on the POKéMON LEAGUE? Keep at it!")
 }
 
 text Route129_Text_ReedDefeat {
-    "Beat, I'm beaten.\nThat's it, done!"
+    format("Beat, I'm beaten. That's it, done!")
 }
 
 text Route129_Text_ReedIntro {
-    "Say hey, hey!\nLet's get on with it!"
+    format("Say hey, hey! Let's get on with it!")
 }
 
 text Route129_Text_ReedPostBattle {
-    "There's nothing for a loser.\nTime for me to beat it home."
+    format("There's nothing for a loser. Time for me to beat it home.")
 }
 
 text Route129_Text_TishaDefeat {
-    "Oh, my.\nI wanted to relax a little more…"
+    format("Oh, my. I wanted to relax a little more…")
 }
 
 text Route129_Text_TishaIntro {
-    "What's the hurry?\nLet's take it slow and easy."
+    format("What's the hurry? Let's take it slow and easy.")
 }
 
 text Route129_Text_TishaPostBattle {
-    "Don't you hate making mistakes when\nyou're in a rush?\pThat's why I try to take things\nslowly."
+    format("Don't you hate making mistakes when you're in a rush?\pThat's why I try to take things slowly.")
 }

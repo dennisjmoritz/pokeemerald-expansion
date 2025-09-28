@@ -2,10 +2,12 @@ mapscripts OneIsland_KindleRoad_EmberSpa_MapScripts {
 }
 
 script OneIsland_KindleRoad_EmberSpa_EventScript_BaldingMan1 {
+    msgbox(OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder, MSGBOX_NPC)
     end
 }
 
 script OneIsland_KindleRoad_EmberSpa_EventScript_BaldingMan2 {
+    msgbox(OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic, MSGBOX_NPC)
     end
 }
 
@@ -14,10 +16,12 @@ script OneIsland_KindleRoad_EmberSpa_EventScript_BlackBelt {
 }
 
 script OneIsland_KindleRoad_EmberSpa_EventScript_OldMan {
+    msgbox(OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore, MSGBOX_NPC)
     end
 }
 
 script OneIsland_KindleRoad_EmberSpa_EventScript_OldWoman {
+    msgbox(OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs, MSGBOX_NPC)
     end
 }
 
@@ -29,3 +33,19 @@ script OneIsland_KindleRoad_EmberSpa_EventScript_SpaHeal {
     end
 }
 
+
+text OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder {
+    format("My favorite part of bathing comes\nup right after this.\pI enjoy a bowl of chowder to\nwarm me from the inside, too!$")
+}
+
+text OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic {
+    format("Soaking in a hot spring pool is\ntherapeutic, people say.$")
+}
+
+text OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore {
+    format("Hm!\nHaaaaaaaaaaah!\pAaaah! This is heavenly!\nThe water warms me to my core!\pYou should jump in, too.\pGo to the middle, relax, and get\ngood and warm!$")
+}
+
+text OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs {
+    format("Have a look at my face.\nSee how smooth my skin is?\pThe hot spring's water keeps my\nskin younger than my age.$")
+}

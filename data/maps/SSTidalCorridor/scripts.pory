@@ -2,6 +2,7 @@ mapscripts SSTidalCorridor_MapScripts {
 }
 
 script SSTidalCorridor_EventScript_Briney {
+    msgbox(SSTidalCorridor_Text_BrineyWelcomeAboard, MSGBOX_NPC)
     end
 }
 
@@ -30,6 +31,7 @@ script SSTidalCorridor_EventScript_ExitSailor {
 }
 
 script SSTidalCorridor_EventScript_Peeko {
+    msgbox(SSTidalCorridor_Text_Peeko, MSGBOX_DEFAULT)
     end
 }
 
@@ -68,4 +70,40 @@ text SSTidalCorridor_Text_Cabin4 {
 
 text SSTidalCorridor_Text_Cabin2 {
     format("Cabin 2")
+}
+
+text SSTidal_Text_MadeLandInLilycove {
+    format("We have made land in LILYCOVE CITY.\nThank you for sailing with us.$")
+}
+
+text SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage {
+    format("This ferry is built to plow through\nfast-running currents.\pWe hope you enjoy your voyage with us.\nFeel free to explore the ship.$")
+}
+
+text SSTidal_Text_MadeLandInSlateport {
+    format("We have made land in SLATEPORT CITY.\nThank you for sailing with us.$")
+}
+
+text SSTidalCorridor_Text_WeveArrived {
+    format("We've arrived!$")
+}
+
+text SSTidalCorridor_Text_Peeko {
+    format("PEEKO: Pihyo pihyohyo…$")
+}
+
+text SSTidalCorridor_Text_EnjoyYourCruise {
+    format("Enjoy your cruise!$")
+}
+
+text SSTidalCorridor_Text_ScottBattleFrontierInvite {
+    format("SCOTT: Well, hi, hi!\n{PLAYER}{KUN}, {PLAYER}{KUN}!\pSomething's come up, so I have to\ndisembark, but am I glad to see you!\pCongratulations, LEAGUE CHAMPION!\pThere's a place I'd like to invite\nsomeone like you.\pIt's the…\nBATTLE FRONTIER!\pWhat's the place like?\nYou'll understand when you see it!\pI've spoken with the ship's CAPTAIN\nabout this.\pThe next time you take a ferry,\nyou should be able to sail to\lthe BATTLE FRONTIER.\pOkay, {PLAYER}{KUN}, I'll be waiting for you\nat the BATTLE FRONTIER!$")
+}
+
+text SSTidalCorridor_Text_BrineyWelcomeAboard {
+    format("MR. BRINEY: Welcome aboard, {PLAYER}{KUN}!\pThey made me honorary captain of\nthe S.S. TIDAL!\pYou can call me CAPTAIN BRINEY now!\pYou know, I retired once before,\nbut when I saw this majestic ship…\pLet me just say, it stirred my sleeping\nsoul as a sailor!$")
+}
+
+text SSTidal_Text_HopeYouEnjoyVoyage {
+    format("We hope you enjoy your voyage on\nour ferry.$")
 }

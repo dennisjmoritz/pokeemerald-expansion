@@ -2,10 +2,27 @@ mapscripts MirageTower_4F_MapScripts {
 }
 
 script MirageTower_4F_EventScript_ClawFossil {
+    msgbox(MirageTower_4F_Text_TakeClawFossil, MSGBOX_YESNO)
     end
 }
 
 script MirageTower_4F_EventScript_RootFossil {
+    msgbox(MirageTower_4F_Text_TakeRootFossil, MSGBOX_YESNO)
     end
 }
 
+text MirageTower_4F_Text_LeaveClawFossilAlone {
+    format("{PLAYER} left the CLAW FOSSIL alone.$")
+}
+
+text MirageTower_4F_Text_TakeRootFossil {
+    format("You found the ROOT FOSSIL.\pIf this FOSSIL is taken, the ground\naround it will likely crumble away…\pTake the ROOT FOSSIL anyway?$")
+}
+
+text MirageTower_4F_Text_LeftRootFossilAlone {
+    format("{PLAYER} left the ROOT FOSSIL alone.$")
+}
+
+text MirageTower_4F_Text_TakeClawFossil {
+    format("You found the CLAW FOSSIL.\pIf this FOSSIL is taken, the ground\naround it will likely crumble away…\pTake the CLAW FOSSIL anyway?$")
+}

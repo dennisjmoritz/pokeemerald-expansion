@@ -41,37 +41,57 @@ script RustboroCity_Gym_EventScript_Tommy {
 
 
 text RustboroCity_Gym_Text_JoshDefeat {
-    "Placeholder text for RustboroCity_Gym_Text_JoshDefeat"
+    format("Placeholder text for RustboroCity_Gym_Text_JoshDefeat")
 }
 
 text RustboroCity_Gym_Text_JoshIntro {
-    "Placeholder text for RustboroCity_Gym_Text_JoshIntro"
+    format("Placeholder text for RustboroCity_Gym_Text_JoshIntro")
 }
 
 text RustboroCity_Gym_Text_JoshPostBattle {
-    "Placeholder text for RustboroCity_Gym_Text_JoshPostBattle"
+    format("Placeholder text for RustboroCity_Gym_Text_JoshPostBattle")
 }
 
 text RustboroCity_Gym_Text_MarcDefeat {
-    "Placeholder text for RustboroCity_Gym_Text_MarcDefeat"
+    format("Placeholder text for RustboroCity_Gym_Text_MarcDefeat")
 }
 
 text RustboroCity_Gym_Text_MarcIntro {
-    "Placeholder text for RustboroCity_Gym_Text_MarcIntro"
+    format("Placeholder text for RustboroCity_Gym_Text_MarcIntro")
 }
 
 text RustboroCity_Gym_Text_MarcPostBattle {
-    "Placeholder text for RustboroCity_Gym_Text_MarcPostBattle"
+    format("Placeholder text for RustboroCity_Gym_Text_MarcPostBattle")
 }
 
 text RustboroCity_Gym_Text_TommyDefeat {
-    "Placeholder text for RustboroCity_Gym_Text_TommyDefeat"
+    format("Placeholder text for RustboroCity_Gym_Text_TommyDefeat")
 }
 
 text RustboroCity_Gym_Text_TommyIntro {
-    "Placeholder text for RustboroCity_Gym_Text_TommyIntro"
+    format("Placeholder text for RustboroCity_Gym_Text_TommyIntro")
 }
 
 text RustboroCity_Gym_Text_TommyPostBattle {
-    "Placeholder text for RustboroCity_Gym_Text_TommyPostBattle"
+    format("Placeholder text for RustboroCity_Gym_Text_TommyPostBattle")
+}
+
+text RustboroCity_Gym_Text_RoxannePostRematch {
+    format("ROXANNE: I still have much to learn\nwhen it comes to battling POKéMON.\pThat awareness makes me love battling\nall that much more!$")
+}
+
+text RustboroCity_Gym_Text_GymGuidePostVictory {
+    format("Whoa! What a breathtaking victory!\nMy cheering must've worked!\pGreat!\nCheck your TRAINER CARD.\pThe STONE BADGE you got should be\nproperly recorded on it.\pIn other words…\pYou've climbed the first step on\nthe stairs to the CHAMPIONSHIP!\pThat's got to feel awesome!$")
+}
+
+text RustboroCity_Gym_Text_GymStatueCertified {
+    format("RUSTBORO CITY POKéMON GYM\pROXANNE'S CERTIFIED TRAINERS:\n{PLAYER}$")
+}
+
+text RustboroCity_Gym_Text_RegisteredRoxanne {
+    format("Registered GYM LEADER ROXANNE\nin the POKéNAV.$")
+}
+
+text RustboroCity_Gym_Text_GymStatue {
+    format("RUSTBORO CITY POKéMON GYM$")
 }

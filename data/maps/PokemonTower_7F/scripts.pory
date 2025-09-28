@@ -23,37 +23,37 @@ script PokemonTower_7F_EventScript_MrFuji {
 
 
 text PokemonTower_7F_Text_Grunt1Defeat {
-    "Placeholder text for PokemonTower_7F_Text_Grunt1Defeat"
+    format("Placeholder text for PokemonTower_7F_Text_Grunt1Defeat")
 }
 
 text PokemonTower_7F_Text_Grunt1Intro {
-    "Placeholder text for PokemonTower_7F_Text_Grunt1Intro"
+    format("Placeholder text for PokemonTower_7F_Text_Grunt1Intro")
 }
 
 text PokemonTower_7F_Text_Grunt1PostBattle {
-    "Placeholder text for PokemonTower_7F_Text_Grunt1PostBattle"
+    format("Placeholder text for PokemonTower_7F_Text_Grunt1PostBattle")
 }
 
 text PokemonTower_7F_Text_Grunt2Defeat {
-    "Placeholder text for PokemonTower_7F_Text_Grunt2Defeat"
+    format("Placeholder text for PokemonTower_7F_Text_Grunt2Defeat")
 }
 
 text PokemonTower_7F_Text_Grunt2Intro {
-    "Placeholder text for PokemonTower_7F_Text_Grunt2Intro"
+    format("Placeholder text for PokemonTower_7F_Text_Grunt2Intro")
 }
 
 text PokemonTower_7F_Text_Grunt2PostBattle {
-    "Placeholder text for PokemonTower_7F_Text_Grunt2PostBattle"
+    format("Placeholder text for PokemonTower_7F_Text_Grunt2PostBattle")
 }
 
 text PokemonTower_7F_Text_Grunt3Defeat {
-    "Placeholder text for PokemonTower_7F_Text_Grunt3Defeat"
+    format("Placeholder text for PokemonTower_7F_Text_Grunt3Defeat")
 }
 
 text PokemonTower_7F_Text_Grunt3Intro {
-    "Placeholder text for PokemonTower_7F_Text_Grunt3Intro"
+    format("Placeholder text for PokemonTower_7F_Text_Grunt3Intro")
 }
 
 text PokemonTower_7F_Text_Grunt3PostBattle {
-    "Placeholder text for PokemonTower_7F_Text_Grunt3PostBattle"
+    format("Placeholder text for PokemonTower_7F_Text_Grunt3PostBattle")
 }

@@ -9,3 +9,10 @@ script LittlerootTown_BrendansHouse_2F_EventScript_RivalsPokeBall {
     end
 }
 
+text PlayersHouse_2F_Text_ItsAGameCube {
+    format("It's a Nintendo GameCube.\pA Game Boy Advance is connected to\nserve as the Controller.$")
+}
+
+text PlayersHouse_2F_Text_Notebook {
+    format("{PLAYER} flipped open the notebook.\pADVENTURE RULE NO. 1\nOpen the MENU with START.\pADVENTURE RULE NO. 2\nRecord your progress with SAVE.\pThe remaining pages are blank…$")
+}

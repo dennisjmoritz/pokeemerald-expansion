@@ -2,10 +2,12 @@ mapscripts VerdanturfTown_PokemonCenter_1F_MapScripts {
 }
 
 script VerdanturfTown_PokemonCenter_1F_EventScript_ExpertM {
+    msgbox(VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent, MSGBOX_NPC)
     end
 }
 
 script VerdanturfTown_PokemonCenter_1F_EventScript_Gentleman {
+    msgbox(VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon, MSGBOX_NPC)
     end
 }
 
@@ -13,3 +15,10 @@ script VerdanturfTown_PokemonCenter_1F_EventScript_Nurse {
     end
 }
 
+text VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent {
+    format("The reason why anyone would visit\nVERDANTURF…\pIt's the BATTLE TENT. It goes without\nsaying.\pOr is there somebody here that you\ncame to see?$")
+}
+
+text VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon {
+    format("You can't consider yourself a real\nTRAINER if you don't have faith\lin your POKéMON.\pOnly those people who can believe\nin their battling POKéMON can win\lthrough to the very end.$")
+}

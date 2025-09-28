@@ -7,6 +7,7 @@ script SafariZone_Southwest_EventScript_RestHouseSign {
 }
 
 script SafariZone_Southwest_EventScript_Woman {
+    msgbox(SafariZone_Southwest_Text_Woman, MSGBOX_NPC)
     end
 }
 

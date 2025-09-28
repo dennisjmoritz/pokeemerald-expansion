@@ -2,6 +2,7 @@ mapscripts FiveIsland_ResortGorgeous_House_MapScripts {
 }
 
 script FiveIsland_ResortGorgeous_House_EventScript_Butler {
+    msgbox(FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun, MSGBOX_NPC)
     end
 }
 
@@ -9,3 +10,7 @@ script FiveIsland_ResortGorgeous_House_EventScript_Selphy {
     end
 }
 
+
+text FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun {
+    format("Butler: The smile of Lady SELPHY\nhas the brilliance of the sun.\pPlease, I beg you to bring joy\nto Lady SELPHY.$")
+}

@@ -22,6 +22,7 @@ script AbandonedShip_Corridors_B1F_EventScript_StorageRoomDoor {
 }
 
 script AbandonedShip_Corridors_B1F_EventScript_TuberM {
+    msgbox(AbandonedShip_Corridors_B1F_Text_YayItsAShip, MSGBOX_NPC)
     end
 }
 
@@ -32,13 +33,25 @@ text AbandonedShip_Corridors_B1F_Text_InsertedStorageKey {
 
 
 text AbandonedShip_Corridors_B1F_Text_DuncanDefeat {
-    "Placeholder text for AbandonedShip_Corridors_B1F_Text_DuncanDefeat"
+    format("Placeholder text for AbandonedShip_Corridors_B1F_Text_DuncanDefeat")
 }
 
 text AbandonedShip_Corridors_B1F_Text_DuncanIntro {
-    "Placeholder text for AbandonedShip_Corridors_B1F_Text_DuncanIntro"
+    format("Placeholder text for AbandonedShip_Corridors_B1F_Text_DuncanIntro")
 }
 
 text AbandonedShip_Corridors_B1F_Text_DuncanPostBattle {
-    "Placeholder text for AbandonedShip_Corridors_B1F_Text_DuncanPostBattle"
+    format("Placeholder text for AbandonedShip_Corridors_B1F_Text_DuncanPostBattle")
+}
+
+text AbandonedShip_Text_TheDoorIsOpen {
+    format("The door is open.$")
+}
+
+text AbandonedShip_Corridors_B1F_Text_YayItsAShip {
+    format("Yay!\nIt's a ship!$")
+}
+
+text AbandonedShip_Corridors_B1F_Text_DoorIsLocked {
+    format("The door is locked.\p“STORAGE” is painted on the door.$")
 }

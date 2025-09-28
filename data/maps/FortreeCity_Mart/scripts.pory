@@ -2,6 +2,7 @@ mapscripts FortreeCity_Mart_MapScripts {
 }
 
 script FortreeCity_Mart_EventScript_Boy {
+    msgbox(FortreeCity_Mart_Text_RareCandyMakesMonGrow, MSGBOX_NPC)
     end
 }
 
@@ -10,10 +11,23 @@ script FortreeCity_Mart_EventScript_Clerk {
 }
 
 script FortreeCity_Mart_EventScript_Girl {
+    msgbox(FortreeCity_Mart_Text_StockUpOnItems, MSGBOX_NPC)
     end
 }
 
 script FortreeCity_Mart_EventScript_Woman {
+    msgbox(FortreeCity_Mart_Text_SuperRepelBetter, MSGBOX_NPC)
     end
 }
 
+text FortreeCity_Mart_Text_RareCandyMakesMonGrow {
+    format("A RARE CANDY makes a POKéMON grow\nimmediately by one level.$")
+}
+
+text FortreeCity_Mart_Text_SuperRepelBetter {
+    format("SUPER REPEL lasts a long time,\nand it gets the job done.\pIt's much better than an ordinary\nREPEL.$")
+}
+
+text FortreeCity_Mart_Text_StockUpOnItems {
+    format("I always stock up on more items than\nI'm sure I'll need.\pYou never know what might happen.\nBetter to be safe than sorry!$")
+}

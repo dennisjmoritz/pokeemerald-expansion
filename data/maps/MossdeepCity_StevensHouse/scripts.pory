@@ -2,10 +2,12 @@ mapscripts MossdeepCity_StevensHouse_MapScripts {
 }
 
 script MossdeepCity_StevensHouse_EventScript_BeldumPokeball {
+    msgbox(MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum, MSGBOX_YESNO)
     end
 }
 
 script MossdeepCity_StevensHouse_EventScript_Letter {
+    msgbox(MossdeepCity_StevensHouse_Text_LetterFromSteven, MSGBOX_DEFAULT)
     end
 }
 
@@ -15,10 +17,27 @@ script MossdeepCity_StevensHouse_EventScript_RockDisplay {
 }
 
 script MossdeepCity_StevensHouse_EventScript_Steven {
+    msgbox(MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis, MSGBOX_NPC)
     end
 }
 
 
 text MossdeepCity_StevensHouse_Text_CollectionOfRareRocks {
     format("It's a collection of rare rocks and stones assembled by STEVEN.")
+}
+
+text MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum {
+    format("{PLAYER} checked the POKé BALL.\pIt contained the POKéMON\nBELDUM.\pTake the POKé BALL?$")
+}
+
+text MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas {
+    format("{PLAYER} left the POKé BALL where\nit was.$")
+}
+
+text MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis {
+    format("STEVEN: Apparently, there's an\nunderwater cavern between\lMOSSDEEP and SOOTOPOLIS.\pYou know, the one that CAPT. STERN\nfound in his submarine.$")
+}
+
+text MossdeepCity_StevensHouse_Text_LetterFromSteven {
+    format("It's a letter.\p… … … … … …\pTo {PLAYER}{KUN}…\pI've decided to do a little soul-\nsearching and train on the road.\pI don't plan to return home for some\ntime.\pI have a favor to ask of you.\pI want you to take the POKé BALL on\nthe desk.\pInside it is a BELDUM, my favorite\nPOKéMON.\pI'm counting on you.\pMay our paths cross someday.\pSTEVEN STONE$")
 }

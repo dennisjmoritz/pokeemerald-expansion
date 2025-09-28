@@ -2,6 +2,7 @@ mapscripts PacifidlogTown_House3_MapScripts {
 }
 
 script PacifidlogTown_House3_EventScript_Girl {
+    msgbox(PacifidlogTown_House3_Text_IsThatAPokedex, MSGBOX_NPC)
     end
 }
 
@@ -9,3 +10,18 @@ script PacifidlogTown_House3_EventScript_Trader {
     end
 }
 
+text PacifidlogTown_House3_Text_WontAcceptAnyLessThanRealMon {
+    format("No, no, no! I won't accept any\nless than a real {STR_VAR_1}!$")
+}
+
+text PacifidlogTown_House3_Text_ReallyWantedToGetBagon {
+    format("I know I could go looking for one\non my own, but…\pBut I really wanted to get a BAGON\nthat another TRAINER caught…$")
+}
+
+text PacifidlogTown_House3_Text_IsThatAPokedex {
+    format("Is that a POKéDEX?\pDid you get to meet a lot of different\nPOKéMON?\pI wish I was like you.$")
+}
+
+text PacifidlogTown_House3_Text_NotDesperateOrAnything {
+    format("Oh, so you're not going to go through\nwith this?\pThat's cool. I'm not desperate to make\na trade or anything.$")
+}

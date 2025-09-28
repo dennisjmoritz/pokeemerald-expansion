@@ -7,6 +7,7 @@ script Route104_EventScript_Billy {
 }
 
 script Route104_EventScript_Boy1 {
+    msgbox(Route104_Text_ThrowBallAtWeakenedPokemon, MSGBOX_NPC)
     end
 }
 
@@ -20,6 +21,7 @@ script Route104_EventScript_BrineysCottageSign {
 }
 
 script Route104_EventScript_BugCatcher {
+    msgbox(Route104_Text_WhatsItLikeAtBottomOfSea, MSGBOX_SIGN)
     end
 }
 
@@ -43,14 +45,17 @@ script Route104_EventScript_FlowerShopSign {
 }
 
 script Route104_EventScript_Gina {
+    msgbox(Route104_Text_GinaPostBattle, MSGBOX_DEFAULT)
     end
 }
 
 script Route104_EventScript_Girl1 {
+    msgbox(Route104_Text_BrineyLivesInSeasideCottage, MSGBOX_NPC)
     end
 }
 
 script Route104_EventScript_Girl2 {
+    msgbox(Route104_Text_ImNotATrainer, MSGBOX_NPC)
     end
 }
 
@@ -65,6 +70,7 @@ script Route104_EventScript_Ivan {
 }
 
 script Route104_EventScript_Mia {
+    msgbox(Route104_Text_MiaPostBattle, MSGBOX_DEFAULT)
     end
 }
 
@@ -101,6 +107,7 @@ script Route104_EventScript_Winston {
 }
 
 script Route104_EventScript_Woman {
+    msgbox(Route104_Text_OnlyThrowBallAtWildPokemon, MSGBOX_NPC)
     end
 }
 
@@ -127,73 +134,133 @@ text Route104_Text_RouteSignPetalburg {
 
 
 text Route104_Text_BillyDefeat {
-    "Waah! I got sand in my runners!\nThey're all gritty!"
+    format("Waah! I got sand in my runners! They're all gritty!")
 }
 
 text Route104_Text_BillyIntro {
-    "Leaving footprints in the sand is\nso fun!"
+    format("Leaving footprints in the sand is so fun!")
 }
 
 text Route104_Text_BillyPostBattle {
-    "I want to leave my footprints in\nthe sand everywhere, but they\ndisappear quickly…"
+    format("I want to leave my footprints in the sand everywhere, but they disappear quickly…")
 }
 
 text Route104_Text_CindyDefeat {
-    "Oh, my!"
+    format("Oh, my!")
 }
 
 text Route104_Text_CindyIntro {
-    "We must have been fated to meet.\nMay I ask you for a battle?"
+    format("We must have been fated to meet. May I ask you for a battle?")
 }
 
 text Route104_Text_CindyPostBattle {
-    "“Hello” is the beginning of “good-bye.”\nI hope we meet again."
+    format("“Hello” is the beginning of “good-bye.” I hope we meet again.")
 }
 
 text Route104_Text_DarianDefeat {
-    "What the…"
+    format("What the…")
 }
 
 text Route104_Text_DarianIntro {
-    "I fished up a tough-looking POKéMON!\pIt has this magical quality to it!\nIt surely looks tough, yes it does!"
+    format("I fished up a tough-looking POKéMON!\pIt has this magical quality to it! It surely looks tough, yes it does!")
 }
 
 text Route104_Text_DarianPostBattle {
-    "Hey, MAGIKARP, you sure don't live up\nto your name, do you?"
+    format("Hey, MAGIKARP, you sure don't live up to your name, do you?")
 }
 
 text Route104_Text_HaleyDefeat {
-    "I shouldn't have battled…"
+    format("I shouldn't have battled…")
 }
 
 text Route104_Text_HaleyIntro {
-    "Should I…\nOr shouldn't I?\pOkay, sure, I will battle!"
+    format("Should I… Or shouldn't I?\pOkay, sure, I will battle!")
 }
 
 text Route104_Text_HaleyPostBattle {
-    "If you're faced with a decision and\nyou let someone else choose for you,\nyou will regret it, however things\nturn out."
+    format("If you're faced with a decision and you let someone else choose for you, you will regret it, however things turn out.")
 }
 
 text Route104_Text_IvanDefeat {
-    "I thought I wasn't too bad, if I may\nsay so, but I guess not… Bleah…"
+    format("I thought I wasn't too bad, if I may say so, but I guess not… Bleah…")
 }
 
 text Route104_Text_IvanIntro {
-    "Why keep it a secret?\nI'm the WATER POKéMON expert!\pHuh?\nYou don't know me?"
+    format("Why keep it a secret? I'm the WATER POKéMON expert!\pHuh? You don't know me?")
 }
 
 text Route104_Text_IvanPostBattle {
-    "I got too into fishing.\nI forgot I had to raise my POKéMON…"
+    format("I got too into fishing. I forgot I had to raise my POKéMON…")
 }
 
 text Route104_Text_WinstonDefeat {
-    "Why couldn't I win?"
+    format("Why couldn't I win?")
 }
 
 text Route104_Text_WinstonIntro {
-    "Oh, sure, I'll accept your challenge.\nI have a lot of money."
+    format("Oh, sure, I'll accept your challenge. I have a lot of money.")
 }
 
 text Route104_Text_WinstonPostBattle {
-    "There are some things money can't buy.\nThat's POKéMON…"
+    format("There are some things money can't buy. That's POKéMON…")
+}
+
+text Route104_Text_BrendanPostBattle {
+    format("BRENDAN: You've gotten pretty decent\nat handling POKéMON.\pBut, you know, you shouldn't just be\nmaking POKéMON battle.\pLike MR. BRINEY, it's important to\nbecome friends with your POKéMON.$")
+}
+
+text Route104_Text_OnlyThrowBallAtWildPokemon {
+    format("You're a thief if you try to steal\nsomeone else's POKéMON.\pYou should throw POKé BALLS only at\nwild POKéMON.$")
+}
+
+text Route104_Text_TMsAreOneTimeUse {
+    format("A word of advice!\pA TM, TECHNICAL MACHINE, is good only\nfor one-time use.\pOnce you use it, it's gone.\nThink twice before using it!$")
+}
+
+text Route104_Text_FlowerShopSellingSaplings {
+    format("This FLOWER SHOP started selling\nsaplings recently.\pIt made me so happy, I went overboard\nshopping. Where should I put them?$")
+}
+
+text Route104_Text_ImNotATrainer {
+    format("Oh, no, I'm not a TRAINER.\pBut that's right, if TRAINERS lock eyes,\nit's a challenge to battle.\pIf you don't want to battle, stay out\nof their sight.$")
+}
+
+text Route104_Text_BrendanLetsBattle {
+    format("BRENDAN: What's up?\nWant to have a battle with me?$")
+}
+
+text Route104_Text_MayLetsBattle {
+    format("MAY: So, what do you think?\nHow about a little battle here?$")
+}
+
+text Route104_Text_WhatsItLikeAtBottomOfSea {
+    format("The sea, huh?\pI wonder what it's like at the bottom\nof the sea?$")
+}
+
+text Route104_Text_ThrowBallAtWeakenedPokemon {
+    format("If you're going to throw a POKé BALL,\nweaken the wild POKéMON first.\pIt will be easier to catch if it's been\npoisoned, burned, or lulled to sleep.$")
+}
+
+text Route104_Text_MayIntro {
+    format("MAY: You just became a TRAINER,\n{PLAYER}{KUN}. I'm not going to lose!$")
+}
+
+text Route104_Text_BrendanIntro {
+    format("BRENDAN: I know you just became\na TRAINER, but I won't go easy!$")
+}
+
+text Route104_Text_MayPostBattle {
+    format("MAY: I can tell you've gotten pretty\ngood with the way you handle POKéMON.\pBut instead of only making them\nbattle, you should be like MR. BRINEY.\pIt's important to become friends with\nPOKéMON, too.$")
+}
+
+text Route104_Text_BrineyLivesInSeasideCottage {
+    format("That seaside cottage is where\nMR. BRINEY lives.\pHe was once a mighty sailor who never\nfeared the sea, however stormy.$")
+}
+
+text Route104_Text_GinaPostBattle {
+    format("GINA: You are strong!\nWe have to train lots more!$")
+}
+
+text Route104_Text_MiaPostBattle {
+    format("MIA: We will train our POKéMON more\nand be strong like you.$")
 }

@@ -71,6 +71,7 @@ script Route123_EventScript_Kindra {
 }
 
 script Route123_EventScript_Miu {
+    msgbox(Route123_Text_MiuPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -95,6 +96,7 @@ script Route123_EventScript_Wendy {
 }
 
 script Route123_EventScript_Yuki {
+    msgbox(Route123_Text_YukiPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -113,169 +115,181 @@ text Route123_Text_BerryMastersHouse {
 
 
 text Route123_Text_AlbertoDefeat {
-    "Even in defeat, BIRD POKéMON are cool!"
+    format("Even in defeat, BIRD POKéMON are cool!")
 }
 
 text Route123_Text_AlbertoIntro {
-    "I have to tell you, BIRD POKéMON\nare my obsession!\pBirds are cool!\nThey're the best!"
+    format("I have to tell you, BIRD POKéMON are my obsession!\pBirds are cool! They're the best!")
 }
 
 text Route123_Text_AlbertoPostBattle {
-    "I gather BIRD POKéMON feathers that\nscatter during battles.\pI'm going to make a hat with\nBIRD POKéMON feathers."
+    format("I gather BIRD POKéMON feathers that scatter during battles.\pI'm going to make a hat with BIRD POKéMON feathers.")
 }
 
 text Route123_Text_BraxtonDefeat {
-    "Oh, you're worthy, all right!"
+    format("Oh, you're worthy, all right!")
 }
 
 text Route123_Text_BraxtonIntro {
-    "You seem to have a big collection\nof GYM BADGES.\pLet me see if you're actually worthy of\nthose BADGES!"
+    format("You seem to have a big collection of GYM BADGES.\pLet me see if you're actually worthy of those BADGES!")
 }
 
 text Route123_Text_BraxtonPostBattle {
-    "You did your BADGES proud in that\nmatch!"
+    format("You did your BADGES proud in that match!")
 }
 
 text Route123_Text_CameronDefeat {
-    "I feel sad…"
+    format("I feel sad…")
 }
 
 text Route123_Text_CameronIntro {
-    "Being a psychic is about willpower.\pI've willed myself not to lose to\nanyone. That makes me strong!"
+    format("Being a psychic is about willpower.\pI've willed myself not to lose to anyone. That makes me strong!")
 }
 
 text Route123_Text_CameronPostBattle {
-    "Being a psychic is about willpower.\nI thought I wouldn't lose to you…"
+    format("Being a psychic is about willpower. I thought I wouldn't lose to you…")
 }
 
 text Route123_Text_DavisDefeat {
-    "Waaaah!\nYou meanie!"
+    format("Waaaah! You meanie!")
 }
 
 text Route123_Text_DavisIntro {
-    "This is my awesome BUG POKéMON!\nMy big brother got it for me."
+    format("This is my awesome BUG POKéMON! My big brother got it for me.")
 }
 
 text Route123_Text_DavisPostBattle {
-    "Don't tell my brother I lost.\nYou have to keep it a secret!"
+    format("Don't tell my brother I lost. You have to keep it a secret!")
 }
 
 text Route123_Text_EdDefeat {
-    "I kind of like your POKéMON."
+    format("I kind of like your POKéMON.")
 }
 
 text Route123_Text_EdIntro {
-    "When there are no TRAINERS around,\nI let my POKéMON battle each other.\nI watch them."
+    format("When there are no TRAINERS around, I let my POKéMON battle each other. I watch them.")
 }
 
 text Route123_Text_EdPostBattle {
-    "Hehe, I'm swiping your battling ideas!\nI think they'll make me better."
+    format("Hehe, I'm swiping your battling ideas! I think they'll make me better.")
 }
 
 text Route123_Text_FernandoDefeat {
-    "Hey, hold it!\nI was still playing the intro!"
+    format("Hey, hold it! I was still playing the intro!")
 }
 
 text Route123_Text_FernandoIntro {
-    "I'll turn your lights out while\nI rip through this tune!"
+    format("I'll turn your lights out while I rip through this tune!")
 }
 
 text Route123_Text_FernandoPostBattle {
-    "You're rock steady.\nI'd like to write a tune about you."
+    format("You're rock steady. I'd like to write a tune about you.")
 }
 
 text Route123_Text_FrederickDefeat {
-    "Ah, a mighty capable child!\nLet me contribute to your allowance."
+    format("Ah, a mighty capable child! Let me contribute to your allowance.")
 }
 
 text Route123_Text_FrederickIntro {
-    "Hello, child!\nCan you spare some time?"
+    format("Hello, child! Can you spare some time?")
 }
 
 text Route123_Text_FrederickPostBattle {
-    "Contribute to your allowance?\nWasn't the prize money enough?"
+    format("Contribute to your allowance? Wasn't the prize money enough?")
 }
 
 text Route123_Text_JackiDefeat {
-    "Overwhelmed!"
+    format("Overwhelmed!")
 }
 
 text Route123_Text_JackiIntro {
-    "Don't be too happy if your POKéMON\ndevelop psychic powers.\pYou need to refine those powers to\nmake them really useful."
+    format("Don't be too happy if your POKéMON develop psychic powers.\pYou need to refine those powers to make them really useful.")
 }
 
 text Route123_Text_JackiPostBattle {
-    "We all have psychic powers.\nWe've just forgotten how to use them."
+    format("We all have psychic powers. We've just forgotten how to use them.")
 }
 
 text Route123_Text_JazmynDefeat {
-    "There goes my confidence…"
+    format("There goes my confidence…")
 }
 
 text Route123_Text_JazmynIntro {
-    "My confidence will get a boost by\nbeating someone obviously strong!"
+    format("My confidence will get a boost by beating someone obviously strong!")
 }
 
 text Route123_Text_JazmynPostBattle {
-    "They say that you can't judge a person\nby their appearance.\pBut often, their looks don't lie…"
+    format("They say that you can't judge a person by their appearance.\pBut often, their looks don't lie…")
 }
 
 text Route123_Text_JonasDefeat {
-    "If you don't lose, how am I supposed\nto have fun playing ninja?"
+    format("If you don't lose, how am I supposed to have fun playing ninja?")
 }
 
 text Route123_Text_JonasIntro {
-    "I lay in ambush, and a TRAINER has\nlanded in my trap!"
+    format("I lay in ambush, and a TRAINER has landed in my trap!")
 }
 
 text Route123_Text_JonasPostBattle {
-    "I'm going to ambush a weaker-looking\nTRAINER next time."
+    format("I'm going to ambush a weaker-looking TRAINER next time.")
 }
 
 text Route123_Text_KayleyDefeat {
-    "You're better than me by about\nfive times!"
+    format("You're better than me by about five times!")
 }
 
 text Route123_Text_KayleyIntro {
-    "I just bought this parasol.\nMy cuteness should be up by a third!"
+    format("I just bought this parasol. My cuteness should be up by a third!")
 }
 
 text Route123_Text_KayleyPostBattle {
-    "Using accessories effectively is\nthe secret behind fashion appeal."
+    format("Using accessories effectively is the secret behind fashion appeal.")
 }
 
 text Route123_Text_KindraDefeat {
-    "Overflowing with vitality…"
+    format("Overflowing with vitality…")
 }
 
 text Route123_Text_KindraIntro {
-    "MT. PYRE…\nWhere the spirits of POKéMON sleep…\nWill your POKéMON sleep?"
+    format("MT. PYRE… Where the spirits of POKéMON sleep… Will your POKéMON sleep?")
 }
 
 text Route123_Text_KindraPostBattle {
-    "MT. PYRE…\nWhere the spirits of POKéMON sleep…\pIt must overflow with a power that\nsoothes spirits…"
+    format("MT. PYRE… Where the spirits of POKéMON sleep…\pIt must overflow with a power that soothes spirits…")
 }
 
 text Route123_Text_VioletDefeat {
-    "Oh…\nI smell the bitter scent of misery…"
+    format("Oh… I smell the bitter scent of misery…")
 }
 
 text Route123_Text_VioletIntro {
-    "They say that good times are filled\nwith good aromas."
+    format("They say that good times are filled with good aromas.")
 }
 
 text Route123_Text_VioletPostBattle {
-    "The BERRY MASTER's garden is filled\nwith uplifting fragrances."
+    format("The BERRY MASTER's garden is filled with uplifting fragrances.")
 }
 
 text Route123_Text_WendyDefeat {
-    "You passed with flying colors!"
+    format("You passed with flying colors!")
 }
 
 text Route123_Text_WendyIntro {
-    "Want to determine how strong you are?\nI'll be the test!"
+    format("Want to determine how strong you are? I'll be the test!")
 }
 
 text Route123_Text_WendyPostBattle {
-    "To best even me…\nYour strength is marvelous!"
+    format("To best even me… Your strength is marvelous!")
+}
+
+text Route123_Text_CheckTreesWithMyGrassMon {
+    format("I check trees with my GRASS-type\nPOKéMON. I'm like a tree doctor.$")
+}
+
+text Route123_Text_MiuPostBattle {
+    format("MIU: TRAINER, your POKéMON are strong because you are friends.")
+}
+
+text Route123_Text_YukiPostBattle {
+    format("YUKI: Why are you so strong? We've never lost before.")
 }

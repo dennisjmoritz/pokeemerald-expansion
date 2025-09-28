@@ -2,6 +2,18 @@ mapscripts SootopolisCity_House2_MapScripts {
 }
 
 script SootopolisCity_House2_EventScript_ExpertF {
+    msgbox(SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs, MSGBOX_YESNO)
     end
 }
 
+text SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs {
+    format("MT. PYRE…\pAt its peak are two orbs placed side\nby side. Did you know?$")
+}
+
+text SootopolisCity_House2_Text_YesTwoOrbsSideBySide {
+    format("Yes, two orbs side by side…\pThe sight of them together…\nIt is somehow soothing…$")
+}
+
+text SootopolisCity_House2_Text_OughtToVisitAndSee {
+    format("Is that so?\nPerhaps you ought to visit and see…$")
+}

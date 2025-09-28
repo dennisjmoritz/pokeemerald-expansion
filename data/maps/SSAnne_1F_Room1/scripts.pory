@@ -2,6 +2,11 @@ mapscripts SSAnne_1F_Room1_MapScripts {
 }
 
 script SSAnne_1F_Room1_EventScript_Gentleman {
+    msgbox(SSAnne_1F_Room1_Text_ImAGlobalPoliceAgent, MSGBOX_NPC)
     end
 }
 
+
+text SSAnne_1F_Room1_Text_ImAGlobalPoliceAgent {
+    format("Ssh…!\nI'm a GLOBAL POLICE agent.\pI'm on the trail of TEAM ROCKET.\nThey're up to nothing good!$")
+}

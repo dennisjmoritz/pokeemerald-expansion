@@ -38,13 +38,13 @@ text PokemonMansion_1F_Text_ChristenedDiscoveredMonMew {
 
 
 text PokemonMansion_1F_Text_ArnieDefeat {
-    "Placeholder text for PokemonMansion_1F_Text_ArnieDefeat"
+    format("Placeholder text for PokemonMansion_1F_Text_ArnieDefeat")
 }
 
 text PokemonMansion_1F_Text_ArnieIntro {
-    "Placeholder text for PokemonMansion_1F_Text_ArnieIntro"
+    format("Placeholder text for PokemonMansion_1F_Text_ArnieIntro")
 }
 
 text PokemonMansion_1F_Text_ArniePostBattle {
-    "Placeholder text for PokemonMansion_1F_Text_ArniePostBattle"
+    format("Placeholder text for PokemonMansion_1F_Text_ArniePostBattle")
 }

@@ -7,6 +7,7 @@ script CeruleanCity_BikeShop_EventScript_Clerk {
 }
 
 script CeruleanCity_BikeShop_EventScript_Woman {
+    msgbox(CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe, MSGBOX_NPC)
     end
 }
 
@@ -17,4 +18,8 @@ script CeruleanCity_BikeShop_EventScript_Youngster {
 
 text CeruleanCity_BikeShop_Text_ShinyNewBicycle {
     format("A shiny new BICYCLE!")
+}
+
+text CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe {
+    format("A plain city bike is good enough\nfor me.\pAfter all, you can't put a shopping\nbasket on a mountain bike.$")
 }

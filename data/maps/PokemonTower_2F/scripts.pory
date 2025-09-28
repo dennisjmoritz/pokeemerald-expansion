@@ -2,6 +2,7 @@ mapscripts PokemonTower_2F_MapScripts {
 }
 
 script PokemonTower_2F_EventScript_Channeler {
+    msgbox(PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts, MSGBOX_NPC)
     end
 }
 
@@ -13,3 +14,7 @@ script PokemonTower_2F_EventScript_RivalTriggerRight {
     end
 }
 
+
+text PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts {
+    format("Even we could not identify the\nwayward ghosts.\pA SILPH SCOPE might be able to\nunmask them.$")
+}

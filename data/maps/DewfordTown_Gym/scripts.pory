@@ -56,73 +56,93 @@ script DewfordTown_Gym_EventScript_Takao {
 
 
 text DewfordTown_Gym_Text_BrendenDefeat {
-    "Placeholder text for DewfordTown_Gym_Text_BrendenDefeat"
+    format("Placeholder text for DewfordTown_Gym_Text_BrendenDefeat")
 }
 
 text DewfordTown_Gym_Text_BrendenIntro {
-    "Placeholder text for DewfordTown_Gym_Text_BrendenIntro"
+    format("Placeholder text for DewfordTown_Gym_Text_BrendenIntro")
 }
 
 text DewfordTown_Gym_Text_BrendenPostBattle {
-    "Placeholder text for DewfordTown_Gym_Text_BrendenPostBattle"
+    format("Placeholder text for DewfordTown_Gym_Text_BrendenPostBattle")
 }
 
 text DewfordTown_Gym_Text_CristianDefeat {
-    "Placeholder text for DewfordTown_Gym_Text_CristianDefeat"
+    format("Placeholder text for DewfordTown_Gym_Text_CristianDefeat")
 }
 
 text DewfordTown_Gym_Text_CristianIntro {
-    "Placeholder text for DewfordTown_Gym_Text_CristianIntro"
+    format("Placeholder text for DewfordTown_Gym_Text_CristianIntro")
 }
 
 text DewfordTown_Gym_Text_CristianPostBattle {
-    "Placeholder text for DewfordTown_Gym_Text_CristianPostBattle"
+    format("Placeholder text for DewfordTown_Gym_Text_CristianPostBattle")
 }
 
 text DewfordTown_Gym_Text_JocelynDefeat {
-    "Placeholder text for DewfordTown_Gym_Text_JocelynDefeat"
+    format("Placeholder text for DewfordTown_Gym_Text_JocelynDefeat")
 }
 
 text DewfordTown_Gym_Text_JocelynIntro {
-    "Placeholder text for DewfordTown_Gym_Text_JocelynIntro"
+    format("Placeholder text for DewfordTown_Gym_Text_JocelynIntro")
 }
 
 text DewfordTown_Gym_Text_JocelynPostBattle {
-    "Placeholder text for DewfordTown_Gym_Text_JocelynPostBattle"
+    format("Placeholder text for DewfordTown_Gym_Text_JocelynPostBattle")
 }
 
 text DewfordTown_Gym_Text_LauraDefeat {
-    "Placeholder text for DewfordTown_Gym_Text_LauraDefeat"
+    format("Placeholder text for DewfordTown_Gym_Text_LauraDefeat")
 }
 
 text DewfordTown_Gym_Text_LauraIntro {
-    "Placeholder text for DewfordTown_Gym_Text_LauraIntro"
+    format("Placeholder text for DewfordTown_Gym_Text_LauraIntro")
 }
 
 text DewfordTown_Gym_Text_LauraPostBattle {
-    "Placeholder text for DewfordTown_Gym_Text_LauraPostBattle"
+    format("Placeholder text for DewfordTown_Gym_Text_LauraPostBattle")
 }
 
 text DewfordTown_Gym_Text_LilithDefeat {
-    "Placeholder text for DewfordTown_Gym_Text_LilithDefeat"
+    format("Placeholder text for DewfordTown_Gym_Text_LilithDefeat")
 }
 
 text DewfordTown_Gym_Text_LilithIntro {
-    "Placeholder text for DewfordTown_Gym_Text_LilithIntro"
+    format("Placeholder text for DewfordTown_Gym_Text_LilithIntro")
 }
 
 text DewfordTown_Gym_Text_LilithPostBattle {
-    "Placeholder text for DewfordTown_Gym_Text_LilithPostBattle"
+    format("Placeholder text for DewfordTown_Gym_Text_LilithPostBattle")
 }
 
 text DewfordTown_Gym_Text_TakaoDefeat {
-    "Placeholder text for DewfordTown_Gym_Text_TakaoDefeat"
+    format("Placeholder text for DewfordTown_Gym_Text_TakaoDefeat")
 }
 
 text DewfordTown_Gym_Text_TakaoIntro {
-    "Placeholder text for DewfordTown_Gym_Text_TakaoIntro"
+    format("Placeholder text for DewfordTown_Gym_Text_TakaoIntro")
 }
 
 text DewfordTown_Gym_Text_TakaoPostBattle {
-    "Placeholder text for DewfordTown_Gym_Text_TakaoPostBattle"
+    format("Placeholder text for DewfordTown_Gym_Text_TakaoPostBattle")
+}
+
+text DewfordTown_Gym_Text_GymGuidePostVictory {
+    format("Whoah! It's turned too bright in here!\pYour future is bright, too!$")
+}
+
+text DewfordTown_Gym_Text_BrawlyPostRematch {
+    format("BRAWLY: Battling is vast and it's deep.\nYou can't see the bottom.\lIt's just like the sea of HOENN!$")
+}
+
+text DewfordTown_Gym_Text_ExplainBulkUp {
+    format("That TM08 contains BULK UP.\pIt's a move that raises both ATTACK\nand DEFENSE stats.\p… … … … … …$")
+}
+
+text DewfordTown_Gym_Text_GymStatue {
+    format("DEWFORD TOWN POKéMON GYM$")
+}
+
+text DewfordTown_Gym_Text_GymStatueCertified {
+    format("DEWFORD TOWN POKéMON GYM\pBRAWLY'S CERTIFIED TRAINERS:\n{PLAYER}$")
 }

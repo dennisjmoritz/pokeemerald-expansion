@@ -2,10 +2,23 @@ mapscripts SootopolisCity_House3_MapScripts {
 }
 
 script SootopolisCity_House3_EventScript_Girl {
+    msgbox(SootopolisCity_House3_Text_TrainerFanClubWasWild, MSGBOX_NPC)
     end
 }
 
 script SootopolisCity_House3_EventScript_Woman {
+    msgbox(SootopolisCity_House3_Text_JuanHasManyFansDoYou, MSGBOX_YESNO)
     end
 }
 
+text SootopolisCity_House3_Text_TrainerFanClubWasWild {
+    format("Dedicated fans come over from even\noutside of HOENN.\pIt was really wild when I went to the\nTRAINER FAN CLUB in LILYCOVE.$")
+}
+
+text SootopolisCity_House3_Text_JuanHasManyFansDoYou {
+    format("You're a POKéMON TRAINER, aren't you?\pSOOTOPOLIS's JUAN has many fans.\nEven more than his student WALLACE!\pDo you have any?$")
+}
+
+text SootopolisCity_House3_Text_YouMustBePrettyStrong {
+    format("Oh, then you must be pretty strong.$")
+}

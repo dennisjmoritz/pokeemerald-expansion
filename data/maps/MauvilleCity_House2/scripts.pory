@@ -5,3 +5,18 @@ script MauvilleCity_House2_EventScript_Woman {
     end
 }
 
+text MauvilleCity_House2_Text_IllTradeYouCoinCase {
+    format("Oh, I'm so happy!\nOkay, I'll trade you a COIN CASE!$")
+}
+
+text MauvilleCity_House2_Text_ThatsDisappointing {
+    format("Oh, that's disappointing.\pA COIN CASE is needed for the\nGAME CORNER.$")
+}
+
+text MauvilleCity_House2_Text_UseCoinCaseAtGameCorner {
+    format("That COIN CASE can be used\nat the GAME CORNER.$")
+}
+
+text MauvilleCity_House2_Text_TradeHarborMailForCoinCase {
+    format("Oh! You have HARBOR MAIL?\nWill you trade it for a COIN CASE?$")
+}

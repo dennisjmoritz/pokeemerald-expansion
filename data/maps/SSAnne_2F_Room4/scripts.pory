@@ -18,25 +18,25 @@ script SSAnne_2F_Room4_EventScript_Lamar {
 
 
 text SSAnne_2F_Room4_Text_DawnDefeat {
-    "Placeholder text for SSAnne_2F_Room4_Text_DawnDefeat"
+    format("Placeholder text for SSAnne_2F_Room4_Text_DawnDefeat")
 }
 
 text SSAnne_2F_Room4_Text_DawnIntro {
-    "Placeholder text for SSAnne_2F_Room4_Text_DawnIntro"
+    format("Placeholder text for SSAnne_2F_Room4_Text_DawnIntro")
 }
 
 text SSAnne_2F_Room4_Text_DawnPostBattle {
-    "Placeholder text for SSAnne_2F_Room4_Text_DawnPostBattle"
+    format("Placeholder text for SSAnne_2F_Room4_Text_DawnPostBattle")
 }
 
 text SSAnne_2F_Room4_Text_LamarDefeat {
-    "Placeholder text for SSAnne_2F_Room4_Text_LamarDefeat"
+    format("Placeholder text for SSAnne_2F_Room4_Text_LamarDefeat")
 }
 
 text SSAnne_2F_Room4_Text_LamarIntro {
-    "Placeholder text for SSAnne_2F_Room4_Text_LamarIntro"
+    format("Placeholder text for SSAnne_2F_Room4_Text_LamarIntro")
 }
 
 text SSAnne_2F_Room4_Text_LamarPostBattle {
-    "Placeholder text for SSAnne_2F_Room4_Text_LamarPostBattle"
+    format("Placeholder text for SSAnne_2F_Room4_Text_LamarPostBattle")
 }

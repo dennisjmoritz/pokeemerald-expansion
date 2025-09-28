@@ -32,37 +32,37 @@ text SilphCo_4F_Text_FloorSign {
 
 
 text SilphCo_4F_Text_Grunt1Defeat {
-    "Placeholder text for SilphCo_4F_Text_Grunt1Defeat"
+    format("Placeholder text for SilphCo_4F_Text_Grunt1Defeat")
 }
 
 text SilphCo_4F_Text_Grunt1Intro {
-    "Placeholder text for SilphCo_4F_Text_Grunt1Intro"
+    format("Placeholder text for SilphCo_4F_Text_Grunt1Intro")
 }
 
 text SilphCo_4F_Text_Grunt1PostBattle {
-    "Placeholder text for SilphCo_4F_Text_Grunt1PostBattle"
+    format("Placeholder text for SilphCo_4F_Text_Grunt1PostBattle")
 }
 
 text SilphCo_4F_Text_Grunt2Defeat {
-    "Placeholder text for SilphCo_4F_Text_Grunt2Defeat"
+    format("Placeholder text for SilphCo_4F_Text_Grunt2Defeat")
 }
 
 text SilphCo_4F_Text_Grunt2Intro {
-    "Placeholder text for SilphCo_4F_Text_Grunt2Intro"
+    format("Placeholder text for SilphCo_4F_Text_Grunt2Intro")
 }
 
 text SilphCo_4F_Text_Grunt2PostBattle {
-    "Placeholder text for SilphCo_4F_Text_Grunt2PostBattle"
+    format("Placeholder text for SilphCo_4F_Text_Grunt2PostBattle")
 }
 
 text SilphCo_4F_Text_RodneyDefeat {
-    "Placeholder text for SilphCo_4F_Text_RodneyDefeat"
+    format("Placeholder text for SilphCo_4F_Text_RodneyDefeat")
 }
 
 text SilphCo_4F_Text_RodneyIntro {
-    "Placeholder text for SilphCo_4F_Text_RodneyIntro"
+    format("Placeholder text for SilphCo_4F_Text_RodneyIntro")
 }
 
 text SilphCo_4F_Text_RodneyPostBattle {
-    "Placeholder text for SilphCo_4F_Text_RodneyPostBattle"
+    format("Placeholder text for SilphCo_4F_Text_RodneyPostBattle")
 }

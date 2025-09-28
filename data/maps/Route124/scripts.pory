@@ -56,85 +56,85 @@ text Route124_Text_HuntersHouse {
 
 
 text Route124_Text_ChadDefeat {
-    "Glub, glub, glub…\nI'm sinking…"
+    format("Glub, glub, glub… I'm sinking…")
 }
 
 text Route124_Text_ChadIntro {
-    "Fufufufu… I dive deep underwater\nto go deep under cover.\nPlumbing the depths is where I excel!"
+    format("Fufufufu… I dive deep underwater to go deep under cover. Plumbing the depths is where I excel!")
 }
 
 text Route124_Text_ChadPostBattle {
-    "I have it on good authority that\nthere's a DIVE spot around here.\pIt gives me the urge to go deep\nagain…"
+    format("I have it on good authority that there's a DIVE spot around here.\pIt gives me the urge to go deep again…")
 }
 
 text Route124_Text_DeclanDefeat {
-    "I'm feeling blue.\nBlue as the sky…"
+    format("I'm feeling blue. Blue as the sky…")
 }
 
 text Route124_Text_DeclanIntro {
-    "Here I am swimming by my lonesome\non this wide, beautiful sea.\pThere's no other word for it.\nThis is pathetic!"
+    format("Here I am swimming by my lonesome on this wide, beautiful sea.\pThere's no other word for it. This is pathetic!")
 }
 
 text Route124_Text_DeclanPostBattle {
-    "I should chat up lady SWIMMERS\nand invite them on a long swim."
+    format("I should chat up lady SWIMMERS and invite them on a long swim.")
 }
 
 text Route124_Text_GraceDefeat {
-    "I had no idea that you were\nthis strong!"
+    format("I had no idea that you were this strong!")
 }
 
 text Route124_Text_GraceIntro {
-    "I'm growing bored of swimming…\nHow about a battle?"
+    format("I'm growing bored of swimming… How about a battle?")
 }
 
 text Route124_Text_GracePostBattle {
-    "All the effort you put in must have\nmade you this strong."
+    format("All the effort you put in must have made you this strong.")
 }
 
 text Route124_Text_IsabellaDefeat {
-    "I've only got sweat in my eyes!\nI am not crying!"
+    format("I've only got sweat in my eyes! I am not crying!")
 }
 
 text Route124_Text_IsabellaIntro {
-    "I'm not going to lose to some\nsurfer TRAINER."
+    format("I'm not going to lose to some surfer TRAINER.")
 }
 
 text Route124_Text_IsabellaPostBattle {
-    "You can find pretty colored shards\nof things around here."
+    format("You can find pretty colored shards of things around here.")
 }
 
 text Route124_Text_JennyDefeat {
-    "Oh, darn.\nI've gone and lost."
+    format("Oh, darn. I've gone and lost.")
 }
 
 text Route124_Text_JennyIntro {
-    "If you just float in the sea like\nthis, POKéMON come around to play."
+    format("If you just float in the sea like this, POKéMON come around to play.")
 }
 
 text Route124_Text_JennyPostBattle {
-    "While swimming, I noticed that some\nPOKéMON attack, and some just watch.\pI guess POKéMON have personalities\nof their own."
+    format("While swimming, I noticed that some POKéMON attack, and some just watch.\pI guess POKéMON have personalities of their own.")
 }
 
 text Route124_Text_RolandDefeat {
-    "Oh!\nI can't…"
+    format("Oh! I can't…")
 }
 
 text Route124_Text_RolandIntro {
-    "Hm! You're riding a POKéMON instead\nof swimming yourself…\pI am envious!"
+    format("Hm! You're riding a POKéMON instead of swimming yourself…\pI am envious!")
 }
 
 text Route124_Text_RolandPostBattle {
-    "I'm getting chilled…\nI've been in the water too long…\pI wish I could ride a POKéMON like you…"
+    format("I'm getting chilled… I've been in the water too long…\pI wish I could ride a POKéMON like you…")
 }
 
 text Route124_Text_SpencerDefeat {
-    "I lost my bearings in battle!"
+    format("I lost my bearings in battle!")
 }
 
 text Route124_Text_SpencerIntro {
-    "Hey, are you lost at sea?\pIf you can beat my POKéMON,\nI can serve as your pilot."
+    format("Hey, are you lost at sea?\pIf you can beat my POKéMON, I can serve as your pilot.")
 }
 
 text Route124_Text_SpencerPostBattle {
-    "Many people lose their bearings at sea.\pIf you're that sort, you should refer\nto the POKéNAV's MAP."
+    format("Many people lose their bearings at sea.\pIf you're that sort, you should refer to the POKéNAV's MAP.")
 }

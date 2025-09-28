@@ -6,10 +6,23 @@ script MtPyre_1F_EventScript_CleanseTagWoman {
 }
 
 script MtPyre_1F_EventScript_Man {
+    msgbox(MtPyre_1F_Text_RestingPlaceOfZigzagoon, MSGBOX_NPC)
     end
 }
 
 script MtPyre_1F_EventScript_PokefanF {
+    msgbox(MtPyre_1F_Text_ComeToPayRespects, MSGBOX_NPC)
     end
 }
 
+text MtPyre_1F_Text_ExplainCleanseTag {
+    format("Have a POKéMON hold that\nCLEANSE TAG.\pIt will help ward off wild POKéMON.$")
+}
+
+text MtPyre_1F_Text_ComeToPayRespects {
+    format("Did you come to pay your respect\nto the spirits of departed POKéMON?\pYou must care for your POKéMON a lot.$")
+}
+
+text MtPyre_1F_Text_RestingPlaceOfZigzagoon {
+    format("This is the final resting place of my\nZIGZAGOON. I cherished it…$")
+}

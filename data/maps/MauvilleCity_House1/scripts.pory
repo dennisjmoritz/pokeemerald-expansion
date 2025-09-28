@@ -5,3 +5,6 @@ script MauvilleCity_House1_EventScript_RockSmashDude {
     end
 }
 
+text MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock {
+    format("Oh, yes, if you smash a rock, a POKéMON\ncould come flying out of hiding.\pWoohoo!$")
+}

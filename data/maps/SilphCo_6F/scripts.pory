@@ -48,37 +48,37 @@ text SilphCo_6F_Text_FloorSign {
 
 
 text SilphCo_6F_Text_Grunt1Defeat {
-    "Placeholder text for SilphCo_6F_Text_Grunt1Defeat"
+    format("Placeholder text for SilphCo_6F_Text_Grunt1Defeat")
 }
 
 text SilphCo_6F_Text_Grunt1Intro {
-    "Placeholder text for SilphCo_6F_Text_Grunt1Intro"
+    format("Placeholder text for SilphCo_6F_Text_Grunt1Intro")
 }
 
 text SilphCo_6F_Text_Grunt1PostBattle {
-    "Placeholder text for SilphCo_6F_Text_Grunt1PostBattle"
+    format("Placeholder text for SilphCo_6F_Text_Grunt1PostBattle")
 }
 
 text SilphCo_6F_Text_Grunt2Defeat {
-    "Placeholder text for SilphCo_6F_Text_Grunt2Defeat"
+    format("Placeholder text for SilphCo_6F_Text_Grunt2Defeat")
 }
 
 text SilphCo_6F_Text_Grunt2Intro {
-    "Placeholder text for SilphCo_6F_Text_Grunt2Intro"
+    format("Placeholder text for SilphCo_6F_Text_Grunt2Intro")
 }
 
 text SilphCo_6F_Text_Grunt2PostBattle {
-    "Placeholder text for SilphCo_6F_Text_Grunt2PostBattle"
+    format("Placeholder text for SilphCo_6F_Text_Grunt2PostBattle")
 }
 
 text SilphCo_6F_Text_TaylorDefeat {
-    "Placeholder text for SilphCo_6F_Text_TaylorDefeat"
+    format("Placeholder text for SilphCo_6F_Text_TaylorDefeat")
 }
 
 text SilphCo_6F_Text_TaylorIntro {
-    "Placeholder text for SilphCo_6F_Text_TaylorIntro"
+    format("Placeholder text for SilphCo_6F_Text_TaylorIntro")
 }
 
 text SilphCo_6F_Text_TaylorPostBattle {
-    "Placeholder text for SilphCo_6F_Text_TaylorPostBattle"
+    format("Placeholder text for SilphCo_6F_Text_TaylorPostBattle")
 }

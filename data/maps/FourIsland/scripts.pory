@@ -6,6 +6,7 @@ script FourIsland_EventScript_DaycareMan {
 }
 
 script FourIsland_EventScript_FatMan {
+    msgbox(FourIsland_Text_MadeSlushieUsingIcefallCaveIce, MSGBOX_NPC)
     end
 }
 
@@ -34,4 +35,8 @@ text FourIsland_Text_IslandSign {
 
 text FourIsland_Text_LoreleisHouse {
     format("LORELEI'S HOUSE")
+}
+
+text FourIsland_Text_MadeSlushieUsingIcefallCaveIce {
+    format("Ooh, chilly!\pI made a slushie using ice I\nshaved inside ICEFALL CAVE.\pIt's chilly and tasty!$")
 }

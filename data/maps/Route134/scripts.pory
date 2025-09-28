@@ -49,109 +49,109 @@ script Route134_EventScript_Reyna {
 
 
 text Route134_Text_AaronDefeat {
-    "I willingly concede defeat."
+    format("I willingly concede defeat.")
 }
 
 text Route134_Text_AaronIntro {
-    "The savage tide in this area serves to\nmake us stronger than ever."
+    format("The savage tide in this area serves to make us stronger than ever.")
 }
 
 text Route134_Text_AaronPostBattle {
-    "We will return for more training at\nMETEOR FALLS.\pIf you'd like, you should go, too.\nIt will definitely toughen you up!"
+    format("We will return for more training at METEOR FALLS.\pIf you'd like, you should go, too. It will definitely toughen you up!")
 }
 
 text Route134_Text_AlexDefeat {
-    "Tuckered out again…"
+    format("Tuckered out again…")
 }
 
 text Route134_Text_AlexIntro {
-    "Okeydokey! That's enough rest, gang!\nIt's time for a match!"
+    format("Okeydokey! That's enough rest, gang! It's time for a match!")
 }
 
 text Route134_Text_AlexPostBattle {
-    "My BIRD POKéMON get tired quickly after\na long flight…"
+    format("My BIRD POKéMON get tired quickly after a long flight…")
 }
 
 text Route134_Text_HitoshiDefeat {
-    "… … … … … …\n… … … … … …"
+    format("… … … … … … … … … … … …")
 }
 
 text Route134_Text_HitoshiIntro {
-    "You're a POKéMON TRAINER.\nNo need for words. We battle now."
+    format("You're a POKéMON TRAINER. No need for words. We battle now.")
 }
 
 text Route134_Text_HitoshiPostBattle {
-    "It was I who challenged you, and yet\nI lost. I am deeply shamed…"
+    format("It was I who challenged you, and yet I lost. I am deeply shamed…")
 }
 
 text Route134_Text_HudsonDefeat {
-    "Now, that's something!"
+    format("Now, that's something!")
 }
 
 text Route134_Text_HudsonIntro {
-    "Listen, have you seen another SAILOR\naround here?"
+    format("Listen, have you seen another SAILOR around here?")
 }
 
 text Route134_Text_HudsonPostBattle {
-    "Our boat drifted out to sea.\pMy buddy's a timid fellow, so I'm\nworried about him."
+    format("Our boat drifted out to sea.\pMy buddy's a timid fellow, so I'm worried about him.")
 }
 
 text Route134_Text_JackDefeat {
-    "Aiyeeeeh!"
+    format("Aiyeeeeh!")
 }
 
 text Route134_Text_JackIntro {
-    "Even those POKéMON that can swim are\ncarried along by the rapid currents."
+    format("Even those POKéMON that can swim are carried along by the rapid currents.")
 }
 
 text Route134_Text_JackPostBattle {
-    "I think POKéMON enjoy the fast-running\ncurrents around these parts."
+    format("I think POKéMON enjoy the fast-running currents around these parts.")
 }
 
 text Route134_Text_KelvinDefeat {
-    "Awawawawah!\nPlease, stop! Please!"
+    format("Awawawawah! Please, stop! Please!")
 }
 
 text Route134_Text_KelvinIntro {
-    "O-our boat!\nThe tide carried it away!"
+    format("O-our boat! The tide carried it away!")
 }
 
 text Route134_Text_KelvinPostBattle {
-    "If we can't SURF, how are we supposed\nto get home?\pActually, I know a fainted POKéMON\ncan still SURF, but it feels wrong."
+    format("If we can't SURF, how are we supposed to get home?\pActually, I know a fainted POKéMON can still SURF, but it feels wrong.")
 }
 
 text Route134_Text_LaurelDefeat {
-    "Oopsie!"
+    format("Oopsie!")
 }
 
 text Route134_Text_LaurelIntro {
-    "My LUVDISC are looking for a fun\nmatch. Will you join us?"
+    format("My LUVDISC are looking for a fun match. Will you join us?")
 }
 
 text Route134_Text_LaurelPostBattle {
-    "There's a collector who's after\nthe SCALES of LUVDISC."
+    format("There's a collector who's after the SCALES of LUVDISC.")
 }
 
 text Route134_Text_MarleyDefeat {
-    "I never knew such a technique existed!\nYou've defeated us thoroughly."
+    format("I never knew such a technique existed! You've defeated us thoroughly.")
 }
 
 text Route134_Text_MarleyIntro {
-    "Can your POKéMON dodge our\nlightning-quick attacks?"
+    format("Can your POKéMON dodge our lightning-quick attacks?")
 }
 
 text Route134_Text_MarleyPostBattle {
-    "I haven't lost my passion for speed.\nI will try harder."
+    format("I haven't lost my passion for speed. I will try harder.")
 }
 
 text Route134_Text_ReynaDefeat {
-    "You're kidding!\nExplain how I lost!"
+    format("You're kidding! Explain how I lost!")
 }
 
 text Route134_Text_ReynaIntro {
-    "My POKéMON can't be taken down\neasily!"
+    format("My POKéMON can't be taken down easily!")
 }
 
 text Route134_Text_ReynaPostBattle {
-    "Haha!\nYou won, all right!\pI'll work my way back up by taking on\nTRAINERS I happen to meet!"
+    format("Haha! You won, all right!\pI'll work my way back up by taking on TRAINERS I happen to meet!")
 }

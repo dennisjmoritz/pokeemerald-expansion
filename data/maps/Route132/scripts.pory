@@ -44,97 +44,97 @@ script Route132_EventScript_Ronald {
 
 
 text Route132_Text_DanaDefeat {
-    "Oh, please, no!"
+    format("Oh, please, no!")
 }
 
 text Route132_Text_DanaIntro {
-    "I try not to swim where the currents\nare too strong."
+    format("I try not to swim where the currents are too strong.")
 }
 
 text Route132_Text_DanaPostBattle {
-    "If I get swept away, I'll lose all my\nsense of place…"
+    format("If I get swept away, I'll lose all my sense of place…")
 }
 
 text Route132_Text_DarcyDefeat {
-    "Okay! I won't complain about other\npeople being here."
+    format("Okay! I won't complain about other people being here.")
 }
 
 text Route132_Text_DarcyIntro {
-    "I liked training here by myself.\nIt's awful that all these people came!"
+    format("I liked training here by myself. It's awful that all these people came!")
 }
 
 text Route132_Text_DarcyPostBattle {
-    "I suppose I can partner up with that\nold man and challenge that other team."
+    format("I suppose I can partner up with that old man and challenge that other team.")
 }
 
 text Route132_Text_GilbertDefeat {
-    "I crave more power…"
+    format("I crave more power…")
 }
 
 text Route132_Text_GilbertIntro {
-    "I used to catch colds all the time as\na kid, but I became totally fit after\nI started swimming."
+    format("I used to catch colds all the time as a kid, but I became totally fit after I started swimming.")
 }
 
 text Route132_Text_GilbertPostBattle {
-    "TRAINERS travel the fields and\nmountains, so they must be fit, too."
+    format("TRAINERS travel the fields and mountains, so they must be fit, too.")
 }
 
 text Route132_Text_JonathanDefeat {
-    "Wow!\nThat's pretty strong, all right!"
+    format("Wow! That's pretty strong, all right!")
 }
 
 text Route132_Text_JonathanIntro {
-    "Someone's been watching me intently.\nWas it you?"
+    format("Someone's been watching me intently. Was it you?")
 }
 
 text Route132_Text_JonathanPostBattle {
-    "I can't shake this feeling that\nsomeone's watching me.\pI can't concentrate!"
+    format("I can't shake this feeling that someone's watching me.\pI can't concentrate!")
 }
 
 text Route132_Text_KiyoDefeat {
-    "I lose.\nI will concede defeat."
+    format("I lose. I will concede defeat.")
 }
 
 text Route132_Text_KiyoIntro {
-    "I contemplate POKéMON 24 hours a day.\nHow could you possibly beat me?"
+    format("I contemplate POKéMON 24 hours a day. How could you possibly beat me?")
 }
 
 text Route132_Text_KiyoPostBattle {
-    "Urggh…\nYou're a POKéMON fanatic, aren't you?\pYou must contemplate POKéMON 24 hours\na day, don't you?"
+    format("Urggh… You're a POKéMON fanatic, aren't you?\pYou must contemplate POKéMON 24 hours a day, don't you?")
 }
 
 text Route132_Text_MakaylaDefeat {
-    "Oh, I guess I wasn't good enough."
+    format("Oh, I guess I wasn't good enough.")
 }
 
 text Route132_Text_MakaylaIntro {
-    "I'm always with my husband,\nbut I can win even without him."
+    format("I'm always with my husband, but I can win even without him.")
 }
 
 text Route132_Text_MakaylaPostBattle {
-    "That young man over there looks just\nlike my husband when he was young.\pHe's making me blush!"
+    format("That young man over there looks just like my husband when he was young.\pHe's making me blush!")
 }
 
 text Route132_Text_PaxtonDefeat {
-    "Ah, I see that I couldn't manage\nto win on my own after all."
+    format("Ah, I see that I couldn't manage to win on my own after all.")
 }
 
 text Route132_Text_PaxtonIntro {
-    "Now where could my wife have gone?\nI'm always with her.\nI wonder if I can win on my own."
+    format("Now where could my wife have gone? I'm always with her. I wonder if I can win on my own.")
 }
 
 text Route132_Text_PaxtonPostBattle {
-    "My wife must be looking for me.\nI'd best go find her right away."
+    format("My wife must be looking for me. I'd best go find her right away.")
 }
 
 text Route132_Text_RonaldDefeat {
-    "Waah!\nI sank in defeat!"
+    format("Waah! I sank in defeat!")
 }
 
 text Route132_Text_RonaldIntro {
-    "Win or lose, you'll never know until\nyou try!"
+    format("Win or lose, you'll never know until you try!")
 }
 
 text Route132_Text_RonaldPostBattle {
-    "I never battle when I know I'll win.\nI like to battle at the razor's edge of\nvictory and defeat!"
+    format("I never battle when I know I'll win. I like to battle at the razor's edge of victory and defeat!")
 }

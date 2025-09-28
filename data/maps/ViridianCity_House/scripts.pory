@@ -2,10 +2,12 @@ mapscripts ViridianCity_House_MapScripts {
 }
 
 script ViridianCity_House_EventScript_BaldingMan {
+    msgbox(ViridianCity_House_Text_NicknamingIsFun, MSGBOX_NPC)
     end
 }
 
 script ViridianCity_House_EventScript_LittleGirl {
+    msgbox(ViridianCity_House_Text_MyDaddyLovesMonsToo, MSGBOX_NPC)
     end
 }
 
@@ -21,4 +23,12 @@ script ViridianCity_House_EventScript_Speary {
 
 text ViridianCity_House_Text_SpearowNameSpeary {
     format("SPEAROW Name: SPEARY")
+}
+
+text ViridianCity_House_Text_NicknamingIsFun {
+    format("Coming up with nicknames is fun,\nbut it's not so easy to do.\pClever names are nice, but simple\nnames are easier to remember.$")
+}
+
+text ViridianCity_House_Text_MyDaddyLovesMonsToo {
+    format("My daddy loves POKéMON, too.$")
 }

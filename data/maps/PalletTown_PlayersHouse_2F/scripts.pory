@@ -2,6 +2,7 @@ mapscripts PalletTown_PlayersHouse_2F_MapScripts {
 }
 
 script PalletTown_PlayersHouse_2F_EventScript_NES {
+    msgbox(PalletTown_PlayersHouse_2F_Text_PlayedWithNES, MSGBOX_SIGN)
     end
 }
 
@@ -10,6 +11,15 @@ script PalletTown_PlayersHouse_2F_EventScript_PC {
 }
 
 script PalletTown_PlayersHouse_2F_EventScript_Sign {
+    msgbox(PalletTown_PlayersHouse_2F_Text_PressLRForHelp, MSGBOX_SIGN)
     end
 }
 
+
+text PalletTown_PlayersHouse_2F_Text_PlayedWithNES {
+    format("{PLAYER} played with the NES.\p…Okay!\nIt's time to go!$")
+}
+
+text PalletTown_PlayersHouse_2F_Text_PressLRForHelp {
+    format("It's a posted notice…\pIf you're confused, ask for HELP!\nPress the L or R Button!$")
+}

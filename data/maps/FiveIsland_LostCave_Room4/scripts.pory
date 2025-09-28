@@ -9,13 +9,13 @@ script FiveIsland_LostCave_Room4_EventScript_Laura {
 
 
 text FiveIsland_LostCave_Room4_Text_LauraDefeat {
-    "Placeholder text for FiveIsland_LostCave_Room4_Text_LauraDefeat"
+    format("Placeholder text for FiveIsland_LostCave_Room4_Text_LauraDefeat")
 }
 
 text FiveIsland_LostCave_Room4_Text_LauraIntro {
-    "Placeholder text for FiveIsland_LostCave_Room4_Text_LauraIntro"
+    format("Placeholder text for FiveIsland_LostCave_Room4_Text_LauraIntro")
 }
 
 text FiveIsland_LostCave_Room4_Text_LauraPostBattle {
-    "Placeholder text for FiveIsland_LostCave_Room4_Text_LauraPostBattle"
+    format("Placeholder text for FiveIsland_LostCave_Room4_Text_LauraPostBattle")
 }

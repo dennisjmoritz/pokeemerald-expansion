@@ -10,6 +10,7 @@ script LilycoveCity_DepartmentStoreRooftop_EventScript_SaleWoman {
 }
 
 script LilycoveCity_DepartmentStoreRooftop_EventScript_ThirstyMan {
+    msgbox(LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty, MSGBOX_NPC)
     end
 }
 
@@ -22,3 +23,18 @@ script LilycoveCity_DepartmentStoreRooftop_EventScript_VendingMachine {
     end
 }
 
+text LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty {
+    format("Ohh… I'm bone-dry thirsty!$")
+}
+
+text LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney {
+    format("Not enough money…$")
+}
+
+text LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink {
+    format("Decided against buying a drink.$")
+}
+
+text LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale {
+    format("Yes! I've been waiting a long time for\nthis clear-out sale.\pThey have items that you can only get\nhere. I'm going to load up, that I am!$")
+}

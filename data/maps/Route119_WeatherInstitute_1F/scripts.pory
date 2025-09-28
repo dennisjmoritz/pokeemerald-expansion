@@ -25,6 +25,7 @@ script Route119_WeatherInstitute_1F_EventScript_InstituteWorker1 {
 }
 
 script Route119_WeatherInstitute_1F_EventScript_InstituteWorker2 {
+    msgbox(Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo, MSGBOX_NPC)
     end
 }
 
@@ -39,25 +40,37 @@ text Route119_WeatherInstitute_1F_Text_TakeRestInBed {
 
 
 text Route119_WeatherInstitute_1F_Text_Grunt1Defeat {
-    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt1Defeat"
+    format("Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt1Defeat")
 }
 
 text Route119_WeatherInstitute_1F_Text_Grunt1Intro {
-    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt1Intro"
+    format("Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt1Intro")
 }
 
 text Route119_WeatherInstitute_1F_Text_Grunt1PostBattle {
-    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt1PostBattle"
+    format("Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt1PostBattle")
 }
 
 text Route119_WeatherInstitute_1F_Text_Grunt4Defeat {
-    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt4Defeat"
+    format("Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt4Defeat")
 }
 
 text Route119_WeatherInstitute_1F_Text_Grunt4Intro {
-    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt4Intro"
+    format("Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt4Intro")
 }
 
 text Route119_WeatherInstitute_1F_Text_Grunt4PostBattle {
-    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt4PostBattle"
+    format("Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt4PostBattle")
+}
+
+text Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs {
+    format("While I was sleeping, everyone went\nupstairs!$")
+}
+
+text Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo {
+    format("Hello!\nWe've been saved by your actions!\pWhat I don't understand is what on\nearth the AQUAS were up to.$")
+}
+
+text Route119_WeatherInstitute_1F_Text_ProfStudyingRain {
+    format("The PROFESSOR loves rain.\nThat's a fact.\pBut if it keeps raining, people will be in\ntrouble. That's another fact.\pAnd thus, the PROFESSOR is studying\nif the rain can be put to good use.$")
 }

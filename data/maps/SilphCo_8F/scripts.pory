@@ -44,37 +44,37 @@ text SilphCo_8F_Text_FloorSign {
 
 
 text SilphCo_8F_Text_Grunt1Defeat {
-    "Placeholder text for SilphCo_8F_Text_Grunt1Defeat"
+    format("Placeholder text for SilphCo_8F_Text_Grunt1Defeat")
 }
 
 text SilphCo_8F_Text_Grunt1Intro {
-    "Placeholder text for SilphCo_8F_Text_Grunt1Intro"
+    format("Placeholder text for SilphCo_8F_Text_Grunt1Intro")
 }
 
 text SilphCo_8F_Text_Grunt1PostBattle {
-    "Placeholder text for SilphCo_8F_Text_Grunt1PostBattle"
+    format("Placeholder text for SilphCo_8F_Text_Grunt1PostBattle")
 }
 
 text SilphCo_8F_Text_Grunt2Defeat {
-    "Placeholder text for SilphCo_8F_Text_Grunt2Defeat"
+    format("Placeholder text for SilphCo_8F_Text_Grunt2Defeat")
 }
 
 text SilphCo_8F_Text_Grunt2Intro {
-    "Placeholder text for SilphCo_8F_Text_Grunt2Intro"
+    format("Placeholder text for SilphCo_8F_Text_Grunt2Intro")
 }
 
 text SilphCo_8F_Text_Grunt2PostBattle {
-    "Placeholder text for SilphCo_8F_Text_Grunt2PostBattle"
+    format("Placeholder text for SilphCo_8F_Text_Grunt2PostBattle")
 }
 
 text SilphCo_8F_Text_ParkerDefeat {
-    "Placeholder text for SilphCo_8F_Text_ParkerDefeat"
+    format("Placeholder text for SilphCo_8F_Text_ParkerDefeat")
 }
 
 text SilphCo_8F_Text_ParkerIntro {
-    "Placeholder text for SilphCo_8F_Text_ParkerIntro"
+    format("Placeholder text for SilphCo_8F_Text_ParkerIntro")
 }
 
 text SilphCo_8F_Text_ParkerPostBattle {
-    "Placeholder text for SilphCo_8F_Text_ParkerPostBattle"
+    format("Placeholder text for SilphCo_8F_Text_ParkerPostBattle")
 }

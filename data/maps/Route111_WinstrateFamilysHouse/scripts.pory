@@ -6,6 +6,7 @@ script Route111_WinstrateFamilysHouse_EventScript_Vicky {
 }
 
 script Route111_WinstrateFamilysHouse_EventScript_Victor {
+    msgbox(Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou, MSGBOX_DEFAULT)
     end
 }
 
@@ -14,6 +15,22 @@ script Route111_WinstrateFamilysHouse_EventScript_Victoria {
 }
 
 script Route111_WinstrateFamilysHouse_EventScript_Vivi {
+    msgbox(Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers, MSGBOX_DEFAULT)
     end
 }
 
+text Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles {
+    format("When it comes to POKéMON battles,\nwe tend to be pretty passionate.$")
+}
+
+text Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers {
+    format("Mommy is stronger than Daddy.\pI'm stronger than Mommy.\pAnd Grandma's stronger than me!\pBut my big brother is even stronger\nthan Grandma.$")
+}
+
+text Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort {
+    format("My grandson must be challenging the\nPOKéMON LEAGUE CHAMPION by now.\pKnowing my grandson, he could be the\nCHAMPION already!$")
+}
+
+text Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou {
+    format("You're the first TRAINER I've seen who\ndeploys POKéMON so masterfully.\pBut, I should tell you--my son is\nstronger than you.\pHe even took the POKéMON LEAGUE\nchallenge, I'll have you know.$")
+}

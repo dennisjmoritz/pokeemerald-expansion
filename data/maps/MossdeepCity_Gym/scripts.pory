@@ -110,145 +110,165 @@ script MossdeepCity_Gym_EventScript_YellowFloorSwitch {
 
 
 text MossdeepCity_Gym_Text_BlakeDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_BlakeDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_BlakeDefeat")
 }
 
 text MossdeepCity_Gym_Text_BlakeIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_BlakeIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_BlakeIntro")
 }
 
 text MossdeepCity_Gym_Text_BlakePostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_BlakePostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_BlakePostBattle")
 }
 
 text MossdeepCity_Gym_Text_CliffordDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_CliffordDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_CliffordDefeat")
 }
 
 text MossdeepCity_Gym_Text_CliffordIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_CliffordIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_CliffordIntro")
 }
 
 text MossdeepCity_Gym_Text_CliffordPostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_CliffordPostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_CliffordPostBattle")
 }
 
 text MossdeepCity_Gym_Text_HannahDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_HannahDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_HannahDefeat")
 }
 
 text MossdeepCity_Gym_Text_HannahIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_HannahIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_HannahIntro")
 }
 
 text MossdeepCity_Gym_Text_HannahPostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_HannahPostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_HannahPostBattle")
 }
 
 text MossdeepCity_Gym_Text_KathleenDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_KathleenDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_KathleenDefeat")
 }
 
 text MossdeepCity_Gym_Text_KathleenIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_KathleenIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_KathleenIntro")
 }
 
 text MossdeepCity_Gym_Text_KathleenPostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_KathleenPostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_KathleenPostBattle")
 }
 
 text MossdeepCity_Gym_Text_MaceyDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_MaceyDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_MaceyDefeat")
 }
 
 text MossdeepCity_Gym_Text_MaceyIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_MaceyIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_MaceyIntro")
 }
 
 text MossdeepCity_Gym_Text_MaceyPostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_MaceyPostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_MaceyPostBattle")
 }
 
 text MossdeepCity_Gym_Text_MauraDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_MauraDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_MauraDefeat")
 }
 
 text MossdeepCity_Gym_Text_MauraIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_MauraIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_MauraIntro")
 }
 
 text MossdeepCity_Gym_Text_MauraPostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_MauraPostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_MauraPostBattle")
 }
 
 text MossdeepCity_Gym_Text_NateDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_NateDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_NateDefeat")
 }
 
 text MossdeepCity_Gym_Text_NateIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_NateIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_NateIntro")
 }
 
 text MossdeepCity_Gym_Text_NatePostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_NatePostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_NatePostBattle")
 }
 
 text MossdeepCity_Gym_Text_NicholasDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_NicholasDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_NicholasDefeat")
 }
 
 text MossdeepCity_Gym_Text_NicholasIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_NicholasIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_NicholasIntro")
 }
 
 text MossdeepCity_Gym_Text_NicholasPostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_NicholasPostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_NicholasPostBattle")
 }
 
 text MossdeepCity_Gym_Text_PrestonDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_PrestonDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_PrestonDefeat")
 }
 
 text MossdeepCity_Gym_Text_PrestonIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_PrestonIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_PrestonIntro")
 }
 
 text MossdeepCity_Gym_Text_PrestonPostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_PrestonPostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_PrestonPostBattle")
 }
 
 text MossdeepCity_Gym_Text_SamanthaDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_SamanthaDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_SamanthaDefeat")
 }
 
 text MossdeepCity_Gym_Text_SamanthaIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_SamanthaIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_SamanthaIntro")
 }
 
 text MossdeepCity_Gym_Text_SamanthaPostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_SamanthaPostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_SamanthaPostBattle")
 }
 
 text MossdeepCity_Gym_Text_SylviaDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_SylviaDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_SylviaDefeat")
 }
 
 text MossdeepCity_Gym_Text_SylviaIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_SylviaIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_SylviaIntro")
 }
 
 text MossdeepCity_Gym_Text_SylviaPostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_SylviaPostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_SylviaPostBattle")
 }
 
 text MossdeepCity_Gym_Text_VirgilDefeat {
-    "Placeholder text for MossdeepCity_Gym_Text_VirgilDefeat"
+    format("Placeholder text for MossdeepCity_Gym_Text_VirgilDefeat")
 }
 
 text MossdeepCity_Gym_Text_VirgilIntro {
-    "Placeholder text for MossdeepCity_Gym_Text_VirgilIntro"
+    format("Placeholder text for MossdeepCity_Gym_Text_VirgilIntro")
 }
 
 text MossdeepCity_Gym_Text_VirgilPostBattle {
-    "Placeholder text for MossdeepCity_Gym_Text_VirgilPostBattle"
+    format("Placeholder text for MossdeepCity_Gym_Text_VirgilPostBattle")
+}
+
+text MossdeepCity_Gym_Text_ExplainCalmMind {
+    format("TATE: That TM04 contains…\nLIZA: CALM MIND!\pTATE: It raises SP. ATK and…\nLIZA: It raises SP. DEF!\pTATE: It's a move that's perfect…\nLIZA: For PSYCHIC POKéMON!\p… … … … … …$")
+}
+
+text MossdeepCity_Gym_Text_TateAndLizaPostRematch {
+    format("TATE: You can knock us down,\nbut we'll never stay down!\pLIZA: Because the two of us,\nwe always support each other!$")
+}
+
+text MossdeepCity_Gym_Text_GymStatue {
+    format("MOSSDEEP CITY POKéMON GYM$")
+}
+
+text MossdeepCity_Gym_Text_GymStatueCertified {
+    format("MOSSDEEP CITY POKéMON GYM\pLIZA AND TATE'S CERTIFIED TRAINERS:\n{PLAYER}$")
+}
+
+text MossdeepCity_Gym_Text_GymGuidePostVictory {
+    format("Wow, you're astounding!\nYou're one great TRAINER!$")
 }

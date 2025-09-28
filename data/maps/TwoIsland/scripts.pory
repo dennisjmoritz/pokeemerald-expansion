@@ -6,6 +6,7 @@ script TwoIsland_EventScript_Beauty {
 }
 
 script TwoIsland_EventScript_Boy {
+    msgbox(TwoIsland_Text_OldWomanLivesOutOnCape, MSGBOX_NPC)
     end
 }
 
@@ -29,18 +30,22 @@ script TwoIsland_EventScript_JoyfulGameCornerSign {
 }
 
 script TwoIsland_EventScript_LittleBoy {
+    msgbox(TwoIsland_Text_HaveYouTriedJumpingGame, MSGBOX_NPC)
     end
 }
 
 script TwoIsland_EventScript_Sailor {
+    msgbox(TwoIsland_Text_FellowMovedFromCeladonCity, MSGBOX_NPC)
     end
 }
 
 script TwoIsland_EventScript_SuperNerd {
+    msgbox(TwoIsland_Text_BuyRareItemsHere, MSGBOX_NPC)
     end
 }
 
 script TwoIsland_EventScript_Woman {
+    msgbox(TwoIsland_Text_ShopkeepersBrotherWorksGameCorner, MSGBOX_NPC)
     end
 }
 
@@ -55,4 +60,24 @@ text TwoIsland_Text_JoyfulGameCornerSign {
 
 text TwoIsland_Text_DangerFastCurrent {
     format("DANGER! FAST CURRENT! Fishing and surfing prohibited!")
+}
+
+text TwoIsland_Text_OldWomanLivesOutOnCape {
+    format("There's an old woman who lives in\na cottage out on the cape.\pShe gives the eye to POKéMON.\nIt's a bit unnerving.$")
+}
+
+text TwoIsland_Text_HaveYouTriedJumpingGame {
+    format("Boing! Boing!\nHave you tried the jumping game?\pThe POKéMON you can enter…\nBoing!\pSome go boing!\pAnd some go boooooooing!\pDid you know that?\nBoing!$")
+}
+
+text TwoIsland_Text_FellowMovedFromCeladonCity {
+    format("That fellow there, he moved here\nfrom CELADON CITY.\pHe started up a shop with his\nyounger brother.\pYou have to wonder if he knew what\nhe was getting into.$")
+}
+
+text TwoIsland_Text_BuyRareItemsHere {
+    format("The discerning TRAINER knows to\nbuy rare items here!$")
+}
+
+text TwoIsland_Text_ShopkeepersBrotherWorksGameCorner {
+    format("The shopkeeper's brother took\na job at the GAME CORNER.\pHe's trying to pull together money\nso they can buy more merchandise.$")
 }

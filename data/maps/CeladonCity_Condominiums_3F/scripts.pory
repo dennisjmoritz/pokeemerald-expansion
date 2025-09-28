@@ -26,14 +26,17 @@ script CeladonCity_Condominiums_3F_EventScript_DevelopmentRoomSign {
 }
 
 script CeladonCity_Condominiums_3F_EventScript_GraphicArtist {
+    msgbox(CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist, MSGBOX_NPC)
     end
 }
 
 script CeladonCity_Condominiums_3F_EventScript_Programmer {
+    msgbox(CeladonCity_Condominiums_3F_Text_ImTheProgrammer, MSGBOX_NPC)
     end
 }
 
 script CeladonCity_Condominiums_3F_EventScript_Writer {
+    msgbox(CeladonCity_Condominiums_3F_Text_IWroteTheStory, MSGBOX_NPC)
     end
 }
 
@@ -52,4 +55,16 @@ text CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding {
 
 text CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom {
     format("GAME FREAK Development Room")
+}
+
+text CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist {
+    format("I'm the graphic artist!\nI drew you!$")
+}
+
+text CeladonCity_Condominiums_3F_Text_ImTheProgrammer {
+    format("Me?\nI'm the programmer!$")
+}
+
+text CeladonCity_Condominiums_3F_Text_IWroteTheStory {
+    format("I wrote the story!\nIsn't ERIKA cute?\pI like MISTY a lot, too!\nOh, and SABRINA, I like her!$")
 }

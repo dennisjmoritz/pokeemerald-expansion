@@ -13,13 +13,13 @@ script SSAnne_B1F_Room2_EventScript_ItemTM44 {
 
 
 text SSAnne_B1F_Room2_Text_HueyDefeat {
-    "Placeholder text for SSAnne_B1F_Room2_Text_HueyDefeat"
+    format("Placeholder text for SSAnne_B1F_Room2_Text_HueyDefeat")
 }
 
 text SSAnne_B1F_Room2_Text_HueyIntro {
-    "Placeholder text for SSAnne_B1F_Room2_Text_HueyIntro"
+    format("Placeholder text for SSAnne_B1F_Room2_Text_HueyIntro")
 }
 
 text SSAnne_B1F_Room2_Text_HueyPostBattle {
-    "Placeholder text for SSAnne_B1F_Room2_Text_HueyPostBattle"
+    format("Placeholder text for SSAnne_B1F_Room2_Text_HueyPostBattle")
 }

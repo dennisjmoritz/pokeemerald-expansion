@@ -2,6 +2,7 @@ mapscripts OneIsland_MapScripts {
 }
 
 script OneIsland_EventScript_BaldingMan {
+    msgbox(OneIsland_Text_IsntWarmClimateHereGreat, MSGBOX_NPC)
     end
 }
 
@@ -26,4 +27,8 @@ text OneIsland_Text_IslandSign {
 
 text OneIsland_Text_PokemonNetCenterSign {
     format("Expanding the POKéMON World! POKéMON NET CENTER")
+}
+
+text OneIsland_Text_IsntWarmClimateHereGreat {
+    format("Hi, sight-seeing, are you?\nIsn't the warm climate here great?$")
 }

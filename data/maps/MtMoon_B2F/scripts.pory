@@ -2,6 +2,7 @@ mapscripts MtMoon_B2F_MapScripts {
 }
 
 script MtMoon_B2F_EventScript_DomeFossil {
+    msgbox(MtMoon_B2F_Text_YouWantDomeFossil, MSGBOX_YESNO)
     end
 }
 
@@ -26,6 +27,7 @@ script MtMoon_B2F_EventScript_Grunt4 {
 }
 
 script MtMoon_B2F_EventScript_HelixFossil {
+    msgbox(MtMoon_B2F_Text_YouWantHelixFossil, MSGBOX_YESNO)
     end
 }
 
@@ -40,49 +42,56 @@ script MtMoon_B2F_EventScript_MiguelTrigger {
 
 
 text MtMoon_B2F_Text_Grunt1Defeat {
-    "Placeholder text for MtMoon_B2F_Text_Grunt1Defeat"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt1Defeat")
 }
 
 text MtMoon_B2F_Text_Grunt1Intro {
-    "Placeholder text for MtMoon_B2F_Text_Grunt1Intro"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt1Intro")
 }
 
 text MtMoon_B2F_Text_Grunt1PostBattle {
-    "Placeholder text for MtMoon_B2F_Text_Grunt1PostBattle"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt1PostBattle")
 }
 
 text MtMoon_B2F_Text_Grunt2Defeat {
-    "Placeholder text for MtMoon_B2F_Text_Grunt2Defeat"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt2Defeat")
 }
 
 text MtMoon_B2F_Text_Grunt2Intro {
-    "Placeholder text for MtMoon_B2F_Text_Grunt2Intro"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt2Intro")
 }
 
 text MtMoon_B2F_Text_Grunt2PostBattle {
-    "Placeholder text for MtMoon_B2F_Text_Grunt2PostBattle"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt2PostBattle")
 }
 
 text MtMoon_B2F_Text_Grunt3Defeat {
-    "Placeholder text for MtMoon_B2F_Text_Grunt3Defeat"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt3Defeat")
 }
 
 text MtMoon_B2F_Text_Grunt3Intro {
-    "Placeholder text for MtMoon_B2F_Text_Grunt3Intro"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt3Intro")
 }
 
 text MtMoon_B2F_Text_Grunt3PostBattle {
-    "Placeholder text for MtMoon_B2F_Text_Grunt3PostBattle"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt3PostBattle")
 }
 
 text MtMoon_B2F_Text_Grunt4Defeat {
-    "Placeholder text for MtMoon_B2F_Text_Grunt4Defeat"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt4Defeat")
 }
 
 text MtMoon_B2F_Text_Grunt4Intro {
-    "Placeholder text for MtMoon_B2F_Text_Grunt4Intro"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt4Intro")
 }
 
 text MtMoon_B2F_Text_Grunt4PostBattle {
-    "Placeholder text for MtMoon_B2F_Text_Grunt4PostBattle"
+    format("Placeholder text for MtMoon_B2F_Text_Grunt4PostBattle")
+}
+text MtMoon_B2F_Text_YouWantDomeFossil {
+    format("Do you want the DOME FOSSIL?$")
+}
+
+text MtMoon_B2F_Text_YouWantHelixFossil {
+    format("Do you want the HELIX FOSSIL?$")
 }

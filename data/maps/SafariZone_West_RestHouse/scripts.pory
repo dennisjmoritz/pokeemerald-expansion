@@ -2,14 +2,29 @@ mapscripts SafariZone_West_RestHouse_MapScripts {
 }
 
 script SafariZone_West_RestHouse_EventScript_CooltrainerF {
+    msgbox(SafariZone_West_Text_HikedLotsDidntSeeMonIWanted, MSGBOX_NPC)
     end
 }
 
 script SafariZone_West_RestHouse_EventScript_Man {
+    msgbox(SafariZone_West_Text_BaitMakesMonStickAround, MSGBOX_NPC)
     end
 }
 
 script SafariZone_West_RestHouse_EventScript_Scientist {
+    msgbox(SafariZone_West_Text_RocksMakeMonRunButEasierCatch, MSGBOX_NPC)
     end
 }
 
+
+text SafariZone_West_Text_HikedLotsDidntSeeMonIWanted {
+    format("I hiked a lot, but I didn't see any\nPOKéMON I wanted.$")
+}
+
+text SafariZone_West_Text_BaitMakesMonStickAround {
+    format("Using BAIT will make POKéMON more\nlikely to stick around if they get\lbusy eating.$")
+}
+
+text SafariZone_West_Text_RocksMakeMonRunButEasierCatch {
+    format("Tossing ROCKS at POKéMON might\nmake them run, but they'll be\leasier to catch.$")
+}

@@ -80,10 +80,12 @@ script Route111_EventScript_Irene {
 }
 
 script Route111_EventScript_Man1 {
+    msgbox(Route111_Text_ToughToKeepWinningUpTheRanks, MSGBOX_NPC)
     end
 }
 
 script Route111_EventScript_Man2 {
+    msgbox(Route111_Text_WinstrateFamilyDestroyedMe, MSGBOX_NPC)
     end
 }
 
@@ -93,6 +95,7 @@ script Route111_EventScript_OldLadysRestStopSign {
 }
 
 script Route111_EventScript_RockSmashTipFatMan {
+    msgbox(Route111_Text_MauvilleUncleToldMeToTakeRockSmash, MSGBOX_DEFAULT)
     end
 }
 
@@ -148,6 +151,7 @@ script Route111_EventScript_ViciousSandstormTriggerLeft {
 }
 
 script Route111_EventScript_Victor {
+    msgbox(Route111_Text_BattleOurFamily, MSGBOX_YESNO)
     end
 }
 
@@ -192,205 +196,241 @@ text Route111_Text_RouteSign113 {
 
 
 text Route111_Text_BeauDefeat {
-    "I can't win on spirit alone…"
+    format("I can't win on spirit alone…")
 }
 
 text Route111_Text_BeauIntro {
-    "Wearing these GO-GOGGLES makes me\nfeel like a superhero.\nRight now, nobody can beat me!"
+    format("Wearing these GO-GOGGLES makes me feel like a superhero. Right now, nobody can beat me!")
 }
 
 text Route111_Text_BeauPostBattle {
-    "I'm going to be a real hero one day.\nI'm going to work harder to make me\nand my POKéMON stronger."
+    format("I'm going to be a real hero one day. I'm going to work harder to make me and my POKéMON stronger.")
 }
 
 text Route111_Text_BeckyDefeat {
-    "I came up short…"
+    format("I came up short…")
 }
 
 text Route111_Text_BeckyIntro {
-    "I heard there are fossils to be found\nin the desert. Where could they be?"
+    format("I heard there are fossils to be found in the desert. Where could they be?")
 }
 
 text Route111_Text_BeckyPostBattle {
-    "If they can find fossils in the desert,\nit must have been a sea before."
+    format("If they can find fossils in the desert, it must have been a sea before.")
 }
 
 text Route111_Text_BiancaDefeat {
-    "Ooh lala!\nThat's a lot to take!"
+    format("Ooh lala! That's a lot to take!")
 }
 
 text Route111_Text_BiancaIntro {
-    "Did you come from MAUVILLE?\nThen you should be full of energy!"
+    format("Did you come from MAUVILLE? Then you should be full of energy!")
 }
 
 text Route111_Text_BiancaPostBattle {
-    "This road here…\nYou have quite a ways to travel."
+    format("This road here… You have quite a ways to travel.")
 }
 
 text Route111_Text_BrandenDefeat {
-    "Tch! I thought a sandwich would be\nenough of a bribe…"
+    format("Tch! I thought a sandwich would be enough of a bribe…")
 }
 
 text Route111_Text_BrandenIntro {
-    "I'll give you some of my sandwich\nif you'll lose."
+    format("I'll give you some of my sandwich if you'll lose.")
 }
 
 text Route111_Text_BrandenPostBattle {
-    "My SANDSHREW loves eating\nmy sandwiches."
+    format("My SANDSHREW loves eating my sandwiches.")
 }
 
 text Route111_Text_BrookeDefeat {
-    "They didn't just look strong,\nthey are strong!"
+    format("They didn't just look strong, they are strong!")
 }
 
 text Route111_Text_BrookeIntro {
-    "Oh, your POKéMON look like serious\nactors.\nI have to ask you for an engagement."
+    format("Oh, your POKéMON look like serious actors. I have to ask you for an engagement.")
 }
 
 text Route111_Text_BrookePostBattle {
-    "I thought I was raising my POKéMON\ndiligently, but, oh no, there is still\nmuch to be done."
+    format("I thought I was raising my POKéMON diligently, but, oh no, there is still much to be done.")
 }
 
 text Route111_Text_BryanDefeat {
-    "Oh! Your strength!\nIt is shrouded in mystery!"
+    format("Oh! Your strength! It is shrouded in mystery!")
 }
 
 text Route111_Text_BryanIntro {
-    "How tough are you?\nWe shall expose that secret!"
+    format("How tough are you? We shall expose that secret!")
 }
 
 text Route111_Text_BryanPostBattle {
-    "This desert hoards mysteries in\nits shifting sands!"
+    format("This desert hoards mysteries in its shifting sands!")
 }
 
 text Route111_Text_CeliaDefeat {
-    "Aww!\nI really shouldn't have come!"
+    format("Aww! I really shouldn't have come!")
 }
 
 text Route111_Text_CeliaIntro {
-    "I shouldn't have come to a place like\nthis for a picnic!"
+    format("I shouldn't have come to a place like this for a picnic!")
 }
 
 text Route111_Text_CeliaPostBattle {
-    "In a sandstorm like this, I can't set\nthe places for a picnic even with my\nGO-GOGGLES on…"
+    format("In a sandstorm like this, I can't set the places for a picnic even with my GO-GOGGLES on…")
 }
 
 text Route111_Text_CelinaDefeat {
-    "Oh… My…\nThat was too much excitement."
+    format("Oh… My… That was too much excitement.")
 }
 
 text Route111_Text_CelinaIntro {
-    "Show me how to put a little excitement\ninto my life."
+    format("Show me how to put a little excitement into my life.")
 }
 
 text Route111_Text_CelinaPostBattle {
-    "My pulse is still racing.\nYou're one fabulous TRAINER."
+    format("My pulse is still racing. You're one fabulous TRAINER.")
 }
 
 text Route111_Text_DaisukeDefeat {
-    "Uncle! I give up!"
+    format("Uncle! I give up!")
 }
 
 text Route111_Text_DaisukeIntro {
-    "To train myself, I challenge all\nwhom I meet!"
+    format("To train myself, I challenge all whom I meet!")
 }
 
 text Route111_Text_DaisukePostBattle {
-    "All I can do is keep training until\nI can defeat strong TRAINERS such\nas yourself."
+    format("All I can do is keep training until I can defeat strong TRAINERS such as yourself.")
 }
 
 text Route111_Text_DrewDefeat {
-    "I couldn't see what was happening at\nmy sides because of the GO-GOGGLES."
+    format("I couldn't see what was happening at my sides because of the GO-GOGGLES.")
 }
 
 text Route111_Text_DrewIntro {
-    "Oh, hey! Those GO-GOGGLES suit you.\nBut I think they look better on me.\pLet's decide who they look better on\nwith a battle!"
+    format("Oh, hey! Those GO-GOGGLES suit you. But I think they look better on me.\pLet's decide who they look better on with a battle!")
 }
 
 text Route111_Text_DrewPostBattle {
-    "The GO-GOGGLES make it possible to\nget through sandstorms.\nThat makes me happy!"
+    format("The GO-GOGGLES make it possible to get through sandstorms. That makes me happy!")
 }
 
 text Route111_Text_DustyDefeat {
-    "While I have searched for ruins,\nI've not searched for strong POKéMON."
+    format("While I have searched for ruins, I've not searched for strong POKéMON.")
 }
 
 text Route111_Text_DustyIntro {
-    "For thirty years I have searched for\nancient ruins!\nI am to be challenged?"
+    format("For thirty years I have searched for ancient ruins! I am to be challenged?")
 }
 
 text Route111_Text_DustyPostBattle {
-    "For thirty years I have searched for\nancient ruins!\pNo, wait, was that forty years?\nWhich was it now?"
+    format("For thirty years I have searched for ancient ruins!\pNo, wait, was that forty years? Which was it now?")
 }
 
 text Route111_Text_HaydenDefeat {
-    "Groan…"
+    format("Groan…")
 }
 
 text Route111_Text_HaydenIntro {
-    "When you're as famished as I am,\nthere is no room for pity!"
+    format("When you're as famished as I am, there is no room for pity!")
 }
 
 text Route111_Text_HaydenPostBattle {
-    "My stomach is grumbling!\nMaybe I can grill some BERRIES…"
+    format("My stomach is grumbling! Maybe I can grill some BERRIES…")
 }
 
 text Route111_Text_HeidiDefeat {
-    "Ohhh! You're mean!"
+    format("Ohhh! You're mean!")
 }
 
 text Route111_Text_HeidiIntro {
-    "I'm having a picnic in the desert.\pYou can always find a TRAINER,\nso I can enjoy a battle here, too!"
+    format("I'm having a picnic in the desert.\pYou can always find a TRAINER, so I can enjoy a battle here, too!")
 }
 
 text Route111_Text_HeidiPostBattle {
-    "When you're battling in a sandstorm,\nwatch out for your POKéMON's HP.\pIt can faint if you don't keep\nan eye on it!"
+    format("When you're battling in a sandstorm, watch out for your POKéMON's HP.\pIt can faint if you don't keep an eye on it!")
 }
 
 text Route111_Text_IreneDefeat {
-    "Oh, you're disgustingly good!"
+    format("Oh, you're disgustingly good!")
 }
 
 text Route111_Text_IreneIntro {
-    "I don't know where you're going,\nbut would you like to battle?"
+    format("I don't know where you're going, but would you like to battle?")
 }
 
 text Route111_Text_IrenePostBattle {
-    "I'm thinking that I should go to\nMT. CHIMNEY, but the view around\nhere is very nice, too."
+    format("I'm thinking that I should go to MT. CHIMNEY, but the view around here is very nice, too.")
 }
 
 text Route111_Text_TravisDefeat {
-    "My POKéMON lost its pep…"
+    format("My POKéMON lost its pep…")
 }
 
 text Route111_Text_TravisIntro {
-    "I'm full of pep!\nAnd my POKéMON is peppy, too!"
+    format("I'm full of pep! And my POKéMON is peppy, too!")
 }
 
 text Route111_Text_TravisPostBattle {
-    "When I see a TRAINER with a lot of pep,\nI can't help looking."
+    format("When I see a TRAINER with a lot of pep, I can't help looking.")
 }
 
 text Route111_Text_TyronDefeat {
-    "Wait!\nDid you get a good look at my POKéMON?"
+    format("Wait! Did you get a good look at my POKéMON?")
 }
 
 text Route111_Text_TyronIntro {
-    "This is my favorite kind of POKéMON!"
+    format("This is my favorite kind of POKéMON!")
 }
 
 text Route111_Text_TyronPostBattle {
-    "When having a battle, I get a kick out\nof showing off my POKéMON.\pI bet everyone feels that way when\nthey enter a battle!"
+    format("When having a battle, I get a kick out of showing off my POKéMON.\pI bet everyone feels that way when they enter a battle!")
 }
 
 text Route111_Text_WiltonDefeat {
-    "I see, you've toughened them\nconsiderably."
+    format("I see, you've toughened them considerably.")
 }
 
 text Route111_Text_WiltonIntro {
-    "Show me how much you've toughened\nyour POKéMON."
+    format("Show me how much you've toughened your POKéMON.")
 }
 
 text Route111_Text_WiltonPostBattle {
-    "POKéMON and TRAINERS learn much\nthrough battling.\pWhat's important is to never give up\neven if you lose."
+    format("POKéMON and TRAINERS learn much through battling.\pWhat's important is to never give up even if you lose.")
+}
+
+text Route111_Text_MirageTowerClearlyVisible {
+    format("I see it!\nThe tower of sand!\pThe sand tower they called a mirage\nis clearly visible!\pBut it looks so fragile…\nIt could crumble away anytime…\pI want to go inside it, but I can't\nget my courage up for it…$")
+}
+
+text Route111_Text_ToughToKeepWinningUpTheRanks {
+    format("If you don't raise your POKéMON some\nmore, it could be tough to keep winning\lup through the ranks.\pI've heard the POKéMON LEAGUE's\nELITE FOUR are far stronger than\lany GYM LEADER.$")
+}
+
+text Route111_Text_MauvilleUncleToldMeToTakeRockSmash {
+    format("Oh, no!\pMy uncle in MAUVILLE told me to take\nROCK SMASH with me if I was going to\lROUTE 111!\pMy uncle? He lives across from\nthe bike shop in MAUVILLE.$")
+}
+
+text Route111_Text_MirageTowerHasntBeenSeenSince {
+    format("Since I spoke to you, the tower of sand\nhasn't been seen.\pPerhaps it really was\nthe MIRAGE TOWER…$")
+}
+
+text Route111_Text_BattleOurFamily {
+    format("Hello! I take it you're a traveler.\pHow's this? What do you say to taking\non our family of four in a series of\lPOKéMON battles?$")
+}
+
+text Route111_Text_WinstrateFamilyDestroyedMe {
+    format("I challenged the WINSTRATE family,\nbut four matches in a row is tough\lgoing… They destroyed me.$")
+}
+
+text Route111_Text_VictorIntro {
+    format("That's the spirit! I like you!$")
+}
+
+text Route111_Text_ThatWasShockingSandRainedDown {
+    format("Whoa…\nThat was shocking.\pSand rained down in chunks all of\na sudden.\pWhat was it like inside?\nWere there sandy ghosts and such?$")
+}
+
+text Route111_Text_RootFossilDisappeared {
+    format("The ROOT FOSSIL disappeared into\nthe sand…$")
 }

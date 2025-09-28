@@ -21,25 +21,37 @@ script AbandonedShip_Rooms2_1F_EventScript_Kira {
 
 
 text AbandonedShip_Rooms2_1F_Text_GarrisonDefeat {
-    "Placeholder text for AbandonedShip_Rooms2_1F_Text_GarrisonDefeat"
+    format("Placeholder text for AbandonedShip_Rooms2_1F_Text_GarrisonDefeat")
 }
 
 text AbandonedShip_Rooms2_1F_Text_GarrisonIntro {
-    "Placeholder text for AbandonedShip_Rooms2_1F_Text_GarrisonIntro"
+    format("Placeholder text for AbandonedShip_Rooms2_1F_Text_GarrisonIntro")
 }
 
 text AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle {
-    "Placeholder text for AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle"
+    format("Placeholder text for AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle")
 }
 
 text AbandonedShip_Rooms2_1F_Text_JaniDefeat {
-    "Placeholder text for AbandonedShip_Rooms2_1F_Text_JaniDefeat"
+    format("Placeholder text for AbandonedShip_Rooms2_1F_Text_JaniDefeat")
 }
 
 text AbandonedShip_Rooms2_1F_Text_JaniIntro {
-    "Placeholder text for AbandonedShip_Rooms2_1F_Text_JaniIntro"
+    format("Placeholder text for AbandonedShip_Rooms2_1F_Text_JaniIntro")
 }
 
 text AbandonedShip_Rooms2_1F_Text_JaniPostBattle {
-    "Placeholder text for AbandonedShip_Rooms2_1F_Text_JaniPostBattle"
+    format("Placeholder text for AbandonedShip_Rooms2_1F_Text_JaniPostBattle")
+}
+
+text AbandonedShip_Rooms2_1F_Text_KiraRegister {
+    format("KIRA: Oh, you make me so angry!\nI'm going to register you for that!$")
+}
+
+text AbandonedShip_Rooms2_1F_Text_DanPostRematch {
+    format("DAN: We can't find any treasures,\nwe lose at POKéMON…\pI want to go home… But if I say that,\nshe gets all angry with me…$")
+}
+
+text AbandonedShip_Rooms2_1F_Text_KiraPostRematch {
+    format("KIRA: We're not leaving until we raise\nour POKéMON some more and we find\lthe treasures here!$")
 }

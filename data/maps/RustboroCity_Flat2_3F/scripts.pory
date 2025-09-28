@@ -2,10 +2,19 @@ mapscripts RustboroCity_Flat2_3F_MapScripts {
 }
 
 script RustboroCity_Flat2_3F_EventScript_DevonEmployee {
+    msgbox(RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones, MSGBOX_NPC)
     end
 }
 
 script RustboroCity_Flat2_3F_EventScript_Woman {
+    msgbox(RustboroCity_Flat2_3F_Text_PresidentsSonAlsoCollectsRareStones, MSGBOX_NPC)
     end
 }
 
+text RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones {
+    format("DEVON's PRESIDENT likes to collect\nrare stones.$")
+}
+
+text RustboroCity_Flat2_3F_Text_PresidentsSonAlsoCollectsRareStones {
+    format("I think the PRESIDENT's son also\ncollects rare stones.$")
+}

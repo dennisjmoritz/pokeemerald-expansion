@@ -72,61 +72,61 @@ text SaffronCity_Dojo_Text_EnemiesOnEverySide {
 
 
 text SaffronCity_Dojo_Text_AaronDefeat {
-    "Placeholder text for SaffronCity_Dojo_Text_AaronDefeat"
+    format("Placeholder text for SaffronCity_Dojo_Text_AaronDefeat")
 }
 
 text SaffronCity_Dojo_Text_AaronIntro {
-    "Placeholder text for SaffronCity_Dojo_Text_AaronIntro"
+    format("Placeholder text for SaffronCity_Dojo_Text_AaronIntro")
 }
 
 text SaffronCity_Dojo_Text_AaronPostBattle {
-    "Placeholder text for SaffronCity_Dojo_Text_AaronPostBattle"
+    format("Placeholder text for SaffronCity_Dojo_Text_AaronPostBattle")
 }
 
 text SaffronCity_Dojo_Text_ChoosePrizedFightingMon {
-    "Placeholder text for SaffronCity_Dojo_Text_ChoosePrizedFightingMon"
+    format("Placeholder text for SaffronCity_Dojo_Text_ChoosePrizedFightingMon")
 }
 
 text SaffronCity_Dojo_Text_HidekiDefeat {
-    "Placeholder text for SaffronCity_Dojo_Text_HidekiDefeat"
+    format("Placeholder text for SaffronCity_Dojo_Text_HidekiDefeat")
 }
 
 text SaffronCity_Dojo_Text_HidekiIntro {
-    "Placeholder text for SaffronCity_Dojo_Text_HidekiIntro"
+    format("Placeholder text for SaffronCity_Dojo_Text_HidekiIntro")
 }
 
 text SaffronCity_Dojo_Text_HidekiPostBattle {
-    "Placeholder text for SaffronCity_Dojo_Text_HidekiPostBattle"
+    format("Placeholder text for SaffronCity_Dojo_Text_HidekiPostBattle")
 }
 
 text SaffronCity_Dojo_Text_HitoshiDefeat {
-    "Placeholder text for SaffronCity_Dojo_Text_HitoshiDefeat"
+    format("Placeholder text for SaffronCity_Dojo_Text_HitoshiDefeat")
 }
 
 text SaffronCity_Dojo_Text_HitoshiIntro {
-    "Placeholder text for SaffronCity_Dojo_Text_HitoshiIntro"
+    format("Placeholder text for SaffronCity_Dojo_Text_HitoshiIntro")
 }
 
 text SaffronCity_Dojo_Text_HitoshiPostBattle {
-    "Placeholder text for SaffronCity_Dojo_Text_HitoshiPostBattle"
+    format("Placeholder text for SaffronCity_Dojo_Text_HitoshiPostBattle")
 }
 
 text SaffronCity_Dojo_Text_MasterKoichiDefeat {
-    "Placeholder text for SaffronCity_Dojo_Text_MasterKoichiDefeat"
+    format("Placeholder text for SaffronCity_Dojo_Text_MasterKoichiDefeat")
 }
 
 text SaffronCity_Dojo_Text_MasterKoichiIntro {
-    "Placeholder text for SaffronCity_Dojo_Text_MasterKoichiIntro"
+    format("Placeholder text for SaffronCity_Dojo_Text_MasterKoichiIntro")
 }
 
 text SaffronCity_Dojo_Text_MikeDefeat {
-    "Placeholder text for SaffronCity_Dojo_Text_MikeDefeat"
+    format("Placeholder text for SaffronCity_Dojo_Text_MikeDefeat")
 }
 
 text SaffronCity_Dojo_Text_MikeIntro {
-    "Placeholder text for SaffronCity_Dojo_Text_MikeIntro"
+    format("Placeholder text for SaffronCity_Dojo_Text_MikeIntro")
 }
 
 text SaffronCity_Dojo_Text_MikePostBattle {
-    "Placeholder text for SaffronCity_Dojo_Text_MikePostBattle"
+    format("Placeholder text for SaffronCity_Dojo_Text_MikePostBattle")
 }

@@ -17,18 +17,22 @@ script Route110_EventScript_Anthony {
 }
 
 script Route110_EventScript_AquaGrunt1 {
+    msgbox(Route110_Text_WeCantTalkAboutAquaActivities, MSGBOX_DEFAULT)
     end
 }
 
 script Route110_EventScript_AquaGrunt2 {
+    msgbox(Route110_Text_KickUpARuckus, MSGBOX_DEFAULT)
     end
 }
 
 script Route110_EventScript_AquaGrunt3 {
+    msgbox(Route110_Text_MyFirstJobInAqua, MSGBOX_DEFAULT)
     end
 }
 
 script Route110_EventScript_AquaGrunt4 {
+    msgbox(Route110_Text_AquaActionsBringSmiles, MSGBOX_DEFAULT)
     end
 }
 
@@ -54,10 +58,12 @@ script Route110_EventScript_BirchScene4 {
 }
 
 script Route110_EventScript_Boy1 {
+    msgbox(Route110_Text_RideBikeAtFullSpeed, MSGBOX_NPC)
     end
 }
 
 script Route110_EventScript_Boy2 {
+    msgbox(Route110_Text_WhichShouldIChoose, MSGBOX_NPC)
     end
 }
 
@@ -70,14 +76,17 @@ script Route110_EventScript_CyclingChallengeEnd {
 }
 
 script Route110_EventScript_CyclingGirl1 {
+    msgbox(Route110_Text_HairStreamsBehindMe, MSGBOX_NPC)
     end
 }
 
 script Route110_EventScript_CyclingGuy1 {
+    msgbox(Route110_Text_YouGotBikeFromRydel, MSGBOX_NPC)
     end
 }
 
 script Route110_EventScript_CyclingGuy2 {
+    msgbox(Route110_Text_BikeTechniques, MSGBOX_NPC)
     end
 }
 
@@ -85,7 +94,7 @@ script Route110_EventScript_CyclingRoadResultsSign {
     // lockall
     // specialvar VAR_RESULT, GetRecordedCyclingRoadResults
     // goto_if_eq VAR_RESULT, FALSE, Route110_EventScript_NoRecordSet
-    msgbox(Route110_Text_BestRecord, MSGBOX_DEFAULT)
+    msgbox(Route110_Text_BestRecord, MSGBOX_SIGN)
     // releaseall
     end
 }
@@ -146,10 +155,12 @@ script Route110_EventScript_MauvilleCitySign {
 }
 
 script Route110_EventScript_OldMan {
+    msgbox(Route110_Text_TwoRoads, MSGBOX_NPC)
     end
 }
 
 script Route110_EventScript_OldWoman {
+    msgbox(Route110_Text_WalkOnTheLowRoad, MSGBOX_NPC)
     end
 }
 
@@ -248,169 +259,265 @@ text Route110_Text_Route103Sign {
 
 
 text Route110_Text_AbigailDefeated {
-    "POKéMON battles are hard, too!"
+    format("POKéMON battles are hard, too!")
 }
 
 text Route110_Text_AbigailIntro {
-    "The triathlon is hard in the extreme.\pYou have to complete the three events\nof swimming, cycling, and running."
+    format("The triathlon is hard in the extreme.\pYou have to complete the three events of swimming, cycling, and running.")
 }
 
 text Route110_Text_AbigailPostBattle {
-    "I'm exhausted, so I need a break.\nIt's important to get proper rest."
+    format("I'm exhausted, so I need a break. It's important to get proper rest.")
 }
 
 text Route110_Text_AlyssaDefeated {
-    "Oops!\nI ended up losing!"
+    format("Oops! I ended up losing!")
 }
 
 text Route110_Text_AlyssaIntro {
-    "I fell off CYCLING ROAD…\pI'll get over my embarrassment by\nbattling with you!"
+    format("I fell off CYCLING ROAD…\pI'll get over my embarrassment by battling with you!")
 }
 
 text Route110_Text_AlyssaPostBattle {
-    "Falling… Losing…\nThis is so humiliating for me!"
+    format("Falling… Losing… This is so humiliating for me!")
 }
 
 text Route110_Text_AnthonyDefeated {
-    "Crash and burn!"
+    format("Crash and burn!")
 }
 
 text Route110_Text_AnthonyIntro {
-    "Yo, you!\nCan you keep up with my speed?"
+    format("Yo, you! Can you keep up with my speed?")
 }
 
 text Route110_Text_AnthonyPostBattle {
-    "Speed alone won't let me win at POKéMON.\nI need to reconsider this…"
+    format("Speed alone won't let me win at POKéMON. I need to reconsider this…")
 }
 
 text Route110_Text_BenjaminDefeated {
-    "I shouldn't panic during POKéMON\nbattles…"
+    format("I shouldn't panic during POKéMON battles…")
 }
 
 text Route110_Text_BenjaminIntro {
-    "Don't panic if your BIKE's going fast!"
+    format("Don't panic if your BIKE's going fast!")
 }
 
 text Route110_Text_BenjaminPostBattle {
-    "There's no need to panic or stress.\nTake it easy. There's plenty of time."
+    format("There's no need to panic or stress. Take it easy. There's plenty of time.")
 }
 
 text Route110_Text_DaleDefeated {
-    "I lost!\nDrat!"
+    format("I lost! Drat!")
 }
 
 text Route110_Text_DaleIntro {
-    "Hey!\nDon't sneak up behind me like that!"
+    format("Hey! Don't sneak up behind me like that!")
 }
 
 text Route110_Text_DalePostBattle {
-    "Fishing is all about concentration.\nYou have to focus on the floater."
+    format("Fishing is all about concentration. You have to focus on the floater.")
 }
 
 text Route110_Text_EdwardDefeated {
-    "I failed to prophesize my own demise!"
+    format("I failed to prophesize my own demise!")
 }
 
 text Route110_Text_EdwardIntro {
-    "I have foreseen your intentions!\nI cannot possibly lose!"
+    format("I have foreseen your intentions! I cannot possibly lose!")
 }
 
 text Route110_Text_EdwardPostBattle {
-    "I see your future…\pHmm…\nI see a shining light…"
+    format("I see your future…\pHmm… I see a shining light…")
 }
 
 text Route110_Text_EdwinDefeated {
-    "I wanted to complete\nmy collection…"
+    format("I wanted to complete my collection…")
 }
 
 text Route110_Text_EdwinIntro {
-    "Could I see your POKéMON?\nJust one look, please?"
+    format("Could I see your POKéMON? Just one look, please?")
 }
 
 text Route110_Text_EdwinPostBattle {
-    "When I see a POKéMON that I don't know,\nmy passion as a collector is ignited!"
+    format("When I see a POKéMON that I don't know, my passion as a collector is ignited!")
 }
 
 text Route110_Text_IsabelDefeated {
-    "Oh, dear, this won't do."
+    format("Oh, dear, this won't do.")
 }
 
 text Route110_Text_IsabelIntro {
-    "Ahahaha! I would go anywhere to show\noff my delightful POKéMON."
+    format("Ahahaha! I would go anywhere to show off my delightful POKéMON.")
 }
 
 text Route110_Text_IsabelPostBattle {
-    "Rather than battling, perhaps I should\nshow off my POKéMON at the FAN CLUB."
+    format("Rather than battling, perhaps I should show off my POKéMON at the FAN CLUB.")
 }
 
 text Route110_Text_JaclynDefeated {
-    "I wondrously lost!"
+    format("I wondrously lost!")
 }
 
 text Route110_Text_JaclynIntro {
-    "Ahahahaha!\nI'll dazzle you with my wonders!"
+    format("Ahahahaha! I'll dazzle you with my wonders!")
 }
 
 text Route110_Text_JaclynPostBattle {
-    "You managed to win only because it was\na wonder! Yes, a wonder!\nDon't think you can win all the time!"
+    format("You managed to win only because it was a wonder! Yes, a wonder! Don't think you can win all the time!")
 }
 
 text Route110_Text_JacobDefeated {
-    "Whoa!\nMy brakes failed!"
+    format("Whoa! My brakes failed!")
 }
 
 text Route110_Text_JacobIntro {
-    "Whoa! Watch it!\nI guess you're not used to BIKE racing."
+    format("Whoa! Watch it! I guess you're not used to BIKE racing.")
 }
 
 text Route110_Text_JacobPostBattle {
-    "Flat tires and brake problems can\ncause serious injury!\nInspect your BIKE for problems!"
+    format("Flat tires and brake problems can cause serious injury! Inspect your BIKE for problems!")
 }
 
 text Route110_Text_JasmineDefeated {
-    "I'm worried about muscle cramps…"
+    format("I'm worried about muscle cramps…")
 }
 
 text Route110_Text_JasmineIntro {
-    "I've been riding without stopping.\nMy thighs are like rocks!"
+    format("I've been riding without stopping. My thighs are like rocks!")
 }
 
 text Route110_Text_JasminePostBattle {
-    "Oh, you have some GYM BADGES?\nNo wonder you're so strong!"
+    format("Oh, you have some GYM BADGES? No wonder you're so strong!")
 }
 
 text Route110_Text_JosephDefeated {
-    "You got into the groove all right…"
+    format("You got into the groove all right…")
 }
 
 text Route110_Text_JosephIntro {
-    "Okay! Full-throttle time! If you can't\ngroove, you get left behind!"
+    format("Okay! Full-throttle time! If you can't groove, you get left behind!")
 }
 
 text Route110_Text_JosephPostBattle {
-    "This isn't going to bring me down!\nLosing has made me a better man!"
+    format("This isn't going to bring me down! Losing has made me a better man!")
 }
 
 text Route110_Text_KalebDefeated {
-    "Have you no compassion or pity?"
+    format("Have you no compassion or pity?")
 }
 
 text Route110_Text_KalebIntro {
-    "When cute POKéMON help each other…\nYou won't see a more adorable sight!"
+    format("When cute POKéMON help each other… You won't see a more adorable sight!")
 }
 
 text Route110_Text_KalebPostBattle {
-    "Okay, okay, you've done the best you\ncould, my pretties."
+    format("Okay, okay, you've done the best you could, my pretties.")
 }
 
 text Route110_Text_TimmyDefeated {
-    "Being cool isn't enough to win…"
+    format("Being cool isn't enough to win…")
 }
 
 text Route110_Text_TimmyIntro {
-    "I found some cool POKéMON in the grass\naround here!"
+    format("I found some cool POKéMON in the grass around here!")
 }
 
 text Route110_Text_TimmyPostBattle {
-    "It's hard to battle with POKéMON you\njust caught."
+    format("It's hard to battle with POKéMON you just caught.")
+}
+
+text Route110_Text_ChallengeReactionWorst {
+    format("…I am aghast…\pYou're perhaps not cut out for this\nunfortunate cycling business.\pYou ought to give serious thought to\nreturning that BIKE to RYDEL.$")
+}
+
+text Route110_Text_WalkOnTheLowRoad {
+    format("I don't have a BIKE, so I'll take\na leisurely walk on the low road.$")
+}
+
+text Route110_Text_ChallengeReactionBest {
+    format("Bravo! Splendid showing!\pYour love of cycling comes from deep\nwithin your heart.\lYou've shaken me to my very soul!$")
+}
+
+text Route110_Text_WeCantTalkAboutAquaActivities {
+    format("TEAM AQUA's activities…\nWe can't talk about them yet.$")
+}
+
+text Route110_Text_BrendanTakeThis {
+    format("BRENDAN: {PLAYER}, you've trained\nwithout me noticing…\pGood enough!\nHere, take this.$")
+}
+
+text Route110_Text_HairStreamsBehindMe {
+    format("How do you like the way my raven-\ncolored hair streams behind me?\pI grew my hair out just for that.$")
+}
+
+text Route110_Text_ChallengeReactionGood {
+    format("Your technique is remarkable.\pI suggest you speed up a bit while\nstill avoiding collisions.$")
+}
+
+text Route110_Text_AquaActionsBringSmiles {
+    format("TEAM AQUA's actions should bring\nsmiles to people's faces!$")
+}
+
+text Route110_Text_TwoRoads {
+    format("The two roads, one above, one below…\pA road each for people and POKéMON.\nPerhaps that is right and fair.$")
+}
+
+text Route110_Text_KickUpARuckus {
+    format("I want to get going to SLATEPORT and\nkick up a ruckus!$")
+}
+
+text Route110_Text_RatedForNumberOfCollisions {
+    format("This is CYCLING ROAD.\pIf you were to ride from MAUVILLE to\nSLATEPORT on a MACH BIKE, you would\lbe rated for the number of collisions\land your total time.$")
+}
+
+text Route110_Text_MayLetsBattle {
+    format("MAY: Hi, {PLAYER}{KUN}, long time no see!\pWhile I was searching for other\nPOKéMON, my POKéMON grew stronger.\pSo…\nHow about a little battle?$")
+}
+
+text Route110_Text_AcroBikesDoNotQualify {
+    format("On this CYCLING ROAD, those riding\nMACH BIKES are rated for their number\lof collisions and their total times.\pACRO BIKES do not qualify for rating.\nThey are easy to turn, so it's not fair.$")
+}
+
+text Route110_Text_BrendanLetsBattle {
+    format("BRENDAN: Hey, {PLAYER}.\nSo this is where you were.\lHow's it going?\pHave you been raising your POKéMON?\nI'll check for you.$")
+}
+
+text Route110_Text_MyFirstJobInAqua {
+    format("This is my first job after joining\nTEAM AQUA. It's a little scary.$")
+}
+
+text Route110_Text_ChallengeReactionBad {
+    format("My word… Your cycling skills border\non terrifying.\pMost certainly, you need much more\npractice riding.$")
+}
+
+text Route110_Text_RideBikeAtFullSpeed {
+    format("Wouldn't it be great to ride a BIKE\nat full speed on CYCLING ROAD?$")
+}
+
+text Route110_Text_YouGotBikeFromRydel {
+    format("Oh, hey, you got that BIKE from RYDEL!\pOh, it's glaringly obvious.\nIt says right on your bike…\pRYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\nRYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\pRYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\nRYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\pRYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\nRYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\pRYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\nRYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\pRYDEL, RYDEL, RYDEL, RYDEL, RYDEL…\nThat name's everywhere.\pYou should ride it around all over\nthe place--it's good advertising!$")
+}
+
+text Route110_Text_ChallengeReactionOk {
+    format("I would consider you a work in\nprogress.\pStill, I hope you don't forget the\nsheer pleasure of cycling.$")
+}
+
+text Route110_Text_WhichShouldIChoose {
+    format("Which should I choose?\pMake a beeline for MAUVILLE on\nCYCLING ROAD, or take the low road\land look for POKéMON?$")
+}
+
+text Route110_Text_CyclingChallengeResultSummary {
+    format("Number of collisions:\n… … {STR_VAR_1}!\pTotal time:\n… … {STR_VAR_2}!$")
+}
+
+text Route110_Text_BikeTechniques {
+    format("Learning techniques will make BIKE\nriding even more fun.\pThere are some places that you can\nreach only by using a BIKE technique.$")
+}
+
+text Route110_Text_MayTakeThis {
+    format("MAY: {PLAYER}{KUN}, you've been busy\ntraining, too, haven't you?\pI think you deserve a reward!\nThis is from me!$")
+}
+
+text Route110_Text_ThereIsNoRecord {
+    format("THE BEST RECORD TO DATE…\pNo one seems to have taken the\nchallenge. There is no record…$")
 }

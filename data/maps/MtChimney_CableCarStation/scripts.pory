@@ -2,6 +2,18 @@ mapscripts MtChimney_CableCarStation_MapScripts {
 }
 
 script MtChimney_CableCarStation_EventScript_Attendant {
+    msgbox(MtChimney_CableCarStation_Text_CableCarReadyGetOn, MSGBOX_YESNO)
     end
 }
 
+text MtChimney_CableCarStation_Text_StepThisWay {
+    format("Please step this way.$")
+}
+
+text MtChimney_CableCarStation_Text_CableCarReadyGetOn {
+    format("The CABLE CAR is ready to go down.\nWould you like to be on it?$")
+}
+
+text MtChimney_CableCarStation_Text_RideAnotherTime {
+    format("Please ride with us another time.$")
+}

@@ -2,14 +2,17 @@ mapscripts FallarborTown_PokemonCenter_1F_MapScripts {
 }
 
 script FallarborTown_PokemonCenter_1F_EventScript_ExpertM {
+    msgbox(FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees, MSGBOX_NPC)
     end
 }
 
 script FallarborTown_PokemonCenter_1F_EventScript_Girl {
+    msgbox(FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown, MSGBOX_NPC)
     end
 }
 
 script FallarborTown_PokemonCenter_1F_EventScript_Lanette {
+    msgbox(FallarborTown_PokemonCenter_1F_Text_LanetteGreeting, MSGBOX_DEFAULT)
     end
 }
 
@@ -17,3 +20,14 @@ script FallarborTown_PokemonCenter_1F_EventScript_Nurse {
     end
 }
 
+text FallarborTown_PokemonCenter_1F_Text_LanetteGreeting {
+    format("Oh, hello.\nYou are?\pOkay, your name's {PLAYER}{KUN}.\nI can see that you're a TRAINER.\pSo that means you use the POKéMON\nStorage System I developed.\pHow I arrived at that conclusion is\na simple deductive process.\pYou spoke to me because you wanted\nto access something on this PC.\pOh, I'm sorry. I'm LANETTE.\pHonestly, I'm glad to meet you--it's\ngreat you're using the Storage System.\pIf you could, please visit me at home.\nMy house is on ROUTE 114.$")
+}
+
+text FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees {
+    format("In the fields of FALLARBOR, we plant\nseedlings of hardy trees that thrive\leven in volcanic ash.$")
+}
+
+text FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown {
+    format("I wonder what POKéMON looked like\nlong, long ago?\pMaybe the FOSSIL MANIAC at the edge\nof town will know.$")
+}

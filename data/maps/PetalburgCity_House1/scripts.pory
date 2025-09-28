@@ -2,10 +2,19 @@ mapscripts PetalburgCity_House1_MapScripts {
 }
 
 script PetalburgCity_House1_EventScript_Man {
+    msgbox(PetalburgCity_House1_Text_TravelingIsWonderful, MSGBOX_NPC)
     end
 }
 
 script PetalburgCity_House1_EventScript_Woman {
+    msgbox(PetalburgCity_House1_Text_GoOnAdventure, MSGBOX_NPC)
     end
 }
 
+text PetalburgCity_House1_Text_GoOnAdventure {
+    format("Sigh…\pI wish I could go on an adventure\nwith some POKéMON…\pCrawl through some damp grass…\nClimb rocky, rugged mountains…\pCross the raging seas…\nWander about in dark caves…\pAnd, sometimes, even get a little\nhomesick…\pIt must be fabulous to travel!$")
+}
+
+text PetalburgCity_House1_Text_TravelingIsWonderful {
+    format("Traveling is wonderful!\pWhen I was young, I roamed the seas\nand the mountains!$")
+}

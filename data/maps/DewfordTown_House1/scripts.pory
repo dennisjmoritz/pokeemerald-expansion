@@ -2,14 +2,28 @@ mapscripts DewfordTown_House1_MapScripts {
 }
 
 script DewfordTown_House1_EventScript_Man {
+    msgbox(DewfordTown_House1_Text_LotToBeSaidForLivingOnIsland, MSGBOX_NPC)
     end
 }
 
 script DewfordTown_House1_EventScript_Woman {
+    msgbox(DewfordTown_House1_Text_LifeGoesSlowlyOnIsland, MSGBOX_NPC)
     end
 }
 
 script DewfordTown_House1_EventScript_Zigzagoon {
+    msgbox(DewfordTown_House1_Text_Zigzagoon, MSGBOX_DEFAULT)
     end
 }
 
+text DewfordTown_House1_Text_LotToBeSaidForLivingOnIsland {
+    format("There's a lot to be said for living on\na small island like this in harmony with\lPOKéMON and the family.$")
+}
+
+text DewfordTown_House1_Text_LifeGoesSlowlyOnIsland {
+    format("I left the major port of SLATEPORT\nCITY when I married my husband here.\pLife goes by slowly on this little\nisland. But being surrounded by the\lbeautiful sea--that's happiness, too.$")
+}
+
+text DewfordTown_House1_Text_Zigzagoon {
+    format("ZIGZAGOON: Guguuh!$")
+}

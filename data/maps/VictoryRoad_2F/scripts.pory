@@ -57,61 +57,61 @@ script VictoryRoad_2F_EventScript_Vincent {
 
 
 text VictoryRoad_2F_Text_DaisukeDefeat {
-    "Placeholder text for VictoryRoad_2F_Text_DaisukeDefeat"
+    format("Placeholder text for VictoryRoad_2F_Text_DaisukeDefeat")
 }
 
 text VictoryRoad_2F_Text_DaisukeIntro {
-    "Placeholder text for VictoryRoad_2F_Text_DaisukeIntro"
+    format("Placeholder text for VictoryRoad_2F_Text_DaisukeIntro")
 }
 
 text VictoryRoad_2F_Text_DaisukePostBattle {
-    "Placeholder text for VictoryRoad_2F_Text_DaisukePostBattle"
+    format("Placeholder text for VictoryRoad_2F_Text_DaisukePostBattle")
 }
 
 text VictoryRoad_2F_Text_DawsonDefeat {
-    "Placeholder text for VictoryRoad_2F_Text_DawsonDefeat"
+    format("Placeholder text for VictoryRoad_2F_Text_DawsonDefeat")
 }
 
 text VictoryRoad_2F_Text_DawsonIntro {
-    "Placeholder text for VictoryRoad_2F_Text_DawsonIntro"
+    format("Placeholder text for VictoryRoad_2F_Text_DawsonIntro")
 }
 
 text VictoryRoad_2F_Text_DawsonPostBattle {
-    "Placeholder text for VictoryRoad_2F_Text_DawsonPostBattle"
+    format("Placeholder text for VictoryRoad_2F_Text_DawsonPostBattle")
 }
 
 text VictoryRoad_2F_Text_GregoryDefeat {
-    "Placeholder text for VictoryRoad_2F_Text_GregoryDefeat"
+    format("Placeholder text for VictoryRoad_2F_Text_GregoryDefeat")
 }
 
 text VictoryRoad_2F_Text_GregoryIntro {
-    "Placeholder text for VictoryRoad_2F_Text_GregoryIntro"
+    format("Placeholder text for VictoryRoad_2F_Text_GregoryIntro")
 }
 
 text VictoryRoad_2F_Text_GregoryPostBattle {
-    "Placeholder text for VictoryRoad_2F_Text_GregoryPostBattle"
+    format("Placeholder text for VictoryRoad_2F_Text_GregoryPostBattle")
 }
 
 text VictoryRoad_2F_Text_NelsonDefeat {
-    "Placeholder text for VictoryRoad_2F_Text_NelsonDefeat"
+    format("Placeholder text for VictoryRoad_2F_Text_NelsonDefeat")
 }
 
 text VictoryRoad_2F_Text_NelsonIntro {
-    "Placeholder text for VictoryRoad_2F_Text_NelsonIntro"
+    format("Placeholder text for VictoryRoad_2F_Text_NelsonIntro")
 }
 
 text VictoryRoad_2F_Text_NelsonPostBattle {
-    "Placeholder text for VictoryRoad_2F_Text_NelsonPostBattle"
+    format("Placeholder text for VictoryRoad_2F_Text_NelsonPostBattle")
 }
 
 text VictoryRoad_2F_Text_VincentDefeat {
-    "Placeholder text for VictoryRoad_2F_Text_VincentDefeat"
+    format("Placeholder text for VictoryRoad_2F_Text_VincentDefeat")
 }
 
 text VictoryRoad_2F_Text_VincentIntro {
-    "Placeholder text for VictoryRoad_2F_Text_VincentIntro"
+    format("Placeholder text for VictoryRoad_2F_Text_VincentIntro")
 }
 
 text VictoryRoad_2F_Text_VincentPostBattle {
-    "Placeholder text for VictoryRoad_2F_Text_VincentPostBattle"
+    format("Placeholder text for VictoryRoad_2F_Text_VincentPostBattle")
 }

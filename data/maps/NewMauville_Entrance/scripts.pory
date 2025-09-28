@@ -2,6 +2,10 @@ mapscripts NewMauville_Entrance_MapScripts {
 }
 
 script NewMauville_Entrance_EventScript_Door {
+    msgbox(NewMauville_Entrance_Text_DoorIsLocked, MSGBOX_DEFAULT)
     end
 }
 
+text NewMauville_Entrance_Text_DoorIsLocked {
+    format("The door is locked.$")
+}

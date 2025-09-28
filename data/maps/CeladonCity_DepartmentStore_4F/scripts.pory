@@ -11,14 +11,24 @@ script CeladonCity_DepartmentStore_4F_EventScript_FloorSign {
 }
 
 script CeladonCity_DepartmentStore_4F_EventScript_Man {
+    msgbox(CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent, MSGBOX_NPC)
     end
 }
 
 script CeladonCity_DepartmentStore_4F_EventScript_Youngster {
+    msgbox(CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll, MSGBOX_NPC)
     end
 }
 
 
 text CeladonCity_DepartmentStore_4F_Text_FloorSign {
     format("Express yourself with gifts! 4F: WISE MAN GIFTS\p Evolution Special! Element STONES on sale now!")
+}
+
+text CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent {
+    format("I'm getting a present for my\ngirlfriend.\pI guess a POKé DOLL will be it.\nIt's the popular thing.$")
+}
+
+text CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll {
+    format("I heard something useful.\pIf a wild POKéMON appears, you can\ndistract it with a POKé DOLL.\pYou can run away while the wild\nPOKéMON is distracted.$")
 }

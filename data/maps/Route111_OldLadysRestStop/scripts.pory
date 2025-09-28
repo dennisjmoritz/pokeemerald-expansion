@@ -2,6 +2,18 @@ mapscripts Route111_OldLadysRestStop_MapScripts {
 }
 
 script Route111_OldLadysRestStop_EventScript_OldLady {
+    msgbox(Route111_OldLadysRestStop_Text_RestUpHere, MSGBOX_YESNO)
     end
 }
 
+text Route111_OldLadysRestStop_Text_DontNeedToBeShy {
+    format("Is that so?\nYou don't need to be shy about it.$")
+}
+
+text Route111_OldLadysRestStop_Text_RestUpHere {
+    format("Oh, dear, dear.\nAren't your POKéMON exhausted?\pIf you'd like, rest up here.\nThat's a fine idea! You should do that.$")
+}
+
+text Route111_OldLadysRestStop_Text_TakeYourTimeRestUp {
+    format("That's right.\nTake your time and rest up!$")
+}

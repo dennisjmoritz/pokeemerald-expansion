@@ -5,3 +5,6 @@ script EverGrandeCity_SidneysRoom_EventScript_Sidney {
     end
 }
 
+text EverGrandeCity_SidneysRoom_Text_PostBattleSpeech {
+    format("Well, listen to what this loser has\nto say.\pYou've got what it takes to go far.\nNow, go on to the next room and enjoy\lyour next battle!$")
+}

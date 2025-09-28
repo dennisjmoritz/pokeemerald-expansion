@@ -9,13 +9,13 @@ script RocketHideout_B2F_EventScript_Grunt {
 
 
 text RocketHideout_B2F_Text_GruntDefeat {
-    "Placeholder text for RocketHideout_B2F_Text_GruntDefeat"
+    format("Placeholder text for RocketHideout_B2F_Text_GruntDefeat")
 }
 
 text RocketHideout_B2F_Text_GruntIntro {
-    "Placeholder text for RocketHideout_B2F_Text_GruntIntro"
+    format("Placeholder text for RocketHideout_B2F_Text_GruntIntro")
 }
 
 text RocketHideout_B2F_Text_GruntPostBattle {
-    "Placeholder text for RocketHideout_B2F_Text_GruntPostBattle"
+    format("Placeholder text for RocketHideout_B2F_Text_GruntPostBattle")
 }

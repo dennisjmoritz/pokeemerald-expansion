@@ -2,6 +2,34 @@ mapscripts SlateportCity_NameRatersHouse_MapScripts {
 }
 
 script SlateportCity_NameRatersHouse_EventScript_NameRater {
+    msgbox(SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname, MSGBOX_YESNO)
     end
 }
 
+text SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname {
+    format("Hi, hi! I'm the NAME RATER!\nI'm the fortune-teller of names!\pI shall be pleased to rate your\nPOKéMON's nickname.$")
+}
+
+text SlateportCity_NameRatersHouse_Text_MagnificentName {
+    format("Hmmm… {STR_VAR_1} it is!\pThis is a magnificent nickname!\nIt is impeccably beyond reproach!\pYou'll do well to cherish your\n{STR_VAR_1} now and beyond.$")
+}
+
+text SlateportCity_NameRatersHouse_Text_DoVisitAgain {
+    format("I see.\nDo come visit again.$")
+}
+
+text SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg {
+    format("Now, now.\nThat is merely an EGG!$")
+}
+
+text SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe {
+    format("Ah, good. Then, what shall the new\nnickname be?$")
+}
+
+text SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname {
+    format("Which POKéMON's nickname should\nI critique?$")
+}
+
+text SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName {
+    format("Done! From now on, this POKéMON\nshall be known as {STR_VAR_1}!\pIt is a better name than before!\nHow fortunate for you!$")
+}

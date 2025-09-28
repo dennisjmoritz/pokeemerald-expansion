@@ -2,10 +2,12 @@ mapscripts Route116_TunnelersRestHouse_MapScripts {
 }
 
 script Route116_TunnelersRestHouse_EventScript_Tunneler1 {
+    msgbox(Route116_TunnelersRestHouse_Text_WeHadToStopBoring, MSGBOX_NPC)
     end
 }
 
 script Route116_TunnelersRestHouse_EventScript_Tunneler2 {
+    msgbox(Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf, MSGBOX_NPC)
     end
 }
 
@@ -13,3 +15,14 @@ script Route116_TunnelersRestHouse_EventScript_Tunneler3 {
     end
 }
 
+text Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf {
+    format("There's a man digging his way to\nVERDANTURF all by his lonesome.\lHe's desperate to get through.\pHe says that if he digs little by little\nwithout using machines, he won't\ldisturb POKéMON, and he'll avoid\lharming the natural environment.\pI wonder if he made it through yet.$")
+}
+
+text Route116_TunnelersRestHouse_Text_WeHadToStopBoring {
+    format("That RUSTURF TUNNEL there…\pAt first, we had a huge work crew boring\nthrough rock with the latest machinery.\lBut, we had to stop.\pIt turns out that we would have had\na negative effect on wild POKéMON in\lthe area.\pSo, we've got nothing to do but loll\naround here doing nothing.$")
+}
+
+text Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough {
+    format("Did you hear? The TUNNEL to VERDANTURF\nhas gone through!\pSometimes, if you hope strongly enough,\ndreams do come true.$")
+}

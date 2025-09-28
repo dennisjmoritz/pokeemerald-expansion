@@ -34,73 +34,73 @@ script VictoryRoad_B2F_EventScript_Vito {
 
 
 text VictoryRoad_B2F_Text_CarolineDefeat {
-    "Placeholder text for VictoryRoad_B2F_Text_CarolineDefeat"
+    format("Placeholder text for VictoryRoad_B2F_Text_CarolineDefeat")
 }
 
 text VictoryRoad_B2F_Text_CarolineIntro {
-    "Placeholder text for VictoryRoad_B2F_Text_CarolineIntro"
+    format("Placeholder text for VictoryRoad_B2F_Text_CarolineIntro")
 }
 
 text VictoryRoad_B2F_Text_CarolinePostBattle {
-    "Placeholder text for VictoryRoad_B2F_Text_CarolinePostBattle"
+    format("Placeholder text for VictoryRoad_B2F_Text_CarolinePostBattle")
 }
 
 text VictoryRoad_B2F_Text_DianneDefeat {
-    "Placeholder text for VictoryRoad_B2F_Text_DianneDefeat"
+    format("Placeholder text for VictoryRoad_B2F_Text_DianneDefeat")
 }
 
 text VictoryRoad_B2F_Text_DianneIntro {
-    "Placeholder text for VictoryRoad_B2F_Text_DianneIntro"
+    format("Placeholder text for VictoryRoad_B2F_Text_DianneIntro")
 }
 
 text VictoryRoad_B2F_Text_DiannePostBattle {
-    "Placeholder text for VictoryRoad_B2F_Text_DiannePostBattle"
+    format("Placeholder text for VictoryRoad_B2F_Text_DiannePostBattle")
 }
 
 text VictoryRoad_B2F_Text_FelixDefeat {
-    "Placeholder text for VictoryRoad_B2F_Text_FelixDefeat"
+    format("Placeholder text for VictoryRoad_B2F_Text_FelixDefeat")
 }
 
 text VictoryRoad_B2F_Text_FelixIntro {
-    "Placeholder text for VictoryRoad_B2F_Text_FelixIntro"
+    format("Placeholder text for VictoryRoad_B2F_Text_FelixIntro")
 }
 
 text VictoryRoad_B2F_Text_FelixPostBattle {
-    "Placeholder text for VictoryRoad_B2F_Text_FelixPostBattle"
+    format("Placeholder text for VictoryRoad_B2F_Text_FelixPostBattle")
 }
 
 text VictoryRoad_B2F_Text_JulieDefeat {
-    "Placeholder text for VictoryRoad_B2F_Text_JulieDefeat"
+    format("Placeholder text for VictoryRoad_B2F_Text_JulieDefeat")
 }
 
 text VictoryRoad_B2F_Text_JulieIntro {
-    "Placeholder text for VictoryRoad_B2F_Text_JulieIntro"
+    format("Placeholder text for VictoryRoad_B2F_Text_JulieIntro")
 }
 
 text VictoryRoad_B2F_Text_JuliePostBattle {
-    "Placeholder text for VictoryRoad_B2F_Text_JuliePostBattle"
+    format("Placeholder text for VictoryRoad_B2F_Text_JuliePostBattle")
 }
 
 text VictoryRoad_B2F_Text_OwenDefeat {
-    "Placeholder text for VictoryRoad_B2F_Text_OwenDefeat"
+    format("Placeholder text for VictoryRoad_B2F_Text_OwenDefeat")
 }
 
 text VictoryRoad_B2F_Text_OwenIntro {
-    "Placeholder text for VictoryRoad_B2F_Text_OwenIntro"
+    format("Placeholder text for VictoryRoad_B2F_Text_OwenIntro")
 }
 
 text VictoryRoad_B2F_Text_OwenPostBattle {
-    "Placeholder text for VictoryRoad_B2F_Text_OwenPostBattle"
+    format("Placeholder text for VictoryRoad_B2F_Text_OwenPostBattle")
 }
 
 text VictoryRoad_B2F_Text_VitoDefeat {
-    "Placeholder text for VictoryRoad_B2F_Text_VitoDefeat"
+    format("Placeholder text for VictoryRoad_B2F_Text_VitoDefeat")
 }
 
 text VictoryRoad_B2F_Text_VitoIntro {
-    "Placeholder text for VictoryRoad_B2F_Text_VitoIntro"
+    format("Placeholder text for VictoryRoad_B2F_Text_VitoIntro")
 }
 
 text VictoryRoad_B2F_Text_VitoPostBattle {
-    "Placeholder text for VictoryRoad_B2F_Text_VitoPostBattle"
+    format("Placeholder text for VictoryRoad_B2F_Text_VitoPostBattle")
 }

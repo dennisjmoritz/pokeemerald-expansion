@@ -2,10 +2,12 @@ mapscripts LilycoveCity_CoveLilyMotel_2F_MapScripts {
 }
 
 script LilycoveCity_CoveLilyMotel_2F_EventScript_FatMan {
+    msgbox(LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_CoveLilyMotel_2F_EventScript_GameBoyKid {
+    msgbox(LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy, MSGBOX_NPC)
     end
 }
 
@@ -14,10 +16,12 @@ script LilycoveCity_CoveLilyMotel_2F_EventScript_GameDesigner {
 }
 
 script LilycoveCity_CoveLilyMotel_2F_EventScript_GraphicArtist {
+    msgbox(LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_CoveLilyMotel_2F_EventScript_Programmer {
+    msgbox(LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer, MSGBOX_NPC)
     end
 }
 
@@ -26,6 +30,34 @@ script LilycoveCity_CoveLilyMotel_2F_EventScript_Scott {
 }
 
 script LilycoveCity_CoveLilyMotel_2F_EventScript_Woman {
+    msgbox(LilycoveCity_CoveLilyMotel_2F_Text_SeaBreezeTicklesHeart, MSGBOX_NPC)
     end
 }
 
+text LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute {
+    format("The girl TUBERS, they're cute, hey?\nTo battle against a cute TUBER…\pWhoop, it's so awesome!\pAnd the TWINS! Aren't they cute?\nA 2-on-2 battle with TWINS…\pWhoop, it's unbearably fun!$")
+}
+
+text LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist {
+    format("I'm the GRAPHIC ARTIST! Aren't the\nPOKéMON of HOENN interesting?$")
+}
+
+text LilycoveCity_CoveLilyMotel_2F_Text_ContestsDoTakeStrategy {
+    format("SCOTT: I think it does take strategy\nto win a CONTEST.\pDevising CONTEST strategies is one way\nof becoming a better TRAINER, I'd say.$")
+}
+
+text LilycoveCity_CoveLilyMotel_2F_Text_SeaBreezeTicklesHeart {
+    format("The sea breeze tickles my heart.\nIt feels wonderful here!$")
+}
+
+text LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer {
+    format("Me? You're talking to me?\nI'm the PROGRAMMER.\pI wonder what the SLOTS are\nlike here.$")
+}
+
+text LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex {
+    format("I'm the GAME DESIGNER.\pOh, is that right?\nYou're working on a POKéDEX?\pIt's tough trying to complete it,\nbut don't give up.\pIf you do complete it, please come\nshow me.$")
+}
+
+text LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy {
+    format("You never know when and where\npeople will challenge you.\pThat's why I never leave home without\nmy GAME BOY ADVANCE.$")
+}

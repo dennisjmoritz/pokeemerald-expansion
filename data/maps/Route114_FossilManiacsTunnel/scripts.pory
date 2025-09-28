@@ -6,6 +6,18 @@ script Route114_FossilManiacsTunnel_EventScript_FossilManiac {
 }
 
 script Route114_FossilManiacsTunnel_EventScript_ManiacMentionCaveIn {
+    msgbox(Route114_FossilManiacsTunnel_Text_NotSafeThatWay, MSGBOX_DEFAULT)
     end
 }
 
+text Route114_FossilManiacsTunnel_Text_FossilsAreWonderful {
+    format("FOSSILS are so… Wonderful…\nIt's so dreamy…$")
+}
+
+text Route114_FossilManiacsTunnel_Text_NotSafeThatWay {
+    format("Oh…\nIt's not safe that way…\pI was digging away, you see…\nWhen the whole wall collapsed…\pI think there's a giant cavern\nunderneath now…\pBut I've left it alone because I don't\nthink there are any FOSSILS there…$")
+}
+
+text Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils {
+    format("You found a FOSSIL, didn't you?\nThat's so nice… It's so dreamy…\pWhat are you going to do with that\nFOSSIL?\pFrom what I've heard, DEVON is doing\nresearch on reviving POKéMON from\lFOSSILS…\pI love my FOSSILS, so I would never\ndo anything like that…$")
+}

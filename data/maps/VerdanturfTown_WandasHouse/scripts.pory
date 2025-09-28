@@ -18,6 +18,42 @@ script VerdanturfTown_WandasHouse_EventScript_Wanda {
 }
 
 script VerdanturfTown_WandasHouse_EventScript_WandasBoyfriend {
+    msgbox(VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay, MSGBOX_NPC)
     end
 }
 
+text VerdanturfTown_WandasHouse_Text_WallyGoneThatFar {
+    format("UNCLE: Is that right?\nWALLY's gone away that far all by\lhimself…\pWell, I have to give him credit--he is\nmy little brother's son.$")
+}
+
+text VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging {
+    format("It's amazing. My daughter's boyfriend\nwas digging the tunnel by hand!\pIt's so incredible!$")
+}
+
+text VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay {
+    format("Thanks to you, I can see my girlfriend\nevery day.\lHappy? You bet I am!$")
+}
+
+text VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally {
+    format("If anything were to happen to WALLY,\nI would never be able to look his\lparents in PETALBURG in the eye…$")
+}
+
+text VerdanturfTown_WandasHouse_Text_StrongerSpeechShort {
+    format("WALLY: Please watch me, {PLAYER}.\nI'm going to get stronger than you.\pWhen I do, I'm going to challenge you\nto another battle.$")
+}
+
+text VerdanturfTown_WandasHouse_Text_DontWorryAboutWally {
+    format("WANDA: Don't worry about WALLY.\nHe'll be just fine.\pI know my little cousin, and he has\nPOKéMON with him, too.$")
+}
+
+text VerdanturfTown_WandasHouse_Text_MeetWanda {
+    format("WANDA: You are?\nOh, right, I get it!\pYou're the {PLAYER} who WALLY was\ntelling me about.\pI'm WALLY's cousin.\nGlad to meet you!\pI think WALLY's become a lot more lively\nand healthy since he came here.$")
+}
+
+text VerdanturfTown_WandasHouse_Text_WallySlippedOff {
+    format("WALLY's gone away…\nHe slipped off on his own…$")
+}
+
+text VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande {
+    format("WALLY was in EVER GRANDE?\pHis parents in PETALBURG would be\nastonished to hear that!$")
+}

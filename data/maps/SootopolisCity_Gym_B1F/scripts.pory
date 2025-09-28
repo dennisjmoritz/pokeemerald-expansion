@@ -54,121 +54,121 @@ script SootopolisCity_Gym_B1F_EventScript_Tiffany {
 
 
 text SootopolisCity_Gym_B1F_Text_AndreaDefeat {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_AndreaDefeat"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_AndreaDefeat")
 }
 
 text SootopolisCity_Gym_B1F_Text_AndreaIntro {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_AndreaIntro"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_AndreaIntro")
 }
 
 text SootopolisCity_Gym_B1F_Text_AndreaPostBattle {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_AndreaPostBattle"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_AndreaPostBattle")
 }
 
 text SootopolisCity_Gym_B1F_Text_AnnikaDefeat {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_AnnikaDefeat"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_AnnikaDefeat")
 }
 
 text SootopolisCity_Gym_B1F_Text_AnnikaIntro {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_AnnikaIntro"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_AnnikaIntro")
 }
 
 text SootopolisCity_Gym_B1F_Text_AnnikaPostBattle {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_AnnikaPostBattle"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_AnnikaPostBattle")
 }
 
 text SootopolisCity_Gym_B1F_Text_BethanyDefeat {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_BethanyDefeat"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_BethanyDefeat")
 }
 
 text SootopolisCity_Gym_B1F_Text_BethanyIntro {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_BethanyIntro"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_BethanyIntro")
 }
 
 text SootopolisCity_Gym_B1F_Text_BethanyPostBattle {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_BethanyPostBattle"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_BethanyPostBattle")
 }
 
 text SootopolisCity_Gym_B1F_Text_BriannaDefeat {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_BriannaDefeat"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_BriannaDefeat")
 }
 
 text SootopolisCity_Gym_B1F_Text_BriannaIntro {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_BriannaIntro"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_BriannaIntro")
 }
 
 text SootopolisCity_Gym_B1F_Text_BriannaPostBattle {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_BriannaPostBattle"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_BriannaPostBattle")
 }
 
 text SootopolisCity_Gym_B1F_Text_BridgetDefeat {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_BridgetDefeat"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_BridgetDefeat")
 }
 
 text SootopolisCity_Gym_B1F_Text_BridgetIntro {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_BridgetIntro"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_BridgetIntro")
 }
 
 text SootopolisCity_Gym_B1F_Text_BridgetPostBattle {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_BridgetPostBattle"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_BridgetPostBattle")
 }
 
 text SootopolisCity_Gym_B1F_Text_ConnieDefeat {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_ConnieDefeat"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_ConnieDefeat")
 }
 
 text SootopolisCity_Gym_B1F_Text_ConnieIntro {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_ConnieIntro"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_ConnieIntro")
 }
 
 text SootopolisCity_Gym_B1F_Text_ConniePostBattle {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_ConniePostBattle"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_ConniePostBattle")
 }
 
 text SootopolisCity_Gym_B1F_Text_CrissyDefeat {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_CrissyDefeat"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_CrissyDefeat")
 }
 
 text SootopolisCity_Gym_B1F_Text_CrissyIntro {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_CrissyIntro"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_CrissyIntro")
 }
 
 text SootopolisCity_Gym_B1F_Text_CrissyPostBattle {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_CrissyPostBattle"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_CrissyPostBattle")
 }
 
 text SootopolisCity_Gym_B1F_Text_DaphneDefeat {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_DaphneDefeat"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_DaphneDefeat")
 }
 
 text SootopolisCity_Gym_B1F_Text_DaphneIntro {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_DaphneIntro"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_DaphneIntro")
 }
 
 text SootopolisCity_Gym_B1F_Text_DaphnePostBattle {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_DaphnePostBattle"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_DaphnePostBattle")
 }
 
 text SootopolisCity_Gym_B1F_Text_OliviaDefeat {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_OliviaDefeat"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_OliviaDefeat")
 }
 
 text SootopolisCity_Gym_B1F_Text_OliviaIntro {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_OliviaIntro"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_OliviaIntro")
 }
 
 text SootopolisCity_Gym_B1F_Text_OliviaPostBattle {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_OliviaPostBattle"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_OliviaPostBattle")
 }
 
 text SootopolisCity_Gym_B1F_Text_TiffanyDefeat {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_TiffanyDefeat"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_TiffanyDefeat")
 }
 
 text SootopolisCity_Gym_B1F_Text_TiffanyIntro {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_TiffanyIntro"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_TiffanyIntro")
 }
 
 text SootopolisCity_Gym_B1F_Text_TiffanyPostBattle {
-    "Placeholder text for SootopolisCity_Gym_B1F_Text_TiffanyPostBattle"
+    format("Placeholder text for SootopolisCity_Gym_B1F_Text_TiffanyPostBattle")
 }

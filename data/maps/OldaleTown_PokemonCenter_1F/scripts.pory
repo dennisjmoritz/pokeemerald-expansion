@@ -2,10 +2,12 @@ mapscripts OldaleTown_PokemonCenter_1F_MapScripts {
 }
 
 script OldaleTown_PokemonCenter_1F_EventScript_Boy {
+    msgbox(OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat, MSGBOX_NPC)
     end
 }
 
 script OldaleTown_PokemonCenter_1F_EventScript_Gentleman {
+    msgbox(OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC, MSGBOX_NPC)
     end
 }
 
@@ -17,3 +19,14 @@ script OldaleTown_PokemonCenter_1F_EventScript_Nurse {
     end
 }
 
+text OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC {
+    format("That PC in the corner there is\nfor any POKéMON TRAINER to use.\pNaturally, that means you're welcome\nto use it, too.$")
+}
+
+text OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat {
+    format("POKéMON CENTERS are great!\pYou can use their services as much\nas you like, and it's all for free.\lYou never have to worry!$")
+}
+
+text OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub {
+    format("The POKéMON WIRELESS CLUB on\nthe second floor was built recently.\pI traded POKéMON right away.$")
+}

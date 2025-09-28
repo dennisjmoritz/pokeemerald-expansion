@@ -14,25 +14,33 @@ script MtPyre_6F_EventScript_Valerie {
 
 
 text MtPyre_6F_Text_CedricDefeat {
-    "Placeholder text for MtPyre_6F_Text_CedricDefeat"
+    format("Placeholder text for MtPyre_6F_Text_CedricDefeat")
 }
 
 text MtPyre_6F_Text_CedricIntro {
-    "Placeholder text for MtPyre_6F_Text_CedricIntro"
+    format("Placeholder text for MtPyre_6F_Text_CedricIntro")
 }
 
 text MtPyre_6F_Text_CedricPostBattle {
-    "Placeholder text for MtPyre_6F_Text_CedricPostBattle"
+    format("Placeholder text for MtPyre_6F_Text_CedricPostBattle")
 }
 
 text MtPyre_6F_Text_ValerieDefeat {
-    "Placeholder text for MtPyre_6F_Text_ValerieDefeat"
+    format("Placeholder text for MtPyre_6F_Text_ValerieDefeat")
 }
 
 text MtPyre_6F_Text_ValerieIntro {
-    "Placeholder text for MtPyre_6F_Text_ValerieIntro"
+    format("Placeholder text for MtPyre_6F_Text_ValerieIntro")
 }
 
 text MtPyre_6F_Text_ValeriePostBattle {
-    "Placeholder text for MtPyre_6F_Text_ValeriePostBattle"
+    format("Placeholder text for MtPyre_6F_Text_ValeriePostBattle")
+}
+
+text MtPyre_6F_Text_ValeriePostRematch {
+    format("The POKéMON at rest here…\nSometimes, they play…$")
+}
+
+text MtPyre_6F_Text_ValerieRegister {
+    format("Fufufu… I lost the match, but…\nI have this little ability…\pWithout ever laying my hands on\nyour POKéNAV… Hiyah!$")
 }

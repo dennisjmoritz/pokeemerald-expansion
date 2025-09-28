@@ -2,10 +2,19 @@ mapscripts LilycoveCity_House1_MapScripts {
 }
 
 script LilycoveCity_House1_EventScript_ExpertM {
+    msgbox(LilycoveCity_House1_Text_PokemonPartnersNotTools, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_House1_EventScript_Kecleon {
+    msgbox(LilycoveCity_House1_Text_Kecleon, MSGBOX_DEFAULT)
     end
 }
 
+text LilycoveCity_House1_Text_PokemonPartnersNotTools {
+    format("POKéMON are partners to people.\nThey aren't our tools.\pUnfortunately, there are some people\nwho fail to understand that…$")
+}
+
+text LilycoveCity_House1_Text_Kecleon {
+    format("KECLEON: Ruroro?$")
+}

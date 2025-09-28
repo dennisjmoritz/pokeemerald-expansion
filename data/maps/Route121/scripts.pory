@@ -2,6 +2,7 @@ mapscripts Route121_MapScripts {
 }
 
 script Route121_EventScript_AquaGruntsMoveOut {
+    msgbox(Route121_Text_OkayMoveOutToMtPyre, MSGBOX_DEFAULT)
     end
 }
 
@@ -21,10 +22,12 @@ script Route121_EventScript_Jessica {
 }
 
 script Route121_EventScript_Joy {
+    msgbox(Route121_Text_JoyPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
 script Route121_EventScript_Kate {
+    msgbox(Route121_Text_KatePostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -69,6 +72,7 @@ script Route121_EventScript_Walter {
 }
 
 script Route121_EventScript_Woman {
+    msgbox(Route121_Text_AheadLoomsMtPyre, MSGBOX_NPC)
     end
 }
 
@@ -83,109 +87,125 @@ text Route121_Text_MtPyrePierSign {
 
 
 text Route121_Text_CaleDefeat {
-    "Of course I lost!\nI'm holding stuff in both hands!"
+    format("Of course I lost! I'm holding stuff in both hands!")
 }
 
 text Route121_Text_CaleIntro {
-    "Can't you see that I have all this\nstuff with me?\pDespite that, you still insist that\nwe battle?"
+    format("Can't you see that I have all this stuff with me?\pDespite that, you still insist that we battle?")
 }
 
 text Route121_Text_CalePostBattle {
-    "I bought too much stuff at\nthe LILYCOVE DEPT. STORE.\pIt's up the road from here.\nI wish I had a BAG like yours."
+    format("I bought too much stuff at the LILYCOVE DEPT. STORE.\pIt's up the road from here. I wish I had a BAG like yours.")
 }
 
 text Route121_Text_CristinDefeat {
-    "No!\nYou're horrid!"
+    format("No! You're horrid!")
 }
 
 text Route121_Text_CristinIntro {
-    "I have this routine.\nDefeat five TRAINERS a day.\nGuess what? You're number five!"
+    format("I have this routine. Defeat five TRAINERS a day. Guess what? You're number five!")
 }
 
 text Route121_Text_CristinPostBattle {
-    "I didn't expect to lose this easily…\nI'll win next time!"
+    format("I didn't expect to lose this easily… I'll win next time!")
 }
 
 text Route121_Text_JessicaDefeat {
-    "Oh, how dare you!\nDon't take it so seriously!"
+    format("Oh, how dare you! Don't take it so seriously!")
 }
 
 text Route121_Text_JessicaIntro {
-    "Stop! Have a good look at my precious\nPOKéMON!"
+    format("Stop! Have a good look at my precious POKéMON!")
 }
 
 text Route121_Text_JessicaPostBattle {
-    "Maybe I'll go catch more POKéMON at\nthe SAFARI."
+    format("Maybe I'll go catch more POKéMON at the SAFARI.")
 }
 
 text Route121_Text_MarcelDefeat {
-    "Oh, now what happened here?"
+    format("Oh, now what happened here?")
 }
 
 text Route121_Text_MarcelIntro {
-    "My POKéMON have never tasted defeat!\nOn their next win, I'm entering them\nin CONTESTS."
+    format("My POKéMON have never tasted defeat! On their next win, I'm entering them in CONTESTS.")
 }
 
 text Route121_Text_MarcelPostBattle {
-    "I may have to train my gang some more\nbefore entering any CONTEST."
+    format("I may have to train my gang some more before entering any CONTEST.")
 }
 
 text Route121_Text_MylesDefeat {
-    "Super awesome!"
+    format("Super awesome!")
 }
 
 text Route121_Text_MylesIntro {
-    "There's nothing I love more than\nchecking out other people's POKéMON!"
+    format("There's nothing I love more than checking out other people's POKéMON!")
 }
 
 text Route121_Text_MylesPostBattle {
-    "They're great, your POKéMON!\nHow do you raise them?"
+    format("They're great, your POKéMON! How do you raise them?")
 }
 
 text Route121_Text_PatDefeat {
-    "Wow!\nSpectacular!"
+    format("Wow! Spectacular!")
 }
 
 text Route121_Text_PatIntro {
-    "I want everybody to see the POKéMON\nI've raised!"
+    format("I want everybody to see the POKéMON I've raised!")
 }
 
 text Route121_Text_PatPostBattle {
-    "I raise every POKéMON with the same\nlove and care--I don't pick favorites."
+    format("I raise every POKéMON with the same love and care--I don't pick favorites.")
 }
 
 text Route121_Text_TammyDefeat {
-    "I have lost…"
+    format("I have lost…")
 }
 
 text Route121_Text_TammyIntro {
-    "There are powers beyond our\nunderstanding in the world…"
+    format("There are powers beyond our understanding in the world…")
 }
 
 text Route121_Text_TammyPostBattle {
-    "MT. PYRE…\nThere is a mysterious power\nat work there…"
+    format("MT. PYRE… There is a mysterious power at work there…")
 }
 
 text Route121_Text_VanessaDefeat {
-    "This isn't what I meant!"
+    format("This isn't what I meant!")
 }
 
 text Route121_Text_VanessaIntro {
-    "Will you play with my delightfully\npretty POKéMON?"
+    format("Will you play with my delightfully pretty POKéMON?")
 }
 
 text Route121_Text_VanessaPostBattle {
-    "I'm going to a CONTEST in LILYCOVE.\pMy POKéMON should have no problem\nsweeping the MASTER CLASS."
+    format("I'm going to a CONTEST in LILYCOVE.\pMy POKéMON should have no problem sweeping the MASTER CLASS.")
 }
 
 text Route121_Text_WalterDefeat {
-    "Ah, well played."
+    format("Ah, well played.")
 }
 
 text Route121_Text_WalterIntro {
-    "With my POKéMON, I have traveled\nto the world's four corners.\pYou might say I have some confidence\nin my abilities."
+    format("With my POKéMON, I have traveled to the world's four corners.\pYou might say I have some confidence in my abilities.")
 }
 
 text Route121_Text_WalterPostBattle {
-    "I would like to circle the globe once\nagain with my POKéMON."
+    format("I would like to circle the globe once again with my POKéMON.")
+}
+
+text Route121_Text_OkayMoveOutToMtPyre {
+    format("Okay!\nWe're to move out to MT. PYRE!$")
+}
+
+text Route121_Text_AheadLoomsMtPyre {
+    format("Ahead looms MT. PYRE…\pIt is a natural monument to the spirits \nof departed POKéMON…$")
+}
+
+text Route121_Text_JoyPostBattle {
+    format("JOY: Ehehe, I'll have to train with KATE, my senior student partner, again.")
+}
+
+text Route121_Text_KatePostBattle {
+    format("KATE: When someone's relying on me, I get this urge to look cool in front of them…")
 }

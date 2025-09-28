@@ -10,14 +10,28 @@ script LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight {
 }
 
 script LilycoveCity_DepartmentStore_4F_EventScript_Gentleman {
+    msgbox(LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_DepartmentStore_4F_EventScript_Woman {
+    msgbox(LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_DepartmentStore_4F_EventScript_Youngster {
+    msgbox(LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves, MSGBOX_NPC)
     end
 }
 
+text LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs {
+    format("There are so many different kinds of\nTM moves.\pA catalog I read said there are fifty\ndifferent kinds.$")
+}
+
+text LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM {
+    format("Hmm…\pAn attacking move…\nOr a defensive move…\pIt's no easy matter to decide which TM\nmoves should be taught to POKéMON…$")
+}
+
+text LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves {
+    format("I'd like to get all the different TMs,\nbut a POKéMON learns only four moves.$")
+}

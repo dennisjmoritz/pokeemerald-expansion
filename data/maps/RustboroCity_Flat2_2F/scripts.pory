@@ -6,6 +6,14 @@ script RustboroCity_Flat2_2F_EventScript_NinjaBoy {
 }
 
 script RustboroCity_Flat2_2F_EventScript_OldMan {
+    msgbox(RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays, MSGBOX_NPC)
     end
 }
 
+text RustboroCity_Flat2_2F_Text_GoingToWorkAtDevonToo {
+    format("My daddy's working at the CORPORATION.\pWhen I grow up, I'm going to work for\nDEVON, too.$")
+}
+
+text RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays {
+    format("Way back in the old days, DEVON was just\na teeny, tiny company.$")
+}

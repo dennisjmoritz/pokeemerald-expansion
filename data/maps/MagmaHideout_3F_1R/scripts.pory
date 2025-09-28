@@ -14,25 +14,25 @@ script MagmaHideout_3F_1R_EventScript_Grunt9 {
 
 
 text MagmaHideout_3F_1R_Text_Grunt16Defeat {
-    "Placeholder text for MagmaHideout_3F_1R_Text_Grunt16Defeat"
+    format("Placeholder text for MagmaHideout_3F_1R_Text_Grunt16Defeat")
 }
 
 text MagmaHideout_3F_1R_Text_Grunt16Intro {
-    "Placeholder text for MagmaHideout_3F_1R_Text_Grunt16Intro"
+    format("Placeholder text for MagmaHideout_3F_1R_Text_Grunt16Intro")
 }
 
 text MagmaHideout_3F_1R_Text_Grunt16PostBattle {
-    "Placeholder text for MagmaHideout_3F_1R_Text_Grunt16PostBattle"
+    format("Placeholder text for MagmaHideout_3F_1R_Text_Grunt16PostBattle")
 }
 
 text MagmaHideout_3F_1R_Text_Grunt9Defeat {
-    "Placeholder text for MagmaHideout_3F_1R_Text_Grunt9Defeat"
+    format("Placeholder text for MagmaHideout_3F_1R_Text_Grunt9Defeat")
 }
 
 text MagmaHideout_3F_1R_Text_Grunt9Intro {
-    "Placeholder text for MagmaHideout_3F_1R_Text_Grunt9Intro"
+    format("Placeholder text for MagmaHideout_3F_1R_Text_Grunt9Intro")
 }
 
 text MagmaHideout_3F_1R_Text_Grunt9PostBattle {
-    "Placeholder text for MagmaHideout_3F_1R_Text_Grunt9PostBattle"
+    format("Placeholder text for MagmaHideout_3F_1R_Text_Grunt9PostBattle")
 }

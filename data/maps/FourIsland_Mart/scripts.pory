@@ -2,6 +2,7 @@ mapscripts FourIsland_Mart_MapScripts {
 }
 
 script FourIsland_Mart_EventScript_Camper {
+    msgbox(FourIsland_Mart_Text_IcefallCaveIsFrigid, MSGBOX_NPC)
     end
 }
 
@@ -9,3 +10,7 @@ script FourIsland_Mart_EventScript_Clerk {
     end
 }
 
+
+text FourIsland_Mart_Text_IcefallCaveIsFrigid {
+    format("The SEVII ISLANDS are in a warm\nregion overall.\pBut there is one exception you\nneed to know about.\pThe ICEFALL CAVE is frigid because\nof the POKéMON that live in it.$")
+}

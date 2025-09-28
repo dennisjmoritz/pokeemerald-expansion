@@ -33,49 +33,49 @@ text SilphCo_2F_Text_FloorSign {
 
 
 text SilphCo_2F_Text_ConnorDefeat {
-    "Placeholder text for SilphCo_2F_Text_ConnorDefeat"
+    format("Placeholder text for SilphCo_2F_Text_ConnorDefeat")
 }
 
 text SilphCo_2F_Text_ConnorIntro {
-    "Placeholder text for SilphCo_2F_Text_ConnorIntro"
+    format("Placeholder text for SilphCo_2F_Text_ConnorIntro")
 }
 
 text SilphCo_2F_Text_ConnorPostBattle {
-    "Placeholder text for SilphCo_2F_Text_ConnorPostBattle"
+    format("Placeholder text for SilphCo_2F_Text_ConnorPostBattle")
 }
 
 text SilphCo_2F_Text_Grunt1Defeat {
-    "Placeholder text for SilphCo_2F_Text_Grunt1Defeat"
+    format("Placeholder text for SilphCo_2F_Text_Grunt1Defeat")
 }
 
 text SilphCo_2F_Text_Grunt1Intro {
-    "Placeholder text for SilphCo_2F_Text_Grunt1Intro"
+    format("Placeholder text for SilphCo_2F_Text_Grunt1Intro")
 }
 
 text SilphCo_2F_Text_Grunt1PostBattle {
-    "Placeholder text for SilphCo_2F_Text_Grunt1PostBattle"
+    format("Placeholder text for SilphCo_2F_Text_Grunt1PostBattle")
 }
 
 text SilphCo_2F_Text_Grunt2Defeat {
-    "Placeholder text for SilphCo_2F_Text_Grunt2Defeat"
+    format("Placeholder text for SilphCo_2F_Text_Grunt2Defeat")
 }
 
 text SilphCo_2F_Text_Grunt2Intro {
-    "Placeholder text for SilphCo_2F_Text_Grunt2Intro"
+    format("Placeholder text for SilphCo_2F_Text_Grunt2Intro")
 }
 
 text SilphCo_2F_Text_Grunt2PostBattle {
-    "Placeholder text for SilphCo_2F_Text_Grunt2PostBattle"
+    format("Placeholder text for SilphCo_2F_Text_Grunt2PostBattle")
 }
 
 text SilphCo_2F_Text_JerryDefeat {
-    "Placeholder text for SilphCo_2F_Text_JerryDefeat"
+    format("Placeholder text for SilphCo_2F_Text_JerryDefeat")
 }
 
 text SilphCo_2F_Text_JerryIntro {
-    "Placeholder text for SilphCo_2F_Text_JerryIntro"
+    format("Placeholder text for SilphCo_2F_Text_JerryIntro")
 }
 
 text SilphCo_2F_Text_JerryPostBattle {
-    "Placeholder text for SilphCo_2F_Text_JerryPostBattle"
+    format("Placeholder text for SilphCo_2F_Text_JerryPostBattle")
 }

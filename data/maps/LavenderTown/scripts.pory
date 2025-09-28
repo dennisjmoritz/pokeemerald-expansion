@@ -2,10 +2,12 @@ mapscripts LavenderTown_MapScripts {
 }
 
 script LavenderTown_EventScript_Boy {
+    msgbox(LavenderTown_Text_GhostsAppearedInTower, MSGBOX_NPC)
     end
 }
 
 script LavenderTown_EventScript_LittleGirl {
+    msgbox(LavenderTown_Text_DoYouBelieveInGhosts, MSGBOX_YESNO)
     end
 }
 
@@ -30,6 +32,7 @@ script LavenderTown_EventScript_VolunteerHouseSign {
 }
 
 script LavenderTown_EventScript_WorkerM {
+    msgbox(LavenderTown_Text_TownKnownAsMonGraveSite, MSGBOX_NPC)
     end
 }
 
@@ -48,4 +51,16 @@ text LavenderTown_Text_SilphScopeNotice {
 
 text LavenderTown_Text_VolunteerPokemonHouse {
     format("LAVENDER VOLUNTEER POKéMON HOUSE")
+}
+
+text LavenderTown_Text_GhostsAppearedInTower {
+    format("Ghosts appeared in POKéMON TOWER.\pI think they're the spirits of\nPOKéMON that the ROCKETS killed.$")
+}
+
+text LavenderTown_Text_DoYouBelieveInGhosts {
+    format("Do you believe in ghosts?$")
+}
+
+text LavenderTown_Text_TownKnownAsMonGraveSite {
+    format("This town is known as the grave\nsite of POKéMON.\pMemorial services are held in\nPOKéMON TOWER.$")
 }

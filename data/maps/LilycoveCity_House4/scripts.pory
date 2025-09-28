@@ -2,10 +2,19 @@ mapscripts LilycoveCity_House4_MapScripts {
 }
 
 script LilycoveCity_House4_EventScript_Man1 {
+    msgbox(LilycoveCity_House4_Text_MysteriesAtBottomOfSea, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_House4_EventScript_Man2 {
+    msgbox(LilycoveCity_House4_Text_UnderwaterTrenchMossdeepSootopolis, MSGBOX_NPC)
     end
 }
 
+text LilycoveCity_House4_Text_UnderwaterTrenchMossdeepSootopolis {
+    format("There's a deep underwater trench\nbetween MOSSDEEP and SOOTOPOLIS.\pThat's what someone told me, anyway.$")
+}
+
+text LilycoveCity_House4_Text_MysteriesAtBottomOfSea {
+    format("This planet's biggest mysteries are\nat the bottom of the sea.\pSomebody said that, but I don't know…$")
+}

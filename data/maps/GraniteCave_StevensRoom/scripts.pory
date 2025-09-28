@@ -2,6 +2,14 @@ mapscripts GraniteCave_StevensRoom_MapScripts {
 }
 
 script GraniteCave_StevensRoom_EventScript_Steven {
+    msgbox(GraniteCave_StevensRoom_Text_ImStevenLetterForMe, MSGBOX_DEFAULT)
     end
 }
 
+text GraniteCave_StevensRoom_Text_OhBagIsFull {
+    format("Oh, your BAG is full…\nThat's too bad, then.$")
+}
+
+text GraniteCave_StevensRoom_Text_ImStevenLetterForMe {
+    format("My name is STEVEN.\pI'm interested in rare stones,\nso I travel here and there.\pOh?\nA LETTER for me?$")
+}

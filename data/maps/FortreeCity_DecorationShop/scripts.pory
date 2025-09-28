@@ -10,10 +10,19 @@ script FortreeCity_DecorationShop_EventScript_ClerkDesks {
 }
 
 script FortreeCity_DecorationShop_EventScript_Girl {
+    msgbox(FortreeCity_DecorationShop_Text_BuyingDeskForDolls, MSGBOX_NPC)
     end
 }
 
 script FortreeCity_DecorationShop_EventScript_PokefanM {
+    msgbox(FortreeCity_DecorationShop_Text_MerchandiseSentToPC, MSGBOX_NPC)
     end
 }
 
+text FortreeCity_DecorationShop_Text_BuyingDeskForDolls {
+    format("I'm buying a pretty desk and I'm\nputting my cute DOLLS on it.\pIf I don't, when I decorate my\nSECRET BASE, my DOLLS will get\ldirty or poked with splinters.$")
+}
+
+text FortreeCity_DecorationShop_Text_MerchandiseSentToPC {
+    format("Merchandise you buy here is sent to\nyour own PC.\pThat's fantastic! I wish they could\nalso deliver me home like that.$")
+}

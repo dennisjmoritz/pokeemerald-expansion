@@ -28,49 +28,65 @@ script Route119_WeatherInstitute_2F_EventScript_WeatherScientist {
 
 
 text Route119_WeatherInstitute_2F_Text_Grunt2Defeat {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt2Defeat"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt2Defeat")
 }
 
 text Route119_WeatherInstitute_2F_Text_Grunt2Intro {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt2Intro"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt2Intro")
 }
 
 text Route119_WeatherInstitute_2F_Text_Grunt2PostBattle {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt2PostBattle"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt2PostBattle")
 }
 
 text Route119_WeatherInstitute_2F_Text_Grunt3Defeat {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt3Defeat"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt3Defeat")
 }
 
 text Route119_WeatherInstitute_2F_Text_Grunt3Intro {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt3Intro"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt3Intro")
 }
 
 text Route119_WeatherInstitute_2F_Text_Grunt3PostBattle {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt3PostBattle"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt3PostBattle")
 }
 
 text Route119_WeatherInstitute_2F_Text_Grunt5Defeat {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt5Defeat"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt5Defeat")
 }
 
 text Route119_WeatherInstitute_2F_Text_Grunt5Intro {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt5Intro"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt5Intro")
 }
 
 text Route119_WeatherInstitute_2F_Text_Grunt5PostBattle {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt5PostBattle"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt5PostBattle")
 }
 
 text Route119_WeatherInstitute_2F_Text_ShellyDefeat {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_ShellyDefeat"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_ShellyDefeat")
 }
 
 text Route119_WeatherInstitute_2F_Text_ShellyIntro {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_ShellyIntro"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_ShellyIntro")
 }
 
 text Route119_WeatherInstitute_2F_Text_ShellyPostBattle {
-    "Placeholder text for Route119_WeatherInstitute_2F_Text_ShellyPostBattle"
+    format("Placeholder text for Route119_WeatherInstitute_2F_Text_ShellyPostBattle")
+}
+
+text Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather {
+    format("That POKéMON changes shape according\nto the weather conditions.\pThere're plenty of them in the\nINSTITUTE--go ahead and take it.$")
+}
+
+text Route119_WeatherInstitute_2F_Text_KyogreWeather {
+    format("I track weather patterns over\nthe HOENN region.\pPresently, heavy rainfall has been\nrecorded over {STR_VAR_1}.\pCould that mean, somewhere near\n{STR_VAR_1}…$")
+}
+
+text Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon {
+    format("Thanks!\nThanks to you, we're safe!\pIt might be an odd way of thanking you,\nbut take this POKéMON.$")
+}
+
+text Route119_WeatherInstitute_2F_Text_NoAbnormalWeather {
+    format("Abnormal weather conditions are\nno longer being reported.\pThe occasional rainfall is a blessing,\nreally.$")
 }

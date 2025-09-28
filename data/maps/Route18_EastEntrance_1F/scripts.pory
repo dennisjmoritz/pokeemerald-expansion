@@ -2,6 +2,7 @@ mapscripts Route18_EastEntrance_1F_MapScripts {
 }
 
 script Route18_EastEntrance_1F_EventScript_Guard {
+    msgbox(Route18_EastEntrance_1F_Text_CyclingRoadAllUphillFromHere, MSGBOX_NPC)
     end
 }
 
@@ -25,3 +26,7 @@ script Route18_EastEntrance_1F_EventScript_NeedBikeTriggerTop {
     end
 }
 
+
+text Route18_EastEntrance_1F_Text_CyclingRoadAllUphillFromHere {
+    format("CYCLING ROAD is all uphill from\nhere.$")
+}

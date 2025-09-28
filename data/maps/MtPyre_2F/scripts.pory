@@ -2,6 +2,7 @@ mapscripts MtPyre_2F_MapScripts {
 }
 
 script MtPyre_2F_EventScript_Dez {
+    msgbox(MtPyre_2F_Text_DezPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -11,6 +12,7 @@ script MtPyre_2F_EventScript_Leah {
 }
 
 script MtPyre_2F_EventScript_Luke {
+    msgbox(MtPyre_2F_Text_LukePostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -20,10 +22,12 @@ script MtPyre_2F_EventScript_Mark {
 }
 
 script MtPyre_2F_EventScript_PokefanM {
+    msgbox(MtPyre_2F_Text_TumbledFromFloorAbove, MSGBOX_NPC)
     end
 }
 
 script MtPyre_2F_EventScript_Woman {
+    msgbox(MtPyre_2F_Text_MemoriesOfSkitty, MSGBOX_NPC)
     end
 }
 
@@ -35,37 +39,53 @@ script MtPyre_2F_EventScript_Zander {
 
 
 text MtPyre_2F_Text_LeahDefeat {
-    "Placeholder text for MtPyre_2F_Text_LeahDefeat"
+    format("Placeholder text for MtPyre_2F_Text_LeahDefeat")
 }
 
 text MtPyre_2F_Text_LeahIntro {
-    "Placeholder text for MtPyre_2F_Text_LeahIntro"
+    format("Placeholder text for MtPyre_2F_Text_LeahIntro")
 }
 
 text MtPyre_2F_Text_LeahPostBattle {
-    "Placeholder text for MtPyre_2F_Text_LeahPostBattle"
+    format("Placeholder text for MtPyre_2F_Text_LeahPostBattle")
 }
 
 text MtPyre_2F_Text_MarkDefeat {
-    "Placeholder text for MtPyre_2F_Text_MarkDefeat"
+    format("Placeholder text for MtPyre_2F_Text_MarkDefeat")
 }
 
 text MtPyre_2F_Text_MarkIntro {
-    "Placeholder text for MtPyre_2F_Text_MarkIntro"
+    format("Placeholder text for MtPyre_2F_Text_MarkIntro")
 }
 
 text MtPyre_2F_Text_MarkPostBattle {
-    "Placeholder text for MtPyre_2F_Text_MarkPostBattle"
+    format("Placeholder text for MtPyre_2F_Text_MarkPostBattle")
 }
 
 text MtPyre_2F_Text_ZanderDefeat {
-    "Placeholder text for MtPyre_2F_Text_ZanderDefeat"
+    format("Placeholder text for MtPyre_2F_Text_ZanderDefeat")
 }
 
 text MtPyre_2F_Text_ZanderIntro {
-    "Placeholder text for MtPyre_2F_Text_ZanderIntro"
+    format("Placeholder text for MtPyre_2F_Text_ZanderIntro")
 }
 
 text MtPyre_2F_Text_ZanderPostBattle {
-    "Placeholder text for MtPyre_2F_Text_ZanderPostBattle"
+    format("Placeholder text for MtPyre_2F_Text_ZanderPostBattle")
+}
+
+text MtPyre_2F_Text_LukePostBattle {
+    format("LUKE: Well, we lost but that's okay!\nI'm right here by your side.\lWe'll make it through this dare!$")
+}
+
+text MtPyre_2F_Text_DezPostBattle {
+    format("DEZ: We're lovey-dovey, so we don't\ncare if we lose!$")
+}
+
+text MtPyre_2F_Text_TumbledFromFloorAbove {
+    format("Ooch, ouch… There are holes in the\nground here and there.\pI didn't notice and took a tumble from\nthe floor above.$")
+}
+
+text MtPyre_2F_Text_MemoriesOfSkitty {
+    format("Memories of my darling SKITTY…\nMy eyes overflow thinking about it.$")
 }

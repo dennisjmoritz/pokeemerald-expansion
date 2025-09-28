@@ -2,10 +2,20 @@ mapscripts SSAnne_2F_Room3_MapScripts {
 }
 
 script SSAnne_2F_Room3_EventScript_Gentleman {
+    msgbox(SSAnne_2F_Room3_Text_SeenMonsFerryPeople, MSGBOX_NPC)
     end
 }
 
 script SSAnne_2F_Room3_EventScript_OldMan {
+    msgbox(SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown, MSGBOX_NPC)
     end
 }
 
+
+text SSAnne_2F_Room3_Text_SeenMonsFerryPeople {
+    format("Ah, yes, I have seen some POKéMON\nferry people across the water!$")
+}
+
+text SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown {
+    format("Small trees can be chopped down\nusing the move CUT.\pBut remember this!\nCUT is an HM technique.\pOnce learned, it is not so easily\ndiscarded.$")
+}

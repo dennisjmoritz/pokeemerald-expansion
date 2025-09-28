@@ -6,10 +6,19 @@ script SlateportCity_PokemonCenter_1F_EventScript_Nurse {
 }
 
 script SlateportCity_PokemonCenter_1F_EventScript_Sailor {
+    msgbox(SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_PokemonCenter_1F_EventScript_Woman {
+    msgbox(SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend, MSGBOX_NPC)
     end
 }
 
+text SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend {
+    format("I trade POKéMON with my friends.\pIf a traded POKéMON is holding an\nitem, it makes me twice as happy!$")
+}
+
+text SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon {
+    format("Want a tip for battling?\pI'd say it's raising different kinds\nof POKéMON in a balanced manner.\pIt's no good to make just one\nPOKéMON strong.\pIf it has a type disadvantage,\nit might not stand a chance.$")
+}

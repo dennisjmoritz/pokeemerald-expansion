@@ -2,6 +2,7 @@ mapscripts LavenderTown_Mart_MapScripts {
 }
 
 script LavenderTown_Mart_EventScript_BaldingMan {
+    msgbox(LavenderTown_Mart_Text_SearchingForStatRaiseItems, MSGBOX_NPC)
     end
 }
 
@@ -10,10 +11,24 @@ script LavenderTown_Mart_EventScript_Clerk {
 }
 
 script LavenderTown_Mart_EventScript_Rocker {
+    msgbox(LavenderTown_Mart_Text_DidYouBuyRevives, MSGBOX_NPC)
     end
 }
 
 script LavenderTown_Mart_EventScript_Youngster {
+    msgbox(LavenderTown_Mart_Text_TrainerDuosCanChallengeYou, MSGBOX_NPC)
     end
 }
 
+
+text LavenderTown_Mart_Text_SearchingForStatRaiseItems {
+    format("I'm searching for items that raise\nthe stats of POKéMON.\pThey're effective over the course\nof a single battle.\pX ATTACK, X DEFEND, X SPEED, \nand X SPECIAL are what I'm after.\pDo you know where I can get them?$")
+}
+
+text LavenderTown_Mart_Text_DidYouBuyRevives {
+    format("Did you buy some REVIVES?\nThey revive any fainted POKéMON!$")
+}
+
+text LavenderTown_Mart_Text_TrainerDuosCanChallengeYou {
+    format("Sometimes, a TRAINER duo will\nchallenge you with two POKéMON\lat the same time.\pIf that happens, you have to send\nout two POKéMON to battle, too.$")
+}

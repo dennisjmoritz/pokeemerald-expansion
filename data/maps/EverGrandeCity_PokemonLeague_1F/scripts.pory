@@ -13,3 +13,10 @@ script EverGrandeCity_PokemonLeague_1F_EventScript_Nurse {
     end
 }
 
+text EverGrandeCity_PokemonLeague_1F_Text_GoForth {
+    format("TRAINER! Believe in yourself and your\nPOKéMON, and go forth!$")
+}
+
+text EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges {
+    format("You haven't obtained all the BADGES.\pIf you're bound for the POKéMON\nLEAGUE, you must return with them.$")
+}

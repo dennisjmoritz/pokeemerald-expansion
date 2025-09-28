@@ -6,10 +6,20 @@ script CinnabarIsland_Mart_EventScript_Clerk {
 }
 
 script CinnabarIsland_Mart_EventScript_Scientist {
+    msgbox(CinnabarIsland_Mart_Text_ExtraItemsNeverHurt, MSGBOX_NPC)
     end
 }
 
 script CinnabarIsland_Mart_EventScript_Woman {
+    msgbox(CinnabarIsland_Mart_Text_DontTheyHaveXAttack, MSGBOX_NPC)
     end
 }
 
+
+text CinnabarIsland_Mart_Text_ExtraItemsNeverHurt {
+    format("It never hurts to have extra items.\nYou never know what might happen.$")
+}
+
+text CinnabarIsland_Mart_Text_DontTheyHaveXAttack {
+    format("Don't they have X ATTACK?\pI like it because it raises the\nATTACK stat in battle.$")
+}

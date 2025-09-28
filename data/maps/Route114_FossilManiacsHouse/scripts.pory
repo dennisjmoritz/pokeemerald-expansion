@@ -23,3 +23,7 @@ text Route114_FossilManiacsHouse_Text_CrammedWithBooks {
 text Route114_FossilManiacsHouse_Text_RocksFillDisplayCase {
     format("Rocks in peculiar shapes fill the display case…")
 }
+
+text Route114_FossilManiacsHouse_Text_DigReturnsYouToEntrance {
+    format("If you make a POKéMON DIG inside a\ncave, you're returned to the entrance…$")
+}

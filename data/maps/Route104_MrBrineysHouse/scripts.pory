@@ -6,6 +6,34 @@ script Route104_MrBrineysHouse_EventScript_Briney {
 }
 
 script Route104_MrBrineysHouse_EventScript_Peeko {
+    msgbox(Route104_MrBrineysHouse_Text_Peeko, MSGBOX_DEFAULT)
     end
 }
 
+text Route104_MrBrineysHouse_Text_WaitUpPeeko {
+    format("MR. BRINEY: Hold on, lass!\nWait up, PEEKO!$")
+}
+
+text Route104_MrBrineysHouse_Text_DeclineDeliverySail {
+    format("MR. BRINEY: Is that so?\nYour deliveries can wait?\pYou just go on and tell me whenever\nyou want to set sail!$")
+}
+
+text Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford {
+    format("MR. BRINEY: Ahoy!\nI know exactly what you want to say!\pYou're to deliver a LETTER to DEWFORD\nand a package to SLATEPORT.\pWhat you need me to do is no problem\nat all--I'm the man for the job!\pFirst, we'll set sail for DEWFORD.$")
+}
+
+text Route104_MrBrineysHouse_Text_Peeko {
+    format("PEEKO: Pii piihyoro!$")
+}
+
+text Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail {
+    format("MR. BRINEY: Is that so?\nWell, PEEKO owes her life to you.\pYou just go on and tell me whenever\nyou want to set sail!$")
+}
+
+text Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford {
+    format("MR. BRINEY: Ahoy!\nI know exactly what you want to say!\pYou're to deliver a package to\nCAPT. STERN in SLATEPORT.\pWhat you need me to do is no problem\nat all--I'm the man for the job!\pFirst, we'll set sail for DEWFORD.$")
+}
+
+text Route104_MrBrineysHouse_Text_SetSailForDewford {
+    format("MR. BRINEY: DEWFORD it is, then!\pAnchors aweigh!\nPEEKO, we're setting sail, my darling!$")
+}

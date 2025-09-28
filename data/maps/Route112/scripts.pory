@@ -17,6 +17,7 @@ script Route112_EventScript_Carol {
 }
 
 script Route112_EventScript_Hiker {
+    msgbox(Route112_Text_NotEasyToGetBackToLavaridge, MSGBOX_NPC)
     end
 }
 
@@ -26,6 +27,7 @@ script Route112_EventScript_Larry {
 }
 
 script Route112_EventScript_MagmaGrunts {
+    msgbox(Route112_Text_LeaderGoingToAwakenThing, MSGBOX_DEFAULT)
     end
 }
 
@@ -69,73 +71,81 @@ text Route112_Text_MtChimneySign {
 
 
 text Route112_Text_BriceDefeat {
-    "I lost!\nHahahaha!"
+    format("I lost! Hahahaha!")
 }
 
 text Route112_Text_BriceIntro {
-    "Hahahaha!\nHow about we have a battle?\nYou and me!\nHahahaha!"
+    format("Hahahaha! How about we have a battle? You and me! Hahahaha!")
 }
 
 text Route112_Text_BricePostBattle {
-    "Hahahahaha! Something flew up my nose!\nHahahaha-hatchoo!"
+    format("Hahahahaha! Something flew up my nose! Hahahaha-hatchoo!")
 }
 
 text Route112_Text_BryantDefeat {
-    "What a bumpy ride that was!"
+    format("What a bumpy ride that was!")
 }
 
 text Route112_Text_BryantIntro {
-    "I caught hot POKéMON in FIERY PATH!\nTake a look!"
+    format("I caught hot POKéMON in FIERY PATH! Take a look!")
 }
 
 text Route112_Text_BryantPostBattle {
-    "I like the way you battle.\nIt has a certain flair to it."
+    format("I like the way you battle. It has a certain flair to it.")
 }
 
 text Route112_Text_CarolDefeat {
-    "Oh, you're so strong!"
+    format("Oh, you're so strong!")
 }
 
 text Route112_Text_CarolIntro {
-    "When you're out on a picnic, why,\nyou simply have to sing!\nCome on, sing with me!"
+    format("When you're out on a picnic, why, you simply have to sing! Come on, sing with me!")
 }
 
 text Route112_Text_CarolPostBattle {
-    "It doesn't matter if you're good or bad\nat singing or POKéMON.\pIf you have the most fun, you win!"
+    format("It doesn't matter if you're good or bad at singing or POKéMON.\pIf you have the most fun, you win!")
 }
 
 text Route112_Text_LarryDefeat {
-    "Waaaah!"
+    format("Waaaah!")
 }
 
 text Route112_Text_LarryIntro {
-    "I'm strong.\nI won't cry if I lose."
+    format("I'm strong. I won't cry if I lose.")
 }
 
 text Route112_Text_LarryPostBattle {
-    "I'm not crying because I miss my mommy!\nSnivel…"
+    format("I'm not crying because I miss my mommy! Snivel…")
 }
 
 text Route112_Text_ShaylaDefeat {
-    "Oh, how strong you are!\nYou've given me quite a shock!"
+    format("Oh, how strong you are! You've given me quite a shock!")
 }
 
 text Route112_Text_ShaylaIntro {
-    "Oh, aren't you an adorable TRAINER!\nPlease, I need a romantic battle!\nI'm somewhat decent!"
+    format("Oh, aren't you an adorable TRAINER! Please, I need a romantic battle! I'm somewhat decent!")
 }
 
 text Route112_Text_ShaylaPostBattle {
-    "Are you busy right now?\nI was thinking that maybe we can have\na rematch right now…\nBut it's all right if you're busy."
+    format("Are you busy right now? I was thinking that maybe we can have a rematch right now… But it's all right if you're busy.")
 }
 
 text Route112_Text_TrentDefeat {
-    "Ouch! My legs cramped up!"
+    format("Ouch! My legs cramped up!")
 }
 
 text Route112_Text_TrentIntro {
-    "My legs are solid from pounding up\nand down the mountains.\pThey're not going to buckle easily,\nfriend!"
+    format("My legs are solid from pounding up and down the mountains.\pThey're not going to buckle easily, friend!")
 }
 
 text Route112_Text_TrentPostBattle {
-    "Try hiking, and I mean really\npounding, on these mountain trails\nwith a heavy pack weighing dozens of\npounds.\pThat, my friend, will get your body\ninto serious shape."
+    format("Try hiking, and I mean really pounding, on these mountain trails with a heavy pack weighing dozens of pounds.\pThat, my friend, will get your body into serious shape.")
+}
+
+text Route112_Text_NotEasyToGetBackToLavaridge {
+    format("Eh, I'd like to get to MAUVILLE, but if\nI went down these ledges, it'd be no\leasy matter to get back to LAVARIDGE.$")
+}
+
+text Route112_Text_LeaderGoingToAwakenThing {
+    format("Hey, man, is our leader really going\nto awaken that thing?$")
 }

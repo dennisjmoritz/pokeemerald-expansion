@@ -8,7 +8,7 @@ script CinnabarIsland_EventScript_GymDoorLocked {
 script CinnabarIsland_EventScript_GymSign {
     // lockall
     // famechecker FAMECHECKER_BLAINE, 0
-    msgbox(CinnabarIsland_Text_GymSign, MSGBOX_DEFAULT)
+    msgbox(CinnabarIsland_Text_GymSign, MSGBOX_SIGN)
     // releaseall
     end
 }
@@ -19,6 +19,7 @@ script CinnabarIsland_EventScript_IslandSign {
 }
 
 script CinnabarIsland_EventScript_OldMan {
+    msgbox(CinnabarIsland_Text_ScientistsExperimentInMansion, MSGBOX_NPC)
     end
 }
 
@@ -42,4 +43,8 @@ text CinnabarIsland_Text_IslandSign {
 
 text CinnabarIsland_Text_GymSign {
     format("CINNABAR ISLAND POKéMON GYM LEADER: BLAINE\l The Hotheaded Quiz Master!")
+}
+
+text CinnabarIsland_Text_ScientistsExperimentInMansion {
+    format("Scientists conduct experiments \nin the burned-out building.\pYou know, the one they call the\nPOKéMON MANSION.$")
 }

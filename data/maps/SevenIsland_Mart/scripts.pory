@@ -6,14 +6,29 @@ script SevenIsland_Mart_EventScript_Clerk {
 }
 
 script SevenIsland_Mart_EventScript_Fisher {
+    msgbox(SevenIsland_Mart_Text_NeedToFishOnSevenIsland, MSGBOX_NPC)
     end
 }
 
 script SevenIsland_Mart_EventScript_Hiker {
+    msgbox(SevenIsland_Mart_Text_PreparationsCompleteForRuins, MSGBOX_NPC)
     end
 }
 
 script SevenIsland_Mart_EventScript_Lass {
+    msgbox(SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn, MSGBOX_NPC)
     end
 }
 
+
+text SevenIsland_Mart_Text_NeedToFishOnSevenIsland {
+    format("I need to fish on SEVEN ISLAND.\pThat will complete my fishing tour\nof the SEVII ISLANDS.\pI'd better stock up on some\nPOKé BALLS first, though.$")
+}
+
+text SevenIsland_Mart_Text_PreparationsCompleteForRuins {
+    format("Okay, preparations are complete\nfor me to explore the RUINS.$")
+}
+
+text SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn {
+    format("POKéMON have personalities of their\nown, just like people.\pMy PIKACHU has a HASTY nature,\nso it grew to be a speedy POKéMON.$")
+}

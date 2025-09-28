@@ -17,6 +17,7 @@ script MagmaHideout_4F_EventScript_Grunt13 {
 }
 
 script MagmaHideout_4F_EventScript_Maxie {
+    msgbox(MagmaHideout_4F_Text_MaxieAwakenGroudon, MSGBOX_DEFAULT)
     end
 }
 
@@ -28,49 +29,53 @@ script MagmaHideout_4F_EventScript_Tabitha {
 
 
 text MagmaHideout_4F_Text_Grunt11Defeat {
-    "Placeholder text for MagmaHideout_4F_Text_Grunt11Defeat"
+    format("Placeholder text for MagmaHideout_4F_Text_Grunt11Defeat")
 }
 
 text MagmaHideout_4F_Text_Grunt11Intro {
-    "Placeholder text for MagmaHideout_4F_Text_Grunt11Intro"
+    format("Placeholder text for MagmaHideout_4F_Text_Grunt11Intro")
 }
 
 text MagmaHideout_4F_Text_Grunt11PostBattle {
-    "Placeholder text for MagmaHideout_4F_Text_Grunt11PostBattle"
+    format("Placeholder text for MagmaHideout_4F_Text_Grunt11PostBattle")
 }
 
 text MagmaHideout_4F_Text_Grunt12Defeat {
-    "Placeholder text for MagmaHideout_4F_Text_Grunt12Defeat"
+    format("Placeholder text for MagmaHideout_4F_Text_Grunt12Defeat")
 }
 
 text MagmaHideout_4F_Text_Grunt12Intro {
-    "Placeholder text for MagmaHideout_4F_Text_Grunt12Intro"
+    format("Placeholder text for MagmaHideout_4F_Text_Grunt12Intro")
 }
 
 text MagmaHideout_4F_Text_Grunt12PostBattle {
-    "Placeholder text for MagmaHideout_4F_Text_Grunt12PostBattle"
+    format("Placeholder text for MagmaHideout_4F_Text_Grunt12PostBattle")
 }
 
 text MagmaHideout_4F_Text_Grunt13Defeat {
-    "Placeholder text for MagmaHideout_4F_Text_Grunt13Defeat"
+    format("Placeholder text for MagmaHideout_4F_Text_Grunt13Defeat")
 }
 
 text MagmaHideout_4F_Text_Grunt13Intro {
-    "Placeholder text for MagmaHideout_4F_Text_Grunt13Intro"
+    format("Placeholder text for MagmaHideout_4F_Text_Grunt13Intro")
 }
 
 text MagmaHideout_4F_Text_Grunt13PostBattle {
-    "Placeholder text for MagmaHideout_4F_Text_Grunt13PostBattle"
+    format("Placeholder text for MagmaHideout_4F_Text_Grunt13PostBattle")
 }
 
 text MagmaHideout_4F_Text_TabithaDefeat {
-    "Placeholder text for MagmaHideout_4F_Text_TabithaDefeat"
+    format("Placeholder text for MagmaHideout_4F_Text_TabithaDefeat")
 }
 
 text MagmaHideout_4F_Text_TabithaIntro {
-    "Placeholder text for MagmaHideout_4F_Text_TabithaIntro"
+    format("Placeholder text for MagmaHideout_4F_Text_TabithaIntro")
 }
 
 text MagmaHideout_4F_Text_TabithaPostBattle {
-    "Placeholder text for MagmaHideout_4F_Text_TabithaPostBattle"
+    format("Placeholder text for MagmaHideout_4F_Text_TabithaPostBattle")
+}
+
+text MagmaHideout_4F_Text_MaxieAwakenGroudon {
+    format("MAXIE: GROUDON…\pNothing could awaken you from your\nsleep bathed in magma…\pThis BLUE ORB is what you sought.\nWasn't it?\pI have brought you the BLUE ORB.\nLet its shine awaken you!\pAnd show me…\nShow me the full extent of your power!$")
 }

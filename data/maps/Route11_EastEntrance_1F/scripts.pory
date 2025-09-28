@@ -2,10 +2,20 @@ mapscripts Route11_EastEntrance_1F_MapScripts {
 }
 
 script Route11_EastEntrance_1F_EventScript_BottomGuard {
+    msgbox(Route11_EastEntrance_1F_Text_RockTunnelToReachLavender, MSGBOX_NPC)
     end
 }
 
 script Route11_EastEntrance_1F_EventScript_TopGuard {
+    msgbox(Route11_EastEntrance_1F_Text_ManInLavenderRatesNames, MSGBOX_NPC)
     end
 }
 
+
+text Route11_EastEntrance_1F_Text_RockTunnelToReachLavender {
+    format("If you're aiming to reach LAVENDER\nTOWN, take ROCK TUNNEL.\pYou can get to ROCK TUNNEL from\nCERULEAN CITY.$")
+}
+
+text Route11_EastEntrance_1F_Text_ManInLavenderRatesNames {
+    format("Don't you think it's hard to think\nup good names for POKéMON?\pEspecially if you've caught a\nwhole bunch?\pIn LAVENDER TOWN, there's a man\nwho rates POKéMON nicknames.\pHe can even help you rename your\nPOKéMON, too.$")
+}

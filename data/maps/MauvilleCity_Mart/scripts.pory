@@ -6,10 +6,19 @@ script MauvilleCity_Mart_EventScript_Clerk {
 }
 
 script MauvilleCity_Mart_EventScript_ExpertM {
+    msgbox(MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats, MSGBOX_NPC)
     end
 }
 
 script MauvilleCity_Mart_EventScript_Man {
+    msgbox(MauvilleCity_Mart_Text_DecisionsDetermineBattle, MSGBOX_NPC)
     end
 }
 
+text MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats {
+    format("There are items that temporarily\nelevate the stats of POKéMON.\pThe ones I know you use in battle\nare X ATTACK and X DEFEND…\pI do believe that there are others\nlike them.$")
+}
+
+text MauvilleCity_Mart_Text_DecisionsDetermineBattle {
+    format("Use a certain move, or use an item\ninstead…\pThe TRAINER's decisions determine how\nbattles turn out, I think.$")
+}

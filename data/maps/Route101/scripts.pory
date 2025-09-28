@@ -6,18 +6,22 @@ script Route101_EventScript_BirchsBag {
 }
 
 script Route101_EventScript_Boy {
+    msgbox(Route101_Text_WildPokemonInTallGrass, MSGBOX_NPC)
     end
 }
 
 script Route101_EventScript_PreventExitNorth {
+    msgbox(Route101_Text_DontLeaveMe, MSGBOX_DEFAULT)
     end
 }
 
 script Route101_EventScript_PreventExitSouth {
+    msgbox(Route101_Text_DontLeaveMe, MSGBOX_DEFAULT)
     end
 }
 
 script Route101_EventScript_PreventExitWest {
+    msgbox(Route101_Text_DontLeaveMe, MSGBOX_DEFAULT)
     end
 }
 
@@ -27,14 +31,32 @@ script Route101_EventScript_RouteSign {
 }
 
 script Route101_EventScript_StartBirchRescue {
+    msgbox(Route101_Text_HelpMe, MSGBOX_DEFAULT)
     end
 }
 
 script Route101_EventScript_Youngster {
+    msgbox(Route101_Text_TakeTiredPokemonToPokeCenter, MSGBOX_NPC)
     end
 }
 
 
 text Route101_Text_RouteSign {
     format("ROUTE 101 {UP_ARROW} OLDALE TOWN")
+}
+
+text Route101_Text_WildPokemonInTallGrass {
+    format("Wild POKéMON will jump out at you in\ntall grass.\pIf you want to catch POKéMON, you have\nto go into the tall grass and search.$")
+}
+
+text Route101_Text_HelpMe {
+    format("H-help me!$")
+}
+
+text Route101_Text_TakeTiredPokemonToPokeCenter {
+    format("If POKéMON get tired, take them to\na POKéMON CENTER.\pThere's a POKéMON CENTER in OLDALE\nTOWN right close by.$")
+}
+
+text Route101_Text_DontLeaveMe {
+    format("Wh-Where are you going?!\nDon't leave me like this!$")
 }

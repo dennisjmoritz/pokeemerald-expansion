@@ -7,10 +7,15 @@ script Route3_EventScript_RouteSign {
 }
 
 script Route3_EventScript_Youngster {
+    msgbox(Route3_Text_TunnelFromCeruleanTiring, MSGBOX_NPC)
     end
 }
 
 
 text Route3_Text_RouteSign {
     format("ROUTE 3 MT. MOON AHEAD")
+}
+
+text Route3_Text_TunnelFromCeruleanTiring {
+    format("Whew… I better take a rest…\nGroan…\pThat tunnel from CERULEAN takes a\nlot out of you!$")
 }

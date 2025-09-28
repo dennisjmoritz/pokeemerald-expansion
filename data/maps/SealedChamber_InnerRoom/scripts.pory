@@ -33,7 +33,6 @@ script SealedChamber_InnerRoom_EventScript_BrailleBackWall {
 }
 text SealedChamber_InnerRoom_Text_DoorOpenedFarAway {
     format("You hear a door open far away.")
-    
 }
 
 script SealedChamber_InnerRoom_EventScript_BrailleStoryPart1 {

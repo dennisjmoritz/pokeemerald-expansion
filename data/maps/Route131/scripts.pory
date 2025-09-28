@@ -7,6 +7,7 @@ script Route131_EventScript_Herman {
 }
 
 script Route131_EventScript_Ian {
+    msgbox(Route131_Text_IanPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -21,6 +22,7 @@ script Route131_EventScript_Kevin {
 }
 
 script Route131_EventScript_Reli {
+    msgbox(Route131_Text_ReliPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -42,73 +44,80 @@ script Route131_EventScript_Talia {
 
 
 text Route131_Text_HermanDefeat {
-    "Bleah!"
+    format("Bleah!")
 }
 
 text Route131_Text_HermanIntro {
-    "The sea… The sea… The sea…\nThe sea as far as these eyes can see!\nI'm sick and tired of the sea!"
+    format("The sea… The sea… The sea… The sea as far as these eyes can see! I'm sick and tired of the sea!")
 }
 
 text Route131_Text_HermanPostBattle {
-    "Bored I am by the sea, but swim I must.\pI'm a born swimmer!\nThat's what I am."
+    format("Bored I am by the sea, but swim I must.\pI'm a born swimmer! That's what I am.")
 }
 
 text Route131_Text_KaraDefeat {
-    "I'm out of my depth!"
+    format("I'm out of my depth!")
 }
 
 text Route131_Text_KaraIntro {
-    "Why do men love bathing suits so much?\pThey all ogle me!"
+    format("Why do men love bathing suits so much?\pThey all ogle me!")
 }
 
 text Route131_Text_KaraPostBattle {
-    "Maybe it's not my bathing suit that\nmakes men look. It must be my beauty!"
+    format("Maybe it's not my bathing suit that makes men look. It must be my beauty!")
 }
 
 text Route131_Text_KevinDefeat {
-    "Oops!"
+    format("Oops!")
 }
 
 text Route131_Text_KevinIntro {
-    "The people of PACIFIDLOG are\na peaceful bunch.\pThey never get angry.\nThat goes for me, too."
+    format("The people of PACIFIDLOG are a peaceful bunch.\pThey never get angry. That goes for me, too.")
 }
 
 text Route131_Text_KevinPostBattle {
-    "Tch! …Oh, wait.\nI'm not angry. Honestly!\pBut, boy, you're strong!\nHahaha!"
+    format("Tch! …Oh, wait. I'm not angry. Honestly!\pBut, boy, you're strong! Hahaha!")
 }
 
 text Route131_Text_RichardDefeat {
-    "POKéMON raised by TRAINERS are\nseriously tough…"
+    format("POKéMON raised by TRAINERS are seriously tough…")
 }
 
 text Route131_Text_RichardIntro {
-    "The sea is teeming with POKéMON.\nIt's not easy swimming, I tell you."
+    format("The sea is teeming with POKéMON. It's not easy swimming, I tell you.")
 }
 
 text Route131_Text_RichardPostBattle {
-    "Gasp… Gasp…\nI'm wiped out…\pThe going's easy. It's the leaving\nthat's the hard part.\pWill I have any energy left to make\nthe return trip?"
+    format("Gasp… Gasp… I'm wiped out…\pThe going's easy. It's the leaving that's the hard part.\pWill I have any energy left to make the return trip?")
 }
 
 text Route131_Text_SusieDefeat {
-    "You're tough in spite of the way\nyou look!"
+    format("You're tough in spite of the way you look!")
 }
 
 text Route131_Text_SusieIntro {
-    "Hi, sweetie, wait!\nWe should battle, you and I!"
+    format("Hi, sweetie, wait! We should battle, you and I!")
 }
 
 text Route131_Text_SusiePostBattle {
-    "Did you see a guy over there who whines\nthat he's bored of the sea?\pThat's all talk.\nHe's hopelessly in love with the sea!"
+    format("Did you see a guy over there who whines that he's bored of the sea?\pThat's all talk. He's hopelessly in love with the sea!")
 }
 
 text Route131_Text_TaliaDefeat {
-    "Oh?\nDid I lose?"
+    format("Oh? Did I lose?")
 }
 
 text Route131_Text_TaliaIntro {
-    "If you can beat me, I'll give you some\ngreat information!"
+    format("If you can beat me, I'll give you some great information!")
 }
 
 text Route131_Text_TaliaPostBattle {
-    "There is an odd place nearby.\nThere's a huge tower there.\nWhy don't you go take a look?"
+    format("There is an odd place nearby. There's a huge tower there. Why don't you go take a look?")
+}
+text Route131_Text_IanPostBattle {
+    format("IAN: You know how PACIFIDLOG is a floating town?\pSo, wherever there is the sea, that's a part of PACIFIDLOG!")
+}
+
+text Route131_Text_ReliPostBattle {
+    format("RELI: The people of PACIFIDLOG are together with the sea and POKéMON from the time they are born.")
 }

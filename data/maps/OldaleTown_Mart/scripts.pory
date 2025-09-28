@@ -2,6 +2,7 @@ mapscripts OldaleTown_Mart_MapScripts {
 }
 
 script OldaleTown_Mart_EventScript_Boy {
+    msgbox(OldaleTown_Mart_Text_RestoreHPWithPotion, MSGBOX_NPC)
     end
 }
 
@@ -13,3 +14,10 @@ script OldaleTown_Mart_EventScript_Woman {
     end
 }
 
+text OldaleTown_Mart_Text_ImGoingToBuyPokeBalls {
+    format("I'm going to buy a bunch of POKé BALLS\nand catch a bunch of POKéMON!$")
+}
+
+text OldaleTown_Mart_Text_RestoreHPWithPotion {
+    format("If a POKéMON gets hurt and loses its HP\nand faints, it won't be able to battle.\pTo prevent your POKéMON from fainting,\nrestore its HP with a POTION.$")
+}

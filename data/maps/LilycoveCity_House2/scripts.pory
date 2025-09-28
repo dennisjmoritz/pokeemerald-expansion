@@ -5,3 +5,6 @@ script LilycoveCity_House2_EventScript_FatMan {
     end
 }
 
+text LilycoveCity_House2_Text_SleepIsEssential {
+    format("Yawn…\pSleep is essential for good health…\nSleep and regain health…$")
+}

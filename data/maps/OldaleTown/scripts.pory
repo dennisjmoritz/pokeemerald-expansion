@@ -2,6 +2,7 @@ mapscripts OldaleTown_MapScripts {
 }
 
 script OldaleTown_EventScript_BlockedPath {
+    msgbox(OldaleTown_Text_WaitDontComeInHere, MSGBOX_DEFAULT)
     end
 }
 
@@ -10,6 +11,7 @@ script OldaleTown_EventScript_FootprintsMan {
 }
 
 script OldaleTown_EventScript_Girl {
+    msgbox(OldaleTown_Text_SavingMyProgress, MSGBOX_NPC)
     end
 }
 
@@ -41,4 +43,32 @@ script OldaleTown_EventScript_TownSign {
 
 text OldaleTown_Text_TownSign {
     format("OLDALE TOWN “Where things start off scarce.”")
+}
+
+text OldaleTown_Text_MayLetsGoBack {
+    format("MAY: {PLAYER}{KUN}!\nOver here!\lLet's hurry home!$")
+}
+
+text OldaleTown_Text_SavingMyProgress {
+    format("I want to take a rest, so I'm saving my\nprogress.$")
+}
+
+text OldaleTown_Text_PotionExplanation {
+    format("A POTION can be used anytime, so it's\neven more useful than a POKéMON CENTER\lin certain situations.$")
+}
+
+text OldaleTown_Text_ThisIsAPokemonMart {
+    format("This is a POKéMON MART.\nJust look for our blue roof.\pWe sell a variety of goods including\nPOKé BALLS for catching POKéMON.\pHere, I'd like you to have this as\na promotional item.$")
+}
+
+text OldaleTown_Text_FinishedSketchingFootprints {
+    format("I finished sketching the footprints of\na rare POKéMON.\pBut it turns out they were only my\nown footprints…$")
+}
+
+text OldaleTown_Text_WaitDontComeInHere {
+    format("Aaaaah! Wait!\nPlease don't come in here.\pI just discovered the footprints of\na rare POKéMON!\pWait until I finish sketching\nthem, okay?$")
+}
+
+text OldaleTown_Text_BrendanLetsGoBack {
+    format("BRENDAN: I'm heading back to my dad's\nLAB now.\l{PLAYER}, you should hustle back, too.$")
 }

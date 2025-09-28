@@ -34,3 +34,42 @@ script TrainerHill_Entrance_EventScript_Records {
     end
 }
 
+text TrainerHill_Entrance_Text_TrainersInEveryRoom {
+    format("Let's see…\nThe TRAINERS here now are…\pThere appear to be TRAINERS gathered\nin every room.$")
+}
+
+text TrainerHill_Entrance_Text_StillGettingReady {
+    format("This is the TRAINER HILL where\nyou may enjoy tag battles with many\lTRAINERS.\pUnfortunately, we're still getting\nthings ready. Please come back later!$")
+}
+
+text TrainerHill_Entrance_Text_ThankYouForPlaying {
+    format("Thank you for playing!$")
+}
+
+text TrainerHill_Entrance_Text_SaveGameBeforeEnter {
+    format("Is this your first visit here?\pBefore you enter, please save\nyour game.$")
+}
+
+text TrainerHill_Entrance_Text_CantWaitToTestTheWaters {
+    format("I heard tough TRAINERS come to this\nTRAINER HILL from all over.\pI can't wait to test the waters!\pI'll knock aside anyone that stands\nin my way!$")
+}
+
+text TrainerHill_Entrance_Text_TooBadTremendousEffort {
+    format("That was too bad.\pI think you put in a tremendous\neffort in your battling.\pPlease come back and try again!$")
+}
+
+text TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen {
+    format("Do you know when they're opening\nthis place up?\pI'm waiting here to be the first\nchallenger ever!$")
+}
+
+text TrainerHill_Entrance_Text_MovedReceptionHereForSwitch {
+    format("When the TRAINERS switch places,\nthe movement can be hectic.\pTo avoid the stampede, we moved\nthe reception counter here.\pI'm sorry for the inconvenience.$")
+}
+
+text TrainerHill_Entrance_Text_PleaseVisitUsAgain {
+    format("Please do visit us again!$")
+}
+
+text TrainerHill_Entrance_Text_ExplainTrainerHill {
+    format("Here at the TRAINER HILL, we conduct\nan event called the Time Attack.\pIt is a race that measures how long\nyou take to reach our owner on\lthe rooftop from this counter.\pThe fastest times are posted on\nthe Time Board--try competing with\lyour friends.\pIn TRAINER battles along the way,\nneither Exp. Points nor money will\lbe awarded.$")
+}

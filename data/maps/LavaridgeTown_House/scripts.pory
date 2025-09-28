@@ -2,10 +2,19 @@ mapscripts LavaridgeTown_House_MapScripts {
 }
 
 script LavaridgeTown_House_EventScript_OldMan {
+    msgbox(LavaridgeTown_House_Text_WifeWarmingEggInHotSprings, MSGBOX_NPC)
     end
 }
 
 script LavaridgeTown_House_EventScript_Zigzagoon {
+    msgbox(LavaridgeTown_House_Text_Zigzagoon, MSGBOX_DEFAULT)
     end
 }
 
+text LavaridgeTown_House_Text_Zigzagoon {
+    format("ZIGZAGOON: Pshoo!$")
+}
+
+text LavaridgeTown_House_Text_WifeWarmingEggInHotSprings {
+    format("My wife's warming an EGG in the hot\nsprings. This is what she told me.\pShe left two POKéMON with the DAY CARE.\nAnd they discovered that EGG!$")
+}

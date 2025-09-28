@@ -2,6 +2,7 @@ mapscripts MossdeepCity_MapScripts {
 }
 
 script MossdeepCity_EventScript_BlackBelt {
+    msgbox(MossdeepCity_Text_SootopolisNewGymLeader, MSGBOX_NPC)
     end
 }
 
@@ -11,10 +12,12 @@ script MossdeepCity_EventScript_CitySign {
 }
 
 script MossdeepCity_EventScript_ExpertM {
+    msgbox(MossdeepCity_Text_LifeNeedsSeaToLive, MSGBOX_NPC)
     end
 }
 
 script MossdeepCity_EventScript_Girl {
+    msgbox(MossdeepCity_Text_NiceIfWorldCoveredByFlowers, MSGBOX_NPC)
     end
 }
 
@@ -28,10 +31,12 @@ script MossdeepCity_EventScript_KingsRockBoy {
 }
 
 script MossdeepCity_EventScript_Man {
+    msgbox(MossdeepCity_Text_SurfExhilarating, MSGBOX_DEFAULT)
     end
 }
 
 script MossdeepCity_EventScript_NinjaBoy {
+    msgbox(MossdeepCity_Text_WailmerWatching, MSGBOX_NPC)
     end
 }
 
@@ -44,6 +49,7 @@ script MossdeepCity_EventScript_Sailor {
 }
 
 script MossdeepCity_EventScript_Scott {
+    msgbox(MossdeepCity_Text_ScottSomethingWrongWithTown, MSGBOX_DEFAULT)
     end
 }
 
@@ -66,6 +72,7 @@ script MossdeepCity_EventScript_WhiteRock {
 }
 
 script MossdeepCity_EventScript_Woman {
+    msgbox(MossdeepCity_Text_SpecialSpaceCenterRock, MSGBOX_NPC)
     end
 }
 
@@ -84,4 +91,48 @@ text MossdeepCity_Text_SpaceCenterSign {
 
 text MossdeepCity_Text_ItsAWhiteRock {
     format("It's a white rock.")
+}
+
+text MossdeepCity_Text_WailmerWatching {
+    format("Around MOSSDEEP, you can see wild\nWAILMER.\pIt's called, uh…\nWhat was it now…\pWAI, WAI, WAI…\pWAILMER watching!$")
+}
+
+text MossdeepCity_Text_SootopolisNewGymLeader {
+    format("Ahh… It feels great letting the waves\nwash over my feet…\pSpeaking of the waves, you know that\nisland city SOOTOPOLIS?\pI think the GYM there had a new\nLEADER come in.\pPeople tell me the new LEADER once\nmentored WALLACE.$")
+}
+
+text MossdeepCity_Text_SurfExhilarating {
+    format("A voyage on a ship is fine.\pBut crossing the sea with POKéMON\nusing SURF…\pNow that's an exhilarating trip!\nWouldn't you agree, youngster?$")
+}
+
+text MossdeepCity_Text_SpaceCenterLaunchingRockets {
+    format("The island's SPACE CENTER has been\nlaunching huge rockets.$")
+}
+
+text MossdeepCity_Text_WhatToDoWithWeirdRock {
+    format("Yeah, you think so, too! What are you\nsupposed to do with some weird rock?$")
+}
+
+text MossdeepCity_Text_FeelReliefOnLand {
+    format("I'm a SAILOR, so the sea's obviously\nmore important to me.\pBut you know? When I get back on land\nafter a long voyage, I do feel relief!$")
+}
+
+text MossdeepCity_Text_StevensHouseOverThere {
+    format("STEVEN's house is right over there!$")
+}
+
+text MossdeepCity_Text_SpecialSpaceCenterRock {
+    format("This rock has a special meaning to\nthe people at the SPACE CENTER.\pThey put it here as their wish for\ntheir rockets to fly safely.\pWhen you make a wish, what do you use?\nDo you wish upon a star?\pI use a wish tag to make it happen.\nThat's what I do.$")
+}
+
+text MossdeepCity_Text_ScottSomethingWrongWithTown {
+    format("SCOTT: {PLAYER}{KUN}, feeling good?\nI'm doing great!\pI'd heard MOSSDEEP's GYM LEADER is\npretty strong, so I decided to come\ltake a look-see for myself.\pBut there's something wrong about\nthis town.\pPeople are going on about a warning\nletter and the SPACE CENTER…\pI don't think it concerns me in any\nway, though.$")
+}
+
+text MossdeepCity_Text_LifeNeedsSeaToLive {
+    format("All life needs the sea to live, even\nthough it makes its home on the land.\pLife, having run its course, becomes\nsoil and returns to the land.\pAnd the sea is always connected to\nthe land.\pYes, like the very shoreline here.$")
+}
+
+text MossdeepCity_Text_NiceIfWorldCoveredByFlowers {
+    format("Wouldn't it be nice?\pIf the whole world was covered in\nplants and flowers like this island?$")
 }

@@ -10,14 +10,28 @@ script LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight {
 }
 
 script LilycoveCity_DepartmentStore_3F_EventScript_PokefanM {
+    msgbox(LilycoveCity_DepartmentStore_3F_Text_WantMoreEndurance, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_DepartmentStore_3F_EventScript_TriathleteM {
+    msgbox(LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_DepartmentStore_3F_EventScript_Woman {
+    msgbox(LilycoveCity_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon, MSGBOX_NPC)
     end
 }
 
+text LilycoveCity_DepartmentStore_3F_Text_WantMoreEndurance {
+    format("I want my POKéMON to have more\nendurance.\pI'm trying to decide whether to raise\nDEFENSE with IRON, or SP. DEF with ZINC.$")
+}
+
+text LilycoveCity_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon {
+    format("I gave a CARBOS to my POKéMON,\nand its SPEED went up.$")
+}
+
+text LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon {
+    format("For quickly toughening up POKéMON,\nitems are the best.\pPROTEIN boosts ATTACK,\nand CALCIUM raises SP. ATK.$")
+}

@@ -2,6 +2,7 @@ mapscripts SlateportCity_Mart_MapScripts {
 }
 
 script SlateportCity_Mart_EventScript_BlackBelt {
+    msgbox(SlateportCity_Mart_Text_SomeItemsOnlyAtMart, MSGBOX_NPC)
     end
 }
 
@@ -10,6 +11,14 @@ script SlateportCity_Mart_EventScript_Clerk {
 }
 
 script SlateportCity_Mart_EventScript_Man {
+    msgbox(SlateportCity_Mart_Text_GreatBallIsBetter, MSGBOX_NPC)
     end
 }
 
+text SlateportCity_Mart_Text_GreatBallIsBetter {
+    format("A GREAT BALL is better than a POKé BALL\nat catching POKéMON.\pWith this, I should be able to get that\nelusive POKéMON…$")
+}
+
+text SlateportCity_Mart_Text_SomeItemsOnlyAtMart {
+    format("The MARKET does have some interesting\nmerchandise.\pBut there are some items you can only\nget at a POKéMON MART.$")
+}

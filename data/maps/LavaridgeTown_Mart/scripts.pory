@@ -6,10 +6,19 @@ script LavaridgeTown_Mart_EventScript_Clerk {
 }
 
 script LavaridgeTown_Mart_EventScript_ExpertM {
+    msgbox(LavaridgeTown_Mart_Text_XSpeedFirstStrike, MSGBOX_NPC)
     end
 }
 
 script LavaridgeTown_Mart_EventScript_OldWoman {
+    msgbox(LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney, MSGBOX_NPC)
     end
 }
 
+text LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney {
+    format("On MT. CHIMNEY's peak, there's a local\nspecialty that you can buy only there.\pGive it to a POKéMON--it will be elated.$")
+}
+
+text LavaridgeTown_Mart_Text_XSpeedFirstStrike {
+    format("Use X SPEED to add to a POKéMON's\nSPEED in battle.\pThat will help it get in the first\nstrike--a decided advantage!$")
+}

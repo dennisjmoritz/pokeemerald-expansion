@@ -2,10 +2,19 @@ mapscripts VerdanturfTown_House_MapScripts {
 }
 
 script VerdanturfTown_House_EventScript_Woman1 {
+    msgbox(VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague, MSGBOX_NPC)
     end
 }
 
 script VerdanturfTown_House_EventScript_Woman2 {
+    msgbox(VerdanturfTown_House_Text_DefeatEliteFourInARow, MSGBOX_NPC)
     end
 }
 
+text VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague {
+    format("Far away, deep in EVER GRANDE CITY,\nis the POKéMON LEAGUE.\pThe TRAINERS who gather there are\nall frighteningly well skilled.$")
+}
+
+text VerdanturfTown_House_Text_DefeatEliteFourInARow {
+    format("In the POKéMON LEAGUE, I think the\nrules say that you have to battle the\lELITE FOUR all in a row.\pIf you lose to any of them, you have\nto begin your challenge again from the\lfirst one.$")
+}

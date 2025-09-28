@@ -22,10 +22,12 @@ script SSTidalRooms_EventScript_Garret {
 }
 
 script SSTidalRooms_EventScript_Jed {
+    msgbox(SSTidalRooms_Text_JedPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
 script SSTidalRooms_EventScript_Lea {
+    msgbox(SSTidalRooms_Text_LeaPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -55,61 +57,73 @@ text SSTidalRooms_Text_TakeRestOnBed {
 
 
 text SSTidalRooms_Text_ColtonDefeat {
-    "Placeholder text for SSTidalRooms_Text_ColtonDefeat"
+    format("Placeholder text for SSTidalRooms_Text_ColtonDefeat")
 }
 
 text SSTidalRooms_Text_ColtonIntro {
-    "Placeholder text for SSTidalRooms_Text_ColtonIntro"
+    format("Placeholder text for SSTidalRooms_Text_ColtonIntro")
 }
 
 text SSTidalRooms_Text_ColtonPostBattle {
-    "Placeholder text for SSTidalRooms_Text_ColtonPostBattle"
+    format("Placeholder text for SSTidalRooms_Text_ColtonPostBattle")
 }
 
 text SSTidalRooms_Text_GarretDefeat {
-    "Placeholder text for SSTidalRooms_Text_GarretDefeat"
+    format("Placeholder text for SSTidalRooms_Text_GarretDefeat")
 }
 
 text SSTidalRooms_Text_GarretIntro {
-    "Placeholder text for SSTidalRooms_Text_GarretIntro"
+    format("Placeholder text for SSTidalRooms_Text_GarretIntro")
 }
 
 text SSTidalRooms_Text_GarretPostBattle {
-    "Placeholder text for SSTidalRooms_Text_GarretPostBattle"
+    format("Placeholder text for SSTidalRooms_Text_GarretPostBattle")
 }
 
 text SSTidalRooms_Text_MicahDefeat {
-    "Placeholder text for SSTidalRooms_Text_MicahDefeat"
+    format("Placeholder text for SSTidalRooms_Text_MicahDefeat")
 }
 
 text SSTidalRooms_Text_MicahIntro {
-    "Placeholder text for SSTidalRooms_Text_MicahIntro"
+    format("Placeholder text for SSTidalRooms_Text_MicahIntro")
 }
 
 text SSTidalRooms_Text_MicahPostBattle {
-    "Placeholder text for SSTidalRooms_Text_MicahPostBattle"
+    format("Placeholder text for SSTidalRooms_Text_MicahPostBattle")
 }
 
 text SSTidalRooms_Text_NaomiDefeat {
-    "Placeholder text for SSTidalRooms_Text_NaomiDefeat"
+    format("Placeholder text for SSTidalRooms_Text_NaomiDefeat")
 }
 
 text SSTidalRooms_Text_NaomiIntro {
-    "Placeholder text for SSTidalRooms_Text_NaomiIntro"
+    format("Placeholder text for SSTidalRooms_Text_NaomiIntro")
 }
 
 text SSTidalRooms_Text_NaomiPostBattle {
-    "Placeholder text for SSTidalRooms_Text_NaomiPostBattle"
+    format("Placeholder text for SSTidalRooms_Text_NaomiPostBattle")
 }
 
 text SSTidalRooms_Text_ThomasDefeat {
-    "Placeholder text for SSTidalRooms_Text_ThomasDefeat"
+    format("Placeholder text for SSTidalRooms_Text_ThomasDefeat")
 }
 
 text SSTidalRooms_Text_ThomasIntro {
-    "Placeholder text for SSTidalRooms_Text_ThomasIntro"
+    format("Placeholder text for SSTidalRooms_Text_ThomasIntro")
 }
 
 text SSTidalRooms_Text_ThomasPostBattle {
-    "Placeholder text for SSTidalRooms_Text_ThomasPostBattle"
+    format("Placeholder text for SSTidalRooms_Text_ThomasPostBattle")
+}
+
+text SSTidalRooms_Text_ExplainSnatch {
+    format("SNATCH steals the beneficial effects\nof certain moves before they can be\lused by a foe or ally.$")
+}
+
+text SSTidalRooms_Text_LeaPostBattle {
+    format("LEA: I can't believe it!\nOur lovey-dovey power failed…\lYou must be an awesome TRAINER!$")
+}
+
+text SSTidalRooms_Text_JedPostBattle {
+    format("JED: It's the first time that our lovey-\ndovey power couldn't prevail!\lYou must be an awesome TRAINER!$")
 }

@@ -6,14 +6,29 @@ script SafariZone_North_RestHouse_EventScript_BaldingMan {
 }
 
 script SafariZone_North_RestHouse_EventScript_Fisher {
+    msgbox(SafariZone_East_Text_PrizeInDeepestPartOfSafariZone, MSGBOX_NPC)
     end
 }
 
 script SafariZone_North_RestHouse_EventScript_Gentleman {
+    msgbox(SafariZone_East_Text_MyEeveeEvolvedIntoFlareon, MSGBOX_NPC)
     end
 }
 
 script SafariZone_North_RestHouse_EventScript_Scientist {
+    msgbox(SafariZone_East_Text_KeepAnyItemFoundOnSafari, MSGBOX_NPC)
     end
 }
 
+
+text SafariZone_East_Text_PrizeInDeepestPartOfSafariZone {
+    format("Go to the deepest part of the\nSAFARI ZONE. You will win a prize!$")
+}
+
+text SafariZone_East_Text_MyEeveeEvolvedIntoFlareon {
+    format("My EEVEE evolved into FLAREON.\pBut, a friend's EEVEE turned into a\nVAPOREON. I wonder why?$")
+}
+
+text SafariZone_East_Text_KeepAnyItemFoundOnSafari {
+    format("You can keep any item you find in\nthe SAFARI ZONE.\pBut, you'll run out of time if you\ntry for all of them at once.$")
+}

@@ -2,6 +2,7 @@ mapscripts LilycoveCity_DepartmentStore_1F_MapScripts {
 }
 
 script LilycoveCity_DepartmentStore_1F_EventScript_Azumarill {
+    msgbox(LilycoveCity_DepartmentStore_1F_Text_Azumarill, MSGBOX_DEFAULT)
     end
 }
 
@@ -11,10 +12,12 @@ script LilycoveCity_DepartmentStore_1F_EventScript_FloorNamesSign {
 }
 
 script LilycoveCity_DepartmentStore_1F_EventScript_Greeter {
+    msgbox(LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_DepartmentStore_1F_EventScript_LittleGirl {
+    msgbox(LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture, MSGBOX_NPC)
     end
 }
 
@@ -23,14 +26,36 @@ script LilycoveCity_DepartmentStore_1F_EventScript_LotteryClerk {
 }
 
 script LilycoveCity_DepartmentStore_1F_EventScript_PokefanF {
+    msgbox(LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_DepartmentStore_1F_EventScript_PokefanM {
+    msgbox(LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill, MSGBOX_NPC)
     end
 }
 
 
 text LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign {
     format("1F: SERVICE COUNTER LOTTERY CORNER\p 2F: TRAINER'S ZONE\p 3F: BATTLE COLLECTION\p 4F: TM CORNER\p 5F: POKé DOLL FLOOR\p ROOFTOP: ROOFTOP PLAZA")
+}
+
+text LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore {
+    format("Welcome to LILYCOVE DEPARTMENT STORE.$")
+}
+
+text LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill {
+    format("I'm buying something for my AZUMARILL\nas a reward for winning a CONTEST.$")
+}
+
+text LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture {
+    format("Today, my mom is going to buy me some\nnice furniture.$")
+}
+
+text LilycoveCity_DepartmentStore_1F_Text_Azumarill {
+    format("AZUMARILL: Maririroo!$")
+}
+
+text LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings {
+    format("Whenever I come to the DEPARTMENT\nSTORE, I always end up buying all sorts\lof things because it's so fun.$")
 }

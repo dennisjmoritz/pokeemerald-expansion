@@ -18,10 +18,39 @@ script LilycoveCity_House3_EventScript_GameBoyKid4 {
 }
 
 script LilycoveCity_House3_EventScript_Man {
+    msgbox(LilycoveCity_House3_Text_HappyToHaveQuadruplets, MSGBOX_DEFAULT)
     end
 }
 
 script LilycoveCity_House3_EventScript_PokefanF {
+    msgbox(LilycoveCity_House3_Text_LearnFromMasterOfPokeblocks, MSGBOX_YESNO)
     end
 }
 
+text LilycoveCity_House3_Text_GoingToEnterContest {
+    format("I want to brag about how tough my\nPOKéMON is, so we're going to enter\la CONTEST together.$")
+}
+
+text LilycoveCity_House3_Text_LearnFromMasterOfPokeblocks {
+    format("Oh, my, my! Are you traveling alone?\nBut you're so young! Good for you!\pI'm sure my kids could learn a thing\nor two from you!\pMe? I'm a master of {POKEBLOCK}S.\pIf I get serious just a little, why,\nI can concoct great {POKEBLOCK}S.\pWould you like to learn from me,\na master of {POKEBLOCK}S?$")
+}
+
+text LilycoveCity_House3_Text_LikeMixingAtRecordCorner {
+    format("We like mixing stuff at\nthe RECORD CORNER.\pBut what gets mixed up?$")
+}
+
+text LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender {
+    format("We're going to make super {POKEBLOCK}S\nwith a BERRY BLENDER!$")
+}
+
+text LilycoveCity_House3_Text_GoingToWinMultiBattles {
+    format("We're having MULTI BATTLES, but I know\nI'm going to win.$")
+}
+
+text LilycoveCity_House3_Text_OhAreYouSure {
+    format("Oh? Are you sure?\pYou shouldn't always try to do\neverything by yourself, dear!$")
+}
+
+text LilycoveCity_House3_Text_HappyToHaveQuadruplets {
+    format("When my wife gave birth to quadruplets,\nyou bet I was shocked.\pBut, now, seeing them play together,\nit makes me happy.$")
+}

@@ -2,6 +2,7 @@ mapscripts MtChimney_MapScripts {
 }
 
 script MtChimney_EventScript_AquaPoochyena {
+    msgbox(MtChimney_Text_Bushaa, MSGBOX_SIGN)
     end
 }
 
@@ -10,38 +11,47 @@ script MtChimney_EventScript_Archie {
 }
 
 script MtChimney_EventScript_BusyAquaGrunt1 {
+    msgbox(MtChimney_Text_MagmaOutnumbersUs, MSGBOX_SIGN)
     end
 }
 
 script MtChimney_EventScript_BusyAquaGrunt2 {
+    msgbox(MtChimney_Text_LessHabitatForWaterPokemon, MSGBOX_SIGN)
     end
 }
 
 script MtChimney_EventScript_BusyAquaGrunt3 {
+    msgbox(MtChimney_Text_MagmasNameSimilar, MSGBOX_SIGN)
     end
 }
 
 script MtChimney_EventScript_BusyMagmaGrunt1 {
+    msgbox(MtChimney_Text_TeamAquaAlwaysMessingWithPlans, MSGBOX_SIGN)
     end
 }
 
 script MtChimney_EventScript_BusyMagmaGrunt2 {
+    msgbox(MtChimney_Text_MeteoritesPackAmazingPower, MSGBOX_SIGN)
     end
 }
 
 script MtChimney_EventScript_BusyMagmaGrunt3 {
+    msgbox(MtChimney_Text_YouBetterNotMessWithUs, MSGBOX_SIGN)
     end
 }
 
 script MtChimney_EventScript_BusyMagmaGrunt4 {
+    msgbox(MtChimney_Text_AquasNameSimilar, MSGBOX_SIGN)
     end
 }
 
 script MtChimney_EventScript_BusyMagmaGrunt5 {
+    msgbox(MtChimney_Text_DouseThemInFire, MSGBOX_SIGN)
     end
 }
 
 script MtChimney_EventScript_BusyMagmaGrunt6 {
+    msgbox(MtChimney_Text_KeepMakingMoreLand, MSGBOX_SIGN)
     end
 }
 
@@ -56,14 +66,17 @@ script MtChimney_EventScript_Grunt2 {
 }
 
 script MtChimney_EventScript_LavaCookieLady {
+    msgbox(MtChimney_Text_LavaCookiesJust200, MSGBOX_YESNO)
     end
 }
 
 script MtChimney_EventScript_MagmaPoochyena {
+    msgbox(MtChimney_Text_Bufoh, MSGBOX_SIGN)
     end
 }
 
 script MtChimney_EventScript_Maxie {
+    msgbox(MtChimney_Text_MeteoriteWillActivateVolcano, MSGBOX_DEFAULT)
     end
 }
 
@@ -131,97 +144,193 @@ text MtChimney_Text_RouteSign {
 
 
 text MtChimney_Text_Grunt1Defeat {
-    "Placeholder text for MtChimney_Text_Grunt1Defeat"
+    format("Placeholder text for MtChimney_Text_Grunt1Defeat")
 }
 
 text MtChimney_Text_Grunt1Intro {
-    "Placeholder text for MtChimney_Text_Grunt1Intro"
+    format("Placeholder text for MtChimney_Text_Grunt1Intro")
 }
 
 text MtChimney_Text_Grunt1PostBattle {
-    "Placeholder text for MtChimney_Text_Grunt1PostBattle"
+    format("Placeholder text for MtChimney_Text_Grunt1PostBattle")
 }
 
 text MtChimney_Text_Grunt2Defeat {
-    "Placeholder text for MtChimney_Text_Grunt2Defeat"
+    format("Placeholder text for MtChimney_Text_Grunt2Defeat")
 }
 
 text MtChimney_Text_Grunt2Intro {
-    "Placeholder text for MtChimney_Text_Grunt2Intro"
+    format("Placeholder text for MtChimney_Text_Grunt2Intro")
 }
 
 text MtChimney_Text_Grunt2PostBattle {
-    "Placeholder text for MtChimney_Text_Grunt2PostBattle"
+    format("Placeholder text for MtChimney_Text_Grunt2PostBattle")
 }
 
 text MtChimney_Text_MelissaDefeat {
-    "Placeholder text for MtChimney_Text_MelissaDefeat"
+    format("Placeholder text for MtChimney_Text_MelissaDefeat")
 }
 
 text MtChimney_Text_MelissaIntro {
-    "Placeholder text for MtChimney_Text_MelissaIntro"
+    format("Placeholder text for MtChimney_Text_MelissaIntro")
 }
 
 text MtChimney_Text_MelissaPostBattle {
-    "Placeholder text for MtChimney_Text_MelissaPostBattle"
+    format("Placeholder text for MtChimney_Text_MelissaPostBattle")
 }
 
 text MtChimney_Text_SawyerDefeat {
-    "Placeholder text for MtChimney_Text_SawyerDefeat"
+    format("Placeholder text for MtChimney_Text_SawyerDefeat")
 }
 
 text MtChimney_Text_SawyerIntro {
-    "Placeholder text for MtChimney_Text_SawyerIntro"
+    format("Placeholder text for MtChimney_Text_SawyerIntro")
 }
 
 text MtChimney_Text_SawyerPostBattle {
-    "Placeholder text for MtChimney_Text_SawyerPostBattle"
+    format("Placeholder text for MtChimney_Text_SawyerPostBattle")
 }
 
 text MtChimney_Text_SheilaDefeat {
-    "Placeholder text for MtChimney_Text_SheilaDefeat"
+    format("Placeholder text for MtChimney_Text_SheilaDefeat")
 }
 
 text MtChimney_Text_SheilaIntro {
-    "Placeholder text for MtChimney_Text_SheilaIntro"
+    format("Placeholder text for MtChimney_Text_SheilaIntro")
 }
 
 text MtChimney_Text_SheilaPostBattle {
-    "Placeholder text for MtChimney_Text_SheilaPostBattle"
+    format("Placeholder text for MtChimney_Text_SheilaPostBattle")
 }
 
 text MtChimney_Text_ShelbyDefeat {
-    "Placeholder text for MtChimney_Text_ShelbyDefeat"
+    format("Placeholder text for MtChimney_Text_ShelbyDefeat")
 }
 
 text MtChimney_Text_ShelbyIntro {
-    "Placeholder text for MtChimney_Text_ShelbyIntro"
+    format("Placeholder text for MtChimney_Text_ShelbyIntro")
 }
 
 text MtChimney_Text_ShelbyPostBattle {
-    "Placeholder text for MtChimney_Text_ShelbyPostBattle"
+    format("Placeholder text for MtChimney_Text_ShelbyPostBattle")
 }
 
 text MtChimney_Text_ShirleyDefeat {
-    "Placeholder text for MtChimney_Text_ShirleyDefeat"
+    format("Placeholder text for MtChimney_Text_ShirleyDefeat")
 }
 
 text MtChimney_Text_ShirleyIntro {
-    "Placeholder text for MtChimney_Text_ShirleyIntro"
+    format("Placeholder text for MtChimney_Text_ShirleyIntro")
 }
 
 text MtChimney_Text_ShirleyPostBattle {
-    "Placeholder text for MtChimney_Text_ShirleyPostBattle"
+    format("Placeholder text for MtChimney_Text_ShirleyPostBattle")
 }
 
 text MtChimney_Text_TabithaDefeat {
-    "Placeholder text for MtChimney_Text_TabithaDefeat"
+    format("Placeholder text for MtChimney_Text_TabithaDefeat")
 }
 
 text MtChimney_Text_TabithaIntro {
-    "Placeholder text for MtChimney_Text_TabithaIntro"
+    format("Placeholder text for MtChimney_Text_TabithaIntro")
 }
 
 text MtChimney_Text_TabithaPostBattle {
-    "Placeholder text for MtChimney_Text_TabithaPostBattle"
+    format("Placeholder text for MtChimney_Text_TabithaPostBattle")
+}
+
+text MtChimney_Text_SawyerRegister {
+    format("I like little fireballs like you.\nLet me register you in my POKéNAV.$")
+}
+
+text MtChimney_Text_MagmasNameSimilar {
+    format("We're TEAM AQUA!\pThey're TEAM MAGMA!\pIt burns me up that they'd use such\na confusing name!$")
+}
+
+text MtChimney_Text_DouseThemInFire {
+    format("Yeah!\nDouse them in fire!$")
+}
+
+text MtChimney_Text_PlayerLeftMeteorite {
+    format("{PLAYER} left the METEORITE where\nit was.$")
+}
+
+text MtChimney_Text_MeteoriteWillActivateVolcano {
+    format("The power contained in the METEORITE…\pBy amplifying its power with this\nmachine, MT. CHIMNEY's volcanic\lactivity will instantly intensify…\pIts energy will grow deep inside\nthe crater and…\lFufufu…$")
+}
+
+text MtChimney_Text_ArchieGoStopTeamMagma {
+    format("ARCHIE: Grr, {PLAYER}!\nI should've guessed you'd show up!\pSee for yourself what the fanatics\nof TEAM MAGMA are up to!\pThey're trying to inject the stolen\nMETEORITE's power into the volcano!\pDoing something like that will cause\nthe volcano's eruption!$")
+}
+
+text MtChimney_Text_MagmaOutnumbersUs {
+    format("Darn… TEAM MAGMA outnumbers us!\nWe can't keep up with them!$")
+}
+
+text MtChimney_Text_MetoriteFittedOnMachine {
+    format("A METEORITE is fitted on a mysterious\nmachine…\pThe machine seems to be storing\nenergy in the METEORITE.$")
+}
+
+text MtChimney_Text_OhFineThen {
+    format("Oh, fine then.$")
+}
+
+text MtChimney_Text_Bushaa {
+    format("Bushaa!$")
+}
+
+text MtChimney_Text_MachineMakesNoResponse {
+    format("This mysterious machine…\nIt makes no response whatsoever.$")
+}
+
+text MtChimney_Text_AquasNameSimilar {
+    format("We're TEAM MAGMA!\pThey're TEAM AQUA!\pIt totally annoys me that they'd\nuse a name like ours!$")
+}
+
+text MtChimney_Text_MeteoritesPackAmazingPower {
+    format("METEORITES pack amazing power!$")
+}
+
+text MtChimney_Text_LavaCookiesJust200 {
+    format("LAVA COOKIES are MT. CHIMNEY's local\nspecialty.\pTry one. It's just ¥200.$")
+}
+
+text MtChimney_Text_LessHabitatForWaterPokemon {
+    format("If they expand the land, there'll be\nless habitats for WATER POKéMON!$")
+}
+
+text MtChimney_Text_ArchieIHaveMyHandsFull {
+    format("ARCHIE: Grrr…\pI want to stop that MAXIE,\nbut I can't!\pNot when I have my hands full battling\nthree opponents at once!$")
+}
+
+text MtChimney_Text_TeamAquaAlwaysMessingWithPlans {
+    format("That annoying TEAM AQUA…\nThey always mess with our plans!$")
+}
+
+text MtChimney_Text_ShelbyRegister {
+    format("Thank you, child. It was fun, as if\nI were battling my own grandchild.\pPlease, come see me again for\na rematch.$")
+}
+
+text MtChimney_Text_ShelbyPostRematch {
+    format("Perhaps your heart has become one\nwith the hearts of your POKéMON.$")
+}
+
+text MtChimney_Text_SawyerPostRematch {
+    format("Actually, it really is hot here.\nI'm overdressed for these parts.$")
+}
+
+text MtChimney_Text_YouBetterNotMessWithUs {
+    format("You'd better not mess with us!\pWe're trying to awaken that thing\nfor the benefit of everyone!$")
+}
+
+text MtChimney_Text_KeepMakingMoreLand {
+    format("We're going to keep making more land!$")
+}
+
+text MtChimney_Text_Bufoh {
+    format("Bufoh!$")
+}
+
+text MtChimney_Text_YouveNotGotTheMoney {
+    format("Oh, dear. You can't buy a thing if\nyou've not got the money.$")
 }

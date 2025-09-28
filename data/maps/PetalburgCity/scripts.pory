@@ -2,6 +2,7 @@ mapscripts PetalburgCity_MapScripts {
 }
 
 script PetalburgCity_EventScript_Boy {
+    msgbox(PetalburgCity_Text_WaterReflection, MSGBOX_DEFAULT)
     end
 }
 
@@ -11,10 +12,12 @@ script PetalburgCity_EventScript_CitySign {
 }
 
 script PetalburgCity_EventScript_Gentleman {
+    msgbox(PetalburgCity_Text_FullPartyExplanation, MSGBOX_NPC)
     end
 }
 
 script PetalburgCity_EventScript_GymBoy {
+    msgbox(PetalburgCity_Text_AreYouRookieTrainer, MSGBOX_NPC)
     end
 }
 
@@ -61,6 +64,7 @@ script PetalburgCity_EventScript_WallyHouseSign {
 }
 
 script PetalburgCity_EventScript_WallysMom {
+    msgbox(PetalburgCity_Text_WhereIsWally, MSGBOX_NPC)
     end
 }
 
@@ -75,4 +79,20 @@ text PetalburgCity_Text_WallyHouseSign {
 
 text PetalburgCity_Text_GymSign {
     format("PETALBURG CITY POKéMON GYM LEADER: NORMAN\l “A man in pursuit of power!”")
+}
+
+text PetalburgCity_Text_WaterReflection {
+    format("My face is reflected in the water.\pIt's a shining grin full of hope…\pOr it could be a look of somber silence\nstruggling with fear…\pWhat do you see reflected in your face?$")
+}
+
+text PetalburgCity_Text_FullPartyExplanation {
+    format("Let's say you have six POKéMON.\nIf you catch another one…\pIt is automatically sent to a STORAGE\nBOX over a PC connection.$")
+}
+
+text PetalburgCity_Text_WhereIsWally {
+    format("Where has our WALLY gone?\pWe have to leave for VERDANTURF TOWN\nvery soon…$")
+}
+
+text PetalburgCity_Text_AreYouRookieTrainer {
+    format("Hiya! Are you maybe…\nA rookie TRAINER?\pDo you know what POKéMON TRAINERS\ndo when they reach a new town?\pThey first check what kind of GYM\nis in the town.$")
 }

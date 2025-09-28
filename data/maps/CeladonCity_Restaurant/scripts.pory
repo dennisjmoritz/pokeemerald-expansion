@@ -2,6 +2,7 @@ mapscripts CeladonCity_Restaurant_MapScripts {
 }
 
 script CeladonCity_Restaurant_EventScript_Chef {
+    msgbox(CeladonCity_Restaurant_Text_TakingBreakRightNow, MSGBOX_NPC)
     end
 }
 
@@ -10,14 +11,33 @@ script CeladonCity_Restaurant_EventScript_CoinCaseMan {
 }
 
 script CeladonCity_Restaurant_EventScript_FatMan {
+    msgbox(CeladonCity_Restaurant_Text_ManLostItAllAtSlots, MSGBOX_NPC)
     end
 }
 
 script CeladonCity_Restaurant_EventScript_Woman {
+    msgbox(CeladonCity_Restaurant_Text_OftenGoToDrugstore, MSGBOX_NPC)
     end
 }
 
 script CeladonCity_Restaurant_EventScript_WorkerM {
+    msgbox(CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner, MSGBOX_NPC)
     end
 }
 
+
+text CeladonCity_Restaurant_Text_TakingBreakRightNow {
+    format("Hi!\pSorry, but we're taking a break\nright now.$")
+}
+
+text CeladonCity_Restaurant_Text_ManLostItAllAtSlots {
+    format("Munch…\pThe man at that table lost it all\nat the slots.$")
+}
+
+text CeladonCity_Restaurant_Text_OftenGoToDrugstore {
+    format("My POKéMON are weak, so I often\nhave to go to the DRUGSTORE.$")
+}
+
+text CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner {
+    format("Psst! There's a basement under the\nGAME CORNER, I hear.$")
+}

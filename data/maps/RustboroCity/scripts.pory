@@ -2,6 +2,7 @@ mapscripts RustboroCity_MapScripts {
 }
 
 script RustboroCity_EventScript_Boy1 {
+    msgbox(RustboroCity_Text_YouCanHave2On2Battle, MSGBOX_NPC)
     end
 }
 
@@ -25,10 +26,12 @@ script RustboroCity_EventScript_DevonCorpSign {
 }
 
 script RustboroCity_EventScript_DevonEmployee1 {
+    msgbox(RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel, MSGBOX_DEFAULT)
     end
 }
 
 script RustboroCity_EventScript_DevonEmployee2 {
+    msgbox(RustboroCity_Text_YoureNewAroundHere, MSGBOX_DEFAULT)
     end
 }
 
@@ -58,10 +61,12 @@ script RustboroCity_EventScript_HelpGetGoodsTrigger3 {
 }
 
 script RustboroCity_EventScript_LittleBoy {
+    msgbox(RustboroCity_Text_PokemonCanChangeLookFromExp, MSGBOX_DEFAULT)
     end
 }
 
 script RustboroCity_EventScript_LittleGirl {
+    msgbox(RustboroCity_Text_PokemonChangeShape, MSGBOX_DEFAULT)
     end
 }
 
@@ -70,10 +75,12 @@ script RustboroCity_EventScript_Man1 {
 }
 
 script RustboroCity_EventScript_Man2 {
+    msgbox(RustboroCity_Text_TradePokemonGrowFast, MSGBOX_DEFAULT)
     end
 }
 
 script RustboroCity_EventScript_NinjaBoy {
+    msgbox(RustboroCity_Text_CatchRarePokemonIfIGoToSchool, MSGBOX_SIGN)
     end
 }
 
@@ -144,10 +151,12 @@ script RustboroCity_EventScript_TunnelSign {
 }
 
 script RustboroCity_EventScript_Twin {
+    msgbox(RustboroCity_Text_WowYouHavePokemon, MSGBOX_NPC)
     end
 }
 
 script RustboroCity_EventScript_Woman {
+    msgbox(RustboroCity_Text_GymLeaderIsntEasyWithFire, MSGBOX_NPC)
     end
 }
 
@@ -174,4 +183,96 @@ text RustboroCity_Text_DevonCorpSign {
 
 text RustboroCity_Text_TunnelNearingCompletion {
     format("“Timesaving tunnel nearing completion!”\p …Is what it says on the sign, but there's also a big “X” splashed\l across it in red paint…")
+}
+
+text RustboroCity_Text_BrendanWantToBattle {
+    format("BRENDAN: What's up?\nWant to have a battle with me?$")
+}
+
+text RustboroCity_Text_MrBrineyLovesPeeko {
+    format("The old sailor MR. BRINEY lives in\na cottage by the sea.\pHe said he was going shopping in\nSLATEPORT for his pet, PEEKO.\pThat old sea dog, he must really love\nthat PEEKO.$")
+}
+
+text RustboroCity_Text_PokemonCanChangeLookFromExp {
+    format("If a POKéMON gains experience in\nbattles, it can sometimes change in\lthe way it looks.$")
+}
+
+text RustboroCity_Text_PokemonChangeShape {
+    format("A POKéMON changes shape?\nIf one did that, I would be shocked!$")
+}
+
+text RustboroCity_Text_SneakyLookingManWentAroundCorner {
+    format("Hm? A sneaky-looking man?\pCome to think of it, yes, a shady-\nlooking guy went around the corner.$")
+}
+
+text RustboroCity_Text_BrendanIWontGoEasy {
+    format("BRENDAN: I know you just became\na TRAINER, but I won't go easy!$")
+}
+
+text RustboroCity_Text_BrendanMrBrineyHint {
+    format("BRENDAN: By the way, you know\nMR. BRINEY? The guy I just passed?\pI bet you didn't know this, since you\njust moved here, {PLAYER}, but\lMR. BRINEY was once a great sailor.$")
+}
+
+text RustboroCity_Text_PleaseSelectPokenav {
+    format("Please select the POKéNAV.$")
+}
+
+text RustboroCity_Text_YoureNewAroundHere {
+    format("Oh? Who might you be?\nYou're a new face around these parts.\pHave you just transferred into the\nPOKéMON TRAINER'S SCHOOL?$")
+}
+
+text RustboroCity_Text_YoureLoadedWithItems {
+    format("You're loaded with items.\nI can't give you this GREAT BALL.$")
+}
+
+text RustboroCity_Text_HeyThatsRustborosGymBadge {
+    format("Hey, that's RUSTBORO's GYM BADGE!\pOut of all the POKéMON GYM BADGES,\nRUSTBORO's is the coolest, I'd say.$")
+}
+
+text RustboroCity_Text_YouCanHave2On2Battle {
+    format("Did you know this?\pYou can have a 2-on-2 battle even\nif you're not with another TRAINER.\pIf you catch the eyes of two TRAINERS\nwhen you have two or more POKéMON,\lthey'll both challenge you.\pDon't you think it'd be cool if you\ncould beat two TRAINERS by yourself?$")
+}
+
+text RustboroCity_Text_GymLeaderIsntEasyWithFire {
+    format("I challenged the GYM LEADER, but…\pIt's not going to be easy winning with\nmy FIRE-type POKéMON…\pFIRE-type POKéMON don't match up\nwell against ROCK-type POKéMON…$")
+}
+
+text RustboroCity_Text_WowYouHavePokemon {
+    format("Wow, you have POKéMON with you, too.\pWhen I get bigger, I'm going to go\nplaces with POKéMON, too.$")
+}
+
+text RustboroCity_Text_OutOfTheWay {
+    format("Get out!\nOut of the way!$")
+}
+
+text RustboroCity_Text_MayImNotGoingToLose {
+    format("MAY: You just became a TRAINER,\n{PLAYER}{KUN}. I'm not going to lose!$")
+}
+
+text RustboroCity_Text_CatchRarePokemonIfIGoToSchool {
+    format("POKéMON TRAINER'S SCHOOL!\pIf I go to this school, will I be able\nto catch rare POKéMON easily?$")
+}
+
+text RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel {
+    format("That shady character, I think he took\noff towards the tunnel over there.$")
+}
+
+text RustboroCity_Text_TradePokemonGrowFast {
+    format("A POKéMON you get in a trade from\nsomeone grows fast.\pBut if you don't have certain GYM\nBADGES, it may not obey you…$")
+}
+
+text RustboroCity_Text_MayMrBrineyHint {
+    format("MAY: Oh, by the way, MR. BRINEY, who\nI just passed…\p{PLAYER}{KUN}, you just moved here so you\nmight not know this, but MR. BRINEY\lwas once a revered seafarer.$")
+}
+
+text RustboroCity_Text_YouGotItThankYou {
+    format("Oh! How did it go?\nThe DEVON GOODS?\pYou did!\nYou got them back!\pYou really are a great TRAINER!\pI know! As my thanks, I'll give you\nanother GREAT BALL!$")
+}
+
+text RustboroCity_Text_MayWantToBattle {
+    format("MAY: So, what do you think?\nHow about a little battle here?$")
+}
+
+text RustboroCity_Text_DevonCorpBranchOfficeSign {
+    format("DEVON CORP. BRANCH OFFICE\p“Access limited to DEVON employees\nand authorized personnel.”$")
 }

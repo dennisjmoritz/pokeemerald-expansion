@@ -3,37 +3,37 @@ mapscripts Route110_TrickHousePuzzle2_MapScripts {
 
 
 text Route110_TrickHousePuzzle2_Text_GeorgiaDefeat {
-    "Placeholder text for Route110_TrickHousePuzzle2_Text_GeorgiaDefeat"
+    format("Placeholder text for Route110_TrickHousePuzzle2_Text_GeorgiaDefeat")
 }
 
 text Route110_TrickHousePuzzle2_Text_GeorgiaIntro {
-    "Placeholder text for Route110_TrickHousePuzzle2_Text_GeorgiaIntro"
+    format("Placeholder text for Route110_TrickHousePuzzle2_Text_GeorgiaIntro")
 }
 
 text Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle {
-    "Placeholder text for Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle"
+    format("Placeholder text for Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle")
 }
 
 text Route110_TrickHousePuzzle2_Text_PaulDefeat {
-    "Placeholder text for Route110_TrickHousePuzzle2_Text_PaulDefeat"
+    format("Placeholder text for Route110_TrickHousePuzzle2_Text_PaulDefeat")
 }
 
 text Route110_TrickHousePuzzle2_Text_PaulIntro {
-    "Placeholder text for Route110_TrickHousePuzzle2_Text_PaulIntro"
+    format("Placeholder text for Route110_TrickHousePuzzle2_Text_PaulIntro")
 }
 
 text Route110_TrickHousePuzzle2_Text_PaulPostBattle {
-    "Placeholder text for Route110_TrickHousePuzzle2_Text_PaulPostBattle"
+    format("Placeholder text for Route110_TrickHousePuzzle2_Text_PaulPostBattle")
 }
 
 text Route110_TrickHousePuzzle2_Text_TedDefeat {
-    "Placeholder text for Route110_TrickHousePuzzle2_Text_TedDefeat"
+    format("Placeholder text for Route110_TrickHousePuzzle2_Text_TedDefeat")
 }
 
 text Route110_TrickHousePuzzle2_Text_TedIntro {
-    "Placeholder text for Route110_TrickHousePuzzle2_Text_TedIntro"
+    format("Placeholder text for Route110_TrickHousePuzzle2_Text_TedIntro")
 }
 
 text Route110_TrickHousePuzzle2_Text_TedPostBattle {
-    "Placeholder text for Route110_TrickHousePuzzle2_Text_TedPostBattle"
+    format("Placeholder text for Route110_TrickHousePuzzle2_Text_TedPostBattle")
 }

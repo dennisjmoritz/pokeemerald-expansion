@@ -4,9 +4,6 @@ SkyPillar_Outside_EventScript_ClosedDoor::
 	msgbox SkyPillar_Outside_Text_DoorIsClosed, MSGBOX_SIGN
 	end
 
-SkyPillar_Outside_Text_DoorIsClosed:
-	.string "The door is closed.$"
-
 IslandCave_EventScript_OpenRegiEntrance::
 	setmetatile 7, 19, METATILE_Cave_SealedChamberEntrance_TopLeft, TRUE
 	setmetatile 8, 19, METATILE_Cave_SealedChamberEntrance_TopMid, TRUE
@@ -117,10 +114,6 @@ MauvilleCity_Text_WallyPokenavCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
 
-MauvilleCity_Text_RegisteredWally:
-	.string "Registered WALLY\n"
-	.string "in the POKéNAV.$"
-
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
@@ -169,7 +162,3 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "that occasion as much as me!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
-
-RustboroCity_Gym_Text_RegisteredRoxanne:
-	.string "Registered GYM LEADER ROXANNE\n"
-	.string "in the POKéNAV.$"

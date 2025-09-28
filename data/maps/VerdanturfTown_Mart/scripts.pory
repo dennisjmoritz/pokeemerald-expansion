@@ -2,6 +2,7 @@ mapscripts VerdanturfTown_Mart_MapScripts {
 }
 
 script VerdanturfTown_Mart_EventScript_Boy {
+    msgbox(VerdanturfTown_Mart_Text_XSpecialIsCrucial, MSGBOX_NPC)
     end
 }
 
@@ -10,10 +11,23 @@ script VerdanturfTown_Mart_EventScript_Clerk {
 }
 
 script VerdanturfTown_Mart_EventScript_ExpertF {
+    msgbox(VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent, MSGBOX_NPC)
     end
 }
 
 script VerdanturfTown_Mart_EventScript_Lass {
+    msgbox(VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon, MSGBOX_NPC)
     end
 }
 
+text VerdanturfTown_Mart_Text_XSpecialIsCrucial {
+    format("For any POKéMON match, X SPECIAL\nis crucial.\pIt jacks up the power of some moves\neven though it's only for one battle.$")
+}
+
+text VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon {
+    format("The NEST BALL works better on\nweakened POKéMON.\pVERDANTURF is the only place you can\nbuy it.$")
+}
+
+text VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent {
+    format("They don't seem to sell any winning\nstrategy guides for the BATTLE TENT…\pIt seems one must rely on one's\nown wits after all…$")
+}

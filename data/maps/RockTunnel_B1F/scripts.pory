@@ -44,97 +44,97 @@ script RockTunnel_B1F_EventScript_Winston {
 
 
 text RockTunnel_B1F_Text_AllenDefeat {
-    "Placeholder text for RockTunnel_B1F_Text_AllenDefeat"
+    format("Placeholder text for RockTunnel_B1F_Text_AllenDefeat")
 }
 
 text RockTunnel_B1F_Text_AllenIntro {
-    "Placeholder text for RockTunnel_B1F_Text_AllenIntro"
+    format("Placeholder text for RockTunnel_B1F_Text_AllenIntro")
 }
 
 text RockTunnel_B1F_Text_AllenPostBattle {
-    "Placeholder text for RockTunnel_B1F_Text_AllenPostBattle"
+    format("Placeholder text for RockTunnel_B1F_Text_AllenPostBattle")
 }
 
 text RockTunnel_B1F_Text_CooperDefeat {
-    "Placeholder text for RockTunnel_B1F_Text_CooperDefeat"
+    format("Placeholder text for RockTunnel_B1F_Text_CooperDefeat")
 }
 
 text RockTunnel_B1F_Text_CooperIntro {
-    "Placeholder text for RockTunnel_B1F_Text_CooperIntro"
+    format("Placeholder text for RockTunnel_B1F_Text_CooperIntro")
 }
 
 text RockTunnel_B1F_Text_CooperPostBattle {
-    "Placeholder text for RockTunnel_B1F_Text_CooperPostBattle"
+    format("Placeholder text for RockTunnel_B1F_Text_CooperPostBattle")
 }
 
 text RockTunnel_B1F_Text_DudleyDefeat {
-    "Placeholder text for RockTunnel_B1F_Text_DudleyDefeat"
+    format("Placeholder text for RockTunnel_B1F_Text_DudleyDefeat")
 }
 
 text RockTunnel_B1F_Text_DudleyIntro {
-    "Placeholder text for RockTunnel_B1F_Text_DudleyIntro"
+    format("Placeholder text for RockTunnel_B1F_Text_DudleyIntro")
 }
 
 text RockTunnel_B1F_Text_DudleyPostBattle {
-    "Placeholder text for RockTunnel_B1F_Text_DudleyPostBattle"
+    format("Placeholder text for RockTunnel_B1F_Text_DudleyPostBattle")
 }
 
 text RockTunnel_B1F_Text_EricDefeat {
-    "Placeholder text for RockTunnel_B1F_Text_EricDefeat"
+    format("Placeholder text for RockTunnel_B1F_Text_EricDefeat")
 }
 
 text RockTunnel_B1F_Text_EricIntro {
-    "Placeholder text for RockTunnel_B1F_Text_EricIntro"
+    format("Placeholder text for RockTunnel_B1F_Text_EricIntro")
 }
 
 text RockTunnel_B1F_Text_EricPostBattle {
-    "Placeholder text for RockTunnel_B1F_Text_EricPostBattle"
+    format("Placeholder text for RockTunnel_B1F_Text_EricPostBattle")
 }
 
 text RockTunnel_B1F_Text_MarthaDefeat {
-    "Placeholder text for RockTunnel_B1F_Text_MarthaDefeat"
+    format("Placeholder text for RockTunnel_B1F_Text_MarthaDefeat")
 }
 
 text RockTunnel_B1F_Text_MarthaIntro {
-    "Placeholder text for RockTunnel_B1F_Text_MarthaIntro"
+    format("Placeholder text for RockTunnel_B1F_Text_MarthaIntro")
 }
 
 text RockTunnel_B1F_Text_MarthaPostBattle {
-    "Placeholder text for RockTunnel_B1F_Text_MarthaPostBattle"
+    format("Placeholder text for RockTunnel_B1F_Text_MarthaPostBattle")
 }
 
 text RockTunnel_B1F_Text_SofiaDefeat {
-    "Placeholder text for RockTunnel_B1F_Text_SofiaDefeat"
+    format("Placeholder text for RockTunnel_B1F_Text_SofiaDefeat")
 }
 
 text RockTunnel_B1F_Text_SofiaIntro {
-    "Placeholder text for RockTunnel_B1F_Text_SofiaIntro"
+    format("Placeholder text for RockTunnel_B1F_Text_SofiaIntro")
 }
 
 text RockTunnel_B1F_Text_SofiaPostBattle {
-    "Placeholder text for RockTunnel_B1F_Text_SofiaPostBattle"
+    format("Placeholder text for RockTunnel_B1F_Text_SofiaPostBattle")
 }
 
 text RockTunnel_B1F_Text_SteveDefeat {
-    "Placeholder text for RockTunnel_B1F_Text_SteveDefeat"
+    format("Placeholder text for RockTunnel_B1F_Text_SteveDefeat")
 }
 
 text RockTunnel_B1F_Text_SteveIntro {
-    "Placeholder text for RockTunnel_B1F_Text_SteveIntro"
+    format("Placeholder text for RockTunnel_B1F_Text_SteveIntro")
 }
 
 text RockTunnel_B1F_Text_StevePostBattle {
-    "Placeholder text for RockTunnel_B1F_Text_StevePostBattle"
+    format("Placeholder text for RockTunnel_B1F_Text_StevePostBattle")
 }
 
 text RockTunnel_B1F_Text_WinstonDefeat {
-    "Placeholder text for RockTunnel_B1F_Text_WinstonDefeat"
+    format("Placeholder text for RockTunnel_B1F_Text_WinstonDefeat")
 }
 
 text RockTunnel_B1F_Text_WinstonIntro {
-    "Placeholder text for RockTunnel_B1F_Text_WinstonIntro"
+    format("Placeholder text for RockTunnel_B1F_Text_WinstonIntro")
 }
 
 text RockTunnel_B1F_Text_WinstonPostBattle {
-    "Placeholder text for RockTunnel_B1F_Text_WinstonPostBattle"
+    format("Placeholder text for RockTunnel_B1F_Text_WinstonPostBattle")
 }

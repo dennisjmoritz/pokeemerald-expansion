@@ -2,6 +2,10 @@ mapscripts MauvilleCity_PokemonCenter_2F_MapScripts {
 }
 
 script MauvilleCity_PokemonCenter_2F_EventScript_Youngster {
+    msgbox(MauvilleCity_PokemonCenter_2F_Text_Youngster, MSGBOX_NPC)
     end
 }
 
+text MauvilleCity_PokemonCenter_2F_Text_Youngster {
+    format("Did you know that you can link battle\nat the COLOSSEUM here?\pThey put up your record on the wall\nfor everyone to see.\pIt's embarrassing if you lose more\noften than you win…$")
+}

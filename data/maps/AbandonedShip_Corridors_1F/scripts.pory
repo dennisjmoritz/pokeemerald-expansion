@@ -7,19 +7,24 @@ script AbandonedShip_Corridors_1F_EventScript_Charlie {
 }
 
 script AbandonedShip_Corridors_1F_EventScript_Youngster {
+    msgbox(AbandonedShip_Corridors_1F_Text_IsntItFunHere, MSGBOX_NPC)
     end
 }
 
 
 
 text AbandonedShip_Corridors_1F_Text_CharlieDefeat {
-    "Placeholder text for AbandonedShip_Corridors_1F_Text_CharlieDefeat"
+    format("Placeholder text for AbandonedShip_Corridors_1F_Text_CharlieDefeat")
 }
 
 text AbandonedShip_Corridors_1F_Text_CharlieIntro {
-    "Placeholder text for AbandonedShip_Corridors_1F_Text_CharlieIntro"
+    format("Placeholder text for AbandonedShip_Corridors_1F_Text_CharlieIntro")
 }
 
 text AbandonedShip_Corridors_1F_Text_CharliePostBattle {
-    "Placeholder text for AbandonedShip_Corridors_1F_Text_CharliePostBattle"
+    format("Placeholder text for AbandonedShip_Corridors_1F_Text_CharliePostBattle")
+}
+
+text AbandonedShip_Corridors_1F_Text_IsntItFunHere {
+    format("Isn't it fun here?\nI get excited just being here!$")
 }

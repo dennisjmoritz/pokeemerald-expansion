@@ -2,6 +2,7 @@ mapscripts SSAnne_Deck_MapScripts {
 }
 
 script SSAnne_Deck_EventScript_BaldingMan {
+    msgbox(SSAnne_Deck_Text_FeelSeasick, MSGBOX_NPC)
     end
 }
 
@@ -11,6 +12,7 @@ script SSAnne_Deck_EventScript_Edmond {
 }
 
 script SSAnne_Deck_EventScript_Sailor {
+    msgbox(SSAnne_Deck_Text_ScrubbingDecksHardWork, MSGBOX_NPC)
     end
 }
 
@@ -20,31 +22,43 @@ script SSAnne_Deck_EventScript_Trevor {
 }
 
 script SSAnne_Deck_EventScript_Youngster {
+    msgbox(SSAnne_Deck_Text_ShipDepartingSoon, MSGBOX_NPC)
     end
 }
 
 
 
 text SSAnne_Deck_Text_EdmondDefeat {
-    "Placeholder text for SSAnne_Deck_Text_EdmondDefeat"
+    format("Placeholder text for SSAnne_Deck_Text_EdmondDefeat")
 }
 
 text SSAnne_Deck_Text_EdmondIntro {
-    "Placeholder text for SSAnne_Deck_Text_EdmondIntro"
+    format("Placeholder text for SSAnne_Deck_Text_EdmondIntro")
 }
 
 text SSAnne_Deck_Text_EdmondPostBattle {
-    "Placeholder text for SSAnne_Deck_Text_EdmondPostBattle"
+    format("Placeholder text for SSAnne_Deck_Text_EdmondPostBattle")
 }
 
 text SSAnne_Deck_Text_TrevorDefeat {
-    "Placeholder text for SSAnne_Deck_Text_TrevorDefeat"
+    format("Placeholder text for SSAnne_Deck_Text_TrevorDefeat")
 }
 
 text SSAnne_Deck_Text_TrevorIntro {
-    "Placeholder text for SSAnne_Deck_Text_TrevorIntro"
+    format("Placeholder text for SSAnne_Deck_Text_TrevorIntro")
 }
 
 text SSAnne_Deck_Text_TrevorPostBattle {
-    "Placeholder text for SSAnne_Deck_Text_TrevorPostBattle"
+    format("Placeholder text for SSAnne_Deck_Text_TrevorPostBattle")
+}
+text SSAnne_Deck_Text_FeelSeasick {
+    format("Urf… I feel ill…\pI got seasick, so I stepped out to\nget some air…$")
+}
+
+text SSAnne_Deck_Text_ScrubbingDecksHardWork {
+    format("Whew!\nScrubbing decks is hard work!$")
+}
+
+text SSAnne_Deck_Text_ShipDepartingSoon {
+    format("The party's over.\nThe ship will be departing soon.$")
 }

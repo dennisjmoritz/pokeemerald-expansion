@@ -34,73 +34,73 @@ script Route108_EventScript_Tara {
 
 
 text Route108_Text_CarolinaDefeated {
-    "That wasn't cute at all."
+    format("That wasn't cute at all.")
 }
 
 text Route108_Text_CarolinaIntro {
-    "I take huge pride in my POKéMON.\nWe'll show you one speedy battle!"
+    format("I take huge pride in my POKéMON. We'll show you one speedy battle!")
 }
 
 text Route108_Text_CarolinaPostBattle {
-    "Since I'm at sea like this, I wouldn't\nmind putting on a pink, frilly swimsuit…"
+    format("Since I'm at sea like this, I wouldn't mind putting on a pink, frilly swimsuit…")
 }
 
 text Route108_Text_CoryDefeated {
-    "Waaah! I lost!\nWaaah! Waaah!"
+    format("Waaah! I lost! Waaah! Waaah!")
 }
 
 text Route108_Text_CoryIntro {
-    "I love WATER-type POKéMON.\nI love other POKéMON, too!"
+    format("I love WATER-type POKéMON. I love other POKéMON, too!")
 }
 
 text Route108_Text_CoryPostBattle {
-    "Shouting is good for me!\nIt uplifts me!"
+    format("Shouting is good for me! It uplifts me!")
 }
 
 text Route108_Text_JeromeDefeated {
-    "I won't be able to swim the seven seas\nlike this…"
+    format("I won't be able to swim the seven seas like this…")
 }
 
 text Route108_Text_JeromeIntro {
-    "My dream is to swim the world's seven\nseas!"
+    format("My dream is to swim the world's seven seas!")
 }
 
 text Route108_Text_JeromePostBattle {
-    "Playing with marine POKéMON is one of\nthe pleasures of swimming!"
+    format("Playing with marine POKéMON is one of the pleasures of swimming!")
 }
 
 text Route108_Text_MatthewDefeated {
-    "I'm sinking!\nGlub… Glub…"
+    format("I'm sinking! Glub… Glub…")
 }
 
 text Route108_Text_MatthewIntro {
-    "Ahoy, there! Are you going out to\nthe ABANDONED SHIP, too?"
+    format("Ahoy, there! Are you going out to the ABANDONED SHIP, too?")
 }
 
 text Route108_Text_MatthewPostBattle {
-    "Some people even go inside that\nABANDONED SHIP."
+    format("Some people even go inside that ABANDONED SHIP.")
 }
 
 text Route108_Text_MissyDefeated {
-    "When I lose a battle, I get all\nstressed out!"
+    format("When I lose a battle, I get all stressed out!")
 }
 
 text Route108_Text_MissyIntro {
-    "I love the sea!\nI forget all my worries when I swim!"
+    format("I love the sea! I forget all my worries when I swim!")
 }
 
 text Route108_Text_MissyPostBattle {
-    "Work off your stress by swimming!\nIt's so healthy!"
+    format("Work off your stress by swimming! It's so healthy!")
 }
 
 text Route108_Text_TaraDefeated {
-    "Oh, boo!"
+    format("Oh, boo!")
 }
 
 text Route108_Text_TaraIntro {
-    "My liar of a boyfriend told me that\nI look great in a bikini…"
+    format("My liar of a boyfriend told me that I look great in a bikini…")
 }
 
 text Route108_Text_TaraPostBattle {
-    "Even if it's a lie, I love being told\nI look great…\nWe girls are so complex…"
+    format("Even if it's a lie, I love being told I look great… We girls are so complex…")
 }

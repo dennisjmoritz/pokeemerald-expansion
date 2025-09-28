@@ -8,7 +8,7 @@ script Route12_FishingHouse_EventScript_FishingGuruBrother {
 script Route12_FishingHouse_EventScript_MagikarpRecordSign {
     // lockall
     // goto_if_set FLAG_GOT_RECORD_SETTING_MAGIKARP, Route12_FishingHouse_EventScript_MagikarpRecordSignRecordSet
-    msgbox(Route12_FishingHouse_Text_BlankChartOfSomeSort, MSGBOX_DEFAULT)
+    msgbox(Route12_FishingHouse_Text_BlankChartOfSomeSort, MSGBOX_SIGN)
     // releaseall
     end
 }

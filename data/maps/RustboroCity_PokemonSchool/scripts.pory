@@ -9,22 +9,27 @@ script RustboroCity_PokemonSchool_EventScript_Blackboard {
 }
 
 script RustboroCity_PokemonSchool_EventScript_GameboyKid1 {
+    msgbox(RustboroCity_PokemonSchool_Text_TradingRightNow, MSGBOX_NPC)
     end
 }
 
 script RustboroCity_PokemonSchool_EventScript_GameboyKid2 {
+    msgbox(RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot, MSGBOX_NPC)
     end
 }
 
 script RustboroCity_PokemonSchool_EventScript_Lass {
+    msgbox(RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself, MSGBOX_NPC)
     end
 }
 
 script RustboroCity_PokemonSchool_EventScript_RichBoy {
+    msgbox(RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems, MSGBOX_NPC)
     end
 }
 
 script RustboroCity_PokemonSchool_EventScript_SchoolKidM {
+    msgbox(RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry, MSGBOX_NPC)
     end
 }
 
@@ -48,4 +53,60 @@ text RustboroCity_PokemonSchool_Text_StudentsNotes {
 
 text RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges {
     format("The blackboard lists status changes that may affect POKéMON in battle.")
+}
+
+text RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge {
+    format("Hello? Didn't we meet before?\nI think back in PETALBURG CITY.\pLet me introduce myself.\nMy name's SCOTT.\pI've been traveling everywhere in\nsearch of outstanding TRAINERS.\pMore specifically, I'm looking for\nPOKéMON battle experts.\pOh, what's that?\nIt's a STONE BADGE, isn't it?\pThat's pretty impressive, I'd say, for\na starting TRAINER like yourself.\pBut, you know, I would've loved to see\nyou in battle.\pIt's hard to tell what you're like as\na TRAINER from a LEAGUE BADGE.$")
+}
+
+text RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown {
+    format("SCOTT: Hmm…\pThe talent levels of the students here\nare unknown. The potential's there.$")
+}
+
+text RustboroCity_PokemonSchool_Text_ExplainSleep {
+    format("If a POKéMON falls asleep, it will be\nunable to attack.\pA POKéMON may wake up on its own,\nbut if a battle ends while it is\lsleeping, it will stay asleep.\pWake it up using an AWAKENING.$")
+}
+
+text RustboroCity_PokemonSchool_Text_ExplainParalysis {
+    format("If a POKéMON becomes paralyzed,\nits SPEED drops.\pIt may also not be able to move while\nit is in battle.\pParalysis remains after battle.\nCure it using a PARLYZ HEAL.$")
+}
+
+text RustboroCity_PokemonSchool_Text_TradingRightNow {
+    format("I'm trading POKéMON with my friend\nright now.$")
+}
+
+text RustboroCity_PokemonSchool_Text_ExplainBurn {
+    format("A burn reduces ATTACK power, and it\nsteadily reduces the victim's HP.\pA burn lingers after battle.\nCure a burn using a BURN HEAL.$")
+}
+
+text RustboroCity_PokemonSchool_Text_ExplainFreeze {
+    format("If a POKéMON is frozen, it becomes\ncompletely helpless.\pIt will remain frozen after battle.\nThaw it out using an ICE HEAL.$")
+}
+
+text RustboroCity_PokemonSchool_Text_ScottStoneBadge {
+    format("SCOTT: Oh, what's that?\pIt's a STONE BADGE, isn't it?\nThat's pretty impressive, I'd say.\pBut, you know, I would've loved to see\nyou in battle.\pIt's hard to tell what you're like as\na TRAINER from a LEAGUE BADGE.$")
+}
+
+text RustboroCity_PokemonSchool_Text_ExplainQuickClaw {
+    format("A POKéMON holding the QUICK CLAW will\noccasionally speed up and get to move\lbefore its opponent.\pThere are many other items that are\nmeant to be held by POKéMON.\pJust those alone will give you many\ntopics to study!$")
+}
+
+text RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot {
+    format("I always wanted a SEEDOT, and\nI'm finally getting one!$")
+}
+
+text RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself {
+    format("You know how some POKéMON moves can\nconfuse a POKéMON?\pA confused POKéMON will sometimes\nattack itself without meaning to.\pBut once it leaves battle, it will\nreturn to normal.$")
+}
+
+text RustboroCity_PokemonSchool_Text_ExplainPoison {
+    format("If a POKéMON is poisoned, it will\nsteadily lose HP.\pThe effects of poison remain after\na battle.\pA poisoned POKéMON's HP will drop\nwhile it is traveling.\pHeal a poisoning using an ANTIDOTE.$")
+}
+
+text RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry {
+    format("A POKéMON holding a BERRY will heal\nitself…\pThere are many kinds of items that\nPOKéMON can hold…\pBoy, it sure is hard taking notes\ndown…$")
+}
+
+text RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems {
+    format("POKéMON can hold items, but they\ndon't know what to do with man-made\litems like POTION and ANTIDOTE.$")
 }

@@ -6,6 +6,7 @@ script CeruleanCity_House2_EventScript_Hiker {
 }
 
 script CeruleanCity_House2_EventScript_Lass {
+    msgbox(CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood, MSGBOX_NPC)
     end
 }
 
@@ -17,4 +18,8 @@ script CeruleanCity_House2_EventScript_WallHole {
 
 text CeruleanCity_House2_Text_TeamRocketLeftWayOut {
     format("TEAM ROCKET left a way out!")
+}
+
+text CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood {
+    format("TEAM ROCKET must be trying to DIG\ntheir way into no good!$")
 }

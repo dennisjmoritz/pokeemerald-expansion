@@ -1,3 +1,6 @@
 mapscripts EverGrandeCity_HallOfFame_MapScripts {
 }
 
+text EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions {
+    format("WALLACE: This room…\pThis is where we keep records of\nPOKéMON that prevailed through\lharsh battles.\pIt is here that the LEAGUE CHAMPIONS\nare honored.$")
+}

@@ -6,10 +6,20 @@ script SaffronCity_Mart_EventScript_Clerk {
 }
 
 script SaffronCity_Mart_EventScript_Lass {
+    msgbox(SaffronCity_Mart_Text_ReviveIsCostly, MSGBOX_NPC)
     end
 }
 
 script SaffronCity_Mart_EventScript_Youngster {
+    msgbox(SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper, MSGBOX_NPC)
     end
 }
 
+
+text SaffronCity_Mart_Text_ReviveIsCostly {
+    format("REVIVE is costly, but it revives\nfainted POKéMON!$")
+}
+
+text SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper {
+    format("MAX REPEL keeps weaker POKéMON\nfrom appearing.\pMAX REPEL stays effective longer\nthan SUPER REPEL.$")
+}

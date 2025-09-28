@@ -48,85 +48,85 @@ text MtMoon_1F_Text_ZubatIsABloodsucker {
 
 
 text MtMoon_1F_Text_IrisDefeat {
-    "Placeholder text for MtMoon_1F_Text_IrisDefeat"
+    format("Placeholder text for MtMoon_1F_Text_IrisDefeat")
 }
 
 text MtMoon_1F_Text_IrisIntro {
-    "Placeholder text for MtMoon_1F_Text_IrisIntro"
+    format("Placeholder text for MtMoon_1F_Text_IrisIntro")
 }
 
 text MtMoon_1F_Text_IrisPostBattle {
-    "Placeholder text for MtMoon_1F_Text_IrisPostBattle"
+    format("Placeholder text for MtMoon_1F_Text_IrisPostBattle")
 }
 
 text MtMoon_1F_Text_JoshDefeat {
-    "Placeholder text for MtMoon_1F_Text_JoshDefeat"
+    format("Placeholder text for MtMoon_1F_Text_JoshDefeat")
 }
 
 text MtMoon_1F_Text_JoshIntro {
-    "Placeholder text for MtMoon_1F_Text_JoshIntro"
+    format("Placeholder text for MtMoon_1F_Text_JoshIntro")
 }
 
 text MtMoon_1F_Text_JoshPostBattle {
-    "Placeholder text for MtMoon_1F_Text_JoshPostBattle"
+    format("Placeholder text for MtMoon_1F_Text_JoshPostBattle")
 }
 
 text MtMoon_1F_Text_JovanDefeat {
-    "Placeholder text for MtMoon_1F_Text_JovanDefeat"
+    format("Placeholder text for MtMoon_1F_Text_JovanDefeat")
 }
 
 text MtMoon_1F_Text_JovanIntro {
-    "Placeholder text for MtMoon_1F_Text_JovanIntro"
+    format("Placeholder text for MtMoon_1F_Text_JovanIntro")
 }
 
 text MtMoon_1F_Text_JovanPostBattle {
-    "Placeholder text for MtMoon_1F_Text_JovanPostBattle"
+    format("Placeholder text for MtMoon_1F_Text_JovanPostBattle")
 }
 
 text MtMoon_1F_Text_KentDefeat {
-    "Placeholder text for MtMoon_1F_Text_KentDefeat"
+    format("Placeholder text for MtMoon_1F_Text_KentDefeat")
 }
 
 text MtMoon_1F_Text_KentIntro {
-    "Placeholder text for MtMoon_1F_Text_KentIntro"
+    format("Placeholder text for MtMoon_1F_Text_KentIntro")
 }
 
 text MtMoon_1F_Text_KentPostBattle {
-    "Placeholder text for MtMoon_1F_Text_KentPostBattle"
+    format("Placeholder text for MtMoon_1F_Text_KentPostBattle")
 }
 
 text MtMoon_1F_Text_MarcosDefeat {
-    "Placeholder text for MtMoon_1F_Text_MarcosDefeat"
+    format("Placeholder text for MtMoon_1F_Text_MarcosDefeat")
 }
 
 text MtMoon_1F_Text_MarcosIntro {
-    "Placeholder text for MtMoon_1F_Text_MarcosIntro"
+    format("Placeholder text for MtMoon_1F_Text_MarcosIntro")
 }
 
 text MtMoon_1F_Text_MarcosPostBattle {
-    "Placeholder text for MtMoon_1F_Text_MarcosPostBattle"
+    format("Placeholder text for MtMoon_1F_Text_MarcosPostBattle")
 }
 
 text MtMoon_1F_Text_MiriamDefeat {
-    "Placeholder text for MtMoon_1F_Text_MiriamDefeat"
+    format("Placeholder text for MtMoon_1F_Text_MiriamDefeat")
 }
 
 text MtMoon_1F_Text_MiriamIntro {
-    "Placeholder text for MtMoon_1F_Text_MiriamIntro"
+    format("Placeholder text for MtMoon_1F_Text_MiriamIntro")
 }
 
 text MtMoon_1F_Text_MiriamPostBattle {
-    "Placeholder text for MtMoon_1F_Text_MiriamPostBattle"
+    format("Placeholder text for MtMoon_1F_Text_MiriamPostBattle")
 }
 
 text MtMoon_1F_Text_RobbyDefeat {
-    "Placeholder text for MtMoon_1F_Text_RobbyDefeat"
+    format("Placeholder text for MtMoon_1F_Text_RobbyDefeat")
 }
 
 text MtMoon_1F_Text_RobbyIntro {
-    "Placeholder text for MtMoon_1F_Text_RobbyIntro"
+    format("Placeholder text for MtMoon_1F_Text_RobbyIntro")
 }
 
 text MtMoon_1F_Text_RobbyPostBattle {
-    "Placeholder text for MtMoon_1F_Text_RobbyPostBattle"
+    format("Placeholder text for MtMoon_1F_Text_RobbyPostBattle")
 }

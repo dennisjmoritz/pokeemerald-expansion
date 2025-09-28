@@ -19,37 +19,37 @@ script PokemonTower_3F_EventScript_Patricia {
 
 
 text PokemonTower_3F_Text_CarlyDefeat {
-    "Placeholder text for PokemonTower_3F_Text_CarlyDefeat"
+    format("Placeholder text for PokemonTower_3F_Text_CarlyDefeat")
 }
 
 text PokemonTower_3F_Text_CarlyIntro {
-    "Placeholder text for PokemonTower_3F_Text_CarlyIntro"
+    format("Placeholder text for PokemonTower_3F_Text_CarlyIntro")
 }
 
 text PokemonTower_3F_Text_CarlyPostBattle {
-    "Placeholder text for PokemonTower_3F_Text_CarlyPostBattle"
+    format("Placeholder text for PokemonTower_3F_Text_CarlyPostBattle")
 }
 
 text PokemonTower_3F_Text_HopeDefeat {
-    "Placeholder text for PokemonTower_3F_Text_HopeDefeat"
+    format("Placeholder text for PokemonTower_3F_Text_HopeDefeat")
 }
 
 text PokemonTower_3F_Text_HopeIntro {
-    "Placeholder text for PokemonTower_3F_Text_HopeIntro"
+    format("Placeholder text for PokemonTower_3F_Text_HopeIntro")
 }
 
 text PokemonTower_3F_Text_HopePostBattle {
-    "Placeholder text for PokemonTower_3F_Text_HopePostBattle"
+    format("Placeholder text for PokemonTower_3F_Text_HopePostBattle")
 }
 
 text PokemonTower_3F_Text_PatriciaDefeat {
-    "Placeholder text for PokemonTower_3F_Text_PatriciaDefeat"
+    format("Placeholder text for PokemonTower_3F_Text_PatriciaDefeat")
 }
 
 text PokemonTower_3F_Text_PatriciaIntro {
-    "Placeholder text for PokemonTower_3F_Text_PatriciaIntro"
+    format("Placeholder text for PokemonTower_3F_Text_PatriciaIntro")
 }
 
 text PokemonTower_3F_Text_PatriciaPostBattle {
-    "Placeholder text for PokemonTower_3F_Text_PatriciaPostBattle"
+    format("Placeholder text for PokemonTower_3F_Text_PatriciaPostBattle")
 }

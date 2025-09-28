@@ -6,14 +6,28 @@ script FallarborTown_Mart_EventScript_Clerk {
 }
 
 script FallarborTown_Mart_EventScript_PokefanM {
+    msgbox(FallarborTown_Mart_Text_SellNuggetIFound, MSGBOX_NPC)
     end
 }
 
 script FallarborTown_Mart_EventScript_Skitty {
+    msgbox(FallarborTown_Mart_Text_Skitty, MSGBOX_DEFAULT)
     end
 }
 
 script FallarborTown_Mart_EventScript_Woman {
+    msgbox(FallarborTown_Mart_Text_DecidingSkittyEvolve, MSGBOX_NPC)
     end
 }
 
+text FallarborTown_Mart_Text_DecidingSkittyEvolve {
+    format("I'm having a hard time deciding if I\nshould make my SKITTY evolve or not.\pI only have to use this MOON STONE,\nbut it's so hard to decide…\pIf I make it evolve, it will become\nmuch stronger.\pBut it will look so different, too.$")
+}
+
+text FallarborTown_Mart_Text_Skitty {
+    format("SKITTY: Miyao?$")
+}
+
+text FallarborTown_Mart_Text_SellNuggetIFound {
+    format("This NUGGET I found here…\nI suppose I'll have to sell it, seeing\las how it has no other use.$")
+}

@@ -34,25 +34,25 @@ text CeruleanCity_Gym_Text_GymStatue {
 
 
 text CeruleanCity_Gym_Text_DianaDefeat {
-    "Placeholder text for CeruleanCity_Gym_Text_DianaDefeat"
+    format("Placeholder text for CeruleanCity_Gym_Text_DianaDefeat")
 }
 
 text CeruleanCity_Gym_Text_DianaIntro {
-    "Placeholder text for CeruleanCity_Gym_Text_DianaIntro"
+    format("Placeholder text for CeruleanCity_Gym_Text_DianaIntro")
 }
 
 text CeruleanCity_Gym_Text_DianaPostBattle {
-    "Placeholder text for CeruleanCity_Gym_Text_DianaPostBattle"
+    format("Placeholder text for CeruleanCity_Gym_Text_DianaPostBattle")
 }
 
 text CeruleanCity_Gym_Text_LuisDefeat {
-    "Placeholder text for CeruleanCity_Gym_Text_LuisDefeat"
+    format("Placeholder text for CeruleanCity_Gym_Text_LuisDefeat")
 }
 
 text CeruleanCity_Gym_Text_LuisIntro {
-    "Placeholder text for CeruleanCity_Gym_Text_LuisIntro"
+    format("Placeholder text for CeruleanCity_Gym_Text_LuisIntro")
 }
 
 text CeruleanCity_Gym_Text_LuisPostBattle {
-    "Placeholder text for CeruleanCity_Gym_Text_LuisPostBattle"
+    format("Placeholder text for CeruleanCity_Gym_Text_LuisPostBattle")
 }

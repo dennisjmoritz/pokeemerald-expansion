@@ -2,6 +2,10 @@ mapscripts OldaleTown_House1_MapScripts {
 }
 
 script OldaleTown_House1_EventScript_Woman {
+    msgbox(OldaleTown_House1_Text_LeftPokemonGoesOutFirst, MSGBOX_NPC)
     end
 }
 
+text OldaleTown_House1_Text_LeftPokemonGoesOutFirst {
+    format("When a POKéMON battle starts, the one\nat the left of the list goes out first.\pSo, when you get more POKéMON in your\nparty, try switching around the order\lof your POKéMON.\pIt could give you an advantage.$")
+}

@@ -56,73 +56,93 @@ script FortreeCity_Gym_EventScript_Winona {
 
 
 text FortreeCity_Gym_Text_AshleyDefeat {
-    "Placeholder text for FortreeCity_Gym_Text_AshleyDefeat"
+    format("Placeholder text for FortreeCity_Gym_Text_AshleyDefeat")
 }
 
 text FortreeCity_Gym_Text_AshleyIntro {
-    "Placeholder text for FortreeCity_Gym_Text_AshleyIntro"
+    format("Placeholder text for FortreeCity_Gym_Text_AshleyIntro")
 }
 
 text FortreeCity_Gym_Text_AshleyPostBattle {
-    "Placeholder text for FortreeCity_Gym_Text_AshleyPostBattle"
+    format("Placeholder text for FortreeCity_Gym_Text_AshleyPostBattle")
 }
 
 text FortreeCity_Gym_Text_DariusDefeat {
-    "Placeholder text for FortreeCity_Gym_Text_DariusDefeat"
+    format("Placeholder text for FortreeCity_Gym_Text_DariusDefeat")
 }
 
 text FortreeCity_Gym_Text_DariusIntro {
-    "Placeholder text for FortreeCity_Gym_Text_DariusIntro"
+    format("Placeholder text for FortreeCity_Gym_Text_DariusIntro")
 }
 
 text FortreeCity_Gym_Text_DariusPostBattle {
-    "Placeholder text for FortreeCity_Gym_Text_DariusPostBattle"
+    format("Placeholder text for FortreeCity_Gym_Text_DariusPostBattle")
 }
 
 text FortreeCity_Gym_Text_EdwardoDefeat {
-    "Placeholder text for FortreeCity_Gym_Text_EdwardoDefeat"
+    format("Placeholder text for FortreeCity_Gym_Text_EdwardoDefeat")
 }
 
 text FortreeCity_Gym_Text_EdwardoIntro {
-    "Placeholder text for FortreeCity_Gym_Text_EdwardoIntro"
+    format("Placeholder text for FortreeCity_Gym_Text_EdwardoIntro")
 }
 
 text FortreeCity_Gym_Text_EdwardoPostBattle {
-    "Placeholder text for FortreeCity_Gym_Text_EdwardoPostBattle"
+    format("Placeholder text for FortreeCity_Gym_Text_EdwardoPostBattle")
 }
 
 text FortreeCity_Gym_Text_FlintDefeat {
-    "Placeholder text for FortreeCity_Gym_Text_FlintDefeat"
+    format("Placeholder text for FortreeCity_Gym_Text_FlintDefeat")
 }
 
 text FortreeCity_Gym_Text_FlintIntro {
-    "Placeholder text for FortreeCity_Gym_Text_FlintIntro"
+    format("Placeholder text for FortreeCity_Gym_Text_FlintIntro")
 }
 
 text FortreeCity_Gym_Text_FlintPostBattle {
-    "Placeholder text for FortreeCity_Gym_Text_FlintPostBattle"
+    format("Placeholder text for FortreeCity_Gym_Text_FlintPostBattle")
 }
 
 text FortreeCity_Gym_Text_HumbertoDefeat {
-    "Placeholder text for FortreeCity_Gym_Text_HumbertoDefeat"
+    format("Placeholder text for FortreeCity_Gym_Text_HumbertoDefeat")
 }
 
 text FortreeCity_Gym_Text_HumbertoIntro {
-    "Placeholder text for FortreeCity_Gym_Text_HumbertoIntro"
+    format("Placeholder text for FortreeCity_Gym_Text_HumbertoIntro")
 }
 
 text FortreeCity_Gym_Text_HumbertoPostBattle {
-    "Placeholder text for FortreeCity_Gym_Text_HumbertoPostBattle"
+    format("Placeholder text for FortreeCity_Gym_Text_HumbertoPostBattle")
 }
 
 text FortreeCity_Gym_Text_JaredDefeat {
-    "Placeholder text for FortreeCity_Gym_Text_JaredDefeat"
+    format("Placeholder text for FortreeCity_Gym_Text_JaredDefeat")
 }
 
 text FortreeCity_Gym_Text_JaredIntro {
-    "Placeholder text for FortreeCity_Gym_Text_JaredIntro"
+    format("Placeholder text for FortreeCity_Gym_Text_JaredIntro")
 }
 
 text FortreeCity_Gym_Text_JaredPostBattle {
-    "Placeholder text for FortreeCity_Gym_Text_JaredPostBattle"
+    format("Placeholder text for FortreeCity_Gym_Text_JaredPostBattle")
+}
+
+text FortreeCity_Gym_Text_GymStatueCertified {
+    format("FORTREE CITY POKéMON GYM\pWINONA'S CERTIFIED TRAINERS:\n{PLAYER}$")
+}
+
+text FortreeCity_Gym_Text_GymGuidePostVictory {
+    format("You did it!\nYou've achieved liftoff!$")
+}
+
+text FortreeCity_Gym_Text_WinonaPostRematch {
+    format("WINONA: Even though I have lost,\nthe wings of my heart remain unbroken.\pI can rise and soar again and\nyet again.\pI am convinced of it!$")
+}
+
+text FortreeCity_Gym_Text_ExplainAerialAce {
+    format("TM40 contains AERIAL ACE.\pIts speed…\nNo POKéMON should be able to avoid it.\p… … … … … …$")
+}
+
+text FortreeCity_Gym_Text_GymStatue {
+    format("FORTREE CITY POKéMON GYM$")
 }

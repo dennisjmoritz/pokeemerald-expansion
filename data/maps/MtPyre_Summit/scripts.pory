@@ -56,49 +56,77 @@ script MtPyre_Summit_EventScript_TeamAquaTrigger2 {
 
 
 text MtPyre_Summit_Text_Grunt1Defeat {
-    "Placeholder text for MtPyre_Summit_Text_Grunt1Defeat"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt1Defeat")
 }
 
 text MtPyre_Summit_Text_Grunt1Intro {
-    "Placeholder text for MtPyre_Summit_Text_Grunt1Intro"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt1Intro")
 }
 
 text MtPyre_Summit_Text_Grunt1PostBattle {
-    "Placeholder text for MtPyre_Summit_Text_Grunt1PostBattle"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt1PostBattle")
 }
 
 text MtPyre_Summit_Text_Grunt2Defeat {
-    "Placeholder text for MtPyre_Summit_Text_Grunt2Defeat"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt2Defeat")
 }
 
 text MtPyre_Summit_Text_Grunt2Intro {
-    "Placeholder text for MtPyre_Summit_Text_Grunt2Intro"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt2Intro")
 }
 
 text MtPyre_Summit_Text_Grunt2PostBattle {
-    "Placeholder text for MtPyre_Summit_Text_Grunt2PostBattle"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt2PostBattle")
 }
 
 text MtPyre_Summit_Text_Grunt3Defeat {
-    "Placeholder text for MtPyre_Summit_Text_Grunt3Defeat"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt3Defeat")
 }
 
 text MtPyre_Summit_Text_Grunt3Intro {
-    "Placeholder text for MtPyre_Summit_Text_Grunt3Intro"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt3Intro")
 }
 
 text MtPyre_Summit_Text_Grunt3PostBattle {
-    "Placeholder text for MtPyre_Summit_Text_Grunt3PostBattle"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt3PostBattle")
 }
 
 text MtPyre_Summit_Text_Grunt4Defeat {
-    "Placeholder text for MtPyre_Summit_Text_Grunt4Defeat"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt4Defeat")
 }
 
 text MtPyre_Summit_Text_Grunt4Intro {
-    "Placeholder text for MtPyre_Summit_Text_Grunt4Intro"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt4Intro")
 }
 
 text MtPyre_Summit_Text_Grunt4PostBattle {
-    "Placeholder text for MtPyre_Summit_Text_Grunt4PostBattle"
+    format("Placeholder text for MtPyre_Summit_Text_Grunt4PostBattle")
+}
+
+text MtPyre_Summit_Text_SuperAncientPokemonTaughtUs {
+    format("The embodiments of the land, sea,\nand the sky…\pThat is said to be the identities of\nthe super-ancient POKéMON…\pIn the same way that we humans and\nPOKéMON have life, our world, too,\lis alive…\pThe super-ancient POKéMON have\ntaught us that…$")
+}
+
+text MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs {
+    format("The two men who took the ORBS came\nback to return them on their own.\pThose men…\nPerhaps they are not so evil after all…$")
+}
+
+text MtPyre_Summit_Text_GroudonKyogreTale {
+    format("It happened long, long ago…\pThe world was wracked by a ferocious\nclash between the POKéMON of the land\land the POKéMON of the sea…\pThe POKéMON of the land raised\nmountains and created continents…\pThe POKéMON of the sea raised huge\nwaves and carved out oceans…\pTheir fierce duel raged without end.\pThe world was engulfed in massive\ninfernos and vicious storms.\pThe BLUE ORB and the RED ORB brought\nan end to the calamity.\pLight poured from the two ORBS and\nbecalmed the enraged adversaries.\pThe pair, made docile, dove deep into\nthe sea where eventually they\ldisappeared…$")
+}
+
+text MtPyre_Summit_Text_WellThatTooIsFine {
+    format("I see…\nWell, that, too, is fine…$")
+}
+
+text MtPyre_Summit_Text_GroudonKyogreAwakened {
+    format("Oh, my goodness…\pYou say that both GROUDON and KYOGRE\nhave been awakened?\pIt is said that the BLUE ORB and\nthe RED ORB quelled the rage of\lthe two POKéMON…\pIt is also said that the true owner\nof the ORBS still exists.\pHowever, no one knows who, or what\nexactly, the ORBS belong to.\pIt could be a human, or perhaps\na POKéMON, but no one knows.$")
+}
+
+text MtPyre_Summit_Text_HoennTrioTale {
+    format("It happened long, long ago…\pThe world was wracked by a ferocious\nclash between the POKéMON of the land\land the POKéMON of the sea…\pThe POKéMON of the land raised\nmountains and created continents…\pThe POKéMON of the sea raised huge\nwaves and carved out oceans…\pTheir fierce duel raged without end.\pThe world was engulfed in massive\nfires and vicious storms.\pIt was then that the POKéMON of\nthe sky descended from a storm.\pThe POKéMON, shining a vivid green,\nbecalmed the two enraged POKéMON.\pThen, its duty done, the green POKéMON\nflew off into the wild blue yonder…$")
+}
+
+text MtPyre_Summit_Text_HearTheNewLegendOfHoenn {
+    format("It is my role to pass on the legends\nof HOENN to future generations.\pAnd the crisis that just ended in\nSOOTOPOLIS rewrote a legend…\pHave you the time to hear the new\nlegend of HOENN?$")
 }

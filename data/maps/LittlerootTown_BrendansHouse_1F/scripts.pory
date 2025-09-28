@@ -16,3 +16,7 @@ script LittlerootTown_BrendansHouse_1F_EventScript_MeetRival1 {
 script LittlerootTown_BrendansHouse_1F_EventScript_MeetRival2 {
     end
 }
+
+text PlayersHouse_1F_Text_GoSetTheClock {
+    format("MOM: {PLAYER}.\pGo set the clock in your room, honey.$")
+}

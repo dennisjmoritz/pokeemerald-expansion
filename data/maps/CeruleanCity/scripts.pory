@@ -6,6 +6,7 @@ script CeruleanCity_BikeShop_EventScript_Bicycle {
 }
 
 script CeruleanCity_EventScript_BaldingMan {
+    msgbox(CeruleanCity_Text_PokemonEncyclopediaAmusing, MSGBOX_NPC)
     end
 }
 
@@ -15,6 +16,7 @@ script CeruleanCity_EventScript_BikeShopSign {
 }
 
 script CeruleanCity_EventScript_CeruleanCaveGuard {
+    msgbox(CeruleanCity_Text_ThisIsCeruleanCave, MSGBOX_NPC)
     end
 }
 
@@ -38,7 +40,7 @@ script CeruleanCity_EventScript_GruntTriggerTop {
 script CeruleanCity_EventScript_GymSign {
     // lockall
     // famechecker FAMECHECKER_MISTY, 0
-    msgbox(CeruleanCity_Text_GymSign, MSGBOX_DEFAULT)
+    msgbox(CeruleanCity_Text_GymSign, MSGBOX_SIGN)
     // releaseall
     end
 }
@@ -81,6 +83,7 @@ script CeruleanCity_EventScript_Woman {
 }
 
 script CeruleanCity_EventScript_Youngster {
+    msgbox(CeruleanCity_Text_TrainerLifeIsToughIsntIt, MSGBOX_NPC)
     end
 }
 
@@ -98,4 +101,16 @@ text CeruleanCity_Text_CitySign {
 
 text CeruleanCity_Text_BikeShopSign {
     format("Grass and caves handled easily! BIKE SHOP")
+}
+
+text CeruleanCity_Text_PokemonEncyclopediaAmusing {
+    format("You're making an encyclopedia on\nPOKéMON? That sounds amusing.$")
+}
+
+text CeruleanCity_Text_ThisIsCeruleanCave {
+    format("This is CERULEAN CAVE.\pHorribly strong POKéMON live inside\nthere.\pIt takes a very special TRAINER to\nbe allowed inside there.\pYou'd have to be strong enough to\nbecome the POKéMON LEAGUE\lCHAMPION for starters.\pAnd, you would have to have\nmade a great achievement.$")
+}
+
+text CeruleanCity_Text_TrainerLifeIsToughIsntIt {
+    format("You're a TRAINER, too?\pCollecting, battling…\nIt's a tough life, isn't it?$")
 }

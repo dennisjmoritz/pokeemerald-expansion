@@ -5,3 +5,6 @@ script MeteorFalls_StevensCave_EventScript_Steven {
     end
 }
 
+text MeteorFalls_StevensCave_Text_MyPredictionCameTrue {
+    format("STEVEN: Come to think of it, ever since\nour paths first crossed in GRANITE\lCAVE in DEWFORD, I had this feeling.\pI thought that you would eventually\nbecome the CHAMPION.\pMy predictions usually come true.\pAnd where will you go from here?\p… … … … … …\n… … … … … …\pFufufu, even I couldn't tell you that.$")
+}

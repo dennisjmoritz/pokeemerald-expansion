@@ -2,14 +2,17 @@ mapscripts PewterCity_Museum_2F_MapScripts {
 }
 
 script PewterCity_Museum_2F_EventScript_BaldingMan {
+    msgbox(PewterCity_Museum_1F_Text_PikachuSoonIPromise, MSGBOX_NPC)
     end
 }
 
 script PewterCity_Museum_2F_EventScript_LittleGirl {
+    msgbox(PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu, MSGBOX_NPC)
     end
 }
 
 script PewterCity_Museum_2F_EventScript_Man {
+    msgbox(PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone, MSGBOX_NPC)
     end
 }
 
@@ -19,10 +22,12 @@ script PewterCity_Museum_2F_EventScript_MoonStone {
 }
 
 script PewterCity_Museum_2F_EventScript_OldMan {
+    msgbox(PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding, MSGBOX_NPC)
     end
 }
 
 script PewterCity_Museum_2F_EventScript_Scientist {
+    msgbox(PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth, MSGBOX_NPC)
     end
 }
 
@@ -38,4 +43,24 @@ text PewterCity_Museum_1F_Text_SpaceShuttle {
 
 text PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon {
     format("A meteorite that fell on MT. MOON. It is thought to be a MOON STONE.")
+}
+
+text PewterCity_Museum_1F_Text_PikachuSoonIPromise {
+    format("Yeah, a PIKACHU soon, I promise!$")
+}
+
+text PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu {
+    format("I want a PIKACHU!\nIt's so cute!\pI asked my daddy to catch me one!$")
+}
+
+text PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone {
+    format("MOON STONE, huh?\pWhat's so special about it?\nLooks like an ordinary rock to me.$")
+}
+
+text PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding {
+    format("July 20, 1969!\pHumankind first set foot on the\nmoon that day.\pI bought a color TV just so I\ncould watch that news.$")
+}
+
+text PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth {
+    format("This month, we're running a space\nexhibit.$")
 }

@@ -7,6 +7,7 @@ script ViridianForest_EventScript_Anthony {
 }
 
 script ViridianForest_EventScript_Boy {
+    msgbox(ViridianForest_Text_RanOutOfPokeBalls, MSGBOX_NPC)
     end
 }
 
@@ -61,6 +62,7 @@ script ViridianForest_EventScript_TrainerTips5 {
 }
 
 script ViridianForest_EventScript_Youngster {
+    msgbox(ViridianForest_Text_FriendsItchingToBattle, MSGBOX_NPC)
     end
 }
 
@@ -91,61 +93,68 @@ text ViridianForest_Text_LeavingViridianForest {
 
 
 text ViridianForest_Text_AnthonyDefeat {
-    "Placeholder text for ViridianForest_Text_AnthonyDefeat"
+    format("Placeholder text for ViridianForest_Text_AnthonyDefeat")
 }
 
 text ViridianForest_Text_AnthonyIntro {
-    "Placeholder text for ViridianForest_Text_AnthonyIntro"
+    format("Placeholder text for ViridianForest_Text_AnthonyIntro")
 }
 
 text ViridianForest_Text_AnthonyPostBattle {
-    "Placeholder text for ViridianForest_Text_AnthonyPostBattle"
+    format("Placeholder text for ViridianForest_Text_AnthonyPostBattle")
 }
 
 text ViridianForest_Text_CharlieDefeat {
-    "Placeholder text for ViridianForest_Text_CharlieDefeat"
+    format("Placeholder text for ViridianForest_Text_CharlieDefeat")
 }
 
 text ViridianForest_Text_CharlieIntro {
-    "Placeholder text for ViridianForest_Text_CharlieIntro"
+    format("Placeholder text for ViridianForest_Text_CharlieIntro")
 }
 
 text ViridianForest_Text_CharliePostBattle {
-    "Placeholder text for ViridianForest_Text_CharliePostBattle"
+    format("Placeholder text for ViridianForest_Text_CharliePostBattle")
 }
 
 text ViridianForest_Text_DougDefeat {
-    "Placeholder text for ViridianForest_Text_DougDefeat"
+    format("Placeholder text for ViridianForest_Text_DougDefeat")
 }
 
 text ViridianForest_Text_DougIntro {
-    "Placeholder text for ViridianForest_Text_DougIntro"
+    format("Placeholder text for ViridianForest_Text_DougIntro")
 }
 
 text ViridianForest_Text_DougPostBattle {
-    "Placeholder text for ViridianForest_Text_DougPostBattle"
+    format("Placeholder text for ViridianForest_Text_DougPostBattle")
 }
 
 text ViridianForest_Text_RickDefeat {
-    "Placeholder text for ViridianForest_Text_RickDefeat"
+    format("Placeholder text for ViridianForest_Text_RickDefeat")
 }
 
 text ViridianForest_Text_RickIntro {
-    "Placeholder text for ViridianForest_Text_RickIntro"
+    format("Placeholder text for ViridianForest_Text_RickIntro")
 }
 
 text ViridianForest_Text_RickPostBattle {
-    "Placeholder text for ViridianForest_Text_RickPostBattle"
+    format("Placeholder text for ViridianForest_Text_RickPostBattle")
 }
 
 text ViridianForest_Text_SammyDefeat {
-    "Placeholder text for ViridianForest_Text_SammyDefeat"
+    format("Placeholder text for ViridianForest_Text_SammyDefeat")
 }
 
 text ViridianForest_Text_SammyIntro {
-    "Placeholder text for ViridianForest_Text_SammyIntro"
+    format("Placeholder text for ViridianForest_Text_SammyIntro")
 }
 
 text ViridianForest_Text_SammyPostBattle {
-    "Placeholder text for ViridianForest_Text_SammyPostBattle"
+    format("Placeholder text for ViridianForest_Text_SammyPostBattle")
+}
+text ViridianForest_Text_RanOutOfPokeBalls {
+    format("I was throwing POKé BALLS to\ncatch POKéMON, and I ran out.\pThat's why you can never have too\nmany POKé BALLS.$")
+}
+
+text ViridianForest_Text_FriendsItchingToBattle {
+    format("I came here with some friends to\ncatch us some BUG POKéMON!\pThey're all itching to get into\nsome POKéMON battles!$")
 }

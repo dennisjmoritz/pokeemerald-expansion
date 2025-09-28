@@ -25,3 +25,34 @@ script RustboroCity_DevonCorp_2F_EventScript_TalkToPokemonScientist {
     end
 }
 
+text RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav {
+    format("Oh, wow!\nThat's a POKéNAV!\pIt came about as a result of our\nPRESIDENT's desire to learn about\lthe feelings of POKéMON.\pWould you like me to describe its\nfeatures in detail?\pNo, no. I think you'll find out just by\ntrying the POKéNAV out.$")
+}
+
+text RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife {
+    format("Wait! That thing you have there…\nIs that a POKéMON fossil?\pWould you like to bring that POKéMON\nback to life?\pI can with my newly developed\nFOSSIL REGENERATOR.$")
+}
+
+text RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime {
+    format("The FOSSIL REGENERATOR, which I made,\nis incredible.\pBut it has one drawback--it takes\na long time to work.\pSo, uh… How about you go for a stroll\nand look around for a while?$")
+}
+
+text RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife {
+    format("Thanks for waiting!\pYour fossilized POKéMON has been\nbrought back to life!\pThe fossil was an ancient POKéMON.\n{STR_VAR_2}, it was!$")
+}
+
+text RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls {
+    format("We finally made new kinds of\nPOKé BALLS!\pThe REPEAT BALL makes it easier to\ncatch POKéMON you've caught before.\pThe TIMER BALL gets better at catching\nPOKéMON the longer a battle runs.\pBoth are proudly developed by\nthe DEVON CORPORATION.\pPlease give them a try!$")
+}
+
+text RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher {
+    format("Excellent!\nLet's do this right away.\p{PLAYER} handed the {STR_VAR_1} to\nthe DEVON RESEARCHER.$")
+}
+
+text RustboroCity_DevonCorp_2F_Text_OhIsThatSo {
+    format("Oh, is that so?\pDEVON's technological expertise\nis outstanding, I tell you.$")
+}
+
+text RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext {
+    format("Well, now what shall I work on\ndeveloping next?\pOur company allows us to make our\ninspirations into reality.\pOne couldn't ask for a better\nenvironment as an engineer.$")
+}

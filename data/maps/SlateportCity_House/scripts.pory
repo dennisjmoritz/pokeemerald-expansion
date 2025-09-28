@@ -2,10 +2,19 @@ mapscripts SlateportCity_House_MapScripts {
 }
 
 script SlateportCity_House_EventScript_Girl {
+    msgbox(SlateportCity_House_Text_MustBeGoingToBattleTent, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_House_EventScript_PokefanM {
+    msgbox(SlateportCity_House_Text_NatureToDoWithStatGains, MSGBOX_NPC)
     end
 }
 
+text SlateportCity_House_Text_MustBeGoingToBattleTent {
+    format("You're a TRAINER, aren't you?\pSince you came to SLATEPORT CITY,\nyou must be going to the BATTLE TENT.$")
+}
+
+text SlateportCity_House_Text_NatureToDoWithStatGains {
+    format("My POKéMON has a HASTY nature.\pIt has higher SPEED compared to\nmy other POKéMON.\pMaybe their nature has something to\ndo with the stat gains of POKéMON.$")
+}

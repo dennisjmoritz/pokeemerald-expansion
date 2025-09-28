@@ -2,6 +2,7 @@ mapscripts EverGrandeCity_PokemonCenter_1F_MapScripts {
 }
 
 script EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM {
+    msgbox(EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon, MSGBOX_NPC)
     end
 }
 
@@ -10,10 +11,23 @@ script EverGrandeCity_PokemonCenter_1F_EventScript_Nurse {
 }
 
 script EverGrandeCity_PokemonCenter_1F_EventScript_Scott {
+    msgbox(EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou, MSGBOX_DEFAULT)
     end
 }
 
 script EverGrandeCity_PokemonCenter_1F_EventScript_Woman {
+    msgbox(EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad, MSGBOX_NPC)
     end
 }
 
+text EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad {
+    format("The POKéMON LEAGUE is only a short\ndistance after the VICTORY ROAD.\pIf you've come this far, what choice\ndo you have but to keep going?$")
+}
+
+text EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon {
+    format("The long and harrowing VICTORY ROAD…\pIt's like reliving the path one has\ntraveled in life…\pBelieve in your POKéMON and give it\nyour very best!$")
+}
+
+text EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou {
+    format("SCOTT: {PLAYER}{KUN}, you've clawed your\nway up to face the POKéMON LEAGUE!\pI'm happy for you!\nYou made my cheering worthwhile!\p{PLAYER}{KUN}, if you were to become\nthe POKéMON LEAGUE CHAMPION…\pI'll get in touch with you then.\pOkay, {PLAYER}{KUN}.\nGo for greatness!$")
+}

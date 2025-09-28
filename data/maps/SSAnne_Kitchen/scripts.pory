@@ -2,14 +2,17 @@ mapscripts SSAnne_Kitchen_MapScripts {
 }
 
 script SSAnne_Kitchen_EventScript_Chef1 {
+    msgbox(SSAnne_Kitchen_Text_BusyOutOfTheWay, MSGBOX_NPC)
     end
 }
 
 script SSAnne_Kitchen_EventScript_Chef2 {
+    msgbox(SSAnne_Kitchen_Text_SawOddBerryInTrash, MSGBOX_NPC)
     end
 }
 
 script SSAnne_Kitchen_EventScript_Chef3 {
+    msgbox(SSAnne_Kitchen_Text_SoBusyImDizzy, MSGBOX_NPC)
     end
 }
 
@@ -18,14 +21,17 @@ script SSAnne_Kitchen_EventScript_Chef4 {
 }
 
 script SSAnne_Kitchen_EventScript_Chef5 {
+    msgbox(SSAnne_Kitchen_Text_PeelSpudsEveryDay, MSGBOX_NPC)
     end
 }
 
 script SSAnne_Kitchen_EventScript_Chef6 {
+    msgbox(SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton, MSGBOX_NPC)
     end
 }
 
 script SSAnne_Kitchen_EventScript_Chef7 {
+    msgbox(SSAnne_Kitchen_Text_OnlyGetToPeelOnions, MSGBOX_NPC)
     end
 }
 
@@ -33,3 +39,27 @@ script SSAnne_Kitchen_EventScript_ItemGreatBall {
     end
 }
 
+
+text SSAnne_Kitchen_Text_BusyOutOfTheWay {
+    format("You, mon petit!\nWe're busy here!\lOut of the way!$")
+}
+
+text SSAnne_Kitchen_Text_SawOddBerryInTrash {
+    format("I saw an odd BERRY in the trash.\nI wonder what that was?$")
+}
+
+text SSAnne_Kitchen_Text_SoBusyImDizzy {
+    format("I'm so busy I'm getting dizzy!\nYou have to give me room here!$")
+}
+
+text SSAnne_Kitchen_Text_PeelSpudsEveryDay {
+    format("Hum-de-hum-de-ho…\pI peel spuds every day!\nHum-hum…$")
+}
+
+text SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton {
+    format("Did you hear about SNORLAX?\nIt's a glutton.\pNo other POKéMON eats and sleeps\nthe way SNORLAX can and does!$")
+}
+
+text SSAnne_Kitchen_Text_OnlyGetToPeelOnions {
+    format("Snivel… Sniff…\pI only get to peel onions…\nSnivel…$")
+}

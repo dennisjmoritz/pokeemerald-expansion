@@ -2,10 +2,20 @@ mapscripts SafariZone_Center_RestHouse_MapScripts {
 }
 
 script SafariZone_Center_RestHouse_EventScript_Sara {
+    msgbox(SafariZone_Center_Text_WhereDidErikGo, MSGBOX_NPC)
     end
 }
 
 script SafariZone_Center_RestHouse_EventScript_Scientist {
+    msgbox(SafariZone_Center_Text_CatchingMonsAsGifts, MSGBOX_NPC)
     end
 }
 
+
+text SafariZone_Center_Text_WhereDidErikGo {
+    format("SARA: Where did my boyfriend,\nERIK, go?$")
+}
+
+text SafariZone_Center_Text_CatchingMonsAsGifts {
+    format("I'm catching POKéMON to take home\nas gifts.$")
+}

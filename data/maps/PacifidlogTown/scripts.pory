@@ -2,14 +2,17 @@ mapscripts PacifidlogTown_MapScripts {
 }
 
 script PacifidlogTown_EventScript_Fisherman {
+    msgbox(PacifidlogTown_Text_SkyPillarTooScary, MSGBOX_NPC)
     end
 }
 
 script PacifidlogTown_EventScript_Girl {
+    msgbox(PacifidlogTown_Text_FastRunningCurrent, MSGBOX_NPC)
     end
 }
 
 script PacifidlogTown_EventScript_NinjaBoy {
+    msgbox(PacifidlogTown_Text_NeatHousesOnWater, MSGBOX_NPC)
     end
 }
 
@@ -21,4 +24,16 @@ script PacifidlogTown_EventScript_TownSign {
 
 text PacifidlogTown_Text_TownSign {
     format("PACIFIDLOG TOWN\p “Where the morning sun smiles upon the waters.”")
+}
+
+text PacifidlogTown_Text_FastRunningCurrent {
+    format("The sea between PACIFIDLOG and\nSLATEPORT has a fast-running tide.\pIf you decide to SURF, you could end\nup swept away somewhere else.$")
+}
+
+text PacifidlogTown_Text_NeatHousesOnWater {
+    format("See, isn't it neat?\nThese houses are on water!\pI was born here!$")
+}
+
+text PacifidlogTown_Text_SkyPillarTooScary {
+    format("The SKY PILLAR?\p…Oh, you must mean that tall, tall\ntower a little further out.\pIf you asked me, I wouldn't climb it.\nIt's too scary to get up that high.\pLife at sea level in PACIFIDLOG,\nthat suits me fine.$")
 }

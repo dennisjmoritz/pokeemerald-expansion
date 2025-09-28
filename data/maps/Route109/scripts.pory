@@ -57,6 +57,7 @@ script Route109_EventScript_Lola {
 }
 
 script Route109_EventScript_Mel {
+    msgbox(Route109_Text_MelPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -65,10 +66,12 @@ script Route109_EventScript_MrBriney {
 }
 
 script Route109_EventScript_OldMan {
+    msgbox(Route109_Text_ZigzagoonPicksUpLitter, MSGBOX_NPC)
     end
 }
 
 script Route109_EventScript_Paul {
+    msgbox(Route109_Text_PaulPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -78,10 +81,12 @@ script Route109_EventScript_Ricky {
 }
 
 script Route109_EventScript_SandCastleBoy {
+    msgbox(Route109_Text_SandCastleTakingLongTime, MSGBOX_DEFAULT)
     end
 }
 
 script Route109_EventScript_SeashoreHouseGirl {
+    msgbox(Route109_Text_ChillAtMyPapasSpot, MSGBOX_NPC)
     end
 }
 
@@ -100,10 +105,12 @@ script Route109_EventScript_TrainerTipsSign {
 }
 
 script Route109_EventScript_Woman {
+    msgbox(Route109_Text_LittleKidsDartAround, MSGBOX_NPC)
     end
 }
 
 script Route109_EventScript_Zigzagoon {
+    msgbox(Route109_Text_ZigzagoonCry, MSGBOX_DEFAULT)
     end
 }
 
@@ -118,145 +125,193 @@ text Route109_Text_SeashoreHouseSign {
 
 
 text Route109_Text_AliceDefeated {
-    "Ouch, ouch, ouch!"
+    format("Ouch, ouch, ouch!")
 }
 
 text Route109_Text_AliceIntro {
-    "Are you properly protected against\nthe sun?"
+    format("Are you properly protected against the sun?")
 }
 
 text Route109_Text_AlicePostBattle {
-    "Cheeks are the most prone to burning!"
+    format("Cheeks are the most prone to burning!")
 }
 
 text Route109_Text_AustinaDefeated {
-    "Did I lose because I have an inner\ntube?"
+    format("Did I lose because I have an inner tube?")
 }
 
 text Route109_Text_AustinaIntro {
-    "I can't swim without my inner tube,\nbut I won't lose at POKéMON!"
+    format("I can't swim without my inner tube, but I won't lose at POKéMON!")
 }
 
 text Route109_Text_AustinaPostBattle {
-    "My inner tube is a fashion item.\nI can't be seen without it."
+    format("My inner tube is a fashion item. I can't be seen without it.")
 }
 
 text Route109_Text_CarterDefeated {
-    "This dude just lost one…"
+    format("This dude just lost one…")
 }
 
 text Route109_Text_CarterIntro {
-    "Wahahah! This dude's going to catch\nhimself a big one!"
+    format("Wahahah! This dude's going to catch himself a big one!")
 }
 
 text Route109_Text_CarterPostBattle {
-    "This dude thinks you're a big one.\nNo, you're a big-one-to-be!"
+    format("This dude thinks you're a big one. No, you're a big-one-to-be!")
 }
 
 text Route109_Text_ChandlerDefeated {
-    "Oh, oh!\nToo bad!"
+    format("Oh, oh! Too bad!")
 }
 
 text Route109_Text_ChandlerIntro {
-    "Tadaah! See?\nMy inner tube's round!"
+    format("Tadaah! See? My inner tube's round!")
 }
 
 text Route109_Text_ChandlerPostBattle {
-    "After I showed you my round inner\ntube, too…"
+    format("After I showed you my round inner tube, too…")
 }
 
 text Route109_Text_DavidDefeated {
-    "Aiyah!\nFlubbed out!"
+    format("Aiyah! Flubbed out!")
 }
 
 text Route109_Text_DavidIntro {
-    "Hiyah! Look at my chiseled abs!\nThis is what you call “cut”!"
+    format("Hiyah! Look at my chiseled abs! This is what you call “cut”!")
 }
 
 text Route109_Text_DavidPostBattle {
-    "Hiyah!\pMy sculpted abs have nothing to do\nwith POKéMON battles!"
+    format("Hiyah!\pMy sculpted abs have nothing to do with POKéMON battles!")
 }
 
 text Route109_Text_EdmondDefeated {
-    "Urp… Ooooooohhhhhh…\nUrrrrpppp…"
+    format("Urp… Ooooooohhhhhh… Urrrrpppp…")
 }
 
 text Route109_Text_EdmondIntro {
-    "Urrrrppp…\nBattle? With me?"
+    format("Urrrrppp… Battle? With me?")
 }
 
 text Route109_Text_EdmondPostBattle {
-    "I'm usually stronger than this!\nI'm just seasick as a dog!\pI'm a SAILOR, but…"
+    format("I'm usually stronger than this! I'm just seasick as a dog!\pI'm a SAILOR, but…")
 }
 
 text Route109_Text_ElijahDefeated {
-    "I'm cool even in defeat, hey?"
+    format("I'm cool even in defeat, hey?")
 }
 
 text Route109_Text_ElijahIntro {
-    "For a guy as macho as me, this kind\nof POKéMON is the perfect match!"
+    format("For a guy as macho as me, this kind of POKéMON is the perfect match!")
 }
 
 text Route109_Text_ElijahPostBattle {
-    "For a guy as macho as me, a port\nis the perfect setting!\pI guess I'll head for SLATEPORT."
+    format("For a guy as macho as me, a port is the perfect setting!\pI guess I'll head for SLATEPORT.")
 }
 
 text Route109_Text_GwenDefeated {
-    "Oh, you're strong."
+    format("Oh, you're strong.")
 }
 
 text Route109_Text_GwenIntro {
-    "Hi, big TRAINER.\nWill you battle with me?"
+    format("Hi, big TRAINER. Will you battle with me?")
 }
 
 text Route109_Text_GwenPostBattle {
-    "How did you get to be so strong?"
+    format("How did you get to be so strong?")
 }
 
 text Route109_Text_HaileyDefeated {
-    "I thought so!\nI didn't think we could win."
+    format("I thought so! I didn't think we could win.")
 }
 
 text Route109_Text_HaileyIntro {
-    "I can't swim, so I'm pretending\nto swim."
+    format("I can't swim, so I'm pretending to swim.")
 }
 
 text Route109_Text_HaileyPostBattle {
-    "When I learn how to swim, I think\nmy POKéMON will become tougher."
+    format("When I learn how to swim, I think my POKéMON will become tougher.")
 }
 
 text Route109_Text_HueyDefeated {
-    "You're the best!"
+    format("You're the best!")
 }
 
 text Route109_Text_HueyIntro {
-    "I've laid anchor in ports around\nthe world, but SLATEPORT's the best."
+    format("I've laid anchor in ports around the world, but SLATEPORT's the best.")
 }
 
 text Route109_Text_HueyPostBattle {
-    "In the best port was the best\nTRAINER…"
+    format("In the best port was the best TRAINER…")
 }
 
 text Route109_Text_LolaDefeated {
-    "Mommy!"
+    format("Mommy!")
 }
 
 text Route109_Text_LolaIntro {
-    "Doesn't a beach umbrella look like\na giant flower?"
+    format("Doesn't a beach umbrella look like a giant flower?")
 }
 
 text Route109_Text_LolaPostBattle {
-    "If you look at the beach from the sky,\nit looks like a big flower garden!"
+    format("If you look at the beach from the sky, it looks like a big flower garden!")
 }
 
 text Route109_Text_RickyDefeated {
-    "Groan…"
+    format("Groan…")
 }
 
 text Route109_Text_RickyIntro {
-    "I'm thirsty… I could go for a SODA POP\nat the SEASHORE HOUSE…"
+    format("I'm thirsty… I could go for a SODA POP at the SEASHORE HOUSE…")
 }
 
 text Route109_Text_RickyPostBattle {
-    "I'm getting famished… My inner tube\nlooks like a giant doughnut…"
+    format("I'm getting famished… My inner tube looks like a giant doughnut…")
+}
+
+text Route109_Text_ChillAtMyPapasSpot {
+    format("Yo, TRAINERS!\nWhether you're hot to trot,\lor cool cat not,\lchill at my papa's spot!$")
+}
+
+text Route109_Text_ZigzagoonPicksUpLitter {
+    format("The water around these parts is clean.\pBut, I get my ZIGZAGOON to pick up\nlitter from the shoreline at times.\pDirty water becomes rain and joins our\nrivers, which we drink from…\pIf we pollute the sea, it all comes\nback to haunt us eventually.$")
+}
+
+text Route109_Text_BrineySailToDewfordQuestion {
+    format("MR. BRINEY: I thought you're supposed\nto deliver the DEVON GOODS.\pWould you like to sail back to\nDEWFORD, then?$")
+}
+
+text Route109_Text_WereGoingToMakeBigCastle {
+    format("We're going to get all the sand from\nthe beach and make a big castle!\pAnd then we're going to be a king and\nqueen.\pWe'll let you be a servant.$")
+}
+
+text Route109_Text_BrineyTellMeWhenYouNeedToSail {
+    format("MR. BRINEY: You just tell me whenever\nyou need to set sail again!$")
+}
+
+text Route109_Text_BrineyDeliverDevonGoods {
+    format("MR. BRINEY: Then you go on and deliver\nthe DEVON GOODS. I'll be waiting.$")
+}
+
+text Route109_Text_BrineyDewfordItIs {
+    format("MR. BRINEY: DEWFORD it is, then!\pAnchors aweigh!\nPEEKO, we're setting sail, my darling!$")
+}
+
+text Route109_Text_SandCastleTakingLongTime {
+    format("Our sand castle's taking a long time\nto make.$")
+}
+
+text Route109_Text_LittleKidsDartAround {
+    format("Little kids can dart around so quickly…\pYou don't dare take your eyes off them\nfor an instant. It's very taxing.\pMine are with my POKéMON, so they\nshould be okay, but…$")
+}
+
+text Route109_Text_ZigzagoonCry {
+    format("ZIGZAGOON: Guguu?$")
+}
+
+text Route109_Text_MelPostBattle {
+    format("MEL: Um, PAUL, are you angry with me? Please don't be angry.")
+}
+
+text Route109_Text_PaulPostBattle {
+    format("PAUL: Well, don't tell anyone that we're here. This is just our private world of two!")
 }

@@ -2,10 +2,12 @@ mapscripts SixIsland_MapScripts {
 }
 
 script SixIsland_EventScript_Boy {
+    msgbox(SixIsland_Text_SkyAtNightIsFantastic, MSGBOX_NPC)
     end
 }
 
 script SixIsland_EventScript_Hiker {
+    msgbox(SixIsland_Text_ThatWayToWaterPathRuinValley, MSGBOX_NPC)
     end
 }
 
@@ -17,4 +19,12 @@ script SixIsland_EventScript_IslandSign {
 
 text SixIsland_Text_IslandSign {
     format("SIX ISLAND Fortune Island of Aged Wisdom")
+}
+
+text SixIsland_Text_SkyAtNightIsFantastic {
+    format("When you're this far away from the\ncity, the sky at night is fantastic.$")
+}
+
+text SixIsland_Text_ThatWayToWaterPathRuinValley {
+    format("Keep going this way and you'll get\nto the WATER PATH.\pStay on that and you'll get to\nthe RUIN VALLEY.$")
 }

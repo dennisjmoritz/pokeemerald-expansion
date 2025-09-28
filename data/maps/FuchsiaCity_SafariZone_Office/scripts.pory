@@ -2,18 +2,38 @@ mapscripts FuchsiaCity_SafariZone_Office_MapScripts {
 }
 
 script FuchsiaCity_SafariZone_Office_EventScript_Worker1 {
+    msgbox(FuchsiaCity_SafariZone_Office_Text_NicknamedWardenSlowpoke, MSGBOX_NPC)
     end
 }
 
 script FuchsiaCity_SafariZone_Office_EventScript_Worker2 {
+    msgbox(FuchsiaCity_SafariZone_Office_Text_WardenIsVeryKnowledgeable, MSGBOX_NPC)
     end
 }
 
 script FuchsiaCity_SafariZone_Office_EventScript_Worker3 {
+    msgbox(FuchsiaCity_SafariZone_Office_Text_CouldntUnderstandWarden, MSGBOX_NPC)
     end
 }
 
 script FuchsiaCity_SafariZone_Office_EventScript_Worker4 {
+    msgbox(FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone, MSGBOX_NPC)
     end
 }
 
+
+text FuchsiaCity_SafariZone_Office_Text_NicknamedWardenSlowpoke {
+    format("We nicknamed the WARDEN\n“SLOWPOKE.”\pYou know, he has that vacant look\nlike a SLOWPOKE.$")
+}
+
+text FuchsiaCity_SafariZone_Office_Text_WardenIsVeryKnowledgeable {
+    format("WARDEN SLOWPOKE is very\nknowledgeable about POKéMON.\pHe even has some fossils of rare,\nextinct POKéMON.$")
+}
+
+text FuchsiaCity_SafariZone_Office_Text_CouldntUnderstandWarden {
+    format("WARDEN SLOWPOKE came in, but\nI couldn't understand him.\pI think he's got a speech problem!$")
+}
+
+text FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone {
+    format("WARDEN SLOWPOKE is running a\npromotion campaign right now.\pTry to get to the farthest corner\nof the SAFARI ZONE.\pIf you can make it, you'll win a\nvery convenient prize.$")
+}

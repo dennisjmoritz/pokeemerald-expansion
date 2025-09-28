@@ -67,61 +67,85 @@ script MauvilleCity_Gym_EventScript_Wattson {
 
 
 text MauvilleCity_Gym_Text_AngeloDefeat {
-    "Placeholder text for MauvilleCity_Gym_Text_AngeloDefeat"
+    format("Placeholder text for MauvilleCity_Gym_Text_AngeloDefeat")
 }
 
 text MauvilleCity_Gym_Text_AngeloIntro {
-    "Placeholder text for MauvilleCity_Gym_Text_AngeloIntro"
+    format("Placeholder text for MauvilleCity_Gym_Text_AngeloIntro")
 }
 
 text MauvilleCity_Gym_Text_AngeloPostBattle {
-    "Placeholder text for MauvilleCity_Gym_Text_AngeloPostBattle"
+    format("Placeholder text for MauvilleCity_Gym_Text_AngeloPostBattle")
 }
 
 text MauvilleCity_Gym_Text_BenDefeat {
-    "Placeholder text for MauvilleCity_Gym_Text_BenDefeat"
+    format("Placeholder text for MauvilleCity_Gym_Text_BenDefeat")
 }
 
 text MauvilleCity_Gym_Text_BenIntro {
-    "Placeholder text for MauvilleCity_Gym_Text_BenIntro"
+    format("Placeholder text for MauvilleCity_Gym_Text_BenIntro")
 }
 
 text MauvilleCity_Gym_Text_BenPostBattle {
-    "Placeholder text for MauvilleCity_Gym_Text_BenPostBattle"
+    format("Placeholder text for MauvilleCity_Gym_Text_BenPostBattle")
 }
 
 text MauvilleCity_Gym_Text_KirkDefeat {
-    "Placeholder text for MauvilleCity_Gym_Text_KirkDefeat"
+    format("Placeholder text for MauvilleCity_Gym_Text_KirkDefeat")
 }
 
 text MauvilleCity_Gym_Text_KirkIntro {
-    "Placeholder text for MauvilleCity_Gym_Text_KirkIntro"
+    format("Placeholder text for MauvilleCity_Gym_Text_KirkIntro")
 }
 
 text MauvilleCity_Gym_Text_KirkPostBattle {
-    "Placeholder text for MauvilleCity_Gym_Text_KirkPostBattle"
+    format("Placeholder text for MauvilleCity_Gym_Text_KirkPostBattle")
 }
 
 text MauvilleCity_Gym_Text_ShawnDefeat {
-    "Placeholder text for MauvilleCity_Gym_Text_ShawnDefeat"
+    format("Placeholder text for MauvilleCity_Gym_Text_ShawnDefeat")
 }
 
 text MauvilleCity_Gym_Text_ShawnIntro {
-    "Placeholder text for MauvilleCity_Gym_Text_ShawnIntro"
+    format("Placeholder text for MauvilleCity_Gym_Text_ShawnIntro")
 }
 
 text MauvilleCity_Gym_Text_ShawnPostBattle {
-    "Placeholder text for MauvilleCity_Gym_Text_ShawnPostBattle"
+    format("Placeholder text for MauvilleCity_Gym_Text_ShawnPostBattle")
 }
 
 text MauvilleCity_Gym_Text_VivianDefeat {
-    "Placeholder text for MauvilleCity_Gym_Text_VivianDefeat"
+    format("Placeholder text for MauvilleCity_Gym_Text_VivianDefeat")
 }
 
 text MauvilleCity_Gym_Text_VivianIntro {
-    "Placeholder text for MauvilleCity_Gym_Text_VivianIntro"
+    format("Placeholder text for MauvilleCity_Gym_Text_VivianIntro")
 }
 
 text MauvilleCity_Gym_Text_VivianPostBattle {
-    "Placeholder text for MauvilleCity_Gym_Text_VivianPostBattle"
+    format("Placeholder text for MauvilleCity_Gym_Text_VivianPostBattle")
+}
+
+text MauvilleCity_Gym_Text_WattsonPostRematch {
+    format("WATTSON: We'll have to recharge our\nbatteries again.\pWhen we're fully charged up, we'll\ngladly accept your challenge.\pSo, come back again sometime,\nwon't you?$")
+}
+
+text MauvilleCity_Gym_Text_GymStatueCertified {
+    format("MAUVILLE CITY POKéMON GYM\pWATTSON'S CERTIFIED TRAINERS:\n{PLAYER}$")
+}
+
+text MauvilleCity_Gym_Text_ExplainShockWave {
+    format("That TM34 there contains SHOCK WAVE.\pIt's a trustworthy move that never\nmisses! You can count on it!\p… … … … … …$")
+}
+
+text MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor {
+    format("Wahahahah!\nGo forth and endeavor, youngster!$")
+}
+
+text MauvilleCity_Gym_Text_GymGuidePostVictory {
+    format("Whoa, you're electrifying!\nYou've powered the door open!$")
+}
+
+text MauvilleCity_Gym_Text_GymStatue {
+    format("MAUVILLE CITY POKéMON GYM$")
 }

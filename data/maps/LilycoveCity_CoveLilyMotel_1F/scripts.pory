@@ -2,6 +2,7 @@ mapscripts LilycoveCity_CoveLilyMotel_1F_MapScripts {
 }
 
 script LilycoveCity_CoveLilyMotel_1F_EventScript_BlockingTV {
+    msgbox(LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV, MSGBOX_DEFAULT)
     end
 }
 
@@ -9,3 +10,14 @@ script LilycoveCity_CoveLilyMotel_1F_EventScript_MotelOwner {
     end
 }
 
+text LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV {
+    format("Hey, down in front!\nI can't see the TV!$")
+}
+
+text LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem {
+    format("Amazing! You're telling me a POKéMON\nfound someone's lost item?\pThat's something. If we had some smart\nPOKéMON like that…\pWe could recover anything that our\nguests mislaid…$")
+}
+
+text LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar {
+    format("Amazing! A house-sitting POKéMON\ncaught a burglar?\pThat's something. If we had a tough\nPOKéMON as a security guard…\pWe would be able to provide our guests\nwith greater safety.$")
+}

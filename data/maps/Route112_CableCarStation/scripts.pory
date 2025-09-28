@@ -2,6 +2,18 @@ mapscripts Route112_CableCarStation_MapScripts {
 }
 
 script Route112_CableCarStation_EventScript_Attendant {
+    msgbox(Route112_CableCarStation_Text_CableCarReadyGetOn, MSGBOX_YESNO)
     end
 }
 
+text Route112_CableCarStation_Text_StepThisWay {
+    format("Please step this way.$")
+}
+
+text Route112_CableCarStation_Text_RideAnotherTime {
+    format("Please ride with us another time.$")
+}
+
+text Route112_CableCarStation_Text_CableCarReadyGetOn {
+    format("The CABLE CAR is ready to go up.\nWould you like to be on it?$")
+}

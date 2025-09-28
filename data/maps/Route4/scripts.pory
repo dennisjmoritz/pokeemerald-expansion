@@ -12,6 +12,7 @@ script Route4_EventScript_RouteSign {
 }
 
 script Route4_EventScript_Woman {
+    msgbox(Route4_Text_TrippedOverGeodude, MSGBOX_NPC)
     end
 }
 
@@ -22,4 +23,8 @@ text Route4_Text_RouteSign {
 
 text Route4_Text_MtMoonEntrance {
     format("MT. MOON Tunnel Entrance")
+}
+
+text Route4_Text_TrippedOverGeodude {
+    format("Ouch! I tripped over a rocky\nPOKéMON, GEODUDE!$")
 }

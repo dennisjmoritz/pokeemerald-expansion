@@ -22,10 +22,12 @@ script Route107_EventScript_Denise {
 }
 
 script Route107_EventScript_Lisa {
+    msgbox(Route107_Text_LisaPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
 script Route107_EventScript_Ray {
+    msgbox(Route107_Text_RayPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -37,61 +39,68 @@ script Route107_EventScript_Tony {
 
 
 text Route107_Text_BethDefeated {
-    "I wasn't good enough for you."
+    format("I wasn't good enough for you.")
 }
 
 text Route107_Text_BethIntro {
-    "Did you want to battle me?\nSure, I'll go with you!"
+    format("Did you want to battle me? Sure, I'll go with you!")
 }
 
 text Route107_Text_BethPostBattle {
-    "I think you're going to keep getting\nbetter. I'll go for it, too!"
+    format("I think you're going to keep getting better. I'll go for it, too!")
 }
 
 text Route107_Text_CamronDefeated {
-    "That exhausted me…"
+    format("That exhausted me…")
 }
 
 text Route107_Text_CamronIntro {
-    "I'm in the middle of a triathlon,\nbut I'm nowhere near tired!"
+    format("I'm in the middle of a triathlon, but I'm nowhere near tired!")
 }
 
 text Route107_Text_CamronPostBattle {
-    "I still have swimming and running left\nto do after this.\pAm I going to be okay?"
+    format("I still have swimming and running left to do after this.\pAm I going to be okay?")
 }
 
 text Route107_Text_DarrinDefeated {
-    "Ahaha, I lost…\nI'll take a snooze, I think…"
+    format("Ahaha, I lost… I'll take a snooze, I think…")
 }
 
 text Route107_Text_DarrinIntro {
-    "Yawn…\pI must have drifted off to sleep while\nI was drifting in the waves."
+    format("Yawn…\pI must have drifted off to sleep while I was drifting in the waves.")
 }
 
 text Route107_Text_DarrinPostBattle {
-    "Floating and being rocked by\nthe waves--it's like sleeping in\na plush, comfy bed."
+    format("Floating and being rocked by the waves--it's like sleeping in a plush, comfy bed.")
 }
 
 text Route107_Text_DeniseDefeated {
-    "I hate this!"
+    format("I hate this!")
 }
 
 text Route107_Text_DeniseIntro {
-    "Do you know a little town called\nDEWFORD?"
+    format("Do you know a little town called DEWFORD?")
 }
 
 text Route107_Text_DenisePostBattle {
-    "A weird saying is getting really\ntrendy at DEWFORD HALL."
+    format("A weird saying is getting really trendy at DEWFORD HALL.")
 }
 
 text Route107_Text_TonyDefeated {
-    "I lost on my home field…\nI'm in shock!"
+    format("I lost on my home field… I'm in shock!")
 }
 
 text Route107_Text_TonyIntro {
-    "The sea is like my backyard.\nLet's battle!"
+    format("The sea is like my backyard. Let's battle!")
 }
 
 text Route107_Text_TonyPostBattle {
-    "I swim the seas with a heart full of\ndreams…\pIt's a song!\nAnyways, I'm swimming some more."
+    format("I swim the seas with a heart full of dreams…\pIt's a song! Anyways, I'm swimming some more.")
+}
+text Route107_Text_LisaPostBattle {
+    format("LISA: Do you have any friends who would go to the beach with you?")
+}
+
+text Route107_Text_RayPostBattle {
+    format("RAY: My sister gave me my POKéMON. I raised it, and now it's my important partner!")
 }

@@ -31,6 +31,7 @@ script Route117_EventScript_Dylan {
 }
 
 script Route117_EventScript_Girl {
+    msgbox(Route117_Text_DayCarePokemonHadNewMove, MSGBOX_NPC)
     end
 }
 
@@ -40,6 +41,7 @@ script Route117_EventScript_Isaac {
 }
 
 script Route117_EventScript_LittleBoy {
+    msgbox(Route117_Text_AirIsTastyHere, MSGBOX_NPC)
     end
 }
 
@@ -73,6 +75,7 @@ script Route117_EventScript_RouteSignVerdanturf {
 }
 
 script Route117_EventScript_Woman {
+    msgbox(Route117_Text_ArentTheseFlowersPretty, MSGBOX_NPC)
     end
 }
 
@@ -91,97 +94,109 @@ text Route117_Text_RouteSignMauville {
 
 
 text Route117_Text_AishaDefeat {
-    "I don't waste any time being angry\nover a loss--I would rather train."
+    format("I don't waste any time being angry over a loss--I would rather train.")
 }
 
 text Route117_Text_AishaIntro {
-    "Concentrate on getting the win.\nThat's how I battle!"
+    format("Concentrate on getting the win. That's how I battle!")
 }
 
 text Route117_Text_AishaPostBattle {
-    "I think that if you worry about losing,\nyou're more likely to lose."
+    format("I think that if you worry about losing, you're more likely to lose.")
 }
 
 text Route117_Text_BrandiDefeat {
-    "Astonishing!"
+    format("Astonishing!")
 }
 
 text Route117_Text_BrandiIntro {
-    "Let me demonstrate the power\nhidden within a PSYCHIC POKéMON!"
+    format("Let me demonstrate the power hidden within a PSYCHIC POKéMON!")
 }
 
 text Route117_Text_BrandiPostBattle {
-    "PSYCHIC POKéMON are complex.\nYou should try catching some."
+    format("PSYCHIC POKéMON are complex. You should try catching some.")
 }
 
 text Route117_Text_DerekDefeat {
-    "My ineptitude also remains\nunchanged…"
+    format("My ineptitude also remains unchanged…")
 }
 
 text Route117_Text_DerekIntro {
-    "Once a BUG CATCHER!\nAnd now a BUG MANIAC!\pBut my love for POKéMON remains\nunchanged!"
+    format("Once a BUG CATCHER! And now a BUG MANIAC!\pBut my love for POKéMON remains unchanged!")
 }
 
 text Route117_Text_DerekPostBattle {
-    "All I did was follow my heart, and now\nthey call me a BUG MANIAC…\pStill, I am an expert on BUG POKéMON,\nso it's only natural that they call me\na BUG MANIAC."
+    format("All I did was follow my heart, and now they call me a BUG MANIAC…\pStill, I am an expert on BUG POKéMON, so it's only natural that they call me a BUG MANIAC.")
 }
 
 text Route117_Text_DylanDefeat {
-    "I ran out of energy!"
+    format("I ran out of energy!")
 }
 
 text Route117_Text_DylanIntro {
-    "I'm in the middle of a triathlon, but,\nwhatever, let's have a battle!"
+    format("I'm in the middle of a triathlon, but, whatever, let's have a battle!")
 }
 
 text Route117_Text_DylanPostBattle {
-    "I may have blown it…\pI might have dropped to last during\nthat battle…"
+    format("I may have blown it…\pI might have dropped to last during that battle…")
 }
 
 text Route117_Text_IsaacDefeat {
-    "You've raised yours superbly…"
+    format("You've raised yours superbly…")
 }
 
 text Route117_Text_IsaacIntro {
-    "Listen, could I get you to battle\nthe POKéMON I'm raising?"
+    format("Listen, could I get you to battle the POKéMON I'm raising?")
 }
 
 text Route117_Text_IsaacPostBattle {
-    "POKéMON isn't all about power.\pPolishing a unique aspect of one's\ncharacter is another way of enjoying\nPOKéMON."
+    format("POKéMON isn't all about power.\pPolishing a unique aspect of one's character is another way of enjoying POKéMON.")
 }
 
 text Route117_Text_LydiaDefeat {
-    "Yes, they are growing properly."
+    format("Yes, they are growing properly.")
 }
 
 text Route117_Text_LydiaIntro {
-    "Please, allow me to evaluate if you\nhave raised your POKéMON properly."
+    format("Please, allow me to evaluate if you have raised your POKéMON properly.")
 }
 
 text Route117_Text_LydiaPostBattle {
-    "Try raising POKéMON with more\nattention to their character traits."
+    format("Try raising POKéMON with more attention to their character traits.")
 }
 
 text Route117_Text_MariaDefeat {
-    "I need to get more practices in,\nI guess."
+    format("I need to get more practices in, I guess.")
 }
 
 text Route117_Text_MariaIntro {
-    "I do my triathlon training with POKéMON,\nso I'm pretty confident about my speed."
+    format("I do my triathlon training with POKéMON, so I'm pretty confident about my speed.")
 }
 
 text Route117_Text_MariaPostBattle {
-    "Training is meaningful only if you\nkeep it up regularly.\pOkay! I'll resume my training!\nTomorrow!"
+    format("Training is meaningful only if you keep it up regularly.\pOkay! I'll resume my training! Tomorrow!")
 }
 
 text Route117_Text_MelinaDefeat {
-    "Oh, that's quite impressive!"
+    format("Oh, that's quite impressive!")
 }
 
 text Route117_Text_MelinaIntro {
-    "Isn't it nice? To battle while looking\nat pretty flowers?"
+    format("Isn't it nice? To battle while looking at pretty flowers?")
 }
 
 text Route117_Text_MelinaPostBattle {
-    "It feels wonderful to go for a jog\nwhile looking at flowers."
+    format("It feels wonderful to go for a jog while looking at flowers.")
+}
+
+text Route117_Text_ArentTheseFlowersPretty {
+    format("What do you think?\nAren't these flowers pretty?\pI planted them all!$")
+}
+
+text Route117_Text_AirIsTastyHere {
+    format("The air is tasty here!$")
+}
+
+text Route117_Text_DayCarePokemonHadNewMove {
+    format("I left my POKéMON at the DAY CARE.\pWhen I got it back, it had a new move\nthat I didn't teach it.\lI was really, really surprised.$")
 }

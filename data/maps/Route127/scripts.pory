@@ -44,97 +44,97 @@ script Route127_EventScript_Roger {
 
 
 text Route127_Text_AidanDefeat {
-    "Whew… I give up."
+    format("Whew… I give up.")
 }
 
 text Route127_Text_AidanIntro {
-    "BIRD POKéMON have excellent vision.\nThey spot prey from great heights."
+    format("BIRD POKéMON have excellent vision. They spot prey from great heights.")
 }
 
 text Route127_Text_AidanPostBattle {
-    "There're lots of diving spots in\nthe sea around here.\pYou can spot them easily from the sky\nbecause of their darker color."
+    format("There're lots of diving spots in the sea around here.\pYou can spot them easily from the sky because of their darker color.")
 }
 
 text Route127_Text_AthenaDefeat {
-    "You didn't give me the chance to\ndo any strategizing."
+    format("You didn't give me the chance to do any strategizing.")
 }
 
 text Route127_Text_AthenaIntro {
-    "We should have a slow and methodical\nmatch."
+    format("We should have a slow and methodical match.")
 }
 
 text Route127_Text_AthenaPostBattle {
-    "When I'm surrounded by the blue sea\nand sky, it feels as if time slows down."
+    format("When I'm surrounded by the blue sea and sky, it feels as if time slows down.")
 }
 
 text Route127_Text_CamdenDefeat {
-    "Awawawawawa…"
+    format("Awawawawawa…")
 }
 
 text Route127_Text_CamdenIntro {
-    "I can see it in your face.\nYou want to challenge me."
+    format("I can see it in your face. You want to challenge me.")
 }
 
 text Route127_Text_CamdenPostBattle {
-    "A well-played match leaves me feeling\nrefreshed and serene."
+    format("A well-played match leaves me feeling refreshed and serene.")
 }
 
 text Route127_Text_DonnyDefeat {
-    "Arrrgh!\nI hate losing!"
+    format("Arrrgh! I hate losing!")
 }
 
 text Route127_Text_DonnyIntro {
-    "Do you have a rival whom you just\nhate to lose against?"
+    format("Do you have a rival whom you just hate to lose against?")
 }
 
 text Route127_Text_DonnyPostBattle {
-    "If you have a rival, don't you get the\nfeeling that you have to keep getting\nbetter?"
+    format("If you have a rival, don't you get the feeling that you have to keep getting better?")
 }
 
 text Route127_Text_HenryDefeat {
-    "I can't keep up!"
+    format("I can't keep up!")
 }
 
 text Route127_Text_HenryIntro {
-    "Whoops! Don't tell me I snagged\na SURFING POKéMON?"
+    format("Whoops! Don't tell me I snagged a SURFING POKéMON?")
 }
 
 text Route127_Text_HenryPostBattle {
-    "It'd be a handful if I hooked\nyour tough POKéMON!"
+    format("It'd be a handful if I hooked your tough POKéMON!")
 }
 
 text Route127_Text_JonahDefeat {
-    "Though I have lost, my heart remains\ncalm…"
+    format("Though I have lost, my heart remains calm…")
 }
 
 text Route127_Text_JonahIntro {
-    "Through fishing, I have attained a\nstate of becalmed serenity…\pPlease, allow me to demonstrate…"
+    format("Through fishing, I have attained a state of becalmed serenity…\pPlease, allow me to demonstrate…")
 }
 
 text Route127_Text_JonahPostBattle {
-    "It matters not that I catch nothing.\nThe line remains in the water…"
+    format("It matters not that I catch nothing. The line remains in the water…")
 }
 
 text Route127_Text_KojiDefeat {
-    "Yowch!\nI got a pebble under a toenail!"
+    format("Yowch! I got a pebble under a toenail!")
 }
 
 text Route127_Text_KojiIntro {
-    "Run in your bare feet.\nThat will toughen up your soles!"
+    format("Run in your bare feet. That will toughen up your soles!")
 }
 
 text Route127_Text_KojiPostBattle {
-    "Going barefoot feels great.\nBut your RUNNING SHOES are cool, too."
+    format("Going barefoot feels great. But your RUNNING SHOES are cool, too.")
 }
 
 text Route127_Text_RogerDefeat {
-    "No! My line's all tangled!\nThe party's over!"
+    format("No! My line's all tangled! The party's over!")
 }
 
 text Route127_Text_RogerIntro {
-    "Well, hey! This is a match between\na POKéMON fan and a fishing buff!"
+    format("Well, hey! This is a match between a POKéMON fan and a fishing buff!")
 }
 
 text Route127_Text_RogerPostBattle {
-    "My fishing line's doing a dance!\nThe tangle tango! Hahaha, snarl!"
+    format("My fishing line's doing a dance! The tangle tango! Hahaha, snarl!")
 }

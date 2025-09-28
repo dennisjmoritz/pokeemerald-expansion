@@ -2,6 +2,7 @@ mapscripts PalletTown_RivalsHouse_MapScripts {
 }
 
 script PalletTown_RivalsHouse_EventScript_Bookshelf {
+    msgbox(PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks, MSGBOX_SIGN)
     end
 }
 
@@ -10,10 +11,24 @@ script PalletTown_RivalsHouse_EventScript_Daisy {
 }
 
 script PalletTown_RivalsHouse_EventScript_Picture {
+    msgbox(PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy, MSGBOX_SIGN)
     end
 }
 
 script PalletTown_RivalsHouse_EventScript_TownMap {
+    msgbox(PalletTown_RivalsHouse_Text_ItsBigMapOfKanto, MSGBOX_NPC)
     end
 }
 
+
+text PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks {
+    format("The shelves are crammed full of\nbooks on POKéMON.$")
+}
+
+text PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy {
+    format("“The lovely and sweet\nCLEFAIRY”$")
+}
+
+text PalletTown_RivalsHouse_Text_ItsBigMapOfKanto {
+    format("It's a big map of the KANTO region.\nNow this would be useful!$")
+}

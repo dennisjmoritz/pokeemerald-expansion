@@ -2,6 +2,7 @@ mapscripts CeladonCity_Condominiums_RoofRoom_MapScripts {
 }
 
 script CeladonCity_Condominiums_RoofRoom_EventScript_BlackBelt {
+    msgbox(CeladonCity_Condominiums_RoofRoom_Text_TheresNothingIDontKnow, MSGBOX_NPC)
     end
 }
 
@@ -37,4 +38,8 @@ text CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs {
 
 text CeladonCity_Condominiums_RoofRoom_Text_WirelessAdapterLecture {
     format("POKéMON Lecture\p Playing with the Wireless Adapter")
+}
+
+text CeladonCity_Condominiums_RoofRoom_Text_TheresNothingIDontKnow {
+    format("There is nothing that I don't know,\nlike I wrote on the blackboard.\pI know about the world of POKéMON\nin your GAME BOY ADVANCE!\pGet together with your friends and\nenjoy trading POKéMON!$")
 }

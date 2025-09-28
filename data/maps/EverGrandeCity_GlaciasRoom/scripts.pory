@@ -5,3 +5,6 @@ script EverGrandeCity_GlaciasRoom_EventScript_Glacia {
     end
 }
 
+text EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech {
+    format("Advance to the next room.\pAnd there, confirm the truly fearsome\nside of the POKéMON LEAGUE.$")
+}

@@ -1,2 +1,42 @@
 mapscripts Route110_TrickHouseEnd_MapScripts {
 }
+
+text Route110_TrickHouseEnd_Text_AllNightToShoveBoulders {
+    format("It took me all night to shove in those\nboulders…\pYou're almost my equal in greatness by\none, two, three places!$")
+}
+
+text Route110_TrickHouseEnd_Text_NoRoomForThis {
+    format("What? Have you no room for this?\nWhat manner of items do you carry?\pBut fine, since you've reached me,\nyour reward will be with me till later.$")
+}
+
+text Route110_TrickHouseEnd_Text_YouveMadeItToMe {
+    format("Aak!\nYou've made it to me?\lHmmm… You're sharp!$")
+}
+
+text Route110_TrickHouseEnd_Text_AllNightToInstallDoors {
+    format("It took me all night to install\nthe doors…\pYou're almost my equal in greatness!$")
+}
+
+text Route110_TrickHouseEnd_Text_AllNightSettingUpArrows {
+    format("It took me all night setting up arrows…\pYou're my equal in greatness!$")
+}
+
+text Route110_TrickHouseEnd_Text_AllNightToMakeMaze {
+    format("It took me all night to make the maze…\pYou're almost my equal in greatness by\none, two, three, four, five places!$")
+}
+
+text Route110_TrickHouseEnd_Text_AllNightToPreparePanels {
+    format("It took me all night to prepare\nthe wall panels…\pYou're almost my equal in greatness by\none, two, three, four places!$")
+}
+
+text Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls {
+    format("It took me all night to make MECHADOLLS\nand another to think up the quiz…\pYou're almost my equal in greatness by\none, two places!$")
+}
+
+text Route110_TrickHouseEnd_Text_AllNightPolishingFloors {
+    format("It took me all night polishing floors…\pYou're above me in greatness!\nPossibly…$")
+}
+
+text Route110_TrickHouseEnd_Text_AllNightToPlantTrees {
+    format("It took me all night to plant all those\ntrees…\pYou're almost my equal in greatness by\none, two, three, four, five, six places!$")
+}

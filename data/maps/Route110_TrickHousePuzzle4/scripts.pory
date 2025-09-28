@@ -3,37 +3,37 @@ mapscripts Route110_TrickHousePuzzle4_MapScripts {
 
 
 text Route110_TrickHousePuzzle4_Text_CoraDefeat {
-    "Placeholder text for Route110_TrickHousePuzzle4_Text_CoraDefeat"
+    format("Placeholder text for Route110_TrickHousePuzzle4_Text_CoraDefeat")
 }
 
 text Route110_TrickHousePuzzle4_Text_CoraIntro {
-    "Placeholder text for Route110_TrickHousePuzzle4_Text_CoraIntro"
+    format("Placeholder text for Route110_TrickHousePuzzle4_Text_CoraIntro")
 }
 
 text Route110_TrickHousePuzzle4_Text_CoraPostBattle {
-    "Placeholder text for Route110_TrickHousePuzzle4_Text_CoraPostBattle"
+    format("Placeholder text for Route110_TrickHousePuzzle4_Text_CoraPostBattle")
 }
 
 text Route110_TrickHousePuzzle4_Text_PaulaDefeat {
-    "Placeholder text for Route110_TrickHousePuzzle4_Text_PaulaDefeat"
+    format("Placeholder text for Route110_TrickHousePuzzle4_Text_PaulaDefeat")
 }
 
 text Route110_TrickHousePuzzle4_Text_PaulaIntro {
-    "Placeholder text for Route110_TrickHousePuzzle4_Text_PaulaIntro"
+    format("Placeholder text for Route110_TrickHousePuzzle4_Text_PaulaIntro")
 }
 
 text Route110_TrickHousePuzzle4_Text_PaulaPostBattle {
-    "Placeholder text for Route110_TrickHousePuzzle4_Text_PaulaPostBattle"
+    format("Placeholder text for Route110_TrickHousePuzzle4_Text_PaulaPostBattle")
 }
 
 text Route110_TrickHousePuzzle4_Text_YujiDefeat {
-    "Placeholder text for Route110_TrickHousePuzzle4_Text_YujiDefeat"
+    format("Placeholder text for Route110_TrickHousePuzzle4_Text_YujiDefeat")
 }
 
 text Route110_TrickHousePuzzle4_Text_YujiIntro {
-    "Placeholder text for Route110_TrickHousePuzzle4_Text_YujiIntro"
+    format("Placeholder text for Route110_TrickHousePuzzle4_Text_YujiIntro")
 }
 
 text Route110_TrickHousePuzzle4_Text_YujiPostBattle {
-    "Placeholder text for Route110_TrickHousePuzzle4_Text_YujiPostBattle"
+    format("Placeholder text for Route110_TrickHousePuzzle4_Text_YujiPostBattle")
 }

@@ -2,6 +2,7 @@ mapscripts SouthernIsland_Exterior_MapScripts {
 }
 
 script SouthernIsland_Exterior_EventScript_Sailor {
+    msgbox(EventTicket_Text_SouthernIslandSailBack, MSGBOX_YESNO)
     end
 }
 

@@ -2,6 +2,7 @@ mapscripts SlateportCity_PokemonFanClub_MapScripts {
 }
 
 script SlateportCity_PokemonFanClub_EventScript_Azumarill {
+    msgbox(SlateportCity_PokemonFanClub_Text_Azumarill, MSGBOX_DEFAULT)
     end
 }
 
@@ -10,10 +11,12 @@ script SlateportCity_PokemonFanClub_EventScript_Chairman {
 }
 
 script SlateportCity_PokemonFanClub_EventScript_Man {
+    msgbox(SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_PokemonFanClub_EventScript_Skitty {
+    msgbox(SlateportCity_PokemonFanClub_Text_Skitty, MSGBOX_DEFAULT)
     end
 }
 
@@ -22,10 +25,67 @@ script SlateportCity_PokemonFanClub_EventScript_SootheBellWoman {
 }
 
 script SlateportCity_PokemonFanClub_EventScript_Twin {
+    msgbox(SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein, MSGBOX_NPC)
     end
 }
 
 script SlateportCity_PokemonFanClub_EventScript_Zigzagoon {
+    msgbox(SlateportCity_PokemonFanClub_Text_Zigzagoon, MSGBOX_DEFAULT)
     end
 }
 
+text SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon {
+    format("Er-hem! I see you've participated in\na POKéMON CONTEST!\pPlease! Allow me to examine how you\nhave raised your POKéMON.\pIt delights me no end to see POKéMON\nraised by other TRAINERS.\pThe happy expressions of POKéMON\nraised with proper care…\pThe kindly eyes of the TRAINER that\nnurtured and raised the POKéMON…\pThe very thought fills my heart to\noverwhelming with joy.\pOh! I do beg your pardon!\nForgive me for prattling on so!\pPlease! Allow me to examine how much\nyour POKéMON has grown!$")
+}
+
+text SlateportCity_PokemonFanClub_Text_Azumarill {
+    format("AZUMARILL: Marimari?$")
+}
+
+text SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks {
+    format("Hmmm… It's not bad, but it's not\ngood, either…\pYou, the TRAINER, must put more\neffort into raising this POKéMON!\pFor instance, may I suggest that\nyou give it more {POKEBLOCK}S?$")
+}
+
+text SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting {
+    format("If you keep letting a POKéMON faint\nin battle, it'll come to resent it.\pSoon, it will become less trusting\nof the TRAINER.\pIn other words, it certainly won't\nlike you very much.$")
+}
+
+text SlateportCity_PokemonFanClub_Text_Skitty {
+    format("SKITTY: Fffnyaaaah…$")
+}
+
+text SlateportCity_PokemonFanClub_Text_Zigzagoon {
+    format("ZIGZAGOON: Kyuuu…$")
+}
+
+text SlateportCity_PokemonFanClub_Text_MeetChairman {
+    format("Er-hem! I am the CHAIRMAN of the\nPOKéMON FAN CLUB!\pBeing the CHAIRMAN, I am naturally\nthe most important!\pNo one can best me when it comes\nto raising POKéMON. No one!\pWell, let me tell you about\nPOKéMON CONTESTS.\pThey're events where one can show off\nPOKéMON for the world to see!\pHowever, they're held in far-off towns,\nso I cannot participate often enough.\pThat is why we gather here to show\noff our POKéMON, and have others\lshow us theirs.$")
+}
+
+text SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove {
+    format("POKéMON are very sensitive to\nthe feelings of their TRAINERS.\pIf you treat your POKéMON with love\nand care, they'll love you back.$")
+}
+
+text SlateportCity_PokemonFanClub_Text_HmHmISee {
+    format("Hm, hm…\nI see…$")
+}
+
+text SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein {
+    format("Do POKéMON enjoy having items used\non them?\pMine acted really happy when I gave\nit some PROTEIN.$")
+}
+
+text SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon {
+    format("The POKéMON of a TRAINER who has\nentered a POKéMON CONTEST…\lThat, I would like to see.$")
+}
+
+text SlateportCity_PokemonFanClub_Text_NoSpaceForReward {
+    format("Oh, my…\pYour POKéMON is growing quite well,\nso you deserve a reward.\pUnfortunately, you have no space for\nthis in your BAG.$")
+}
+
+text SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou {
+    format("I'm sorry, but I've nothing else to\ngive you! None at all!\pAfter all, you're blessed with the gift\nof raising POKéMON without resorting\lto any items!$")
+}
+
+text SlateportCity_PokemonFanClub_Text_PokemonAdoresYou {
+    format("Your POKéMON really adores you.\pFor you, a most compassionate\nTRAINER, a gift from the FAN CLUB!$")
+}

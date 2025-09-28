@@ -14,25 +14,25 @@ script SSAnne_B1F_Room4_EventScript_Leonard {
 
 
 text SSAnne_B1F_Room4_Text_DuncanDefeat {
-    "Placeholder text for SSAnne_B1F_Room4_Text_DuncanDefeat"
+    format("Placeholder text for SSAnne_B1F_Room4_Text_DuncanDefeat")
 }
 
 text SSAnne_B1F_Room4_Text_DuncanIntro {
-    "Placeholder text for SSAnne_B1F_Room4_Text_DuncanIntro"
+    format("Placeholder text for SSAnne_B1F_Room4_Text_DuncanIntro")
 }
 
 text SSAnne_B1F_Room4_Text_DuncanPostBattle {
-    "Placeholder text for SSAnne_B1F_Room4_Text_DuncanPostBattle"
+    format("Placeholder text for SSAnne_B1F_Room4_Text_DuncanPostBattle")
 }
 
 text SSAnne_B1F_Room4_Text_LeonardDefeat {
-    "Placeholder text for SSAnne_B1F_Room4_Text_LeonardDefeat"
+    format("Placeholder text for SSAnne_B1F_Room4_Text_LeonardDefeat")
 }
 
 text SSAnne_B1F_Room4_Text_LeonardIntro {
-    "Placeholder text for SSAnne_B1F_Room4_Text_LeonardIntro"
+    format("Placeholder text for SSAnne_B1F_Room4_Text_LeonardIntro")
 }
 
 text SSAnne_B1F_Room4_Text_LeonardPostBattle {
-    "Placeholder text for SSAnne_B1F_Room4_Text_LeonardPostBattle"
+    format("Placeholder text for SSAnne_B1F_Room4_Text_LeonardPostBattle")
 }

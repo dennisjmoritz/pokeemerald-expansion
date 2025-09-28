@@ -65,3 +65,35 @@ script DewfordTown_Hall_EventScript_Woman {
 text DewfordTown_Hall_Text_BooksAboutTrend {
     format("IDENTIFYING GOOD “{STR_VAR_1}” &\l BAD “{STR_VAR_1}”…\p THE LINK BETWEEN “{STR_VAR_1}” AND\l POKéMON…\p USEFUL “{STR_VAR_1}”…\p It's neatly jammed with books about “{STR_VAR_1}.”")
 }
+
+text DewfordTown_Hall_Text_TrendsSmile {
+    format("“{STR_VAR_1}'S\nSMILE” is the title.$")
+}
+
+text DewfordTown_Hall_Text_LastTrend {
+    format("It's titled “THE LAST\n{STR_VAR_1}”.$")
+}
+
+text DewfordTown_Hall_Text_GettingBoredOfTrend {
+    format("What's in vogue? Why, it has to be\n“{STR_VAR_1}”!\pBut I'm getting kind of bored with it.\pI should look for the next big thing.$")
+}
+
+text DewfordTown_Hall_Text_NotEasyToKeepUp {
+    format("What?!\nIs that so?!\pIt's not easy for an older fellow like\nme to keep up with trends!$")
+}
+
+text DewfordTown_Hall_Text_TrendsScream {
+    format("“{STR_VAR_1}'S\nSCREAM” is the title.$")
+}
+
+text DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo {
+    format("I love SLUDGE BOMB.\pBut POKéMON with the move\n“{STR_VAR_1}”\lare in, too.$")
+}
+
+text DewfordTown_Hall_Text_BirthOfTrend {
+    format("It's titled “THE BIRTH OF\n{STR_VAR_1}”.$")
+}
+
+text DewfordTown_Hall_Text_MyHunchWasRight {
+    format("Oh!\nSo, my hunch was right!\pI'm one step closer to being hip and\nhappening, yowza!$")
+}

@@ -23,37 +23,37 @@ script PokemonTower_6F_EventScript_MarowakGhost {
 
 
 text PokemonTower_6F_Text_AngelicaDefeat {
-    "Placeholder text for PokemonTower_6F_Text_AngelicaDefeat"
+    format("Placeholder text for PokemonTower_6F_Text_AngelicaDefeat")
 }
 
 text PokemonTower_6F_Text_AngelicaIntro {
-    "Placeholder text for PokemonTower_6F_Text_AngelicaIntro"
+    format("Placeholder text for PokemonTower_6F_Text_AngelicaIntro")
 }
 
 text PokemonTower_6F_Text_AngelicaPostBattle {
-    "Placeholder text for PokemonTower_6F_Text_AngelicaPostBattle"
+    format("Placeholder text for PokemonTower_6F_Text_AngelicaPostBattle")
 }
 
 text PokemonTower_6F_Text_EmiliaDefeat {
-    "Placeholder text for PokemonTower_6F_Text_EmiliaDefeat"
+    format("Placeholder text for PokemonTower_6F_Text_EmiliaDefeat")
 }
 
 text PokemonTower_6F_Text_EmiliaIntro {
-    "Placeholder text for PokemonTower_6F_Text_EmiliaIntro"
+    format("Placeholder text for PokemonTower_6F_Text_EmiliaIntro")
 }
 
 text PokemonTower_6F_Text_EmiliaPostBattle {
-    "Placeholder text for PokemonTower_6F_Text_EmiliaPostBattle"
+    format("Placeholder text for PokemonTower_6F_Text_EmiliaPostBattle")
 }
 
 text PokemonTower_6F_Text_JenniferDefeat {
-    "Placeholder text for PokemonTower_6F_Text_JenniferDefeat"
+    format("Placeholder text for PokemonTower_6F_Text_JenniferDefeat")
 }
 
 text PokemonTower_6F_Text_JenniferIntro {
-    "Placeholder text for PokemonTower_6F_Text_JenniferIntro"
+    format("Placeholder text for PokemonTower_6F_Text_JenniferIntro")
 }
 
 text PokemonTower_6F_Text_JenniferPostBattle {
-    "Placeholder text for PokemonTower_6F_Text_JenniferPostBattle"
+    format("Placeholder text for PokemonTower_6F_Text_JenniferPostBattle")
 }

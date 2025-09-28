@@ -2,6 +2,7 @@ mapscripts DewfordTown_House2_MapScripts {
 }
 
 script DewfordTown_House2_EventScript_Boy {
+    msgbox(DewfordTown_House2_Text_BrawlySoCool, MSGBOX_NPC)
     end
 }
 
@@ -9,3 +10,14 @@ script DewfordTown_House2_EventScript_Man {
     end
 }
 
+text DewfordTown_House2_Text_ExplainSilkScarf {
+    format("The SILK SCARF raises the power of\nNORMAL-type moves.\pIt's a marvelous SCARF that will go\nwith almost all POKéMON!$")
+}
+
+text DewfordTown_House2_Text_NoRoom {
+    format("Oh, you don't have room?\pNow, listen tight, this SCARF is a must-\nhave! Why, I would sell all my items\lin order to get it!$")
+}
+
+text DewfordTown_House2_Text_BrawlySoCool {
+    format("Wow, you bothered to cross the sea\nto visit DEWFORD?\pDid you maybe come here because you\nheard about BRAWLY?\pHe's so cool…\nEveryone idolizes him.$")
+}

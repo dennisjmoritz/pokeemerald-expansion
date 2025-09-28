@@ -14,25 +14,25 @@ script SeafloorCavern_Room4_EventScript_Grunt4 {
 
 
 text SeafloorCavern_Room4_Text_Grunt3Defeat {
-    "Placeholder text for SeafloorCavern_Room4_Text_Grunt3Defeat"
+    format("Placeholder text for SeafloorCavern_Room4_Text_Grunt3Defeat")
 }
 
 text SeafloorCavern_Room4_Text_Grunt3Intro {
-    "Placeholder text for SeafloorCavern_Room4_Text_Grunt3Intro"
+    format("Placeholder text for SeafloorCavern_Room4_Text_Grunt3Intro")
 }
 
 text SeafloorCavern_Room4_Text_Grunt3PostBattle {
-    "Placeholder text for SeafloorCavern_Room4_Text_Grunt3PostBattle"
+    format("Placeholder text for SeafloorCavern_Room4_Text_Grunt3PostBattle")
 }
 
 text SeafloorCavern_Room4_Text_Grunt4Defeat {
-    "Placeholder text for SeafloorCavern_Room4_Text_Grunt4Defeat"
+    format("Placeholder text for SeafloorCavern_Room4_Text_Grunt4Defeat")
 }
 
 text SeafloorCavern_Room4_Text_Grunt4Intro {
-    "Placeholder text for SeafloorCavern_Room4_Text_Grunt4Intro"
+    format("Placeholder text for SeafloorCavern_Room4_Text_Grunt4Intro")
 }
 
 text SeafloorCavern_Room4_Text_Grunt4PostBattle {
-    "Placeholder text for SeafloorCavern_Room4_Text_Grunt4PostBattle"
+    format("Placeholder text for SeafloorCavern_Room4_Text_Grunt4PostBattle")
 }

@@ -2,6 +2,7 @@ mapscripts FortreeCity_MapScripts {
 }
 
 script FortreeCity_EventScript_Boy {
+    msgbox(FortreeCity_Text_BugPokemonComeThroughWindow, MSGBOX_NPC)
     end
 }
 
@@ -11,10 +12,12 @@ script FortreeCity_EventScript_CitySign {
 }
 
 script FortreeCity_EventScript_GameboyKid {
+    msgbox(FortreeCity_Text_PokemonThatEvolveWhenTraded, MSGBOX_NPC)
     end
 }
 
 script FortreeCity_EventScript_Girl {
+    msgbox(FortreeCity_Text_TreesGrowByDrinkingRainwater, MSGBOX_NPC)
     end
 }
 
@@ -24,10 +27,12 @@ script FortreeCity_EventScript_GymSign {
 }
 
 script FortreeCity_EventScript_Man {
+    msgbox(FortreeCity_Text_SawGiganticPokemonInSky, MSGBOX_NPC)
     end
 }
 
 script FortreeCity_EventScript_OldMan {
+    msgbox(FortreeCity_Text_EveryoneHealthyAndLively, MSGBOX_NPC)
     end
 }
 
@@ -42,4 +47,36 @@ text FortreeCity_Text_CitySign {
 
 text FortreeCity_Text_GymSign {
     format("FORTREE CITY POKéMON GYM LEADER: WINONA\p “The bird user taking flight into the world.”")
+}
+
+text FortreeCity_Text_SawGiganticPokemonInSky {
+    format("No one believes me, but I saw this\ngigantic POKéMON in the sky.\pIt seemed to squirm as it flew toward\nROUTE 131.\pBy the way… Sniff…\nUm… You, uh…smell singed.\pWere you at a volcano or something?$")
+}
+
+text FortreeCity_Text_ThisTimeIllBeatWinona {
+    format("I've got my pride-and-joy POKéMON\nwith me. This time, I'll beat WINONA.$")
+}
+
+text FortreeCity_Text_EveryoneHealthyAndLively {
+    format("The CITY consists of homes built on\ntrees.\pPerhaps because of that lifestyle,\neveryone is healthy and lively.\pWhy, even myself--I feel as if I've\ngrown thirty years younger.$")
+}
+
+text FortreeCity_Text_BugPokemonComeThroughWindow {
+    format("Living on top of trees is okay.\pBut sometimes BUG POKéMON come in\nthrough windows.\lIt can be really startling.$")
+}
+
+text FortreeCity_Text_UsedDevonScopePokemonFled {
+    format("{PLAYER} used the DEVON SCOPE.\pAn invisible POKéMON became completely\nvisible!\pThe startled POKéMON fled!$")
+}
+
+text FortreeCity_Text_UnseeableUseDevonScope {
+    format("Something unseeable is in the way.\pWant to use the DEVON SCOPE?$")
+}
+
+text FortreeCity_Text_PokemonThatEvolveWhenTraded {
+    format("There are POKéMON that evolve when\nyou trade them! That's what I heard.$")
+}
+
+text FortreeCity_Text_TreesGrowByDrinkingRainwater {
+    format("The ground absorbs rainwater, and\ntrees grow by drinking that water…\pOur FORTREE CITY exists because\nthere's both water and soil.$")
 }

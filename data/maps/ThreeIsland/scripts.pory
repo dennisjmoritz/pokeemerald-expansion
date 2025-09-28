@@ -34,6 +34,7 @@ script ThreeIsland_EventScript_Biker {
 }
 
 script ThreeIsland_EventScript_Biker6 {
+    msgbox(ThreeIsland_Text_IslandBelongsToUs, MSGBOX_NPC)
     end
 }
 
@@ -51,14 +52,28 @@ script ThreeIsland_EventScript_IslandSign {
 }
 
 script ThreeIsland_EventScript_LittleBoy {
+    msgbox(ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame, MSGBOX_NPC)
     end
 }
 
 script ThreeIsland_EventScript_Woman {
+    msgbox(ThreeIsland_Text_WouldntWantToSeeBikersHereAgain, MSGBOX_NPC)
     end
 }
 
 
 text ThreeIsland_Text_IslandSign {
     format("THREE ISLAND Kin Island of Family Bonding")
+}
+
+text ThreeIsland_Text_IslandBelongsToUs {
+    format("Hyahoo!\pFrom this day on, this island\nbelongs to us!$")
+}
+
+text ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame {
+    format("I'm going to train my DODUO in the\nBERRY FOREST.\pWhen it evolves, I'm going to play\na game on TWO ISLAND.$")
+}
+
+text ThreeIsland_Text_WouldntWantToSeeBikersHereAgain {
+    format("THREE ISLAND is actually the most\npopulous of the islands here.\pStill, it could be less sleepy.\pBut I wouldn't want to see goons\nlike those BIKERS here again.$")
 }

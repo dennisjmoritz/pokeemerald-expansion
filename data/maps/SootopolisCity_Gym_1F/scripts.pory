@@ -23,3 +23,26 @@ script SootopolisCity_Gym_1F_EventScript_RightGymStatue {
     end
 }
 
+text SootopolisCity_Gym_1F_Text_GymGuidePostVictory {
+    format("Yow! You've beaten even JUAN, who\nwas supposedly the best in all HOENN!\pOkay! Check out your TRAINER CARD.\pIf you've gotten all the BADGES, you're\nset for the POKéMON LEAGUE challenge!$")
+}
+
+text SootopolisCity_Gym_1F_Text_ExplainWaterPulse {
+    format("The TECHNICAL MACHINE I handed you\ncontains WATER PULSE.\pIn use, it will occasionally confuse\nthe target with ultrasonic waves.\p… … … … … …$")
+}
+
+text SootopolisCity_Gym_1F_Text_GymStatue {
+    format("SOOTOPOLIS CITY POKéMON GYM$")
+}
+
+text SootopolisCity_Gym_1F_Text_GymStatueCertified {
+    format("SOOTOPOLIS CITY POKéMON GYM\pJUAN'S CERTIFIED TRAINERS:\n{PLAYER}$")
+}
+
+text SootopolisCity_Gym_1F_Text_GoGetFortreeBadge {
+    format("There remains but one BADGE to\nobtain in HOENN.\pIf you wish to challenge the POKéMON\nLEAGUE, you must obtain the last\lBADGE from the GYM in FORTREE.$")
+}
+
+text SootopolisCity_Gym_1F_Text_JuanPostRematch {
+    format("JUAN: If I told you to become my\napprentice, you will refuse, I am sure.\pI would like to make a gift of my coat\nto you.\pBut again, you will refuse.\nI imagine that to be so.\pAnd that, my friend, is a certain sign\nof nobility!$")
+}

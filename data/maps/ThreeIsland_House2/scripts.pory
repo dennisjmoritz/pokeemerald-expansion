@@ -6,6 +6,11 @@ script ThreeIsland_House2_EventScript_Man {
 }
 
 script ThreeIsland_House2_EventScript_Rocker {
+    msgbox(ThreeIsland_House2_Text_CantMakeThisSpoonBend, MSGBOX_NPC)
     end
 }
 
+
+text ThreeIsland_House2_Text_CantMakeThisSpoonBend {
+    format("Urrrrrrrrgggghhhh…\nKwaaaaah!\p…It's useless! I can't make this\nspoon bend with my mind.\pMaybe I really don't have any\npsychic powers.$")
+}

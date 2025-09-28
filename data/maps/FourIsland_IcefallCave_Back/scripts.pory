@@ -2,6 +2,7 @@ mapscripts FourIsland_IcefallCave_Back_MapScripts {
 }
 
 script FourIsland_IcefallCave_Back_EventScript_Lorelei {
+    msgbox(FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful, MSGBOX_NPC)
     end
 }
 
@@ -9,3 +10,7 @@ script FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene {
     end
 }
 
+
+text FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful {
+    format("{PLAYER}, thank you.\nBut this is awful…\pI was born and raised here on\nthese islands.\pI had no idea that those horrible\ncriminals were loose here…$")
+}

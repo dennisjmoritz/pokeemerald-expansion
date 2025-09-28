@@ -2,10 +2,19 @@ mapscripts Route119_House_MapScripts {
 }
 
 script Route119_House_EventScript_Wingull {
+    msgbox(Route119_House_Text_Wingull, MSGBOX_DEFAULT)
     end
 }
 
 script Route119_House_EventScript_Woman {
+    msgbox(Route119_House_Text_RumorAboutCaveOfOrigin, MSGBOX_NPC)
     end
 }
 
+text Route119_House_Text_Wingull {
+    format("WINGULL: Pihyoh!$")
+}
+
+text Route119_House_Text_RumorAboutCaveOfOrigin {
+    format("I heard about a cave called the CAVE\nOF ORIGIN.\pPeople rumor that the spirits of\nPOKéMON are revived there. Could\lsomething like that really happen?$")
+}

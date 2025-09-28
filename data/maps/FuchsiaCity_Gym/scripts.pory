@@ -54,73 +54,73 @@ text FuchsiaCity_Gym_Text_GymStatue {
 
 
 text FuchsiaCity_Gym_Text_EdgarDefeat {
-    "Placeholder text for FuchsiaCity_Gym_Text_EdgarDefeat"
+    format("Placeholder text for FuchsiaCity_Gym_Text_EdgarDefeat")
 }
 
 text FuchsiaCity_Gym_Text_EdgarIntro {
-    "Placeholder text for FuchsiaCity_Gym_Text_EdgarIntro"
+    format("Placeholder text for FuchsiaCity_Gym_Text_EdgarIntro")
 }
 
 text FuchsiaCity_Gym_Text_EdgarPostBattle {
-    "Placeholder text for FuchsiaCity_Gym_Text_EdgarPostBattle"
+    format("Placeholder text for FuchsiaCity_Gym_Text_EdgarPostBattle")
 }
 
 text FuchsiaCity_Gym_Text_KaydenDefeat {
-    "Placeholder text for FuchsiaCity_Gym_Text_KaydenDefeat"
+    format("Placeholder text for FuchsiaCity_Gym_Text_KaydenDefeat")
 }
 
 text FuchsiaCity_Gym_Text_KaydenIntro {
-    "Placeholder text for FuchsiaCity_Gym_Text_KaydenIntro"
+    format("Placeholder text for FuchsiaCity_Gym_Text_KaydenIntro")
 }
 
 text FuchsiaCity_Gym_Text_KaydenPostBattle {
-    "Placeholder text for FuchsiaCity_Gym_Text_KaydenPostBattle"
+    format("Placeholder text for FuchsiaCity_Gym_Text_KaydenPostBattle")
 }
 
 text FuchsiaCity_Gym_Text_KirkDefeat {
-    "Placeholder text for FuchsiaCity_Gym_Text_KirkDefeat"
+    format("Placeholder text for FuchsiaCity_Gym_Text_KirkDefeat")
 }
 
 text FuchsiaCity_Gym_Text_KirkIntro {
-    "Placeholder text for FuchsiaCity_Gym_Text_KirkIntro"
+    format("Placeholder text for FuchsiaCity_Gym_Text_KirkIntro")
 }
 
 text FuchsiaCity_Gym_Text_KirkPostBattle {
-    "Placeholder text for FuchsiaCity_Gym_Text_KirkPostBattle"
+    format("Placeholder text for FuchsiaCity_Gym_Text_KirkPostBattle")
 }
 
 text FuchsiaCity_Gym_Text_NateDefeat {
-    "Placeholder text for FuchsiaCity_Gym_Text_NateDefeat"
+    format("Placeholder text for FuchsiaCity_Gym_Text_NateDefeat")
 }
 
 text FuchsiaCity_Gym_Text_NateIntro {
-    "Placeholder text for FuchsiaCity_Gym_Text_NateIntro"
+    format("Placeholder text for FuchsiaCity_Gym_Text_NateIntro")
 }
 
 text FuchsiaCity_Gym_Text_NatePostBattle {
-    "Placeholder text for FuchsiaCity_Gym_Text_NatePostBattle"
+    format("Placeholder text for FuchsiaCity_Gym_Text_NatePostBattle")
 }
 
 text FuchsiaCity_Gym_Text_PhilDefeat {
-    "Placeholder text for FuchsiaCity_Gym_Text_PhilDefeat"
+    format("Placeholder text for FuchsiaCity_Gym_Text_PhilDefeat")
 }
 
 text FuchsiaCity_Gym_Text_PhilIntro {
-    "Placeholder text for FuchsiaCity_Gym_Text_PhilIntro"
+    format("Placeholder text for FuchsiaCity_Gym_Text_PhilIntro")
 }
 
 text FuchsiaCity_Gym_Text_PhilPostBattle {
-    "Placeholder text for FuchsiaCity_Gym_Text_PhilPostBattle"
+    format("Placeholder text for FuchsiaCity_Gym_Text_PhilPostBattle")
 }
 
 text FuchsiaCity_Gym_Text_ShawnDefeat {
-    "Placeholder text for FuchsiaCity_Gym_Text_ShawnDefeat"
+    format("Placeholder text for FuchsiaCity_Gym_Text_ShawnDefeat")
 }
 
 text FuchsiaCity_Gym_Text_ShawnIntro {
-    "Placeholder text for FuchsiaCity_Gym_Text_ShawnIntro"
+    format("Placeholder text for FuchsiaCity_Gym_Text_ShawnIntro")
 }
 
 text FuchsiaCity_Gym_Text_ShawnPostBattle {
-    "Placeholder text for FuchsiaCity_Gym_Text_ShawnPostBattle"
+    format("Placeholder text for FuchsiaCity_Gym_Text_ShawnPostBattle")
 }

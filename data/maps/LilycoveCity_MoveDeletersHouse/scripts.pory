@@ -2,6 +2,30 @@ mapscripts LilycoveCity_MoveDeletersHouse_MapScripts {
 }
 
 script LilycoveCity_MoveDeletersHouse_EventScript_MoveDeleter {
+    msgbox(LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove, MSGBOX_YESNO)
     end
 }
 
+text LilycoveCity_MoveDeletersHouse_Text_EggCantForgetMoves {
+    format("What?\nNo EGG should know any moves.$")
+}
+
+text LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove {
+    format("Uh…\nOh, yes, I'm the MOVE DELETER.\pI can make POKéMON forget their moves.\pWould you like me to do that?$")
+}
+
+text LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget {
+    format("Which POKéMON should forget a move?$")
+}
+
+text LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove {
+    format("{STR_VAR_1} knows only one move\nso it can't be forgotten…$")
+}
+
+text LilycoveCity_MoveDeletersHouse_Text_CantForgetSurf {
+    format("Hm!\pYour {STR_VAR_1} doesn't seem willing\nto forget SURF.$")
+}
+
+text LilycoveCity_MoveDeletersHouse_Text_ComeAgain {
+    format("Come again if there are moves that\nneed to be forgotten.$")
+}

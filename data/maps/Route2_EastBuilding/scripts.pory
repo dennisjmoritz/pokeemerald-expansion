@@ -6,6 +6,11 @@ script Route2_EastBuilding_EventScript_Aide {
 }
 
 script Route2_EastBuilding_EventScript_Rocker {
+    msgbox(Route2_EastBuilding_Text_CanGetThroughRockTunnel, MSGBOX_NPC)
     end
 }
 
+
+text Route2_EastBuilding_Text_CanGetThroughRockTunnel {
+    format("Once a POKéMON learns FLASH, you\ncan get through ROCK TUNNEL.$")
+}

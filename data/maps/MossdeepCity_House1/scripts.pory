@@ -2,10 +2,23 @@ mapscripts MossdeepCity_House1_MapScripts {
 }
 
 script MossdeepCity_House1_EventScript_BlackBelt {
+    msgbox(MossdeepCity_House1_Text_HmmYourPokemon, MSGBOX_DEFAULT)
     end
 }
 
 script MossdeepCity_House1_EventScript_Woman {
+    msgbox(MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes, MSGBOX_NPC)
     end
 }
 
+text MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks {
+    format("It doesn't appear to like or dislike\nany {POKEBLOCK}S.$")
+}
+
+text MossdeepCity_House1_Text_HmmYourPokemon {
+    format("Hmm!\nYour {STR_VAR_1}…$")
+}
+
+text MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes {
+    format("My husband can tell what kind of\n{POKEBLOCK}S a POKéMON likes at a glance.$")
+}

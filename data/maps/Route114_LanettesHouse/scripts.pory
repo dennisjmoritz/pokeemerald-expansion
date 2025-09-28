@@ -31,3 +31,15 @@ text Route114_LanettesHouse_Text_EmailFromBill {
 text Route114_LanettesHouse_Text_ResearchNotesPage1 {
     format("It's LANETTE's research notes. There's information about BOXES.\p Design BOXES to hold 30 POKéMON each.\p Each TRAINER should be able to store 420 POKéMON on the PC system.\p Keep reading?")
 }
+
+text Route114_LanettesHouse_Text_ResearchNotesPage3 {
+    format("When storing a POKéMON, it should be\nsent to the BOX inspected last.\pIf that BOX is full, the received\nPOKéMON is stored in the next BOX.\pIn other words, when a BOX is examined,\nit is automatically selected as the BOX\lto which POKéMON are sent.$")
+}
+
+text Route114_LanettesHouse_Text_OrganizeYourBoxes {
+    format("May I offer advice about my POKéMON\nStorage System?\pYou should organize your BOXES so you\ncan tell which POKéMON are in them.$")
+}
+
+text Route114_LanettesHouse_Text_ResearchNotesPage2 {
+    format("A marking system should be added to\nmake POKéMON easier to organize.\pThe name and wallpaper design of each\nBOX will be made changeable to please\lthe stored POKéMON.\pKeep reading?$")
+}

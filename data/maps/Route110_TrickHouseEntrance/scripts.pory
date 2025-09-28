@@ -1,2 +1,82 @@
 mapscripts Route110_TrickHouseEntrance_MapScripts {
 }
+
+text Route110_TrickHouseEntrance_Text_ConcealedBehindWindow {
+    format("Hah? Grrr…\pHow did you know I concealed myself\nbehind this window? You're sharp!$")
+}
+
+text Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion {
+    format("Hah? Grrr…\pHow did you know I concealed myself\nbeneath this cushion? You're sharp!$")
+}
+
+text Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote {
+    format("There is a note affixed to the scroll…\p“I am leaving on a journey.\nDon't look for me. TRICK MASTER”$")
+}
+
+text Route110_TrickHouseEntrance_Text_ConcealedInDresser {
+    format("Hah? Grrr…\pHow did you know I concealed myself\nin this dresser? You're sharp!$")
+}
+
+text Route110_TrickHouseEntrance_Text_YoureBeingWatched {
+    format("You're being watched…$")
+}
+
+text Route110_TrickHouseEntrance_Text_MechadollWhichTent {
+    format("MECHADOLL 5 I AM!\nIF REWARD IS NOT TAKEN BY YOU,\lTHEN TRICK MASTER YOU CANNOT FOLLOW.\pRED TENT OR BLUE TENT,\nWHICH DO YOU PREFER?$")
+}
+
+text Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll {
+    format("There is a big hole behind the scroll!\pWant to go in?$")
+}
+
+text Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward {
+    format("Ah, it's you! You're here to accept the\nreward from before, isn't that right?\lYes, right I am!\pHere!\nI'll give it to you now!$")
+}
+
+text Route110_TrickHouseEntrance_Text_ConealedBeyondWindow {
+    format("Hah? Grrr…\pHow did you know I concealed myself\nbeyond this window? You're sharp!$")
+}
+
+text Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster {
+    format("Behold!\pFor I am the greatest living mystery\nof a man in all of HOENN!\lThey call me…\pThe TRICK MASTER!\nWahahaha! Glad to meet you!$")
+}
+
+text Route110_TrickHouseEntrance_Text_ThenFarewell {
+    format("THEN FAREWELL.$")
+}
+
+text Route110_TrickHouseEntrance_Text_ConcealedInCupboard {
+    format("Hah? Grrr…\pHow did you know I concealed myself\nin this cupboard? You're sharp!$")
+}
+
+text Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick {
+    format("For the next time, I'll use this trick,\nand that scheme, and those ruses…\pMufufufu… If I may say so, it's\nbrilliantly difficult, even for me!$")
+}
+
+text Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk {
+    format("Hah? Grrr…\pHow did you know I concealed myself\nbeneath this desk? You're sharp!$")
+}
+
+text Route110_TrickHouseEntrance_Text_ConcealedInPlanter {
+    format("Hah? Grrr…\pHow did you know I concealed myself\nin this planter? You're sharp!$")
+}
+
+text Route110_TrickHouseEntrance_Text_ConcealedBehindTree {
+    format("Hah? Grrr…\pHow did you know I concealed myself\nbehind this tree? You're sharp!$")
+}
+
+text Route110_TrickHouseEntrance_Text_ItsAScroll {
+    format("It's a scroll.$")
+}
+
+text Route110_TrickHousePuzzle_Text_MemorizedSecretCode {
+    format("{PLAYER} memorized the secret code\nwritten on the scroll.$")
+}
+
+text Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt {
+    format("A secret code is written on it.$")
+}
+
+text Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere {
+    format("The door is locked.\p…On closer inspection, this is written\non it: “Write the secret code here.”$")
+}

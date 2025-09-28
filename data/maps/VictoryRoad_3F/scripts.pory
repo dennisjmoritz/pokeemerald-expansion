@@ -34,59 +34,68 @@ script VictoryRoad_3F_EventScript_ItemTM50 {
 }
 
 script VictoryRoad_3F_EventScript_Ray {
+    msgbox(VictoryRoad_3F_Text_RayPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
 script VictoryRoad_3F_EventScript_Tyra {
+    msgbox(VictoryRoad_3F_Text_TyraPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
 
 
 text VictoryRoad_3F_Text_AlexaDefeat {
-    "Placeholder text for VictoryRoad_3F_Text_AlexaDefeat"
+    format("Placeholder text for VictoryRoad_3F_Text_AlexaDefeat")
 }
 
 text VictoryRoad_3F_Text_AlexaIntro {
-    "Placeholder text for VictoryRoad_3F_Text_AlexaIntro"
+    format("Placeholder text for VictoryRoad_3F_Text_AlexaIntro")
 }
 
 text VictoryRoad_3F_Text_AlexaPostBattle {
-    "Placeholder text for VictoryRoad_3F_Text_AlexaPostBattle"
+    format("Placeholder text for VictoryRoad_3F_Text_AlexaPostBattle")
 }
 
 text VictoryRoad_3F_Text_CarolineDefeat {
-    "Placeholder text for VictoryRoad_3F_Text_CarolineDefeat"
+    format("Placeholder text for VictoryRoad_3F_Text_CarolineDefeat")
 }
 
 text VictoryRoad_3F_Text_CarolineIntro {
-    "Placeholder text for VictoryRoad_3F_Text_CarolineIntro"
+    format("Placeholder text for VictoryRoad_3F_Text_CarolineIntro")
 }
 
 text VictoryRoad_3F_Text_CarolinePostBattle {
-    "Placeholder text for VictoryRoad_3F_Text_CarolinePostBattle"
+    format("Placeholder text for VictoryRoad_3F_Text_CarolinePostBattle")
 }
 
 text VictoryRoad_3F_Text_ColbyDefeat {
-    "Placeholder text for VictoryRoad_3F_Text_ColbyDefeat"
+    format("Placeholder text for VictoryRoad_3F_Text_ColbyDefeat")
 }
 
 text VictoryRoad_3F_Text_ColbyIntro {
-    "Placeholder text for VictoryRoad_3F_Text_ColbyIntro"
+    format("Placeholder text for VictoryRoad_3F_Text_ColbyIntro")
 }
 
 text VictoryRoad_3F_Text_ColbyPostBattle {
-    "Placeholder text for VictoryRoad_3F_Text_ColbyPostBattle"
+    format("Placeholder text for VictoryRoad_3F_Text_ColbyPostBattle")
 }
 
 text VictoryRoad_3F_Text_GeorgeDefeat {
-    "Placeholder text for VictoryRoad_3F_Text_GeorgeDefeat"
+    format("Placeholder text for VictoryRoad_3F_Text_GeorgeDefeat")
 }
 
 text VictoryRoad_3F_Text_GeorgeIntro {
-    "Placeholder text for VictoryRoad_3F_Text_GeorgeIntro"
+    format("Placeholder text for VictoryRoad_3F_Text_GeorgeIntro")
 }
 
 text VictoryRoad_3F_Text_GeorgePostBattle {
-    "Placeholder text for VictoryRoad_3F_Text_GeorgePostBattle"
+    format("Placeholder text for VictoryRoad_3F_Text_GeorgePostBattle")
+}
+text VictoryRoad_3F_Text_RayPostBattle {
+    format("RAY: You've beaten us.\nGreatness remains elusive…$")
+}
+
+text VictoryRoad_3F_Text_TyraPostBattle {
+    format("TYRA: You've taught me that power\ncan be infinite in shape and form.$")
 }

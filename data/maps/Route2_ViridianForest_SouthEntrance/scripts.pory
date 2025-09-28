@@ -2,10 +2,20 @@ mapscripts Route2_ViridianForest_SouthEntrance_MapScripts {
 }
 
 script Route2_ViridianForest_SouthEntrance_EventScript_Woman1 {
+    msgbox(Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze, MSGBOX_NPC)
     end
 }
 
 script Route2_ViridianForest_SouthEntrance_EventScript_Woman2 {
+    msgbox(Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite, MSGBOX_NPC)
     end
 }
 
+
+text Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze {
+    format("Are you going to VIRIDIAN FOREST?\nIt's a natural maze in there.\lBe careful you don't get lost.$")
+}
+
+text Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite {
+    format("RATTATA may be small, but don't\nunderestimate its wicked bite.\pHave you caught one already?$")
+}

@@ -2,18 +2,22 @@ mapscripts LilycoveCity_MapScripts {
 }
 
 script LilycoveCity_EventScript_AquaGrunt1 {
+    msgbox(LilycoveCity_Text_MovedLootIntoHideoutToday, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_EventScript_AquaGrunt2 {
+    msgbox(LilycoveCity_Text_ChanceToDoBigThings, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_EventScript_AquaGrunt3 {
+    msgbox(LilycoveCity_Text_DontGoNearCaveInCove, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_EventScript_AquaGrunt4 {
+    msgbox(LilycoveCity_Text_IfWorldBecomesOurs, MSGBOX_NPC)
     end
 }
 
@@ -37,10 +41,12 @@ script LilycoveCity_EventScript_DepartmentStoreSign {
 }
 
 script LilycoveCity_EventScript_ExpertF {
+    msgbox(LilycoveCity_Text_SixtyYearsAgoHusbandProposed, MSGBOX_SIGN)
     end
 }
 
 script LilycoveCity_EventScript_ExpertM1 {
+    msgbox(LilycoveCity_Text_SeaRemainsForeverYoung, MSGBOX_SIGN)
     end
 }
 
@@ -49,6 +55,7 @@ script LilycoveCity_EventScript_ExpertM2 {
 }
 
 script LilycoveCity_EventScript_FatMan {
+    msgbox(LilycoveCity_Text_SawTallTowerOnRoute131, MSGBOX_NPC)
     end
 }
 
@@ -59,20 +66,23 @@ script LilycoveCity_EventScript_Girl {
 script LilycoveCity_EventScript_HarborSign {
     // lockall
     // goto_if_set FLAG_SYS_GAME_CLEAR, LilycoveCity_EventScript_HarborSignFerryReady
-    msgbox(LilycoveCity_Text_HarborSignUnderConstruction, MSGBOX_DEFAULT)
+    msgbox(LilycoveCity_Text_HarborSignUnderConstruction, MSGBOX_SIGN)
     // releaseall
     end
 }
 
 script LilycoveCity_EventScript_Man1 {
+    msgbox(LilycoveCity_Text_JustArrivedAndSawRarePokemon, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_EventScript_Man2 {
+    msgbox(LilycoveCity_Text_ImArtDealer, MSGBOX_NPC)
     end
 }
 
 script LilycoveCity_EventScript_Man3 {
+    msgbox(LilycoveCity_Text_ContestHallInTown, MSGBOX_NPC)
     end
 }
 
@@ -91,12 +101,13 @@ script LilycoveCity_EventScript_MuseumSign {
     // specialvar VAR_0x8004, CountPlayerMuseumPaintings
     // switch VAR_0x8004
     // case 0, LilycoveCity_EventScript_MuseumSignNoPaintings
-    msgbox(LilycoveCity_Text_MuseumSignPlayersExhibit, MSGBOX_DEFAULT)
+    msgbox(LilycoveCity_Text_MuseumSignPlayersExhibit, MSGBOX_SIGN)
     // releaseall
     end
 }
 
 script LilycoveCity_EventScript_RichBoy {
+    msgbox(LilycoveCity_Text_ImFromKanto, MSGBOX_NPC)
     end
 }
 
@@ -105,6 +116,7 @@ script LilycoveCity_EventScript_Rival {
 }
 
 script LilycoveCity_EventScript_Sailor1 {
+    msgbox(LilycoveCity_Text_HeardTowerCalledSkyPillar, MSGBOX_NPC)
     end
 }
 
@@ -113,6 +125,7 @@ script LilycoveCity_EventScript_Sailor2 {
 }
 
 script LilycoveCity_EventScript_SchoolKidM {
+    msgbox(LilycoveCity_Text_DoYouKnowAboutBerryBlender, MSGBOX_YESNO)
     end
 }
 
@@ -126,6 +139,7 @@ script LilycoveCity_EventScript_WailmerTrainerGrunt {
 }
 
 script LilycoveCity_EventScript_Woman1 {
+    msgbox(LilycoveCity_Text_HoneymoonVowToSeeRarePokemon, MSGBOX_NPC)
     end
 }
 
@@ -164,4 +178,144 @@ text LilycoveCity_Text_TrainerFanClubSign {
 
 text LilycoveCity_Text_ContestHallSign {
     format("POKéMON CONTEST HALL “The gathering place for TRAINERS!”")
+}
+
+text LilycoveCity_Text_SixtyYearsAgoHusbandProposed {
+    format("It was sixty years ago that my husband\nproposed to me here.\lThe sea remains as beautiful as ever.\pMufufufu mufufufufufu…$")
+}
+
+text LilycoveCity_Text_TeamAquaLotGoneForGood {
+    format("That cave in the cove…\pI didn't notice it right away,\nbut it's completely empty now.\pThat TEAM AQUA lot, they must\nhave gone away for good.$")
+}
+
+text LilycoveCity_Text_ImFromKanto {
+    format("I came from KANTO.\pThe HOENN region is beautiful with\nall its water and verdant nature.\pHunh? Wait a second…\pCould there be rare POKéMON that live\nonly in this area?$")
+}
+
+text LilycoveCity_Text_WailmerLeapOutOfWater {
+    format("There! WAILMER!\nLeap out of the water now!$")
+}
+
+text LilycoveCity_Text_IfWorldBecomesOurs {
+    format("If this whole wide world becomes ours,\nTEAM AQUA's, it will be a happier\lplace for POKéMON, too.$")
+}
+
+text LilycoveCity_Text_BrendanGoingBackToLittleroot {
+    format("BRENDAN: I…\nI plan on going home to LITTLEROOT.\pYou know I'm helping out my dad on his\nPOKéDEX. It's coming together pretty\ldecently, so I should go show him.$")
+}
+
+text LilycoveCity_Text_BrendanShoppingLetsBattle {
+    format("BRENDAN: Oh, hey, it's {PLAYER}.\pI'm running an errand for my dad.\nNo, I'm not buying any DOLLS.\pAnyways, it's been a while.\pWant to have a battle to see who's been\nraising POKéMON better?$")
+}
+
+text LilycoveCity_Text_MuseumSign {
+    format("LILYCOVE MUSEUM\p“POKéMON Masterpiece Collection\non exhibit!”$")
+}
+
+text LilycoveCity_Text_DoYouKnowAboutBerryBlender {
+    format("Do you know about the machine\nBERRY BLENDER?$")
+}
+
+text LilycoveCity_Text_MayNotRaisingPokemon {
+    format("MAY: Oh, why? {PLAYER}{KUN}, haven't you\nbeen raising your POKéMON?\pThat's not a very good showing as a\nTRAINER…$")
+}
+
+text LilycoveCity_Text_BrendanNoConfidence {
+    format("BRENDAN: Oh, what's the matter?\nDon't have the confidence?$")
+}
+
+text LilycoveCity_Text_ExplainBerryBlender {
+    format("It's used for making a kind of candy\ncalled a {POKEBLOCK}.\pIf you give a good {POKEBLOCK} to a POKéMON,\nits condition will improve by a lot.$")
+}
+
+text LilycoveCity_Text_SomeonePuntedTeamAquaOut {
+    format("Ahoy, did you know?\pSomeone punted TEAM AQUA out of\nthe way for us!\pThat got the WAILMER out of the cove,\nso we can get our boats out again.$")
+}
+
+text LilycoveCity_Text_JustArrivedAndSawRarePokemon {
+    format("We just arrived here on our\nhoneymoon vacation.\pWe happened to see a DRAGON-type\nPOKéMON flying way up in the sky.\pDo cool POKéMON like that live in\nthe HOENN region?$")
+}
+
+text LilycoveCity_Text_MayYouGoingToBattleFrontier {
+    format("{PLAYER}{KUN}, what are you going to do?\pAre you taking the BATTLE FRONTIER\nchallenge?\pOr, are you going to complete your\nPOKéDEX?\pI might've lost to you in battling,\nbut I'll finish my POKéDEX before you!\pSee you!$")
+}
+
+text LilycoveCity_Text_ContestHallInTown {
+    format("There's a POKéMON CONTEST HALL\nright in this here town. \pThat means well-raised POKéMON will\ncome from all over the country.\pMy heart swells with excitement!$")
+}
+
+text LilycoveCity_Text_MissingPokemonCameBack {
+    format("My missing POKéMON…\nIt came back without me noticing!$")
+}
+
+text LilycoveCity_Text_SeaRemainsForeverYoung {
+    format("Even as we grow old and wrinkled,\nthe sea remains forever young with\lthe vivid brilliance of life…\pFwohoho fwohohohoho…$")
+}
+
+text LilycoveCity_Text_GoingToMoveDeleterForHMs {
+    format("I'm going to teach my POKéMON some new\nmoves for entering a CONTEST.\pSo, I'm going to see the MOVE DELETER\nand make it forget HM moves.$")
+}
+
+text LilycoveCity_Text_DontGoNearCaveInCove {
+    format("Hey, you!\pDon't go near the cave in the cove!\pWhy? You don't need a reason why!\nI'm an adult, so you just listen to me!$")
+}
+
+text LilycoveCity_Text_ImArtDealer {
+    format("I'm an ART DEALER.\pI am a buyer and seller of fine art,\nespecially paintings.\pI've heard that the MUSEUM here has\nmagnificent works on exhibit…$")
+}
+
+text LilycoveCity_Text_BrendanBattleMe {
+    format("BRENDAN: Want to battle to see who's\nbeen raising POKéMON better?$")
+}
+
+text LilycoveCity_Text_SawTallTowerOnRoute131 {
+    format("I saw this tall tower somewhere\naround ROUTE 131.\pCould that possibly be…?$")
+}
+
+text LilycoveCity_Text_MayShoppingLetsBattle {
+    format("MAY: Oh, hey?\n{PLAYER}{KUN}, are you shopping, too?\pI bought a whole bunch of DOLLS and\nPOSTERS.\pOf course, I've also caught a lot of\nPOKéMON, and I'm raising them\lproperly, too.\pActually, I'm more worried if you're\nraising POKéMON properly, {PLAYER}{KUN}.\pI'll battle with you, so you can show\nme your POKéMON, {PLAYER}{KUN}.$")
+}
+
+text LilycoveCity_Text_HeardTowerCalledSkyPillar {
+    format("I heard there's a tower somewhere out\non the sea routes.\pIt's called the SKY PILLAR, I hear.$")
+}
+
+text LilycoveCity_Text_MayBattleMe {
+    format("MAY: Come on, battle with me, so I can\ncheck out your POKéMON!$")
+}
+
+text LilycoveCity_Text_BrendanYouGoingToBattleFrontier {
+    format("{PLAYER}, what are you going to do?\pAre you taking the BATTLE FRONTIER\nchallenge?\pOr, are you going to complete your\nPOKéDEX?\pSince you're that strong, you should\nconsider the BATTLE FRONTIER.\pHeh, if I train my POKéMON a bit more,\nI'll get stronger than you, {PLAYER}.\pMaybe I should go to the BATTLE\nFRONTIER.\pWell, anyway, hang in there!$")
+}
+
+text LilycoveCity_Text_HarborSign {
+    format("LILYCOVE CITY HARBOR\p“Enjoy a delightful cruise on\nthe ferry S.S. TIDAL.”$")
+}
+
+text LilycoveCity_Text_MayYouGoingToCollectBadges {
+    format("{PLAYER}{KUN}, what are you going to do?\pCollect all the GYM BADGES and take\nthe POKéMON LEAGUE challenge?\pWell, while you're collecting BADGES,\n{PLAYER}{KUN}, I'm going to work on my\lPOKéDEX. I'll complete it before you!\pSee you!$")
+}
+
+text LilycoveCity_Text_HoneymoonVowToSeeRarePokemon {
+    format("On our honeymoon, we vowed to see as\nmany rare POKéMON as we can.\pSo we were delighted to see a rare\nPOKéMON as soon as we arrived.\pI mean, we are totally happy!$")
+}
+
+text LilycoveCity_Text_BrendanYouGoingToCollectBadges {
+    format("{PLAYER}, what are you going to do?\pCollect all the GYM BADGES and take\nthe POKéMON LEAGUE challenge?\pMaybe I'll do that, too…\pWell, anyway, hang in there!$")
+}
+
+text LilycoveCity_Text_FasterSpinBetterPokeblocks {
+    format("People have to work together to get it\nto spin faster.\pThe faster you can make it spin, the\nbetter {POKEBLOCK}S you can get, I've heard.$")
+}
+
+text LilycoveCity_Text_MovedLootIntoHideoutToday {
+    format("Fufufu…\pWe moved more loot into our secret\nHIDEOUT today…\pWh-who are you?!\nI was just talking to myself!$")
+}
+
+text LilycoveCity_Text_ChanceToDoBigThings {
+    format("I'm just a GRUNT, so I don't know what\nthe BOSS is thinking…\pBut being on TEAM AQUA, I know I'll get\nthe chance to do big things!\pWh-who are you?!\nI was just talking to myself!$")
+}
+
+text LilycoveCity_Text_MayGoingBackToLittleroot {
+    format("MAY: I'm thinking of going back to\nLITTLEROOT soon.\pI've caught a decent group of POKéMON,\nand my POKéDEX is coming along, so\lI'm going home to show my dad.$")
 }

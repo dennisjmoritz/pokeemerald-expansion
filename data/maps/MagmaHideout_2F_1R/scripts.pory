@@ -24,49 +24,49 @@ script MagmaHideout_2F_1R_EventScript_Grunt5 {
 
 
 text MagmaHideout_2F_1R_Text_Grunt14Defeat {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt14Defeat"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt14Defeat")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt14Intro {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt14Intro"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt14Intro")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt14PostBattle {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt14PostBattle"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt14PostBattle")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt3Defeat {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt3Defeat"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt3Defeat")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt3Intro {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt3Intro"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt3Intro")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt3PostBattle {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt3PostBattle"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt3PostBattle")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt4Defeat {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt4Defeat"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt4Defeat")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt4Intro {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt4Intro"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt4Intro")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt4PostBattle {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt4PostBattle"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt4PostBattle")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt5Defeat {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt5Defeat"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt5Defeat")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt5Intro {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt5Intro"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt5Intro")
 }
 
 text MagmaHideout_2F_1R_Text_Grunt5PostBattle {
-    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt5PostBattle"
+    format("Placeholder text for MagmaHideout_2F_1R_Text_Grunt5PostBattle")
 }

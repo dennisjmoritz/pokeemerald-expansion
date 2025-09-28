@@ -2,10 +2,47 @@ mapscripts VerdanturfTown_FriendshipRatersHouse_MapScripts {
 }
 
 script VerdanturfTown_FriendshipRatersHouse_EventScript_FriendshipRater {
+    msgbox(VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou, MSGBOX_DEFAULT)
     end
 }
 
 script VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu {
+    msgbox(VerdanturfTown_FriendshipRatersHouse_Text_Pikachu, MSGBOX_DEFAULT)
     end
 }
 
+text VerdanturfTown_FriendshipRatersHouse_Text_VeryWary {
+    format("It's very wary.\nIt has scary viciousness in its eyes.\lIt doesn't like you much at all.$")
+}
+
+text VerdanturfTown_FriendshipRatersHouse_Text_Pikachu {
+    format("PIKACHU: Pika pika!$")
+}
+
+text VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou {
+    format("This is a little hard for me to say…\pYour POKéMON simply detests you.\nDoesn't that make you uncomfortable?$")
+}
+
+text VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou {
+    format("It's getting used to you.\nIt seems to believe in you.$")
+}
+
+text VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou {
+    format("It adores you.\nIt can't possibly love you any more.\lI even feel happy seeing it.$")
+}
+
+text VerdanturfTown_FriendshipRatersHouse_Text_LikesYouQuiteALot {
+    format("It likes you quite a lot.\nIt seems to want to be babied a little.$")
+}
+
+text VerdanturfTown_FriendshipRatersHouse_Text_VeryHappy {
+    format("It seems to be very happy.\nIt obviously likes you a whole lot.$")
+}
+
+text VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou {
+    format("Let me see your POKéMON.\nI'll check to see how much it likes you.\pOh.\nYour POKéMON…$")
+}
+
+text VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou {
+    format("It's not very used to you yet.\nIt neither loves nor hates you.$")
+}

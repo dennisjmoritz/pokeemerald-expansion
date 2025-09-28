@@ -9,13 +9,13 @@ script SixIsland_OutcastIsland_EventScript_Rocket {
 
 
 text SixIsland_OutcastIsland_Text_RocketDefeat {
-    "Placeholder text for SixIsland_OutcastIsland_Text_RocketDefeat"
+    format("Placeholder text for SixIsland_OutcastIsland_Text_RocketDefeat")
 }
 
 text SixIsland_OutcastIsland_Text_RocketIntro {
-    "Placeholder text for SixIsland_OutcastIsland_Text_RocketIntro"
+    format("Placeholder text for SixIsland_OutcastIsland_Text_RocketIntro")
 }
 
 text SixIsland_OutcastIsland_Text_RocketPostBattle {
-    "Placeholder text for SixIsland_OutcastIsland_Text_RocketPostBattle"
+    format("Placeholder text for SixIsland_OutcastIsland_Text_RocketPostBattle")
 }

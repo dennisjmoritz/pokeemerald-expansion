@@ -2,6 +2,7 @@ mapscripts FallarborTown_MapScripts {
 }
 
 script FallarborTown_EventScript_Azurill {
+    msgbox(FallarborTown_Text_Azurill, MSGBOX_DEFAULT)
     end
 }
 
@@ -15,10 +16,12 @@ script FallarborTown_EventScript_ExpertM {
 }
 
 script FallarborTown_EventScript_Gentleman {
+    msgbox(FallarborTown_Text_HaveYouChallengedFlannery, MSGBOX_NPC)
     end
 }
 
 script FallarborTown_EventScript_Girl {
+    msgbox(FallarborTown_Text_MyPreciousAzurill, MSGBOX_NPC)
     end
 }
 
@@ -43,4 +46,20 @@ text FallarborTown_Text_MoveTutorSign {
 
 text FallarborTown_Text_BattleTentSign {
     format("BATTLE TENT FALLARBOR SITE “May the Greatest Teams Gather!”")
+}
+
+text FallarborTown_Text_Azurill {
+    format("AZURILL: Rooreelooo.$")
+}
+
+text FallarborTown_Text_HaveYouChallengedFlannery {
+    format("Have you already challenged FLANNERY,\nthe LEADER of LAVARIDGE GYM?\pThe girl's grandfather was famous.\nHe was one of the ELITE FOUR in the\lPOKéMON LEAGUE at one point.\pIt wouldn't surprise me to see FLANNERY\nbecome a great TRAINER in her own\lright.$")
+}
+
+text FallarborTown_Text_MyPreciousAzurill {
+    format("See! Take a look!\nThis is my precious AZURILL!\pIt's slick and smooth and plushy, too!$")
+}
+
+text FallarborTown_Text_RegionKnownForMeteors {
+    format("This region's been known for meteors\nsince the olden days.\pThey say METEOR FALLS was gouged out\nby a falling meteorite long ago.$")
 }

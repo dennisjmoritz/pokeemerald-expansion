@@ -14,25 +14,25 @@ script SSAnne_B1F_Room1_EventScript_Phillip {
 
 
 text SSAnne_B1F_Room1_Text_BarnyDefeat {
-    "Placeholder text for SSAnne_B1F_Room1_Text_BarnyDefeat"
+    format("Placeholder text for SSAnne_B1F_Room1_Text_BarnyDefeat")
 }
 
 text SSAnne_B1F_Room1_Text_BarnyIntro {
-    "Placeholder text for SSAnne_B1F_Room1_Text_BarnyIntro"
+    format("Placeholder text for SSAnne_B1F_Room1_Text_BarnyIntro")
 }
 
 text SSAnne_B1F_Room1_Text_BarnyPostBattle {
-    "Placeholder text for SSAnne_B1F_Room1_Text_BarnyPostBattle"
+    format("Placeholder text for SSAnne_B1F_Room1_Text_BarnyPostBattle")
 }
 
 text SSAnne_B1F_Room1_Text_PhillipDefeat {
-    "Placeholder text for SSAnne_B1F_Room1_Text_PhillipDefeat"
+    format("Placeholder text for SSAnne_B1F_Room1_Text_PhillipDefeat")
 }
 
 text SSAnne_B1F_Room1_Text_PhillipIntro {
-    "Placeholder text for SSAnne_B1F_Room1_Text_PhillipIntro"
+    format("Placeholder text for SSAnne_B1F_Room1_Text_PhillipIntro")
 }
 
 text SSAnne_B1F_Room1_Text_PhillipPostBattle {
-    "Placeholder text for SSAnne_B1F_Room1_Text_PhillipPostBattle"
+    format("Placeholder text for SSAnne_B1F_Room1_Text_PhillipPostBattle")
 }

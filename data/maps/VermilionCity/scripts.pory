@@ -25,7 +25,7 @@ script VermilionCity_EventScript_FerrySailor {
 script VermilionCity_EventScript_GymSign {
     // lockall
     // famechecker FAMECHECKER_LTSURGE, 0
-    msgbox(VermilionCity_Text_GymSign, MSGBOX_DEFAULT)
+    msgbox(VermilionCity_Text_GymSign, MSGBOX_SIGN)
     // releaseall
     end
 }
@@ -48,6 +48,7 @@ script VermilionCity_EventScript_OldMan1 {
 }
 
 script VermilionCity_EventScript_OldMan2 {
+    msgbox(VermilionCity_Text_BuildingOnThisLand, MSGBOX_NPC)
     end
 }
 
@@ -57,6 +58,7 @@ script VermilionCity_EventScript_PokemonFanClubSign {
 }
 
 script VermilionCity_EventScript_Sailor {
+    msgbox(VermilionCity_Text_SSAnneVisitsOnceAYear, MSGBOX_NPC)
     end
 }
 
@@ -66,6 +68,7 @@ script VermilionCity_EventScript_SnorlaxNotice {
 }
 
 script VermilionCity_EventScript_Woman {
+    msgbox(VermilionCity_Text_GrimerMultipliesInSludge, MSGBOX_NPC)
     end
 }
 
@@ -88,4 +91,16 @@ text VermilionCity_Text_SnorlaxBlockingRoute12 {
 
 text VermilionCity_Text_CitySign {
     format("VERMILION CITY The Port of Exquisite Sunsets")
+}
+
+text VermilionCity_Text_BuildingOnThisLand {
+    format("I'm putting up a building on this\nplot of land. I own it all.\pMy POKéMON is tamping the land\nto lay the foundation.$")
+}
+
+text VermilionCity_Text_SSAnneVisitsOnceAYear {
+    format("The S.S. ANNE is a famous luxury\ncruise ship.\pIt visits VERMILION once a year.$")
+}
+
+text VermilionCity_Text_GrimerMultipliesInSludge {
+    format("We're careful about pollution here.\pWe've heard GRIMER multiplies in\ntoxic sludge.$")
 }

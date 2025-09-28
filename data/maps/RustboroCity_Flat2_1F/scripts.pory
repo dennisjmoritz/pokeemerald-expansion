@@ -2,10 +2,19 @@ mapscripts RustboroCity_Flat2_1F_MapScripts {
 }
 
 script RustboroCity_Flat2_1F_EventScript_OldWoman {
+    msgbox(RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere, MSGBOX_NPC)
     end
 }
 
 script RustboroCity_Flat2_1F_EventScript_Skitty {
+    msgbox(RustboroCity_Flat2_1F_Text_Skitty, MSGBOX_DEFAULT)
     end
 }
 
+text RustboroCity_Flat2_1F_Text_Skitty {
+    format("SKITTY: Gyaaaah!$")
+}
+
+text RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere {
+    format("DEVON CORPORATION's workers live in\nthis building.$")
+}

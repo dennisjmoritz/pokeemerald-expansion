@@ -6,6 +6,14 @@ script SootopolisCity_House1_EventScript_BrickBreakBlackBelt {
 }
 
 script SootopolisCity_House1_EventScript_Kecleon {
+    msgbox(SootopolisCity_House1_Text_Kecleon, MSGBOX_DEFAULT)
     end
 }
 
+text SootopolisCity_House1_Text_Kecleon {
+    format("KECLEON: Puu puhyaah.$")
+}
+
+text SootopolisCity_House1_Text_ExplainBrickBreak {
+    format("TM31 contains BRICK BREAK! It's a move\nso horrible that I can't describe it.$")
+}

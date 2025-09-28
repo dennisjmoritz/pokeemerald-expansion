@@ -12,6 +12,7 @@ script Route113_EventScript_Dillon {
 }
 
 script Route113_EventScript_Gentleman {
+    msgbox(Route113_Text_AshCanBeFashionedIntoGlass, MSGBOX_NPC)
     end
 }
 
@@ -46,6 +47,7 @@ script Route113_EventScript_Madeline {
 }
 
 script Route113_EventScript_NinjaBoy {
+    msgbox(Route113_Text_FunWalkingThroughAsh, MSGBOX_NPC)
     end
 }
 
@@ -65,10 +67,12 @@ script Route113_EventScript_Sophie {
 }
 
 script Route113_EventScript_Tia {
+    msgbox(Route113_Text_TiaPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
 script Route113_EventScript_Tori {
+    msgbox(Route113_Text_ToriPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 
@@ -101,109 +105,125 @@ text Route113_Text_RouteSignFallarbor {
 
 
 text Route113_Text_CobyDefeat {
-    "A… What?"
+    format("A… What?")
 }
 
 text Route113_Text_CobyIntro {
-    "Pfft, with these wings I can\nflick you away!"
+    format("Pfft, with these wings I can flick you away!")
 }
 
 text Route113_Text_CobyPostBattle {
-    "I don't know what to say when I get\nbeaten so easily…"
+    format("I don't know what to say when I get beaten so easily…")
 }
 
 text Route113_Text_DillonDefeat {
-    "You're some kind of strong!"
+    format("You're some kind of strong!")
 }
 
 text Route113_Text_DillonIntro {
-    "The volcano's eruption is proof that\nthe earth is alive."
+    format("The volcano's eruption is proof that the earth is alive.")
 }
 
 text Route113_Text_DillonPostBattle {
-    "Ouch! Owww! I can't see!\nI got ashes in my eyelashes!\pGet it? Ashes and eyelashes?\pOkay, that was bad, sorry…"
+    format("Ouch! Owww! I can't see! I got ashes in my eyelashes!\pGet it? Ashes and eyelashes?\pOkay, that was bad, sorry…")
 }
 
 text Route113_Text_JaylenDefeat {
-    "Peeuuw!\nThat stinks!"
+    format("Peeuuw! That stinks!")
 }
 
 text Route113_Text_JaylenIntro {
-    "Can you guess why it's so cool\naround here?"
+    format("Can you guess why it's so cool around here?")
 }
 
 text Route113_Text_JaylenPostBattle {
-    "The volcanic ash blocks the sun,\nso it doesn't get very warm.\pThat's good for me--I can't stand heat!"
+    format("The volcanic ash blocks the sun, so it doesn't get very warm.\pThat's good for me--I can't stand heat!")
 }
 
 text Route113_Text_LaoDefeat {
-    "With honor I admit defeat!"
+    format("With honor I admit defeat!")
 }
 
 text Route113_Text_LaoIntro {
-    "From out of the ashes I leap! Hiyah!\nI challenge thee!"
+    format("From out of the ashes I leap! Hiyah! I challenge thee!")
 }
 
 text Route113_Text_LaoPostBattle {
-    "I must refine the art of concealment.\nI bid thee farewell."
+    format("I must refine the art of concealment. I bid thee farewell.")
 }
 
 text Route113_Text_LawrenceDefeat {
-    "Ehehe.\nWe got beaten cleanly."
+    format("Ehehe. We got beaten cleanly.")
 }
 
 text Route113_Text_LawrenceIntro {
-    "Were you maybe in the middle\nof gathering volcanic ashes?"
+    format("Were you maybe in the middle of gathering volcanic ashes?")
 }
 
 text Route113_Text_LawrencePostBattle {
-    "I ought to hide under the ashes, too."
+    format("I ought to hide under the ashes, too.")
 }
 
 text Route113_Text_LungDefeat {
-    "I'll use my ninjutsu on you…\n“VOLCANIC ASH SWIRL CLOAK”!\p…What?\nIt's already over?"
+    format("I'll use my ninjutsu on you… “VOLCANIC ASH SWIRL CLOAK”!\p…What? It's already over?")
 }
 
 text Route113_Text_LungIntro {
-    "Thanks for finding me!\nBut we still have to battle!"
+    format("Thanks for finding me! But we still have to battle!")
 }
 
 text Route113_Text_LungPostBattle {
-    "You know what's crummy about hiding?\nIt's lonely if no one comes along."
+    format("You know what's crummy about hiding? It's lonely if no one comes along.")
 }
 
 text Route113_Text_MadelineDefeat {
-    "Huff, huff…\nI am exhausted…"
+    format("Huff, huff… I am exhausted…")
 }
 
 text Route113_Text_MadelineIntro {
-    "I use this parasol to ward off this\nfilthy, yucky volcanic ash from\nmy dear NUMEL."
+    format("I use this parasol to ward off this filthy, yucky volcanic ash from my dear NUMEL.")
 }
 
 text Route113_Text_MadelinePostBattle {
-    "You're very good at this.\nI must say I'm impressed!"
+    format("You're very good at this. I must say I'm impressed!")
 }
 
 text Route113_Text_SophieDefeat {
-    "This is a dream.\nI'm sure of it…"
+    format("This is a dream. I'm sure of it…")
 }
 
 text Route113_Text_SophieIntro {
-    "The warmth here is making me drowsy.\nBattle with me so I can stay awake."
+    format("The warmth here is making me drowsy. Battle with me so I can stay awake.")
 }
 
 text Route113_Text_SophiePostBattle {
-    "Losing burns me up…\nI'm just going to sleep right here!\nZzz!"
+    format("Losing burns me up… I'm just going to sleep right here! Zzz!")
 }
 
 text Route113_Text_WyattDefeat {
-    "Y-you're all happy to win?\nEven though it's only me?"
+    format("Y-you're all happy to win? Even though it's only me?")
 }
 
 text Route113_Text_WyattIntro {
-    "Y-you want to battle with me?\nEven though I just caught my POKéMON?"
+    format("Y-you want to battle with me? Even though I just caught my POKéMON?")
 }
 
 text Route113_Text_WyattPostBattle {
-    "Oh, so now you want to say a word to\nthe loser?\pAren't you just the coolest?\nHumph!"
+    format("Oh, so now you want to say a word to the loser?\pAren't you just the coolest? Humph!")
+}
+
+text Route113_Text_FunWalkingThroughAsh {
+    format("It's fun walking through the volcano's\nashes on the ground and grass.\pYou can see where you walked--it's\nreally neat!$")
+}
+
+text Route113_Text_AshCanBeFashionedIntoGlass {
+    format("Wahahaha! Today's technology is a\nwondrous thing!\pTake this volcanic ash here.\nIt can be fashioned into glass.$")
+}
+
+text Route113_Text_TiaPostBattle {
+    format("TIA: We have a lot of ashes! I think enough for a WHITE FLUTE!")
+}
+
+text Route113_Text_ToriPostBattle {
+    format("TORI: How much ash do we have? Enough for a WHITE FLUTE, I hope.")
 }

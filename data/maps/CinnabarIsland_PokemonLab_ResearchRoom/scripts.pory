@@ -16,6 +16,7 @@ script CinnabarIsland_PokemonLab_ResearchRoom_EventScript_MetronomeTutor {
 }
 
 script CinnabarIsland_PokemonLab_ResearchRoom_EventScript_Scientist {
+    msgbox(CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons, MSGBOX_NPC)
     end
 }
 
@@ -26,4 +27,8 @@ text CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe {
 
 text CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail {
     format("There's an e-mail message.\p … … …\p There are three legendary bird POKéMON.\p They are ARTICUNO, ZAPDOS, and MOLTRES.\p Their whereabouts are unknown.\p We plan to explore the cavern close to CERULEAN.\p From: POKéMON RESEARCH TEAM…")
+}
+
+text CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons {
+    format("EEVEE can evolve into one of three\nkinds of POKéMON.$")
 }

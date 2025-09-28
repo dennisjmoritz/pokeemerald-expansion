@@ -144,37 +144,37 @@ text VermilionCity_Gym_Text_GymStatue {
 
 
 text VermilionCity_Gym_Text_BailyDefeat {
-    "Placeholder text for VermilionCity_Gym_Text_BailyDefeat"
+    format("Placeholder text for VermilionCity_Gym_Text_BailyDefeat")
 }
 
 text VermilionCity_Gym_Text_BailyIntro {
-    "Placeholder text for VermilionCity_Gym_Text_BailyIntro"
+    format("Placeholder text for VermilionCity_Gym_Text_BailyIntro")
 }
 
 text VermilionCity_Gym_Text_BailyPostBattle {
-    "Placeholder text for VermilionCity_Gym_Text_BailyPostBattle"
+    format("Placeholder text for VermilionCity_Gym_Text_BailyPostBattle")
 }
 
 text VermilionCity_Gym_Text_DwayneDefeat {
-    "Placeholder text for VermilionCity_Gym_Text_DwayneDefeat"
+    format("Placeholder text for VermilionCity_Gym_Text_DwayneDefeat")
 }
 
 text VermilionCity_Gym_Text_DwayneIntro {
-    "Placeholder text for VermilionCity_Gym_Text_DwayneIntro"
+    format("Placeholder text for VermilionCity_Gym_Text_DwayneIntro")
 }
 
 text VermilionCity_Gym_Text_DwaynePostBattle {
-    "Placeholder text for VermilionCity_Gym_Text_DwaynePostBattle"
+    format("Placeholder text for VermilionCity_Gym_Text_DwaynePostBattle")
 }
 
 text VermilionCity_Gym_Text_TuckerDefeat {
-    "Placeholder text for VermilionCity_Gym_Text_TuckerDefeat"
+    format("Placeholder text for VermilionCity_Gym_Text_TuckerDefeat")
 }
 
 text VermilionCity_Gym_Text_TuckerIntro {
-    "Placeholder text for VermilionCity_Gym_Text_TuckerIntro"
+    format("Placeholder text for VermilionCity_Gym_Text_TuckerIntro")
 }
 
 text VermilionCity_Gym_Text_TuckerPostBattle {
-    "Placeholder text for VermilionCity_Gym_Text_TuckerPostBattle"
+    format("Placeholder text for VermilionCity_Gym_Text_TuckerPostBattle")
 }

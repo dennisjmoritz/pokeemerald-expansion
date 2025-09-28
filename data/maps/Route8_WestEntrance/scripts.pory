@@ -2,6 +2,7 @@ mapscripts Route8_WestEntrance_MapScripts {
 }
 
 script Route8_WestEntrance_EventScript_Guard {
+    msgbox(Route8_WestEntrance_Text_HiHowsItGoing, MSGBOX_NPC)
     end
 }
 
@@ -17,3 +18,7 @@ script Route8_WestEntrance_EventScript_GuardTriggerTop {
     end
 }
 
+
+text Route8_WestEntrance_Text_HiHowsItGoing {
+    format("Hi, how's it going?$")
+}

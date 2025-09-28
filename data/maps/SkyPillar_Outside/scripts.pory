@@ -5,3 +5,10 @@ script SkyPillar_Outside_EventScript_Wallace {
     end
 }
 
+text SkyPillar_Outside_Text_OpenedDoorToSkyPillar {
+    format("WALLACE: Oh, my, I'm terribly sorry!\pIn my haste, I didn't notice that\nI'd left you behind!\pI've opened the locked door of\nthe SKY PILLAR.\p{PLAYER}{KUN}, let's be on our way!$")
+}
+
+text SkyPillar_Outside_Text_DoorIsClosed {
+    format("The door is closed.$")
+}

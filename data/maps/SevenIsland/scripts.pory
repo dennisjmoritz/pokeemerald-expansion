@@ -7,14 +7,24 @@ script SevenIsland_EventScript_IslandSign {
 }
 
 script SevenIsland_EventScript_OldWoman {
+    msgbox(SevenIsland_Text_IslandsMadeInSevenDays, MSGBOX_NPC)
     end
 }
 
 script SevenIsland_EventScript_Scientist {
+    msgbox(SevenIsland_Text_IslandVirtuallyUntouched, MSGBOX_NPC)
     end
 }
 
 
 text SevenIsland_Text_IslandSign {
     format("SEVEN ISLAND Quest Island of Infinity")
+}
+
+text SevenIsland_Text_IslandsMadeInSevenDays {
+    format("These islands are called the SEVII\nISLANDS because there are seven.\p…Or at least that's what the young\npeople believe.\pThe truth is, these islands are so\nnamed because they are said to\lhave been made in seven days.$")
+}
+
+text SevenIsland_Text_IslandVirtuallyUntouched {
+    format("This island has been left virtually\nuntouched in its natural state.\pIt could be a little difficult to\nhike around because of that.$")
 }

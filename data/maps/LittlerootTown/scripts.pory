@@ -7,6 +7,7 @@ script LittlerootTown_EventScript_BirchsLabSign {
 }
 
 script LittlerootTown_EventScript_Boy {
+    msgbox(LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC)
     end
 }
 
@@ -20,6 +21,7 @@ script LittlerootTown_EventScript_BrendansHouseSign {
 }
 
 script LittlerootTown_EventScript_FatMan {
+    msgbox(LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC)
     end
 }
 
@@ -48,6 +50,7 @@ script LittlerootTown_EventScript_GiveRunningShoesTrigger5 {
 }
 
 script LittlerootTown_EventScript_GoSaveBirchTrigger {
+    msgbox(LittlerootTown_Text_CanYouGoSeeWhatsHappening, MSGBOX_DEFAULT)
     end
 }
 
@@ -88,4 +91,44 @@ text LittlerootTown_Text_ProfBirchsLab {
 
 text LittlerootTown_Text_TownSign {
     format("LITTLEROOT TOWN “A town that can't be shaded any hue.”")
+}
+
+text LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut {
+    format("Um, um, um!\pIf you go outside and go in the grass,\nwild POKéMON will jump out!$")
+}
+
+text LittlerootTown_Text_WearTheseRunningShoes {
+    format("MOM: {PLAYER}! {PLAYER}! Did you\nintroduce yourself to PROF. BIRCH?\pOh! What an adorable POKéMON!\nYou got it from PROF. BIRCH. How nice!\pYou're your father's child, all right.\nYou look good together with POKéMON!\pHere, honey! If you're going out on an\nadventure, wear these RUNNING SHOES.\pThey'll put a zip in your step!$")
+}
+
+text LittlerootTown_Text_BirchSpendsDaysInLab {
+    format("PROF. BIRCH spends days in his LAB\nstudying, then he'll suddenly go out in\lthe wild to do more research…\pWhen does PROF. BIRCH spend time\nat home?$")
+}
+
+text LittlerootTown_Text_YouSavedBirch {
+    format("You saved PROF. BIRCH!\nI'm so glad!$")
+}
+
+text LittlerootTown_Text_CanUsePCToStoreItems {
+    format("If you use a PC, you can store items\nand POKéMON.\pThe power of science is staggering!$")
+}
+
+text LittlerootTown_Text_BirchSomethingToShowYouAtLab {
+    format("PROF. BIRCH: Well, well, {PLAYER}{KUN}!\nThat was good work out there!\pI knew there was something special\nabout you when I first saw you,\lbut I never expected this.\pOh, yes. Do you still have the POKéDEX\nI gave you?\pI have something to show you.\nLet's go to my LAB.$")
+}
+
+text LittlerootTown_Text_GoodLuckCatchingPokemon {
+    format("Are you going to catch POKéMON?\nGood luck!$")
+}
+
+text LittlerootTown_Text_ProfBirchsHouse {
+    format("PROF. BIRCH'S HOUSE$")
+}
+
+text LittlerootTown_Text_PlayersHouse {
+    format("{PLAYER}'s HOUSE$")
+}
+
+text LittlerootTown_Text_CanYouGoSeeWhatsHappening {
+    format("Um, hi!\pThere are scary POKéMON outside!\nI can hear their cries!\pI want to go see what's going on,\nbut I don't have any POKéMON…\pCan you go see what's happening\nfor me?$")
 }

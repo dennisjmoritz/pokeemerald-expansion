@@ -14,3 +14,31 @@ script Route124_DivingTreasureHuntersHouse_EventScript_TreasureHunter {
 text Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard {
     format("{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item {CLEAR_TO 0x0f}RED SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}FIRE STONE{CLEAR_TO 0xc8}\p {CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item {CLEAR_TO 0x06}YELLOW SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}THUNDERSTONE{CLEAR_TO 0xc8}\p {CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item {CLEAR_TO 0x0c}BLUE SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}WATER STONE{CLEAR_TO 0xc8}\p {CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item {CLEAR_TO 0x08}GREEN SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}LEAF STONE")
 }
+
+text Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind {
+    format("No? That's a downer.\nWell, if you change your mind, come back.$")
+}
+
+text Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou {
+    format("Oh, hey! That…\nThat's a SHARD! I'm looking for those!\pOh, man, you've got to trade that\nwith me! I'll give you something good!$")
+}
+
+text Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards {
+    format("Tell me, have you seen any SHARDS of\ntools made in ancient times?$")
+}
+
+text Route124_DivingTreasureHuntersHouse_Text_ItsADeal {
+    format("It's a done deal!\nUse that wisely!$")
+}
+
+text Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone {
+    format("You'll trade your {STR_VAR_1} for\nmy {STR_VAR_2}, then?$")
+}
+
+text Route124_DivingTreasureHuntersHouse_Text_BagFull {
+    format("Whoops, your BAG's full.\nGet rid of some items, friend!$")
+}
+
+text Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards {
+    format("You haven't got any treasures\nfor me…\pIf you see any SHARDS, like the RED\nSHARD, you've got to trade it with me!$")
+}

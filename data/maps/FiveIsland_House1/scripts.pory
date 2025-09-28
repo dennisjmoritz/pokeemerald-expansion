@@ -2,6 +2,11 @@ mapscripts FiveIsland_House1_MapScripts {
 }
 
 script FiveIsland_House1_EventScript_Woman {
+    msgbox(FiveIsland_House1_Text_HusbandWentOffFishing, MSGBOX_NPC)
     end
 }
 
+
+text FiveIsland_House1_Text_HusbandWentOffFishing {
+    format("Don't worry about buying anything\nfor dinner tonight!\p…That's what my husband said when\nhe went off fishing today.\pI'm not sure if I can count on him\nto live up to that promise.$")
+}

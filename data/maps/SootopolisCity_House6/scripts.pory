@@ -5,3 +5,14 @@ script SootopolisCity_House6_EventScript_Woman {
     end
 }
 
+text SootopolisCity_House6_Text_LovePlushDolls {
+    format("I love plush DOLLS!$")
+}
+
+text SootopolisCity_House6_Text_DontWantThisDoll {
+    format("Are you sure?\nYou don't want this DOLL?$")
+}
+
+text SootopolisCity_House6_Text_IllHoldItForYou {
+    format("Oh, you want it, but not right now?\nOkay, then I'll hold it for you.$")
+}

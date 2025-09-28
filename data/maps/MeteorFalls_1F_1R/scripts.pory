@@ -2,6 +2,7 @@ mapscripts MeteorFalls_1F_1R_MapScripts {
 }
 
 script MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene {
+    msgbox(MeteorFalls_1F_1R_Text_WithThisMeteorite, MSGBOX_DEFAULT)
     end
 }
 
@@ -9,3 +10,10 @@ script MeteorFalls_1F_1R_EventScript_ProfCozmo {
     end
 }
 
+text MeteorFalls_1F_1R_Text_WithThisMeteorite {
+    format("Hehehe!\pWith this METEORITE, that thing in\nMT. CHIMNEY will…$")
+}
+
+text MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney {
+    format("PROF. COZMO: But that TEAM MAGMA…\pWhat are they going to do with that\nMETEORITE at MT. CHIMNEY?$")
+}

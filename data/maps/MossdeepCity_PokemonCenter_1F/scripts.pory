@@ -2,6 +2,7 @@ mapscripts MossdeepCity_PokemonCenter_1F_MapScripts {
 }
 
 script MossdeepCity_PokemonCenter_1F_EventScript_Girl {
+    msgbox(MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves, MSGBOX_NPC)
     end
 }
 
@@ -10,6 +11,14 @@ script MossdeepCity_PokemonCenter_1F_EventScript_Nurse {
 }
 
 script MossdeepCity_PokemonCenter_1F_EventScript_Woman {
+    msgbox(MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable, MSGBOX_NPC)
     end
 }
 
+text MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable {
+    format("The GYM LEADERS in this town are\na formidable duo.\pTheir combination attacks are, like,\nexcellent and wow!$")
+}
+
+text MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves {
+    format("Depending on the special abilities of\nPOKéMON, some moves might change\lor not work at all.$")
+}

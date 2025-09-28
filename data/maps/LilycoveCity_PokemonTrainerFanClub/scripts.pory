@@ -37,3 +37,86 @@ script LilycoveCity_PokemonTrainerFanClub_EventScript_Woman {
     end
 }
 
+text LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth {
+    format("Your true worth, it is fine if only\nI recognized it.\pThe others I doubt will understand\nthe hidden power that beats within.$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_YouBattleAttractivelyInToughSituation {
+    format("The tougher the situation, the more\nattractively you battle.\pI can't wait for your next battle!$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_OhWowItsPlayer {
+    format("Oh, wow!\nIt's {PLAYER}!$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_ImInYourCorner {
+    format("Who cares about the others.\nI'm in your corner!\pYou don't need to worry. Just get\nout there and battle like always.$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou {
+    format("I'll always cheer for you, {PLAYER}!\nAlways, always!\pI don't want to see you lose ever,\n{PLAYER}.\pBecause I know you're really,\nreally strong, {PLAYER}!$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling {
+    format("Even when things turned bleak,\nyour father never gave up.\pThis I know to be true.\pYou never give up even if you lose!\nSo keep on battling!$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_WishThereWasTrainerLikeThat {
+    format("My favorite TRAINER is…\pCool…\pStrong…\pAnd really nice…\pI wish there was a TRAINER like that…$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_OthersDontKnowYoureTheBest {
+    format("The others, they don't know that\nyou're the best of the best!\pIsn't that right, {PLAYER}?\nShow them you've got guts!$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsReallyCoolItsJustMe {
+    format("{STR_VAR_1} really is cool, don't\nyou think so?\pEven if it's just me, I'm going to keep\ncheering my favorite TRAINER.$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly {
+    format("Whatever anyone says, my favorite\nTRAINER is DEWFORD's GYM LEADER\lBRAWLY!$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_HearingAboutToughNewTrainer {
+    format("I've been hearing things about\na tough new TRAINER.\pThis TRAINER's supposed to be beating\nGYM LEADERS, even.\pDo you know anything about this\nnew TRAINER?$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_BrawlyNoImYourFan {
+    format("Sigh…\nBRAWLY…\pOh, no! Wait!\nThat's not right! No, no, no!\pI'm your fan through and through!\pSo make me proud!\nGo for it!$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_OnlyOneWhoCheersForYou {
+    format("Even if I'm the only one…\pYou'll always be the only one\nI cheer for, {PLAYER}!\pBecause I believe in you, {PLAYER}!$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan {
+    format("Even if I'm the only one…\pI'm never going to stop being\n{STR_VAR_1}'s fan!\pBecause I've heard, {STR_VAR_1}\nnever loses!$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer {
+    format("Wow, you really are strong.\nMaybe even stronger than {STR_VAR_1}.\pBut {STR_VAR_1} needs me.\pIf I don't cheer for {STR_VAR_1},\nwho will?$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent {
+    format("You're beginning to get the same\nair of awe NORMAN exudes.\pBut there's something conclusively\ndifferent between you and NORMAN.\pI can't tell you what that is.\nYou'll have to find it yourself.$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsBestNoOneWantsToListen {
+    format("Darn it… I've been telling people\nthat {STR_VAR_1} is the best now…\pBut no one wants to listen…$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly {
+    format("Nobody understands the charm of\nBRAWLY…\pI don't care!\pEven if I'm the only one, I'm going\nto keep cheering for BRAWLY!$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers {
+    format("Everyone here, we're all huge fans\nof POKéMON battles.\pWe discuss who we consider to be\nthe strongest of all TRAINERS.\pIf you were to become famous,\nwe might even become your fans!$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_YourePowerfulButNotTrueStrength {
+    format("It is true that you are tremendously\npowerful.\pBut!\nI can tell…\pThat strength cannot be considered\ntrue strength yet!\pTrue strength is…!\n… …\pActually, I have no idea, either.$")
+}
+
+text LilycoveCity_PokemonTrainerFanClub_Text_NoOneCanKnockYouButTrainerStronger {
+    format("You are really popular…\pYou're strong, and you're caring to\nPOKéMON. No one can knock you.\pBut, you know, I believe in {STR_VAR_1}.\p{STR_VAR_1} is definitely stronger!\nI'm positive!$")
+}
