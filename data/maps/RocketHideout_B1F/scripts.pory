@@ -2,22 +2,88 @@ mapscripts RocketHideout_B1F_MapScripts {
 }
 
 script RocketHideout_B1F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_8, RocketHideout_B1F_Text_Grunt1Intro, RocketHideout_B1F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RocketHideout_B1F_Text_Grunt1PostBattle)
 }
 
 script RocketHideout_B1F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_9, RocketHideout_B1F_Text_Grunt2Intro, RocketHideout_B1F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RocketHideout_B1F_Text_Grunt2PostBattle)
 }
 
 script RocketHideout_B1F_EventScript_Grunt3 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_10, RocketHideout_B1F_Text_Grunt3Intro, RocketHideout_B1F_Text_Grunt3Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RocketHideout_B1F_Text_Grunt3PostBattle)
 }
 
 script RocketHideout_B1F_EventScript_Grunt4 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_11, RocketHideout_B1F_Text_Grunt4Intro, RocketHideout_B1F_Text_Grunt4Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RocketHideout_B1F_Text_Grunt4PostBattle)
 }
 
 script RocketHideout_B1F_EventScript_Grunt5 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_12, RocketHideout_B1F_Text_Grunt5Intro, RocketHideout_B1F_Text_Grunt5Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RocketHideout_B1F_Text_Grunt5PostBattle)
 }
 
+
+
+text RocketHideout_B1F_Text_Grunt1Defeat {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt1Defeat"
+}
+
+text RocketHideout_B1F_Text_Grunt1Intro {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt1Intro"
+}
+
+text RocketHideout_B1F_Text_Grunt1PostBattle {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt1PostBattle"
+}
+
+text RocketHideout_B1F_Text_Grunt2Defeat {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt2Defeat"
+}
+
+text RocketHideout_B1F_Text_Grunt2Intro {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt2Intro"
+}
+
+text RocketHideout_B1F_Text_Grunt2PostBattle {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt2PostBattle"
+}
+
+text RocketHideout_B1F_Text_Grunt3Defeat {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt3Defeat"
+}
+
+text RocketHideout_B1F_Text_Grunt3Intro {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt3Intro"
+}
+
+text RocketHideout_B1F_Text_Grunt3PostBattle {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt3PostBattle"
+}
+
+text RocketHideout_B1F_Text_Grunt4Defeat {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt4Defeat"
+}
+
+text RocketHideout_B1F_Text_Grunt4Intro {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt4Intro"
+}
+
+text RocketHideout_B1F_Text_Grunt4PostBattle {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt4PostBattle"
+}
+
+text RocketHideout_B1F_Text_Grunt5Defeat {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt5Defeat"
+}
+
+text RocketHideout_B1F_Text_Grunt5Intro {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt5Intro"
+}
+
+text RocketHideout_B1F_Text_Grunt5PostBattle {
+    "Placeholder text for RocketHideout_B1F_Text_Grunt5PostBattle"
+}

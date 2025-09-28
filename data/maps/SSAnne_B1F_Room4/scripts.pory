@@ -2,10 +2,37 @@ mapscripts SSAnne_B1F_Room4_MapScripts {
 }
 
 script SSAnne_B1F_Room4_EventScript_Duncan {
-    end
+    trainerbattle_double(TRAINER_SAILOR_DUNCAN, SSAnne_B1F_Room4_Text_DuncanIntro, SSAnne_B1F_Room4_Text_DuncanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSAnne_B1F_Room4_Text_DuncanPostBattle)
 }
 
 script SSAnne_B1F_Room4_EventScript_Leonard {
-    end
+    trainerbattle_double(TRAINER_SAILOR_LEONARD, SSAnne_B1F_Room4_Text_LeonardIntro, SSAnne_B1F_Room4_Text_LeonardDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSAnne_B1F_Room4_Text_LeonardPostBattle)
 }
 
+
+
+text SSAnne_B1F_Room4_Text_DuncanDefeat {
+    "Placeholder text for SSAnne_B1F_Room4_Text_DuncanDefeat"
+}
+
+text SSAnne_B1F_Room4_Text_DuncanIntro {
+    "Placeholder text for SSAnne_B1F_Room4_Text_DuncanIntro"
+}
+
+text SSAnne_B1F_Room4_Text_DuncanPostBattle {
+    "Placeholder text for SSAnne_B1F_Room4_Text_DuncanPostBattle"
+}
+
+text SSAnne_B1F_Room4_Text_LeonardDefeat {
+    "Placeholder text for SSAnne_B1F_Room4_Text_LeonardDefeat"
+}
+
+text SSAnne_B1F_Room4_Text_LeonardIntro {
+    "Placeholder text for SSAnne_B1F_Room4_Text_LeonardIntro"
+}
+
+text SSAnne_B1F_Room4_Text_LeonardPostBattle {
+    "Placeholder text for SSAnne_B1F_Room4_Text_LeonardPostBattle"
+}

@@ -2,50 +2,207 @@ mapscripts SixIsland_PatternBush_MapScripts {
 }
 
 script SixIsland_PatternBush_EventScript_Allison {
-    end
+    trainerbattle_double(TRAINER_PKMN_BREEDER_ALLISON, SixIsland_PatternBush_Text_AllisonIntro, SixIsland_PatternBush_Text_AllisonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_AllisonPostBattle)
 }
 
 script SixIsland_PatternBush_EventScript_Bethany {
-    end
+    trainerbattle_double(TRAINER_PKMN_BREEDER_BETHANY, SixIsland_PatternBush_Text_BethanyIntro, SixIsland_PatternBush_Text_BethanyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_BethanyPostBattle)
 }
 
 script SixIsland_PatternBush_EventScript_Cordell {
-    end
+    trainerbattle_double(TRAINER_YOUNGSTER_CORDELL, SixIsland_PatternBush_Text_CordellIntro, SixIsland_PatternBush_Text_CordellDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_CordellPostBattle)
 }
 
 script SixIsland_PatternBush_EventScript_Dalia {
-    end
+    trainerbattle_double(TRAINER_LASS_DALIA, SixIsland_PatternBush_Text_DaliaIntro, SixIsland_PatternBush_Text_DaliaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_DaliaPostBattle)
 }
 
 script SixIsland_PatternBush_EventScript_Garret {
-    end
+    trainerbattle_double(TRAINER_BUG_CATCHER_GARRET, SixIsland_PatternBush_Text_GarretIntro, SixIsland_PatternBush_Text_GarretDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_GarretPostBattle)
 }
 
 script SixIsland_PatternBush_EventScript_Joana {
-    end
+    trainerbattle_double(TRAINER_LASS_JOANA, SixIsland_PatternBush_Text_JoanaIntro, SixIsland_PatternBush_Text_JoanaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_JoanaPostBattle)
 }
 
 script SixIsland_PatternBush_EventScript_Jonah {
-    end
+    trainerbattle_double(TRAINER_BUG_CATCHER_JONAH, SixIsland_PatternBush_Text_JonahIntro, SixIsland_PatternBush_Text_JonahDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_JonahPostBattle)
 }
 
 script SixIsland_PatternBush_EventScript_Layton {
-    end
+    trainerbattle_double(TRAINER_RUIN_MANIAC_LAYTON, SixIsland_PatternBush_Text_LaytonIntro, SixIsland_PatternBush_Text_LaytonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_LaytonPostBattle)
 }
 
 script SixIsland_PatternBush_EventScript_Marcy {
-    end
+    trainerbattle_double(TRAINER_PICNICKER_MARCY, SixIsland_PatternBush_Text_MarcyIntro, SixIsland_PatternBush_Text_MarcyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_MarcyPostBattle)
 }
 
 script SixIsland_PatternBush_EventScript_Nash {
-    end
+    trainerbattle_double(TRAINER_YOUNGSTER_NASH, SixIsland_PatternBush_Text_NashIntro, SixIsland_PatternBush_Text_NashDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_NashPostBattle)
 }
 
 script SixIsland_PatternBush_EventScript_Riley {
-    end
+    trainerbattle_double(TRAINER_CAMPER_RILEY, SixIsland_PatternBush_Text_RileyIntro, SixIsland_PatternBush_Text_RileyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_RileyPostBattle)
 }
 
 script SixIsland_PatternBush_EventScript_Vance {
-    end
+    trainerbattle_double(TRAINER_BUG_CATCHER_VANCE, SixIsland_PatternBush_Text_VanceIntro, SixIsland_PatternBush_Text_VanceDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_PatternBush_Text_VancePostBattle)
 }
 
+
+
+text SixIsland_PatternBush_Text_AllisonDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_AllisonDefeat"
+}
+
+text SixIsland_PatternBush_Text_AllisonIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_AllisonIntro"
+}
+
+text SixIsland_PatternBush_Text_AllisonPostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_AllisonPostBattle"
+}
+
+text SixIsland_PatternBush_Text_BethanyDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_BethanyDefeat"
+}
+
+text SixIsland_PatternBush_Text_BethanyIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_BethanyIntro"
+}
+
+text SixIsland_PatternBush_Text_BethanyPostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_BethanyPostBattle"
+}
+
+text SixIsland_PatternBush_Text_CordellDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_CordellDefeat"
+}
+
+text SixIsland_PatternBush_Text_CordellIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_CordellIntro"
+}
+
+text SixIsland_PatternBush_Text_CordellPostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_CordellPostBattle"
+}
+
+text SixIsland_PatternBush_Text_DaliaDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_DaliaDefeat"
+}
+
+text SixIsland_PatternBush_Text_DaliaIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_DaliaIntro"
+}
+
+text SixIsland_PatternBush_Text_DaliaPostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_DaliaPostBattle"
+}
+
+text SixIsland_PatternBush_Text_GarretDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_GarretDefeat"
+}
+
+text SixIsland_PatternBush_Text_GarretIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_GarretIntro"
+}
+
+text SixIsland_PatternBush_Text_GarretPostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_GarretPostBattle"
+}
+
+text SixIsland_PatternBush_Text_JoanaDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_JoanaDefeat"
+}
+
+text SixIsland_PatternBush_Text_JoanaIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_JoanaIntro"
+}
+
+text SixIsland_PatternBush_Text_JoanaPostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_JoanaPostBattle"
+}
+
+text SixIsland_PatternBush_Text_JonahDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_JonahDefeat"
+}
+
+text SixIsland_PatternBush_Text_JonahIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_JonahIntro"
+}
+
+text SixIsland_PatternBush_Text_JonahPostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_JonahPostBattle"
+}
+
+text SixIsland_PatternBush_Text_LaytonDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_LaytonDefeat"
+}
+
+text SixIsland_PatternBush_Text_LaytonIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_LaytonIntro"
+}
+
+text SixIsland_PatternBush_Text_LaytonPostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_LaytonPostBattle"
+}
+
+text SixIsland_PatternBush_Text_MarcyDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_MarcyDefeat"
+}
+
+text SixIsland_PatternBush_Text_MarcyIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_MarcyIntro"
+}
+
+text SixIsland_PatternBush_Text_MarcyPostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_MarcyPostBattle"
+}
+
+text SixIsland_PatternBush_Text_NashDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_NashDefeat"
+}
+
+text SixIsland_PatternBush_Text_NashIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_NashIntro"
+}
+
+text SixIsland_PatternBush_Text_NashPostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_NashPostBattle"
+}
+
+text SixIsland_PatternBush_Text_RileyDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_RileyDefeat"
+}
+
+text SixIsland_PatternBush_Text_RileyIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_RileyIntro"
+}
+
+text SixIsland_PatternBush_Text_RileyPostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_RileyPostBattle"
+}
+
+text SixIsland_PatternBush_Text_VanceDefeat {
+    "Placeholder text for SixIsland_PatternBush_Text_VanceDefeat"
+}
+
+text SixIsland_PatternBush_Text_VanceIntro {
+    "Placeholder text for SixIsland_PatternBush_Text_VanceIntro"
+}
+
+text SixIsland_PatternBush_Text_VancePostBattle {
+    "Placeholder text for SixIsland_PatternBush_Text_VancePostBattle"
+}

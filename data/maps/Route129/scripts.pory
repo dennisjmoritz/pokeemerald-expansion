@@ -2,22 +2,88 @@ mapscripts Route129_MapScripts {
 }
 
 script Route129_EventScript_Allison {
-    end
+    trainerbattle_double(TRAINER_ALLISON, Route129_Text_AllisonIntro, Route129_Text_AllisonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route129_Text_AllisonPostBattle)
 }
 
 script Route129_EventScript_Chase {
-    end
+    trainerbattle_double(TRAINER_CHASE, Route129_Text_ChaseIntro, Route129_Text_ChaseDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route129_Text_ChasePostBattle)
 }
 
 script Route129_EventScript_Clarence {
-    end
+    trainerbattle_double(TRAINER_CLARENCE, Route129_Text_ClarenceIntro, Route129_Text_ClarenceDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route129_Text_ClarencePostBattle)
 }
 
 script Route129_EventScript_Reed {
-    end
+    trainerbattle_double(TRAINER_REED, Route129_Text_ReedIntro, Route129_Text_ReedDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route129_Text_ReedPostBattle)
 }
 
 script Route129_EventScript_Tisha {
-    end
+    trainerbattle_double(TRAINER_TISHA, Route129_Text_TishaIntro, Route129_Text_TishaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route129_Text_TishaPostBattle)
 }
 
+
+
+text Route129_Text_AllisonDefeat {
+    "I was sure I'd win!"
+}
+
+text Route129_Text_AllisonIntro {
+    "I'm in the middle of a triathlon,\nbut, sure, why don't we battle?"
+}
+
+text Route129_Text_AllisonPostBattle {
+    "Do you know what's the greatest thing\nabout triathlons?\pTesting the limits of your own\nstrength and endurance against\nMother Nature!"
+}
+
+text Route129_Text_ChaseDefeat {
+    "Wroooaaar!\nI failed to win!"
+}
+
+text Route129_Text_ChaseIntro {
+    "This is my first triathlon.\nI'm all tense and nervous!"
+}
+
+text Route129_Text_ChasePostBattle {
+    "If I'm all tensed up, I won't be able to\ngive it my all."
+}
+
+text Route129_Text_ClarenceDefeat {
+    "Winning sure isn't easy."
+}
+
+text Route129_Text_ClarenceIntro {
+    "Surfing isn't as easy as it seems,\nisn't that right?"
+}
+
+text Route129_Text_ClarencePostBattle {
+    "You have your sights on the POKéMON\nLEAGUE? Keep at it!"
+}
+
+text Route129_Text_ReedDefeat {
+    "Beat, I'm beaten.\nThat's it, done!"
+}
+
+text Route129_Text_ReedIntro {
+    "Say hey, hey!\nLet's get on with it!"
+}
+
+text Route129_Text_ReedPostBattle {
+    "There's nothing for a loser.\nTime for me to beat it home."
+}
+
+text Route129_Text_TishaDefeat {
+    "Oh, my.\nI wanted to relax a little more…"
+}
+
+text Route129_Text_TishaIntro {
+    "What's the hurry?\nLet's take it slow and easy."
+}
+
+text Route129_Text_TishaPostBattle {
+    "Don't you hate making mistakes when\nyou're in a rush?\pThat's why I try to take things\nslowly."
+}

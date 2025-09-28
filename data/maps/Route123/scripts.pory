@@ -2,7 +2,8 @@ mapscripts Route123_MapScripts {
 }
 
 script Route123_EventScript_Alberto {
-    end
+    trainerbattle_double(TRAINER_ALBERTO, Route123_Text_AlbertoIntro, Route123_Text_AlbertoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_AlbertoPostBattle)
 }
 
 script Route123_EventScript_BerryMastersHouseSign {
@@ -11,27 +12,33 @@ script Route123_EventScript_BerryMastersHouseSign {
 }
 
 script Route123_EventScript_Braxton {
-    end
+    trainerbattle_double(TRAINER_BRAXTON, Route123_Text_BraxtonIntro, Route123_Text_BraxtonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_BraxtonPostBattle)
 }
 
 script Route123_EventScript_Cameron {
-    end
+    trainerbattle_double(TRAINER_CAMERON, Route123_Text_CameronIntro, Route123_Text_CameronDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_CameronPostBattle)
 }
 
 script Route123_EventScript_Davis {
-    end
+    trainerbattle_double(TRAINER_DAVIS, Route123_Text_DavisIntro, Route123_Text_DavisDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_DavisPostBattle)
 }
 
 script Route123_EventScript_Ed {
-    end
+    trainerbattle_double(TRAINER_ED, Route123_Text_EdIntro, Route123_Text_EdDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_EdPostBattle)
 }
 
 script Route123_EventScript_Fernando {
-    end
+    trainerbattle_double(TRAINER_FERNANDO, Route123_Text_FernandoIntro, Route123_Text_FernandoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_FernandoPostBattle)
 }
 
 script Route123_EventScript_Frederick {
-    end
+    trainerbattle_double(TRAINER_FREDRICK, Route123_Text_FrederickIntro, Route123_Text_FrederickDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_FrederickPostBattle)
 }
 
 script Route123_EventScript_GigaDrainGirl {
@@ -39,23 +46,28 @@ script Route123_EventScript_GigaDrainGirl {
 }
 
 script Route123_EventScript_Jacki {
-    end
+    trainerbattle_double(TRAINER_JACKI, Route123_Text_JackiIntro, Route123_Text_JackiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_JackiPostBattle)
 }
 
 script Route123_EventScript_Jazmyn {
-    end
+    trainerbattle_double(TRAINER_JAZMYN, Route123_Text_JazmynIntro, Route123_Text_JazmynDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_JazmynPostBattle)
 }
 
 script Route123_EventScript_Jonas {
-    end
+    trainerbattle_double(TRAINER_JONAS, Route123_Text_JonasIntro, Route123_Text_JonasDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_JonasPostBattle)
 }
 
 script Route123_EventScript_Kayley {
-    end
+    trainerbattle_double(TRAINER_KAYLEY, Route123_Text_KayleyIntro, Route123_Text_KayleyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_KayleyPostBattle)
 }
 
 script Route123_EventScript_Kindra {
-    end
+    trainerbattle_double(TRAINER_KINDRA, Route123_Text_KindraIntro, Route123_Text_KindraDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_KindraPostBattle)
 }
 
 script Route123_EventScript_Miu {
@@ -73,11 +85,13 @@ script Route123_EventScript_RouteSignMtPyre {
 }
 
 script Route123_EventScript_Violet {
-    end
+    trainerbattle_double(TRAINER_VIOLET, Route123_Text_VioletIntro, Route123_Text_VioletDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_VioletPostBattle)
 }
 
 script Route123_EventScript_Wendy {
-    end
+    trainerbattle_double(TRAINER_WENDY, Route123_Text_WendyIntro, Route123_Text_WendyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route123_Text_WendyPostBattle)
 }
 
 script Route123_EventScript_Yuki {
@@ -95,4 +109,173 @@ text Route123_Text_RouteSignMtPyre {
 
 text Route123_Text_BerryMastersHouse {
     format("BERRY MASTER'S HOUSE")
+}
+
+
+text Route123_Text_AlbertoDefeat {
+    "Even in defeat, BIRD POKéMON are cool!"
+}
+
+text Route123_Text_AlbertoIntro {
+    "I have to tell you, BIRD POKéMON\nare my obsession!\pBirds are cool!\nThey're the best!"
+}
+
+text Route123_Text_AlbertoPostBattle {
+    "I gather BIRD POKéMON feathers that\nscatter during battles.\pI'm going to make a hat with\nBIRD POKéMON feathers."
+}
+
+text Route123_Text_BraxtonDefeat {
+    "Oh, you're worthy, all right!"
+}
+
+text Route123_Text_BraxtonIntro {
+    "You seem to have a big collection\nof GYM BADGES.\pLet me see if you're actually worthy of\nthose BADGES!"
+}
+
+text Route123_Text_BraxtonPostBattle {
+    "You did your BADGES proud in that\nmatch!"
+}
+
+text Route123_Text_CameronDefeat {
+    "I feel sad…"
+}
+
+text Route123_Text_CameronIntro {
+    "Being a psychic is about willpower.\pI've willed myself not to lose to\nanyone. That makes me strong!"
+}
+
+text Route123_Text_CameronPostBattle {
+    "Being a psychic is about willpower.\nI thought I wouldn't lose to you…"
+}
+
+text Route123_Text_DavisDefeat {
+    "Waaaah!\nYou meanie!"
+}
+
+text Route123_Text_DavisIntro {
+    "This is my awesome BUG POKéMON!\nMy big brother got it for me."
+}
+
+text Route123_Text_DavisPostBattle {
+    "Don't tell my brother I lost.\nYou have to keep it a secret!"
+}
+
+text Route123_Text_EdDefeat {
+    "I kind of like your POKéMON."
+}
+
+text Route123_Text_EdIntro {
+    "When there are no TRAINERS around,\nI let my POKéMON battle each other.\nI watch them."
+}
+
+text Route123_Text_EdPostBattle {
+    "Hehe, I'm swiping your battling ideas!\nI think they'll make me better."
+}
+
+text Route123_Text_FernandoDefeat {
+    "Hey, hold it!\nI was still playing the intro!"
+}
+
+text Route123_Text_FernandoIntro {
+    "I'll turn your lights out while\nI rip through this tune!"
+}
+
+text Route123_Text_FernandoPostBattle {
+    "You're rock steady.\nI'd like to write a tune about you."
+}
+
+text Route123_Text_FrederickDefeat {
+    "Ah, a mighty capable child!\nLet me contribute to your allowance."
+}
+
+text Route123_Text_FrederickIntro {
+    "Hello, child!\nCan you spare some time?"
+}
+
+text Route123_Text_FrederickPostBattle {
+    "Contribute to your allowance?\nWasn't the prize money enough?"
+}
+
+text Route123_Text_JackiDefeat {
+    "Overwhelmed!"
+}
+
+text Route123_Text_JackiIntro {
+    "Don't be too happy if your POKéMON\ndevelop psychic powers.\pYou need to refine those powers to\nmake them really useful."
+}
+
+text Route123_Text_JackiPostBattle {
+    "We all have psychic powers.\nWe've just forgotten how to use them."
+}
+
+text Route123_Text_JazmynDefeat {
+    "There goes my confidence…"
+}
+
+text Route123_Text_JazmynIntro {
+    "My confidence will get a boost by\nbeating someone obviously strong!"
+}
+
+text Route123_Text_JazmynPostBattle {
+    "They say that you can't judge a person\nby their appearance.\pBut often, their looks don't lie…"
+}
+
+text Route123_Text_JonasDefeat {
+    "If you don't lose, how am I supposed\nto have fun playing ninja?"
+}
+
+text Route123_Text_JonasIntro {
+    "I lay in ambush, and a TRAINER has\nlanded in my trap!"
+}
+
+text Route123_Text_JonasPostBattle {
+    "I'm going to ambush a weaker-looking\nTRAINER next time."
+}
+
+text Route123_Text_KayleyDefeat {
+    "You're better than me by about\nfive times!"
+}
+
+text Route123_Text_KayleyIntro {
+    "I just bought this parasol.\nMy cuteness should be up by a third!"
+}
+
+text Route123_Text_KayleyPostBattle {
+    "Using accessories effectively is\nthe secret behind fashion appeal."
+}
+
+text Route123_Text_KindraDefeat {
+    "Overflowing with vitality…"
+}
+
+text Route123_Text_KindraIntro {
+    "MT. PYRE…\nWhere the spirits of POKéMON sleep…\nWill your POKéMON sleep?"
+}
+
+text Route123_Text_KindraPostBattle {
+    "MT. PYRE…\nWhere the spirits of POKéMON sleep…\pIt must overflow with a power that\nsoothes spirits…"
+}
+
+text Route123_Text_VioletDefeat {
+    "Oh…\nI smell the bitter scent of misery…"
+}
+
+text Route123_Text_VioletIntro {
+    "They say that good times are filled\nwith good aromas."
+}
+
+text Route123_Text_VioletPostBattle {
+    "The BERRY MASTER's garden is filled\nwith uplifting fragrances."
+}
+
+text Route123_Text_WendyDefeat {
+    "You passed with flying colors!"
+}
+
+text Route123_Text_WendyIntro {
+    "Want to determine how strong you are?\nI'll be the test!"
+}
+
+text Route123_Text_WendyPostBattle {
+    "To best even me…\nYour strength is marvelous!"
 }

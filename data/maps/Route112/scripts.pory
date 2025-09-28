@@ -2,15 +2,18 @@ mapscripts Route112_MapScripts {
 }
 
 script Route112_EventScript_Brice {
-    end
+    trainerbattle_double(TRAINER_BRICE, Route112_Text_BriceIntro, Route112_Text_BriceDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route112_Text_BricePostBattle)
 }
 
 script Route112_EventScript_Bryant {
-    end
+    trainerbattle_double(TRAINER_BRYANT, Route112_Text_BryantIntro, Route112_Text_BryantDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route112_Text_BryantPostBattle)
 }
 
 script Route112_EventScript_Carol {
-    end
+    trainerbattle_double(TRAINER_CAROL, Route112_Text_CarolIntro, Route112_Text_CarolDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route112_Text_CarolPostBattle)
 }
 
 script Route112_EventScript_Hiker {
@@ -18,7 +21,8 @@ script Route112_EventScript_Hiker {
 }
 
 script Route112_EventScript_Larry {
-    end
+    trainerbattle_double(TRAINER_LARRY, Route112_Text_LarryIntro, Route112_Text_LarryDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route112_Text_LarryPostBattle)
 }
 
 script Route112_EventScript_MagmaGrunts {
@@ -41,11 +45,13 @@ script Route112_EventScript_RouteSignLavaridge {
 }
 
 script Route112_EventScript_Shayla {
-    end
+    trainerbattle_double(TRAINER_SHAYLA, Route112_Text_ShaylaIntro, Route112_Text_ShaylaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route112_Text_ShaylaPostBattle)
 }
 
 script Route112_EventScript_Trent {
-    end
+    trainerbattle_double(TRAINER_TRENT, Route112_Text_TrentIntro, Route112_Text_TrentDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route112_Text_TrentPostBattle)
 }
 
 
@@ -59,4 +65,77 @@ text Route112_Text_MtChimneyCableCarSign {
 
 text Route112_Text_MtChimneySign {
     format("MT. CHIMNEY\p “For LAVARIDGE TOWN or the summit, please take the CABLE CAR.”")
+}
+
+
+text Route112_Text_BriceDefeat {
+    "I lost!\nHahahaha!"
+}
+
+text Route112_Text_BriceIntro {
+    "Hahahaha!\nHow about we have a battle?\nYou and me!\nHahahaha!"
+}
+
+text Route112_Text_BricePostBattle {
+    "Hahahahaha! Something flew up my nose!\nHahahaha-hatchoo!"
+}
+
+text Route112_Text_BryantDefeat {
+    "What a bumpy ride that was!"
+}
+
+text Route112_Text_BryantIntro {
+    "I caught hot POKéMON in FIERY PATH!\nTake a look!"
+}
+
+text Route112_Text_BryantPostBattle {
+    "I like the way you battle.\nIt has a certain flair to it."
+}
+
+text Route112_Text_CarolDefeat {
+    "Oh, you're so strong!"
+}
+
+text Route112_Text_CarolIntro {
+    "When you're out on a picnic, why,\nyou simply have to sing!\nCome on, sing with me!"
+}
+
+text Route112_Text_CarolPostBattle {
+    "It doesn't matter if you're good or bad\nat singing or POKéMON.\pIf you have the most fun, you win!"
+}
+
+text Route112_Text_LarryDefeat {
+    "Waaaah!"
+}
+
+text Route112_Text_LarryIntro {
+    "I'm strong.\nI won't cry if I lose."
+}
+
+text Route112_Text_LarryPostBattle {
+    "I'm not crying because I miss my mommy!\nSnivel…"
+}
+
+text Route112_Text_ShaylaDefeat {
+    "Oh, how strong you are!\nYou've given me quite a shock!"
+}
+
+text Route112_Text_ShaylaIntro {
+    "Oh, aren't you an adorable TRAINER!\nPlease, I need a romantic battle!\nI'm somewhat decent!"
+}
+
+text Route112_Text_ShaylaPostBattle {
+    "Are you busy right now?\nI was thinking that maybe we can have\na rematch right now…\nBut it's all right if you're busy."
+}
+
+text Route112_Text_TrentDefeat {
+    "Ouch! My legs cramped up!"
+}
+
+text Route112_Text_TrentIntro {
+    "My legs are solid from pounding up\nand down the mountains.\pThey're not going to buckle easily,\nfriend!"
+}
+
+text Route112_Text_TrentPostBattle {
+    "Try hiking, and I mean really\npounding, on these mountain trails\nwith a heavy pack weighing dozens of\npounds.\pThat, my friend, will get your body\ninto serious shape."
 }

@@ -6,7 +6,8 @@ script MtPyre_2F_EventScript_Dez {
 }
 
 script MtPyre_2F_EventScript_Leah {
-    end
+    trainerbattle_double(TRAINER_LEAH, MtPyre_2F_Text_LeahIntro, MtPyre_2F_Text_LeahDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_2F_Text_LeahPostBattle)
 }
 
 script MtPyre_2F_EventScript_Luke {
@@ -14,7 +15,8 @@ script MtPyre_2F_EventScript_Luke {
 }
 
 script MtPyre_2F_EventScript_Mark {
-    end
+    trainerbattle_double(TRAINER_MARK, MtPyre_2F_Text_MarkIntro, MtPyre_2F_Text_MarkDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_2F_Text_MarkPostBattle)
 }
 
 script MtPyre_2F_EventScript_PokefanM {
@@ -26,6 +28,44 @@ script MtPyre_2F_EventScript_Woman {
 }
 
 script MtPyre_2F_EventScript_Zander {
-    end
+    trainerbattle_double(TRAINER_ZANDER, MtPyre_2F_Text_ZanderIntro, MtPyre_2F_Text_ZanderDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_2F_Text_ZanderPostBattle)
 }
 
+
+
+text MtPyre_2F_Text_LeahDefeat {
+    "Placeholder text for MtPyre_2F_Text_LeahDefeat"
+}
+
+text MtPyre_2F_Text_LeahIntro {
+    "Placeholder text for MtPyre_2F_Text_LeahIntro"
+}
+
+text MtPyre_2F_Text_LeahPostBattle {
+    "Placeholder text for MtPyre_2F_Text_LeahPostBattle"
+}
+
+text MtPyre_2F_Text_MarkDefeat {
+    "Placeholder text for MtPyre_2F_Text_MarkDefeat"
+}
+
+text MtPyre_2F_Text_MarkIntro {
+    "Placeholder text for MtPyre_2F_Text_MarkIntro"
+}
+
+text MtPyre_2F_Text_MarkPostBattle {
+    "Placeholder text for MtPyre_2F_Text_MarkPostBattle"
+}
+
+text MtPyre_2F_Text_ZanderDefeat {
+    "Placeholder text for MtPyre_2F_Text_ZanderDefeat"
+}
+
+text MtPyre_2F_Text_ZanderIntro {
+    "Placeholder text for MtPyre_2F_Text_ZanderIntro"
+}
+
+text MtPyre_2F_Text_ZanderPostBattle {
+    "Placeholder text for MtPyre_2F_Text_ZanderPostBattle"
+}

@@ -2,14 +2,54 @@ mapscripts Route130_MapScripts {
 }
 
 script Route130_EventScript_Katie {
-    end
+    trainerbattle_double(TRAINER_KATIE, Route130_Text_KatieIntro, Route130_Text_KatieDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route130_Text_KatiePostBattle)
 }
 
 script Route130_EventScript_Rodney {
-    end
+    trainerbattle_double(TRAINER_RODNEY, Route130_Text_RodneyIntro, Route130_Text_RodneyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route130_Text_RodneyPostBattle)
 }
 
 script Route130_EventScript_Santiago {
-    end
+    trainerbattle_double(TRAINER_SANTIAGO, Route130_Text_SantiagoIntro, Route130_Text_SantiagoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route130_Text_SantiagoPostBattle)
 }
 
+
+
+text Route130_Text_KatieDefeat {
+    "Like the vast blue sea,\nthe world of POKéMON spans\ndepths beyond belief."
+}
+
+text Route130_Text_KatieIntro {
+    "In the deep blue sea,\nmy shattered blue heart finds\ncomfort among waves."
+}
+
+text Route130_Text_KatiePostBattle {
+    "The world's children dream\nof one day becoming\nthe POKéMON CHAMPION."
+}
+
+text Route130_Text_RodneyDefeat {
+    "This kid's awfully tough…"
+}
+
+text Route130_Text_RodneyIntro {
+    "What a surprise! I didn't expect to\nsee a TRAINER out in the sea.\pI think we should battle!"
+}
+
+text Route130_Text_RodneyPostBattle {
+    "Your eyes have that look of someone\nwho's experienced harsh challenges\nand won. It suits you well!"
+}
+
+text Route130_Text_SantiagoDefeat {
+    "I needed to be a little less peaceful!"
+}
+
+text Route130_Text_SantiagoIntro {
+    "Floating on the open sea like this…\nIt's peaceful."
+}
+
+text Route130_Text_SantiagoPostBattle {
+    "Swimming and battling like this…\nI'm one happy guy…"
+}

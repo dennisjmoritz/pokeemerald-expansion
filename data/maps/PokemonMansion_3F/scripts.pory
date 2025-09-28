@@ -2,7 +2,8 @@ mapscripts PokemonMansion_3F_MapScripts {
 }
 
 script PokemonMansion_3F_EventScript_Braydon {
-    end
+    trainerbattle_double(TRAINER_SCIENTIST_BRAYDON, PokemonMansion_1F_Text_BraydonIntro, PokemonMansion_1F_Text_BraydonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonMansion_1F_Text_BraydonPostBattle)
 }
 
 script PokemonMansion_3F_EventScript_DiaryFeb6th {
@@ -11,7 +12,8 @@ script PokemonMansion_3F_EventScript_DiaryFeb6th {
 }
 
 script PokemonMansion_3F_EventScript_Simon {
-    end
+    trainerbattle_double(TRAINER_BURGLAR_SIMON, PokemonMansion_1F_Text_SimonIntro, PokemonMansion_1F_Text_SimonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonMansion_1F_Text_SimonPostBattle)
 }
 
 script PokemonMansion_3F_EventScript_Statue {
@@ -28,4 +30,29 @@ script PokemonMansion_3F_EventScript_Statue {
 
 text PokemonMansion_1F_Text_MewGaveBirthToMewtwo {
     format("Diary: Feb. 6 MEW gave birth.\p We named the newborn MEWTWO.")
+}
+
+
+text PokemonMansion_1F_Text_BraydonDefeat {
+    "Placeholder text for PokemonMansion_1F_Text_BraydonDefeat"
+}
+
+text PokemonMansion_1F_Text_BraydonIntro {
+    "Placeholder text for PokemonMansion_1F_Text_BraydonIntro"
+}
+
+text PokemonMansion_1F_Text_BraydonPostBattle {
+    "Placeholder text for PokemonMansion_1F_Text_BraydonPostBattle"
+}
+
+text PokemonMansion_1F_Text_SimonDefeat {
+    "Placeholder text for PokemonMansion_1F_Text_SimonDefeat"
+}
+
+text PokemonMansion_1F_Text_SimonIntro {
+    "Placeholder text for PokemonMansion_1F_Text_SimonIntro"
+}
+
+text PokemonMansion_1F_Text_SimonPostBattle {
+    "Placeholder text for PokemonMansion_1F_Text_SimonPostBattle"
 }

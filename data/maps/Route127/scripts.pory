@@ -2,34 +2,139 @@ mapscripts Route127_MapScripts {
 }
 
 script Route127_EventScript_Aidan {
-    end
+    trainerbattle_double(TRAINER_AIDAN, Route127_Text_AidanIntro, Route127_Text_AidanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route127_Text_AidanPostBattle)
 }
 
 script Route127_EventScript_Athena {
-    end
+    trainerbattle_double(TRAINER_ATHENA, Route127_Text_AthenaIntro, Route127_Text_AthenaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route127_Text_AthenaPostBattle)
 }
 
 script Route127_EventScript_Camden {
-    end
+    trainerbattle_double(TRAINER_CAMDEN, Route127_Text_CamdenIntro, Route127_Text_CamdenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route127_Text_CamdenPostBattle)
 }
 
 script Route127_EventScript_Donny {
-    end
+    trainerbattle_double(TRAINER_DONNY, Route127_Text_DonnyIntro, Route127_Text_DonnyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route127_Text_DonnyPostBattle)
 }
 
 script Route127_EventScript_Henry {
-    end
+    trainerbattle_double(TRAINER_HENRY, Route127_Text_HenryIntro, Route127_Text_HenryDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route127_Text_HenryPostBattle)
 }
 
 script Route127_EventScript_Jonah {
-    end
+    trainerbattle_double(TRAINER_JONAH, Route127_Text_JonahIntro, Route127_Text_JonahDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route127_Text_JonahPostBattle)
 }
 
 script Route127_EventScript_Koji {
-    end
+    trainerbattle_double(TRAINER_KOJI, Route127_Text_KojiIntro, Route127_Text_KojiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route127_Text_KojiPostBattle)
 }
 
 script Route127_EventScript_Roger {
-    end
+    trainerbattle_double(TRAINER_ROGER, Route127_Text_RogerIntro, Route127_Text_RogerDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route127_Text_RogerPostBattle)
 }
 
+
+
+text Route127_Text_AidanDefeat {
+    "Whew… I give up."
+}
+
+text Route127_Text_AidanIntro {
+    "BIRD POKéMON have excellent vision.\nThey spot prey from great heights."
+}
+
+text Route127_Text_AidanPostBattle {
+    "There're lots of diving spots in\nthe sea around here.\pYou can spot them easily from the sky\nbecause of their darker color."
+}
+
+text Route127_Text_AthenaDefeat {
+    "You didn't give me the chance to\ndo any strategizing."
+}
+
+text Route127_Text_AthenaIntro {
+    "We should have a slow and methodical\nmatch."
+}
+
+text Route127_Text_AthenaPostBattle {
+    "When I'm surrounded by the blue sea\nand sky, it feels as if time slows down."
+}
+
+text Route127_Text_CamdenDefeat {
+    "Awawawawawa…"
+}
+
+text Route127_Text_CamdenIntro {
+    "I can see it in your face.\nYou want to challenge me."
+}
+
+text Route127_Text_CamdenPostBattle {
+    "A well-played match leaves me feeling\nrefreshed and serene."
+}
+
+text Route127_Text_DonnyDefeat {
+    "Arrrgh!\nI hate losing!"
+}
+
+text Route127_Text_DonnyIntro {
+    "Do you have a rival whom you just\nhate to lose against?"
+}
+
+text Route127_Text_DonnyPostBattle {
+    "If you have a rival, don't you get the\nfeeling that you have to keep getting\nbetter?"
+}
+
+text Route127_Text_HenryDefeat {
+    "I can't keep up!"
+}
+
+text Route127_Text_HenryIntro {
+    "Whoops! Don't tell me I snagged\na SURFING POKéMON?"
+}
+
+text Route127_Text_HenryPostBattle {
+    "It'd be a handful if I hooked\nyour tough POKéMON!"
+}
+
+text Route127_Text_JonahDefeat {
+    "Though I have lost, my heart remains\ncalm…"
+}
+
+text Route127_Text_JonahIntro {
+    "Through fishing, I have attained a\nstate of becalmed serenity…\pPlease, allow me to demonstrate…"
+}
+
+text Route127_Text_JonahPostBattle {
+    "It matters not that I catch nothing.\nThe line remains in the water…"
+}
+
+text Route127_Text_KojiDefeat {
+    "Yowch!\nI got a pebble under a toenail!"
+}
+
+text Route127_Text_KojiIntro {
+    "Run in your bare feet.\nThat will toughen up your soles!"
+}
+
+text Route127_Text_KojiPostBattle {
+    "Going barefoot feels great.\nBut your RUNNING SHOES are cool, too."
+}
+
+text Route127_Text_RogerDefeat {
+    "No! My line's all tangled!\nThe party's over!"
+}
+
+text Route127_Text_RogerIntro {
+    "Well, hey! This is a match between\na POKéMON fan and a fishing buff!"
+}
+
+text Route127_Text_RogerPostBattle {
+    "My fishing line's doing a dance!\nThe tangle tango! Hahaha, snarl!"
+}

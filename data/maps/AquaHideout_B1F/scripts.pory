@@ -10,17 +10,70 @@ script AquaHideout_B1F_EventScript_Electrode2 {
 }
 
 script AquaHideout_B1F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_AQUA_HIDEOUT_2, AquaHideout_B1F_Text_Grunt2Intro, AquaHideout_B1F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(AquaHideout_B1F_Text_Grunt2PostBattle)
 }
 
 script AquaHideout_B1F_EventScript_Grunt3 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_AQUA_HIDEOUT_3, AquaHideout_B1F_Text_Grunt3Intro, AquaHideout_B1F_Text_Grunt3Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(AquaHideout_B1F_Text_Grunt3PostBattle)
 }
 
 script AquaHideout_B1F_EventScript_Grunt5 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_AQUA_HIDEOUT_5, AquaHideout_B1F_Text_Grunt5Intro, AquaHideout_B1F_Text_Grunt5Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(AquaHideout_B1F_Text_Grunt5PostBattle)
 }
 
 script AquaHideout_B1F_EventScript_Grunt7 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_AQUA_HIDEOUT_7, AquaHideout_B1F_Text_Grunt7Intro, AquaHideout_B1F_Text_Grunt7Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(AquaHideout_B1F_Text_Grunt7PostBattle)
+}
+
+
+text AquaHideout_B1F_Text_Grunt2Defeat {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt2Defeat"
+}
+
+text AquaHideout_B1F_Text_Grunt2Intro {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt2Intro"
+}
+
+text AquaHideout_B1F_Text_Grunt2PostBattle {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt2PostBattle"
+}
+
+text AquaHideout_B1F_Text_Grunt3Defeat {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt3Defeat"
+}
+
+text AquaHideout_B1F_Text_Grunt3Intro {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt3Intro"
+}
+
+text AquaHideout_B1F_Text_Grunt3PostBattle {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt3PostBattle"
+}
+
+text AquaHideout_B1F_Text_Grunt5Defeat {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt5Defeat"
+}
+
+text AquaHideout_B1F_Text_Grunt5Intro {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt5Intro"
+}
+
+text AquaHideout_B1F_Text_Grunt5PostBattle {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt5PostBattle"
+}
+
+text AquaHideout_B1F_Text_Grunt7Defeat {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt7Defeat"
+}
+
+text AquaHideout_B1F_Text_Grunt7Intro {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt7Intro"
+}
+
+text AquaHideout_B1F_Text_Grunt7PostBattle {
+    "Placeholder text for AquaHideout_B1F_Text_Grunt7PostBattle"
 }

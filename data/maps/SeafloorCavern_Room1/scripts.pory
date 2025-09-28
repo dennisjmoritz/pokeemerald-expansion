@@ -2,10 +2,37 @@ mapscripts SeafloorCavern_Room1_MapScripts {
 }
 
 script SeafloorCavern_Room1_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_SEAFLOOR_CAVERN, SeafloorCavern_Room1_Text_Grunt1Intro, SeafloorCavern_Room1_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SeafloorCavern_Room1_Text_Grunt1PostBattle)
 }
 
 script SeafloorCavern_Room1_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_SEAFLOOR_CAVERN_2, SeafloorCavern_Room1_Text_Grunt2Intro, SeafloorCavern_Room1_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SeafloorCavern_Room1_Text_Grunt2PostBattle)
 }
 
+
+
+text SeafloorCavern_Room1_Text_Grunt1Defeat {
+    "Placeholder text for SeafloorCavern_Room1_Text_Grunt1Defeat"
+}
+
+text SeafloorCavern_Room1_Text_Grunt1Intro {
+    "Placeholder text for SeafloorCavern_Room1_Text_Grunt1Intro"
+}
+
+text SeafloorCavern_Room1_Text_Grunt1PostBattle {
+    "Placeholder text for SeafloorCavern_Room1_Text_Grunt1PostBattle"
+}
+
+text SeafloorCavern_Room1_Text_Grunt2Defeat {
+    "Placeholder text for SeafloorCavern_Room1_Text_Grunt2Defeat"
+}
+
+text SeafloorCavern_Room1_Text_Grunt2Intro {
+    "Placeholder text for SeafloorCavern_Room1_Text_Grunt2Intro"
+}
+
+text SeafloorCavern_Room1_Text_Grunt2PostBattle {
+    "Placeholder text for SeafloorCavern_Room1_Text_Grunt2PostBattle"
+}

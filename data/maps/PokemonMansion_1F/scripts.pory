@@ -2,7 +2,8 @@ mapscripts PokemonMansion_1F_MapScripts {
 }
 
 script PokemonMansion_1F_EventScript_Johnson {
-    end
+    trainerbattle_double(TRAINER_YOUNGSTER_JOHNSON, PokemonMansion_1F_Text_JohnsonIntro, PokemonMansion_1F_Text_JohnsonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonMansion_1F_Text_JohnsonPostBattle)
 }
 
 script PokemonMansion_1F_EventScript_Statue {
@@ -17,6 +18,32 @@ script PokemonMansion_1F_EventScript_Statue {
 }
 
 script PokemonMansion_1F_EventScript_Ted {
-    end
+    trainerbattle_double(TRAINER_SCIENTIST_TED, PokemonMansion_1F_Text_TedIntro, PokemonMansion_1F_Text_TedDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonMansion_1F_Text_TedPostBattle)
 }
 
+
+
+text PokemonMansion_1F_Text_JohnsonDefeat {
+    "Placeholder text for PokemonMansion_1F_Text_JohnsonDefeat"
+}
+
+text PokemonMansion_1F_Text_JohnsonIntro {
+    "Placeholder text for PokemonMansion_1F_Text_JohnsonIntro"
+}
+
+text PokemonMansion_1F_Text_JohnsonPostBattle {
+    "Placeholder text for PokemonMansion_1F_Text_JohnsonPostBattle"
+}
+
+text PokemonMansion_1F_Text_TedDefeat {
+    "Placeholder text for PokemonMansion_1F_Text_TedDefeat"
+}
+
+text PokemonMansion_1F_Text_TedIntro {
+    "Placeholder text for PokemonMansion_1F_Text_TedIntro"
+}
+
+text PokemonMansion_1F_Text_TedPostBattle {
+    "Placeholder text for PokemonMansion_1F_Text_TedPostBattle"
+}

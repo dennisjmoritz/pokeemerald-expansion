@@ -2,15 +2,18 @@ mapscripts Route124_MapScripts {
 }
 
 script Route124_EventScript_Chad {
-    end
+    trainerbattle_double(TRAINER_CHAD, Route124_Text_ChadIntro, Route124_Text_ChadDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route124_Text_ChadPostBattle)
 }
 
 script Route124_EventScript_Declan {
-    end
+    trainerbattle_double(TRAINER_DECLAN, Route124_Text_DeclanIntro, Route124_Text_DeclanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route124_Text_DeclanPostBattle)
 }
 
 script Route124_EventScript_Grace {
-    end
+    trainerbattle_double(TRAINER_GRACE, Route124_Text_GraceIntro, Route124_Text_GraceDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route124_Text_GracePostBattle)
 }
 
 script Route124_EventScript_HuntersHouseSign {
@@ -19,11 +22,13 @@ script Route124_EventScript_HuntersHouseSign {
 }
 
 script Route124_EventScript_Isabella {
-    end
+    trainerbattle_double(TRAINER_ISABELLA, Route124_Text_IsabellaIntro, Route124_Text_IsabellaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route124_Text_IsabellaPostBattle)
 }
 
 script Route124_EventScript_Jenny {
-    end
+    trainerbattle_double(TRAINER_JENNY, Route124_Text_JennyIntro, Route124_Text_JennyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route124_Text_JennyPostBattle)
 }
 
 script Route124_EventScript_Lila {
@@ -31,7 +36,8 @@ script Route124_EventScript_Lila {
 }
 
 script Route124_EventScript_Roland {
-    end
+    trainerbattle_double(TRAINER_ROLAND, Route124_Text_RolandIntro, Route124_Text_RolandDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route124_Text_RolandPostBattle)
 }
 
 script Route124_EventScript_Roy {
@@ -39,10 +45,96 @@ script Route124_EventScript_Roy {
 }
 
 script Route124_EventScript_Spencer {
-    end
+    trainerbattle_double(TRAINER_SPENCER, Route124_Text_SpencerIntro, Route124_Text_SpencerDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route124_Text_SpencerPostBattle)
 }
 
 
 text Route124_Text_HuntersHouse {
     format("HUNTER'S HOUSE")
+}
+
+
+text Route124_Text_ChadDefeat {
+    "Glub, glub, glub…\nI'm sinking…"
+}
+
+text Route124_Text_ChadIntro {
+    "Fufufufu… I dive deep underwater\nto go deep under cover.\nPlumbing the depths is where I excel!"
+}
+
+text Route124_Text_ChadPostBattle {
+    "I have it on good authority that\nthere's a DIVE spot around here.\pIt gives me the urge to go deep\nagain…"
+}
+
+text Route124_Text_DeclanDefeat {
+    "I'm feeling blue.\nBlue as the sky…"
+}
+
+text Route124_Text_DeclanIntro {
+    "Here I am swimming by my lonesome\non this wide, beautiful sea.\pThere's no other word for it.\nThis is pathetic!"
+}
+
+text Route124_Text_DeclanPostBattle {
+    "I should chat up lady SWIMMERS\nand invite them on a long swim."
+}
+
+text Route124_Text_GraceDefeat {
+    "I had no idea that you were\nthis strong!"
+}
+
+text Route124_Text_GraceIntro {
+    "I'm growing bored of swimming…\nHow about a battle?"
+}
+
+text Route124_Text_GracePostBattle {
+    "All the effort you put in must have\nmade you this strong."
+}
+
+text Route124_Text_IsabellaDefeat {
+    "I've only got sweat in my eyes!\nI am not crying!"
+}
+
+text Route124_Text_IsabellaIntro {
+    "I'm not going to lose to some\nsurfer TRAINER."
+}
+
+text Route124_Text_IsabellaPostBattle {
+    "You can find pretty colored shards\nof things around here."
+}
+
+text Route124_Text_JennyDefeat {
+    "Oh, darn.\nI've gone and lost."
+}
+
+text Route124_Text_JennyIntro {
+    "If you just float in the sea like\nthis, POKéMON come around to play."
+}
+
+text Route124_Text_JennyPostBattle {
+    "While swimming, I noticed that some\nPOKéMON attack, and some just watch.\pI guess POKéMON have personalities\nof their own."
+}
+
+text Route124_Text_RolandDefeat {
+    "Oh!\nI can't…"
+}
+
+text Route124_Text_RolandIntro {
+    "Hm! You're riding a POKéMON instead\nof swimming yourself…\pI am envious!"
+}
+
+text Route124_Text_RolandPostBattle {
+    "I'm getting chilled…\nI've been in the water too long…\pI wish I could ride a POKéMON like you…"
+}
+
+text Route124_Text_SpencerDefeat {
+    "I lost my bearings in battle!"
+}
+
+text Route124_Text_SpencerIntro {
+    "Hey, are you lost at sea?\pIf you can beat my POKéMON,\nI can serve as your pilot."
+}
+
+text Route124_Text_SpencerPostBattle {
+    "Many people lose their bearings at sea.\pIf you're that sort, you should refer\nto the POKéNAV's MAP."
 }

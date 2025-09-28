@@ -2,7 +2,8 @@ mapscripts AquaHideout_1F_MapScripts {
 }
 
 script AquaHideout_1F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_AQUA_HIDEOUT, AquaHideout_1F_Text_Grunt1Intro, AquaHideout_1F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(AquaHideout_1F_Text_Grunt1PostBattle)
 }
 
 script AquaHideout_1F_EventScript_HideoutEntranceGrunt1 {
@@ -13,3 +14,16 @@ script AquaHideout_1F_EventScript_HideoutEntranceGrunt2 {
     end
 }
 
+
+
+text AquaHideout_1F_Text_Grunt1Defeat {
+    "Placeholder text for AquaHideout_1F_Text_Grunt1Defeat"
+}
+
+text AquaHideout_1F_Text_Grunt1Intro {
+    "Placeholder text for AquaHideout_1F_Text_Grunt1Intro"
+}
+
+text AquaHideout_1F_Text_Grunt1PostBattle {
+    "Placeholder text for AquaHideout_1F_Text_Grunt1PostBattle"
+}

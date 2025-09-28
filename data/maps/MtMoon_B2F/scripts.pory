@@ -6,19 +6,23 @@ script MtMoon_B2F_EventScript_DomeFossil {
 }
 
 script MtMoon_B2F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT, MtMoon_B2F_Text_Grunt1Intro, MtMoon_B2F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtMoon_B2F_Text_Grunt1PostBattle)
 }
 
 script MtMoon_B2F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_2, MtMoon_B2F_Text_Grunt2Intro, MtMoon_B2F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtMoon_B2F_Text_Grunt2PostBattle)
 }
 
 script MtMoon_B2F_EventScript_Grunt3 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_3, MtMoon_B2F_Text_Grunt3Intro, MtMoon_B2F_Text_Grunt3Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtMoon_B2F_Text_Grunt3PostBattle)
 }
 
 script MtMoon_B2F_EventScript_Grunt4 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_4, MtMoon_B2F_Text_Grunt4Intro, MtMoon_B2F_Text_Grunt4Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtMoon_B2F_Text_Grunt4PostBattle)
 }
 
 script MtMoon_B2F_EventScript_HelixFossil {
@@ -33,3 +37,52 @@ script MtMoon_B2F_EventScript_MiguelTrigger {
     end
 }
 
+
+
+text MtMoon_B2F_Text_Grunt1Defeat {
+    "Placeholder text for MtMoon_B2F_Text_Grunt1Defeat"
+}
+
+text MtMoon_B2F_Text_Grunt1Intro {
+    "Placeholder text for MtMoon_B2F_Text_Grunt1Intro"
+}
+
+text MtMoon_B2F_Text_Grunt1PostBattle {
+    "Placeholder text for MtMoon_B2F_Text_Grunt1PostBattle"
+}
+
+text MtMoon_B2F_Text_Grunt2Defeat {
+    "Placeholder text for MtMoon_B2F_Text_Grunt2Defeat"
+}
+
+text MtMoon_B2F_Text_Grunt2Intro {
+    "Placeholder text for MtMoon_B2F_Text_Grunt2Intro"
+}
+
+text MtMoon_B2F_Text_Grunt2PostBattle {
+    "Placeholder text for MtMoon_B2F_Text_Grunt2PostBattle"
+}
+
+text MtMoon_B2F_Text_Grunt3Defeat {
+    "Placeholder text for MtMoon_B2F_Text_Grunt3Defeat"
+}
+
+text MtMoon_B2F_Text_Grunt3Intro {
+    "Placeholder text for MtMoon_B2F_Text_Grunt3Intro"
+}
+
+text MtMoon_B2F_Text_Grunt3PostBattle {
+    "Placeholder text for MtMoon_B2F_Text_Grunt3PostBattle"
+}
+
+text MtMoon_B2F_Text_Grunt4Defeat {
+    "Placeholder text for MtMoon_B2F_Text_Grunt4Defeat"
+}
+
+text MtMoon_B2F_Text_Grunt4Intro {
+    "Placeholder text for MtMoon_B2F_Text_Grunt4Intro"
+}
+
+text MtMoon_B2F_Text_Grunt4PostBattle {
+    "Placeholder text for MtMoon_B2F_Text_Grunt4PostBattle"
+}

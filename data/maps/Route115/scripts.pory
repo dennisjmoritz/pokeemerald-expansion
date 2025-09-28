@@ -2,35 +2,43 @@ mapscripts Route115_MapScripts {
 }
 
 script Route115_EventScript_Alix {
-    end
+    trainerbattle_double(TRAINER_ALIX, Route115_Text_AlixIntro, Route115_Text_AlixDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route115_Text_AlixPostBattle)
 }
 
 script Route115_EventScript_Cyndy {
-    end
+    trainerbattle_double(TRAINER_CYNDY, Route115_Text_CyndyIntro, Route115_Text_CyndyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route115_Text_CyndyPostBattle)
 }
 
 script Route115_EventScript_Hector {
-    end
+    trainerbattle_double(TRAINER_HECTOR, Route115_Text_HectorIntro, Route115_Text_HectorDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route115_Text_HectorPostBattle)
 }
 
 script Route115_EventScript_Helene {
-    end
+    trainerbattle_double(TRAINER_HELENE, Route115_Text_HeleneIntro, Route115_Text_HeleneDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route115_Text_HelenePostBattle)
 }
 
 script Route115_EventScript_Jaiden {
-    end
+    trainerbattle_double(TRAINER_JAIDEN, Route115_Text_JaidenIntro, Route115_Text_JaidenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route115_Text_JaidenPostBattle)
 }
 
 script Route115_EventScript_Koichi {
-    end
+    trainerbattle_double(TRAINER_KOICHI, Route115_Text_KoichiIntro, Route115_Text_KoichiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route115_Text_KoichiPostBattle)
 }
 
 script Route115_EventScript_Kyra {
-    end
+    trainerbattle_double(TRAINER_KYRA, Route115_Text_KyraIntro, Route115_Text_KyraDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route115_Text_KyraPostBattle)
 }
 
 script Route115_EventScript_Marlene {
-    end
+    trainerbattle_double(TRAINER_MARLENE, Route115_Text_MarleneIntro, Route115_Text_MarleneDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route115_Text_MarlenePostBattle)
 }
 
 script Route115_EventScript_MeteorFallsSign {
@@ -39,7 +47,8 @@ script Route115_EventScript_MeteorFallsSign {
 }
 
 script Route115_EventScript_Nob {
-    end
+    trainerbattle_double(TRAINER_NOB, Route115_Text_NobIntro, Route115_Text_NobDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route115_Text_NobPostBattle)
 }
 
 script Route115_EventScript_RouteSignRustboro {
@@ -48,7 +57,8 @@ script Route115_EventScript_RouteSignRustboro {
 }
 
 script Route115_EventScript_Timothy {
-    end
+    trainerbattle_double(TRAINER_TIMOTHY, Route115_Text_TimothyIntro, Route115_Text_TimothyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route115_Text_TimothyPostBattle)
 }
 
 script Route115_EventScript_Woman {
@@ -62,4 +72,125 @@ text Route115_Text_RouteSignRustboro {
 
 text Route115_Text_MeteorFallsSign {
     format("METEOR FALLS FALLARBOR TOWN THROUGH HERE")
+}
+
+
+text Route115_Text_AlixDefeat {
+    "Gah!\nNot bad!"
+}
+
+text Route115_Text_AlixIntro {
+    "Our eyes met!\nThere's no getting away now!"
+}
+
+text Route115_Text_AlixPostBattle {
+    "Oh, well.\nI think I will TELEPORT home."
+}
+
+text Route115_Text_CyndyDefeat {
+    "I haven't trained enough!"
+}
+
+text Route115_Text_CyndyIntro {
+    "This beach is my secret training spot!\nDon't come butting in!"
+}
+
+text Route115_Text_CyndyPostBattle {
+    "The sand acts as a cushion to reduce\nimpact and prevent injury.\nThis is the perfect place to train."
+}
+
+text Route115_Text_HectorDefeat {
+    "You…\nYou want my POKéMON, don't you?"
+}
+
+text Route115_Text_HectorIntro {
+    "I have a rare POKéMON!\nWould you like me to show you?"
+}
+
+text Route115_Text_HectorPostBattle {
+    "I have this rare POKéMON.\nIt's enough to keep me satisfied."
+}
+
+text Route115_Text_HeleneDefeat {
+    "This is too humiliating!"
+}
+
+text Route115_Text_HeleneIntro {
+    "My POKéMON have black belt-level\nstrength!"
+}
+
+text Route115_Text_HelenePostBattle {
+    "I rarely meet anyone who's better\nthan me…\pI get it now!\nYou're a GYM LEADER, aren't you?"
+}
+
+text Route115_Text_JaidenDefeat {
+    "Waaah!\nOur strategy failed!"
+}
+
+text Route115_Text_JaidenIntro {
+    "Take that!\nUltra POKéMON ninja attack!"
+}
+
+text Route115_Text_JaidenPostBattle {
+    "But my POKéMON were ultra,\nweren't they?"
+}
+
+text Route115_Text_KoichiDefeat {
+    "Ouch, ouch, ouch!"
+}
+
+text Route115_Text_KoichiIntro {
+    "You!\pMy MACHOP!\pDemand a battle!"
+}
+
+text Route115_Text_KoichiPostBattle {
+    "My MACHOP crew!\pSo long as they seek power, I will\ngrow strong with them!"
+}
+
+text Route115_Text_KyraDefeat {
+    "Gasp, gasp…"
+}
+
+text Route115_Text_KyraIntro {
+    "I'll battle while I'm running!\nTry to keep up with me!"
+}
+
+text Route115_Text_KyraPostBattle {
+    "I made the mistake of trying to battle\nwhile running!\pI should take a run to calm down…"
+}
+
+text Route115_Text_MarleneDefeat {
+    "You've broken my concentration!"
+}
+
+text Route115_Text_MarleneIntro {
+    "You've disturbed my meditation…\nYou'll be punished for it."
+}
+
+text Route115_Text_MarlenePostBattle {
+    "I was meditating with my POKéMON.\nBut this place isn't very peaceful…"
+}
+
+text Route115_Text_NobDefeat {
+    "Ugwaaaah!\nMy head is busted!"
+}
+
+text Route115_Text_NobIntro {
+    "My strongest skill is busting bricks\nwith my forehead!"
+}
+
+text Route115_Text_NobPostBattle {
+    "I've been teaching my POKéMON karate.\pIt looks like they'll get a lot better\nthan me. I'm excited about that."
+}
+
+text Route115_Text_TimothyDefeat {
+    "You're much stronger than\nI'd imagined!"
+}
+
+text Route115_Text_TimothyIntro {
+    "Hm…\nYou seem rather capable…\nLet me keep you company!"
+}
+
+text Route115_Text_TimothyPostBattle {
+    "There is no such thing as a born genius.\nIt all depends on effort!\nThat is what I believe…"
 }

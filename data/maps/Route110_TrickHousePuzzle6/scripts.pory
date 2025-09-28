@@ -1,2 +1,39 @@
 mapscripts Route110_TrickHousePuzzle6_MapScripts {
 }
+
+
+text Route110_TrickHousePuzzle6_Text_BennyDefeat {
+    "Placeholder text for Route110_TrickHousePuzzle6_Text_BennyDefeat"
+}
+
+text Route110_TrickHousePuzzle6_Text_BennyIntro {
+    "Placeholder text for Route110_TrickHousePuzzle6_Text_BennyIntro"
+}
+
+text Route110_TrickHousePuzzle6_Text_BennyPostBattle {
+    "Placeholder text for Route110_TrickHousePuzzle6_Text_BennyPostBattle"
+}
+
+text Route110_TrickHousePuzzle6_Text_SebastianDefeat {
+    "Placeholder text for Route110_TrickHousePuzzle6_Text_SebastianDefeat"
+}
+
+text Route110_TrickHousePuzzle6_Text_SebastianIntro {
+    "Placeholder text for Route110_TrickHousePuzzle6_Text_SebastianIntro"
+}
+
+text Route110_TrickHousePuzzle6_Text_SebastianPostBattle {
+    "Placeholder text for Route110_TrickHousePuzzle6_Text_SebastianPostBattle"
+}
+
+text Route110_TrickHousePuzzle6_Text_SophiaDefeat {
+    "Placeholder text for Route110_TrickHousePuzzle6_Text_SophiaDefeat"
+}
+
+text Route110_TrickHousePuzzle6_Text_SophiaIntro {
+    "Placeholder text for Route110_TrickHousePuzzle6_Text_SophiaIntro"
+}
+
+text Route110_TrickHousePuzzle6_Text_SophiaPostBattle {
+    "Placeholder text for Route110_TrickHousePuzzle6_Text_SophiaPostBattle"
+}

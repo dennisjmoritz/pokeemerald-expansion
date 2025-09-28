@@ -2,7 +2,8 @@ mapscripts Route117_MapScripts {
 }
 
 script Route117_EventScript_Aisha {
-    end
+    trainerbattle_double(TRAINER_AISHA, Route117_Text_AishaIntro, Route117_Text_AishaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route117_Text_AishaPostBattle)
 }
 
 script Route117_EventScript_Anna {
@@ -10,7 +11,8 @@ script Route117_EventScript_Anna {
 }
 
 script Route117_EventScript_Brandi {
-    end
+    trainerbattle_double(TRAINER_BRANDI, Route117_Text_BrandiIntro, Route117_Text_BrandiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route117_Text_BrandiPostBattle)
 }
 
 script Route117_EventScript_DayCareSign {
@@ -19,11 +21,13 @@ script Route117_EventScript_DayCareSign {
 }
 
 script Route117_EventScript_Derek {
-    end
+    trainerbattle_double(TRAINER_DEREK, Route117_Text_DerekIntro, Route117_Text_DerekDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route117_Text_DerekPostBattle)
 }
 
 script Route117_EventScript_Dylan {
-    end
+    trainerbattle_double(TRAINER_DYLAN, Route117_Text_DylanIntro, Route117_Text_DylanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route117_Text_DylanPostBattle)
 }
 
 script Route117_EventScript_Girl {
@@ -31,7 +35,8 @@ script Route117_EventScript_Girl {
 }
 
 script Route117_EventScript_Isaac {
-    end
+    trainerbattle_double(TRAINER_ISAAC, Route117_Text_IsaacIntro, Route117_Text_IsaacDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route117_Text_IsaacPostBattle)
 }
 
 script Route117_EventScript_LittleBoy {
@@ -39,11 +44,13 @@ script Route117_EventScript_LittleBoy {
 }
 
 script Route117_EventScript_Lydia {
-    end
+    trainerbattle_double(TRAINER_LYDIA, Route117_Text_LydiaIntro, Route117_Text_LydiaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route117_Text_LydiaPostBattle)
 }
 
 script Route117_EventScript_Maria {
-    end
+    trainerbattle_double(TRAINER_MARIA, Route117_Text_MariaIntro, Route117_Text_MariaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route117_Text_MariaPostBattle)
 }
 
 script Route117_EventScript_Meg {
@@ -51,7 +58,8 @@ script Route117_EventScript_Meg {
 }
 
 script Route117_EventScript_Melina {
-    end
+    trainerbattle_double(TRAINER_MELINA, Route117_Text_MelinaIntro, Route117_Text_MelinaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route117_Text_MelinaPostBattle)
 }
 
 script Route117_EventScript_RouteSignMauville {
@@ -79,4 +87,101 @@ text Route117_Text_RouteSignVerdanturf {
 
 text Route117_Text_RouteSignMauville {
     format("ROUTE 117 {RIGHT_ARROW} MAUVILLE CITY")
+}
+
+
+text Route117_Text_AishaDefeat {
+    "I don't waste any time being angry\nover a loss--I would rather train."
+}
+
+text Route117_Text_AishaIntro {
+    "Concentrate on getting the win.\nThat's how I battle!"
+}
+
+text Route117_Text_AishaPostBattle {
+    "I think that if you worry about losing,\nyou're more likely to lose."
+}
+
+text Route117_Text_BrandiDefeat {
+    "Astonishing!"
+}
+
+text Route117_Text_BrandiIntro {
+    "Let me demonstrate the power\nhidden within a PSYCHIC POKéMON!"
+}
+
+text Route117_Text_BrandiPostBattle {
+    "PSYCHIC POKéMON are complex.\nYou should try catching some."
+}
+
+text Route117_Text_DerekDefeat {
+    "My ineptitude also remains\nunchanged…"
+}
+
+text Route117_Text_DerekIntro {
+    "Once a BUG CATCHER!\nAnd now a BUG MANIAC!\pBut my love for POKéMON remains\nunchanged!"
+}
+
+text Route117_Text_DerekPostBattle {
+    "All I did was follow my heart, and now\nthey call me a BUG MANIAC…\pStill, I am an expert on BUG POKéMON,\nso it's only natural that they call me\na BUG MANIAC."
+}
+
+text Route117_Text_DylanDefeat {
+    "I ran out of energy!"
+}
+
+text Route117_Text_DylanIntro {
+    "I'm in the middle of a triathlon, but,\nwhatever, let's have a battle!"
+}
+
+text Route117_Text_DylanPostBattle {
+    "I may have blown it…\pI might have dropped to last during\nthat battle…"
+}
+
+text Route117_Text_IsaacDefeat {
+    "You've raised yours superbly…"
+}
+
+text Route117_Text_IsaacIntro {
+    "Listen, could I get you to battle\nthe POKéMON I'm raising?"
+}
+
+text Route117_Text_IsaacPostBattle {
+    "POKéMON isn't all about power.\pPolishing a unique aspect of one's\ncharacter is another way of enjoying\nPOKéMON."
+}
+
+text Route117_Text_LydiaDefeat {
+    "Yes, they are growing properly."
+}
+
+text Route117_Text_LydiaIntro {
+    "Please, allow me to evaluate if you\nhave raised your POKéMON properly."
+}
+
+text Route117_Text_LydiaPostBattle {
+    "Try raising POKéMON with more\nattention to their character traits."
+}
+
+text Route117_Text_MariaDefeat {
+    "I need to get more practices in,\nI guess."
+}
+
+text Route117_Text_MariaIntro {
+    "I do my triathlon training with POKéMON,\nso I'm pretty confident about my speed."
+}
+
+text Route117_Text_MariaPostBattle {
+    "Training is meaningful only if you\nkeep it up regularly.\pOkay! I'll resume my training!\nTomorrow!"
+}
+
+text Route117_Text_MelinaDefeat {
+    "Oh, that's quite impressive!"
+}
+
+text Route117_Text_MelinaIntro {
+    "Isn't it nice? To battle while looking\nat pretty flowers?"
+}
+
+text Route117_Text_MelinaPostBattle {
+    "It feels wonderful to go for a jog\nwhile looking at flowers."
 }

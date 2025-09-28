@@ -2,11 +2,13 @@ mapscripts Route109_SeashoreHouse_MapScripts {
 }
 
 script Route109_SeashoreHouse_EventScript_Dwayne {
-    end
+    trainerbattle_double(TRAINER_DWAYNE, Route109_SeashoreHouse_Text_DwayneIntro, Route109_SeashoreHouse_Text_DwayneDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_SeashoreHouse_Text_DwaynePostBattle)
 }
 
 script Route109_SeashoreHouse_EventScript_Johanna {
-    end
+    trainerbattle_double(TRAINER_JOHANNA, Route109_SeashoreHouse_Text_JohannaIntro, Route109_SeashoreHouse_Text_JohannaDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_SeashoreHouse_Text_JohannaPostBattle)
 }
 
 script Route109_SeashoreHouse_EventScript_Owner {
@@ -14,6 +16,44 @@ script Route109_SeashoreHouse_EventScript_Owner {
 }
 
 script Route109_SeashoreHouse_EventScript_Simon {
-    end
+    trainerbattle_double(TRAINER_SIMON, Route109_SeashoreHouse_Text_SimonIntro, Route109_SeashoreHouse_Text_SimonDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_SeashoreHouse_Text_SimonPostBattle)
 }
 
+
+
+text Route109_SeashoreHouse_Text_DwayneDefeated {
+    "Placeholder text for Route109_SeashoreHouse_Text_DwayneDefeated"
+}
+
+text Route109_SeashoreHouse_Text_DwayneIntro {
+    "Placeholder text for Route109_SeashoreHouse_Text_DwayneIntro"
+}
+
+text Route109_SeashoreHouse_Text_DwaynePostBattle {
+    "Placeholder text for Route109_SeashoreHouse_Text_DwaynePostBattle"
+}
+
+text Route109_SeashoreHouse_Text_JohannaDefeated {
+    "Placeholder text for Route109_SeashoreHouse_Text_JohannaDefeated"
+}
+
+text Route109_SeashoreHouse_Text_JohannaIntro {
+    "Placeholder text for Route109_SeashoreHouse_Text_JohannaIntro"
+}
+
+text Route109_SeashoreHouse_Text_JohannaPostBattle {
+    "Placeholder text for Route109_SeashoreHouse_Text_JohannaPostBattle"
+}
+
+text Route109_SeashoreHouse_Text_SimonDefeated {
+    "Placeholder text for Route109_SeashoreHouse_Text_SimonDefeated"
+}
+
+text Route109_SeashoreHouse_Text_SimonIntro {
+    "Placeholder text for Route109_SeashoreHouse_Text_SimonIntro"
+}
+
+text Route109_SeashoreHouse_Text_SimonPostBattle {
+    "Placeholder text for Route109_SeashoreHouse_Text_SimonPostBattle"
+}

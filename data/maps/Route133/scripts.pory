@@ -2,30 +2,122 @@ mapscripts Route133_MapScripts {
 }
 
 script Route133_EventScript_Beck {
-    end
+    trainerbattle_double(TRAINER_BECK, Route133_Text_BeckIntro, Route133_Text_BeckDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route133_Text_BeckPostBattle)
 }
 
 script Route133_EventScript_Conor {
-    end
+    trainerbattle_double(TRAINER_CONOR, Route133_Text_ConorIntro, Route133_Text_ConorDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route133_Text_ConorPostBattle)
 }
 
 script Route133_EventScript_Debra {
-    end
+    trainerbattle_double(TRAINER_DEBRA, Route133_Text_DebraIntro, Route133_Text_DebraDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route133_Text_DebraPostBattle)
 }
 
 script Route133_EventScript_Franklin {
-    end
+    trainerbattle_double(TRAINER_FRANKLIN, Route133_Text_FranklinIntro, Route133_Text_FranklinDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route133_Text_FranklinPostBattle)
 }
 
 script Route133_EventScript_Linda {
-    end
+    trainerbattle_double(TRAINER_LINDA, Route133_Text_LindaIntro, Route133_Text_LindaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route133_Text_LindaPostBattle)
 }
 
 script Route133_EventScript_Mollie {
-    end
+    trainerbattle_double(TRAINER_MOLLIE, Route133_Text_MollieIntro, Route133_Text_MollieDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route133_Text_MolliePostBattle)
 }
 
 script Route133_EventScript_Warren {
-    end
+    trainerbattle_double(TRAINER_WARREN, Route133_Text_WarrenIntro, Route133_Text_WarrenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route133_Text_WarrenPostBattle)
 }
 
+
+
+text Route133_Text_BeckDefeat {
+    "You…\nYou're stunningly cool!"
+}
+
+text Route133_Text_BeckIntro {
+    "I came all the way out here with my\nBIRD POKéMON."
+}
+
+text Route133_Text_BeckPostBattle {
+    "I'd like to go back to FORTREE,\nbut I've grown to like this place, too."
+}
+
+text Route133_Text_ConorDefeat {
+    "You have a firm sense of purpose."
+}
+
+text Route133_Text_ConorIntro {
+    "Young people are too happy to go with\nthe flow. They're without direction."
+}
+
+text Route133_Text_ConorPostBattle {
+    "Don't let others lead you astray.\nDon't lose direction as you grow older."
+}
+
+text Route133_Text_DebraDefeat {
+    "Another loss…"
+}
+
+text Route133_Text_DebraIntro {
+    "I've led a life of woe and misery…\nI've been cast away, and this is where\nI've drifted…"
+}
+
+text Route133_Text_DebraPostBattle {
+    "A life adrift…\nI don't want it anymore!"
+}
+
+text Route133_Text_FranklinDefeat {
+    "Strong!\nToo much so!"
+}
+
+text Route133_Text_FranklinIntro {
+    "Did the currents carry you here, too?\nThis must have been fated.\nLet's battle!"
+}
+
+text Route133_Text_FranklinPostBattle {
+    "It's just my luck that a tough TRAINER\nlike you would drift here…\nI must be cursed…"
+}
+
+text Route133_Text_LindaDefeat {
+    "No! Please!"
+}
+
+text Route133_Text_LindaIntro {
+    "Welcome!\nI've been expecting you!"
+}
+
+text Route133_Text_LindaPostBattle {
+    "A strong child TRAINER…\nThat's so annoying!"
+}
+
+text Route133_Text_MollieDefeat {
+    "I may have lost thousands of times,\nbut a loss still stings."
+}
+
+text Route133_Text_MollieIntro {
+    "I must have battled thousands\nof times. I've lost count."
+}
+
+text Route133_Text_MolliePostBattle {
+    "Keep at this, youngster. So you can\nbecome like my husband and me."
+}
+
+text Route133_Text_WarrenDefeat {
+    "Darn it!\nMy way is still too slack!"
+}
+
+text Route133_Text_WarrenIntro {
+    "I want to win like everyone else, but I\nwon't raise POKéMON like everyone else."
+}
+
+text Route133_Text_WarrenPostBattle {
+    "It's way more fun to do things the way\nI want than to be like everybody else.\nI mean, that's obvious!"
+}

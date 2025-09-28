@@ -7,11 +7,13 @@ script SilphCo_10F_EventScript_FloorSign {
 }
 
 script SilphCo_10F_EventScript_Grunt {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_39, SilphCo_10F_Text_GruntIntro, SilphCo_10F_Text_GruntDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_10F_Text_GruntPostBattle)
 }
 
 script SilphCo_10F_EventScript_Travis {
-    end
+    trainerbattle_double(TRAINER_SCIENTIST_TRAVIS, SilphCo_10F_Text_TravisIntro, SilphCo_10F_Text_TravisDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_10F_Text_TravisPostBattle)
 }
 
 script SilphCo_10F_EventScript_WorkerF {
@@ -21,4 +23,29 @@ script SilphCo_10F_EventScript_WorkerF {
 
 text SilphCo_10F_Text_FloorSign {
     format("SILPH CO. HEAD OFFICE 10F")
+}
+
+
+text SilphCo_10F_Text_GruntDefeat {
+    "Placeholder text for SilphCo_10F_Text_GruntDefeat"
+}
+
+text SilphCo_10F_Text_GruntIntro {
+    "Placeholder text for SilphCo_10F_Text_GruntIntro"
+}
+
+text SilphCo_10F_Text_GruntPostBattle {
+    "Placeholder text for SilphCo_10F_Text_GruntPostBattle"
+}
+
+text SilphCo_10F_Text_TravisDefeat {
+    "Placeholder text for SilphCo_10F_Text_TravisDefeat"
+}
+
+text SilphCo_10F_Text_TravisIntro {
+    "Placeholder text for SilphCo_10F_Text_TravisIntro"
+}
+
+text SilphCo_10F_Text_TravisPostBattle {
+    "Placeholder text for SilphCo_10F_Text_TravisPostBattle"
 }

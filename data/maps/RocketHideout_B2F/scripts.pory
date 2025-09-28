@@ -2,6 +2,20 @@ mapscripts RocketHideout_B2F_MapScripts {
 }
 
 script RocketHideout_B2F_EventScript_Grunt {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_13, RocketHideout_B2F_Text_GruntIntro, RocketHideout_B2F_Text_GruntDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RocketHideout_B2F_Text_GruntPostBattle)
 }
 
+
+
+text RocketHideout_B2F_Text_GruntDefeat {
+    "Placeholder text for RocketHideout_B2F_Text_GruntDefeat"
+}
+
+text RocketHideout_B2F_Text_GruntIntro {
+    "Placeholder text for RocketHideout_B2F_Text_GruntIntro"
+}
+
+text RocketHideout_B2F_Text_GruntPostBattle {
+    "Placeholder text for RocketHideout_B2F_Text_GruntPostBattle"
+}

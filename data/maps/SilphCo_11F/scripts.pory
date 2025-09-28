@@ -15,11 +15,13 @@ script SilphCo_11F_EventScript_GiovanniTriggerRight {
 }
 
 script SilphCo_11F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_40, SilphCo_11F_Text_Grunt1Intro, SilphCo_11F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_11F_Text_Grunt1PostBattle)
 }
 
 script SilphCo_11F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_41, SilphCo_11F_Text_Grunt2Intro, SilphCo_11F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_11F_Text_Grunt2PostBattle)
 }
 
 script SilphCo_11F_EventScript_President {
@@ -33,4 +35,29 @@ script SilphCo_11F_EventScript_Secretary {
 
 text SilphCo_11F_Text_FloorSign {
     format("SILPH CO. HEAD OFFICE 11F")
+}
+
+
+text SilphCo_11F_Text_Grunt1Defeat {
+    "Placeholder text for SilphCo_11F_Text_Grunt1Defeat"
+}
+
+text SilphCo_11F_Text_Grunt1Intro {
+    "Placeholder text for SilphCo_11F_Text_Grunt1Intro"
+}
+
+text SilphCo_11F_Text_Grunt1PostBattle {
+    "Placeholder text for SilphCo_11F_Text_Grunt1PostBattle"
+}
+
+text SilphCo_11F_Text_Grunt2Defeat {
+    "Placeholder text for SilphCo_11F_Text_Grunt2Defeat"
+}
+
+text SilphCo_11F_Text_Grunt2Intro {
+    "Placeholder text for SilphCo_11F_Text_Grunt2Intro"
+}
+
+text SilphCo_11F_Text_Grunt2PostBattle {
+    "Placeholder text for SilphCo_11F_Text_Grunt2PostBattle"
 }

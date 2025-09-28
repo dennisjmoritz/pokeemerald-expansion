@@ -2,7 +2,8 @@ mapscripts CeladonCity_Gym_MapScripts {
 }
 
 script CeladonCity_Gym_EventScript_Bridget {
-    end
+    trainerbattle_double(TRAINER_BEAUTY_BRIDGET, CeladonCity_Gym_Text_BridgetIntro, CeladonCity_Gym_Text_BridgetDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CeladonCity_Gym_Text_BridgetPostBattle)
 }
 
 script CeladonCity_Gym_EventScript_Erika {
@@ -18,29 +19,120 @@ script CeladonCity_Gym_EventScript_GymStatue {
 }
 
 script CeladonCity_Gym_EventScript_Kay {
-    end
+    trainerbattle_double(TRAINER_LASS_KAY, CeladonCity_Gym_Text_KayIntro, CeladonCity_Gym_Text_KayDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CeladonCity_Gym_Text_KayPostBattle)
 }
 
 script CeladonCity_Gym_EventScript_Lisa {
-    end
+    trainerbattle_double(TRAINER_LASS_LISA, CeladonCity_Gym_Text_LisaIntro, CeladonCity_Gym_Text_LisaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CeladonCity_Gym_Text_LisaPostBattle)
 }
 
 script CeladonCity_Gym_EventScript_Lori {
-    end
+    trainerbattle_double(TRAINER_BEAUTY_LORI, CeladonCity_Gym_Text_LoriIntro, CeladonCity_Gym_Text_LoriDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CeladonCity_Gym_Text_LoriPostBattle)
 }
 
 script CeladonCity_Gym_EventScript_Mary {
-    end
+    trainerbattle_double(TRAINER_COOLTRAINER_MARY, CeladonCity_Gym_Text_MaryIntro, CeladonCity_Gym_Text_MaryDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CeladonCity_Gym_Text_MaryPostBattle)
 }
 
 script CeladonCity_Gym_EventScript_Tamia {
-    end
+    trainerbattle_double(TRAINER_BEAUTY_TAMIA, CeladonCity_Gym_Text_TamiaIntro, CeladonCity_Gym_Text_TamiaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CeladonCity_Gym_Text_TamiaPostBattle)
 }
 
 script CeladonCity_Gym_EventScript_Tina {
-    end
+    trainerbattle_double(TRAINER_PICNICKER_TINA, CeladonCity_Gym_Text_TinaIntro, CeladonCity_Gym_Text_TinaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CeladonCity_Gym_Text_TinaPostBattle)
 }
 
 text CeladonCity_Gym_Text_GymStatue {
     format("CELADON POKéMON GYM LEADER: ERIKA\p WINNING TRAINERS: {RIVAL}")
+}
+
+
+text CeladonCity_Gym_Text_BridgetDefeat {
+    "Placeholder text for CeladonCity_Gym_Text_BridgetDefeat"
+}
+
+text CeladonCity_Gym_Text_BridgetIntro {
+    "Placeholder text for CeladonCity_Gym_Text_BridgetIntro"
+}
+
+text CeladonCity_Gym_Text_BridgetPostBattle {
+    "Placeholder text for CeladonCity_Gym_Text_BridgetPostBattle"
+}
+
+text CeladonCity_Gym_Text_KayDefeat {
+    "Placeholder text for CeladonCity_Gym_Text_KayDefeat"
+}
+
+text CeladonCity_Gym_Text_KayIntro {
+    "Placeholder text for CeladonCity_Gym_Text_KayIntro"
+}
+
+text CeladonCity_Gym_Text_KayPostBattle {
+    "Placeholder text for CeladonCity_Gym_Text_KayPostBattle"
+}
+
+text CeladonCity_Gym_Text_LisaDefeat {
+    "Placeholder text for CeladonCity_Gym_Text_LisaDefeat"
+}
+
+text CeladonCity_Gym_Text_LisaIntro {
+    "Placeholder text for CeladonCity_Gym_Text_LisaIntro"
+}
+
+text CeladonCity_Gym_Text_LisaPostBattle {
+    "Placeholder text for CeladonCity_Gym_Text_LisaPostBattle"
+}
+
+text CeladonCity_Gym_Text_LoriDefeat {
+    "Placeholder text for CeladonCity_Gym_Text_LoriDefeat"
+}
+
+text CeladonCity_Gym_Text_LoriIntro {
+    "Placeholder text for CeladonCity_Gym_Text_LoriIntro"
+}
+
+text CeladonCity_Gym_Text_LoriPostBattle {
+    "Placeholder text for CeladonCity_Gym_Text_LoriPostBattle"
+}
+
+text CeladonCity_Gym_Text_MaryDefeat {
+    "Placeholder text for CeladonCity_Gym_Text_MaryDefeat"
+}
+
+text CeladonCity_Gym_Text_MaryIntro {
+    "Placeholder text for CeladonCity_Gym_Text_MaryIntro"
+}
+
+text CeladonCity_Gym_Text_MaryPostBattle {
+    "Placeholder text for CeladonCity_Gym_Text_MaryPostBattle"
+}
+
+text CeladonCity_Gym_Text_TamiaDefeat {
+    "Placeholder text for CeladonCity_Gym_Text_TamiaDefeat"
+}
+
+text CeladonCity_Gym_Text_TamiaIntro {
+    "Placeholder text for CeladonCity_Gym_Text_TamiaIntro"
+}
+
+text CeladonCity_Gym_Text_TamiaPostBattle {
+    "Placeholder text for CeladonCity_Gym_Text_TamiaPostBattle"
+}
+
+text CeladonCity_Gym_Text_TinaDefeat {
+    "Placeholder text for CeladonCity_Gym_Text_TinaDefeat"
+}
+
+text CeladonCity_Gym_Text_TinaIntro {
+    "Placeholder text for CeladonCity_Gym_Text_TinaIntro"
+}
+
+text CeladonCity_Gym_Text_TinaPostBattle {
+    "Placeholder text for CeladonCity_Gym_Text_TinaPostBattle"
 }

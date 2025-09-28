@@ -2,7 +2,8 @@ mapscripts Route120_MapScripts {
 }
 
 script Route120_EventScript_Angelica {
-    end
+    trainerbattle_double(TRAINER_ANGELICA, Route120_Text_AngelicaIntro, Route120_Text_AngelicaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_AngelicaPostBattle)
 }
 
 script Route120_EventScript_BerryBeauty {
@@ -11,51 +12,63 @@ script Route120_EventScript_BerryBeauty {
 
 
 script Route120_EventScript_Callie {
-    end
+    trainerbattle_double(TRAINER_CALLIE, Route120_Text_CallieIntro, Route120_Text_CallieDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_CalliePostBattle)
 }
 
 script Route120_EventScript_Chip {
-    end
+    trainerbattle_double(TRAINER_CHIP, Route120_Text_ChipIntro, Route120_Text_ChipDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_ChipPostBattle)
 }
 
 script Route120_EventScript_Clarissa {
-    end
+    trainerbattle_double(TRAINER_CLARISSA, Route120_Text_ClarissaIntro, Route120_Text_ClarissaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_ClarissaPostBattle)
 }
 
 script Route120_EventScript_Colin {
-    end
+    trainerbattle_double(TRAINER_COLIN, Route120_Text_ColinIntro, Route120_Text_ColinDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_ColinPostBattle)
 }
 
 script Route120_EventScript_Jeffrey {
-    end
+    trainerbattle_double(TRAINER_JEFFREY, Route120_Text_JeffreyIntro, Route120_Text_JeffreyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_JeffreyPostBattle)
 }
 
 script Route120_EventScript_Jenna {
-    end
+    trainerbattle_double(TRAINER_JENNA, Route120_Text_JennaIntro, Route120_Text_JennaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_JennaPostBattle)
 }
 
 script Route120_EventScript_Jennifer {
-    end
+    trainerbattle_double(TRAINER_JENNIFER, Route120_Text_JenniferIntro, Route120_Text_JenniferDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_JenniferPostBattle)
 }
 
 script Route120_EventScript_Keigo {
-    end
+    trainerbattle_double(TRAINER_KEIGO, Route120_Text_KeigoIntro, Route120_Text_KeigoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_KeigoPostBattle)
 }
 
 script Route120_EventScript_Leonel {
-    end
+    trainerbattle_double(TRAINER_LEONEL, Route120_Text_LeonelIntro, Route120_Text_LeonelDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_LeonelPostBattle)
 }
 
 script Route120_EventScript_Lorenzo {
-    end
+    trainerbattle_double(TRAINER_LORENZO, Route120_Text_LorenzoIntro, Route120_Text_LorenzoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_LorenzoPostBattle)
 }
 
 script Route120_EventScript_Riley {
-    end
+    trainerbattle_double(TRAINER_RILEY, Route120_Text_RileyIntro, Route120_Text_RileyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_RileyPostBattle)
 }
 
 script Route120_EventScript_Robert {
-    end
+    trainerbattle_double(TRAINER_ROBERT, Route120_Text_RobertIntro, Route120_Text_RobertDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route120_Text_RobertPostBattle)
 }
 
 script Route120_EventScript_RouteSign121 {
@@ -79,4 +92,161 @@ text Route120_Text_RouteSign121 {
 
 text Route120_Text_RouteSignFortree {
     format("ROUTE 120 {LEFT_ARROW} FORTREE CITY")
+}
+
+
+text Route120_Text_AngelicaDefeat {
+    "You've completely ruined my beauty…"
+}
+
+text Route120_Text_AngelicaIntro {
+    "Me, POKéMON, and my parasol…\pIf any one of them is missing,\nthe picture of beauty will be ruined."
+}
+
+text Route120_Text_AngelicaPostBattle {
+    "A parasol wouldn't suit you at all.\pWhy, something like this would only\nget in your way."
+}
+
+text Route120_Text_CallieDefeat {
+    "Ouch!\nI was the one to get hurt."
+}
+
+text Route120_Text_CallieIntro {
+    "If you don't pay attention,\nyou could get hurt!"
+}
+
+text Route120_Text_CalliePostBattle {
+    "I wonder… Should I evolve my POKéMON?\nThey're cute the way they are, though."
+}
+
+text Route120_Text_ChipDefeat {
+    "What a disgraceful setback…"
+}
+
+text Route120_Text_ChipIntro {
+    "Who might you be?\pAre you perhaps searching for ancient\nruins that are rumored to possibly\nexist according to legend?"
+}
+
+text Route120_Text_ChipPostBattle {
+    "That giant rock… I would like to\nbelieve it may indeed contain ancient\nruins. But I see no entrance."
+}
+
+text Route120_Text_ClarissaDefeat {
+    "A parasol can't ward off POKéMON\nattacks…"
+}
+
+text Route120_Text_ClarissaIntro {
+    "Why am I carrying this parasol?\pI'll tell you if you can win against me."
+}
+
+text Route120_Text_ClarissaPostBattle {
+    "I don't think strong sunlight is good\nfor my POKéMON.\nSo I shield them with my parasol."
+}
+
+text Route120_Text_ColinDefeat {
+    "You soared above me!"
+}
+
+text Route120_Text_ColinIntro {
+    "Do you have any moves that can strike\na flying POKéMON?"
+}
+
+text Route120_Text_ColinPostBattle {
+    "The move FLY is convenient,\ndon't you think?\pWhile the POKéMON is flying,\nalmost no moves can strike it."
+}
+
+text Route120_Text_JeffreyDefeat {
+    "Lost it…"
+}
+
+text Route120_Text_JeffreyIntro {
+    "… … … … … …\n… … … … … …\nWant to battle?"
+}
+
+text Route120_Text_JeffreyPostBattle {
+    "… … … … … …\n… … … … … …\nI'll try harder…"
+}
+
+text Route120_Text_JennaDefeat {
+    "I'm totally fit, but…"
+}
+
+text Route120_Text_JennaIntro {
+    "How's your physical fitness?\nIf you're not fit, you could have a\nrough time in critical situations."
+}
+
+text Route120_Text_JennaPostBattle {
+    "Fitness training is in my routine.\nI always run with my POKéMON."
+}
+
+text Route120_Text_JenniferDefeat {
+    "You're obviously thinking."
+}
+
+text Route120_Text_JenniferIntro {
+    "POKéMON have many special abilities.\nIf you want to become a first-class\nTRAINER, learn about them."
+}
+
+text Route120_Text_JenniferPostBattle {
+    "The special abilities of POKéMON\nwill make battle styles change."
+}
+
+text Route120_Text_KeigoDefeat {
+    "The creation of new ninja techniques\nis but a distant dream…"
+}
+
+text Route120_Text_KeigoIntro {
+    "I will adopt the movements of POKéMON\nand create new ninja techniques."
+}
+
+text Route120_Text_KeigoPostBattle {
+    "Perhaps I ought to apprentice under\na ninja sensei."
+}
+
+text Route120_Text_LeonelDefeat {
+    "I've seen your policy in action!"
+}
+
+text Route120_Text_LeonelIntro {
+    "Your party POKéMON…\nDo you have different types?"
+}
+
+text Route120_Text_LeonelPostBattle {
+    "I think it's awesome you're so strong\nbattling with your favorite POKéMON."
+}
+
+text Route120_Text_LorenzoDefeat {
+    "With POKéMON that strong, you're in\nno danger of needing rescue!"
+}
+
+text Route120_Text_LorenzoIntro {
+    "I'll check your POKéMON and see if\nthey're fit for the outdoors."
+}
+
+text Route120_Text_LorenzoPostBattle {
+    "To travel wherever your heart desires\nwith POKéMON…\nThat's the joy of being a TRAINER."
+}
+
+text Route120_Text_RileyDefeat {
+    "I lost!\nI should camouflage my shame!"
+}
+
+text Route120_Text_RileyIntro {
+    "We ninja conceal ourselves under our\ncamouflage cloaks.\nI bet you didn't know where I was!"
+}
+
+text Route120_Text_RileyPostBattle {
+    "Our camouflage cloaks are all\nhandmade."
+}
+
+text Route120_Text_RobertDefeat {
+    "Your POKéMON were stronger…"
+}
+
+text Route120_Text_RobertIntro {
+    "My POKéMON is strong!\nHow about yours?"
+}
+
+text Route120_Text_RobertPostBattle {
+    "A POKéMON that grows steadily is one\nyou can count on."
 }

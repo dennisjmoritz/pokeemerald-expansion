@@ -1,2 +1,39 @@
 mapscripts Route110_TrickHousePuzzle1_MapScripts {
 }
+
+
+text Route110_TrickHousePuzzle1_Text_EddieDefeat {
+    "Placeholder text for Route110_TrickHousePuzzle1_Text_EddieDefeat"
+}
+
+text Route110_TrickHousePuzzle1_Text_EddieIntro {
+    "Placeholder text for Route110_TrickHousePuzzle1_Text_EddieIntro"
+}
+
+text Route110_TrickHousePuzzle1_Text_EddiePostBattle {
+    "Placeholder text for Route110_TrickHousePuzzle1_Text_EddiePostBattle"
+}
+
+text Route110_TrickHousePuzzle1_Text_RobinDefeat {
+    "Placeholder text for Route110_TrickHousePuzzle1_Text_RobinDefeat"
+}
+
+text Route110_TrickHousePuzzle1_Text_RobinIntro {
+    "Placeholder text for Route110_TrickHousePuzzle1_Text_RobinIntro"
+}
+
+text Route110_TrickHousePuzzle1_Text_RobinPostBattle {
+    "Placeholder text for Route110_TrickHousePuzzle1_Text_RobinPostBattle"
+}
+
+text Route110_TrickHousePuzzle1_Text_SallyDefeat {
+    "Placeholder text for Route110_TrickHousePuzzle1_Text_SallyDefeat"
+}
+
+text Route110_TrickHousePuzzle1_Text_SallyIntro {
+    "Placeholder text for Route110_TrickHousePuzzle1_Text_SallyIntro"
+}
+
+text Route110_TrickHousePuzzle1_Text_SallyPostBattle {
+    "Placeholder text for Route110_TrickHousePuzzle1_Text_SallyPostBattle"
+}

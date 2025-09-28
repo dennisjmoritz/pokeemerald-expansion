@@ -2,7 +2,8 @@ mapscripts Route131_MapScripts {
 }
 
 script Route131_EventScript_Herman {
-    end
+    trainerbattle_double(TRAINER_HERMAN, Route131_Text_HermanIntro, Route131_Text_HermanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route131_Text_HermanPostBattle)
 }
 
 script Route131_EventScript_Ian {
@@ -10,11 +11,13 @@ script Route131_EventScript_Ian {
 }
 
 script Route131_EventScript_Kara {
-    end
+    trainerbattle_double(TRAINER_KARA, Route131_Text_KaraIntro, Route131_Text_KaraDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route131_Text_KaraPostBattle)
 }
 
 script Route131_EventScript_Kevin {
-    end
+    trainerbattle_double(TRAINER_KEVIN, Route131_Text_KevinIntro, Route131_Text_KevinDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route131_Text_KevinPostBattle)
 }
 
 script Route131_EventScript_Reli {
@@ -22,14 +25,90 @@ script Route131_EventScript_Reli {
 }
 
 script Route131_EventScript_Richard {
-    end
+    trainerbattle_double(TRAINER_RICHARD, Route131_Text_RichardIntro, Route131_Text_RichardDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route131_Text_RichardPostBattle)
 }
 
 script Route131_EventScript_Susie {
-    end
+    trainerbattle_double(TRAINER_SUSIE, Route131_Text_SusieIntro, Route131_Text_SusieDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route131_Text_SusiePostBattle)
 }
 
 script Route131_EventScript_Talia {
-    end
+    trainerbattle_double(TRAINER_TALIA, Route131_Text_TaliaIntro, Route131_Text_TaliaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route131_Text_TaliaPostBattle)
 }
 
+
+
+text Route131_Text_HermanDefeat {
+    "Bleah!"
+}
+
+text Route131_Text_HermanIntro {
+    "The sea… The sea… The sea…\nThe sea as far as these eyes can see!\nI'm sick and tired of the sea!"
+}
+
+text Route131_Text_HermanPostBattle {
+    "Bored I am by the sea, but swim I must.\pI'm a born swimmer!\nThat's what I am."
+}
+
+text Route131_Text_KaraDefeat {
+    "I'm out of my depth!"
+}
+
+text Route131_Text_KaraIntro {
+    "Why do men love bathing suits so much?\pThey all ogle me!"
+}
+
+text Route131_Text_KaraPostBattle {
+    "Maybe it's not my bathing suit that\nmakes men look. It must be my beauty!"
+}
+
+text Route131_Text_KevinDefeat {
+    "Oops!"
+}
+
+text Route131_Text_KevinIntro {
+    "The people of PACIFIDLOG are\na peaceful bunch.\pThey never get angry.\nThat goes for me, too."
+}
+
+text Route131_Text_KevinPostBattle {
+    "Tch! …Oh, wait.\nI'm not angry. Honestly!\pBut, boy, you're strong!\nHahaha!"
+}
+
+text Route131_Text_RichardDefeat {
+    "POKéMON raised by TRAINERS are\nseriously tough…"
+}
+
+text Route131_Text_RichardIntro {
+    "The sea is teeming with POKéMON.\nIt's not easy swimming, I tell you."
+}
+
+text Route131_Text_RichardPostBattle {
+    "Gasp… Gasp…\nI'm wiped out…\pThe going's easy. It's the leaving\nthat's the hard part.\pWill I have any energy left to make\nthe return trip?"
+}
+
+text Route131_Text_SusieDefeat {
+    "You're tough in spite of the way\nyou look!"
+}
+
+text Route131_Text_SusieIntro {
+    "Hi, sweetie, wait!\nWe should battle, you and I!"
+}
+
+text Route131_Text_SusiePostBattle {
+    "Did you see a guy over there who whines\nthat he's bored of the sea?\pThat's all talk.\nHe's hopelessly in love with the sea!"
+}
+
+text Route131_Text_TaliaDefeat {
+    "Oh?\nDid I lose?"
+}
+
+text Route131_Text_TaliaIntro {
+    "If you can beat me, I'll give you some\ngreat information!"
+}
+
+text Route131_Text_TaliaPostBattle {
+    "There is an odd place nearby.\nThere's a huge tower there.\nWhy don't you go take a look?"
+}

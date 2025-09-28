@@ -6,7 +6,8 @@ script Route103_EventScript_Amy {
 }
 
 script Route103_EventScript_Andrew {
-    end
+    trainerbattle_double(TRAINER_ANDREW, Route103_Text_AndrewIntro, Route103_Text_AndrewDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route103_Text_AndrewPostBattle)
 }
 
 script Route103_EventScript_Boy {
@@ -14,11 +15,13 @@ script Route103_EventScript_Boy {
 }
 
 script Route103_EventScript_Daisy {
-    end
+    trainerbattle_double(TRAINER_DAISY, Route103_Text_DaisyIntro, Route103_Text_DaisyDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route103_Text_DaisyPostBattle)
 }
 
 script Route103_EventScript_Isabelle {
-    end
+    trainerbattle_double(TRAINER_ISABELLE, Route103_Text_IsabelleIntro, Route103_Text_IsabelleDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route103_Text_IsabellePostBattle)
 }
 
 script Route103_EventScript_Liv {
@@ -30,19 +33,23 @@ script Route103_EventScript_Man {
 }
 
 script Route103_EventScript_Marcos {
-    end
+    trainerbattle_double(TRAINER_MARCOS, Route103_Text_MarcosIntro, Route103_Text_MarcosDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route103_Text_MarcosPostBattle)
 }
 
 script Route103_EventScript_Miguel {
-    end
+    trainerbattle_double(TRAINER_MIGUEL, Route103_Text_MiguelIntro, Route103_Text_MiguelDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route103_Text_MiguelPostBattle)
 }
 
 script Route103_EventScript_Pete {
-    end
+    trainerbattle_double(TRAINER_PETE, Route103_Text_PeteIntro, Route103_Text_PeteDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route103_Text_PetePostBattle)
 }
 
 script Route103_EventScript_Rhett {
-    end
+    trainerbattle_double(TRAINER_RHETT, Route103_Text_RhettIntro, Route103_Text_RhettDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route103_Text_RhettPostBattle)
 }
 
 script Route103_EventScript_Rival {
@@ -57,4 +64,89 @@ script Route103_EventScript_RouteSign {
 
 text Route103_Text_RouteSign {
     format("ROUTE 103 {DOWN_ARROW} OLDALE TOWN")
+}
+
+
+text Route103_Text_AndrewDefeated {
+    "Gah! Lost it!\nI'm even more annoyed now!"
+}
+
+text Route103_Text_AndrewIntro {
+    "Gah! My fishing line's all snarled up!\nI'm getting frustrated and mean!\nThat's it! Battle me!"
+}
+
+text Route103_Text_AndrewPostBattle {
+    "Gah, I'm still boiling mad…\nGrrrrr…"
+}
+
+text Route103_Text_DaisyDefeated {
+    "You weren't led astray by our aroma…"
+}
+
+text Route103_Text_DaisyIntro {
+    "Did you feel the tug of our\nsoul-soothing fragrance?"
+}
+
+text Route103_Text_DaisyPostBattle {
+    "Aromatherapy is a form of mental\nhealing that works with fragrances."
+}
+
+text Route103_Text_IsabelleDefeated {
+    "Groan…"
+}
+
+text Route103_Text_IsabelleIntro {
+    "Watch where you're going!\nWe're going to crash!"
+}
+
+text Route103_Text_IsabellePostBattle {
+    "I'm a poor swimmer so I was practicing…\nSorry for almost crashing into you."
+}
+
+text Route103_Text_MarcosDefeated {
+    "My one-man show is ruined…"
+}
+
+text Route103_Text_MarcosIntro {
+    "Did my guitar's wailing draw you in?"
+}
+
+text Route103_Text_MarcosPostBattle {
+    "I was playing my guitar where few\npeople were around, but a lot of fans\nhave gathered.\pHeh, maybe I should turn pro."
+}
+
+text Route103_Text_MiguelDefeated {
+    "Oh, my gosh!\nMy darling POKéMON!"
+}
+
+text Route103_Text_MiguelIntro {
+    "My POKéMON is delightfully adorable!\nDon't be shy--I'll show you!"
+}
+
+text Route103_Text_MiguelPostBattle {
+    "My delightful POKéMON looks darling\neven when it's fainted!"
+}
+
+text Route103_Text_PeteDefeated {
+    "Oh, that's good going!"
+}
+
+text Route103_Text_PeteIntro {
+    "This sort of distance…\nYou should just swim it!"
+}
+
+text Route103_Text_PetePostBattle {
+    "Oh, I understand where you're coming\nfrom now.\pIf I had a POKéMON that trusty,\nI'd want to SURF on it, too!"
+}
+
+text Route103_Text_RhettDefeated {
+    "Whoa!\nThe kid can rock!"
+}
+
+text Route103_Text_RhettIntro {
+    "Whoa!\nHow'd you get into a space this small?"
+}
+
+text Route103_Text_RhettPostBattle {
+    "Do you like cramped quarters\nlike this?"
 }

@@ -12,11 +12,13 @@ script SSTidalRooms_EventScript_Bed {
 }
 
 script SSTidalRooms_EventScript_Colton {
-    end
+    trainerbattle_double(TRAINER_COLTON, SSTidalRooms_Text_ColtonIntro, SSTidalRooms_Text_ColtonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSTidalRooms_Text_ColtonPostBattle)
 }
 
 script SSTidalRooms_EventScript_Garret {
-    end
+    trainerbattle_double(TRAINER_GARRET, SSTidalRooms_Text_GarretIntro, SSTidalRooms_Text_GarretDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSTidalRooms_Text_GarretPostBattle)
 }
 
 script SSTidalRooms_EventScript_Jed {
@@ -28,11 +30,13 @@ script SSTidalRooms_EventScript_Lea {
 }
 
 script SSTidalRooms_EventScript_Micah {
-    end
+    trainerbattle_double(TRAINER_MICAH, SSTidalRooms_Text_MicahIntro, SSTidalRooms_Text_MicahDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSTidalRooms_Text_MicahPostBattle)
 }
 
 script SSTidalRooms_EventScript_Naomi {
-    end
+    trainerbattle_double(TRAINER_NAOMI, SSTidalRooms_Text_NaomiIntro, SSTidalRooms_Text_NaomiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSTidalRooms_Text_NaomiPostBattle)
 }
 
 script SSTidalRooms_EventScript_SnatchGiver {
@@ -40,10 +44,72 @@ script SSTidalRooms_EventScript_SnatchGiver {
 }
 
 script SSTidalRooms_EventScript_Thomas {
-    end
+    trainerbattle_double(TRAINER_THOMAS, SSTidalRooms_Text_ThomasIntro, SSTidalRooms_Text_ThomasDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSTidalRooms_Text_ThomasPostBattle)
 }
 
 
 text SSTidalRooms_Text_TakeRestOnBed {
     format("There's a bed… Let's take a rest.")
+}
+
+
+text SSTidalRooms_Text_ColtonDefeat {
+    "Placeholder text for SSTidalRooms_Text_ColtonDefeat"
+}
+
+text SSTidalRooms_Text_ColtonIntro {
+    "Placeholder text for SSTidalRooms_Text_ColtonIntro"
+}
+
+text SSTidalRooms_Text_ColtonPostBattle {
+    "Placeholder text for SSTidalRooms_Text_ColtonPostBattle"
+}
+
+text SSTidalRooms_Text_GarretDefeat {
+    "Placeholder text for SSTidalRooms_Text_GarretDefeat"
+}
+
+text SSTidalRooms_Text_GarretIntro {
+    "Placeholder text for SSTidalRooms_Text_GarretIntro"
+}
+
+text SSTidalRooms_Text_GarretPostBattle {
+    "Placeholder text for SSTidalRooms_Text_GarretPostBattle"
+}
+
+text SSTidalRooms_Text_MicahDefeat {
+    "Placeholder text for SSTidalRooms_Text_MicahDefeat"
+}
+
+text SSTidalRooms_Text_MicahIntro {
+    "Placeholder text for SSTidalRooms_Text_MicahIntro"
+}
+
+text SSTidalRooms_Text_MicahPostBattle {
+    "Placeholder text for SSTidalRooms_Text_MicahPostBattle"
+}
+
+text SSTidalRooms_Text_NaomiDefeat {
+    "Placeholder text for SSTidalRooms_Text_NaomiDefeat"
+}
+
+text SSTidalRooms_Text_NaomiIntro {
+    "Placeholder text for SSTidalRooms_Text_NaomiIntro"
+}
+
+text SSTidalRooms_Text_NaomiPostBattle {
+    "Placeholder text for SSTidalRooms_Text_NaomiPostBattle"
+}
+
+text SSTidalRooms_Text_ThomasDefeat {
+    "Placeholder text for SSTidalRooms_Text_ThomasDefeat"
+}
+
+text SSTidalRooms_Text_ThomasIntro {
+    "Placeholder text for SSTidalRooms_Text_ThomasIntro"
+}
+
+text SSTidalRooms_Text_ThomasPostBattle {
+    "Placeholder text for SSTidalRooms_Text_ThomasPostBattle"
 }

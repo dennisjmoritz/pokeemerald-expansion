@@ -2,7 +2,8 @@ mapscripts MtEmber_Exterior_MapScripts {
 }
 
 script MtEmber_Exterior_EventScript_Beth {
-    end
+    trainerbattle_double(TRAINER_PKMN_RANGER_BETH, MtEmber_Exterior_Text_BethIntro, MtEmber_Exterior_Text_BethDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtEmber_Exterior_Text_BethPostBattle)
 }
 
 script MtEmber_Exterior_EventScript_Grunt1 {
@@ -14,14 +15,53 @@ script MtEmber_Exterior_EventScript_Grunt2 {
 }
 
 script MtEmber_Exterior_EventScript_Jocelyn {
-    end
+    trainerbattle_double(TRAINER_CRUSH_GIRL_JOCELYN, MtEmber_Exterior_Text_JocelynIntro, MtEmber_Exterior_Text_JocelynDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtEmber_Exterior_Text_JocelynPostBattle)
 }
 
 script MtEmber_Exterior_EventScript_Logan {
-    end
+    trainerbattle_double(TRAINER_PKMN_RANGER_LOGAN, MtEmber_Exterior_Text_LoganIntro, MtEmber_Exterior_Text_LoganDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtEmber_Exterior_Text_LoganPostBattle)
 }
 
 script MtEmber_Exterior_EventScript_RocketPasswordScene {
     end
 }
 
+
+
+text MtEmber_Exterior_Text_BethDefeat {
+    "Placeholder text for MtEmber_Exterior_Text_BethDefeat"
+}
+
+text MtEmber_Exterior_Text_BethIntro {
+    "Placeholder text for MtEmber_Exterior_Text_BethIntro"
+}
+
+text MtEmber_Exterior_Text_BethPostBattle {
+    "Placeholder text for MtEmber_Exterior_Text_BethPostBattle"
+}
+
+text MtEmber_Exterior_Text_JocelynDefeat {
+    "Placeholder text for MtEmber_Exterior_Text_JocelynDefeat"
+}
+
+text MtEmber_Exterior_Text_JocelynIntro {
+    "Placeholder text for MtEmber_Exterior_Text_JocelynIntro"
+}
+
+text MtEmber_Exterior_Text_JocelynPostBattle {
+    "Placeholder text for MtEmber_Exterior_Text_JocelynPostBattle"
+}
+
+text MtEmber_Exterior_Text_LoganDefeat {
+    "Placeholder text for MtEmber_Exterior_Text_LoganDefeat"
+}
+
+text MtEmber_Exterior_Text_LoganIntro {
+    "Placeholder text for MtEmber_Exterior_Text_LoganIntro"
+}
+
+text MtEmber_Exterior_Text_LoganPostBattle {
+    "Placeholder text for MtEmber_Exterior_Text_LoganPostBattle"
+}

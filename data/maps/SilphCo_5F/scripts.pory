@@ -2,11 +2,13 @@ mapscripts SilphCo_5F_MapScripts {
 }
 
 script SilphCo_5F_EventScript_Beau {
-    end
+    trainerbattle_double(TRAINER_SCIENTIST_BEAU, SilphCo_5F_Text_BeauIntro, SilphCo_5F_Text_BeauDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_5F_Text_BeauPostBattle)
 }
 
 script SilphCo_5F_EventScript_Dalton {
-    end
+    trainerbattle_double(TRAINER_JUGGLER_DALTON, SilphCo_5F_Text_DaltonIntro, SilphCo_5F_Text_DaltonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_5F_Text_DaltonPostBattle)
 }
 
 script SilphCo_5F_EventScript_FloorSign {
@@ -15,11 +17,13 @@ script SilphCo_5F_EventScript_FloorSign {
 }
 
 script SilphCo_5F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_28, SilphCo_5F_Text_Grunt1Intro, SilphCo_5F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_5F_Text_Grunt1PostBattle)
 }
 
 script SilphCo_5F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_29, SilphCo_5F_Text_Grunt2Intro, SilphCo_5F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_5F_Text_Grunt2PostBattle)
 }
 
 script SilphCo_5F_EventScript_PokemonReport1 {
@@ -56,4 +60,53 @@ text SilphCo_5F_Text_Over350TechniquesConfirmed {
 
 text SilphCo_5F_Text_FloorSign {
     format("SILPH CO. HEAD OFFICE 5F")
+}
+
+
+text SilphCo_5F_Text_BeauDefeat {
+    "Placeholder text for SilphCo_5F_Text_BeauDefeat"
+}
+
+text SilphCo_5F_Text_BeauIntro {
+    "Placeholder text for SilphCo_5F_Text_BeauIntro"
+}
+
+text SilphCo_5F_Text_BeauPostBattle {
+    "Placeholder text for SilphCo_5F_Text_BeauPostBattle"
+}
+
+text SilphCo_5F_Text_DaltonDefeat {
+    "Placeholder text for SilphCo_5F_Text_DaltonDefeat"
+}
+
+text SilphCo_5F_Text_DaltonIntro {
+    "Placeholder text for SilphCo_5F_Text_DaltonIntro"
+}
+
+text SilphCo_5F_Text_DaltonPostBattle {
+    "Placeholder text for SilphCo_5F_Text_DaltonPostBattle"
+}
+
+text SilphCo_5F_Text_Grunt1Defeat {
+    "Placeholder text for SilphCo_5F_Text_Grunt1Defeat"
+}
+
+text SilphCo_5F_Text_Grunt1Intro {
+    "Placeholder text for SilphCo_5F_Text_Grunt1Intro"
+}
+
+text SilphCo_5F_Text_Grunt1PostBattle {
+    "Placeholder text for SilphCo_5F_Text_Grunt1PostBattle"
+}
+
+text SilphCo_5F_Text_Grunt2Defeat {
+    "Placeholder text for SilphCo_5F_Text_Grunt2Defeat"
+}
+
+text SilphCo_5F_Text_Grunt2Intro {
+    "Placeholder text for SilphCo_5F_Text_Grunt2Intro"
+}
+
+text SilphCo_5F_Text_Grunt2PostBattle {
+    "Placeholder text for SilphCo_5F_Text_Grunt2PostBattle"
 }

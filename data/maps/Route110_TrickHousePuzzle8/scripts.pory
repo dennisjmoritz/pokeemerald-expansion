@@ -1,2 +1,39 @@
 mapscripts Route110_TrickHousePuzzle8_MapScripts {
 }
+
+
+text Route110_TrickHousePuzzle8_Text_KeiraDefeat {
+    "Placeholder text for Route110_TrickHousePuzzle8_Text_KeiraDefeat"
+}
+
+text Route110_TrickHousePuzzle8_Text_KeiraIntro {
+    "Placeholder text for Route110_TrickHousePuzzle8_Text_KeiraIntro"
+}
+
+text Route110_TrickHousePuzzle8_Text_KeiraPostBattle {
+    "Placeholder text for Route110_TrickHousePuzzle8_Text_KeiraPostBattle"
+}
+
+text Route110_TrickHousePuzzle8_Text_LeroyDefeat {
+    "Placeholder text for Route110_TrickHousePuzzle8_Text_LeroyDefeat"
+}
+
+text Route110_TrickHousePuzzle8_Text_LeroyIntro {
+    "Placeholder text for Route110_TrickHousePuzzle8_Text_LeroyIntro"
+}
+
+text Route110_TrickHousePuzzle8_Text_LeroyPostBattle {
+    "Placeholder text for Route110_TrickHousePuzzle8_Text_LeroyPostBattle"
+}
+
+text Route110_TrickHousePuzzle8_Text_VincentDefeat {
+    "Placeholder text for Route110_TrickHousePuzzle8_Text_VincentDefeat"
+}
+
+text Route110_TrickHousePuzzle8_Text_VincentIntro {
+    "Placeholder text for Route110_TrickHousePuzzle8_Text_VincentIntro"
+}
+
+text Route110_TrickHousePuzzle8_Text_VincentPostBattle {
+    "Placeholder text for Route110_TrickHousePuzzle8_Text_VincentPostBattle"
+}

@@ -2,31 +2,38 @@ mapscripts RockTunnel_1F_MapScripts {
 }
 
 script RockTunnel_1F_EventScript_Ariana {
-    end
+    trainerbattle_double(TRAINER_PICNICKER_ARIANA, RockTunnel_1F_Text_ArianaIntro, RockTunnel_1F_Text_ArianaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_1F_Text_ArianaPostBattle)
 }
 
 script RockTunnel_1F_EventScript_Ashton {
-    end
+    trainerbattle_double(TRAINER_POKEMANIAC_ASHTON, RockTunnel_1F_Text_AshtonIntro, RockTunnel_1F_Text_AshtonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_1F_Text_AshtonPostBattle)
 }
 
 script RockTunnel_1F_EventScript_Dana {
-    end
+    trainerbattle_double(TRAINER_PICNICKER_DANA, RockTunnel_1F_Text_DanaIntro, RockTunnel_1F_Text_DanaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_1F_Text_DanaPostBattle)
 }
 
 script RockTunnel_1F_EventScript_Leah {
-    end
+    trainerbattle_double(TRAINER_PICNICKER_LEAH, RockTunnel_1F_Text_LeahIntro, RockTunnel_1F_Text_LeahDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_1F_Text_LeahPostBattle)
 }
 
 script RockTunnel_1F_EventScript_Lenny {
-    end
+    trainerbattle_double(TRAINER_HIKER_LENNY, RockTunnel_1F_Text_LennyIntro, RockTunnel_1F_Text_LennyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_1F_Text_LennyPostBattle)
 }
 
 script RockTunnel_1F_EventScript_Lucas {
-    end
+    trainerbattle_double(TRAINER_HIKER_LUCAS, RockTunnel_1F_Text_LucasIntro, RockTunnel_1F_Text_LucasDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_1F_Text_LucasPostBattle)
 }
 
 script RockTunnel_1F_EventScript_Oliver {
-    end
+    trainerbattle_double(TRAINER_HIKER_OLIVER, RockTunnel_1F_Text_OliverIntro, RockTunnel_1F_Text_OliverDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_1F_Text_OliverPostBattle)
 }
 
 script RockTunnel_1F_EventScript_RouteSign {
@@ -37,4 +44,89 @@ script RockTunnel_1F_EventScript_RouteSign {
 
 text RockTunnel_1F_Text_RouteSign {
     format("ROCK TUNNEL CERULEAN CITY - LAVENDER TOWN")
+}
+
+
+text RockTunnel_1F_Text_ArianaDefeat {
+    "Placeholder text for RockTunnel_1F_Text_ArianaDefeat"
+}
+
+text RockTunnel_1F_Text_ArianaIntro {
+    "Placeholder text for RockTunnel_1F_Text_ArianaIntro"
+}
+
+text RockTunnel_1F_Text_ArianaPostBattle {
+    "Placeholder text for RockTunnel_1F_Text_ArianaPostBattle"
+}
+
+text RockTunnel_1F_Text_AshtonDefeat {
+    "Placeholder text for RockTunnel_1F_Text_AshtonDefeat"
+}
+
+text RockTunnel_1F_Text_AshtonIntro {
+    "Placeholder text for RockTunnel_1F_Text_AshtonIntro"
+}
+
+text RockTunnel_1F_Text_AshtonPostBattle {
+    "Placeholder text for RockTunnel_1F_Text_AshtonPostBattle"
+}
+
+text RockTunnel_1F_Text_DanaDefeat {
+    "Placeholder text for RockTunnel_1F_Text_DanaDefeat"
+}
+
+text RockTunnel_1F_Text_DanaIntro {
+    "Placeholder text for RockTunnel_1F_Text_DanaIntro"
+}
+
+text RockTunnel_1F_Text_DanaPostBattle {
+    "Placeholder text for RockTunnel_1F_Text_DanaPostBattle"
+}
+
+text RockTunnel_1F_Text_LeahDefeat {
+    "Placeholder text for RockTunnel_1F_Text_LeahDefeat"
+}
+
+text RockTunnel_1F_Text_LeahIntro {
+    "Placeholder text for RockTunnel_1F_Text_LeahIntro"
+}
+
+text RockTunnel_1F_Text_LeahPostBattle {
+    "Placeholder text for RockTunnel_1F_Text_LeahPostBattle"
+}
+
+text RockTunnel_1F_Text_LennyDefeat {
+    "Placeholder text for RockTunnel_1F_Text_LennyDefeat"
+}
+
+text RockTunnel_1F_Text_LennyIntro {
+    "Placeholder text for RockTunnel_1F_Text_LennyIntro"
+}
+
+text RockTunnel_1F_Text_LennyPostBattle {
+    "Placeholder text for RockTunnel_1F_Text_LennyPostBattle"
+}
+
+text RockTunnel_1F_Text_LucasDefeat {
+    "Placeholder text for RockTunnel_1F_Text_LucasDefeat"
+}
+
+text RockTunnel_1F_Text_LucasIntro {
+    "Placeholder text for RockTunnel_1F_Text_LucasIntro"
+}
+
+text RockTunnel_1F_Text_LucasPostBattle {
+    "Placeholder text for RockTunnel_1F_Text_LucasPostBattle"
+}
+
+text RockTunnel_1F_Text_OliverDefeat {
+    "Placeholder text for RockTunnel_1F_Text_OliverDefeat"
+}
+
+text RockTunnel_1F_Text_OliverIntro {
+    "Placeholder text for RockTunnel_1F_Text_OliverIntro"
+}
+
+text RockTunnel_1F_Text_OliverPostBattle {
+    "Placeholder text for RockTunnel_1F_Text_OliverPostBattle"
 }

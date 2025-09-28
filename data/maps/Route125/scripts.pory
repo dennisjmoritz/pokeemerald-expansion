@@ -2,11 +2,13 @@ mapscripts Route125_MapScripts {
 }
 
 script Route125_EventScript_Auron {
-    end
+    trainerbattle_double(TRAINER_AURON, Route125_Text_AuronIntro, Route125_Text_AuronDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route125_Text_AuronPostBattle)
 }
 
 script Route125_EventScript_Ernest {
-    end
+    trainerbattle_double(TRAINER_ERNEST, Route125_Text_ErnestIntro, Route125_Text_ErnestDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route125_Text_ErnestPostBattle)
 }
 
 script Route125_EventScript_Iris {
@@ -18,22 +20,112 @@ script Route125_EventScript_Kim {
 }
 
 script Route125_EventScript_Nolen {
-    end
+    trainerbattle_double(TRAINER_NOLEN, Route125_Text_NolenIntro, Route125_Text_NolenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route125_Text_NolenPostBattle)
 }
 
 script Route125_EventScript_Presley {
-    end
+    trainerbattle_double(TRAINER_PRESLEY, Route125_Text_PresleyIntro, Route125_Text_PresleyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route125_Text_PresleyPostBattle)
 }
 
 script Route125_EventScript_Sharon {
-    end
+    trainerbattle_double(TRAINER_SHARON, Route125_Text_SharonIntro, Route125_Text_SharonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route125_Text_SharonPostBattle)
 }
 
 script Route125_EventScript_Stan {
-    end
+    trainerbattle_double(TRAINER_STAN, Route125_Text_StanIntro, Route125_Text_StanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route125_Text_StanPostBattle)
 }
 
 script Route125_EventScript_Tanya {
-    end
+    trainerbattle_double(TRAINER_TANYA, Route125_Text_TanyaIntro, Route125_Text_TanyaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route125_Text_TanyaPostBattle)
 }
 
+
+
+text Route125_Text_AuronDefeat {
+    "Oh, you weren't throwing trash into\nthe sea."
+}
+
+text Route125_Text_AuronIntro {
+    "Hey! Was it you throwing garbage\ninto the sea?"
+}
+
+text Route125_Text_AuronPostBattle {
+    "I found an unsightly bottle bobbing\nin the waves earlier.\pIt angers me that someone would\npollute the sea!"
+}
+
+text Route125_Text_ErnestDefeat {
+    "Gwrroooar!\nI couldn't win!"
+}
+
+text Route125_Text_ErnestIntro {
+    "Ahoy! I'm a buff, tough SAILOR!\nI've braved the world's seas!"
+}
+
+text Route125_Text_ErnestPostBattle {
+    "The tide ebbs and flows inside the\nSHOAL CAVE.\pBy the way, it's about six hours from\nhigh tide to low tide. Did you know?"
+}
+
+text Route125_Text_NolenDefeat {
+    "I surrender!"
+}
+
+text Route125_Text_NolenIntro {
+    "I heard you approaching, so I hung\naround for you!"
+}
+
+text Route125_Text_NolenPostBattle {
+    "Sound travels faster in water than\nit does through air."
+}
+
+text Route125_Text_PresleyDefeat {
+    "Okay.\nI'll tell you why I'm here."
+}
+
+text Route125_Text_PresleyIntro {
+    "Why would a BIRDKEEPER like me\ncome out to the sea?"
+}
+
+text Route125_Text_PresleyPostBattle {
+    "I put a message in a bottle and put\nit out to sea.\pI'm sure that a girl SWIMMER will\nfind it!"
+}
+
+text Route125_Text_SharonDefeat {
+    "Lost it…"
+}
+
+text Route125_Text_SharonIntro {
+    "How would you like to take on the\nWATER-type POKéMON I raised?"
+}
+
+text Route125_Text_SharonPostBattle {
+    "Your power… You're the real deal.\nI'm amazed!"
+}
+
+text Route125_Text_StanDefeat {
+    "I floundered…"
+}
+
+text Route125_Text_StanIntro {
+    "Hey, there!\nCheck out my sweet POKéMON!"
+}
+
+text Route125_Text_StanPostBattle {
+    "I was blown away by HORSEA's charm,\nso I started swimming, too."
+}
+
+text Route125_Text_TanyaDefeat {
+    "You're too much!"
+}
+
+text Route125_Text_TanyaIntro {
+    "I'm tired of swimming.\nAre you up for a battle with me?"
+}
+
+text Route125_Text_TanyaPostBattle {
+    "Whew…\nWhich way is it to MOSSDEEP CITY?"
+}

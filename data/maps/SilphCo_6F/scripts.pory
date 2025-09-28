@@ -7,15 +7,18 @@ script SilphCo_6F_EventScript_FloorSign {
 }
 
 script SilphCo_6F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_30, SilphCo_6F_Text_Grunt1Intro, SilphCo_6F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_6F_Text_Grunt1PostBattle)
 }
 
 script SilphCo_6F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_31, SilphCo_6F_Text_Grunt2Intro, SilphCo_6F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_6F_Text_Grunt2PostBattle)
 }
 
 script SilphCo_6F_EventScript_Taylor {
-    end
+    trainerbattle_double(TRAINER_SCIENTIST_TAYLOR, SilphCo_6F_Text_TaylorIntro, SilphCo_6F_Text_TaylorDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_6F_Text_TaylorPostBattle)
 }
 
 script SilphCo_6F_EventScript_WorkerF1 {
@@ -41,4 +44,41 @@ script SilphCo_6F_EventScript_WorkerM3 {
 
 text SilphCo_6F_Text_FloorSign {
     format("SILPH CO. HEAD OFFICE 6F")
+}
+
+
+text SilphCo_6F_Text_Grunt1Defeat {
+    "Placeholder text for SilphCo_6F_Text_Grunt1Defeat"
+}
+
+text SilphCo_6F_Text_Grunt1Intro {
+    "Placeholder text for SilphCo_6F_Text_Grunt1Intro"
+}
+
+text SilphCo_6F_Text_Grunt1PostBattle {
+    "Placeholder text for SilphCo_6F_Text_Grunt1PostBattle"
+}
+
+text SilphCo_6F_Text_Grunt2Defeat {
+    "Placeholder text for SilphCo_6F_Text_Grunt2Defeat"
+}
+
+text SilphCo_6F_Text_Grunt2Intro {
+    "Placeholder text for SilphCo_6F_Text_Grunt2Intro"
+}
+
+text SilphCo_6F_Text_Grunt2PostBattle {
+    "Placeholder text for SilphCo_6F_Text_Grunt2PostBattle"
+}
+
+text SilphCo_6F_Text_TaylorDefeat {
+    "Placeholder text for SilphCo_6F_Text_TaylorDefeat"
+}
+
+text SilphCo_6F_Text_TaylorIntro {
+    "Placeholder text for SilphCo_6F_Text_TaylorIntro"
+}
+
+text SilphCo_6F_Text_TaylorPostBattle {
+    "Placeholder text for SilphCo_6F_Text_TaylorPostBattle"
 }

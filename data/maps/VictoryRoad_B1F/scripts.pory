@@ -2,22 +2,88 @@ mapscripts VictoryRoad_B1F_MapScripts {
 }
 
 script VictoryRoad_B1F_EventScript_Halle {
-    end
+    trainerbattle_double(TRAINER_HALLE, VictoryRoad_B1F_Text_HalleIntro, VictoryRoad_B1F_Text_HalleDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_B1F_Text_HallePostBattle)
 }
 
 script VictoryRoad_B1F_EventScript_Michelle {
-    end
+    trainerbattle_double(TRAINER_MICHELLE, VictoryRoad_B1F_Text_MichelleIntro, VictoryRoad_B1F_Text_MichelleDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_B1F_Text_MichellePostBattle)
 }
 
 script VictoryRoad_B1F_EventScript_Mitchell {
-    end
+    trainerbattle_double(TRAINER_MITCHELL, VictoryRoad_B1F_Text_MitchellIntro, VictoryRoad_B1F_Text_MitchellDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_B1F_Text_MitchellPostBattle)
 }
 
 script VictoryRoad_B1F_EventScript_Samuel {
-    end
+    trainerbattle_double(TRAINER_SAMUEL, VictoryRoad_B1F_Text_SamuelIntro, VictoryRoad_B1F_Text_SamuelDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_B1F_Text_SamuelPostBattle)
 }
 
 script VictoryRoad_B1F_EventScript_Shannon {
-    end
+    trainerbattle_double(TRAINER_SHANNON, VictoryRoad_B1F_Text_ShannonIntro, VictoryRoad_B1F_Text_ShannonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_B1F_Text_ShannonPostBattle)
 }
 
+
+
+text VictoryRoad_B1F_Text_HalleDefeat {
+    "Placeholder text for VictoryRoad_B1F_Text_HalleDefeat"
+}
+
+text VictoryRoad_B1F_Text_HalleIntro {
+    "Placeholder text for VictoryRoad_B1F_Text_HalleIntro"
+}
+
+text VictoryRoad_B1F_Text_HallePostBattle {
+    "Placeholder text for VictoryRoad_B1F_Text_HallePostBattle"
+}
+
+text VictoryRoad_B1F_Text_MichelleDefeat {
+    "Placeholder text for VictoryRoad_B1F_Text_MichelleDefeat"
+}
+
+text VictoryRoad_B1F_Text_MichelleIntro {
+    "Placeholder text for VictoryRoad_B1F_Text_MichelleIntro"
+}
+
+text VictoryRoad_B1F_Text_MichellePostBattle {
+    "Placeholder text for VictoryRoad_B1F_Text_MichellePostBattle"
+}
+
+text VictoryRoad_B1F_Text_MitchellDefeat {
+    "Placeholder text for VictoryRoad_B1F_Text_MitchellDefeat"
+}
+
+text VictoryRoad_B1F_Text_MitchellIntro {
+    "Placeholder text for VictoryRoad_B1F_Text_MitchellIntro"
+}
+
+text VictoryRoad_B1F_Text_MitchellPostBattle {
+    "Placeholder text for VictoryRoad_B1F_Text_MitchellPostBattle"
+}
+
+text VictoryRoad_B1F_Text_SamuelDefeat {
+    "Placeholder text for VictoryRoad_B1F_Text_SamuelDefeat"
+}
+
+text VictoryRoad_B1F_Text_SamuelIntro {
+    "Placeholder text for VictoryRoad_B1F_Text_SamuelIntro"
+}
+
+text VictoryRoad_B1F_Text_SamuelPostBattle {
+    "Placeholder text for VictoryRoad_B1F_Text_SamuelPostBattle"
+}
+
+text VictoryRoad_B1F_Text_ShannonDefeat {
+    "Placeholder text for VictoryRoad_B1F_Text_ShannonDefeat"
+}
+
+text VictoryRoad_B1F_Text_ShannonIntro {
+    "Placeholder text for VictoryRoad_B1F_Text_ShannonIntro"
+}
+
+text VictoryRoad_B1F_Text_ShannonPostBattle {
+    "Placeholder text for VictoryRoad_B1F_Text_ShannonPostBattle"
+}

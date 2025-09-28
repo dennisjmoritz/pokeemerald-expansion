@@ -7,19 +7,23 @@ script SilphCo_7F_EventScript_FloorSign {
 }
 
 script SilphCo_7F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_33, SilphCo_7F_Text_Grunt1Intro, SilphCo_7F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_7F_Text_Grunt1PostBattle)
 }
 
 script SilphCo_7F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_34, SilphCo_7F_Text_Grunt2Intro, SilphCo_7F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_7F_Text_Grunt2PostBattle)
 }
 
 script SilphCo_7F_EventScript_Grunt3 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_35, SilphCo_7F_Text_Grunt3Intro, SilphCo_7F_Text_Grunt3Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_7F_Text_Grunt3PostBattle)
 }
 
 script SilphCo_7F_EventScript_Joshua {
-    end
+    trainerbattle_double(TRAINER_SCIENTIST_JOSHUA, SilphCo_7F_Text_JoshuaIntro, SilphCo_7F_Text_JoshuaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_7F_Text_JoshuaPostBattle)
 }
 
 script SilphCo_7F_EventScript_LaprasGuy {
@@ -49,4 +53,53 @@ script SilphCo_7F_EventScript_WorkerM2 {
 
 text SilphCo_7F_Text_FloorSign {
     format("SILPH CO. HEAD OFFICE 7F")
+}
+
+
+text SilphCo_7F_Text_Grunt1Defeat {
+    "Placeholder text for SilphCo_7F_Text_Grunt1Defeat"
+}
+
+text SilphCo_7F_Text_Grunt1Intro {
+    "Placeholder text for SilphCo_7F_Text_Grunt1Intro"
+}
+
+text SilphCo_7F_Text_Grunt1PostBattle {
+    "Placeholder text for SilphCo_7F_Text_Grunt1PostBattle"
+}
+
+text SilphCo_7F_Text_Grunt2Defeat {
+    "Placeholder text for SilphCo_7F_Text_Grunt2Defeat"
+}
+
+text SilphCo_7F_Text_Grunt2Intro {
+    "Placeholder text for SilphCo_7F_Text_Grunt2Intro"
+}
+
+text SilphCo_7F_Text_Grunt2PostBattle {
+    "Placeholder text for SilphCo_7F_Text_Grunt2PostBattle"
+}
+
+text SilphCo_7F_Text_Grunt3Defeat {
+    "Placeholder text for SilphCo_7F_Text_Grunt3Defeat"
+}
+
+text SilphCo_7F_Text_Grunt3Intro {
+    "Placeholder text for SilphCo_7F_Text_Grunt3Intro"
+}
+
+text SilphCo_7F_Text_Grunt3PostBattle {
+    "Placeholder text for SilphCo_7F_Text_Grunt3PostBattle"
+}
+
+text SilphCo_7F_Text_JoshuaDefeat {
+    "Placeholder text for SilphCo_7F_Text_JoshuaDefeat"
+}
+
+text SilphCo_7F_Text_JoshuaIntro {
+    "Placeholder text for SilphCo_7F_Text_JoshuaIntro"
+}
+
+text SilphCo_7F_Text_JoshuaPostBattle {
+    "Placeholder text for SilphCo_7F_Text_JoshuaPostBattle"
 }

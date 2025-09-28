@@ -2,34 +2,139 @@ mapscripts Route132_MapScripts {
 }
 
 script Route132_EventScript_Dana {
-    end
+    trainerbattle_double(TRAINER_DANA, Route132_Text_DanaIntro, Route132_Text_DanaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route132_Text_DanaPostBattle)
 }
 
 script Route132_EventScript_Darcy {
-    end
+    trainerbattle_double(TRAINER_DARCY, Route132_Text_DarcyIntro, Route132_Text_DarcyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route132_Text_DarcyPostBattle)
 }
 
 script Route132_EventScript_Gilbert {
-    end
+    trainerbattle_double(TRAINER_GILBERT, Route132_Text_GilbertIntro, Route132_Text_GilbertDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route132_Text_GilbertPostBattle)
 }
 
 script Route132_EventScript_Jonathan {
-    end
+    trainerbattle_double(TRAINER_JONATHAN, Route132_Text_JonathanIntro, Route132_Text_JonathanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route132_Text_JonathanPostBattle)
 }
 
 script Route132_EventScript_Kiyo {
-    end
+    trainerbattle_double(TRAINER_KIYO, Route132_Text_KiyoIntro, Route132_Text_KiyoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route132_Text_KiyoPostBattle)
 }
 
 script Route132_EventScript_Makayla {
-    end
+    trainerbattle_double(TRAINER_MAKAYLA, Route132_Text_MakaylaIntro, Route132_Text_MakaylaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route132_Text_MakaylaPostBattle)
 }
 
 script Route132_EventScript_Paxton {
-    end
+    trainerbattle_double(TRAINER_PAXTON, Route132_Text_PaxtonIntro, Route132_Text_PaxtonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route132_Text_PaxtonPostBattle)
 }
 
 script Route132_EventScript_Ronald {
-    end
+    trainerbattle_double(TRAINER_RONALD, Route132_Text_RonaldIntro, Route132_Text_RonaldDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route132_Text_RonaldPostBattle)
 }
 
+
+
+text Route132_Text_DanaDefeat {
+    "Oh, please, no!"
+}
+
+text Route132_Text_DanaIntro {
+    "I try not to swim where the currents\nare too strong."
+}
+
+text Route132_Text_DanaPostBattle {
+    "If I get swept away, I'll lose all my\nsense of place…"
+}
+
+text Route132_Text_DarcyDefeat {
+    "Okay! I won't complain about other\npeople being here."
+}
+
+text Route132_Text_DarcyIntro {
+    "I liked training here by myself.\nIt's awful that all these people came!"
+}
+
+text Route132_Text_DarcyPostBattle {
+    "I suppose I can partner up with that\nold man and challenge that other team."
+}
+
+text Route132_Text_GilbertDefeat {
+    "I crave more power…"
+}
+
+text Route132_Text_GilbertIntro {
+    "I used to catch colds all the time as\na kid, but I became totally fit after\nI started swimming."
+}
+
+text Route132_Text_GilbertPostBattle {
+    "TRAINERS travel the fields and\nmountains, so they must be fit, too."
+}
+
+text Route132_Text_JonathanDefeat {
+    "Wow!\nThat's pretty strong, all right!"
+}
+
+text Route132_Text_JonathanIntro {
+    "Someone's been watching me intently.\nWas it you?"
+}
+
+text Route132_Text_JonathanPostBattle {
+    "I can't shake this feeling that\nsomeone's watching me.\pI can't concentrate!"
+}
+
+text Route132_Text_KiyoDefeat {
+    "I lose.\nI will concede defeat."
+}
+
+text Route132_Text_KiyoIntro {
+    "I contemplate POKéMON 24 hours a day.\nHow could you possibly beat me?"
+}
+
+text Route132_Text_KiyoPostBattle {
+    "Urggh…\nYou're a POKéMON fanatic, aren't you?\pYou must contemplate POKéMON 24 hours\na day, don't you?"
+}
+
+text Route132_Text_MakaylaDefeat {
+    "Oh, I guess I wasn't good enough."
+}
+
+text Route132_Text_MakaylaIntro {
+    "I'm always with my husband,\nbut I can win even without him."
+}
+
+text Route132_Text_MakaylaPostBattle {
+    "That young man over there looks just\nlike my husband when he was young.\pHe's making me blush!"
+}
+
+text Route132_Text_PaxtonDefeat {
+    "Ah, I see that I couldn't manage\nto win on my own after all."
+}
+
+text Route132_Text_PaxtonIntro {
+    "Now where could my wife have gone?\nI'm always with her.\nI wonder if I can win on my own."
+}
+
+text Route132_Text_PaxtonPostBattle {
+    "My wife must be looking for me.\nI'd best go find her right away."
+}
+
+text Route132_Text_RonaldDefeat {
+    "Waah!\nI sank in defeat!"
+}
+
+text Route132_Text_RonaldIntro {
+    "Win or lose, you'll never know until\nyou try!"
+}
+
+text Route132_Text_RonaldPostBattle {
+    "I never battle when I know I'll win.\nI like to battle at the razor's edge of\nvictory and defeat!"
+}

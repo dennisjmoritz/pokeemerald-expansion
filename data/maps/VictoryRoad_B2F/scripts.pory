@@ -2,26 +2,105 @@ mapscripts VictoryRoad_B2F_MapScripts {
 }
 
 script VictoryRoad_B2F_EventScript_Caroline {
-    end
+    trainerbattle_double(TRAINER_CAROLINE, VictoryRoad_B2F_Text_CarolineIntro, VictoryRoad_B2F_Text_CarolineDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_B2F_Text_CarolinePostBattle)
 }
 
 script VictoryRoad_B2F_EventScript_Dianne {
-    end
+    trainerbattle_double(TRAINER_DIANNE, VictoryRoad_B2F_Text_DianneIntro, VictoryRoad_B2F_Text_DianneDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_B2F_Text_DiannePostBattle)
 }
 
 script VictoryRoad_B2F_EventScript_Felix {
-    end
+    trainerbattle_double(TRAINER_FELIX, VictoryRoad_B2F_Text_FelixIntro, VictoryRoad_B2F_Text_FelixDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_B2F_Text_FelixPostBattle)
 }
 
 script VictoryRoad_B2F_EventScript_Julie {
-    end
+    trainerbattle_double(TRAINER_JULIE, VictoryRoad_B2F_Text_JulieIntro, VictoryRoad_B2F_Text_JulieDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_B2F_Text_JuliePostBattle)
 }
 
 script VictoryRoad_B2F_EventScript_Owen {
-    end
+    trainerbattle_double(TRAINER_OWEN, VictoryRoad_B2F_Text_OwenIntro, VictoryRoad_B2F_Text_OwenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_B2F_Text_OwenPostBattle)
 }
 
 script VictoryRoad_B2F_EventScript_Vito {
-    end
+    trainerbattle_double(TRAINER_VITO, VictoryRoad_B2F_Text_VitoIntro, VictoryRoad_B2F_Text_VitoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_B2F_Text_VitoPostBattle)
 }
 
+
+
+text VictoryRoad_B2F_Text_CarolineDefeat {
+    "Placeholder text for VictoryRoad_B2F_Text_CarolineDefeat"
+}
+
+text VictoryRoad_B2F_Text_CarolineIntro {
+    "Placeholder text for VictoryRoad_B2F_Text_CarolineIntro"
+}
+
+text VictoryRoad_B2F_Text_CarolinePostBattle {
+    "Placeholder text for VictoryRoad_B2F_Text_CarolinePostBattle"
+}
+
+text VictoryRoad_B2F_Text_DianneDefeat {
+    "Placeholder text for VictoryRoad_B2F_Text_DianneDefeat"
+}
+
+text VictoryRoad_B2F_Text_DianneIntro {
+    "Placeholder text for VictoryRoad_B2F_Text_DianneIntro"
+}
+
+text VictoryRoad_B2F_Text_DiannePostBattle {
+    "Placeholder text for VictoryRoad_B2F_Text_DiannePostBattle"
+}
+
+text VictoryRoad_B2F_Text_FelixDefeat {
+    "Placeholder text for VictoryRoad_B2F_Text_FelixDefeat"
+}
+
+text VictoryRoad_B2F_Text_FelixIntro {
+    "Placeholder text for VictoryRoad_B2F_Text_FelixIntro"
+}
+
+text VictoryRoad_B2F_Text_FelixPostBattle {
+    "Placeholder text for VictoryRoad_B2F_Text_FelixPostBattle"
+}
+
+text VictoryRoad_B2F_Text_JulieDefeat {
+    "Placeholder text for VictoryRoad_B2F_Text_JulieDefeat"
+}
+
+text VictoryRoad_B2F_Text_JulieIntro {
+    "Placeholder text for VictoryRoad_B2F_Text_JulieIntro"
+}
+
+text VictoryRoad_B2F_Text_JuliePostBattle {
+    "Placeholder text for VictoryRoad_B2F_Text_JuliePostBattle"
+}
+
+text VictoryRoad_B2F_Text_OwenDefeat {
+    "Placeholder text for VictoryRoad_B2F_Text_OwenDefeat"
+}
+
+text VictoryRoad_B2F_Text_OwenIntro {
+    "Placeholder text for VictoryRoad_B2F_Text_OwenIntro"
+}
+
+text VictoryRoad_B2F_Text_OwenPostBattle {
+    "Placeholder text for VictoryRoad_B2F_Text_OwenPostBattle"
+}
+
+text VictoryRoad_B2F_Text_VitoDefeat {
+    "Placeholder text for VictoryRoad_B2F_Text_VitoDefeat"
+}
+
+text VictoryRoad_B2F_Text_VitoIntro {
+    "Placeholder text for VictoryRoad_B2F_Text_VitoIntro"
+}
+
+text VictoryRoad_B2F_Text_VitoPostBattle {
+    "Placeholder text for VictoryRoad_B2F_Text_VitoPostBattle"
+}

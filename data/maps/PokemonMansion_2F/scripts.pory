@@ -2,7 +2,8 @@ mapscripts PokemonMansion_2F_MapScripts {
 }
 
 script PokemonMansion_2F_EventScript_Arnie {
-    end
+    trainerbattle_double(TRAINER_BURGLAR_ARNIE, PokemonMansion_1F_Text_ArnieIntro, PokemonMansion_1F_Text_ArnieDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonMansion_1F_Text_ArniePostBattle)
 }
 
 script PokemonMansion_2F_EventScript_DiaryJuly10th {
@@ -33,4 +34,17 @@ text PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle {
 
 text PokemonMansion_1F_Text_ChristenedDiscoveredMonMew {
     format("Diary: July 10 We christened the newly discovered\l POKéMON, MEW.")
+}
+
+
+text PokemonMansion_1F_Text_ArnieDefeat {
+    "Placeholder text for PokemonMansion_1F_Text_ArnieDefeat"
+}
+
+text PokemonMansion_1F_Text_ArnieIntro {
+    "Placeholder text for PokemonMansion_1F_Text_ArnieIntro"
+}
+
+text PokemonMansion_1F_Text_ArniePostBattle {
+    "Placeholder text for PokemonMansion_1F_Text_ArniePostBattle"
 }

@@ -2,47 +2,58 @@ mapscripts Route111_MapScripts {
 }
 
 script Route111_EventScript_Beau {
-    end
+    trainerbattle_double(TRAINER_BEAU, Route111_Text_BeauIntro, Route111_Text_BeauDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_BeauPostBattle)
 }
 
 script Route111_EventScript_Becky {
-    end
+    trainerbattle_double(TRAINER_BECKY, Route111_Text_BeckyIntro, Route111_Text_BeckyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_BeckyPostBattle)
 }
 
 script Route111_EventScript_Bianca {
-    end
+    trainerbattle_double(TRAINER_BIANCA, Route111_Text_BiancaIntro, Route111_Text_BiancaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_BiancaPostBattle)
 }
 
 script Route111_EventScript_Branden {
-    end
+    trainerbattle_double(TRAINER_BRANDEN, Route111_Text_BrandenIntro, Route111_Text_BrandenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_BrandenPostBattle)
 }
 
 script Route111_EventScript_Brooke {
-    end
+    trainerbattle_double(TRAINER_BROOKE, Route111_Text_BrookeIntro, Route111_Text_BrookeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_BrookePostBattle)
 }
 
 script Route111_EventScript_Bryan {
-    end
+    trainerbattle_double(TRAINER_BRYAN, Route111_Text_BryanIntro, Route111_Text_BryanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_BryanPostBattle)
 }
 
 script Route111_EventScript_Celia {
-    end
+    trainerbattle_double(TRAINER_CELIA, Route111_Text_CeliaIntro, Route111_Text_CeliaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_CeliaPostBattle)
 }
 
 script Route111_EventScript_Celina {
-    end
+    trainerbattle_double(TRAINER_CELINA, Route111_Text_CelinaIntro, Route111_Text_CelinaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_CelinaPostBattle)
 }
 
 script Route111_EventScript_Daisuke {
-    end
+    trainerbattle_double(TRAINER_DAISUKE, Route111_Text_DaisukeIntro, Route111_Text_DaisukeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_DaisukePostBattle)
 }
 
 script Route111_EventScript_Drew {
-    end
+    trainerbattle_double(TRAINER_DREW, Route111_Text_DrewIntro, Route111_Text_DrewDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_DrewPostBattle)
 }
 
 script Route111_EventScript_Dusty {
-    end
+    trainerbattle_double(TRAINER_DUSTY, Route111_Text_DustyIntro, Route111_Text_DustyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_DustyPostBattle)
 }
 
 script Route111_EventScript_Girl {
@@ -50,11 +61,13 @@ script Route111_EventScript_Girl {
 }
 
 script Route111_EventScript_Hayden {
-    end
+    trainerbattle_double(TRAINER_HAYDEN, Route111_Text_HaydenIntro, Route111_Text_HaydenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_HaydenPostBattle)
 }
 
 script Route111_EventScript_Heidi {
-    end
+    trainerbattle_double(TRAINER_HEIDI, Route111_Text_HeidiIntro, Route111_Text_HeidiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_HeidiPostBattle)
 }
 
 script Route111_EventScript_Hiker {
@@ -62,7 +75,8 @@ script Route111_EventScript_Hiker {
 }
 
 script Route111_EventScript_Irene {
-    end
+    trainerbattle_double(TRAINER_IRENE, Route111_Text_IreneIntro, Route111_Text_IreneDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_IrenePostBattle)
 }
 
 script Route111_EventScript_Man1 {
@@ -116,11 +130,13 @@ script Route111_EventScript_TrainerTipsSpAtkSpDef {
 }
 
 script Route111_EventScript_Travis {
-    end
+    trainerbattle_double(TRAINER_TRAVIS, Route111_Text_TravisIntro, Route111_Text_TravisDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_TravisPostBattle)
 }
 
 script Route111_EventScript_Tyron {
-    end
+    trainerbattle_double(TRAINER_TYRON, Route111_Text_TyronIntro, Route111_Text_TyronDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_TyronPostBattle)
 }
 
 script Route111_EventScript_ViciousSandstormTriggerDown {
@@ -136,7 +152,8 @@ script Route111_EventScript_Victor {
 }
 
 script Route111_EventScript_Wilton {
-    end
+    trainerbattle_double(TRAINER_WILTON, Route111_Text_WiltonIntro, Route111_Text_WiltonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route111_Text_WiltonPostBattle)
 }
 
 script Route111_EventScript_WinstrateHouseSign {
@@ -171,4 +188,209 @@ text Route111_Text_RouteSignMauville {
 
 text Route111_Text_RouteSign113 {
     format("ROUTE 111 {LEFT_ARROW} ROUTE 113")
+}
+
+
+text Route111_Text_BeauDefeat {
+    "I can't win on spirit alone…"
+}
+
+text Route111_Text_BeauIntro {
+    "Wearing these GO-GOGGLES makes me\nfeel like a superhero.\nRight now, nobody can beat me!"
+}
+
+text Route111_Text_BeauPostBattle {
+    "I'm going to be a real hero one day.\nI'm going to work harder to make me\nand my POKéMON stronger."
+}
+
+text Route111_Text_BeckyDefeat {
+    "I came up short…"
+}
+
+text Route111_Text_BeckyIntro {
+    "I heard there are fossils to be found\nin the desert. Where could they be?"
+}
+
+text Route111_Text_BeckyPostBattle {
+    "If they can find fossils in the desert,\nit must have been a sea before."
+}
+
+text Route111_Text_BiancaDefeat {
+    "Ooh lala!\nThat's a lot to take!"
+}
+
+text Route111_Text_BiancaIntro {
+    "Did you come from MAUVILLE?\nThen you should be full of energy!"
+}
+
+text Route111_Text_BiancaPostBattle {
+    "This road here…\nYou have quite a ways to travel."
+}
+
+text Route111_Text_BrandenDefeat {
+    "Tch! I thought a sandwich would be\nenough of a bribe…"
+}
+
+text Route111_Text_BrandenIntro {
+    "I'll give you some of my sandwich\nif you'll lose."
+}
+
+text Route111_Text_BrandenPostBattle {
+    "My SANDSHREW loves eating\nmy sandwiches."
+}
+
+text Route111_Text_BrookeDefeat {
+    "They didn't just look strong,\nthey are strong!"
+}
+
+text Route111_Text_BrookeIntro {
+    "Oh, your POKéMON look like serious\nactors.\nI have to ask you for an engagement."
+}
+
+text Route111_Text_BrookePostBattle {
+    "I thought I was raising my POKéMON\ndiligently, but, oh no, there is still\nmuch to be done."
+}
+
+text Route111_Text_BryanDefeat {
+    "Oh! Your strength!\nIt is shrouded in mystery!"
+}
+
+text Route111_Text_BryanIntro {
+    "How tough are you?\nWe shall expose that secret!"
+}
+
+text Route111_Text_BryanPostBattle {
+    "This desert hoards mysteries in\nits shifting sands!"
+}
+
+text Route111_Text_CeliaDefeat {
+    "Aww!\nI really shouldn't have come!"
+}
+
+text Route111_Text_CeliaIntro {
+    "I shouldn't have come to a place like\nthis for a picnic!"
+}
+
+text Route111_Text_CeliaPostBattle {
+    "In a sandstorm like this, I can't set\nthe places for a picnic even with my\nGO-GOGGLES on…"
+}
+
+text Route111_Text_CelinaDefeat {
+    "Oh… My…\nThat was too much excitement."
+}
+
+text Route111_Text_CelinaIntro {
+    "Show me how to put a little excitement\ninto my life."
+}
+
+text Route111_Text_CelinaPostBattle {
+    "My pulse is still racing.\nYou're one fabulous TRAINER."
+}
+
+text Route111_Text_DaisukeDefeat {
+    "Uncle! I give up!"
+}
+
+text Route111_Text_DaisukeIntro {
+    "To train myself, I challenge all\nwhom I meet!"
+}
+
+text Route111_Text_DaisukePostBattle {
+    "All I can do is keep training until\nI can defeat strong TRAINERS such\nas yourself."
+}
+
+text Route111_Text_DrewDefeat {
+    "I couldn't see what was happening at\nmy sides because of the GO-GOGGLES."
+}
+
+text Route111_Text_DrewIntro {
+    "Oh, hey! Those GO-GOGGLES suit you.\nBut I think they look better on me.\pLet's decide who they look better on\nwith a battle!"
+}
+
+text Route111_Text_DrewPostBattle {
+    "The GO-GOGGLES make it possible to\nget through sandstorms.\nThat makes me happy!"
+}
+
+text Route111_Text_DustyDefeat {
+    "While I have searched for ruins,\nI've not searched for strong POKéMON."
+}
+
+text Route111_Text_DustyIntro {
+    "For thirty years I have searched for\nancient ruins!\nI am to be challenged?"
+}
+
+text Route111_Text_DustyPostBattle {
+    "For thirty years I have searched for\nancient ruins!\pNo, wait, was that forty years?\nWhich was it now?"
+}
+
+text Route111_Text_HaydenDefeat {
+    "Groan…"
+}
+
+text Route111_Text_HaydenIntro {
+    "When you're as famished as I am,\nthere is no room for pity!"
+}
+
+text Route111_Text_HaydenPostBattle {
+    "My stomach is grumbling!\nMaybe I can grill some BERRIES…"
+}
+
+text Route111_Text_HeidiDefeat {
+    "Ohhh! You're mean!"
+}
+
+text Route111_Text_HeidiIntro {
+    "I'm having a picnic in the desert.\pYou can always find a TRAINER,\nso I can enjoy a battle here, too!"
+}
+
+text Route111_Text_HeidiPostBattle {
+    "When you're battling in a sandstorm,\nwatch out for your POKéMON's HP.\pIt can faint if you don't keep\nan eye on it!"
+}
+
+text Route111_Text_IreneDefeat {
+    "Oh, you're disgustingly good!"
+}
+
+text Route111_Text_IreneIntro {
+    "I don't know where you're going,\nbut would you like to battle?"
+}
+
+text Route111_Text_IrenePostBattle {
+    "I'm thinking that I should go to\nMT. CHIMNEY, but the view around\nhere is very nice, too."
+}
+
+text Route111_Text_TravisDefeat {
+    "My POKéMON lost its pep…"
+}
+
+text Route111_Text_TravisIntro {
+    "I'm full of pep!\nAnd my POKéMON is peppy, too!"
+}
+
+text Route111_Text_TravisPostBattle {
+    "When I see a TRAINER with a lot of pep,\nI can't help looking."
+}
+
+text Route111_Text_TyronDefeat {
+    "Wait!\nDid you get a good look at my POKéMON?"
+}
+
+text Route111_Text_TyronIntro {
+    "This is my favorite kind of POKéMON!"
+}
+
+text Route111_Text_TyronPostBattle {
+    "When having a battle, I get a kick out\nof showing off my POKéMON.\pI bet everyone feels that way when\nthey enter a battle!"
+}
+
+text Route111_Text_WiltonDefeat {
+    "I see, you've toughened them\nconsiderably."
+}
+
+text Route111_Text_WiltonIntro {
+    "Show me how much you've toughened\nyour POKéMON."
+}
+
+text Route111_Text_WiltonPostBattle {
+    "POKéMON and TRAINERS learn much\nthrough battling.\pWhat's important is to never give up\neven if you lose."
 }

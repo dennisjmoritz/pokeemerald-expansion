@@ -2,10 +2,37 @@ mapscripts MtPyre_6F_MapScripts {
 }
 
 script MtPyre_6F_EventScript_Cedric {
-    end
+    trainerbattle_double(TRAINER_CEDRIC, MtPyre_6F_Text_CedricIntro, MtPyre_6F_Text_CedricDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_6F_Text_CedricPostBattle)
 }
 
 script MtPyre_6F_EventScript_Valerie {
-    end
+    trainerbattle_double(TRAINER_VALERIE, MtPyre_6F_Text_ValerieIntro, MtPyre_6F_Text_ValerieDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_6F_Text_ValeriePostBattle)
 }
 
+
+
+text MtPyre_6F_Text_CedricDefeat {
+    "Placeholder text for MtPyre_6F_Text_CedricDefeat"
+}
+
+text MtPyre_6F_Text_CedricIntro {
+    "Placeholder text for MtPyre_6F_Text_CedricIntro"
+}
+
+text MtPyre_6F_Text_CedricPostBattle {
+    "Placeholder text for MtPyre_6F_Text_CedricPostBattle"
+}
+
+text MtPyre_6F_Text_ValerieDefeat {
+    "Placeholder text for MtPyre_6F_Text_ValerieDefeat"
+}
+
+text MtPyre_6F_Text_ValerieIntro {
+    "Placeholder text for MtPyre_6F_Text_ValerieIntro"
+}
+
+text MtPyre_6F_Text_ValeriePostBattle {
+    "Placeholder text for MtPyre_6F_Text_ValeriePostBattle"
+}

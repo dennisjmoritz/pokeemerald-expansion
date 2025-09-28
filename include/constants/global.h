@@ -184,3 +184,4 @@
 #endif
 
 #endif // GUARD_CONSTANTS_GLOBAL_H
+#define Text_NotEnoughMonsForDoubleBattle gText_NotEnoughMonsForDoubleBattle

@@ -2,7 +2,8 @@ mapscripts AbandonedShip_Corridors_B1F_MapScripts {
 }
 
 script AbandonedShip_Corridors_B1F_EventScript_Duncan {
-    end
+    trainerbattle_double(TRAINER_DUNCAN, AbandonedShip_Corridors_B1F_Text_DuncanIntro, AbandonedShip_Corridors_B1F_Text_DuncanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(AbandonedShip_Corridors_B1F_Text_DuncanPostBattle)
 }
 
 script AbandonedShip_Corridors_B1F_EventScript_StorageRoomDoor {
@@ -27,4 +28,17 @@ script AbandonedShip_Corridors_B1F_EventScript_TuberM {
 
 text AbandonedShip_Corridors_B1F_Text_InsertedStorageKey {
     format("{PLAYER} inserted and turned the STORAGE KEY.\p The inserted KEY stuck fast, but the door opened.")
+}
+
+
+text AbandonedShip_Corridors_B1F_Text_DuncanDefeat {
+    "Placeholder text for AbandonedShip_Corridors_B1F_Text_DuncanDefeat"
+}
+
+text AbandonedShip_Corridors_B1F_Text_DuncanIntro {
+    "Placeholder text for AbandonedShip_Corridors_B1F_Text_DuncanIntro"
+}
+
+text AbandonedShip_Corridors_B1F_Text_DuncanPostBattle {
+    "Placeholder text for AbandonedShip_Corridors_B1F_Text_DuncanPostBattle"
 }

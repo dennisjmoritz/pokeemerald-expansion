@@ -2,19 +2,23 @@ mapscripts Route118_MapScripts {
 }
 
 script Route118_EventScript_Barny {
-    end
+    trainerbattle_double(TRAINER_BARNY, Route118_Text_BarnyIntro, Route118_Text_BarnyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route118_Text_BarnyPostBattle)
 }
 
 script Route118_EventScript_Chester {
-    end
+    trainerbattle_double(TRAINER_CHESTER, Route118_Text_ChesterIntro, Route118_Text_ChesterDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route118_Text_ChesterPostBattle)
 }
 
 script Route118_EventScript_Dalton {
-    end
+    trainerbattle_double(TRAINER_DALTON, Route118_Text_DaltonIntro, Route118_Text_DaltonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route118_Text_DaltonPostBattle)
 }
 
 script Route118_EventScript_Deandre {
-    end
+    trainerbattle_double(TRAINER_DEANDRE, Route118_Text_DeandreIntro, Route118_Text_DeandreDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route118_Text_DeandrePostBattle)
 }
 
 script Route118_EventScript_Girl {
@@ -26,11 +30,13 @@ script Route118_EventScript_GoodRodFisherman {
 }
 
 script Route118_EventScript_Perry {
-    end
+    trainerbattle_double(TRAINER_PERRY, Route118_Text_PerryIntro, Route118_Text_PerryDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route118_Text_PerryPostBattle)
 }
 
 script Route118_EventScript_Rose {
-    end
+    trainerbattle_double(TRAINER_ROSE, Route118_Text_RoseIntro, Route118_Text_RoseDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route118_Text_RosePostBattle)
 }
 
 script Route118_EventScript_RouteSign119 {
@@ -56,7 +62,8 @@ script Route118_EventScript_StevenTrigger2 {
 }
 
 script Route118_EventScript_Wade {
-    end
+    trainerbattle_double(TRAINER_WADE, Route118_Text_WadeIntro, Route118_Text_WadeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route118_Text_WadePostBattle)
 }
 
 
@@ -66,4 +73,89 @@ text Route118_Text_RouteSignMauville {
 
 text Route118_Text_RouteSign119 {
     format("ROUTE 118 {UP_ARROW} ROUTE 119")
+}
+
+
+text Route118_Text_BarnyDefeat {
+    "I thought I was doing okay in my\ntraining…"
+}
+
+text Route118_Text_BarnyIntro {
+    "I'm a FISHERMAN, but also a TRAINER.\nI'm raising the POKéMON I caught."
+}
+
+text Route118_Text_BarnyPostBattle {
+    "I couldn't win by training POKéMON\nwhile I fished…\pWas I doing things in half measures?"
+}
+
+text Route118_Text_ChesterDefeat {
+    "They did take flight…"
+}
+
+text Route118_Text_ChesterIntro {
+    "Take flight!\nMy BIRD POKéMON!"
+}
+
+text Route118_Text_ChesterPostBattle {
+    "If they'd get stronger, they'd be able\nto fly more freely…"
+}
+
+text Route118_Text_DaltonDefeat {
+    "La-lalala…"
+}
+
+text Route118_Text_DaltonIntro {
+    "Let my melody rock your soul!"
+}
+
+text Route118_Text_DaltonPostBattle {
+    "An electric guitar doesn't always\nhave to be noisy…\pIt can be strummed to squeeze out\nthis heart-stirring melody…"
+}
+
+text Route118_Text_DeandreDefeat {
+    "Come in, POKéMON! Are you okay?\nPOKéMON 1, 2, and 3?!"
+}
+
+text Route118_Text_DeandreIntro {
+    "Go, go, go!\nPOKéMON 1, 2, and 3!"
+}
+
+text Route118_Text_DeandrePostBattle {
+    "Isn't it cool that I have a POKéMON\nbattle team?\pYou can copy me--I don't mind!"
+}
+
+text Route118_Text_PerryDefeat {
+    "Urgh…\nI crashed…"
+}
+
+text Route118_Text_PerryIntro {
+    "BIRD POKéMON that FLY elegantly in\nthe sky… They're the best!"
+}
+
+text Route118_Text_PerryPostBattle {
+    "You've got great POKéMON.\nI'll have to train mine better."
+}
+
+text Route118_Text_RoseDefeat {
+    "Oh, dear me.\nI seem to have lost."
+}
+
+text Route118_Text_RoseIntro {
+    "The aroma of flowers has a magical\npower. It cleanses us body and soul."
+}
+
+text Route118_Text_RosePostBattle {
+    "Flowers, POKéMON…\nI love whatever smells nice.\pStinky things…\nI'll pass."
+}
+
+text Route118_Text_WadeDefeat {
+    "I was beaten in heart?"
+}
+
+text Route118_Text_WadeIntro {
+    "For FISHERMEN, equipment is the key.\pBut for TRAINERS, the key ingredients\nare POKéMON and heart, of course!"
+}
+
+text Route118_Text_WadePostBattle {
+    "Come to think of it, fishing is a battle\nbetween a FISHERMAN and a POKéMON."
 }

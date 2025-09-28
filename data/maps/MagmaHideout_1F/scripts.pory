@@ -2,10 +2,37 @@ mapscripts MagmaHideout_1F_MapScripts {
 }
 
 script MagmaHideout_1F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MAGMA_HIDEOUT, MagmaHideout_1F_Text_Grunt1Intro, MagmaHideout_1F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MagmaHideout_1F_Text_Grunt1PostBattle)
 }
 
 script MagmaHideout_1F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MAGMA_HIDEOUT_2, MagmaHideout_1F_Text_Grunt2Intro, MagmaHideout_1F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MagmaHideout_1F_Text_Grunt2PostBattle)
 }
 
+
+
+text MagmaHideout_1F_Text_Grunt1Defeat {
+    "Placeholder text for MagmaHideout_1F_Text_Grunt1Defeat"
+}
+
+text MagmaHideout_1F_Text_Grunt1Intro {
+    "Placeholder text for MagmaHideout_1F_Text_Grunt1Intro"
+}
+
+text MagmaHideout_1F_Text_Grunt1PostBattle {
+    "Placeholder text for MagmaHideout_1F_Text_Grunt1PostBattle"
+}
+
+text MagmaHideout_1F_Text_Grunt2Defeat {
+    "Placeholder text for MagmaHideout_1F_Text_Grunt2Defeat"
+}
+
+text MagmaHideout_1F_Text_Grunt2Intro {
+    "Placeholder text for MagmaHideout_1F_Text_Grunt2Intro"
+}
+
+text MagmaHideout_1F_Text_Grunt2PostBattle {
+    "Placeholder text for MagmaHideout_1F_Text_Grunt2PostBattle"
+}

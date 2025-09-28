@@ -2,15 +2,18 @@ mapscripts MagmaHideout_4F_MapScripts {
 }
 
 script MagmaHideout_4F_EventScript_Grunt11 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MAGMA_HIDEOUT_11, MagmaHideout_4F_Text_Grunt11Intro, MagmaHideout_4F_Text_Grunt11Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MagmaHideout_4F_Text_Grunt11PostBattle)
 }
 
 script MagmaHideout_4F_EventScript_Grunt12 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MAGMA_HIDEOUT_12, MagmaHideout_4F_Text_Grunt12Intro, MagmaHideout_4F_Text_Grunt12Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MagmaHideout_4F_Text_Grunt12PostBattle)
 }
 
 script MagmaHideout_4F_EventScript_Grunt13 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MAGMA_HIDEOUT_13, MagmaHideout_4F_Text_Grunt13Intro, MagmaHideout_4F_Text_Grunt13Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MagmaHideout_4F_Text_Grunt13PostBattle)
 }
 
 script MagmaHideout_4F_EventScript_Maxie {
@@ -18,6 +21,56 @@ script MagmaHideout_4F_EventScript_Maxie {
 }
 
 script MagmaHideout_4F_EventScript_Tabitha {
-    end
+    trainerbattle_double(TRAINER_TABITHA_MAGMA_HIDEOUT, MagmaHideout_4F_Text_TabithaIntro, MagmaHideout_4F_Text_TabithaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MagmaHideout_4F_Text_TabithaPostBattle)
 }
 
+
+
+text MagmaHideout_4F_Text_Grunt11Defeat {
+    "Placeholder text for MagmaHideout_4F_Text_Grunt11Defeat"
+}
+
+text MagmaHideout_4F_Text_Grunt11Intro {
+    "Placeholder text for MagmaHideout_4F_Text_Grunt11Intro"
+}
+
+text MagmaHideout_4F_Text_Grunt11PostBattle {
+    "Placeholder text for MagmaHideout_4F_Text_Grunt11PostBattle"
+}
+
+text MagmaHideout_4F_Text_Grunt12Defeat {
+    "Placeholder text for MagmaHideout_4F_Text_Grunt12Defeat"
+}
+
+text MagmaHideout_4F_Text_Grunt12Intro {
+    "Placeholder text for MagmaHideout_4F_Text_Grunt12Intro"
+}
+
+text MagmaHideout_4F_Text_Grunt12PostBattle {
+    "Placeholder text for MagmaHideout_4F_Text_Grunt12PostBattle"
+}
+
+text MagmaHideout_4F_Text_Grunt13Defeat {
+    "Placeholder text for MagmaHideout_4F_Text_Grunt13Defeat"
+}
+
+text MagmaHideout_4F_Text_Grunt13Intro {
+    "Placeholder text for MagmaHideout_4F_Text_Grunt13Intro"
+}
+
+text MagmaHideout_4F_Text_Grunt13PostBattle {
+    "Placeholder text for MagmaHideout_4F_Text_Grunt13PostBattle"
+}
+
+text MagmaHideout_4F_Text_TabithaDefeat {
+    "Placeholder text for MagmaHideout_4F_Text_TabithaDefeat"
+}
+
+text MagmaHideout_4F_Text_TabithaIntro {
+    "Placeholder text for MagmaHideout_4F_Text_TabithaIntro"
+}
+
+text MagmaHideout_4F_Text_TabithaPostBattle {
+    "Placeholder text for MagmaHideout_4F_Text_TabithaPostBattle"
+}

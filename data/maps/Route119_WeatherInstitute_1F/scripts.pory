@@ -11,11 +11,13 @@ script Route119_WeatherInstitute_1F_EventScript_Bed {
 }
 
 script Route119_WeatherInstitute_1F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_WEATHER_INST, Route119_WeatherInstitute_1F_Text_Grunt1Intro, Route119_WeatherInstitute_1F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_WeatherInstitute_1F_Text_Grunt1PostBattle)
 }
 
 script Route119_WeatherInstitute_1F_EventScript_Grunt4 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_WEATHER_INST_4, Route119_WeatherInstitute_1F_Text_Grunt4Intro, Route119_WeatherInstitute_1F_Text_Grunt4Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_WeatherInstitute_1F_Text_Grunt4PostBattle)
 }
 
 script Route119_WeatherInstitute_1F_EventScript_InstituteWorker1 {
@@ -33,4 +35,29 @@ script Route119_WeatherInstitute_1F_EventScript_LittleBoy {
 
 text Route119_WeatherInstitute_1F_Text_TakeRestInBed {
     format("There's a bed… Let's take a rest.")
+}
+
+
+text Route119_WeatherInstitute_1F_Text_Grunt1Defeat {
+    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt1Defeat"
+}
+
+text Route119_WeatherInstitute_1F_Text_Grunt1Intro {
+    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt1Intro"
+}
+
+text Route119_WeatherInstitute_1F_Text_Grunt1PostBattle {
+    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt1PostBattle"
+}
+
+text Route119_WeatherInstitute_1F_Text_Grunt4Defeat {
+    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt4Defeat"
+}
+
+text Route119_WeatherInstitute_1F_Text_Grunt4Intro {
+    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt4Intro"
+}
+
+text Route119_WeatherInstitute_1F_Text_Grunt4PostBattle {
+    "Placeholder text for Route119_WeatherInstitute_1F_Text_Grunt4PostBattle"
 }

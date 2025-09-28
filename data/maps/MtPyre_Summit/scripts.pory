@@ -14,19 +14,23 @@ script MtPyre_Summit_EventScript_ArchieMaxieTrigger2 {
 }
 
 script MtPyre_Summit_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MT_PYRE, MtPyre_Summit_Text_Grunt1Intro, MtPyre_Summit_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_Summit_Text_Grunt1PostBattle)
 }
 
 script MtPyre_Summit_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MT_PYRE_2, MtPyre_Summit_Text_Grunt2Intro, MtPyre_Summit_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_Summit_Text_Grunt2PostBattle)
 }
 
 script MtPyre_Summit_EventScript_Grunt3 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MT_PYRE_3, MtPyre_Summit_Text_Grunt3Intro, MtPyre_Summit_Text_Grunt3Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_Summit_Text_Grunt3PostBattle)
 }
 
 script MtPyre_Summit_EventScript_Grunt4 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MT_PYRE_4, MtPyre_Summit_Text_Grunt4Intro, MtPyre_Summit_Text_Grunt4Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_Summit_Text_Grunt4PostBattle)
 }
 
 script MtPyre_Summit_EventScript_OldLady {
@@ -49,3 +53,52 @@ script MtPyre_Summit_EventScript_TeamAquaTrigger2 {
     end
 }
 
+
+
+text MtPyre_Summit_Text_Grunt1Defeat {
+    "Placeholder text for MtPyre_Summit_Text_Grunt1Defeat"
+}
+
+text MtPyre_Summit_Text_Grunt1Intro {
+    "Placeholder text for MtPyre_Summit_Text_Grunt1Intro"
+}
+
+text MtPyre_Summit_Text_Grunt1PostBattle {
+    "Placeholder text for MtPyre_Summit_Text_Grunt1PostBattle"
+}
+
+text MtPyre_Summit_Text_Grunt2Defeat {
+    "Placeholder text for MtPyre_Summit_Text_Grunt2Defeat"
+}
+
+text MtPyre_Summit_Text_Grunt2Intro {
+    "Placeholder text for MtPyre_Summit_Text_Grunt2Intro"
+}
+
+text MtPyre_Summit_Text_Grunt2PostBattle {
+    "Placeholder text for MtPyre_Summit_Text_Grunt2PostBattle"
+}
+
+text MtPyre_Summit_Text_Grunt3Defeat {
+    "Placeholder text for MtPyre_Summit_Text_Grunt3Defeat"
+}
+
+text MtPyre_Summit_Text_Grunt3Intro {
+    "Placeholder text for MtPyre_Summit_Text_Grunt3Intro"
+}
+
+text MtPyre_Summit_Text_Grunt3PostBattle {
+    "Placeholder text for MtPyre_Summit_Text_Grunt3PostBattle"
+}
+
+text MtPyre_Summit_Text_Grunt4Defeat {
+    "Placeholder text for MtPyre_Summit_Text_Grunt4Defeat"
+}
+
+text MtPyre_Summit_Text_Grunt4Intro {
+    "Placeholder text for MtPyre_Summit_Text_Grunt4Intro"
+}
+
+text MtPyre_Summit_Text_Grunt4PostBattle {
+    "Placeholder text for MtPyre_Summit_Text_Grunt4PostBattle"
+}

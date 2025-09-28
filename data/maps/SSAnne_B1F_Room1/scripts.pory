@@ -2,10 +2,37 @@ mapscripts SSAnne_B1F_Room1_MapScripts {
 }
 
 script SSAnne_B1F_Room1_EventScript_Barny {
-    end
+    trainerbattle_double(TRAINER_FISHERMAN_BARNY, SSAnne_B1F_Room1_Text_BarnyIntro, SSAnne_B1F_Room1_Text_BarnyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSAnne_B1F_Room1_Text_BarnyPostBattle)
 }
 
 script SSAnne_B1F_Room1_EventScript_Phillip {
-    end
+    trainerbattle_double(TRAINER_SAILOR_PHILLIP, SSAnne_B1F_Room1_Text_PhillipIntro, SSAnne_B1F_Room1_Text_PhillipDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSAnne_B1F_Room1_Text_PhillipPostBattle)
 }
 
+
+
+text SSAnne_B1F_Room1_Text_BarnyDefeat {
+    "Placeholder text for SSAnne_B1F_Room1_Text_BarnyDefeat"
+}
+
+text SSAnne_B1F_Room1_Text_BarnyIntro {
+    "Placeholder text for SSAnne_B1F_Room1_Text_BarnyIntro"
+}
+
+text SSAnne_B1F_Room1_Text_BarnyPostBattle {
+    "Placeholder text for SSAnne_B1F_Room1_Text_BarnyPostBattle"
+}
+
+text SSAnne_B1F_Room1_Text_PhillipDefeat {
+    "Placeholder text for SSAnne_B1F_Room1_Text_PhillipDefeat"
+}
+
+text SSAnne_B1F_Room1_Text_PhillipIntro {
+    "Placeholder text for SSAnne_B1F_Room1_Text_PhillipIntro"
+}
+
+text SSAnne_B1F_Room1_Text_PhillipPostBattle {
+    "Placeholder text for SSAnne_B1F_Room1_Text_PhillipPostBattle"
+}

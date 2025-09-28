@@ -13,11 +13,13 @@ script PetalburgCity_Gym_EventScript_AccuracyRoomDoor {
 }
 
 script PetalburgCity_Gym_EventScript_Alexia {
-    end
+    trainerbattle_double(TRAINER_ALEXIA, PetalburgCity_Gym_Text_AlexiaIntro, PetalburgCity_Gym_Text_AlexiaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PetalburgCity_Gym_Text_AlexiaPostBattle)
 }
 
 script PetalburgCity_Gym_EventScript_Berke {
-    end
+    trainerbattle_double(TRAINER_BERKE, PetalburgCity_Gym_Text_BerkeIntro, PetalburgCity_Gym_Text_BerkeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PetalburgCity_Gym_Text_BerkePostBattle)
 }
 
 script PetalburgCity_Gym_EventScript_ConfusionRoomDoor {
@@ -32,7 +34,8 @@ script PetalburgCity_Gym_EventScript_ConfusionRoomDoor {
 }
 
 script PetalburgCity_Gym_EventScript_George {
-    end
+    trainerbattle_double(TRAINER_GEORGE, PetalburgCity_Gym_Text_GeorgeIntro, PetalburgCity_Gym_Text_GeorgeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PetalburgCity_Gym_Text_GeorgePostBattle)
 }
 
 script PetalburgCity_Gym_EventScript_GymGuide {
@@ -40,7 +43,8 @@ script PetalburgCity_Gym_EventScript_GymGuide {
 }
 
 script PetalburgCity_Gym_EventScript_Jody {
-    end
+    trainerbattle_double(TRAINER_JODY, PetalburgCity_Gym_Text_JodyIntro, PetalburgCity_Gym_Text_JodyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PetalburgCity_Gym_Text_JodyPostBattle)
 }
 
 script PetalburgCity_Gym_EventScript_LeftDefenseRoomDoor {
@@ -95,7 +99,8 @@ script PetalburgCity_Gym_EventScript_LeftStrengthRoomDoor {
 }
 
 script PetalburgCity_Gym_EventScript_Mary {
-    end
+    trainerbattle_double(TRAINER_MARY, PetalburgCity_Gym_Text_MaryIntro, PetalburgCity_Gym_Text_MaryDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PetalburgCity_Gym_Text_MaryPostBattle)
 }
 
 script PetalburgCity_Gym_EventScript_Norman {
@@ -103,11 +108,13 @@ script PetalburgCity_Gym_EventScript_Norman {
 }
 
 script PetalburgCity_Gym_EventScript_Parker {
-    end
+    trainerbattle_double(TRAINER_PARKER, PetalburgCity_Gym_Text_ParkerIntro, PetalburgCity_Gym_Text_ParkerDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PetalburgCity_Gym_Text_ParkerPostBattle)
 }
 
 script PetalburgCity_Gym_EventScript_Randall {
-    end
+    trainerbattle_double(TRAINER_RANDALL, PetalburgCity_Gym_Text_RandallIntro, PetalburgCity_Gym_Text_RandallDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PetalburgCity_Gym_Text_RandallPostBattle)
 }
 
 script PetalburgCity_Gym_EventScript_RecoveryRoomDoor {
@@ -214,4 +221,89 @@ text PetalburgCity_Gym_Text_EnterStrengthRoom {
 
 text PetalburgCity_Gym_Text_EnterDefenseRoom {
     format("“DEFENSE ROOM,” the sign says.\p Do you want to go through?")
+}
+
+
+text PetalburgCity_Gym_Text_AlexiaDefeat {
+    "Placeholder text for PetalburgCity_Gym_Text_AlexiaDefeat"
+}
+
+text PetalburgCity_Gym_Text_AlexiaIntro {
+    "Placeholder text for PetalburgCity_Gym_Text_AlexiaIntro"
+}
+
+text PetalburgCity_Gym_Text_AlexiaPostBattle {
+    "Placeholder text for PetalburgCity_Gym_Text_AlexiaPostBattle"
+}
+
+text PetalburgCity_Gym_Text_BerkeDefeat {
+    "Placeholder text for PetalburgCity_Gym_Text_BerkeDefeat"
+}
+
+text PetalburgCity_Gym_Text_BerkeIntro {
+    "Placeholder text for PetalburgCity_Gym_Text_BerkeIntro"
+}
+
+text PetalburgCity_Gym_Text_BerkePostBattle {
+    "Placeholder text for PetalburgCity_Gym_Text_BerkePostBattle"
+}
+
+text PetalburgCity_Gym_Text_GeorgeDefeat {
+    "Placeholder text for PetalburgCity_Gym_Text_GeorgeDefeat"
+}
+
+text PetalburgCity_Gym_Text_GeorgeIntro {
+    "Placeholder text for PetalburgCity_Gym_Text_GeorgeIntro"
+}
+
+text PetalburgCity_Gym_Text_GeorgePostBattle {
+    "Placeholder text for PetalburgCity_Gym_Text_GeorgePostBattle"
+}
+
+text PetalburgCity_Gym_Text_JodyDefeat {
+    "Placeholder text for PetalburgCity_Gym_Text_JodyDefeat"
+}
+
+text PetalburgCity_Gym_Text_JodyIntro {
+    "Placeholder text for PetalburgCity_Gym_Text_JodyIntro"
+}
+
+text PetalburgCity_Gym_Text_JodyPostBattle {
+    "Placeholder text for PetalburgCity_Gym_Text_JodyPostBattle"
+}
+
+text PetalburgCity_Gym_Text_MaryDefeat {
+    "Placeholder text for PetalburgCity_Gym_Text_MaryDefeat"
+}
+
+text PetalburgCity_Gym_Text_MaryIntro {
+    "Placeholder text for PetalburgCity_Gym_Text_MaryIntro"
+}
+
+text PetalburgCity_Gym_Text_MaryPostBattle {
+    "Placeholder text for PetalburgCity_Gym_Text_MaryPostBattle"
+}
+
+text PetalburgCity_Gym_Text_ParkerDefeat {
+    "Placeholder text for PetalburgCity_Gym_Text_ParkerDefeat"
+}
+
+text PetalburgCity_Gym_Text_ParkerIntro {
+    "Placeholder text for PetalburgCity_Gym_Text_ParkerIntro"
+}
+
+text PetalburgCity_Gym_Text_ParkerPostBattle {
+    "Placeholder text for PetalburgCity_Gym_Text_ParkerPostBattle"
+}
+
+text PetalburgCity_Gym_Text_RandallDefeat {
+    "Placeholder text for PetalburgCity_Gym_Text_RandallDefeat"
+}
+
+text PetalburgCity_Gym_Text_RandallIntro {
+    "Placeholder text for PetalburgCity_Gym_Text_RandallIntro"
+}
+
+text PetalburgCity_Gym_Text_RandallPostBattle {
+    "Placeholder text for PetalburgCity_Gym_Text_RandallPostBattle"
 }

@@ -2,7 +2,8 @@ mapscripts MossdeepCity_SpaceCenter_1F_MapScripts {
 }
 
 script MossdeepCity_SpaceCenter_1F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_SPACE_CENTER, MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle)
 }
 
 script MossdeepCity_SpaceCenter_1F_EventScript_Grunt2 {
@@ -10,11 +11,13 @@ script MossdeepCity_SpaceCenter_1F_EventScript_Grunt2 {
 }
 
 script MossdeepCity_SpaceCenter_1F_EventScript_Grunt3 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_SPACE_CENTER_3, MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle)
 }
 
 script MossdeepCity_SpaceCenter_1F_EventScript_Grunt4 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_SPACE_CENTER_4, MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle)
 }
 
 script MossdeepCity_SpaceCenter_1F_EventScript_MagmaNote {
@@ -45,3 +48,40 @@ script MossdeepCity_SpaceCenter_1F_EventScript_Woman {
     end
 }
 
+
+
+text MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat {
+    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat"
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro {
+    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro"
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle {
+    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle"
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat {
+    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat"
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro {
+    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro"
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle {
+    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle"
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat {
+    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat"
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro {
+    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro"
+}
+
+text MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle {
+    "Placeholder text for MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle"
+}

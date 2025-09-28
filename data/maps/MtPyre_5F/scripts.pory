@@ -5,3 +5,16 @@ script MtPyre_5F_EventScript_Atsushi {
     end
 }
 
+
+
+text MtPyre_4F_Text_TashaDefeat {
+    "Placeholder text for MtPyre_4F_Text_TashaDefeat"
+}
+
+text MtPyre_4F_Text_TashaIntro {
+    "Placeholder text for MtPyre_4F_Text_TashaIntro"
+}
+
+text MtPyre_4F_Text_TashaPostBattle {
+    "Placeholder text for MtPyre_4F_Text_TashaPostBattle"
+}

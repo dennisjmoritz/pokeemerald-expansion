@@ -6,15 +6,18 @@ script Route121_EventScript_AquaGruntsMoveOut {
 }
 
 script Route121_EventScript_Cale {
-    end
+    trainerbattle_double(TRAINER_CALE, Route121_Text_CaleIntro, Route121_Text_CaleDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route121_Text_CalePostBattle)
 }
 
 script Route121_EventScript_Cristin {
-    end
+    trainerbattle_double(TRAINER_CRISTIN, Route121_Text_CristinIntro, Route121_Text_CristinDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route121_Text_CristinPostBattle)
 }
 
 script Route121_EventScript_Jessica {
-    end
+    trainerbattle_double(TRAINER_JESSICA, Route121_Text_JessicaIntro, Route121_Text_JessicaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route121_Text_JessicaPostBattle)
 }
 
 script Route121_EventScript_Joy {
@@ -26,7 +29,8 @@ script Route121_EventScript_Kate {
 }
 
 script Route121_EventScript_Marcel {
-    end
+    trainerbattle_double(TRAINER_MARCEL, Route121_Text_MarcelIntro, Route121_Text_MarcelDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route121_Text_MarcelPostBattle)
 }
 
 script Route121_EventScript_MtPyrePierSign {
@@ -35,11 +39,13 @@ script Route121_EventScript_MtPyrePierSign {
 }
 
 script Route121_EventScript_Myles {
-    end
+    trainerbattle_double(TRAINER_MYLES, Route121_Text_MylesIntro, Route121_Text_MylesDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route121_Text_MylesPostBattle)
 }
 
 script Route121_EventScript_Pat {
-    end
+    trainerbattle_double(TRAINER_PAT, Route121_Text_PatIntro, Route121_Text_PatDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route121_Text_PatPostBattle)
 }
 
 script Route121_EventScript_SafariZoneSign {
@@ -48,15 +54,18 @@ script Route121_EventScript_SafariZoneSign {
 }
 
 script Route121_EventScript_Tammy {
-    end
+    trainerbattle_double(TRAINER_TAMMY, Route121_Text_TammyIntro, Route121_Text_TammyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route121_Text_TammyPostBattle)
 }
 
 script Route121_EventScript_Vanessa {
-    end
+    trainerbattle_double(TRAINER_VANESSA, Route121_Text_VanessaIntro, Route121_Text_VanessaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route121_Text_VanessaPostBattle)
 }
 
 script Route121_EventScript_Walter {
-    end
+    trainerbattle_double(TRAINER_WALTER, Route121_Text_WalterIntro, Route121_Text_WalterDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route121_Text_WalterPostBattle)
 }
 
 script Route121_EventScript_Woman {
@@ -70,4 +79,113 @@ text Route121_Text_SafariZoneSign {
 
 text Route121_Text_MtPyrePierSign {
     format("MT. PYRE PIER\p …The sign is old and worn out. The words are barely legible…")
+}
+
+
+text Route121_Text_CaleDefeat {
+    "Of course I lost!\nI'm holding stuff in both hands!"
+}
+
+text Route121_Text_CaleIntro {
+    "Can't you see that I have all this\nstuff with me?\pDespite that, you still insist that\nwe battle?"
+}
+
+text Route121_Text_CalePostBattle {
+    "I bought too much stuff at\nthe LILYCOVE DEPT. STORE.\pIt's up the road from here.\nI wish I had a BAG like yours."
+}
+
+text Route121_Text_CristinDefeat {
+    "No!\nYou're horrid!"
+}
+
+text Route121_Text_CristinIntro {
+    "I have this routine.\nDefeat five TRAINERS a day.\nGuess what? You're number five!"
+}
+
+text Route121_Text_CristinPostBattle {
+    "I didn't expect to lose this easily…\nI'll win next time!"
+}
+
+text Route121_Text_JessicaDefeat {
+    "Oh, how dare you!\nDon't take it so seriously!"
+}
+
+text Route121_Text_JessicaIntro {
+    "Stop! Have a good look at my precious\nPOKéMON!"
+}
+
+text Route121_Text_JessicaPostBattle {
+    "Maybe I'll go catch more POKéMON at\nthe SAFARI."
+}
+
+text Route121_Text_MarcelDefeat {
+    "Oh, now what happened here?"
+}
+
+text Route121_Text_MarcelIntro {
+    "My POKéMON have never tasted defeat!\nOn their next win, I'm entering them\nin CONTESTS."
+}
+
+text Route121_Text_MarcelPostBattle {
+    "I may have to train my gang some more\nbefore entering any CONTEST."
+}
+
+text Route121_Text_MylesDefeat {
+    "Super awesome!"
+}
+
+text Route121_Text_MylesIntro {
+    "There's nothing I love more than\nchecking out other people's POKéMON!"
+}
+
+text Route121_Text_MylesPostBattle {
+    "They're great, your POKéMON!\nHow do you raise them?"
+}
+
+text Route121_Text_PatDefeat {
+    "Wow!\nSpectacular!"
+}
+
+text Route121_Text_PatIntro {
+    "I want everybody to see the POKéMON\nI've raised!"
+}
+
+text Route121_Text_PatPostBattle {
+    "I raise every POKéMON with the same\nlove and care--I don't pick favorites."
+}
+
+text Route121_Text_TammyDefeat {
+    "I have lost…"
+}
+
+text Route121_Text_TammyIntro {
+    "There are powers beyond our\nunderstanding in the world…"
+}
+
+text Route121_Text_TammyPostBattle {
+    "MT. PYRE…\nThere is a mysterious power\nat work there…"
+}
+
+text Route121_Text_VanessaDefeat {
+    "This isn't what I meant!"
+}
+
+text Route121_Text_VanessaIntro {
+    "Will you play with my delightfully\npretty POKéMON?"
+}
+
+text Route121_Text_VanessaPostBattle {
+    "I'm going to a CONTEST in LILYCOVE.\pMy POKéMON should have no problem\nsweeping the MASTER CLASS."
+}
+
+text Route121_Text_WalterDefeat {
+    "Ah, well played."
+}
+
+text Route121_Text_WalterIntro {
+    "With my POKéMON, I have traveled\nto the world's four corners.\pYou might say I have some confidence\nin my abilities."
+}
+
+text Route121_Text_WalterPostBattle {
+    "I would like to circle the globe once\nagain with my POKéMON."
 }

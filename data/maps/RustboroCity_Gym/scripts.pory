@@ -6,7 +6,8 @@ script RustboroCity_Gym_EventScript_GymGuide {
 }
 
 script RustboroCity_Gym_EventScript_Josh {
-    end
+    trainerbattle_double(TRAINER_JOSH, RustboroCity_Gym_Text_JoshIntro, RustboroCity_Gym_Text_JoshDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RustboroCity_Gym_Text_JoshPostBattle)
 }
 
 script RustboroCity_Gym_EventScript_LeftGymStatue {
@@ -17,7 +18,8 @@ script RustboroCity_Gym_EventScript_LeftGymStatue {
 }
 
 script RustboroCity_Gym_EventScript_Marc {
-    end
+    trainerbattle_double(TRAINER_MARC, RustboroCity_Gym_Text_MarcIntro, RustboroCity_Gym_Text_MarcDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RustboroCity_Gym_Text_MarcPostBattle)
 }
 
 script RustboroCity_Gym_EventScript_RightGymStatue {
@@ -32,6 +34,44 @@ script RustboroCity_Gym_EventScript_Roxanne {
 }
 
 script RustboroCity_Gym_EventScript_Tommy {
-    end
+    trainerbattle_double(TRAINER_TOMMY, RustboroCity_Gym_Text_TommyIntro, RustboroCity_Gym_Text_TommyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RustboroCity_Gym_Text_TommyPostBattle)
 }
 
+
+
+text RustboroCity_Gym_Text_JoshDefeat {
+    "Placeholder text for RustboroCity_Gym_Text_JoshDefeat"
+}
+
+text RustboroCity_Gym_Text_JoshIntro {
+    "Placeholder text for RustboroCity_Gym_Text_JoshIntro"
+}
+
+text RustboroCity_Gym_Text_JoshPostBattle {
+    "Placeholder text for RustboroCity_Gym_Text_JoshPostBattle"
+}
+
+text RustboroCity_Gym_Text_MarcDefeat {
+    "Placeholder text for RustboroCity_Gym_Text_MarcDefeat"
+}
+
+text RustboroCity_Gym_Text_MarcIntro {
+    "Placeholder text for RustboroCity_Gym_Text_MarcIntro"
+}
+
+text RustboroCity_Gym_Text_MarcPostBattle {
+    "Placeholder text for RustboroCity_Gym_Text_MarcPostBattle"
+}
+
+text RustboroCity_Gym_Text_TommyDefeat {
+    "Placeholder text for RustboroCity_Gym_Text_TommyDefeat"
+}
+
+text RustboroCity_Gym_Text_TommyIntro {
+    "Placeholder text for RustboroCity_Gym_Text_TommyIntro"
+}
+
+text RustboroCity_Gym_Text_TommyPostBattle {
+    "Placeholder text for RustboroCity_Gym_Text_TommyPostBattle"
+}

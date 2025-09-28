@@ -7,11 +7,13 @@ script SilphCo_3F_EventScript_FloorSign {
 }
 
 script SilphCo_3F_EventScript_Grunt {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_25, SilphCo_3F_Text_GruntIntro, SilphCo_3F_Text_GruntDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_3F_Text_GruntPostBattle)
 }
 
 script SilphCo_3F_EventScript_Jose {
-    end
+    trainerbattle_double(TRAINER_SCIENTIST_JOSE, SilphCo_3F_Text_JoseIntro, SilphCo_3F_Text_JoseDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_3F_Text_JosePostBattle)
 }
 
 script SilphCo_3F_EventScript_WorkerM {
@@ -21,4 +23,29 @@ script SilphCo_3F_EventScript_WorkerM {
 
 text SilphCo_3F_Text_FloorSign {
     format("SILPH CO. HEAD OFFICE 3F")
+}
+
+
+text SilphCo_3F_Text_GruntDefeat {
+    "Placeholder text for SilphCo_3F_Text_GruntDefeat"
+}
+
+text SilphCo_3F_Text_GruntIntro {
+    "Placeholder text for SilphCo_3F_Text_GruntIntro"
+}
+
+text SilphCo_3F_Text_GruntPostBattle {
+    "Placeholder text for SilphCo_3F_Text_GruntPostBattle"
+}
+
+text SilphCo_3F_Text_JoseDefeat {
+    "Placeholder text for SilphCo_3F_Text_JoseDefeat"
+}
+
+text SilphCo_3F_Text_JoseIntro {
+    "Placeholder text for SilphCo_3F_Text_JoseIntro"
+}
+
+text SilphCo_3F_Text_JosePostBattle {
+    "Placeholder text for SilphCo_3F_Text_JosePostBattle"
 }

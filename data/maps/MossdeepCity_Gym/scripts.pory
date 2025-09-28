@@ -2,7 +2,8 @@ mapscripts MossdeepCity_Gym_MapScripts {
 }
 
 script MossdeepCity_Gym_EventScript_Blake {
-    end
+    trainerbattle_double(TRAINER_BLAKE, MossdeepCity_Gym_Text_BlakeIntro, MossdeepCity_Gym_Text_BlakeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_BlakePostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_BlueFloorSwitch {
@@ -10,7 +11,8 @@ script MossdeepCity_Gym_EventScript_BlueFloorSwitch {
 }
 
 script MossdeepCity_Gym_EventScript_Clifford {
-    end
+    trainerbattle_double(TRAINER_CLIFFORD, MossdeepCity_Gym_Text_CliffordIntro, MossdeepCity_Gym_Text_CliffordDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_CliffordPostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_GreenFloorSwitch {
@@ -22,11 +24,13 @@ script MossdeepCity_Gym_EventScript_GymGuide {
 }
 
 script MossdeepCity_Gym_EventScript_Hannah {
-    end
+    trainerbattle_double(TRAINER_HANNAH, MossdeepCity_Gym_Text_HannahIntro, MossdeepCity_Gym_Text_HannahDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_HannahPostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_Kathleen {
-    end
+    trainerbattle_double(TRAINER_KATHLEEN, MossdeepCity_Gym_Text_KathleenIntro, MossdeepCity_Gym_Text_KathleenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_KathleenPostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_LeftGymStatue {
@@ -37,23 +41,28 @@ script MossdeepCity_Gym_EventScript_LeftGymStatue {
 }
 
 script MossdeepCity_Gym_EventScript_Macey {
-    end
+    trainerbattle_double(TRAINER_MACEY, MossdeepCity_Gym_Text_MaceyIntro, MossdeepCity_Gym_Text_MaceyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_MaceyPostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_Maura {
-    end
+    trainerbattle_double(TRAINER_MAURA, MossdeepCity_Gym_Text_MauraIntro, MossdeepCity_Gym_Text_MauraDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_MauraPostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_Nate {
-    end
+    trainerbattle_double(TRAINER_NATE, MossdeepCity_Gym_Text_NateIntro, MossdeepCity_Gym_Text_NateDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_NatePostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_Nicholas {
-    end
+    trainerbattle_double(TRAINER_NICHOLAS, MossdeepCity_Gym_Text_NicholasIntro, MossdeepCity_Gym_Text_NicholasDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_NicholasPostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_Preston {
-    end
+    trainerbattle_double(TRAINER_PRESTON, MossdeepCity_Gym_Text_PrestonIntro, MossdeepCity_Gym_Text_PrestonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_PrestonPostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_PurpleFloorSwitch {
@@ -72,11 +81,13 @@ script MossdeepCity_Gym_EventScript_RightGymStatue {
 }
 
 script MossdeepCity_Gym_EventScript_Samantha {
-    end
+    trainerbattle_double(TRAINER_SAMANTHA, MossdeepCity_Gym_Text_SamanthaIntro, MossdeepCity_Gym_Text_SamanthaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_SamanthaPostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_Sylvia {
-    end
+    trainerbattle_double(TRAINER_SYLVIA, MossdeepCity_Gym_Text_SylviaIntro, MossdeepCity_Gym_Text_SylviaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_SylviaPostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_TateAndLiza {
@@ -84,7 +95,8 @@ script MossdeepCity_Gym_EventScript_TateAndLiza {
 }
 
 script MossdeepCity_Gym_EventScript_Virgil {
-    end
+    trainerbattle_double(TRAINER_VIRGIL, MossdeepCity_Gym_Text_VirgilIntro, MossdeepCity_Gym_Text_VirgilDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MossdeepCity_Gym_Text_VirgilPostBattle)
 }
 
 script MossdeepCity_Gym_EventScript_WarpToEntrance {
@@ -95,3 +107,148 @@ script MossdeepCity_Gym_EventScript_YellowFloorSwitch {
     end
 }
 
+
+
+text MossdeepCity_Gym_Text_BlakeDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_BlakeDefeat"
+}
+
+text MossdeepCity_Gym_Text_BlakeIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_BlakeIntro"
+}
+
+text MossdeepCity_Gym_Text_BlakePostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_BlakePostBattle"
+}
+
+text MossdeepCity_Gym_Text_CliffordDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_CliffordDefeat"
+}
+
+text MossdeepCity_Gym_Text_CliffordIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_CliffordIntro"
+}
+
+text MossdeepCity_Gym_Text_CliffordPostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_CliffordPostBattle"
+}
+
+text MossdeepCity_Gym_Text_HannahDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_HannahDefeat"
+}
+
+text MossdeepCity_Gym_Text_HannahIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_HannahIntro"
+}
+
+text MossdeepCity_Gym_Text_HannahPostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_HannahPostBattle"
+}
+
+text MossdeepCity_Gym_Text_KathleenDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_KathleenDefeat"
+}
+
+text MossdeepCity_Gym_Text_KathleenIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_KathleenIntro"
+}
+
+text MossdeepCity_Gym_Text_KathleenPostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_KathleenPostBattle"
+}
+
+text MossdeepCity_Gym_Text_MaceyDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_MaceyDefeat"
+}
+
+text MossdeepCity_Gym_Text_MaceyIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_MaceyIntro"
+}
+
+text MossdeepCity_Gym_Text_MaceyPostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_MaceyPostBattle"
+}
+
+text MossdeepCity_Gym_Text_MauraDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_MauraDefeat"
+}
+
+text MossdeepCity_Gym_Text_MauraIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_MauraIntro"
+}
+
+text MossdeepCity_Gym_Text_MauraPostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_MauraPostBattle"
+}
+
+text MossdeepCity_Gym_Text_NateDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_NateDefeat"
+}
+
+text MossdeepCity_Gym_Text_NateIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_NateIntro"
+}
+
+text MossdeepCity_Gym_Text_NatePostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_NatePostBattle"
+}
+
+text MossdeepCity_Gym_Text_NicholasDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_NicholasDefeat"
+}
+
+text MossdeepCity_Gym_Text_NicholasIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_NicholasIntro"
+}
+
+text MossdeepCity_Gym_Text_NicholasPostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_NicholasPostBattle"
+}
+
+text MossdeepCity_Gym_Text_PrestonDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_PrestonDefeat"
+}
+
+text MossdeepCity_Gym_Text_PrestonIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_PrestonIntro"
+}
+
+text MossdeepCity_Gym_Text_PrestonPostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_PrestonPostBattle"
+}
+
+text MossdeepCity_Gym_Text_SamanthaDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_SamanthaDefeat"
+}
+
+text MossdeepCity_Gym_Text_SamanthaIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_SamanthaIntro"
+}
+
+text MossdeepCity_Gym_Text_SamanthaPostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_SamanthaPostBattle"
+}
+
+text MossdeepCity_Gym_Text_SylviaDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_SylviaDefeat"
+}
+
+text MossdeepCity_Gym_Text_SylviaIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_SylviaIntro"
+}
+
+text MossdeepCity_Gym_Text_SylviaPostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_SylviaPostBattle"
+}
+
+text MossdeepCity_Gym_Text_VirgilDefeat {
+    "Placeholder text for MossdeepCity_Gym_Text_VirgilDefeat"
+}
+
+text MossdeepCity_Gym_Text_VirgilIntro {
+    "Placeholder text for MossdeepCity_Gym_Text_VirgilIntro"
+}
+
+text MossdeepCity_Gym_Text_VirgilPostBattle {
+    "Placeholder text for MossdeepCity_Gym_Text_VirgilPostBattle"
+}

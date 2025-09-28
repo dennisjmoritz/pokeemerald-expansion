@@ -1720,6 +1720,7 @@ extern const u8 gText_CantUseHere[];
 extern const u8 gText_NoPokemonForBattle[];
 extern const u8 gText_ChoosePokemon2[];
 extern const u8 gText_NotEnoughHp[];
+extern const u8 gText_NotEnoughMonsForDoubleBattle[];
 extern const u8 gText_PokemonAreNeeded[];
 extern const u8 gText_PokemonCantBeSame[];
 extern const u8 gText_NoIdenticalHoldItems[];

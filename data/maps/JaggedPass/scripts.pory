@@ -2,23 +2,28 @@ mapscripts JaggedPass_MapScripts {
 }
 
 script JaggedPass_EventScript_Autumn {
-    end
+    trainerbattle_double(TRAINER_AUTUMN, JaggedPass_Text_AutumnIntro, JaggedPass_Text_AutumnDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(JaggedPass_Text_AutumnPostBattle)
 }
 
 script JaggedPass_EventScript_Diana {
-    end
+    trainerbattle_double(TRAINER_DIANA, JaggedPass_Text_DianaIntro, JaggedPass_Text_DianaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(JaggedPass_Text_DianaPostBattle)
 }
 
 script JaggedPass_EventScript_Eric {
-    end
+    trainerbattle_double(TRAINER_ERIC, JaggedPass_Text_EricIntro, JaggedPass_Text_EricDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(JaggedPass_Text_EricPostBattle)
 }
 
 script JaggedPass_EventScript_Ethan {
-    end
+    trainerbattle_double(TRAINER_ETHAN, JaggedPass_Text_EthanIntro, JaggedPass_Text_EthanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(JaggedPass_Text_EthanPostBattle)
 }
 
 script JaggedPass_EventScript_Julio {
-    end
+    trainerbattle_double(TRAINER_JULIO, JaggedPass_Text_JulioIntro, JaggedPass_Text_JulioDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(JaggedPass_Text_JulioPostBattle)
 }
 
 script JaggedPass_EventScript_MagmaHideoutGuard {
@@ -29,3 +34,64 @@ script JaggedPass_EventScript_OpenMagmaHideout {
     end
 }
 
+
+
+text JaggedPass_Text_AutumnDefeat {
+    "Placeholder text for JaggedPass_Text_AutumnDefeat"
+}
+
+text JaggedPass_Text_AutumnIntro {
+    "Placeholder text for JaggedPass_Text_AutumnIntro"
+}
+
+text JaggedPass_Text_AutumnPostBattle {
+    "Placeholder text for JaggedPass_Text_AutumnPostBattle"
+}
+
+text JaggedPass_Text_DianaDefeat {
+    "Placeholder text for JaggedPass_Text_DianaDefeat"
+}
+
+text JaggedPass_Text_DianaIntro {
+    "Placeholder text for JaggedPass_Text_DianaIntro"
+}
+
+text JaggedPass_Text_DianaPostBattle {
+    "Placeholder text for JaggedPass_Text_DianaPostBattle"
+}
+
+text JaggedPass_Text_EricDefeat {
+    "Placeholder text for JaggedPass_Text_EricDefeat"
+}
+
+text JaggedPass_Text_EricIntro {
+    "Placeholder text for JaggedPass_Text_EricIntro"
+}
+
+text JaggedPass_Text_EricPostBattle {
+    "Placeholder text for JaggedPass_Text_EricPostBattle"
+}
+
+text JaggedPass_Text_EthanDefeat {
+    "Placeholder text for JaggedPass_Text_EthanDefeat"
+}
+
+text JaggedPass_Text_EthanIntro {
+    "Placeholder text for JaggedPass_Text_EthanIntro"
+}
+
+text JaggedPass_Text_EthanPostBattle {
+    "Placeholder text for JaggedPass_Text_EthanPostBattle"
+}
+
+text JaggedPass_Text_JulioDefeat {
+    "Placeholder text for JaggedPass_Text_JulioDefeat"
+}
+
+text JaggedPass_Text_JulioIntro {
+    "Placeholder text for JaggedPass_Text_JulioIntro"
+}
+
+text JaggedPass_Text_JulioPostBattle {
+    "Placeholder text for JaggedPass_Text_JulioPostBattle"
+}

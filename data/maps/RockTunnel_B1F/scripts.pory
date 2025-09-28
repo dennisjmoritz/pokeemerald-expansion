@@ -2,34 +2,139 @@ mapscripts RockTunnel_B1F_MapScripts {
 }
 
 script RockTunnel_B1F_EventScript_Allen {
-    end
+    trainerbattle_double(TRAINER_HIKER_ALLEN, RockTunnel_B1F_Text_AllenIntro, RockTunnel_B1F_Text_AllenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_B1F_Text_AllenPostBattle)
 }
 
 script RockTunnel_B1F_EventScript_Cooper {
-    end
+    trainerbattle_double(TRAINER_POKEMANIAC_COOPER, RockTunnel_B1F_Text_CooperIntro, RockTunnel_B1F_Text_CooperDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_B1F_Text_CooperPostBattle)
 }
 
 script RockTunnel_B1F_EventScript_Dudley {
-    end
+    trainerbattle_double(TRAINER_HIKER_DUDLEY, RockTunnel_B1F_Text_DudleyIntro, RockTunnel_B1F_Text_DudleyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_B1F_Text_DudleyPostBattle)
 }
 
 script RockTunnel_B1F_EventScript_Eric {
-    end
+    trainerbattle_double(TRAINER_HIKER_ERIC, RockTunnel_B1F_Text_EricIntro, RockTunnel_B1F_Text_EricDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_B1F_Text_EricPostBattle)
 }
 
 script RockTunnel_B1F_EventScript_Martha {
-    end
+    trainerbattle_double(TRAINER_PICNICKER_MARTHA, RockTunnel_B1F_Text_MarthaIntro, RockTunnel_B1F_Text_MarthaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_B1F_Text_MarthaPostBattle)
 }
 
 script RockTunnel_B1F_EventScript_Sofia {
-    end
+    trainerbattle_double(TRAINER_PICNICKER_SOFIA, RockTunnel_B1F_Text_SofiaIntro, RockTunnel_B1F_Text_SofiaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_B1F_Text_SofiaPostBattle)
 }
 
 script RockTunnel_B1F_EventScript_Steve {
-    end
+    trainerbattle_double(TRAINER_POKEMANIAC_STEVE, RockTunnel_B1F_Text_SteveIntro, RockTunnel_B1F_Text_SteveDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_B1F_Text_StevePostBattle)
 }
 
 script RockTunnel_B1F_EventScript_Winston {
-    end
+    trainerbattle_double(TRAINER_POKEMANIAC_WINSTON, RockTunnel_B1F_Text_WinstonIntro, RockTunnel_B1F_Text_WinstonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RockTunnel_B1F_Text_WinstonPostBattle)
 }
 
+
+
+text RockTunnel_B1F_Text_AllenDefeat {
+    "Placeholder text for RockTunnel_B1F_Text_AllenDefeat"
+}
+
+text RockTunnel_B1F_Text_AllenIntro {
+    "Placeholder text for RockTunnel_B1F_Text_AllenIntro"
+}
+
+text RockTunnel_B1F_Text_AllenPostBattle {
+    "Placeholder text for RockTunnel_B1F_Text_AllenPostBattle"
+}
+
+text RockTunnel_B1F_Text_CooperDefeat {
+    "Placeholder text for RockTunnel_B1F_Text_CooperDefeat"
+}
+
+text RockTunnel_B1F_Text_CooperIntro {
+    "Placeholder text for RockTunnel_B1F_Text_CooperIntro"
+}
+
+text RockTunnel_B1F_Text_CooperPostBattle {
+    "Placeholder text for RockTunnel_B1F_Text_CooperPostBattle"
+}
+
+text RockTunnel_B1F_Text_DudleyDefeat {
+    "Placeholder text for RockTunnel_B1F_Text_DudleyDefeat"
+}
+
+text RockTunnel_B1F_Text_DudleyIntro {
+    "Placeholder text for RockTunnel_B1F_Text_DudleyIntro"
+}
+
+text RockTunnel_B1F_Text_DudleyPostBattle {
+    "Placeholder text for RockTunnel_B1F_Text_DudleyPostBattle"
+}
+
+text RockTunnel_B1F_Text_EricDefeat {
+    "Placeholder text for RockTunnel_B1F_Text_EricDefeat"
+}
+
+text RockTunnel_B1F_Text_EricIntro {
+    "Placeholder text for RockTunnel_B1F_Text_EricIntro"
+}
+
+text RockTunnel_B1F_Text_EricPostBattle {
+    "Placeholder text for RockTunnel_B1F_Text_EricPostBattle"
+}
+
+text RockTunnel_B1F_Text_MarthaDefeat {
+    "Placeholder text for RockTunnel_B1F_Text_MarthaDefeat"
+}
+
+text RockTunnel_B1F_Text_MarthaIntro {
+    "Placeholder text for RockTunnel_B1F_Text_MarthaIntro"
+}
+
+text RockTunnel_B1F_Text_MarthaPostBattle {
+    "Placeholder text for RockTunnel_B1F_Text_MarthaPostBattle"
+}
+
+text RockTunnel_B1F_Text_SofiaDefeat {
+    "Placeholder text for RockTunnel_B1F_Text_SofiaDefeat"
+}
+
+text RockTunnel_B1F_Text_SofiaIntro {
+    "Placeholder text for RockTunnel_B1F_Text_SofiaIntro"
+}
+
+text RockTunnel_B1F_Text_SofiaPostBattle {
+    "Placeholder text for RockTunnel_B1F_Text_SofiaPostBattle"
+}
+
+text RockTunnel_B1F_Text_SteveDefeat {
+    "Placeholder text for RockTunnel_B1F_Text_SteveDefeat"
+}
+
+text RockTunnel_B1F_Text_SteveIntro {
+    "Placeholder text for RockTunnel_B1F_Text_SteveIntro"
+}
+
+text RockTunnel_B1F_Text_StevePostBattle {
+    "Placeholder text for RockTunnel_B1F_Text_StevePostBattle"
+}
+
+text RockTunnel_B1F_Text_WinstonDefeat {
+    "Placeholder text for RockTunnel_B1F_Text_WinstonDefeat"
+}
+
+text RockTunnel_B1F_Text_WinstonIntro {
+    "Placeholder text for RockTunnel_B1F_Text_WinstonIntro"
+}
+
+text RockTunnel_B1F_Text_WinstonPostBattle {
+    "Placeholder text for RockTunnel_B1F_Text_WinstonPostBattle"
+}

@@ -2,30 +2,122 @@ mapscripts Route128_MapScripts {
 }
 
 script Route128_EventScript_Alexa {
-    end
+    trainerbattle_double(TRAINER_ALEXA, Route128_Text_AlexaIntro, Route128_Text_AlexaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route128_Text_AlexaPostBattle)
 }
 
 script Route128_EventScript_Carlee {
-    end
+    trainerbattle_double(TRAINER_CARLEE, Route128_Text_CarleeIntro, Route128_Text_CarleeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route128_Text_CarleePostBattle)
 }
 
 script Route128_EventScript_Harrison {
-    end
+    trainerbattle_double(TRAINER_HARRISON, Route128_Text_HarrisonIntro, Route128_Text_HarrisonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route128_Text_HarrisonPostBattle)
 }
 
 script Route128_EventScript_Isaiah {
-    end
+    trainerbattle_double(TRAINER_ISAIAH, Route128_Text_IsaiahIntro, Route128_Text_IsaiahDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route128_Text_IsaiahPostBattle)
 }
 
 script Route128_EventScript_Katelyn {
-    end
+    trainerbattle_double(TRAINER_KATELYN, Route128_Text_KatelynIntro, Route128_Text_KatelynDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route128_Text_KatelynPostBattle)
 }
 
 script Route128_EventScript_Ruben {
-    end
+    trainerbattle_double(TRAINER_RUBEN, Route128_Text_RubenIntro, Route128_Text_RubenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route128_Text_RubenPostBattle)
 }
 
 script Route128_EventScript_Wayne {
-    end
+    trainerbattle_double(TRAINER_WAYNE, Route128_Text_WayneIntro, Route128_Text_WayneDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route128_Text_WaynePostBattle)
 }
 
+
+
+text Route128_Text_AlexaDefeat {
+    "Oh!\nHow could this happen?!"
+}
+
+text Route128_Text_AlexaIntro {
+    "We've been working so hard to mount\na POKéMON LEAGUE challenge…\pWe can't afford to lose now!"
+}
+
+text Route128_Text_AlexaPostBattle {
+    "After all I've done to get here,\nI won't give up after one setback."
+}
+
+text Route128_Text_CarleeDefeat {
+    "I couldn't see very well because of\nthe sun's glare."
+}
+
+text Route128_Text_CarleeIntro {
+    "The sunlight seems to be more harsh\nin this area."
+}
+
+text Route128_Text_CarleePostBattle {
+    "I should go back soon.\nI need to reapply my sunscreen."
+}
+
+text Route128_Text_HarrisonDefeat {
+    "Ouch!\nI guess it was impossible to win."
+}
+
+text Route128_Text_HarrisonIntro {
+    "You're looking awfully tough.\nI wonder if I can win?"
+}
+
+text Route128_Text_HarrisonPostBattle {
+    "There are tough TRAINERS galore\naround EVER GRANDE.\pDo you think I may be out\nof my league?"
+}
+
+text Route128_Text_IsaiahDefeat {
+    "My first victory seems to be far\naway, too…"
+}
+
+text Route128_Text_IsaiahIntro {
+    "EVER GRANDE CITY is still a long ways\naway…"
+}
+
+text Route128_Text_IsaiahPostBattle {
+    "My whole life has been about losing,\nbut I will never give up!"
+}
+
+text Route128_Text_KatelynDefeat {
+    "A POKéMON battle is grueling, too…"
+}
+
+text Route128_Text_KatelynIntro {
+    "You have to swim, cycle, and then run\na marathon in a triathlon.\pIt's a grueling race that consists\nof three events."
+}
+
+text Route128_Text_KatelynPostBattle {
+    "I have to ride a BIKE next, but…\nI'm about to throw in the towel…"
+}
+
+text Route128_Text_RubenDefeat {
+    "This can't be!"
+}
+
+text Route128_Text_RubenIntro {
+    "There is no stronger TRAINER than I!"
+}
+
+text Route128_Text_RubenPostBattle {
+    "There probably is no stronger TRAINER\nthan you!"
+}
+
+text Route128_Text_WayneDefeat {
+    "I'm crestfallen!"
+}
+
+text Route128_Text_WayneIntro {
+    "I want to visit EVER GRANDE, so I\ncaught myself a POKéMON that knows\nthe move WATERFALL to crest the falls."
+}
+
+text Route128_Text_WaynePostBattle {
+    "Awww, phooey!\pMy POKéMON knows WATERFALL, but\nI don't have the SOOTOPOLIS GYM BADGE!"
+}

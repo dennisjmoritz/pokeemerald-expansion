@@ -2,7 +2,8 @@ mapscripts SSAnne_2F_Room4_MapScripts {
 }
 
 script SSAnne_2F_Room4_EventScript_Dawn {
-    end
+    trainerbattle_double(TRAINER_LASS_DAWN, SSAnne_2F_Room4_Text_DawnIntro, SSAnne_2F_Room4_Text_DawnDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSAnne_2F_Room4_Text_DawnPostBattle)
 }
 
 script SSAnne_2F_Room4_EventScript_ItemXAttack {
@@ -10,6 +11,32 @@ script SSAnne_2F_Room4_EventScript_ItemXAttack {
 }
 
 script SSAnne_2F_Room4_EventScript_Lamar {
-    end
+    trainerbattle_double(TRAINER_GENTLEMAN_LAMAR, SSAnne_2F_Room4_Text_LamarIntro, SSAnne_2F_Room4_Text_LamarDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSAnne_2F_Room4_Text_LamarPostBattle)
 }
 
+
+
+text SSAnne_2F_Room4_Text_DawnDefeat {
+    "Placeholder text for SSAnne_2F_Room4_Text_DawnDefeat"
+}
+
+text SSAnne_2F_Room4_Text_DawnIntro {
+    "Placeholder text for SSAnne_2F_Room4_Text_DawnIntro"
+}
+
+text SSAnne_2F_Room4_Text_DawnPostBattle {
+    "Placeholder text for SSAnne_2F_Room4_Text_DawnPostBattle"
+}
+
+text SSAnne_2F_Room4_Text_LamarDefeat {
+    "Placeholder text for SSAnne_2F_Room4_Text_LamarDefeat"
+}
+
+text SSAnne_2F_Room4_Text_LamarIntro {
+    "Placeholder text for SSAnne_2F_Room4_Text_LamarIntro"
+}
+
+text SSAnne_2F_Room4_Text_LamarPostBattle {
+    "Placeholder text for SSAnne_2F_Room4_Text_LamarPostBattle"
+}

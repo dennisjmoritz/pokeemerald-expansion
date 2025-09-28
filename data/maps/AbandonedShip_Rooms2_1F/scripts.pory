@@ -6,13 +6,40 @@ script AbandonedShip_Rooms2_1F_EventScript_Dan {
 }
 
 script AbandonedShip_Rooms2_1F_EventScript_Garrison {
-    end
+    trainerbattle_double(TRAINER_GARRISON, AbandonedShip_Rooms2_1F_Text_GarrisonIntro, AbandonedShip_Rooms2_1F_Text_GarrisonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle)
 }
 
 script AbandonedShip_Rooms2_1F_EventScript_Jani {
-    end
+    trainerbattle_double(TRAINER_JANI, AbandonedShip_Rooms2_1F_Text_JaniIntro, AbandonedShip_Rooms2_1F_Text_JaniDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(AbandonedShip_Rooms2_1F_Text_JaniPostBattle)
 }
 
 script AbandonedShip_Rooms2_1F_EventScript_Kira {
     end
+}
+
+
+text AbandonedShip_Rooms2_1F_Text_GarrisonDefeat {
+    "Placeholder text for AbandonedShip_Rooms2_1F_Text_GarrisonDefeat"
+}
+
+text AbandonedShip_Rooms2_1F_Text_GarrisonIntro {
+    "Placeholder text for AbandonedShip_Rooms2_1F_Text_GarrisonIntro"
+}
+
+text AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle {
+    "Placeholder text for AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle"
+}
+
+text AbandonedShip_Rooms2_1F_Text_JaniDefeat {
+    "Placeholder text for AbandonedShip_Rooms2_1F_Text_JaniDefeat"
+}
+
+text AbandonedShip_Rooms2_1F_Text_JaniIntro {
+    "Placeholder text for AbandonedShip_Rooms2_1F_Text_JaniIntro"
+}
+
+text AbandonedShip_Rooms2_1F_Text_JaniPostBattle {
+    "Placeholder text for AbandonedShip_Rooms2_1F_Text_JaniPostBattle"
 }

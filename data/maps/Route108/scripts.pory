@@ -2,26 +2,105 @@ mapscripts Route108_MapScripts {
 }
 
 script Route108_EventScript_Carolina {
-    end
+    trainerbattle_double(TRAINER_CAROLINA, Route108_Text_CarolinaIntro, Route108_Text_CarolinaDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route108_Text_CarolinaPostBattle)
 }
 
 script Route108_EventScript_Cory {
-    end
+    trainerbattle_double(TRAINER_CORY, Route108_Text_CoryIntro, Route108_Text_CoryDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route108_Text_CoryPostBattle)
 }
 
 script Route108_EventScript_Jerome {
-    end
+    trainerbattle_double(TRAINER_JEROME, Route108_Text_JeromeIntro, Route108_Text_JeromeDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route108_Text_JeromePostBattle)
 }
 
 script Route108_EventScript_Matthew {
-    end
+    trainerbattle_double(TRAINER_MATTHEW, Route108_Text_MatthewIntro, Route108_Text_MatthewDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route108_Text_MatthewPostBattle)
 }
 
 script Route108_EventScript_Missy {
-    end
+    trainerbattle_double(TRAINER_MISSY, Route108_Text_MissyIntro, Route108_Text_MissyDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route108_Text_MissyPostBattle)
 }
 
 script Route108_EventScript_Tara {
-    end
+    trainerbattle_double(TRAINER_TARA, Route108_Text_TaraIntro, Route108_Text_TaraDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route108_Text_TaraPostBattle)
 }
 
+
+
+text Route108_Text_CarolinaDefeated {
+    "That wasn't cute at all."
+}
+
+text Route108_Text_CarolinaIntro {
+    "I take huge pride in my POKéMON.\nWe'll show you one speedy battle!"
+}
+
+text Route108_Text_CarolinaPostBattle {
+    "Since I'm at sea like this, I wouldn't\nmind putting on a pink, frilly swimsuit…"
+}
+
+text Route108_Text_CoryDefeated {
+    "Waaah! I lost!\nWaaah! Waaah!"
+}
+
+text Route108_Text_CoryIntro {
+    "I love WATER-type POKéMON.\nI love other POKéMON, too!"
+}
+
+text Route108_Text_CoryPostBattle {
+    "Shouting is good for me!\nIt uplifts me!"
+}
+
+text Route108_Text_JeromeDefeated {
+    "I won't be able to swim the seven seas\nlike this…"
+}
+
+text Route108_Text_JeromeIntro {
+    "My dream is to swim the world's seven\nseas!"
+}
+
+text Route108_Text_JeromePostBattle {
+    "Playing with marine POKéMON is one of\nthe pleasures of swimming!"
+}
+
+text Route108_Text_MatthewDefeated {
+    "I'm sinking!\nGlub… Glub…"
+}
+
+text Route108_Text_MatthewIntro {
+    "Ahoy, there! Are you going out to\nthe ABANDONED SHIP, too?"
+}
+
+text Route108_Text_MatthewPostBattle {
+    "Some people even go inside that\nABANDONED SHIP."
+}
+
+text Route108_Text_MissyDefeated {
+    "When I lose a battle, I get all\nstressed out!"
+}
+
+text Route108_Text_MissyIntro {
+    "I love the sea!\nI forget all my worries when I swim!"
+}
+
+text Route108_Text_MissyPostBattle {
+    "Work off your stress by swimming!\nIt's so healthy!"
+}
+
+text Route108_Text_TaraDefeated {
+    "Oh, boo!"
+}
+
+text Route108_Text_TaraIntro {
+    "My liar of a boyfriend told me that\nI look great in a bikini…"
+}
+
+text Route108_Text_TaraPostBattle {
+    "Even if it's a lie, I love being told\nI look great…\nWe girls are so complex…"
+}

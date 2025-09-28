@@ -6,15 +6,18 @@ script RocketHideout_B4F_EventScript_Giovanni {
 }
 
 script RocketHideout_B4F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_18, RocketHideout_B4F_Text_Grunt1Intro, RocketHideout_B4F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RocketHideout_B4F_Text_Grunt1PostBattle)
 }
 
 script RocketHideout_B4F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_16, RocketHideout_B4F_Text_Grunt2Intro, RocketHideout_B4F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RocketHideout_B4F_Text_Grunt2PostBattle)
 }
 
 script RocketHideout_B4F_EventScript_Grunt3 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_17, RocketHideout_B4F_Text_Grunt3Intro, RocketHideout_B4F_Text_Grunt3Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RocketHideout_B4F_Text_Grunt3PostBattle)
 }
 
 script RocketHideout_B4F_EventScript_LiftKey {
@@ -25,3 +28,40 @@ script RocketHideout_B4F_EventScript_SilphScope {
     end
 }
 
+
+
+text RocketHideout_B4F_Text_Grunt1Defeat {
+    "Placeholder text for RocketHideout_B4F_Text_Grunt1Defeat"
+}
+
+text RocketHideout_B4F_Text_Grunt1Intro {
+    "Placeholder text for RocketHideout_B4F_Text_Grunt1Intro"
+}
+
+text RocketHideout_B4F_Text_Grunt1PostBattle {
+    "Placeholder text for RocketHideout_B4F_Text_Grunt1PostBattle"
+}
+
+text RocketHideout_B4F_Text_Grunt2Defeat {
+    "Placeholder text for RocketHideout_B4F_Text_Grunt2Defeat"
+}
+
+text RocketHideout_B4F_Text_Grunt2Intro {
+    "Placeholder text for RocketHideout_B4F_Text_Grunt2Intro"
+}
+
+text RocketHideout_B4F_Text_Grunt2PostBattle {
+    "Placeholder text for RocketHideout_B4F_Text_Grunt2PostBattle"
+}
+
+text RocketHideout_B4F_Text_Grunt3Defeat {
+    "Placeholder text for RocketHideout_B4F_Text_Grunt3Defeat"
+}
+
+text RocketHideout_B4F_Text_Grunt3Intro {
+    "Placeholder text for RocketHideout_B4F_Text_Grunt3Intro"
+}
+
+text RocketHideout_B4F_Text_Grunt3PostBattle {
+    "Placeholder text for RocketHideout_B4F_Text_Grunt3PostBattle"
+}

@@ -2,38 +2,156 @@ mapscripts Route134_MapScripts {
 }
 
 script Route134_EventScript_Aaron {
-    end
+    trainerbattle_double(TRAINER_AARON, Route134_Text_AaronIntro, Route134_Text_AaronDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route134_Text_AaronPostBattle)
 }
 
 script Route134_EventScript_Alex {
-    end
+    trainerbattle_double(TRAINER_ALEX, Route134_Text_AlexIntro, Route134_Text_AlexDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route134_Text_AlexPostBattle)
 }
 
 script Route134_EventScript_Hitoshi {
-    end
+    trainerbattle_double(TRAINER_HITOSHI, Route134_Text_HitoshiIntro, Route134_Text_HitoshiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route134_Text_HitoshiPostBattle)
 }
 
 script Route134_EventScript_Hudson {
-    end
+    trainerbattle_double(TRAINER_HUDSON, Route134_Text_HudsonIntro, Route134_Text_HudsonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route134_Text_HudsonPostBattle)
 }
 
 script Route134_EventScript_Jack {
-    end
+    trainerbattle_double(TRAINER_JACK, Route134_Text_JackIntro, Route134_Text_JackDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route134_Text_JackPostBattle)
 }
 
 script Route134_EventScript_Kelvin {
-    end
+    trainerbattle_double(TRAINER_KELVIN, Route134_Text_KelvinIntro, Route134_Text_KelvinDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route134_Text_KelvinPostBattle)
 }
 
 script Route134_EventScript_Laurel {
-    end
+    trainerbattle_double(TRAINER_LAUREL, Route134_Text_LaurelIntro, Route134_Text_LaurelDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route134_Text_LaurelPostBattle)
 }
 
 script Route134_EventScript_Marley {
-    end
+    trainerbattle_double(TRAINER_MARLEY, Route134_Text_MarleyIntro, Route134_Text_MarleyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route134_Text_MarleyPostBattle)
 }
 
 script Route134_EventScript_Reyna {
-    end
+    trainerbattle_double(TRAINER_REYNA, Route134_Text_ReynaIntro, Route134_Text_ReynaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route134_Text_ReynaPostBattle)
 }
 
+
+
+text Route134_Text_AaronDefeat {
+    "I willingly concede defeat."
+}
+
+text Route134_Text_AaronIntro {
+    "The savage tide in this area serves to\nmake us stronger than ever."
+}
+
+text Route134_Text_AaronPostBattle {
+    "We will return for more training at\nMETEOR FALLS.\pIf you'd like, you should go, too.\nIt will definitely toughen you up!"
+}
+
+text Route134_Text_AlexDefeat {
+    "Tuckered out again…"
+}
+
+text Route134_Text_AlexIntro {
+    "Okeydokey! That's enough rest, gang!\nIt's time for a match!"
+}
+
+text Route134_Text_AlexPostBattle {
+    "My BIRD POKéMON get tired quickly after\na long flight…"
+}
+
+text Route134_Text_HitoshiDefeat {
+    "… … … … … …\n… … … … … …"
+}
+
+text Route134_Text_HitoshiIntro {
+    "You're a POKéMON TRAINER.\nNo need for words. We battle now."
+}
+
+text Route134_Text_HitoshiPostBattle {
+    "It was I who challenged you, and yet\nI lost. I am deeply shamed…"
+}
+
+text Route134_Text_HudsonDefeat {
+    "Now, that's something!"
+}
+
+text Route134_Text_HudsonIntro {
+    "Listen, have you seen another SAILOR\naround here?"
+}
+
+text Route134_Text_HudsonPostBattle {
+    "Our boat drifted out to sea.\pMy buddy's a timid fellow, so I'm\nworried about him."
+}
+
+text Route134_Text_JackDefeat {
+    "Aiyeeeeh!"
+}
+
+text Route134_Text_JackIntro {
+    "Even those POKéMON that can swim are\ncarried along by the rapid currents."
+}
+
+text Route134_Text_JackPostBattle {
+    "I think POKéMON enjoy the fast-running\ncurrents around these parts."
+}
+
+text Route134_Text_KelvinDefeat {
+    "Awawawawah!\nPlease, stop! Please!"
+}
+
+text Route134_Text_KelvinIntro {
+    "O-our boat!\nThe tide carried it away!"
+}
+
+text Route134_Text_KelvinPostBattle {
+    "If we can't SURF, how are we supposed\nto get home?\pActually, I know a fainted POKéMON\ncan still SURF, but it feels wrong."
+}
+
+text Route134_Text_LaurelDefeat {
+    "Oopsie!"
+}
+
+text Route134_Text_LaurelIntro {
+    "My LUVDISC are looking for a fun\nmatch. Will you join us?"
+}
+
+text Route134_Text_LaurelPostBattle {
+    "There's a collector who's after\nthe SCALES of LUVDISC."
+}
+
+text Route134_Text_MarleyDefeat {
+    "I never knew such a technique existed!\nYou've defeated us thoroughly."
+}
+
+text Route134_Text_MarleyIntro {
+    "Can your POKéMON dodge our\nlightning-quick attacks?"
+}
+
+text Route134_Text_MarleyPostBattle {
+    "I haven't lost my passion for speed.\nI will try harder."
+}
+
+text Route134_Text_ReynaDefeat {
+    "You're kidding!\nExplain how I lost!"
+}
+
+text Route134_Text_ReynaIntro {
+    "My POKéMON can't be taken down\neasily!"
+}
+
+text Route134_Text_ReynaPostBattle {
+    "Haha!\nYou won, all right!\pI'll work my way back up by taking on\nTRAINERS I happen to meet!"
+}

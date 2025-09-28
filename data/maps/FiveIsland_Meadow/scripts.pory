@@ -2,15 +2,18 @@ mapscripts FiveIsland_Meadow_MapScripts {
 }
 
 script FiveIsland_Meadow_EventScript_Rocket1 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_49, FiveIsland_Meadow_Text_Rocket1Intro, FiveIsland_Meadow_Text_Rocket1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FiveIsland_Meadow_Text_Rocket1PostBattle)
 }
 
 script FiveIsland_Meadow_EventScript_Rocket2 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_50, FiveIsland_Meadow_Text_Rocket2Intro, FiveIsland_Meadow_Text_Rocket2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FiveIsland_Meadow_Text_Rocket2PostBattle)
 }
 
 script FiveIsland_Meadow_EventScript_Rocket3 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_51, FiveIsland_Meadow_Text_Rocket3Intro, FiveIsland_Meadow_Text_Rocket3Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FiveIsland_Meadow_Text_Rocket3PostBattle)
 }
 
 script FiveIsland_Meadow_EventScript_WarehouseDoor {
@@ -25,4 +28,41 @@ script FiveIsland_Meadow_EventScript_WarehouseDoor {
 
 text FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded {
     format("{PLAYER} entered a password.\p “GOLDEEN need log.”\p … …  … …  … …\p Another password is needed to open the door…")
+}
+
+
+text FiveIsland_Meadow_Text_Rocket1Defeat {
+    "Placeholder text for FiveIsland_Meadow_Text_Rocket1Defeat"
+}
+
+text FiveIsland_Meadow_Text_Rocket1Intro {
+    "Placeholder text for FiveIsland_Meadow_Text_Rocket1Intro"
+}
+
+text FiveIsland_Meadow_Text_Rocket1PostBattle {
+    "Placeholder text for FiveIsland_Meadow_Text_Rocket1PostBattle"
+}
+
+text FiveIsland_Meadow_Text_Rocket2Defeat {
+    "Placeholder text for FiveIsland_Meadow_Text_Rocket2Defeat"
+}
+
+text FiveIsland_Meadow_Text_Rocket2Intro {
+    "Placeholder text for FiveIsland_Meadow_Text_Rocket2Intro"
+}
+
+text FiveIsland_Meadow_Text_Rocket2PostBattle {
+    "Placeholder text for FiveIsland_Meadow_Text_Rocket2PostBattle"
+}
+
+text FiveIsland_Meadow_Text_Rocket3Defeat {
+    "Placeholder text for FiveIsland_Meadow_Text_Rocket3Defeat"
+}
+
+text FiveIsland_Meadow_Text_Rocket3Intro {
+    "Placeholder text for FiveIsland_Meadow_Text_Rocket3Intro"
+}
+
+text FiveIsland_Meadow_Text_Rocket3PostBattle {
+    "Placeholder text for FiveIsland_Meadow_Text_Rocket3PostBattle"
 }

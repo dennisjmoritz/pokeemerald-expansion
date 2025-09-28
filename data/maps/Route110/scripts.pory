@@ -2,15 +2,18 @@ mapscripts Route110_MapScripts {
 }
 
 script Route110_EventScript_Abigail {
-    end
+    trainerbattle_double(TRAINER_ABIGAIL, Route110_Text_AbigailIntro, Route110_Text_AbigailDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_AbigailPostBattle)
 }
 
 script Route110_EventScript_Alyssa {
-    end
+    trainerbattle_double(TRAINER_ALYSSA, Route110_Text_AlyssaIntro, Route110_Text_AlyssaDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_AlyssaPostBattle)
 }
 
 script Route110_EventScript_Anthony {
-    end
+    trainerbattle_double(TRAINER_ANTHONY, Route110_Text_AnthonyIntro, Route110_Text_AnthonyDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_AnthonyPostBattle)
 }
 
 script Route110_EventScript_AquaGrunt1 {
@@ -30,7 +33,8 @@ script Route110_EventScript_AquaGrunt4 {
 }
 
 script Route110_EventScript_Benjamin {
-    end
+    trainerbattle_double(TRAINER_BENJAMIN, Route110_Text_BenjaminIntro, Route110_Text_BenjaminDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_BenjaminPostBattle)
 }
 
 script Route110_EventScript_BirchScene1 {
@@ -92,39 +96,48 @@ script Route110_EventScript_CyclingRoadSign {
 }
 
 script Route110_EventScript_Dale {
-    end
+    trainerbattle_double(TRAINER_DALE, Route110_Text_DaleIntro, Route110_Text_DaleDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_DalePostBattle)
 }
 
 script Route110_EventScript_Edward {
-    end
+    trainerbattle_double(TRAINER_EDWARD, Route110_Text_EdwardIntro, Route110_Text_EdwardDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_EdwardPostBattle)
 }
 
 script Route110_EventScript_Edwin {
-    end
+    trainerbattle_double(TRAINER_EDWIN, Route110_Text_EdwinIntro, Route110_Text_EdwinDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_EdwinPostBattle)
 }
 
 script Route110_EventScript_Isabel {
-    end
+    trainerbattle_double(TRAINER_ISABEL, Route110_Text_IsabelIntro, Route110_Text_IsabelDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_IsabelPostBattle)
 }
 
 script Route110_EventScript_Jaclyn {
-    end
+    trainerbattle_double(TRAINER_JACLYN, Route110_Text_JaclynIntro, Route110_Text_JaclynDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_JaclynPostBattle)
 }
 
 script Route110_EventScript_Jacob {
-    end
+    trainerbattle_double(TRAINER_JACOB, Route110_Text_JacobIntro, Route110_Text_JacobDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_JacobPostBattle)
 }
 
 script Route110_EventScript_Jasmine {
-    end
+    trainerbattle_double(TRAINER_JASMINE, Route110_Text_JasmineIntro, Route110_Text_JasmineDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_JasminePostBattle)
 }
 
 script Route110_EventScript_Joseph {
-    end
+    trainerbattle_double(TRAINER_JOSEPH, Route110_Text_JosephIntro, Route110_Text_JosephDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_JosephPostBattle)
 }
 
 script Route110_EventScript_Kaleb {
-    end
+    trainerbattle_double(TRAINER_KALEB, Route110_Text_KalebIntro, Route110_Text_KalebDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_KalebPostBattle)
 }
 
 script Route110_EventScript_MauvilleCitySign {
@@ -168,7 +181,8 @@ script Route110_EventScript_SlateportCitySign {
 }
 
 script Route110_EventScript_Timmy {
-    end
+    trainerbattle_double(TRAINER_TIMMY, Route110_Text_TimmyIntro, Route110_Text_TimmyDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route110_Text_TimmyPostBattle)
 }
 
 script Route110_EventScript_TrainerTipsPrlzSleep {
@@ -230,4 +244,173 @@ text Route110_Text_TrainerTipsRegisterItems {
 
 text Route110_Text_Route103Sign {
     format("ROUTE 110 {LEFT_ARROW} ROUTE 103")
+}
+
+
+text Route110_Text_AbigailDefeated {
+    "POKéMON battles are hard, too!"
+}
+
+text Route110_Text_AbigailIntro {
+    "The triathlon is hard in the extreme.\pYou have to complete the three events\nof swimming, cycling, and running."
+}
+
+text Route110_Text_AbigailPostBattle {
+    "I'm exhausted, so I need a break.\nIt's important to get proper rest."
+}
+
+text Route110_Text_AlyssaDefeated {
+    "Oops!\nI ended up losing!"
+}
+
+text Route110_Text_AlyssaIntro {
+    "I fell off CYCLING ROAD…\pI'll get over my embarrassment by\nbattling with you!"
+}
+
+text Route110_Text_AlyssaPostBattle {
+    "Falling… Losing…\nThis is so humiliating for me!"
+}
+
+text Route110_Text_AnthonyDefeated {
+    "Crash and burn!"
+}
+
+text Route110_Text_AnthonyIntro {
+    "Yo, you!\nCan you keep up with my speed?"
+}
+
+text Route110_Text_AnthonyPostBattle {
+    "Speed alone won't let me win at POKéMON.\nI need to reconsider this…"
+}
+
+text Route110_Text_BenjaminDefeated {
+    "I shouldn't panic during POKéMON\nbattles…"
+}
+
+text Route110_Text_BenjaminIntro {
+    "Don't panic if your BIKE's going fast!"
+}
+
+text Route110_Text_BenjaminPostBattle {
+    "There's no need to panic or stress.\nTake it easy. There's plenty of time."
+}
+
+text Route110_Text_DaleDefeated {
+    "I lost!\nDrat!"
+}
+
+text Route110_Text_DaleIntro {
+    "Hey!\nDon't sneak up behind me like that!"
+}
+
+text Route110_Text_DalePostBattle {
+    "Fishing is all about concentration.\nYou have to focus on the floater."
+}
+
+text Route110_Text_EdwardDefeated {
+    "I failed to prophesize my own demise!"
+}
+
+text Route110_Text_EdwardIntro {
+    "I have foreseen your intentions!\nI cannot possibly lose!"
+}
+
+text Route110_Text_EdwardPostBattle {
+    "I see your future…\pHmm…\nI see a shining light…"
+}
+
+text Route110_Text_EdwinDefeated {
+    "I wanted to complete\nmy collection…"
+}
+
+text Route110_Text_EdwinIntro {
+    "Could I see your POKéMON?\nJust one look, please?"
+}
+
+text Route110_Text_EdwinPostBattle {
+    "When I see a POKéMON that I don't know,\nmy passion as a collector is ignited!"
+}
+
+text Route110_Text_IsabelDefeated {
+    "Oh, dear, this won't do."
+}
+
+text Route110_Text_IsabelIntro {
+    "Ahahaha! I would go anywhere to show\noff my delightful POKéMON."
+}
+
+text Route110_Text_IsabelPostBattle {
+    "Rather than battling, perhaps I should\nshow off my POKéMON at the FAN CLUB."
+}
+
+text Route110_Text_JaclynDefeated {
+    "I wondrously lost!"
+}
+
+text Route110_Text_JaclynIntro {
+    "Ahahahaha!\nI'll dazzle you with my wonders!"
+}
+
+text Route110_Text_JaclynPostBattle {
+    "You managed to win only because it was\na wonder! Yes, a wonder!\nDon't think you can win all the time!"
+}
+
+text Route110_Text_JacobDefeated {
+    "Whoa!\nMy brakes failed!"
+}
+
+text Route110_Text_JacobIntro {
+    "Whoa! Watch it!\nI guess you're not used to BIKE racing."
+}
+
+text Route110_Text_JacobPostBattle {
+    "Flat tires and brake problems can\ncause serious injury!\nInspect your BIKE for problems!"
+}
+
+text Route110_Text_JasmineDefeated {
+    "I'm worried about muscle cramps…"
+}
+
+text Route110_Text_JasmineIntro {
+    "I've been riding without stopping.\nMy thighs are like rocks!"
+}
+
+text Route110_Text_JasminePostBattle {
+    "Oh, you have some GYM BADGES?\nNo wonder you're so strong!"
+}
+
+text Route110_Text_JosephDefeated {
+    "You got into the groove all right…"
+}
+
+text Route110_Text_JosephIntro {
+    "Okay! Full-throttle time! If you can't\ngroove, you get left behind!"
+}
+
+text Route110_Text_JosephPostBattle {
+    "This isn't going to bring me down!\nLosing has made me a better man!"
+}
+
+text Route110_Text_KalebDefeated {
+    "Have you no compassion or pity?"
+}
+
+text Route110_Text_KalebIntro {
+    "When cute POKéMON help each other…\nYou won't see a more adorable sight!"
+}
+
+text Route110_Text_KalebPostBattle {
+    "Okay, okay, you've done the best you\ncould, my pretties."
+}
+
+text Route110_Text_TimmyDefeated {
+    "Being cool isn't enough to win…"
+}
+
+text Route110_Text_TimmyIntro {
+    "I found some cool POKéMON in the grass\naround here!"
+}
+
+text Route110_Text_TimmyPostBattle {
+    "It's hard to battle with POKéMON you\njust caught."
 }

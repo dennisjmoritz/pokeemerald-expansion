@@ -11,11 +11,13 @@ script SilphCo_8F_EventScript_FloorSign {
 }
 
 script SilphCo_8F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_32, SilphCo_8F_Text_Grunt1Intro, SilphCo_8F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_8F_Text_Grunt1PostBattle)
 }
 
 script SilphCo_8F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_36, SilphCo_8F_Text_Grunt2Intro, SilphCo_8F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_8F_Text_Grunt2PostBattle)
 }
 
 script SilphCo_8F_EventScript_ItemIron {
@@ -23,7 +25,8 @@ script SilphCo_8F_EventScript_ItemIron {
 }
 
 script SilphCo_8F_EventScript_Parker {
-    end
+    trainerbattle_double(TRAINER_SCIENTIST_PARKER, SilphCo_8F_Text_ParkerIntro, SilphCo_8F_Text_ParkerDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_8F_Text_ParkerPostBattle)
 }
 
 script SilphCo_8F_EventScript_Scientist {
@@ -37,4 +40,41 @@ script SilphCo_8F_EventScript_WorkerM {
 
 text SilphCo_8F_Text_FloorSign {
     format("SILPH CO. HEAD OFFICE 8F")
+}
+
+
+text SilphCo_8F_Text_Grunt1Defeat {
+    "Placeholder text for SilphCo_8F_Text_Grunt1Defeat"
+}
+
+text SilphCo_8F_Text_Grunt1Intro {
+    "Placeholder text for SilphCo_8F_Text_Grunt1Intro"
+}
+
+text SilphCo_8F_Text_Grunt1PostBattle {
+    "Placeholder text for SilphCo_8F_Text_Grunt1PostBattle"
+}
+
+text SilphCo_8F_Text_Grunt2Defeat {
+    "Placeholder text for SilphCo_8F_Text_Grunt2Defeat"
+}
+
+text SilphCo_8F_Text_Grunt2Intro {
+    "Placeholder text for SilphCo_8F_Text_Grunt2Intro"
+}
+
+text SilphCo_8F_Text_Grunt2PostBattle {
+    "Placeholder text for SilphCo_8F_Text_Grunt2PostBattle"
+}
+
+text SilphCo_8F_Text_ParkerDefeat {
+    "Placeholder text for SilphCo_8F_Text_ParkerDefeat"
+}
+
+text SilphCo_8F_Text_ParkerIntro {
+    "Placeholder text for SilphCo_8F_Text_ParkerIntro"
+}
+
+text SilphCo_8F_Text_ParkerPostBattle {
+    "Placeholder text for SilphCo_8F_Text_ParkerPostBattle"
 }

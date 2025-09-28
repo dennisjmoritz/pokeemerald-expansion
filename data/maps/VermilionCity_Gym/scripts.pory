@@ -2,11 +2,13 @@ mapscripts VermilionCity_Gym_MapScripts {
 }
 
 script VermilionCity_Gym_EventScript_Baily {
-    end
+    trainerbattle_double(TRAINER_ENGINEER_BAILY, VermilionCity_Gym_Text_BailyIntro, VermilionCity_Gym_Text_BailyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VermilionCity_Gym_Text_BailyPostBattle)
 }
 
 script VermilionCity_Gym_EventScript_Dwayne {
-    end
+    trainerbattle_double(TRAINER_SAILOR_DWAYNE, VermilionCity_Gym_Text_DwayneIntro, VermilionCity_Gym_Text_DwayneDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VermilionCity_Gym_Text_DwaynePostBattle)
 }
 
 script VermilionCity_Gym_EventScript_GymGuy {
@@ -131,10 +133,48 @@ script VermilionCity_Gym_EventScript_TrashCan9 {
 }
 
 script VermilionCity_Gym_EventScript_Tucker {
-    end
+    trainerbattle_double(TRAINER_GENTLEMAN_TUCKER, VermilionCity_Gym_Text_TuckerIntro, VermilionCity_Gym_Text_TuckerDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VermilionCity_Gym_Text_TuckerPostBattle)
 }
 
 
 text VermilionCity_Gym_Text_GymStatue {
     format("VERMILION POKéMON GYM LEADER: LT. SURGE\p WINNING TRAINERS: {RIVAL}")
+}
+
+
+text VermilionCity_Gym_Text_BailyDefeat {
+    "Placeholder text for VermilionCity_Gym_Text_BailyDefeat"
+}
+
+text VermilionCity_Gym_Text_BailyIntro {
+    "Placeholder text for VermilionCity_Gym_Text_BailyIntro"
+}
+
+text VermilionCity_Gym_Text_BailyPostBattle {
+    "Placeholder text for VermilionCity_Gym_Text_BailyPostBattle"
+}
+
+text VermilionCity_Gym_Text_DwayneDefeat {
+    "Placeholder text for VermilionCity_Gym_Text_DwayneDefeat"
+}
+
+text VermilionCity_Gym_Text_DwayneIntro {
+    "Placeholder text for VermilionCity_Gym_Text_DwayneIntro"
+}
+
+text VermilionCity_Gym_Text_DwaynePostBattle {
+    "Placeholder text for VermilionCity_Gym_Text_DwaynePostBattle"
+}
+
+text VermilionCity_Gym_Text_TuckerDefeat {
+    "Placeholder text for VermilionCity_Gym_Text_TuckerDefeat"
+}
+
+text VermilionCity_Gym_Text_TuckerIntro {
+    "Placeholder text for VermilionCity_Gym_Text_TuckerIntro"
+}
+
+text VermilionCity_Gym_Text_TuckerPostBattle {
+    "Placeholder text for VermilionCity_Gym_Text_TuckerPostBattle"
 }

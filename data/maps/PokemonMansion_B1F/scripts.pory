@@ -7,11 +7,13 @@ script PokemonMansion_B1F_EventScript_DiarySep1st {
 }
 
 script PokemonMansion_B1F_EventScript_Ivan {
-    end
+    trainerbattle_double(TRAINER_SCIENTIST_IVAN, PokemonMansion_B1F_Text_IvanIntro, PokemonMansion_B1F_Text_IvanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonMansion_B1F_Text_IvanPostBattle)
 }
 
 script PokemonMansion_B1F_EventScript_Lewis {
-    end
+    trainerbattle_double(TRAINER_BURGLAR_LEWIS, PokemonMansion_B1F_Text_LewisIntro, PokemonMansion_B1F_Text_LewisDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonMansion_B1F_Text_LewisPostBattle)
 }
 
 script PokemonMansion_B1F_EventScript_Statue {
@@ -28,4 +30,29 @@ script PokemonMansion_B1F_EventScript_Statue {
 
 text PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful {
     format("Diary: Sept. 1 MEWTWO is far too powerful.\p We have failed to curb its vicious tendencies…")
+}
+
+
+text PokemonMansion_B1F_Text_IvanDefeat {
+    "Placeholder text for PokemonMansion_B1F_Text_IvanDefeat"
+}
+
+text PokemonMansion_B1F_Text_IvanIntro {
+    "Placeholder text for PokemonMansion_B1F_Text_IvanIntro"
+}
+
+text PokemonMansion_B1F_Text_IvanPostBattle {
+    "Placeholder text for PokemonMansion_B1F_Text_IvanPostBattle"
+}
+
+text PokemonMansion_B1F_Text_LewisDefeat {
+    "Placeholder text for PokemonMansion_B1F_Text_LewisDefeat"
+}
+
+text PokemonMansion_B1F_Text_LewisIntro {
+    "Placeholder text for PokemonMansion_B1F_Text_LewisIntro"
+}
+
+text PokemonMansion_B1F_Text_LewisPostBattle {
+    "Placeholder text for PokemonMansion_B1F_Text_LewisPostBattle"
 }

@@ -2,11 +2,13 @@ mapscripts ViridianCity_Gym_MapScripts {
 }
 
 script ViridianCity_Gym_EventScript_Atsushi {
-    end
+    trainerbattle_double(TRAINER_BLACK_BELT_ATSUSHI, ViridianCity_Gym_Text_AtsushiIntro, ViridianCity_Gym_Text_AtsushiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianCity_Gym_Text_AtsushiPostBattle)
 }
 
 script ViridianCity_Gym_EventScript_Cole {
-    end
+    trainerbattle_double(TRAINER_TAMER_COLE, ViridianCity_Gym_Text_ColeIntro, ViridianCity_Gym_Text_ColeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianCity_Gym_Text_ColePostBattle)
 }
 
 script ViridianCity_Gym_EventScript_Giovanni {
@@ -26,30 +28,133 @@ script ViridianCity_Gym_EventScript_GymStatue {
 }
 
 script ViridianCity_Gym_EventScript_Jason {
-    end
+    trainerbattle_double(TRAINER_TAMER_JASON, ViridianCity_Gym_Text_JasonIntro, ViridianCity_Gym_Text_JasonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianCity_Gym_Text_JasonPostBattle)
 }
 
 script ViridianCity_Gym_EventScript_Kiyo {
-    end
+    trainerbattle_double(TRAINER_BLACK_BELT_KIYO, ViridianCity_Gym_Text_KiyoIntro, ViridianCity_Gym_Text_KiyoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianCity_Gym_Text_KiyoPostBattle)
 }
 
 script ViridianCity_Gym_EventScript_Samuel {
-    end
+    trainerbattle_double(TRAINER_COOLTRAINER_SAMUEL, ViridianCity_Gym_Text_SamuelIntro, ViridianCity_Gym_Text_SamuelDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianCity_Gym_Text_SamuelPostBattle)
 }
 
 script ViridianCity_Gym_EventScript_Takashi {
-    end
+    trainerbattle_double(TRAINER_BLACK_BELT_TAKASHI, ViridianCity_Gym_Text_TakashiIntro, ViridianCity_Gym_Text_TakashiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianCity_Gym_Text_TakashiPostBattle)
 }
 
 script ViridianCity_Gym_EventScript_Warren {
-    end
+    trainerbattle_double(TRAINER_COOLTRAINER_WARREN, ViridianCity_Gym_Text_WarrenIntro, ViridianCity_Gym_Text_WarrenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianCity_Gym_Text_WarrenPostBattle)
 }
 
 script ViridianCity_Gym_EventScript_Yuji {
-    end
+    trainerbattle_double(TRAINER_COOLTRAINER_YUJI, ViridianCity_Gym_Text_YujiIntro, ViridianCity_Gym_Text_YujiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianCity_Gym_Text_YujiPostBattle)
 }
 
 
 text ViridianCity_Gym_Text_GymStatue {
     format("VIRIDIAN POKéMON GYM LEADER: ?\p WINNING TRAINERS: {RIVAL}")
+}
+
+
+text ViridianCity_Gym_Text_AtsushiDefeat {
+    "Placeholder text for ViridianCity_Gym_Text_AtsushiDefeat"
+}
+
+text ViridianCity_Gym_Text_AtsushiIntro {
+    "Placeholder text for ViridianCity_Gym_Text_AtsushiIntro"
+}
+
+text ViridianCity_Gym_Text_AtsushiPostBattle {
+    "Placeholder text for ViridianCity_Gym_Text_AtsushiPostBattle"
+}
+
+text ViridianCity_Gym_Text_ColeDefeat {
+    "Placeholder text for ViridianCity_Gym_Text_ColeDefeat"
+}
+
+text ViridianCity_Gym_Text_ColeIntro {
+    "Placeholder text for ViridianCity_Gym_Text_ColeIntro"
+}
+
+text ViridianCity_Gym_Text_ColePostBattle {
+    "Placeholder text for ViridianCity_Gym_Text_ColePostBattle"
+}
+
+text ViridianCity_Gym_Text_JasonDefeat {
+    "Placeholder text for ViridianCity_Gym_Text_JasonDefeat"
+}
+
+text ViridianCity_Gym_Text_JasonIntro {
+    "Placeholder text for ViridianCity_Gym_Text_JasonIntro"
+}
+
+text ViridianCity_Gym_Text_JasonPostBattle {
+    "Placeholder text for ViridianCity_Gym_Text_JasonPostBattle"
+}
+
+text ViridianCity_Gym_Text_KiyoDefeat {
+    "Placeholder text for ViridianCity_Gym_Text_KiyoDefeat"
+}
+
+text ViridianCity_Gym_Text_KiyoIntro {
+    "Placeholder text for ViridianCity_Gym_Text_KiyoIntro"
+}
+
+text ViridianCity_Gym_Text_KiyoPostBattle {
+    "Placeholder text for ViridianCity_Gym_Text_KiyoPostBattle"
+}
+
+text ViridianCity_Gym_Text_SamuelDefeat {
+    "Placeholder text for ViridianCity_Gym_Text_SamuelDefeat"
+}
+
+text ViridianCity_Gym_Text_SamuelIntro {
+    "Placeholder text for ViridianCity_Gym_Text_SamuelIntro"
+}
+
+text ViridianCity_Gym_Text_SamuelPostBattle {
+    "Placeholder text for ViridianCity_Gym_Text_SamuelPostBattle"
+}
+
+text ViridianCity_Gym_Text_TakashiDefeat {
+    "Placeholder text for ViridianCity_Gym_Text_TakashiDefeat"
+}
+
+text ViridianCity_Gym_Text_TakashiIntro {
+    "Placeholder text for ViridianCity_Gym_Text_TakashiIntro"
+}
+
+text ViridianCity_Gym_Text_TakashiPostBattle {
+    "Placeholder text for ViridianCity_Gym_Text_TakashiPostBattle"
+}
+
+text ViridianCity_Gym_Text_WarrenDefeat {
+    "Placeholder text for ViridianCity_Gym_Text_WarrenDefeat"
+}
+
+text ViridianCity_Gym_Text_WarrenIntro {
+    "Placeholder text for ViridianCity_Gym_Text_WarrenIntro"
+}
+
+text ViridianCity_Gym_Text_WarrenPostBattle {
+    "Placeholder text for ViridianCity_Gym_Text_WarrenPostBattle"
+}
+
+text ViridianCity_Gym_Text_YujiDefeat {
+    "Placeholder text for ViridianCity_Gym_Text_YujiDefeat"
+}
+
+text ViridianCity_Gym_Text_YujiIntro {
+    "Placeholder text for ViridianCity_Gym_Text_YujiIntro"
+}
+
+text ViridianCity_Gym_Text_YujiPostBattle {
+    "Placeholder text for ViridianCity_Gym_Text_YujiPostBattle"
 }

@@ -2,47 +2,58 @@ mapscripts Route109_MapScripts {
 }
 
 script Route109_EventScript_Alice {
-    end
+    trainerbattle_double(TRAINER_ALICE, Route109_Text_AliceIntro, Route109_Text_AliceDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_AlicePostBattle)
 }
 
 script Route109_EventScript_Austina {
-    end
+    trainerbattle_double(TRAINER_AUSTINA, Route109_Text_AustinaIntro, Route109_Text_AustinaDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_AustinaPostBattle)
 }
 
 script Route109_EventScript_Carter {
-    end
+    trainerbattle_double(TRAINER_CARTER, Route109_Text_CarterIntro, Route109_Text_CarterDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_CarterPostBattle)
 }
 
 script Route109_EventScript_Chandler {
-    end
+    trainerbattle_double(TRAINER_CHANDLER, Route109_Text_ChandlerIntro, Route109_Text_ChandlerDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_ChandlerPostBattle)
 }
 
 script Route109_EventScript_David {
-    end
+    trainerbattle_double(TRAINER_DAVID, Route109_Text_DavidIntro, Route109_Text_DavidDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_DavidPostBattle)
 }
 
 script Route109_EventScript_Edmond {
-    end
+    trainerbattle_double(TRAINER_EDMOND, Route109_Text_EdmondIntro, Route109_Text_EdmondDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_EdmondPostBattle)
 }
 
 script Route109_EventScript_Elijah {
-    end
+    trainerbattle_double(TRAINER_ELIJAH, Route109_Text_ElijahIntro, Route109_Text_ElijahDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_ElijahPostBattle)
 }
 
 script Route109_EventScript_Gwen {
-    end
+    trainerbattle_double(TRAINER_GWEN, Route109_Text_GwenIntro, Route109_Text_GwenDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_GwenPostBattle)
 }
 
 script Route109_EventScript_Hailey {
-    end
+    trainerbattle_double(TRAINER_HAILEY, Route109_Text_HaileyIntro, Route109_Text_HaileyDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_HaileyPostBattle)
 }
 
 script Route109_EventScript_Huey {
-    end
+    trainerbattle_double(TRAINER_HUEY, Route109_Text_HueyIntro, Route109_Text_HueyDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_HueyPostBattle)
 }
 
 script Route109_EventScript_Lola {
-    end
+    trainerbattle_double(TRAINER_LOLA, Route109_Text_LolaIntro, Route109_Text_LolaDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_LolaPostBattle)
 }
 
 script Route109_EventScript_Mel {
@@ -62,7 +73,8 @@ script Route109_EventScript_Paul {
 }
 
 script Route109_EventScript_Ricky {
-    end
+    trainerbattle_double(TRAINER_RICKY, Route109_Text_RickyIntro, Route109_Text_RickyDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route109_Text_RickyPostBattle)
 }
 
 script Route109_EventScript_SandCastleBoy {
@@ -102,4 +114,149 @@ text Route109_Text_TrainerTipsSign {
 
 text Route109_Text_SeashoreHouseSign {
     format("SEASHORE HOUSE\p “May hot battles rage on hot sands! The place for hot TRAINERS!”")
+}
+
+
+text Route109_Text_AliceDefeated {
+    "Ouch, ouch, ouch!"
+}
+
+text Route109_Text_AliceIntro {
+    "Are you properly protected against\nthe sun?"
+}
+
+text Route109_Text_AlicePostBattle {
+    "Cheeks are the most prone to burning!"
+}
+
+text Route109_Text_AustinaDefeated {
+    "Did I lose because I have an inner\ntube?"
+}
+
+text Route109_Text_AustinaIntro {
+    "I can't swim without my inner tube,\nbut I won't lose at POKéMON!"
+}
+
+text Route109_Text_AustinaPostBattle {
+    "My inner tube is a fashion item.\nI can't be seen without it."
+}
+
+text Route109_Text_CarterDefeated {
+    "This dude just lost one…"
+}
+
+text Route109_Text_CarterIntro {
+    "Wahahah! This dude's going to catch\nhimself a big one!"
+}
+
+text Route109_Text_CarterPostBattle {
+    "This dude thinks you're a big one.\nNo, you're a big-one-to-be!"
+}
+
+text Route109_Text_ChandlerDefeated {
+    "Oh, oh!\nToo bad!"
+}
+
+text Route109_Text_ChandlerIntro {
+    "Tadaah! See?\nMy inner tube's round!"
+}
+
+text Route109_Text_ChandlerPostBattle {
+    "After I showed you my round inner\ntube, too…"
+}
+
+text Route109_Text_DavidDefeated {
+    "Aiyah!\nFlubbed out!"
+}
+
+text Route109_Text_DavidIntro {
+    "Hiyah! Look at my chiseled abs!\nThis is what you call “cut”!"
+}
+
+text Route109_Text_DavidPostBattle {
+    "Hiyah!\pMy sculpted abs have nothing to do\nwith POKéMON battles!"
+}
+
+text Route109_Text_EdmondDefeated {
+    "Urp… Ooooooohhhhhh…\nUrrrrpppp…"
+}
+
+text Route109_Text_EdmondIntro {
+    "Urrrrppp…\nBattle? With me?"
+}
+
+text Route109_Text_EdmondPostBattle {
+    "I'm usually stronger than this!\nI'm just seasick as a dog!\pI'm a SAILOR, but…"
+}
+
+text Route109_Text_ElijahDefeated {
+    "I'm cool even in defeat, hey?"
+}
+
+text Route109_Text_ElijahIntro {
+    "For a guy as macho as me, this kind\nof POKéMON is the perfect match!"
+}
+
+text Route109_Text_ElijahPostBattle {
+    "For a guy as macho as me, a port\nis the perfect setting!\pI guess I'll head for SLATEPORT."
+}
+
+text Route109_Text_GwenDefeated {
+    "Oh, you're strong."
+}
+
+text Route109_Text_GwenIntro {
+    "Hi, big TRAINER.\nWill you battle with me?"
+}
+
+text Route109_Text_GwenPostBattle {
+    "How did you get to be so strong?"
+}
+
+text Route109_Text_HaileyDefeated {
+    "I thought so!\nI didn't think we could win."
+}
+
+text Route109_Text_HaileyIntro {
+    "I can't swim, so I'm pretending\nto swim."
+}
+
+text Route109_Text_HaileyPostBattle {
+    "When I learn how to swim, I think\nmy POKéMON will become tougher."
+}
+
+text Route109_Text_HueyDefeated {
+    "You're the best!"
+}
+
+text Route109_Text_HueyIntro {
+    "I've laid anchor in ports around\nthe world, but SLATEPORT's the best."
+}
+
+text Route109_Text_HueyPostBattle {
+    "In the best port was the best\nTRAINER…"
+}
+
+text Route109_Text_LolaDefeated {
+    "Mommy!"
+}
+
+text Route109_Text_LolaIntro {
+    "Doesn't a beach umbrella look like\na giant flower?"
+}
+
+text Route109_Text_LolaPostBattle {
+    "If you look at the beach from the sky,\nit looks like a big flower garden!"
+}
+
+text Route109_Text_RickyDefeated {
+    "Groan…"
+}
+
+text Route109_Text_RickyIntro {
+    "I'm thirsty… I could go for a SODA POP\nat the SEASHORE HOUSE…"
+}
+
+text Route109_Text_RickyPostBattle {
+    "I'm getting famished… My inner tube\nlooks like a giant doughnut…"
 }

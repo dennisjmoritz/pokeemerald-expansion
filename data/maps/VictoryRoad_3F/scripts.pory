@@ -2,15 +2,18 @@ mapscripts VictoryRoad_3F_MapScripts {
 }
 
 script VictoryRoad_3F_EventScript_Alexa {
-    end
+    trainerbattle_double(TRAINER_COOLTRAINER_ALEXA, VictoryRoad_3F_Text_AlexaIntro, VictoryRoad_3F_Text_AlexaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_3F_Text_AlexaPostBattle)
 }
 
 script VictoryRoad_3F_EventScript_Caroline {
-    end
+    trainerbattle_double(TRAINER_COOLTRAINER_CAROLINE, VictoryRoad_3F_Text_CarolineIntro, VictoryRoad_3F_Text_CarolineDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_3F_Text_CarolinePostBattle)
 }
 
 script VictoryRoad_3F_EventScript_Colby {
-    end
+    trainerbattle_double(TRAINER_COOLTRAINER_COLBY, VictoryRoad_3F_Text_ColbyIntro, VictoryRoad_3F_Text_ColbyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_3F_Text_ColbyPostBattle)
 }
 
 script VictoryRoad_3F_EventScript_FloorSwitch {
@@ -18,7 +21,8 @@ script VictoryRoad_3F_EventScript_FloorSwitch {
 }
 
 script VictoryRoad_3F_EventScript_George {
-    end
+    trainerbattle_double(TRAINER_COOLTRAINER_GEORGE, VictoryRoad_3F_Text_GeorgeIntro, VictoryRoad_3F_Text_GeorgeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_3F_Text_GeorgePostBattle)
 }
 
 script VictoryRoad_3F_EventScript_ItemMaxRevive {
@@ -37,3 +41,52 @@ script VictoryRoad_3F_EventScript_Tyra {
     end
 }
 
+
+
+text VictoryRoad_3F_Text_AlexaDefeat {
+    "Placeholder text for VictoryRoad_3F_Text_AlexaDefeat"
+}
+
+text VictoryRoad_3F_Text_AlexaIntro {
+    "Placeholder text for VictoryRoad_3F_Text_AlexaIntro"
+}
+
+text VictoryRoad_3F_Text_AlexaPostBattle {
+    "Placeholder text for VictoryRoad_3F_Text_AlexaPostBattle"
+}
+
+text VictoryRoad_3F_Text_CarolineDefeat {
+    "Placeholder text for VictoryRoad_3F_Text_CarolineDefeat"
+}
+
+text VictoryRoad_3F_Text_CarolineIntro {
+    "Placeholder text for VictoryRoad_3F_Text_CarolineIntro"
+}
+
+text VictoryRoad_3F_Text_CarolinePostBattle {
+    "Placeholder text for VictoryRoad_3F_Text_CarolinePostBattle"
+}
+
+text VictoryRoad_3F_Text_ColbyDefeat {
+    "Placeholder text for VictoryRoad_3F_Text_ColbyDefeat"
+}
+
+text VictoryRoad_3F_Text_ColbyIntro {
+    "Placeholder text for VictoryRoad_3F_Text_ColbyIntro"
+}
+
+text VictoryRoad_3F_Text_ColbyPostBattle {
+    "Placeholder text for VictoryRoad_3F_Text_ColbyPostBattle"
+}
+
+text VictoryRoad_3F_Text_GeorgeDefeat {
+    "Placeholder text for VictoryRoad_3F_Text_GeorgeDefeat"
+}
+
+text VictoryRoad_3F_Text_GeorgeIntro {
+    "Placeholder text for VictoryRoad_3F_Text_GeorgeIntro"
+}
+
+text VictoryRoad_3F_Text_GeorgePostBattle {
+    "Placeholder text for VictoryRoad_3F_Text_GeorgePostBattle"
+}

@@ -10,6 +10,20 @@ script MeteorFalls_1F_2R_EventScript_John {
 }
 
 script MeteorFalls_1F_2R_EventScript_Nicolas {
-    end
+    trainerbattle_double(TRAINER_NICOLAS, MeteorFalls_1F_2R_Text_NicolasIntro, MeteorFalls_1F_2R_Text_NicolasDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MeteorFalls_1F_2R_Text_NicolasPostBattle)
 }
 
+
+
+text MeteorFalls_1F_2R_Text_NicolasDefeat {
+    "Placeholder text for MeteorFalls_1F_2R_Text_NicolasDefeat"
+}
+
+text MeteorFalls_1F_2R_Text_NicolasIntro {
+    "Placeholder text for MeteorFalls_1F_2R_Text_NicolasIntro"
+}
+
+text MeteorFalls_1F_2R_Text_NicolasPostBattle {
+    "Placeholder text for MeteorFalls_1F_2R_Text_NicolasPostBattle"
+}

@@ -2,11 +2,13 @@ mapscripts Route113_MapScripts {
 }
 
 script Route113_EventScript_Coby {
-    end
+    trainerbattle_double(TRAINER_COBY, Route113_Text_CobyIntro, Route113_Text_CobyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route113_Text_CobyPostBattle)
 }
 
 script Route113_EventScript_Dillon {
-    end
+    trainerbattle_double(TRAINER_DILLON, Route113_Text_DillonIntro, Route113_Text_DillonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route113_Text_DillonPostBattle)
 }
 
 script Route113_EventScript_Gentleman {
@@ -19,23 +21,28 @@ script Route113_EventScript_GlassWorkshopSign {
 }
 
 script Route113_EventScript_Jaylen {
-    end
+    trainerbattle_double(TRAINER_JAYLEN, Route113_Text_JaylenIntro, Route113_Text_JaylenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route113_Text_JaylenPostBattle)
 }
 
 script Route113_EventScript_Lao {
-    end
+    trainerbattle_double(TRAINER_LAO, Route113_Text_LaoIntro, Route113_Text_LaoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route113_Text_LaoPostBattle)
 }
 
 script Route113_EventScript_Lawrence {
-    end
+    trainerbattle_double(TRAINER_LAWRENCE, Route113_Text_LawrenceIntro, Route113_Text_LawrenceDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route113_Text_LawrencePostBattle)
 }
 
 script Route113_EventScript_Lung {
-    end
+    trainerbattle_double(TRAINER_LUNG, Route113_Text_LungIntro, Route113_Text_LungDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route113_Text_LungPostBattle)
 }
 
 script Route113_EventScript_Madeline {
-    end
+    trainerbattle_double(TRAINER_MADELINE, Route113_Text_MadelineIntro, Route113_Text_MadelineDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route113_Text_MadelinePostBattle)
 }
 
 script Route113_EventScript_NinjaBoy {
@@ -53,7 +60,8 @@ script Route113_EventScript_RouteSignFallarbor {
 }
 
 script Route113_EventScript_Sophie {
-    end
+    trainerbattle_double(TRAINER_SOPHIE, Route113_Text_SophieIntro, Route113_Text_SophieDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route113_Text_SophiePostBattle)
 }
 
 script Route113_EventScript_Tia {
@@ -70,7 +78,8 @@ script Route113_EventScript_TrainerTipsRegisterKeyItems {
 }
 
 script Route113_EventScript_Wyatt {
-    end
+    trainerbattle_double(TRAINER_WYATT, Route113_Text_WyattIntro, Route113_Text_WyattDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route113_Text_WyattPostBattle)
 }
 
 
@@ -88,4 +97,113 @@ text Route113_Text_GlassWorkshopSign {
 
 text Route113_Text_RouteSignFallarbor {
     format("ROUTE 113 {LEFT_ARROW} FALLARBOR TOWN")
+}
+
+
+text Route113_Text_CobyDefeat {
+    "A… What?"
+}
+
+text Route113_Text_CobyIntro {
+    "Pfft, with these wings I can\nflick you away!"
+}
+
+text Route113_Text_CobyPostBattle {
+    "I don't know what to say when I get\nbeaten so easily…"
+}
+
+text Route113_Text_DillonDefeat {
+    "You're some kind of strong!"
+}
+
+text Route113_Text_DillonIntro {
+    "The volcano's eruption is proof that\nthe earth is alive."
+}
+
+text Route113_Text_DillonPostBattle {
+    "Ouch! Owww! I can't see!\nI got ashes in my eyelashes!\pGet it? Ashes and eyelashes?\pOkay, that was bad, sorry…"
+}
+
+text Route113_Text_JaylenDefeat {
+    "Peeuuw!\nThat stinks!"
+}
+
+text Route113_Text_JaylenIntro {
+    "Can you guess why it's so cool\naround here?"
+}
+
+text Route113_Text_JaylenPostBattle {
+    "The volcanic ash blocks the sun,\nso it doesn't get very warm.\pThat's good for me--I can't stand heat!"
+}
+
+text Route113_Text_LaoDefeat {
+    "With honor I admit defeat!"
+}
+
+text Route113_Text_LaoIntro {
+    "From out of the ashes I leap! Hiyah!\nI challenge thee!"
+}
+
+text Route113_Text_LaoPostBattle {
+    "I must refine the art of concealment.\nI bid thee farewell."
+}
+
+text Route113_Text_LawrenceDefeat {
+    "Ehehe.\nWe got beaten cleanly."
+}
+
+text Route113_Text_LawrenceIntro {
+    "Were you maybe in the middle\nof gathering volcanic ashes?"
+}
+
+text Route113_Text_LawrencePostBattle {
+    "I ought to hide under the ashes, too."
+}
+
+text Route113_Text_LungDefeat {
+    "I'll use my ninjutsu on you…\n“VOLCANIC ASH SWIRL CLOAK”!\p…What?\nIt's already over?"
+}
+
+text Route113_Text_LungIntro {
+    "Thanks for finding me!\nBut we still have to battle!"
+}
+
+text Route113_Text_LungPostBattle {
+    "You know what's crummy about hiding?\nIt's lonely if no one comes along."
+}
+
+text Route113_Text_MadelineDefeat {
+    "Huff, huff…\nI am exhausted…"
+}
+
+text Route113_Text_MadelineIntro {
+    "I use this parasol to ward off this\nfilthy, yucky volcanic ash from\nmy dear NUMEL."
+}
+
+text Route113_Text_MadelinePostBattle {
+    "You're very good at this.\nI must say I'm impressed!"
+}
+
+text Route113_Text_SophieDefeat {
+    "This is a dream.\nI'm sure of it…"
+}
+
+text Route113_Text_SophieIntro {
+    "The warmth here is making me drowsy.\nBattle with me so I can stay awake."
+}
+
+text Route113_Text_SophiePostBattle {
+    "Losing burns me up…\nI'm just going to sleep right here!\nZzz!"
+}
+
+text Route113_Text_WyattDefeat {
+    "Y-you're all happy to win?\nEven though it's only me?"
+}
+
+text Route113_Text_WyattIntro {
+    "Y-you want to battle with me?\nEven though I just caught my POKéMON?"
+}
+
+text Route113_Text_WyattPostBattle {
+    "Oh, so now you want to say a word to\nthe loser?\pAren't you just the coolest?\nHumph!"
 }

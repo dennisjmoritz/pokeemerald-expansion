@@ -2,6 +2,20 @@ mapscripts SSAnne_1F_Room7_MapScripts {
 }
 
 script SSAnne_1F_Room7_EventScript_Thomas {
-    end
+    trainerbattle_double(TRAINER_GENTLEMAN_THOMAS, SSAnne_1F_Room7_Text_ThomasIntro, SSAnne_1F_Room7_Text_ThomasDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSAnne_1F_Room7_Text_ThomasPostBattle)
 }
 
+
+
+text SSAnne_1F_Room7_Text_ThomasDefeat {
+    "Placeholder text for SSAnne_1F_Room7_Text_ThomasDefeat"
+}
+
+text SSAnne_1F_Room7_Text_ThomasIntro {
+    "Placeholder text for SSAnne_1F_Room7_Text_ThomasIntro"
+}
+
+text SSAnne_1F_Room7_Text_ThomasPostBattle {
+    "Placeholder text for SSAnne_1F_Room7_Text_ThomasPostBattle"
+}

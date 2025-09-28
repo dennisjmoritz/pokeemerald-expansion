@@ -6,7 +6,8 @@ script SSAnne_Deck_EventScript_BaldingMan {
 }
 
 script SSAnne_Deck_EventScript_Edmond {
-    end
+    trainerbattle_double(TRAINER_SAILOR_EDMOND, SSAnne_Deck_Text_EdmondIntro, SSAnne_Deck_Text_EdmondDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSAnne_Deck_Text_EdmondPostBattle)
 }
 
 script SSAnne_Deck_EventScript_Sailor {
@@ -14,10 +15,36 @@ script SSAnne_Deck_EventScript_Sailor {
 }
 
 script SSAnne_Deck_EventScript_Trevor {
-    end
+    trainerbattle_double(TRAINER_SAILOR_TREVOR, SSAnne_Deck_Text_TrevorIntro, SSAnne_Deck_Text_TrevorDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSAnne_Deck_Text_TrevorPostBattle)
 }
 
 script SSAnne_Deck_EventScript_Youngster {
     end
 }
 
+
+
+text SSAnne_Deck_Text_EdmondDefeat {
+    "Placeholder text for SSAnne_Deck_Text_EdmondDefeat"
+}
+
+text SSAnne_Deck_Text_EdmondIntro {
+    "Placeholder text for SSAnne_Deck_Text_EdmondIntro"
+}
+
+text SSAnne_Deck_Text_EdmondPostBattle {
+    "Placeholder text for SSAnne_Deck_Text_EdmondPostBattle"
+}
+
+text SSAnne_Deck_Text_TrevorDefeat {
+    "Placeholder text for SSAnne_Deck_Text_TrevorDefeat"
+}
+
+text SSAnne_Deck_Text_TrevorIntro {
+    "Placeholder text for SSAnne_Deck_Text_TrevorIntro"
+}
+
+text SSAnne_Deck_Text_TrevorPostBattle {
+    "Placeholder text for SSAnne_Deck_Text_TrevorPostBattle"
+}

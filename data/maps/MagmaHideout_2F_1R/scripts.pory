@@ -2,18 +2,71 @@ mapscripts MagmaHideout_2F_1R_MapScripts {
 }
 
 script MagmaHideout_2F_1R_EventScript_Grunt14 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MAGMA_HIDEOUT_14, MagmaHideout_2F_1R_Text_Grunt14Intro, MagmaHideout_2F_1R_Text_Grunt14Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MagmaHideout_2F_1R_Text_Grunt14PostBattle)
 }
 
 script MagmaHideout_2F_1R_EventScript_Grunt3 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MAGMA_HIDEOUT_3, MagmaHideout_2F_1R_Text_Grunt3Intro, MagmaHideout_2F_1R_Text_Grunt3Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MagmaHideout_2F_1R_Text_Grunt3PostBattle)
 }
 
 script MagmaHideout_2F_1R_EventScript_Grunt4 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MAGMA_HIDEOUT_4, MagmaHideout_2F_1R_Text_Grunt4Intro, MagmaHideout_2F_1R_Text_Grunt4Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MagmaHideout_2F_1R_Text_Grunt4PostBattle)
 }
 
 script MagmaHideout_2F_1R_EventScript_Grunt5 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MAGMA_HIDEOUT_5, MagmaHideout_2F_1R_Text_Grunt5Intro, MagmaHideout_2F_1R_Text_Grunt5Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MagmaHideout_2F_1R_Text_Grunt5PostBattle)
 }
 
+
+
+text MagmaHideout_2F_1R_Text_Grunt14Defeat {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt14Defeat"
+}
+
+text MagmaHideout_2F_1R_Text_Grunt14Intro {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt14Intro"
+}
+
+text MagmaHideout_2F_1R_Text_Grunt14PostBattle {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt14PostBattle"
+}
+
+text MagmaHideout_2F_1R_Text_Grunt3Defeat {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt3Defeat"
+}
+
+text MagmaHideout_2F_1R_Text_Grunt3Intro {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt3Intro"
+}
+
+text MagmaHideout_2F_1R_Text_Grunt3PostBattle {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt3PostBattle"
+}
+
+text MagmaHideout_2F_1R_Text_Grunt4Defeat {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt4Defeat"
+}
+
+text MagmaHideout_2F_1R_Text_Grunt4Intro {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt4Intro"
+}
+
+text MagmaHideout_2F_1R_Text_Grunt4PostBattle {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt4PostBattle"
+}
+
+text MagmaHideout_2F_1R_Text_Grunt5Defeat {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt5Defeat"
+}
+
+text MagmaHideout_2F_1R_Text_Grunt5Intro {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt5Intro"
+}
+
+text MagmaHideout_2F_1R_Text_Grunt5PostBattle {
+    "Placeholder text for MagmaHideout_2F_1R_Text_Grunt5PostBattle"
+}

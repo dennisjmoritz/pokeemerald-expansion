@@ -2,10 +2,37 @@ mapscripts SSTidalLowerDeck_MapScripts {
 }
 
 script SSTidalLowerDeck_EventScript_Leonard {
-    end
+    trainerbattle_double(TRAINER_LEONARD, SSTidalLowerDeck_Text_LeonardIntro, SSTidalLowerDeck_Text_LeonardDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSTidalLowerDeck_Text_LeonardPostBattle)
 }
 
 script SSTidalLowerDeck_EventScript_Phillip {
-    end
+    trainerbattle_double(TRAINER_PHILLIP, SSTidalLowerDeck_Text_PhillipIntro, SSTidalLowerDeck_Text_PhillipDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSTidalLowerDeck_Text_PhillipPostBattle)
 }
 
+
+
+text SSTidalLowerDeck_Text_LeonardDefeat {
+    "Placeholder text for SSTidalLowerDeck_Text_LeonardDefeat"
+}
+
+text SSTidalLowerDeck_Text_LeonardIntro {
+    "Placeholder text for SSTidalLowerDeck_Text_LeonardIntro"
+}
+
+text SSTidalLowerDeck_Text_LeonardPostBattle {
+    "Placeholder text for SSTidalLowerDeck_Text_LeonardPostBattle"
+}
+
+text SSTidalLowerDeck_Text_PhillipDefeat {
+    "Placeholder text for SSTidalLowerDeck_Text_PhillipDefeat"
+}
+
+text SSTidalLowerDeck_Text_PhillipIntro {
+    "Placeholder text for SSTidalLowerDeck_Text_PhillipIntro"
+}
+
+text SSTidalLowerDeck_Text_PhillipPostBattle {
+    "Placeholder text for SSTidalLowerDeck_Text_PhillipPostBattle"
+}

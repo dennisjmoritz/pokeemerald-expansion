@@ -2,6 +2,20 @@ mapscripts FiveIsland_LostCave_Room4_MapScripts {
 }
 
 script FiveIsland_LostCave_Room4_EventScript_Laura {
-    end
+    trainerbattle_double(TRAINER_PSYCHIC_LAURA, FiveIsland_LostCave_Room4_Text_LauraIntro, FiveIsland_LostCave_Room4_Text_LauraDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FiveIsland_LostCave_Room4_Text_LauraPostBattle)
 }
 
+
+
+text FiveIsland_LostCave_Room4_Text_LauraDefeat {
+    "Placeholder text for FiveIsland_LostCave_Room4_Text_LauraDefeat"
+}
+
+text FiveIsland_LostCave_Room4_Text_LauraIntro {
+    "Placeholder text for FiveIsland_LostCave_Room4_Text_LauraIntro"
+}
+
+text FiveIsland_LostCave_Room4_Text_LauraPostBattle {
+    "Placeholder text for FiveIsland_LostCave_Room4_Text_LauraPostBattle"
+}

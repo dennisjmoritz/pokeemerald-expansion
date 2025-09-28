@@ -2,7 +2,8 @@ mapscripts ViridianForest_MapScripts {
 }
 
 script ViridianForest_EventScript_Anthony {
-    end
+    trainerbattle_double(TRAINER_BUG_CATCHER_ANTHONY, ViridianForest_Text_AnthonyIntro, ViridianForest_Text_AnthonyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianForest_Text_AnthonyPostBattle)
 }
 
 script ViridianForest_EventScript_Boy {
@@ -10,11 +11,13 @@ script ViridianForest_EventScript_Boy {
 }
 
 script ViridianForest_EventScript_Charlie {
-    end
+    trainerbattle_double(TRAINER_BUG_CATCHER_CHARLIE, ViridianForest_Text_CharlieIntro, ViridianForest_Text_CharlieDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianForest_Text_CharliePostBattle)
 }
 
 script ViridianForest_EventScript_Doug {
-    end
+    trainerbattle_double(TRAINER_BUG_CATCHER_DOUG, ViridianForest_Text_DougIntro, ViridianForest_Text_DougDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianForest_Text_DougPostBattle)
 }
 
 script ViridianForest_EventScript_ExitSign {
@@ -23,11 +26,13 @@ script ViridianForest_EventScript_ExitSign {
 }
 
 script ViridianForest_EventScript_Rick {
-    end
+    trainerbattle_double(TRAINER_BUG_CATCHER_RICK, ViridianForest_Text_RickIntro, ViridianForest_Text_RickDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianForest_Text_RickPostBattle)
 }
 
 script ViridianForest_EventScript_Sammy {
-    end
+    trainerbattle_double(TRAINER_BUG_CATCHER_SAMMY, ViridianForest_Text_SammyIntro, ViridianForest_Text_SammyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(ViridianForest_Text_SammyPostBattle)
 }
 
 script ViridianForest_EventScript_TrainerTips1 {
@@ -82,4 +87,65 @@ text ViridianForest_Text_UseAntidoteForPoison {
 
 text ViridianForest_Text_LeavingViridianForest {
     format("LEAVING VIRIDIAN FOREST PEWTER CITY AHEAD")
+}
+
+
+text ViridianForest_Text_AnthonyDefeat {
+    "Placeholder text for ViridianForest_Text_AnthonyDefeat"
+}
+
+text ViridianForest_Text_AnthonyIntro {
+    "Placeholder text for ViridianForest_Text_AnthonyIntro"
+}
+
+text ViridianForest_Text_AnthonyPostBattle {
+    "Placeholder text for ViridianForest_Text_AnthonyPostBattle"
+}
+
+text ViridianForest_Text_CharlieDefeat {
+    "Placeholder text for ViridianForest_Text_CharlieDefeat"
+}
+
+text ViridianForest_Text_CharlieIntro {
+    "Placeholder text for ViridianForest_Text_CharlieIntro"
+}
+
+text ViridianForest_Text_CharliePostBattle {
+    "Placeholder text for ViridianForest_Text_CharliePostBattle"
+}
+
+text ViridianForest_Text_DougDefeat {
+    "Placeholder text for ViridianForest_Text_DougDefeat"
+}
+
+text ViridianForest_Text_DougIntro {
+    "Placeholder text for ViridianForest_Text_DougIntro"
+}
+
+text ViridianForest_Text_DougPostBattle {
+    "Placeholder text for ViridianForest_Text_DougPostBattle"
+}
+
+text ViridianForest_Text_RickDefeat {
+    "Placeholder text for ViridianForest_Text_RickDefeat"
+}
+
+text ViridianForest_Text_RickIntro {
+    "Placeholder text for ViridianForest_Text_RickIntro"
+}
+
+text ViridianForest_Text_RickPostBattle {
+    "Placeholder text for ViridianForest_Text_RickPostBattle"
+}
+
+text ViridianForest_Text_SammyDefeat {
+    "Placeholder text for ViridianForest_Text_SammyDefeat"
+}
+
+text ViridianForest_Text_SammyIntro {
+    "Placeholder text for ViridianForest_Text_SammyIntro"
+}
+
+text ViridianForest_Text_SammyPostBattle {
+    "Placeholder text for ViridianForest_Text_SammyPostBattle"
 }

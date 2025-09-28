@@ -2,19 +2,23 @@ mapscripts Route114_MapScripts {
 }
 
 script Route114_EventScript_Angelina {
-    end
+    trainerbattle_double(TRAINER_ANGELINA, Route114_Text_AngelinaIntro, Route114_Text_AngelinaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route114_Text_AngelinaPostBattle)
 }
 
 script Route114_EventScript_Bernie {
-    end
+    trainerbattle_double(TRAINER_BERNIE, Route114_Text_BernieIntro, Route114_Text_BernieDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route114_Text_BerniePostBattle)
 }
 
 script Route114_EventScript_Charlotte {
-    end
+    trainerbattle_double(TRAINER_CHARLOTTE, Route114_Text_CharlotteIntro, Route114_Text_CharlotteDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route114_Text_CharlottePostBattle)
 }
 
 script Route114_EventScript_Claude {
-    end
+    trainerbattle_double(TRAINER_CLAUDE, Route114_Text_ClaudeIntro, Route114_Text_ClaudeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route114_Text_ClaudePostBattle)
 }
 
 script Route114_EventScript_FossilManiacsHouseSign {
@@ -27,7 +31,8 @@ script Route114_EventScript_Ivy {
 }
 
 script Route114_EventScript_Kai {
-    end
+    trainerbattle_double(TRAINER_KAI, Route114_Text_KaiIntro, Route114_Text_KaiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route114_Text_KaiPostBattle)
 }
 
 script Route114_EventScript_LanettesHouseSign {
@@ -36,11 +41,13 @@ script Route114_EventScript_LanettesHouseSign {
 }
 
 script Route114_EventScript_Lenny {
-    end
+    trainerbattle_double(TRAINER_LENNY, Route114_Text_LennyIntro, Route114_Text_LennyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route114_Text_LennyPostBattle)
 }
 
 script Route114_EventScript_Lucas {
-    end
+    trainerbattle_double(TRAINER_LUCAS, Route114_Text_LucasIntro, Route114_Text_LucasDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route114_Text_LucasPostBattle)
 }
 
 script Route114_EventScript_Man {
@@ -53,11 +60,13 @@ script Route114_EventScript_MeteorFallsSign {
 }
 
 script Route114_EventScript_Nancy {
-    end
+    trainerbattle_double(TRAINER_NANCY, Route114_Text_NancyIntro, Route114_Text_NancyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route114_Text_NancyPostBattle)
 }
 
 script Route114_EventScript_Nolan {
-    end
+    trainerbattle_double(TRAINER_NOLAN, Route114_Text_NolanIntro, Route114_Text_NolanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route114_Text_NolanPostBattle)
 }
 
 script Route114_EventScript_Poochyena {
@@ -69,11 +78,13 @@ script Route114_EventScript_RoarGentleman {
 }
 
 script Route114_EventScript_Shane {
-    end
+    trainerbattle_double(TRAINER_SHANE, Route114_Text_ShaneIntro, Route114_Text_ShaneDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route114_Text_ShanePostBattle)
 }
 
 script Route114_EventScript_Steve {
-    end
+    trainerbattle_double(TRAINER_STEVE, Route114_Text_SteveIntro, Route114_Text_SteveDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route114_Text_StevePostBattle)
 }
 
 script Route114_EventScript_Tyra {
@@ -91,4 +102,137 @@ text Route114_Text_LanettesHouse {
 
 text Route114_Text_FossilManiacsHouseSign {
     format("FOSSIL MANIAC'S HOUSE “Fossils gratefully accepted!”")
+}
+
+
+text Route114_Text_AngelinaDefeat {
+    "Oh, I see.\nThat's good to know."
+}
+
+text Route114_Text_AngelinaIntro {
+    "Have you made your POKéMON evolve\nvery much?"
+}
+
+text Route114_Text_AngelinaPostBattle {
+    "Some POKéMON change so much when\nthey evolve, it's startling!"
+}
+
+text Route114_Text_BernieDefeat {
+    "Thanks for dousing my fire!"
+}
+
+text Route114_Text_BernieIntro {
+    "If you're lighting a campfire,\nmake sure you have water handy."
+}
+
+text Route114_Text_BerniePostBattle {
+    "You really do have to be careful with\nany sort of fire in a forest.\pDon't ever underestimate the power\nof fire."
+}
+
+text Route114_Text_CharlotteDefeat {
+    "That wasn't cute in the least!"
+}
+
+text Route114_Text_CharlotteIntro {
+    "Me!\nI'm not just a pretty face!"
+}
+
+text Route114_Text_CharlottePostBattle {
+    "I don't want a POKéMON that's\njust cute.\pI adore cute ones that have a quirk\nor two!"
+}
+
+text Route114_Text_ClaudeDefeat {
+    "If we were fishing, I would've won…"
+}
+
+text Route114_Text_ClaudeIntro {
+    "If we were fishing, you wouldn't stand\na chance against me.\nSo, bring on your POKéMON!"
+}
+
+text Route114_Text_ClaudePostBattle {
+    "I think I'll try my luck at landing\na big one at METEOR FALLS.\pThere has to be something in there.\nI just know it."
+}
+
+text Route114_Text_KaiDefeat {
+    "What was that about?\nDid mine lose in size?"
+}
+
+text Route114_Text_KaiIntro {
+    "I landed a big one!\nA huge one, I tell you!"
+}
+
+text Route114_Text_KaiPostBattle {
+    "Okay!\nI'll just fish me a bigger one!"
+}
+
+text Route114_Text_LennyDefeat {
+    "Yodelayhihoo!"
+}
+
+text Route114_Text_LennyIntro {
+    "Yodelayhihoo!\p… …\pYou're supposed to shout\n“yodelayhihoo” since it doesn't\necho here!"
+}
+
+text Route114_Text_LennyPostBattle {
+    "When I was a wee tyke, I believed there\nwas someone copying me and shouting\nback, “Yodelayhihoo.”"
+}
+
+text Route114_Text_LucasDefeat {
+    "The mountains are unforgiving…"
+}
+
+text Route114_Text_LucasIntro {
+    "If you're not prepared, you shouldn't\nbe up in the mountains!"
+}
+
+text Route114_Text_LucasPostBattle {
+    "In the winter, mountains turn deadly\nwith blizzards and avalanches."
+}
+
+text Route114_Text_NancyDefeat {
+    "Oh, no!"
+}
+
+text Route114_Text_NancyIntro {
+    "I need to exercise after a meal.\nLet's have a match!"
+}
+
+text Route114_Text_NancyPostBattle {
+    "I just had a tasty meal.\nI'm getting drowsy…"
+}
+
+text Route114_Text_NolanDefeat {
+    "I like to battle, but that doesn't\nmean I'm good at it…"
+}
+
+text Route114_Text_NolanIntro {
+    "I like to fish. But I also like to\nbattle!\pIf anyone challenges me, I'm there,\neven if I'm fishing."
+}
+
+text Route114_Text_NolanPostBattle {
+    "This time I'll do it!\pI always think that, so I can't walk\naway from fishing or POKéMON."
+}
+
+text Route114_Text_ShaneDefeat {
+    "Way too strong!"
+}
+
+text Route114_Text_ShaneIntro {
+    "Camping's fun! You can fish, roast\nmarshmallows, and tell spooky stories!\pBut the best of all are the POKéMON\nbattles!"
+}
+
+text Route114_Text_ShanePostBattle {
+    "I think it's great that I can go\ncamping with my POKéMON."
+}
+
+text Route114_Text_SteveDefeat {
+    "M-My POKéMON…"
+}
+
+text Route114_Text_SteveIntro {
+    "Ufufufufufu…\nWant to battle against my POKéMON?"
+}
+
+text Route114_Text_StevePostBattle {
+    "A big body that's all lumpy and hard,\nenormous horns, and vicious fangs…\pUfufufufu…\nI wish I had a POKéMON like that…"
 }

@@ -10,7 +10,8 @@ script Route119_EventScript_Boy2 {
 }
 
 script Route119_EventScript_Brent {
-    end
+    trainerbattle_double(TRAINER_BRENT, Route119_Text_BrentIntro, Route119_Text_BrentDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_BrentPostBattle)
 }
 
 script Route119_EventScript_BridgeAquaGrunt1 {
@@ -22,11 +23,13 @@ script Route119_EventScript_BridgeAquaGrunt2 {
 }
 
 script Route119_EventScript_Catherine {
-    end
+    trainerbattle_double(TRAINER_CATHERINE, Route119_Text_CatherineIntro, Route119_Text_CatherineDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_CatherinePostBattle)
 }
 
 script Route119_EventScript_Chris {
-    end
+    trainerbattle_double(TRAINER_CHRIS, Route119_Text_ChrisIntro, Route119_Text_ChrisDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_ChrisPostBattle)
 }
 
 script Route119_EventScript_CyclingTriathleteM {
@@ -34,47 +37,58 @@ script Route119_EventScript_CyclingTriathleteM {
 }
 
 script Route119_EventScript_Dayton {
-    end
+    trainerbattle_double(TRAINER_DAYTON, Route119_Text_DaytonIntro, Route119_Text_DaytonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_DaytonPostBattle)
 }
 
 script Route119_EventScript_Donald {
-    end
+    trainerbattle_double(TRAINER_DONALD, Route119_Text_DonaldIntro, Route119_Text_DonaldDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_DonaldPostBattle)
 }
 
 script Route119_EventScript_Doug {
-    end
+    trainerbattle_double(TRAINER_DOUG, Route119_Text_DougIntro, Route119_Text_DougDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_DougPostBattle)
 }
 
 script Route119_EventScript_Fabian {
-    end
+    trainerbattle_double(TRAINER_FABIAN, Route119_Text_FabianIntro, Route119_Text_FabianDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_FabianPostBattle)
 }
 
 script Route119_EventScript_Greg {
-    end
+    trainerbattle_double(TRAINER_GREG, Route119_Text_GregIntro, Route119_Text_GregDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_GregPostBattle)
 }
 
 script Route119_EventScript_Hideo {
-    end
+    trainerbattle_double(TRAINER_HIDEO, Route119_Text_HideoIntro, Route119_Text_HideoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_HideoPostBattle)
 }
 
 script Route119_EventScript_Hugh {
-    end
+    trainerbattle_double(TRAINER_HUGH, Route119_Text_HughIntro, Route119_Text_HughDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_HughPostBattle)
 }
 
 script Route119_EventScript_Jackson {
-    end
+    trainerbattle_double(TRAINER_JACKSON, Route119_Text_JacksonIntro, Route119_Text_JacksonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_JacksonPostBattle)
 }
 
 script Route119_EventScript_Kent {
-    end
+    trainerbattle_double(TRAINER_KENT, Route119_Text_KentIntro, Route119_Text_KentDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_KentPostBattle)
 }
 
 script Route119_EventScript_Phil {
-    end
+    trainerbattle_double(TRAINER_PHIL, Route119_Text_PhilIntro, Route119_Text_PhilDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_PhilPostBattle)
 }
 
 script Route119_EventScript_Rachel {
-    end
+    trainerbattle_double(TRAINER_RACHEL, Route119_Text_RachelIntro, Route119_Text_RachelDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_RachelPostBattle)
 }
 
 script Route119_EventScript_RivalTrigger1 {
@@ -91,11 +105,13 @@ script Route119_EventScript_RouteSignFortree {
 }
 
 script Route119_EventScript_Takashi {
-    end
+    trainerbattle_double(TRAINER_TAKASHI, Route119_Text_TakashiIntro, Route119_Text_TakashiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_TakashiPostBattle)
 }
 
 script Route119_EventScript_Taylor {
-    end
+    trainerbattle_double(TRAINER_TAYLOR, Route119_Text_TaylorIntro, Route119_Text_TaylorDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_TaylorPostBattle)
 }
 
 script Route119_EventScript_TrainerTipsDecoration {
@@ -109,7 +125,8 @@ script Route119_EventScript_WeatherInstituteSign {
 }
 
 script Route119_EventScript_Yasu {
-    end
+    trainerbattle_double(TRAINER_YASU, Route119_Text_YasuIntro, Route119_Text_YasuDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_Text_YasuPostBattle)
 }
 
 
@@ -123,4 +140,209 @@ text Route119_Text_RouteSignFortree {
 
 text Route119_Text_TrainerTipsDecoration {
     format("TRAINER TIPS\p Up to sixteen decorations and furniture items can be placed in\l a SECRET BASE.\p Pick your favorite items and create your very own SECRET BASE exactly the\l way you want.")
+}
+
+
+text Route119_Text_BrentDefeat {
+    "Whoopsie!\nI lost!"
+}
+
+text Route119_Text_BrentIntro {
+    "We're the MIMIC CIRCLE!\nWe MIMIC what you do!"
+}
+
+text Route119_Text_BrentPostBattle {
+    "What's so good about mimicry?\pFufufu…\nYou'll never understand…"
+}
+
+text Route119_Text_CatherineDefeat {
+    "Accidents happen when you're not\nprepared!"
+}
+
+text Route119_Text_CatherineIntro {
+    "Oh? Look at you.\pFor someone on an adventure,\nyou're traveling awfully light."
+}
+
+text Route119_Text_CatherinePostBattle {
+    "You're traveling light but you have\neverything you need.\pYou're on top of things mentally and\nphysically, too."
+}
+
+text Route119_Text_ChrisDefeat {
+    "I don't have a clue about what it\ntakes to win."
+}
+
+text Route119_Text_ChrisIntro {
+    "You spoke to me…\nSo you want to challenge me!\pSure! I'll try out the POKéMON I caught\nwhile SURFING!"
+}
+
+text Route119_Text_ChrisPostBattle {
+    "Go for a SURF on my POKéMON…\pThen fish off its back…\pIt's an indescribably luxuriant moment!"
+}
+
+text Route119_Text_DaytonDefeat {
+    "You're pretty amazing!\nHohoho!"
+}
+
+text Route119_Text_DaytonIntro {
+    "Hohoho!\nI like kid TRAINERS!\nLet's have a good one!"
+}
+
+text Route119_Text_DaytonPostBattle {
+    "Hohoho!\nI'll try emulating the pep of kid\nTRAINERS like you!"
+}
+
+text Route119_Text_DonaldDefeat {
+    "I wish we'd never met…"
+}
+
+text Route119_Text_DonaldIntro {
+    "So, we finally meet!\nMy BUG POKéMON will keep you company!"
+}
+
+text Route119_Text_DonaldPostBattle {
+    "I want to MIMIC you some more.\nCan you hurry up and move?"
+}
+
+text Route119_Text_DougDefeat {
+    "Whoop, that was a great match!"
+}
+
+text Route119_Text_DougIntro {
+    "Yep, you've finally caught me!\nOr were you trying to avoid me?"
+}
+
+text Route119_Text_DougPostBattle {
+    "We're the MIMIC CIRCLE!\nI hope you enjoyed our performance."
+}
+
+text Route119_Text_FabianDefeat {
+    "You showed me who's the boss!\nWe'll have to take the loss, oh, no!"
+}
+
+text Route119_Text_FabianIntro {
+    "Hit me with a power chord!\nVictory is mine!\nIt's our time to shine, whoa, yeah!"
+}
+
+text Route119_Text_FabianPostBattle {
+    "Hit me with another power chord!\nLeave me alone!\nYour win you have to atone!"
+}
+
+text Route119_Text_GregDefeat {
+    "You're pretty strong!"
+}
+
+text Route119_Text_GregIntro {
+    "You don't know who I am, do you?\pBut, I also don't know you.\nSo, we'll battle!"
+}
+
+text Route119_Text_GregPostBattle {
+    "Until you go away somewhere, we'll\nkeep on mimicking your every move."
+}
+
+text Route119_Text_HideoDefeat {
+    "I bow to your superiority."
+}
+
+text Route119_Text_HideoIntro {
+    "To hide a tree, use a forest!"
+}
+
+text Route119_Text_HideoPostBattle {
+    "To hide a tree, use a forest!\nTo hide a POKéMON, use a POKéMON!\pThere is no deep, hidden meaning\nto that."
+}
+
+text Route119_Text_HughDefeat {
+    "Down and out!"
+}
+
+text Route119_Text_HughIntro {
+    "The vast sky holds untold promise!\pNothing can compare to the sheer\nexhilaration of flight!"
+}
+
+text Route119_Text_HughPostBattle {
+    "My BIRD POKéMON made my dreams of\nflying come true!"
+}
+
+text Route119_Text_JacksonDefeat {
+    "I didn't have enough POKéMON\nknow-how…"
+}
+
+text Route119_Text_JacksonIntro {
+    "Who has the knowledge and\nthe technique for survival?\pPOKéMON RANGERS, that's who!"
+}
+
+text Route119_Text_JacksonPostBattle {
+    "To break away from civilization and\nawaken the wild spirit within!\pThat's our vision."
+}
+
+text Route119_Text_KentDefeat {
+    "I give up!"
+}
+
+text Route119_Text_KentIntro {
+    "The MIMIC CIRCLE was formed by people\nwho like to MIMIC.\pA battle starts the instant we meet!"
+}
+
+text Route119_Text_KentPostBattle {
+    "Won't you join our MIMIC CIRCLE?"
+}
+
+text Route119_Text_PhilDefeat {
+    "We lacked potential…"
+}
+
+text Route119_Text_PhilIntro {
+    "I'll show you the true potential of me\nand my BIRD POKéMON!"
+}
+
+text Route119_Text_PhilPostBattle {
+    "Ever since I was a little kid, I always\nadmired BIRD POKéMON…"
+}
+
+text Route119_Text_RachelDefeat {
+    "Oh, but…\nThat's not fair."
+}
+
+text Route119_Text_RachelIntro {
+    "Wherever and whenever I may be,\nI always have my parasol in hand."
+}
+
+text Route119_Text_RachelPostBattle {
+    "You're asking if my parasol is heavy?\nYour BAG is filled with more junk than\nI ever carry around."
+}
+
+text Route119_Text_TakashiDefeat {
+    "You're surprisingly good!"
+}
+
+text Route119_Text_TakashiIntro {
+    "If you're not on your guard,\nyou're in for some pain!"
+}
+
+text Route119_Text_TakashiPostBattle {
+    "My surprise attack ended in\nfailure…"
+}
+
+text Route119_Text_TaylorDefeat {
+    "But if you win, I lose…"
+}
+
+text Route119_Text_TaylorIntro {
+    "If you step forward, we step forward.\pIf you turn right, we turn, too…"
+}
+
+text Route119_Text_TaylorPostBattle {
+    "I can't MIMIC you winning the match.\nThat's just impossible…\nIt's burning me up…"
+}
+
+text Route119_Text_YasuDefeat {
+    "I admit defeat!"
+}
+
+text Route119_Text_YasuIntro {
+    "To lurk in shadows, and live in\ndarkness… That is my destiny.\pI emerge to challenge you!"
+}
+
+text Route119_Text_YasuPostBattle {
+    "Those defeated in battle withdraw\nquietly back into the shadows.\nThat, too, is destiny…"
 }

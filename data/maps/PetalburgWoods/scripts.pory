@@ -22,11 +22,13 @@ script PetalburgWoods_EventScript_Girl {
 }
 
 script PetalburgWoods_EventScript_James {
-    end
+    trainerbattle_double(TRAINER_JAMES, PetalburgWoods_Text_InstantlyPopularWithBugPokemon, PetalburgWoods_Text_CantBePopularIfILose, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PetalburgWoods_Text_PeopleRespectYou)
 }
 
 script PetalburgWoods_EventScript_Lyle {
-    end
+    trainerbattle_double(TRAINER_LYLE, PetalburgWoods_Text_GoBugPokemonTeam, PetalburgWoods_Text_ICouldntWin, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PetalburgWoods_Text_ImOutOfPokeBalls)
 }
 
 script PetalburgWoods_EventScript_Sign1 {
@@ -46,4 +48,29 @@ text PetalburgWoods_Text_TrainerTipsExperience {
 
 text PetalburgWoods_Text_TrainerTipsPP {
     format("TRAINER TIPS\p In addition to Hit Points (HP), POKéMON have Power Points (PP) that are used to\l make moves during battle.\p If a POKéMON runs out of PP, it must be taken to a POKéMON CENTER.")
+}
+
+
+text PetalburgWoods_Text_CantBePopularIfILose {
+    "Placeholder text for PetalburgWoods_Text_CantBePopularIfILose"
+}
+
+text PetalburgWoods_Text_GoBugPokemonTeam {
+    "Placeholder text for PetalburgWoods_Text_GoBugPokemonTeam"
+}
+
+text PetalburgWoods_Text_ICouldntWin {
+    "Placeholder text for PetalburgWoods_Text_ICouldntWin"
+}
+
+text PetalburgWoods_Text_ImOutOfPokeBalls {
+    "Placeholder text for PetalburgWoods_Text_ImOutOfPokeBalls"
+}
+
+text PetalburgWoods_Text_InstantlyPopularWithBugPokemon {
+    "Placeholder text for PetalburgWoods_Text_InstantlyPopularWithBugPokemon"
+}
+
+text PetalburgWoods_Text_PeopleRespectYou {
+    "Placeholder text for PetalburgWoods_Text_PeopleRespectYou"
 }

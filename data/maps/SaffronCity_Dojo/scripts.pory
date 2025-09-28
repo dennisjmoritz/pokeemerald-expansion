@@ -2,11 +2,13 @@ mapscripts SaffronCity_Dojo_MapScripts {
 }
 
 script SaffronCity_Dojo_EventScript_Aaron {
-    end
+    trainerbattle_double(TRAINER_BLACK_BELT_AARON, SaffronCity_Dojo_Text_AaronIntro, SaffronCity_Dojo_Text_AaronDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Dojo_Text_AaronPostBattle)
 }
 
 script SaffronCity_Dojo_EventScript_Hideki {
-    end
+    trainerbattle_double(TRAINER_BLACK_BELT_HIDEKI, SaffronCity_Dojo_Text_HidekiIntro, SaffronCity_Dojo_Text_HidekiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Dojo_Text_HidekiPostBattle)
 }
 
 script SaffronCity_Dojo_EventScript_HitmonchanBall {
@@ -18,7 +20,8 @@ script SaffronCity_Dojo_EventScript_HitmonleeBall {
 }
 
 script SaffronCity_Dojo_EventScript_Hitoshi {
-    end
+    trainerbattle_double(TRAINER_BLACK_BELT_HITOSHI, SaffronCity_Dojo_Text_HitoshiIntro, SaffronCity_Dojo_Text_HitoshiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Dojo_Text_HitoshiPostBattle)
 }
 
 script SaffronCity_Dojo_EventScript_LeftScroll {
@@ -27,11 +30,13 @@ script SaffronCity_Dojo_EventScript_LeftScroll {
 }
 
 script SaffronCity_Dojo_EventScript_MasterKoichi {
-    end
+    trainerbattle_double(TRAINER_BLACK_BELT_KOICHI, SaffronCity_Dojo_Text_MasterKoichiIntro, SaffronCity_Dojo_Text_MasterKoichiDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Dojo_Text_ChoosePrizedFightingMon)
 }
 
 script SaffronCity_Dojo_EventScript_Mike {
-    end
+    trainerbattle_double(TRAINER_BLACK_BELT_MIKE, SaffronCity_Dojo_Text_MikeIntro, SaffronCity_Dojo_Text_MikeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Dojo_Text_MikePostBattle)
 }
 
 script SaffronCity_Dojo_EventScript_RightScroll {
@@ -63,4 +68,65 @@ text SaffronCity_Dojo_Text_FightingDojo {
 
 text SaffronCity_Dojo_Text_EnemiesOnEverySide {
     format("Enemies on every side!")
+}
+
+
+text SaffronCity_Dojo_Text_AaronDefeat {
+    "Placeholder text for SaffronCity_Dojo_Text_AaronDefeat"
+}
+
+text SaffronCity_Dojo_Text_AaronIntro {
+    "Placeholder text for SaffronCity_Dojo_Text_AaronIntro"
+}
+
+text SaffronCity_Dojo_Text_AaronPostBattle {
+    "Placeholder text for SaffronCity_Dojo_Text_AaronPostBattle"
+}
+
+text SaffronCity_Dojo_Text_ChoosePrizedFightingMon {
+    "Placeholder text for SaffronCity_Dojo_Text_ChoosePrizedFightingMon"
+}
+
+text SaffronCity_Dojo_Text_HidekiDefeat {
+    "Placeholder text for SaffronCity_Dojo_Text_HidekiDefeat"
+}
+
+text SaffronCity_Dojo_Text_HidekiIntro {
+    "Placeholder text for SaffronCity_Dojo_Text_HidekiIntro"
+}
+
+text SaffronCity_Dojo_Text_HidekiPostBattle {
+    "Placeholder text for SaffronCity_Dojo_Text_HidekiPostBattle"
+}
+
+text SaffronCity_Dojo_Text_HitoshiDefeat {
+    "Placeholder text for SaffronCity_Dojo_Text_HitoshiDefeat"
+}
+
+text SaffronCity_Dojo_Text_HitoshiIntro {
+    "Placeholder text for SaffronCity_Dojo_Text_HitoshiIntro"
+}
+
+text SaffronCity_Dojo_Text_HitoshiPostBattle {
+    "Placeholder text for SaffronCity_Dojo_Text_HitoshiPostBattle"
+}
+
+text SaffronCity_Dojo_Text_MasterKoichiDefeat {
+    "Placeholder text for SaffronCity_Dojo_Text_MasterKoichiDefeat"
+}
+
+text SaffronCity_Dojo_Text_MasterKoichiIntro {
+    "Placeholder text for SaffronCity_Dojo_Text_MasterKoichiIntro"
+}
+
+text SaffronCity_Dojo_Text_MikeDefeat {
+    "Placeholder text for SaffronCity_Dojo_Text_MikeDefeat"
+}
+
+text SaffronCity_Dojo_Text_MikeIntro {
+    "Placeholder text for SaffronCity_Dojo_Text_MikeIntro"
+}
+
+text SaffronCity_Dojo_Text_MikePostBattle {
+    "Placeholder text for SaffronCity_Dojo_Text_MikePostBattle"
 }

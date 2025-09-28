@@ -2,7 +2,8 @@ mapscripts Route104_MapScripts {
 }
 
 script Route104_EventScript_Billy {
-    end
+    trainerbattle_double(TRAINER_BILLY, Route104_Text_BillyIntro, Route104_Text_BillyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route104_Text_BillyPostBattle)
 }
 
 script Route104_EventScript_Boy1 {
@@ -23,11 +24,13 @@ script Route104_EventScript_BugCatcher {
 }
 
 script Route104_EventScript_Cindy {
-    end
+    trainerbattle_double(TRAINER_CINDY, Route104_Text_CindyIntro, Route104_Text_CindyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route104_Text_CindyPostBattle)
 }
 
 script Route104_EventScript_Darian {
-    end
+    trainerbattle_double(TRAINER_DARIAN, Route104_Text_DarianIntro, Route104_Text_DarianDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route104_Text_DarianPostBattle)
 }
 
 script Route104_EventScript_ExpertF {
@@ -52,11 +55,13 @@ script Route104_EventScript_Girl2 {
 }
 
 script Route104_EventScript_Haley {
-    end
+    trainerbattle_double(TRAINER_HALEY, Route104_Text_HaleyIntro, Route104_Text_HaleyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route104_Text_HaleyPostBattle)
 }
 
 script Route104_EventScript_Ivan {
-    end
+    trainerbattle_double(TRAINER_IVAN, Route104_Text_IvanIntro, Route104_Text_IvanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route104_Text_IvanPostBattle)
 }
 
 script Route104_EventScript_Mia {
@@ -91,7 +96,8 @@ script Route104_EventScript_WhiteHerbFlorist {
 }
 
 script Route104_EventScript_Winston {
-    end
+    trainerbattle_double(TRAINER_WINSTON, Route104_Text_WinstonIntro, Route104_Text_WinstonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route104_Text_WinstonPostBattle)
 }
 
 script Route104_EventScript_Woman {
@@ -117,4 +123,77 @@ text Route104_Text_RouteSignRustboro {
 
 text Route104_Text_RouteSignPetalburg {
     format("ROUTE 1O4 {RIGHT_ARROW} PETALBURG CITY")
+}
+
+
+text Route104_Text_BillyDefeat {
+    "Waah! I got sand in my runners!\nThey're all gritty!"
+}
+
+text Route104_Text_BillyIntro {
+    "Leaving footprints in the sand is\nso fun!"
+}
+
+text Route104_Text_BillyPostBattle {
+    "I want to leave my footprints in\nthe sand everywhere, but they\ndisappear quickly…"
+}
+
+text Route104_Text_CindyDefeat {
+    "Oh, my!"
+}
+
+text Route104_Text_CindyIntro {
+    "We must have been fated to meet.\nMay I ask you for a battle?"
+}
+
+text Route104_Text_CindyPostBattle {
+    "“Hello” is the beginning of “good-bye.”\nI hope we meet again."
+}
+
+text Route104_Text_DarianDefeat {
+    "What the…"
+}
+
+text Route104_Text_DarianIntro {
+    "I fished up a tough-looking POKéMON!\pIt has this magical quality to it!\nIt surely looks tough, yes it does!"
+}
+
+text Route104_Text_DarianPostBattle {
+    "Hey, MAGIKARP, you sure don't live up\nto your name, do you?"
+}
+
+text Route104_Text_HaleyDefeat {
+    "I shouldn't have battled…"
+}
+
+text Route104_Text_HaleyIntro {
+    "Should I…\nOr shouldn't I?\pOkay, sure, I will battle!"
+}
+
+text Route104_Text_HaleyPostBattle {
+    "If you're faced with a decision and\nyou let someone else choose for you,\nyou will regret it, however things\nturn out."
+}
+
+text Route104_Text_IvanDefeat {
+    "I thought I wasn't too bad, if I may\nsay so, but I guess not… Bleah…"
+}
+
+text Route104_Text_IvanIntro {
+    "Why keep it a secret?\nI'm the WATER POKéMON expert!\pHuh?\nYou don't know me?"
+}
+
+text Route104_Text_IvanPostBattle {
+    "I got too into fishing.\nI forgot I had to raise my POKéMON…"
+}
+
+text Route104_Text_WinstonDefeat {
+    "Why couldn't I win?"
+}
+
+text Route104_Text_WinstonIntro {
+    "Oh, sure, I'll accept your challenge.\nI have a lot of money."
+}
+
+text Route104_Text_WinstonPostBattle {
+    "There are some things money can't buy.\nThat's POKéMON…"
 }

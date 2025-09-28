@@ -2,7 +2,8 @@ mapscripts FuchsiaCity_Gym_MapScripts {
 }
 
 script FuchsiaCity_Gym_EventScript_Edgar {
-    end
+    trainerbattle_double(TRAINER_TAMER_EDGAR, FuchsiaCity_Gym_Text_EdgarIntro, FuchsiaCity_Gym_Text_EdgarDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FuchsiaCity_Gym_Text_EdgarPostBattle)
 }
 
 script FuchsiaCity_Gym_EventScript_GymGuy {
@@ -18,11 +19,13 @@ script FuchsiaCity_Gym_EventScript_GymStatue {
 }
 
 script FuchsiaCity_Gym_EventScript_Kayden {
-    end
+    trainerbattle_double(TRAINER_JUGGLER_KAYDEN, FuchsiaCity_Gym_Text_KaydenIntro, FuchsiaCity_Gym_Text_KaydenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FuchsiaCity_Gym_Text_KaydenPostBattle)
 }
 
 script FuchsiaCity_Gym_EventScript_Kirk {
-    end
+    trainerbattle_double(TRAINER_JUGGLER_KIRK, FuchsiaCity_Gym_Text_KirkIntro, FuchsiaCity_Gym_Text_KirkDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FuchsiaCity_Gym_Text_KirkPostBattle)
 }
 
 script FuchsiaCity_Gym_EventScript_Koga {
@@ -30,18 +33,94 @@ script FuchsiaCity_Gym_EventScript_Koga {
 }
 
 script FuchsiaCity_Gym_EventScript_Nate {
-    end
+    trainerbattle_double(TRAINER_JUGGLER_NATE, FuchsiaCity_Gym_Text_NateIntro, FuchsiaCity_Gym_Text_NateDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FuchsiaCity_Gym_Text_NatePostBattle)
 }
 
 script FuchsiaCity_Gym_EventScript_Phil {
-    end
+    trainerbattle_double(TRAINER_TAMER_PHIL, FuchsiaCity_Gym_Text_PhilIntro, FuchsiaCity_Gym_Text_PhilDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FuchsiaCity_Gym_Text_PhilPostBattle)
 }
 
 script FuchsiaCity_Gym_EventScript_Shawn {
-    end
+    trainerbattle_double(TRAINER_JUGGLER_SHAWN, FuchsiaCity_Gym_Text_ShawnIntro, FuchsiaCity_Gym_Text_ShawnDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FuchsiaCity_Gym_Text_ShawnPostBattle)
 }
 
 
 text FuchsiaCity_Gym_Text_GymStatue {
     format("FUCHSIA POKéMON GYM LEADER: KOGA\p WINNING TRAINERS: {RIVAL}")
+}
+
+
+text FuchsiaCity_Gym_Text_EdgarDefeat {
+    "Placeholder text for FuchsiaCity_Gym_Text_EdgarDefeat"
+}
+
+text FuchsiaCity_Gym_Text_EdgarIntro {
+    "Placeholder text for FuchsiaCity_Gym_Text_EdgarIntro"
+}
+
+text FuchsiaCity_Gym_Text_EdgarPostBattle {
+    "Placeholder text for FuchsiaCity_Gym_Text_EdgarPostBattle"
+}
+
+text FuchsiaCity_Gym_Text_KaydenDefeat {
+    "Placeholder text for FuchsiaCity_Gym_Text_KaydenDefeat"
+}
+
+text FuchsiaCity_Gym_Text_KaydenIntro {
+    "Placeholder text for FuchsiaCity_Gym_Text_KaydenIntro"
+}
+
+text FuchsiaCity_Gym_Text_KaydenPostBattle {
+    "Placeholder text for FuchsiaCity_Gym_Text_KaydenPostBattle"
+}
+
+text FuchsiaCity_Gym_Text_KirkDefeat {
+    "Placeholder text for FuchsiaCity_Gym_Text_KirkDefeat"
+}
+
+text FuchsiaCity_Gym_Text_KirkIntro {
+    "Placeholder text for FuchsiaCity_Gym_Text_KirkIntro"
+}
+
+text FuchsiaCity_Gym_Text_KirkPostBattle {
+    "Placeholder text for FuchsiaCity_Gym_Text_KirkPostBattle"
+}
+
+text FuchsiaCity_Gym_Text_NateDefeat {
+    "Placeholder text for FuchsiaCity_Gym_Text_NateDefeat"
+}
+
+text FuchsiaCity_Gym_Text_NateIntro {
+    "Placeholder text for FuchsiaCity_Gym_Text_NateIntro"
+}
+
+text FuchsiaCity_Gym_Text_NatePostBattle {
+    "Placeholder text for FuchsiaCity_Gym_Text_NatePostBattle"
+}
+
+text FuchsiaCity_Gym_Text_PhilDefeat {
+    "Placeholder text for FuchsiaCity_Gym_Text_PhilDefeat"
+}
+
+text FuchsiaCity_Gym_Text_PhilIntro {
+    "Placeholder text for FuchsiaCity_Gym_Text_PhilIntro"
+}
+
+text FuchsiaCity_Gym_Text_PhilPostBattle {
+    "Placeholder text for FuchsiaCity_Gym_Text_PhilPostBattle"
+}
+
+text FuchsiaCity_Gym_Text_ShawnDefeat {
+    "Placeholder text for FuchsiaCity_Gym_Text_ShawnDefeat"
+}
+
+text FuchsiaCity_Gym_Text_ShawnIntro {
+    "Placeholder text for FuchsiaCity_Gym_Text_ShawnIntro"
+}
+
+text FuchsiaCity_Gym_Text_ShawnPostBattle {
+    "Placeholder text for FuchsiaCity_Gym_Text_ShawnPostBattle"
 }

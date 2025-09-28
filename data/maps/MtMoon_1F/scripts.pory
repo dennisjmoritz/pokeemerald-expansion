@@ -2,31 +2,38 @@ mapscripts MtMoon_1F_MapScripts {
 }
 
 script MtMoon_1F_EventScript_Iris {
-    end
+    trainerbattle_double(TRAINER_LASS_IRIS, MtMoon_1F_Text_IrisIntro, MtMoon_1F_Text_IrisDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtMoon_1F_Text_IrisPostBattle)
 }
 
 script MtMoon_1F_EventScript_Josh {
-    end
+    trainerbattle_double(TRAINER_YOUNGSTER_JOSH, MtMoon_1F_Text_JoshIntro, MtMoon_1F_Text_JoshDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtMoon_1F_Text_JoshPostBattle)
 }
 
 script MtMoon_1F_EventScript_Jovan {
-    end
+    trainerbattle_double(TRAINER_SUPER_NERD_JOVAN, MtMoon_1F_Text_JovanIntro, MtMoon_1F_Text_JovanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtMoon_1F_Text_JovanPostBattle)
 }
 
 script MtMoon_1F_EventScript_Kent {
-    end
+    trainerbattle_double(TRAINER_BUG_CATCHER_KENT, MtMoon_1F_Text_KentIntro, MtMoon_1F_Text_KentDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtMoon_1F_Text_KentPostBattle)
 }
 
 script MtMoon_1F_EventScript_Marcos {
-    end
+    trainerbattle_double(TRAINER_HIKER_MARCOS, MtMoon_1F_Text_MarcosIntro, MtMoon_1F_Text_MarcosDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtMoon_1F_Text_MarcosPostBattle)
 }
 
 script MtMoon_1F_EventScript_Miriam {
-    end
+    trainerbattle_double(TRAINER_LASS_MIRIAM, MtMoon_1F_Text_MiriamIntro, MtMoon_1F_Text_MiriamDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtMoon_1F_Text_MiriamPostBattle)
 }
 
 script MtMoon_1F_EventScript_Robby {
-    end
+    trainerbattle_double(TRAINER_BUG_CATCHER_ROBBY, MtMoon_1F_Text_RobbyIntro, MtMoon_1F_Text_RobbyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtMoon_1F_Text_RobbyPostBattle)
 }
 
 script MtMoon_1F_EventScript_ZubatSign {
@@ -37,4 +44,89 @@ script MtMoon_1F_EventScript_ZubatSign {
 
 text MtMoon_1F_Text_ZubatIsABloodsucker {
     format("Beware! ZUBAT is a bloodsucker!")
+}
+
+
+text MtMoon_1F_Text_IrisDefeat {
+    "Placeholder text for MtMoon_1F_Text_IrisDefeat"
+}
+
+text MtMoon_1F_Text_IrisIntro {
+    "Placeholder text for MtMoon_1F_Text_IrisIntro"
+}
+
+text MtMoon_1F_Text_IrisPostBattle {
+    "Placeholder text for MtMoon_1F_Text_IrisPostBattle"
+}
+
+text MtMoon_1F_Text_JoshDefeat {
+    "Placeholder text for MtMoon_1F_Text_JoshDefeat"
+}
+
+text MtMoon_1F_Text_JoshIntro {
+    "Placeholder text for MtMoon_1F_Text_JoshIntro"
+}
+
+text MtMoon_1F_Text_JoshPostBattle {
+    "Placeholder text for MtMoon_1F_Text_JoshPostBattle"
+}
+
+text MtMoon_1F_Text_JovanDefeat {
+    "Placeholder text for MtMoon_1F_Text_JovanDefeat"
+}
+
+text MtMoon_1F_Text_JovanIntro {
+    "Placeholder text for MtMoon_1F_Text_JovanIntro"
+}
+
+text MtMoon_1F_Text_JovanPostBattle {
+    "Placeholder text for MtMoon_1F_Text_JovanPostBattle"
+}
+
+text MtMoon_1F_Text_KentDefeat {
+    "Placeholder text for MtMoon_1F_Text_KentDefeat"
+}
+
+text MtMoon_1F_Text_KentIntro {
+    "Placeholder text for MtMoon_1F_Text_KentIntro"
+}
+
+text MtMoon_1F_Text_KentPostBattle {
+    "Placeholder text for MtMoon_1F_Text_KentPostBattle"
+}
+
+text MtMoon_1F_Text_MarcosDefeat {
+    "Placeholder text for MtMoon_1F_Text_MarcosDefeat"
+}
+
+text MtMoon_1F_Text_MarcosIntro {
+    "Placeholder text for MtMoon_1F_Text_MarcosIntro"
+}
+
+text MtMoon_1F_Text_MarcosPostBattle {
+    "Placeholder text for MtMoon_1F_Text_MarcosPostBattle"
+}
+
+text MtMoon_1F_Text_MiriamDefeat {
+    "Placeholder text for MtMoon_1F_Text_MiriamDefeat"
+}
+
+text MtMoon_1F_Text_MiriamIntro {
+    "Placeholder text for MtMoon_1F_Text_MiriamIntro"
+}
+
+text MtMoon_1F_Text_MiriamPostBattle {
+    "Placeholder text for MtMoon_1F_Text_MiriamPostBattle"
+}
+
+text MtMoon_1F_Text_RobbyDefeat {
+    "Placeholder text for MtMoon_1F_Text_RobbyDefeat"
+}
+
+text MtMoon_1F_Text_RobbyIntro {
+    "Placeholder text for MtMoon_1F_Text_RobbyIntro"
+}
+
+text MtMoon_1F_Text_RobbyPostBattle {
+    "Placeholder text for MtMoon_1F_Text_RobbyPostBattle"
 }

@@ -2,7 +2,8 @@ mapscripts SilphCo_2F_MapScripts {
 }
 
 script SilphCo_2F_EventScript_Connor {
-    end
+    trainerbattle_double(TRAINER_SCIENTIST_CONNOR, SilphCo_2F_Text_ConnorIntro, SilphCo_2F_Text_ConnorDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_2F_Text_ConnorPostBattle)
 }
 
 script SilphCo_2F_EventScript_FloorSign {
@@ -11,18 +12,70 @@ script SilphCo_2F_EventScript_FloorSign {
 }
 
 script SilphCo_2F_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_23, SilphCo_2F_Text_Grunt1Intro, SilphCo_2F_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_2F_Text_Grunt1PostBattle)
 }
 
 script SilphCo_2F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_24, SilphCo_2F_Text_Grunt2Intro, SilphCo_2F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_2F_Text_Grunt2PostBattle)
 }
 
 script SilphCo_2F_EventScript_Jerry {
-    end
+    trainerbattle_double(TRAINER_SCIENTIST_JERRY, SilphCo_2F_Text_JerryIntro, SilphCo_2F_Text_JerryDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SilphCo_2F_Text_JerryPostBattle)
 }
 
 
 text SilphCo_2F_Text_FloorSign {
     format("SILPH CO. HEAD OFFICE 2F")
+}
+
+
+text SilphCo_2F_Text_ConnorDefeat {
+    "Placeholder text for SilphCo_2F_Text_ConnorDefeat"
+}
+
+text SilphCo_2F_Text_ConnorIntro {
+    "Placeholder text for SilphCo_2F_Text_ConnorIntro"
+}
+
+text SilphCo_2F_Text_ConnorPostBattle {
+    "Placeholder text for SilphCo_2F_Text_ConnorPostBattle"
+}
+
+text SilphCo_2F_Text_Grunt1Defeat {
+    "Placeholder text for SilphCo_2F_Text_Grunt1Defeat"
+}
+
+text SilphCo_2F_Text_Grunt1Intro {
+    "Placeholder text for SilphCo_2F_Text_Grunt1Intro"
+}
+
+text SilphCo_2F_Text_Grunt1PostBattle {
+    "Placeholder text for SilphCo_2F_Text_Grunt1PostBattle"
+}
+
+text SilphCo_2F_Text_Grunt2Defeat {
+    "Placeholder text for SilphCo_2F_Text_Grunt2Defeat"
+}
+
+text SilphCo_2F_Text_Grunt2Intro {
+    "Placeholder text for SilphCo_2F_Text_Grunt2Intro"
+}
+
+text SilphCo_2F_Text_Grunt2PostBattle {
+    "Placeholder text for SilphCo_2F_Text_Grunt2PostBattle"
+}
+
+text SilphCo_2F_Text_JerryDefeat {
+    "Placeholder text for SilphCo_2F_Text_JerryDefeat"
+}
+
+text SilphCo_2F_Text_JerryIntro {
+    "Placeholder text for SilphCo_2F_Text_JerryIntro"
+}
+
+text SilphCo_2F_Text_JerryPostBattle {
+    "Placeholder text for SilphCo_2F_Text_JerryPostBattle"
 }

@@ -37,3 +37,28 @@ script VictoryRoad_1F_EventScript_WallyBattleTrigger2 {
     end
 }
 
+
+
+text VictoryRoad_1F_Text_NaomiDefeat {
+    "Placeholder text for VictoryRoad_1F_Text_NaomiDefeat"
+}
+
+text VictoryRoad_1F_Text_NaomiIntro {
+    "Placeholder text for VictoryRoad_1F_Text_NaomiIntro"
+}
+
+text VictoryRoad_1F_Text_NaomiPostBattle {
+    "Placeholder text for VictoryRoad_1F_Text_NaomiPostBattle"
+}
+
+text VictoryRoad_1F_Text_RolandoDefeat {
+    "Placeholder text for VictoryRoad_1F_Text_RolandoDefeat"
+}
+
+text VictoryRoad_1F_Text_RolandoIntro {
+    "Placeholder text for VictoryRoad_1F_Text_RolandoIntro"
+}
+
+text VictoryRoad_1F_Text_RolandoPostBattle {
+    "Placeholder text for VictoryRoad_1F_Text_RolandoPostBattle"
+}

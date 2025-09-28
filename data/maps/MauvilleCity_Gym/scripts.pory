@@ -2,11 +2,13 @@ mapscripts MauvilleCity_Gym_MapScripts {
 }
 
 script MauvilleCity_Gym_EventScript_Angelo {
-    end
+    trainerbattle_double(TRAINER_ANGELO, MauvilleCity_Gym_Text_AngeloIntro, MauvilleCity_Gym_Text_AngeloDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MauvilleCity_Gym_Text_AngeloPostBattle)
 }
 
 script MauvilleCity_Gym_EventScript_Ben {
-    end
+    trainerbattle_double(TRAINER_BEN, MauvilleCity_Gym_Text_BenIntro, MauvilleCity_Gym_Text_BenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MauvilleCity_Gym_Text_BenPostBattle)
 }
 
 script MauvilleCity_Gym_EventScript_GymGuide {
@@ -14,7 +16,8 @@ script MauvilleCity_Gym_EventScript_GymGuide {
 }
 
 script MauvilleCity_Gym_EventScript_Kirk {
-    end
+    trainerbattle_double(TRAINER_KIRK, MauvilleCity_Gym_Text_KirkIntro, MauvilleCity_Gym_Text_KirkDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MauvilleCity_Gym_Text_KirkPostBattle)
 }
 
 script MauvilleCity_Gym_EventScript_LeftGymStatue {
@@ -32,7 +35,8 @@ script MauvilleCity_Gym_EventScript_RightGymStatue {
 }
 
 script MauvilleCity_Gym_EventScript_Shawn {
-    end
+    trainerbattle_double(TRAINER_SHAWN, MauvilleCity_Gym_Text_ShawnIntro, MauvilleCity_Gym_Text_ShawnDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MauvilleCity_Gym_Text_ShawnPostBattle)
 }
 
 script MauvilleCity_Gym_EventScript_Switch1 {
@@ -52,10 +56,72 @@ script MauvilleCity_Gym_EventScript_Switch4 {
 }
 
 script MauvilleCity_Gym_EventScript_Vivian {
-    end
+    trainerbattle_double(TRAINER_VIVIAN, MauvilleCity_Gym_Text_VivianIntro, MauvilleCity_Gym_Text_VivianDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MauvilleCity_Gym_Text_VivianPostBattle)
 }
 
 script MauvilleCity_Gym_EventScript_Wattson {
     end
 }
 
+
+
+text MauvilleCity_Gym_Text_AngeloDefeat {
+    "Placeholder text for MauvilleCity_Gym_Text_AngeloDefeat"
+}
+
+text MauvilleCity_Gym_Text_AngeloIntro {
+    "Placeholder text for MauvilleCity_Gym_Text_AngeloIntro"
+}
+
+text MauvilleCity_Gym_Text_AngeloPostBattle {
+    "Placeholder text for MauvilleCity_Gym_Text_AngeloPostBattle"
+}
+
+text MauvilleCity_Gym_Text_BenDefeat {
+    "Placeholder text for MauvilleCity_Gym_Text_BenDefeat"
+}
+
+text MauvilleCity_Gym_Text_BenIntro {
+    "Placeholder text for MauvilleCity_Gym_Text_BenIntro"
+}
+
+text MauvilleCity_Gym_Text_BenPostBattle {
+    "Placeholder text for MauvilleCity_Gym_Text_BenPostBattle"
+}
+
+text MauvilleCity_Gym_Text_KirkDefeat {
+    "Placeholder text for MauvilleCity_Gym_Text_KirkDefeat"
+}
+
+text MauvilleCity_Gym_Text_KirkIntro {
+    "Placeholder text for MauvilleCity_Gym_Text_KirkIntro"
+}
+
+text MauvilleCity_Gym_Text_KirkPostBattle {
+    "Placeholder text for MauvilleCity_Gym_Text_KirkPostBattle"
+}
+
+text MauvilleCity_Gym_Text_ShawnDefeat {
+    "Placeholder text for MauvilleCity_Gym_Text_ShawnDefeat"
+}
+
+text MauvilleCity_Gym_Text_ShawnIntro {
+    "Placeholder text for MauvilleCity_Gym_Text_ShawnIntro"
+}
+
+text MauvilleCity_Gym_Text_ShawnPostBattle {
+    "Placeholder text for MauvilleCity_Gym_Text_ShawnPostBattle"
+}
+
+text MauvilleCity_Gym_Text_VivianDefeat {
+    "Placeholder text for MauvilleCity_Gym_Text_VivianDefeat"
+}
+
+text MauvilleCity_Gym_Text_VivianIntro {
+    "Placeholder text for MauvilleCity_Gym_Text_VivianIntro"
+}
+
+text MauvilleCity_Gym_Text_VivianPostBattle {
+    "Placeholder text for MauvilleCity_Gym_Text_VivianPostBattle"
+}

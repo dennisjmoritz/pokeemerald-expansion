@@ -2,7 +2,8 @@ mapscripts Route102_MapScripts {
 }
 
 script Route102_EventScript_Allen {
-    end
+    trainerbattle_double(TRAINER_ALLEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route102_Text_AllenPostBattle)
 }
 
 script Route102_EventScript_Boy {
@@ -10,7 +11,8 @@ script Route102_EventScript_Boy {
 }
 
 script Route102_EventScript_Calvin {
-    end
+    trainerbattle_double(TRAINER_CALVIN, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route102_Text_CalvinPostBattle)
 }
 
 script Route102_EventScript_LittleBoy {
@@ -18,7 +20,8 @@ script Route102_EventScript_LittleBoy {
 }
 
 script Route102_EventScript_Rick {
-    end
+    trainerbattle_double(TRAINER_RICK, Route102_Text_RickIntro, Route102_Text_RickDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route102_Text_RickPostBattle)
 }
 
 script Route102_EventScript_RouteSignOldale {
@@ -32,7 +35,8 @@ script Route102_EventScript_RouteSignPetalburg {
 }
 
 script Route102_EventScript_Tiana {
-    end
+    trainerbattle_double(TRAINER_TIANA, Route102_Text_TianaIntro, Route102_Text_TianaDefeated, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route102_Text_TianaPostBattle)
 }
 
 
@@ -42,4 +46,53 @@ text Route102_Text_RouteSignPetalburg {
 
 text Route102_Text_RouteSignOldale {
     format("ROUTE 102 {RIGHT_ARROW} OLDALE TOWN")
+}
+
+
+text Route102_Text_AllenDefeated {
+    "I called you because I thought\nI could beat you…"
+}
+
+text Route102_Text_AllenIntro {
+    "Did you just become a TRAINER?\nWe're both beginners!"
+}
+
+text Route102_Text_AllenPostBattle {
+    "I haven't won once yet…\nI wish I would win soon…"
+}
+
+text Route102_Text_CalvinDefeated {
+    "Arrgh, I lost…\nI should have trained mine more…"
+}
+
+text Route102_Text_CalvinIntro {
+    "If you have POKéMON with you, then\nyou're an official POKéMON TRAINER!\nYou can't say no to my challenge!"
+}
+
+text Route102_Text_CalvinPostBattle {
+    "Listen, you. If you're strong,\nyou should have told me before!"
+}
+
+text Route102_Text_RickDefeated {
+    "Ow! Down and out!"
+}
+
+text Route102_Text_RickIntro {
+    "Hahah! Our eyes met!\nI'll take you on with my BUG POKéMON!"
+}
+
+text Route102_Text_RickPostBattle {
+    "If you lock eyes with a TRAINER,\nyou have to challenge! It's a rule!"
+}
+
+text Route102_Text_TianaDefeated {
+    "I ended up furthering your career…"
+}
+
+text Route102_Text_TianaIntro {
+    "I'm going to keep winning and aim\nto be the best TRAINER.\pHelp me further my career!"
+}
+
+text Route102_Text_TianaPostBattle {
+    "To keep winning my way up, I see that\nI have to catch more POKéMON."
 }

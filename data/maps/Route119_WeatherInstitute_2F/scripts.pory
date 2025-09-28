@@ -2,22 +2,75 @@ mapscripts Route119_WeatherInstitute_2F_MapScripts {
 }
 
 script Route119_WeatherInstitute_2F_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_WEATHER_INST_2, Route119_WeatherInstitute_2F_Text_Grunt2Intro, Route119_WeatherInstitute_2F_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_WeatherInstitute_2F_Text_Grunt2PostBattle)
 }
 
 script Route119_WeatherInstitute_2F_EventScript_Grunt3 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_WEATHER_INST_3, Route119_WeatherInstitute_2F_Text_Grunt3Intro, Route119_WeatherInstitute_2F_Text_Grunt3Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_WeatherInstitute_2F_Text_Grunt3PostBattle)
 }
 
 script Route119_WeatherInstitute_2F_EventScript_Grunt5 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_WEATHER_INST_5, Route119_WeatherInstitute_2F_Text_Grunt5Intro, Route119_WeatherInstitute_2F_Text_Grunt5Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_WeatherInstitute_2F_Text_Grunt5PostBattle)
 }
 
 script Route119_WeatherInstitute_2F_EventScript_Shelly {
-    end
+    trainerbattle_double(TRAINER_SHELLY_WEATHER_INSTITUTE, Route119_WeatherInstitute_2F_Text_ShellyIntro, Route119_WeatherInstitute_2F_Text_ShellyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(Route119_WeatherInstitute_2F_Text_ShellyPostBattle)
 }
 
 script Route119_WeatherInstitute_2F_EventScript_WeatherScientist {
     end
 }
 
+
+
+text Route119_WeatherInstitute_2F_Text_Grunt2Defeat {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt2Defeat"
+}
+
+text Route119_WeatherInstitute_2F_Text_Grunt2Intro {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt2Intro"
+}
+
+text Route119_WeatherInstitute_2F_Text_Grunt2PostBattle {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt2PostBattle"
+}
+
+text Route119_WeatherInstitute_2F_Text_Grunt3Defeat {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt3Defeat"
+}
+
+text Route119_WeatherInstitute_2F_Text_Grunt3Intro {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt3Intro"
+}
+
+text Route119_WeatherInstitute_2F_Text_Grunt3PostBattle {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt3PostBattle"
+}
+
+text Route119_WeatherInstitute_2F_Text_Grunt5Defeat {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt5Defeat"
+}
+
+text Route119_WeatherInstitute_2F_Text_Grunt5Intro {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt5Intro"
+}
+
+text Route119_WeatherInstitute_2F_Text_Grunt5PostBattle {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_Grunt5PostBattle"
+}
+
+text Route119_WeatherInstitute_2F_Text_ShellyDefeat {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_ShellyDefeat"
+}
+
+text Route119_WeatherInstitute_2F_Text_ShellyIntro {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_ShellyIntro"
+}
+
+text Route119_WeatherInstitute_2F_Text_ShellyPostBattle {
+    "Placeholder text for Route119_WeatherInstitute_2F_Text_ShellyPostBattle"
+}

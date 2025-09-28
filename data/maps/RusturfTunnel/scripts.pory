@@ -10,7 +10,8 @@ script RusturfTunnel_EventScript_Grunt {
 }
 
 script RusturfTunnel_EventScript_Mike {
-    end
+    trainerbattle_double(TRAINER_MIKE_2, RusturfTunnel_Text_MikeIntro, RusturfTunnel_Text_MikeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(RusturfTunnel_Text_MikePostBattle)
 }
 
 script RusturfTunnel_EventScript_Peeko {
@@ -37,3 +38,16 @@ script RusturfTunnel_EventScript_WandasBoyfriend {
     end
 }
 
+
+
+text RusturfTunnel_Text_MikeDefeat {
+    "Placeholder text for RusturfTunnel_Text_MikeDefeat"
+}
+
+text RusturfTunnel_Text_MikeIntro {
+    "Placeholder text for RusturfTunnel_Text_MikeIntro"
+}
+
+text RusturfTunnel_Text_MikePostBattle {
+    "Placeholder text for RusturfTunnel_Text_MikePostBattle"
+}

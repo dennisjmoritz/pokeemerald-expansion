@@ -2,14 +2,54 @@ mapscripts MtPyre_3F_MapScripts {
 }
 
 script MtPyre_3F_EventScript_Gabrielle {
-    end
+    trainerbattle_double(TRAINER_GABRIELLE, MtPyre_3F_Text_GabrielleIntro, MtPyre_3F_Text_GabrielleDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_3F_Text_GabriellePostBattle)
 }
 
 script MtPyre_3F_EventScript_Kayla {
-    end
+    trainerbattle_double(TRAINER_KAYLA, MtPyre_3F_Text_KaylaIntro, MtPyre_3F_Text_KaylaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_3F_Text_KaylaPostBattle)
 }
 
 script MtPyre_3F_EventScript_William {
-    end
+    trainerbattle_double(TRAINER_WILLIAM, MtPyre_3F_Text_WilliamIntro, MtPyre_3F_Text_WilliamDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtPyre_3F_Text_WilliamPostBattle)
 }
 
+
+
+text MtPyre_3F_Text_GabrielleDefeat {
+    "Placeholder text for MtPyre_3F_Text_GabrielleDefeat"
+}
+
+text MtPyre_3F_Text_GabrielleIntro {
+    "Placeholder text for MtPyre_3F_Text_GabrielleIntro"
+}
+
+text MtPyre_3F_Text_GabriellePostBattle {
+    "Placeholder text for MtPyre_3F_Text_GabriellePostBattle"
+}
+
+text MtPyre_3F_Text_KaylaDefeat {
+    "Placeholder text for MtPyre_3F_Text_KaylaDefeat"
+}
+
+text MtPyre_3F_Text_KaylaIntro {
+    "Placeholder text for MtPyre_3F_Text_KaylaIntro"
+}
+
+text MtPyre_3F_Text_KaylaPostBattle {
+    "Placeholder text for MtPyre_3F_Text_KaylaPostBattle"
+}
+
+text MtPyre_3F_Text_WilliamDefeat {
+    "Placeholder text for MtPyre_3F_Text_WilliamDefeat"
+}
+
+text MtPyre_3F_Text_WilliamIntro {
+    "Placeholder text for MtPyre_3F_Text_WilliamIntro"
+}
+
+text MtPyre_3F_Text_WilliamPostBattle {
+    "Placeholder text for MtPyre_3F_Text_WilliamPostBattle"
+}

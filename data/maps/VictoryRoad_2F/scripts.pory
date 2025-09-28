@@ -2,11 +2,13 @@ mapscripts VictoryRoad_2F_MapScripts {
 }
 
 script VictoryRoad_2F_EventScript_Daisuke {
-    end
+    trainerbattle_double(TRAINER_BLACK_BELT_DAISUKE, VictoryRoad_2F_Text_DaisukeIntro, VictoryRoad_2F_Text_DaisukeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_2F_Text_DaisukePostBattle)
 }
 
 script VictoryRoad_2F_EventScript_Dawson {
-    end
+    trainerbattle_double(TRAINER_POKEMANIAC_DAWSON, VictoryRoad_2F_Text_DawsonIntro, VictoryRoad_2F_Text_DawsonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_2F_Text_DawsonPostBattle)
 }
 
 script VictoryRoad_2F_EventScript_DoubleEdgeTutor {
@@ -22,7 +24,8 @@ script VictoryRoad_2F_EventScript_FloorSwitch2 {
 }
 
 script VictoryRoad_2F_EventScript_Gregory {
-    end
+    trainerbattle_double(TRAINER_JUGGLER_GREGORY, VictoryRoad_2F_Text_GregoryIntro, VictoryRoad_2F_Text_GregoryDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_2F_Text_GregoryPostBattle)
 }
 
 script VictoryRoad_2F_EventScript_ItemFullHeal {
@@ -42,10 +45,73 @@ script VictoryRoad_2F_EventScript_ItemTM37 {
 }
 
 script VictoryRoad_2F_EventScript_Nelson {
-    end
+    trainerbattle_double(TRAINER_JUGGLER_NELSON, VictoryRoad_2F_Text_NelsonIntro, VictoryRoad_2F_Text_NelsonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_2F_Text_NelsonPostBattle)
 }
 
 script VictoryRoad_2F_EventScript_Vincent {
-    end
+    trainerbattle_double(TRAINER_TAMER_VINCENT, VictoryRoad_2F_Text_VincentIntro, VictoryRoad_2F_Text_VincentDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(VictoryRoad_2F_Text_VincentPostBattle)
 }
 
+
+
+text VictoryRoad_2F_Text_DaisukeDefeat {
+    "Placeholder text for VictoryRoad_2F_Text_DaisukeDefeat"
+}
+
+text VictoryRoad_2F_Text_DaisukeIntro {
+    "Placeholder text for VictoryRoad_2F_Text_DaisukeIntro"
+}
+
+text VictoryRoad_2F_Text_DaisukePostBattle {
+    "Placeholder text for VictoryRoad_2F_Text_DaisukePostBattle"
+}
+
+text VictoryRoad_2F_Text_DawsonDefeat {
+    "Placeholder text for VictoryRoad_2F_Text_DawsonDefeat"
+}
+
+text VictoryRoad_2F_Text_DawsonIntro {
+    "Placeholder text for VictoryRoad_2F_Text_DawsonIntro"
+}
+
+text VictoryRoad_2F_Text_DawsonPostBattle {
+    "Placeholder text for VictoryRoad_2F_Text_DawsonPostBattle"
+}
+
+text VictoryRoad_2F_Text_GregoryDefeat {
+    "Placeholder text for VictoryRoad_2F_Text_GregoryDefeat"
+}
+
+text VictoryRoad_2F_Text_GregoryIntro {
+    "Placeholder text for VictoryRoad_2F_Text_GregoryIntro"
+}
+
+text VictoryRoad_2F_Text_GregoryPostBattle {
+    "Placeholder text for VictoryRoad_2F_Text_GregoryPostBattle"
+}
+
+text VictoryRoad_2F_Text_NelsonDefeat {
+    "Placeholder text for VictoryRoad_2F_Text_NelsonDefeat"
+}
+
+text VictoryRoad_2F_Text_NelsonIntro {
+    "Placeholder text for VictoryRoad_2F_Text_NelsonIntro"
+}
+
+text VictoryRoad_2F_Text_NelsonPostBattle {
+    "Placeholder text for VictoryRoad_2F_Text_NelsonPostBattle"
+}
+
+text VictoryRoad_2F_Text_VincentDefeat {
+    "Placeholder text for VictoryRoad_2F_Text_VincentDefeat"
+}
+
+text VictoryRoad_2F_Text_VincentIntro {
+    "Placeholder text for VictoryRoad_2F_Text_VincentIntro"
+}
+
+text VictoryRoad_2F_Text_VincentPostBattle {
+    "Placeholder text for VictoryRoad_2F_Text_VincentPostBattle"
+}

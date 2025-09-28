@@ -2,10 +2,24 @@ mapscripts SSAnne_B1F_Room3_MapScripts {
 }
 
 script SSAnne_B1F_Room3_EventScript_Dylan {
-    end
+    trainerbattle_double(TRAINER_SAILOR_DYLAN, SSAnne_B1F_Room3_Text_DylanIntro, SSAnne_B1F_Room3_Text_DylanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SSAnne_B1F_Room3_Text_DylanPostBattle)
 }
 
 script SSAnne_B1F_Room3_EventScript_ItemEther {
     end
 }
 
+
+
+text SSAnne_B1F_Room3_Text_DylanDefeat {
+    "Placeholder text for SSAnne_B1F_Room3_Text_DylanDefeat"
+}
+
+text SSAnne_B1F_Room3_Text_DylanIntro {
+    "Placeholder text for SSAnne_B1F_Room3_Text_DylanIntro"
+}
+
+text SSAnne_B1F_Room3_Text_DylanPostBattle {
+    "Placeholder text for SSAnne_B1F_Room3_Text_DylanPostBattle"
+}

@@ -2,19 +2,23 @@ mapscripts FortreeCity_Gym_MapScripts {
 }
 
 script FortreeCity_Gym_EventScript_Ashley {
-    end
+    trainerbattle_double(TRAINER_ASHLEY, FortreeCity_Gym_Text_AshleyIntro, FortreeCity_Gym_Text_AshleyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FortreeCity_Gym_Text_AshleyPostBattle)
 }
 
 script FortreeCity_Gym_EventScript_Darius {
-    end
+    trainerbattle_double(TRAINER_DARIUS, FortreeCity_Gym_Text_DariusIntro, FortreeCity_Gym_Text_DariusDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FortreeCity_Gym_Text_DariusPostBattle)
 }
 
 script FortreeCity_Gym_EventScript_Edwardo {
-    end
+    trainerbattle_double(TRAINER_EDWARDO, FortreeCity_Gym_Text_EdwardoIntro, FortreeCity_Gym_Text_EdwardoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FortreeCity_Gym_Text_EdwardoPostBattle)
 }
 
 script FortreeCity_Gym_EventScript_Flint {
-    end
+    trainerbattle_double(TRAINER_FLINT, FortreeCity_Gym_Text_FlintIntro, FortreeCity_Gym_Text_FlintDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FortreeCity_Gym_Text_FlintPostBattle)
 }
 
 script FortreeCity_Gym_EventScript_GymGuide {
@@ -22,11 +26,13 @@ script FortreeCity_Gym_EventScript_GymGuide {
 }
 
 script FortreeCity_Gym_EventScript_Humberto {
-    end
+    trainerbattle_double(TRAINER_HUMBERTO, FortreeCity_Gym_Text_HumbertoIntro, FortreeCity_Gym_Text_HumbertoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FortreeCity_Gym_Text_HumbertoPostBattle)
 }
 
 script FortreeCity_Gym_EventScript_Jared {
-    end
+    trainerbattle_double(TRAINER_JARED, FortreeCity_Gym_Text_JaredIntro, FortreeCity_Gym_Text_JaredDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(FortreeCity_Gym_Text_JaredPostBattle)
 }
 
 script FortreeCity_Gym_EventScript_LeftGymStatue {
@@ -47,3 +53,76 @@ script FortreeCity_Gym_EventScript_Winona {
     end
 }
 
+
+
+text FortreeCity_Gym_Text_AshleyDefeat {
+    "Placeholder text for FortreeCity_Gym_Text_AshleyDefeat"
+}
+
+text FortreeCity_Gym_Text_AshleyIntro {
+    "Placeholder text for FortreeCity_Gym_Text_AshleyIntro"
+}
+
+text FortreeCity_Gym_Text_AshleyPostBattle {
+    "Placeholder text for FortreeCity_Gym_Text_AshleyPostBattle"
+}
+
+text FortreeCity_Gym_Text_DariusDefeat {
+    "Placeholder text for FortreeCity_Gym_Text_DariusDefeat"
+}
+
+text FortreeCity_Gym_Text_DariusIntro {
+    "Placeholder text for FortreeCity_Gym_Text_DariusIntro"
+}
+
+text FortreeCity_Gym_Text_DariusPostBattle {
+    "Placeholder text for FortreeCity_Gym_Text_DariusPostBattle"
+}
+
+text FortreeCity_Gym_Text_EdwardoDefeat {
+    "Placeholder text for FortreeCity_Gym_Text_EdwardoDefeat"
+}
+
+text FortreeCity_Gym_Text_EdwardoIntro {
+    "Placeholder text for FortreeCity_Gym_Text_EdwardoIntro"
+}
+
+text FortreeCity_Gym_Text_EdwardoPostBattle {
+    "Placeholder text for FortreeCity_Gym_Text_EdwardoPostBattle"
+}
+
+text FortreeCity_Gym_Text_FlintDefeat {
+    "Placeholder text for FortreeCity_Gym_Text_FlintDefeat"
+}
+
+text FortreeCity_Gym_Text_FlintIntro {
+    "Placeholder text for FortreeCity_Gym_Text_FlintIntro"
+}
+
+text FortreeCity_Gym_Text_FlintPostBattle {
+    "Placeholder text for FortreeCity_Gym_Text_FlintPostBattle"
+}
+
+text FortreeCity_Gym_Text_HumbertoDefeat {
+    "Placeholder text for FortreeCity_Gym_Text_HumbertoDefeat"
+}
+
+text FortreeCity_Gym_Text_HumbertoIntro {
+    "Placeholder text for FortreeCity_Gym_Text_HumbertoIntro"
+}
+
+text FortreeCity_Gym_Text_HumbertoPostBattle {
+    "Placeholder text for FortreeCity_Gym_Text_HumbertoPostBattle"
+}
+
+text FortreeCity_Gym_Text_JaredDefeat {
+    "Placeholder text for FortreeCity_Gym_Text_JaredDefeat"
+}
+
+text FortreeCity_Gym_Text_JaredIntro {
+    "Placeholder text for FortreeCity_Gym_Text_JaredIntro"
+}
+
+text FortreeCity_Gym_Text_JaredPostBattle {
+    "Placeholder text for FortreeCity_Gym_Text_JaredPostBattle"
+}

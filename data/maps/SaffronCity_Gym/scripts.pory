@@ -2,11 +2,13 @@ mapscripts SaffronCity_Gym_MapScripts {
 }
 
 script SaffronCity_Gym_EventScript_Amanda {
-    end
+    trainerbattle_double(TRAINER_CHANNELER_AMANDA, SaffronCity_Gym_Text_AmandaIntro, SaffronCity_Gym_Text_AmandaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Gym_Text_AmandaPostBattle)
 }
 
 script SaffronCity_Gym_EventScript_Cameron {
-    end
+    trainerbattle_double(TRAINER_PSYCHIC_CAMERON, SaffronCity_Gym_Text_CameronIntro, SaffronCity_Gym_Text_CameronDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Gym_Text_CameronPostBattle)
 }
 
 script SaffronCity_Gym_EventScript_GymGuy {
@@ -22,11 +24,13 @@ script SaffronCity_Gym_EventScript_GymStatue {
 }
 
 script SaffronCity_Gym_EventScript_Johan {
-    end
+    trainerbattle_double(TRAINER_PSYCHIC_JOHAN, SaffronCity_Gym_Text_JohanIntro, SaffronCity_Gym_Text_JohanDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Gym_Text_JohanPostBattle)
 }
 
 script SaffronCity_Gym_EventScript_Preston {
-    end
+    trainerbattle_double(TRAINER_PSYCHIC_PRESTON, SaffronCity_Gym_Text_PrestonIntro, SaffronCity_Gym_Text_PrestonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Gym_Text_PrestonPostBattle)
 }
 
 script SaffronCity_Gym_EventScript_Sabrina {
@@ -34,18 +38,106 @@ script SaffronCity_Gym_EventScript_Sabrina {
 }
 
 script SaffronCity_Gym_EventScript_Stacy {
-    end
+    trainerbattle_double(TRAINER_CHANNELER_STACY, SaffronCity_Gym_Text_StacyIntro, SaffronCity_Gym_Text_StacyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Gym_Text_StacyPostBattle)
 }
 
 script SaffronCity_Gym_EventScript_Tasha {
-    end
+    trainerbattle_double(TRAINER_CHANNELER_TASHA, SaffronCity_Gym_Text_TashaIntro, SaffronCity_Gym_Text_TashaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Gym_Text_TashaPostBattle)
 }
 
 script SaffronCity_Gym_EventScript_Tyron {
-    end
+    trainerbattle_double(TRAINER_PSYCHIC_TYRON, SaffronCity_Gym_Text_TyronIntro, SaffronCity_Gym_Text_TyronDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SaffronCity_Gym_Text_TyronPostBattle)
 }
 
 
 text SaffronCity_Gym_Text_GymStatue {
     format("SAFFRON POKéMON GYM LEADER: SABRINA\p WINNING TRAINERS: {RIVAL}")
+}
+
+
+text SaffronCity_Gym_Text_AmandaDefeat {
+    "Placeholder text for SaffronCity_Gym_Text_AmandaDefeat"
+}
+
+text SaffronCity_Gym_Text_AmandaIntro {
+    "Placeholder text for SaffronCity_Gym_Text_AmandaIntro"
+}
+
+text SaffronCity_Gym_Text_AmandaPostBattle {
+    "Placeholder text for SaffronCity_Gym_Text_AmandaPostBattle"
+}
+
+text SaffronCity_Gym_Text_CameronDefeat {
+    "Placeholder text for SaffronCity_Gym_Text_CameronDefeat"
+}
+
+text SaffronCity_Gym_Text_CameronIntro {
+    "Placeholder text for SaffronCity_Gym_Text_CameronIntro"
+}
+
+text SaffronCity_Gym_Text_CameronPostBattle {
+    "Placeholder text for SaffronCity_Gym_Text_CameronPostBattle"
+}
+
+text SaffronCity_Gym_Text_JohanDefeat {
+    "Placeholder text for SaffronCity_Gym_Text_JohanDefeat"
+}
+
+text SaffronCity_Gym_Text_JohanIntro {
+    "Placeholder text for SaffronCity_Gym_Text_JohanIntro"
+}
+
+text SaffronCity_Gym_Text_JohanPostBattle {
+    "Placeholder text for SaffronCity_Gym_Text_JohanPostBattle"
+}
+
+text SaffronCity_Gym_Text_PrestonDefeat {
+    "Placeholder text for SaffronCity_Gym_Text_PrestonDefeat"
+}
+
+text SaffronCity_Gym_Text_PrestonIntro {
+    "Placeholder text for SaffronCity_Gym_Text_PrestonIntro"
+}
+
+text SaffronCity_Gym_Text_PrestonPostBattle {
+    "Placeholder text for SaffronCity_Gym_Text_PrestonPostBattle"
+}
+
+text SaffronCity_Gym_Text_StacyDefeat {
+    "Placeholder text for SaffronCity_Gym_Text_StacyDefeat"
+}
+
+text SaffronCity_Gym_Text_StacyIntro {
+    "Placeholder text for SaffronCity_Gym_Text_StacyIntro"
+}
+
+text SaffronCity_Gym_Text_StacyPostBattle {
+    "Placeholder text for SaffronCity_Gym_Text_StacyPostBattle"
+}
+
+text SaffronCity_Gym_Text_TashaDefeat {
+    "Placeholder text for SaffronCity_Gym_Text_TashaDefeat"
+}
+
+text SaffronCity_Gym_Text_TashaIntro {
+    "Placeholder text for SaffronCity_Gym_Text_TashaIntro"
+}
+
+text SaffronCity_Gym_Text_TashaPostBattle {
+    "Placeholder text for SaffronCity_Gym_Text_TashaPostBattle"
+}
+
+text SaffronCity_Gym_Text_TyronDefeat {
+    "Placeholder text for SaffronCity_Gym_Text_TyronDefeat"
+}
+
+text SaffronCity_Gym_Text_TyronIntro {
+    "Placeholder text for SaffronCity_Gym_Text_TyronIntro"
+}
+
+text SaffronCity_Gym_Text_TyronPostBattle {
+    "Placeholder text for SaffronCity_Gym_Text_TyronPostBattle"
 }

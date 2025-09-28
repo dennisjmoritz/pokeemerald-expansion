@@ -2,10 +2,37 @@ mapscripts SeafloorCavern_Room3_MapScripts {
 }
 
 script SeafloorCavern_Room3_EventScript_Grunt5 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_SEAFLOOR_CAVERN_5, SeafloorCavern_Room3_Text_Grunt5Intro, SeafloorCavern_Room3_Text_Grunt5Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SeafloorCavern_Room3_Text_Grunt5PostBattle)
 }
 
 script SeafloorCavern_Room3_EventScript_Shelly {
-    end
+    trainerbattle_double(TRAINER_SHELLY_SEAFLOOR_CAVERN, SeafloorCavern_Room3_Text_ShellyIntro, SeafloorCavern_Room3_Text_ShellyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SeafloorCavern_Room3_Text_ShellyPostBattle)
 }
 
+
+
+text SeafloorCavern_Room3_Text_Grunt5Defeat {
+    "Placeholder text for SeafloorCavern_Room3_Text_Grunt5Defeat"
+}
+
+text SeafloorCavern_Room3_Text_Grunt5Intro {
+    "Placeholder text for SeafloorCavern_Room3_Text_Grunt5Intro"
+}
+
+text SeafloorCavern_Room3_Text_Grunt5PostBattle {
+    "Placeholder text for SeafloorCavern_Room3_Text_Grunt5PostBattle"
+}
+
+text SeafloorCavern_Room3_Text_ShellyDefeat {
+    "Placeholder text for SeafloorCavern_Room3_Text_ShellyDefeat"
+}
+
+text SeafloorCavern_Room3_Text_ShellyIntro {
+    "Placeholder text for SeafloorCavern_Room3_Text_ShellyIntro"
+}
+
+text SeafloorCavern_Room3_Text_ShellyPostBattle {
+    "Placeholder text for SeafloorCavern_Room3_Text_ShellyPostBattle"
+}

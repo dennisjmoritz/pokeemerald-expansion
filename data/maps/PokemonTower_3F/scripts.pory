@@ -2,14 +2,54 @@ mapscripts PokemonTower_3F_MapScripts {
 }
 
 script PokemonTower_3F_EventScript_Carly {
-    end
+    trainerbattle_double(TRAINER_CHANNELER_CARLY, PokemonTower_3F_Text_CarlyIntro, PokemonTower_3F_Text_CarlyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonTower_3F_Text_CarlyPostBattle)
 }
 
 script PokemonTower_3F_EventScript_Hope {
-    end
+    trainerbattle_double(TRAINER_CHANNELER_HOPE, PokemonTower_3F_Text_HopeIntro, PokemonTower_3F_Text_HopeDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonTower_3F_Text_HopePostBattle)
 }
 
 script PokemonTower_3F_EventScript_Patricia {
-    end
+    trainerbattle_double(TRAINER_CHANNELER_PATRICIA, PokemonTower_3F_Text_PatriciaIntro, PokemonTower_3F_Text_PatriciaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonTower_3F_Text_PatriciaPostBattle)
 }
 
+
+
+text PokemonTower_3F_Text_CarlyDefeat {
+    "Placeholder text for PokemonTower_3F_Text_CarlyDefeat"
+}
+
+text PokemonTower_3F_Text_CarlyIntro {
+    "Placeholder text for PokemonTower_3F_Text_CarlyIntro"
+}
+
+text PokemonTower_3F_Text_CarlyPostBattle {
+    "Placeholder text for PokemonTower_3F_Text_CarlyPostBattle"
+}
+
+text PokemonTower_3F_Text_HopeDefeat {
+    "Placeholder text for PokemonTower_3F_Text_HopeDefeat"
+}
+
+text PokemonTower_3F_Text_HopeIntro {
+    "Placeholder text for PokemonTower_3F_Text_HopeIntro"
+}
+
+text PokemonTower_3F_Text_HopePostBattle {
+    "Placeholder text for PokemonTower_3F_Text_HopePostBattle"
+}
+
+text PokemonTower_3F_Text_PatriciaDefeat {
+    "Placeholder text for PokemonTower_3F_Text_PatriciaDefeat"
+}
+
+text PokemonTower_3F_Text_PatriciaIntro {
+    "Placeholder text for PokemonTower_3F_Text_PatriciaIntro"
+}
+
+text PokemonTower_3F_Text_PatriciaPostBattle {
+    "Placeholder text for PokemonTower_3F_Text_PatriciaPostBattle"
+}

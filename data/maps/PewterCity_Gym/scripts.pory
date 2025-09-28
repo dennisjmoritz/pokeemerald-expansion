@@ -18,10 +18,24 @@ script PewterCity_Gym_EventScript_GymStatue {
 }
 
 script PewterCity_Gym_EventScript_Liam {
-    end
+    trainerbattle_double(TRAINER_CAMPER_LIAM, PewterCity_Gym_Text_LiamIntro, PewterCity_Gym_Text_LiamDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PewterCity_Gym_Text_LiamPostBattle)
 }
 
 
 text PewterCity_Gym_Text_GymStatue {
     format("PEWTER POKéMON GYM LEADER: BROCK\p WINNING TRAINERS: {RIVAL}")
+}
+
+
+text PewterCity_Gym_Text_LiamDefeat {
+    "Placeholder text for PewterCity_Gym_Text_LiamDefeat"
+}
+
+text PewterCity_Gym_Text_LiamIntro {
+    "Placeholder text for PewterCity_Gym_Text_LiamIntro"
+}
+
+text PewterCity_Gym_Text_LiamPostBattle {
+    "Placeholder text for PewterCity_Gym_Text_LiamPostBattle"
 }

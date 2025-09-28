@@ -38,7 +38,8 @@ script CeladonCity_GameCorner_EventScript_Poster {
 }
 
 script CeladonCity_GameCorner_EventScript_RocketGrunt {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_7, CeladonCity_GameCorner_Text_GruntIntro, CeladonCity_GameCorner_Text_GruntDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CeladonCity_GameCorner_Text_GruntPostBattle)
 }
 
 script CeladonCity_GameCorner_EventScript_Scientist {
@@ -215,4 +216,17 @@ text CeladonCity_GameCorner_Text_SomeonesKeys {
 
 text CeladonCity_GameCorner_Text_OutToLunch {
     format("OUT TO LUNCH This is reserved.")
+}
+
+
+text CeladonCity_GameCorner_Text_GruntDefeat {
+    "Placeholder text for CeladonCity_GameCorner_Text_GruntDefeat"
+}
+
+text CeladonCity_GameCorner_Text_GruntIntro {
+    "Placeholder text for CeladonCity_GameCorner_Text_GruntIntro"
+}
+
+text CeladonCity_GameCorner_Text_GruntPostBattle {
+    "Placeholder text for CeladonCity_GameCorner_Text_GruntPostBattle"
 }

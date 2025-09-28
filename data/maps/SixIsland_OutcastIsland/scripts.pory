@@ -2,6 +2,20 @@ mapscripts SixIsland_OutcastIsland_MapScripts {
 }
 
 script SixIsland_OutcastIsland_EventScript_Rocket {
-    end
+    trainerbattle_double(TRAINER_TEAM_ROCKET_GRUNT_46, SixIsland_OutcastIsland_Text_RocketIntro, SixIsland_OutcastIsland_Text_RocketDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(SixIsland_OutcastIsland_Text_RocketPostBattle)
 }
 
+
+
+text SixIsland_OutcastIsland_Text_RocketDefeat {
+    "Placeholder text for SixIsland_OutcastIsland_Text_RocketDefeat"
+}
+
+text SixIsland_OutcastIsland_Text_RocketIntro {
+    "Placeholder text for SixIsland_OutcastIsland_Text_RocketIntro"
+}
+
+text SixIsland_OutcastIsland_Text_RocketPostBattle {
+    "Placeholder text for SixIsland_OutcastIsland_Text_RocketPostBattle"
+}

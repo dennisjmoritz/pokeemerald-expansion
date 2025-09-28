@@ -2,7 +2,8 @@ mapscripts CinnabarIsland_Gym_MapScripts {
 }
 
 script CinnabarIsland_Gym_EventScript_Avery {
-    end
+    trainerbattle_double(TRAINER_SUPER_NERD_AVERY, CinnabarIsland_Gym_Text_AveryIntro, CinnabarIsland_Gym_Text_AveryDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CinnabarIsland_Gym_Text_AveryPostBattle)
 }
 
 script CinnabarIsland_Gym_EventScript_Blaine {
@@ -10,15 +11,18 @@ script CinnabarIsland_Gym_EventScript_Blaine {
 }
 
 script CinnabarIsland_Gym_EventScript_Derek {
-    end
+    trainerbattle_double(TRAINER_SUPER_NERD_DEREK, CinnabarIsland_Gym_Text_DerekIntro, CinnabarIsland_Gym_Text_DerekDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CinnabarIsland_Gym_Text_DerekPostBattle)
 }
 
 script CinnabarIsland_Gym_EventScript_Dusty {
-    end
+    trainerbattle_double(TRAINER_BURGLAR_DUSTY, CinnabarIsland_Gym_Text_DustyIntro, CinnabarIsland_Gym_Text_DustyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CinnabarIsland_Gym_Text_DustyPostBattle)
 }
 
 script CinnabarIsland_Gym_EventScript_Erik {
-    end
+    trainerbattle_double(TRAINER_SUPER_NERD_ERIK, CinnabarIsland_Gym_Text_ErikIntro, CinnabarIsland_Gym_Text_ErikDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CinnabarIsland_Gym_Text_ErikPostBattle)
 }
 
 script CinnabarIsland_Gym_EventScript_GymGuy {
@@ -34,7 +38,8 @@ script CinnabarIsland_Gym_EventScript_GymStatue {
 }
 
 script CinnabarIsland_Gym_EventScript_Quinn {
-    end
+    trainerbattle_double(TRAINER_BURGLAR_QUINN, CinnabarIsland_Gym_Text_QuinnIntro, CinnabarIsland_Gym_Text_QuinnDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CinnabarIsland_Gym_Text_QuinnPostBattle)
 }
 
 script CinnabarIsland_Gym_EventScript_Quiz2Left {
@@ -122,13 +127,100 @@ script CinnabarIsland_Gym_EventScript_Quz1Right {
 }
 
 script CinnabarIsland_Gym_EventScript_Ramon {
-    end
+    trainerbattle_double(TRAINER_BURGLAR_RAMON, CinnabarIsland_Gym_Text_RamonIntro, CinnabarIsland_Gym_Text_RamonDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CinnabarIsland_Gym_Text_RamonPostBattle)
 }
 
 script CinnabarIsland_Gym_EventScript_Zac {
-    end
+    trainerbattle_double(TRAINER_SUPER_NERD_ZAC, CinnabarIsland_Gym_Text_ZacIntro, CinnabarIsland_Gym_Text_ZacDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(CinnabarIsland_Gym_Text_ZacPostBattle)
 }
 
 text CinnabarIsland_Gym_Text_GymStatue {
     format("CINNABAR POKéMON GYM LEADER: BLAINE\p WINNING TRAINERS: {RIVAL}")
+}
+
+
+text CinnabarIsland_Gym_Text_AveryDefeat {
+    "Placeholder text for CinnabarIsland_Gym_Text_AveryDefeat"
+}
+
+text CinnabarIsland_Gym_Text_AveryIntro {
+    "Placeholder text for CinnabarIsland_Gym_Text_AveryIntro"
+}
+
+text CinnabarIsland_Gym_Text_AveryPostBattle {
+    "Placeholder text for CinnabarIsland_Gym_Text_AveryPostBattle"
+}
+
+text CinnabarIsland_Gym_Text_DerekDefeat {
+    "Placeholder text for CinnabarIsland_Gym_Text_DerekDefeat"
+}
+
+text CinnabarIsland_Gym_Text_DerekIntro {
+    "Placeholder text for CinnabarIsland_Gym_Text_DerekIntro"
+}
+
+text CinnabarIsland_Gym_Text_DerekPostBattle {
+    "Placeholder text for CinnabarIsland_Gym_Text_DerekPostBattle"
+}
+
+text CinnabarIsland_Gym_Text_DustyDefeat {
+    "Placeholder text for CinnabarIsland_Gym_Text_DustyDefeat"
+}
+
+text CinnabarIsland_Gym_Text_DustyIntro {
+    "Placeholder text for CinnabarIsland_Gym_Text_DustyIntro"
+}
+
+text CinnabarIsland_Gym_Text_DustyPostBattle {
+    "Placeholder text for CinnabarIsland_Gym_Text_DustyPostBattle"
+}
+
+text CinnabarIsland_Gym_Text_ErikDefeat {
+    "Placeholder text for CinnabarIsland_Gym_Text_ErikDefeat"
+}
+
+text CinnabarIsland_Gym_Text_ErikIntro {
+    "Placeholder text for CinnabarIsland_Gym_Text_ErikIntro"
+}
+
+text CinnabarIsland_Gym_Text_ErikPostBattle {
+    "Placeholder text for CinnabarIsland_Gym_Text_ErikPostBattle"
+}
+
+text CinnabarIsland_Gym_Text_QuinnDefeat {
+    "Placeholder text for CinnabarIsland_Gym_Text_QuinnDefeat"
+}
+
+text CinnabarIsland_Gym_Text_QuinnIntro {
+    "Placeholder text for CinnabarIsland_Gym_Text_QuinnIntro"
+}
+
+text CinnabarIsland_Gym_Text_QuinnPostBattle {
+    "Placeholder text for CinnabarIsland_Gym_Text_QuinnPostBattle"
+}
+
+text CinnabarIsland_Gym_Text_RamonDefeat {
+    "Placeholder text for CinnabarIsland_Gym_Text_RamonDefeat"
+}
+
+text CinnabarIsland_Gym_Text_RamonIntro {
+    "Placeholder text for CinnabarIsland_Gym_Text_RamonIntro"
+}
+
+text CinnabarIsland_Gym_Text_RamonPostBattle {
+    "Placeholder text for CinnabarIsland_Gym_Text_RamonPostBattle"
+}
+
+text CinnabarIsland_Gym_Text_ZacDefeat {
+    "Placeholder text for CinnabarIsland_Gym_Text_ZacDefeat"
+}
+
+text CinnabarIsland_Gym_Text_ZacIntro {
+    "Placeholder text for CinnabarIsland_Gym_Text_ZacIntro"
+}
+
+text CinnabarIsland_Gym_Text_ZacPostBattle {
+    "Placeholder text for CinnabarIsland_Gym_Text_ZacPostBattle"
 }

@@ -6,11 +6,13 @@ script DewfordTown_Gym_EventScript_Brawly {
 }
 
 script DewfordTown_Gym_EventScript_Brenden {
-    end
+    trainerbattle_double(TRAINER_BRENDEN, DewfordTown_Gym_Text_BrendenIntro, DewfordTown_Gym_Text_BrendenDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(DewfordTown_Gym_Text_BrendenPostBattle)
 }
 
 script DewfordTown_Gym_EventScript_Cristian {
-    end
+    trainerbattle_double(TRAINER_CRISTIAN, DewfordTown_Gym_Text_CristianIntro, DewfordTown_Gym_Text_CristianDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(DewfordTown_Gym_Text_CristianPostBattle)
 }
 
 script DewfordTown_Gym_EventScript_GymGuide {
@@ -18,11 +20,13 @@ script DewfordTown_Gym_EventScript_GymGuide {
 }
 
 script DewfordTown_Gym_EventScript_Jocelyn {
-    end
+    trainerbattle_double(TRAINER_JOCELYN, DewfordTown_Gym_Text_JocelynIntro, DewfordTown_Gym_Text_JocelynDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(DewfordTown_Gym_Text_JocelynPostBattle)
 }
 
 script DewfordTown_Gym_EventScript_Laura {
-    end
+    trainerbattle_double(TRAINER_LAURA, DewfordTown_Gym_Text_LauraIntro, DewfordTown_Gym_Text_LauraDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(DewfordTown_Gym_Text_LauraPostBattle)
 }
 
 script DewfordTown_Gym_EventScript_LeftGymStatue {
@@ -33,7 +37,8 @@ script DewfordTown_Gym_EventScript_LeftGymStatue {
 }
 
 script DewfordTown_Gym_EventScript_Lilith {
-    end
+    trainerbattle_double(TRAINER_LILITH, DewfordTown_Gym_Text_LilithIntro, DewfordTown_Gym_Text_LilithDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(DewfordTown_Gym_Text_LilithPostBattle)
 }
 
 script DewfordTown_Gym_EventScript_RightGymStatue {
@@ -44,6 +49,80 @@ script DewfordTown_Gym_EventScript_RightGymStatue {
 }
 
 script DewfordTown_Gym_EventScript_Takao {
-    end
+    trainerbattle_double(TRAINER_TAKAO, DewfordTown_Gym_Text_TakaoIntro, DewfordTown_Gym_Text_TakaoDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(DewfordTown_Gym_Text_TakaoPostBattle)
 }
 
+
+
+text DewfordTown_Gym_Text_BrendenDefeat {
+    "Placeholder text for DewfordTown_Gym_Text_BrendenDefeat"
+}
+
+text DewfordTown_Gym_Text_BrendenIntro {
+    "Placeholder text for DewfordTown_Gym_Text_BrendenIntro"
+}
+
+text DewfordTown_Gym_Text_BrendenPostBattle {
+    "Placeholder text for DewfordTown_Gym_Text_BrendenPostBattle"
+}
+
+text DewfordTown_Gym_Text_CristianDefeat {
+    "Placeholder text for DewfordTown_Gym_Text_CristianDefeat"
+}
+
+text DewfordTown_Gym_Text_CristianIntro {
+    "Placeholder text for DewfordTown_Gym_Text_CristianIntro"
+}
+
+text DewfordTown_Gym_Text_CristianPostBattle {
+    "Placeholder text for DewfordTown_Gym_Text_CristianPostBattle"
+}
+
+text DewfordTown_Gym_Text_JocelynDefeat {
+    "Placeholder text for DewfordTown_Gym_Text_JocelynDefeat"
+}
+
+text DewfordTown_Gym_Text_JocelynIntro {
+    "Placeholder text for DewfordTown_Gym_Text_JocelynIntro"
+}
+
+text DewfordTown_Gym_Text_JocelynPostBattle {
+    "Placeholder text for DewfordTown_Gym_Text_JocelynPostBattle"
+}
+
+text DewfordTown_Gym_Text_LauraDefeat {
+    "Placeholder text for DewfordTown_Gym_Text_LauraDefeat"
+}
+
+text DewfordTown_Gym_Text_LauraIntro {
+    "Placeholder text for DewfordTown_Gym_Text_LauraIntro"
+}
+
+text DewfordTown_Gym_Text_LauraPostBattle {
+    "Placeholder text for DewfordTown_Gym_Text_LauraPostBattle"
+}
+
+text DewfordTown_Gym_Text_LilithDefeat {
+    "Placeholder text for DewfordTown_Gym_Text_LilithDefeat"
+}
+
+text DewfordTown_Gym_Text_LilithIntro {
+    "Placeholder text for DewfordTown_Gym_Text_LilithIntro"
+}
+
+text DewfordTown_Gym_Text_LilithPostBattle {
+    "Placeholder text for DewfordTown_Gym_Text_LilithPostBattle"
+}
+
+text DewfordTown_Gym_Text_TakaoDefeat {
+    "Placeholder text for DewfordTown_Gym_Text_TakaoDefeat"
+}
+
+text DewfordTown_Gym_Text_TakaoIntro {
+    "Placeholder text for DewfordTown_Gym_Text_TakaoIntro"
+}
+
+text DewfordTown_Gym_Text_TakaoPostBattle {
+    "Placeholder text for DewfordTown_Gym_Text_TakaoPostBattle"
+}

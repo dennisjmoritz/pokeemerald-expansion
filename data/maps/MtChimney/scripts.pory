@@ -46,11 +46,13 @@ script MtChimney_EventScript_BusyMagmaGrunt6 {
 }
 
 script MtChimney_EventScript_Grunt1 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MT_CHIMNEY, MtChimney_Text_Grunt1Intro, MtChimney_Text_Grunt1Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtChimney_Text_Grunt1PostBattle)
 }
 
 script MtChimney_EventScript_Grunt2 {
-    end
+    trainerbattle_double(TRAINER_GRUNT_MT_CHIMNEY_2, MtChimney_Text_Grunt2Intro, MtChimney_Text_Grunt2Defeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtChimney_Text_Grunt2PostBattle)
 }
 
 script MtChimney_EventScript_LavaCookieLady {
@@ -66,7 +68,8 @@ script MtChimney_EventScript_Maxie {
 }
 
 script MtChimney_EventScript_Melissa {
-    end
+    trainerbattle_double(TRAINER_MELISSA, MtChimney_Text_MelissaIntro, MtChimney_Text_MelissaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtChimney_Text_MelissaPostBattle)
 }
 
 script MtChimney_EventScript_MeteoriteMachine {
@@ -89,23 +92,28 @@ script MtChimney_EventScript_RouteSign {
 }
 
 script MtChimney_EventScript_Sawyer {
-    end
+    trainerbattle_double(TRAINER_SAWYER, MtChimney_Text_SawyerIntro, MtChimney_Text_SawyerDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtChimney_Text_SawyerPostBattle)
 }
 
 script MtChimney_EventScript_Sheila {
-    end
+    trainerbattle_double(TRAINER_SHEILA, MtChimney_Text_SheilaIntro, MtChimney_Text_SheilaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtChimney_Text_SheilaPostBattle)
 }
 
 script MtChimney_EventScript_Shelby {
-    end
+    trainerbattle_double(TRAINER_SHELBY, MtChimney_Text_ShelbyIntro, MtChimney_Text_ShelbyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtChimney_Text_ShelbyPostBattle)
 }
 
 script MtChimney_EventScript_Shirley {
-    end
+    trainerbattle_double(TRAINER_SHIRLEY, MtChimney_Text_ShirleyIntro, MtChimney_Text_ShirleyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtChimney_Text_ShirleyPostBattle)
 }
 
 script MtChimney_EventScript_Tabitha {
-    end
+    trainerbattle_double(TRAINER_TABITHA_MT_CHIMNEY, MtChimney_Text_TabithaIntro, MtChimney_Text_TabithaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(MtChimney_Text_TabithaPostBattle)
 }
 
 
@@ -119,4 +127,101 @@ text MtChimney_Text_RemoveTheMeteorite {
 
 text MtChimney_Text_RouteSign {
     format("{DOWN_ARROW} JAGGED PATH LAVARIDGE TOWN AHEAD")
+}
+
+
+text MtChimney_Text_Grunt1Defeat {
+    "Placeholder text for MtChimney_Text_Grunt1Defeat"
+}
+
+text MtChimney_Text_Grunt1Intro {
+    "Placeholder text for MtChimney_Text_Grunt1Intro"
+}
+
+text MtChimney_Text_Grunt1PostBattle {
+    "Placeholder text for MtChimney_Text_Grunt1PostBattle"
+}
+
+text MtChimney_Text_Grunt2Defeat {
+    "Placeholder text for MtChimney_Text_Grunt2Defeat"
+}
+
+text MtChimney_Text_Grunt2Intro {
+    "Placeholder text for MtChimney_Text_Grunt2Intro"
+}
+
+text MtChimney_Text_Grunt2PostBattle {
+    "Placeholder text for MtChimney_Text_Grunt2PostBattle"
+}
+
+text MtChimney_Text_MelissaDefeat {
+    "Placeholder text for MtChimney_Text_MelissaDefeat"
+}
+
+text MtChimney_Text_MelissaIntro {
+    "Placeholder text for MtChimney_Text_MelissaIntro"
+}
+
+text MtChimney_Text_MelissaPostBattle {
+    "Placeholder text for MtChimney_Text_MelissaPostBattle"
+}
+
+text MtChimney_Text_SawyerDefeat {
+    "Placeholder text for MtChimney_Text_SawyerDefeat"
+}
+
+text MtChimney_Text_SawyerIntro {
+    "Placeholder text for MtChimney_Text_SawyerIntro"
+}
+
+text MtChimney_Text_SawyerPostBattle {
+    "Placeholder text for MtChimney_Text_SawyerPostBattle"
+}
+
+text MtChimney_Text_SheilaDefeat {
+    "Placeholder text for MtChimney_Text_SheilaDefeat"
+}
+
+text MtChimney_Text_SheilaIntro {
+    "Placeholder text for MtChimney_Text_SheilaIntro"
+}
+
+text MtChimney_Text_SheilaPostBattle {
+    "Placeholder text for MtChimney_Text_SheilaPostBattle"
+}
+
+text MtChimney_Text_ShelbyDefeat {
+    "Placeholder text for MtChimney_Text_ShelbyDefeat"
+}
+
+text MtChimney_Text_ShelbyIntro {
+    "Placeholder text for MtChimney_Text_ShelbyIntro"
+}
+
+text MtChimney_Text_ShelbyPostBattle {
+    "Placeholder text for MtChimney_Text_ShelbyPostBattle"
+}
+
+text MtChimney_Text_ShirleyDefeat {
+    "Placeholder text for MtChimney_Text_ShirleyDefeat"
+}
+
+text MtChimney_Text_ShirleyIntro {
+    "Placeholder text for MtChimney_Text_ShirleyIntro"
+}
+
+text MtChimney_Text_ShirleyPostBattle {
+    "Placeholder text for MtChimney_Text_ShirleyPostBattle"
+}
+
+text MtChimney_Text_TabithaDefeat {
+    "Placeholder text for MtChimney_Text_TabithaDefeat"
+}
+
+text MtChimney_Text_TabithaIntro {
+    "Placeholder text for MtChimney_Text_TabithaIntro"
+}
+
+text MtChimney_Text_TabithaPostBattle {
+    "Placeholder text for MtChimney_Text_TabithaPostBattle"
 }

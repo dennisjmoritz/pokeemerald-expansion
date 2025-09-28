@@ -2,14 +2,54 @@ mapscripts PokemonTower_4F_MapScripts {
 }
 
 script PokemonTower_4F_EventScript_Jody {
-    end
+    trainerbattle_double(TRAINER_CHANNELER_JODY, PokemonTower_4F_Text_JodyIntro, PokemonTower_4F_Text_JodyDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonTower_4F_Text_JodyPostBattle)
 }
 
 script PokemonTower_4F_EventScript_Laurel {
-    end
+    trainerbattle_double(TRAINER_CHANNELER_LAUREL, PokemonTower_4F_Text_LaurelIntro, PokemonTower_4F_Text_LaurelDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonTower_4F_Text_LaurelPostBattle)
 }
 
 script PokemonTower_4F_EventScript_Paula {
-    end
+    trainerbattle_double(TRAINER_CHANNELER_PAULA, PokemonTower_4F_Text_PaulaIntro, PokemonTower_4F_Text_PaulaDefeat, Text_NotEnoughMonsForDoubleBattle)
+    msgbox(PokemonTower_4F_Text_PaulaPostBattle)
 }
 
+
+
+text PokemonTower_4F_Text_JodyDefeat {
+    "Placeholder text for PokemonTower_4F_Text_JodyDefeat"
+}
+
+text PokemonTower_4F_Text_JodyIntro {
+    "Placeholder text for PokemonTower_4F_Text_JodyIntro"
+}
+
+text PokemonTower_4F_Text_JodyPostBattle {
+    "Placeholder text for PokemonTower_4F_Text_JodyPostBattle"
+}
+
+text PokemonTower_4F_Text_LaurelDefeat {
+    "Placeholder text for PokemonTower_4F_Text_LaurelDefeat"
+}
+
+text PokemonTower_4F_Text_LaurelIntro {
+    "Placeholder text for PokemonTower_4F_Text_LaurelIntro"
+}
+
+text PokemonTower_4F_Text_LaurelPostBattle {
+    "Placeholder text for PokemonTower_4F_Text_LaurelPostBattle"
+}
+
+text PokemonTower_4F_Text_PaulaDefeat {
+    "Placeholder text for PokemonTower_4F_Text_PaulaDefeat"
+}
+
+text PokemonTower_4F_Text_PaulaIntro {
+    "Placeholder text for PokemonTower_4F_Text_PaulaIntro"
+}
+
+text PokemonTower_4F_Text_PaulaPostBattle {
+    "Placeholder text for PokemonTower_4F_Text_PaulaPostBattle"
+}
