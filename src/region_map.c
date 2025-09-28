@@ -1581,6 +1581,15 @@ u8 *GetMapName(u8 *dest, u16 regionMapId, u16 padLength)
     }
     else if (regionMapId < MAPSEC_NONE)
     {
+        // Check if the name is empty and handle it like MAPSEC_NONE
+        if (gRegionMapEntries[regionMapId].name[0] == EOS)
+        {
+            if (padLength == 0)
+            {
+                padLength = 18;
+            }
+            return StringFill(dest, CHAR_SPACE, padLength);
+        }
         str = StringCopy(dest, gRegionMapEntries[regionMapId].name);
     }
     else
