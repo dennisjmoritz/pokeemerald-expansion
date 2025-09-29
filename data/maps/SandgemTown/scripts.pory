@@ -1,3 +1,21 @@
 mapscripts SandgemTown_MapScripts {
 }
 
+script SandgemTown_EventScript_Sign1 {
+    msgbox(SandgemTown_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text SandgemTown_Text_Sign1 {
+    format("SandgemTown Sign 1")
+}
+
+script SandgemTown_EventScript_Sign2 {
+    msgbox(SandgemTown_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text SandgemTown_Text_Sign2 {
+    format("SandgemTown Sign 2")
+}
+

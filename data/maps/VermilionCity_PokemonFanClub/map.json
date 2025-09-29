@@ -12,10 +12,9 @@
   "allow_running": false,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
       "x": 5,
       "y": 4,
@@ -29,7 +28,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WORKER_F",
       "x": 6,
       "y": 4,
@@ -43,7 +41,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PIKACHU",
       "x": 7,
       "y": 6,
@@ -57,7 +54,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(SEEL)",
       "x": 4,
       "y": 6,
@@ -72,7 +68,6 @@
     },
     {
       "local_id": "LOCALID_POKEMON_FAN_CLUB_WOMAN",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
       "x": 4,
       "y": 5,
@@ -87,7 +82,6 @@
     },
     {
       "local_id": "LOCALID_POKEMON_FAN_CLUB_FAT_MAN",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
       "x": 7,
       "y": 5,
@@ -107,7 +101,7 @@
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_VERMILION_CITY",
-      "dest_warp_id": 5
+      "dest_warp_id": "5"
     }
   ],
   "coord_events": [],

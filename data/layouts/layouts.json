@@ -4697,7 +4697,7 @@
       "width": 34,
       "height": 32,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Sinnoh_Petalburg",
       "border_filepath": "data/layouts/SandgemTown/border.bin",
       "blockdata_filepath": "data/layouts/SandgemTown/map.bin"
     },

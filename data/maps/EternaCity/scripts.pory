@@ -1,3 +1,20 @@
 mapscripts EternaCity_MapScripts {
 }
 
+script EternaCity_EventScript_Sign1 {
+    msgbox(EternaCity_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+script EternaCity_EventScript_Sign2 {
+    msgbox(EternaCity_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text EternaCity_Text_Sign1 {
+    format("EternaCity Sign 1")
+}
+
+text EternaCity_Text_Sign2 {
+    format("EternaCity Sign 2")
+}

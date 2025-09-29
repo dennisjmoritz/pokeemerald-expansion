@@ -41,8 +41,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-      "script_comment": "ViridianCity_EventScript_DreamEaterTutor",
-      "flag": "0"
+      "flag": "0",
+      "script_comment": "ViridianCity_EventScript_DreamEaterTutor"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
@@ -150,8 +150,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Common_EventScript_ShowBagIsFull",
-      "script_comment": "ViridianCity_EventScript_ItemPotion",
-      "flag": "0"
+      "flag": "0",
+      "script_comment": "ViridianCity_EventScript_ItemPotion"
     }
   ],
   "warp_events": [
