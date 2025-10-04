@@ -1,3 +1,20 @@
 mapscripts WhirlIslands_B4F_MapScripts {
 }
 
+script WhirlIslands_B4F_EventScript_SmithNPC1 {
+    msgbox(WhirlIslands_B4F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text WhirlIslands_B4F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script WhirlIslands_B4F_EventScript_SmithNPC2 {
+    msgbox(WhirlIslands_B4F_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text WhirlIslands_B4F_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}

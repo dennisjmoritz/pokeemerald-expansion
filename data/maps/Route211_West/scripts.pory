@@ -10,3 +10,66 @@ script Route211_West_EventScript_Sign1 {
 text Route211_West_Text_Sign1 {
     format("Route211_West Sign 1")
 }
+
+script Route211_West_EventScript_SmithNPC1 {
+    msgbox(Route211_West_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text Route211_West_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script Route211_West_EventScript_SmithNPC2 {
+    msgbox(Route211_West_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text Route211_West_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script Route211_West_EventScript_SmithNPC3 {
+    msgbox(Route211_West_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text Route211_West_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script Route211_West_EventScript_SmithNPC4 {
+    msgbox(Route211_West_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text Route211_West_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}
+
+script Route211_West_EventScript_SmithNPC5 {
+    msgbox(Route211_West_Text_SmithNPC5, MSGBOX_NPC)
+    end
+}
+
+text Route211_West_Text_SmithNPC5 {
+    format("We're not here because we're free; we're here because we're not free.$")
+}
+
+script Route211_West_EventScript_SmithNPC6 {
+    msgbox(Route211_West_Text_SmithNPC6, MSGBOX_NPC)
+    end
+}
+
+text Route211_West_Text_SmithNPC6 {
+    format("It's the question that drives us, Neo.$")
+}
+
+script Route211_West_EventScript_SmithNPC7 {
+    msgbox(Route211_West_Text_SmithNPC7, MSGBOX_NPC)
+    end
+}
+
+text Route211_West_Text_SmithNPC7 {
+    format("Unfortunately, no one can be told what the Matrix is.$")
+}

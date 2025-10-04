@@ -1,3 +1,11 @@
 mapscripts NationalPark_GatehouseEast_MapScripts {
 }
 
+script NationalPark_GatehouseEast_EventScript_SmithNPC1 {
+    msgbox(NationalPark_GatehouseEast_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text NationalPark_GatehouseEast_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}

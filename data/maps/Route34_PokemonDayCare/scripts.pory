@@ -1,3 +1,38 @@
 mapscripts Route34_PokemonDayCare_MapScripts {
 }
 
+script Route34_PokemonDayCare_EventScript_SmithNPC1 {
+    msgbox(Route34_PokemonDayCare_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text Route34_PokemonDayCare_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script Route34_PokemonDayCare_EventScript_SmithNPC2 {
+    msgbox(Route34_PokemonDayCare_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text Route34_PokemonDayCare_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script Route34_PokemonDayCare_EventScript_SmithNPC3 {
+    msgbox(Route34_PokemonDayCare_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text Route34_PokemonDayCare_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script Route34_PokemonDayCare_EventScript_SmithNPC4 {
+    msgbox(Route34_PokemonDayCare_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text Route34_PokemonDayCare_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}

@@ -9,3 +9,11 @@ script PalletTown_PlayersHouse_1F_EventScript_TV {
     end
 }
 
+script PalletTown_PlayersHouse_1F_EventScript_SmithNPC1 {
+    msgbox(PalletTown_PlayersHouse_1F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text PalletTown_PlayersHouse_1F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}

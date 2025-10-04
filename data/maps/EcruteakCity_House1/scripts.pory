@@ -1,3 +1,11 @@
 mapscripts EcruteakCity_House1_MapScripts {
 }
 
+script EcruteakCity_House1_EventScript_SmithNPC1 {
+    msgbox(EcruteakCity_House1_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text EcruteakCity_House1_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}

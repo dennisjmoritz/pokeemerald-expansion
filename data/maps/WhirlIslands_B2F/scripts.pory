@@ -1,3 +1,83 @@
 mapscripts WhirlIslands_B2F_MapScripts {
 }
 
+script WhirlIslands_B2F_EventScript_SmithNPC1 {
+    msgbox(WhirlIslands_B2F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text WhirlIslands_B2F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script WhirlIslands_B2F_EventScript_SmithNPC2 {
+    msgbox(WhirlIslands_B2F_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text WhirlIslands_B2F_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script WhirlIslands_B2F_EventScript_SmithNPC3 {
+    msgbox(WhirlIslands_B2F_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text WhirlIslands_B2F_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script WhirlIslands_B2F_EventScript_SmithNPC4 {
+    msgbox(WhirlIslands_B2F_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text WhirlIslands_B2F_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}
+
+script WhirlIslands_B2F_EventScript_SmithNPC5 {
+    msgbox(WhirlIslands_B2F_Text_SmithNPC5, MSGBOX_NPC)
+    end
+}
+
+text WhirlIslands_B2F_Text_SmithNPC5 {
+    format("We're not here because we're free; we're here because we're not free.$")
+}
+
+script WhirlIslands_B2F_EventScript_SmithNPC6 {
+    msgbox(WhirlIslands_B2F_Text_SmithNPC6, MSGBOX_NPC)
+    end
+}
+
+text WhirlIslands_B2F_Text_SmithNPC6 {
+    format("It's the question that drives us, Neo.$")
+}
+
+script WhirlIslands_B2F_EventScript_SmithNPC7 {
+    msgbox(WhirlIslands_B2F_Text_SmithNPC7, MSGBOX_NPC)
+    end
+}
+
+text WhirlIslands_B2F_Text_SmithNPC7 {
+    format("Unfortunately, no one can be told what the Matrix is.$")
+}
+
+script WhirlIslands_B2F_EventScript_SmithNPC8 {
+    msgbox(WhirlIslands_B2F_Text_SmithNPC8, MSGBOX_NPC)
+    end
+}
+
+text WhirlIslands_B2F_Text_SmithNPC8 {
+    format("I know kung fu.$")
+}
+
+script WhirlIslands_B2F_EventScript_SmithNPC9 {
+    msgbox(WhirlIslands_B2F_Text_SmithNPC9, MSGBOX_NPC)
+    end
+}
+
+text WhirlIslands_B2F_Text_SmithNPC9 {
+    format("Dodge this.$")
+}

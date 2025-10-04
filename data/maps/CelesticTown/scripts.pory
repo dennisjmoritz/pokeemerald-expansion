@@ -10,3 +10,30 @@ script CelesticTown_EventScript_Sign1 {
 text CelesticTown_Text_Sign1 {
     format("CelesticTown Sign 1")
 }
+
+script CelesticTown_EventScript_SmithNPC1 {
+    msgbox(CelesticTown_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text CelesticTown_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script CelesticTown_EventScript_SmithNPC2 {
+    msgbox(CelesticTown_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text CelesticTown_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script CelesticTown_EventScript_SmithNPC3 {
+    msgbox(CelesticTown_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text CelesticTown_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}

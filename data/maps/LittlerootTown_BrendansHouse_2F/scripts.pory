@@ -16,3 +16,21 @@ text PlayersHouse_2F_Text_ItsAGameCube {
 text PlayersHouse_2F_Text_Notebook {
     format("{PLAYER} flipped open the notebook.\pADVENTURE RULE NO. 1\nOpen the MENU with START.\pADVENTURE RULE NO. 2\nRecord your progress with SAVE.\pThe remaining pages are blank…$")
 }
+
+script LittlerootTown_BrendansHouse_2F_EventScript_SmithNPC1 {
+    msgbox(LittlerootTown_BrendansHouse_2F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text LittlerootTown_BrendansHouse_2F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script LittlerootTown_BrendansHouse_2F_EventScript_SmithNPC2 {
+    msgbox(LittlerootTown_BrendansHouse_2F_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text LittlerootTown_BrendansHouse_2F_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}

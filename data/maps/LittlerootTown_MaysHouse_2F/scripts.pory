@@ -28,3 +28,21 @@ text RivalsHouse_2F_Text_MayGettingReady {
 text RivalsHouse_2F_Text_MayWhoAreYou {
     format("Huh?\nWho… Who are you?\p… … … … … … … …\n… … … … … … … …\pOh, you're {PLAYER}{KUN}.\nSo your move was today.\pUm… I'm MAY.\nGlad to meet you!\pI…\nI have this dream of becoming friends\lwith POKéMON all over the world.\pI… I heard about you, {PLAYER}{KUN}, from\nmy dad, PROF. BIRCH.\pI was hoping that you would be nice,\n{PLAYER}{KUN}, and that we could be friends.\pOh, this is silly, isn't it?\nI… I've just met you, {PLAYER}{KUN}.\pEheheh…\pOh, no! I forgot!\pI was supposed to go help Dad catch\nsome wild POKéMON!\p{PLAYER}{KUN}, I'll catch you later!$")
 }
+
+script LittlerootTown_MaysHouse_2F_EventScript_SmithNPC1 {
+    msgbox(LittlerootTown_MaysHouse_2F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text LittlerootTown_MaysHouse_2F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script LittlerootTown_MaysHouse_2F_EventScript_SmithNPC2 {
+    msgbox(LittlerootTown_MaysHouse_2F_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text LittlerootTown_MaysHouse_2F_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}

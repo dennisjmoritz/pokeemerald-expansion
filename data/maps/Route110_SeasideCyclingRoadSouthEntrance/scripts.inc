@@ -1,0 +1,30 @@
+Route110_SeasideCyclingRoadSouthEntrance_MapScripts::
+	.byte 0
+
+
+Route110_SeasideCyclingRoadSouthEntrance_EventScript_BikeCheck::
+	end
+
+
+Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad::
+	end
+
+
+Route110_SeasideCyclingRoadSouthEntrance_EventScript_Clerk::
+# 13 "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.pory"
+	msgbox Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad, MSGBOX_DEFAULT
+	end
+
+
+Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk::
+# 17 "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.pory"
+	.string "Sorry, you can't walk on CYCLING\n"
+	.string "ROAD. It's too dangerous.\p"
+	.string "Please come back with a BIKE.$"
+
+Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad::
+# 21 "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.pory"
+	.string "On CYCLING ROAD, you can go all out\n"
+	.string "and cycle as fast as you'd like.\p"
+	.string "It feels great to go that fast, but try\n"
+	.string "not to crash into anyone!$"

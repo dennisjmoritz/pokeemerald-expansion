@@ -1,3 +1,38 @@
 mapscripts BarrierStation_North_MapScripts {
 }
 
+script BarrierStation_North_EventScript_SmithNPC1 {
+    msgbox(BarrierStation_North_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text BarrierStation_North_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script BarrierStation_North_EventScript_SmithNPC2 {
+    msgbox(BarrierStation_North_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text BarrierStation_North_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script BarrierStation_North_EventScript_SmithNPC3 {
+    msgbox(BarrierStation_North_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text BarrierStation_North_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script BarrierStation_North_EventScript_SmithNPC4 {
+    msgbox(BarrierStation_North_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text BarrierStation_North_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}

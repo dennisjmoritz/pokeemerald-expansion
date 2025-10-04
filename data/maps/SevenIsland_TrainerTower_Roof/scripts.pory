@@ -1,2 +1,38 @@
 mapscripts SevenIsland_TrainerTower_Roof_MapScripts {
 }
+
+script SevenIsland_TrainerTower_Roof_EventScript_SmithNPC1 {
+    msgbox(SevenIsland_TrainerTower_Roof_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text SevenIsland_TrainerTower_Roof_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script SevenIsland_TrainerTower_Roof_EventScript_SmithNPC2 {
+    msgbox(SevenIsland_TrainerTower_Roof_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text SevenIsland_TrainerTower_Roof_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script SevenIsland_TrainerTower_Roof_EventScript_SmithNPC3 {
+    msgbox(SevenIsland_TrainerTower_Roof_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text SevenIsland_TrainerTower_Roof_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script SevenIsland_TrainerTower_Roof_EventScript_SmithNPC4 {
+    msgbox(SevenIsland_TrainerTower_Roof_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text SevenIsland_TrainerTower_Roof_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}

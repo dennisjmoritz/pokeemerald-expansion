@@ -1,3 +1,101 @@
 mapscripts Route226_MapScripts {
 }
 
+script Route226_EventScript_SmithNPC1 {
+    msgbox(Route226_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text Route226_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script Route226_EventScript_SmithNPC2 {
+    msgbox(Route226_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text Route226_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script Route226_EventScript_SmithNPC3 {
+    msgbox(Route226_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text Route226_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script Route226_EventScript_SmithNPC4 {
+    msgbox(Route226_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text Route226_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}
+
+script Route226_EventScript_SmithNPC5 {
+    msgbox(Route226_Text_SmithNPC5, MSGBOX_NPC)
+    end
+}
+
+text Route226_Text_SmithNPC5 {
+    format("We're not here because we're free; we're here because we're not free.$")
+}
+
+script Route226_EventScript_SmithNPC6 {
+    msgbox(Route226_Text_SmithNPC6, MSGBOX_NPC)
+    end
+}
+
+text Route226_Text_SmithNPC6 {
+    format("It's the question that drives us, Neo.$")
+}
+
+script Route226_EventScript_SmithNPC7 {
+    msgbox(Route226_Text_SmithNPC7, MSGBOX_NPC)
+    end
+}
+
+text Route226_Text_SmithNPC7 {
+    format("Unfortunately, no one can be told what the Matrix is.$")
+}
+
+script Route226_EventScript_SmithNPC8 {
+    msgbox(Route226_Text_SmithNPC8, MSGBOX_NPC)
+    end
+}
+
+text Route226_Text_SmithNPC8 {
+    format("I know kung fu.$")
+}
+
+script Route226_EventScript_SmithNPC9 {
+    msgbox(Route226_Text_SmithNPC9, MSGBOX_NPC)
+    end
+}
+
+text Route226_Text_SmithNPC9 {
+    format("Dodge this.$")
+}
+
+script Route226_EventScript_SmithNPC10 {
+    msgbox(Route226_Text_SmithNPC10, MSGBOX_NPC)
+    end
+}
+
+text Route226_Text_SmithNPC10 {
+    format("Choice is an illusion created between those with power and those without.$")
+}
+
+script Route226_EventScript_SmithNPC11 {
+    msgbox(Route226_Text_SmithNPC11, MSGBOX_NPC)
+    end
+}
+
+text Route226_Text_SmithNPC11 {
+    format("Hope is an illusion, Mr. Anderson.$")
+}

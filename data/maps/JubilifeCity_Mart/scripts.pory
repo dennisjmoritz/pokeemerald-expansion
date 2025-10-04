@@ -1,3 +1,29 @@
 mapscripts JubilifeCity_Mart_MapScripts {
 }
 
+script JubilifeCity_Mart_EventScript_SmithNPC1 {
+    msgbox(JubilifeCity_Mart_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text JubilifeCity_Mart_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script JubilifeCity_Mart_EventScript_SmithNPC2 {
+    msgbox(JubilifeCity_Mart_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text JubilifeCity_Mart_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script JubilifeCity_Mart_EventScript_SmithNPC3 {
+    msgbox(JubilifeCity_Mart_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text JubilifeCity_Mart_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}

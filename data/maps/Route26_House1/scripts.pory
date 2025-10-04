@@ -1,3 +1,11 @@
 mapscripts Route26_House1_MapScripts {
 }
 
+script Route26_House1_EventScript_SmithNPC1 {
+    msgbox(Route26_House1_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text Route26_House1_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}

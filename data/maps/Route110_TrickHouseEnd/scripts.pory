@@ -40,3 +40,12 @@ text Route110_TrickHouseEnd_Text_AllNightPolishingFloors {
 text Route110_TrickHouseEnd_Text_AllNightToPlantTrees {
     format("It took me all night to plant all those\ntrees…\pYou're almost my equal in greatness by\none, two, three, four, five, six places!$")
 }
+
+script Route110_TrickHouseEnd_EventScript_SmithNPC1 {
+    msgbox(Route110_TrickHouseEnd_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text Route110_TrickHouseEnd_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}

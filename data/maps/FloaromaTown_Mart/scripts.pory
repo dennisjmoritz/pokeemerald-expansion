@@ -1,3 +1,29 @@
 mapscripts FloaromaTown_Mart_MapScripts {
 }
 
+script FloaromaTown_Mart_EventScript_SmithNPC1 {
+    msgbox(FloaromaTown_Mart_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text FloaromaTown_Mart_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script FloaromaTown_Mart_EventScript_SmithNPC2 {
+    msgbox(FloaromaTown_Mart_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text FloaromaTown_Mart_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script FloaromaTown_Mart_EventScript_SmithNPC3 {
+    msgbox(FloaromaTown_Mart_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text FloaromaTown_Mart_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}

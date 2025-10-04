@@ -19,3 +19,57 @@ script Route40_EventScript_Sign2 {
 text Route40_Text_Sign2 {
     format("Route40 Sign 2")
 }
+
+script Route40_EventScript_SmithNPC1 {
+    msgbox(Route40_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text Route40_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script Route40_EventScript_SmithNPC2 {
+    msgbox(Route40_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text Route40_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script Route40_EventScript_SmithNPC3 {
+    msgbox(Route40_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text Route40_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script Route40_EventScript_SmithNPC4 {
+    msgbox(Route40_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text Route40_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}
+
+script Route40_EventScript_SmithNPC5 {
+    msgbox(Route40_Text_SmithNPC5, MSGBOX_NPC)
+    end
+}
+
+text Route40_Text_SmithNPC5 {
+    format("We're not here because we're free; we're here because we're not free.$")
+}
+
+script Route40_EventScript_SmithNPC6 {
+    msgbox(Route40_Text_SmithNPC6, MSGBOX_NPC)
+    end
+}
+
+text Route40_Text_SmithNPC6 {
+    format("It's the question that drives us, Neo.$")
+}

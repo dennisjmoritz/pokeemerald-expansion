@@ -32,3 +32,12 @@ text PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy {
 text PalletTown_RivalsHouse_Text_ItsBigMapOfKanto {
     format("It's a big map of the KANTO region.\nNow this would be useful!$")
 }
+
+script PalletTown_RivalsHouse_EventScript_SmithNPC1 {
+    msgbox(PalletTown_RivalsHouse_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text PalletTown_RivalsHouse_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}

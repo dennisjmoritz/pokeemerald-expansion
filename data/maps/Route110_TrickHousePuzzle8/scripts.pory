@@ -37,3 +37,21 @@ text Route110_TrickHousePuzzle8_Text_VincentIntro {
 text Route110_TrickHousePuzzle8_Text_VincentPostBattle {
     format("Placeholder text for Route110_TrickHousePuzzle8_Text_VincentPostBattle")
 }
+
+script Route110_TrickHousePuzzle8_EventScript_SmithNPC1 {
+    msgbox(Route110_TrickHousePuzzle8_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text Route110_TrickHousePuzzle8_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script Route110_TrickHousePuzzle8_EventScript_SmithNPC2 {
+    msgbox(Route110_TrickHousePuzzle8_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text Route110_TrickHousePuzzle8_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}

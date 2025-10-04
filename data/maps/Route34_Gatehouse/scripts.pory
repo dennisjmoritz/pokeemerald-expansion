@@ -1,3 +1,20 @@
 mapscripts Route34_Gatehouse_MapScripts {
 }
 
+script Route34_Gatehouse_EventScript_SmithNPC1 {
+    msgbox(Route34_Gatehouse_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text Route34_Gatehouse_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script Route34_Gatehouse_EventScript_SmithNPC2 {
+    msgbox(Route34_Gatehouse_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text Route34_Gatehouse_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}

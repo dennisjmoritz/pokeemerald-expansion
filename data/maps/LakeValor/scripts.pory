@@ -1,3 +1,38 @@
 mapscripts LakeValor_MapScripts {
 }
 
+script LakeValor_EventScript_SmithNPC1 {
+    msgbox(LakeValor_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text LakeValor_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script LakeValor_EventScript_SmithNPC2 {
+    msgbox(LakeValor_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text LakeValor_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script LakeValor_EventScript_SmithNPC3 {
+    msgbox(LakeValor_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text LakeValor_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script LakeValor_EventScript_SmithNPC4 {
+    msgbox(LakeValor_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text LakeValor_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}

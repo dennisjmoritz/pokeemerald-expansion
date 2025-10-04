@@ -23,3 +23,21 @@ text PalletTown_PlayersHouse_2F_Text_PlayedWithNES {
 text PalletTown_PlayersHouse_2F_Text_PressLRForHelp {
     format("It's a posted notice…\pIf you're confused, ask for HELP!\nPress the L or R Button!$")
 }
+
+script PalletTown_PlayersHouse_2F_EventScript_SmithNPC1 {
+    msgbox(PalletTown_PlayersHouse_2F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text PalletTown_PlayersHouse_2F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_SmithNPC2 {
+    msgbox(PalletTown_PlayersHouse_2F_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text PalletTown_PlayersHouse_2F_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}

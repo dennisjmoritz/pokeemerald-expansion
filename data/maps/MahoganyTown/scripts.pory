@@ -28,3 +28,39 @@ script MahoganyTown_EventScript_Gym3 {
 text MahoganyTown_Text_Gym3 {
     format("Mahogany Gym")
 }
+
+script MahoganyTown_EventScript_SmithNPC1 {
+    msgbox(MahoganyTown_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text MahoganyTown_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script MahoganyTown_EventScript_SmithNPC2 {
+    msgbox(MahoganyTown_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text MahoganyTown_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script MahoganyTown_EventScript_SmithNPC3 {
+    msgbox(MahoganyTown_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text MahoganyTown_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script MahoganyTown_EventScript_SmithNPC4 {
+    msgbox(MahoganyTown_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text MahoganyTown_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}

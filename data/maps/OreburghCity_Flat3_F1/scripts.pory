@@ -1,3 +1,20 @@
 mapscripts OreburghCity_Flat3_F1_MapScripts {
 }
 
+script OreburghCity_Flat3_F1_EventScript_SmithNPC1 {
+    msgbox(OreburghCity_Flat3_F1_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text OreburghCity_Flat3_F1_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script OreburghCity_Flat3_F1_EventScript_SmithNPC2 {
+    msgbox(OreburghCity_Flat3_F1_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text OreburghCity_Flat3_F1_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}

@@ -1,3 +1,11 @@
 mapscripts ViridianCity_House2_MapScripts {
 }
 
+script ViridianCity_House2_EventScript_SmithNPC1 {
+    msgbox(ViridianCity_House2_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text ViridianCity_House2_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}

@@ -81,3 +81,47 @@ script MtEmber_RubyPath_B4F_EventScript_BrailleWXYZ {
     end
 }
 
+script MtEmber_RubyPath_B4F_EventScript_SmithNPC1 {
+    msgbox(MtEmber_RubyPath_B4F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text MtEmber_RubyPath_B4F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script MtEmber_RubyPath_B4F_EventScript_SmithNPC2 {
+    msgbox(MtEmber_RubyPath_B4F_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text MtEmber_RubyPath_B4F_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script MtEmber_RubyPath_B4F_EventScript_SmithNPC3 {
+    msgbox(MtEmber_RubyPath_B4F_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text MtEmber_RubyPath_B4F_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script MtEmber_RubyPath_B4F_EventScript_SmithNPC4 {
+    msgbox(MtEmber_RubyPath_B4F_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text MtEmber_RubyPath_B4F_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}
+
+script MtEmber_RubyPath_B4F_EventScript_SmithNPC5 {
+    msgbox(MtEmber_RubyPath_B4F_Text_SmithNPC5, MSGBOX_NPC)
+    end
+}
+
+text MtEmber_RubyPath_B4F_Text_SmithNPC5 {
+    format("We're not here because we're free; we're here because we're not free.$")
+}

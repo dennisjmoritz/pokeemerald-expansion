@@ -19,3 +19,39 @@ script NewBarkTown_EventScript_Sign2 {
 text NewBarkTown_Text_Sign2 {
     format("NewBarkTown Sign 2")
 }
+
+script NewBarkTown_EventScript_SmithNPC1 {
+    msgbox(NewBarkTown_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text NewBarkTown_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script NewBarkTown_EventScript_SmithNPC2 {
+    msgbox(NewBarkTown_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text NewBarkTown_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script NewBarkTown_EventScript_SmithNPC3 {
+    msgbox(NewBarkTown_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text NewBarkTown_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script NewBarkTown_EventScript_SmithNPC4 {
+    msgbox(NewBarkTown_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text NewBarkTown_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}

@@ -1,3 +1,11 @@
 mapscripts JubilifeCity_Flat2_F2_MapScripts {
 }
 
+script JubilifeCity_Flat2_F2_EventScript_SmithNPC1 {
+    msgbox(JubilifeCity_Flat2_F2_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text JubilifeCity_Flat2_F2_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}

@@ -1,3 +1,29 @@
 mapscripts Route212_Access_MapScripts {
 }
 
+script Route212_Access_EventScript_SmithNPC1 {
+    msgbox(Route212_Access_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text Route212_Access_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script Route212_Access_EventScript_SmithNPC2 {
+    msgbox(Route212_Access_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text Route212_Access_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script Route212_Access_EventScript_SmithNPC3 {
+    msgbox(Route212_Access_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text Route212_Access_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}

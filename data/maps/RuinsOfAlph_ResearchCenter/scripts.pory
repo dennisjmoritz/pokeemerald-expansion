@@ -1,3 +1,29 @@
 mapscripts RuinsOfAlph_ResearchCenter_MapScripts {
 }
 
+script RuinsOfAlph_ResearchCenter_EventScript_SmithNPC1 {
+    msgbox(RuinsOfAlph_ResearchCenter_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text RuinsOfAlph_ResearchCenter_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script RuinsOfAlph_ResearchCenter_EventScript_SmithNPC2 {
+    msgbox(RuinsOfAlph_ResearchCenter_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text RuinsOfAlph_ResearchCenter_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script RuinsOfAlph_ResearchCenter_EventScript_SmithNPC3 {
+    msgbox(RuinsOfAlph_ResearchCenter_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text RuinsOfAlph_ResearchCenter_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}

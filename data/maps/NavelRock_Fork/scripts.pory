@@ -1,3 +1,83 @@
 mapscripts NavelRock_Fork_MapScripts {
 }
 
+script NavelRock_Fork_EventScript_SmithNPC1 {
+    msgbox(NavelRock_Fork_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text NavelRock_Fork_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script NavelRock_Fork_EventScript_SmithNPC2 {
+    msgbox(NavelRock_Fork_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text NavelRock_Fork_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script NavelRock_Fork_EventScript_SmithNPC3 {
+    msgbox(NavelRock_Fork_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text NavelRock_Fork_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script NavelRock_Fork_EventScript_SmithNPC4 {
+    msgbox(NavelRock_Fork_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text NavelRock_Fork_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}
+
+script NavelRock_Fork_EventScript_SmithNPC5 {
+    msgbox(NavelRock_Fork_Text_SmithNPC5, MSGBOX_NPC)
+    end
+}
+
+text NavelRock_Fork_Text_SmithNPC5 {
+    format("We're not here because we're free; we're here because we're not free.$")
+}
+
+script NavelRock_Fork_EventScript_SmithNPC6 {
+    msgbox(NavelRock_Fork_Text_SmithNPC6, MSGBOX_NPC)
+    end
+}
+
+text NavelRock_Fork_Text_SmithNPC6 {
+    format("It's the question that drives us, Neo.$")
+}
+
+script NavelRock_Fork_EventScript_SmithNPC7 {
+    msgbox(NavelRock_Fork_Text_SmithNPC7, MSGBOX_NPC)
+    end
+}
+
+text NavelRock_Fork_Text_SmithNPC7 {
+    format("Unfortunately, no one can be told what the Matrix is.$")
+}
+
+script NavelRock_Fork_EventScript_SmithNPC8 {
+    msgbox(NavelRock_Fork_Text_SmithNPC8, MSGBOX_NPC)
+    end
+}
+
+text NavelRock_Fork_Text_SmithNPC8 {
+    format("I know kung fu.$")
+}
+
+script NavelRock_Fork_EventScript_SmithNPC9 {
+    msgbox(NavelRock_Fork_Text_SmithNPC9, MSGBOX_NPC)
+    end
+}
+
+text NavelRock_Fork_Text_SmithNPC9 {
+    format("Dodge this.$")
+}

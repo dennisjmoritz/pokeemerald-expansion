@@ -1,0 +1,15 @@
+Route15_WestEntrance_1F_MapScripts::
+	.byte 0
+
+
+Route15_WestEntrance_1F_EventScript_Guard::
+# 5 "data/maps/Route15_WestEntrance_1F/scripts.pory"
+	msgbox Route15_WestEntrance_1F_Text_OaksAideCameByHere, MSGBOX_NPC
+	end
+
+
+Route15_WestEntrance_1F_Text_OaksAideCameByHere::
+# 10 "data/maps/Route15_WestEntrance_1F/scripts.pory"
+	.string "Are you the kid who's working on\n"
+	.string "a POKéDEX?\p"
+	.string "PROF. OAK's AIDE came by here.$"

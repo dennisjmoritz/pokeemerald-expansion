@@ -1,3 +1,38 @@
 mapscripts JubilifeCity_JubilifeTV_F2_MapScripts {
 }
 
+script JubilifeCity_JubilifeTV_F2_EventScript_SmithNPC1 {
+    msgbox(JubilifeCity_JubilifeTV_F2_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text JubilifeCity_JubilifeTV_F2_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script JubilifeCity_JubilifeTV_F2_EventScript_SmithNPC2 {
+    msgbox(JubilifeCity_JubilifeTV_F2_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text JubilifeCity_JubilifeTV_F2_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script JubilifeCity_JubilifeTV_F2_EventScript_SmithNPC3 {
+    msgbox(JubilifeCity_JubilifeTV_F2_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text JubilifeCity_JubilifeTV_F2_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script JubilifeCity_JubilifeTV_F2_EventScript_SmithNPC4 {
+    msgbox(JubilifeCity_JubilifeTV_F2_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text JubilifeCity_JubilifeTV_F2_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}

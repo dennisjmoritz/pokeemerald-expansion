@@ -37,3 +37,75 @@ script BlackthornCity_EventScript_Sign4 {
 text BlackthornCity_Text_Sign4 {
     format("BlackthornCity Sign 4")
 }
+
+script BlackthornCity_EventScript_SmithNPC1 {
+    msgbox(BlackthornCity_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text BlackthornCity_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script BlackthornCity_EventScript_SmithNPC2 {
+    msgbox(BlackthornCity_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text BlackthornCity_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script BlackthornCity_EventScript_SmithNPC3 {
+    msgbox(BlackthornCity_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text BlackthornCity_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script BlackthornCity_EventScript_SmithNPC4 {
+    msgbox(BlackthornCity_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text BlackthornCity_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}
+
+script BlackthornCity_EventScript_SmithNPC5 {
+    msgbox(BlackthornCity_Text_SmithNPC5, MSGBOX_NPC)
+    end
+}
+
+text BlackthornCity_Text_SmithNPC5 {
+    format("We're not here because we're free; we're here because we're not free.$")
+}
+
+script BlackthornCity_EventScript_SmithNPC6 {
+    msgbox(BlackthornCity_Text_SmithNPC6, MSGBOX_NPC)
+    end
+}
+
+text BlackthornCity_Text_SmithNPC6 {
+    format("It's the question that drives us, Neo.$")
+}
+
+script BlackthornCity_EventScript_SmithNPC7 {
+    msgbox(BlackthornCity_Text_SmithNPC7, MSGBOX_NPC)
+    end
+}
+
+text BlackthornCity_Text_SmithNPC7 {
+    format("Unfortunately, no one can be told what the Matrix is.$")
+}
+
+script BlackthornCity_EventScript_SmithNPC8 {
+    msgbox(BlackthornCity_Text_SmithNPC8, MSGBOX_NPC)
+    end
+}
+
+text BlackthornCity_Text_SmithNPC8 {
+    format("I know kung fu.$")
+}

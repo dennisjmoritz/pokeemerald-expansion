@@ -10,3 +10,30 @@ script SurvivalArea_EventScript_Sign1 {
 text SurvivalArea_Text_Sign1 {
     format("SurvivalArea Sign 1")
 }
+
+script SurvivalArea_EventScript_SmithNPC1 {
+    msgbox(SurvivalArea_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text SurvivalArea_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script SurvivalArea_EventScript_SmithNPC2 {
+    msgbox(SurvivalArea_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text SurvivalArea_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script SurvivalArea_EventScript_SmithNPC3 {
+    msgbox(SurvivalArea_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text SurvivalArea_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}

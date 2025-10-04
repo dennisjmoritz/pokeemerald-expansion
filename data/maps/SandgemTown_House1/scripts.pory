@@ -1,3 +1,11 @@
 mapscripts SandgemTown_House1_MapScripts {
 }
 
+script SandgemTown_House1_EventScript_SmithNPC1 {
+    msgbox(SandgemTown_House1_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text SandgemTown_House1_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}

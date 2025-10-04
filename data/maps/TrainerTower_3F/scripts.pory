@@ -1,2 +1,38 @@
 mapscripts TrainerTower_3F_MapScripts {
 }
+
+script TrainerTower_3F_EventScript_SmithNPC1 {
+    msgbox(TrainerTower_3F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text TrainerTower_3F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script TrainerTower_3F_EventScript_SmithNPC2 {
+    msgbox(TrainerTower_3F_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text TrainerTower_3F_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script TrainerTower_3F_EventScript_SmithNPC3 {
+    msgbox(TrainerTower_3F_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text TrainerTower_3F_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script TrainerTower_3F_EventScript_SmithNPC4 {
+    msgbox(TrainerTower_3F_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text TrainerTower_3F_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}

@@ -32,3 +32,21 @@ text RivalsHouse_1F_Text_ShouldGoHomeEverySoOften {
 text RivalsHouse_1F_Text_DoYouHavePokemon {
     format("Hi, neighbor!\pDo you already have your\nown POKéMON?$")
 }
+
+script LittlerootTown_MaysHouse_1F_EventScript_SmithNPC1 {
+    msgbox(LittlerootTown_MaysHouse_1F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text LittlerootTown_MaysHouse_1F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script LittlerootTown_MaysHouse_1F_EventScript_SmithNPC2 {
+    msgbox(LittlerootTown_MaysHouse_1F_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text LittlerootTown_MaysHouse_1F_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}

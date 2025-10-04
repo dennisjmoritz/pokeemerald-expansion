@@ -1,3 +1,20 @@
 mapscripts EcruteakCity_House3_MapScripts {
 }
 
+script EcruteakCity_House3_EventScript_SmithNPC1 {
+    msgbox(EcruteakCity_House3_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text EcruteakCity_House3_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script EcruteakCity_House3_EventScript_SmithNPC2 {
+    msgbox(EcruteakCity_House3_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text EcruteakCity_House3_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}

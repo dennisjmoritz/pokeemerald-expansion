@@ -20,3 +20,21 @@ script LittlerootTown_BrendansHouse_1F_EventScript_MeetRival2 {
 text PlayersHouse_1F_Text_GoSetTheClock {
     format("MOM: {PLAYER}.\pGo set the clock in your room, honey.$")
 }
+
+script LittlerootTown_BrendansHouse_1F_EventScript_SmithNPC1 {
+    msgbox(LittlerootTown_BrendansHouse_1F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text LittlerootTown_BrendansHouse_1F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script LittlerootTown_BrendansHouse_1F_EventScript_SmithNPC2 {
+    msgbox(LittlerootTown_BrendansHouse_1F_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text LittlerootTown_BrendansHouse_1F_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}

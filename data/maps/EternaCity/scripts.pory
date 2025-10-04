@@ -18,3 +18,75 @@ text EternaCity_Text_Sign1 {
 text EternaCity_Text_Sign2 {
     format("EternaCity Sign 2")
 }
+
+script EternaCity_EventScript_SmithNPC1 {
+    msgbox(EternaCity_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text EternaCity_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script EternaCity_EventScript_SmithNPC2 {
+    msgbox(EternaCity_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text EternaCity_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script EternaCity_EventScript_SmithNPC3 {
+    msgbox(EternaCity_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text EternaCity_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script EternaCity_EventScript_SmithNPC4 {
+    msgbox(EternaCity_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text EternaCity_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}
+
+script EternaCity_EventScript_SmithNPC5 {
+    msgbox(EternaCity_Text_SmithNPC5, MSGBOX_NPC)
+    end
+}
+
+text EternaCity_Text_SmithNPC5 {
+    format("We're not here because we're free; we're here because we're not free.$")
+}
+
+script EternaCity_EventScript_SmithNPC6 {
+    msgbox(EternaCity_Text_SmithNPC6, MSGBOX_NPC)
+    end
+}
+
+text EternaCity_Text_SmithNPC6 {
+    format("It's the question that drives us, Neo.$")
+}
+
+script EternaCity_EventScript_SmithNPC7 {
+    msgbox(EternaCity_Text_SmithNPC7, MSGBOX_NPC)
+    end
+}
+
+text EternaCity_Text_SmithNPC7 {
+    format("Unfortunately, no one can be told what the Matrix is.$")
+}
+
+script EternaCity_EventScript_SmithNPC8 {
+    msgbox(EternaCity_Text_SmithNPC8, MSGBOX_NPC)
+    end
+}
+
+text EternaCity_Text_SmithNPC8 {
+    format("I know kung fu.$")
+}

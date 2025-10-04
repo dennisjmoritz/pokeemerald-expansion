@@ -1,0 +1,39 @@
+UnionRoom_MapScripts::
+	.byte 0
+
+
+UnionRoom_EventScript_Attendant::
+	end
+
+
+UnionRoom_EventScript_Player1::
+	end
+
+
+UnionRoom_EventScript_Player2::
+	end
+
+
+UnionRoom_EventScript_Player3::
+	end
+
+
+UnionRoom_EventScript_Player4::
+	end
+
+
+UnionRoom_EventScript_Player5::
+	end
+
+
+UnionRoom_EventScript_Player6::
+	end
+
+
+UnionRoom_EventScript_Player7::
+	end
+
+
+UnionRoom_EventScript_Player8::
+	end
+

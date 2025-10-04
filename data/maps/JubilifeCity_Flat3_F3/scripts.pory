@@ -1,3 +1,20 @@
 mapscripts JubilifeCity_Flat3_F3_MapScripts {
 }
 
+script JubilifeCity_Flat3_F3_EventScript_SmithNPC1 {
+    msgbox(JubilifeCity_Flat3_F3_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text JubilifeCity_Flat3_F3_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script JubilifeCity_Flat3_F3_EventScript_SmithNPC2 {
+    msgbox(JubilifeCity_Flat3_F3_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text JubilifeCity_Flat3_F3_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}

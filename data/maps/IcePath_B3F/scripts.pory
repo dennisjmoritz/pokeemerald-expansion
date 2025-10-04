@@ -1,3 +1,38 @@
 mapscripts IcePath_B3F_MapScripts {
 }
 
+script IcePath_B3F_EventScript_SmithNPC1 {
+    msgbox(IcePath_B3F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text IcePath_B3F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script IcePath_B3F_EventScript_SmithNPC2 {
+    msgbox(IcePath_B3F_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text IcePath_B3F_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script IcePath_B3F_EventScript_SmithNPC3 {
+    msgbox(IcePath_B3F_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text IcePath_B3F_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script IcePath_B3F_EventScript_SmithNPC4 {
+    msgbox(IcePath_B3F_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text IcePath_B3F_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}

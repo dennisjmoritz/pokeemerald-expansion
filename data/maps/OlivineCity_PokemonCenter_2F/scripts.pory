@@ -1,3 +1,38 @@
 mapscripts OlivineCity_PokemonCenter_2F_MapScripts {
 }
 
+script OlivineCity_PokemonCenter_2F_EventScript_SmithNPC1 {
+    msgbox(OlivineCity_PokemonCenter_2F_Text_SmithNPC1, MSGBOX_NPC)
+    end
+}
+
+text OlivineCity_PokemonCenter_2F_Text_SmithNPC1 {
+    format("I've been expecting you, Mr. Anderson.$")
+}
+
+script OlivineCity_PokemonCenter_2F_EventScript_SmithNPC2 {
+    msgbox(OlivineCity_PokemonCenter_2F_Text_SmithNPC2, MSGBOX_NPC)
+    end
+}
+
+text OlivineCity_PokemonCenter_2F_Text_SmithNPC2 {
+    format("Human beings are a disease; I'm the cure.$")
+}
+
+script OlivineCity_PokemonCenter_2F_EventScript_SmithNPC3 {
+    msgbox(OlivineCity_PokemonCenter_2F_Text_SmithNPC3, MSGBOX_NPC)
+    end
+}
+
+text OlivineCity_PokemonCenter_2F_Text_SmithNPC3 {
+    format("Never send a human to do a machine's job.$")
+}
+
+script OlivineCity_PokemonCenter_2F_EventScript_SmithNPC4 {
+    msgbox(OlivineCity_PokemonCenter_2F_Text_SmithNPC4, MSGBOX_NPC)
+    end
+}
+
+text OlivineCity_PokemonCenter_2F_Text_SmithNPC4 {
+    format("You hear that, Mr. Anderson? That is the sound of inevitability.$")
+}
