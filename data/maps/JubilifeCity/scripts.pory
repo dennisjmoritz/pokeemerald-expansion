@@ -10,3 +10,7 @@ text JubilifeCity_Text_Sign1 {
     format("JubilifeCity Sign 1")
 }
 
+
+script JubilifeCity_EventScript_Sign5 {
+    end
+}

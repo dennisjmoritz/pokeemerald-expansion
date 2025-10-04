@@ -19,3 +19,11 @@ text SandgemTown_Text_Sign2 {
     format("SandgemTown Sign 2")
 }
 
+
+script SandgemTown_EventScript_Sign5 {
+    end
+}
+
+script SandgemTown_EventScript_Sign6 {
+    end
+}

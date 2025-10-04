@@ -10,3 +10,7 @@ text OreburghCity_Text_Sign1 {
     format("OreburghCity Sign 1")
 }
 
+
+script OreburghCity_EventScript_Sign4 {
+    end
+}
