@@ -1,3 +1,12 @@
 mapscripts CherrygroveCity_MapScripts {
 }
 
+
+script CherrygroveCity_EventScript_Sign1 {
+    msgbox(CherrygroveCity_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text CherrygroveCity_Text_Sign1 {
+    format("CherrygroveCity Sign 1")
+}

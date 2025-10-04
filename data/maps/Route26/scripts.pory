@@ -1,3 +1,12 @@
 mapscripts Route26_MapScripts {
 }
 
+
+script Route26_EventScript_Sign1 {
+    msgbox(Route26_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route26_Text_Sign1 {
+    format("Route26 Sign 1")
+}

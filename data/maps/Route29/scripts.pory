@@ -1,3 +1,21 @@
 mapscripts Route29_MapScripts {
 }
 
+
+script Route29_EventScript_Sign1 {
+    msgbox(Route29_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route29_Text_Sign1 {
+    format("Route29 Sign 1")
+}
+
+script Route29_EventScript_Sign2 {
+    msgbox(Route29_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text Route29_Text_Sign2 {
+    format("Route29 Sign 2")
+}

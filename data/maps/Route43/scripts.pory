@@ -1,3 +1,21 @@
 mapscripts Route43_MapScripts {
 }
 
+
+script Route43_EventScript_Sign1 {
+    msgbox(Route43_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route43_Text_Sign1 {
+    format("Route43 Sign 1")
+}
+
+script Route43_EventScript_Sign2 {
+    msgbox(Route43_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text Route43_Text_Sign2 {
+    format("Route43 Sign 2")
+}

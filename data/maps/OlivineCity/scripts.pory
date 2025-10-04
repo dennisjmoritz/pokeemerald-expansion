@@ -1,3 +1,48 @@
 mapscripts OlivineCity_MapScripts {
 }
 
+
+script OlivineCity_EventScript_Gym1 {
+    msgbox(OlivineCity_Text_Gym1, MSGBOX_SIGN)
+    end
+}
+
+text OlivineCity_Text_Gym1 {
+    format("Olivine Gym")
+}
+
+script OlivineCity_EventScript_Sign2 {
+    msgbox(OlivineCity_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text OlivineCity_Text_Sign2 {
+    format("OlivineCity Sign 2")
+}
+
+script OlivineCity_EventScript_Sign3 {
+    msgbox(OlivineCity_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text OlivineCity_Text_Sign3 {
+    format("OlivineCity Sign 3")
+}
+
+script OlivineCity_EventScript_Sign4 {
+    msgbox(OlivineCity_Text_Sign4, MSGBOX_SIGN)
+    end
+}
+
+text OlivineCity_Text_Sign4 {
+    format("OlivineCity Sign 4")
+}
+
+script OlivineCity_EventScript_Sign5 {
+    msgbox(OlivineCity_Text_Sign5, MSGBOX_SIGN)
+    end
+}
+
+text OlivineCity_Text_Sign5 {
+    format("OlivineCity Sign 5")
+}

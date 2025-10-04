@@ -1,3 +1,21 @@
 mapscripts Route40_MapScripts {
 }
 
+
+script Route40_EventScript_Sign1 {
+    msgbox(Route40_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route40_Text_Sign1 {
+    format("Route40 Sign 1")
+}
+
+script Route40_EventScript_Sign2 {
+    msgbox(Route40_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text Route40_Text_Sign2 {
+    format("Route40 Sign 2")
+}

@@ -1,3 +1,12 @@
 mapscripts SurvivalArea_MapScripts {
 }
 
+
+script SurvivalArea_EventScript_Sign1 {
+    msgbox(SurvivalArea_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text SurvivalArea_Text_Sign1 {
+    format("SurvivalArea Sign 1")
+}

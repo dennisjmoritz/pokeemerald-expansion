@@ -1,3 +1,48 @@
 mapscripts EcruteakCity_MapScripts {
 }
 
+
+script EcruteakCity_EventScript_Sign1 {
+    msgbox(EcruteakCity_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text EcruteakCity_Text_Sign1 {
+    format("EcruteakCity Sign 1")
+}
+
+script EcruteakCity_EventScript_Sign2 {
+    msgbox(EcruteakCity_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text EcruteakCity_Text_Sign2 {
+    format("EcruteakCity Sign 2")
+}
+
+script EcruteakCity_EventScript_Sign3 {
+    msgbox(EcruteakCity_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text EcruteakCity_Text_Sign3 {
+    format("EcruteakCity Sign 3")
+}
+
+script EcruteakCity_EventScript_Sign4 {
+    msgbox(EcruteakCity_Text_Sign4, MSGBOX_SIGN)
+    end
+}
+
+text EcruteakCity_Text_Sign4 {
+    format("EcruteakCity Sign 4")
+}
+
+script EcruteakCity_EventScript_Gym5 {
+    msgbox(EcruteakCity_Text_Gym5, MSGBOX_SIGN)
+    end
+}
+
+text EcruteakCity_Text_Gym5 {
+    format("Ecruteak Gym")
+}

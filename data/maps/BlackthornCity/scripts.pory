@@ -1,3 +1,39 @@
 mapscripts BlackthornCity_MapScripts {
 }
 
+
+script BlackthornCity_EventScript_Sign1 {
+    msgbox(BlackthornCity_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text BlackthornCity_Text_Sign1 {
+    format("BlackthornCity Sign 1")
+}
+
+script BlackthornCity_EventScript_Gym2 {
+    msgbox(BlackthornCity_Text_Gym2, MSGBOX_SIGN)
+    end
+}
+
+text BlackthornCity_Text_Gym2 {
+    format("Blackthorn Gym")
+}
+
+script BlackthornCity_EventScript_Sign3 {
+    msgbox(BlackthornCity_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text BlackthornCity_Text_Sign3 {
+    format("BlackthornCity Sign 3")
+}
+
+script BlackthornCity_EventScript_Sign4 {
+    msgbox(BlackthornCity_Text_Sign4, MSGBOX_SIGN)
+    end
+}
+
+text BlackthornCity_Text_Sign4 {
+    format("BlackthornCity Sign 4")
+}

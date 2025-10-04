@@ -1,3 +1,48 @@
 mapscripts AzaleaTown_MapScripts {
 }
 
+
+script AzaleaTown_EventScript_Sign1 {
+    msgbox(AzaleaTown_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text AzaleaTown_Text_Sign1 {
+    format("AzaleaTown Sign 1")
+}
+
+script AzaleaTown_EventScript_Sign2 {
+    msgbox(AzaleaTown_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text AzaleaTown_Text_Sign2 {
+    format("AzaleaTown Sign 2")
+}
+
+script AzaleaTown_EventScript_Sign3 {
+    msgbox(AzaleaTown_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text AzaleaTown_Text_Sign3 {
+    format("AzaleaTown Sign 3")
+}
+
+script AzaleaTown_EventScript_Sign4 {
+    msgbox(AzaleaTown_Text_Sign4, MSGBOX_SIGN)
+    end
+}
+
+text AzaleaTown_Text_Sign4 {
+    format("AzaleaTown Sign 4")
+}
+
+script AzaleaTown_EventScript_Gym5 {
+    msgbox(AzaleaTown_Text_Gym5, MSGBOX_SIGN)
+    end
+}
+
+text AzaleaTown_Text_Gym5 {
+    format("Azalea Gym")
+}

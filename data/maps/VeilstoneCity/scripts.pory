@@ -1,3 +1,21 @@
 mapscripts VeilstoneCity_MapScripts {
 }
 
+
+script VeilstoneCity_EventScript_Gym1 {
+    msgbox(VeilstoneCity_Text_Gym1, MSGBOX_SIGN)
+    end
+}
+
+text VeilstoneCity_Text_Gym1 {
+    format("Veilstone Gym")
+}
+
+script VeilstoneCity_EventScript_Sign2 {
+    msgbox(VeilstoneCity_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text VeilstoneCity_Text_Sign2 {
+    format("VeilstoneCity Sign 2")
+}

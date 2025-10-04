@@ -96,6 +96,47 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "OlivineCity_EventScript_Gym1"
+    },
+    {
+      "type": "sign",
+      "x": 19,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "OlivineCity_EventScript_Sign2"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 29,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "OlivineCity_EventScript_Sign3"
+    },
+    {
+      "type": "sign",
+      "x": 24,
+      "y": 29,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "OlivineCity_EventScript_Sign4"
+    },
+    {
+      "type": "sign",
+      "x": 39,
+      "y": 42,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "OlivineCity_EventScript_Sign5"
+    }
+  ],
   "comment": "Changed music from MUS_VIOLET to MUS_ROUTE101 because unavailable"
 }

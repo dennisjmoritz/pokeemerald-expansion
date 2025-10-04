@@ -1,3 +1,21 @@
 mapscripts Route34_MapScripts {
 }
 
+
+script Route34_EventScript_Sign1 {
+    msgbox(Route34_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route34_Text_Sign1 {
+    format("Route34 Sign 1")
+}
+
+script Route34_EventScript_Sign2 {
+    msgbox(Route34_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text Route34_Text_Sign2 {
+    format("Route34 Sign 2")
+}

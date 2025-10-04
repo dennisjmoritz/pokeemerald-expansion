@@ -1,3 +1,21 @@
 mapscripts Route212_North_MapScripts {
 }
 
+
+script Route212_North_EventScript_Sign1 {
+    msgbox(Route212_North_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route212_North_Text_Sign1 {
+    format("Route212_North Sign 1")
+}
+
+script Route212_North_EventScript_Sign2 {
+    msgbox(Route212_North_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text Route212_North_Text_Sign2 {
+    format("Route212_North Sign 2")
+}

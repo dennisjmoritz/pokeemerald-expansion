@@ -1,3 +1,39 @@
 mapscripts VioletCity_MapScripts {
 }
 
+
+script VioletCity_EventScript_Sign1 {
+    msgbox(VioletCity_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text VioletCity_Text_Sign1 {
+    format("VioletCity Sign 1")
+}
+
+script VioletCity_EventScript_Gym2 {
+    msgbox(VioletCity_Text_Gym2, MSGBOX_SIGN)
+    end
+}
+
+text VioletCity_Text_Gym2 {
+    format("Violet Gym")
+}
+
+script VioletCity_EventScript_Sign3 {
+    msgbox(VioletCity_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text VioletCity_Text_Sign3 {
+    format("VioletCity Sign 3")
+}
+
+script VioletCity_EventScript_Sign4 {
+    msgbox(VioletCity_Text_Sign4, MSGBOX_SIGN)
+    end
+}
+
+text VioletCity_Text_Sign4 {
+    format("VioletCity Sign 4")
+}

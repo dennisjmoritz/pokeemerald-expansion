@@ -1,3 +1,12 @@
 mapscripts EternaForest_MapScripts {
 }
 
+
+script EternaForest_EventScript_Sign1 {
+    msgbox(EternaForest_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text EternaForest_Text_Sign1 {
+    format("EternaForest Sign 1")
+}

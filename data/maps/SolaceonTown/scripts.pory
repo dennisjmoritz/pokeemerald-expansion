@@ -1,3 +1,21 @@
 mapscripts SolaceonTown_MapScripts {
 }
 
+
+script SolaceonTown_EventScript_Sign1 {
+    msgbox(SolaceonTown_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text SolaceonTown_Text_Sign1 {
+    format("SolaceonTown Sign 1")
+}
+
+script SolaceonTown_EventScript_Sign2 {
+    msgbox(SolaceonTown_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text SolaceonTown_Text_Sign2 {
+    format("SolaceonTown Sign 2")
+}

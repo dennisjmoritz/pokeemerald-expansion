@@ -1,3 +1,12 @@
 mapscripts Route30_MapScripts {
 }
 
+
+script Route30_EventScript_Sign1 {
+    msgbox(Route30_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route30_Text_Sign1 {
+    format("Route30 Sign 1")
+}

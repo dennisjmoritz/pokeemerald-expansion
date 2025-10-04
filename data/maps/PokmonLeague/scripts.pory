@@ -1,3 +1,21 @@
 mapscripts PokmonLeague_MapScripts {
 }
 
+
+script PokmonLeague_EventScript_Sign1 {
+    msgbox(PokmonLeague_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text PokmonLeague_Text_Sign1 {
+    format("PokmonLeague Sign 1")
+}
+
+script PokmonLeague_EventScript_Sign2 {
+    msgbox(PokmonLeague_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text PokmonLeague_Text_Sign2 {
+    format("PokmonLeague Sign 2")
+}

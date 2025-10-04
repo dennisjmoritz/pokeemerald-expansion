@@ -1,3 +1,21 @@
 mapscripts SunyshoreCity_MapScripts {
 }
 
+
+script SunyshoreCity_EventScript_Sign1 {
+    msgbox(SunyshoreCity_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text SunyshoreCity_Text_Sign1 {
+    format("SunyshoreCity Sign 1")
+}
+
+script SunyshoreCity_EventScript_Sign2 {
+    msgbox(SunyshoreCity_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text SunyshoreCity_Text_Sign2 {
+    format("SunyshoreCity Sign 2")
+}

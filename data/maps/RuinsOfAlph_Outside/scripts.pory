@@ -1,3 +1,21 @@
 mapscripts RuinsOfAlph_Outside_MapScripts {
 }
 
+
+script RuinsOfAlph_Outside_EventScript_Sign1 {
+    msgbox(RuinsOfAlph_Outside_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text RuinsOfAlph_Outside_Text_Sign1 {
+    format("RuinsOfAlph_Outside Sign 1")
+}
+
+script RuinsOfAlph_Outside_EventScript_Sign2 {
+    msgbox(RuinsOfAlph_Outside_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text RuinsOfAlph_Outside_Text_Sign2 {
+    format("RuinsOfAlph_Outside Sign 2")
+}

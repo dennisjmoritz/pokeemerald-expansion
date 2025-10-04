@@ -1,3 +1,30 @@
 mapscripts Route45_MapScripts {
 }
 
+
+script Route45_EventScript_Sign1 {
+    msgbox(Route45_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route45_Text_Sign1 {
+    format("Route45 Sign 1")
+}
+
+script Route45_EventScript_Sign2 {
+    msgbox(Route45_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text Route45_Text_Sign2 {
+    format("Route45 Sign 2")
+}
+
+script Route45_EventScript_Sign3 {
+    msgbox(Route45_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text Route45_Text_Sign3 {
+    format("Route45 Sign 3")
+}

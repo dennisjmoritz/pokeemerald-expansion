@@ -42,5 +42,30 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route204_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 32,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route204_EventScript_Sign2"
+    },
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 48,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route204_EventScript_Sign3"
+    }
+  ]
 }

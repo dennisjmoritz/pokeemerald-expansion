@@ -1,3 +1,30 @@
 mapscripts Route202_MapScripts {
 }
 
+
+script Route202_EventScript_Sign1 {
+    msgbox(Route202_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route202_Text_Sign1 {
+    format("Route202 Sign 1")
+}
+
+script Route202_EventScript_Sign2 {
+    msgbox(Route202_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text Route202_Text_Sign2 {
+    format("Route202 Sign 2")
+}
+
+script Route202_EventScript_Sign3 {
+    msgbox(Route202_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text Route202_Text_Sign3 {
+    format("Route202 Sign 3")
+}

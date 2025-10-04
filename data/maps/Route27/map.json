@@ -49,6 +49,15 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 31,
+      "y": 10,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route27_EventScript_Sign1"
+    }
+  ],
   "comment": "Changed music from MUS_ROUTE26 to MUS_ROUTE101 because unavailable"
 }

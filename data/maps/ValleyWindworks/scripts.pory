@@ -1,3 +1,12 @@
 mapscripts ValleyWindworks_MapScripts {
 }
 
+
+script ValleyWindworks_EventScript_Sign1 {
+    msgbox(ValleyWindworks_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text ValleyWindworks_Text_Sign1 {
+    format("ValleyWindworks Sign 1")
+}

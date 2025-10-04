@@ -1,3 +1,30 @@
 mapscripts Route209_MapScripts {
 }
 
+
+script Route209_EventScript_Sign1 {
+    msgbox(Route209_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route209_Text_Sign1 {
+    format("Route209 Sign 1")
+}
+
+script Route209_EventScript_Sign2 {
+    msgbox(Route209_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text Route209_Text_Sign2 {
+    format("Route209 Sign 2")
+}
+
+script Route209_EventScript_Sign3 {
+    msgbox(Route209_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text Route209_Text_Sign3 {
+    format("Route209 Sign 3")
+}

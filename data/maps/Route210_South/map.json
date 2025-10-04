@@ -32,5 +32,22 @@
   "object_events": [],
   "warp_events": [],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 28,
+      "y": 51,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route210_South_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 27,
+      "y": 86,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route210_South_EventScript_Sign2"
+    }
+  ]
 }

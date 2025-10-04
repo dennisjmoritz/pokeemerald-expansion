@@ -1,3 +1,30 @@
 mapscripts Route32_MapScripts {
 }
 
+
+script Route32_EventScript_Sign1 {
+    msgbox(Route32_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route32_Text_Sign1 {
+    format("Route32 Sign 1")
+}
+
+script Route32_EventScript_Sign2 {
+    msgbox(Route32_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text Route32_Text_Sign2 {
+    format("Route32 Sign 2")
+}
+
+script Route32_EventScript_Sign3 {
+    msgbox(Route32_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text Route32_Text_Sign3 {
+    format("Route32 Sign 3")
+}

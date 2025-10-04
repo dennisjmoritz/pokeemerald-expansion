@@ -1,3 +1,12 @@
 mapscripts CelesticTown_MapScripts {
 }
 
+
+script CelesticTown_EventScript_Sign1 {
+    msgbox(CelesticTown_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text CelesticTown_Text_Sign1 {
+    format("CelesticTown Sign 1")
+}

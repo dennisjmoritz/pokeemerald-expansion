@@ -1,3 +1,84 @@
 mapscripts GoldenrodCity_MapScripts {
 }
 
+
+script GoldenrodCity_EventScript_Sign1 {
+    msgbox(GoldenrodCity_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text GoldenrodCity_Text_Sign1 {
+    format("GoldenrodCity Sign 1")
+}
+
+script GoldenrodCity_EventScript_Sign2 {
+    msgbox(GoldenrodCity_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text GoldenrodCity_Text_Sign2 {
+    format("GoldenrodCity Sign 2")
+}
+
+script GoldenrodCity_EventScript_Sign3 {
+    msgbox(GoldenrodCity_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text GoldenrodCity_Text_Sign3 {
+    format("GoldenrodCity Sign 3")
+}
+
+script GoldenrodCity_EventScript_Sign4 {
+    msgbox(GoldenrodCity_Text_Sign4, MSGBOX_SIGN)
+    end
+}
+
+text GoldenrodCity_Text_Sign4 {
+    format("GoldenrodCity Sign 4")
+}
+
+script GoldenrodCity_EventScript_Sign5 {
+    msgbox(GoldenrodCity_Text_Sign5, MSGBOX_SIGN)
+    end
+}
+
+text GoldenrodCity_Text_Sign5 {
+    format("GoldenrodCity Sign 5")
+}
+
+script GoldenrodCity_EventScript_Sign6 {
+    msgbox(GoldenrodCity_Text_Sign6, MSGBOX_SIGN)
+    end
+}
+
+text GoldenrodCity_Text_Sign6 {
+    format("GoldenrodCity Sign 6")
+}
+
+script GoldenrodCity_EventScript_Sign7 {
+    msgbox(GoldenrodCity_Text_Sign7, MSGBOX_SIGN)
+    end
+}
+
+text GoldenrodCity_Text_Sign7 {
+    format("GoldenrodCity Sign 7")
+}
+
+script GoldenrodCity_EventScript_Sign8 {
+    msgbox(GoldenrodCity_Text_Sign8, MSGBOX_SIGN)
+    end
+}
+
+text GoldenrodCity_Text_Sign8 {
+    format("GoldenrodCity Sign 8")
+}
+
+script GoldenrodCity_EventScript_Sign9 {
+    msgbox(GoldenrodCity_Text_Sign9, MSGBOX_SIGN)
+    end
+}
+
+text GoldenrodCity_Text_Sign9 {
+    format("GoldenrodCity Sign 9")
+}

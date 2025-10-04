@@ -1,3 +1,21 @@
 mapscripts PastoriaCity_MapScripts {
 }
 
+
+script PastoriaCity_EventScript_Sign1 {
+    msgbox(PastoriaCity_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text PastoriaCity_Text_Sign1 {
+    format("PastoriaCity Sign 1")
+}
+
+script PastoriaCity_EventScript_Gym2 {
+    msgbox(PastoriaCity_Text_Gym2, MSGBOX_SIGN)
+    end
+}
+
+text PastoriaCity_Text_Gym2 {
+    format("Pastoria Gym")
+}

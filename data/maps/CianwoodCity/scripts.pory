@@ -1,3 +1,30 @@
 mapscripts CianwoodCity_MapScripts {
 }
 
+
+script CianwoodCity_EventScript_Sign1 {
+    msgbox(CianwoodCity_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text CianwoodCity_Text_Sign1 {
+    format("CianwoodCity Sign 1")
+}
+
+script CianwoodCity_EventScript_Sign2 {
+    msgbox(CianwoodCity_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text CianwoodCity_Text_Sign2 {
+    format("CianwoodCity Sign 2")
+}
+
+script CianwoodCity_EventScript_Sign3 {
+    msgbox(CianwoodCity_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text CianwoodCity_Text_Sign3 {
+    format("CianwoodCity Sign 3")
+}

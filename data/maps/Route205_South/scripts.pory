@@ -1,3 +1,12 @@
 mapscripts Route205_South_MapScripts {
 }
 
+
+script Route205_South_EventScript_Sign1 {
+    msgbox(Route205_South_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text Route205_South_Text_Sign1 {
+    format("Route205_South Sign 1")
+}

@@ -1,3 +1,21 @@
 mapscripts HearthomeCity_MapScripts {
 }
 
+
+script HearthomeCity_EventScript_Sign1 {
+    msgbox(HearthomeCity_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text HearthomeCity_Text_Sign1 {
+    format("HearthomeCity Sign 1")
+}
+
+script HearthomeCity_EventScript_Sign2 {
+    msgbox(HearthomeCity_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text HearthomeCity_Text_Sign2 {
+    format("HearthomeCity Sign 2")
+}

@@ -1,3 +1,30 @@
 mapscripts MahoganyTown_MapScripts {
 }
 
+
+script MahoganyTown_EventScript_Sign1 {
+    msgbox(MahoganyTown_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text MahoganyTown_Text_Sign1 {
+    format("MahoganyTown Sign 1")
+}
+
+script MahoganyTown_EventScript_Sign2 {
+    msgbox(MahoganyTown_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text MahoganyTown_Text_Sign2 {
+    format("MahoganyTown Sign 2")
+}
+
+script MahoganyTown_EventScript_Gym3 {
+    msgbox(MahoganyTown_Text_Gym3, MSGBOX_SIGN)
+    end
+}
+
+text MahoganyTown_Text_Gym3 {
+    format("Mahogany Gym")
+}

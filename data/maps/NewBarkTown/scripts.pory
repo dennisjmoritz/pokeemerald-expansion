@@ -1,3 +1,21 @@
 mapscripts NewBarkTown_MapScripts {
 }
 
+
+script NewBarkTown_EventScript_Sign1 {
+    msgbox(NewBarkTown_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text NewBarkTown_Text_Sign1 {
+    format("NewBarkTown Sign 1")
+}
+
+script NewBarkTown_EventScript_Sign2 {
+    msgbox(NewBarkTown_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text NewBarkTown_Text_Sign2 {
+    format("NewBarkTown Sign 2")
+}

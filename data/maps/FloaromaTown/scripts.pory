@@ -1,3 +1,30 @@
 mapscripts FloaromaTown_MapScripts {
 }
 
+
+script FloaromaTown_EventScript_Sign1 {
+    msgbox(FloaromaTown_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text FloaromaTown_Text_Sign1 {
+    format("FloaromaTown Sign 1")
+}
+
+script FloaromaTown_EventScript_Sign2 {
+    msgbox(FloaromaTown_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text FloaromaTown_Text_Sign2 {
+    format("FloaromaTown Sign 2")
+}
+
+script FloaromaTown_EventScript_Sign3 {
+    msgbox(FloaromaTown_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text FloaromaTown_Text_Sign3 {
+    format("FloaromaTown Sign 3")
+}

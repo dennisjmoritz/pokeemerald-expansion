@@ -1,3 +1,39 @@
 mapscripts CanalaveCity_MapScripts {
 }
 
+
+script CanalaveCity_EventScript_Sign1 {
+    msgbox(CanalaveCity_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text CanalaveCity_Text_Sign1 {
+    format("CanalaveCity Sign 1")
+}
+
+script CanalaveCity_EventScript_Sign2 {
+    msgbox(CanalaveCity_Text_Sign2, MSGBOX_SIGN)
+    end
+}
+
+text CanalaveCity_Text_Sign2 {
+    format("CanalaveCity Sign 2")
+}
+
+script CanalaveCity_EventScript_Sign3 {
+    msgbox(CanalaveCity_Text_Sign3, MSGBOX_SIGN)
+    end
+}
+
+text CanalaveCity_Text_Sign3 {
+    format("CanalaveCity Sign 3")
+}
+
+script CanalaveCity_EventScript_Sign4 {
+    msgbox(CanalaveCity_Text_Sign4, MSGBOX_SIGN)
+    end
+}
+
+text CanalaveCity_Text_Sign4 {
+    format("CanalaveCity Sign 4")
+}

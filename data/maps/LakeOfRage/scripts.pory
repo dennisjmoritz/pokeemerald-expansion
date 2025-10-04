@@ -1,3 +1,12 @@
 mapscripts LakeOfRage_MapScripts {
 }
 
+
+script LakeOfRage_EventScript_Sign1 {
+    msgbox(LakeOfRage_Text_Sign1, MSGBOX_SIGN)
+    end
+}
+
+text LakeOfRage_Text_Sign1 {
+    format("LakeOfRage Sign 1")
+}
