@@ -27,3 +27,8 @@ script BlackthornCity_Mart_EventScript_SmithNPC3 {
 text BlackthornCity_Mart_Text_SmithNPC3 {
     format("Never send a human to do a machine's job.$")
 }
+
+script BlackthornCity_Mart_EventScript_Clerk {
+    end
+}
+

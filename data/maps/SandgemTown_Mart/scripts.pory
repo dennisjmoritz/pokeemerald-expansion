@@ -27,3 +27,8 @@ script SandgemTown_Mart_EventScript_SmithNPC3 {
 text SandgemTown_Mart_Text_SmithNPC3 {
     format("Never send a human to do a machine's job.$")
 }
+
+script SandgemTown_Mart_EventScript_Clerk {
+    end
+}
+

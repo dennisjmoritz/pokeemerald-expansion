@@ -1,0 +1,7 @@
+mapscripts BattleFrontier_Mart_MapScripts {
+}
+
+script BattleFrontier_Mart_EventScript_Clerk {
+    end
+}
+

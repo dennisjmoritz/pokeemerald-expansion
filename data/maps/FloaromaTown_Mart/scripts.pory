@@ -27,3 +27,8 @@ script FloaromaTown_Mart_EventScript_SmithNPC3 {
 text FloaromaTown_Mart_Text_SmithNPC3 {
     format("Never send a human to do a machine's job.$")
 }
+
+script FloaromaTown_Mart_EventScript_Clerk {
+    end
+}
+

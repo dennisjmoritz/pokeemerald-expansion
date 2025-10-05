@@ -27,3 +27,8 @@ script JubilifeCity_Mart_EventScript_SmithNPC3 {
 text JubilifeCity_Mart_Text_SmithNPC3 {
     format("Never send a human to do a machine's job.$")
 }
+
+script JubilifeCity_Mart_EventScript_Clerk {
+    end
+}
+
